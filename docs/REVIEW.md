@@ -33,6 +33,9 @@ tags, a short summary and the first source. Set **Decision** to `include` / `exc
 add **Notes**, sort and filter freely; rows are matched by **Key**. A blank Decision leaves the record
 as it was. Import with `npm run review:import -- path/to/review-queue.xlsx` (add `--dry-run` to preview).
 
+`scripts/review-export-all.sh [OUT_DIR]` does the same export over this branch plus every open
+research pull request merged in a throwaway worktree, so records can be reviewed before their PR merges.
+
 **Review page.** Preview builds have `/review/`: every record grouped by category, filterable by
 status, category, relevance and text, with Include / Exclude / Pending buttons, bulk actions and notes.
 Choices stay in the browser until **Download decisions** saves a CSV, which imports the same way.
