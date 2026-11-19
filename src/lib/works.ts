@@ -9,6 +9,8 @@ export const WORK_KINDS: [string, string, string][] = [
   ['convention', 'Conventions', 'Fan conventions and gatherings.'],
   ['parody', 'Parodies', 'Spoofs and send-ups.'],
   ['television', 'Television', 'Other television connected to the franchise.'],
+  ['memorial', 'Memorials', 'Graves, statues, plaques and places named in Serling\'s honor.'],
+  ['education', 'In the classroom', 'Teleplays in school anthologies, lesson plans and courses.'],
   ['fan-community', 'Fan communities', 'Fan art hubs, forums, wikis and subreddits.'],
   ['link', 'Links and resources', 'Curated external resources about the show and its makers.'],
   ['other', 'Other', 'Everything else.'],

@@ -275,7 +275,7 @@ const works = defineCollection({
   loader: yaml('works'),
   schema: z.object({
     title: z.string(),
-    kind: z.enum(['game', 'collectible', 'artwork', 'stage', 'attraction', 'parody', 'convention', 'television', 'soundtrack', 'event', 'link', 'fan-community', 'other']),
+    kind: z.enum(['game', 'collectible', 'artwork', 'stage', 'attraction', 'parody', 'convention', 'television', 'soundtrack', 'event', 'link', 'fan-community', 'memorial', 'education', 'other']),
     year: z.union([z.number(), z.string()]).optional(),
     creator: z.string().optional(),
     publisher: z.string().optional(),
