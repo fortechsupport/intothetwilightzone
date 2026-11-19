@@ -38,9 +38,9 @@ a record that does not match fails the build.
 | archives | `archives/<slug>.yaml` | name | institution, location, dates, extent, description, url |
 | radio | `radio/<slug>.yaml` | title | series_title, season, season_order, volume, volume_order, volume_released, original_writer, adapted_by, voiced_by[], adapts_episode (episode id), description |
 | podcasts | `podcasts/<slug>.yaml` | title | hosts[], first_episode, description, status (`active`/`ended`/`unknown`) |
-| people | `people/<slug>.yaml` | name | born, died, bio (own words) |
+| people | `people/<slug>.yaml` | name | born, died, bio (own words), roles[], tz_credits[] ({series, work, role?, ref?: episode id or `films/<slug>`}) for credits no episode/film record carries |
 | quotes | `quotes/<slug>.yaml` | person (exact name), text (≤400 chars) | date, context, episodes[] (episode ids) |
-| works | `works/<slug>.yaml` | title, kind (`game`/`collectible`/`artwork`/`stage`/`attraction`/`parody`/`convention`/`television`/`soundtrack`/`event`/`link`/`fan-community`/`other`) | year, creator, publisher, description (own words), subtype, details (free-form map) |
+| works | `works/<slug>.yaml` | title, kind (`game`/`collectible`/`artwork`/`stage`/`attraction`/`parody`/`convention`/`television`/`soundtrack`/`event`/`link`/`fan-community`/`memorial`/`education`/`other`) | year, creator, publisher, description (own words), subtype, details (free-form map) |
 | locations | `locations/<slug>.yaml` | name | kind (`backlot-set`/`filming-location`/`serling-place`/`attraction`/`museum-exhibit`/`memorial`/`archive`), address, city, region, country, lat, lng, status, opened, closed, filmed[] ({ref, note}), notes |
 
 `connections.kind`: `official-adaptation`, `remake`, `inspired-by`, `homage`, `parody`, `reference`, `lyric-mention`.

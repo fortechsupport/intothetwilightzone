@@ -202,6 +202,14 @@ const people = defineCollection({
     born: z.string().optional(),
     died: z.string().optional(),
     bio: z.string().optional(),
+    roles: names,
+    // Credits that no episode or film record carries (composers, producers, crew, hosts, historians).
+    tz_credits: z.array(z.object({
+      series: z.string(),
+      work: z.string(),
+      role: z.string().optional(),
+      ref: z.string().optional(),
+    })).default([]),
     ...common,
   }),
 });
@@ -242,7 +250,7 @@ const works = defineCollection({
   loader: yaml('works'),
   schema: z.object({
     title: z.string(),
-    kind: z.enum(['game', 'collectible', 'artwork', 'stage', 'attraction', 'parody', 'convention', 'television', 'soundtrack', 'event', 'link', 'fan-community', 'other']),
+    kind: z.enum(['game', 'collectible', 'artwork', 'stage', 'attraction', 'parody', 'convention', 'television', 'soundtrack', 'event', 'link', 'fan-community', 'memorial', 'education', 'other']),
     year: z.union([z.number(), z.string()]).optional(),
     creator: z.string().optional(),
     publisher: z.string().optional(),

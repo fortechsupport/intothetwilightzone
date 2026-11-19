@@ -19,6 +19,7 @@ const ranked = [...byEpisode.entries()].sort((a, b) => b[1].length - a[1].length
     {rows.length} later works traced back to {byEpisode.size} episodes. Each link is labelled by how well it is documented,
     from a creator's own words to connections fans have noticed but nobody has yet sourced.
   </p>
+  <p>For what filmmakers, writers and musicians have said about the show in their own words, see <a href="/voices/">Voices</a>.</p>
   <p class="notice">Most links below came from early research and are marked fan-noted until a source is added. Know of a source? <a href="/about/#contact">Send it in</a>.</p>
   {ranked.map(([epId, items]) => (
     <section>
