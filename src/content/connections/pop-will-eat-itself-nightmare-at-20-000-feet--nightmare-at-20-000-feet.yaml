@@ -1,0 +1,9 @@
+from: songs/pop-will-eat-itself-nightmare-at-20-000-feet
+to: 1959/nightmare-at-20-000-feet
+kind: reference
+confidence: documented
+evidence: Named after the William Shatner gremlin-on-the-wing episode, the track samples dialogue from it.
+sources:
+- title: twilightzone.fandom.com
+  url: https://twilightzone.fandom.com/wiki/Audio_recordings_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'

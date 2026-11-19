@@ -1,0 +1,26 @@
+title: The Twilight Zone Game
+kind: game
+subtype: board-game
+year: 1964
+publisher: Ideal Toy Company
+description: Ideal Toy Company's licensed roll-and-move style board game, played with a three-ring spinner instead
+  of dice. Players race coloured pawns from the centre of the board along a maze called the Road to Reality to reach
+  their home corner. Blocking cards, an "eye" result that sends you onto a rival's longer path, and Hand of Destiny
+  spaces add unpredictable twists. It is generally cited as the first Twilight Zone merchandise game.
+details:
+  platforms:
+  - tabletop
+  licensed: true
+ids:
+  bgg: '30347'
+sources:
+- title: toytales.ca
+  url: https://toytales.ca/the-twilight-zone-game-from-ideal-toy-company-1964/
+- title: BoardGameGeek
+  url: https://boardgamegeek.com/boardgame/30347/the-twilight-zone-game
+- title: slashfilm.com
+  url: https://www.slashfilm.com/1909975/twilight-zone-merchandise-board-game-before-pilot
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(franchise)
+research_confidence: high
+last_verified: '2026-11-19'

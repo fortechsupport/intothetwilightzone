@@ -1,0 +1,16 @@
+title: The Twilight Zone Museum
+kind: fan-community
+subtype: community
+description: A long-standing independent fan reference site with sections on the show's title sequences, home video
+  releases and other media history.
+details:
+  platform: Independent website
+links:
+  home: https://twilightzonemuseum.com/
+sources:
+- title: twilightzonemuseum.com
+  url: https://twilightzonemuseum.com/media/dvd/index.php
+- title: twilightzonemuseum.com
+  url: https://twilightzonemuseum.com/media/title.php
+research_confidence: medium
+last_verified: '2026-11-19'

@@ -1,0 +1,21 @@
+title: The Twilight Zone Trading Cards (Series 1)
+kind: collectible
+subtype: trading-cards
+year: 1999
+creator: Rittenhouse Archives
+description: Rittenhouse's first Twilight Zone card set, a 72-card base set drawn from the original series. It started
+  a run that numbered later series to continue from it.
+details:
+  line: The Twilight Zone
+  series: The Twilight Zone (1959)
+  items:
+  - 72-card base set
+  - Uncut sheet
+  - Progressive proofs
+  - Binder exclusive
+  licensed: true
+sources:
+- title: nslists.com
+  url: https://nslists.com/twizone.htm
+research_confidence: high
+last_verified: '2026-11-19'

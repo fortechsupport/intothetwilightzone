@@ -1,0 +1,18 @@
+title: The Twilight Zone (IGT slot machine)
+kind: game
+subtype: slot-machine
+creator: IGT
+publisher: IGT
+description: IGT's licensed casino video slot, housed in an oversized cabinet topped with physical spinning wheels.
+  Players pick a "dimension" before spinning to set volatility, and episode icons such as the mannequin, the spinning
+  top and a portal trigger on-reel bonuses alongside a wheel feature and an "Into the Zone" bonus. IGT also marketed
+  a 3D variant.
+details:
+  platforms:
+  - casino cabinet
+  licensed: true
+sources:
+- title: slots.org
+  url: https://www.slots.org/software/igt/the-twilight-zone/
+research_confidence: medium
+last_verified: '2026-11-19'

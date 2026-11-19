@@ -1,0 +1,14 @@
+title: TMDB – The Twilight Zone
+kind: link
+subtype: database
+publisher: The Movie Database (community)
+description: Community database entry with episode metadata and current streaming providers for the original series.
+details:
+  status: active
+links:
+  official: https://www.themoviedb.org/tv/6357
+sources:
+- title: themoviedb.org:443
+  url: https://www.themoviedb.org:443/tv/6357
+research_confidence: high
+last_verified: '2026-11-19'
