@@ -11,7 +11,7 @@ const mags = (await getCollection('magazines')).sort((a, b) => (a.data.order ?? 
     <thead><tr><th>Issue</th><th>Cover date</th><th>Editor</th><th>Publisher</th><th>Links</th></tr></thead>
     <tbody>
       {mags.map((m) => (
-        <tr id={m.id}><td>{m.data.title}</td><td>{m.data.cover_date}</td><td>{m.data.editor}</td><td>{m.data.publisher}</td><td><ExtLinks ids={m.data.ids} links={m.data.links} /></td></tr>
+        <tr id={m.id}><td>{m.data.title}{m.data.description && <div class="small muted">{m.data.description}</div>}</td><td>{m.data.cover_date}</td><td>{m.data.editor}</td><td>{m.data.publisher}</td><td><ExtLinks ids={m.data.ids} links={m.data.links} /></td></tr>
       ))}
     </tbody>
   </table></div>

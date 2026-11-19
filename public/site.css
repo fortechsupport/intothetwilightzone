@@ -75,3 +75,7 @@ ul.plain li { padding: 6px 0; border-bottom: 1px solid var(--line); }
   dl.facts { grid-template-columns: 1fr; gap: 2px; }
   dl.facts dd { margin-bottom: 8px; }
 }
+.entries { list-style: none; padding: 0; }
+.entries li { margin: 0 0 1.1rem; }
+.entries li strong { display: block; }
+.entries li p { margin: 0.25rem 0 0; max-width: 46em; }

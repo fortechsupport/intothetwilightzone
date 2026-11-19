@@ -1,11 +1,30 @@
 title: Stories From The Twilight Zone
 authors:
 - Rod Serling
-publisher: Spectra
-published: '1960-01-01'
+publisher: Bantam Books
+published: '1960-04'
+pages: 151
+kind: anthology
+description: Rod Serling's first paperback of prose adaptations of his own Twilight Zone teleplays, six
+  stories in all. It sold several hundred thousand copies in its first two years and began a run of three
+  Bantam collections.
+episodes:
+- 1959/the-mighty-casey
+- 1959/escape-clause
+- 1959/walking-distance
+- 1959/the-fever
+- 1959/where-is-everybody
+- 1959/the-monsters-are-due-on-maple-street
 ids:
   goodreads: '948247'
   amazon_asin: '1490423915'
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Martin Grams, 'Revisiting Twilight Zone Books' (2025)
+  url: https://martingrams.blogspot.com/2025/01/revisiting-twilight-zone-books.html
+- title: 'SF Encyclopedia: Serling, Rod'
+  url: https://sf-encyclopedia.com/entry/serling_rod
+last_verified: '2026-11-19'
+locked: true

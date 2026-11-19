@@ -2,11 +2,21 @@ title: The Best of Rod Serling's Twilight Zone Scripts
 authors:
 - Rod Serling
 - Tony Albarella
-publisher: Edge Book
-published: '2014-11-21'
+publisher: Gauntlet Press (Edge Books)
+published: '2014'
+kind: scripts
+description: A single-volume trade paperback of selected Serling teleplays drawn from Albarella's ten-volume
+  complete-scripts set.
 ids:
   goodreads: '23375532'
   amazon_asin: '1934267457'
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SF Encyclopedia: Serling, Rod'
+  url: https://sf-encyclopedia.com/entry/serling_rod
+- title: Gauntlet Press product page
+  url: https://www.gauntletpress.com/?p=1269
+last_verified: '2026-11-19'
+locked: true

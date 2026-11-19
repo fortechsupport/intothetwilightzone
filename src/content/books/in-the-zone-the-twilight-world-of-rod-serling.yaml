@@ -1,11 +1,20 @@
 title: 'In the Zone: The Twilight World of Rod Serling'
 authors:
 - Peter Wolfe
-publisher: Popular Press 1
-published: '1997-06-01'
+publisher: Bowling Green State University Popular Press
+published: '1997'
+isbn: '0879727306'
+kind: scholarly
+description: A critical study of Serling's writing for television, centered on The Twilight Zone and its
+  recurring themes.
 ids:
   goodreads: '948234'
   amazon_asin: '0879727306'
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Wikipedia: Twilight Zone literature'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_literature
+last_verified: '2026-11-19'
+locked: true

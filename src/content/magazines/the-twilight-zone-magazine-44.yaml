@@ -4,8 +4,18 @@ cover_date: Oct 1986
 order: 44
 publisher: TZ Publications, Inc.
 editor: Michael Blaine
+description: October 1986 issue, assembled from material Michael Blaine had acquired but put together
+  by associate editor Alan Rodgers and managing editor Robin Bromley after Blaine's departure; a transitional
+  issue before Tappan King took over.
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60210
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+- title: 'Twilight Zone Vortex: capsule history of the magazine'
+  url: http://twilightzonevortex.blogspot.com/2012/01/rod-serlings-twilight-zone-magazine.html
+last_verified: '2026-11-19'
+locked: true

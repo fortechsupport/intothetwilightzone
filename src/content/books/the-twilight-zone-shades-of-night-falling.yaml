@@ -1,6 +1,20 @@
 title: 'The Twilight Zone: Shades of Night, Falling'
 authors:
 - John J. Miller
+publisher: ibooks
+published: '2003-05-20'
+pages: 272
+isbn: '0743458583'
+kind: novel
+description: Book 1 of an original ibooks trilogy of Twilight Zone novels (2003–04), sometimes listed
+  under the title Harvest Moon.
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Open Library edition
+  url: https://openlibrary.org/isbn/0743458583
+- title: 'Wikipedia: Twilight Zone literature'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_literature
+last_verified: '2026-11-19'
+locked: true

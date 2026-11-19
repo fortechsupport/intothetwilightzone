@@ -1,11 +1,22 @@
 title: 'Monsters on Maple Street: The Twilight Zone and the Postwar American Dream'
 authors:
 - David J. Brokaw
-publisher: The University Press of Kentucky
-published: '2023-08-08'
+publisher: University Press of Kentucky
+published: '2023'
+isbn: '9780813197845'
+kind: scholarly
+description: A cultural history that reads the original series against postwar American anxieties about
+  conformity, suburbia, nuclear war and the American dream.
 ids:
   goodreads: '62314135'
   amazon_asin: '0813199271'
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Publishers Weekly listing
+  url: https://www.publishersweekly.com/9780813197845
+- title: Pen & Sword (UK distributor) listing
+  url: https://www.pen-and-sword.co.uk/Monsters-on-Maple-Street-Hardback/p/48843
+last_verified: '2026-11-19'
+locked: true

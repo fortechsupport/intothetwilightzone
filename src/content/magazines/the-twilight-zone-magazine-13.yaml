@@ -4,8 +4,16 @@ cover_date: Apr 1982
 order: 13
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+description: April 1982 issue, opening volume 2, with Harlan Ellison's Locus Award-winning story 'Djinn,
+  No Chaser' and Dan Simmons's first published story, 'The River Styx Runs Upstream', co-winner of the
+  magazine's first short story contest.
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60154
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+last_verified: '2026-11-19'
+locked: true

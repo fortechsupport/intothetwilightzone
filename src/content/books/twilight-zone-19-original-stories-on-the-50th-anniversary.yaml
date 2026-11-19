@@ -1,12 +1,22 @@
 title: 'Twilight Zone: 19 Original Stories on the 50th Anniversary'
 authors:
 - Carol Serling
-- other authors
 publisher: Tor Books
-published: '2009-08-12'
+published: '2009'
+isbn: '9780765324337'
+kind: anthology
+description: An anthology of new stories commissioned for the series' 50th anniversary from writers including
+  R. L. Stine and Kelley Armstrong, edited by Carol Serling. It also includes a Rod Serling story.
 ids:
   goodreads: '6861842'
   amazon_asin: '0765324334'
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Wikipedia article
+  url: https://wikipedia.com/wiki/Twilight_Zone:_19_Original_Stories_on_the_50th_Anniversary
+- title: Tattered Cover listing
+  url: https://www.tatteredcover.com/products/9780765324337
+last_verified: '2026-11-19'
+locked: true

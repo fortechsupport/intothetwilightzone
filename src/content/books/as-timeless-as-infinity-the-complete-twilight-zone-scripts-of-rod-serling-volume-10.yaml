@@ -2,6 +2,30 @@ title: 'As Timeless As Infinity: The Complete Twilight Zone Scripts of Rod Serli
 authors:
 - Rod Serling
 - Tony Albarella
+publisher: Gauntlet Press
+published: '2013'
+kind: scripts
+description: Volume 10 of Gauntlet Press's ten-volume hardcover set collecting every Twilight Zone teleplay
+  Rod Serling wrote, edited and annotated by Tony Albarella. It reprints 9 of Serling's scripts, some
+  in alternate drafts, with commentary and background material.
+episodes:
+- 1959/the-after-hours
+- 1959/a-thing-about-machines
+- 1959/the-lateness-of-the-hour
+- 1959/back-there
+- 1959/five-characters-in-search-of-an-exit
+- 1959/the-gift
+- 1959/the-bard
+- 1959/the-fear
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Gauntlet Press, The Complete Twilight Zone Scripts of Rod Serling
+  url: https://www.gauntletpress.com/?p=1166
+- title: 'SF Encyclopedia: Rod Serling (bibliography)'
+  url: https://sf-encyclopedia.com/entry/serling_rod
+- title: Goodreads series page
+  url: https://www.goodreads.com/series/259667-as-timeless-as-infinity-the-complete-twilight-zone-scripts-of-rod-serli
+last_verified: '2026-11-19'
+locked: true

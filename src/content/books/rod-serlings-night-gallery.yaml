@@ -1,6 +1,16 @@
 title: Rod Serling's Night Gallery
 authors:
 - Rod Serling
+publisher: Bantam Books
+published: '1971'
+kind: anthology
+description: A paperback of Serling's prose versions of stories he wrote for his later anthology series
+  Night Gallery. Related to Serling's career rather than to The Twilight Zone itself.
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SF Encyclopedia: Serling, Rod'
+  url: https://sf-encyclopedia.com/entry/serling_rod
+last_verified: '2026-11-19'
+locked: true

@@ -2,10 +2,25 @@ title: The Twilight Zone Companion
 authors:
 - Marc Scott Zicree
 publisher: Bantam Books
-published: '1982-01-01'
+published: '1982'
+kind: reference
+description: The standard episode-by-episode guide to the original series, combining production history
+  with interviews of cast and crew. A second edition (1989) added the 1985 revival, and Silman-James later
+  issued a third edition.
 ids:
   goodreads: '183663'
   amazon_asin: '1935247174'
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SF Encyclopedia: Twilight Zone, The'
+  url: https://sf-encyclopedia.com/entry/twilight_zone_the
+- title: 'Wikipedia: Twilight Zone literature'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_literature
+- title: 'Silman-James Press: 3rd edition'
+  url: https://www.silmanjamespress.com/shop/tv/the-twilight-zone-companion-3rd-edition/
+- title: RodSerling.com books page
+  url: https://rodserling.com/?p=2240
+last_verified: '2026-11-19'
+locked: true

@@ -1,11 +1,25 @@
 title: More Stories From The Twilight Zone
 authors:
-- Various Authors
-publisher: Tor Nightfire
-published: '2010-06-29'
+- Carol Serling
+publisher: Tor Books
+published: '2010'
+isbn: '9780765325815'
+kind: anthology
+description: An anthology of new stories written in the spirit of the series, edited by Carol Serling
+  as a follow-up to the 2009 50th-anniversary collection. It shares its title with Rod Serling's 1961
+  Bantam book but is an unrelated work.
 ids:
   goodreads: '7972307'
   amazon_asin: '0765325829'
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Tor Publishing Group page
+  url: https://torpublishinggroup.com/?p=32618
+- title: Worlds Without End listing
+  url: https://www.worldswithoutend.com/novel.asp?ID=36714
+- title: FictionDB listing
+  url: https://www.fictiondb.com/title/more-stories-from-the-twilight-zone~carol-serling~268857.htm
+last_verified: '2026-11-19'
+locked: true

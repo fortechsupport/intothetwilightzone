@@ -1,6 +1,19 @@
 title: 'Spaceships and Politics: The Political Theory of Rod Serling'
 authors:
 - Leslie Dale Feldman
+publisher: Lexington Books
+published: '2010'
+isbn: '9780739120453'
+kind: scholarly
+description: A political-science study by Hofstra professor Leslie Dale Feldman reading Serling's Twilight
+  Zone and other scripts as political theory, on topics such as conformity, totalitarianism, war and prejudice.
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Texas A&M library record
+  url: https://libcat.library.tamu.edu/Record/in00002641721/TOC
+- title: 'WAMC Academic Minute: Leslie Feldman'
+  url: https://www.wamc.org/academic-minute/2011-04-13/dr-leslie-feldman-hofstra-university-politics-and-the-twilight-zone
+last_verified: '2026-11-19'
+locked: true

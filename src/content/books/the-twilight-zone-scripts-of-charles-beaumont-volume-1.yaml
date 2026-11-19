@@ -2,6 +2,19 @@ title: The Twilight Zone Scripts of Charles Beaumont, Volume 1
 authors:
 - Charles Beaumont
 - Roger Anker
+publisher: Gauntlet Press
+published: '2004'
+isbn: '1887368736'
+kind: scripts
+description: A collection of Charles Beaumont's teleplays for the original series, edited by Roger Anker
+  with notes and recollections.
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Publishers Weekly listing
+  url: https://www.publishersweekly.com/9781887368735
+- title: Gauntlet Press product page
+  url: https://www.gauntletpress.com/product/the-twilight-zone-scripts-of-charles-beaumont/
+last_verified: '2026-11-19'
+locked: true

@@ -1,6 +1,17 @@
 title: 'The Twilight Zone: The Road Less Traveled'
 authors:
-- George R.R. Martin
+- George R. R. Martin
+kind: scripts
+description: 'George R. R. Martin''s teleplay for the 1986 revival episode. It has been printed in his
+  collections (for example GRRM: A RRetrospective, Subterranean Press, 2003) rather than as a stand-alone
+  book.'
+episodes:
+- 1985/the-road-less-traveled
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Locus Index 2003 (contents of GRRM: A RRetrospective)'
+  url: https://locusmag.com/index/yr2003/t32.htm
+last_verified: '2026-11-19'
+locked: true

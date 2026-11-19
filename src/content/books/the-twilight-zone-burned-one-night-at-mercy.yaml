@@ -1,6 +1,18 @@
 title: 'The Twilight Zone: Burned / One Night at Mercy'
 authors:
 - Christa Faust
+publisher: Black Flame
+published: '2004'
+kind: novelization
+description: One of five Black Flame paperbacks that novelize two episodes each of the 2002–03 UPN revival.
+episodes:
+- 2002/burned
+- 2002/one-night-at-mercy
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Wikipedia: Twilight Zone literature'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_literature
+last_verified: '2026-11-19'
+locked: true

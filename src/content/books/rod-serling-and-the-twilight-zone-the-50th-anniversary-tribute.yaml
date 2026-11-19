@@ -3,10 +3,18 @@ authors:
 - Douglas Brode
 - Carol Serling
 publisher: Barricade Books
-published: '2009-01-25'
+published: '2009'
+kind: reference
+description: An illustrated hardcover tribute that surveys Serling's career and the series, published
+  for its 50th anniversary.
 ids:
   goodreads: '3733352'
   amazon_asin: '1569804605'
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SF Encyclopedia: Serling, Rod'
+  url: https://sf-encyclopedia.com/entry/serling_rod
+last_verified: '2026-11-19'
+locked: true

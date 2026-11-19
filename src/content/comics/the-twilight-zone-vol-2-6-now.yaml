@@ -2,10 +2,21 @@ title: 'The Twilight Zone Vol 2 #6 (Now)'
 series_name: The Twilight Zone
 publisher: Now Comics
 order: 103
-links:
-  info: https://www.comics.org/issue/333773/
+cover_date: '1992-04'
+creators:
+- Jeffrey Lang (writer)
+- Tony Harris (artist, cover)
+description: 'Stories: "Insecticide".'
 ids:
   amazon_asin: B07661RZX1
+links:
+  info: https://www.comics.org/issue/333773/
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Mycomicshop: Twilight Zone (1991 Now 2nd Series)'
+  url: https://mycomicshop.com/search?TID=159721
+- title: 'Atomic Avenue: The Twilight Zone (Vol. 2)'
+  url: https://atomicavenue.com/atomic/series/19811/1/Twilight-Zone-The-Vol-2
+last_verified: '2026-11-19'
+locked: true

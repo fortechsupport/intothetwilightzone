@@ -1,6 +1,16 @@
 title: Rod Serling's Devils and Demons
 authors:
-- Various Authors
+- Rod Serling
+publisher: Bantam Books
+published: '1967'
+kind: anthology
+description: A Serling-branded paperback anthology of demonic and supernatural tales by various authors,
+  which the SF Encyclopedia attributes to ghost-editor Gordon R. Dickson.
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SF Encyclopedia: Serling, Rod'
+  url: https://sf-encyclopedia.com/entry/serling_rod
+last_verified: '2026-11-19'
+locked: true

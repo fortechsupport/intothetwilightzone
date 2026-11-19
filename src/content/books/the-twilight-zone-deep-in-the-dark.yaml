@@ -1,6 +1,18 @@
 title: 'The Twilight Zone: Deep in the Dark'
 authors:
 - John Helfers
+publisher: ibooks
+published: '2004'
+kind: novel
+description: Book 3 of the ibooks Twilight Zone novel trilogy, a far-future story that opens on New Year's
+  Day 2159.
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: FantasticFiction
+  url: https://www.fantasticfiction.com/h/john-helfers/deep-in-dark.htm
+- title: 'Wikipedia: Twilight Zone literature'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_literature
+last_verified: '2026-11-19'
+locked: true

@@ -1,11 +1,22 @@
 title: 'The Twilight Zone: Unlocking the Door to a Television Classic'
 authors:
 - Martin Grams Jr.
-publisher: O T R Publishing
-published: '2008-09-01'
+publisher: OTR Publishing
+published: '2008'
+pages: 800
+kind: reference
+description: A massive production history of the original series drawn from studio and network paperwork,
+  covering each episode's development, filming and broadcast.
 ids:
   goodreads: '4848923'
   amazon_asin: '0970331096'
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Wikipedia: Twilight Zone literature'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_literature
+- title: Martin Grams, 'Revisiting Twilight Zone Books' (2025)
+  url: https://martingrams.blogspot.com/2025/01/revisiting-twilight-zone-books.html
+last_verified: '2026-11-19'
+locked: true

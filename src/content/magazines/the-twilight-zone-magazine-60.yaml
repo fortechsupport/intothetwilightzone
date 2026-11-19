@@ -4,8 +4,17 @@ cover_date: Jun 1989
 order: 60
 publisher: TZ Publications, Inc.
 editor: Tappan King
+description: June 1989 issue, the sixtieth and final number; the magazine was dropped after it without
+  any announced farewell. Cover art by Gottfried Helnwein.
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60151
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+- title: 'Twilight Zone Vortex: capsule history of the magazine'
+  url: http://twilightzonevortex.blogspot.com/2012/01/rod-serlings-twilight-zone-magazine.html
+last_verified: '2026-11-19'
+locked: true
