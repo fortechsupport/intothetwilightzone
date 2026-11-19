@@ -1,12 +1,20 @@
 title: 'The Twilight Zone FAQ: All Thats Left to Know About the Fifth Dimension and Beyond'
 authors:
 - Dave Thompson
-publisher: Applause
-published: '2015-11-03'
+publisher: Applause Theatre & Cinema Books (Hal Leonard)
+published: '2015-11'
+relevance: core
+pages: 392
+isbn: '9781480396180'
+kind: reference
 ids:
   goodreads: '27014105'
   amazon_asin: B01K3RMOHG
-relevance: core
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Readings listing
+  url: https://www.readings.com.au/product/9781480396180/the-twilight-zone-faq--dave-thompson--2015--9781480396180
+last_verified: '2026-11-19'
+locked: true

@@ -3,10 +3,19 @@ authors:
 - Bill DeVoe
 publisher: BearManor Media
 published: '2008-03-06'
+relevance: core
+isbn: '1593931360'
+kind: puzzle-trivia
+description: Bill DeVoe's trivia and puzzle book on the original series, with quizzes, word searches,
+  photo matches and a jumbo crossword built around props, characters and quotes from the episodes.
 ids:
   goodreads: '4963987'
   amazon_asin: '1593931360'
-relevance: core
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: BearManor Media softcover page
+  url: https://www.bearmanormedia.com/products/trivia-from-the-twilight-zone-softcover-edition-by-bill-devoe
+last_verified: '2026-11-19'
+locked: true

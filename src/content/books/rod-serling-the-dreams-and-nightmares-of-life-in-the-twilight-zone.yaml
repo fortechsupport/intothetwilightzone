@@ -2,15 +2,22 @@ title: 'Rod Serling: The Dreams and Nightmares of Life in The Twilight Zone'
 authors:
 - Joel Engel
 publisher: Contemporary Books
-published: '1989-01-01'
+published: '1989'
 kind: biography
-description: Joel Engel's 1989 biography of Rod Serling, the first full-length account of his life and career. Booktrope reissued it in 2014 under the title Last Stop, The Twilight Zone.
+description: Joel Engel's 1989 biography of Rod Serling, the first full-length account of his life and
+  career. Booktrope reissued it in 2014 under the title Last Stop, The Twilight Zone.
+relevance: core
+pages: 353
+isbn: '0809245388'
 ids:
   goodreads_2014_edition: '24058758'
   goodreads: '503273'
   amazon_asin: '0809240750'
-relevance: core
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Texas A&M library catalog
+  url: https://libcat.library.tamu.edu/Record/in00000973220/Description
+last_verified: '2026-11-19'
 locked: true

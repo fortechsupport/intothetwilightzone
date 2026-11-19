@@ -2,10 +2,16 @@ title: 'The Twilight Zone # 40'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 44
-links:
-  info: https://www.comics.org/issue/24629/
+cover_date: '1971-11'
 ids:
   amazon_asin: B0084UX3PC
+links:
+  info: https://www.comics.org/issue/24629/
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Atomic Avenue: The Twilight Zone (Vol. 1)'
+  url: https://atomicavenue.com/atomic/series/794/1/The-Twilight-Zone-Vol-1
+last_verified: '2026-11-19'
+locked: true

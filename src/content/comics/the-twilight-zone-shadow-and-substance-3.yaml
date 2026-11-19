@@ -1,11 +1,27 @@
 title: 'The Twilight Zone Shadow & Substance #3'
 series_name: 'The Twilight Zone: Shadow & Substance'
-publisher: Dynamite Comics
+publisher: Dynamite Entertainment
 order: 134
-links:
-  info: https://www.dynamite.com/htmlfiles/viewProduct.html?PRO=C72513022564103011
+cover_date: '2015-03'
+creators:
+- Mark Rahner (writer)
+- Edu Menna (artist)
+kind: issue
+description: Opens the two-part "Jailbreak," about Lee, a prisoner plotting escape from a POW camp run
+  by aliens. Released March 25, 2015.
 ids:
   amazon_asin: B00USC3Z20
+links:
+  info: https://www.dynamite.com/htmlfiles/viewProduct.html?PRO=C72513022564103011
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Comic Bastards review: Shadow and Substance #3'
+  url: https://comicbastards.com/comics/review-the-twilight-zone-shadow-and-substance-3
+- title: 'Key Collector Comics: Shadow and Substance #3'
+  url: https://www.keycollectorcomics.com/issue/the-twilight-zone-shadow-and-substance-1-3-2,483321
+- title: 'ICv2: Shadow & Substance TP'
+  url: https://icv2.com/print/article/35540
+last_verified: '2026-11-19'
+locked: true

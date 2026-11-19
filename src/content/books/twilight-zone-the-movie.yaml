@@ -2,11 +2,20 @@ title: Twilight Zone The Movie
 authors:
 - Robert Bloch
 publisher: Warner Books
-published: '1983-01-01'
+published: '1983'
+relevance: core
+pages: 205
+isbn: '0446308412'
+kind: novelization
+description: Robert Bloch's paperback novelization of the four-segment 1983 film, with 16 pages of stills.
 ids:
   goodreads: '1931810'
   amazon_asin: '0446308404'
-relevance: core
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Author Wars publication record
+  url: https://authorwars.com/publications/twilight-zone-the-movie-48938.html
+last_verified: '2026-11-19'
+locked: true

@@ -1,13 +1,31 @@
 title: The Twilight Zone Scripts of Earl Hamner
 authors:
-- Earl Hamner
 - Tony Albarella
 publisher: Cumberland House Publishing
-published: '2003-03-01'
+published: '2003'
+relevance: core
+pages: 306
+isbn: '1581823304'
+kind: scripts
+description: Earl Hamner's eight teleplays for the original series in production format, each followed
+  by commentary from editor Tony Albarella, plus a photo section.
+episodes:
+- 1959/the-hunt
+- 1959/a-piano-in-the-house
+- 1959/jess-belle
+- 1959/ring-a-ding-girl
+- 1959/you-drive
+- 1959/black-leather-jackets
+- 1959/stopover-in-a-quiet-town
+- 1959/the-bewitchin-pool
 ids:
   goodreads: '232297'
   amazon_asin: '1581823304'
-relevance: core
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Author Wars publication record
+  url: https://authorwars.com/publications/the-twilight-zone-scripts-of-earl-hamner-392149.html
+last_verified: '2026-11-19'
+locked: true

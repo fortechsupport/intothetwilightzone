@@ -1,11 +1,29 @@
 title: 'The Twilight Zone: 1959'
 series_name: The Twilight Zone
-publisher: Dynamite Comics
+publisher: Dynamite Entertainment
 order: 130
-links:
-  info: https://www.dynamite.com/htmlfiles/viewProduct.html?PRO=C72513024491801011
+cover_date: '2016-02'
+creators:
+- Tom Peyer (writer)
+- Mark Rahner (writer)
+- John Layman (writer)
+- Randy Valiente (artist)
+- Colton Worley (artist)
+kind: one-shot
+description: 'A one-shot with three period-set tales: "The Laughing Matter" about a bully''s grim comeuppance,
+  "Initiation" about a hazing gone wrong, and "The Comics Code" about an anti-comics crusader who learns
+  he was nearer the truth than he knew.'
 ids:
   amazon_asin: B01BU0PB2K
+links:
+  info: https://www.dynamite.com/htmlfiles/viewProduct.html?PRO=C72513024491801011
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Graphic Policy review: The Twilight Zone 1959'
+  url: https://graphicpolicy.com/2016/02/17/review-the-twilight-zone-1959/
+- title: 'Comic Book Roundup: The Twilight Zone: 1959 (One-Shot)'
+  url: https://comicbookroundup.com/comic-books/reviews/dynamite/the-twilight-zone-1959-(one-shot)
+last_verified: '2026-11-19'
+locked: true

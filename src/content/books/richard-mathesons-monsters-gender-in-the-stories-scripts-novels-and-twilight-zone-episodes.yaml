@@ -2,12 +2,21 @@ title: 'Richard Matheson''s Monsters: Gender in the Stories, Scripts, Novels, an
 authors:
 - June Michele Pulliam
 - Anthony J. Fonseca
-publisher: Rowman & Littlefield Publishers
-published: '2015-12-31'
+publisher: Rowman & Littlefield
+published: '2016'
+relevance: core
+isbn: '9781442260672'
+kind: scholarly
+description: Critical study of masculinity and domestic roles across Matheson's fiction, screenplays and
+  Twilight Zone episodes, presented as the first book-length survey of his whole output.
 ids:
   goodreads: '26708867'
   amazon_asin: 144226067X
-relevance: core
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: LSU Faculty Books repository
+  url: https://repository.lsu.edu/facultybooks/130
+last_verified: '2026-11-19'
+locked: true

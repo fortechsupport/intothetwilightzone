@@ -1,11 +1,24 @@
 title: 'The Twilight Zone Shadow & Substance #2'
 series_name: 'The Twilight Zone: Shadow & Substance'
-publisher: Dynamite Comics
+publisher: Dynamite Entertainment
 order: 133
-links:
-  info: https://www.dynamite.com/htmlfiles/viewProduct.html?PRO=C72513022564102011
+cover_date: '2015'
+creators:
+- Mark Rahner (writer)
+- Edu Menna (artist)
+kind: issue
+description: Second issue of Mark Rahner's four-issue anthology series, concluding the opening story.
 ids:
   amazon_asin: B01D5KCBIK
+links:
+  info: https://www.dynamite.com/htmlfiles/viewProduct.html?PRO=C72513022564102011
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Comic Bastards review: Shadow and Substance #3'
+  url: https://comicbastards.com/comics/review-the-twilight-zone-shadow-and-substance-3
+- title: 'ICv2: Shadow & Substance TP'
+  url: https://icv2.com/print/article/35540
+last_verified: '2026-11-19'
+locked: true

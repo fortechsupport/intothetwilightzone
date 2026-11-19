@@ -2,10 +2,16 @@ title: 'The Twilight Zone # 48'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 52
-links:
-  info: https://www.comics.org/issue/26015/
+cover_date: '1973-03'
 ids:
   amazon_asin: B00NG23II0
+links:
+  info: https://www.comics.org/issue/26015/
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Heritage Auctions comic issue index: Twilight Zone'
+  url: https://comics.ha.com/comic-issue-index/?id=1541
+last_verified: '2026-11-19'
+locked: true
