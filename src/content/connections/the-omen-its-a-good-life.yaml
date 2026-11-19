@@ -1,0 +1,8 @@
+from: films/the-omen
+to: 1959/its-a-good-life
+kind: inspired-by
+confidence: fan-noted
+summary: The Omen is listed in Adam's research as inspired by "It’s a Good Life".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

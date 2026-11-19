@@ -1,0 +1,22 @@
+title: Chosen
+series: '2002'
+season: 1
+episode: '15'
+air_date: '2002-11-06'
+runtime_min: 22
+production_code: '114'
+writers:
+- Ira Steven Behr
+directors:
+- Winrich Kolbe
+cast:
+- Jake Busey
+- Nicholas Turturro
+- Michael Kopsa
+- Ty Olsson
+narrator: Forest Whitaker
+ids:
+  imdb: tt0734774
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

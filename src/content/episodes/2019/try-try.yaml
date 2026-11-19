@@ -1,0 +1,19 @@
+title: Try, Try
+series: '2019'
+season: 2
+episode: '9'
+air_date: '2020-06-25'
+runtime_min: 42
+writers:
+- Alex Rubens
+directors:
+- Jen McGowan
+cast:
+- Topher Grace
+- Kylie Bunbury
+narrator: Jordan Peele
+ids:
+  imdb: tt11839584
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

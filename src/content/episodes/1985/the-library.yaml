@@ -1,0 +1,23 @@
+title: The Library
+series: '1985'
+season: 1
+episode: 22c
+air_date: '1986-03-28'
+runtime_min: 18
+writers:
+- Anne Collins
+directors:
+- John Hancock
+cast:
+- Uta Hagen
+- Frances Conroy
+- Lori Petty
+- Joe Santos
+narrator: Charles Aidman
+ids:
+  imdb: tt0734739
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Library_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

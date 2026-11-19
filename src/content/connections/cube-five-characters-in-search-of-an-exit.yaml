@@ -1,0 +1,8 @@
+from: films/cube
+to: 1959/five-characters-in-search-of-an-exit
+kind: inspired-by
+confidence: fan-noted
+summary: Cube is listed in Adam's research as inspired by "Five Characters in Search of an Exit".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

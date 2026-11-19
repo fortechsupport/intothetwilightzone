@@ -1,0 +1,8 @@
+from: films/the-village
+to: 1959/a-hundred-yards-over-the-rim
+kind: inspired-by
+confidence: fan-noted
+summary: The Village is listed in Adam's research as inspired by "A Hundred Yards Over the Rim".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

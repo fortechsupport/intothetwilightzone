@@ -1,0 +1,21 @@
+title: Night Route
+series: '2002'
+season: 1
+episode: '6'
+air_date: '2002-10-02'
+runtime_min: 22
+production_code: '102'
+writers:
+- Jill Blotevogel
+directors:
+- Jean de Segonzac
+cast:
+- Ione Skye
+- Dylan Walsh
+- Michael Puttonen
+narrator: Forest Whitaker
+ids:
+  imdb: tt0734795
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

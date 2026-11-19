@@ -1,0 +1,23 @@
+title: Once Upon a Time
+series: '1959'
+season: 3
+episode: '13'
+air_date: '1961-12-15'
+runtime_min: 25
+production_code: '4820'
+writers:
+- Richard Matheson
+directors:
+- Norman Z. McLeod
+cast:
+- Buster Keaton
+- Jesse White
+- George E. Stone
+narrator: Rod Serling
+ids:
+  imdb: tt0734607
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Once_Upon_a_Time_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

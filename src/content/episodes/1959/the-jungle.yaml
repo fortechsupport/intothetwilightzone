@@ -1,0 +1,23 @@
+title: The Jungle
+series: '1959'
+season: 3
+episode: '12'
+air_date: '1961-12-01'
+runtime_min: 25
+production_code: '4806'
+writers:
+- Charles Beaumont
+directors:
+- William F. Claxton
+cast:
+- John Dehner
+- Emily McLaughlin
+- Zamba
+narrator: Rod Serling
+ids:
+  imdb: tt0734650
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Jungle_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

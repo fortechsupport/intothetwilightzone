@@ -1,0 +1,12 @@
+title: Twilight Zone
+artist: Dr. John
+album: Babylon
+genre: Blues/Jazz
+length: '8:15'
+year: 1969
+tz_connection: lyric-mention
+ids:
+  amazon_asin: B001ET2E1Y
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

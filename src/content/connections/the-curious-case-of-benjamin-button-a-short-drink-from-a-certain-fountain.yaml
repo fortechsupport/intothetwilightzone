@@ -1,0 +1,9 @@
+from: films/the-curious-case-of-benjamin-button
+to: 1959/a-short-drink-from-a-certain-fountain
+kind: inspired-by
+confidence: fan-noted
+summary: The Curious Case of Benjamin Button is listed in Adam's research as inspired by "A Short Drink
+  from a Certain Fountain".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

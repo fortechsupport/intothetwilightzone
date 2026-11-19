@@ -1,0 +1,24 @@
+title: Ovation
+series: '2019'
+season: 2
+episode: '4'
+air_date: '2020-06-25'
+runtime_min: 42
+writers:
+- David Weil
+- Emily Chang
+- Sara Amini
+writing_credit_note: 'Story by: David Weil'
+directors:
+- Ana Lily Amirpour
+cast:
+- Jurnee Smollett
+- Tawny Newsome
+- Paul F. Tompkins
+- Thomas Lennon
+narrator: Jordan Peele
+ids:
+  imdb: tt11839570
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

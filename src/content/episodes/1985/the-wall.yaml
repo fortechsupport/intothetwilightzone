@@ -1,0 +1,22 @@
+title: The Wall
+series: '1985'
+season: 3
+episode: '23'
+air_date: '1989-02-25'
+runtime_min: 22
+writers:
+- J. Michael Straczynski
+directors:
+- Atom Egoyan
+cast:
+- John Beck
+- George R. Robertson
+- Eugene Clark
+narrator: Robin Ward
+ids:
+  imdb: tt0734763
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Wall_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

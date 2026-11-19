@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import ExtLinks from '../components/ExtLinks.astro';
+import { getCollection } from 'astro:content';
+const songs = (await getCollection('songs')).sort((a, b) => (a.data.artist ?? '').localeCompare(b.data.artist ?? '') || a.data.title.localeCompare(b.data.title));
+const groups = [
+  ['theme', 'Theme music', 'Series themes and scores.'],
+  ['lyric-mention', 'Songs that name the show', 'Lyrics that mention The Twilight Zone by name.'],
+  ['reference', 'Songs that reference an episode', 'Songs built around a specific episode or image.'],
+  ['unclassified', 'Not yet classified', 'Songs in the research list that still need their connection described and sourced.'],
+] as const;
+---
+<Base title="Songs" description="Theme music and songs that mention or reference The Twilight Zone.">
+  <h1>Songs</h1>
+  <p class="lead">{songs.length} songs connected to the show, from Bernard Herrmann's theme to rock, hip-hop and metal tracks that name it.</p>
+  {groups.map(([key, title, blurb]) => {
+    const list = songs.filter((s) => s.data.tz_connection === key);
+    return list.length > 0 && (
+      <section>
+        <h2>{title} <span class="muted small">({list.length})</span></h2>
+        <p class="muted small">{blurb}</p>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Artist</th><th>Song</th><th>Year</th><th>Album</th><th>Links</th></tr></thead>
+          <tbody>
+            {list.map((s) => (
+              <tr id={s.id}>
+                <td>{s.data.artist}</td>
+                <td>{s.data.title}{s.data.lyric_excerpt && <div class="small muted">"{s.data.lyric_excerpt}"</div>}</td>
+                <td>{s.data.year}</td>
+                <td>{s.data.album}</td>
+                <td><ExtLinks ids={s.data.ids} links={s.data.links} /></td>
+              </tr>
+            ))}
+          </tbody>
+        </table></div>
+      </section>
+    );
+  })}
+</Base>

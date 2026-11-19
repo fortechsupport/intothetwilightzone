@@ -1,0 +1,8 @@
+from: films/planet-of-the-apes
+to: 1959/people-are-alike-all-over
+kind: inspired-by
+confidence: fan-noted
+summary: Planet of the Apes is listed in Adam's research as inspired by "People Are Alike All Over".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

@@ -1,0 +1,8 @@
+from: films/minority-report
+to: 1959/a-most-unusual-camera
+kind: inspired-by
+confidence: fan-noted
+summary: Minority Report is listed in Adam's research as inspired by "A Most Unusual Camera".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

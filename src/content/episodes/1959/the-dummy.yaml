@@ -1,0 +1,26 @@
+title: The Dummy
+series: '1959'
+season: 3
+episode: '33'
+air_date: '1962-05-04'
+runtime_min: 25
+production_code: '4834'
+writers:
+- Lee Polk
+- Rod Serling
+writing_credit_note: 'Teleplay by: Rod Serling; Based on a story by: Lee Polk'
+directors:
+- Abner Biberman
+cast:
+- Cliff Robertson
+- Frank Sutton
+- George Murdock
+- Edy Williams
+narrator: Rod Serling
+ids:
+  imdb: tt0734636
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Dummy
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

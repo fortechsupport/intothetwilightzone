@@ -1,0 +1,21 @@
+title: Meet in the Middle
+series: '2019'
+season: 2
+episode: '1'
+air_date: '2020-06-25'
+runtime_min: 43
+writers:
+- Emily Chang
+- Sara Amini
+directors:
+- Mathias Herndl
+cast:
+- Jimmi Simpson
+- Kristin Lehman
+- Gillian Jacobs
+narrator: Jordan Peele
+ids:
+  imdb: tt10275044
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

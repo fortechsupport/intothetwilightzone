@@ -1,0 +1,21 @@
+title: The Who of You
+series: '2019'
+season: 2
+episode: '3'
+air_date: '2020-06-25'
+runtime_min: 46
+writers:
+- Win Rosenfeld
+directors:
+- Peter Atencio
+cast:
+- Ethan Embry
+- Daniel Sunjata
+- Mel Rodriguez
+- Billy Porter
+narrator: Jordan Peele
+ids:
+  imdb: tt11839568
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

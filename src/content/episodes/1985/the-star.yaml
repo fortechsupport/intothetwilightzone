@@ -1,0 +1,23 @@
+title: The Star
+series: '1985'
+season: 1
+episode: 13c
+air_date: '1985-12-20'
+runtime_min: 12
+writers:
+- Arthur C. Clarke
+- Alan Brennert
+writing_credit_note: 'Teleplay by: Alan Brennert; Based on the short story by: Arthur C. Clarke'
+directors:
+- Gerd Oswald
+cast:
+- Fritz Weaver
+- Donald Moffat
+narrator: Charles Aidman
+ids:
+  imdb: tt0734723
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Star_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

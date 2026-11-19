@@ -1,0 +1,8 @@
+from: films/the-man-from-earth
+to: 1959/long-live-walter-jameson
+kind: inspired-by
+confidence: fan-noted
+summary: The Man from Earth is listed in Adam's research as inspired by "Long Live Walter Jameson".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

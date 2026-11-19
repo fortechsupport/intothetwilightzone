@@ -1,0 +1,8 @@
+from: films/the-truman-show
+to: 1985/special-service
+kind: inspired-by
+confidence: fan-noted
+summary: The Truman Show is listed in Adam's research as inspired by "Special Service".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

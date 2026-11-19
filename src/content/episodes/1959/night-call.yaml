@@ -1,0 +1,22 @@
+title: Night Call
+series: '1959'
+season: 5
+episode: '19'
+air_date: '1964-02-07'
+runtime_min: 25
+production_code: '2610'
+writers:
+- Richard Matheson
+directors:
+- Jacques Tourneur
+cast:
+- Gladys Cooper
+- Nora Marlowe
+narrator: Rod Serling
+ids:
+  imdb: tt0734598
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Night_Call_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

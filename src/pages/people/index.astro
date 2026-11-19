@@ -1,0 +1,30 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allPeople } from '../../lib/data';
+const people = [...(await allPeople()).values()].sort((a, b) => {
+  const last = (n: string) => n.split(' ').slice(-1)[0];
+  return last(a.name).localeCompare(last(b.name)) || a.name.localeCompare(b.name);
+});
+const groups = new Map<string, typeof people>();
+for (const p of people) {
+  const letter = (p.name.split(' ').slice(-1)[0][0] || '#').toUpperCase().replace(/[^A-Z]/, '#');
+  if (!groups.has(letter)) groups.set(letter, []);
+  groups.get(letter)!.push(p);
+}
+const letters = [...groups.keys()].sort();
+---
+<Base title="People" description="Writers, directors, cast, narrators and voice actors across every Twilight Zone series, film and radio drama.">
+  <h1>People</h1>
+  <p class="lead">{people.length} writers, directors, actors, narrators and voice actors, sorted by surname.</p>
+  <p class="letters">{letters.map((l) => <a href={`#letter-${l}`}>{l}</a>)}</p>
+  {letters.map((l) => (
+    <section id={`letter-${l}`}>
+      <h2>{l}</h2>
+      <ul class="columns plain">
+        {groups.get(l)!.map((p) => (
+          <li><a href={`/people/${p.slug}/`}>{p.name}</a> <span class="muted small">{p.credits.length}</span></li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>

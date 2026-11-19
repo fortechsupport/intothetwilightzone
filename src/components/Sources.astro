@@ -1,0 +1,15 @@
+---
+interface Props { sources: { title: string; url?: string; note?: string }[]; verified?: string }
+const { sources, verified } = Astro.props;
+---
+<section class="sources" data-pagefind-ignore>
+  <h2>Sources</h2>
+  {sources.length === 0 ? <p class="muted">No sources recorded yet.</p> : (
+    <ul class="small">
+      {sources.map((s) => (
+        <li>{s.url ? <a href={s.url} rel="noopener">{s.title}</a> : s.title}{s.note && <span class="muted"> · {s.note}</span>}</li>
+      ))}
+    </ul>
+  )}
+  <p class="small muted">{verified ? `Last verified ${verified}.` : 'Not yet verified.'} <a href="/about/#contact">Suggest a correction</a>.</p>
+</section>

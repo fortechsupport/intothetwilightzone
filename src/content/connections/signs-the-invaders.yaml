@@ -1,0 +1,8 @@
+from: films/signs
+to: 1959/the-invaders
+kind: inspired-by
+confidence: fan-noted
+summary: Signs is listed in Adam's research as inspired by "The Invaders".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

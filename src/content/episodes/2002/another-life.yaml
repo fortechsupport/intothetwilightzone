@@ -1,0 +1,22 @@
+title: Another Life
+series: '2002'
+season: 1
+episode: '26'
+air_date: '2003-02-05'
+runtime_min: 22
+production_code: '126'
+writers:
+- Amir Mann
+- Brent V. Friedman
+directors:
+- Risa Bramon Garcia
+cast:
+- Wood Harris
+- Kimberly Elise
+- Brian Markinson
+narrator: Forest Whitaker
+ids:
+  imdb: tt0734771
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

@@ -1,0 +1,49 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sources from '../../components/Sources.astro';
+import { allPeople, formatDate, type Person } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const people = await allPeople();
+  return [...people.values()].map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+interface Props { p: Person }
+const { p } = Astro.props;
+const rec = p.record?.data;
+const roles = [...new Set(p.credits.map((c) => c.role))];
+const byRole = roles.map((role) => ({
+  role,
+  credits: p.credits.filter((c) => c.role === role).sort((a, b) => (a.date ?? '9999').localeCompare(b.date ?? '9999')),
+}));
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: p.name,
+  birthDate: rec?.born,
+  deathDate: rec?.died,
+  sameAs: rec?.links?.wikipedia ? [rec.links.wikipedia] : undefined,
+};
+---
+<Base title={p.name} description={`${p.name}: ${roles.join(', ').toLowerCase()} credits connected to The Twilight Zone.`} jsonld={jsonld}>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/people/">People</a></p>
+  <h1>{p.name}</h1>
+  <p class="muted">{roles.join(' · ')}</p>
+  {rec && (
+    <dl class="facts">
+      {rec.born && <><dt>Born</dt><dd>{formatDate(rec.born)}</dd></>}
+      {rec.died && <><dt>Died</dt><dd>{formatDate(rec.died)}</dd></>}
+    </dl>
+  )}
+  {rec?.bio && <p class="lead">{rec.bio}</p>}
+  {byRole.map(({ role, credits }) => (
+    <section>
+      <h2>{role} <span class="muted small">({credits.length})</span></h2>
+      <ul class="plain">
+        {credits.map((c) => (
+          <li><a href={c.url}>{c.title}</a> <span class="muted small">{[c.detail, formatDate(c.date)].filter(Boolean).join(' · ')}</span></li>
+        ))}
+      </ul>
+    </section>
+  ))}
+  {rec && <Sources sources={rec.sources} verified={rec.last_verified} />}
+</Base>

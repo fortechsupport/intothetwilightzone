@@ -1,0 +1,18 @@
+title: Static
+series_title: The Twilight Zone Radio Dramas
+season: 12
+season_order: 10
+volume: 20
+volume_order: 1
+volume_released: September 2013
+original_writer: Charles Beaumont
+adapted_by: Dennis Etchison
+voiced_by:
+- Stan Freberg
+adapts_episode: 1959/static
+ids:
+  imdb: tt32134114
+  audible_asin: B004JXUWMU
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

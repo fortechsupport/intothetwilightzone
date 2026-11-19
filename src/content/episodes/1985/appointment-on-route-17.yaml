@@ -1,0 +1,21 @@
+title: Appointment on Route 17
+series: '1985'
+season: 3
+episode: '15'
+air_date: '1988-12-31'
+runtime_min: 22
+writers:
+- Haskell Barkin
+directors:
+- Rene Bonniere
+cast:
+- Paul Le Mat
+- Rosemary Dunsmore
+narrator: Robin Ward
+ids:
+  imdb: tt0734702
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Appointment_on_Route_17
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

@@ -1,0 +1,8 @@
+from: films/get-out
+to: 1959/the-trade-ins
+kind: inspired-by
+confidence: fan-noted
+summary: Get Out is listed in Adam's research as inspired by "The Trade-Ins".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

@@ -1,0 +1,21 @@
+title: Joy Ride
+series: '1985'
+season: 2
+episode: 09a
+air_date: '1987-05-21'
+runtime_min: 12
+writers:
+- Cal Willingham
+directors:
+- Gil Bettman
+cast:
+- Robert Knepper
+- Brooke McCarter
+narrator: Charles Aidman
+ids:
+  imdb: tt0734715
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Joy_Ride_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

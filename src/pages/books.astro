@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import ExtLinks from '../components/ExtLinks.astro';
+import { getCollection } from 'astro:content';
+const books = (await getCollection('books')).sort((a, b) => a.data.title.replace(/^(the|a) /i, '').localeCompare(b.data.title.replace(/^(the|a) /i, '')));
+---
+<Base title="Books" description="Books about The Twilight Zone: histories, companions, story collections and novels.">
+  <h1>Books</h1>
+  <p class="lead">{books.length} books: histories and companions, script collections, anthologies and novels.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Title</th><th>Author</th><th>Publisher</th><th>Year</th><th>Links</th></tr></thead>
+    <tbody>
+      {books.map((b) => (
+        <tr id={b.id}>
+          <td>{b.data.title}</td>
+          <td>{b.data.authors.join(', ')}</td>
+          <td>{b.data.publisher}</td>
+          <td>{b.data.published?.slice(0, 4)}</td>
+          <td><ExtLinks ids={b.data.ids} links={b.data.links} /></td>
+        </tr>
+      ))}
+    </tbody>
+  </table></div>
+</Base>

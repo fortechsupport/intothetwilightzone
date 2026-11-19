@@ -1,0 +1,23 @@
+title: A Nice Place to Visit
+series: '1959'
+season: 1
+episode: '28'
+air_date: '1960-04-15'
+runtime_min: 25
+production_code: '173-3632'
+writers:
+- Charles Beaumont
+directors:
+- John Brahm
+cast:
+- Larry Blyden
+- Sebastian Cabot
+- Robert McCord
+narrator: Rod Serling
+ids:
+  imdb: tt0734544
+links:
+  wikipedia: https://en.wikipedia.org/wiki/A_Nice_Place_to_Visit
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

@@ -1,0 +1,8 @@
+from: films/life-size
+to: 1959/the-after-hours
+kind: inspired-by
+confidence: fan-noted
+summary: Life-Size is listed in Adam's research as inspired by "The After Hours".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

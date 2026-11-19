@@ -1,0 +1,20 @@
+title: A Traveler
+series: '2019'
+season: 1
+episode: '4'
+air_date: '2019-04-18'
+runtime_min: 51
+writers:
+- Glen Morgan
+directors:
+- Ana Lily Amirpour
+cast:
+- Steven Yeun
+- Patrick Gallagher
+- Greg Kinnear
+narrator: Jordan Peele
+ids:
+  imdb: tt9121554
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

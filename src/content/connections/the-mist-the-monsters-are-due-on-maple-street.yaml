@@ -1,0 +1,8 @@
+from: films/the-mist
+to: 1959/the-monsters-are-due-on-maple-street
+kind: inspired-by
+confidence: fan-noted
+summary: The Mist is listed in Adam's research as inspired by "The Monsters Are Due on Maple Street".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

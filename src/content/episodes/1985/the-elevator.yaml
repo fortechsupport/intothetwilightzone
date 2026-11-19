@@ -1,0 +1,22 @@
+title: The Elevator
+series: '1985'
+season: 1
+episode: 16a
+air_date: '1986-01-31'
+runtime_min: 11
+writers:
+- Ray Bradbury
+directors:
+- R. L. Thomas
+cast:
+- Stephen Geoffreys
+- Douglas Emerson
+- Carlos Ramirez
+narrator: Charles Aidman
+ids:
+  imdb: tt0734749
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Elevator_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

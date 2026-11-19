@@ -1,0 +1,20 @@
+title: Rewind
+series: '2002'
+season: 1
+episode: '27'
+air_date: '2003-02-05'
+runtime_min: 22
+production_code: '127'
+writers:
+- James Crocker
+directors:
+- Kevin Bray
+cast:
+- Eddie Kaye Thomas
+- Marisa Coughlan
+narrator: Forest Whitaker
+ids:
+  imdb: tt0734799
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

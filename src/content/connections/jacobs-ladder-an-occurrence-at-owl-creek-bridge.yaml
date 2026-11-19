@@ -1,0 +1,8 @@
+from: films/jacobs-ladder
+to: 1959/an-occurrence-at-owl-creek-bridge
+kind: inspired-by
+confidence: fan-noted
+summary: Jacob's Ladder is listed in Adam's research as inspired by "An Occurrence at Owl Creek Bridge".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

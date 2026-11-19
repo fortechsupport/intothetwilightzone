@@ -1,0 +1,23 @@
+title: Shatterday
+series: '1985'
+season: 1
+episode: 01a
+air_date: '1985-09-27'
+runtime_min: 24
+writers:
+- Harlan Ellison
+- Alan Brennert
+writing_credit_note: 'Teleplay by: Alan Brennert; Based on the short story by: Harlan Ellison'
+directors:
+- Wes Craven
+cast:
+- Bruce Willis
+- Dan Gilvezan
+narrator: Charles Aidman
+ids:
+  imdb: tt0734732
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Shatterday
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

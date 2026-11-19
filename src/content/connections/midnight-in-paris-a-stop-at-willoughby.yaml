@@ -1,0 +1,8 @@
+from: films/midnight-in-paris
+to: 1959/a-stop-at-willoughby
+kind: inspired-by
+confidence: fan-noted
+summary: Midnight in Paris is listed in Adam's research as inspired by "A Stop at Willoughby".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

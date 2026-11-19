@@ -1,0 +1,23 @@
+title: Person or Persons Unknown
+series: '1959'
+season: 3
+episode: '27'
+air_date: '1962-03-23'
+runtime_min: 25
+production_code: '4829'
+writers:
+- Charles Beaumont
+directors:
+- John Brahm
+cast:
+- Richard Long
+- Frank Silvera
+- John Brahm
+narrator: Rod Serling
+ids:
+  imdb: tt0734613
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Person_or_Persons_Unknown
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

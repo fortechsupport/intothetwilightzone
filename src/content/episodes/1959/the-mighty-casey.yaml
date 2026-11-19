@@ -1,0 +1,23 @@
+title: The Mighty Casey
+series: '1959'
+season: 1
+episode: '35'
+air_date: '1960-06-17'
+runtime_min: 25
+production_code: '173-3617'
+writers:
+- Rod Serling
+directors:
+- Alvin Ganzer
+- Robert Parrish
+cast:
+- Jack Warden
+- Robert Sorrells
+narrator: Rod Serling
+ids:
+  imdb: tt0734661
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Mighty_Casey
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

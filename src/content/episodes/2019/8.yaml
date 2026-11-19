@@ -1,0 +1,22 @@
+title: '8'
+series: '2019'
+season: 2
+episode: '6'
+air_date: '2020-06-25'
+runtime_min: 31
+writers:
+- Glen Morgan
+directors:
+- Justin Benson
+- Aaron Moorhead
+cast:
+- Joel McHale
+- Nadia Hilker
+- Tim Armstrong
+- Brandon Jay McLaren
+narrator: Jordan Peele
+ids:
+  imdb: tt11839578
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

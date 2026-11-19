@@ -1,0 +1,20 @@
+title: Evergreen
+series: '2002'
+season: 1
+episode: '1'
+air_date: '2002-09-18'
+runtime_min: 22
+production_code: '106'
+writers:
+- Jill Blotevogel
+directors:
+- Allan Kroeker
+cast:
+- Amber Tamblyn
+- Jesse Moss
+narrator: Forest Whitaker
+ids:
+  imdb: tt0734780
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

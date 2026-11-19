@@ -1,0 +1,8 @@
+from: films/for-all-time
+to: 1959/a-stop-at-willoughby
+kind: inspired-by
+confidence: fan-noted
+summary: For All Time is listed in Adam's research as inspired by "A Stop at Willoughby".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

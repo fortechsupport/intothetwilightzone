@@ -1,0 +1,22 @@
+title: Act Break
+series: '1985'
+season: 1
+episode: 08a
+air_date: '1985-11-15'
+runtime_min: 15
+writers:
+- Haskell Barkin
+directors:
+- Theodore J. Flicker
+cast:
+- James Coco
+- Bob Dishy
+- Avery Schreiber
+narrator: Charles Aidman
+ids:
+  imdb: tt0734700
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Act_Break
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

@@ -1,0 +1,23 @@
+title: The Lonely
+series: '1959'
+season: 1
+episode: '7'
+air_date: '1959-11-13'
+runtime_min: 25
+production_code: '173-3602'
+writers:
+- Rod Serling
+directors:
+- Jack Smight
+cast:
+- Jack Warden
+- Jean Marsh
+- Ted Knight
+narrator: Rod Serling
+ids:
+  imdb: tt0734656
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Lonely
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

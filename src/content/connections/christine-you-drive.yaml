@@ -1,0 +1,8 @@
+from: films/christine
+to: 1959/you-drive
+kind: inspired-by
+confidence: fan-noted
+summary: Christine is listed in Adam's research as inspired by "You Drive".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

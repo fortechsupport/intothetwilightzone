@@ -1,0 +1,22 @@
+title: Two
+series: '1959'
+season: 3
+episode: '1'
+air_date: '1961-09-15'
+runtime_min: 25
+production_code: '4802'
+writers:
+- Montgomery Pittman
+directors:
+- Montgomery Pittman
+cast:
+- Elizabeth Montgomery
+- Charles Bronson
+narrator: Rod Serling
+ids:
+  imdb: tt0734686
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Two_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

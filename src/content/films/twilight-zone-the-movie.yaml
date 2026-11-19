@@ -1,0 +1,26 @@
+title: 'Twilight Zone: The Movie'
+kind: film
+release_date: '1983-06-24'
+rating: PG
+runtime_min: 101
+writers:
+- John Landis
+- George Clayton Johnson
+- Richard Matheson
+- Josh Rogan
+- Jerome Bixby
+- Robert Garland
+directors:
+- John Landis
+- Steven Spielberg
+- Joe Dante
+- George Miller
+ids:
+  imdb: tt0086491
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Twilight_Zone%3A_The_Movie
+  justwatch: twilight-zone-the-movie
+  trailer_youtube: QbHX0RduWkY
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

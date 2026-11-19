@@ -1,0 +1,20 @@
+title: The Wunderkind
+series: '2019'
+season: 1
+episode: '5'
+air_date: '2019-04-25'
+runtime_min: 40
+writers:
+- Andrew Guest
+directors:
+- Richard Shepard
+cast:
+- John Cho
+- Jacob Tremblay
+- Allison Tolman
+narrator: Jordan Peele
+ids:
+  imdb: tt9199162
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

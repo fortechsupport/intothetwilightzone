@@ -1,0 +1,22 @@
+title: Elegy
+series: '1959'
+season: 1
+episode: '20'
+air_date: '1960-02-19'
+runtime_min: 25
+production_code: '173-3625'
+writers:
+- Charles Beaumont
+directors:
+- Douglas Heyes
+cast:
+- Cecil Kellaway
+- Jeff Morrow
+narrator: Rod Serling
+ids:
+  imdb: tt0734565
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Elegy_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

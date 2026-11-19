@@ -1,0 +1,8 @@
+from: films/final-destination
+to: 1959/twenty-two
+kind: inspired-by
+confidence: fan-noted
+summary: Final Destination is listed in Adam's research as inspired by "Twenty Two".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

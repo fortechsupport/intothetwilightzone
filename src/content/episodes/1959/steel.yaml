@@ -1,0 +1,23 @@
+title: Steel
+series: '1959'
+season: 5
+episode: '2'
+air_date: '1963-10-04'
+runtime_min: 25
+production_code: '2602'
+writers:
+- Richard Matheson
+directors:
+- Don Weis
+cast:
+- Lee Marvin
+- Joe Mantell
+- Chuck Hicks
+narrator: Rod Serling
+ids:
+  imdb: tt0734623
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Steel_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

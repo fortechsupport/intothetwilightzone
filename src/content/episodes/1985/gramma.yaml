@@ -1,0 +1,25 @@
+title: Gramma
+series: '1985'
+season: 1
+episode: 18a
+air_date: '1986-02-14'
+runtime_min: 21
+writers:
+- Stephen King
+- Harlan Ellison
+writing_credit_note: 'Teleplay by: Harlan Ellison; Based on the short story by: Stephen King'
+directors:
+- Bradford May
+cast:
+- Barret Oliver
+- Darlanne Fluegel
+- Kane Hodder
+- Piper Laurie
+narrator: Charles Aidman
+ids:
+  imdb: tt0734711
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Gramma_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

@@ -1,0 +1,25 @@
+title: I Sing the Body Electric
+series: '1959'
+season: 3
+episode: '35'
+air_date: '1962-05-18'
+runtime_min: 25
+production_code: '4826'
+writers:
+- Ray Bradbury
+directors:
+- William F. Claxton
+- James Sheldon
+cast:
+- Josephine Hutchinson
+- Vaughn Taylor
+- Charles Herbert
+- Veronica Cartwright
+narrator: Rod Serling
+ids:
+  imdb: tt0734576
+links:
+  wikipedia: https://en.wikipedia.org/wiki/I_Sing_the_Body_Electric_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

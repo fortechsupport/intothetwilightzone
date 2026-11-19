@@ -1,0 +1,8 @@
+from: films/the-stepford-wives
+to: 1959/number-12-looks-just-like-you
+kind: inspired-by
+confidence: fan-noted
+summary: The Stepford Wives is listed in Adam's research as inspired by "Number 12 Looks Just Like You".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

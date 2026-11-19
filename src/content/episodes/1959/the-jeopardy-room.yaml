@@ -1,0 +1,22 @@
+title: The Jeopardy Room
+series: '1959'
+season: 5
+episode: '29'
+air_date: '1964-04-17'
+runtime_min: 25
+production_code: '2639'
+writers:
+- Rod Serling
+directors:
+- Richard Donner
+cast:
+- Martin Landau
+- John van Dreelen
+narrator: Rod Serling
+ids:
+  imdb: tt0734649
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Jeopardy_Room
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

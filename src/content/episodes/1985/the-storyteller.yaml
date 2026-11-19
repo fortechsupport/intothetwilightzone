@@ -1,0 +1,22 @@
+title: The Storyteller
+series: '1985'
+season: 2
+episode: 03a
+air_date: '1986-10-11'
+runtime_min: 26
+writers:
+- Rockne S. O'Bannon
+directors:
+- Paul Lynch
+cast:
+- Glynnis O'Connor
+- David Faustino
+- Ellen Albertini Dow
+narrator: Charles Aidman
+ids:
+  imdb: tt0734724
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Storyteller_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

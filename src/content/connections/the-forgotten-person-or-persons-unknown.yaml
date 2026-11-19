@@ -1,0 +1,8 @@
+from: films/the-forgotten
+to: 1959/person-or-persons-unknown
+kind: inspired-by
+confidence: fan-noted
+summary: The Forgotten is listed in Adam's research as inspired by "Person or Persons Unknown".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

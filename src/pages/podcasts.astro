@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import ExtLinks from '../components/ExtLinks.astro';
+import { getCollection } from 'astro:content';
+import { formatDate } from '../lib/data';
+const pods = (await getCollection('podcasts')).sort((a, b) => (a.data.first_episode ?? '').localeCompare(b.data.first_episode ?? ''));
+---
+<Base title="Podcasts" description="Podcasts that revisit The Twilight Zone episode by episode.">
+  <h1>Podcasts</h1>
+  <p class="lead">{pods.length} podcasts devoted to the show, oldest first.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Podcast</th><th>Hosts</th><th>First episode</th><th>Links</th></tr></thead>
+    <tbody>
+      {pods.map((p) => (
+        <tr id={p.id}><td>{p.data.title}</td><td>{p.data.hosts.join(', ')}</td><td>{formatDate(p.data.first_episode)}</td><td><ExtLinks links={p.data.links} /></td></tr>
+      ))}
+    </tbody>
+  </table></div>
+</Base>

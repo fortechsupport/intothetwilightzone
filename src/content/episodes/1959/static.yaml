@@ -1,0 +1,26 @@
+title: Static
+series: '1959'
+season: 2
+episode: '20'
+air_date: '1961-03-10'
+runtime_min: 25
+production_code: '173-3663'
+writers:
+- Oceo Ritch
+- Charles Beaumont
+writing_credit_note: 'Teleplay by: Charles Beaumont; Based on a story by: OCee Ritch'
+directors:
+- Buzz Kulik
+cast:
+- Dean Jagger
+- Stephen Talbot
+- Bob Crane
+- Eddie Marr
+narrator: Rod Serling
+ids:
+  imdb: tt0734622
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Static_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

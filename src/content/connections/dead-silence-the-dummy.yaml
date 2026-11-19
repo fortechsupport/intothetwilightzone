@@ -1,0 +1,8 @@
+from: films/dead-silence
+to: 1959/the-dummy
+kind: inspired-by
+confidence: fan-noted
+summary: Dead Silence is listed in Adam's research as inspired by "The Dummy".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

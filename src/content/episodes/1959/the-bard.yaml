@@ -1,0 +1,25 @@
+title: The Bard
+series: '1959'
+season: 4
+episode: '18'
+air_date: '1963-05-23'
+runtime_min: 51
+production_code: '4852'
+writers:
+- Rod Serling
+directors:
+- David Butler
+cast:
+- Jack Weston
+- John McGiver
+- Howard McNear
+- Judy Strangis
+- Burt Reynolds
+narrator: Rod Serling
+ids:
+  imdb: tt0734630
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Bard_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

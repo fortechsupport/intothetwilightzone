@@ -1,0 +1,8 @@
+from: films/poltergeist
+to: 1959/little-girl-lost
+kind: inspired-by
+confidence: fan-noted
+summary: Poltergeist is listed in Adam's research as inspired by "Little Girl Lost".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

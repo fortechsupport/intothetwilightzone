@@ -1,0 +1,54 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { allEpisodes, formatDate, episodeNumber } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const series = await getCollection('series');
+  return series.map((s) => ({ params: { series: s.id }, props: { s } }));
+}
+const { s } = Astro.props;
+const eps = (await allEpisodes()).filter((e) => e.data.series === s.id);
+const seasons = [...new Set(eps.map((e) => e.data.season))].sort((a, b) => a - b);
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'TVSeries',
+  name: `${s.data.title} (${s.id})`,
+  startDate: s.id,
+  numberOfSeasons: s.data.seasons,
+  numberOfEpisodes: eps.length,
+};
+---
+<Base title={`${s.data.title} (${s.id} series)`} description={s.data.summary} jsonld={jsonld}>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/series/">Series</a> / {s.id}</p>
+  <h1>{s.data.title} <span class="muted">({s.data.years})</span></h1>
+  <p class="lead">{s.data.summary}</p>
+  <dl class="facts">
+    <dt>Network</dt><dd>{s.data.network}</dd>
+    <dt>Host</dt><dd>{s.data.host}</dd>
+    <dt>Seasons</dt><dd>{s.data.seasons}</dd>
+    <dt>Episodes and segments</dt><dd>{eps.length}</dd>
+  </dl>
+  <p class="small letters">Jump to: {seasons.map((n) => <a href={`#season-${n}`}>Season {n}</a>)}</p>
+  {seasons.map((n) => (
+    <section id={`season-${n}`}>
+      <h2>Season {n}</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>#</th><th>Title</th><th>Aired</th><th>Written by</th><th>Directed by</th></tr></thead>
+          <tbody>
+            {eps.filter((e) => e.data.season === n).map((e) => (
+              <tr>
+                <td>{episodeNumber(e.data)}</td>
+                <td><a href={`/episodes/${e.id}/`}>{e.data.title}</a></td>
+                <td>{formatDate(e.data.air_date)}</td>
+                <td>{e.data.writers.join(', ')}</td>
+                <td>{e.data.directors.join(', ')}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  ))}
+</Base>

@@ -1,0 +1,21 @@
+title: Red Snow
+series: '1985'
+season: 1
+episode: 21b
+air_date: '1986-03-21'
+runtime_min: 30
+writers:
+- Michael Cassutt
+directors:
+- Jeannot Szwarc
+cast:
+- George Dzundza
+- Andrew Divoff
+narrator: Charles Aidman
+ids:
+  imdb: tt0734722
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Red_Snow_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

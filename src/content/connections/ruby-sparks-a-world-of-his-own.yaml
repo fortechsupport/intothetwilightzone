@@ -1,0 +1,8 @@
+from: films/ruby-sparks
+to: 1959/a-world-of-his-own
+kind: inspired-by
+confidence: fan-noted
+summary: Ruby Sparks is listed in Adam's research as inspired by "A World of His Own".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

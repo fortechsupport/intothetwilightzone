@@ -1,0 +1,21 @@
+title: The Call
+series: '1985'
+season: 3
+episode: '09'
+air_date: '1988-11-19'
+runtime_min: 22
+writers:
+- J. Michael Straczynski
+directors:
+- Gilbert Shilton
+cast:
+- William Sanderson
+- Julie Khaner
+narrator: Robin Ward
+ids:
+  imdb: tt0734743
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Call_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

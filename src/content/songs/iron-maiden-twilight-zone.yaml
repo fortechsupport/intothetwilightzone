@@ -1,0 +1,12 @@
+title: Twilight Zone
+artist: Iron Maiden
+album: Killers
+genre: Heavy Metal
+length: '2:32'
+year: 1981
+tz_connection: lyric-mention
+ids:
+  amazon_asin: B07R57CX3T
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

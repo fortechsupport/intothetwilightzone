@@ -1,0 +1,8 @@
+from: films/clockstoppers
+to: 1959/a-kind-of-a-stopwatch
+kind: inspired-by
+confidence: fan-noted
+summary: Clockstoppers is listed in Adam's research as inspired by "A Kind Of Stopwatch".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

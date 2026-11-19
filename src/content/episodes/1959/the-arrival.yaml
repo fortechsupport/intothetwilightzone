@@ -1,0 +1,23 @@
+title: The Arrival
+series: '1959'
+season: 3
+episode: '2'
+air_date: '1961-09-22'
+runtime_min: 25
+production_code: '4814'
+writers:
+- Rod Serling
+directors:
+- Boris Sagal
+cast:
+- Harold J. Stone
+- Fredd Wayne
+- Bing Russell
+narrator: Rod Serling
+ids:
+  imdb: tt0734629
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Arrival_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

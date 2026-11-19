@@ -1,0 +1,21 @@
+title: A Small Town
+series: '2019'
+season: 2
+episode: '8'
+air_date: '2020-06-25'
+runtime_min: 35
+writers:
+- Steven Barnes
+- Tananarive Due
+directors:
+- Alonso Alvarez
+cast:
+- Damon Wayans Jr.
+- David Krumholtz
+- Paula Newsome
+narrator: Jordan Peele
+ids:
+  imdb: tt11839582
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

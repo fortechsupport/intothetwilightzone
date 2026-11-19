@@ -1,0 +1,25 @@
+title: Third from the Sun
+series: '1959'
+season: 1
+episode: '14'
+air_date: '1960-01-08'
+runtime_min: 25
+production_code: '173-3615'
+writers:
+- Richard Matheson
+- Rod Serling
+writing_credit_note: 'Teleplay by: Rod Serling; Based on a short story by: Richard Matheson'
+directors:
+- Richard L. Bare
+cast:
+- Fritz Weaver
+- Joe Maross
+- Denise Alexander
+narrator: Rod Serling
+ids:
+  imdb: tt0734682
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Third_from_the_Sun
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

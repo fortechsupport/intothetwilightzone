@@ -1,0 +1,23 @@
+title: The Beacon
+series: '1985'
+season: 1
+episode: 11a
+air_date: '1985-12-06'
+runtime_min: 20
+writers:
+- Martin Pasko
+- Rebecca Parr Cioffi
+directors:
+- Gerd Oswald
+cast:
+- Charles Martin Smith
+- Martin Landau
+- Giovanni Ribisi
+narrator: Charles Aidman
+ids:
+  imdb: tt0734742
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Beacon_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

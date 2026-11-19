@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const n = async (c: Parameters<typeof getCollection>[0]) => (await getCollection(c)).length;
+const cards = [
+  ['/radio/', 'Radio dramas', await n('radio'), 'Full-cast audio adaptations of classic episodes.'],
+  ['/books/', 'Books', await n('books'), 'Histories, companions, anthologies and novels.'],
+  ['/comics/', 'Comics', await n('comics'), 'Dell, Gold Key, Now Comics, Dynamite and more.'],
+  ['/magazines/', 'Magazines', await n('magazines'), "Rod Serling's The Twilight Zone Magazine and others."],
+  ['/podcasts/', 'Podcasts', await n('podcasts'), 'Episode-by-episode companions.'],
+  ['/collectibles/', 'Collectibles', null, 'Trading cards, pinball, games and toys.'],
+] as const;
+---
+<Base title="Beyond the screen" description="The Twilight Zone in radio, print, podcasts, games and collectibles.">
+  <h1>Beyond the screen</h1>
+  <p class="lead">The Twilight Zone kept going long after the cameras stopped, in radio studios, on newsstands, in arcades and in earbuds.</p>
+  <div class="grid">
+    {cards.map(([href, title, count, blurb]) => (
+      <a class="card" href={href}>{count !== null && <span class="count">{count}</span>}<h3>{title}</h3><p>{blurb}</p></a>
+    ))}
+  </div>
+</Base>

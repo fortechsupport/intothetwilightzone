@@ -1,0 +1,20 @@
+title: The Lineman
+series: '2002'
+season: 1
+episode: '11'
+air_date: '2002-10-23'
+runtime_min: 22
+production_code: '101'
+writers:
+- Pen Densham
+directors:
+- Jonathan Frakes
+cast:
+- Jeremy Piven
+- Zeljko Ivanek
+narrator: Forest Whitaker
+ids:
+  imdb: tt0734807
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

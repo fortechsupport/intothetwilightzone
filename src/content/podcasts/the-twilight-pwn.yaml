@@ -1,0 +1,12 @@
+title: The Twilight Pwn
+hosts:
+- John
+- Fred
+first_episode: '2013-02-13'
+links:
+  podchaser: https://www.podchaser.com/podcasts/twilight-pwn-a-twilight-zone-p-107616
+  rss: https://twilightpwn.libsyn.com/rss
+  youtube: https://www.youtube.com/channel/UCDx8V77GSwm87itwTPqSfDw
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+const cards = [
+  ['Series 1: Premiere Edition', '1999-11-24'],
+  ['Series 2: The Next Dimension', '2000-12-13'],
+  ['Series 3: Shadows and Substance', '2002-05-29'],
+  ['Series 4: Science and Superstition', '2005-02-09'],
+  ['The Complete Twilight Zone', '2009-10-02'],
+  ['Rod Serling Edition', '2019-07-24'],
+  ['Archives 2020 Edition', '2020-07-01'],
+];
+---
+<Base title="Collectibles" description="A catalog of Twilight Zone trading cards, games, pinball and memorabilia.">
+  <h1>Collectibles</h1>
+  <p class="lead">A catalog of officially licensed Twilight Zone merchandise and memorabilia. This is a reference, not a store: nothing here is for sale.</p>
+  <p class="notice">The full catalog, with photos of items from Adam's own collection, is coming in a later phase.</p>
+  <h2>Trading card sets</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Set</th><th>Released</th></tr></thead>
+    <tbody>{cards.map(([name, date]) => <tr><td>{name}</td><td>{date}</td></tr>)}</tbody>
+  </table></div>
+  <h2>Games</h2>
+  <ul>
+    <li>Twilight Zone pinball machine (Bally/Midway, 1993)</li>
+    <li>The Twilight Zone computer game (First Row Software, 1988)</li>
+    <li><a href="https://boardgamegeek.com/boardgame/33225/clue-the-twilight-zone-tower-of-terror" rel="noopener">Clue: The Twilight Zone Tower of Terror</a> (board game)</li>
+  </ul>
+</Base>

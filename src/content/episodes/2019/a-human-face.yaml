@@ -1,0 +1,20 @@
+title: A Human Face
+series: '2019'
+season: 2
+episode: '7'
+air_date: '2020-06-25'
+runtime_min: 33
+writers:
+- Alex Rubens
+directors:
+- Christina Choe
+cast:
+- Christopher Meloni
+- Jenna Elfman
+- Tavi Gevinson
+narrator: Jordan Peele
+ids:
+  imdb: tt11839580
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

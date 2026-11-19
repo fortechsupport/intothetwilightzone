@@ -1,0 +1,23 @@
+title: A Thing About Machines
+series: '1959'
+season: 2
+episode: '4'
+air_date: '1960-10-28'
+runtime_min: 25
+production_code: '173-3645'
+writers:
+- Rod Serling
+directors:
+- David Orrick McDearmon
+cast:
+- Richard Haydn
+- Barbara Stuart
+- Barney Phillips
+narrator: Rod Serling
+ids:
+  imdb: tt0734551
+links:
+  wikipedia: https://en.wikipedia.org/wiki/A_Thing_About_Machines
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

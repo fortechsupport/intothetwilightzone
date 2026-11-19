@@ -1,0 +1,23 @@
+title: Button, Button
+series: '1985'
+season: 1
+episode: 20b
+air_date: '1986-03-07'
+runtime_min: 21
+writers:
+- Richard Matheson
+- Logan Swanson
+writing_credit_note: 'Teleplay by: Richard Matheson; Based on the short story by: Richard Matheson'
+directors:
+- Peter Medak
+cast:
+- Mare Winningham
+- Brad Davis
+narrator: Charles Aidman
+ids:
+  imdb: tt0734727
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Butto
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

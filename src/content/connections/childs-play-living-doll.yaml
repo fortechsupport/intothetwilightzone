@@ -1,0 +1,8 @@
+from: films/childs-play
+to: 1959/living-doll
+kind: inspired-by
+confidence: fan-noted
+summary: Child’s Play is listed in Adam's research as inspired by "Living Doll".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

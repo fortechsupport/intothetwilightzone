@@ -1,0 +1,23 @@
+title: The New Exhibit
+series: '1959'
+season: 4
+episode: '13'
+air_date: '1963-04-04'
+runtime_min: 51
+production_code: '4866'
+writers:
+- Charles Beaumont
+- Jerry Sohl
+directors:
+- John Brahm
+cast:
+- Martin Balsam
+- Margaret Field
+narrator: Rod Serling
+ids:
+  imdb: tt0734665
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_New_Exhibit
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

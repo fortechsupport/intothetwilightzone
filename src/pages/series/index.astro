@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { allEpisodes } from '../../lib/data';
+const series = (await getCollection('series')).sort((a, b) => a.data.order - b.data.order);
+const eps = await allEpisodes();
+---
+<Base title="The series" description="The Twilight Zone on television: the 1959 original and the 1985, 2002 and 2019 revivals.">
+  <h1>The series</h1>
+  <p class="lead">The original ran on CBS from 1959 to 1964. Three revivals followed, each with its own host and voice.</p>
+  <div class="grid">
+    {series.map((s) => (
+      <a class="card" href={`/series/${s.id}/`}>
+        <span class="count">{s.id}</span>
+        <h3>{s.data.years}</h3>
+        <p>{s.data.network}. Host: {s.data.host}. {eps.filter((e) => e.data.series === s.id).length} episodes and segments.</p>
+      </a>
+    ))}
+  </div>
+  <h2>Related productions</h2>
+  <ul>
+    <li><a href="/films/twilight-zone-the-movie/">Twilight Zone: The Movie</a> (1983)</li>
+    <li><a href="/radio/">The Twilight Zone Radio Dramas</a></li>
+  </ul>
+</Base>

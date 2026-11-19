@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import ExtLinks from '../components/ExtLinks.astro';
+import { getCollection } from 'astro:content';
+const comics = (await getCollection('comics')).sort((a, b) => (a.data.order ?? 9999) - (b.data.order ?? 9999) || a.data.title.localeCompare(b.data.title));
+const publishers = [...new Set(comics.map((c) => c.data.publisher ?? 'Other'))];
+---
+<Base title="Comics" description="Twilight Zone comic books from Dell, Gold Key, Now Comics, Dynamite and others.">
+  <h1>Comics</h1>
+  <p class="lead">{comics.length} issues across {publishers.length} publishers, in publication order.</p>
+  {publishers.map((p) => (
+    <section>
+      <h2>{p}</h2>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Issue</th><th>Cover date</th><th>Links</th></tr></thead>
+        <tbody>
+          {comics.filter((c) => (c.data.publisher ?? 'Other') === p).map((c) => (
+            <tr id={c.id}><td>{c.data.title}</td><td>{c.data.cover_date}</td><td><ExtLinks ids={c.data.ids} links={c.data.links} /></td></tr>
+          ))}
+        </tbody>
+      </table></div>
+    </section>
+  ))}
+</Base>

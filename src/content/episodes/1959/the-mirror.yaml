@@ -1,0 +1,24 @@
+title: The Mirror
+series: '1959'
+season: 3
+episode: '6'
+air_date: '1961-10-20'
+runtime_min: 25
+production_code: '4819'
+writers:
+- Rod Serling
+directors:
+- Don Medford
+cast:
+- Peter Falk
+- Arthur Batanides
+- Vladimir Sokoloff
+- Richard Karlan
+narrator: Rod Serling
+ids:
+  imdb: tt0734663
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Mirror_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

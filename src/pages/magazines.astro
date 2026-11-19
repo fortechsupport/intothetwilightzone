@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import ExtLinks from '../components/ExtLinks.astro';
+import { getCollection } from 'astro:content';
+const mags = (await getCollection('magazines')).sort((a, b) => (a.data.order ?? 0) - (b.data.order ?? 0));
+---
+<Base title="Magazines" description="Rod Serling's The Twilight Zone Magazine and other Twilight Zone periodicals, issue by issue.">
+  <h1>Magazines</h1>
+  <p class="lead">{mags.length} issues, led by Rod Serling's The Twilight Zone Magazine (1981 onward).</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Issue</th><th>Cover date</th><th>Editor</th><th>Publisher</th><th>Links</th></tr></thead>
+    <tbody>
+      {mags.map((m) => (
+        <tr id={m.id}><td>{m.data.title}</td><td>{m.data.cover_date}</td><td>{m.data.editor}</td><td>{m.data.publisher}</td><td><ExtLinks ids={m.data.ids} links={m.data.links} /></td></tr>
+      ))}
+    </tbody>
+  </table></div>
+</Base>

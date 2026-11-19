@@ -1,0 +1,38 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { resolveRef, CONNECTION_LABELS, CONFIDENCE_LABELS } from '../lib/data';
+const conns = await getCollection('connections');
+const rows = await Promise.all(conns.map(async (c) => ({ c, from: await resolveRef(c.data.from), to: await resolveRef(c.data.to) })));
+rows.sort((a, b) => (a.to?.title ?? '').localeCompare(b.to?.title ?? '') || (a.from?.title ?? '').localeCompare(b.from?.title ?? ''));
+const byEpisode = new Map<string, typeof rows>();
+for (const r of rows) {
+  const k = r.c.data.to;
+  if (!byEpisode.has(k)) byEpisode.set(k, []);
+  byEpisode.get(k)!.push(r);
+}
+const ranked = [...byEpisode.entries()].sort((a, b) => b[1].length - a[1].length);
+---
+<Base title="Influence" description="Films, television, songs and books traced back to the Twilight Zone episodes that inspired them.">
+  <h1>Influence</h1>
+  <p class="lead">
+    {rows.length} later works traced back to {byEpisode.size} episodes. Each link is labelled by how well it is documented,
+    from a creator's own words to connections fans have noticed but nobody has yet sourced.
+  </p>
+  <p class="notice">Most links below came from early research and are marked fan-noted until a source is added. Know of a source? <a href="/about/#contact">Send it in</a>.</p>
+  {ranked.map(([epId, items]) => (
+    <section>
+      <h2><a href={items[0].to?.url}>{items[0].to?.title ?? epId}</a> <span class="muted small">{items[0].to?.kind}</span></h2>
+      <ul class="plain">
+        {items.map(({ c, from }) => (
+          <li>
+            <span class="tag">{CONNECTION_LABELS[c.data.kind]}</span>
+            {from ? <a href={from.url}>{from.title}</a> : c.data.from}
+            {from && <span class="muted small"> ({from.kind})</span>}
+            {' '}<span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>

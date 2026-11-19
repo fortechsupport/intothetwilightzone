@@ -1,0 +1,16 @@
+# Cloudflare Pages permanent redirects for URLs from the old WordPress site.
+/television        /series/       301
+/television/       /series/       301
+/1959series/       /series/1959/  301
+/1985series/       /series/1985/  301
+/2002series/       /series/2002/  301
+/2019series/       /series/2019/  301
+/music/            /songs/        301
+/merchandise/      /collectibles/ 301
+/artwork/          /about/        301
+/essays/           /about/        301
+/blog/             /              301
+/contact/          /about/#contact 301
+/privacy/          /about/#privacy 301
+/terms/            /about/#disclaimer 301
+/feed/             /              301

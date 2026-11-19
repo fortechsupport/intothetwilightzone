@@ -1,0 +1,24 @@
+title: Mute
+series: '1959'
+season: 4
+episode: '5'
+air_date: '1963-01-31'
+runtime_min: 51
+production_code: '4858'
+writers:
+- Richard Matheson
+directors:
+- Stuart Rosenberg
+cast:
+- Barbara Baxley
+- Frank Overton
+- Claudia Bryar
+- Oscar Beregi Jr.
+narrator: Rod Serling
+ids:
+  imdb: tt0734595
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Mute_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

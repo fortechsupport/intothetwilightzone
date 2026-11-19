@@ -1,0 +1,23 @@
+title: Chameleon
+series: '1985'
+season: 1
+episode: 02c
+air_date: '1985-10-04'
+runtime_min: 21
+writers:
+- James Crocker
+directors:
+- Wes Craven
+cast:
+- Terry O'Quinn
+- John Ashton
+- Iona Morris
+- Lin Shaye
+narrator: Charles Aidman
+ids:
+  imdb: tt0734770
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Chameleon_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

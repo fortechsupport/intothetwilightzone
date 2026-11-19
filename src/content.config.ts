@@ -1,0 +1,282 @@
+import { defineCollection } from 'astro:content';
+import { glob } from 'astro/loaders';
+import { z } from 'astro/zod';
+
+const source = z.object({
+  title: z.string(),
+  url: z.string().url().optional(),
+  note: z.string().optional(),
+});
+const ids = z.record(z.string(), z.string()).optional();
+const links = z.record(z.string(), z.string()).optional();
+const common = {
+  sources: z.array(source).default([]),
+  ids,
+  links,
+  locked: z.boolean().optional(),
+  last_verified: z.string().optional(),
+};
+const yaml = (dir: string) => glob({ pattern: '**/*.yaml', base: `./src/content/${dir}` });
+const names = z.array(z.string()).default([]);
+// A connection endpoint: "films/<id>", "songs/<id>", "series/<year>", or a bare episode id "<year>/<slug>".
+const ref = z.string().regex(/^([a-z]+\/[a-z0-9-]+|\d{4}\/[a-z0-9-]+)$/);
+
+const series = defineCollection({
+  loader: yaml('series'),
+  schema: z.object({
+    title: z.string(),
+    years: z.string(),
+    network: z.string(),
+    host: z.string(),
+    seasons: z.number(),
+    order: z.number(),
+    summary: z.string(),
+    locked: z.boolean().optional(),
+  }),
+});
+
+const episodes = defineCollection({
+  loader: yaml('episodes'),
+  schema: z.object({
+    title: z.string(),
+    aka: names,
+    series: z.enum(['1959', '1985', '2002', '2019']),
+    season: z.number(),
+    episode: z.string(),
+    air_date: z.string().optional(),
+    runtime_min: z.number().optional(),
+    production_code: z.string().optional(),
+    writers: names,
+    writing_credit_note: z.string().optional(),
+    directors: names,
+    cast: names,
+    narrator: z.string().optional(),
+    synopsis: z.string().optional(),
+    themes: names,
+    ...common,
+  }),
+});
+
+const segment = z.object({
+  title: z.string(),
+  adapts_episode: z.string().optional(),
+  writers: names,
+  directors: names,
+  cast: names,
+});
+
+const films = defineCollection({
+  loader: yaml('films'),
+  schema: z.object({
+    title: z.string(),
+    kind: z.enum(['film', 'tv-film', 'tv-episode', 'tv-segment', 'tv-series', 'sketch', 'documentary', 'special', 'pilot', 'stage', 'unproduced']).default('film'),
+    summary: z.string().optional(),
+    parent_series: z.string().optional(),
+    segments: z.array(segment).default([]),
+    release_date: z.string().optional(),
+    rating: z.string().optional(),
+    runtime_min: z.number().optional(),
+    writers: names,
+    directors: names,
+    cast: names,
+    ...common,
+  }),
+});
+
+const connections = defineCollection({
+  loader: yaml('connections'),
+  schema: z.object({
+    from: ref,
+    to: ref,
+    kind: z.enum(['official-adaptation', 'remake', 'inspired-by', 'homage', 'parody', 'reference', 'lyric-mention']),
+    confidence: z.enum(['confirmed-by-creator', 'documented', 'fan-noted']),
+    summary: z.string().optional(),
+    evidence: z.string().optional(),
+    ...common,
+  }),
+});
+
+const songs = defineCollection({
+  loader: yaml('songs'),
+  schema: z.object({
+    title: z.string(),
+    artist: z.string().optional(),
+    album: z.string().optional(),
+    genre: z.string().optional(),
+    length: z.string().optional(),
+    year: z.number().optional(),
+    tz_connection: z.enum(['theme', 'lyric-mention', 'reference', 'unclassified']),
+    lyric_excerpt: z.string().max(200).optional(),
+    ...common,
+  }),
+});
+
+const books = defineCollection({
+  loader: yaml('books'),
+  schema: z.object({
+    title: z.string(),
+    authors: names,
+    publisher: z.string().optional(),
+    published: z.string().optional(),
+    pages: z.number().optional(),
+    description: z.string().optional(),
+    kind: z.string().optional(),
+    isbn: z.string().optional(),
+    episodes: names,
+    ...common,
+  }),
+});
+
+const comics = defineCollection({
+  loader: yaml('comics'),
+  schema: z.object({
+    title: z.string(),
+    series_name: z.string().optional(),
+    publisher: z.string().optional(),
+    cover_date: z.string().optional(),
+    order: z.number().optional(),
+    creators: names,
+    description: z.string().optional(),
+    kind: z.string().optional(),
+    isbn: z.string().optional(),
+    episodes: names,
+    ...common,
+  }),
+});
+
+const magazines = defineCollection({
+  loader: yaml('magazines'),
+  schema: z.object({
+    title: z.string(),
+    magazine: z.string().optional(),
+    cover_date: z.string().optional(),
+    order: z.number().optional(),
+    publisher: z.string().optional(),
+    editor: z.string().optional(),
+    description: z.string().optional(),
+    kind: z.string().optional(),
+    isbn: z.string().optional(),
+    episodes: names,
+    ...common,
+  }),
+});
+
+const radio = defineCollection({
+  loader: yaml('radio'),
+  schema: z.object({
+    title: z.string(),
+    series_title: z.string().optional(),
+    season: z.number().optional(),
+    season_order: z.number().optional(),
+    volume: z.number().optional(),
+    volume_order: z.number().optional(),
+    volume_released: z.string().optional(),
+    original_writer: z.string().optional(),
+    adapted_by: z.string().optional(),
+    voiced_by: names,
+    adapts_episode: z.string().optional(),
+    ...common,
+  }),
+});
+
+const podcasts = defineCollection({
+  loader: yaml('podcasts'),
+  schema: z.object({
+    title: z.string(),
+    hosts: names,
+    first_episode: z.string().optional(),
+    ...common,
+  }),
+});
+
+const people = defineCollection({
+  loader: yaml('people'),
+  schema: z.object({
+    name: z.string(),
+    born: z.string().optional(),
+    died: z.string().optional(),
+    bio: z.string().optional(),
+    ...common,
+  }),
+});
+
+const quotes = defineCollection({
+  loader: yaml('quotes'),
+  schema: z.object({
+    person: z.string(),
+    text: z.string().max(400),
+    date: z.string().optional(),
+    context: z.string().optional(),
+    episodes: names,
+    ...common,
+  }),
+});
+
+const locations = defineCollection({
+  loader: yaml('locations'),
+  schema: z.object({
+    name: z.string(),
+    address: z.string().optional(),
+    lat: z.number().optional(),
+    lng: z.number().optional(),
+    status: z.string().optional(),
+    kind: z.enum(['backlot-set', 'filming-location', 'serling-place', 'attraction', 'museum-exhibit', 'memorial', 'archive']).optional(),
+    city: z.string().optional(),
+    region: z.string().optional(),
+    country: z.string().optional(),
+    opened: z.string().optional(),
+    closed: z.string().optional(),
+    filmed: z.array(z.object({ ref: z.string(), note: z.string().optional() })).default([]),
+    notes: z.string().optional(),
+    ...common,
+  }),
+});
+
+const works = defineCollection({
+  loader: yaml('works'),
+  schema: z.object({
+    title: z.string(),
+    kind: z.enum(['game', 'collectible', 'artwork', 'stage', 'attraction', 'parody', 'convention', 'television', 'soundtrack', 'event', 'link', 'fan-community', 'other']),
+    year: z.union([z.number(), z.string()]).optional(),
+    creator: z.string().optional(),
+    publisher: z.string().optional(),
+    description: z.string().optional(),
+    ...common,
+  }),
+});
+
+const essays = defineCollection({
+  loader: yaml('essays'),
+  schema: z.object({
+    title: z.string(),
+    authors: names,
+    published_in: z.string().optional(),
+    published: z.string().optional(),
+    kind: z.enum(['essay', 'journal-article', 'book-chapter', 'speech', 'interview', 'review']).optional(),
+    description: z.string().optional(),
+    episodes: names,
+    ...common,
+  }),
+});
+
+const archives = defineCollection({
+  loader: yaml('archives'),
+  schema: z.object({
+    name: z.string(),
+    institution: z.string().optional(),
+    location: z.string().optional(),
+    dates: z.string().optional(),
+    extent: z.string().optional(),
+    description: z.string().optional(),
+    url: z.string().optional(),
+    ...common,
+  }),
+});
+
+export const collections = {
+  essays,
+  archives,
+  works,
+  locations,
+  series, episodes, films, connections, songs, books, comics, magazines, radio, podcasts, people, quotes,
+};

@@ -1,0 +1,8 @@
+from: films/real-steel
+to: 1959/steel
+kind: inspired-by
+confidence: fan-noted
+summary: Real Steel is listed in Adam's research as inspired by "Steel".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

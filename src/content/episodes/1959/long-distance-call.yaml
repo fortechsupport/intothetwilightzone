@@ -1,0 +1,24 @@
+title: Long Distance Call
+series: '1959'
+season: 2
+episode: '22'
+air_date: '1961-03-31'
+runtime_min: 25
+production_code: '173-3667'
+writers:
+- Charles Beaumont
+- William Idelson
+directors:
+- James Sheldon
+cast:
+- Philip Abbott
+- Bill Mumy
+- Lew Brown
+narrator: Rod Serling
+ids:
+  imdb: tt0734587
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Long_Distance_Call
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

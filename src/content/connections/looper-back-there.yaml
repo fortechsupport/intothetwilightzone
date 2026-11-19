@@ -1,0 +1,8 @@
+from: films/looper
+to: 1959/back-there
+kind: inspired-by
+confidence: fan-noted
+summary: Looper is listed in Adam's research as inspired by "Back There".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

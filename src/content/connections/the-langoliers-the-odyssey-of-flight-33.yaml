@@ -1,0 +1,8 @@
+from: films/the-langoliers
+to: 1959/the-odyssey-of-flight-33
+kind: inspired-by
+confidence: fan-noted
+summary: The Langoliers is listed in Adam's research as inspired by "The Odyssey of Flight 33".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

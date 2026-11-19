@@ -1,0 +1,22 @@
+title: Death Ship
+series: '1959'
+season: 4
+episode: '6'
+air_date: '1963-02-07'
+runtime_min: 51
+production_code: '4850'
+writers:
+- Richard Matheson
+directors:
+- Don Medford
+cast:
+- Jack Klugman
+- Ross Martin
+narrator: Rod Serling
+ids:
+  imdb: tt0734562
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Death_Ship_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

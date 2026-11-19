@@ -1,0 +1,23 @@
+title: Profile in Silver
+series: '1985'
+season: 1
+episode: 20a
+air_date: '1986-03-07'
+runtime_min: 28
+writers:
+- J. Neil Schulman
+directors:
+- John Hancock
+cast:
+- Lane Smith
+- Andrew Robinson
+- Jerry Hardin
+- Mark Taylor
+narrator: Charles Aidman
+ids:
+  imdb: tt0734727
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Profile_in_Silver
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

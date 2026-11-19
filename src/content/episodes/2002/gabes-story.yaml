@@ -1,0 +1,20 @@
+title: Gabe's Story
+series: '2002'
+season: 1
+episode: '22'
+air_date: '2002-12-11'
+runtime_min: 22
+production_code: '123'
+writers:
+- Dusty Kay
+directors:
+- Allan Kroeker
+cast:
+- Christopher Titus
+- Jed Rees
+narrator: Forest Whitaker
+ids:
+  imdb: tt0734785
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

@@ -1,0 +1,20 @@
+{
+  "name": "intothetwilightzone",
+  "private": true,
+  "type": "module",
+  "description": "IntoTheTwilightZone.com: a non-commercial fan site and living history of The Twilight Zone.",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "dev": "astro dev",
+    "import": "python3 scripts/import_spreadsheets.py",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "astro": "^7.4.13"
+  },
+  "devDependencies": {
+    "pagefind": "^1.6.0"
+  }
+}

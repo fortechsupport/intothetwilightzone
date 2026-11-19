@@ -1,0 +1,8 @@
+from: films/liar-liar
+to: 1959/the-whole-truth
+kind: inspired-by
+confidence: fan-noted
+summary: Liar Liar is listed in Adam's research as inspired by "The Whole Truth".
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

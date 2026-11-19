@@ -1,0 +1,21 @@
+title: The Comedian
+series: '2019'
+season: 1
+episode: '1'
+air_date: '2019-04-01'
+runtime_min: 55
+writers:
+- Alex Rubens
+directors:
+- Owen Harris
+cast:
+- Kumail Nanjiani
+- Tracy Morgan
+narrator: Jordan Peele
+ids:
+  imdb: tt9089912
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Comedian_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

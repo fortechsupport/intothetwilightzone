@@ -1,0 +1,23 @@
+title: The Once and Future King
+series: '1985'
+season: 2
+episode: 01a
+air_date: '1986-09-27'
+runtime_min: 28
+writers:
+- Bryce Maritano
+- George R.R. Martin
+writing_credit_note: 'Teleplay by: George R. R. Martin; Story by: Bryce Maritano'
+directors:
+- Jim McBride
+cast:
+- Jeff Yagher
+- Red West
+narrator: Charles Aidman
+ids:
+  imdb: tt0734699
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Once_and_Future_King_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

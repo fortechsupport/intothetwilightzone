@@ -1,0 +1,17 @@
+title: The Dummy
+series_title: The Twilight Zone Radio Dramas
+season: 4
+season_order: 1
+volume: 6
+volume_order: 1
+volume_released: July 2013
+original_writer: Rod Serling
+adapted_by: Dennis Etchison
+voiced_by:
+- Bruno Kirby
+adapts_episode: 1959/the-dummy
+ids:
+  imdb: tt30623807
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

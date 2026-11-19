@@ -1,0 +1,23 @@
+title: Welcome to Winfield
+series: '1985'
+season: 1
+episode: 17a
+air_date: '1986-02-07'
+runtime_min: 26
+writers:
+- Les Enloe
+directors:
+- Bruce Bilson
+cast:
+- Elisa Cook
+- Henry Gibson
+- Gerrit Graham
+- Dennis Fimple
+narrator: Charles Aidman
+ids:
+  imdb: tt0734768
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Welcome_to_Winfield
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
