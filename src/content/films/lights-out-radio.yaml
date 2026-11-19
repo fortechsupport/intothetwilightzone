@@ -1,0 +1,16 @@
+title: Lights Out
+kind: tv-series
+summary: Radio horror anthology created by Wyllis Cooper and later written by Arch Oboler, one of the radio writers
+  the young Serling admired.
+release_date: '1934'
+sources:
+- title: 'Wikipedia: Anthology series'
+  url: https://en.wikipedia.org/wiki/Anthology_series
+research_confidence: medium
+relevance: tangential
+tags:
+- anthology-family
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Lights_Out_(radio_show)
+last_verified: '2026-11-19'
+locked: true

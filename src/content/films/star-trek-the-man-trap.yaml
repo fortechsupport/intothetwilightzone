@@ -1,0 +1,14 @@
+title: 'Star Trek: The Man Trap'
+kind: tv-episode
+parent_series: Star Trek, season 1
+summary: The first Star Trek episode broadcast, written by George Clayton Johnson.
+release_date: '1966-09-08'
+writers:
+- George Clayton Johnson
+sources:
+- title: 'Wikipedia: The Man Trap'
+  url: https://en.wikipedia.org/wiki/The_Man_Trap
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

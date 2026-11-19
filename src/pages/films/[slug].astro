@@ -25,6 +25,7 @@ const jsonld = {
   <p class="breadcrumb" data-pagefind-ignore>{d.parent_series?.startsWith('Night Gallery') || f.id === 'night-gallery' ? <a href="/night-gallery/">Night Gallery</a> : <a href="/films/">Films</a>}</p>
   <h1>{d.title}</h1>
   {d.parent_series && <p class="muted">{d.parent_series}</p>}
+  {d.relevance && d.relevance !== 'core' && <p class="small"><span class="tag">{d.relevance === 'related' ? 'Related to The Twilight Zone' : 'Tangential to The Twilight Zone'}</span></p>}
   {d.summary && <p class="lead">{d.summary}</p>}
   <dl class="facts">
     {d.release_date && <><dt>Released</dt><dd>{formatDate(d.release_date)}</dd></>}

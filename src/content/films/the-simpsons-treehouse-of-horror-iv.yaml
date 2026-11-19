@@ -1,0 +1,15 @@
+title: 'The Simpsons: Treehouse of Horror IV'
+kind: tv-episode
+parent_series: The Simpsons, season 5
+summary: The 1993 Halloween episode frames its three stories with Bart as the host of a Night Gallery-style art
+  gallery, introducing each tale from a painting the way Rod Serling did.
+release_date: '1993-10-28'
+sources:
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+- title: 'Wikipedia: Treehouse of Horror IV'
+  url: https://en.wikipedia.org/wiki/Treehouse_of_Horror_IV
+research_confidence: high
+relevance: tangential
+last_verified: '2026-11-19'
+locked: true

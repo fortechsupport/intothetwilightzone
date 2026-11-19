@@ -1,0 +1,15 @@
+title: The Ray Bradbury Theater
+kind: tv-series
+summary: Anthology of Bradbury stories, each introduced by the author (1985–1992).
+release_date: '1985'
+writers:
+- Ray Bradbury
+cast:
+- Ray Bradbury
+sources:
+- title: 'Wikipedia: The Ray Bradbury Theater'
+  url: https://en.wikipedia.org/wiki/The_Ray_Bradbury_Theater
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

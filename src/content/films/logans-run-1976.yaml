@@ -1,0 +1,16 @@
+title: Logan's Run
+kind: film
+summary: MGM film of the Nolan and Johnson novel.
+release_date: '1976'
+directors:
+- Michael Anderson
+cast:
+- Michael York
+- Jenny Agutter
+sources:
+- title: 'Wikipedia: Logan''s Run (film)'
+  url: https://en.wikipedia.org/wiki/Logan%27s_Run_(film)
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

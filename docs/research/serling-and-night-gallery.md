@@ -31,3 +31,22 @@ Broadcast Communications Encyclopedia of Television, Encyclopaedia Britannica, C
 - Not done: The Sixth Sense episodes repackaged as Night Gallery, the unproduced Night Gallery scripts, per-episode trivia and syndication
   edit details (Skelton and Benson's After-Hours Tour is the reference), Serling's 1950s scripts beyond the ~20 best documented
   (he sold over 200), and IMDb ids for the new records.
+
+## Second pass: everything related (2026-11-19)
+
+Adam asked for everything even remotely related, to curate later. Every record from this PR now carries
+`relevance` (core / related / tangential, same field as the print PR) and teleplays carry `tags: [teleplay]`.
+
+- The Sixth Sense (1972), all 25 episodes, and its link into Night Gallery syndication.
+- Night Gallery parodies: Treehouse of Horror IV, Tiny Toons' Night Ghoulery (with `parody` connections to `films/night-gallery`).
+- Unproduced Serling scripts (two Night Gallery scripts, No Christmas This Year).
+- The 1982 Twilight Zone accident and trial (works, `subtype: history`, relevance core).
+- The Planet of the Apes franchise (tangential).
+- Other work by Twilight Zone writers (related): Matheson, Beaumont, George Clayton Johnson, Earl Hamner Jr., Bradbury, Jerome Bixby.
+- Anthology family tree (tangential, `tags: [anthology-family]`): 26 radio and TV anthologies from Lights Out to Cabinet of Curiosities.
+- Local titles in five countries and "twilight zone" as an everyday phrase.
+- Walk of Fame star: the official walkoffame.com page gives the ceremony date as October 6, 1988 (Wikipedia's 1985 is wrong). The music/merch
+  and people/places PRs already use 1988.
+
+Gaps: anthology records cite the Wikipedia anthology overview plus each series' own article link, but per-series TZ connections
+(shared writers, explicit influence) are not yet sourced; first-broadcast dates for international versions; dated examples of the phrase.

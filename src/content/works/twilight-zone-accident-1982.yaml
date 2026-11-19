@@ -1,0 +1,32 @@
+title: The Twilight Zone accident (1982)
+kind: event
+subtype: history
+year: 1982
+description: 'On the night of July 23, 1982, while filming the Vietnam sequence of Twilight Zone: The Movie at the
+  Indian Dunes ranch near Valencia, California, special-effects explosions damaged a low-flying helicopter, which
+  crashed onto actor Vic Morrow and child actors Myca Dinh Le, 7, and Renee Shin-Yi Chen, 6, killing all three.
+  The children had been hired without the permits California law requires. Director John Landis, associate producer
+  George Folsey Jr., production manager Dan Allingham, pilot Dorcey Wingo and effects man Paul Stewart were tried
+  for involuntary manslaughter and acquitted in May 1987 after a ten-month trial. The families settled civil suits.
+  The crash led to new FAA rules for helicopters on film sets, studio and guild safety programs, and California''s
+  motion picture safety program for pyrotechnics.'
+details:
+  date: '1982-07-23'
+  location: Indian Dunes, Valencia, California
+  verdict: Acquitted, May 1987
+  books:
+  - Outrageous Conduct (Stephen Farber and Marc Green, 1988)
+  - Special Effects (Ron LaBrecque, 1988)
+  - Fly By Night (Steve Chain, 2022)
+  documentaries:
+  - E! True Hollywood Story (2000)
+  - Cursed Films, Shudder (2020)
+sources:
+- title: 'Wikipedia: Twilight Zone accident'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_accident
+research_confidence: high
+relevance: core
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Twilight_Zone_accident
+last_verified: '2026-11-19'
+locked: true

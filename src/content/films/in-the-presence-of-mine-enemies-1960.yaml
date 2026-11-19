@@ -16,5 +16,8 @@ sources:
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
 research_confidence: medium
+relevance: related
+tags:
+- teleplay
 last_verified: '2026-11-19'
 locked: true

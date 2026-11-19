@@ -73,7 +73,9 @@ timeline:
   text: Dies at Strong Memorial Hospital in Rochester, New York, aged 50, after a series of heart attacks. Buried
     July 2 at Lake View Cemetery in Interlaken, New York.
 - date: '1985'
-  text: Inducted into the Television Hall of Fame and given a star on the Hollywood Walk of Fame.
+  text: Inducted into the Television Hall of Fame.
+- date: '1988-10-06'
+  text: His star on the Hollywood Walk of Fame, at 6840 Hollywood Boulevard, is dedicated.
 - date: '2009-08-11'
   text: Appears on a United States postage stamp in the Early TV Memories series.
 - date: '2024-09-15'
@@ -82,6 +84,8 @@ links:
   wikipedia: https://en.wikipedia.org/wiki/Rod_Serling
   britannica: https://www.britannica.com/biography/Rod-Serling
 sources:
+- title: 'Hollywood Walk of Fame: Rod Serling'
+  url: https://walkoffame.com/rod-serling/
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
 - title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
@@ -89,5 +93,6 @@ sources:
 - title: 'Encyclopaedia Britannica: Rod Serling'
   url: https://www.britannica.com/biography/Rod-Serling
 research_confidence: high
+relevance: related
 last_verified: '2026-11-19'
 locked: true

@@ -1,0 +1,15 @@
+title: Tales from the Crypt
+kind: tv-series
+summary: HBO horror anthology based on the EC comics, hosted by the Crypt Keeper.
+release_date: '1989'
+sources:
+- title: 'Wikipedia: Anthology series'
+  url: https://en.wikipedia.org/wiki/Anthology_series
+research_confidence: medium
+relevance: tangential
+tags:
+- anthology-family
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Tales_from_the_Crypt_(TV_series)
+last_verified: '2026-11-19'
+locked: true

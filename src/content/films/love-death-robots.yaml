@@ -1,0 +1,15 @@
+title: Love, Death & Robots
+kind: tv-series
+summary: Netflix animated science-fiction anthology.
+release_date: '2019'
+sources:
+- title: 'Wikipedia: Anthology series'
+  url: https://en.wikipedia.org/wiki/Anthology_series
+research_confidence: medium
+relevance: tangential
+tags:
+- anthology-family
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Love,_Death_%26_Robots
+last_verified: '2026-11-19'
+locked: true

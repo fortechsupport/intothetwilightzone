@@ -1,0 +1,10 @@
+from: films/tiny-toon-adventures-night-ghoulery
+to: films/night-gallery
+kind: parody
+confidence: documented
+summary: Its title and format send up Night Gallery.
+sources:
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+last_verified: '2026-11-19'
+locked: true

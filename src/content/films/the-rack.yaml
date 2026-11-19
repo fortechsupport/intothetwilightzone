@@ -16,6 +16,7 @@ sources:
 - title: 'Encyclopaedia Britannica: Rod Serling'
   url: https://www.britannica.com/biography/Rod-Serling
 research_confidence: medium
+relevance: related
 ids:
   imdb: tt0049652
 last_verified: '2026-11-19'

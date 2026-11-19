@@ -1,0 +1,15 @@
+title: Science Fiction Theatre
+kind: tv-series
+summary: Syndicated science-fiction anthology that preceded The Twilight Zone.
+release_date: '1955'
+sources:
+- title: 'Wikipedia: Anthology series'
+  url: https://en.wikipedia.org/wiki/Anthology_series
+research_confidence: medium
+relevance: tangential
+tags:
+- anthology-family
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Science_Fiction_Theatre
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,16 @@
+title: 'Star Trek: The Enemy Within'
+kind: tv-episode
+parent_series: Star Trek, season 1
+summary: A transporter accident splits Captain Kirk into two halves; written by Matheson.
+release_date: '1966'
+writers:
+- Richard Matheson
+cast:
+- William Shatner
+sources:
+- title: 'Wikipedia: The Enemy Within (Star Trek: The Original Series)'
+  url: https://en.wikipedia.org/wiki/The_Enemy_Within_(Star_Trek:_The_Original_Series)
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true
