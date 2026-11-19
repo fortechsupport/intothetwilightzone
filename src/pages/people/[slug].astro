@@ -10,8 +10,8 @@ export async function getStaticPaths() {
 interface Props { p: Person }
 const { p } = Astro.props;
 const rec = p.record?.data;
-const roles = [...new Set(p.credits.map((c) => c.role))];
-const byRole = roles.map((role) => ({
+const roles = [...new Set([...(rec?.roles ?? []), ...p.credits.map((c) => c.role)])];
+const byRole = [...new Set(p.credits.map((c) => c.role))].map((role) => ({
   role,
   credits: p.credits.filter((c) => c.role === role).sort((a, b) => (a.date ?? '9999').localeCompare(b.date ?? '9999')),
 }));
@@ -40,7 +40,7 @@ const jsonld = {
       <h2>{role} <span class="muted small">({credits.length})</span></h2>
       <ul class="plain">
         {credits.map((c) => (
-          <li><a href={c.url}>{c.title}</a> <span class="muted small">{[c.detail, formatDate(c.date)].filter(Boolean).join(' · ')}</span></li>
+          <li>{c.url ? <a href={c.url}>{c.title}</a> : c.title} <span class="muted small">{[c.detail, formatDate(c.date)].filter(Boolean).join(' · ')}</span></li>
         ))}
       </ul>
     </section>
