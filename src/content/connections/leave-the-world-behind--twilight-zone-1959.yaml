@@ -1,0 +1,11 @@
+from: films/leave-the-world-behind
+to: series/1959
+kind: inspired-by
+confidence: fan-noted
+summary: Two families share a rental house as a mysterious collapse cuts them off from the world; at least one reviewer
+  compared it to The Twilight Zone.
+sources:
+- title: Leave the World Behind (Film Yap)
+  url: https://filmyap.substack.com/p/leave-the-world-behind
+last_verified: '2026-11-19'
+locked: true

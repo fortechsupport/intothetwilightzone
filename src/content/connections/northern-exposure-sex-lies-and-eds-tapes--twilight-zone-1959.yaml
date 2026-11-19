@@ -1,0 +1,10 @@
+from: films/northern-exposure-sex-lies-and-eds-tapes
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Rick hums the famous Twilight Zone theme to underline something odd in Cicely.
+sources:
+- title: 'The Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true

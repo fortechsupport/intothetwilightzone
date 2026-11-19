@@ -1,0 +1,10 @@
+from: films/vanilla-sky
+to: 1959/shadow-play
+kind: reference
+confidence: fan-noted
+summary: A television in David's nightmare plays the dream-trap episode, quietly foreshadowing the film's own reveal.
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-19'
+locked: true

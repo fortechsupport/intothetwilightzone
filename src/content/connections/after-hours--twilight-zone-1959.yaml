@@ -1,0 +1,11 @@
+from: films/after-hours
+to: series/1959
+kind: inspired-by
+confidence: fan-noted
+summary: A word processor's night in SoHo spirals into nightmarish coincidence; Flickering Myth includes it on its
+  Twilight Zone-style list.
+sources:
+- title: 10 Great Twilight Zone Style Movies (Flickering Myth)
+  url: https://www.flickeringmyth.com/10-great-twilight-zone-style-movies/
+last_verified: '2026-11-19'
+locked: true

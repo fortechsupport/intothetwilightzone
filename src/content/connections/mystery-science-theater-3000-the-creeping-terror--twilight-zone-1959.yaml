@@ -1,0 +1,10 @@
+from: films/mystery-science-theater-3000-the-creeping-terror
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Tom Servo riffs on a doorway into another dimension, echoing the anthology's narration.
+sources:
+- title: 'The Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,13 @@
+from: films/the-similars-los-parecidos
+to: series/1959
+kind: homage
+confidence: documented
+summary: Travelers stranded at a 1968 Mexican bus station during a storm begin to change in impossible ways; critics
+  describe the black-and-white-styled film as a tribute to Serling's series.
+sources:
+- title: 'Los parecidos: A Tribute to Rod Serling''s The Twilight Zone (What Sleeps Beneath)'
+  url: https://www.whatsleepsbeneath.com/archive/the-similars-review
+- title: 'Review: Isaac Ezban''s The Similars Pays Homage To An Era Of Fear And Paranoia (ScreenAnarchy)'
+  url: https://screenanarchy.com/2015/11/review-isaac-ezbans-the-similars-pays-homage-to-an-era-of-fear-and-paranoia.html
+last_verified: '2026-11-19'
+locked: true

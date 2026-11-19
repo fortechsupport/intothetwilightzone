@@ -1,0 +1,11 @@
+from: films/the-greatest-american-hero-pilot
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: FBI agent Bill Maxwell invokes The Twilight Zone while confronting the strange events that give Ralph his
+  super-suit.
+sources:
+- title: 'The Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true

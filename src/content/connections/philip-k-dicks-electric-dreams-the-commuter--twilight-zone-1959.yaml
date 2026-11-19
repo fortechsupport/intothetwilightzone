@@ -1,0 +1,11 @@
+from: films/philip-k-dicks-electric-dreams-the-commuter
+to: series/1959
+kind: inspired-by
+confidence: fan-noted
+summary: A railway clerk follows a passenger to a town that should not exist, in an episode a reviewer framed as
+  Twilight Zone territory.
+sources:
+- title: 'Goodreads blog: Philip K. Dick''s Electric Dreams 1.9 The Commuter: Submitted for Your Approval'
+  url: https://www.goodreads.com/author_blog_posts/16261555-philip-k-dick-s-electric-dreams-1-9-the-commuter-submitted-for-your-ap
+last_verified: '2026-11-19'
+locked: true

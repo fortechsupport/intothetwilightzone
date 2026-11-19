@@ -1,0 +1,10 @@
+from: films/reap-what-you-sow
+to: series/1959
+kind: homage
+confidence: documented
+summary: An animated fan film made in the style of a Twilight Zone episode, spotlighted by Dread Central.
+sources:
+- title: 'Video: You''ll Love This Animated TWILIGHT ZONE Fan Film Reap What You Sow (Dread Central)'
+  url: https://www.dreadcentral.com/news/369317/video-youll-love-this-animated-twilight-zone-fan-film-reap-what-you-sow
+last_verified: '2026-11-19'
+locked: true

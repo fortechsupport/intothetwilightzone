@@ -1,0 +1,14 @@
+title: Contact
+kind: film
+release_date: '1997'
+directors:
+- Robert Zemeckis
+summary: In the film's cosmic pull-back opening, a snippet of the Twilight Zone theme can be heard among the Earth
+  broadcasts as the camera passes Jupiter.
+ids:
+  imdb: tt0118884
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone (1959)'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959
+last_verified: '2026-11-19'
+locked: true

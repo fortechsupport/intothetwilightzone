@@ -38,6 +38,16 @@ const internationalTitle = z.object({
   note: z.string().optional(),
   sources: z.array(source).min(1),
 });
+const release = z.object({
+  date: z.string().optional(),
+  format: z.string(),
+  title: z.string(),
+  publisher: z.string().optional(),
+  region: z.string().optional(),
+  note: z.string().max(400).optional(),
+  sources: z.array(source).min(1),
+});
+const releases = z.array(release).default([]);
 const history = z.array(historyEvent).default([]);
 const internationalTitles = z.array(internationalTitle).default([]);
 
@@ -53,6 +63,7 @@ const series = defineCollection({
     summary: z.string(),
     history,
     international_titles: internationalTitles,
+    releases,
     sources: z.array(source).default([]),
     locked: z.boolean().optional(),
   }),
@@ -94,12 +105,13 @@ const films = defineCollection({
   loader: yaml('films'),
   schema: z.object({
     title: z.string(),
-    kind: z.enum(['film', 'tv-film', 'tv-episode', 'tv-segment', 'tv-series', 'sketch', 'documentary', 'special', 'pilot', 'stage', 'unproduced']).default('film'),
+    kind: z.enum(['film', 'tv-film', 'tv-episode', 'tv-segment', 'tv-series', 'sketch', 'documentary', 'special', 'pilot', 'stage', 'unproduced', 'short', 'music-video', 'commercial', 'web-series']).default('film'),
     summary: z.string().optional(),
     parent_series: z.string().optional(),
     segments: z.array(segment).default([]),
     history,
     international_titles: internationalTitles,
+    releases,
     release_date: z.string().optional(),
     rating: z.string().optional(),
     runtime_min: z.number().optional(),

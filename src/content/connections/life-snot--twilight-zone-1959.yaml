@@ -1,0 +1,10 @@
+from: films/life-snot
+to: series/1959
+kind: homage
+confidence: documented
+summary: Complex describes the rapper's ominous visuals for the song as going full Twilight Zone.
+sources:
+- title: SNOT goes full Twilight Zone in the new ominous visuals for his song Life (Complex)
+  url: https://www.complex.com/music/a/j-rose/snot-life-video-stream
+last_verified: '2026-11-19'
+locked: true

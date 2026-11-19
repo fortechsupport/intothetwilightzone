@@ -35,7 +35,16 @@ for e in json.load(open(f'{RES}/international.json')):
     row['sources'] = clean_sources(e['sources'])
     if all((x['country'], x['title']) != (row['country'], row['title']) for x in it):
         it.append(row)
+if os.path.exists(f'{RES}/home_media.json'):
+    for e in json.load(open(f'{RES}/home_media.json')):
+        d = get(e['applies_to']); rl = d.setdefault('releases', [])
+        row = {k: e[k] for k in ('date', 'format', 'title', 'publisher', 'region', 'note') if e.get(k) not in (None, '')}
+        if row.get('note'): row['note'] = row['note'][:400]
+        row['sources'] = clean_sources(e['sources'])
+        if row['sources'] and all((x.get('date'), x['title']) != (row.get('date'), row['title']) for x in rl):
+            rl.append(row)
 for p, d in recs.items():
+    if d.get('releases'): d['releases'].sort(key=lambda x: x.get('date') or '9999')
     for k in ('history',):
         if d.get(k): d[k].sort(key=lambda x: x['date'])
     d['locked'] = True

@@ -49,6 +49,19 @@ specials, works inspired by specific episodes, and homages and parodies in other
   broadcaster or year, because the research hit the page-fetch limit. Gaps: German titles of the revivals,
   first broadcasters for Italy and Spain, the Netherlands, Sweden, Portugal and the UK.
 
+### Home media, timeline and wider coverage (Adam: document everything, curate later)
+
+- **Home media:** a new `releases` field on series and films, shown as "Home media, syndication and streaming". It
+  has 55 entries: 42 for the 1959 series (VHS, Image DVD volumes, Definitive Edition, Blu-ray sets, syndication and
+  the Lost Five, Netflix/Hulu/Paramount+/Pluto), 4 for 1985, 1 for 2002, 5 for 2019 and 3 for the film. Gaps: no
+  laserdisc, CED or film VHS dates found, and some entries rest on article headlines (marked in the note).
+- **Timeline:** a new `/timeline/` page, linked in the nav, built at build time from every dated field in every
+  collection, with filters by type.
+- **Wider homage coverage:** about 120 more TV and film entries. Most are fan-noted: passing mentions, theme-music
+  gags, and "Twilight Zone-style" film lists (Mulholland Drive, Shutter Island, The Matrix and others). These are
+  general comparisons, there for Adam to curate. Strong new links include Sinners / "The Last Rites of Jeff
+  Myrtlebank", Uglies / "Eye of the Beholder", Shadow in the Cloud / "Nightmare at 20,000 Feet", and WandaVision.
+
 Raw research is in `data/research/tv-film/`. The merge script is `scripts/research/merge_tv_film.py`
 (`python3 scripts/research/merge_tv_film.py <snapshot src/content> data/research/tv-film <out>`, then run
 `scripts/research/apply_source_authors.py` from `src/content/episodes`), and

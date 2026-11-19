@@ -1,0 +1,10 @@
+from: films/eastenders-episode-of-27-september-2005
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Garry declares that they are back in The Twilight Zone.
+sources:
+- title: 'The Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true

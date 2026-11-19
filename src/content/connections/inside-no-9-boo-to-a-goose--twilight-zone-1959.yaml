@@ -1,0 +1,11 @@
+from: films/inside-no-9-boo-to-a-goose
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Commuters stuck in a stalled train carriage turn on one another over a missing wallet, and viewers likened
+  the episode's set-up to The Twilight Zone.
+sources:
+- title: 'British Comedy Guide forum: Boo to a Goose was very Twilight Zone'
+  url: https://www.comedy.co.uk/forums/post/1280210/
+last_verified: '2026-11-19'
+locked: true

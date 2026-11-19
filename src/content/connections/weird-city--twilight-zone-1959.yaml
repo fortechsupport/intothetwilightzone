@@ -1,0 +1,13 @@
+from: films/weird-city
+to: series/1959
+kind: inspired-by
+confidence: documented
+summary: Jordan Peele and Charlie Sanders' YouTube Originals anthology about a city divided by class was billed
+  as a comic Twilight Zone with a twist.
+sources:
+- title: YouTube's Weird City Is Twilight Zone with a Twist (MediaVillage)
+  url: https://www.mediavillage.com/article/youtubes-weird-city-is-twilight-zone-with-a-twist/
+- title: Weird City's Charlie Sanders on crafting a different kind of anthology series (SYFY Wire)
+  url: https://www.syfy.com/index%2ephp/syfy-wire/weird-citys-charlie-sanders-on-crafting-a-different-kind-of-anthology-series-with-jordan
+last_verified: '2026-11-19'
+locked: true

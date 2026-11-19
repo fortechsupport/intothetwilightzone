@@ -1,0 +1,11 @@
+from: films/guillermo-del-toros-cabinet-of-curiosities
+to: series/1959
+kind: inspired-by
+confidence: documented
+summary: Del Toro's Netflix horror anthology, with the filmmaker introducing each tale on camera, is framed as a
+  love letter to Rod Serling's Night Gallery, his follow-up to The Twilight Zone.
+sources:
+- title: 'TheWrap: Why Cabinet of Curiosities is Guillermo del Toro''s love letter to Rod Serling''s Night Gallery'
+  url: https://www.thewrap.com/cabinet-of-curiosities-guillermo-del-toro-rod-serling-night-gallery/
+last_verified: '2026-11-19'
+locked: true

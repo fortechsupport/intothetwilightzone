@@ -1,0 +1,10 @@
+from: films/madagascar
+to: 1959/to-serve-man
+kind: reference
+confidence: fan-noted
+summary: A panicking lemur holds up a book titled 'To Serve Lemur' and shrieks that it is a cookbook.
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone (1959)'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,13 @@
+from: films/tales-of-the-unusual-yo-nimo-kimyo-na-monogatari
+to: series/1959
+kind: inspired-by
+confidence: documented
+summary: Japan's long-running Fuji TV anthology of strange tales, introduced by a sunglasses-wearing host, is widely
+  regarded as the country's answer to The Twilight Zone.
+sources:
+- title: 'Wikipedia: Tales of the Unusual'
+  url: https://en.wikipedia.org/wiki/Tales_of_the_Unusual
+- title: 'Bloody Disgusting: Tales of the Unusual, charming Japanese anthology'
+  url: https://bloody-disgusting.com/editorials/3708913/tales-of-the-unusual-charming-japanese-anthology-offers-multiple-genres-horrors-elsewhere/
+last_verified: '2026-11-19'
+locked: true

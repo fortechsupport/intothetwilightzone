@@ -1,0 +1,13 @@
+from: films/uglies
+to: 1959/eye-of-the-beholder
+kind: homage
+confidence: documented
+summary: In a society where everyone is surgically made 'pretty' at sixteen, a teen questions the system; /Film
+  says the Netflix adaptation pays tribute to the bandaged-patient classic.
+sources:
+- title: Netflix's Uglies Pays Tribute To A Classic Episode Of The Twilight Zone (/Film)
+  url: https://slashfilm.com/1673416/netflix-uglies-the-twilight-zone-tribute
+- title: Netflix Uglies movie shamelessly rips off The Twilight Zone (Fortress of Solitude)
+  url: https://www.fortressofsolitude.co.za/netflix-uglies-movie-shamelessly-rips-off-the-twilight-zone
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,11 @@
+from: films/groundhog-day
+to: 1959/shadow-play
+kind: inspired-by
+confidence: fan-noted
+summary: A weatherman relives the same day over and over; MeTV points fans of the film toward the episode about
+  a man trapped in a recurring execution dream.
+sources:
+- title: Two classic Twilight Zone episodes for those who love Groundhog Day (MeTV)
+  url: https://metv.com/stories/two-classic-twilight-zone-episodes-for-those-who-love-groundhog-day
+last_verified: '2026-11-19'
+locked: true

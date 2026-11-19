@@ -435,7 +435,7 @@ if os.path.exists(f'{RES}/connections_inspired.json'):
     new_items = ci.get('new', [])
 else:
     new_items = []
-for extra in ('connections_homages.json', 'connections_inbox.json'):
+for extra in ('connections_homages.json', 'connections_inbox.json', 'homages_tv_2.json', 'homages_film_2.json'):
     if os.path.exists(f'{RES}/{extra}'):
         new_items += json.load(open(f'{RES}/{extra}'))
 

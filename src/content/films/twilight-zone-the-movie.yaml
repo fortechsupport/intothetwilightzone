@@ -250,3 +250,38 @@ international_titles:
     url: https://eiga.com/movie/47382/
   - title: 'Jorudan: トワイライトゾーン 超次元の体験 作品情報'
     url: https://movie.jorudan.co.jp/film/06422/
+releases:
+- date: '2007-10-09'
+  format: Blu-ray
+  title: 'Twilight Zone: The Movie (Blu-ray and HD DVD)'
+  publisher: Warner Home Video
+  region: US
+  note: Film's high-definition debut, issued on both Blu-ray and HD DVD the same week alongside a DVD reissue.
+  sources:
+  - title: 'This Week on HD DVD and Blu-ray: October 9, 2007 - Gear Live'
+    url: https://www.gearlive.com/movies/article/q107-this-week-on-hd-dvd-and-blu-ray-october-9-2007-10081115
+  - title: 'Twilight Zone: The Movie Blu-ray review - High-Def Digest'
+    url: https://bluray.highdefdigest.com/1020/twilightzonethemovie.html
+  - title: 'Twilight Zone: The Movie (HD-DVD, 2007) - eBay'
+    url: https://www.ebay.com/p/61707449
+- date: '2025-12'
+  format: Blu-ray
+  title: 'Twilight Zone: The Movie (new Blu-ray)'
+  region: US
+  note: New Blu-ray edition reviewed late December 2025 to January 2026. Label (possibly Warner Archive) and transfer
+    details not verified.
+  sources:
+  - title: 'Twilight Zone: The Movie Blu-ray review - DVD Corner'
+    url: https://dvdcorner.net/2025/12/28/twilight-zone-the-movie-blu-ray-review
+  - title: 'Twilight Zone: The Movie - CineSavant'
+    url: https://cinesavant.com/reviews/twilight-zone-the-movie/
+- format: DVD
+  title: 'Twilight Zone: The Movie (original DVD)'
+  publisher: Warner Home Video
+  region: Region 1
+  note: Early Warner DVD release of the film; date and specs not yet verified.
+  sources:
+  - title: 'Twilight Zone: The Movie - DVDCompare'
+    url: https://mail.dvdcompare.net/comparisons/film.php?fid=2044
+  - title: DVD Verdict review
+    url: https://www.dvdverdict.com/reviews/twilightzonemovie.php
