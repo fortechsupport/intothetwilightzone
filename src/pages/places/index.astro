@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { PLACE_KINDS, placeLine } from '../../lib/places';
+const places = (await getCollection('locations')).sort((a, b) => a.data.name.localeCompare(b.data.name));
+const groups = PLACE_KINDS.map(([kind, title, blurb]) => ({ kind, title, blurb, items: places.filter((p) => (p.data.kind ?? '') === kind) })).filter((g) => g.items.length > 0);
+---
+<Base title="Places" description="Twilight Zone filming locations, studio backlots, Rod Serling's places, attractions, memorials and archives.">
+  <h1>Places</h1>
+  <p class="lead">{places.length} places: where the show was filmed, where Rod Serling lived and worked, and where the Twilight Zone lives on today.</p>
+  <p class="letters small">Jump to: {groups.map((g) => <a href={`#${g.kind || 'other'}`}>{g.title}</a>)}</p>
+  {groups.map((g) => (
+    <section id={g.kind || 'other'}>
+      <h2>{g.title} <span class="muted small">({g.items.length})</span></h2>
+      {g.blurb && <p class="muted small">{g.blurb}</p>}
+      <ul class="plain">
+        {g.items.map((p) => (
+          <li><a href={`/places/${p.id}/`}>{p.data.name}</a> <span class="muted small">{placeLine(p.data)}{p.data.status && ` · ${p.data.status}`}</span></li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>
