@@ -4,7 +4,7 @@ season: 1
 episode: '36'
 air_date: '1960-07-01'
 runtime_min: 25
-production_code: '173-3634'
+production_code: 173-3634
 writers:
 - Richard Matheson
 directors:
@@ -13,6 +13,13 @@ cast:
 - Keenan Wynn
 - Phyllis Kirk
 narrator: Rod Serling
+synopsis: Playwright Gregory West is entertaining an attractive woman at home when his wife walks in and catches
+  them. He then reveals a secret about his dictation machine and the characters he describes into it.
+themes:
+- comedy
+- creativity
+- imagination
+- marriage
 ids:
   imdb: tt0734553
 links:
@@ -20,3 +27,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+last_verified: '2026-11-19'
+locked: true

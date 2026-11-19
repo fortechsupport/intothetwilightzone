@@ -1,0 +1,13 @@
+from: films/toy-story-4
+to: 1959/living-doll
+kind: inspired-by
+confidence: confirmed-by-creator
+evidence: Director Josh Cooley told Entertainment Weekly that the pull-string doll Gabby Gabby was partly inspired
+  by Talky Tina.
+sources:
+- title: A Toy Story Character Was Inspired By A Creepy Twilight Zone Episode (/Film)
+  url: https://www.slashfilm.com/1721046/toy-story-4-the-twilight-zone-character-inspiration-gabby-gabby
+- title: Living Doll (The Twilight Zone) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Living_Doll_(The_Twilight_Zone)
+last_verified: '2026-11-19'
+locked: true

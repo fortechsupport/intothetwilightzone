@@ -1,7 +1,7 @@
 title: Take My Life...Please!
 series: '1985'
 season: 1
-episode: 22a
+episode: '22a'
 air_date: '1986-03-28'
 runtime_min: 14
 writers:
@@ -12,6 +12,12 @@ cast:
 - Tim Thomerson
 - Xander Berkeley
 narrator: Charles Aidman
+synopsis: After a fatal accident, a self-centered stand-up comedian finds himself in the afterlife, performing before
+  an audience that knows exactly how he treated the people in his life.
+themes:
+- afterlife
+- comedy
+- judgment
 ids:
   imdb: tt0734739
 links:
@@ -19,3 +25,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

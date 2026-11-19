@@ -6,9 +6,10 @@ air_date: '1963-11-08'
 runtime_min: 25
 production_code: '2603'
 writers:
-- Henry Slesar
 - Rod Serling
-writing_credit_note: 'Teleplay by: Rod Serling; Based on the short story The Old Man by: Henry Slesar'
+writing_credit_note: Teleplay by Rod Serling, based on the short story "The Old Man" by Henry Slesar.
+source_authors:
+- Henry Slesar
 directors:
 - Alan Crosland, Jr.
 cast:
@@ -16,6 +17,14 @@ cast:
 - John Anderson
 - Josie Lloyd
 narrator: Rod Serling
+synopsis: Ten years after nuclear war, a small, starving community survives by following the advice of an unseen
+  old man in a cave, relayed by their leader Goldsmith. When armed soldiers arrive, they challenge the townspeople's
+  blind faith.
+themes:
+- authority
+- faith
+- post-apocalypse
+- survival
 ids:
   imdb: tt0734669
 links:
@@ -23,3 +32,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+last_verified: '2026-11-19'
+locked: true

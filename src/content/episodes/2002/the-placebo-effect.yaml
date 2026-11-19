@@ -8,15 +8,25 @@ production_code: '134'
 writers:
 - Rebecca Swanson
 - Brent V. Friedman
-writing_credit_note: 'Teleplay by: Brent V. Friedman; Story by: Rebecca Swanson'
+writing_credit_note: Story by Rebecca Swanson; teleplay by Brent V. Friedman
 directors:
 - Jerry Levine
 cast:
 - Sydney Tamiia Poitier
 - Jeffrey Combs
 narrator: Forest Whitaker
+synopsis: A doctor treats a hypochondriac who insists he has caught a disease described in a science fiction novel,
+  and she sets out to prove the illness is only in his head.
+themes:
+- belief
+- fiction
+- medicine
 ids:
   imdb: tt0734798
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

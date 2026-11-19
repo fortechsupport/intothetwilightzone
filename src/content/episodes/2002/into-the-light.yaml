@@ -14,8 +14,20 @@ cast:
 - Reed Diamond
 - Andrew Francis
 narrator: Forest Whitaker
+synopsis: A schoolteacher finds she can tell when someone is about to die simply by looking at their face, a gift
+  that weighs on her each time she sees it.
+themes:
+- burden
+- death
+- precognition
 ids:
   imdb: tt0734790
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: The Twilight Zone (2002) season 1 - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+last_verified: '2026-11-19'
+locked: true

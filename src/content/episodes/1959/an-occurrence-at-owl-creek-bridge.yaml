@@ -5,14 +5,32 @@ episode: '22'
 air_date: '1964-02-28'
 runtime_min: 25
 writers:
-- Ambrose Bierce
 - Robert Enrico
-writing_credit_note: 'Adapted by: Robert Enrico; From a story by: Ambrose Bierce'
+writing_credit_note: French short film La Rivière du hibou (1961), adapted by Robert Enrico from Ambrose Bierce's
+  short story; acquired and broadcast as a Twilight Zone episode with an introduction by Rod Serling. It won Best
+  Short Subject at Cannes (1962) and the Academy Award for Best Live Action Short Film.
+source_authors:
+- Ambrose Bierce
 directors:
 - Robert Enrico
 cast:
 - Roger Jacquet
 narrator: Rod Serling
+synopsis: During the American Civil War, Southern planter Peyton Farquhar stands bound on a railroad bridge, about
+  to be hanged by Union soldiers. When the rope gives way, he plunges into the river and struggles to get home to
+  his wife.
+themes:
+- death
+- escape
+- perception
+- war
+trivia:
+- text: This is a French short film directed by Robert Enrico in 1961, bought and aired as a season 5 episode with
+    an introduction by Serling. It won Best Short Subject at Cannes in 1962 and the Academy Award for Best Live
+    Action Short Film in 1963.
+  sources:
+  - title: An Occurrence at Owl Creek Bridge (film) - Wikipedia
+    url: https://en.wikipedia.org/wiki/An_Occurrence_at_Owl_Creek_Bridge_(film)
 ids:
   imdb: tt0734554
 links:
@@ -20,3 +38,11 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+- title: An Occurrence at Owl Creek Bridge (film) - Wikipedia
+  url: https://en.wikipedia.org/wiki/An_Occurrence_at_Owl_Creek_Bridge_(film)
+last_verified: '2026-11-19'
+locked: true

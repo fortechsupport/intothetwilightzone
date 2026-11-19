@@ -1,0 +1,11 @@
+from: films/the-naked-gun-212-the-smell-of-fear
+to: 1959/to-serve-man
+kind: homage
+confidence: documented
+evidence: Wikipedia's 'To Serve Man' page says the film's cameo by Lloyd Bochner, who starred in the episode, is
+  a tongue-in-cheek nod to it.
+sources:
+- title: To Serve Man (The Twilight Zone) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/To_Serve_Man_(The_Twilight_Zone)
+last_verified: '2026-11-19'
+locked: true

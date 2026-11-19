@@ -1,14 +1,15 @@
 title: A Matter of Minutes
 series: '1985'
 season: 1
-episode: 15c
+episode: '15c'
 air_date: '1986-01-24'
 runtime_min: 17
 writers:
-- Theodore Sturgeon
 - Rockne S. O'Bannon
-writing_credit_note: 'Teleplay by: Rockne S. O''Bannon; Suggested by the short story Yesterday Was Monday
-  by: Theodore Sturgeon'
+writing_credit_note: Teleplay by Rockne S. O'Bannon; suggested by the short story "Yesterday Was Monday" by Theodore
+  Sturgeon
+source_authors:
+- Theodore Sturgeon
 directors:
 - Sheldon Larry
 cast:
@@ -16,6 +17,12 @@ cast:
 - Adolph Caesar
 - Adolph Caesar
 narrator: Charles Aidman
+synopsis: A couple wakes to find their world filled with blue-clad workers busily building the next moment of time,
+  and realize they have somehow slipped out of step with the present.
+themes:
+- marriage
+- reality
+- time
 ids:
   imdb: tt0734721
 links:
@@ -23,3 +30,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

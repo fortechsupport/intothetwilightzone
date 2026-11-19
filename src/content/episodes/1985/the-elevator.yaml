@@ -1,7 +1,7 @@
 title: The Elevator
 series: '1985'
 season: 1
-episode: 16a
+episode: '16a'
 air_date: '1986-01-31'
 runtime_min: 11
 writers:
@@ -13,6 +13,12 @@ cast:
 - Douglas Emerson
 - Carlos Ramirez
 narrator: Charles Aidman
+synopsis: Two brothers break into an abandoned research building to look for their scientist father, who had been
+  developing a growth formula for food, and find that his experiment has had unexpected results.
+themes:
+- family
+- monsters
+- science
 ids:
   imdb: tt0734749
 links:
@@ -20,3 +26,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

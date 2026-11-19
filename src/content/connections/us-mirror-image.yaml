@@ -1,8 +1,17 @@
 from: films/us
 to: 1959/mirror-image
-kind: inspired-by
-confidence: fan-noted
-summary: Us is listed in Adam's research as inspired by "Mirror Image".
+kind: homage
+confidence: confirmed-by-creator
+summary: Jordan Peele said the doppelganger horror of Us grew out of the episode in which a woman meets her own
+  double at a bus station.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: Jordan Peele Reveals THE TWILIGHT ZONE Episode that Inspired US (Dread Central)
+  url: https://www.dreadcentral.com/news/288548/jordan-peele-reveals-the-twilight-zone-episode-that-inspired-us
+- title: The 5 Best Movies Inspired By Twilight Zone Episodes, Ranked (/Film)
+  url: https://www.slashfilm.com/1722719/best-movies-the-twilight-zone-episodes-inspiration-ranked
+- title: '/Film: Jordan Peele''s Us was inspired by a Twilight Zone episode'
+  url: https://www.slashfilm.com/563914/us-twilight-zone/
+last_verified: '2026-11-19'
+locked: true

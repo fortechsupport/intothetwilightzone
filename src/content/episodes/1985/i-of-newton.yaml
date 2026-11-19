@@ -1,19 +1,26 @@
 title: I of Newton
 series: '1985'
 season: 1
-episode: 12b
+episode: '12b'
 air_date: '1985-12-13'
 runtime_min: 9
 writers:
-- Joe Haldeman
 - Alan Brennert
-writing_credit_note: 'Teleplay by: Alan Brennert; Based on the short story by: Joe Haldeman'
+writing_credit_note: Teleplay by Alan Brennert; based on the short story "I of Newton" by Joe Haldeman
+source_authors:
+- Joe Haldeman
 directors:
 - Kenneth Gilbert
 cast:
 - Sherman Hemsley
 - Ron Glass
 narrator: Charles Aidman
+synopsis: A frustrated mathematics professor carelessly declares he would sell his soul to solve a problem, and
+  a demon promptly arrives to collect, offering him a contest of wits for his freedom.
+themes:
+- deal
+- devil
+- wit
 ids:
   imdb: tt0734713
 links:
@@ -21,3 +28,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

@@ -1,19 +1,25 @@
 title: The Once and Future King
 series: '1985'
 season: 2
-episode: 01a
+episode: '01a'
 air_date: '1986-09-27'
 runtime_min: 28
 writers:
 - Bryce Maritano
 - George R.R. Martin
-writing_credit_note: 'Teleplay by: George R. R. Martin; Story by: Bryce Maritano'
+writing_credit_note: Story by Bryce Maritano; teleplay by George R. R. Martin
 directors:
 - Jim McBride
 cast:
 - Jeff Yagher
 - Red West
 narrator: Charles Aidman
+synopsis: A professional Elvis Presley impersonator is unexpectedly thrown back in time to the years before Elvis
+  became famous, where he comes face to face with the young, unknown singer he has spent his career copying.
+themes:
+- fame
+- identity
+- time travel
 ids:
   imdb: tt0734699
 links:
@@ -21,3 +27,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

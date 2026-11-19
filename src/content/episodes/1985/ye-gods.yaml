@@ -1,7 +1,7 @@
 title: Ye Gods
 series: '1985'
 season: 1
-episode: 05b
+episode: '05b'
 air_date: '1985-10-25'
 runtime_min: 29
 writers:
@@ -12,6 +12,12 @@ cast:
 - David Dukes
 - Robert Morse
 narrator: Charles Aidman
+synopsis: A lovelorn young professional is struck by Cupid's arrow, and the god of love sets out to arrange a romance
+  for him, an effort that soon draws in other figures from Greek mythology.
+themes:
+- comedy
+- mythology
+- romance
 ids:
   imdb: tt0734714
 links:
@@ -19,3 +25,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

@@ -5,7 +5,7 @@ episode: '1'
 air_date: '2020-06-25'
 runtime_min: 43
 writers:
-- Emily Chang
+- Emily C. Chang
 - Sara Amini
 directors:
 - Mathias Herndl
@@ -14,8 +14,20 @@ cast:
 - Kristin Lehman
 - Gillian Jacobs
 narrator: Jordan Peele
+synopsis: A lonely man who has given up on dating begins hearing the voice of a woman inside his head, and their
+  telepathic connection quickly becomes his whole world.
+themes:
+- loneliness
+- love
+- obsession
 ids:
   imdb: tt10275044
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2019 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

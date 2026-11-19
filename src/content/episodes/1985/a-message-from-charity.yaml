@@ -1,13 +1,15 @@
 title: A Message from Charity
 series: '1985'
 season: 1
-episode: 06b
+episode: '06b'
 air_date: '1985-11-01'
 runtime_min: 38
 writers:
-- William M. Lee
 - Alan Brennert
-writing_credit_note: 'Teleplay by: Alan Brennert; Based on the short story by: William M. Lee'
+writing_credit_note: Teleplay by Alan Brennert; based on the short story "A Message from Charity" by William M.
+  Lee
+source_authors:
+- William M. Lee
 directors:
 - Paul Lynch
 cast:
@@ -15,6 +17,12 @@ cast:
 - James Cromwell
 - Michael Fox
 narrator: Charles Aidman
+synopsis: A feverish teenage boy in modern New England forms a telepathic bond with a girl living in the same place
+  in the colonial era, and the friendship they build across the centuries puts her in danger.
+themes:
+- friendship
+- telepathy
+- time
 ids:
   imdb: tt0734708
 links:
@@ -22,3 +30,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

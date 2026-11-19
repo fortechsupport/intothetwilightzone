@@ -9,7 +9,7 @@ writers:
 - Frederick Rappaport
 - Ira Steven Behr
 - Brent V. Friedman
-writing_credit_note: 'Teleplay by: Ira Steven Behr and Brent V. Friedman; Story by: Frederick Rappaport'
+writing_credit_note: Story by Frederick Rappaport; teleplay by Ira Steven Behr & Brent V. Friedman
 directors:
 - John Peter Kousakis
 cast:
@@ -18,8 +18,18 @@ cast:
 - Terry Chen
 - Larry Musser
 narrator: Forest Whitaker
+synopsis: A death-row inmate who claims his innocence survives one execution attempt after another, as some unknown
+  force keeps intervening at the last moment, while those around him struggle to explain it.
+themes:
+- capital punishment
+- fate
+- justice
 ids:
   imdb: tt0734806
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

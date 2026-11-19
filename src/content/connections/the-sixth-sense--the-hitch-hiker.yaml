@@ -1,0 +1,12 @@
+from: films/the-sixth-sense
+to: 1959/the-hitch-hiker
+kind: inspired-by
+confidence: documented
+evidence: /Film links the film's twist to 'The Hitch-Hiker', where the traveller turns out to be dead, and quotes
+  Shyamalan saying he wanted to make feature-length 'Twilight Zones'. (This film is already on the site; this adds
+  a second episode link.)
+sources:
+- title: The 5 Best Movies Inspired By Twilight Zone Episodes, Ranked (/Film)
+  url: https://www.slashfilm.com/1722719/best-movies-the-twilight-zone-episodes-inspiration-ranked
+last_verified: '2026-11-19'
+locked: true

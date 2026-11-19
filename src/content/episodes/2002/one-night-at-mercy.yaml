@@ -12,8 +12,18 @@ directors:
 cast:
 - Jason Alexander
 narrator: Forest Whitaker
+synopsis: An exhausted young doctor plagued by crippling headaches treats an odd patient during a night shift, a
+  man who turns out to be Death himself, weary of his work and talking about quitting for good.
+themes:
+- death
+- medicine
+- mortality
 ids:
   imdb: tt0734796
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

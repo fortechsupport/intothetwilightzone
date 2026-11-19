@@ -14,6 +14,13 @@ cast:
 - Joan Hackett
 - Cyril Delevanti
 narrator: Rod Serling
+synopsis: A cruel theater critic buys an old player piano as a birthday gift for his young wife. He discovers that
+  its tunes make anyone who hears them reveal their true nature, and he plans to use it to humiliate his guests.
+themes:
+- cruelty
+- marriage
+- music
+- secrets
 ids:
   imdb: tt0734547
 links:
@@ -21,3 +28,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+last_verified: '2026-11-19'
+locked: true

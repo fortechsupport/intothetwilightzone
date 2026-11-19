@@ -11,6 +11,12 @@ directors:
 cast:
 - Cliff De Young
 narrator: Charles Aidman
+synopsis: A man who dodged the draft years ago and built a quiet family life begins seeing a man in a wheelchair
+  who looks disturbingly familiar, forcing him to confront the life he did not choose.
+themes:
+- alternate lives
+- regret
+- vietnam war
 ids:
   imdb: tt0734757
 links:
@@ -18,3 +24,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

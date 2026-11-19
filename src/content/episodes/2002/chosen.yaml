@@ -15,8 +15,18 @@ cast:
 - Michael Kopsa
 - Ty Olsson
 narrator: Forest Whitaker
+synopsis: A down-and-out man looks into a string of disappearances that may be linked to a pair of traveling evangelists,
+  and the deeper he digs, the stranger their promises appear.
+themes:
+- conspiracy
+- faith
+- religion
 ids:
   imdb: tt0734774
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

@@ -1,18 +1,25 @@
 title: Shadow Play
 series: '1985'
 season: 1
-episode: 23a
+episode: '23a'
 air_date: '1986-04-04'
 runtime_min: 29
 writers:
-- Charles Beaumont
 - James Crocker
-writing_credit_note: 'Teleplay by: James Crocker; Based on the story and teleplay by: Charles Beaumont'
+writing_credit_note: Teleplay by James Crocker; based on the story and teleplay by Charles Beaumont
+source_authors:
+- Charles Beaumont
 directors:
 - Paul Lynch
 cast:
 - Peter Coyote
 narrator: Charles Aidman
+synopsis: A man condemned to death insists that the world around him is part of his recurring nightmare, and that
+  everyone in it will vanish once his sentence is carried out.
+themes:
+- dreams
+- execution
+- reality
 ids:
   imdb: tt0734731
 links:
@@ -20,3 +27,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

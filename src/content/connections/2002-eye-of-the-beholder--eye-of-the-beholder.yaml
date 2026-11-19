@@ -1,0 +1,12 @@
+from: 2002/eye-of-the-beholder
+to: 1959/eye-of-the-beholder
+kind: remake
+confidence: documented
+summary: Eye of the Beholder (2002) is a new version of Eye of the Beholder (1959).
+sources:
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: The Twilight Zone (2002) season 1 - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+last_verified: '2026-11-19'
+locked: true

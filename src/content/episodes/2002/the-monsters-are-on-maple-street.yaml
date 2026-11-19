@@ -8,13 +8,22 @@ production_code: '130'
 writers:
 - Erin Maher
 - Kay Reindl
-writing_credit_note: 'Teleplay by: Erin Maher & Kay Reindl; Story by: Rod Serling'
+writing_credit_note: Story by Rod Serling (original 1960 teleplay "The Monsters Are Due on Maple Street"); teleplay
+  by Erin Maher & Kay Reindl
+source_authors:
+- Rod Serling
 directors:
 - Debbie Allen
 cast:
 - Andrew McCarthy
 - Titus Welliver
 narrator: Forest Whitaker
+synopsis: When a mysterious blackout hits a quiet suburban street, frightened neighbors start to suspect a newly
+  arrived family of being terrorist sleeper agents, and fear spreads from house to house faster than the facts.
+themes:
+- paranoia
+- prejudice
+- terrorism
 ids:
   imdb: tt0734808
 links:
@@ -22,3 +31,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

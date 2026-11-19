@@ -15,8 +15,20 @@ cast:
 - Sticky Fingaz
 - Jim Byrnes
 narrator: Forest Whitaker
+synopsis: A struggling would-be rock star buys a beautiful old guitar that seems to grant him the talent he always
+  wanted, but the instrument demands more devotion than he bargained for.
+themes:
+- fame
+- music
+- obsession
 ids:
   imdb: tt0734786
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: The Twilight Zone (2002) season 1 - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+last_verified: '2026-11-19'
+locked: true

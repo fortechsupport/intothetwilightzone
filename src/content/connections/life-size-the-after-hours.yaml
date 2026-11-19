@@ -1,8 +1,13 @@
 from: films/life-size
 to: 1959/the-after-hours
 kind: inspired-by
-confidence: fan-noted
-summary: Life-Size is listed in Adam's research as inspired by "The After Hours".
+confidence: documented
+summary: A Yahoo Entertainment feature pairs the film's doll-come-to-life premise with this mannequin episode; it
+  is framed as possible inspiration, not as a confirmed one.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: 13 Sci-Fi, Mystery, And Drama Plots That 'The Twilight Zone' May Have Inspired (Yahoo)
+  url: https://www.yahoo.com/entertainment/11-movies-2-tv-shows-193103537.html
+last_verified: '2026-11-19'
+locked: true

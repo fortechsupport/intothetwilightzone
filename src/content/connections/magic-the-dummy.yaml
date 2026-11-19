@@ -2,7 +2,12 @@ from: films/magic
 to: 1959/the-dummy
 kind: inspired-by
 confidence: fan-noted
-summary: Magic is listed in Adam's research as inspired by "The Dummy".
+summary: No reliable source found; reviews compare the film with the ventriloquist-and-dummy tradition, and one
+  listicle links it to 'Caesar and Me' instead.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: Top 10 Movies That Ripped Off The Twilight Zone (Toptenz)
+  url: https://www.toptenz.net/top-10-movies-that-ripped-off-the-twilight-zone.php/2
+last_verified: '2026-11-19'
+locked: true

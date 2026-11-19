@@ -1,0 +1,11 @@
+from: films/family-guy-wasted-talent
+to: 1959/time-enough-at-last
+kind: homage
+confidence: fan-noted
+evidence: The Twilight Zone Wiki says the episode recreates the broken-glasses ending of 'Time Enough at Last'.
+  This is a passing gag; no other source was checked.
+sources:
+- title: Television series with references to The Twilight Zone (Twilight Zone Wiki)
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true

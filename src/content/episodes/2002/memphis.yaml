@@ -14,8 +14,20 @@ cast:
 - Vivica A. Fox
 - Don S. Davis
 narrator: Forest Whitaker
+synopsis: A law clerk with a brain tumor is thrown back in time to Memphis in April 1968, on the day Martin Luther
+  King Jr. is to be assassinated, and faces a painful choice.
+themes:
+- civil rights
+- history
+- time travel
 ids:
   imdb: tt0734793
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: The Twilight Zone (2002) season 1 - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+last_verified: '2026-11-19'
+locked: true

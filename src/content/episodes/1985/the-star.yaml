@@ -1,19 +1,26 @@
 title: The Star
 series: '1985'
 season: 1
-episode: 13c
+episode: '13c'
 air_date: '1985-12-20'
 runtime_min: 12
 writers:
-- Arthur C. Clarke
 - Alan Brennert
-writing_credit_note: 'Teleplay by: Alan Brennert; Based on the short story by: Arthur C. Clarke'
+writing_credit_note: Teleplay by Alan Brennert; based on the short story "The Star" by Arthur C. Clarke
+source_authors:
+- Arthur C. Clarke
 directors:
 - Gerd Oswald
 cast:
 - Fritz Weaver
 - Donald Moffat
 narrator: Charles Aidman
+synopsis: A Jesuit astrophysicist aboard a deep-space vessel investigates the remains of an ancient supernova and
+  uncovers traces of a lost civilization, a discovery that tests his faith.
+themes:
+- faith
+- science
+- space
 ids:
   imdb: tt0734723
 links:
@@ -21,3 +28,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

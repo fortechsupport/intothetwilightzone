@@ -1,0 +1,13 @@
+from: films/black-mirror-uss-callister
+to: 1959/its-a-good-life
+kind: inspired-by
+confidence: documented
+evidence: 'Wikipedia, citing an Entertainment Weekly interview with the makers, says the episode was conceived largely
+  with ''It''s a Good Life'' in mind: a man with godlike control over the people trapped in his world.'
+sources:
+- title: USS Callister (Wikipedia)
+  url: https://en.wikipedia.org/wiki/USS_Callister
+- title: It's a Good Life (The Twilight Zone) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/It%27s_a_Good_Life_(The_Twilight_Zone)
+last_verified: '2026-11-19'
+locked: true

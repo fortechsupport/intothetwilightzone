@@ -1,0 +1,11 @@
+from: films/the-simpsons-the-terror-of-tiny-toon
+to: films/twilight-zone-the-movie
+kind: homage
+confidence: fan-noted
+summary: 'Bart and Lisa are trapped inside an Itchy & Scratchy cartoon, a set-up compared with the ''It''s a Good
+  Life'' segment of Twilight Zone: The Movie.'
+sources:
+- title: 'Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true

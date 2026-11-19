@@ -12,8 +12,18 @@ directors:
 cast:
 - Clifton Collins Jr.
 narrator: Forest Whitaker
+synopsis: A young man sneaks his terminally ill best friend onto a racetrack for one last thrilling ride, a trip
+  that takes a turn neither of them could have planned.
+themes:
+- friendship
+- mortality
+- racing
 ids:
   imdb: tt0734792
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

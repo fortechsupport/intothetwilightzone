@@ -1,0 +1,161 @@
+{
+ "aliases": {
+  "1959/from-agneswith-love": "1959/from-agnes-with-love"
+ },
+ "names": {
+  "Ryszard Bugajski": "Ryszard Bugajski",
+  "Richard Bugajski": "Ryszard Bugajski",
+  "Oceo Ritch": "OCee Ritch",
+  "Robert Downey": "Robert Downey Sr.",
+  "Allison Liddi": "Allison Liddi-Brown",
+  "David Ellis": "David R. Ellis",
+  "Alonso Alvarez": "Alonso Alvarez-Barreda",
+  "Emily Chang": "Emily C. Chang"
+ },
+ "episode_overrides": {},
+ "skip_films": [
+  "where-is-everybody-pilot-version"
+ ],
+ "film_summary_append": {
+  "twilight-zone-the-movie": " On July 23, 1982, a helicopter crash during filming of the \"Time Out\" segment killed actor Vic Morrow and child actors Myca Dinh Le and Renee Shin-Yi Chen; director John Landis and others were tried for involuntary manslaughter and acquitted in 1987."
+ },
+ "film_overrides": {
+  "carol-for-another-christmas": {
+   "kind": "tv-film"
+  }
+ },
+ "work_overrides": {
+  "Tower of Terror": {
+   "slug": "tower-of-terror-1997"
+  },
+  "Us": {
+   "slug": "us"
+  },
+  "Poltergeist": {
+   "slug": "poltergeist"
+  },
+  "Medium episode introduced by Rod Serling (Nov. 21, 2005)": {
+   "title": "Still Life",
+   "year": 2005
+  },
+  "The X-Files (Senator Richard Matheson)": {
+   "title": "The X-Files",
+   "parent_series": null,
+   "kind": "tv-series"
+  },
+  "Animaniacs (Twilight Zone opening parody)": {
+   "title": "Animaniacs",
+   "parent_series": null,
+   "kind": "tv-series"
+  },
+  "Garth Marenghi's Darkplace (opening titles)": {
+   "title": "Garth Marenghi's Darkplace",
+   "parent_series": null
+  },
+  "Robot Chicken (Serling narration spoof)": {
+   "title": "Robot Chicken",
+   "parent_series": null,
+   "kind": "tv-series"
+  },
+  "The Scary Door (recurring segment)": {
+   "title": "The Scary Door",
+   "kind": "tv-segment",
+   "parent_series": "Futurama (recurring segment)"
+  },
+  "Treehouse of Horror (\"Hungry Are the Damned\")": {
+   "title": "Hungry Are the Damned",
+   "kind": "tv-segment"
+  },
+  "Treehouse of Horror II (\"Bart's Nightmare\")": {
+   "title": "Bart's Nightmare",
+   "kind": "tv-segment"
+  },
+  "Treehouse of Horror III (\"Clown Without Pity\")": {
+   "title": "Clown Without Pity",
+   "kind": "tv-segment"
+  },
+  "Treehouse of Horror IV (\"Terror at 5\u00bd Feet\")": {
+   "title": "Terror at 5\u00bd Feet",
+   "kind": "tv-segment"
+  },
+  "Treehouse of Horror VI (\"Homer\u00b3\")": {
+   "title": "Homer\u00b3",
+   "kind": "tv-segment"
+  },
+  "Treehouse of Horror VII (\"The Genesis Tub\")": {
+   "title": "The Genesis Tub",
+   "kind": "tv-segment"
+  },
+  "Treehouse of Horror XIV (\"Stop the World, I Want to Goof Off\")": {
+   "title": "Stop the World, I Want to Goof Off",
+   "kind": "tv-segment"
+  },
+  "Treehouse of Horror XVI (\"I've Grown a Costume on Your Face\")": {
+   "title": "I've Grown a Costume on Your Face",
+   "kind": "tv-segment"
+  },
+  "The Bart Zone": {
+   "title": "Bart's Nightmare",
+   "kind": "tv-segment"
+  },
+  "The Day the World Didn't Move Around Very Much": {
+   "title": "The Day the World Didn't Move Around Very Much",
+   "kind": "tv-segment"
+  },
+  "Medium (episode of November 21, 2005)": {
+   "title": "Still Life",
+   "parent_series": "Medium, season 2",
+   "year": 2005
+  },
+  "Saturday Night Live (Jesse Jackson / Ed Grimley sketch)": {
+   "title": "Nightmare at 20,000 Feet parody (Jesse Jackson episode)",
+   "kind": "sketch"
+  },
+  "Muppets Tonight (William Shatner episode)": {
+   "title": "William Shatner episode"
+  },
+  "The Tidal Zone (recurring gag)": {
+   "title": "The Tidal Zone (recurring gag)"
+  },
+  "Lisa's Nightmare (The Monkey's Paw)": {
+   "title": "The Monkey's Paw",
+   "kind": "tv-segment"
+  }
+ },
+ "drop_works": [
+  "Homer of Seville",
+  "Meet the Quagmires",
+  "The Cigar Store Indian",
+  "It Should've Been Lorelai",
+  "Unreasonable Doubt",
+  "Math Class",
+  "Futurama season 11 Black Mirror-style gag",
+  "Mad Men (Paul Kinsey quotes Serling)",
+  "Nightmare at 20,000 Feet sketch",
+  "Simpsons Already Did It"
+ ],
+ "extra_sources": {
+  "Medium episode introduced by Rod Serling (Nov. 21, 2005)": [
+   {
+    "title": "BetaSeries: Medium S02E09",
+    "url": "https://www.betaseries.com/en/episode/medium/s02e09"
+   }
+  ]
+ },
+ "film_extra_sources": {
+  "twilight-zone-holiday-marathons": [
+   {
+    "title": "Den of Geek: The Twilight Zone marathon, a history of a holiday tradition",
+    "url": "https://www.denofgeek.com/tv/the-twilight-zone-marathon-a-history-of-a-holiday-tradition/"
+   },
+   {
+    "title": "BroadwayWorld: Syfy continues New Year's tradition with 22nd annual Twilight Zone marathon",
+    "url": "https://www.broadwayworld.com/bwwtv/article/SyFy-Continues-New-Years-Tradition-with-22nd-Annual-THE-TWILIGHT-ZONE-Marathon-20161221"
+   },
+   {
+    "title": "TV Insider: Syfy's Twilight Zone marathon",
+    "url": "https://www.tvinsider.com/1075153/syfys-twilight-zone-marathon-everything-you-need-to-know"
+   }
+  ]
+ }
+}

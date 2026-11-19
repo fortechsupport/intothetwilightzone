@@ -50,11 +50,13 @@ const episodes = defineCollection({
     production_code: z.string().optional(),
     writers: names,
     writing_credit_note: z.string().optional(),
+    source_authors: names,
     directors: names,
     cast: names,
     narrator: z.string().optional(),
     synopsis: z.string().optional(),
     themes: names,
+    trivia: z.array(z.object({ text: z.string().max(400), sources: z.array(source).min(1) })).default([]),
     ...common,
   }),
 });

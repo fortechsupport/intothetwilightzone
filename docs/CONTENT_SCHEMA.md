@@ -27,7 +27,7 @@ a record that does not match fails the build.
 | Collection | Path | Required | Optional |
 |---|---|---|---|
 | series | `series/1959.yaml` | title, years, network, host, seasons, order, summary | |
-| episodes | `episodes/<series>/<slug>.yaml` | title, series (`1959`/`1985`/`2002`/`2019`), season (int), episode (string, e.g. `"8"` or `"18a"`) | aka[], air_date, runtime_min, production_code, writers[], writing_credit_note, directors[], cast[], narrator, synopsis (own words), themes[] |
+| episodes | `episodes/<series>/<slug>.yaml` | title, series (`1959`/`1985`/`2002`/`2019`), season (int), episode (string, e.g. `"8"` or `"18a"`) | aka[], air_date, runtime_min, production_code, writers[] (screen credits), writing_credit_note, source_authors[] (authors of an adapted prior work: story, radio play, anecdote; also listed in writers only when they wrote the teleplay), directors[], cast[], narrator, synopsis (own words), themes[], trivia[] ({text ≤400 chars, own words; sources[] ≥1}) |
 | films | `films/<slug>.yaml` | title | kind (`film`/`tv-film`/`tv-episode`/`tv-segment`/`tv-series`/`sketch`/`documentary`/`special`/`pilot`/`stage`/`unproduced`), summary (own words), parent_series (e.g. `The Simpsons, S2E3`), segments[] ({title, adapts_episode?, writers[], directors[], cast[]}), release_date, rating, runtime_min, writers[], directors[], cast[] |
 | connections | `connections/<from-slug>--<to-slug>.yaml` | from (ref), to (ref: episode id or `series/<year>`), kind, confidence | summary, evidence |
 | songs | `songs/<artist>-<title>.yaml` | title, tz_connection (`theme`/`lyric-mention`/`reference`/`unclassified`) | artist, album, genre, length, year, lyric_excerpt, description |
@@ -44,7 +44,7 @@ a record that does not match fails the build.
 | locations | `locations/<slug>.yaml` | name | kind (`backlot-set`/`filming-location`/`serling-place`/`attraction`/`museum-exhibit`/`memorial`/`archive`), address, city, region, country, lat, lng, status, opened, closed, filmed[] ({ref, note}), notes |
 
 `connections.kind`: `official-adaptation`, `remake`, `inspired-by`, `homage`, `parody`, `reference`, `lyric-mention`.
-`connections.confidence`: `confirmed-by-creator`, `documented`, `fan-noted`. Use `documented` or
+`connections.confidence`: `confirmed-by-creator`, `documented`, `fan-noted` (shown on the site as "Unconfirmed"). Use `documented` or
 better only with a source URL in `sources`.
 
 ## Examples

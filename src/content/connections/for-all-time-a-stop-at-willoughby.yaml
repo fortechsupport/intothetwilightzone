@@ -1,8 +1,15 @@
 from: films/for-all-time
 to: 1959/a-stop-at-willoughby
 kind: inspired-by
-confidence: fan-noted
-summary: For All Time is listed in Adam's research as inspired by "A Stop at Willoughby".
+confidence: documented
+summary: /Film describes the 2000 CBS TV movie as based on this episode, with elements also drawn from Richard Matheson's
+  novel Bid Time Return. Because it reworks the episode directly, it could be classed as a remake.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: One Classic Twilight Zone Episode Was Adapted Into A Movie You've Never Seen (/Film)
+  url: https://slashfilm.com/1479825/classic-twilight-zone-episode-adapted-into-movie-youve-never-seen
+- title: For All Time (Wikipedia)
+  url: https://en.wikipedia.org/wiki/For_All_Time
+last_verified: '2026-11-19'
+locked: true

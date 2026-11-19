@@ -1,8 +1,15 @@
 from: films/real-steel
 to: 1959/steel
 kind: inspired-by
-confidence: fan-noted
-summary: Real Steel is listed in Adam's research as inspired by "Steel".
+confidence: documented
+summary: Real Steel is credited as based on Richard Matheson's short story 'Steel', which Matheson also adapted
+  for this episode, so the film and the episode share a source.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: Real Steel (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Real_Steel
+- title: The Twilight Zone episode that inspired Hugh Jackman's Real Steel (/Film)
+  url: https://www.slashfilm.com/stories/the-twilight-zone-episode-that-inspired-hugh-jackmans-real-steel
+last_verified: '2026-11-19'
+locked: true

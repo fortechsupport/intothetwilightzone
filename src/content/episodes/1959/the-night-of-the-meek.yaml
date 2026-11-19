@@ -4,7 +4,7 @@ season: 2
 episode: '11'
 air_date: '1960-12-23'
 runtime_min: 25
-production_code: '173-3665'
+production_code: 173-3665
 writers:
 - Rod Serling
 directors:
@@ -16,6 +16,19 @@ cast:
 - Kimmy Garrett
 - Orangey the Cat
 narrator: Rod Serling
+synopsis: Henry Corwin, a down-on-his-luck department store Santa who drinks, is fired on Christmas Eve. Wandering
+  the slum where he lives, he finds a sack that seems able to give people whatever they wish for.
+themes:
+- christmas
+- kindness
+- poverty
+- redemption
+trivia:
+- text: One of six season 2 episodes shot on videotape to cut costs after the season went over budget. The savings
+    proved small, and the experiment was not repeated.
+  sources:
+  - title: '''The Twilight Zone''... The Six Video Tape Episodes - Eyes of a Generation'
+    url: https://eyesofageneration.com/?p=26913
 ids:
   imdb: tt0734666
 links:
@@ -23,3 +36,15 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 2) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_2)
+- title: The Twilight Zone (1959 TV series, season 2) - GoodOldTV (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_2)
+- title: 'CTVA: The Twilight Zone Season 2 (1960-61)'
+  url: https://ctva.biz/US/Anthology/TwilightZone_02_(1960-61).htm
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+- title: Night of the Meek (The Twilight Zone, 1985) - Wikipedia
+  url: https://en.wikipedia-on-ipfs.org/wiki/Night_of_the_Meek_(The_Twilight_Zone%2C_1985)
+last_verified: '2026-11-19'
+locked: true

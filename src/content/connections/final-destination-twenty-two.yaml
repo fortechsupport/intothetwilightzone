@@ -1,8 +1,13 @@
 from: films/final-destination
 to: 1959/twenty-two
 kind: inspired-by
-confidence: fan-noted
-summary: Final Destination is listed in Adam's research as inspired by "Twenty Two".
+confidence: documented
+summary: Flavorwire pairs the film's 'premonition of a doomed flight' opening with this episode's warning to avoid
+  a fatal plane; this is a critic's comparison, not a creator statement.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: Movies That Stole Their Plots from 'The Twilight Zone' (Flavorwire)
+  url: https://www.flavorwire.com/317756/9-movies-that-stole-their-plots-from-the-twilight-zone
+last_verified: '2026-11-19'
+locked: true

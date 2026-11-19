@@ -15,6 +15,14 @@ cast:
 - Lee Van Cleef
 - Stafford Repp
 narrator: Rod Serling
+synopsis: A hired gunman rides into a frontier town to find that the outlaw he was chasing has already been killed,
+  after cursing him with his last breath. Taunted by the locals, the gunman takes a dare to visit the dead man's
+  grave at midnight.
+themes:
+- fear
+- pride
+- superstition
+- western
 ids:
   imdb: tt0734643
 links:
@@ -22,3 +30,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+last_verified: '2026-11-19'
+locked: true

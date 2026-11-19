@@ -1,7 +1,7 @@
 title: The Shadow Man
 series: '1985'
 season: 1
-episode: 10a
+episode: '10a'
 air_date: '1985-11-29'
 runtime_min: 20
 writers:
@@ -11,6 +11,12 @@ directors:
 cast:
 - Jonathan Ward
 narrator: Charles Aidman
+synopsis: A timid teenager discovers that a shadowy figure lives beneath his bed and has vowed never to harm the
+  person whose bed he hides under, a promise that gives the boy a dangerous new confidence.
+themes:
+- adolescence
+- fear
+- monsters
 ids:
   imdb: tt0734758
 links:
@@ -18,3 +24,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

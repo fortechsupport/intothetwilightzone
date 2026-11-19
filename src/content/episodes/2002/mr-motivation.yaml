@@ -8,7 +8,7 @@ production_code: '118'
 writers:
 - Steven Aspis
 - Brent V. Friedman
-writing_credit_note: 'Teleplay by: Brent V. Friedman; Story by: Steven Aspis'
+writing_credit_note: Story by Steven Aspis; teleplay by Brent V. Friedman
 directors:
 - Deran Sarafian
 cast:
@@ -17,8 +17,18 @@ cast:
 - Pat O'Briend
 - Zachary Ansley
 narrator: Forest Whitaker
+synopsis: A meek office worker receives a talking self-help doll that coaches him to stand up to his overbearing
+  boss. Its advice works wonders at first, but the doll's ambitions keep growing.
+themes:
+- ambition
+- manipulation
+- workplace
 ids:
   imdb: tt0734794
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

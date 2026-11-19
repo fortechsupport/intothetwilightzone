@@ -7,7 +7,7 @@ runtime_min: 25
 production_code: '4824'
 writers:
 - Charles Beaumont
-- Oceo Ritch
+- OCee Ritch
 directors:
 - Montgomery Pittman
 cast:
@@ -15,6 +15,13 @@ cast:
 - Richard Devon
 - Joan Marshall
 narrator: Rod Serling
+synopsis: A homeless drifter takes a pair of expensive shoes from the body of a murdered gangster left in an alley.
+  Once he slips them on, his manner changes completely, and the shoes seem to steer him toward unfinished business.
+themes:
+- crime
+- identity
+- possession
+- revenge
 ids:
   imdb: tt0734561
 links:
@@ -22,3 +29,13 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+- title: Dead Man's Shoes (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Dead_Man%27s_Shoes_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

@@ -1,9 +1,15 @@
 from: films/the-trigger-effect
 to: 1959/the-monsters-are-due-on-maple-street
 kind: inspired-by
-confidence: fan-noted
-summary: The Trigger Effect is listed in Adam's research as inspired by "The Monsters Are Due on Maple
-  Street".
+confidence: documented
+summary: Wikipedia's page on the episode, citing Janet Maslin's New York Times review, says David Koepp's blackout
+  thriller drew on the episode's study of neighbours turning on each other.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Monsters Are Due on Maple Street (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Monsters_Are_Due_on_Maple_Street
+- title: The Trigger Effect (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Trigger_Effect
+last_verified: '2026-11-19'
+locked: true

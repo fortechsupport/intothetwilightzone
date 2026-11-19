@@ -6,14 +6,38 @@ air_date: '1964-01-24'
 runtime_min: 25
 production_code: '2618'
 writers:
-- Charles Beaumont
 - John Tomerlin
+writing_credit_note: Based on Charles Beaumont's short story "The Beautiful People" (If, September 1952); Wikipedia's
+  episode article credits John Tomerlin as the writer of the teleplay.
+source_authors:
+- Charles Beaumont
 directors:
 - Abner Biberman
 cast:
 - Collin Wilcox Paxton
 - Richard Long
 narrator: Rod Serling
+synopsis: In a future society where everyone undergoes a 'Transformation' at nineteen to take on one of a few perfect,
+  approved faces and bodies, young Marilyn resists, wanting to remain herself despite pressure from everyone she
+  loves.
+themes:
+- beauty
+- conformity
+- dystopia
+- individuality
+trivia:
+- text: John Tomerlin wrote the teleplay, adapting Charles Beaumont's 1952 short story "The Beautiful People".
+  sources:
+  - title: Number 12 Looks Just Like You - Wikipedia
+    url: https://en.wikipedia.org/wiki/Number_12_Looks_Just_Like_You
+- text: Model Suzy Parker plays seven different characters, and Richard Long plays all of the male roles.
+  sources:
+  - title: Number 12 Looks Just Like You - Wikipedia
+    url: https://en.wikipedia.org/wiki/Number_12_Looks_Just_Like_You
+- text: Charlie Brooker has cited the episode as an influence on the Black Mirror episode "Fifteen Million Merits".
+  sources:
+  - title: Number 12 Looks Just Like You - Wikipedia
+    url: https://en.wikipedia.org/wiki/Number_12_Looks_Just_Like_You
 ids:
   imdb: tt0734604
 links:
@@ -21,3 +45,11 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+- title: Number 12 Looks Just Like You - Wikipedia
+  url: https://en.wikipedia.org/wiki/Number_12_Looks_Just_Like_You
+last_verified: '2026-11-19'
+locked: true

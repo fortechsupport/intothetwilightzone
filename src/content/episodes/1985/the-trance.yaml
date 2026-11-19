@@ -7,12 +7,19 @@ runtime_min: 22
 writers:
 - Jeff Stuart
 - J. Michael Straczynski
+writing_credit_note: Written by Jeff Stuart and J. Michael Straczynski
 directors:
 - Randy Bradshaw
 cast:
 - Peter Scolari
 - Glynis Davies
 narrator: Robin Ward
+synopsis: A phony psychic who fakes channeling an ancient sage for paying audiences finds that something real has
+  started speaking through him, and it has no interest in flattering anyone.
+themes:
+- fraud
+- spirit channeling
+- truth
 ids:
   imdb: tt0734761
 links:
@@ -20,3 +27,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

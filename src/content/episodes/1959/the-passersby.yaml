@@ -14,6 +14,14 @@ cast:
 - Joanne Linville
 - Jamie Farr
 narrator: Rod Serling
+synopsis: Just after the Civil War, a grieving widow sits on the porch of her ruined plantation home while a slow
+  procession of soldiers from both armies trudges past along the road. A wounded Confederate sergeant stops to rest
+  and talk.
+themes:
+- afterlife
+- civil war
+- grief
+- reconciliation
 ids:
   imdb: tt0734671
 links:
@@ -21,3 +29,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+last_verified: '2026-11-19'
+locked: true

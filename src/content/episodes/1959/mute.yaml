@@ -7,6 +7,9 @@ runtime_min: 51
 production_code: '4858'
 writers:
 - Richard Matheson
+writing_credit_note: Teleplay by Richard Matheson; based on his short story "Mute"
+source_authors:
+- Richard Matheson
 directors:
 - Stuart Rosenberg
 cast:
@@ -15,6 +18,13 @@ cast:
 - Claudia Bryar
 - Oscar Beregi Jr.
 narrator: Rod Serling
+synopsis: After a fire kills her parents, a young girl raised to communicate only by telepathy is taken in by a
+  kindly sheriff's family in a small Pennsylvania town, where her silence is misunderstood by everyone around her.
+themes:
+- childhood
+- communication
+- family
+- telepathy
 ids:
   imdb: tt0734595
 links:
@@ -22,3 +32,13 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 4) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_4)
+- title: The Twilight Zone (1959 TV series, season 4) - Wikipedia mirror
+  url: https://gilligansisland.org/The_Twilight_Zone_(1959_TV_series,_season_4)
+- title: 'CTVA: The Twilight Zone Season 4 (1962-63)'
+  url: https://ctva.biz/US/Anthology/TwilightZone_04_(1962-63).htm
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

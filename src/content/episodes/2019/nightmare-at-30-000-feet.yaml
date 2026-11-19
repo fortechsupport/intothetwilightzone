@@ -6,13 +6,22 @@ air_date: '2019-04-01'
 runtime_min: 37
 writers:
 - Marco Ramirez
-writing_credit_note: 'Story by: Simon Kinberg, Jordan Peele and Marco Ramirez'
+writing_credit_note: Story by Simon Kinberg, Jordan Peele & Marco Ramirez; teleplay by Marco Ramirez; based on "Nightmare
+  at 20,000 Feet" by Richard Matheson
+source_authors:
+- Richard Matheson
 directors:
 - Greg Yaitanes
 cast:
 - Adam Scott
 - Chris Diamantopoulos
 narrator: Jordan Peele
+synopsis: A journalist still shaken by past trauma boards an international flight and finds an MP3 player in his
+  seat pocket, loaded with a podcast about the mysterious disappearance of the very plane he is riding on.
+themes:
+- fate
+- flight
+- paranoia
 ids:
   imdb: tt9121550
 links:
@@ -20,3 +29,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2019 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

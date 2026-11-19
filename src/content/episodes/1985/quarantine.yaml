@@ -1,20 +1,27 @@
 title: Quarantine
 series: '1985'
 season: 1
-episode: 17b
+episode: '17b'
 air_date: '1986-02-07'
 runtime_min: 22
 writers:
 - Philip DeGuere
 - Steven Bochco
 - Alan Brennert
-writing_credit_note: 'Teleplay by: Alan Brennert; Story by: Philip DeGuere and Steven Bochco'
+writing_credit_note: Teleplay by Alan Brennert; story by Philip DeGuere and Steven Bochco
 directors:
 - Martha Coolidge
 cast:
 - Scott Wilson
 - Tess Harper
 narrator: Charles Aidman
+synopsis: A scientist frozen in suspended animation wakes some three centuries later in a peaceful, telepathic society
+  that has turned its back on machines. Its people need his old expertise to help protect Earth from a threat approaching
+  from space.
+themes:
+- future
+- utopia
+- war
 ids:
   imdb: tt0734768
 links:
@@ -22,3 +29,11 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+- title: Quarantine - Theme Ontology
+  url: https://themeontology.org/story/tz1985e1x17b.html
+last_verified: '2026-11-19'
+locked: true

@@ -13,6 +13,12 @@ cast:
 - Steve Forrest
 - Jacqueline Scott
 narrator: Rod Serling
+synopsis: Astronaut Robert Gaines loses contact during an orbital flight and wakes up back on Earth. His home and
+  family are almost exactly as he left them, but small details are wrong in ways he cannot ignore.
+themes:
+- identity
+- parallel worlds
+- space
 ids:
   imdb: tt0734670
 links:
@@ -20,3 +26,13 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 4) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_4)
+- title: The Twilight Zone (1959 TV series, season 4) - Wikipedia mirror
+  url: https://gilligansisland.org/The_Twilight_Zone_(1959_TV_series,_season_4)
+- title: 'CTVA: The Twilight Zone Season 4 (1962-63)'
+  url: https://ctva.biz/US/Anthology/TwilightZone_04_(1962-63).htm
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

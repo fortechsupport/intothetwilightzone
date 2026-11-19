@@ -1,7 +1,7 @@
 title: Red Snow
 series: '1985'
 season: 1
-episode: 21b
+episode: '21b'
 air_date: '1986-03-21'
 runtime_min: 30
 writers:
@@ -12,6 +12,12 @@ cast:
 - George Dzundza
 - Andrew Divoff
 narrator: Charles Aidman
+synopsis: A KGB colonel is sent to investigate a string of mysterious deaths in a remote Siberian labor-camp town,
+  where the long Arctic nights conceal a sinister presence.
+themes:
+- cold war
+- soviet union
+- vampires
 ids:
   imdb: tt0734722
 links:
@@ -19,3 +25,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

@@ -13,8 +13,20 @@ cast:
 - Rhea Seehorn
 - Ike Barinholtz
 narrator: Jordan Peele
+synopsis: After a red meteor shower lights up the sky over a small town, the men around two sisters begin turning
+  aggressive and violent, and the women must find a way to survive the night.
+themes:
+- gender
+- toxic masculinity
+- violence
 ids:
   imdb: tt9199166
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2019 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

@@ -14,6 +14,12 @@ cast:
 - Eugene Robert Glazer
 - George Touliatos
 narrator: Robin Ward
+synopsis: A dying, wealthy patriarch arranges to have his mind transferred into a robotic body so he can go on living,
+  a decision that puts him in bitter conflict with his own son.
+themes:
+- immortality
+- inheritance
+- technology
 ids:
   imdb: tt0734710
 links:
@@ -21,3 +27,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

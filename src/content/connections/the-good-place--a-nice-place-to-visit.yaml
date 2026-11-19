@@ -1,0 +1,14 @@
+from: films/the-good-place
+to: 1959/a-nice-place-to-visit
+kind: inspired-by
+confidence: fan-noted
+evidence: Several outlets note that the sitcom's first-season twist matches 'A Nice Place to Visit', where a paradise
+  turns out to be the other place. No source found shows that Michael Schur took it from the episode, so this is
+  a documented similarity, not documented inspiration.
+sources:
+- title: One Episode Of The Twilight Zone Had The Same Twist As The Good Place (/Film)
+  url: https://www.slashfilm.com/1414453/one-twilight-zone-episode-same-twist-the-good-place
+- title: The Good Place's Premise Is Eerily Similar To A Classic The Twilight Zone Episode (TVLine)
+  url: https://tvline.com/2045991/the-good-place-premise-similar-the-twilight-zone-a-nice-place-to-visit
+last_verified: '2026-11-19'
+locked: true

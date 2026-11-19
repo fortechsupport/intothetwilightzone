@@ -1,0 +1,13 @@
+from: films/felicity-help-for-the-lovelorn
+to: 1959/five-characters-in-search-of-an-exit
+kind: homage
+confidence: documented
+summary: A black-and-white episode styled as a Twilight Zone tale, in which a lovelorn Felicity's visit to a clinic
+  goes strangely wrong.
+sources:
+- title: 'Westword: Top ten Twilight Zone references in pop culture'
+  url: https://www.westword.com/arts/top-ten-twilight-zone-references-in-pop-culture-5814980
+- title: 'Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true

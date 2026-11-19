@@ -1,0 +1,12 @@
+from: 1985/the-after-hours
+to: 1959/the-after-hours
+kind: remake
+confidence: documented
+summary: The After Hours (1985) is a new version of The After Hours (1959).
+sources:
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: Season 2 (1985) - Twilight Zone Wiki
+  url: https://twilightzone.fandom.com/wiki/Season_2_(1985)
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,13 @@
+from: films/the-simpsons-barts-nightmare
+to: 1959/its-a-good-life
+kind: homage
+confidence: documented
+evidence: Bart plays the role of the episode's all-powerful boy, who terrorises Springfield and sends people to
+  the cornfield.
+sources:
+- title: It's a Good Life (The Twilight Zone) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/It%27s_a_Good_Life_(The_Twilight_Zone)
+- title: Television series with references to The Twilight Zone (Twilight Zone Wiki)
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true

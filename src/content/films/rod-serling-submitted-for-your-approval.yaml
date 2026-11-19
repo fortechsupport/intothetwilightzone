@@ -1,10 +1,33 @@
 title: 'Rod Serling: Submitted for Your Approval'
-kind: film
+kind: documentary
+release_date: '1995-11-29'
+rating: TV-14
+runtime_min: 90
+directors:
+- Susan Lacy
+cast:
+- Lee Grant
+- Mitch Greenberg
+- Mike Wallace
+- Carol Serling
+- Robert Serling
+summary: An American Masters portrait on PBS of Rod Serling, following him from his early live-television dramas
+  through The Twilight Zone and his later struggles with the industry. Lee Grant narrates and Mitch Greenberg voices
+  Serling's own words, while family members and colleagues, among them Mike Wallace, recall the writer.
 ids:
   imdb: tt0297727
 links:
   wikipedia: https://en.wikipedia.org/wiki/List_of_American_Masters_episodes#Season_10_(1995–96)
   trailer_youtube: T4ALNnImsmU
+  pbs: https://www.pbs.org/wnet/americanmasters/masters/rod-serling
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: 'IMDb - Rod Serling: Submitted for Your Approval'
+  url: https://m.imdb.com/title/tt0297727
+- title: 'Spokesman-Review, ''For your approval: PBS program...'' (Nov 28, 1995)'
+  url: https://www.spokesman.com/stories/1995/nov/28/for-your-approval-pbs-program-sheds-more-than
+- title: PBS American Masters - Rod Serling
+  url: https://www.pbs.org/wnet/americanmasters/masters/rod-serling
+last_verified: '2026-11-19'
+locked: true

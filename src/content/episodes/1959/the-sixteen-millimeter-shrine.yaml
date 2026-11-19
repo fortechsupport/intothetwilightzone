@@ -4,7 +4,7 @@ season: 1
 episode: '4'
 air_date: '1959-10-23'
 runtime_min: 25
-production_code: '173-3610'
+production_code: 173-3610
 writers:
 - Rod Serling
 directors:
@@ -13,6 +13,18 @@ cast:
 - Ida Lupino
 - Martin Balsam
 narrator: Rod Serling
+synopsis: Barbara Jean Trenton, a faded movie star, shuts herself away in her mansion watching her old films night
+  after night. Her loyal agent urges her to face the present, but she longs to live inside her glory days.
+themes:
+- aging
+- escapism
+- hollywood
+- nostalgia
+trivia:
+- text: Star Ida Lupino later went behind the camera for the series, directing the season 5 episode "The Masks".
+  sources:
+  - title: The Masks - Wikipedia
+    url: https://en.wikipedia.org/wiki/The_Masks
 ids:
   imdb: tt0734626
 links:
@@ -20,3 +32,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+last_verified: '2026-11-19'
+locked: true

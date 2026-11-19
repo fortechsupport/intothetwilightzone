@@ -1,13 +1,15 @@
 title: The Misfortune Cookie
 series: '1985'
 season: 1
-episode: 14c
+episode: '14c'
 air_date: '1986-01-03'
 runtime_min: 15
 writers:
-- Charles E. Fritch
 - Rockne S. O'Bannon
-writing_credit_note: 'Teleplay by: Rockne S. O''Bannon; Based on the short story by: Charles E. Fritch'
+writing_credit_note: Teleplay by Rockne S. O'Bannon; based on the short story "The Misfortune Cookie" by Charles
+  E. Fritch
+source_authors:
+- Charles E. Fritch
 directors:
 - Allan Arkush
 cast:
@@ -15,6 +17,12 @@ cast:
 - Frederick Coffin
 - Al Leong
 narrator: Charles Aidman
+synopsis: A spiteful restaurant critic who savages a Chinese restaurant returns for another meal and discovers that
+  the fortunes in its cookies have a way of coming true.
+themes:
+- comeuppance
+- fate
+- gluttony
 ids:
   imdb: tt0734736
 links:
@@ -22,3 +30,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

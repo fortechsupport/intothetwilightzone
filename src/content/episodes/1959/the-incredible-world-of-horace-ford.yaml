@@ -15,6 +15,13 @@ cast:
 - Ruth White
 - Vaughn Taylor
 narrator: Rod Serling
+synopsis: Horace Ford, a toy designer approaching middle age, keeps reminiscing about his perfect boyhood on Randolph
+  Street. When he goes back to the old neighborhood, he finds it exactly the same as he left it.
+themes:
+- adulthood
+- childhood
+- memory
+- nostalgia
 ids:
   imdb: tt0734647
 links:
@@ -22,3 +29,13 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 4) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_4)
+- title: The Twilight Zone (1959 TV series, season 4) - Wikipedia mirror
+  url: https://gilligansisland.org/The_Twilight_Zone_(1959_TV_series,_season_4)
+- title: 'CTVA: The Twilight Zone Season 4 (1962-63)'
+  url: https://ctva.biz/US/Anthology/TwilightZone_04_(1962-63).htm
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

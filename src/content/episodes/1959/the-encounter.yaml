@@ -13,6 +13,18 @@ cast:
 - Neville Brand
 - George Takei
 narrator: Rod Serling
+synopsis: World War II veteran Fenton invites a young Japanese-American gardener, Arthur Takamori, up to his attic
+  for a beer. A samurai sword Fenton brought home from the war stirs tension and guilt between the two men.
+themes:
+- guilt
+- memory
+- prejudice
+- war
+trivia:
+- text: Because of its racial overtones, the episode was kept out of US syndication until 2016.
+  sources:
+  - title: The Encounter (The Twilight Zone) - Wikipedia
+    url: https://en.wikipedia.org/wiki/The_Encounter_(The_Twilight_Zone)
 ids:
   imdb: tt0734637
 links:
@@ -20,3 +32,11 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+- title: The Encounter (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Encounter_(The_Twilight_Zone)
+last_verified: '2026-11-19'
+locked: true

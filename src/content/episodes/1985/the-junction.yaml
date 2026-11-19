@@ -1,7 +1,7 @@
 title: The Junction
 series: '1985'
 season: 2
-episode: 08b
+episode: '08b'
 air_date: '1987-02-21'
 runtime_min: 23
 writers:
@@ -12,6 +12,12 @@ cast:
 - William Allen Young
 - Chris Mulkey
 narrator: Charles Aidman
+synopsis: Trapped by a cave-in deep in a mine, an unfaithful modern miner finds himself sharing the darkness with
+  a miner from 1912, and the two men discover an unexpected link across time.
+themes:
+- fidelity
+- survival
+- time
 ids:
   imdb: tt0734744
 links:
@@ -19,3 +25,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

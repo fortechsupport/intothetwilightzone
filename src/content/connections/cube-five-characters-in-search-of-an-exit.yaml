@@ -2,7 +2,12 @@ from: films/cube
 to: 1959/five-characters-in-search-of-an-exit
 kind: inspired-by
 confidence: fan-noted
-summary: Cube is listed in Adam's research as inspired by "Five Characters in Search of an Exit".
+summary: No source found linking Vincenzo Natali's film to the episode; the shared premise is strangers waking up
+  trapped in a featureless enclosure.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: Cube (1997 film) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Cube_(1997_film)
+last_verified: '2026-11-19'
+locked: true

@@ -14,8 +14,18 @@ cast:
 - Patrick Warburton
 - Peter LaCroix
 narrator: Forest Whitaker
+synopsis: A lonely, bullied boy's favorite comic-book barbarian somehow comes to life, ready to defend him, though
+  the hero's sword-swinging methods may not suit a modern suburb.
+themes:
+- bullying
+- childhood
+- heroes
 ids:
   imdb: tt0734772
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

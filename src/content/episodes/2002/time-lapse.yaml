@@ -13,8 +13,18 @@ cast:
 - Ethan Embry
 - Alexandra Barreto
 narrator: Forest Whitaker
+synopsis: A hospital orderly suffers baffling blackouts and wakes with no memory of what he has done. He slowly
+  learns that a police officer has been using his body for an urgent mission.
+themes:
+- conspiracy
+- identity
+- possession
 ids:
   imdb: tt0734811
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

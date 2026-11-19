@@ -1,0 +1,11 @@
+from: films/medium-still-life
+to: 1959/the-midnight-sun
+kind: homage
+confidence: fan-noted
+evidence: The Twilight Zone Wiki says the episode reuses footage from 'The Midnight Sun' for a Rod Serling-style
+  introduction; no other source was checked.
+sources:
+- title: Television series with references to The Twilight Zone (Twilight Zone Wiki)
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true
