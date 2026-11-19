@@ -12,7 +12,7 @@ const redirects = {
   '/television/2002-series': '/series/2002/',
   '/television/2019-series': '/series/2019/',
   '/music': '/songs/',
-  '/merchandise': '/collectibles/',
+  '/merchandise': '/works/',
   '/artwork': '/about/',
   '/essays': '/about/',
   '/blog': '/',

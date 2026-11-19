@@ -247,6 +247,8 @@ const works = defineCollection({
     creator: z.string().optional(),
     publisher: z.string().optional(),
     description: z.string().optional(),
+    subtype: z.string().optional(),
+    details: z.record(z.string(), z.unknown()).optional(),
     ...common,
   }),
 });

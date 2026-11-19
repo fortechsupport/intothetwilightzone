@@ -65,6 +65,10 @@ export async function resolveRef(ref: string): Promise<{ title: string; url: str
     const s = (await getCollection('songs')).find((x) => x.id === id);
     return s && { title: `${s.data.title}${s.data.artist ? ` (${s.data.artist})` : ''}`, url: `/songs/#${s.id}`, kind: 'Song' };
   }
+  if (collection === 'works') {
+    const w = (await getCollection('works')).find((x) => x.id === id);
+    return w && { title: w.data.title, url: `/works/${w.id}/`, kind: w.data.kind.replace(/-/g, ' ') };
+  }
   if (collection === 'series') {
     const s = (await getCollection('series')).find((x) => x.id === id);
     return s && { title: `${s.data.title} (${s.data.years})`, url: `/series/${s.id}/`, kind: 'Series' };

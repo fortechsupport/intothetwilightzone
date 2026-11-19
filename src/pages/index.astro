@@ -14,6 +14,7 @@ const counts = {
   comics: (await getCollection('comics')).length,
   magazines: (await getCollection('magazines')).length,
   podcasts: (await getCollection('podcasts')).length,
+  works: (await getCollection('works')).length,
 };
 const jsonld = {
   '@context': 'https://schema.org',
@@ -43,6 +44,7 @@ const jsonld = {
     <a class="card" href="/books/"><span class="count">{counts.books}</span><h3>Books</h3><p>Histories, companions and story collections.</p></a>
     <a class="card" href="/comics/"><span class="count">{counts.comics}</span><h3>Comics</h3><p>From Dell and Gold Key to modern runs.</p></a>
     <a class="card" href="/magazines/"><span class="count">{counts.magazines}</span><h3>Magazines</h3><p>Rod Serling's The Twilight Zone Magazine and more.</p></a>
+    <a class="card" href="/works/"><span class="count">{counts.works}</span><h3>Games, collectibles and more</h3><p>Soundtracks, pinball, trading cards, stage, attractions and events.</p></a>
     <a class="card" href="/podcasts/"><span class="count">{counts.podcasts}</span><h3>Podcasts</h3><p>Shows that revisit the series episode by episode.</p></a>
   </div>
 
