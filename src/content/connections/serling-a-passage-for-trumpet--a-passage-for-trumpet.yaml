@@ -1,0 +1,13 @@
+from: songs/serling-a-passage-for-trumpet
+to: 1959/a-passage-for-trumpet
+kind: reference
+confidence: documented
+evidence: The Maine duo named itself after Rod Serling and built its debut album as a concept record in which every
+  song is named after and themed on a specific Twilight Zone episode; this single features a guest vocal by Oceano's
+  Adam Warren.
+sources:
+- title: heavyblogisheavy.com
+  url: https://www.heavyblogisheavy.com/2022/05/27/full-album-stream-maine-mathcore-duo-serling-enter-the-twilight-zone-on-debut-lp-next-stop-willoughby/
+- title: metalmusicarchives.com
+  url: https://www.metalmusicarchives.com/album/serling/next-stop-willoughby
+last_verified: '2026-11-19'

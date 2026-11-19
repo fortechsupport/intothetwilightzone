@@ -1,0 +1,13 @@
+title: Infinity
+artist: Bad Company UK
+genre: drum and bass
+tz_connection: theme
+description: The track samples both the familiar title-sequence music and an alternate main-title cue from the series.
+subtype: sample
+sources:
+- title: whosampled.com
+  url: http://www.whosampled.com/sample/110400/Bad-Company-(Drum-%26-Bass)-Infinity-The-Twilight-Zone-Title-Sequence-(Season-4-Onwards)/
+- title: whosampled.com
+  url: http://www.whosampled.com/sample/440829/Bad-Company-(Drum-%26-Bass)-Infinity-The-Twilight-Zone-Twilight-Zone-Main-Title-Alternate/
+research_confidence: medium
+last_verified: '2026-11-19'

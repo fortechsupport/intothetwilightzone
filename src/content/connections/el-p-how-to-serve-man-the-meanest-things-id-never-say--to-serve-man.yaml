@@ -1,0 +1,12 @@
+from: songs/el-p-how-to-serve-man-the-meanest-things-id-never-say
+to: 1959/to-serve-man
+kind: reference
+confidence: fan-noted
+evidence: The song title twists the episode's infamous cookbook title, in keeping with El-P's habit of mining science-fiction
+  for imagery.
+sources:
+- title: whosampled.com
+  url: https://www.whosampled.com/sample/91459/El-P-How-to-Serve-Man-(The-Meanest-Things-I'd-Never-Say)-Devo-Gut-Feeling(Slap-Your-Mammy)/
+- title: en.wikipedia.com
+  url: https://en.wikipedia.com/wiki/I%27ll_Sleep_When_You%27re_Dead
+last_verified: '2026-11-19'

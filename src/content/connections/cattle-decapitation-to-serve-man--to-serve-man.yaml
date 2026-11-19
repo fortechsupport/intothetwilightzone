@@ -1,0 +1,12 @@
+from: songs/cattle-decapitation-to-serve-man
+to: 1959/to-serve-man
+kind: reference
+confidence: fan-noted
+evidence: The San Diego band borrowed the episode's double-meaning title for its second album, turning the humans-as-food
+  twist into the album's pro-animal, anti-human theme.
+sources:
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/To_Serve_Man_(album)
+- title: metalmusicarchives.com
+  url: https://metalmusicarchives.com/album/cattle-decapitation/to-serve-man
+last_verified: '2026-11-19'

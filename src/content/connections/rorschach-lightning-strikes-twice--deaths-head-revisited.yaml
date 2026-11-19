@@ -1,0 +1,9 @@
+from: songs/rorschach-lightning-strikes-twice
+to: 1959/deaths-head-revisited
+kind: reference
+confidence: fan-noted
+evidence: The track uses Serling's closing narration from the Dachau episode, his plea that the camps be remembered.
+sources:
+- title: whosampled.com
+  url: https://www.whosampled.com/sample/930798/Rorschach-Lightning-Strikes-Twice-The-Twilight-Zone-Death's-Head-Revisited-Ending-Narration/
+last_verified: '2026-11-19'

@@ -19,7 +19,7 @@ low-confidence was kept) and `last_verified`. Descriptions are original prose. N
 | works (kind: other) | 6 | Audiobooks and spoken word |
 | radio | 7 | Series overview, releases, US syndication, BBC run, Zero Hour |
 | podcasts | 19 | Dedicated shows and TZ episodes of broader shows |
-| songs | 6 | Plus 3 song→episode connections |
+| songs | 50 | Plus 15 song→episode connections; second pass is mostly documented samples (WhoSampled) |
 
 The Twilight Zone Radio Dramas list (176) was checked against Wikipedia and the OTRR guide: none missing.
 
@@ -30,7 +30,7 @@ Trading Cards and Home Video (could split from Merchandise), Archives & Special 
 
 ## Known gaps for the next pass
 
-- Songs: only 6 new verified songs. Planned sweep: lyric mentions across hip-hop, country, pop and metal on Genius;
+- Songs: no lyric mentions verified yet (Genius blocked automated access). Still open: lyric mentions across hip-hop, country, pop and metal on Genius;
   MeTV/VH1 lists; They Might Be Giants "To Serve Man"; "Twilight Zone" by Babytron.
 - Games: d20/tabletop RPG not found; slot machine years; trivia, escape-room and mobile licences.
 - Merchandise: release years for Sideshow 12-inch, Funko Pop wave, Mystic Seer replica; NECA/Mezco/Diamond Select not found.
