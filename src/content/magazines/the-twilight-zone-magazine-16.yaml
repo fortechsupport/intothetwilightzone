@@ -4,8 +4,19 @@ cover_date: Jul 1982
 order: 16
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+description: July 1982 issue with Stephen King's film essay 'Digging The Boogens', an interview with Robertson
+  Davies alongside his story 'Offer of Immortality', and fiction by Robert Silverberg, Joe R. Lansdale
+  ('Chompers'), Lewis Shiner and Joan Aiken. It ran part sixteen of Zicree's guide and Serling's teleplay
+  'A Hundred Yards Over the Rim'.
+episodes:
+- 1959/a-hundred-yards-over-the-rim
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60175
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 16'
+  url: https://twilightzonevortex.blogspot.com/2019/10/reading-rod-serlings-twilight-zone.html
+last_verified: '2026-11-19'
+locked: true

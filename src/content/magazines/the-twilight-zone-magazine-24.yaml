@@ -4,8 +4,20 @@ cover_date: May-Jun 1983
 order: 24
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+description: 'May-June 1983 issue carrying Stephen King''s story ''The Raft'' and Twilight Zone: The Movie
+  coverage, including a profile of segment director George Miller and news on Spielberg''s ''Kick the
+  Can'' and Scatman Crothers. It also had interviews with V.C. Andrews, Mel Gibson and the ''Psycho II''
+  team, Jack Sullivan on Bernard Herrmann, part twenty-four of Zicree''s guide, and Serling''s teleplay
+  ''The Lonely''.'
+episodes:
+- 1959/the-lonely
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60191
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 24'
+  url: https://twilightzonevortex.blogspot.com/2021/05/reading-rod-serlings-twilight-zone.html
+last_verified: '2026-11-19'
+locked: true

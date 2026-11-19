@@ -4,8 +4,18 @@ cover_date: Nov 1981
 order: 8
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+description: November 1981 special Halloween issue with fiction by Tanith Lee, Thomas M. Disch, Ramsey
+  Campbell and Melissa Mia Hall and an interview with John Saul. It carried part eight of Zicree's episode
+  guide and Rod Serling's teleplay 'Deaths-Head Revisited'.
+episodes:
+- 1959/deaths-head-revisited
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60195
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 8'
+  url: https://twilightzonevortex.blogspot.com/2018/05/reading-rod-serlings-twilight-zone.html
+last_verified: '2026-11-19'
+locked: true

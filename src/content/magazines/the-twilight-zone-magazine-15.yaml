@@ -4,8 +4,17 @@ cover_date: Jun 1982
 order: 15
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+description: June 1982 issue featuring an interview with Philip K. Dick (by John Boonstra) and a 'Blade
+  Runner' preview. Instead of a Serling script it printed Richard Matheson's unproduced Twilight Zone
+  teleplay 'The Doll' with Zicree's account of its history, plus part fifteen of the episode guide and
+  fiction by Richard Christian Matheson, Steve Rasnic Tem and Pamela Sargent.
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60181
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 15'
+  url: https://twilightzonevortex.blogspot.com/2019/09/reading-rod-serlings-twilight-zone.html
+last_verified: '2026-11-19'
+locked: true

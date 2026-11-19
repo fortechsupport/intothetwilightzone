@@ -4,8 +4,11 @@ cover_date: Jun 1981
 order: 3
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
-description: June 1981 issue notable for the first appearance of Stephen King's science fiction story
-  'The Jaunt'.
+description: June 1981 issue featuring the first appearance of Stephen King's 'The Jaunt', an interview
+  with Robert Bloch, and fiction by Anthony Boucher, Phyllis Eisenstein and Alan Ryan. It ran part three
+  of Marc Scott Zicree's episode guide and reprinted Rod Serling's teleplay 'The After Hours'.
+episodes:
+- 1959/the-after-hours
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60180
 research_confidence: high
@@ -16,5 +19,7 @@ sources:
   url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
 - title: 'AuthorWars (ISFDB data): The Twilight Zone Magazine 1981 issues'
   url: https://authorwars.com/books/the-twilight-zone-magazine---1981-1005996.html
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 3'
+  url: https://twilightzonevortex.blogspot.com/2017/08/reading-rod-serlings-twilight-zone.html
 last_verified: '2026-11-19'
 locked: true

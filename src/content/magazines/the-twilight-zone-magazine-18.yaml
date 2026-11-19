@@ -4,8 +4,17 @@ cover_date: Sep 1982
 order: 18
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+description: September 1982 issue with an interview with Paul Schrader, Mike Ashley's essay on Arthur
+  Machen plus a Machen sampler, previews of 'Creepshow' and 'Something Wicked This Way Comes', and fiction
+  by Jonathan Carroll ('The Jane Fonda Room') and newcomer John Skipp. It carried part eighteen of Zicree's
+  guide and a Rod Serling script, 'A Machine to Answer the Question'.
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60206
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 18'
+  url: https://twilightzonevortex.blogspot.com/2020/01/reading-rod-serlings-twilight-zone.html
+last_verified: '2026-11-19'
+locked: true

@@ -4,8 +4,16 @@ cover_date: Feb 1987
 order: 46
 publisher: TZ Publications, Inc.
 editor: Tappan King
+description: February 1987 issue in which Harlan Ellison published 'The Deadly Nackles Affair', his account
+  of the network censorship dispute over his adaptation of Donald E. Westlake's 'Nackles' that led him
+  to quit as creative consultant on the 1985 revival.
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60167
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Wikipedia: The Twilight Zone (1985 TV series) (references)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
+last_verified: '2026-11-19'
+locked: true
