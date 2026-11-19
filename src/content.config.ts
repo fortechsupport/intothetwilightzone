@@ -204,6 +204,14 @@ const people = defineCollection({
     born: z.string().optional(),
     died: z.string().optional(),
     bio: z.string().optional(),
+    roles: names,
+    // Credits that no episode or film record carries (composers, producers, crew, hosts, historians).
+    tz_credits: z.array(z.object({
+      series: z.string(),
+      work: z.string(),
+      role: z.string().optional(),
+      ref: z.string().optional(),
+    })).default([]),
     ...common,
   }),
 });
