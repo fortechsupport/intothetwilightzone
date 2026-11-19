@@ -1,0 +1,22 @@
+name: MGM Lot 3 "St. Louis Street"
+kind: backlot-set
+city: Culver City
+region: California
+country: US
+lat: 34.004
+lng: -118.395
+status: demolished
+filmed:
+- ref: 1959/walking-distance
+  note: Sloan home and Homewood residential street; opening gas station.
+- ref: 1959/the-hitch-hiker
+  note: Same backlot gas station set.
+notes: >-
+  The Victorian residential street MGM built on Lot 3 for Meet Me in St. Louis (1944) became Martin Sloan's
+  childhood street in "Walking Distance," including the Sloan house. The episode's opening gas station
+  was a Lot 3 set too, the same one used in "The Hitch-Hiker." Lot 3 was sold for housing in the early
+  1970s and the sets razed.
+sources:
+- title: 'The Twilight Zone: Walking Distance (1959) - Martin Grams blog'
+  url: https://martingrams.blogspot.com/2024/07/the-twilight-zone-walking-distance-1959.html
+last_verified: '2026-11-19'

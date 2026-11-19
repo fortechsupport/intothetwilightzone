@@ -5,10 +5,13 @@ tz_credits:
 - series: The Twilight Zone (2002)
   work: Series score
   role: composer
-born: '1946'
+born: '1946-08-26'
+died: '2025-07-04'
 bio: >-
   Mark Snow, the composer behind The X-Files' famous whistling theme, was the series composer for the
   2002 UPN revival of The Twilight Zone.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Mark_Snow
 sources:
 - title: The Twilight Zone (2002 TV series) - Wikipedia
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)

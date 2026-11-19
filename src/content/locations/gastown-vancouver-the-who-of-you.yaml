@@ -1,0 +1,23 @@
+name: Gastown, Vancouver
+kind: filming-location
+city: Vancouver
+region: British Columbia
+country: CA
+lat: 49.2838
+lng: -123.1066
+status: extant
+filmed:
+- ref: 2019/the-who-of-you
+  note: Street filming shown in production photos for the episode.
+notes: >-
+  Vancouver's oldest neighbourhood, with its brick warehouses and cobbled Water Street, appears in the
+  production photographs for the second-season body-swap heist episode "The Who of You." Its streets regularly
+  double for older districts of American cities.
+sources:
+- title: >-
+    THE END: Jordan Peele's THE TWILIGHT ZONE Ends With Season 2 Which Wrapped Filming in Vancouver -
+    Hollywood North Buzz
+  url: https://hollywoodnorthbuzz.com/?p=116506
+- title: 'DROP DATE: THE TWILIGHT ZONE Season 2 Streams Today - Hollywood North Buzz'
+  url: https://hollywoodnorthbuzz.com/?p=103327
+last_verified: '2026-11-19'

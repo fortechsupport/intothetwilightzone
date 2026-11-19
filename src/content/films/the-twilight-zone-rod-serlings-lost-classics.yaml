@@ -1,5 +1,13 @@
 title: 'The Twilight Zone: Rod Serling''s Lost Classics'
 kind: film
+cast:
+- James Earl Jones
+- Amy Irving
+- Gary Cole
+- Priscilla Pointer
+- Patrick Bergin
+- Jack Palance
+- Julia Campbell
 ids:
   imdb: tt0111520
 links:
@@ -9,3 +17,6 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: "Twilight Zone: Rod Serling's Lost Classics - Wikipedia"
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_Rod_Serling%27s_Lost_Classics
+locked: true

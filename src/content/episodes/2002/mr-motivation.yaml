@@ -14,7 +14,7 @@ directors:
 cast:
 - Wallace Langham
 - Christopher McDonald
-- Pat O'Briend
+- Pat O'Brien
 - Zachary Ansley
 narrator: Forest Whitaker
 ids:
@@ -22,3 +22,4 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+locked: true
