@@ -7,7 +7,7 @@ import { formatDate } from '../lib/data';
 // A hub for Serling's life and the work outside The Twilight Zone, assembled from existing collections.
 const RS = 'Rod Serling';
 const rec = await getEntry('people', 'rod-serling');
-const films = await getCollection('films');
+const films = (await getCollection('films')).filter((f) => !f.data.duplicate_of);
 const isNG = (id: string) => id.startsWith('night-gallery');
 const byDate = <T extends { data: { release_date?: string; title: string } }>(a: T, b: T) =>
   (a.data.release_date ?? '9999').localeCompare(b.data.release_date ?? '9999') || a.data.title.localeCompare(b.data.title);
@@ -18,8 +18,8 @@ const features = films.filter((f) => f.data.kind === 'film' && wrote(f) && notTZ
 const tv = films.filter((f) => ['tv-film', 'tv-series', 'pilot', 'unproduced'].includes(f.data.kind) && wrote(f) && notTZ(f) && !isNG(f.id)).sort(byDate);
 const onscreen = films.filter((f) => f.data.cast.includes(RS) && !wrote(f) && !isNG(f.id)).sort(byDate);
 const radio = (await getCollection('radio')).filter((r) => !/twilight zone/i.test(r.data.series_title ?? '') && (r.data.original_writer === RS || r.data.voiced_by.some((v) => v.startsWith(RS))));
-const books = (await getCollection('books')).filter((b) => b.data.authors.includes(RS)).sort((a, b) => (a.data.published ?? '9999').localeCompare(b.data.published ?? '9999'));
-const works = await getCollection('works');
+const books = (await getCollection('books')).filter((b) => !b.data.duplicate_of && b.data.authors.includes(RS)).sort((a, b) => (a.data.published ?? '9999').localeCompare(b.data.published ?? '9999'));
+const works = (await getCollection('works')).filter((w) => !w.data.duplicate_of);
 const honors = works.filter((w) => w.data.subtype === 'honor').sort((a, b) => String(a.data.year ?? '9999').localeCompare(String(b.data.year ?? '9999')));
 const other = works.filter((w) => w.data.subtype !== 'honor' && /serling/i.test(w.data.title + ' ' + (w.data.description ?? ''))).sort((a, b) => a.data.title.localeCompare(b.data.title));
 const places = (await getCollection('locations')).filter((l) => l.data.kind === 'serling-place' || /serling/i.test(l.data.name));
