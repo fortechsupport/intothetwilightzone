@@ -1,0 +1,17 @@
+title: The Salamander
+kind: film
+summary: A political thriller from Morris West's novel, filmed after Serling's death from his 1975 screenplay.
+release_date: '1981'
+writers:
+- Rod Serling
+directors:
+- Peter Zinner
+cast:
+- Franco Nero
+- Anthony Quinn
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+research_confidence: medium
+last_verified: '2026-11-19'
+locked: true

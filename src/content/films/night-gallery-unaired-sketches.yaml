@@ -1,0 +1,33 @@
+title: 'Night Gallery: the two sketches first seen in syndication'
+kind: tv-segment
+parent_series: Night Gallery (syndication)
+summary: Two short comic sketches made for season two but never shown during the NBC run. They first turned up in
+  the syndicated package, in 1973 and 1974 depending on the market.
+segments:
+- title: Die Now, Pay Later
+  summary: An undertaker holds a January clearance sale on funerals, with predictable results for the town. Story
+    by Mary Linn Roby.
+  writers:
+  - Jack Laird
+  directors:
+  - Timothy Galfas
+  cast:
+  - Will Geer
+  - Slim Pickens
+- title: Room for One Less
+  summary: A monster boards a crowded elevator and is taught some manners.
+  writers:
+  - Jack Laird
+  directors:
+  - Jack Laird
+  cast:
+  - Lee Jay Lambert
+  - James Metropole
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: medium
+last_verified: '2026-11-19'
+locked: true

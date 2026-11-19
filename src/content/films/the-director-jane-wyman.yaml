@@ -1,0 +1,13 @@
+title: The Director
+kind: tv-episode
+parent_series: The Jane Wyman Show
+summary: A half-hour drama for the Jane Wyman anthology.
+release_date: '1955'
+writers:
+- Rod Serling
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+research_confidence: medium
+last_verified: '2026-11-19'
+locked: true

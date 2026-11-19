@@ -1,0 +1,54 @@
+title: 'Night Gallery: Room with a View / The Little Black Bag / The Nature of the Enemy'
+kind: tv-episode
+parent_series: Night Gallery, season 1, episode 2
+release_date: '1970-12-23'
+runtime_min: 50
+segments:
+- title: Room with a View
+  summary: A bedridden rich man uses his innocent nurse as the tool of revenge against his unfaithful wife.
+  source_title: Room with a View
+  source_authors:
+  - Hal Dresner
+  writers:
+  - Hal Dresner
+  directors:
+  - Jerrold Freedman
+  cast:
+  - Joseph Wiseman
+  - Diane Keaton
+  - Angel Tompkins
+  - Morgan Farley
+- title: The Little Black Bag
+  summary: A drunken, disgraced doctor finds a medical bag sent back from the year 2098 and is tempted to profit
+    from it.
+  source_title: The Little Black Bag
+  source_authors:
+  - C. M. Kornbluth
+  writers:
+  - Rod Serling
+  directors:
+  - Jeannot Szwarc
+  cast:
+  - Burgess Meredith
+  - Chill Wills
+  - George Furth
+  - E. J. André
+- title: The Nature of the Enemy
+  summary: Mission Control listens helplessly as a lunar expedition meets the same fate as the ones before it.
+  writers:
+  - Rod Serling
+  directors:
+  - Allen Reisner
+  cast:
+  - Joseph Campanella
+  - Richard Van Vleet
+  - James Sikking
+  - Jason Wingreen
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

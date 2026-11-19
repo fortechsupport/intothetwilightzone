@@ -1,0 +1,13 @@
+title: Panic Button
+kind: tv-episode
+parent_series: Playhouse 90
+summary: One of eleven Serling scripts produced by Playhouse 90.
+release_date: '1957'
+writers:
+- Rod Serling
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+research_confidence: medium
+last_verified: '2026-11-19'
+locked: true

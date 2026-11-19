@@ -1,0 +1,39 @@
+title: 'Night Gallery: The Dark Boy / Keep in Touch – We''ll Think of Something'
+kind: tv-episode
+parent_series: Night Gallery, season 2, episode 10
+release_date: '1971-11-24'
+runtime_min: 50
+segments:
+- title: The Dark Boy
+  summary: A young widow teaching in a frontier town is visited by a silent, pale boy whom nobody else can see.
+  source_title: The Dark Boy
+  source_authors:
+  - August Derleth
+  writers:
+  - Halsted Welles
+  directors:
+  - John Astin
+  cast:
+  - Elizabeth Hartman
+  - Gale Sondergaard
+  - Michael Baseleon
+  - Hope Summers
+- title: Keep in Touch – We'll Think of Something
+  summary: A musician obsessed with a woman he has only dreamed of picks a stranger out of a police lineup.
+  writers:
+  - Gene Kearney
+  directors:
+  - Gene Kearney
+  cast:
+  - Alex Cord
+  - Joanna Pettet
+  - Richard O'Brien
+  - Dave Morick
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

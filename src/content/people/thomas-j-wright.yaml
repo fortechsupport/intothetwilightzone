@@ -1,0 +1,17 @@
+name: Thomas J. Wright
+roles:
+- artist
+- director
+bio: Painter of most of the gallery canvases that introduced each Night Gallery story. He later became a prolific
+  television director.
+tz_credits:
+- series: Night Gallery
+  work: Gallery paintings
+  role: artist
+  ref: films/night-gallery
+sources:
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

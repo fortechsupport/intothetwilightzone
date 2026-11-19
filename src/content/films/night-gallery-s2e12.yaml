@@ -1,0 +1,50 @@
+title: 'Night Gallery: Cool Air / Camera Obscura / Quoth the Raven'
+kind: tv-episode
+parent_series: Night Gallery, season 2, episode 12
+release_date: '1971-12-08'
+runtime_min: 50
+segments:
+- title: Cool Air
+  summary: A woman falls in love with a reclusive doctor who must keep his rooms bitterly cold.
+  source_title: Cool Air
+  source_authors:
+  - H. P. Lovecraft
+  writers:
+  - Rod Serling
+  directors:
+  - Jeannot Szwarc
+  cast:
+  - Barbara Rush
+  - Henry Darrow
+  - Beatrice Kay
+  - Larry Blake
+- title: Camera Obscura
+  summary: A heartless moneylender visits a debtor whose camera obscura shows a town populated by the lender's past.
+  source_title: Camera Obscura
+  source_authors:
+  - Basil Copper
+  writers:
+  - Rod Serling
+  directors:
+  - John Badham
+  cast:
+  - Ross Martin
+  - René Auberjonois
+  - Arthur Malet
+  - Milton Parsons
+- title: Quoth the Raven
+  summary: Edgar Allan Poe struggles for a word while his raven tries to help. Comic blackout sketch.
+  writers:
+  - Jack Laird
+  directors:
+  - Jeff Corey
+  cast:
+  - Marty Allen
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

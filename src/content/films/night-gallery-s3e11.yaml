@@ -1,0 +1,28 @@
+title: 'Night Gallery: Something in the Woodwork'
+kind: tv-episode
+parent_series: Night Gallery, season 3, episode 11
+release_date: '1973-01-14'
+runtime_min: 25
+segments:
+- title: Something in the Woodwork
+  summary: A lonely, drinking divorcée befriends the ghost haunting her attic and asks it to help punish her ex-husband.
+  source_title: Housebound
+  source_authors:
+  - R. Chetwynd-Hayes
+  writers:
+  - Rod Serling
+  directors:
+  - Edward M. Abroms
+  cast:
+  - Geraldine Page
+  - Leif Erickson
+  - Paul Jenkins
+  - John McMurtry
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

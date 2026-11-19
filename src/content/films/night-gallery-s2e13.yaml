@@ -1,0 +1,40 @@
+title: 'Night Gallery: The Messiah on Mott Street / The Painted Mirror'
+kind: tv-episode
+parent_series: Night Gallery, season 2, episode 13
+release_date: '1971-12-15'
+runtime_min: 50
+segments:
+- title: The Messiah on Mott Street
+  summary: On a winter night on New York's Lower East Side, a dying old man waits for the Messiah to save him for
+    his grandson's sake. Serling's story owes a debt to Bernard Malamud's Angel Levine.
+  writers:
+  - Rod Serling
+  directors:
+  - Don Taylor
+  cast:
+  - Edward G. Robinson
+  - Yaphet Kotto
+  - Tony Roberts
+  - Ricky Powell
+- title: The Painted Mirror
+  summary: An antique dealer finds that an old mirror opens on a prehistoric jungle, a handy place to lose his overbearing
+    partner.
+  source_title: The Painted Mirror
+  source_authors:
+  - Donald Wandrei
+  writers:
+  - Gene Kearney
+  directors:
+  - Gene Kearney
+  cast:
+  - Zsa Zsa Gabor
+  - Arthur O'Connell
+  - Rosemary DeCamp
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

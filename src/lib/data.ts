@@ -46,9 +46,11 @@ export async function allEpisodes(): Promise<Episode[]> {
 
 export function formatDate(iso?: string): string | undefined {
   if (!iso) return undefined;
+  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  const ym = /^(\d{4})-(\d{2})$/.exec(iso);
+  if (ym) return `${months[Number(ym[2]) - 1]} ${ym[1]}`;
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
   if (!m) return iso;
-  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   return `${months[Number(m[2]) - 1]} ${Number(m[3])}, ${m[1]}`;
 }
 
@@ -113,7 +115,7 @@ export async function allPeople(): Promise<Map<string, Person>> {
     add(e.data.narrator, { ...base, role: 'Narrator' });
   }
   for (const f of await getCollection('films')) {
-    const base = { title: f.data.title, url: `/films/${f.id}/`, date: f.data.release_date, detail: 'Film' };
+    const base = { title: f.data.title, url: `/films/${f.id}/`, date: f.data.release_date, detail: f.data.parent_series ?? (f.data.kind === 'film' ? 'Film' : f.data.kind.replace(/-/g, ' ').replace(/^./, (c) => c.toUpperCase())) };
     f.data.writers.forEach((n) => add(n, { ...base, role: 'Writer' }));
     f.data.directors.forEach((n) => add(n, { ...base, role: 'Director' }));
     f.data.cast.forEach((n) => add(n, { ...base, role: 'Cast' }));
@@ -122,6 +124,7 @@ export async function allPeople(): Promise<Map<string, Person>> {
       sg.writers.forEach((n) => add(n, { ...sb, role: 'Writer' }));
       sg.directors.forEach((n) => add(n, { ...sb, role: 'Director' }));
       sg.cast.forEach((n) => add(n, { ...sb, role: 'Cast' }));
+      sg.source_authors.forEach((n) => add(n, { ...sb, role: 'Source story' }));
     }
   }
   for (const r of await getCollection('radio')) {

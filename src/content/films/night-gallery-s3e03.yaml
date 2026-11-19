@@ -1,0 +1,25 @@
+title: 'Night Gallery: Rare Objects'
+kind: tv-episode
+parent_series: Night Gallery, season 3, episode 3
+release_date: '1972-10-22'
+runtime_min: 25
+segments:
+- title: Rare Objects
+  summary: A hunted mobster accepts a mysterious doctor's offer of perfect safety and joins his collection.
+  writers:
+  - Rod Serling
+  directors:
+  - Jeannot Szwarc
+  cast:
+  - Mickey Rooney
+  - Raymond Massey
+  - Fay Spain
+  - David Fresco
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

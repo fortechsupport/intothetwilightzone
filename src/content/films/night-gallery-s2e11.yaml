@@ -1,0 +1,53 @@
+title: 'Night Gallery: Pickman''s Model / The Dear Departed / An Act of Chivalry'
+kind: tv-episode
+parent_series: Night Gallery, season 2, episode 11
+release_date: '1971-12-01'
+runtime_min: 50
+segments:
+- title: Pickman's Model
+  summary: In turn-of-the-century Boston, a young art student is drawn to a painter whose ghouls look too real.
+    Emmy nominee for makeup (1972).
+  source_title: Pickman's Model
+  source_authors:
+  - H. P. Lovecraft
+  writers:
+  - Alvin Sapinsley
+  directors:
+  - Jack Laird
+  cast:
+  - Bradford Dillman
+  - Louise Sorel
+  - Donald Moffat
+  - Jock Livingston
+- title: The Dear Departed
+  summary: A fake medium's plan to get rid of his partner and take his wife backfires from beyond the grave.
+  source_title: The Dear Departed
+  source_authors:
+  - Alice-Mary Schnirring
+  writers:
+  - Rod Serling
+  directors:
+  - Jeff Corey
+  cast:
+  - Steve Lawrence
+  - Maureen Arthur
+  - Harvey Lembeck
+  - Patricia Donahue
+- title: An Act of Chivalry
+  summary: A walking corpse tips his hat to a lady in an elevator. Comic blackout sketch.
+  writers:
+  - Jack Laird
+  directors:
+  - Jack Laird
+  cast:
+  - Deidre Hudson
+  - Ron Stein
+  - Jimmy Cross
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

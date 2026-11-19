@@ -1,0 +1,27 @@
+title: 'Night Gallery: The Doll of Death'
+kind: tv-episode
+parent_series: Night Gallery, season 3, episode 14
+release_date: '1973-05-20'
+runtime_min: 25
+segments:
+- title: The Doll of Death
+  summary: A jilted man in the Caribbean uses voodoo to take revenge on the rival who stole his bride.
+  source_authors:
+  - Vivian Meik
+  writers:
+  - Jack Guss
+  directors:
+  - John Badham
+  cast:
+  - Susan Strasberg
+  - Alejandro Rey
+  - Murray Matheson
+  - Barry Atwater
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

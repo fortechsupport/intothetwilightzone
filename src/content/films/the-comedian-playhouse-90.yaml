@@ -1,0 +1,23 @@
+title: The Comedian
+kind: tv-episode
+parent_series: Playhouse 90
+summary: Serling's adaptation of Ernest Lehman's story of a monstrous television comic and the brother and writer
+  he grinds down. Serling's third Emmy.
+release_date: '1957-02-14'
+writers:
+- Rod Serling
+directors:
+- John Frankenheimer
+cast:
+- Mickey Rooney
+- Edmond O'Brien
+- Kim Hunter
+- Mel Tormé
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+- title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
+  url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

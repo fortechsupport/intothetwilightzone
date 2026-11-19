@@ -1,0 +1,16 @@
+name: Gil Mellé
+roles:
+- composer
+bio: Jazz musician and composer whose electronic theme for Night Gallery's first two seasons was one of the first
+  television openings built on electronic instruments.
+tz_credits:
+- series: Night Gallery
+  work: Main title theme, seasons 1–2
+  role: composer
+  ref: films/night-gallery
+sources:
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

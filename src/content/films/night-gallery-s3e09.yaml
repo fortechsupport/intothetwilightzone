@@ -1,0 +1,28 @@
+title: 'Night Gallery: She''ll Be Company for You'
+kind: tv-episode
+parent_series: Night Gallery, season 3, episode 9
+release_date: '1972-12-24'
+runtime_min: 25
+segments:
+- title: She'll Be Company for You
+  summary: A widower relieved by his invalid wife's death is unsettled by the cat a friend gives him for company.
+  source_title: She'll Be Company for You
+  source_authors:
+  - Andrea Newman
+  writers:
+  - David Rayfiel
+  directors:
+  - Gerald Perry Finnerman
+  cast:
+  - Leonard Nimoy
+  - Lorraine Gary
+  - Kathryn Hays
+  - Bern Hoffman
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

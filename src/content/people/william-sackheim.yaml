@@ -1,0 +1,17 @@
+name: William Sackheim
+roles:
+- producer
+bio: Producer of the 1969 Night Gallery pilot film and a producer on the series.
+tz_credits:
+- series: Night Gallery
+  work: Night Gallery (1969 pilot film)
+  role: producer
+  ref: films/night-gallery-pilot
+sources:
+- title: 'Wikipedia: Night Gallery (film)'
+  url: https://en.wikipedia.org/wiki/Night_Gallery_(film)
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

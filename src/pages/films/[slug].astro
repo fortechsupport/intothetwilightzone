@@ -22,7 +22,7 @@ const jsonld = {
 };
 ---
 <Base title={d.title} description={`${d.title} and its connection to The Twilight Zone.`} jsonld={jsonld}>
-  <p class="breadcrumb" data-pagefind-ignore><a href="/films/">Films</a></p>
+  <p class="breadcrumb" data-pagefind-ignore>{d.parent_series?.startsWith('Night Gallery') || f.id === 'night-gallery' ? <a href="/night-gallery/">Night Gallery</a> : <a href="/films/">Films</a>}</p>
   <h1>{d.title}</h1>
   {d.parent_series && <p class="muted">{d.parent_series}</p>}
   {d.summary && <p class="lead">{d.summary}</p>}
@@ -41,6 +41,8 @@ const jsonld = {
           <li>
             <strong>{sg.title}</strong>
             {sg.adapts_episode && <> · adapts <a href={`/episodes/${sg.adapts_episode}/`}>{sg.adapts_episode.split('/')[1].replace(/-/g, ' ')}</a></>}
+            {sg.summary && <p class="small">{sg.summary}</p>}
+            {sg.source_title && <div class="small">Based on “{sg.source_title}”{sg.source_authors.length > 0 && <> by {sg.source_authors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}</div>}
             {sg.directors.length > 0 && <div class="small">Directed by {sg.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</div>}
             {sg.writers.length > 0 && <div class="small">Written by {sg.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</div>}
             {sg.cast.length > 0 && <div class="small">Cast: {sg.cast.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</div>}

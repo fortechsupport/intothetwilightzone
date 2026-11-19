@@ -1,0 +1,50 @@
+title: 'Night Gallery: Pamela''s Voice / Lone Survivor / The Doll'
+kind: tv-episode
+parent_series: Night Gallery, season 1, episode 5
+release_date: '1971-01-13'
+runtime_min: 50
+segments:
+- title: Pamela's Voice
+  summary: A man who killed his nagging wife discovers that death has not quieted her.
+  writers:
+  - Rod Serling
+  directors:
+  - Richard Benedict
+  cast:
+  - Phyllis Diller
+  - John Astin
+- title: Lone Survivor
+  summary: In 1915 a ship picks up a lifeboat from the Titanic carrying one survivor, who is doomed to keep reliving
+    maritime disasters.
+  writers:
+  - Rod Serling
+  directors:
+  - Gene Levitt
+  cast:
+  - John Colicos
+  - Torin Thatcher
+  - Hedley Mattingly
+  - Charles Davis
+- title: The Doll
+  summary: A retired colonel in Victorian England finds that a hideous doll given to his niece was sent as an act
+    of revenge.
+  source_title: The Doll
+  source_authors:
+  - Algernon Blackwood
+  writers:
+  - Rod Serling
+  directors:
+  - Rudi Dorn
+  cast:
+  - Shani Wallis
+  - John Williams
+  - Henry Silva
+  - Than Wyenn
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

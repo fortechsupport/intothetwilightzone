@@ -1,0 +1,62 @@
+title: 'Night Gallery: The Boy Who Predicted Earthquakes / Miss Lovecraft Sent Me / The Hand of Borgus Weems / Phantom
+  of What Opera?'
+kind: tv-episode
+parent_series: Night Gallery, season 2, episode 1
+release_date: '1971-09-15'
+runtime_min: 50
+segments:
+- title: The Boy Who Predicted Earthquakes
+  summary: A boy whose predictions are always right becomes a television sensation, until he foresees something
+    he will not reveal.
+  source_title: The Boy Who Predicted Earthquakes
+  source_authors:
+  - Margaret St. Clair
+  writers:
+  - Rod Serling
+  directors:
+  - John Badham
+  cast:
+  - Michael Constantine
+  - Clint Howard
+  - Bernie Kopell
+  - Ellen Weston
+- title: Miss Lovecraft Sent Me
+  summary: A gum-chewing babysitter is oblivious to the vampire who hired her. Comic blackout sketch.
+  writers:
+  - Jack Laird
+  directors:
+  - Gene Kearney
+  cast:
+  - Joseph Campanella
+  - Sue Lyon
+- title: The Hand of Borgus Weems
+  summary: A man begs a surgeon to amputate his hand, which he says is trying to make him kill.
+  source_title: The Other Hand
+  source_authors:
+  - George Langelaan
+  writers:
+  - Alvin Sapinsley
+  directors:
+  - John Meredyth Lucas
+  cast:
+  - George Maharis
+  - Ray Milland
+  - Joan Huntington
+  - Patricia Donahue
+- title: Phantom of What Opera?
+  summary: The Phantom of the Opera gets a surprise when he unmasks his captive. Comic blackout sketch.
+  writers:
+  - Gene Kearney
+  directors:
+  - Gene Kearney
+  cast:
+  - Leslie Nielsen
+  - Mary Ann Beck
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

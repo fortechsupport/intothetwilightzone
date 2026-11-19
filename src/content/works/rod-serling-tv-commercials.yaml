@@ -1,0 +1,18 @@
+title: Rod Serling's television commercials
+kind: television
+subtype: commercial
+year: 1970s
+description: In the 1970s Serling's voice and face sold products on television, including Ford cars, Radio Shack
+  electronics, Ziebart rustproofing and Mazda cars.
+details:
+  brands:
+  - Ford
+  - Radio Shack
+  - Ziebart
+  - Mazda
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+research_confidence: medium
+last_verified: '2026-11-19'
+locked: true

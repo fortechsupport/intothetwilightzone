@@ -62,6 +62,10 @@ const episodes = defineCollection({
 const segment = z.object({
   title: z.string(),
   adapts_episode: z.string().optional(),
+  // Own-words summary and the story a segment adapts (used by Night Gallery and other anthologies).
+  summary: z.string().optional(),
+  source_title: z.string().optional(),
+  source_authors: names,
   writers: names,
   directors: names,
   cast: names,
@@ -210,6 +214,8 @@ const people = defineCollection({
       role: z.string().optional(),
       ref: z.string().optional(),
     })).default([]),
+    // Dated life events in own words, oldest first; the record's sources cover them.
+    timeline: z.array(z.object({ date: z.string(), text: z.string() })).default([]),
     ...common,
   }),
 });

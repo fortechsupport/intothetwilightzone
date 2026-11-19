@@ -1,0 +1,63 @@
+title: 'Night Gallery: A Fear of Spiders / Junior / Marmalade Wine / The Academy'
+kind: tv-episode
+parent_series: Night Gallery, season 2, episode 4
+release_date: '1971-10-06'
+runtime_min: 50
+segments:
+- title: A Fear of Spiders
+  summary: A cold food critic who rebuffs his lonely neighbor is plagued by a spider that keeps growing.
+  source_title: The Spider
+  source_authors:
+  - Elizabeth Walter
+  writers:
+  - Rod Serling
+  directors:
+  - John Astin
+  cast:
+  - Patrick O'Neal
+  - Kim Stanley
+  - Tom Pedi
+- title: Junior
+  summary: A weary father fetches a glass of water for his child, who turns out to be a monster. Comic blackout
+    sketch.
+  writers:
+  - Gene Kearney
+  directors:
+  - Theodore J. Flicker
+  cast:
+  - Wally Cox
+- title: Marmalade Wine
+  summary: A boastful young man sheltering from a storm brags to a retired surgeon about his supposed powers of
+    prophecy.
+  source_title: Marmalade Wine
+  source_authors:
+  - Joan Aiken
+  writers:
+  - Jerrold Freedman
+  directors:
+  - Jerrold Freedman
+  cast:
+  - Robert Morse
+  - Rudy Vallée
+- title: The Academy
+  summary: A father visits a strict military school for his troubled son and slowly realizes no cadet ever graduates.
+  source_title: The Academy
+  source_authors:
+  - David Ely
+  writers:
+  - Rod Serling
+  directors:
+  - Jeff Corey
+  cast:
+  - Pat Boone
+  - Leif Erickson
+  - Larry Linville
+  - Ed Call
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true

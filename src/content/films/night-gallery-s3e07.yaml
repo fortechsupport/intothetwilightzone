@@ -1,0 +1,26 @@
+title: 'Night Gallery: Fright Night'
+kind: tv-episode
+parent_series: Night Gallery, season 3, episode 7
+release_date: '1972-12-10'
+runtime_min: 25
+segments:
+- title: Fright Night
+  summary: A writer and his wife inherit a farmhouse with the condition that they guard a locked trunk. Story by
+    Kurt van Elting.
+  writers:
+  - Robert Malcolm Young
+  directors:
+  - Jeff Corey
+  cast:
+  - Stuart Whitman
+  - Barbara Anderson
+  - Ellen Corby
+  - Alan Napier
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-19'
+locked: true
