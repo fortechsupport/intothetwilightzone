@@ -15,6 +15,8 @@ const common = {
   links,
   locked: z.boolean().optional(),
   last_verified: z.string().optional(),
+  // How sure the researcher is about the record as a whole (connections use their own `confidence`).
+  research_confidence: z.enum(['high', 'medium', 'low']).optional(),
 };
 const yaml = (dir: string) => glob({ pattern: '**/*.yaml', base: `./src/content/${dir}` });
 const names = z.array(z.string()).default([]);
@@ -107,6 +109,7 @@ const songs = defineCollection({
     year: z.number().optional(),
     tz_connection: z.enum(['theme', 'lyric-mention', 'reference', 'unclassified']),
     lyric_excerpt: z.string().max(200).optional(),
+    description: z.string().optional(),
     ...common,
   }),
 });
@@ -175,6 +178,7 @@ const radio = defineCollection({
     adapted_by: z.string().optional(),
     voiced_by: names,
     adapts_episode: z.string().optional(),
+    description: z.string().optional(),
     ...common,
   }),
 });
@@ -185,6 +189,8 @@ const podcasts = defineCollection({
     title: z.string(),
     hosts: names,
     first_episode: z.string().optional(),
+    description: z.string().optional(),
+    status: z.enum(['active', 'ended', 'unknown']).optional(),
     ...common,
   }),
 });
