@@ -139,6 +139,10 @@ export async function allPeople(): Promise<Map<string, Person>> {
       map.get(slug)!.credits.push({ role: c.role ?? 'Contributor', title: c.work, url: url ?? '', detail: c.series });
     }
   }
+  for (const q of await getCollection('quotes')) {
+    const slug = slugify(q.data.person);
+    if (!map.has(slug)) map.set(slug, { slug, name: q.data.person, credits: [] });
+  }
   peopleCache = map;
   return map;
 }

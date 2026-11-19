@@ -20,6 +20,8 @@ const connections = allConnections.filter((c) => c.data.to === e.id);
 const drawsOn = await Promise.all(allConnections.filter((c) => c.data.from === e.id).map(async (c) => ({ c, work: await resolveRef(c.data.to) })));
 const legacy = await Promise.all(connections.map(async (c) => ({ c, work: await resolveRef(c.data.from) })));
 const radio = (await getCollection('radio')).filter((r) => r.data.adapts_episode === e.id);
+const places = (await getCollection('locations')).filter((l) => l.data.filmed.some((f) => f.ref === e.id));
+const quotes = (await getCollection('quotes')).filter((q) => q.data.episodes.includes(e.id));
 const jsonld = {
   '@context': 'https://schema.org',
   '@type': 'TVEpisode',
@@ -86,6 +88,25 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
       {radio.length > 0 && (
         <p>Adapted as a radio drama: {radio.map((r, i) => <>{i > 0 && ', '}<a href={`/radio/#${r.id}`}>{r.data.title}</a>{r.data.volume && ` (Volume ${r.data.volume})`}</>)}</p>
       )}
+    </section>
+  )}
+
+  {places.length > 0 && (
+    <section>
+      <h2>Filming locations</h2>
+      <ul class="plain">{places.map((l) => <li><a href={`/places/${l.id}/`}>{l.data.name}</a>{l.data.filmed.find((f) => f.ref === e.id)?.note && <div class="small muted">{l.data.filmed.find((f) => f.ref === e.id)!.note}</div>}</li>)}</ul>
+    </section>
+  )}
+
+  {quotes.length > 0 && (
+    <section>
+      <h2>Voices</h2>
+      {quotes.map((q) => (
+        <figure class="quote">
+          <blockquote>{q.data.text}</blockquote>
+          <figcaption><a href={personUrl(q.data.person)}>{q.data.person}</a>{q.data.sources[0]?.url && <span class="small muted"> · <a href={q.data.sources[0].url} rel="noopener">{q.data.sources[0].title}</a></span>}</figcaption>
+        </figure>
+      ))}
     </section>
   )}
 
