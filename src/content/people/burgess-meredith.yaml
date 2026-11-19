@@ -1,0 +1,38 @@
+name: Burgess Meredith
+roles:
+- narrator
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Time Enough at Last
+  role: actor
+  ref: 1959/time-enough-at-last
+- series: The Twilight Zone (1959)
+  work: Mr. Dingle, the Strong
+  role: actor
+  ref: 1959/mr-dingle-the-strong
+- series: The Twilight Zone (1959)
+  work: The Obsolete Man
+  role: actor
+  ref: 1959/the-obsolete-man
+- series: The Twilight Zone (1959)
+  work: Printer's Devil
+  role: actor
+  ref: 1959/printers-devil
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: narrator
+  ref: films/twilight-zone-the-movie
+born: '1907-11-16'
+died: '1997-09-09'
+bio: >-
+  Burgess Meredith starred in four episodes of the original series, more than almost any other actor,
+  including the near-sighted bookworm of Time Enough at Last and the condemned librarian of The Obsolete
+  Man. For Twilight Zone: The Movie he stepped into Rod Serling's old role as the film's narrator. His
+  long career ran from Broadway in the 1930s to the Penguin on Batman and Mickey in Rocky.
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+- title: Burgess Meredith - Wikipedia
+  url: https://en.wikipedia.org/wiki/Burgess_Meredith
+last_verified: '2026-11-19'

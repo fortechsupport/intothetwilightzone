@@ -1,0 +1,27 @@
+name: Lee Marvin
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: The Grave
+  role: Conny Miller
+  ref: 1959/the-grave
+- series: The Twilight Zone (1959)
+  work: Steel
+  role: Steel Kelly
+  ref: 1959/steel
+born: '1924-02-19'
+died: '1987-08-29'
+bio: >-
+  Lee Marvin was a WWII Marine veteran who became Hollywood's definitive tough guy, winning the Best Actor
+  Oscar for Cat Ballou and starring in M Squad on TV. He made two memorable Twilight Zone appearances:
+  a bounty hunter dared to visit an outlaw's grave in "The Grave" and a former boxer who climbs into the
+  ring against a robot in "Steel".
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Lee_Marvin
+sources:
+- title: Lee Marvin - Wikipedia
+  url: https://en.wikipedia.org/wiki/Lee_Marvin
+- title: The Grave (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Grave_(The_Twilight_Zone)
+last_verified: '2026-11-19'

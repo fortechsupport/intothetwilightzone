@@ -1,0 +1,30 @@
+name: Frederick Rappaport
+roles:
+- writer
+tz_credits:
+- series: The Twilight Zone (2002)
+  work: 5 episodes
+  role: writer
+- series: The Twilight Zone (2002)
+  work: Dream Lover
+  role: writer
+  ref: 2002/dream-lover
+- series: The Twilight Zone (2002)
+  work: Dead Man's Eyes
+  role: writer
+  ref: 2002/dead-mans-eyes
+- series: The Twilight Zone (2002)
+  work: Found and Lost
+  role: writer
+  ref: 2002/found-and-lost
+- series: The Twilight Zone (2002)
+  work: Sunrise
+  role: writer
+  ref: 2002/sunrise
+bio: >-
+  Frederick Rappaport was among the most frequent writers of the 2002 UPN revival, with credits on episodes
+  including Dream Lover, Dead Man's Eyes, Found and Lost, Sunrise and The Executions of Grady Finch.
+sources:
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'

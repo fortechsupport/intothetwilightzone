@@ -1,0 +1,28 @@
+name: Allan Kroeker
+roles:
+- director
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: Something in the Walls
+  role: director
+  ref: 1985/something-in-the-walls
+- series: The Twilight Zone (2002)
+  work: Evergreen
+  role: director
+  ref: 2002/evergreen
+- series: The Twilight Zone (2002)
+  work: Gabe's Story
+  role: director
+  ref: 2002/gabes-story
+- series: The Twilight Zone (2002)
+  work: It's Still a Good Life
+  role: director
+  ref: 2002/its-still-a-good-life
+bio: >-
+  Canadian director Allan Kroeker worked on two incarnations of the series: he directed Something in the
+  Walls for the 1985 revival's Canadian-made third season and, in 2002, Evergreen, Gabe's Story and the
+  much-publicised sequel It's Still a Good Life.
+sources:
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'

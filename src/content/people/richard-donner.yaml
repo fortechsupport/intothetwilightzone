@@ -1,0 +1,44 @@
+name: Richard Donner
+roles:
+- director
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: 6 episodes
+  role: director
+- series: The Twilight Zone (1959)
+  work: Nightmare at 20,000 Feet
+  role: director
+  ref: 1959/nightmare-at-20-000-feet
+- series: The Twilight Zone (1959)
+  work: From Agnes – With Love
+  role: director
+  ref: 1959/from-agnes-with-love
+- series: The Twilight Zone (1959)
+  work: Sounds and Silences
+  role: director
+  ref: 1959/sounds-and-silences
+- series: The Twilight Zone (1959)
+  work: The Jeopardy Room
+  role: director
+  ref: 1959/the-jeopardy-room
+- series: The Twilight Zone (1959)
+  work: The Brain Center at Whipple's
+  role: director
+  ref: 1959/the-brain-center-at-whipples
+- series: The Twilight Zone (1959)
+  work: Come Wander with Me
+  role: director
+  ref: 1959/come-wander-with-me
+born: '1930-04-24'
+died: '2021-07-05'
+bio: >-
+  Richard Donner directed six episodes in the original series' fifth season, most famously Nightmare at
+  20,000 Feet, with William Shatner as the airline passenger who sees a gremlin on the wing; others include
+  The Brain Center at Whipple's and Come Wander with Me. He went on to become a major Hollywood director
+  with The Omen, Superman (1978), The Goonies and the Lethal Weapon films.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Richard_Donner
+sources:
+- title: Richard Donner - Wikipedia
+  url: https://en.wikipedia.org/wiki/Richard_Donner
+last_verified: '2026-11-19'

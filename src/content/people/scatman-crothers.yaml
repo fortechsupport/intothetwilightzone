@@ -1,0 +1,18 @@
+name: Scatman Crothers
+roles:
+- actor
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: Mr. Bloom (Kick the Can)
+  ref: films/twilight-zone-the-movie
+born: '1910-05-23'
+died: '1986-11-22'
+bio: >-
+  Scatman Crothers was a singer, musician and actor whose credits include The Shining, One Flew Over the
+  Cuckoo's Nest and the sitcom Chico and the Man. In Steven Spielberg's 'Kick the Can' segment he plays
+  the magical newcomer to a retirement home who lets the residents become children again.
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+last_verified: '2026-11-19'

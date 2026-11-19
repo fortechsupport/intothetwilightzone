@@ -1,0 +1,20 @@
+name: Piru (Sunnyvale Rest Home)
+kind: filming-location
+address: Main Street and Church Street area, Piru, CA
+city: Piru
+region: California
+country: US
+lat: 34.4153
+lng: -118.7934
+status: extant
+filmed:
+- ref: films/twilight-zone-the-movie
+  note: Sunnyvale Rest Home exteriors.
+notes: >-
+  Steven Spielberg's "Kick the Can" segment was shot in the small Ventura County town of Piru, a frequent
+  filming stand-in for old-fashioned small-town America. Buildings at 691 Main Street and 697 Church Street
+  served as rest-home locations, with the town's church at 3869 Center Street visible in the background.
+sources:
+- title: 'Twilight Zone: The Movie (1983) - Set-Jetter'
+  url: https://www.set-jetter.com/ontheset/twilightzonemovie
+last_verified: '2026-11-19'

@@ -1,0 +1,33 @@
+name: Ted Post
+roles:
+- director
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: A World of Difference
+  role: director
+  ref: 1959/a-world-of-difference
+- series: The Twilight Zone (1959)
+  work: Probe 7, Over and Out
+  role: director
+  ref: 1959/probe-7-over-and-out
+- series: The Twilight Zone (1959)
+  work: Mr. Garrity and the Graves
+  role: director
+  ref: 1959/mr-garrity-and-the-graves
+- series: The Twilight Zone (1959)
+  work: The Fear
+  role: director
+  ref: 1959/the-fear
+born: '1918'
+died: '2013'
+bio: >-
+  Ted Post directed four original-series episodes, A World of Difference in the first season and three
+  in the final season: Probe 7, Over and Out, Mr. Garrity and the Graves and The Fear. A prolific television
+  director, he moved into features with Clint Eastwood's Hang 'Em High and Magnum Force and the sequel
+  Beneath the Planet of the Apes.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Ted_Post
+sources:
+- title: Ted Post - Wikipedia
+  url: https://en.wikipedia.org/wiki/Ted_Post
+last_verified: '2026-11-19'

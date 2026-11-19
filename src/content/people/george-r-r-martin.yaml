@@ -1,0 +1,37 @@
+name: George R.R. Martin
+roles:
+- writer
+- story editor
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: The Last Defender of Camelot
+  role: teleplay
+  ref: 1985/the-last-defender-of-camelot
+- series: The Twilight Zone (1985)
+  work: The Once and Future King
+  role: writer
+  ref: 1985/the-once-and-future-king
+- series: The Twilight Zone (1985)
+  work: Lost and Found
+  role: writer
+  ref: 1985/lost-and-found
+- series: The Twilight Zone (1985)
+  work: The Toys of Caliban
+  role: writer
+  ref: 1985/the-toys-of-caliban
+- series: The Twilight Zone (1985)
+  work: The Road Less Traveled
+  role: writer
+  ref: 1985/the-road-less-traveled
+born: '1948-09-20'
+bio: >-
+  Before A Song of Ice and Fire made him world-famous, George R. R. Martin worked on staff for the 1985
+  revival, his first television job. He adapted Roger Zelazny's The Last Defender of Camelot and wrote
+  The Road Less Traveled, The Toys of Caliban, The Once and Future King and Lost and Found. The experience
+  led him to Beauty and the Beast and a decade in Hollywood before his return to novels.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/George_R._R._Martin
+sources:
+- title: George R. R. Martin - Wikipedia
+  url: https://en.wikipedia.org/wiki/George_R._R._Martin
+last_verified: '2026-11-19'

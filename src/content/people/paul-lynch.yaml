@@ -1,0 +1,46 @@
+name: Paul Lynch
+roles:
+- director
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: 10 episodes
+  role: director
+- series: The Twilight Zone (1985)
+  work: Examination Day
+  role: director
+  ref: 1985/examination-day
+- series: The Twilight Zone (1985)
+  work: A Message from Charity
+  role: director
+  ref: 1985/a-message-from-charity
+- series: The Twilight Zone (1985)
+  work: Wong's Lost and Found Emporium
+  role: director
+  ref: 1985/wongs-lost-and-found-emporium
+- series: The Twilight Zone (1985)
+  work: Shadow Play
+  role: director
+  ref: 1985/shadow-play
+- series: The Twilight Zone (1985)
+  work: The Storyteller
+  role: director
+  ref: 1985/the-storyteller
+- series: The Twilight Zone (1985)
+  work: The Hunters
+  role: director
+  ref: 1985/the-hunters
+- series: The Twilight Zone (1985)
+  work: Crazy as a Soup Sandwich
+  role: director
+  ref: 1985/crazy-as-a-soup-sandwich
+born: '1946'
+bio: >-
+  English-born Canadian director Paul Lynch, best known for the slasher film Prom Night (1980), directed
+  ten episodes of the 1985 revival, more than anyone else, across all three seasons, including Examination
+  Day, A Message from Charity, Wong's Lost and Found Emporium and Crazy as a Soup Sandwich.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Paul_Lynch_(director)
+sources:
+- title: Paul Lynch (director) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Paul_Lynch_(director)
+last_verified: '2026-11-19'

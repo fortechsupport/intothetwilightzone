@@ -1,0 +1,26 @@
+name: OCee Ritch
+roles:
+- writer
+- ghostwriter
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Static
+  role: story
+  ref: 1959/static
+- series: The Twilight Zone (1959)
+  work: Dead Man's Shoes
+  role: writer (uncredited, for Charles Beaumont)
+  ref: 1959/dead-mans-shoes
+bio: >-
+  OCee Ritch was a member of the Southern California writers' circle around Charles Beaumont. He supplied
+  the story behind the second-season episode Static, about an old radio that picks up broadcasts from
+  the past, and he wrote Dead Man's Shoes, which aired under Beaumont's name as one of the uncredited
+  ghostwritten scripts of the series.
+sources:
+- title: Charles Beaumont - Wikipedia
+  url: https://en.wikipedia.org/wiki/Charles_Beaumont
+- title: >-
+    Why Several Episodes of The Twilight Zone Required the Services of Uncredited Ghostwriters - SYFY
+  url: >-
+    https://www.syfy.com/index%2ephp/syfy-wire/why-several-twilight-zone-episodes-required-uncredited-ghostwriters
+last_verified: '2026-11-19'

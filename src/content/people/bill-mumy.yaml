@@ -1,0 +1,36 @@
+name: Bill Mumy
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Long Distance Call
+  role: Billy Bayles
+  ref: 1959/long-distance-call
+- series: The Twilight Zone (1959)
+  work: It's a Good Life
+  role: Anthony Fremont
+  ref: 1959/its-a-good-life
+- series: The Twilight Zone (1959)
+  work: In Praise of Pip
+  role: Young Pip Phillips
+  ref: 1959/in-praise-of-pip
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: Tim (Segment 3)
+  ref: films/twilight-zone-the-movie
+- series: The Twilight Zone (2002)
+  work: It's Still a Good Life
+  role: Anthony Fremont
+  ref: 2002/its-still-a-good-life
+born: '1954-02-01'
+bio: >-
+  Bill Mumy began acting as a child and went on to star as Will Robinson in Lost in Space and Lennier
+  in Babylon 5, as well as working as a musician and writer. He is the franchise's most-revisited actor:
+  three original episodes including the terrifying child Anthony Fremont in "It's a Good Life", a cameo
+  in Twilight Zone: The Movie, and a return as the adult Anthony in the 2003 sequel.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Bill_Mumy
+sources:
+- title: Bill Mumy - Wikipedia
+  url: https://en.wikipedia.org/wiki/Bill_Mumy
+last_verified: '2026-11-19'

@@ -1,0 +1,27 @@
+name: MGM Lot 2 New England Street
+kind: backlot-set
+city: Culver City
+region: California
+country: US
+status: demolished
+filmed:
+- ref: 1959/stopover-in-a-quiet-town
+  note: Used extensively for the deserted town.
+- ref: 1959/person-or-persons-unknown
+  note: Opening scenes outside the Gurney home.
+- ref: 1959/the-shelter
+  note: Suburban street exteriors.
+- ref: 1959/ninety-years-without-slumbering
+  note: Filmed nearby on the same street.
+notes: >-
+  MGM's Lot 2 had a leafy small-town street of clapboard houses and a church, known as New England Street.
+  The original series used it heavily: it is the empty town in "Stopover in a Quiet Town," the Gurney
+  neighborhood in "Person or Persons Unknown," and the setting of "The Shelter" and "Ninety Years Without
+  Slumbering." Like the rest of MGM's backlots, Lot 2 was later sold off and its sets demolished.
+sources:
+- title: A Twilight Zone Hangover - On the MGM Studio Backlot - Phantom of the Backlots
+  url: >-
+    https://phantomofthebacklots.com/2023/09/28/a-twilight-zone-hangover-on-the-mgm-studio-backlot
+- title: M-G-M Backlot - The Studio Tour
+  url: https://thestudiotour.com/wp/?p=8362
+last_verified: '2026-11-19'

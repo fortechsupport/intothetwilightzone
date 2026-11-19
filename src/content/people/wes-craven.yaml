@@ -1,0 +1,48 @@
+name: Wes Craven
+roles:
+- director
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: 7 segments
+  role: director
+- series: The Twilight Zone (1985)
+  work: Shatterday
+  role: director
+  ref: 1985/shatterday
+- series: The Twilight Zone (1985)
+  work: A Little Peace and Quiet
+  role: director
+  ref: 1985/a-little-peace-and-quiet
+- series: The Twilight Zone (1985)
+  work: Wordplay
+  role: director
+  ref: 1985/wordplay
+- series: The Twilight Zone (1985)
+  work: Chameleon
+  role: director
+  ref: 1985/chameleon
+- series: The Twilight Zone (1985)
+  work: Dealer's Choice
+  role: director
+  ref: 1985/dealers-choice
+- series: The Twilight Zone (1985)
+  work: Her Pilgrim Soul
+  role: director
+  ref: 1985/her-pilgrim-soul
+- series: The Twilight Zone (1985)
+  work: The Road Less Traveled
+  role: director
+  ref: 1985/the-road-less-traveled
+born: '1939-08-02'
+died: '2015-08-30'
+bio: >-
+  Wes Craven, already known for The Last House on the Left and A Nightmare on Elm Street, directed seven
+  segments for the 1985 revival's first two seasons, including the premiere's Shatterday with Bruce Willis,
+  the apocalyptic A Little Peace and Quiet and the romantic ghost story Her Pilgrim Soul. He later created
+  the Scream franchise.
+sources:
+- title: The Twilight Zone (1985 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
+- title: Wes Craven - Wikipedia
+  url: https://en.wikipedia.org/wiki/Wes_Craven
+last_verified: '2026-11-19'

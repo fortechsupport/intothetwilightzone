@@ -15,6 +15,18 @@ directors:
 - Steven Spielberg
 - Joe Dante
 - George Miller
+cast:
+- Dan Aykroyd
+- Albert Brooks
+- Vic Morrow
+- Scatman Crothers
+- Bill Mumy
+- Kathleen Quinlan
+- Jeremy Licht
+- Kevin McCarthy
+- Patricia Barry
+- Abbe Lane
+- John Lithgow
 ids:
   imdb: tt0086491
 links:
@@ -24,3 +36,6 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: 'Twilight Zone: The Movie - Wikipedia (cast)'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+locked: true

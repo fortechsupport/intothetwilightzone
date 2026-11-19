@@ -1,0 +1,22 @@
+name: Grateful Dead
+roles:
+- composer
+- theme music
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: Main title theme
+  role: composer/performer
+- series: The Twilight Zone (1985)
+  work: Incidental music for various episodes
+  role: composer/performer
+bio: >-
+  Formed in 1965 in the San Francisco Bay Area, the rock band the Grateful Dead composed and performed
+  a new main title for the 1985 revival together with keyboardist Merl Saunders, weaving fragments of
+  Marius Constant's familiar four-note motif into a contemporary arrangement. The band also contributed
+  incidental music to a number of episodes.
+sources:
+- title: The Twilight Zone (1985 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
+- title: The Twilight Zone Soundtrack Recorded By Merl Saunders & Grateful Dead - JamBase
+  url: https://www.jambase.com/article/grateful-dead-merl-saunders-twilight-zone-soundtrack
+last_verified: '2026-11-19'

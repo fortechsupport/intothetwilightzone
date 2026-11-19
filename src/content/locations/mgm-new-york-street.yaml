@@ -1,0 +1,18 @@
+name: MGM New York Street
+kind: backlot-set
+city: Culver City
+region: California
+country: US
+status: demolished
+filmed:
+- ref: 1959/person-or-persons-unknown
+  note: Asylum window escape built in the New York Street alley.
+notes: >-
+  MGM's big-city backlot street stood in for urban America in countless films and episodes. In "Person
+  or Persons Unknown" the crew built a wall-and-window flat in its alleyway for the scene in which David
+  Gurney escapes from an asylum. The street did not survive the selling-off of the MGM backlots.
+sources:
+- title: A Twilight Zone Hangover - On the MGM Studio Backlot - Phantom of the Backlots
+  url: >-
+    https://phantomofthebacklots.com/2023/09/28/a-twilight-zone-hangover-on-the-mgm-studio-backlot
+last_verified: '2026-11-19'

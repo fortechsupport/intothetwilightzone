@@ -1,0 +1,25 @@
+name: Boris Sagal
+roles:
+- director
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: The Silence
+  role: director
+  ref: 1959/the-silence
+- series: The Twilight Zone (1959)
+  work: The Arrival
+  role: director
+  ref: 1959/the-arrival
+born: '1923'
+died: '1981'
+bio: >-
+  Ukrainian-born director Boris Sagal directed two original-series episodes, The Silence and The Arrival.
+  He worked prolifically in television and also directed the film The Omega Man (1971), based on Richard
+  Matheson's I Am Legend. He was killed in 1981 in a helicopter accident while filming the miniseries
+  World War III.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Boris_Sagal
+sources:
+- title: Boris Sagal - Wikipedia
+  url: https://en.wikipedia.org/wiki/Boris_Sagal
+last_verified: '2026-11-19'

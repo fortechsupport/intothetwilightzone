@@ -1,0 +1,21 @@
+name: Marco Ramirez
+roles:
+- developer
+- writer
+tz_credits:
+- series: The Twilight Zone (2019)
+  work: Series development
+  role: developer
+- series: The Twilight Zone (2019)
+  work: Nightmare at 30,000 Feet
+  role: writer
+  ref: 2019/nightmare-at-30-000-feet
+bio: >-
+  Playwright and television writer Marco Ramirez was one of the three developers of the 2019 revival with
+  Jordan Peele and Simon Kinberg, and he wrote Nightmare at 30,000 Feet, its updated riff on the classic
+  Matheson episode. He was reported to be in line to run the show but the series ultimately had no formal
+  showrunner. He had previously co-run the second season of Marvel's Daredevil and The Defenders for Netflix.
+sources:
+- title: The Twilight Zone (2019 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+last_verified: '2026-11-19'

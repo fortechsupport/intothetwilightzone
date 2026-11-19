@@ -1,0 +1,47 @@
+name: Harlan Ellison
+roles:
+- writer
+- creative consultant
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: Seasons 1, 3
+  role: creative consultant/writer
+- series: The Twilight Zone (1985)
+  work: Shatterday
+  role: original story
+  ref: 1985/shatterday
+- series: The Twilight Zone (1985)
+  work: Paladin of the Lost Hour
+  role: writer
+  ref: 1985/paladin-of-the-lost-hour
+- series: The Twilight Zone (1985)
+  work: One Life, Furnished in Early Poverty
+  role: original story
+  ref: 1985/one-life-furnished-in-early-poverty
+- series: The Twilight Zone (1985)
+  work: Gramma
+  role: teleplay
+  ref: 1985/gramma
+- series: The Twilight Zone (1985)
+  work: Crazy as a Soup Sandwich
+  role: writer
+  ref: 1985/crazy-as-a-soup-sandwich
+born: '1934-05-27'
+died: '2018-06-27'
+bio: >-
+  Combative and prolific speculative fiction writer Harlan Ellison joined the 1985 revival as creative
+  consultant and wrote or supplied stories for segments including Shatterday, Paladin of the Lost Hour,
+  One Life, Furnished in Early Poverty and Gramma, adapted from Stephen King. He quit in protest when
+  CBS halted production of Nackles, his adaptation of a Donald Westlake story about an evil anti-Santa
+  that was to have been his directing debut. He came back for the final syndicated season with Crazy as
+  a Soup Sandwich.
+sources:
+- title: The Twilight Zone (1985 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
+- title: Harlan Ellison - Wikipedia
+  url: https://en.wikipedia.org/wiki/Harlan_Ellison
+- title: >-
+    One Life, Furnished in Early Geekery: Harlan Ellison and The Twilight Zone - RogerEbert.com
+  url: >-
+    https://www.rogerebert.com/features/one-life-furnished-in-early-geekery-harlan-ellison-and-the-twilight-zone
+last_verified: '2026-11-19'

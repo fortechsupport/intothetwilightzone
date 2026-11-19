@@ -1,0 +1,52 @@
+name: Buzz Kulik
+roles:
+- director
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: 9 episodes
+  role: director
+- series: The Twilight Zone (1959)
+  work: King Nine Will Not Return
+  role: director
+  ref: 1959/king-nine-will-not-return
+- series: The Twilight Zone (1959)
+  work: The Trouble with Templeton
+  role: director
+  ref: 1959/the-trouble-with-templeton
+- series: The Twilight Zone (1959)
+  work: Static
+  role: director
+  ref: 1959/static
+- series: The Twilight Zone (1959)
+  work: A Hundred Yards Over the Rim
+  role: director
+  ref: 1959/a-hundred-yards-over-the-rim
+- series: The Twilight Zone (1959)
+  work: A Game of Pool
+  role: director
+  ref: 1959/a-game-of-pool
+- series: The Twilight Zone (1959)
+  work: A Quality of Mercy
+  role: director
+  ref: 1959/a-quality-of-mercy
+- series: The Twilight Zone (1959)
+  work: Jess-Belle
+  role: director
+  ref: 1959/jess-belle
+- series: The Twilight Zone (1959)
+  work: On Thursday We Leave for Home
+  role: director
+  ref: 1959/on-thursday-we-leave-for-home
+born: '1922'
+died: '1999'
+bio: >-
+  Buzz Kulik directed nine original-series episodes, including King Nine Will Not Return, which opened
+  the second season, the two-hander A Game of Pool, and the hour-long Jess-Belle and On Thursday We Leave
+  for Home. A veteran of live television, he became one of the leading directors of TV movies, best remembered
+  for Brian's Song (1971).
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Buzz_Kulik
+sources:
+- title: Buzz Kulik - Wikipedia
+  url: https://en.wikipedia.org/wiki/Buzz_Kulik
+last_verified: '2026-11-19'

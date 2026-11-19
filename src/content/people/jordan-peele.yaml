@@ -1,0 +1,27 @@
+name: Jordan Peele
+roles:
+- developer
+- executive producer
+- host
+- narrator
+tz_credits:
+- series: The Twilight Zone (2019)
+  work: 20 episodes
+  role: host/narrator
+- series: The Twilight Zone (2019)
+  work: Seasons 1–2
+  role: developer/executive producer
+born: '1979-02-21'
+bio: >-
+  Jordan Peele co-developed the 2019 revival for CBS All Access with Simon Kinberg and Marco Ramirez,
+  produced it through his company Monkeypaw Productions, and stepped into Rod Serling's shoes as on-screen
+  host and narrator for all 20 episodes across two seasons. He came to the project as one of the defining
+  genre filmmakers of his generation: half of the sketch duo Key & Peele, he won the Academy Award for
+  Best Original Screenplay for Get Out (2017) and followed it with Us and Nope, films that openly acknowledge
+  their debt to The Twilight Zone.
+sources:
+- title: The Twilight Zone (2019 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+- title: Jordan Peele - Wikipedia
+  url: https://en.wikipedia.org/wiki/Jordan_Peele
+last_verified: '2026-11-19'

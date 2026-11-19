@@ -1,0 +1,18 @@
+name: Strong Memorial Hospital
+kind: serling-place
+city: Rochester
+region: New York
+country: US
+status: open
+closed: '1975-06-28'
+notes: >-
+  Serling died at this University of Rochester hospital on June 28, 1975, two days after open-heart surgery,
+  at the age of 50. He had been taken ill with a heart attack in May and first treated at Tompkins County
+  Community Hospital near Ithaca.
+
+
+  Twilight Zone connections: Place of death.
+sources:
+- title: Rod Serling - Wikipedia
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+last_verified: '2026-11-19'

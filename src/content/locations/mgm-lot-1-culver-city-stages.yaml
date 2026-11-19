@@ -1,0 +1,26 @@
+name: MGM Studios Lot 1 (now Sony Pictures Studios)
+kind: backlot-set
+address: 10202 W Washington Blvd, Culver City, CA
+city: Culver City
+region: California
+country: US
+lat: 34.0175
+lng: -118.4005
+status: extant
+filmed:
+- ref: 1959/the-lonely
+  note: Interiors completed at MGM after location work.
+- ref: 1959/person-or-persons-unknown
+  note: Gurney home interiors on stage.
+notes: >-
+  From its second episode onward, most of the original series was filmed on soundstages at MGM's main
+  lot in Culver City, with interiors shot there even when exteriors went on location. Crews returned from
+  Death Valley to MGM to finish "The Lonely," and the Gurney house interiors of "Person or Persons Unknown"
+  were on a Lot 1 stage. The main lot survives today as Sony Pictures Studios.
+sources:
+- title: A Twilight Zone Hangover - On the MGM Studio Backlot - Phantom of the Backlots
+  url: >-
+    https://phantomofthebacklots.com/2023/09/28/a-twilight-zone-hangover-on-the-mgm-studio-backlot
+- title: Filming This Twilight Zone Season 1 Episode Ended Up Being Too Hot To Handle - SlashFilm
+  url: https://www.slashfilm.com/1419971/the-twilight-zone-episode-the-lonely-too-hot
+last_verified: '2026-11-19'

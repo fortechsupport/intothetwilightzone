@@ -1,0 +1,47 @@
+name: Bernard Herrmann
+roles:
+- composer
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Season 1 main title theme
+  role: composer
+- series: The Twilight Zone (1959)
+  work: Where Is Everybody?
+  role: composer
+  ref: 1959/where-is-everybody
+- series: The Twilight Zone (1959)
+  work: Walking Distance
+  role: composer
+  ref: 1959/walking-distance
+- series: The Twilight Zone (1959)
+  work: The Lonely
+  role: composer
+  ref: 1959/the-lonely
+- series: The Twilight Zone (1959)
+  work: Eye of the Beholder
+  role: composer
+  ref: 1959/eye-of-the-beholder
+- series: The Twilight Zone (1959)
+  work: Little Girl Lost
+  role: composer
+  ref: 1959/little-girl-lost
+- series: The Twilight Zone (1959)
+  work: Living Doll
+  role: composer
+  ref: 1959/living-doll
+born: '1911-06-29'
+died: '1975-12-24'
+bio: >-
+  Bernard Herrmann wrote the eerie, little-remembered theme used during The Twilight Zone's first season
+  and composed original scores for episodes including Where Is Everybody?, Walking Distance, The Lonely,
+  Eye of the Beholder, Little Girl Lost and Living Doll; his cues were reused throughout the run from
+  the CBS music library. He was already a celebrated film composer, from Citizen Kane through nine Hitchcock
+  films including Vertigo and Psycho, and his last score was Taxi Driver.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Bernard_Herrmann
+sources:
+- title: Bernard Herrmann - Wikipedia
+  url: https://en.wikipedia.org/wiki/Bernard_Herrmann
+- title: Twilight Zone Composers Strike A Spooky Note - Long Island Weekly
+  url: https://longislandweekly.com/twilight-zone-composers-a-spooky-note/
+last_verified: '2026-11-19'
