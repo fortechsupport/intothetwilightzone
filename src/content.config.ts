@@ -1,5 +1,6 @@
 import { defineCollection } from 'astro:content';
-import { glob } from 'astro/loaders';
+import { glob, type Loader } from 'astro/loaders';
+import { isVisible, loadDecisions, reviewMode, statusOf } from './lib/review';
 import { z } from 'astro/zod';
 
 const source = z.object({
@@ -18,7 +19,23 @@ const common = {
   // How sure the researcher is about the record as a whole (connections use their own `confidence`).
   research_confidence: z.enum(['high', 'medium', 'low']).optional(),
 };
-const yaml = (dir: string) => glob({ pattern: '**/*.yaml', base: `./src/content/${dir}` });
+// Every collection loads through the review filter: a build only keeps the records its
+// REVIEW_MODE allows (see src/lib/review.ts), so pages never need to check review status.
+const yaml = (dir: string): Loader => {
+  const inner = glob({ pattern: '**/*.yaml', base: `./src/content/${dir}` });
+  return {
+    name: 'reviewed-glob-loader',
+    load: async (context) => {
+      await inner.load(context);
+      const mode = reviewMode();
+      if (mode === 'all') return;
+      const decisions = loadDecisions();
+      for (const id of context.store.keys()) {
+        if (!isVisible(statusOf(decisions, `${context.collection}/${id}`), mode)) context.store.delete(id);
+      }
+    },
+  };
+};
 const names = z.array(z.string()).default([]);
 // A connection endpoint: "films/<id>", "songs/<id>", "series/<year>", or a bare episode id "<year>/<slug>".
 const ref = z.string().regex(/^([a-z]+\/[a-z0-9-]+|\d{4}\/[a-z0-9-]+)$/);

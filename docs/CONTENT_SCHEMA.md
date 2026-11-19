@@ -18,6 +18,8 @@ a record that does not match fails the build.
 - Every record has `sources: [{title, url?, note?}]`, optional `last_verified: 'YYYY-MM-DD'`,
   optional `ids: {imdb, wikidata, goodreads, ...}` and `links: {wikipedia, justwatch, ...}`.
 - Optional `research_confidence: high|medium|low` on any record (connections keep their own `confidence`).
+- Review status is not a record field: Adam's include/exclude decisions live in
+  `data/review/decisions.json` (see `docs/REVIEW.md`). Research never sets it; every new record is pending.
 - `locked: true` stops `scripts/import_spreadsheets.py` from overwriting a hand-edited record.
 - Copyright: no full narrations, transcripts, lyrics or publisher blurbs. Short excerpts only
   (`lyric_excerpt` max 200 chars, quote `text` max 400), always with a source.

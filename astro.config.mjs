@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import unlinkHidden from './integrations/unlink-hidden.mjs';
 
 // Old WordPress URLs (2023 site) mapped to their new homes.
 const redirects = {
@@ -25,4 +26,5 @@ export default defineConfig({
   site: 'https://intothetwilightzone.com',
   trailingSlash: 'ignore',
   redirects,
+  integrations: [unlinkHidden()],
 });

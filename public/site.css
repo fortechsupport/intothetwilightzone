@@ -80,3 +80,6 @@ ul.plain li { padding: 6px 0; border-bottom: 1px solid var(--line); }
 .quote blockquote::before { content: '\201C'; color: var(--accent-2); }
 .quote blockquote::after { content: '\201D'; color: var(--accent-2); }
 .quote figcaption { font-size: 0.95rem; }
+.preview-banner { background: #3a3218; color: #f1e3b5; text-align: center; font-size: 0.85rem; padding: 6px 16px; }
+.preview-banner a { color: #fff; }
+.unlinked { color: inherit; }
