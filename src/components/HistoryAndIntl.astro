@@ -1,0 +1,42 @@
+---
+import { formatDate } from '../lib/data';
+interface Src { title: string; url?: string }
+interface Props {
+  history?: { date: string; title: string; text: string; sources: Src[] }[];
+  intl?: { country: string; language?: string; title: string; broadcaster?: string; year?: number; note?: string; sources: Src[] }[];
+}
+const { history = [], intl = [] } = Astro.props;
+const sortedHistory = [...history].sort((a, b) => a.date.localeCompare(b.date));
+const sortedIntl = [...intl].sort((a, b) => a.country.localeCompare(b.country));
+---
+{sortedHistory.length > 0 && (
+  <section>
+    <h2>History and legal record</h2>
+    <ul>
+      {sortedHistory.map((h) => (
+        <li><strong>{formatDate(h.date)}: {h.title}.</strong> {h.text} <span class="small muted">({h.sources.map((s, i) => <>{i > 0 && ', '}{s.url ? <a href={s.url} rel="noopener">{s.title}</a> : s.title}</>)})</span></li>
+      ))}
+    </ul>
+  </section>
+)}
+{sortedIntl.length > 0 && (
+  <section>
+    <h2>Around the world</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Country</th><th>Title</th><th>Language</th><th>First shown</th><th>Source</th></tr></thead>
+        <tbody>
+          {sortedIntl.map((t) => (
+            <tr>
+              <td>{t.country}</td>
+              <td>{t.title}{t.note && <div class="small muted">{t.note}</div>}</td>
+              <td>{t.language}</td>
+              <td>{[t.broadcaster, t.year].filter(Boolean).join(', ')}</td>
+              <td class="small">{t.sources.map((s, i) => <>{i > 0 && ', '}{s.url ? <a href={s.url} rel="noopener">{s.title}</a> : s.title}</>)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+)}

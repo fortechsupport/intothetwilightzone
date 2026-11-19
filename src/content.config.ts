@@ -23,6 +23,24 @@ const names = z.array(z.string()).default([]);
 // A connection endpoint: "films/<id>", "songs/<id>", "series/<year>", or a bare episode id "<year>/<slug>".
 const ref = z.string().regex(/^([a-z]+\/[a-z0-9-]+|\d{4}\/[a-z0-9-]+)$/);
 
+const historyEvent = z.object({
+  date: z.string(),
+  title: z.string(),
+  text: z.string().max(600),
+  sources: z.array(source).min(1),
+});
+const internationalTitle = z.object({
+  country: z.string(),
+  language: z.string().optional(),
+  title: z.string(),
+  broadcaster: z.string().optional(),
+  year: z.number().optional(),
+  note: z.string().optional(),
+  sources: z.array(source).min(1),
+});
+const history = z.array(historyEvent).default([]);
+const internationalTitles = z.array(internationalTitle).default([]);
+
 const series = defineCollection({
   loader: yaml('series'),
   schema: z.object({
@@ -33,6 +51,9 @@ const series = defineCollection({
     seasons: z.number(),
     order: z.number(),
     summary: z.string(),
+    history,
+    international_titles: internationalTitles,
+    sources: z.array(source).default([]),
     locked: z.boolean().optional(),
   }),
 });
@@ -77,6 +98,8 @@ const films = defineCollection({
     summary: z.string().optional(),
     parent_series: z.string().optional(),
     segments: z.array(segment).default([]),
+    history,
+    international_titles: internationalTitles,
     release_date: z.string().optional(),
     rating: z.string().optional(),
     runtime_min: z.number().optional(),

@@ -4,5 +4,134 @@ network: CBS
 host: Rod Serling
 seasons: 5
 order: 1
-summary: Rod Serling's original anthology series, which ran for five seasons on CBS and set the template for everything that followed.
+summary: Rod Serling's original anthology series, which ran for five seasons on CBS and set the template for everything
+  that followed.
 locked: true
+history:
+- date: '1961'
+  title: Plagiarism suits over two videotaped episodes
+  text: 'Writers who said they had written the stories first sued over two season 2 episodes shot on videotape:
+    "Static" (credited to Charles Beaumont) and "Long Distance Call" (Charles Beaumont and William Idelson). Both
+    suits were settled. The plaintiffs'' names and the filing dates were not reported.'
+  sources:
+  - title: 'SlashFilm: The Twilight Zone''s ''Disastrous'' Videotape Episodes Led To Two Separate Lawsuits'
+    url: https://www.slashfilm.com/1470469/the-twilight-zone-lawsuits-static-long-distance-call/
+- date: '2023'
+  title: Ownership and public-domain outlook
+  text: The original series was made for CBS, and the rights now sit with Paramount, CBS's parent. Under current
+    US copyright terms, the earliest episodes are not expected to enter the public domain until about 2055.
+  sources:
+  - title: 'Plagiarism Today: Copyright and the Twilight Zone'
+    url: https://www.plagiarismtoday.com/2023/10/18/copyright-and-the-twilight-zone/
+international_titles:
+- country: France
+  language: French
+  title: La Quatrième Dimension
+  broadcaster: ORTF (1ère chaîne)
+  year: 1965
+  note: First French broadcast dated 6 February 1965. TF1, France 3, Sci Fi and Ciné FX later reran it.
+  sources:
+  - title: 'A Suivre: Quatrième dimension (La)'
+    url: https://www.a-suivre.org/annuseries/encyclopedie/series.php?series=151
+- country: Belgium
+  language: French
+  title: La Quatrième Dimension
+  note: Belgian streaming listings use the French title.
+  sources:
+  - title: 'JustWatch Belgium: La quatrième dimension (1959)'
+    url: https://justwatch.com/be/serie/la-quatrieme-dimension
+- country: West Germany
+  language: German
+  title: Twilight Zone – Unwahrscheinliche Geschichten
+  broadcaster: ARD
+  year: 1961
+  note: ARD aired a single episode on 25 October 1961. Bayerisches Fernsehen showed 24 episodes in 1971–72 as "Geschichten,
+    die nicht zu erklären sind", and ProSieben aired 33 under the original German title in 1991–92.
+  sources:
+  - title: 'fernsehserien.de: Twilight Zone – Unwahrscheinliche Geschichten'
+    url: https://www.fernsehserien.de/twilight-zone-unwahrscheinliche-geschichten
+- country: Italy
+  language: Italian
+  title: Ai confini della realtà
+  note: The same Italian title was later used for the 1985 series and the 1983 film.
+  sources:
+  - title: 'Wikiquote (it): Ai confini della realtà (serie televisiva 1959)'
+    url: https://it.wikiquote.org/wiki/Ai_confini_della_realt%C3%A0_(serie_televisiva_1959)
+  - title: 'JustWatch Italy: Ai confini della realtà (1959)'
+    url: https://www.justwatch.com/it/serie-tv/ai-confini-della-realta
+- country: Spain
+  language: Spanish
+  title: En los límites de la realidad
+  note: Espinof says this is the series' title in Spain. Some Spanish sites, such as SensaCine, use "Dimensión desconocida".
+  sources:
+  - title: 'Espinof: 65 años de la mejor serie de ciencia ficción'
+    url: https://www.espinof.com/series-de-ficcion/65-anos-mejor-serie-ciencia-ficcion-historia-muchos-se-han-inspirado-ella-nadie-ha-superado-esta-obra-maestra-television
+  - title: 'FormulaTV: En los límites de la realidad'
+    url: https://www.formulatv.com/series/en-los-limites-de-la-realidad/
+  - title: 'SensaCine: Dimensión desconocida'
+    url: https://www.sensacine.com/series/serie-382/
+- country: Spain (Catalonia)
+  language: Catalan
+  title: La dimensió desconeguda
+  note: Catalan title shown on JustWatch Spain.
+  sources:
+  - title: 'JustWatch Spain: La dimensió desconeguda (1959)'
+    url: https://www.justwatch.com/es/serie/la-dimension-desconocida
+- country: Mexico / Latin America
+  language: Spanish (Latin American)
+  title: La dimensión desconocida
+  note: Used in Mexico and Argentina. A&E announced the complete series under this title in 2024.
+  sources:
+  - title: 'FilmAffinity México: La dimensión desconocida (Serie)'
+    url: https://www.filmaffinity.com/mx/reviews/1/248514.html
+  - title: 'La Nación (Argentina): Dimensión desconocida'
+    url: https://www.lanacion.com.ar/espectaculos/series-de-tv/dimension-desconocida-un-millon-de-cartas-los-mensajes-ocultos-detras-del-delirio-y-el-legado-que-nid28062024/
+  - title: 'Señal News: A&E tendrá la serie completa de La dimensión desconocida'
+    url: https://senalnews.com/es/contenidos/ae-tendra-la-serie-completa-de-la-dimension-desconocida/amp
+- country: Brazil
+  language: Portuguese (Brazilian)
+  title: Além da Imaginação
+  note: In Brazil, "Quinta Dimensão" is the title of The Outer Limits, not this series.
+  sources:
+  - title: 'AdoroCinema: Além da Imaginação'
+    url: https://www.adorocinema.com/series/serie-382/
+- country: Poland
+  language: Polish
+  title: Strefa mroku
+  sources:
+  - title: 'JustWatch Poland: Strefa mroku (1959)'
+    url: https://justwatch.com/pl/serial/strefa-mroku-1959
+  - title: 'Serialowa: Kultowe seriale: Strefa mroku'
+    url: https://www.serialowa.pl/111289/kultowe-seriale-strefa-mroku
+- country: Russia
+  language: Russian
+  title: Сумеречная зона
+  note: 'Romanised: Sumerechnaya zona.'
+  sources:
+  - title: 'JustWatch Russia: Сумеречная Зона (1959)'
+    url: https://www.justwatch.com/ru/сериал/sumerechnaia-zona-1959
+- country: Greece
+  language: Greek
+  title: Ζώνη του Λυκόφωτος
+  note: 'Romanised: I Zoni tou Lykofotos.'
+  sources:
+  - title: 'CNN Greece: «Ζώνη του Λυκόφωτος» 65 χρόνια μετά'
+    url: https://www.cnn.gr/style/politismos/story/484630/65-xronia-meta-kamia-seira-den-katafere-na-kseperasei-afti-tin-anatropi-sti-zoni-tou-lykofotos
+- country: Romania
+  language: Romanian
+  title: Zona crepusculară
+  sources:
+  - title: 'Wikipedia (ro): Lista episoadelor din Zona crepusculară'
+    url: https://ro.wikipedia.com/wiki/Lista_episoadelor_din_Zona_crepuscular%C4%83
+- country: Japan
+  language: Japanese
+  title: ミステリー・ゾーン
+  note: 'Romanised: Mysterī Zōn (Mystery Zone). Japanese Wikipedia files the series as トワイライト・ゾーン (1959年), and Super!
+    drama TV airs HD seasons as ミステリーゾーン/TWILIGHT ZONE.'
+  sources:
+  - title: 'eiga.com: ミステリー・ゾーン 海外ドラマ'
+    url: https://tv.eiga.com/series/Twilight/
+  - title: 'Wikipedia (ja): トワイライト・ゾーン (1959年)'
+    url: https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%AF%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88%E3%83%BB%E3%82%BE%E3%83%BC%E3%83%B3_(1959%E5%B9%B4)
+  - title: 'Super! drama TV: ミステリーゾーン/TWILIGHT ZONE シーズン1 HD版'
+    url: https://www.superdramatv.com/lineup/SNN000004322.html

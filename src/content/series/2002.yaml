@@ -6,3 +6,15 @@ seasons: 1
 order: 3
 summary: The second revival, a single season on UPN hosted by Forest Whitaker.
 locked: true
+international_titles:
+- country: France
+  language: French
+  title: La 13ème dimension
+  year: 2003
+  note: First French broadcast dated 29 January 2003, with no channel named. The series aired on 13ème Rue, Série
+    Club and NRJ12.
+  sources:
+  - title: 'A Suivre: 13ème dimension (La)'
+    url: https://a-suivre.org/annuseries/encyclopedie/series.php?series=856
+  - title: 'AlloCiné: La 13ème dimension'
+    url: https://www.allocine.fr/series/ficheserie_gen_cserie=41.html

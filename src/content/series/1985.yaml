@@ -4,5 +4,49 @@ network: CBS, then first-run syndication
 host: Charles Aidman (narrator), later Robin Ward
 seasons: 3
 order: 2
-summary: The first revival, often running two or three stories per episode, with writers including Harlan Ellison and Rockne S. O'Bannon.
+summary: The first revival, often running two or three stories per episode, with writers including Harlan Ellison
+  and Rockne S. O'Bannon.
 locked: true
+international_titles:
+- country: France
+  language: French
+  title: La Cinquième Dimension
+  broadcaster: La Cinq
+  year: 1986
+  note: First French broadcast dated 24 February 1986. TMC later reran it.
+  sources:
+  - title: 'A Suivre: Cinquième Dimension (La)'
+    url: https://www.a-suivre.org/annuseries/encyclopedie/series.php?series=650
+- country: Italy
+  language: Italian
+  title: Ai confini della realtà
+  sources:
+  - title: 'Wikiquote (it): Ai confini della realtà (serie televisiva 1985)'
+    url: https://it.wikiquote.org/wiki/Ai_confini_della_realt%C3%A0_(serie_televisiva_1985)
+  - title: 'Movieplayer: Ai confini della realtà - Anni ''80 1985 - 1989'
+    url: https://movieplayer.it/serietv/ai-confini-della-realta-anni-80_1338/
+- country: Spain
+  language: Spanish
+  title: Más allá de los límites de la realidad
+  sources:
+  - title: 'SensaCine: Más allá de los límites de la realidad'
+    url: https://www.sensacine.com/series/serie-3345/
+- country: Brazil
+  language: Portuguese (Brazilian)
+  title: Além da Imaginação
+  sources:
+  - title: 'AdoroCinema: Além da Imaginação (1985)'
+    url: https://www.adorocinema.com/series/serie-3345/
+- country: Poland
+  language: Polish
+  title: Strefa mroku
+  sources:
+  - title: 'Filmweb: Strefa mroku (1985)'
+    url: https://www.filmweb.pl/serial/Strefa+mroku-1985-120715
+- country: Romania
+  language: Romanian
+  title: Zona crepusculară
+  note: Romanian Wikipedia gives the title as "Zona crepusculară (serial din 1985)".
+  sources:
+  - title: 'Wikipedia (ro): Zona crepusculară (serial din 1985)'
+    url: https://ro.wikipedia.com/wiki/The_Twilight_Zone_(1985_TV_series)

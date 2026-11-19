@@ -6,3 +6,64 @@ seasons: 2
 order: 4
 summary: The third revival, produced and hosted by Jordan Peele for CBS All Access.
 locked: true
+international_titles:
+- country: France
+  language: French
+  title: 'The Twilight Zone : La Quatrième Dimension'
+  broadcaster: Canal+
+  note: An ozap headline says the series arrived on Canal+ on 10 October; the year was not confirmed. French press
+    also called it the reboot of "La Quatrième Dimension".
+  sources:
+  - title: 'ozap: The Twilight Zone : La Quatrième Dimension arrive le 10 octobre sur Canal+'
+    url: https://www.ozap.com/actu/-the-twilight-zone-la-quatrieme-dimension-arrive-le-10-octobre-sur-canal/583565
+  - title: 'JustWatch Belgium: The Twilight Zone : La Quatrième Dimension (2019)'
+    url: https://justwatch.com/be/serie/la-quatrieme-dimension-2019
+- country: Brazil
+  language: Portuguese (Brazilian)
+  title: Além da Imaginação
+  broadcaster: Amazon Prime Video
+  note: Brazilian press used the classic title for Jordan Peele's reboot. Listings also use the English title.
+  sources:
+  - title: 'Rolling Stone Brasil: estreias do Prime Video para outubro de 2020: Twilight Zone'
+    url: https://rollingstone.com.br/?p=104098
+  - title: 'Omelete: Além da Imaginação: reboot da série clássica ganha teaser com Jordan Peele'
+    url: https://www.omelete.com.br/series-tv/alem-da-imaginacao-reboot-da-serie-classica-ganha-teaser-com-jordan-peele
+  - title: 'Olhar Digital: Primeiro episódio de Além da Imaginação é liberado no YouTube'
+    url: https://olhardigital.com.br/noticia/primeiro-episodio-de-alem-da-imaginacao-do-diretor-de-corra-e-nos-e-liberado-no-youtube-de-graca/84279
+- country: Poland
+  language: Polish
+  title: Strefa mroku
+  sources:
+  - title: 'naEkranie: Strefa mroku – dwa nowe zwiastuny serialu od Jordana Peele''a'
+    url: https://naekranie.pl/aktualnosci/strefa-mroku-dwa-nowe-zwiastuny-serialu-od-jordana-peelea-4071463
+  - title: 'Apple TV Poland: Strefa mroku'
+    url: https://tv.apple.com/pl/show/strefa-mroku/umc.cmc.5z576nc5dcb810zltcuew82c5
+- country: Slovakia
+  language: Slovak
+  title: Zóna súmraku
+  note: Taken from the Apple TV Slovakia listing slug (zona-sumraku); diacritics assumed.
+  sources:
+  - title: Apple TV Slovakia
+    url: https://tv.apple.com/sk/show/zona-sumraku/umc.cmc.5z576nc5dcb810zltcuew82c5
+- country: Slovenia
+  language: Slovene
+  title: Zona somraka
+  note: Taken from the Apple TV Slovenia listing slug.
+  sources:
+  - title: Apple TV Slovenia
+    url: https://tv.apple.com/si/show/zona-somraka/umc.cmc.5z576nc5dcb810zltcuew82c5
+- country: Russia
+  language: Russian
+  title: Сумеречная зона
+  sources:
+  - title: '24СМИ: Сериал Сумеречная зона (2019 ‒ 2020)'
+    url: https://24smi.org/movie/serial/103782-sumerechnaia-zona.html
+- country: Japan
+  language: Japanese
+  title: トワイライト・ゾーン
+  broadcaster: Super! drama TV
+  year: 2020
+  note: A blog headline reports the Japanese premiere as a Super! drama TV exclusive in November 2020.
+  sources:
+  - title: 'かめちゃんのブログ: 2020年11月「トワイライト・ゾーン」が、スーパー! ドラマTVで独占日本初放送'
+    url: https://kamevb.hatenablog.com/entry/2020/10/20/195506

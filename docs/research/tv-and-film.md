@@ -35,6 +35,20 @@ specials, works inspired by specific episodes, and homages and parodies in other
   episode lists. 13 were rewritten. Caveat: the 1985 list has only one-line summaries, so smaller details in
   those synopses are checked against the premise only.
 
+### Legal history and international versions
+
+- New `history` and `international_titles` fields on series and films, shown as "History and legal record" and
+  "Around the world" sections.
+- *Twilight Zone: The Movie*: 13 dated events covering the 1982 helicopter accident, the illegal hiring of the
+  child actors, the labor fines, the NTSB report, the 1986-87 manslaughter trial and acquittal, the civil
+  settlements, and the safety reforms that followed.
+- 1959 series: the plagiarism suits over "Static" and "Long Distance Call", and the current ownership. Episode
+  trivia covers the suits over "The After Hours" and "The Miniature", and the licensing of "An Occurrence at Owl
+  Creek Bridge".
+- 31 international titles across the four series and the film. Many have only a title, with no first
+  broadcaster or year, because the research hit the page-fetch limit. Gaps: German titles of the revivals,
+  first broadcasters for Italy and Spain, the Netherlands, Sweden, Portugal and the UK.
+
 Raw research is in `data/research/tv-film/`. The merge script is `scripts/research/merge_tv_film.py`
 (`python3 scripts/research/merge_tv_film.py <snapshot src/content> data/research/tv-film <out>`, then run
 `scripts/research/apply_source_authors.py` from `src/content/episodes`), and
