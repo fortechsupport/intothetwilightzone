@@ -14,8 +14,11 @@ low-confidence was kept) and `last_verified`. Descriptions are original prose. N
 | works (kind: fan-community) | 7 | Link-only fan hubs |
 | works (kind: link) | 36 | Curated archives, references, foundations, databases |
 | works (kind: attraction) | 13 | Tower of Terror (all parks), Binghamton landmarks, escape room |
-| works (kind: stage) | 9 | Citadel production of the Washburn play, live readings, community productions (the London play itself is in films) |
-| works (kind: event) | 20 | SerlingFest, film festival, Emmys/Hugos, halls of fame, USPS stamp |
+| works (kind: stage) | 18 | Citadel production of the Washburn play, live readings, orchestra re-creations, community stage parodies (the London play itself is in films) |
+| works (kind: convention) | 18 | Stars of the Zone 2002, TZ Museum conventions, Ithaca Serling conferences, Bundy and Westport symposia, 2019 panels |
+| works (kind: education) | 12 | Maple Street teleplay in Holt grade 7 anthology, state model curriculum, college courses, OLLI courses |
+| works (kind: memorial) | 4 | Grave at Lake View Cemetery, Ohio marker at Antioch, Rod Serling School of Fine Arts, Interlaken tribute |
+| works (kind: event) | 24 | Festivals (Series Mania 2019, Chattanooga, Yellow Springs, UCLA), SerlingFest, film festival, Emmys/Hugos, halls of fame, USPS stamp |
 | works (kind: other) | 6 | Audiobooks and spoken word |
 | radio | 7 | Series overview, releases, US syndication, BBC run, Zero Hour |
 | podcasts | 19 | Dedicated shows and TZ episodes of broader shows |
@@ -37,6 +40,7 @@ Trading Cards and Home Video (could split from Merchandise), Archives & Special 
 - Artwork: 1983 one-sheet artist; Twilight Zone Magazine cover artists; 1959 title sequence designer.
 - Parodies: SNL, MADtv, Family Guy, Robot Chicken, Rugrats, Animaniacs, Key & Peele; specific Futurama "Scary Door" episodes.
 - Podcasts: Feedspot/Player.fm/Podchaser lists; fiction podcasts openly inspired by TZ.
+- Education: no confirmed Prentice Hall, StudySync, EDSITEment or CommonLit lessons yet; 2004-07 convention dates missing.
 - Links: URLs were confirmed via search indexes, not direct HTTP checks; add a link checker in CI.
 
 ## Hand-offs
