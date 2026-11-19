@@ -10,6 +10,7 @@ description: Anne Serling's memoir of growing up with her father, mixing family 
 ids:
   goodreads: '15815000'
   amazon_asin: '1948986310'
+relevance: core
 research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets

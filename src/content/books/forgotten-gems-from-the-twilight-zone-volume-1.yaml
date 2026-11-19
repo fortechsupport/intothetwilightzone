@@ -10,6 +10,7 @@ description: A collection of teleplays for lesser-known episodes of the original
 ids:
   goodreads: '232298'
   amazon_asin: '1593930143'
+relevance: core
 research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets

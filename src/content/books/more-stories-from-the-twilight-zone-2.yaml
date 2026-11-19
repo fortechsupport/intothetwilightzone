@@ -11,6 +11,7 @@ description: An anthology of new stories written in the spirit of the series, ed
 ids:
   goodreads: '7972307'
   amazon_asin: '0765325829'
+relevance: core
 research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets

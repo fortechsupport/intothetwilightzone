@@ -9,6 +9,7 @@ description: A full-length critical biography covering Serling's whole career, i
 ids:
   goodreads: '40003994'
   amazon_asin: 149684646X
+relevance: core
 research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets

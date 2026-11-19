@@ -2,6 +2,10 @@ title: 'The Twilight Zone: Room 2426'
 authors:
 - Jeremy Bertrand Finch
 - Paul Chitlik
+relevance: core
+tags:
+- teleplay
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+locked: true

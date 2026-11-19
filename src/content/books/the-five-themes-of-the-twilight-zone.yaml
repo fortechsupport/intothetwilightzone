@@ -10,6 +10,7 @@ description: Arlen Schumer's book, developed from his multimedia lecture, sortin
 ids:
   goodreads: '217483660'
   amazon_asin: B0DD5WCP7G
+relevance: core
 research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets

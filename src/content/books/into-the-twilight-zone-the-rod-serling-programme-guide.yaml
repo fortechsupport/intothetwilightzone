@@ -12,6 +12,7 @@ description: A compact British programme guide to the original series, with cred
 ids:
   goodreads: '948252'
   amazon_asin: '0595276121'
+relevance: core
 research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets

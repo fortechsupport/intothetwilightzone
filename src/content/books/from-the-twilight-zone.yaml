@@ -9,6 +9,7 @@ description: A hardcover book-club omnibus drawing together the stories from Ser
 ids:
   goodreads: '4700921'
   amazon_asin: B0006FB2PG
+relevance: core
 research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets

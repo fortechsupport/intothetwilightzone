@@ -6,6 +6,9 @@ published: '2014-12-22'
 ids:
   goodreads: '24058758'
   amazon_asin: '1623061229'
+relevance: core
+duplicate_of: books/rod-serling-the-dreams-and-nightmares-of-life-in-the-twilight-zone
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+locked: true

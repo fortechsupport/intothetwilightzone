@@ -7,6 +7,9 @@ description: 'George R. R. Martin''s teleplay for the 1986 revival episode. It h
   book.'
 episodes:
 - 1985/the-road-less-traveled
+relevance: core
+tags:
+- teleplay
 research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets

@@ -8,6 +8,7 @@ isbn: '1887368736'
 kind: scripts
 description: A collection of Charles Beaumont's teleplays for the original series, edited by Roger Anker
   with notes and recollections.
+relevance: core
 research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets

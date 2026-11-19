@@ -10,6 +10,7 @@ description: The standard episode-by-episode guide to the original series, combi
 ids:
   goodreads: '183663'
   amazon_asin: '1935247174'
+relevance: core
 research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets

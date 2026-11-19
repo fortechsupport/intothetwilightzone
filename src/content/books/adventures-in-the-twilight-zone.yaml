@@ -10,6 +10,7 @@ description: The third of Carol Serling's DAW paperback anthologies of new stori
 ids:
   goodreads: '1305736'
   amazon_asin: '0886776627'
+relevance: core
 research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets

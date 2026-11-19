@@ -10,6 +10,7 @@ description: A large-format photographic book of behind-the-scenes stills, produ
 ids:
   goodreads: '323465'
   amazon_asin: '1550227440'
+relevance: core
 research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets

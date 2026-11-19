@@ -7,6 +7,10 @@ published: '2023-10-31'
 ids:
   goodreads: '199981103'
   amazon_asin: B0CL78CLBW
+relevance: core
+tags:
+- self-published
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+locked: true

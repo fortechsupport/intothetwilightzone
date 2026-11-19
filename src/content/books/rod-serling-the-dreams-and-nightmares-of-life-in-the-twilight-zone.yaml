@@ -3,9 +3,14 @@ authors:
 - Joel Engel
 publisher: Contemporary Books
 published: '1989-01-01'
+kind: biography
+description: Joel Engel's 1989 biography of Rod Serling, the first full-length account of his life and career. Booktrope reissued it in 2014 under the title Last Stop, The Twilight Zone.
 ids:
+  goodreads_2014_edition: '24058758'
   goodreads: '503273'
   amazon_asin: '0809240750'
+relevance: core
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+locked: true

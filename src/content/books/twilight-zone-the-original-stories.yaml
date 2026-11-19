@@ -7,7 +7,8 @@ publisher: Avon Books
 published: '1985-01-01'
 ids:
   goodreads: '882029'
-  amazon_asin: '038089601X'
+  amazon_asin: 038089601X
+relevance: core
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

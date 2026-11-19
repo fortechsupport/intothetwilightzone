@@ -18,6 +18,7 @@ a record that does not match fails the build.
 - Every record has `sources: [{title, url?, note?}]`, optional `last_verified: 'YYYY-MM-DD'`,
   optional `ids: {imdb, wikidata, goodreads, ...}` and `links: {wikipedia, justwatch, ...}`.
 - Optional `research_confidence: high|medium|low` on any record (connections keep their own `confidence`).
+- Optional `relevance: core|related|tangential` on any record: core is about The Twilight Zone itself, related covers Rod Serling, Night Gallery and the show's writers, tangential only mentions or borrows the name. Optional `tags[]` for light labels (`self-published`, `unverified`, `unlicensed`, `teleplay`). `duplicate_of: <collection>/<id>` hides a duplicate record from pages while keeping it locked against re-import.
 - `locked: true` stops `scripts/import_spreadsheets.py` from overwriting a hand-edited record.
 - Copyright: no full narrations, transcripts, lyrics or publisher blurbs. Short excerpts only
   (`lyric_excerpt` max 200 chars, quote `text` max 400), always with a source.

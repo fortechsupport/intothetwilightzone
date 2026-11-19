@@ -10,6 +10,7 @@ description: A single-volume trade paperback of selected Serling teleplays drawn
 ids:
   goodreads: '23375532'
   amazon_asin: '1934267457'
+relevance: core
 research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets

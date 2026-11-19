@@ -9,6 +9,7 @@ description: A light, essay-style book by the TV critic Mark Dawidziak that draw
 ids:
   goodreads: '29939204'
   amazon_asin: 125062150X
+relevance: core
 research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets

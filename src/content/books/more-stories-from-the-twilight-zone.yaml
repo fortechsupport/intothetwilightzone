@@ -18,6 +18,7 @@ episodes:
 ids:
   goodreads: '630367'
   amazon_asin: '1490423834'
+relevance: core
 research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets

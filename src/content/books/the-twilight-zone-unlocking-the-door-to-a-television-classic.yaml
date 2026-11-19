@@ -10,6 +10,7 @@ description: A massive production history of the original series drawn from stud
 ids:
   goodreads: '4848923'
   amazon_asin: '0970331096'
+relevance: core
 research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets

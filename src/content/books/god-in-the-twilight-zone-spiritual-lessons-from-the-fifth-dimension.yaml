@@ -8,6 +8,9 @@ isbn: '9781088010884'
 kind: other
 description: Short Christian devotional reading of the original series that examines ten episodes with
   religious or biblical themes and draws ethical lessons from them.
+relevance: core
+tags:
+- self-published
 research_confidence: medium
 sources:
 - title: Eden.co.uk listing

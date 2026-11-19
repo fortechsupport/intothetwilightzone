@@ -11,6 +11,7 @@ description: An episode-by-episode critical guide to the original series, giving
 ids:
   goodreads: '5803479'
   amazon_asin: 078643886X
+relevance: core
 research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets

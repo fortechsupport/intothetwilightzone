@@ -10,6 +10,7 @@ description: An illustrated hardcover tribute that surveys Serling's career and 
 ids:
   goodreads: '3733352'
   amazon_asin: '1569804605'
+relevance: core
 research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets

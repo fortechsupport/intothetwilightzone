@@ -11,6 +11,7 @@ description: A collection of academic essays on every incarnation of the franchi
 ids:
   goodreads: '58934473'
   amazon_asin: '1476681015'
+relevance: core
 research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets

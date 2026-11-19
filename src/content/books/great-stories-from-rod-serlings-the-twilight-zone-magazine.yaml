@@ -8,6 +8,7 @@ kind: anthology
 description: 'Large-format paperback anthology collecting fiction first printed in Rod Serling''s The
   Twilight Zone Magazine, assembled under editor T. E. D. Klein. Internally it was allotted a magazine
   volume/number slot (vol. 2 #9) although it was sold as a standalone anthology.'
+relevance: core
 research_confidence: medium
 sources:
 - title: Locus index entry

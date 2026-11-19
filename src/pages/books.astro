@@ -2,17 +2,17 @@
 import Base from '../layouts/Base.astro';
 import ExtLinks from '../components/ExtLinks.astro';
 import { getCollection } from 'astro:content';
-const books = (await getCollection('books')).sort((a, b) => a.data.title.replace(/^(the|a) /i, '').localeCompare(b.data.title.replace(/^(the|a) /i, '')));
+const books = (await getCollection('books')).filter((b) => !b.data.duplicate_of).sort((a, b) => a.data.title.replace(/^(the|a) /i, '').localeCompare(b.data.title.replace(/^(the|a) /i, '')));
 ---
 <Base title="Books" description="Books about The Twilight Zone: histories, companions, story collections and novels.">
   <h1>Books</h1>
-  <p class="lead">{books.length} books: histories and companions, script collections, anthologies and novels.</p>
+  <p class="lead">{books.length} books: histories and companions, script collections, anthologies and novels, plus Rod Serling's wider work. Labels mark self-published and unverified titles.</p>
   <div class="table-wrap"><table>
     <thead><tr><th>Title</th><th>Author</th><th>Publisher</th><th>Year</th><th>Links</th></tr></thead>
     <tbody>
       {books.map((b) => (
         <tr id={b.id}>
-          <td>{b.data.title}{b.data.description && <div class="small muted">{b.data.description}</div>}</td>
+          <td>{b.data.title}{b.data.description && <div class="small muted">{b.data.description}</div>}{(b.data.relevance === 'related' || b.data.relevance === 'tangential' || b.data.tags.length > 0) && <div class="small muted"><em>{[b.data.relevance === 'related' ? 'Related: Rod Serling and his circle' : b.data.relevance === 'tangential' ? 'Tangential' : null, ...b.data.tags].filter(Boolean).join(' · ')}</em></div>}</td>
           <td>{b.data.authors.join(', ')}</td>
           <td>{b.data.publisher}</td>
           <td>{b.data.published?.slice(0, 4)}</td>

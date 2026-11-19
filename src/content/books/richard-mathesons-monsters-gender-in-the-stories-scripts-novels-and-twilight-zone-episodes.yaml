@@ -6,7 +6,8 @@ publisher: Rowman & Littlefield Publishers
 published: '2015-12-31'
 ids:
   goodreads: '26708867'
-  amazon_asin: '144226067X'
+  amazon_asin: 144226067X
+relevance: core
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

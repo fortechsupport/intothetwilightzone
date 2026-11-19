@@ -6,6 +6,7 @@ published: '1988-09-01'
 ids:
   goodreads: '198023'
   amazon_asin: '0684189437'
+relevance: core
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
