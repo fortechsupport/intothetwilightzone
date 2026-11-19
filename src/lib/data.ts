@@ -134,6 +134,10 @@ export async function allPeople(): Promise<Map<string, Person>> {
     if (!map.has(slug)) map.set(slug, { slug, name: p.data.name, credits: [] });
     map.get(slug)!.record = p;
     map.get(slug)!.name = p.data.name;
+    for (const c of p.data.tz_credits) {
+      const url = !c.ref ? undefined : /^\d{4}\//.test(c.ref) ? `/episodes/${c.ref}/` : `/${c.ref}/`;
+      map.get(slug)!.credits.push({ role: c.role ?? 'Contributor', title: c.work, url: url ?? '', detail: c.series });
+    }
   }
   peopleCache = map;
   return map;
