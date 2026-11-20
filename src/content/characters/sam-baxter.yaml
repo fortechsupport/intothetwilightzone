@@ -1,0 +1,20 @@
+name: Sam Baxter
+kind: human
+played_by:
+- Ron Glass
+appears_in:
+- 1985/i-of-newton
+description: >-
+  A mathematics professor who carelessly offers his soul to solve a problem and summons a demon to collect. He wins
+  back his soul with three questions, sending the demon to find the end of the universe.
+recurring: false
+relevance: core
+sources:
+- title: I of Newton (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/I_of_Newton
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

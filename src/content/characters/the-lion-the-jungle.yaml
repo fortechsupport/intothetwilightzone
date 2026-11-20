@@ -1,0 +1,21 @@
+name: The lion
+aka: []
+kind: animal
+played_by:
+- Zamba
+appears_in:
+- 1959/the-jungle
+description: >-
+  The lion that waits on Alan Richards's bed at the end of the episode, the final proof that the curse has followed
+  him from Africa. It was played by the trained movie lion Zamba.
+recurring: false
+relevance: core
+sources:
+- title: The Jungle (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Jungle_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Jungle - IMDb'
+  url: https://www.imdb.com/title/tt0734650/
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

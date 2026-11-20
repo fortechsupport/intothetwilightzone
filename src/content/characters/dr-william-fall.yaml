@@ -1,0 +1,20 @@
+name: Dr. William Fall
+kind: human
+played_by:
+- Burgess Meredith
+appears_in:
+- films/night-gallery-s1e02
+description: >-
+  A disgraced, alcoholic doctor who finds a medical bag from the future that can cure anything. He wants to redeem
+  himself as a healer, but his partner wants to profit from it.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,20 @@
+name: John Carnby
+kind: human
+played_by:
+- Vincent Price
+appears_in:
+- films/night-gallery-s3e01
+description: >-
+  A sorcerer who has murdered his twin brother and cut him to pieces, only to be stalked by the body parts. The
+  segment adapts Clark Ashton Smith's story.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

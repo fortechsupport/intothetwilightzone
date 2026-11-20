@@ -1,0 +1,20 @@
+name: Robert Zemeckis
+roles:
+- director
+born: '1951-05-14'
+bio: >-
+  Robert Zemeckis directed Contact (1997), whose opening pull-back from Earth through layers of old radio and television
+  broadcasts includes a snippet of the Twilight Zone theme as the camera passes Jupiter. He directed the Back to
+  the Future trilogy and Who Framed Roger Rabbit, and won the Academy Award for Best Director for Forrest Gump (1994).
+relevance: tangential
+sources:
+- title: Robert Zemeckis - Wikipedia
+  url: https://en.wikipedia.org/wiki/Robert_Zemeckis
+- title: Contact (1997 American film) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Contact_(1997_American_film)
+research_confidence: medium
+last_verified: '2026-11-20'
+tags:
+- reference
+categories:
+- people/directors

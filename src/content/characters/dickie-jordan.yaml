@@ -1,0 +1,21 @@
+name: Dickie Jordan
+kind: human
+played_by:
+- David Mendenhall
+appears_in:
+- 1985/examination-day
+description: >-
+  A bright twelve-year-old in a future state who cheerfully sets off to take the government's compulsory intelligence
+  test. His parents know what he does not: children who score too high are not allowed to live. Adapted from Henry
+  Slesar's 1958 story.
+recurring: false
+relevance: core
+sources:
+- title: Examination Day (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Examination_Day
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,20 @@
+name: Ed Hamner
+kind: human
+played_by:
+- Marc Singer
+appears_in:
+- 1985/extra-innings
+description: >-
+  A former ballplayer whose career ended with an injury, who finds that an old baseball card lets him step into
+  the early days of the game. His chance to play again pulls him away from the woman who loves him.
+recurring: false
+relevance: core
+sources:
+- title: Extra Innings (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Extra_Innings_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

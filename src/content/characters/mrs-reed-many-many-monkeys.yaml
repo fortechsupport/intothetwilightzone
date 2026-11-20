@@ -1,0 +1,19 @@
+name: Mrs. Reed
+kind: human
+played_by:
+- Jackie Burroughs
+appears_in:
+- 1985/many-many-monkeys
+description: >-
+  A patient who believes the blindness epidemic is a divine punishment for people who refuse to see one another.
+recurring: false
+relevance: core
+sources:
+- title: Many, Many Monkeys (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Man
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

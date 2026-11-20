@@ -1,0 +1,18 @@
+name: John Valentine
+kind: human
+played_by:
+- John Lithgow
+appears_in:
+- films/twilight-zone-the-movie
+description: >-
+  A terrified passenger on a stormy flight who sees a gremlin tearing at the engine and cannot get anyone to believe
+  him. The role is the film's version of the man William Shatner played in "Nightmare at 20,000 Feet."
+recurring: false
+relevance: core
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

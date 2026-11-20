@@ -1,0 +1,22 @@
+name: The Kanamits
+aka:
+- Kanamit
+kind: alien
+played_by:
+- Richard Kiel
+appears_in:
+- 1959/to-serve-man
+description: >-
+  Very tall aliens who arrive at the United Nations offering an end to famine, disease and war. Their book, To Serve
+  Man, is revealed to be a cookbook, and they are among the most famous aliens in TV history.
+recurring: false
+relevance: core
+sources:
+- title: To Serve Man (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/To_Serve_Man_(The_Twilight_Zone)
+- title: 'The Twilight Zone: To Serve Man - IMDb'
+  url: https://www.imdb.com/title/tt0734684/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

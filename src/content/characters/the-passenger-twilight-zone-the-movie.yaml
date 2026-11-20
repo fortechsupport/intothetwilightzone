@@ -1,0 +1,20 @@
+name: The Passenger
+aka:
+- Passenger
+kind: supernatural
+played_by:
+- Dan Aykroyd
+appears_in:
+- films/twilight-zone-the-movie
+description: >-
+  A friendly hitchhiker in the film's prologue who swaps Twilight Zone memories with the driver on a dark highway,
+  then asks, "Do you want to see something really scary?" and turns into a monster.
+recurring: false
+relevance: core
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

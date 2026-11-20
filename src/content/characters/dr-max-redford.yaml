@@ -1,0 +1,20 @@
+name: Dr. Max Redford
+kind: human
+played_by:
+- Carl Betz
+appears_in:
+- films/night-gallery-s1e01
+description: >-
+  A doctor who uses hypnotic suggestion to cause and cure disease in a patient. When he discovers the patient is
+  having an affair with his wife, he wills the man to death, and the man rises again.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,21 @@
+name: Carling
+aka: []
+kind: human
+played_by:
+- Edward Andrews
+appears_in:
+- 1959/third-from-the-sun
+description: >-
+  A suspicious security official on Sturka's weapons project who senses that he is planning to flee. He confronts
+  the group at the hangar but cannot stop the launch.
+recurring: false
+relevance: core
+sources:
+- title: Third from the Sun (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Third_from_the_Sun
+- title: 'The Twilight Zone: Third from the Sun - IMDb'
+  url: https://www.imdb.com/title/tt0734682/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

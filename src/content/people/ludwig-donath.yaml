@@ -1,0 +1,30 @@
+name: Ludwig Donath
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: He's Alive
+  role: actor (as Ernst Ganz)
+  ref: 1959/hes-alive
+born: '1900-03-06'
+died: '1967-09-29'
+bio: >-
+  Ludwig Donath played Ernst Ganz, the gentle concentration-camp survivor whom Dennis Hopper's young neo- Nazi Peter
+  Vollmer has killed on Hitler's advice, in "He's Alive" (1963). Born in Vienna, he acted on the Austrian and German
+  stage before fleeing the Nazis. In Hollywood he is best remembered as Al Jolson's father, the cantor, in The Jolson
+  Story (1946) and Jolson Sings Again (1949), and he played the East German scientist Professor Lindt in Hitchcock's
+  Torn Curtain (1966).
+relevance: core
+sources:
+- title: Ludwig Donath - Wikipedia
+  url: https://en.wikipedia.org/wiki/Ludwig_Donath
+- title: He's Alive (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/He%27s_Alive
+- title: List of The Twilight Zone (1959 TV series) guest stars - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_guest_stars
+research_confidence: medium
+last_verified: '2026-11-20'
+tags:
+- 1959-series
+categories:
+- people/actors

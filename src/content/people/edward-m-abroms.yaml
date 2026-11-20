@@ -1,0 +1,30 @@
+name: Edward M. Abroms
+roles:
+- director
+- editor
+born: '1935'
+died: '2018'
+bio: >-
+  Edward M. Abroms directed "Something in the Woodwork" (1973), a late Night Gallery hour about a lonely woman (Geraldine
+  Page) who befriends a ghost in her attic. An Emmy-winning editor, he cut Steven Spielberg's early work including
+  The Sugarland Express and was nominated for an Academy Award for editing Blue Thunder (1983).
+relevance: related
+sources:
+- title: Edward M. Abroms - Wikipedia
+  url: https://en.wikipedia.org/wiki/Edward_M._Abroms
+- title: Edward Abroms, Steven Spielberg's First Film Editor, Dies at 82 - Dead in a Decade
+  url: https://deadinadecade.blogspot.com/2018/02/edward-m-abroms-obit.html
+- title: List of Night Gallery episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+research_confidence: medium
+last_verified: '2026-11-20'
+tags:
+- night-gallery
+tz_credits:
+- series: Night Gallery
+  work: Night Gallery (pilot)
+  role: editor
+  ref: films/night-gallery-pilot
+categories:
+- people/directors
+- people/crew

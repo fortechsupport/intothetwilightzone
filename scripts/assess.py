@@ -447,8 +447,28 @@ def a_person(rid, d):
     if is_serling(d):
         return result(bio or f"{name} is connected to Rod Serling.", "related", "Part of Rod Serling's life or circle.", "include" if has_independent_source(d) else "maybe",
                       "Within the Serling scope you asked for.", d)
+    cats = set(d.get("categories") or [])
+    for cat, tier, why, rec_why in (
+            ("people/scholars-historians", "related", "Has written or researched the show's history.", "A historian or author whose work documents the show; their page points readers to it."),
+            ("people/family", "related", "Part of Rod Serling's family or early life.", "Within the Serling scope you asked for."),
+            ("people/inspired-creators", "tangential", "Made work that draws on the show rather than working on it.", "Documents the show's influence; the bio names the work and the source for the link."),
+            ("people/fans", "tangential", "A notable admirer, not a contributor.", "Their documented praise or debt to the show is the reason they are here.")):
+        if cat in cats and bio:
+            return result(bio, tier, why, "include" if has_independent_source(d) and d.get("research_confidence") != "low" else "maybe", rec_why, d)
     return result(bio or f"No Twilight Zone credit is recorded for {name}.", "tangential", "No franchise credit found in the records.", "maybe",
                   "No credit or quote links this person to the show in the data; check the bio before including.", d)
+
+
+def a_character(rid, d):
+    eps = [r for r in d.get("appears_in") or []]
+    titles = [q(EP[r]["title"]) if r in EP else q(FILMS.get(r.split("/", 1)[1], {}).get("title", r)) for r in eps]
+    who = names(d.get("played_by") or [], 2)
+    conn = f"A character in {names(titles, 3) or 'the franchise'}" + (f", played by {who}" if who else "") + ". " + first_sentence(d.get("description"))
+    ng = all(r.startswith("films/night-gallery") for r in eps) and eps
+    conf = d.get("research_confidence")
+    return result(conn, "related" if ng else "core", "A character from Night Gallery." if ng else "A character from a Twilight Zone episode or film.",
+                  "include" if conf in (None, "high") else "maybe",
+                  "Character pages connect episodes to the actors who played them." if conf in (None, "high") else f"Names or casting are {conf} confidence; check against the episode before including.", d)
 
 
 def a_quote(rid, d):
@@ -739,10 +759,23 @@ def subcategory(col: str, rid: str, d: dict) -> str:
     if col == "podcasts":
         t = str(d.get("title"))
         return "Single episodes of other podcasts" if (" - " in t and "episode" in t.lower()) or re.search(r"episode \d+|ep \d+|^\d+\.", t.lower()) else "Twilight Zone podcasts"
+    if col == "characters":
+        eps = d.get("appears_in") or []
+        first = eps[0] if eps else ""
+        if first.startswith("films/night-gallery"):
+            return "Night Gallery"
+        if first.startswith("films/"):
+            return "Twilight Zone: The Movie (1983)"
+        return {"1959": "Original series (1959-1964)", "1985": "1985 revival (1985-1989)", "2002": "2002 revival (2002-2003)", "2019": "2019 revival (2019-2020)"}.get(first[:4], "Other")
     if col == "people":
         roles = d.get("roles") or []
         for r, label in (("writer", "Writers"), ("director", "Directors"), ("composer", "Composers"), ("producer", "Producers"), ("narrator", "Hosts and narrators"), ("host", "Hosts and narrators"), ("actor", "Actors")):
             if r in roles:
+                return label
+        cats = d.get("categories") or []
+        for c, label in (("people/crew", "Crew"), ("people/scholars-historians", "Scholars and historians"), ("people/family", "Family and friends"),
+                         ("people/inspired-creators", "Inspired creators"), ("people/fans", "Fans and champions"), ("people/voice-actors", "Voice actors")):
+            if c in cats:
                 return label
         if any(qd.get("person") == d.get("name") for qd in DB.get("quotes", {}).values()):
             return "Admirers and influenced artists"
@@ -758,7 +791,7 @@ def subcategory(col: str, rid: str, d: dict) -> str:
     return ""
 
 
-DISPATCH = {"series": a_series, "episodes": a_episode, "films": a_film, "connections": a_connection, "people": a_person,
+DISPATCH = {"series": a_series, "episodes": a_episode, "films": a_film, "connections": a_connection, "people": a_person, "characters": a_character,
             "quotes": a_quote, "locations": a_location, "songs": a_song, "radio": a_radio, "podcasts": a_podcast,
             "books": a_book, "comics": a_comic, "magazines": a_magazine, "essays": a_essay, "archives": a_archive, "works": a_work}
 

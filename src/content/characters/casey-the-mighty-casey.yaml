@@ -1,0 +1,21 @@
+name: Casey
+aka: []
+kind: robot
+played_by:
+- Robert Sorrells
+appears_in:
+- 1959/the-mighty-casey
+description: >-
+  A robot built to pitch, who wins game after game for the Zephyrs until the league demands he have a heart. With
+  a heart he feels sympathy for batters and stops striking them out.
+recurring: false
+relevance: core
+sources:
+- title: The Mighty Casey (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Mighty_Casey
+- title: 'The Twilight Zone: The Mighty Casey - IMDb'
+  url: https://www.imdb.com/title/tt0734661/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

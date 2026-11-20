@@ -1,0 +1,23 @@
+name: Itzhak Perlman
+roles:
+- musician
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: violin solos
+  ref: films/twilight-zone-the-movie
+born: '1945'
+bio: >-
+  Itzhak Perlman played the violin solos in Jerry Goldsmith's score for Twilight Zone: The Movie (1983). One of
+  the most celebrated violinists of his time, he later played the solos in John Williams's score for Schindler's
+  List.
+sources:
+- title: 'Wikipedia: Itzhak Perlman'
+  url: https://en.wikipedia.org/wiki/Itzhak_Perlman
+- title: 'Sci-Fi-Movies: Twilight Zone: The Movie (1983) credits'
+  url: https://www.scifi-movies.com/en/credits/0001932/twilight-zone-the-movie-1983/
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/composers

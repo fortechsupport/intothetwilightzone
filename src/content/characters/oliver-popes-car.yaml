@@ -1,0 +1,20 @@
+name: Oliver Pope's car
+aka: []
+kind: object
+played_by: []
+appears_in:
+- 1959/you-drive
+description: >-
+  The 1956 Ford sedan that will not let Oliver Pope get away with his crime. It honks and flashes and finally drives
+  him to the police.
+recurring: false
+relevance: core
+sources:
+- title: You Drive (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/You_Drive
+- title: 'The Twilight Zone: You Drive - IMDb'
+  url: https://www.imdb.com/title/tt0734694/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

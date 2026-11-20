@@ -1,0 +1,17 @@
+name: Robert Folk
+roles:
+- composer
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: series
+  role: composer
+bio: >-
+  Robert Folk wrote music for the 1985 Twilight Zone. He is best known for the scores of the Police Academy films.
+sources:
+- title: 'Sci-Fi-Movies: The Twilight Zone (1985) credits'
+  url: https://www.scifi-movies.com/en/credits/0000456/the-twilight-zone-1985/
+research_confidence: low
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/composers

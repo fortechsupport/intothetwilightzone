@@ -1,0 +1,21 @@
+name: The Alien Ambassador
+kind: alien
+played_by:
+- John Glover
+appears_in:
+- 1985/a-small-talent-for-war
+description: >-
+  An envoy of the race that seeded humanity who arrives at the United Nations to announce that the experiment has
+  failed. The diplomats scramble to prove they can make peace, only to learn that the creators had wanted a talent
+  for war.
+recurring: false
+relevance: core
+sources:
+- title: A Small Talent for War (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/A_Small_Talent_for_War
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,20 @@
+name: F. Keogh Gleason
+roles:
+- set decorator
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: series
+  role: set decorator (credited 1960-1962)
+bio: >-
+  F. Keogh Gleason was an MGM set decorator credited on the original Twilight Zone in its second and third seasons,
+  dressing the sets built on the studio lot. Among the most honored set decorators of the studio era, he shared
+  Academy Awards for An American in Paris, The Bad and the Beautiful, Somebody Up There Likes Me and Gigi. His work
+  on the series is a reminder that the show drew on the same staff as MGM's prestige films.
+sources:
+- title: 'IMDb: The Twilight Zone (1959-1964) full credits'
+  url: https://m.imdb.com/title/tt0052520/fullcredits/cast
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/crew

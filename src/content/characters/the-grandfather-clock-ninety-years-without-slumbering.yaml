@@ -1,0 +1,20 @@
+name: The grandfather clock
+aka: []
+kind: object
+played_by: []
+appears_in:
+- 1959/ninety-years-without-slumbering
+description: >-
+  The old clock that Sam has wound every day of his life and believes keeps him alive. Its sale sets the story in
+  motion.
+recurring: false
+relevance: core
+sources:
+- title: Ninety Years Without Slumbering (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Ninety_Years_Without_Slumbering
+- title: 'The Twilight Zone: Ninety Years Without Slumbering - IMDb'
+  url: https://www.imdb.com/title/tt0734601/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

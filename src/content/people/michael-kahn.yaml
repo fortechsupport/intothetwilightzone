@@ -1,0 +1,23 @@
+name: Michael Kahn
+roles:
+- editor
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: Kick the Can
+  role: editor (Spielberg segment)
+  ref: films/twilight-zone-the-movie
+born: '1935'
+bio: >-
+  Michael Kahn edited Steven Spielberg's Kick the Can segment of Twilight Zone: The Movie (1983). He has edited
+  nearly all of Spielberg's films since Close Encounters of the Third Kind and won Academy Awards for Raiders of
+  the Lost Ark, Schindler's List and Saving Private Ryan.
+sources:
+- title: 'Wikipedia: Michael Kahn (film editor)'
+  url: https://en.wikipedia.org/wiki/Michael_Kahn_(film_editor)
+- title: 'Sci-Fi-Movies: Twilight Zone: The Movie (1983) credits'
+  url: https://www.scifi-movies.com/en/credits/0001932/twilight-zone-the-movie-1983/
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/crew

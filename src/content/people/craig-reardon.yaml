@@ -1,0 +1,19 @@
+name: Craig Reardon
+roles:
+- special makeup effects
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: special makeup effects artist
+  ref: films/twilight-zone-the-movie
+bio: >-
+  Craig Reardon is credited as a special makeup effects artist across Twilight Zone: The Movie (1983), including
+  George Miller's gremlin segment. He also did makeup effects on Poltergeist in the same period.
+sources:
+- title: 'Sci-Fi-Movies: Twilight Zone: The Movie (1983) credits'
+  url: https://www.scifi-movies.com/en/credits/0001932/twilight-zone-the-movie-1983/
+research_confidence: low
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/crew

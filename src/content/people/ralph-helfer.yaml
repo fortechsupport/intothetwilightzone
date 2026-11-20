@@ -1,0 +1,22 @@
+name: Ralph Helfer
+roles:
+- animal trainer
+- crew
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: series
+  role: animal supervisor (uncredited)
+bio: >-
+  Ralph Helfer supplied and supervised animals for the original Twilight Zone, including the lion and leopard used
+  in the early 1960s episodes, through his company Nature's Haven Wild Animal Rental. He was known for training
+  wild animals through affection rather than fear, an approach he called affection training. His animals appeared
+  in many films and series, including Daktari and Clarence the Cross-Eyed Lion, and he later wrote books including
+  Modoc.
+sources:
+- title: 'IMDb: The Twilight Zone (1959-1964) full credits'
+  url: https://m.imdb.com/title/tt0052520/fullcredits/cast
+research_confidence: low
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/crew

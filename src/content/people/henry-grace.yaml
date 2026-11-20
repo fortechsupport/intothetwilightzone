@@ -1,0 +1,22 @@
+name: Henry Grace
+roles:
+- set decorator
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: series
+  role: set decorator (credited 1959-1964)
+bio: >-
+  Henry Grace was MGM's supervising set decorator and is credited on the original Twilight Zone for its whole run,
+  from the first season through 1964. He won the Academy Award for the set decoration of Gigi and was nominated
+  for many other MGM films, including North by Northwest. Because he looked strikingly like Dwight D. Eisenhower,
+  he was cast as Eisenhower in The Longest Day (1962), one of his few appearances in front of a camera.
+sources:
+- title: 'TVMaze: The Twilight Zone (1959) crew'
+  url: https://www.tvmaze.com/shows/787/the-twilight-zone/crew
+- title: 'IMDb: The Twilight Zone (1959-1964) full credits'
+  url: https://m.imdb.com/title/tt0052520/fullcredits/cast
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/crew

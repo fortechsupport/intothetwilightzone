@@ -1,0 +1,27 @@
+name: Jean de Segonzac
+roles:
+- director
+- cinematographer
+bio: >-
+  Jean de Segonzac directed two episodes of the 2002 UPN Twilight Zone revival, "Cradle of Darkness," in which a
+  time traveler goes back to kill the infant Adolf Hitler, and "Night Route." He first made his name as the cinematographer
+  who gave Homicide: Life on the Street its restless hand-held look, then became a prolific television director
+  on the Law & Order franchise, Battlestar Galactica and many other dramas.
+relevance: core
+sources:
+- title: Jean de Segonzac - Wikipedia
+  url: https://en.wikipedia.org/wiki/Jean_de_Segonzac
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+media:
+- title: Filming Homicide with Jean de Segonzac - Cinematographer & Director
+  url: https://audioboom.com/posts/8469431
+  host: 'Audioboom (Homicide: Life on the Set podcast)'
+  note: About his Homicide work, not The Twilight Zone.
+  type: interview
+  rights: link-only
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/directors
+- people/crew

@@ -1,0 +1,25 @@
+name: Joe Alves
+roles:
+- art director
+- production designer
+tz_credits:
+- series: Night Gallery
+  work: Night Gallery
+  role: art director
+  ref: films/night-gallery
+born: '1936'
+bio: >-
+  Joe Alves was one of the art directors on Night Gallery at Universal. He went on to design Jaws, building the
+  mechanical shark with the effects crew, and Close Encounters of the Third Kind, which earned him an Academy Award
+  nomination. He directed Jaws 3-D.
+sources:
+- title: 'Wikipedia: Joe Alves'
+  url: https://en.wikipedia.org/wiki/Joe_Alves
+- title: 'Sci-Fi-Movies: Night Gallery (1970-73) series credits'
+  url: https://www.scifi-movies.com/en/credits/0002782/night-gallery-1969/
+research_confidence: medium
+relevance: related
+last_verified: '2026-11-20'
+categories:
+- people/directors
+- people/producers

@@ -1,0 +1,21 @@
+name: Avery
+aka: []
+kind: human
+played_by:
+- Jack Elam
+appears_in:
+- 1959/will-the-real-martian-please-stand-up
+description: >-
+  An eccentric old passenger stranded at the diner, who is suspected of being the alien. He turns out to be just
+  a cranky old man.
+recurring: false
+relevance: core
+sources:
+- title: Will the Real Martian Please Stand Up? (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Will_the_Real_Martian_Please_Stand_Up%3F
+- title: 'The Twilight Zone: Will the Real Martian Please Stand Up? - IMDb'
+  url: https://www.imdb.com/title/tt0734693/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

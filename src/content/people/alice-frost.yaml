@@ -1,0 +1,27 @@
+name: Alice Frost
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: It's a Good Life
+  role: actor (as Aunt Amy)
+  ref: 1959/its-a-good-life
+bio: >-
+  Alice Frost played Aunt Amy, who forgets herself and begins to sing in a house where six-year-old Anthony controls
+  everything, in "It's a Good Life" (1961). She was a major radio actress, a member of Orson Welles's Mercury Theatre
+  on the Air and the star of Mr. and Mrs. North as the sleuthing Pam North. On television she was a regular on the
+  family drama Mama.
+relevance: core
+sources:
+- title: Alice Frost - Wikipedia
+  url: https://en.wikipedia.org/wiki/Alice_Frost
+- title: It's a Good Life (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/It%27s_a_Good_Life_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1959 TV series) guest stars - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_guest_stars
+research_confidence: medium
+last_verified: '2026-11-20'
+tags:
+- 1959-series
+categories:
+- people/actors

@@ -1,0 +1,20 @@
+name: Rockne S. O'Bannon
+kind: human
+played_by:
+- Martin Balsam
+appears_in:
+- 1985/personal-demons
+description: >-
+  A fictional version of the episode's own writer, a blocked television writer who begins seeing small creatures
+  following him everywhere. The segment was written by Rockne S. O'Bannon about himself.
+recurring: false
+relevance: core
+sources:
+- title: Personal Demons (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Personal_Demons_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

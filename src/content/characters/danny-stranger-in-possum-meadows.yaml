@@ -1,0 +1,16 @@
+name: Danny
+kind: human
+appears_in:
+- 1985/stranger-in-possum-meadows
+description: A country boy who befriends Scout, the alien visitor, despite his mother's fears.
+recurring: false
+relevance: core
+sources:
+- title: Stranger in Possum Meadows (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Stranger_in_Possum_Meadows
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

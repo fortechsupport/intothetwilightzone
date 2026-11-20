@@ -96,3 +96,120 @@ research_confidence: high
 relevance: related
 last_verified: '2026-11-19'
 locked: true
+media:
+- title: 'Rod Serling: mentions and clips, The Interviews'
+  url: https://interviews.televisionacademy.com/people/rod-serling
+  host: Television Academy Foundation
+  note: Index of oral-history clips in which colleagues discuss Serling.
+  type: website
+  rights: link-only
+- title: 'The Twilight Zone: show page, The Interviews'
+  url: https://interviews.televisionacademy.com/shows/twilight-zone-the
+  host: Television Academy Foundation
+  note: Clips from cast and crew interviews about the original series.
+  type: website
+  rights: link-only
+- title: Rod Serling Archives, Ithaca College Library
+  url: https://libguides.ithaca.edu/serling
+  host: Ithaca College Library
+  note: Research guide to the Serling collection at Ithaca College, where he taught.
+  type: website
+  rights: link-only
+- title: The Rod Serling Archives at Ithaca College
+  url: >-
+    https://www.ithaca.edu/academics/roy-h-park-school-communications/programs-events-and-initiatives/rod-serling-award/rod-serling-archives-ithaca-college
+  host: Ithaca College
+  type: website
+  rights: link-only
+- title: Rod Serling papers, catalog record
+  url: https://search.library.wisc.edu/catalog/9911124601402121
+  host: Wisconsin Center for Film and Theater Research
+  note: >-
+    Scripts, correspondence, sound recordings and film in the Serling papers at the University of Wisconsin.
+  type: document
+  rights: link-only
+- title: Rod Serling audio recordings to be preserved thanks to a grant from CLIR
+  url: https://wcftr.commarts.wisc.edu/?p=3732
+  host: Wisconsin Center for Film and Theater Research
+  note: On preserving Serling's Dictabelt dictation recordings.
+  type: article
+  rights: link-only
+- title: Finding aid for the Rod Serling papers, 1945-1969
+  url: https://oac.cdlib.org/findaid/ark:/13030/kt5489n8zx
+  host: Online Archive of California
+  type: document
+  rights: link-only
+- title: The Rod Serling Dictabelt collection
+  url: https://www.library.ucla.edu/about/news/the-rod-serling-dictabelt-collection/
+  host: UCLA Library
+  type: article
+  rights: link-only
+- title: Meet Rod Serling
+  url: https://rodserling.com/meet-rod-serling/
+  host: Rod Serling Memorial Foundation
+  type: website
+  rights: link-only
+- title: Mike Wallace tunes up for 60 Minutes in this 1959 interview
+  url: https://rodserling.com/?p=2501
+  host: Rod Serling Memorial Foundation
+  date: '1959'
+  note: About Serling's September 1959 interview on The Mike Wallace Interview, days before the premiere.
+  type: article
+  rights: link-only
+- title: 'Rod Serling: Submitted for Your Approval (American Masters)'
+  url: https://weta.org/watch/shows/american-masters/rod-serling-submitted-your-approval
+  host: PBS / WETA
+  date: '1995'
+  note: PBS American Masters documentary.
+  type: video
+  rights: link-only
+- title: Remembering The Twilight Zone creator Rod Serling
+  url: https://www.npr.org/2025/10/07/nx-s1-5564730/remembering-rod-serling
+  host: NPR
+  date: '2025-10-07'
+  type: audio
+  rights: link-only
+- title: A short story by The Twilight Zone's Rod Serling is published for the first time
+  url: https://www.npr.org/2024/05/09/1248501666/rod-serling-twilight-zone-new-story-wwii
+  host: NPR
+  date: '2024-05-09'
+  type: article
+  rights: link-only
+- title: The Twilight Zone (40th anniversary report)
+  url: https://www.npr.org/1999/10/02/1064803/the-twilight-zone
+  host: NPR
+  date: '1999-10-02'
+  type: audio
+  rights: link-only
+- title: Wildfire prevention TV spot with Rod Serling (1968), transcript
+  url: https://smokeybear.com/uploads/transcripts/video/wfp-tv-rod-serling-508-english-1968.pdf
+  host: Smokey Bear (USDA Forest Service / Ad Council)
+  date: '1968'
+  note: Accessible transcript of a Smokey Bear public-service spot Serling narrated.
+  type: ad
+  rights: link-only
+- title: >-
+    When Rod Serling turned TV pitchman: his post-Twilight Zone ads for Ford, Mazda, Gulf Oil and Smokey Bear
+  url: >-
+    https://openculture.com/2022/03/when-rod-serling-turned-tv-pitchman-see-his-post-twilight-zone-ads-for-ford-mazda-gulf-oil-smokey-bear.html
+  host: Open Culture
+  date: 2022-03
+  type: article
+  rights: link-only
+- title: The Rod Serling Archive
+  url: https://bundymuseum.org/rodserlingarchive
+  host: Bundy Museum of History and Art, Binghamton
+  type: website
+  rights: link-only
+- title: A celebrity staged reading of The Twilight Zone's The Masks
+  url: https://www.paleycenter.org/event-twilight-zone-the-masks
+  host: The Paley Center for Media
+  date: '2009'
+  note: 50th-anniversary event.
+  type: website
+  rights: link-only
+categories:
+- people/writers
+- people/narrators-hosts
+- people/producers
+- people/family

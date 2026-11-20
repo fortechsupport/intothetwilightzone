@@ -1,0 +1,19 @@
+name: John Hora
+roles:
+- cinematographer
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: It's a Good Life
+  role: director of photography (Dante segment)
+  ref: films/twilight-zone-the-movie
+bio: >-
+  John Hora photographed Joe Dante's It's a Good Life segment of Twilight Zone: The Movie (1983), with its cartoon-colored
+  house. He was Dante's regular cinematographer in the 1980s, shooting The Howling, Gremlins, Explorers and Innerspace.
+sources:
+- title: 'Sci-Fi-Movies: Twilight Zone: The Movie (1983) credits'
+  url: https://www.scifi-movies.com/en/credits/0001932/twilight-zone-the-movie-1983/
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/crew

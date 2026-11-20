@@ -1,0 +1,24 @@
+name: Doug Jones
+born: '1960-05-24'
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (2019)
+  work: Blurryman
+  role: The Blurryman
+  ref: 2019/blurryman
+bio: >-
+  Doug Jones played the Blurryman, the indistinct figure stalking the revival's writers who is revealed as Rod Serling,
+  in the 2019 episode "Blurryman." He is one of the screen's leading creature performers, known for Abe Sapien in
+  Hellboy, the Faun and the Pale Man in Pan's Labyrinth and the Amphibian Man in The Shape of Water. He also played
+  Saru in Star Trek: Discovery.
+relevance: core
+sources:
+- title: Doug Jones (actor) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Doug_Jones_(actor)
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/actors

@@ -1,0 +1,19 @@
+name: Doc Bolton
+aka: []
+kind: human
+played_by:
+- Edgar Buchanan
+appears_in:
+- 1959/the-last-rites-of-jeff-myrtlebank
+description: The town doctor who pronounced Jeff dead. He cannot explain Jeff's return.
+recurring: false
+relevance: core
+sources:
+- title: The Last Rites of Jeff Myrtlebank (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Last_Rites_of_Jeff_Myrtlebank
+- title: 'The Twilight Zone: The Last Rites of Jeff Myrtlebank - IMDb'
+  url: https://www.imdb.com/title/tt0734653/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,19 @@
+name: The aliens
+aka: []
+kind: alien
+played_by:
+- Milton Selzer
+appears_in:
+- 1959/hocus-pocus-and-frisby
+description: Aliens who come to Earth in human disguise and kidnap Frisby. His harmonica drives them away.
+recurring: false
+relevance: core
+sources:
+- title: Hocus-Pocus and Frisby (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Hocus-Pocus_and_Frisby
+- title: 'The Twilight Zone: Hocus-Pocus and Frisby - IMDb'
+  url: https://www.imdb.com/title/tt0734573/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

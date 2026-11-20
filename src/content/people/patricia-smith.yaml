@@ -1,0 +1,27 @@
+name: Patricia Smith
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Long Distance Call
+  role: actor (as Sylvia Bayles)
+  ref: 1959/long-distance-call
+bio: >-
+  Patricia Smith played Sylvia Bayles, the mother who senses that her dead mother-in-law is calling her son away,
+  in "Long Distance Call" (1961). Her film work in the 1950s included The Bachelor Party and The Spirit of St. Louis,
+  both 1957. On television she was a frequent guest actress and played Debbie Reynolds's sister on The Debbie Reynolds
+  Show (1969-70).
+relevance: core
+sources:
+- title: Patricia Smith (actress) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Patricia_Smith_(actress)
+- title: Long Distance Call (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Long_Distance_Call
+- title: List of The Twilight Zone (1959 TV series) guest stars - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_guest_stars
+research_confidence: medium
+last_verified: '2026-11-20'
+tags:
+- 1959-series
+categories:
+- people/actors

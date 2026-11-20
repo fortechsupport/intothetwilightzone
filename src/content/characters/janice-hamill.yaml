@@ -1,0 +1,20 @@
+name: Janice Hamill
+kind: human
+played_by:
+- Dee Wallace
+appears_in:
+- 1985/wish-bank
+description: >-
+  A woman who releases a genie from an old lamp and learns that wishes are now handled by a bureaucratic office
+  with forms, rules and fine print.
+recurring: false
+relevance: core
+sources:
+- title: Wish Bank (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Wish_Bank_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

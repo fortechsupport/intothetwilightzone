@@ -1,0 +1,19 @@
+name: Harvey Frand
+roles:
+- producer
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: series
+  role: producer (CBS seasons, 1985-1987)
+bio: >-
+  Harvey Frand was producer of the 1985 Twilight Zone revival during its CBS seasons, working under executive producer
+  Philip DeGuere and supervising producer James Crocker. He later was a producer of the 2004 Battlestar Galactica
+  series.
+sources:
+- title: 'Sci-Fi-Movies: The Twilight Zone (1985) credits'
+  url: https://www.scifi-movies.com/en/credits/0000456/the-twilight-zone-1985/
+research_confidence: low
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/producers

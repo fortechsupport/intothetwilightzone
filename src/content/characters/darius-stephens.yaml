@@ -1,0 +1,20 @@
+name: Darius Stephens
+kind: robot
+played_by:
+- Ed Marinaro
+appears_in:
+- 1985/father-and-son-game
+description: >-
+  A dying 79-year-old tycoon whose mind is transferred into a young robotic body so he can go on running his empire.
+  His son fights to have him declared legally dead.
+recurring: false
+relevance: core
+sources:
+- title: Father and Son Game (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Father_and_Son_Game
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,20 @@
+name: Stanley Wilson
+roles:
+- music supervisor
+- composer
+tz_credits:
+- series: Night Gallery
+  work: Night Gallery (pilot)
+  role: music supervisor
+  ref: films/night-gallery-pilot
+bio: >-
+  Stanley Wilson was music supervisor of the 1969 Night Gallery pilot film. He headed music for Universal's television
+  division through the 1960s, overseeing the scores of its many series and TV movies.
+sources:
+- title: 'Sci-Fi-Movies: Night Gallery (1969 pilot) credits'
+  url: https://www.scifi-movies.com/en/credits/0000775/night-gallery-1969/
+research_confidence: low
+relevance: related
+last_verified: '2026-11-20'
+categories:
+- people/composers

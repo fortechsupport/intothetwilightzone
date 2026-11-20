@@ -1,0 +1,16 @@
+name: Martha
+kind: human
+played_by:
+- Rhea Seehorn
+appears_in:
+- 2019/not-all-men
+description: Annie's sister, whose husband and son are among the men changed by the meteor shower.
+recurring: false
+relevance: core
+sources:
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

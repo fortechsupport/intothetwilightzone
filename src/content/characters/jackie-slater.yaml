@@ -1,0 +1,20 @@
+name: Jackie Slater
+kind: human
+played_by:
+- Godfrey Cambridge
+appears_in:
+- films/night-gallery-s1e04
+description: >-
+  A failed nightclub comedian who wishes to make people laugh at everything he says. When a miracle worker grants
+  the wish, he discovers that constant laughter is its own curse.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

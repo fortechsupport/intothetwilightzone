@@ -1,0 +1,20 @@
+name: The camera
+aka: []
+kind: object
+played_by: []
+appears_in:
+- 1959/a-most-unusual-camera
+description: >-
+  An antique camera that photographs what will happen five minutes later. It is said to give ten pictures to each
+  owner, and the last one shows the deaths that follow.
+recurring: false
+relevance: core
+sources:
+- title: A Most Unusual Camera (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/A_Most_Unusual_Camera
+- title: 'The Twilight Zone: A Most Unusual Camera - IMDb'
+  url: https://www.imdb.com/title/tt0734543/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

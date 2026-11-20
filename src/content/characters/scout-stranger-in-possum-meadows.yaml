@@ -1,0 +1,20 @@
+name: Scout
+kind: alien
+played_by:
+- Steve Kanaly
+appears_in:
+- 1985/stranger-in-possum-meadows
+description: >-
+  A gentle alien visitor collecting specimens in the countryside, who befriends a young boy named Danny and shows
+  him strange powers.
+recurring: false
+relevance: core
+sources:
+- title: Stranger in Possum Meadows (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Stranger_in_Possum_Meadows
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,23 @@
+name: Terry Decker
+aka:
+- Flight Lt. William Terrance Decker
+kind: human
+played_by:
+- Kenneth Haigh
+appears_in:
+- 1959/the-last-flight
+description: >-
+  A First World War Royal Flying Corps pilot who flies through a strange cloud in 1917 and lands at an American
+  air base in France in 1959. He learns that the comrade he abandoned in a dogfight lived to save many lives in
+  the next war, and he chooses to fly back to his own time and save him.
+recurring: false
+relevance: core
+sources:
+- title: The Last Flight (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Last_Flight_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Last Flight - IMDb'
+  url: https://www.imdb.com/title/tt0734651/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

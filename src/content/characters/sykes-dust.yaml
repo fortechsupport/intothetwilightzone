@@ -1,0 +1,22 @@
+name: Sykes
+aka: []
+kind: human
+played_by:
+- Thomas Gomez
+appears_in:
+- 1959/dust
+description: >-
+  A cynical, greedy peddler in a poor western town who sells a hangman's rope for the execution of a young man.
+  He then sells the condemned man's father a bag of ordinary dust, claiming it is magic that will make people feel
+  compassion.
+recurring: false
+relevance: core
+sources:
+- title: Dust (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Dust_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Dust - IMDb'
+  url: https://www.imdb.com/title/tt0734564/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

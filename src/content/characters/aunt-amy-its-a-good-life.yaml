@@ -1,0 +1,21 @@
+name: Aunt Amy
+aka: []
+kind: human
+played_by:
+- Alice Frost
+appears_in:
+- 1959/its-a-good-life
+description: >-
+  Anthony's aunt, who forgets herself and starts to sing. In a house where Anthony controls everything, the slip
+  is dangerous.
+recurring: false
+relevance: core
+sources:
+- title: It's a Good Life (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/It%27s_a_Good_Life_(The_Twilight_Zone)
+- title: 'The Twilight Zone: It''s a Good Life - IMDb'
+  url: https://www.imdb.com/title/tt0734580/
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,20 @@
+name: Dan Arnold
+kind: human
+played_by:
+- Robert Carradine
+appears_in:
+- 1985/still-life
+description: >-
+  A photographer who finds an old camera that belonged to an explorer who vanished in the Amazon. When he develops
+  the film, the people photographed in it come back to life.
+recurring: false
+relevance: core
+sources:
+- title: Still Life (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Still_Life_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

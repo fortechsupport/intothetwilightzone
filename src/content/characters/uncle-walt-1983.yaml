@@ -1,0 +1,18 @@
+name: Uncle Walt
+kind: human
+played_by:
+- Kevin McCarthy
+appears_in:
+- films/twilight-zone-the-movie
+description: >-
+  One of the 'relatives' Anthony keeps captive, forced to perform rabbit-out-of-a-hat tricks and play along with
+  the boy's whims.
+recurring: false
+relevance: core
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

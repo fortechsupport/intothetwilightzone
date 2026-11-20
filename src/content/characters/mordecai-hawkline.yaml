@@ -1,0 +1,18 @@
+name: Mordecai Hawkline
+kind: human
+played_by:
+- Roberts Blossom
+appears_in:
+- 1985/song-of-the-younger-world
+description: The stern warden of the reform school and Amy's father, who stands between the young lovers.
+recurring: false
+relevance: core
+sources:
+- title: Song of the Younger World (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Song_of_the_Younger_World
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

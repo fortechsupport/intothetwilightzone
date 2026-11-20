@@ -1,0 +1,22 @@
+name: Fred Renard
+aka: []
+kind: human
+played_by:
+- Steve Cochran
+appears_in:
+- 1959/what-you-need
+description: >-
+  A small-time crook who notices that a sidewalk peddler always seems to know exactly what his customers will need.
+  He tries to force the old man to make him rich, and is finally given a pair of shoes with slippery soles that
+  leave him stuck in the path of a car.
+recurring: false
+relevance: core
+sources:
+- title: What You Need (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/What_You_Need_(The_Twilight_Zone)
+- title: 'The Twilight Zone: What You Need - IMDb'
+  url: https://www.imdb.com/title/tt0734690/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

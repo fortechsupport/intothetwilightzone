@@ -1,0 +1,22 @@
+name: Alan Richards
+aka: []
+kind: human
+played_by:
+- John Dehner
+appears_in:
+- 1959/the-jungle
+description: >-
+  An engineer whose company is building a dam in Africa over the objections of local witch doctors. Back in New
+  York he scoffs at their curse, but on his walk home through the empty city he hears jungle sounds, and he dies
+  when a lion appears in his apartment.
+recurring: false
+relevance: core
+sources:
+- title: The Jungle (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Jungle_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Jungle - IMDb'
+  url: https://www.imdb.com/title/tt0734650/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

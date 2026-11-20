@@ -1,0 +1,21 @@
+name: William Shakespeare
+aka: []
+kind: supernatural
+played_by:
+- John Williams
+appears_in:
+- 1959/the-bard
+description: >-
+  The great playwright, brought to the present by Moomer's magic to write a TV script. He leaves in disgust after
+  the network mangles his work.
+recurring: false
+relevance: core
+sources:
+- title: The Bard (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Bard_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Bard - IMDb'
+  url: https://www.imdb.com/title/tt0734630/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,22 @@
+name: Alicia
+aka: []
+kind: robot
+played_by:
+- Jean Marsh
+appears_in:
+- 1959/the-lonely
+description: >-
+  A lifelike female robot left with James Corry by a sympathetic supply captain. She learns to feel and respond,
+  and Corry treats her as a woman until the captain destroys her face to show him she is only a machine. The episode's
+  question of whether her feelings were real anticipates decades of android stories.
+recurring: false
+relevance: core
+sources:
+- title: The Lonely (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Lonely
+- title: 'The Twilight Zone: The Lonely - IMDb'
+  url: https://www.imdb.com/title/tt0734656/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

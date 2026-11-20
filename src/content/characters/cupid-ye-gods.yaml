@@ -1,0 +1,18 @@
+name: Cupid
+kind: supernatural
+played_by:
+- Robert Morse
+appears_in:
+- 1985/ye-gods
+description: The Roman god of love, here a wisecracking matchmaker trying to fix a romance he set in motion.
+recurring: false
+relevance: core
+sources:
+- title: Ye Gods (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Ye_Gods
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

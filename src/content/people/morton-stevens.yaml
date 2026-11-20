@@ -9,7 +9,15 @@ tz_credits:
   work: Episode score(s) — titles unconfirmed
 relevance: core
 research_confidence: low
+last_verified: '2026-11-20'
 sources:
 - title: SoundtrackCollector – Twilight Zone (1985) composers
   url: https://www.soundtrackcollector.com/title/28972/Twilight+Zone
-last_verified: '2026-11-20'
+- title: 'Wikipedia: Morton Stevens'
+  url: https://en.wikipedia.org/wiki/Morton_Stevens
+- title: 'Sci-Fi-Movies: The Twilight Zone (1985) credits'
+  url: https://www.scifi-movies.com/en/credits/0000456/the-twilight-zone-1985/
+born: '1929'
+died: '1991'
+categories:
+- people/composers

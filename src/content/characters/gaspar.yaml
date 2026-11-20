@@ -1,0 +1,23 @@
+name: Gaspar
+aka:
+- Mr. Gaspar
+kind: human
+played_by:
+- Danny Kaye
+appears_in:
+- 1985/paladin-of-the-lost-hour
+description: >-
+  An old man who guards a pocket watch that keeps the last hour before the end of the world from striking. Mugged
+  in a cemetery, he befriends the veteran who rescues him and chooses him as the watch's next keeper. It was one
+  of Danny Kaye's last screen roles.
+recurring: false
+relevance: core
+sources:
+- title: Paladin of the Lost Hour (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Paladin_of_the_Lost_Hour
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -50,3 +50,22 @@ sources:
 - title: Earl Hamner Jr. - Wikipedia
   url: https://en.wikipedia.org/wiki/Earl_Hamner_Jr.
 last_verified: '2026-11-19'
+media:
+- title: 'Earl Hamner, Jr. interview, The Interviews: An Oral History of Television'
+  url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+  host: Television Academy Foundation
+  type: interview
+  rights: link-only
+- title: Remembering Earl Hamner Jr.
+  url: https://interviews.televisionacademy.com/news/remembering-earl-hamner-jr
+  host: Television Academy Foundation
+  date: 2016-03
+  type: article
+  rights: link-only
+- title: Earl Hamner official website
+  url: https://earlhamner.com/
+  host: earlhamner.com
+  type: website
+  rights: link-only
+categories:
+- people/writers

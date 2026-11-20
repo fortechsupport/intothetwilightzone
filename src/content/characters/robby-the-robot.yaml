@@ -1,0 +1,28 @@
+name: Robby the Robot
+aka:
+- The Robot
+kind: robot
+played_by:
+- Robby the Robot
+appears_in:
+- 1959/uncle-simon
+- 1959/the-brain-center-at-whipples
+description: >-
+  The famous robot prop and costume from the 1956 film Forbidden Planet, used twice in the original series. In Uncle
+  Simon he plays Simon Polk's final invention, which takes on the old man's personality; in The Brain Center at
+  Whipple's he appears at the end as the machine that replaces the factory owner himself.
+recurring: true
+relevance: core
+sources:
+- title: Uncle Simon (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Uncle_Simon
+- title: 'The Twilight Zone: Uncle Simon - IMDb'
+  url: https://www.imdb.com/title/tt0734687/
+- title: The Brain Center at Whipple's (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Brain_Center_at_Whipple%27s
+- title: 'The Twilight Zone: The Brain Center at Whipple''s - IMDb'
+  url: https://www.imdb.com/title/tt0734633/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

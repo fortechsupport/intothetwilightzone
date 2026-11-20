@@ -1,0 +1,20 @@
+name: The Professor
+kind: robot
+played_by:
+- Vincent Price
+appears_in:
+- films/night-gallery-s2e02
+description: >-
+  The instructor who gives a graduating class its final exam in a future university. The exam tests their prejudices,
+  and the students turn out to be androids programmed to hate.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

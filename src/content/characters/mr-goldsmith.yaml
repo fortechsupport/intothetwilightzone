@@ -1,0 +1,23 @@
+name: Mr. Goldsmith
+aka:
+- Goldsmith
+kind: human
+played_by:
+- John Anderson
+appears_in:
+- 1959/the-old-man-in-the-cave
+description: >-
+  The leader of a small band of survivors in 1974, ten years after a nuclear war. He alone speaks with the unseen
+  'old man in the cave,' whose advice on which food and water are safe has kept the town alive. When soldiers turn
+  the townspeople against him, he refuses to eat the contaminated food and is the only one who survives.
+recurring: false
+relevance: core
+sources:
+- title: The Old Man in the Cave (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Old_Man_in_the_Cave
+- title: 'The Twilight Zone: The Old Man in the Cave - IMDb'
+  url: https://www.imdb.com/title/tt0734669/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

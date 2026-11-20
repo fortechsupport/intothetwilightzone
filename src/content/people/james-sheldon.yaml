@@ -44,3 +44,16 @@ sources:
 - title: Remembering James Sheldon - Television Academy Interviews
   url: https://interviews.televisionacademy.com/news/remembering-james-sheldon
 last_verified: '2026-11-19'
+media:
+- title: 'James Sheldon interview, The Interviews: An Oral History of Television'
+  url: https://interviews.televisionacademy.com/interviews/james-sheldon
+  host: Television Academy Foundation
+  type: interview
+  rights: link-only
+- title: James Sheldon's interview is online
+  url: https://interviews.televisionacademy.com/news/james-sheldons-interview-is-online
+  host: Television Academy Foundation
+  type: article
+  rights: link-only
+categories:
+- people/directors

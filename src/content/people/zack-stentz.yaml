@@ -1,0 +1,23 @@
+name: Zack Stentz
+roles:
+- writer
+bio: >-
+  Zack Stentz co-wrote "Cold Fusion" (2003), an episode of the UPN revival of The Twilight Zone, with his writing
+  partner Ashley Edward Miller. The pair wrote for Andromeda and Fringe and shared screenplay credits on Thor (2011),
+  X-Men: First Class and Agent Cody Banks.
+relevance: core
+sources:
+- title: Zack Stentz - Wikipedia
+  url: https://en.wikipedia.org/wiki/Zack_Stentz
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+research_confidence: medium
+last_verified: '2026-11-20'
+tags:
+- 2002-series
+tz_credits:
+- series: The Twilight Zone (2002)
+  work: series
+  role: consulting producer
+categories:
+- people/writers

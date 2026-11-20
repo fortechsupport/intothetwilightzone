@@ -1,0 +1,14 @@
+name: Fiji
+kind: human
+appears_in:
+- 2019/ovation
+description: A disillusioned pop star who passes the cursed coin to Jasmine before she dies.
+recurring: false
+relevance: core
+sources:
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

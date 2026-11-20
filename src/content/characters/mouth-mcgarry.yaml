@@ -1,0 +1,21 @@
+name: Mouth McGarry
+aka: []
+kind: human
+played_by:
+- Jack Warden
+appears_in:
+- 1959/the-mighty-casey
+description: >-
+  The manager of the last-place Hoboken Zephyrs, who signs a robot pitcher named Casey. When Casey is given a heart
+  and loses his edge, McGarry walks away with the plans to build robot ballplayers.
+recurring: false
+relevance: core
+sources:
+- title: The Mighty Casey (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Mighty_Casey
+- title: 'The Twilight Zone: The Mighty Casey - IMDb'
+  url: https://www.imdb.com/title/tt0734661/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

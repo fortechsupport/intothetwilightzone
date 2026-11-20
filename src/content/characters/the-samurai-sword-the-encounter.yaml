@@ -1,0 +1,18 @@
+name: The samurai sword
+aka: []
+kind: object
+played_by: []
+appears_in:
+- 1959/the-encounter
+description: >-
+  A Japanese sword Fenton took from the soldier he killed in the war. It seems to drive both men to violence. Complaints
+  about the episode kept it out of TV reruns for many years.
+recurring: false
+relevance: core
+sources:
+- title: 'The Twilight Zone: The Encounter - IMDb'
+  url: https://www.imdb.com/title/tt0734637/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

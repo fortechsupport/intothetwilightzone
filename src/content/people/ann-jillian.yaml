@@ -1,0 +1,29 @@
+name: Ann Jillian
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Mute
+  role: actor (as Ilse Nielsen)
+  ref: 1959/mute
+born: '1950-01-29'
+bio: >-
+  Ann Jillian played Ilse Nielsen, the girl raised to communicate only by telepathy who must learn to speak after
+  her parents die, in "Mute" (1963), one of the hour-long fourth-season episodes. A child actress, she had already
+  appeared in Disney's Babes in Toyland (1961) and the film of Gypsy (1962), and she was a regular on Hazel. As
+  an adult she starred in the sitcom It's a Living, earned an Emmy nomination playing Mae West, and played herself
+  in The Ann Jillian Story (1988) after speaking publicly about her breast cancer.
+relevance: core
+sources:
+- title: Ann Jillian - Wikipedia
+  url: https://en.wikipedia.org/wiki/Ann_Jillian
+- title: Mute (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Mute_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1959 TV series) guest stars - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_guest_stars
+research_confidence: high
+last_verified: '2026-11-20'
+tags:
+- 1959-series
+categories:
+- people/actors

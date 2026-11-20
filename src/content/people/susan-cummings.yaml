@@ -1,0 +1,17 @@
+name: Susan Cummings
+roles:
+- actor
+bio: >-
+  Susan Cummings played Pat, the cryptographer's assistant who decodes the Kanamit book and shouts its famous warning,
+  in "To Serve Man" (1962). She co-starred in the western series Union Pacific and appeared in 1950s westerns before
+  retiring from acting.
+relevance: core
+sources:
+- title: Susan Cummings (actress) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Susan_Cummings_(actress)
+- title: To Serve Man (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/To_Serve_Man_(The_Twilight_Zone)
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/actors

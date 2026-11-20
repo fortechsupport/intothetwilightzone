@@ -1,0 +1,19 @@
+name: The tiny aliens
+aka: []
+kind: alien
+played_by: []
+appears_in:
+- 1959/the-fear
+description: >-
+  Small beings who use a giant balloon to frighten the humans. When the trick fails, they leave in their tiny ship.
+recurring: false
+relevance: core
+sources:
+- title: The Fear (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Fear_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Fear - IMDb'
+  url: https://www.imdb.com/title/tt0734638/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,21 @@
+name: Professor Manion
+aka: []
+kind: human
+played_by:
+- Russell Johnson
+appears_in:
+- 1959/execution
+description: >-
+  The scientist whose time machine snatches Caswell from his hanging. He realizes too late that he has brought back
+  a killer, and Caswell murders him.
+recurring: false
+relevance: core
+sources:
+- title: Execution (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Execution_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Execution - IMDb'
+  url: https://www.imdb.com/title/tt0734567/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,16 @@
+name: Mr. Agee
+kind: human
+played_by:
+- Murray Matheson
+appears_in:
+- films/twilight-zone-the-movie
+description: A courtly resident of the rest home who joins the game in the film's "Kick the Can" segment.
+recurring: false
+relevance: core
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

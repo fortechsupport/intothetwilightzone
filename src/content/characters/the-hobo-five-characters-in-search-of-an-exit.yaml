@@ -1,0 +1,20 @@
+name: The Hobo
+aka: []
+kind: object
+played_by:
+- Kelton Garwood
+appears_in:
+- 1959/five-characters-in-search-of-an-exit
+description: >-
+  A ragged tramp who is one of the five figures in the cylinder. He is one of the bodies in the human ladder.
+recurring: false
+relevance: core
+sources:
+- title: Five Characters in Search of an Exit (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Five_Characters_in_Search_of_an_Exit
+- title: 'The Twilight Zone: Five Characters in Search of an Exit - IMDb'
+  url: https://www.imdb.com/title/tt0734569/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

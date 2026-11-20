@@ -1,0 +1,21 @@
+name: Patty
+aka: []
+kind: human
+played_by:
+- Susan Cummings
+appears_in:
+- 1959/to-serve-man
+description: >-
+  Chambers's assistant, who keeps working on the Kanamit book after everyone else trusts them. She decodes the rest
+  of the text and warns him, too late.
+recurring: false
+relevance: core
+sources:
+- title: To Serve Man (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/To_Serve_Man_(The_Twilight_Zone)
+- title: 'The Twilight Zone: To Serve Man - IMDb'
+  url: https://www.imdb.com/title/tt0734684/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

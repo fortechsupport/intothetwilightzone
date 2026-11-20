@@ -1,0 +1,16 @@
+name: Frederick Perry
+kind: human
+appears_in:
+- 1985/street-of-shadows
+description: The wealthy homeowner whose body and life Steve Cranston wakes up in after the break-in.
+recurring: false
+relevance: core
+sources:
+- title: Street of Shadows (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Street_of_Shadows_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

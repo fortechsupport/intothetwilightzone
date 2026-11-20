@@ -1,16 +1,19 @@
 name: Robert Drasnin
-bio: >-
-  Composer, clarinettist and exotica recording artist who scored for 1960s CBS television and later served as CBS's
-  director of music. He was supervising music director for the 1985 Twilight Zone revival.
-roles:
-- composer
-- music director
-- music editor
 tz_credits:
 - series: The Twilight Zone (1985-1989)
   work: Supervising music director (1985-87)
 relevance: core
 research_confidence: high
+last_verified: '2026-11-20'
+bio: >-
+  Robert Drasnin was music supervisor of the 1985 Twilight Zone and wrote music for the series. He had scored television
+  in the 1960s, including episodes of Mission: Impossible and The Man from U.N.C.L.E., and later headed music at
+  CBS, the network that revived the show. He also recorded the exotica album Voodoo in 1959.
+roles:
+- composer
+- music director
+- music editor
+- music supervisor
 sources:
 - title: Intrada – The Twilight Zone (3CD) ISC 348
   url: https://store.intrada.com/s.nl/it.A/id.10063/.f
@@ -18,4 +21,9 @@ sources:
   url: https://www.soundtrackcollector.com/title/28972/Twilight+Zone
 - title: Wissner 2017 – CORE PDF
   url: https://core.ac.uk/download/196145344.pdf
-last_verified: '2026-11-20'
+- title: 'Sci-Fi-Movies: The Twilight Zone (1985) credits'
+  url: https://www.scifi-movies.com/en/credits/0000456/the-twilight-zone-1985/
+died: '2015'
+categories:
+- people/composers
+- people/directors

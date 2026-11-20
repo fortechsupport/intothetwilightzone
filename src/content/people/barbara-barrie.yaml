@@ -1,0 +1,28 @@
+name: Barbara Barrie
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Miniature
+  role: actor (as Myra)
+  ref: 1959/miniature
+born: '1931-05-23'
+bio: >-
+  Barbara Barrie played Myra, the sister who keeps trying to set up her brother Charley (Robert Duvall) with dates
+  while he falls for a doll, in "Miniature" (1963). A stage actress from Chicago, she earned a Tony nomination for
+  the original production of Company (1970). She received an Academy Award nomination for Breaking Away (1979),
+  and on television she played Barney's wife Elizabeth on Barney Miller.
+relevance: core
+sources:
+- title: Barbara Barrie - Wikipedia
+  url: https://en.wikipedia.org/wiki/Barbara_Barrie
+- title: Miniature (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Miniature_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1959 TV series) guest stars - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_guest_stars
+research_confidence: high
+last_verified: '2026-11-20'
+tags:
+- 1959-series
+categories:
+- people/actors

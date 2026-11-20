@@ -1,7 +1,4 @@
 name: Basil Poledouris
-bio: >-
-  Composer of Conan the Barbarian and RoboCop; his four 1985 Twilight Zone scores are among the largest on the Intrada
-  set.
 roles:
 - composer
 tz_credits:
@@ -19,9 +16,21 @@ tz_credits:
   ref: 1985/song-of-the-younger-world
 relevance: core
 research_confidence: high
+last_verified: '2026-11-20'
+bio: >-
+  Basil Poledouris wrote music for the 1985 Twilight Zone during its CBS run. He was best known for his scores for
+  Conan the Barbarian, RoboCop and The Hunt for Red October, and he won an Emmy for the miniseries Lonesome Dove.
+  He died in 2006.
 sources:
 - title: Intrada – The Twilight Zone (3CD) ISC 348
   url: https://store.intrada.com/s.nl/it.A/id.10063/.f
 - title: SoundtrackCollector – Twilight Zone (1985) composers
   url: https://www.soundtrackcollector.com/title/28972/Twilight+Zone
-last_verified: '2026-11-20'
+- title: 'Wikipedia: Basil Poledouris'
+  url: https://en.wikipedia.org/wiki/Basil_Poledouris
+- title: 'Sci-Fi-Movies: The Twilight Zone (1985) credits'
+  url: https://www.scifi-movies.com/en/credits/0000456/the-twilight-zone-1985/
+born: '1945'
+died: '2006'
+categories:
+- people/composers

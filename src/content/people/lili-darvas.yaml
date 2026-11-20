@@ -1,0 +1,30 @@
+name: Lili Darvas
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Long Distance Call
+  role: actor (as Grandma Bayles)
+  ref: 1959/long-distance-call
+born: '1902-04-10'
+died: '1974-07-22'
+bio: >-
+  Lili Darvas played Grandma Bayles, the possessive grandmother who calls her grandson from beyond the grave through
+  a toy telephone, in "Long Distance Call" (1961), another of the videotaped second-season episodes. Born in Budapest,
+  she was a leading actress of the Hungarian stage and of Max Reinhardt's company in Vienna, and she was married
+  to the playwright Ferenc Molnár. After emigrating to the United States she worked on Broadway and in television,
+  and late in life she won international praise for the Hungarian film Szerelem (Love, 1971).
+relevance: core
+sources:
+- title: Lili Darvas - Wikipedia
+  url: https://en.wikipedia.org/wiki/Lili_Darvas
+- title: Long Distance Call (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Long_Distance_Call
+- title: List of The Twilight Zone (1959 TV series) guest stars - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_guest_stars
+research_confidence: high
+last_verified: '2026-11-20'
+tags:
+- 1959-series
+categories:
+- people/actors

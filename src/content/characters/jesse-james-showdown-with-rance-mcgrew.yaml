@@ -1,0 +1,21 @@
+name: Jesse James
+aka: []
+kind: human
+played_by:
+- Arch Johnson
+appears_in:
+- 1959/showdown-with-rance-mcgrew
+description: >-
+  The real outlaw, annoyed at how TV westerns show the men of the Old West. He comes to the present at the end as
+  Rance's new agent, keeping him to his promise.
+recurring: false
+relevance: core
+sources:
+- title: Showdown with Rance McGrew (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Showdown_with_Rance_McGrew
+- title: 'The Twilight Zone: Showdown with Rance McGrew - IMDb'
+  url: https://www.imdb.com/title/tt0734619/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

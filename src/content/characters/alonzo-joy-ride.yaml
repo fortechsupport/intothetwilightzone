@@ -1,0 +1,20 @@
+name: Alonzo
+kind: human
+played_by:
+- Robert Knepper
+appears_in:
+- 1985/joy-ride
+description: >-
+  The teenager who takes the wheel when four friends steal the long-stored classic car of a man who died decades
+  ago. He becomes more and more consumed by the car and its history.
+recurring: false
+relevance: core
+sources:
+- title: Joy Ride (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Joy_Ride_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

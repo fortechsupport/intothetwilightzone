@@ -1,0 +1,20 @@
+name: Carl Wilkerson
+kind: human
+played_by:
+- Jeffrey Jones
+appears_in:
+- 1985/opening-day
+description: >-
+  The husband who is the target of a murder plot on a duck-hunting trip, planned by his wife's lover. The trip does
+  not go as planned.
+recurring: false
+relevance: core
+sources:
+- title: Opening Day (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Opening_Day_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

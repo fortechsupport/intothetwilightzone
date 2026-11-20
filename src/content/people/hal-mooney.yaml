@@ -1,0 +1,20 @@
+name: Hal Mooney
+roles:
+- music supervisor
+- arranger
+tz_credits:
+- series: Night Gallery
+  work: Night Gallery
+  role: music supervisor
+  ref: films/night-gallery
+bio: >-
+  Hal Mooney was music supervisor of Night Gallery at Universal Television. He had been an arranger, conductor and
+  A&R man at Mercury Records before running music for Universal's television series.
+sources:
+- title: 'Sci-Fi-Movies: Night Gallery (1970-73) series credits'
+  url: https://www.scifi-movies.com/en/credits/0002782/night-gallery-1969/
+research_confidence: low
+relevance: related
+last_verified: '2026-11-20'
+categories:
+- people/composers

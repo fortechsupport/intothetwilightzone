@@ -1,0 +1,22 @@
+name: Paul Newman
+roles:
+- actor
+born: '1925-01-26'
+died: '2008-09-26'
+bio: >-
+  Paul Newman starred as Captain Edward Hall Jr., an Army officer court-martialed for collaborating with his captors
+  in a Korean prison camp, in The Rack (1956), MGM's film of Rod Serling's teleplay, released the same year as his
+  breakthrough in Somebody Up There Likes Me. He became one of Hollywood's biggest stars in The Hustler, Cool Hand
+  Luke and Butch Cassidy and the Sundance Kid, and won the Academy Award for The Color of Money (1986).
+relevance: related
+sources:
+- title: Paul Newman - Wikipedia
+  url: https://en.wikipedia.org/wiki/Paul_Newman
+- title: The Rack (1956 film) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Rack_(1956_film)
+research_confidence: medium
+last_verified: '2026-11-20'
+tags:
+- serling-film
+categories:
+- people/actors

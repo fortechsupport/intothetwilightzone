@@ -2,10 +2,6 @@ name: Forest Whitaker
 roles:
 - host
 - narrator
-tz_credits:
-- series: The Twilight Zone (2002)
-  work: 43 episodes
-  role: host/narrator
 born: '1961-07-15'
 bio: >-
   Forest Whitaker took on Rod Serling's role as on-screen host and narrator for all 43 episodes of the
@@ -18,3 +14,12 @@ sources:
 - title: Forest Whitaker - Wikipedia
   url: https://en.wikipedia.org/wiki/Forest_Whitaker
 last_verified: '2026-11-19'
+tz_credits:
+- series: The Twilight Zone (2002)
+  work: 43 episodes
+  role: host/narrator
+- series: The Twilight Zone (2002)
+  work: series
+  role: consulting producer
+categories:
+- people/narrators-hosts

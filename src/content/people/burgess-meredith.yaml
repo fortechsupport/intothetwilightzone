@@ -36,3 +36,19 @@ sources:
 - title: Burgess Meredith - Wikipedia
   url: https://en.wikipedia.org/wiki/Burgess_Meredith
 last_verified: '2026-11-19'
+media:
+- title: Burgess Meredith, 1907-1997
+  url: https://time.com/archive/6931114/burgess-meredith-1907-1997
+  host: Time
+  date: 1997-09
+  type: article
+  rights: link-only
+- title: Actor Burgess Meredith, Rocky's manager, dies at 89
+  url: https://www.tampabay.com/archive/1997/09/11/actor-burgess-meredith-rocky-s-manager-dies-at-89/
+  host: Tampa Bay Times
+  date: '1997-09-11'
+  type: article
+  rights: link-only
+categories:
+- people/narrators-hosts
+- people/actors

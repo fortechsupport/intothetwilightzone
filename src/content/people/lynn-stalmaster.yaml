@@ -1,0 +1,35 @@
+name: Lynn Stalmaster
+roles:
+- casting director
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: series
+  role: casting
+born: '1927'
+died: '2021'
+bio: >-
+  Lynn Stalmaster is credited as a casting director on the original Twilight Zone, early in a career that made him
+  one of the most influential casting directors in Hollywood. He went on to cast films such as West Side Story,
+  In the Heat of the Night, The Graduate, Fiddler on the Roof and Superman, and he was known for championing new
+  actors. In 2016 he became the first casting director to receive an honorary Academy Award. He died in 2021.
+sources:
+- title: 'Wikipedia: Lynn Stalmaster'
+  url: https://en.wikipedia.org/wiki/Lynn_Stalmaster
+- title: 'TVMaze: The Twilight Zone (1959) crew'
+  url: https://www.tvmaze.com/shows/787/the-twilight-zone/crew
+media:
+- title: 'Lynn Stalmaster interview, The Interviews: An Oral History of Television'
+  url: https://interviews.televisionacademy.com/interviews/lynn-stalmaster
+  host: Television Academy Foundation
+  type: interview
+  rights: link-only
+- title: Remembering Lynn Stalmaster
+  url: https://interviews.televisionacademy.com/news/remembering-lynn-stalmaster
+  host: Television Academy Foundation
+  type: article
+  rights: link-only
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/directors

@@ -1,0 +1,21 @@
+name: Abraham Lincoln
+aka: []
+kind: human
+played_by:
+- Austin Green
+appears_in:
+- 1959/the-passersby
+description: >-
+  The last of the passersby, who comes down the road at the end. He tells Lavinia that he is the last of the war's
+  dead.
+recurring: false
+relevance: core
+sources:
+- title: The Passersby (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Passersby
+- title: 'The Twilight Zone: The Passersby - IMDb'
+  url: https://www.imdb.com/title/tt0734671/
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

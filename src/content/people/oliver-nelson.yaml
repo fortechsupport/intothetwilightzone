@@ -1,17 +1,31 @@
 name: Oliver Nelson
-bio: >-
-  Jazz saxophonist and arranger (The Blues and the Abstract Truth) who became a busy Universal TV composer.
 roles:
 - composer
+relevance: related
+research_confidence: medium
+last_verified: '2026-11-20'
+bio: >-
+  Oliver Nelson wrote music for Night Gallery. A jazz saxophonist and arranger, he is best known for the album The
+  Blues and the Abstract Truth, and in the late 1960s and 1970s he scored Universal television series including
+  Ironside and The Six Million Dollar Man. He died in 1975.
 tz_credits:
 - series: Night Gallery (1969-1973)
   work: >-
     The Boy Who Predicted Earthquakes; The Hand of Borgus Weems; Green Fingers; and others (about 7 episodes)
-relevance: related
-research_confidence: medium
+- series: Night Gallery
+  work: Night Gallery
+  role: composer
+  ref: films/night-gallery
 sources:
 - title: NightGallery.net – Music
   url: https://nightgallery.net/music
 - title: Socialist Jazz – The soundtrack composers in Night Gallery
   url: https://socialistjazz.blogspot.com/2016/05/the-soundtrack-composers-in-night.html
-last_verified: '2026-11-20'
+- title: 'Wikipedia: Oliver Nelson'
+  url: https://en.wikipedia.org/wiki/Oliver_Nelson
+- title: 'Sci-Fi-Movies: Night Gallery (1970-73) series credits'
+  url: https://www.scifi-movies.com/en/credits/0002782/night-gallery-1969/
+born: '1932'
+died: '1975'
+categories:
+- people/composers

@@ -80,3 +80,22 @@ sources:
 last_verified: '2026-11-20'
 relevance: core
 research_confidence: medium
+media:
+- title: 'Jerry Goldsmith interview, The Interviews: An Oral History of Television'
+  url: https://interviews.televisionacademy.com/interviews/jerry-goldsmith
+  host: Television Academy Foundation
+  type: interview
+  rights: link-only
+- title: BMI composer Jerry Goldsmith dies
+  url: https://www.bmi.com/news/entry/20040722_bmi_composer_jerry_goldsmith_dies
+  host: BMI
+  date: '2004-07-22'
+  type: article
+  rights: link-only
+- title: Jerry Goldsmith (1929-2004)
+  url: https://www.tcm.com/articles/80741/jerry-goldsmith-1929-2004
+  host: TCM
+  type: article
+  rights: link-only
+categories:
+- people/composers

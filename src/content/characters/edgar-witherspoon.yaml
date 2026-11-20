@@ -1,0 +1,20 @@
+name: Edgar Witherspoon
+kind: human
+played_by:
+- Harry Morgan
+appears_in:
+- 1985/the-curious-case-of-edgar-witherspoon
+description: >-
+  An elderly man whose apartment is filled with a giant contraption of junk, which he insists keeps the planet from
+  tearing itself apart. The psychiatrist sent to evaluate him learns the device may be real.
+recurring: false
+relevance: core
+sources:
+- title: The Curious Case of Edgar Witherspoon (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Curious_Case_of_Edgar_Witherspoon
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

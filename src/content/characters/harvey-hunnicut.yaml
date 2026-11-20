@@ -1,0 +1,21 @@
+name: Harvey Hunnicut
+aka: []
+kind: human
+played_by:
+- Jack Carson
+appears_in:
+- 1959/the-whole-truth
+description: >-
+  A crooked used-car dealer who buys a Model A Ford that forces its owner to tell only the truth. He cannot sell
+  a single car with lies, and finally sells the Model A to an aide of the Soviet premier.
+recurring: false
+relevance: core
+sources:
+- title: The Whole Truth (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Whole_Truth_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Whole Truth - IMDb'
+  url: https://www.imdb.com/title/tt0734681/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

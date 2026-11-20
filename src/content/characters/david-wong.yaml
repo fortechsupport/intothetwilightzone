@@ -1,0 +1,20 @@
+name: David Wong
+kind: human
+played_by:
+- Brian Tochi
+appears_in:
+- 1985/wongs-lost-and-found-emporium
+description: >-
+  A bitter young man searching for something he has lost who finds a shop where lost things of every kind are kept,
+  including intangible ones like compassion. He gets a job there and learns to give rather than take.
+recurring: false
+relevance: core
+sources:
+- title: Wong's Lost and Found Emporium (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Wong%27s_Lost_and_Found_Emporium
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

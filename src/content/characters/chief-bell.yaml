@@ -1,0 +1,23 @@
+name: Chief Bell
+aka:
+- Chief Boatswain's Mate Bell
+kind: human
+played_by:
+- Mike Kellin
+appears_in:
+- 1959/the-thirty-fathom-grave
+description: >-
+  A Navy chief aboard a destroyer whose sonar picks up hammering from a submarine sunk in 1942. He was the only
+  survivor of that submarine and blames himself for the deaths of his crewmates. Their ghosts call him, and he jumps
+  overboard to join them.
+recurring: false
+relevance: core
+sources:
+- title: The Thirty-Fathom Grave (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Thirty-Fathom_Grave
+- title: 'The Twilight Zone: The Thirty-Fathom Grave - IMDb'
+  url: https://www.imdb.com/title/tt0734678/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

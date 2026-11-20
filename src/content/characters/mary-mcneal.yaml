@@ -1,0 +1,20 @@
+name: Mary McNeal
+kind: human
+played_by:
+- Barbara Stock
+appears_in:
+- 1985/memories
+description: >-
+  A therapist who uses hypnosis to take patients back to their past lives. She finds herself in a world where everyone
+  remembers all of their previous incarnations.
+recurring: false
+relevance: core
+sources:
+- title: Memories (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Memories_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

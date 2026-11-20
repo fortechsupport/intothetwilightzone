@@ -14,6 +14,7 @@ tz_credits:
   ref: 1959/mr-denton-on-doomsday
 relevance: core
 research_confidence: medium
+last_verified: '2026-11-20'
 sources:
 - title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
   url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
@@ -22,4 +23,7 @@ sources:
 - title: Cambridge Core – Wissner, 'Episode and Cue Information' appendix
   url: >-
     https://core-prod.cambridgecore.org/core/books/dimension-of-sound/episode-and-cue-information/D3509C7720B4715668F1CDF11692BA78
-last_verified: '2026-11-20'
+- title: 'TVMaze: The Twilight Zone (1959) crew'
+  url: https://www.tvmaze.com/shows/787/the-twilight-zone/crew
+categories:
+- people/composers

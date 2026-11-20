@@ -1,0 +1,30 @@
+name: Bud Westmore
+roles:
+- makeup artist
+tz_credits:
+- series: Night Gallery
+  work: Night Gallery
+  role: makeup
+  ref: films/night-gallery
+- series: Night Gallery
+  work: Night Gallery (pilot)
+  role: makeup
+  ref: films/night-gallery-pilot
+born: '1918'
+died: '1973'
+bio: >-
+  Bud Westmore headed makeup on Night Gallery and its 1969 pilot as chief of Universal's makeup department, which
+  created the series' many ghouls and monsters. A member of the Westmore makeup dynasty, he ran Universal's department
+  from 1946 to 1970, overseeing the Creature from the Black Lagoon and the makeup for Spartacus. He died in 1973.
+sources:
+- title: 'Wikipedia: Bud Westmore'
+  url: https://en.wikipedia.org/wiki/Bud_Westmore
+- title: 'Sci-Fi-Movies: Night Gallery (1970-73) series credits'
+  url: https://www.scifi-movies.com/en/credits/0002782/night-gallery-1969/
+- title: 'Sci-Fi-Movies: Night Gallery (1969 pilot) credits'
+  url: https://www.scifi-movies.com/en/credits/0000775/night-gallery-1969/
+research_confidence: medium
+relevance: related
+last_verified: '2026-11-20'
+categories:
+- people/crew

@@ -1,0 +1,30 @@
+name: Edgar Buchanan
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: The Last Rites of Jeff Myrtlebank
+  role: actor (as Doc Bolton)
+  ref: 1959/the-last-rites-of-jeff-myrtlebank
+born: '1903-03-20'
+died: '1979-04-04'
+bio: >-
+  Edgar Buchanan played Doc Bolton, the town doctor who pronounced Jeff Myrtlebank dead and cannot explain his return,
+  in "The Last Rites of Jeff Myrtlebank" (1962). Trained as a dentist before turning to acting, he became one of
+  Hollywood's most recognisable character actors in westerns such as Shane and Ride the High Country. On television
+  he played Red Connors on Hopalong Cassidy and Uncle Joe Carson on Petticoat Junction, a role he also played on
+  Green Acres and The Beverly Hillbillies.
+relevance: core
+sources:
+- title: Edgar Buchanan - Wikipedia
+  url: https://en.wikipedia.org/wiki/Edgar_Buchanan
+- title: The Last Rites of Jeff Myrtlebank (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Last_Rites_of_Jeff_Myrtlebank
+- title: List of The Twilight Zone (1959 TV series) guest stars - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_guest_stars
+research_confidence: high
+last_verified: '2026-11-20'
+tags:
+- 1959-series
+categories:
+- people/actors

@@ -1,0 +1,21 @@
+name: James Cameron
+roles:
+- director
+- writer
+born: '1954-08-16'
+bio: >-
+  James Cameron directed Terminator 2: Judgment Day (1991), whose shape-shifting T-1000, cycling through stolen
+  faces in its death throes, has been read as a nod to the Twilight Zone tradition of borrowed and changing faces.
+  He wrote and directed The Terminator, Aliens, The Abyss, Titanic and the Avatar films, and won three Academy Awards
+  for Titanic.
+relevance: tangential
+sources:
+- title: James Cameron - Wikipedia
+  url: https://en.wikipedia.org/wiki/James_Cameron
+research_confidence: high
+last_verified: '2026-11-20'
+tags:
+- homage
+categories:
+- people/directors
+- people/writers

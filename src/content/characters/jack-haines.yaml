@@ -1,0 +1,20 @@
+name: Jack Haines
+kind: human
+played_by:
+- Ben Murphy
+appears_in:
+- 1985/love-is-blind
+description: >-
+  A truck driver who plans to kill his wife and her lover. In a bar he meets a blind singer who seems to know everything
+  about him and his plan.
+recurring: false
+relevance: core
+sources:
+- title: Love is Blind (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Love_Is_Blind_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

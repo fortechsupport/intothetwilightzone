@@ -1,0 +1,25 @@
+name: David Rawlins
+roles:
+- editor
+- director
+bio: >-
+  David Rawlins directed the Night Gallery segment "The Tune in Dan's Café" (1972). He is better known as a film
+  editor, cutting Saturday Night Fever for John Badham, a fellow Night Gallery alumnus.
+relevance: related
+sources:
+- title: List of Night Gallery episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: Saturday Night Fever - Wikipedia
+  url: https://en.wikipedia.org/wiki/Saturday_Night_Fever
+research_confidence: low
+last_verified: '2026-11-20'
+tags:
+- night-gallery
+tz_credits:
+- series: Night Gallery
+  work: Night Gallery
+  role: editor
+  ref: films/night-gallery
+categories:
+- people/crew
+- people/directors

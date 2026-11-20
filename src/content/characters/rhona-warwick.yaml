@@ -1,0 +1,18 @@
+name: Rhona Warwick
+kind: human
+played_by:
+- Joanna Pettet
+appears_in:
+- films/night-gallery-s2e22
+description: The wife of Macy's host in Borneo, the object of his scheme in "The Caterpillar."
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

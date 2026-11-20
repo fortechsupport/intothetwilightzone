@@ -1,15 +1,24 @@
 name: Jim Benson
+relevance: related
+research_confidence: high
+last_verified: '2026-11-20'
 bio: >-
-  Co-author with Scott Skelton of Rod Serling's Night Gallery: An After-Hours Tour and Rod Serling's Night Gallery:
-  The Art of Darkness (2020).
+  Jim Benson co-wrote Rod Serling's Night Gallery: An After-Hours Tour (Syracuse University Press, 1999) with Scott
+  Skelton. The book gives a production history and a segment-by-segment guide to Night Gallery and its 1969 pilot
+  film. It is the standard reference on the series and draws on interviews with its writers, directors and cast.
 roles:
 - writer
 - historian
-relevance: related
-research_confidence: high
+- author
 sources:
 - title: 'SYFY Wire - ''Night Gallery: The Art of Darkness'' offers a private showing'
   url: https://www.syfy.com/syfy-wire/night-gallery-the-art-of-darkness-rod-serling-exclusive
 - title: 'Black Gate - Rod Serling''s Night Gallery: The Art of Darkness (review)'
   url: https://www.blackgate.com/?p=474382
-last_verified: '2026-11-20'
+- title: 'RodSerling.com books page (Rod Serling''s Night Gallery: An After-Hours Tour)'
+  url: https://rodserling.com/?p=2240
+- title: Night Gallery - Wikipedia
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+categories:
+- people/writers
+- people/scholars-historians

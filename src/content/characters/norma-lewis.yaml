@@ -1,0 +1,21 @@
+name: Norma Lewis
+kind: human
+played_by:
+- Mare Winningham
+appears_in:
+- 1985/button-button
+description: >-
+  A financially strapped wife who receives a box with a single button and an offer: press it and collect $200,000,
+  knowing a stranger somewhere will die. She presses it, and learns what the offer really means when the box is
+  taken away to be given to someone else.
+recurring: false
+relevance: core
+sources:
+- title: Button, Button (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Button,_Button
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

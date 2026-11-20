@@ -1,0 +1,22 @@
+name: Robby the Robot
+roles:
+- robot
+- prop
+born: '1956'
+bio: >-
+  Robby the Robot, the MGM prop built for Forbidden Planet (1956) and designed by Robert Kinoshita, appears twice
+  in the original Twilight Zone: as the robot companion left to a man in his uncle's will in "Uncle Simon" (1963),
+  and as the machine that replaces the factory owner himself in "The Brain Center at Whipple's" (1964). The costume
+  was operated by performers inside it and reused across film and television, including The Invisible Boy and Lost
+  in Space, making it one of the most recognizable props in screen science fiction.
+relevance: core
+sources:
+- title: Robby the Robot - Wikipedia
+  url: https://en.wikipedia.org/wiki/Robby_the_Robot
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+tags:
+- prop
+- non-human

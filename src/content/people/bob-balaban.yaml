@@ -1,0 +1,25 @@
+name: Bob Balaban
+roles:
+- director
+- actor
+- producer
+born: '1945-08-16'
+bio: >-
+  Bob Balaban directed two episodes of the 2002 Twilight Zone revival, "Future Trade" and "The Pharaoh's Curse."
+  His earlier directing included the cult horror comedy Parents (1989). As an actor he is known for Close Encounters
+  of the Third Kind, Midnight Cowboy, Seinfeld and the Christopher Guest ensemble comedies such as Best in Show.
+  He produced and appeared in Gosford Park, which earned him a Best Picture Academy Award nomination.
+relevance: core
+sources:
+- title: Bob Balaban - Wikipedia
+  url: https://en.wikipedia.org/wiki/Bob_Balaban
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+research_confidence: high
+last_verified: '2026-11-20'
+tags:
+- 2002-series
+categories:
+- people/directors
+- people/actors
+- people/producers

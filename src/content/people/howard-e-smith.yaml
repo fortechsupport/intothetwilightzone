@@ -1,0 +1,19 @@
+name: Howard E. Smith
+roles:
+- editor
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: Nightmare at 20,000 Feet
+  role: editor (Miller segment)
+  ref: films/twilight-zone-the-movie
+bio: >-
+  Howard E. Smith edited George Miller's Nightmare at 20,000 Feet segment of Twilight Zone: The Movie (1983), credited
+  as Howard Smith. He went on to edit Kathryn Bigelow's Near Dark and Point Break among other films.
+sources:
+- title: 'Sci-Fi-Movies: Twilight Zone: The Movie (1983) credits'
+  url: https://www.scifi-movies.com/en/credits/0001932/twilight-zone-the-movie-1983/
+research_confidence: low
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/crew

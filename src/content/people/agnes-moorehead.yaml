@@ -19,3 +19,17 @@ sources:
 - title: 'The Twilight Zone: Woman (TVmaze)'
   url: https://www.tvmaze.com/characters/363704/the-twilight-zone-woman
 last_verified: '2026-11-19'
+media:
+- title: Agnes Moorehead papers
+  url: https://wcftr.commarts.wisc.edu/index.php/collection/78ae283ef8344c6dd767fc7e1f9f27af/
+  host: Wisconsin Center for Film and Theater Research
+  type: website
+  rights: link-only
+- title: Queen Aggie
+  url: https://wcftr.commarts.wisc.edu/index.php/2013/03/06/queen-aggie
+  host: Wisconsin Center for Film and Theater Research
+  date: '2013-03-06'
+  type: article
+  rights: link-only
+categories:
+- people/actors

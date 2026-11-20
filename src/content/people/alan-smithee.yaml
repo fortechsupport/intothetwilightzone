@@ -1,0 +1,21 @@
+name: Alan Smithee
+roles:
+- director
+bio: >-
+  "Alan Smithee" is the Directors Guild pseudonym used when a director disowns a work, and it is the director credit
+  on the 1985 Twilight Zone episode "Paladin of the Lost Hour," Harlan Ellison's Hugo- winning story. Sources attribute
+  the actual direction to Gilbert Cates. The name was used on films and TV from 1969 until the Guild retired it
+  around 2000.
+relevance: core
+sources:
+- title: Alan Smithee - Wikipedia
+  url: https://en.wikipedia.org/wiki/Alan_Smithee
+- title: Paladin of the Lost Hour - Wikipedia
+  url: https://en.wikipedia.org/wiki/Paladin_of_the_Lost_Hour
+research_confidence: medium
+last_verified: '2026-11-20'
+tags:
+- 1985-series
+- pseudonym
+categories:
+- people/directors

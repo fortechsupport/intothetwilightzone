@@ -1,0 +1,21 @@
+name: The Ballerina
+aka: []
+kind: object
+played_by:
+- Susan Harrison
+appears_in:
+- 1959/five-characters-in-search-of-an-exit
+description: >-
+  A gentle dancer in the cylinder who grows fond of the Major. When he falls, she grieves, and she and the others
+  are left wondering whether they will be loved by a child.
+recurring: false
+relevance: core
+sources:
+- title: Five Characters in Search of an Exit (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Five_Characters_in_Search_of_an_Exit
+- title: 'The Twilight Zone: Five Characters in Search of an Exit - IMDb'
+  url: https://www.imdb.com/title/tt0734569/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

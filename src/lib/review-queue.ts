@@ -47,6 +47,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
   films: 'Films and other screen works',
   connections: 'Influence links',
   people: 'People',
+  characters: 'Characters',
   quotes: 'Quotes',
   locations: 'Places',
   songs: 'Songs',

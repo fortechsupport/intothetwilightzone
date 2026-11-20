@@ -1,0 +1,21 @@
+name: The Genie
+aka: []
+kind: supernatural
+played_by:
+- Joseph Ruskin
+appears_in:
+- 1959/the-man-in-the-bottle
+description: >-
+  The urbane genie released from the bottle, who warns Arthur that every wish has consequences. When Arthur breaks
+  the bottle in the final scene, the genie's laughter suggests the story may begin again.
+recurring: false
+relevance: core
+sources:
+- title: The Man in the Bottle (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Man_in_the_Bottle
+- title: 'The Twilight Zone: The Man in the Bottle - IMDb'
+  url: https://www.imdb.com/title/tt0734658/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

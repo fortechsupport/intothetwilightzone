@@ -1,15 +1,24 @@
 name: Lud Gluskin
-bio: >-
-  CBS's West Coast music director. In 1960 he was charged with finding a new main title; after commissioned candidates
-  were rejected he spliced two Marius Constant library cues together to create the familiar theme.
-roles:
-- music director
 tz_credits:
 - series: The Twilight Zone (1959-1964)
   work: Assembled the seasons 2-5 main title from Constant's 'Etrange 3' and 'Milieu 2'
 relevance: core
 research_confidence: medium
+last_verified: '2026-11-20'
+bio: >-
+  Lud Gluskin is credited as a composer on the original Twilight Zone through his role as music director for CBS
+  in Hollywood, where he commissioned and supervised the network's library of recorded music that the series drew
+  on. He had led a popular jazz dance band in Europe in the 1920s and 1930s before joining CBS. Under him the network
+  built the library of cues, by composers such as Bernard Herrmann, Jerry Goldsmith and Fred Steiner, that gave
+  many Twilight Zone episodes their sound.
+roles:
+- music director
+- composer
 sources:
 - title: ClassicThemes – The Twilight Zone theme history
   url: https://classicthemes.com/50sTVThemes/themePages/twilightZone.html
-last_verified: '2026-11-20'
+- title: 'TVMaze: The Twilight Zone (1959) crew'
+  url: https://www.tvmaze.com/shows/787/the-twilight-zone/crew
+categories:
+- people/directors
+- people/composers

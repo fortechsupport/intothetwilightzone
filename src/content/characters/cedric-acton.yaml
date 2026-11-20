@@ -1,0 +1,19 @@
+name: Cedric Acton
+kind: human
+played_by:
+- Larry Hagman
+appears_in:
+- films/night-gallery-s1e01
+description: >-
+  A man who wants to transfer his wife's spirit into the body of a kindly housekeeper, using witchcraft.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

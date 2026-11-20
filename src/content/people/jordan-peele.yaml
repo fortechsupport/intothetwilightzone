@@ -25,3 +25,26 @@ sources:
 - title: Jordan Peele - Wikipedia
   url: https://en.wikipedia.org/wiki/Jordan_Peele
 last_verified: '2026-11-19'
+media:
+- title: Roaming in the gloaming of The Twilight Zone
+  url: https://www.npr.org/2019/04/10/711758888/roaming-in-the-gloaming-of-the-twilight-zone
+  host: NPR
+  date: '2019-04-10'
+  type: article
+  rights: link-only
+- title: Fears are forever in Jordan Peele's Twilight Zone
+  url: https://www.kcur.org/2019-04-01/fears-are-forever-in-jordan-peeles-twilight-zone
+  host: KCUR / NPR
+  date: '2019-04-01'
+  type: article
+  rights: link-only
+- title: Jordan Peele reveals the Twilight Zone episode that inspired Us
+  url: >-
+    https://www.salon.com/2019/01/31/jordan-peele-reveals-the-twilight-zone-episode-that-inspired-us_partner
+  host: Salon
+  date: '2019-01-31'
+  type: article
+  rights: link-only
+categories:
+- people/producers
+- people/narrators-hosts

@@ -1,0 +1,16 @@
+name: Barbara
+kind: human
+played_by:
+- Jenna Elfman
+appears_in:
+- 2019/a-human-face
+description: Maggie's mother, who is desperate enough to welcome the alien that has taken her daughter's form.
+recurring: false
+relevance: core
+sources:
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

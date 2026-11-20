@@ -1,0 +1,20 @@
+name: Michael Finnell
+roles:
+- associate producer
+- producer
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: It's a Good Life
+  role: associate producer (Dante segment)
+  ref: films/twilight-zone-the-movie
+bio: >-
+  Michael Finnell was associate producer of Joe Dante's It's a Good Life segment of Twilight Zone: The Movie (1983).
+  He was Dante's longtime producing partner, producing The Howling, Gremlins, Innerspace and other Dante films.
+sources:
+- title: 'Sci-Fi-Movies: Twilight Zone: The Movie (1983) credits'
+  url: https://www.scifi-movies.com/en/credits/0001932/twilight-zone-the-movie-1983/
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/producers

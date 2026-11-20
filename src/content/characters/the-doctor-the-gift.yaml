@@ -1,0 +1,19 @@
+name: The Doctor
+aka: []
+kind: human
+played_by:
+- Nico Minardos
+appears_in:
+- 1959/the-gift
+description: The village doctor who wants to help Williams. He cannot stop the villagers.
+recurring: false
+relevance: core
+sources:
+- title: The Gift (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Gift_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Gift - IMDb'
+  url: https://www.imdb.com/title/tt0734642/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

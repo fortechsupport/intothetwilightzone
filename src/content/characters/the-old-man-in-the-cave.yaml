@@ -1,0 +1,20 @@
+name: The Old Man in the Cave
+aka: []
+kind: object
+played_by: []
+appears_in:
+- 1959/the-old-man-in-the-cave
+description: >-
+  The voice the survivors obey, revealed when the cave is forced open to be a computer. The townspeople smash it
+  before eating the food it had warned them against.
+recurring: false
+relevance: core
+sources:
+- title: The Old Man in the Cave (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Old_Man_in_the_Cave
+- title: 'The Twilight Zone: The Old Man in the Cave - IMDb'
+  url: https://www.imdb.com/title/tt0734669/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

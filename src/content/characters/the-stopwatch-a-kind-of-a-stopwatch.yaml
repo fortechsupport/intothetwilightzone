@@ -1,0 +1,19 @@
+name: The stopwatch
+aka: []
+kind: object
+played_by: []
+appears_in:
+- 1959/a-kind-of-a-stopwatch
+description: >-
+  A stopwatch that freezes time for everyone but its holder. When it breaks, time stays stopped forever.
+recurring: false
+relevance: core
+sources:
+- title: A Kind of a Stopwatch (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/A_Kind_of_a_Stopwatch
+- title: 'The Twilight Zone: A Kind of a Stopwatch - IMDb'
+  url: https://www.imdb.com/title/tt0734542/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

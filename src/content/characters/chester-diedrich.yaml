@@ -1,0 +1,22 @@
+name: Chester Diedrich
+aka: []
+kind: human
+played_by:
+- Fred Clark
+appears_in:
+- 1959/a-most-unusual-camera
+description: >-
+  A petty thief who steals an old camera from a curio shop and finds that it takes pictures of events five minutes
+  in the future. He and his partners use it to win at the racetrack, and they all fall to their deaths in a fight
+  over the winnings.
+recurring: false
+relevance: core
+sources:
+- title: A Most Unusual Camera (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/A_Most_Unusual_Camera
+- title: 'The Twilight Zone: A Most Unusual Camera - IMDb'
+  url: https://www.imdb.com/title/tt0734543/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

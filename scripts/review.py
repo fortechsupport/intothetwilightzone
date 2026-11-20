@@ -44,6 +44,7 @@ CATEGORY_LABELS = {
     "films": "Films and other screen works",
     "connections": "Influence links",
     "people": "People",
+    "characters": "Characters",
     "quotes": "Quotes",
     "locations": "Places",
     "songs": "Songs",

@@ -1,0 +1,21 @@
+name: Dr. Loren
+aka: []
+kind: human
+played_by:
+- John Hoyt
+appears_in:
+- 1959/the-lateness-of-the-hour
+description: >-
+  The inventor who built the robots and Jana herself, whom he and his wife love as a daughter. He gives up the robots
+  at her request, which forces her to confront what she is.
+recurring: false
+relevance: core
+sources:
+- title: The Lateness of the Hour (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Lateness_of_the_Hour_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Lateness of the Hour - IMDb'
+  url: https://www.imdb.com/title/tt0734654/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

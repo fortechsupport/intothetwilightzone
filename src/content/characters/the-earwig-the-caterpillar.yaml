@@ -1,0 +1,18 @@
+name: The Earwig
+kind: animal
+appears_in:
+- films/night-gallery-s2e22
+description: >-
+  The insect placed in Steven Macy's ear, which bores through his brain to the other side. After he survives the
+  agony, he learns that it was a female and has laid eggs.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

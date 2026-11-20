@@ -1,0 +1,22 @@
+name: Jeremy Wickwire
+aka: []
+kind: robot
+played_by:
+- Cecil Kellaway
+appears_in:
+- 1959/elegy
+description: >-
+  The kindly caretaker of Happy Glades, a cemetery on a distant asteroid where wealthy people are preserved in lifelike
+  tableaux of their happiest moments. He is a robot, and to give three stranded astronauts eternal peace he poisons
+  them and arranges them as a new display.
+recurring: false
+relevance: core
+sources:
+- title: Elegy (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Elegy_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Elegy - IMDb'
+  url: https://www.imdb.com/title/tt0734565/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

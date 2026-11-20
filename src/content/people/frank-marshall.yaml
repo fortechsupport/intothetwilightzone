@@ -1,0 +1,25 @@
+name: Frank Marshall
+roles:
+- executive producer
+- producer
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: executive producer
+  ref: films/twilight-zone-the-movie
+born: '1946'
+bio: >-
+  Frank Marshall was executive producer of Twilight Zone: The Movie (1983), the Warner Bros. anthology produced
+  by Steven Spielberg and John Landis. He was a founding partner of Amblin Entertainment with Spielberg and Kathleen
+  Kennedy, and produced Raiders of the Lost Ark, the Back to the Future films and many others. He also directed
+  films including Arachnophobia and Alive.
+sources:
+- title: 'Wikipedia: Frank Marshall (film producer)'
+  url: https://en.wikipedia.org/wiki/Frank_Marshall_(film_producer)
+- title: 'Sci-Fi-Movies: Twilight Zone: The Movie (1983) credits'
+  url: https://www.scifi-movies.com/en/credits/0001932/twilight-zone-the-movie-1983/
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/producers

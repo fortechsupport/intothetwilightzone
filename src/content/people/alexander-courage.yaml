@@ -1,0 +1,25 @@
+name: Alexander Courage
+roles:
+- orchestrator
+- composer
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: orchestrator
+  ref: films/twilight-zone-the-movie
+born: '1919'
+died: '2008'
+bio: >-
+  Alexander Courage orchestrated music for Twilight Zone: The Movie (1983), working on Jerry Goldsmith's score and
+  its treatment of the series theme. He wrote the theme for Star Trek and spent decades as one of Hollywood's leading
+  orchestrators, often for Goldsmith.
+sources:
+- title: 'Wikipedia: Alexander Courage'
+  url: https://en.wikipedia.org/wiki/Alexander_Courage
+- title: 'Sci-Fi-Movies: Twilight Zone: The Movie (1983) credits'
+  url: https://www.scifi-movies.com/en/credits/0001932/twilight-zone-the-movie-1983/
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/composers

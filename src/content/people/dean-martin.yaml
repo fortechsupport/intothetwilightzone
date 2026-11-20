@@ -1,0 +1,20 @@
+name: Dean Martin
+roles:
+- actor
+- singer
+born: '1917-06-07'
+died: '1995-12-25'
+bio: >-
+  Dean Martin co-starred in Ocean's 11 (1960), the Rat Pack heist film based on a story by future Twilight Zone
+  writer George Clayton Johnson and Jack Golden Russell. Martin rose to fame in the comedy team Martin and Lewis,
+  became one of the most popular singers of his era, and hosted NBC's The Dean Martin Show from 1965 to 1974.
+relevance: related
+sources:
+- title: Dean Martin - Wikipedia
+  url: https://en.wikipedia.org/wiki/Dean_Martin
+- title: Ocean's 11 - Wikipedia
+  url: https://en.wikipedia.org/wiki/Ocean%27s_11
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/actors

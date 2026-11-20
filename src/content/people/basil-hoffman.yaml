@@ -1,0 +1,20 @@
+name: Basil Hoffman
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: Button, Button
+  role: Mr. Steward
+  ref: 1985/button-button
+bio: >-
+  Basil Hoffman played Mr. Steward, the polite stranger who delivers the deadly button box in "Button, Button" (1986),
+  the revival's adaptation of Richard Matheson's story. A character actor with a long film and television career,
+  he appeared in Ordinary People, My Favorite Year and The Artist, along with dozens of guest roles on television.
+relevance: core
+sources:
+- title: Button, Button - Wikipedia
+  url: https://en.wikipedia.org/wiki/Button,_Button
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/actors

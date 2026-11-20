@@ -1,0 +1,20 @@
+name: Price Day
+roles:
+- author
+- journalist
+born: '1907'
+died: '1978'
+bio: >-
+  Price Day wrote the short story "Four O'Clock," which Rod Serling adapted into the 1962 episode starring Theodore
+  Bikel as a fanatic who plans to shrink every evil person to two feet tall. Day was a newspaperman with The Baltimore
+  Sun, where he won a Pulitzer Prize for international reporting in 1949 for his coverage of newly independent India.
+relevance: core
+sources:
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+- title: Twilight Zone Vortex - Four O'Clock
+  url: https://twilightzonevortex.blogspot.com/2017/07/four-oclock.html
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/writers

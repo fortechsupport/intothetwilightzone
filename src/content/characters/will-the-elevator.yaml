@@ -1,0 +1,21 @@
+name: Will
+kind: human
+played_by:
+- Stephen Geoffreys
+appears_in:
+- 1985/the-elevator
+description: >-
+  One of two brothers who break into an abandoned research building to look for their scientist father, who had
+  been experimenting with growth-boosting food. What they find in the dark shows what his experiments created. The
+  segment was written by Ray Bradbury.
+recurring: false
+relevance: core
+sources:
+- title: The Elevator (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Elevator_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

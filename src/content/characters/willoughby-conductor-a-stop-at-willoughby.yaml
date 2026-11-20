@@ -1,0 +1,21 @@
+name: Willoughby conductor
+aka: []
+kind: human
+played_by:
+- Jason Wingreen
+appears_in:
+- 1959/a-stop-at-willoughby
+description: >-
+  The friendly conductor of the old-fashioned train who calls out the stop at Willoughby and welcomes Gart to stay.
+  In reality, the stop is Gart's death.
+recurring: false
+relevance: core
+sources:
+- title: A Stop at Willoughby (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/A_Stop_at_Willoughby
+- title: 'The Twilight Zone: A Stop at Willoughby - IMDb'
+  url: https://www.imdb.com/title/tt0734550/
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

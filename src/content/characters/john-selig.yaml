@@ -1,0 +1,20 @@
+name: John Selig
+kind: human
+played_by:
+- David Naughton
+appears_in:
+- 1985/special-service
+description: >-
+  An ordinary man who finds a camera in his bathroom mirror and learns that his whole life has been broadcast as
+  a hit television show. The episode preceded The Truman Show by a decade.
+recurring: false
+relevance: core
+sources:
+- title: Special Service (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Special_Service
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

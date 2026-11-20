@@ -18,3 +18,11 @@ sources:
 - title: Cavender Is Coming - TVmaze
   url: https://tvmaze.com/episodes/69642/the-twilight-zone-3x36-cavender-is-coming
 last_verified: '2026-11-19'
+media:
+- title: 'Carol Burnett interview, The Interviews: An Oral History of Television'
+  url: https://interviews.televisionacademy.com/interviews/carol-burnett
+  host: Television Academy Foundation
+  type: interview
+  rights: link-only
+categories:
+- people/actors

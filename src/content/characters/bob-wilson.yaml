@@ -1,0 +1,22 @@
+name: Bob Wilson
+aka: []
+kind: human
+played_by:
+- William Shatner
+appears_in:
+- 1959/nightmare-at-20-000-feet
+description: >-
+  A salesman who has just come out of a sanatorium after a breakdown, flying home with his wife. In a storm he sees
+  a gremlin on the wing tearing at the engine, but no one else can see it. He takes a gun from a policeman and shoots
+  the creature, and he is taken away in a straitjacket, while the damaged wing proves he was right.
+recurring: false
+relevance: core
+sources:
+- title: Nightmare at 20,000 Feet (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+- title: 'The Twilight Zone: Nightmare at 20,000 Feet - IMDb'
+  url: https://www.imdb.com/title/tt0734600/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

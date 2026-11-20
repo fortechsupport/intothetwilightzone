@@ -1,0 +1,21 @@
+name: Commissar Vassiloff
+aka: []
+kind: human
+played_by:
+- John van Dreelen
+appears_in:
+- 1959/the-jeopardy-room
+description: >-
+  A cultured Soviet assassin who enjoys turning his killings into games and wires the bomb to the room's telephone.
+  When he enters the empty room and answers the ringing phone, he triggers his own bomb.
+recurring: false
+relevance: core
+sources:
+- title: The Jeopardy Room (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Jeopardy_Room
+- title: 'The Twilight Zone: The Jeopardy Room - IMDb'
+  url: https://www.imdb.com/title/tt0734649/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

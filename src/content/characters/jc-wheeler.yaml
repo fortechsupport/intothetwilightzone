@@ -1,0 +1,20 @@
+name: J.C. Wheeler
+kind: human
+played_by:
+- Tracy Morgan
+appears_in:
+- 2019/the-comedian
+description: >-
+  A legendary comedian who gives Samir the advice that sets the episode in motion. He seems to know exactly what
+  the advice will cost.
+recurring: false
+relevance: core
+sources:
+- title: The Comedian (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Comedian_(The_Twilight_Zone)
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

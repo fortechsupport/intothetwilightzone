@@ -1,0 +1,21 @@
+name: Justin Sanderson
+kind: human
+played_by:
+- Adam Scott
+appears_in:
+- 2019/nightmare-at-30-000-feet
+description: >-
+  An investigative journalist with PTSD who boards a flight and finds an MP3 player with a podcast about his own
+  plane's disappearance. His attempts to stop the disaster are what cause it, in the revival's update of "Nightmare
+  at 20,000 Feet."
+recurring: false
+relevance: core
+sources:
+- title: Nightmare at 30,000 Feet (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet#2019_version
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

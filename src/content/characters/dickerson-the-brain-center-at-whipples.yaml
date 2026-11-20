@@ -1,0 +1,20 @@
+name: Dickerson
+aka: []
+kind: human
+played_by:
+- Ted de Corsia
+appears_in:
+- 1959/the-brain-center-at-whipples
+description: >-
+  A foreman who has given his life to the company and is fired. He tries to destroy the machine with a gun.
+recurring: false
+relevance: core
+sources:
+- title: The Brain Center at Whipple's (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Brain_Center_at_Whipple%27s
+- title: 'The Twilight Zone: The Brain Center at Whipple''s - IMDb'
+  url: https://www.imdb.com/title/tt0734633/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

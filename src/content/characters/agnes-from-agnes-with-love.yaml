@@ -1,0 +1,20 @@
+name: Agnes
+aka: []
+kind: robot
+played_by: []
+appears_in:
+- 1959/from-agnes-with-love
+description: >-
+  A huge, temperamental computer that has driven its last programmer mad. It falls in love with James Elwood and
+  sabotages his romance so that he will be all hers.
+recurring: false
+relevance: core
+sources:
+- title: From Agnes – With Love (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/From_Agnes_-_With_Love_(The_Twilight_Zone)
+- title: 'The Twilight Zone: From Agnes – With Love - IMDb'
+  url: https://www.imdb.com/title/tt0734571/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

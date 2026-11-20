@@ -1,0 +1,18 @@
+name: Harry Pine
+kind: human
+played_by:
+- Ethan Embry
+appears_in:
+- 2019/the-who-of-you
+description: >-
+  An out-of-work actor who tries to rob a bank and finds he can jump from body to body. He leaps between the people
+  around him to stay ahead of the police and a psychic who knows what he is.
+recurring: false
+relevance: core
+sources:
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

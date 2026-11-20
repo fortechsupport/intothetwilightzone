@@ -1,0 +1,21 @@
+name: Bartlett Finchley
+aka: []
+kind: human
+played_by:
+- Richard Haydn
+appears_in:
+- 1959/a-thing-about-machines
+description: >-
+  A fussy, contemptuous writer who mistreats every machine in his house. His television, typewriter and electric
+  razor tell him to get out, and at the end his car chases him into his swimming pool, where he drowns.
+recurring: false
+relevance: core
+sources:
+- title: A Thing About Machines (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/A_Thing_About_Machines
+- title: 'The Twilight Zone: A Thing About Machines - IMDb'
+  url: https://www.imdb.com/title/tt0734551/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

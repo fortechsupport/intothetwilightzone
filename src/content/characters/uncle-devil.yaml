@@ -1,0 +1,20 @@
+name: Uncle Devil
+kind: supernatural
+played_by:
+- Murphy Dunne
+appears_in:
+- 1985/the-uncle-devil-show
+description: >-
+  The genial host of a children's television show who teaches young viewers magic tricks. He is the Devil, and one
+  boy's lesson causes chaos.
+recurring: false
+relevance: core
+sources:
+- title: The Uncle Devil Show (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Uncle_Devil_Show_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

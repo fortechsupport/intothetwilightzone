@@ -13,6 +13,7 @@ tz_credits:
   work: Second score (unnamed in the accessible text; often credited as 'Come Wander with Me')
 relevance: core
 research_confidence: high
+last_verified: '2026-11-20'
 sources:
 - title: Cambridge Core – Wissner, 'Less Frequent Used Composers' (A Dimension of Sound)
   url: >-
@@ -21,4 +22,7 @@ sources:
   url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
 - title: Filmtracks – The Twilight Zone (40th Anniversary Collection)
   url: https://www.filmtracks.com/titles/twilight_zone.html
-last_verified: '2026-11-20'
+- title: 'IMDb: The Twilight Zone (1959-1964) full credits'
+  url: https://m.imdb.com/title/tt0052520/fullcredits/cast
+categories:
+- people/composers

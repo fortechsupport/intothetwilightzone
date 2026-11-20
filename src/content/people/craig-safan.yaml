@@ -28,9 +28,15 @@ tz_credits:
   ref: 1985/teachers-aide
 relevance: core
 research_confidence: high
+last_verified: '2026-11-20'
 sources:
 - title: Intrada – The Twilight Zone (3CD) ISC 348
   url: https://store.intrada.com/s.nl/it.A/id.10063/.f
 - title: SoundtrackCollector – Twilight Zone (1985) composers
   url: https://www.soundtrackcollector.com/title/28972/Twilight+Zone
-last_verified: '2026-11-20'
+- title: 'Wikipedia: Craig Safan'
+  url: https://en.wikipedia.org/wiki/Craig_Safan
+- title: 'Sci-Fi-Movies: The Twilight Zone (1985) credits'
+  url: https://www.scifi-movies.com/en/credits/0000456/the-twilight-zone-1985/
+categories:
+- people/composers

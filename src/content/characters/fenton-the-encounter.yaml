@@ -1,0 +1,20 @@
+name: Fenton
+aka: []
+kind: human
+played_by:
+- Neville Brand
+appears_in:
+- 1959/the-encounter
+description: >-
+  A bitter, hard-drinking World War II veteran who finds an old samurai sword while clearing his attic. He took
+  it from a Japanese soldier he killed, and when a young Japanese American man comes to do yard work, old hatreds
+  and secrets come out. Both men die.
+recurring: false
+relevance: core
+sources:
+- title: 'The Twilight Zone: The Encounter - IMDb'
+  url: https://www.imdb.com/title/tt0734637/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -59,3 +59,29 @@ sources:
 - title: 'Twilight Zone: The Movie - Wikipedia'
   url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
 last_verified: '2026-11-19'
+media:
+- title: 'Richard Matheson interview, The Interviews: An Oral History of Television'
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  host: Television Academy Foundation
+  type: interview
+  rights: link-only
+- title: Remembering Richard Matheson
+  url: https://interviews.televisionacademy.com/news/remembering-richard-matheson
+  host: Television Academy Foundation
+  date: 2013-06
+  type: article
+  rights: link-only
+- title: Richard Matheson (1926-2013)
+  url: https://locusmag.com/2013/06/richard-matheson-1926-2013
+  host: Locus
+  date: 2013-06
+  type: article
+  rights: link-only
+- title: Richard Matheson, prolific writer known for Twilight Zone, Duel, much more
+  url: https://www.emmys.com/news/news/richard-matheson-prolific-writer-known-twilight-zone-duel-much-more
+  host: Television Academy
+  date: 2013-06
+  type: article
+  rights: link-only
+categories:
+- people/writers

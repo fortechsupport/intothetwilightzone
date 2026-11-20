@@ -1,0 +1,22 @@
+name: Grandma
+aka: []
+kind: robot
+played_by:
+- Josephine Hutchinson
+appears_in:
+- 1959/i-sing-the-body-electric
+description: >-
+  A robot grandmother made to care for three children who have lost their mother. She wins over the angry daughter
+  Anne by saving her from being hit by a car. When the children grow up, she goes back to the factory. The episode
+  was written by Ray Bradbury.
+recurring: false
+relevance: core
+sources:
+- title: I Sing the Body Electric (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/I_Sing_the_Body_Electric_(The_Twilight_Zone)
+- title: 'The Twilight Zone: I Sing the Body Electric - IMDb'
+  url: https://www.imdb.com/title/tt0734576/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters
