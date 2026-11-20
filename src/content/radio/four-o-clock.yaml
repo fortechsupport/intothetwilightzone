@@ -1,4 +1,4 @@
-title: Four O Clock
+title: Four O'Clock
 series_title: The Twilight Zone Radio Dramas
 season: 2
 season_order: 9
@@ -15,3 +15,8 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+adapts_episode: 1959/four-oclock
+description: 'A full-cast audio remake of “Four O''Clock” from the original 1959 series (season 3, 1962), written
+  for television by Rod Serling. Adapted for radio by Dennis Etchison, starring Stan Freberg. The story: A fanatical
+  crank keeps files on everyone he considers wicked and phones in anonymous accusations. Now he has devised a plan
+  to mark all the evil people in the world at once, and the deadline he has set is four o''clock this afternoon.'

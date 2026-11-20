@@ -5,7 +5,7 @@ publisher: Amereon Ltd
 published: '1998-01-01'
 ids:
   goodreads: '948248'
-  amazon_asin: '0891901140'
+  amazon_asin: 0891901140
 relevance: core
 tags:
 - unverified
@@ -13,3 +13,5 @@ sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 locked: true
+description: A 1998 Amereon hardcover listed under Rod Serling's name. Its contents could not be verified; it is
+  probably a reprint of one of Serling's story collections.
