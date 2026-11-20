@@ -1,0 +1,11 @@
+from: works/loki-agent-of-asgard-marvel-comics-loki-agent-of-asgard-something-on-the-wing-gag
+to: series/1959
+kind: reference
+confidence: documented
+evidence: Loki and Lorelei ride an airliner's wing, visible only to one terrified passenger holding a page titled
+  'Something on the Wing'.
+sources:
+- title: Wikipedia – Nightmare at 20,000 Feet
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+last_verified: '2026-11-20'
+locked: true

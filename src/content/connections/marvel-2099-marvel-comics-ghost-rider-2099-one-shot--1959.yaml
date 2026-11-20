@@ -1,0 +1,10 @@
+from: works/marvel-2099-marvel-comics-ghost-rider-2099-one-shot
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Zero remarks that his bargain feels like something out of the Twilight Zone.
+sources:
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
+locked: true

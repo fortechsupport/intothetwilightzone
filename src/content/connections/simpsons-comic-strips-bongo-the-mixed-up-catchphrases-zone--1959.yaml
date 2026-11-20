@@ -1,0 +1,11 @@
+from: works/simpsons-comic-strips-bongo-the-mixed-up-catchphrases-zone
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: A Simpsons comic strip framed by a Rod Serling host in which Springfield's residents swap catchphrases,
+  using the show's intro-and-twist format.
+sources:
+- title: Wikisimpsons – Twilight Zone
+  url: https://simpsonswiki.com/wiki/Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

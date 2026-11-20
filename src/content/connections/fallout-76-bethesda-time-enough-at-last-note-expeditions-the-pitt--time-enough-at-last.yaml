@@ -1,0 +1,13 @@
+from: works/fallout-76-bethesda-time-enough-at-last-note-expeditions-the-pitt
+to: 1959/time-enough-at-last
+kind: reference
+confidence: fan-noted
+summary: A hidden room in The Pitt expansion holds glasses, a gun and a note titled after the episode quoting Bemis-style
+  lines.
+sources:
+- title: Wikiwand – Time Enough at Last
+  url: https://www.wikiwand.com/en/articles/Time_Enough_at_Last
+- title: Fallout Wiki – Time enough at last
+  url: https://destructoidmod.netlify.app/host-https-fallout.fandom.com/wiki/Time_enough_at_last
+last_verified: '2026-11-20'
+locked: true

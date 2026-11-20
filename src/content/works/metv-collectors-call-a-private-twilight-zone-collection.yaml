@@ -1,0 +1,20 @@
+title: 'MeTV ''Collector''s Call'': a private Twilight Zone collection'
+kind: prop
+subtype: collection
+creator: MeTV; private collector
+description: MeTV's collectibles series Collector's Call featured a fan's Twilight Zone collection of autographs,
+  vintage toys and props, with extra material on the MeTV website. It gives a sense of what a serious private collection
+  of the show's memorabilia contains.
+details:
+  why_it_matters: It shows collecting culture around the show on television.
+  relates_to:
+  - series 1959
+categories:
+- props-collecting/props-costumes
+relevance: related
+sources:
+- title: 'MeTV - Collector''s Call Web Extras: A Twilight Zone collection'
+  url: https://metv.com/lists/collectors-call-web-extras-a-twilight-zone-collection-with-autographs-toys-and-props
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

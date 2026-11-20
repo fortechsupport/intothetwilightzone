@@ -1,0 +1,11 @@
+from: films/the-simpsons-el-viaje-misterioso-de-nuestro-jomer-the-mysterious-voyage-of-homer
+to: 1959/the-old-man-in-the-cave
+kind: reference
+confidence: fan-noted
+summary: 'Fan-noted nod in the Wikisimpsons Twilight Zone index: a revered advisor turning out to be a machine recalls the
+  computer behind the ''old man'' in the post-apocalyptic Twilight Zone episode.'
+sources:
+- title: Wikisimpsons – Twilight Zone
+  url: https://simpsonswiki.com/wiki/Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

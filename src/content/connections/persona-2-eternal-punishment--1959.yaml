@@ -1,0 +1,11 @@
+from: works/persona-2-eternal-punishment
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Detective Katsuya grumbles that events are not supposed to be like the Twilight Zone as rumors start coming
+  true.
+sources:
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
+locked: true

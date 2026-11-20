@@ -2,9 +2,15 @@ from: films/key-peele-airplane-continental
 to: 1959/nightmare-at-20-000-feet
 kind: homage
 confidence: fan-noted
-evidence: Wikipedia lists this Key & Peele sketch as a parody of the episode; no second source was found.
+evidence: 'Wikipedia lists this Key & Peele sketch as a parody of the episode; no second source was found. Checked
+  2026-11-20: Wikipedia lists the sketch, but its only citation is Comedy Central''s own upload of the sketch, in
+  which Peele''s character sees a gremlin outside the window. No review naming The Twilight Zone parody was found. The parody
+  is self-evident from the official clip; Adam could accept the primary source. Kind should be ''parody''. Jordan
+  Peele later produced the 2019 Twilight Zone revival, including ''Nightmare at 30,000 Feet''.'
 sources:
 - title: Nightmare at 20,000 Feet (Wikipedia)
   url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
-last_verified: '2026-11-19'
+- title: Key & Peele - Airplane Continental (Comedy Central, YouTube)
+  url: https://www.youtube.com/watch?v=1vkgnlwi9w8
+last_verified: '2026-11-20'
 locked: true

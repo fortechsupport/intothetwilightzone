@@ -1,0 +1,11 @@
+from: films/sesame-street-episode-5516-tz-style-movie-parody
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: Tamir plays a Serling-like host introducing a Twilight Zone-flavoured tale starring Baby Bear as a bear who won't
+  share.
+sources:
+- title: Muppet Wiki – The Twilight Zone
+  url: https://muppet.fandom.com/wiki/The_Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

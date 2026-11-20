@@ -1,0 +1,11 @@
+from: films/svengoolie-zoned-out-back-in-the-zone
+to: series/1959
+kind: homage
+confidence: fan-noted
+summary: Two horror-host broadcasts themed around the show, one built on a Twilight Zone-related film and one presenting Twilight Zone
+  episodes with Svengoolie's comic wraparounds.
+sources:
+- title: Twilight Zone Wiki – Television series with references to The Twilight Zone
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

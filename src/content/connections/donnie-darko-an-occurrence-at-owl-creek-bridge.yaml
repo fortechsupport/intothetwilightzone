@@ -3,10 +3,14 @@ to: 1959/an-occurrence-at-owl-creek-bridge
 kind: inspired-by
 confidence: fan-noted
 summary: Donnie Darko is listed in Adam's research as inspired by "An Occurrence at Owl Creek Bridge".
-evidence: No source found tying it to the TZ episode specifically; the link rests on the idea of a whole story happening
-  in the moment before death.
+evidence: 'No source found tying it to The Twilight Zone episode specifically; the link rests on the idea of a whole story
+  happening in the moment before death. Checked 2026-11-20: Accounts of the film''s influences (Dazed''s six inspirations
+  piece) name local memories, school reading lists, Gilliam and Weir; none mention Owl Creek Bridge or Twilight Zone. Even
+  if Bierce''s story is relevant, Twilight Zone only aired the French short film, so the link to The Twilight Zone episode is doubly indirect.'
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-last_verified: '2026-11-19'
+- title: Six unexpected inspirations behind cult classic Donnie Darko (Dazed)
+  url: https://www.dazeddigital.com/artsandculture/article/34077/1/six-unexpected-inspirations-behind-cult-classic-donnie-darko
+last_verified: '2026-11-20'
 locked: true

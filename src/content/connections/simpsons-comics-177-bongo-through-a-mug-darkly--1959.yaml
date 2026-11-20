@@ -1,0 +1,10 @@
+from: works/simpsons-comics-177-bongo-through-a-mug-darkly
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Homer wonders whether Barney becoming mayor means Springfield has slipped into the Twilight Zone.
+sources:
+- title: Wikisimpsons – Twilight Zone
+  url: https://simpsonswiki.com/wiki/Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

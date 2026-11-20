@@ -1,0 +1,11 @@
+from: works/imaginary-worlds-podcast-rod-serlings-key-of-imagination
+to: series/1959
+kind: homage
+confidence: documented
+evidence: An episode of Eric Molinsky's sci-fi culture podcast exploring Serling's legacy and the imaginative 'key'
+  framing of The Twilight Zone.
+sources:
+- title: Imaginary Worlds – Rod Serling's Key of Imagination (transcript PDF)
+  url: https://www.imaginaryworldspodcast.org/s/Rod-Serlings-Key-of-Imagination-transcript.pdf
+last_verified: '2026-11-20'
+locked: true

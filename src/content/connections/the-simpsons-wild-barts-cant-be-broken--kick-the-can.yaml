@@ -1,0 +1,11 @@
+from: films/the-simpsons-wild-barts-cant-be-broken
+to: 1959/kick-the-can
+kind: reference
+confidence: fan-noted
+summary: The closing image of Springfield's elderly frolicking in the street like children echoes the rest-home
+  residents who regain youth through a game of kick the can.
+sources:
+- title: Wikisimpsons – Twilight Zone
+  url: https://simpsonswiki.com/wiki/Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

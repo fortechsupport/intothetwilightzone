@@ -3,10 +3,12 @@ to: 1959/number-12-looks-just-like-you
 kind: inspired-by
 confidence: fan-noted
 summary: The Stepford Wives is listed in Adam's research as inspired by "Number 12 Looks Just Like You".
-evidence: No reliable source found; both satirise forced conformity through artificial perfection. The film is credited
-  to Ira Levin's novel.
+evidence: 'No reliable source found; both satirise forced conformity through artificial perfection. The film is
+  credited to Ira Levin''s novel. Checked 2026-11-20: No source found. Wikipedia''s article on the episode lists
+  no Stepford connection, and the film is credited to Ira Levin''s 1972 novel. Consider dropping ''inspired-by'',
+  or recasting it as a thematic comparison.'
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-last_verified: '2026-11-19'
+last_verified: '2026-11-20'
 locked: true

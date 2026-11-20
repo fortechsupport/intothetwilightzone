@@ -1,0 +1,30 @@
+title: The six videotaped episodes of season 2
+kind: production
+subtype: videotape experiment
+year: '1960'
+creator: CBS; Rod Serling; Buck Houghton
+description: 'To cut costs in the second season, six episodes were recorded on videotape on a studio stage with
+  four cameras, cut together like a live broadcast: ''The Lateness of the Hour'', ''The Night of the Meek'', ''The
+  Whole Truth'', ''Twenty Two'', ''Static'' and ''Long Distance Call''. They saved only about $6,000 each and made
+  location work almost impossible, so the experiment was not repeated. Serling called the result neither fish nor
+  fowl, and kinescope copies were later used in syndication.'
+details:
+  why_it_matters: These are the only episodes of the series made with a different production method.
+  relates_to:
+  - The Lateness of the Hour
+  - The Night of the Meek
+  - The Whole Truth
+  - Twenty Two
+  - Static
+  - Long Distance Call
+categories:
+- events/production-history
+relevance: core
+sources:
+- title: Wikipedia - The Twilight Zone (1959 TV series)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+- title: Slashfilm - The Twilight Zone's 'Disastrous' Videotape Episodes
+  url: https://www.slashfilm.com/1470469/the-twilight-zone-lawsuits-static-long-distance-call
+research_confidence: high
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,15 @@
+from: films/muppet-babies-1984-the-weirdo-zone
+to: series/1959
+kind: parody
+confidence: documented
+evidence: Baby Gonzo hosts as a Serling stand-in in an extended spoof that uses the show's reversed-norms twist
+  to make the babies the 'weird' ones.
+sources:
+- title: Muppet Wiki – The Twilight Zone
+  url: https://muppet.fandom.com/wiki/The_Twilight_Zone
+- title: TVmaze – Muppet Babies 3x03 The Weirdo Zone
+  url: https://www.tvmaze.com/episodes/333648/muppet-babies-3x03-the-weirdo-zone/gallery
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
+locked: true

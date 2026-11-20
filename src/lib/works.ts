@@ -13,6 +13,13 @@ export const WORK_KINDS: [string, string, string][] = [
   ['education', 'In the classroom', 'Teleplays in school anthologies, lesson plans and courses.'],
   ['fan-community', 'Fan communities', 'Fan art hubs, forums, wikis and subreddits.'],
   ['link', 'Links and resources', 'Curated external resources about the show and its makers.'],
+  ['lecture', 'Lectures', 'Talks, lectures and panels.'],
+  ['advertisement', 'Advertising', 'Commercials, promos, sponsors and print ads.'],
+  ['home-media', 'Home video and streaming', 'Releases of the series and films.'],
+  ['legal', 'Legal history', 'Trials, lawsuits, rights and censorship.'],
+  ['cultural-impact', 'Cultural impact', 'Catchphrases and the show in everyday language.'],
+  ['prop', 'Props', 'Surviving props, costumes and replicas.'],
+  ['production', 'Production history', 'How the series were made and broadcast.'],
   ['other', 'Other', 'Everything else.'],
 ];
 

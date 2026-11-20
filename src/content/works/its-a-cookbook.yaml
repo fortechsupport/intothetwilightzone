@@ -1,0 +1,24 @@
+title: '''It''s a cookbook!'''
+kind: cultural-impact
+subtype: catchphrase
+year: '1962-03-02'
+creator: Damon Knight (story); Rod Serling (teleplay); Lloyd Bochner
+description: The twist line of 'To Serve Man', adapted from Damon Knight's short story, has become shorthand for
+  an offer that seems kind but hides a trap. The Simpsons parodied it in a Treehouse of Horror segment, where Lisa's
+  discovery of the aliens' book 'How to Cook Humans' turns out to be a misreading, and the line is endlessly quoted
+  and spoofed.
+details:
+  why_it_matters: It is the series' most quoted twist line.
+  relates_to:
+  - To Serve Man
+categories:
+- cultural-impact/catchphrases
+relevance: core
+sources:
+- title: Simpsons Wiki - To Serve Man
+  url: https://simpsonswiki.com/wiki/To_Serve_Man
+- title: 'Westport Tech Museum - March 2, 1962: To Serve Man premiered'
+  url: https://www.westporttechmuseum.com/blogs/techtastic/today-in-television-history-march-2nd-1962-the-iconic-twilight-zone-episode-to-serve-man-premiered-on-television
+research_confidence: high
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,11 @@
+from: films/the-simpsons-them-robot
+to: 1959/i-sing-the-body-electric
+kind: reference
+confidence: fan-noted
+summary: A robot who sacrifices itself to protect Homer recalls the self-sacrificing robot grandmother of the Bradbury-scripted
+  Twilight Zone episode.
+sources:
+- title: Wikisimpsons – Twilight Zone
+  url: https://simpsonswiki.com/wiki/Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,13 @@
+from: films/angel-peace-out
+to: 1959/to-serve-man
+kind: reference
+confidence: fan-noted
+summary: Gunn sums up the benevolent goddess Jasmine's scheme by likening it to the alien 'cookbook' twist of 'To
+  Serve Man'.
+sources:
+- title: 'TV Tropes – Referenced By: The Twilight Zone (1959)'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
+locked: true

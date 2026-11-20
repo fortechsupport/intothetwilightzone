@@ -1,0 +1,26 @@
+title: Serling's Mazda rotary-engine commercials
+kind: advertisement
+subtype: commercial
+year: '1972'
+creator: Rod Serling; Mazda
+description: In the 1970s Serling promoted Mazda's rotary-engine cars. He used the same calm, slightly ominous delivery
+  he had used as host of The Twilight Zone.
+details:
+  why_it_matters: These spots show Serling's host persona being turned into an advertising asset.
+  relates_to:
+  - Rod Serling
+categories:
+- advertising/commercials
+relevance: related
+media:
+- type: video
+  title: Mazda rotary ad
+  url: https://www.youtube.com/watch?v=uprL1ffVPQk
+  host: YouTube
+  rights: link-only
+sources:
+- title: Open Culture - When Rod Serling Turned TV Pitchman
+  url: https://www.openculture.com/2022/03/when-rod-serling-turned-tv-pitchman-see-his-post-twilight-zone-ads-for-ford-mazda-gulf-oil-smokey-bear.html
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

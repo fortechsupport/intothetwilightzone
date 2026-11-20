@@ -3,9 +3,12 @@ to: 1959/five-characters-in-search-of-an-exit
 kind: inspired-by
 confidence: fan-noted
 summary: Toy Story is listed in Adam's research as inspired by "Five Characters in Search of an Exit".
-evidence: No source found. The connection is loose (toys as living characters), and Pixar has pointed to other inspirations.
+evidence: 'No source found. The connection is loose (toys as living characters), and Pixar has pointed to other
+  inspirations. Research note (2026-11-20): No source found, and Pixar''s documented origins (the Tin Toy short
+  and Lasseter''s own toys) don''t involve Twilight Zone.'
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-last_verified: '2026-11-19'
+last_verified: '2026-11-20'
 locked: true
+research_confidence: low
