@@ -53,7 +53,7 @@ const jsonld = {
           {az.map((e, i) => (
             <tr id={i === 0 || letterOf(az[i - 1].data.title) !== letterOf(e.data.title) ? `az-${letterOf(e.data.title)}` : undefined}>
               <td><a href={`/episodes/${e.id}/`}>{e.data.title}</a></td>
-              <td>S{e.data.season} E{episodeNumber(e.data)}</td>
+              <td>{episodeNumber(e.data)}</td>
               <td>{formatDate(e.data.air_date)}</td>
               <td>{e.data.writers.join(', ')}</td>
             </tr>

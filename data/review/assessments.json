@@ -14603,6 +14603,18 @@
   "subcategory": "Television series",
   "sort": "robot chicken"
  },
+ "films/rod-serling-beyond-the-twilight-zone": {
+  "connection": "A Twilight Zone production in its own right. An episode of E!'s celebrity biography series E! True Hollywood Story devoted to Rod Serling's life and career, from live television through The Twilight Zone, Night Gallery and his death in 1975.",
+  "tier": "core",
+  "tier_reason": "An official or documentary Twilight Zone production.",
+  "recommendation": "include",
+  "reason": "Part of the franchise's own screen history.",
+  "source_title": "IMDb - Rod Serling: Beyond the Twilight Zone",
+  "source_url": "https://www.imdb.com/title/tt1331568",
+  "title": "Rod Serling: Beyond the Twilight Zone",
+  "subcategory": "Twilight Zone productions",
+  "sort": "rod serling beyond the twilight zone"
+ },
  "films/rod-serling-submitted-for-your-approval": {
   "connection": "Rod Serling's work beyond The Twilight Zone: An American Masters portrait on PBS of Rod Serling, following him from his early live-television dramas through The Twilight Zone and his later struggles with the industry.",
   "tier": "related",
@@ -14806,6 +14818,18 @@
   "title": "The Van Buren Boys",
   "subcategory": "Episodes of other shows",
   "sort": "van buren boys"
+ },
+ "films/serling-2026": {
+  "connection": "A feature documentary about Rod Serling told almost entirely in his own voice, built from recordings and personal dictations that had not been heard publicly before, with black-and-white recreations styled after The Twilight Zone.",
+  "tier": "core",
+  "tier_reason": "Part of The Twilight Zone itself, or wholly about it.",
+  "recommendation": "include",
+  "reason": "Core screen work: a complete record of the franchise should have it.",
+  "source_title": "Labocine - Serling (2026)",
+  "source_url": "https://www.labocine.com/films/serling",
+  "title": "Serling",
+  "subcategory": "Documentaries",
+  "sort": "serling"
  },
  "films/seven-days-in-may": {
   "connection": "Rod Serling's work beyond The Twilight Zone: Serling's adaptation of the Fletcher Knebel and Charles W. Bailey II novel about a planned military coup against a U.S. president who signs a nuclear disarmament treaty.",
@@ -15250,6 +15274,18 @@
   "title": "The Director",
   "subcategory": "Rod Serling's other screen work",
   "sort": "director"
+ },
+ "films/the-doll-matheson-unmade-tz": {
+  "connection": "A Richard Matheson teleplay written for the fifth season of the original series and shelved by producer William Froug.",
+  "tier": "core",
+  "tier_reason": "Part of The Twilight Zone itself, or wholly about it.",
+  "recommendation": "include",
+  "reason": "Core screen work: a complete record of the franchise should have it.",
+  "source_title": "Wikipedia - The Twilight Zone (1959 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone",
+  "title": "The Doll (unmade Twilight Zone script)",
+  "subcategory": "Unproduced scripts",
+  "sort": "doll unmade twilight zone script"
  },
  "films/the-doomsday-flight": {
   "connection": "Rod Serling's work beyond The Twilight Zone: An NBC thriller about a bomber who hides an altitude-triggered bomb on an airliner and calls in ransom demands.",
@@ -16080,7 +16116,7 @@
   "sort": "truman show"
  },
  "films/the-twilight-zone-60th-remembering-rod-serling": {
-  "connection": "A Twilight Zone production in its own right. A short retrospective documentary made for the series' 60th anniversary, looking at Rod Serling's life and the experiences that shaped his storytelling.",
+  "connection": "A Twilight Zone production in its own right. A short retrospective documentary made for the series' 60th anniversary about Rod Serling's life, from his Syracuse childhood and World War II service to his use of science fiction to take on race, paranoia and bigotry.",
   "tier": "core",
   "tier_reason": "An official or documentary Twilight Zone production.",
   "recommendation": "include",
@@ -16367,6 +16403,18 @@
   "subcategory": "Television films",
   "sort": "trilogy of terror"
  },
+ "films/twilight-zone-cbs-revival-2012": {
+  "connection": "A fourth television version announced on December 19, 2012, with Bryan Singer signed by CBS Television Studios to develop and executive produce it and possibly direct the pilot.",
+  "tier": "core",
+  "tier_reason": "Part of The Twilight Zone itself, or wholly about it.",
+  "recommendation": "include",
+  "reason": "Core screen work: a complete record of the franchise should have it.",
+  "source_title": "/Film: Bryan Singer producing new Twilight Zone series for CBS Studios (2012-12-19)",
+  "source_url": "https://www.slashfilm.com/bryan-singer-producing-new-twilight-zone-series-for-cbs-studios",
+  "title": "The Twilight Zone (Bryan Singer revival, CBS Television Studios, 2012)",
+  "subcategory": "Unproduced scripts",
+  "sort": "twilight zone bryan singer revival cbs television studios 002012"
+ },
  "films/twilight-zone-golden-earring": {
   "connection": "Dick Maas's video for Golden Earring's hit borrows the series' name for its title; included here for curation, as the song's link to the show is in name only.",
   "tier": "tangential",
@@ -16631,6 +16679,18 @@
   "subcategory": "Feature films",
   "sort": "what women want"
  },
+ "films/witches-warlocks-and-werewolves-abc-proposal": {
+  "connection": "Rod Serling's work beyond The Twilight Zone: A horror anthology ABC offered Rod Serling as The Twilight Zone ended in 1964.",
+  "tier": "related",
+  "tier_reason": "Serling's wider career is within the site's scope.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "Wikipedia - The Twilight Zone (1959 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone",
+  "title": "Witches, Warlocks and Werewolves (proposed ABC series, 1964)",
+  "subcategory": "Rod Serling's other screen work",
+  "sort": "witches warlocks and werewolves proposed abc series 001964"
+ },
  "films/x-men-evolution-middleverse": {
   "connection": "Stranded in a strange alternate dimension, Nightcrawler names the Twilight Zone to describe their predicament.",
   "tier": "tangential",
@@ -16787,6 +16847,18 @@
   "subcategory": "Museums and exhibits",
   "sort": "rod serling archive bundy museum of history and art"
  },
+ "locations/busy-bee-cafe-ridgeview-ohio": {
+  "connection": "Setting of Richard Matheson's \"Nick of Time.\"",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Nick of Time (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Nick_of_Time_(The_Twilight_Zone)",
+  "title": "Busy Bee Cafe, Ridgeview, Ohio",
+  "subcategory": "In-story places",
+  "sort": "busy bee cafe ridgeview ohio"
+ },
  "locations/camp-toccoa-currahee": {
   "connection": "Serling began his Army service in 1943 with paratrooper training at Camp Toccoa, the famed airborne camp below Currahee Mountain, before serving with the 511th Parachute Infantry Regiment in the Pacific.",
   "tier": "related",
@@ -16823,6 +16895,18 @@
   "subcategory": "Filming locations",
   "sort": "carlson park neighborhood culver city"
  },
+ "locations/castle-of-the-brothers-of-truth": {
+  "connection": "Setting of Charles Beaumont's \"The Howling Man.\"",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: The Howling Man",
+  "source_url": "https://en.wikipedia.org/wiki/The_Howling_Man",
+  "title": "The castle of the Brothers of Truth",
+  "subcategory": "In-story places",
+  "sort": "castle of the brothers of truth"
+ },
  "locations/cbs-television-city": {
   "connection": "CBS Television City (Los Angeles, California) was used for “The Lateness of the Hour” (1959), “Static” (1959), “The Whole Truth” (1959) and others.",
   "tier": "core",
@@ -16846,6 +16930,54 @@
   "title": "Cecil Green Park House, University of British Columbia",
   "subcategory": "Filming locations",
   "sort": "cecil green park house university of british columbia"
+ },
+ "locations/centerville-stopover": {
+  "connection": "Setting of a fifth-season episode with a famous final reveal.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Stopover in a Quiet Town",
+  "source_url": "https://en.wikipedia.org/wiki/Stopover_in_a_Quiet_Town",
+  "title": "Centerville (the toy town)",
+  "subcategory": "In-story places",
+  "sort": "centerville the toy town"
+ },
+ "locations/cliffordville-indiana": {
+  "connection": "Setting of a fourth-season Serling script.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Of Late I Think of Cliffordville",
+  "source_url": "https://en.wikipedia.org/wiki/Of_Late_I_Think_of_Cliffordville",
+  "title": "Cliffordville, Indiana",
+  "subcategory": "In-story places",
+  "sort": "cliffordville indiana"
+ },
+ "locations/corrys-asteroid": {
+  "connection": "Setting of a first-season Serling episode; links to the Death Valley filming record.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: The Lonely",
+  "source_url": "https://en.wikipedia.org/wiki/The_Lonely",
+  "title": "Corry's asteroid (\"The Lonely\")",
+  "subcategory": "In-story places",
+  "sort": "corrys asteroid the lonely"
+ },
+ "locations/dachau-deaths-head-revisited": {
+  "connection": "A real historic site that Serling used to argue for remembrance.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Deaths-Head Revisited",
+  "source_url": "https://en.wikipedia.org/wiki/Deaths-Head_Revisited",
+  "title": "Dachau (\"Deaths-Head Revisited\")",
+  "subcategory": "In-story places",
+  "sort": "dachau deathshead revisited"
  },
  "locations/death-valley-national-park": {
   "connection": "Death Valley National Park (Death Valley, California) was used for “The Lonely” (1959) and “I Shot an Arrow into the Air” (1959).",
@@ -16883,6 +17015,18 @@
   "subcategory": "Filming locations",
   "sort": "downtown victoria british columbia"
  },
+ "locations/elmira-college": {
+  "connection": "Venue of one of Serling's last recorded lectures.",
+  "tier": "related",
+  "tier_reason": "A place tied to Rod Serling's life, lectures or legacy.",
+  "recommendation": "include",
+  "reason": "Gives the 1975 lecture a place on the map; small, sourced and specific.",
+  "source_title": "Pacifica Radio Archives SZ0066",
+  "source_url": "https://pacificaradioarchives.org/node/8692",
+  "title": "Elmira College",
+  "subcategory": "Lecture and event venues",
+  "sort": "elmira college"
+ },
  "locations/fairmont-empress-victoria-downtime": {
   "connection": "Fairmont Empress and Government Street, Victoria (Victoria, British Columbia) was used for “Downtime” (2019).",
   "tier": "core",
@@ -16894,6 +17038,18 @@
   "title": "Fairmont Empress and Government Street, Victoria",
   "subcategory": "Filming locations",
   "sort": "fairmont empress and government street victoria"
+ },
+ "locations/fords-theatre-back-there": {
+  "connection": "A real historic place as Serling imagined it in an episode.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Back There",
+  "source_url": "https://en.wikipedia.org/wiki/Back_There",
+  "title": "Ford's Theatre, April 14, 1865 (\"Back There\")",
+  "subcategory": "In-story places",
+  "sort": "fords theatre april 000014 001865 back there"
  },
  "locations/former-culver-city-library-person-or-persons-unknown": {
   "connection": "Former Culver City Library (Gurney's Bank) (Culver City, California) was used for “Person or Persons Unknown” (1959).",
@@ -16907,6 +17063,18 @@
   "subcategory": "Filming locations",
   "sort": "former culver city library gurneys bank"
  },
+ "locations/foster-mansion-new-orleans": {
+  "connection": "Setting of a fifth-season Serling episode.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: The Masks",
+  "source_url": "https://en.wikipedia.org/wiki/The_Masks",
+  "title": "The Foster mansion, New Orleans (\"The Masks\")",
+  "subcategory": "In-story places",
+  "sort": "foster mansion new orleans the masks"
+ },
  "locations/gastown-vancouver-the-who-of-you": {
   "connection": "Gastown, Vancouver (Vancouver, British Columbia) was used for “The Who of You” (2019).",
   "tier": "core",
@@ -16919,6 +17087,18 @@
   "subcategory": "Filming locations",
   "sort": "gastown vancouver"
  },
+ "locations/global-airlines-flight-33": {
+  "connection": "Setting of a second-season Serling episode.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: The Odyssey of Flight 33",
+  "source_url": "https://en.wikipedia.org/wiki/The_Odyssey_of_Flight_33",
+  "title": "Global Airlines Flight 33",
+  "subcategory": "In-story places",
+  "sort": "global airlines flight 000033"
+ },
  "locations/halfway-house-cafe-santa-clarita": {
   "connection": "Halfway House Cafe (Santa Clarita, California) was used for Twilight Zone: The Movie.",
   "tier": "core",
@@ -16930,6 +17110,66 @@
   "title": "Halfway House Cafe",
   "subcategory": "Filming locations",
   "sort": "halfway house cafe"
+ },
+ "locations/happiness-arizona": {
+  "connection": "Setting of a fifth-season western comedy episode.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Mr. Garrity and the Graves",
+  "source_url": "https://en.wikipedia.org/wiki/Mr._Garrity_and_the_Graves",
+  "title": "Happiness, Arizona",
+  "subcategory": "In-story places",
+  "sort": "happiness arizona"
+ },
+ "locations/happy-glades": {
+  "connection": "Setting of a first-season Charles Beaumont episode.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Elegy (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Elegy_(The_Twilight_Zone)",
+  "title": "Happy Glades",
+  "subcategory": "In-story places",
+  "sort": "happy glades"
+ },
+ "locations/hi-way-cafe": {
+  "connection": "Setting of a classic Serling whodunit episode.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Will the Real Martian Please Stand Up?",
+  "source_url": "https://en.wikipedia.org/wiki/Will_the_Real_Martian_Please_Stand_Up%3F",
+  "title": "Hi-Way Café",
+  "subcategory": "In-story places",
+  "sort": "hiway caf"
+ },
+ "locations/hollywood-tower-hotel": {
+  "connection": "The fictional hotel behind the franchise's theme-park attractions.",
+  "tier": "related",
+  "tier_reason": "A setting inside a related Serling or franchise story.",
+  "recommendation": "include",
+  "reason": "Ties the in-story places to the ride records under Places > Real life; fans know it as a TZ setting.",
+  "source_title": "Wikipedia: The Twilight Zone Tower of Terror",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_Tower_of_Terror",
+  "title": "The Hollywood Tower Hotel",
+  "subcategory": "In-story places",
+  "sort": "hollywood tower hotel"
+ },
+ "locations/homewood": {
+  "connection": "Martin Sloan's hometown, a stand-in for Serling's own Binghamton.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Walking Distance",
+  "source_url": "https://en.wikipedia.org/wiki/Walking_Distance",
+  "title": "Homewood",
+  "subcategory": "In-story places",
+  "sort": "homewood"
  },
  "locations/indian-dunes-twilight-zone-accident-site": {
   "connection": "Indian Dunes (site of the Twilight Zone accident) (Santa Clarita (Valencia), California) was used for Twilight Zone: The Movie.",
@@ -16954,6 +17194,42 @@
   "title": "Rod Serling Archives, Ithaca College Library",
   "subcategory": "Archives",
   "sort": "rod serling archives ithaca college library"
+ },
+ "locations/leyte-philippines-serling-wwii": {
+  "connection": "Where the war experiences behind many Serling scripts took place.",
+  "tier": "related",
+  "tier_reason": "A place tied to Rod Serling's life, lectures or legacy.",
+  "recommendation": "include",
+  "reason": "Explains the source of a recurring theme; pairs with the Camp Toccoa record.",
+  "source_title": "National WWII Museum: Rod Serling and The Twilight Zone",
+  "source_url": "https://www.nationalww2museum.org/war/articles/rod-serling-twilight",
+  "title": "Leyte, Philippines (Serling's war)",
+  "subcategory": "Rod Serling's places",
+  "sort": "leyte philippines serlings war"
+ },
+ "locations/maple-street": {
+  "connection": "Setting of the most-taught Twilight Zone episode and its 2002-series remake.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: The Monsters Are Due on Maple Street",
+  "source_url": "https://en.wikipedia.org/wiki/The_Monsters_Are_Due_on_Maple_Street",
+  "title": "Maple Street",
+  "subcategory": "In-story places",
+  "sort": "maple street"
+ },
+ "locations/mars-zoo-people-are-alike": {
+  "connection": "Setting of a first-season episode adapted from Paul W. Fairman.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: People Are Alike All Over",
+  "source_url": "https://en.wikipedia.org/wiki/People_Are_Alike_All_Over",
+  "title": "The Martian zoo (\"People Are Alike All Over\")",
+  "subcategory": "In-story places",
+  "sort": "martian zoo people are alike all over"
  },
  "locations/mgm-lot-1-culver-city-stages": {
   "connection": "MGM Studios Lot 1 (now Sony Pictures Studios) (Culver City, California) was used for “The Lonely” (1959) and “Person or Persons Unknown” (1959).",
@@ -17027,6 +17303,30 @@
   "subcategory": "Other places",
   "sort": "mirabito stadium binghamton creatures nights"
  },
+ "locations/moorpark-college": {
+  "connection": "Venue of Serling's 1968 loyalty-oath speech.",
+  "tier": "related",
+  "tier_reason": "A place tied to Rod Serling's life, lectures or legacy.",
+  "recommendation": "include",
+  "reason": "A vivid, documented moment of Serling's public life.",
+  "source_title": "Rod Serling Rips Loyalty Oaths, the Vietnam War, and Social Inequity (Rod Serling Memorial Foundation)",
+  "source_url": "https://rodserling.com/rod-serling-rips-loyalty-oaths-the-vietnam-war-and-social-inequity/",
+  "title": "Moorpark College",
+  "subcategory": "Lecture and event venues",
+  "sort": "moorpark college"
+ },
+ "locations/night-gallery-the-gallery": {
+  "connection": "Serling's framing setting for Night Gallery.",
+  "tier": "related",
+  "tier_reason": "A setting inside a related Serling or franchise story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Night Gallery",
+  "source_url": "https://en.wikipedia.org/wiki/Night_Gallery",
+  "title": "The Night Gallery",
+  "subcategory": "In-story places",
+  "sort": "night gallery"
+ },
  "locations/olancha-dunes-hundred-yards-over-the-rim": {
   "connection": "Olancha and the Olancha Sand Dunes (Olancha, California) was used for “A Hundred Yards Over the Rim” (1959).",
   "tier": "core",
@@ -17050,6 +17350,42 @@
   "title": "Old Culver City Hall and police station",
   "subcategory": "Filming locations",
   "sort": "old culver city hall and police station"
+ },
+ "locations/pacific-ocean-park-santa-monica": {
+  "connection": "Filming location for a fifth-season episode.",
+  "tier": "core",
+  "tier_reason": "A place where the show itself was made or is celebrated.",
+  "recommendation": "include",
+  "reason": "A documented filming location; lost places like this are a highlight of a locations section.",
+  "source_title": "Wikipedia: In Praise of Pip",
+  "source_url": "https://en.wikipedia.org/wiki/In_Praise_of_Pip",
+  "title": "Pacific Ocean Park, Santa Monica",
+  "subcategory": "Filming locations",
+  "sort": "pacific ocean park santa monica"
+ },
+ "locations/peaceful-valley-new-mexico": {
+  "connection": "Setting of a fourth-season hour episode.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Valley of the Shadow (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Valley_of_the_Shadow_(The_Twilight_Zone)",
+  "title": "Peaceful Valley, New Mexico",
+  "subcategory": "In-story places",
+  "sort": "peaceful valley new mexico"
+ },
+ "locations/peaksville-ohio": {
+  "connection": "Setting of one of the most famous episodes and its official sequel.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: It's a Good Life (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/It%27s_a_Good_Life_(The_Twilight_Zone)",
+  "title": "Peaksville, Ohio",
+  "subcategory": "In-story places",
+  "sort": "peaksville ohio"
  },
  "locations/piru-kick-the-can-1983": {
   "connection": "Piru (Sunnyvale Rest Home) (Piru, California) was used for Twilight Zone: The Movie.",
@@ -17086,6 +17422,18 @@
   "title": "George F. Johnson Recreation Park Carousel",
   "subcategory": "Rod Serling's places",
   "sort": "george f johnson recreation park carousel"
+ },
+ "locations/rock-spring-school": {
+  "connection": "Setting of a third-season Serling Christmas episode.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: The Changing of the Guard",
+  "source_url": "https://en.wikipedia.org/wiki/The_Changing_of_the_Guard",
+  "title": "Rock Spring School",
+  "subcategory": "In-story places",
+  "sort": "rock spring school"
  },
  "locations/rod-serling-birthplace-syracuse": {
   "connection": "Serling was born in Syracuse on Christmas Day 1924 and spent roughly his first two years there before the family moved to Binghamton in 1926.",
@@ -17183,6 +17531,18 @@
   "subcategory": "Filming locations",
   "sort": "rogers arena vancouver"
  },
+ "locations/room-22-morgue": {
+  "connection": "Setting of a second-season videotaped episode.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Twenty Two (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Twenty_Two_(The_Twilight_Zone)",
+  "title": "Room 22 (\"Twenty Two\")",
+  "subcategory": "In-story places",
+  "sort": "room 000022 twenty two"
+ },
  "locations/sage-chapel-cornell-serling-memorial": {
   "connection": "A public memorial service for Serling was held in Cornell University's Sage Chapel on July 7, 1975, a few days after his private funeral in Interlaken.",
   "tier": "related",
@@ -17255,6 +17615,18 @@
   "subcategory": "Other places",
   "sort": "serlingfest"
  },
+ "locations/ss-queen-of-glasgow": {
+  "connection": "Setting of a first-season Serling episode.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Judgment Night (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Judgment_Night_(The_Twilight_Zone)",
+  "title": "S.S. Queen of Glasgow",
+  "subcategory": "In-story places",
+  "sort": "ss queen of glasgow"
+ },
  "locations/steveston-richmond-not-all-men": {
   "connection": "Steveston Village, Richmond (Richmond, British Columbia) was used for “Not All Men” (2019).",
   "tier": "core",
@@ -17267,6 +17639,18 @@
   "subcategory": "Filming locations",
   "sort": "steveston village richmond"
  },
+ "locations/stockton-fallout-shelter": {
+  "connection": "Setting of a Serling Cold War episode.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: The Shelter (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Shelter_(The_Twilight_Zone)",
+  "title": "The Stockton basement shelter (\"The Shelter\")",
+  "subcategory": "In-story places",
+  "sort": "stockton basement shelter the shelter"
+ },
  "locations/strong-memorial-hospital-rochester": {
   "connection": "Serling died at this University of Rochester hospital on June 28, 1975, two days after open-heart surgery, at the age of 50. He had been taken ill with a heart attack in May and first treated at Tompkins County Community Hospital near Ithaca.",
   "tier": "related",
@@ -17278,6 +17662,126 @@
   "title": "Strong Memorial Hospital",
   "subcategory": "Rod Serling's places",
   "sort": "strong memorial hospital"
+ },
+ "locations/sunnyvale-rest": {
+  "connection": "Setting of George Clayton Johnson's episode and its 1983 film remake.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Kick the Can (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Kick_the_Can_(The_Twilight_Zone)",
+  "title": "Sunnyvale Rest",
+  "subcategory": "In-story places",
+  "sort": "sunnyvale rest"
+ },
+ "locations/suny-broome-community-college": {
+  "connection": "Hometown venue of a 1964 Serling speech.",
+  "tier": "related",
+  "tier_reason": "A place tied to Rod Serling's life, lectures or legacy.",
+  "recommendation": "include",
+  "reason": "Hometown lecture venue with a dated, sourced talk.",
+  "source_title": "Rod Serling Rips TV Censorship (Binghamton Press, May 1, 1964, via RSMF)",
+  "source_url": "https://rodserling.com/rod-serling-rips-tv-censorship/",
+  "title": "SUNY Broome Community College (Broome Tech)",
+  "subcategory": "Lecture and event venues",
+  "sort": "suny broome community college broome tech"
+ },
+ "locations/the-cornfield": {
+  "connection": "A named destination inside the Peaksville story that became a catchphrase.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: It's a Good Life (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/It%27s_a_Good_Life_(The_Twilight_Zone)",
+  "title": "The cornfield",
+  "subcategory": "In-story places",
+  "sort": "cornfield"
+ },
+ "locations/the-cylinder-five-characters": {
+  "connection": "Setting of a third-season Serling episode.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Five Characters in Search of an Exit",
+  "source_url": "https://en.wikipedia.org/wiki/Five_Characters_in_Search_of_an_Exit",
+  "title": "The cylinder (\"Five Characters in Search of an Exit\")",
+  "subcategory": "In-story places",
+  "sort": "cylinder five characters in search of an exit"
+ },
+ "locations/the-highway-hitch-hiker": {
+  "connection": "Setting of a first-season episode drawn from a classic radio play.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: The Hitch-Hiker (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Hitch-Hiker_(The_Twilight_Zone)",
+  "title": "The cross-country highway (\"The Hitch-Hiker\")",
+  "subcategory": "In-story places",
+  "sort": "crosscountry highway the hitchhiker"
+ },
+ "locations/the-nice-place": {
+  "connection": "Setting of one of the series' most-quoted twists.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: A Nice Place to Visit",
+  "source_url": "https://en.wikipedia.org/wiki/A_Nice_Place_to_Visit",
+  "title": "The \"nice place\" (\"A Nice Place to Visit\")",
+  "subcategory": "In-story places",
+  "sort": "nice place a nice place to visit"
+ },
+ "locations/the-ninth-floor": {
+  "connection": "Setting of a first-season Serling episode and its 1985 remake.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: The After Hours",
+  "source_url": "https://en.wikipedia.org/wiki/The_After_Hours",
+  "title": "The ninth floor (\"The After Hours\")",
+  "subcategory": "In-story places",
+  "sort": "ninth floor the after hours"
+ },
+ "locations/the-old-mans-cave": {
+  "connection": "Setting of a fifth-season Serling episode.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: The Old Man in the Cave",
+  "source_url": "https://en.wikipedia.org/wiki/The_Old_Man_in_the_Cave",
+  "title": "The cave (\"The Old Man in the Cave\")",
+  "subcategory": "In-story places",
+  "sort": "cave the old man in the cave"
+ },
+ "locations/the-twilight-zone-dimension": {
+  "connection": "The title place of the whole franchise.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "The anchor record for the in-story places section; every other setting is a corner of it.",
+  "source_title": "Wikipedia: The Twilight Zone",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone",
+  "title": "The Twilight Zone (the dimension itself)",
+  "subcategory": "In-story places",
+  "sort": "twilight zone the dimension itself"
+ },
+ "locations/tinas-other-dimension": {
+  "connection": "Setting of a third-season Matheson episode with a documented film legacy.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Little Girl Lost (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Little_Girl_Lost_(The_Twilight_Zone)",
+  "title": "The fourth dimension behind the wall (\"Little Girl Lost\")",
+  "subcategory": "In-story places",
+  "sort": "fourth dimension behind the wall little girl lost"
  },
  "locations/toronto-1985-series-season-3": {
   "connection": "A Cinema Canada production listing from 1988 reported that the new syndicated Twilight Zone episodes were shooting on location in Toronto, from Atlantis Films working with London Films and CBS Broadcast International.",
@@ -17339,6 +17843,18 @@
   "subcategory": "Attractions",
   "sort": "tower of terror tokyo disneysea"
  },
+ "locations/ucla-campus-serling-talks": {
+  "connection": "Venue of two filmed Serling talks.",
+  "tier": "related",
+  "tier_reason": "A place tied to Rod Serling's life, lectures or legacy.",
+  "recommendation": "include",
+  "reason": "Links two of the best surviving Serling lecture films to a place.",
+  "source_title": "LearnOutLoud: Rod Serling at UCLA in 1966",
+  "source_url": "https://learnoutloud.com/Catalog/Arts-and-Entertainment/Film_-Music_-Radio_-TV_-and-Pop-Culture/Rod-Serling-at-UCLA-in-1966/116797",
+  "title": "UCLA (Serling's campus talks)",
+  "subcategory": "Lecture and event venues",
+  "sort": "ucla serlings campus talks"
+ },
  "locations/ucla-rod-serling-papers": {
   "connection": "UCLA holds 23 boxes of Serling papers covering 1945-1969, including many Twilight Zone scripts, contracts, publications and business correspondence.",
   "tier": "related",
@@ -17362,6 +17878,30 @@
   "title": "Courthouse Square, Universal Studios",
   "subcategory": "Studio backlots and sets",
   "sort": "courthouse square universal studios"
+ },
+ "locations/upstate-new-york-bus-depot": {
+  "connection": "Setting of an episode whose local place names point to Serling's Southern Tier roots.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: Mirror Image (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Mirror_Image_(The_Twilight_Zone)",
+  "title": "The bus depot in upstate New York",
+  "subcategory": "In-story places",
+  "sort": "bus depot in upstate new york"
+ },
+ "locations/v9-gamma": {
+  "connection": "Setting of a fourth-season Serling hour episode.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: On Thursday We Leave for Home",
+  "source_url": "https://en.wikipedia.org/wiki/On_Thursday_We_Leave_for_Home",
+  "title": "V9-Gamma",
+  "subcategory": "In-story places",
+  "sort": "v000009gamma"
  },
  "locations/vancouver-2002-series": {
   "connection": "The UPN revival hosted by Forest Whitaker was produced in and around Vancouver for its single 2002-03 season, part of the city's boom as a television production center.",
@@ -17399,6 +17939,30 @@
   "subcategory": "Filming locations",
   "sort": "veterans memorial park culver city"
  },
+ "locations/westport-library": {
+  "connection": "Venue of the 2024 centennial symposium in Serling's former hometown.",
+  "tier": "related",
+  "tier_reason": "A place tied to Rod Serling's life, lectures or legacy.",
+  "recommendation": "include",
+  "reason": "Connects the symposium record to Serling's Westport years.",
+  "source_title": "Westport Library: Westport in the Twilight Zone with Arlen Schumer",
+  "source_url": "https://westportlibrary.org/westport-in-the-twilight-zone-with-arlen-schumer-a-four-day-celebration-of-rod-serlings-centennial-at-the-westport-library/",
+  "title": "Westport Library",
+  "subcategory": "Lecture and event venues",
+  "sort": "westport library"
+ },
+ "locations/willoughby": {
+  "connection": "The best-known fictional town of the original series, from Serling's own script.",
+  "tier": "core",
+  "tier_reason": "A setting inside a Twilight Zone story.",
+  "recommendation": "include",
+  "reason": "Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the site.",
+  "source_title": "Wikipedia: A Stop at Willoughby",
+  "source_url": "https://en.wikipedia.org/wiki/A_Stop_at_Willoughby",
+  "title": "Willoughby",
+  "subcategory": "In-story places",
+  "sort": "willoughby"
+ },
  "locations/wisconsin-center-film-theater-research-serling": {
   "connection": "The WCFTR at the University of Wisconsin-Madison holds Serling papers including printed script drafts and 1,152 Dictabelt recordings on which he dictated scripts early in his television career.",
   "tier": "related",
@@ -17410,6 +17974,18 @@
   "title": "Rod Serling Papers, Wisconsin Center for Film and Theater Research",
   "subcategory": "Archives",
   "sort": "rod serling papers wisconsin center for film and theater research"
+ },
+ "locations/wkrc-tv-cincinnati": {
+  "connection": "An early workplace in Serling's road to television.",
+  "tier": "related",
+  "tier_reason": "A place tied to Rod Serling's life, lectures or legacy.",
+  "recommendation": "include",
+  "reason": "Fills the gap between the WLW radio and New York records in his career map.",
+  "source_title": "Wikipedia: Rod Serling",
+  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "title": "WKRC-TV, Cincinnati",
+  "subcategory": "Rod Serling's places",
+  "sort": "wkrctv cincinnati"
  },
  "locations/wlw-radio-cincinnati-serling": {
   "connection": "After graduating from Antioch in 1950, Serling took a job as a staff writer and copywriter at Cincinnati's WLW radio, and later wrote for WKRC-TV, turning out scripts for local programs.",
@@ -18708,7 +19284,7 @@
   "sort": "boris sagal"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -18864,7 +19440,7 @@
   "sort": "carol serling"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -19260,7 +19836,7 @@
   "sort": "ethan embry"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -20820,7 +21396,7 @@
   "sort": "patrick warburton"
  },
  "people/paul-lynch": {
-  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “A Message from Charity” and “Examination Day”).",
+  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “Examination Day” and “A Message from Charity”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -21552,7 +22128,7 @@
   "sort": "wayne knight"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -21792,13 +22368,13 @@
   "sort": "ear of the beholder liw the twilight zone review"
  },
  "podcasts/entering-the-fifth-dimension": {
-  "connection": "An independent fan podcast that discusses episodes of The Twilight Zone, hosted by Darrell Darnell and Robert Beury, with its first episode in March 2019.",
+  "connection": "A monthly Golden Spiral Media podcast by Darrell Darnell and Robert Beury, started in 2019, that groups episodes of the original series and the 2019 revival around shared themes such as time travel or mistaken identity.",
   "tier": "core",
   "tier_reason": "A podcast wholly about The Twilight Zone.",
   "recommendation": "include",
   "reason": "A dedicated companion podcast; fans looking for discussion of an episode will want these.",
-  "source_title": "Podchaser",
-  "source_url": "https://www.podchaser.com/podcasts/entering-the-fifth-dimension-a-830807",
+  "source_title": "Rephonic - Entering the Fifth Dimension",
+  "source_url": "https://rephonic.com/podcasts/entering-the-fifth-dimension-a-twilight-zone-podca",
   "title": "Entering the Fifth Dimension",
   "subcategory": "Twilight Zone podcasts",
   "sort": "entering the fifth dimension"
@@ -21876,7 +22452,7 @@
   "sort": "000067 lessons learned from the twilight zone with jeremy schmidt"
  },
  "podcasts/monsters-are-due-twilight-zone-podcast": {
-  "connection": "A recent episode-by-episode discussion podcast on the original series, covering stories such as \"The Shelter\", \"A Hundred Yards over the Rim\" and \"The Monsters Are Due on Maple Street\", and debating whether each holds up.",
+  "connection": "A weekly podcast by Nicole and Peter Hunter, started in February 2025, that goes through the original series in order and digs into the people and production history behind each episode.",
   "tier": "core",
   "tier_reason": "A podcast wholly about The Twilight Zone.",
   "recommendation": "include",
@@ -21898,6 +22474,18 @@
   "title": "Movie Defenders - Ep 220: Twilight Zone: The Movie",
   "subcategory": "Single episodes of other podcasts",
   "sort": "movie defenders  ep 000220 twilight zone the movie"
+ },
+ "podcasts/night-gallery-podcast-christopher-brown": {
+  "connection": "Christopher Brown's episode-by-episode podcast on Rod Serling's Night Gallery, active from 2010 to 2021 with 102 episodes, including the syndication-only stories, a \"lost episode\" and a special on Serling's 1964 television film \"A Carol for Another Christmas\".",
+  "tier": "related",
+  "tier_reason": "About Night Gallery.",
+  "recommendation": "include",
+  "reason": "Covers Serling's other anthology.",
+  "source_title": "Apple Podcasts - Night Gallery Podcast",
+  "source_url": "https://podcasts.apple.com/us/podcast/night-gallery-podcast/id400018647",
+  "title": "Night Gallery Podcast",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "night gallery podcast"
  },
  "podcasts/night-gallery-podcast-twilight-zone-podcast": {
   "connection": "A companion feed branded under The Twilight Zone Podcast that turns to Serling's follow-up anthology Night Gallery.",
@@ -21982,6 +22570,18 @@
   "title": "Pop Culture Happy Hour - Roaming in the Gloaming of The Twilight Zone",
   "subcategory": "Twilight Zone podcasts",
   "sort": "pop culture happy hour  roaming in the gloaming of the twilight zone"
+ },
+ "podcasts/retroist-night-gallery-episode": {
+  "connection": "A single 25-minute episode of the general retro-culture Retroist Podcast about Night Gallery, covering Serling's role, the production and syndication fights and the music.",
+  "tier": "related",
+  "tier_reason": "About Night Gallery.",
+  "recommendation": "include",
+  "reason": "Covers Serling's other anthology.",
+  "source_title": "Retroist - Night Gallery podcast",
+  "source_url": "https://www.retroist.com/p/retroist-night-gallery-podcast",
+  "title": "Retroist Podcast: Night Gallery",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "retroist podcast night gallery"
  },
  "podcasts/sound-sight-and-mind-traveling-through-the-twilight-zone": {
   "connection": "An independent fan podcast that discusses episodes of The Twilight Zone, hosted by Chris, Steve and Ken Andrade, with its first episode in September 2017.",
@@ -22079,6 +22679,18 @@
   "subcategory": "Twilight Zone podcasts",
   "sort": "key of imagination"
  },
+ "podcasts/the-twilight-gnome": {
+  "connection": "A weekly fan podcast in which hosts Alex and Tyler watch the original series one episode at a time and give their takes; it passed 139 episodes in November 2026 and runs an annual Halloween special.",
+  "tier": "tangential",
+  "tier_reason": "Mentions the show in passing.",
+  "recommendation": "maybe",
+  "reason": "Only partly about the show.",
+  "source_title": "Podbean - The Twilight Gnome",
+  "source_url": "https://ajrockstar3.podbean.com",
+  "title": "The Twilight Gnome",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "twilight gnome"
+ },
  "podcasts/the-twilight-highlight-zone": {
   "connection": "A podcast on The Twilight Zone from Game Informer editors, hosted by Jeff Cork and Ben Hanson, with its first episode in April 2013.",
   "tier": "core",
@@ -22092,25 +22704,25 @@
   "sort": "twilight highlight zone"
  },
  "podcasts/the-twilight-pwn": {
-  "connection": "An independent fan podcast that discusses episodes of The Twilight Zone, hosted by John and Fred, with its first episode in February 2013.",
+  "connection": "A weekly fan podcast by John and Fred that worked through the original series episode by episode, then branched into Night Gallery, the 1980s revival and the 2019 series, with author interviews such as Steven Jay Rubin on his Twilight Zone Encyclopedia.",
   "tier": "tangential",
   "tier_reason": "Mentions the show in passing.",
   "recommendation": "maybe",
   "reason": "Only partly about the show.",
-  "source_title": "Podchaser",
-  "source_url": "https://www.podchaser.com/podcasts/twilight-pwn-a-twilight-zone-p-107616",
+  "source_title": "Podm8 - Twilight Pwn episode list",
+  "source_url": "https://podm8.com/podcasts/twilight-pwn-a-twilight-zone-podcast",
   "title": "The Twilight Pwn",
   "subcategory": "Twilight Zone podcasts",
   "sort": "twilight pwn"
  },
  "podcasts/the-twilight-zone-podcast": {
-  "connection": "An independent fan podcast that discusses episodes of The Twilight Zone, hosted by Tom Elliot, with its first episode in June 2011.",
+  "connection": "Tom Elliot's long-running independent podcast about The Twilight Zone, started in 2010 and billed as the longest-running show about the series.",
   "tier": "core",
   "tier_reason": "A podcast wholly about The Twilight Zone.",
   "recommendation": "include",
   "reason": "A dedicated companion podcast; fans looking for discussion of an episode will want these.",
-  "source_title": "Podchaser",
-  "source_url": "https://www.podchaser.com/podcasts/the-twilight-zone-podcast-11686",
+  "source_title": "The Twilight Zone Podcast - About",
+  "source_url": "https://www.thetwilightzonepodcast.com/about",
   "title": "The Twilight Zone Podcast",
   "subcategory": "Twilight Zone podcasts",
   "sort": "twilight zone podcast"
@@ -22140,16 +22752,52 @@
   "sort": "time enough podcast"
  },
  "podcasts/zone-i-sodes": {
-  "connection": "An independent fan podcast that discusses episodes of The Twilight Zone, hosted by Brandon Davis and Scott McFarland, with its first episode in February 2017.",
+  "connection": "A review podcast by Scott McFarland and Brandon Davis on the Front Row Network (NPR Illinois), going through the original series in order, sometimes joined by Katharine Roberts.",
   "tier": "core",
   "tier_reason": "A podcast wholly about The Twilight Zone.",
   "recommendation": "include",
   "reason": "A dedicated companion podcast; fans looking for discussion of an episode will want these.",
-  "source_title": "Podchaser",
-  "source_url": "https://www.podchaser.com/podcasts/zone-i-sodes-a-twilight-zone-p-534372",
+  "source_title": "Apple Podcasts - Zone-i-Sodes",
+  "source_url": "https://podcasts.apple.com/us/podcast/id1630502455",
   "title": "Zone-i-Sodes",
   "subcategory": "Twilight Zone podcasts",
   "sort": "zoneisodes"
+ },
+ "podcasts/zoned-out-the-twilight-zone-revisited": {
+  "connection": "A recurring series inside the horror and sci-fi film podcast Night of the Living Podcast, in which the hosts revisit the original Twilight Zone, starting with \"Where Is Everybody?\" in December 2024.",
+  "tier": "core",
+  "tier_reason": "A podcast wholly about The Twilight Zone.",
+  "recommendation": "include",
+  "reason": "A dedicated companion podcast; fans looking for discussion of an episode will want these.",
+  "source_title": "Blubrry - Night of the Living Podcast",
+  "source_url": "https://blubrry.com/notlp/139715201/zoned-out-the-twilight-zone-revisited-where-is-everybody",
+  "title": "Zoned Out: The Twilight Zone Revisited (Night of the Living Podcast)",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "zoned out the twilight zone revisited night of the living podcast"
+ },
+ "podcasts/zoners": {
+  "connection": "A Fandom Limb Media podcast that set out to cover the original series from the beginning; only two episodes appeared, in May and June 2023.",
+  "tier": "core",
+  "tier_reason": "A podcast wholly about The Twilight Zone.",
+  "recommendation": "include",
+  "reason": "A dedicated companion podcast; fans looking for discussion of an episode will want these.",
+  "source_title": "Pod Engine - Zoners",
+  "source_url": "https://www.podengine.ai/podcasts/zoners",
+  "title": "Zoners",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "zoners"
+ },
+ "podcasts/zoning-out": {
+  "connection": "A roundtable podcast of writers, directors and guest actors that works through The Twilight Zone from the 1959 original to the 2020 season of the Peele revival.",
+  "tier": "tangential",
+  "tier_reason": "Mentions the show in passing.",
+  "recommendation": "maybe",
+  "reason": "Only partly about the show.",
+  "source_title": "Everand - Zoning Out",
+  "source_url": "https://www.everand.com/podcast-show/684902679/Zoning-Out",
+  "title": "Zoning Out",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "zoning out"
  },
  "quotes/bryan-cranston-my-seven-shows": {
   "connection": "A sourced quote from Bryan Cranston. Cranston named The Twilight Zone among the seven shows that shaped him, recalling it as unlike anything else he had seen.",
@@ -22565,8 +23213,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "A Game of Pool",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "game of pool"
@@ -22577,8 +23225,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "A Hundred Yards over the Rim",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "hundred yards over the rim"
@@ -22589,8 +23237,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "A Kind of Stopwatch",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "kind of stopwatch"
@@ -22601,8 +23249,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "A Most Unusual Camera",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "most unusual camera"
@@ -22613,8 +23261,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "A Nice Place to Visit",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "nice place to visit"
@@ -22625,8 +23273,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "A Passage for Trumpet",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "passage for trumpet"
@@ -22637,8 +23285,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "A Penny for Your Thoughts",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "penny for your thoughts"
@@ -22649,8 +23297,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "A Piano in the House",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "piano in the house"
@@ -22661,8 +23309,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "A Quality of Mercy",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "quality of mercy"
@@ -22673,8 +23321,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "A Short Drink from a Certain Fountain",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "short drink from a certain fountain"
@@ -22685,8 +23333,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "A Stop at Willoughby",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "stop at willoughby"
@@ -22697,8 +23345,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "A Thing About Machines",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "thing about machines"
@@ -22709,8 +23357,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "A World of Difference",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "world of difference"
@@ -22721,8 +23369,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "A World of His Own",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "world of his own"
@@ -22745,8 +23393,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "An Occurrence at Owl Creek Bridge",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "occurrence at owl creek bridge"
@@ -22757,8 +23405,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "...And Cauldron Bubble",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "and cauldron bubble"
@@ -22769,8 +23417,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "And When the Sky Was Opened",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "and when the sky was opened"
@@ -22781,8 +23429,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Another Place in Time",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "another place in time"
@@ -22793,8 +23441,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Back There",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "back there"
@@ -22805,8 +23453,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Beewinjapeedee",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "beewinjapeedee"
@@ -22817,8 +23465,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Big Tall Wish",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "big tall wish"
@@ -22829,8 +23477,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Black Leather Jackets",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "black leather jackets"
@@ -22841,8 +23489,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Caesar and Me",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "caesar and me"
@@ -22853,8 +23501,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Cavender Is Coming",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "cavender is coming"
@@ -22865,8 +23513,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Dead Mans Shoes",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "dead mans shoes"
@@ -22877,8 +23525,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Death Ship",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "death ship"
@@ -22889,8 +23537,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Death's Head Revisited",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "deaths head revisited"
@@ -22901,8 +23549,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Dust",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "dust"
@@ -22913,8 +23561,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Elegy",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "elegy"
@@ -22925,8 +23573,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Escape Clause",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "escape clause"
@@ -22937,8 +23585,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Execution",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "execution"
@@ -22949,8 +23597,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Eye of the Beholder",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "eye of the beholder"
@@ -22973,8 +23621,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Five Characters in Search of an Exit",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "five characters in search of an exit"
@@ -22985,20 +23633,20 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Four O'Clock",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "four oclock"
  },
  "radio/free-dirt": {
-  "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling): An adaptation of a Charles Beaumont short story, one of several Beaumont stories the radio series dramatized beyond the episodes he wrote for television.",
+  "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling): A dramatization of Charles Beaumont's short story \"Free Dirt\" (collected in Charles Beaumont: Selected Stories), about a greedy man who takes soil from a cemetery for his garden.",
   "tier": "core",
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Free Dirt",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "free dirt"
@@ -23009,20 +23657,20 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "From Agnes, with Love",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "from agnes with love"
  },
  "radio/gentlemen-be-seated": {
-  "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling): An adaptation of a Charles Beaumont story, one of several Beaumont stories the radio series dramatized beyond the episodes he wrote for television.",
+  "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling): Charles Beaumont's own Twilight Zone teleplay that the TV series never filmed, a satire set in a society that has outlawed laughter, finally produced by the radio series in 2007.",
   "tier": "core",
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Gentlemen, Be Seated",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "gentlemen be seated"
@@ -23033,8 +23681,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "He's Alive",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "hes alive"
@@ -23045,8 +23693,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Hocus-Pocus and Frisby",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "hocuspocus and frisby"
@@ -23069,8 +23717,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "I Am the Night, Color Me Black",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "i am the night color me black"
@@ -23081,8 +23729,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "I Dream of Genie",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "i dream of genie"
@@ -23093,8 +23741,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "I Shot an Arrow into the Air",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "i shot an arrow into the air"
@@ -23105,8 +23753,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "I Sing the Body Electric",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "i sing the body electric"
@@ -23117,8 +23765,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "In His Image",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "in his image"
@@ -23129,8 +23777,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "In Praise of Pip",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "in praise of pip"
@@ -23141,8 +23789,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Its a Good Life",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "its a good life"
@@ -23153,8 +23801,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Jess-Belle",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "jessbelle"
@@ -23165,8 +23813,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Judgment Night",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "judgment night"
@@ -23177,8 +23825,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Kick the Can",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "kick the can"
@@ -23189,8 +23837,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "King Nine Will Not Return",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "king nine will not return"
@@ -23201,8 +23849,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Little Girl Lost",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "little girl lost"
@@ -23213,8 +23861,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Long Distance Call",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "long distance call"
@@ -23225,8 +23873,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Long Live Walter Jameson",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "long live walter jameson"
@@ -23237,8 +23885,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Miniature",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "miniature"
@@ -23249,8 +23897,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Mirror Image",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "mirror image"
@@ -23261,8 +23909,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Missing, Presumed Dead",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "missing presumed dead"
@@ -23273,8 +23921,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Mr. Bevis",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "mr bevis"
@@ -23285,8 +23933,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Mr. Denton on Doomsday",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "mr denton on doomsday"
@@ -23297,8 +23945,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Mr. Dingle, the Strong",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "mr dingle the strong"
@@ -23309,8 +23957,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Mr. Garrity and the Graves",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "mr garrity and the graves"
@@ -23321,8 +23969,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Mrs. Pierce Is Praying for Me",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "mrs pierce is praying for me"
@@ -23333,8 +23981,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Mute",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "mute"
@@ -23345,8 +23993,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Nanobots",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "nanobots"
@@ -23357,8 +24005,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Nervous Man in a Four-Dollar Room",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "nervous man in a fourdollar room"
@@ -23369,8 +24017,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Nick of Time",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "nick of time"
@@ -23381,8 +24029,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Night Call",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "night call"
@@ -23393,8 +24041,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Nightmare as a Child",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "nightmare as a child"
@@ -23405,8 +24053,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Nightmare at 20,000 Feet",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "nightmare at 000020000000 feet"
@@ -23417,8 +24065,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Ninety Years without Slumbering",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "ninety years without slumbering"
@@ -23429,8 +24077,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "No Time Like the Past",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "no time like the past"
@@ -23441,8 +24089,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Nothing in the Dark",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "nothing in the dark"
@@ -23453,8 +24101,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Now You Hear It, Now You Don't",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "now you hear it now you dont"
@@ -23465,8 +24113,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Number 12 Looks Just like You",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "number 000012 looks just like you"
@@ -23477,8 +24125,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Of Late I Think of Cliffordville",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "of late i think of cliffordville"
@@ -23489,8 +24137,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "On Thursday We Leave for Home",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "on thursday we leave for home"
@@ -23501,8 +24149,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Once Upon a Time",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "once upon a time"
@@ -23513,8 +24161,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "One for the Angels",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "one for the angels"
@@ -23525,8 +24173,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "One More Pallbearer",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "one more pallbearer"
@@ -23537,20 +24185,20 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Passage on the Lady Anne",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "passage on the lady anne"
  },
  "radio/pattern-for-doomsday": {
-  "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling): An adaptation of a story by Jerry Sohl, who ghost-wrote three episodes of the original series under Charles Beaumont's name.",
+  "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling): An unmade Twilight Zone teleplay by Jerry Sohl, written from an idea by Charles Beaumont during the period when Sohl ghost-wrote episodes credited to Beaumont.",
   "tier": "core",
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Pattern for Doomsday",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "pattern for doomsday"
@@ -23561,8 +24209,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "People Are Alike All Over",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "people are alike all over"
@@ -23573,8 +24221,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Perchance to Dream",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "perchance to dream"
@@ -23585,8 +24233,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Person or Persons Unknown",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "person or persons unknown"
@@ -23597,8 +24245,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Printer's Devil",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "printers devil"
@@ -23609,8 +24257,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Probe 7, Over and Out",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "probe 000007 over and out"
@@ -23621,8 +24269,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Queen of the Nile",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "queen of the nile"
@@ -23645,8 +24293,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Rest Stop",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "rest stop"
@@ -23657,8 +24305,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Ring-a-Ding Girl",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "ringading girl"
@@ -23669,8 +24317,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Shadow Play",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "shadow play"
@@ -23681,8 +24329,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Showdown with Rance McGrew",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "showdown with rance mcgrew"
@@ -23693,8 +24341,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Snow Angel",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "snow angel"
@@ -23705,8 +24353,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Sounds and Silences",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "sounds and silences"
@@ -23717,8 +24365,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Spur of the Moment",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "spur of the moment"
@@ -23729,8 +24377,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Static",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "static"
@@ -23741,8 +24389,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Steel",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "steel"
@@ -23753,8 +24401,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Still Valley",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "still valley"
@@ -23765,8 +24413,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Stopover in a Quiet Town",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "stopover in a quiet town"
@@ -23777,8 +24425,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Ten Days",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "ten days"
@@ -23789,8 +24437,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The 25th Hour",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "000025th hour"
@@ -23801,8 +24449,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The 7th Is Made Up of Phantoms",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "000007th is made up of phantoms"
@@ -23813,8 +24461,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The After Hours",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "after hours"
@@ -23825,8 +24473,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Amazing Dr. Kyle Powers",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "amazing dr kyle powers"
@@ -23837,8 +24485,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Arrival",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "arrival"
@@ -23849,8 +24497,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Bard",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "bard"
@@ -23861,8 +24509,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Bewitchin' Pool",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "bewitchin pool"
@@ -23873,8 +24521,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Brain Center at Whipples",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "brain center at whipples"
@@ -23885,8 +24533,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Changing of the Guard",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "changing of the guard"
@@ -23897,8 +24545,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Chaser",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "chaser"
@@ -23909,8 +24557,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Dummy",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "dummy"
@@ -23921,8 +24569,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Encounter",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "encounter"
@@ -23933,8 +24581,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Fear",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "fear"
@@ -23945,8 +24593,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Fever",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "fever"
@@ -23957,8 +24605,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Four of Us Are Dying",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "four of us are dying"
@@ -23969,8 +24617,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Fugitive",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "fugitive"
@@ -23981,8 +24629,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Gift",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "gift"
@@ -23993,8 +24641,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Grave",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "grave"
@@ -24005,8 +24653,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Hitchhiker",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "hitchhiker"
@@ -24017,8 +24665,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Howling Man",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "howling man"
@@ -24029,8 +24677,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Hunt",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "hunt"
@@ -24041,8 +24689,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Incredible World of Horace Ford",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "incredible world of horace ford"
@@ -24053,8 +24701,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Invaders",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "invaders"
@@ -24065,8 +24713,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Jeopardy Room",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "jeopardy room"
@@ -24077,8 +24725,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Jungle",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "jungle"
@@ -24089,8 +24737,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Last Flight",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "last flight"
@@ -24101,8 +24749,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Last Night of a Jockey",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "last night of a jockey"
@@ -24113,8 +24761,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Last Rites of Jeff Myrtlebank",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "last rites of jeff myrtlebank"
@@ -24125,8 +24773,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Lateness of the Hour",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "lateness of the hour"
@@ -24137,8 +24785,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Little People",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "little people"
@@ -24149,8 +24797,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Living Doll",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "living doll"
@@ -24161,8 +24809,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Lonely",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "lonely"
@@ -24173,8 +24821,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Long Morrow",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "long morrow"
@@ -24185,8 +24833,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Man in the Bottle",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "man in the bottle"
@@ -24197,8 +24845,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Masks",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "masks"
@@ -24209,8 +24857,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Midnight Sun",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "midnight sun"
@@ -24221,8 +24869,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Mighty Casey",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "mighty casey"
@@ -24233,8 +24881,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Mind and the Matter",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "mind and the matter"
@@ -24245,8 +24893,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Mirror",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "mirror"
@@ -24257,8 +24905,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Monsters Are Due on Maple Street",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "monsters are due on maple street"
@@ -24269,8 +24917,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The New Exhibit",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "new exhibit"
@@ -24281,8 +24929,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Night of the Meek",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "night of the meek"
@@ -24293,8 +24941,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Obsolete Man",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "obsolete man"
@@ -24305,8 +24953,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Odyssey of Flight 33",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "odyssey of flight 000033"
@@ -24317,8 +24965,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Old Man in the Cave",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "old man in the cave"
@@ -24329,8 +24977,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Parallel",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "parallel"
@@ -24341,8 +24989,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Passersby",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "passersby"
@@ -24353,8 +25001,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Prime Mover",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "prime mover"
@@ -24365,8 +25013,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Purple Testament",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "purple testament"
@@ -24377,8 +25025,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Rip Van Winkle Caper",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "rip van winkle caper"
@@ -24389,8 +25037,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Self-Improvement of Salvadore Ross",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "selfimprovement of salvadore ross"
@@ -24401,8 +25049,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Shelter",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "shelter"
@@ -24413,8 +25061,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Silence",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "silence"
@@ -24425,8 +25073,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Sixteen-Millimeter Shrine",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "sixteenmillimeter shrine"
@@ -24437,8 +25085,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Thirty-Fathom Grave",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "thirtyfathom grave"
@@ -24449,8 +25097,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Time Element",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "time element"
@@ -24461,8 +25109,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Time of Your Life",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "time of your life"
@@ -24473,8 +25121,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Trade-Ins",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "tradeins"
@@ -24485,8 +25133,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Trouble with Templeton",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "trouble with templeton"
@@ -24497,8 +25145,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Walkabouts",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "walkabouts"
@@ -24509,8 +25157,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "The Whole Truth",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "whole truth"
@@ -24521,8 +25169,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "There Goes the Neighborhood",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "there goes the neighborhood"
@@ -24533,8 +25181,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Third from the Sun",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "third from the sun"
@@ -24545,8 +25193,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Time Enough at Last",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "time enough at last"
@@ -24569,8 +25217,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "To Serve Man",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "to serve man"
@@ -24581,8 +25229,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Twenty-Two",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "twentytwo"
@@ -24612,7 +25260,7 @@
   "sort": "twilight zone radio dramas  cd cassette and download collections"
  },
  "radio/twilight-zone-radio-dramas-series": {
-  "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling): Full-cast audio remakes of the original 1959-64 teleplays, produced and directed by Carl Amari's Falcon Picture Group under license from CBS and the Rod Serling estate.",
+  "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling): Full-cast audio remakes of the original 1959-64 teleplays, produced and directed by Carl Amari for Falcon Picture Group under license from CBS and the Rod Serling estate, with sound work by JoBe Cerny in Chicago.",
   "tier": "core",
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
@@ -24653,8 +25301,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Two",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "two"
@@ -24665,8 +25313,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Two Thousand-Twelve",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "two thousandtwelve"
@@ -24677,8 +25325,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Uncle Simon",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "uncle simon"
@@ -24689,8 +25337,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Valley of the Shadow",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "valley of the shadow"
@@ -24701,8 +25349,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Walking Distance",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "walking distance"
@@ -24713,8 +25361,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "What You Need",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "what you need"
@@ -24725,8 +25373,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "What's in the Box",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "whats in the box"
@@ -24737,20 +25385,20 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Where Is Everybody",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "where is everybody"
  },
  "radio/who-am-i": {
-  "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling): An adaptation of a story by Jerry Sohl, who ghost-wrote three episodes of the original series under Charles Beaumont's name.",
+  "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling): An unmade Twilight Zone teleplay by Jerry Sohl, who ghost-wrote three filmed episodes under Charles Beaumont's name.",
   "tier": "core",
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Who Am I",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "who am i"
@@ -24761,8 +25409,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Will the Real Martian Please Stand Up",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "will the real martian please stand up"
@@ -24773,8 +25421,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "You Drive",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "you drive"
@@ -24785,8 +25433,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "The Twilight Zone (radio series) - episode list (Wikipedia mirror)",
+  "source_url": "https://goodoldtv.com/The_Twilight_Zone_(radio_series)",
   "title": "Young Man's Fancy",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "young mans fancy"
@@ -24809,8 +25457,8 @@
   "tier_reason": "An official Twilight Zone series.",
   "recommendation": "include",
   "reason": "The backbone of the site: every page hangs off the four series.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Wikipedia - The Twilight Zone (1959 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)",
   "title": "The Twilight Zone (1959–1964)",
   "subcategory": "The four series",
   "sort": "twilight zone"
@@ -24821,8 +25469,8 @@
   "tier_reason": "An official Twilight Zone series.",
   "recommendation": "include",
   "reason": "The backbone of the site: every page hangs off the four series.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Wikipedia - The Twilight Zone (1985 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)",
   "title": "The Twilight Zone (1985–1989)",
   "subcategory": "The four series",
   "sort": "twilight zone"
@@ -24833,8 +25481,8 @@
   "tier_reason": "An official Twilight Zone series.",
   "recommendation": "include",
   "reason": "The backbone of the site: every page hangs off the four series.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Wikipedia - The Twilight Zone (2002 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)",
   "title": "The Twilight Zone (2002–2003)",
   "subcategory": "The four series",
   "sort": "twilight zone"
@@ -24845,8 +25493,8 @@
   "tier_reason": "An official Twilight Zone series.",
   "recommendation": "include",
   "reason": "The backbone of the site: every page hangs off the four series.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Wikipedia - The Twilight Zone (2019 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)",
   "title": "The Twilight Zone (2019–2020)",
   "subcategory": "The four series",
   "sort": "twilight zone"
@@ -26963,6 +27611,30 @@
   "subcategory": "Other",
   "sort": "american legends the life of rod serling audiobook"
  },
+ "works/anne-serling-umw-great-lives-2025": {
+  "connection": "A recorded talk about Serling by his daughter.",
+  "tier": "related",
+  "tier_reason": "A talk by Rod Serling, or about him, in his own voice or legacy.",
+  "recommendation": "include",
+  "reason": "Free video, first-hand family perspective.",
+  "source_title": "UMW Great Lives: Rod Serling",
+  "source_url": "https://www.umw.edu/greatlives/lecture/rod-serling/",
+  "title": "Anne Serling on her father, Great Lives lecture series (2025)",
+  "subcategory": "Academic talks",
+  "sort": "anne serling on her father great lives lecture series 002025"
+ },
+ "works/antioch-marker-dedication-2025": {
+  "connection": "Dedication of a state marker to Serling.",
+  "tier": "related",
+  "tier_reason": "An event in Rod Serling's life or the wider franchise.",
+  "recommendation": "include",
+  "reason": "The event behind the existing marker location record.",
+  "source_title": "RSMF Fall 2025 newsletter",
+  "source_url": "https://rodserling.com/fall-2025-newsletter/",
+  "title": "Ohio historical marker for Serling dedicated at Antioch College (2025)",
+  "subcategory": "Anniversaries and festivals",
+  "sort": "ohio historical marker for serling dedicated at antioch college 002025"
+ },
  "works/appalachian-state-fys-twilight-zone": {
   "connection": "A first-year seminar listed in App State's course offerings that uses the series as the basis for critical thinking and discussion.",
   "tier": "core",
@@ -27203,6 +27875,18 @@
   "subcategory": "Stage",
   "sort": "walking distance with the binghamton philharmonic and southern tier actors read"
  },
+ "works/binghamton-twilight-zone-50-2009": {
+  "connection": "Hometown celebration of the 50th anniversary.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Documents how the hometown marked the milestone; includes audio.",
+  "source_title": "WSKG: Twilight Zone @ 50 (Off the Page)",
+  "source_url": "https://www.wskg.org/arts/2014-10-09/twilight-zone-50",
+  "title": "Binghamton's Twilight Zone 50th anniversary celebration (2009)",
+  "subcategory": "Anniversaries and festivals",
+  "sort": "binghamtons twilight zone 000050th anniversary celebration 002009"
+ },
  "works/blue-room-chico-twilight-zone": {
   "connection": "A community theatre that has repeatedly staged Twilight Zone episodes; local press covered a \"return to the Zone.\"",
   "tier": "core",
@@ -27227,6 +27911,30 @@
   "subcategory": "Soundtracks and theme releases",
   "sort": "out of this world"
  },
+ "works/boulton-take-this-stand-2010": {
+  "connection": "An academic talk on the show's politics.",
+  "tier": "core",
+  "tier_reason": "A talk or class about The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Sourced academic lecture on the show's themes.",
+  "source_title": "UW-Whitewater Library blog: Talk about Rod Serling (2010)",
+  "source_url": "https://blogs.uww.edu/library/wp-json/wp/v2/posts/5740",
+  "title": "\"Take this stand\": Rod Serling and the politics of The Twilight Zone (Mark Boulton, 2010)",
+  "subcategory": "Academic talks",
+  "sort": "take this stand rod serling and the politics of the twilight zone mark boulton 002010"
+ },
+ "works/bridgewater-state-anthropology-twilight-zone": {
+  "connection": "A university course built on the show.",
+  "tier": "core",
+  "tier_reason": "A talk or class about The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Shows the series' standing as a teaching text.",
+  "source_title": "Bridgewater State University: 'Twilight' time",
+  "source_url": "https://bridgew.edu/news-events/news/%25E2%2580%2598twilight%25E2%2580%2599-time",
+  "title": "Bridgewater State University anthropology course on The Twilight Zone",
+  "subcategory": "In the classroom",
+  "sort": "bridgewater state university anthropology course on the twilight zone"
+ },
  "works/bundy-museum-in-the-zone": {
   "connection": "A permanent hands-on exhibit in Serling's hometown, with props, a Talky Tina model, board games, radio scripts, Serling's yearbooks and handwritten notes, plus stations for watching episodes and taking a quiz.",
   "tier": "tangential",
@@ -27238,6 +27946,18 @@
   "title": "Rod Serling Archive \"In the Zone\" exhibit, Bundy Museum",
   "subcategory": "Attractions",
   "sort": "rod serling archive in the zone exhibit bundy museum"
+ },
+ "works/bundy-rod-serling-archive-opening-2015": {
+  "connection": "Opening of the only permanent TZ exhibit in Serling's hometown.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "A museum of TZ props and history.",
+  "source_title": "MeTV: A new Rod Serling exhibit opens in the Twilight Zone creator's hometown",
+  "source_url": "https://metv.com/stories/a-new-rod-serling-exhibit-opens-in-the-twilight-zone-creators-hometown",
+  "title": "The Rod Serling Archive opens at the Bundy Museum (2015)",
+  "subcategory": "Exhibitions",
+  "sort": "rod serling archive opens at the bundy museum 002015"
  },
  "works/bundy-rod-serling-symposium-radio": {
   "connection": "A symposium evening on Serling's early radio writing, staged with old-time-radio style performances.",
@@ -27274,6 +27994,18 @@
   "title": "Chattanooga Film Festival 2024 – Twilight Zone salute",
   "subcategory": "Events and honors",
   "sort": "chattanooga film festival 002024  twilight zone salute"
+ },
+ "works/chris-alexander-morbid-anatomy-2024": {
+  "connection": "A public lecture about the show.",
+  "tier": "core",
+  "tier_reason": "A talk or class about The Twilight Zone itself.",
+  "recommendation": "maybe",
+  "reason": "Paywalled recording; include if you want to list current lecture activity.",
+  "source_title": "Morbid Anatomy: The Beauty, Truth, and Terror of The Twilight Zone",
+  "source_url": "https://www.morbidanatomy.org/events-tickets/twilight-zone",
+  "title": "\"The Beauty, Truth, and Terror of The Twilight Zone\" (Chris Alexander, 2024)",
+  "subcategory": "Academic talks",
+  "sort": "beauty truth and terror of the twilight zone chris alexander 002024"
  },
  "works/christopher-awards-serling": {
   "connection": "Serling received the Christopher Award, given to media that affirm human values, twice.",
@@ -27479,6 +28211,18 @@
   "subcategory": "Other",
   "sort": "fans guide to rod serling audiobook"
  },
+ "works/final-original-broadcast-1964": {
+  "connection": "The end of the original run.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Closes the original-series timeline.",
+  "source_title": "Wikipedia: The Twilight Zone (1959 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)",
+  "title": "Last first-run episode of the original series (1964)",
+  "subcategory": "Broadcasts and marathons",
+  "sort": "last firstrun episode of the original series 001964"
+ },
  "works/flickr-twilight-zone-incarnate": {
   "connection": "A Flickr group pool where members post photographs and images inspired by Twilight Zone themes and episodes.",
   "tier": "core",
@@ -27634,6 +28378,18 @@
   "title": "Twilight Zone episodes onstage (Hopewell Theatre)",
   "subcategory": "Stage",
   "sort": "twilight zone episodes onstage hopewell theatre"
+ },
+ "works/hour-long-season-premiere-1963": {
+  "connection": "A turning point in the original run.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Explains the odd-length season four in the episode lists.",
+  "source_title": "Wikipedia: The Twilight Zone (1959 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)",
+  "title": "The Twilight Zone returns as an hour-long series (1963)",
+  "subcategory": "Broadcasts and marathons",
+  "sort": "twilight zone returns as an hourlong series 001963"
  },
  "works/hugo-1960-best-dramatic-presentation": {
   "connection": "The first of three straight Hugos for The Twilight Zone.",
@@ -27875,6 +28631,30 @@
   "subcategory": "Artwork",
   "sort": "twilight zone 002019 season 000001 key art"
  },
+ "works/ktla-july-4-marathon": {
+  "connection": "A long-running holiday marathon.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Part of the marathon tradition.",
+  "source_title": "Den of Geek: The Twilight Zone Marathon, a History of a Holiday Tradition (Arlen Schumer, 2018)",
+  "source_url": "https://www.denofgeek.com/tv/the-twilight-zone-marathon-a-history-of-a-holiday-tradition/",
+  "title": "KTLA's Fourth of July Twilight Zone marathon (from 1983)",
+  "subcategory": "Broadcasts and marathons",
+  "sort": "ktlas fourth of july twilight zone marathon from 001983"
+ },
+ "works/ktla-thanksgiving-marathon-1980": {
+  "connection": "One of the earliest documented TZ marathons.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "The origin story of the marathon tradition fans still follow.",
+  "source_title": "Den of Geek: The Twilight Zone Marathon, a History of a Holiday Tradition (Arlen Schumer, 2018)",
+  "source_url": "https://www.denofgeek.com/tv/the-twilight-zone-marathon-a-history-of-a-holiday-tradition/",
+  "title": "KTLA's first Twilight Zone marathon (Thanksgiving 1980)",
+  "subcategory": "Broadcasts and marathons",
+  "sort": "ktlas first twilight zone marathon thanksgiving 001980"
+ },
  "works/lafayette-return-to-the-twilight-zone": {
   "connection": "A recurring autumn series of original Twilight Zone parodies, numbered by volume.",
   "tier": "core",
@@ -27886,6 +28666,18 @@
   "title": "Return to the Twilight Zone (Theater Company of Lafayette parody series)",
   "subcategory": "Stage",
   "sort": "return to the twilight zone theater company of lafayette parody series"
+ },
+ "works/lost-classics-broadcast-1994": {
+  "connection": "Broadcast of Serling's unproduced stories under the franchise name.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Core franchise date.",
+  "source_title": "Wikipedia: Twilight Zone: Rod Serling's Lost Classics",
+  "source_url": "https://en.wikipedia.org/wiki/Twilight_Zone:_Rod_Serling%27s_Lost_Classics",
+  "title": "Twilight Zone: Rod Serling's Lost Classics airs (1994)",
+  "subcategory": "Premieres",
+  "sort": "twilight zone rod serlings lost classics airs 001994"
  },
  "works/manhattan-transfer-twilight-zone-twilight-tone": {
   "connection": "The vocal group's disco-jazz single opens with the Constant motif and a Serling-style narration before turning into an original song, becoming a hit in the US and UK in 1980 and the franchise's best-known charting cover.",
@@ -28031,6 +28823,18 @@
   "subcategory": "Honors and awards",
   "sort": "president of the national academy of television arts and sciences 001965001966"
  },
+ "works/national-twilight-zone-day": {
+  "connection": "A fan observance named after the show.",
+  "tier": "tangential",
+  "tier_reason": "An event with a light tie to the show.",
+  "recommendation": "maybe",
+  "reason": "Popular online but with no known origin; keep if you want fan observances, otherwise skip.",
+  "source_title": "timeanddate.com: Twilight Zone Day",
+  "source_url": "https://www.timeanddate.com/holidays/fun/twilight-zone-day",
+  "title": "National Twilight Zone Day (May 11)",
+  "subcategory": "Anniversaries and festivals",
+  "sort": "national twilight zone day may 000011"
+ },
  "works/neil-norman-greatest-science-fiction-hits": {
   "connection": "Neil Norman's synth-disco arrangements of TV and film sci-fi themes, a staple of the late-1970s space craze, include a version of the Twilight Zone theme.",
   "tier": "core",
@@ -28054,6 +28858,18 @@
   "title": "A Night at the Mausoleum II (with original Twilight Zone cast members)",
   "subcategory": "Conventions",
   "sort": "night at the mausoleum ii with original twilight zone cast members"
+ },
+ "works/night-gallery-pilot-broadcast-1969": {
+  "connection": "Premiere of Serling's second anthology.",
+  "tier": "related",
+  "tier_reason": "An event in Rod Serling's life or the wider franchise.",
+  "recommendation": "include",
+  "reason": "Night Gallery is in scope per Adam's rule; its premiere belongs on the timeline.",
+  "source_title": "Wikipedia: Night Gallery",
+  "source_url": "https://en.wikipedia.org/wiki/Night_Gallery",
+  "title": "Night Gallery pilot film airs on NBC (1969)",
+  "subcategory": "Premieres",
+  "sort": "night gallery pilot film airs on nbc 001969"
  },
  "works/oac-rod-serling-papers-1945-1969": {
   "connection": "Finding aid for a California-held collection of Serling papers spanning his radio, live-TV and Twilight Zone years, searchable box by box.",
@@ -28583,6 +29399,18 @@
   "subcategory": "Events and honors",
   "sort": "series mania 002019  world premiere of the twilight zone 002019"
  },
+ "works/serling-antioch-drama-in-the-mass-media-1962": {
+  "connection": "Serling teaching writing during the series' run.",
+  "tier": "related",
+  "tier_reason": "A talk by Rod Serling, or about him, in his own voice or legacy.",
+  "recommendation": "include",
+  "reason": "A rare record of what Serling taught, from a student's notes, mid-way through the show.",
+  "source_title": "Rod Serling Teaches Writing: Jeanne Marshall's Seminar Notes, 1962-63 (RSMF)",
+  "source_url": "https://rodserling.com/rod-serling-teaches-writing/",
+  "title": "\"Drama in the Mass Media\": Serling's Antioch College seminar (1962-63)",
+  "subcategory": "In the classroom",
+  "sort": "drama in the mass media serlings antioch college seminar 001962000063"
+ },
  "works/serling-at-100-university-of-florida": {
   "connection": "A University of Florida centennial program on Serling's life and work, run by the English department.",
   "tier": "related",
@@ -28594,6 +29422,42 @@
   "title": "Serling @ 100: The Life & Legacy of Rod Serling (1924–1975)",
   "subcategory": "Conventions",
   "sort": "serling  000100 the life  legacy of rod serling 001924001975"
+ },
+ "works/serling-broome-tech-censorship-1964": {
+  "connection": "Serling's own views on the pressures he worked under on the show.",
+  "tier": "related",
+  "tier_reason": "A talk by Rod Serling, or about him, in his own voice or legacy.",
+  "recommendation": "include",
+  "reason": "A first-hand account of Serling's censorship battles, in his hometown.",
+  "source_title": "Rod Serling Rips TV Censorship (RSMF reprint of Binghamton Press, 1964-05-01)",
+  "source_url": "https://rodserling.com/rod-serling-rips-tv-censorship/",
+  "title": "Rod Serling on television censorship, Broome Technical Community College (1964)",
+  "subcategory": "Rod Serling's lectures",
+  "sort": "rod serling on television censorship broome technical community college 001964"
+ },
+ "works/serling-death-1975": {
+  "connection": "The death of the show's creator.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "A necessary timeline entry; links his hospital and grave records.",
+  "source_title": "Wikipedia: Rod Serling",
+  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "title": "Death of Rod Serling (1975)",
+  "subcategory": "History",
+  "sort": "death of rod serling 001975"
+ },
+ "works/serling-elmira-college-1975": {
+  "connection": "One of Serling's last recorded lectures.",
+  "tier": "related",
+  "tier_reason": "A talk by Rod Serling, or about him, in his own voice or legacy.",
+  "recommendation": "include",
+  "reason": "A rare late recording; worth listing even though it is only available on request.",
+  "source_title": "Pacifica Radio Archives: A Glimpse into the Twilight Zone / Rod Serling (SZ0066)",
+  "source_url": "https://pacificaradioarchives.org/node/8692",
+  "title": "\"A Glimpse into the Twilight Zone\": Rod Serling at Elmira College (1975)",
+  "subcategory": "Rod Serling's lectures",
+  "sort": "glimpse into the twilight zone rod serling at elmira college 001975"
  },
  "works/serling-honorary-degrees": {
   "connection": "Serling received honorary doctorates from Emerson College (1971), Alfred University (1972) and Ithaca College (1972).",
@@ -28607,6 +29471,54 @@
   "subcategory": "Honors and awards",
   "sort": "honorary doctorates emerson alfred and ithaca"
  },
+ "works/serling-ithaca-episode-screenings": {
+  "connection": "Serling teaching with his own episodes.",
+  "tier": "core",
+  "tier_reason": "A talk or class about The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "First-hand accounts of Serling discussing the show with students.",
+  "source_title": "Al Rosen remembers Rod Serling (RSMF, 2020)",
+  "source_url": "https://rodserling.com/al-rosen-remembers-rod-serling/",
+  "title": "Serling's evening Twilight Zone screenings at Ithaca College (late 1960s)",
+  "subcategory": "In the classroom",
+  "sort": "serlings evening twilight zone screenings at ithaca college late 001960s"
+ },
+ "works/serling-ithaca-student-seminar-1972": {
+  "connection": "Serling as a teacher in his Ithaca years.",
+  "tier": "related",
+  "tier_reason": "A talk by Rod Serling, or about him, in his own voice or legacy.",
+  "recommendation": "include",
+  "reason": "Free video of Serling teaching.",
+  "source_title": "Gardner Campbell: Rod Serling Seminar (2021)",
+  "source_url": "https://www.gardnercampbell.net/blog1/rod-serling-seminar/",
+  "title": "Rod Serling seminar with Ithaca College students (1972)",
+  "subcategory": "In the classroom",
+  "sort": "rod serling seminar with ithaca college students 001972"
+ },
+ "works/serling-library-of-congress-lecture-1968": {
+  "connection": "A formal Serling lecture on writing for television.",
+  "tier": "related",
+  "tier_reason": "A talk by Rod Serling, or about him, in his own voice or legacy.",
+  "recommendation": "include",
+  "reason": "Rare, archived audio of Serling at the national library; streamable from a public archive.",
+  "source_title": "American Archive of Public Broadcasting: Library of Congress lectures II, episode 5 of 9",
+  "source_url": "https://americanarchive.org/catalog/cpb-aacip-500-tb0xv19x",
+  "title": "Rod Serling, Library of Congress lecture on television and the literary artist (1968)",
+  "subcategory": "Rod Serling's lectures",
+  "sort": "rod serling library of congress lecture on television and the literary artist 001968"
+ },
+ "works/serling-moorpark-college-1968": {
+  "connection": "Serling's politics in his own words, the same convictions behind many episodes.",
+  "tier": "related",
+  "tier_reason": "A talk by Rod Serling, or about him, in his own voice or legacy.",
+  "recommendation": "include",
+  "reason": "Full printed text survives; a strong primary source on Serling as a public voice.",
+  "source_title": "Rod Serling Rips Loyalty Oaths, the Vietnam War, and Social Inequity (RSMF)",
+  "source_url": "https://rodserling.com/rod-serling-rips-loyalty-oaths-the-vietnam-war-and-social-inequity/",
+  "title": "Rod Serling at Moorpark College: loyalty oaths, Vietnam and social inequity (1968)",
+  "subcategory": "Rod Serling's lectures",
+  "sort": "rod serling at moorpark college loyalty oaths vietnam and social inequity 001968"
+ },
  "works/serling-sepinwall-audiobook": {
   "connection": "The unabridged audio edition of TV critic Alan Sepinwall's study of Rod Serling and The Twilight Zone, read by the author.",
   "tier": "related",
@@ -28618,6 +29530,30 @@
   "title": "Serling: A Journey into the Twilight Zone with TV's First Visionary (audiobook)",
   "subcategory": "Other",
   "sort": "serling a journey into the twilight zone with tvs first visionary audiobook"
+ },
+ "works/serling-ucla-1966": {
+  "connection": "Serling discussing his craft two years after the show ended.",
+  "tier": "related",
+  "tier_reason": "A talk by Rod Serling, or about him, in his own voice or legacy.",
+  "recommendation": "include",
+  "reason": "One of the longest surviving films of Serling teaching; free to watch.",
+  "source_title": "LearnOutLoud: Rod Serling at UCLA in 1966",
+  "source_url": "https://learnoutloud.com/Catalog/Arts-and-Entertainment/Film_-Music_-Radio_-TV_-and-Pop-Culture/Rod-Serling-at-UCLA-in-1966/116797",
+  "title": "Rod Serling at UCLA (1966)",
+  "subcategory": "Rod Serling's lectures",
+  "sort": "rod serling at ucla 001966"
+ },
+ "works/serling-ucla-1971": {
+  "connection": "Serling on writing, in the Night Gallery years.",
+  "tier": "related",
+  "tier_reason": "A talk by Rod Serling, or about him, in his own voice or legacy.",
+  "recommendation": "include",
+  "reason": "Free, filmed and well cited.",
+  "source_title": "LearnOutLoud: Rod Serling at UCLA in 1971",
+  "source_url": "https://learnoutloud.com/Free-Audio-Video/Arts-and-Entertainment/Film_-Music_-Radio_-TV_-and-Pop-Culture/Rod-Serling-at-UCLA-in-1971/116798",
+  "title": "Rod Serling at UCLA (1971)",
+  "subcategory": "Rod Serling's lectures",
+  "sort": "rod serling at ucla 001971"
  },
  "works/serlingfest": {
   "connection": "The foundation's yearly celebration of Serling, which grew from a single day in 2017 into a multi-day program of screenings, panels, readings, author signings and trivia.",
@@ -28666,6 +29602,30 @@
   "title": "SerlingFest 2024 (Serling centennial)",
   "subcategory": "Events and honors",
   "sort": "serlingfest 002024 serling centennial"
+ },
+ "works/serlingfest-2025-in-his-own-words": {
+  "connection": "The 2025 edition of the main annual Serling festival.",
+  "tier": "related",
+  "tier_reason": "An event in Rod Serling's life or the wider franchise.",
+  "recommendation": "include",
+  "reason": "A dated, sourced festival with notable speakers.",
+  "source_title": "Pipe Dream (Binghamton University): SerlingFest 2025",
+  "source_url": "https://www.bupipedream.com/?p=170017",
+  "title": "SerlingFest 2025: In His Own Words",
+  "subcategory": "Anniversaries and festivals",
+  "sort": "serlingfest 002025 in his own words"
+ },
+ "works/serlingfest-2026": {
+  "connection": "The 2026 edition of the main annual Serling festival.",
+  "tier": "related",
+  "tier_reason": "An event in Rod Serling's life or the wider franchise.",
+  "recommendation": "maybe",
+  "reason": "Dates come from the foundation's announcement; confirm the programme before featuring it.",
+  "source_title": "RSMF Fall 2025 newsletter",
+  "source_url": "https://rodserling.com/fall-2025-newsletter/",
+  "title": "SerlingFest 2026",
+  "subcategory": "Anniversaries and festivals",
+  "sort": "serlingfest 002026"
  },
  "works/sf-encyclopedia-twilight-zone": {
   "connection": "Critical reference entry from the standard encyclopedia of the genre.",
@@ -28775,6 +29735,18 @@
   "subcategory": "Links and resources",
   "sort": "snac  serling rod 001924001975"
  },
+ "works/spotnitz-serlingfest-keynote-2025": {
+  "connection": "A TV writer on the show's influence.",
+  "tier": "core",
+  "tier_reason": "A talk or class about The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "A documented talk on the show's legacy by a major successor.",
+  "source_title": "Pipe Dream: SerlingFest 2025",
+  "source_url": "https://www.bupipedream.com/?p=170017",
+  "title": "Frank Spotnitz keynote, SerlingFest 2025",
+  "subcategory": "Readings and panels",
+  "sort": "frank spotnitz keynote serlingfest 002025"
+ },
  "works/st-john-fisher-twilight-zone-60th-2019": {
   "connection": "A campus event marking the series' 60th anniversary.",
   "tier": "related",
@@ -28822,6 +29794,18 @@
   "title": "Stony Brook OLLI – The Twilight Zone Continues",
   "subcategory": "In the classroom",
   "sort": "stony brook olli  the twilight zone continues"
+ },
+ "works/syfy-new-years-marathon": {
+  "connection": "The national form of the marathon tradition.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "A ritual many fans know the show from.",
+  "source_title": "BroadwayWorld: Syfy continues New Year's tradition with 22nd annual Twilight Zone marathon (2016)",
+  "source_url": "https://www.broadwayworld.com/bwwtv/article/SyFy-Continues-New-Years-Tradition-with-22nd-Annual-THE-TWILIGHT-ZONE-Marathon-20161221",
+  "title": "Sci-Fi Channel / Syfy New Year's Twilight Zone marathon",
+  "subcategory": "Broadcasts and marathons",
+  "sort": "scifi channel  syfy new years twilight zone marathon"
  },
  "works/sylvania-awards-serling": {
   "connection": "Television awards Serling won in two consecutive years for Patterns and Requiem for a Heavyweight.",
@@ -28882,6 +29866,18 @@
   "title": "Television Academy Hall of Fame induction",
   "subcategory": "Honors and awards",
   "sort": "television academy hall of fame induction"
+ },
+ "works/the-time-element-broadcast-1958": {
+  "connection": "The unofficial pilot that got the series made.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "The true starting point of the franchise; belongs at the top of the timeline.",
+  "source_title": "Wikipedia: The Time Element",
+  "source_url": "https://en.wikipedia.org/wiki/The_Time_Element",
+  "title": "\"The Time Element\" airs on Westinghouse Desilu Playhouse (1958)",
+  "subcategory": "Premieres",
+  "sort": "time element airs on westinghouse desilu playhouse 001958"
  },
  "works/theater-schmeater-twilight-zone-live": {
   "connection": "A long-running Seattle staple that stages original teleplays as live theatre.",
@@ -28991,6 +29987,18 @@
   "subcategory": "Attractions",
   "sort": "twilight zone tower of terror  a new dimension of chills"
  },
+ "works/tower-of-terror-california-closing-2017": {
+  "connection": "End of one TZ attraction.",
+  "tier": "related",
+  "tier_reason": "An event in Rod Serling's life or the wider franchise.",
+  "recommendation": "include",
+  "reason": "Closing dates complete the attraction records.",
+  "source_title": "Wikipedia: The Twilight Zone Tower of Terror",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_Tower_of_Terror",
+  "title": "Tower of Terror closes at Disney California Adventure (2017)",
+  "subcategory": "History",
+  "sort": "tower of terror closes at disney california adventure 002017"
+ },
  "works/tower-of-terror-disney-california-adventure": {
   "connection": "A more compact West Coast version of the ride, built in the Hollywood Pictures Backlot area.",
   "tier": "core",
@@ -29014,6 +30022,30 @@
   "title": "The Twilight Zone Tower of Terror (Disney's Hollywood Studios)",
   "subcategory": "Attractions",
   "sort": "twilight zone tower of terror disneys hollywood studios"
+ },
+ "works/tower-of-terror-film-1997": {
+  "connection": "Premiere of a film based on the TZ attraction.",
+  "tier": "related",
+  "tier_reason": "An event in Rod Serling's life or the wider franchise.",
+  "recommendation": "include",
+  "reason": "A franchise spin-off of the ride; one step from the show.",
+  "source_title": "Wikipedia: Tower of Terror (1997 film)",
+  "source_url": "https://en.wikipedia.org/wiki/Tower_of_Terror_(1997_film)",
+  "title": "Tower of Terror TV film premieres (1997)",
+  "subcategory": "Premieres",
+  "sort": "tower of terror tv film premieres 001997"
+ },
+ "works/tower-of-terror-orlando-opening-1994": {
+  "connection": "Opening of the franchise's theme-park attraction.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "The attraction is the franchise's biggest physical presence; its opening is a key date.",
+  "source_title": "Wikipedia: The Twilight Zone Tower of Terror",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_Tower_of_Terror",
+  "title": "The Twilight Zone Tower of Terror opens at Disney-MGM Studios (1994)",
+  "subcategory": "Premieres",
+  "sort": "twilight zone tower of terror opens at disneymgm studios 001994"
  },
  "works/tower-of-terror-tokyo-disneysea": {
   "connection": "A sister ride that uses the same drop-tower concept but has its own story with no Twilight Zone license or branding.",
@@ -29159,6 +30191,42 @@
   "subcategory": "Attractions",
   "sort": "twilight soire at the tiptop club"
  },
+ "works/twilight-zone-1985-premiere": {
+  "connection": "Premiere of the first revival.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Core franchise date.",
+  "source_title": "Wikipedia: The Twilight Zone (1985 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)",
+  "title": "The Twilight Zone revival premieres on CBS (1985)",
+  "subcategory": "Premieres",
+  "sort": "twilight zone revival premieres on cbs 001985"
+ },
+ "works/twilight-zone-2002-premiere": {
+  "connection": "Premiere of the second revival.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Core franchise date.",
+  "source_title": "Wikipedia: The Twilight Zone (2002 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)",
+  "title": "The Twilight Zone revival premieres on UPN (2002)",
+  "subcategory": "Premieres",
+  "sort": "twilight zone revival premieres on upn 002002"
+ },
+ "works/twilight-zone-2019-premiere": {
+  "connection": "Premiere of the third revival.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Core franchise date.",
+  "source_title": "Wikipedia: The Twilight Zone (2019 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)",
+  "title": "The Twilight Zone revival premieres on CBS All Access (2019)",
+  "subcategory": "Premieres",
+  "sort": "twilight zone revival premieres on cbs all access 002019"
+ },
  "works/twilight-zone-accident-1982": {
   "connection": "On the night of July 23, 1982, while filming the Vietnam sequence of Twilight Zone: The Movie at the Indian Dunes ranch near Valencia, California, special-effects explosions damaged a low-flying helicopter, which crashed onto actor Vic Morrow and child actors Myca Dinh Le, 7, and Renee Shin-Yi…",
   "tier": "core",
@@ -29255,6 +30323,18 @@
   "subcategory": "Games",
   "sort": "twilight zone 002014 pc game"
  },
+ "works/twilight-zone-magazine-launch-1981": {
+  "connection": "Launch of the official magazine.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Marks a licensed revival of the brand between the series and the film.",
+  "source_title": "Wikipedia: Rod Serling's The Twilight Zone Magazine",
+  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling%27s_The_Twilight_Zone_Magazine",
+  "title": "Rod Serling's The Twilight Zone Magazine launches (1981)",
+  "subcategory": "Premieres",
+  "sort": "rod serlings the twilight zone magazine launches 001981"
+ },
  "works/twilight-zone-museum": {
   "connection": "A long-standing independent fan reference site with sections on the show's title sequences, home video releases and other media history.",
   "tier": "core",
@@ -29291,6 +30371,18 @@
   "subcategory": "Games",
   "sort": "pinball arcade twilight zone table"
  },
+ "works/twilight-zone-premiere-1959": {
+  "connection": "The first broadcast of the series.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "The founding date of everything on the site.",
+  "source_title": "HISTORY.com: The Twilight Zone premieres",
+  "source_url": "https://www.history.com/this-day-in-history/october-2/the-twilight-zone-premieres",
+  "title": "The Twilight Zone premieres on CBS (1959)",
+  "subcategory": "Premieres",
+  "sort": "twilight zone premieres on cbs 001959"
+ },
  "works/twilight-zone-slot-igt": {
   "connection": "IGT's licensed casino video slot, housed in an oversized cabinet topped with physical spinning wheels.",
   "tier": "core",
@@ -29315,6 +30407,18 @@
   "subcategory": "Soundtracks and theme releases",
   "sort": "twilight zone the movie expanded edition"
  },
+ "works/twilight-zone-the-movie-release-1983": {
+  "connection": "Release of the franchise's feature film.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "The film's release is a core franchise date.",
+  "source_title": "The Numbers: Twilight Zone: The Movie",
+  "source_url": "https://www.the-numbers.com/movie/Twilight-Zone-The-Movie",
+  "title": "Twilight Zone: The Movie opens (1983)",
+  "subcategory": "Premieres",
+  "sort": "twilight zone the movie opens 001983"
+ },
  "works/twilight-zone-the-movie-soundtrack-1983": {
   "connection": "Goldsmith's original album presentation of his score for the four-segment anthology film, which also quotes Constant's television theme.",
   "tier": "core",
@@ -29338,6 +30442,18 @@
   "title": "\"Twilight zone\" as an everyday phrase",
   "subcategory": "Other",
   "sort": "twilight zone as an everyday phrase"
+ },
+ "works/twilight-zone-trial-1986-1987": {
+  "connection": "The legal aftermath of the deaths on the film's set.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Inseparable from the film's history; handled factually, it is one of the most-searched TZ topics.",
+  "source_title": "Wikipedia: Twilight Zone accident",
+  "source_url": "https://en.wikipedia.org/wiki/Twilight_Zone_accident",
+  "title": "The Twilight Zone manslaughter trial (1986-1987)",
+  "subcategory": "Accident and trial",
+  "sort": "twilight zone manslaughter trial 001986001987"
  },
  "works/twilight-zone-unscripted": {
   "connection": "Impro Theatre's fully improvised show, built from audience suggestions, that recreates the look, narration and twist endings of a classic episode.",
@@ -29663,6 +30779,18 @@
   "subcategory": "In the classroom",
   "sort": "wilmington college will course on baseball philosophy and the twilight zone"
  },
+ "works/wissner-music-in-the-twilight-zone-2017": {
+  "connection": "An academic lecture on the show's music.",
+  "tier": "core",
+  "tier_reason": "A talk or class about The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Scholarly talk on an under-covered side of the show.",
+  "source_title": "Ithaca College: Leading television music scholar to give lecture on music of The Twilight Zone",
+  "source_url": "https://www.ithaca.edu/news/leading-television-music-scholar-give-lecture-music-twilight-zone",
+  "title": "\"Music in the Twilight Zone: Hearing Rod Serling's Vision\" (Reba Wissner, 2017)",
+  "subcategory": "Academic talks",
+  "sort": "music in the twilight zone hearing rod serlings vision reba wissner 002017"
+ },
  "works/wondercon-2019-twilight-zone-panel": {
   "connection": "A WonderCon panel promoting the Peele-hosted revival a few days before its April 2019 debut, with previews of the new season.",
   "tier": "related",
@@ -29674,6 +30802,18 @@
   "title": "WonderCon Anaheim 2019 – The Twilight Zone panel",
   "subcategory": "Conventions",
   "sort": "wondercon anaheim 002019  the twilight zone panel"
+ },
+ "works/wpix-new-years-marathon": {
+  "connection": "Likely origin of the New Year's marathon.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Explains the best-known TZ ritual; flagged medium confidence because the first year is uncertain.",
+  "source_title": "Den of Geek: The Twilight Zone Marathon, a History of a Holiday Tradition (Arlen Schumer, 2018)",
+  "source_url": "https://www.denofgeek.com/tv/the-twilight-zone-marathon-a-history-of-a-holiday-tradition/",
+  "title": "WPIX's New Year's Twilight Zone marathon (1980s)",
+  "subcategory": "Broadcasts and marathons",
+  "sort": "wpixs new years twilight zone marathon 001980s"
  },
  "works/wskg-twilight-zone-live-2009": {
   "connection": "Binghamton's public broadcaster staged two Serling episodes live before a studio audience and broadcast them, produced by Brian Frey for the 50th anniversary.",

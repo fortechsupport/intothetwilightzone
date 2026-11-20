@@ -12441,6 +12441,24 @@
    "isNew": false
   }
  ],
+ "films/rod-serling-beyond-the-twilight-zone": [
+  {
+   "cat": "movies",
+   "sub": "twilight-zone-films",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Twilight Zone films",
+   "isNew": false
+  },
+  {
+   "cat": "movies",
+   "sub": "documentaries",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Documentaries",
+   "isNew": false
+  }
+ ],
  "films/rod-serling-submitted-for-your-approval": [
   {
    "cat": "movies",
@@ -12608,6 +12626,16 @@
    "group": "Episodes",
    "catTitle": "Homages",
    "subTitle": "In other shows",
+   "isNew": false
+  }
+ ],
+ "films/serling-2026": [
+  {
+   "cat": "movies",
+   "sub": "documentaries",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Documentaries",
    "isNew": false
   }
  ],
@@ -12979,6 +13007,24 @@
    "catTitle": "Episodes",
    "subTitle": "Television episodes",
    "isNew": false
+  }
+ ],
+ "films/the-doll-matheson-unmade-tz": [
+  {
+   "cat": "movies",
+   "sub": "shorts-and-other",
+   "group": "Unproduced projects",
+   "catTitle": "Movies",
+   "subTitle": "Shorts, pilots and other screen works",
+   "isNew": false
+  },
+  {
+   "cat": "movies",
+   "sub": "unmade-projects",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Unmade projects",
+   "isNew": true
   }
  ],
  "films/the-doomsday-flight": [
@@ -13951,6 +13997,24 @@
    "isNew": false
   }
  ],
+ "films/twilight-zone-cbs-revival-2012": [
+  {
+   "cat": "movies",
+   "sub": "shorts-and-other",
+   "group": "Unproduced projects",
+   "catTitle": "Movies",
+   "subTitle": "Shorts, pilots and other screen works",
+   "isNew": false
+  },
+  {
+   "cat": "movies",
+   "sub": "unmade-projects",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Unmade projects",
+   "isNew": true
+  }
+ ],
  "films/twilight-zone-golden-earring": [
   {
    "cat": "movies",
@@ -14019,6 +14083,14 @@
    "catTitle": "Movies",
    "subTitle": "Shorts, pilots and other screen works",
    "isNew": false
+  },
+  {
+   "cat": "movies",
+   "sub": "unmade-projects",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Unmade projects",
+   "isNew": true
   }
  ],
  "films/ufos-past-present-and-future": [
@@ -14179,6 +14251,32 @@
    "isNew": false
   }
  ],
+ "films/witches-warlocks-and-werewolves-abc-proposal": [
+  {
+   "cat": "movies",
+   "sub": "rod-serling-films",
+   "group": "Television and other",
+   "catTitle": "Movies",
+   "subTitle": "Rod Serling's films",
+   "isNew": false
+  },
+  {
+   "cat": "movies",
+   "sub": "shorts-and-other",
+   "group": "Unproduced projects",
+   "catTitle": "Movies",
+   "subTitle": "Shorts, pilots and other screen works",
+   "isNew": false
+  },
+  {
+   "cat": "movies",
+   "sub": "unmade-projects",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Unmade projects",
+   "isNew": true
+  }
+ ],
  "films/x-men-evolution-middleverse": [
   {
    "cat": "homages",
@@ -14309,6 +14407,16 @@
    "isNew": false
   }
  ],
+ "locations/busy-bee-cafe-ridgeview-ohio": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
  "locations/camp-toccoa-currahee": [
   {
    "cat": "places",
@@ -14339,6 +14447,16 @@
    "isNew": false
   }
  ],
+ "locations/castle-of-the-brothers-of-truth": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
  "locations/cbs-television-city": [
   {
    "cat": "places",
@@ -14356,6 +14474,46 @@
    "group": "Filming locations",
    "catTitle": "Places",
    "subTitle": "Real-life places",
+   "isNew": false
+  }
+ ],
+ "locations/centerville-stopover": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/cliffordville-indiana": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/corrys-asteroid": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/dachau-deaths-head-revisited": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
    "isNew": false
   }
  ],
@@ -14389,6 +14547,24 @@
    "isNew": false
   }
  ],
+ "locations/elmira-college": [
+  {
+   "cat": "places",
+   "sub": "real-life",
+   "group": "Event venues",
+   "catTitle": "Places",
+   "subTitle": "Real-life places",
+   "isNew": false
+  },
+  {
+   "cat": "places",
+   "sub": "lecture-event-venues",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Lecture and event venues",
+   "isNew": true
+  }
+ ],
  "locations/fairmont-empress-victoria-downtime": [
   {
    "cat": "places",
@@ -14396,6 +14572,16 @@
    "group": "Filming locations",
    "catTitle": "Places",
    "subTitle": "Real-life places",
+   "isNew": false
+  }
+ ],
+ "locations/fords-theatre-back-there": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
    "isNew": false
   }
  ],
@@ -14409,6 +14595,16 @@
    "isNew": false
   }
  ],
+ "locations/foster-mansion-new-orleans": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
  "locations/gastown-vancouver-the-who-of-you": [
   {
    "cat": "places",
@@ -14419,6 +14615,16 @@
    "isNew": false
   }
  ],
+ "locations/global-airlines-flight-33": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
  "locations/halfway-house-cafe-santa-clarita": [
   {
    "cat": "places",
@@ -14426,6 +14632,56 @@
    "group": "Filming locations",
    "catTitle": "Places",
    "subTitle": "Real-life places",
+   "isNew": false
+  }
+ ],
+ "locations/happiness-arizona": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/happy-glades": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/hi-way-cafe": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/hollywood-tower-hotel": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/homewood": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
    "isNew": false
   }
  ],
@@ -14455,6 +14711,36 @@
    "catTitle": "Archives and documents",
    "subTitle": "Collections",
    "isNew": true
+  }
+ ],
+ "locations/leyte-philippines-serling-wwii": [
+  {
+   "cat": "places",
+   "sub": "real-life",
+   "group": "Rod Serling's places",
+   "catTitle": "Places",
+   "subTitle": "Real-life places",
+   "isNew": false
+  }
+ ],
+ "locations/maple-street": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/mars-zoo-people-are-alike": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
   }
  ],
  "locations/mgm-lot-1-culver-city-stages": [
@@ -14517,6 +14803,34 @@
    "isNew": false
   }
  ],
+ "locations/moorpark-college": [
+  {
+   "cat": "places",
+   "sub": "real-life",
+   "group": "Event venues",
+   "catTitle": "Places",
+   "subTitle": "Real-life places",
+   "isNew": false
+  },
+  {
+   "cat": "places",
+   "sub": "lecture-event-venues",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Lecture and event venues",
+   "isNew": true
+  }
+ ],
+ "locations/night-gallery-the-gallery": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
  "locations/olancha-dunes-hundred-yards-over-the-rim": [
   {
    "cat": "places",
@@ -14534,6 +14848,36 @@
    "group": "Filming locations",
    "catTitle": "Places",
    "subTitle": "Real-life places",
+   "isNew": false
+  }
+ ],
+ "locations/pacific-ocean-park-santa-monica": [
+  {
+   "cat": "places",
+   "sub": "real-life",
+   "group": "Filming locations",
+   "catTitle": "Places",
+   "subTitle": "Real-life places",
+   "isNew": false
+  }
+ ],
+ "locations/peaceful-valley-new-mexico": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/peaksville-ohio": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
    "isNew": false
   }
  ],
@@ -14564,6 +14908,16 @@
    "group": "Rod Serling's places",
    "catTitle": "Places",
    "subTitle": "Real-life places",
+   "isNew": false
+  }
+ ],
+ "locations/rock-spring-school": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
    "isNew": false
   }
  ],
@@ -14647,6 +15001,16 @@
    "isNew": false
   }
  ],
+ "locations/room-22-morgue": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
  "locations/sage-chapel-cornell-serling-memorial": [
   {
    "cat": "places",
@@ -14707,6 +15071,16 @@
    "isNew": false
   }
  ],
+ "locations/ss-queen-of-glasgow": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
  "locations/steveston-richmond-not-all-men": [
   {
    "cat": "places",
@@ -14717,6 +15091,16 @@
    "isNew": false
   }
  ],
+ "locations/stockton-fallout-shelter": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
  "locations/strong-memorial-hospital-rochester": [
   {
    "cat": "places",
@@ -14724,6 +15108,114 @@
    "group": "Rod Serling's places",
    "catTitle": "Places",
    "subTitle": "Real-life places",
+   "isNew": false
+  }
+ ],
+ "locations/sunnyvale-rest": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/suny-broome-community-college": [
+  {
+   "cat": "places",
+   "sub": "real-life",
+   "group": "Event venues",
+   "catTitle": "Places",
+   "subTitle": "Real-life places",
+   "isNew": false
+  },
+  {
+   "cat": "places",
+   "sub": "lecture-event-venues",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Lecture and event venues",
+   "isNew": true
+  }
+ ],
+ "locations/the-cornfield": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/the-cylinder-five-characters": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/the-highway-hitch-hiker": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/the-nice-place": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/the-ninth-floor": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/the-old-mans-cave": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/the-twilight-zone-dimension": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/tinas-other-dimension": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
    "isNew": false
   }
  ],
@@ -14809,6 +15301,24 @@
    "isNew": true
   }
  ],
+ "locations/ucla-campus-serling-talks": [
+  {
+   "cat": "places",
+   "sub": "real-life",
+   "group": "Event venues",
+   "catTitle": "Places",
+   "subTitle": "Real-life places",
+   "isNew": false
+  },
+  {
+   "cat": "places",
+   "sub": "lecture-event-venues",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Lecture and event venues",
+   "isNew": true
+  }
+ ],
  "locations/ucla-rod-serling-papers": [
   {
    "cat": "places",
@@ -14834,6 +15344,26 @@
    "group": "Studio backlots and sets",
    "catTitle": "Places",
    "subTitle": "Real-life places",
+   "isNew": false
+  }
+ ],
+ "locations/upstate-new-york-bus-depot": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
+ "locations/v9-gamma": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
    "isNew": false
   }
  ],
@@ -14867,6 +15397,34 @@
    "isNew": false
   }
  ],
+ "locations/westport-library": [
+  {
+   "cat": "places",
+   "sub": "real-life",
+   "group": "Event venues",
+   "catTitle": "Places",
+   "subTitle": "Real-life places",
+   "isNew": false
+  },
+  {
+   "cat": "places",
+   "sub": "lecture-event-venues",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Lecture and event venues",
+   "isNew": true
+  }
+ ],
+ "locations/willoughby": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Places in the stories",
+   "isNew": false
+  }
+ ],
  "locations/wisconsin-center-film-theater-research-serling": [
   {
    "cat": "places",
@@ -14883,6 +15441,16 @@
    "catTitle": "Archives and documents",
    "subTitle": "Collections",
    "isNew": true
+  }
+ ],
+ "locations/wkrc-tv-cincinnati": [
+  {
+   "cat": "places",
+   "sub": "real-life",
+   "group": "Rod Serling's places",
+   "catTitle": "Places",
+   "subTitle": "Real-life places",
+   "isNew": false
   }
  ],
  "locations/wlw-radio-cincinnati-serling": [
@@ -19579,7 +20147,7 @@
   {
    "cat": "series",
    "sub": "podcast",
-   "group": null,
+   "group": "Active",
    "catTitle": "Series",
    "subTitle": "Podcasts",
    "isNew": false
@@ -19649,7 +20217,7 @@
   {
    "cat": "series",
    "sub": "podcast",
-   "group": null,
+   "group": "Active",
    "catTitle": "Series",
    "subTitle": "Podcasts",
    "isNew": false
@@ -19662,6 +20230,16 @@
    "group": null,
    "catTitle": "Episodes",
    "subTitle": "Podcast episodes",
+   "isNew": false
+  }
+ ],
+ "podcasts/night-gallery-podcast-christopher-brown": [
+  {
+   "cat": "series",
+   "sub": "podcast",
+   "group": "Ended",
+   "catTitle": "Series",
+   "subTitle": "Podcasts",
    "isNew": false
   }
  ],
@@ -19726,6 +20304,16 @@
   }
  ],
  "podcasts/pop-culture-happy-hour-twilight-zone-2019": [
+  {
+   "cat": "series",
+   "sub": "podcast",
+   "group": "Active",
+   "catTitle": "Series",
+   "subTitle": "Podcasts",
+   "isNew": false
+  }
+ ],
+ "podcasts/retroist-night-gallery-episode": [
   {
    "cat": "series",
    "sub": "podcast",
@@ -19815,6 +20403,16 @@
    "isNew": false
   }
  ],
+ "podcasts/the-twilight-gnome": [
+  {
+   "cat": "series",
+   "sub": "podcast",
+   "group": "Active",
+   "catTitle": "Series",
+   "subTitle": "Podcasts",
+   "isNew": false
+  }
+ ],
  "podcasts/the-twilight-highlight-zone": [
   {
    "cat": "series",
@@ -19839,7 +20437,7 @@
   {
    "cat": "series",
    "sub": "podcast",
-   "group": null,
+   "group": "Active",
    "catTitle": "Series",
    "subTitle": "Podcasts",
    "isNew": false
@@ -19866,6 +20464,36 @@
   }
  ],
  "podcasts/zone-i-sodes": [
+  {
+   "cat": "series",
+   "sub": "podcast",
+   "group": "Ended",
+   "catTitle": "Series",
+   "subTitle": "Podcasts",
+   "isNew": false
+  }
+ ],
+ "podcasts/zoned-out-the-twilight-zone-revisited": [
+  {
+   "cat": "series",
+   "sub": "podcast",
+   "group": null,
+   "catTitle": "Series",
+   "subTitle": "Podcasts",
+   "isNew": false
+  }
+ ],
+ "podcasts/zoners": [
+  {
+   "cat": "series",
+   "sub": "podcast",
+   "group": "Ended",
+   "catTitle": "Series",
+   "subTitle": "Podcasts",
+   "isNew": false
+  }
+ ],
+ "podcasts/zoning-out": [
   {
    "cat": "series",
    "sub": "podcast",
@@ -20383,6 +21011,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/and-when-the-sky-was-opened": [
@@ -20403,6 +21039,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/back-there": [
@@ -20423,6 +21067,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/big-tall-wish": [
@@ -20583,6 +21235,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/from-agnes-with-love": [
@@ -20603,6 +21263,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-unmade-tv-scripts",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Radio versions of unmade scripts",
+   "isNew": true
   }
  ],
  "radio/hes-alive": [
@@ -20803,6 +21471,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/mr-bevis": [
@@ -20853,6 +21529,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/mute": [
@@ -20873,6 +21557,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/nervous-man-in-a-four-dollar-room": [
@@ -20963,6 +21655,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/number-12-looks-just-like-you": [
@@ -21043,6 +21743,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-unmade-tv-scripts",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Radio versions of unmade scripts",
+   "isNew": true
   }
  ],
  "radio/people-are-alike-all-over": [
@@ -21123,6 +21831,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/ring-a-ding-girl": [
@@ -21163,6 +21879,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/sounds-and-silences": [
@@ -21233,6 +21957,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/the-25th-hour": [
@@ -21243,6 +21975,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/the-7th-is-made-up-of-phantoms": [
@@ -21273,6 +22013,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/the-arrival": [
@@ -21793,6 +22541,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-unmade-tv-scripts",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Radio versions of unmade scripts",
+   "isNew": true
   }
  ],
  "radio/the-time-of-your-life": [
@@ -21803,6 +22559,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/the-trade-ins": [
@@ -21833,6 +22597,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/the-whole-truth": [
@@ -21853,6 +22625,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/third-from-the-sun": [
@@ -21963,6 +22743,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-original-stories",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Original radio stories",
+   "isNew": true
   }
  ],
  "radio/two": [
@@ -22043,6 +22831,14 @@
    "catTitle": "Episodes",
    "subTitle": "Radio episodes",
    "isNew": false
+  },
+  {
+   "cat": "episodes",
+   "sub": "radio-unmade-tv-scripts",
+   "group": null,
+   "catTitle": "Episodes",
+   "subTitle": "Radio versions of unmade scripts",
+   "isNew": true
   }
  ],
  "radio/will-the-real-martian-please-stand-up": [
@@ -23885,6 +24681,26 @@
    "isNew": false
   }
  ],
+ "works/anne-serling-umw-great-lives-2025": [
+  {
+   "cat": "lectures",
+   "sub": "academic",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Academic lectures and courses",
+   "isNew": false
+  }
+ ],
+ "works/antioch-marker-dedication-2025": [
+  {
+   "cat": "events",
+   "sub": "anniversaries-festivals",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Anniversaries and festivals",
+   "isNew": false
+  }
+ ],
  "works/appalachian-state-fys-twilight-zone": [
   {
    "cat": "lectures",
@@ -24101,6 +24917,16 @@
    "isNew": true
   }
  ],
+ "works/binghamton-twilight-zone-50-2009": [
+  {
+   "cat": "events",
+   "sub": "anniversaries-festivals",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Anniversaries and festivals",
+   "isNew": false
+  }
+ ],
  "works/blue-room-chico-twilight-zone": [
   {
    "cat": "stage",
@@ -24121,6 +24947,34 @@
    "isNew": false
   }
  ],
+ "works/boulton-take-this-stand-2010": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  },
+  {
+   "cat": "lectures",
+   "sub": "academic",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Academic lectures and courses",
+   "isNew": false
+  }
+ ],
+ "works/bridgewater-state-anthropology-twilight-zone": [
+  {
+   "cat": "lectures",
+   "sub": "classroom",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "In the classroom",
+   "isNew": false
+  }
+ ],
  "works/bundy-museum-in-the-zone": [
   {
    "cat": "stage",
@@ -24130,6 +24984,16 @@
    "subTitle": "Attractions",
    "isNew": true
   },
+  {
+   "cat": "events",
+   "sub": "exhibitions",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Exhibitions",
+   "isNew": false
+  }
+ ],
+ "works/bundy-rod-serling-archive-opening-2015": [
   {
    "cat": "events",
    "sub": "exhibitions",
@@ -24166,6 +25030,16 @@
    "group": null,
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
+   "isNew": false
+  }
+ ],
+ "works/chris-alexander-morbid-anatomy-2024": [
+  {
+   "cat": "lectures",
+   "sub": "academic",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Academic lectures and courses",
    "isNew": false
   }
  ],
@@ -24339,6 +25213,16 @@
    "isNew": false
   }
  ],
+ "works/final-original-broadcast-1964": [
+  {
+   "cat": "events",
+   "sub": "broadcasts-marathons",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Broadcasts and marathons",
+   "isNew": false
+  }
+ ],
  "works/flickr-twilight-zone-incarnate": [
   {
    "cat": "community",
@@ -24475,6 +25359,16 @@
    "catTitle": "Stage and attractions",
    "subTitle": "Live readings",
    "isNew": true
+  }
+ ],
+ "works/hour-long-season-premiere-1963": [
+  {
+   "cat": "events",
+   "sub": "broadcasts-marathons",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Broadcasts and marathons",
+   "isNew": false
   }
  ],
  "works/hugo-1960-best-dramatic-presentation": [
@@ -24685,6 +25579,26 @@
    "isNew": false
   }
  ],
+ "works/ktla-july-4-marathon": [
+  {
+   "cat": "events",
+   "sub": "broadcasts-marathons",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Broadcasts and marathons",
+   "isNew": false
+  }
+ ],
+ "works/ktla-thanksgiving-marathon-1980": [
+  {
+   "cat": "events",
+   "sub": "broadcasts-marathons",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Broadcasts and marathons",
+   "isNew": false
+  }
+ ],
  "works/lafayette-return-to-the-twilight-zone": [
   {
    "cat": "stage",
@@ -24693,6 +25607,16 @@
    "catTitle": "Stage and attractions",
    "subTitle": "Theatre",
    "isNew": true
+  }
+ ],
+ "works/lost-classics-broadcast-1994": [
+  {
+   "cat": "events",
+   "sub": "premieres",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Premieres",
+   "isNew": false
   }
  ],
  "works/manhattan-transfer-twilight-zone-twilight-tone": [
@@ -24815,6 +25739,16 @@
    "isNew": false
   }
  ],
+ "works/national-twilight-zone-day": [
+  {
+   "cat": "events",
+   "sub": "anniversaries-festivals",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Anniversaries and festivals",
+   "isNew": false
+  }
+ ],
  "works/neil-norman-greatest-science-fiction-hits": [
   {
    "cat": "music",
@@ -24832,6 +25766,16 @@
    "group": null,
    "catTitle": "Events",
    "subTitle": "Conventions",
+   "isNew": false
+  }
+ ],
+ "works/night-gallery-pilot-broadcast-1969": [
+  {
+   "cat": "events",
+   "sub": "premieres",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Premieres",
    "isNew": false
   }
  ],
@@ -25299,6 +26243,24 @@
    "isNew": false
   }
  ],
+ "works/serling-antioch-drama-in-the-mass-media-1962": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  },
+  {
+   "cat": "lectures",
+   "sub": "classroom",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "In the classroom",
+   "isNew": false
+  }
+ ],
  "works/serling-at-100-university-of-florida": [
   {
    "cat": "events",
@@ -25306,6 +26268,44 @@
    "group": null,
    "catTitle": "Events",
    "subTitle": "Conventions",
+   "isNew": false
+  }
+ ],
+ "works/serling-broome-tech-censorship-1964": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  }
+ ],
+ "works/serling-death-1975": [
+  {
+   "cat": "events",
+   "sub": "other-events",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Other events",
+   "isNew": false
+  },
+  {
+   "cat": "events",
+   "sub": "serling-life",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Milestones in Rod Serling's life",
+   "isNew": true
+  }
+ ],
+ "works/serling-elmira-college-1975": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
    "isNew": false
   }
  ],
@@ -25319,6 +26319,62 @@
    "isNew": false
   }
  ],
+ "works/serling-ithaca-episode-screenings": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  },
+  {
+   "cat": "lectures",
+   "sub": "classroom",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "In the classroom",
+   "isNew": false
+  }
+ ],
+ "works/serling-ithaca-student-seminar-1972": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  },
+  {
+   "cat": "lectures",
+   "sub": "classroom",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "In the classroom",
+   "isNew": false
+  }
+ ],
+ "works/serling-library-of-congress-lecture-1968": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  }
+ ],
+ "works/serling-moorpark-college-1968": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  }
+ ],
  "works/serling-sepinwall-audiobook": [
   {
    "cat": "reading",
@@ -25326,6 +26382,26 @@
    "group": "Audiobooks",
    "catTitle": "Reading",
    "subTitle": "Books",
+   "isNew": false
+  }
+ ],
+ "works/serling-ucla-1966": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  }
+ ],
+ "works/serling-ucla-1971": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
    "isNew": false
   }
  ],
@@ -25350,6 +26426,26 @@
   }
  ],
  "works/serlingfest-2024-centennial": [
+  {
+   "cat": "events",
+   "sub": "anniversaries-festivals",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Anniversaries and festivals",
+   "isNew": false
+  }
+ ],
+ "works/serlingfest-2025-in-his-own-words": [
+  {
+   "cat": "events",
+   "sub": "anniversaries-festivals",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Anniversaries and festivals",
+   "isNew": false
+  }
+ ],
+ "works/serlingfest-2026": [
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
@@ -25459,6 +26555,24 @@
    "isNew": true
   }
  ],
+ "works/spotnitz-serlingfest-keynote-2025": [
+  {
+   "cat": "lectures",
+   "sub": "academic",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Academic lectures and courses",
+   "isNew": false
+  },
+  {
+   "cat": "lectures",
+   "sub": "readings-panels",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Readings and panels",
+   "isNew": false
+  }
+ ],
  "works/st-john-fisher-twilight-zone-60th-2019": [
   {
    "cat": "events",
@@ -25496,6 +26610,16 @@
    "group": null,
    "catTitle": "Lectures",
    "subTitle": "In the classroom",
+   "isNew": false
+  }
+ ],
+ "works/syfy-new-years-marathon": [
+  {
+   "cat": "events",
+   "sub": "broadcasts-marathons",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Broadcasts and marathons",
    "isNew": false
   }
  ],
@@ -25546,6 +26670,16 @@
    "group": null,
    "catTitle": "Events",
    "subTitle": "Honors and awards",
+   "isNew": false
+  }
+ ],
+ "works/the-time-element-broadcast-1958": [
+  {
+   "cat": "events",
+   "sub": "premieres",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Premieres",
    "isNew": false
   }
  ],
@@ -25639,6 +26773,16 @@
    "isNew": true
   }
  ],
+ "works/tower-of-terror-california-closing-2017": [
+  {
+   "cat": "events",
+   "sub": "other-events",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Other events",
+   "isNew": false
+  }
+ ],
  "works/tower-of-terror-disney-california-adventure": [
   {
    "cat": "stage",
@@ -25657,6 +26801,26 @@
    "catTitle": "Stage and attractions",
    "subTitle": "Attractions",
    "isNew": true
+  }
+ ],
+ "works/tower-of-terror-film-1997": [
+  {
+   "cat": "events",
+   "sub": "premieres",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Premieres",
+   "isNew": false
+  }
+ ],
+ "works/tower-of-terror-orlando-opening-1994": [
+  {
+   "cat": "events",
+   "sub": "premieres",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Premieres",
+   "isNew": false
   }
  ],
  "works/tower-of-terror-tokyo-disneysea": [
@@ -25787,6 +26951,36 @@
    "isNew": true
   }
  ],
+ "works/twilight-zone-1985-premiere": [
+  {
+   "cat": "events",
+   "sub": "premieres",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Premieres",
+   "isNew": false
+  }
+ ],
+ "works/twilight-zone-2002-premiere": [
+  {
+   "cat": "events",
+   "sub": "premieres",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Premieres",
+   "isNew": false
+  }
+ ],
+ "works/twilight-zone-2019-premiere": [
+  {
+   "cat": "events",
+   "sub": "premieres",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Premieres",
+   "isNew": false
+  }
+ ],
  "works/twilight-zone-accident-1982": [
   {
    "cat": "events",
@@ -25875,6 +27069,16 @@
    "isNew": false
   }
  ],
+ "works/twilight-zone-magazine-launch-1981": [
+  {
+   "cat": "events",
+   "sub": "premieres",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Premieres",
+   "isNew": false
+  }
+ ],
  "works/twilight-zone-museum": [
   {
    "cat": "community",
@@ -25905,6 +27109,16 @@
    "isNew": false
   }
  ],
+ "works/twilight-zone-premiere-1959": [
+  {
+   "cat": "events",
+   "sub": "premieres",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Premieres",
+   "isNew": false
+  }
+ ],
  "works/twilight-zone-slot-igt": [
   {
    "cat": "games",
@@ -25922,6 +27136,16 @@
    "group": "Score releases",
    "catTitle": "Music",
    "subTitle": "Soundtracks and score releases",
+   "isNew": false
+  }
+ ],
+ "works/twilight-zone-the-movie-release-1983": [
+  {
+   "cat": "events",
+   "sub": "premieres",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Premieres",
    "isNew": false
   }
  ],
@@ -25943,6 +27167,32 @@
    "catTitle": "Cultural impact",
    "subTitle": "Catchphrases",
    "isNew": true
+  }
+ ],
+ "works/twilight-zone-trial-1986-1987": [
+  {
+   "cat": "legal-history",
+   "sub": "trials",
+   "group": null,
+   "catTitle": "Legal history",
+   "subTitle": "Trials",
+   "isNew": true
+  },
+  {
+   "cat": "legal-history",
+   "sub": "accident-trial",
+   "group": null,
+   "catTitle": "Legal history",
+   "subTitle": "Accident trial",
+   "isNew": true
+  },
+  {
+   "cat": "events",
+   "sub": "production-history",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Production and broadcast history",
+   "isNew": false
   }
  ],
  "works/twilight-zone-unscripted": [
@@ -26215,6 +27465,24 @@
    "isNew": false
   }
  ],
+ "works/wissner-music-in-the-twilight-zone-2017": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  },
+  {
+   "cat": "lectures",
+   "sub": "academic",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Academic lectures and courses",
+   "isNew": false
+  }
+ ],
  "works/wondercon-2019-twilight-zone-panel": [
   {
    "cat": "events",
@@ -26222,6 +27490,16 @@
    "group": null,
    "catTitle": "Events",
    "subTitle": "Conventions",
+   "isNew": false
+  }
+ ],
+ "works/wpix-new-years-marathon": [
+  {
+   "cat": "events",
+   "sub": "broadcasts-marathons",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Broadcasts and marathons",
    "isNew": false
   }
  ],

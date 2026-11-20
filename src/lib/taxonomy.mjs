@@ -47,6 +47,7 @@ export const TAXONOMY = [
     connection: 'Real places are where episodes were made, where Serling lived and is remembered, or where the franchise can be visited today. In-story places are settings named in the episodes, each linked to where it appears.',
     subs: [
       { slug: 'real-life', title: 'Real-life places', blurb: 'Filming locations, backlots, Serling\'s homes, memorials, museums and attractions.', intro: 'Each place says what was filmed or happened there and whether you can still visit.' },
+      { slug: 'lecture-event-venues', title: 'Lecture and event venues', isNew: true, blurb: 'Halls and campuses where Serling spoke and where Twilight Zone events are held.' },
       { slug: 'in-story', title: 'Places in the stories', blurb: 'Willoughby, Peaksville, Maple Street and the other settings of the stories.', intro: 'Fictional towns, planets and rooms from the episodes, with the episodes they appear in.' },
     ],
   },
@@ -67,6 +68,7 @@ export const TAXONOMY = [
       { slug: 'honors-awards', title: 'Honors and awards', blurb: 'Emmys, Hugos, halls of fame, stamps and other honors to Serling and the show.', intro: 'Serling won six Emmys, three of them before The Twilight Zone, and the show won Hugo Awards in 1960, 1961 and 1962. Later honors include the Television Academy Hall of Fame and a star on the Hollywood Walk of Fame.' },
       { slug: 'premieres', title: 'Premieres', blurb: 'Premieres of the series, revivals and films.' },
       { slug: 'production-history', title: 'Production and broadcast history', blurb: 'Dated milestones in how each series was made, scheduled and syndicated.', intro: 'From the history notes on each series and film: pilots, renewals, format changes, cancellations and syndication.' },
+      { slug: 'serling-life', title: "Milestones in Rod Serling's life", isNew: true, blurb: 'Dated events in Serling\'s life, from his birth in 1924 to his death in 1975.' },
       { slug: 'other-events', title: 'Other events', blurb: 'Events that fit no other group.' },
     ],
   },
@@ -100,6 +102,8 @@ export const TAXONOMY = [
     subs: [
       { slug: 'tv', title: 'Television episodes', blurb: 'All four series and Night Gallery, alphabetically within each series.' },
       { slug: 'radio', title: 'Radio episodes', blurb: 'The Twilight Zone Radio Dramas and Serling\'s radio plays.' },
+      { slug: 'radio-original-stories', title: 'Original radio stories', isNew: true, blurb: 'Radio drama episodes written for audio rather than adapted from television.' },
+      { slug: 'radio-unmade-tv-scripts', title: 'Radio versions of unmade scripts', isNew: true, blurb: 'Radio dramas made from Twilight Zone scripts that were never filmed.' },
       { slug: 'podcast', title: 'Podcast episodes', blurb: 'Single podcast episodes about the show or the 1983 film.' },
     ],
   },
@@ -117,6 +121,7 @@ export const TAXONOMY = [
       { slug: 'documentaries', title: 'Documentaries', blurb: 'Documentaries about Serling and the show.' },
       { slug: 'linked-films', title: 'Films linked to an episode', blurb: 'Feature films that remake, adapt, echo or parody a specific episode.' },
       { slug: 'rod-serling-films', title: "Rod Serling's films", blurb: 'Films and television films Serling wrote, hosted or narrated.' },
+      { slug: 'unmade-projects', title: 'Unmade projects', isNew: true, blurb: 'Twilight Zone films and specials that were announced or developed but never made.' },
       { slug: 'shorts-and-other', title: 'Shorts, pilots and other screen works', blurb: 'Short films, music videos, pilots, specials and unproduced projects.' },
       { slug: 'tv-films', title: 'Television films', blurb: 'Made-for-television films.' },
       { slug: 'twilight-zone-films', title: 'Twilight Zone films', blurb: 'Official Twilight Zone films and specials.' },
