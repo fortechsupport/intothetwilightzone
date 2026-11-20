@@ -1,9 +1,17 @@
 title: Robbin' Hood (Cause It Ain't All Good)
 artist: Ice Cube
-tz_connection: unclassified
+tz_connection: lyric-mention
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-research_confidence: low
-description: A song by Ice Cube listed in the original research with no stated Twilight Zone connection. The tie
-  is probably a lyric line or sample, but it has not been verified.
+- title: 'Letras.mus.br: Robbin'' Hood Cause It Ain''t All Good - Ice Cube'
+  url: https://www.letras.mus.br/ice-cube/robbin-hood-cause-it-aint-all-good/
+research_confidence: high
+description: >-
+  A song by Ice Cube listed in the original research with no stated Twilight Zone connection. The tie is probably
+  a lyric line or sample, but it has not been verified.
+album: Lethal Injection
+genre: hip hop
+year: 1993
+relevance: tangential
+last_verified: '2026-11-20'

@@ -1,0 +1,45 @@
+title: Twilight Zone sponsorship in the 1959-60 trade press (Sponsor, Variety, Broadcasting)
+kind: other
+year: 1959-1960
+publisher: Sponsor / Variety / Broadcasting (trade press)
+description: >-
+  The Media History Digital Library has digitized 1959-60 issues of the trade magazines Sponsor, Variety, Broadcasting
+  and Television Digest. Searching its Lantern tool for The Twilight Zone returns pages from these magazines, which
+  are where the show's sponsor deals and network promotion would have appeared. TV Obscurities has an exhibit of
+  vintage sponsor spots. TVLine and /Film have written about the show's early sponsors, including one that dropped
+  out because it never understood the show, and about sponsors refusing a dark season 2 script. Which pages carry
+  actual advertisements, as opposed to news items, has not been checked.
+subtype: vintage-ad
+details:
+  to_verify: which Lantern pages are ads vs news; the sponsor names are not confirmed from these sources
+relevance: core
+research_confidence: low
+sources:
+- title: 'Lantern: Sponsor (Oct-Dec 1959)'
+  url: https://lantern.mediahist.org/catalog/sponsor134052spon_0853
+- title: 'Lantern: Sponsor (July-Sept 1959)'
+  url: https://lantern.mediahist.org/catalog/sponsor132739spon_0546
+- title: 'Lantern: Sponsor (Oct-Dec 1960)'
+  url: https://lantern.mediahist.org/catalog/sponsor144052spon_0935
+- title: 'Lantern: Broadcasting Telecasting (Jan-Mar 1960)'
+  url: https://lantern.mediahist.org/catalog/broadcastingtele58unse_1017
+- title: 'Lantern: Ross Reports television index (1960)'
+  url: https://lantern.mediahist.org/catalog/rossreportstele89ross_0016
+- title: 'TV Obscurities: Sponsor spots exhibit'
+  url: https://www.tvobscurities.com/exhibits/sponsor_spots/
+- title: 'TVLine: The Twilight Zone Lost An Early Sponsor Who Was Never Able To Understand The Show'
+  url: https://www.tvline.com/2300762/the-twilight-zone-lost-early-sponsor-never-able-understand-show/
+- title: '/Film: Why The Twilight Zone''s Sponsors Rejected A Dark Season 2 Episode'
+  url: https://www.slashfilm.com/1803952/why-twilight-zone-sponsors-rejected-episode-sea-change
+media:
+- type: document
+  title: Sponsor magazine, Oct-Dec 1959 (page scan)
+  url: https://lantern.mediahist.org/catalog/sponsor134052spon_0853
+  host: Media History Digital Library (Lantern)
+  rights: link-only
+- type: document
+  title: Broadcasting Telecasting, Jan-Mar 1960 (page scan)
+  url: https://lantern.mediahist.org/catalog/broadcastingtele58unse_1017
+  host: Media History Digital Library (Lantern)
+  rights: link-only
+last_verified: '2026-11-20'

@@ -5,8 +5,10 @@ description: Japanese laserdisc volumes of the 1985 CBS revival, such as vol. 10
 subtype: laserdisc
 details:
   licensed: true
+  catalog_numbers:
+    vol.10: PILF-1048
 relevance: core
-research_confidence: medium
+research_confidence: high
 sources:
 - title: 'LDDb: New Twilight Zone vol.10 (PILF-1048)'
   url: https://www.lddb.com/laserdisc/11191/PILF-1048/New-Twilight-Zone:-vol.10

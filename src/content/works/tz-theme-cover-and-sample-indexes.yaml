@@ -1,0 +1,37 @@
+title: Twilight Zone theme cover and sample indexes (SecondHandSongs, WhoSampled)
+kind: other
+description: >-
+  Reference record for the databases that track covers and samples of both Twilight Zone themes. SecondHandSongs
+  keeps separate work pages for Constant's "Theme from the Twilight Zone" and Herrmann's first-season theme. WhoSampled
+  splits its Twilight Zone page by element: Original Theme (Herrmann), Title Sequence (Season 4 Onwards) (Constant),
+  Intro, and episode narrations. The fan wiki keeps a broader list of audio recordings that reference the series.
+subtype: theme-use
+relevance: core
+research_confidence: high
+sources:
+- title: SecondHandSongs – Theme from the Twilight Zone [Constant]
+  url: https://secondhandsongs.com/work/174718/all
+- title: SecondHandSongs – Theme from the Twilight Zone [Herrmann]
+  url: https://secondhandsongs.com/work/222353
+- title: WhoSampled – The Twilight Zone (TV Show) samples
+  url: https://www.whosampled.com/tv/The-Twilight-Zone/
+- title: WhoSampled – Samples of The Twilight Zone – Original Theme
+  url: https://www.whosampled.com/tv/The-Twilight-Zone/Original-Theme/
+- title: WhoSampled – songs that sampled Herrmann's Twilight Zone Opening Theme
+  url: https://www.whosampled.com/Bernard-Herrmann/Twilight-Zone-Opening-Theme/sampled/
+- title: Twilight Zone Wiki – Audio recordings with references to The Twilight Zone
+  url: https://twilightzone.fandom.com/wiki/Audio_recordings_with_references_to_The_Twilight_Zone
+media:
+- type: link
+  title: WhoSampled – The Twilight Zone
+  url: https://www.whosampled.com/tv/The-Twilight-Zone/
+  host: WhoSampled
+  rights: link-only
+  subtype: listing
+- type: link
+  title: SecondHandSongs – Constant theme
+  url: https://secondhandsongs.com/work/174718/all
+  host: SecondHandSongs
+  rights: link-only
+  subtype: listing
+last_verified: '2026-11-20'

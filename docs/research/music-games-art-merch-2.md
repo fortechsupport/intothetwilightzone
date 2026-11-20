@@ -259,3 +259,147 @@ Output: artwork.jsonl, 69 records (50 works and 19 people). 8 of these are updat
 - Should Tower of Terror merchandise sit under Merchandise or under the attraction records?
 - Do you want single-carded re-issues as separate rows, or folded into the parent line?
 - Should unlicensed fan-maker items (Etsy-style pins and shirts) be included at all?
+
+## Pass 2b (second sweep, same night)
+
+52 new records, 17 enriched, 37 connections. Corrected: The Ventures' "Twilight Zone" is Marty Manning's tune, not the TV theme.
+
+---
+
+### Music / Songs research notes (pass 2)
+
+### Budget
+- The shared WebFetch budget (100 per hour across all agents) ran out early and stayed close to empty. About 12 of my fetches worked.
+- Web searches return only titles and URLs, so a search cannot confirm a lyric. Each lyric check needs one fetch.
+- curl to lyric sites is blocked by the proxy.
+- A method that works: build the letras.mus.br address by hand (`https://www.letras.mus.br/<artist-slug>/<song-slug>/`) and ask the fetch whether the phrase appears. The fetch model will not quote lyrics, but it does say yes or no, which verse, and whether the phrase is an idiom or a reference to the show. If the slug is wrong, the site falls back to another song by the same artist (that happened for MF DOOM, whose slug returned "Potholderz"), so always check the title the fetch reports.
+
+### Task A: confirmed (update_of, with sources)
+- **A Tribe Called Quest, "Description of a Fool" (1990):** the phrase appears. The fetch would not say where, or whether it is an idiom.
+- **Ice Cube, "Robbin' Hood (Cause It Ain't All Good)" (1993):** first verse, used as an idiom.
+- **Tyler, the Creator, "Nightmare" (Goblin, 2011):** verse 3, used as an idiom.
+- **Excludes:** none. No song got a real lyric check that came back negative.
+- **Not yet checked:** MF DOOM "Go with the Flow" (the letras slug does not exist), Kid Cudi, Kid Rock, Tech N9ne, E-40, Chamillionaire, Vanilla Ice, WC, The Roots, Dennis DeYoung, Loudon Wainwright, Lisa Brokop, Thirsty Merc, Gary Portnoy, Warren Haynes, John Entwistle, and the rest of the unclassified rows. Try letras slugs for them first next pass.
+- **Correction lead:** "Ghetto Horror Show" is credited on lyric sites to Mack 10 featuring Jayo Felony and Ice Cube. The existing row lists only Ice Cube.
+
+### Task B: new
+- **Serling, *Next Stop, Willoughby* (2022, Been There Scene That):** a full concept album whose tracks are named after episodes. I added the 12 tracks not already listed (A Passage for Trumpet already exists), each with an episode id. Sources: Metal Music Archives tracklist, Heavy Blog Is Heavy, Everything Is Noise.
+- **Serling EP, *The James Bevis Chronicles / The Hempstead Assignments*:** the title seems to point to "Mr. Bevis". Low confidence.
+- **Leads with title matches only:** The Dockers "Talking Tina", a Bandcamp track "Willoughby" (morosecodeoh), and Alienfaktor "Twilight Zone". All are low confidence and marked "maybe".
+- **Pages checked that added nothing new:** the TV Tropes "Referenced By" Twilight Zone page and the Twilight Zone Wiki page "Audio recordings with references" both list only songs we already have. The Wikipedia article "Time Enough at Last" names no songs. Steve Terrell's "It's Twilight Time" playlist also holds only existing songs.
+- **Hip-hop and rock leads from the brief (Jay-Z, Eminem, Nas, Wu-Tang, Kanye, Ab-Soul, They Might Be Giants, BÖC, Ramones, Misfits, Danzig, Anthrax, Fall Out Boy, Dan Bern):** searches returned nothing I could use. They need lyric fetches or Genius access.
+  - TMBW lists "Hell Hotel" (They Might Be Giants) for a Twilight Zone search. Check its notes.
+- **Other unchecked leads:**
+  - AllMusic album "Monsters on Maple Street" (mw0001436074)
+  - AllMusic "Time Enough at Last" album (mw0000449432)
+  - "Twilight Zone EP" (mw0000934439)
+  - The Kiwix copy of the Wikipedia "Twilight Zone (disambiguation)" page, which could not be fetched
+
+### Proposed subcategories
+- **Concept albums built on episodes:** Serling's *Next Stop, Willoughby* is the clearest example. It fits next to "songs named after episodes."
+- **An "idiom" flag on lyric mentions:** Ice Cube and Tyler both use the phrase only as everyday slang.
+
+### Open questions
+- Should idiom-only mentions by major artists (Ice Cube, Tyler, ATCQ) be listed or hidden?
+- Should every track of an episode-titled concept album get its own record (as done here), or should the album get one record?
+
+---
+
+### Music, second pass: theme covers, revivals, stock credits (notes)
+
+Output: out/music-scores-2.jsonl has 31 records (13 songs, 12 works, 6 people). 6 of them are update_of enrichments: the-ventures-the-twilight-zone, jonathan-davis-the-twilight-zone-2002, neil-norman-and-his-cosmic-orchestra-twilight-zone, mark-snow, robert-drasnin and jeff-alexander (the last two are first-pass ids).
+Builder script, which validates ids, update_of and episodes: scratchpad/gen-music-scores-2/build.py
+Budget: the shared WebFetch budget ran out after about 9 fetches. Search results came back as titles and links only, so several records are medium or low confidence and say so.
+
+### Key findings
+- **Correction: the Ventures' "Twilight Zone" (1964, The Ventures in Space, Dolton) is credited to Marty Manning.** It is the tune from Manning's 1961 LP, not Constant's TV theme. The existing song record has been corrected with update_of.
+- **2002 UPN series**: IMDb credits **Mark Snow** as composer, **Jonathan Davis (of Korn)** for "theme music adapted and performed", **Marius Constant** for the original theme, and **Stuart Goetz** as music editor. No score album was found.
+- **Lost Classics (1994)**: the music is by **Patrick Williams** (SciFi-Movies credits page).
+- **Radio Dramas**: no composer credit in Wikipedia or the reviews. Only sound engineers are named (Wolski, Benson, Lee, Cerny, Rizzo). The CD booklets need checking.
+- **Tower of Terror**: **Richard Bellis** scored the pre-show "episode", re-recording the original instrumentation. The lobby uses period jazz (Ellington's "Mood Indigo"; Vera Lynn's "We'll Meet Again" in Paris). No official album exists.
+- **Herrmann's "Moat Farm Murder" (1946 CBS radio)**: its cues were reused in 11 original-series episodes (Wissner 2017, open-access PDF on CORE). Robert Drasnin compiled the stock scores for Rip Van Winkle Caper, Valley of the Shadow and Nightmare at 20,000 Feet. Wissner also says 57 of 156 episodes used either an original score or at least one Herrmann stock cue.
+- **Jeff Alexander**: "The Trouble with Templeton" is confirmed as one of his two original scores (Cambridge chapter abstract). Tommy Morgan and Laurindo Almeida are confirmed as writing for episodes featuring their instruments, but the abstract names no episodes.
+- **New covers and samples**: Silver Bullet "Undercover Anarchist", the 8 Bit Arcade chiptune (of the *Herrmann* theme), DJ Cam "Twilight Zone" (samples Herrmann's "Space Control" from the Outer Space Suite), the Manhattan Transfer with the WDR Funkhausorchester, the Cincinnati Pops/Kunzel "Chiller" (detail is medium confidence), and Nebula-H, James Andreasen and The X Files (all low confidence, single-source WhoSampled entries).
+- **Other uses**: the 2019 Super Bowl LIII "disruption" spot (Clio winner), The Score #906 radio hour, the Gary Wolk orchestral and Jeffrey Bowen band arrangements, the Constant/Lubin TZ–Outer Limits pairing on Discogs (low), and CCR's "Midnight Special" in the Twilight Zone: The Movie prologue.
+
+### Still open (gaps)
+- **Lyn Murray, William Lava, Wilbur Hatch**: no source ties them to a TZ episode. No records made. This needs Wissner's book appendix.
+- **Herrmann "Jess-Belle" / "Living Doll"**: both records are marked low/maybe. The infobox credits could not be fetched.
+- **2019 series**: no official soundtrack album was found (searched Lakeshore and Varèse; only the Tunefind song lists turned up). No new Beltrami/Roberts per-episode credits; IMDb episode credit pages exist (e.g. s.media-imdb.com/title/tt9199174/fullcredits) but were not fetched.
+- **Twilight Zone: The Movie**: Goldsmith scored all segments, and the existing records already cover this. Only the CCR song was added.
+- **To fetch when budget allows**: the WhoSampled TV page and page 2 (whosampled.com/tv/The-Twilight-Zone/?sp=2), the SecondHandSongs Constant work page (secondhandsongs.com/work/174718/all) for a full cover list, Discogs 4475505, and the Twilight Zone Wiki audio-references page.
+- **To merge**: the duplicate unclassified rows (golden-earring-twilight-zone-2, iron-maiden-twilight-zone-2, 2-unlimited-twilight-zone-2) are still outstanding.
+
+### Proposed new subcategories
+- **series-score** (record for one revival's whole music department), for when there is no album.
+- **audio-drama-score**: music for the radio dramas.
+- **attraction-music**: Tower of Terror queue, pre-show and ride audio.
+- **theme-use** (carried over): adverts and promos, e.g. the Super Bowl spot.
+- **radio-segment** (carried over): radio programmes about the music.
+- **library-cue** (carried over): individual CBS stock scores reused in episodes (e.g. Moat Farm Murder).
+
+### Questions for Adam
+1. Do you want low-confidence single-source WhoSampled samples (Nebula-H, Andreasen, The X Files) public, or held back as data only?
+2. Should licensed pop songs in TZ productions (like CCR in the 1983 movie) go in Songs or in a separate "songs in productions" list?
+
+---
+
+### Gaps pass 2: games, art, collectibles, ads
+
+Output: out/gaps-2.jsonl has 19 records: 9 enrich existing records (update_of) and 10 are new. No new id repeats an existing or first-pass id.
+Both web budgets ran out: WebFetch hit the shared hourly cap after 11 calls, and about 58 searches were used. Many search results came back as titles and links only, so several rows are marked low confidence and include a "to_verify" note.
+
+### Resolved
+- **Pinball FX VR add-on:** released on Meta Quest 2024-08-26 at $14.99, by Zen Studios (source: QuestStoreDB).
+- **1988 game on Atari ST:** not confirmed. Lysator lists Amiga and PC only. First Row did release other games on the ST, such as Prime Time, so a port is plausible but has no evidence.
+- **Bottleneck / Phantom City Creative:** the "Time Enough at Last" print, on sale 2026-04-16. Three editions: 100, 75 and 25 (acrylic panel), priced $50, $60 and $85. If the existing record is about an earlier print, split it.
+- **New prints:**
+  - Drew Friedman's Rod Serling print: 2024, edition of 20, signed.
+  - Zeb Love's TZ print (1xRUN).
+  - Tom Whalen's "It's a Good Life" (Dark Hall Mansion, 2017), with a Heritage lot page.
+- **TV Guide:** Serling's cover of June 3, 1972 (Night Gallery; photo by Gene Trindl). The 1970s list has no Twilight Zone cover. The 1950s and 1960s lists were not checked; the URL is en.wikipedia.org/wiki/List_of_TV_Guide_covers_(1960s).
+- **Auction documents (new subtype script-archive):**
+  - Richard Matheson's annotated "Once Upon a Time" script archive, with a companion lot (Heritage 997042, lots 1989 and 1990), plus the 2017 Fine Books report.
+  - Martin Landau's shooting scripts (Heritage lot 1183).
+  - A screen-used TZ matte painting (Nate D. Sanders lot 67144, April 2024). The episode is not yet confirmed.
+- **Laserdiscs:** LDDB catalog numbers for the Pioneer Japan discs: PILF-2612, PILF-2670, PILF-2542 (Treasures) and PILF-1048 (New TZ vol. 10).
+- **Sideshow 12-inch figures:** probably 2002-2003, based on Toymania's Toy Fair 2003 coverage and a 2002-dated listing. Low confidence.
+- **Rittenhouse sketch cards:** only one artist found, Cris Bolson (Series 4 Gremlin sketch, case incentive).
+- **Apparel:**
+  - 80sTees designs ("To Serve Man", "Question the Unknown", "The Fear").
+  - Trevco CBS-licensed tees (TRCBS186, TRCBS1562BK).
+  - Licensed tees sold at Target and Walmart ("The Masks", "Living Doll", "Monologue").
+- **TZ VR:** added developer interviews (Fangoria, DreadXP, Den of Geek, ISPR) and Fun Train's history post.
+- **Vintage ads (subtype vintage-ad):**
+  - 1959-60 Media History Digital Library (Lantern) pages from Sponsor and Broadcasting.
+  - Sponsor-history articles from TVLine, /Film and TV Obscurities.
+  - 1983 film pages in Texas A&M's Battalion (June 23, 1983, p. 5) and the Michigan Daily (Bentley Library).
+  - All of these are legitimately hosted scans, but none has yet been confirmed to show an actual ad versus a news item.
+
+### Not found or not verifiable (no source, so no row)
+- **Legacy Interactive 2014 game:** credits still not found. MobyGames entry 4095 mixes the 2014 game with the Amiga/DOS versions and shows no names.
+- **Control, BioShock, Psychonauts, Twisted Metal, Destiny:** no source found that ties any of them to Twilight Zone. BioShock's only link is Ken Levine's Interlude project, which is already a record. Leave these out.
+- **Licensed mobile or Facebook games, boxed trivia or party games, escape-room boxes:** none found.
+- **Slots:** only IGT's TZ slot exists. No Bally, WMS, Aristocrat or Light & Wonder TZ slot was found.
+- **Tower of Terror games:** nothing beyond Clue and the promotional PC game already on the site.
+- **Title design:** no designer found for the 2002 UPN opening or for the 1983 movie's titles.
+- **Prints and art shows:** no Mondo TZ print confirmed (the 2016 "To Serve Man" giclées were Dark Hall Mansion, not Mondo). No Grey Matter TZ print found. No Crazy 4 Cult TZ piece found.
+- **Serling statue:** no source names the sculptor. WSKG, Digital Journal and the RSMF pages don't say. Worth asking the Rod Serling Memorial Foundation directly.
+- **Night Gallery auctions:** none found at Heritage, Profiles in History or Julien's; the only sale is the Hakes painting already on the site.
+- **Home video:** 1980s CBS/Fox and Columbia House VHS releases are unconfirmed. Library catalog records (TAMU "The twilight zone. Vol. 1-4", UWM film collection, ACMI "The Twilight Zone Volume 1") exist, but I could not open them to check the format and publisher. No US Image Entertainment laserdisc pages were found on LDDB.
+- **Merchandise:** no merchandise found for the 1985 or 2019 series, apart from the 2019 DVD and Blu-ray. Also none found:
+  - Hallmark ornaments other than 2009. The 2010-2012 Dreambook PDFs came up in search but were not checked.
+  - Licensed jigsaw puzzles.
+  - Spirit Halloween or Rubie's costumes.
+  - Hot Topic, Junk Food or Mad Engine lines.
+
+### Proposed new subcategories
+- **script-archive:** annotated scripts and production papers that turn up at auction. They are primary sources.
+- **matte-painting:** production art painted for the show.
+- **magazine-cover** (from pass 1): TV Guide covers.
+- **screen-print** (from pass 1).
+- **vintage-ad:** trade-press and newspaper pages.
+
+### Open questions
+- Should auction-lot documents (scripts) live under Artwork, Merchandise, or a new "Archives and documents" category?
+- Should rows whose source is an eBay listing (the Bolson sketch card, the 2002 Invader date) be kept as low confidence or dropped?

@@ -24,6 +24,8 @@ details:
   sid6901_6902: Item numbers between 6900 and 6903 not verified (possible further figures).
   people:
   - Mat Falls
+  estimated_years: 2002-2003
+  to_verify: which figures appeared at Toy Fair 2003 vs. shipped 2002
 sources:
 - title: toymania.com
   url: https://www.toymania.com/columns/spotlight/tzinvader.shtml
@@ -36,9 +38,16 @@ sources:
     https://www.entertainmentearth.com/product/twilight-zone-nightmare-at-20000-feet-12inch-figure/sid6904
 - title: 'Entertainment Earth: The Invader (Sideshow)'
   url: https://www.entertainmentearth.com/product/twilight-zone-invader/sid6905
-research_confidence: medium
+- title: 'Toymania: Toy Fair 2003 - Sideshow (page 3)'
+  url: https://www.toymania.com/toyshows/tf2003/sideshow3.shtml
+- title: 'Toymania: Toy Fair 2003 - Sideshow (page 1)'
+  url: https://www.toymania.com/toyshows/tf2003/sideshow1.shtml
+- title: 'eBay listing: Twilight Zone Invader Sideshow Toy 2002'
+  url: https://www.ebay.de/itm/127380266927
+research_confidence: low
 last_verified: '2026-11-20'
 publisher: Sideshow Toy
 relevance: core
 categories:
 - merchandise/toys-figures
+year: 2002-2003

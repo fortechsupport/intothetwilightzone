@@ -1,0 +1,11 @@
+from: songs/jonathan-davis-the-twilight-zone-2002
+to: 2002/cradle-of-darkness
+kind: reference
+confidence: documented
+summary: 2002 main title.
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: IMDb – The Twilight Zone (2002), 'Cradle of Darkness' full credits
+  url: https://s.media-imdb.com/title/tt0734776/fullcredits/
+last_verified: '2026-11-20'

@@ -12,12 +12,21 @@ details:
   items:
   - 72-card base set (cards 217-288, six cards per episode)
   licensed: true
+  sketch_artists_seen:
+  - Cris Bolson (Gremlin)
+  people:
+  - Cris Bolson
 sources:
 - title: nslists.com
   url: https://nslists.com/twizone4.htm
 - title: monsterwax.com
   url: https://www.monsterwax.com/TheWrapper/twilightzone.html
-research_confidence: medium
+- title: 'TCDB: 2005 Rittenhouse Twilight Zone Science and Superstition Series 4 (by last name)'
+  url: >-
+    https://www.tcdb.com/ChecklistByLastName.cfm/sid/82219/2005-Rittenhouse-Twilight-Zone-Science-and-Superstition-Series-4
+- title: 'eBay listing: The Twilight Zone Series 4 Gremlin Sketch by Cris Bolson Case Incentive'
+  url: https://www.ebay.de/itm/356989072811
+research_confidence: low
 last_verified: '2026-11-20'
 publisher: Rittenhouse Archives
 relevance: core

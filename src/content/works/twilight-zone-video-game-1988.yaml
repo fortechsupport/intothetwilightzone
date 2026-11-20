@@ -26,6 +26,12 @@ details:
   - Steven Trippe
   - Patrick Moran
   - A. Caleb Gattegno
+  confirmed_platforms:
+  - Amiga
+  - PC (MS-DOS)
+  atari_st: unconfirmed; none found
+  note: >-
+    First Row did publish other 1988 titles on Atari ST (e.g. Prime Time), so an ST port is plausible but unproven
 ids:
   mobygames: '4095'
 sources:
@@ -42,7 +48,12 @@ sources:
   url: https://mocagh.org/miscgame/twilightzone-manual.pdf
 - title: 'Games That Weren''t: Twilight Zone (C64)'
   url: https://www.gamesthatwerent.com/gtw64/twilight-zone
-research_confidence: high
+- title: 'Lysator: First Row Software'
+  url: https://lysator.liu.se/adventure/First_Row_Software.html
+- title: 'Elisoftware: Prime Time (Atari ST) First Row Software 1988 (First Row did publish other ST titles)'
+  url: >-
+    https://elisoftware.org/wiki/Prime_Time_(Atari_ST,_3_1/2%22_Disk)_First_Row_Software_-_1988_USA,_Canada_Release
+research_confidence: medium
 last_verified: '2026-11-20'
 relevance: core
 media:

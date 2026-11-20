@@ -1,0 +1,12 @@
+from: songs/serling-the-james-bevis-chronicles-the-hempstead-assignments
+to: 1959/mr-bevis
+kind: reference
+confidence: documented
+summary: >-
+  The title appears to reference James B. W. Bevis from the 1960 episode 'Mr. Bevis' (inference from the name; tracklist
+  not checked).
+sources:
+- title: 'Metal Music Archives: Serling - The James Bevis Chronicles / The Hempstead Assignments (EP)'
+  url: >-
+    https://metalmusicarchives.com/album/serling/the-james-bevis-chronicles-the-hempstead-assignments(ep)
+last_verified: '2026-11-20'

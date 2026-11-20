@@ -1,0 +1,43 @@
+title: Herrmann's "Moat Farm Murder" cues in The Twilight Zone
+kind: soundtrack
+year: 1946
+creator: Bernard Herrmann
+publisher: CBS Music Library
+description: >-
+  Bernard Herrmann scored "The Moat Farm Murder", a 1946 Mercury Summer Theatre broadcast starring Orson Welles,
+  for CBS radio. The music went into the CBS stock library and was later cut into Twilight Zone episodes. Reba Wissner
+  (Music, Sound and the Moving Image, 2017) traces the cues to eleven episodes and notes that Robert Drasnin compiled
+  the stock scores for three of them.
+subtype: library-cue
+details:
+  stat: Per Wissner, 57 of 156 episodes used either an original score or at least one Herrmann stock cue.
+  people:
+  - Bernard Herrmann
+  - Robert Drasnin
+  - Orson Welles
+  - Reba Wissner
+relevance: core
+research_confidence: high
+categories:
+- music/soundtracks
+sources:
+- title: Wissner, 'Music for Murder, Machines, and Monsters' (MSMI 11:2, 2017) – CORE PDF
+  url: https://core.ac.uk/download/196145344.pdf
+- title: Project MUSE – Wissner article
+  url: https://muse.jhu.edu/article/684726
+- title: 'Ghost of Radio – Mercury Theatre: Moat Farm Murder (25 July 1946)'
+  url: https://ghostofradio.com/mercury-theatre/08-46-07-25-moat-farm-murder-by-norman-corwin.html
+- title: 'ZonePod – Special report: The Moat Farm Murder'
+  url: https://zonepod.libsyn.com/2x02-special-report-the-moat-farm-murder
+media:
+- type: document
+  title: Wissner 2017 article (open-access PDF)
+  url: https://core.ac.uk/download/196145344.pdf
+  host: CORE (University repository)
+  rights: link-only
+- type: audio
+  title: ZonePod – The Moat Farm Murder special report
+  url: https://zonepod.libsyn.com/2x02-special-report-the-moat-farm-murder
+  host: ZonePod (Libsyn)
+  rights: licensed
+last_verified: '2026-11-20'

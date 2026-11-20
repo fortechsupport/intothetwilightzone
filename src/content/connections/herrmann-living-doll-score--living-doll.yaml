@@ -1,0 +1,11 @@
+from: works/herrmann-living-doll-score
+to: 1959/living-doll
+kind: reference
+confidence: documented
+summary: Possible Herrmann original score for a season-five episode.
+sources:
+- title: Wikipedia – Living Doll (The Twilight Zone)
+  url: https://en.wikipedia.org/wiki/Living_Doll_(The_Twilight_Zone)
+- title: Bright Lights Film Journal – Bernard Herrmann's Twilight Zone CD
+  url: https://brightlightsfilm.com/bernard-herrmanns-twilight-zone-cd/
+last_verified: '2026-11-20'

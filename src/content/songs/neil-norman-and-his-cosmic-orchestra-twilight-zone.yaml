@@ -2,13 +2,22 @@ title: Twilight Zone
 artist: Neil Norman and His Cosmic Orchestra
 genre: space-age pop / orchestral
 tz_connection: theme
-description: A synth-and-orchestra cover of the Twilight Zone theme from Norman's long-running Greatest Science
-  Fiction Hits series on GNP Crescendo.
+description: >-
+  A synth-and-orchestra cover of the Twilight Zone theme from Norman's long-running Greatest Science Fiction Hits
+  series on GNP Crescendo.
 subtype: tribute
 sources:
 - title: whosampled.com
-  url: https://www.whosampled.com/sample/355320/Neil-Norman-and-His-Cosmic-Orchestra-Twilight-Zone-The-Twilight-Zone-Original-Theme/
+  url: >-
+    https://www.whosampled.com/sample/355320/Neil-Norman-and-His-Cosmic-Orchestra-Twilight-Zone-The-Twilight-Zone-Original-Theme/
 - title: secondhandsongs.com
   url: https://secondhandsongs.com/performance/737138/versions
-research_confidence: medium
-last_verified: '2026-11-19'
+- title: SecondHandSongs – Die Größten Science Fiction Hits (1983)
+  url: https://secondhandsongs.com/release/217004/all
+- title: WhoSampled – Twilight Zone by Neil Norman and His Cosmic Orchestra
+  url: https://www.whosampled.com/Neil-Norman-and-His-Cosmic-Orchestra/Twilight-Zone/
+research_confidence: high
+last_verified: '2026-11-20'
+relevance: related
+categories:
+- music/theme

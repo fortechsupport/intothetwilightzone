@@ -2,13 +2,41 @@ title: The Twilight Zone by Phantom City Creative (Bottleneck Gallery)
 kind: artwork
 subtype: poster
 creator: Phantom City Creative
-description: A Twilight Zone screen print by the Canadian poster studio Phantom City Creative, released through
-  Bottleneck Gallery in New York.
+description: >-
+  A Twilight Zone screen print by the Canadian poster studio Phantom City Creative, released through Bottleneck
+  Gallery in New York.
 details:
   series: The Twilight Zone (1959)
   medium: Limited-edition screen print
+  on_sale: 2026-04-16 12 PM ET
+  formats:
+  - name: regular screen print
+    size: 18x24 in
+    edition: 100
+    price_usd: 50
+  - name: variant screen print
+    size: 18x24 in
+    edition: 75
+    price_usd: 60
+  - name: acrylic panel print
+    size: 18x24 in
+    edition: 25
+    price_usd: 85
+  caveat: If the existing record covers an earlier PCC/Bottleneck TZ print, split this into its own row
+  people:
+  - Phantom City Creative
 sources:
 - title: bottleneckgallery.com
   url: https://bottleneckgallery.com/blogs/news/the-twilight-zone-by-phantom-city-creative-on-sale-info
-research_confidence: medium
-last_verified: '2026-11-19'
+research_confidence: high
+last_verified: '2026-11-20'
+year: 2026
+publisher: Bottleneck Gallery
+relevance: core
+media:
+- type: link
+  title: Bottleneck Gallery on-sale announcement
+  url: https://bottleneckgallery.com/blogs/news/the-twilight-zone-by-phantom-city-creative-on-sale-info
+  host: Bottleneck Gallery
+  rights: link-only
+  subtype: listing

@@ -1,0 +1,11 @@
+from: works/herrmann-moat-farm-murder-cues-in-tz
+to: 1959/the-encounter
+kind: reference
+confidence: documented
+summary: Herrmann's radio score was reused as stock music in eleven original-series episodes.
+sources:
+- title: Wissner, 'Music for Murder, Machines, and Monsters' (MSMI 11:2, 2017) – CORE PDF
+  url: https://core.ac.uk/download/196145344.pdf
+- title: Project MUSE – Wissner article
+  url: https://muse.jhu.edu/article/684726
+last_verified: '2026-11-20'

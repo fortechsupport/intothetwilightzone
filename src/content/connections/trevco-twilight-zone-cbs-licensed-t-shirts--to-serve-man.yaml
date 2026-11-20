@@ -1,0 +1,11 @@
+from: works/trevco-twilight-zone-cbs-licensed-t-shirts
+to: 1959/to-serve-man
+kind: reference
+confidence: documented
+summary: Officially licensed shirts with designs from "To Serve Man", "The Masks" and "Living Doll".
+sources:
+- title: 'Entertainment Earth: The Twilight Zone I''m in the Twilight Zone T-Shirt (TRCBS186)'
+  url: https://www.entertainmentearth.com/product/the-twilight-zone-im-in-the-twilight-zone-tshirt/trcbs186
+- title: 'Entertainment Earth: The Twilight Zone Kanamit''s Diner (TRCBS1562BK)'
+  url: https://www.entertainmentearth.com/product/the-twilight-zone-kanamits-diner-polo-tshirt/trcbs1562bk
+last_verified: '2026-11-20'

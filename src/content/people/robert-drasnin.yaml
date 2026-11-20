@@ -5,14 +5,17 @@ bio: >-
 roles:
 - composer
 - music director
+- music editor
 tz_credits:
 - series: The Twilight Zone (1985-1989)
   work: Supervising music director (1985-87)
 relevance: core
-research_confidence: medium
+research_confidence: high
 sources:
 - title: Intrada – The Twilight Zone (3CD) ISC 348
   url: https://store.intrada.com/s.nl/it.A/id.10063/.f
 - title: SoundtrackCollector – Twilight Zone (1985) composers
   url: https://www.soundtrackcollector.com/title/28972/Twilight+Zone
+- title: Wissner 2017 – CORE PDF
+  url: https://core.ac.uk/download/196145344.pdf
 last_verified: '2026-11-20'

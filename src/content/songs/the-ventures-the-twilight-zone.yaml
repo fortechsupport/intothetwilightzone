@@ -1,11 +1,23 @@
 title: The Twilight Zone
 artist: The Ventures
-genre: surf rock / instrumental
-tz_connection: theme
-description: The instrumental rock band recorded its own version of the Twilight Zone theme.
+genre: Surf rock / instrumental
+tz_connection: reference
+description: >-
+  The Ventures' "Twilight Zone" closes side two of their 1964 Dolton LP The Ventures in Space. The album credits it to
+  Marty Manning, so it is the tune from Manning's 1961 Columbia LP The Twilight Zone, not Marius Constant's TV theme.
 subtype: tribute
 sources:
 - title: whosampled.com
   url: https://www.whosampled.com/The-Ventures/The-Twilight-Zone/
-research_confidence: medium
-last_verified: '2026-11-19'
+- title: Wikipedia – The Ventures in Space
+  url: https://en.wikipedia.org/wiki/The_Ventures_in_Space
+- title: 45worlds / Rare Vinyl – The Ventures in Space (Dolton)
+  url: >-
+    https://uk.rarevinyl.com/products/the-ventures-the-ventures-in-space-us-vinyl-lp-album-record-spc3604-793531
+research_confidence: high
+last_verified: '2026-11-20'
+album: The Ventures in Space
+year: 1964
+relevance: related
+categories:
+- music/theme

@@ -14,6 +14,9 @@ details:
   stories: Character Building; Terror Firma; Deadline Earth
   quest_release: '2022-07-14'
   psvr2_release: '2024-03-19'
+  people:
+  - Frankie Cavanagh
+  - Douglas Nabors
 ids:
   mobygames: '193897'
 sources:
@@ -37,7 +40,15 @@ sources:
     https://www.androidcentral.com/gaming/virtual-reality/the-twilight-zone-vr-launches-for-oculus-quest-2-this-july
 - title: 'Den of Geek: How The Twilight Zone was revived as a VR game'
   url: https://www.denofgeek.com/?p=771108
-research_confidence: high
+- title: 'Fangoria: Heading Into THE TWILIGHT ZONE VR Experience With Pocket Money Games'' Frankie Cavanagh'
+  url: https://www.fangoria.com/heading-into-the-twilight-zone-vr-experience/
+- title: 'DreadXP: The Twilight Zone VR Interview with Fun Train''s Douglas Nabors'
+  url: https://www.dreadxp.com/?p=27020
+- title: 'ISPR: Presence challenges: Adapting ''The Twilight Zone'' for virtual reality'
+  url: https://ispr.info/2022/07/13/presence-challenges-adapting-the-twilight-zone-for-virtual-reality/
+- title: 'Fun Train VR: History of The Twilight Zone'
+  url: https://funtrainvr.com/updates/2023/9/12/history-of-the-twilight-zone
+research_confidence: medium
 last_verified: '2026-11-20'
 relevance: core
 media:
@@ -52,5 +63,10 @@ media:
   host: queststoredb.com
   rights: link-only
   subtype: listing
+- type: document
+  title: 'Fun Train: History of The Twilight Zone (developer blog)'
+  url: https://funtrainvr.com/updates/2023/9/12/history-of-the-twilight-zone
+  host: Fun Train (developer)
+  rights: licensed
 categories:
 - games/video-games

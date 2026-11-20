@@ -9,5 +9,18 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-research_confidence: medium
-description: The main title of the 2002 UPN revival, a new arrangement of the theme by Korn singer Jonathan Davis.
+- title: IMDb – The Twilight Zone (2002), 'Cradle of Darkness' full credits
+  url: https://s.media-imdb.com/title/tt0734776/fullcredits/
+- title: Blabbermouth – KORN singer re-records 'The Twilight Zone' theme
+  url: https://blabbermouth.net/news/korn-singer-re-records-the-twilight-zone-theme
+- title: WhoSampled – The Twilight Zone by Jonathan Davis
+  url: https://www.whosampled.com/Jonathan-Davis/The-Twilight-Zone/
+research_confidence: high
+description: >-
+  Enrichment: IMDb credits show Jonathan Davis ("of Korn") as the person who adapted and performed the theme for
+  the UPN series, with Marius Constant credited for the original theme. Blabbermouth reported the re-recording when
+  it was made. WhoSampled has a page for the track.
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- music/theme
