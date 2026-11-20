@@ -9,6 +9,41 @@ const source = z.object({
   note: z.string().optional(),
 });
 const ids = z.record(z.string(), z.string()).optional();
+// A media attachment. `kind` and `license` are accepted as aliases of `type` and `rights`.
+const MEDIA_TYPES = ['video', 'audio', 'document', 'image', 'ad', 'article', 'interview', 'transcript', 'website', 'link'] as const;
+const mediaItem = z.preprocess((raw) => {
+  if (!raw || typeof raw !== 'object') return raw;
+  const m = { ...(raw as Record<string, unknown>) };
+  if (m.type === undefined && m.kind !== undefined) m.type = m.kind;
+  if (m.rights === undefined && m.license !== undefined) m.rights = m.license;
+  // Finer kinds other threads use fold into the main types; the original word is kept as `subtype`.
+  const t = String(m.type ?? '');
+  const fold: Record<string, string> = {
+    advertisement: 'ad', commercial: 'ad', promo: 'video', trailer: 'video', clip: 'video', 'full-episode': 'video',
+    script: 'document', photo: 'image', poster: 'image', other: 'link', podcast: 'audio', 'radio': 'audio',
+  };
+  if (fold[t]) { m.subtype ??= t; m.type = fold[t]; }
+  const r = String(m.rights ?? '');
+  const rfold: Record<string, string> = { copyrighted: 'link-only', official: 'licensed', archive: 'link-only' };
+  if (rfold[r]) m.rights = rfold[r];
+  delete m.kind; delete m.license;
+  return m;
+}, z.object({
+  type: z.enum(MEDIA_TYPES),
+  subtype: z.string().optional(), // trailer, promo, full-episode, interview, script, poster...
+  title: z.string(),
+  url: z.string().url(),
+  // Who hosts it: archive.org, an official YouTube channel, a museum, a library.
+  host: z.string().optional(),
+  date: z.string().optional(),
+  // public-domain and cc files may be saved under public/media/<collection>/<id>/ and named in `file`;
+  // licensed and link-only items are linked, never re-hosted.
+  rights: z.enum(['public-domain', 'cc', 'licensed', 'link-only', 'unknown']).default('link-only'),
+  file: z.string().optional(),
+  duration: z.string().optional(),
+  note: z.string().max(400).optional(),
+}));
+const media = z.array(mediaItem).default([]);
 const links = z.record(z.string(), z.string()).optional();
 const common = {
   sources: z.array(source).default([]),
@@ -25,6 +60,12 @@ const common = {
   tags: z.array(z.string()).default([]),
   // Set on a record that duplicates another; pages hide it and the importer leaves it alone.
   duplicate_of: z.string().optional(),
+  // Extra places for this record in the site taxonomy, as "<category>/<subcategory>" slugs
+  // (see src/lib/taxonomy.ts). Added on top of the automatic placement. An unknown subcategory
+  // slug creates a new subcategory, flagged "new" so Adam can keep or drop it.
+  categories: z.array(z.string().regex(/^[a-z0-9-]+\/[a-z0-9-]+$/)).default([]),
+  // Legitimately hosted media about the record: videos, audio, documents, ads, images, links.
+  media,
 };
 // Every collection loads through the review filter: a build only keeps the records its
 // REVIEW_MODE allows (see src/lib/review.ts), so pages never need to check review status.
@@ -256,6 +297,14 @@ const podcasts = defineCollection({
     first_episode: z.string().optional(),
     description: z.string().optional(),
     status: z.enum(['active', 'ended', 'unknown']).optional(),
+    episode_count: z.number().optional(),
+    covers: names, // series ids or films/<id> the podcast covers
+    featured_episodes: z.array(z.object({
+      title: z.string(),
+      date: z.string().optional(),
+      url: z.string().url().optional(),
+      covers_episode: z.string().optional(),
+    })).default([]),
     ...common,
   }),
 });
@@ -301,7 +350,9 @@ const locations = defineCollection({
     lat: z.number().optional(),
     lng: z.number().optional(),
     status: z.string().optional(),
-    kind: z.enum(['backlot-set', 'filming-location', 'serling-place', 'attraction', 'museum-exhibit', 'memorial', 'archive']).optional(),
+    // in-story: a fictional place (Willoughby, Peaksville); its `filmed` entries list where it appears.
+    kind: z.enum(['backlot-set', 'filming-location', 'serling-place', 'attraction', 'museum-exhibit', 'memorial', 'archive', 'event-venue', 'in-story']).optional(),
+    episodes: names,
     city: z.string().optional(),
     region: z.string().optional(),
     country: z.string().optional(),
@@ -317,7 +368,7 @@ const works = defineCollection({
   loader: yaml('works'),
   schema: z.object({
     title: z.string(),
-    kind: z.enum(['game', 'collectible', 'artwork', 'stage', 'attraction', 'parody', 'convention', 'television', 'soundtrack', 'event', 'link', 'fan-community', 'memorial', 'education', 'other']),
+    kind: z.enum(['game', 'collectible', 'artwork', 'stage', 'attraction', 'parody', 'convention', 'television', 'soundtrack', 'event', 'link', 'fan-community', 'memorial', 'education', 'lecture', 'advertisement', 'home-media', 'other']),
     year: z.union([z.number(), z.string()]).optional(),
     creator: z.string().optional(),
     publisher: z.string().optional(),
@@ -335,8 +386,12 @@ const essays = defineCollection({
     authors: names,
     published_in: z.string().optional(),
     published: z.string().optional(),
-    kind: z.enum(['essay', 'journal-article', 'book-chapter', 'speech', 'interview', 'review']).optional(),
+    kind: z.enum(['essay', 'journal-article', 'book-chapter', 'speech', 'interview', 'review', 'article', 'lecture', 'script', 'academic-thesis']).optional(),
     description: z.string().optional(),
+    // Reviews: what is reviewed (refs like series/1959, films/<id>, or an episode id), the kind of review, the outlet's rating.
+    reviews: names,
+    review_type: z.enum(['contemporary', 'retrospective', 'ranking', 'awards-citation']).optional(),
+    outlet_rating: z.string().optional(),
     episodes: names,
     ...common,
   }),
@@ -356,7 +411,23 @@ const archives = defineCollection({
   }),
 });
 
+// Characters from the stories: Talky Tina, the Kanamits, Henry Bemis.
+const characters = defineCollection({
+  loader: yaml('characters'),
+  schema: z.object({
+    name: z.string(),
+    aka: names,
+    kind: z.enum(['human', 'alien', 'robot', 'supernatural', 'animal', 'object', 'other']).optional(),
+    played_by: names, // exact person name strings
+    appears_in: names, // episode ids or films/<id>, radio/<id>, comics/<id>
+    description: z.string().optional(),
+    recurring: z.boolean().optional(),
+    ...common,
+  }),
+});
+
 export const collections = {
+  characters,
   essays,
   archives,
   works,

@@ -88,3 +88,81 @@ evidence: One sentence on what the source says.
 sources:
   - { title: Source title, url: 'https://...' }
 ```
+
+## Site taxonomy and new fields (2026-11-20)
+
+The site is organised around Adam's category list. Records are placed automatically from their
+collection and fields (rules in `src/lib/taxonomy.mjs`); a record can sit in more than one place
+(a person who wrote and acted; a film that is also a homage). Categories and subcategories that
+were not on Adam's list are flagged **new** on the site and in the review sheet so he can drop them.
+
+### Categories and subcategory slugs
+
+Use these slugs in `categories[]` (`"<category>/<subcategory>"`). An unknown subcategory slug under a
+known category creates a new subcategory, labelled from the slug and flagged new.
+
+| Category | Subcategory slugs | Filled automatically from |
+|---|---|---|
+| `people` | `writers`, `directors`, `producers`, `actors`, `narrators-hosts`, `voice-actors`, `composers`, `crew`, `characters`, `scholars-historians`, `fans`, `family`, `inspired-creators` | people (roles[] and credits), characters, quote authors |
+| `places` | `real-life`, `in-story` | locations (`kind: in-story` goes to in-story) |
+| `events` | `conventions`, `honors-awards`, `anniversaries-festivals`, `broadcasts-marathons`, `premieres`, `exhibitions`, `production-history`, `other-events` | works kind event/convention/memorial (by subtype), series/film history[] |
+| `series` | `tv`, `radio`, `podcast` | series, films kind tv-series, radio series, podcasts |
+| `episodes` | `tv`, `radio`, `podcast` | episodes, Night Gallery episodes, radio, podcasts featured_episodes |
+| `movies` | `twilight-zone-films`, `rod-serling-films`, `linked-films`, `tv-films`, `documentaries`, `shorts-and-other` | films |
+| `music` | `composers`, `theme`, `songs`, `soundtracks` | people with composer role, songs, works kind soundtrack |
+| `reading` | `books`, `comics`, `magazines`, `essays`, `articles`, `scripts` | books, comics, magazines, essays |
+| `games` | `pinball-arcade`, `video-games`, `board-card-games`, `other-games` | works kind game (by subtype) |
+| `artwork` | `posters-key-art`, `art-illustration`, `title-design`, `other-artwork` | works kind artwork (by subtype) |
+| `homages` | `adaptations-remakes`, `inspired-by`, `homages`, `parodies`, `references`, `in-other-shows` | connections, films kind tv-episode/tv-segment/sketch, works kind parody |
+| `merchandise` | `collectibles`, `toys-figures`, `trading-cards`, `home-media`, `household-apparel`, `other-merchandise` | works kind collectible/home-media, series/film releases[] |
+| `lectures` | `serling-lectures`, `academic`, `classroom`, `readings-panels` | essays kind speech/lecture, works kind lecture/education |
+| `reviews` | `contemporary`, `retrospective`, `rankings`, `awards-citations` | essays kind review (by review_type) |
+| `archives` *(new)* | `collections`, `documents` | archives |
+| `stage` *(new)* | `theatre`, `live-readings`, `attractions` | works kind stage/attraction, films kind stage |
+| `quotes` *(new)* | `rod-serling`, `admirers` | quotes |
+| `advertising` *(new)* | `commercials`, `promos-trailers`, `print-ads` | films kind commercial, works kind advertisement, media type ad |
+| `community` *(new)* | `fan-communities`, `websites-databases`, `organizations` | works kind fan-community/link |
+| `media` *(new)* | `video`, `audio`, `documents`, `images`, `ads`, `links` | every record's media[] |
+
+People `roles[]` are matched loosely (case and plural ignored): writer, director, producer, actor,
+host, narrator, voice, composer/musician, cinematographer/editor/makeup/effects/crew, scholar/historian,
+fan/collaborator, family, inspired-by.
+
+### New optional fields (every collection)
+
+- `categories[]`: extra `"<category>/<subcategory>"` placements, on top of the automatic ones.
+- `media[]`: legitimately hosted media about the record.
+
+```yaml
+media:
+  - type: video          # video | audio | document | image | ad | article | interview | transcript | website | link
+    subtype: promo       # optional finer label: trailer, promo, full-episode, script, poster, interview...
+    title: CBS promo for the 1959 premiere
+    url: https://archive.org/details/...
+    host: Internet Archive          # archive.org, official YouTube channel, a museum or library
+    date: '1959-10'
+    rights: public-domain           # public-domain | cc | licensed | link-only (default) | unknown
+    file: media/series/1959/promo.mp4   # only for public-domain/cc files saved under public/media/<collection>/<id>/
+    duration: '1:02'
+    note: One line, own words.
+```
+
+`kind` and `license` are accepted as aliases of `type` and `rights`; finer kinds (trailer, promo,
+clip, full-episode, script, photo, advertisement, commercial) fold into the main types automatically
+and are kept as `subtype`. Copyrighted material is linked (`link-only` or `licensed`), never re-hosted.
+
+### Other additions
+
+- **characters** collection, `characters/<slug>.yaml`: name (required), aka[], kind
+  (`human`/`alien`/`robot`/`supernatural`/`animal`/`object`/`other`), played_by[] (exact person names),
+  appears_in[] (episode ids or `films/<id>`, `radio/<id>`, `comics/<id>`), description (own words), recurring.
+- locations.kind adds `in-story` (fictional settings; `filmed[]` lists where they appear) and
+  `event-venue`; locations also take `episodes[]`.
+- works.kind adds `lecture`, `advertisement`, `home-media`. Events stay kind `event`/`convention`/`memorial`
+  with subtype (premiere, marathon, broadcast, festival, anniversary, honor, exhibition, trial...).
+- essays.kind adds `article`, `lecture`, `script`, `academic-thesis`; essays also take `reviews[]`
+  (refs reviewed), `review_type` (`contemporary`/`retrospective`/`ranking`/`awards-citation`) and
+  `outlet_rating` (free text).
+- podcasts add `episode_count`, `covers[]` (series ids or `films/<id>`), `featured_episodes[]`
+  ({title, date?, url?, covers_episode?}).
+- Do not use `tags: [new-subcategory]` or `new-subcategory:<name>` tags; use `categories[]` with a new slug instead.
