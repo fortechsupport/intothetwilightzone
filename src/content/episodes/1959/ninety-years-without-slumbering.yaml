@@ -19,17 +19,16 @@ cast:
 - Dick Wilson
 - Chuck Hicks
 narrator: Rod Serling
-synopsis: Elderly Sam Forstmann is convinced that he will die if his beloved grandfather clock ever stops. When
-  his worried granddaughter and her husband decide the clock must go, Sam's fixation turns into a battle with time
-  itself.
+synopsis: Elderly Sam Forstmann is convinced that he will die if his beloved grandfather clock ever stops. When his worried
+  granddaughter and her husband decide the clock must go, Sam's fixation turns into a battle with time itself.
 themes:
 - aging
 - family
 - mortality
 - obsession
 trivia:
-- text: George Clayton Johnson disliked how his story "Tick of Time" was rewritten, especially the new ending, so
-    his on-screen credit appears under the pseudonym "Johnson Smith".
+- text: George Clayton Johnson disliked how his story "Tick of Time" was rewritten, especially the new ending, so his
+    on-screen credit appears under the pseudonym "Johnson Smith".
   sources:
   - title: Ninety Years Without Slumbering - Wikipedia
     url: https://en.wikipedia.org/wiki/Ninety_Years_Without_Slumbering
@@ -52,3 +51,26 @@ sources:
   url: https://en.wikipedia.org/wiki/Ninety_Years_Without_Slumbering
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson on "Ninety Years Without Slumbering"
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  duration: '4:47'
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Carolyn Kearney and George Clayton Johnson (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+- type: interview
+  subtype: bonus-interview
+  title: Interview with George Clayton Johnson (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed

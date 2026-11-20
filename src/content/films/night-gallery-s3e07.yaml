@@ -5,8 +5,8 @@ release_date: '1972-12-10'
 runtime_min: 25
 segments:
 - title: Fright Night
-  summary: A writer and his wife inherit a farmhouse with the condition that they guard a locked trunk. Story by
-    Kurt van Elting.
+  summary: A writer and his wife inherit a farmhouse with the condition that they guard a locked trunk. Story by Kurt
+    van Elting.
   writers:
   - Robert Malcolm Young
   directors:
@@ -25,3 +25,5 @@ research_confidence: high
 relevance: related
 last_verified: '2026-11-19'
 locked: true
+summary: A Night Gallery episode built around a single story, "Fright Night". A writer and his wife inherit a farmhouse
+  with the condition that they guard a locked trunk. Story by Kurt van Elting.

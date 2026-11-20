@@ -1,0 +1,19 @@
+title: 'Rod Serling: Beyond the Twilight Zone'
+kind: documentary
+release_date: '2000-01-25'
+parent_series: E! True Hollywood Story
+summary: An episode of E!'s celebrity biography series E! True Hollywood Story devoted to Rod Serling's life and career,
+  from live television through The Twilight Zone, Night Gallery and his death in 1975.
+categories:
+- movies/documentaries
+ids:
+  imdb: tt1331568
+relevance: core
+research_confidence: medium
+sources:
+- title: 'IMDb - Rod Serling: Beyond the Twilight Zone'
+  url: https://www.imdb.com/title/tt1331568
+- title: Moviefone (TMDB data) - The Twilight Zone specials list
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+last_verified: '2026-11-20'
+locked: true

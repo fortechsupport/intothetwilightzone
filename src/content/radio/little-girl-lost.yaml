@@ -15,8 +15,13 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “Little Girl Lost” from the original 1959 series (season 3, 1962), written
-  for television by Richard Matheson. Adapted for radio by Dennis Etchison, starring Stephen Tobolowsky. The story:
-  Parents wake in the night to hear their young daughter crying for help, though she is nowhere to be found in the
-  house. Her voice seems to come from beneath her bed, and a physicist friend helps them search for an opening into
-  another dimension.'
+  for television by Richard Matheson. Adapted for radio by Dennis Etchison, starring Stephen Tobolowsky. The story: Parents
+  wake in the night to hear their young daughter crying for help, though she is nowhere to be found in the house. Her
+  voice seems to come from beneath her bed, and a physicist friend helps them search for an opening into another dimension.'
+last_verified: '2026-11-20'
+research_confidence: high

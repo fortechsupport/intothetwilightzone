@@ -13,8 +13,8 @@ cast:
 - Dane Clark
 - Buddy Ebsen
 narrator: Rod Serling
-synopsis: Ace Larsen runs a roadside cafe with his partner Jimbo, who can move objects with his mind. Ace talks
-  Jimbo into taking his gift to Las Vegas, where the winnings begin to change Ace.
+synopsis: Ace Larsen runs a roadside cafe with his partner Jimbo, who can move objects with his mind. Ace talks Jimbo
+  into taking his gift to Las Vegas, where the winnings begin to change Ace.
 themes:
 - friendship
 - gambling
@@ -37,3 +37,12 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson on "The Prime Mover"
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  duration: '10:31'

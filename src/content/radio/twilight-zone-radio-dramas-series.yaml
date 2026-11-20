@@ -13,10 +13,14 @@ voiced_by:
 - Don Johnson
 - Sean Astin
 - Luke Perry
-description: Full-cast audio remakes of the original 1959-64 teleplays, produced and directed by Carl Amari's Falcon
-  Picture Group under license from CBS and the Rod Serling estate. Stacy Keach takes the Serling host role, and
-  each story stars a different film or TV actor; 176 episodes were made between 2002 and 2012, covering every original
-  episode except "Come Wander with Me".
+description: 'Full-cast audio remakes of the original 1959-64 teleplays, produced and directed by Carl Amari for Falcon
+  Picture Group under license from CBS and the Rod Serling estate, with sound work by JoBe Cerny in Chicago. Stacy Keach
+  takes over Serling''s narrations and each story stars a different film or TV actor. 176 episodes were made from 2002
+  to 2012: 155 of the 156 TV episodes (all but "Come Wander with Me"), "The Time Element", unmade TV scripts such as
+  Charles Beaumont''s "Gentlemen, Be Seated" and Jerry Sohl''s "Who Am I?", and, from volume 16, sixteen stories written
+  for radio. It aired on about 200 US stations, XM and Sirius satellite radio and BBC Radio 4 Extra, and came out on
+  cassette, CD volumes of ten (to volume 13 in 2008) and downloads. 82 of the adaptations were included as extras on
+  the 2010-11 Blu-ray sets of the original series.'
 subtype: audio-series
 sources:
 - title: Wikipedia
@@ -27,5 +31,11 @@ sources:
   url: https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(franchise)
+- title: The Twilight Zone (radio series) - Wikipedia mirror
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017)'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
+- title: Moviefone (TMDB data) - The Twilight Zone specials list
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
 research_confidence: high
-last_verified: '2026-11-19'
+last_verified: '2026-11-20'

@@ -13,9 +13,8 @@ cast:
 - Elizabeth Montgomery
 - Charles Bronson
 narrator: Rod Serling
-synopsis: Years after a war has emptied a town, a ragged woman and a man from the opposing army stumble upon each
-  other among the ruins. Wary and armed, the two must decide whether old loyalties still matter now that almost
-  no one is left.
+synopsis: Years after a war has emptied a town, a ragged woman and a man from the opposing army stumble upon each other
+  among the ruins. Wary and armed, the two must decide whether old loyalties still matter now that almost no one is left.
 themes:
 - loneliness
 - post-apocalypse
@@ -34,3 +33,11 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: video
+  subtype: bonus-feature
+  title: Rod Serling's teaser for "Two" (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-09-13'
+  rights: licensed

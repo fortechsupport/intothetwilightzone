@@ -5,8 +5,8 @@ release_date: '1973-03-04'
 runtime_min: 25
 segments:
 - title: Death on a Barge
-  summary: A young man falls for a beautiful girl who lives on a barge and never comes out by day. Leonard Nimoy's
-    first job as a director.
+  summary: A young man falls for a beautiful girl who lives on a barge and never comes out by day. Leonard Nimoy's first
+    job as a director.
   source_title: The Canal
   source_authors:
   - Everil Worrell
@@ -28,3 +28,5 @@ research_confidence: high
 relevance: related
 last_verified: '2026-11-19'
 locked: true
+summary: A Night Gallery episode built around a single story, "Death on a Barge" (from Everil Worrell). A young man falls
+  for a beautiful girl who lives on a barge and never comes out by day. Leonard Nimoy's first job as a director.

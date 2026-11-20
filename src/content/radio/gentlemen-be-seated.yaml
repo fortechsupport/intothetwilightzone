@@ -15,6 +15,16 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: An adaptation of a Charles Beaumont story, one of several Beaumont stories the radio series dramatized
-  beyond the episodes he wrote for television. Adapted for radio by Dennis Etchison, starring Stan Freberg and Mike
-  Starr.
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
+- title: 'SYFY WIRE: This unmade Twilight Zone episode imagined a world without laughter (2026-08-03)'
+  url: https://www.syfy.com/syfy-wire/unmade-twilight-zone-episode-gentlemen-be-seated-imagined-world-without-laughter
+description: Charles Beaumont's own Twilight Zone teleplay that the TV series never filmed, a satire set in a society
+  that has outlawed laughter, finally produced by the radio series in 2007. Adapted for radio by Dennis Etchison, starring
+  Stan Freberg. It opened the radio series' run of unmade scripts from the original show.
+last_verified: '2026-11-20'
+research_confidence: high
+categories:
+- episodes/radio-unmade-tv-scripts

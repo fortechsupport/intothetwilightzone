@@ -5,8 +5,8 @@ release_date: '1971-12-01'
 runtime_min: 50
 segments:
 - title: Pickman's Model
-  summary: In turn-of-the-century Boston, a young art student is drawn to a painter whose ghouls look too real.
-    Emmy nominee for makeup (1972).
+  summary: In turn-of-the-century Boston, a young art student is drawn to a painter whose ghouls look too real. Emmy
+    nominee for makeup (1972).
   source_title: Pickman's Model
   source_authors:
   - H. P. Lovecraft
@@ -52,3 +52,6 @@ research_confidence: high
 relevance: related
 last_verified: '2026-11-19'
 locked: true
+summary: 'A Night Gallery hour of three stories: "Pickman''s Model" (from H. P. Lovecraft), "The Dear Departed" (from
+  Alice-Mary Schnirring) and "An Act of Chivalry". In the first, in turn-of-the-century Boston, a young art student is
+  drawn to a painter whose ghouls look too real. Emmy nominee for makeup (1972).'

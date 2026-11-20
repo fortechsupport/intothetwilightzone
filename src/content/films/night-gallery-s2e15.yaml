@@ -5,8 +5,8 @@ release_date: '1972-01-05'
 runtime_min: 50
 segments:
 - title: Green Fingers
-  summary: A ruthless developer tries to force an elderly widow off her land, not realizing anything she plants
-    will grow.
+  summary: A ruthless developer tries to force an elderly widow off her land, not realizing anything she plants will
+    grow.
   source_authors:
   - R. C. Cook
   writers:
@@ -55,3 +55,6 @@ research_confidence: high
 relevance: related
 last_verified: '2026-11-19'
 locked: true
+summary: 'A Night Gallery hour of three stories: "Green Fingers" (from R. C. Cook), "The Funeral" (from Richard Matheson)
+  and "The Tune in Dan''s Café" (from Shamus Frazier). In the first, a ruthless developer tries to force an elderly widow
+  off her land, not realizing anything she plants will grow.'

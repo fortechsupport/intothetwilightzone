@@ -17,8 +17,8 @@ cast:
 - Betty Lou Gerson
 - Vic Perrin
 narrator: Rod Serling
-synopsis: Movie star Bunny Blake receives a gift ring from her hometown fan club and sees faces in its stone urging
-  her to come home. She arrives unexpectedly on the day of the annual town picnic and insists on staging a show.
+synopsis: Movie star Bunny Blake receives a gift ring from her hometown fan club and sees faces in its stone urging her
+  to come home. She arrives unexpectedly on the day of the annual town picnic and insists on staging a show.
 themes:
 - fame
 - hometown
@@ -37,3 +37,19 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-18'
+  title: Earl Hamner on his script "Ring-a-Ding Girl"
+  url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+  duration: '2:15'
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Earl Hamner, part 1 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed

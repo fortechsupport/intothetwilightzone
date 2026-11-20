@@ -16,9 +16,9 @@ cast:
 - John Carradine
 - H.M. Wynant
 narrator: Rod Serling
-synopsis: Lost in a storm while walking through post-war Europe, an American takes shelter at a remote monastery.
-  In the night he hears howling and finds a man locked in a cell, who begs to be released from the strange, stern
-  brothers who hold him.
+synopsis: Lost in a storm while walking through post-war Europe, an American takes shelter at a remote monastery. In
+  the night he hears howling and finds a man locked in a cell, who begs to be released from the strange, stern brothers
+  who hold him.
 themes:
 - faith
 - good and evil
@@ -41,3 +41,19 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with H. M. Wynant (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-11-16'
+  rights: licensed
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Douglas Heyes (1978), part 4 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-11-16'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.

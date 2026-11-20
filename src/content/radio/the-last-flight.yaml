@@ -16,7 +16,13 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: 'A full-cast audio remake of “The Last Flight” from the original 1959 series (season 1, 1960), written
-  for television by Richard Matheson. Adapted for radio by Dennis Etchison, starring Charles Shaughnessy. The story:
-  A British World War I pilot flies into a strange white cloud over France in 1917 and lands at a modern American
-  air base decades later. Confused officers question him while he wrestles with what he left behind.'
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
+description: 'A full-cast audio remake of “The Last Flight” from the original 1959 series (season 1, 1960), written for
+  television by Richard Matheson. Adapted for radio by Dennis Etchison, starring Charles Shaughnessy. The story: A British
+  World War I pilot flies into a strange white cloud over France in 1917 and lands at a modern American air base decades
+  later. Confused officers question him while he wrestles with what he left behind.'
+last_verified: '2026-11-20'
+research_confidence: high

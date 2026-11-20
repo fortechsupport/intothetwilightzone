@@ -16,16 +16,16 @@ cast:
 - Burgess Meredith
 - Vaughn Taylor
 narrator: Rod Serling
-synopsis: Henry Bemis, a nearsighted bank teller, wants nothing more than time to read, but his boss and his wife
-  keep him from books. Hiding in the bank vault on his lunch break, he emerges to a transformed world.
+synopsis: Henry Bemis, a nearsighted bank teller, wants nothing more than time to read, but his boss and his wife keep
+  him from books. Hiding in the bank vault on his lunch break, he emerges to a transformed world.
 themes:
 - books
 - irony
 - isolation
 - nuclear war
 trivia:
-- text: 'Burgess Meredith starred in four episodes of the series: "Time Enough at Last", "Mr. Dingle, the Strong",
-    "The Obsolete Man" and "Printer''s Devil". He later narrated Twilight Zone: The Movie (1983).'
+- text: 'Burgess Meredith starred in four episodes of the series: "Time Enough at Last", "Mr. Dingle, the Strong", "The
+    Obsolete Man" and "Printer''s Devil". He later narrated Twilight Zone: The Movie (1983).'
   sources:
   - title: Burgess Meredith - Wikipedia (IPFS mirror)
     url: https://www.chise.org/ipns/en.wikipedia-on-ipfs.org/wiki/Burgess_Meredith
@@ -44,3 +44,12 @@ sources:
   url: https://en.wikipedia.org/wiki/Time_Enough_at_Last
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Burgess Meredith (1978), part 1 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.

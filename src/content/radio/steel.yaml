@@ -9,13 +9,19 @@ original_writer: Richard Matheson
 adapted_by: Dennis Etchison, JoBe Cerny
 voiced_by:
 - Louis Gossett Jr.
-adapts_episode: 1959/steel
+adapts_episode: '1959/steel'
 ids:
   imdb: tt28456781
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “Steel” from the original 1959 series (season 5, 1963), written for television
-  by Richard Matheson. Adapted for radio by Dennis Etchison, JoBe Cerny, starring Louis Gossett Jr.. The story:
-  In a near future where human boxing is outlawed and robots fight in the ring, a washed-up former boxer and his
-  mechanic haul their aging, broken-down robot to a small-town bout they cannot afford to lose.'
+  by Richard Matheson. Adapted for radio by Dennis Etchison, JoBe Cerny, starring Louis Gossett Jr.. The story: In a
+  near future where human boxing is outlawed and robots fight in the ring, a washed-up former boxer and his mechanic
+  haul their aging, broken-down robot to a small-town bout they cannot afford to lose.'
+last_verified: '2026-11-20'
+research_confidence: high

@@ -16,7 +16,13 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “The Little People” from the original 1959 series (season 3, 1962), written
-  for television by Rod Serling. Adapted for radio by Dennis Etchison, starring Daniel J. Travanti. The story: Two
-  astronauts make an emergency landing on a remote world for repairs. One of them discovers a civilization of tiny
-  beings in a canyon and, intoxicated by his size compared with theirs, decides to stay behind as their god.'
+  for television by Rod Serling. Adapted for radio by Dennis Etchison, starring Daniel J. Travanti. The story: Two astronauts
+  make an emergency landing on a remote world for repairs. One of them discovers a civilization of tiny beings in a canyon
+  and, intoxicated by his size compared with theirs, decides to stay behind as their god.'
+last_verified: '2026-11-20'
+research_confidence: high

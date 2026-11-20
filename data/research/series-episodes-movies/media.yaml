@@ -1,0 +1,860 @@
+# Media links gathered by the series/episodes/movies research pass (2026-11-20).
+# Keys are record paths under src/content (without .yaml). scripts/research/apply_media.py merges them.
+_tva_gcj:
+  type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+_tva_hamner:
+  type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-18'
+series/1959:
+- type: interview
+  title: Rod Serling interviewed by Mike Wallace, The Mike Wallace Interview (ABC)
+  url: https://www.youtube.com/watch?v=VQlqjONEsKQ
+  host: YouTube (uploaded copy; original kinescope at the Harry Ransom Center, University of Texas)
+  date: '1959-09-22'
+  rights: link-only
+  note: Recorded days before the premiere. Serling talks about sponsors, censorship and why he moved to fantasy.
+- type: interview
+  title: Rod Serling interviewed by Binny Lum in Melbourne (Blank on Blank)
+  url: https://blankonblank.org/interviews/rod-serling-twlight-zone-science-fiction-kamikazes/
+  host: Blank on Blank (PBS Digital Studios), tape from the National Film and Sound Archive of Australia
+  date: '1963'
+  rights: licensed
+  note: Serling on the show as imaginative storytelling and on wanting to go back in time. Full audio on SoundCloud from
+    the page.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson interview, 15 Twilight Zone clips
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  note: Interviewed by Gary Rutkowski. Clips on meeting Serling, Buck Houghton, and each episode he wrote.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-18'
+  title: Earl Hamner, Jr. interview, clips on his Twilight Zone teleplays
+  url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+  note: Interviewed by Jennifer Howard. One clip per episode he wrote, plus working with Serling.
+- type: website
+  title: The Twilight Zone show page, Television Academy Foundation interviews
+  url: https://interviews.televisionacademy.com/shows/twilight-zone-the
+  host: Television Academy Foundation
+  rights: licensed
+  note: Index of every oral-history clip that discusses the original series.
+- type: article
+  subtype: trade-press
+  title: 'Variety, March 11, 1959: General Foods buys "Twilight Zone" for all 52 weeks of 1959-60'
+  url: https://lantern.mediahist.org/catalog/variety214-1959-03_0111
+  host: Media History Digital Library (Lantern)
+  date: '1959-03-11'
+  rights: public-domain
+  note: Six months before the premiere and before a time slot was set, CBS reported the show fully sponsored.
+1959/the-four-of-us-are-dying:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson on how he wrote "The Four of Us Are Dying"
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  duration: '7:28'
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Beverly Garland (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+1959/a-penny-for-your-thoughts:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson on "A Penny for Your Thoughts"
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  duration: '12:09'
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: George Clayton Johnson (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-11-16'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/execution:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson on the story behind "Execution", adapted by Rod Serling
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  duration: '6:50'
+1959/kick-the-can:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson on "Kick the Can" and "A Penny for Your Thoughts"
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  duration: '9:02'
+1959/nothing-in-the-dark:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson on "Nothing in the Dark"
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  duration: '10:18'
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Lamont Johnson and George Clayton Johnson (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/ninety-years-without-slumbering:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson on "Ninety Years Without Slumbering"
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  duration: '4:47'
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Carolyn Kearney and George Clayton Johnson (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+- type: interview
+  subtype: bonus-interview
+  title: Interview with George Clayton Johnson (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+1959/the-prime-mover:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson on "The Prime Mover"
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  duration: '10:31'
+1959/a-piano-in-the-house:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-18'
+  title: Earl Hamner on his script "A Piano in the House"
+  url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+  duration: '1:03'
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Buck Houghton and Earl Hamner (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/jess-belle:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-18'
+  title: Earl Hamner on his script "Jess-Belle"
+  url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+  duration: '3:34'
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Earl Hamner, Buzz Kulik and Anne Francis (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-05-17'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Anne Francis (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-05-17'
+  rights: licensed
+1959/ring-a-ding-girl:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-18'
+  title: Earl Hamner on his script "Ring-a-Ding Girl"
+  url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+  duration: '2:15'
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Earl Hamner, part 1 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+1959/you-drive:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-18'
+  title: Earl Hamner on his script "You Drive"
+  url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+  duration: '2:26'
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Earl Hamner, part 2 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+1959/black-leather-jackets:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-18'
+  title: Earl Hamner on his script "Black Leather Jackets"
+  url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+  duration: '1:18'
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Michael Forest and Earl Hamner (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+1959/stopover-in-a-quiet-town:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-18'
+  title: Earl Hamner on his script "Stopover in a Quiet Town"
+  url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+  duration: '1:38'
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Nancy Malone and Earl Hamner (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+1959/the-bewitchin-pool:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-18'
+  title: Earl Hamner on his script "The Bewitchin' Pool"
+  url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+  duration: '2:42'
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Earl Hamner, part 3 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+1959/the-midnight-sun:
+- type: video
+  subtype: clip
+  title: Opening narration of "The Midnight Sun" (embedded by Blank on Blank)
+  url: https://www.youtube.com/watch?v=Li0u15qkQhw
+  host: YouTube
+  rights: link-only
+films/twilight-zone-the-movie:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson on the movie, and on the "Kick the Can" segment and the Writers Guild dispute
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  note: Two clips, 1:47 and 9:32.
+- type: video
+  subtype: trailer
+  title: 'Trailers From Hell commentary on the Twilight Zone: The Movie trailer'
+  url: https://trailersfromhell.com/twilight-zone-the-movie/
+  host: Trailers From Hell
+  rights: licensed
+- type: document
+  subtype: catalog-entry
+  title: AFI Catalog of Feature Films entry
+  url: https://catalog.afi.com/Film/67338-TWILIGHT-ZONETHEMOVIE
+  host: American Film Institute
+  rights: licensed
+  note: Production history, credits and release details compiled by the AFI.
+series/1985:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson on the 1980s remake of the series
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  duration: '3:04'
+  note: The 1988 season remade his "A Game of Pool" with his original ending.
+- type: article
+  subtype: retrospective
+  title: 6 reasons you should not sleep on the 1985 version of The Twilight Zone
+  url: https://metv.com/lists/6-reasons-you-should-not-sleep-on-the-1985-version-of-the-twilight-zone
+  host: MeTV
+  rights: link-only
+series/2019:
+- type: video
+  subtype: trailer
+  title: First full trailer, CBS All Access (via CBS News)
+  url: https://www.cbsnews.com/news/twilight-zone-trailer-reboot-jordan-peele-cbs-all-access-premieres-2019-04-01/
+  host: CBS News
+  date: '2019-02-21'
+  rights: licensed
+1959/walking-distance:
+- type: interview
+  subtype: lecture
+  title: Rod Serling Lecture at Sherwood College (1975) Part 1 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+  note: Serling speaking to a screenwriting class at Sherwood Oaks Experimental College, Hollywood, 1975.
+1959/one-for-the-angels:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Dana Dillaway (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+1959/and-when-the-sky-was-opened:
+- type: interview
+  subtype: lecture
+  title: Rod Serling Lecture at Sherwood College (1975) Part 2 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+  note: Serling speaking to a screenwriting class at Sherwood Oaks Experimental College, Hollywood, 1975.
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Douglas Heyes (1978), part 1 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/the-mighty-casey:
+- type: interview
+  subtype: lecture
+  title: Rod Serling Lecture at Sherwood College (1975) Part 3 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+  note: Serling speaking to a screenwriting class at Sherwood Oaks Experimental College, Hollywood, 1975.
+1959/what-you-need:
+- type: video
+  subtype: bonus-feature
+  title: Tales of Tomorrow episode "What You Need" (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+1959/perchance-to-dream:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Suzanne Lloyd (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+1959/the-purple-testament:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Ron Masak (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+1959/the-man-in-the-bottle:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Joseph Ruskin (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-11-16'
+  rights: licensed
+1959/the-howling-man:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with H. M. Wynant (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-11-16'
+  rights: licensed
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Douglas Heyes (1978), part 4 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-11-16'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/a-game-of-pool:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Buzz Kulik and Buck Houghton (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+- type: video
+  subtype: alternate-version
+  title: 'A Game of Pool: alternate ending read by Jonathan Winters (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed
+- type: video
+  subtype: bonus-feature
+  title: 'A Game of Pool: clip from the 1989 remake (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed
+1959/the-trade-ins:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Edson Stroll (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed
+1959/valley-of-the-shadow:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Morgan Brittany (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-05-17'
+  rights: licensed
+1959/hes-alive:
+- type: video
+  subtype: bonus-feature
+  title: Rod Serling blooper (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-05-17'
+  rights: licensed
+1959/the-after-hours:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Anne Francis and Douglas Heyes (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/the-parallel:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Paul Comi (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-05-17'
+  rights: licensed
+1959/i-dream-of-genie:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with John Furia Jr. (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-05-17'
+  rights: licensed
+1959/in-praise-of-pip:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Bill Mumy (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+1959/steel:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Richard Matheson, part 1 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+1959/nightmare-at-20-000-feet:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Richard Matheson, part 2 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+- type: interview
+  subtype: lecture
+  title: Rod Serling Lecture at Sherwood Oaks Experimental College (1975), part 4 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+  note: Serling speaking to a screenwriting class at Sherwood Oaks Experimental College, Hollywood, 1975.
+1959/living-doll:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with June Foray (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+1959/the-hunt:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Earl Hamner (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/spur-of-the-moment:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Richard Matheson, part 4 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+1959/night-call:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Richard Matheson, part 3 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+1959/an-occurrence-at-owl-creek-bridge:
+- type: interview
+  subtype: bonus-feature
+  title: Conversations with Rod Serling, part 1 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+1959/i-am-the-nightcolor-me-black:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Terry Becker (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+1959/time-enough-at-last:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Burgess Meredith (1978), part 1 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/third-from-the-sun:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Richard L. Bare (1978), part 1 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/a-stop-at-willoughby:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Buck Houghton (1978), part 1 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/the-chaser:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Douglas Heyes (1978), part 2 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/a-world-of-his-own:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Richard Matheson (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/king-nine-will-not-return:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Buzz Kulik (1978), part 1 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-11-16'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/nervous-man-in-a-four-dollar-room:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Douglas Heyes (1978), part 3 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-11-16'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/eye-of-the-beholder:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Maxine Stewart and Douglas Heyes (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-11-16'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/the-trouble-with-templeton:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Buzz Kulik (1978), part 2 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-11-16'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/dust:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Douglas Heyes (1978), part 5 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-11-16'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/the-invaders:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Douglas Heyes (1978), part 6 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-11-16'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/the-odyssey-of-flight-33:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Robert Serling (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-11-16'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/static:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Buzz Kulik (1978), part 3 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-11-16'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/a-hundred-yards-over-the-rim:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Buzz Kulik (1978), part 4 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-11-16'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/deaths-head-revisited:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Buck Houghton (1978), part 2 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/five-characters-in-search-of-an-exit:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Lamont Johnson (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/to-serve-man:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Richard L. Bare (1978), part 2 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/the-little-people:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Buck Houghton (1978), part 3 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/i-sing-the-body-electric:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Buck Houghton (1978), part 4 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/in-his-image:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Herbert Hirschman (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-05-17'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/death-ship:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Ross Martin (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-05-17'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/printers-devil:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Burgess Meredith (1978), part 2 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-05-17'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/the-incredible-world-of-horace-ford:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Pat Hingle (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-05-17'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+1959/a-quality-of-mercy:
+- type: video
+  subtype: bonus-feature
+  title: Leonard Nimoy on "A Quality of Mercy" (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-09-06'
+  rights: licensed
+1959/two:
+- type: video
+  subtype: bonus-feature
+  title: Rod Serling's teaser for "Two" (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-09-13'
+  rights: licensed
+1959/where-is-everybody:
+- type: video
+  subtype: alternate-version
+  title: 'Where Is Everybody?: original pilot version with Serling''s sales pitch (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+- type: video
+  subtype: alternate-version
+  title: 'Where Is Everybody?: alternate opening (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+- type: video
+  subtype: alternate-version
+  title: 'Where Is Everybody?: alternate ending (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+series/2002:
+- type: interview
+  subtype: retrospective-interview
+  title: '''The Twilight Zone'' producer on short-lived revival 20 years later: ''They did not know what they wanted'''
+  url: https://syfy.com/syfy-wire/twilight-zone-2002-upn-revival-producer-ira-behr-interview
+  host: SYFY WIRE
+  rights: link-only
+  date: '2022'
+  note: Showrunner Ira Steven Behr looks back on making the UPN series.
+- type: article
+  subtype: retrospective
+  title: The Twilight Zone's 2002 revival was doomed from the start, thanks to network interference
+  url: https://slashfilm.com/1407362/the-twilight-zone-2002-upn-revival-network-interference
+  host: /Film
+  rights: link-only
+- type: article
+  subtype: retrospective
+  title: '''The Twilight Zone'' 20 years later: remembering UPN''s 2002 revival'
+  url: https://www.syfy.com/syfy-wire/the-twilight-zone-remembering-2002-upn-tv-revival
+  host: SYFY WIRE
+  rights: link-only
+  date: '2022'
+- type: article
+  subtype: retrospective
+  title: 'TV Terrors: remembering the 2002 revival of The Twilight Zone'
+  url: https://www.bloody-disgusting.com/tv/3554267/tv-terrors-remember-2002-revival-twilight-zone/
+  host: Bloody Disgusting
+  rights: link-only
+2019/the-comedian:
+- type: article
+  subtype: news
+  title: CBS releases the full premiere episode free on YouTube
+  url: https://www.slashfilm.com/565378/the-twilight-zone-first-episode/
+  host: /Film
+  rights: link-only
+  date: 2019-04
+  note: CBS All Access put "The Comedian" on YouTube for anyone to watch at launch.

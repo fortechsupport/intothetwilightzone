@@ -7,8 +7,8 @@ runtime_min: 25
 production_code: '2602'
 writers:
 - Richard Matheson
-writing_credit_note: Based on Richard Matheson's short story "Steel" (The Magazine of Fantasy & Science Fiction,
-  May 1956).
+writing_credit_note: Based on Richard Matheson's short story "Steel" (The Magazine of Fantasy & Science Fiction, May
+  1956).
 source_authors:
 - Richard Matheson
 directors:
@@ -18,8 +18,8 @@ cast:
 - Joe Mantell
 - Chuck Hicks
 narrator: Rod Serling
-synopsis: In a near future where human boxing is outlawed and robots fight in the ring, a washed-up former boxer
-  and his mechanic haul their aging, broken-down robot to a small-town bout they cannot afford to lose.
+synopsis: In a near future where human boxing is outlawed and robots fight in the ring, a washed-up former boxer and
+  his mechanic haul their aging, broken-down robot to a small-town bout they cannot afford to lose.
 themes:
 - boxing
 - desperation
@@ -40,3 +40,11 @@ sources:
   url: https://en.wikipedia.org/wiki/Steel_(The_Twilight_Zone)
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Richard Matheson, part 1 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed

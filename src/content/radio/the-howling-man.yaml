@@ -16,8 +16,13 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: 'A full-cast audio remake of “The Howling Man” from the original 1959 series (season 2, 1960), written
-  for television by Charles Beaumont. Adapted for radio by Dennis Etchison, starring Fred Willard. The story: Lost
-  in a storm while walking through post-war Europe, an American takes shelter at a remote monastery. In the night
-  he hears howling and finds a man locked in a cell, who begs to be released from the strange, stern brothers who
-  hold him.'
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
+description: 'A full-cast audio remake of “The Howling Man” from the original 1959 series (season 2, 1960), written for
+  television by Charles Beaumont. Adapted for radio by Dennis Etchison, starring Fred Willard. The story: Lost in a storm
+  while walking through post-war Europe, an American takes shelter at a remote monastery. In the night he hears howling
+  and finds a man locked in a cell, who begs to be released from the strange, stern brothers who hold him.'
+last_verified: '2026-11-20'
+research_confidence: high
