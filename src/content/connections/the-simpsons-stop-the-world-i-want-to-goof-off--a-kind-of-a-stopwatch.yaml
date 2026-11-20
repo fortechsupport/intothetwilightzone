@@ -1,0 +1,12 @@
+from: films/the-simpsons-stop-the-world-i-want-to-goof-off
+to: 1959/a-kind-of-a-stopwatch
+kind: homage
+confidence: documented
+evidence: Bart and Milhouse misuse a watch that freezes time, a parody of the episode with a different ending.
+sources:
+- title: Television series with references to The Twilight Zone (Twilight Zone Wiki)
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+- title: Every Twilight Zone Episode The Simpsons Parodied in 'Treehouse of Horror' (SYFY)
+  url: https://syfy.com/syfy-wire/every-twilight-zone-parody-in-the-simpsons-treehouse-of-horror
+last_verified: '2026-11-19'
+locked: true

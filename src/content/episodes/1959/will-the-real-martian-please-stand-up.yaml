@@ -4,7 +4,7 @@ season: 2
 episode: '28'
 air_date: '1961-05-26'
 runtime_min: 25
-production_code: '173-3660'
+production_code: 173-3660
 writers:
 - Rod Serling
 directors:
@@ -17,6 +17,14 @@ cast:
 - John Archer
 - Bill Erwin
 narrator: Rod Serling
+synopsis: State troopers follow tracks from a crashed object to a snowbound roadside diner, where a bus's passengers
+  are waiting out a washed-out bridge. There is one more person than the driver remembers, and someone in the room
+  may not be human.
+themes:
+- aliens
+- comedy
+- mystery
+- paranoia
 ids:
   imdb: tt0734693
 links:
@@ -24,3 +32,13 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 2) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_2)
+- title: The Twilight Zone (1959 TV series, season 2) - GoodOldTV (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_2)
+- title: 'CTVA: The Twilight Zone Season 2 (1960-61)'
+  url: https://ctva.biz/US/Anthology/TwilightZone_02_(1960-61).htm
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

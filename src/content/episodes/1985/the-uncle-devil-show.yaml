@@ -1,7 +1,7 @@
 title: The Uncle Devil Show
 series: '1985'
 season: 1
-episode: 10b
+episode: '10b'
 air_date: '1985-11-29'
 runtime_min: 7
 writers:
@@ -12,6 +12,12 @@ cast:
 - Murphy Dunne
 - Joel Polis
 narrator: Charles Aidman
+synopsis: Left with a babysitter, a young boy watches a peculiar children's television program hosted by the Devil,
+  whose hands-on lessons in making things prove all too effective.
+themes:
+- childhood
+- devil
+- television
 ids:
   imdb: tt0734758
 links:
@@ -19,3 +25,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

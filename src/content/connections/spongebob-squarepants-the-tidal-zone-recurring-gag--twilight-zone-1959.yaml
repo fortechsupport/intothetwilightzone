@@ -1,0 +1,10 @@
+from: films/spongebob-squarepants-the-tidal-zone-recurring-gag
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: An undersea parody of the show called 'The Tidal Zone' appears in several episodes.
+sources:
+- title: 'Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true

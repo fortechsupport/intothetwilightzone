@@ -1,0 +1,14 @@
+from: films/twilight-zone-planet-of-the-apes-fan-edit
+to: series/1959
+kind: homage
+confidence: documented
+summary: Fan editor Film Scalpel cut the 1968 feature down to a roughly 25-minute faux Twilight Zone episode.
+sources:
+- title: Remembering When Planet of the Apes Was Edited Into a 25-Minute Twilight Zone Episode (SYFY Wire)
+  url: https://www.syfy.com/index%2ephp/syfy-wire/remembering-when-planet-of-the-apes-was-edited-into-twilight-zone-episode
+- title: 'Twilight Zone: Planet of the Apes (Film Scalpel)'
+  url: https://filmscalpel.com/twilight-zone-planet-of-the-apes
+- title: Planet of the Apes as a Twilight Zone episode (Boing Boing)
+  url: https://boingboing.net/2004/08/24/planet-of-the-apes-a.html
+last_verified: '2026-11-19'
+locked: true

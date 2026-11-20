@@ -5,9 +5,10 @@ episode: '16'
 air_date: '1989-01-07'
 runtime_min: 22
 writers:
-- Tom Godwin
 - Alan Brennert
-writing_credit_note: 'Teleplay by: Alan Brennert; Based on a story by: Tom Godwin'
+writing_credit_note: Based on the short story "The Cold Equations" by Tom Godwin; teleplay by Alan Brennert
+source_authors:
+- Tom Godwin
 directors:
 - Martin Lavut
 cast:
@@ -16,6 +17,12 @@ cast:
 - Barclay Hope
 - Nicky Guadagni
 narrator: Robin Ward
+synopsis: The pilot of an emergency supply ship bound for a distant colony discovers a stowaway on board, and the
+  strict physics of his fuel supply leave him an agonizing choice.
+themes:
+- moral dilemma
+- sacrifice
+- space
 ids:
   imdb: tt0734745
 links:
@@ -23,3 +30,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Cold Equations - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Cold_Equations
+last_verified: '2026-11-19'
+locked: true

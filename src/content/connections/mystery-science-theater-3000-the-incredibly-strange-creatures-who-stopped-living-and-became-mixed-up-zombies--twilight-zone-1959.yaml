@@ -1,0 +1,10 @@
+from: films/mystery-science-theater-3000-the-incredibly-strange-creatures-who-stopped-living-and-became-mixed-up-zombies
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: Crow spins a variation on The Twilight Zone's opening narration.
+sources:
+- title: 'The Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true

@@ -4,8 +4,11 @@ season: 1
 episode: '9'
 air_date: '1959-11-27'
 runtime_min: 25
-production_code: '173-3616'
+production_code: 173-3616
 writers:
+- Charles Beaumont
+writing_credit_note: Written by Charles Beaumont; based on his short story "Perchance to Dream"
+source_authors:
 - Charles Beaumont
 directors:
 - Robert Florey
@@ -13,6 +16,12 @@ cast:
 - Richard Conte
 - John Larch
 narrator: Rod Serling
+synopsis: Edward Hall, a man with a weak heart, visits a psychiatrist after days without sleep. Each time he dozes
+  off, his dream picks up where it left off, drawing him toward an amusement park and a dangerous woman.
+themes:
+- dreams
+- fear
+- sanity
 ids:
   imdb: tt0734612
 links:
@@ -20,3 +29,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+last_verified: '2026-11-19'
+locked: true

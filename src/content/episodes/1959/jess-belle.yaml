@@ -15,6 +15,13 @@ cast:
 - George Mitchell
 - Jon Lormer
 narrator: Rod Serling
+synopsis: In the Blue Ridge Mountains, Jess-Belle loves Billy-Ben Turner, who is engaged to another woman. She turns
+  to the local witch for a love charm, and the bargain carries a price she did not foresee.
+themes:
+- folklore
+- jealousy
+- love
+- witchcraft
 ids:
   imdb: tt0734581
 links:
@@ -22,3 +29,13 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 4) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_4)
+- title: The Twilight Zone (1959 TV series, season 4) - Wikipedia mirror
+  url: https://gilligansisland.org/The_Twilight_Zone_(1959_TV_series,_season_4)
+- title: 'CTVA: The Twilight Zone Season 4 (1962-63)'
+  url: https://ctva.biz/US/Anthology/TwilightZone_04_(1962-63).htm
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

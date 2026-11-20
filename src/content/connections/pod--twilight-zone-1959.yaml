@@ -1,0 +1,11 @@
+from: films/pod
+to: series/1959
+kind: inspired-by
+confidence: confirmed-by-creator
+summary: Siblings find their troubled brother insisting he has captured something in his basement; Keating discussed
+  channeling classic Twilight Zone episodes.
+sources:
+- title: 'SXSW ''15 Interview: Mickey Keating''s Pod Channels Classic Twilight Zone Episodes (Bloody Disgusting)'
+  url: https://bloody-disgusting.com/interviews/3335587/sxsw-15-interview-mickey-keatings-pod-channels-classic-twilight-zone-episodes/
+last_verified: '2026-11-19'
+locked: true

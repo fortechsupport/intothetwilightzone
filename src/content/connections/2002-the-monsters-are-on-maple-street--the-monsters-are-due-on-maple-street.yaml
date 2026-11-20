@@ -1,0 +1,10 @@
+from: 2002/the-monsters-are-on-maple-street
+to: 1959/the-monsters-are-due-on-maple-street
+kind: remake
+confidence: documented
+summary: The Monsters Are on Maple Street (2002) is a new version of The Monsters Are Due on Maple Street (1959).
+sources:
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

@@ -6,3 +6,28 @@ seasons: 1
 order: 3
 summary: The second revival, a single season on UPN hosted by Forest Whitaker.
 locked: true
+international_titles:
+- country: France
+  language: French
+  title: La 13ème dimension
+  year: 2003
+  note: First French broadcast dated 29 January 2003, with no channel named. The series aired on 13ème Rue, Série
+    Club and NRJ12.
+  sources:
+  - title: 'A Suivre: 13ème dimension (La)'
+    url: https://a-suivre.org/annuseries/encyclopedie/series.php?series=856
+  - title: 'AlloCiné: La 13ème dimension'
+    url: https://www.allocine.fr/series/ficheserie_gen_cserie=41.html
+releases:
+- date: '2004'
+  format: DVD
+  title: 'The Twilight Zone (2002): The Complete Series'
+  publisher: Image Entertainment (unconfirmed)
+  region: Region 1
+  note: 6-disc set of all 43 episodes of the UPN revival hosted by Forest Whitaker, sold as "Season One"/complete
+    series. Label and exact date not verified.
+  sources:
+  - title: The Twilight Zone (2002) (DVD, 2004, 6-Disc Set) - eBay product listing
+    url: https://ebay.com/p/43707144
+  - title: DVD Talk review 12253
+    url: https://www.dvdtalk.com/reviews/review/12253

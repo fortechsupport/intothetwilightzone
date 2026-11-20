@@ -1,19 +1,26 @@
 title: A Saucer of Loneliness
 series: '1985'
 season: 2
-episode: 01b
+episode: '01b'
 air_date: '1986-09-27'
 runtime_min: 20
 writers:
-- Theodore Sturgeon
 - David Gerrold
-writing_credit_note: 'Teleplay by: David Gerrold; Based on the short story by: Theodore Sturgeon'
+writing_credit_note: Based on the short story "A Saucer of Loneliness" by Theodore Sturgeon; teleplay by David Gerrold
+source_authors:
+- Theodore Sturgeon
 directors:
 - John Hancock
 cast:
 - Shelley Duvall
 - Nan Martin
 narrator: Charles Aidman
+synopsis: A shy, overlooked waitress is touched by a tiny flying saucer that carries a message meant for her alone.
+  Her refusal to share it turns her into a public curiosity hounded by press, officials and strangers.
+themes:
+- alien contact
+- loneliness
+- privacy
 ids:
   imdb: tt0734699
 links:
@@ -21,3 +28,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: A Saucer of Loneliness - Wikipedia
+  url: https://wikipedia.com/wiki/A_Saucer_of_Loneliness
+last_verified: '2026-11-19'
+locked: true

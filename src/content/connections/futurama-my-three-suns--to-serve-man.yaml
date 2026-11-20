@@ -1,0 +1,10 @@
+from: films/futurama-my-three-suns
+to: 1959/to-serve-man
+kind: reference
+confidence: documented
+summary: Bender wears an apron bearing the phrase 'To Serve Man', a joke on the cookbook twist.
+sources:
+- title: 'The Infosphere: The Twilight Zone'
+  url: https://theinfosphere.org/The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true

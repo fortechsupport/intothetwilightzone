@@ -15,8 +15,18 @@ cast:
 - Mari Morrow
 - Blu Mankuma
 narrator: Forest Whitaker
+synopsis: After a white man stands by while a Black professor is attacked by skinheads, he wakes to find that everyone
+  around him, from strangers to his own family, now sees him as a Black man.
+themes:
+- guilt
+- identity
+- racism
 ids:
   imdb: tt0734802
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

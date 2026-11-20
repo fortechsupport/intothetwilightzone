@@ -1,0 +1,10 @@
+from: films/sabrina-the-teenage-witch-good-will-haunting
+to: 1959/living-doll
+kind: homage
+confidence: documented
+evidence: Wikipedia's 'Living Doll' page lists this Sabrina the Teenage Witch episode as a parody of the episode.
+sources:
+- title: Living Doll (The Twilight Zone) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Living_Doll_(The_Twilight_Zone)
+last_verified: '2026-11-19'
+locked: true

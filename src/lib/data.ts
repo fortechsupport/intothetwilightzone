@@ -19,7 +19,7 @@ export const CONNECTION_LABELS: Record<string, string> = {
 export const CONFIDENCE_LABELS: Record<string, string> = {
   'confirmed-by-creator': 'Confirmed by the creator',
   documented: 'Documented by a reliable source',
-  'fan-noted': 'Fan-noted, not yet sourced',
+  'fan-noted': 'Unconfirmed: fan-noted, no source yet',
 };
 
 export function episodeNumber(e: Episode['data']): string {
@@ -58,7 +58,7 @@ export async function resolveRef(ref: string): Promise<{ title: string; url: str
   const id = rest.join('/');
   if (collection === 'films') {
     const f = (await getCollection('films')).find((x) => x.id === id);
-    const kinds: Record<string, string> = { film: 'Film', 'tv-film': 'TV film', 'tv-episode': 'TV episode', 'tv-segment': 'TV segment', 'tv-series': 'TV series', sketch: 'Sketch', documentary: 'Documentary', special: 'Special', pilot: 'Pilot', stage: 'Stage', unproduced: 'Unproduced' };
+    const kinds: Record<string, string> = { film: 'Film', 'tv-film': 'TV film', 'tv-episode': 'TV episode', 'tv-segment': 'TV segment', 'tv-series': 'TV series', sketch: 'Sketch', documentary: 'Documentary', special: 'Special', pilot: 'Pilot', stage: 'Stage', unproduced: 'Unproduced', short: 'Short film', 'music-video': 'Music video', commercial: 'Commercial', 'web-series': 'Web series' };
     return f && { title: f.data.parent_series ? `${f.data.title} (${f.data.parent_series})` : f.data.title, url: `/films/${f.id}/`, kind: kinds[f.data.kind] ?? 'Film' };
   }
   if (collection === 'songs') {
@@ -108,6 +108,7 @@ export async function allPeople(): Promise<Map<string, Person>> {
   for (const e of await allEpisodes()) {
     const base = { title: e.data.title, url: `/episodes/${e.id}/`, date: e.data.air_date, detail: `${e.data.series} series, ${episodeNumber(e.data)}` };
     e.data.writers.forEach((n) => add(n, { ...base, role: 'Writer' }));
+    e.data.source_authors.filter((n) => !e.data.writers.includes(n)).forEach((n) => add(n, { ...base, role: 'Source story' }));
     e.data.directors.forEach((n) => add(n, { ...base, role: 'Director' }));
     e.data.cast.forEach((n) => add(n, { ...base, role: 'Cast' }));
     add(e.data.narrator, { ...base, role: 'Narrator' });

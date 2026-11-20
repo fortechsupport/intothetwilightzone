@@ -1,0 +1,13 @@
+from: films/tower-of-terror-1997
+to: series/1959
+kind: reference
+confidence: documented
+summary: A TV movie adapting Disney's Twilight Zone-themed Hollywood Tower Hotel ride, starring Steve Guttenberg
+  as a reporter probing a haunted elevator.
+sources:
+- title: 'Wikipedia: Tower of Terror (1997 film)'
+  url: https://en.wikipedia.org/wiki/Tower_of_Terror_(1997_film)
+- title: 'D23: Tower of Terror (television)'
+  url: https://d23.com/a-to-z/tower-of-terror-television/
+last_verified: '2026-11-19'
+locked: true

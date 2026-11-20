@@ -14,6 +14,13 @@ cast:
 - Antoinette Bower
 - Barton Heyman
 narrator: Rod Serling
+synopsis: Colonel Adam Cook crash-lands on an unknown planet, his ship wrecked beyond repair and his home world
+  on the brink of war. Stranded and injured, he encounters a native woman with whom he shares no language.
+themes:
+- isolation
+- new beginnings
+- space travel
+- war
 ids:
   imdb: tt0734615
 links:
@@ -21,3 +28,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+last_verified: '2026-11-19'
+locked: true

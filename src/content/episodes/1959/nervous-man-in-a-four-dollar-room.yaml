@@ -4,7 +4,7 @@ season: 2
 episode: '3'
 air_date: '1960-10-14'
 runtime_min: 25
-production_code: '173-3641'
+production_code: 173-3641
 writers:
 - Rod Serling
 directors:
@@ -13,6 +13,14 @@ cast:
 - Joe Mantell
 - William D. Gordon
 narrator: Rod Serling
+synopsis: Jackie Rhoades, a jittery small-time crook, waits in a cheap hotel room for orders to commit a murder
+  for his boss. Then his reflection in the mirror starts talking back, and it has firm opinions about the man Jackie
+  has become.
+themes:
+- conscience
+- crime
+- identity
+- second chances
 ids:
   imdb: tt0734596
 links:
@@ -20,3 +28,13 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 2) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_2)
+- title: The Twilight Zone (1959 TV series, season 2) - GoodOldTV (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_2)
+- title: 'CTVA: The Twilight Zone Season 2 (1960-61)'
+  url: https://ctva.biz/US/Anthology/TwilightZone_02_(1960-61).htm
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

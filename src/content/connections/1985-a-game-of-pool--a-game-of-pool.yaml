@@ -1,0 +1,10 @@
+from: 1985/a-game-of-pool
+to: 1959/a-game-of-pool
+kind: remake
+confidence: documented
+summary: A Game of Pool (1985) is a new version of A Game of Pool (1959).
+sources:
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

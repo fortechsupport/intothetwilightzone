@@ -4,7 +4,7 @@ season: 1
 episode: '24'
 air_date: '1960-03-18'
 runtime_min: 25
-production_code: '173-3621'
+production_code: 173-3621
 writers:
 - Charles Beaumont
 directors:
@@ -14,6 +14,12 @@ cast:
 - Estelle Winwood
 - Robert McCord
 narrator: Rod Serling
+synopsis: History professor Walter Jameson lectures about the Civil War with uncanny vividness. His fiance's father,
+  a fellow academic, notices that Jameson has not aged a day in all the years he has known him.
+themes:
+- aging
+- immortality
+- love
 ids:
   imdb: tt0734588
 links:
@@ -21,3 +27,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+last_verified: '2026-11-19'
+locked: true

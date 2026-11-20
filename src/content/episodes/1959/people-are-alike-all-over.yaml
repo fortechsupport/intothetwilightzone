@@ -4,11 +4,12 @@ season: 1
 episode: '25'
 air_date: '1960-03-25'
 runtime_min: 25
-production_code: '173-3613'
+production_code: 173-3613
 writers:
-- Paul Fairman
 - Rod Serling
-writing_credit_note: 'Teleplay by: Rod Serling; Based on a short story by: Paul Fairman'
+writing_credit_note: Teleplay by Rod Serling; based on the short story "Brothers Beyond the Void" by Paul W. Fairman
+source_authors:
+- Paul Fairman
 directors:
 - Mitchell Leisen
 cast:
@@ -16,6 +17,12 @@ cast:
 - Susan Oliver
 - Vic Perrin
 narrator: Rod Serling
+synopsis: Fearful biologist Sam Conrad joins a mission to Mars, hoping humanity is not alone. After a hard landing,
+  he meets Martians who are warm, welcoming, and eager to make him feel at home.
+themes:
+- first contact
+- human nature
+- space travel
 ids:
   imdb: tt0734611
 links:
@@ -23,3 +30,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+last_verified: '2026-11-19'
+locked: true

@@ -13,8 +13,20 @@ cast:
 - Amy Landecker
 - Alex Diakun
 narrator: Jordan Peele
+synopsis: A depressed anthropology professor facing divorce and his father's apparent suicide finds a revolver nicknamed
+  the Blue Scorpion in his father's house, and grows fixated on it after spotting a bullet bearing his own name.
+themes:
+- grief
+- guns
+- obsession
 ids:
   imdb: tt9199174
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2019 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

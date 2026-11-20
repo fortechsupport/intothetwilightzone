@@ -1,0 +1,11 @@
+from: films/memento
+to: series/1959
+kind: inspired-by
+confidence: fan-noted
+summary: A man without short-term memory hunts his wife's killer in reverse-ordered scenes; Flickering Myth lists
+  it as a Twilight Zone-style movie.
+sources:
+- title: 10 Great Twilight Zone Style Movies (Flickering Myth)
+  url: https://www.flickeringmyth.com/10-great-twilight-zone-style-movies/
+last_verified: '2026-11-19'
+locked: true

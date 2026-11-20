@@ -1,8 +1,13 @@
 from: films/jacobs-ladder
 to: 1959/an-occurrence-at-owl-creek-bridge
 kind: inspired-by
-confidence: fan-noted
-summary: Jacob's Ladder is listed in Adam's research as inspired by "An Occurrence at Owl Creek Bridge".
+confidence: confirmed-by-creator
+summary: Director Adrian Lyne has named the Twilight Zone version of 'An Occurrence at Owl Creek Bridge' as an inspiration
+  for the film's 'not what you think you're watching' structure.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: How The Twilight Zone And A Literary Classic Helped Inspire Jacob's Ladder (/Film)
+  url: https://www.slashfilm.com/1027473/how-the-twilight-zone-and-a-literary-classic-helped-inspire-jacobs-ladder
+last_verified: '2026-11-19'
+locked: true

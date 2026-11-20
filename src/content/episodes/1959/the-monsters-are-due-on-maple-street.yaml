@@ -4,7 +4,7 @@ season: 1
 episode: '22'
 air_date: '1960-03-04'
 runtime_min: 25
-production_code: '173-3620'
+production_code: 173-3620
 writers:
 - Rod Serling
 directors:
@@ -16,6 +16,13 @@ cast:
 - Jan Handzlik
 - Burt Metcalfe
 narrator: Rod Serling
+synopsis: After a flash streaks across the sky, power and cars die on a quiet suburban street. When a boy suggests
+  that invaders may be living among them, neighbors begin to eye one another with suspicion.
+themes:
+- cold war
+- mob mentality
+- paranoia
+- prejudice
 ids:
   imdb: tt0734664
 links:
@@ -23,3 +30,11 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+- title: Wikipedia - The Monsters Are Due on Maple Street
+  url: https://wikipedia.com/wiki/The_Monsters_Are_on_Maple_Street
+last_verified: '2026-11-19'
+locked: true

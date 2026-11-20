@@ -15,6 +15,14 @@ cast:
 - Jon Lormer
 - James Houghton
 narrator: Rod Serling
+synopsis: In a 1920s Southern town, a young man sits up in his coffin at his own funeral. He seems healthy and even
+  more capable than before, but the superstitious townsfolk begin to wonder whether something else came back in
+  his place.
+themes:
+- comedy
+- small town
+- superstition
+- suspicion
 ids:
   imdb: tt0734653
 links:
@@ -22,3 +30,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+last_verified: '2026-11-19'
+locked: true

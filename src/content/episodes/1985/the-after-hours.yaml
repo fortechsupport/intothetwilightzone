@@ -1,13 +1,14 @@
 title: The After Hours
 series: '1985'
 season: 2
-episode: 04a
+episode: '04a'
 air_date: '1986-10-18'
 runtime_min: 18
 writers:
-- Rod Serling
 - Rockne S. O'Bannon
-writing_credit_note: 'Teleplay by: Rockne S. O''Bannon; Based on the story and teleplay by: Rod Serling'
+writing_credit_note: New teleplay by Rockne S. O'Bannon, based on Rod Serling's original story and teleplay
+source_authors:
+- Rod Serling
 directors:
 - Bruce Malmuth
 cast:
@@ -15,6 +16,12 @@ cast:
 - Ned Bellamy
 - Edan Gross
 narrator: Charles Aidman
+synopsis: A young woman buying a gift is sent to a department store floor that seems deserted, then finds herself
+  locked in after closing, where the mannequins appear oddly aware of her.
+themes:
+- belonging
+- identity
+- mannequins
 ids:
   imdb: tt0734717
 links:
@@ -22,3 +29,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: Season 2 (1985) - Twilight Zone Wiki
+  url: https://twilightzone.fandom.com/wiki/Season_2_(1985)
+last_verified: '2026-11-19'
+locked: true

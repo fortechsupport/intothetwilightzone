@@ -4,8 +4,11 @@ season: 2
 episode: '5'
 air_date: '1960-11-04'
 runtime_min: 25
-production_code: '173-3642'
+production_code: 173-3642
 writers:
+- Charles Beaumont
+writing_credit_note: Teleplay by Charles Beaumont; based on his short story "The Howling Man"
+source_authors:
 - Charles Beaumont
 directors:
 - Douglas Heyes
@@ -13,6 +16,14 @@ cast:
 - John Carradine
 - H.M. Wynant
 narrator: Rod Serling
+synopsis: Lost in a storm while walking through post-war Europe, an American takes shelter at a remote monastery.
+  In the night he hears howling and finds a man locked in a cell, who begs to be released from the strange, stern
+  brothers who hold him.
+themes:
+- faith
+- good and evil
+- temptation
+- the devil
 ids:
   imdb: tt0734645
 links:
@@ -20,3 +31,13 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 2) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_2)
+- title: The Twilight Zone (1959 TV series, season 2) - GoodOldTV (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_2)
+- title: 'CTVA: The Twilight Zone Season 2 (1960-61)'
+  url: https://ctva.biz/US/Anthology/TwilightZone_02_(1960-61).htm
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

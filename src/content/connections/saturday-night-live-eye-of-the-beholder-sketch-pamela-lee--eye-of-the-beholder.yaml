@@ -1,0 +1,13 @@
+from: films/saturday-night-live-eye-of-the-beholder-sketch-pamela-lee
+to: 1959/eye-of-the-beholder
+kind: parody
+confidence: documented
+summary: Pamela Anderson plays the bandaged patient in a world of pig-faced people who all find her gorgeous, with
+  Norm Macdonald closing as Serling.
+sources:
+- title: 'Westword: Top ten Twilight Zone references in pop culture'
+  url: https://www.westword.com/arts/top-ten-twilight-zone-references-in-pop-culture-5814980
+- title: 'One SNL a Day: April 19, 1997 – Pamela Lee / Rollins Band'
+  url: https://onesnladay.com/2019/11/29/april-19-1997-pamela-lee-rollins-band-s22-e18
+last_verified: '2026-11-19'
+locked: true

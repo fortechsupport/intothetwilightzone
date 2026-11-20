@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import { allEpisodes, formatDate, episodeNumber } from '../../lib/data';
+import HistoryAndIntl from '../../components/HistoryAndIntl.astro';
 
 export async function getStaticPaths() {
   const series = await getCollection('series');
@@ -29,6 +30,7 @@ const jsonld = {
     <dt>Seasons</dt><dd>{s.data.seasons}</dd>
     <dt>Episodes and segments</dt><dd>{eps.length}</dd>
   </dl>
+  <HistoryAndIntl history={s.data.history} intl={s.data.international_titles} releases={s.data.releases} />
   <p class="small letters">Jump to: {seasons.map((n) => <a href={`#season-${n}`}>Season {n}</a>)}</p>
   {seasons.map((n) => (
     <section id={`season-${n}`}>

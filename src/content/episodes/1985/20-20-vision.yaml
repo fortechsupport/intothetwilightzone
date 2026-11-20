@@ -12,6 +12,12 @@ cast:
 - Michael Moriarty
 - David Hemblen
 narrator: Robin Ward
+synopsis: A soft-hearted bank loan officer cracks his glasses and finds that, through the broken lenses, he can
+  glimpse what lies ahead for the struggling farm he is trying to save.
+themes:
+- compassion
+- fate
+- foresight
 ids:
   imdb: tt0734696
 links:
@@ -19,3 +25,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

@@ -13,6 +13,12 @@ cast:
 - Keith Knight
 - Susan Roman
 narrator: Robin Ward
+synopsis: An ordinary man stumbles onto a hidden camera in his home and learns that every moment of his life for
+  the past five years has been broadcast to the public as a television show.
+themes:
+- media
+- privacy
+- surveillance
 ids:
   imdb: tt0734730
 links:
@@ -20,3 +26,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

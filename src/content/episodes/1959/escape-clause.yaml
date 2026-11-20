@@ -4,7 +4,7 @@ season: 1
 episode: '6'
 air_date: '1959-11-06'
 runtime_min: 25
-production_code: '173-3603'
+production_code: 173-3603
 writers:
 - Rod Serling
 directors:
@@ -16,6 +16,12 @@ cast:
 - Joe Flynn
 - Robert McCord
 narrator: Rod Serling
+synopsis: Walter Bedeker, a hypochondriac terrified of death, accepts a visitor's offer of immortality in exchange
+  for his soul, with an escape clause attached. Freed from fear, he soon finds that endless life grows dull.
+themes:
+- boredom
+- deal with the devil
+- immortality
 ids:
   imdb: tt0734566
 links:
@@ -23,3 +29,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+last_verified: '2026-11-19'
+locked: true

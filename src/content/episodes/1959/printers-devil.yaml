@@ -7,6 +7,9 @@ runtime_min: 51
 production_code: '4864'
 writers:
 - Charles Beaumont
+writing_credit_note: Teleplay by Charles Beaumont; based on his short story "The Devil, You Say?"
+source_authors:
+- Charles Beaumont
 directors:
 - Ralph Senensky
 cast:
@@ -14,6 +17,19 @@ cast:
 - Pat Crowley
 - Burgess Meredith
 narrator: Rod Serling
+synopsis: The editor of a failing small-town newspaper is about to give up when a strange, cigar-chomping linotype
+  operator offers to work for free. Soon the paper prints stories before they happen.
+themes:
+- bargains
+- journalism
+- temptation
+- the devil
+trivia:
+- text: 'Burgess Meredith starred in four episodes of the series: "Time Enough at Last", "Mr. Dingle, the Strong",
+    "The Obsolete Man" and "Printer''s Devil". He later narrated Twilight Zone: The Movie (1983).'
+  sources:
+  - title: Burgess Meredith - Wikipedia (IPFS mirror)
+    url: https://www.chise.org/ipns/en.wikipedia-on-ipfs.org/wiki/Burgess_Meredith
 ids:
   imdb: tt0734614
 links:
@@ -21,3 +37,13 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 4) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_4)
+- title: The Twilight Zone (1959 TV series, season 4) - Wikipedia mirror
+  url: https://gilligansisland.org/The_Twilight_Zone_(1959_TV_series,_season_4)
+- title: 'CTVA: The Twilight Zone Season 4 (1962-63)'
+  url: https://ctva.biz/US/Anthology/TwilightZone_04_(1962-63).htm
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

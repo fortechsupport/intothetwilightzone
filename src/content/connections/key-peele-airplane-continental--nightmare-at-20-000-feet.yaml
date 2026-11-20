@@ -1,0 +1,10 @@
+from: films/key-peele-airplane-continental
+to: 1959/nightmare-at-20-000-feet
+kind: homage
+confidence: fan-noted
+evidence: Wikipedia lists this Key & Peele sketch as a parody of the episode; no second source was found.
+sources:
+- title: Nightmare at 20,000 Feet (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+last_verified: '2026-11-19'
+locked: true

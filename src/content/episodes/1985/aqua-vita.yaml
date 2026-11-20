@@ -1,7 +1,7 @@
 title: Aqua Vita
 series: '1985'
 season: 2
-episode: 02b
+episode: '02b'
 air_date: '1986-10-04'
 runtime_min: 25
 writers:
@@ -13,6 +13,12 @@ cast:
 - Mimi Kennedy
 - Christopher McDonald
 narrator: Charles Aidman
+synopsis: A television news anchor facing her fortieth birthday fears being replaced by younger faces. A mysterious
+  bottled water promises to restore her youth, but the supply comes with conditions she has not considered.
+themes:
+- addiction
+- aging
+- vanity
 ids:
   imdb: tt0734703
 links:
@@ -20,3 +26,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

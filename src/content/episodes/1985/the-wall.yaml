@@ -13,6 +13,12 @@ cast:
 - George R. Robertson
 - Eugene Clark
 narrator: Robin Ward
+synopsis: A military experiment has opened a doorway to an unknown place, and a seasoned officer volunteers to step
+  through after earlier test subjects never return.
+themes:
+- escape
+- military experiments
+- the unknown
 ids:
   imdb: tt0734763
 links:
@@ -20,3 +26,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

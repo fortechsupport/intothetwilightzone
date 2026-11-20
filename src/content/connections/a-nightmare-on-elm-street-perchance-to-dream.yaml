@@ -2,7 +2,13 @@ from: films/a-nightmare-on-elm-street
 to: 1959/perchance-to-dream
 kind: inspired-by
 confidence: fan-noted
-summary: A Nightmare on Elm Street is listed in Adam's research as inspired by "Perchance to Dream".
+summary: No reliable source found tying Wes Craven's film to this episode; published accounts of the film's origin
+  point to news reports of deaths during nightmares. The premise (a dream figure who can kill the dreamer) does
+  match.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: Perchance to Dream (The Twilight Zone) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Perchance_to_Dream_(The_Twilight_Zone)
+last_verified: '2026-11-19'
+locked: true

@@ -1,19 +1,38 @@
 title: Button, Button
 series: '1985'
 season: 1
-episode: 20b
+episode: '20b'
 air_date: '1986-03-07'
 runtime_min: 21
 writers:
 - Richard Matheson
 - Logan Swanson
-writing_credit_note: 'Teleplay by: Richard Matheson; Based on the short story by: Richard Matheson'
+writing_credit_note: Story and teleplay by Richard Matheson; based on his short story "Button, Button"
+source_authors:
+- Richard Matheson
 directors:
 - Peter Medak
 cast:
 - Mare Winningham
 - Brad Davis
 narrator: Charles Aidman
+synopsis: 'A struggling couple receives a box with a single button and a stranger''s offer: press it and they will
+  get a fortune, but someone they do not know will die.'
+themes:
+- greed
+- marriage
+- morality
+trivia:
+- text: Richard Matheson disliked this adaptation of his story, particularly its new ending, so the teleplay is
+    credited to his pseudonym "Logan Swanson".
+  sources:
+  - title: Button, Button (The Twilight Zone) - Wikipedia
+    url: https://en.wikipedia.org/wiki/Button,_Button_(The_Twilight_Zone)
+- text: The same Matheson story was later adapted as Richard Kelly's 2009 film The Box, in which Basil Hoffman,
+    the Steward here, plays a different role.
+  sources:
+  - title: Button, Button (The Twilight Zone) - Wikipedia
+    url: https://en.wikipedia.org/wiki/Button,_Button_(The_Twilight_Zone)
 ids:
   imdb: tt0734727
 links:
@@ -21,3 +40,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

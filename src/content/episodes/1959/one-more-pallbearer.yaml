@@ -14,6 +14,13 @@ cast:
 - Gage Clarke
 - Josip Elic
 narrator: Rod Serling
+synopsis: A wealthy, bitter man invites three people who humiliated him years ago into his luxurious bomb shelter
+  beneath a skyscraper. He announces a nuclear attack is imminent and offers them safety, but only if they apologize.
+themes:
+- cold war
+- delusion
+- pride
+- revenge
 ids:
   imdb: tt0734608
 links:
@@ -21,3 +28,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+last_verified: '2026-11-19'
+locked: true

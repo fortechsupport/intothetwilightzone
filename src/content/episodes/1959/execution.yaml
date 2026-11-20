@@ -4,11 +4,12 @@ season: 1
 episode: '26'
 air_date: '1960-04-01'
 runtime_min: 25
-production_code: '173-3628'
+production_code: 173-3628
 writers:
-- George Clayton Johnson
 - Rod Serling
-writing_credit_note: 'Teleplay by: Rod Serling; Based on a short story by: George Clayton Johnson'
+writing_credit_note: Teleplay by Rod Serling; based on a story by George Clayton Johnson
+source_authors:
+- George Clayton Johnson
 directors:
 - David Orrick McDearmon
 cast:
@@ -18,6 +19,13 @@ cast:
 - Jon Lormer
 - Richard Karlan
 narrator: Rod Serling
+synopsis: In 1880, cowboy killer Joe Caswell is seconds from being hanged when he vanishes from the noose. He reappears
+  in a 20th-century scientist's laboratory, pulled forward in time by an experimental machine.
+themes:
+- justice
+- time travel
+- violence
+- western
 ids:
   imdb: tt0734567
 links:
@@ -25,3 +33,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+last_verified: '2026-11-19'
+locked: true

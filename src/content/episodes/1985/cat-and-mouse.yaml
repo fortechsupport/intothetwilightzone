@@ -12,6 +12,12 @@ cast:
 - Pamela Bellwood
 - Page Fletcher
 narrator: Robin Ward
+synopsis: A shy, lonely woman falls for a charming man who seems devoted to her, until she learns about the strange
+  curse that shapes his days.
+themes:
+- curses
+- loneliness
+- romance
 ids:
   imdb: tt0734704
 links:
@@ -19,3 +25,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

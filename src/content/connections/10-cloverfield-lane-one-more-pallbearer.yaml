@@ -1,8 +1,15 @@
 from: films/10-cloverfield-lane
 to: 1959/one-more-pallbearer
 kind: inspired-by
-confidence: fan-noted
-summary: 10 Cloverfield Lane is listed in Adam's research as inspired by "One More Pallbearer".
+confidence: documented
+summary: /Film and a Yahoo list both pair the film's bunker-and-doomsday-claim premise with this episode; they are
+  critics' comparisons, and no creator has confirmed it.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The 5 Best Movies Inspired By Twilight Zone Episodes, Ranked (/Film)
+  url: https://www.slashfilm.com/1722719/best-movies-the-twilight-zone-episodes-inspiration-ranked
+- title: 13 Sci-Fi, Mystery, And Drama Plots That 'The Twilight Zone' May Have Inspired (Yahoo)
+  url: https://www.yahoo.com/entertainment/11-movies-2-tv-shows-193103537.html
+last_verified: '2026-11-19'
+locked: true

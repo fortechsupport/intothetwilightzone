@@ -1,7 +1,7 @@
 title: A Small Talent for War
 series: '1985'
 season: 1
-episode: 15b
+episode: '15b'
 air_date: '1986-01-24'
 runtime_min: 8
 writers:
@@ -12,6 +12,12 @@ directors:
 cast:
 - John Glover
 narrator: Charles Aidman
+synopsis: An alien envoy appears before the United Nations and declares that humanity has disappointed its creators,
+  giving the world's diplomats a single day to prove their species is worth keeping.
+themes:
+- alien contact
+- peace
+- war
 ids:
   imdb: tt0734721
 links:
@@ -19,3 +25,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

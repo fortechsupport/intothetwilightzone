@@ -15,8 +15,18 @@ cast:
 - Kandyse McClure
 - Andrew Johnston
 narrator: Forest Whitaker
+synopsis: A young florist draws the attention of a pet shop clerk whose shifting personalities make his intentions
+  impossible to read, and his attention soon turns menacing.
+themes:
+- fear
+- mental illness
+- stalking
 ids:
   imdb: tt0734782
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

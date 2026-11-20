@@ -6,15 +6,23 @@ air_date: '1963-12-13'
 runtime_min: 25
 production_code: '2614'
 writers:
-- Lou Holz
 - Rod Serling
-writing_credit_note: 'Teleplay by: Rod Serling; Based on a story by: Lou Holz'
+writing_credit_note: Teleplay by Rod Serling, based on a story by Lou Holtz.
+source_authors:
+- Lou Holz
 directors:
 - Bernard Girard
 cast:
 - Patrick O'Neal
 - Ruta Lee
 narrator: Rod Serling
+synopsis: Harmon Gordon, an aging millionaire married to a much younger, contemptuous wife, begs his doctor brother
+  to inject him with an experimental youth serum. The treatment works, though not quite as anyone planned.
+themes:
+- aging
+- marriage
+- science
+- youth
 ids:
   imdb: tt0734549
 links:
@@ -22,3 +30,11 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+- title: A Short Drink from a Certain Fountain - Wikipedia
+  url: https://en.wikipedia.org/wiki/A_Short_Drink_from_a_Certain_Fountain
+last_verified: '2026-11-19'
+locked: true

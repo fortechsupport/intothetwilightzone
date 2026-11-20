@@ -1,8 +1,15 @@
 from: films/planet-of-the-apes
 to: 1959/people-are-alike-all-over
 kind: inspired-by
-confidence: fan-noted
-summary: Planet of the Apes is listed in Adam's research as inspired by "People Are Alike All Over".
+confidence: documented
+summary: Rod Serling co-wrote the 1968 screenplay, and several articles trace its astronaut-captivity premise and
+  twist back to this and other Serling episodes.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: Rod Serling's Planet of the Apes connections (RodSerling.com)
+  url: https://rodserling.com/rod-serlings-planet-of-the-apes-connections/
+- title: Three Classic Twilight Zone Episodes Foreshadowed Rod Serling's Script for Planet of the Apes (SYFY)
+  url: https://syfy.com/syfy-wire/how-the-twilight-zone-foreshadowed-planet-of-the-apes
+last_verified: '2026-11-19'
+locked: true

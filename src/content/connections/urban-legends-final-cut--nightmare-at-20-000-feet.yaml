@@ -1,0 +1,12 @@
+from: films/urban-legends-final-cut
+to: 1959/nightmare-at-20-000-feet
+kind: homage
+confidence: documented
+evidence: Wikipedia says the film's opening on a stormy airliner is modelled on the episode.
+sources:
+- title: Nightmare at 20,000 Feet (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+- title: 'Urban Legends: Final Cut (Wikipedia)'
+  url: https://en.wikipedia.org/wiki/Urban_Legends:_Final_Cut
+last_verified: '2026-11-19'
+locked: true

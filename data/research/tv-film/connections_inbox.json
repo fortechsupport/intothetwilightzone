@@ -1,0 +1,64 @@
+[
+ {
+  "work": {
+   "title": "The Bart Zone",
+   "kind": "tv-segment",
+   "year": 1991,
+   "parent_series": "The Simpsons, Treehouse of Horror II (season 3)"
+  },
+  "to": "1959/its-a-good-life",
+  "kind": "parody",
+  "confidence": "documented",
+  "summary": "Bart gains godlike mental powers and terrorizes Springfield, closely modeled on \"It's a Good Life.\"",
+  "sources": [
+   {
+    "title": "syfy.com",
+    "url": "https://syfy.com/syfy-wire/every-twilight-zone-parody-in-the-simpsons-treehouse-of-horror"
+   },
+   {
+    "title": "simpsonswiki.com",
+    "url": "https://simpsonswiki.com/wiki/Treehouse_of_Horror_II/References"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Monkey's Paw",
+   "kind": "tv-segment",
+   "year": 1991,
+   "parent_series": "The Simpsons, Treehouse of Horror II (season 3)"
+  },
+  "to": "1985/a-small-talent-for-war",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "The segment is mainly based on W. W. Jacobs's story, but its alien-invasion subplot borrows from the 1985 revival episode \"A Small Talent for War.\"",
+  "sources": [
+   {
+    "title": "syfy.com",
+    "url": "https://syfy.com/syfy-wire/every-twilight-zone-parody-in-the-simpsons-treehouse-of-horror"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Twilight Zone sketch (Ariana Grande episode)",
+   "kind": "sketch",
+   "year": 2024,
+   "parent_series": "Saturday Night Live, season 50 episode 3"
+  },
+  "to": "series/1959",
+  "kind": "parody",
+  "confidence": "documented",
+  "summary": "A sketch that drops a tongue-twister routine into a Twilight Zone-style setup, reviewed by Slashfilm as one of the episode's highlights.",
+  "sources": [
+   {
+    "title": "slashfilm.com",
+    "url": "https://slashfilm.com/1687268/snl-ariana-grande-hotel-detectives-twilight-zone"
+   },
+   {
+    "title": "exclaim.ca",
+    "url": "https://exclaim.ca/film/article/saturday-night-live-ariana-grande-and-stevie-nicks-october-12-2024"
+   }
+  ]
+ }
+]

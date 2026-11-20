@@ -1,0 +1,14 @@
+from: films/final-destination
+to: 1959/and-when-the-sky-was-opened
+kind: inspired-by
+confidence: documented
+evidence: /Film and Yahoo both compare the film's survivors, who are erased one by one after cheating death, with
+  this episode's astronauts who vanish one at a time. These are critics' comparisons. (This film is already on the
+  site; this adds a second episode link.)
+sources:
+- title: The 5 Best Movies Inspired By Twilight Zone Episodes, Ranked (/Film)
+  url: https://www.slashfilm.com/1722719/best-movies-the-twilight-zone-episodes-inspiration-ranked
+- title: 13 Sci-Fi, Mystery, And Drama Plots That 'The Twilight Zone' May Have Inspired (Yahoo)
+  url: https://www.yahoo.com/entertainment/11-movies-2-tv-shows-193103537.html
+last_verified: '2026-11-19'
+locked: true

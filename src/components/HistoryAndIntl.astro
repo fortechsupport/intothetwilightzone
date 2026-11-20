@@ -1,0 +1,65 @@
+---
+import { formatDate } from '../lib/data';
+interface Src { title: string; url?: string }
+interface Props {
+  history?: { date: string; title: string; text: string; sources: Src[] }[];
+  releases?: { date?: string; format: string; title: string; publisher?: string; region?: string; note?: string; sources: Src[] }[];
+  intl?: { country: string; language?: string; title: string; broadcaster?: string; year?: number; note?: string; sources: Src[] }[];
+}
+const { history = [], intl = [], releases = [] } = Astro.props;
+const sortedReleases = [...releases].sort((a, b) => (a.date ?? '9999').localeCompare(b.date ?? '9999'));
+const sortedHistory = [...history].sort((a, b) => a.date.localeCompare(b.date));
+const sortedIntl = [...intl].sort((a, b) => a.country.localeCompare(b.country));
+---
+{sortedHistory.length > 0 && (
+  <section>
+    <h2>History and legal record</h2>
+    <ul>
+      {sortedHistory.map((h) => (
+        <li><strong>{formatDate(h.date)}: {h.title}.</strong> {h.text} <span class="small muted">({h.sources.map((s, i) => <>{i > 0 && ', '}{s.url ? <a href={s.url} rel="noopener">{s.title}</a> : s.title}</>)})</span></li>
+      ))}
+    </ul>
+  </section>
+)}
+{sortedReleases.length > 0 && (
+  <section>
+    <h2>Home media, syndication and streaming</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Date</th><th>Format</th><th>Release</th><th>Label or platform</th><th>Source</th></tr></thead>
+        <tbody>
+          {sortedReleases.map((r) => (
+            <tr>
+              <td>{formatDate(r.date) ?? 'Date unknown'}</td>
+              <td>{r.format}</td>
+              <td>{r.title}{r.region && <span class="muted small"> ({r.region})</span>}{r.note && <div class="small muted">{r.note}</div>}</td>
+              <td>{r.publisher}</td>
+              <td class="small">{r.sources.map((s, i) => <>{i > 0 && ', '}{s.url ? <a href={s.url} rel="noopener">{s.title}</a> : s.title}</>)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+)}
+{sortedIntl.length > 0 && (
+  <section>
+    <h2>Around the world</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Country</th><th>Title</th><th>Language</th><th>First shown</th><th>Source</th></tr></thead>
+        <tbody>
+          {sortedIntl.map((t) => (
+            <tr>
+              <td>{t.country}</td>
+              <td>{t.title}{t.note && <div class="small muted">{t.note}</div>}</td>
+              <td>{t.language}</td>
+              <td>{[t.broadcaster, t.year].filter(Boolean).join(', ')}</td>
+              <td class="small">{t.sources.map((s, i) => <>{i > 0 && ', '}{s.url ? <a href={s.url} rel="noopener">{s.title}</a> : s.title}</>)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+)}

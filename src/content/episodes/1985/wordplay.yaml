@@ -1,7 +1,7 @@
 title: Wordplay
 series: '1985'
 season: 1
-episode: 02a
+episode: '02a'
 air_date: '1985-10-04'
 runtime_min: 19
 writers:
@@ -11,11 +11,18 @@ directors:
 cast:
 - Robert Klein
 - Annie Potts
-- Robert Downey
+- Robert Downey Sr.
 - Willard Peugh
 - Mimi Craven
 - Joseph Whipp
 narrator: Charles Aidman
+synopsis: A salesman notices that familiar words have begun meaning something different to everyone except him.
+  As his everyday vocabulary dissolves into nonsense and his young son falls ill, he fights to make himself understood
+  in a world that has quietly changed its language.
+themes:
+- alienation
+- family
+- language
 ids:
   imdb: tt0734770
 links:
@@ -23,3 +30,11 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+- title: The Logbook - Twilight Zone (1985) episode guide part 1
+  url: https://thelogbook.com/logbook/series/twilight-zone/zone-remake-1
+last_verified: '2026-11-19'
+locked: true

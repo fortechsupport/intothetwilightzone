@@ -15,8 +15,21 @@ cast:
 - Tim Armstrong
 - Brandon Jay McLaren
 narrator: Jordan Peele
+synopsis: Scientists at a remote Antarctic station studying melting ice shelves encounter a giant, unusually clever
+  octopus beneath the ice, and after it claims one of the team, one researcher insists on bringing the creature
+  into the lab.
+themes:
+- greed
+- nature
+- science
 ids:
   imdb: tt11839578
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2019 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

@@ -15,6 +15,14 @@ cast:
 - Bobby Diamond
 - Bill Mumy
 narrator: Rod Serling
+synopsis: Max Phillips, a small-time bookie who has neglected his son for years, learns that Pip has been badly
+  wounded in Vietnam. Desperate and wounded himself, Max finds himself in an empty amusement park where the boy
+  Pip once was seems to be waiting.
+themes:
+- fatherhood
+- regret
+- second chances
+- war
 ids:
   imdb: tt0734579
 links:
@@ -22,3 +30,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+last_verified: '2026-11-19'
+locked: true

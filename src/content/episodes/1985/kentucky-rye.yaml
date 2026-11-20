@@ -1,7 +1,7 @@
 title: Kentucky Rye
 series: '1985'
 season: 1
-episode: 03c
+episode: '03c'
 air_date: '1985-10-11'
 runtime_min: 18
 writers:
@@ -14,6 +14,12 @@ cast:
 - Arliss Howard
 - Tim Russ
 narrator: Charles Aidman
+synopsis: After a night of heavy drinking, a businessman wrecks his car on a dark country road and wanders into
+  a friendly roadside tavern called Kentucky Rye, where the regulars seem eager to have him stay.
+themes:
+- alcoholism
+- guilt
+- purgatory
 ids:
   imdb: tt0734712
 links:
@@ -21,3 +27,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

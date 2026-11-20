@@ -8,7 +8,7 @@ production_code: '137'
 writers:
 - Katrina Cabrera Ortega
 - Frederick Rappaport
-writing_credit_note: 'Teleplay by: Frederick Rappaport; Story by: Katrina Cabrera Ortega'
+writing_credit_note: Story by Katrina Cabrera Ortega; teleplay by Frederick Rappaport
 directors:
 - Tim Matheson
 cast:
@@ -17,8 +17,18 @@ cast:
 - Lauren Lee Smith
 - Tyler Labine
 narrator: Forest Whitaker
+synopsis: College friends partying at an ancient Aztec site set a curse in motion and must decide, before the sun
+  comes up, which of them will be sacrificed.
+themes:
+- curses
+- friendship
+- sacrifice
 ids:
   imdb: tt0734803
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

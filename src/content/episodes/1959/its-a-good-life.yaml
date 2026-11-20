@@ -6,9 +6,10 @@ air_date: '1961-11-03'
 runtime_min: 25
 production_code: '4801'
 writers:
-- Jerome Bixby
 - Rod Serling
-writing_credit_note: 'Teleplay by: Rod Serling; Based on a short story by: Jerome Bixby'
+writing_credit_note: Teleplay by Rod Serling; based on the short story "It's a Good Life" (1953) by Jerome Bixby
+source_authors:
+- Jerome Bixby
 directors:
 - James Sheldon
 cast:
@@ -17,6 +18,14 @@ cast:
 - Bill Mumy
 - Max Showalter
 narrator: Rod Serling
+synopsis: In an isolated Ohio town, every adult lives in constant fear of a six-year-old boy with limitless mental
+  powers. Residents must think only happy thoughts and praise whatever he does, because displeasing him has terrible
+  consequences.
+themes:
+- childhood
+- conformity
+- fear
+- power
 ids:
   imdb: tt0734580
 links:
@@ -24,3 +33,17 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+- title: Twilight Zone Wiki - Season 3 (original series)
+  url: https://twilightzone.fandom.com/wiki/Season_3_(original_series)
+- title: It's a Good Life (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/It%27s_a_Good_Life_(The_Twilight_Zone)
+- title: Jerome Bixby - Wikipedia
+  url: https://en.wikipedia.org/wiki/Jerome_Bixby
+- title: It's Still a Good Life - Wikipedia
+  url: https://en.wikipedia.org/wiki/It%27s_Still_a_Good_Life
+last_verified: '2026-11-19'
+locked: true

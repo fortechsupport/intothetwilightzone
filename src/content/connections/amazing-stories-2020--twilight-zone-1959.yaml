@@ -1,0 +1,11 @@
+from: films/amazing-stories-2020
+to: series/1959
+kind: inspired-by
+confidence: documented
+summary: Apple TV+'s revival of Spielberg's anthology launched amid constant comparisons to The Twilight Zone and
+  Black Mirror, which its producers addressed in interviews.
+sources:
+- title: 'SYFY Wire: Why Amazing Stories producers aren''t worried about Black Mirror, Twilight Zone comparisons'
+  url: https://www.syfy.com/syfy-wire/amazing-stories-producers-not-worried
+last_verified: '2026-11-19'
+locked: true

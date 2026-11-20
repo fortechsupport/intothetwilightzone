@@ -1,0 +1,10 @@
+from: films/the-strange-dark
+to: series/1959
+kind: inspired-by
+confidence: fan-noted
+summary: A reviewer describes this cosy thriller as what happens when the Twilight Zone invades a Hallmark movie.
+sources:
+- title: 'The Strange Dark (2024): A Cosy Thriller Where The Twilight Zone Invades a Hallmark Movie (The Geek Show)'
+  url: https://thegeekshow.co.uk/the-strange-dark-2024-review/
+last_verified: '2026-11-19'
+locked: true

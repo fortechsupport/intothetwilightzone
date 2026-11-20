@@ -1,0 +1,10 @@
+from: films/madagascar-escape-2-africa
+to: 1959/nightmare-at-20-000-feet
+kind: homage
+confidence: documented
+evidence: Wikipedia's episode page lists a scene in this film that references the creature on the wing.
+sources:
+- title: Nightmare at 20,000 Feet (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+last_verified: '2026-11-19'
+locked: true

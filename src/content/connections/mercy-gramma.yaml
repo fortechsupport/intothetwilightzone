@@ -1,8 +1,15 @@
 from: films/mercy
 to: 1985/gramma
 kind: inspired-by
-confidence: fan-noted
-summary: Mercy is listed in Adam's research as inspired by "Gramma".
+confidence: documented
+summary: Mercy (2014) is an adaptation of Stephen King's story 'Gramma', the same story Harlan Ellison adapted for
+  the 1986 Twilight Zone episode. The two are sibling adaptations, not a film based on the episode.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: Mercy (2014 film) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Mercy_(2014_film)
+- title: Gramma (short story) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Gramma_(short_story)
+last_verified: '2026-11-19'
+locked: true

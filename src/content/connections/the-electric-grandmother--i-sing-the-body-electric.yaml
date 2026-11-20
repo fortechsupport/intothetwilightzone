@@ -1,0 +1,13 @@
+from: films/the-electric-grandmother
+to: 1959/i-sing-the-body-electric
+kind: official-adaptation
+confidence: documented
+evidence: This NBC TV film adapts Ray Bradbury's 'I Sing the Body Electric', which began as Bradbury's own script
+  for the 1962 episode, so it is a second screen version of the same story.
+sources:
+- title: The Electric Grandmother (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Electric_Grandmother
+- title: I Sing the Body Electric (The Twilight Zone) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/I_Sing_the_Body_Electric_(The_Twilight_Zone)
+last_verified: '2026-11-19'
+locked: true

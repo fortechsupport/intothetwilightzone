@@ -1,0 +1,43 @@
+title: 'The Twilight Zone: A 60th Anniversary Celebration'
+kind: special
+release_date: '2019-11-14'
+runtime_min: 180
+writers:
+- Rod Serling
+cast:
+- Rod Serling
+summary: 'A one-night cinema event from Fathom Events and CBS Home Entertainment that put six restored original
+  episodes on the big screen for the first time: Walking Distance, Time Enough at Last, The Invaders, The Monsters
+  Are Due on Maple Street, Eye of the Beholder and To Serve Man, together with a new short documentary about Serling.'
+segments:
+- title: Walking Distance
+  adapts_episode: 1959/walking-distance
+  writers:
+  - Rod Serling
+- title: Time Enough at Last
+  adapts_episode: 1959/time-enough-at-last
+  writers:
+  - Rod Serling
+- title: The Invaders
+  adapts_episode: 1959/the-invaders
+  writers:
+  - Richard Matheson
+- title: The Monsters Are Due on Maple Street
+  adapts_episode: 1959/the-monsters-are-due-on-maple-street
+  writers:
+  - Rod Serling
+- title: Eye of the Beholder
+  adapts_episode: 1959/eye-of-the-beholder
+  writers:
+  - Rod Serling
+- title: To Serve Man
+  adapts_episode: 1959/to-serve-man
+  writers:
+  - Rod Serling
+sources:
+- title: ComicBook.com - Twilight Zone theater screenings
+  url: https://comicbook.com/horror/news/twilight-zone-theater-screenings-original-rod-serling/
+- title: ReSee Movies listing
+  url: https://www.reseemovies.com/movies/631715-the-twilight-zone-a-60th-anniversary-celebration
+last_verified: '2026-11-19'
+locked: true

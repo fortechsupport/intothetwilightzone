@@ -13,6 +13,12 @@ cast:
 - Wayne Robson
 - George Buza
 narrator: Robin Ward
+synopsis: A small-time crook who traded his soul to a demon for winning racing tips looks to a tough mob boss to
+  get him out of the deal.
+themes:
+- comedy
+- crime
+- deal with the devil
 ids:
   imdb: tt0734705
 links:
@@ -20,3 +26,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

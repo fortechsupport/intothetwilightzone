@@ -1,0 +1,13 @@
+from: films/the-cloverfield-paradox
+to: series/1959
+kind: inspired-by
+confidence: confirmed-by-creator
+summary: An entry in the loosely linked Cloverfield series, which producer J.J. Abrams has said was conceived in
+  the spirit of Serling's anthology.
+sources:
+- title: 9 Storytellers Influenced by The Twilight Zone (PBS American Masters)
+  url: https://www.pbs.org/wnet/americanmasters/9-storytellers-influenced-by-the-twilight-zone/23564
+- title: J.J. Abrams is building a big-screen Twilight Zone with the Cloververse (Inverse)
+  url: https://www.inverse.com/article/12279-j-j-abrams-is-building-a-big-screen-twilight-zone-with-the-cloververse
+last_verified: '2026-11-19'
+locked: true

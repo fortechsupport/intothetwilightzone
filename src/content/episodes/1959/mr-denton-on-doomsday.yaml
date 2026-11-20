@@ -4,7 +4,7 @@ season: 1
 episode: '3'
 air_date: '1959-10-16'
 runtime_min: 25
-production_code: '173-3609'
+production_code: 173-3609
 writers:
 - Rod Serling
 directors:
@@ -17,6 +17,13 @@ cast:
 - Bill Erwin
 - Robert McCord
 narrator: Rod Serling
+synopsis: Al Denton, a former gunfighter turned town drunk, is mocked by a bullying gunslinger in a frontier saloon.
+  When a traveling peddler offers him a strange potion, Denton gets a chance to reclaim his pride.
+themes:
+- redemption
+- second chances
+- violence
+- western
 ids:
   imdb: tt0734592
 links:
@@ -24,3 +31,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+last_verified: '2026-11-19'
+locked: true

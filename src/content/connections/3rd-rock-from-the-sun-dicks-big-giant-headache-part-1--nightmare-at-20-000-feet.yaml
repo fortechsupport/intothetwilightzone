@@ -1,0 +1,11 @@
+from: films/3rd-rock-from-the-sun-dicks-big-giant-headache-part-1
+to: 1959/nightmare-at-20-000-feet
+kind: homage
+confidence: documented
+evidence: Wikipedia lists this 3rd Rock from the Sun episode, which features William Shatner, as referencing the
+  episode.
+sources:
+- title: Nightmare at 20,000 Feet (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+last_verified: '2026-11-19'
+locked: true

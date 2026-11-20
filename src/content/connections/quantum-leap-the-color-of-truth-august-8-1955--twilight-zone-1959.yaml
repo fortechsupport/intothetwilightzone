@@ -1,0 +1,10 @@
+from: films/quantum-leap-the-color-of-truth-august-8-1955
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Al mentions The Twilight Zone while Sam leaps into the segregated South.
+sources:
+- title: 'The Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true

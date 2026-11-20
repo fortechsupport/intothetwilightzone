@@ -12,6 +12,12 @@ cast:
 - William Sanderson
 - Julie Khaner
 narrator: Robin Ward
+synopsis: A lonely, widowed man dials a wrong number and strikes up a warm friendship with the woman on the other
+  end of the line, a connection that proves far from ordinary.
+themes:
+- art
+- connection
+- loneliness
 ids:
   imdb: tt0734743
 links:
@@ -19,3 +25,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

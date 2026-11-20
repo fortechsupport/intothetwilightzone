@@ -14,8 +14,18 @@ cast:
 - Method Man
 - Colin Cunningham
 narrator: Forest Whitaker
+synopsis: A tabloid writer sent to debunk a fortune teller becomes fixated when the psychic's predictions keep coming
+  true, and she starts wondering what the future holds for her.
+themes:
+- fate
+- obsession
+- prophecy
 ids:
   imdb: tt0734809
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

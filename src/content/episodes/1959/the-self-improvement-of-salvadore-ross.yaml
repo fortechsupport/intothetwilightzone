@@ -6,9 +6,10 @@ air_date: '1964-01-17'
 runtime_min: 25
 production_code: '2612'
 writers:
-- Henry Slesar
 - Jerry McNeely
-writing_credit_note: 'Teleplay by: Jerry McNeely; Based on a short story by: Henry Slesar'
+writing_credit_note: Teleplay by Jerry McNeely, based on a short story by Henry Slesar.
+source_authors:
+- Henry Slesar
 directors:
 - Don Siegel
 cast:
@@ -18,6 +19,13 @@ cast:
 - J. Pat O'Malley
 - Seymour Cassel
 narrator: Rod Serling
+synopsis: Rough-edged Salvadore Ross discovers he can trade personal traits with other people, swapping a broken
+  hand, his youth or his poverty. He uses the gift to win the refined woman he loves, whose father is not impressed.
+themes:
+- ambition
+- bargains
+- identity
+- love
 ids:
   imdb: tt0734675
 links:
@@ -25,3 +33,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+last_verified: '2026-11-19'
+locked: true

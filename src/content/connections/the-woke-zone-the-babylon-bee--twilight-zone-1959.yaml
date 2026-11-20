@@ -1,0 +1,10 @@
+from: films/the-woke-zone-the-babylon-bee
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: The satire site's animated shorts spoof the show's format under the banner 'The Woke Zone'.
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-19'
+locked: true

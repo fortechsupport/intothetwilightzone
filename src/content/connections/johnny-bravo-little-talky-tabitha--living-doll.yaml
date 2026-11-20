@@ -1,0 +1,10 @@
+from: films/johnny-bravo-little-talky-tabitha
+to: 1959/living-doll
+kind: homage
+confidence: documented
+evidence: Wikipedia's 'Living Doll' page lists this Johnny Bravo cartoon as a parody of Talky Tina.
+sources:
+- title: Living Doll (The Twilight Zone) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Living_Doll_(The_Twilight_Zone)
+last_verified: '2026-11-19'
+locked: true

@@ -14,6 +14,13 @@ cast:
 - Paul Mazursky
 - Bernard Fein
 narrator: Rod Serling
+synopsis: Peter Vollmer, a young neo-Nazi speaker who draws jeers on New York street corners, is coached by a mysterious
+  shadowy mentor. His rhetoric grows more effective and more dangerous with each lesson.
+themes:
+- demagoguery
+- fascism
+- hatred
+- history
 ids:
   imdb: tt0734572
 links:
@@ -21,3 +28,13 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 4) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_4)
+- title: The Twilight Zone (1959 TV series, season 4) - Wikipedia mirror
+  url: https://gilligansisland.org/The_Twilight_Zone_(1959_TV_series,_season_4)
+- title: 'CTVA: The Twilight Zone Season 4 (1962-63)'
+  url: https://ctva.biz/US/Anthology/TwilightZone_04_(1962-63).htm
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

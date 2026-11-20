@@ -40,6 +40,34 @@ const names = z.array(z.string()).default([]);
 // A connection endpoint: "films/<id>", "songs/<id>", "series/<year>", or a bare episode id "<year>/<slug>".
 const ref = z.string().regex(/^([a-z]+\/[a-z0-9-]+|\d{4}\/[a-z0-9-]+)$/);
 
+const historyEvent = z.object({
+  date: z.string(),
+  title: z.string(),
+  text: z.string().max(600),
+  sources: z.array(source).min(1),
+});
+const internationalTitle = z.object({
+  country: z.string(),
+  language: z.string().optional(),
+  title: z.string(),
+  broadcaster: z.string().optional(),
+  year: z.number().optional(),
+  note: z.string().optional(),
+  sources: z.array(source).min(1),
+});
+const release = z.object({
+  date: z.string().optional(),
+  format: z.string(),
+  title: z.string(),
+  publisher: z.string().optional(),
+  region: z.string().optional(),
+  note: z.string().max(400).optional(),
+  sources: z.array(source).min(1),
+});
+const releases = z.array(release).default([]);
+const history = z.array(historyEvent).default([]);
+const internationalTitles = z.array(internationalTitle).default([]);
+
 const series = defineCollection({
   loader: yaml('series'),
   schema: z.object({
@@ -50,6 +78,10 @@ const series = defineCollection({
     seasons: z.number(),
     order: z.number(),
     summary: z.string(),
+    history,
+    international_titles: internationalTitles,
+    releases,
+    sources: z.array(source).default([]),
     locked: z.boolean().optional(),
   }),
 });
@@ -67,11 +99,13 @@ const episodes = defineCollection({
     production_code: z.string().optional(),
     writers: names,
     writing_credit_note: z.string().optional(),
+    source_authors: names,
     directors: names,
     cast: names,
     narrator: z.string().optional(),
     synopsis: z.string().optional(),
     themes: names,
+    trivia: z.array(z.object({ text: z.string().max(400), sources: z.array(source).min(1) })).default([]),
     ...common,
   }),
 });
@@ -88,10 +122,13 @@ const films = defineCollection({
   loader: yaml('films'),
   schema: z.object({
     title: z.string(),
-    kind: z.enum(['film', 'tv-film', 'tv-episode', 'tv-segment', 'tv-series', 'sketch', 'documentary', 'special', 'pilot', 'stage', 'unproduced']).default('film'),
+    kind: z.enum(['film', 'tv-film', 'tv-episode', 'tv-segment', 'tv-series', 'sketch', 'documentary', 'special', 'pilot', 'stage', 'unproduced', 'short', 'music-video', 'commercial', 'web-series']).default('film'),
     summary: z.string().optional(),
     parent_series: z.string().optional(),
     segments: z.array(segment).default([]),
+    history,
+    international_titles: internationalTitles,
+    releases,
     release_date: z.string().optional(),
     rating: z.string().optional(),
     runtime_min: z.number().optional(),

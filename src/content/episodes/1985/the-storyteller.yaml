@@ -1,7 +1,7 @@
 title: The Storyteller
 series: '1985'
 season: 2
-episode: 03a
+episode: '03a'
 air_date: '1986-10-11'
 runtime_min: 26
 writers:
@@ -13,6 +13,12 @@ cast:
 - David Faustino
 - Ellen Albertini Dow
 narrator: Charles Aidman
+synopsis: A young teacher learns that one of her students reads a long story aloud each night to his great-great-grandfather,
+  a man impossibly old, who seems to stay alive only as long as the tale goes on.
+themes:
+- immortality
+- obligation
+- storytelling
 ids:
   imdb: tt0734724
 links:
@@ -20,3 +26,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

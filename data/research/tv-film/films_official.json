@@ -1,0 +1,643 @@
+[
+ {
+  "slug": "twilight-zone-the-movie",
+  "exists": true,
+  "title": "Twilight Zone: The Movie",
+  "kind": "film",
+  "release_date": "1983-06-24",
+  "rating": null,
+  "runtime_min": 101,
+  "writers": [
+   "John Landis",
+   "George Clayton Johnson",
+   "Richard Matheson",
+   "Josh Rogan"
+  ],
+  "directors": [
+   "John Landis",
+   "Steven Spielberg",
+   "Joe Dante",
+   "George Miller"
+  ],
+  "cast": [
+   "Dan Aykroyd",
+   "Albert Brooks",
+   "Vic Morrow",
+   "Scatman Crothers",
+   "Kathleen Quinlan",
+   "Kevin McCarthy",
+   "John Lithgow",
+   "Burgess Meredith"
+  ],
+  "summary": "Warner Bros.' theatrical anthology brings the series to cinemas in four segments framed by a late-night drive. Three remake classic episodes, about a retirement home, a boy who reshapes reality and a terrified airline passenger; one new story traps a bigot in the lives of the people he hates. Burgess Meredith narrates. It grossed about $29.45 million in North America on a $10 million budget.",
+  "segments": [
+   {
+    "title": "Prologue",
+    "adapts_episode": null,
+    "writers": [
+     "John Landis"
+    ],
+    "directors": [
+     "John Landis"
+    ],
+    "cast": [
+     "Dan Aykroyd",
+     "Albert Brooks"
+    ]
+   },
+   {
+    "title": "Time Out",
+    "adapts_episode": null,
+    "writers": [
+     "John Landis"
+    ],
+    "directors": [
+     "John Landis"
+    ],
+    "cast": [
+     "Vic Morrow",
+     "Charles Hallahan",
+     "Doug McGrath"
+    ]
+   },
+   {
+    "title": "Kick the Can",
+    "adapts_episode": "Kick the Can",
+    "writers": [
+     "George Clayton Johnson",
+     "Richard Matheson",
+     "Josh Rogan"
+    ],
+    "directors": [
+     "Steven Spielberg"
+    ],
+    "cast": [
+     "Scatman Crothers",
+     "Bill Quinn",
+     "Murray Matheson"
+    ]
+   },
+   {
+    "title": "It's a Good Life",
+    "adapts_episode": "It's a Good Life",
+    "writers": [
+     "Richard Matheson",
+     "Jerome Bixby"
+    ],
+    "directors": [
+     "Joe Dante"
+    ],
+    "cast": [
+     "Kathleen Quinlan",
+     "Kevin McCarthy",
+     "Jeremy Licht",
+     "Bill Mumy"
+    ]
+   },
+   {
+    "title": "Nightmare at 20,000 Feet",
+    "adapts_episode": "Nightmare at 20,000 Feet",
+    "writers": [
+     "Richard Matheson"
+    ],
+    "directors": [
+     "George Miller"
+    ],
+    "cast": [
+     "John Lithgow",
+     "Abbe Lane",
+     "Donna Dixon",
+     "Larry Cedar"
+    ]
+   }
+  ],
+  "notes": "Time Out is an original story by Landis that loosely reworks elements of 'A Quality of Mercy' and 'Back There' (Wikipedia). 'Josh Rogan' is the pseudonym of Melissa Mathison. Jerome Bixby is credited for the short story behind 'It's a Good Life'. Accident note: On July 23, 1982, during filming of the 'Time Out' segment, a helicopter crashed after special-effects explosions, killing Vic Morrow and child actors Myca Dinh Le and Renee Shin-Yi Chen; John Landis was later tried for involuntary manslaughter and acquitted in 1987 (Wikipedia; NTSB report October 1984).",
+  "ids": {
+   "imdb": "tt0086491"
+  },
+  "links": {
+   "wikipedia": "https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie"
+  },
+  "sources": [
+   {
+    "title": "Twilight Zone: The Movie - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie"
+   },
+   {
+    "title": "Box Office Mojo - Twilight Zone: The Movie",
+    "url": "https://www.boxofficemojo.com/title/tt0086491"
+   }
+  ]
+ },
+ {
+  "slug": "the-twilight-zone-rod-serlings-lost-classics",
+  "exists": true,
+  "title": "Twilight Zone: Rod Serling's Lost Classics",
+  "kind": "tv-film",
+  "release_date": "1994-05-19",
+  "rating": null,
+  "runtime_min": 89,
+  "writers": [
+   "Rod Serling",
+   "Richard Matheson"
+  ],
+  "directors": [
+   "Robert Markowitz"
+  ],
+  "cast": [
+   "James Earl Jones",
+   "Gary Cole",
+   "Amy Irving",
+   "Patrick Bergin",
+   "Jack Palance"
+  ],
+  "summary": "A CBS television film built from material Rod Serling left behind, hosted by James Earl Jones. Richard Matheson expands a Serling outline into \"The Theatre,\" about a moviegoer who sees her own life on the screen, and Serling's own 1968 script \"Where the Dead Are\" sends a Civil War surgeon to an isolated island where something is wrong. Carol Serling co-produced.",
+  "segments": [
+   {
+    "title": "The Theatre",
+    "adapts_episode": null,
+    "writers": [
+     "Rod Serling",
+     "Richard Matheson"
+    ],
+    "directors": [
+     "Robert Markowitz"
+    ],
+    "cast": [
+     "Amy Irving",
+     "Gary Cole"
+    ]
+   },
+   {
+    "title": "Where the Dead Are",
+    "adapts_episode": null,
+    "writers": [
+     "Rod Serling"
+    ],
+    "directors": [
+     "Robert Markowitz"
+    ],
+    "cast": [
+     "Patrick Bergin",
+     "Jack Palance"
+    ]
+   }
+  ],
+  "notes": "Network: CBS. Executive producers Michael O'Hara and Lawrence Horowitz; producer S. Bryan Hickox; Carol Serling co-producer. IMDb trivia: 'Where the Dead Are' (59 min) is the longest Twilight Zone story.",
+  "ids": {
+   "imdb": "tt0111520"
+  },
+  "links": {
+   "wikipedia": "https://en.wikipedia.org/wiki/Twilight_Zone:_Rod_Serling%27s_Lost_Classics"
+  },
+  "sources": [
+   {
+    "title": "Twilight Zone: Rod Serling's Lost Classics - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Twilight_Zone:_Rod_Serling%27s_Lost_Classics"
+   },
+   {
+    "title": "IMDb - Twilight Zone: Rod Serling's Lost Classics",
+    "url": "https://m.imdb.com/title/tt0111520/"
+   }
+  ]
+ },
+ {
+  "slug": "tower-of-terror-1997",
+  "exists": false,
+  "title": "Tower of Terror",
+  "kind": "tv-film",
+  "release_date": "1997-10-26",
+  "rating": null,
+  "runtime_min": 89,
+  "writers": [
+   "D. J. MacHale"
+  ],
+  "directors": [
+   "D. J. MacHale"
+  ],
+  "cast": [
+   "Steve Guttenberg",
+   "Kirsten Dunst",
+   "Nia Peeples",
+   "Michael McShane",
+   "Amzie Strickland",
+   "Melora Hardin",
+   "Alastair Duncan",
+   "Lindsay Ridgeway",
+   "John Franklin",
+   "Wendy Worthington"
+  ],
+  "summary": "A disgraced tabloid reporter and his niece dig into the 1939 disappearance of five guests from a Hollywood hotel elevator on Halloween night, and find the old building is not as empty as it looks. Made for ABC's The Wonderful World of Disney, it was based on the theme-park ride The Twilight Zone Tower of Terror and partly filmed there.",
+  "segments": null,
+  "notes": "Franchise relation is indirect: the source attraction carries the Twilight Zone name under license, but Wikipedia states the film 'has no connection to any incarnation of The Twilight Zone' (no Serling, no TZ branding). Production companies: Walt Disney Television, Zaloom/Mayfield Productions. Disney's first film based on a park attraction.",
+  "ids": {
+   "imdb": "tt0131620"
+  },
+  "links": {
+   "wikipedia": "https://en.wikipedia.org/wiki/Tower_of_Terror_(1997_film)"
+  },
+  "sources": [
+   {
+    "title": "Tower of Terror (1997 film) - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Tower_of_Terror_(1997_film)"
+   },
+   {
+    "title": "D23 - Tower of Terror (television)",
+    "url": "https://d23.com/a-to-z/tower-of-terror-television/"
+   }
+  ]
+ },
+ {
+  "slug": "rod-serling-submitted-for-your-approval",
+  "exists": true,
+  "title": "Rod Serling: Submitted for Your Approval",
+  "kind": "documentary",
+  "release_date": "1995-11-29",
+  "rating": "TV-14",
+  "runtime_min": 90,
+  "writers": [],
+  "directors": [
+   "Susan Lacy"
+  ],
+  "cast": [
+   "Lee Grant",
+   "Mitch Greenberg",
+   "Mike Wallace",
+   "Carol Serling",
+   "Robert Serling"
+  ],
+  "summary": "An American Masters portrait on PBS of Rod Serling, following him from his early live-television dramas through The Twilight Zone and his later struggles with the industry. Lee Grant narrates and Mitch Greenberg voices Serling's own words, while family members and colleagues, among them Mike Wallace, recall the writer.",
+  "segments": null,
+  "notes": "American Masters (PBS), season 10. Susan Lacy's directorial debut; she was also the series' executive producer (Spokesman-Review, 1995). Change kind from 'film' to 'documentary'; title on site has stray quote marks.",
+  "ids": {
+   "imdb": "tt0297727"
+  },
+  "links": {
+   "wikipedia": null,
+   "pbs": "https://www.pbs.org/wnet/americanmasters/masters/rod-serling"
+  },
+  "sources": [
+   {
+    "title": "IMDb - Rod Serling: Submitted for Your Approval",
+    "url": "https://m.imdb.com/title/tt0297727"
+   },
+   {
+    "title": "Spokesman-Review, 'For your approval: PBS program...' (Nov 28, 1995)",
+    "url": "https://www.spokesman.com/stories/1995/nov/28/for-your-approval-pbs-program-sheds-more-than"
+   },
+   {
+    "title": "PBS American Masters - Rod Serling",
+    "url": "https://www.pbs.org/wnet/americanmasters/masters/rod-serling"
+   }
+  ]
+ },
+ {
+  "slug": "the-twilight-zone-60th-remembering-rod-serling",
+  "exists": false,
+  "title": "The Twilight Zone 60th: Remembering Rod Serling",
+  "kind": "documentary",
+  "release_date": "2019",
+  "rating": null,
+  "runtime_min": 47,
+  "writers": [],
+  "directors": [],
+  "cast": [],
+  "summary": "A short retrospective documentary made for the series' 60th anniversary, looking at Rod Serling's life and the experiences that shaped his storytelling. It premiered as part of the Fathom Events cinema celebration in November 2019.",
+  "segments": null,
+  "notes": "Credits not verified (IMDb page did not list them in fetched content).",
+  "ids": {
+   "imdb": "tt11241906"
+  },
+  "links": {
+   "wikipedia": null
+  },
+  "sources": [
+   {
+    "title": "IMDb - The Twilight Zone 60th: Remembering Rod Serling",
+    "url": "https://www.imdb.com/title/tt11241906/"
+   },
+   {
+    "title": "ComicBook.com - Twilight Zone theater screenings",
+    "url": "https://comicbook.com/horror/news/twilight-zone-theater-screenings-original-rod-serling/"
+   }
+  ]
+ },
+ {
+  "slug": "the-twilight-zone-a-60th-anniversary-celebration",
+  "exists": false,
+  "title": "The Twilight Zone: A 60th Anniversary Celebration",
+  "kind": "special",
+  "release_date": "2019-11-14",
+  "rating": null,
+  "runtime_min": 180,
+  "writers": [
+   "Rod Serling"
+  ],
+  "directors": [],
+  "cast": [
+   "Rod Serling"
+  ],
+  "summary": "A one-night cinema event from Fathom Events and CBS Home Entertainment that put six restored original episodes on the big screen for the first time: Walking Distance, Time Enough at Last, The Invaders, The Monsters Are Due on Maple Street, Eye of the Beholder and To Serve Man, together with a new short documentary about Serling.",
+  "segments": [
+   {
+    "title": "Walking Distance",
+    "adapts_episode": "Walking Distance",
+    "writers": [
+     "Rod Serling"
+    ],
+    "directors": [],
+    "cast": []
+   },
+   {
+    "title": "Time Enough at Last",
+    "adapts_episode": "Time Enough at Last",
+    "writers": [
+     "Rod Serling"
+    ],
+    "directors": [],
+    "cast": []
+   },
+   {
+    "title": "The Invaders",
+    "adapts_episode": "The Invaders",
+    "writers": [
+     "Richard Matheson"
+    ],
+    "directors": [],
+    "cast": []
+   },
+   {
+    "title": "The Monsters Are Due on Maple Street",
+    "adapts_episode": "The Monsters Are Due on Maple Street",
+    "writers": [
+     "Rod Serling"
+    ],
+    "directors": [],
+    "cast": []
+   },
+   {
+    "title": "Eye of the Beholder",
+    "adapts_episode": "Eye of the Beholder",
+    "writers": [
+     "Rod Serling"
+    ],
+    "directors": [],
+    "cast": []
+   },
+   {
+    "title": "To Serve Man",
+    "adapts_episode": "To Serve Man",
+    "writers": [
+     "Rod Serling"
+    ],
+    "directors": [],
+    "cast": []
+   }
+  ],
+  "notes": "Segments are screenings of existing 1959-series episodes; link to existing episode pages. Episode writers are standard credits, check against site data.",
+  "ids": {},
+  "links": {
+   "wikipedia": null
+  },
+  "sources": [
+   {
+    "title": "ComicBook.com - Twilight Zone theater screenings",
+    "url": "https://comicbook.com/horror/news/twilight-zone-theater-screenings-original-rod-serling/"
+   },
+   {
+    "title": "ReSee Movies listing",
+    "url": "https://www.reseemovies.com/movies/631715-the-twilight-zone-a-60th-anniversary-celebration"
+   }
+  ]
+ },
+ {
+  "slug": "the-time-element",
+  "exists": false,
+  "title": "The Time Element",
+  "kind": "pilot",
+  "release_date": "1958-11-24",
+  "rating": null,
+  "runtime_min": null,
+  "writers": [
+   "Rod Serling"
+  ],
+  "directors": [
+   "Allen Reisner"
+  ],
+  "cast": [
+   "William Bendix",
+   "Martin Balsam",
+   "Darryl Hickman",
+   "Carol Kearny",
+   "Jesse White",
+   "Jesslyn Fax",
+   "Joe DeRita",
+   "Alan Baxter",
+   "Paul Bryar",
+   "Don Keefer",
+   "Bartlett Robinson"
+  ],
+  "summary": "Serling's hour-long teleplay for Westinghouse Desilu Playhouse on CBS, widely treated as the series' unofficial pilot. A bartender tells his psychiatrist about a recurring dream in which he wakes up in Honolulu the day before the Pearl Harbor attack and cannot get anyone to heed his warnings. Its success helped persuade CBS to buy The Twilight Zone.",
+  "segments": null,
+  "notes": "Westinghouse Desilu Playhouse S1 ep 6, CBS; rerun April 6, 1959. Producer Bert Granet bought the script from CBS. Desi Arnaz added an on-stage coda implying it was all a dream. Not officially part of the series.",
+  "ids": {
+   "imdb": "tt0745802"
+  },
+  "links": {
+   "wikipedia": "https://en.wikipedia.org/wiki/The_Twilight_Zone"
+  },
+  "sources": [
+   {
+    "title": "CTVA - Westinghouse Desilu Playhouse Season 1",
+    "url": "https://ctva.biz/US/Anthology/DesiluPlayhouse_01_(1958-59).htm"
+   },
+   {
+    "title": "/Film - The pilot episode of The Twilight Zone wasn't an episode",
+    "url": "https://www.slashfilm.com/1438402/the-twilight-zone-pilot-episode-not-twilight-zone"
+   }
+  ]
+ },
+ {
+  "slug": "where-is-everybody-pilot-version",
+  "exists": false,
+  "title": "Where Is Everybody? (pilot version)",
+  "kind": "pilot",
+  "release_date": null,
+  "rating": null,
+  "runtime_min": null,
+  "writers": [
+   "Rod Serling"
+  ],
+  "directors": [
+   "Robert Stevens"
+  ],
+  "cast": [
+   "Earl Holliman",
+   "Westbrook Van Voorhis"
+  ],
+  "summary": "The sale pilot that became the series premiere of October 2, 1959. A man in an air force jumpsuit wanders a spotless small town with no other people in it. In its first form the narration was spoken by Westbrook Van Voorhis; Serling later re-recorded it himself for broadcast.",
+  "segments": null,
+  "notes": "Only the Van Voorhis-to-Serling narration change was verified (Wikipedia). Whether a separate unaired cut survives on home video (e.g. Season 1 Blu-ray extras) could not be confirmed; fetch budget ran out. Could be folded into the existing 1959 episode page rather than a separate film record.",
+  "ids": {},
+  "links": {
+   "wikipedia": "https://en.wikipedia.org/wiki/Where_Is_Everybody%3F"
+  },
+  "sources": [
+   {
+    "title": "Where Is Everybody? - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Where_Is_Everybody%3F"
+   }
+  ]
+ },
+ {
+  "slug": "the-happy-place",
+  "exists": false,
+  "title": "The Happy Place",
+  "kind": "unproduced",
+  "release_date": null,
+  "rating": null,
+  "runtime_min": null,
+  "writers": [
+   "Rod Serling"
+  ],
+  "directors": [],
+  "cast": [],
+  "summary": "Serling's first proposed pilot script for The Twilight Zone, about a society that puts its citizens to death when they reach sixty. CBS executive William Self judged it too bleak to sell to sponsors, and Serling wrote \"Where Is Everybody?\" as a gentler replacement.",
+  "segments": null,
+  "notes": "Year not verified.",
+  "ids": {},
+  "links": {
+   "wikipedia": "https://en.wikipedia.org/wiki/Where_Is_Everybody%3F"
+  },
+  "sources": [
+   {
+    "title": "Where Is Everybody? - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Where_Is_Everybody%3F"
+   }
+  ]
+ },
+ {
+  "slug": "twilight-zone-warner-bros-feature-project",
+  "exists": false,
+  "title": "The Twilight Zone (Warner Bros. feature in development)",
+  "kind": "unproduced",
+  "release_date": null,
+  "rating": null,
+  "runtime_min": null,
+  "writers": [
+   "Jason Rothenberg",
+   "Anthony Peckham",
+   "Aron Eli Coleite",
+   "Rand Ravich",
+   "Joby Harold"
+  ],
+  "directors": [
+   "Matt Reeves",
+   "Joseph Kosinski",
+   "Ben Stiller"
+  ],
+  "cast": [],
+  "summary": "A new Twilight Zone feature that Warner Bros. and Leonardo DiCaprio's Appian Way have tried to develop for more than a decade. Matt Reeves was hired in 2011 and left; Joseph Kosinski entered talks in 2013; a string of writers followed. In June 2025 Ben Stiller was reported to be attached to direct, with the script an open writing assignment.",
+  "segments": null,
+  "notes": "Timeline per JoBlo (June 10, 2025): Oct 2011 Matt Reeves directing from Jason Rothenberg script; Aug 2013 Kosinski in talks, script by Anthony Peckham; shortly after Aron Eli Coleite (JoBlo spells 'Colette') hired; later drafts Rand Ravich, Joby Harold; 2017 new writer (JoBlo names a 'Christine Lavaf'; name not verified). Producers: Leonardo DiCaprio, Jennifer Davisson. Stiller report originated with Jeff Sneider (The InSneider). Status as of 2026: no confirmed production.",
+  "ids": {},
+  "links": {
+   "wikipedia": null
+  },
+  "sources": [
+   {
+    "title": "JoBlo - Ben Stiller to direct a new Twilight Zone movie?",
+    "url": "https://www.joblo.com/ben-stiller-twilight-zone/"
+   },
+   {
+    "title": "The Playlist - Warner Bros. & Ben Stiller reportedly teaming",
+    "url": "https://theplaylist.net/ben-stiller-new-wb-the-twilight-zone-movie-20250609/"
+   },
+   {
+    "title": "/Film - Warner Bros. hires Jason Rothenberg to write The Twilight Zone",
+    "url": "https://www.slashfilm.com/warner-bros-hires-jason-rothenberg-write-the-twilight-zone"
+   },
+   {
+    "title": "Empire - Joseph Kosinski off to The Twilight Zone",
+    "url": "https://empireonline.com/movies/news/joseph-kosinski-twilight-zone"
+   }
+  ]
+ },
+ {
+  "slug": "the-twilight-zone-stage-play",
+  "exists": false,
+  "title": "The Twilight Zone (stage play)",
+  "kind": "stage",
+  "release_date": "2017-12-05",
+  "rating": null,
+  "runtime_min": null,
+  "writers": [
+   "Anne Washburn",
+   "Rod Serling",
+   "Charles Beaumont",
+   "Richard Matheson"
+  ],
+  "directors": [
+   "Richard Jones"
+  ],
+  "cast": [
+   "Oliver Alvin-Wilson",
+   "Franc Ashman",
+   "Adrianna Bertola",
+   "Lizzy Connolly",
+   "Amy Griffiths",
+   "Neil Haigh",
+   "Cosmo Jarvis",
+   "John Marquez",
+   "Matthew Needham",
+   "Sam Swainsbury"
+  ],
+  "summary": "Anne Washburn's world-premiere stage adaptation weaves several original-series stories by Serling, Beaumont and Matheson into one interlocking evening, staged by Richard Jones. It opened at London's Almeida Theatre and ran to January 27, 2018, then transferred to the West End's Ambassadors Theatre from March 4, 2019.",
+  "segments": null,
+  "notes": "Episodes adapted not verified from fetched sources (Den of Geek has an article on how stories were selected). Cast listed is the Almeida 2017 company.",
+  "ids": {},
+  "links": {
+   "wikipedia": null,
+   "almeida": "https://almeida.co.uk/whats-on/the-twilight-zone/"
+  },
+  "sources": [
+   {
+    "title": "Broadway.com - world premiere stage adaptation full casting",
+    "url": "https://www.broadway.com/buzz/190041/the-twilight-zone-world-premiere-stage-adaptation-announces-full-casting/"
+   },
+   {
+    "title": "Official London Theatre - West End to welcome The Twilight Zone",
+    "url": "https://officiallondontheatre.com/news/west-end-welcome-twilight-zone/"
+   }
+  ]
+ },
+ {
+  "slug": "twilight-zone-holiday-marathons",
+  "exists": false,
+  "title": "The Twilight Zone holiday marathons",
+  "kind": "special",
+  "release_date": "1980",
+  "rating": null,
+  "runtime_min": null,
+  "writers": [],
+  "directors": [],
+  "cast": [],
+  "summary": "Syndicated reruns turned the original series into a holiday ritual. WPIX in New York had aired it nightly since the early 1970s, and KTLA in Los Angeles ran an eight-hour marathon on Thanksgiving 1980, then a July 4th marathon from 1983. The New Year's marathon passed to the Sci-Fi Channel, now Syfy, which ran its 22nd annual edition over New Year 2016-17.",
+  "segments": null,
+  "notes": "Syndication event, not a production. Who ran the first New Year's Eve marathon is unclear (WPIX possibly). 22nd annual Syfy marathon in 2016-17 implies a start around 1994-95 (inference, not stated).",
+  "ids": {},
+  "links": {
+   "wikipedia": null
+  },
+  "sources": [
+   {
+    "title": "Den of Geek - The Twilight Zone Marathon: A History of a Holiday Tradition",
+    "url": "https://www.denofgeek.com/tv/the-twilight-zone-marathon-a-history-of-a-holiday-tradition/"
+   },
+   {
+    "title": "BroadwayWorld - Syfy continues New Year's tradition with 22nd annual marathon",
+    "url": "https://www.broadwayworld.com/bwwtv/article/SyFy-Continues-New-Years-Tradition-with-22nd-Annual-THE-TWILIGHT-ZONE-Marathon-20161221"
+   }
+  ]
+ }
+]

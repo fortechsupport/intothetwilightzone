@@ -4,11 +4,12 @@ season: 1
 episode: '13'
 air_date: '1960-01-01'
 runtime_min: 25
-production_code: '173-3618'
+production_code: 173-3618
 writers:
-- George Clayton Johnson
 - Rod Serling
-writing_credit_note: 'Teleplay by: Rod Serling; Based on a short story by: George Clayton Johnson'
+writing_credit_note: Teleplay by Rod Serling; based on the story "All of Us Are Dying" by George Clayton Johnson
+source_authors:
+- George Clayton Johnson
 directors:
 - John Brahm
 cast:
@@ -16,6 +17,12 @@ cast:
 - Ross Martin
 - Milton Frome
 narrator: Rod Serling
+synopsis: Arch Hammer, a small-time con man, can change his face to look like anyone he concentrates on. He uses
+  the trick to borrow the identities of other men, chasing money and a woman through a seedy city.
+themes:
+- crime
+- deception
+- identity
 ids:
   imdb: tt0734640
 links:
@@ -23,3 +30,11 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+- title: Wikipedia - The Four of Us Are Dying
+  url: https://en.wikipedia.org/wiki/The_Four_of_Us_Are_Dying
+last_verified: '2026-11-19'
+locked: true

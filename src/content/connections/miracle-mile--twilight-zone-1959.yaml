@@ -1,0 +1,11 @@
+from: films/miracle-mile
+to: series/1959
+kind: reference
+confidence: documented
+summary: 'A man learns by a misdialed call that nuclear war is about to start; Flicks notes the script was at one
+  point a possible candidate for Twilight Zone: The Movie.'
+sources:
+- title: 'Sight, Sound and Mind: The Twilight Zone on the Big Screen (Flicks)'
+  url: https://www.flicks.com.au/features/sight-sound-and-mind-the-twilight-zone-on-the-big-screen/
+last_verified: '2026-11-19'
+locked: true

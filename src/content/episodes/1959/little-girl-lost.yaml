@@ -14,6 +14,14 @@ cast:
 - Robert Sampson
 - Charles Aidman
 narrator: Rod Serling
+synopsis: Parents wake in the night to hear their young daughter crying for help, though she is nowhere to be found
+  in the house. Her voice seems to come from beneath her bed, and a physicist friend helps them search for an opening
+  into another dimension.
+themes:
+- fear
+- other dimensions
+- parenthood
+- science
 ids:
   imdb: tt0734585
 links:
@@ -21,3 +29,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+last_verified: '2026-11-19'
+locked: true

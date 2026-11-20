@@ -1,8 +1,13 @@
 from: films/signs
 to: 1959/the-invaders
 kind: inspired-by
-confidence: fan-noted
-summary: Signs is listed in Adam's research as inspired by "The Invaders".
+confidence: documented
+summary: A Yahoo Entertainment feature pairs this alien siege of an isolated farmhouse with the episode's lone woman
+  fending off small invaders; it is speculative.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: 13 Sci-Fi, Mystery, And Drama Plots That 'The Twilight Zone' May Have Inspired (Yahoo)
+  url: https://www.yahoo.com/entertainment/11-movies-2-tv-shows-193103537.html
+last_verified: '2026-11-19'
+locked: true

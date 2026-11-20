@@ -13,6 +13,13 @@ cast:
 - Martin Landau
 - John van Dreelen
 narrator: Rod Serling
+synopsis: Major Ivan Kuchenko, a Soviet defector hiding in a shabby hotel room, is drugged by a KGB assassin who
+  has rigged a hidden death trap. He is given a fixed time to find the trap and escape.
+themes:
+- cold war
+- espionage
+- survival
+- suspense
 ids:
   imdb: tt0734649
 links:
@@ -20,3 +27,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+last_verified: '2026-11-19'
+locked: true

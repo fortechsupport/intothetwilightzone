@@ -1,7 +1,7 @@
 title: A Little Peace and Quiet
 series: '1985'
 season: 1
-episode: 01b
+episode: '01b'
 air_date: '1985-09-27'
 runtime_min: 25
 writers:
@@ -13,6 +13,13 @@ cast:
 - Greg Mullavey
 - Judith Barsi
 narrator: Charles Aidman
+synopsis: A frazzled suburban mother, worn down by her noisy family, digs up a strange pendant in her garden that
+  lets her freeze time with a word. As household chaos mounts and news of a superpower standoff fills the airwaves,
+  she leans on the gift more and more.
+themes:
+- family
+- nuclear fear
+- time
 ids:
   imdb: tt0734732
 links:
@@ -20,3 +27,15 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+- title: The Logbook - Twilight Zone (1985) episode guide part 1
+  url: https://thelogbook.com/logbook/series/twilight-zone/zone-remake-1
+- title: A Little Peace and Quiet - Twilight Zone Wiki
+  url: https://twilightzone.fandom.com/wiki/A_Little_Peace_and_Quiet
+- title: A Little Peace and Quiet - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/episodes/76269
+last_verified: '2026-11-19'
+locked: true

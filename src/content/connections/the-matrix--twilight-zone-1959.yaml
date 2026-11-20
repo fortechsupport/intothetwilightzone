@@ -1,0 +1,11 @@
+from: films/the-matrix
+to: series/1959
+kind: inspired-by
+confidence: fan-noted
+summary: Flicks cites the hacker-discovers-false-reality blockbuster as one of the Twilight Zone-style films of
+  its era.
+sources:
+- title: 'Sight, Sound and Mind: The Twilight Zone on the Big Screen (Flicks)'
+  url: https://www.flicks.com.au/features/sight-sound-and-mind-the-twilight-zone-on-the-big-screen/
+last_verified: '2026-11-19'
+locked: true

@@ -14,6 +14,14 @@ cast:
 - Emily McLaughlin
 - Zamba
 narrator: Rod Serling
+synopsis: An engineer returns to New York from Africa, where his company's dam project has angered local tribesmen.
+  He scoffs at his wife's protective charms, but on his walk home through the city at night, signs of the jungle
+  begin closing in.
+themes:
+- colonialism
+- curses
+- fear
+- skepticism
 ids:
   imdb: tt0734650
 links:
@@ -21,3 +29,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+last_verified: '2026-11-19'
+locked: true

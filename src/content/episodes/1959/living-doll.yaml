@@ -8,6 +8,7 @@ production_code: '2621'
 writers:
 - Charles Beaumont
 - Jerry Sohl
+writing_credit_note: Credited to Charles Beaumont; Wikipedia identifies Jerry Sohl as the actual writer.
 directors:
 - Richard C. Sarafian
 cast:
@@ -16,6 +17,32 @@ cast:
 - Tracy Stratford
 - June Foray
 narrator: Rod Serling
+synopsis: Erich Streator resents his stepdaughter Christie and her new talking doll, Talky Tina. When the doll begins
+  speaking directly to him with menacing words, he sets out to get rid of it, but Tina proves hard to silence.
+themes:
+- abuse
+- family conflict
+- menace
+- toys
+trivia:
+- text: Talky Tina was voiced, without credit, by June Foray, who also supplied the voice of Mattel's Chatty Cathy
+    doll, the toy Tina was modeled on.
+  sources:
+  - title: Living Doll (The Twilight Zone) - Wikipedia
+    url: https://en.wikipedia.org/wiki/Living_Doll_(The_Twilight_Zone)
+- text: Although Charles Beaumont is credited, the script was ghostwritten by Jerry Sohl while Beaumont was too
+    ill to write; Beaumont insisted on splitting the fee.
+  sources:
+  - title: Jerry Sohl - Wikipedia
+    url: https://en.wikipedia.org/wiki/Jerry_Sohl
+- text: Toy Story 4 director Josh Cooley has said that Talky Tina inspired the film's doll Gabby Gabby.
+  sources:
+  - title: Living Doll (The Twilight Zone) - Wikipedia
+    url: https://en.wikipedia.org/wiki/Living_Doll_(The_Twilight_Zone)
+- text: The house seen in the episode was reused from the earlier episode "Ring-a-Ding Girl".
+  sources:
+  - title: Living Doll (The Twilight Zone) - Wikipedia
+    url: https://en.wikipedia.org/wiki/Living_Doll_(The_Twilight_Zone)
 ids:
   imdb: tt0734586
 links:
@@ -23,3 +50,11 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+- title: Living Doll (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Living_Doll_(The_Twilight_Zone)
+last_verified: '2026-11-19'
+locked: true

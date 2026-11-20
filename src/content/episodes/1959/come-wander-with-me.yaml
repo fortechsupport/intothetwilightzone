@@ -13,6 +13,13 @@ cast:
 - Gary Crosby
 - Bonnie Beecher
 narrator: Rod Serling
+synopsis: Rockabilly singer Floyd Burney searches the backwoods for an authentic folk song to launch his career.
+  He finds a haunting ballad sung by a lovely young woman, but the song appears to tell his own story.
+themes:
+- exploitation
+- fate
+- folklore
+- music
 ids:
   imdb: tt0734560
 links:
@@ -20,3 +27,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+last_verified: '2026-11-19'
+locked: true

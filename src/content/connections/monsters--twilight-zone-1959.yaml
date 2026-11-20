@@ -1,0 +1,11 @@
+from: films/monsters
+to: series/1959
+kind: inspired-by
+confidence: documented
+summary: The syndicated late-1980s horror anthology from the Tales from the Darkside producers, built around a creature
+  in every story, has been described as an anti-Twilight Zone.
+sources:
+- title: 'ComicBook.com: Forgotten horror anthology Monsters, the anti-Twilight Zone'
+  url: https://comicbook.com/tv-shows/news/forgotten-horror-anthology-monsters-anti-twilight-zone
+last_verified: '2026-11-19'
+locked: true

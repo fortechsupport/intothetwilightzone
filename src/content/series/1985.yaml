@@ -4,5 +4,95 @@ network: CBS, then first-run syndication
 host: Charles Aidman (narrator), later Robin Ward
 seasons: 3
 order: 2
-summary: The first revival, often running two or three stories per episode, with writers including Harlan Ellison and Rockne S. O'Bannon.
+summary: The first revival, often running two or three stories per episode, with writers including Harlan Ellison
+  and Rockne S. O'Bannon.
 locked: true
+international_titles:
+- country: France
+  language: French
+  title: La Cinquième Dimension
+  broadcaster: La Cinq
+  year: 1986
+  note: First French broadcast dated 24 February 1986. TMC later reran it.
+  sources:
+  - title: 'A Suivre: Cinquième Dimension (La)'
+    url: https://www.a-suivre.org/annuseries/encyclopedie/series.php?series=650
+- country: Italy
+  language: Italian
+  title: Ai confini della realtà
+  sources:
+  - title: 'Wikiquote (it): Ai confini della realtà (serie televisiva 1985)'
+    url: https://it.wikiquote.org/wiki/Ai_confini_della_realt%C3%A0_(serie_televisiva_1985)
+  - title: 'Movieplayer: Ai confini della realtà - Anni ''80 1985 - 1989'
+    url: https://movieplayer.it/serietv/ai-confini-della-realta-anni-80_1338/
+- country: Spain
+  language: Spanish
+  title: Más allá de los límites de la realidad
+  sources:
+  - title: 'SensaCine: Más allá de los límites de la realidad'
+    url: https://www.sensacine.com/series/serie-3345/
+- country: Brazil
+  language: Portuguese (Brazilian)
+  title: Além da Imaginação
+  sources:
+  - title: 'AdoroCinema: Além da Imaginação (1985)'
+    url: https://www.adorocinema.com/series/serie-3345/
+- country: Poland
+  language: Polish
+  title: Strefa mroku
+  sources:
+  - title: 'Filmweb: Strefa mroku (1985)'
+    url: https://www.filmweb.pl/serial/Strefa+mroku-1985-120715
+- country: Romania
+  language: Romanian
+  title: Zona crepusculară
+  note: Romanian Wikipedia gives the title as "Zona crepusculară (serial din 1985)".
+  sources:
+  - title: 'Wikipedia (ro): Zona crepusculară (serial din 1985)'
+    url: https://ro.wikipedia.com/wiki/The_Twilight_Zone_(1985_TV_series)
+releases:
+- date: '2004-12-28'
+  format: DVD
+  title: 'The Twilight Zone (1985): Season 1'
+  publisher: Image Entertainment
+  region: Region 1
+  note: First DVD of the 1980s revival. Date comes from a pre-release forum list that also gives Mar 29, 2005 for
+    a combined Seasons 2 & 3 set; both need confirming.
+  sources:
+  - title: DVD Talk Forum - Release dates for all 50s/80s Twilight Zone season sets
+    url: https://forum.dvdtalk.com/dvd-talk/379060-release-dates-all-50s-80s-twilight-zone-season-sets-printthread.html
+  - title: 80s Twilight Zone series coming to DVD - DVD Talk Forum
+    url: https://forum.dvdtalk.com/dvd-talk-archive/341331-80s-twilight-zone-series-coming-dvd.html
+- date: '2005-03-29'
+  format: DVD
+  title: 'The Twilight Zone (1985): Seasons 2 & 3'
+  publisher: Image Entertainment
+  region: Region 1
+  note: Combined set of the revival's second season and its syndicated third season, per pre-release forum dates.
+    Needs confirmation.
+  sources:
+  - title: DVD Talk Forum - Release dates for all 50s/80s Twilight Zone season sets
+    url: https://forum.dvdtalk.com/dvd-talk/379060-release-dates-all-50s-80s-twilight-zone-season-sets-printthread.html
+- date: '2014-08-26'
+  format: DVD
+  title: 'The Twilight Zone: The Complete ''80s Series'
+  publisher: Image Entertainment (RLJ Entertainment)
+  region: Region 1
+  note: 'All three seasons (1985-89) in one box, SRP $59.98. Extras: over a dozen audio commentaries, an exclusive
+    Wes Craven video interview and a photo gallery.'
+  sources:
+  - title: THE TWILIGHT ZONE Complete 80s Series Heads to DVD 8/26 - BroadwayWorld
+    url: https://www.broadwayworld.com/bwwtv/article/THE-TWILIGHT-ZONE-Complete-80s-Series-Heads-to-DVD-826-20140806
+  - title: 'The Twilight Zone: The ''80s Series now on DVD - Slice of SciFi'
+    url: https://www.sliceofscifi.com/2014/08/26/the-twilight-zone-the-80s-series-now-on-dvd/
+- date: '2020'
+  format: Syndication
+  title: MeTV weekday run ("Summer of Me")
+  publisher: MeTV
+  region: US
+  note: MeTV added the 1985 revival to its weekday lineup as part of its 2020 "Summer of Me" schedule.
+  sources:
+  - title: The Summer of Me brings Green Acres, the 1985 Twilight Zone and 90-minute Wagon Train to weekdays - MeTV
+    url: https://metv.com/stories/the-summer-of-me-brings-green-acres-the-1985-twilight-zone-and-90-minute-wagon-train-to-weekdays
+  - title: Stay Cool With MeTV's Full 'The Summer of Me' Schedule - TV Insider
+    url: https://tvinsider.com/935229/the-summer-of-me-tv-schedule-2020

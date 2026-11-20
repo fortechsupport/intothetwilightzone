@@ -6,15 +6,23 @@ air_date: '1963-10-18'
 runtime_min: 25
 production_code: '2609'
 writers:
-- Michael D. Rosenthal
 - Rod Serling
-writing_credit_note: 'Teleplay by: Rod Serling; Based on a story by: Michael D. Rosenthal'
+writing_credit_note: Teleplay by Rod Serling, based on a story by Michael D. Rosenthal.
+source_authors:
+- Michael D. Rosenthal
 directors:
 - John Rich
 cast:
 - Richard Erdman
 - Herbie Faye
 narrator: Rod Serling
+synopsis: Patrick McNulty, a tiresome blowhard fired for pestering his boss with suggestions, is given a stopwatch
+  by a stranger at a bar. He soon learns it can freeze the world around him, and he begins planning how to profit
+  from it.
+themes:
+- greed
+- loneliness
+- time
 ids:
   imdb: tt0734542
 links:
@@ -22,3 +30,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,10 @@
+from: films/see-you-there-psychic-ills
+to: series/1959
+kind: homage
+confidence: documented
+summary: SPIN framed the psych-rock band's alien-encounter video as a Twilight Zone-style vignette.
+sources:
+- title: Psychic Ills Twilight Zone See You There video (SPIN)
+  url: https://www.spinmagazine.com/2013/08/psychic-ills-twilight-zone-see-you-there-video-alien/
+last_verified: '2026-11-19'
+locked: true

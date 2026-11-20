@@ -12,6 +12,12 @@ cast:
 - Deborah Raffin
 - Lally Cadeau
 narrator: Robin Ward
+synopsis: A psychiatrist treats a woman at a sanitarium who insists that faces are watching her from the patterns
+  of wallpaper and fabric, and that she must keep every surface bare.
+themes:
+- madness
+- paranoia
+- perception
 ids:
   imdb: tt0734734
 links:
@@ -19,3 +25,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

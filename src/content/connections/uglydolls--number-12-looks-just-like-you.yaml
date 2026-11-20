@@ -1,0 +1,11 @@
+from: films/uglydolls
+to: 1959/number-12-looks-just-like-you
+kind: reference
+confidence: fan-noted
+summary: The film's uniform 'Perfect' dolls carry the model number 12, a nod to the episode about mandatory beauty
+  transformations.
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,11 @@
+from: films/weird-science-sci-fi-zoned
+to: 1959/where-is-everybody
+kind: homage
+confidence: fan-noted
+evidence: The Twilight Zone Wiki says this Weird Science episode parodies several TZ classics, including the deserted
+  town of 'Where Is Everybody?'.
+sources:
+- title: Television series with references to The Twilight Zone (Twilight Zone Wiki)
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true

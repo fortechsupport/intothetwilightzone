@@ -7,11 +7,17 @@ runtime_min: 22
 writers:
 - Bob Underwood
 directors:
-- Richard Bugajski
+- Ryszard Bugajski
 cast:
 - Barbara Stock
 - Nigel Bennett
 narrator: Robin Ward
+synopsis: A therapist who uses hypnosis to explore her patients' past lives is suddenly confronted with a world
+  in which everyone can recall every life they have ever lived.
+themes:
+- identity
+- memory
+- reincarnation
 ids:
   imdb: tt0734720
 links:
@@ -19,3 +25,7 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

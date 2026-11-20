@@ -13,6 +13,13 @@ cast:
 - Edward Andrews
 - Helen Westcott
 narrator: Rod Serling
+synopsis: Office manager Oliver Pope strikes a boy on a bicycle and flees the scene, then lets another man take
+  the blame. His own car, however, begins behaving as though it has a conscience of its own.
+themes:
+- conscience
+- guilt
+- hit-and-run
+- machines
 ids:
   imdb: tt0734694
 links:
@@ -20,3 +27,9 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+last_verified: '2026-11-19'
+locked: true

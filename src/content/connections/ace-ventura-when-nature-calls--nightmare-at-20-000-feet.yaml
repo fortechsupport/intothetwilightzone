@@ -1,0 +1,10 @@
+from: films/ace-ventura-when-nature-calls
+to: 1959/nightmare-at-20-000-feet
+kind: homage
+confidence: documented
+evidence: Wikipedia lists a scene that parodies Shatner's panicking passenger.
+sources:
+- title: Nightmare at 20,000 Feet (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,13 @@
+from: films/the-simpsons-homer3
+to: 1959/little-girl-lost
+kind: homage
+confidence: documented
+evidence: Homer slips through the wall into a three-dimensional world, echoing the child lost in another dimension
+  behind her bedroom wall.
+sources:
+- title: Television series with references to The Twilight Zone (Twilight Zone Wiki)
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+- title: Treehouse of Horror VI (Wikipedia)
+  url: https://wikipedia.com/wiki/Treehouse_of_Horror_VI
+last_verified: '2026-11-19'
+locked: true

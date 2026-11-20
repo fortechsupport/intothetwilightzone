@@ -4,11 +4,12 @@ season: 1
 episode: '14'
 air_date: '1960-01-08'
 runtime_min: 25
-production_code: '173-3615'
+production_code: 173-3615
 writers:
-- Richard Matheson
 - Rod Serling
-writing_credit_note: 'Teleplay by: Rod Serling; Based on a short story by: Richard Matheson'
+writing_credit_note: Teleplay by Rod Serling; based on the short story "Third from the Sun" (1950) by Richard Matheson
+source_authors:
+- Richard Matheson
 directors:
 - Richard L. Bare
 cast:
@@ -16,6 +17,12 @@ cast:
 - Joe Maross
 - Denise Alexander
 narrator: Rod Serling
+synopsis: With a war of total destruction only days away, weapons scientist William Sturka and test pilot Jerry
+  Riden plot to steal an experimental spacecraft and flee with their families to a distant world.
+themes:
+- cold war
+- escape
+- nuclear war
 ids:
   imdb: tt0734682
 links:
@@ -23,3 +30,11 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+- title: Wikipedia - Third from the Sun
+  url: https://en.wikipedia.org/wiki/Third_from_the_Sun
+last_verified: '2026-11-19'
+locked: true

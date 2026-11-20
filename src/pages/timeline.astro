@@ -1,0 +1,138 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { allEpisodes, episodeNumber, personUrl } from '../lib/data';
+
+interface Item { date: string; year: number; label: string; url?: string; kind: string; detail?: string }
+const items: Item[] = [];
+const MONTHS: Record<string, string> = { jan: '01', feb: '02', mar: '03', apr: '04', may: '05', jun: '06', jul: '07', aug: '08', sep: '09', oct: '10', nov: '11', dec: '12' };
+
+/** Turn ISO dates, years, and loose text like "Apr 1981" or "February-April 1961" into a sortable YYYY[-MM[-DD]]. */
+function parseDate(raw: unknown): string | undefined {
+  if (raw === undefined || raw === null || raw === '') return undefined;
+  const s = String(raw).trim();
+  const iso = /^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?$/.exec(s);
+  if (iso) return [iso[1], iso[2], iso[3]].filter(Boolean).join('-');
+  const year = /(1[89]\d\d|20\d\d)/.exec(s);
+  if (!year) return undefined;
+  const month = /\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?/i.exec(s);
+  return month ? `${year[1]}-${MONTHS[month[1].toLowerCase()]}` : year[1];
+}
+function add(raw: unknown, kind: string, label: string, url?: string, detail?: string) {
+  const date = parseDate(raw);
+  if (!date) return;
+  items.push({ date, year: Number(date.slice(0, 4)), kind, label, url, detail });
+}
+async function safe<T extends string>(name: T) {
+  try { return await getCollection(name as any); } catch { return []; }
+}
+
+const series = await safe('series');
+for (const s of series as any[]) {
+  for (const h of s.data.history ?? []) add(h.date, 'History', h.title, `/series/${s.id}/`, `${s.data.title} (${s.id})`);
+  for (const r of s.data.releases ?? []) add(r.date, 'Home media', r.title, `/series/${s.id}/`, [r.format, r.publisher, r.region].filter(Boolean).join(', '));
+  for (const t of s.data.international_titles ?? []) if (t.year) add(String(t.year), 'Around the world', `${t.title} (${t.country})`, `/series/${s.id}/`, [t.broadcaster, `${s.id} series`].filter(Boolean).join(', '));
+}
+const eps = await allEpisodes();
+const firstLast = new Map<string, { first: any; last: any }>();
+for (const e of eps) {
+  add(e.data.air_date, 'Episode', e.data.title, `/episodes/${e.id}/`, `${e.data.series} series, ${episodeNumber(e.data)}`);
+  const key = e.data.series;
+  const fl = firstLast.get(key) ?? { first: e, last: e };
+  if ((e.data.air_date ?? '9999') < (fl.first.data.air_date ?? '9999')) fl.first = e;
+  if ((e.data.air_date ?? '') > (fl.last.data.air_date ?? '')) fl.last = e;
+  firstLast.set(key, fl);
+}
+for (const [key, fl] of firstLast) {
+  add(fl.first.data.air_date, 'Series', `The ${key} series premieres`, `/series/${key}/`, fl.first.data.title);
+  add(fl.last.data.air_date, 'Series', `The ${key} series ends its run`, `/series/${key}/`, fl.last.data.title);
+}
+for (const f of (await safe('films')) as any[]) {
+  const label = f.data.parent_series ? `${f.data.title} (${f.data.parent_series})` : f.data.title;
+  add(f.data.release_date, f.data.kind === 'film' ? 'Film' : 'Screen', label, `/films/${f.id}/`, f.data.kind.replace(/-/g, ' '));
+  for (const h of f.data.history ?? []) add(h.date, 'History', h.title, `/films/${f.id}/`, f.data.title);
+  for (const r of f.data.releases ?? []) add(r.date, 'Home media', r.title, `/films/${f.id}/`, [r.format, r.publisher, r.region].filter(Boolean).join(', '));
+}
+for (const b of (await safe('books')) as any[]) add(b.data.published, 'Book', b.data.title, `/books/#${b.id}`, (b.data.authors ?? []).join(', '));
+for (const c of (await safe('comics')) as any[]) add(c.data.cover_date, 'Comic', c.data.title, `/comics/#${c.id}`, c.data.publisher);
+for (const m of (await safe('magazines')) as any[]) add(m.data.cover_date, 'Magazine', m.data.title, `/magazines/#${m.id}`, m.data.publisher);
+for (const r of (await safe('radio')) as any[]) add(r.data.volume_released, 'Radio', r.data.title, `/radio/#${r.id}`, r.data.series_title);
+for (const p of (await safe('podcasts')) as any[]) add(p.data.first_episode, 'Podcast', `${p.data.title} begins`, `/podcasts/#${p.id}`);
+for (const s of (await safe('songs')) as any[]) add(s.data.year, 'Song', s.data.title, `/songs/#${s.id}`, s.data.artist);
+for (const p of (await safe('people')) as any[]) {
+  add(p.data.born, 'Born', p.data.name, personUrl(p.data.name));
+  add(p.data.died, 'Died', p.data.name, personUrl(p.data.name));
+}
+for (const q of (await safe('quotes')) as any[]) add(q.data.date, 'Quote', `${q.data.person}${q.data.context ? `: ${q.data.context}` : ''}`, `/voices/#${q.id}`);
+for (const l of (await safe('locations')) as any[]) {
+  add(l.data.opened, 'Place', `${l.data.name} opens`, `/places/${l.id}/`);
+  add(l.data.closed, 'Place', `${l.data.name} closes`, `/places/${l.id}/`);
+}
+for (const w of (await safe('works')) as any[]) {
+  add(w.data.year, 'Work', w.data.title, `/works/${w.id}/`, w.data.kind.replace(/-/g, ' '));
+  const d = w.data.details ?? {};
+  add(d.opened, 'Work', `${w.data.title} opens`, `/works/${w.id}/`);
+  add(d.closed, 'Work', `${w.data.title} closes`, `/works/${w.id}/`);
+  if (d.released && parseDate(d.released) !== parseDate(w.data.year)) add(d.released, 'Work', `${w.data.title} released`, `/works/${w.id}/`);
+}
+for (const e of (await safe('essays')) as any[]) add(e.data.published, 'Essay', e.data.title, undefined, (e.data.authors ?? []).join(', '));
+
+items.sort((a, b) => a.date.localeCompare(b.date) || a.kind.localeCompare(b.kind) || a.label.localeCompare(b.label));
+const kinds = [...new Set(items.map((i) => i.kind))].sort();
+const decades = [...new Set(items.map((i) => Math.floor(i.year / 10) * 10))].sort((a, b) => a - b);
+const byYear = new Map<number, Item[]>();
+for (const i of items) byYear.set(i.year, [...(byYear.get(i.year) ?? []), i]);
+const years = [...byYear.keys()].sort((a, b) => a - b);
+const fmt = (d: string) => {
+  const [y, m, day] = d.split('-');
+  const names = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  return m ? `${names[Number(m) - 1]}${day ? ` ${Number(day)}` : ''}` : '';
+};
+const cls = (k: string) => `k-${k.toLowerCase().replace(/[^a-z]+/g, '-')}`;
+---
+<Base title="Timeline" description="Every dated record on the site in one cross-referenced timeline: broadcasts, films, publications, legal history, home media and more.">
+  <h1>Timeline</h1>
+  <p class="lead">Every dated record on the site, in order: {items.length.toLocaleString('en-US')} entries from {years[0]} to {years[years.length - 1]}. Each entry links to its page.</p>
+  <fieldset class="timeline-filter" data-pagefind-ignore>
+    <legend>Show</legend>
+    {kinds.map((k) => (
+      <label><input type="checkbox" checked data-kind={cls(k)} /> {k} <span class="muted small">({items.filter((i) => i.kind === k).length})</span></label>
+    ))}
+  </fieldset>
+  <p class="small letters" data-pagefind-ignore>Jump to: {decades.map((d) => <a href={`#y${years.find((y) => y >= d)}`}>{d}s</a>)}</p>
+  {years.map((y) => (
+    <section id={`y${y}`} class="timeline-year">
+      <h2>{y}</h2>
+      <ul class="plain timeline-list">
+        {byYear.get(y)!.map((i) => (
+          <li class={cls(i.kind)}>
+            <span class="muted small timeline-date">{fmt(i.date)}</span>
+            <span class="tag">{i.kind}</span>
+            {i.url ? <a href={i.url}>{i.label}</a> : i.label}
+            {i.detail && <span class="muted small"> · {i.detail}</span>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+  <style>
+    .timeline-filter { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; border: 1px solid var(--border, #444); padding: 0.5rem 0.75rem; margin: 1rem 0; }
+    .timeline-filter label { white-space: nowrap; }
+    .timeline-list li { padding: 0.15rem 0; }
+    .timeline-date { display: inline-block; min-width: 3.5rem; }
+    .timeline-year[hidden] { display: none; }
+  </style>
+  <script>
+    const boxes = Array.from(document.querySelectorAll<HTMLInputElement>('.timeline-filter input'));
+    const apply = () => {
+      const off = new Set(boxes.filter((b) => !b.checked).map((b) => b.dataset.kind));
+      document.querySelectorAll<HTMLElement>('.timeline-list li').forEach((li) => {
+        li.hidden = [...li.classList].some((c) => off.has(c));
+      });
+      document.querySelectorAll<HTMLElement>('.timeline-year').forEach((sec) => {
+        sec.hidden = !sec.querySelector('li:not([hidden])');
+      });
+    };
+    boxes.forEach((b) => b.addEventListener('change', apply));
+  </script>
+</Base>

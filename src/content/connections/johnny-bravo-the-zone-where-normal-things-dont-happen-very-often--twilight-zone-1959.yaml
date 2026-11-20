@@ -1,0 +1,10 @@
+from: films/johnny-bravo-the-zone-where-normal-things-dont-happen-very-often
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: A Johnny Bravo short whose very title and framing lampoon The Twilight Zone.
+sources:
+- title: 'The Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true

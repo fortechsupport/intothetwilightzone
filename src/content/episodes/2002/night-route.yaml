@@ -14,8 +14,20 @@ cast:
 - Dylan Walsh
 - Michael Puttonen
 narrator: Forest Whitaker
+synopsis: After narrowly escaping a car crash, an English professor notices a strange city bus that keeps appearing
+  wherever she goes, its doors open and waiting for her to climb aboard.
+themes:
+- death
+- fate
+- pursuit
 ids:
   imdb: tt0734795
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: The Twilight Zone (2002) season 1 - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+last_verified: '2026-11-19'
+locked: true
