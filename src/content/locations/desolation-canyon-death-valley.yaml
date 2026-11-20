@@ -1,0 +1,23 @@
+name: Desolation Canyon, Death Valley
+kind: filming-location
+city: Death Valley
+region: California
+country: US
+status: open
+filmed:
+- ref: 1959/the-lonely
+  note: Asteroid scenes.
+- ref: 1959/i-shot-an-arrow-into-the-air
+  note: Desert scenes.
+- ref: 1959/the-little-people
+  note: Backdrop plate for the landed rocket.
+notes: A narrow side canyon south of Furnace Creek in Death Valley National Park. Frame-matching location research
+  places scenes of "The Lonely" and "I Shot an Arrow into the Air" here, and identifies it as the backdrop photographed
+  for the landed rocket in "The Little People," which was otherwise shot at MGM.
+sources:
+- title: 'Lightpainter: Twilight Zone On Location, part 1 (Paul Giammarco, 2012)'
+  url: https://www.lightpainter.us/2012/11/twilight-zone-on-location-part-1/
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true
