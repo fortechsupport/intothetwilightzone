@@ -9853,6 +9853,52 @@
    "isNew": false
   }
  ],
+ "comics/dan-curtis-giveaways-3-the-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "comics",
+   "group": "Western Publishing (Watkins Strathmore)",
+   "catTitle": "Reading",
+   "subTitle": "Comics",
+   "isNew": false
+  }
+ ],
+ "comics/domingos-alegres-presenta-dimension-desconocida-489-11-aug-1963": [
+  {
+   "cat": "reading",
+   "sub": "comics",
+   "group": "Editorial Novaro (Mexico)",
+   "catTitle": "Reading",
+   "subTitle": "Comics",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "foreign-language",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Foreign-language editions",
+   "isNew": true
+  }
+ ],
+ "comics/domingos-alegres-presenta-dimension-desconocida-615-9-jan-1966": [
+  {
+   "cat": "reading",
+   "sub": "comics",
+   "group": "Editorial Novaro (Mexico)",
+   "catTitle": "Reading",
+   "subTitle": "Comics",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "foreign-language",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Foreign-language editions",
+   "isNew": true
+  }
+ ],
  "comics/mystery-comics-digest-12-the-twilight-zone": [
   {
    "cat": "reading",
@@ -11213,6 +11259,16 @@
    "isNew": false
   }
  ],
+ "comics/the-twilight-zone-comic-album-1": [
+  {
+   "cat": "reading",
+   "sub": "comics",
+   "group": "World Distributors",
+   "catTitle": "Reading",
+   "subTitle": "Comics",
+   "isNew": false
+  }
+ ],
  "comics/the-twilight-zone-fc-1173": [
   {
    "cat": "reading",
@@ -11348,6 +11404,16 @@
    "cat": "reading",
    "sub": "comics",
    "group": "IDW",
+   "catTitle": "Reading",
+   "subTitle": "Comics",
+   "isNew": false
+  }
+ ],
+ "comics/the-twilight-zone-tales-between-light-and-shadow": [
+  {
+   "cat": "reading",
+   "sub": "comics",
+   "group": "IDW Dark",
    "catTitle": "Reading",
    "subTitle": "Comics",
    "isNew": false
@@ -11633,6 +11699,26 @@
    "isNew": false
   }
  ],
+ "comics/twilight-zone-annual-1965": [
+  {
+   "cat": "reading",
+   "sub": "comics",
+   "group": "World Distributors Ltd.",
+   "catTitle": "Reading",
+   "subTitle": "Comics",
+   "isNew": false
+  }
+ ],
+ "comics/twilight-zone-mark-jewelers-editions-46-59": [
+  {
+   "cat": "reading",
+   "sub": "comics",
+   "group": "Gold Key (Western Publishing)",
+   "catTitle": "Reading",
+   "subTitle": "Comics",
+   "isNew": false
+  }
+ ],
  "comics/twilight-zone-science-fiction-special-1-now-1993": [
   {
    "cat": "reading",
@@ -11648,6 +11734,16 @@
    "cat": "reading",
    "sub": "comics",
    "group": "Dynamite",
+   "catTitle": "Reading",
+   "subTitle": "Comics",
+   "isNew": false
+  }
+ ],
+ "comics/twilight-zone-whitman-logo-editions-51-92": [
+  {
+   "cat": "reading",
+   "sub": "comics",
+   "group": "Whitman (Western Publishing)",
    "catTitle": "Reading",
    "subTitle": "Comics",
    "isNew": false
@@ -20585,6 +20681,16 @@
    "isNew": false
   }
  ],
+ "essays/a-glimpse-into-the-twilight-zone-elmira-college-1975": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  }
+ ],
  "essays/a-journey-into-the-shadows-the-twilight-zones-visual-critique-of-the-cold-war": [
   {
    "cat": "reading",
@@ -20640,6 +20746,16 @@
    "group": "Journal articles",
    "catTitle": "Reading",
    "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/a-view-from-the-middle-of-the-fence-cal-state-fullerton-1969": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
    "isNew": false
   }
  ],
@@ -20846,6 +20962,16 @@
    "group": "Articles",
    "catTitle": "Reading",
    "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/between-the-pit-of-mans-fears-and-the-summit-of-his-knowledge": [
+  {
+   "cat": "reading",
+   "sub": "essays",
+   "group": "Theses and dissertations",
+   "catTitle": "Reading",
+   "subTitle": "Essays and scholarship",
    "isNew": false
   }
  ],
@@ -21669,6 +21795,16 @@
    "catTitle": "Reading",
    "subTitle": "Rod Serling Memorial Foundation publications",
    "isNew": true
+  }
+ ],
+ "essays/james-gunn-interviews-rod-serling-1970": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
   }
  ],
  "essays/life-with-rod-a-conversation-with-carol-serling": [
@@ -23799,6 +23935,16 @@
    "isNew": false
   }
  ],
+ "essays/television-academy-foundation-interviews-the-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
  "essays/the-50-year-old-signpost-up-ahead-the-twilight-zone": [
   {
    "cat": "reading",
@@ -23837,6 +23983,16 @@
    "isNew": false
   }
  ],
+ "essays/the-challenge-of-the-mass-media-to-the-20th-century-writer-library-of-congress-1968": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  }
+ ],
  "essays/the-deadly-nackles-affair": [
   {
    "cat": "reading",
@@ -23852,6 +24008,16 @@
    "cat": "reading",
    "sub": "essays",
    "group": "Essays",
+   "catTitle": "Reading",
+   "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/the-improbable-made-possible-science-fiction-and-social-commentary": [
+  {
+   "cat": "reading",
+   "sub": "essays",
+   "group": "Theses and dissertations",
    "catTitle": "Reading",
    "subTitle": "Essays and scholarship",
    "isNew": false
