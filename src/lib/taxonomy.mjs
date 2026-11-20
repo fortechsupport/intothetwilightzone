@@ -4,14 +4,22 @@
 // Plain JavaScript so both the Astro build and the review-sheet export (scripts/taxonomy-export.mjs)
 // use the same rules. All copy is our own words; keep facts conservative.
 
-/** @typedef {{ slug: string, title: string, blurb: string, intro?: string, isNew?: boolean, order?: 'az' | 'chrono' }} Sub */
-/** @typedef {{ slug: string, title: string, isNew?: boolean, description: string, intro: string[], connection: string, subs: Sub[], seeAlso?: [string, string][] }} Category */
+// Three kinds of top-level entry:
+//   section   People, Places, Organizations: who and where, linked from everything else.
+//   category  the things themselves (Series, Episodes, Reading...). `split: true` shows each list in two
+//             parts, Official and Unofficial and inspired (see isOfficial below).
+//   library   the Media library: an index of content, not a category.
+// Content is not a category: advertisements, archival holdings, documents and quotes attach to the
+// records they are about (see contentOf below) and show on those records' pages.
+/** @typedef {{ slug: string, title: string, blurb: string, intro?: string, isNew?: boolean, order?: 'az' | 'chrono', side?: 'official' | 'unofficial' }} Sub */
+/** @typedef {{ slug: string, title: string, kind?: 'section' | 'category' | 'library', split?: boolean, isNew?: boolean, description: string, intro: string[], connection: string, subs: Sub[], seeAlso?: [string, string][] }} Category */
 
 /** @type {Category[]} */
 export const TAXONOMY = [
   {
     slug: 'people',
     title: 'People',
+    kind: 'section',
     description: 'The writers, directors, actors, narrators, composers, crew, characters and admirers of The Twilight Zone.',
     intro: [
       "The Twilight Zone was Rod Serling's show, but it was made by a remarkable group: the writers Charles Beaumont, Richard Matheson and George Clayton Johnson; the producers Buck Houghton, Herbert Hirschman, Bert Granet and William Froug; composers including Bernard Herrmann, Jerry Goldsmith and Fred Steiner; and a cast list that runs from silent-era veterans to future stars such as Robert Redford, William Shatner and Burt Reynolds.",
@@ -22,6 +30,7 @@ export const TAXONOMY = [
     subs: [
       { slug: 'actors', title: 'Actors', blurb: 'Everyone who appeared on screen in a Twilight Zone series or film.', intro: 'The original series cast character actors and stars alike, often against type; the revivals continued the habit. Each name links to every role they played across the franchise.' },
       { slug: 'characters', title: 'Characters', blurb: 'Talky Tina, the Kanamits, Henry Bemis and the other figures the stories made famous.', isNew: false, intro: "Some of the show's characters outgrew their episodes: the doll who says \"My name is Talky Tina, and I'm going to kill you,\" the gremlin on the wing, the last man with time enough at last. Each entry names who played them and where they appear." },
+      { slug: 'artists', title: 'Artists and illustrators', isNew: true, blurb: 'Comic artists, cover artists, painters and illustrators.', intro: 'The artists who drew the Twilight Zone comics and painted their covers, from Gold Key\'s George Wilson to the artists of the Dynamite and IDW series. Each name links to every cover and issue credited to them.' },
       { slug: 'composers', title: 'Composers', blurb: 'The composers behind the themes and scores.', intro: 'CBS commissioned original scores for many episodes and drew the rest from its music library, so the show carries work by Bernard Herrmann, Jerry Goldsmith, Fred Steiner, Nathan Van Cleave and Marius Constant, whose library cues became the famous theme.' },
       { slug: 'crew', title: 'Crew', blurb: 'Cinematographers, editors, make-up and effects artists, story editors and other crew.', intro: "The look of the show came from people who rarely get named: cinematographer George T. Clemens, make-up artist William Tuttle, and the MGM art department that turned backlot streets into Maple Street and Willoughby." },
       { slug: 'directors', title: 'Directors', blurb: 'Everyone who directed an episode, segment or film.', intro: 'The original series used many directors from film and live television, among them John Brahm, Douglas Heyes, Buzz Kulik, Richard Donner, Lamont Johnson and Don Siegel. The film brought in John Landis, Steven Spielberg, Joe Dante and George Miller.' },
@@ -39,6 +48,7 @@ export const TAXONOMY = [
   {
     slug: 'places',
     title: 'Places',
+    kind: 'section',
     description: 'Real places tied to The Twilight Zone, from MGM backlots to Rod Serling\'s hometown, and the fictional places of its stories.',
     intro: [
       "The original series was made almost entirely at MGM in Culver City, on soundstages and the backlot streets that stood in for small-town America, with location trips to Death Valley, Lone Pine and the Malibu coast. The revivals moved north to Vancouver and Toronto. Serling's own story runs from Syracuse and Binghamton, New York, through Antioch College and Cincinnati, to Pacific Palisades and his summer cottage on Cayuga Lake.",
@@ -52,8 +62,34 @@ export const TAXONOMY = [
     ],
   },
   {
+    slug: 'organizations',
+    title: 'Organizations',
+    kind: 'section',
+    description: 'The networks, studios, production companies, publishers, licensees and sponsors behind The Twilight Zone, and the archives, museums, foundations, award bodies and fan groups around it.',
+    intro: [
+      "Every part of the franchise passed through an organization. Serling's company Cayuga Productions made the original series with CBS, which broadcast it and the first revival and now owns the franchise; the original series was filmed at MGM; UPN carried the 2002 series and CBS All Access the 2019 one. Licensees carried it into print and products: Dell and Gold Key comics, TZ Publications' Twilight Zone Magazine, Gauntlet Press's script volumes, Bif Bang Pow! figures and Rittenhouse cards. Sponsors such as General Foods and Kimberly-Clark paid for the first season.",
+      'Around the franchise are the organizations that keep its history: the archives and libraries that hold Serling\'s papers, the Rod Serling Memorial Foundation and other societies, museums in Binghamton and elsewhere, the bodies that gave the show its Emmys and Hugos, and the fan groups that study it.',
+    ],
+    connection: 'Official organizations made, broadcast, licensed or paid for the franchise. Related organizations hold its records, honor it or study it. Each organization page lists every record on this site that names it, with its holdings, sponsorships and advertisements attached.',
+    subs: [
+      { slug: 'networks-studios', title: 'Networks, studios and streamers', blurb: 'The broadcasters, studios and streaming services that made or carried the series and films.', side: 'official' },
+      { slug: 'production-companies', title: 'Production companies', blurb: 'Cayuga Productions and the companies that produced the revivals, radio dramas and films.', side: 'official' },
+      { slug: 'publishers', title: 'Publishers', blurb: 'Publishers of Twilight Zone books, comics and magazines, and of books about the show.' },
+      { slug: 'licensees', title: 'Product licensees', blurb: 'The makers of Twilight Zone toys, games, cards, home video and recordings.' },
+      { slug: 'sponsors', title: 'Sponsors and advertisers', blurb: 'The companies that sponsored the series (official), and the brands Rod Serling advertised.' },
+      { slug: 'archives-libraries', title: 'Archives and libraries', blurb: 'Where Twilight Zone scripts, papers and recordings are kept, with their holdings.', side: 'unofficial' },
+      { slug: 'museums', title: 'Museums', blurb: 'Museums with Serling or Twilight Zone collections and exhibits.', side: 'unofficial' },
+      { slug: 'foundations-societies', title: 'Foundations and societies', blurb: 'The Rod Serling Memorial Foundation and other societies.', side: 'unofficial' },
+      { slug: 'award-bodies', title: 'Award bodies', blurb: 'The academies and societies that honored the show and Serling.', side: 'unofficial' },
+      { slug: 'schools', title: 'Schools and universities', blurb: 'Where Serling studied and taught, and where the show is studied.', side: 'unofficial' },
+      { slug: 'fan-groups', title: 'Fan clubs and communities', blurb: 'Fan clubs, forums, wikis and other communities devoted to the show.', side: 'unofficial' },
+      { slug: 'other-organizations', title: 'Other organizations', blurb: 'Organizations that fit no other group.' },
+    ],
+  },
+  {
     slug: 'events',
     title: 'Events',
+    split: true,
     description: 'Conventions, premieres, marathons, anniversaries, exhibitions, honors and the moments that shaped Twilight Zone history.',
     intro: [
       "The Twilight Zone's history is a run of events as much as episodes: its October 2, 1959 premiere on CBS, Serling's Emmy wins, cancellation and revival, the 1982 helicopter accident on the film set and the trial that followed, the New Year's marathons that introduced the show to new generations, and the anniversaries, festivals and conventions fans still hold.",
@@ -65,6 +101,7 @@ export const TAXONOMY = [
       { slug: 'broadcasts-marathons', title: 'Broadcasts and marathons', blurb: 'Notable airings, from the premiere to the holiday marathons.' },
       { slug: 'conventions', title: 'Conventions', blurb: 'Fan conventions and gatherings devoted to the show.' },
       { slug: 'exhibitions', title: 'Exhibitions', blurb: 'Museum shows and exhibits about Serling and the series.' },
+      { slug: 'legal', title: 'Trials, lawsuits and rights', isNew: true, blurb: 'The 1982 accident trial, lawsuits and credit disputes, sponsor censorship, and who has owned the franchise.', intro: 'The 1982 helicopter accident on the set of Twilight Zone: The Movie killed Vic Morrow and two child actors and led to a manslaughter trial that ended in acquittals in 1987. Rights to the series passed from Cayuga Productions to CBS; writers disputed credits; and Serling fought sponsors over what he could say.' },
       { slug: 'honors-awards', title: 'Honors and awards', blurb: 'Emmys, Hugos, halls of fame, stamps and other honors to Serling and the show.', intro: 'Serling won six Emmys, three of them before The Twilight Zone, and the show won Hugo Awards in 1960, 1961 and 1962. Later honors include the Television Academy Hall of Fame and a star on the Hollywood Walk of Fame.' },
       { slug: 'premieres', title: 'Premieres', blurb: 'Premieres of the series, revivals and films.' },
       { slug: 'production-history', title: 'Production and broadcast history', blurb: 'Dated milestones in how each series was made, scheduled and syndicated.', intro: 'From the history notes on each series and film: pilots, renewals, format changes, cancellations and syndication.' },
@@ -75,6 +112,7 @@ export const TAXONOMY = [
   {
     slug: 'series',
     title: 'Series',
+    split: true,
     description: 'Every Twilight Zone series on television, radio and podcast, plus Night Gallery and the anthology series in its tradition.',
     intro: [
       'There have been four Twilight Zone television series: the original (CBS, 1959-1964), the first revival (CBS and syndication, 1985-1989), a second revival (UPN, 2002-2003) and Jordan Peele\'s (CBS All Access, 2019-2020). Serling followed the original with Night Gallery (NBC, 1969-1973).',
@@ -92,6 +130,7 @@ export const TAXONOMY = [
   {
     slug: 'episodes',
     title: 'Episodes',
+    split: true,
     description: 'Every Twilight Zone episode on television and radio, Night Gallery segment by segment, and notable podcast episodes about the show.',
     intro: [
       'The four television series total more than 300 episodes, from "Where Is Everybody?" in 1959 to the last of Jordan Peele\'s run in 2020. The radio dramas add more than 170 audio adaptations, and Night Gallery 43 episodes of one to four segments each.',
@@ -110,6 +149,7 @@ export const TAXONOMY = [
   {
     slug: 'movies',
     title: 'Movies',
+    split: true,
     description: 'Twilight Zone films, Rod Serling\'s films, documentaries, and the films linked to specific episodes.',
     intro: [
       'Warner Bros. brought the show to cinemas in Twilight Zone: The Movie (1983), four segments directed by John Landis, Steven Spielberg, Joe Dante and George Miller. CBS assembled Rod Serling\'s Lost Classics (1994) from unproduced material, and Serling himself wrote Patterns, Requiem for a Heavyweight, Seven Days in May and the first Planet of the Apes.',
@@ -130,6 +170,7 @@ export const TAXONOMY = [
   {
     slug: 'music',
     title: 'Music',
+    split: true,
     description: 'The Twilight Zone theme, its composers and scores, soundtrack releases, and the songs that name or are about the show.',
     intro: [
       "Few pieces of television music are as recognisable as The Twilight Zone's theme. The first season used a main title by Bernard Herrmann; from the second season CBS combined two short library pieces by the French composer Marius Constant, and its repeating guitar figure became shorthand for the uncanny.",
@@ -146,6 +187,7 @@ export const TAXONOMY = [
   {
     slug: 'reading',
     title: 'Reading',
+    split: true,
     description: 'Books, comics, magazines, essays, articles and published scripts about The Twilight Zone and Rod Serling.',
     intro: [
       "Print is where The Twilight Zone has been studied, preserved and continued. Serling turned his teleplays into three bestselling story collections in 1960-1962; Gold Key published Twilight Zone comics for twenty years; Rod Serling's The Twilight Zone Magazine ran from 1981 to 1989; Marc Scott Zicree's The Twilight Zone Companion (1982) set the standard for episode guides; and Gauntlet Press later published Serling's complete scripts.",
@@ -164,12 +206,14 @@ export const TAXONOMY = [
       { slug: 'foreign-language', title: 'Foreign-language editions', isNew: true, blurb: 'Translations and books published outside English.' },
       { slug: 'serling-foundation-papers', title: 'Rod Serling Memorial Foundation publications', isNew: true, blurb: 'Journals and papers published by the foundation.' },
       { slug: 'serling-own-writing', title: "Rod Serling's own writing", isNew: true, blurb: 'Articles, essays and fiction Serling wrote himself.' },
+      { slug: 'websites', title: 'Websites and databases', isNew: true, blurb: 'Official sites, reference sites, databases and fan sites about the show.' },
       { slug: 'scripts', title: 'Scripts and teleplays', blurb: 'Published scripts, including Gauntlet Press\'s Serling volumes.', isNew: true },
     ],
   },
   {
     slug: 'games',
     title: 'Games',
+    split: true,
     description: 'Twilight Zone pinball, video games, board and card games.',
     intro: [
       "Bally's The Twilight Zone pinball machine (1993), designed by Pat Lawlor, is one of the best-selling and most complex pinball tables ever made. The show has also been a board game, trivia games, computer adventures from the 1980s onward, slot machines and a virtual-reality game.",
@@ -177,6 +221,7 @@ export const TAXONOMY = [
     connection: 'Each game is either a licensed Twilight Zone product or a game that adapts or references the show, as stated on its entry.',
     subs: [
       { slug: 'board-card-games', title: 'Board and card games', blurb: 'Board, card and trivia games.' },
+      { slug: 'game-homages', title: 'Nods in other games', isNew: true, blurb: 'Games that reference or borrow from the show without a license.', side: 'unofficial' },
       { slug: 'other-games', title: 'Other games', blurb: 'Games that fit no other group.' },
       { slug: 'pinball-arcade', title: 'Pinball, arcade and slots', blurb: 'Pinball tables, arcade cabinets and slot machines.' },
       { slug: 'video-games', title: 'Video games', blurb: 'Computer, console, mobile and VR games, and appearances in other games.' },
@@ -185,13 +230,19 @@ export const TAXONOMY = [
   {
     slug: 'artwork',
     title: 'Artwork',
+    split: true,
     description: 'Posters, key art, title design, illustration and art inspired by The Twilight Zone.',
     intro: [
-      "The show's look is part of its legend: the drifting eye, window and clock of the opening titles, the key art of the 1983 film, Gold Key's painted comic covers, and decades of posters and gallery work by artists who grew up with it.",
+      "The show's look is part of its legend: the drifting eye, window and clock of the opening titles, William Tuttle's make-up, the paintings Serling stood beside in Night Gallery, the key art of the 1983 film, Gold Key's painted comic covers, and decades of posters and gallery work by artists who grew up with it.",
+      'Artwork is both a category and content. Every piece is listed here, and a cover also shows on the comic or magazine it covers, a poster on the film it advertised.',
     ],
-    connection: 'Each work is official art for the franchise or art that takes the show as its subject.',
+    connection: 'Official artwork was made for the franchise: posters, title design, Night Gallery\'s paintings, licensed covers, make-up and props. Unofficial artwork takes the show as its subject. Cover art also appears on the comic, magazine or book it covers.',
     subs: [
       { slug: 'art-illustration', title: 'Art and illustration', blurb: 'Paintings, illustration and artists inspired by the show.' },
+      { slug: 'covers', title: 'Cover art', isNew: true, blurb: 'Cover art for comics, magazines, books and records. Each cover also appears on the item it covers.' },
+      { slug: 'night-gallery-paintings', title: 'Night Gallery paintings', isNew: true, blurb: 'The paintings Serling introduced each Night Gallery story with.' },
+      { slug: 'production-design', title: 'Make-up and production design', isNew: true, blurb: 'Make-up, masks, sets and effects design from the productions.' },
+      { slug: 'props-costumes', title: 'Props and costumes', isNew: true, blurb: 'Surviving props and costumes, where they are now, and what they sold for.', intro: 'Some of the original series\' props have survived the decades since MGM cleared its prop rooms, among them the Mystic Seer fortune-telling machine from "Nick of Time", which has sold at auction. Others sit in museums and private collections. Each entry says what is known about a piece and where the claim comes from. Licensed replicas are under Merchandise.' },
       { slug: 'other-artwork', title: 'Other artwork', blurb: 'Artwork that fits no other group.' },
       { slug: 'posters-key-art', title: 'Posters and key art', blurb: 'Official posters, key art and print art.' },
       { slug: 'title-design', title: 'Title design', blurb: 'The opening title sequences.' },
@@ -200,6 +251,7 @@ export const TAXONOMY = [
   {
     slug: 'homages',
     title: 'Homages',
+    split: true,
     description: 'Remakes, adaptations, homages, parodies and references to The Twilight Zone across film, television, music and print, with the evidence for each.',
     intro: [
       'The Twilight Zone is one of the most borrowed-from works in popular culture. The Simpsons\' "Treehouse of Horror" episodes, Futurama and countless sitcoms have parodied it, anthologies such as Black Mirror openly work in its tradition, and Jordan Peele has said his film Us grew from the episode "Mirror Image".',
@@ -212,6 +264,7 @@ export const TAXONOMY = [
       { slug: 'homages', title: 'Homages', blurb: 'Deliberate tributes to an episode or the show.' },
       { slug: 'in-other-shows', title: 'In other shows', blurb: 'Episodes, segments and sketches of other series that adapt, spoof or reference the show.' },
       { slug: 'inspired-by', title: 'Inspired by', blurb: 'Works whose makers, or published sources, say an episode inspired them.' },
+      { slug: 'in-everyday-language', title: 'In everyday language', isNew: true, blurb: 'Catchphrases, the theme as shorthand, dictionary entries and public figures invoking the show.', intro: 'Few television shows have changed the language. "Twilight zone" is now an ordinary phrase for anything uncanny, the theme is hummed to mean "something strange is going on", and lines such as "It\'s a cookbook!" are quoted by people who have never seen the episodes.' },
       { slug: 'parodies', title: 'Parodies', blurb: 'Spoofs and send-ups.' },
       { slug: 'references', title: 'References', blurb: 'Passing references, quotations and lyric mentions.' },
     ],
@@ -219,6 +272,7 @@ export const TAXONOMY = [
   {
     slug: 'merchandise',
     title: 'Merchandise',
+    split: true,
     description: 'Twilight Zone collectibles, toys, trading cards, home video releases and other licensed products.',
     intro: [
       'Licensed Twilight Zone products run from 1960s board games to Talky Tina replicas, Bif Bang Pow! bobbleheads, Rittenhouse trading cards, and a long line of home video releases: VHS and laserdisc collections, the Definitive Edition DVDs, and the remastered Blu-ray sets.',
@@ -230,6 +284,7 @@ export const TAXONOMY = [
       { slug: 'home-media', title: 'Home video and streaming', blurb: 'VHS, laserdisc, DVD, Blu-ray and streaming releases.' },
       { slug: 'household-apparel', title: 'Household and apparel', blurb: 'Clothing, homewares and everyday goods.' },
       { slug: 'other-merchandise', title: 'Other merchandise', blurb: 'Products that fit no other group.' },
+      { slug: 'replicas', title: 'Prop replicas', isNew: true, blurb: 'Licensed replicas of props such as Talky Tina and the Mystic Seer.' },
       { slug: 'toys-figures', title: 'Toys and figures', blurb: 'Action figures, bobbleheads and vinyl figures.' },
       { slug: 'trading-cards', title: 'Trading cards', blurb: 'Card sets and inserts.' },
     ],
@@ -237,6 +292,7 @@ export const TAXONOMY = [
   {
     slug: 'lectures',
     title: 'Lectures',
+    split: true,
     description: "Rod Serling's lectures and speeches, academic talks about the show, and The Twilight Zone in the classroom.",
     intro: [
       'Serling was a tireless speaker. He lectured at colleges across the country, taught writing and film at Ithaca College and Antioch, and used his speeches to argue for television as serious drama and against the censorship of sponsors. Since then the show has become a set text: its teleplays appear in school anthologies, and scholars lecture on it at conferences and universities.',
@@ -267,147 +323,44 @@ export const TAXONOMY = [
   },
   // ---- Categories added during research (flagged new) ----
   {
-    slug: 'advertising',
-    title: 'Advertising',
-    isNew: true,
-    description: 'Twilight Zone sponsors, promos and trailers, print ads, and the commercials Rod Serling made.',
-    intro: [
-      'The original series was sold to sponsors such as General Foods, Kimberly-Clark and Liggett & Myers, and Serling promoted the next week\'s episode on camera. After the show he became one of television\'s busiest commercial voices. The revivals and the film had their own promos, trailers and print campaigns, and advertisers have parodied the show for decades.',
-    ],
-    connection: 'Each entry advertised the show, was made by Serling, or borrows the show\'s style in an advertisement.',
-    subs: [
-      { slug: 'commercials', title: 'Commercials', blurb: 'Television and radio commercials.' },
-      { slug: 'print-ads', title: 'Print ads', blurb: 'Newspaper and magazine advertisements.' },
-      { slug: 'promos-trailers', title: 'Promos and trailers', blurb: 'Network promos and film trailers.' },
-      { slug: 'sponsors', title: 'Sponsors', blurb: 'The companies that sponsored the series.' },
-    ],
-  },
-  {
-    slug: 'archives',
-    title: 'Archives and documents',
-    isNew: true,
-    description: 'Where the original Twilight Zone scripts, papers, recordings and production records are kept.',
-    intro: [
-      "Most of what we know about how The Twilight Zone was made comes from a handful of collections: Rod Serling's papers at the Wisconsin Center for Film and Theater Research and Ithaca College, the network's records, and the files of the writers and composers who worked on the show.",
-      'This section lists those collections and notable single documents, what each holds, and how to reach it. Nothing here is reproduced on the site; these are pointers for researchers.',
-    ],
-    connection: "Each collection holds original Twilight Zone material (scripts, correspondence, recordings, call sheets) or the papers of someone who made the show. Entries say plainly when a collection's Twilight Zone content is thin.",
-    subs: [
-      { slug: 'collections', title: 'Collections', blurb: 'Archival collections and where they are held.' },
-      { slug: 'documents', title: 'Documents', blurb: 'Notable single documents, scripts and memos.' },
-    ],
-  },
-  {
-    slug: 'community',
-    title: 'Fans and resources',
-    isNew: true,
-    description: 'Twilight Zone fan communities, reference websites, databases and organizations.',
-    intro: [
-      'Fans have kept the show\'s history for decades: in fanzines and newsletters, on early web episode guides, in wikis and forums, and in organizations such as the Rod Serling Memorial Foundation. This section lists the communities and reference sites worth knowing.',
-    ],
-    connection: 'Each entry is a community, reference resource or organization devoted to the show or to Serling.',
-    subs: [
-      { slug: 'fan-communities', title: 'Fan communities', blurb: 'Forums, wikis, subreddits and fan sites.' },
-      { slug: 'organizations', title: 'Organizations', blurb: 'Foundations and societies.' },
-      { slug: 'websites-databases', title: 'Websites and databases', blurb: 'Reference sites, databases and official pages.' },
-    ],
-  },
-  {
-    slug: 'cultural-impact',
-    title: 'Cultural impact',
-    isNew: true,
-    description: 'How "twilight zone" entered the language: catchphrases, the theme as shorthand, dictionary entries and public uses.',
-    intro: [
-      'Few television shows have changed the language. "Twilight zone" is now an ordinary phrase for anything uncanny or in-between, the four-note theme is hummed to mean "something strange is going on", and lines such as "It\'s a cookbook!" and "Time enough at last" are quoted by people who have never seen the episodes.',
-    ],
-    connection: 'Each entry documents a way the show\'s name, music or lines passed into general use, with a source.',
-    subs: [
-      { slug: 'catchphrases', title: 'Catchphrases', blurb: 'Lines and phrases from the show in everyday use.' },
-      { slug: 'dictionary-rankings', title: 'Dictionaries and rankings', blurb: 'Dictionary entries and greatest-show rankings.' },
-      { slug: 'public-uses', title: 'Public uses', blurb: 'Politicians, journalists and public figures invoking the show.' },
-      { slug: 'theme-shorthand', title: 'The theme as shorthand', blurb: 'The theme used to signal strangeness.' },
-    ],
-  },
-  {
-    slug: 'legal-history',
-    title: 'Legal history',
-    isNew: true,
-    description: 'The 1982 film accident and trial, rights and ownership of the franchise, credit disputes and sponsor censorship.',
-    intro: [
-      'The franchise has a legal history of its own. The 1982 helicopter accident on the set of Twilight Zone: The Movie killed Vic Morrow and two child actors and led to a manslaughter trial that ended in acquittals in 1987, and to changes in how film sets use children and stunts. Rights to the series passed from Cayuga Productions to CBS, with Carol Serling licensing her husband\'s name; writers disputed credits; and Serling fought sponsors over what he could say.',
-    ],
-    connection: 'Each entry is a legal event, dispute or rights question that directly involves the franchise or Serling\'s work.',
-    subs: [
-      { slug: 'censorship', title: 'Censorship', blurb: 'Sponsor and network interference with scripts.' },
-      { slug: 'lawsuits', title: 'Lawsuits', blurb: 'Civil suits and plagiarism claims.' },
-      { slug: 'rights-ownership', title: 'Rights and ownership', blurb: 'Who has owned and licensed the franchise.' },
-      { slug: 'trials', title: 'Trials', blurb: 'Criminal trials, chiefly the Twilight Zone accident case.' },
-    ],
-  },
-  {
-    slug: 'media',
-    title: 'Media library',
-    isNew: true,
-    description: 'Videos, audio, documents, advertisements and images about The Twilight Zone, linked where they are legitimately hosted.',
-    intro: [
-      'Every video, recording, document, advertisement and image attached to a record on this site, in one place. Most are links to where the rights holder or an archive hosts them; public-domain items may be kept here. Nothing copyrighted is re-hosted.',
-    ],
-    connection: 'Each item is attached to a record elsewhere on the site, which explains its connection to the show.',
-    subs: [
-      { slug: 'ads', title: 'Advertisements', blurb: 'Print and broadcast advertisements.' },
-      { slug: 'audio', title: 'Audio', blurb: 'Radio, interviews and recordings.' },
-      { slug: 'documents', title: 'Documents', blurb: 'Scripts, letters, articles and transcripts.' },
-      { slug: 'images', title: 'Images', blurb: 'Photographs, posters and artwork.' },
-      { slug: 'links', title: 'Links', blurb: 'Web pages and other resources.' },
-      { slug: 'video', title: 'Video', blurb: 'Clips, interviews, promos, trailers and full programs.' },
-    ],
-  },
-  {
-    slug: 'props-collecting',
-    title: 'Props and collecting',
-    isNew: true,
-    description: 'Surviving Twilight Zone props and costumes, auctions, museum holdings and replicas.',
-    intro: [
-      'Some of the original series\' props have survived the decades since MGM cleared its prop rooms, among them the Mystic Seer fortune-telling machine from "Nick of Time", which has sold at auction. Others sit in museums and private collections, and licensed replicas of pieces such as Talky Tina are made for collectors. Each entry says what is known about a piece and where the claim comes from.',
-    ],
-    connection: 'Each entry is a prop or costume from the franchise, a sale or holding of one, or a replica of one.',
-    subs: [
-      { slug: 'auctions', title: 'Auctions', blurb: 'Notable sales of props and memorabilia.' },
-      { slug: 'museum-holdings', title: 'Museum holdings', blurb: 'Props and costumes held by museums.' },
-      { slug: 'props-costumes', title: 'Props and costumes', blurb: 'Surviving props and costumes.' },
-      { slug: 'replicas', title: 'Replicas', blurb: 'Licensed and fan-made replicas.' },
-    ],
-  },
-  {
-    slug: 'quotes',
-    title: 'Quotes',
-    isNew: true,
-    description: 'Filmmakers, writers and performers on what The Twilight Zone meant to them, and Rod Serling in his own words.',
-    intro: [
-      'Stephen King, Steven Spielberg, Jordan Peele, Guillermo del Toro and many others have said in interviews and speeches that The Twilight Zone shaped how they tell stories. Here they are in their own words, with Serling\'s own remarks about his work.',
-    ],
-    connection: 'Every quote is exact, short, about the show or Serling, and linked to where it was said.',
-    subs: [
-      { slug: 'admirers', title: 'Admirers on the show', blurb: 'What other artists have said about the show.' },
-      { slug: 'rod-serling', title: 'Rod Serling in his own words', blurb: 'Serling on his work.' },
-    ],
-  },
-  {
     slug: 'stage',
     title: 'Stage and attractions',
     isNew: true,
+    split: true,
     description: 'Twilight Zone stage adaptations, live readings, and the Tower of Terror and other attractions.',
     intro: [
       'The stories work on stage: Anne Washburn\'s adaptation played at London\'s Almeida Theatre in 2017 and the West End after, and theatre companies across America stage episodes from the published scripts. Disney\'s The Twilight Zone Tower of Terror opened at Walt Disney World in 1994, with later versions in California and Paris.',
     ],
-    connection: 'Each production is licensed from or adapts the show; each attraction is a licensed Twilight Zone experience or one built on it.',
+    connection: 'Official entries are licensed productions and attractions; unofficial ones are fan stagings and experiences built on the show without a license.',
     subs: [
       { slug: 'attractions', title: 'Attractions', blurb: 'Theme park rides, escape rooms and experiences.' },
       { slug: 'live-readings', title: 'Live readings', blurb: 'Staged readings and live audio performances.' },
       { slug: 'theatre', title: 'Theatre', blurb: 'Stage plays and productions.' },
     ],
   },
+  // ---- Not a category: an index of content attached to records everywhere else ----
+  {
+    slug: 'media',
+    title: 'Media library',
+    kind: 'library',
+    description: 'Every advertisement, video, recording, document, image and archival holding attached to a record on this site, in one place.',
+    intro: [
+      'Advertisements, documents, archival holdings, videos, recordings and images are not categories of their own: each one belongs to the record it is about, and appears on that record\'s page. A commercial appears on the series or product it promotes, a sponsor\'s billboard on the season it sponsored, a script collection on the organization that holds it and the person who wrote it.',
+      'This library gathers all of them so they can be browsed by type. Most are links to where the rights holder or an archive hosts them; public-domain items may be kept here. Nothing copyrighted is re-hosted.',
+    ],
+    connection: 'Each item is attached to a record elsewhere on the site, which explains its connection to the show.',
+    subs: [
+      { slug: 'ads', title: 'Advertisements', blurb: 'Commercials, promos, trailers, print ads and sponsor material, each attached to what it promoted.' },
+      { slug: 'audio', title: 'Audio', blurb: 'Radio, interviews and recordings.' },
+      { slug: 'documents', title: 'Documents', blurb: 'Scripts, letters, articles and transcripts.' },
+      { slug: 'holdings', title: 'Archival holdings', blurb: 'Collections of scripts, papers and recordings, attached to the organization that holds them and the people they document.' },
+      { slug: 'images', title: 'Images', blurb: 'Photographs, posters and artwork.' },
+      { slug: 'links', title: 'Links', blurb: 'Web pages and other resources.' },
+      { slug: 'video', title: 'Video', blurb: 'Clips, interviews, promos, trailers and full programs.' },
+    ],
+  },
 ];
+
 
 // ---------------------------------------------------------------------------
 
@@ -420,9 +373,15 @@ export function sortKey(title) {
 }
 
 export const CATEGORY = Object.fromEntries(TAXONOMY.map((c) => [c.slug, c]));
+const byTitle = (a, b) => sortKey(a.title).localeCompare(sortKey(b.title));
+/** People, Places, Organizations, in that order. */
+export const SECTIONS = TAXONOMY.filter((c) => c.kind === 'section');
+/** Categories A-Z, as shown in navigation. */
+export const CATEGORIES_AZ = TAXONOMY.filter((c) => !c.kind || c.kind === 'category').sort(byTitle);
+export const LIBRARY = TAXONOMY.filter((c) => c.kind === 'library');
 
-/** Categories in A-Z order (as shown in navigation). */
-export const CATEGORIES_AZ = [...TAXONOMY].sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title)));
+export const OFFICIAL_LABEL = 'Official';
+export const UNOFFICIAL_LABEL = 'Unofficial and inspired';
 
 export function subTitleFromSlug(slug) {
   const s = slug.replace(/-/g, ' ');
@@ -430,7 +389,6 @@ export function subTitleFromSlug(slug) {
 }
 
 const lc = (v) => String(v ?? '').toLowerCase();
-const has = (arr, re) => (arr ?? []).some((x) => re.test(lc(x)));
 const isSerlingName = (n) => /rod serling/i.test(String(n ?? ''));
 
 const SERIES_LABEL = { 1959: 'The Twilight Zone (1959-1964)', 1985: 'The Twilight Zone (1985-1989)', 2002: 'The Twilight Zone (2002-2003)', 2019: 'The Twilight Zone (2019-2020)' };
@@ -452,9 +410,88 @@ const BOOK_GROUP = {
   novelization: 'Novelizations', biography: 'Biography and memoir', memoir: 'Biography and memoir', juvenile: 'Young readers', 'puzzle-trivia': 'Art and puzzle books',
   'art-book': 'Art and puzzle books', 'graphic-novel': 'Graphic novels', play: 'Scripts and teleplays', other: 'Other books',
 };
+const LEGAL_GROUP = (st) => (/trial|investigation|safety|child|regulat/.test(st) ? 'The 1982 accident and trial'
+  : /censor|sponsor/.test(st) ? 'Censorship'
+  : /suit|plagiar|dispute|credit/.test(st) ? 'Lawsuits and credit disputes'
+  : 'Rights and ownership');
+const LANGUAGE_GROUP = (st) => (/theme|sound/.test(st) ? 'The theme as shorthand'
+  : /dictionar|ranking/.test(st) ? 'Dictionaries and rankings'
+  : /public|politic/.test(st) ? 'Public uses'
+  : 'Catchphrases and idioms');
 
 /**
- * Where a record belongs. Returns [{ cat, sub, group? }]. `ctx` carries cross-collection facts:
+ * Old "category/subcategory" slugs, from before Adam's category-versus-content rule (2026-11-20), and
+ * where they go now. A function returns the placement; 'content' means the record is content on
+ * other records rather than a category entry.
+ */
+const ALIASES = {
+  'advertising/*': 'content',
+  'archives/*': 'content',
+  'quotes/*': 'content',
+  'community/fan-communities': ['organizations', 'fan-groups'],
+  'community/organizations': ['organizations', 'foundations-societies'],
+  'community/websites-databases': ['reading', 'websites'],
+  'cultural-impact/catchphrases': ['homages', 'in-everyday-language', 'Catchphrases and idioms'],
+  'cultural-impact/theme-shorthand': ['homages', 'in-everyday-language', 'The theme as shorthand'],
+  'cultural-impact/public-uses': ['homages', 'in-everyday-language', 'Public uses'],
+  'cultural-impact/dictionary-rankings': ['homages', 'in-everyday-language', 'Dictionaries and rankings'],
+  'legal-history/trials': ['events', 'legal', 'The 1982 accident and trial'],
+  'legal-history/accident-trial': ['events', 'legal', 'The 1982 accident and trial'],
+  'legal-history/lawsuits': ['events', 'legal', 'Lawsuits and credit disputes'],
+  'legal-history/censorship': ['events', 'legal', 'Censorship'],
+  'legal-history/rights-ownership': ['events', 'legal', 'Rights and ownership'],
+  'props-collecting/props-costumes': ['artwork', 'props-costumes'],
+  'props-collecting/auctions': ['artwork', 'props-costumes', 'Sold at auction'],
+  'props-collecting/museum-holdings': ['artwork', 'props-costumes', 'In museums'],
+  'props-collecting/replicas': ['merchandise', 'replicas'],
+  'merchandise/prop-replicas': ['merchandise', 'replicas'],
+  'artwork/comic-and-magazine-covers': ['artwork', 'covers'],
+  'artwork/makeup-and-production-design': ['artwork', 'production-design'],
+  'artwork/exhibitions': ['events', 'exhibitions', 'Art exhibitions'],
+};
+function alias(cat, sub) {
+  const a = ALIASES[`${cat}/${sub}`] ?? ALIASES[`${cat}/*`];
+  if (!a) return { cat, sub };
+  if (a === 'content') return { content: true };
+  return { cat: a[0], sub: a[1], group: a[2] };
+}
+
+/**
+ * Content: a record that belongs on other records' pages instead of in a category.
+ * Returns { kind, label, library? } or null. `library` is the Media library subcategory that lists it.
+ */
+export function contentOf(col, d) {
+  if (col === 'quotes') return { kind: 'quote', label: 'Quote' };
+  if (col === 'archives') return { kind: 'holding', label: 'Archival holding', library: 'holdings' };
+  if ((col === 'works' && d.kind === 'advertisement') || (col === 'films' && d.kind === 'commercial')) return { kind: 'ad', label: 'Advertisement', library: 'ads' };
+  // A page about a record elsewhere (a database entry, an official or streaming page, an archive's or
+  // foundation's site) is a link on that record, not a website in its own right.
+  if (col === 'works' && d.kind === 'link' && /^(database|official|streaming|archive|foundation|museum)$/.test(lc(d.subtype))) return { kind: 'link', label: 'Link', library: 'links' };
+  for (const s of d.categories ?? []) {
+    const [cat] = s.split('/');
+    if (cat === 'advertising') return { kind: 'ad', label: 'Advertisement', library: 'ads' };
+    if (cat === 'archives') return { kind: 'holding', label: 'Archival holding', library: 'holdings' };
+  }
+  return null;
+}
+
+/**
+ * What a content record is attached to, as references or names for the catalogue to resolve:
+ * `content_of` refs ("series/1959", "people/rod-serling", "organizations/cbs", "films/<id>", an episode id),
+ * then `details.relates_to` names, a quote's person and episodes, an archive's institution.
+ */
+export function contentParents(col, d) {
+  const out = [...(d.content_of ?? [])];
+  for (const t of d.details?.relates_to ?? []) out.push(String(t));
+  if (col === 'quotes') { if (d.person) out.push(`person:${d.person}`); for (const e of d.episodes ?? []) out.push(e); }
+  if (col === 'archives' && d.institution) out.push(`org:${d.institution}`);
+  for (const o of d.organizations ?? []) out.push(`org:${o}`);
+  return [...new Set(out)];
+}
+
+/**
+ * Where a record belongs. Returns [{ cat, sub, group? }]; empty for content (see contentOf).
+ * `ctx` carries cross-collection facts:
  *   assessSub(key) -> the review assessment's subcategory label, if any
  *   connKinds(key) -> connection kinds where this record is the `from` end
  */
@@ -465,6 +502,13 @@ export function place(col, id, d, ctx = {}) {
   const asub = ctx.assessSub?.(`${col}/${id}`);
   const tags = d.tags ?? [];
   const subtype = lc(d.subtype);
+  const content = contentOf(col, d);
+  if (content) {
+    if (content.library) add('media', content.library, content.kind === 'holding' ? d.institution?.split(/,| \/ |\(/)[0].trim() : content.kind === 'ad' ? ad_group(subtype, d) : 'Pages about records on this site');
+    // Artwork is both a category and content: a poster is listed under Artwork as well.
+    if (content.kind === 'ad' && /poster|one-sheet|key-art/.test(subtype)) add('artwork', 'posters-key-art');
+    return out;
+  }
 
   switch (col) {
     case 'series':
@@ -490,7 +534,6 @@ export function place(col, id, d, ctx = {}) {
         else add('homages', 'in-other-shows', { 'tv-episode': 'Episodes', 'tv-segment': 'Segments', sketch: 'Sketches', 'web-series': 'Web series' }[k]);
         break;
       }
-      if (k === 'commercial') { add('advertising', 'commercials'); break; }
       if (k === 'stage') { add('stage', 'theatre'); break; }
       if (id === 'night-gallery-pilot') { add('movies', 'rod-serling-films', 'Night Gallery'); break; }
       if (asub === 'Twilight Zone productions') add('movies', 'twilight-zone-films');
@@ -533,9 +576,6 @@ export function place(col, id, d, ctx = {}) {
       else add('reading', 'essays', { 'journal-article': 'Journal articles', 'book-chapter': 'Book chapters', essay: 'Essays', 'academic-thesis': 'Theses and dissertations' }[k] ?? 'Essays');
       break;
     }
-    case 'archives':
-      add('archives', 'collections', d.institution);
-      break;
     case 'radio':
       if (d.series_title === 'The Twilight Zone Radio Dramas') add('episodes', 'radio', 'The Twilight Zone Radio Dramas');
       else add('episodes', 'radio', "Rod Serling's radio work");
@@ -544,9 +584,6 @@ export function place(col, id, d, ctx = {}) {
       if (asub === 'Single episodes of other podcasts') add('episodes', 'podcast');
       else add('series', 'podcast', d.status === 'active' ? 'Active' : d.status === 'ended' ? 'Ended' : undefined);
       break;
-    case 'quotes':
-      add('quotes', isSerlingName(d.person) ? 'rod-serling' : 'admirers');
-      break;
     case 'characters':
       add('people', 'characters', { human: 'People', alien: 'Aliens', robot: 'Robots and machines', supernatural: 'Supernatural beings', animal: 'Animals', object: 'Objects' }[d.kind] ?? undefined);
       break;
@@ -554,7 +591,9 @@ export function place(col, id, d, ctx = {}) {
       if (d.kind === 'in-story') add('places', 'in-story');
       else add('places', 'real-life', LOC_GROUP[d.kind] ?? 'Other places');
       if (d.kind === 'attraction') add('stage', 'attractions', 'Places');
-      if (d.kind === 'archive') add('archives', 'collections', 'Places');
+      break;
+    case 'organizations':
+      add('organizations', ORG_SUB[d.kind] ?? 'other-organizations');
       break;
     case 'works':
       placeWork(d, subtype, add);
@@ -564,6 +603,26 @@ export function place(col, id, d, ctx = {}) {
   }
   return out;
 }
+
+function ad_group(st, d) {
+  if (/sponsor|billboard/.test(st) || /sponsor/i.test(d.title ?? '')) return 'Sponsors and sponsor material';
+  if (/trailer|promo|sales-pitch/.test(st)) return 'Promos, trailers and sales films';
+  if (/print|vintage|poster|magazine|newspaper/.test(st)) return 'Print advertising and posters';
+  if (/psa/.test(st)) return 'Public service announcements';
+  if (/licens/.test(st)) return 'Licensing offers';
+  return 'Commercials';
+}
+
+/** organizations.kind -> subcategory */
+export const ORG_KINDS = ['network', 'studio', 'streamer', 'production-company', 'publisher', 'licensee', 'record-label', 'game-company', 'toy-company', 'home-video', 'sponsor', 'advertiser', 'archive', 'library', 'museum', 'foundation', 'society', 'award-body', 'school', 'fan-group', 'website', 'auction-house', 'other'];
+const ORG_SUB = {
+  network: 'networks-studios', studio: 'networks-studios', streamer: 'networks-studios', 'production-company': 'production-companies',
+  publisher: 'publishers', licensee: 'licensees', 'record-label': 'licensees', 'game-company': 'licensees', 'toy-company': 'licensees', 'home-video': 'licensees',
+  sponsor: 'sponsors', advertiser: 'sponsors', archive: 'archives-libraries', library: 'archives-libraries', museum: 'museums',
+  foundation: 'foundations-societies', society: 'foundations-societies', 'award-body': 'award-bodies', school: 'schools', 'fan-group': 'fan-groups',
+  website: 'other-organizations', 'auction-house': 'other-organizations', other: 'other-organizations',
+};
+export const orgSub = (kind) => ORG_SUB[kind] ?? 'other-organizations';
 
 function placeWork(d, st, add) {
   const k = d.kind;
@@ -580,12 +639,12 @@ function placeWork(d, st, add) {
       else add('games', 'other-games');
       return;
     case 'collectible':
-      if (/trading-card|card/.test(st)) add('merchandise', 'trading-cards');
+      if (/replica-prop|replica/.test(st)) add('merchandise', 'replicas');
+      else if (/trading-card|card/.test(st)) add('merchandise', 'trading-cards');
       else if (/figure|bobblehead|doll|toy/.test(st)) add('merchandise', 'toys-figures');
       else if (/home-goods|apparel|shirt|mug/.test(st)) add('merchandise', 'household-apparel');
       else if (/home-video|dvd|blu/.test(st)) add('merchandise', 'home-media');
       else add('merchandise', 'collectibles');
-      if (/replica-prop/.test(st)) add('props-collecting', 'replicas');
       return;
     case 'home-media':
       add('merchandise', 'home-media', 'Releases');
@@ -593,6 +652,9 @@ function placeWork(d, st, add) {
     case 'artwork':
       if (/poster|key-art|print/.test(st)) add('artwork', 'posters-key-art');
       else if (/title/.test(st)) add('artwork', 'title-design');
+      else if (/cover/.test(st)) add('artwork', 'covers');
+      else if (/night-gallery|painting/.test(st) && /night gallery/i.test(d.title + ' ' + (d.description ?? ''))) add('artwork', 'night-gallery-paintings');
+      else if (/make-?up|mask|design|effects/.test(st)) add('artwork', 'production-design');
       else if (st) add('artwork', 'art-illustration');
       else add('artwork', 'other-artwork');
       return;
@@ -611,11 +673,10 @@ function placeWork(d, st, add) {
       else if (/premiere/.test(st)) add('events', 'premieres');
       else if (/exhibit/.test(st)) add('events', 'exhibitions');
       else if (/convention/.test(st)) add('events', 'conventions');
-      else if (/trial/.test(st)) add('legal-history', 'trials');
-      else if (/lawsuit|suit/.test(st)) add('legal-history', 'lawsuits');
+      else if (/trial|lawsuit|suit/.test(st)) add('events', 'legal', LEGAL_GROUP(st));
       else if (/production|accident/.test(st)) add('events', 'production-history');
       else add('events', 'other-events');
-      if (/accident/.test(lc(d.title)) && !/trial/.test(st)) add('legal-history', 'trials', 'Background');
+      if (/accident/.test(lc(d.title)) && !/trial/.test(st)) add('events', 'legal', 'The 1982 accident and trial');
       return;
     case 'convention':
       add('events', 'conventions');
@@ -631,13 +692,15 @@ function placeWork(d, st, add) {
       add('series', 'tv', 'Other television');
       return;
     case 'link':
-      if (/fan|community|subreddit|wiki|forum/.test(st)) add('community', 'fan-communities');
-      else if (/foundation|society|museum/.test(st)) add('community', 'organizations');
-      else if (/archive/.test(st)) add('archives', 'collections', 'Online archives');
-      else add('community', 'websites-databases', { database: 'Databases', reference: 'Reference sites', official: 'Official sites', streaming: 'Streaming', academic: 'Academic' }[st]);
+      if (/fan-site|fan site/.test(st)) add('reading', 'websites', 'Fan sites');
+      else if (/fan|community|subreddit|wiki|forum/.test(st)) add('organizations', 'fan-groups');
+      else if (/foundation|society/.test(st)) add('organizations', 'foundations-societies');
+      else if (/museum/.test(st)) add('organizations', 'museums');
+      else if (/archive/.test(st)) add('organizations', 'archives-libraries', 'Online archives');
+      else add('reading', 'websites', { database: 'Databases', reference: 'Reference sites', official: 'Official sites', streaming: 'Streaming', academic: 'Academic' }[st]);
       return;
     case 'fan-community':
-      add('community', 'fan-communities');
+      add('organizations', 'fan-groups', /contest/.test(st) ? 'Contests' : undefined);
       return;
     case 'education':
       add('lectures', 'classroom');
@@ -646,37 +709,25 @@ function placeWork(d, st, add) {
       if (/panel|reading/.test(st)) add('lectures', 'readings-panels');
       else add('lectures', isSerling ? 'serling-lectures' : 'academic');
       return;
-    case 'advertisement':
-      if (/print|magazine|newspaper/.test(st)) add('advertising', 'print-ads');
-      else if (/promo|trailer/.test(st)) add('advertising', 'promos-trailers');
-      else if (/sponsor/.test(st)) add('advertising', 'sponsors');
-      else add('advertising', 'commercials');
-      return;
     case 'legal':
-      if (/trial/.test(st)) add('legal-history', 'trials');
-      else if (/suit|plagiar|dispute/.test(st)) add('legal-history', 'lawsuits');
-      else if (/censor/.test(st)) add('legal-history', 'censorship');
-      else add('legal-history', 'rights-ownership');
+      add('events', 'legal', LEGAL_GROUP(st));
       return;
     case 'cultural-impact':
-      if (/theme/.test(st)) add('cultural-impact', 'theme-shorthand');
-      else if (/dictionar|ranking/.test(st)) add('cultural-impact', 'dictionary-rankings');
-      else if (/public|politic/.test(st)) add('cultural-impact', 'public-uses');
-      else add('cultural-impact', 'catchphrases');
+      if (/parody/.test(st)) add('homages', 'parodies');
+      else add('homages', 'in-everyday-language', LANGUAGE_GROUP(st));
       return;
     case 'prop':
-      if (/auction/.test(st)) add('props-collecting', 'auctions');
-      else if (/museum/.test(st)) add('props-collecting', 'museum-holdings');
-      else if (/replica/.test(st)) add('props-collecting', 'replicas');
-      else add('props-collecting', 'props-costumes');
+      if (/collector/.test(st)) add('organizations', 'fan-groups', 'Collectors');
+      else if (/make-?up/.test(st)) add('artwork', 'production-design');
+      else add('artwork', 'props-costumes', /auction/.test(st) ? 'Sold at auction' : /museum|collection/.test(st) ? 'In museums and collections' : /reuse/.test(st) ? 'Reused props' : undefined);
       return;
     case 'production':
       add('events', 'production-history');
       return;
     default: // other
       if (/audiobook/.test(st)) add('reading', 'books', 'Audiobooks');
-      else if (/language|idiom|phrase/.test(st)) add('cultural-impact', 'catchphrases');
-      else if (/prop|costume/.test(st)) add('props-collecting', 'props-costumes');
+      else if (/language|idiom|phrase/.test(st)) add('homages', 'in-everyday-language', 'Catchphrases and idioms');
+      else if (/prop|costume/.test(st)) add('artwork', 'props-costumes');
       else if (/dub|international/.test(st)) add('series', 'international');
       else if (/franchise/.test(st)) add('movies', 'rod-serling-films', 'Franchises');
       else add('merchandise', 'other-merchandise');
@@ -698,6 +749,7 @@ export function placePerson({ roles = [], creditRoles = [], quoted = false, play
   if (any(/composer|theme music|music|musician|conductor/)) out.add('composers');
   if (r.some((x) => /cinematograph|editor|make-?up|effects|crew|art director|designer|artist|costume|photograph|casting/.test(x)) && !r.some((x) => /story editor/.test(x) && r.length === 1)) out.add('crew');
   if (r.some((x) => /story editor/.test(x))) out.add('writers');
+  if (c.some((x) => /comics artist|cover artist|inker|colorist/.test(x)) || r.some((x) => /illustrat|painter|comic artist|cover artist/.test(x))) out.add('artists');
   if (r.some((x) => /historian|scholar|biographer|critic|teacher|professor|archivist/.test(x))) out.add('scholars-historians');
   if (r.some((x) => /family|wife|daughter|son|brother|widow/.test(x))) out.add('family');
   if (r.some((x) => /inspired/.test(x))) out.add('inspired-creators');
@@ -707,16 +759,78 @@ export function placePerson({ roles = [], creditRoles = [], quoted = false, play
   return [...out];
 }
 
-/** The `categories[]` field: explicit "cat/sub" placements. */
+/** The `categories[]` field: explicit "cat/sub" placements, with old slugs mapped to the current structure. */
 export function explicitPlacements(d) {
-  return (d.categories ?? []).map((s) => {
+  const out = [];
+  for (const s of d.categories ?? []) {
     const [cat, sub] = s.split('/');
-    return { cat, sub, explicit: true };
-  });
+    const a = alias(cat, sub);
+    if (a.content) continue;
+    out.push({ cat: a.cat, sub: a.sub, group: a.group, explicit: true });
+  }
+  return out;
+}
+
+// ---- Official versus unofficial -----------------------------------------------------------
+// Official: made, broadcast, licensed or published by the franchise's makers and rights holders, or by
+// Rod Serling himself (Night Gallery, his films, lectures and writing). Unofficial and inspired: everything
+// made by others about, after or in the spirit of the show. A record's own `official: true|false` wins.
+
+const UNOFF_RE = /\b(unlicensed|unofficial|unauthori[sz]ed|fan[- ]made|fan art|fan film|bootleg|knock-?off|not (officially )?licensed|without (a )?licen[cs]e)/;
+const OFF_RE = /\b(officially licensed|licensed|authori[sz]ed)\b|\bofficial (tie-in|release|companion|magazine|novel|novelization|soundtrack|score|album|merchandise|product|adaptation|game|replica|figure|trading cards?|poster|key art|trailer|site|page|channel|book|encyclopedia|biography)/;
+const OFFICIAL_PUBLISHER = /gold key|western publishing|whitman|dell|now comics|dynamite|idw|walker|bloomsbury|cayuga|world distributors|novaro|tz publications|montcalm|gauntlet|falcon|cbs|bif bang pow|rittenhouse|image entertainment|varèse|varese|sideshow|bally|midway|williams|stern|zen studios|funko|trick or treat|universal television|disney/;
+
+/** Is this placement of a record official? true, false, or undefined where the split does not apply. */
+export function isOfficial(col, d, p, ctx = {}) {
+  if (typeof d.official === 'boolean') return d.official;
+  const cat = CATEGORY[p.cat];
+  if (!cat?.split && p.cat !== 'organizations') return undefined;
+  const sub = cat?.subs.find((s) => s.slug === p.sub);
+  if (sub?.side) return sub.side === 'official';
+  const text = lc([d.title, d.name, d.description, d.summary, d.notes, d.details?.why_it_matters, ctx.why, (d.tags ?? []).join(' ')].filter(Boolean).join(' '));
+  const unoff = UNOFF_RE.test(text) || (d.tags ?? []).some((t) => /unlicensed|unofficial|fan/.test(lc(t)));
+  const off = !unoff && OFF_RE.test(text);
+  const serling = (d.authors ?? []).some(isSerlingName) || isSerlingName(d.creator) || (d.writers ?? []).some?.(isSerlingName);
+  const pub = lc(d.publisher);
+  switch (`${p.cat}/${p.sub}`) {
+    case 'series/tv': return !/fellow anthology|other series linked|other television/i.test(p.group ?? '');
+    case 'series/radio': case 'series/international': case 'episodes/tv': case 'episodes/radio':
+    case 'episodes/radio-original-stories': case 'episodes/radio-unmade-tv-scripts':
+      return p.group ? !/^(Episodes|Segments|Sketches|Web series)$/.test(p.group) : true;
+    case 'movies/twilight-zone-films': case 'movies/rod-serling-films': case 'movies/unmade-projects': return !unoff;
+    case 'music/theme': case 'music/soundtracks': case 'music/composers': return !unoff;
+    case 'reading/comics': return !unoff && (OFFICIAL_PUBLISHER.test(pub) || off);
+    case 'reading/magazines': return !unoff && (/twilight zone magazine|night cry/i.test(d.magazine ?? '') || /tz publications|montcalm/.test(pub));
+    case 'reading/scripts': case 'reading/serling-own-writing': return !unoff;
+    case 'reading/websites': return p.group === 'Official sites';
+    case 'reading/books': case 'reading/foreign-language':
+      return !unoff && (serling || ['scripts', 'novelization', 'play'].includes(d.kind) || /gauntlet|cbs/.test(pub) || off);
+    case 'artwork/art-illustration': return off;
+    case 'homages/adaptations-remakes': return d.kind === 'official-adaptation' || off;
+    case 'lectures/serling-lectures': return true;
+    case 'events/premieres': case 'events/production-history': case 'events/honors-awards': case 'events/serling-life':
+    case 'events/legal': case 'events/broadcasts-marathons': return true;
+    case 'stage/attractions': return !unoff && (off || /disney/.test(text));
+    default: break;
+  }
+  if (p.cat === 'homages') return false;
+  if (p.cat === 'merchandise' || p.cat === 'artwork') return !unoff;
+  if (p.cat === 'organizations') return undefined; // decided from what each organization made (catalog)
+  if (serling && (p.cat === 'reading' || p.cat === 'lectures')) return true;
+  return off;
 }
 
 const MEDIA_SUB = { video: 'video', audio: 'audio', document: 'documents', transcript: 'documents', article: 'documents', interview: 'video', image: 'images', ad: 'ads', website: 'links', link: 'links' };
 export function mediaSub(m) {
   if (m.type === 'interview') return /audio|podcast|radio/.test(lc(m.subtype) + lc(m.host)) ? 'audio' : 'video';
   return MEDIA_SUB[m.type] ?? 'links';
+}
+/** Is a media item artwork (cover art, a poster, key art, an illustration)? Returns the artwork subcategory. */
+export function mediaArtwork(m) {
+  if (m.type !== 'image') return undefined;
+  const st = lc(m.subtype);
+  if (/cover/.test(st)) return 'covers';
+  if (/poster|key-art|one-sheet/.test(st)) return 'posters-key-art';
+  if (/painting|illustration|artwork|art/.test(st)) return 'art-illustration';
+  return undefined;
 }

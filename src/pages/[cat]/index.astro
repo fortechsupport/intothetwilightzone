@@ -15,11 +15,16 @@ const subs = c.subs.filter((s) => s.entries.length > 0);
 const empty = c.subs.filter((s) => s.entries.length === 0);
 const total = countOf(c);
 const PREVIEW = 8;
+const canSplit = c.split || c.slug === 'organizations';
+const offN = (list: { official?: boolean }[]) => list.filter((e) => e.official === true).length;
+const allEntries = [...new Map(c.subs.flatMap((s) => s.entries.map((e) => [e.key, e]))).values()];
+const totalOff = offN(allEntries);
+const kindLabel = c.kind === 'section' ? 'Section' : c.kind === 'library' ? 'Library' : 'Category';
 ---
 <Base title={c.title} description={c.description}>
   <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/categories/">All categories</a></p>
   <h1>{c.title} {c.isNew && <span class="tag new" title="Added during research; Adam decides whether to keep it">new</span>}</h1>
-  <p class="lead">{total.toLocaleString('en-US')} {total === 1 ? 'entry' : 'entries'} in {subs.length} {subs.length === 1 ? 'subcategory' : 'subcategories'}.</p>
+  <p class="lead">{kindLabel}: {total.toLocaleString('en-US')} {total === 1 ? 'entry' : 'entries'} in {subs.length} {subs.length === 1 ? 'subcategory' : 'subcategories'}{canSplit && totalOff > 0 && totalOff < total && `, ${totalOff.toLocaleString('en-US')} official and ${(total - totalOff).toLocaleString('en-US')} unofficial or inspired`}.</p>
   {c.intro.map((p) => <p set:html={p} />)}
   <aside class="tz-link">
     <h2>How this connects to The Twilight Zone</h2>
@@ -33,6 +38,7 @@ const PREVIEW = 8;
         <span class="count">{s.entries.length.toLocaleString('en-US')}</span>
         <h3>{s.title} {s.isNew && <span class="tag new">new</span>}</h3>
         <p>{s.blurb}</p>
+        {canSplit && (() => { const o = offN(s.entries); const u = s.entries.length - o; return <p class="small muted">{o > 0 && u > 0 ? `${o} official · ${u} unofficial` : o > 0 ? 'All official' : 'Unofficial and inspired'}</p>; })()}
       </a>
     ))}
   </div>

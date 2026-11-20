@@ -1,0 +1,13 @@
+name: Now Comics
+aka:
+- NOW Comics
+kind: publisher
+description: Published a licensed Twilight Zone comic series in the early 1990s.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: Now Comics'
+  url: https://en.wikipedia.org/wiki/Now_Comics
+research_confidence: medium
+tags:
+- seed-record

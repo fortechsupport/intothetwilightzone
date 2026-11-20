@@ -133,6 +133,13 @@ export async function allPeople(): Promise<Map<string, Person>> {
     (r.data.adapted_by ?? '').split(/,\s*/).forEach((n) => add(n, { ...base, role: 'Radio adaptation' }));
     r.data.voiced_by.forEach((n) => add(n, { ...base, role: 'Radio cast' }));
   }
+  for (const c of await getCollection('comics')) {
+    const base = { title: c.data.title, url: `/comics/${c.id}/`, date: c.data.cover_date, detail: c.data.publisher };
+    for (const raw of c.data.creators ?? []) {
+      const { name, roles } = splitCredit(raw);
+      for (const r of roles.length ? roles : ['creator']) add(name, { ...base, role: COMIC_ROLE[r] ?? 'Comics creator' });
+    }
+  }
   for (const p of await getCollection('people')) {
     const slug = p.id;
     if (!map.has(slug)) map.set(slug, { slug, name: p.data.name, credits: [] });
@@ -151,6 +158,14 @@ export async function allPeople(): Promise<Map<string, Person>> {
   return map;
 }
 
+/** "George Wilson (cover)" -> { name: "George Wilson", roles: ["cover"] }. */
+export function splitCredit(raw: string): { name: string; roles: string[] } {
+  const m = String(raw).trim().match(/^(.*?)\s*\(([^)]*)\)\s*$/);
+  if (!m) return { name: String(raw).trim(), roles: [] };
+  return { name: m[1].trim(), roles: m[2].split(/\s*,\s*/).map((r) => r.toLowerCase()).filter(Boolean) };
+}
+export const COMIC_ROLE: Record<string, string> = { writer: 'Comics writer', artist: 'Comics artist', cover: 'Cover artist', inker: 'Inker', editor: 'Editor', colorist: 'Colorist', creator: 'Comics creator' };
+
 export function personUrl(name: string) {
-  return `/people/${slugify(name)}/`;
+  return `/people/${slugify(splitCredit(name).name)}/`;
 }

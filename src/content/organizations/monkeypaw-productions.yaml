@@ -1,0 +1,13 @@
+name: Monkeypaw Productions
+aka:
+- Monkeypaw
+kind: production-company
+description: Jordan Peele's production company, one of the producers of the 2019 revival.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: Monkeypaw Productions'
+  url: https://en.wikipedia.org/wiki/Monkeypaw_Productions
+research_confidence: medium
+tags:
+- seed-record

@@ -43,6 +43,9 @@ const mediaItem = z.preprocess((raw) => {
   rights: z.enum(['public-domain', 'cc', 'licensed', 'link-only', 'unknown']).default('link-only'),
   file: z.string().optional(),
   duration: z.string().optional(),
+  // Who made it: the cover artist, photographer, poster designer or speaker. An image with a subtype
+  // of cover-art, poster, key-art or illustration is also listed under Artwork.
+  creator: z.string().optional(),
   note: z.string().max(400).optional(),
 }));
 const media = z.array(mediaItem).default([]);
@@ -68,6 +71,17 @@ const common = {
   categories: z.array(z.string().regex(/^[a-z0-9-]+\/[a-z0-9-]+$/)).default([]),
   // Legitimately hosted media about the record: videos, audio, documents, ads, images, links.
   media,
+  // Official (made, broadcast, licensed or published by the franchise's makers or by Rod Serling) or
+  // unofficial (made by others about, after or inspired by the show). Leave unset to use the rules in
+  // src/lib/taxonomy.mjs isOfficial().
+  official: z.boolean().optional(),
+  // Organizations involved, by name (sponsor, publisher, maker, holder). Each name gets an
+  // organization page; an organizations/<id> record with that name or aka adds its details.
+  organizations: z.array(z.string()).default([]),
+  // For content records (advertisements, archival holdings, quotes, documents): the records it belongs
+  // on, as refs: "series/1959", an episode id "1959/<slug>", "films/<id>", "people/<slug>",
+  // "organizations/<id>", "works/<id>"... It is shown on each of those pages.
+  content_of: z.array(z.string()).default([]),
 };
 // Every collection loads through the review filter: a build only keeps the records its
 // REVIEW_MODE allows (see src/lib/review.ts), so pages never need to check review status.
@@ -412,6 +426,26 @@ const archives = defineCollection({
   }),
 });
 
+// Organizations: networks, studios, production companies, publishers, licensees, sponsors, archives,
+// museums, foundations, award bodies, schools and fan groups. Records named in other records'
+// publisher, institution, network or organizations fields get a page even without a record here;
+// a record adds the description, kind and links, and its `aka` folds variant names together.
+const organizations = defineCollection({
+  loader: yaml('organizations'),
+  schema: z.object({
+    name: z.string(),
+    aka: names,
+    kind: z.enum(['network', 'studio', 'streamer', 'production-company', 'publisher', 'licensee', 'record-label', 'game-company', 'toy-company', 'home-video', 'sponsor', 'advertiser', 'archive', 'library', 'museum', 'foundation', 'society', 'award-body', 'school', 'fan-group', 'website', 'auction-house', 'other']),
+    founded: z.string().optional(),
+    ended: z.string().optional(),
+    location: z.string().optional(),
+    website: z.string().url().optional(),
+    description: z.string().optional(),
+    parent: z.string().optional(), // another organization's name, e.g. Western Publishing for Gold Key
+    ...common,
+  }),
+});
+
 // Characters from the stories: Talky Tina, the Kanamits, Henry Bemis.
 const characters = defineCollection({
   loader: yaml('characters'),
@@ -429,6 +463,7 @@ const characters = defineCollection({
 
 export const collections = {
   characters,
+  organizations,
   essays,
   archives,
   works,

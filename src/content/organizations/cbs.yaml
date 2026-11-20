@@ -1,0 +1,21 @@
+name: CBS
+aka:
+- CBS Television Network
+- CBS Television
+- CBS Studios
+- CBS Inc.
+- Columbia Broadcasting System
+- CBS, then first-run syndication
+kind: network
+description: The network that broadcast the original series from 1959 to 1964 and the first revival from 1985. It
+  made the original series with Rod Serling's Cayuga Productions, and its studio arm owns the franchise today.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: CBS'
+  url: https://en.wikipedia.org/wiki/CBS
+- title: 'Wikipedia: The Twilight Zone (1959 TV series)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+research_confidence: medium
+tags:
+- seed-record

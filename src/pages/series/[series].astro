@@ -97,5 +97,5 @@ const jsonld = {
       set(location.hash.startsWith('#season-') ? 'air' : 'az');
     })();
   </script>
-  <Media media={s.data.media} />
+  <Media media={s.data.media} recKey={`series/${s.id}`} />
 </Base>

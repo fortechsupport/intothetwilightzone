@@ -53,6 +53,6 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'CreativeWork', name
       </p>
     </section>
   )}
-  <Media media={d.media} />
+  <Media media={d.media} recKey={`works/${w.id}`} />
   <Sources sources={d.sources} verified={d.last_verified} />
 </Base>

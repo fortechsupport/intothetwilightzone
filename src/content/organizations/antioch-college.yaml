@@ -1,0 +1,11 @@
+name: Antioch College
+kind: school
+description: Rod Serling's college in Yellow Springs, Ohio, where he began writing for radio. He graduated in 1950.
+official: false
+relevance: related
+sources:
+- title: 'Wikipedia: Antioch College'
+  url: https://en.wikipedia.org/wiki/Antioch_College
+research_confidence: medium
+tags:
+- seed-record

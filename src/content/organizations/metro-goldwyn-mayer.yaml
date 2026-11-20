@@ -1,0 +1,16 @@
+name: Metro-Goldwyn-Mayer
+aka:
+- MGM
+- MGM Studios
+kind: studio
+description: Most of the original series was filmed on MGM's Culver City soundstages and backlots.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: Metro-Goldwyn-Mayer'
+  url: https://en.wikipedia.org/wiki/Metro-Goldwyn-Mayer
+- title: 'Wikipedia: The Twilight Zone (1959 TV series)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+research_confidence: medium
+tags:
+- seed-record

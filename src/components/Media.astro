@@ -1,9 +1,20 @@
 ---
 // Media attached to a record: videos, audio, documents, ads, images and links, each with where it is
 // hosted and its rights. Public-domain files kept on this site play inline; everything else is a link.
-interface M { type: string; subtype?: string; title: string; url: string; host?: string; date?: string; rights?: string; file?: string; duration?: string; note?: string }
-interface Props { media?: M[] }
-const { media = [] } = Astro.props;
+// With `recKey`, it also lists the content records attached to this record: advertisements that promoted
+// it, archival holdings about it, and pages about it elsewhere (quotes are shown by the pages themselves).
+import { attachmentsOf } from '../lib/catalog';
+interface M { type: string; subtype?: string; title: string; url: string; host?: string; date?: string; rights?: string; file?: string; duration?: string; note?: string; creator?: string }
+interface Props { media?: M[]; recKey?: string }
+const { media = [], recKey } = Astro.props;
+const attached = recKey ? (await attachmentsOf(recKey)).filter((a) => a.kind !== 'quote') : [];
+const KIND_HEAD: Record<string, string> = { ad: 'Advertisements and sponsorship', holding: 'Archival holdings', link: 'Elsewhere on the web' };
+const attachedGroups = new Map<string, typeof attached>();
+for (const a of attached) {
+  const g = KIND_HEAD[a.kind] ?? a.label;
+  if (!attachedGroups.has(g)) attachedGroups.set(g, []);
+  attachedGroups.get(g)!.push(a);
+}
 const LABEL: Record<string, string> = { video: 'Video', audio: 'Audio', document: 'Documents', transcript: 'Documents', article: 'Articles', interview: 'Interviews', image: 'Images', ad: 'Advertisements', website: 'Links', link: 'Links' };
 const RIGHTS: Record<string, string> = { 'public-domain': 'Public domain', cc: 'Creative Commons', licensed: 'Hosted by the rights holder', 'link-only': 'Link only', unknown: 'Rights unknown' };
 const groups = new Map<string, M[]>();
@@ -25,7 +36,7 @@ const local = (m: M) => m.file && (m.rights === 'public-domain' || m.rights === 
           {list.map((m) => (
             <li>
               <a href={local(m) ?? m.url} rel="noopener">{m.title}</a>
-              <span class="muted small"> · {[m.subtype?.replace(/-/g, ' '), m.host, m.date, m.duration].filter(Boolean).join(' · ')}</span>
+              <span class="muted small"> · {[m.subtype?.replace(/-/g, ' '), m.creator, m.host, m.date, m.duration].filter(Boolean).join(' · ')}</span>
               <span class={`tag rights-${m.rights ?? 'link-only'}`}>{RIGHTS[m.rights ?? 'link-only']}</span>
               {m.note && <p class="small">{m.note}</p>}
               {local(m) && m.type === 'audio' && <audio controls preload="none" src={local(m)} />}
@@ -33,6 +44,20 @@ const local = (m: M) => m.file && (m.rights === 'public-domain' || m.rights === 
               {local(m) && m.type === 'image' && <img src={local(m)} alt={m.title} loading="lazy" />}
             </li>
           ))}
+        </ul>
+      </>
+    ))}
+  </section>
+)}
+{attached.length > 0 && (
+  <section class="attached" id="attached">
+    <h2>Related content <span class="muted small">({attached.length})</span></h2>
+    <p class="small muted">Records that belong to this one: what advertised or sponsored it, where its papers are kept, and pages about it elsewhere. Each is also in the <a href="/media/">Media library</a>.</p>
+    {[...attachedGroups.entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([g, list]) => (
+      <>
+        <h3 class="attached-kind">{g}</h3>
+        <ul class="media-list">
+          {list.map((a) => <li><a href={a.href}>{a.title}</a>{a.meta && <span class="muted small"> · {a.meta}</span>}{a.desc && <p class="small">{a.desc}</p>}</li>)}
         </ul>
       </>
     ))}

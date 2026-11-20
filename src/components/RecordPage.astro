@@ -8,7 +8,7 @@ import Media from './Media.astro';
 import Sources from './Sources.astro';
 import ExtLinks from './ExtLinks.astro';
 import { getCollection } from 'astro:content';
-import { resolveRef, formatDate, CONNECTION_LABELS, CONFIDENCE_LABELS, personUrl } from '../lib/data';
+import { resolveRef, formatDate, CONNECTION_LABELS, CONFIDENCE_LABELS, personUrl, splitCredit } from '../lib/data';
 import { assess, TIER_LABEL } from '../lib/assessments';
 
 interface Props { col: string; entry: any }
@@ -49,7 +49,7 @@ const targets = await Promise.all(conns.map(async (c) => ({ c, t: await resolveR
       {facts.map(([k, v]) => (
         <><dt>{label(k)}</dt><dd>{
           Array.isArray(v)
-            ? (v as unknown[]).map((x, i) => <>{i > 0 && ', '}{PEOPLE.has(k) && typeof x === 'string' ? <a href={personUrl(x)}>{x}</a> : String(x)}</>)
+            ? (v as unknown[]).map((x, i) => <>{i > 0 && ', '}{PEOPLE.has(k) && typeof x === 'string' ? (() => { const c = splitCredit(x); return <><a href={personUrl(c.name)}>{c.name}</a>{c.roles.length > 0 && <span class="muted"> ({c.roles.join(', ')})</span>}</>; })() : String(x)}</>)
             : PEOPLE.has(k) && typeof v === 'string' ? v.split(/,\s*/).map((x, i) => <>{i > 0 && ', '}<a href={personUrl(x)}>{x}</a></>)
             : isDate(k) ? formatDate(String(v)) : typeof v === 'boolean' ? (v ? 'Yes' : 'No') : String(v).replace(/^([a-z])/, (m) => m.toUpperCase()).replace(/-/g, ' ')
         }</dd></>
@@ -77,6 +77,6 @@ const targets = await Promise.all(conns.map(async (c) => ({ c, t: await resolveR
   )}
   {d.tags?.length > 0 && <p class="small">{d.tags.map((t: string) => <span class="tag">{t.replace(/-/g, ' ')}</span>)}</p>}
   {(d.ids || d.links || d.url) && <p class="small">{d.url && <><a href={d.url} rel="noopener">Collection page</a>{(d.ids || d.links) && ' · '}</>}<ExtLinks ids={d.ids} links={d.links} /></p>}
-  <Media media={d.media} />
+  <Media media={d.media} recKey={key} />
   <Sources sources={d.sources ?? []} verified={d.last_verified} />
 </Base>

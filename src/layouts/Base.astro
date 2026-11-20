@@ -11,8 +11,9 @@ const { title, description = 'An independent, non-commercial living history of T
 const fullTitle = title === 'Home' ? 'IntoTheTwilightZone.com' : `${title} · IntoTheTwilightZone.com`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 // Main navigation: every category A-Z in a menu (new ones flagged), then the feature pages.
-import { CATEGORIES_AZ } from '../lib/taxonomy.mjs';
+import { CATEGORIES_AZ, SECTIONS } from '../lib/taxonomy.mjs';
 const nav = [
+  ['Media library', '/media/'],
   ['Night Gallery', '/night-gallery/'],
   ['Rod Serling', '/rod-serling/'],
   ['Timeline', '/timeline/'],
@@ -49,6 +50,11 @@ const path = Astro.url.pathname;
               <details>
                 <summary>Categories</summary>
                 <ul class="menu-list">
+                  <li class="menu-head">People, places and organizations</li>
+                  {SECTIONS.map((c) => (
+                    <li><a href={`/${c.slug}/`} aria-current={path.startsWith(`/${c.slug}/`) ? 'page' : undefined}>{c.title}{c.isNew && <span class="tag new">new</span>}</a></li>
+                  ))}
+                  <li class="menu-head">Categories</li>
                   {CATEGORIES_AZ.map((c) => (
                     <li><a href={`/${c.slug}/`} aria-current={path.startsWith(`/${c.slug}/`) ? 'page' : undefined}>{c.title}{c.isNew && <span class="tag new">new</span>}</a></li>
                   ))}

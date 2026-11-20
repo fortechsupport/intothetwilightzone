@@ -134,7 +134,7 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
       {d.links?.justwatch && <li><a href={d.links.justwatch} rel="noopener">Where to watch (JustWatch)</a></li>}
     </ul>
   </section>
-  <Media media={d.media} />
+  <Media media={d.media} recKey={`episodes/${e.id}`} />
 
   <Sources sources={d.sources} verified={d.last_verified} />
 

@@ -1,0 +1,20 @@
+name: Gold Key Comics
+aka:
+- Gold Key
+- Western Publishing
+- Whitman
+- Whitman Comics
+- Gold Key (Western Publishing)
+- Whitman (Western Publishing)
+- Western Publishing (Watkins Strathmore)
+kind: publisher
+description: Western Publishing's comics imprint, which published The Twilight Zone comic for about twenty years
+  from 1962, with the last issues under its Whitman label.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: Gold Key Comics'
+  url: https://en.wikipedia.org/wiki/Gold_Key_Comics
+research_confidence: medium
+tags:
+- seed-record

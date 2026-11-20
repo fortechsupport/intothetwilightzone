@@ -1,0 +1,16 @@
+name: Liggett & Myers
+aka:
+- Chesterfield
+- Liggett & Myers Tobacco Company
+- Liggett Group
+kind: sponsor
+description: The tobacco company behind Chesterfield cigarettes, a sponsor of the original series. Rod Serling endorsed
+  Chesterfield on air.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: Liggett Group'
+  url: https://en.wikipedia.org/wiki/Liggett_Group
+research_confidence: medium
+tags:
+- seed-record

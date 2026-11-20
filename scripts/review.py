@@ -55,6 +55,7 @@ CATEGORY_LABELS = {
     "magazines": "Magazines",
     "essays": "Essays and articles",
     "archives": "Archives",
+    "organizations": "Organizations",
     "works": "Games, merchandise and other works",
 }
 KIND = ["kind", "tz_connection", "series_title", "series_name", "magazine"]
@@ -72,6 +73,7 @@ COLUMNS = [
     ("Subcategory", "subcategory", 22, False),
     ("Group", "group", 20, False),
     ("New category?", "is_new", 12, False),
+    ("Official?", "official", 12, False),
     ("Also listed in", "also_in", 30, True),
     ("Title", "title", 38, True),
     ("Connection to TZ", "connection", 62, True),
@@ -142,7 +144,7 @@ def page_url(collection: str, rid: str, d: dict) -> str:
         return f"/people/{slugify(str(d.get('name') or rid))}/"
     if collection == "connections":
         return "/homages/"
-    if collection in ("books", "comics", "magazines", "podcasts", "radio", "songs", "essays", "archives", "quotes", "characters"):
+    if collection in ("books", "comics", "magazines", "podcasts", "radio", "songs", "essays", "archives", "quotes", "characters", "organizations"):
         return f"/{collection}/{rid}/"
     return ""
 
@@ -216,6 +218,7 @@ def queue(content: Path = CONTENT) -> list[dict]:
             "subcategory": p0.get("subTitle") or a.get("subcategory", ""),
             "group": p0.get("group") or "",
             "is_new": "new" if p0.get("isNew") else "",
+            "official": {True: "official", False: "unofficial"}.get(p0.get("official"), ""),
             "also_in": "; ".join(f"{p['catTitle']}: {p['subTitle']}" for p in places[1:]),
             "title": a.get("title") or title_of(collection, rid, d),
             "sort": a.get("sort", ""),
@@ -362,7 +365,8 @@ def export(out: Path, base_url: str) -> None:
         "How to review",
         "",
         "Every row is one record. Rows are grouped by category (A to Z), then subcategory (A to Z, with catch-all and unconfirmed groups last; TV episodes by series), then sorted alphabetically by title (a leading The, A or An is ignored).",
-        "Categories follow your list (People, Places, Events, Series, Episodes, Movies, Music, Reading, Games, Artwork, Homages, Merchandise, Lectures, Reviews). New category? says new when the category or subcategory was added during research; drop any you do not want. Also listed in shows the record's other places on the site.",
+        "Categories follow your list, reorganized on your category-versus-content rule: three sections (People, Places, Organizations), then the categories (Artwork, Episodes, Events, Games, Homages, Lectures, Merchandise, Movies, Music, Reading, Reviews, Series, and the new Stage and attractions). Records whose Category says Content (shown on other records) are advertisements, archival holdings, quotes and links: they appear on the pages named in Group (On: ...) and in the Media library, not as category entries.",
+        "New category? says new when the category or subcategory was added during research; drop any you do not want. Official? says official (made, broadcast, licensed or published by the franchise or by Rod Serling) or unofficial (made by others about or inspired by the show), in the categories that split that way. Also listed in shows the record's other places on the site.",
         "Read three columns to decide: Connection to TZ (how it relates to the show), Tier (how close it is) and Recommendation with Why (what I suggest and the reason).",
         "Source / Source link is the best independent evidence for the connection. Page opens the record on the preview site.",
         "",

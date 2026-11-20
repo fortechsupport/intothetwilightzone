@@ -1,0 +1,16 @@
+name: TZ Publications
+aka:
+- TZ Publications, Inc.
+- Montcalm Publishing
+- Montcalm Publishing Corporation
+kind: publisher
+description: Publisher of Rod Serling's The Twilight Zone Magazine (1981-1989) and its companion Night Cry. Some
+  records name its parent company, Montcalm Publishing.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: Rod Serling''s The Twilight Zone Magazine'
+  url: https://en.wikipedia.org/wiki/Rod_Serling%27s_The_Twilight_Zone_Magazine
+research_confidence: medium
+tags:
+- seed-record

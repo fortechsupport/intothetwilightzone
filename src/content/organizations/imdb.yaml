@@ -1,0 +1,9 @@
+name: IMDb
+aka:
+- IMDb (Amazon)
+kind: website
+official: false
+relevance: related
+research_confidence: medium
+tags:
+- seed-record

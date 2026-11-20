@@ -1,0 +1,14 @@
+name: American Tobacco Company
+aka:
+- American Tobacco
+- Pall Mall
+kind: sponsor
+description: The maker of Pall Mall cigarettes, a sponsor of the original series in its fourth and fifth seasons.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: American Tobacco Company'
+  url: https://en.wikipedia.org/wiki/American_Tobacco_Company
+research_confidence: medium
+tags:
+- seed-record

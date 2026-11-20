@@ -1,8 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
 import { catalog, countOf } from '../lib/catalog';
-import { sortKey } from '../lib/taxonomy.mjs';
-const cats = [...(await catalog()).values()].sort((x, y) => sortKey(x.title).localeCompare(sortKey(y.title)));
+import { sortKey, SECTIONS } from '../lib/taxonomy.mjs';
+const all = [...(await catalog()).values()];
+const sections = SECTIONS.map((s) => all.find((c) => c.slug === s.slug)!).filter(Boolean);
+const cats = all.filter((c) => !c.kind || c.kind === 'category').sort((x, y) => sortKey(x.title).localeCompare(sortKey(y.title)));
 const jsonld = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -20,8 +22,18 @@ const jsonld = {
     </p>
   </section>
 
+  <h2>People, places and organizations</h2>
+  <div class="grid">
+    {sections.map((c) => (
+      <a class="card" href={`/${c.slug}/`}>
+        <span class="count">{countOf(c).toLocaleString('en-US')}</span>
+        <h3>{c.title}{c.isNew && <span class="tag new">new</span>}</h3>
+        <p>{c.subs.filter((x) => x.entries.length).map((x) => x.title).join(' · ')}</p>
+      </a>
+    ))}
+  </div>
   <h2>Explore by category</h2>
-  <p class="small muted">Every category, A to Z. Those marked <span class="tag new">new</span> were added during research. <a href="/categories/">See every subcategory</a>.</p>
+  <p class="small muted">Every category, A to Z, each split into official items and unofficial or inspired ones. Those marked <span class="tag new">new</span> were added during research. Advertisements, archival holdings and documents are on the records they belong to, and all together in the <a href="/media/">Media library</a>. <a href="/categories/">See every subcategory</a>.</p>
   <div class="grid">
     {cats.map((c) => (
       <a class="card" href={`/${c.slug}/`}>

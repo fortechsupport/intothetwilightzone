@@ -1,0 +1,11 @@
+name: Image Entertainment
+kind: home-video
+description: Released the original series on DVD, including the Definitive Edition sets.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: Image Entertainment'
+  url: https://en.wikipedia.org/wiki/Image_Entertainment
+research_confidence: medium
+tags:
+- seed-record

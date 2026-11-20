@@ -1,0 +1,13 @@
+name: Bristol-Myers
+aka:
+- Bufferin
+kind: sponsor
+description: The maker of Bufferin, one of the original series' third-season sponsors.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: Bristol-Myers Squibb'
+  url: https://en.wikipedia.org/wiki/Bristol-Myers_Squibb
+research_confidence: medium
+tags:
+- seed-record

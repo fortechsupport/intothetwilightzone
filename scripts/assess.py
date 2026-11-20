@@ -641,6 +641,23 @@ def a_archive(rid, d):
                   "include", "Tells researchers where the primary sources are; low effort, high value.", d)
 
 
+ORG_OFFICIAL_KINDS = {"network", "studio", "streamer", "production-company", "sponsor"}
+
+
+def a_organization(rid, d):
+    desc = first_sentence(d.get("description"), 300) or f"{d.get('name')}: an organization named in records on this site."
+    kind = d.get("kind", "other")
+    official = d.get("official")
+    if official is None:
+        official = kind in ORG_OFFICIAL_KINDS
+    tier = "core" if official else "related"
+    why = ("Made, broadcast, licensed, published or paid for Twilight Zone material." if official
+           else "Holds, honors, studies or publishes work about the show or Rod Serling.")
+    reason = ("Organizations are a section Adam asked for; this one ties together the records that name it."
+              + ("" if d.get("description") else " Seed record without a description yet."))
+    return result(desc, tier, why, "include", reason, d)
+
+
 WORK_TIER = {"memorial": "related", "education": "core", "convention": "related", "event": "related", "link": "core",
              "fan-community": "core", "parody": "tangential", "other": "related"}
 
@@ -816,12 +833,14 @@ def subcategory(col: str, rid: str, d: dict) -> str:
         return "Quotes"
     if col == "archives":
         return "Archives and collections"
+    if col == "organizations":
+        return "Organizations"
     return ""
 
 
 DISPATCH = {"series": a_series, "episodes": a_episode, "films": a_film, "connections": a_connection, "people": a_person, "characters": a_character,
             "quotes": a_quote, "locations": a_location, "songs": a_song, "radio": a_radio, "podcasts": a_podcast,
-            "books": a_book, "comics": a_comic, "magazines": a_magazine, "essays": a_essay, "archives": a_archive, "works": a_work}
+            "books": a_book, "comics": a_comic, "magazines": a_magazine, "essays": a_essay, "archives": a_archive, "works": a_work, "organizations": a_organization}
 
 
 def assess_all() -> dict[str, dict]:

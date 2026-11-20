@@ -80,6 +80,6 @@ const jsonld = {
       {d.links?.justwatch && <li><a href={d.links.justwatch.startsWith('http') ? d.links.justwatch : `https://www.justwatch.com/us/movie/${d.links.justwatch}`} rel="noopener">Where to watch (JustWatch)</a></li>}
     </ul>
   </section>
-  <Media media={d.media} />
+  <Media media={d.media} recKey={`films/${f.id}`} />
   <Sources sources={d.sources} verified={d.last_verified} />
 </Base>

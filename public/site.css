@@ -132,3 +132,11 @@ ul.plain li { padding: 6px 0; border-bottom: 1px solid var(--line); }
 @media (max-width: 640px) {
   .menu-list { position: static; columns: 1; min-width: 0; box-shadow: none; }
 }
+/* Sections and official/unofficial parts */
+.menu-list .menu-head { column-span: all; font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; opacity: .7; margin: .35rem 0 .15rem; white-space: normal; }
+.menu-list .menu-head:first-child { margin-top: 0; }
+.side { margin-top: 1.5rem; }
+.side-head { border-bottom: 2px solid var(--line, #333); padding-bottom: .3rem; }
+.side-unofficial .side-head { margin-top: 2.5rem; }
+.attached .attached-kind { margin-top: 1rem; }
+.org-kind { text-transform: capitalize; }

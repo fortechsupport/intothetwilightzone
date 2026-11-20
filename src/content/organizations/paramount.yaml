@@ -1,0 +1,17 @@
+name: Paramount
+aka:
+- Paramount Global
+- Paramount Global Content Distribution
+- Paramount Skydance
+- ViacomCBS
+kind: studio
+description: The parent company of CBS since the 2019 merger of CBS and Viacom, and so the current owner of The
+  Twilight Zone.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: Paramount Global'
+  url: https://en.wikipedia.org/wiki/Paramount_Global
+research_confidence: medium
+tags:
+- seed-record

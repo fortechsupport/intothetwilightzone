@@ -1,0 +1,13 @@
+name: Dynamite Entertainment
+aka:
+- Dynamite
+kind: publisher
+description: Published a licensed Twilight Zone comic series from 2013, launched by J. Michael Straczynski.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: Dynamite Entertainment'
+  url: https://en.wikipedia.org/wiki/Dynamite_Entertainment
+research_confidence: medium
+tags:
+- seed-record

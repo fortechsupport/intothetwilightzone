@@ -1,0 +1,66 @@
+---
+// An organization: what it is, whether it is part of the official franchise, every record on the site
+// that names it (grouped by what it did), and the content attached to it (holdings, sponsorships, pages).
+import Base from '../../layouts/Base.astro';
+import InCategories from '../../components/InCategories.astro';
+import Media from '../../components/Media.astro';
+import Sources from '../../components/Sources.astro';
+import { allOrganizations, type Org } from '../../lib/catalog';
+import { sortKey, OFFICIAL_LABEL } from '../../lib/taxonomy.mjs';
+import { assess, TIER_LABEL } from '../../lib/assessments';
+
+export async function getStaticPaths() {
+  return (await allOrganizations()).map((o) => ({ params: { slug: o.slug }, props: { o } }));
+}
+interface Props { o: Org }
+const { o } = Astro.props;
+const d = o.record?.data ?? {};
+const key = `organizations/${o.slug}`;
+const KIND: Record<string, string> = {
+  network: 'Television network', studio: 'Studio', streamer: 'Streaming service', 'production-company': 'Production company', publisher: 'Publisher',
+  licensee: 'Licensee', 'record-label': 'Record label', 'game-company': 'Game company', 'toy-company': 'Toy and collectibles maker', 'home-video': 'Home video label',
+  sponsor: 'Sponsor', advertiser: 'Advertiser', archive: 'Archive', library: 'Library', museum: 'Museum', foundation: 'Foundation', society: 'Society',
+  'award-body': 'Award body', school: 'School or university', 'fan-group': 'Fan group', website: 'Website', 'auction-house': 'Auction house', other: 'Organization',
+};
+const roles = new Map<string, typeof o.links>();
+// Holdings, sponsorships, ads and pages are content, listed under Related content instead.
+const CONTENT_ROLES = new Set(['Holds', 'Sponsored', 'Advertised', 'Hosts a page about']);
+for (const l of o.links) {
+  if (CONTENT_ROLES.has(l.role)) continue;
+  if (!roles.has(l.role)) roles.set(l.role, []);
+  roles.get(l.role)!.push(l);
+}
+for (const list of roles.values()) list.sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title)));
+const a = assess(key);
+const text = d.description ?? `${o.name} is named in ${o.links.length} ${o.links.length === 1 ? 'record' : 'records'} on this site, listed below.`;
+---
+<Base title={o.name} description={text.slice(0, 155)}>
+  <InCategories recKey={key} />
+  <h1>{o.name}</h1>
+  <p class="muted"><span class="org-kind">{KIND[o.kind] ?? 'Organization'}</span> · {o.official ? <span class="tag">{OFFICIAL_LABEL}</span> : <span class="tag">Related</span>}{!o.record && <span class="tag" title="Built from the records that name it; no researched record yet">from records</span>}</p>
+  <p class="lead">{text}</p>
+  {(o.aka.length > 0 || d.founded || d.location || d.website || d.parent) && (
+    <dl class="facts">
+      {o.aka.length > 0 && <><dt>Also named</dt><dd>{o.aka.join('; ')}</dd></>}
+      {d.parent && <><dt>Part of</dt><dd>{d.parent}</dd></>}
+      {d.founded && <><dt>Founded</dt><dd>{d.founded}{d.ended && `, ended ${d.ended}`}</dd></>}
+      {d.location && <><dt>Based in</dt><dd>{d.location}</dd></>}
+      {d.website && <><dt>Website</dt><dd><a href={d.website} rel="noopener">{d.website.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a></dd></>}
+    </dl>
+  )}
+  <aside class="tz-link">
+    <h2>Twilight Zone connection</h2>
+    <p>{o.official ? 'Part of the official franchise: it made, broadcast, licensed, published or paid for Twilight Zone material.' : 'Related to the franchise: it holds, honors, studies or writes about it, or published work by others about the show.'}</p>
+    {a?.tier && <p class="small muted">Relevance: {TIER_LABEL[a.tier]}. {a.tier_reason}</p>}
+  </aside>
+  {[...roles.entries()].sort((x, y) => y[1].length - x[1].length).map(([role, list]) => (
+    <section>
+      <h2>{role} <span class="muted small">({list.length})</span></h2>
+      <ul class={list.length > 12 ? 'columns plain' : 'plain'}>
+        {list.map((l) => <li>{l.href ? <a href={l.href}>{l.title}</a> : l.title}</li>)}
+      </ul>
+    </section>
+  ))}
+  <Media media={d.media} recKey={key} />
+  <Sources sources={d.sources ?? []} verified={d.last_verified} />
+</Base>

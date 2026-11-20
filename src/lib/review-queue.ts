@@ -58,6 +58,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
   magazines: 'Magazines',
   essays: 'Essays and articles',
   archives: 'Archives',
+  organizations: 'Organizations',
   works: 'Games, merchandise and other works',
 };
 
@@ -85,7 +86,7 @@ function pageUrl(collection: string, id: string, d: any): string | undefined {
     case 'people': return `/people/${slugify(d.name ?? id)}/`;
     case 'connections': return '/homages/';
     case 'books': case 'comics': case 'magazines': case 'podcasts': case 'radio': case 'songs':
-    case 'essays': case 'archives': case 'quotes': case 'characters':
+    case 'essays': case 'archives': case 'quotes': case 'characters': case 'organizations':
       return `/${collection}/${id}/`;
   }
   return undefined;

@@ -1,0 +1,14 @@
+name: Dell Comics
+aka:
+- Dell
+- Dell Publishing
+kind: publisher
+description: Published the first Twilight Zone comics in 1961 and 1962, before the title moved to Gold Key.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: Dell Comics'
+  url: https://en.wikipedia.org/wiki/Dell_Comics
+research_confidence: medium
+tags:
+- seed-record

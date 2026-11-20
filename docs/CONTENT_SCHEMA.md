@@ -89,43 +89,90 @@ sources:
   - { title: Source title, url: 'https://...' }
 ```
 
-## Site taxonomy and new fields (2026-11-20)
+## Site taxonomy and new fields (2026-11-20, revised the same day)
 
-The site is organised around Adam's category list. Records are placed automatically from their
-collection and fields (rules in `src/lib/taxonomy.mjs`); a record can sit in more than one place
-(a person who wrote and acted; a film that is also a homage). Categories and subcategories that
-were not on Adam's list are flagged **new** on the site and in the review sheet so he can drop them.
+The site follows Adam's list, reorganized on his rule that **things that attach to other things are
+content, not categories** (2026-11-20 15:32 UTC). There are three layers:
 
-### Categories and subcategory slugs
+- **Sections**: People, Places, Organizations. The who and where that everything else links to.
+- **Categories**: the things themselves: Artwork, Episodes, Events, Games, Homages, Lectures,
+  Merchandise, Movies, Music, Reading, Reviews, Series, and Stage and attractions *(new)*. Every
+  category except Reviews is split into **Official** (made, broadcast, licensed or published by the
+  franchise's makers and rights holders, or by Rod Serling himself) and **Unofficial and inspired**
+  (made by others about, after or in the spirit of the show).
+- **Content**: advertisements, archival holdings, documents, quotes and links. Content is shown on the
+  pages of the records it belongs to, and gathered by type in the **Media library** (`/media/`), which
+  is an index, not a category. Artwork is both: a category of its own, and content on what it
+  illustrates (a comic's cover art is listed under Artwork and credited on the comic).
+
+Records are placed automatically from their collection and fields (rules in `src/lib/taxonomy.mjs`);
+a record can sit in more than one place. Subcategories not on Adam's list are flagged **new** on the
+site and in the review sheet.
+
+### Sections, categories and subcategory slugs
 
 Use these slugs in `categories[]` (`"<category>/<subcategory>"`). An unknown subcategory slug under a
-known category creates a new subcategory, labelled from the slug and flagged new.
+known category creates a new subcategory, flagged new. Old slugs from the first version (advertising,
+archives, quotes, community, legal-history, cultural-impact, props-collecting) still work and are mapped
+to the new places (see `ALIASES` in `taxonomy.mjs`); please use the new ones.
 
-| Category | Subcategory slugs | Filled automatically from |
+| Section or category | Subcategory slugs | Filled automatically from |
 |---|---|---|
-| `people` | `writers`, `directors`, `producers`, `actors`, `narrators-hosts`, `voice-actors`, `composers`, `crew`, `characters`, `scholars-historians`, `fans`, `family`, `inspired-creators` | people (roles[] and credits), characters, quote authors |
-| `places` | `real-life`, `in-story` | locations (`kind: in-story` goes to in-story) |
-| `events` | `conventions`, `honors-awards`, `anniversaries-festivals`, `broadcasts-marathons`, `premieres`, `exhibitions`, `production-history`, `other-events` | works kind event/convention/memorial (by subtype), series/film history[] |
-| `series` | `tv`, `radio`, `podcast`, `international` *(new)* | series, films kind tv-series, radio series, podcasts |
-| `episodes` | `tv`, `radio`, `podcast` | episodes, Night Gallery episodes, radio, podcasts featured_episodes |
-| `movies` | `twilight-zone-films`, `rod-serling-films`, `linked-films`, `tv-films`, `documentaries`, `shorts-and-other` | films |
-| `music` | `composers`, `theme`, `songs`, `soundtracks` | people with composer role, songs, works kind soundtrack |
-| `reading` | `books`, `comics`, `magazines`, `essays`, `articles`, `scripts` | books, comics, magazines, essays |
-| `games` | `pinball-arcade`, `video-games`, `board-card-games`, `other-games` | works kind game (by subtype) |
-| `artwork` | `posters-key-art`, `art-illustration`, `title-design`, `other-artwork` | works kind artwork (by subtype) |
-| `homages` | `adaptations-remakes`, `inspired-by`, `homages`, `parodies`, `references`, `in-other-shows` | connections, films kind tv-episode/tv-segment/sketch, works kind parody |
-| `merchandise` | `collectibles`, `toys-figures`, `trading-cards`, `home-media`, `household-apparel`, `other-merchandise` | works kind collectible/home-media, series/film releases[] |
+| `people` (section) | `writers`, `directors`, `producers`, `actors`, `narrators-hosts`, `voice-actors`, `composers`, `artists` *(new)*, `crew`, `characters`, `scholars-historians`, `fans`, `family`, `inspired-creators`, `other-people` | people (roles[] and credits), comic creators, characters, quote authors |
+| `places` (section) | `real-life`, `lecture-event-venues`, `in-story` | locations |
+| `organizations` (section) | `networks-studios`, `production-companies`, `publishers`, `licensees`, `sponsors`, `archives-libraries`, `museums`, `foundations-societies`, `award-bodies`, `schools`, `fan-groups`, `other-organizations` | organizations records, plus every name in a `publisher` (books, comics, magazines, product works), `institution`, series `network`, release `publisher`, international `broadcaster`, or `organizations[]` field |
+| `artwork` | `posters-key-art`, `title-design`, `covers` *(new)*, `night-gallery-paintings` *(new)*, `production-design` *(new)*, `props-costumes` *(new)*, `art-illustration`, `other-artwork` | works kind artwork/prop, comic creators credited `(cover)`, media images with subtype cover-art/poster/key-art/illustration, poster ads |
+| `episodes` | `tv`, `radio`, `radio-original-stories`, `radio-unmade-tv-scripts`, `podcast` | episodes, Night Gallery episodes, radio, podcast featured_episodes |
+| `events` | `premieres`, `broadcasts-marathons`, `honors-awards`, `production-history`, `serling-life`, `legal` *(new: trials, lawsuits, censorship, rights)*, `anniversaries-festivals`, `conventions`, `exhibitions`, `other-events` | works kind event/convention/memorial/legal, series/film history[] |
+| `games` | `pinball-arcade`, `video-games`, `board-card-games`, `game-homages` *(new)*, `other-games` | works kind game |
+| `homages` | `adaptations-remakes`, `inspired-by`, `homages`, `parodies`, `references`, `in-other-shows`, `in-everyday-language` *(new)* | connections, films kind tv-episode/segment/sketch, works kind parody/cultural-impact |
 | `lectures` | `serling-lectures`, `academic`, `classroom`, `readings-panels` | essays kind speech/lecture, works kind lecture/education |
-| `reviews` | `contemporary`, `retrospective`, `rankings`, `awards-citations` | essays kind review (by review_type) |
-| `archives` *(new)* | `collections`, `documents` | archives |
-| `stage` *(new)* | `theatre`, `live-readings`, `attractions` | works kind stage/attraction, films kind stage |
-| `quotes` *(new)* | `rod-serling`, `admirers` | quotes |
-| `advertising` *(new)* | `commercials`, `promos-trailers`, `print-ads`, `sponsors` | films kind commercial, works kind advertisement, media type ad |
-| `community` *(new)* | `fan-communities`, `websites-databases`, `organizations` | works kind fan-community/link |
-| `legal-history` *(new)* | `trials`, `lawsuits`, `rights-ownership`, `censorship` | works kind legal, or event subtype trial/lawsuit |
-| `cultural-impact` *(new)* | `catchphrases`, `theme-shorthand`, `public-uses`, `dictionary-rankings` | works kind cultural-impact, or other subtype idiom |
-| `props-collecting` *(new)* | `props-costumes`, `auctions`, `museum-holdings`, `replicas` | works kind prop, or subtype prop/replica-prop |
-| `media` *(new)* | `video`, `audio`, `documents`, `images`, `ads`, `links` | every record's media[] |
+| `merchandise` | `collectibles`, `toys-figures`, `trading-cards`, `home-media`, `household-apparel`, `replicas` *(new)*, `other-merchandise` | works kind collectible/home-media, series/film releases[] |
+| `movies` | `twilight-zone-films`, `rod-serling-films`, `unmade-projects`, `linked-films`, `tv-films`, `documentaries`, `shorts-and-other` | films |
+| `music` | `theme`, `soundtracks`, `composers`, `songs` | works kind soundtrack, songs, composers |
+| `reading` | `books`, `comics`, `magazines`, `essays`, `articles`, `scripts`, `websites` *(new)*, and the reading thread's new subcategories | books, comics, magazines, essays, works kind link (reference, fan-site, academic) |
+| `reviews` | `contemporary`, `retrospective`, `rankings`, `awards-citations`, `aggregate-scores` | essays kind review |
+| `series` | `tv`, `radio`, `podcast`, `international` | series, films kind tv-series, radio series, podcasts |
+| `stage` *(new)* | `theatre`, `live-readings`, `attractions` | works kind stage/attraction, films kind stage, attraction locations |
+| `media` (Media library, not a category) | `ads`, `holdings`, `video`, `audio`, `documents`, `images`, `links` | content records and every record's media[] |
+
+### Content records
+
+These records are content, not category entries. They show on every page they belong to (a "Related
+content" section), in the Media library, and in the review sheet as Category "Content (shown on other
+records)" with Group "On: ...".
+
+| Content | Which records | Shown on |
+|---|---|---|
+| Advertisement | works kind `advertisement`, films kind `commercial` | what it promoted or sponsored, the sponsor or advertiser organization |
+| Archival holding | archives | the holding organization (`institution`) and the person or series it documents |
+| Quote | quotes | the person and the episodes it is about |
+| Link | works kind `link` with subtype database, official, streaming, archive, foundation or museum | the record it is about, and its host organization |
+
+Say where content belongs with `content_of[]` (refs: `series/1959`, an episode id `1959/<slug>`,
+`films/<id>`, `people/<slug>`, `organizations/<id>`, `works/<id>`, `archives/<id>`, `locations/<id>`) and
+name organizations with `organizations[]`. `details.relates_to` names are also matched.
+
+### New optional fields (every collection)
+
+- `official: true | false`: overrides the automatic Official / Unofficial and inspired split.
+- `organizations[]`: organization names involved (sponsor, maker, holder, publisher). Each gets a page.
+- `content_of[]`: for content records, the records it belongs on (above).
+- `categories[]`: extra `"<category>/<subcategory>"` placements, on top of the automatic ones.
+- `media[]`: legitimately hosted media about the record. A `creator` field credits the artist,
+  photographer or designer; an image with subtype `cover-art`, `poster`, `key-art` or `illustration` is
+  also listed under Artwork.
+
+### Organizations collection
+
+`organizations/<slug>.yaml`: name (required), aka[] (every variant spelling used in other records, so
+they fold into one page), kind (`network`, `studio`, `streamer`, `production-company`, `publisher`,
+`licensee`, `record-label`, `game-company`, `toy-company`, `home-video`, `sponsor`, `advertiser`,
+`archive`, `library`, `museum`, `foundation`, `society`, `award-body`, `school`, `fan-group`, `website`,
+`auction-house`, `other`), official (true for the franchise's makers, broadcasters, licensees and
+sponsors), founded, ended, location, website, description (own words), parent, plus the common fields.
+An organization named in another record gets a page even without a record here; a record adds its
+description and folds variant names. 47 seed records exist (tagged `seed-record`).
 
 People `roles[]` are matched loosely (case and plural ignored): writer, director, producer, actor,
 host, narrator, voice, composer/musician, cinematographer/editor/makeup/effects/crew, scholar/historian,

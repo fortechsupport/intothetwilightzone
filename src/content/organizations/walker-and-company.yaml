@@ -1,0 +1,14 @@
+name: Walker & Company
+aka:
+- Walker & Co.
+- Bloomsbury, Walker & Company
+kind: publisher
+description: Published graphic-novel adaptations of original-series episodes from 2008, later under its parent Bloomsbury.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: Walker & Company'
+  url: https://en.wikipedia.org/wiki/Walker_%26_Company
+research_confidence: medium
+tags:
+- seed-record

@@ -51,15 +51,19 @@ export default function unlinkHidden() {
           return !frag || page.ids.has(decodeURIComponent(frag));
         };
         let unlinked = 0;
+        const missing = new Map(); // target -> count, for the build log
         for (const page of pages.values()) {
           const next = page.html.replace(/<a\b([^>]*?)\shref="(\/[^"]*)"([^>]*)>([\s\S]*?)<\/a>/g, (whole, _pre, href, _post, inner) => {
             if (exists(href)) return whole;
             unlinked++;
+            missing.set(href, (missing.get(href) ?? 0) + 1);
             return `<span class="unlinked">${inner}</span>`;
           });
           if (next !== page.html) await writeFile(page.file, next);
         }
         logger.info(`Unlinked ${unlinked} links to hidden or missing pages`);
+        const top = [...missing.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
+        if (top.length) logger.info(`Most-linked missing targets: ${top.map(([h, n]) => `${h} (${n})`).join(', ')}`);
       },
     },
   };
