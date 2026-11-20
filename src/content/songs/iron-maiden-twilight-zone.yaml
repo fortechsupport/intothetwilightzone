@@ -4,9 +4,12 @@ album: Killers
 genre: Heavy Metal
 length: '2:32'
 year: 1981
-tz_connection: lyric-mention
+tz_connection: reference
 ids:
   amazon_asin: B07R57CX3T
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+research_confidence: medium
+description: Iron Maiden's 1981 single (added to the US edition of Killers), sung by the ghost of a man trying to
+  reach the woman he loved. It borrows the show's name for its title.
