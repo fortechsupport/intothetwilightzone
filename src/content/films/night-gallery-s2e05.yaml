@@ -1,0 +1,43 @@
+title: 'Night Gallery: The Phantom Farmhouse / Silent Snow, Secret Snow'
+kind: tv-episode
+parent_series: Night Gallery, season 2, episode 5
+release_date: '1971-10-20'
+runtime_min: 50
+segments:
+- title: The Phantom Farmhouse
+  summary: A psychiatrist falls for a mysterious woman from a farmhouse in the woods, near where a patient was mauled.
+  source_title: The Phantom Farmhouse
+  source_authors:
+  - Seabury Quinn
+  writers:
+  - Halsted Welles
+  directors:
+  - Jeannot Szwarc
+  cast:
+  - David McCallum
+  - Linda Marsh
+  - David Carradine
+  - Ivor Francis
+- title: Silent Snow, Secret Snow
+  summary: A boy withdraws from his family into an imaginary world of falling snow. Narrated by Orson Welles.
+  source_title: Silent Snow, Secret Snow
+  source_authors:
+  - Conrad Aiken
+  writers:
+  - Gene Kearney
+  directors:
+  - Gene Kearney
+  cast:
+  - Orson Welles
+  - Lonny Chapman
+  - Lisabeth Hush
+  - Radames Pera
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

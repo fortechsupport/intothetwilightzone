@@ -1,0 +1,30 @@
+title: 'Night Gallery: The Ring with the Red Velvet Ropes'
+kind: tv-episode
+parent_series: Night Gallery, season 3, episode 10
+release_date: '1973-01-07'
+runtime_min: 25
+segments:
+- title: The Ring with the Red Velvet Ropes
+  summary: A new heavyweight champion wakes in a strange mansion where he must fight a mysterious opponent for the
+    real title.
+  source_title: The Ring with the Red Velvet Ropes
+  source_authors:
+  - Edward D. Hoch
+  writers:
+  - Robert Malcolm Young
+  directors:
+  - Jeannot Szwarc
+  cast:
+  - Gary Lockwood
+  - Chuck Connors
+  - Joan Van Ark
+  - Ralph Manza
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

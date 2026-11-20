@@ -1,0 +1,67 @@
+---
+import Base from '../layouts/Base.astro';
+import Sources from '../components/Sources.astro';
+import { getCollection, getEntry } from 'astro:content';
+import { formatDate, personUrl } from '../lib/data';
+
+// Night Gallery lives in the films collection: the series record, the 1969 pilot film and one
+// record per broadcast episode (kind tv-episode, id night-gallery-s<season>e<nn>), each with segments.
+const series = await getEntry('films', 'night-gallery');
+const pilot = await getEntry('films', 'night-gallery-pilot');
+const eps = (await getCollection('films'))
+  .filter((f) => /^night-gallery-s\de\d\d$/.test(f.id))
+  .sort((a, b) => a.id.localeCompare(b.id));
+const seasons = [1, 2, 3].map((n) => ({ n, eps: eps.filter((e) => e.id.startsWith(`night-gallery-s${n}`)) }));
+const segCount = eps.reduce((t, e) => t + e.data.segments.length, 0) + (pilot?.data.segments.length ?? 0);
+const related = (await getCollection('films')).filter((f) => f.id.startsWith('night-gallery-') && !/^night-gallery-s\de\d\d$/.test(f.id) && f.id !== 'night-gallery-pilot');
+const works = (await getCollection('works')).filter((w) => /night gallery/i.test(w.data.title));
+const books = (await getCollection('books')).filter((b) => /night gallery/i.test(b.data.title));
+---
+<Base title="Night Gallery" description="Rod Serling's Night Gallery (1969–1973): the pilot film and every episode and segment, with writers, directors, cast and source stories.">
+  <p class="breadcrumb" data-pagefind-ignore><a href="/series/">Series</a></p>
+  <h1>Rod Serling's Night Gallery</h1>
+  {series?.data.summary && <p class="lead">{series.data.summary}</p>}
+  <p>The pilot film plus {eps.length} broadcast episodes hold {segCount} segments; two more sketches surfaced only in syndication. Each segment is listed under the episode it aired in, with the story it adapts where there is one.</p>
+
+  {pilot && (
+    <section>
+      <h2>The pilot film (1969)</h2>
+      <p><a href={`/films/${pilot.id}/`}>{pilot.data.title}</a>{pilot.data.release_date && <span class="muted small"> {formatDate(pilot.data.release_date)}</span>}</p>
+      <ul class="plain">{pilot.data.segments.map((sg) => <li>{sg.title}{sg.directors.length > 0 && <span class="muted small"> · directed by {sg.directors.join(', ')}</span>}</li>)}</ul>
+    </section>
+  )}
+
+  {seasons.map(({ n, eps }) => eps.length > 0 && (
+    <section>
+      <h2>Season {n}</h2>
+      <ol class="plain">
+        {eps.map((e) => (
+          <li>
+            <a href={`/films/${e.id}/`}><strong>Episode {Number(e.id.slice(-2))}</strong></a>
+            {e.data.release_date && <span class="muted small"> {formatDate(e.data.release_date)}</span>}
+            <ul class="small">
+              {e.data.segments.map((sg) => (
+                <li>{sg.title}
+                  {sg.writers.length > 0 && <span class="muted"> · written by {sg.writers.map((w, i) => <>{i > 0 && ', '}<a href={personUrl(w)}>{w}</a></>)}</span>}
+                  {sg.source_authors.length > 0 && <span class="muted"> · from {sg.source_authors.join(', ')}</span>}
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ol>
+    </section>
+  ))}
+
+  {(related.length > 0 || works.length > 0 || books.length > 0) && (
+    <section>
+      <h2>More Night Gallery</h2>
+      <ul>
+        {related.map((f) => <li><a href={`/films/${f.id}/`}>{f.data.title}</a></li>)}
+        {works.map((w) => <li><a href={`/works/${w.id}/`}>{w.data.title}</a></li>)}
+        {books.map((b) => <li><a href={`/books/#${b.id}`}>{b.data.title}</a></li>)}
+      </ul>
+    </section>
+  )}
+  {series && <Sources sources={series.data.sources} verified={series.data.last_verified} />}
+</Base>

@@ -38,6 +38,15 @@ const jsonld = {
     </dl>
   )}
   {rec?.bio && <p class="lead">{rec.bio}</p>}
+  {p.slug === 'rod-serling' && <p><a href="/rod-serling/">Rod Serling's life and work beyond The Twilight Zone</a></p>}
+  {rec && rec.timeline.length > 0 && (
+    <section>
+      <h2>Timeline</h2>
+      <dl class="facts">
+        {rec.timeline.map((t) => <><dt>{formatDate(t.date)}</dt><dd>{t.text}</dd></>)}
+      </dl>
+    </section>
+  )}
   {quotes.map((q) => (
     <figure class="quote">
       <blockquote>{q.data.text}</blockquote>

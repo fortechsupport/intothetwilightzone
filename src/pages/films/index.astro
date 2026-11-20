@@ -1,13 +1,14 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
-const films = (await getCollection('films')).sort((a, b) => a.data.title.replace(/^(the|a) /i, '').localeCompare(b.data.title.replace(/^(the|a) /i, '')));
+// Night Gallery episodes have their own page; the series and pilot records still appear here.
+const films = (await getCollection('films')).filter((f) => !/^night-gallery-s\de\d\d$/.test(f.id)).sort((a, b) => a.data.title.replace(/^(the|a) /i, '').localeCompare(b.data.title.replace(/^(the|a) /i, '')));
 const connections = await getCollection('connections');
 const linked = new Set(connections.map((c) => c.data.from));
 ---
 <Base title="Films" description="Feature films connected to The Twilight Zone: official productions, adaptations and films inspired by classic episodes.">
   <h1>Films</h1>
-  <p class="lead">{films.length} films, from Twilight Zone: The Movie to features traced back to individual episodes. {linked.size} of them are linked to the episode they draw on.</p>
+  <p class="lead">{films.length} films, from Twilight Zone: The Movie to features traced back to individual episodes. {linked.size} of them are linked to the episode they draw on. Every episode of Rod Serling's <a href="/night-gallery/">Night Gallery</a> has its own page.</p>
   <ul class="columns plain">
     {films.map((f) => (
       <li><a href={`/films/${f.id}/`}>{f.data.title}</a>{f.data.release_date && <span class="muted small"> {f.data.release_date.slice(0, 4)}</span>}</li>

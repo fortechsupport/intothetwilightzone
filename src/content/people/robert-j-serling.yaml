@@ -1,0 +1,17 @@
+name: Robert J. Serling
+roles:
+- writer
+- family
+bio: Rod Serling's older brother, an aviation journalist and novelist. Rod followed him into the Army in 1943.
+tz_credits:
+- series: Rod Serling
+  work: Brother of Rod Serling
+  role: family
+  ref: people/rod-serling
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

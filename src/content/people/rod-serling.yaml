@@ -1,13 +1,98 @@
 name: Rod Serling
 born: '1924-12-25'
 died: '1975-06-28'
-bio: >-
-  Creator, host, narrator and principal writer of The Twilight Zone (1959–1964). Before it, he won
-  Emmys for the television dramas Patterns and Requiem for a Heavyweight; afterwards he co-wrote
-  Planet of the Apes (1968) and hosted Night Gallery.
+roles:
+- writer
+- creator
+- host
+- narrator
+- producer
+- teacher
+bio: Rod Serling was the creator, host, narrator and principal writer of The Twilight Zone, and before that one
+  of the most celebrated dramatists of live television. A paratrooper wounded in the Philippines in World War II,
+  he studied at Antioch College on the GI Bill, learned his trade in Cincinnati radio and television, and became
+  famous in 1955 with Patterns, followed by Requiem for a Heavyweight and The Comedian. His fights with sponsors
+  and censors, above all over Noon on Doomsday and A Town Has Turned to Dust, his two attempts to dramatize the
+  murder of Emmett Till, pushed him toward fantasy, where he found he could say what he wanted. After The Twilight
+  Zone he created The Loner, wrote Seven Days in May and Planet of the Apes, hosted Night Gallery and The Zero Hour,
+  narrated documentaries and commercials, and taught writing at Ithaca College. He won six Emmys, wrote well over
+  200 produced scripts, spoke out on civil rights and against the Vietnam War, and died in 1975 at the age of 50.
+timeline:
+- date: '1924-12-25'
+  text: Born Rodman Edward Serling in Syracuse, New York, the younger of two sons of Samuel and Esther Serling.
+- date: '1926'
+  text: The family moves to Binghamton, New York, the hometown he returned to again and again in his writing.
+- date: '1943'
+  text: Graduates from Binghamton Central High School and enlists in the Army the next morning.
+- date: 1944-11
+  text: Sees combat at Leyte in the Philippines with the 511th Parachute Infantry Regiment, 11th Airborne Division,
+    in its demolition platoon. Wounded.
+- date: 1945-02
+  text: Fights on Luzon and in the battle for Manila and is wounded again. Awarded the Purple Heart and Bronze Star;
+    the war leaves him with a damaged knee and lifelong nightmares.
+- date: '1946'
+  text: Discharged after occupation duty in Japan. Enrolls at Antioch College in Ohio on the GI Bill and volunteers
+    at radio station WNYC.
+- date: '1948-07-31'
+  text: Marries Carolyn "Carol" Kramer, a fellow Antioch student.
+- date: '1949-09-10'
+  text: His first script on a national network, Hop Off the Express and Grab a Local, airs on Grand Central Station.
+- date: '1950'
+  text: Graduates from Antioch with a degree in literature and joins WLW radio in Cincinnati as a staff writer,
+    then writes the live anthology The Storm for WKRC-TV.
+- date: '1952'
+  text: Daughter Jodi is born. Serling goes freelance and starts selling scripts to the New York live anthologies.
+- date: '1955-01-12'
+  text: Patterns airs on Kraft Television Theatre and makes him famous overnight. Daughter Anne is born later that
+    year.
+- date: '1956-04-25'
+  text: Noon on Doomsday, his drama inspired by the murder of Emmett Till, airs after sponsors force him to strip
+    out its setting and its racism, a fight that shapes his move away from sponsored live drama.
+- date: '1956-10-11'
+  text: Requiem for a Heavyweight airs on Playhouse 90, winning him a second Emmy and a Peabody.
+- date: '1958-11-24'
+  text: The Time Element, a time-travel play on Westinghouse Desilu Playhouse, opens the door to The Twilight Zone.
+- date: '1959-10-02'
+  text: The Twilight Zone premieres on CBS; Serling creates, hosts, narrates and writes most of it through 1964.
+- date: '1962'
+  text: Spends 1962–63 as writer in residence at Antioch College, where he writes the screenplay for Seven Days
+    in May.
+- date: '1965-09-18'
+  text: The Loner, his post-Civil War western starring Lloyd Bridges, premieres on CBS. He also serves as president
+    of the National Academy of Television Arts and Sciences in 1965–66.
+- date: '1968'
+  text: Planet of the Apes opens, with his script carrying its famous ending. He campaigns for Eugene McCarthy and
+    speaks against the Vietnam War.
+- date: '1969-11-08'
+  text: The Night Gallery pilot film airs on NBC; the series follows from 1970 to 1973.
+- date: '1970'
+  text: Now teaching writing at Ithaca College, as he does until his death, while narrating documentaries and commercials.
+- date: '1973'
+  text: Hosts the radio anthology The Zero Hour and narrates In Search of Ancient Astronauts.
+- date: '1975-06-28'
+  text: Dies at Strong Memorial Hospital in Rochester, New York, aged 50, after a series of heart attacks. Buried
+    July 2 at Lake View Cemetery in Interlaken, New York.
+- date: '1985'
+  text: Inducted into the Television Hall of Fame.
+- date: '1988-10-06'
+  text: His star on the Hollywood Walk of Fame, at 6840 Hollywood Boulevard, is dedicated.
+- date: '2009-08-11'
+  text: Appears on a United States postage stamp in the Early TV Memories series.
+- date: '2024-09-15'
+  text: A statue of Serling is unveiled in Recreation Park, Binghamton, during his centennial year.
 links:
   wikipedia: https://en.wikipedia.org/wiki/Rod_Serling
+  britannica: https://www.britannica.com/biography/Rod-Serling
 sources:
-  - title: Wikipedia, Rod Serling
-    url: https://en.wikipedia.org/wiki/Rod_Serling
+- title: 'Hollywood Walk of Fame: Rod Serling'
+  url: https://walkoffame.com/rod-serling/
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+- title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
+  url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+- title: 'Encyclopaedia Britannica: Rod Serling'
+  url: https://www.britannica.com/biography/Rod-Serling
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
 locked: true

@@ -1,0 +1,35 @@
+title: 'Night Gallery: Hatred unto Death / How to Cure the Common Vampire'
+kind: tv-episode
+parent_series: Night Gallery, season 3, episode 15
+release_date: '1973-05-27'
+runtime_min: 25
+segments:
+- title: Hatred unto Death
+  summary: An anthropologist captures a gorilla in Africa that seems to hate him personally.
+  writers:
+  - Halsted Welles
+  directors:
+  - Gerald Perry Finnerman
+  cast:
+  - Steve Forrest
+  - Dina Merrill
+  - Fernando Lamas
+  - George Barrows
+- title: How to Cure the Common Vampire
+  summary: Two vampire hunters argue over the proper way to drive a stake. Comic blackout sketch.
+  writers:
+  - Jack Laird
+  directors:
+  - Jack Laird
+  cast:
+  - Richard Deacon
+  - Johnny Brown
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

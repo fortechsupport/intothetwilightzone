@@ -1,0 +1,17 @@
+title: House of Usher
+kind: film
+summary: The first of Roger Corman's Poe films, scripted by Matheson.
+release_date: '1960'
+writers:
+- Richard Matheson
+directors:
+- Roger Corman
+cast:
+- Vincent Price
+sources:
+- title: 'Wikipedia: House of Usher (film)'
+  url: https://en.wikipedia.org/wiki/House_of_Usher_(film)
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

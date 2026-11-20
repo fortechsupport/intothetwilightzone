@@ -1,0 +1,18 @@
+name: Billy Goldenberg
+roles:
+- composer
+bio: Composer of the theme and score for the 1969 Night Gallery pilot film.
+tz_credits:
+- series: Night Gallery
+  work: Night Gallery (1969 pilot film)
+  role: composer
+  ref: films/night-gallery-pilot
+sources:
+- title: 'Wikipedia: Night Gallery (film)'
+  url: https://en.wikipedia.org/wiki/Night_Gallery_(film)
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

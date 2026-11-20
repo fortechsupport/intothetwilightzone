@@ -1,0 +1,57 @@
+title: 'Night Gallery: Green Fingers / The Funeral / The Tune in Dan''s Café'
+kind: tv-episode
+parent_series: Night Gallery, season 2, episode 15
+release_date: '1972-01-05'
+runtime_min: 50
+segments:
+- title: Green Fingers
+  summary: A ruthless developer tries to force an elderly widow off her land, not realizing anything she plants
+    will grow.
+  source_authors:
+  - R. C. Cook
+  writers:
+  - Rod Serling
+  directors:
+  - John Badham
+  cast:
+  - Elsa Lanchester
+  - Cameron Mitchell
+  - Michael Bell
+  - Harry Hickox
+- title: The Funeral
+  summary: A prim funeral director agrees to stage a lavish service for a vampire, whose monstrous friends all attend.
+  source_title: The Funeral
+  source_authors:
+  - Richard Matheson
+  writers:
+  - Richard Matheson
+  directors:
+  - John Meredyth Lucas
+  cast:
+  - Joe Flynn
+  - Werner Klemperer
+  - Harvey Jason
+  - Charles Macaulay
+- title: The Tune in Dan's Café
+  summary: A quarreling couple stops at a roadside café where the jukebox plays only one song, tied to an old tragedy.
+  source_authors:
+  - Shamus Frazier
+  writers:
+  - Gerald Sanford
+  - Garrie Bateson
+  directors:
+  - David Rawlins
+  cast:
+  - Pernell Roberts
+  - Susan Oliver
+  - James Nusser
+  - James Davidson
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

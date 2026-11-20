@@ -1,0 +1,59 @@
+title: 'Night Gallery: The Diary / A Matter of Semantics / Big Surprise / Professor Peabody''s Last Lecture'
+kind: tv-episode
+parent_series: Night Gallery, season 2, episode 8
+release_date: '1971-11-10'
+runtime_min: 50
+segments:
+- title: The Diary
+  summary: A gossip columnist gives a fading actress a diary that writes tomorrow's events in advance.
+  writers:
+  - Rod Serling
+  directors:
+  - William Hale
+  cast:
+  - Patty Duke
+  - Virginia Mayo
+  - David Wayne
+  - Robert Yuro
+- title: A Matter of Semantics
+  summary: Count Dracula tries to make a withdrawal at a blood bank. Comic blackout sketch.
+  writers:
+  - Gene Kearney
+  directors:
+  - Jack Laird
+  cast:
+  - Cesar Romero
+  - E. J. Peaker
+  - Monie Ellis
+- title: Big Surprise
+  summary: A strange old farmer tells three boys to dig in a field for a big surprise.
+  source_title: Big Surprise
+  source_authors:
+  - Richard Matheson
+  writers:
+  - Richard Matheson
+  directors:
+  - Jeannot Szwarc
+  cast:
+  - John Carradine
+  - Vincent Van Patten
+  - Marc Vahanian
+  - Eric Chase
+- title: Professor Peabody's Last Lecture
+  summary: A professor mocks the elder gods of the Cthulhu mythos in front of a class whose names should have warned
+    him. Comic sketch built on H. P. Lovecraft's mythology.
+  writers:
+  - Jack Laird
+  directors:
+  - Jerrold Freedman
+  cast:
+  - Carl Reiner
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

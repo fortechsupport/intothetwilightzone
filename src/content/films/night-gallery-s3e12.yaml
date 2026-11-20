@@ -1,0 +1,30 @@
+title: 'Night Gallery: Death on a Barge'
+kind: tv-episode
+parent_series: Night Gallery, season 3, episode 12
+release_date: '1973-03-04'
+runtime_min: 25
+segments:
+- title: Death on a Barge
+  summary: A young man falls for a beautiful girl who lives on a barge and never comes out by day. Leonard Nimoy's
+    first job as a director.
+  source_title: The Canal
+  source_authors:
+  - Everil Worrell
+  writers:
+  - Halsted Welles
+  directors:
+  - Leonard Nimoy
+  cast:
+  - Lesley Ann Warren
+  - Lou Antonio
+  - Brooke Bundy
+  - Robert Pratt
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

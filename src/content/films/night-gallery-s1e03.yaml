@@ -1,0 +1,43 @@
+title: 'Night Gallery: The House / Certain Shadows on the Wall'
+kind: tv-episode
+parent_series: Night Gallery, season 1, episode 3
+release_date: '1970-12-30'
+runtime_min: 50
+segments:
+- title: The House
+  summary: A woman released from a sanitarium finds the house that has filled her recurring dream.
+  source_authors:
+  - André Maurois
+  writers:
+  - Rod Serling
+  directors:
+  - John Astin
+  cast:
+  - Joanna Pettet
+  - Paul Richards
+  - Steve Franken
+  - Jan Burrell
+- title: Certain Shadows on the Wall
+  summary: After a woman dies under suspicious care, her shadow stays on the parlor wall to torment the brother
+    who poisoned her.
+  source_title: The Shadows on the Wall
+  source_authors:
+  - Mary E. Wilkins Freeman
+  writers:
+  - Rod Serling
+  directors:
+  - Jeff Corey
+  cast:
+  - Louis Hayward
+  - Agnes Moorehead
+  - Grayson Hall
+  - Rachel Roberts
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

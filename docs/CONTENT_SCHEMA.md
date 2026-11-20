@@ -31,7 +31,7 @@ a record that does not match fails the build.
 |---|---|---|---|
 | series | `series/1959.yaml` | title, years, network, host, seasons, order, summary | history[] ({date, title, text ≤600 own words, sources[] ≥1}), international_titles[] ({country, language?, title, broadcaster?, year?, note?, sources[] ≥1}), releases[] ({date?, format, title, publisher?, region?, note?, sources[] ≥1}: home media, syndication, streaming), sources[] |
 | episodes | `episodes/<series>/<slug>.yaml` | title, series (`1959`/`1985`/`2002`/`2019`), season (int), episode (string, e.g. `"8"` or `"18a"`) | aka[], air_date, runtime_min, production_code, writers[] (screen credits), writing_credit_note, source_authors[] (authors of an adapted prior work: story, radio play, anecdote; also listed in writers only when they wrote the teleplay), directors[], cast[], narrator, synopsis (own words), themes[], trivia[] ({text ≤400 chars, own words; sources[] ≥1}) |
-| films | `films/<slug>.yaml` | title | kind (`film`/`tv-film`/`tv-episode`/`tv-segment`/`tv-series`/`sketch`/`documentary`/`special`/`pilot`/`stage`/`unproduced`/`short`/`music-video`/`commercial`/`web-series`), summary (own words), parent_series (e.g. `The Simpsons, S2E3`), segments[] ({title, adapts_episode?, writers[], directors[], cast[]}), history[], international_titles[], releases[] (same shapes as series), release_date, rating, runtime_min, writers[], directors[], cast[] |
+| films | `films/<slug>.yaml` | title | kind (`film`/`tv-film`/`tv-episode`/`tv-segment`/`tv-series`/`sketch`/`documentary`/`special`/`pilot`/`stage`/`unproduced`/`short`/`music-video`/`commercial`/`web-series`), summary (own words), parent_series (e.g. `The Simpsons, S2E3`), segments[] ({title, adapts_episode?, summary?, source_title?, source_authors[], writers[], directors[], cast[]}), history[], international_titles[], releases[] (same shapes as series), release_date, rating, runtime_min, writers[], directors[], cast[] |
 | connections | `connections/<from-slug>--<to-slug>.yaml` | from (ref), to (ref: episode id or `series/<year>`), kind, confidence | summary, evidence |
 | songs | `songs/<artist>-<title>.yaml` | title, tz_connection (`theme`/`lyric-mention`/`reference`/`unclassified`) | artist, album, genre, length, year, lyric_excerpt, description |
 | books | `books/<slug>.yaml` | title | authors[], publisher, published, pages, description, kind, isbn, episodes[] |
@@ -41,7 +41,7 @@ a record that does not match fails the build.
 | archives | `archives/<slug>.yaml` | name | institution, location, dates, extent, description, url |
 | radio | `radio/<slug>.yaml` | title | series_title, season, season_order, volume, volume_order, volume_released, original_writer, adapted_by, voiced_by[], adapts_episode (episode id), description |
 | podcasts | `podcasts/<slug>.yaml` | title | hosts[], first_episode, description, status (`active`/`ended`/`unknown`) |
-| people | `people/<slug>.yaml` | name | born, died, bio (own words), roles[], tz_credits[] ({series, work, role?, ref?: episode id or `films/<slug>`}) for credits no episode/film record carries |
+| people | `people/<slug>.yaml` | name | born, died, bio (own words), roles[], tz_credits[] ({series, work, role?, ref?: episode id or `films/<slug>`}) for credits no episode/film record carries, timeline[] ({date, text}) for dated life events |
 | quotes | `quotes/<slug>.yaml` | person (exact name), text (≤400 chars) | date, context, episodes[] (episode ids) |
 | works | `works/<slug>.yaml` | title, kind (`game`/`collectible`/`artwork`/`stage`/`attraction`/`parody`/`convention`/`television`/`soundtrack`/`event`/`link`/`fan-community`/`memorial`/`education`/`other`) | year, creator, publisher, description (own words), subtype, details (free-form map) |
 | locations | `locations/<slug>.yaml` | name | kind (`backlot-set`/`filming-location`/`serling-place`/`attraction`/`museum-exhibit`/`memorial`/`archive`), address, city, region, country, lat, lng, status, opened, closed, filmed[] ({ref, note}), notes |
@@ -49,6 +49,15 @@ a record that does not match fails the build.
 `connections.kind`: `official-adaptation`, `remake`, `inspired-by`, `homage`, `parody`, `reference`, `lyric-mention`.
 `connections.confidence`: `confirmed-by-creator`, `documented`, `fan-noted` (shown on the site as "Unconfirmed"). Use `documented` or
 better only with a source URL in `sources`.
+
+## Night Gallery and Rod Serling
+
+- Night Gallery lives in `films`: `night-gallery` (series), `night-gallery-pilot` (1969 film), and one record per broadcast
+  episode, `night-gallery-s<season>e<NN>` (kind `tv-episode`), whose `segments[]` carry each story's writers, director,
+  cast, own-words summary and source story. `/night-gallery/` lists them in order; the Films index leaves the episodes out.
+- Serling's work outside the show is ordinary `films`, `radio` and `works` records with `Rod Serling` in their credits.
+  `/rod-serling/` gathers them with the timeline from `people/rod-serling.yaml`. Honors are `works` with `kind: event`,
+  `subtype: honor`.
 
 ## Examples
 

@@ -1,0 +1,44 @@
+title: 'Night Gallery: A Question of Fear / The Devil Is Not Mocked'
+kind: tv-episode
+parent_series: Night Gallery, season 2, episode 6
+release_date: '1971-10-27'
+runtime_min: 50
+segments:
+- title: A Question of Fear
+  summary: A soldier of fortune who claims to fear nothing accepts a bet to spend the night in a haunted house.
+  source_title: A Question of Fear
+  source_authors:
+  - Bryan Lewis
+  writers:
+  - Theodore J. Flicker
+  directors:
+  - Jack Laird
+  cast:
+  - Leslie Nielsen
+  - Fritz Weaver
+  - Jack Bannon
+  - Ivan Bonar
+- title: The Devil Is Not Mocked
+  summary: A Nazi officer and his men expect to take a Balkan castle easily during the war, not knowing who its
+    master is.
+  source_title: The Devil Is Not Mocked
+  source_authors:
+  - Manly Wade Wellman
+  writers:
+  - Gene Kearney
+  directors:
+  - Gene Kearney
+  cast:
+  - Helmut Dantine
+  - Francis Lederer
+  - Hank Brandt
+  - Martin Kosleck
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

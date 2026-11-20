@@ -1,0 +1,39 @@
+title: 'Night Gallery: Make Me Laugh / Clean Kills and Other Trophies'
+kind: tv-episode
+parent_series: Night Gallery, season 1, episode 4
+release_date: '1971-01-06'
+runtime_min: 50
+segments:
+- title: Make Me Laugh
+  summary: A comedian who can't get a laugh is granted a wish by a would-be miracle worker, and learns what he really
+    wanted.
+  writers:
+  - Rod Serling
+  directors:
+  - Steven Spielberg
+  cast:
+  - Godfrey Cambridge
+  - Tom Bosley
+  - Jackie Vernon
+  - Al Lewis
+- title: Clean Kills and Other Trophies
+  summary: A big-game hunter who insists his son make a kill before inheriting finds his trophy room turned against
+    him.
+  writers:
+  - Rod Serling
+  directors:
+  - Walter Doniger
+  cast:
+  - Raymond Massey
+  - Tom Troupe
+  - Barry Brown
+  - Herbert Jefferson Jr.
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,43 @@
+title: 'Night Gallery: The Miracle at Camafeo / The Ghost of Sorworth Place'
+kind: tv-episode
+parent_series: Night Gallery, season 2, episode 17
+release_date: '1972-01-19'
+runtime_min: 50
+segments:
+- title: The Miracle at Camafeo
+  summary: An insurance swindler faking paralysis visits a Mexican shrine to stage a cure, and is investigated by
+    a skeptical agent.
+  source_authors:
+  - C. B. Gilford
+  writers:
+  - Rod Serling
+  directors:
+  - Ralph Senensky
+  cast:
+  - Harry Guardino
+  - Julie Adams
+  - Ray Danton
+  - Richard Yñiguez
+- title: The Ghost of Sorworth Place
+  summary: An American traveler in Scotland agrees to protect a young widow from the ghost of her cruel husband.
+  source_title: Sorworth Place
+  source_authors:
+  - Russell Kirk
+  writers:
+  - Alvin Sapinsley
+  directors:
+  - Ralph Senensky
+  cast:
+  - Richard Kiley
+  - Jill Ireland
+  - Mavis Neal
+  - Patrick O'Moore
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

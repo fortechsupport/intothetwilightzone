@@ -1,7 +1,22 @@
 title: Assault on a Queen
 kind: film
+summary: A caper film, from Jack Finney's novel, about a gang that raises a sunken U-boat to rob the Queen Mary.
+release_date: '1966'
+writers:
+- Rod Serling
+directors:
+- Jack Donohue
+cast:
+- Frank Sinatra
+- Virna Lisi
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+- title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
+  url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+research_confidence: medium
+relevance: related
 ids:
   imdb: tt0060135
-sources:
-- title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+last_verified: '2026-11-19'
+locked: true

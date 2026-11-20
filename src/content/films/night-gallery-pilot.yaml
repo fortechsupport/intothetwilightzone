@@ -1,0 +1,63 @@
+title: Night Gallery (1969 pilot film)
+kind: pilot
+parent_series: Night Gallery
+release_date: '1969-11-08'
+runtime_min: 95
+summary: 'The NBC television movie that launched the series: three stories written by Rod Serling, each introduced
+  by Serling in a gallery of paintings. Produced by William Sackheim with music by Billy Goldenberg. The second
+  story, Eyes, was Steven Spielberg''s first professional directing job; Joan Crawford reportedly asked for a more
+  experienced director before agreeing to keep him. Serling won an Edgar Award from the Mystery Writers of America
+  for the script. The stories came from his 1967 book The Season to Be Wary.'
+writers:
+- Rod Serling
+segments:
+- title: The Cemetery
+  summary: A nephew who hastens his rich uncle's death inherits the estate, then watches a painting of the family
+    graveyard change night after night.
+  writers:
+  - Rod Serling
+  directors:
+  - Boris Sagal
+  cast:
+  - Ossie Davis
+  - Roddy McDowall
+  - George Macready
+  - Barry Atwater
+- title: Eyes
+  summary: A wealthy, cruel blind woman buys a desperate gambler's eyes for an operation that will give her only
+    a few hours of sight. Steven Spielberg's first professional directing job and one of Joan Crawford's last screen
+    roles.
+  writers:
+  - Rod Serling
+  directors:
+  - Steven Spielberg
+  cast:
+  - Joan Crawford
+  - Barry Sullivan
+  - Tom Bosley
+  - Byron Morrow
+- title: Escape Route
+  summary: A former Nazi camp official hiding in South America longs to escape into a peaceful painting in a museum,
+    with a very different result.
+  writers:
+  - Rod Serling
+  directors:
+  - Barry Shear
+  cast:
+  - Richard Kiley
+  - Sam Jaffe
+  - Norma Crane
+  - George Murdock
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Night_Gallery_(film)
+sources:
+- title: 'Wikipedia: Night Gallery (film)'
+  url: https://en.wikipedia.org/wiki/Night_Gallery_(film)
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
+  url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

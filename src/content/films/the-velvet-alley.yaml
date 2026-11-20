@@ -1,0 +1,19 @@
+title: The Velvet Alley
+kind: tv-episode
+parent_series: Playhouse 90
+summary: 'A thinly veiled self-portrait: a struggling New York writer becomes a Hollywood success and loses the
+  people who mattered to him.'
+release_date: '1959-01-22'
+writers:
+- Rod Serling
+cast:
+- Art Carney
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+research_confidence: medium
+relevance: related
+tags:
+- teleplay
+last_verified: '2026-11-19'
+locked: true

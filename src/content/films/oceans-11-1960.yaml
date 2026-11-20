@@ -1,0 +1,18 @@
+title: Ocean's 11
+kind: film
+summary: The Rat Pack heist film, from a story by George Clayton Johnson and Jack Golden Russell.
+release_date: '1960'
+writers:
+- George Clayton Johnson
+directors:
+- Lewis Milestone
+cast:
+- Frank Sinatra
+- Dean Martin
+sources:
+- title: 'Wikipedia: Ocean''s 11'
+  url: https://en.wikipedia.org/wiki/Ocean's_11
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

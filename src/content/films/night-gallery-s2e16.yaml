@@ -1,0 +1,53 @@
+title: 'Night Gallery: Lindemann''s Catch / The Late Mr. Peddington / A Feast of Blood'
+kind: tv-episode
+parent_series: Night Gallery, season 2, episode 16
+release_date: '1972-01-12'
+runtime_min: 50
+segments:
+- title: Lindemann's Catch
+  summary: A hard-bitten sea captain nets a mermaid and tries to make her human, with tragic results.
+  writers:
+  - Rod Serling
+  directors:
+  - Jeff Corey
+  cast:
+  - Stuart Whitman
+  - Jack Aranson
+  - John Alderson
+  - Harry Townes
+- title: The Late Mr. Peddington
+  summary: A thrifty widow shops for the cheapest possible funeral for a husband who is not quite dead.
+  source_title: The Flat Male
+  source_authors:
+  - Frank Sisk
+  writers:
+  - Jack Laird
+  directors:
+  - Jeff Corey
+  cast:
+  - Kim Hunter
+  - Harry Morgan
+  - Randy Quaid
+- title: A Feast of Blood
+  summary: A woman who rejects a suitor accepts his parting gift, a fur brooch with a life of its own.
+  source_title: The Fur Brooch
+  source_authors:
+  - Dulcie Gray
+  writers:
+  - Stanford Whitmore
+  directors:
+  - Jeannot Szwarc
+  cast:
+  - Sondra Locke
+  - Norman Lloyd
+  - Hermione Baddeley
+  - Pat O'Hara
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

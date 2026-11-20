@@ -1,0 +1,13 @@
+from: films/the-sixth-sense-1972
+to: films/night-gallery
+kind: reference
+confidence: documented
+summary: Its 25 episodes were cut to half an hour and added to the syndicated Night Gallery with new Rod Serling
+  introductions.
+sources:
+- title: 'Wikipedia: The Sixth Sense (American TV series)'
+  url: https://en.wikipedia.org/wiki/The_Sixth_Sense_(American_TV_series)
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,17 @@
+name: Eddie Sauter
+roles:
+- composer
+bio: Big-band arranger who wrote the more frantic orchestral theme that replaced Gil Mellé's for Night Gallery's
+  third season.
+tz_credits:
+- series: Night Gallery
+  work: Main title theme, season 3
+  role: composer
+  ref: films/night-gallery
+sources:
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

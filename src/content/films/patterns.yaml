@@ -1,7 +1,26 @@
 title: Patterns
 kind: film
+summary: The film version of Serling's Emmy-winning teleplay about ruthless boardroom politics, released by United
+  Artists.
+release_date: '1956'
+writers:
+- Rod Serling
+directors:
+- Fielder Cook
+cast:
+- Van Heflin
+- Everett Sloane
+- Ed Begley
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+- title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
+  url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+- title: 'Encyclopaedia Britannica: Rod Serling'
+  url: https://www.britannica.com/biography/Rod-Serling
+research_confidence: high
+relevance: related
 ids:
   imdb: tt0049601
-sources:
-- title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+last_verified: '2026-11-19'
+locked: true

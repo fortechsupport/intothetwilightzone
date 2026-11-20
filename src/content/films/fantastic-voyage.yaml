@@ -1,0 +1,16 @@
+title: Fantastic Voyage
+kind: film
+summary: A miniaturized crew travels through a human body; from a story by Jerome Bixby and Otto Klement.
+release_date: '1966'
+directors:
+- Richard Fleischer
+cast:
+- Stephen Boyd
+- Raquel Welch
+sources:
+- title: 'Wikipedia: Fantastic Voyage'
+  url: https://en.wikipedia.org/wiki/Fantastic_Voyage
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

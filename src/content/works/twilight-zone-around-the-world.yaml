@@ -1,0 +1,30 @@
+title: 'The Twilight Zone around the world: local titles'
+kind: television
+subtype: international
+relevance: core
+description: The original series was dubbed and broadcast far beyond the United States under local titles, several
+  of which became household phrases in their own languages, much as "twilight zone" did in English. The titles below
+  are the ones used for the 1959 series in each market; later revivals often reused them.
+details:
+  titles:
+    France: La Quatrième Dimension
+    Italy: Ai confini della realtà
+    Spain: En los límites de la realidad
+    Germany: Unwahrscheinliche Geschichten
+    Brazil: Além da Imaginação
+  still_to_research: First broadcast dates and channels per country; Latin American Spanish, Japanese, Scandinavian
+    and Eastern European titles.
+sources:
+- title: 'A Suivre: La Quatrième Dimension (French series encyclopedia)'
+  url: https://www.a-suivre.org/annuseries/encyclopedie/series.php?series=151
+- title: 'Tom''s Hardware Italia: Ai confini della realtà, i migliori episodi'
+  url: https://www.tomshw.it/culturapop/ai-confini-della-realta-i-migliori-episodi
+- title: 'FormulaTV: En los límites de la realidad'
+  url: https://www.formulatv.com/series/en-los-limites-de-la-realidad/
+- title: 'prisma: Unwahrscheinliche Geschichten'
+  url: https://www.prisma.de/serien/Unwahrscheinliche-Geschichten-sZMad4lG0
+- title: 'AdoroCinema: Além da Imaginação'
+  url: https://www.adorocinema.com/series/serie-382/
+research_confidence: medium
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,64 @@
+title: 'Night Gallery: Death in the Family / The Merciful / Class of ''99 / Witches'' Feast'
+kind: tv-episode
+parent_series: Night Gallery, season 2, episode 2
+release_date: '1971-09-22'
+runtime_min: 50
+segments:
+- title: Death in the Family
+  summary: A fugitive hides in a small-town mortuary whose undertaker has made a family of the corpses.
+  source_authors:
+  - Miriam Allen deFord
+  writers:
+  - Rod Serling
+  directors:
+  - Jeannot Szwarc
+  cast:
+  - E. G. Marshall
+  - Desi Arnaz Jr.
+  - Noam Pitlik
+  - James Sikking
+- title: The Merciful
+  summary: A wife bricks her husband into the cellar wall, in a twist on Poe's The Cask of Amontillado. Comic blackout
+    sketch.
+  source_title: Soft, Sweet Sleep
+  source_authors:
+  - Charles L. Sweeney Jr.
+  writers:
+  - Jack Laird
+  directors:
+  - Jeannot Szwarc
+  cast:
+  - Imogene Coca
+  - King Donovan
+- title: Class of '99
+  summary: A professor gives a graduating class of the future a final exam in prejudice and violence.
+  writers:
+  - Rod Serling
+  directors:
+  - Jeannot Szwarc
+  cast:
+  - Vincent Price
+  - Brandon de Wilde
+  - Randolph Mantooth
+  - Frank Hotchkiss
+- title: Witches' Feast
+  summary: Three witches waiting for a guest at their cauldron get a delivery they did not expect. Comic blackout
+    sketch; replaced by Satisfaction Guaranteed when the episode was repeated.
+  writers:
+  - Gene Kearney
+  directors:
+  - Jerrold Freedman
+  cast:
+  - Agnes Moorehead
+  - Ruth Buzzi
+  - Allison McKay
+  - Fran Ryan
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

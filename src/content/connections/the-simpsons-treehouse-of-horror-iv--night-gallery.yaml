@@ -1,0 +1,12 @@
+from: films/the-simpsons-treehouse-of-horror-iv
+to: films/night-gallery
+kind: parody
+confidence: documented
+summary: Bart hosts from a gallery of paintings in a send-up of Serling's Night Gallery introductions.
+sources:
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+- title: 'Wikipedia: Treehouse of Horror IV'
+  url: https://en.wikipedia.org/wiki/Treehouse_of_Horror_IV
+last_verified: '2026-11-19'
+locked: true

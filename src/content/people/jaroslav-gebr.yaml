@@ -1,0 +1,17 @@
+name: Jaroslav Gebr
+roles:
+- artist
+bio: Universal staff artist, known as Jerry Gebr, who painted gallery canvases for Night Gallery alongside Thomas
+  J. Wright.
+tz_credits:
+- series: Night Gallery
+  work: Gallery paintings
+  role: artist
+  ref: films/night-gallery
+sources:
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true
