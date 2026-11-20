@@ -7,7 +7,7 @@ relevance: core
 kind: scripts
 ids:
   goodreads: '12177911'
-  amazon_asin: 0960540407
+  amazon_asin: '0960540407'
 research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets

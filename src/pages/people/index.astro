@@ -1,6 +1,11 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { allPeople } from '../../lib/data';
+import { CATEGORIES } from '../../lib/categories';
+import { assessments } from '../../lib/assessments';
+const info = CATEGORIES.people;
+const A = assessments();
+const roleOf = new Map(Object.entries(A).filter(([k]) => k.startsWith('people/')).map(([, a]) => [a.title, a.subcategory]));
 const people = [...(await allPeople()).values()].sort((a, b) => {
   const last = (n: string) => n.split(' ').slice(-1)[0];
   return last(a.name).localeCompare(last(b.name)) || a.name.localeCompare(b.name);
@@ -15,14 +20,17 @@ const letters = [...groups.keys()].sort();
 ---
 <Base title="People" description="Writers, directors, cast, narrators and voice actors across every Twilight Zone series, film and radio drama.">
   <h1>People</h1>
-  <p class="lead">{people.length} writers, directors, actors, narrators and voice actors, sorted by surname.</p>
+  <p class="lead">{people.length} writers, directors, actors, narrators, composers and voice actors, sorted alphabetically by surname.</p>
+  {info.intro.map((p) => <p set:html={p} />)}
+  <aside class="tz-link"><h2>How this connects to The Twilight Zone</h2><p>{info.connection}</p></aside>
+  <p class="small muted">Roles: {[...new Set([...roleOf.values()])].sort().map((r, i) => <>{i > 0 && ' · '}{r} ({[...roleOf.values()].filter((x) => x === r).length})</>)}. The number after each name is how many credits they have across the franchise.</p>
   <p class="letters">{letters.map((l) => <a href={`#letter-${l}`}>{l}</a>)}</p>
   {letters.map((l) => (
     <section id={`letter-${l}`}>
       <h2>{l}</h2>
       <ul class="columns plain">
         {groups.get(l)!.map((p) => (
-          <li><a href={`/people/${p.slug}/`}>{p.name}</a> <span class="muted small">{p.credits.length}</span></li>
+          <li><a href={`/people/${p.slug}/`}>{p.name}</a> <span class="muted small">{p.credits.length}{roleOf.get(p.name) && ` · ${roleOf.get(p.name)!.replace(/s$/, '').replace('Hosts and narrator', 'host or narrator').toLowerCase()}`}</span></li>
         ))}
       </ul>
     </section>

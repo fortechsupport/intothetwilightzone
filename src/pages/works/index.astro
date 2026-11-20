@@ -1,27 +1,12 @@
 ---
-import Base from '../../layouts/Base.astro';
+import CategoryLanding from '../../components/CategoryLanding.astro';
 import { getCollection } from 'astro:content';
-import { WORK_KINDS } from '../../lib/works';
-const works = (await getCollection('works')).sort((a, b) => a.data.title.replace(/^(the|a) /i, '').localeCompare(b.data.title.replace(/^(the|a) /i, '')));
-const groups = WORK_KINDS.map(([kind, title, blurb]) => ({ kind, title, blurb, items: works.filter((w) => w.data.kind === kind) })).filter((g) => g.items.length > 0);
+import { item, meta } from '../../lib/landing';
+const works = (await getCollection('works')).filter((w) => !w.data.duplicate_of);
+const items = works.map((w) => item('works', w.id, w.data.title, {
+  href: `/works/${w.id}/`,
+  meta: meta(w.data.subtype?.replace(/-/g, ' '), w.data.year ? String(w.data.year) : undefined, w.data.creator ?? w.data.publisher),
+  desc: w.data.description,
+}));
 ---
-<Base title="Games, collectibles and more" description="Twilight Zone soundtracks, games, collectibles, artwork, stage shows, attractions, events and fan communities.">
-  <h1>Games, collectibles and more</h1>
-  <p class="lead">{works.length} soundtracks, games, collectibles, stage shows, attractions, events and resources. This is a reference catalog: nothing here is for sale.</p>
-  <p class="letters small">Jump to: {groups.map((g) => <a href={`#${g.kind}`}>{g.title}</a>)}</p>
-  {groups.map((g) => (
-    <section id={g.kind}>
-      <h2>{g.title} <span class="muted small">({g.items.length})</span></h2>
-      <p class="muted small">{g.blurb}</p>
-      <ul class="plain">
-        {g.items.map((w) => (
-          <li>
-            <a href={`/works/${w.id}/`}>{w.data.title}</a>{" "}
-            {w.data.subtype && <span class="tag">{w.data.subtype.replace(/-/g, ' ')}</span>}
-            <span class="muted small">{[w.data.year, w.data.creator ?? w.data.publisher].filter(Boolean).join(' · ')}</span>
-          </li>
-        ))}
-      </ul>
-    </section>
-  ))}
-</Base>
+<CategoryLanding category="works" items={items} lead={`${items.length} games, collectibles, stage shows, attractions, events, honors and resources.`} />

@@ -1,35 +1,17 @@
 ---
-import Base from '../layouts/Base.astro';
-import ExtLinks from '../components/ExtLinks.astro';
+import CategoryLanding from '../components/CategoryLanding.astro';
 import { getCollection } from 'astro:content';
-import { allEpisodes, personUrl } from '../lib/data';
-const radio = (await getCollection('radio')).sort((a, b) => (a.data.volume ?? 999) - (b.data.volume ?? 999) || Number(a.data.volume_order ?? 0) - Number(b.data.volume_order ?? 0));
+import { item, meta } from '../lib/landing';
+import { allEpisodes } from '../lib/data';
+const radio = (await getCollection('radio')).filter((r) => !r.data.duplicate_of);
 const eps = new Map((await allEpisodes()).map((e) => [e.id, e]));
-const volumes = [...new Set(radio.map((r) => r.data.volume ?? 0))];
+const items = radio.map((r) => {
+  const ep = r.data.adapts_episode ? eps.get(r.data.adapts_episode) : undefined;
+  return item('radio', r.id, r.data.title, {
+    href: ep ? `/episodes/${ep.id}/` : undefined,
+    meta: meta(r.data.voiced_by.length ? `with ${r.data.voiced_by.join(', ')}` : undefined, r.data.adapted_by && `adapted by ${r.data.adapted_by}`, r.data.volume && `volume ${r.data.volume}`),
+    desc: r.data.description, ids: r.data.ids,
+  });
+});
 ---
-<Base title="Radio dramas" description="The Twilight Zone Radio Dramas: full-cast audio adaptations of classic episodes, volume by volume.">
-  <h1>Radio dramas</h1>
-  <p class="lead">{radio.length} full-cast audio adaptations, most of them based on episodes of the original series. Each links to the television episode it adapts.</p>
-  {volumes.map((v) => (
-    <section>
-      <h2>{v ? `Volume ${v}` : 'Volume not recorded'}</h2>
-      <div class="table-wrap"><table>
-        <thead><tr><th>Title</th><th>Adapted by</th><th>Voiced by</th><th>TV episode</th><th>Links</th></tr></thead>
-        <tbody>
-          {radio.filter((r) => (r.data.volume ?? 0) === v).map((r) => {
-            const ep = r.data.adapts_episode ? eps.get(r.data.adapts_episode) : undefined;
-            return (
-              <tr id={r.id}>
-                <td>{r.data.title}</td>
-                <td>{(r.data.adapted_by ?? '').split(/,\s*/).filter(Boolean).map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</td>
-                <td>{r.data.voiced_by.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</td>
-                <td>{ep && <a href={`/episodes/${ep.id}/`}>{ep.data.title}</a>}</td>
-                <td><ExtLinks ids={r.data.ids} /></td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table></div>
-    </section>
-  ))}
-</Base>
+<CategoryLanding category="radio" items={items} lead={`${items.length} radio dramas and broadcasts. Titles link to the television episode each one adapts.`} />

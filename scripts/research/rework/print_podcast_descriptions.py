@@ -18,7 +18,7 @@ BOOKS = {
  "sci-fi-tv-from-the-twilight-zone-to-deep-space-nine": "James Van Hise's survey of American science-fiction television from the late 1950s to the early 1990s, which opens with The Twilight Zone.",
  "submitted-for-your-approval-volume-1": "A 2015 collection whose listed publisher, Rod Serling Books, and contents could not be verified; Barnes & Noble credits Anne Serling. Check before publishing.",
  "the-gospel-according-to-science-fiction-from-the-twilight-zone-to-the-final-frontier": "Gabriel McKee's study of religious ideas in science fiction, which uses The Twilight Zone as one of its main examples. Only part of the book is about the show.",
- "the-new-twilight-zone-21-tales-by-the-greatest-sci-fi-and-dark-fantasy-writers-of-our-time": "An anthology edited by Martin H. Greenberg of new stories in the Twilight Zone tradition, published under licence from Carol Serling.",
+ "the-new-twilight-zone-21-tales-by-the-greatest-sci-fi-and-dark-fantasy-writers-of-our-time": "An anthology edited by Martin H. Greenberg of new stories in the Twilight Zone tradition, published under license from Carol Serling.",
  "the-twilight-zone-and-philosophy-a-dangerous-dimension-to-visit": "A 2018 volume in Open Court's Popular Culture and Philosophy series, edited by Heather L. Rivera and Alexander E. Hooke, in which philosophers use episodes to discuss free will, identity, ethics and reality.",
  "the-twilight-zone-coloring-book": "An unlicensed, self-published coloring book that uses the show's name. Low reference value.",
  "the-twilight-zone-complete-stories": "An omnibus of Rod Serling's prose adaptations of his own episodes (the stories first published in Stories from the Twilight Zone and its sequels). The listed 1963 date is impossible for TV Books; the edition is probably from 1998.",
@@ -56,7 +56,7 @@ def magazine(d, stem):
     if stem.startswith("the-twilight-zone-magazine-"):
         n = stem.rsplit("-", 1)[1]
         return (f"Issue {n} of Rod Serling's The Twilight Zone Magazine ({d.get('cover_date')}), the horror and fantasy fiction magazine "
-                "published by TZ Publications from 1981 to 1989 under licence from Carol Serling. Each issue mixed new short fiction "
+                "published by TZ Publications from 1981 to 1989 under license from Carol Serling. Each issue mixed new short fiction "
                 "with interviews, film and book coverage and Twilight Zone history; this issue's contents are on the linked ISFDB page.")
     if "famous-monsters" in stem:
         return "An issue of the revived Famous Monsters of Filmland listed in the original spreadsheet for its Twilight Zone coverage; the coverage has not been verified."

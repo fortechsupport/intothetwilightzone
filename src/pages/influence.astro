@@ -1,39 +1,36 @@
 ---
-import Base from '../layouts/Base.astro';
+import CategoryLanding from '../components/CategoryLanding.astro';
 import { getCollection } from 'astro:content';
 import { resolveRef, CONNECTION_LABELS, CONFIDENCE_LABELS } from '../lib/data';
-const conns = await getCollection('connections');
+import { item, meta } from '../lib/landing';
+import { assess } from '../lib/assessments';
+const conns = (await getCollection('connections')).filter((c) => !c.data.duplicate_of);
 const rows = await Promise.all(conns.map(async (c) => ({ c, from: await resolveRef(c.data.from), to: await resolveRef(c.data.to) })));
-rows.sort((a, b) => (a.to?.title ?? '').localeCompare(b.to?.title ?? '') || (a.from?.title ?? '').localeCompare(b.from?.title ?? ''));
-const byEpisode = new Map<string, typeof rows>();
-for (const r of rows) {
-  const k = r.c.data.to;
-  if (!byEpisode.has(k)) byEpisode.set(k, []);
-  byEpisode.get(k)!.push(r);
+const items = rows.map(({ c, from, to }) => {
+  const a = assess(`connections/${c.id}`);
+  return item('connections', c.id, `${from?.title ?? c.data.from} → ${to?.title ?? c.data.to}`, {
+    href: from?.url,
+    meta: meta(CONNECTION_LABELS[c.data.kind], CONFIDENCE_LABELS[c.data.confidence]),
+    desc: a?.connection,
+  });
+});
+// The episodes later works draw on most often.
+const byEpisode = new Map<string, { title: string; url: string; n: number }>();
+for (const { c, to } of rows) {
+  if (!to || !/^\d{4}\//.test(c.data.to)) continue;
+  const e = byEpisode.get(c.data.to) ?? { title: to.title, url: to.url, n: 0 };
+  e.n += 1;
+  byEpisode.set(c.data.to, e);
 }
-const ranked = [...byEpisode.entries()].sort((a, b) => b[1].length - a[1].length);
+const top = [...byEpisode.values()].sort((a, b) => b.n - a.n || a.title.localeCompare(b.title)).slice(0, 12);
+const counts = Object.fromEntries(Object.keys(CONFIDENCE_LABELS).map((k) => [k, conns.filter((c) => c.data.confidence === k).length]));
 ---
-<Base title="Influence" description="Films, television, songs and books traced back to the Twilight Zone episodes that inspired them.">
-  <h1>Influence</h1>
-  <p class="lead">
-    {rows.length} later works traced back to {byEpisode.size} episodes. Each link is labelled by how well it is documented,
-    from a creator's own words to connections fans have noticed but nobody has yet sourced.
-  </p>
-  <p>For what filmmakers, writers and musicians have said about the show in their own words, see <a href="/voices/">Voices</a>.</p>
-  <p class="notice">Most links below came from early research and are marked fan-noted until a source is added. Know of a source? <a href="/about/#contact">Send it in</a>.</p>
-  {ranked.map(([epId, items]) => (
-    <section>
-      <h2><a href={items[0].to?.url}>{items[0].to?.title ?? epId}</a> <span class="muted small">{items[0].to?.kind}</span></h2>
-      <ul class="plain">
-        {items.map(({ c, from }) => (
-          <li>
-            <span class="tag">{CONNECTION_LABELS[c.data.kind]}</span>
-            {from ? <a href={from.url}>{from.title}</a> : c.data.from}
-            {from && <span class="muted small"> ({from.kind})</span>}
-            {' '}<span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span>
-          </li>
-        ))}
-      </ul>
-    </section>
-  ))}
-</Base>
+<CategoryLanding category="connections" items={items} showWhy={false} lead={`${items.length} links from later works to the episodes behind them: ${counts['confirmed-by-creator'] ?? 0} confirmed by the makers, ${counts['documented'] ?? 0} documented by a published source and ${counts['fan-noted'] ?? 0} noted by fans only.`}>
+  <section slot="before">
+    <h2>The most borrowed-from episodes</h2>
+    <ol class="columns">
+      {top.map((e) => <li><a href={e.url}>{e.title}</a> <span class="muted small">{e.n} later works</span></li>)}
+    </ol>
+    <p class="small">For what filmmakers, writers and musicians have said in their own words, see <a href="/voices/">Voices</a>. Know a source for a fan-noted link? <a href="/about/#contact">Send it in</a>.</p>
+  </section>
+</CategoryLanding>

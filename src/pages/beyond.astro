@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 const n = async (c: Parameters<typeof getCollection>[0]) => (await getCollection(c)).length;
-const cards = [
+const cards: [string, string, number, string][] = [
   ['/radio/', 'Radio dramas', await n('radio'), 'Full-cast audio adaptations of classic episodes.'],
   ['/books/', 'Books', await n('books'), 'Histories, companions, anthologies and novels.'],
   ['/comics/', 'Comics', await n('comics'), 'Dell, Gold Key, Now Comics, Dynamite and more.'],
@@ -11,11 +11,12 @@ const cards = [
   ['/archives/', 'Archives and documents', await n('archives'), 'Where the scripts, papers and recordings are kept.'],
   ['/podcasts/', 'Podcasts', await n('podcasts'), 'Episode-by-episode companions.'],
   ['/works/', 'Games, collectibles and more', await n('works'), 'Soundtracks, pinball, trading cards, stage shows, attractions and events.'],
-] as const;
+].sort((a, b) => String(a[1]).localeCompare(String(b[1])));
 ---
 <Base title="Beyond the screen" description="The Twilight Zone in radio, print, podcasts, games and collectibles.">
   <h1>Beyond the screen</h1>
   <p class="lead">The Twilight Zone kept going long after the cameras stopped, in radio studios, on newsstands, in arcades and in earbuds.</p>
+  <p>These sections cover the franchise away from the television screen: the licensed radio series, six decades of comics, the show's own fiction magazine, the books that preserve and study it, the podcasts that revisit it, the archives that hold its scripts, and the games, toys, stage shows and attractions it inspired. Each section opens with what it covers and how it ties to the show, and lists everything alphabetically within clear subgroups.</p>
   <div class="grid">
     {cards.map(([href, title, count, blurb]) => (
       <a class="card" href={href}>{count !== null && <span class="count">{count}</span>}<h3>{title}</h3><p>{blurb}</p></a>

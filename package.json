@@ -13,7 +13,8 @@
     "build:preview": "REVIEW_MODE=preview astro build && pagefind --site dist",
     "review:export": "python3 scripts/review.py export",
     "review:import": "python3 scripts/review.py import",
-    "review:status": "python3 scripts/review.py status"
+    "review:status": "python3 scripts/review.py status",
+    "assess": "python3 scripts/assess.py"
   },
   "dependencies": {
     "astro": "^7.4.13"

@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import { allEpisodes, formatDate, episodeNumber } from '../../lib/data';
 import HistoryAndIntl from '../../components/HistoryAndIntl.astro';
+import { sortKey } from '../../lib/categories';
 
 export async function getStaticPaths() {
   const series = await getCollection('series');
@@ -10,6 +11,9 @@ export async function getStaticPaths() {
 }
 const { s } = Astro.props;
 const eps = (await allEpisodes()).filter((e) => e.data.series === s.id);
+const az = [...eps].sort((a, b) => sortKey(a.data.title).localeCompare(sortKey(b.data.title)));
+const letterOf = (t: string) => (sortKey(t)[0] ?? '#').toUpperCase().replace(/[^A-Z]/, '#');
+const letters = [...new Set(az.map((e) => letterOf(e.data.title)))];
 const seasons = [...new Set(eps.map((e) => e.data.season))].sort((a, b) => a - b);
 const jsonld = {
   '@context': 'https://schema.org',
@@ -30,11 +34,37 @@ const jsonld = {
     <dt>Seasons</dt><dd>{s.data.seasons}</dd>
     <dt>Episodes and segments</dt><dd>{eps.length}</dd>
   </dl>
+  <p><a href="#episodes">Jump to all {eps.length} episodes</a> (A to Z or in air order)</p>
   <HistoryAndIntl history={s.data.history} intl={s.data.international_titles} releases={s.data.releases} />
+  <h2 id="episodes">Episodes</h2>
+  <div class="view-toggle" data-pagefind-ignore>
+    <button type="button" data-view="az" aria-pressed="true">A to Z</button>
+    <button type="button" data-view="air" aria-pressed="false">In air order</button>
+    <span class="small muted">Alphabetical by default (ignoring a leading "The", "A" or "An"); switch to see the broadcast order by season.</span>
+  </div>
+  <div id="view-az">
+    <p class="small letters">{letters.map((l) => <a href={`#az-${l}`}>{l}</a>)}</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Title</th><th>Season and episode</th><th>Aired</th><th>Written by</th></tr></thead>
+        <tbody>
+          {az.map((e, i) => (
+            <tr id={i === 0 || letterOf(az[i - 1].data.title) !== letterOf(e.data.title) ? `az-${letterOf(e.data.title)}` : undefined}>
+              <td><a href={`/episodes/${e.id}/`}>{e.data.title}</a></td>
+              <td>S{e.data.season} E{episodeNumber(e.data)}</td>
+              <td>{formatDate(e.data.air_date)}</td>
+              <td>{e.data.writers.join(', ')}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div id="view-air">
   <p class="small letters">Jump to: {seasons.map((n) => <a href={`#season-${n}`}>Season {n}</a>)}</p>
   {seasons.map((n) => (
     <section id={`season-${n}`}>
-      <h2>Season {n}</h2>
+      <h3>Season {n}</h3>
       <div class="table-wrap">
         <table>
           <thead><tr><th>#</th><th>Title</th><th>Aired</th><th>Written by</th><th>Directed by</th></tr></thead>
@@ -53,4 +83,16 @@ const jsonld = {
       </div>
     </section>
   ))}
+  </div>
+  <script is:inline>
+    (() => {
+      const set = (v) => {
+        for (const b of document.querySelectorAll('.view-toggle button')) b.setAttribute('aria-pressed', String(b.dataset.view === v));
+        document.getElementById('view-az').hidden = v !== 'az';
+        document.getElementById('view-air').hidden = v !== 'air';
+      };
+      for (const b of document.querySelectorAll('.view-toggle button')) b.addEventListener('click', () => set(b.dataset.view));
+      set(location.hash.startsWith('#season-') ? 'air' : 'az');
+    })();
+  </script>
 </Base>

@@ -1,0 +1,75 @@
+---
+// A category landing page: what the category is, how it ties to The Twilight Zone, its subcategories
+// with counts, and every record listed alphabetically with a description and why it is here.
+import Base from '../layouts/Base.astro';
+import ExtLinks from './ExtLinks.astro';
+import { CATEGORIES, anchor, subRank } from '../lib/categories';
+
+export interface Item {
+  id: string; // used as the anchor, so old /books/#id links keep working
+  title: string;
+  href?: string;
+  meta?: string; // one line of facts: year, creator, publisher
+  desc?: string;
+  why?: string; // connection to the show
+  tier?: string;
+  ids?: Record<string, string>;
+  links?: Record<string, string>;
+  sort: string;
+  sub: string;
+}
+interface Props { category: string; items: Item[]; lead?: string; showWhy?: boolean }
+const { category, items, lead, showWhy = true } = Astro.props;
+const info = CATEGORIES[category];
+const groups = new Map<string, Item[]>();
+for (const it of items) {
+  if (!groups.has(it.sub)) groups.set(it.sub, []);
+  groups.get(it.sub)!.push(it);
+}
+const ordered = [...groups.entries()]
+  .sort((a, b) => subRank(a[0]).localeCompare(subRank(b[0])))
+  .map(([sub, list]) => ({ sub, list: list.sort((a, b) => a.sort.localeCompare(b.sort) || a.title.localeCompare(b.title)) }));
+const multi = ordered.length > 1;
+---
+<Base title={info.title} description={info.description}>
+  <h1>{info.title}</h1>
+  <p class="lead">{lead ?? `${items.length} records.`}</p>
+  {info.intro.map((p) => <p set:html={p} />)}
+  <aside class="tz-link">
+    <h2>How this connects to The Twilight Zone</h2>
+    <p>{info.connection}</p>
+  </aside>
+  <slot name="before" />
+  {multi && (
+    <nav class="subnav" aria-label="Subcategories" data-pagefind-ignore>
+      <h2>In this section</h2>
+      <ul>
+        {ordered.map(({ sub, list }) => (
+          <li><a href={`#${anchor(sub)}`}>{sub}</a> <span class="count-pill">{list.length}</span>{info.subgroups?.[sub] && <span class="muted small"> {info.subgroups[sub]}</span>}</li>
+        ))}
+      </ul>
+      <p class="small muted">Groups are in alphabetical order, with catch-all and unconfirmed groups last. Entries in each group are alphabetical, ignoring a leading "The", "A" or "An".</p>
+    </nav>
+  )}
+  {ordered.map(({ sub, list }) => (
+    <section id={anchor(sub)}>
+      {multi && <h2>{sub} <span class="muted small">({list.length})</span></h2>}
+      {multi && info.subgroups?.[sub] && <p class="muted small">{info.subgroups[sub]}</p>}
+      <ul class="entries">
+        {list.map((it) => (
+          <li id={it.id}>
+            <div class="entry-head">
+              {it.href ? <a href={it.href} class="entry-title">{it.title}</a> : <span class="entry-title">{it.title}</span>}
+              {it.meta && <span class="muted small"> · {it.meta}</span>}
+              {it.tier && it.tier !== 'core' && <span class={`tag tier-${it.tier}`}>{it.tier}</span>}
+            </div>
+            {it.desc && <p class="entry-desc">{it.desc}</p>}
+            {showWhy && it.why && it.why !== it.desc && <p class="entry-why small"><strong>Twilight Zone connection:</strong> {it.why}</p>}
+            {(it.ids || it.links) && <p class="small"><ExtLinks ids={it.ids} links={it.links} /></p>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+  <slot />
+</Base>

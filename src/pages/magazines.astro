@@ -1,18 +1,11 @@
 ---
-import Base from '../layouts/Base.astro';
-import ExtLinks from '../components/ExtLinks.astro';
+import CategoryLanding from '../components/CategoryLanding.astro';
 import { getCollection } from 'astro:content';
-const mags = (await getCollection('magazines')).sort((a, b) => (a.data.order ?? 0) - (b.data.order ?? 0));
+import { item, meta } from '../lib/landing';
+const mags = (await getCollection('magazines')).filter((m) => !m.data.duplicate_of);
+const items = mags.map((m) => item('magazines', m.id, m.data.title, {
+  meta: meta(m.data.cover_date && String(m.data.cover_date), m.data.publisher),
+  desc: m.data.description, ids: m.data.ids, links: m.data.links,
+}));
 ---
-<Base title="Magazines" description="Rod Serling's The Twilight Zone Magazine and other Twilight Zone periodicals, issue by issue.">
-  <h1>Magazines</h1>
-  <p class="lead">{mags.length} issues, led by Rod Serling's The Twilight Zone Magazine (1981 onward).</p>
-  <div class="table-wrap"><table>
-    <thead><tr><th>Issue</th><th>Cover date</th><th>Editor</th><th>Publisher</th><th>Links</th></tr></thead>
-    <tbody>
-      {mags.map((m) => (
-        <tr id={m.id}><td>{m.data.title}{m.data.description && <div class="small muted">{m.data.description}</div>}</td><td>{m.data.cover_date}</td><td>{m.data.editor}</td><td>{m.data.publisher}</td><td><ExtLinks ids={m.data.ids} links={m.data.links} /></td></tr>
-      ))}
-    </tbody>
-  </table></div>
-</Base>
+<CategoryLanding category="magazines" items={items} lead={`${items.length} magazine issues: the show's own magazines and other magazines' Twilight Zone coverage.`} />

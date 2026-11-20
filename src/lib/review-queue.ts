@@ -6,6 +6,8 @@ import { join, relative, resolve } from 'node:path';
 import { parse } from 'yaml';
 import { loadDecisions, statusOf, type ReviewStatus } from './review';
 import { slugify } from './slug';
+import { assess } from './assessments';
+import { subRank } from './categories';
 
 export interface QueueRow {
   key: string;
@@ -26,6 +28,16 @@ export interface QueueRow {
   status: ReviewStatus;
   notes?: string;
   reviewed?: string;
+  // From data/review/assessments.json (scripts/assess.py): why the record is here and what to do with it.
+  subcategory?: string;
+  sort?: string;
+  connection?: string;
+  tier?: string;
+  tier_reason?: string;
+  recommendation?: string;
+  reason?: string;
+  source_title?: string;
+  source_url?: string;
 }
 
 // Display names and order of categories on the review page and in the spreadsheet.
@@ -99,6 +111,11 @@ export function rowFor(collection: string, id: string, d: any, decisions = loadD
     status: statusOf(decisions, key),
     notes: dec?.notes,
     reviewed: dec?.date,
+    ...(() => {
+      const a = assess(key);
+      return a ? { title: a.title || title(collection, id, d), subcategory: a.subcategory, sort: a.sort, connection: a.connection, tier: a.tier, tier_reason: a.tier_reason,
+        recommendation: a.recommendation, reason: a.reason, source_title: a.source_title, source_url: a.source_url } : {};
+    })(),
   };
 }
 
@@ -122,6 +139,11 @@ export function reviewQueue(root = resolve(process.cwd(), 'src/content')): Queue
       rows.push(rowFor(collection, id, d, decisions));
     }
   }
-  const rank = (c: string) => (order.includes(c) ? order.indexOf(c) : order.length);
-  return rows.sort((a, b) => rank(a.collection) - rank(b.collection) || a.collection.localeCompare(b.collection) || a.key.localeCompare(b.key, undefined, { numeric: true }));
+  // Grouped by category (alphabetical by label), then subcategory, then title ignoring a leading The/A/An.
+  void order;
+  const label = (c: string) => CATEGORY_LABELS[c] ?? c;
+  return rows.sort((a, b) => label(a.collection).localeCompare(label(b.collection))
+    || subRank(a.subcategory ?? '').localeCompare(subRank(b.subcategory ?? ''))
+    || (a.sort ?? '').localeCompare(b.sort ?? '')
+    || a.key.localeCompare(b.key, undefined, { numeric: true }));
 }

@@ -1,19 +1,12 @@
 ---
-import Base from '../layouts/Base.astro';
-import ExtLinks from '../components/ExtLinks.astro';
+import CategoryLanding from '../components/CategoryLanding.astro';
 import { getCollection } from 'astro:content';
+import { item, meta, year } from '../lib/landing';
 import { formatDate } from '../lib/data';
-const pods = (await getCollection('podcasts')).sort((a, b) => (a.data.first_episode ?? '').localeCompare(b.data.first_episode ?? ''));
+const pods = (await getCollection('podcasts')).filter((p) => !p.data.duplicate_of);
+const items = pods.map((p) => item('podcasts', p.id, p.data.title, {
+  meta: meta(p.data.hosts.join(', '), p.data.first_episode && `since ${formatDate(p.data.first_episode) ?? year(p.data.first_episode)}`),
+  desc: p.data.description, links: p.data.links,
+}));
 ---
-<Base title="Podcasts" description="Podcasts that revisit The Twilight Zone episode by episode.">
-  <h1>Podcasts</h1>
-  <p class="lead">{pods.length} podcasts devoted to the show, oldest first.</p>
-  <div class="table-wrap"><table>
-    <thead><tr><th>Podcast</th><th>Hosts</th><th>First episode</th><th>Links</th></tr></thead>
-    <tbody>
-      {pods.map((p) => (
-        <tr id={p.id}><td>{p.data.title}</td><td>{p.data.hosts.join(', ')}</td><td>{formatDate(p.data.first_episode)}</td><td><ExtLinks links={p.data.links} /></td></tr>
-      ))}
-    </tbody>
-  </table></div>
-</Base>
+<CategoryLanding category="podcasts" items={items} lead={`${items.length} podcasts and podcast episodes about the show.`} />

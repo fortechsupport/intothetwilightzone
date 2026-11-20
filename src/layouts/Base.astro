@@ -10,16 +10,19 @@ const preview = reviewMode() !== 'public';
 const { title, description = 'An independent, non-commercial living history of The Twilight Zone: every series, episode, person, and the films, songs and stories it inspired.', jsonld, noindex } = Astro.props;
 const fullTitle = title === 'Home' ? 'IntoTheTwilightZone.com' : `${title} · IntoTheTwilightZone.com`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
+// Sections in alphabetical order; Search stays last as a utility link.
 const nav = [
-  ['Series', '/series/'],
-  ['People', '/people/'],
+  ['Beyond the screen', '/beyond/'],
+  ['Films', '/films/'],
   ['Influence', '/influence/'],
+  ['Night Gallery', '/night-gallery/'],
+  ['People', '/people/'],
+  ['Places', '/places/'],
+  ['Rod Serling', '/rod-serling/'],
+  ['Series', '/series/'],
+  ['Songs', '/songs/'],
   ['Timeline', '/timeline/'],
   ['Voices', '/voices/'],
-  ['Places', '/places/'],
-  ['Films', '/films/'],
-  ['Songs', '/songs/'],
-  ['Beyond the screen', '/beyond/'],
   ['Search', '/search/'],
 ];
 const path = Astro.url.pathname;

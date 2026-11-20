@@ -177,6 +177,8 @@ def sub_rank(sub: str) -> tuple:
     for k, v in EPISODE_ORDER.items():
         if sub.startswith(k):
             return (0, v, "")
+    if re.match(r"(?i)^(other|connection not yet confirmed|fellow anthology)", sub):
+        return (2, 0, sub.lower())
     return (1, 0, sub.lower())
 
 
@@ -337,7 +339,7 @@ def export(out: Path, base_url: str) -> None:
     for line in [
         "How to review",
         "",
-        "Every row is one record. Rows are grouped by category, then subcategory, then sorted alphabetically by title (a leading The, A or An is ignored).",
+        "Every row is one record. Rows are grouped by category (A to Z), then subcategory (A to Z, with catch-all and unconfirmed groups last; TV episodes by series), then sorted alphabetically by title (a leading The, A or An is ignored).",
         "Read three columns to decide: Connection to TZ (how it relates to the show), Tier (how close it is) and Recommendation with Why (what I suggest and the reason).",
         "Source / Source link is the best independent evidence for the connection. Page opens the record on the preview site.",
         "",
