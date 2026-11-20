@@ -1,0 +1,17 @@
+name: The Night Gallery
+kind: in-story
+filmed:
+- ref: films/night-gallery-pilot
+  note: Serling introduces the paintings in the 1969 pilot film.
+- ref: films/night-gallery
+  note: Each episode opens in the gallery.
+notes: The shadowy museum where Rod Serling, as curator, stands before paintings that each introduce a story. The
+  paintings were made for the show, mostly by Tom Wright and Jaroslav Gebr. It is Serling's second great fictional
+  framing space after the Twilight Zone itself.
+sources:
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-20'
+locked: true

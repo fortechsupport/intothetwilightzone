@@ -1,0 +1,15 @@
+name: The Hollywood Tower Hotel
+kind: in-story
+filmed:
+- ref: films/tower-of-terror-1997
+  note: The haunted hotel of the 1997 TV film.
+notes: 'The fictional Hollywood hotel at the heart of Disney''s Twilight Zone Tower of Terror rides: on Halloween
+  night 1939, lightning struck it and five guests vanished from an elevator. Riders enter through a library where
+  Rod Serling, in re-edited footage, introduces the story. The 1997 TV film uses the same backstory.'
+sources:
+- title: 'Wikipedia: The Twilight Zone Tower of Terror'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_Tower_of_Terror
+research_confidence: high
+relevance: related
+last_verified: '2026-11-20'
+locked: true

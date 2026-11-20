@@ -1,0 +1,19 @@
+name: Sunnyvale Rest
+kind: in-story
+filmed:
+- ref: 1959/kick-the-can
+  note: The retirement home where Charles Whitley persuades residents to play a children's game.
+- ref: films/twilight-zone-the-movie
+  note: Steven Spielberg's segment remakes the story in a retirement home.
+episodes:
+- 1959/kick-the-can
+notes: 'A home for the aged whose residents, led by Charles Whitley, recover their childhood by playing kick-the-can
+  on the lawn at night, while sceptical Ben Conroy stays old. The idea returned as Spielberg''s segment of Twilight
+  Zone: The Movie (1983).'
+sources:
+- title: 'Wikipedia: Kick the Can (The Twilight Zone)'
+  url: https://en.wikipedia.org/wiki/Kick_the_Can_(The_Twilight_Zone)
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

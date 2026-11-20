@@ -1,0 +1,17 @@
+name: The "nice place" ("A Nice Place to Visit")
+kind: in-story
+filmed:
+- ref: 1959/a-nice-place-to-visit
+  note: The afterlife that gives a dead crook everything he wants.
+episodes:
+- 1959/a-nice-place-to-visit
+notes: After petty thief Rocky Valentine is shot, his guide Pip gives him a luxurious apartment, winning streaks
+  and admiring women. Endless success bores him, and when he asks to go to "the other place" he learns he is already
+  there.
+sources:
+- title: 'Wikipedia: A Nice Place to Visit'
+  url: https://en.wikipedia.org/wiki/A_Nice_Place_to_Visit
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

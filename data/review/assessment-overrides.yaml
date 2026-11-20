@@ -1,1 +1,537 @@
-{}
+locations/busy-bee-cafe-ridgeview-ohio:
+  connection: Setting of Richard Matheson's "Nick of Time."
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/castle-of-the-brothers-of-truth:
+  connection: Setting of Charles Beaumont's "The Howling Man."
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/centerville-stopover:
+  connection: Setting of a fifth-season episode with a famous final reveal.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/cliffordville-indiana:
+  connection: Setting of a fourth-season Serling script.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/corrys-asteroid:
+  connection: Setting of a first-season Serling episode; links to the Death Valley filming record.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/dachau-deaths-head-revisited:
+  connection: A real historic site that Serling used to argue for remembrance.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/elmira-college:
+  connection: Venue of one of Serling's last recorded lectures.
+  tier: related
+  tier_reason: A place tied to Rod Serling's life, lectures or legacy.
+  recommendation: include
+  reason: Gives the 1975 lecture a place on the map; small, sourced and specific.
+locations/fords-theatre-back-there:
+  connection: A real historic place as Serling imagined it in an episode.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/foster-mansion-new-orleans:
+  connection: Setting of a fifth-season Serling episode.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/global-airlines-flight-33:
+  connection: Setting of a second-season Serling episode.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/happiness-arizona:
+  connection: Setting of a fifth-season western comedy episode.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/happy-glades:
+  connection: Setting of a first-season Charles Beaumont episode.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/hi-way-cafe:
+  connection: Setting of a classic Serling whodunit episode.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/hollywood-tower-hotel:
+  connection: The fictional hotel behind the franchise's theme-park attractions.
+  tier: related
+  tier_reason: A setting inside a related Serling or franchise story.
+  recommendation: include
+  reason: Ties the in-story places to the ride records under Places > Real life; fans know it as a TZ setting.
+locations/homewood:
+  connection: Martin Sloan's hometown, a stand-in for Serling's own Binghamton.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/leyte-philippines-serling-wwii:
+  connection: Where the war experiences behind many Serling scripts took place.
+  tier: related
+  tier_reason: A place tied to Rod Serling's life, lectures or legacy.
+  recommendation: include
+  reason: Explains the source of a recurring theme; pairs with the Camp Toccoa record.
+locations/maple-street:
+  connection: Setting of the most-taught Twilight Zone episode and its 2002-series remake.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/mars-zoo-people-are-alike:
+  connection: Setting of a first-season episode adapted from Paul W. Fairman.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/moorpark-college:
+  connection: Venue of Serling's 1968 loyalty-oath speech.
+  tier: related
+  tier_reason: A place tied to Rod Serling's life, lectures or legacy.
+  recommendation: include
+  reason: A vivid, documented moment of Serling's public life.
+locations/night-gallery-the-gallery:
+  connection: Serling's framing setting for Night Gallery.
+  tier: related
+  tier_reason: A setting inside a related Serling or franchise story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/pacific-ocean-park-santa-monica:
+  connection: Filming location for a fifth-season episode.
+  tier: core
+  tier_reason: A place where the show itself was made or is celebrated.
+  recommendation: include
+  reason: A documented filming location; lost places like this are a highlight of a locations section.
+locations/peaceful-valley-new-mexico:
+  connection: Setting of a fourth-season hour episode.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/peaksville-ohio:
+  connection: Setting of one of the most famous episodes and its official sequel.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/rock-spring-school:
+  connection: Setting of a third-season Serling Christmas episode.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/room-22-morgue:
+  connection: Setting of a second-season videotaped episode.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/ss-queen-of-glasgow:
+  connection: Setting of a first-season Serling episode.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/stockton-fallout-shelter:
+  connection: Setting of a Serling Cold War episode.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/sunnyvale-rest:
+  connection: Setting of George Clayton Johnson's episode and its 1983 film remake.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/suny-broome-community-college:
+  connection: Hometown venue of a 1964 Serling speech.
+  tier: related
+  tier_reason: A place tied to Rod Serling's life, lectures or legacy.
+  recommendation: include
+  reason: Hometown lecture venue with a dated, sourced talk.
+locations/the-cornfield:
+  connection: A named destination inside the Peaksville story that became a catchphrase.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/the-cylinder-five-characters:
+  connection: Setting of a third-season Serling episode.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/the-highway-hitch-hiker:
+  connection: Setting of a first-season episode drawn from a classic radio play.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/the-nice-place:
+  connection: Setting of one of the series' most-quoted twists.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/the-ninth-floor:
+  connection: Setting of a first-season Serling episode and its 1985 remake.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/the-old-mans-cave:
+  connection: Setting of a fifth-season Serling episode.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/the-twilight-zone-dimension:
+  connection: The title place of the whole franchise.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: The anchor record for the in-story places section; every other setting is a corner of it.
+locations/tinas-other-dimension:
+  connection: Setting of a third-season Matheson episode with a documented film legacy.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/ucla-campus-serling-talks:
+  connection: Venue of two filmed Serling talks.
+  tier: related
+  tier_reason: A place tied to Rod Serling's life, lectures or legacy.
+  recommendation: include
+  reason: Links two of the best surviving Serling lecture films to a place.
+locations/upstate-new-york-bus-depot:
+  connection: Setting of an episode whose local place names point to Serling's Southern Tier roots.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/v9-gamma:
+  connection: Setting of a fourth-season Serling hour episode.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/westport-library:
+  connection: Venue of the 2024 centennial symposium in Serling's former hometown.
+  tier: related
+  tier_reason: A place tied to Rod Serling's life, lectures or legacy.
+  recommendation: include
+  reason: Connects the symposium record to Serling's Westport years.
+locations/willoughby:
+  connection: The best-known fictional town of the original series, from Serling's own script.
+  tier: core
+  tier_reason: A setting inside a Twilight Zone story.
+  recommendation: include
+  reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
+    site.
+locations/wkrc-tv-cincinnati:
+  connection: An early workplace in Serling's road to television.
+  tier: related
+  tier_reason: A place tied to Rod Serling's life, lectures or legacy.
+  recommendation: include
+  reason: Fills the gap between the WLW radio and New York records in his career map.
+works/anne-serling-umw-great-lives-2025:
+  connection: A recorded talk about Serling by his daughter.
+  tier: related
+  tier_reason: A talk by Rod Serling, or about him, in his own voice or legacy.
+  recommendation: include
+  reason: Free video, first-hand family perspective.
+works/antioch-marker-dedication-2025:
+  connection: Dedication of a state marker to Serling.
+  tier: related
+  tier_reason: An event in Rod Serling's life or the wider franchise.
+  recommendation: include
+  reason: The event behind the existing marker location record.
+works/binghamton-twilight-zone-50-2009:
+  connection: Hometown celebration of the 50th anniversary.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: Documents how the hometown marked the milestone; includes audio.
+works/boulton-take-this-stand-2010:
+  connection: An academic talk on the show's politics.
+  tier: core
+  tier_reason: A talk or class about The Twilight Zone itself.
+  recommendation: include
+  reason: Sourced academic lecture on the show's themes.
+works/bridgewater-state-anthropology-twilight-zone:
+  connection: A university course built on the show.
+  tier: core
+  tier_reason: A talk or class about The Twilight Zone itself.
+  recommendation: include
+  reason: Shows the series' standing as a teaching text.
+works/bundy-rod-serling-archive-opening-2015:
+  connection: Opening of the only permanent TZ exhibit in Serling's hometown.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: A museum of TZ props and history.
+works/chris-alexander-morbid-anatomy-2024:
+  connection: A public lecture about the show.
+  tier: core
+  tier_reason: A talk or class about The Twilight Zone itself.
+  recommendation: maybe
+  reason: Paywalled recording; include if you want to list current lecture activity.
+works/final-original-broadcast-1964:
+  connection: The end of the original run.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: Closes the original-series timeline.
+works/hour-long-season-premiere-1963:
+  connection: A turning point in the original run.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: Explains the odd-length season four in the episode lists.
+works/ktla-july-4-marathon:
+  connection: A long-running holiday marathon.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: Part of the marathon tradition.
+works/ktla-thanksgiving-marathon-1980:
+  connection: One of the earliest documented TZ marathons.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: The origin story of the marathon tradition fans still follow.
+works/lost-classics-broadcast-1994:
+  connection: Broadcast of Serling's unproduced stories under the franchise name.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: Core franchise date.
+works/national-twilight-zone-day:
+  connection: A fan observance named after the show.
+  tier: tangential
+  tier_reason: An event with a light tie to the show.
+  recommendation: maybe
+  reason: Popular online but with no known origin; keep if you want fan observances, otherwise skip.
+works/night-gallery-pilot-broadcast-1969:
+  connection: Premiere of Serling's second anthology.
+  tier: related
+  tier_reason: An event in Rod Serling's life or the wider franchise.
+  recommendation: include
+  reason: Night Gallery is in scope per Adam's rule; its premiere belongs on the timeline.
+works/serling-antioch-drama-in-the-mass-media-1962:
+  connection: Serling teaching writing during the series' run.
+  tier: related
+  tier_reason: A talk by Rod Serling, or about him, in his own voice or legacy.
+  recommendation: include
+  reason: A rare record of what Serling taught, from a student's notes, mid-way through the show.
+works/serling-broome-tech-censorship-1964:
+  connection: Serling's own views on the pressures he worked under on the show.
+  tier: related
+  tier_reason: A talk by Rod Serling, or about him, in his own voice or legacy.
+  recommendation: include
+  reason: A first-hand account of Serling's censorship battles, in his hometown.
+works/serling-death-1975:
+  connection: The death of the show's creator.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: A necessary timeline entry; links his hospital and grave records.
+works/serling-elmira-college-1975:
+  connection: One of Serling's last recorded lectures.
+  tier: related
+  tier_reason: A talk by Rod Serling, or about him, in his own voice or legacy.
+  recommendation: include
+  reason: A rare late recording; worth listing even though it is only available on request.
+works/serling-ithaca-episode-screenings:
+  connection: Serling teaching with his own episodes.
+  tier: core
+  tier_reason: A talk or class about The Twilight Zone itself.
+  recommendation: include
+  reason: First-hand accounts of Serling discussing the show with students.
+works/serling-ithaca-student-seminar-1972:
+  connection: Serling as a teacher in his Ithaca years.
+  tier: related
+  tier_reason: A talk by Rod Serling, or about him, in his own voice or legacy.
+  recommendation: include
+  reason: Free video of Serling teaching.
+works/serling-library-of-congress-lecture-1968:
+  connection: A formal Serling lecture on writing for television.
+  tier: related
+  tier_reason: A talk by Rod Serling, or about him, in his own voice or legacy.
+  recommendation: include
+  reason: Rare, archived audio of Serling at the national library; streamable from a public archive.
+works/serling-moorpark-college-1968:
+  connection: Serling's politics in his own words, the same convictions behind many episodes.
+  tier: related
+  tier_reason: A talk by Rod Serling, or about him, in his own voice or legacy.
+  recommendation: include
+  reason: Full printed text survives; a strong primary source on Serling as a public voice.
+works/serling-ucla-1966:
+  connection: Serling discussing his craft two years after the show ended.
+  tier: related
+  tier_reason: A talk by Rod Serling, or about him, in his own voice or legacy.
+  recommendation: include
+  reason: One of the longest surviving films of Serling teaching; free to watch.
+works/serling-ucla-1971:
+  connection: Serling on writing, in the Night Gallery years.
+  tier: related
+  tier_reason: A talk by Rod Serling, or about him, in his own voice or legacy.
+  recommendation: include
+  reason: Free, filmed and well cited.
+works/serlingfest-2025-in-his-own-words:
+  connection: The 2025 edition of the main annual Serling festival.
+  tier: related
+  tier_reason: An event in Rod Serling's life or the wider franchise.
+  recommendation: include
+  reason: A dated, sourced festival with notable speakers.
+works/serlingfest-2026:
+  connection: The 2026 edition of the main annual Serling festival.
+  tier: related
+  tier_reason: An event in Rod Serling's life or the wider franchise.
+  recommendation: maybe
+  reason: Dates come from the foundation's announcement; confirm the programme before featuring it.
+works/spotnitz-serlingfest-keynote-2025:
+  connection: A TV writer on the show's influence.
+  tier: core
+  tier_reason: A talk or class about The Twilight Zone itself.
+  recommendation: include
+  reason: A documented talk on the show's legacy by a major successor.
+works/syfy-new-years-marathon:
+  connection: The national form of the marathon tradition.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: A ritual many fans know the show from.
+works/the-time-element-broadcast-1958:
+  connection: The unofficial pilot that got the series made.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: The true starting point of the franchise; belongs at the top of the timeline.
+works/tower-of-terror-california-closing-2017:
+  connection: End of one TZ attraction.
+  tier: related
+  tier_reason: An event in Rod Serling's life or the wider franchise.
+  recommendation: include
+  reason: Closing dates complete the attraction records.
+works/tower-of-terror-film-1997:
+  connection: Premiere of a film based on the TZ attraction.
+  tier: related
+  tier_reason: An event in Rod Serling's life or the wider franchise.
+  recommendation: include
+  reason: A franchise spin-off of the ride; one step from the show.
+works/tower-of-terror-orlando-opening-1994:
+  connection: Opening of the franchise's theme-park attraction.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: The attraction is the franchise's biggest physical presence; its opening is a key date.
+works/twilight-zone-1985-premiere:
+  connection: Premiere of the first revival.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: Core franchise date.
+works/twilight-zone-2002-premiere:
+  connection: Premiere of the second revival.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: Core franchise date.
+works/twilight-zone-2019-premiere:
+  connection: Premiere of the third revival.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: Core franchise date.
+works/twilight-zone-magazine-launch-1981:
+  connection: Launch of the official magazine.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: Marks a licensed revival of the brand between the series and the film.
+works/twilight-zone-premiere-1959:
+  connection: The first broadcast of the series.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: The founding date of everything on the site.
+works/twilight-zone-the-movie-release-1983:
+  connection: Release of the franchise's feature film.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: The film's release is a core franchise date.
+works/twilight-zone-trial-1986-1987:
+  connection: The legal aftermath of the deaths on the film's set.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: Inseparable from the film's history; handled factually, it is one of the most-searched TZ topics.
+works/wissner-music-in-the-twilight-zone-2017:
+  connection: An academic lecture on the show's music.
+  tier: core
+  tier_reason: A talk or class about The Twilight Zone itself.
+  recommendation: include
+  reason: Scholarly talk on an under-covered side of the show.
+works/wpix-new-years-marathon:
+  connection: Likely origin of the New Year's marathon.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: Explains the best-known TZ ritual; flagged medium confidence because the first year is uncertain.

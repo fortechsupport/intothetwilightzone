@@ -1,0 +1,17 @@
+name: Happy Glades
+kind: in-story
+filmed:
+- ref: 1959/elegy
+  note: The asteroid cemetery where three astronauts find a frozen Earth town.
+episodes:
+- 1959/elegy
+notes: Three stranded astronauts land on an asteroid that looks like an American town in which every person stands
+  frozen in place. The caretaker, Jeremy Wickwire, explains that it is Happy Glades, a cemetery where the dead are
+  posed doing what they loved, and he soon makes the visitors his newest exhibits.
+sources:
+- title: 'Wikipedia: Elegy (The Twilight Zone)'
+  url: https://en.wikipedia.org/wiki/Elegy_(The_Twilight_Zone)
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

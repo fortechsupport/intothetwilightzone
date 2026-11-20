@@ -1,0 +1,17 @@
+name: Centerville (the toy town)
+kind: in-story
+filmed:
+- ref: 1959/stopover-in-a-quiet-town
+  note: The silent town Bob and Millie Frazier wake up in.
+episodes:
+- 1959/stopover-in-a-quiet-town
+notes: 'After a party near Riverdale, a couple wakes in an empty, oddly artificial town called Centerville where
+  the trees are props and the trains loop back. The last shot shows a giant child picking them up: they are pets
+  in an alien girl''s model village.'
+sources:
+- title: 'Wikipedia: Stopover in a Quiet Town'
+  url: https://en.wikipedia.org/wiki/Stopover_in_a_Quiet_Town
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

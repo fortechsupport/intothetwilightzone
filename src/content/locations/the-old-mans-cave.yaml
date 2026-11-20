@@ -1,0 +1,17 @@
+name: The cave ("The Old Man in the Cave")
+kind: in-story
+filmed:
+- ref: 1959/the-old-man-in-the-cave
+  note: Post-nuclear settlement guided by a voice from a cave, 1974.
+episodes:
+- 1959/the-old-man-in-the-cave
+notes: In 1974, ten years after a nuclear war, a small settlement survives by following the advice of an unseen
+  "old man" in a cave, relayed by Mr. Goldsmith. Soldiers arrive, break in and find a computer; the townspeople
+  then eat the contaminated food it warned them against.
+sources:
+- title: 'Wikipedia: The Old Man in the Cave'
+  url: https://en.wikipedia.org/wiki/The_Old_Man_in_the_Cave
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,21 @@
+name: Maple Street
+kind: in-story
+filmed:
+- ref: 1959/the-monsters-are-due-on-maple-street
+  note: A suburban street that turns on itself after a power failure.
+- ref: 2002/the-monsters-are-on-maple-street
+  note: The 2003 remake updates the paranoia to terrorism.
+episodes:
+- 1959/the-monsters-are-due-on-maple-street
+- 2002/the-monsters-are-on-maple-street
+notes: An ordinary late-summer suburban street whose residents, after a mysterious blackout and a rumour of invaders,
+  accuse and finally attack one another; aliens watching from a hill note that people are their own best weapon.
+  Serling's closing narration makes Maple Street a stand-in for any community that gives in to fear. The episode
+  is widely taught in American schools.
+sources:
+- title: 'Wikipedia: The Monsters Are Due on Maple Street'
+  url: https://en.wikipedia.org/wiki/The_Monsters_Are_Due_on_Maple_Street
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

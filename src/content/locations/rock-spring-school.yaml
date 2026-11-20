@@ -1,0 +1,17 @@
+name: Rock Spring School
+kind: in-story
+filmed:
+- ref: 1959/the-changing-of-the-guard
+  note: The New England boys' school where Professor Ellis Fowler has taught for decades.
+episodes:
+- 1959/the-changing-of-the-guard
+notes: A snowbound boys' preparatory school where an elderly teacher (Donald Pleasence), forced to retire at Christmas,
+  is visited by the ghosts of former pupils who died in war and public service and learns how his teaching shaped
+  them.
+sources:
+- title: 'Wikipedia: The Changing of the Guard'
+  url: https://en.wikipedia.org/wiki/The_Changing_of_the_Guard
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

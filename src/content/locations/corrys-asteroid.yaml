@@ -1,0 +1,16 @@
+name: Corry's asteroid ("The Lonely")
+kind: in-story
+filmed:
+- ref: 1959/the-lonely
+  note: A desert prison asteroid where James Corry lives with a robot, Alicia.
+episodes:
+- 1959/the-lonely
+notes: A barren asteroid nine million miles from Earth where convict James Corry serves a 50-year sentence alone,
+  until a supply captain leaves him a lifelike robot companion. The exteriors were shot in Death Valley.
+sources:
+- title: 'Wikipedia: The Lonely'
+  url: https://en.wikipedia.org/wiki/The_Lonely
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

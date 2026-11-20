@@ -1,0 +1,19 @@
+title: SerlingFest 2026
+kind: event
+subtype: festival
+year: 2026
+description: The foundation announced SerlingFest 2026 for August 21-22 at the Binghamton DoubleTree hotel, with
+  a closing gathering at the Serling statue in Recreation Park on August 23.
+details:
+  dates: 2026-08-21 to 2026-08-23
+  location: Binghamton, New York
+  series: works/serlingfest
+sources:
+- title: RSMF Fall 2025 newsletter
+  url: https://rodserling.com/fall-2025-newsletter/
+categories:
+- events/anniversaries-festivals
+research_confidence: low
+relevance: related
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,17 @@
+name: The cross-country highway ("The Hitch-Hiker")
+kind: in-story
+filmed:
+- ref: 1959/the-hitch-hiker
+  note: Nan Adams's drive from New York to California.
+episodes:
+- 1959/the-hitch-hiker
+notes: Driving alone from New York to Los Angeles, Nan Adams keeps seeing the same hitch-hiker by the road, mile
+  after mile. She learns she died in a tyre blow-out in Pennsylvania days earlier and he is Death. Adapted from
+  Lucille Fletcher's 1941 radio play.
+sources:
+- title: 'Wikipedia: The Hitch-Hiker (The Twilight Zone)'
+  url: https://en.wikipedia.org/wiki/The_Hitch-Hiker_(The_Twilight_Zone)
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

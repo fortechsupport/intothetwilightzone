@@ -1,0 +1,39 @@
+title: Rod Serling, Library of Congress lecture on television and the literary artist (1968)
+kind: lecture
+subtype: lecture
+year: 1968
+creator: Rod Serling
+description: Serling lectured at the Library of Congress on television as a medium for the literary artist. Michigan
+  public station WUOM and the Library distributed it as programme 5 of the radio series "Library of Congress Lectures
+  II," dated October 4, 1968. The American Archive of Public Broadcasting holds two copies (29:00 and 25:44). Mark
+  Olshaker presented this speech at SerlingFest 2025.
+details:
+  date: 1968-10-04 (broadcast)
+  venue: Library of Congress, Washington, D.C.
+  producer: WUOM (Ann Arbor) and Library of Congress
+sources:
+- title: 'American Archive of Public Broadcasting: Library of Congress lectures II, episode 5 of 9'
+  url: https://americanarchive.org/catalog/cpb-aacip-500-tb0xv19x
+- title: 'Unlocking the Airwaves (MITH): programme record'
+  url: https://archive.mith.umd.edu/airwaves/episode/cpb-aacip-500-tb0xv19x
+media:
+- type: audio
+  title: Library of Congress Lectures II, programme 5 (Serling) - copy 1
+  url: https://archive.mith.umd.edu/airwaves/episode/cpb-aacip-500-tb0xv19x
+  host: Unlocking the Airwaves / American Archive of Public Broadcasting
+  date: '1968-10-04'
+  duration: '29:00'
+  rights: unknown
+- type: audio
+  title: Library of Congress Lectures II, programme 5 (Serling) - copy 2
+  url: https://archive.mith.umd.edu/airwaves/episode/cpb-aacip-500-bz619d02/
+  host: Unlocking the Airwaves / American Archive of Public Broadcasting
+  date: '1968-10-04'
+  duration: '25:44'
+  rights: unknown
+categories:
+- lectures/serling-lectures
+research_confidence: high
+relevance: related
+last_verified: '2026-11-20'
+locked: true

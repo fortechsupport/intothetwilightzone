@@ -1,0 +1,20 @@
+name: The ninth floor ("The After Hours")
+kind: in-story
+filmed:
+- ref: 1959/the-after-hours
+  note: The department-store floor that does not exist, where Marsha White buys a thimble.
+- ref: 1985/the-after-hours
+  note: Remade for the 1985 revival.
+episodes:
+- 1959/the-after-hours
+- 1985/the-after-hours
+notes: An elevator takes shopper Marsha White to an empty ninth floor of a department store that, she is told, has
+  no ninth floor. She is a mannequin who forgot what she was during her month among people. The episode gave its
+  title to a 2025 episode of Severance.
+sources:
+- title: 'Wikipedia: The After Hours'
+  url: https://en.wikipedia.org/wiki/The_After_Hours
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

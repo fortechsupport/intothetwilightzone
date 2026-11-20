@@ -1,0 +1,27 @@
+title: Binghamton's Twilight Zone 50th anniversary celebration (2009)
+kind: event
+subtype: anniversary
+year: 2009
+description: For the 50th anniversary in October 2009, Binghamton held a 12-hour Twilight Zone marathon at the Forum
+  Theatre, walking tours, a Rod Serling Video Festival screening of the American Masters film, and live WSKG-TV
+  performances of "Walking Distance" and "Mirror Image" on Saturday, October 3. WSKG radio's "Off the Page" aired
+  a "Twilight Zone @ 50" program with Anne Serling, Martin Grams Jr. and Larry Kassan.
+details:
+  date: 2009-10
+  location: Binghamton, New York
+sources:
+- title: 'WSKG: Twilight Zone @ 50 (Off the Page)'
+  url: https://www.wskg.org/arts/2014-10-09/twilight-zone-50
+media:
+- type: audio
+  title: 'WSKG Off the Page: Twilight Zone @ 50'
+  url: https://www.wskg.org/arts/2014-10-09/twilight-zone-50
+  host: WSKG Public Media
+  rights: link-only
+  note: Radio program with Anne Serling, Martin Grams Jr. and Larry Kassan; audio plays on the page.
+categories:
+- events/anniversaries-festivals
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

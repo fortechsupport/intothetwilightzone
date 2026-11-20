@@ -1,0 +1,20 @@
+name: The cornfield
+kind: in-story
+filmed:
+- ref: 1959/its-a-good-life
+  note: Where Anthony sends anyone who displeases him.
+- ref: 2002/its-still-a-good-life
+  note: Referenced again in the sequel.
+episodes:
+- 1959/its-a-good-life
+- 2002/its-still-a-good-life
+notes: Never shown in full, the cornfield outside Peaksville is where Anthony "wishes" people, animals and things
+  he dislikes; no one comes back. "Wished into the cornfield" is a widely quoted phrase and was echoed by The Simpsons'
+  first Treehouse of Horror parody.
+sources:
+- title: 'Wikipedia: It''s a Good Life (The Twilight Zone)'
+  url: https://en.wikipedia.org/wiki/It%27s_a_Good_Life_(The_Twilight_Zone)
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

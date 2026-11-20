@@ -1,0 +1,19 @@
+title: The Twilight Zone Tower of Terror opens at Disney-MGM Studios (1994)
+kind: event
+subtype: premiere
+year: 1994
+description: The first Twilight Zone Tower of Terror opened on July 22, 1994, at Disney-MGM Studios (now Disney's
+  Hollywood Studios) in Florida, with re-edited Serling footage and a narrator matching his voice. Versions followed
+  in California (2004) and Paris (2007); Tokyo's 2006 tower has a different story.
+details:
+  date: '1994-07-22'
+  location: locations/tower-of-terror-disneys-hollywood-studios
+sources:
+- title: 'Wikipedia: The Twilight Zone Tower of Terror'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_Tower_of_Terror
+categories:
+- events/premieres
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

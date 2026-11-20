@@ -1,0 +1,15 @@
+name: WKRC-TV, Cincinnati
+kind: serling-place
+city: Cincinnati
+region: Ohio
+country: US
+notes: The Cincinnati television station where Serling worked as a staff writer in the early 1950s, writing live
+  dramas for "The Storm" anthology while freelancing scripts to New York. It followed his radio job at WLW and came
+  before his move east and the success of "Patterns" (1955).
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+research_confidence: medium
+relevance: related
+last_verified: '2026-11-20'
+locked: true

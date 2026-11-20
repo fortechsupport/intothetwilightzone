@@ -1,0 +1,18 @@
+name: Willoughby
+kind: in-story
+filmed:
+- ref: 1959/a-stop-at-willoughby
+  note: The 1888 village Gart Williams sees from his commuter train and finally steps into.
+episodes:
+- 1959/a-stop-at-willoughby
+notes: A peaceful, sunlit village of July 1888, with a bandstand, fishing boys and an unhurried pace, that an overworked
+  New York advertising man glimpses each night when his train stops at a station that should not exist. The final
+  shot reveals "Willoughby & Son" as the name of the funeral home that collects his body, turning the dream town
+  into a metaphor for escape through death. "Willoughby" became fan shorthand for longing for a simpler past.
+sources:
+- title: 'Wikipedia: A Stop at Willoughby'
+  url: https://en.wikipedia.org/wiki/A_Stop_at_Willoughby
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

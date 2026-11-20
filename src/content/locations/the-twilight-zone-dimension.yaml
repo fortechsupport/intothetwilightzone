@@ -1,0 +1,24 @@
+name: The Twilight Zone (the dimension itself)
+kind: in-story
+filmed:
+- ref: series/1959
+  note: Named and described in Serling's opening narrations from the first season on.
+- ref: series/1985
+  note: Kept as the frame of the revival's openings.
+- ref: series/2002
+  note: Forest Whitaker's narrations keep the conceit.
+- ref: series/2019
+  note: Jordan Peele's narrations keep the conceit.
+notes: 'The show''s one constant setting is not a town but a state of being: Serling''s narrations describe a dimension
+  "beyond that which is known to man," lying between light and shadow, science and superstition. Ordinary people
+  cross into it without noticing, which is why so many episodes begin in a diner, an office or a living room. The
+  phrase entered everyday English as shorthand for any eerie or unreal situation.'
+sources:
+- title: 'Wikipedia: The Twilight Zone'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone
+- title: 'Wikipedia: The Twilight Zone (1959 TV series)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

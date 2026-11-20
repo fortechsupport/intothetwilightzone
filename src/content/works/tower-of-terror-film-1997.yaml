@@ -1,0 +1,18 @@
+title: Tower of Terror TV film premieres (1997)
+kind: event
+subtype: premiere
+year: 1997
+description: The Wonderful World of Disney aired Tower of Terror, starring Steve Guttenberg and Kirsten Dunst, on
+  October 26, 1997. It adapts the ride's 1939 Hollywood Tower Hotel story.
+details:
+  date: '1997-10-26'
+  film: films/tower-of-terror-1997
+sources:
+- title: 'Wikipedia: Tower of Terror (1997 film)'
+  url: https://en.wikipedia.org/wiki/Tower_of_Terror_(1997_film)
+categories:
+- events/premieres
+research_confidence: medium
+relevance: related
+last_verified: '2026-11-20'
+locked: true

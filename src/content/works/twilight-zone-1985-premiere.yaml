@@ -1,0 +1,19 @@
+title: The Twilight Zone revival premieres on CBS (1985)
+kind: event
+subtype: premiere
+year: 1985
+description: CBS launched the first revival on Friday, September 27, 1985, with "Shatterday" (Bruce Willis) and
+  "A Little Peace and Quiet." Episodes often held two or three stories, and writers included Harlan Ellison, Ray
+  Bradbury, Stephen King and George R. R. Martin. It ran three seasons, the last in syndication.
+details:
+  date: '1985-09-27'
+  network: CBS
+sources:
+- title: 'Wikipedia: The Twilight Zone (1985 TV series)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
+categories:
+- events/premieres
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true
