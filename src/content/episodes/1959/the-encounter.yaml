@@ -13,8 +13,8 @@ cast:
 - Neville Brand
 - George Takei
 narrator: Rod Serling
-synopsis: World War II veteran Fenton invites a young Japanese-American gardener, Arthur Takamori, up to his attic
-  for a beer. A samurai sword Fenton brought home from the war stirs tension and guilt between the two men.
+synopsis: World War II veteran Fenton invites a young Japanese-American gardener, Arthur Takamori, up to his attic for
+  a beer. A samurai sword Fenton brought home from the war stirs tension and guilt between the two men.
 themes:
 - guilt
 - memory
@@ -40,3 +40,12 @@ sources:
   url: https://en.wikipedia.org/wiki/The_Encounter_(The_Twilight_Zone)
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: William Froug on "The Encounter"
+  url: https://interviews.televisionacademy.com/interviews/william-froug
+  date: '2011-07-18'
+  duration: '1:28'

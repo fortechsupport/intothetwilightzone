@@ -155,3 +155,18 @@ media:
   url: https://metv.com/lists/6-reasons-you-should-not-sleep-on-the-1985-version-of-the-twilight-zone
   host: MeTV
   rights: link-only
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: J. Michael Straczynski interview (Television Academy)
+  url: https://interviews.televisionacademy.com/interviews/j-michael-straczynski
+  note: Listed by the Academy among interviewees who discuss The Twilight Zone; Straczynski wrote much of the 1988-89
+    season.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Harlan Ellison interview (Television Academy)
+  url: https://interviews.televisionacademy.com/interviews/harlan-ellison
+  note: Listed by the Academy among interviewees who discuss The Twilight Zone; Ellison was creative consultant in 1985-86.

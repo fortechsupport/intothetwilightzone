@@ -14,9 +14,9 @@ cast:
 - Jesse White
 - George E. Stone
 narrator: Rod Serling
-synopsis: A cranky janitor in 1890 sneaks a try with his employer's experimental time helmet and lands in 1962,
-  where cars, noise and prices bewilder him. Told largely as a silent-film comedy, his adventure has him desperate
-  to get back home.
+synopsis: A cranky janitor in 1890 sneaks a try with his employer's experimental time helmet and lands in 1962, where
+  cars, noise and prices bewilder him. Told largely as a silent-film comedy, his adventure has him desperate to get back
+  home.
 themes:
 - comedy
 - nostalgia
@@ -35,3 +35,12 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "A World of Difference", "Once Upon a Time", "Young Man's Fancy" and "Mute"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '5:32'

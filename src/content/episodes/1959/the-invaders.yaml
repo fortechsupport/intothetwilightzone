@@ -44,3 +44,11 @@ media:
   date: '2010-11-16'
   rights: licensed
   note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on his surprise that "The Invaders" became a classic
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: 0:56

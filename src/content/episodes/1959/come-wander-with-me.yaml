@@ -13,8 +13,8 @@ cast:
 - Gary Crosby
 - Bonnie Beecher
 narrator: Rod Serling
-synopsis: Rockabilly singer Floyd Burney searches the backwoods for an authentic folk song to launch his career.
-  He finds a haunting ballad sung by a lovely young woman, but the song appears to tell his own story.
+synopsis: Rockabilly singer Floyd Burney searches the backwoods for an authentic folk song to launch his career. He finds
+  a haunting ballad sung by a lovely young woman, but the song appears to tell his own story.
 themes:
 - exploitation
 - fate
@@ -33,3 +33,12 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: William Froug on Liza Minnelli auditioning for "Come Wander with Me"
+  url: https://interviews.televisionacademy.com/interviews/william-froug
+  date: '2011-07-18'
+  duration: 0:33

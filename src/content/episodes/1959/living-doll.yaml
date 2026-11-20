@@ -66,3 +66,11 @@ media:
   host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
   date: '2011-08-30'
   rights: licensed
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: William Froug on "Living Doll"
+  url: https://interviews.televisionacademy.com/interviews/william-froug
+  date: '2011-07-18'
+  duration: 0:37
