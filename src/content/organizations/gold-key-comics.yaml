@@ -8,13 +8,17 @@ aka:
 - Whitman (Western Publishing)
 - Western Publishing (Watkins Strathmore)
 kind: publisher
-description: Western Publishing's comics imprint, which published The Twilight Zone comic for about twenty years
-  from 1962, with the last issues under its Whitman label.
+description: 'Western Publishing''s comics imprint, which held the Twilight Zone comic license from 1962 to 1982:
+  92 issues of new anthology stories introduced by a drawn Rod Serling, with art by Alex Toth, Reed Crandall, Al
+  Williamson, Joe Orlando, Frank Miller and others, plus Mystery Comics Digest reprints. Late issues carried the
+  Whitman logo, #92 (1982) appeared only as a Whitman book, and Western also made the 1974 Dan Curtis Giveaways
+  mini-comic.'
 official: true
 relevance: core
 sources:
 - title: 'Wikipedia: Gold Key Comics'
   url: https://en.wikipedia.org/wiki/Gold_Key_Comics
+- title: 'Heritage comic issue index (GCD data): The Twilight Zone'
+  url: https://comics.ha.com/comic-issue-index/?id=1541
 research_confidence: medium
-tags:
-- seed-record
+last_verified: '2026-11-20'

@@ -2,11 +2,18 @@ name: Rod Serling Memorial Foundation
 aka:
 - The Rod Serling Memorial Foundation
 kind: foundation
-description: A nonprofit in Binghamton, New York, devoted to Rod Serling's life and work. It publishes newsletters
-  and articles (listed under Reading) and supports SerlingFest and other events in the city.
+description: A nonprofit in Binghamton, New York, Serling's hometown, devoted to his life and work. It publishes
+  a newsletter and a library of articles about Serling and The Twilight Zone (about 25 listed under Reading > Serling
+  Foundation papers), runs the rodserling.com awards and biography pages, and supports SerlingFest and the Serling
+  statue unveiled in Recreation Park in 2024.
 official: false
 relevance: related
-sources: []
+sources:
+- title: 'Rod Serling Memorial Foundation: Our Founding and Goals'
+  url: https://rodserling.com/about-us/
+- title: 'NY1: Rod Serling statue added to Rec Park'
+  url: https://ny1.com/nyc/all-boroughs/news/2024/09/27/rod-serling-statue-added-to-rec-park
 research_confidence: medium
-tags:
-- seed-record
+last_verified: '2026-11-20'
+location: Binghamton, New York, USA
+website: https://rodserling.com/

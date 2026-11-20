@@ -1,0 +1,17 @@
+name: Tor Books
+aka:
+- Tor
+- Tor Nightfire
+kind: publisher
+official: true
+location: New York, USA
+description: 'Science-fiction publisher of the licensed Twilight Zone story anthologies edited by Carol Serling,
+  including Twilight Zone: 19 Original Stories on the 50th Anniversary (2009) and More Stories from the Twilight
+  Zone (2010).'
+sources:
+- title: 'Wikipedia: Tor Books'
+  url: https://en.wikipedia.org/wiki/Tor_Books
+relevance: related
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

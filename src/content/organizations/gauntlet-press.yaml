@@ -2,13 +2,13 @@ name: Gauntlet Press
 aka:
 - Gauntlet Press / Edge Books
 kind: publisher
-description: Published Rod Serling's Twilight Zone scripts in the As Timeless as Infinity volumes edited by Tony
-  Albarella.
+description: 'Colorado small press that published the definitive annotated Twilight Zone scripts: Rod Serling''s
+  complete teleplays in ten As Timeless as Infinity volumes edited by Tony Albarella (2004-2013) plus a best-of
+  volume, and script collections by Richard Matheson, Charles Beaumont, Earl Hamner and Jerry Sohl.'
 official: true
 relevance: core
 sources:
 - title: 'Wikipedia: Gauntlet Press'
   url: https://en.wikipedia.org/wiki/Gauntlet_Press
 research_confidence: medium
-tags:
-- seed-record
+last_verified: '2026-11-20'

@@ -8,7 +8,6 @@ description: Serling Foundation item quoting Serling's late-career description o
 links:
   online: https://rodserling.com/rod-serling-calls-himself-a-reasonably-valuable-antique/
 categories:
-- reading/serling-own-writing
 - reading/serling-foundation-papers
 research_confidence: low
 sources:
@@ -16,3 +15,5 @@ sources:
   url: https://rodserling.com/articles-2
 last_verified: '2026-11-20'
 locked: true
+organizations:
+- Rod Serling Memorial Foundation

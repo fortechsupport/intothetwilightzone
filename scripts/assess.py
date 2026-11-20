@@ -789,7 +789,8 @@ def subcategory(col: str, rid: str, d: dict) -> str:
         return {"Gold Key Comics": "Gold Key (1962-1982)", "Dell Comics": "Dell (1961-1962)", "Whitman Comics": "Gold Key (1962-1982)",
                 "Bloomsbury, Walker & Company": "Walker & Company graphic novels", "Boom Comics": "Rod Serling adaptations",
                 "Cayuga Productions": "Promotional comics", "Dynamite Entertainment": "Dynamite", "IDW Publishing": "IDW",
-                "Now Comics": "Now Comics"}.get(pub, pub)
+                "Now Comics": "Now Comics", "Western Publishing": "Promotional comics", "World Distributors": "World Distributors (UK)",
+                "Editorial Novaro": "Foreign editions"}.get(pub, pub)
     if col == "magazines":
         m = str(d.get("magazine") or "Other magazines")
         return "The Twilight Zone Magazine" if "Twilight Zone Magazine" in m else m

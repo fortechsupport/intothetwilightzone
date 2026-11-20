@@ -2,12 +2,13 @@ name: Dynamite Entertainment
 aka:
 - Dynamite
 kind: publisher
-description: Published a licensed Twilight Zone comic series from 2013, launched by J. Michael Straczynski.
+description: 'New Jersey comics publisher that relaunched The Twilight Zone in 2014 with a twelve-issue series written
+  by J. Michael Straczynski, followed by an annual, The Twilight Zone: Shadow & Substance, Lost Tales and a crossover
+  with The Shadow.'
 official: true
 relevance: core
 sources:
 - title: 'Wikipedia: Dynamite Entertainment'
   url: https://en.wikipedia.org/wiki/Dynamite_Entertainment
 research_confidence: medium
-tags:
-- seed-record
+last_verified: '2026-11-20'

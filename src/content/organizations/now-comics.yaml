@@ -2,12 +2,14 @@ name: Now Comics
 aka:
 - NOW Comics
 kind: publisher
-description: Published a licensed Twilight Zone comic series in the early 1990s.
+description: 'Chicago publisher of the licensed Twilight Zone comics of 1990-1993: a 1990 one-shot, an eleven-issue
+  volume 2, a four-issue volume 3, an annual and 3-D, science-fiction and premiere specials.'
 official: true
 relevance: core
 sources:
 - title: 'Wikipedia: Now Comics'
   url: https://en.wikipedia.org/wiki/Now_Comics
+- title: 'SFE: Now Comics'
+  url: https://www.sf-encyclopedia.com/entry/now_comics
 research_confidence: medium
-tags:
-- seed-record
+last_verified: '2026-11-20'

@@ -1,12 +1,13 @@
 name: Television Academy Foundation
 kind: archive
-description: 'Runs The Interviews: An Oral History of Television, whose clips include cast and crew talking about
-  Serling and the show.'
+description: 'The Television Academy''s charitable arm. Its archive The Interviews: An Oral History of Television
+  streams long-form video interviews; 44 interviewees talk about The Twilight Zone, among them writers Richard Matheson,
+  George Clayton Johnson and Earl Hamner, composers Jerry Goldsmith and Fred Steiner, and actors including Bill
+  Mumy, William Shatner and Jack Klugman.'
 official: false
 relevance: related
 sources:
 - title: 'Wikipedia: Television Academy Foundation'
   url: https://en.wikipedia.org/wiki/Television_Academy_Foundation
 research_confidence: medium
-tags:
-- seed-record
+last_verified: '2026-11-20'

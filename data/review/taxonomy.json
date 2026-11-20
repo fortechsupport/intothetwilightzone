@@ -1910,7 +1910,7 @@
    "catTitle": "Reading",
    "subTitle": "Books",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "books/the-season-to-be-wary": [
@@ -10942,7 +10942,7 @@
   {
    "cat": "reading",
    "sub": "comics",
-   "group": "Western Publishing (Watkins Strathmore)",
+   "group": "Promotional comics",
    "catTitle": "Reading",
    "subTitle": "Comics",
    "isNew": false,
@@ -10953,7 +10953,7 @@
   {
    "cat": "reading",
    "sub": "comics",
-   "group": "Editorial Novaro (Mexico)",
+   "group": "Foreign editions",
    "catTitle": "Reading",
    "subTitle": "Comics",
    "isNew": false,
@@ -10973,7 +10973,7 @@
   {
    "cat": "reading",
    "sub": "comics",
-   "group": "Editorial Novaro (Mexico)",
+   "group": "Foreign editions",
    "catTitle": "Reading",
    "subTitle": "Comics",
    "isNew": false,
@@ -12489,7 +12489,7 @@
   {
    "cat": "reading",
    "sub": "comics",
-   "group": "World Distributors",
+   "group": "World Distributors (UK)",
    "catTitle": "Reading",
    "subTitle": "Comics",
    "isNew": false,
@@ -12654,7 +12654,7 @@
   {
    "cat": "reading",
    "sub": "comics",
-   "group": "IDW Dark",
+   "group": "IDW",
    "catTitle": "Reading",
    "subTitle": "Comics",
    "isNew": false,
@@ -12973,7 +12973,7 @@
   {
    "cat": "reading",
    "sub": "comics",
-   "group": "World Distributors Ltd.",
+   "group": "World Distributors (UK)",
    "catTitle": "Reading",
    "subTitle": "Comics",
    "isNew": false,
@@ -12984,7 +12984,7 @@
   {
    "cat": "reading",
    "sub": "comics",
-   "group": "Gold Key (Western Publishing)",
+   "group": "Gold Key (1962-1982)",
    "catTitle": "Reading",
    "subTitle": "Comics",
    "isNew": false,
@@ -13017,7 +13017,7 @@
   {
    "cat": "reading",
    "sub": "comics",
-   "group": "Whitman (Western Publishing)",
+   "group": "Gold Key (1962-1982)",
    "catTitle": "Reading",
    "subTitle": "Comics",
    "isNew": false,
@@ -22777,15 +22777,6 @@
    "subTitle": "The accident and trial in print",
    "isNew": true,
    "official": false
-  },
-  {
-   "cat": "reading",
-   "sub": "anniversary-coverage",
-   "group": null,
-   "catTitle": "Reading",
-   "subTitle": "Anniversary coverage",
-   "isNew": true,
-   "official": false
   }
  ],
  "essays/50-years-later-twilight-zone-still-intrigues": [
@@ -23283,15 +23274,6 @@
    "catTitle": "Reading",
    "subTitle": "Articles and interviews",
    "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "reading",
-   "sub": "serling-own-writing",
-   "group": null,
-   "catTitle": "Reading",
-   "subTitle": "Rod Serling's own writing",
-   "isNew": true,
    "official": true
   }
  ],
@@ -25874,15 +25856,6 @@
   },
   {
    "cat": "reading",
-   "sub": "serling-own-writing",
-   "group": null,
-   "catTitle": "Reading",
-   "subTitle": "Rod Serling's own writing",
-   "isNew": true,
-   "official": true
-  },
-  {
-   "cat": "reading",
    "sub": "serling-foundation-papers",
    "group": null,
    "catTitle": "Reading",
@@ -27108,15 +27081,6 @@
    "subTitle": "The accident and trial in print",
    "isNew": true,
    "official": false
-  },
-  {
-   "cat": "reading",
-   "sub": "anniversary-coverage",
-   "group": null,
-   "catTitle": "Reading",
-   "subTitle": "Anniversary coverage",
-   "isNew": true,
-   "official": false
   }
  ],
  "essays/twilight-zone-the-movie-40-year-retrospective": [
@@ -27135,15 +27099,6 @@
    "group": null,
    "catTitle": "Reading",
    "subTitle": "The accident and trial in print",
-   "isNew": true,
-   "official": false
-  },
-  {
-   "cat": "reading",
-   "sub": "anniversary-coverage",
-   "group": null,
-   "catTitle": "Reading",
-   "subTitle": "Anniversary coverage",
    "isNew": true,
    "official": false
   }
@@ -34716,6 +34671,28 @@
    "official": false
   }
  ],
+ "organizations/academy-of-motion-picture-arts-and-sciences": [
+  {
+   "cat": "organizations",
+   "sub": "award-bodies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Award bodies",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "organizations/academy-of-science-fiction-fantasy-and-horror-films": [
+  {
+   "cat": "organizations",
+   "sub": "award-bodies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Award bodies",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "organizations/al-hirschfeld-foundation": [
   {
    "cat": "organizations",
@@ -34848,6 +34825,17 @@
    "official": true
   }
  ],
+ "organizations/comic-book-roundup": [
+  {
+   "cat": "organizations",
+   "sub": "other-organizations",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Other organizations",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "organizations/csu-fullerton-university-archives": [
   {
    "cat": "organizations",
@@ -34859,6 +34847,17 @@
    "official": false
   }
  ],
+ "organizations/daw-books": [
+  {
+   "cat": "organizations",
+   "sub": "publishers",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Publishers",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "organizations/dell-comics": [
   {
    "cat": "organizations",
@@ -34868,6 +34867,17 @@
    "subTitle": "Publishers",
    "isNew": false,
    "official": true
+  }
+ ],
+ "organizations/directors-guild-of-america": [
+  {
+   "cat": "organizations",
+   "sub": "award-bodies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Award bodies",
+   "isNew": false,
+   "official": false
   }
  ],
  "organizations/dynamite-entertainment": [
@@ -34890,6 +34900,28 @@
    "subTitle": "Publishers",
    "isNew": false,
    "official": true
+  }
+ ],
+ "organizations/elmira-college": [
+  {
+   "cat": "organizations",
+   "sub": "schools",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Schools and universities",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "organizations/federal-communications-commission": [
+  {
+   "cat": "organizations",
+   "sub": "other-organizations",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Other organizations",
+   "isNew": false,
+   "official": null
   }
  ],
  "organizations/gauntlet-press": [
@@ -34958,6 +34990,17 @@
    "official": false
   }
  ],
+ "organizations/library-of-congress": [
+  {
+   "cat": "organizations",
+   "sub": "archives-libraries",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Archives and libraries",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "organizations/liggett-and-myers": [
   {
    "cat": "organizations",
@@ -34967,6 +35010,28 @@
    "subTitle": "Sponsors and advertisers",
    "isNew": false,
    "official": true
+  }
+ ],
+ "organizations/louisiana-state-university": [
+  {
+   "cat": "organizations",
+   "sub": "schools",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Schools and universities",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "organizations/metacritic": [
+  {
+   "cat": "organizations",
+   "sub": "other-organizations",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Other organizations",
+   "isNew": false,
+   "official": null
   }
  ],
  "organizations/metro-goldwyn-mayer": [
@@ -35002,6 +35067,17 @@
    "official": false
   }
  ],
+ "organizations/national-association-of-broadcasters": [
+  {
+   "cat": "organizations",
+   "sub": "foundations-societies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Foundations and societies",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "organizations/now-comics": [
   {
    "cat": "organizations",
@@ -35011,6 +35087,17 @@
    "subTitle": "Publishers",
    "isNew": false,
    "official": true
+  }
+ ],
+ "organizations/pacifica-radio-archives": [
+  {
+   "cat": "organizations",
+   "sub": "archives-libraries",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Archives and libraries",
+   "isNew": false,
+   "official": false
   }
  ],
  "organizations/paramount": [
@@ -35033,6 +35120,17 @@
    "subTitle": "Networks, studios and streamers",
    "isNew": false,
    "official": true
+  }
+ ],
+ "organizations/producers-guild-of-america": [
+  {
+   "cat": "organizations",
+   "sub": "award-bodies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Award bodies",
+   "isNew": false,
+   "official": false
   }
  ],
  "organizations/radio-preservation-task-force": [
@@ -35068,6 +35166,17 @@
    "official": false
   }
  ],
+ "organizations/rotten-tomatoes": [
+  {
+   "cat": "organizations",
+   "sub": "other-organizations",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Other organizations",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "organizations/television-academy-foundation": [
   {
    "cat": "organizations",
@@ -35088,6 +35197,17 @@
    "subTitle": "Award bodies",
    "isNew": false,
    "official": false
+  }
+ ],
+ "organizations/tor-books": [
+  {
+   "cat": "organizations",
+   "sub": "publishers",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Publishers",
+   "isNew": false,
+   "official": true
   }
  ],
  "organizations/tz-publications": [
@@ -35113,6 +35233,28 @@
   }
  ],
  "organizations/ucla-library-special-collections": [
+  {
+   "cat": "organizations",
+   "sub": "archives-libraries",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Archives and libraries",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "organizations/university-of-kansas": [
+  {
+   "cat": "organizations",
+   "sub": "schools",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Schools and universities",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "organizations/university-of-maryland": [
   {
    "cat": "organizations",
    "sub": "archives-libraries",
@@ -35223,6 +35365,17 @@
   }
  ],
  "organizations/world-science-fiction-society": [
+  {
+   "cat": "organizations",
+   "sub": "award-bodies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Award bodies",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "organizations/writers-guild-of-america": [
   {
    "cat": "organizations",
    "sub": "award-bodies",

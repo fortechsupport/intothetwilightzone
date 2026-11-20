@@ -1,0 +1,14 @@
+name: Louisiana State University
+aka:
+- LSU
+kind: school
+location: Baton Rouge, Louisiana, USA
+description: Where David J. Brokaw wrote his 2017 doctoral dissertation on The Twilight Zone and postwar social
+  criticism, open access in the LSU repository, later the basis of his book Monsters on Maple Street.
+sources:
+- title: LSU Scholarly Repository
+  url: https://repository.lsu.edu/gradschool_dissertations/4225/
+relevance: related
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

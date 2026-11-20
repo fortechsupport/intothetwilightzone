@@ -1,0 +1,12 @@
+name: Elmira College
+kind: school
+location: Elmira, New York, USA
+description: College in New York's Southern Tier where Rod Serling lectured on 1 May 1975, about six weeks before
+  his death; Pacifica Radio recorded the talk.
+sources:
+- title: 'Pacifica Radio Archives: A Glimpse into the Twilight Zone'
+  url: https://pacificaradioarchives.org/node/8692
+relevance: related
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

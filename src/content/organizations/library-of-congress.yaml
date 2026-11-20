@@ -1,0 +1,13 @@
+name: Library of Congress
+kind: library
+location: Washington, D.C., USA
+website: https://www.loc.gov/
+description: The US national library, where Rod Serling gave a lecture on 4 October 1968 on what the mass media
+  demand of a writer; the talk was broadcast on National Educational Radio and its audio survives.
+sources:
+- title: 'Unlocking the Airwaves: Library of Congress lectures II, program 5'
+  url: https://archive.mith.umd.edu/airwaves/episode/cpb-aacip-500-bz619d02/
+relevance: related
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

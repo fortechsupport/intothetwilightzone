@@ -3,12 +3,17 @@ aka:
 - Editorial Novaro (Mexico)
 - Novaro
 kind: publisher
-description: Mexican publisher of Spanish-language Twilight Zone comics.
+description: Mexican comics publisher that ran Twilight Zone stories in Spanish as "Dimensión Desconocida" in its
+  Domingos Alegres series from 1963 into the late 1960s, alongside its other licensed American TV comics.
 official: true
 relevance: core
 sources:
 - title: 'Wikipedia: Editorial Novaro'
   url: https://en.wikipedia.org/wiki/Editorial_Novaro
+- title: 'Tebeosfera: Editorial Novaro'
+  url: https://tebeosfera.com/entidades/editorial_novaro.html
+- title: 'MeTV: TV comic books were a lot cooler south of the border'
+  url: https://www.metv.com/stories/tv-comic-books-were-a-lot-cooler-south-of-the-border
 research_confidence: medium
-tags:
-- seed-record
+last_verified: '2026-11-20'
+location: Mexico City, Mexico

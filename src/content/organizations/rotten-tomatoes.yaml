@@ -1,0 +1,12 @@
+name: Rotten Tomatoes
+kind: website
+website: https://www.rottentomatoes.com/
+description: Review aggregator whose critics' scores for the series, revivals and 1983 film are summarized on the
+  Reviews aggregate-score pages.
+sources:
+- title: Rotten Tomatoes
+  url: https://www.rottentomatoes.com/
+relevance: related
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

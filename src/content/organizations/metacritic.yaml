@@ -1,0 +1,12 @@
+name: Metacritic
+kind: website
+website: https://www.metacritic.com/
+description: 'Review aggregator whose weighted scores for the 2019 revival and Twilight Zone: The Movie are summarized
+  on the Reviews aggregate-score pages.'
+sources:
+- title: Metacritic
+  url: https://www.metacritic.com/
+relevance: related
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

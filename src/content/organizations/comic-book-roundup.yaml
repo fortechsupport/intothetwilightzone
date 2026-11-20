@@ -1,0 +1,12 @@
+name: Comic Book Roundup
+kind: website
+website: https://comicbookroundup.com/
+description: 'Comic review aggregator; its scores for Dynamite''s 2014 Twilight Zone #1 appear on the Reviews aggregate-score
+  pages.'
+sources:
+- title: 'Comic Book Roundup: The Twilight Zone #1'
+  url: https://comicbookroundup.com/comic-books/reviews/dynamite/twilight-zone/1
+relevance: related
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true
