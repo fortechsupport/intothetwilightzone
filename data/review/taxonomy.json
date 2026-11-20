@@ -3745,6 +3745,16 @@
    "isNew": false
   }
  ],
+ "connections/80stees-twilight-zone-t-shirts--to-serve-man": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
  "connections/a-nightmare-on-elm-street-perchance-to-dream": [
   {
    "cat": "homages",
@@ -5635,6 +5645,136 @@
    "isNew": false
   }
  ],
+ "connections/herrmann-jess-belle-score--jess-belle": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/herrmann-living-doll-score--living-doll": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/herrmann-moat-farm-murder-cues-in-tz--four-oclock": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/herrmann-moat-farm-murder-cues-in-tz--in-his-image": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/herrmann-moat-farm-murder-cues-in-tz--nightmare-at-20-000-feet": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/herrmann-moat-farm-murder-cues-in-tz--queen-of-the-nile": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/herrmann-moat-farm-murder-cues-in-tz--the-encounter": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/herrmann-moat-farm-murder-cues-in-tz--the-new-exhibit": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/herrmann-moat-farm-murder-cues-in-tz--the-old-man-in-the-cave": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/herrmann-moat-farm-murder-cues-in-tz--the-parallel": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/herrmann-moat-farm-murder-cues-in-tz--the-rip-van-winkle-caper": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/herrmann-moat-farm-murder-cues-in-tz--uncle-simon": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/herrmann-moat-farm-murder-cues-in-tz--valley-of-the-shadow": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
  "connections/hoppity-hooper-the-traffic-zone--twilight-zone-1959": [
   {
    "cat": "homages",
@@ -6005,6 +6145,16 @@
    "isNew": false
   }
  ],
+ "connections/jonathan-davis-the-twilight-zone-2002--cradle-of-darkness": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
  "connections/journey-to-the-far-side-of-the-sun-doppelganger--the-parallel": [
   {
    "cat": "homages",
@@ -6215,6 +6365,26 @@
    "isNew": false
   }
  ],
+ "connections/martin-landau-shooting-scripts-heritage-lot--mr-denton-on-doomsday": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/martin-landau-shooting-scripts-heritage-lot--the-jeopardy-room": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
  "connections/marvel-2099-marvel-comics-ghost-rider-2099-one-shot--1959": [
   {
    "cat": "homages",
@@ -6236,6 +6406,16 @@
   }
  ],
  "connections/masters-of-the-universe--twilight-zone-1959": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/matheson-once-upon-a-time-script-archive-heritage--once-upon-a-time": [
   {
    "cat": "homages",
    "sub": "references",
@@ -6356,6 +6536,16 @@
   }
  ],
  "connections/moonlighting-brother-can-you-spare-a-blonde--twilight-zone-1959": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/morose-code-willoughby--a-stop-at-willoughby": [
   {
    "cat": "homages",
    "sub": "references",
@@ -6556,6 +6746,16 @@
   }
  ],
  "connections/persona-2-eternal-punishment--1959": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/phantom-city-creative-bottleneck-twilight-zone--time-enough-at-last": [
   {
    "cat": "homages",
    "sub": "references",
@@ -6906,6 +7106,126 @@
   }
  ],
  "connections/serling-a-passage-for-trumpet--a-passage-for-trumpet": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/serling-a-penny-for-your-thoughts--a-penny-for-your-thoughts": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/serling-a-stop-at-willoughby--a-stop-at-willoughby": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/serling-and-when-the-sky-was-opened--and-when-the-sky-was-opened": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/serling-its-a-good-life--its-a-good-life": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/serling-living-doll--living-doll": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/serling-mr-garrity-and-the-graves--mr-garrity-and-the-graves": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/serling-the-changing-of-the-guard--the-changing-of-the-guard": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/serling-the-james-bevis-chronicles-the-hempstead-assignments--mr-bevis": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/serling-the-new-exhibit--the-new-exhibit": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/serling-the-silence--the-silence": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/serling-valley-of-the-shadow--valley-of-the-shadow": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/serling-where-is-everybody--where-is-everybody": [
   {
    "cat": "homages",
    "sub": "references",
@@ -7356,6 +7676,16 @@
   }
  ],
  "connections/the-dick-van-dyke-show-young-man-with-a-shoehorn--twilight-zone-1959": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/the-dockers-talking-tina--living-doll": [
   {
    "cat": "homages",
    "sub": "references",
@@ -8205,6 +8535,16 @@
    "isNew": false
   }
  ],
+ "connections/tom-whalen-its-a-good-life-print-2017--its-a-good-life": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
  "connections/tower-of-terror-1997--twilight-zone-1959": [
   {
    "cat": "homages",
@@ -8232,6 +8572,36 @@
    "group": null,
    "catTitle": "Homages",
    "subTitle": "Inspired by",
+   "isNew": false
+  }
+ ],
+ "connections/trevco-twilight-zone-cbs-licensed-t-shirts--living-doll": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/trevco-twilight-zone-cbs-licensed-t-shirts--the-masks": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "connections/trevco-twilight-zone-cbs-licensed-t-shirts--to-serve-man": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Homages",
+   "subTitle": "References",
    "isNew": false
   }
  ],
@@ -22797,6 +23167,24 @@
    "isNew": false
   }
  ],
+ "people/patrick-williams": [
+  {
+   "cat": "people",
+   "sub": "composers",
+   "group": null,
+   "catTitle": "People",
+   "subTitle": "Composers",
+   "isNew": false
+  },
+  {
+   "cat": "music",
+   "sub": "composers",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Composers",
+   "isNew": false
+  }
+ ],
  "people/paul-glass": [
   {
    "cat": "people",
@@ -22995,6 +23383,24 @@
    "isNew": false
   }
  ],
+ "people/richard-bellis": [
+  {
+   "cat": "people",
+   "sub": "composers",
+   "group": null,
+   "catTitle": "People",
+   "subTitle": "Composers",
+   "isNew": false
+  },
+  {
+   "cat": "music",
+   "sub": "composers",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Composers",
+   "isNew": false
+  }
+ ],
  "people/richard-donner": [
   {
    "cat": "people",
@@ -23114,6 +23520,14 @@
    "group": null,
    "catTitle": "People",
    "subTitle": "Composers",
+   "isNew": false
+  },
+  {
+   "cat": "people",
+   "sub": "crew",
+   "group": null,
+   "catTitle": "People",
+   "subTitle": "Crew",
    "isNew": false
   },
   {
@@ -23598,6 +24012,32 @@
    "group": null,
    "catTitle": "People",
    "subTitle": "Actors",
+   "isNew": false
+  }
+ ],
+ "people/stuart-goetz": [
+  {
+   "cat": "people",
+   "sub": "composers",
+   "group": null,
+   "catTitle": "People",
+   "subTitle": "Composers",
+   "isNew": false
+  },
+  {
+   "cat": "people",
+   "sub": "crew",
+   "group": null,
+   "catTitle": "People",
+   "subTitle": "Crew",
+   "isNew": false
+  },
+  {
+   "cat": "music",
+   "sub": "composers",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Composers",
    "isNew": false
   }
  ],
@@ -26927,11 +27367,21 @@
    "isNew": false
   }
  ],
+ "songs/8-bit-arcade-the-twilight-zone": [
+  {
+   "cat": "music",
+   "sub": "theme",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "The theme",
+   "isNew": false
+  }
+ ],
  "songs/a-tribe-called-quest-description-of-a-fool": [
   {
    "cat": "music",
    "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "group": "Lyrics that mention the show",
    "catTitle": "Music",
    "subTitle": "Songs",
    "isNew": false
@@ -26942,6 +27392,16 @@
    "cat": "music",
    "sub": "songs",
    "group": "Lyrics that mention the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
+ "songs/alienfaktor-twilight-zone": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
    "catTitle": "Music",
    "subTitle": "Songs",
    "isNew": false
@@ -27187,6 +27647,16 @@
    "isNew": false
   }
  ],
+ "songs/cincinnati-pops-kunzel-twilight-zone-chiller": [
+  {
+   "cat": "music",
+   "sub": "theme",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "The theme",
+   "isNew": false
+  }
+ ],
  "songs/clipma-give-to-me-clipma": [
   {
    "cat": "music",
@@ -27208,6 +27678,16 @@
   }
  ],
  "songs/count-bass-d-feat-mf-doom-make-a-buck": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
+ "songs/creedence-clearwater-revival-midnight-special-twilight-zone-the-movie": [
   {
    "cat": "music",
    "sub": "songs",
@@ -27268,6 +27748,16 @@
   }
  ],
  "songs/dj-bountyhunter-demilitarized-zone": [
+  {
+   "cat": "music",
+   "sub": "theme",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "The theme",
+   "isNew": false
+  }
+ ],
+ "songs/dj-cam-twilight-zone": [
   {
    "cat": "music",
    "sub": "theme",
@@ -27591,7 +28081,7 @@
   {
    "cat": "music",
    "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "group": "Lyrics that mention the show",
    "catTitle": "Music",
    "subTitle": "Songs",
    "isNew": false
@@ -27644,6 +28134,16 @@
    "group": "Songs about or titled after the show",
    "catTitle": "Music",
    "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
+ "songs/james-andreasen-ending": [
+  {
+   "cat": "music",
+   "sub": "theme",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "The theme",
    "isNew": false
   }
  ],
@@ -28007,6 +28507,16 @@
    "isNew": false
   }
  ],
+ "songs/morose-code-willoughby": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Connection not yet confirmed",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
  "songs/moses-p-twilight-zone": [
   {
    "cat": "music",
@@ -28028,6 +28538,16 @@
   }
  ],
  "songs/nayutalien-feat-hatsune-miku-alien-alien": [
+  {
+   "cat": "music",
+   "sub": "theme",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "The theme",
+   "isNew": false
+  }
+ ],
+ "songs/nebula-h-twilight-zone": [
   {
    "cat": "music",
    "sub": "theme",
@@ -28217,6 +28737,16 @@
    "isNew": false
   }
  ],
+ "songs/richard-bellis-the-twilight-zone-tower-of-terror-theme": [
+  {
+   "cat": "music",
+   "sub": "theme",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "The theme",
+   "isNew": false
+  }
+ ],
  "songs/rise-from-your-grave-the-twilight-zone": [
   {
    "cat": "music",
@@ -28317,6 +28847,16 @@
    "isNew": false
   }
  ],
+ "songs/serling-41-6398-n-81-4065-w": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
  "songs/serling-a-passage-for-trumpet": [
   {
    "cat": "music",
@@ -28324,6 +28864,126 @@
    "group": null,
    "catTitle": "Music",
    "subTitle": "The theme",
+   "isNew": false
+  }
+ ],
+ "songs/serling-a-penny-for-your-thoughts": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
+ "songs/serling-a-stop-at-willoughby": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
+ "songs/serling-and-when-the-sky-was-opened": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
+ "songs/serling-its-a-good-life": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
+ "songs/serling-living-doll": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
+ "songs/serling-mr-garrity-and-the-graves": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
+ "songs/serling-the-changing-of-the-guard": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
+ "songs/serling-the-james-bevis-chronicles-the-hempstead-assignments": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
+ "songs/serling-the-new-exhibit": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
+ "songs/serling-the-silence": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
+ "songs/serling-valley-of-the-shadow": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
+ "songs/serling-where-is-everybody": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
    "isNew": false
   }
  ],
@@ -28348,6 +29008,16 @@
   }
  ],
  "songs/shitmat-badman-ballad": [
+  {
+   "cat": "music",
+   "sub": "theme",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "The theme",
+   "isNew": false
+  }
+ ],
+ "songs/silver-bullet-undercover-anarchist": [
   {
    "cat": "music",
    "sub": "theme",
@@ -28467,6 +29137,16 @@
    "isNew": false
   }
  ],
+ "songs/the-dockers-talking-tina": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  }
+ ],
  "songs/the-effex-twilight-zone": [
   {
    "cat": "music",
@@ -28547,6 +29227,16 @@
    "isNew": false
   }
  ],
+ "songs/the-manhattan-transfer-wdr-funkhausorchester-twilight-zone-twilight-tone": [
+  {
+   "cat": "music",
+   "sub": "theme",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "The theme",
+   "isNew": false
+  }
+ ],
  "songs/the-marketts-out-of-limits": [
   {
    "cat": "music",
@@ -28610,6 +29300,24 @@
  "songs/the-ventures-the-twilight-zone": [
   {
    "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false
+  },
+  {
+   "cat": "music",
+   "sub": "theme",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "The theme",
+   "isNew": false
+  }
+ ],
+ "songs/the-x-files-punishment-information": [
+  {
+   "cat": "music",
    "sub": "theme",
    "group": null,
    "catTitle": "Music",
@@ -28631,7 +29339,7 @@
   {
    "cat": "music",
    "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "group": "Lyrics that mention the show",
    "catTitle": "Music",
    "subTitle": "Songs",
    "isNew": false
@@ -28781,6 +29489,16 @@
    "catTitle": "Advertising",
    "subTitle": "Promos and trailers",
    "isNew": true
+  }
+ ],
+ "works/80stees-twilight-zone-t-shirts": [
+  {
+   "cat": "merchandise",
+   "sub": "household-apparel",
+   "group": null,
+   "catTitle": "Merchandise",
+   "subTitle": "Household and apparel",
+   "isNew": false
   }
  ],
  "works/a-hat-in-time-twilight-bell-reference": [
@@ -29727,6 +30445,16 @@
    "isNew": false
   }
  ],
+ "works/cbs-all-access-super-bowl-2019-twilight-zone-spot": [
+  {
+   "cat": "merchandise",
+   "sub": "other-merchandise",
+   "group": null,
+   "catTitle": "Merchandise",
+   "subTitle": "Other merchandise",
+   "isNew": false
+  }
+ ],
  "works/cbs-music-library-twilight-zone": [
   {
    "cat": "merchandise",
@@ -29861,6 +30589,24 @@
    "isNew": false
   }
  ],
+ "works/constant-lubin-twilight-zone-outer-limits-release": [
+  {
+   "cat": "music",
+   "sub": "theme",
+   "group": "Releases of the theme",
+   "catTitle": "Music",
+   "subTitle": "The theme",
+   "isNew": false
+  },
+  {
+   "cat": "music",
+   "sub": "soundtracks",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Soundtracks and score releases",
+   "isNew": false
+  }
+ ],
  "works/constant-theme-sheet-music": [
   {
    "cat": "merchandise",
@@ -29880,6 +30626,24 @@
   }
  ],
  "works/constant-theme-uses-film-tv": [
+  {
+   "cat": "merchandise",
+   "sub": "other-merchandise",
+   "group": null,
+   "catTitle": "Merchandise",
+   "subTitle": "Other merchandise",
+   "isNew": false
+  }
+ ],
+ "works/constant-theme-wolk-orchestra-arrangement": [
+  {
+   "cat": "merchandise",
+   "sub": "collectibles",
+   "group": null,
+   "catTitle": "Merchandise",
+   "subTitle": "Collectibles",
+   "isNew": false
+  },
   {
    "cat": "merchandise",
    "sub": "other-merchandise",
@@ -29998,6 +30762,16 @@
    "group": null,
    "catTitle": "Merchandise",
    "subTitle": "Other merchandise",
+   "isNew": false
+  }
+ ],
+ "works/drew-friedman-rod-serling-print-2024": [
+  {
+   "cat": "artwork",
+   "sub": "posters-key-art",
+   "group": null,
+   "catTitle": "Artwork",
+   "subTitle": "Posters and key art",
    "isNew": false
   }
  ],
@@ -30683,6 +31457,36 @@
    "isNew": true
   }
  ],
+ "works/herrmann-jess-belle-score": [
+  {
+   "cat": "music",
+   "sub": "soundtracks",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Soundtracks and score releases",
+   "isNew": false
+  }
+ ],
+ "works/herrmann-living-doll-score": [
+  {
+   "cat": "music",
+   "sub": "soundtracks",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Soundtracks and score releases",
+   "isNew": false
+  }
+ ],
+ "works/herrmann-moat-farm-murder-cues-in-tz": [
+  {
+   "cat": "music",
+   "sub": "soundtracks",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Soundtracks and score releases",
+   "isNew": false
+  }
+ ],
  "works/herrmann-outer-space-suite-1957": [
   {
    "cat": "music",
@@ -31201,6 +32005,16 @@
    "isNew": false
   }
  ],
+ "works/lost-classics-1994-score": [
+  {
+   "cat": "music",
+   "sub": "soundtracks",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Soundtracks and score releases",
+   "isNew": false
+  }
+ ],
  "works/lost-classics-broadcast-1994": [
   {
    "cat": "events",
@@ -31361,6 +32175,16 @@
    "isNew": true
   }
  ],
+ "works/martin-landau-shooting-scripts-heritage-lot": [
+  {
+   "cat": "merchandise",
+   "sub": "other-merchandise",
+   "group": null,
+   "catTitle": "Merchandise",
+   "subTitle": "Other merchandise",
+   "isNew": false
+  }
+ ],
  "works/marty-manning-twilight-zone-lp": [
   {
    "cat": "music",
@@ -31386,6 +32210,16 @@
    "group": null,
    "catTitle": "Homages",
    "subTitle": "References",
+   "isNew": false
+  }
+ ],
+ "works/matheson-once-upon-a-time-script-archive-heritage": [
+  {
+   "cat": "merchandise",
+   "sub": "other-merchandise",
+   "group": null,
+   "catTitle": "Merchandise",
+   "subTitle": "Other merchandise",
    "isNew": false
   }
  ],
@@ -33571,6 +34405,16 @@
    "isNew": true
   }
  ],
+ "works/the-score-906-next-stop-the-twilight-zone": [
+  {
+   "cat": "merchandise",
+   "sub": "other-merchandise",
+   "group": null,
+   "catTitle": "Merchandise",
+   "subTitle": "Other merchandise",
+   "isNew": false
+  }
+ ],
  "works/the-simpsons-pinball-party-professor-frink-callout": [
   {
    "cat": "games",
@@ -33793,6 +34637,16 @@
    "isNew": false
   }
  ],
+ "works/tom-whalen-its-a-good-life-print-2017": [
+  {
+   "cat": "artwork",
+   "sub": "posters-key-art",
+   "group": null,
+   "catTitle": "Artwork",
+   "subTitle": "Posters and key art",
+   "isNew": false
+  }
+ ],
  "works/tower-of-terror-25th-anniversary": [
   {
    "cat": "events",
@@ -33863,6 +34717,16 @@
    "isNew": false
   }
  ],
+ "works/tower-of-terror-music": [
+  {
+   "cat": "music",
+   "sub": "soundtracks",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Soundtracks and score releases",
+   "isNew": false
+  }
+ ],
  "works/tower-of-terror-orlando-opening-1994": [
   {
    "cat": "events",
@@ -33920,6 +34784,16 @@
    "group": null,
    "catTitle": "Merchandise",
    "subTitle": "Other merchandise",
+   "isNew": false
+  }
+ ],
+ "works/trevco-twilight-zone-cbs-licensed-t-shirts": [
+  {
+   "cat": "merchandise",
+   "sub": "household-apparel",
+   "group": null,
+   "catTitle": "Merchandise",
+   "subTitle": "Household and apparel",
    "isNew": false
   }
  ],
@@ -34079,6 +34953,24 @@
    "catTitle": "Events",
    "subTitle": "Honors and awards",
    "isNew": false
+  }
+ ],
+ "works/tv-guide-cover-1972-06-03-rod-serling-night-gallery": [
+  {
+   "cat": "artwork",
+   "sub": "art-illustration",
+   "group": null,
+   "catTitle": "Artwork",
+   "subTitle": "Art and illustration",
+   "isNew": false
+  },
+  {
+   "cat": "artwork",
+   "sub": "night-gallery-paintings",
+   "group": null,
+   "catTitle": "Artwork",
+   "subTitle": "Night gallery paintings",
+   "isNew": true
   }
  ],
  "works/tv-guide-greatest-sci-fi-legends-2007": [
@@ -34401,6 +35293,16 @@
    "isNew": false
   }
  ],
+ "works/twilight-zone-matte-painting-nate-d-sanders-2024": [
+  {
+   "cat": "artwork",
+   "sub": "art-illustration",
+   "group": null,
+   "catTitle": "Artwork",
+   "subTitle": "Art and illustration",
+   "isNew": false
+  }
+ ],
  "works/twilight-zone-monster-mini-golf-las-vegas": [
   {
    "cat": "games",
@@ -34543,6 +35445,26 @@
    "catTitle": "Advertising",
    "subTitle": "Print ads",
    "isNew": true
+  }
+ ],
+ "works/twilight-zone-sponsor-trade-press-1959-1960": [
+  {
+   "cat": "merchandise",
+   "sub": "other-merchandise",
+   "group": null,
+   "catTitle": "Merchandise",
+   "subTitle": "Other merchandise",
+   "isNew": false
+  }
+ ],
+ "works/twilight-zone-the-movie-1983-college-newspaper-pages": [
+  {
+   "cat": "merchandise",
+   "sub": "other-merchandise",
+   "group": null,
+   "catTitle": "Merchandise",
+   "subTitle": "Other merchandise",
+   "isNew": false
   }
  ],
  "works/twilight-zone-the-movie-1983-print-ad": [
@@ -34757,6 +35679,16 @@
    "isNew": true
   }
  ],
+ "works/tz-2002-series-music": [
+  {
+   "cat": "music",
+   "sub": "soundtracks",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Soundtracks and score releases",
+   "isNew": false
+  }
+ ],
  "works/tz-2019-licensed-songs-tunefind": [
   {
    "cat": "merchandise",
@@ -34821,6 +35753,16 @@
    "isNew": true
   }
  ],
+ "works/tz-radio-dramas-music-and-sound": [
+  {
+   "cat": "music",
+   "sub": "soundtracks",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Soundtracks and score releases",
+   "isNew": false
+  }
+ ],
  "works/tz-season-two-rejected-themes-1960": [
   {
    "cat": "music",
@@ -34836,6 +35778,16 @@
    "group": null,
    "catTitle": "Music",
    "subTitle": "Soundtracks and score releases",
+   "isNew": false
+  }
+ ],
+ "works/tz-theme-cover-and-sample-indexes": [
+  {
+   "cat": "merchandise",
+   "sub": "other-merchandise",
+   "group": null,
+   "catTitle": "Merchandise",
+   "subTitle": "Other merchandise",
    "isNew": false
   }
  ],
@@ -35200,6 +36152,16 @@
    "group": null,
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
+   "isNew": false
+  }
+ ],
+ "works/zeb-love-twilight-zone-print-1xrun": [
+  {
+   "cat": "artwork",
+   "sub": "posters-key-art",
+   "group": null,
+   "catTitle": "Artwork",
+   "subTitle": "Posters and key art",
    "isNew": false
   }
  ]
