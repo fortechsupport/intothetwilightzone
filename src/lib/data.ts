@@ -65,7 +65,7 @@ export async function resolveRef(ref: string): Promise<{ title: string; url: str
   }
   if (collection === 'songs') {
     const s = (await getCollection('songs')).find((x) => x.id === id);
-    return s && { title: `${s.data.title}${s.data.artist ? ` (${s.data.artist})` : ''}`, url: `/songs/#${s.id}`, kind: 'Song' };
+    return s && { title: `${s.data.title}${s.data.artist ? ` (${s.data.artist})` : ''}`, url: `/songs/${s.id}/`, kind: 'Song' };
   }
   if (collection === 'works') {
     const w = (await getCollection('works')).find((x) => x.id === id);
@@ -129,7 +129,7 @@ export async function allPeople(): Promise<Map<string, Person>> {
     }
   }
   for (const r of await getCollection('radio')) {
-    const base = { title: r.data.title, url: `/radio/#${r.id}`, detail: 'Radio drama' };
+    const base = { title: r.data.title, url: `/radio/${r.id}/`, detail: 'Radio drama' };
     (r.data.adapted_by ?? '').split(/,\s*/).forEach((n) => add(n, { ...base, role: 'Radio adaptation' }));
     r.data.voiced_by.forEach((n) => add(n, { ...base, role: 'Radio cast' }));
   }

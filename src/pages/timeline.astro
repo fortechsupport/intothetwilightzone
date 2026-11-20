@@ -53,17 +53,17 @@ for (const f of (await safe('films')) as any[]) {
   for (const h of f.data.history ?? []) add(h.date, 'History', h.title, `/films/${f.id}/`, f.data.title);
   for (const r of f.data.releases ?? []) add(r.date, 'Home media', r.title, `/films/${f.id}/`, [r.format, r.publisher, r.region].filter(Boolean).join(', '));
 }
-for (const b of (await safe('books')) as any[]) add(b.data.published, 'Book', b.data.title, `/books/#${b.id}`, (b.data.authors ?? []).join(', '));
-for (const c of (await safe('comics')) as any[]) add(c.data.cover_date, 'Comic', c.data.title, `/comics/#${c.id}`, c.data.publisher);
-for (const m of (await safe('magazines')) as any[]) add(m.data.cover_date, 'Magazine', m.data.title, `/magazines/#${m.id}`, m.data.publisher);
-for (const r of (await safe('radio')) as any[]) add(r.data.volume_released, 'Radio', r.data.title, `/radio/#${r.id}`, r.data.series_title);
-for (const p of (await safe('podcasts')) as any[]) add(p.data.first_episode, 'Podcast', `${p.data.title} begins`, `/podcasts/#${p.id}`);
-for (const s of (await safe('songs')) as any[]) add(s.data.year, 'Song', s.data.title, `/songs/#${s.id}`, s.data.artist);
+for (const b of (await safe('books')) as any[]) add(b.data.published, 'Book', b.data.title, `/books/${b.id}/`, (b.data.authors ?? []).join(', '));
+for (const c of (await safe('comics')) as any[]) add(c.data.cover_date, 'Comic', c.data.title, `/comics/${c.id}/`, c.data.publisher);
+for (const m of (await safe('magazines')) as any[]) add(m.data.cover_date, 'Magazine', m.data.title, `/magazines/${m.id}/`, m.data.publisher);
+for (const r of (await safe('radio')) as any[]) add(r.data.volume_released, 'Radio', r.data.title, `/radio/${r.id}/`, r.data.series_title);
+for (const p of (await safe('podcasts')) as any[]) add(p.data.first_episode, 'Podcast', `${p.data.title} begins`, `/podcasts/${p.id}/`);
+for (const s of (await safe('songs')) as any[]) add(s.data.year, 'Song', s.data.title, `/songs/${s.id}/`, s.data.artist);
 for (const p of (await safe('people')) as any[]) {
   add(p.data.born, 'Born', p.data.name, personUrl(p.data.name));
   add(p.data.died, 'Died', p.data.name, personUrl(p.data.name));
 }
-for (const q of (await safe('quotes')) as any[]) add(q.data.date, 'Quote', `${q.data.person}${q.data.context ? `: ${q.data.context}` : ''}`, `/voices/#${q.id}`);
+for (const q of (await safe('quotes')) as any[]) add(q.data.date, 'Quote', `${q.data.person}${q.data.context ? `: ${q.data.context}` : ''}`, `/quotes/${q.id}/`);
 for (const l of (await safe('locations')) as any[]) {
   add(l.data.opened, 'Place', `${l.data.name} opens`, `/places/${l.id}/`);
   add(l.data.closed, 'Place', `${l.data.name} closes`, `/places/${l.id}/`);

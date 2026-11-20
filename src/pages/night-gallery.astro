@@ -18,7 +18,7 @@ const works = (await getCollection('works')).filter((w) => /night gallery/i.test
 const books = (await getCollection('books')).filter((b) => /night gallery/i.test(b.data.title));
 ---
 <Base title="Night Gallery" description="Rod Serling's Night Gallery (1969–1973): the pilot film and every episode and segment, with writers, directors, cast and source stories.">
-  <p class="breadcrumb" data-pagefind-ignore><a href="/series/">Series</a></p>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/series/">Series</a> / <a href="/series/tv/">Television series</a></p>
   <h1>Rod Serling's Night Gallery</h1>
   {series?.data.summary && <p class="lead">{series.data.summary}</p>}
   <p>The pilot film plus {eps.length} broadcast episodes hold {segCount} segments; two more sketches surfaced only in syndication. Each segment is listed under the episode it aired in, with the story it adapts where there is one.</p>
@@ -59,7 +59,7 @@ const books = (await getCollection('books')).filter((b) => /night gallery/i.test
       <ul>
         {related.map((f) => <li><a href={`/films/${f.id}/`}>{f.data.title}</a></li>)}
         {works.map((w) => <li><a href={`/works/${w.id}/`}>{w.data.title}</a></li>)}
-        {books.map((b) => <li><a href={`/books/#${b.id}`}>{b.data.title}</a></li>)}
+        {books.map((b) => <li><a href={`/books/${b.id}/`}>{b.data.title}</a></li>)}
       </ul>
     </section>
   )}

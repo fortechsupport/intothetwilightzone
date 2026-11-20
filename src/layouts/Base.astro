@@ -10,19 +10,12 @@ const preview = reviewMode() !== 'public';
 const { title, description = 'An independent, non-commercial living history of The Twilight Zone: every series, episode, person, and the films, songs and stories it inspired.', jsonld, noindex } = Astro.props;
 const fullTitle = title === 'Home' ? 'IntoTheTwilightZone.com' : `${title} · IntoTheTwilightZone.com`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
-// Sections in alphabetical order; Search stays last as a utility link.
+// Main navigation: every category A-Z in a menu (new ones flagged), then the feature pages.
+import { CATEGORIES_AZ } from '../lib/taxonomy.mjs';
 const nav = [
-  ['Beyond the screen', '/beyond/'],
-  ['Films', '/films/'],
-  ['Influence', '/influence/'],
   ['Night Gallery', '/night-gallery/'],
-  ['People', '/people/'],
-  ['Places', '/places/'],
   ['Rod Serling', '/rod-serling/'],
-  ['Series', '/series/'],
-  ['Songs', '/songs/'],
   ['Timeline', '/timeline/'],
-  ['Voices', '/voices/'],
   ['Search', '/search/'],
 ];
 const path = Astro.url.pathname;
@@ -52,6 +45,17 @@ const path = Astro.url.pathname;
         <a class="brand" href="/">Into<span>The</span>TwilightZone<small>.com</small></a>
         <nav aria-label="Main">
           <ul>
+            <li class="menu">
+              <details>
+                <summary>Categories</summary>
+                <ul class="menu-list">
+                  {CATEGORIES_AZ.map((c) => (
+                    <li><a href={`/${c.slug}/`} aria-current={path.startsWith(`/${c.slug}/`) ? 'page' : undefined}>{c.title}{c.isNew && <span class="tag new">new</span>}</a></li>
+                  ))}
+                  <li class="menu-all"><a href="/categories/">All categories and subcategories</a></li>
+                </ul>
+              </details>
+            </li>
             {nav.map(([label, href]) => (
               <li><a href={href} aria-current={path.startsWith(href) ? 'page' : undefined}>{label}</a></li>
             ))}

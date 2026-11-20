@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import InCategories from '../../components/InCategories.astro';
+import Media from '../../components/Media.astro';
 import Sources from '../../components/Sources.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { resolveRef, formatDate } from '../../lib/data';
@@ -23,7 +25,7 @@ const jsonld = {
 };
 ---
 <Base title={d.name} description={`${d.name}${placeLine(d) ? `, ${placeLine(d)}` : ''}: its connection to The Twilight Zone.`} jsonld={jsonld}>
-  <p class="breadcrumb" data-pagefind-ignore><a href="/places/">Places</a>{d.kind && <> / <a href={`/places/#${d.kind}`}>{PLACE_LABEL[d.kind]}</a></>}</p>
+  <InCategories recKey={`locations/${p.id}`} />
   <h1>{d.name}</h1>
   {placeLine(d) && <p class="muted">{placeLine(d)}</p>}
   <dl class="facts">
@@ -36,7 +38,7 @@ const jsonld = {
   {paragraphs.map((t) => <p>{t}</p>)}
   {filmed.length > 0 && (
     <section>
-      <h2>Filmed here</h2>
+      <h2>{d.kind === 'in-story' ? 'Appears in' : 'Filmed here'}</h2>
       <ul class="plain">
         {filmed.map(({ f, t }) => (
           <li>{t ? <a href={t.url}>{t.title}</a> : f.ref}{t && <span class="muted small"> ({t.kind})</span>}{f.note && <div class="small muted">{f.note}</div>}</li>
@@ -44,5 +46,6 @@ const jsonld = {
       </ul>
     </section>
   )}
+  <Media media={d.media} />
   <Sources sources={d.sources} verified={d.last_verified} />
 </Base>

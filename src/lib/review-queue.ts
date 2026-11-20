@@ -82,11 +82,10 @@ function pageUrl(collection: string, id: string, d: any): string | undefined {
     case 'films': case 'works': case 'series': return `/${collection}/${id}/`;
     case 'locations': return `/places/${id}/`;
     case 'people': return `/people/${slugify(d.name ?? id)}/`;
-    case 'quotes': return `/voices/#${id}`;
-    case 'connections': return '/influence/';
+    case 'connections': return '/homages/';
     case 'books': case 'comics': case 'magazines': case 'podcasts': case 'radio': case 'songs':
-    case 'essays': case 'archives':
-      return `/${collection}/#${id}`;
+    case 'essays': case 'archives': case 'quotes': case 'characters':
+      return `/${collection}/${id}/`;
   }
   return undefined;
 }

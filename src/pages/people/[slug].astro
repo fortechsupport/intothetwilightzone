@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import InCategories from '../../components/InCategories.astro';
+import Media from '../../components/Media.astro';
 import Sources from '../../components/Sources.astro';
 import { getCollection } from 'astro:content';
 import { allPeople, formatDate, type Person } from '../../lib/data';
@@ -28,7 +30,7 @@ const jsonld = {
 };
 ---
 <Base title={p.name} description={`${p.name}: ${roles.join(', ').toLowerCase()} credits connected to The Twilight Zone.`} jsonld={jsonld}>
-  <p class="breadcrumb" data-pagefind-ignore><a href="/people/">People</a></p>
+  <InCategories recKey={`people/${p.slug}`} />
   <h1>{p.name}</h1>
   <p class="muted">{roles.join(' · ')}</p>
   {rec && (
@@ -63,5 +65,6 @@ const jsonld = {
       </ul>
     </section>
   ))}
+  <Media media={rec?.media} />
   {rec && <Sources sources={rec.sources} verified={rec.last_verified} />}
 </Base>

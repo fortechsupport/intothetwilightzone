@@ -1,0 +1,82 @@
+---
+// A record page for collections without a hand-built template (books, comics, magazines, songs,
+// radio, podcasts, essays, archives, quotes, characters): its description, every recorded fact,
+// the episodes and works it refers to, its Twilight Zone connection, media and sources.
+import Base from '../layouts/Base.astro';
+import InCategories from './InCategories.astro';
+import Media from './Media.astro';
+import Sources from './Sources.astro';
+import ExtLinks from './ExtLinks.astro';
+import { getCollection } from 'astro:content';
+import { resolveRef, formatDate, CONNECTION_LABELS, CONFIDENCE_LABELS, personUrl } from '../lib/data';
+import { assess, TIER_LABEL } from '../lib/assessments';
+
+interface Props { col: string; entry: any }
+const { col, entry } = Astro.props;
+const d = entry.data;
+const key = `${col}/${entry.id}`;
+const title: string = col === 'quotes' ? `${d.person} on ${d.episodes?.length ? 'an episode' : 'The Twilight Zone'}` : d.title ?? d.name ?? entry.id;
+const text: string | undefined = d.description ?? d.bio ?? d.notes ?? d.summary;
+const a = assess(key);
+
+const SKIP = new Set(['title', 'name', 'description', 'summary', 'notes', 'sources', 'ids', 'links', 'locked', 'tags', 'media', 'categories', 'duplicate_of', 'relevance', 'research_confidence', 'last_verified', 'details', 'episodes', 'appears_in', 'reviews', 'covers', 'featured_episodes', 'adapts_episode', 'text', 'person', 'order', 'season_order', 'volume_order', 'url']);
+const PEOPLE = new Set(['authors', 'creators', 'hosts', 'voiced_by', 'played_by', 'editor', 'artist', 'original_writer', 'adapted_by']);
+const LABEL: Record<string, string> = {
+  series_name: 'Series', series_title: 'Series', cover_date: 'Cover date', voiced_by: 'Voices', played_by: 'Played by', original_writer: 'Original writer',
+  adapted_by: 'Adapted by', volume_released: 'Volume released', first_episode: 'First episode', episode_count: 'Episodes', published_in: 'Published in',
+  review_type: 'Review type', outlet_rating: 'Rating given', tz_connection: 'Connection', isbn: 'ISBN', aka: 'Also known as',
+};
+const label = (k: string) => LABEL[k] ?? (k.charAt(0).toUpperCase() + k.slice(1)).replace(/_/g, ' ');
+const isDate = (k: string) => /date|published|released|first_episode|born|died/.test(k);
+const facts = Object.entries(d).filter(([k, v]) => !SKIP.has(k) && v !== undefined && v !== null && v !== '' && !(Array.isArray(v) && v.length === 0) && (typeof v !== 'object' || Array.isArray(v)));
+
+const refList: string[] = [...(d.episodes ?? []), ...(d.appears_in ?? []), ...(d.reviews ?? []), ...(d.covers ?? []), ...(d.adapts_episode ? [d.adapts_episode] : [])];
+const refs = (await Promise.all([...new Set(refList)].map(async (r) => ({ r, t: await resolveRef(r) }))));
+const conns = (await getCollection('connections')).filter((c) => c.data.from === key);
+const targets = await Promise.all(conns.map(async (c) => ({ c, t: await resolveRef(c.data.to) })));
+---
+<Base title={title} description={text ? text.slice(0, 155) : `${title}: its connection to The Twilight Zone.`}>
+  <InCategories recKey={key} />
+  <h1>{title}</h1>
+  {col === 'quotes' ? (
+    <figure class="quote">
+      <blockquote>{d.text}</blockquote>
+      <figcaption>{d.person}{d.date && `, ${formatDate(d.date)}`}{d.context && <span class="muted"> · {d.context}</span>}</figcaption>
+    </figure>
+  ) : text && text.split(/\n\s*\n/).map((p: string, i: number) => <p class={i === 0 ? 'lead' : undefined}>{p}</p>)}
+  {facts.length > 0 && (
+    <dl class="facts">
+      {facts.map(([k, v]) => (
+        <><dt>{label(k)}</dt><dd>{
+          Array.isArray(v)
+            ? (v as unknown[]).map((x, i) => <>{i > 0 && ', '}{PEOPLE.has(k) && typeof x === 'string' ? <a href={personUrl(x)}>{x}</a> : String(x)}</>)
+            : PEOPLE.has(k) && typeof v === 'string' ? v.split(/,\s*/).map((x, i) => <>{i > 0 && ', '}<a href={personUrl(x)}>{x}</a></>)
+            : isDate(k) ? formatDate(String(v)) : typeof v === 'boolean' ? (v ? 'Yes' : 'No') : String(v).replace(/^([a-z])/, (m) => m.toUpperCase()).replace(/-/g, ' ')
+        }</dd></>
+      ))}
+    </dl>
+  )}
+  {(a || targets.length > 0 || refs.length > 0) && (
+    <section class="tz-link">
+      <h2>Twilight Zone connection</h2>
+      {a?.connection && !(text ?? '').includes(a.connection.slice(0, 60).replace(/…$/, '')) && <p>{a.connection}</p>}
+      {refs.length > 0 && <p>{col === 'characters' ? 'Appears in' : col === 'essays' && d.kind === 'review' ? 'Reviews' : 'Refers to'}: {refs.map(({ r, t }, i) => <>{i > 0 && ', '}{t ? <a href={t.url}>{t.title}</a> : r}</>)}</p>}
+      {targets.length > 0 && (
+        <ul class="plain">
+          {targets.map(({ c, t }) => <li><span class="tag">{CONNECTION_LABELS[c.data.kind]}</span>{t ? <a href={t.url}>{t.title}</a> : c.data.to} <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span>{c.data.evidence && <span class="small"> {c.data.evidence}</span>}</li>)}
+        </ul>
+      )}
+      {a?.tier && <p class="small muted">Relevance: {TIER_LABEL[a.tier]}. {a.tier_reason}</p>}
+    </section>
+  )}
+  {d.featured_episodes?.length > 0 && (
+    <section>
+      <h2>Featured episodes</h2>
+      <ul class="plain">{d.featured_episodes.map((fe: any) => <li>{fe.url ? <a href={fe.url} rel="noopener">{fe.title}</a> : fe.title}{fe.date && <span class="muted small"> · {formatDate(fe.date)}</span>}</li>)}</ul>
+    </section>
+  )}
+  {d.tags?.length > 0 && <p class="small">{d.tags.map((t: string) => <span class="tag">{t.replace(/-/g, ' ')}</span>)}</p>}
+  {(d.ids || d.links || d.url) && <p class="small">{d.url && <><a href={d.url} rel="noopener">Collection page</a>{(d.ids || d.links) && ' · '}</>}<ExtLinks ids={d.ids} links={d.links} /></p>}
+  <Media media={d.media} />
+  <Sources sources={d.sources ?? []} verified={d.last_verified} />
+</Base>

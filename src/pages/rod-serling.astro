@@ -61,13 +61,13 @@ const list = [
   {radio.length > 0 && (
     <section id="radio">
       <h2>Radio <span class="muted small">({radio.length})</span></h2>
-      <ul class="plain">{radio.map((r) => <li><a href={`/radio/#${r.id}`}>{r.data.title}</a> <span class="muted small">{r.data.series_title}</span></li>)}</ul>
+      <ul class="plain">{radio.map((r) => <li><a href={`/radio/${r.id}/`}>{r.data.title}</a> <span class="muted small">{r.data.series_title}</span></li>)}</ul>
     </section>
   )}
   {books.length > 0 && (
     <section id="books">
       <h2>Books by Serling <span class="muted small">({books.length})</span></h2>
-      <ul class="plain">{books.map((b) => <li><a href={`/books/#${b.id}`}>{b.data.title}</a> <span class="muted small">{year(b.data.published)}</span></li>)}</ul>
+      <ul class="plain">{books.map((b) => <li><a href={`/books/${b.id}/`}>{b.data.title}</a> <span class="muted small">{year(b.data.published)}</span></li>)}</ul>
     </section>
   )}
   {honors.length > 0 && (

@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import InCategories from '../../components/InCategories.astro';
+import Media from '../../components/Media.astro';
 import Sources from '../../components/Sources.astro';
 import ExtLinks from '../../components/ExtLinks.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
@@ -21,7 +23,7 @@ const otherLinks = Object.fromEntries(Object.entries(d.links ?? {}).filter(([k])
 const jsonld = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: d.title, dateCreated: d.year ? String(d.year) : undefined, creator: d.creator, publisher: d.publisher };
 ---
 <Base title={d.title} description={d.description ?? `${d.title}: ${KIND_LABEL[d.kind] ?? d.kind} connected to The Twilight Zone.`} jsonld={jsonld}>
-  <p class="breadcrumb" data-pagefind-ignore><a href="/works/">Games, collectibles and more</a> / <a href={`/works/#${d.kind}`}>{KIND_LABEL[d.kind] ?? d.kind}</a></p>
+  <InCategories recKey={`works/${w.id}`} />
   <h1>{d.title}</h1>
   {d.subtype && <p class="muted">{humanize(d.subtype)}</p>}
   {d.description && <p class="lead">{d.description}</p>}
@@ -51,5 +53,6 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'CreativeWork', name
       </p>
     </section>
   )}
+  <Media media={d.media} />
   <Sources sources={d.sources} verified={d.last_verified} />
 </Base>

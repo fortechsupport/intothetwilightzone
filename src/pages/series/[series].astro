@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import InCategories from '../../components/InCategories.astro';
+import Media from '../../components/Media.astro';
 import { getCollection } from 'astro:content';
 import { allEpisodes, formatDate, episodeNumber } from '../../lib/data';
 import HistoryAndIntl from '../../components/HistoryAndIntl.astro';
@@ -25,7 +27,7 @@ const jsonld = {
 };
 ---
 <Base title={`${s.data.title} (${s.id} series)`} description={s.data.summary} jsonld={jsonld}>
-  <p class="breadcrumb" data-pagefind-ignore><a href="/series/">Series</a> / {s.id}</p>
+  <InCategories recKey={`series/${s.id}`} />
   <h1>{s.data.title} <span class="muted">({s.data.years})</span></h1>
   <p class="lead">{s.data.summary}</p>
   <dl class="facts">
@@ -95,4 +97,5 @@ const jsonld = {
       set(location.hash.startsWith('#season-') ? 'air' : 'az');
     })();
   </script>
+  <Media media={s.data.media} />
 </Base>

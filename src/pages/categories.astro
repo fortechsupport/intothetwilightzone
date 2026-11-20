@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import { catalog, countOf } from '../lib/catalog';
+import { sortKey } from '../lib/taxonomy.mjs';
+const cats = [...(await catalog()).values()].sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title)));
+---
+<Base title="All categories" description="Every category and subcategory on IntoTheTwilightZone.com, A to Z, with counts.">
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a></p>
+  <h1>All categories</h1>
+  <p class="lead">{cats.length} categories and {cats.reduce((n, c) => n + c.subs.length, 0)} subcategories, A to Z. Categories and subcategories marked <span class="tag new">new</span> were added during research and are up for review.</p>
+  <div class="cat-index">
+    {cats.map((c) => (
+      <section>
+        <h2><a href={`/${c.slug}/`}>{c.title}</a> {c.isNew && <span class="tag new">new</span>} <span class="muted small">({countOf(c).toLocaleString('en-US')})</span></h2>
+        <p class="small muted">{c.description}</p>
+        <ul class="plain">
+          {c.subs.map((s) => <li>{s.entries.length ? <a href={`/${c.slug}/${s.slug}/`}>{s.title}</a> : <span class="muted">{s.title}</span>} <span class="count-pill">{s.entries.length}</span>{s.isNew && !c.isNew && <span class="tag new">new</span>}</li>)}
+        </ul>
+      </section>
+    ))}
+  </div>
+</Base>

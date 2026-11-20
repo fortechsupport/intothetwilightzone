@@ -1,21 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
-import { getCollection } from 'astro:content';
-import { allEpisodes, allPeople } from '../lib/data';
-
-const episodes = await allEpisodes();
-const people = await allPeople();
-const counts = {
-  films: (await getCollection('films')).length,
-  connections: (await getCollection('connections')).length,
-  songs: (await getCollection('songs')).length,
-  radio: (await getCollection('radio')).length,
-  books: (await getCollection('books')).length,
-  comics: (await getCollection('comics')).length,
-  magazines: (await getCollection('magazines')).length,
-  podcasts: (await getCollection('podcasts')).length,
-  works: (await getCollection('works')).length,
-};
+import { catalog, countOf } from '../lib/catalog';
+import { sortKey } from '../lib/taxonomy.mjs';
+const cats = [...(await catalog()).values()].sort((x, y) => sortKey(x.title).localeCompare(sortKey(y.title)));
 const jsonld = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -33,20 +20,23 @@ const jsonld = {
     </p>
   </section>
 
-  <h2>Explore</h2>
+  <h2>Explore by category</h2>
+  <p class="small muted">Every category, A to Z. Those marked <span class="tag new">new</span> were added during research. <a href="/categories/">See every subcategory</a>.</p>
   <div class="grid">
-    <a class="card" href="/series/"><span class="count">{episodes.length}</span><h3>Episodes</h3><p>All four series: 1959, 1985, 2002 and 2019.</p></a>
-    <a class="card" href="/people/"><span class="count">{people.size}</span><h3>People</h3><p>Writers, directors, cast and narrators.</p></a>
-    <a class="card" href="/influence/"><span class="count">{counts.connections}</span><h3>Influence</h3><p>Later works traced back to the episodes behind them.</p></a>
-    <a class="card" href="/films/"><span class="count">{counts.films}</span><h3>Films</h3><p>Adaptations, homages and films inspired by episodes.</p></a>
-    <a class="card" href="/songs/"><span class="count">{counts.songs}</span><h3>Songs</h3><p>Theme music and songs that mention or reference the show.</p></a>
-    <a class="card" href="/radio/"><span class="count">{counts.radio}</span><h3>Radio dramas</h3><p>Full-cast audio adaptations of classic episodes.</p></a>
-    <a class="card" href="/books/"><span class="count">{counts.books}</span><h3>Books</h3><p>Histories, companions and story collections.</p></a>
-    <a class="card" href="/comics/"><span class="count">{counts.comics}</span><h3>Comics</h3><p>From Dell and Gold Key to modern runs.</p></a>
-    <a class="card" href="/magazines/"><span class="count">{counts.magazines}</span><h3>Magazines</h3><p>Rod Serling's The Twilight Zone Magazine and more.</p></a>
-    <a class="card" href="/works/"><span class="count">{counts.works}</span><h3>Games, collectibles and more</h3><p>Soundtracks, pinball, trading cards, stage, attractions and events.</p></a>
-    <a class="card" href="/podcasts/"><span class="count">{counts.podcasts}</span><h3>Podcasts</h3><p>Shows that revisit the series episode by episode.</p></a>
+    {cats.map((c) => (
+      <a class="card" href={`/${c.slug}/`}>
+        <span class="count">{countOf(c).toLocaleString('en-US')}</span>
+        <h3>{c.title}{c.isNew && <span class="tag new">new</span>}</h3>
+        <p>{c.subs.filter((x) => x.entries.length).map((x) => x.title).join(' · ')}</p>
+      </a>
+    ))}
   </div>
+  <h2>Features</h2>
+  <ul>
+    <li><a href="/rod-serling/">Rod Serling</a>: his life and work beyond The Twilight Zone.</li>
+    <li><a href="/night-gallery/">Night Gallery</a>: every episode and segment of Serling's second anthology.</li>
+    <li><a href="/timeline/">Timeline</a>: the franchise year by year.</li>
+  </ul>
 
   <h2>About this site</h2>
   <p>

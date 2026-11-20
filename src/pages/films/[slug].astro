@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import InCategories from '../../components/InCategories.astro';
+import Media from '../../components/Media.astro';
 import Sources from '../../components/Sources.astro';
 import HistoryAndIntl from '../../components/HistoryAndIntl.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
@@ -23,7 +25,7 @@ const jsonld = {
 };
 ---
 <Base title={d.title} description={`${d.title} and its connection to The Twilight Zone.`} jsonld={jsonld}>
-  <p class="breadcrumb" data-pagefind-ignore>{d.parent_series?.startsWith('Night Gallery') || f.id === 'night-gallery' ? <a href="/night-gallery/">Night Gallery</a> : <a href="/films/">Films</a>}</p>
+  <InCategories recKey={`films/${f.id}`} />
   <h1>{d.title}</h1>
   {d.parent_series && <p class="muted">{d.parent_series}</p>}
   {d.relevance && d.relevance !== 'core' && <p class="small"><span class="tag">{d.relevance === 'related' ? 'Related to The Twilight Zone' : 'Tangential to The Twilight Zone'}</span></p>}
@@ -78,5 +80,6 @@ const jsonld = {
       {d.links?.justwatch && <li><a href={d.links.justwatch.startsWith('http') ? d.links.justwatch : `https://www.justwatch.com/us/movie/${d.links.justwatch}`} rel="noopener">Where to watch (JustWatch)</a></li>}
     </ul>
   </section>
+  <Media media={d.media} />
   <Sources sources={d.sources} verified={d.last_verified} />
 </Base>
