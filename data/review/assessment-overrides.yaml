@@ -2928,3 +2928,24 @@ works/zeb-love-twilight-zone-print-1xrun:
   tier_reason: About The Twilight Zone itself, or officially licensed.
   recommendation: maybe
   reason: A real gallery-published print, but the details are thin.
+works/serling-binghamton-talk-1959:
+  connection: Serling talking about the show before it aired.
+  reason: A pre-premiere hometown talk; rare contemporary source.
+  recommendation: include
+  subcategory: Rod Serling's lectures
+  tier: core
+  tier_reason: A talk or class about The Twilight Zone itself.
+works/serling-buffalo-state-1972:
+  connection: A titled Serling campus lecture from his Night Gallery years.
+  reason: A dated, titled talk with a contemporary student-paper source.
+  recommendation: include
+  subcategory: Rod Serling's lectures
+  tier: related
+  tier_reason: A talk by Rod Serling, or about him, in his own voice or legacy.
+works/stage-89-tower-of-terror-30th-2024:
+  connection: An anniversary event for the TZ attraction.
+  reason: A fan-run gathering; include if you want attraction history beyond the rides themselves.
+  recommendation: maybe
+  subcategory: Anniversaries and festivals
+  tier: related
+  tier_reason: An event in Rod Serling's life or the wider franchise.

@@ -884,6 +884,41 @@ lecture("serling-kpfk-interview-1970", "Rod Serling interviewed by Mark Davidson
                 "host": "Pacifica Radio Archives", "date": "1970-03-13", "rights": "link-only", "note": "Catalogue entry; copies by request."}],
         cat="lectures/interviews-conversations", conf="medium")
 
+
+# ------------------------------------------------------------------ THIRD PASS (2026-11-20)
+lecture("serling-buffalo-state-1972", "\"The Twentieth Century and Other Absurdities\": Rod Serling in Buffalo (1972)", "lecture", 1972, "Rod Serling",
+        "Serling lectured in Buffalo, New York, on October 18, 1972, under the title \"The Twentieth Century and Other Absurdities,\" as "
+        "reported in the Buffalo State College campus newspaper. A listener later recalled him joking about \"biting the hand that has "
+        "fed me\" in his criticism of television, and closing on the need for people to care about one another.",
+        [{"title": "Homage to Rod Serling, a Great American (Ralph Dumain, RSMF)", "url": "https://rodserling.com/homage-to-rod-serling-a-great-american/"},
+         {"title": "Buffalo State campus newspaper report (via The Autodidact Project)", "url": "http://autodidactproject.org/other/serling_buffalo1.html"}],
+        "A titled Serling campus lecture from his Night Gallery years.", "related", "include",
+        "A dated, titled talk with a contemporary student-paper source.",
+        details={"date": "1972-10-18", "venue": "Buffalo, New York (Buffalo State College area)"}, cat="lectures/serling-lectures", conf="medium")
+
+lecture("serling-binghamton-talk-1959", "Rod Serling speaks in Binghamton as The Twilight Zone is about to premiere (1959)", "talk", 1959, "Rod Serling",
+        "On August 14, 1959, seven weeks before the premiere, Serling spoke in his hometown. The Binghamton Sunday Press's report, "
+        "\"Angry Young Man? Serling Too Busy,\" covers his views on television writing and the coming series.",
+        [{"title": "Angry Young Man? Serling Too Busy (Binghamton Sunday Press, 1959-08-15, via RSMF)", "url": "https://rodserling.com/angry-young-man-serling-too-busy/"}],
+        "Serling talking about the show before it aired.", "core", "include", "A pre-premiere hometown talk; rare contemporary source.",
+        details={"date": "1959-08-14", "venue": "Binghamton, New York (venue not stated)"},
+        media=[{"type": "article", "title": "Binghamton Sunday Press report (reprint)", "url": "https://rodserling.com/angry-young-man-serling-too-busy/",
+                "host": "Rod Serling Memorial Foundation", "date": "1959-08-15", "rights": "link-only"}],
+        cat="lectures/serling-lectures", conf="medium")
+
+event("stage-89-tower-of-terror-30th-2024", "Stage 89: Tower of Terror 30th anniversary gathering (2024)", "anniversary", 2024,
+      "A fan event near Walt Disney World marking the 35th anniversary of Disney's Hollywood Studios and the 30th of the Twilight Zone "
+      "Tower of Terror, billed as the largest in-person gathering of former Imagineers, with panels on the ride. Mark Silverman, who "
+      "voices the Rod Serling narration in the attraction, recorded a promo in character and met fans.",
+      [{"title": "WDW News Today: Voice of Rod Serling from Tower of Terror returns for 30th anniversary meet & greet (2024)",
+        "url": "https://wdwnt.com/2024/02/voice-of-rod-serling-from-twilight-zone-tower-of-terror-returns-for-attractions-30th-anniversary-meet-greet"}],
+      "An anniversary event for the TZ attraction.", "related", "maybe",
+      "A fan-run gathering; include if you want attraction history beyond the rides themselves.",
+      details={"date": "2024", "location": "Near Walt Disney World, Florida", "related": "locations/tower-of-terror-disneys-hollywood-studios"},
+      media=[{"type": "video", "subtype": "promo", "title": "Stage 89 promo voiced as Rod Serling by Mark Silverman", "url": "https://www.youtube.com/watch?v=IaeccTyz1rI",
+              "host": "YouTube", "date": "2024", "rights": "link-only"}],
+      categories=["events/anniversaries-festivals"], conf="medium")
+
 # ------------------------------------------------------------------ write
 SUB = {"in-story": "In-story places", "event-venue": "Lecture and event venues", "filming-location": "Filming locations",
        "serling-place": "Rod Serling's places", "premiere": "Premieres", "marathon": "Broadcasts and marathons",
