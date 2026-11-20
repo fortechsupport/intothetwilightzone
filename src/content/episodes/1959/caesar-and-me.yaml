@@ -34,3 +34,12 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: William Froug on "Caesar and Me"
+  url: https://interviews.televisionacademy.com/interviews/william-froug
+  date: '2011-07-18'
+  duration: '1:38'

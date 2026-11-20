@@ -773,3 +773,36 @@ media:
   date: '1959-03-11'
   rights: public-domain
   note: Six months before the premiere and before a time slot was set, CBS reported the show fully sponsored.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson interview, Twilight Zone clips
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  note: '21 clips: starting on the show, Beaumont, writing Serling''s introductions, censorship of "God", the hour-long
+    season, the legacy.'
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: William Froug interview, Twilight Zone clips
+  url: https://interviews.televisionacademy.com/interviews/william-froug
+  date: '2011-07-18'
+  note: 9 clips on producing season 5 and working with Serling.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Lamont Johnson interview, Twilight Zone clips
+  url: https://interviews.televisionacademy.com/interviews/lamont-johnson
+  date: '2003-06-10'
+  note: 7 clips on directing, Buck Houghton, George T. Clemens and the makeup team.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: James Sheldon interview, Twilight Zone clips
+  url: https://interviews.televisionacademy.com/interviews/james-sheldon
+  date: '2005-04-06'
+  note: 5 clips on directing the show and Billy Mumy.

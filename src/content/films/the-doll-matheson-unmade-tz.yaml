@@ -16,3 +16,12 @@ sources:
   url: https://en.wikipedia.org/wiki/The_Doll_(Amazing_Stories)
 last_verified: '2026-11-20'
 locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on William Froug rejecting the script later made for Amazing Stories
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '1:22'

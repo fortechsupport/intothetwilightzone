@@ -310,3 +310,11 @@ media:
   host: American Film Institute
   rights: licensed
   note: Production history, credits and release details compiled by the AFI.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on Joe Dante's "It's a Good Life" segment, and the movie versus the original "Nightmare at
+    20,000 Feet"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'

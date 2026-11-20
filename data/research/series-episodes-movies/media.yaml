@@ -58,6 +58,39 @@ series/1959:
   date: '1959-03-11'
   rights: public-domain
   note: Six months before the premiere and before a time slot was set, CBS reported the show fully sponsored.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson interview, Twilight Zone clips
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  note: '21 clips: starting on the show, Beaumont, writing Serling''s introductions, censorship of "God", the hour-long
+    season, the legacy.'
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: William Froug interview, Twilight Zone clips
+  url: https://interviews.televisionacademy.com/interviews/william-froug
+  date: '2011-07-18'
+  note: 9 clips on producing season 5 and working with Serling.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Lamont Johnson interview, Twilight Zone clips
+  url: https://interviews.televisionacademy.com/interviews/lamont-johnson
+  date: '2003-06-10'
+  note: 7 clips on directing, Buck Houghton, George T. Clemens and the makeup team.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: James Sheldon interview, Twilight Zone clips
+  url: https://interviews.televisionacademy.com/interviews/james-sheldon
+  date: '2005-04-06'
+  note: 5 clips on directing the show and Billy Mumy.
 1959/the-four-of-us-are-dying:
 - type: interview
   subtype: oral-history
@@ -91,6 +124,14 @@ series/1959:
   date: '2010-11-16'
   rights: licensed
   note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: James Sheldon on working with George Clayton Johnson on "A Penny for Your Thoughts"
+  url: https://interviews.televisionacademy.com/interviews/james-sheldon
+  date: '2005-04-06'
+  duration: '2:54'
 1959/execution:
 - type: interview
   subtype: oral-history
@@ -109,6 +150,14 @@ series/1959:
   title: George Clayton Johnson on "Kick the Can" and "A Penny for Your Thoughts"
   url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
   duration: '9:02'
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Lamont Johnson on being brought in to direct, and on "Kick the Can"
+  url: https://interviews.televisionacademy.com/interviews/lamont-johnson
+  date: '2003-06-10'
+  duration: '3:49'
 1959/nothing-in-the-dark:
 - type: interview
   subtype: oral-history
@@ -126,6 +175,14 @@ series/1959:
   date: '2011-02-15'
   rights: licensed
   note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Lamont Johnson on directing "Nothing in the Dark" with Robert Redford
+  url: https://interviews.televisionacademy.com/interviews/lamont-johnson
+  date: '2003-06-10'
+  duration: '5:59'
 1959/ninety-years-without-slumbering:
 - type: interview
   subtype: oral-history
@@ -263,6 +320,14 @@ series/1959:
   host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
   date: '2011-08-30'
   rights: licensed
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Nancy Malone on "Stopover in a Quiet Town" and working with Rod Serling
+  url: https://interviews.televisionacademy.com/interviews/nancy-malone
+  date: '2010-05-03'
+  duration: '3:00'
 1959/the-bewitchin-pool:
 - type: interview
   subtype: oral-history
@@ -308,6 +373,14 @@ films/twilight-zone-the-movie:
   host: American Film Institute
   rights: licensed
   note: Production history, credits and release details compiled by the AFI.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on Joe Dante's "It's a Good Life" segment, and the movie versus the original "Nightmare at
+    20,000 Feet"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
 series/1985:
 - type: interview
   subtype: oral-history
@@ -324,6 +397,21 @@ series/1985:
   url: https://metv.com/lists/6-reasons-you-should-not-sleep-on-the-1985-version-of-the-twilight-zone
   host: MeTV
   rights: link-only
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: J. Michael Straczynski interview (Television Academy)
+  url: https://interviews.televisionacademy.com/interviews/j-michael-straczynski
+  note: Listed by the Academy among interviewees who discuss The Twilight Zone; Straczynski wrote much of the 1988-89
+    season.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Harlan Ellison interview (Television Academy)
+  url: https://interviews.televisionacademy.com/interviews/harlan-ellison
+  note: Listed by the Academy among interviewees who discuss The Twilight Zone; Ellison was creative consultant in 1985-86.
 series/2019:
 - type: video
   subtype: trailer
@@ -511,6 +599,14 @@ series/2019:
   host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
   date: '2011-08-30'
   rights: licensed
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on watching Lee Marvin rehearse "Steel"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '2:29'
 1959/nightmare-at-20-000-feet:
 - type: interview
   subtype: bonus-interview
@@ -527,6 +623,30 @@ series/2019:
   date: '2011-08-30'
   rights: licensed
   note: Serling speaking to a screenwriting class at Sherwood Oaks Experimental College, Hollywood, 1975.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on the shock moment in "Nightmare at 20,000 Feet"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '1:47'
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "Nick of Time" and "Nightmare at 20,000 Feet", both with William Shatner
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '2:02'
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: William Froug on production of "Nightmare at 20,000 Feet"
+  url: https://interviews.televisionacademy.com/interviews/william-froug
+  date: '2011-07-18'
+  duration: '1:34'
 1959/living-doll:
 - type: interview
   subtype: bonus-interview
@@ -535,6 +655,14 @@ series/2019:
   host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
   date: '2011-08-30'
   rights: licensed
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: William Froug on "Living Doll"
+  url: https://interviews.televisionacademy.com/interviews/william-froug
+  date: '2011-07-18'
+  duration: 0:37
 1959/the-hunt:
 - type: interview
   subtype: bonus-interview
@@ -552,6 +680,14 @@ series/2019:
   host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
   date: '2011-08-30'
   rights: licensed
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "Death Ship", "Night Call", "Spur of the Moment" and "Third from the Sun"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '3:45'
 1959/night-call:
 - type: interview
   subtype: bonus-interview
@@ -560,6 +696,14 @@ series/2019:
   host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
   date: '2011-08-30'
   rights: licensed
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "Death Ship", "Night Call", "Spur of the Moment" and "Third from the Sun"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '3:45'
 1959/an-occurrence-at-owl-creek-bridge:
 - type: interview
   subtype: bonus-feature
@@ -568,6 +712,14 @@ series/2019:
   host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
   date: '2011-08-30'
   rights: licensed
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: William Froug on "An Occurrence at Owl Creek Bridge"
+  url: https://interviews.televisionacademy.com/interviews/william-froug
+  date: '2011-07-18'
+  duration: '2:14'
 1959/i-am-the-nightcolor-me-black:
 - type: interview
   subtype: bonus-interview
@@ -594,6 +746,14 @@ series/2019:
   date: '2010-09-14'
   rights: licensed
   note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "Death Ship", "Night Call", "Spur of the Moment" and "Third from the Sun"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '3:45'
 1959/a-stop-at-willoughby:
 - type: interview
   subtype: bonus-interview
@@ -621,6 +781,14 @@ series/2019:
   date: '2010-09-14'
   rights: licensed
   note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "A World of His Own", based on a previously rejected pitch
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '1:11'
 1959/king-nine-will-not-return:
 - type: interview
   subtype: bonus-interview
@@ -675,6 +843,14 @@ series/2019:
   date: '2010-11-16'
   rights: licensed
   note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on his surprise that "The Invaders" became a classic
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: 0:56
 1959/the-odyssey-of-flight-33:
 - type: interview
   subtype: bonus-interview
@@ -720,6 +896,14 @@ series/2019:
   date: '2011-02-15'
   rights: licensed
   note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Lamont Johnson on directing "Five Characters in Search of an Exit"
+  url: https://interviews.televisionacademy.com/interviews/lamont-johnson
+  date: '2003-06-10'
+  duration: '7:57'
 1959/to-serve-man:
 - type: interview
   subtype: bonus-interview
@@ -765,6 +949,14 @@ series/2019:
   date: '2011-05-17'
   rights: licensed
   note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "Death Ship", "Night Call", "Spur of the Moment" and "Third from the Sun"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '3:45'
 1959/printers-devil:
 - type: interview
   subtype: bonus-interview
@@ -858,3 +1050,111 @@ series/2002:
   rights: link-only
   date: 2019-04
   note: CBS All Access put "The Comedian" on YouTube for anyone to watch at launch.
+1959/nick-of-time:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "Nick of Time" and "Nightmare at 20,000 Feet", both with William Shatner
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '2:02'
+1959/little-girl-lost:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on how real life inspired "Little Girl Lost"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '1:06'
+1959/a-world-of-difference:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "A World of Difference", "Once Upon a Time", "Young Man's Fancy" and "Mute"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '5:32'
+1959/once-upon-a-time:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "A World of Difference", "Once Upon a Time", "Young Man's Fancy" and "Mute"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '5:32'
+1959/young-mans-fancy:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "A World of Difference", "Once Upon a Time", "Young Man's Fancy" and "Mute"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '5:32'
+1959/mute:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "A World of Difference", "Once Upon a Time", "Young Man's Fancy" and "Mute"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '5:32'
+1959/caesar-and-me:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: William Froug on "Caesar and Me"
+  url: https://interviews.televisionacademy.com/interviews/william-froug
+  date: '2011-07-18'
+  duration: '1:38'
+1959/the-encounter:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: William Froug on "The Encounter"
+  url: https://interviews.televisionacademy.com/interviews/william-froug
+  date: '2011-07-18'
+  duration: '1:28'
+1959/come-wander-with-me:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: William Froug on Liza Minnelli auditioning for "Come Wander with Me"
+  url: https://interviews.televisionacademy.com/interviews/william-froug
+  date: '2011-07-18'
+  duration: 0:33
+1959/long-distance-call:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: James Sheldon on directing Billy Mumy in "Long Distance Call" and "It's a Good Life"
+  url: https://interviews.televisionacademy.com/interviews/james-sheldon
+  date: '2005-04-06'
+  duration: '3:22'
+1959/its-a-good-life:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: James Sheldon on directing Billy Mumy in "Long Distance Call" and "It's a Good Life"
+  url: https://interviews.televisionacademy.com/interviews/james-sheldon
+  date: '2005-04-06'
+  duration: '3:22'
+films/the-doll-matheson-unmade-tz:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on William Froug rejecting the script later made for Amazing Stories
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '1:22'

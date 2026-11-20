@@ -14,9 +14,9 @@ cast:
 - Robert Sampson
 - Charles Aidman
 narrator: Rod Serling
-synopsis: Parents wake in the night to hear their young daughter crying for help, though she is nowhere to be found
-  in the house. Her voice seems to come from beneath her bed, and a physicist friend helps them search for an opening
-  into another dimension.
+synopsis: Parents wake in the night to hear their young daughter crying for help, though she is nowhere to be found in
+  the house. Her voice seems to come from beneath her bed, and a physicist friend helps them search for an opening into
+  another dimension.
 themes:
 - fear
 - other dimensions
@@ -35,3 +35,12 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on how real life inspired "Little Girl Lost"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '1:06'

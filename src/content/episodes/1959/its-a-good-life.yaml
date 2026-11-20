@@ -18,9 +18,8 @@ cast:
 - Bill Mumy
 - Max Showalter
 narrator: Rod Serling
-synopsis: In an isolated Ohio town, every adult lives in constant fear of a six-year-old boy with limitless mental
-  powers. Residents must think only happy thoughts and praise whatever he does, because displeasing him has terrible
-  consequences.
+synopsis: In an isolated Ohio town, every adult lives in constant fear of a six-year-old boy with limitless mental powers.
+  Residents must think only happy thoughts and praise whatever he does, because displeasing him has terrible consequences.
 themes:
 - childhood
 - conformity
@@ -47,3 +46,12 @@ sources:
   url: https://en.wikipedia.org/wiki/It%27s_Still_a_Good_Life
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: James Sheldon on directing Billy Mumy in "Long Distance Call" and "It's a Good Life"
+  url: https://interviews.televisionacademy.com/interviews/james-sheldon
+  date: '2005-04-06'
+  duration: '3:22'
