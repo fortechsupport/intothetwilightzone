@@ -64,25 +64,30 @@ WHO = ["artist", "authors", "creators", "creator", "writers", "hosts", "original
 SUMMARY = ["description", "summary", "synopsis", "bio", "evidence", "notes", "context", "text", "lyric_excerpt"]
 
 COLUMNS = [
-    # header, key in row dict, width
-    ("Decision", "decision", 11),
-    ("Notes", "notes", 30),
-    ("Category", "category", 18),
-    ("Title", "title", 44),
-    ("Kind", "kind", 16),
-    ("Date", "date", 11),
-    ("Who", "who", 24),
-    ("Relevance", "relevance", 11),
-    ("Confidence", "confidence", 12),
-    ("Tags", "tags", 16),
-    ("Duplicate of", "duplicate_of", 18),
-    ("Summary", "summary", 60),
-    ("Sources", "sources", 10),
-    ("First source", "source_url", 30),
-    ("Page", "page", 30),
-    ("Reviewed", "reviewed", 11),
-    ("Key", "key", 40),
+    # header, key in row dict, width, wrap
+    ("Decision", "decision", 11, False),
+    ("Notes", "notes", 26, False),
+    ("Category", "category", 16, False),
+    ("Subcategory", "subcategory", 22, False),
+    ("Title", "title", 38, True),
+    ("Connection to TZ", "connection", 62, True),
+    ("Tier", "tier", 11, False),
+    ("Why this tier", "tier_reason", 34, False),
+    ("Recommendation", "recommendation", 15, False),
+    ("Why", "reason", 48, True),
+    ("Source", "source_title", 30, False),
+    ("Source link", "source_url", 30, False),
+    ("Date", "date", 11, False),
+    ("Who", "who", 22, False),
+    ("Description", "summary", 60, False),
+    ("Research confidence", "confidence", 12, False),
+    ("Tags", "tags", 14, False),
+    ("Duplicate of", "duplicate_of", 18, False),
+    ("Page", "page", 28, False),
+    ("Reviewed", "reviewed", 11, False),
+    ("Key", "key", 36, False),
 ]
+ASSESSMENTS = ROOT / "data" / "review" / "assessments.json"
 
 
 def slugify(text: str) -> str:
@@ -158,19 +163,45 @@ def records(content: Path = CONTENT):
             yield cdir.name, rid, data
 
 
+def load_assessments() -> dict:
+    """Run scripts/assess.py so the explanations match the content, then read them."""
+    import subprocess
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "assess.py")], check=True, cwd=ROOT, stdout=subprocess.DEVNULL)
+    return json.loads(ASSESSMENTS.read_text(encoding="utf-8"))
+
+
+EPISODE_ORDER = {"Original series": 0, "1985 revival": 1, "2002 revival": 2, "2019 revival": 3}
+
+
+def sub_rank(sub: str) -> tuple:
+    for k, v in EPISODE_ORDER.items():
+        if sub.startswith(k):
+            return (0, v, "")
+    return (1, 0, sub.lower())
+
+
 def queue(content: Path = CONTENT) -> list[dict]:
     ledger = load_ledger()
-    order = list(CATEGORY_LABELS)
+    assess = load_assessments()
     rows = []
     for collection, rid, d in records(content):
         key = f"{collection}/{rid}"
         dec = ledger.get(key, {})
-        sources = d.get("sources") or []
+        a = assess.get(key, {})
         rows.append({
             "key": key,
             "collection": collection,
             "category": CATEGORY_LABELS.get(collection, collection),
-            "title": title_of(collection, rid, d),
+            "subcategory": a.get("subcategory", ""),
+            "title": a.get("title") or title_of(collection, rid, d),
+            "sort": a.get("sort", ""),
+            "connection": a.get("connection", ""),
+            "tier": a.get("tier", ""),
+            "tier_reason": a.get("tier_reason", ""),
+            "recommendation": a.get("recommendation", ""),
+            "reason": a.get("reason", ""),
+            "source_title": a.get("source_title", ""),
+            "source_url": a.get("source_url", ""),
             "kind": text(first(d, KIND)),
             "date": text(first(d, DATE)),
             "who": text(first(d, WHO)),
@@ -179,15 +210,14 @@ def queue(content: Path = CONTENT) -> list[dict]:
             "confidence": text(d.get("confidence") or d.get("research_confidence")),
             "tags": text(d.get("tags")),
             "duplicate_of": text(d.get("duplicate_of")),
-            "sources": len(sources),
-            "source_url": next((s.get("url") for s in sources if isinstance(s, dict) and s.get("url")), ""),
+            "sources": len(d.get("sources") or []),
             "page": page_url(collection, rid, d),
             "decision": dec.get("status", "pending"),
             "notes": dec.get("notes", ""),
             "reviewed": dec.get("date", ""),
         })
-    rank = lambda c: order.index(c) if c in order else len(order)
-    rows.sort(key=lambda r: (rank(r["collection"]), r["collection"], natural(r["key"])))
+    # Grouped by category (alphabetical), then subcategory, then title ignoring a leading The/A/An.
+    rows.sort(key=lambda r: (r["category"].lower(), sub_rank(r["subcategory"]), r["sort"], natural(r["key"])))
     return rows
 
 
@@ -198,81 +228,143 @@ def natural(s: str):
 def export(out: Path, base_url: str) -> None:
     from openpyxl import Workbook
     from openpyxl.formatting.rule import FormulaRule
-    from openpyxl.styles import Alignment, Font, PatternFill
+    from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
+    from openpyxl.utils import get_column_letter
     from openpyxl.worksheet.datavalidation import DataValidation
 
     rows = queue()
     out.mkdir(parents=True, exist_ok=True)
     stamp = dt.date.today().isoformat()
+    letter = {k: get_column_letter(i) for i, (_, k, _, _) in enumerate(COLUMNS, start=1)}
 
     wb = Workbook()
     ws = wb.active
     ws.title = "Review"
     ws.append([c[0] for c in COLUMNS])
+    first_row: dict[str, int] = {}
     for r in rows:
         values = []
-        for _, k, _ in COLUMNS:
+        for _, k, _, _ in COLUMNS:
             v = r[k]
-            if k == "summary" and len(v) > 500:
-                v = v[:500] + "…"
+            if k == "summary" and len(v) > 600:
+                v = v[:600] + "\u2026"
             if k == "page" and v and base_url:
                 v = base_url.rstrip("/") + v
             values.append(v)
         ws.append(values)
-    bold = Font(bold=True, color="FFFFFF")
+        first_row.setdefault(r["category"], ws.max_row)
+
+    white_bold = Font(bold=True, color="FFFFFF")
     head = PatternFill("solid", fgColor="1F2A44")
-    for i, (_, k, width) in enumerate(COLUMNS, start=1):
+    thin = Side(style="thin", color="C9CED8")
+    for i, (_, k, width, _) in enumerate(COLUMNS, start=1):
         cell = ws.cell(row=1, column=i)
-        cell.font, cell.fill = bold, head
+        cell.font, cell.fill = white_bold, head
+        cell.alignment = Alignment(vertical="center", wrap_text=True)
         ws.column_dimensions[cell.column_letter].width = width
+    ws.row_dimensions[1].height = 30
+    wrap_cols = {letter[k] for _, k, _, w in COLUMNS if w}
+    band = [PatternFill("solid", fgColor="EEF1F6"), PatternFill("solid", fgColor="FFFFFF")]
+    group, prev = 0, None
     for row in ws.iter_rows(min_row=2):
+        cat = row[2].value
+        if cat != prev:
+            group, prev = group + 1, cat
+            for cell in row:
+                cell.border = Border(top=Side(style="medium", color="1F2A44"))
         for cell in row:
-            cell.alignment = Alignment(vertical="top", wrap_text=cell.column_letter in ("B", "D", "L"))
+            cell.alignment = Alignment(vertical="top", wrap_text=cell.column_letter in wrap_cols)
+        for k in ("category", "subcategory"):
+            c = row[list(letter).index(k)]
+            c.fill = band[group % 2]
+            c.font = Font(bold=(k == "category"))
+        row[list(letter).index("title")].font = Font(bold=True)
     last = ws.max_row
-    ws.freeze_panes = "C2"
-    ws.auto_filter.ref = f"A1:{ws.cell(row=1, column=len(COLUMNS)).column_letter}{last}"
-    dv = DataValidation(type="list", formula1='"pending,include,exclude"', allow_blank=True,
-                        showErrorMessage=False)
-    dv.add(f"A2:A{max(last, 2)}")
-    ws.add_data_validation(dv)
-    for word, color in (("include", "D8EED8"), ("exclude", "F4D6D6")):
-        ws.conditional_formatting.add(f"A2:A{max(last, 2)}", FormulaRule(formula=[f'$A2="{word}"'],
-                                      fill=PatternFill("solid", fgColor=color)))
-    for col in ("N", "O"):
-        for cell in ws[col][1:]:
-            if cell.value and str(cell.value).startswith("http"):
-                cell.hyperlink = str(cell.value)
-                cell.font = Font(color="1F5FAD", underline="single")
+    ws.freeze_panes = "F2"  # header row plus Decision..Title stay visible while scrolling
+    ws.auto_filter.ref = f"A1:{get_column_letter(len(COLUMNS))}{last}"
+    for col, choices in (("decision", "pending,include,exclude"),):
+        dv = DataValidation(type="list", formula1=f'"{choices}"', allow_blank=True, showErrorMessage=False)
+        dv.add(f"{letter[col]}2:{letter[col]}{max(last, 2)}")
+        ws.add_data_validation(dv)
+    rng = lambda k: f"{letter[k]}2:{letter[k]}{max(last, 2)}"
+    for k, word, color in (("decision", "include", "D8EED8"), ("decision", "exclude", "F4D6D6"),
+                           ("recommendation", "include", "D8EED8"), ("recommendation", "maybe", "FFF1C2"), ("recommendation", "exclude", "F4D6D6"),
+                           ("tier", "core", "DCE6F7"), ("tier", "related", "E9E2F5"), ("tier", "tangential", "F2F2F2")):
+        ws.conditional_formatting.add(rng(k), FormulaRule(formula=[f'${letter[k]}2="{word}"'], fill=PatternFill("solid", fgColor=color)))
+    link_font = Font(color="1F5FAD", underline="single")
+    src_col, url_col, page_col = list(letter).index("source_title"), list(letter).index("source_url"), list(letter).index("page")
+    for row in ws.iter_rows(min_row=2):
+        url = row[url_col].value
+        if url and str(url).startswith("http"):
+            row[src_col].hyperlink = str(url)
+            row[src_col].font = link_font
+            row[url_col].hyperlink = str(url)
+            row[url_col].font = link_font
+        pv = row[page_col].value
+        if pv and str(pv).startswith("http"):
+            row[page_col].hyperlink = str(pv)
+            row[page_col].font = link_font
 
     summary = wb.create_sheet("Summary")
-    summary.append(["Category", "Records", "Pending", "Include", "Exclude"])
+    summary.append(["Category (click to jump)", "Records", "Recommended include", "Recommended maybe", "Recommended exclude",
+                    "Core", "Related", "Tangential", "Decided include", "Decided exclude", "Still pending"])
     for c in summary[1]:
-        c.font, c.fill = bold, head
+        c.font, c.fill = white_bold, head
+        c.alignment = Alignment(wrap_text=True, vertical="center")
     by_cat: dict[str, list[dict]] = {}
     for r in rows:
         by_cat.setdefault(r["category"], []).append(r)
+    cnt = lambda rs, f, v: sum(1 for r in rs if r[f] == v)
     for cat, rs in by_cat.items():
-        summary.append([cat, len(rs)] + [sum(1 for r in rs if r["decision"] == s) for s in STATUSES])
-    summary.append(["All", len(rows)] + [sum(1 for r in rows if r["decision"] == s) for s in STATUSES])
-    summary.column_dimensions["A"].width = 36
+        summary.append([cat, len(rs), cnt(rs, "recommendation", "include"), cnt(rs, "recommendation", "maybe"), cnt(rs, "recommendation", "exclude"),
+                        cnt(rs, "tier", "core"), cnt(rs, "tier", "related"), cnt(rs, "tier", "tangential"),
+                        cnt(rs, "decision", "include"), cnt(rs, "decision", "exclude"), cnt(rs, "decision", "pending")])
+        cell = summary.cell(row=summary.max_row, column=1)
+        cell.hyperlink = f"#Review!A{first_row[cat]}"
+        cell.font = link_font
+    summary.append(["All", len(rows), cnt(rows, "recommendation", "include"), cnt(rows, "recommendation", "maybe"), cnt(rows, "recommendation", "exclude"),
+                    cnt(rows, "tier", "core"), cnt(rows, "tier", "related"), cnt(rows, "tier", "tangential"),
+                    cnt(rows, "decision", "include"), cnt(rows, "decision", "exclude"), cnt(rows, "decision", "pending")])
+    for c in summary[summary.max_row]:
+        c.font = Font(bold=True)
+    summary.column_dimensions["A"].width = 38
+    for col in "BCDEFGHIJK":
+        summary.column_dimensions[col].width = 13
+    summary.row_dimensions[1].height = 32
+    summary.freeze_panes = "B2"
+
     help_ws = wb.create_sheet("How to use")
     for line in [
         "How to review",
         "",
-        "1. On the Review sheet, set Decision to include or exclude (or type y / n). Leave pending to decide later.",
+        "Every row is one record. Rows are grouped by category, then subcategory, then sorted alphabetically by title (a leading The, A or An is ignored).",
+        "Read three columns to decide: Connection to TZ (how it relates to the show), Tier (how close it is) and Recommendation with Why (what I suggest and the reason).",
+        "Source / Source link is the best independent evidence for the connection. Page opens the record on the preview site.",
+        "",
+        "1. Set Decision to include or exclude (or type y / n). Leave pending to decide later.",
         "2. Add anything you want remembered in Notes, for example why something is out or what to fix.",
-        "3. Sort and filter as you like: rows are matched by the Key column, so do not edit Key.",
+        "3. Sort and filter freely (the header row has filters; Summary links jump to each category). Rows are matched by the Key column, so do not edit Key.",
         "4. You can delete rows you have not touched. A blank Decision cell leaves that record unchanged.",
         "5. Save the file (xlsx or csv) and hand it back. It is imported with: python3 scripts/review.py import FILE",
         "",
-        "Relevance: core = about The Twilight Zone itself; related = Rod Serling, Night Gallery, the show's writers;",
-        "tangential = mentions or borrows the name. Blank = not yet labelled.",
-        "The public site shows only records marked include. Preview builds show everything not excluded.",
+        "Tiers",
+        "core: part of The Twilight Zone itself (the four series, their episodes, official films, licensed radio, comics, magazines and merchandise) or wholly about it.",
+        "related: one step away: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+        "tangential: only touches the show: a passing mention, homage, parody, borrowed title, fellow anthology or unconfirmed resemblance.",
+        "",
+        "Recommendations",
+        "include: belongs on the site; the Why column says what it adds.",
+        "maybe: a real but weak or unverified tie; your call, and Why says what is uncertain.",
+        "exclude: duplicate, loose resemblance or no evident connection; kept in the data so nothing is lost.",
+        "",
+        "The public site shows only records you mark include. Preview builds show everything not excluded.",
         f"Generated {stamp} from {len(rows)} records.",
     ]:
         help_ws.append([line])
-    help_ws.column_dimensions["A"].width = 120
+    help_ws.column_dimensions["A"].width = 150
     help_ws["A1"].font = Font(bold=True, size=14)
+    for r in (13, 18):
+        help_ws[f"A{r}"].font = Font(bold=True)
     wb.move_sheet("How to use", offset=-2)
     wb.active = 1
 
@@ -282,7 +374,7 @@ def export(out: Path, base_url: str) -> None:
         w = csv.writer(fh)
         w.writerow([c[0] for c in COLUMNS])
         for r in rows:
-            w.writerow([r[k] for _, k, _ in COLUMNS])
+            w.writerow([r[k] for _, k, _, _ in COLUMNS])
     print(f"Wrote {xlsx} and review-queue.csv: {len(rows)} records "
           + ", ".join(f"{sum(1 for r in rows if r['decision'] == s)} {s}" for s in STATUSES))
 

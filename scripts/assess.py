@@ -620,6 +620,129 @@ def a_work(rid, d):
     return result(conn, tier, TIER_MEANING[tier], rec, reason, d)
 
 
+# ---------------------------------------------------------------- titles, subcategories and sorting
+ARTICLE = re.compile(r"^(the|a|an)\s+", re.I)
+
+
+def sort_key(title: str) -> str:
+    """Alphabetical key: ignore a leading The/A/An, quotes and punctuation; pad numbers so #2 sorts before #10."""
+    t = re.sub(r"^[\"'\u201c\u2018(\[.\u2026]+", "", str(title)).strip()
+    t = ARTICLE.sub("", t)
+    t = re.sub(r"\d+", lambda m: m.group(0).zfill(6), t.lower())
+    return re.sub(r"[^a-z0-9 ]", "", t).strip()
+
+
+FILM_KIND = {"film": "Feature films", "tv-film": "Television films", "tv-series": "Television series",
+             "tv-episode": "Episodes of other shows", "tv-segment": "Segments of other shows", "sketch": "Sketches",
+             "documentary": "Documentaries", "special": "Specials", "pilot": "Pilots", "stage": "Stage",
+             "unproduced": "Unproduced scripts", "short": "Short films", "music-video": "Music videos",
+             "commercial": "Commercials", "web-series": "Web series"}
+WORK_KIND = {"soundtrack": "Soundtracks and theme releases", "game": "Games", "collectible": "Collectibles",
+             "artwork": "Artwork", "stage": "Stage", "attraction": "Attractions", "event": "Events and honors",
+             "convention": "Conventions", "parody": "Parodies", "television": "Television", "memorial": "Memorials",
+             "education": "In the classroom", "fan-community": "Fan communities", "link": "Links and resources", "other": "Other"}
+LOC_SUB = {"backlot-set": "Studio backlots and sets", "filming-location": "Filming locations", "serling-place": "Rod Serling's places",
+           "memorial": "Memorials", "attraction": "Attractions", "museum-exhibit": "Museums and exhibits", "archive": "Archives"}
+SONG_SUB = {"theme": "The theme and its uses", "lyric-mention": "Lyrics that mention the show",
+            "reference": "Songs about or titled after the show", "unclassified": "Connection not yet confirmed"}
+BOOK_SUB = {"anthology": "Story anthologies", "scripts": "Scripts and teleplays", "scholarly": "Scholarship and criticism",
+            "novel": "Novels", "reference": "Guides and reference", "novelization": "Novelizations", "biography": "Biography and memoir",
+            "memoir": "Biography and memoir", "juvenile": "Young readers", "art-book": "Art and puzzle books", "puzzle-trivia": "Art and puzzle books",
+            "graphic-novel": "Graphic novels", "play": "Scripts and teleplays", "other": "Other books"}
+ESSAY_SUB = {"journal-article": "Journal articles", "essay": "Essays", "book-chapter": "Book chapters", "review": "Reviews",
+             "interview": "Interviews", "speech": "Speeches"}
+CONN_SUB = {"official-adaptation": "Official adaptations", "remake": "Remakes", "inspired-by": "Inspired by an episode",
+            "homage": "Homages", "parody": "Parodies", "reference": "References", "lyric-mention": "Lyric mentions"}
+
+
+def display_title(col: str, rid: str, d: dict) -> str:
+    if col == "quotes":
+        t = str(d.get("text") or "")
+        return f"{d.get('person')}: \u201c{t[:80]}{'\u2026' if len(t) > 80 else ''}\u201d"
+    if col == "connections":
+        return f"{ref_label(d.get('from', ''))} \u2192 {ref_label(d.get('to', ''))}"
+    if col == "series":
+        return f"{d.get('title')} ({d.get('years')})"
+    if col == "episodes":
+        return f"{d.get('title')} ({d.get('series')}, S{d.get('season')}E{d.get('episode')})"
+    return str(d.get("title") or d.get("name") or rid)
+
+
+def subcategory(col: str, rid: str, d: dict) -> str:
+    if col == "episodes":
+        return {"1959": "Original series (1959-1964)", "1985": "1985 revival (1985-1989)", "2002": "2002 revival (2002-2003)", "2019": "2019 revival (2019-2020)"}.get(str(d.get("series")), str(d.get("series")))
+    if col == "series":
+        return "The four series"
+    if col == "films":
+        if rid.startswith("night-gallery"):
+            return "Night Gallery"
+        if "anthology-family" in (d.get("tags") or []):
+            return "Fellow anthology series"
+        if mentions_tz(d.get("title")) and d.get("kind") in ("film", "tv-film", "documentary", "special", "pilot"):
+            return "Twilight Zone productions"
+        if is_serling(d) and d.get("relevance") == "related" and not CONN_FROM.get(f"films/{rid}"):
+            return "Rod Serling's other screen work"
+        return FILM_KIND.get(d.get("kind", "film"), "Other")
+    if col == "works":
+        if d.get("kind") == "event" and d.get("subtype") == "honor":
+            return "Honors and awards"
+        return WORK_KIND.get(d.get("kind"), "Other")
+    if col == "locations":
+        return LOC_SUB.get(d.get("kind"), "Other places")
+    if col == "songs":
+        if d.get("tz_connection") == "unclassified" and d.get("research_confidence") != "low":
+            return "Other references and samples"
+        return SONG_SUB.get(d.get("tz_connection"), "Other")
+    if col == "books":
+        if d.get("relevance") == "related" and not mentions_tz(d.get("title"), d.get("description")):
+            return "Rod Serling and Night Gallery"
+        k = d.get("kind")
+        if not k:
+            t = str(d.get("title", "")).lower()
+            k = ("puzzle-trivia" if re.search(r"trivia|coloring|word search|puzzle|haiku", t) else
+                 "anthology" if re.search(r"stories|tales|anthology|omnibus", t) else
+                 "scripts" if re.search(r"teleplay|scripts|room 2426|possum|the trunk|the crossing|writing for", t) else
+                 "reference" if re.search(r"guide|companion|faq|encyclopedia|revisited|reviewed|retrospective|memo to", t) else
+                 "biography" if re.search(r"biograph|life|dreams and nightmares|fictioneer|serling:", t) else
+                 "scholarly" if re.search(r"philosophy|gospel|irony|science fiction|sci fi|television|tv", t) else None)
+        return BOOK_SUB.get(k, "Other books")
+    if col == "comics":
+        pub = str(d.get("publisher") or "Other")
+        return {"Gold Key Comics": "Gold Key (1962-1982)", "Dell Comics": "Dell (1961-1962)", "Whitman Comics": "Gold Key (1962-1982)",
+                "Bloomsbury, Walker & Company": "Walker & Company graphic novels", "Boom Comics": "Rod Serling adaptations",
+                "Cayuga Productions": "Promotional comics", "Dynamite Entertainment": "Dynamite", "IDW Publishing": "IDW",
+                "Now Comics": "Now Comics"}.get(pub, pub)
+    if col == "magazines":
+        m = str(d.get("magazine") or "Other magazines")
+        return "The Twilight Zone Magazine" if "Twilight Zone Magazine" in m else m
+    if col == "radio":
+        if d.get("series_title") == "The Twilight Zone Radio Dramas" and not d.get("subtype"):
+            return "The Twilight Zone Radio Dramas"
+        if d.get("series_title") == "The Twilight Zone Radio Dramas":
+            return "Rebroadcasts and other radio"
+        return "Rod Serling on radio"
+    if col == "podcasts":
+        t = str(d.get("title"))
+        return "Single episodes of other podcasts" if (" - " in t and "episode" in t.lower()) or re.search(r"episode \d+|ep \d+|^\d+\.", t.lower()) else "Twilight Zone podcasts"
+    if col == "people":
+        roles = d.get("roles") or []
+        for r, label in (("writer", "Writers"), ("director", "Directors"), ("composer", "Composers"), ("producer", "Producers"), ("narrator", "Hosts and narrators"), ("host", "Hosts and narrators"), ("actor", "Actors")):
+            if r in roles:
+                return label
+        if any(qd.get("person") == d.get("name") for qd in DB.get("quotes", {}).values()):
+            return "Admirers and influenced artists"
+        return "Actors" if CREDITS and any(role == "acted in" for role, _, _ in CREDITS.get(d.get("name"), [])) else "Other people"
+    if col == "connections":
+        return CONN_SUB.get(d.get("kind"), "Other links")
+    if col == "essays":
+        return ESSAY_SUB.get(d.get("kind"), "Other writing")
+    if col == "quotes":
+        return "Quotes"
+    if col == "archives":
+        return "Archives and collections"
+    return ""
+
+
 DISPATCH = {"series": a_series, "episodes": a_episode, "films": a_film, "connections": a_connection, "people": a_person,
             "quotes": a_quote, "locations": a_location, "songs": a_song, "radio": a_radio, "podcasts": a_podcast,
             "books": a_book, "comics": a_comic, "magazines": a_magazine, "essays": a_essay, "archives": a_archive, "works": a_work}
@@ -637,6 +760,9 @@ def assess_all() -> dict[str, dict]:
             if d.get("duplicate_of"):
                 a["recommendation"] = "exclude"
                 a["reason"] = f"Duplicate of {d['duplicate_of']}; the other record is kept. This one stays hidden so the importer does not recreate it."
+            a["title"] = display_title(col, rid, d)
+            a["subcategory"] = subcategory(col, rid, d)
+            a["sort"] = sort_key(d.get("title") or d.get("name") or d.get("person") or a["title"]) if col != "connections" else sort_key(a["title"])
             a.update(OVERRIDE.get(key) or {})
             a["connection"] = re.sub(r"\s+", " ", a["connection"]).strip()
             out[key] = a
