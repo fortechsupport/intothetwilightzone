@@ -20,11 +20,13 @@ const mediaItem = z.preprocess((raw) => {
   const t = String(m.type ?? '');
   const fold: Record<string, string> = {
     advertisement: 'ad', commercial: 'ad', promo: 'video', trailer: 'video', clip: 'video', 'full-episode': 'video',
-    script: 'document', photo: 'image', poster: 'image', other: 'link', podcast: 'audio', 'radio': 'audio',
+    script: 'document', photo: 'image', poster: 'image', other: 'link', podcast: 'audio', 'radio': 'audio', listing: 'link',
   };
   if (fold[t]) { m.subtype ??= t; m.type = fold[t]; }
   const r = String(m.rights ?? '');
-  const rfold: Record<string, string> = { copyrighted: 'link-only', official: 'licensed', archive: 'link-only' };
+  const rfold: Record<string, string> = {
+    copyrighted: 'link-only', official: 'licensed', archive: 'link-only', 'hosted-by-rights-holder': 'licensed', 'hosted-by-archive': 'link-only',
+  };
   if (rfold[r]) m.rights = rfold[r];
   delete m.kind; delete m.license;
   return m;
@@ -129,8 +131,7 @@ const series = defineCollection({
     history,
     international_titles: internationalTitles,
     releases,
-    sources: z.array(source).default([]),
-    locked: z.boolean().optional(),
+    ...common,
   }),
 });
 
@@ -368,7 +369,7 @@ const works = defineCollection({
   loader: yaml('works'),
   schema: z.object({
     title: z.string(),
-    kind: z.enum(['game', 'collectible', 'artwork', 'stage', 'attraction', 'parody', 'convention', 'television', 'soundtrack', 'event', 'link', 'fan-community', 'memorial', 'education', 'lecture', 'advertisement', 'home-media', 'other']),
+    kind: z.enum(['game', 'collectible', 'artwork', 'stage', 'attraction', 'parody', 'convention', 'television', 'soundtrack', 'event', 'link', 'fan-community', 'memorial', 'education', 'lecture', 'advertisement', 'home-media', 'legal', 'cultural-impact', 'prop', 'production', 'other']),
     year: z.union([z.number(), z.string()]).optional(),
     creator: z.string().optional(),
     publisher: z.string().optional(),

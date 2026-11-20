@@ -106,7 +106,7 @@ known category creates a new subcategory, labelled from the slug and flagged new
 | `people` | `writers`, `directors`, `producers`, `actors`, `narrators-hosts`, `voice-actors`, `composers`, `crew`, `characters`, `scholars-historians`, `fans`, `family`, `inspired-creators` | people (roles[] and credits), characters, quote authors |
 | `places` | `real-life`, `in-story` | locations (`kind: in-story` goes to in-story) |
 | `events` | `conventions`, `honors-awards`, `anniversaries-festivals`, `broadcasts-marathons`, `premieres`, `exhibitions`, `production-history`, `other-events` | works kind event/convention/memorial (by subtype), series/film history[] |
-| `series` | `tv`, `radio`, `podcast` | series, films kind tv-series, radio series, podcasts |
+| `series` | `tv`, `radio`, `podcast`, `international` *(new)* | series, films kind tv-series, radio series, podcasts |
 | `episodes` | `tv`, `radio`, `podcast` | episodes, Night Gallery episodes, radio, podcasts featured_episodes |
 | `movies` | `twilight-zone-films`, `rod-serling-films`, `linked-films`, `tv-films`, `documentaries`, `shorts-and-other` | films |
 | `music` | `composers`, `theme`, `songs`, `soundtracks` | people with composer role, songs, works kind soundtrack |
@@ -120,8 +120,11 @@ known category creates a new subcategory, labelled from the slug and flagged new
 | `archives` *(new)* | `collections`, `documents` | archives |
 | `stage` *(new)* | `theatre`, `live-readings`, `attractions` | works kind stage/attraction, films kind stage |
 | `quotes` *(new)* | `rod-serling`, `admirers` | quotes |
-| `advertising` *(new)* | `commercials`, `promos-trailers`, `print-ads` | films kind commercial, works kind advertisement, media type ad |
+| `advertising` *(new)* | `commercials`, `promos-trailers`, `print-ads`, `sponsors` | films kind commercial, works kind advertisement, media type ad |
 | `community` *(new)* | `fan-communities`, `websites-databases`, `organizations` | works kind fan-community/link |
+| `legal-history` *(new)* | `trials`, `lawsuits`, `rights-ownership`, `censorship` | works kind legal, or event subtype trial/lawsuit |
+| `cultural-impact` *(new)* | `catchphrases`, `theme-shorthand`, `public-uses`, `dictionary-rankings` | works kind cultural-impact, or other subtype idiom |
+| `props-collecting` *(new)* | `props-costumes`, `auctions`, `museum-holdings`, `replicas` | works kind prop, or subtype prop/replica-prop |
 | `media` *(new)* | `video`, `audio`, `documents`, `images`, `ads`, `links` | every record's media[] |
 
 People `roles[]` are matched loosely (case and plural ignored): writer, director, producer, actor,
@@ -147,7 +150,7 @@ media:
     note: One line, own words.
 ```
 
-`kind` and `license` are accepted as aliases of `type` and `rights`; finer kinds (trailer, promo,
+Put media in the record's top-level `media[]`, not inside `details`. `kind` and `license` are accepted as aliases of `type` and `rights`; finer kinds (trailer, promo,
 clip, full-episode, script, photo, advertisement, commercial) fold into the main types automatically
 and are kept as `subtype`. Copyrighted material is linked (`link-only` or `licensed`), never re-hosted.
 
@@ -158,7 +161,7 @@ and are kept as `subtype`. Copyrighted material is linked (`link-only` or `licen
   appears_in[] (episode ids or `films/<id>`, `radio/<id>`, `comics/<id>`), description (own words), recurring.
 - locations.kind adds `in-story` (fictional settings; `filmed[]` lists where they appear) and
   `event-venue`; locations also take `episodes[]`.
-- works.kind adds `lecture`, `advertisement`, `home-media`. Events stay kind `event`/`convention`/`memorial`
+- works.kind adds `lecture`, `advertisement`, `home-media`, `legal`, `cultural-impact`, `prop`, `production`. Events stay kind `event`/`convention`/`memorial`
   with subtype (premiere, marathon, broadcast, festival, anniversary, honor, exhibition, trial...).
 - essays.kind adds `article`, `lecture`, `script`, `academic-thesis`; essays also take `reviews[]`
   (refs reviewed), `review_type` (`contemporary`/`retrospective`/`ranking`/`awards-citation`) and
