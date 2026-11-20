@@ -10,6 +10,34 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: An independent fan podcast that discusses episodes of The Twilight Zone, hosted by John and Fred, with
-  its first episode in February 2013. Its name and RSS feed are listed; how many episodes it covers has not been
-  checked.
+- title: Podm8 - Twilight Pwn episode list
+  url: https://podm8.com/podcasts/twilight-pwn-a-twilight-zone-podcast
+description: A weekly fan podcast by John and Fred that worked through the original series episode by episode, then branched
+  into Night Gallery, the 1980s revival and the 2019 series, with author interviews such as Steven Jay Rubin on his Twilight
+  Zone Encyclopedia. About 191 episodes; the newest listed is an August 2024 Serlingfest announcement.
+episode_count: 191
+status: unknown
+covers:
+- '1959'
+- '1985'
+- '2019'
+- films/night-gallery
+featured_episodes:
+- title: 'Episode 170b: Interview with Steven Jay Rubin, author of The Twilight Zone Encyclopedia'
+  date: '2017-12-16'
+- title: 'Episode 184: The Time Element'
+  date: '2024-01-03'
+- title: 'Episode 177: Nightmare at 30,000 Feet (2019 series)'
+  date: '2019-05-01'
+  covers_episode: 2019/nightmare-at-30000-feet
+- title: 'Episode 176: The Comedian (2019 series)'
+  date: '2019-04-10'
+  covers_episode: 2019/the-comedian
+- title: 'Episode 167: 80s Twilight Zone, Wordplay'
+  date: '2017-06-22'
+  covers_episode: 1985/wordplay
+- title: 'Episode 177: Nightmare at 30,000 Feet (2019 series)'
+  date: '2019-05-01'
+  covers_episode: 2019/nightmare-at-30-000-feet
+research_confidence: medium
+last_verified: '2026-11-20'

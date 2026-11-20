@@ -1,16 +1,16 @@
 # Field patches from the series/episodes/movies research pass (2026-11-20). Applied by scripts/research/apply_media.py.
 series/1959:
   summary: Rod Serling's original anthology for CBS, 156 episodes over five seasons from October 2, 1959 to June 19,
-    1964. Each self-contained story drops ordinary people into fantasy, science fiction or horror and usually turns
-    on a moral or ironic twist. Serling created it, wrote or adapted 92 of the episodes and narrated every one, with
-    Charles Beaumont and Richard Matheson writing most of the rest. Season 4 switched to hour-long episodes before
-    the show returned to half an hour for its last season. Its narration, its theme music and its sense of quiet
-    menace in everyday places made the title a household phrase.
+    1964. Each self-contained story drops ordinary people into fantasy, science fiction or horror and usually turns on
+    a moral or ironic twist. Serling created it, wrote or adapted 92 of the episodes and narrated every one, with Charles
+    Beaumont and Richard Matheson writing most of the rest. Season 4 switched to hour-long episodes before the show returned
+    to half an hour for its last season. Its narration, its theme music and its sense of quiet menace in everyday places
+    made the title a household phrase.
   history:
   - date: '1958-11-24'
     title: '"The Time Element" airs as a stand-in pilot'
-    text: CBS's Westinghouse-Desilu Playhouse broadcast Serling's time-travel script "The Time Element", introduced
-      by Desi Arnaz. Its strong response persuaded CBS to commission a pilot for Serling's own series.
+    text: CBS's Westinghouse-Desilu Playhouse broadcast Serling's time-travel script "The Time Element", introduced by
+      Desi Arnaz. Its strong response persuaded CBS to commission a pilot for Serling's own series.
     sources:
     - title: Wikipedia - The Time Element
       url: https://en.wikipedia.org/wiki/The_Time_Element
@@ -22,7 +22,7 @@ series/1959:
     sources:
     - title: Wikipedia - The Twilight Zone (1959 TV series)
       url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
-  - date: '1960-10'
+  - date: 1960-10
     title: New theme music for season 2
     text: Bernard Herrmann's eerie first-season theme was replaced by the familiar four-note guitar figure built from
       library cues by French composer Marius Constant, which has been used in nearly every version since.
@@ -31,8 +31,8 @@ series/1959:
       url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
   - date: '1963-01-03'
     title: Season 4 runs as an hour
-    text: After CBS briefly dropped the show from its fall schedule, it returned as a midseason replacement with 18
-      hour-long episodes. Producers Herbert Hirschman and then Bert Granet took over from Buck Houghton.
+    text: After CBS briefly dropped the show from its fall schedule, it returned as a midseason replacement with 18 hour-long
+      episodes. Producers Herbert Hirschman and then Bert Granet took over from Buck Houghton.
     sources:
     - title: Wikipedia - The Twilight Zone (1959 TV series)
       url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
@@ -43,18 +43,33 @@ series/1959:
     sources:
     - title: Wikipedia - The Twilight Zone (1959 TV series)
       url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+  - date: '1959-03-11'
+    title: Fully sponsored before it aired
+    text: Variety reported that General Foods had bought the new Serling half-hour for every week of its first 52-week
+      season, six months before the premiere and before CBS had given it a time slot.
+    sources:
+    - title: Variety, March 11, 1959 (Media History Digital Library)
+      url: https://lantern.mediahist.org/catalog/variety214-1959-03_0111
+  - date: '2010-09-14'
+    title: Definitive Blu-ray sets with archival extras
+    text: Image Entertainment's Blu-ray season sets (September 2010 to August 2011) added isolated scores, new cast interviews,
+      Marc Scott Zicree's 1978 audio interviews with the makers, Serling's 1975 Sherwood Oaks lecture, the unaired version
+      of the pilot, and Twilight Zone Radio Drama adaptations.
+    sources:
+    - title: Moviefone (TMDB data) - The Twilight Zone specials list
+      url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
   sources:
   - title: Wikipedia - The Twilight Zone (1959 TV series)
     url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
   - title: CTVA - The Twilight Zone episode guide
     url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
 series/1985:
-  summary: The first revival, made for CBS from September 27, 1985 and continued with a third season for first-run
-    syndication in 1988 and 1989, for 65 episodes and 110 stories. Most hours held two or three short tales, mixing
-    new stories, adaptations of authors such as Stephen King, Ray Bradbury, Arthur C. Clarke and Harlan Ellison, and
-    a few remakes of the original series. Philip DeGuere produced it, Ellison was creative consultant in the first
-    season, and the theme was reworked by the Grateful Dead with Merl Saunders. Charles Aidman narrated the CBS
-    seasons and Robin Ward the syndicated one.
+  summary: The first revival, made for CBS from September 27, 1985 and continued with a third season for first-run syndication
+    in 1988 and 1989, for 65 episodes and 110 stories. Most hours held two or three short tales, mixing new stories,
+    adaptations of authors such as Stephen King, Ray Bradbury, Arthur C. Clarke and Harlan Ellison, and a few remakes
+    of the original series. Philip DeGuere produced it, Ellison was creative consultant in the first season, and the
+    theme was reworked by the Grateful Dead with Merl Saunders. Charles Aidman narrated the CBS seasons and Robin Ward
+    the syndicated one.
   history:
   - date: '1985-09-27'
     title: CBS premiere
@@ -90,16 +105,15 @@ series/1985:
   - title: Wikipedia - List of The Twilight Zone (1985 TV series) episodes
     url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
 series/2002:
-  summary: The second revival, one season of 43 stories on UPN from September 18, 2002 to May 21, 2003, hosted by
-    Forest Whitaker. UPN usually paired two half-hour stories in an hour on Wednesday nights. Alongside new tales it
-    revisited the original with updated remakes and a sequel, "It's Still a Good Life", which brought back Bill Mumy
-    and Cloris Leachman. It was produced by Trilogy Entertainment's Pen Densham, Mark Stern and John Watson, with Ira
-    Steven Behr running the writers' room.
+  summary: The second revival, one season of 43 stories on UPN from September 18, 2002 to May 21, 2003, hosted by Forest
+    Whitaker. UPN usually paired two half-hour stories in an hour on Wednesday nights. Alongside new tales it revisited
+    the original with updated remakes and a sequel, "It's Still a Good Life", which brought back Bill Mumy and Cloris
+    Leachman. It was produced by Trilogy Entertainment's Pen Densham, Mark Stern and John Watson, with Ira Steven Behr
+    running the writers' room.
   history:
   - date: '2002-09-18'
     title: UPN premiere
-    text: The revival opened on UPN on a Wednesday night with two half-hour stories, introduced on screen by Forest
-      Whitaker.
+    text: The revival opened on UPN on a Wednesday night with two half-hour stories, introduced on screen by Forest Whitaker.
     sources:
     - title: Wikipedia - The Twilight Zone (2002 TV series)
       url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
@@ -113,11 +127,11 @@ series/2002:
   - title: Wikipedia - The Twilight Zone (2002 TV series)
     url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
 series/2019:
-  summary: The third revival, developed by Simon Kinberg, Jordan Peele and Marco Ramirez for the CBS All Access
-    streaming service, with Peele as host and narrator. Twenty episodes ran over two seasons, from April 1, 2019
-    to June 25, 2020, mostly new stories about present-day fears such as policing, social media and political
-    division, plus reimaginings of "Nightmare at 20,000 Feet" and other classics. It was made by Peele's Monkeypaw
-    Productions and Kinberg's Genre Films with CBS Television Studios, and ended after season 2.
+  summary: The third revival, developed by Simon Kinberg, Jordan Peele and Marco Ramirez for the CBS All Access streaming
+    service, with Peele as host and narrator. Twenty episodes ran over two seasons, from April 1, 2019 to June 25, 2020,
+    mostly new stories about present-day fears such as policing, social media and political division, plus reimaginings
+    of "Nightmare at 20,000 Feet" and other classics. It was made by Peele's Monkeypaw Productions and Kinberg's Genre
+    Films with CBS Television Studios, and ended after season 2.
   history:
   - date: '2019-04-01'
     title: Premiere on CBS All Access
@@ -128,11 +142,1153 @@ series/2019:
       url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
   - date: '2020-06-25'
     title: Season 2 released at once
-    text: All ten season 2 episodes were released on the same day. The service, renamed Paramount+ in 2021, did not
-      order a third season.
+    text: All ten season 2 episodes were released on the same day. The service, renamed Paramount+ in 2021, did not order
+      a third season.
     sources:
     - title: Wikipedia - The Twilight Zone (2019 TV series)
       url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
   sources:
   - title: Wikipedia - The Twilight Zone (2019 TV series)
     url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+films/twilight-zone-cbs-revival-2012:
+  _create: true
+  title: The Twilight Zone (Bryan Singer revival, CBS Television Studios, 2012)
+  kind: unproduced
+  release_date: '2012-12-19'
+  summary: A fourth television version announced on December 19, 2012, with Bryan Singer signed by CBS Television Studios
+    to develop and executive produce it and possibly direct the pilot. When it was announced no writer or network was
+    attached, and reports noted that Rod Serling's estate had not yet signed off. No pilot was made. CBS Television Studios
+    returned to the property five years later with the Jordan Peele series that premiered in 2019.
+  categories:
+  - movies/unmade-projects
+  relevance: core
+  research_confidence: medium
+  sources:
+  - title: '/Film: Bryan Singer producing new Twilight Zone series for CBS Studios (2012-12-19)'
+    url: https://www.slashfilm.com/bryan-singer-producing-new-twilight-zone-series-for-cbs-studios
+  - title: 'BroadwayWorld: CBS Studios developing modern Twilight Zone series (2012-12-19)'
+    url: https://www.broadwayworld.com/bwwtv/article/CBS-Studios-Developing-Modern-TWILIGHT-ZONE-Series-20121219
+  - title: 'Television Obscurities: Does television need another Twilight Zone? (2012-12-19)'
+    url: https://www.tvobscurities.com/?p=12739
+  last_verified: '2026-11-20'
+  locked: true
+films/the-twilight-zone-60th-remembering-rod-serling:
+  summary: A short retrospective documentary made for the series' 60th anniversary about Rod Serling's life, from his
+    Syracuse childhood and World War II service to his use of science fiction to take on race, paranoia and bigotry.
+    It screened before six classic episodes ("Walking Distance", "Time Enough at Last", "The Monsters Are Due on Maple
+    Street", "Eye of the Beholder", "The Invaders" and "To Serve Man") at a one-night Fathom Events and CBS Home Entertainment
+    cinema event on November 14, 2019. Producer Bill D'Elia is among those interviewed.
+  release_date: '2019-11-14'
+  sources:
+  - title: 'SYFY Wire: Exclusive clip from the Rod Serling documentary for the 60th anniversary screenings'
+    url: https://syfy.com/syfywire/rod-serling-twilight-zone-documentary
+  last_verified: '2026-11-20'
+films/twilight-zone-warner-bros-feature-project:
+  categories:
+  - movies/unmade-projects
+films/serling-2026:
+  categories:
+  - movies/documentaries
+films/rod-serling-beyond-the-twilight-zone:
+  _create: true
+  title: 'Rod Serling: Beyond the Twilight Zone'
+  kind: documentary
+  release_date: '2000-01-25'
+  parent_series: E! True Hollywood Story
+  summary: An episode of E!'s celebrity biography series E! True Hollywood Story devoted to Rod Serling's life and career,
+    from live television through The Twilight Zone, Night Gallery and his death in 1975.
+  categories:
+  - movies/documentaries
+  ids:
+    imdb: tt1331568
+  relevance: core
+  research_confidence: medium
+  sources:
+  - title: 'IMDb - Rod Serling: Beyond the Twilight Zone'
+    url: https://www.imdb.com/title/tt1331568
+  - title: Moviefone (TMDB data) - The Twilight Zone specials list
+    url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  last_verified: '2026-11-20'
+  locked: true
+podcasts/the-twilight-zone-podcast:
+  description: Tom Elliot's long-running independent podcast about The Twilight Zone, started in 2010 and billed as the
+    longest-running show about the series. Alongside reviews of episodes across every season it runs readings of the
+    short stories behind episodes, book reviews, interviews with authors and Serling family members, and live coverage
+    of Serlingfest in Binghamton. In 2026 it covered the Serling documentary's SXSW premiere and talked with Alan Sepinwall
+    about his Serling biography.
+  status: active
+  covers:
+  - '1959'
+  - '1985'
+  - '2002'
+  - '2019'
+  featured_episodes:
+  - title: Serling, A Journey into the Twilight Zone with Alan Sepinwall
+    date: '2026-06-11'
+    url: https://www.thetwilightzonepodcast.com/episodes/alan-sepinwall
+  - title: Serling, A Journey into the Twilight Zone with Alan Sepinwall, part 2
+    date: '2026-10-13'
+    url: https://www.thetwilightzonepodcast.com/episodes/alan-sepinwall-2
+  - title: Jodi Serling with Tony Albarella (live at Serlingfest 2026)
+    date: '2026-09-24'
+    url: https://www.thetwilightzonepodcast.com/episodes/jodi-serling
+  - title: 'Serling: SXSW premiere with Harold Clark'
+    date: '2026-05-11'
+    url: https://www.thetwilightzonepodcast.com/episodes/serling-sxsw
+  - title: 'Roddy McDowall: An Actor''s Life, with Samuel Garza Bernstein'
+    date: '2026-05-03'
+    url: https://www.thetwilightzonepodcast.com/episodes/roddy-mcdowall
+  - title: Prelude to "An Occurrence at Owl Creek Bridge" (Vincent Price's Suspense radio performance)
+    date: '2026-02-21'
+    url: https://www.thetwilightzonepodcast.com/episodes/suspense
+    covers_episode: 1959/an-occurrence-at-owl-creek-bridge
+  - title: '"What''s in the Box"'
+    date: '2026-11-11'
+    url: https://www.thetwilightzonepodcast.com/episodes
+    covers_episode: 1959/whats-in-the-box
+  sources:
+  - title: The Twilight Zone Podcast - About
+    url: https://www.thetwilightzonepodcast.com/about
+  - title: The Twilight Zone Podcast - Episodes
+    url: https://www.thetwilightzonepodcast.com/episodes
+  research_confidence: high
+  last_verified: '2026-11-20'
+podcasts/the-twilight-pwn:
+  description: A weekly fan podcast by John and Fred that worked through the original series episode by episode, then
+    branched into Night Gallery, the 1980s revival and the 2019 series, with author interviews such as Steven Jay Rubin
+    on his Twilight Zone Encyclopedia. About 191 episodes; the newest listed is an August 2024 Serlingfest announcement.
+  episode_count: 191
+  status: unknown
+  covers:
+  - '1959'
+  - '1985'
+  - '2019'
+  - films/night-gallery
+  featured_episodes:
+  - title: 'Episode 170b: Interview with Steven Jay Rubin, author of The Twilight Zone Encyclopedia'
+    date: '2017-12-16'
+  - title: 'Episode 184: The Time Element'
+    date: '2024-01-03'
+  - title: 'Episode 177: Nightmare at 30,000 Feet (2019 series)'
+    date: '2019-05-01'
+    covers_episode: 2019/nightmare-at-30-000-feet
+  - title: 'Episode 176: The Comedian (2019 series)'
+    date: '2019-04-10'
+    covers_episode: 2019/the-comedian
+  - title: 'Episode 167: 80s Twilight Zone, Wordplay'
+    date: '2017-06-22'
+    covers_episode: 1985/wordplay
+  sources:
+  - title: Podm8 - Twilight Pwn episode list
+    url: https://podm8.com/podcasts/twilight-pwn-a-twilight-zone-podcast
+  research_confidence: medium
+  last_verified: '2026-11-20'
+podcasts/monsters-are-due-twilight-zone-podcast:
+  hosts:
+  - Nicole Hunter
+  - Peter Hunter
+  first_episode: '2025-02-18'
+  episode_count: 98
+  episode_count_as_of: '2026-11-17'
+  status: active
+  covers:
+  - '1959'
+  description: A weekly podcast by Nicole and Peter Hunter, started in February 2025, that goes through the original
+    series in order and digs into the people and production history behind each episode. By November 2026 it had reached
+    about 98 episodes, recently "Little Girl Lost" and "Person or Persons Unknown".
+  featured_episodes:
+  - title: Person or Persons Unknown
+    date: '2026-11-17'
+    covers_episode: 1959/person-or-persons-unknown
+  - title: Little Girl Lost
+    date: '2026-11-10'
+    covers_episode: 1959/little-girl-lost
+  - title: The Fugitive
+    date: '2026-11-03'
+    covers_episode: 1959/the-fugitive
+  links:
+    home: https://themonstersareduepodcast.com
+    rss: https://www.themonstersareduepodcast.com/feed.xml
+    apple: https://podcasts.apple.com/us/podcast/the-monsters-are-due-a-twilight-zone-podcast/id1795624031
+  sources:
+  - title: Pod Engine - The Monsters Are Due
+    url: https://www.podengine.ai/podcasts/the-monsters-are-due-a-twilight-zone-podcast
+  research_confidence: high
+  last_verified: '2026-11-20'
+podcasts/entering-the-fifth-dimension:
+  description: A monthly Golden Spiral Media podcast by Darrell Darnell and Robert Beury, started in 2019, that groups
+    episodes of the original series and the 2019 revival around shared themes such as time travel or mistaken identity.
+    Guests have included Ali Matheson, Richard Matheson's daughter. About 95 episodes by October 2026.
+  episode_count: 95
+  episode_count_as_of: '2026-10-30'
+  status: active
+  covers:
+  - '1959'
+  - '2019'
+  featured_episodes:
+  - title: Circular History (guest Ali Matheson)
+    date: '2026-07-31'
+    url: https://rephonic.com/episodes/xuxol-entering-the-fifth-dimension-a-twilight-zone
+  - title: The Gangster, the Witch, and the Wardrobe
+    date: '2026-10-30'
+    url: https://rephonic.com/episodes/ncwf6-entering-the-fifth-dimension-a-twilight-zone
+  - title: Back to the Future
+    date: '2026-09-28'
+    url: https://rephonic.com/episodes/96chy-entering-the-fifth-dimension-a-twilight-zone
+  sources:
+  - title: Rephonic - Entering the Fifth Dimension
+    url: https://rephonic.com/podcasts/entering-the-fifth-dimension-a-twilight-zone-podca
+  research_confidence: high
+  last_verified: '2026-11-20'
+podcasts/zone-i-sodes:
+  description: A review podcast by Scott McFarland and Brandon Davis on the Front Row Network (NPR Illinois), going through
+    the original series in order, sometimes joined by Katharine Roberts. Apple lists 23 episodes, all from 2022, ending
+    with "The Monsters Are Due on Maple Street".
+  episode_count: 23
+  status: ended
+  covers:
+  - '1959'
+  featured_episodes:
+  - title: 'Episode 22: The Monsters Are Due on Maple Street'
+    date: '2022-09-16'
+    url: https://podcasts.apple.com/us/podcast/episode-22-the-monsters-are-due-on-maple-street/id1630502455?i=1000579651014
+    covers_episode: 1959/the-monsters-are-due-on-maple-street
+  - title: 'Episode 21: Mirror Image'
+    date: '2022-09-09'
+    url: https://podcasts.apple.com/us/podcast/episode-21-mirror-image/id1630502455?i=1000578912177
+    covers_episode: 1959/mirror-image
+  - title: 'Episode 20: Elegy'
+    date: '2022-09-02'
+    url: https://podcasts.apple.com/us/podcast/episode-20-elegy/id1630502455?i=1000578126793
+    covers_episode: 1959/elegy
+  - title: 'Episode 19: The Purple Testament'
+    date: '2022-08-26'
+    url: https://podcasts.apple.com/us/podcast/episode-19-the-purple-testament/id1630502455?i=1000577404973
+    covers_episode: 1959/the-purple-testament
+  - title: 'Episode 16: The Hitch-Hiker'
+    date: '2022-08-05'
+    url: https://podcasts.apple.com/us/podcast/episode-16-the-hitch-hiker/id1630502455?i=1000575092373
+    covers_episode: 1959/the-hitch-hiker
+  sources:
+  - title: Apple Podcasts - Zone-i-Sodes
+    url: https://podcasts.apple.com/us/podcast/id1630502455
+  research_confidence: high
+  last_verified: '2026-11-20'
+podcasts/the-twilight-gnome:
+  _create: true
+  title: The Twilight Gnome
+  hosts:
+  - Alex
+  - Tyler
+  status: active
+  covers:
+  - '1959'
+  description: A weekly fan podcast in which hosts Alex and Tyler watch the original series one episode at a time and
+    give their takes; it passed 139 episodes in November 2026 and runs an annual Halloween special.
+  featured_episodes:
+  - title: 'Episode 139: An Occurrence at Owl Creek Bridge'
+    url: https://ajrockstar3.podbean.com/e/episode-139-an-occurrence-at-owl-creek-bridge/
+    covers_episode: 1959/an-occurrence-at-owl-creek-bridge
+  - title: 'Episode 138: Mr. Bevis'
+    date: '2026-11-06'
+    url: https://ajrockstar3.podbean.com/e/episode-138-mr-bevis/
+    covers_episode: 1959/mr-bevis
+  - title: 'Episode 137: Twenty Two (Halloween special)'
+    date: '2026-10-30'
+    url: https://ajrockstar3.podbean.com/e/episode-137-twenty-two/
+    covers_episode: 1959/twenty-two
+  - title: 'Episode 136: The Dummy'
+    date: '2026-10-23'
+    url: https://ajrockstar3.podbean.com/e/episode-136-the-dummy/
+    covers_episode: 1959/the-dummy
+  links:
+    home: https://ajrockstar3.podbean.com
+  sources:
+  - title: Podbean - The Twilight Gnome
+    url: https://ajrockstar3.podbean.com
+  relevance: core
+  research_confidence: medium
+  last_verified: '2026-11-20'
+podcasts/zoning-out:
+  _create: true
+  title: Zoning Out
+  status: unknown
+  episode_count: 87
+  covers:
+  - '1959'
+  - '1985'
+  - '2002'
+  - '2019'
+  description: A roundtable podcast of writers, directors and guest actors that works through The Twilight Zone from
+    the 1959 original to the 2020 season of the Peele revival. Everand lists 87 episodes, the newest from May 2024.
+  links:
+    everand: https://www.everand.com/podcast-show/684902679/Zoning-Out
+  sources:
+  - title: Everand - Zoning Out
+    url: https://www.everand.com/podcast-show/684902679/Zoning-Out
+  relevance: core
+  research_confidence: low
+  last_verified: '2026-11-20'
+podcasts/zoners:
+  _create: true
+  title: Zoners
+  hosts:
+  - Matt McGregor
+  - Colin Shaw
+  - Harris McCabe
+  first_episode: '2023-05-11'
+  episode_count: 2
+  status: ended
+  covers:
+  - '1959'
+  description: A Fandom Limb Media podcast that set out to cover the original series from the beginning; only two episodes
+    appeared, in May and June 2023.
+  sources:
+  - title: Pod Engine - Zoners
+    url: https://www.podengine.ai/podcasts/zoners
+  relevance: core
+  research_confidence: medium
+  last_verified: '2026-11-20'
+podcasts/night-gallery-podcast-christopher-brown:
+  _create: true
+  title: Night Gallery Podcast
+  hosts:
+  - Christopher Brown
+  status: ended
+  episode_count: 102
+  covers:
+  - films/night-gallery
+  description: Christopher Brown's episode-by-episode podcast on Rod Serling's Night Gallery, active from 2010 to 2021
+    with 102 episodes, including the syndication-only stories, a "lost episode" and a special on Serling's 1964 television
+    film "A Carol for Another Christmas".
+  featured_episodes:
+  - title: Hatred Unto Death
+    date: '2012-12-16'
+    url: https://podcasts.apple.com/us/podcast/hatred-unto-death/id400018647?i=1000389745923
+  - title: Die Now, Pay Later (syndication-only story)
+    date: '2012-12-23'
+    url: https://podcasts.apple.com/us/podcast/die-now-pay-later/id400018647?i=1000327231810
+  - title: 'Special: A Carol for Another Christmas'
+    date: '2014-12-13'
+    url: https://podcasts.apple.com/us/podcast/special-a-carol-for-another-christmas/id400018647?i=1000327365643
+  links:
+    apple: https://podcasts.apple.com/us/podcast/night-gallery-podcast/id400018647
+  sources:
+  - title: Apple Podcasts - Night Gallery Podcast
+    url: https://podcasts.apple.com/us/podcast/night-gallery-podcast/id400018647
+  relevance: related
+  research_confidence: high
+  last_verified: '2026-11-20'
+podcasts/retroist-night-gallery-episode:
+  _create: true
+  title: 'Retroist Podcast: Night Gallery'
+  status: active
+  covers:
+  - films/night-gallery
+  first_episode: '2009-10-03'
+  description: A single 25-minute episode of the general retro-culture Retroist Podcast about Night Gallery, covering
+    Serling's role, the production and syndication fights and the music.
+  links:
+    home: https://www.retroist.com/p/retroist-night-gallery-podcast
+  sources:
+  - title: Retroist - Night Gallery podcast
+    url: https://www.retroist.com/p/retroist-night-gallery-podcast
+  relevance: related
+  research_confidence: medium
+  last_verified: '2026-11-20'
+podcasts/zoned-out-the-twilight-zone-revisited:
+  _create: true
+  title: 'Zoned Out: The Twilight Zone Revisited (Night of the Living Podcast)'
+  hosts:
+  - Joe Juvland
+  - Freddy Morris
+  first_episode: '2024-12-13'
+  status: unknown
+  covers:
+  - '1959'
+  description: A recurring series inside the horror and sci-fi film podcast Night of the Living Podcast, in which the
+    hosts revisit the original Twilight Zone, starting with "Where Is Everybody?" in December 2024.
+  featured_episodes:
+  - title: Where Is Everybody?
+    date: '2024-12-13'
+    url: https://blubrry.com/notlp/139715201/zoned-out-the-twilight-zone-revisited-where-is-everybody
+    covers_episode: 1959/where-is-everybody
+  sources:
+  - title: Blubrry - Night of the Living Podcast
+    url: https://blubrry.com/notlp/139715201/zoned-out-the-twilight-zone-revisited-where-is-everybody
+  relevance: core
+  research_confidence: medium
+  last_verified: '2026-11-20'
+radio/a-kind-of-stopwatch:
+  sources: &id001
+  - &id002
+    title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+    url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+  - &id003
+    title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+    url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-lateness-of-the-hour:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-thirty-fathom-grave:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-man-in-the-bottle:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-night-of-the-meek:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-after-hours:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/mr-dingle-the-strong:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/a-stop-at-willoughby:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-lonely:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/of-late-i-think-of-cliffordville:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-obsolete-man:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-bard:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/back-there:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/a-short-drink-from-a-certain-fountain:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/nervous-man-in-a-four-dollar-room:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-monsters-are-due-on-maple-street:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/mr-garrity-and-the-graves:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/escape-clause:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/four-o-clock:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/uncle-simon:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-fear:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-parallel:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/a-hundred-yards-over-the-rim:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/one-for-the-angels:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-midnight-sun:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-rip-van-winkle-caper:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/a-most-unusual-camera:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/twenty-two:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/walking-distance:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-passerby:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-dummy:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/no-time-like-the-past:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/still-valley:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/king-nine-will-not-return:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/i-am-the-night-color-me-black:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-incredible-world-of-horace-ford:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/one-more-pallbearer:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-little-people:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/cavender-is-coming:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/hocus-pocus-and-frisby:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-living-doll:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/big-tall-wish:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-fever:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-last-night-of-a-jockey:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/a-thing-about-machines:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/mirror-image:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-7th-is-made-up-of-phantoms:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-long-morrow:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/will-the-real-martian-please-stand-up:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-trade-ins:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/time-enough-at-last:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/a-passage-for-trumpet:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/i-shot-an-arrow-into-the-air:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-brain-center-at-whipples:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-grave:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-hitchhiker:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/mr-denton-on-doomsday:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/sounds-and-silences:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-odyssey-of-flight-33:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-changing-of-the-guard:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/five-characters-in-search-of-an-exit:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-arrival:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/queen-of-the-nile:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/i-dream-of-genie:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/its-a-good-life:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-masks:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/mr-bevis:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/showdown-with-rance-mcgrew:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-old-man-in-the-cave:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/ninety-years-without-slumbering:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-howling-man:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/caesar-and-me:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-self-improvement-of-salvadore-ross:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-time-element:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-unmade-tv-scripts
+radio/the-mind-and-the-matter:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/people-are-alike-all-over:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/what-you-need:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/dead-mans-shoes:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/whats-in-the-box:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/deaths-head-revisited:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/to-serve-man:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/a-world-of-difference:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/from-agnes-with-love:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/perchance-to-dream:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-purple-testament:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/printers-devil:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/dust:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-jeopardy-room:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  voiced_by:
+  - Yasen Peyankov
+radio/the-fugitive:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-silence:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/miniature:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-jungle:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-mighty-casey:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/ring-a-ding-girl:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/mute:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/black-leather-jackets:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/a-quality-of-mercy:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/where-is-everybody:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/a-nice-place-to-visit:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/in-his-image:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/nightmare-at-20-000-feet:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/elegy:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-last-rites-of-jeff-myrtlebank:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/spur-of-the-moment:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/hes-alive:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/long-distance-call:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-gift:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/gentlemen-be-seated:
+  sources:
+  - *id002
+  - *id003
+  - title: 'SYFY WIRE: This unmade Twilight Zone episode imagined a world without laughter (2026-08-03)'
+    url: https://www.syfy.com/syfy-wire/unmade-twilight-zone-episode-gentlemen-be-seated-imagined-world-without-laughter
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-unmade-tv-scripts
+  description: Charles Beaumont's own Twilight Zone teleplay that the TV series never filmed, a satire set in a society
+    that has outlawed laughter, finally produced by the radio series in 2007. Adapted for radio by Dennis Etchison, starring
+    Stan Freberg. It opened the radio series' run of unmade scripts from the original show.
+radio/you-drive:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/in-praise-of-pip:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-last-flight:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/long-live-walter-jameson:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/person-or-persons-unknown:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-whole-truth:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/stopover-in-a-quiet-town:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/judgment-night:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-chaser:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/shadow-play:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/nick-of-time:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/static:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/death-ship:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/pattern-for-doomsday:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-unmade-tv-scripts
+  description: An unmade Twilight Zone teleplay by Jerry Sohl, written from an idea by Charles Beaumont during the period
+    when Sohl ghost-wrote episodes credited to Beaumont. The TV series never filmed it; the radio series produced it
+    with Henry Rollins, adapted by Dennis Etchison.
+  original_writer: Jerry Sohl (from an idea by Charles Beaumont)
+radio/nightmare-as-a-child:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/and-when-the-sky-was-opened:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/little-girl-lost:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/jess-belle:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-encounter:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/a-world-of-his-own:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-new-exhibit:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  original_writer: Jerry Sohl (teleplay, credited to Charles Beaumont)
+radio/valley-of-the-shadow:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/night-call:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/kick-the-can:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/a-game-of-pool:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/a-penny-for-your-thoughts:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/free-dirt:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+  description: 'A dramatization of Charles Beaumont''s short story "Free Dirt" (collected in Charles Beaumont: Selected
+    Stories), about a greedy man who takes soil from a cemetery for his garden. It was never a TV episode. Adapted for
+    radio by Dennis Etchison, starring Eric Bogosian.'
+radio/number-12-looks-just-like-you:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/on-thursday-we-leave-for-home:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/third-from-the-sun:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-trouble-with-templeton:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-mirror:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-prime-mover:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/a-piano-in-the-house:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-four-of-us-are-dying:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-sixteen-millimeter-shrine:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  voiced_by:
+  - Charles Shaughnessy
+radio/the-shelter:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/young-mans-fancy:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/probe-7-over-and-out:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/two:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/who-am-i:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-unmade-tv-scripts
+  description: An unmade Twilight Zone teleplay by Jerry Sohl, who ghost-wrote three filmed episodes under Charles Beaumont's
+    name. The radio series produced it with Sean Astin, adapted by Dennis Etchison.
+radio/the-bewitchin-pool:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-hunt:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/passage-on-the-lady-anne:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/execution:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/steel:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-amazing-dr-kyle-powers:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+radio/nothing-in-the-dark:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/there-goes-the-neighborhood:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+radio/the-walkabouts:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+radio/an-occurrence-at-owl-creek-bridge:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/now-you-hear-it-now-you-dont:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+radio/once-upon-a-time:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/the-invaders:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/beewinjapeedee:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+radio/eye-of-the-beholder:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/i-sing-the-body-electric:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+radio/mrs-pierce-is-praying-for-me:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+radio/the-time-of-your-life:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+radio/ten-days:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+radio/snow-angel:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+radio/nanobots:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+radio/two-thousand-twelve:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+radio/and-cauldron-bubble:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+radio/missing-presumed-dead:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+radio/rest-stop:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+radio/the-25th-hour:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories
+radio/another-place-in-time:
+  sources: *id001
+  last_verified: '2026-11-20'
+  research_confidence: high
+  categories:
+  - episodes/radio-original-stories

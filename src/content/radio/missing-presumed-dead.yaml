@@ -13,5 +13,13 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: A story by Dennis Etchison written for the radio series itself. It is one of the new stories, not adapted
   from a television episode, that the series added in its later seasons. Starring Danny Goldring.
+last_verified: '2026-11-20'
+research_confidence: high
+categories:
+- episodes/radio-original-stories

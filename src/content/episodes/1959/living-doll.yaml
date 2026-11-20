@@ -25,13 +25,13 @@ themes:
 - menace
 - toys
 trivia:
-- text: Talky Tina was voiced, without credit, by June Foray, who also supplied the voice of Mattel's Chatty Cathy
-    doll, the toy Tina was modeled on.
+- text: Talky Tina was voiced, without credit, by June Foray, who also supplied the voice of Mattel's Chatty Cathy doll,
+    the toy Tina was modeled on.
   sources:
   - title: Living Doll (The Twilight Zone) - Wikipedia
     url: https://en.wikipedia.org/wiki/Living_Doll_(The_Twilight_Zone)
-- text: Although Charles Beaumont is credited, the script was ghostwritten by Jerry Sohl while Beaumont was too
-    ill to write; Beaumont insisted on splitting the fee.
+- text: Although Charles Beaumont is credited, the script was ghostwritten by Jerry Sohl while Beaumont was too ill to
+    write; Beaumont insisted on splitting the fee.
   sources:
   - title: Jerry Sohl - Wikipedia
     url: https://en.wikipedia.org/wiki/Jerry_Sohl
@@ -58,3 +58,11 @@ sources:
   url: https://en.wikipedia.org/wiki/Living_Doll_(The_Twilight_Zone)
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with June Foray (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed

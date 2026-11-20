@@ -60,3 +60,17 @@ media:
   title: George Clayton Johnson on "Ninety Years Without Slumbering"
   url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
   duration: '4:47'
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Carolyn Kearney and George Clayton Johnson (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+- type: interview
+  subtype: bonus-interview
+  title: Interview with George Clayton Johnson (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed

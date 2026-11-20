@@ -15,6 +15,14 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: Rod Serling's 1958 Desilu Playhouse play, the unofficial pilot of The Twilight Zone, in which a man
-  tells a psychiatrist about a recurring dream of Honolulu on the eve of Pearl Harbor. The radio series adapted
-  it as a prequel to the show it led to. Adapted for radio by Dennis Etchison, starring Bobby Slayton.
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
+description: Rod Serling's 1958 Desilu Playhouse play, the unofficial pilot of The Twilight Zone, in which a man tells
+  a psychiatrist about a recurring dream of Honolulu on the eve of Pearl Harbor. The radio series adapted it as a prequel
+  to the show it led to. Adapted for radio by Dennis Etchison, starring Bobby Slayton.
+last_verified: '2026-11-20'
+research_confidence: high
+categories:
+- episodes/radio-unmade-tv-scripts

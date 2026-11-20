@@ -5,7 +5,7 @@ season_order: 2
 volume: 21
 volume_order: 2
 volume_released: October 2013
-original_writer: Jerry Sohl
+original_writer: Jerry Sohl (from an idea by Charles Beaumont)
 adapted_by: Dennis Etchison
 voiced_by:
 - Henry Rollins
@@ -14,5 +14,14 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: An adaptation of a story by Jerry Sohl, who ghost-wrote three episodes of the original series under
-  Charles Beaumont's name. Adapted for radio by Dennis Etchison, starring Henry Rollins.
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
+description: An unmade Twilight Zone teleplay by Jerry Sohl, written from an idea by Charles Beaumont during the period
+  when Sohl ghost-wrote episodes credited to Beaumont. The TV series never filmed it; the radio series produced it with
+  Henry Rollins, adapted by Dennis Etchison.
+last_verified: '2026-11-20'
+research_confidence: high
+categories:
+- episodes/radio-unmade-tv-scripts

@@ -16,7 +16,13 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “It''s a Good Life” from the original 1959 series (season 3, 1961), written
   for television by Rod Serling. Adapted for radio by Dennis Etchison, starring Mike Starr. The story: In an isolated
-  Ohio town, every adult lives in constant fear of a six-year-old boy with limitless mental powers. Residents must
-  think only happy thoughts and praise whatever he does, because displeasing him has terrible consequences.'
+  Ohio town, every adult lives in constant fear of a six-year-old boy with limitless mental powers. Residents must think
+  only happy thoughts and praise whatever he does, because displeasing him has terrible consequences.'
+last_verified: '2026-11-20'
+research_confidence: high
