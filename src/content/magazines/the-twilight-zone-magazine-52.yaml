@@ -8,8 +8,21 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60168
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: Issue 52 of Rod Serling's The Twilight Zone Magazine (Feb 1988), the horror and fantasy fiction magazine
-  published by TZ Publications from 1981 to 1989 under license from Carol Serling. Each issue mixed new short fiction
-  with interviews, film and book coverage and Twilight Zone history; this issue's contents are on the linked ISFDB
-  page.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+description: 'February 1988 issue, edited by Tappan King. Fiction: "Call 666" by Dennis Etchison; "Break Up" by
+  Richard Christian Matheson; "Not with a Whimper" by John Skipp & Craig Spector; "Prince of Flowers (TZ First)"
+  by Elizabeth Hand; "The Blimp Hunter (TZ First)" by J. Noyes Scher; "Moonlight Becomes Magenta" by Paul Witcover;
+  "The Book of Hieronymus Bosch (sestina)" by T.E.D. Klein; "The Immersion" by Peter Heyrman; "Listening for the
+  General" by Kim Antieau; "Snowcrest" by Randolph Cirilo. Features: On the Cutting Edge: conversation with Dennis
+  Etchison, by Stanley Wiater; Occupation: Ghostbreaker! - Roger Anker talks with Richard Christian Matheson; Countdown
+  to the Millennium, by Mark Arnold; Illuminations items by Robert Simpson, Ron Wolfe and Deborah Quilter. Regular
+  columns: Books (Edward Bryant); Other Dimensions/Screen (Gahan Wilson); In the Twilight Zone; Letters; Hollywood
+  Grapevine; The Other Side. Vol. 7 No. 6. #52 = Feb 1988 matches counting back from #60 (June 1989). Elizabeth
+  Hand''s ''Prince of Flowers'' was an early published story. No teleplay listed.'
+research_confidence: high
+last_verified: '2026-11-20'
+locked: true

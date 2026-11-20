@@ -1,0 +1,19 @@
+title: Saturn Award – Best Supporting Actor (1984), nomination, Scatman Crothers
+kind: event
+subtype: honor
+year: 1984
+description: 'Scatman Crothers was nominated for the Saturn Award for Best Supporting Actor in 1984 for Twilight
+  Zone: The Movie. Mr. Bloom, ''Kick the Can'' segment.'
+details:
+  result: nominated
+  recipient: Scatman Crothers
+  honors:
+  - films/twilight-zone-the-movie
+categories:
+- reviews/awards-citations
+research_confidence: medium
+sources:
+- title: 'Wikipedia: 11th Saturn Awards'
+  url: https://en.wikipedia.org/wiki/11th_Saturn_Awards
+last_verified: '2026-11-20'
+locked: true

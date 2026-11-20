@@ -4,7 +4,14 @@ cover_date: Dec 1987
 order: 51
 publisher: TZ Publications, Inc.
 editor: Tappan King
-description: December 1987 theme issue on vampires and werewolves.
+description: 'December 1987 issue, edited by Tappan King. Fiction: "Life" by Piers Anthony; "The Thing Beneath the
+  Bridge (excerpt from Faerie Tale)" by Raymond E. Feist; "The Stray" by Susan Casper and Gardner Dozois; "Haunted"
+  by Marta Randall; "Pick-up" by Peter Heyrman; "Crybaby" by Harry Turtledove; "Iron Butterflies" by Mona A. Clee.
+  Features: Children of the Night by Robert Simpson; A Conversation with Piers Anthony, by Stanley Wiater; The Ethos
+  of Elfland by Gene Wolfe; Movie Preview: Hellraiser - Douglas E. Winter in conversation with Clive Barker. Regular
+  columns: Books (Edward Bryant); Wordware (Charles Ardai); Screen (Gahan Wilson); In the Twilight Zone (TK); Letters;
+  Hollywood Grapevine; Illuminations; The Other Side. Vol. 7 No. 5. OCR of the contents page is scrambled; some
+  author pairings inferred from page order. No teleplay found.'
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60163
 research_confidence: medium
@@ -13,5 +20,7 @@ sources:
   note: Originally listed in Adam's research spreadsheets.
 - title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
   url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
-last_verified: '2026-11-19'
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+last_verified: '2026-11-20'
 locked: true

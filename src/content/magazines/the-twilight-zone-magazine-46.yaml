@@ -4,16 +4,27 @@ cover_date: Feb 1987
 order: 46
 publisher: TZ Publications, Inc.
 editor: Tappan King
-description: February 1987 issue in which Harlan Ellison published 'The Deadly Nackles Affair', his account
-  of the network censorship dispute over his adaptation of Donald E. Westlake's 'Nackles' that led him
-  to quit as creative consultant on the 1985 revival.
+description: 'February 1987 issue, edited by Tappan King. Fiction: "Nackles" by Donald E. Westlake; "Listen to the
+  Music in My Hands" by Charles L. Grant; "Happy Hour" by J. N. Williamson; "Bringing It Home" by Barry N. Malzberg
+  and Jack Dann; "Contention" by Karen Joy Fowler; "Snowblind" by Marc Laidlaw; "Nightskin" by John Brizzolara;
+  "Preserves" by Jon Cohen; "Dead Man''s Tie" by Jack C. Haldeman II. Features: The Twilight Zone Gallery: J. K.
+  Potter portfolio, with interview by Joe R. Lansdale; Harlan Ellison''s account of writing (and the fate of) his
+  ''Nackles'' teleplay. Teleplay: "Nackles" by Harlan Ellison (from the Donald E. Westlake story) (Nackles - written
+  for the 1985-89 CBS revival but never produced). Regular columns: In the Twilight Zone and Illuminations (Tappan
+  King); Books (E. F. Bleiler); Book Notes (Jonathan White); The Other Side (Welch D. Everman); The Goulart Archipelago
+  (Ron Goulart); Screen (Gahan Wilson); Video. Vol. 6 No. 6; Christmas issue printing Westlake''s original story
+  alongside Ellison''s unproduced revival teleplay.'
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60167
-research_confidence: medium
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Wikipedia: The Twilight Zone (1985 TV series) (references)'
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
-last_verified: '2026-11-19'
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+last_verified: '2026-11-20'
 locked: true

@@ -4,8 +4,15 @@ cover_date: Oct 1987
 order: 50
 publisher: TZ Publications, Inc.
 editor: Tappan King
-description: October 1987 issue slanted toward science fiction and science fact, with contributions from
-  Greg Bear, Alan Brennert, Barry N. Malzberg and Frederik Pohl.
+description: 'October 1987 issue, edited by Tappan King. Fiction: "The Forge of God (excerpt)" by Greg Bear; "Voices
+  in the Earth" by Alan Brennert; "Ambition" by Barry N. Malzberg; "Alien Mail to the White House" by Jay Sheckley;
+  "Davi Leiko Till Midnight" by William F. Wu; "Mad City Beneath the Sands" by Richard Paul Russo; "Delta Sly Honey"
+  by Lucius Shepard; "The Cuttlefish" by A.R. Morlan. Features: BIOFUTURES: The Next Turn of the Corkscrew by Frederik
+  Pohl; The Twilight Zone Gallery: Jim Burns; On Film by James Verniere; Science Fiction in the Twilight Zone by
+  Marc Scott Zicree; Ultimate Getaways by Mark Arnold. Regular columns: Books (Edward Bryant); Screen (Gahan Wilson);
+  In the Twilight Zone; Illuminations; The Other Side; Hollywood Grapevine. Vol. 7 No. 4; a science-fiction themed
+  issue. Brennert''s ''Voices in the Earth'' is presented as prose based on his teleplay for the 1985-89 revival
+  series (episode ''Voices in the Earth'', 1987); no classic teleplay listed.'
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60203
 research_confidence: high
@@ -14,5 +21,7 @@ sources:
   note: Originally listed in Adam's research spreadsheets.
 - title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
   url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
-last_verified: '2026-11-19'
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+last_verified: '2026-11-20'
 locked: true

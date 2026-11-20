@@ -119,6 +119,16 @@
    "isNew": false
   }
  ],
+ "books/a-heart-at-fires-center-the-life-and-music-of-bernard-herrmann": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
  "books/a-stir-of-echoes": [
   {
    "cat": "reading",
@@ -147,6 +157,52 @@
    "catTitle": "Reading",
    "subTitle": "Books",
    "isNew": false
+  }
+ ],
+ "books/agnes-moorehead-on-radio-stage-and-television": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Guides and reference",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
+ "books/ai-confini-della-realta-i-racconti-originali-primo-volume": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Other books",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "foreign-language",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Foreign-language editions",
+   "isNew": true
+  }
+ ],
+ "books/ai-confini-della-realta-i-racconti-originali-secondo-volume": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Other books",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "foreign-language",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Foreign-language editions",
+   "isNew": true
   }
  ],
  "books/all-of-us-are-dying-and-other-stories": [
@@ -359,6 +415,24 @@
    "isNew": false
   }
  ],
+ "books/best-in-hollywood-the-good-the-bad-and-the-beautiful": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "cast-and-crew-memoirs",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Cast and crew memoirs",
+   "isNew": true
+  }
+ ],
  "books/between-light-and-shadow-a-philosophical-analysis-of-the-twilight-zone": [
   {
    "cat": "reading",
@@ -369,11 +443,39 @@
    "isNew": false
   }
  ],
+ "books/beyond-peyton-place-my-fifty-years-on-stage-screen-and-television": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "cast-and-crew-memoirs",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Cast and crew memoirs",
+   "isNew": true
+  }
+ ],
  "books/bid-time-return": [
   {
    "cat": "reading",
    "sub": "books",
    "group": "Rod Serling and Night Gallery",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
+ "books/bill-idelsons-writing-class": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Guides and reference",
    "catTitle": "Reading",
    "subTitle": "Books",
    "isNew": false
@@ -399,6 +501,24 @@
    "isNew": false
   }
  ],
+ "books/cloris-my-autobiography": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "cast-and-crew-memoirs",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Cast and crew memoirs",
+   "isNew": true
+  }
+ ],
  "books/diary-of-a-nerd-volume-3-diary-of-super-hero-the-twilight-zone": [
   {
    "cat": "reading",
@@ -409,11 +529,49 @@
    "isNew": false
   }
  ],
+ "books/did-you-grow-up-with-me-too-the-autobiography-of-june-foray": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "cast-and-crew-memoirs",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Cast and crew memoirs",
+   "isNew": true
+  }
+ ],
  "books/dimensions-behind-the-twilight-zone-a-backstage-tribute-to-televisions-groundbreaking-series": [
   {
    "cat": "reading",
    "sub": "books",
    "group": "Art and puzzle books",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
+ "books/directing-television": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
+ "books/earl-hamner-from-waltons-mountain-to-tomorrow": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
    "catTitle": "Reading",
    "subTitle": "Books",
    "isNew": false
@@ -595,6 +753,34 @@
    "isNew": false
   }
  ],
+ "books/ive-met-all-my-heroes-from-a-to-z": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "cast-and-crew-memoirs",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Cast and crew memoirs",
+   "isNew": true
+  }
+ ],
+ "books/john-landis": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
  "books/journeys-to-the-twilight-zone": [
   {
    "cat": "reading",
@@ -675,6 +861,24 @@
    "isNew": false
   }
  ],
+ "books/my-life-in-outer-space": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "cast-and-crew-memoirs",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Cast and crew memoirs",
+   "isNew": true
+  }
+ ],
  "books/my-mystical-life-with-rod-serling-a-real-twilight-zone": [
   {
    "cat": "reading",
@@ -683,6 +887,78 @@
    "catTitle": "Reading",
    "subTitle": "Books",
    "isNew": false
+  }
+ ],
+ "books/mysteri-zon-1": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Other books",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "foreign-language",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Foreign-language editions",
+   "isNew": true
+  }
+ ],
+ "books/mysteri-zon-2": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Other books",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "foreign-language",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Foreign-language editions",
+   "isNew": true
+  }
+ ],
+ "books/mysteri-zon-3": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Other books",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "foreign-language",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Foreign-language editions",
+   "isNew": true
+  }
+ ],
+ "books/mysteri-zon-4": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Other books",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "foreign-language",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Foreign-language editions",
+   "isNew": true
   }
  ],
  "books/new-stories-from-the-twilight-zone-2": [
@@ -705,6 +981,16 @@
    "isNew": false
   }
  ],
+ "books/night-gallery-the-series": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Rod Serling and Night Gallery",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
  "books/nightmare-at-20-000-feet-horror-stories-by-richard-matheson": [
   {
    "cat": "reading",
@@ -715,6 +1001,24 @@
    "isNew": false
   }
  ],
+ "books/no-retakes": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "cast-and-crew-memoirs",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Cast and crew memoirs",
+   "isNew": true
+  }
+ ],
  "books/off-beat-uncollected-stories": [
   {
    "cat": "reading",
@@ -723,6 +1027,24 @@
    "catTitle": "Reading",
    "subTitle": "Books",
    "isNew": false
+  }
+ ],
+ "books/once-around-the-bloch-an-unauthorized-autobiography": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "cast-and-crew-memoirs",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Cast and crew memoirs",
+   "isNew": true
   }
  ],
  "books/outrageous-conduct-art-ego-and-the-twilight-zone-case": [
@@ -765,6 +1087,24 @@
    "isNew": false
   }
  ],
+ "books/pulling-faces-making-noises-a-life-on-stage-screen-radio": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "cast-and-crew-memoirs",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Cast and crew memoirs",
+   "isNew": true
+  }
+ ],
  "books/reimagining-the-twilight-zone-a-young-fans-stories": [
   {
    "cat": "reading",
@@ -790,6 +1130,16 @@
    "cat": "reading",
    "sub": "books",
    "group": "Story anthologies",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
+ "books/richard-matheson-on-screen-a-history-of-the-filmed-works": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Guides and reference",
    "catTitle": "Reading",
    "subTitle": "Books",
    "isNew": false
@@ -901,6 +1251,16 @@
    "isNew": false
   }
  ],
+ "books/rod-serlings-night-gallery-an-after-hours-tour-expanded-second-edition": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Rod Serling and Night Gallery",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
  "books/rod-serlings-night-gallery-an-after-hours-tour": [
   {
    "cat": "reading",
@@ -916,6 +1276,16 @@
    "cat": "reading",
    "sub": "books",
    "group": "Rod Serling and Night Gallery",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
+ "books/rod-serlings-night-gallery-the-art-of-darkness": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Other books",
    "catTitle": "Reading",
    "subTitle": "Books",
    "isNew": false
@@ -979,6 +1349,24 @@
    "catTitle": "Reading",
    "subTitle": "Books",
    "isNew": false
+  }
+ ],
+ "books/rod-taylor-an-aussie-in-hollywood": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "cast-and-crew-memoirs",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Cast and crew memoirs",
+   "isNew": true
   }
  ],
  "books/sci-fi-tv-from-the-twilight-zone-to-deep-space-nine": [
@@ -1069,6 +1457,24 @@
    "isNew": false
   }
  ],
+ "books/spotlights-and-shadows-the-albert-salmi-story": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "cast-and-crew-memoirs",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Cast and crew memoirs",
+   "isNew": true
+  }
+ ],
  "books/stories-from-the-twilight-zone": [
   {
    "cat": "reading",
@@ -1090,6 +1496,36 @@
   }
  ],
  "books/tales-from-the-new-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Story anthologies",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
+ "books/terror-television-american-series-1970-1999": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Guides and reference",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
+ "books/the-80s-twilight-zone-discovering-the-tv-series": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Guides and reference",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
+ "books/the-best-of-richard-matheson": [
   {
    "cat": "reading",
    "sub": "books",
@@ -1127,6 +1563,16 @@
    "isNew": false
   }
  ],
+ "books/the-chai-light-zone-rod-serling-secular-jew": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Scholarship and criticism",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
  "books/the-five-themes-of-the-twilight-zone": [
   {
    "cat": "reading",
@@ -1145,6 +1591,24 @@
    "catTitle": "Reading",
    "subTitle": "Books",
    "isNew": false
+  }
+ ],
+ "books/the-life-and-career-of-agnes-moorehead": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "cast-and-crew-memoirs",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Cast and crew memoirs",
+   "isNew": true
   }
  ],
  "books/the-many-lives-of-the-twilight-zone-essays-on-the-television-and-film-franchise": [
@@ -1177,6 +1641,16 @@
    "isNew": false
   }
  ],
+ "books/the-richard-matheson-companion": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Guides and reference",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
  "books/the-season-to-be-wary": [
   {
    "cat": "reading",
@@ -1187,11 +1661,39 @@
    "isNew": false
   }
  ],
+ "books/the-seesaw-girl-and-me": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "cast-and-crew-memoirs",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Cast and crew memoirs",
+   "isNew": true
+  }
+ ],
  "books/the-shrinking-man": [
   {
    "cat": "reading",
    "sub": "books",
    "group": "Rod Serling and Night Gallery",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
+ "books/the-truth-is-out-there-christian-faith-and-the-classics-of-tv-science-fiction": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Scholarship and criticism",
    "catTitle": "Reading",
    "subTitle": "Books",
    "isNew": false
@@ -1225,6 +1727,24 @@
    "catTitle": "Reading",
    "subTitle": "Books",
    "isNew": false
+  }
+ ],
+ "books/the-twilight-zone-a-novel": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Other books",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "foreign-language",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Foreign-language editions",
+   "isNew": true
   }
  ],
  "books/the-twilight-zone-and-philosophy-a-dangerous-dimension-to-visit": [
@@ -1272,6 +1792,16 @@
    "cat": "reading",
    "sub": "books",
    "group": "Art and puzzle books",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
+ "books/the-twilight-zone-companion-3rd-edition": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Guides and reference",
    "catTitle": "Reading",
    "subTitle": "Books",
    "isNew": false
@@ -1679,6 +2209,16 @@
    "isNew": false
   }
  ],
+ "books/the-work-of-charles-beaumont-an-annotated-bibliography-guide": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Guides and reference",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  }
+ ],
  "books/trivia-from-the-twilight-zone": [
   {
    "cat": "reading",
@@ -1775,6 +2315,24 @@
    "catTitle": "Reading",
    "subTitle": "Books",
    "isNew": false
+  }
+ ],
+ "books/up-till-now-the-autobiography": [
+  {
+   "cat": "reading",
+   "sub": "books",
+   "group": "Biography and memoir",
+   "catTitle": "Reading",
+   "subTitle": "Books",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "cast-and-crew-memoirs",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Cast and crew memoirs",
+   "isNew": true
   }
  ],
  "books/visions-from-the-twilight-zone": [
@@ -19935,6 +20493,88 @@
    "isNew": false
   }
  ],
+ "essays/10-twilight-zone-episodes-that-came-true": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/40-years-ago-john-landis-was-tried-for-manslaughter-over-the-deaths-of-2-childre": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "accident-and-trial",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "The accident and trial in print",
+   "isNew": true
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/50-years-later-twilight-zone-still-intrigues": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/56-years-ago-rod-serlings-twilight-zone-replacement-series-was-too-dark-for-tv-b": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/6-reasons-the-twilight-zone-is-the-greatest-series-in-tv-history": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
  "essays/a-conversation-with-rod-serling-1968": [
   {
    "cat": "reading",
@@ -19953,6 +20593,34 @@
    "catTitle": "Reading",
    "subTitle": "Essays and scholarship",
    "isNew": false
+  }
+ ],
+ "essays/a-nostalgic-look-back-at-the-new-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/a-stop-at-yellow-springs": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
   }
  ],
  "essays/a-tired-nonconformist-censorship-and-citizen-serling": [
@@ -19975,6 +20643,162 @@
    "isNew": false
   }
  ],
+ "essays/a-wwii-story-by-the-twilight-zones-rod-serling-is-published-for-the-first-time": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/actor-and-two-children-killed-on-twilight-zone-set": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "accident-and-trial",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "The accident and trial in print",
+   "isNew": true
+  }
+ ],
+ "essays/aggregate-scores-dynamites-the-twilight-zone-1-2014": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "aggregate-scores",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Aggregate scores",
+   "isNew": true
+  }
+ ],
+ "essays/aggregate-scores-the-1985-revival": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "aggregate-scores",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Aggregate scores",
+   "isNew": true
+  }
+ ],
+ "essays/aggregate-scores-the-2002-revival": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "aggregate-scores",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Aggregate scores",
+   "isNew": true
+  }
+ ],
+ "essays/aggregate-scores-the-2019-revival": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "aggregate-scores",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Aggregate scores",
+   "isNew": true
+  }
+ ],
+ "essays/aggregate-scores-the-original-series": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "aggregate-scores",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Aggregate scores",
+   "isNew": true
+  }
+ ],
+ "essays/aggregate-scores-twilight-zone-the-movie": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "aggregate-scores",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Aggregate scores",
+   "isNew": true
+  }
+ ],
+ "essays/aliens-say-what-humans-cant-popular-culture-and-totalitarianism-in-the-twilight": [
+  {
+   "cat": "reading",
+   "sub": "essays",
+   "group": "Theses and dissertations",
+   "catTitle": "Reading",
+   "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/an-element-of-time": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
  "essays/and-now-rod-serling-creator-of-the-twilight-zone": [
   {
    "cat": "reading",
@@ -19985,23 +20809,171 @@
    "isNew": false
   }
  ],
+ "essays/angry-young-man-serling-too-busy": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/anthology-of-anthologies-the-best-segments-from-horror-omnibus-films": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/anxiety-in-the-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "essays",
+   "group": "Theses and dissertations",
+   "catTitle": "Reading",
+   "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/behind-the-attraction-twilight-zone-tower-of-terror-press-page": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/beyond-the-fifth-dimension-the-twilight-zone-interviews-carol-serling": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/beyond-the-fifth-dimension-the-twilight-zone-interviews-chris-beaumont": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/beyond-the-fifth-dimension-the-twilight-zone-interviews-richard-matheson": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/beyond-the-fifth-dimension-the-twilight-zone-interviews-roger-anker": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/beyond-the-fifth-dimension-the-twilight-zone-interviews-tony-albarella": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/bob-crane-interviews-rod-serling": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-own-writing",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling's own writing",
+   "isNew": true
+  }
+ ],
  "essays/book-review-monsters-on-maple-street-the-twilight-zone-and-the-postwar-american-dream": [
   {
    "cat": "reviews",
-   "sub": "retrospective",
+   "sub": "contemporary",
    "group": null,
    "catTitle": "Reviews",
-   "subTitle": "Retrospective reviews",
+   "subTitle": "Contemporary reviews",
    "isNew": false
   }
  ],
  "essays/book-review-twilight-zone": [
   {
    "cat": "reviews",
-   "sub": "retrospective",
+   "sub": "contemporary",
    "group": null,
    "catTitle": "Reviews",
-   "subTitle": "Retrospective reviews",
+   "subTitle": "Contemporary reviews",
    "isNew": false
   }
  ],
@@ -20015,6 +20987,62 @@
    "isNew": false
   }
  ],
+ "essays/can-a-tv-writer-keep-his-integrity": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-own-writing",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling's own writing",
+   "isNew": true
+  }
+ ],
+ "essays/carol-serling-interview-february-2011": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/chatbots-in-the-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/class-of-1983-twilight-zone-the-movie": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
  "essays/commencement-speech-at-ithaca-college-1972": [
   {
    "cat": "lectures",
@@ -20023,6 +21051,24 @@
    "catTitle": "Lectures",
    "subTitle": "Rod Serling's lectures and speeches",
    "isNew": false
+  }
+ ],
+ "essays/congress-remains-in-the-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-own-writing",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling's own writing",
+   "isNew": true
   }
  ],
  "essays/contagios-del-futuro-en-the-twilight-zone": [
@@ -20035,6 +21081,62 @@
    "isNew": false
   }
  ],
+ "essays/controlling-the-souls-in-the-machine-wes-craven-directs-for-the-1985-twilight-zo": [
+  {
+   "cat": "reading",
+   "sub": "essays",
+   "group": "Book chapters",
+   "catTitle": "Reading",
+   "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/could-rod-serling-really-have-conceived-of-this-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/cowboy-with-a-conscience": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/crime-history-director-not-guilty-in-twilight-zone-deaths": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "accident-and-trial",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "The accident and trial in print",
+   "isNew": true
+  }
+ ],
  "essays/dark-darker-darkest-the-mood-and-genre-of-sardonic-death-in-an-occurrence-at-owl-creek-bri": [
   {
    "cat": "reading",
@@ -20042,6 +21144,72 @@
    "group": "Journal articles",
    "catTitle": "Reading",
    "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/del-reisman-article-in-filmfax": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/did-the-creator-of-the-twilight-zone-plagiarize-ray-bradbury": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/director-john-landis-and-four-assistants-pleaded-innocent-friday": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "accident-and-trial",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "The accident and trial in print",
+   "isNew": true
+  }
+ ],
+ "essays/directors-guillermo-del-toro-and-jeannot-szwarc-honor-rod-serlings-night-gallery": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/disneys-tower-of-terror-secrets-histories-and-mysteries": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
    "isNew": false
   }
  ],
@@ -20055,6 +21223,54 @@
    "isNew": false
   }
  ],
+ "essays/earl-hamner-the-forgotten-twilight-zone-writer": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/emmett-till-censorship-and-the-creation-of-the-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/entering-the-dimension-of-imagination-the-twilight-zones-tales-of-madness": [
+  {
+   "cat": "reading",
+   "sub": "essays",
+   "group": "Journal articles",
+   "catTitle": "Reading",
+   "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/entering-the-twilight-zone-current-affairs-2022": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
  "essays/entering-the-twilight-zone": [
   {
    "cat": "reading",
@@ -20065,6 +21281,24 @@
    "isNew": false
   }
  ],
+ "essays/entry-into-the-forbidden-area": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
  "essays/epistemology-at-20-000-feet": [
   {
    "cat": "reading",
@@ -20072,6 +21306,80 @@
    "group": "Book chapters",
    "catTitle": "Reading",
    "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/fifty-years-in-the-zone-the-twilight-zones-50th-anniversary": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/filming-american-masters-submitted-for-your-approval": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/first-squad-first-platoon": [
+  {
+   "cat": "reading",
+   "sub": "essays",
+   "group": "Essays",
+   "catTitle": "Reading",
+   "subTitle": "Essays and scholarship",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-own-writing",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling's own writing",
+   "isNew": true
+  }
+ ],
+ "essays/five-favorite-twilight-zone-cars": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/for-the-twilight-zone-creator-ohio-was-the-portal-into-the-fifth-dimension": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
    "isNew": false
   }
  ],
@@ -20095,6 +21403,182 @@
    "isNew": false
   }
  ],
+ "essays/getting-to-know-rod-serling-twilight-zone-actors-interviewed": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/globe-tv-critic-matthew-gilbert-says-goodbye": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/happy-100th-birthday-rod-serling-his-daughters-reflect-on-the-twilight-zone-crea": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/happy-100th-birthday-to-the-first-showrunner-rod-serling": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/happy-50th-anniversary-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/hatch-brainstorming-secrets-of-a-theme-park-designer-takes-you-inside-the-develo": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/he-asked-only-for-equality": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-own-writing",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling's own writing",
+   "isNew": true
+  }
+ ],
+ "essays/hollywood-case-spurs-safety-guidelines-for-film-sets": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "accident-and-trial",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "The accident and trial in print",
+   "isNew": true
+  }
+ ],
+ "essays/how-rust-case-differs-from-twilight-zone-midnight-rider-the-crow": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "accident-and-trial",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "The accident and trial in print",
+   "isNew": true
+  }
+ ],
+ "essays/how-the-monsters-are-due-on-maple-street-anticipated-the-usa-of-2019": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/how-tower-of-terror-keeps-rod-serlings-legacy-alive-according-to-his-new-biograp": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/how-twilight-zone-the-movie-deaths-changed-hollywood": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "accident-and-trial",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "The accident and trial in print",
+   "isNew": true
+  }
+ ],
  "essays/in-the-cinematic-zone-of-the-twilight-zone": [
   {
    "cat": "reading",
@@ -20102,6 +21586,174 @@
    "group": "Journal articles",
    "catTitle": "Reading",
    "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/inside-the-horrific-twilight-zone-movie-accident-and-the-manslaughter-trial-that": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "accident-and-trial",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "The accident and trial in print",
+   "isNew": true
+  }
+ ],
+ "essays/interiority-in-the-twilight-zone-a-discussion-of-female-artificial-intelligence": [
+  {
+   "cat": "reading",
+   "sub": "essays",
+   "group": "Journal articles",
+   "catTitle": "Reading",
+   "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/introduction-to-the-1957-bantam-paperback-patterns": [
+  {
+   "cat": "reading",
+   "sub": "essays",
+   "group": "Essays",
+   "catTitle": "Reading",
+   "subTitle": "Essays and scholarship",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-own-writing",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling's own writing",
+   "isNew": true
+  }
+ ],
+ "essays/its-a-good-life-review": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/jack-klugmans-twilight-times": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/life-with-rod-a-conversation-with-carol-serling": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/look-on-my-works-ye-mighty-and-despair-lady-libertys-leading-role-in-sf": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/lost-short-story-from-twilight-zone-creator-rod-serling-published-ahead-of-syfy": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/meeting-a-famous-everyman": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/new-rod-serling-book-explores-his-cincinnati-tv-work": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/next-stop-twilight-zone-though-we-may-already-be-there": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/night-terrors": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
    "isNew": false
   }
  ],
@@ -20115,6 +21767,44 @@
    "isNew": false
   }
  ],
+ "essays/npr-feature-on-rod-serling-transcript": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/number-12-looks-just-like-you-transformation-and-the-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/one-for-the-recent-angels": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
  "essays/one-mans-television": [
   {
    "cat": "reading",
@@ -20122,6 +21812,284 @@
    "group": "Essays",
    "catTitle": "Reading",
    "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/opportunity-knocked": [
+  {
+   "cat": "reading",
+   "sub": "essays",
+   "group": "Essays",
+   "catTitle": "Reading",
+   "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/paul-mandell-analyzes-walking-distance": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/ranking-abc-news-20-20-best-in-tv-the-greatest-tv-shows-of-our-time-abc-20-20-readers-poll": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-empire-the-100-best-tv-shows-of-all-time-2024": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-entertainment-weekly-the-30-best-twilight-zone-episodes-ranked-2023": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-internet-pinball-machine-database-top-300-ipdb-rated-pinball-machines": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-kineticist-the-50-best-pinball-machines-of-all-time-2022": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-looper-30-best-twilight-zone-episodes-ranked-2021": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-paste-every-episode-of-the-twilight-zone-ranked-from-worst-to-best-2023": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-playbill-what-did-critics-think-of-the-twilight-zone-london-world-premiere-review": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-rolling-stone-100-greatest-tv-shows-of-all-time-2016": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-rolling-stone-100-greatest-tv-shows-of-all-time-2022": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-rolling-stone-25-best-twilight-zone-episodes-2019": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-stacker-philadelphia-inquirer-best-twilight-zone-episodes-by-imdb-user-rating-2022": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-time-the-100-best-tv-shows-of-all-time-2007": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-tv-guide-60-greatest-dramas-2013": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-tv-guide-60-greatest-sci-fi-shows-2013": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-tv-guide-tv-guide-100-greatest-episodes-of-all-time-1997": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-tv-guide-tv-guide-100-greatest-episodes-of-all-time-2009": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-tv-guide-tv-guide-50-greatest-tv-shows-of-all-time-2002": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-tv-guide-tv-guide-top-cult-shows-ever-2004": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-tv-guide-tv-guide-top-cult-shows-ever-2007": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-tvline-5-best-twilight-zone-episodes-from-the-80s-revival-ranked": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-tvline-the-15-best-twilight-zone-episodes-of-all-time-ranked-2025": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/ranking-variety-100-greatest-tv-shows-of-all-time-2023": [
+  {
+   "cat": "reviews",
+   "sub": "rankings",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Rankings",
+   "isNew": false
+  }
+ ],
+ "essays/rarely-seen-rod-serling-story-first-squad-first-platoon-draws-upon-his-world-war": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/remembering-the-twilight-zone-creator-rod-serling": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
    "isNew": false
   }
  ],
@@ -20135,13 +22103,1333 @@
    "isNew": false
   }
  ],
- "essays/review-of-tribute-film-classics-releases-incl-bernard-herrmanns-walking-distance-score": [
+ "essays/requiem-for-two-heavyweights": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/review-alan-pergament-the-buffalo-news-review-of-the-twilight-zone-2002": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-alex-maidy-joblo-com-tv-review-the-twilight-zone": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-andrew-crump-paste-review-of-the-twilight-zone-2019-season-2": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-bbc-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-ben-travers-indiewire-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-benjamin-bailey-ign-review-of-the-twilight-zone-1-dynamite": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-bill-goodykoontz-the-arizona-republic-review-of-the-twilight-zone-2002": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-bill-keveney-usa-today-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-brian-doan-rogerebert-com-review-essay-on-shatterday-and-one-life-furnish": [
   {
    "cat": "reviews",
    "sub": "retrospective",
    "group": null,
    "catTitle": "Reviews",
    "subTitle": "Retrospective reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-brian-lowry-cnn-review-of-the-twilight-zone-2019-season-2": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-brian-lowry-cnn-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-brian-tallerico-rogerebert-com-review-of-the-twilight-zone-2019-season-2": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-brian-tallerico-rogerebert-com-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-broadwayworld-review-of-the-twilight-zone-ambassadors-theatre-west-end-tr": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-colin-greenland-imagine-magazine-review-of-twilight-zone-the-movie": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-danette-chavez-the-a-v-club-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-daniel-daddario-variety-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-darren-franich-entertainment-weekly-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-dave-nemetz-tvline-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-david-nice-the-arts-desk-the-twilight-zone-almeida-theatre-review-from-ho": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-ed-cumming-the-independent-review-of-the-twilight-zone-2019-uk-premiere": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-ed-siegel-the-boston-globe-review-of-twilight-zone-the-movie": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-ellen-e-jones-the-guardian-review-of-the-twilight-zone-2019-season-2": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-emily-finch-camden-new-journal-review-the-twilight-zone-at-almeida-theatr": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-emily-vanderwerff-vox-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-evening-standard-review-of-the-twilight-zone-ambassadors-theatre-west-end": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-germain-lussier-gizmodo-io9-disneys-tower-of-terror-movie-is-bad-but-not": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-gord-lacey-tvshowsondvd-com-the-twilight-zone-complete-series-review": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-gregory-paul-silber-aipt-review-of-the-twilight-zone-1-dynamite": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-hank-stuever-the-washington-post-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-hollywood-com-staff-hollywood-com-tv-review-the-twilight-zone": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-ign-shudders-cursed-films-season-1-review": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-james-johnston-multiversity-comics-review-of-the-twilight-zone-1-dynamite": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-james-poniewozik-the-new-york-times-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-jim-vorel-paste-the-comedian-is-vintage-twilight-zone-but-not-in-the-way": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-john-anderson-the-wall-street-journal-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-john-ferguson-radio-times-review-of-twilight-zone-the-movie": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-john-j-oconnor-the-new-york-times-tv-weekend-premieres-of-twilight-zone-a": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-john-levesque-seattle-post-intelligencer-review-of-the-twilight-zone-2002": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-josh-begley-the-fandom-post-review-of-the-twilight-zone-1-dynamite": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-judy-berman-time-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-ka-bradley-time-out-london-the-twilight-zone-review-ambassadors-theatre": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-kim-newman-empire-twilight-zone-season-1-review": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-kristen-lopez-indiewire-review-of-the-twilight-zone-2019-season-2": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-kristi-turnquist-the-oregonian-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-liz-shannon-miller-collider-review-of-the-twilight-zone-2019-season-2": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-londonist-review-of-the-twilight-zone-ambassadors-theatre-west-end-transf": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-lucy-mangan-the-guardian-review-of-the-twilight-zone-2019-uk-premiere": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-mark-a-perigard-boston-herald-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-mark-dawidziak-the-plain-dealer-cleveland-review-of-the-twilight-zone-201": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-mark-rozeman-paste-review-of-the-twilight-zone-1985-revival": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-matt-roush-tv-guide-magazine-review-of-the-twilight-zone-2019-season-2": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-matt-roush-tv-guide-magazine-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-matthew-gilbert-the-boston-globe-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-max-delgado-unleash-the-fanboy-review-of-the-twilight-zone-1-dynamite": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-mayukh-raychaudhuri-the-michigan-daily-upn-introduces-new-the-twilight-zo": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-melanie-mcfarland-salon-review-of-the-twilight-zone-2019-season-2": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-melanie-mcfarland-salon-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-michael-billington-the-guardian-the-twilight-zone-review-a-spooky-ride-in": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-michael-blowen-the-boston-globe-review-of-twilight-zone-the-movie": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-michael-roffman-consequence-of-sound-review-of-the-twilight-zone-2019-sea": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-newton-n-minow-fcc-chairman-speech-to-national-association-of-broadcaster": [
+  {
+   "cat": "lectures",
+   "sub": "academic",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Academic lectures and courses",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-nick-schager-the-daily-beast-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-of-tribute-film-classics-releases-incl-bernard-herrmanns-walking-distance-score": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-pauline-kael-the-new-yorker-review-of-twilight-zone-the-movie": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-peter-travers-gannett-westchester-rockland-newspapers-review-of-twilight": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-phil-edwards-starburst-review-of-twilight-zone-the-movie": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-richard-corliss-time-cinema-bad-dreams": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-richard-roeper-chicago-sun-times-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-robert-lloyd-los-angeles-times-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-robert-rorke-new-york-post-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-roger-ebert-chicago-sun-times-twilight-zone-the-movie": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-sarah-crompton-whatsonstage-review-the-twilight-zone-almeida-theatre": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-sardines-magazine-review-of-the-twilight-zone-ambassadors-theatre-west-en": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-sonia-saraiya-vanity-fair-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-sophie-gilbert-the-atlantic-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-staff-broadcasting-magazine-review-of-the-twilight-zone-pre-premiere": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-staff-critic-not-named-on-source-the-new-york-times-review-of-the-time-el": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-staff-daily-variety-review-of-the-twilight-zone-premiere": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-staff-new-york-herald-tribune-review-of-the-twilight-zone": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-staff-publishers-weekly-review-of-twilight-zone-19-original-stories-on-th": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-staff-the-olympian-olympia-wa-tv-best-bets-tower-of-terror": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-staff-unnamed-the-christian-science-monitor-tv-preview-twilight-zone-rod": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-stephen-schiff-vanity-fair-movies-august-1983": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-steve-johnson-chicago-tribune-review-of-the-twilight-zone-2002": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-steven-scaife-slant-magazine-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-susannah-clapp-the-observer-guardian-the-twilight-zone-review-retro-anxie": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-terry-turner-chicago-daily-news-review-of-the-twilight-zone-premiere": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-the-telegraph-review-of-the-twilight-zone-ambassadors-theatre-west-end-tr": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-the-twizard-thetwizard-com-twilight-zone-the-movie-1983-movie-review": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-the-verge-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-the-week-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-tim-goodman-san-francisco-chronicle-review-of-the-twilight-zone-2002": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-tim-goodman-the-hollywood-reporter-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-tim-miller-christiananswers-net-spotlight-the-twilight-zone-tv-review": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-tim-surette-tv-guide-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-troy-patterson-the-new-yorker-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-variety-review-of-the-twilight-zone-season-two": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-variety-the-twilight-zone-rod-serlings-lost-classics-tv-review": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-variety-the-twilight-zone-tv-review": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-variety-twilight-zone-film-review": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-verne-gay-newsday-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-vincent-canby-the-new-york-times-review-of-twilight-zone-the-movie": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-vinnie-mancuso-collider-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-whatsonstage-review-of-the-twilight-zone-ambassadors-theatre-west-end-tra": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-willa-paskin-slate-review-of-the-twilight-zone-2019": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-william-bibbiani-slashfilm-there-was-a-second-twilight-zone-movie-that-yo": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  }
+ ],
+ "essays/review-yours-truly-johnny-blogger-great-detectives-of-old-time-radio-greatdetect": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  }
+ ],
+ "essays/robert-redford-in-the-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/rod-serling-and-the-conscience-of-a-generation": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/rod-serling-and-the-twilight-zone-feature": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/rod-serling-and-the-twilight-zone-media-representation-of-the-cold-war": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/rod-serling-at-100-the-twilight-zone-creator-remembered": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/rod-serling-calls-himself-a-reasonably-valuable-antique": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-own-writing",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling's own writing",
+   "isNew": true
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/rod-serling-dont-ignore-evil": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-own-writing",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling's own writing",
+   "isNew": true
+  }
+ ],
+ "essays/rod-serling-failed-screenwriter": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/rod-serling-historical-marker-coming-to-yellow-springs": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/rod-serling-man-from-the-twilight-zone": [
+  {
+   "cat": "lectures",
+   "sub": "academic",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Academic lectures and courses",
+   "isNew": false
+  }
+ ],
+ "essays/rod-serling-o-futurologo-do-apocalipse": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/rod-serling-predicted-our-ugly-moment-through-unsparing-tales-of-his-own-times": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/rod-serling-reveals-his-favorite-twilight-zone-episodes": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/rod-serling-rips-loyalty-oaths-the-vietnam-war-and-social-inequity": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-own-writing",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling's own writing",
+   "isNew": true
+  }
+ ],
+ "essays/rod-serling-rips-tv-censorship": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-own-writing",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling's own writing",
+   "isNew": true
+  }
+ ],
+ "essays/rod-serling-the-twilight-zone-and-boxing": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
    "isNew": false
   }
  ],
@@ -20155,6 +23443,36 @@
    "isNew": false
   }
  ],
+ "essays/rod-serlings-daughters-share-their-favorite-twilight-zone-episodes-and-the-creep": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/rod-serlings-early-career-preserved-by-uc-professor": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/rod-serlings-enduring-appeal": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
  "essays/rod-serlings-final-interview": [
   {
    "cat": "reading",
@@ -20165,6 +23483,52 @@
    "isNew": false
   }
  ],
+ "essays/rod-serlings-first-tv-drama-aired-here-65-years-ago": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/rod-serlings-night-gallery-the-art-of-darkness-book-review": [
+  {
+   "cat": "reviews",
+   "sub": "retrospective",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Retrospective reviews",
+   "isNew": false
+  }
+ ],
+ "essays/rod-serlings-night-gallery-turns-50": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
  "essays/rod-serlings-revenge": [
   {
    "cat": "reading",
@@ -20172,6 +23536,36 @@
    "group": "Essays",
    "catTitle": "Reading",
    "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/rod-serlings-the-twilight-zone-a-critical-examination-of-religious-and-moralisti": [
+  {
+   "cat": "reading",
+   "sub": "essays",
+   "group": "Theses and dissertations",
+   "catTitle": "Reading",
+   "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/rod-serlings-the-twilight-zone-and-metafiction": [
+  {
+   "cat": "reading",
+   "sub": "essays",
+   "group": "Essays",
+   "catTitle": "Reading",
+   "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/rod-serlings-the-twilight-zone-remains-startlingly-relevant-60-years-after-its-d": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
    "isNew": false
   }
  ],
@@ -20185,6 +23579,54 @@
    "isNew": false
   }
  ],
+ "essays/secrets-and-lies-fly-by-night": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "accident-and-trial",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "The accident and trial in print",
+   "isNew": true
+  }
+ ],
+ "essays/serling-by-alan-sepinwall-kirkus-review": [
+  {
+   "cat": "reviews",
+   "sub": "contemporary",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/serling-in-wwii": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/serling-rod-dictionary-of-unitarian-universalist-biography": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
  "essays/serling-rod": [
   {
    "cat": "reading",
@@ -20192,6 +23634,16 @@
    "group": "Essays",
    "catTitle": "Reading",
    "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/serlingfest-2024-to-honor-twilight-zone-creator-rod-serling": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
    "isNew": false
   }
  ],
@@ -20203,6 +23655,24 @@
    "catTitle": "Reading",
    "subTitle": "Essays and scholarship",
    "isNew": false
+  }
+ ],
+ "essays/sixty-years-in-the-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
   }
  ],
  "essays/social-justice-from-the-twilight-zone-rod-serling-as-human-rights-activist": [
@@ -20225,6 +23695,42 @@
    "isNew": false
   }
  ],
+ "essays/southern-california-sorcerers": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/special-50th-anniversary-salute-a-celebrity-staged-reading-of-the-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
  "essays/specters-of-serling-authorship-television-history-and-inherited-prestige-in-the-twilight-z": [
   {
    "cat": "reading",
@@ -20232,6 +23738,26 @@
    "group": "Book chapters",
    "catTitle": "Reading",
    "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/steve-vertlieb-on-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/submitted-for-your-approval-the-twilight-zone-s-defense-of-human-dignity": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
    "isNew": false
   }
  ],
@@ -20243,6 +23769,14 @@
    "catTitle": "Reviews",
    "subTitle": "Contemporary reviews",
    "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-own-writing",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling's own writing",
+   "isNew": true
   }
  ],
  "essays/tales-of-dread-in-the-twilight-zone": [
@@ -20250,6 +23784,64 @@
    "cat": "reading",
    "sub": "essays",
    "group": "Book chapters",
+   "catTitle": "Reading",
+   "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/televising-the-american-nightmare-the-twilight-zone-and-postwar-social-criticism": [
+  {
+   "cat": "reading",
+   "sub": "essays",
+   "group": "Theses and dissertations",
+   "catTitle": "Reading",
+   "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/the-50-year-old-signpost-up-ahead-the-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/the-60-year-legacy-of-the-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-best-new-years-eve-plan-binging-a-twilight-zone-marathon": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-deadly-nackles-affair": [
+  {
+   "cat": "reading",
+   "sub": "essays",
+   "group": "Essays",
    "catTitle": "Reading",
    "subTitle": "Essays and scholarship",
    "isNew": false
@@ -20275,11 +23867,67 @@
    "isNew": false
   }
  ],
+ "essays/the-machine-beyond-male-hysteria-twilight-zone-star-trek-and-others": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-many-fathers-of-martin-sloan": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
  "essays/the-mike-wallace-interview-rod-serling": [
   {
    "cat": "reading",
    "sub": "articles",
    "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-pain-of-rain": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/the-powerful-legacy-of-the-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
    "catTitle": "Reading",
    "subTitle": "Articles and interviews",
    "isNew": false
@@ -20295,6 +23943,122 @@
    "isNew": false
   }
  ],
+ "essays/the-real-life-censorship-battle-that-helped-create-the-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-seven-twilight-zone-segments-directed-by-horror-master-wes-craven": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-strand-magazine-rod-serling-first-squad-first-platoon": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-twilight-zone-60-years-later": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/the-twilight-zone-and-the-human-condition": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-twilight-zone-celebrates-its-50th-anniversary": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/the-twilight-zone-cult-sci-fi-show-to-return-for-bbc-radio-4-extra-series": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-twilight-zone-executive-producer-looks-back-on-the-experience-of-making-the": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Interviews",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-twilight-zone-forever-celebrating-60-years-of-rod-serlings-classic-anthology": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-twilight-zone-from-a-to-z": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
  "essays/the-twilight-zone-heres-why-we-still-care": [
   {
    "cat": "reading",
@@ -20305,6 +24069,62 @@
    "isNew": false
   }
  ],
+ "essays/the-twilight-zone-hidden-gems-of-the-1980s-reboot": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-twilight-zone-host-and-creator-plagued-by-ptsd-from-wwii-but-not-a-broken-ma": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-twilight-zone-is-50-years-old": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/the-twilight-zone-premiere-65-year-anniversary": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
  "essays/the-twilight-zone-producer-on-short-lived-revival-20-years-later-they-did-not-know-what-th": [
   {
    "cat": "reading",
@@ -20312,6 +24132,148 @@
    "group": "Interviews",
    "catTitle": "Reading",
    "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-twilight-zone-returns": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-twilight-zone-still-freaky-at-50": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/the-twilight-zone-the-encounter-mr-garrity-and-the-graves": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-twilight-zone-tower-of-terror-beyond-the-fifth-dimension-in-the-hollywood-to": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-twilight-zone-tragedy-how-vic-morrows-death-changed-the-way-films-are-made": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "accident-and-trial",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "The accident and trial in print",
+   "isNew": true
+  }
+ ],
+ "essays/the-twilight-zone-tragedy": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "accident-and-trial",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "The accident and trial in print",
+   "isNew": true
+  }
+ ],
+ "essays/the-twilight-zone-turns-50": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/the-twilight-zone-wasnt-just-weird-it-was-a-warning": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-twilight-zones-2002-revival-was-doomed-from-the-start-thanks-to-network-inte": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/the-twilight-zones-jewish-soul": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/thirty-minute-reality-check-how-the-twilight-zone-reflected-american-society-in": [
+  {
+   "cat": "reading",
+   "sub": "essays",
+   "group": "Essays",
+   "catTitle": "Reading",
+   "subTitle": "Essays and scholarship",
    "isNew": false
   }
  ],
@@ -20355,6 +24317,26 @@
    "isNew": false
   }
  ],
+ "essays/tv-terrors-remember-the-2002-revival-of-the-twilight-zone": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/twilight-man-pulls-back-the-curtain-on-twilight-zone-creator-rod-serling": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
  "essays/twilight-zone-a-serling-performance": [
   {
    "cat": "reading",
@@ -20368,20 +24350,120 @@
  "essays/twilight-zone-reboot-fails-to-find-a-new-dimension": [
   {
    "cat": "reviews",
-   "sub": "retrospective",
+   "sub": "contemporary",
    "group": null,
    "catTitle": "Reviews",
-   "subTitle": "Retrospective reviews",
+   "subTitle": "Contemporary reviews",
    "isNew": false
+  }
+ ],
+ "essays/twilight-zone-the-movie-40-year-anniversary-feature": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "accident-and-trial",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "The accident and trial in print",
+   "isNew": true
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
+  }
+ ],
+ "essays/twilight-zone-the-movie-40-year-retrospective": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "accident-and-trial",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "The accident and trial in print",
+   "isNew": true
+  },
+  {
+   "cat": "reading",
+   "sub": "anniversary-coverage",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Anniversary coverage",
+   "isNew": true
   }
  ],
  "essays/twilight-zone-the-movie-review": [
   {
    "cat": "reviews",
-   "sub": "retrospective",
+   "sub": "contemporary",
    "group": null,
    "catTitle": "Reviews",
-   "subTitle": "Retrospective reviews",
+   "subTitle": "Contemporary reviews",
+   "isNew": false
+  }
+ ],
+ "essays/twilight-zone-the-show-that-wont-die": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/twilight-zone-to-keep-serling-host-who-was-to-be-dropped-has-tv-role-expanded": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
+ "essays/twilight-zone-trial-a-hollywood-feast": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "accident-and-trial",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "The accident and trial in print",
+   "isNew": true
+  }
+ ],
+ "essays/twilight-zone-writer-challenged-prejudice": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
    "isNew": false
   }
  ],
@@ -20395,6 +24477,34 @@
    "isNew": false
   }
  ],
+ "essays/when-science-fiction-became-history": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-foundation-papers",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling Memorial Foundation publications",
+   "isNew": true
+  }
+ ],
+ "essays/where-is-everybody-the-twilight-zones-first-episode-tackled-atomic-anxieties": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  }
+ ],
  "essays/where-is-the-twilight-zone": [
   {
    "cat": "reading",
@@ -20402,6 +24512,34 @@
    "group": "Book chapters",
    "catTitle": "Reading",
    "subTitle": "Essays and scholarship",
+   "isNew": false
+  }
+ ],
+ "essays/why-is-tv-the-whipping-boy": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-own-writing",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling's own writing",
+   "isNew": true
+  }
+ ],
+ "essays/why-rod-serling-still-matters": [
+  {
+   "cat": "reading",
+   "sub": "articles",
+   "group": "Articles",
+   "catTitle": "Reading",
+   "subTitle": "Articles and interviews",
    "isNew": false
   }
  ],
@@ -20413,6 +24551,24 @@
    "catTitle": "Reading",
    "subTitle": "Essays and scholarship",
    "isNew": false
+  }
+ ],
+ "essays/writing-for-television-discussions-ithaca-college": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  },
+  {
+   "cat": "reading",
+   "sub": "serling-own-writing",
+   "group": null,
+   "catTitle": "Reading",
+   "subTitle": "Rod Serling's own writing",
+   "isNew": true
   }
  ],
  "films/10-cloverfield-lane": [
@@ -55773,6 +59929,24 @@
    "isNew": true
   }
  ],
+ "works/academy-award-1963-best-live-action-short-subject-robert-enrico-la-riviere-du-hibou": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
  "works/adg-gallery-800-tribute-to-jaroslav-gebr-2017": [
   {
    "cat": "artwork",
@@ -56973,6 +61147,24 @@
    "isNew": true
   }
  ],
+ "works/directors-guild-of-america-award-1960-outstanding-directorial-achievement-in-television-jo": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
  "works/disney-tower-of-terror-collectors-lanyard-pin-set": [
   {
    "cat": "merchandise",
@@ -57603,6 +61795,24 @@
    "isNew": true
   }
  ],
+ "works/gold-marcum-award-2006-best-radio-drama-series-the-twilight-zone-radio-dramas-falcon-pictu": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
  "works/golden-globe-1963-serling": [
   {
    "cat": "events",
@@ -57846,6 +62056,24 @@
    "group": null,
    "catTitle": "Events",
    "subTitle": "Honors and awards",
+   "isNew": false
+  }
+ ],
+ "works/hugo-award-1963-best-dramatic-presentation-the-twilight-zone-series": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
    "isNew": false
   }
  ],
@@ -59243,6 +63471,168 @@
    "isNew": true
   }
  ],
+ "works/primetime-emmy-award-1961-outstanding-achievement-in-cinematography-for-television-george": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
+ "works/primetime-emmy-award-1961-outstanding-drama-series-program-achievement-in-drama-the-twilig": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
+ "works/primetime-emmy-award-1961-outstanding-program-achievement-in-the-field-of-drama-the-twilig": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
+ "works/primetime-emmy-award-1962-outstanding-achievement-in-cinematography-for-television-george": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
+ "works/primetime-emmy-award-1962-outstanding-art-direction-and-scenic-design-the-twilight-zone-ar": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
+ "works/primetime-emmy-award-1962-outstanding-writing-achievement-in-drama-rod-serling": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
+ "works/primetime-emmy-award-1963-outstanding-achievement-in-cinematography-for-television-the-twi": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
+ "works/primetime-emmy-award-2019-outstanding-guest-actor-in-a-drama-series-kumail-nanjiani": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
+ "works/producers-guild-of-america-award-1960-best-produced-series-producer-buck-houghton": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
  "works/pseudonymous-credits-on-twilight-zone-the-movie": [
   {
    "cat": "legal-history",
@@ -59720,6 +64110,60 @@
    "group": null,
    "catTitle": "Lectures",
    "subTitle": "In the classroom",
+   "isNew": false
+  }
+ ],
+ "works/saturn-award-1984-best-horror-film-twilight-zone-the-movie": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
+ "works/saturn-award-1984-best-supporting-actor-john-lithgow": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
+ "works/saturn-award-1984-best-supporting-actor-scatman-crothers": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
    "isNew": false
   }
  ],
@@ -62065,6 +66509,24 @@
    "isNew": false
   }
  ],
+ "works/unity-award-1961-outstanding-contributions-to-better-race-relations-the-twilight-zone": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
  "works/unlv-olli-mind-of-rod-serling": [
   {
    "cat": "lectures",
@@ -62366,6 +66828,42 @@
    "group": null,
    "catTitle": "Events",
    "subTitle": "Broadcasts and marathons",
+   "isNew": false
+  }
+ ],
+ "works/writers-guild-of-america-award-1976-laurel-award-for-tv-writing-achievement-rod-serling-po": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
+   "isNew": false
+  }
+ ],
+ "works/writers-guild-of-america-award-1987-anthology-episode-single-program-harlan-ellison": [
+  {
+   "cat": "events",
+   "sub": "honors-awards",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Honors and awards",
+   "isNew": false
+  },
+  {
+   "cat": "reviews",
+   "sub": "awards-citations",
+   "group": null,
+   "catTitle": "Reviews",
+   "subTitle": "Award citations",
    "isNew": false
   }
  ],

@@ -1,0 +1,20 @@
+title: Saturn Award – Best Supporting Actor (1984), John Lithgow
+kind: event
+subtype: honor
+year: 1984
+description: 'John Lithgow won the Saturn Award for Best Supporting Actor in 1984 for Twilight Zone: The Movie.
+  11th Saturn Awards (Mar 24, 1984); role John Valentine in ''Nightmare at 20,000 Feet'' segment. Winner inferred
+  from list order.'
+details:
+  result: won
+  recipient: John Lithgow
+  honors:
+  - films/twilight-zone-the-movie
+categories:
+- reviews/awards-citations
+research_confidence: medium
+sources:
+- title: 'Wikipedia: 11th Saturn Awards'
+  url: https://en.wikipedia.org/wiki/11th_Saturn_Awards
+last_verified: '2026-11-20'
+locked: true

@@ -8,8 +8,18 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60160
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: Issue 55 of Rod Serling's The Twilight Zone Magazine (Aug 1988), the horror and fantasy fiction magazine
-  published by TZ Publications from 1981 to 1989 under license from Carol Serling. Each issue mixed new short fiction
-  with interviews, film and book coverage and Twilight Zone history; this issue's contents are on the linked ISFDB
-  page.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+description: 'August 1988 issue, edited by Tappan King. Fiction: "Dinner with an Angel" by Andrew M. Greeley; "Sliding"
+  by Barbara Owens; "Over the Fence" by John Maclay; "The Promise of Warmth" by Michael Blumlein; "Meeting Mr. Subian"
+  by Roger Parson; "Omniscient Mitch" by Kevin Cook; "In the Belly of the Death Mother" by Craig Kee Strete; "All
+  in a Day''s Work (TZ First)" by Michael Galloglach. Features: TZ Interview: Wade Davis, by Stanley Wiater; TZ
+  Preview: Willow, by James Verniere. Regular columns: Editorial (Tappan King); Books (Edward Bryant); Screen (Gahan
+  Wilson); Hollywood Grapevine (Craig Miller); The Goulart Archipelago (Ron Goulart); People (James H. Burns). Vol.
+  8 No. 3. No teleplay listed.'
+research_confidence: high
+last_verified: '2026-11-20'
+locked: true

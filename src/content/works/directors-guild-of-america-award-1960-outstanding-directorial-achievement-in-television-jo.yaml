@@ -1,0 +1,19 @@
+title: Directors Guild of America Award – Outstanding Directorial Achievement in Television (1960), John Brahm
+kind: event
+subtype: honor
+year: 1960
+description: John Brahm won the Directors Guild of America Award for Outstanding Directorial Achievement in Television
+  in 1960 for the original series. Season 1; per Wikipedia text.
+details:
+  result: won
+  recipient: John Brahm
+  honors:
+  - series/1959
+categories:
+- reviews/awards-citations
+research_confidence: medium
+sources:
+- title: 'Wikipedia (mirror): The Twilight Zone (1959 TV series)'
+  url: https://troywiki.duckdns.org/content/wikipedia_en_all_maxi_2024-01/A/Twilight_Zone%2C_The_(1959)
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,16 @@
+title: 'Critics'' aggregate scores: the original series'
+kind: review
+review_type: retrospective
+reviews:
+- series/1959
+description: The original series holds an 80% critics' score on Rotten Tomatoes, as Rotten Tomatoes itself reported
+  in 2019 when comparing it with the Peele revival. Because the show predates online criticism, the score reflects
+  mostly retrospective reviews.
+categories:
+- reviews/aggregate-scores
+research_confidence: medium
+sources:
+- title: Rotten Tomatoes
+  url: https://editorial.rottentomatoes.com/article/jordan-peele-twilight-zone-series-early-reviews
+last_verified: '2026-11-20'
+locked: true

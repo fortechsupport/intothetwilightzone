@@ -13,8 +13,19 @@ sources:
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Heritage Auctions comic issue index: Twilight Zone'
   url: https://comics.ha.com/comic-issue-index/?id=1541
-last_verified: '2026-11-19'
+- title: 'Heritage Auctions comic issue index (GCD data): The Twilight Zone #43'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=25097
+last_verified: '2026-11-20'
 locked: true
-description: Issue 43 of Gold Key's licensed Twilight Zone anthology comic (May 1972). Gold Key's title ran from
-  1962 to 1982, with new stories in the show's spirit framed by a drawn Rod Serling host; this issue's contents
-  are not yet recorded here (see the Grand Comics Database link).
+description: 'Issue 43 of Gold Key''s licensed Twilight Zone anthology comic (May 1972). Stories: "The Man Who Kidnapped
+  Death" (art John Celardo); "3 Tombstones" (illustration Joe Certa (1-page text)); "This Is Your -Bzzzzzz- Captain
+  Speaking" (art Tom Gill; letters Tom Gill (?)); "10 Seconds to Live" (art Jack Sparling); "The Face of Justice"
+  (art not identified). Cover: George Wilson (painted). All new; no reprint links recorded. ''10 Seconds to Live''
+  is the cover story.'
+creators:
+- George Wilson (cover)
+- Jack Sparling
+- John Celardo
+- Tom Gill
+- illustration Joe Certa
+- not identified

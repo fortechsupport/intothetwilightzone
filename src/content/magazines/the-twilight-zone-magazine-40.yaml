@@ -8,8 +8,23 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60173
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: Issue 40 of Rod Serling's The Twilight Zone Magazine (Feb 1986), the horror and fantasy fiction magazine
-  published by TZ Publications from 1981 to 1989 under license from Carol Serling. Each issue mixed new short fiction
-  with interviews, film and book coverage and Twilight Zone history; this issue's contents are on the linked ISFDB
-  page.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+description: 'February 1986 issue, edited by Michael Blaine. Fiction: "The Fifth Quarter" by Stephen King; "The
+  Last One Mo'' Once Golden Oldies Revival" by F. Paul Wilson; "The Age of Fish" by Patricia Stoll; "Ska . . . Zik!"
+  by Jeffrey Whitmore; "The Crossing" by Peter Heyrman; "The Gift" by Richard Partlow; "Pillaging Poe" by A.R. Morlan;
+  "Televisionaries" by Larry Tritten. Features: Talking Terror with Stephen King, interview by Douglas E. Winter;
+  King Directs ''Overdrive'' (Maximum Overdrive), by Tyson Blue; Collecting King; Movie Preview: F/X; The Tube Fantastic;
+  Show-by-Show Guide to ''Night Gallery'', Part 6 (series by Kathryn M. Drennan and J. Michael Straczynski). Teleplay:
+  "Will the Real Martian Please Stand Up?" by Rod Serling (Will the Real Martian Please Stand Up? (original series,
+  Season 2, 1961)). Regular columns: Illuminations (Peter Rondinone?); TZ Tech (Robert Edelstein); Books (Doc Kennedy);
+  Screen (Gahan Wilson?); TZ Video (Welch Everman?). Vol. 5 No. 6; Stephen King issue. Contents page sets titles
+  and bylines in separate columns, so several feature/column bylines are inferred and uncertain.'
+episodes:
+- 1959/will-the-real-martian-please-stand-up
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

@@ -8,8 +8,22 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60150
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: Issue 59 of Rod Serling's The Twilight Zone Magazine (Apr 1989), the horror and fantasy fiction magazine
-  published by TZ Publications from 1981 to 1989 under license from Carol Serling. Each issue mixed new short fiction
-  with interviews, film and book coverage and Twilight Zone history; this issue's contents are on the linked ISFDB
-  page.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+description: 'April 1989 issue, edited by Tappan King. Fiction: "Person to Person" by Richard Matheson; "Stoner"
+  by William F. Nolan; "Slice of Life" by Mike Resnick; "Fine or Superfine" by Martha Soukup; "Wolf Trapping" by
+  Kij Johnson; "Double Indemnity (TZ First)" by David E. Myers; "Hickory, Dickory, Dock (TZ First)" by David E.
+  Myers. Features: Return of the Zone, Part IV, by J. Michael Straczynski; The Twilight Zone Review: 1988 (year
+  in film, TV, fiction); Rod Serling''s Night Gallery (episode-guide series) by Kathryn M. Drennan and J. Michael
+  Straczynski; A Star for Rod Serling (Hollywood Walk of Fame); TZ First Contest Winners. Teleplay: "The Obsolete
+  Man" by Rod Serling (The Obsolete Man (original series, Season 2, 1961)). Regular columns: In the Twilight Zone;
+  Editor''s Notes; Letters; Video (Bill Warren). Vol. 9 No. 1. OCR listing shows both TZ First stories credited
+  to David E. Myers; may be an OCR/reading error for one of them.'
+episodes:
+- 1959/the-obsolete-man
+research_confidence: high
+last_verified: '2026-11-20'
+locked: true

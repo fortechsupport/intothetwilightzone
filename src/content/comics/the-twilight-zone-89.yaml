@@ -7,7 +7,7 @@ ids:
   amazon_asin: B003NYTGE6
 links:
   info: https://www.comics.org/issue/33123/
-research_confidence: high
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
@@ -15,8 +15,16 @@ sources:
   url: https://comics.ha.com/comic-issue-index/?id=1541
 - title: 'Comic Collector Live: Twilight Zone (1962) issues 74-92'
   url: https://www.comiccollectorlive.com/issues/comic-books/Twilight-Zone-1962/page-2/8ebd1f9c-ba05-48ed-9391-5442a75185e7?find=50
-last_verified: '2026-11-19'
+- title: 'Heritage Auctions comic issue index (GCD data): The Twilight Zone #89'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=33123
+last_verified: '2026-11-20'
 locked: true
-description: Issue 89 of Gold Key's licensed Twilight Zone anthology comic (February 1979). Gold Key's title ran
-  from 1962 to 1982, with new stories in the show's spirit framed by a drawn Rod Serling host; this issue's contents
-  are not yet recorded here (see the Grand Comics Database link).
+description: 'Issue 89 of Gold Key''s licensed Twilight Zone anthology comic (February 1979). Stories: "Star Pupil"
+  (art Jack Sparling); "The Prettiest Child" (art Mike Roy); "Overly Charming" (art Jack Sparling); "The Hangman''s
+  Noose" (art Jack Sparling). Cover: Unidentified (signed, signature illegible). Four stories; GCD records no reprint
+  links for this issue, so they appear to be new material (not verified against earlier issues). ''Overly Charming''
+  is the cover story.'
+creators:
+- Jack Sparling
+- Mike Roy
+- Unidentified (cover)

@@ -8,8 +8,20 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60155
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: Issue 47 of Rod Serling's The Twilight Zone Magazine (Apr 1987), the horror and fantasy fiction magazine
-  published by TZ Publications from 1981 to 1989 under license from Carol Serling. Each issue mixed new short fiction
-  with interviews, film and book coverage and Twilight Zone history; this issue's contents are on the linked ISFDB
-  page.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+description: 'April 1987 issue, edited by Tappan King. Fiction: "Sixth Annual TZ Short Story Contest winners and
+  runners-up" by various; "The Other Side" by Ramsey Campbell; "An Image in Twisted Silver" by Charles L. Grant;
+  "The Man Who Devoured Literature" by George Alec Effinger; "The Leash" by Pamela Sargent; "General Jaruzelski
+  at the Zoo" by George Zebrowski; "Clay Devils" by Pat Murphy; "The Flat-Brimmed Hat" by Nancy Etchemendy; "At
+  the Rummage Sale" by Vicki Grove; "short-short (title not read)" by Algis Budrys. Features: Interview with Carol
+  Serling by Bob Rosenbaum; Interviews with Ramsey Campbell and Charles L. Grant by Stanley Wiater and Douglas E.
+  Winter. Regular columns: In the Twilight Zone (Tappan King); Books (E. F. Bleiler); Illuminations. Vol. 7 No.
+  1. Contents page is cut off in OCR; last four fiction entries were found elsewhere in the issue text and may include
+  contest entries.'
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

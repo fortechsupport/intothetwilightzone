@@ -13,8 +13,20 @@ sources:
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Heritage Auctions comic issue index: Twilight Zone'
   url: https://comics.ha.com/comic-issue-index/?id=1541
-last_verified: '2026-11-19'
+- title: 'Heritage Auctions comic issue index (GCD data): The Twilight Zone #47'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=25819
+last_verified: '2026-11-20'
 locked: true
-description: Issue 47 of Gold Key's licensed Twilight Zone anthology comic (January 1973). Gold Key's title ran
-  from 1962 to 1982, with new stories in the show's spirit framed by a drawn Rod Serling host; this issue's contents
-  are not yet recorded here (see the Grand Comics Database link).
+description: 'Issue 47 of Gold Key''s licensed Twilight Zone anthology comic (January 1973). Stories: "And Where
+  It Stops, Nobody Knows..." (script Len Wein; pencils Rich Buckler; inks Sal Trapani); "Golden Dreams" (illustration
+  Joe Certa (1-page text)); "The Man Who Hated Mankind" (art Jack Sparling); "Something New in Town" (art Jack Sparling);
+  "The Space Prize" (art John Celardo). Cover: George Wilson (painted). All new; no reprint links recorded. ''Something
+  New in Town'' is the cover story. Wein credit from 2002 interview.'
+creators:
+- George Wilson (cover)
+- Jack Sparling
+- John Celardo
+- Len Wein
+- Rich Buckler
+- Sal Trapani
+- illustration Joe Certa

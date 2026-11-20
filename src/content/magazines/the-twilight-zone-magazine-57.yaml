@@ -8,8 +8,22 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60164
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: Issue 57 of Rod Serling's The Twilight Zone Magazine (Dec 1988), the horror and fantasy fiction magazine
-  published by TZ Publications from 1981 to 1989 under license from Carol Serling. Each issue mixed new short fiction
-  with interviews, film and book coverage and Twilight Zone history; this issue's contents are on the linked ISFDB
-  page.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+description: 'December 1988 issue, edited by Tappan King. Fiction: "Deadlines" by Craig Spector; "I''ve Been Waiting
+  All My Life to Meet You" by John Skipp; "The Man Who Wasn''t Nice to Pumpkin Head Dolls" by Darrell Schweitzer;
+  "Perfect Disguises" by Bruce Taylor; "The Falling Man, Part II" by David J. Schow; "Overtime - A Halloween Tale
+  (TZ First)" by John Tibbetts. Features: Spotlight on Rod Serling; TZ 30th Anniversary Ultimate Trivia Quiz, compiled
+  by Jennifer Steinhauer; Return of the Zone (special report on the 1988 CBS/syndicated revival) by J. Michael Straczynski;
+  Fall TV Preview by Craig Miller; TZ Interview: David Cronenberg, by James Verniere. Teleplay: "King Nine Will
+  Not Return" by Rod Serling (King Nine Will Not Return (original series, Season 2 premiere, 1960)). Regular columns:
+  In the Twilight Zone; Publisher''s Note (Carol Serling); Books (Edward Bryant); Screen (Gahan Wilson); Other Dimensions
+  (Jennifer Steinhauer). Vol. 8 No. 5; 30th-anniversary themed issue.'
+episodes:
+- 1959/king-nine-will-not-return
+research_confidence: high
+last_verified: '2026-11-20'
+locked: true

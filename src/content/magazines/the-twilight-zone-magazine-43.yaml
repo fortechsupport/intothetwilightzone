@@ -8,8 +8,21 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60179
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: Issue 43 of Rod Serling's The Twilight Zone Magazine (Aug 1986), the horror and fantasy fiction magazine
-  published by TZ Publications from 1981 to 1989 under license from Carol Serling. Each issue mixed new short fiction
-  with interviews, film and book coverage and Twilight Zone history; this issue's contents are on the linked ISFDB
-  page.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+description: 'August 1986 issue, edited by Michael Blaine. Fiction: "Watchdogs" by Robert Silverberg; "Post Time"
+  by Bruce Jay Friedman; "Angel''s Eyes" by Garry Kilworth; "Portrait: Edward Larabee" by Barbara Owens; "Milk"
+  by Donald R. Burleson; "I''ll Drown My Book" by Chet Williamson; "This Year, Next Year" by Andrew Weiner; "Epiphany"
+  by John Shea; "In the Gray Place" by Roger Parson. Features: Interview: Whitley Strieber, by Stanley Wiater; Movie
+  Preview: Aliens and Solar Babies, by James Verniere; Breaking In: Chet Williamson (Robin Bromley); Rod Serling''s
+  Most Controversial Teleplay, by Hal Erickson (on ''He''s Alive''); Weird Weekend, by Gahan Wilson. Teleplay: "He''s
+  Alive (Part I)" by Rod Serling (He''s Alive (original series, Season 4, 1963)). Regular columns: In the Twilight
+  Zone; Letters; Books (E. F. Bleiler); Book Notes (Jonathan White); TZ Tech (Robert Edelstein and Stefan Dziemianowicz);
+  Illuminations (Peter Rondinone); Screen (Gahan Wilson); TZ Video (Welch D. Everman). Vol. 6 No. 3. Teleplay concluded
+  in Oct 1986 (#44).'
+research_confidence: high
+last_verified: '2026-11-20'
+locked: true
