@@ -8,8 +8,19 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60182
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: Issue 48 of Rod Serling's The Twilight Zone Magazine (Jun 1987), the horror and fantasy fiction magazine
-  published by TZ Publications from 1981 to 1989 under license from Carol Serling. Each issue mixed new short fiction
-  with interviews, film and book coverage and Twilight Zone history; this issue's contents are on the linked ISFDB
-  page.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+description: 'June 1987 issue, edited by Tappan King. Fiction: "Down, Satan!" by Clive Barker; "The Exercise of
+  Faith" by Lucius Shepard; "Wolf/Child" by Jane Yolen; "Dead Man on the Beach" by Richard Paul Russo; "Halley''s
+  Passing" by Michael McDowell; "The Boys in the Rain" by Pat Cadigan; "Ants" by Chet Williamson; "Jesus on Honshu"
+  by John Updike; "Grass Shark" by Paul Walton. Features: Talking Terror with Clive Barker, interview by Douglas
+  E. Winter; Preview: The Witches of Eastwick, by James Verniere; The Witch of Salem: conversation with Laurie Cabot,
+  by James Verniere. Regular columns: Books (Edward Bryant); Screen (Gahan Wilson); Music (Christopher Karwowski);
+  Television (Robin Bromley); Video (Welch D. Everman); Hollywood Grapevine (anonymous); In the Twilight Zone; Illuminations;
+  The Other Side. Vol. 7 No. 2. No teleplay listed.'
+research_confidence: high
+last_verified: '2026-11-20'
+locked: true

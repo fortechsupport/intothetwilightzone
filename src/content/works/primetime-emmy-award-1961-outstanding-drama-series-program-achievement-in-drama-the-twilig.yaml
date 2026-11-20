@@ -1,0 +1,19 @@
+title: Primetime Emmy Award – Outstanding Drama Series (Program Achievement in Drama) (1961), nomination
+kind: event
+subtype: honor
+year: 1961
+description: The Twilight Zone was nominated for the Primetime Emmy Award for Outstanding Drama Series (Program
+  Achievement in Drama) in 1961 for the original series.
+details:
+  result: nominated
+  recipient: The Twilight Zone
+  honors:
+  - series/1959
+categories:
+- reviews/awards-citations
+research_confidence: high
+sources:
+- title: 'Rod Serling Memorial Foundation: Awards'
+  url: https://rodserling.com/awards/
+last_verified: '2026-11-20'
+locked: true

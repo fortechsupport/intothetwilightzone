@@ -7,7 +7,7 @@ ids:
   amazon_asin: B003NYTHTK
 links:
   info: https://www.comics.org/issue/33276/
-research_confidence: high
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
@@ -15,8 +15,16 @@ sources:
   url: https://comics.ha.com/comic-issue-index/?id=1541
 - title: 'Comic Collector Live: Twilight Zone (1962) issues 74-92'
   url: https://www.comiccollectorlive.com/issues/comic-books/Twilight-Zone-1962/page-2/8ebd1f9c-ba05-48ed-9391-5442a75185e7?find=50
-last_verified: '2026-11-19'
+- title: 'Heritage Auctions comic issue index (GCD data): The Twilight Zone #90'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=33276
+last_verified: '2026-11-20'
 locked: true
-description: Issue 90 of Gold Key's licensed Twilight Zone anthology comic (April 1979). Gold Key's title ran from
-  1962 to 1982, with new stories in the show's spirit framed by a drawn Rod Serling host; this issue's contents
-  are not yet recorded here (see the Grand Comics Database link).
+description: 'Issue 90 of Gold Key''s licensed Twilight Zone anthology comic (April 1979). Stories: "Horror Movie"
+  (script Gary Poole; art Frank Bolle); "Falcon''s Curse" (art unidentified (possibly same artist as #84)); "A Loss
+  of Face" (art Win Mortimer); "Braddley Manor" (art Mike Roy (?)). Cover: George Wilson (painted). Four stories;
+  GCD records no reprint links, suggesting new material. ''Horror Movie'' is the cover story.'
+creators:
+- Frank Bolle
+- Gary Poole
+- George Wilson (cover)
+- Win Mortimer

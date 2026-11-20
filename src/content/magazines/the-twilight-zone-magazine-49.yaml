@@ -4,7 +4,13 @@ cover_date: Aug 1987
 order: 49
 publisher: TZ Publications, Inc.
 editor: Tappan King
-description: August 1987 theme issue devoted to American Indian magic.
+description: 'August 1987 issue, edited by Tappan King. Fiction: "Lights Out (excerpt from Swan Song)" by Robert
+  R. McCammon; "The Others" by Joyce Carol Oates; "Pamela''s Get" by David J. Schow; "The Dream That Follows Darkness
+  (American Indian Magic section)" by Michael Seidman; "As if Bloodied on a Hunt Before Sleep (American Indian Magic
+  section)" by Craig Kee Strete. Features: American Indian Magic special section. Regular columns: In the Twilight
+  Zone; Books (Edward Bryant); On Film (James Verniere); Illuminations; The Other Side (Robert Simpson); Games;
+  Screen (Gahan Wilson); Hollywood Grapevine. Vol. 7 No. 3. Scanned contents page is jumbled in OCR; fiction list
+  may be incomplete and features beyond the special section could not be read reliably.'
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60159
 research_confidence: medium
@@ -13,5 +19,7 @@ sources:
   note: Originally listed in Adam's research spreadsheets.
 - title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
   url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
-last_verified: '2026-11-19'
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+last_verified: '2026-11-20'
 locked: true

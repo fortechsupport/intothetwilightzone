@@ -8,8 +8,24 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60194
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: Issue 42 of Rod Serling's The Twilight Zone Magazine (Jun 1986), the horror and fantasy fiction magazine
-  published by TZ Publications from 1981 to 1989 under license from Carol Serling. Each issue mixed new short fiction
-  with interviews, film and book coverage and Twilight Zone history; this issue's contents are on the linked ISFDB
-  page.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+description: 'June 1986 issue, edited by Michael Blaine. Fiction: "Getting Together" by Richard Matheson; "Cancelled"
+  by Richard Christian Matheson; "Shaggy Dog Story" by David Gerrold; "Well-Read" by Dana Andrew Jennings; "Stooges"
+  by George Zebrowski; "Seeing the World" by Ramsey Campbell; "The Metamoosophis" by Perry Glasser; "With Justifiable
+  Pride" by Julio Cortázar; "Early Autumn" by J. Paul Jacks. Features: Interview: Richard Matheson; Interview: Richard
+  Christian Matheson; Movie Preview: Big Trouble in Little China; The Tube Fantastic; Breaking In: Rockne S. O''Bannon;
+  Show-by-Show Guide to ''Way Out'' (the 1961 CBS anthology hosted by Roald Dahl); Incredible Fifties Film Quiz.
+  Teleplay: "The Rip Van Winkle Caper" by Rod Serling (The Rip Van Winkle Caper (original series, Season 2, 1961)).
+  Regular columns: In the Twilight Zone (Michael Blaine); Books (E. F. Bleiler); Book Notes (Jonathan White); TZ
+  Tech (Robert Edelstein and Stefan Dziemianowicz); Letters; Illuminations; TZ Video; Screen. Vol. 6 No. 2; Matheson
+  father-and-son issue. Contents page lists contributor names (James Verniere, Gary Joseph & Martin H. Friedenthal,
+  Alan Tromp, etc.) without pairing them to features, so interviewers are not recorded.'
+episodes:
+- 1959/the-rip-van-winkle-caper
+research_confidence: high
+last_verified: '2026-11-20'
+locked: true

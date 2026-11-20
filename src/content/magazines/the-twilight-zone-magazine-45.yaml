@@ -3,9 +3,16 @@ magazine: The Twilight Zone Magazine
 cover_date: Dec 1986
 order: 45
 publisher: TZ Publications, Inc.
-editor: Tappan King
-description: December 1986 issue, Tappan King's first as editor, including David J. Schow's World Fantasy
-  Award-winning story 'Red Light'.
+editor: Tappan King (editor-in-chief
+description: 'December 1986 issue, edited by Tappan King (editor-in-chief. Fiction: "The Black Pumpkin" by Dean
+  R. Koontz; "A Perfect Halloween Night" by Rose Rinaldi; "The Spirit of Things" by John Skipp; "Red Light" by David
+  J. Schow; "Fractures" by Kim Antieau; "The Cryptogram" by Donald R. Burleson; "Hotel Hunting" by Charles Sheffield;
+  "The Hole Truth" by Lois McMaster Bujold. Features: Dean of Suspense: interview with Dean R. Koontz by Joe R.
+  Lansdale; Probing by Fire: Craig Spector talks with David J. Schow; Interview: Stephen King, by Tyson Blue; Film
+  Preview: Trick or Treat, by James Verniere; TZ/TV: Fall TV Preview, by Robin Bromley; Next Stop: The Twilight
+  Zone, by Michael Reaves. Teleplay: "Her Pilgrim Soul" by Alan Brennert (Her Pilgrim Soul (1985-89 CBS revival,
+  Season 1, 1985)). Regular columns: Books (E. F. Bleiler); Book Notes (Jonathan White); Screen (Gahan Wilson).
+  Vol. 6 No. 5; Halloween-themed. Revival-series teleplay rather than a classic Serling script.'
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60200
 research_confidence: high
@@ -16,5 +23,9 @@ sources:
   url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
 - title: 'Twilight Zone Vortex: capsule history of the magazine'
   url: http://twilightzonevortex.blogspot.com/2012/01/rod-serlings-twilight-zone-magazine.html
-last_verified: '2026-11-19'
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+last_verified: '2026-11-20'
 locked: true
+episodes:
+- 1985/her-pilgrim-soul

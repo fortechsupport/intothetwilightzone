@@ -1,0 +1,16 @@
+title: 'Critics'' aggregate scores: the 1985 revival'
+kind: review
+review_type: retrospective
+reviews:
+- series/1985
+description: 'Aggregator data for the 1985 CBS revival is thin because most of its reviews predate the web: Rotten
+  Tomatoes holds only a single review for season 1 (83%, checked November 2026). The contemporary newspaper reviews
+  listed alongside give a fuller picture.'
+categories:
+- reviews/aggregate-scores
+research_confidence: medium
+sources:
+- title: Rotten Tomatoes
+  url: https://www.rottentomatoes.com/tv/the_twilight_zone_cbs/s01
+last_verified: '2026-11-20'
+locked: true

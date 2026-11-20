@@ -1,0 +1,25 @@
+title: 'Critics'' aggregate scores: the 2019 revival'
+kind: review
+review_type: retrospective
+reviews:
+- series/2019
+description: 'How critics scored Jordan Peele''s revival for CBS All Access. Season 1 opened at 95% on Rotten Tomatoes
+  from its first 20 reviews and settled at 70% from 88 (average 7.4/10); Metacritic gives it 60 from 37 critics.
+  Season 2 scored lower: 63% on Rotten Tomatoes from 24 reviews, mostly based on three screener episodes, and 57
+  on Metacritic from 10 critics (checked November 2026).'
+categories:
+- reviews/aggregate-scores
+research_confidence: medium
+sources:
+- title: Metacritic
+  url: https://legacy.prod.metacritic.com/tv/the-twilight-zone-2019/season-1/critic-reviews
+- title: Rotten Tomatoes
+  url: https://editorial.rottentomatoes.com/article/jordan-peele-twilight-zone-series-early-reviews
+- title: Metacritic
+  url: https://legacy.prod.metacritic.com/tv/the-twilight-zone-2019/season-2/critic-reviews
+- title: Rotten Tomatoes
+  url: https://www.rottentomatoes.com/tv/the_twilight_zone_2019/s02
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+last_verified: '2026-11-20'
+locked: true

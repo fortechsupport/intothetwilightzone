@@ -13,8 +13,20 @@ sources:
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Atomic Avenue: The Twilight Zone (Vol. 1)'
   url: https://atomicavenue.com/atomic/series/794/1/The-Twilight-Zone-Vol-1
-last_verified: '2026-11-19'
+- title: 'Heritage Auctions comic issue index (GCD data): The Twilight Zone #40'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=24629
+last_verified: '2026-11-20'
 locked: true
-description: Issue 40 of Gold Key's licensed Twilight Zone anthology comic (November 1971). Gold Key's title ran
-  from 1962 to 1982, with new stories in the show's spirit framed by a drawn Rod Serling host; this issue's contents
-  are not yet recorded here (see the Grand Comics Database link).
+description: 'Issue 40 of Gold Key''s licensed Twilight Zone anthology comic (November 1971). Stories: "A Charmed
+  Life" (art Jack Sparling); "Door to Oblivion" (art Joe Certa (?) (1 page)); "Premonition" (art Oscar Novelle);
+  "The Missing Link" (art Joe Certa; letters Ben Oda); "The Last Voyage" (script Len Wein; art Luis Dominguez).
+  Cover: George Wilson (painted). New material; cover and all stories are linked to The Twilight Zone #73 (Sep 1976),
+  which by date must be the later reprint. Wein script credit from interview.'
+creators:
+- Ben Oda
+- George Wilson (cover)
+- Jack Sparling
+- Joe Certa
+- Len Wein
+- Luis Dominguez
+- Oscar Novelle

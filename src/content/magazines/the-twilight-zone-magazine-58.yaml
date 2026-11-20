@@ -8,8 +8,20 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60149
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: Issue 58 of Rod Serling's The Twilight Zone Magazine (Feb 1989), the horror and fantasy fiction magazine
-  published by TZ Publications from 1981 to 1989 under license from Carol Serling. Each issue mixed new short fiction
-  with interviews, film and book coverage and Twilight Zone history; this issue's contents are on the linked ISFDB
-  page.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+description: 'February 1989 issue, edited by Tappan King. Fiction: "At the Summit" by Frederik Pohl; "Unknown Things"
+  by Reginald Bretnor; "You''d Better Watch Out" by J.N. Williamson; "Stocking Stuffers (TZ First)" by Alan Spero;
+  "Telescope, Saxophone and the Pilot''s Death" by Richard Paul Russo. Features: Return of the Zone, chapter 3,
+  by J. Michael Straczynski; TZ Interview: Peter Straub, by Douglas E. Winter; Special Feature: Rod Serling''s Night
+  Gallery by Kathryn M. Drennan and J. Michael Straczynski; Truly Weird Gifts, compiled by Jillian Smith. Teleplay:
+  "The Lateness of the Hour" by Rod Serling (The Lateness of the Hour (original series, Season 2, 1960)). Regular
+  columns: Books (Edward Bryant); Screen (Gahan Wilson); Christmas Quiz (Jennifer Steinhauer). Vol. 8 No. 6 (holiday-themed).'
+episodes:
+- 1959/the-lateness-of-the-hour
+research_confidence: high
+last_verified: '2026-11-20'
+locked: true
