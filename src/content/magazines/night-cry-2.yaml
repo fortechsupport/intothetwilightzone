@@ -5,9 +5,14 @@ order: 63
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
 kind: issue
-description: Summer 1985 issue, the first under the Night Cry name as a regular quarterly; from this point
-  the digest carried mostly new horror fiction alongside some reprints. Numbered Vol. 1, No. 2.
-research_confidence: high
+description: 'Summer 1985 issue, the first under the Night Cry name as a regular quarterly; from this point the
+  digest carried mostly new horror fiction alongside some reprints. Numbered Vol. 1, No. 2. Edited by T.E.D. Klein.
+  Fiction: "Scenicruiser and the Silver Lady" by Peter S. Alterman; "The Death Runner" by Thomas Sullivan; "Worms
+  from Mars" by Augustine Funnell; "Food, Gas, Lodging" by Craig W. Anderson; "The Ash-Tree" by M.R. James; "Zombies"
+  by Dolly Ogawa; "Hell Is Murky" by John Alfred Taylor; "Cruising" by Donald Tyson; "The Thing from the Slush"
+  by George Alec Effinger; "The Dark" by Benjamin Gleisser; "Bugs" by Larry Tritten; "W.S." by L. P. Hartley; "The
+  New Man" by Barbara Owens; "Four Days Before the Snow" by A.R. Morlan. Also: From the Editor (T.E.D. Klein).'
+research_confidence: medium
 sources:
 - title: 'SFE: Night Cry'
   url: https://sf-encyclopedia.com/entry/night_cry
@@ -15,5 +20,7 @@ sources:
   url: https://twilightzonevortex.blogspot.com/2018/05/night-cry-magazine-covers.html
 - title: 'Locus Index checklist: Night Cry'
   url: https://www.locusmag.com/index/chklst/mg0663.htm
-last_verified: '2026-11-19'
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+last_verified: '2026-11-20'
 locked: true

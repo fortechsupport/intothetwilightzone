@@ -3,10 +3,10 @@ institution: UCLA Library Special Collections (digitized by UCLA Library Preserv
 location: Los Angeles, California, USA
 dates: 1968 (bulk)
 extent: 308 dictabelts
-description: Personal dictation recordings acquired by UCLA in the early 2000s and digitally transferred
-  in 2019. They hold Serling's dictated correspondence, screenplays and theatre scripts, including eight
-  complete works written in 1968 (several never produced) and many notes to his longtime assistant Marge
-  Langsford. The UCLA account does not say whether any of them relate to The Twilight Zone.
+description: Personal dictation recordings acquired by UCLA in the early 2000s and digitally transferred in 2019.
+  They hold Serling's dictated correspondence, screenplays and theatre scripts, including eight complete works written
+  in 1968 (several never produced) and many notes to his longtime assistant Marge Langsford. The UCLA account does
+  not say whether any of them relate to The Twilight Zone.
 url: https://www.library.ucla.edu/about/news/the-rod-serling-dictabelt-collection/
 research_confidence: high
 sources:
@@ -14,3 +14,11 @@ sources:
   url: https://www.library.ucla.edu/about/news/the-rod-serling-dictabelt-collection/
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: link
+  title: Rod Serling Audio Recordings to be Preserved Thanks to a Grant from CLIR
+  url: https://wcftr.commarts.wisc.edu/?p=3732
+  host: WCFTR, UW-Madison
+  rights: link-only
+  note: Official notice that 1,152 Serling script-dictation dictabelts are being digitized. They will be available
+    on site only, not online.

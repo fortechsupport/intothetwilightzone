@@ -5,8 +5,13 @@ order: 66
 publisher: TZ Publications, Inc.
 editor: Alan Rodgers
 kind: issue
-description: Spring 1986 issue edited by Alan Rodgers, with original horror fiction, poetry and commissioned
-  interior art.
+description: 'Spring 1986 issue edited by Alan Rodgers, with original horror fiction, poetry and commissioned interior
+  art. Fiction: "Special Delivery" by Anita Kranitz Schlank; "Hellcatcher" by Steven Popkes; "The Yougoslaves" by
+  Robert Bloch; "Coming of Age at Apple Creek" by Thomas E. Sanders (Nippawanock); "The Light at the End" by John
+  Skipp and Craig Spector; "The Squaw" by Bram Stoker; "American Dream" by V. K. Gibson; "Brass (Part I of II)"
+  by David J. Schow; "Leaving" by Darrell Schweitzer; "Mayaland" by Paul Witcover; "The Holiday House" by A. R.
+  Morlan; "Still-Life" by Julie Yobst; "The Promise" by Frank Meyer; "The Book of Webster''s" by J. N. Williamson.
+  Also: Introduction (Alan Rodgers); Profile: Bram Stoker; Three Poems (incl. ''The Shaman'', Ronald Terry).'
 research_confidence: medium
 sources:
 - title: 'SFE: Night Cry'
@@ -15,5 +20,7 @@ sources:
   url: https://twilightzonevortex.blogspot.com/2018/05/night-cry-magazine-covers.html
 - title: 'Locus Index checklist: Night Cry'
   url: https://www.locusmag.com/index/chklst/mg0663.htm
-last_verified: '2026-11-19'
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+last_verified: '2026-11-20'
 locked: true

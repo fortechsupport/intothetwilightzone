@@ -1,0 +1,43 @@
+title: The Challenge of the Mass Media to the 20th Century Writer (Library of Congress lecture, 1968)
+authors:
+- Rod Serling
+published_in: Library of Congress
+published: '1968-10-04'
+kind: lecture
+categories:
+- lectures/serling-lectures
+description: Serling's lecture at the Library of Congress on 4 October 1968, broadcast by National Educational Radio,
+  on what television and the other mass media demand of a serious writer. Audio survives through the NAEB radio
+  collection.
+research_confidence: high
+media:
+- type: audio
+  title: Library of Congress lectures II, Program 5 of 9 (Rod Serling)
+  url: https://archive.mith.umd.edu/airwaves/episode/cpb-aacip-500-bz619d02/
+  host: Unlocking the Airwaves (University of Maryland MITH) / NAEB collection
+  date: '1968-10-04'
+  rights: licensed
+  note: An academic digitization of National Educational Radio programs (WUOM and the Library of Congress). The
+    page links an MP3 (25:44) of Serling's lecture on television as a medium for the literary artist. The AAPB copy
+    (americanarchive.org/catalog/cpb-aacip-500-bz619d02) showed a bot check and could not be read.
+- type: audio
+  title: Library of Congress lectures II, Program 5 of 9 (second catalogue record)
+  url: https://archive.mith.umd.edu/airwaves/episode/cpb-aacip-500-tb0xv19x
+  host: Unlocking the Airwaves (UMD MITH)
+  date: '1968-10-04'
+  rights: licensed
+  note: A second record of the same Serling lecture under another AAPB ID, also with an MP3 link. It may be a duplicate
+    or a second part.
+- type: audio
+  title: 'Rod Serling: The Challenge of the Mass Media to the 20th Century Writer (1968)'
+  url: https://archive.org/details/rod-serling-1968-lecture-library-of-congress
+  host: Internet Archive (community upload, opensource_audio)
+  date: '1968-10-04'
+  rights: link-only
+  note: An individual's upload, which says it was sourced from the American Archive of Public Broadcasting. Prefer
+    the UMD/AAPB copies above; this is listed only as a fallback.
+sources:
+- title: Unlocking the Airwaves (University of Maryland)
+  url: https://archive.mith.umd.edu/airwaves/episode/cpb-aacip-500-bz619d02/
+last_verified: '2026-11-20'
+locked: true

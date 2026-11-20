@@ -5,7 +5,13 @@ order: 68
 publisher: TZ Publications, Inc.
 editor: Alan Rodgers
 kind: issue
-description: Fall 1986 issue edited by Alan Rodgers.
+description: 'Fall 1986 issue edited by Alan Rodgers. Fiction: "The Chaney Legacy" by Robert Bloch; "Does It Ploop?"
+  by A. R. Morlan; "Snatcher" by Dean R. Koontz; "Tiny Feet" by Augustine Funnell; "Shells" by John Skipp and Craig
+  Spector; "From the Desk Of" by George Alec Effinger; "The Deed of the Deft-Footed Dragon" by Avram Davidson; "Metempsychosis"
+  by Benjamin Gleisser; "Amymone''s Footsteps" by Gary A. Braunbeck; "Locking Up" by John Maclay; "The Epiphenomena
+  of Morphogenesis" by David C. Kopaska-Merkel; "Hellter-Shelter!" by J. N. Williamson; "Dancing in the Dark" by
+  Elaine Radford; "Flicker" by Patricia H. Barrett. Also: Introduction (J. K. Potter); Interview: Dean Koontz (Bill
+  Munster); Two Poems (Bruce Boston).'
 research_confidence: medium
 sources:
 - title: 'SFE: Night Cry'
@@ -14,5 +20,7 @@ sources:
   url: https://twilightzonevortex.blogspot.com/2018/05/night-cry-magazine-covers.html
 - title: 'Locus Index checklist: Night Cry'
   url: https://www.locusmag.com/index/chklst/mg0663.htm
-last_verified: '2026-11-19'
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+last_verified: '2026-11-20'
 locked: true

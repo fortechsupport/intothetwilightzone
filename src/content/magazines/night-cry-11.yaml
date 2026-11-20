@@ -5,8 +5,14 @@ order: 72
 publisher: TZ Publications, Inc.
 editor: Alan Rodgers
 kind: issue
-description: Fall 1987 issue, the eleventh and final Night Cry, with cover art by Harry O. Morris. Numbered
-  Vol. 2, No. 5.
+description: 'Fall 1987 issue, the eleventh and final Night Cry, with cover art by Harry O. Morris. Numbered Vol.
+  2, No. 5. Edited by Alan Rodgers. Fiction: "Saving Grace" by Orson Scott Card; "Rising Generation" by Ramsey Campbell;
+  "Wonderland" by Richard Christian Matheson and William Relling Jr.; "Ask Not" by Rudy Matic; "Ghosts of Night
+  and Morning" by Marvin Kaye; "The Strange Ride of Morrowbie Jukes" by Rudyard Kipling; "An Eye for an Eye" by
+  Peter Heyrman; "The Boarded Window" by Ambrose Bierce; "Dear D.B. ..." by A. R. Morlan; "The Accounting" by G.
+  L. Raisor; "The Night Seasons (Part IV)" by J. N. Williamson; "Megamouse" by Jay Sheckley; "The Jukebox Man" by
+  Dean Wesley Smith; "The Prize" by Thomas Wylde; "Little Doors" by Paul Di Filippo. Also: Introduction (Alan Rodgers);
+  Two Poems (Tom Disch); Profile: Rudyard Kipling (William Relling Jr.); Books (Al Sarrantonio); Film (T.E.D. Klein).'
 research_confidence: high
 sources:
 - title: 'SFE: Night Cry'
@@ -15,5 +21,7 @@ sources:
   url: https://twilightzonevortex.blogspot.com/2018/05/night-cry-magazine-covers.html
 - title: 'Locus Index checklist: Night Cry'
   url: https://www.locusmag.com/index/chklst/mg0663.htm
-last_verified: '2026-11-19'
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+last_verified: '2026-11-20'
 locked: true
