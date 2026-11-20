@@ -131,8 +131,7 @@ const series = defineCollection({
     history,
     international_titles: internationalTitles,
     releases,
-    sources: z.array(source).default([]),
-    locked: z.boolean().optional(),
+    ...common,
   }),
 });
 
