@@ -25,8 +25,25 @@ const jsonld = {
     </p>
   </section>
 
-  <h2>People, places and organizations</h2>
-  <p class="small muted">The directories everything else links to. Each has a sortable, filterable index showing every page an entry appears on.</p>
+  <h2>Explore the Twilight Zone</h2>
+  <p class="small muted">Seven groups, by medium. Each category is split into official items and unofficial or inspired ones. Reviews, interviews, documents, advertisements and other media appear on the pages they belong to and all together in the <a href="/media/">Media Library</a>. <a href="/categories/">See every subcategory</a>.</p>
+  {groups.map((g) => (
+    <section class="group-block">
+      <h3 class="group-title"><a href={groupHref(g)}>{g.title}</a></h3>
+      <p class="small muted">{g.blurb}</p>
+      <div class="grid">
+        {g.cats.map((c) => (
+          <a class="card" href={`/${c.slug}/`}>
+            <span class="count">{countOf(c).toLocaleString('en-US')}</span>
+            <h3>{c.title}{c.isNew && <span class="tag new">new</span>}</h3>
+            <p>{c.subs.filter((x) => x.entries.length).map((x) => x.title).join(' · ')}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
+  <h2>People, places, organizations and media</h2>
+  <p class="small muted">The directories every category links to, and the Media Library. Each has a sortable, filterable index showing every page an entry appears on.</p>
   <div class="grid">
     {sections.map((c) => (
       <a class="card" href={`/${c.slug}/`}>
@@ -42,23 +59,6 @@ const jsonld = {
     </a>
   </div>
 
-  <h2>Explore</h2>
-  <p class="small muted">Categories grouped by medium. Each category is split into official items and unofficial or inspired ones. Reviews, interviews, documents, advertisements and other media appear on the pages they belong to and all together in the <a href="/media/">Media Library</a>. <a href="/categories/">See every subcategory</a>.</p>
-  {groups.map((g) => (
-    <section class="group-block">
-      <h3><a href={groupHref(g)}>{g.title}</a></h3>
-      <p class="small muted">{g.blurb}</p>
-      <div class="grid">
-        {g.cats.map((c) => (
-          <a class="card" href={`/${c.slug}/`}>
-            <span class="count">{countOf(c).toLocaleString('en-US')}</span>
-            <h3>{c.title}{c.isNew && <span class="tag new">new</span>}</h3>
-            <p>{c.subs.filter((x) => x.entries.length).map((x) => x.title).join(' · ')}</p>
-          </a>
-        ))}
-      </div>
-    </section>
-  ))}
   <h2>Features</h2>
   <ul>
     <li><a href="/rod-serling/">Rod Serling</a>: his life and work beyond The Twilight Zone.</li>

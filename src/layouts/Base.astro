@@ -10,14 +10,26 @@ const preview = reviewMode() !== 'public';
 const { title, description = 'An independent, non-commercial living history of The Twilight Zone: every series, episode, person, and the films, songs and stories it inspired.', jsonld, noindex } = Astro.props;
 const fullTitle = title === 'Home' ? 'IntoTheTwilightZone.com' : `${title} · IntoTheTwilightZone.com`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
-// Main navigation: the directories (People, Places, Organizations) and the Media Library up top, the
-// category groupings in an Explore menu, then search.
+// Navigation. The primary bar is the seven category groups (Screen, Audio, Print...), each opening a
+// panel of its categories and their subcategories. The utility bar above it holds the directories,
+// the Media Library and the features; add utility links to `nav`.
 import { GROUPS, groupHref } from '../lib/taxonomy.mjs';
+import { catalog } from '../lib/catalog';
+const cats = await catalog();
+const groupsNav = GROUPS.map((g) => ({
+  ...g,
+  href: groupHref(g),
+  cats: g.categories.map((c) => cats.get(c.slug)).filter(Boolean).map((c) => ({ slug: c!.slug, title: c!.title, isNew: c!.isNew, subs: c!.subs.filter((x) => x.entries.length).map((x) => ({ slug: x.slug, title: x.title, n: x.entries.length })) })),
+}));
 const nav = [
   ['People', '/people/'],
   ['Places', '/places/'],
   ['Organizations', '/organizations/'],
   ['Media Library', '/media/'],
+  ['Rod Serling', '/rod-serling/'],
+  ['Night Gallery', '/night-gallery/'],
+  ['Timeline', '/timeline/'],
+  ['All categories', '/categories/'],
   ['Search', '/search/'],
 ];
 const path = Astro.url.pathname;
@@ -45,30 +57,52 @@ const path = Astro.url.pathname;
     <header class="site-header">
       <div class="wrap header-inner">
         <a class="brand" href="/">Into<span>The</span>TwilightZone<small>.com</small></a>
-        <nav aria-label="Main">
+        <nav class="utility" aria-label="Directories and features">
           <ul>
-            <li class="menu">
-              <details>
-                <summary>Explore</summary>
-                <ul class="menu-list">
-                  {GROUPS.map((g) => (
-                    <li class="menu-group">
-                      <a class="menu-group-title" href={groupHref(g)}>{g.title}</a>
-                      {(g.categories.length > 1 || g.categories[0].title !== g.title) && <ul>{g.categories.map((c) => <li><a href={`/${c.slug}/`} aria-current={path.startsWith(`/${c.slug}/`) ? 'page' : undefined}>{c.title}{c.isNew && <span class="tag new">new</span>}</a></li>)}</ul>}
-                    </li>
-                  ))}
-                  <li class="menu-group"><span class="menu-group-title">Features</span><ul><li><a href="/rod-serling/">Rod Serling</a></li><li><a href="/night-gallery/">Night Gallery</a></li><li><a href="/timeline/">Timeline</a></li></ul></li>
-                  <li class="menu-all"><a href="/categories/">Everything, with every subcategory</a></li>
-                </ul>
-              </details>
-            </li>
             {nav.map(([label, href]) => (
               <li><a href={href} aria-current={path.startsWith(href) ? 'page' : undefined}>{label}</a></li>
             ))}
           </ul>
         </nav>
       </div>
+      <nav class="groups-bar" aria-label="Categories">
+        <ul class="wrap groups">
+          {groupsNav.map((g) => {
+            const here = g.cats.some((c) => path.startsWith(`/${c.slug}/`)) || path.startsWith(`/explore/${g.slug}/`);
+            return (
+              <li class="group">
+                <details>
+                  <summary aria-current={here ? 'page' : undefined}>{g.title}</summary>
+                  <div class={`mega${g.cats.length === 1 ? ' single' : ''}`}>
+                    <div class="mega-head">
+                      <a href={g.href}><strong>{g.cats.length > 1 ? `All of ${g.title}` : `All of ${g.cats[0]?.title}`} →</strong></a>
+                      <span class="muted small">{g.blurb}</span>
+                    </div>
+                    <div class="mega-cols">
+                      {g.cats.map((c) => (
+                        <div class="mega-col">
+                          {g.cats.length > 1 && <a class="mega-cat" href={`/${c.slug}/`}>{c.title}{c.isNew && <span class="tag new">new</span>}</a>}
+                          <ul>{c.subs.map((x) => <li><a href={`/${c.slug}/${x.slug}/`}>{x.title}</a> <span class="n">{x.n}</span></li>)}</ul>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </details>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
     </header>
+    <script is:inline>
+      // One menu open at a time; close on outside click or Escape.
+      (() => {
+        const ds = [...document.querySelectorAll('.groups-bar details')];
+        ds.forEach((d) => d.addEventListener('toggle', () => { if (d.open) ds.forEach((o) => o !== d && (o.open = false)); }));
+        document.addEventListener('click', (e) => { if (!e.target.closest('.groups-bar')) ds.forEach((d) => (d.open = false)); });
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') ds.forEach((d) => (d.open = false)); });
+      })();
+    </script>
     <main id="main" class="wrap" data-pagefind-body={noindex ? undefined : ''}>
       <slot />
     </main>
