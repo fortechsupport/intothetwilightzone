@@ -833,6 +833,20 @@ lecture("spotnitz-serlingfest-keynote-2025", "Frank Spotnitz keynote, SerlingFes
         details={"date": "2025-09", "event": "works/serlingfest-2025-in-his-own-words"}, cat="lectures/readings-panels", conf="medium")
 
 # ------------------------------------------------------------------ write
+SUB = {"in-story": "In-story places", "event-venue": "Lecture and event venues", "filming-location": "Filming locations",
+       "serling-place": "Rod Serling's places", "premiere": "Premieres", "marathon": "Broadcasts and marathons",
+       "broadcast": "Broadcasts and marathons", "trial": "Accident and trial", "exhibition": "Exhibitions",
+       "anniversary": "Anniversaries and festivals", "festival": "Anniversaries and festivals", "history": "History",
+       "lectures/serling-lectures": "Rod Serling's lectures", "lectures/academic": "Academic talks",
+       "lectures/classroom": "In the classroom", "lectures/readings-panels": "Readings and panels"}
+
+
+def subcat(coll, d):
+    for c in d.get("categories", []):
+        if c in SUB: return SUB[c]
+    return SUB.get(d.get("kind") if coll == "locations" else d.get("subtype"), "Other")
+
+
 def main():
     over_path = ROOT / "data" / "review" / "assessment-overrides.yaml"
     over = yaml.safe_load(over_path.read_text()) or {}
@@ -842,6 +856,7 @@ def main():
         if p.exists() and not (sys.argv[2:] and sys.argv[2] == "--force"):
             print("EXISTS, skipping:", p); continue
         p.write_text(yaml.safe_dump(data, sort_keys=False, allow_unicode=True, width=110), encoding="utf-8")
+        a["subcategory"] = subcat(coll, data)
         over[f"{coll}/{rid}"] = a
     over_path.write_text(yaml.safe_dump(dict(sorted(over.items())), sort_keys=False, allow_unicode=True, width=110), encoding="utf-8")
     print(len(REC), "records")
