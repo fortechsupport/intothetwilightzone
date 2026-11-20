@@ -46,6 +46,14 @@ locations/dachau-deaths-head-revisited:
   reason: Fictional places are how fans remember episodes; an in-story gazetteer is a natural browse path for the
     site.
   subcategory: In-story places
+locations/desolation-canyon-death-valley:
+  connection: A specific filming spot used by three episodes.
+  tier: core
+  tier_reason: A place where the show itself was made or is celebrated.
+  recommendation: include
+  reason: Documented by location researchers with photographs; medium confidence because no studio record confirms
+    it.
+  subcategory: Filming locations
 locations/elmira-college:
   connection: Venue of one of Serling's last recorded lectures.
   tier: related
@@ -332,6 +340,13 @@ locations/wkrc-tv-cincinnati:
   recommendation: include
   reason: Fills the gap between the WLW radio and New York records in his career map.
   subcategory: Rod Serling's places
+locations/zabriskie-point-death-valley:
+  connection: A specific, visitable filming spot inside the Death Valley location.
+  tier: core
+  tier_reason: A place where the show itself was made or is celebrated.
+  recommendation: include
+  reason: Lets visitors stand where the episodes were shot; pairs with the park-wide Death Valley record.
+  subcategory: Filming locations
 works/anne-serling-umw-great-lives-2025:
   connection: A recorded talk about Serling by his daughter.
   tier: related
@@ -381,6 +396,13 @@ works/chris-alexander-morbid-anatomy-2024:
   recommendation: maybe
   reason: Paywalled recording; include if you want to list current lecture activity.
   subcategory: Academic talks
+works/fathom-60th-anniversary-screenings-2019:
+  connection: The series' official 60th-anniversary event.
+  tier: core
+  tier_reason: An event in the history of The Twilight Zone itself.
+  recommendation: include
+  reason: An official, national anniversary event with a documented line-up.
+  subcategory: Anniversaries and festivals
 works/final-original-broadcast-1964:
   connection: The end of the original run.
   tier: core
@@ -416,6 +438,13 @@ works/lost-classics-broadcast-1994:
   recommendation: include
   reason: Core franchise date.
   subcategory: Premieres
+works/madigan-serling-100th-birthday-2024:
+  connection: A centennial talk about the show and its creator.
+  tier: core
+  tier_reason: A talk or class about The Twilight Zone itself.
+  recommendation: include
+  reason: A dated academic talk for the centennial.
+  subcategory: Academic talks
 works/national-twilight-zone-day:
   connection: A fan observance named after the show.
   tier: tangential
@@ -472,6 +501,14 @@ works/serling-ithaca-student-seminar-1972:
   recommendation: include
   reason: Free video of Serling teaching.
   subcategory: In the classroom
+works/serling-kpfk-interview-1970:
+  connection: Serling on his science-fiction writing, in his own voice.
+  tier: related
+  tier_reason: A talk by Rod Serling, or about him, in his own voice or legacy.
+  recommendation: maybe
+  reason: An interview rather than a lecture and only available by request; keep if you want every recording of
+    Serling.
+  subcategory: Interviews and conversations
 works/serling-library-of-congress-lecture-1968:
   connection: A formal Serling lecture on writing for television.
   tier: related

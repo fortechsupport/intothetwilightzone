@@ -832,13 +832,65 @@ lecture("spotnitz-serlingfest-keynote-2025", "Frank Spotnitz keynote, SerlingFes
         "A TV writer on the show's influence.", "core", "include", "A documented talk on the show's legacy by a major successor.",
         details={"date": "2025-09", "event": "works/serlingfest-2025-in-his-own-words"}, cat="lectures/readings-panels", conf="medium")
 
+
+# ------------------------------------------------------------------ SECOND PASS (2026-11-20)
+LP = {"title": "Lightpainter: Twilight Zone On Location, part 1 (Paul Giammarco, 2012)", "url": "https://www.lightpainter.us/2012/11/twilight-zone-on-location-part-1/"}
+real("zabriskie-point-death-valley", "Zabriskie Point, Death Valley", "filming-location",
+     "The eroded badlands overlook in Death Valley National Park. Location photographers who matched frames from the episodes "
+     "identify it as a backdrop for the asteroid in \"The Lonely\" (1959) and the alien-looking desert of \"I Shot an Arrow into "
+     "the Air\" (1960). It is one of the park's most visited viewpoints and looks much as it did on screen.",
+     [LP, {"title": "NPS: Death Valley in Movies and Television", "url": "https://home.nps.gov/deva/learn/historyculture/death-valley-in-movies-and-television.htm"}],
+     "A specific, visitable filming spot inside the Death Valley location.", "core", "include",
+     "Lets visitors stand where the episodes were shot; pairs with the park-wide Death Valley record.", conf="medium",
+     city="Death Valley", region="California", country="US", lat=36.4207, lng=-116.8101, status="open",
+     filmed=[{"ref": "1959/the-lonely", "note": "Asteroid exteriors (identified by frame matching)."},
+             {"ref": "1959/i-shot-an-arrow-into-the-air", "note": "Desert where the astronauts believe they are stranded."}])
+
+real("desolation-canyon-death-valley", "Desolation Canyon, Death Valley", "filming-location",
+     "A narrow side canyon south of Furnace Creek in Death Valley National Park. Frame-matching location research places scenes "
+     "of \"The Lonely\" and \"I Shot an Arrow into the Air\" here, and identifies it as the backdrop photographed for the landed "
+     "rocket in \"The Little People,\" which was otherwise shot at MGM.",
+     [LP], "A specific filming spot used by three episodes.", "core", "include",
+     "Documented by location researchers with photographs; medium confidence because no studio record confirms it.", conf="medium",
+     city="Death Valley", region="California", country="US", status="open",
+     filmed=[{"ref": "1959/the-lonely", "note": "Asteroid scenes."}, {"ref": "1959/i-shot-an-arrow-into-the-air", "note": "Desert scenes."},
+             {"ref": "1959/the-little-people", "note": "Backdrop plate for the landed rocket."}])
+
+event("fathom-60th-anniversary-screenings-2019", "The Twilight Zone: A 60th Anniversary Celebration in cinemas (2019)", "anniversary", 2019,
+      "Fathom Events and CBS Home Entertainment showed six restored episodes in more than 600 US cinemas for one night, Thursday, "
+      "November 14, 2019: \"Walking Distance,\" \"Time Enough at Last,\" \"The Invaders,\" \"The Monsters Are Due on Maple Street,\" "
+      "\"Eye of the Beholder\" and \"To Serve Man,\" with a new short documentary, \"Remembering Rod Serling.\"",
+      [{"title": "Boxoffice Pro: Fathom Events celebrates 60th anniversary of The Twilight Zone", "url": "https://www.boxofficepro.com/fathom-events-celebrates-60th-anniversary-of-the-twilight-zone-with-classic-episodes/"},
+       {"title": "Den of Geek: The Twilight Zone to screen in theaters for 60th anniversary", "url": "https://www.denofgeek.com/movies/the-twilight-zone-to-screen-in-theaters-for-60th-anniversary/"}],
+      "The series' official 60th-anniversary event.", "core", "include", "An official, national anniversary event with a documented line-up.",
+      details={"date": "2019-11-14", "organiser": "Fathom Events and CBS Home Entertainment", "venues": "600+ US cinemas"},
+      categories=["events/anniversaries-festivals"])
+
+lecture("madigan-serling-100th-birthday-2024", "\"Twilight Zone and Its Creator Rod Serling's 100th Birthday\" (Tim Madigan, 2024)", "lecture", 2024, "Tim Madigan",
+        "Philosopher Tim Madigan gave a centennial talk on Serling's life and the series at St. John Fisher University in Rochester, New "
+        "York, on October 31, 2024. Rochester is where Serling died in 1975, and Fisher had marked the show's 60th anniversary in 2019.",
+        [{"title": "St. John Fisher University event listing", "url": "https://www.sjf.edu/events/twilight-zone-and-its-creator-rod-serlings-100th-birthday.php"}],
+        "A centennial talk about the show and its creator.", "core", "include", "A dated academic talk for the centennial.",
+        details={"date": "2024-10-31", "venue": "Golisano Gateway, St. John Fisher University, Rochester, New York"}, cat="lectures/academic")
+
+lecture("serling-kpfk-interview-1970", "Rod Serling interviewed by Mark Davidson, KPFK (1970)", "interview", 1970, "Rod Serling",
+        "A radio conversation recorded by Pacifica station KPFK in Los Angeles on March 13, 1970, in which Serling discusses his work as a "
+        "science-fiction writer. Pacifica Radio Archives holds the tape (item BB5150).",
+        [{"title": "Pacifica Radio Archives: Serling, Rod (subject listing)", "url": "https://pacificaradioarchives.org/subject-tags/serling-rod"}],
+        "Serling on his science-fiction writing, in his own voice.", "related", "maybe",
+        "An interview rather than a lecture and only available by request; keep if you want every recording of Serling.",
+        details={"date": "1970-03-13", "station": "KPFK, Los Angeles", "archive_id": "Pacifica BB5150"},
+        media=[{"type": "audio", "title": "Pacifica Radio Archives BB5150", "url": "https://pacificaradioarchives.org/subject-tags/serling-rod",
+                "host": "Pacifica Radio Archives", "date": "1970-03-13", "rights": "link-only", "note": "Catalogue entry; copies by request."}],
+        cat="lectures/interviews-conversations", conf="medium")
+
 # ------------------------------------------------------------------ write
 SUB = {"in-story": "In-story places", "event-venue": "Lecture and event venues", "filming-location": "Filming locations",
        "serling-place": "Rod Serling's places", "premiere": "Premieres", "marathon": "Broadcasts and marathons",
        "broadcast": "Broadcasts and marathons", "trial": "Accident and trial", "exhibition": "Exhibitions",
        "anniversary": "Anniversaries and festivals", "festival": "Anniversaries and festivals", "history": "History",
        "lectures/serling-lectures": "Rod Serling's lectures", "lectures/academic": "Academic talks",
-       "lectures/classroom": "In the classroom", "lectures/readings-panels": "Readings and panels"}
+       "lectures/classroom": "In the classroom", "lectures/readings-panels": "Readings and panels", "lectures/interviews-conversations": "Interviews and conversations"}
 
 
 def subcat(coll, d):
