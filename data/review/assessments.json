@@ -18611,6 +18611,18 @@
   "subcategory": "Filming locations",
   "sort": "death valley national park"
  },
+ "locations/desolation-canyon-death-valley": {
+  "connection": "A specific filming spot used by three episodes.",
+  "tier": "core",
+  "tier_reason": "A place where the show itself was made or is celebrated.",
+  "recommendation": "include",
+  "reason": "Documented by location researchers with photographs; medium confidence because no studio record confirms it.",
+  "source_title": "Lightpainter: Twilight Zone On Location, part 1 (Paul Giammarco, 2012)",
+  "source_url": "https://www.lightpainter.us/2012/11/twilight-zone-on-location-part-1/",
+  "title": "Desolation Canyon, Death Valley",
+  "subcategory": "Filming locations",
+  "sort": "desolation canyon death valley"
+ },
  "locations/downtown-vancouver-ovation": {
   "connection": "Downtown Vancouver (\"Ovation\") (Vancouver, British Columbia) was used for “Ovation” (2019).",
   "tier": "core",
@@ -19618,6 +19630,18 @@
   "title": "WLW Radio and WKRC-TV, Cincinnati",
   "subcategory": "Rod Serling's places",
   "sort": "wlw radio and wkrctv cincinnati"
+ },
+ "locations/zabriskie-point-death-valley": {
+  "connection": "A specific, visitable filming spot inside the Death Valley location.",
+  "tier": "core",
+  "tier_reason": "A place where the show itself was made or is celebrated.",
+  "recommendation": "include",
+  "reason": "Lets visitors stand where the episodes were shot; pairs with the park-wide Death Valley record.",
+  "source_title": "Lightpainter: Twilight Zone On Location, part 1 (Paul Giammarco, 2012)",
+  "source_url": "https://www.lightpainter.us/2012/11/twilight-zone-on-location-part-1/",
+  "title": "Zabriskie Point, Death Valley",
+  "subcategory": "Filming locations",
+  "sort": "zabriskie point death valley"
  },
  "magazines/cinefantastique-vol-15-4": {
   "connection": "October 1985 issue (cover story 'Return of the Living Dead') whose contents include coverage of the new CBS Twilight Zone series that premiered that fall.",
@@ -21456,7 +21480,7 @@
   "sort": "ethan embry"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -30047,6 +30071,18 @@
   "subcategory": "Other",
   "sort": "fans guide to rod serling audiobook"
  },
+ "works/fathom-60th-anniversary-screenings-2019": {
+  "connection": "The series' official 60th-anniversary event.",
+  "tier": "core",
+  "tier_reason": "An event in the history of The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "An official, national anniversary event with a documented line-up.",
+  "source_title": "Boxoffice Pro: Fathom Events celebrates 60th anniversary of The Twilight Zone",
+  "source_url": "https://www.boxofficepro.com/fathom-events-celebrates-60th-anniversary-of-the-twilight-zone-with-classic-episodes/",
+  "title": "The Twilight Zone: A 60th Anniversary Celebration in cinemas (2019)",
+  "subcategory": "Anniversaries and festivals",
+  "sort": "twilight zone a 000060th anniversary celebration in cinemas 002019"
+ },
  "works/filming-on-the-mgm-backlot-culver-city": {
   "connection": "Most film-shot episodes were made at MGM in Culver City.",
   "tier": "core",
@@ -30730,6 +30766,18 @@
   "title": "Twilight Zone: Rod Serling's Lost Classics airs (1994)",
   "subcategory": "Premieres",
   "sort": "twilight zone rod serlings lost classics airs 001994"
+ },
+ "works/madigan-serling-100th-birthday-2024": {
+  "connection": "A centennial talk about the show and its creator.",
+  "tier": "core",
+  "tier_reason": "A talk or class about The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "A dated academic talk for the centennial.",
+  "source_title": "St. John Fisher University event listing",
+  "source_url": "https://www.sjf.edu/events/twilight-zone-and-its-creator-rod-serlings-100th-birthday.php",
+  "title": "\"Twilight Zone and Its Creator Rod Serling's 100th Birthday\" (Tim Madigan, 2024)",
+  "subcategory": "Academic talks",
+  "sort": "twilight zone and its creator rod serlings 000100th birthday tim madigan 002024"
  },
  "works/manhattan-transfer-twilight-zone-twilight-tone": {
   "connection": "The vocal group's disco-jazz single opens with the Constant motif and a Serling-style narration before turning into an original song, becoming a hit in the US and UK in 1980 and the franchise's best-known charting cover.",
@@ -31810,6 +31858,18 @@
   "title": "Rod Serling seminar with Ithaca College students (1972)",
   "subcategory": "In the classroom",
   "sort": "rod serling seminar with ithaca college students 001972"
+ },
+ "works/serling-kpfk-interview-1970": {
+  "connection": "Serling on his science-fiction writing, in his own voice.",
+  "tier": "related",
+  "tier_reason": "A talk by Rod Serling, or about him, in his own voice or legacy.",
+  "recommendation": "maybe",
+  "reason": "An interview rather than a lecture and only available by request; keep if you want every recording of Serling.",
+  "source_title": "Pacifica Radio Archives: Serling, Rod (subject listing)",
+  "source_url": "https://pacificaradioarchives.org/subject-tags/serling-rod",
+  "title": "Rod Serling interviewed by Mark Davidson, KPFK (1970)",
+  "subcategory": "Interviews and conversations",
+  "sort": "rod serling interviewed by mark davidson kpfk 001970"
  },
  "works/serling-library-of-congress-lecture-1968": {
   "connection": "A formal Serling lecture on writing for television.",
