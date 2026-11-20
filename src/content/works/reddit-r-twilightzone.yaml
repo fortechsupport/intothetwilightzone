@@ -1,0 +1,16 @@
+title: r/TwilightZone
+kind: fan-community
+subtype: subreddit
+description: Reddit's main Twilight Zone community. Fans discuss every era of the franchise there and regularly
+  post their own art, collectibles and episode tributes.
+details:
+  platform: Reddit
+links:
+  home: https://www.reddit.com/r/TwilightZone/
+sources:
+- title: reddit.sudovanilla.org
+  url: https://reddit.sudovanilla.org/r/TwilightZone
+- title: r-weld.vercel.app
+  url: https://r-weld.vercel.app/r/TwilightZone
+research_confidence: medium
+last_verified: '2026-11-19'

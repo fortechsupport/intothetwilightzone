@@ -1,0 +1,14 @@
+title: The Twilight Zone Radio Show!
+series_title: The Twilight Zone Radio Dramas
+voiced_by:
+- Stacy Keach
+description: A podcast-style feed, carried on Audible and iHeart, that re-presents the Stacy Keach radio dramas
+  one story per episode (for example "Dust" and "Execution"). It is a redistribution channel rather than new production.
+subtype: radio-broadcast
+sources:
+- title: audible.com.au
+  url: https://www.audible.com.au/podcast/The-Twilight-Zone-Radio-Show/episodes/B0CNS8R25G
+- title: iheart.com
+  url: https://www.iheart.com/podcast/53-the-twilight-zone-radio-sho-129671000/episode/dust-129774246
+research_confidence: medium
+last_verified: '2026-11-19'

@@ -1,0 +1,24 @@
+title: 'The Pinball Arcade: Twilight Zone table'
+kind: game
+subtype: game-appearance
+year: 2013
+creator: FarSight Studios
+publisher: FarSight Studios
+description: FarSight Studios' licensed digital recreation of the 1993 Bally table for The Pinball Arcade, released
+  on 5 February 2013 for PlayStation 3 and PS Vita and later on other platforms. FarSight ran a 2012 Kickstarter
+  to help pay for the Twilight Zone licence. The table was delisted in mid-2018 when the Williams/Bally licence
+  lapsed.
+details:
+  platforms:
+  - PlayStation 3
+  - PS Vita
+  licensed: true
+sources:
+- title: blog.playstation.com
+  url: https://blog.playstation.com/2013/02/05/pinball-arcade-twilight-zone-table-out-today/
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_(pinball)
+- title: venturebeat.com
+  url: https://venturebeat.com/2012/05/20/twilight-zone-pinball
+research_confidence: high
+last_verified: '2026-11-19'

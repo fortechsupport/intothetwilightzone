@@ -1,0 +1,27 @@
+title: The Twilight Zone
+kind: game
+subtype: video-game
+year: 1988
+creator: Gigabit Systems, Inc.
+publisher: First Row Software Publishing
+description: A licensed text-and-graphics adventure built like a self-contained episode of Serling's series, with
+  the player typing verb-noun commands and stepping between first-person illustrated locations. Developed by Gigabit
+  Systems and published by First Row Software in December 1988.
+details:
+  platforms:
+  - DOS
+  - Amiga
+  licensed: true
+ids:
+  mobygames: '4095'
+sources:
+- title: archive.org
+  url: https://archive.org/details/msdos_Twilight_Zone_1988
+- title: MobyGames
+  url: https://www.mobygames.com/game/4095/the-twilight-zone/
+- title: elisoftware.org
+  url: https://elisoftware.org/wiki/Twilight_Zone_(Amiga,_3_1/2%22_Disk)_First_Row_Software_-_1988_USA,_Canada_Release
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(franchise)
+research_confidence: high
+last_verified: '2026-11-19'

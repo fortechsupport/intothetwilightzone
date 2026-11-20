@@ -1,0 +1,9 @@
+from: songs/furozh-at-the-park
+to: 1959/no-time-like-the-past
+kind: reference
+confidence: fan-noted
+evidence: The beat samples dialogue from the time-travel episode in which a man tries to change history.
+sources:
+- title: whosampled.com
+  url: https://www.whosampled.com/sample/705933/Furozh-At-the-Park-The-Twilight-Zone-No-Time-Like-the-Past/
+last_verified: '2026-11-19'

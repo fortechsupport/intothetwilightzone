@@ -1,0 +1,25 @@
+title: Twilight Zone (pinball)
+kind: game
+subtype: pinball
+year: 1993
+creator: Midway Manufacturing
+publisher: Bally
+description: 'Midway''s widebody pinball machine, sold under the Bally name, conceived by Pat Lawlor and stuffed
+  with references to the original series: a Powerfield magnetic mini-playfield, a working gumball machine, a ceramic
+  "Powerball", and a slot machine kickout. Widely ranked among the most complex and best-loved pinball machines
+  ever made, it is the franchise''s best-known game.'
+details:
+  platforms:
+  - arcade
+  designer: Pat Lawlor, Larry DeMar, Ted Estes (design); John Youssi (art)
+  licensed: true
+ids:
+  ipdb: '2684'
+  wikipedia: Twilight_Zone_(pinball)
+sources:
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_(pinball)
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(franchise)
+research_confidence: high
+last_verified: '2026-11-19'

@@ -1,0 +1,14 @@
+title: TVmaze – The Twilight Zone (2019)
+kind: link
+subtype: database
+publisher: TVmaze
+description: Episode guide and air dates for the Jordan Peele revival.
+details:
+  status: active
+links:
+  official: https://www.tvmaze.com/shows/33153/the-twilight-zone-2019
+sources:
+- title: tvmaze.com
+  url: https://www.tvmaze.com/shows/33153/the-twilight-zone-2019
+research_confidence: high
+last_verified: '2026-11-19'

@@ -1,0 +1,9 @@
+from: songs/the-linda-lindas-talking-to-myself
+to: 1959/living-doll
+kind: reference
+confidence: documented
+evidence: The black-and-white music video riffs on the Talky Tina episode, with dolls that turn on the band.
+sources:
+- title: tvtropes.org
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959
+last_verified: '2026-11-19'

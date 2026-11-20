@@ -1,0 +1,14 @@
+title: IMDb – Rod Serling
+kind: link
+subtype: database
+publisher: IMDb (Amazon)
+description: Filmography and trivia page for Serling.
+details:
+  status: active
+links:
+  official: https://www.imdb.com/name/nm0785245/
+sources:
+- title: imdb.com:443
+  url: https://www.imdb.com:443/name/nm0785245/trivia/
+research_confidence: high
+last_verified: '2026-11-19'

@@ -1,0 +1,10 @@
+from: songs/mono-puff-to-serve-mankind
+to: 1959/to-serve-man
+kind: reference
+confidence: documented
+evidence: The instrumental's title is a one-word stretch of the famous cookbook episode, and the band's video for
+  another album track features a performer dressed as that episode's Kanamit alien.
+sources:
+- title: tmbw.net
+  url: https://tmbw.net/wiki/To_Serve_Mankind
+last_verified: '2026-11-19'

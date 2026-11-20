@@ -1,0 +1,14 @@
+title: Wikipedia – The Twilight Zone
+kind: link
+subtype: reference
+publisher: Wikimedia Foundation
+description: Overview article for the whole franchise, linking to each series, the film, episode lists and adaptations.
+details:
+  status: active
+links:
+  official: https://en.wikipedia.org/wiki/The_Twilight_Zone
+sources:
+- title: wikiwand.com
+  url: https://wikiwand.com/EN/The_Twilight_Zone
+research_confidence: high
+last_verified: '2026-11-19'
