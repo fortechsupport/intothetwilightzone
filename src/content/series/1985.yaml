@@ -127,6 +127,13 @@ history:
   sources:
   - title: Wikipedia - List of The Twilight Zone (1985 TV series) episodes
     url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- date: '2017-02-07'
+  title: Complete series on DVD
+  text: CBS and Paramount released all three seasons in one DVD set, with audio commentaries on some episodes, a conversation
+    with Wes Craven, deleted scenes, photo galleries and the original CBS bumpers.
+  sources:
+  - title: 'Salt Lake City Weekly: Stepping back into the ''80s Twilight Zone (2017-02-15)'
+    url: https://cityweekly.net/BuzzBlog/archives/2017/02/15/stepping-back-into-the-80s-twilight-zone
 sources:
 - title: Wikipedia - The Twilight Zone (1985 TV series)
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
@@ -142,3 +149,9 @@ media:
   url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
   duration: '3:04'
   note: The 1988 season remade his "A Game of Pool" with his original ending.
+- type: article
+  subtype: retrospective
+  title: 6 reasons you should not sleep on the 1985 version of The Twilight Zone
+  url: https://metv.com/lists/6-reasons-you-should-not-sleep-on-the-1985-version-of-the-twilight-zone
+  host: MeTV
+  rights: link-only

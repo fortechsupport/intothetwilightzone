@@ -47,8 +47,13 @@ def merge_list(old, new):
     seen = [yaml.safe_dump(x, sort_keys=True) for x in out]
     for x in new:
         k = yaml.safe_dump(x, sort_keys=True)
-        if isinstance(x, dict) and 'url' in x:
-            if any(isinstance(o, dict) and o.get('url') == x.get('url') and o.get('title') == x.get('title') for o in out):
+        if isinstance(x, dict) and 'title' in x:
+            # Same title (and same url, when both have one) = same item: the newer version wins.
+            hit = [i for i, o in enumerate(out) if isinstance(o, dict) and o.get('title') == x.get('title')
+                   and o.get('url') == x.get('url')]
+            if hit:
+                out[hit[0]] = x
+                seen[hit[0]] = k
                 continue
         if k not in seen:
             out.append(x)

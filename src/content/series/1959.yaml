@@ -71,12 +71,41 @@ history:
     url: https://lantern.mediahist.org/catalog/variety214-1959-03_0111
 - date: '2010-09-14'
   title: Definitive Blu-ray sets with archival extras
-  text: Image Entertainment's Blu-ray season sets (September 2010 to August 2011) added isolated scores, new cast interviews,
-    Marc Scott Zicree's 1978 audio interviews with the makers, Serling's 1975 Sherwood Oaks lecture, the unaired version
-    of the pilot, and Twilight Zone Radio Drama adaptations.
+  text: Image Entertainment's Blu-ray season sets (2010-11), reissued by Paramount in 2016, carry commentaries by Marc
+    Scott Zicree, historians and cast members such as Leonard Nimoy and Bill Mumy, isolated scores, new interviews, Zicree's
+    1978 audio interviews, Serling's 1975 Sherwood Oaks lecture, the unaired pilot cut and 82 radio adaptations.
   sources:
   - title: Moviefone (TMDB data) - The Twilight Zone specials list
     url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  - title: 'Why So Blu: The Twilight Zone: The Complete Series Blu-ray review (2016-12-11)'
+    url: https://whysoblu.com/?p=114393
+- date: '1960'
+  title: Hugo Award and Emmy for the first season
+  text: The series won the Hugo Award for Best Dramatic Presentation for 1960, and Serling won the Emmy for Outstanding
+    Writing Achievement in Drama. It won the Hugo again in 1961 and 1962, a three-time record matched only by Doctor
+    Who in 2008.
+  sources:
+  - &id001
+    title: Wikipedia - The Twilight Zone (1959 TV series)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone
+- date: '1961-05-09'
+  title: Named in the "vast wasteland" speech
+  text: In his speech "Television and the Public Interest", FCC chairman Newton Minow singled out The Twilight Zone as
+    one of the few programs that showed what television could be.
+  sources:
+  - *id001
+- date: '1964'
+  title: Serling turns down an ABC horror series
+  text: As the show ended, ABC offered Serling a horror anthology to be called "Witches, Warlocks and Werewolves". He
+    declined, reportedly unwilling to do a series built only on horror.
+  sources:
+  - *id001
+- date: '2013'
+  title: Ranked among the best-written series ever
+  text: The Writers Guild of America ranked it the third best-written television series of all time. TV Guide had placed
+    it 26th among the 50 greatest shows in 2002, and Rolling Stone ranked it 7th in 2016.
+  sources:
+  - *id001
 international_titles:
 - country: France
   language: French

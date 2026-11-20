@@ -318,6 +318,12 @@ series/1985:
   url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
   duration: '3:04'
   note: The 1988 season remade his "A Game of Pool" with his original ending.
+- type: article
+  subtype: retrospective
+  title: 6 reasons you should not sleep on the 1985 version of The Twilight Zone
+  url: https://metv.com/lists/6-reasons-you-should-not-sleep-on-the-1985-version-of-the-twilight-zone
+  host: MeTV
+  rights: link-only
 series/2019:
 - type: video
   subtype: trailer
@@ -815,3 +821,40 @@ series/2019:
   host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
   date: '2010-09-14'
   rights: licensed
+series/2002:
+- type: interview
+  subtype: retrospective-interview
+  title: '''The Twilight Zone'' producer on short-lived revival 20 years later: ''They did not know what they wanted'''
+  url: https://syfy.com/syfy-wire/twilight-zone-2002-upn-revival-producer-ira-behr-interview
+  host: SYFY WIRE
+  rights: link-only
+  date: '2022'
+  note: Showrunner Ira Steven Behr looks back on making the UPN series.
+- type: article
+  subtype: retrospective
+  title: The Twilight Zone's 2002 revival was doomed from the start, thanks to network interference
+  url: https://slashfilm.com/1407362/the-twilight-zone-2002-upn-revival-network-interference
+  host: /Film
+  rights: link-only
+- type: article
+  subtype: retrospective
+  title: '''The Twilight Zone'' 20 years later: remembering UPN''s 2002 revival'
+  url: https://www.syfy.com/syfy-wire/the-twilight-zone-remembering-2002-upn-tv-revival
+  host: SYFY WIRE
+  rights: link-only
+  date: '2022'
+- type: article
+  subtype: retrospective
+  title: 'TV Terrors: remembering the 2002 revival of The Twilight Zone'
+  url: https://www.bloody-disgusting.com/tv/3554267/tv-terrors-remember-2002-revival-twilight-zone/
+  host: Bloody Disgusting
+  rights: link-only
+2019/the-comedian:
+- type: article
+  subtype: news
+  title: CBS releases the full premiere episode free on YouTube
+  url: https://www.slashfilm.com/565378/the-twilight-zone-first-episode/
+  host: /Film
+  rights: link-only
+  date: 2019-04
+  note: CBS All Access put "The Comedian" on YouTube for anyone to watch at launch.

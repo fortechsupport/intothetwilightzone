@@ -51,3 +51,31 @@ history:
 sources:
 - title: Wikipedia - The Twilight Zone (2002 TV series)
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+media:
+- type: interview
+  subtype: retrospective-interview
+  title: '''The Twilight Zone'' producer on short-lived revival 20 years later: ''They did not know what they wanted'''
+  url: https://syfy.com/syfy-wire/twilight-zone-2002-upn-revival-producer-ira-behr-interview
+  host: SYFY WIRE
+  rights: link-only
+  date: '2022'
+  note: Showrunner Ira Steven Behr looks back on making the UPN series.
+- type: article
+  subtype: retrospective
+  title: The Twilight Zone's 2002 revival was doomed from the start, thanks to network interference
+  url: https://slashfilm.com/1407362/the-twilight-zone-2002-upn-revival-network-interference
+  host: /Film
+  rights: link-only
+- type: article
+  subtype: retrospective
+  title: '''The Twilight Zone'' 20 years later: remembering UPN''s 2002 revival'
+  url: https://www.syfy.com/syfy-wire/the-twilight-zone-remembering-2002-upn-tv-revival
+  host: SYFY WIRE
+  rights: link-only
+  date: '2022'
+- type: article
+  subtype: retrospective
+  title: 'TV Terrors: remembering the 2002 revival of The Twilight Zone'
+  url: https://www.bloody-disgusting.com/tv/3554267/tv-terrors-remember-2002-revival-twilight-zone/
+  host: Bloody Disgusting
+  rights: link-only

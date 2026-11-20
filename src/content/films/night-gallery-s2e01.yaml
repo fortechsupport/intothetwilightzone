@@ -6,8 +6,8 @@ release_date: '1971-09-15'
 runtime_min: 50
 segments:
 - title: The Boy Who Predicted Earthquakes
-  summary: A boy whose predictions are always right becomes a television sensation, until he foresees something
-    he will not reveal.
+  summary: A boy whose predictions are always right becomes a television sensation, until he foresees something he will
+    not reveal.
   source_title: The Boy Who Predicted Earthquakes
   source_authors:
   - Margaret St. Clair
@@ -61,3 +61,6 @@ research_confidence: high
 relevance: related
 last_verified: '2026-11-19'
 locked: true
+summary: 'A Night Gallery hour of four stories: "The Boy Who Predicted Earthquakes" (from Margaret St. Clair), "Miss
+  Lovecraft Sent Me", "The Hand of Borgus Weems" (from George Langelaan) and "Phantom of What Opera?". In the first,
+  a boy whose predictions are always right becomes a television sensation, until he foresees something he will not reveal.'
