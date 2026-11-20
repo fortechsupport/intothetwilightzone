@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import TodayPanel from '../components/fan/TodayPanel.astro';
 import { catalog, countOf, mediaLibrary } from '../lib/catalog';
 import { SECTIONS, GROUPS, groupHref, LIBRARY_TYPES } from '../lib/taxonomy.mjs';
 const cat = await catalog();
@@ -24,6 +25,17 @@ const jsonld = {
       they went on to inspire. Fan-curated, sourced, and free of advertising.
     </p>
   </section>
+
+  <nav class="fan-ctas" aria-label="Ways in" data-pagefind-ignore>
+    <a class="cta primary" href="/start/">New to the Zone? Start here</a>
+    <a class="cta" href="/paths/">Viewing paths</a>
+    <a class="cta" href="/finder/">Episode finder</a>
+    <a class="cta" href="/map/">Map</a>
+    <a class="cta" href="/timeline/">Timeline</a>
+    <a class="cta" href="/degrees/">Six degrees</a>
+    <a class="cta" href="/my-zone/">My Zone</a>
+  </nav>
+  <TodayPanel compact />
 
   <h2>People, places and organizations</h2>
   <p class="small muted">The directories everything else links to. Each has a sortable, filterable index showing every page an entry appears on.</p>

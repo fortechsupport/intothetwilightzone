@@ -1,4 +1,6 @@
 ---
+import TrackButtons from '../../components/fan/TrackButtons.astro';
+import { trackFor } from '../../lib/fan/contribute';
 import Base from '../../layouts/Base.astro';
 import InCategories from '../../components/InCategories.astro';
 import Media from '../../components/Media.astro';
@@ -28,6 +30,7 @@ const jsonld = {
 <Base title={d.title} description={`${d.title} and its connection to The Twilight Zone.`} jsonld={jsonld}>
   <InCategories recKey={`films/${f.id}`} />
   <h1>{d.title}</h1>
+  {(() => { const t = trackFor('films', (d as any).kind); return (t.seen || t.own) && <TrackButtons recKey={`films/${f.id}`} seen={t.seen} own={t.own} />; })()}
   {d.parent_series && <p class="muted">{d.parent_series}</p>}
   {d.relevance && d.relevance !== 'core' && <p class="small"><span class="tag">{d.relevance === 'related' ? 'Related to The Twilight Zone' : 'Tangential to The Twilight Zone'}</span></p>}
   {d.summary && <p class="lead">{d.summary}</p>}

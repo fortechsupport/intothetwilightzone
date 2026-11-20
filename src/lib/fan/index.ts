@@ -81,7 +81,7 @@ export async function relatedEpisodes(e: Episode, limit = 6) {
 export function watchLinks(e: Episode) {
   const show = e.data.series === '1959' ? 'The Twilight Zone 1959' : `The Twilight Zone ${e.data.series}`;
   return {
-    justwatch: `https://www.justwatch.com/us/search?q=${encodeURIComponent(show)}`,
+    justwatch: e.data.links?.justwatch ?? `https://www.justwatch.com/us/search?q=${encodeURIComponent(show)}`,
     reelgood: `https://reelgood.com/search?q=${encodeURIComponent('The Twilight Zone')}`,
     homeMedia: `/series/${e.data.series}/#releases`,
   };

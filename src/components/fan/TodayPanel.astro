@@ -22,7 +22,7 @@ const { compact = false } = Astro.props;
   const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   // A fixed shuffle seeded by the date: every visitor sees the same episode on the same day.
   function dayNumber(d: Date) { return Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000); }
-  function pick<T>(list: T[], day: number) { let x = (day * 2654435761) >>> 0; x ^= x >>> 15; return list[x % list.length]; }
+  function pick<T>(list: T[], day: number) { let x = Math.imul(day, 2654435761) >>> 0; x = (x ^ (x >>> 15)) >>> 0; return list[x % list.length]; }
 
   async function render(root: HTMLElement, date: Date) {
     const [eps, ans]: [Ep[], An[]] = await Promise.all([fetch('/fan/episodes.json').then((r) => r.json()), fetch('/fan/anniversaries.json').then((r) => r.json())]);
@@ -30,12 +30,12 @@ const { compact = false } = Astro.props;
     const md = `${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
     root.querySelector('.today-date')!.textContent = `· ${MONTHS[date.getMonth()]} ${date.getDate()}`;
     const e = pick(eps, dayNumber(date));
-    root.querySelector('.eotd-body')!.innerHTML = `<h3><a href="/episodes/${e.id}/">${esc(e.t)}</a></h3><p class="small muted">${e.s} series, ${e.n}${e.d ? ' · first aired ' + e.d.slice(0, 4) : ''} · written by ${esc(e.w.join(', ') || 'unknown')}</p><p>${esc(e.sy)}</p>` +
+    root.querySelector('.eotd-body')!.innerHTML = `<h3><a href='/episodes/${e.id}/'>${esc(e.t)}</a></h3><p class="small muted">${e.s} series, ${e.n}${e.d ? ' · first aired ' + e.d.slice(0, 4) : ''} · written by ${esc(e.w.join(', ') || 'unknown')}</p><p>${esc(e.sy)}</p>` +
       `<p data-mark="episodes/${e.id}"><button type="button" class="mini" data-track="watched" data-key="episodes/${e.id}" aria-pressed="false"><span aria-hidden="true" class="tick"></span>Watched</button></p>`;
     const today = ans.filter((a) => a.md === md);
     const shown = compact ? today.slice(0, 6) : today;
     root.querySelector('.otd-list')!.innerHTML = shown.length
-      ? shown.map((a) => `<li><span class="tag">${a.y}</span> <a href="${a.u}">${esc(a.t)}</a> <span class="muted">· ${esc(a.k)}</span></li>`).join('') + (compact && today.length > shown.length ? `<li class="muted">and ${today.length - shown.length} more</li>` : '')
+      ? shown.map((a) => `<li><span class="tag">${a.y}</span> <a href='${a.u}'>${esc(a.t)}</a> <span class="muted">· ${esc(a.k)}</span></li>`).join('') + (compact && today.length > shown.length ? `<li class="muted">and ${today.length - shown.length} more</li>` : '')
       : `<li class="muted">Nothing in our records on ${MONTHS[date.getMonth()]} ${date.getDate()} yet.</li>`;
     document.dispatchEvent(new Event('tz:repaint'));
   }

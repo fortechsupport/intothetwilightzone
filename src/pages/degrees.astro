@@ -47,7 +47,7 @@ const top = await mostConnected(30);
       for (let cur = b; cur !== a; cur = prev.get(cur)![0]) chain.unshift({ p: cur, w: prev.get(cur)![1] });
       return chain;
     }
-    function person(i: number) { return `<a href="/people/${g.people[i][1]}/">${esc(g.people[i][0])}</a>`; }
+    function person(i: number) { return `<a href='/people/${g.people[i][1]}/'>${esc(g.people[i][0])}</a>`; }
     function show(aName: string, bName: string) {
       const a = find(aName), b = find(bName);
       if (a === undefined || b === undefined) { out.innerHTML = `<p class="notice">${esc(a === undefined ? aName : bName)} isn't in the on-screen credits we hold. Pick a name from the suggestions.</p>`; return; }
@@ -55,7 +55,7 @@ const top = await mostConnected(30);
       const chain = bfs(a, b);
       if (!chain) { out.innerHTML = `<p class="notice">No chain of shared credits connects ${person(a)} and ${person(b)} in our records.</p>`; return; }
       out.innerHTML = `<p class="deg-n"><strong>${chain.length}</strong> degree${chain.length > 1 ? 's' : ''} of separation</p><ol class="deg-chain"><li>${person(a)}</li>` +
-        chain.map((s) => `<li><span class="muted small">in</span> <a href="${g.works[s.w][1]}">${esc(g.works[s.w][0])}</a> <span class="muted small">with</span> ${person(s.p)}</li>`).join('') + '</ol>';
+        chain.map((s) => `<li><span class="muted small">in</span> <a href='${g.works[s.w][1]}'>${esc(g.works[s.w][0])}</a> <span class="muted small">with</span> ${person(s.p)}</li>`).join('') + '</ol>';
       history.replaceState(null, '', `?a=${encodeURIComponent(aName)}&b=${encodeURIComponent(bName)}`);
     }
     fetch('/fan/people-graph.json').then((r) => r.json()).then((data: G) => {

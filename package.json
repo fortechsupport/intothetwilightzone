@@ -17,7 +17,8 @@
     "assess": "python3 scripts/assess.py"
   },
   "dependencies": {
-    "astro": "^7.4.13"
+    "astro": "^7.4.13",
+    "leaflet": "^1.9.4"
   },
   "devDependencies": {
     "pagefind": "^1.6.0",

@@ -105,7 +105,7 @@ const seasons = [...new Set(rows.map((r) => r.se))].sort((a, b) => a - b);
         (!q || norm(`${r.t} ${r.sy}`).includes(q)));
       hits.sort(sort === 'aired' ? (a, b) => a.d.localeCompare(b.d) : (a, b) => sortKey(a.t).localeCompare(sortKey(b.t)));
       count.textContent = `${hits.length} of ${rows.length} episodes`;
-      out.innerHTML = hits.slice(0, 400).map((r) => `<li data-mark="episodes/${r.id}"><a href="/episodes/${r.id}/"><strong>${esc(r.t)}</strong></a> <span class="muted small">${r.s} series, ${r.n}${r.d ? ' · ' + r.d.slice(0, 4) : ''}</span><span class="seen-mark" aria-hidden="true"></span>` +
+      out.innerHTML = hits.slice(0, 400).map((r) => `<li data-mark="episodes/${r.id}"><a href='/episodes/${r.id}/'><strong>${esc(r.t)}</strong></a> <span class="muted small">${r.s} series, ${r.n}${r.d ? ' · ' + r.d.slice(0, 4) : ''}</span><span class="seen-mark" aria-hidden="true"></span>` +
         `<div class="small">${esc(r.sy.length > 220 ? r.sy.slice(0, 217).replace(/\s+\S*$/, '') + '…' : r.sy)}</div>` +
         `<div class="small muted">Written by ${esc([...r.w].join(', ') || 'unknown')}${r.di.length ? ' · Directed by ' + esc(r.di.join(', ')) : ''}${r.th.length ? ' · ' + esc(r.th.join(', ')) : ''}</div></li>`).join('') +
         (hits.length > 400 ? `<li class="muted">Showing the first 400. Add a filter to narrow the list.</li>` : '');

@@ -1,4 +1,6 @@
 ---
+import TrackButtons from '../../components/fan/TrackButtons.astro';
+import { trackFor } from '../../lib/fan/contribute';
 import Base from '../../layouts/Base.astro';
 import InCategories from '../../components/InCategories.astro';
 import Media from '../../components/Media.astro';
@@ -26,6 +28,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'CreativeWork', name
 <Base title={d.title} description={d.description ?? `${d.title}: ${KIND_LABEL[d.kind] ?? d.kind} connected to The Twilight Zone.`} jsonld={jsonld}>
   <InCategories recKey={`works/${w.id}`} />
   <h1>{d.title}</h1>
+  {(() => { const t = trackFor('works', (d as any).kind); return (t.seen || t.own) && <TrackButtons recKey={`works/${w.id}`} seen={t.seen} own={t.own} />; })()}
   {d.subtype && <p class="muted">{humanize(d.subtype)}</p>}
   {d.description && <p class="lead">{d.description}</p>}
   <dl class="facts">

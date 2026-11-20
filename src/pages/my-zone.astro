@@ -54,7 +54,7 @@ import { SERIES_LABEL } from '../lib/fan';
     function list(id: string, keys: string[]) {
       const items = keys.map((k) => ({ k, ...label(k) })).sort((a, b) => a.cat.localeCompare(b.cat) || sortKey(a.title).localeCompare(sortKey(b.title)));
       document.getElementById(`${id}-n`)!.textContent = String(items.length);
-      document.getElementById(id)!.innerHTML = items.length ? items.map((i) => `<li>${i.href ? `<a href="${i.href}">${esc(i.title)}</a>` : esc(i.title)} <span class="muted small">· ${esc(i.cat)}</span></li>`).join('') : '<li class="muted">Nothing yet. Look for the buttons near the top of any page.</li>';
+      document.getElementById(id)!.innerHTML = items.length ? items.map((i) => `<li>${i.href ? `<a href='${i.href}'>${esc(i.title)}</a>` : esc(i.title)} <span class="muted small">· ${esc(i.cat)}</span></li>`).join('') : '<li class="muted">Nothing yet. Look for the buttons near the top of any page.</li>';
     }
     function render() {
       const t = tz().get();

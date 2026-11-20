@@ -30,7 +30,7 @@ const shown = p.ranked ? [...steps].reverse() : steps;
   <p class="lead">{p.intro}</p>
   <p class="path-meta small"><span class="path-progress" data-progress={keys.join(' ')}></span> · Tap <strong>Watched</strong> on each one as you go; your progress stays in this browser. <a href="/my-zone/">My Zone</a></p>
   {p.spoilers && <SpoilerToggle />}
-  <ol class={`path-steps${p.ranked ? ' countdown' : ''}`} reversed={p.ranked ? true : undefined}>
+  <ol class={`path-steps${p.ranked ? ' countdown' : ''}`} reversed={p.ranked ? true : undefined} start={p.ranked ? shown.length : undefined}>
     {shown.map((s) => (
       <li data-mark={`episodes/${s.e.id}`}>
         <div class="step-head">

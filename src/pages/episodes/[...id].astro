@@ -4,6 +4,8 @@ import InCategories from '../../components/InCategories.astro';
 import Media from '../../components/Media.astro';
 import Related from '../../components/Related.astro';
 import Sources from '../../components/Sources.astro';
+import EpisodeActions from '../../components/fan/EpisodeActions.astro';
+import EpisodeExtras from '../../components/fan/EpisodeExtras.astro';
 import { getCollection } from 'astro:content';
 import { allEpisodes, formatDate, episodeNumber, personUrl, resolveRef, CONNECTION_LABELS, CONFIDENCE_LABELS, type Episode } from '../../lib/data';
 
@@ -47,6 +49,8 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
   <h1>{d.title}</h1>
   {d.aka.length > 0 && <p class="muted">Also known as {d.aka.join(', ')}</p>}
   <p class="muted" data-pagefind-meta="series">{seriesTitle} ({d.series}) · Season {d.season}, episode {d.episode}</p>
+  <div hidden data-pagefind-ignore><span data-pagefind-filter="Series">{d.series} series</span>{d.air_date && <span data-pagefind-filter="Decade">{d.air_date.slice(0, 3)}0s</span>}{[...d.writers, ...d.source_authors].map((n) => <span data-pagefind-filter="Writer">{n}</span>)}{d.themes.map((t) => <span data-pagefind-filter="Theme">{t}</span>)}</div>
+  <EpisodeActions id={e.id} />
 
   <dl class="facts">
     {d.air_date && <><dt>First aired</dt><dd>{formatDate(d.air_date)}</dd></>}
@@ -64,6 +68,7 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
   ) : (
     <p class="notice">A synopsis for this episode has not been written yet.</p>
   )}
+  <EpisodeExtras e={e} />
 
   {d.trivia.length > 0 && (
     <section>
@@ -128,7 +133,7 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
   )}
 
   <section>
-    <h2>Watch and read more</h2>
+    <h2>More about this episode elsewhere</h2>
     <ul>
       {d.ids?.imdb && <li><a href={`https://www.imdb.com/title/${d.ids.imdb}/`} rel="noopener">IMDb</a></li>}
       {d.links?.wikipedia && <li><a href={d.links.wikipedia} rel="noopener">Wikipedia</a></li>}
