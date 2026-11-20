@@ -5,6 +5,7 @@
 import Base from '../layouts/Base.astro';
 import InCategories from './InCategories.astro';
 import Media from './Media.astro';
+import Related from './Related.astro';
 import Sources from './Sources.astro';
 import ExtLinks from './ExtLinks.astro';
 import { getCollection } from 'astro:content';
@@ -77,6 +78,7 @@ const targets = await Promise.all(conns.map(async (c) => ({ c, t: await resolveR
   )}
   {d.tags?.length > 0 && <p class="small">{d.tags.map((t: string) => <span class="tag">{t.replace(/-/g, ' ')}</span>)}</p>}
   {(d.ids || d.links || d.url) && <p class="small">{d.url && <><a href={d.url} rel="noopener">Collection page</a>{(d.ids || d.links) && ' · '}</>}<ExtLinks ids={d.ids} links={d.links} /></p>}
+  <Related recKey={key} />
   <Media media={d.media} recKey={key} />
   <Sources sources={d.sources ?? []} verified={d.last_verified} />
 </Base>

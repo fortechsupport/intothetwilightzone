@@ -10,13 +10,14 @@ const preview = reviewMode() !== 'public';
 const { title, description = 'An independent, non-commercial living history of The Twilight Zone: every series, episode, person, and the films, songs and stories it inspired.', jsonld, noindex } = Astro.props;
 const fullTitle = title === 'Home' ? 'IntoTheTwilightZone.com' : `${title} · IntoTheTwilightZone.com`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
-// Main navigation: every category A-Z in a menu (new ones flagged), then the feature pages.
-import { CATEGORIES_AZ, SECTIONS } from '../lib/taxonomy.mjs';
+// Main navigation: the directories (People, Places, Organizations) and the Media Library up top, the
+// category groupings in an Explore menu, then search.
+import { GROUPS, groupHref } from '../lib/taxonomy.mjs';
 const nav = [
-  ['Media library', '/media/'],
-  ['Night Gallery', '/night-gallery/'],
-  ['Rod Serling', '/rod-serling/'],
-  ['Timeline', '/timeline/'],
+  ['People', '/people/'],
+  ['Places', '/places/'],
+  ['Organizations', '/organizations/'],
+  ['Media Library', '/media/'],
   ['Search', '/search/'],
 ];
 const path = Astro.url.pathname;
@@ -48,17 +49,16 @@ const path = Astro.url.pathname;
           <ul>
             <li class="menu">
               <details>
-                <summary>Categories</summary>
+                <summary>Explore</summary>
                 <ul class="menu-list">
-                  <li class="menu-head">People, places and organizations</li>
-                  {SECTIONS.map((c) => (
-                    <li><a href={`/${c.slug}/`} aria-current={path.startsWith(`/${c.slug}/`) ? 'page' : undefined}>{c.title}{c.isNew && <span class="tag new">new</span>}</a></li>
+                  {GROUPS.map((g) => (
+                    <li class="menu-group">
+                      <a class="menu-group-title" href={groupHref(g)}>{g.title}</a>
+                      {(g.categories.length > 1 || g.categories[0].title !== g.title) && <ul>{g.categories.map((c) => <li><a href={`/${c.slug}/`} aria-current={path.startsWith(`/${c.slug}/`) ? 'page' : undefined}>{c.title}{c.isNew && <span class="tag new">new</span>}</a></li>)}</ul>}
+                    </li>
                   ))}
-                  <li class="menu-head">Categories</li>
-                  {CATEGORIES_AZ.map((c) => (
-                    <li><a href={`/${c.slug}/`} aria-current={path.startsWith(`/${c.slug}/`) ? 'page' : undefined}>{c.title}{c.isNew && <span class="tag new">new</span>}</a></li>
-                  ))}
-                  <li class="menu-all"><a href="/categories/">All categories and subcategories</a></li>
+                  <li class="menu-group"><span class="menu-group-title">Features</span><ul><li><a href="/rod-serling/">Rod Serling</a></li><li><a href="/night-gallery/">Night Gallery</a></li><li><a href="/timeline/">Timeline</a></li></ul></li>
+                  <li class="menu-all"><a href="/categories/">Everything, with every subcategory</a></li>
                 </ul>
               </details>
             </li>

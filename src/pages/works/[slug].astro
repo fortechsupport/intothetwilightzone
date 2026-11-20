@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import InCategories from '../../components/InCategories.astro';
 import Media from '../../components/Media.astro';
+import Related from '../../components/Related.astro';
 import Sources from '../../components/Sources.astro';
 import ExtLinks from '../../components/ExtLinks.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
@@ -53,6 +54,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'CreativeWork', name
       </p>
     </section>
   )}
+  <Related recKey={`works/${w.id}`} />
   <Media media={d.media} recKey={`works/${w.id}`} />
   <Sources sources={d.sources} verified={d.last_verified} />
 </Base>

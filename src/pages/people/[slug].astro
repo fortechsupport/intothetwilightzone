@@ -79,6 +79,6 @@ const jsonld = {
       </ul>
     </section>
   ))}
-  <Media media={rec?.media} recKey={`people/${p.slug}`} />
+  <Media recKey={`people/${p.slug}`} skip={["quote"]} />
   {rec && <Sources sources={rec.sources} verified={rec.last_verified} />}
 </Base>

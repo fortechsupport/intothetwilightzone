@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import InCategories from '../../components/InCategories.astro';
 import Media from '../../components/Media.astro';
+import Related from '../../components/Related.astro';
 import Sources from '../../components/Sources.astro';
 import HistoryAndIntl from '../../components/HistoryAndIntl.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
@@ -80,6 +81,7 @@ const jsonld = {
       {d.links?.justwatch && <li><a href={d.links.justwatch.startsWith('http') ? d.links.justwatch : `https://www.justwatch.com/us/movie/${d.links.justwatch}`} rel="noopener">Where to watch (JustWatch)</a></li>}
     </ul>
   </section>
+  <Related recKey={`films/${f.id}`} skip={['people']} />
   <Media media={d.media} recKey={`films/${f.id}`} />
   <Sources sources={d.sources} verified={d.last_verified} />
 </Base>

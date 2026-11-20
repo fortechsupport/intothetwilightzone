@@ -1,0 +1,36 @@
+---
+// For a category or subcategory page: the people, places and organizations most connected to what it
+// lists, and its media and content, each with a link to the full index filtered to this page.
+import { relatedForEntries, mediaForEntries, type Entry } from '../lib/catalog';
+import { LIBRARY_TYPES } from '../lib/taxonomy.mjs';
+interface Props { entries: Entry[]; scope?: string; label: string; skipPeople?: boolean }
+const { entries, scope, label, skipPeople = false } = Astro.props;
+const r = relatedForEntries(entries);
+const media = mediaForEntries(entries);
+const TOP = 16;
+const q = (extra = '') => { const u = new URLSearchParams(); if (scope) u.set('in', scope); if (extra) u.set('type', extra); const t = u.toString(); return t ? `?${t}` : ''; };
+const parts = ([['people', 'People', '/people/'], ['places', 'Places', '/places/'], ['orgs', 'Organizations', '/organizations/']] as const)
+  .filter(([k]) => r[k].length && !(skipPeople && k === 'people'));
+const byType = LIBRARY_TYPES.map(([k, l]) => [k, l, media.filter((m) => m.type === k).length] as const).filter(([, , n]) => n);
+---
+{(parts.length > 0 || media.length > 0) && (
+  <section class="section-summary" data-pagefind-ignore>
+    {parts.length > 0 && <h2>People, places and organizations in {label}</h2>}
+    {parts.map(([k, l, href]) => (
+      <div class="related-part">
+        <h3>{l} <span class="muted small">({r[k].length})</span></h3>
+        <p>{r[k].slice(0, TOP).map((x, i) => <>{i > 0 && ' · '}<a href={x.href}>{x.title}</a>{x.count! > 1 && <span class="count-pill">{x.count}</span>}</>)}
+        {r[k].length > TOP && <> · <a href={`${href}${q()}`}>all {r[k].length} →</a></>}</p>
+      </div>
+    ))}
+    {media.length > 0 && (
+      <>
+        <h2>Media and content in {label} <span class="muted small">({media.length})</span></h2>
+        <p>{byType.map(([k, l, n], i) => <>{i > 0 && ' · '}<a href={`/media/${q(k)}`}>{l}</a> <span class="count-pill">{n}</span></>)} · <a href={`/media/${q()}`}>all in the Media Library →</a></p>
+        <ul class="media-list compact">
+          {media.slice(0, 8).map((m) => <li><span class="tag">{m.typeLabel}</span> <a href={m.href} rel={m.external ? 'noopener' : undefined}>{m.title}</a> <span class="muted small">on {m.on.slice(0, 2).map((o, i) => <>{i > 0 && ', '}{o.href ? <a href={o.href}>{o.title}</a> : o.title}</>)}{m.on.length > 2 && ` +${m.on.length - 2}`}</span></li>)}
+        </ul>
+      </>
+    )}
+  </section>
+)}

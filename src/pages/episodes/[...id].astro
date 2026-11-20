@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import InCategories from '../../components/InCategories.astro';
 import Media from '../../components/Media.astro';
+import Related from '../../components/Related.astro';
 import Sources from '../../components/Sources.astro';
 import { getCollection } from 'astro:content';
 import { allEpisodes, formatDate, episodeNumber, personUrl, resolveRef, CONNECTION_LABELS, CONFIDENCE_LABELS, type Episode } from '../../lib/data';
@@ -134,7 +135,8 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
       {d.links?.justwatch && <li><a href={d.links.justwatch} rel="noopener">Where to watch (JustWatch)</a></li>}
     </ul>
   </section>
-  <Media media={d.media} recKey={`episodes/${e.id}`} />
+  <Related recKey={`episodes/${e.id}`} skip={['people']} inherit={`series/${d.series}`} exclude={places.map((l) => `/places/${l.id}/`)} />
+  <Media recKey={`episodes/${e.id}`} skip={["quote"]} />
 
   <Sources sources={d.sources} verified={d.last_verified} />
 
