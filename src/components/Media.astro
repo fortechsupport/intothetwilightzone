@@ -1,63 +1,40 @@
 ---
-// Media attached to a record: videos, audio, documents, ads, images and links, each with where it is
-// hosted and its rights. Public-domain files kept on this site play inline; everything else is a link.
-// With `recKey`, it also lists the content records attached to this record: advertisements that promoted
-// it, archival holdings about it, and pages about it elsewhere (quotes are shown by the pages themselves).
-import { attachmentsOf } from '../lib/catalog';
-interface M { type: string; subtype?: string; title: string; url: string; host?: string; date?: string; rights?: string; file?: string; duration?: string; note?: string; creator?: string }
-interface Props { media?: M[]; recKey?: string }
-const { media = [], recKey } = Astro.props;
-const attached = recKey ? (await attachmentsOf(recKey)).filter((a) => a.kind !== 'quote') : [];
-const KIND_HEAD: Record<string, string> = { ad: 'Advertisements and sponsorship', holding: 'Archival holdings', link: 'Elsewhere on the web' };
-const attachedGroups = new Map<string, typeof attached>();
-for (const a of attached) {
-  const g = KIND_HEAD[a.kind] ?? a.label;
-  if (!attachedGroups.has(g)) attachedGroups.set(g, []);
-  attachedGroups.get(g)!.push(a);
-}
-const LABEL: Record<string, string> = { video: 'Video', audio: 'Audio', document: 'Documents', transcript: 'Documents', article: 'Articles', interview: 'Interviews', image: 'Images', ad: 'Advertisements', website: 'Links', link: 'Links' };
+// Media and content on a record's page: its own media[] (videos, audio, images, documents...) and the
+// content records attached to it (reviews, interviews, advertisements, archival holdings, links, quotes),
+// grouped by type. Each item shows its credit, source, date and rights, the other pages it appears on,
+// and a link to its entry in the Media Library. Public-domain files kept on this site play inline.
+import { mediaFor } from '../lib/catalog';
+import { LIBRARY_TYPES } from '../lib/taxonomy.mjs';
+interface Props { recKey: string; media?: unknown; skip?: string[] }
+const { recKey, skip = [] } = Astro.props;
+const items = (await mediaFor(recKey)).filter((i) => !skip.includes(i.type));
 const RIGHTS: Record<string, string> = { 'public-domain': 'Public domain', cc: 'Creative Commons', licensed: 'Hosted by the rights holder', 'link-only': 'Link only', unknown: 'Rights unknown' };
-const groups = new Map<string, M[]>();
-for (const m of media) {
-  const g = LABEL[m.type] ?? 'Links';
-  if (!groups.has(g)) groups.set(g, []);
-  groups.get(g)!.push(m);
-}
-const local = (m: M) => m.file && (m.rights === 'public-domain' || m.rights === 'cc') ? `/${m.file.replace(/^\/?(public\/)?/, '')}` : undefined;
+const groups = LIBRARY_TYPES.map(([k, label]) => [label, items.filter((i) => i.type === k)] as const).filter(([, l]) => l.length);
+const human = (s?: string) => s?.replace(/-/g, ' ');
 ---
-{media.length > 0 && (
+{items.length > 0 && (
   <section class="media-block" id="media">
-    <h2>Media <span class="muted small">({media.length})</span></h2>
-    <p class="small muted">Linked where the rights holder or an archive hosts it. Public-domain items may be kept on this site.</p>
-    {[...groups.entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([g, list]) => (
+    <h2>Media and content <span class="muted small">({items.length})</span></h2>
+    <p class="small muted">Everything here is also in the <a href="/media/">Media Library</a>, which shows every page it appears on. Copyrighted items are linked where the rights holder or an archive hosts them, never copied.</p>
+    {groups.map(([g, list]) => (
       <>
         <h3>{g}</h3>
         <ul class="media-list">
-          {list.map((m) => (
-            <li>
-              <a href={local(m) ?? m.url} rel="noopener">{m.title}</a>
-              <span class="muted small"> · {[m.subtype?.replace(/-/g, ' '), m.creator, m.host, m.date, m.duration].filter(Boolean).join(' · ')}</span>
-              <span class={`tag rights-${m.rights ?? 'link-only'}`}>{RIGHTS[m.rights ?? 'link-only']}</span>
-              {m.note && <p class="small">{m.note}</p>}
-              {local(m) && m.type === 'audio' && <audio controls preload="none" src={local(m)} />}
-              {local(m) && m.type === 'video' && <video controls preload="none" src={local(m)} />}
-              {local(m) && m.type === 'image' && <img src={local(m)} alt={m.title} loading="lazy" />}
-            </li>
-          ))}
-        </ul>
-      </>
-    ))}
-  </section>
-)}
-{attached.length > 0 && (
-  <section class="attached" id="attached">
-    <h2>Related content <span class="muted small">({attached.length})</span></h2>
-    <p class="small muted">Records that belong to this one: what advertised or sponsored it, where its papers are kept, and pages about it elsewhere. Each is also in the <a href="/media/">Media library</a>.</p>
-    {[...attachedGroups.entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([g, list]) => (
-      <>
-        <h3 class="attached-kind">{g}</h3>
-        <ul class="media-list">
-          {list.map((a) => <li><a href={a.href}>{a.title}</a>{a.meta && <span class="muted small"> · {a.meta}</span>}{a.desc && <p class="small">{a.desc}</p>}</li>)}
+          {list.map((m) => {
+            const others = m.on.filter((o) => o.key !== recKey);
+            return (
+              <li>
+                <a href={m.href} rel={m.external ? 'noopener' : undefined}>{m.title}</a>
+                <span class="muted small"> · {[human(m.subtype), m.creator && `by ${m.creator}`, m.host, m.date].filter(Boolean).join(' · ')}</span>
+                {m.external && <span class={`tag rights-${m.rights ?? 'link-only'}`}>{RIGHTS[m.rights ?? 'link-only']}</span>}
+                {m.note && <p class="small">{m.note}</p>}
+                {!m.external && m.type === 'audio' && <audio controls preload="none" src={m.href} />}
+                {!m.external && m.type === 'video' && <video controls preload="none" src={m.href} />}
+                {!m.external && m.type === 'image' && <img src={m.href} alt={m.title} loading="lazy" />}
+                <p class="small muted">{others.length > 0 && <>Also on: {others.slice(0, 6).map((o, i) => <>{i > 0 && ', '}{o.href ? <a href={o.href}>{o.title}</a> : o.title}</>)}{others.length > 6 && ` and ${others.length - 6} more`}. </>}<a href={`/media/#${m.id}`}>In the Media Library</a></p>
+              </li>
+            );
+          })}
         </ul>
       </>
     ))}

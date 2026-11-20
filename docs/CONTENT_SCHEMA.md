@@ -91,19 +91,39 @@ sources:
 
 ## Site taxonomy and new fields (2026-11-20, revised the same day)
 
-The site follows Adam's list, reorganized on his rule that **things that attach to other things are
-content, not categories** (2026-11-20 15:32 UTC). There are three layers:
+The site follows Adam's list, reorganized on his rules that **things that attach to other things are
+content, not categories** (15:32 UTC) and that **media and content are never categories** (22:02 UTC).
+There are four layers:
 
-- **Sections**: People, Places, Organizations. The who and where that everything else links to.
-- **Categories**: the things themselves: Artwork, Episodes, Events, Games, Homages, Lectures,
-  Merchandise, Movies, Music, Reading, Reviews, Series, and Stage and attractions *(new)*. Every
-  category except Reviews is split into **Official** (made, broadcast, licensed or published by the
-  franchise's makers and rights holders, or by Rod Serling himself) and **Unofficial and inspired**
-  (made by others about, after or in the spirit of the show).
-- **Content**: advertisements, archival holdings, documents, quotes and links. Content is shown on the
-  pages of the records it belongs to, and gathered by type in the **Media library** (`/media/`), which
-  is an index, not a category. Artwork is both: a category of its own, and content on what it
-  illustrates (a comic's cover art is listed under Artwork and credited on the comic).
+- **Directories**: People, Places, Organizations. The who and where that everything else links to. Each
+  has a sortable, filterable index (`/people/`, `/places/`, `/organizations/`) that shows every page an
+  entry appears on, and every category and record page lists its relevant people, places and
+  organizations, linking both ways. They sit at the top of the main navigation.
+- **Groups**: categories grouped by medium (`GROUPS` in `taxonomy.mjs`). A group with more than one
+  category has a landing page at `/explore/<group>/`; a single-category group links straight to it.
+
+  | Group | Categories |
+  |---|---|
+  | Screen (`screen`) | TV series, TV episodes, Movies |
+  | Audio (`audio`) | Radio *(new)*, Podcasts *(new)*, Music |
+  | Print and literature (`print`) | Reading (books, comics, magazines, essays, scripts...) |
+  | Games (`games`) | Games |
+  | Live and experiences (`live`) | Events, Lectures, Stage and attractions |
+  | Art and collectibles (`art`) | Artwork, Merchandise |
+  | Legacy (`legacy`) | Homages |
+
+- **Categories**: the things themselves. Every category is split into **Official** (made, broadcast,
+  licensed or published by the franchise's makers and rights holders, or by Rod Serling himself) and
+  **Unofficial and inspired** (made by others about, after or in the spirit of the show).
+- **Media and content**: videos, audio, images (photos, stills, posters, key art, covers), maps,
+  documents (scripts, transcripts, letters, memos, call sheets, press kits), articles and text, reviews
+  (including rankings, award citations and aggregate scores), interviews, quotes, advertisements,
+  archival holdings, external links and other files. Each item shows on every page it belongs to,
+  with its credit, source, date and rights, and is listed in the **Media Library** (`/media/`): a
+  sortable table filterable by type, category, rights and text (`?type=review`, `?in=reading/comics`,
+  `?q=`), where each row names every page it appears on and each page links back (`/media/#<id>`).
+  Artwork is also a category of its own: a comic's cover art is listed under Artwork and credited on
+  the comic.
 
 Records are placed automatically from their collection and fields (rules in `src/lib/taxonomy.mjs`);
 a record can sit in more than one place. Subcategories not on Adam's list are flagged **new** on the
@@ -112,9 +132,10 @@ site and in the review sheet.
 ### Sections, categories and subcategory slugs
 
 Use these slugs in `categories[]` (`"<category>/<subcategory>"`). An unknown subcategory slug under a
-known category creates a new subcategory, flagged new. Old slugs from the first version (advertising,
-archives, quotes, community, legal-history, cultural-impact, props-collecting) still work and are mapped
-to the new places (see `ALIASES` in `taxonomy.mjs`); please use the new ones.
+known category creates a new subcategory, flagged new. Old slugs (advertising, archives, quotes,
+reviews, media, series/radio, series/podcast, episodes/radio..., community, legal-history,
+cultural-impact, props-collecting) still work and are mapped to the new places (see `ALIASES` in
+`taxonomy.mjs`); old URLs redirect. Please use the new ones.
 
 | Section or category | Subcategory slugs | Filled automatically from |
 |---|---|---|
@@ -122,7 +143,9 @@ to the new places (see `ALIASES` in `taxonomy.mjs`); please use the new ones.
 | `places` (section) | `real-life`, `lecture-event-venues`, `in-story` | locations |
 | `organizations` (section) | `networks-studios`, `production-companies`, `publishers`, `licensees`, `sponsors`, `archives-libraries`, `museums`, `foundations-societies`, `award-bodies`, `schools`, `fan-groups`, `other-organizations` | organizations records, plus every name in a `publisher` (books, comics, magazines, product works), `institution`, series `network`, release `publisher`, international `broadcaster`, or `organizations[]` field |
 | `artwork` | `posters-key-art`, `title-design`, `covers` *(new)*, `night-gallery-paintings` *(new)*, `production-design` *(new)*, `props-costumes` *(new)*, `art-illustration`, `other-artwork` | works kind artwork/prop, comic creators credited `(cover)`, media images with subtype cover-art/poster/key-art/illustration, poster ads |
-| `episodes` | `tv`, `radio`, `radio-original-stories`, `radio-unmade-tv-scripts`, `podcast` | episodes, Night Gallery episodes, radio, podcast featured_episodes |
+| `episodes` (TV episodes) | `tv` | episodes, Night Gallery episodes |
+| `radio` *(new)* | `series`, `episodes`, `original-stories`, `unmade-scripts` | radio series and radio episodes |
+| `podcasts` *(new)* | `shows`, `episodes` | podcasts and their featured_episodes |
 | `events` | `premieres`, `broadcasts-marathons`, `honors-awards`, `production-history`, `serling-life`, `legal` *(new: trials, lawsuits, censorship, rights)*, `anniversaries-festivals`, `conventions`, `exhibitions`, `other-events` | works kind event/convention/memorial/legal, series/film history[] |
 | `games` | `pinball-arcade`, `video-games`, `board-card-games`, `game-homages` *(new)*, `other-games` | works kind game |
 | `homages` | `adaptations-remakes`, `inspired-by`, `homages`, `parodies`, `references`, `in-other-shows`, `in-everyday-language` *(new)* | connections, films kind tv-episode/segment/sketch, works kind parody/cultural-impact |
@@ -131,15 +154,13 @@ to the new places (see `ALIASES` in `taxonomy.mjs`); please use the new ones.
 | `movies` | `twilight-zone-films`, `rod-serling-films`, `unmade-projects`, `linked-films`, `tv-films`, `documentaries`, `shorts-and-other` | films |
 | `music` | `theme`, `soundtracks`, `composers`, `songs` | works kind soundtrack, songs, composers |
 | `reading` | `books`, `comics`, `magazines`, `essays`, `articles`, `scripts`, `websites` *(new)*, and the reading thread's new subcategories | books, comics, magazines, essays, works kind link (reference, fan-site, academic) |
-| `reviews` | `contemporary`, `retrospective`, `rankings`, `awards-citations`, `aggregate-scores` | essays kind review |
-| `series` | `tv`, `radio`, `podcast`, `international` | series, films kind tv-series, radio series, podcasts |
+| `series` (TV series) | `tv`, `international` | series, films kind tv-series |
 | `stage` *(new)* | `theatre`, `live-readings`, `attractions` | works kind stage/attraction, films kind stage, attraction locations |
-| `media` (Media library, not a category) | `ads`, `holdings`, `video`, `audio`, `documents`, `images`, `links` | content records and every record's media[] |
 
 ### Content records
 
-These records are content, not category entries. They show on every page they belong to (a "Related
-content" section), in the Media library, and in the review sheet as Category "Content (shown on other
+These records are content, not category entries. They show on every page they belong to (the "Media
+and content" section), in the Media Library, and in the review sheet as Category "Content (shown on other
 records)" with Group "On: ...".
 
 | Content | Which records | Shown on |
@@ -147,6 +168,8 @@ records)" with Group "On: ...".
 | Advertisement | works kind `advertisement`, films kind `commercial` | what it promoted or sponsored, the sponsor or advertiser organization |
 | Archival holding | archives | the holding organization (`institution`) and the person or series it documents |
 | Quote | quotes | the person and the episodes it is about |
+| Review | essays kind `review` (subtypes contemporary, retrospective, ranking, award citation, aggregate score) | the work, series or episode it reviews (`reviews[]`, `episodes[]`) |
+| Interview | essays kind `interview` | the people and works it is about |
 | Link | works kind `link` with subtype database, official, streaming, archive, foundation or museum | the record it is about, and its host organization |
 
 Say where content belongs with `content_of[]` (refs: `series/1959`, an episode id `1959/<slug>`,
@@ -185,7 +208,8 @@ fan/collaborator, family, inspired-by.
 
 ```yaml
 media:
-  - type: video          # video | audio | document | image | ad | article | interview | transcript | website | link
+  - type: video          # video | audio | image | map | document | article | text | review | interview | quote | ad | transcript | website | link | file
+                         # also accepted and folded: letter, memo, call-sheet, press-kit, teleplay -> document; still, poster, key-art, cover-art, illustration, painting -> image; plan -> map; pdf -> file
     subtype: promo       # optional finer label: trailer, promo, full-episode, script, poster, interview...
     title: CBS promo for the 1959 premiere
     url: https://archive.org/details/...

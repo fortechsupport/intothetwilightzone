@@ -1,0 +1,30 @@
+---
+// The people, places and organizations connected to a record, each linking to its own page (which links
+// back here). `skip` leaves out lists the page already shows, such as an episode's cast.
+import { relatedFor } from '../lib/catalog';
+// `inherit` names a parent record (an episode's series) whose organizations carry down, such as the network.
+// `exclude` drops links the page already lists, such as an episode's filming locations.
+interface Props { recKey: string; skip?: ('people' | 'places' | 'orgs')[]; inherit?: string; exclude?: string[] }
+const { recKey, skip = [], inherit, exclude = [] } = Astro.props;
+const r = await relatedFor(recKey);
+if (inherit) {
+  const p = await relatedFor(inherit);
+  const have = new Set(r.orgs.map((x) => x.key));
+  r.orgs = [...r.orgs, ...p.orgs.filter((x) => !have.has(x.key))];
+}
+for (const k of ['people', 'places', 'orgs'] as const) r[k] = r[k].filter((x) => !exclude.includes(x.href));
+const parts = ([['people', 'People', '/people/'], ['places', 'Places', '/places/'], ['orgs', 'Organizations', '/organizations/']] as const)
+  .filter(([k]) => !skip.includes(k) && r[k].length);
+const MAX = 40;
+---
+{parts.length > 0 && (
+  <section class="related" id="related">
+    <h2>People, places and organizations</h2>
+    {parts.map(([k, label, href]) => (
+      <div class="related-part">
+        <h3><a href={href}>{label}</a> <span class="muted small">({r[k].length})</span></h3>
+        <p>{r[k].slice(0, MAX).map((x, i) => <>{i > 0 && ' · '}<a href={x.href}>{x.title}</a></>)}{r[k].length > MAX && <span class="muted"> and {r[k].length - MAX} more</span>}</p>
+      </div>
+    ))}
+  </section>
+)}

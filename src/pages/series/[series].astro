@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import InCategories from '../../components/InCategories.astro';
 import Media from '../../components/Media.astro';
+import Related from '../../components/Related.astro';
 import { getCollection } from 'astro:content';
 import { allEpisodes, formatDate, episodeNumber } from '../../lib/data';
 import HistoryAndIntl from '../../components/HistoryAndIntl.astro';
@@ -97,5 +98,6 @@ const jsonld = {
       set(location.hash.startsWith('#season-') ? 'air' : 'az');
     })();
   </script>
+  <Related recKey={`series/${s.id}`} />
   <Media media={s.data.media} recKey={`series/${s.id}`} />
 </Base>

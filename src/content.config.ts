@@ -10,7 +10,9 @@ const source = z.object({
 });
 const ids = z.record(z.string(), z.string()).optional();
 // A media attachment. `kind` and `license` are accepted as aliases of `type` and `rights`.
-const MEDIA_TYPES = ['video', 'audio', 'document', 'image', 'ad', 'article', 'interview', 'transcript', 'website', 'link'] as const;
+// The Media Library groups these as Video, Audio, Images, Maps, Documents, Articles and text, Reviews,
+// Interviews, Quotes, Advertisements, Links and Other files (LIBRARY_TYPES in src/lib/taxonomy.mjs).
+const MEDIA_TYPES = ['video', 'audio', 'document', 'image', 'map', 'ad', 'article', 'text', 'review', 'interview', 'quote', 'transcript', 'website', 'link', 'file'] as const;
 const mediaItem = z.preprocess((raw) => {
   if (!raw || typeof raw !== 'object') return raw;
   const m = { ...(raw as Record<string, unknown>) };
@@ -20,7 +22,9 @@ const mediaItem = z.preprocess((raw) => {
   const t = String(m.type ?? '');
   const fold: Record<string, string> = {
     advertisement: 'ad', commercial: 'ad', promo: 'video', trailer: 'video', clip: 'video', 'full-episode': 'video',
-    script: 'document', photo: 'image', poster: 'image', other: 'link', podcast: 'audio', 'radio': 'audio', listing: 'link',
+    script: 'document', letter: 'document', memo: 'document', 'call-sheet': 'document', 'press-kit': 'document', teleplay: 'document',
+    photo: 'image', still: 'image', poster: 'image', 'key-art': 'image', 'cover-art': 'image', illustration: 'image', painting: 'image',
+    other: 'link', podcast: 'audio', 'radio': 'audio', listing: 'link', pdf: 'file', plan: 'map',
   };
   if (fold[t]) { m.subtype ??= t; m.type = fold[t]; }
   const r = String(m.rights ?? '');

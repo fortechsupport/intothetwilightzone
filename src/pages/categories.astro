@@ -1,23 +1,27 @@
 ---
 import Base from '../layouts/Base.astro';
 import { catalog, countOf, type CatInfo } from '../lib/catalog';
-import { sortKey, SECTIONS } from '../lib/taxonomy.mjs';
-const all = [...(await catalog()).values()];
+import { SECTIONS, GROUPS, groupHref } from '../lib/taxonomy.mjs';
+const cat = await catalog();
+const all = [...cat.values()];
 const sections = SECTIONS.map((s) => all.find((c) => c.slug === s.slug)!).filter(Boolean);
-const cats = all.filter((c) => !c.kind || c.kind === 'category').sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title)));
-const library = all.filter((c) => c.kind === 'library');
-const block = (c: CatInfo) => c;
+const groups = GROUPS.map((g) => ({ ...g, cats: g.categories.map((c) => cat.get(c.slug)).filter(Boolean) as CatInfo[] }));
+const cats = groups.flatMap((g) => g.cats);
+// Anything placed in a category that no group lists (should be none) still shows, under Other.
+const listed = new Set([...sections, ...cats].map((c) => c.slug));
+const other = all.filter((c) => !listed.has(c.slug) && c.kind !== 'content' && c.slug !== 'content');
+const blocks: [string, string | null, CatInfo[]][] = [['People, places and organizations', null, sections], ...groups.map((g) => [g.title, groupHref(g), g.cats] as [string, string, CatInfo[]]), ...(other.length ? [['Other', null, other] as [string, null, CatInfo[]]] : [])];
 ---
 <Base title="All categories" description="Every section, category and subcategory on IntoTheTwilightZone.com, A to Z, with counts.">
   <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a></p>
   <h1>All categories</h1>
   <p class="lead">{sections.length} sections, {cats.length} categories and {[...sections, ...cats].reduce((n, c) => n + c.subs.length, 0)} subcategories. Those marked <span class="tag new">new</span> were added during research and are up for review.</p>
-  <p>The site is organized in three layers. <strong>Sections</strong> are the people, places and organizations everything else links to. <strong>Categories</strong> are the things themselves, and most are split into official items (made, broadcast, licensed or published by the franchise or by Rod Serling) and unofficial items made by others about or inspired by the show. <strong>Content</strong> such as advertisements, archival holdings, documents and artwork attaches to the records it belongs to, and the <a href="/media/">Media library</a> gathers it in one place.</p>
-  {[['Sections', sections], ['Categories', cats], ['Content', library]].map(([label, list]) => (
+  <p>The site is organized in three layers. <strong>Directories</strong> are the people, places and organizations everything else links to. <strong>Categories</strong> are the things themselves, grouped by medium, and most are split into official items (made, broadcast, licensed or published by the franchise or by Rod Serling) and unofficial items made by others about or inspired by the show. <strong>Media and content</strong> (videos, audio, images, documents, reviews, interviews, quotes, advertisements, archival holdings and links) attaches to the pages it belongs to, and the <a href="/media/">Media Library</a> gathers it in one place.</p>
+  {blocks.map(([label, href, list]) => (
     <>
-      <h2>{label}</h2>
+      <h2>{href ? <a href={href}>{label}</a> : label}</h2>
       <div class="cat-index">
-        {(list as CatInfo[]).map((c) => block(c)).map((c) => (
+        {list.map((c) => (
           <section>
             <h3><a href={`/${c.slug}/`}>{c.title}</a> {c.isNew && <span class="tag new">new</span>} <span class="muted small">({countOf(c).toLocaleString('en-US')})</span></h3>
             <p class="small muted">{c.description}</p>

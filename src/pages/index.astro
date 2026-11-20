@@ -1,10 +1,13 @@
 ---
 import Base from '../layouts/Base.astro';
-import { catalog, countOf } from '../lib/catalog';
-import { sortKey, SECTIONS } from '../lib/taxonomy.mjs';
-const all = [...(await catalog()).values()];
+import { catalog, countOf, mediaLibrary } from '../lib/catalog';
+import { SECTIONS, GROUPS, groupHref, LIBRARY_TYPES } from '../lib/taxonomy.mjs';
+const cat = await catalog();
+const all = [...cat.values()];
 const sections = SECTIONS.map((s) => all.find((c) => c.slug === s.slug)!).filter(Boolean);
-const cats = all.filter((c) => !c.kind || c.kind === 'category').sort((x, y) => sortKey(x.title).localeCompare(sortKey(y.title)));
+const groups = GROUPS.map((g) => ({ ...g, cats: g.categories.map((c) => cat.get(c.slug)).filter(Boolean) as typeof all }));
+const lib = await mediaLibrary();
+const libCounts = LIBRARY_TYPES.map(([k, label]) => [k, label, lib.filter((i) => i.type === k).length] as const).filter(([, , n]) => n);
 const jsonld = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -23,6 +26,7 @@ const jsonld = {
   </section>
 
   <h2>People, places and organizations</h2>
+  <p class="small muted">The directories everything else links to. Each has a sortable, filterable index showing every page an entry appears on.</p>
   <div class="grid">
     {sections.map((c) => (
       <a class="card" href={`/${c.slug}/`}>
@@ -31,18 +35,30 @@ const jsonld = {
         <p>{c.subs.filter((x) => x.entries.length).map((x) => x.title).join(' · ')}</p>
       </a>
     ))}
+    <a class="card" href="/media/">
+      <span class="count">{lib.length.toLocaleString('en-US')}</span>
+      <h3>Media Library</h3>
+      <p>{libCounts.map(([, l, n]) => `${l} (${n.toLocaleString('en-US')})`).join(' · ')}</p>
+    </a>
   </div>
-  <h2>Explore by category</h2>
-  <p class="small muted">Every category, A to Z, each split into official items and unofficial or inspired ones. Those marked <span class="tag new">new</span> were added during research. Advertisements, archival holdings and documents are on the records they belong to, and all together in the <a href="/media/">Media library</a>. <a href="/categories/">See every subcategory</a>.</p>
-  <div class="grid">
-    {cats.map((c) => (
-      <a class="card" href={`/${c.slug}/`}>
-        <span class="count">{countOf(c).toLocaleString('en-US')}</span>
-        <h3>{c.title}{c.isNew && <span class="tag new">new</span>}</h3>
-        <p>{c.subs.filter((x) => x.entries.length).map((x) => x.title).join(' · ')}</p>
-      </a>
-    ))}
-  </div>
+
+  <h2>Explore</h2>
+  <p class="small muted">Categories grouped by medium. Each category is split into official items and unofficial or inspired ones. Reviews, interviews, documents, advertisements and other media appear on the pages they belong to and all together in the <a href="/media/">Media Library</a>. <a href="/categories/">See every subcategory</a>.</p>
+  {groups.map((g) => (
+    <section class="group-block">
+      <h3><a href={groupHref(g)}>{g.title}</a></h3>
+      <p class="small muted">{g.blurb}</p>
+      <div class="grid">
+        {g.cats.map((c) => (
+          <a class="card" href={`/${c.slug}/`}>
+            <span class="count">{countOf(c).toLocaleString('en-US')}</span>
+            <h3>{c.title}{c.isNew && <span class="tag new">new</span>}</h3>
+            <p>{c.subs.filter((x) => x.entries.length).map((x) => x.title).join(' · ')}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
   <h2>Features</h2>
   <ul>
     <li><a href="/rod-serling/">Rod Serling</a>: his life and work beyond The Twilight Zone.</li>

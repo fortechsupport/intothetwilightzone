@@ -8,11 +8,13 @@
 //   section   People, Places, Organizations: who and where, linked from everything else.
 //   category  the things themselves (Series, Episodes, Reading...). `split: true` shows each list in two
 //             parts, Official and Unofficial and inspired (see isOfficial below).
-//   library   the Media library: an index of content, not a category.
-// Content is not a category: advertisements, archival holdings, documents and quotes attach to the
-// records they are about (see contentOf below) and show on those records' pages.
+// Media and content are never categories (Adam, 2026-11-20 22:02 UTC): videos, audio, images, documents,
+// reviews, interviews, quotes, advertisements and archival holdings attach to the records they are about
+// (contentOf below, and every record's media[]) and show on those records' pages, on the category and
+// subcategory pages that list those records, and in the Media Library (/media/), which says where each
+// item appears.
 /** @typedef {{ slug: string, title: string, blurb: string, intro?: string, isNew?: boolean, order?: 'az' | 'chrono', side?: 'official' | 'unofficial' }} Sub */
-/** @typedef {{ slug: string, title: string, kind?: 'section' | 'category' | 'library', split?: boolean, isNew?: boolean, description: string, intro: string[], connection: string, subs: Sub[], seeAlso?: [string, string][] }} Category */
+/** @typedef {{ slug: string, title: string, kind?: 'section' | 'category', group?: string, split?: boolean, isNew?: boolean, description: string, intro: string[], connection: string, subs: Sub[], seeAlso?: [string, string][] }} Category */
 
 /** @type {Category[]} */
 export const TAXONOMY = [
@@ -89,6 +91,7 @@ export const TAXONOMY = [
   {
     slug: 'events',
     title: 'Events',
+    group: 'live',
     split: true,
     description: 'Conventions, premieres, marathons, anniversaries, exhibitions, honors and the moments that shaped Twilight Zone history.',
     intro: [
@@ -111,44 +114,72 @@ export const TAXONOMY = [
   },
   {
     slug: 'series',
-    title: 'Series',
+    title: 'TV series',
+    group: 'screen',
     split: true,
-    description: 'Every Twilight Zone series on television, radio and podcast, plus Night Gallery and the anthology series in its tradition.',
+    description: 'Every Twilight Zone television series, plus Night Gallery, Rod Serling\'s other series and the anthology series in its tradition.',
     intro: [
       'There have been four Twilight Zone television series: the original (CBS, 1959-1964), the first revival (CBS and syndication, 1985-1989), a second revival (UPN, 2002-2003) and Jordan Peele\'s (CBS All Access, 2019-2020). Serling followed the original with Night Gallery (NBC, 1969-1973).',
-      'The franchise also lives on audio, in The Twilight Zone Radio Dramas from 2002, and in the many podcasts that revisit it episode by episode.',
     ],
-    connection: 'The four television series and the radio dramas are the franchise itself. Night Gallery and Serling\'s other series are one step away. Fellow anthology series and podcasts are here for a specific, stated link.',
-    seeAlso: [['Night Gallery guide', '/night-gallery/'], ['Episodes', '/episodes/']],
+    connection: 'The four television series are the franchise itself. Night Gallery and Serling\'s other series are official Serling work one step away. Fellow anthology series are here for a specific, stated link.',
+    seeAlso: [['Night Gallery guide', '/night-gallery/'], ['TV episodes', '/episodes/']],
     subs: [
       { slug: 'tv', title: 'Television series', blurb: 'The four Twilight Zone series, Night Gallery, Serling\'s other series and fellow anthologies.', order: 'chrono' },
-      { slug: 'radio', title: 'Radio series', blurb: 'The Twilight Zone Radio Dramas and the radio series Serling wrote for.' },
-      { slug: 'podcast', title: 'Podcasts', blurb: 'Podcasts devoted to the show, most working through it episode by episode.' },
       { slug: 'international', title: 'International titles and dubs', blurb: 'The names the series went by around the world.', isNew: true, intro: 'The show was dubbed and retitled in many countries: La Dimensión Desconocida, La Quatrième Dimension, Ai confini della realtà, Unglaubliche Geschichten. Each title is sourced.' },
     ],
   },
   {
     slug: 'episodes',
-    title: 'Episodes',
+    title: 'TV episodes',
+    group: 'screen',
     split: true,
-    description: 'Every Twilight Zone episode on television and radio, Night Gallery segment by segment, and notable podcast episodes about the show.',
+    description: 'Every Twilight Zone television episode, and Night Gallery segment by segment.',
     intro: [
-      'The four television series total more than 300 episodes, from "Where Is Everybody?" in 1959 to the last of Jordan Peele\'s run in 2020. The radio dramas add more than 170 audio adaptations, and Night Gallery 43 episodes of one to four segments each.',
+      'The four television series total more than 300 episodes, from "Where Is Everybody?" in 1959 to the last of Jordan Peele\'s run in 2020. Night Gallery adds 43 episodes of one to four segments each.',
       'Listings here are alphabetical. For broadcast order, open a series page.',
     ],
-    connection: 'Television and radio episodes are the franchise itself; Night Gallery is Serling\'s second anthology; podcast episodes are single episodes of other shows devoted to The Twilight Zone.',
+    connection: 'Television episodes are the franchise itself; Night Gallery is Serling\'s second anthology.',
     seeAlso: [['Original series in air order', '/series/1959/'], ['All series', '/series/tv/']],
     subs: [
       { slug: 'tv', title: 'Television episodes', blurb: 'All four series and Night Gallery, alphabetically within each series.' },
-      { slug: 'radio', title: 'Radio episodes', blurb: 'The Twilight Zone Radio Dramas and Serling\'s radio plays.' },
-      { slug: 'radio-original-stories', title: 'Original radio stories', isNew: true, blurb: 'Radio drama episodes written for audio rather than adapted from television.' },
-      { slug: 'radio-unmade-tv-scripts', title: 'Radio versions of unmade scripts', isNew: true, blurb: 'Radio dramas made from Twilight Zone scripts that were never filmed.' },
-      { slug: 'podcast', title: 'Podcast episodes', blurb: 'Single podcast episodes about the show or the 1983 film.' },
+    ],
+  },
+  {
+    slug: 'radio',
+    title: 'Radio',
+    group: 'audio',
+    split: true,
+    description: 'The Twilight Zone Radio Dramas and Rod Serling\'s radio work: series and every episode.',
+    intro: [
+      'The Twilight Zone Radio Dramas, produced under license from 2002 with Stacy Keach in Serling\'s narrator role, adapted the original teleplays and later added new stories and scripts that were never filmed. Serling himself started in radio, writing for stations in Cincinnati and for network series before television.',
+    ],
+    connection: 'The radio dramas are licensed Twilight Zone productions; Serling\'s radio plays are his own work.',
+    subs: [
+      { slug: 'series', title: 'Radio series', blurb: 'The Twilight Zone Radio Dramas and the radio series Serling wrote for.' },
+      { slug: 'episodes', title: 'Radio episodes', blurb: 'Every radio drama episode and Serling radio play.' },
+      { slug: 'original-stories', title: 'Original radio stories', isNew: true, blurb: 'Radio drama episodes written for audio rather than adapted from television.' },
+      { slug: 'unmade-scripts', title: 'Radio versions of unmade scripts', isNew: true, blurb: 'Radio dramas made from Twilight Zone scripts that were never filmed.' },
+    ],
+  },
+  {
+    slug: 'podcasts',
+    title: 'Podcasts',
+    group: 'audio',
+    split: true,
+    description: 'Podcasts devoted to The Twilight Zone, and notable single episodes of other podcasts.',
+    intro: [
+      'The show is one of the most podcasted series in television history: whole shows work through it episode by episode, and many others have devoted an episode to a favorite story or to the 1983 film.',
+    ],
+    connection: 'Each podcast or episode is about The Twilight Zone, Night Gallery or Rod Serling.',
+    subs: [
+      { slug: 'shows', title: 'Podcast series', blurb: 'Podcasts devoted to the show, most working through it episode by episode.' },
+      { slug: 'episodes', title: 'Podcast episodes', blurb: 'Single podcast episodes about the show or the 1983 film.' },
     ],
   },
   {
     slug: 'movies',
     title: 'Movies',
+    group: 'screen',
     split: true,
     description: 'Twilight Zone films, Rod Serling\'s films, documentaries, and the films linked to specific episodes.',
     intro: [
@@ -170,6 +201,7 @@ export const TAXONOMY = [
   {
     slug: 'music',
     title: 'Music',
+    group: 'audio',
     split: true,
     description: 'The Twilight Zone theme, its composers and scores, soundtrack releases, and the songs that name or are about the show.',
     intro: [
@@ -187,6 +219,7 @@ export const TAXONOMY = [
   {
     slug: 'reading',
     title: 'Reading',
+    group: 'print',
     split: true,
     description: 'Books, comics, magazines, essays, articles and published scripts about The Twilight Zone and Rod Serling.',
     intro: [
@@ -213,6 +246,7 @@ export const TAXONOMY = [
   {
     slug: 'games',
     title: 'Games',
+    group: 'games',
     split: true,
     description: 'Twilight Zone pinball, video games, board and card games.',
     intro: [
@@ -230,6 +264,7 @@ export const TAXONOMY = [
   {
     slug: 'artwork',
     title: 'Artwork',
+    group: 'art',
     split: true,
     description: 'Posters, key art, title design, illustration and art inspired by The Twilight Zone.',
     intro: [
@@ -251,6 +286,7 @@ export const TAXONOMY = [
   {
     slug: 'homages',
     title: 'Homages',
+    group: 'legacy',
     split: true,
     description: 'Remakes, adaptations, homages, parodies and references to The Twilight Zone across film, television, music and print, with the evidence for each.',
     intro: [
@@ -272,6 +308,7 @@ export const TAXONOMY = [
   {
     slug: 'merchandise',
     title: 'Merchandise',
+    group: 'art',
     split: true,
     description: 'Twilight Zone collectibles, toys, trading cards, home video releases and other licensed products.',
     intro: [
@@ -292,6 +329,7 @@ export const TAXONOMY = [
   {
     slug: 'lectures',
     title: 'Lectures',
+    group: 'live',
     split: true,
     description: "Rod Serling's lectures and speeches, academic talks about the show, and The Twilight Zone in the classroom.",
     intro: [
@@ -305,26 +343,11 @@ export const TAXONOMY = [
       { slug: 'serling-lectures', title: "Rod Serling's lectures and speeches", blurb: 'Serling speaking at colleges, award dinners and conferences.' },
     ],
   },
-  {
-    slug: 'reviews',
-    title: 'Reviews',
-    description: 'Reviews of The Twilight Zone, from 1959 newspaper notices to modern retrospectives and episode rankings.',
-    intro: [
-      'Critics were divided on the show at first and warmer by its second season; its reputation has grown ever since. This section gathers reviews from the original broadcasts, of each revival and of the 1983 film, together with retrospective reappraisals and the rankings that still argue over the best episode.',
-    ],
-    connection: 'Every review is of a Twilight Zone series, episode or film. Summaries are our own; follow the source for the text.',
-    subs: [
-      { slug: 'aggregate-scores', title: 'Aggregate scores', isNew: true, blurb: 'Review-aggregator scores for the series and films.' },
-      { slug: 'awards-citations', title: 'Award citations', blurb: 'What juries said when they honored the show.' },
-      { slug: 'contemporary', title: 'Contemporary reviews', blurb: 'Reviews written when the episode, series or film was new.' },
-      { slug: 'rankings', title: 'Rankings', blurb: 'Best-of and episode-ranking lists.' },
-      { slug: 'retrospective', title: 'Retrospective reviews', blurb: 'Later reappraisals.' },
-    ],
-  },
   // ---- Categories added during research (flagged new) ----
   {
     slug: 'stage',
     title: 'Stage and attractions',
+    group: 'live',
     isNew: true,
     split: true,
     description: 'Twilight Zone stage adaptations, live readings, and the Tower of Terror and other attractions.',
@@ -336,27 +359,6 @@ export const TAXONOMY = [
       { slug: 'attractions', title: 'Attractions', blurb: 'Theme park rides, escape rooms and experiences.' },
       { slug: 'live-readings', title: 'Live readings', blurb: 'Staged readings and live audio performances.' },
       { slug: 'theatre', title: 'Theatre', blurb: 'Stage plays and productions.' },
-    ],
-  },
-  // ---- Not a category: an index of content attached to records everywhere else ----
-  {
-    slug: 'media',
-    title: 'Media library',
-    kind: 'library',
-    description: 'Every advertisement, video, recording, document, image and archival holding attached to a record on this site, in one place.',
-    intro: [
-      'Advertisements, documents, archival holdings, videos, recordings and images are not categories of their own: each one belongs to the record it is about, and appears on that record\'s page. A commercial appears on the series or product it promotes, a sponsor\'s billboard on the season it sponsored, a script collection on the organization that holds it and the person who wrote it.',
-      'This library gathers all of them so they can be browsed by type. Most are links to where the rights holder or an archive hosts them; public-domain items may be kept here. Nothing copyrighted is re-hosted.',
-    ],
-    connection: 'Each item is attached to a record elsewhere on the site, which explains its connection to the show.',
-    subs: [
-      { slug: 'ads', title: 'Advertisements', blurb: 'Commercials, promos, trailers, print ads and sponsor material, each attached to what it promoted.' },
-      { slug: 'audio', title: 'Audio', blurb: 'Radio, interviews and recordings.' },
-      { slug: 'documents', title: 'Documents', blurb: 'Scripts, letters, articles and transcripts.' },
-      { slug: 'holdings', title: 'Archival holdings', blurb: 'Collections of scripts, papers and recordings, attached to the organization that holds them and the people they document.' },
-      { slug: 'images', title: 'Images', blurb: 'Photographs, posters and artwork.' },
-      { slug: 'links', title: 'Links', blurb: 'Web pages and other resources.' },
-      { slug: 'video', title: 'Video', blurb: 'Clips, interviews, promos, trailers and full programs.' },
     ],
   },
 ];
@@ -374,11 +376,45 @@ export function sortKey(title) {
 
 export const CATEGORY = Object.fromEntries(TAXONOMY.map((c) => [c.slug, c]));
 const byTitle = (a, b) => sortKey(a.title).localeCompare(sortKey(b.title));
+/** Top-level groupings of categories (Adam, 2026-11-20 22:05 UTC), in display order. */
+export const GROUPS = [
+  { slug: 'screen', title: 'Screen', blurb: 'Television series and episodes, movies, documentaries and specials.' },
+  { slug: 'audio', title: 'Audio', blurb: 'Radio dramas, podcasts and music.' },
+  { slug: 'print', title: 'Print and literature', blurb: 'Books, comics, magazines, essays, articles and scripts.' },
+  { slug: 'games', title: 'Games', blurb: 'Pinball, video, board and card games.' },
+  { slug: 'live', title: 'Live and experiences', blurb: 'Events, lectures, stage productions and attractions.' },
+  { slug: 'art', title: 'Art and collectibles', blurb: 'Artwork, props, merchandise and collectibles.' },
+  { slug: 'legacy', title: 'Legacy', blurb: 'Homages, parodies, references, and the show in everyday language.' },
+].map((g) => ({ ...g, categories: TAXONOMY.filter((c) => c.group === g.slug) }));
+/** Where a group's page is: its own page when it holds several categories, else its one category. */
+export const groupHref = (g) => (g.categories.length === 1 ? `/${g.categories[0].slug}/` : `/explore/${g.slug}/`);
+
 /** People, Places, Organizations, in that order. */
 export const SECTIONS = TAXONOMY.filter((c) => c.kind === 'section');
 /** Categories A-Z, as shown in navigation. */
 export const CATEGORIES_AZ = TAXONOMY.filter((c) => !c.kind || c.kind === 'category').sort(byTitle);
-export const LIBRARY = TAXONOMY.filter((c) => c.kind === 'library');
+
+/** Media Library types, in display order: [key, label, what it covers]. */
+export const LIBRARY_TYPES = [
+  ['video', 'Video', 'Clips, interviews, promos, trailers and full programs'],
+  ['audio', 'Audio', 'Radio, recordings and podcasts'],
+  ['image', 'Images', 'Photographs, stills, posters, key art, covers and illustrations'],
+  ['map', 'Maps', 'Maps and plans'],
+  ['document', 'Documents', 'Scripts, transcripts, letters, memos and production papers'],
+  ['text', 'Articles and text', 'Articles and other text published elsewhere'],
+  ['review', 'Reviews', 'Reviews, rankings, award citations and aggregate scores'],
+  ['interview', 'Interviews', 'Interviews in print, audio and video'],
+  ['quote', 'Quotes', 'What people have said about the show'],
+  ['ad', 'Advertisements', 'Commercials, promos, print ads and sponsor material'],
+  ['holding', 'Archival holdings', 'Collections of papers, scripts and recordings'],
+  ['link', 'Links', 'Web pages about records on this site'],
+  ['file', 'Other files', 'Anything else'],
+];
+const MEDIA_TO_LIBRARY = { video: 'video', audio: 'audio', image: 'image', map: 'map', document: 'document', transcript: 'document', article: 'text', text: 'text', review: 'review', interview: 'interview', quote: 'quote', ad: 'ad', website: 'link', link: 'link', file: 'file' };
+/** A media[] item's Media Library type. */
+export function libraryType(m) {
+  return MEDIA_TO_LIBRARY[m.type] ?? 'file';
+}
 
 export const OFFICIAL_LABEL = 'Official';
 export const UNOFFICIAL_LABEL = 'Unofficial and inspired';
@@ -428,6 +464,14 @@ const ALIASES = {
   'advertising/*': 'content',
   'archives/*': 'content',
   'quotes/*': 'content',
+  'reviews/*': 'content',
+  'series/radio': ['radio', 'series'],
+  'series/podcast': ['podcasts', 'shows'],
+  'episodes/radio': ['radio', 'episodes'],
+  'episodes/radio-original-stories': ['radio', 'original-stories'],
+  'episodes/radio-unmade-tv-scripts': ['radio', 'unmade-scripts'],
+  'episodes/podcast': ['podcasts', 'episodes'],
+  'media/*': 'content',
   'community/fan-communities': ['organizations', 'fan-groups'],
   'community/organizations': ['organizations', 'foundations-societies'],
   'community/websites-databases': ['reading', 'websites'],
@@ -458,19 +502,22 @@ function alias(cat, sub) {
 
 /**
  * Content: a record that belongs on other records' pages instead of in a category.
- * Returns { kind, label, library? } or null. `library` is the Media library subcategory that lists it.
+ * Returns { kind, label } or null; kind is a Media Library type.
  */
 export function contentOf(col, d) {
   if (col === 'quotes') return { kind: 'quote', label: 'Quote' };
-  if (col === 'archives') return { kind: 'holding', label: 'Archival holding', library: 'holdings' };
-  if ((col === 'works' && d.kind === 'advertisement') || (col === 'films' && d.kind === 'commercial')) return { kind: 'ad', label: 'Advertisement', library: 'ads' };
+  if (col === 'essays' && d.kind === 'review') return { kind: 'review', label: 'Review' };
+  if (col === 'essays' && d.kind === 'interview') return { kind: 'interview', label: 'Interview' };
+  if (col === 'archives') return { kind: 'holding', label: 'Archival holding' };
+  if ((col === 'works' && d.kind === 'advertisement') || (col === 'films' && d.kind === 'commercial')) return { kind: 'ad', label: 'Advertisement' };
   // A page about a record elsewhere (a database entry, an official or streaming page, an archive's or
   // foundation's site) is a link on that record, not a website in its own right.
-  if (col === 'works' && d.kind === 'link' && /^(database|official|streaming|archive|foundation|museum)$/.test(lc(d.subtype))) return { kind: 'link', label: 'Link', library: 'links' };
+  if (col === 'works' && d.kind === 'link' && /^(database|official|streaming|archive|foundation|museum)$/.test(lc(d.subtype))) return { kind: 'link', label: 'Link' };
   for (const s of d.categories ?? []) {
     const [cat] = s.split('/');
-    if (cat === 'advertising') return { kind: 'ad', label: 'Advertisement', library: 'ads' };
-    if (cat === 'archives') return { kind: 'holding', label: 'Archival holding', library: 'holdings' };
+    if (cat === 'advertising') return { kind: 'ad', label: 'Advertisement' };
+    if (cat === 'archives') return { kind: 'holding', label: 'Archival holding' };
+    if (cat === 'reviews') return { kind: 'review', label: 'Review' };
   }
   return null;
 }
@@ -485,6 +532,7 @@ export function contentParents(col, d) {
   for (const t of d.details?.relates_to ?? []) out.push(String(t));
   if (col === 'quotes') { if (d.person) out.push(`person:${d.person}`); for (const e of d.episodes ?? []) out.push(e); }
   if (col === 'archives' && d.institution) out.push(`org:${d.institution}`);
+  if (col === 'essays') { for (const r of d.reviews ?? []) out.push(r); for (const e of d.episodes ?? []) out.push(e); }
   for (const o of d.organizations ?? []) out.push(`org:${o}`);
   return [...new Set(out)];
 }
@@ -504,7 +552,6 @@ export function place(col, id, d, ctx = {}) {
   const subtype = lc(d.subtype);
   const content = contentOf(col, d);
   if (content) {
-    if (content.library) add('media', content.library, content.kind === 'holding' ? d.institution?.split(/,| \/ |\(/)[0].trim() : content.kind === 'ad' ? ad_group(subtype, d) : 'Pages about records on this site');
     // Artwork is both a category and content: a poster is listed under Artwork as well.
     if (content.kind === 'ad' && /poster|one-sheet|key-art/.test(subtype)) add('artwork', 'posters-key-art');
     return out;
@@ -577,12 +624,12 @@ export function place(col, id, d, ctx = {}) {
       break;
     }
     case 'radio':
-      if (d.series_title === 'The Twilight Zone Radio Dramas') add('episodes', 'radio', 'The Twilight Zone Radio Dramas');
-      else add('episodes', 'radio', "Rod Serling's radio work");
+      if (d.series_title === 'The Twilight Zone Radio Dramas') add('radio', 'episodes', 'The Twilight Zone Radio Dramas');
+      else add('radio', 'episodes', "Rod Serling's radio work");
       break;
     case 'podcasts':
-      if (asub === 'Single episodes of other podcasts') add('episodes', 'podcast');
-      else add('series', 'podcast', d.status === 'active' ? 'Active' : d.status === 'ended' ? 'Ended' : undefined);
+      if (asub === 'Single episodes of other podcasts') add('podcasts', 'episodes');
+      else add('podcasts', 'shows', d.status === 'active' ? 'Active' : d.status === 'ended' ? 'Ended' : undefined);
       break;
     case 'characters':
       add('people', 'characters', { human: 'People', alien: 'Aliens', robot: 'Robots and machines', supernatural: 'Supernatural beings', animal: 'Animals', object: 'Objects' }[d.kind] ?? undefined);
@@ -794,8 +841,8 @@ export function isOfficial(col, d, p, ctx = {}) {
   const pub = lc(d.publisher);
   switch (`${p.cat}/${p.sub}`) {
     case 'series/tv': return !/fellow anthology|other series linked|other television/i.test(p.group ?? '');
-    case 'series/radio': case 'series/international': case 'episodes/tv': case 'episodes/radio':
-    case 'episodes/radio-original-stories': case 'episodes/radio-unmade-tv-scripts':
+    case 'radio/series': case 'series/international': case 'episodes/tv': case 'radio/episodes':
+    case 'radio/original-stories': case 'radio/unmade-scripts':
       return p.group ? !/^(Episodes|Segments|Sketches|Web series)$/.test(p.group) : true;
     case 'movies/twilight-zone-films': case 'movies/rod-serling-films': case 'movies/unmade-projects': return !unoff;
     case 'music/theme': case 'music/soundtracks': case 'music/composers': return !unoff;
@@ -820,11 +867,6 @@ export function isOfficial(col, d, p, ctx = {}) {
   return off;
 }
 
-const MEDIA_SUB = { video: 'video', audio: 'audio', document: 'documents', transcript: 'documents', article: 'documents', interview: 'video', image: 'images', ad: 'ads', website: 'links', link: 'links' };
-export function mediaSub(m) {
-  if (m.type === 'interview') return /audio|podcast|radio/.test(lc(m.subtype) + lc(m.host)) ? 'audio' : 'video';
-  return MEDIA_SUB[m.type] ?? 'links';
-}
 /** Is a media item artwork (cover art, a poster, key art, an illustration)? Returns the artwork subcategory. */
 export function mediaArtwork(m) {
   if (m.type !== 'image') return undefined;

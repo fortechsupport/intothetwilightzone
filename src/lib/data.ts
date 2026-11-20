@@ -161,10 +161,13 @@ export async function allPeople(): Promise<Map<string, Person>> {
 /** "George Wilson (cover)" -> { name: "George Wilson", roles: ["cover"] }. */
 export function splitCredit(raw: string): { name: string; roles: string[] } {
   const m = String(raw).trim().match(/^(.*?)\s*\(([^)]*)\)\s*$/);
+  // "illustration Joe Certa": a role word written before the name.
+  const pre = String(raw).trim().match(/^(illustration|art|cover|script|story|pencils|inks)\s+([A-Z].*)$/);
+  if (!m && pre) return { name: pre[2].trim(), roles: [pre[1] === 'illustration' ? 'illustrator' : pre[1]] };
   if (!m) return { name: String(raw).trim(), roles: [] };
   return { name: m[1].trim(), roles: m[2].split(/\s*,\s*/).map((r) => r.toLowerCase()).filter(Boolean) };
 }
-export const COMIC_ROLE: Record<string, string> = { writer: 'Comics writer', artist: 'Comics artist', cover: 'Cover artist', inker: 'Inker', editor: 'Editor', colorist: 'Colorist', creator: 'Comics creator' };
+export const COMIC_ROLE: Record<string, string> = { writer: 'Comics writer', artist: 'Comics artist', cover: 'Cover artist', inker: 'Inker', editor: 'Editor', colorist: 'Colorist', illustrator: 'Illustrator', art: 'Comics artist', script: 'Comics writer', story: 'Comics writer', pencils: 'Comics artist', inks: 'Inker', creator: 'Comics creator' };
 
 export function personUrl(name: string) {
   return `/people/${slugify(splitCredit(name).name)}/`;
