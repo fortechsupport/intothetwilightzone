@@ -1,0 +1,105 @@
+---
+import Base from '../layouts/Base.astro';
+import { SERIES_LABEL } from '../lib/fan';
+---
+<Base title="My Zone" description="Your personal Twilight Zone checklist: episodes watched, items owned and wanted, saved in this browser with no account." noindex>
+  <p class="breadcrumb"><a href="/start/">Start here</a> / My Zone</p>
+  <h1>My Zone</h1>
+  <p class="lead">Everything you have marked <strong>Watched</strong>, <strong>I own it</strong> or <strong>Want it</strong> anywhere on the site. It is stored only in this browser: there is no account, and nothing is sent to us. Use the export button to keep a copy or move it to another device.</p>
+
+  <div id="mz" data-pagefind-ignore>
+    <h2>Episodes watched</h2>
+    <div class="grid" id="mz-series">
+      {Object.entries(SERIES_LABEL).map(([s, l]) => (
+        <a class="card" href={`/finder/?series=${s}&seen=no`} data-series={s}>
+          <span class="count">0</span>
+          <h3>{l}</h3>
+          <div class="meter" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label={`${l} watched`}><span></span></div>
+          <p class="mz-of">Loading…</p>
+        </a>
+      ))}
+    </div>
+    <p class="small"><a href="/finder/?seen=no">Find episodes you haven't watched yet</a> · <a href="/paths/">Viewing paths</a></p>
+
+    <h2>I own it <span class="count-pill" id="mz-owned-n">0</span></h2>
+    <ul class="plain" id="mz-owned"></ul>
+    <h2>Want it <span class="count-pill" id="mz-wanted-n">0</span></h2>
+    <ul class="plain" id="mz-wanted"></ul>
+    <h2>Watched, read or heard, not episodes <span class="count-pill" id="mz-other-n">0</span></h2>
+    <ul class="plain" id="mz-other"></ul>
+
+    <h2>Keep a copy</h2>
+    <p>
+      <button type="button" class="mini" id="mz-export">Download my checklist</button>
+      <label class="mini file-btn">Restore from a file <input type="file" id="mz-import" accept="application/json,.json" /></label>
+      <button type="button" class="mini danger" id="mz-clear">Clear everything</button>
+    </p>
+    <p class="small muted" id="mz-status" aria-live="polite"></p>
+  </div>
+
+  <script>
+    type Ep = { id: string; t: string; s: string; n: string };
+    const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+    const sortKey = (s: string) => s.replace(/^(the|a|an)\s+/i, '').toLowerCase();
+    const tz = () => (window as any).tzTracker;
+    let eps: Ep[] = [];
+    let recs: Record<string, [string, string, string]> = {};
+    function label(key: string) {
+      const r = recs[key];
+      if (r) return { title: r[0], href: r[1], cat: r[2] };
+      const ep = eps.find((e) => `episodes/${e.id}` === key);
+      if (ep) return { title: ep.t, href: `/episodes/${ep.id}/`, cat: `${ep.s} series` };
+      return { title: key.split('/').pop()!.replace(/-/g, ' '), href: '', cat: 'No longer listed' };
+    }
+    function list(id: string, keys: string[]) {
+      const items = keys.map((k) => ({ k, ...label(k) })).sort((a, b) => a.cat.localeCompare(b.cat) || sortKey(a.title).localeCompare(sortKey(b.title)));
+      document.getElementById(`${id}-n`)!.textContent = String(items.length);
+      document.getElementById(id)!.innerHTML = items.length ? items.map((i) => `<li>${i.href ? `<a href="${i.href}">${esc(i.title)}</a>` : esc(i.title)} <span class="muted small">· ${esc(i.cat)}</span></li>`).join('') : '<li class="muted">Nothing yet. Look for the buttons near the top of any page.</li>';
+    }
+    function render() {
+      const t = tz().get();
+      document.querySelectorAll<HTMLElement>('#mz-series [data-series]').forEach((card) => {
+        const s = card.dataset.series!;
+        const all = eps.filter((e) => e.s === s);
+        const n = all.filter((e) => t.watched[`episodes/${e.id}`]).length;
+        const pct = all.length ? Math.round((n / all.length) * 100) : 0;
+        card.querySelector('.count')!.textContent = String(n);
+        card.querySelector<HTMLElement>('.meter span')!.style.width = `${pct}%`;
+        card.querySelector('.meter')!.setAttribute('aria-valuenow', String(pct));
+        card.querySelector('.mz-of')!.textContent = `of ${all.length} episodes (${pct}%)`;
+      });
+      list('mz-owned', Object.keys(t.owned));
+      list('mz-wanted', Object.keys(t.wanted));
+      list('mz-other', Object.keys(t.watched).filter((k) => !k.startsWith('episodes/')));
+    }
+    Promise.all([fetch('/fan/episodes.json').then((r) => r.json()), fetch('/fan/records.json').then((r) => r.json())]).then(([e, r]) => { eps = e; recs = r; render(); });
+    const status = document.getElementById('mz-status')!;
+    document.getElementById('mz-export')!.addEventListener('click', () => {
+      const blob = new Blob([JSON.stringify({ site: 'intothetwilightzone.com', saved: new Date().toISOString(), ...tz().get() }, null, 2)], { type: 'application/json' });
+      const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: `my-twilight-zone-${new Date().toISOString().slice(0, 10)}.json` });
+      a.click();
+      URL.revokeObjectURL(a.href);
+      status.textContent = 'Downloaded.';
+    });
+    document.getElementById('mz-import')!.addEventListener('change', async (ev) => {
+      const f = (ev.target as HTMLInputElement).files?.[0];
+      if (!f) return;
+      try {
+        const d = JSON.parse(await f.text());
+        const cur = tz().get();
+        const merge = (a: object, b: unknown) => ({ ...a, ...(b && typeof b === 'object' ? b : {}) });
+        tz().set({ watched: merge(cur.watched, d.watched), owned: merge(cur.owned, d.owned), wanted: merge(cur.wanted, d.wanted) });
+        render();
+        status.textContent = 'Restored and merged with what was already here.';
+      } catch { status.textContent = 'That file could not be read. Choose a file downloaded from this page.'; }
+    });
+    document.getElementById('mz-clear')!.addEventListener('click', () => {
+      const btn = document.getElementById('mz-clear')!;
+      if (btn.dataset.armed !== '1') { btn.dataset.armed = '1'; btn.textContent = 'Click again to clear everything'; status.textContent = 'This removes your whole checklist from this browser. Download a copy first if you want one.'; return; }
+      tz().set({ watched: {}, owned: {}, wanted: {} });
+      btn.dataset.armed = ''; btn.textContent = 'Clear everything';
+      render();
+      status.textContent = 'Cleared.';
+    });
+  </script>
+</Base>

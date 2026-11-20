@@ -1,0 +1,89 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { parse } from 'yaml';
+import { PLACE_LABEL, placeLine } from '../lib/places';
+import { resolveRef } from '../lib/data';
+import { sortKey } from '../lib/taxonomy.mjs';
+
+const geo = parse(readFileSync(resolve(process.cwd(), 'data/fan/geo.yaml'), 'utf8')) as Record<string, { lat: number; lng: number; precision: string }>;
+const KIND: Record<string, [string, string]> = {
+  'filming-location': [PLACE_LABEL['filming-location'] ?? 'Filming locations', '#8fb3d9'],
+  'backlot-set': [PLACE_LABEL['backlot-set'] ?? 'Studio backlots and sets', '#d9c38f'],
+  'serling-place': [PLACE_LABEL['serling-place'] ?? "Rod Serling's places", '#e58f8f'],
+  memorial: [PLACE_LABEL.memorial ?? 'Memorials', '#c3b3e6'],
+  attraction: [PLACE_LABEL.attraction ?? 'Attractions', '#7fd1b9'],
+  'museum-exhibit': [PLACE_LABEL['museum-exhibit'] ?? 'Museums and exhibits', '#f0a35e'],
+  archive: [PLACE_LABEL.archive ?? 'Archives', '#b0c4a0'],
+  'event-venue': ['Event venues', '#e6e9f0'],
+  '': ['Other places', '#9aa3b8'],
+};
+const all = (await getCollection('locations')).sort((a, b) => sortKey(a.data.name).localeCompare(sortKey(b.data.name)));
+const real = all.filter((l) => l.data.kind !== 'in-story');
+const inStory = all.filter((l) => l.data.kind === 'in-story');
+const points = real.map((l) => {
+  const own = typeof l.data.lat === 'number' && typeof l.data.lng === 'number';
+  const g = own ? { lat: l.data.lat!, lng: l.data.lng!, precision: 'exact' } : geo[l.id];
+  return g && { id: l.id, n: l.data.name, k: KIND[l.data.kind ?? ''] ? (l.data.kind ?? '') : '', lat: g.lat, lng: g.lng, p: g.precision, w: placeLine(l.data), f: l.data.filmed.length };
+}).filter(Boolean) as { id: string; n: string; k: string; lat: number; lng: number; p: string; w: string; f: number }[];
+const unmapped = real.filter((l) => !points.some((p) => p.id === l.id));
+const usedKinds = Object.entries(KIND).filter(([k]) => points.some((p) => p.k === k));
+const stories = await Promise.all(inStory.map(async (l) => ({ l, refs: (await Promise.all(l.data.filmed.map((f) => resolveRef(f.ref)))).filter(Boolean) as { title: string; url: string }[] })));
+---
+<Base title="Map" description="An interactive map of Twilight Zone places: filming locations, MGM backlots, Rod Serling's homes and memorials, attractions, museums and archives, plus the towns that exist only in the stories.">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <p class="breadcrumb"><a href="/places/">Places</a> / Map</p>
+  <h1>Map of the Zone</h1>
+  <p class="lead">{points.length} real places on the map, from the MGM backlots in Culver City to Serling's Binghamton and the Tower of Terror rides around the world. Hollow markers are placed at the town or city, not the exact spot. Below the map are the {inStory.length} places that exist only in the stories.</p>
+
+  <fieldset class="map-filter" data-pagefind-ignore>
+    <legend>Show</legend>
+    {usedKinds.map(([k, [label, color]]) => (
+      <label><input type="checkbox" checked data-kind={k} /> <span class="swatch" style={`background:${color}`}></span> {label} <span class="muted small">({points.filter((p) => p.k === k).length})</span></label>
+    ))}
+  </fieldset>
+  <div id="tzmap" class="tzmap" role="region" aria-label="Map of Twilight Zone places"></div>
+  <p class="small muted">Map data © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> contributors. Many filming locations are private property; please be respectful.</p>
+
+  <h2>Every mapped place, A to Z</h2>
+  <ul class="columns small">
+    {points.slice().sort((a, b) => sortKey(a.n).localeCompare(sortKey(b.n))).map((p) => <li><a href={`/places/${p.id}/`}>{p.n}</a>{p.w && <span class="muted"> · {p.w}</span>}</li>)}
+  </ul>
+  {unmapped.length > 0 && (<>
+    <h3>Not on the map yet</h3>
+    <ul class="small">{unmapped.map((l) => <li><a href={`/places/${l.id}/`}>{l.data.name}</a>{placeLine(l.data) && <span class="muted"> · {placeLine(l.data)}</span>}</li>)}</ul>
+  </>)}
+
+  <h2>Places in the stories</h2>
+  <p>Towns, planets and buildings that exist only on screen, A to Z, with the episodes they appear in.</p>
+  <ul class="plain">
+    {stories.map(({ l, refs }) => (
+      <li><a href={`/places/${l.id}/`}><strong>{l.data.name}</strong></a>{refs.length > 0 && <span class="small"> · {refs.map((r, i) => <>{i > 0 && ', '}<a href={r.url}>{r.title}</a></>)}</span>}</li>
+    ))}
+  </ul>
+
+  <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script is:inline define:vars={{ points, kinds: Object.fromEntries(usedKinds) }}>
+    (function () {
+      if (!window.L) { document.getElementById('tzmap').innerHTML = '<p class="notice">The map could not load. Every place is listed below.</p>'; return; }
+      var map = L.map('tzmap', { scrollWheelZoom: false, worldCopyJump: true });
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
+      var layers = {};
+      var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+      points.forEach(function (p) {
+        var color = kinds[p.k][1];
+        var approx = p.p === 'city';
+        var m = L.circleMarker([p.lat, p.lng], { radius: 8, color: color, weight: 2, fillColor: color, fillOpacity: approx ? 0.1 : 0.75 });
+        m.bindPopup('<strong><a href="/places/' + p.id + '/">' + esc(p.n) + '</a></strong><br>' + esc(kinds[p.k][0]) + (p.w ? '<br>' + esc(p.w) : '') + (approx ? '<br><em>Approximate: placed at the town or city</em>' : '') + (p.f ? '<br>' + p.f + ' on-screen appearance' + (p.f > 1 ? 's' : '') : ''));
+        (layers[p.k] = layers[p.k] || L.layerGroup().addTo(map)).addLayer(m);
+      });
+      // Start on the United States, where most places are; zoom out to see the rest.
+      map.fitBounds(points.filter(function (p) { return p.lng < -60 && p.lng > -130; }).map(function (p) { return [p.lat, p.lng]; }), { padding: [20, 20] });
+      document.querySelectorAll('.map-filter input').forEach(function (cb) {
+        cb.addEventListener('change', function () { var g = layers[cb.dataset.kind]; if (g) { if (cb.checked) g.addTo(map); else map.removeLayer(g); } });
+      });
+    })();
+  </script>
+</Base>

@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+import TodayPanel from '../components/fan/TodayPanel.astro';
+---
+<Base title="Episode of the day" description="A different Twilight Zone episode every day, plus the premieres, births, deaths and history that fall on today's date.">
+  <p class="breadcrumb"><a href="/start/">Start here</a> / Episode of the day</p>
+  <h1>Episode of the day and on this day</h1>
+  <p class="lead">A new episode from any of the four series every day, the same for everyone, and every premiere, release, birthday, death and dated moment in our records that falls on the date.</p>
+  <form class="date-pick" data-pagefind-ignore>
+    <label>Pick a date <input type="date" id="pick-date" /></label>
+    <button type="button" class="mini" id="pick-today">Back to today</button>
+  </form>
+  <TodayPanel />
+  <script>
+    const input = document.getElementById('pick-date') as HTMLInputElement;
+    const set = (d: Date) => {
+      input.value = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+      const md = input.value.slice(5);
+      history.replaceState(null, '', `?date=${md}`);
+      document.dispatchEvent(new CustomEvent('tz:date', { detail: d }));
+    };
+    const q = new URLSearchParams(location.search).get('date');
+    const now = new Date();
+    input.value = q && /^\d{2}-\d{2}$/.test(q) ? `${now.getFullYear()}-${q}` : `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+    input.addEventListener('change', () => { const [y, m, d] = input.value.split('-').map(Number); if (y) set(new Date(y, m - 1, d)); });
+    document.getElementById('pick-today')!.addEventListener('click', () => { history.replaceState(null, '', location.pathname); set(new Date()); });
+  </script>
+</Base>

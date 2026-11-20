@@ -1,6 +1,9 @@
 ---
 interface Props { sources: { title: string; url?: string; note?: string }[]; verified?: string }
 const { sources, verified } = Astro.props;
+import { correctionUrl } from '../lib/fan/contribute';
+const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
+const pageTitle = Astro.url.pathname.replace(/^\/|\/$/g, '');
 ---
 <section class="sources" data-pagefind-ignore>
   <h2>Sources</h2>
@@ -11,5 +14,5 @@ const { sources, verified } = Astro.props;
       ))}
     </ul>
   )}
-  <p class="small muted">{verified ? `Last verified ${verified}.` : 'Not yet verified.'} <a href="/about/#contact">Suggest a correction</a>.</p>
+  <p class="small muted">{verified ? `Last verified ${verified}.` : 'Not yet verified.'} <a href={correctionUrl(pageUrl, pageTitle)} rel="noopener">Suggest a correction</a> or <a href="/contribute/">send us something new</a>.</p>
 </section>

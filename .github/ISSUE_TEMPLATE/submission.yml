@@ -1,0 +1,69 @@
+name: Submit something for the site
+description: Tell us about an episode detail, person, place, film, song, book, collectible, homage or anything else connected to The Twilight Zone.
+title: "[Submission] "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fan submissions go into the site's review queue. Each one is researched, sourced and then included or declined by the site's editor. Please send links, not copies of copyrighted files: the site never re-hosts copyrighted material.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of thing is it
+      options:
+        - Episode or series detail
+        - Movie or TV special
+        - Person (cast, crew, writer, fan, scholar)
+        - Place (filming location, memorial, museum, in-story place)
+        - Organization (studio, publisher, fan club, sponsor)
+        - Music (score, song, lyric reference)
+        - Reading (book, comic, magazine, essay, article, website)
+        - Game
+        - Artwork, prop or costume
+        - Merchandise or collectible
+        - Event, lecture, convention or stage show
+        - Homage or reference in another work
+        - Media (video, audio, document, photo, advertisement)
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Name or title
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What it is, when and where it appeared, and who made it.
+    validations:
+      required: true
+  - type: textarea
+    id: connection
+    attributes:
+      label: Connection to The Twilight Zone
+      description: How it relates to the show, Rod Serling or Night Gallery. Say whether the connection is stated by its makers or is your own observation.
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Links and sources
+      description: One per line. Official pages, archives, databases, articles, or legitimately hosted video and audio.
+  - type: input
+    id: credit
+    attributes:
+      label: How you would like to be credited
+      description: Optional. A name or handle to thank on the record, or leave blank.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Before you send
+      options:
+        - label: I'm sharing links and my own words only, not copies of anyone else's copyrighted work.
+          required: true
+        - label: I understand this is a public issue that anyone can read.
+          required: true

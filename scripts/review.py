@@ -243,9 +243,33 @@ def queue(content: Path = CONTENT) -> list[dict]:
             "notes": dec.get("notes", ""),
             "reviewed": dec.get("date", ""),
         })
+    # Fan corrections and submissions (scripts/submissions.py) are reviewed like records.
+    for key, sub in load_submissions().items():
+        dec = ledger.get(key, {})
+        f = sub.get("fields", {})
+        is_sub = sub.get("type") == "submission"
+        rows.append({
+            "key": key, "collection": "submissions", "category": "Fan submissions",
+            "subcategory": "Submissions" if is_sub else "Corrections", "group": f.get("kind", ""), "is_new": "", "official": "", "also_in": "",
+            "title": sub.get("title", key), "sort": sub.get("title", "").lower(),
+            "connection": f.get("connection") or f.get("problem", ""), "tier": "", "tier_reason": "",
+            "recommendation": "maybe",
+            "reason": "Fan submission: include to accept it for research and sourcing, exclude to decline." if is_sub else "Fan correction: include to accept and apply it once the source checks out, exclude to decline.",
+            "source_title": "GitHub issue", "source_url": sub.get("url", ""),
+            "kind": sub.get("type", ""), "date": sub.get("opened", ""), "who": f.get("credit", ""),
+            "summary": f.get("description") or f.get("fix", ""), "relevance": "", "confidence": "", "tags": "",
+            "duplicate_of": "", "sources": len([x for x in (f.get("links") or f.get("source") or "").splitlines() if x.strip()]),
+            "page": f.get("page") or sub.get("url", ""),
+            "decision": dec.get("status", "pending"), "notes": dec.get("notes", ""), "reviewed": dec.get("date", ""),
+        })
     # Grouped by category (alphabetical), then subcategory, then title ignoring a leading The/A/An.
     rows.sort(key=lambda r: (r["category"].lower(), sub_rank(r["subcategory"]), sub_rank(r["group"]), r["sort"], natural(r["key"])))
     return rows
+
+
+def load_submissions() -> dict:
+    p = ROOT / "data" / "review" / "submissions.json"
+    return json.loads(p.read_text()) if p.exists() else {}
 
 
 def natural(s: str):
@@ -430,7 +454,7 @@ def col(row: dict, *names: str):
 
 def import_files(paths: list[Path], dry_run: bool) -> int:
     ledger = load_ledger()
-    known = {f"{c}/{i}" for c, i, _ in records()}
+    known = {f"{c}/{i}" for c, i, _ in records()} | set(load_submissions())
     today = dt.date.today().isoformat()
     changed = unknown = bad = 0
     tally = {s: 0 for s in STATUSES}

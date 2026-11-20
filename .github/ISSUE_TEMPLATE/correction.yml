@@ -1,0 +1,51 @@
+name: Suggest a correction
+description: Something on IntoTheTwilightZone.com is wrong, missing or needs a better source.
+title: "[Correction] "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping keep the site accurate. Every correction is checked against a source before it goes live.
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The address of the page with the problem. The "Suggest a correction" link on each page fills this in.
+      placeholder: https://intothetwilightzone.com/episodes/1959/time-enough-at-last/
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or missing
+      placeholder: "The air date says ..., but it first aired on ..."
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: What it should say
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: A link or citation that supports the correction (a book, an official listing, an archive record, a contemporary article).
+    validations:
+      required: true
+  - type: dropdown
+    id: relation
+    attributes:
+      label: Your connection to this
+      options:
+        - Fan or researcher
+        - I worked on it, or represent someone who did
+        - Rights holder or their representative
+        - Other
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Before you send
+      options:
+        - label: I understand this is a public issue that anyone can read.
+          required: true

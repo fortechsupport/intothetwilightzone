@@ -1,0 +1,80 @@
+---
+import Base from '../layouts/Base.astro';
+import { peopleGraph, mostConnected } from '../lib/fan/graph';
+const g = await peopleGraph();
+const top = await mostConnected(30);
+---
+<Base title="Six degrees of the Zone" description="How any two actors, writers or directors in The Twilight Zone are connected, step by step, through the episodes and films they made together.">
+  <p class="breadcrumb"><a href="/people/">People</a> / Six degrees</p>
+  <h1>Six degrees of the Zone</h1>
+  <p class="lead">Pick any two of the {g.people.length.toLocaleString('en-US')} actors, writers, directors and narrators credited on {g.works.length.toLocaleString('en-US')} episodes and films, and see the shortest chain of shared credits between them. Leave the second name as Rod Serling to find someone's Serling number.</p>
+
+  <form id="deg" class="finder" data-pagefind-ignore>
+    <div class="finder-grid">
+      <label>From <input name="a" list="dl-people" required placeholder="for example: William Shatner" autocomplete="off" /></label>
+      <label>To <input name="b" list="dl-people" required value="Rod Serling" autocomplete="off" /></label>
+    </div>
+    <datalist id="dl-people">{g.people.map(([n]) => <option value={n} />)}</datalist>
+    <p><button type="submit" class="mini">Connect them</button> <button type="button" class="mini" id="deg-random">Surprise me</button></p>
+  </form>
+  <div id="deg-out" class="deg-out" aria-live="polite"></div>
+
+  <h2>The most connected people</h2>
+  <p class="small muted">Ranked by how many different people they share an on-screen credit with across all four series and the films.</p>
+  <ol class="columns small">
+    {top.map((p) => <li><a href={`/people/${p.slug}/`}>{p.name}</a> <span class="muted">· {p.co} collaborators, {p.works} credits</span></li>)}
+  </ol>
+  <noscript><p class="notice">The connection finder needs JavaScript. Every person's credits are on their page under <a href="/people/">People</a>.</p></noscript>
+
+  <script>
+    type G = { people: [string, string][]; works: [string, string][]; links: number[][] };
+    const out = document.getElementById('deg-out')!;
+    const form = document.getElementById('deg') as HTMLFormElement;
+    const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+    let g: G; let byWork: number[][]; let byName: Map<string, number>;
+    const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').trim().toLowerCase();
+    function find(name: string) { return byName.get(norm(name)); }
+    function bfs(a: number, b: number) {
+      const prev = new Map<number, [number, number]>([[a, [-1, -1]]]);
+      let frontier = [a];
+      while (frontier.length && !prev.has(b)) {
+        const next: number[] = [];
+        for (const p of frontier) for (const w of g.links[p]) for (const q of byWork[w]) if (!prev.has(q)) { prev.set(q, [p, w]); next.push(q); }
+        frontier = next;
+      }
+      if (!prev.has(b)) return undefined;
+      const chain: { p: number; w: number }[] = [];
+      for (let cur = b; cur !== a; cur = prev.get(cur)![0]) chain.unshift({ p: cur, w: prev.get(cur)![1] });
+      return chain;
+    }
+    function person(i: number) { return `<a href="/people/${g.people[i][1]}/">${esc(g.people[i][0])}</a>`; }
+    function show(aName: string, bName: string) {
+      const a = find(aName), b = find(bName);
+      if (a === undefined || b === undefined) { out.innerHTML = `<p class="notice">${esc(a === undefined ? aName : bName)} isn't in the on-screen credits we hold. Pick a name from the suggestions.</p>`; return; }
+      if (a === b) { out.innerHTML = `<p class="notice">That's the same person: zero degrees.</p>`; return; }
+      const chain = bfs(a, b);
+      if (!chain) { out.innerHTML = `<p class="notice">No chain of shared credits connects ${person(a)} and ${person(b)} in our records.</p>`; return; }
+      out.innerHTML = `<p class="deg-n"><strong>${chain.length}</strong> degree${chain.length > 1 ? 's' : ''} of separation</p><ol class="deg-chain"><li>${person(a)}</li>` +
+        chain.map((s) => `<li><span class="muted small">in</span> <a href="${g.works[s.w][1]}">${esc(g.works[s.w][0])}</a> <span class="muted small">with</span> ${person(s.p)}</li>`).join('') + '</ol>';
+      history.replaceState(null, '', `?a=${encodeURIComponent(aName)}&b=${encodeURIComponent(bName)}`);
+    }
+    fetch('/fan/people-graph.json').then((r) => r.json()).then((data: G) => {
+      g = data;
+      byWork = g.works.map(() => []);
+      g.links.forEach((ws, p) => ws.forEach((w) => byWork[w].push(p)));
+      byName = new Map(g.people.map(([n], i) => [norm(n), i]));
+      const q = new URLSearchParams(location.search);
+      if (q.get('a')) { (form.elements.namedItem('a') as HTMLInputElement).value = q.get('a')!; if (q.get('b')) (form.elements.namedItem('b') as HTMLInputElement).value = q.get('b')!; show(q.get('a')!, q.get('b') || 'Rod Serling'); }
+    });
+    form.addEventListener('submit', (e) => { e.preventDefault(); const fd = new FormData(form); show(String(fd.get('a')), String(fd.get('b'))); });
+    document.getElementById('deg-random')!.addEventListener('click', () => {
+      if (!g) return;
+      const many = g.people.map((_, i) => i).filter((i) => g.links[i].length >= 2);
+      const r = () => g.people[many[Math.floor(Math.random() * many.length)]][0];
+      const a = r(), b = r();
+      (form.elements.namedItem('a') as HTMLInputElement).value = a;
+      (form.elements.namedItem('b') as HTMLInputElement).value = b;
+      show(a, b);
+    });
+  </script>
+</Base>
