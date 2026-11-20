@@ -122,6 +122,10 @@ known category creates a new subcategory, labelled from the slug and flagged new
 | `quotes` *(new)* | `rod-serling`, `admirers` | quotes |
 | `advertising` *(new)* | `commercials`, `promos-trailers`, `print-ads` | films kind commercial, works kind advertisement, media type ad |
 | `community` *(new)* | `fan-communities`, `websites-databases`, `organizations` | works kind fan-community/link |
+| `production` *(new)* | `companies-studios`, `broadcast-syndication`, `ratings`, `international`, `behind-the-scenes` | works kind production, series/film history[] |
+| `legal-history` *(new)* | `accident-trial`, `rights-ownership`, `disputes`, `censorship` | works kind legal |
+| `cultural-impact` *(new)* | `catchphrases`, `theme-as-shorthand`, `dictionary-references`, `public-uses` | works kind cultural-impact |
+| `props` *(new)* | `surviving-props`, `auctions`, `museum-holdings`, `replicas` | works kind prop, collectible subtype replica-prop |
 | `media` *(new)* | `video`, `audio`, `documents`, `images`, `ads`, `links` | every record's media[] |
 
 People `roles[]` are matched loosely (case and plural ignored): writer, director, producer, actor,
@@ -147,7 +151,7 @@ media:
     note: One line, own words.
 ```
 
-`kind` and `license` are accepted as aliases of `type` and `rights`; finer kinds (trailer, promo,
+Put media in the record's top-level `media[]`, not inside `details`. `kind` and `license` are accepted as aliases of `type` and `rights`; finer kinds (trailer, promo,
 clip, full-episode, script, photo, advertisement, commercial) fold into the main types automatically
 and are kept as `subtype`. Copyrighted material is linked (`link-only` or `licensed`), never re-hosted.
 
@@ -158,7 +162,7 @@ and are kept as `subtype`. Copyrighted material is linked (`link-only` or `licen
   appears_in[] (episode ids or `films/<id>`, `radio/<id>`, `comics/<id>`), description (own words), recurring.
 - locations.kind adds `in-story` (fictional settings; `filmed[]` lists where they appear) and
   `event-venue`; locations also take `episodes[]`.
-- works.kind adds `lecture`, `advertisement`, `home-media`. Events stay kind `event`/`convention`/`memorial`
+- works.kind adds `lecture`, `advertisement`, `home-media`, `legal`, `cultural-impact`, `prop`, `production`. Events stay kind `event`/`convention`/`memorial`
   with subtype (premiere, marathon, broadcast, festival, anniversary, honor, exhibition, trial...).
 - essays.kind adds `article`, `lecture`, `script`, `academic-thesis`; essays also take `reviews[]`
   (refs reviewed), `review_type` (`contemporary`/`retrospective`/`ranking`/`awards-citation`) and
