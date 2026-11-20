@@ -23588,6 +23588,14 @@
   },
   {
    "cat": "people",
+   "sub": "actors",
+   "group": null,
+   "catTitle": "People",
+   "subTitle": "Actors",
+   "isNew": false
+  },
+  {
+   "cat": "people",
    "sub": "family",
    "group": null,
    "catTitle": "People",
@@ -23712,6 +23720,14 @@
    "group": null,
    "catTitle": "People",
    "subTitle": "Actors",
+   "isNew": false
+  },
+  {
+   "cat": "people",
+   "sub": "voice-actors",
+   "group": null,
+   "catTitle": "People",
+   "subTitle": "Voice actors",
    "isNew": false
   },
   {
