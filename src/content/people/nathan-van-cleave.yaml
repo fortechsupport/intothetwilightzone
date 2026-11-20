@@ -17,16 +17,45 @@ tz_credits:
   work: The Incredible World of Horace Ford
   role: composer
   ref: 1959/the-incredible-world-of-horace-ford
+- series: The Twilight Zone (1959-1964)
+  work: Perchance to Dream
+  ref: 1959/perchance-to-dream
+- series: The Twilight Zone (1959-1964)
+  work: Elegy
+  ref: 1959/elegy
+- series: The Twilight Zone (1959-1964)
+  work: Two
+  ref: 1959/two
+- series: The Twilight Zone (1959-1964)
+  work: I Sing the Body Electric
+  ref: 1959/i-sing-the-body-electric
+- series: The Twilight Zone (1959-1964)
+  work: A World of Difference
+  ref: 1959/a-world-of-difference
+- series: The Twilight Zone (1959-1964)
+  work: A Kind of a Stopwatch
+  ref: 1959/a-kind-of-a-stopwatch
+- series: The Twilight Zone (1959-1964)
+  work: The Incredible World of Horace Ford
+  ref: 1959/the-incredible-world-of-horace-ford
 born: '1910-05-08'
 died: '1970-07-03'
 bio: >-
-  Nathan Van Cleave, a longtime Paramount orchestrator and composer, wrote some of The Twilight Zone's
-  most distinctive episode scores, and his music was used in around thirty episodes, among them A Kind
-  of a Stopwatch, I Sing the Body Electric and The Incredible World of Horace Ford. His film work included
-  the science fiction adventure Robinson Crusoe on Mars (1964).
+  Nathan Van Cleave, a longtime Paramount orchestrator and composer, wrote some of The Twilight Zone's most distinctive
+  episode scores, and his music was used in around thirty episodes, among them A Kind of a Stopwatch, I Sing the
+  Body Electric and The Incredible World of Horace Ford. His film work included the science fiction adventure Robinson
+  Crusoe on Mars (1964).
 sources:
 - title: Twilight Zone Composers Strike A Spooky Note - Long Island Weekly
   url: https://longislandweekly.com/twilight-zone-composers-a-spooky-note/
 - title: Van Cleave, Nathan, 1910-1970 - SNAC
   url: https://snaccooperative.org/view/52637693
-last_verified: '2026-11-19'
+- title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
+  url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
+- title: Filmtracks – The Twilight Zone (40th Anniversary Collection)
+  url: https://www.filmtracks.com/titles/twilight_zone.html
+- title: 'JSTOR – A Dimension of Sound: Music in The Twilight Zone (front matter)'
+  url: https://www.jstor.org/stable/j.ctv1qv307
+last_verified: '2026-11-20'
+relevance: core
+research_confidence: medium

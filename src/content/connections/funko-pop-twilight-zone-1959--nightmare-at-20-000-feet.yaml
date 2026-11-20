@@ -1,0 +1,11 @@
+from: works/funko-pop-twilight-zone-1959
+to: 1959/nightmare-at-20-000-feet
+kind: reference
+confidence: documented
+summary: Two of the three figures come from 'Nightmare at 20,000 Feet'; the third is Serling as host.
+sources:
+- title: funko.com
+  url: https://funko.com/pop-deluxe-robert-wilson/80197.html
+- title: pops.today
+  url: https://pops.today/television/1582-the-narrator-the-twilight-zone
+last_verified: '2026-11-20'

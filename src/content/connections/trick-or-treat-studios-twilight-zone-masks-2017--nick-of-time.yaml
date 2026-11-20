@@ -1,0 +1,11 @@
+from: works/trick-or-treat-studios-twilight-zone-masks-2017
+to: 1959/nick-of-time
+kind: reference
+confidence: documented
+summary: Each mask reproduces a face from an original-series episode.
+sources:
+- title: 'Halloween Daily News: Trick or Treat Studios Enters The Twilight Zone with New Masks (Jan 2017)'
+  url: https://halloweendailynews.com/2017/01/trick-treat-studios-twilight-zone-masks/
+- title: 'Halloween Daily News: 2017 masks from Trick or Treat Studios'
+  url: https://halloweendailynews.com/2017/01/2017-masks-trick-treat-studios/
+last_verified: '2026-11-20'

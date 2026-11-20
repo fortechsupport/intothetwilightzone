@@ -1,0 +1,31 @@
+title: Grateful Dead live, Berkeley Community Theater, 9 March 1985 (Twilight Zone theme in Drums/Space)
+kind: event
+year: 1985
+creator: Grateful Dead
+description: >-
+  At this 1985 show the band worked the freshly recorded Twilight Zone theme into the improvised Drums and Space
+  segment, months before the revival premiered. The soundboard recording streams on the Internet Archive's Grateful
+  Dead collection, and the show is catalogued by the Grateful Dead Archive Online.
+subtype: concert-performance
+details:
+  people:
+  - Grateful Dead
+relevance: core
+research_confidence: medium
+sources:
+- title: JamBase – The Twilight Zone soundtrack recorded by Merl Saunders & Grateful Dead
+  url: https://www.jambase.com/article/grateful-dead-merl-saunders-twilight-zone-soundtrack
+- title: Grateful Dead Archive Online – Berkeley Community Theater, 1985-03-09
+  url: https://www.gdao.org/items/show/284385
+media:
+- type: audio
+  title: Grateful Dead 1985-03-09 Berkeley Community Theater (soundboard)
+  url: https://archive.org/embed/gd1985-03-09.sbd.miller.104962.flac16?playlist=1
+  host: archive.org (Grateful Dead collection; streaming permitted by the band)
+  rights: link-only
+- type: document
+  title: Grateful Dead Archive Online – 1985-03-09
+  url: https://www.gdao.org/items/show/284385
+  host: Grateful Dead Archive Online
+  rights: link-only
+last_verified: '2026-11-20'

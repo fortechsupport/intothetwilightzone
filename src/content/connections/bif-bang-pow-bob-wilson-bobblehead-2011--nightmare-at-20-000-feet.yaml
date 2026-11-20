@@ -1,0 +1,11 @@
+from: works/bif-bang-pow-bob-wilson-bobblehead-2011
+to: 1959/nightmare-at-20-000-feet
+kind: reference
+confidence: documented
+summary: Bob Wilson is William Shatner's character in 'Nightmare at 20,000 Feet'.
+sources:
+- title: 'Diamond Comics Previews: Twilight Zone Bob Wilson Bobble Head (APR112002)'
+  url: https://www.diamondcomics.com/Catalog/Preview/APR112002
+- title: 'Entertainment Earth: Bob Wilson Bobble Head'
+  url: https://www.entertainmentearth.com/product/the-twilight-zone-bob-wilson-bobble-head/bbp05011
+last_verified: '2026-11-20'

@@ -1,22 +1,44 @@
 title: Sideshow Toy The Twilight Zone 12-inch Figures
 kind: collectible
 subtype: action-figure
-creator: Sideshow Toy (Sideshow Collectibles)
-description: Sideshow's early high-end Twilight Zone figures in 12-inch scale, with cloth costumes and episode accessories.
+creator: Sideshow Toy
+description: >-
+  Sideshow's early high-end Twilight Zone figures in 12-inch scale, with cloth costumes and episode accessories.
   The Invader was sculpted to match the size of the filming prop.
 details:
   line: The Twilight Zone 12-inch figures
-  series: The Twilight Zone (1959) - "Eye of the Beholder", "To Serve Man", "Nightmare at 20,000 Feet", "The Invaders"
+  series: >-
+    The Twilight Zone (1959) - "Eye of the Beholder", "To Serve Man", "Nightmare at 20,000 Feet", "The Invaders"
   items:
   - The Doctor and The Nurse ("Eye of the Beholder", limited to 5,000)
   - Kanamit ("To Serve Man")
   - Gremlin ("Nightmare at 20,000 Feet")
   - Invader (sculpted by Mat Falls)
   licensed: true
+  known_items:
+  - SID6900 Eye of the Beholder Set (Doctor + Nurse), limited 5,000, labeled Series 1
+  - SID6903 To Serve Man (Kanamit)
+  - SID6904 Nightmare at 20,000 Feet (Gremlin)
+  - SID6905 The Invader
+  year_note: Release year not shown on sources seen; generally dated to the early 2000s (unverified).
+  sid6901_6902: Item numbers between 6900 and 6903 not verified (possible further figures).
+  people:
+  - Mat Falls
 sources:
 - title: toymania.com
   url: https://www.toymania.com/columns/spotlight/tzinvader.shtml
 - title: entertainmentearth.com
   url: https://www.entertainmentearth.com/product/eye-of-the-beholder-set/sid6900
+- title: 'Entertainment Earth: To Serve Man 12-inch (Sideshow)'
+  url: https://www.entertainmentearth.com/product/twilight-zone-to-serve-man-12inch-figure/sid6903
+- title: 'Entertainment Earth: Nightmare at 20,000 Feet 12-inch (Sideshow)'
+  url: >-
+    https://www.entertainmentearth.com/product/twilight-zone-nightmare-at-20000-feet-12inch-figure/sid6904
+- title: 'Entertainment Earth: The Invader (Sideshow)'
+  url: https://www.entertainmentearth.com/product/twilight-zone-invader/sid6905
 research_confidence: medium
-last_verified: '2026-11-19'
+last_verified: '2026-11-20'
+publisher: Sideshow Toy
+relevance: core
+categories:
+- merchandise/toys-figures

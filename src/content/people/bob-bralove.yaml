@@ -1,0 +1,16 @@
+name: Bob Bralove
+bio: >-
+  Synthesizer and MIDI specialist for the Grateful Dead. He recorded the band's Twilight Zone cue sessions in a
+  padded isolation room at their Front Street warehouse.
+roles:
+- musician
+- engineer
+tz_credits:
+- series: The Twilight Zone (1985-1989)
+  work: Synth/MIDI programming and recording of Grateful Dead cue sessions
+relevance: related
+research_confidence: medium
+sources:
+- title: JamBase – The Twilight Zone soundtrack recorded by Merl Saunders & Grateful Dead
+  url: https://www.jambase.com/article/grateful-dead-merl-saunders-twilight-zone-soundtrack
+last_verified: '2026-11-20'

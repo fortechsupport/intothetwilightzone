@@ -14,13 +14,16 @@ tz_credits:
   work: The Self-Improvement of Salvadore Ross
   role: composer
   ref: 1959/the-self-improvement-of-salvadore-ross
+- series: The Twilight Zone (1959-1964)
+  work: The Sixteen-Millimeter Shrine
+  ref: 1959/the-sixteen-millimeter-shrine
 born: '1906-12-24'
 died: '1967-02-24'
 bio: >-
   German-born Hollywood composer Franz Waxman contributed music to three Twilight Zone episodes: The Sixteen-Millimeter
-  Shrine in the first season, and He's Alive and The Self-Improvement of Salvadore Ross later in the run.
-  By then he was a two-time Oscar winner, for Sunset Boulevard and A Place in the Sun, with scores such
-  as Bride of Frankenstein and Rebecca behind him.
+  Shrine in the first season, and He's Alive and The Self-Improvement of Salvadore Ross later in the run. By then
+  he was a two-time Oscar winner, for Sunset Boulevard and A Place in the Sun, with scores such as Bride of Frankenstein
+  and Rebecca behind him.
 links:
   wikipedia: https://en.wikipedia.org/wiki/Franz_Waxman
 sources:
@@ -28,4 +31,10 @@ sources:
   url: https://en.wikipedia.org/wiki/Franz_Waxman
 - title: Twilight Zone Composers Strike A Spooky Note - Long Island Weekly
   url: https://longislandweekly.com/twilight-zone-composers-a-spooky-note/
-last_verified: '2026-11-19'
+- title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
+  url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
+- title: Filmtracks – The Twilight Zone (40th Anniversary Collection)
+  url: https://www.filmtracks.com/titles/twilight_zone.html
+last_verified: '2026-11-20'
+relevance: core
+research_confidence: medium

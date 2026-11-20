@@ -3,16 +3,37 @@ kind: soundtrack
 subtype: compilation
 creator: Various (original CBS series composers)
 publisher: Varèse Sarabande
-description: One of two early Varèse Sarabande CDs that repackaged selections from the five original-score LPs for
-  the new compact-disc format in the mid-1980s.
+description: >-
+  One of two early Varèse Sarabande CDs that repackaged selections from the five original-score LPs for the new
+  compact-disc format in the mid-1980s.
 details:
   format: CD
   series: The Twilight Zone (1959-64)
   catalog_no: VCD-47233
+  label: Varèse Sarabande
+  date: Nov 1990 (per eBay catalogue)
 sources:
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/Var%C3%A8se_Sarabande_albums_discography
 - title: americanmusicpreservation.com
   url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
-research_confidence: medium
-last_verified: '2026-11-19'
+- title: eBay catalog – Twilight Zone, Vol. 1 (CD, Nov-1990, Varèse Sarabande)
+  url: https://www.ebay.com/p/3145891
+- title: SoundtrackINFO – Twilight Zone vol. 1
+  url: https://soundtrackinfo.com/OST/twilightzone1
+- title: The MovieMusic Store – Twilight Zone Vol. 1
+  url: https://www.moviemusic.com/soundtrack/M03538/twilightzone1/
+- title: 45worlds – Varèse Sarabande VCD 47247
+  url: https://mail.45worlds.com/cdalbum/cd/vcd47247
+research_confidence: low
+last_verified: '2026-11-20'
+relevance: core
+media:
+- type: link
+  title: eBay catalogue page – Twilight Zone Vol. 1 CD (1990)
+  url: https://www.ebay.com/p/3145891
+  host: eBay
+  rights: link-only
+  subtype: listing
+categories:
+- music/soundtracks

@@ -1,0 +1,17 @@
+title: The Twilight Zone Trivia (Crowdpurr)
+kind: game
+publisher: Crowdpurr (user-generated)
+description: >-
+  A free multiple-choice Twilight Zone quiz on the Crowdpurr live-trivia platform, usable for virtual or in-person
+  trivia nights.
+subtype: trivia
+details:
+  licensed: false
+relevance: tangential
+research_confidence: medium
+categories:
+- games/board-card-games
+sources:
+- title: 'Crowdpurr: The Twilight Zone Trivia'
+  url: https://crowdpurr.com/trivia-games/the-twilight-zone
+last_verified: '2026-11-20'

@@ -3,13 +3,17 @@ kind: artwork
 subtype: title-sequence
 year: 1985
 creator: 'Colossal Pictures (main title supervision: Michael Hamilton)'
-description: The CBS revival's opening mixed live action and animation and was set to a reworked theme recorded
-  by the Grateful Dead with Merl Saunders. Colossal Pictures, the San Francisco studio, designed and produced it.
+description: >-
+  The CBS revival's opening mixed live action and animation and was set to a reworked theme recorded by the Grateful
+  Dead with Merl Saunders. Colossal Pictures, the San Francisco studio, designed and produced it.
 details:
   series: The Twilight Zone (1985-89)
   medium: 'Mixed media: live action and animation'
 sources:
 - title: artofthetitle.com
   url: https://www.artofthetitle.com/title/the-twilight-zone-1985/
-research_confidence: high
-last_verified: '2026-11-19'
+research_confidence: medium
+last_verified: '2026-11-20'
+relevance: core
+categories:
+- artwork/title-design

@@ -1,9 +1,20 @@
 title: Cooties
 artist: Aimee Allen
-tz_connection: unclassified
+tz_connection: lyric-mention
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-research_confidence: low
-description: A song by Aimee Allen listed in the original research with no stated Twilight Zone connection. The
-  tie is probably a lyric line or sample, but it has not been verified.
+- title: 'AllMusicals: Hairspray - Cooties lyrics'
+  url: https://www.allmusicals.com/lyrics/hairspray/cooties.htm
+- title: 'Hairspray Wiki: Cooties'
+  url: https://hairspray.fandom.com/wiki/Cooties
+research_confidence: medium
+description: >-
+  A song from Hairspray by Marc Shaiman and Scott Wittman, sung by the mean-girl character Amber Von Tussle as she
+  taunts Tracy Turnblad. Aimee Allen performs it on the 2007 film soundtrack; the number dates from the 2002 Broadway
+  show.
+album: 'Hairspray: Soundtrack to the Motion Picture'
+genre: Musical theatre / pop
+year: 2007
+relevance: tangential
+last_verified: '2026-11-20'

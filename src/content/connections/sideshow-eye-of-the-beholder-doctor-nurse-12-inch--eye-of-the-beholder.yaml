@@ -1,0 +1,10 @@
+from: works/sideshow-eye-of-the-beholder-doctor-nurse-12-inch
+to: 1959/eye-of-the-beholder
+kind: reference
+confidence: documented
+summary: >-
+  Recreates the hospital staff whose faces are revealed at the climax of 'The Eye of the Beholder' (1960).
+sources:
+- title: 'Entertainment Earth: Eye of the Beholder Set'
+  url: https://www.entertainmentearth.com/product/eye-of-the-beholder-set/sid6900
+last_verified: '2026-11-20'

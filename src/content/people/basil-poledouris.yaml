@@ -1,0 +1,27 @@
+name: Basil Poledouris
+bio: >-
+  Composer of Conan the Barbarian and RoboCop; his four 1985 Twilight Zone scores are among the largest on the Intrada
+  set.
+roles:
+- composer
+tz_credits:
+- series: The Twilight Zone (1985-1989)
+  work: A Message from Charity
+  ref: 1985/a-message-from-charity
+- series: The Twilight Zone (1985-1989)
+  work: Monsters!
+  ref: 1985/monsters
+- series: The Twilight Zone (1985-1989)
+  work: Profile in Silver
+  ref: 1985/profile-in-silver
+- series: The Twilight Zone (1985-1989)
+  work: Song of the Younger World
+  ref: 1985/song-of-the-younger-world
+relevance: core
+research_confidence: high
+sources:
+- title: Intrada – The Twilight Zone (3CD) ISC 348
+  url: https://store.intrada.com/s.nl/it.A/id.10063/.f
+- title: SoundtrackCollector – Twilight Zone (1985) composers
+  url: https://www.soundtrackcollector.com/title/28972/Twilight+Zone
+last_verified: '2026-11-20'

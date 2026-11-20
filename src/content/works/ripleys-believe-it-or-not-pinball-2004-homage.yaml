@@ -1,0 +1,18 @@
+title: Ripley's Believe It or Not! (pinball)
+kind: game
+year: 2004
+publisher: Stern Pinball
+description: >-
+  Its tilt callout, 'Skate with the penguins at your own risk in The Ripley Zone,' riffs on the Twilight Zone table's
+  tilt quote. The table is otherwise unrelated to The Twilight Zone.
+subtype: pinball-homage
+details:
+  licensed: false
+relevance: tangential
+research_confidence: medium
+categories:
+- games/game-homages
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'

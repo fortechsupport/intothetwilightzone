@@ -1,0 +1,11 @@
+from: songs/hassle-hound-monsters-are-due-on-maple-street
+to: 1959/the-monsters-are-due-on-maple-street
+kind: reference
+confidence: documented
+summary: >-
+  Takes its title from 'The Monsters Are Due on Maple Street', the 1960 episode about neighbours turning on each
+  other.
+sources:
+- title: 'Last.fm: Hassle Hound - Monsters Are Due on Maple Street'
+  url: https://www.last.fm/music/Hassle+Hound/_/Monsters+Are+Due+on+Maple+Street
+last_verified: '2026-11-20'

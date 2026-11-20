@@ -1,0 +1,24 @@
+name: Jeff Alexander
+bio: >-
+  Pianist-turned-arranger who started in vaudeville and became an MGM and television composer. Reba Wissner counts
+  two Twilight Zone scores by him, the best known being the wistful 'The Trouble with Templeton', which weaves in
+  a Johann Strauss waltz on a music box.
+roles:
+- composer
+tz_credits:
+- series: The Twilight Zone (1959-1964)
+  work: The Trouble with Templeton
+  ref: 1959/the-trouble-with-templeton
+- series: The Twilight Zone (1959-1964)
+  work: Second score (unnamed in the accessible text; often credited as 'Come Wander with Me')
+relevance: core
+research_confidence: medium
+sources:
+- title: Cambridge Core – Wissner, 'Less Frequent Used Composers' (A Dimension of Sound)
+  url: >-
+    https://www.cambridge.org/core/books/abs/dimension-of-sound/less-frequent-used-composers/30E5BD7C77E55C872CAAAD42A1E657A5
+- title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
+  url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
+- title: Filmtracks – The Twilight Zone (40th Anniversary Collection)
+  url: https://www.filmtracks.com/titles/twilight_zone.html
+last_verified: '2026-11-20'

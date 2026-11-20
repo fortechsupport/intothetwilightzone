@@ -1,0 +1,15 @@
+name: Lud Gluskin
+bio: >-
+  CBS's West Coast music director. In 1960 he was charged with finding a new main title; after commissioned candidates
+  were rejected he spliced two Marius Constant library cues together to create the familiar theme.
+roles:
+- music director
+tz_credits:
+- series: The Twilight Zone (1959-1964)
+  work: Assembled the seasons 2-5 main title from Constant's 'Etrange 3' and 'Milieu 2'
+relevance: core
+research_confidence: medium
+sources:
+- title: ClassicThemes – The Twilight Zone theme history
+  url: https://classicthemes.com/50sTVThemes/themePages/twilightZone.html
+last_verified: '2026-11-20'

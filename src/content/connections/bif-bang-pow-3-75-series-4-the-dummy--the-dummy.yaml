@@ -1,0 +1,11 @@
+from: works/bif-bang-pow-3-75-series-4-the-dummy
+to: 1959/the-dummy
+kind: reference
+confidence: documented
+summary: Based on Willie and Jerry from 'The Dummy' (1962).
+sources:
+- title: 'Daily Dead: Series 4 Black-and-White Figures'
+  url: https://dailydead.com/?p=154336
+- title: 'Dread Central: #SDCC16 Bif Bang Pow! Adds Color to Series 4'
+  url: https://dreadcentral.com/news/170623/sdcc16-bif-bang-pow-adds-color-twilight-zone-series-4
+last_verified: '2026-11-20'

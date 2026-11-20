@@ -1,0 +1,12 @@
+from: works/bif-bang-pow-8-inch-cyclops-alicia
+to: 1959/the-fear
+kind: reference
+confidence: documented
+summary: Both figures come from original-series episodes (the-fear, the-lonely).
+sources:
+- title: Entertainment Earth product page
+  url: >-
+    https://www.entertainmentearth.com/product/the-twilight-zone-cyclops-and-alicia-action-figures/bbp05101gg
+- title: 'Entertainment Earth News: Retro Mego Style'
+  url: https://www.entertainmentearth.com/news/twilight-zone-action-figures-take-retro-mego-style/
+last_verified: '2026-11-20'

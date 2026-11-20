@@ -3,8 +3,9 @@ kind: collectible
 subtype: trading-cards
 year: 2020
 creator: Rittenhouse Archives
-description: Released July 2020, this set swapped photographs for Juan Ortiz's stylised episode illustrations on
-  its base cards, with acetate and portrait inserts.
+description: >-
+  Released July 2020, this set swapped photographs for Juan Ortiz's stylised episode illustrations on its base cards,
+  with acetate and portrait inserts.
 details:
   line: The Twilight Zone
   series: The Twilight Zone (1959)
@@ -16,8 +17,19 @@ details:
   licensed: true
 sources:
 - title: cardboardconnection.com
-  url: https://www.cardboardconnection.com/2020-rittenhouse-twilight-zone-archives-trading-cards?noamp=mobile
+  url: >-
+    https://www.cardboardconnection.com/2020-rittenhouse-twilight-zone-archives-trading-cards?noamp=mobile
 - title: previewsworld.com
   url: https://previewsworld.com/Catalog/FEB209093
-research_confidence: high
-last_verified: '2026-11-19'
+- title: 'Cardboard Connection: 2020 Rittenhouse Twilight Zone Archives'
+  url: https://www.cardboardconnection.com/2020-rittenhouse-twilight-zone-archives-trading-cards
+- title: 'Trading Card Database: 2020 Rittenhouse Twilight Zone Archives'
+  url: https://www.tcdb.com/ChecklistByName.cfm/sid/231506/2020-Rittenhouse-Twilight-Zone-Archives
+- title: 'Midtown Comics: Twilight Zone Archives Trading Cards Box'
+  url: https://www.midtowncomics.com/product/1948977
+research_confidence: medium
+last_verified: '2026-11-20'
+publisher: Rittenhouse Archives
+relevance: core
+categories:
+- merchandise/trading-cards

@@ -1,0 +1,9 @@
+from: works/bif-bang-pow-willie-and-jerry-bobblehead
+to: 1959/the-dummy
+kind: reference
+confidence: documented
+summary: Based on Willie and Jerry from 'The Dummy' (1962).
+sources:
+- title: 'Entertainment Earth: Willie and Jerry Bobble Head'
+  url: https://www.entertainmentearth.com/product/the-twilight-zone-willie-and-jerry-bobble-head/bbp05010
+last_verified: '2026-11-20'

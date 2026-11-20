@@ -1,0 +1,17 @@
+name: Lucien Moraweck
+bio: >-
+  CBS radio and television staff composer whose library cues were among the stock pieces music editors tracked into
+  early Twilight Zone episodes.
+roles:
+- composer
+tz_credits:
+- series: The Twilight Zone (1959-1964)
+  work: Mr. Denton on Doomsday
+  ref: 1959/mr-denton-on-doomsday
+relevance: related
+research_confidence: medium
+sources:
+- title: Cambridge Core – Wissner, 'Episode and Cue Information' appendix
+  url: >-
+    https://core-prod.cambridgecore.org/core/books/dimension-of-sound/episode-and-cue-information/D3509C7720B4715668F1CDF11692BA78
+last_verified: '2026-11-20'

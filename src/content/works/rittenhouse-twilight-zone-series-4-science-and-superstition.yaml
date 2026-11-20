@@ -3,8 +3,9 @@ kind: collectible
 subtype: trading-cards
 year: 2005
 creator: Rittenhouse Archives
-description: The fourth series, covering twelve more episodes at six cards apiece, which brought the cumulative
-  checklist to 288 cards.
+description: >-
+  The fourth series, covering twelve more episodes at six cards apiece, which brought the cumulative checklist to
+  288 cards.
 details:
   line: The Twilight Zone
   series: The Twilight Zone (1959)
@@ -16,5 +17,9 @@ sources:
   url: https://nslists.com/twizone4.htm
 - title: monsterwax.com
   url: https://www.monsterwax.com/TheWrapper/twilightzone.html
-research_confidence: high
-last_verified: '2026-11-19'
+research_confidence: medium
+last_verified: '2026-11-20'
+publisher: Rittenhouse Archives
+relevance: core
+categories:
+- merchandise/trading-cards

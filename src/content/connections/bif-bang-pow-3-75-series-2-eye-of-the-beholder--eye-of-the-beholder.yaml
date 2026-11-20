@@ -1,0 +1,13 @@
+from: works/bif-bang-pow-3-75-series-2-eye-of-the-beholder
+to: 1959/eye-of-the-beholder
+kind: reference
+confidence: documented
+summary: Recreates the bandaged Janet Tyler and the hospital staff of 'The Eye of the Beholder'.
+sources:
+- title: 'Entertainment Earth: Bandage Patient Series 2'
+  url: >-
+    https://www.entertainmentearth.com/product/the-twilight-zone-bandage-patient-3-34inch-figure-series-2/bbp05110
+- title: 'Entertainment Earth: Bandaged Patient in Green'
+  url: >-
+    https://www.entertainmentearth.com/product/the-twilight-zone-eye-of-the-beholder-bandaged-patient-3-34inch-action-figure-in-green-series-2/bbp05110alt
+last_verified: '2026-11-20'

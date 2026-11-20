@@ -4,15 +4,21 @@ subtype: game-appearance
 year: 2013
 creator: FarSight Studios
 publisher: FarSight Studios
-description: FarSight Studios' licensed digital recreation of the 1993 Bally table for The Pinball Arcade, released
-  on 5 February 2013 for PlayStation 3 and PS Vita and later on other platforms. FarSight ran a 2012 Kickstarter
-  to help pay for the Twilight Zone license. The table was delisted in mid-2018 when the Williams/Bally license
-  lapsed.
+description: >-
+  FarSight Studios' licensed digital recreation of the 1993 Bally table for The Pinball Arcade, released on 5 February
+  2013 for PlayStation 3 and PS Vita and later on other platforms. FarSight ran a 2012 Kickstarter to help pay for
+  the Twilight Zone license. The table was delisted in mid-2018 when the Williams/Bally license lapsed.
 details:
   platforms:
   - PlayStation 3
   - PS Vita
   licensed: true
+  kickstarter: May-June 2012
+  release: '2013-02-05'
+  delisted: '2018-06-30'
+  pack: Table Pack 8
+  people:
+  - Roger Sharpe
 sources:
 - title: blog.playstation.com
   url: https://blog.playstation.com/2013/02/05/pinball-arcade-twilight-zone-table-out-today/
@@ -20,5 +26,17 @@ sources:
   url: https://en.wikipedia.org/wiki/Twilight_Zone_(pinball)
 - title: venturebeat.com
   url: https://venturebeat.com/2012/05/20/twilight-zone-pinball
+- title: 'Game Informer: Help bring Twilight Zone table to Pinball Arcade via Kickstarter'
+  url: >-
+    https://www.gameinformer.com/b/news/archive/2012/05/21/help-bring-twilight-zone-table-to-pinball-arcade-via-kickstarter.aspx
+- title: 'Nintendo Life: Pinball Arcade Twilight Zone hits Kickstarter target'
+  url: https://www.nintendolife.com/news/2012/06/pinball_arcade_the_twilight_zone_hits_kickstarter_target
+- title: 'Wikipedia: The Pinball Arcade'
+  url: https://en.wikipedia.org/wiki/The_Pinball_Arcade
+- title: 'VideoGameGeek: Table Pack 8: Twilight Zone'
+  url: https://videogamegeek.com/videogame/149044/table-pack-8-twilight-zone
 research_confidence: high
-last_verified: '2026-11-19'
+last_verified: '2026-11-20'
+relevance: core
+categories:
+- games/pinball-arcade

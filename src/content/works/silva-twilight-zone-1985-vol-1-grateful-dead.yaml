@@ -4,9 +4,10 @@ subtype: soundtrack-album
 year: 1998
 creator: Grateful Dead and Merl Saunders
 publisher: Silva Screen Records
-description: The first commercial release of the revival's music, gathering the main and end titles with the band's
-  and Saunders' cues for segments such as "Nightcrawlers", "I of Newton", "The Shadow Man" and "The Misfortune Cookie",
-  plus a three-part "Kentucky Rye" suite. Huey Lewis guests on harmonica on the "Nightcrawlers" suite.
+description: >-
+  The first commercial release of the revival's music, gathering the main and end titles with the band's and Saunders'
+  cues for segments such as "Nightcrawlers", "I of Newton", "The Shadow Man" and "The Misfortune Cookie", plus a
+  three-part "Kentucky Rye" suite. Huey Lewis guests on harmonica on the "Nightcrawlers" suite.
 details:
   format: CD
   series: The Twilight Zone (1985-89)
@@ -16,5 +17,19 @@ sources:
   url: https://deaddisc.com/disc/Twilight_Zone.htm
 - title: jambase.com
   url: https://www.jambase.com/article/grateful-dead-merl-saunders-twilight-zone-soundtrack
-research_confidence: high
-last_verified: '2026-11-19'
+- title: DeadDisc – Twilight Zone Main (song)
+  url: https://deaddisc.com/songs/Twilight_Zone_Main.htm
+- title: DeadDisc – Twilight Zone End (song)
+  url: https://deaddisc.com/songs/Twilight_Zone_End.htm
+research_confidence: low
+last_verified: '2026-11-20'
+relevance: core
+media:
+- type: link
+  title: DeadDisc release page
+  url: https://deaddisc.com/disc/Twilight_Zone.htm
+  host: DeadDisc
+  rights: link-only
+  subtype: listing
+categories:
+- music/soundtracks

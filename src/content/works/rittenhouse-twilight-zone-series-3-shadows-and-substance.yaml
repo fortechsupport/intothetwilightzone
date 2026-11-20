@@ -15,5 +15,11 @@ sources:
   url: https://nslists.com/twizone3.htm
 - title: tradercracks.com
   url: https://tradercracks.com/2002-rittenhouse-twilight-zone-shadows-and-substance-trading-cards
-research_confidence: high
-last_verified: '2026-11-19'
+- title: SciFiHobby checklist
+  url: https://www.scifihobby.com/products/checklist.cfm?SetID=49
+research_confidence: medium
+last_verified: '2026-11-20'
+publisher: Rittenhouse Archives
+relevance: core
+categories:
+- merchandise/trading-cards

@@ -3,14 +3,18 @@ kind: game
 subtype: board-game
 year: 1964
 publisher: Ideal Toy Company
-description: Ideal Toy Company's licensed roll-and-move style board game, played with a three-ring spinner instead
-  of dice. Players race coloured pawns from the centre of the board along a maze called the Road to Reality to reach
-  their home corner. Blocking cards, an "eye" result that sends you onto a rival's longer path, and Hand of Destiny
-  spaces add unpredictable twists. It is generally cited as the first Twilight Zone merchandise game.
+description: >-
+  Ideal Toy Company's licensed roll-and-move style board game, played with a three-ring spinner instead of dice.
+  Players race coloured pawns from the centre of the board along a maze called the Road to Reality to reach their
+  home corner. Blocking cards, an "eye" result that sends you onto a rival's longer path, and Hand of Destiny spaces
+  add unpredictable twists. It is generally cited as the first Twilight Zone merchandise game.
 details:
   platforms:
   - tabletop
   licensed: true
+  players: 2-4
+  components: board, 4 pawns (red, blue, green, yellow), 12 blocking cards, spinner; rules inside box top
+  designer: uncredited
 ids:
   bgg: '30347'
 sources:
@@ -22,5 +26,17 @@ sources:
   url: https://www.slashfilm.com/1909975/twilight-zone-merchandise-board-game-before-pilot
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(franchise)
+- title: 'Hake''s auction: The Twilight Zone Game in unused condition'
+  url: https://www.hakes.com/Auction/ItemDetail/90600/THE-TWILIGHT-ZONE-GAME-IN-UNUSED-CONDITION
 research_confidence: high
-last_verified: '2026-11-19'
+last_verified: '2026-11-20'
+relevance: core
+media:
+- type: link
+  title: Hake's auction listing with box photos
+  url: https://www.hakes.com/Auction/ItemDetail/90600/THE-TWILIGHT-ZONE-GAME-IN-UNUSED-CONDITION
+  host: Hake's Auctions
+  rights: link-only
+  subtype: listing
+categories:
+- games/board-card-games

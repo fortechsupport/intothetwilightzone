@@ -1,0 +1,18 @@
+title: 'Persona 2: Eternal Punishment'
+kind: game
+year: 2000
+creator: Atlus
+publisher: Atlus
+description: >-
+  In this JRPG, Katsuya dismisses an explanation of reality being rewritten by saying it 'isn't the Twilight Zone'.
+subtype: video-game-homage
+details:
+  licensed: false
+relevance: tangential
+research_confidence: medium
+categories:
+- games/game-homages
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'

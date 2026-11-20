@@ -4,17 +4,34 @@ subtype: score-release
 year: 1983
 creator: Bernard Herrmann, Fred Steiner, Jerry Goldsmith, Nathan Scott
 publisher: Varèse Sarabande
-description: The second volume is framed by Herrmann's original first-season main and end titles and includes his
-  score for "Where Is Everybody?" plus music for "The 100 Yards Over the Rim", "The Big Tall Wish" and "A Stop at
-  Willoughby".
+description: >-
+  The second volume is framed by Herrmann's original first-season main and end titles and includes his score for
+  "Where Is Everybody?" plus music for "The 100 Yards Over the Rim", "The Big Tall Wish" and "A Stop at Willoughby".
 details:
   format: LP
   series: The Twilight Zone (1959-64)
   catalog_no: STV 81178
+  label: Varèse Sarabande
+  catalog: STV 81178
 sources:
 - title: mail.45worlds.com
   url: https://mail.45worlds.com/vinyl/album/stv81178
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/Var%C3%A8se_Sarabande_albums_discography
+- title: RareVinyl – The Twilight Zone Volume Two US LP STV81178
+  url: >-
+    https://ca.rarevinyl.com/products/various-film-radio-theatre-and-tv-the-twilight-zone-volume-two-us-vinyl-lp-album-record-stv81178-836016
+- title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
+  url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
 research_confidence: high
-last_verified: '2026-11-19'
+last_verified: '2026-11-20'
+relevance: core
+media:
+- type: link
+  title: 45worlds listing – STV 81178
+  url: https://mail.45worlds.com/vinyl/album/stv81178
+  host: 45worlds
+  rights: link-only
+  subtype: listing
+categories:
+- music/soundtracks

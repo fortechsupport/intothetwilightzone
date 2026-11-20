@@ -1,0 +1,25 @@
+title: 'The Invaders: The Invader (Sideshow 12-inch)'
+kind: collectible
+creator: Sideshow Toy
+publisher: Sideshow Toy
+description: >-
+  A 12-inch figure of one of the tiny spacemen from 'The Invaders', sculpted by Mat Falls and packed with a replica
+  of the ray weapon seen on screen (the toy version does not light up).
+subtype: action-figure
+details:
+  item_number: SID6905
+  sculptor: Mat Falls
+  licensed: true
+  people:
+  - Mat Falls
+  - Richard Matheson
+relevance: core
+research_confidence: high
+categories:
+- merchandise/toys-figures
+sources:
+- title: 'Toymania Spotlight: Twilight Zone Invader'
+  url: https://www.toymania.com/columns/spotlight/tzinvader.shtml
+- title: 'Entertainment Earth: The Invader'
+  url: https://www.entertainmentearth.com/product/twilight-zone-invader/sid6905
+last_verified: '2026-11-20'

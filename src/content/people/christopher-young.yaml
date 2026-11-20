@@ -1,0 +1,21 @@
+name: Christopher Young
+bio: >-
+  Horror and thriller film composer (Hellraiser, Sinister) who was early in his career when he scored segments of
+  the 1985 revival.
+roles:
+- composer
+tz_credits:
+- series: The Twilight Zone (1985-1989)
+  work: A Small Talent for War
+  ref: 1985/a-small-talent-for-war
+- series: The Twilight Zone (1985-1989)
+  work: A Matter of Minutes
+  ref: 1985/a-matter-of-minutes
+relevance: core
+research_confidence: high
+sources:
+- title: Intrada – The Twilight Zone (3CD) ISC 348
+  url: https://store.intrada.com/s.nl/it.A/id.10063/.f
+- title: SoundtrackCollector – Twilight Zone (1985) composers
+  url: https://www.soundtrackcollector.com/title/28972/Twilight+Zone
+last_verified: '2026-11-20'

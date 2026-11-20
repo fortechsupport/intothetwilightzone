@@ -1,0 +1,19 @@
+title: The Twilight Zone (Commodore 64 version, unreleased)
+kind: game
+year: 1988
+publisher: First Row Software
+description: >-
+  A Commodore 64 port of First Row's 1988 Twilight Zone adventure appeared in catalogs and a news item in The Games
+  Machine issue 14, but it never shipped. No copy is known to exist, and the reason for its cancellation is undocumented.
+subtype: unreleased-game
+details:
+  status: cancelled/unreleased
+  licensed: true
+relevance: core
+research_confidence: medium
+categories:
+- games/other-games
+sources:
+- title: 'Games That Weren''t: Twilight Zone'
+  url: https://www.gamesthatwerent.com/gtw64/twilight-zone
+last_verified: '2026-11-20'

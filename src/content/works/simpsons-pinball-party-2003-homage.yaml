@@ -1,0 +1,18 @@
+title: The Simpsons Pinball Party (pinball)
+kind: game
+year: 2003
+publisher: Stern Pinball
+description: >-
+  Professor Frink's 'You have come to the end of your journey' callout echoes the 'Lost in the Zone' wording from
+  the Twilight Zone table. The table is otherwise unrelated to The Twilight Zone.
+subtype: pinball-homage
+details:
+  licensed: false
+relevance: tangential
+research_confidence: medium
+categories:
+- games/game-homages
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
