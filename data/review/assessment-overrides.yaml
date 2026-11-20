@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 locations/busy-bee-cafe-ridgeview-ohio:
   connection: Setting of Richard Matheson's "Nick of Time."
   tier: core
@@ -657,7 +656,6 @@ works/wpix-new-years-marathon:
   recommendation: include
   reason: Explains the best-known TZ ritual; flagged medium confidence because the first year is uncertain.
   subcategory: Broadcasts and marathons
-=======
 people/arthur-kempel:
   connection: Scored 'The Elevator' for the 1985 CBS revival.
   tier: core
@@ -2523,4 +2521,3 @@ works/wissner-a-dimension-of-sound-2013:
   tier_reason: About The Twilight Zone itself, or officially licensed.
   recommendation: include
   reason: The research backbone for every music page on the site.
->>>>>>> origin/claude/project-thread-zn9j20

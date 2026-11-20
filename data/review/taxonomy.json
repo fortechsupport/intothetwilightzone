@@ -15194,6 +15194,14 @@
  "films/rod-serling-beyond-the-twilight-zone": [
   {
    "cat": "movies",
+   "sub": "twilight-zone-films",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Twilight Zone films",
+   "isNew": false
+  },
+  {
+   "cat": "movies",
    "sub": "documentaries",
    "group": null,
    "catTitle": "Movies",
@@ -17244,6 +17252,14 @@
   }
  ],
  "films/witches-warlocks-and-werewolves-abc-proposal": [
+  {
+   "cat": "movies",
+   "sub": "rod-serling-films",
+   "group": "Television and other",
+   "catTitle": "Movies",
+   "subTitle": "Rod Serling's films",
+   "isNew": false
+  },
   {
    "cat": "movies",
    "sub": "shorts-and-other",
