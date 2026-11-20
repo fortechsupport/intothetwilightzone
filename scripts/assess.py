@@ -127,12 +127,21 @@ def ref_label(ref: str) -> str:
         return ep_label(ref)
     col, _, rid = ref.partition("/")
     if col == "series":
-        return f"The Twilight Zone ({rid} series)"
+        return {"1959": "The Twilight Zone (original series)", "1985": "The Twilight Zone (1985 revival)", "2002": "The Twilight Zone (2002 revival)", "2019": "The Twilight Zone (2019 revival)"}.get(rid, f"The Twilight Zone ({rid} series)")
     d = DB.get(col, {}).get(rid)
     if d:
         t = d.get("title") or d.get("name") or rid
         return q(t) if col in ("songs",) else t
     return ref
+
+
+def nice_date(v) -> str:
+    import datetime as _dt
+    v = str(v)
+    try:
+        return _dt.date.fromisoformat(v[:10]).strftime("%B %-d, %Y")
+    except ValueError:
+        return v
 
 
 def best_source(d: dict) -> tuple[str, str]:
@@ -192,7 +201,7 @@ def rec_by_evidence(tier: str, d: dict, what: str) -> tuple[str, str]:
 
 CONF_TEXT = {"confirmed-by-creator": "the makers have said so", "documented": "a published source makes the link",
              "fan-noted": "only fans have pointed it out; no source confirms it"}
-KIND_VERB = {"official-adaptation": "an official adaptation of", "remake": "a remake of", "inspired-by": "drawn from",
+KIND_VERB = {"official-adaptation": "an official adaptation of", "remake": "a remake of", "inspired-by": "inspired by",
              "homage": "an homage to", "parody": "a parody of", "reference": "a reference to",
              "lyric-mention": "a lyric mention of"}
 
@@ -234,7 +243,8 @@ def a_episode(rid, d):
     s = str(d.get("series"))
     when = d.get("air_date") or ""
     w = names(d.get("writers"))
-    conn = f"Season {d.get('season')}, episode {d.get('episode')} of {SERIES_NAME.get(s, s)}" + (f", first aired {when}" if when else "") + (f", written by {w}" if w else "") + "."
+    conn = f"Season {d.get('season')}, episode {d.get('episode')} of {SERIES_NAME.get(s, s)}" + (f", first aired {nice_date(when)}" if when else "") + (f", written by {w}" if w else "")
+    conn = conn.rstrip(".") + "."
     rec = "include"
     reason = "Every episode of the four official series belongs in a complete episode guide."
     if not d.get("synopsis"):
@@ -259,6 +269,8 @@ def film_connection(rid, d) -> tuple[str, str, str, str] | None:
         summ = ""
     if res.get("text"):
         sentence = f"Suggested link to {target}: {res['text']}"
+    elif summ and len(summ) > 40 and str(c.get("to", "")).startswith("series/"):
+        sentence = summ
     elif summ and len(summ) > 40:
         sentence = summ if target.strip("“”") in summ or "episode" in summ.lower() else f"{KIND_VERB.get(kind, kind).capitalize()} {target}. {summ}"
     else:
@@ -411,12 +423,13 @@ def a_person(rid, d):
         parts.append("worked on " + names([FILMS[r.split('/', 1)[1]]["title"] for r in sorted(others["tzfilm"])], 2))
     if others.get("ng"):
         parts.append(f"worked on {len(others['ng'])} Night Gallery production{'s' if len(others['ng']) > 1 else ''}")
-    if others.get("radio"):
-        rt = [q(DB["radio"][r.split("/", 1)[1]]["title"]) for r in sorted(others["radio"])]
-        n = len(rt)
-        parts.append(f"performed in or adapted {n} Twilight Zone radio drama{'s' if n > 1 else ''} ({names(rt, 3)})")
+    for verb, role in (("voiced", "performed in"), ("adapted", "adapted")):
+        refs = sorted({ref for r, s_, ref in cr if s_ == "radio" and r == verb})
+        if refs:
+            rt = [q(DB["radio"][r.split("/", 1)[1]]["title"]) for r in refs]
+            parts.append(f"{role} {len(rt)} Twilight Zone radio drama{'s' if len(rt) > 1 else ''} ({names(rt, 3)})")
     if not parts and tzc:
-        parts = [f"{c.get('role') or 'credited'} on {c.get('work')} ({c.get('series')})" for c in tzc[:3]]
+        parts = ["was credited as " + "; ".join(f"{c.get('role') or 'contributor'} on {q(str(c.get('work')))} ({c.get('series')})" for c in tzc[:3])]
     quotes = [qid for qid, qd in DB.get("quotes", {}).items() if qd.get("person") == name]
     if parts:
         extra = len(parts) - 4
@@ -603,6 +616,8 @@ def a_work(rid, d):
         tier = "related"
     else:
         tier = WORK_TIER.get(kind, "related") if tz or is_serling(d) else "tangential"
+    if re.search(r"no twilight zone|non-twilight zone|without the twilight zone", str(d.get("description", "")) + title, re.I):
+        tier = "tangential"
     licensed = (d.get("details") or {}).get("licensed")
     conn = desc or title
     for _, c in CONN_FROM.get(f"works/{rid}", [])[:1]:
