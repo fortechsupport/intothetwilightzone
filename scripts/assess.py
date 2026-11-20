@@ -587,6 +587,29 @@ def a_magazine(rid, d):
 def a_essay(rid, d):
     desc = first_sentence(d.get("description"), 300)
     tier = d.get("relevance") or ("core" if mentions_tz(d.get("title"), d.get("description")) else "related")
+    if d.get("kind") == "review" and d.get("review_type"):
+        about = names([ref_label(r) for r in d.get("reviews") or []], 2) or "the show"
+        by = f" by {names(d.get('authors'), 2)}" if d.get("authors") else ""
+        outlet = f" in {d.get('published_in')}" if d.get("published_in") else ""
+        when = f" ({year(d)})" if year(d) else ""
+        rt = d.get("review_type")
+        lead = {"contemporary": f"Review of {about}{outlet}{by}{when}, written at the time of release.",
+                "retrospective": f"Later appraisal of {about}{outlet}{by}{when}.",
+                "ranking": f"Ranking or best-of list{outlet}{when} that places {about}.",
+                "awards-citation": f"Awards citation for {about}{when}."}[rt]
+        if d.get("outlet_rating"):
+            lead += f" Rating: {d['outlet_rating']}."
+        conn = f"{lead} {desc}".strip()
+        why = {"contemporary": "Shows how critics received it when it was new; part of the reception history.",
+               "retrospective": "Shows how its reputation has held up; useful context for readers.",
+               "ranking": "Documents where the show stands in critics' and viewers' estimation.",
+               "awards-citation": "Records an honor the show received."}[rt]
+        if d.get("research_confidence") == "low":
+            return result(conn, tier, "Reception of the show.", "maybe", "Only lightly verified; " + why[0].lower() + why[1:], d)
+        return result(conn, tier, "Reception of the show.", "include", why, d)
+    if d.get("research_confidence") == "low":
+        return result(desc, tier, "Writing about the show." if tier == "core" else "Writing by or about Rod Serling.", "maybe",
+                      "Only the title and a listing were checked; keep if you want the fullest bibliography.", d)
     return result(desc, tier, "Writing about the show." if tier == "core" else "Writing by or about Rod Serling.", *rec_by_evidence(tier, d, "piece of writing"), d)
 
 
@@ -665,7 +688,10 @@ BOOK_SUB = {"anthology": "Story anthologies", "scripts": "Scripts and teleplays"
             "memoir": "Biography and memoir", "juvenile": "Young readers", "art-book": "Art and puzzle books", "puzzle-trivia": "Art and puzzle books",
             "graphic-novel": "Graphic novels", "play": "Scripts and teleplays", "other": "Other books"}
 ESSAY_SUB = {"journal-article": "Journal articles", "essay": "Essays", "book-chapter": "Book chapters", "review": "Reviews",
-             "interview": "Interviews", "speech": "Speeches"}
+             "interview": "Interviews", "speech": "Speeches", "article": "Articles", "lecture": "Lectures", "script": "Scripts",
+             "academic-thesis": "Theses and dissertations"}
+REVIEW_SUB = {"contemporary": "Reviews: at release", "retrospective": "Reviews: retrospective", "ranking": "Rankings and best-of lists",
+              "awards-citation": "Awards citations"}
 CONN_SUB = {"official-adaptation": "Official adaptations", "remake": "Remakes", "inspired-by": "Inspired by an episode",
             "homage": "Homages", "parody": "Parodies", "reference": "References", "lyric-mention": "Lyric mentions"}
 
@@ -750,6 +776,8 @@ def subcategory(col: str, rid: str, d: dict) -> str:
     if col == "connections":
         return CONN_SUB.get(d.get("kind"), "Other links")
     if col == "essays":
+        if d.get("kind") == "review" and d.get("review_type"):
+            return REVIEW_SUB.get(d.get("review_type"), "Reviews")
         return ESSAY_SUB.get(d.get("kind"), "Other writing")
     if col == "quotes":
         return "Quotes"
