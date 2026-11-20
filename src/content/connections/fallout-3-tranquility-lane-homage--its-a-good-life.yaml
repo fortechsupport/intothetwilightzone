@@ -1,0 +1,11 @@
+from: works/fallout-3-tranquility-lane-homage
+to: 1959/its-a-good-life
+kind: homage
+confidence: documented
+summary: Its monochrome suburb ruled by an all-powerful child echoes 'It's a Good Life'.
+sources:
+- title: 'PC Gamer: Why I love Fallout 3''s Tranquility Lane'
+  url: https://pcgamer.com/why-i-love-fallout-3s-tranquility-lane
+- title: 'Wicked Horror: Five horror nods in the Fallout series'
+  url: https://wickedhorror.com/top-horror-lists/five-horror-nods-in-the-fallout-series
+last_verified: '2026-11-20'

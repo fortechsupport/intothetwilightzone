@@ -1,0 +1,28 @@
+title: Licensed songs in The Twilight Zone (2019-2020)
+kind: other
+year: 2019-2020
+description: >-
+  Tunefind maintains episode-by-episode lists of the pop songs licensed for the 2019 Paramount+ revival, alongside
+  Beltrami and Roberts's score.
+subtype: episode-song-list
+relevance: core
+research_confidence: medium
+sources:
+- title: Tunefind – The Twilight Zone season 1 (2019)
+  url: https://www.tunefind.com/show/the-twilight-zone/season-1
+- title: Tunefind – The Twilight Zone season 2 (2019)
+  url: https://www.tunefind.com/show/the-twilight-zone/season-2
+media:
+- type: link
+  title: Tunefind – season 1
+  url: https://www.tunefind.com/show/the-twilight-zone/season-1
+  host: Tunefind
+  rights: link-only
+  subtype: listing
+- type: link
+  title: Tunefind – season 2
+  url: https://www.tunefind.com/show/the-twilight-zone/season-2
+  host: Tunefind
+  rights: link-only
+  subtype: listing
+last_verified: '2026-11-20'

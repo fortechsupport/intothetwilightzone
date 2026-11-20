@@ -1,0 +1,17 @@
+name: Guy Luypaertz
+bio: >-
+  European library composer whose cue, licensed through CBS's foreign library, was used in the early episode 'One
+  for the Angels'.
+roles:
+- composer
+tz_credits:
+- series: The Twilight Zone (1959-1964)
+  work: One for the Angels
+  ref: 1959/one-for-the-angels
+relevance: related
+research_confidence: medium
+sources:
+- title: Cambridge Core – Wissner, 'Episode and Cue Information' appendix
+  url: >-
+    https://core-prod.cambridgecore.org/core/books/dimension-of-sound/episode-and-cue-information/D3509C7720B4715668F1CDF11692BA78
+last_verified: '2026-11-20'

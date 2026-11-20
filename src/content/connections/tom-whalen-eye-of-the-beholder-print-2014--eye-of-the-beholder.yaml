@@ -1,0 +1,9 @@
+from: works/tom-whalen-eye-of-the-beholder-print-2014
+to: 1959/eye-of-the-beholder
+kind: reference
+confidence: documented
+summary: Illustrates the season 2 episode "Eye of the Beholder".
+sources:
+- title: Expresso Beans - Eye of the Beholder (Tom Whalen)
+  url: https://expressobeans.com/public/detail.php/200247
+last_verified: '2026-11-20'

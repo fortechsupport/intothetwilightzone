@@ -1,0 +1,11 @@
+from: works/grateful-dead-twilight-zone-sessions-1985
+to: 1985/but-can-she-type
+kind: reference
+confidence: documented
+summary: The recording sessions that produced the 1985 series theme and cues.
+sources:
+- title: Grateful Dead Archive Online – Twilight Zone Sessions, 1985-02
+  url: https://www.gdao.org/items/show/284353
+- title: JamBase – The Twilight Zone soundtrack recorded by Merl Saunders & Grateful Dead
+  url: https://www.jambase.com/article/grateful-dead-merl-saunders-twilight-zone-soundtrack
+last_verified: '2026-11-20'

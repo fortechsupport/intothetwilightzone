@@ -5,24 +5,36 @@ tz_credits:
 - series: The Twilight Zone (1985)
   work: Main title theme
   role: composer/performer
+- series: The Twilight Zone (1985-1989)
+  work: Main and end titles (with the Grateful Dead)
+- series: The Twilight Zone (1985-1989)
+  work: >-
+    Episode suites incl. 'Nightcrawlers', 'I of Newton', 'Children's Zoo', 'But Can She Type?', 'The Shadow Man',
+    'The Misfortune Cookie', 'Kentucky Rye'
 born: '1934-02-14'
 died: '2008-10-24'
 bio: >-
-  Keyboardist Merl Saunders, a frequent collaborator of the Grateful Dead's Jerry Garcia, co-created and
-  performed the 1985 revival's main title theme with the band, and their music was used in episodes of
-  the series.
+  Keyboardist Merl Saunders, a frequent collaborator of the Grateful Dead's Jerry Garcia, co-created and performed
+  the 1985 revival's main title theme with the band, and their music was used in episodes of the series.
 links:
   wikipedia: https://en.wikipedia.org/wiki/Merl_Saunders
 sources:
 - title: The Twilight Zone (1985 TV series) - Wikipedia
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
 - title: >-
-    Did You Know Grateful Dead & Merl Saunders Composed Music For 80s Twilight Zone Reboot - Live for
-    Live Music
+    Did You Know Grateful Dead & Merl Saunders Composed Music For 80s Twilight Zone Reboot - Live for Live Music
   url: >-
     https://liveforlivemusic.com/features/did-you-know-grateful-dead-merl-saunders-composed-music-80s-twilight-zone-reboot-watch
 - title: 'Merl Saunders: 2/14/34 - 10/24/08 - All About Jazz'
   url: https://www.allaboutjazz.com/news/merl-saunders-2-14-34-10-24-08
 - title: Merl Saunders - Wikipedia
   url: https://en.wikipedia.org/wiki/Merl_Saunders
-last_verified: '2026-11-19'
+- title: Intrada – The Twilight Zone (3CD) ISC 348
+  url: https://store.intrada.com/s.nl/it.A/id.10063/.f
+- title: JamBase – The Twilight Zone soundtrack recorded by Merl Saunders & Grateful Dead
+  url: https://www.jambase.com/article/grateful-dead-merl-saunders-twilight-zone-soundtrack
+- title: DeadDisc – Twilight Zone (release)
+  url: https://deaddisc.com/disc/Twilight_Zone.htm
+last_verified: '2026-11-20'
+relevance: core
+research_confidence: medium

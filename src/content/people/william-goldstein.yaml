@@ -1,0 +1,22 @@
+name: William Goldstein
+bio: Composer whose three revival scores include the tender 'Her Pilgrim Soul'.
+roles:
+- composer
+tz_credits:
+- series: The Twilight Zone (1985-1989)
+  work: Her Pilgrim Soul
+  ref: 1985/her-pilgrim-soul
+- series: The Twilight Zone (1985-1989)
+  work: The Card
+  ref: 1985/the-card
+- series: The Twilight Zone (1985-1989)
+  work: Time and Teresa Golowitz
+  ref: 1985/time-and-teresa-golowitz
+relevance: core
+research_confidence: high
+sources:
+- title: Intrada – The Twilight Zone (3CD) ISC 348
+  url: https://store.intrada.com/s.nl/it.A/id.10063/.f
+- title: SoundtrackCollector – Twilight Zone (1985) composers
+  url: https://www.soundtrackcollector.com/title/28972/Twilight+Zone
+last_verified: '2026-11-20'

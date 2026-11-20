@@ -1,0 +1,19 @@
+title: A Hat in Time (Twilight Bell)
+kind: game
+year: 2017
+creator: Gears for Breakfast
+publisher: Gears for Breakfast
+description: >-
+  The Twilight Bell area of Alpine Skyline, with its starry void and eerie music, is listed by fans as a nod to
+  The Twilight Zone.
+subtype: video-game-homage
+details:
+  licensed: false
+relevance: tangential
+research_confidence: low
+categories:
+- games/game-homages
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'

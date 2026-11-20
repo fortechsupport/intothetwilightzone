@@ -2,8 +2,9 @@ name: Thomas J. Wright
 roles:
 - artist
 - director
-bio: Painter of most of the gallery canvases that introduced each Night Gallery story. He later became a prolific
-  television director.
+bio: >-
+  Painter of most of the gallery canvases that introduced each Night Gallery story. He later became a prolific television
+  director.
 tz_credits:
 - series: Night Gallery
   work: Gallery paintings
@@ -12,7 +13,13 @@ tz_credits:
 sources:
 - title: 'Wikipedia: Night Gallery'
   url: https://en.wikipedia.org/wiki/Night_Gallery
+- title: 'SYFY Wire - ''Night Gallery: The Art of Darkness'' offers a private showing'
+  url: https://www.syfy.com/syfy-wire/night-gallery-the-art-of-darkness-rod-serling-exclusive
+- title: 'Black Gate - Rod Serling''s Night Gallery: The Art of Darkness (review)'
+  url: https://www.blackgate.com/?p=474382
+- title: 'TV Time Machine - The paintings of Night Gallery: interview with artist Tom Wright'
+  url: https://www.tvtimemachine.imdickenshesfenster.com/radio_show_wrightpics.htm
 research_confidence: high
 relevance: related
-last_verified: '2026-11-19'
+last_verified: '2026-11-20'
 locked: true

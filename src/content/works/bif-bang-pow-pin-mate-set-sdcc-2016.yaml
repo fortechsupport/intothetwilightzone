@@ -3,20 +3,30 @@ kind: collectible
 subtype: collectible
 year: 2016
 creator: Bif Bang Pow!
-description: A boxed set of six small wooden peg-style figures of Twilight Zone characters, revealed as a San Diego
-  Comic-Con 2016 convention exclusive.
+description: >-
+  A boxed set of six small wooden peg-style figures of Twilight Zone characters, revealed as a San Diego Comic-Con
+  2016 convention exclusive.
 details:
   line: Pin Mate
   series: The Twilight Zone (1959) - multiple episodes
   items:
   - Set of six painted wooden figures
   licensed: true
+  sku: BBP05900
 sources:
 - title: dreadcentral.com
-  url: https://www.dreadcentral.com/news/173602/sdcc16-first-look-twilight-zone-6-figure-wooden-pin-mate-set
+  url: >-
+    https://www.dreadcentral.com/news/173602/sdcc16-first-look-twilight-zone-6-figure-wooden-pin-mate-set
 - title: plasticandplush.com
   url: https://plasticandplush.com/2016/07/sdcc16-the-twilight-zone-pin-mate-set.html
 - title: entertainmentearth.com
-  url: https://www.entertainmentearth.com/product/the-twilight-zone-pin-mate-wooden-figure-set-of-6-convention-exclusive/bbp05900
-research_confidence: high
-last_verified: '2026-11-19'
+  url: >-
+    https://www.entertainmentearth.com/product/the-twilight-zone-pin-mate-wooden-figure-set-of-6-convention-exclusive/bbp05900
+- title: 'Horror News Network: SDCC Horror Exclusives - Twilight Zone Pin Mates'
+  url: https://horrornewsnetwork.net/?p=224328
+research_confidence: medium
+last_verified: '2026-11-20'
+publisher: Bif Bang Pow!
+relevance: core
+categories:
+- merchandise/toys-figures

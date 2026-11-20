@@ -1,0 +1,11 @@
+from: songs/doom-service-monsters-are-due
+to: 1959/the-monsters-are-due-on-maple-street
+kind: reference
+confidence: documented
+summary: >-
+  The title clips the name of 'The Monsters Are Due on Maple Street'; the link to the episode is inferred from the
+  title only.
+sources:
+- title: 'Last.fm: Doom Service - Monsters Are Due'
+  url: https://www.last.fm/music/Doom+Service/Live+From+Mt.+Doom/Monsters+Are+Due
+last_verified: '2026-11-20'

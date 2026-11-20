@@ -1,0 +1,27 @@
+title: The Twilight Zone theme – published sheet music
+kind: collectible
+year: 1980
+creator: Marius Constant
+description: >-
+  Piano and other arrangements of Constant's theme have been published since a 1980 registered edition; current
+  digital editions are sold by Musicnotes.
+subtype: sheet-music
+details:
+  licensed: true
+relevance: core
+research_confidence: medium
+categories:
+- merchandise/other-merchandise
+sources:
+- title: Musicnotes – Marius Constant sheet music
+  url: https://www.musicnotes.com/SheetMusic/Index/artists/Constant-Marius/default.asp
+- title: ClassicThemes – The Twilight Zone theme history
+  url: https://classicthemes.com/50sTVThemes/themePages/twilightZone.html
+media:
+- type: link
+  title: Musicnotes – Marius Constant sheet music
+  url: https://www.musicnotes.com/SheetMusic/Index/artists/Constant-Marius/default.asp
+  host: Musicnotes (publisher-licensed)
+  rights: link-only
+  subtype: listing
+last_verified: '2026-11-20'

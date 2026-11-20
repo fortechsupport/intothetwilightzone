@@ -1,0 +1,18 @@
+title: The Adventures of Willy Beamish
+kind: game
+year: 1991
+creator: Dynamix
+publisher: Sierra On-Line
+description: >-
+  A cartoon point-and-click adventure in which a Twilight Zone-style tunnel leads to one of its joke game-over endings.
+subtype: video-game-homage
+details:
+  licensed: false
+relevance: tangential
+research_confidence: low
+categories:
+- games/game-homages
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'

@@ -1,0 +1,9 @@
+from: works/bif-bang-pow-8-inch-series-5-invader
+to: 1959/the-invaders
+kind: reference
+confidence: documented
+summary: Depicts The Invader from the original-series episode the invaders.
+sources:
+- title: 'Midtown Comics: Twilight Zone 8-Inch Series 5 The Invader'
+  url: https://www.midtowncomics.com/product/1165687
+last_verified: '2026-11-20'

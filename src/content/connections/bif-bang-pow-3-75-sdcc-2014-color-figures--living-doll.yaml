@@ -1,0 +1,12 @@
+from: works/bif-bang-pow-3-75-sdcc-2014-color-figures
+to: 1959/living-doll
+kind: reference
+confidence: documented
+summary: Colorized takes on characters from 'Living Doll', 'To Serve Man' and other episodes.
+sources:
+- title: 'Daily Dead: SDCC 2014 Twilight Zone Exclusives'
+  url: https://dailydead.com/sdcc-2014-twilight-zone-exclusives/
+- title: 'Dread Central: SDCC 2014 Entertainment Earth adds color to Twilight Zone'
+  url: >-
+    https://www.dreadcentral.com/news/54338/san-diego-comic-con-2014-entertainment-earth-adds-some-color-to-your-twilight-zone-and-game-of-thrones-collections
+last_verified: '2026-11-20'

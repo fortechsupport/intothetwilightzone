@@ -1,0 +1,13 @@
+from: works/bif-bang-pow-kanamit-cookbook-set-sdcc
+to: 1959/to-serve-man
+kind: reference
+confidence: documented
+summary: The book is the infamous 'To Serve Man' volume whose title turns out to be a cookbook.
+sources:
+- title: 'Entertainment Earth: Kanamit''s Cookbook Set SDCC Exclusive'
+  url: >-
+    https://www.entertainmentearth.com/product/the-twilight-zone-kanamits-cookbook-set-sdcc-exclusive/bbp05801e
+- title: 'Entertainment Earth: Kanamit Cookbook Set SDCC Exclusive Signed'
+  url: >-
+    https://www.entertainmentearth.com/product/the-twilight-zone-kanamit-cookbook-set-sdcc-exclusive-signed/bbp05801es
+last_verified: '2026-11-20'

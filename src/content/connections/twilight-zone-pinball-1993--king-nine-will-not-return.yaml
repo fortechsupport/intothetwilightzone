@@ -1,0 +1,13 @@
+from: works/twilight-zone-pinball-1993
+to: 1959/king-nine-will-not-return
+kind: reference
+confidence: documented
+summary: >-
+  Licensed adaptation of the original series: the playfield and backbox reference dozens of episodes and Tim Kitzrow
+  voices a Rod Serling-style narrator.
+sources:
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_(pinball)
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(franchise)
+last_verified: '2026-11-20'

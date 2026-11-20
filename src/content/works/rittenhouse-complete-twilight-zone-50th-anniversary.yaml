@@ -3,8 +3,8 @@ kind: collectible
 subtype: trading-cards
 year: 2009
 creator: Rittenhouse Archives
-description: A 50th-anniversary set from Rittenhouse with a 79-card base, airdate inserts and a large autograph
-  checklist.
+description: >-
+  A 50th-anniversary set from Rittenhouse with a 79-card base, airdate inserts and a large autograph checklist.
 details:
   line: The Twilight Zone
   series: The Twilight Zone (1959)
@@ -13,10 +13,43 @@ details:
   - Original Airdates inserts
   - Cast autographs (e.g. Doris Singleton)
   licensed: true
+  base: 79
+  inserts:
+    A Life of Its Own Z1-Z9: '1:12'
+    Portraits Por1-Por9: '1:12'
+    In Motion lenticular L1-L18: '1:8'
+    Autographs A-98 to A-149: '1:6'
+  promos: P1-P3 (P3 album exclusive)
+  case_incentives:
+    topper: A-126 Dana Dillaway
+    3-case: A-136 Cliff Robertson
+    6-case: A-149 George Clayton Johnson
+    12-case: Archive Box
+  people:
+  - Cliff Robertson
+  - Patrick Macnee
+  - Jean Marsh
+  - John Astin
+  - June Foray
+  - Mariette Hartley
+  - Mary Badham
+  - Earl Holliman
+  - Joyce Van Patten
+  - George Clayton Johnson
+  - Dana Dillaway
+  - Morgan Brittany
+  - Arlene Martel
 sources:
 - title: nslists.com
   url: https://nslists.com/twizon50.htm
 - title: tcdb.com
   url: https://www.tcdb.com/Checklist.cfm/sid/82245
+- title: 'Heritage Auctions: 1999-2009 Rittenhouse Twilight Zone Autographs group'
+  url: >-
+    https://entertainment.ha.com/itm/memorabilia/trading-cards/1999-2009-rittenhouse-archives-twilight-zone-autographs-group-of-9-cgc-graded/a/43213-74128.s
 research_confidence: high
-last_verified: '2026-11-19'
+last_verified: '2026-11-20'
+publisher: Rittenhouse Archives
+relevance: core
+categories:
+- merchandise/trading-cards

@@ -22,15 +22,38 @@ tz_credits:
   work: Film score
   role: composer
   ref: films/twilight-zone-the-movie
+- series: The Twilight Zone (1959-1964)
+  work: The Four of Us Are Dying
+  ref: 1959/the-four-of-us-are-dying
+- series: The Twilight Zone (1959-1964)
+  work: The Big Tall Wish
+  ref: 1959/the-big-tall-wish
+- series: The Twilight Zone (1959-1964)
+  work: Nervous Man in a Four Dollar Room
+  ref: 1959/nervous-man-in-a-four-dollar-room
+- series: The Twilight Zone (1959-1964)
+  work: Dust
+  ref: 1959/dust
+- series: The Twilight Zone (1959-1964)
+  work: Back There
+  ref: 1959/back-there
+- series: The Twilight Zone (1959-1964)
+  work: The Invaders
+  ref: 1959/the-invaders
+- series: The Twilight Zone (1959-1964)
+  work: 'Jazz Theme #1 and #2 (source cues)'
+- series: The Twilight Zone (1959-1964)
+  work: Rejected candidate for the season-two main title (1960)
+- series: 'Twilight Zone: The Movie (1983)'
+  work: Complete film score
 born: '1929-02-10'
 died: '2004-07-21'
 bio: >-
-  Jerry Goldsmith was a young CBS staff composer when he wrote original scores for several original-series
-  episodes, including The Four of Us Are Dying, Back There, Dust and the nearly wordless The Invaders,
-  and his cues were reused across many more. Two decades later he returned to the franchise to score Twilight
-  Zone: The Movie, giving each of its four segments its own musical identity. In between he became one
-  of Hollywood's most celebrated composers, winning the Oscar for The Omen and scoring Planet of the Apes,
-  Chinatown, Alien and five Star Trek films.
+  Jerry Goldsmith was a young CBS staff composer when he wrote original scores for several original-series episodes,
+  including The Four of Us Are Dying, Back There, Dust and the nearly wordless The Invaders, and his cues were reused
+  across many more. Two decades later he returned to the franchise to score Twilight Zone: The Movie, giving each
+  of its four segments its own musical identity. In between he became one of Hollywood's most celebrated composers,
+  winning the Oscar for The Omen and scoring Planet of the Apes, Chinatown, Alien and five Star Trek films.
 links:
   wikipedia: https://en.wikipedia.org/wiki/Jerry_Goldsmith
 sources:
@@ -39,6 +62,21 @@ sources:
 - title: Twilight Zone Composers Strike A Spooky Note - Long Island Weekly
   url: https://longislandweekly.com/twilight-zone-composers-a-spooky-note/
 - title: 'The Goldsmith Odyssey: The Twilight Zone, Back There (1961)'
+  url: https://goldsmithodyssey.buzzsprout.com/159614/1305991-episode-20-the-twilight-zone-back-there-1961
+- title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
+  url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
+- title: Filmtracks – The Twilight Zone (40th Anniversary Collection)
+  url: https://www.filmtracks.com/titles/twilight_zone.html
+- title: ClassicThemes – The Twilight Zone theme history
+  url: https://classicthemes.com/50sTVThemes/themePages/twilightZone.html
+- title: 'Filmtracks – Twilight Zone: The Movie'
+  url: https://www.filmtracks.com/titles/twilight_zone83.html?page=print
+- title: 'The Goldsmith Odyssey – Episode 12: CBS Music Library Spectacular Part 1'
   url: >-
-    https://goldsmithodyssey.buzzsprout.com/159614/1305991-episode-20-the-twilight-zone-back-there-1961
-last_verified: '2026-11-19'
+    https://goldsmithodyssey.buzzsprout.com/159614/episodes/797224-episode-12-cbs-music-library-spectacular-part-1-with-w-david-lichty
+- title: AllMusic – 'Back There' episode score composition page
+  url: >-
+    https://www.allmusic.com/composition/twilight-zone-back-there-television-episode-score-also-use-in-to-serve-man-nightmare-at-20000-feet-mc0002505653
+last_verified: '2026-11-20'
+relevance: core
+research_confidence: medium

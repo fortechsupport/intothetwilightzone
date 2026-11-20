@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 locations/busy-bee-cafe-ridgeview-ohio:
   connection: Setting of Richard Matheson's "Nick of Time."
   tier: core
@@ -656,3 +657,1870 @@ works/wpix-new-years-marathon:
   recommendation: include
   reason: Explains the best-known TZ ritual; flagged medium confidence because the first year is uncertain.
   subcategory: Broadcasts and marathons
+=======
+people/arthur-kempel:
+  connection: Scored 'The Elevator' for the 1985 CBS revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Credited composer of the 1985 series, with music issued on Intrada's 3CD set.
+people/basil-poledouris:
+  connection: >-
+    Scored 'A Message from Charity', 'Monsters!', 'Profile in Silver', 'Song of the Younger World' for the 1985
+    CBS revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Credited composer of the 1985 series, with music issued on Intrada's 3CD set.
+people/benny-carter:
+  connection: 'Composer on Rod Serling''s Night Gallery: One 1971 segment.'
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Serling-related composer; rounds out Night Gallery music.
+people/bernard-herrmann:
+  connection: >-
+    Wrote the original Twilight Zone theme and several original episode scores; his library cues recur across
+    all five seasons.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: The most important composer in the show's history.
+people/bill-sienkiewicz:
+  connection: Cover artist for the licensed NOW Comics Twilight Zone.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+people/billy-goldenberg:
+  connection: Composer of Rod Serling's Night Gallery pilot.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Serling-related composer.
+people/bob-bralove:
+  connection: Recorded and programmed the Grateful Dead's 1985 Twilight Zone music.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: maybe
+  reason: Behind-the-scenes detail of a famous session.
+people/brandon-roberts:
+  connection: Co-composer of the 2019 series.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Credited 2019 composer.
+people/chris-granner:
+  connection: >-
+    Composed the Twilight Zone pinball music, including its take on Golden Earring's 'Twilight Zone', and later
+    released unused DCS tracks.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: A key creator of the Twilight Zone pinball machine.
+people/christopher-young:
+  connection: Scored 'A Small Talent for War', 'A Matter of Minutes' for the 1985 CBS revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Credited composer of the 1985 series, with music issued on Intrada's 3CD set.
+people/craig-safan:
+  connection: >-
+    Scored 'Dead Woman's Shoes', 'Wong's Lost and Found Emporium', 'The Uncle Devil Show', 'Opening Day', 'To See
+    the Invisible Man', 'Tooth and Consequences', 'Teacher's Aide' for the 1985 CBS revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Credited composer of the 1985 series, with music issued on Intrada's 3CD set.
+people/dennis-mccarthy:
+  connection: Scored 'Voices in the Earth' for the 1985 CBS revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Credited composer of the 1985 series, with music issued on Intrada's 3CD set.
+people/don-b-ray:
+  connection: Music supervisor involved in replacing the first-season theme.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: maybe
+  reason: Minor but relevant behind-the-scenes figure.
+people/eddie-sauter:
+  connection: Most prolific Night Gallery composer and season-three theme writer.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Serling-related composer.
+people/elliot-kaplan:
+  connection: Scored 'The Last Defender of Camelot' for the 1985 CBS revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Credited composer of the 1985 series, with music issued on Intrada's 3CD set.
+people/francesco-francavilla:
+  connection: Cover artist for Dynamite's licensed Twilight Zone comic.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+people/frank-bolle:
+  connection: Cover artist on the Western Publishing Twilight Zone comic.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+people/frank-skinner:
+  connection: 'Composer on Rod Serling''s Night Gallery: One 1972 episode.'
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: maybe
+  reason: Serling-related composer; rounds out Night Gallery music.
+people/franz-waxman:
+  connection: Composed the original score for 'The Sixteen-Millimeter Shrine' (1959).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Golden-age film composer with a TZ credit.
+people/fred-steiner:
+  connection: Original-series composer and 1985 revival composer; Wissner's book has a chapter on his scores.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Bridges both eras and documented his own work.
+people/george-wilson:
+  connection: Principal cover painter of the Gold Key Twilight Zone comic.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+people/gil-melle:
+  connection: Composed the Night Gallery theme.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Serling-related composer and theme author.
+people/guillermo-del-toro:
+  connection: Collector and champion of Rod Serling's Night Gallery.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+people/guy-luypaertz:
+  connection: Stock cue in 'One for the Angels' (1959).
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: maybe
+  reason: Minor stock-music credit; useful for completeness.
+people/j-a-c-redford:
+  connection: Scored 'What Are Friends For?' for the 1985 CBS revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Credited composer of the 1985 series, with music issued on Intrada's 3CD set.
+people/james-comisar:
+  connection: Owned a surviving Twilight Zone makeup appliance.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+people/james-h-draper:
+  connection: Made a museum-held print titled after The Twilight Zone.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+people/jaroslav-gebr:
+  connection: Painted the pilot canvases for Rod Serling's Night Gallery (1969).
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+people/jeff-alexander:
+  connection: Scored 'The Trouble with Templeton' (1960) and one other episode.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Credited TZ composer on the Silva set.
+people/jerry-garcia:
+  connection: Credited co-composer and performer of the 1985 theme.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Famous name tied to the revival.
+people/jerry-goldsmith:
+  connection: Scored at least six original-series episodes and the 1983 feature film.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Major composer of both the series and the movie.
+people/jim-benson:
+  connection: Night Gallery historian.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+people/jim-warren:
+  connection: First cover artist of the official Twilight Zone Magazine.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+people/joel-mcneely:
+  connection: Conducted the 1999 re-recording of Herrmann's Twilight Zone scores.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Key to the best-known Herrmann TZ album.
+people/john-alvin:
+  connection: 'Painted the key art for Twilight Zone: The Movie.'
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+people/john-krutsch:
+  connection: Mechanical engineer on the Twilight Zone pinball machine.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: A key creator of the Twilight Zone pinball machine.
+people/john-lewis:
+  connection: 'Composer on Rod Serling''s Night Gallery: A Death in the Family; an Aunt Ada conjuring segment.'
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Serling-related composer; rounds out Night Gallery music.
+people/john-youssi:
+  connection: Created the artwork for the 1993 Twilight Zone pinball machine.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: A key creator of the Twilight Zone pinball machine.
+people/kaz-oomori:
+  connection: Created Twilight Zone episode art.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+people/kenneth-wannberg:
+  connection: Scored 'Still Life' for the 1985 CBS revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Credited composer of the 1985 series, with music issued on Intrada's 3CD set.
+people/lalo-schifrin:
+  connection: >-
+    Composer on Rod Serling's Night Gallery: The Ghost of Sorworth Place and others (adapted from Dark Intruder).
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Serling-related composer; rounds out Night Gallery music.
+people/lance-rubin:
+  connection: Credited composer on the 1985 revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Completes the 1985 composer roster; episodes need IMDb verification.
+people/larry-demar:
+  connection: Co-designer and programmer of the Twilight Zone pinball machine.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: A key creator of the Twilight Zone pinball machine.
+people/laurindo-almeida:
+  connection: Composed a guitar-based score for one Twilight Zone episode.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Notable musician with a TZ score; episode needs confirming.
+people/leith-stevens:
+  connection: Submitted an unused replacement Twilight Zone theme in 1960.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Part of the theme-replacement story.
+people/leonard-rosenman:
+  connection: Scored 'And When the Sky Was Opened' (1959).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Notable composer; one-off TZ score.
+people/louis-natale:
+  connection: Credited composer on the 1985 revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Completes the 1985 composer roster; episodes need IMDb verification.
+people/lucien-moraweck:
+  connection: His CBS library cues were used in 'Mr. Denton on Doomsday' (1959).
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: maybe
+  reason: Documents the stock-music practice; minor figure.
+people/lud-gluskin:
+  connection: The CBS executive who created the Twilight Zone theme by editing two library cues.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Key figure in how the theme came to be.
+people/marco-beltrami:
+  connection: Co-composer of the 2019 series.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Current-era theme composer.
+people/marius-constant:
+  connection: His library cues form the definitive Twilight Zone theme.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Composer of the theme everyone knows.
+people/merl-saunders:
+  connection: Leader of the 1985 theme and cue sessions.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Central to the 1985 sound.
+people/mickey-hart:
+  connection: Credited co-composer of the 1985 theme arrangement.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Notable musician directly involved.
+people/morton-stevens:
+  connection: Credited composer on the 1985 revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Completes the 1985 composer roster; episodes need IMDb verification.
+people/nathan-scott:
+  connection: Scored 'A Stop at Willoughby' (1960) and reportedly 'Young Man's Fancy' (1962).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Credited TZ composer.
+people/nathan-van-cleave:
+  connection: >-
+    Composed original scores for about twelve Twilight Zone episodes; Reba Wissner's book devotes a chapter to him.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: One of the series' core composers.
+people/neal-adams:
+  connection: Artist on the NOW Comics Twilight Zone.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+people/oliver-nelson:
+  connection: >-
+    Composer on Rod Serling's Night Gallery: The Boy Who Predicted Earthquakes; The Hand of Borgus Weems; Green
+    Fingers; and others (about 7 episodes).
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Serling-related composer; rounds out Night Gallery music.
+people/orlando-arocena:
+  connection: Created Twilight Zone episode art.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+people/pat-lawlor:
+  connection: Lead designer of the 1993 Bally Twilight Zone pinball machine.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: A key creator of the Twilight Zone pinball machine.
+people/patrick-connan:
+  connection: Created Twilight Zone episode art.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+people/paul-glass:
+  connection: >-
+    Composer on Rod Serling's Night Gallery: Silent Snow, Secret Snow; A Question of Fear; a Christmas Eve segment
+    (about 11 episodes).
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Serling-related composer; rounds out Night Gallery music.
+people/rene-garriguenc:
+  connection: CBS library composer/arranger whose cues were tracked into the series.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Fills in the CBS library story; appears on the Silva 40th Anniversary set.
+people/rich-karstens:
+  connection: Co-created sound for the Twilight Zone pinball machine.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: A key creator of the Twilight Zone pinball machine.
+people/robert-bain:
+  connection: 'Composer on Rod Serling''s Night Gallery: Two episodes, 1971-72.'
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: maybe
+  reason: Serling-related composer; rounds out Night Gallery music.
+people/robert-drasnin:
+  connection: Supervised the music of the 1985 revival; credited composer per SoundtrackCollector.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Links the CBS music department across eras.
+people/robert-prince:
+  connection: >-
+    Composer on Rod Serling's Night Gallery: The Dead Man; The House; The Doll; and a comic ghost story (about 5
+    episodes).
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Serling-related composer; rounds out Night Gallery music.
+people/ron-ramin:
+  connection: Credited composer on the 1985 revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Completes the 1985 composer roster; episodes need IMDb verification.
+people/scott-skelton:
+  connection: Leading authority on Night Gallery and its art.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+people/ted-estes:
+  connection: Co-designed and programmed Twilight Zone pinball and wrote its later bug-fix and home ROMs.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: A key creator of the Twilight Zone pinball machine.
+people/thomas-j-wright:
+  connection: Painter of the Night Gallery canvases that Rod Serling introduced on camera.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+people/tim-kitzrow:
+  connection: Voiced the Rod Serling-style narrator of the Twilight Zone pinball machine.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: A key creator of the Twilight Zone pinball machine.
+people/tom-whalen:
+  connection: Created officially licensed Twilight Zone episode prints.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+people/tommy-morgan:
+  connection: Wrote a harmonica-led score for one Twilight Zone episode.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Interesting instrument-specific credit; episode needs confirming.
+people/william-goldstein:
+  connection: Scored 'Her Pilgrim Soul', 'The Card', 'Time and Teresa Golowitz' for the 1985 CBS revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Credited composer of the 1985 series, with music issued on Intrada's 3CD set.
+people/william-j-tuttle:
+  connection: Lead makeup designer for the original Twilight Zone.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+people/willis-schaefer:
+  connection: Stock cue in 'One for the Angels' (1959).
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: maybe
+  reason: Minor stock-music credit.
+songs/a-tribe-called-quest-description-of-a-fool:
+  connection: >-
+    Listed in the original research spreadsheet without a stated connection; the reference (most likely a passing
+    lyric line) could not be confirmed this session.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: Keep on hold until the lyric or sample is confirmed; exclude if nothing turns up on a second pass.
+songs/aimee-allen-cooties:
+  connection: >-
+    Amber's lyric invokes The Twilight Zone as an insult, a period-appropriate gag since the musical is set in early-1960s
+    Baltimore when the show was new.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: A fun period reference inside a famous musical; worth including in a 'mentions' list.
+songs/bobsquared-time-enough-at-last:
+  connection: >-
+    Shares the exact title of the 1959 episode 'Time Enough at Last'; the link is inferred from the title.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: Possible episode homage from a small artist; low priority.
+songs/bon-jovi-who-says-you-cant-go-home:
+  connection: >-
+    The first verse uses the show's name as an idiom: the narrator describes himself as a wanderer lost in the twilight
+    zone before finding his way home.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: include
+  reason: >-
+    A huge mainstream hit that drops the show's name in its opening verse, a good example of how the title became
+    everyday English.
+songs/damn-yankees-runaway:
+  connection: >-
+    The phrase 'twilight zone' appears in the song's repeated chorus, used as shorthand for a strange, unreal place.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: >-
+    Confirmed passing lyric mention by a well-known arena-rock act; fine for a complete 'mentions' list but not
+    essential.
+songs/doom-service-monsters-are-due:
+  connection: >-
+    The title clips the name of 'The Monsters Are Due on Maple Street'; the link to the episode is inferred from
+    the title only.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: Probable episode nod, unconfirmed.
+songs/electromud-time-enough-at-last:
+  connection: >-
+    Named for and explicitly tied to 'Time Enough at Last', the Burgess Meredith episode about the last reader on
+    Earth.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: A direct episode homage, though a small independent release.
+songs/hassle-hound-monsters-are-due-on-maple-street:
+  connection: >-
+    Takes its title from 'The Monsters Are Due on Maple Street', the 1960 episode about neighbours turning on each
+    other.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: Episode-title homage; content not checked.
+songs/jaimie-vernon-time-enough-at-last:
+  connection: >-
+    Shares its title with the Burgess Meredith episode 'Time Enough at Last'; the episode link is inferred from
+    the title.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: Possible episode homage; needs a listen or lyric check.
+songs/jerry-wallace-if-you-leave-me-tonight-ill-cry:
+  connection: >-
+    Written for and introduced in a Rod Serling's Night Gallery episode about a jukebox that replays a crime.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: A genuine hit single born on a Serling anthology.
+songs/klone-twilight-zone:
+  connection: >-
+    Titled with the show's name; whether it is an original or a cover of Golden Earring's song was not confirmed.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: Metal entry for the titled-songs list; check whether it is a cover before publishing.
+songs/l-a-style-twilight-zone:
+  connection: Its title is the show's name; Wikipedia lists it among the songs called 'Twilight Zone'.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: Part of the early-90s rave wave of 'Twilight Zone' titles alongside 2 Unlimited.
+songs/s-e-s-twilight-zone:
+  connection: The song takes the show's name as its title; Wikipedia lists it among songs called 'Twilight Zone'.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: Shows the title's reach into Korean pop by the late 1990s; useful for an international angle.
+songs/ted-sink-twilight-zone:
+  connection: Uses the show's name as an image of being alone and lost.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: exclude
+  reason: An amateur self-submission with no release information; too thin for the site.
+songs/van-morrison-twilight-zone:
+  connection: The song is titled after the show's name; Wikipedia lists it among songs called 'Twilight Zone'.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: include
+  reason: A major artist with a song carrying the show's name; a strong entry for the titled-songs list.
+works/a-hat-in-time-twilight-bell-reference:
+  connection: A loose atmospheric reference; no episode is cited.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: exclude
+  reason: A minor or unverified reference; keep only for a thorough homage list.
+works/adg-gallery-800-tribute-to-jaroslav-gebr-2017:
+  connection: Gebr painted pilot canvases for Rod Serling's Night Gallery.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: Context for the lesser-known Night Gallery pilot painter; worth a mention on his page.
+works/adventures-of-willy-beamish-homage:
+  connection: Contains an explicit Twilight Zone gag sequence.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: A minor or unverified reference; keep only for a thorough homage list.
+works/alan-wake-2-night-springs-dlc-2024:
+  connection: A playable anthology of Remedy's long-running Twilight Zone pastiche.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: include
+  reason: A well-documented homage that shows TZ's influence on games.
+works/alan-wake-night-springs-homage:
+  connection: Night Springs is an open pastiche of The Twilight Zone's format, host narration and twist endings.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: include
+  reason: A well-documented homage that shows TZ's influence on games.
+works/asemblance-2016:
+  connection: The developer named The Twilight Zone as a model, alongside The X-Files and Black Mirror.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: include
+  reason: A well-documented homage that shows TZ's influence on games.
+works/beltrami-tz-theme-2019:
+  connection: 2019 main title.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/bif-bang-pow-3-75-sdcc-2014-color-figures:
+  connection: Colorized takes on characters from 'Living Doll', 'To Serve Man' and other episodes.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-3-75-series-2-eye-of-the-beholder:
+  connection: Recreates the bandaged Janet Tyler and the hospital staff of 'The Eye of the Beholder'.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-3-75-series-3-five-characters:
+  connection: All five characters are the trapped figures of 'Five Characters in Search of an Exit' (1961).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-3-75-series-4-the-dummy:
+  connection: Based on Willie and Jerry from 'The Dummy' (1962).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-3-75-series-5-diorama-exclusives:
+  connection: Each diorama recreates a setting from the figure's episode.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-8-inch-alien-and-nurse:
+  connection: Both figures come from original-series episodes.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-8-inch-bob-wilson-don-carter-sdcc:
+  connection: Bob Wilson is from 'Nightmare at 20,000 Feet'; Don Carter is from 'Nick of Time' (November 1960).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-8-inch-cyclops-alicia:
+  connection: Both figures come from original-series episodes (the-fear, the-lonely).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-8-inch-gremlin-jason-foster:
+  connection: Both figures come from original-series episodes (nightmare-at-20-000-feet, the-masks).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-8-inch-retro-figures:
+  connection: Every figure represents a character from a specific original-series episode.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-8-inch-series-1-gremlin:
+  connection: Depicts Gremlin from the original-series episode nightmare at 20 000 feet.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Single-carded re-issue; useful for the checklist but could be folded into the parent record.
+works/bif-bang-pow-8-inch-series-1-jason-foster:
+  connection: Depicts Jason Foster from the original-series episode the masks.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Single-carded re-issue; useful for the checklist but could be folded into the parent record.
+works/bif-bang-pow-8-inch-series-2-kanamit:
+  connection: Depicts Kanamit from the original-series episode to serve man.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Single-carded re-issue; useful for the checklist but could be folded into the parent record.
+works/bif-bang-pow-8-inch-series-4-henry-bemis:
+  connection: Depicts Henry Bemis from the original-series episode time enough at last.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Single-carded re-issue; useful for the checklist but could be folded into the parent record.
+works/bif-bang-pow-8-inch-series-5-invader:
+  connection: Depicts The Invader from the original-series episode the invaders.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Single-carded re-issue; useful for the checklist but could be folded into the parent record.
+works/bif-bang-pow-8-inch-series-5-venusian:
+  connection: Depicts The Venusian from the original-series episode will the real martian please stand up.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Single-carded re-issue; useful for the checklist but could be folded into the parent record.
+works/bif-bang-pow-8-inch-talky-tina-willie-sdcc:
+  connection: Talky Tina is from 'Living Doll' and Willie from 'The Dummy' (1962).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-8-inch-the-doctor-henry-bemis:
+  connection: Both figures come from original-series episodes (eye-of-the-beholder, time-enough-at-last).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-8-inch-the-venusian-invader:
+  connection: >-
+    Both figures come from original-series episodes (will-the-real-martian-please-stand-up, the-invaders).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-bob-wilson-bobblehead-2011:
+  connection: Bob Wilson is William Shatner's character in 'Nightmare at 20,000 Feet'.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-bobbleheads-2010-wave:
+  connection: Each head depicts a creature or prop from an original-series episode.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-color-sdcc-bobbleheads:
+  connection: >-
+    Colorized versions of characters from 'The Invaders', 'Nick of Time', 'Living Doll', 'Nightmare at 20,000 Feet'
+    and 'To Serve Man'.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-doorway-to-tin-tote:
+  connection: Uses imagery from the original series.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-entertainment-earth-2023-exclusives:
+  connection: Props from 'Living Doll' and 'Nick of Time'.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-glow-talky-tina-3-75:
+  connection: Talky Tina is the murderous doll from 'Living Doll' (1963).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-icons-of-the-twilight-zone-bobblehead:
+  connection: Combines iconic characters from several original-series episodes.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-kanamit-cookbook-set-sdcc:
+  connection: The book is the infamous 'To Serve Man' volume whose title turns out to be a cookbook.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-kanamit-tin-tote:
+  connection: Uses imagery from the original series episode 'To Serve Man'.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-monitor-mates-2014:
+  connection: The Gremlin is from 'Nightmare at 20,000 Feet'.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-mystic-seer-life-size-replica:
+  connection: Replicates the Mystic Seer machine from 'Nick of Time' (1960).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-mystic-seer-shatner-signature-edition:
+  connection: Shatner starred as Don Carter, the newlywed hooked on the Mystic Seer, in 'Nick of Time'.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-pin-mate-set-sdcc-2016:
+  connection: Characters are drawn from multiple original-series episodes.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-rod-serling-tin-tote:
+  connection: Uses imagery from the original series.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-star-trek-twilight-zone-shatner-bobbleheads:
+  connection: Bob Wilson is Shatner's character in 'Nightmare at 20,000 Feet'.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-talky-tina-doll-replica:
+  connection: Replicates the doll that menaces Telly Savalas's character in 'Living Doll' (1963).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-willie-and-jerry-bobblehead:
+  connection: Based on Willie and Jerry from 'The Dummy' (1962).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/bif-bang-pow-zica-3-75-inch-figures:
+  connection: Each figure is drawn from a specific original-series episode.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/cbs-music-library-twilight-zone:
+  connection: >-
+    Explains how nearly every Twilight Zone episode got its music, and why the same cues recur across seasons.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Essential context page for the whole Music category.
+works/clue-twilight-zone-tower-of-terror-2007:
+  connection: Board game based on the Twilight Zone Tower of Terror attraction.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: 'Enrichment: confirms the park-exclusive distribution.'
+works/cold-fusion-indie-horror-tz-inspired:
+  connection: Reportedly inspired by a Twilight Zone episode (unconfirmed which).
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: Needs verification before it goes on the site.
+works/composers-datebook-twilight-zone:
+  connection: Public-radio feature on the Twilight Zone theme.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: maybe
+  reason: Short, legitimate audio explainer.
+works/constant-etrange-milieu-theme-1960:
+  connection: The main and end title of seasons two to five.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/constant-theme-sheet-music:
+  connection: Printed music for the Twilight Zone main title.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Merch-adjacent music item fans look for.
+works/constant-theme-uses-film-tv:
+  connection: Tracks how the theme escaped the show into wider pop culture.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Shows the theme's cultural reach; can grow into a list of individual uses.
+works/dark-hall-mansion-to-serve-man-prints-2016:
+  connection: Artwork based on the 1962 episode "To Serve Man".
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Licensed-gallery art for one of the most famous episodes.
+works/dark-pictures-anthology-curator-homage:
+  connection: Borrows the anthology format and the on-screen, Serling-like host.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: include
+  reason: A well-documented homage that shows TZ's influence on games.
+works/dell-four-color-1173-twilight-zone-1960:
+  connection: The first licensed comic book adaptation of The Twilight Zone.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: The start of the comic-cover lineage.
+works/disney-tower-of-terror-collectors-lanyard-pin-set:
+  connection: Pins for the Disney attraction licensed from the Twilight Zone name.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: maybe
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/disney-tower-of-terror-merchandise-2022-2026:
+  connection: Merchandise for the attraction officially titled The Twilight Zone Tower of Terror.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/dynamite-twilight-zone-1-2013-francavilla-cover:
+  connection: Licensed modern Twilight Zone comic.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Signature modern cover art for the franchise.
+works/entertainment-earth-twilight-zone-doorway-travel-mug:
+  connection: Uses the series' title-sequence imagery.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/eye-of-the-beholder-male-nurse-appliance-propstore-2023:
+  connection: Surviving makeup piece from season 2's "Eye of the Beholder".
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Second documented surviving appliance from the episode.
+works/eye-of-the-beholder-pig-nose-appliance-prop-store-2018:
+  connection: Surviving makeup appliance from season 2's "Eye of the Beholder".
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: A rare survivor of the series' most famous makeup, with clear provenance.
+works/fallout-3-tranquility-lane-homage:
+  connection: Its monochrome suburb ruled by an all-powerful child echoes 'It's a Good Life'.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: include
+  reason: A well-documented homage that shows TZ's influence on games.
+works/fright-rags-twilight-zone-shirts-2015:
+  connection: Shirt designs illustrate individual original-series episodes.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/funko-pop-1582-rod-serling-the-narrator:
+  connection: Serling as the on-screen narrator of the original 1959-1964 series.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/funko-pop-1583-the-gremlin:
+  connection: The creature from 'Nightmare at 20,000 Feet' (1963).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/funko-pop-1584-mr-robert-wilson-deluxe:
+  connection: William Shatner's character from 'Nightmare at 20,000 Feet'.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/funko-pop-town-wdw50-hollywood-tower-hotel:
+  connection: The Hollywood Tower Hotel is the setting of Disney's The Twilight Zone Tower of Terror ride.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Shows the Tower of Terror's afterlife in collectibles; tie to the attraction records.
+works/funko-pop-twilight-zone-1959:
+  connection: Two of the three figures come from 'Nightmare at 20,000 Feet'; the third is Serling as host.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/gold-key-twilight-zone-1-1962-george-wilson-cover:
+  connection: Licensed comic based on the CBS series; covers often featured Rod Serling as host.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Defines the classic comic look.
+works/gold-key-twilight-zone-24-1968-cover-original-art:
+  connection: Cover art for the licensed Gold Key Twilight Zone comic.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: A surviving original cover painting with documented sale.
+works/gold-key-twilight-zone-40-wilson-cover-whitman-73:
+  connection: Cover art for the licensed Twilight Zone comic.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Documents art reuse across imprints.
+works/gold-key-twilight-zone-92-1982-frank-bolle-cover:
+  connection: Closing cover of the original licensed Twilight Zone comic series.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Bookends the Gold Key/Whitman cover history.
+works/gold-key-twilight-zone-interior-artists:
+  connection: Artists who drew the licensed Twilight Zone comic.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Highlights a strong list of comics artists who drew TZ material.
+works/goldsmith-jazz-themes-tz:
+  connection: Source music used across several Twilight Zone episodes.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Small but concrete stock-cue entry.
+works/goldsmith-odyssey-cbs-music-library-spectacular:
+  connection: Discusses the CBS library music Goldsmith wrote in the Twilight Zone era.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: maybe
+  reason: Deep-dive listening for score fans.
+works/grateful-dead-berkeley-1985-03-09-tz-theme:
+  connection: Live debut-era performance of the 1985 Twilight Zone theme.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Legitimately streamable audio of the theme in concert.
+works/grateful-dead-twilight-zone-sessions-1985:
+  connection: The recording sessions that produced the 1985 series theme and cues.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Archival documentation of a famous crossover session.
+works/hallmark-next-stop-the-twilight-zone-ornament:
+  connection: Released for the 50th anniversary of the original series premiere.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/herrmann-outer-space-suite-1957:
+  connection: Herrmann library music used as underscore in numerous Twilight Zone episodes.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: The single most reused body of music in the series.
+works/herrmann-outer-space-suite-cerberus-lp:
+  connection: Collects the Herrmann library cues heard throughout early Twilight Zone episodes.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Collectible vinyl of TZ-associated library music.
+works/herrmann-twilight-zone-theme-1959:
+  connection: Main and end title of season one (1959-60).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/hirschfeld-rod-serling-twilight-zone-1983:
+  connection: Depicts Rod Serling as host of The Twilight Zone.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: An artwork of Serling by a major American artist, with an official foundation page.
+works/image-twilight-zone-blu-ray-seasons:
+  connection: The complete original series on Blu-ray.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/image-twilight-zone-definitive-edition-dvd:
+  connection: The complete original series on DVD.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/image-twilight-zone-dvd-volumes:
+  connection: Early DVD release of the original series.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/intrada-twilight-zone-1985-3cd:
+  connection: The main archival release of 1985 revival scores.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/jack-bot-pinball-1995-homage:
+  connection: Unlicensed in-game nod to The Twilight Zone or to its 1993 pinball adaptation.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: A small Easter egg, best grouped on a 'homages in other pinball' list.
+works/lego-ideas-twilight-zone-tower-of-terror-2025:
+  connection: Models the Disney attraction themed to The Twilight Zone.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Tracks an in-progress fan proposal that could become an official set.
+works/lowbrow-antics-eye-of-the-beholder-pin-set:
+  connection: Draws on the bandaged patient and pig-faced staff of 'The Eye of the Beholder'.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: Represents the large unlicensed fan-maker market; keep only as an example.
+works/makeup-design-eye-of-the-beholder-tuttle-1960:
+  connection: The makeup behind the twist of season 2's "Eye of the Beholder" (Nov. 11, 1960).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: The most famous makeup design in the series.
+works/makeup-design-the-masks-tuttle-1964:
+  connection: Makeup design for season 5's "The Masks" (March 20, 1964).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: One of Tuttle's signature TZ designs.
+works/makeup-design-tuttle-aliens-martian-frisby:
+  connection: Makeup design for two original-series episodes.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Covers Tuttle's creature work beyond Eye of the Beholder.
+works/merl-saunders-grateful-dead-tz-soundtrack-digital:
+  connection: The Grateful Dead's 1985 Twilight Zone cue suites as an album.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Likely an official digital release; label needs confirming before listing.
+works/middle-of-beyond-twilight-zone-nurse-tiki-mug:
+  connection: Based on the nurse from 'The Eye of the Beholder'.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: A distinctive designer collectible; licensing status should be confirmed.
+works/midnight-scenes-the-highway-2017:
+  connection: >-
+    Deliberately structured and introduced like a Twilight Zone episode; the press called it a 'point and click
+    Twilight Zone'.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: include
+  reason: A well-documented homage that shows TZ's influence on games.
+works/midnight-scenes-the-nanny:
+  connection: A further episode in an indie anthology modeled on The Twilight Zone.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: A minor or unverified reference; keep only for a thorough homage list.
+works/monster-hunter-pc-twilight-zone-stage:
+  connection: Uses the name only.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: exclude
+  reason: A minor or unverified reference; keep only for a thorough homage list.
+works/night-cry-magazine-covers:
+  connection: Sister publication of the official Twilight Zone magazine.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: maybe
+  reason: Fills out the magazine's family of cover art; individual artists still to be listed.
+works/night-gallery-blu-ray-kino-imprint:
+  connection: Serling's follow-up anthology series, hosted and largely written by him.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/night-gallery-goldenberg-pilot-theme-1969:
+  connection: Music for Rod Serling's Night Gallery pilot.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Serling-related theme.
+works/night-gallery-melle-theme:
+  connection: The best-known Night Gallery theme.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Serling-related theme; early TV electronic music.
+works/night-gallery-painting-eyes-joan-crawford-portrait-1969:
+  connection: Made for the 1969 Night Gallery pilot written by Rod Serling.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: A rediscovered pilot original with a good story.
+works/night-gallery-painting-make-me-laugh-1971:
+  connection: Painting for a Night Gallery segment introduced by Rod Serling.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: A distinctive painting and a good example of Wright's varied technique.
+works/night-gallery-painting-pickmans-model-1971:
+  connection: Gallery painting for a Night Gallery segment hosted by Rod Serling.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: A key Night Gallery canvas tied to a famous Lovecraft adaptation.
+works/night-gallery-painting-the-caterpillar-1972:
+  connection: Painting for a Night Gallery segment hosted by Rod Serling.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: An original still with its creator, and the painting for one of the series' best-known segments.
+works/night-gallery-painting-the-cemetery-1969:
+  connection: >-
+    Painting from the Rod Serling-written Night Gallery pilot (NBC, Nov. 8, 1969), the project that launched Serling's
+    post-Twilight Zone anthology.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: The first Night Gallery canvas and the origin of the show's look.
+works/night-gallery-painting-the-escape-route-1969:
+  connection: >-
+    Painting from the 1969 Night Gallery pilot written by Rod Serling; the segment's plot turns on paintings in
+    a gallery.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: One of the best-documented Night Gallery originals, with a strong backstory and a famous owner.
+works/night-gallery-painting-you-cant-get-help-like-that-anymore-1972:
+  connection: >-
+    Painting introduced on camera by Rod Serling for a Night Gallery segment he wrote (aired Feb. 23, 1972).
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: A documented auction sale with price and dimensions; good example of what happened to the originals.
+works/night-gallery-paintings-collection:
+  connection: >-
+    The paintings were the framing device of Night Gallery, Rod Serling's follow-up anthology to The Twilight Zone,
+    and Serling's on-camera introductions were built around them.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: >-
+    The paintings are the visual signature of Serling's second anthology and a major collecting subject; a natural
+    hub page for the Night Gallery art section.
+works/night-gallery-sauter-theme-1972:
+  connection: Night Gallery's final-season main title.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Completes the Night Gallery theme history.
+works/night-gallery-title-sequence-1970-1972:
+  connection: Title design for Rod Serling's Night Gallery, the anthology that followed The Twilight Zone.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: Pairs with the Twilight Zone title sequences already on the site.
+works/now-comics-twilight-zone-1-1990-sienkiewicz-cover:
+  connection: Licensed comic tied to the franchise's revival era.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: A major painter's cover for a licensed TZ comic.
+works/now-comics-twilight-zone-1-neal-adams-cover:
+  connection: Licensed Twilight Zone comic.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Neal Adams cover art on a TZ comic.
+works/persona-2-eternal-punishment-tz-reference:
+  connection: A dialogue line that names The Twilight Zone.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: exclude
+  reason: A minor or unverified reference; keep only for a thorough homage list.
+works/pinball-fx-williams-pinball-twilight-zone-2023:
+  connection: Licensed digital version of the Twilight Zone pinball machine.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: The current officially licensed way to play the table digitally.
+works/pioneer-japan-new-twilight-zone-laserdiscs:
+  connection: Home video of the 1985-1989 Twilight Zone revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/pioneer-japan-twilight-zone-special-edition-laserdiscs:
+  connection: Original-series episodes on laserdisc.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/poster-twilight-zone-the-movie-1983:
+  connection: Key art for the 1983 Warner Bros. feature.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Adds the artist credit.
+works/poster-twilight-zone-the-movie-1983-japan-b2:
+  connection: International key art for the 1983 Warner Bros. feature.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Covers international poster art for the film.
+works/poster-twilight-zone-the-movie-french:
+  connection: International key art for the 1983 Warner Bros. feature.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Fills out international poster coverage.
+works/poster-twilight-zone-the-movie-italian:
+  connection: International key art for the 1983 Warner Bros. feature.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Fills out international poster coverage; artwork details still to be checked.
+works/red-and-teds-road-show-pinball-1994-homage:
+  connection: Unlicensed in-game nod to The Twilight Zone or to its 1993 pinball adaptation.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: A small Easter egg, best grouped on a 'homages in other pinball' list.
+works/rick-and-morty-pinball-spooky-homage:
+  connection: Unlicensed in-game nod to The Twilight Zone or to its 1993 pinball adaptation.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: A small Easter egg, best grouped on a 'homages in other pinball' list.
+works/ripleys-believe-it-or-not-pinball-2004-homage:
+  connection: Unlicensed in-game nod to The Twilight Zone or to its 1993 pinball adaptation.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: A small Easter egg, best grouped on a 'homages in other pinball' list.
+works/risd-draper-remember-the-twilight-zone-screenprint:
+  connection: A fine-art print in a museum collection that names The Twilight Zone in its title.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: A rare museum-held artwork naming the show; its subject is tangential.
+works/rittenhouse-complete-twilight-zone-50th-anniversary:
+  connection: Celebrates the 50th anniversary of the original series and its cast.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/rittenhouse-twilight-zone-archives-2020:
+  connection: Covers original-series episodes and cast.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/rittenhouse-twilight-zone-rod-serling-edition-2019:
+  connection: Honors Serling and the original series.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/rittenhouse-twilight-zone-series-1-1999:
+  connection: Card images and autographs come from the original-series cast and episodes.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/rittenhouse-twilight-zone-series-2-next-dimension:
+  connection: Covers original-series episodes and cast.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/rittenhouse-twilight-zone-series-3-shadows-and-substance:
+  connection: Covers original-series episodes and cast.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/rittenhouse-twilight-zone-series-4-science-and-superstition:
+  connection: Covers original-series episodes and cast.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/roberson-museum-rod-serlings-twilight-zone-2024:
+  connection: Museum exhibition of TZ-inspired art in Serling's hometown.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: A museum-hosted TZ art show.
+works/rod-serling-statue-recreation-park:
+  connection: Public monument to Rod Serling in his hometown.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Adds material, cost and unveiling details.
+works/rod-serlings-night-gallery-the-art-of-darkness-2020:
+  connection: The complete catalogue of the paintings Rod Serling introduced on Night Gallery.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: The definitive reference for the Night Gallery paintings; anchors the whole subcategory.
+works/serlingfest-2024-art-show:
+  connection: Local artists' interpretations of The Twilight Zone for Serling's centennial in Binghamton.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Community art event at the centre of the centennial.
+works/seven-voyages-of-bernard-herrmann:
+  connection: Includes the CBS library suite tracked into early Twilight Zone episodes.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: maybe
+  reason: Secondary release; useful only if the suite content is confirmed.
+works/sideshow-eye-of-the-beholder-doctor-nurse-12-inch:
+  connection: >-
+    Recreates the hospital staff whose faces are revealed at the climax of 'The Eye of the Beholder' (1960).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/sideshow-nightmare-at-20000-feet-gremlin-12-inch:
+  connection: >-
+    Based on the creature William Shatner's character sees on the airliner wing in 'Nightmare at 20,000 Feet' (1963).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/sideshow-the-invader-12-inch:
+  connection: >-
+    Based on the miniature astronaut who attacks Agnes Moorehead's farm woman in Richard Matheson's 'The Invaders'
+    (aired January 27, 1961).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/sideshow-to-serve-man-kanamit-12-inch:
+  connection: Based on the Kanamit alien from 'To Serve Man' (1962), played by Richard Kiel.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/sideshow-toy-twilight-zone-12-inch-figures:
+  connection: Each figure recreates a creature or character from a specific original-series episode.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/silva-twilight-zone-1985-vol-1-grateful-dead:
+  connection: Grateful Dead 1985 Twilight Zone music on CD.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/silva-twilight-zone-40th-anniversary-collection:
+  connection: The largest official collection of original-series music.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/simpsons-pinball-party-2003-homage:
+  connection: Unlicensed in-game nod to The Twilight Zone or to its 1993 pinball adaptation.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: A small Easter egg, best grouped on a 'homages in other pinball' list.
+works/stories-untold-2017:
+  connection: Anthology horror in the Twilight Zone tradition; an explicit TZ citation was not verified.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: A minor or unverified reference; keep only for a thorough homage list.
+works/strand-magazine-twilight-zone-gift-set-mug:
+  connection: Built around a newly published Serling story and Twilight Zone branding.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: maybe
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/super7-iron-maiden-twilight-zone-reaction:
+  connection: Connects only through the song title borrowed from the series' name.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: Name-only crossover; useful for the song-related section.
+works/television-greatest-hits-vol-1-tz-theme:
+  connection: Compilation including the Constant theme.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/title-sequence-1959-season-1-upa:
+  connection: The original main title of The Twilight Zone (CBS, premiered Oct. 2, 1959).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: The first visual identity of the series.
+works/title-sequence-1959-seasons-2-3-constant:
+  connection: The opening that made Constant's theme synonymous with The Twilight Zone.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: The best-known form of the opening theme.
+works/title-sequence-1959-seasons-4-5-door-eye:
+  connection: >-
+    The definitive opening of the original series' last two seasons; the 2019 Methodmade titles rework the same
+    imagery.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: The opening imagery that defines the franchise.
+works/title-sequence-1985-colossal-pictures:
+  connection: Main title of the 1985 revival series.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Adds a design-reference source.
+works/title-sequence-2019-methodmade:
+  connection: Main title of the 2019 Jordan Peele revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Adds the studio's own page as source/media.
+works/tom-whalen-dark-hall-mansion-series:
+  connection: Officially licensed episode-by-episode prints.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Adds edition and licensing detail.
+works/tom-whalen-eye-of-the-beholder-print-2014:
+  connection: Illustrates the season 2 episode "Eye of the Beholder".
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: A specific, cataloged licensed print for a signature episode.
+works/tower-of-terror-dca-promotional-pc-game:
+  connection: Tie-in game for the Twilight Zone-themed Tower of Terror attraction.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: A rare official tie-in game for the attraction.
+works/tower-of-terror-simulation-flash-fan-game:
+  connection: Fan simulation of the Twilight Zone Tower of Terror ride.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: Fan-made and probably lost with the end of Flash.
+works/treasures-of-the-twilight-zone:
+  connection: A collector-oriented compilation of original-series rarities.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/trevco-twilight-zone-polo-shirts:
+  connection: Branded with the series' logo and imagery.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/tribute-film-classics-walking-distance:
+  connection: Complete re-recording of Herrmann's 'Walking Distance' score.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/trick-or-treat-studios-eye-of-the-beholder-doctor-mask:
+  connection: From 'The Eye of the Beholder' (1960).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/trick-or-treat-studios-gremlin-mask:
+  connection: From 'Nightmare at 20,000 Feet' (1963).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/trick-or-treat-studios-mystic-seer-latex-mask:
+  connection: From 'Nick of Time' (1960).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/trick-or-treat-studios-talky-tina-replica:
+  connection: Recreates the doll from 'Living Doll' (1963).
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/trick-or-treat-studios-the-masks-vacuform-masks:
+  connection: Directly replicates the masks from 'The Masks' (1964), directed by Ida Lupino.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/trick-or-treat-studios-twilight-zone-masks-2017:
+  connection: Each mask reproduces a face from an original-series episode.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/tv-guide-twilight-zone-reviews-archive:
+  connection: Period print coverage and layouts of the original series.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Good period print material; not strictly advertising art.
+works/tv-time-machine-tom-wright-night-gallery-interview:
+  connection: >-
+    First-person account from the artist who painted almost all of the Night Gallery canvases for Rod Serling's
+    series.
+  tier: related
+  tier_reason: Tied to Rod Serling, Night Gallery or the show's makers.
+  recommendation: include
+  reason: A primary-source interview with the Night Gallery painter.
+works/twilight-zone-2019-season-one-dvd:
+  connection: Home video of the 2019 revival.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/twilight-zone-board-game-boyd-1958-proposal:
+  connection: The earliest known merchandise pitch for The Twilight Zone, preserved in Serling's correspondence.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: A charming documented prehistory of Twilight Zone games.
+works/twilight-zone-complete-80s-series-dvd:
+  connection: Home video of the 1985 revival series.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/twilight-zone-complete-series-blu-ray-2012:
+  connection: All 156 original episodes in one set.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/twilight-zone-door-decal-entertainment-earth:
+  connection: Plays on the opening narration's doorway imagery.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/twilight-zone-essential-episodes-55th-anniversary:
+  connection: Marks the 55th anniversary of the 1959 premiere.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/twilight-zone-fan-favorites-2012:
+  connection: A curated sampler of classic episodes.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/twilight-zone-game-ideal-1964:
+  connection: Officially licensed board game released in the original series' final year.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: The only board game released during the original run.
+works/twilight-zone-interactive-ken-levine-interlude-2016:
+  connection: An official, CBS-backed attempt to remake The Twilight Zone as an interactive branching series.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: A notable 'what might have been' linking TZ to a major game designer.
+works/twilight-zone-japan-5cd-set:
+  connection: Japanese CD edition of original-series music.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Real but under-documented; worth a Discogs check.
+works/twilight-zone-legacy-interactive-2014:
+  connection: Licensed PC game.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Sources only; no new facts verified.
+works/twilight-zone-monster-mini-golf-las-vegas:
+  connection: Licensed attraction game built around Twilight Zone episodes and iconography.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: An officially licensed TZ play experience; it may also belong under Places/Attractions.
+works/twilight-zone-movie-1983-theatrical-posters:
+  connection: Promotional material for the 1983 feature film.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: May overlap with the Artwork researcher's poster records.
+works/twilight-zone-movie-blu-ray-hd-dvd-2007:
+  connection: Home video of the 1983 feature film.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Documents an officially licensed Twilight Zone collectible for the merchandise timeline.
+works/twilight-zone-movie-new-blu-ray-2025:
+  connection: Home video of the 1983 feature film.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Recent release; facts need a confirming look at the label's page.
+works/twilight-zone-pinball-1993:
+  connection: >-
+    Licensed adaptation of the original series: the playfield and backbox reference dozens of episodes and Tim Kitzrow
+    voices a Rod Serling-style narrator.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: The single most celebrated Twilight Zone game and a landmark of pinball design.
+works/twilight-zone-pinball-arcade-2013:
+  connection: Licensed digital version of the Twilight Zone pinball machine.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: A notable Kickstarter-funded preservation of the table.
+works/twilight-zone-pinball-cgc-remake-rumor:
+  connection: Prospective new production of the licensed Twilight Zone pinball.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Worth tracking; update when CGC confirms it.
+works/twilight-zone-pinball-home-rom-l94h:
+  connection: Official software revision for the 1993 Twilight Zone pinball.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Collectors care about this ROM, and it extends the table's history.
+works/twilight-zone-slot-igt:
+  connection: Licensed casino slot built on the original series' imagery and audio.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Casino games are a major branch of TZ licensing.
+works/twilight-zone-sponsor-billboards-1961-1964:
+  connection: The sponsor art and announcements that framed original broadcasts.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: >-
+    Useful context on broadcast-era advertising, but it rests on a reader's account; verify before publishing.
+works/twilight-zone-the-movie-1983-print-ad:
+  connection: Print advertising for the 1983 feature film.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: An example of the film's print campaign; prefer a museum or archive scan if one is found.
+works/twilight-zone-the-movie-fsm-expanded:
+  connection: Expanded edition of the 1983 film score.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/twilight-zone-the-movie-music-box-records:
+  connection: Reissue of the 1983 feature film score.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: A current, in-print edition fans can buy.
+works/twilight-zone-the-movie-soundtrack-1983:
+  connection: Original album of Goldsmith's film score.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/twilight-zone-trivia-crowdpurr:
+  connection: Fan trivia about the original series.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: Useful for fan events, but unofficial and lightweight.
+works/twilight-zone-video-game-1988:
+  connection: >-
+    Officially licensed (copyright 1988 CBS Inc.) adventure built like a standalone Twilight Zone episode.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: The first licensed Twilight Zone computer game, with a manual scan available.
+works/twilight-zone-video-game-1988-c64-unreleased:
+  connection: Planned port of the licensed 1988 Twilight Zone computer adventure.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: A footnote for completists tracking every planned TZ game.
+works/twilight-zone-vr-2022:
+  connection: Officially licensed new Twilight Zone stories in VR, framed in the show's anthology style.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: The most recent licensed Twilight Zone video game.
+works/twilight-zone-zx-spectrum-name-only:
+  connection: Shares the title; there is no evidence of a license.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: exclude
+  reason: Listed only to prevent confusion with the licensed 1988 game.
+works/tz-2019-licensed-songs-tunefind:
+  connection: Lists songs heard in 2019-series episodes.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: maybe
+  reason: Handy for a 'songs in episodes' subcategory.
+works/tz-magazine-april-1981-jim-warren-cover:
+  connection: >-
+    First cover of the official Twilight Zone fiction magazine (1981-1989), licensed from Carolyn Serling and Viacom.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: The first cover of the franchise's long-running magazine.
+works/tz-magazine-april-1981-story-illustrations:
+  connection: Interior art from the official Twilight Zone magazine.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: Names the illustrators of the magazine's first issue.
+works/tz-magazine-cover-art-1981-1989:
+  connection: Covers of the official Twilight Zone magazine.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: A visual index of the magazine's covers.
+works/tz-season-two-rejected-themes-1960:
+  connection: Unused candidates for the main title of The Twilight Zone's second season.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: A little-known chapter of the theme story; good 'lost music' entry.
+works/varese-best-of-twilight-zone-vol-1:
+  connection: CD-era Varèse compilation of original-series music.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/varese-best-of-twilight-zone-vol-2:
+  connection: CD-era Varèse compilation of original-series music.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/varese-herrmann-twilight-zone-mcneely:
+  connection: Modern re-recording of Herrmann's episode scores.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/varese-tz-la-quatrieme-dimension-french-lp:
+  connection: French edition of an original-series score LP.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: International edition collectors seek.
+works/varese-tz-original-tv-scores-vol-1:
+  connection: Original-series score LP.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/varese-tz-original-tv-scores-vol-2:
+  connection: Original-series score LP.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/varese-tz-original-tv-scores-vol-3:
+  connection: Original-series score LP.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/varese-tz-original-tv-scores-vol-4:
+  connection: Original-series score LP.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/varese-tz-original-tv-scores-vol-5:
+  connection: Original-series score LP.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+works/willy-wonka-pinball-2019-homage:
+  connection: Unlicensed in-game nod to The Twilight Zone or to its 1993 pinball adaptation.
+  tier: tangential
+  tier_reason: Mentions or borrows from the show.
+  recommendation: maybe
+  reason: A small Easter egg, best grouped on a 'homages in other pinball' list.
+works/wissner-a-dimension-of-sound-2013:
+  connection: Primary scholarly source on Twilight Zone music.
+  tier: core
+  tier_reason: About The Twilight Zone itself, or officially licensed.
+  recommendation: include
+  reason: The research backbone for every music page on the site.
+>>>>>>> origin/claude/project-thread-zn9j20

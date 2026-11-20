@@ -1,0 +1,18 @@
+title: Jack*Bot (pinball)
+kind: game
+year: 1995
+publisher: Williams
+description: >-
+  During the match sequence a robot appears that TV Tropes lists as a Twilight Zone reference; no specific episode
+  is named. The table is otherwise unrelated to The Twilight Zone.
+subtype: pinball-homage
+details:
+  licensed: false
+relevance: tangential
+research_confidence: low
+categories:
+- games/game-homages
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'

@@ -4,17 +4,33 @@ subtype: score-release
 year: 1983
 creator: Marius Constant, Jerry Goldsmith, Nathan Van Cleave, Bernard Herrmann, Franz Waxman
 publisher: Varèse Sarabande
-description: First of Varèse Sarabande's five LPs of original CBS episode scores, pairing the Constant main and
-  end titles with music from "The Invaders", "Perchance to Dream", "Walking Distance" and "The Sixteen-Millimeter
-  Shrine".
+description: >-
+  First of Varèse Sarabande's five LPs of original CBS episode scores, pairing the Constant main and end titles
+  with music from "The Invaders", "Perchance to Dream", "Walking Distance" and "The Sixteen-Millimeter Shrine".
 details:
   format: LP
   series: The Twilight Zone (1959-64)
   catalog_no: STV 81171
+  label: Varèse Sarabande
+  catalog: STV 81171
 sources:
 - title: mail.45worlds.com
   url: https://mail.45worlds.com/vinyl/album/stv81171
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/Var%C3%A8se_Sarabande_albums_discography
-research_confidence: high
-last_verified: '2026-11-19'
+- title: Creepy Classics – Original Television Scores Volume 1 LP
+  url: https://creepyclassics.com/twilight-zone-original-television-scores-volume-1-vinyl-record-album
+- title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
+  url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
+research_confidence: medium
+last_verified: '2026-11-20'
+relevance: core
+media:
+- type: link
+  title: 45worlds listing – STV 81171
+  url: https://mail.45worlds.com/vinyl/album/stv81171
+  host: 45worlds
+  rights: link-only
+  subtype: listing
+categories:
+- music/soundtracks

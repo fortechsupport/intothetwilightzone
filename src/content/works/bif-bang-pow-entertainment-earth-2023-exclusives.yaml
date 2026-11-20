@@ -1,11 +1,12 @@
 title: Mystic Seer Theme Park Edition and Talky Tina 18-inch Prop Replicas
 kind: collectible
-subtype: replica-prop
+subtype: prop-replica
 year: 2023
-creator: Bif Bang Pow! (Entertainment Earth exclusive)
-description: 'A 2023 batch of Entertainment Earth exclusives: a Mystic Seer modelled on the version seen in Disney''s
-  Tower of Terror rather than the TV prop, a talking Talky Tina doll using the episode''s audio, and a six-figure
-  glow-in-the-dark set.'
+creator: Bif Bang Pow!
+description: >-
+  A 2023 batch of Entertainment Earth exclusives: a Mystic Seer modelled on the version seen in Disney's Tower of
+  Terror rather than the TV prop, a talking Talky Tina doll using the episode's audio, and a six-figure glow-in-the-dark
+  set.
 details:
   line: The Twilight Zone prop replicas
   series: The Twilight Zone (1959) - "Nick of Time", "Living Doll"; Disney's Twilight Zone Tower of Terror
@@ -14,10 +15,23 @@ details:
   - Talky Tina 18-inch talking doll (limited to 1,004)
   - Glow-in-the-dark 3 3/4-inch figure set of 6
   licensed: true
+  skus:
+  - BBP05009ALT
+  - BBP05008ALTB
 sources:
 - title: toyark.com
   url: https://www.toyark.com/?p=505530
 - title: clownfishtv.com
   url: https://clownfishtv.com/new-twilight-zone-prop-replicas-coming-to-entertainment-earth
-research_confidence: high
-last_verified: '2026-11-19'
+- title: 'Entertainment Earth: Talky Tina 18-inch Prop Replica (EE exclusive)'
+  url: >-
+    https://www.entertainmentearth.com/product/the-twilight-zone-talky-tina-18inch-prop-replica-doll-entertainment-earth-exclusive/bbp05009alt
+- title: 'Entertainment Earth: Mystic Seer 1:1 Signature Edition Bundle'
+  url: >-
+    https://www.entertainmentearth.com/product/the-twilight-zone-mystic-seer-11-scale-prop-replica-signature-edition-bundle-entertainment-earth-exclusive/bbp05008altb
+research_confidence: medium
+last_verified: '2026-11-20'
+publisher: Entertainment Earth
+relevance: core
+categories:
+- merchandise/prop-replicas

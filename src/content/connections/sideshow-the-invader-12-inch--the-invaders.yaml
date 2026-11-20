@@ -1,0 +1,13 @@
+from: works/sideshow-the-invader-12-inch
+to: 1959/the-invaders
+kind: reference
+confidence: documented
+summary: >-
+  Based on the miniature astronaut who attacks Agnes Moorehead's farm woman in Richard Matheson's 'The Invaders'
+  (aired January 27, 1961).
+sources:
+- title: 'Toymania Spotlight: Twilight Zone Invader'
+  url: https://www.toymania.com/columns/spotlight/tzinvader.shtml
+- title: 'Entertainment Earth: The Invader'
+  url: https://www.entertainmentearth.com/product/twilight-zone-invader/sid6905
+last_verified: '2026-11-20'

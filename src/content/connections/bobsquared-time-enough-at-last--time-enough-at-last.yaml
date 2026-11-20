@@ -1,0 +1,10 @@
+from: songs/bobsquared-time-enough-at-last
+to: 1959/time-enough-at-last
+kind: reference
+confidence: documented
+summary: >-
+  Shares the exact title of the 1959 episode 'Time Enough at Last'; the link is inferred from the title.
+sources:
+- title: 'Bandcamp: bobsquared - Time Enough at Last'
+  url: https://bobsquared.bandcamp.com/track/time-enough-at-last
+last_verified: '2026-11-20'

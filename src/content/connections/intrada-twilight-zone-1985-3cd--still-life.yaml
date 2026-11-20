@@ -1,0 +1,11 @@
+from: works/intrada-twilight-zone-1985-3cd
+to: 1985/still-life
+kind: reference
+confidence: documented
+summary: The main archival release of 1985 revival scores.
+sources:
+- title: store.intrada.com
+  url: https://store.intrada.com/s.nl/it.A/id.10063/.f
+- title: soundtrack-board.de
+  url: https://www.soundtrack-board.de/topic/15202-intrada-the-new-twilight-zone-3cd
+last_verified: '2026-11-20'

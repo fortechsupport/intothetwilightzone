@@ -4,16 +4,33 @@ subtype: score-release
 year: 1984
 creator: Bernard Herrmann, Jerry Goldsmith, René Garriguenc, Nathan Van Cleave, Fred Steiner
 publisher: Varèse Sarabande
-description: The fourth LP collects two jazz-flavoured theme cues alongside music for "Nervous Man in a Four Dollar
-  Room", "Elegy", "King Nine Will Not Return" and "Two", bookended by alternate Herrmann titles.
+description: >-
+  The fourth LP collects two jazz-flavoured theme cues alongside music for "Nervous Man in a Four Dollar Room",
+  "Elegy", "King Nine Will Not Return" and "Two", bookended by alternate Herrmann titles.
 details:
   format: LP
   series: The Twilight Zone (1959-64)
   catalog_no: STV 81192
+  label: Varèse Sarabande
+  catalog: STV 81192
 sources:
 - title: mail.45worlds.com
   url: https://mail.45worlds.com/vinyl/album/stv81192
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/Var%C3%A8se_Sarabande_albums_discography
-research_confidence: high
-last_verified: '2026-11-19'
+- title: Creepy Classics – Original Television Scores Volume 4 LP
+  url: https://creepyclassics.com/twilight-zone-original-television-scores-volume-4-vinyl-record-album
+- title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
+  url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
+research_confidence: medium
+last_verified: '2026-11-20'
+relevance: core
+media:
+- type: link
+  title: 45worlds listing – STV 81192
+  url: https://mail.45worlds.com/vinyl/album/stv81192
+  host: 45worlds
+  rights: link-only
+  subtype: listing
+categories:
+- music/soundtracks

@@ -4,16 +4,33 @@ subtype: score-release
 year: 1983
 creator: Marius Constant, Jerry Goldsmith, Leonard Rosenman, Nathan Van Cleave, Bernard Herrmann
 publisher: Varèse Sarabande
-description: Volume three uses alternate Constant title cues around scores for "Back There", "And When the Sky Was
-  Opened", "A World of Difference" and Herrmann's "The Lonely".
+description: >-
+  Volume three uses alternate Constant title cues around scores for "Back There", "And When the Sky Was Opened",
+  "A World of Difference" and Herrmann's "The Lonely".
 details:
   format: LP
   series: The Twilight Zone (1959-64)
   catalog_no: STV 81185
+  label: Varèse Sarabande
+  catalog: STV 81185
 sources:
 - title: mail.45worlds.com
   url: https://mail.45worlds.com/vinyl/album/stv81185
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/Var%C3%A8se_Sarabande_albums_discography
-research_confidence: high
-last_verified: '2026-11-19'
+- title: Creepy Classics – Original Television Scores Volume 3 LP
+  url: https://creepyclassics.com/twilight-zone-original-television-scores-volume-3-vinyl-record-album
+- title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
+  url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
+research_confidence: medium
+last_verified: '2026-11-20'
+relevance: core
+media:
+- type: link
+  title: 45worlds listing – STV 81185
+  url: https://mail.45worlds.com/vinyl/album/stv81185
+  host: 45worlds
+  rights: link-only
+  subtype: listing
+categories:
+- music/soundtracks

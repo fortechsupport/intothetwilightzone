@@ -1,0 +1,11 @@
+from: works/trick-or-treat-studios-the-masks-vacuform-masks
+to: 1959/the-masks
+kind: reference
+confidence: documented
+summary: Directly replicates the masks from 'The Masks' (1964), directed by Ida Lupino.
+sources:
+- title: 'Big Bad Toy Store: The Twilight Zone Jason Foster Vacuform Mask'
+  url: https://bbts.com/Product/VariationDetails/280792
+- title: 'eBay catalog: Trick or Treat Studios Jason Foster Vacuform Mask'
+  url: https://www.ebay.com/p/1718774397
+last_verified: '2026-11-20'

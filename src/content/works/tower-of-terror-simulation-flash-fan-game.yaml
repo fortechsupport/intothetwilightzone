@@ -1,0 +1,17 @@
+title: Tower of Terror Simulation (fan Flash game)
+kind: game
+creator: Themagical.nl
+description: >-
+  A fan-made Flash browser game, hosted by TowerOfTerror.org, in which players operate the Tower of Terror elevator.
+  There is no way to fail.
+subtype: fan-game
+details:
+  licensed: false
+relevance: tangential
+research_confidence: medium
+categories:
+- games/other-games
+sources:
+- title: 'Tower Secrets: Tower of Terror Games'
+  url: https://towersecrets.com/tower-of-terror-games/
+last_verified: '2026-11-20'

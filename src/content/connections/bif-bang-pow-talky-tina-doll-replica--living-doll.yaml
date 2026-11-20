@@ -1,0 +1,11 @@
+from: works/bif-bang-pow-talky-tina-doll-replica
+to: 1959/living-doll
+kind: reference
+confidence: documented
+summary: Replicates the doll that menaces Telly Savalas's character in 'Living Doll' (1963).
+sources:
+- title: 'Entertainment Earth: Talky Tina Doll Replica'
+  url: https://www.entertainmentearth.com/product/the-twilight-zone-talky-tina-doll-replica/bbp05009
+- title: 'Entertainment Earth: Talky Tina Doll Replica Color'
+  url: https://www.entertainmentearth.com/product/the-twilight-zone-talky-tina-doll-replica-color/bbp05009c
+last_verified: '2026-11-20'

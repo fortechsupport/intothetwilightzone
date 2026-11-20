@@ -1,0 +1,31 @@
+title: '"The Paintings of Night Gallery" - TV Time Machine radio interview with Tom Wright'
+kind: artwork
+publisher: TV Time Machine
+description: >-
+  A TV Time Machine radio interview with Night Gallery painter Thomas J. Wright, with a companion page of his paintings:
+  The Doll, The Lone Survivor, Midnight Never Ends, Brenda, Pickman's Model, The Late Mr. Peddington, A Feast of
+  Blood, The Caterpillar, Finnegan's Flight and Death on a Barge. The same program also interviewed Night Gallery
+  co-author Scott Skelton.
+subtype: artist-interview
+details:
+  people:
+  - Thomas J. Wright
+  - Scott Skelton
+relevance: related
+research_confidence: medium
+categories:
+- artwork/night-gallery-paintings
+sources:
+- title: 'TV Time Machine - The paintings of Night Gallery: interview with artist Tom Wright'
+  url: https://www.tvtimemachine.imdickenshesfenster.com/radio_show_wrightpics.htm
+- title: TV Time Machine - Tom Wright interview page
+  url: https://www.tvtimemachine.imdickenshesfenster.com/radio_show_wright.htm
+- title: TV Time Machine - Interview with Night Gallery co-author Scott Skelton
+  url: https://www.tvtimemachine.imdickenshesfenster.com/radio_show_skelton.htm
+media:
+- type: audio
+  title: TV Time Machine - Tom Wright interview
+  url: https://www.tvtimemachine.imdickenshesfenster.com/radio_show_wright.htm
+  host: TV Time Machine (producer's site)
+  rights: licensed
+last_verified: '2026-11-20'

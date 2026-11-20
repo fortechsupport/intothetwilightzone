@@ -1,0 +1,13 @@
+from: works/bif-bang-pow-8-inch-the-venusian-invader
+to: 1959/the-invaders
+kind: reference
+confidence: documented
+summary: >-
+  Both figures come from original-series episodes (will-the-real-martian-please-stand-up, the-invaders).
+sources:
+- title: Entertainment Earth product page
+  url: >-
+    https://www.entertainmentearth.com/product/the-twilight-zone-the-venusian-and-invader-action-figures/bbp05101ee
+- title: 'Entertainment Earth News: Retro Mego Style'
+  url: https://www.entertainmentearth.com/news/twilight-zone-action-figures-take-retro-mego-style/
+last_verified: '2026-11-20'

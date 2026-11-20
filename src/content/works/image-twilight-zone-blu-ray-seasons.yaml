@@ -1,10 +1,11 @@
 title: 'The Twilight Zone: The Complete Seasons (Blu-ray)'
 kind: collectible
-subtype: home-video-set
-year: 2010
+subtype: home-video
+year: 2010-2011
 creator: Image Entertainment (with CBS)
-description: High-definition season sets of the original series, starting with Season 1 in September 2010, later
-  collected in a complete-series Blu-ray box. They carried over the DVD extras and added new commentaries and material.
+description: >-
+  High-definition season sets of the original series, starting with Season 1 in September 2010, later collected
+  in a complete-series Blu-ray box. They carried over the DVD extras and added new commentaries and material.
 details:
   series: The Twilight Zone (1959)
   items:
@@ -19,5 +20,16 @@ sources:
   url: https://www.discdish.com/2010/06/27/new-release-blu-ray-the-twilight-zone-season-one
 - title: m.blu-ray.com
   url: https://m.blu-ray.com/movies/The-Twilight-Zone-The-Complete-Series-Blu-ray/167140
-research_confidence: high
-last_verified: '2026-11-19'
+- title: 'Bloody Disgusting: The Twilight Zone Season One gets Blu-ray release'
+  url: https://bloody-disgusting.com/news/20515/the-twilight-zone-season-one-gets-blu-ray-release/
+- title: >-
+    High-Def Digest: The Twilight Zone Complete Series and Fan Favorites Announced for Blu-ray (Apr 2, 2012)
+  url: >-
+    https://bluray.highdefdigest.com/news/show/The_Twilight_Zone_The_Complete_Series_and_The_Twilight_Zone_Fan_Favorites_Announced_for_Blu-ray/9146
+- title: 'Hollywood Chicago: Blu-ray Review Season 5'
+  url: >-
+    https://hollywoodchicago.com/news/15502/blu-ray-review-amazing-series-ends-with-the-twilight-zone-season-5?page=1
+research_confidence: medium
+last_verified: '2026-11-20'
+publisher: Image Entertainment
+relevance: core

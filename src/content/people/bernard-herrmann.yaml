@@ -29,14 +29,47 @@ tz_credits:
   work: Living Doll
   role: composer
   ref: 1959/living-doll
+- series: The Twilight Zone (1959-1964)
+  work: First-season main and end titles (1959-60)
+- series: The Twilight Zone (1959-1964)
+  work: Where Is Everybody?
+  ref: 1959/where-is-everybody
+- series: The Twilight Zone (1959-1964)
+  work: Walking Distance
+  ref: 1959/walking-distance
+- series: The Twilight Zone (1959-1964)
+  work: The Lonely
+  ref: 1959/the-lonely
+- series: The Twilight Zone (1959-1964)
+  work: The Hitch-Hiker
+  ref: 1959/the-hitch-hiker
+- series: The Twilight Zone (1959-1964)
+  work: Eye of the Beholder
+  ref: 1959/eye-of-the-beholder
+- series: The Twilight Zone (1959-1964)
+  work: Little Girl Lost
+  ref: 1959/little-girl-lost
+- series: The Twilight Zone (1959-1964)
+  work: Living Doll
+  ref: 1959/living-doll
+- series: The Twilight Zone (1959-1964)
+  work: Two rejected replacement themes for season two (1960)
+- series: The Twilight Zone (1959-1964)
+  work: Outer Space Suite (1957, CBS library) – tracked into many early episodes
+- series: The Twilight Zone (1959-1964)
+  work: One for the Angels
+  ref: 1959/one-for-the-angels
+- series: The Twilight Zone (1959-1964)
+  work: Mr. Denton on Doomsday
+  ref: 1959/mr-denton-on-doomsday
 born: '1911-06-29'
 died: '1975-12-24'
 bio: >-
-  Bernard Herrmann wrote the eerie, little-remembered theme used during The Twilight Zone's first season
-  and composed original scores for episodes including Where Is Everybody?, Walking Distance, The Lonely,
-  Eye of the Beholder, Little Girl Lost and Living Doll; his cues were reused throughout the run from
-  the CBS music library. He was already a celebrated film composer, from Citizen Kane through nine Hitchcock
-  films including Vertigo and Psycho, and his last score was Taxi Driver.
+  Bernard Herrmann wrote the eerie, little-remembered theme used during The Twilight Zone's first season and composed
+  original scores for episodes including Where Is Everybody?, Walking Distance, The Lonely, Eye of the Beholder,
+  Little Girl Lost and Living Doll; his cues were reused throughout the run from the CBS music library. He was already
+  a celebrated film composer, from Citizen Kane through nine Hitchcock films including Vertigo and Psycho, and his
+  last score was Taxi Driver.
 links:
   wikipedia: https://en.wikipedia.org/wiki/Bernard_Herrmann
 sources:
@@ -44,4 +77,19 @@ sources:
   url: https://en.wikipedia.org/wiki/Bernard_Herrmann
 - title: Twilight Zone Composers Strike A Spooky Note - Long Island Weekly
   url: https://longislandweekly.com/twilight-zone-composers-a-spooky-note/
-last_verified: '2026-11-19'
+- title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
+  url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
+- title: Filmtracks – The Twilight Zone (40th Anniversary Collection)
+  url: https://www.filmtracks.com/titles/twilight_zone.html
+- title: ClassicThemes – The Twilight Zone theme history
+  url: https://classicthemes.com/50sTVThemes/themePages/twilightZone.html
+- title: Cambridge Core – Wissner, 'Episode and Cue Information' appendix
+  url: >-
+    https://core-prod.cambridgecore.org/core/books/dimension-of-sound/episode-and-cue-information/D3509C7720B4715668F1CDF11692BA78
+- title: Bright Lights Film Journal – Bernard Herrmann's Twilight Zone CD
+  url: https://brightlightsfilm.com/bernard-herrmanns-twilight-zone-cd/
+- title: OAC – Guide to the Bernard Herrmann papers
+  url: https://oac.cdlib.org/findaid/ark:/13030/tf438nb3jd/entire_text/
+last_verified: '2026-11-20'
+relevance: core
+research_confidence: medium

@@ -17,14 +17,30 @@ tz_credits:
   work: No Time Like the Past
   role: composer
   ref: 1959/no-time-like-the-past
+- series: The Twilight Zone (1959-1964)
+  work: King Nine Will Not Return
+  ref: 1959/king-nine-will-not-return
+- series: The Twilight Zone (1959-1964)
+  work: A Hundred Yards Over the Rim
+  ref: 1959/a-hundred-yards-over-the-rim
+- series: The Twilight Zone (1959-1964)
+  work: The Passersby
+  ref: 1959/the-passersby
+- series: The Twilight Zone (1959-1964)
+  work: >-
+    CBS library cues tracked into many episodes (e.g. 'A Penny for Your Thoughts', 'Five Characters in Search of
+    an Exit', 'No Time Like the Past' per Long Island Weekly)
+- series: The Twilight Zone (1985-1989)
+  work: A Day in Beaumont
+  ref: 1985/a-day-in-beaumont
 born: '1923-02-24'
 died: '2011-06-23'
 bio: >-
-  Fred Steiner was one of the composers whose music filled the CBS library that The Twilight Zone drew
-  on, and his work was heard, often uncredited, across dozens of episodes such as A Penny for Your Thoughts,
-  Five Characters in Search of an Exit and No Time Like the Past. He is best known for writing the theme
-  to Perry Mason and for scoring many original Star Trek episodes. Late in his career he shared an Oscar
-  nomination for The Color Purple and became a respected film-music historian.
+  Fred Steiner was one of the composers whose music filled the CBS library that The Twilight Zone drew on, and his
+  work was heard, often uncredited, across dozens of episodes such as A Penny for Your Thoughts, Five Characters
+  in Search of an Exit and No Time Like the Past. He is best known for writing the theme to Perry Mason and for
+  scoring many original Star Trek episodes. Late in his career he shared an Oscar nomination for The Color Purple
+  and became a respected film-music historian.
 links:
   wikipedia: https://en.wikipedia.org/wiki/Fred_Steiner
 sources:
@@ -32,4 +48,23 @@ sources:
   url: https://en.wikipedia.org/wiki/Fred_Steiner
 - title: Twilight Zone Composers Strike A Spooky Note - Long Island Weekly
   url: https://longislandweekly.com/twilight-zone-composers-a-spooky-note/
-last_verified: '2026-11-19'
+- title: Cambridge Core – Wissner, 'Composing and Recording in The Twilight Zone' (A Dimension of Sound)
+  url: >-
+    https://www.cambridge.org/core/books/dimension-of-sound/composing-and-recording-in-the-twilight-zone/FB1702A39C06B44D12717DB408D350A7
+- title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
+  url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
+- title: Filmtracks – The Twilight Zone (40th Anniversary Collection)
+  url: https://www.filmtracks.com/titles/twilight_zone.html
+- title: Intrada – The Twilight Zone (3CD) ISC 348
+  url: https://store.intrada.com/s.nl/it.A/id.10063/.f
+- title: 'Television Academy Foundation – The Interviews: Fred Steiner'
+  url: https://interviews.televisionacademy.com/node/14640
+last_verified: '2026-11-20'
+relevance: core
+research_confidence: medium
+media:
+- type: video
+  title: 'The Interviews: Fred Steiner (Television Academy Foundation)'
+  url: https://interviews.televisionacademy.com/node/14640
+  host: Television Academy Foundation
+  rights: licensed

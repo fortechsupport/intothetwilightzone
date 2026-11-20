@@ -1,0 +1,11 @@
+from: works/tribute-film-classics-walking-distance
+to: 1959/walking-distance
+kind: reference
+confidence: documented
+summary: Complete re-recording of Herrmann's 'Walking Distance' score.
+sources:
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+- title: americanmusicpreservation.com
+  url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
+last_verified: '2026-11-20'
