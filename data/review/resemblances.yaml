@@ -1,0 +1,29 @@
+# What a film or show shares with an episode when the link is only fan-noted (no maker or critic source).
+# strength: strong = the premises closely match; weak = a loose or generic likeness. Keyed by film id.
+a-nightmare-on-elm-street: {strength: strong, text: "both make falling asleep deadly; in the episode a man with a weak heart believes that if he dies in his dream he will die for real."}
+adaalat-the-flight-assassinator: {strength: weak, text: "the original research pairs this courtroom-drama episode with \"Nightmare at 20,000 Feet\", but the shared element has not been identified."}
+blazing-saddles: {strength: strong, text: "both feature a drunken, washed-up gunslinger (the Waco Kid, Al Denton) who regains his legendary speed with a gun."}
+christine: {strength: strong, text: "both are about a car with a will of its own that turns on people."}
+clockstoppers: {strength: strong, text: "both turn on a device that freezes time for everyone except its holder."}
+cube: {strength: strong, text: "both trap strangers with no memory of how they arrived in a featureless enclosure they cannot escape."}
+dead-silence: {strength: weak, text: "both involve a ventriloquist's dummy, a common horror motif that predates the episode."}
+donnie-darko: {strength: strong, text: "both reveal at the end that the story took place in the moment before the hero's death."}
+edge-of-tomorrow: {strength: weak, text: "both trap a man in a repeating cycle; in the episode he relives his execution, in the film a battle."}
+in-the-mouth-of-madness: {strength: weak, text: "both have a writer whose fiction becomes real, a common fantasy premise."}
+key-peele-airplane-continental: {strength: weak, text: "an airliner-set sketch that the original research pairs with \"Nightmare at 20,000 Feet\"; no direct spoof of the gremlin is recorded."}
+liar-liar: {strength: strong, text: "both force a professional liar to tell the truth for a set time (a used-car dealer in the episode, a lawyer in the film)."}
+looper: {strength: weak, text: "both involve travel to the past, but the plots have little else in common."}
+magic: {strength: weak, text: "both involve a ventriloquist dominated by his dummy, a motif shared with many earlier stories."}
+meet-joe-black: {strength: strong, text: "both personify Death as a polite visitor who bargains with a man over the time he has left."}
+minority-report: {strength: weak, text: "both involve glimpses of the future, but by very different means."}
+stranger-than-fiction: {strength: strong, text: "both explore a writer's power over a character's life, with the character discovering it."}
+the-cobbler: {strength: strong, text: "both use a dead or absent man's shoes to transfer his identity to whoever wears them."}
+the-good-place: {strength: strong, text: "both reveal that an afterlife paradise where every wish is granted is really a place of punishment."}
+the-invisible: {strength: strong, text: "both follow a young man caught between life and death whom the living cannot see."}
+the-stepford-wives: {strength: weak, text: "both are about enforced conformity through physical transformation, though the stories differ."}
+the-truman-show: {strength: strong, text: "both follow a man who discovers that his everyday world is a set and his life is being filmed."}
+time-lapse: {strength: strong, text: "both centre on a camera that photographs the future, and the greed it brings out."}
+toy-story: {strength: weak, text: "both feature characters who turn out to be toys, but the stories share little else."}
+unknown: {strength: strong, text: "both follow a man who wakes to find that his wife and everyone else no longer know who he is."}
+vivarium: {strength: strong, text: "both trap a couple in an artificial, too-perfect town that turns out to be a specimen enclosure."}
+what-women-want: {strength: strong, text: "both give an ordinary man the sudden power to hear other people's thoughts."}
