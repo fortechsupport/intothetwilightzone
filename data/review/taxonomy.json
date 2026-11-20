@@ -64421,7 +64421,27 @@
    "isNew": false
   }
  ],
+ "works/serling-binghamton-talk-1959": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  }
+ ],
  "works/serling-broome-tech-censorship-1964": [
+  {
+   "cat": "lectures",
+   "sub": "serling-lectures",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false
+  }
+ ],
+ "works/serling-buffalo-state-1972": [
   {
    "cat": "lectures",
    "sub": "serling-lectures",
@@ -64960,6 +64980,16 @@
    "group": null,
    "catTitle": "Events",
    "subTitle": "Conventions",
+   "isNew": false
+  }
+ ],
+ "works/stage-89-tower-of-terror-30th-2024": [
+  {
+   "cat": "events",
+   "sub": "anniversaries-festivals",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Anniversaries and festivals",
    "isNew": false
   }
  ],

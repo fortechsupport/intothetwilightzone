@@ -38544,7 +38544,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -39264,7 +39264,7 @@
   "sort": "cesare danova"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -42312,7 +42312,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -57396,7 +57396,7 @@
   "sort": "werner klemperer"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -67955,6 +67955,18 @@
   "subcategory": "Conventions",
   "sort": "serling  000100 the life  legacy of rod serling 001924001975"
  },
+ "works/serling-binghamton-talk-1959": {
+  "connection": "Serling talking about the show before it aired.",
+  "tier": "core",
+  "tier_reason": "A talk or class about The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "A pre-premiere hometown talk; rare contemporary source.",
+  "source_title": "Angry Young Man? Serling Too Busy (Binghamton Sunday Press, 1959-08-15, via RSMF)",
+  "source_url": "https://rodserling.com/angry-young-man-serling-too-busy/",
+  "title": "Rod Serling speaks in Binghamton as The Twilight Zone is about to premiere (1959)",
+  "subcategory": "Rod Serling's lectures",
+  "sort": "rod serling speaks in binghamton as the twilight zone is about to premiere 001959"
+ },
  "works/serling-broome-tech-censorship-1964": {
   "connection": "Serling's own views on the pressures he worked under on the show.",
   "tier": "related",
@@ -67966,6 +67978,18 @@
   "title": "Rod Serling on television censorship, Broome Technical Community College (1964)",
   "subcategory": "Rod Serling's lectures",
   "sort": "rod serling on television censorship broome technical community college 001964"
+ },
+ "works/serling-buffalo-state-1972": {
+  "connection": "A titled Serling campus lecture from his Night Gallery years.",
+  "tier": "related",
+  "tier_reason": "A talk by Rod Serling, or about him, in his own voice or legacy.",
+  "recommendation": "include",
+  "reason": "A dated, titled talk with a contemporary student-paper source.",
+  "source_title": "Homage to Rod Serling, a Great American (Ralph Dumain, RSMF)",
+  "source_url": "https://rodserling.com/homage-to-rod-serling-a-great-american/",
+  "title": "\"The Twentieth Century and Other Absurdities\": Rod Serling in Buffalo (1972)",
+  "subcategory": "Rod Serling's lectures",
+  "sort": "twentieth century and other absurdities rod serling in buffalo 001972"
  },
  "works/serling-death-1975": {
   "connection": "The death of the show's creator.",
@@ -68518,6 +68542,18 @@
   "title": "St. John Fisher celebrates the 60th anniversary of The Twilight Zone",
   "subcategory": "Conventions",
   "sort": "st john fisher celebrates the 000060th anniversary of the twilight zone"
+ },
+ "works/stage-89-tower-of-terror-30th-2024": {
+  "connection": "An anniversary event for the TZ attraction.",
+  "tier": "related",
+  "tier_reason": "An event in Rod Serling's life or the wider franchise.",
+  "recommendation": "maybe",
+  "reason": "A fan-run gathering; include if you want attraction history beyond the rides themselves.",
+  "source_title": "WDW News Today: Voice of Rod Serling from Tower of Terror returns for 30th anniversary meet & greet (2024)",
+  "source_url": "https://wdwnt.com/2024/02/voice-of-rod-serling-from-twilight-zone-tower-of-terror-returns-for-attractions-30th-anniversary-meet-greet",
+  "title": "Stage 89: Tower of Terror 30th anniversary gathering (2024)",
+  "subcategory": "Anniversaries and festivals",
+  "sort": "stage 000089 tower of terror 000030th anniversary gathering 002024"
  },
  "works/stages-theater-fullerton-twilight-zone": {
   "connection": "An October 2019 staging of Twilight Zone stories by a Southern California community company.",
