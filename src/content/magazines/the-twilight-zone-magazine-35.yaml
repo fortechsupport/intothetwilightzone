@@ -4,8 +4,15 @@ cover_date: Mar-Apr 1985
 order: 35
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+description: Spring 1985 issue (Wikipedia cites it as April 1985) containing Jefferson Graham's article
+  'The Twilight Zone Returns', an early report on CBS's planned revival of the series.
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60187
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Wikipedia: The Twilight Zone (1985 TV series) (references)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
+last_verified: '2026-11-19'
+locked: true

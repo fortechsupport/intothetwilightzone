@@ -1,12 +1,22 @@
 title: Journeys to the Twilight Zone
 authors:
 - Carol Serling
-- Martin H. Greenberg
-publisher: DAW/Penguin Group
-published: '1993-01-01'
+publisher: DAW Books
+published: '1993'
+kind: anthology
+description: The first of Carol Serling's DAW anthologies of new Twilight Zone-style stories by contemporary
+  writers. It also includes Rod Serling's previously unpublished story 'Suggestion'.
 ids:
   goodreads: '1456799'
   amazon_asin: '0886775256'
+relevance: core
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Biblio listing
+  url: https://biblio.co.uk/book/journeys-twilight-zone-daw-book-collectors/d/200825399
+- title: Worlds Without End
+  url: https://www.worldswithoutend.com/novel.asp?id=36711
+last_verified: '2026-11-19'
+locked: true

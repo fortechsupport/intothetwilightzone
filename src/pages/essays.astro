@@ -1,0 +1,33 @@
+---
+import Base from '../layouts/Base.astro';
+import ExtLinks from '../components/ExtLinks.astro';
+import { getCollection } from 'astro:content';
+const kindLabel: Record<string, string> = {
+  'journal-article': 'Journal articles',
+  'book-chapter': 'Book chapters',
+  essay: 'Essays and journalism',
+  review: 'Reviews',
+  speech: 'Speeches',
+  interview: 'Interviews',
+};
+const essays = (await getCollection('essays')).sort((a, b) => (a.data.published ?? '9999').localeCompare(b.data.published ?? '9999') || a.data.title.localeCompare(b.data.title));
+const groups = Object.keys(kindLabel).map((k) => [k, essays.filter((e) => (e.data.kind ?? 'essay') === k)] as const).filter(([, list]) => list.length > 0);
+---
+<Base title="Essays and scholarship" description="Essays, scholarly articles, speeches and interviews about The Twilight Zone and Rod Serling.">
+  <h1>Essays and scholarship</h1>
+  <p class="lead">{essays.length} pieces of writing about The Twilight Zone: peer-reviewed scholarship, book chapters, journalism, and Rod Serling's own speeches and interviews.</p>
+  {groups.map(([kind, list]) => (
+    <section>
+      <h2>{kindLabel[kind]}</h2>
+      <ul class="entries">
+        {list.map((e) => (
+          <li id={e.id}>
+            <strong>{e.data.links?.online ? <a href={e.data.links.online} rel="noopener nofollow">{e.data.title}</a> : e.data.title}</strong>
+            <span class="muted">{[e.data.authors.join(', '), e.data.published_in, e.data.published?.slice(0, 4)].filter(Boolean).join(' · ')}</span>
+            {e.data.description && <p class="small">{e.data.description}</p>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>

@@ -4,8 +4,20 @@ cover_date: Sep-Oct 1983
 order: 26
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+description: 'September-October 1983 special issue on Twilight Zone: The Movie, the first with a film
+  still on the cover (''Nightmare at 20,000 Feet''), featuring Paul M. Sammon''s set report and interviews
+  with John Landis, Joe Dante, Richard Matheson, John Lithgow, Scatman Crothers, Kevin McCarthy and Rob
+  Bottin. Zicree''s show-by-show guide concluded with part twenty-six, and George Clayton Johnson''s teleplay
+  ''Kick the Can'' was reprinted with his afterword.'
+episodes:
+- 1959/kick-the-can
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60207
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 26'
+  url: https://twilightzonevortex.blogspot.com/2024/04/reading-rod-serlings-twilight-zone.html
+last_verified: '2026-11-19'
+locked: true

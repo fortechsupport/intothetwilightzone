@@ -1,11 +1,20 @@
 title: Everything I Need to Know I Learned in the Twilight Zone
 authors:
 - Mark Dawidziak
-publisher: Thomas Dunne Books
-published: '2017-02-01'
+publisher: Thomas Dunne Books (St. Martin's Press)
+published: '2017'
+kind: other
+description: A light, essay-style book by the TV critic Mark Dawidziak that draws life lessons from individual
+  episodes of the original series. Its subtitle is 'A Fifth-Dimension Guide to Life'.
 ids:
   goodreads: '29939204'
-  amazon_asin: '125062150X'
+  amazon_asin: 125062150X
+relevance: core
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Library Journal review
+  url: https://libraryjournal.com/review/everything-i-need-to-know-i-learned-in-the-twilight-zone-a-fifth-dimension-guide-to-life
+last_verified: '2026-11-19'
+locked: true

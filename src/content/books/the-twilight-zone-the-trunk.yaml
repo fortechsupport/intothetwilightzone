@@ -2,6 +2,11 @@ title: 'The Twilight Zone: The Trunk'
 authors:
 - Jeremy Bertrand Finch
 - Paul Chitlik
+relevance: core
+tags:
+- teleplay
+- unverified
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+locked: true

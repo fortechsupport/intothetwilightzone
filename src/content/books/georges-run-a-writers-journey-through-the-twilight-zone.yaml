@@ -2,10 +2,24 @@ title: 'Georges Run: A Writers Journey through the Twilight Zone'
 authors:
 - Henry Chamberlain
 publisher: Rutgers University Press
-published: '2023-05-12'
+published: '2023-05'
+relevance: core
+tags:
+- unverified
+pages: 226
+isbn: '9781978834200'
+kind: graphic-novel
+description: Henry Chamberlain's comics biography of George Clayton Johnson built from their interviews,
+  covering Logan's Run, Ocean's Eleven, Star Trek and his Twilight Zone scripts and friendships with Serling,
+  Beaumont and Bradbury.
 ids:
   goodreads: '63065574'
   amazon_asin: '1978834209'
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Publishers Weekly review
+  url: https://publishersweekly.com/978-1-9788-3420-0
+last_verified: '2026-11-19'
+locked: true

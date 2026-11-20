@@ -3,10 +3,19 @@ authors:
 - Heather L. Rivera
 - Alexander E. Hooke
 publisher: Open Court
-published: '2018-10-09'
+published: '2018'
+relevance: core
+pages: 264
+isbn: '9780812699890'
+kind: scholarly
 ids:
   goodreads: '36978966'
   amazon_asin: '0812699890'
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Readings listing
+  url: https://www.readings.com.au/product/9780812699890/the-twilight-zone-and-philosophy--2018--9780812699890
+last_verified: '2026-11-19'
+locked: true

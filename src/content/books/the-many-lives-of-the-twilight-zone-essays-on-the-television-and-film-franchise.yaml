@@ -2,11 +2,23 @@ title: 'The Many Lives of The Twilight Zone: Essays on the Television and Film F
 authors:
 - Ron Riekki
 - Kevin J. Wetmore Jr.
-publisher: McFarland Publishing
-published: '2022-10-12'
+publisher: McFarland & Company
+published: '2022'
+isbn: '9781476681016'
+kind: scholarly
+description: A collection of academic essays on every incarnation of the franchise, from the 1959 series
+  through the 1983 film to the 1985, 2002 and 2019 revivals.
 ids:
   goodreads: '58934473'
   amazon_asin: '1476681015'
+relevance: core
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: McFarland product page
+  url: https://mcfarlandbooks.com/?p=212459
+- title: Texas A&M library record
+  url: https://libcat.library.tamu.edu/Record/in00004605055/Description
+last_verified: '2026-11-19'
+locked: true

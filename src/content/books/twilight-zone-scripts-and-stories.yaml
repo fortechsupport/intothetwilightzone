@@ -1,11 +1,26 @@
 title: Twilight Zone Scripts and Stories
 authors:
 - George Clayton Johnson
-publisher: STREAMLINE
-published: '1996-08-01'
+publisher: Streamline Pictures
+published: '1996'
+relevance: core
+pages: 206
+isbn: '1573000558'
+kind: scripts
+description: George Clayton Johnson's Twilight Zone teleplays and related stories with his introduction;
+  the version of "A Game of Pool" printed here has the ending that differs from the broadcast episode.
+episodes:
+- 1959/a-game-of-pool
 ids:
   goodreads: '434211'
   amazon_asin: '1573000558'
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Author Wars publication list
+  url: https://authorwars.com/books/titles/64400/all-of-us-are-dying
+- title: FantasticFiction entry
+  url: https://fantasticfiction.com/j/george-clayton-johnson/twilight-zone-scripts-and-stories.htm
+last_verified: '2026-11-19'
+locked: true

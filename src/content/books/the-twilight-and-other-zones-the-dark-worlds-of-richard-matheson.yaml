@@ -4,10 +4,21 @@ authors:
 - Matthew Bradley
 - Paul Stuve
 publisher: Citadel Press
-published: '2009-02-01'
+published: '2009'
+relevance: core
+pages: 382
+isbn: '9780806531137'
+kind: reference
+description: Companion to Richard Matheson's career combining essays, tributes and an extensive bibliography
+  and filmography; a revised version of The Richard Matheson Companion (Gauntlet, 2007).
 ids:
   goodreads: '5215929'
   amazon_asin: '0806531134'
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Texas A&M library catalog
+  url: https://libcat.library.tamu.edu/Record/in00002484349/Description
+last_verified: '2026-11-19'
+locked: true

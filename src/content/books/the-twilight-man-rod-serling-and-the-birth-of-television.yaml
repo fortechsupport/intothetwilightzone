@@ -1,11 +1,22 @@
 title: 'The Twilight Man: Rod Serling and the Birth of Television'
 authors:
 - Koren Shadmi
-publisher: Life Drawn
-published: '2019-10-08'
+publisher: Life Drawn (Humanoids)
+published: '2019-10'
+relevance: core
+pages: 168
+isbn: '9781643375717'
+kind: graphic-novel
+description: Koren Shadmi's graphic biography of Serling, framed as a conversation on a night flight,
+  tracing his war service, early television success and the making and end of The Twilight Zone.
 ids:
   goodreads: '46189671'
   amazon_asin: '1643375717'
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Publishers Weekly review
+  url: https://www.publishersweekly.com/9781643375717
+last_verified: '2026-11-19'
+locked: true

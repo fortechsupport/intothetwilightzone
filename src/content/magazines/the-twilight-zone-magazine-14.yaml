@@ -4,8 +4,21 @@ cover_date: May 1982
 order: 14
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+description: May 1982 issue with Peter Straub's first short story 'The General's Wife', an interview with
+  Terry Gilliam, a set visit to 'Creepshow', and fiction by Connie Willis, Kit Reed, Robert Crais and
+  Chet Williamson. It paired George Clayton Johnson's story 'All of Us Are Dying' with Rod Serling's teleplay
+  adapted from it, 'The Four of Us Are Dying', alongside part fourteen of Zicree's guide.
+episodes:
+- 1959/the-four-of-us-are-dying
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60190
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 14'
+  url: https://twilightzonevortex.blogspot.com/2019/07/reading-rod-serlings-twilight-zone.html
+last_verified: '2026-11-19'
+locked: true

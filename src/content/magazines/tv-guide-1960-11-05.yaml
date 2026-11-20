@@ -1,0 +1,16 @@
+title: TV Guide (1960-11-05)
+magazine: TV Guide
+cover_date: '1960-11-05'
+publisher: Triangle Publications
+kind: feature
+description: TV Guide printed the opening pages of the script for 'Eye of the Beholder' a week before
+  the episode first aired on November 11, 1960.
+episodes:
+- 1959/eye-of-the-beholder
+order: 76
+research_confidence: medium
+sources:
+- title: 'Remind Magazine: ''The Twilight Zone'' Turns 65 - original TV Guide reviews'
+  url: https://remindmagazine.com/gallery/the-twilight-zone-original-tv-guide-reviews-archives
+last_verified: '2026-11-19'
+locked: true

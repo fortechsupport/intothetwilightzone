@@ -1,11 +1,22 @@
 title: 'Irony in the Twilight Zone: How the Series Critiqued Postwar American Culture'
 authors:
 - David Melbye
-publisher: Rowman & Littlefield Publishers
-published: '2015-12-14'
+publisher: Rowman & Littlefield
+published: '2016'
+relevance: core
+pages: 225
+isbn: '9781442260313'
+kind: scholarly
+description: David Melbye's study of how the original series used irony to comment on conformity, Cold
+  War anxiety and other strains of postwar American life; part of the Science Fiction Television series.
 ids:
   goodreads: '26708863'
   amazon_asin: '1442260319'
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Texas A&M library catalog
+  url: https://libcat.library.tamu.edu/Record/in00003609296/Description
+last_verified: '2026-11-19'
+locked: true

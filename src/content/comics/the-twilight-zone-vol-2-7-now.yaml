@@ -2,10 +2,21 @@ title: 'The Twilight Zone Vol 2 #7 (Now)'
 series_name: The Twilight Zone
 publisher: Now Comics
 order: 104
-links:
-  info: https://www.comics.org/issue/333774/
+cover_date: '1992-05'
+creators:
+- Dean Schreck (writer)
+- Steve Lieber (artist, cover)
+description: 'Stories: "The Outcast" and "Ghost Horse".'
 ids:
   amazon_asin: B076621WKW
+links:
+  info: https://www.comics.org/issue/333774/
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Mycomicshop: Twilight Zone (1991 Now 2nd Series)'
+  url: https://mycomicshop.com/search?TID=159721
+- title: 'Atomic Avenue: The Twilight Zone (Vol. 2)'
+  url: https://atomicavenue.com/atomic/series/19811/1/Twilight-Zone-The-Vol-2
+last_verified: '2026-11-19'
+locked: true

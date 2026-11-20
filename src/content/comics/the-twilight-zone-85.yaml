@@ -2,10 +2,20 @@ title: 'The Twilight Zone # 85'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 89
-links:
-  info: https://www.comics.org/issue/32410/
+cover_date: '1978-07'
 ids:
   amazon_asin: B0C34WRPBB
+links:
+  info: https://www.comics.org/issue/32410/
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'MyComicShop: Twilight Zone (1962 Gold Key), page 2'
+  url: https://www.mycomicshop.com/search?TID=193921&pgi=51
+- title: 'Heritage Auctions comic issue index: Twilight Zone'
+  url: https://comics.ha.com/comic-issue-index/?id=1541
+- title: 'Comic Collector Live: Twilight Zone (1962) issues 74-92'
+  url: https://www.comiccollectorlive.com/issues/comic-books/Twilight-Zone-1962/page-2/8ebd1f9c-ba05-48ed-9391-5442a75185e7?find=50
+last_verified: '2026-11-19'
+locked: true

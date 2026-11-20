@@ -1,6 +1,21 @@
 title: 'Serling: The Rise and Twilight of Television''s Last Angry Man'
 authors:
 - Gordon F. Sander
+publisher: Dutton
+published: '1992'
+isbn: '9780525935506'
+kind: biography
+description: A biography that follows Serling from live-TV fame through The Twilight Zone to his later
+  struggles, written with cooperation from people who knew him. Later paperback editions came from Plume
+  and Cornell University Press (2011).
+relevance: core
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Kirkus Reviews
+  url: https://www.kirkusreviews.com/book-reviews/gordon-f-sander-2/serling-the-rise-and-twilight-of-televisions-la/
+- title: Texas A&M library record
+  url: https://libcat.library.tamu.edu/Record/in00001121026/Description
+last_verified: '2026-11-19'
+locked: true

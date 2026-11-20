@@ -4,8 +4,19 @@ cover_date: Nov 1982
 order: 20
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+description: November 1982 Halloween-season issue containing Stephen King's enthusiastic review of 'The
+  Evil Dead', an interview with John Carpenter, a 'Halloween III' preview, and fiction by Joseph Payne
+  Brennan, Al Sarrantonio, Lewis Shiner and Katherine M. Turney ('Night Cry'). It ran part twenty of Zicree's
+  guide and Serling's teleplay 'A Quality of Mercy'.
+episodes:
+- 1959/a-quality-of-mercy
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60196
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 20'
+  url: https://twilightzonevortex.blogspot.com/2020/03/reading-rod-serlings-twilight-zone.html
+last_verified: '2026-11-19'
+locked: true

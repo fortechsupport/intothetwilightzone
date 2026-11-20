@@ -4,8 +4,17 @@ cover_date: Dec 1986
 order: 45
 publisher: TZ Publications, Inc.
 editor: Tappan King
+description: December 1986 issue, Tappan King's first as editor, including David J. Schow's World Fantasy
+  Award-winning story 'Red Light'.
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60200
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+- title: 'Twilight Zone Vortex: capsule history of the magazine'
+  url: http://twilightzonevortex.blogspot.com/2012/01/rod-serlings-twilight-zone-magazine.html
+last_verified: '2026-11-19'
+locked: true

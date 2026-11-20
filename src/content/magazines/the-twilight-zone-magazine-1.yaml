@@ -4,8 +4,23 @@ cover_date: Apr 1981
 order: 1
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+description: Premiere issue with a message from Carol Serling, a profile of Rod Serling by Klein and Marc
+  Scott Zicree, Charles L. Grant's interview with Stephen King, and fiction by Harlan Ellison ('Grail'),
+  George R.R. Martin, Joyce Carol Oates, Ramsey Campbell and Robert Sheckley. It began Zicree's show-by-show
+  episode guide and reprinted Serling's teleplay 'Walking Distance'.
+episodes:
+- 1959/walking-distance
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60153
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 1'
+  url: https://twilightzonevortex.blogspot.com/2017/05/reading-rod-serlings-twilight-zone.html
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+- title: 'AuthorWars (ISFDB data): The Twilight Zone Magazine 1981 issues'
+  url: https://authorwars.com/books/the-twilight-zone-magazine---1981-1005996.html
+last_verified: '2026-11-19'
+locked: true

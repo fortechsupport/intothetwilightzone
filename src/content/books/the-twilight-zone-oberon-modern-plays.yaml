@@ -1,13 +1,24 @@
 title: The Twilight Zone (Oberon Modern Plays)
 authors:
-- Rod Serling
-- Charles Beaumont
-- Richard Matheson
+- Anne Washburn
 publisher: Oberon Books
-published: '2017-12-05'
+published: '2017'
+isbn: '9781786824004'
+kind: play
+description: Published script of Anne Washburn's stage adaptation that interweaves several original-series
+  stories by Serling, Beaumont and Matheson. It premiered at London's Almeida Theatre in December 2017
+  and later transferred to the West End.
 ids:
   goodreads: '40056286'
-  amazon_asin: '135037430X'
+  amazon_asin: 135037430X
+relevance: core
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Texas A&M library record
+  url: https://libcat.library.tamu.edu/Record/in00004005505/Description
+- title: TheaterMania announcement
+  url: https://www.theatermania.com/news/anne-washburn-adaptation-of-the-twilight-zone-set-for-london-premiere_81756/
+last_verified: '2026-11-19'
+locked: true

@@ -1,12 +1,27 @@
 title: 'Into the Twilight Zone: The Rod Serling Programme Guide'
 authors:
-- Jean-Marc
+- Jean-Marc Lofficier
 - Randy Lofficier
-publisher: iUniverse
-published: '1995-12-01'
+publisher: Virgin Publishing
+published: '1995'
+isbn: '0863698441'
+kind: reference
+description: A compact British programme guide to the original series, with credits and synopses, written
+  by the husband-and-wife team Jean-Marc and Randy Lofficier. It was reissued in 2003 by iUniverse (ISBN
+  978-0-595-27612-7).
 ids:
   goodreads: '948252'
   amazon_asin: '0595276121'
+relevance: core
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Lofficier.com book page
+  url: https://www.lofficier.com/twilight.htm
+- title: World of Books listing of Virgin edition
+  url: https://www.wob.com/en-au/books/jean-marc-lofficier/into-the-twilight-zone/9780863698446
+- title: iUniverse store page
+  url: https://www.iuniverse.com/en/bookstore/bookdetails/111793-into-the-twilight-zone
+last_verified: '2026-11-19'
+locked: true

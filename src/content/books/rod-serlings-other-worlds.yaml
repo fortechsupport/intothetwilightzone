@@ -1,6 +1,17 @@
 title: Rod Serling's Other Worlds
 authors:
-- Various Authors
+- Rod Serling
+publisher: Bantam Books
+published: '1978'
+kind: anthology
+description: A posthumously published Bantam paperback anthology of science fiction by various authors
+  under Serling's name; who actually edited it is unclear.
+relevance: related
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SF Encyclopedia: Serling, Rod'
+  url: https://sf-encyclopedia.com/entry/serling_rod
+last_verified: '2026-11-19'
+locked: true

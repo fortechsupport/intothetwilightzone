@@ -3,10 +3,19 @@ authors:
 - Richard Matheson
 - Stanley Wiater
 publisher: Gauntlet Press
-published: '2001-01-01'
+published: '2001'
+kind: scripts
+description: The first of two volumes collecting Richard Matheson's teleplays for the original series,
+  edited by Stanley Wiater with commentary.
 ids:
   goodreads: '219546'
   amazon_asin: '1887368426'
+relevance: core
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Gauntlet Press Vol. 2 page (linked from series)
+  url: https://www.gauntletpress.com/product/richard-mathesons-the-twilight-zone-scripts-vol-2/
+last_verified: '2026-11-19'
+locked: true

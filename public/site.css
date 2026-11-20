@@ -75,6 +75,10 @@ ul.plain li { padding: 6px 0; border-bottom: 1px solid var(--line); }
   dl.facts { grid-template-columns: 1fr; gap: 2px; }
   dl.facts dd { margin-bottom: 8px; }
 }
+.entries { list-style: none; padding: 0; }
+.entries li { margin: 0 0 1.1rem; }
+.entries li strong { display: block; }
+.entries li p { margin: 0.25rem 0 0; max-width: 46em; }
 .quote { margin: 24px 0; padding: 16px 20px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px; }
 .quote blockquote { margin: 0 0 10px; font-family: var(--serif); font-size: 1.15rem; line-height: 1.5; }
 .quote blockquote::before { content: '\201C'; color: var(--accent-2); }

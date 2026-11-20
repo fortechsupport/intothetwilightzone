@@ -4,8 +4,14 @@ cover_date: Dec 1987
 order: 51
 publisher: TZ Publications, Inc.
 editor: Tappan King
+description: December 1987 theme issue on vampires and werewolves.
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60163
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+last_verified: '2026-11-19'
+locked: true

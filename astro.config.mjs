@@ -15,7 +15,6 @@ const redirects = {
   '/music': '/songs/',
   '/merchandise': '/works/',
   '/artwork': '/about/',
-  '/essays': '/about/',
   '/blog': '/',
   '/contact': '/about/#contact',
   '/privacy': '/about/#privacy',

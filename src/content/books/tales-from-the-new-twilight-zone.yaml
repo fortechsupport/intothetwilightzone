@@ -1,11 +1,22 @@
 title: Tales from the New Twilight Zone
 authors:
 - J. Michael Straczynski
-publisher: Spectra
-published: '1989-01-01'
+publisher: Bantam Spectra
+published: '1989'
+relevance: core
+pages: 256
+isbn: '0553282867'
+kind: anthology
+description: Paperback of stories by J. Michael Straczynski based on his scripts for the 1985-89 revival,
+  with a preface and per-story introductions.
 ids:
   goodreads: '692329'
   amazon_asin: '0553282867'
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Author Wars (ISFDB data) publication record
+  url: https://authorwars.com/publications/tales-from-the-new-twilight-zone-34279.html
+last_verified: '2026-11-19'
+locked: true

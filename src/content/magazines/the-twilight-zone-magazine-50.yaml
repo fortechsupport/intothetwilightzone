@@ -4,8 +4,15 @@ cover_date: Oct 1987
 order: 50
 publisher: TZ Publications, Inc.
 editor: Tappan King
+description: October 1987 issue slanted toward science fiction and science fact, with contributions from
+  Greg Bear, Alan Brennert, Barry N. Malzberg and Frederik Pohl.
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60203
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+last_verified: '2026-11-19'
+locked: true

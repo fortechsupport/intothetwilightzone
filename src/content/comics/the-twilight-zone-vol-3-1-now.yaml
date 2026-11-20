@@ -2,10 +2,19 @@ title: 'The Twilight Zone Vol 3 #1 (Now)'
 series_name: The Twilight Zone
 publisher: Now Comics
 order: 109
-links:
-  info: https://www.mycomicshop.com/search?TID=159741
+cover_date: '1993-05'
+creators:
+- Len Wein (writer)
+- Rick Stasi (artist, cover)
+description: 'Stories: "Mother, May I Go Out to Play".'
 ids:
   amazon_asin: B002YB1JEO
+links:
+  info: https://www.mycomicshop.com/search?TID=159741
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Mycomicshop: Twilight Zone (1993 Now 3rd Series)'
+  url: https://www.mycomicshop.com/search?TID=159741
+last_verified: '2026-11-19'
+locked: true

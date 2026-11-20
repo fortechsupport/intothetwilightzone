@@ -18,6 +18,13 @@ const common = {
   last_verified: z.string().optional(),
   // How sure the researcher is about the record as a whole (connections use their own `confidence`).
   research_confidence: z.enum(['high', 'medium', 'low']).optional(),
+  // How closely the item relates to the franchise: core (about The Twilight Zone itself),
+  // related (Rod Serling, Night Gallery, the show's writers), tangential (mentions or borrows the name).
+  relevance: z.enum(['core', 'related', 'tangential']).optional(),
+  // Light labels such as self-published, unverified, unlicensed, teleplay.
+  tags: z.array(z.string()).default([]),
+  // Set on a record that duplicates another; pages hide it and the importer leaves it alone.
+  duplicate_of: z.string().optional(),
 };
 // Every collection loads through the review filter: a build only keeps the records its
 // REVIEW_MODE allows (see src/lib/review.ts), so pages never need to check review status.

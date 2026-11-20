@@ -1,6 +1,29 @@
 title: New Stories From The Twilight Zone
 authors:
 - Rod Serling
+publisher: Bantam Books
+published: '1962-05'
+pages: 122
+kind: anthology
+description: The third and last of Serling's Bantam paperbacks of self-adapted teleplays, collecting six
+  stories from the second and third seasons.
+episodes:
+- 1959/the-whole-truth
+- 1959/the-shelter
+- 1959/showdown-with-rance-mcgrew
+- 1959/the-night-of-the-meek
+- 1959/the-midnight-sun
+- 1959/the-rip-van-winkle-caper
+relevance: core
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Martin Grams, 'Revisiting Twilight Zone Books' (2025)
+  url: https://martingrams.blogspot.com/2025/01/revisiting-twilight-zone-books.html
+- title: Risingshadow listing
+  url: https://www.risingshadow.net/book/79571-new-stories-from-the-twilight-zone
+- title: 'SF Encyclopedia: Serling, Rod'
+  url: https://sf-encyclopedia.com/entry/serling_rod
+last_verified: '2026-11-19'
+locked: true

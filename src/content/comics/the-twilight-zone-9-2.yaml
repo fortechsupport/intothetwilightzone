@@ -1,11 +1,29 @@
 title: 'The Twilight Zone # 9'
 series_name: The Twilight Zone
-publisher: Dynamite Comics
+publisher: Dynamite Entertainment
 order: 125
-links:
-  info: https://www.dynamite.com/htmlfiles/viewProduct.html?PRO=C72513021267209011
+cover_date: '2014-10'
+creators:
+- J. Michael Straczynski (writer)
+- Guiu Vilanova (artist)
+- Francesco Francavilla (cover)
+kind: issue
+description: Part 1 of 4 in the third arc, collected as The Way Back, following burned-out investigator
+  Ben Chambers, whose case about a murdered Iraq veteran sends him back in time. The three arcs of J.
+  Michael Straczynski's 12-issue run interlock into one larger story.
 ids:
   amazon_asin: B00O4F0RB4
+links:
+  info: https://www.dynamite.com/htmlfiles/viewProduct.html?PRO=C72513021267209011
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Atomic Avenue: The Twilight Zone (4th Series), Dynamite'
+  url: https://atomicavenue.com/atomic/series/42987/1/The-Twilight-Zone-4th-Series
+- title: 'The Beat: Straczynski on the Twilight Zone comic structure'
+  url: https://www.comicsbeat.com/straczynskizone/
+- title: 'MIT Press Bookstore: The Twilight Zone Volume 3: The Way Back'
+  url: https://mitpressbookstore.mit.edu/book/9781606905852
+last_verified: '2026-11-19'
+locked: true

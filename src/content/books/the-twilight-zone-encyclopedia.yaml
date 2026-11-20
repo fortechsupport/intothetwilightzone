@@ -2,10 +2,22 @@ title: The Twilight Zone Encyclopedia
 authors:
 - Steven Jay Rubin
 publisher: Chicago Review Press
-published: '2017-11-01'
+published: '2017-11'
+relevance: core
+pages: 448
+isbn: '9781613738887'
+kind: reference
+description: A-to-Z reference to the original series, prepared with the Serling estate's cooperation,
+  covering cast, writers, directors and producers along with episode credits, synopses and production
+  anecdotes.
 ids:
   goodreads: '34734047'
   amazon_asin: '1613738889'
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Chicago Review Press page
+  url: https://chicagoreviewpress.com/the-twilight-zone-encyclopedia-products-9781613738887.php
+last_verified: '2026-11-19'
+locked: true

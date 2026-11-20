@@ -1,6 +1,19 @@
 title: 'Rod Serling''s The Twilight Zone: 26 Unforgettable Explorations Into the Realm of the Supernatural'
 authors:
 - Walter B. Gibson
+publisher: Bonanza Books (Crown)
+published: '1983'
+kind: juvenile
+description: A hardcover omnibus that reprints both of Walter B. Gibson's ghostwritten Grosset & Dunlap
+  collections, 26 stories in all.
+relevance: core
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SF Encyclopedia: Twilight Zone, The'
+  url: https://sf-encyclopedia.com/entry/twilight_zone_the
+- title: eBay listing of 1983 Bonanza hardcover
+  url: https://www.ebay.de/itm/400680355061
+last_verified: '2026-11-19'
+locked: true

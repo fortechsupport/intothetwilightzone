@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const archives = (await getCollection('archives')).sort((a, b) => (a.data.institution ?? a.data.name).localeCompare(b.data.institution ?? b.data.name));
+---
+<Base title="Archives and documents" description="Libraries, archives and museums that hold Twilight Zone scripts, papers, recordings and production records.">
+  <h1>Archives and documents</h1>
+  <p class="lead">{archives.length} collections where the paper trail of The Twilight Zone survives: Rod Serling's scripts and dictation recordings, production records, music libraries and magazine runs. Most are open to researchers by appointment.</p>
+  <ul class="entries">
+    {archives.map((a) => (
+      <li id={a.id}>
+        <strong>{a.data.url ? <a href={a.data.url} rel="noopener">{a.data.name}</a> : a.data.name}</strong>
+        <span class="muted">{[a.data.institution, a.data.location, a.data.dates, a.data.extent].filter(Boolean).join(' · ')}</span>
+        {a.data.description && <p class="small">{a.data.description}</p>}
+      </li>
+    ))}
+  </ul>
+</Base>

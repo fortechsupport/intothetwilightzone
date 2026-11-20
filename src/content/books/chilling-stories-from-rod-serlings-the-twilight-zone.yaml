@@ -1,6 +1,24 @@
 title: Chilling Stories from Rod Serling's The Twilight Zone
 authors:
 - Walter B. Gibson
+publisher: Tempo Books (Grosset & Dunlap)
+published: '1965'
+kind: juvenile
+description: A paperback retitling of Gibson's 1963 Rod Serling's The Twilight Zone, keeping ten of its
+  thirteen stories.
+episodes:
+- 1959/back-there
+- 1959/judgment-night
+relevance: core
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Martin Grams, 'Revisiting Twilight Zone Books' (2025)
+  url: https://martingrams.blogspot.com/2025/01/revisiting-twilight-zone-books.html
+- title: 'SF Encyclopedia: Serling, Rod'
+  url: https://sf-encyclopedia.com/entry/serling_rod
+- title: 'Wikipedia: Twilight Zone literature'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_literature
+last_verified: '2026-11-19'
+locked: true

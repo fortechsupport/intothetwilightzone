@@ -4,8 +4,19 @@ cover_date: Oct 1981
 order: 7
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+description: October 1981 issue concluding James H. Burns's Richard Matheson interview, with fiction by
+  Pamela Sargent, Robert Sheckley, Chet Williamson and George Clayton Johnson ('Sea Change'). Zicree's
+  guide (part seven) moved into the third season, and the reprinted teleplay was Serling's 'The Big Tall
+  Wish'.
+episodes:
+- 1959/the-big-tall-wish
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60201
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 7'
+  url: https://twilightzonevortex.blogspot.com/2018/02/reading-rod-serlings-twilight-zone.html
+last_verified: '2026-11-19'
+locked: true

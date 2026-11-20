@@ -15,7 +15,7 @@ const publishers = [...new Set(comics.map((c) => c.data.publisher ?? 'Other'))];
         <thead><tr><th>Issue</th><th>Cover date</th><th>Links</th></tr></thead>
         <tbody>
           {comics.filter((c) => (c.data.publisher ?? 'Other') === p).map((c) => (
-            <tr id={c.id}><td>{c.data.title}</td><td>{c.data.cover_date}</td><td><ExtLinks ids={c.data.ids} links={c.data.links} /></td></tr>
+            <tr id={c.id}><td>{c.data.title}{c.data.creators.length > 0 && <div class="small muted">{c.data.creators.join(', ')}</div>}{c.data.description && <div class="small muted">{c.data.description}</div>}</td><td>{c.data.cover_date}</td><td><ExtLinks ids={c.data.ids} links={c.data.links} /></td></tr>
           ))}
         </tbody>
       </table></div>

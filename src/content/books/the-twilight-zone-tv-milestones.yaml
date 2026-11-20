@@ -1,6 +1,20 @@
 title: The Twilight Zone (TV Milestones)
 authors:
 - Barry Keith Grant
+publisher: Wayne State University Press
+published: '2020'
+isbn: '9780814345788'
+kind: scholarly
+description: A short academic monograph in Wayne State's TV Milestones series, assessing the original
+  series' style, themes and cultural significance.
+relevance: core
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: SFRA Review
+  url: https://sfrareview.org/2021/02/06/review-of-the-twilight-zone/
+- title: MIT Press Bookstore listing
+  url: https://mitpressbookstore.mit.edu/book/9780814345788
+last_verified: '2026-11-19'
+locked: true

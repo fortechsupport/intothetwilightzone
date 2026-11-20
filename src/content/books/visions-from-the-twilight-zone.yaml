@@ -1,6 +1,21 @@
 title: Visions From The Twilight Zone
 authors:
 - Arlen Schumer
+relevance: core
+publisher: Chronicle Books
+published: '1990'
+pages: 169
+isbn: '9780877017257'
+kind: art-book
+description: Arlen Schumer's large-format visual book that re-presents episodes of the original series
+  through restored frame grabs laid out with their dialogue, comic-book style.
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Texas A&M library catalog
+  url: https://libcat.library.tamu.edu/Record/in00001051042
+- title: Blackwell's listing
+  url: https://blackwells.co.uk/bookshop/product/Visions-from-the-Twilight-Zone-by-Arlen-Schumer/9780877017257
+last_verified: '2026-11-19'
+locked: true

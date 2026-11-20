@@ -2,10 +2,19 @@ title: Forgotten Gems from The Twilight Zone Volume 2
 authors:
 - Andrew Ramage
 publisher: BearManor Media
-published: '2006-01-30'
+published: '2006'
+kind: scripts
+description: The second volume of Andrew Ramage's collection of teleplays for less-celebrated episodes
+  of the original series.
 ids:
   goodreads: '792955'
   amazon_asin: '1593930305'
+relevance: core
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: BearManor Media product page
+  url: https://www.bearmanormedia.com/products/forgotten-gems-from-the-twilight-zone-vol-2-edited-by-andrew-ramage
+last_verified: '2026-11-19'
+locked: true

@@ -4,8 +4,17 @@ cover_date: Dec 1985
 order: 39
 publisher: TZ Publications, Inc.
 editor: Michael Blaine
+description: December 1985 issue carrying Harlan Ellison's 'Paladin of the Lost Hour', which won the Hugo
+  and Locus Awards for best novelette (Ellison also adapted it for the 1985 TV revival).
+episodes:
+- 1985/paladin-of-the-lost-hour
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60199
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+last_verified: '2026-11-19'
+locked: true

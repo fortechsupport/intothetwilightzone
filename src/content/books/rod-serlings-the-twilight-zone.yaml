@@ -2,10 +2,26 @@ title: Rod Serling's The Twilight Zone
 authors:
 - Walter B. Gibson
 publisher: Grosset & Dunlap
-published: '1963-01-01'
+published: '1963'
+pages: 207
+kind: juvenile
+description: A hardcover of thirteen stories aimed at young readers, credited to Serling but ghostwritten
+  by Walter B. Gibson and illustrated by Earl E. Mayan. Two stories adapt aired episodes; the remaining
+  eleven are originals.
+episodes:
+- 1959/back-there
+- 1959/judgment-night
 ids:
   goodreads: '7419336'
   amazon_asin: B000PCE0W2
+relevance: core
+research_confidence: high
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Martin Grams, 'Revisiting Twilight Zone Books' (2025)
+  url: https://martingrams.blogspot.com/2025/01/revisiting-twilight-zone-books.html
+- title: 'SF Encyclopedia: Serling, Rod'
+  url: https://sf-encyclopedia.com/entry/serling_rod
+last_verified: '2026-11-19'
+locked: true

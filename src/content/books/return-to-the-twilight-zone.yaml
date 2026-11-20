@@ -1,11 +1,19 @@
 title: Return to The Twilight Zone
 authors:
 - Carol Serling
-publisher: MJF Books
-published: '1994-01-01'
+publisher: DAW Books
+published: '1994'
+kind: anthology
+description: Carol Serling's second DAW anthology of new stories in the Twilight Zone tradition.
 ids:
   goodreads: '1456108'
   amazon_asin: '1567310923'
+relevance: core
+research_confidence: medium
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Originally listed in Adam's research spreadsheets.
+- title: Worlds Without End
+  url: https://worldswithoutend.com/novel.asp?id=36710
+last_verified: '2026-11-19'
+locked: true
