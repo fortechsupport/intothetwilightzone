@@ -6,9 +6,9 @@ air_date: '1964-02-28'
 runtime_min: 25
 writers:
 - Robert Enrico
-writing_credit_note: French short film La Rivière du hibou (1961), adapted by Robert Enrico from Ambrose Bierce's
-  short story; acquired and broadcast as a Twilight Zone episode with an introduction by Rod Serling. It won Best
-  Short Subject at Cannes (1962) and the Academy Award for Best Live Action Short Film.
+writing_credit_note: French short film La Rivière du hibou (1961), adapted by Robert Enrico from Ambrose Bierce's short
+  story; acquired and broadcast as a Twilight Zone episode with an introduction by Rod Serling. It won Best Short Subject
+  at Cannes (1962) and the Academy Award for Best Live Action Short Film.
 source_authors:
 - Ambrose Bierce
 directors:
@@ -16,24 +16,23 @@ directors:
 cast:
 - Roger Jacquet
 narrator: Rod Serling
-synopsis: During the American Civil War, Southern planter Peyton Farquhar stands bound on a railroad bridge, about
-  to be hanged by Union soldiers. When the rope gives way, he plunges into the river and struggles to get home to
-  his wife.
+synopsis: During the American Civil War, Southern planter Peyton Farquhar stands bound on a railroad bridge, about to
+  be hanged by Union soldiers. When the rope gives way, he plunges into the river and struggles to get home to his wife.
 themes:
 - death
 - escape
 - perception
 - war
 trivia:
-- text: This is a French short film directed by Robert Enrico in 1961, bought and aired as a season 5 episode with
-    an introduction by Serling. It won Best Short Subject at Cannes in 1962 and the Academy Award for Best Live
-    Action Short Film in 1963.
+- text: This is a French short film directed by Robert Enrico in 1961, bought and aired as a season 5 episode with an
+    introduction by Serling. It won Best Short Subject at Cannes in 1962 and the Academy Award for Best Live Action Short
+    Film in 1963.
   sources:
   - title: An Occurrence at Owl Creek Bridge (film) - Wikipedia
     url: https://en.wikipedia.org/wiki/An_Occurrence_at_Owl_Creek_Bridge_(film)
-- text: Rather than produce it in-house, Serling licensed Robert Enrico's French short "An Occurrence at Owl Creek
-    Bridge" for $20,000 after seeing it at a French festival. The deal covered only two airings, so later reruns
-    and home releases needed fresh rights negotiations, which evidently succeeded.
+- text: Rather than produce it in-house, Serling licensed Robert Enrico's French short "An Occurrence at Owl Creek Bridge"
+    for $20,000 after seeing it at a French festival. The deal covered only two airings, so later reruns and home releases
+    needed fresh rights negotiations, which evidently succeeded.
   sources:
   - title: 'Plagiarism Today: Copyright and the Twilight Zone'
     url: https://www.plagiarismtoday.com/2023/10/18/copyright-and-the-twilight-zone/
@@ -52,3 +51,11 @@ sources:
   url: https://en.wikipedia.org/wiki/An_Occurrence_at_Owl_Creek_Bridge_(film)
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: bonus-feature
+  title: Conversations with Rod Serling, part 1 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed

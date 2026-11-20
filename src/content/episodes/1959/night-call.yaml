@@ -17,8 +17,8 @@ cast:
 - Gladys Cooper
 - Nora Marlowe
 narrator: Rod Serling
-synopsis: Elva Keene, an elderly invalid living alone, begins receiving late-night phone calls of moans and static
-  that soon turn into a faint voice. The phone company traces the source to a fallen line, but the calls continue.
+synopsis: Elva Keene, an elderly invalid living alone, begins receiving late-night phone calls of moans and static that
+  soon turn into a faint voice. The phone company traces the source to a fallen line, but the calls continue.
 themes:
 - grief
 - guilt
@@ -39,3 +39,11 @@ sources:
   url: https://en.wikipedia.org/wiki/Night_Call_(The_Twilight_Zone)
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Richard Matheson, part 3 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed

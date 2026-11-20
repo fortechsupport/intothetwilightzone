@@ -5,8 +5,8 @@ release_date: '1973-01-07'
 runtime_min: 25
 segments:
 - title: The Ring with the Red Velvet Ropes
-  summary: A new heavyweight champion wakes in a strange mansion where he must fight a mysterious opponent for the
-    real title.
+  summary: A new heavyweight champion wakes in a strange mansion where he must fight a mysterious opponent for the real
+    title.
   source_title: The Ring with the Red Velvet Ropes
   source_authors:
   - Edward D. Hoch
@@ -28,3 +28,5 @@ research_confidence: high
 relevance: related
 last_verified: '2026-11-19'
 locked: true
+summary: A Night Gallery episode built around a single story, "The Ring with the Red Velvet Ropes" (from Edward D. Hoch).
+  A new heavyweight champion wakes in a strange mansion where he must fight a mysterious opponent for the real title.

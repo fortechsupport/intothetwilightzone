@@ -18,9 +18,9 @@ cast:
 - Christine White
 - Ed Kemmer
 narrator: Rod Serling
-synopsis: Bob Wilson, flying home after a stay in a sanitarium following a breakdown, glimpses a strange creature
-  crouched on the airliner's wing during a storm. No one else sees it, and his efforts to warn the crew only make
-  him look unwell again.
+synopsis: Bob Wilson, flying home after a stay in a sanitarium following a breakdown, glimpses a strange creature crouched
+  on the airliner's wing during a storm. No one else sees it, and his efforts to warn the crew only make him look unwell
+  again.
 themes:
 - air travel
 - mental illness
@@ -41,3 +41,19 @@ sources:
   url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Richard Matheson, part 2 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+- type: interview
+  subtype: lecture
+  title: Rod Serling Lecture at Sherwood Oaks Experimental College (1975), part 4 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+  note: Serling speaking to a screenwriting class at Sherwood Oaks Experimental College, Hollywood, 1975.

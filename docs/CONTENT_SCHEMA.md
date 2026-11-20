@@ -106,7 +106,7 @@ known category creates a new subcategory, labelled from the slug and flagged new
 | `people` | `writers`, `directors`, `producers`, `actors`, `narrators-hosts`, `voice-actors`, `composers`, `crew`, `characters`, `scholars-historians`, `fans`, `family`, `inspired-creators` | people (roles[] and credits), characters, quote authors |
 | `places` | `real-life`, `in-story` | locations (`kind: in-story` goes to in-story) |
 | `events` | `conventions`, `honors-awards`, `anniversaries-festivals`, `broadcasts-marathons`, `premieres`, `exhibitions`, `production-history`, `other-events` | works kind event/convention/memorial (by subtype), series/film history[] |
-| `series` | `tv`, `radio`, `podcast` | series, films kind tv-series, radio series, podcasts |
+| `series` | `tv`, `radio`, `podcast`, `international` *(new)* | series, films kind tv-series, radio series, podcasts |
 | `episodes` | `tv`, `radio`, `podcast` | episodes, Night Gallery episodes, radio, podcasts featured_episodes |
 | `movies` | `twilight-zone-films`, `rod-serling-films`, `linked-films`, `tv-films`, `documentaries`, `shorts-and-other` | films |
 | `music` | `composers`, `theme`, `songs`, `soundtracks` | people with composer role, songs, works kind soundtrack |
@@ -120,12 +120,11 @@ known category creates a new subcategory, labelled from the slug and flagged new
 | `archives` *(new)* | `collections`, `documents` | archives |
 | `stage` *(new)* | `theatre`, `live-readings`, `attractions` | works kind stage/attraction, films kind stage |
 | `quotes` *(new)* | `rod-serling`, `admirers` | quotes |
-| `advertising` *(new)* | `commercials`, `promos-trailers`, `print-ads` | films kind commercial, works kind advertisement, media type ad |
+| `advertising` *(new)* | `commercials`, `promos-trailers`, `print-ads`, `sponsors` | films kind commercial, works kind advertisement, media type ad |
 | `community` *(new)* | `fan-communities`, `websites-databases`, `organizations` | works kind fan-community/link |
-| `production` *(new)* | `companies-studios`, `broadcast-syndication`, `ratings`, `international`, `behind-the-scenes` | works kind production, series/film history[] |
-| `legal-history` *(new)* | `accident-trial`, `rights-ownership`, `disputes`, `censorship` | works kind legal |
-| `cultural-impact` *(new)* | `catchphrases`, `theme-as-shorthand`, `dictionary-references`, `public-uses` | works kind cultural-impact |
-| `props` *(new)* | `surviving-props`, `auctions`, `museum-holdings`, `replicas` | works kind prop, collectible subtype replica-prop |
+| `legal-history` *(new)* | `trials`, `lawsuits`, `rights-ownership`, `censorship` | works kind legal, or event subtype trial/lawsuit |
+| `cultural-impact` *(new)* | `catchphrases`, `theme-shorthand`, `public-uses`, `dictionary-rankings` | works kind cultural-impact, or other subtype idiom |
+| `props-collecting` *(new)* | `props-costumes`, `auctions`, `museum-holdings`, `replicas` | works kind prop, or subtype prop/replica-prop |
 | `media` *(new)* | `video`, `audio`, `documents`, `images`, `ads`, `links` | every record's media[] |
 
 People `roles[]` are matched loosely (case and plural ignored): writer, director, producer, actor,

@@ -19,8 +19,8 @@ segments:
   - Angel Tompkins
   - Morgan Farley
 - title: The Little Black Bag
-  summary: A drunken, disgraced doctor finds a medical bag sent back from the year 2098 and is tempted to profit
-    from it.
+  summary: A drunken, disgraced doctor finds a medical bag sent back from the year 2098 and is tempted to profit from
+    it.
   source_title: The Little Black Bag
   source_authors:
   - C. M. Kornbluth
@@ -53,3 +53,6 @@ research_confidence: high
 relevance: related
 last_verified: '2026-11-19'
 locked: true
+summary: 'A Night Gallery hour of three stories: "Room with a View" (from Hal Dresner), "The Little Black Bag" (from
+  C. M. Kornbluth) and "The Nature of the Enemy". In the first, a bedridden rich man uses his innocent nurse as the tool
+  of revenge against his unfaithful wife.'

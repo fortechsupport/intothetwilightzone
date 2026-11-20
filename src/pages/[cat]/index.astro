@@ -1,0 +1,48 @@
+---
+// A top-level category landing page: what the category covers, how it ties to The Twilight Zone,
+// every subcategory with its count and a preview of its first entries, all A-Z.
+import Base from '../../layouts/Base.astro';
+import EntryList from '../../components/EntryList.astro';
+import { catalog, countOf, type CatInfo } from '../../lib/catalog';
+
+export async function getStaticPaths() {
+  const cats = await catalog();
+  return [...cats.values()].map((c) => ({ params: { cat: c.slug }, props: { c } }));
+}
+interface Props { c: CatInfo }
+const { c } = Astro.props;
+const subs = c.subs.filter((s) => s.entries.length > 0);
+const empty = c.subs.filter((s) => s.entries.length === 0);
+const total = countOf(c);
+const PREVIEW = 8;
+---
+<Base title={c.title} description={c.description}>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/categories/">All categories</a></p>
+  <h1>{c.title} {c.isNew && <span class="tag new" title="Added during research; Adam decides whether to keep it">new</span>}</h1>
+  <p class="lead">{total.toLocaleString('en-US')} {total === 1 ? 'entry' : 'entries'} in {subs.length} {subs.length === 1 ? 'subcategory' : 'subcategories'}.</p>
+  {c.intro.map((p) => <p set:html={p} />)}
+  <aside class="tz-link">
+    <h2>How this connects to The Twilight Zone</h2>
+    <p>{c.connection}</p>
+  </aside>
+  {c.seeAlso && <p class="small">See also: {c.seeAlso.map(([l, h], i) => <>{i > 0 && ' · '}<a href={h}>{l}</a></>)}</p>}
+  <h2>Subcategories</h2>
+  <div class="grid">
+    {subs.map((s) => (
+      <a class="card" href={`/${c.slug}/${s.slug}/`}>
+        <span class="count">{s.entries.length.toLocaleString('en-US')}</span>
+        <h3>{s.title} {s.isNew && <span class="tag new">new</span>}</h3>
+        <p>{s.blurb}</p>
+      </a>
+    ))}
+  </div>
+  {empty.length > 0 && <p class="small muted">Planned, with no entries yet: {empty.map((s, i) => <>{i > 0 && ', '}{s.title}{s.isNew && ' (new)'}</>)}. Research is under way.</p>}
+  {subs.map((s) => (
+    <section id={s.slug}>
+      <h2><a href={`/${c.slug}/${s.slug}/`}>{s.title}</a> <span class="muted small">({s.entries.length.toLocaleString('en-US')})</span></h2>
+      {s.intro && <p>{s.intro}</p>}
+      <EntryList entries={s.entries.slice(0, PREVIEW)} compact={c.slug === 'people' || c.slug === 'media'} />
+      {s.entries.length > PREVIEW && <p><a href={`/${c.slug}/${s.slug}/`}>All {s.entries.length.toLocaleString('en-US')} in {s.title} →</a></p>}
+    </section>
+  ))}
+</Base>

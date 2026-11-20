@@ -1,0 +1,40 @@
+---
+// Media attached to a record: videos, audio, documents, ads, images and links, each with where it is
+// hosted and its rights. Public-domain files kept on this site play inline; everything else is a link.
+interface M { type: string; subtype?: string; title: string; url: string; host?: string; date?: string; rights?: string; file?: string; duration?: string; note?: string }
+interface Props { media?: M[] }
+const { media = [] } = Astro.props;
+const LABEL: Record<string, string> = { video: 'Video', audio: 'Audio', document: 'Documents', transcript: 'Documents', article: 'Articles', interview: 'Interviews', image: 'Images', ad: 'Advertisements', website: 'Links', link: 'Links' };
+const RIGHTS: Record<string, string> = { 'public-domain': 'Public domain', cc: 'Creative Commons', licensed: 'Hosted by the rights holder', 'link-only': 'Link only', unknown: 'Rights unknown' };
+const groups = new Map<string, M[]>();
+for (const m of media) {
+  const g = LABEL[m.type] ?? 'Links';
+  if (!groups.has(g)) groups.set(g, []);
+  groups.get(g)!.push(m);
+}
+const local = (m: M) => m.file && (m.rights === 'public-domain' || m.rights === 'cc') ? `/${m.file.replace(/^\/?(public\/)?/, '')}` : undefined;
+---
+{media.length > 0 && (
+  <section class="media-block" id="media">
+    <h2>Media <span class="muted small">({media.length})</span></h2>
+    <p class="small muted">Linked where the rights holder or an archive hosts it. Public-domain items may be kept on this site.</p>
+    {[...groups.entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([g, list]) => (
+      <>
+        <h3>{g}</h3>
+        <ul class="media-list">
+          {list.map((m) => (
+            <li>
+              <a href={local(m) ?? m.url} rel="noopener">{m.title}</a>
+              <span class="muted small"> · {[m.subtype?.replace(/-/g, ' '), m.host, m.date, m.duration].filter(Boolean).join(' · ')}</span>
+              <span class={`tag rights-${m.rights ?? 'link-only'}`}>{RIGHTS[m.rights ?? 'link-only']}</span>
+              {m.note && <p class="small">{m.note}</p>}
+              {local(m) && m.type === 'audio' && <audio controls preload="none" src={local(m)} />}
+              {local(m) && m.type === 'video' && <video controls preload="none" src={local(m)} />}
+              {local(m) && m.type === 'image' && <img src={local(m)} alt={m.title} loading="lazy" />}
+            </li>
+          ))}
+        </ul>
+      </>
+    ))}
+  </section>
+)}

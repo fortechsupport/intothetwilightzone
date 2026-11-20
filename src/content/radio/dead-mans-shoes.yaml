@@ -16,8 +16,13 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “Dead Man''s Shoes” from the original 1959 series (season 3, 1962), written
   for television by Charles Beaumont and OCee Ritch. Adapted for radio by Dennis Etchison, starring Bill Smitrovich.
-  The story: A homeless drifter takes a pair of expensive shoes from the body of a murdered gangster left in an
-  alley. Once he slips them on, his manner changes completely, and the shoes seem to steer him toward unfinished
-  business.'
+  The story: A homeless drifter takes a pair of expensive shoes from the body of a murdered gangster left in an alley.
+  Once he slips them on, his manner changes completely, and the shoes seem to steer him toward unfinished business.'
+last_verified: '2026-11-20'
+research_confidence: high

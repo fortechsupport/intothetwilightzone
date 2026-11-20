@@ -14,8 +14,8 @@ cast:
 - Murray Hamilton
 - Gene Coogan
 narrator: Rod Serling
-synopsis: Lou Bookman, an aging sidewalk pitchman, learns from a polite visitor that his time is up at midnight.
-  Lou bargains for a reprieve so he can deliver one last great sales pitch, a deal that carries unexpected consequences.
+synopsis: Lou Bookman, an aging sidewalk pitchman, learns from a polite visitor that his time is up at midnight. Lou
+  bargains for a reprieve so he can deliver one last great sales pitch, a deal that carries unexpected consequences.
 themes:
 - bargains
 - death
@@ -33,3 +33,11 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Dana Dillaway (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed

@@ -18,8 +18,7 @@ segments:
   - Kim Stanley
   - Tom Pedi
 - title: Junior
-  summary: A weary father fetches a glass of water for his child, who turns out to be a monster. Comic blackout
-    sketch.
+  summary: A weary father fetches a glass of water for his child, who turns out to be a monster. Comic blackout sketch.
   writers:
   - Gene Kearney
   directors:
@@ -27,8 +26,7 @@ segments:
   cast:
   - Wally Cox
 - title: Marmalade Wine
-  summary: A boastful young man sheltering from a storm brags to a retired surgeon about his supposed powers of
-    prophecy.
+  summary: A boastful young man sheltering from a storm brags to a retired surgeon about his supposed powers of prophecy.
   source_title: Marmalade Wine
   source_authors:
   - Joan Aiken
@@ -62,3 +60,6 @@ research_confidence: high
 relevance: related
 last_verified: '2026-11-19'
 locked: true
+summary: 'A Night Gallery hour of four stories: "A Fear of Spiders" (from Elizabeth Walter), "Junior", "Marmalade Wine"
+  (from Joan Aiken) and "The Academy" (from David Ely). In the first, a cold food critic who rebuffs his lonely neighbor
+  is plagued by a spider that keeps growing.'

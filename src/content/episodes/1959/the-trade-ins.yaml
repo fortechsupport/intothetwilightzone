@@ -14,9 +14,8 @@ cast:
 - Noah Keen
 - Edson Stroll
 narrator: Rod Serling
-synopsis: In the future, an elderly couple visits a company that transfers aging minds into young, healthy bodies.
-  They can only afford one procedure, and the husband, wracked with pain, must decide whether to go ahead without
-  his wife.
+synopsis: In the future, an elderly couple visits a company that transfers aging minds into young, healthy bodies. They
+  can only afford one procedure, and the husband, wracked with pain, must decide whether to go ahead without his wife.
 themes:
 - aging
 - love
@@ -35,3 +34,11 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Edson Stroll (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed

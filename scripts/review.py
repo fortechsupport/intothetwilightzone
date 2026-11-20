@@ -69,6 +69,9 @@ COLUMNS = [
     ("Notes", "notes", 26, False),
     ("Category", "category", 16, False),
     ("Subcategory", "subcategory", 22, False),
+    ("Group", "group", 20, False),
+    ("New category?", "is_new", 12, False),
+    ("Also listed in", "also_in", 30, True),
     ("Title", "title", 38, True),
     ("Connection to TZ", "connection", 62, True),
     ("Tier", "tier", 11, False),
@@ -88,6 +91,20 @@ COLUMNS = [
     ("Key", "key", 36, False),
 ]
 ASSESSMENTS = ROOT / "data" / "review" / "assessments.json"
+TAXONOMY = ROOT / "data" / "review" / "taxonomy.json"
+
+
+def load_taxonomy() -> dict:
+    """Each record's places in the site's category structure (scripts/taxonomy-export.mjs)."""
+    import subprocess
+    try:
+        subprocess.run(["node", str(ROOT / "scripts" / "taxonomy-export.mjs")], check=True, cwd=ROOT)
+    except (OSError, subprocess.CalledProcessError) as e:  # fall back to the last export
+        print(f"taxonomy export skipped: {e}", file=sys.stderr)
+    try:
+        return json.loads(TAXONOMY.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
 
 
 def slugify(text: str) -> str:
@@ -122,12 +139,10 @@ def page_url(collection: str, rid: str, d: dict) -> str:
         return f"/places/{rid}/"
     if collection == "people":
         return f"/people/{slugify(str(d.get('name') or rid))}/"
-    if collection == "quotes":
-        return f"/voices/#{rid}"
     if collection == "connections":
-        return "/influence/"
-    if collection in ("books", "comics", "magazines", "podcasts", "radio", "songs", "essays", "archives"):
-        return f"/{collection}/#{rid}"
+        return "/homages/"
+    if collection in ("books", "comics", "magazines", "podcasts", "radio", "songs", "essays", "archives", "quotes", "characters"):
+        return f"/{collection}/{rid}/"
     return ""
 
 
@@ -185,16 +200,22 @@ def sub_rank(sub: str) -> tuple:
 def queue(content: Path = CONTENT) -> list[dict]:
     ledger = load_ledger()
     assess = load_assessments()
+    tax = load_taxonomy()
     rows = []
     for collection, rid, d in records(content):
         key = f"{collection}/{rid}"
         dec = ledger.get(key, {})
         a = assess.get(key, {})
+        places = tax.get(key) or []
+        p0 = places[0] if places else {}
         rows.append({
             "key": key,
             "collection": collection,
-            "category": CATEGORY_LABELS.get(collection, collection),
-            "subcategory": a.get("subcategory", ""),
+            "category": p0.get("catTitle") or CATEGORY_LABELS.get(collection, collection),
+            "subcategory": p0.get("subTitle") or a.get("subcategory", ""),
+            "group": p0.get("group") or "",
+            "is_new": "new" if p0.get("isNew") else "",
+            "also_in": "; ".join(f"{p['catTitle']}: {p['subTitle']}" for p in places[1:]),
             "title": a.get("title") or title_of(collection, rid, d),
             "sort": a.get("sort", ""),
             "connection": a.get("connection", ""),
@@ -219,7 +240,7 @@ def queue(content: Path = CONTENT) -> list[dict]:
             "reviewed": dec.get("date", ""),
         })
     # Grouped by category (alphabetical), then subcategory, then title ignoring a leading The/A/An.
-    rows.sort(key=lambda r: (r["category"].lower(), sub_rank(r["subcategory"]), r["sort"], natural(r["key"])))
+    rows.sort(key=lambda r: (r["category"].lower(), sub_rank(r["subcategory"]), sub_rank(r["group"]), r["sort"], natural(r["key"])))
     return rows
 
 
@@ -340,6 +361,7 @@ def export(out: Path, base_url: str) -> None:
         "How to review",
         "",
         "Every row is one record. Rows are grouped by category (A to Z), then subcategory (A to Z, with catch-all and unconfirmed groups last; TV episodes by series), then sorted alphabetically by title (a leading The, A or An is ignored).",
+        "Categories follow your list (People, Places, Events, Series, Episodes, Movies, Music, Reading, Games, Artwork, Homages, Merchandise, Lectures, Reviews). New category? says new when the category or subcategory was added during research; drop any you do not want. Also listed in shows the record's other places on the site.",
         "Read three columns to decide: Connection to TZ (how it relates to the show), Tier (how close it is) and Recommendation with Why (what I suggest and the reason).",
         "Source / Source link is the best independent evidence for the connection. Page opens the record on the preview site.",
         "",

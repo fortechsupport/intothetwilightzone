@@ -18,8 +18,8 @@ cast:
 - Rayford Barnes
 - Leonard Nimoy
 narrator: Rod Serling
-synopsis: In the final days of the Pacific war, an eager young lieutenant orders his exhausted platoon to storm
-  a cave held by starving Japanese soldiers. Then a sudden shift forces him to see the battle from the other side.
+synopsis: In the final days of the Pacific war, an eager young lieutenant orders his exhausted platoon to storm a cave
+  held by starving Japanese soldiers. Then a sudden shift forces him to see the battle from the other side.
 themes:
 - empathy
 - perspective
@@ -44,3 +44,11 @@ sources:
   url: https://twilightzonevortex.blogspot.com/2016/11/a-quality-of-mercy.html
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: video
+  subtype: bonus-feature
+  title: Leonard Nimoy on "A Quality of Mercy" (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-09-06'
+  rights: licensed

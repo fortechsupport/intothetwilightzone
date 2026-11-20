@@ -1,0 +1,29 @@
+---
+// A list of catalogue entries: title (linked), one line of facts, a description and the
+// "Twilight Zone connection" line. `compact` renders names only, in columns (people, media).
+import type { Entry } from '../lib/catalog';
+interface Props { entries: Entry[]; compact?: boolean }
+const { entries, compact = false } = Astro.props;
+---
+{compact ? (
+  <ul class="columns plain entries-compact">
+    {entries.map((e) => (
+      <li>{e.href ? <a href={e.href} rel={e.external ? 'noopener' : undefined}>{e.title}</a> : e.title}{e.meta && <span class="muted small"> · {e.meta}</span>}{e.tier && e.tier !== 'core' && <span class={`tag tier-${e.tier}`}>{e.tier}</span>}</li>
+    ))}
+  </ul>
+) : (
+  <ul class="entries">
+    {entries.map((e) => (
+      <li>
+        <div class="entry-head">
+          {e.href ? <a href={e.href} class="entry-title" rel={e.external ? 'noopener' : undefined}>{e.title}</a> : <span class="entry-title">{e.title}</span>}
+          {e.meta && <span class="muted small"> · {e.meta}</span>}
+          {e.tier && e.tier !== 'core' && <span class={`tag tier-${e.tier}`}>{e.tier}</span>}
+          {e.external && <span class="tag">external</span>}
+        </div>
+        {e.desc && <p class="entry-desc">{e.desc}</p>}
+        {e.why && e.why !== e.desc && <p class="entry-why small"><strong>Twilight Zone connection:</strong> {e.why}</p>}
+      </li>
+    ))}
+  </ul>
+)}

@@ -17,8 +17,14 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “The Lateness of the Hour” from the original 1959 series (season 2, 1960),
   written for television by Rod Serling. Adapted for radio by Dennis Etchison, starring Jane Seymour and James Keach.
-  The story: Jana lives in a secluded house where her inventor father has built robot servants to meet every need.
-  Growing restless in the comfortable, unchanging routine, she demands that he get rid of the machines so the family
-  can live a real life.'
+  The story: Jana lives in a secluded house where her inventor father has built robot servants to meet every need. Growing
+  restless in the comfortable, unchanging routine, she demands that he get rid of the machines so the family can live
+  a real life.'
+last_verified: '2026-11-20'
+research_confidence: high

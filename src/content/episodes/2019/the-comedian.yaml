@@ -12,8 +12,8 @@ cast:
 - Kumail Nanjiani
 - Tracy Morgan
 narrator: Jordan Peele
-synopsis: 'A struggling stand-up comic receives cryptic advice from a legendary performer: put your own life into
-  the act. The laughs finally come, but every joke seems to cost him something real.'
+synopsis: 'A struggling stand-up comic receives cryptic advice from a legendary performer: put your own life into the
+  act. The laughs finally come, but every joke seems to cost him something real.'
 themes:
 - comedy
 - fame
@@ -36,3 +36,12 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: article
+  subtype: news
+  title: CBS releases the full premiere episode free on YouTube
+  url: https://www.slashfilm.com/565378/the-twilight-zone-first-episode/
+  host: /Film
+  rights: link-only
+  date: '2019-04'
+  note: CBS All Access put "The Comedian" on YouTube for anyone to watch at launch.

@@ -16,8 +16,13 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: 'A full-cast audio remake of “Nervous Man in a Four Dollar Room” from the original 1959 series (season
-  2, 1960), written for television by Rod Serling. Adapted for radio by Dennis Etchison, starring Adam Baldwin.
-  The story: Jackie Rhoades, a jittery small-time crook, waits in a cheap hotel room for orders to commit a murder
-  for his boss. Then his reflection in the mirror starts talking back, and it has firm opinions about the man Jackie
-  has become.'
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
+description: 'A full-cast audio remake of “Nervous Man in a Four Dollar Room” from the original 1959 series (season 2,
+  1960), written for television by Rod Serling. Adapted for radio by Dennis Etchison, starring Adam Baldwin. The story:
+  Jackie Rhoades, a jittery small-time crook, waits in a cheap hotel room for orders to commit a murder for his boss.
+  Then his reflection in the mirror starts talking back, and it has firm opinions about the man Jackie has become.'
+last_verified: '2026-11-20'
+research_confidence: high

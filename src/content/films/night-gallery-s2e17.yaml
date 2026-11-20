@@ -5,8 +5,8 @@ release_date: '1972-01-19'
 runtime_min: 50
 segments:
 - title: The Miracle at Camafeo
-  summary: An insurance swindler faking paralysis visits a Mexican shrine to stage a cure, and is investigated by
-    a skeptical agent.
+  summary: An insurance swindler faking paralysis visits a Mexican shrine to stage a cure, and is investigated by a skeptical
+    agent.
   source_authors:
   - C. B. Gilford
   writers:
@@ -41,3 +41,6 @@ research_confidence: high
 relevance: related
 last_verified: '2026-11-19'
 locked: true
+summary: 'A Night Gallery hour of two stories: "The Miracle at Camafeo" (from C. B. Gilford) and "The Ghost of Sorworth
+  Place" (from Russell Kirk). In the first, an insurance swindler faking paralysis visits a Mexican shrine to stage a
+  cure, and is investigated by a skeptical agent.'

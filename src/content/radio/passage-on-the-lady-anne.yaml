@@ -16,7 +16,13 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “Passage on the Lady Anne” from the original 1959 series (season 4, 1963),
   written for television by Charles Beaumont. Adapted for radio by Dennis Etchison, starring Martin Jarvis and Rosalind
-  Ayres. The story: An unhappily married couple book passage to England on the Lady Anne, an old ocean liner on
-  her final voyage. They find the ship full of elderly passengers who strongly object to them being on board.'
+  Ayres. The story: An unhappily married couple book passage to England on the Lady Anne, an old ocean liner on her final
+  voyage. They find the ship full of elderly passengers who strongly object to them being on board.'
+last_verified: '2026-11-20'
+research_confidence: high

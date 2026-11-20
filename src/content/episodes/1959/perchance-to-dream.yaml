@@ -16,8 +16,8 @@ cast:
 - Richard Conte
 - John Larch
 narrator: Rod Serling
-synopsis: Edward Hall, a man with a weak heart, visits a psychiatrist after days without sleep. Each time he dozes
-  off, his dream picks up where it left off, drawing him toward an amusement park and a dangerous woman.
+synopsis: Edward Hall, a man with a weak heart, visits a psychiatrist after days without sleep. Each time he dozes off,
+  his dream picks up where it left off, drawing him toward an amusement park and a dangerous woman.
 themes:
 - dreams
 - fear
@@ -35,3 +35,11 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Suzanne Lloyd (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed

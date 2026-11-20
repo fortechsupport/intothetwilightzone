@@ -10,6 +10,35 @@ links:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: An independent fan podcast that discusses episodes of The Twilight Zone, hosted by Brandon Davis and
-  Scott McFarland, with its first episode in February 2017. Its name and RSS feed are listed; how many episodes
-  it covers has not been checked.
+- title: Apple Podcasts - Zone-i-Sodes
+  url: https://podcasts.apple.com/us/podcast/id1630502455
+description: A review podcast by Scott McFarland and Brandon Davis on the Front Row Network (NPR Illinois), going through
+  the original series in order, sometimes joined by Katharine Roberts. Apple lists 23 episodes, all from 2022, ending
+  with "The Monsters Are Due on Maple Street".
+episode_count: 23
+status: ended
+covers:
+- '1959'
+featured_episodes:
+- title: 'Episode 22: The Monsters Are Due on Maple Street'
+  date: '2022-09-16'
+  url: https://podcasts.apple.com/us/podcast/episode-22-the-monsters-are-due-on-maple-street/id1630502455?i=1000579651014
+  covers_episode: 1959/the-monsters-are-due-on-maple-street
+- title: 'Episode 21: Mirror Image'
+  date: '2022-09-09'
+  url: https://podcasts.apple.com/us/podcast/episode-21-mirror-image/id1630502455?i=1000578912177
+  covers_episode: 1959/mirror-image
+- title: 'Episode 20: Elegy'
+  date: '2022-09-02'
+  url: https://podcasts.apple.com/us/podcast/episode-20-elegy/id1630502455?i=1000578126793
+  covers_episode: '1959/elegy'
+- title: 'Episode 19: The Purple Testament'
+  date: '2022-08-26'
+  url: https://podcasts.apple.com/us/podcast/episode-19-the-purple-testament/id1630502455?i=1000577404973
+  covers_episode: 1959/the-purple-testament
+- title: 'Episode 16: The Hitch-Hiker'
+  date: '2022-08-05'
+  url: https://podcasts.apple.com/us/podcast/episode-16-the-hitch-hiker/id1630502455?i=1000575092373
+  covers_episode: 1959/the-hitch-hiker
+research_confidence: high
+last_verified: '2026-11-20'

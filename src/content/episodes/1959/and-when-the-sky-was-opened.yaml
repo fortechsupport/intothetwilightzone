@@ -17,8 +17,8 @@ cast:
 - Jim Hutton
 - Charles Aidman
 narrator: Rod Serling
-synopsis: Three astronauts return from the first manned flight into space after their craft briefly vanished from
-  radar. Back on Earth, one of them becomes convinced that something about their homecoming has gone badly wrong.
+synopsis: Three astronauts return from the first manned flight into space after their craft briefly vanished from radar.
+  Back on Earth, one of them becomes convinced that something about their homecoming has gone badly wrong.
 themes:
 - existence
 - memory
@@ -39,3 +39,20 @@ sources:
   url: https://en.wikipedia.org/wiki/And_When_the_Sky_Was_Opened
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: lecture
+  title: Rod Serling Lecture at Sherwood College (1975) Part 2 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+  note: Serling speaking to a screenwriting class at Sherwood Oaks Experimental College, Hollywood, 1975.
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Douglas Heyes (1978), part 1 (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.

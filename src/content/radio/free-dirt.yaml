@@ -14,5 +14,14 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: An adaptation of a Charles Beaumont short story, one of several Beaumont stories the radio series dramatized
-  beyond the episodes he wrote for television. Adapted for radio by Dennis Etchison, starring Eric Bogosian.
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
+description: 'A dramatization of Charles Beaumont''s short story "Free Dirt" (collected in Charles Beaumont: Selected
+  Stories), about a greedy man who takes soil from a cemetery for his garden. It was never a TV episode. Adapted for
+  radio by Dennis Etchison, starring Eric Bogosian.'
+last_verified: '2026-11-20'
+research_confidence: high
+categories:
+- episodes/radio-original-stories
