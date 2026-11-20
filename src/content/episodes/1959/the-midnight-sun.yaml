@@ -16,8 +16,8 @@ cast:
 - John McLiam
 narrator: Rod Serling
 synopsis: Earth's orbit has shifted toward the sun, and New York swelters in endless, rising heat. With water scarce
-  and the city emptying, a young painter and her older neighbor stay behind in their apartment building, trying
-  to survive each scorching day.
+  and the city emptying, a young painter and her older neighbor stay behind in their apartment building, trying to survive
+  each scorching day.
 themes:
 - apocalypse
 - climate
@@ -36,3 +36,10 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: video
+  subtype: clip
+  title: Opening narration of "The Midnight Sun" (embedded by Blank on Blank)
+  url: https://www.youtube.com/watch?v=Li0u15qkQhw
+  host: YouTube
+  rights: link-only

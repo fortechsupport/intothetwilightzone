@@ -14,8 +14,8 @@ cast:
 - Joan Hackett
 - Cyril Delevanti
 narrator: Rod Serling
-synopsis: A cruel theater critic buys an old player piano as a birthday gift for his young wife. He discovers that
-  its tunes make anyone who hears them reveal their true nature, and he plans to use it to humiliate his guests.
+synopsis: A cruel theater critic buys an old player piano as a birthday gift for his young wife. He discovers that its
+  tunes make anyone who hears them reveal their true nature, and he plans to use it to humiliate his guests.
 themes:
 - cruelty
 - marriage
@@ -34,3 +34,12 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-18'
+  title: Earl Hamner on his script "A Piano in the House"
+  url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+  duration: '1:03'

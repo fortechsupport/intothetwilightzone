@@ -15,8 +15,8 @@ cast:
 - Michael Forest
 - Mark Russell
 narrator: Rod Serling
-synopsis: Three silent young men in leather jackets move into a suburban house and fill it with strange equipment.
-  One of them, Scott, falls for the girl across the street, and begins to doubt the purpose that brought them there.
+synopsis: Three silent young men in leather jackets move into a suburban house and fill it with strange equipment. One
+  of them, Scott, falls for the girl across the street, and begins to doubt the purpose that brought them there.
 themes:
 - conformity
 - invasion
@@ -35,3 +35,12 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-18'
+  title: Earl Hamner on his script "Black Leather Jackets"
+  url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+  duration: '1:18'

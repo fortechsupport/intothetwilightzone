@@ -1,28 +1,67 @@
 title: The Twilight Zone
-years: 1959–1964
+years: '1959–1964'
 network: CBS
 host: Rod Serling
 seasons: 5
 order: 1
-summary: Rod Serling's original anthology series, which ran for five seasons on CBS and set the template for everything
-  that followed.
+summary: Rod Serling's original anthology for CBS, 156 episodes over five seasons from October 2, 1959 to June 19, 1964.
+  Each self-contained story drops ordinary people into fantasy, science fiction or horror and usually turns on a moral
+  or ironic twist. Serling created it, wrote or adapted 92 of the episodes and narrated every one, with Charles Beaumont
+  and Richard Matheson writing most of the rest. Season 4 switched to hour-long episodes before the show returned to
+  half an hour for its last season. Its narration, its theme music and its sense of quiet menace in everyday places made
+  the title a household phrase.
 locked: true
 history:
 - date: '1961'
   title: Plagiarism suits over two videotaped episodes
-  text: 'Writers who said they had written the stories first sued over two season 2 episodes shot on videotape:
-    "Static" (credited to Charles Beaumont) and "Long Distance Call" (Charles Beaumont and William Idelson). Both
-    suits were settled. The plaintiffs'' names and the filing dates were not reported.'
+  text: 'Writers who said they had written the stories first sued over two season 2 episodes shot on videotape: "Static"
+    (credited to Charles Beaumont) and "Long Distance Call" (Charles Beaumont and William Idelson). Both suits were settled.
+    The plaintiffs'' names and the filing dates were not reported.'
   sources:
   - title: 'SlashFilm: The Twilight Zone''s ''Disastrous'' Videotape Episodes Led To Two Separate Lawsuits'
     url: https://www.slashfilm.com/1470469/the-twilight-zone-lawsuits-static-long-distance-call/
 - date: '2023'
   title: Ownership and public-domain outlook
-  text: The original series was made for CBS, and the rights now sit with Paramount, CBS's parent. Under current
-    US copyright terms, the earliest episodes are not expected to enter the public domain until about 2055.
+  text: The original series was made for CBS, and the rights now sit with Paramount, CBS's parent. Under current US copyright
+    terms, the earliest episodes are not expected to enter the public domain until about 2055.
   sources:
   - title: 'Plagiarism Today: Copyright and the Twilight Zone'
     url: https://www.plagiarismtoday.com/2023/10/18/copyright-and-the-twilight-zone/
+- date: '1958-11-24'
+  title: '"The Time Element" airs as a stand-in pilot'
+  text: CBS's Westinghouse-Desilu Playhouse broadcast Serling's time-travel script "The Time Element", introduced by
+    Desi Arnaz. Its strong response persuaded CBS to commission a pilot for Serling's own series.
+  sources:
+  - title: Wikipedia - The Time Element
+    url: https://en.wikipedia.org/wiki/The_Time_Element
+- date: '1959-10-02'
+  title: Premiere with "Where Is Everybody?"
+  text: The series premiered on CBS on a Friday night with "Where Is Everybody?", Serling's pilot about a man alone in
+    an empty town. Cayuga Productions, Serling's company, made the show with CBS, filming mainly at MGM in Culver City.
+  sources:
+  - title: Wikipedia - The Twilight Zone (1959 TV series)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+- date: '1960-10'
+  title: New theme music for season 2
+  text: Bernard Herrmann's eerie first-season theme was replaced by the familiar four-note guitar figure built from library
+    cues by French composer Marius Constant, which has been used in nearly every version since.
+  sources:
+  - title: Wikipedia - The Twilight Zone (1959 TV series)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+- date: '1963-01-03'
+  title: Season 4 runs as an hour
+  text: After CBS briefly dropped the show from its fall schedule, it returned as a midseason replacement with 18 hour-long
+    episodes. Producers Herbert Hirschman and then Bert Granet took over from Buck Houghton.
+  sources:
+  - title: Wikipedia - The Twilight Zone (1959 TV series)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+- date: '1964-06-19'
+  title: Last first-run episode
+  text: The final new episode, Earl Hamner's "The Bewitchin' Pool", aired at the end of the half-hour fifth season, produced
+    by William Froug. The series then began its long life in syndication.
+  sources:
+  - title: Wikipedia - The Twilight Zone (1959 TV series)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
 international_titles:
 - country: France
   language: French
@@ -141,8 +180,8 @@ releases:
   title: 151-episode off-network syndication package
   publisher: CBS
   region: US
-  note: After cancellation the series went to local stations in a 151-episode package; Serling had sold his rights
-    to CBS and missed out on rerun income. Distributor name (CBS Films) not confirmed from fetched sources.
+  note: After cancellation the series went to local stations in a 151-episode package; Serling had sold his rights to
+    CBS and missed out on rerun income. Distributor name (CBS Films) not confirmed from fetched sources.
   sources:
   - title: 'Special Report: The Lost Five - Twilight Zone Vortex'
     url: https://mylifeintheshadowofthetwilightzone.blogspot.com/2013/02/special-report-lost-five.html
@@ -153,9 +192,8 @@ releases:
   title: The "Lost Five" withheld episodes
   publisher: CBS
   region: US
-  note: 'Left out of syndication: "Miniature," "A Short Drink From a Certain Fountain" and "Sounds and Silences"
-    (plagiarism suits), "The Encounter" (racial content complaints) and "An Occurrence at Owl Creek Bridge" (licensed
-    French short).'
+  note: 'Left out of syndication: "Miniature," "A Short Drink From a Certain Fountain" and "Sounds and Silences" (plagiarism
+    suits), "The Encounter" (racial content complaints) and "An Occurrence at Owl Creek Bridge" (licensed French short).'
   sources:
   - title: 'Special Report: The Lost Five - Twilight Zone Vortex'
     url: https://mylifeintheshadowofthetwilightzone.blogspot.com/2013/02/special-report-lost-five.html
@@ -165,8 +203,8 @@ releases:
   format: Broadcast
   title: 25th-anniversary syndicated special (Patrick O'Neal host)
   region: US
-  note: 'Feature-length syndicated special that aired three withheld episodes: "Miniature," "A Short Drink From
-    a Certain Fountain" and "Sounds and Silences." These were later folded into syndication.'
+  note: 'Feature-length syndicated special that aired three withheld episodes: "Miniature," "A Short Drink From a Certain
+    Fountain" and "Sounds and Silences." These were later folded into syndication.'
   sources:
   - title: 'Special Report: The Lost Five - Twilight Zone Vortex'
     url: https://mylifeintheshadowofthetwilightzone.blogspot.com/2013/02/special-report-lost-five.html
@@ -175,9 +213,9 @@ releases:
   title: Treasures of The Twilight Zone (2-tape set)
   publisher: CBS Video
   region: US
-  note: Two-tape set that brought the withheld episodes "An Occurrence at Owl Creek Bridge" and "The Encounter"
-    back into circulation; the museum page also lists Serling's network sales pitch and a 1959 Mike Wallace interview
-    with Serling.
+  note: Two-tape set that brought the withheld episodes "An Occurrence at Owl Creek Bridge" and "The Encounter" back
+    into circulation; the museum page also lists Serling's network sales pitch and a 1959 Mike Wallace interview with
+    Serling.
   sources:
   - title: 'Special Report: The Lost Five - Twilight Zone Vortex'
     url: https://mylifeintheshadowofthetwilightzone.blogspot.com/2013/02/special-report-lost-five.html
@@ -224,8 +262,8 @@ releases:
   title: 'The Twilight Zone: Gold Collection'
   publisher: V3 Media
   region: Region 1
-  note: Limited 49-disc box, 2,500 copies, per Wikipedia. The Twilight Zone Museum instead describes a 2000 "Gold
-    Entertainment" full-series set in airdate order without extras; the relationship between the two needs checking.
+  note: Limited 49-disc box, 2,500 copies, per Wikipedia. The Twilight Zone Museum instead describes a 2000 "Gold Entertainment"
+    full-series set in airdate order without extras; the relationship between the two needs checking.
   sources:
   - title: The Twilight Zone (1959 TV series) - Wikipedia
     url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
@@ -236,8 +274,8 @@ releases:
   title: 'The Twilight Zone: Collections 1-5 (9-disc sets)'
   publisher: Image Entertainment
   region: Region 1
-  note: The single-disc volumes repackaged into five 9-disc collection boxes, released Dec 3, 2002 through Feb 25,
-    2003 (also sold in warehouse-club versions).
+  note: The single-disc volumes repackaged into five 9-disc collection boxes, released Dec 3, 2002 through Feb 25, 2003
+    (also sold in warehouse-club versions).
   sources:
   - title: The Twilight Zone (1959 TV series) - Wikipedia
     url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
@@ -248,9 +286,9 @@ releases:
   title: 'The Twilight Zone: The Definitive Edition - Season 1'
   publisher: Image Entertainment
   region: Region 1
-  note: '6-disc set, new transfers. Extras: commentaries (Rod Taylor, Earl Holliman, Martin Landau, Kevin McCarthy,
-    William Self), radio dramas, isolated scores, sponsor billboards, Serling Sherwood Oaks lectures, Zicree''s
-    Companion interviews, Liars Club clip.'
+  note: '6-disc set, new transfers. Extras: commentaries (Rod Taylor, Earl Holliman, Martin Landau, Kevin McCarthy, William
+    Self), radio dramas, isolated scores, sponsor billboards, Serling Sherwood Oaks lectures, Zicree''s Companion interviews,
+    Liars Club clip.'
   sources:
   - title: DVD Talk Forum - Release dates for all 50s/80s Twilight Zone season sets
     url: https://forum.dvdtalk.com/dvd-talk/379060-release-dates-all-50s-80s-twilight-zone-season-sets-printthread.html
@@ -298,8 +336,8 @@ releases:
   title: 'The Twilight Zone: The Definitive Edition - Season 5'
   publisher: Image Entertainment
   region: Region 1
-  note: Final season box; interviews include Earl Hamner and June Foray. Forum list gives Dec 27, 2005, Wikipedia's
-    range ends Dec 26, 2005.
+  note: Final season box; interviews include Earl Hamner and June Foray. Forum list gives Dec 27, 2005, Wikipedia's range
+    ends Dec 26, 2005.
   sources:
   - title: DVD Talk Forum - Release dates for all 50s/80s Twilight Zone season sets
     url: https://forum.dvdtalk.com/dvd-talk/379060-release-dates-all-50s-80s-twilight-zone-season-sets-printthread.html
@@ -323,9 +361,9 @@ releases:
   title: 'The Twilight Zone: Season 1'
   publisher: Image Entertainment / CBS
   region: Region A
-  note: 'HD transfers from original negatives. New: "The Time Element" (1958 Desilu pilot, this set only), unaired
-    "Where Is Everybody?" cut, Tales of Tomorrow "What You Need", ~19 new commentaries, 12 more radio dramas, 13
-    more isolated scores, 1977 syndication promos.'
+  note: 'HD transfers from original negatives. New: "The Time Element" (1958 Desilu pilot, this set only), unaired "Where
+    Is Everybody?" cut, Tales of Tomorrow "What You Need", ~19 new commentaries, 12 more radio dramas, 13 more isolated
+    scores, 1977 syndication promos.'
   sources:
   - title: 'The Twilight Zone: Season 1 Blu-ray review - The Digital Bits'
     url: https://archive.thedigitalbits.com/reviewshd/bdreviews090810b.html
@@ -386,8 +424,8 @@ releases:
   title: Netflix (Watch Instantly)
   publisher: Netflix
   region: US
-  note: CBS licensed library shows including The Twilight Zone to Netflix in a deal announced Feb 22, 2011, with
-    streaming starting in April 2011.
+  note: CBS licensed library shows including The Twilight Zone to Netflix in a deal announced Feb 22, 2011, with streaming
+    starting in April 2011.
   sources:
   - title: Netflix signs up some TV shows from CBS' library for Watch Instantly - Engadget
     url: https://www.engadget.com/2011/02/22/netflix-signs-up-some-tv-shows-from-cbs-library-for-watch-insta/
@@ -431,8 +469,7 @@ releases:
   title: 'The Twilight Zone: The Complete Series'
   publisher: Image Entertainment
   region: Region A
-  note: 24-disc box of all 156 episodes with the season-set extras, no new features; SRP $399.98. Reissued Dec 13,
-    2016.
+  note: 24-disc box of all 156 episodes with the season-set extras, no new features; SRP $399.98. Reissued Dec 13, 2016.
   sources:
   - title: The Twilight Zone (1959 TV series) - Wikipedia
     url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
@@ -445,8 +482,8 @@ releases:
   title: 'The Twilight Zone: Fan Favorites (Blu-ray)'
   publisher: Image Entertainment
   region: Region A
-  note: 19-episode HD sampler including "Walking Distance," "Time Enough at Last" and "Nightmare at 20,000 Feet";
-    SRP $34.98.
+  note: 19-episode HD sampler including "Walking Distance," "Time Enough at Last" and "Nightmare at 20,000 Feet"; SRP
+    $34.98.
   sources:
   - title: 'The Twilight Zone: The Complete Series and Fan Favorites Announced for Blu-ray - High-Def Digest'
     url: https://bluray.highdefdigest.com/news/show/The_Twilight_Zone_The_Complete_Series_and_The_Twilight_Zone_Fan_Favorites_Announced_for_Blu-ray/9146
@@ -455,8 +492,8 @@ releases:
   title: Hulu Plus (CBS library deal)
   publisher: Hulu
   region: US
-  note: CBS's November 2012 library licensing deal brought older CBS series to Hulu Plus; all five seasons have
-    since streamed on Hulu. Confirm TZ was in the first batch.
+  note: CBS's November 2012 library licensing deal brought older CBS series to Hulu Plus; all five seasons have since
+    streamed on Hulu. Confirm TZ was in the first batch.
   sources:
   - title: The Twilight Zone (1959 TV series) - Wikipedia
     url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
@@ -469,8 +506,8 @@ releases:
   title: 'The Twilight Zone: Season sets (Episodes Only Collection)'
   publisher: Image Entertainment
   region: Region 1
-  note: 'Bare-bones season reissues without the Definitive extras, rolled out monthly in 2013: Season 2 (Jun 4),
-    Season 3 (Jul 9), Season 4 (Aug 6), Season 5 (Sep 3) per press-release headlines and DVD date listings.'
+  note: 'Bare-bones season reissues without the Definitive extras, rolled out monthly in 2013: Season 2 (Jun 4), Season
+    3 (Jul 9), Season 4 (Aug 6), Season 5 (Sep 3) per press-release headlines and DVD date listings.'
   sources:
   - title: Twilight Zone (TV Series 1959-1964) - DVDs Release Dates
     url: https://www.dvdsreleasedates.com/movies/4303/Twilight-Zone-(TV-Series-1959-1964).html
@@ -519,8 +556,8 @@ releases:
   title: '"The Encounter" returns to TV on Syfy'
   publisher: Syfy
   region: US
-  note: After decades out of rotation, "The Encounter" made its first TV appearance since its 1964 CBS showing in
-    a 2016 Syfy airing.
+  note: After decades out of rotation, "The Encounter" made its first TV appearance since its 1964 CBS showing in a 2016
+    Syfy airing.
   sources:
   - title: The Twilight Zone (1959 TV series) - Wikipedia
     url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
@@ -529,8 +566,8 @@ releases:
   title: 'Decades: "Rod, White & Blue" marathon'
   publisher: Decades
   region: US
-  note: Decades ran a 24-hour, 46-episode Fourth of July marathon branded "Rod, White & Blue." The branding later
-    moved to sister network H&I.
+  note: Decades ran a 24-hour, 46-episode Fourth of July marathon branded "Rod, White & Blue." The branding later moved
+    to sister network H&I.
   sources:
   - title: Decades presents Rod, White & Blue 24-hour 46-episode Twilight Zone marathon - Television Confidential
     url: https://televisionconfidential.com/television-star/via-decades-network-decades-presents-rod-white-blue-a-24-hour-46-episode-twilight-zone-marathon-on-wednesday-7-4-featuring-such-classic-episodes-as-nightmare-at-20000-feet-the-eye-of-the/
@@ -551,8 +588,8 @@ releases:
   title: 'The Twilight Zone: The Complete Series (2021 edition)'
   publisher: Paramount Home Entertainment (unconfirmed)
   region: Region A
-  note: New complete-series Blu-ray package timed for Halloween 2021 (UPC 191329211465). Label and contents not
-    verified from a fetched page.
+  note: New complete-series Blu-ray package timed for Halloween 2021 (UPC 191329211465). Label and contents not verified
+    from a fetched page.
   sources:
   - title: Twilight Zone (TV Series 1959-1964) - DVDs Release Dates
     url: https://www.dvdsreleasedates.com/movies/4303/Twilight-Zone-(TV-Series-1959-1964).html
@@ -563,11 +600,11 @@ releases:
   title: Pluto TV 24/7 Twilight Zone channel
   publisher: Pluto TV
   region: US
-  note: Free ad-supported live channel dedicated to The Twilight Zone added in December 2024 (an earlier Pluto TZ
-    channel and a German Pluto TV channel are also reported; dates unverified).
+  note: Free ad-supported live channel dedicated to The Twilight Zone added in December 2024 (an earlier Pluto TZ channel
+    and a German Pluto TV channel are also reported; dates unverified).
   sources:
-  - title: Pluto TV is Adding 9 New Free Live Channels Including 24/7 The Twilight Zone in December 2024 - Cord
-      Cutters News
+  - title: Pluto TV is Adding 9 New Free Live Channels Including 24/7 The Twilight Zone in December 2024 - Cord Cutters
+      News
     url: https://cordcuttersnews.com/pluto-tv-is-adding-9-new-free-live-channels-including-24-7-the-twilight-zone/
   - title: Pluto TV Adds 11 New Channels Including 24/7 The Twilight Zone & Godzilla - Cord Cutters News
     url: https://cordcuttersnews.com/?p=191763
@@ -577,8 +614,8 @@ releases:
   title: CBS/Fox Video compilation tapes
   publisher: CBS/Fox Video
   region: US
-  note: Several greatest-hits style tapes of original-series episodes were issued during the VHS era, making the
-    show one of the most widely available TV titles on home video. Exact titles and dates not yet verified.
+  note: Several greatest-hits style tapes of original-series episodes were issued during the VHS era, making the show
+    one of the most widely available TV titles on home video. Exact titles and dates not yet verified.
   sources:
   - title: The Twilight Zone - Mondo Digital
     url: https://mondo-digital.com/twilightzone.html
@@ -586,9 +623,9 @@ releases:
   title: Columbia House subscription VHS series
   publisher: Columbia House
   region: US
-  note: Mail-order club line of tapes that eventually covered the full 156-episode run. Its opening montage was
-    criticised for giving away the endings of many famous episodes. Start date not verified (museum page places
-    CBS Video Library tapes in the early 1990s).
+  note: Mail-order club line of tapes that eventually covered the full 156-episode run. Its opening montage was criticised
+    for giving away the endings of many famous episodes. Start date not verified (museum page places CBS Video Library
+    tapes in the early 1990s).
   sources:
   - title: The Twilight Zone - Mondo Digital
     url: https://mondo-digital.com/twilightzone.html
@@ -600,8 +637,8 @@ releases:
   title: Sci-Fi Channel / Syfy runs and holiday marathons
   publisher: Syfy
   region: US
-  note: Syfy carries the series nationally, usually late night, plus annual New Year's Eve/Day and Fourth of July
-    marathons; episodes are often trimmed for ads. The 2016-17 New Year's marathon was billed as the 22nd annual.
+  note: Syfy carries the series nationally, usually late night, plus annual New Year's Eve/Day and Fourth of July marathons;
+    episodes are often trimmed for ads. The 2016-17 New Year's marathon was billed as the 22nd annual.
   sources:
   - title: The Twilight Zone (1959 TV series) - Wikipedia
     url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
@@ -613,8 +650,8 @@ releases:
   title: MeTV
   publisher: MeTV
   region: US
-  note: Weigel's MeTV network carries the original series (Wikipedia notes late-night Sunday and weeknight 11 p.m.
-    slots). Start date on MeTV not verified.
+  note: Weigel's MeTV network carries the original series (Wikipedia notes late-night Sunday and weeknight 11 p.m. slots).
+    Start date on MeTV not verified.
   sources:
   - title: The Twilight Zone (1959 TV series) - Wikipedia
     url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
@@ -624,8 +661,8 @@ releases:
   title: H&I (Heroes & Icons) holiday marathons
   publisher: H&I
   region: US
-  note: H&I took over Weigel's "Rod, White & Blue" July 4 marathon and also runs New Year's Twilight Zone marathons
-    (e.g. 2023's "Toast to Twilight"), competing with Syfy's. Year of first H&I marathon not verified.
+  note: H&I took over Weigel's "Rod, White & Blue" July 4 marathon and also runs New Year's Twilight Zone marathons (e.g.
+    2023's "Toast to Twilight"), competing with Syfy's. Year of first H&I marathon not verified.
   sources:
   - title: H&I Network Celebrates New Year With 'Twilight Zone' Marathon - Next TV
     url: https://www.nexttv.com/news/handi-network-celebrates-new-year-with-twilight-zone-marathon
@@ -641,3 +678,46 @@ releases:
   sources:
   - title: The Twilight Zone (1959 TV series) - Wikipedia
     url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+sources:
+- title: Wikipedia - The Twilight Zone (1959 TV series)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+- title: CTVA - The Twilight Zone episode guide
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+media:
+- type: interview
+  title: Rod Serling interviewed by Mike Wallace, The Mike Wallace Interview (ABC)
+  url: https://www.youtube.com/watch?v=VQlqjONEsKQ
+  host: YouTube (uploaded copy; original kinescope at the Harry Ransom Center, University of Texas)
+  date: '1959-09-22'
+  rights: link-only
+  note: Recorded days before the premiere. Serling talks about sponsors, censorship and why he moved to fantasy.
+- type: interview
+  title: Rod Serling interviewed by Binny Lum in Melbourne (Blank on Blank)
+  url: https://blankonblank.org/interviews/rod-serling-twlight-zone-science-fiction-kamikazes/
+  host: Blank on Blank (PBS Digital Studios), tape from the National Film and Sound Archive of Australia
+  date: '1963'
+  rights: licensed
+  note: Serling on the show as imaginative storytelling and on wanting to go back in time. Full audio on SoundCloud from
+    the page.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson interview, 15 Twilight Zone clips
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  note: Interviewed by Gary Rutkowski. Clips on meeting Serling, Buck Houghton, and each episode he wrote.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-18'
+  title: Earl Hamner, Jr. interview, clips on his Twilight Zone teleplays
+  url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+  note: Interviewed by Jennifer Howard. One clip per episode he wrote, plus working with Serling.
+- type: website
+  title: The Twilight Zone show page, Television Academy Foundation interviews
+  url: https://interviews.televisionacademy.com/shows/twilight-zone-the
+  host: Television Academy Foundation
+  rights: licensed
+  note: Index of every oral-history clip that discusses the original series.

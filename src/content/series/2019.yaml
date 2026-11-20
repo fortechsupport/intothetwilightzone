@@ -1,18 +1,22 @@
 title: The Twilight Zone
-years: 2019–2020
+years: '2019–2020'
 network: CBS All Access
 host: Jordan Peele
 seasons: 2
 order: 4
-summary: The third revival, produced and hosted by Jordan Peele for CBS All Access.
+summary: The third revival, developed by Simon Kinberg, Jordan Peele and Marco Ramirez for the CBS All Access streaming
+  service, with Peele as host and narrator. Twenty episodes ran over two seasons, from April 1, 2019 to June 25, 2020,
+  mostly new stories about present-day fears such as policing, social media and political division, plus reimaginings
+  of "Nightmare at 20,000 Feet" and other classics. It was made by Peele's Monkeypaw Productions and Kinberg's Genre
+  Films with CBS Television Studios, and ended after season 2.
 locked: true
 international_titles:
 - country: France
   language: French
   title: 'The Twilight Zone : La Quatrième Dimension'
   broadcaster: Canal+
-  note: An ozap headline says the series arrived on Canal+ on 10 October; the year was not confirmed. French press
-    also called it the reboot of "La Quatrième Dimension".
+  note: An ozap headline says the series arrived on Canal+ on 10 October; the year was not confirmed. French press also
+    called it the reboot of "La Quatrième Dimension".
   sources:
   - title: 'ozap: The Twilight Zone : La Quatrième Dimension arrive le 10 octobre sur Canal+'
     url: https://www.ozap.com/actu/-the-twilight-zone-la-quatrieme-dimension-arrive-le-10-octobre-sur-canal/583565
@@ -99,8 +103,8 @@ releases:
   title: 'The Twilight Zone (2019): Season Two'
   publisher: Paramount Home Entertainment (unconfirmed)
   region: Region 1
-  note: Season Two on DVD (and Blu-ray), reviewed January 2021; included an extended scene as a bonus. Exact date
-    not verified.
+  note: Season Two on DVD (and Blu-ray), reviewed January 2021; included an extended scene as a bonus. Exact date not
+    verified.
   sources:
   - title: 'DVD Review: The Twilight Zone (2019): Season Two - The Joy of Movies'
     url: https://thejoyofmovies.ca/2021/01/12/dvd-review-the-twilight-zone-2019-season-two/
@@ -124,8 +128,8 @@ releases:
   title: Removed from Paramount+
   publisher: Paramount+
   region: US
-  note: Paramount+ pulled the revival from its library in 2023 during a cost-cutting purge of originals; it later
-    turned up on free streaming (platform not verified).
+  note: Paramount+ pulled the revival from its library in 2023 during a cost-cutting purge of originals; it later turned
+    up on free streaming (platform not verified).
   sources:
   - title: Paramount has removed the Twilight Zone reboot from its streaming service - Bloody Disgusting
     url: https://bloody-disgusting.com/tv/3749570/paramount-has-removed-the-twilight-zone-reboot-from-its-streaming-service/
@@ -133,3 +137,29 @@ releases:
     url: https://www.thewrap.com/paramount-plus-removing-original-content-off-platform/
   - title: This underrated Jordan Peele series is now free to stream - Dread Central
     url: https://www.dreadcentral.com/news/514458/this-underrated-jordan-peele-series-is-now-free-to-stream
+history:
+- date: '2019-04-01'
+  title: Premiere on CBS All Access
+  text: The first two episodes, "The Comedian" with Kumail Nanjiani and "Nightmare at 30,000 Feet" with Adam Scott, were
+    released together.
+  sources:
+  - title: Wikipedia - The Twilight Zone (2019 TV series)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+- date: '2020-06-25'
+  title: Season 2 released at once
+  text: All ten season 2 episodes were released on the same day. The service, renamed Paramount+ in 2021, did not order
+    a third season.
+  sources:
+  - title: Wikipedia - The Twilight Zone (2019 TV series)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+sources:
+- title: Wikipedia - The Twilight Zone (2019 TV series)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+media:
+- type: video
+  subtype: trailer
+  title: First full trailer, CBS All Access (via CBS News)
+  url: https://www.cbsnews.com/news/twilight-zone-trailer-reboot-jordan-peele-cbs-all-access-premieres-2019-04-01/
+  host: CBS News
+  date: '2019-02-21'
+  rights: licensed

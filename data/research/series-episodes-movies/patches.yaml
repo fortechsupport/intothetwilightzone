@@ -1,0 +1,138 @@
+# Field patches from the series/episodes/movies research pass (2026-11-20). Applied by scripts/research/apply_media.py.
+series/1959:
+  summary: Rod Serling's original anthology for CBS, 156 episodes over five seasons from October 2, 1959 to June 19,
+    1964. Each self-contained story drops ordinary people into fantasy, science fiction or horror and usually turns
+    on a moral or ironic twist. Serling created it, wrote or adapted 92 of the episodes and narrated every one, with
+    Charles Beaumont and Richard Matheson writing most of the rest. Season 4 switched to hour-long episodes before
+    the show returned to half an hour for its last season. Its narration, its theme music and its sense of quiet
+    menace in everyday places made the title a household phrase.
+  history:
+  - date: '1958-11-24'
+    title: '"The Time Element" airs as a stand-in pilot'
+    text: CBS's Westinghouse-Desilu Playhouse broadcast Serling's time-travel script "The Time Element", introduced
+      by Desi Arnaz. Its strong response persuaded CBS to commission a pilot for Serling's own series.
+    sources:
+    - title: Wikipedia - The Time Element
+      url: https://en.wikipedia.org/wiki/The_Time_Element
+  - date: '1959-10-02'
+    title: Premiere with "Where Is Everybody?"
+    text: The series premiered on CBS on a Friday night with "Where Is Everybody?", Serling's pilot about a man alone
+      in an empty town. Cayuga Productions, Serling's company, made the show with CBS, filming mainly at MGM in Culver
+      City.
+    sources:
+    - title: Wikipedia - The Twilight Zone (1959 TV series)
+      url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+  - date: '1960-10'
+    title: New theme music for season 2
+    text: Bernard Herrmann's eerie first-season theme was replaced by the familiar four-note guitar figure built from
+      library cues by French composer Marius Constant, which has been used in nearly every version since.
+    sources:
+    - title: Wikipedia - The Twilight Zone (1959 TV series)
+      url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+  - date: '1963-01-03'
+    title: Season 4 runs as an hour
+    text: After CBS briefly dropped the show from its fall schedule, it returned as a midseason replacement with 18
+      hour-long episodes. Producers Herbert Hirschman and then Bert Granet took over from Buck Houghton.
+    sources:
+    - title: Wikipedia - The Twilight Zone (1959 TV series)
+      url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+  - date: '1964-06-19'
+    title: Last first-run episode
+    text: The final new episode, Earl Hamner's "The Bewitchin' Pool", aired at the end of the half-hour fifth season,
+      produced by William Froug. The series then began its long life in syndication.
+    sources:
+    - title: Wikipedia - The Twilight Zone (1959 TV series)
+      url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+  sources:
+  - title: Wikipedia - The Twilight Zone (1959 TV series)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+  - title: CTVA - The Twilight Zone episode guide
+    url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+series/1985:
+  summary: The first revival, made for CBS from September 27, 1985 and continued with a third season for first-run
+    syndication in 1988 and 1989, for 65 episodes and 110 stories. Most hours held two or three short tales, mixing
+    new stories, adaptations of authors such as Stephen King, Ray Bradbury, Arthur C. Clarke and Harlan Ellison, and
+    a few remakes of the original series. Philip DeGuere produced it, Ellison was creative consultant in the first
+    season, and the theme was reworked by the Grateful Dead with Merl Saunders. Charles Aidman narrated the CBS
+    seasons and Robin Ward the syndicated one.
+  history:
+  - date: '1985-09-27'
+    title: CBS premiere
+    text: The revival opened with Harlan Ellison's "Shatterday", starring Bruce Willis, and "A Little Peace and Quiet",
+      directed by Wes Craven. Directors over the CBS seasons included Craven, Joe Dante and William Friedkin.
+    sources:
+    - title: Wikipedia - List of The Twilight Zone (1985 TV series) episodes
+      url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+  - date: '1986'
+    title: Harlan Ellison leaves over "Nackles"
+    text: Ellison quit as creative consultant after CBS refused to make his adaptation of Donald Westlake's Christmas
+      story "Nackles", about an anti-Santa figure.
+    sources:
+    - title: Wikipedia - The Twilight Zone (1985 TV series)
+      url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
+  - date: '1987-07-17'
+    title: Last CBS broadcast
+    text: After a second season of shifting time slots and a cut to half an hour, CBS aired its last episode in July
+      1987.
+    sources:
+    - title: Wikipedia - List of The Twilight Zone (1985 TV series) episodes
+      url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+  - date: '1988-09-24'
+    title: Syndicated third season
+    text: Thirty half-hour episodes, shot in Toronto on a smaller budget and largely written by J. Michael Straczynski,
+      went into syndication so the series would have enough episodes for reruns. The last aired in April 1989.
+    sources:
+    - title: Wikipedia - List of The Twilight Zone (1985 TV series) episodes
+      url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+  sources:
+  - title: Wikipedia - The Twilight Zone (1985 TV series)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
+  - title: Wikipedia - List of The Twilight Zone (1985 TV series) episodes
+    url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+series/2002:
+  summary: The second revival, one season of 43 stories on UPN from September 18, 2002 to May 21, 2003, hosted by
+    Forest Whitaker. UPN usually paired two half-hour stories in an hour on Wednesday nights. Alongside new tales it
+    revisited the original with updated remakes and a sequel, "It's Still a Good Life", which brought back Bill Mumy
+    and Cloris Leachman. It was produced by Trilogy Entertainment's Pen Densham, Mark Stern and John Watson, with Ira
+    Steven Behr running the writers' room.
+  history:
+  - date: '2002-09-18'
+    title: UPN premiere
+    text: The revival opened on UPN on a Wednesday night with two half-hour stories, introduced on screen by Forest
+      Whitaker.
+    sources:
+    - title: Wikipedia - The Twilight Zone (2002 TV series)
+      url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+  - date: '2003-05-21'
+    title: Cancelled after one season
+    text: UPN ended the series after its first season of 43 stories.
+    sources:
+    - title: Wikipedia - The Twilight Zone (2002 TV series)
+      url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+  sources:
+  - title: Wikipedia - The Twilight Zone (2002 TV series)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+series/2019:
+  summary: The third revival, developed by Simon Kinberg, Jordan Peele and Marco Ramirez for the CBS All Access
+    streaming service, with Peele as host and narrator. Twenty episodes ran over two seasons, from April 1, 2019
+    to June 25, 2020, mostly new stories about present-day fears such as policing, social media and political
+    division, plus reimaginings of "Nightmare at 20,000 Feet" and other classics. It was made by Peele's Monkeypaw
+    Productions and Kinberg's Genre Films with CBS Television Studios, and ended after season 2.
+  history:
+  - date: '2019-04-01'
+    title: Premiere on CBS All Access
+    text: The first two episodes, "The Comedian" with Kumail Nanjiani and "Nightmare at 30,000 Feet" with Adam Scott,
+      were released together.
+    sources:
+    - title: Wikipedia - The Twilight Zone (2019 TV series)
+      url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+  - date: '2020-06-25'
+    title: Season 2 released at once
+    text: All ten season 2 episodes were released on the same day. The service, renamed Paramount+ in 2021, did not
+      order a third season.
+    sources:
+    - title: Wikipedia - The Twilight Zone (2019 TV series)
+      url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+  sources:
+  - title: Wikipedia - The Twilight Zone (2019 TV series)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)

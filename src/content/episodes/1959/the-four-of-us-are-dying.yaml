@@ -17,8 +17,8 @@ cast:
 - Ross Martin
 - Milton Frome
 narrator: Rod Serling
-synopsis: Arch Hammer, a small-time con man, can change his face to look like anyone he concentrates on. He uses
-  the trick to borrow the identities of other men, chasing money and a woman through a seedy city.
+synopsis: Arch Hammer, a small-time con man, can change his face to look like anyone he concentrates on. He uses the
+  trick to borrow the identities of other men, chasing money and a woman through a seedy city.
 themes:
 - crime
 - deception
@@ -38,3 +38,12 @@ sources:
   url: https://en.wikipedia.org/wiki/The_Four_of_Us_Are_Dying
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson on how he wrote "The Four of Us Are Dying"
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  duration: '7:28'

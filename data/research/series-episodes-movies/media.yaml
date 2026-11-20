@@ -1,0 +1,152 @@
+# Media links gathered by the series/episodes/movies research pass (2026-11-20).
+# Keys are record paths under src/content (without .yaml). scripts/research/apply_media.py merges them.
+_tva_gcj: &gcj
+  type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+_tva_hamner: &hamner
+  type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-18'
+series/1959:
+  - type: interview
+    title: Rod Serling interviewed by Mike Wallace, The Mike Wallace Interview (ABC)
+    url: https://www.youtube.com/watch?v=VQlqjONEsKQ
+    host: YouTube (uploaded copy; original kinescope at the Harry Ransom Center, University of Texas)
+    date: '1959-09-22'
+    rights: link-only
+    note: Recorded days before the premiere. Serling talks about sponsors, censorship and why he moved to fantasy.
+  - type: interview
+    title: Rod Serling interviewed by Binny Lum in Melbourne (Blank on Blank)
+    url: https://blankonblank.org/interviews/rod-serling-twlight-zone-science-fiction-kamikazes/
+    host: Blank on Blank (PBS Digital Studios), tape from the National Film and Sound Archive of Australia
+    date: '1963'
+    rights: licensed
+    note: Serling on the show as imaginative storytelling and on wanting to go back in time. Full audio on SoundCloud from the page.
+  - <<: *gcj
+    title: George Clayton Johnson interview, 15 Twilight Zone clips
+    url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+    note: Interviewed by Gary Rutkowski. Clips on meeting Serling, Buck Houghton, and each episode he wrote.
+  - <<: *hamner
+    title: Earl Hamner, Jr. interview, clips on his Twilight Zone teleplays
+    url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+    note: Interviewed by Jennifer Howard. One clip per episode he wrote, plus working with Serling.
+  - type: website
+    title: The Twilight Zone show page, Television Academy Foundation interviews
+    url: https://interviews.televisionacademy.com/shows/twilight-zone-the
+    host: Television Academy Foundation
+    rights: licensed
+    note: Index of every oral-history clip that discusses the original series.
+1959/the-four-of-us-are-dying:
+  - <<: *gcj
+    title: George Clayton Johnson on how he wrote "The Four of Us Are Dying"
+    url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+    duration: '7:28'
+1959/a-penny-for-your-thoughts:
+  - <<: *gcj
+    title: George Clayton Johnson on "A Penny for Your Thoughts"
+    url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+    duration: '12:09'
+1959/execution:
+  - <<: *gcj
+    title: George Clayton Johnson on the story behind "Execution", adapted by Rod Serling
+    url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+    duration: '6:50'
+1959/kick-the-can:
+  - <<: *gcj
+    title: George Clayton Johnson on "Kick the Can" and "A Penny for Your Thoughts"
+    url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+    duration: '9:02'
+1959/nothing-in-the-dark:
+  - <<: *gcj
+    title: George Clayton Johnson on "Nothing in the Dark"
+    url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+    duration: '10:18'
+1959/ninety-years-without-slumbering:
+  - <<: *gcj
+    title: George Clayton Johnson on "Ninety Years Without Slumbering"
+    url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+    duration: '4:47'
+1959/the-prime-mover:
+  - <<: *gcj
+    title: George Clayton Johnson on "The Prime Mover"
+    url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+    duration: '10:31'
+1959/a-piano-in-the-house:
+  - <<: *hamner
+    title: Earl Hamner on his script "A Piano in the House"
+    url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+    duration: '1:03'
+1959/jess-belle:
+  - <<: *hamner
+    title: Earl Hamner on his script "Jess-Belle"
+    url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+    duration: '3:34'
+1959/ring-a-ding-girl:
+  - <<: *hamner
+    title: Earl Hamner on his script "Ring-a-Ding Girl"
+    url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+    duration: '2:15'
+1959/you-drive:
+  - <<: *hamner
+    title: Earl Hamner on his script "You Drive"
+    url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+    duration: '2:26'
+1959/black-leather-jackets:
+  - <<: *hamner
+    title: Earl Hamner on his script "Black Leather Jackets"
+    url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+    duration: '1:18'
+1959/stopover-in-a-quiet-town:
+  - <<: *hamner
+    title: Earl Hamner on his script "Stopover in a Quiet Town"
+    url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+    duration: '1:38'
+1959/the-bewitchin-pool:
+  - <<: *hamner
+    title: Earl Hamner on his script "The Bewitchin' Pool"
+    url: https://interviews.televisionacademy.com/interviews/earl-hamner-jr
+    duration: '2:42'
+1959/the-midnight-sun:
+  - type: video
+    subtype: clip
+    title: Opening narration of "The Midnight Sun" (embedded by Blank on Blank)
+    url: https://www.youtube.com/watch?v=Li0u15qkQhw
+    host: YouTube
+    rights: link-only
+films/twilight-zone-the-movie:
+  - <<: *gcj
+    title: George Clayton Johnson on the movie, and on the "Kick the Can" segment and the Writers Guild dispute
+    url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+    note: Two clips, 1:47 and 9:32.
+  - type: video
+    subtype: trailer
+    title: "Trailers From Hell commentary on the Twilight Zone: The Movie trailer"
+    url: https://trailersfromhell.com/twilight-zone-the-movie/
+    host: Trailers From Hell
+    rights: licensed
+  - type: document
+    subtype: catalog-entry
+    title: AFI Catalog of Feature Films entry
+    url: https://catalog.afi.com/Film/67338-TWILIGHT-ZONETHEMOVIE
+    host: American Film Institute
+    rights: licensed
+    note: Production history, credits and release details compiled by the AFI.
+series/1985:
+  - <<: *gcj
+    title: George Clayton Johnson on the 1980s remake of the series
+    url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+    duration: '3:04'
+    note: The 1988 season remade his "A Game of Pool" with his original ending.
+series/2019:
+  - type: video
+    subtype: trailer
+    title: First full trailer, CBS All Access (via CBS News)
+    url: https://www.cbsnews.com/news/twilight-zone-trailer-reboot-jordan-peele-cbs-all-access-premieres-2019-04-01/
+    host: CBS News
+    date: '2019-02-21'
+    rights: licensed
