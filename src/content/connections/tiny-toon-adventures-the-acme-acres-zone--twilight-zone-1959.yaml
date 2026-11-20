@@ -6,5 +6,11 @@ summary: A whole episode built on the tone and framing of the anthology.
 sources:
 - title: 'Twilight Zone Wiki: Television series with references to The Twilight Zone'
   url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
-last_verified: '2026-11-19'
+- title: 'Tiny Toon Adventures 1x14: The Acme Acres Zone (TVmaze)'
+  url: https://www.tvmaze.com/episodes/290884/tiny-toon-adventures-1x14-the-acme-acres-zone
+last_verified: '2026-11-20'
 locked: true
+evidence: 'Checked 2026-11-20: Episode guides (TVmaze) confirm the episode ''The Acme Acres Zone'' (S1E14, 1990)
+  exists, but I found no reliable published source discussing it as a Twilight Zone spoof. The title makes the spoof obvious,
+  so the kind should probably be ''parody''. A sequel episode, ''The Return to the Acme Acres Zone'' (S1E52), also
+  exists.'

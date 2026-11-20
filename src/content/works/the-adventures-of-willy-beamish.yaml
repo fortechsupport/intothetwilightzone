@@ -1,0 +1,16 @@
+title: The Adventures of Willy Beamish
+kind: game
+subtype: video-game
+year: '1991'
+creator: Dynamix
+description: The point-and-click adventure uses a Twilight Zone-style tunnel as the route to one of its joke game-over
+  screens.
+categories:
+- homages/references
+relevance: tangential
+sources:
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+research_confidence: low
+last_verified: '2026-11-20'
+locked: true

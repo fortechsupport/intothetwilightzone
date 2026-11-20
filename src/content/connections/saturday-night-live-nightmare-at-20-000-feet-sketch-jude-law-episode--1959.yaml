@@ -1,0 +1,15 @@
+from: films/saturday-night-live-nightmare-at-20-000-feet-sketch-jude-law-episode
+to: series/1959
+kind: parody
+confidence: documented
+evidence: Jude Law takes the panicked-passenger role while Bobby Moynihan plays the gremlin on the wing in a sketch
+  built on the Shatner episode.
+sources:
+- title: One SNL a Day – March 13, 2010 Jude Law / Pearl Jam
+  url: https://onesnladay.com/2020/09/26/march-13-2010-jude-law-pearl-jam-s35-e17
+- title: 'A.V. Club – Saturday Night Live: Jude Law / Pearl Jam'
+  url: https://www.avclub.com/saturday-night-live-jude-law-pearl-jam-1798164519
+- title: 'TV Tropes – Referenced By: Nightmare at 20,000 Feet'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959S5E3NightmareAt20000Feet
+last_verified: '2026-11-20'
+locked: true

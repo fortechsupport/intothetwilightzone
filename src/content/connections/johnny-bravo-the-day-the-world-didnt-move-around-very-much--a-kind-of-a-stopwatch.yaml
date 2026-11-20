@@ -2,10 +2,11 @@ from: films/johnny-bravo-the-day-the-world-didnt-move-around-very-much
 to: 1959/a-kind-of-a-stopwatch
 kind: homage
 confidence: fan-noted
-evidence: The Twilight Zone Wiki calls this Johnny Bravo cartoon a loose parody of the time-stopping watch episode;
-  no second source was found.
+evidence: 'The Twilight Zone Wiki calls this Johnny Bravo cartoon a loose parody of the time-stopping watch episode;
+  no second source was found. Checked 2026-11-20: Only the fan-run Twilight Zone Wiki calls it a loose parody of
+  A Kind of a Stopwatch. If accurate, the kind is ''parody'' rather than ''homage''.'
 sources:
 - title: Television series with references to The Twilight Zone (Twilight Zone Wiki)
   url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
-last_verified: '2026-11-19'
+last_verified: '2026-11-20'
 locked: true

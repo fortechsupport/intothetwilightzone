@@ -1,0 +1,11 @@
+from: films/animaniacs-gimme-a-break-slappy-squirrel-short
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: Slappy sits beside a William Shatner caricature who frets about something on the plane before she bails
+  out with a Star Trek quip.
+sources:
+- title: 'TV Tropes – Referenced By: Nightmare at 20,000 Feet'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959S5E3NightmareAt20000Feet
+last_verified: '2026-11-20'
+locked: true

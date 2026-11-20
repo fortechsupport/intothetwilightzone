@@ -1,0 +1,17 @@
+title: The Lasagna Zone
+kind: tv-segment
+parent_series: Garfield and Friends, S2
+release_date: '1989'
+writers:
+- Mark Evanier
+summary: Garfield is sucked into his TV and bounced through a string of channel parodies, framed by the episode's
+  take on The Twilight Zone name and mood.
+relevance: tangential
+sources:
+- title: TheTVDB – Garfield and Friends episode
+  url: https://thetvdb.com/series/garfield-and-friends/episodes/9871823
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+research_confidence: low
+last_verified: '2026-11-20'
+locked: true

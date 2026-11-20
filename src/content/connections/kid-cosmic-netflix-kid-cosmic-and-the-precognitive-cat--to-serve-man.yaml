@@ -1,0 +1,10 @@
+from: films/kid-cosmic-netflix-kid-cosmic-and-the-precognitive-cat
+to: 1959/to-serve-man
+kind: reference
+confidence: fan-noted
+summary: Jo jokes that a mysterious alien scroll might be a cookbook, echoing The Twilight Zone punchline.
+sources:
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
+locked: true

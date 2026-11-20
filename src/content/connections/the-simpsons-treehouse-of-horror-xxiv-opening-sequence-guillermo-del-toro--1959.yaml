@@ -1,0 +1,11 @@
+from: films/the-simpsons-treehouse-of-horror-xxiv-opening-sequence-guillermo-del-toro
+to: series/1959
+kind: homage
+confidence: documented
+evidence: Del Toro's dense horror-homage couch gag includes a cameo of Rod Serling, cigarette in hand, among dozens
+  of genre icons.
+sources:
+- title: Wikisimpsons – Twilight Zone
+  url: https://simpsonswiki.com/wiki/Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

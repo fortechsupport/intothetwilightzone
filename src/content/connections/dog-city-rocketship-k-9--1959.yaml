@@ -1,0 +1,11 @@
+from: films/dog-city-rocketship-k-9
+to: series/1959
+kind: homage
+confidence: fan-noted
+summary: The episode closes with animator Eliot Shag giving a Serling-like epilogue about Ace Hart's discovery in
+  'The Hydrant Zone'.
+sources:
+- title: Muppet Wiki – The Twilight Zone
+  url: https://muppet.fandom.com/wiki/The_Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

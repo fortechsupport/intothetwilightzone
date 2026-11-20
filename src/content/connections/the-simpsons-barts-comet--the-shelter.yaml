@@ -1,0 +1,11 @@
+from: films/the-simpsons-barts-comet
+to: 1959/the-shelter
+kind: reference
+confidence: fan-noted
+summary: As a comet heads for Springfield, the townspeople mob Ned Flanders' fallout shelter demanding to be let
+  in, mirroring the neighbours who turn on the one family with a bomb shelter.
+sources:
+- title: Wikisimpsons – Twilight Zone
+  url: https://simpsonswiki.com/wiki/Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

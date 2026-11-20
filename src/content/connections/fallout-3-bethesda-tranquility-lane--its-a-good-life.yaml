@@ -1,0 +1,13 @@
+from: works/fallout-3-bethesda-tranquility-lane
+to: 1959/its-a-good-life
+kind: inspired-by
+confidence: documented
+evidence: A black-and-white 1950s suburb inside a virtual-reality pod where a godlike overseer in the form of a
+  child torments trapped residents, widely noted as modeled on 'It's a Good Life'.
+sources:
+- title: PC Gamer – Why I love Fallout 3's Tranquility Lane
+  url: https://pcgamer.com/why-i-love-fallout-3s-tranquility-lane
+- title: VGFacts – Fallout 3 trivia
+  url: https://www.vgfacts.com/game/fallout3/trivia-9192
+last_verified: '2026-11-20'
+locked: true

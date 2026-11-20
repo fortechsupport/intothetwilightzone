@@ -1,0 +1,10 @@
+from: films/the-simpsons-disney-short-yellow-mirror
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Bart's direct-to-viewer opening narration in this Disney+ short riffs on Serling's hosted introductions.
+sources:
+- title: Wikisimpsons – Twilight Zone
+  url: https://simpsonswiki.com/wiki/Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

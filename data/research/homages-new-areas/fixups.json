@@ -1,0 +1,45 @@
+{
+ "skip_verify": [],
+ "skip_new": [
+  "Twilight Zone (Iron Maiden song)",
+  "The Twilight Zone (Rush song)",
+  "Time Enough at Last (The Fall song)",
+  "Nightmare at 20,000 Feet (Pop Will Eat Itself song)"
+ ],
+ "skip_area": [],
+ "verify": {
+  "the-truman-show-a-world-of-difference.yaml": {
+   "suggested_episode": "Special Service"
+  }
+ },
+ "new": {
+  "Pluribus": {
+   "medium": "tv-series",
+   "parent_series": "",
+   "title": "Pluribus"
+  },
+  "Special Comment, September 11, 2006": {
+   "medium": "tv-episode"
+  },
+  "The Safety Zone": {
+   "medium": "short"
+  },
+  "Yellow Mirror": {
+   "medium": "short"
+  }
+ },
+ "area": {
+  "Merriam-Webster entry: 'twilight zone'": {
+   "sources": [
+    {
+     "title": "Merriam-Webster - twilight zone",
+     "url": "https://www.merriam-webster.com/dictionary/twilight%20zone"
+    },
+    {
+     "title": "Merriam-Webster - How to Use twilight zone in a Sentence",
+     "url": "https://www.merriam-webster.com/sentences/twilight%20zone"
+    }
+   ]
+  }
+ }
+}

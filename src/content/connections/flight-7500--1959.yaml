@@ -1,0 +1,11 @@
+from: films/flight-7500
+to: series/1959
+kind: reference
+confidence: documented
+evidence: In this airborne ghost story, a passenger watches the Shatner episode as in-flight entertainment, mirroring
+  the doomed flight's own situation.
+sources:
+- title: Wikipedia – Nightmare at 20,000 Feet
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+last_verified: '2026-11-20'
+locked: true

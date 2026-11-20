@@ -1,0 +1,11 @@
+from: films/futurama-a-clockwork-origin
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Robots evolve from nanobots into a civilization that outgrows the crew, a premise the Infosphere links
+  back to the miniature-civilization idea of 'The Little People'.
+sources:
+- title: The Infosphere – The Twilight Zone
+  url: https://theinfosphere.org/The_Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

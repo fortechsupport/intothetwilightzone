@@ -1,0 +1,10 @@
+from: films/gilmore-girls-it-shouldve-been-lorelai
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Lorelai describes an unsettling morning as having a Twilight Zone feel.
+sources:
+- title: Twilight Zone Wiki – Television series with references to The Twilight Zone
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

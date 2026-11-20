@@ -2,11 +2,15 @@ from: songs/el-p-how-to-serve-man-the-meanest-things-id-never-say
 to: 1959/to-serve-man
 kind: reference
 confidence: fan-noted
-evidence: The song title twists the episode's infamous cookbook title, in keeping with El-P's habit of mining science-fiction
-  for imagery.
+evidence: 'The song title twists the episode''s infamous cookbook title, in keeping with El-P''s habit of mining
+  science-fiction for imagery. Checked 2026-11-20: WhoSampled and Wikipedia''s album page confirm the track title
+  on El-P''s I''ll Sleep When You''re Dead (2007). No source was found where El-P ties it to the episode. The title
+  pun is self-evident. Note that the cited WhoSampled page is about a Devo sample, not a Twilight Zone one. The existing Wikipedia
+  URL uses the en.wikipedia.com domain; fix to en.wikipedia.org.'
 sources:
 - title: whosampled.com
   url: https://www.whosampled.com/sample/91459/El-P-How-to-Serve-Man-(The-Meanest-Things-I'd-Never-Say)-Devo-Gut-Feeling(Slap-Your-Mammy)/
 - title: en.wikipedia.com
   url: https://en.wikipedia.com/wiki/I%27ll_Sleep_When_You%27re_Dead
-last_verified: '2026-11-19'
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,12 @@
+from: films/the-truman-show
+to: 1985/special-service
+kind: inspired-by
+confidence: fan-noted
+evidence: Wikipedia's article on the 1989 revival episode 'Special Service', in which a man finds he is the star
+  of a live TV show, says critics noticed its similarity to The Truman Show, citing Don Steinberg in The Wall Street
+  Journal (Sept 23, 2011).
+sources:
+- title: Special Service (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Special_Service
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,11 @@
+from: films/extreme-ghostbusters-grease
+to: series/1959
+kind: reference
+confidence: documented
+evidence: Characters twice invoke 'that Twilight Zone episode with Captain Kirk', the second time aboard a plane
+  with a gremlin-like menace.
+sources:
+- title: Wikipedia – Nightmare at 20,000 Feet
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+last_verified: '2026-11-20'
+locked: true

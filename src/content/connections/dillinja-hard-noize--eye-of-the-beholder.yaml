@@ -2,8 +2,12 @@ from: songs/dillinja-hard-noize
 to: 1959/eye-of-the-beholder
 kind: reference
 confidence: fan-noted
-evidence: The jungle producer samples the opening of the bandaged-face episode.
+evidence: 'The jungle producer samples the opening of the bandaged-face episode. Checked 2026-11-20: WhoSampled,
+  a user-contributed sample database, lists Dillinja''s Hard Noize as sampling the Eye of the Beholder intro. No
+  press source was found. The work itself is the primary evidence and WhoSampled is usually reliable for samples.
+  ''sample'' may deserve its own kind. Year missing.'
 sources:
 - title: whosampled.com
   url: https://www.whosampled.com/sample/687707/Dillinja-Hard-Noize-The-Twilight-Zone-Eye-of-the-Beholder-Intro/
-last_verified: '2026-11-19'
+last_verified: '2026-11-20'
+locked: true

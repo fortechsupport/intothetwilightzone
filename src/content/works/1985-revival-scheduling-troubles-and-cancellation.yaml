@@ -1,0 +1,24 @@
+title: '1985 revival: scheduling troubles and cancellation'
+kind: production
+subtype: time slot
+year: '1985-09-27'
+creator: CBS; Philip DeGuere; Harlan Ellison
+description: The CBS revival opened on Friday nights and won its slot in most of its first weeks. Executive producer
+  Philip DeGuere later said the episodes had been written for 10 p.m. but aired at 8 p.m. in the family hour. In
+  the second season it moved to Saturdays and to half-hour episodes, and CBS cancelled it in 1987. CBS censors also
+  halted Harlan Ellison's 'Nackles' segment mid-production.
+details:
+  why_it_matters: It records how the first revival was broadcast and why it ended.
+  relates_to:
+  - series 1985
+  - Nightcrawlers
+  - Nackles
+categories:
+- events/broadcasts-marathons
+relevance: core
+sources:
+- title: Wikipedia - The Twilight Zone (1985 TV series)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
+research_confidence: high
+last_verified: '2026-11-20'
+locked: true

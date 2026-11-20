@@ -1,0 +1,15 @@
+title: HTTPete
+kind: tv-episode
+parent_series: Family Guy, S16E18
+release_date: '2018'
+summary: After the Griffins and fellow diners are too absorbed in their phones to notice chaos around them, a Rod
+  Serling figure delivers a mock closing narration.
+relevance: tangential
+sources:
+- title: Family Guy Wiki – Rod Serling
+  url: https://familyguy.fandom.com/wiki/Rod_Serling
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+research_confidence: low
+last_verified: '2026-11-20'
+locked: true

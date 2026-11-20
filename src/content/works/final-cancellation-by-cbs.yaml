@@ -1,0 +1,23 @@
+title: Final cancellation by CBS
+kind: production
+subtype: cancellation
+year: '1964-01'
+creator: CBS; James Aubrey; Rod Serling; William Froug
+description: In late January 1964 CBS announced it would not renew the series. Producer William Froug said network
+  president James Aubrey blamed high costs and weak ratings. Serling joked that he had 'decided to cancel the network'.
+  The last first-run episode aired on June 19, 1964.
+details:
+  why_it_matters: This is when the original series ended.
+  relates_to:
+  - season 5
+categories:
+- events/production-history
+relevance: core
+sources:
+- title: Wikipedia - The Twilight Zone (1959 TV series)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+- title: MeTV - Rod Serling said he didn't blame CBS for cancelling The Twilight Zone
+  url: https://metv.com/stories/rod-serling-said-he-didnt-blame-cbs-for-cancelling-the-twilight-zone-in-1964
+research_confidence: high
+last_verified: '2026-11-20'
+locked: true

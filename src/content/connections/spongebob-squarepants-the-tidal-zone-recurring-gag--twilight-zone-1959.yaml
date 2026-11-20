@@ -1,10 +1,17 @@
 from: films/spongebob-squarepants-the-tidal-zone-recurring-gag
 to: series/1959
 kind: parody
-confidence: fan-noted
+confidence: documented
 summary: An undersea parody of the show called 'The Tidal Zone' appears in several episodes.
 sources:
 - title: 'Twilight Zone Wiki: Television series with references to The Twilight Zone'
   url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
-last_verified: '2026-11-19'
+- title: '''SpongeBob SquarePants'' Reveals First Look at ''Twilight Zone'' Spoof Special (TV Insider)'
+  url: https://www.tvinsider.com/1053042/tidal-zone-spongebob-squarepants-twilight-zone-spoof-video
+- title: SpongeBob SquarePants Presents The Tidal Zone (Wikipedia)
+  url: https://en.wikipedia.org/wiki/SpongeBob_SquarePants_Presents_The_Tidal_Zone
+last_verified: '2026-11-20'
 locked: true
+evidence: TV Insider describes The Tidal Zone as a one-hour crossover special of four vignettes with characters
+  from SpongeBob and its spinoffs, opening with a spoof of Serling's introduction. Wikipedia has a page for the
+  special.

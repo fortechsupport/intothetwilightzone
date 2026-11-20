@@ -2,8 +2,12 @@ from: songs/neroche-time-enough-at-last
 to: 1959/time-enough-at-last
 kind: reference
 confidence: fan-noted
-evidence: Named after the Burgess Meredith episode, the track also samples audio from it.
+evidence: 'Named after the Burgess Meredith episode, the track also samples audio from it. Checked 2026-11-20: Only
+  WhoSampled, a crowd-sourced database, documents the title and the sample; no press coverage found. The from_title
+  and year are missing from the input. The connection is very likely real, since the title is identical and a sample
+  is listed.'
 sources:
 - title: whosampled.com
   url: https://www.whosampled.com/sample/764908/Neroche-Time-Enough-at-Last-The-Twilight-Zone-Time-Enough-at-Last/
-last_verified: '2026-11-19'
+last_verified: '2026-11-20'
+locked: true

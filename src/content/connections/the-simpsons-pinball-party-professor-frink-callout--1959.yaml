@@ -1,0 +1,11 @@
+from: works/the-simpsons-pinball-party-professor-frink-callout
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Pat Lawlor's Simpsons table has Frink echo the 'Lost in the Zone' callout from Lawlor's own Twilight Zone
+  pinball machine.
+sources:
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
+locked: true

@@ -3,9 +3,11 @@ to: 1959/the-whole-truth
 kind: inspired-by
 confidence: fan-noted
 summary: Liar Liar is listed in Adam's research as inspired by "The Whole Truth".
-evidence: No source found; both are comedies about a professional liar suddenly unable to lie.
+evidence: 'No source found; both are comedies about a professional liar suddenly unable to lie. Checked 2026-11-20:
+  No source was found; the shared premise is a liar who cannot lie. In The Whole Truth it is a used-car dealer (a
+  haunted car); in Liar Liar it is a lawyer (a child''s birthday wish). Premise overlap only.'
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-last_verified: '2026-11-19'
+last_verified: '2026-11-20'
 locked: true

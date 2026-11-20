@@ -1,0 +1,11 @@
+from: films/the-simpsons-marge-on-the-lam
+to: 1959/person-or-persons-unknown
+kind: reference
+confidence: fan-noted
+summary: Lionel Hutz's denial that the place he is in is the YMCA echoes the identity-erasure gag from The Twilight Zone episode
+  in which a man wakes to find no one knows him.
+sources:
+- title: Wikisimpsons – Twilight Zone
+  url: https://simpsonswiki.com/wiki/Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,10 @@
+from: works/the-nib-the-gaslight-zone
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: A political cartoon for The Nib built on a 'Gaslight Zone' spoof of the show's title and format.
+sources:
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
+locked: true

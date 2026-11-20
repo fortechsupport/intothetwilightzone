@@ -1,0 +1,11 @@
+from: films/futurama-lrrreconcilable-ndndifferences
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: Contains the Scary Door segment 'The Aliens Are Among Us', in which a senator denies aliens exist and then
+  unmasks one, a classic Twilight Zone-style reveal.
+sources:
+- title: The Infosphere – The Scary Door
+  url: https://theinfosphere.org/TSD
+last_verified: '2026-11-20'
+locked: true
