@@ -1,0 +1,28 @@
+name: Robert Florey
+roles:
+- director
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Perchance to Dream
+  role: director
+  ref: 1959/perchance-to-dream
+- series: The Twilight Zone (1959)
+  work: The Fever
+  role: director
+  ref: 1959/the-fever
+- series: The Twilight Zone (1959)
+  work: The Long Morrow
+  role: director
+  ref: 1959/the-long-morrow
+born: '1900-09-14'
+died: '1979-05-16'
+bio: >-
+  French-born Robert Florey, a Hollywood director since the silent era, directed three original-series
+  episodes: Perchance to Dream, The Fever and The Long Morrow. His earlier career included co-directing
+  the Marx Brothers' first film, The Cocoanuts (1929), and Universal's Murders in the Rue Morgue (1932).
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Robert_Florey
+sources:
+- title: Robert Florey - Wikipedia
+  url: https://en.wikipedia.org/wiki/Robert_Florey
+last_verified: '2026-11-19'

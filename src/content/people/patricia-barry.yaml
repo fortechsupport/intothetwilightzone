@@ -1,0 +1,27 @@
+name: Patricia Barry
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: The Chaser
+  role: Leila
+  ref: 1959/the-chaser
+- series: The Twilight Zone (1959)
+  work: I Dream of Genie
+  role: Ann
+  ref: 1959/i-dream-of-genie
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: Mother (It's a Good Life)
+  ref: films/twilight-zone-the-movie
+born: '1922-11-16'
+died: '2016-10-11'
+bio: >-
+  Patricia Barry was a prolific television actress of the 1950s through the 1990s, with long runs on soaps
+  including Days of Our Lives and Guiding Light. She appeared in two original episodes, as a desirable
+  office worker in "I Dream of Genie" and the indifferent object of a love potion in "The Chaser", and
+  was one of several original-series veterans cast in Twilight Zone: The Movie.
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+last_verified: '2026-11-19'

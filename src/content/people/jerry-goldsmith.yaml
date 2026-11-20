@@ -1,0 +1,44 @@
+name: Jerry Goldsmith
+roles:
+- composer
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: The Four of Us Are Dying
+  role: composer
+  ref: 1959/the-four-of-us-are-dying
+- series: The Twilight Zone (1959)
+  work: Back There
+  role: composer
+  ref: 1959/back-there
+- series: The Twilight Zone (1959)
+  work: Dust
+  role: composer
+  ref: 1959/dust
+- series: The Twilight Zone (1959)
+  work: The Invaders
+  role: composer
+  ref: 1959/the-invaders
+- series: 'Twilight Zone: The Movie (1983)'
+  work: Film score
+  role: composer
+  ref: films/twilight-zone-the-movie
+born: '1929-02-10'
+died: '2004-07-21'
+bio: >-
+  Jerry Goldsmith was a young CBS staff composer when he wrote original scores for several original-series
+  episodes, including The Four of Us Are Dying, Back There, Dust and the nearly wordless The Invaders,
+  and his cues were reused across many more. Two decades later he returned to the franchise to score Twilight
+  Zone: The Movie, giving each of its four segments its own musical identity. In between he became one
+  of Hollywood's most celebrated composers, winning the Oscar for The Omen and scoring Planet of the Apes,
+  Chinatown, Alien and five Star Trek films.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Jerry_Goldsmith
+sources:
+- title: Jerry Goldsmith - Wikipedia
+  url: https://en.wikipedia.org/wiki/Jerry_Goldsmith
+- title: Twilight Zone Composers Strike A Spooky Note - Long Island Weekly
+  url: https://longislandweekly.com/twilight-zone-composers-a-spooky-note/
+- title: 'The Goldsmith Odyssey: The Twilight Zone, Back There (1961)'
+  url: >-
+    https://goldsmithodyssey.buzzsprout.com/159614/1305991-episode-20-the-twilight-zone-back-there-1961
+last_verified: '2026-11-19'

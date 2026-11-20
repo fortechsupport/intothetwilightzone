@@ -1,0 +1,19 @@
+name: Albert Brooks
+roles:
+- actor
+- writer
+- director
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: The Driver (Prologue)
+  ref: films/twilight-zone-the-movie
+born: '1947-07-22'
+bio: >-
+  Albert Brooks is a comedian, writer-director and actor known for Lost in America, Defending Your Life
+  and an Oscar-nominated turn in Broadcast News, as well as voicing Marlin in Finding Nemo. He plays the
+  nervous driver in the film's prologue, singing TV theme songs on a dark highway with Dan Aykroyd.
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+last_verified: '2026-11-19'

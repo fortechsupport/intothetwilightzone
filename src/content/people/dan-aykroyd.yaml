@@ -1,0 +1,18 @@
+name: Dan Aykroyd
+roles:
+- actor
+- writer
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: The Passenger (Prologue / Epilogue)
+  ref: films/twilight-zone-the-movie
+born: '1952-07-01'
+bio: >-
+  Dan Aykroyd was an original Saturday Night Live cast member who co-created The Blues Brothers and co-wrote
+  and starred in Ghostbusters. He opens and closes Twilight Zone: The Movie as the passenger who asks
+  the driver, 'Do you want to see something really scary?'
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+last_verified: '2026-11-19'

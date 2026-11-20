@@ -1,0 +1,23 @@
+name: Courthouse Square, Universal Studios
+kind: backlot-set
+address: Universal Studios Hollywood backlot
+city: Universal City
+region: California
+country: US
+status: extant
+opened: '1948'
+filmed:
+- ref: 1959/where-is-everybody
+  note: Empty town of Oakwood.
+notes: >-
+  Built in 1948 for the film An Act of Murder, this generic town square on the Universal backlot was rented
+  for the pilot, "Where Is Everybody?," in which Mike Ferris wanders an eerily empty town. The same square
+  later played Hill Valley in Back to the Future and appears on the Universal Studio Tour. The pilot was
+  the only original-series episode made at Universal; the rest of the run was filmed at MGM.
+sources:
+- title: Why The Set Of The Twilight Zone's First Episode Looks So Familiar - SlashFilm
+  url: https://slashfilm.com/1365732/set-first-twilight-zone-episode-looks-familiar
+- title: The Twilight Zone Episode Where Is Everybody Hit A Few Bumps Behind The Scenes - SlashFilm
+  url: >-
+    https://slashfilm.com/1389509/the-twilight-zone-where-is-everybody-behind-the-scenes-challenges
+last_verified: '2026-11-19'

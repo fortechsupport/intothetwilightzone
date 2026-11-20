@@ -1,0 +1,19 @@
+name: MGM Lot 2 park and bandstand
+kind: backlot-set
+city: Culver City
+region: California
+country: US
+lat: 34.0135
+lng: -118.393
+status: demolished
+filmed:
+- ref: 1959/walking-distance
+  note: Park and bandstand exteriors.
+notes: >-
+  The Homewood park where Martin Sloan finds his younger self riding the carousel was filmed on the park
+  set of MGM's Lot 2. The bandstand and carousel were afterwards taken apart and rebuilt on Stage 26 for
+  the close carousel shots.
+sources:
+- title: 'The Twilight Zone: Walking Distance (1959) - Martin Grams blog'
+  url: https://martingrams.blogspot.com/2024/07/the-twilight-zone-walking-distance-1959.html
+last_verified: '2026-11-19'

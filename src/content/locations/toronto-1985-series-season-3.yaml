@@ -1,0 +1,17 @@
+name: Toronto (1988-89 season)
+kind: filming-location
+city: Toronto
+region: Ontario
+country: CA
+lat: 43.6532
+lng: -79.3832
+status: extant
+notes: >-
+  A Cinema Canada production listing from 1988 reported that the new syndicated Twilight Zone episodes
+  were shooting on location in Toronto, from Atlantis Films working with London Films and CBS Broadcast
+  International. This gives a city for the Canadian third season, though the listing does not name particular
+  studios or streets.
+sources:
+- title: Cinema Canada production listings (1988) - Athabasca University archive
+  url: https://cinemacanada.athabascau.ca/index.php/cinema/article/download/4196/4231.pdf
+last_verified: '2026-11-19'

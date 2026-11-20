@@ -1,0 +1,30 @@
+name: Jerome Bixby
+roles:
+- writer (source author)
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: It's a Good Life
+  role: original story
+  ref: 1959/its-a-good-life
+- series: 'Twilight Zone: The Movie (1983)'
+  work: It's a Good Life segment
+  role: original story
+  ref: films/twilight-zone-the-movie
+- series: The Twilight Zone (2002)
+  work: It's Still a Good Life
+  role: characters
+  ref: 2002/its-still-a-good-life
+born: '1923-01-11'
+died: '1998-04-28'
+bio: >-
+  Jerome Bixby wrote It's a Good Life (1953), the short story about a small boy with godlike powers that
+  Rod Serling adapted into one of the original series' most famous episodes. The story was remade as a
+  segment of Twilight Zone: The Movie, and the 2002 revival returned to his characters in the sequel It's
+  Still a Good Life. Bixby also wrote four Star Trek episodes including Mirror, Mirror, co-wrote the story
+  for Fantastic Voyage, and finished The Man from Earth on his deathbed.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Jerome_Bixby
+sources:
+- title: Jerome Bixby - Wikipedia
+  url: https://en.wikipedia.org/wiki/Jerome_Bixby
+last_verified: '2026-11-19'

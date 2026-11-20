@@ -1,0 +1,24 @@
+name: Joe Dante
+roles:
+- director
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: It's a Good Life segment
+  role: director
+  ref: films/twilight-zone-the-movie
+- series: The Twilight Zone (1985)
+  work: The Shadow Man
+  role: director
+  ref: 1985/the-shadow-man
+born: '1946-11-28'
+bio: >-
+  Joe Dante directed It's a Good Life, the third segment of Twilight Zone: The Movie, reimagining Jerome
+  Bixby's tale of an all-powerful boy as a cartoon-colored nightmare with Kathleen Quinlan as the stranger
+  drawn into his house. He returned to the franchise to direct The Shadow Man for the 1985 revival. A
+  lifelong genre enthusiast, he is best known for Piranha, The Howling, Gremlins and Matinee.
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+- title: Joe Dante - Wikipedia
+  url: https://en.wikipedia.org/wiki/Joe_Dante
+last_verified: '2026-11-19'

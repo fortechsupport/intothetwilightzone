@@ -1,0 +1,21 @@
+name: Downtown Vancouver ("Ovation")
+kind: filming-location
+city: Vancouver
+region: British Columbia
+country: CA
+lat: 49.282
+lng: -123.1171
+status: extant
+filmed:
+- ref: 2019/ovation
+  note: Downtown street locations.
+notes: >-
+  The second-season story of a busker who becomes a pop star after a mysterious coin is tossed into her
+  case was shot on the streets of downtown Vancouver, which stood in for an American city. No specific
+  venues are named in the source.
+sources:
+- title: >-
+    THE END: Jordan Peele's THE TWILIGHT ZONE Ends With Season 2 Which Wrapped Filming in Vancouver -
+    Hollywood North Buzz
+  url: https://hollywoodnorthbuzz.com/?p=116506
+last_verified: '2026-11-19'

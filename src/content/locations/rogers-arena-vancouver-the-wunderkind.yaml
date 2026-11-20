@@ -1,0 +1,23 @@
+name: Rogers Arena, Vancouver
+kind: filming-location
+address: 800 Griffiths Way, Vancouver, BC
+city: Vancouver
+region: British Columbia
+country: CA
+lat: 49.2778
+lng: -123.1089
+status: open
+filmed:
+- ref: 2019/the-wunderkind
+  note: Set featuring a Hollywood sign built at the arena.
+notes: >-
+  The home arena of the Vancouver Canucks hosted a set built for "The Wunderkind," the first-season satire
+  about a child elected president. A set dressed with a replica Hollywood sign was photographed at the
+  arena during production.
+sources:
+- title: >-
+    Hollywood North Buzz - Jordan Peele's The Twilight Zone season 1 Vancouver filming locations
+  url: https://hollywoodnorthbuzz.com/?p=90571
+- title: Hollywood North Buzz - The Twilight Zone on location in Vancouver
+  url: https://hollywoodnorthbuzz.com/?p=88453
+last_verified: '2026-11-19'

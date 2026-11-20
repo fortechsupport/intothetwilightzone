@@ -1,0 +1,47 @@
+name: Rockne S. O'Bannon
+roles:
+- writer
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: 8 segments
+  role: writer
+- series: The Twilight Zone (1985)
+  work: Wordplay
+  role: writer
+  ref: 1985/wordplay
+- series: The Twilight Zone (1985)
+  work: The Shadow Man
+  role: writer
+  ref: 1985/the-shadow-man
+- series: The Twilight Zone (1985)
+  work: Night of the Meek
+  role: writer
+  ref: 1985/night-of-the-meek
+- series: The Twilight Zone (1985)
+  work: A Matter of Minutes
+  role: writer
+  ref: 1985/a-matter-of-minutes
+- series: The Twilight Zone (1985)
+  work: Personal Demons
+  role: writer
+  ref: 1985/personal-demons
+- series: The Twilight Zone (1985)
+  work: The After Hours
+  role: writer
+  ref: 1985/the-after-hours
+- series: The Twilight Zone (1985)
+  work: The Storyteller
+  role: writer
+  ref: 1985/the-storyteller
+born: '1955'
+bio: >-
+  Rockne S. O'Bannon made his first professional sale to the 1985 revival with Wordplay, a story of a
+  man whose language suddenly stops making sense, and went on to write segments including The Shadow Man,
+  Personal Demons and remakes of Night of the Meek and The After Hours. He later created or co-created
+  Alien Nation on TV, seaQuest DSV and Farscape.
+sources:
+- title: The Twilight Zone (1985 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
+- title: Rockne S. O'Bannon - Wikipedia
+  url: https://en.wikipedia.org/wiki/Rockne_S._O%27Bannon
+last_verified: '2026-11-19'

@@ -1,0 +1,25 @@
+name: Kevin McCarthy
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Long Live Walter Jameson
+  role: Professor Walter Jameson
+  ref: 1959/long-live-walter-jameson
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: Uncle Walt (Segment 3)
+  ref: films/twilight-zone-the-movie
+born: '1914-02-15'
+died: '2010-09-11'
+bio: >-
+  Kevin McCarthy was an Oscar-nominated actor best remembered as the hero of Invasion of the Body Snatchers
+  (1956). He played an ageless history professor hiding his immortality in "Long Live Walter Jameson",
+  and later returned to the franchise as the sinister Uncle Walt in Joe Dante's segment of Twilight Zone:
+  The Movie.
+sources:
+- title: Long Live Walter Jameson - TVmaze
+  url: https://www.tvmaze.com/episodes/69488/the-twilight-zone-1x24-long-live-walter-jameson
+- title: Long Live Walter Jameson - Wikipedia
+  url: https://en.wikipedia.org/wiki/Long_Live_Walter_Jameson
+last_verified: '2026-11-19'

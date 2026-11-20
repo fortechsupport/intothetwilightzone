@@ -1,0 +1,25 @@
+name: William Shatner
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Nick of Time
+  role: Don Carter
+  ref: 1959/nick-of-time
+- series: The Twilight Zone (1959)
+  work: Nightmare at 20,000 Feet
+  role: Bob Wilson
+  ref: 1959/nightmare-at-20-000-feet
+born: '1931-03-22'
+bio: >-
+  William Shatner is the Canadian actor forever linked to Captain James T. Kirk of Star Trek, who later
+  won an Emmy as Denny Crane on Boston Legal and in 2021 became the oldest person to fly to space. His
+  two Twilight Zone leads bookend his rise: a superstitious newlywed hooked on a fortune-telling machine
+  in "Nick of Time" and the panicked airline passenger who sees a gremlin on the wing in "Nightmare at
+  20,000 Feet".
+links:
+  wikipedia: https://en.wikipedia.org/wiki/William_Shatner
+sources:
+- title: William Shatner - Wikipedia
+  url: https://en.wikipedia.org/wiki/William_Shatner
+last_verified: '2026-11-19'

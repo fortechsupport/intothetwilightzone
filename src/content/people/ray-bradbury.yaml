@@ -1,0 +1,30 @@
+name: Ray Bradbury
+roles:
+- writer
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: I Sing the Body Electric
+  role: writer
+  ref: 1959/i-sing-the-body-electric
+- series: The Twilight Zone (1985)
+  work: The Burning Man
+  role: original story
+  ref: 1985/the-burning-man
+- series: The Twilight Zone (1985)
+  work: The Elevator
+  role: writer
+  ref: 1985/the-elevator
+born: '1920-08-22'
+died: '2012-06-05'
+bio: >-
+  Ray Bradbury's only produced script for the original Twilight Zone was I Sing the Body Electric (1962),
+  the series' 100th episode, about a family who acquire a robot grandmother. His stories were adapted
+  again by the 1985 revival in The Burning Man and The Elevator. The author of Fahrenheit 451 and The
+  Martian Chronicles, he also hosted his own anthology series, The Ray Bradbury Theater, from 1985 to
+  1992.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Ray_Bradbury
+sources:
+- title: Ray Bradbury - Wikipedia
+  url: https://en.wikipedia.org/wiki/Ray_Bradbury
+last_verified: '2026-11-19'

@@ -1,0 +1,52 @@
+name: John Brahm
+roles:
+- director
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: 12 episodes
+  role: director
+- series: The Twilight Zone (1959)
+  work: Time Enough at Last
+  role: director
+  ref: 1959/time-enough-at-last
+- series: The Twilight Zone (1959)
+  work: Judgment Night
+  role: director
+  ref: 1959/judgment-night
+- series: The Twilight Zone (1959)
+  work: The Four of Us Are Dying
+  role: director
+  ref: 1959/the-four-of-us-are-dying
+- series: The Twilight Zone (1959)
+  work: Mirror Image
+  role: director
+  ref: 1959/mirror-image
+- series: The Twilight Zone (1959)
+  work: A Nice Place to Visit
+  role: director
+  ref: 1959/a-nice-place-to-visit
+- series: The Twilight Zone (1959)
+  work: Shadow Play
+  role: director
+  ref: 1959/shadow-play
+- series: The Twilight Zone (1959)
+  work: Person or Persons Unknown
+  role: director
+  ref: 1959/person-or-persons-unknown
+- series: The Twilight Zone (1959)
+  work: The New Exhibit
+  role: director
+  ref: 1959/the-new-exhibit
+born: '1893-08-17'
+died: '1982-10-12'
+bio: >-
+  German émigré John Brahm directed twelve episodes of the original Twilight Zone, more than any other
+  director, bringing the moody atmosphere of his 1940s Fox thrillers The Lodger and Hangover Square to
+  television. His episodes include Time Enough at Last, Judgment Night, Mirror Image, Shadow Play and
+  The Four of Us Are Dying. He also directed many episodes of Alfred Hitchcock Presents and Thriller.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/John_Brahm
+sources:
+- title: John Brahm - Wikipedia
+  url: https://en.wikipedia.org/wiki/John_Brahm
+last_verified: '2026-11-19'
