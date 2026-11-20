@@ -1,0 +1,20 @@
+title: Night Gallery pilot film airs on NBC (1969)
+kind: event
+subtype: premiere
+year: 1969
+description: 'NBC aired the Night Gallery TV movie on November 8, 1969: three stories hosted by Serling, including
+  one directed by a young Steven Spielberg with Joan Crawford. The series followed in December 1970 as part of Four
+  in One.'
+details:
+  date: '1969-11-08'
+  network: NBC
+  film: films/night-gallery-pilot
+sources:
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+categories:
+- events/premieres
+research_confidence: high
+relevance: related
+last_verified: '2026-11-20'
+locked: true

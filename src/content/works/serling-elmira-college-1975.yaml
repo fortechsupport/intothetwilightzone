@@ -1,0 +1,31 @@
+title: '"A Glimpse into the Twilight Zone": Rod Serling at Elmira College (1975)'
+kind: lecture
+subtype: lecture
+year: 1975
+creator: Rod Serling
+description: 'Recorded on May 1, 1975, at Elmira College, New York, weeks before Serling''s death: a 72-minute lecture
+  on commercial broadcasting and American society, followed by an interview about his writing career. Pacifica Radio
+  Archives holds the reel (item SZ0066); it has not been digitised, but the archive sells transfer copies.'
+details:
+  date: '1975-05-01'
+  location: locations/elmira-college
+  length: 72 min
+  archive_id: Pacifica SZ0066
+sources:
+- title: 'Pacifica Radio Archives: A Glimpse into the Twilight Zone / Rod Serling (SZ0066)'
+  url: https://pacificaradioarchives.org/node/8692
+media:
+- type: audio
+  title: Pacifica Radio Archives catalogue entry SZ0066
+  url: https://pacificaradioarchives.org/node/8692
+  host: Pacifica Radio Archives
+  date: '1975-05-01'
+  duration: '72:00'
+  rights: link-only
+  note: Reel tape, not digitised; copies by request.
+categories:
+- lectures/serling-lectures
+research_confidence: high
+relevance: related
+last_verified: '2026-11-20'
+locked: true

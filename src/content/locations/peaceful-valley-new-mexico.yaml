@@ -1,0 +1,17 @@
+name: Peaceful Valley, New Mexico
+kind: in-story
+filmed:
+- ref: 1959/valley-of-the-shadow
+  note: The hidden town that guards alien technology.
+episodes:
+- 1959/valley-of-the-shadow
+notes: A quiet desert town that a reporter stumbles into after a wrong turn. Its people secretly hold technology
+  left by a visitor from another planet, and they cannot let him leave. One of the fourth-season hour-long episodes,
+  written by Charles Beaumont.
+sources:
+- title: 'Wikipedia: Valley of the Shadow (The Twilight Zone)'
+  url: https://en.wikipedia.org/wiki/Valley_of_the_Shadow_(The_Twilight_Zone)
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

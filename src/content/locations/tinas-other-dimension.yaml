@@ -1,0 +1,17 @@
+name: The fourth dimension behind the wall ("Little Girl Lost")
+kind: in-story
+filmed:
+- ref: 1959/little-girl-lost
+  note: The portal under a bedroom wall into which a child falls.
+episodes:
+- 1959/little-girl-lost
+notes: A distorted, sound-filled space behind the wall of a girl's bedroom, reached through an opening by her bed.
+  Her father reaches in to pull her back before the portal closes. Richard Matheson's script is often cited as an
+  influence on Poltergeist (1982).
+sources:
+- title: 'Wikipedia: Little Girl Lost (The Twilight Zone)'
+  url: https://en.wikipedia.org/wiki/Little_Girl_Lost_(The_Twilight_Zone)
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

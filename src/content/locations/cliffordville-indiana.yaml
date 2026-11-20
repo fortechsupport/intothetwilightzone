@@ -1,0 +1,17 @@
+name: Cliffordville, Indiana
+kind: in-story
+filmed:
+- ref: 1959/of-late-i-think-of-cliffordville
+  note: The hometown William Feathersmith buys his way back to, as it was in 1910.
+episodes:
+- 1959/of-late-i-think-of-cliffordville
+notes: A small Indiana town that a ruthless 75-year-old tycoon revisits as a young man, with his modern knowledge,
+  after a deal with a female devil. He finds that knowing the future is useless without the know-how to build it
+  and ends up a janitor in his own company.
+sources:
+- title: 'Wikipedia: Of Late I Think of Cliffordville'
+  url: https://en.wikipedia.org/wiki/Of_Late_I_Think_of_Cliffordville
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,18 @@
+name: Moorpark College
+kind: event-venue
+city: Moorpark
+region: California
+country: US
+status: open
+notes: Community college in Moorpark, Ventura County, California. Serling spent a day on campus on December 3, 1968,
+  refused to sign the state loyalty oath required of paid speakers and waived his fee, then spoke against the Vietnam
+  War and for civil rights. The campus magazine QUEST printed the speech the next day.
+sources:
+- title: Rod Serling Rips Loyalty Oaths, the Vietnam War, and Social Inequity (Rod Serling Memorial Foundation)
+  url: https://rodserling.com/rod-serling-rips-loyalty-oaths-the-vietnam-war-and-social-inequity/
+categories:
+- places/lecture-event-venues
+research_confidence: high
+relevance: related
+last_verified: '2026-11-20'
+locked: true

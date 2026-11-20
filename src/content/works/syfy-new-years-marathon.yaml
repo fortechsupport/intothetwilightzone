@@ -1,0 +1,20 @@
+title: Sci-Fi Channel / Syfy New Year's Twilight Zone marathon
+kind: event
+subtype: marathon
+year: 1995
+description: The cable network ran a Twilight Zone marathon over New Year's for more than two decades; it billed
+  the 2016-17 run as the 22nd annual. Schedules were published each year and fans have sometimes voted on the line-up.
+details:
+  network: Sci-Fi Channel, later Syfy
+  first_year: about 1995 (22nd annual in 2016)
+sources:
+- title: 'BroadwayWorld: Syfy continues New Year''s tradition with 22nd annual Twilight Zone marathon (2016)'
+  url: https://www.broadwayworld.com/bwwtv/article/SyFy-Continues-New-Years-Tradition-with-22nd-Annual-THE-TWILIGHT-ZONE-Marathon-20161221
+- title: 'Den of Geek: The Twilight Zone Marathon, a History of a Holiday Tradition (Arlen Schumer, 2018)'
+  url: https://www.denofgeek.com/tv/the-twilight-zone-marathon-a-history-of-a-holiday-tradition/
+categories:
+- events/broadcasts-marathons
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

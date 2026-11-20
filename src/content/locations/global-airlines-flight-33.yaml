@@ -1,0 +1,17 @@
+name: Global Airlines Flight 33
+kind: in-story
+filmed:
+- ref: 1959/the-odyssey-of-flight-33
+  note: The airliner lost in time over Manhattan.
+episodes:
+- 1959/the-odyssey-of-flight-33
+notes: A transatlantic jet that hits a freak tailwind and finds itself over a prehistoric Manhattan (a dinosaur
+  in the grass) and then over the New York of 1939, with the World's Fair below, as the crew tries to get back to
+  its own time.
+sources:
+- title: 'Wikipedia: The Odyssey of Flight 33'
+  url: https://en.wikipedia.org/wiki/The_Odyssey_of_Flight_33
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

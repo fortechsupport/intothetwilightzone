@@ -1,0 +1,17 @@
+name: S.S. Queen of Glasgow
+kind: in-story
+filmed:
+- ref: 1959/judgment-night
+  note: The British freighter sunk by a U-boat in 1942, over and over.
+episodes:
+- 1959/judgment-night
+notes: A British cargo ship crossing the Atlantic in 1942, on which a passenger who cannot remember how he came
+  aboard dreads the attack he senses is coming. He is the U-boat commander who sank her, condemned to relive the
+  sinking as a victim.
+sources:
+- title: 'Wikipedia: Judgment Night (The Twilight Zone)'
+  url: https://en.wikipedia.org/wiki/Judgment_Night_(The_Twilight_Zone)
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

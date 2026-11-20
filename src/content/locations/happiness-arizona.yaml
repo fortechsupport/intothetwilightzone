@@ -1,0 +1,17 @@
+name: Happiness, Arizona
+kind: in-story
+filmed:
+- ref: 1959/mr-garrity-and-the-graves
+  note: A recently renamed frontier town of about 1890 with a Boot Hill cemetery.
+episodes:
+- 1959/mr-garrity-and-the-graves
+notes: A western town where a travelling con man claims he can raise the dead from Boot Hill, then takes payment
+  from the townsfolk to leave their relatives buried. A comic fifth-season episode written by Serling from a Mike
+  Korologos story.
+sources:
+- title: 'Wikipedia: Mr. Garrity and the Graves'
+  url: https://en.wikipedia.org/wiki/Mr._Garrity_and_the_Graves
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

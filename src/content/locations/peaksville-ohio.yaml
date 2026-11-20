@@ -1,0 +1,25 @@
+name: Peaksville, Ohio
+kind: in-story
+filmed:
+- ref: 1959/its-a-good-life
+  note: The isolated town ruled by six-year-old Anthony Fremont.
+- ref: 2002/its-still-a-good-life
+  note: The 2003 sequel returns to Peaksville decades later.
+- ref: films/twilight-zone-the-movie
+  note: Joe Dante's segment remakes Anthony's story but moves it to a new setting.
+episodes:
+- 1959/its-a-good-life
+- 2002/its-still-a-good-life
+notes: A farming town Anthony Fremont has cut off from the rest of the world, perhaps destroyed the rest of it,
+  and keeps in terror; residents must "think happy thoughts" or be wished into the cornfield. The story comes from
+  Jerome Bixby's 1953 short story; Serling's narration names the town and its location. Bill Mumy returned as the
+  adult Anthony when the 2002 revival went back to Peaksville.
+sources:
+- title: 'Wikipedia: It''s a Good Life (The Twilight Zone)'
+  url: https://en.wikipedia.org/wiki/It%27s_a_Good_Life_(The_Twilight_Zone)
+- title: 'Wikipedia: It''s Still a Good Life'
+  url: https://en.wikipedia.org/wiki/It%27s_Still_a_Good_Life
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

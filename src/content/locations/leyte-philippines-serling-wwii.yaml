@@ -1,0 +1,16 @@
+name: Leyte, Philippines (Serling's war)
+kind: serling-place
+region: Leyte
+country: PH
+notes: Serling fought here with the 511th Parachute Infantry Regiment, 11th Airborne Division, in late 1944, and
+  was wounded in the Philippines campaign. Biographers trace the death, fear and soldiers' stories in episodes such
+  as "The Purple Testament" and "The Quality of Mercy" to what he saw on Leyte and in Manila.
+sources:
+- title: 'National WWII Museum: Rod Serling and The Twilight Zone'
+  url: https://www.nationalww2museum.org/war/articles/rod-serling-twilight
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+research_confidence: medium
+relevance: related
+last_verified: '2026-11-20'
+locked: true

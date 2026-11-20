@@ -1,0 +1,20 @@
+title: '"The Time Element" airs on Westinghouse Desilu Playhouse (1958)'
+kind: event
+subtype: premiere
+year: 1958
+description: 'CBS''s Westinghouse Desilu Playhouse aired Serling''s "The Time Element" on November 24, 1958: a man
+  dreams each night of Pearl Harbor the day before the attack. Shelved by CBS as an anthology pilot, it was bought
+  by Desilu, drew strong reviews and mail, and persuaded CBS to commission The Twilight Zone. Desi Arnaz introduced
+  it.'
+details:
+  date: '1958-11-24'
+  network: CBS
+sources:
+- title: 'Wikipedia: The Time Element'
+  url: https://en.wikipedia.org/wiki/The_Time_Element
+categories:
+- events/premieres
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

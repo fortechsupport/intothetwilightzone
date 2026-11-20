@@ -1,0 +1,21 @@
+title: 'Twilight Zone: The Movie opens (1983)'
+kind: event
+subtype: premiere
+year: 1983
+description: Warner Bros. released the four-segment film on June 24, 1983, with segments by John Landis, Steven
+  Spielberg, Joe Dante and George Miller. It opened under the shadow of the 1982 helicopter accident that killed
+  Vic Morrow and two children.
+details:
+  date: '1983-06-24'
+  film: films/twilight-zone-the-movie
+sources:
+- title: 'The Numbers: Twilight Zone: The Movie'
+  url: https://www.the-numbers.com/movie/Twilight-Zone-The-Movie
+- title: 'Wikipedia: Twilight Zone: The Movie'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+categories:
+- events/premieres
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

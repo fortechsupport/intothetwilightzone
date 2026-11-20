@@ -1,0 +1,17 @@
+name: Room 22 ("Twenty Two")
+kind: in-story
+filmed:
+- ref: 1959/twenty-two
+  note: The hospital morgue a dancer dreams of each night.
+episodes:
+- 1959/twenty-two
+notes: A recovering dancer is told each night by a nurse, "Room for one more, honey," at the door of the hospital
+  morgue, Room 22. She later refuses to board Flight 22 because the stewardess says the same words, and the plane
+  explodes. The story is based on a well-known ghost anecdote.
+sources:
+- title: 'Wikipedia: Twenty Two (The Twilight Zone)'
+  url: https://en.wikipedia.org/wiki/Twenty_Two_(The_Twilight_Zone)
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

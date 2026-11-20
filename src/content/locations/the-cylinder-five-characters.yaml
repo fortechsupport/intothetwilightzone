@@ -1,0 +1,16 @@
+name: The cylinder ("Five Characters in Search of an Exit")
+kind: in-story
+filmed:
+- ref: 1959/five-characters-in-search-of-an-exit
+  note: The doll-collection barrel in which five figures try to escape.
+episodes:
+- 1959/five-characters-in-search-of-an-exit
+notes: A smooth-walled, open-topped cylinder holding an army major, a clown, a ballerina, a hobo and a bagpiper
+  who cannot remember who they are. It is a Christmas toy-collection barrel and they are dolls.
+sources:
+- title: 'Wikipedia: Five Characters in Search of an Exit'
+  url: https://en.wikipedia.org/wiki/Five_Characters_in_Search_of_an_Exit
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

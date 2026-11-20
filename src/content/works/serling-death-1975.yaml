@@ -1,0 +1,21 @@
+title: Death of Rod Serling (1975)
+kind: event
+subtype: history
+year: 1975
+description: Serling died on June 28, 1975, aged 50, at Strong Memorial Hospital in Rochester, New York, after complications
+  from heart bypass surgery following a series of heart attacks. He was buried at Lake View Cemetery in Interlaken,
+  New York, near his family's Cayuga Lake cottage.
+details:
+  date: '1975-06-28'
+  location: Rochester, New York
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+- title: Rod Serling's Binghamton obituary (RSMF)
+  url: https://rodserling.com/rod-serlings-binghamton-obituary/
+categories:
+- events/serling-life
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

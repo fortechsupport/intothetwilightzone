@@ -1,0 +1,16 @@
+name: V9-Gamma
+kind: in-story
+filmed:
+- ref: 1959/on-thursday-we-leave-for-home
+  note: The scorched planet where a colony waits 30 years for rescue.
+episodes:
+- 1959/on-thursday-we-leave-for-home
+notes: A planet with two suns and no night, where a stranded colony has survived for three decades under Captain
+  William Benteen. When rescue arrives he cannot give up his authority and ends up alone on the planet.
+sources:
+- title: 'Wikipedia: On Thursday We Leave for Home'
+  url: https://en.wikipedia.org/wiki/On_Thursday_We_Leave_for_Home
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

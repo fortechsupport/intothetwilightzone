@@ -1,0 +1,18 @@
+name: Elmira College
+kind: event-venue
+city: Elmira
+region: New York
+country: US
+status: open
+notes: Private college in Elmira, New York, about 30 miles from Ithaca. On May 1, 1975, eight weeks before his death,
+  Serling gave a lecture here on commercial broadcasting and American society, recorded and later distributed by
+  the Pacifica Radio Archives as "A Glimpse into the Twilight Zone."
+sources:
+- title: Pacifica Radio Archives SZ0066
+  url: https://pacificaradioarchives.org/node/8692
+categories:
+- places/lecture-event-venues
+research_confidence: high
+relevance: related
+last_verified: '2026-11-20'
+locked: true

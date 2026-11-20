@@ -1,0 +1,17 @@
+name: The Martian zoo ("People Are Alike All Over")
+kind: in-story
+filmed:
+- ref: 1959/people-are-alike-all-over
+  note: The replica Earth house where astronaut Sam Conrad is put on display.
+episodes:
+- 1959/people-are-alike-all-over
+notes: 'After crash-landing on Mars, Sam Conrad is welcomed by friendly Martians who give him a comfortable Earth-style
+  house. It has no windows and the door will not open: it is a zoo exhibit labelled with his species "in his native
+  habitat."'
+sources:
+- title: 'Wikipedia: People Are Alike All Over'
+  url: https://en.wikipedia.org/wiki/People_Are_Alike_All_Over
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

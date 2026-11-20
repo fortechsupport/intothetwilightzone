@@ -1,0 +1,17 @@
+name: Ford's Theatre, April 14, 1865 ("Back There")
+kind: in-story
+filmed:
+- ref: 1959/back-there
+  note: A man from 1961 tries to stop Lincoln's assassination.
+episodes:
+- 1959/back-there
+notes: 'A real place used as a story setting: after an argument about time travel at his Washington club, Peter
+  Corrigan finds himself in 1865 and tries in vain to warn people at Ford''s Theatre. The real theatre is a National
+  Historic Site in Washington, D.C.'
+sources:
+- title: 'Wikipedia: Back There'
+  url: https://en.wikipedia.org/wiki/Back_There
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true
