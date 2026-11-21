@@ -12,6 +12,7 @@ import Base from '../layouts/Base.astro';
       const ui = new PagefindUI({ element: '#search', showSubResults: true, showImages: false });
       const q = new URLSearchParams(location.search).get('q');
       if (q) ui.triggerSearch(q);
+      else setTimeout(() => document.querySelector('.pagefind-ui__search-input')?.focus(), 50);
     });
   </script>
 </Base>
