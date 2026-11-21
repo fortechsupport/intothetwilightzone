@@ -6,9 +6,32 @@ first_episode: '2024-02-08'
 links:
   podchaser: https://www.podchaser.com/podcasts/thats-not-fair-a-queer-twiligh-5618685
   rss: https://feed.podbean.com/thatsnotfairpod/feed.xml
+  website: https://thatsnotfairpod.podbean.com/
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: A fan podcast that discusses The Twilight Zone from a queer perspective, hosted by Vieno Savo and Eeri
-  Hietala, with its first episode in February 2024. Its name and RSS feed are listed; how many episodes it covers
-  has not been checked.
+  note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
+- title: That's Not Fair on Podbean
+  url: https://thatsnotfairpod.podbean.com/
+description: A fortnightly podcast in which Vieno Savo and Eeri Hietala, both with English degrees, work through
+  the original series in order and read it from a queer perspective. They covered season 1 (with a top-three episode
+  and a "perfect episode" special in June 2024) and moved into season 2; the latest episode on the show page is
+  number 24, "Lateness of the Nick", from 29 August 2024.
+status: unknown
+episode_count: 24
+episode_count_as_of: '2026-11-21'
+covers:
+- '1959'
+featured_episodes:
+- title: 19 - Season 1 Top 3 Episodes
+  date: '2024-06-13'
+- title: 21 - The Man in King Nine
+  date: '2024-07-11'
+  covers_episode: 1959/king-nine-will-not-return
+- title: 24 - Lateness of the Nick
+  date: '2024-08-29'
+  covers_episode: 1959/the-lateness-of-the-hour
+research_confidence: high
+tags:
+- research-2026-11-21
+last_verified: '2026-11-21'
+relevance: core

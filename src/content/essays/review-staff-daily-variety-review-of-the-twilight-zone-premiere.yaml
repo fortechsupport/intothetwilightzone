@@ -10,5 +10,10 @@ research_confidence: medium
 sources:
 - title: 'Wikipedia (mirror): The Twilight Zone (1959 TV series)'
   url: https://troywiki.duckdns.org/content/wikipedia_en_all_maxi_2024-01/A/Twilight_Zone%2C_The_(1959)
+- title: 'eNotes: Helm, "Where Is Everybody?" (Rod Serling criticism)'
+  url: https://www.enotes.com/topics/edward-rod-man-serling/criticism/helm
+  note: Added 2026-11-21. Prints a review excerpt signed "Helm" dated October 5, 1959 and credited to Variety (a
+    Monday, so probably Daily Variety); calls the pilot one of CBS-TV's strongest entries. Likely the same review
+    as this record.
 last_verified: '2026-11-20'
 locked: true

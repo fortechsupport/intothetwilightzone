@@ -12,6 +12,7 @@ directors:
 - John T. Kretchmer
 cast:
 - Jessica Simpson
+- Ashley Edner
 narrator: Forest Whitaker
 synopsis: A babysitter in a house filled with unsettling dolls begins to suspect a link between the collection and
   the earlier sitters who vanished without a trace from the very same job.
@@ -22,6 +23,9 @@ themes:
 ids:
   imdb: tt0734805
 sources:
+- title: "The Twilight Zone (2002) season 1 cast and characters - scifi-movies.com"
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+  note: Added cast confirmed by this source (research pass 2026-11-21).
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 - title: The Twilight Zone (2002 TV series) - Wikipedia

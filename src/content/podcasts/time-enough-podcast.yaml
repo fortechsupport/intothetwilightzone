@@ -1,4 +1,4 @@
-title: Time Enough Podcast
+title: 'Time Enough Podcast: A Twilight Zone Podcast'
 hosts:
 - Matt Comegys
 first_episode: '2021-12-05'
@@ -6,9 +6,33 @@ links:
   podchaser: https://www.podchaser.com/podcasts/time-enough-podcast-a-twilight-3955921
   rss: https://feeds.transistor.fm/time-enough-podcast
   youtube: https://www.youtube.com/playlist?list=PLOBJTArRzQRuDvnJSciqB982OWUaBCq1J
+  apple: https://podcasts.apple.com/us/podcast/time-enough-podcast-a-twilight-zone-podcast/id1601462349
+  spotify: https://open.spotify.com/show/3GsaWVjq3otcM1XTzw50Hl
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: An independent fan podcast that discusses episodes of The Twilight Zone, hosted by Matt Comegys, with
-  its first episode in December 2021. Its name and RSS feed are listed; how many episodes it covers has not been
-  checked.
+  note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
+- title: Apple Podcasts directory lookup (iTunes API), id 1601462349
+  url: https://itunes.apple.com/lookup?id=1601462349&entity=podcast
+  note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
+- title: Million Podcasts - Best The Twilight Zone Podcasts
+  url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
+- title: IMDb Pro listing - Time Enough Podcast episode "Replay (w/Charlynn Schmiedt)"
+  url: https://pro.imdb.com/title/tt39303998
+description: 'Matt Comegys and rotating guests explore the philosophical and metaphysical ideas in anthology television,
+  chiefly The Twilight Zone and Night Gallery, at about an hour per episode. It began in December 2021 and is one
+  of the more prolific current shows: Apple lists 219 episodes, the latest on 9 November 2026.'
+status: active
+episode_count: 219
+episode_count_as_of: '2026-11-21'
+covers:
+- '1959'
+- '2019'
+- films/night-gallery
+featured_episodes:
+- title: Replay (w/Charlynn Schmiedt)
+  covers_episode: 2019/replay
+research_confidence: medium
+tags:
+- research-2026-11-21
+last_verified: '2026-11-21'
+relevance: core

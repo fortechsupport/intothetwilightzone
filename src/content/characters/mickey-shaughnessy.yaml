@@ -1,0 +1,24 @@
+name: Mickey Shaughnessy
+kind: human
+played_by:
+- Tom O'Brien
+appears_in:
+- 1985/the-convicts-piano
+description: >-
+  The 1920s gangster who owned the piano and framed his friend Eddie O'Hara. When he plays it himself he is pulled
+  into the present-day prison, where he is trapped and left to serve Frost's sentence.
+recurring: false
+relevance: core
+sources:
+- title: The Convict's Piano - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Convict%27s_Piano
+- title: The Convict's Piano - Wikipedia (IPFS mirror)
+  url: https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/The_Convict's_Piano.html
+- title: The Convict's Piano - IMDb
+  url: https://www.imdb.com/title/tt0734746/
+research_confidence: high
+last_verified: '2026-11-21'
+categories:
+- people/characters
+tags:
+- research-2026-11-21

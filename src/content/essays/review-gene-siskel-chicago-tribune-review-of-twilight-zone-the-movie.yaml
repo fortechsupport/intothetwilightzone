@@ -1,0 +1,22 @@
+title: 'Chicago Tribune review: Twilight Zone: The Movie (1983)'
+authors:
+- Gene Siskel
+published_in: Chicago Tribune
+published: '1983'
+kind: review
+review_type: contemporary
+reviews:
+- films/twilight-zone-the-movie
+description: Siskel called the film a mixed bag of four shorts in the style of the old series and judged that two
+  of them worked and two did not. Metacritic rates it among the friendlier reviews of the film.
+research_confidence: medium
+relevance: core
+tags:
+- research-2026-11-21
+- contemporary-reception
+sources:
+- title: 'Metacritic: Twilight Zone: The Movie critic reviews'
+  url: https://www.metacritic.com/movie/twilight-zone-the-movie/critic-reviews/
+  note: Lists the review with a normalised score of 63 and the date July 22, 1983 (later than the June 24 release;
+    date unconfirmed).
+last_verified: '2026-11-21'

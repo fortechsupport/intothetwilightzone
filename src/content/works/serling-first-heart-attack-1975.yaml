@@ -1,0 +1,21 @@
+title: Serling suffers his first heart attack (1975)
+kind: event
+subtype: history
+year: 1975
+description: On May 3, 1975, Serling had a heart attack and spent two weeks in Tompkins County Community Hospital
+  near Ithaca. A second attack followed about two weeks later.
+details:
+  date: '1975-05-03'
+  place: Ithaca, New York
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+- title: 'Encyclopedia.com (Scribner Encyclopedia of American Lives): Serling, Rodman Edward ("Rod")'
+  url: https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/serling-rodman-edward-rod
+categories:
+- events/serling-life
+research_confidence: high
+relevance: related
+last_verified: '2026-11-21'
+tags:
+- research-2026-11-21

@@ -8,9 +8,38 @@ links:
   podchaser: https://www.podchaser.com/podcasts/dreams-for-sale-twilight-zone-721906
   rss: https://www.spreaker.com/show/3126776/episodes/feed
   youtube: https://www.youtube.com/playlist?list=PLSFLWzkwFbw6FIOnAJoVALFINMGVykN6N
+  apple: https://podcasts.apple.com/podcast/id1434848087
+  spotify: https://open.spotify.com/show/0yQup6MyBiLp4zY8BN3tKs
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: A fan podcast devoted to the 1985 revival of The Twilight Zone, hosted by Chris Stachiw, Mike White
-  and Father Malone, with its first episode in August 2018. Its name and RSS feed are listed; how many episodes
-  it covers has not been checked.
+  note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
+- title: 'Apple Podcasts - Dreams for Sale: Twilight Zone ''85'
+  url: https://podcasts.apple.com/podcast/id1434848087
+- title: Apple Podcasts directory lookup (iTunes API), id 1434848087
+  url: https://itunes.apple.com/lookup?id=1434848087&entity=podcast
+  note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
+- title: Million Podcasts - Best The Twilight Zone Podcasts
+  url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
+description: A Weirding Way Media podcast in which Chris Stachiw, Mike White and Father Malone cover the 1985 CBS
+  revival, usually two or three segments per episode (for example "Shadow Play / Grace Note"), with attention to
+  contributors such as Harlan Ellison, Wes Craven and William Friedkin. Apple lists 49 episodes, the latest in September
+  2023.
+status: unknown
+episode_count: 49
+episode_count_as_of: '2026-11-21'
+covers:
+- '1985'
+organizations:
+- Weirding Way Media
+featured_episodes:
+- title: 'Ep 3: Healer / Children''s Zoo / Kentucky Rye'
+  url: https://www.spreaker.com/episode/ep-3-healer-children-s-zoo-kentucky-rye--16154073
+  covers_episode: 1985/healer
+- title: 'Episode 23: Shadow Play / Grace Note'
+  url: https://www.spreaker.com/episode/episode-23-shadow-play-grace-note--43152096
+  covers_episode: 1985/shadow-play
+research_confidence: high
+tags:
+- research-2026-11-21
+last_verified: '2026-11-21'
+relevance: core

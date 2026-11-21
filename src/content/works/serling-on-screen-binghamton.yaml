@@ -1,0 +1,23 @@
+title: Serling on Screen (Binghamton screening series)
+kind: event
+subtype: screening
+description: A screening programme in Binghamton listed by Visit Binghamton under the name "Serling on Screen",
+  with at least three numbered listings. Venue, organiser and dates were not confirmed in this pass.
+details:
+  place: Binghamton, New York
+sources:
+- title: Visit Binghamton - Serling on Screen
+  url: https://visitbinghamton.org/event/serling-on-screen/
+  note: Seen as a search result only.
+- title: Visit Binghamton - Serling on Screen (third listing)
+  url: https://visitbinghamton.org/event/serling-on-screen-3
+content_of:
+- people/rod-serling
+categories:
+- events/broadcasts-marathons
+relevance: related
+research_confidence: low
+tags:
+- recurring
+- research-2026-11-21
+last_verified: '2026-11-21'

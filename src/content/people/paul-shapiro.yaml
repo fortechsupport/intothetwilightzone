@@ -1,0 +1,28 @@
+name: Paul Shapiro
+roles:
+- director
+- writer
+- producer
+born: '1955'
+bio: >-
+  Paul Shapiro is a Canadian television director credited on "The Pool Guy" in the 2002 UPN revival. He has
+  directed episodes of The X-Files, Millennium, Dark Angel, Smallville, 24, Heroes and Supernatural, and the
+  feature The Lotus Eaters (1993).
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Paul_Shapiro_(director)
+  imdb: https://www.imdb.com/name/nm0788610/
+relevance: core
+sources:
+- title: Paul Shapiro (director) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Paul_Shapiro_(director)
+  note: Biography; the article does not list The Twilight Zone.
+- title: Paul Shapiro (I) - IMDb
+  url: https://www.imdb.com/name/nm0788610/
+  note: Same director (The Lotus Eaters, 24, Heroes). The page view seen did not show the Twilight Zone credit; a search for the episode returned this page. Identity is likely but not fully confirmed.
+research_confidence: medium
+last_verified: '2026-11-21'
+categories:
+- people/directors
+tags:
+- research-2026-11-21
+- 2002-series

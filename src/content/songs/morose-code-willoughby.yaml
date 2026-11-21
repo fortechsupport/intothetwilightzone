@@ -1,12 +1,21 @@
 title: Willoughby
-artist: morosecodeoh (Bandcamp)
+artist: Morose Code
+genre: Indie rock
+year: 2022
 tz_connection: unclassified
-description: >-
-  A self-released Bandcamp track titled 'Willoughby' that came up in a search for Twilight Zone 'A Stop at Willoughby'
-  songs. The artist and its link to the episode were not checked.
+description: A standalone Bandcamp single by Morose Code, a band from Columbus, Ohio, released on 17 June 2022.
+  The page has no lyrics or notes, and nothing on it mentions the series, Serling or "A Stop at Willoughby"; the
+  only possible tie is the title. Without lyrics there is no evidence it refers to the episode.
 relevance: tangential
-research_confidence: low
+research_confidence: medium
+tags:
+- no-tz-link-found
+- research-2026-11-21
+- self-published
 sources:
-- title: 'Bandcamp: Willoughby'
+- title: 'Bandcamp: Morose Code, "Willoughby"'
   url: https://morosecodeoh.bandcamp.com/track/willoughby
-last_verified: '2026-11-20'
+  note: 'Checked 2026-11-21: credits only, no lyrics or description.'
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-21'

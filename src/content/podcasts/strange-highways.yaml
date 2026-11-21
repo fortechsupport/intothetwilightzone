@@ -6,9 +6,40 @@ first_episode: '2016-04-26'
 links:
   podchaser: https://www.podchaser.com/podcasts/strange-highways-206720
   rss: https://feed.podbean.com/strangehighways/feed.xml
+  apple: https://podcasts.apple.com/us/podcast/strange-highways/id1107830386
+  spotify: https://open.spotify.com/show/2b9VJT3RfdlooRWSGkAHGH
+  website: https://strangehighways.podbean.com/
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: An independent fan podcast that discusses episodes of The Twilight Zone, hosted by Paul Steadman and
-  Terry, with its first episode in April 2016. Its name and RSS feed are listed; how many episodes it covers has
-  not been checked.
+  note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
+- title: Strange Highways on Podbean
+  url: https://strangehighways.podbean.com/
+- title: Apple Podcasts directory lookup (iTunes API), id 1107830386
+  url: https://itunes.apple.com/lookup?id=1107830386&entity=podcast
+  note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
+- title: Feedspot - 19 Best The Twilight Zone Podcasts
+  url: https://podcast.feedspot.com/the_twilight_zone_podcasts
+description: Paul Steadman and Terry watched The Twilight Zone in order and discussed each episode, then carried
+  on through the later series, posting a wrap-up of the 2002 UPN series and of their whole Twilight Zone run on
+  18 September 2026. Since October 2026 the feed has moved on to other anthology shows (Eerie, Indiana, Goosebumps,
+  Are You Afraid of the Dark?) and began Night Gallery in order in November 2026. Apple lists 400 episodes and the
+  show page 421.
+status: active
+episode_count: 421
+episode_count_as_of: '2026-11-21'
+covers:
+- '1959'
+- '1985'
+- '2002'
+- '2019'
+- films/night-gallery
+featured_episodes:
+- title: 2002 S1 Wrap Up / Twilight Zone Series Wrap Up
+  date: '2026-09-18'
+- title: Night Gallery (Pilot)
+  date: '2026-10-02'
+research_confidence: medium
+tags:
+- research-2026-11-21
+last_verified: '2026-11-21'
+relevance: core

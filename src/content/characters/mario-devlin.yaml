@@ -1,0 +1,27 @@
+name: Mario Devlin
+kind: human
+played_by:
+- Shawn Hatosy
+appears_in:
+- 2002/the-pharaohs-curse
+description: >-
+  An ambitious young illusionist who works his way into the lives of an aging master magician and his young wife
+  to learn the secret of their famous trick. The trick swaps bodies, and he is left trapped in the old man's.
+recurring: false
+relevance: core
+sources:
+- title: The Twilight Zone (2002) season 1 cast and characters - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: The Twilight Zone (2002) - TV Tropes
+  url: https://tvtropes.org/pmwiki/pmwiki.php/Series/TheTwilightZone2002
+  note: Supporting source for plot details.
+- title: The Pharaoh's Curse - IMDb
+  url: https://www.imdb.com/title/tt0734797/
+research_confidence: high
+last_verified: '2026-11-21'
+categories:
+- people/characters
+tags:
+- research-2026-11-21

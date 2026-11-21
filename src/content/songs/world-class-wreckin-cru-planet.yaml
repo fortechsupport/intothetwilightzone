@@ -1,0 +1,23 @@
+title: Planet
+artist: World Class Wreckin' Cru
+genre: Electro / hip-hop
+tz_connection: theme
+description: An electro track by World Class Wreckin' Cru, the Los Angeles group that included a young Dr. Dre before
+  N.W.A. WhoSampled lists it as sampling the later-season title-sequence music of The Twilight Zone. Release year
+  and album were not confirmed in this pass.
+relevance: tangential
+research_confidence: medium
+categories:
+- music/theme
+tags:
+- research-2026-11-21
+- sample
+sources:
+- title: 'WhoSampled: World Class Wreckin'' Cru''s ''Planet'' sample of Title Sequence (Season 4 Onwards) in The
+    Twilight Zone'
+  url: https://www.whosampled.com/sample/476186/World-Class-Wreckin%27-Cru-Planet-The-Twilight-Zone-Title-Sequence-%28Season-4-Onwards%29/
+  note: Seen as a search result title; the page itself refused fetches.
+- title: World Class Wreckin' Cru (Wikipedia)
+  url: https://en.wikipedia.org/wiki/World_Class_Wreckin%27_Cru
+  note: Group page from search results; not opened.
+last_verified: '2026-11-21'

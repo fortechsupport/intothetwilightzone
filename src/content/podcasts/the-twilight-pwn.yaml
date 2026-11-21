@@ -7,14 +7,21 @@ links:
   podchaser: https://www.podchaser.com/podcasts/twilight-pwn-a-twilight-zone-p-107616
   rss: https://twilightpwn.libsyn.com/rss
   youtube: https://www.youtube.com/channel/UCDx8V77GSwm87itwTPqSfDw
+  apple: https://podcasts.apple.com/us/podcast/twilight-pwn-a-twilight-zone-podcast/id602923665
+  spotify: https://open.spotify.com/show/1yihvlW1P7nqBPSGTGeAna
+  website: https://twilightpwn.tumblr.com/
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
 - title: Podm8 - Twilight Pwn episode list
   url: https://podm8.com/podcasts/twilight-pwn-a-twilight-zone-podcast
-description: A weekly fan podcast by John and Fred that worked through the original series episode by episode, then branched
-  into Night Gallery, the 1980s revival and the 2019 series, with author interviews such as Steven Jay Rubin on his Twilight
-  Zone Encyclopedia. About 191 episodes; the newest listed is an August 2024 Serlingfest announcement.
+- title: Feedspot - 19 Best The Twilight Zone Podcasts
+  url: https://podcast.feedspot.com/the_twilight_zone_podcasts
+- title: Million Podcasts - Best The Twilight Zone Podcasts
+  url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
+description: A weekly fan podcast by John and Fred that worked through the original series episode by episode, then
+  branched into Night Gallery, the 1980s revival and the 2019 series, with author interviews such as Steven Jay
+  Rubin on his Twilight Zone Encyclopedia. About 191 episodes; the newest listed is an August 2024 Serlingfest announcement.
 episode_count: 191
 status: unknown
 covers:
@@ -36,8 +43,8 @@ featured_episodes:
 - title: 'Episode 167: 80s Twilight Zone, Wordplay'
   date: '2017-06-22'
   covers_episode: 1985/wordplay
-- title: 'Episode 177: Nightmare at 30,000 Feet (2019 series)'
-  date: '2019-05-01'
-  covers_episode: 2019/nightmare-at-30-000-feet
 research_confidence: medium
-last_verified: '2026-11-20'
+last_verified: '2026-11-21'
+tags:
+- research-2026-11-21
+relevance: core

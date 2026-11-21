@@ -1,0 +1,19 @@
+title: The Bugger Groove
+artist: The Buggers
+tz_connection: theme
+description: A track by The Buggers that WhoSampled lists as sampling a Twilight Zone clip it labels "There Is a
+  Sixth Dimension", which sounds like a play on Serling's first-season opening narration about a fifth dimension.
+  Nothing else about the artist or release was confirmed in this pass.
+relevance: tangential
+research_confidence: low
+categories:
+- music/theme
+tags:
+- research-2026-11-21
+- sample
+sources:
+- title: 'WhoSampled: The Buggers''s ''The Bugger Groove'' sample of There Is a Sixth Dimension scene in The Twilight
+    Zone'
+  url: https://www.whosampled.com/sample/355316/The-Buggers-The-Bugger-Groove-The-Twilight-Zone-There-Is-a-Sixth-Dimension/
+  note: Seen as a search result title; the page itself refused fetches.
+last_verified: '2026-11-21'

@@ -317,6 +317,8 @@ const podcasts = defineCollection({
     description: z.string().optional(),
     status: z.enum(['active', 'ended', 'unknown']).optional(),
     episode_count: z.number().optional(),
+    // The date episode_count was read from the feed (feeds can drop old episodes).
+    episode_count_as_of: z.string().optional(),
     covers: names, // series ids or films/<id> the podcast covers
     featured_episodes: z.array(z.object({
       title: z.string(),
