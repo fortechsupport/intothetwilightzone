@@ -1,0 +1,26 @@
+title: The Sci-Fright Zone
+hosts:
+- Diana
+- Alisha
+description: 'Diana and Alisha work through The Twilight Zone, The Outer Limits and Night Gallery. A young show:
+  Apple lists 8 episodes, the latest in July 2026.'
+status: unknown
+episode_count: 8
+episode_count_as_of: '2026-11-21'
+covers:
+- '1959'
+- films/night-gallery
+links:
+  apple: https://podcasts.apple.com/us/podcast/id1865621222
+  rss: https://media.rss.com/the-sci-fright-zone/feed.xml
+sources:
+- title: Apple Podcasts directory lookup (iTunes API), id 1865621222
+  url: https://itunes.apple.com/lookup?id=1865621222&entity=podcast
+  note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
+- title: Million Podcasts - Best The Twilight Zone Podcasts
+  url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
+relevance: core
+research_confidence: low
+tags:
+- research-2026-11-21
+last_verified: '2026-11-21'

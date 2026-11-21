@@ -1,0 +1,21 @@
+title: Season 5 of The Twilight Zone premieres (1963)
+kind: event
+subtype: premiere
+year: 1963
+description: After the hour-long fourth season, the show returned to half an hour for its fifth and final season,
+  which began on September 27, 1963, with "In Praise of Pip" and aired Fridays at 9:30 p.m. Its 36 episodes ran
+  until June 19, 1964.
+details:
+  date: '1963-09-27'
+  network: CBS
+  first_episode: 1959/in-praise-of-pip
+sources:
+- title: 'Wikipedia: The Twilight Zone (1959 TV series, season 5)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+categories:
+- events/premieres
+research_confidence: high
+relevance: core
+last_verified: '2026-11-21'
+tags:
+- research-2026-11-21

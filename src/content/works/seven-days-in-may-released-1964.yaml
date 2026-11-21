@@ -1,0 +1,22 @@
+title: Seven Days in May is released (1964)
+kind: event
+subtype: history
+year: 1964
+description: John Frankenheimer's film of Fletcher Knebel and Charles W. Bailey II's novel about a planned military
+  coup against the US president opened in 1964, with a screenplay by Serling. It was his most prestigious film credit
+  to that point.
+details:
+  film: films/seven-days-in-may
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+- title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
+  url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+  note: Cited on the site's existing film record; not re-fetched in this pass.
+categories:
+- events/serling-life
+research_confidence: medium
+relevance: related
+last_verified: '2026-11-21'
+tags:
+- research-2026-11-21

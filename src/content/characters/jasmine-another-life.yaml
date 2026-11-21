@@ -1,0 +1,24 @@
+name: Jasmine
+kind: human
+played_by:
+- Kimberly Elise
+appears_in:
+- 2002/another-life
+description: >-
+  A woman in the life of the rapper Marvin Gardens. The cast list credits Kimberly Elise as both Jasmine and a
+  police detective, so she turns up in each of the two lives he moves between.
+recurring: false
+relevance: core
+sources:
+- title: The Twilight Zone (2002) season 1 cast and characters - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: Another Life - IMDb
+  url: https://www.imdb.com/title/tt0734771/
+research_confidence: medium
+last_verified: '2026-11-21'
+categories:
+- people/characters
+tags:
+- research-2026-11-21

@@ -1,7 +1,24 @@
 ---
 import Base from '../layouts/Base.astro';
+import { navModel } from '../lib/nav';
+const verbs = await navModel();
 ---
 <Base title="Page not found" noindex>
+  <p class="kicker">Error 404</p>
   <h1>You've crossed over into… a missing page</h1>
-  <p class="lead">This page doesn't exist, or it moved when the site was rebuilt. Try <a href="/search/">search</a> or start at the <a href="/">home page</a>.</p>
+  <p class="lead">This page doesn't exist, or it moved when the site was reorganized. Search for what you were after, or pick a way in below.</p>
+  <form class="hero-search" action="/search/" method="get" role="search">
+    <label class="visually-hidden" for="nf-q">Search the site</label>
+    <input id="nf-q" type="search" name="q" placeholder="Search episodes, people, films, songs…" autocomplete="off" />
+    <button class="btn primary" type="submit">Search</button>
+  </form>
+  <div class="section-head"><h2>Nine ways in</h2></div>
+  <div class="grid">
+    {verbs.map((v) => <a class="card" href={v.href}><h3>{v.title}</h3><p class="small muted">{v.blurb}</p></a>)}
+  </div>
+  <p>Or go to the <a href="/">home page</a>, <a href="/start/">start here</a>, or <a href="/categories/">everything A to Z</a>.</p>
+  <script is:inline>
+    // Fill the search box with words from the missing address, so one press finds the likeliest page.
+    (() => { const w = decodeURIComponent(location.pathname).split('/').filter(Boolean).pop(); if (w && w !== '404.html') document.getElementById('nf-q').value = w.replace(/[-_]+/g, ' ').replace(/\.html?$/, ''); })();
+  </script>
 </Base>

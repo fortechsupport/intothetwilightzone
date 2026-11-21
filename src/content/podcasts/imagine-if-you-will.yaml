@@ -5,8 +5,27 @@ first_episode: '2017-04-30'
 links:
   podchaser: https://www.podchaser.com/podcasts/imagine-if-you-will-520300
   rss: https://twilightzonepod.libsyn.com/Rss
+  apple: https://podcasts.apple.com/us/podcast/imagine-if-you-will/id1231816890
+  spotify: https://open.spotify.com/show/4uCwohPXfCcJMJBvWs66Io
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: An independent fan podcast that discusses episodes of The Twilight Zone, hosted by Daniel Gentz, with
-  its first episode in April 2017. Its name and RSS feed are listed; how many episodes it covers has not been checked.
+  note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
+- title: Apple Podcasts directory lookup (iTunes API), id 1231816890
+  url: https://itunes.apple.com/lookup?id=1231816890&entity=podcast
+  note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
+- title: Feedspot - 19 Best The Twilight Zone Podcasts
+  url: https://podcast.feedspot.com/the_twilight_zone_podcasts
+- title: Million Podcasts - Best The Twilight Zone Podcasts
+  url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
+description: Daniel Gentz and a rotating guest analyse episodes of The Twilight Zone in depth, one per show, at
+  about an hour each. It began in April 2017; Apple lists 181 episodes, the latest in August 2026.
+status: active
+episode_count: 181
+episode_count_as_of: '2026-11-21'
+covers:
+- '1959'
+research_confidence: medium
+tags:
+- research-2026-11-21
+last_verified: '2026-11-21'
+relevance: core

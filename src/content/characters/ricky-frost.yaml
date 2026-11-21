@@ -1,0 +1,30 @@
+name: Ricky Frost
+aka:
+- Frost
+kind: human
+played_by:
+- Joe Penny
+appears_in:
+- 1985/the-convicts-piano
+description: >-
+  A prison inmate who insists he did not murder his ex-girlfriend. He finds that playing an old piano in the
+  prison's reception hall carries him back through time, and he uses it to help a fellow inmate take revenge on
+  the gangster who framed him.
+recurring: false
+relevance: core
+sources:
+- title: The Convict's Piano - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Convict%27s_Piano
+- title: The Convict's Piano - Wikipedia (IPFS mirror)
+  url: https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/The_Convict's_Piano.html
+- title: "The Twilight Zone: Ricky Frost - TVmaze"
+  url: https://www.tvmaze.com/characters/1214180/the-twilight-zone-ricky-frost
+  note: Gives the full name Ricky Frost.
+- title: The Convict's Piano - IMDb
+  url: https://www.imdb.com/title/tt0734746/
+research_confidence: high
+last_verified: '2026-11-21'
+categories:
+- people/characters
+tags:
+- research-2026-11-21

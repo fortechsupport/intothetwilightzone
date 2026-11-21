@@ -1,4 +1,4 @@
-title: Between Science and Superstition
+title: Between Science and Superstition - A Twilight Zone Podcast!
 hosts:
 - Daniel Rennie
 - Ana
@@ -6,9 +6,42 @@ first_episode: '2019-02-26'
 links:
   podchaser: https://www.podchaser.com/podcasts/between-science-and-superstiti-808819
   rss: https://betweenscienceandsuperstition.libsyn.com/rss
+  apple: https://podcasts.apple.com/podcast/id1454351391
+  spotify: https://open.spotify.com/show/7wIIZqU3K9t1YVqCnENfre
+  website: https://www.bsaspod.com/tz-reviews
+  youtube: https://www.youtube.com/@BSASPOD
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: An independent fan podcast that discusses episodes of The Twilight Zone, hosted by Daniel Rennie and
-  Ana, with its first episode in February 2019. Its name and RSS feed are listed; how many episodes it covers has
-  not been checked.
+  note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
+- title: Apple Podcasts directory lookup (iTunes API), id 1454351391
+  url: https://itunes.apple.com/lookup?id=1454351391&entity=podcast
+  note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
+- title: Feedspot - 19 Best The Twilight Zone Podcasts
+  url: https://podcast.feedspot.com/the_twilight_zone_podcasts
+- title: Libsyn - Between Science and Superstition episode pages
+  url: https://betweenscienceandsuperstition.libsyn.com/2019/09
+description: Dan and Ana discussed each episode's themes, philosophy and behind-the-scenes history, starting with
+  "Where Is Everybody?" in February 2019 and working through the first season of the original series. In spring
+  2019 they also reviewed the Jordan Peele revival as it aired, through its finale "Blurryman". Apple lists 57 episodes,
+  the last in June 2020.
+status: ended
+episode_count: 57
+episode_count_as_of: '2026-11-21'
+covers:
+- '1959'
+- '2019'
+featured_episodes:
+- title: The Twilight Zone S1E5 Walking Distance - Philosophy for Dummies
+  url: https://betweenscienceandsuperstition.libsyn.com/website/the-twilight-zone-s1e5-walking-distance-philosophy-for-dummies
+  covers_episode: 1959/walking-distance
+- title: The Twilight Zone S1E16 The Hitch-Hiker
+  url: https://betweenscienceandsuperstition.libsyn.com/the-twilight-zone-s1e16-the-hitch-hiker
+  covers_episode: 1959/the-hitch-hiker
+- title: 'The Twilight Zone 2019 Finale: Blurryman'
+  url: https://betweenscienceandsuperstition.libsyn.com/the-twilight-zone-2019-finale-blurryman-will-jordan-peele-remain-the-narrator
+  covers_episode: 2019/blurryman
+research_confidence: medium
+tags:
+- research-2026-11-21
+last_verified: '2026-11-21'
+relevance: core

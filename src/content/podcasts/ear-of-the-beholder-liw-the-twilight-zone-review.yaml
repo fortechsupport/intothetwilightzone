@@ -2,14 +2,42 @@ title: 'Ear Of The Beholder: LIW The Twilight Zone Review'
 hosts:
 - Phoenix West
 - Dick Dickette
+- Frank Linkz
 first_episode: '2015-06-15'
 links:
   podchaser: https://www.podchaser.com/podcasts/ear-of-the-beholder-liw-the-tw-115702
   rss: https://www.loiteringinwonderland.com/ttzerwpw?format=rss
   youtube: https://www.youtube.com/playlist?list=PLzB_ChIs4K6iAKve9RvBWlZUJMlUX0EDy
+  apple: https://podcasts.apple.com/us/podcast/liw-the-twilight-zone-review/id1006374817
+  spotify: https://open.spotify.com/show/7kebpb7TcIBXCI405KKyTd
+  website: https://www.loiteringinwonderland.com/ttzerwpw/
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: An independent fan podcast that discusses episodes of The Twilight Zone, hosted by Phoenix West and
-  Dick Dickette, with its first episode in June 2015. Its name and RSS feed are listed; how many episodes it covers
-  has not been checked.
+  note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
+- title: Apple Podcasts directory lookup (iTunes API), id 1006374817
+  url: https://itunes.apple.com/lookup?id=1006374817&entity=podcast
+  note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
+- title: Feedspot - 19 Best The Twilight Zone Podcasts
+  url: https://podcast.feedspot.com/the_twilight_zone_podcasts
+- title: Million Podcasts - Best The Twilight Zone Podcasts
+  url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
+description: A comedy review show from Loitering In Wonderland Studios in which comedians Phoenix West, Dick Dickette
+  and Frank Linkz review episodes of every version of The Twilight Zone and of Night Gallery in a mix of stand-up
+  and review. Episodes are short (about 20 minutes). Apple lists 304 episodes, the latest on 14 November 2026, making
+  it one of the larger active feeds.
+status: active
+episode_count: 304
+episode_count_as_of: '2026-11-21'
+covers:
+- '1959'
+- '1985'
+- '2002'
+- '2019'
+- films/night-gallery
+organizations:
+- Loitering In Wonderland Studios
+research_confidence: medium
+tags:
+- research-2026-11-21
+last_verified: '2026-11-21'
+relevance: core

@@ -1,0 +1,24 @@
+title: Planet of the Apes is released (1968)
+kind: event
+subtype: history
+year: 1968
+description: Franklin J. Schaffner's Planet of the Apes, adapted from Pierre Boulle's novel, opened in 1968. Serling
+  wrote the early drafts, including the Statue of Liberty ending, and shares the screen credit with Michael Wilson,
+  who rewrote the script.
+details:
+  film: films/planet-of-the-apes
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+- title: 'Encyclopedia.com (Scribner Encyclopedia of American Lives): Serling, Rodman Edward ("Rod")'
+  url: https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/serling-rodman-edward-rod
+- title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
+  url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+  note: Cited on the site's existing film record; not re-fetched in this pass.
+categories:
+- events/serling-life
+research_confidence: medium
+relevance: related
+last_verified: '2026-11-21'
+tags:
+- research-2026-11-21

@@ -1,0 +1,26 @@
+title: The Loner premieres on CBS (1965)
+kind: event
+subtype: history
+year: 1965
+description: Serling's next series after The Twilight Zone, The Loner, a half-hour western about a Union veteran
+  drifting west after the Civil War, starring Lloyd Bridges, premiered on CBS on September 18, 1965. It was cancelled
+  in April 1966 after one season.
+details:
+  date: '1965-09-18'
+  network: CBS
+  film: films/the-loner
+sources:
+- title: 'Wikipedia: The Loner (TV series)'
+  url: https://en.wikipedia.org/wiki/The_Loner_(TV_series)
+  note: Cited on the site's record for The Loner; not re-fetched in this pass.
+- title: 'Encyclopedia.com (Scribner Encyclopedia of American Lives): Serling, Rodman Edward ("Rod")'
+  url: https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/serling-rodman-edward-rod
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+categories:
+- events/serling-life
+research_confidence: high
+relevance: related
+last_verified: '2026-11-21'
+tags:
+- research-2026-11-21

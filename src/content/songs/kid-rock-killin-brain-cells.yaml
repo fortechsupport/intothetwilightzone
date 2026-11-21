@@ -1,9 +1,18 @@
 title: Killin' Brain Cells
 artist: Kid Rock
-tz_connection: unclassified
+genre: Rap rock
+tz_connection: lyric-mention
+description: A Kid Rock song that names both The Twilight Zone and Rod Serling in one of its closing verses, using
+  the show as shorthand for a warped, unreal state. It is a direct reference to the series and its creator, not
+  just the idiom. The album and year were not confirmed in this pass.
+relevance: tangential
+research_confidence: medium
+tags:
+- research-2026-11-21
+- serling-mention
 sources:
+- title: 'Vagalume: Kid Rock, "Killin'' Brain Cells" lyrics'
+  url: https://www.vagalume.com.br/kid-rock/killin-brain-cells.html
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-research_confidence: low
-description: A song by Kid Rock listed in the original research with no stated Twilight Zone connection. The tie
-  is probably a lyric line or sample, but it has not been verified.
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-21'

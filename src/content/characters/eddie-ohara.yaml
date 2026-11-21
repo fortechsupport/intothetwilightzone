@@ -1,0 +1,25 @@
+name: Eddie O'Hara
+kind: human
+played_by:
+- Norman Fell
+appears_in:
+- 1985/the-convicts-piano
+description: >-
+  A fellow inmate and former gangster who tells Frost the history of the piano. Its first owner, his old friend
+  Mickey Shaughnessy, framed him for murder over a woman they both loved, and he goes back to 1928 with Frost to
+  settle the score.
+recurring: false
+relevance: core
+sources:
+- title: The Convict's Piano - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Convict%27s_Piano
+- title: The Convict's Piano - Wikipedia (IPFS mirror)
+  url: https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/The_Convict's_Piano.html
+- title: The Convict's Piano - IMDb
+  url: https://www.imdb.com/title/tt0734746/
+research_confidence: high
+last_verified: '2026-11-21'
+categories:
+- people/characters
+tags:
+- research-2026-11-21

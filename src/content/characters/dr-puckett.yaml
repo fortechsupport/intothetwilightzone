@@ -1,0 +1,24 @@
+name: Dr. Puckett
+kind: human
+played_by:
+- John Hancock
+appears_in:
+- 1985/the-convicts-piano
+description: >-
+  The prison doctor who removes Frost's stitches and hears his story about the time-traveling piano, but does not
+  believe it.
+recurring: false
+relevance: core
+sources:
+- title: The Convict's Piano - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Convict%27s_Piano
+- title: The Convict's Piano - Wikipedia (IPFS mirror)
+  url: https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/The_Convict's_Piano.html
+- title: The Convict's Piano - IMDb
+  url: https://www.imdb.com/title/tt0734746/
+research_confidence: high
+last_verified: '2026-11-21'
+categories:
+- people/characters
+tags:
+- research-2026-11-21

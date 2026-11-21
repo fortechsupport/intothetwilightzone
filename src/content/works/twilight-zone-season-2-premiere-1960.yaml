@@ -1,0 +1,23 @@
+title: Season 2 of The Twilight Zone premieres (1960)
+kind: event
+subtype: premiere
+year: 1960
+description: The second season opened on September 30, 1960, with "King Nine Will Not Return." It brought the guitar-and-bongo
+  theme built from Marius Constant library cues in place of Bernard Herrmann's, and Serling now appeared on camera
+  as host. The season ran 29 episodes.
+details:
+  date: '1960-09-30'
+  network: CBS
+  first_episode: 1959/king-nine-will-not-return
+sources:
+- title: 'Wikipedia: The Twilight Zone (1959 TV series)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+- title: 'Encyclopedia.com (Scribner Encyclopedia of American Lives): Serling, Rodman Edward ("Rod")'
+  url: https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/serling-rodman-edward-rod
+categories:
+- events/premieres
+research_confidence: high
+relevance: core
+last_verified: '2026-11-21'
+tags:
+- research-2026-11-21

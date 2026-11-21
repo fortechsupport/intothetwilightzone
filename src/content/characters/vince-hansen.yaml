@@ -1,0 +1,28 @@
+name: Vince Hansen
+kind: human
+played_by:
+- Jake Busey
+appears_in:
+- 2002/chosen
+description: >-
+  A broke, unpleasant man followed by two persistent evangelists who tell him he has been chosen. He takes them
+  for part of a sinister plot linked to a string of disappearances, but they are trying to save people from a
+  coming nuclear catastrophe, and when he shoots one of them they leave him to his fate.
+recurring: false
+relevance: core
+sources:
+- title: The Twilight Zone (2002) season 1 cast and characters - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: The Twilight Zone (2002) - TV Tropes
+  url: https://tvtropes.org/pmwiki/pmwiki.php/Series/TheTwilightZone2002
+  note: Supporting source for plot details.
+- title: Chosen - IMDb
+  url: https://www.imdb.com/title/tt0734774/
+research_confidence: medium
+last_verified: '2026-11-21'
+categories:
+- people/characters
+tags:
+- research-2026-11-21

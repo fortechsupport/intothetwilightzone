@@ -1,0 +1,45 @@
+title: 'Where to watch now: The Twilight Zone (1959) in the US'
+kind: link
+subtype: streaming
+year: 2026
+description: As checked on 17 November 2026, all five seasons of the original series stream in the US on Paramount+
+  (Essential and Premium, also as a Paramount+ channel on Apple TV, Amazon and Roku), and free with ads on Pluto
+  TV and Fandango at Home Free. Seasons can be bought from Amazon, Apple TV and Fandango at Home from about $5 each.
+  A December 2025 report said the series was leaving Pluto TV, but JustWatch still listed it there in November 2026.
+details:
+  checked: '2026-11-17'
+  region: United States
+  subscription:
+  - Paramount+
+  free_with_ads:
+  - Pluto TV
+  - Fandango at Home Free
+  buy:
+  - Amazon Video
+  - Apple TV
+  - Fandango at Home
+links:
+  justwatch: https://www.justwatch.com/us/tv-show/the-twilight-zone-1959
+organizations:
+- Paramount+
+- Pluto TV
+- Fandango at Home
+- Amazon
+- Apple TV
+sources:
+- title: JustWatch US - The Twilight Zone (1959)
+  url: https://www.justwatch.com/us/tv-show/the-twilight-zone-1959
+  note: Page states it checked 375 services on 17 November 2026.
+- title: Cancelled Sci Fi - The original Twilight Zone is available on Paramount+ and Prime Video, and it is leaving
+    Pluto TV (29 December 2025)
+  url: https://www.cancelledscifi.com/2025/12/29/streaming-sci-fi-tv-the-original-twilight-zone-is-available-on-paramount-prime-video-and-pluto-tv/
+content_of:
+- series/1959
+categories:
+- series/where-to-watch
+relevance: core
+research_confidence: high
+tags:
+- date-sensitive
+- research-2026-11-21
+last_verified: '2026-11-21'

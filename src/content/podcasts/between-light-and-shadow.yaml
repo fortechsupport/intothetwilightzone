@@ -1,4 +1,4 @@
-title: Between Light and Shadow
+title: 'Between Light and Shadow: A Twilight Zone Podcast'
 hosts:
 - Craig Beam
 first_episode: '2016-09-01'
@@ -6,9 +6,28 @@ links:
   podchaser: https://www.podchaser.com/podcasts/between-light-and-shadow-a-twi-218451
   rss: https://zonepod.libsyn.com/rss
   youtube: https://www.youtube.com/channel/UCBb9aLJAkjB2GAhNDi28Ipw
+  apple: https://podcasts.apple.com/podcast/id1149663437
+  website: https://zonepod.libsyn.com
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: An independent fan podcast that discusses episodes of The Twilight Zone, hosted by Craig Beam, with
-  its first episode in September 2016. Its name and RSS feed are listed; how many episodes it covers has not been
-  checked.
+  note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
+- title: Apple Podcasts - Between Light and Shadow
+  url: https://podcasts.apple.com/podcast/id1149663437
+- title: Apple Podcasts directory lookup (iTunes API), id 1149663437
+  url: https://itunes.apple.com/lookup?id=1149663437&entity=podcast
+  note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
+- title: Libsyn directory - Between Light and Shadow
+  url: https://directory.libsyn.com/shows/view/id/zonepod
+description: Craig Beam's independent podcast on The Twilight Zone, hosted on Libsyn, running in numbered seasons
+  from September 2016 (episode titles such as "2x08 Put Up Yer Nukes"). Apple lists 69 episodes, the last posted
+  on 24 December 2021, so it appears to have stopped.
+status: ended
+episode_count: 69
+episode_count_as_of: '2026-11-21'
+covers:
+- '1959'
+research_confidence: medium
+tags:
+- research-2026-11-21
+last_verified: '2026-11-21'
+relevance: core

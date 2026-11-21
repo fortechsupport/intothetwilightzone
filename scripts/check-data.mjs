@@ -43,9 +43,7 @@ for (const [key, d] of records) {
     else if (target.duplicate_of) findings.push(`${key}: duplicate_of points at another duplicate ${d.duplicate_of}`);
   }
   if (col !== 'connections' && col !== 'series' && !(d.sources?.length) && !d.duplicate_of) {
-    // Seed organizations were created from names in other records; they are listed, not failed, until researched.
-    if ((d.tags ?? []).includes('seed-record')) warnings.push(`${key}: seed record with no sources yet`);
-    else findings.push(`${key}: no sources`);
+    findings.push(`${key}: no sources`);
   }
 }
 

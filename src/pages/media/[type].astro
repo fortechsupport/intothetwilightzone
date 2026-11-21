@@ -1,0 +1,26 @@
+---
+// One kind of media or content in the Media Library: every item and every page it appears on.
+import Base from '../../layouts/Base.astro';
+import MediaTable from '../../components/MediaTable.astro';
+import { mediaLibrary } from '../../lib/catalog';
+import { MEDIA_TYPES } from '../../lib/media-types';
+
+export async function getStaticPaths() {
+  const items = await mediaLibrary();
+  return MEDIA_TYPES.filter((t) => items.some((i) => i.type === t.key)).map((t) => ({ params: { type: t.slug }, props: { t } }));
+}
+const { t } = Astro.props as { t: (typeof MEDIA_TYPES)[number] };
+const items = (await mediaLibrary()).filter((i) => i.type === t.key);
+const all = await mediaLibrary();
+const others = MEDIA_TYPES.filter((x) => x.key !== t.key && all.some((i) => i.type === x.key));
+---
+<Base title={`${t.label} in the Media Library`} description={`${t.label} in the IntoTheTwilightZone.com Media Library: ${items.length} items (${t.what.toLowerCase()}), each with every page it appears on.`}>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/media/">Media Library</a></p>
+  <h1>{t.label}</h1>
+  <p class="lead">{items.length.toLocaleString('en-US')} {items.length === 1 ? 'item' : 'items'}: {t.what.charAt(0).toLowerCase() + t.what.slice(1)}. Sort by any column, or filter by where they appear and by rights.</p>
+  <MediaTable items={items} />
+  <nav class="subnav siblings" aria-label="More in the Media Library" data-pagefind-ignore>
+    <h2>More in the Media Library</h2>
+    <ul>{others.map((x) => <li><a href={`/media/${x.slug}/`}>{x.label}</a> <span class="count-pill">{all.filter((i) => i.type === x.key).length}</span></li>)}</ul>
+  </nav>
+</Base>

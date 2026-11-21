@@ -276,7 +276,7 @@ def natural(s: str):
     return [int(t) if t.isdigit() else t for t in re.split(r"(\d+)", s)]
 
 
-def export(out: Path, base_url: str) -> None:
+def export(out: Path, base_url: str, tag: str = "", name: str = "review-queue") -> None:
     from openpyxl import Workbook
     from openpyxl.formatting.rule import FormulaRule
     from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
@@ -284,6 +284,9 @@ def export(out: Path, base_url: str) -> None:
     from openpyxl.worksheet.datavalidation import DataValidation
 
     rows = queue()
+    if tag:
+        # Only records carrying this tag, e.g. one research pass, for a short review round.
+        rows = [r for r in rows if tag in [t.strip() for t in r["tags"].split(",")]]
     out.mkdir(parents=True, exist_ok=True)
     stamp = dt.date.today().isoformat()
     letter = {k: get_column_letter(i) for i, (_, k, _, _) in enumerate(COLUMNS, start=1)}
@@ -421,14 +424,14 @@ def export(out: Path, base_url: str) -> None:
     wb.move_sheet("How to use", offset=-2)
     wb.active = 1
 
-    xlsx = out / "review-queue.xlsx"
+    xlsx = out / f"{name}.xlsx"
     wb.save(xlsx)
-    with open(out / "review-queue.csv", "w", newline="", encoding="utf-8-sig") as fh:
+    with open(out / f"{name}.csv", "w", newline="", encoding="utf-8-sig") as fh:
         w = csv.writer(fh)
         w.writerow([c[0] for c in COLUMNS])
         for r in rows:
             w.writerow([r[k] for _, k, _, _ in COLUMNS])
-    print(f"Wrote {xlsx} and review-queue.csv: {len(rows)} records "
+    print(f"Wrote {xlsx} and {name}.csv: {len(rows)} records "
           + ", ".join(f"{sum(1 for r in rows if r['decision'] == s)} {s}" for s in STATUSES))
 
 
@@ -528,13 +531,15 @@ def main() -> int:
     e = sub.add_parser("export", help="write the review spreadsheet")
     e.add_argument("--out", type=Path, default=ROOT / "review")
     e.add_argument("--base-url", default="", help="prefix for the Page column, e.g. a preview deploy URL")
+    e.add_argument("--tag", default="", help="only export records with this tag (e.g. research-2026-11-21)")
+    e.add_argument("--name", default="review-queue", help="output file name without extension")
     i = sub.add_parser("import", help="read decisions from a marked-up spreadsheet or CSV")
     i.add_argument("files", nargs="+", type=Path)
     i.add_argument("--dry-run", action="store_true")
     sub.add_parser("status", help="show review progress")
     a = ap.parse_args()
     if a.cmd == "export":
-        export(a.out, a.base_url)
+        export(a.out, a.base_url, a.tag, a.name)
         return 0
     if a.cmd == "import":
         return import_files(a.files, a.dry_run)

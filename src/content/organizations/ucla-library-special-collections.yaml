@@ -8,7 +8,13 @@ kind: library
 description: Holds Rod Serling papers, his Dictabelt dictation recordings and the CBS film and television collection.
 official: false
 relevance: related
-sources: []
+sources:
+- title: 'Online Archive of California: Serling (Rod) papers, 1945-1969'
+  url: https://oac.cdlib.org/findaid/ark:/13030/kt5489n8zx
+- title: 'UCLA Library: The Rod Serling Dictabelt Collection (2020)'
+  url: https://www.library.ucla.edu/about/news/the-rod-serling-dictabelt-collection/
+- title: 'Online Archive of California: CBS Inc. film and television collection, 1955-1991'
+  url: https://oac.cdlib.org/findaid/ark:/13030/kt8x0nd51b/admin/
 research_confidence: medium
 tags:
 - seed-record

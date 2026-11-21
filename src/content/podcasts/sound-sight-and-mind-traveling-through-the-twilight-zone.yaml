@@ -1,15 +1,32 @@
 title: 'Sound, Sight and Mind: Traveling Through the Twilight Zone'
 hosts:
-- Chris
-- Steve
-- '& Ken Andrade'
+- Chris Andrade
+- Ken Andrade
+- Stephen Andrade
 first_episode: '2017-09-09'
 links:
   podchaser: https://www.podchaser.com/podcasts/sound-sight-and-mind-traveling-559481
   rss: https://ssmpodcast.wordpress.com/category/podcast/feed/
+  apple: https://podcasts.apple.com/us/podcast/sound-sight-and-mind-traveling-through-the-twilight-zone/id1281202982
+  spotify: https://open.spotify.com/show/0S66RUXE9uHEChRMJG9E4K
+  website: https://ssmpodcast.wordpress.com/
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: An independent fan podcast that discusses episodes of The Twilight Zone, hosted by Chris, Steve and
-  Ken Andrade, with its first episode in September 2017. Its name and RSS feed are listed; how many episodes it
-  covers has not been checked.
+  note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
+- title: Apple Podcasts directory lookup (iTunes API), id 1281202982
+  url: https://itunes.apple.com/lookup?id=1281202982&entity=podcast
+  note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
+- title: Feedspot - 19 Best The Twilight Zone Podcasts
+  url: https://podcast.feedspot.com/the_twilight_zone_podcasts
+description: Three brothers, Chris, Ken and Stephen Andrade, discuss the original series three episodes at a time,
+  in episodes of about an hour. It started in September 2017; Apple lists 24 episodes, the latest in October 2023.
+status: unknown
+episode_count: 24
+episode_count_as_of: '2026-11-21'
+covers:
+- '1959'
+research_confidence: medium
+tags:
+- research-2026-11-21
+last_verified: '2026-11-21'
+relevance: core

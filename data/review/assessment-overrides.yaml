@@ -978,12 +978,6 @@ songs/l-a-style-twilight-zone:
   tier_reason: Mentions or borrows from the show.
   recommendation: maybe
   reason: Part of the early-90s rave wave of 'Twilight Zone' titles alongside 2 Unlimited.
-songs/morose-code-willoughby:
-  connection: Possible reference to 'A Stop at Willoughby' (1960); unconfirmed.
-  tier: tangential
-  tier_reason: Mentions or borrows from the show.
-  recommendation: maybe
-  reason: A lead only; check the track page before listing.
 songs/nebula-h-twilight-zone:
   connection: Listed on WhoSampled among tracks sampling The Twilight Zone.
   tier: tangential
@@ -2268,13 +2262,6 @@ works/serlingfest-2025-in-his-own-words:
   recommendation: include
   reason: A dated, sourced festival with notable speakers.
   subcategory: Anniversaries and festivals
-works/serlingfest-2026:
-  connection: The 2026 edition of the main annual Serling festival.
-  tier: related
-  tier_reason: An event in Rod Serling's life or the wider franchise.
-  recommendation: maybe
-  reason: Dates come from the foundation's announcement; confirm the programme before featuring it.
-  subcategory: Anniversaries and festivals
 works/seven-voyages-of-bernard-herrmann:
   connection: Includes the CBS library suite tracked into early Twilight Zone episodes.
   tier: related
@@ -2949,3 +2936,1554 @@ works/stage-89-tower-of-terror-30th-2024:
   subcategory: Anniversaries and festivals
   tier: related
   tier_reason: An event in Rod Serling's life or the wider franchise.
+
+# Research pass 2026-11-21 (overnight gap research)
+characters/ally-warner:
+  connection: A character in "The Path", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Path" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/amber-sunrise:
+  connection: A character in "Sunrise", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Sunrise" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/andrew-lomax:
+  connection: A character in "Dream Lover", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Dream Lover" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/andy-perez:
+  connection: A character in "Last Lap", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Last Lap" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/anne-macintosh:
+  connection: A character in "Upgrade", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Upgrade" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/boggs:
+  connection: A character in "To Protect and Serve", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "To Protect and Serve" had no character records, so its cast could not be browsed by role.
+    Names come from a published cast list.'
+  subcategory: Characters
+characters/carla-arroyo:
+  connection: A character in "To Protect and Serve", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "To Protect and Serve" had no character records, so its cast could not be browsed by role.
+    Names come from a published cast list.'
+  subcategory: Characters
+characters/clare-woodrell:
+  connection: A character in "Shades of Guilt", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Shades of Guilt" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/cory-williams:
+  connection: A character in "Harsh Mistress", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Harsh Mistress" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/danielle-randall:
+  connection: A character in "The Collection", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Collection" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/dr-chandler-cold-fusion:
+  connection: A character in "Cold Fusion", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Cold Fusion" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/dr-puckett:
+  connection: A character in "The Convict's Piano", an episode of the 1985 revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Convict''s Piano" had no character records, so its cast could not be browsed by role.
+    Names come from a published cast list.'
+  subcategory: Characters
+characters/dylan-maple-street:
+  connection: A character in "The Monsters Are on Maple Street", an episode of the 2002 UPN revival of The Twilight
+    Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Monsters Are on Maple Street" had no character records, so its cast could not be browsed
+    by role. Names come from a published cast list.'
+  subcategory: Characters
+characters/eddie-ohara:
+  connection: A character in "The Convict's Piano", an episode of the 1985 revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Convict''s Piano" had no character records, so its cast could not be browsed by role.
+    Names come from a published cast list.'
+  subcategory: Characters
+characters/edie-durant:
+  connection: A character in "Developing", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Developing" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/elizabeth-wicker:
+  connection: A character in "Found and Lost", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Found and Lost" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/eve-sunrise:
+  connection: A character in "Sunrise", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Sunrise" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/francesca-future-trade:
+  connection: A character in "Future Trade", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Future Trade" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/george-straitton:
+  connection: A character in "Fair Warning", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Fair Warning" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/harry-kellogg:
+  connection: A character in "The Pharaoh's Curse", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Pharaoh''s Curse" had no character records, so its cast could not be browsed by role.
+    Names come from a published cast list.'
+  subcategory: Characters
+characters/harry-raditch:
+  connection: A character in "The Placebo Effect", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Placebo Effect" had no character records, so its cast could not be browsed by role.
+    Names come from a published cast list.'
+  subcategory: Characters
+characters/jasmine-another-life:
+  connection: A character in "Another Life", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Another Life" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/jeffrey-freed:
+  connection: A character in "Hunted", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Hunted" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/jenna-evergreen:
+  connection: A character in "Evergreen", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Evergreen" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/joanne-yarrow:
+  connection: A character in "Hunted", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Hunted" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/john-woodrell:
+  connection: A character in "Shades of Guilt", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Shades of Guilt" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/jonah-beech:
+  connection: A character in "Rewind", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Rewind" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/kneigh:
+  connection: A character in "The Path", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Path" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/laurel-janus:
+  connection: A character in "Dead Man's Eyes", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Dead Man''s Eyes" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/leslie-coburn:
+  connection: A character in "The Placebo Effect", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Placebo Effect" had no character records, so its cast could not be browsed by role.
+    Names come from a published cast list.'
+  subcategory: Characters
+characters/marco-flores:
+  connection: A character in "Last Lap", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Last Lap" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/marcus-fisher:
+  connection: A character in "Tagged", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Tagged" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/mario-devlin:
+  connection: A character in "The Pharaoh's Curse", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Pharaoh''s Curse" had no character records, so its cast could not be browsed by role.
+    Names come from a published cast list.'
+  subcategory: Characters
+characters/marisa-sanborn:
+  connection: A character in "Sanctuary", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Sanctuary" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/martin-donner:
+  connection: A character in "Future Trade", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Future Trade" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/martin-luther-king-jr-memphis:
+  connection: A character in "Memphis", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Memphis" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/marty-sunrise:
+  connection: A character in "Sunrise", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Sunrise" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/marvin-gardens:
+  connection: A character in "Another Life", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Another Life" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/matt-mcgreevey:
+  connection: A character in "Shades of Guilt", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Shades of Guilt" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/melina-kroner:
+  connection: A character in "Night Route", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Night Route" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/michael-chosen:
+  connection: A character in "Chosen", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Chosen" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/mickey-shaughnessy:
+  connection: A character in "The Convict's Piano", an episode of the 1985 revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Convict''s Piano" had no character records, so its cast could not be browsed by role.
+    Names come from a published cast list.'
+  subcategory: Characters
+characters/miranda-evans:
+  connection: A character in "The Collection", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Collection" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/mr-hunt-the-pool-guy:
+  connection: A character in "The Pool Guy", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Pool Guy" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/muriel-chosen:
+  connection: A character in "Chosen", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Chosen" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/nick-janus:
+  connection: A character in "Dead Man's Eyes", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Dead Man''s Eyes" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/noah-sunrise:
+  connection: A character in "Sunrise", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Sunrise" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/paul-thorson:
+  connection: A character in "Cold Fusion", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Cold Fusion" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/philip-upgrade:
+  connection: A character in "Upgrade", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Upgrade" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/rachel-stark:
+  connection: A character in "Into the Light", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Into the Light" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/ray-ellison:
+  connection: A character in "Memphis", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Memphis" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/richie-almares:
+  connection: A character in "The Pool Guy", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Pool Guy" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/ricky-frost:
+  connection: A character in "The Convict's Piano", an episode of the 1985 revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Convict''s Piano" had no character records, so its cast could not be browsed by role.
+    Names come from a published cast list.'
+  subcategory: Characters
+characters/rigo-valentine:
+  connection: A character in "To Protect and Serve", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "To Protect and Serve" had no character records, so its cast could not be browsed by role.
+    Names come from a published cast list.'
+  subcategory: Characters
+characters/rikki-sanctuary:
+  connection: A character in "Sanctuary", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Sanctuary" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/rob-malone:
+  connection: A character in "Homecoming", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Homecoming" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/scott-crane:
+  connection: A character in "Burned", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Burned" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/scott-turner-sanctuary:
+  connection: A character in "Sanctuary", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Sanctuary" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/sean-moore:
+  connection: A character in "Found and Lost", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Found and Lost" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/shannon-pharaohs-curse:
+  connection: A character in "The Pharaoh's Curse", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Pharaoh''s Curse" had no character records, so its cast could not be browsed by role.
+    Names come from a published cast list.'
+  subcategory: Characters
+characters/sondra-lomax:
+  connection: A character in "Dream Lover", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Dream Lover" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/the-kreetor:
+  connection: A character in "Hunted", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Hunted" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/tina-bishop:
+  connection: A character in "Fair Warning", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Fair Warning" had no character records, so its cast could not be browsed by role. Names
+    come from a published cast list.'
+  subcategory: Characters
+characters/trace-malone:
+  connection: A character in "Homecoming", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Homecoming" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/trevor-black:
+  connection: A character in "Rewind", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Rewind" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/vince-hansen:
+  connection: A character in "Chosen", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Chosen" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/wesley-sunrise:
+  connection: A character in "Sunrise", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Sunrise" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+characters/will-marshall:
+  connection: A character in "The Monsters Are on Maple Street", an episode of the 2002 UPN revival of The Twilight
+    Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "The Monsters Are on Maple Street" had no character records, so its cast could not be browsed
+    by role. Names come from a published cast list.'
+  subcategory: Characters
+characters/zack-walker:
+  connection: A character in "Time Lapse", an episode of the 2002 UPN revival of The Twilight Zone.
+  tier: core
+  tier_reason: Appears in a Twilight Zone episode.
+  recommendation: include
+  reason: 'Fills a gap: "Time Lapse" had no character records, so its cast could not be browsed by role. Names come
+    from a published cast list.'
+  subcategory: Characters
+people/andrew-guest:
+  connection: Writer of the 2019 episode "The Wunderkind".
+  tier: core
+  tier_reason: Credited on a Twilight Zone episode.
+  recommendation: include
+  reason: Credited writer of a 2019 episode; Wikipedia filmography confirms it. Links an existing credit to a person
+    page.
+  subcategory: Writers
+people/linden-chiles:
+  connection: Actor in the original series episode "Four O'Clock".
+  tier: core
+  tier_reason: Credited on a Twilight Zone episode.
+  recommendation: include
+  reason: Cast member of a 1959 episode; Wikipedia confirms the Twilight Zone guest role. Links an existing credit
+    to a person page.
+  subcategory: Actors
+people/martin-lavut:
+  connection: Director of the 1989 episode "The Cold Equations".
+  tier: core
+  tier_reason: Credited on a Twilight Zone episode.
+  recommendation: include
+  reason: Credited director of a 1985-series episode; identity matched via an episode-credits site plus Wikipedia
+    bio. Links an existing credit to a person page.
+  subcategory: Directors
+people/paul-shapiro:
+  connection: Director of the 2002 episode "The Pool Guy".
+  tier: core
+  tier_reason: Credited on a Twilight Zone episode.
+  recommendation: maybe
+  reason: Credited director of a 2002 episode; identity is likely but medium confidence. Links an existing credit
+    to a person page.
+  subcategory: Directors
+people/rayford-barnes:
+  connection: Actor in the original series episode "A Quality of Mercy".
+  tier: core
+  tier_reason: Credited on a Twilight Zone episode.
+  recommendation: include
+  reason: Cast member of a 1959 episode; Wikipedia names the episode. Links an existing credit to a person page.
+  subcategory: Actors
+works/cbs-develops-1985-revival-1984:
+  connection: A dated milestone in how The Twilight Zone was made, scheduled or distributed.
+  tier: core
+  tier_reason: About the official series itself.
+  recommendation: include
+  reason: Explains how the first revival came about; exact announcement date not found.
+  subcategory: Production and broadcast history
+works/cbs-orders-2019-revival-2017:
+  connection: A dated milestone in how The Twilight Zone was made, scheduled or distributed.
+  tier: core
+  tier_reason: About the official series itself.
+  recommendation: include
+  reason: A dated production or broadcast milestone the History area was missing.
+  subcategory: Production and broadcast history
+works/death-of-samuel-serling-1945:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: A formative family event; the exact date was not found in this pass, only the year.
+  subcategory: Rod Serling's life
+works/emmy-1971-night-gallery-tim-rileys-bar-nomination:
+  connection: An Emmy nomination for a Serling script on Night Gallery, his post-Twilight Zone anthology.
+  tier: related
+  tier_reason: Honor for a Serling production outside The Twilight Zone.
+  recommendation: include
+  reason: An honor the History area was missing.
+  subcategory: Honors and awards
+works/emmy-1972-night-gallery-pickmans-model-makeup-nomination:
+  connection: An Emmy nomination for Night Gallery, the anthology Serling hosted.
+  tier: related
+  tier_reason: Honor for a Serling production outside The Twilight Zone.
+  recommendation: include
+  reason: An honor the History area was missing.
+  subcategory: Honors and awards
+works/first-season-sponsors-1959:
+  connection: A dated milestone in how The Twilight Zone was made, scheduled or distributed.
+  tier: core
+  tier_reason: About the official series itself.
+  recommendation: include
+  reason: Sponsors shaped what Serling could say; the series record notes full sponsorship but not who.
+  subcategory: Production and broadcast history
+works/first-squad-first-platoon-published-2024:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: A posthumous first publication and the most direct record of his war; the story itself is an essays record.
+  subcategory: Rod Serling's life
+works/jordan-peele-named-host-2018:
+  connection: A dated milestone in how The Twilight Zone was made, scheduled or distributed.
+  tier: core
+  tier_reason: About the official series itself.
+  recommendation: include
+  reason: A dated production or broadcast milestone the History area was missing.
+  subcategory: Production and broadcast history
+works/night-gallery-series-premiere-1970:
+  connection: The premiere of Serling's second anthology series, which he hosted after The Twilight Zone.
+  tier: related
+  tier_reason: Premiere of a Serling production outside The Twilight Zone.
+  recommendation: include
+  reason: A dated premiere the History area was missing.
+  subcategory: Premieres
+works/original-series-leaves-netflix-2021:
+  connection: A dated milestone in how The Twilight Zone was made, scheduled or distributed.
+  tier: core
+  tier_reason: About the official series itself.
+  recommendation: include
+  reason: Streaming access is what most new fans use; a dated change.
+  subcategory: Production and broadcast history
+works/patterns-airs-on-kraft-television-theatre-1955:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: The breakthrough of his career; the Emmy is already a separate record, the broadcast was not.
+  subcategory: Rod Serling's life
+works/planet-of-the-apes-released-1968:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: His most famous film work and its twist ending is pure Twilight Zone.
+  subcategory: Rod Serling's life
+works/requiem-for-a-heavyweight-airs-1956:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: One of the most celebrated live TV dramas; the broadcast date itself belongs on the timeline.
+  subcategory: Rod Serling's life
+works/rod-serling-archives-move-to-ithaca-college-archives-1997:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: Where his papers are; useful to researchers and part of his legacy.
+  subcategory: Rod Serling's life
+works/rod-serling-born-1924:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: The starting point of any Serling timeline.
+  subcategory: Rod Serling's life
+works/serling-11th-airborne-ships-to-the-pacific-1944:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: Bridges his training and his combat on Leyte; dated from the National WWII Museum account.
+  subcategory: Rod Serling's life
+works/serling-begins-teaching-at-ithaca-college-1967:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: The Ithaca years are a large part of his legacy; sources disagree on the start, which the text notes.
+  subcategory: Rod Serling's life
+works/serling-campaigns-for-eugene-mccarthy-1968:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: Shows the political convictions behind his scripts; one source.
+  subcategory: Rod Serling's life
+works/serling-combat-on-leyte-1944:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: The combat that haunted him and fed episodes such as "The Purple Testament"; a key life milestone.
+  subcategory: Rod Serling's life
+works/serling-discharged-and-enters-antioch-1946:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: The start of his writing life; the change of major is from Wikipedia and lower confidence.
+  subcategory: Rod Serling's life
+works/serling-family-moves-to-binghamton-1926:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: Binghamton is the hometown fans visit and the source of several episodes; the move belongs on the timeline.
+  subcategory: Rod Serling's life
+works/serling-first-heart-attack-1975:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: The start of the illness that ended his life at 50.
+  subcategory: Rod Serling's life
+works/serling-first-network-radio-script-1949:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: His first professional sale; dates from Wikipedia only.
+  subcategory: Rod Serling's life
+works/serling-first-on-camera-a-world-of-his-own-1960:
+  connection: A dated milestone in how The Twilight Zone was made, scheduled or distributed.
+  tier: core
+  tier_reason: About the official series itself.
+  recommendation: include
+  reason: The origin of Serling as the on-screen host; a favorite piece of trivia.
+  subcategory: Production and broadcast history
+works/serling-funeral-and-burial-1975:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: A fan pilgrimage site with a precise date.
+  subcategory: Rod Serling's life
+works/serling-graduates-antioch-joins-wlw-1950:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: Marks his move from student to working writer.
+  subcategory: Rod Serling's life
+works/serling-graduates-high-school-and-enlists-1943:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: The war shaped much of his later writing; this is the dated start of it.
+  subcategory: Rod Serling's life
+works/serling-heart-surgery-rochester-1975:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: Directly precedes the existing death record and explains it.
+  subcategory: Rod Serling's life
+works/serling-hosts-fantasy-park-1974:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: One of his last recorded jobs; a curiosity fans enjoy.
+  subcategory: Rod Serling's life
+works/serling-hosts-liars-club-1969:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: Shows the range of his on-camera work; one source.
+  subcategory: Rod Serling's life
+works/serling-interviewed-by-mike-wallace-1959:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: core
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: A famous primary source about why he made the show; exact air date not confirmed in this pass.
+  subcategory: Rod Serling's life
+works/serling-leaves-wkrc-to-freelance-1952:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: The step that led to Patterns; one source dates it.
+  subcategory: Rod Serling's life
+works/serling-luzon-and-manila-1945:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: Dates his wounds and decorations, which visitors often ask about.
+  subcategory: Rod Serling's life
+works/serling-marries-carol-kramer-1948:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: Carol Serling is a major figure in the franchise's later history; the marriage is a core life event.
+  subcategory: Rod Serling's life
+works/serling-memorial-service-cornell-1975:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: Completes the record of how he was mourned; one source.
+  subcategory: Rod Serling's life
+works/serling-paratrooper-training-camp-toccoa-1943:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: Specific, sourced detail about his unit that fans of his war-themed episodes look for.
+  subcategory: Rod Serling's life
+works/serling-recreated-in-blurryman-2019:
+  connection: A dated milestone in how The Twilight Zone was made, scheduled or distributed.
+  tier: core
+  tier_reason: About the official series itself.
+  recommendation: include
+  reason: A notable moment linking the revival to Serling; the method of recreation is described only briefly in
+    the sources.
+  subcategory: Production and broadcast history
+works/serling-volunteers-at-wnyc-1946:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: His first job in broadcasting; one source only.
+  subcategory: Rod Serling's life
+works/serling-writer-in-residence-at-antioch-1962:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: Explains his absence from the fourth season and the origin of Seven Days in May.
+  subcategory: Rod Serling's life
+works/serling-writes-the-new-people-pilot-1969:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: A lesser-known Serling credit between The Loner and Night Gallery; one source.
+  subcategory: Rod Serling's life
+works/seven-days-in-may-released-1964:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: A major Serling film credit; release day not confirmed, only the year.
+  subcategory: Rod Serling's life
+works/the-comedian-airs-on-playhouse-90-1957:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: Third of his pre-Twilight Zone Emmy dramas; the air date is from the site's film record.
+  subcategory: Rod Serling's life
+works/the-loner-premieres-1965:
+  connection: A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.
+  tier: related
+  tier_reason: Rod Serling biography; the creator, not the show itself.
+  recommendation: include
+  reason: His first series after The Twilight Zone.
+  subcategory: Rod Serling's life
+works/twilight-zone-1985-season-2-premiere-1986:
+  connection: A premiere in the history of The Twilight Zone franchise.
+  tier: core
+  tier_reason: Premiere of an official Twilight Zone production.
+  recommendation: include
+  reason: A dated premiere the History area was missing.
+  subcategory: Premieres
+works/twilight-zone-2019-black-and-white-versions:
+  connection: A dated milestone in how The Twilight Zone was made, scheduled or distributed.
+  tier: core
+  tier_reason: About the official series itself.
+  recommendation: include
+  reason: An unusual release choice that ties the revival to the original.
+  subcategory: Production and broadcast history
+works/twilight-zone-2019-filming-vancouver-2018:
+  connection: A dated milestone in how The Twilight Zone was made, scheduled or distributed.
+  tier: core
+  tier_reason: About the official series itself.
+  recommendation: include
+  reason: A dated production or broadcast milestone the History area was missing.
+  subcategory: Production and broadcast history
+works/twilight-zone-2019-removed-from-paramount-plus-2023:
+  connection: A dated milestone in how The Twilight Zone was made, scheduled or distributed.
+  tier: core
+  tier_reason: About the official series itself.
+  recommendation: include
+  reason: A dated production or broadcast milestone the History area was missing.
+  subcategory: Production and broadcast history
+works/twilight-zone-2019-renewed-for-season-2:
+  connection: A dated milestone in how The Twilight Zone was made, scheduled or distributed.
+  tier: core
+  tier_reason: About the official series itself.
+  recommendation: include
+  reason: A dated production or broadcast milestone the History area was missing.
+  subcategory: Production and broadcast history
+works/twilight-zone-2019-season-2-release-2020:
+  connection: A premiere in the history of The Twilight Zone franchise.
+  tier: core
+  tier_reason: Premiere of an official Twilight Zone production.
+  recommendation: include
+  reason: A dated premiere the History area was missing.
+  subcategory: Premieres
+works/twilight-zone-2019-series-ends-2021:
+  connection: A dated milestone in how The Twilight Zone was made, scheduled or distributed.
+  tier: core
+  tier_reason: About the official series itself.
+  recommendation: include
+  reason: The end of the most recent series; day of the announcement not confirmed.
+  subcategory: Production and broadcast history
+works/twilight-zone-radio-dramas-launch-2002:
+  connection: A premiere in the history of The Twilight Zone franchise.
+  tier: core
+  tier_reason: Premiere of an official Twilight Zone production.
+  recommendation: include
+  reason: The radio dramas have a large section on the site but no dated premiere in History; exact launch date
+    not confirmed.
+  subcategory: Premieres
+works/twilight-zone-season-2-premiere-1960:
+  connection: A premiere in the history of The Twilight Zone franchise.
+  tier: core
+  tier_reason: Premiere of an official Twilight Zone production.
+  recommendation: include
+  reason: A dated premiere the History area was missing.
+  subcategory: Premieres
+works/twilight-zone-season-3-premiere-1961:
+  connection: A premiere in the history of The Twilight Zone franchise.
+  tier: core
+  tier_reason: Premiere of an official Twilight Zone production.
+  recommendation: include
+  reason: A dated premiere the History area was missing.
+  subcategory: Premieres
+works/twilight-zone-season-5-premiere-1963:
+  connection: A premiere in the history of The Twilight Zone franchise.
+  tier: core
+  tier_reason: Premiere of an official Twilight Zone production.
+  recommendation: include
+  reason: A dated premiere the History area was missing.
+  subcategory: Premieres
+works/twilight-zone-stage-play-west-end-2019:
+  connection: A premiere in the history of The Twilight Zone franchise.
+  tier: core
+  tier_reason: Premiere of an official Twilight Zone production.
+  recommendation: include
+  reason: A dated premiere the History area was missing.
+  subcategory: Premieres
+works/twilight-zone-stage-play-world-premiere-almeida-2017:
+  connection: A premiere in the history of The Twilight Zone franchise.
+  tier: core
+  tier_reason: Premiere of an official Twilight Zone production.
+  recommendation: include
+  reason: First licensed stage version; the date is the site's stage record (first performance or press night not
+    separated).
+  subcategory: Premieres
+podcasts/anthology:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: 168-episode first-time watch of the original series paired with Science Fiction Theatre; verified on Apple.
+  subcategory: Podcasts
+podcasts/art-of-manliness-844-life-lessons-twilight-zone:
+  connection: An interview episode with Mark Dawidziak about his TZ book.
+  tier: core
+  tier_reason: See connection.
+  recommendation: include
+  reason: Widely heard show; solid, dated episode with a TZ author.
+  subcategory: Podcasts
+podcasts/between-light-and-shadow:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: 69 episodes 2016-2021; ended but archived and listenable.
+  subcategory: Podcasts
+podcasts/between-light-shadow-science-and-superstition:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: maybe
+  reason: 58 episodes 2020-2022 with old-time-radio framing; small show.
+  subcategory: Podcasts
+podcasts/between-science-and-superstition:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: 57 episodes covering season 1 and the 2019 revival as it aired.
+  subcategory: Podcasts
+podcasts/dimensions-a-twilight-zone-podcast:
+  connection: Episode-by-episode coverage of the 1959 series.
+  tier: core
+  tier_reason: See connection.
+  recommendation: include
+  reason: 76 episodes 2023-2025.
+  subcategory: Podcasts
+podcasts/dreams-for-sale-twilight-zone-85:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: One of the few podcasts devoted to the 1985 revival; 49 episodes.
+  subcategory: Podcasts
+podcasts/ear-of-the-beholder-liw-the-twilight-zone-review:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: 304 episodes, active, covers every series plus Night Gallery; comedy tone.
+  subcategory: Podcasts
+podcasts/entering-the-fifth-dimension:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: Golden Spiral Media monthly themed show; links and co-hosts added.
+  subcategory: Podcasts
+podcasts/hallowed-groundling-twilight-zone-segment:
+  connection: Horror podcast with a monthly in-order TZ segment.
+  tier: related
+  tier_reason: See connection.
+  recommendation: maybe
+  reason: TZ is a recurring segment, not the whole show.
+  subcategory: Podcasts
+podcasts/imagine-if-you-will:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: 181 episodes, active in 2026.
+  subcategory: Podcasts
+podcasts/pretty-much-pop-52-twilight-zone-morality-tales:
+  connection: A discussion episode on TZ morality tales.
+  tier: core
+  tier_reason: See connection.
+  recommendation: maybe
+  reason: Only the title and URL were confirmed.
+  subcategory: Podcasts
+podcasts/rarified-heir-269-anne-serling:
+  connection: Anne Serling interviewed about her father.
+  tier: related
+  tier_reason: See connection.
+  recommendation: include
+  reason: First-hand family memories of Serling.
+  subcategory: Podcasts
+podcasts/sound-sight-and-mind-traveling-through-the-twilight-zone:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: maybe
+  reason: Only 24 episodes, last 2023.
+  subcategory: Podcasts
+podcasts/strange-highways:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: 421 episodes; finished all four series in Sept 2026 and now covers Night Gallery.
+  subcategory: Podcasts
+podcasts/submitted-for-your-approval:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: 94 episodes through season 3; long-standing.
+  subcategory: Podcasts
+podcasts/thats-not-fair-a-queer-twilight-zone-podcast:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: Distinct queer-reading perspective; 24 episodes 2024.
+  subcategory: Podcasts
+podcasts/the-5th-dimension-a-twilight-zone-podcast:
+  connection: A TZ podcast on Anchor.
+  tier: core
+  tier_reason: See connection.
+  recommendation: maybe
+  reason: 164 episodes but hosts and format unconfirmed; low confidence.
+  subcategory: Podcasts
+podcasts/the-fifth-dimension:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: 79 episodes 2014-2020; distinct from the Consequence show of the same name.
+  subcategory: Podcasts
+podcasts/the-hindsight-zone:
+  connection: An episode-by-episode podcast.
+  tier: core
+  tier_reason: See connection.
+  recommendation: include
+  reason: Active weekly in Nov 2026, 37 episodes.
+  subcategory: Podcasts
+podcasts/the-key-of-imagination:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: 78 episodes, active in 2026, with YouTube versions.
+  subcategory: Podcasts
+podcasts/the-sci-fright-zone:
+  connection: Covers TZ, Outer Limits and Night Gallery.
+  tier: core
+  tier_reason: See connection.
+  recommendation: maybe
+  reason: Only 8 episodes so far.
+  subcategory: Podcasts
+podcasts/the-sign-post-up-ahead-load-bearing-beams:
+  connection: A monthly in-order podcast on the original series.
+  tier: core
+  tier_reason: See connection.
+  recommendation: include
+  reason: New 2025-26 show, 13 episodes; spin-off of 1-Week Rental.
+  subcategory: Podcasts
+podcasts/the-signpost-up-ahead-silver-stanton:
+  connection: A watch-every-episode podcast.
+  tier: core
+  tier_reason: See connection.
+  recommendation: include
+  reason: New 2025-26 show, 37 episodes; near-identical name to the Load Bearing Beams show, so both are labelled.
+  subcategory: Podcasts
+podcasts/the-twilight-highlight-zone:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: Game Informer/MinnMax editors; 55 episodes, covered the 2019 revival weekly.
+  subcategory: Podcasts
+podcasts/the-twilight-pwn:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: Long-running weekly show; links added, duplicate featured episode removed.
+  subcategory: Podcasts
+podcasts/the-twilight-zone-podcast:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: The longest-running TZ podcast; links added.
+  subcategory: Podcasts
+podcasts/the-twilight-zone-zone:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: maybe
+  reason: Only 2 episodes survive in the feed; minimal value.
+  subcategory: Podcasts
+podcasts/time-enough-podcast:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: 219 episodes, very active, philosophical angle, covers Night Gallery too.
+  subcategory: Podcasts
+podcasts/tv-confidential-serling-centennial-tribute:
+  connection: Two-show Serling centennial tribute with Anne and Jodi Serling and Marc Scott Zicree.
+  tier: related
+  tier_reason: See connection.
+  recommendation: include
+  reason: High-value guests; dated 2025.
+  subcategory: Podcasts
+podcasts/tv-terror-anthony-rotolo:
+  connection: Covers TZ and Night Gallery among other dark TV.
+  tier: related
+  tier_reason: See connection.
+  recommendation: maybe
+  reason: 113 episodes, ended 2022; only partly about TZ.
+  subcategory: Podcasts
+podcasts/zone-i-sodes:
+  connection: A podcast devoted to the show.
+  tier: core
+  tier_reason: Episode-by-episode or thematic coverage of the series.
+  recommendation: include
+  reason: NPR Illinois Front Row Network show; organizations added.
+  subcategory: Podcasts
+works/everson-museum-rod-serling-before-the-twilight-zone:
+  connection: Syracuse museum programme on Serling's pre-TZ career.
+  tier: related
+  tier_reason: See connection.
+  recommendation: maybe
+  reason: Type and date unconfirmed; strong lead for a later pass.
+  subcategory: Exhibitions
+works/h-and-i-rod-white-and-blue-marathon-2025:
+  connection: H&I network's 2025 July 4 TZ marathon.
+  tier: core
+  tier_reason: See connection.
+  recommendation: include
+  reason: Shows the marathon tradition spreading beyond Syfy.
+  subcategory: Screenings and marathons
+works/hole-in-the-wall-of-shadows-and-substance-2008:
+  connection: Community staging of four original teleplays.
+  tier: related
+  tier_reason: See connection.
+  recommendation: include
+  reason: Specific cast/director credits; one more US stage production.
+  subcategory: Stage
+works/ithaca-college-friday-night-twilight-zone-marathon-2008:
+  connection: Campus TZ marathon at Serling's college.
+  tier: related
+  tier_reason: See connection.
+  recommendation: maybe
+  reason: Minor event; title-only source.
+  subcategory: Screenings and marathons
+works/rosendale-theatre-rod-serling-evening-2025:
+  connection: A Serling-themed evening at a Hudson Valley cinema.
+  tier: related
+  tier_reason: See connection.
+  recommendation: maybe
+  reason: Minor event; programme unconfirmed.
+  subcategory: Screenings and marathons
+works/serling-on-screen-binghamton:
+  connection: Binghamton screening series of Serling work.
+  tier: related
+  tier_reason: See connection.
+  recommendation: maybe
+  reason: Recurring local programme, details unconfirmed.
+  subcategory: Screenings and marathons
+works/serlingfest-2026:
+  connection: The foundation's 2026 festival.
+  tier: related
+  tier_reason: See connection.
+  recommendation: include
+  reason: Sources added only (schedule PDF, guests page, tickets, press); record is locked.
+  subcategory: Anniversaries and festivals
+works/suny-oswego-serling-100th-lecture-screening-2024:
+  connection: Centennial lecture and screening.
+  tier: related
+  tier_reason: See connection.
+  recommendation: maybe
+  reason: Title-only source; speaker unconfirmed.
+  subcategory: Anniversaries and festivals
+works/syfy-65-years-twilight-zone-marathon:
+  connection: Syfy marathon for the 65th anniversary.
+  tier: core
+  tier_reason: See connection.
+  recommendation: maybe
+  reason: Dates unconfirmed; title-only source.
+  subcategory: Screenings and marathons
+works/syfy-july-4-twilight-zone-marathon:
+  connection: Syfy's annual July 4 TZ marathon.
+  tier: core
+  tier_reason: See connection.
+  recommendation: include
+  reason: Missing companion to the existing New Year's marathon record; dated sources for seven years.
+  subcategory: Screenings and marathons
+works/theater-schmeater-twilight-zone-live:
+  connection: Seattle live staging of teleplays.
+  tier: related
+  tier_reason: See connection.
+  recommendation: include
+  reason: Source added only (ACT 2012 programming note).
+  subcategory: Stage
+works/where-to-watch-twilight-zone-1959-us:
+  connection: Current legal US streaming for the original series.
+  tier: core
+  tier_reason: See connection.
+  recommendation: include
+  reason: Practical, frequently-needed info; dated 2026-11-17 and must be rechecked.
+  subcategory: Where to watch (new)
+works/where-to-watch-twilight-zone-2019-us:
+  connection: Current legal US availability of the 2019 series.
+  tier: core
+  tier_reason: See connection.
+  recommendation: include
+  reason: Shows it is purchase-only now; dated 2026-11-20.
+  subcategory: Where to watch (new)
+essays/review-audiofile-review-of-the-twilight-zone-radio-dramas-alexander-kirby:
+  connection: A review written at the time of release of a Twilight Zone production.
+  tier: core
+  tier_reason: Contemporary critical reception of the franchise itself.
+  recommendation: maybe
+  reason: Confirmed to exist but the verdict is not yet summarized; keep as a lead or hide until read.
+  subcategory: Contemporary reviews
+essays/review-audiofile-review-of-the-twilight-zone-radio-dramas-caviezel-phillips:
+  connection: A review written at the time of release of a Twilight Zone production.
+  tier: core
+  tier_reason: Contemporary critical reception of the franchise itself.
+  recommendation: maybe
+  reason: Confirmed to exist but the verdict is not yet summarized; keep as a lead or hide until read.
+  subcategory: Contemporary reviews
+essays/review-audiofile-review-of-the-twilight-zone-radio-dramas-collection-11:
+  connection: A review written at the time of release of a Twilight Zone production.
+  tier: core
+  tier_reason: Contemporary critical reception of the franchise itself.
+  recommendation: maybe
+  reason: Confirmed to exist but the verdict is not yet summarized; keep as a lead or hide until read.
+  subcategory: Contemporary reviews
+essays/review-audiofile-review-of-the-twilight-zone-radio-dramas-phillips-mcdonald:
+  connection: A review written at the time of release of a Twilight Zone production.
+  tier: core
+  tier_reason: Contemporary critical reception of the franchise itself.
+  recommendation: maybe
+  reason: Confirmed to exist but the verdict is not yet summarized; keep as a lead or hide until read.
+  subcategory: Contemporary reviews
+essays/review-cecil-smith-los-angeles-times-column-on-the-twilight-zone-1959:
+  connection: A review written at the time of release of a Twilight Zone production.
+  tier: core
+  tier_reason: Contemporary critical reception of the franchise itself.
+  recommendation: maybe
+  reason: Confirmed to exist but the verdict is not yet summarized; keep as a lead or hide until read.
+  subcategory: Contemporary reviews
+essays/review-charles-beaumont-the-magazine-of-fantasy-and-science-fiction-the-seeing-i:
+  connection: A review written at the time of release of a Twilight Zone production.
+  tier: core
+  tier_reason: Contemporary critical reception of the franchise itself.
+  recommendation: maybe
+  reason: Confirmed to exist but the verdict is not yet summarized; keep as a lead or hide until read.
+  subcategory: Contemporary reviews
+essays/review-dave-kehr-chicago-reader-review-of-twilight-zone-the-movie:
+  connection: A review written at the time of release of a Twilight Zone production.
+  tier: core
+  tier_reason: Contemporary critical reception of the franchise itself.
+  recommendation: include
+  reason: Documents how critics received the work when it was new, which the site currently covers mostly for 2019.
+  subcategory: Contemporary reviews
+essays/review-gene-siskel-chicago-tribune-review-of-twilight-zone-the-movie:
+  connection: A review written at the time of release of a Twilight Zone production.
+  tier: core
+  tier_reason: Contemporary critical reception of the franchise itself.
+  recommendation: include
+  reason: Documents how critics received the work when it was new, which the site currently covers mostly for 2019.
+  subcategory: Contemporary reviews
+essays/review-harvey-karman-the-hollywood-reporter-review-of-the-twilight-zone-premiere:
+  connection: A review written at the time of release of a Twilight Zone production.
+  tier: core
+  tier_reason: Contemporary critical reception of the franchise itself.
+  recommendation: include
+  reason: Documents how critics received the work when it was new, which the site currently covers mostly for 2019.
+  subcategory: Contemporary reviews
+essays/review-the-christian-science-monitor-review-of-twilight-zone-the-movie:
+  connection: A review written at the time of release of a Twilight Zone production.
+  tier: core
+  tier_reason: Contemporary critical reception of the franchise itself.
+  recommendation: include
+  reason: Documents how critics received the work when it was new, which the site currently covers mostly for 2019.
+  subcategory: Contemporary reviews
+essays/review-the-new-york-times-review-of-a-town-has-turned-to-dust:
+  connection: A review written at the time of release of a Rod Serling teleplay from his live-TV years around The
+    Twilight Zone.
+  tier: related
+  tier_reason: Serling work, not Twilight Zone.
+  recommendation: include
+  reason: Documents how critics received the work when it was new, which the site currently covers mostly for 2019.
+  subcategory: Contemporary reviews
+essays/review-the-new-york-times-review-of-forbidden-area:
+  connection: A review written at the time of release of a Rod Serling teleplay from his live-TV years around The
+    Twilight Zone.
+  tier: related
+  tier_reason: Serling work, not Twilight Zone.
+  recommendation: include
+  reason: Documents how critics received the work when it was new, which the site currently covers mostly for 2019.
+  subcategory: Contemporary reviews
+essays/review-the-new-york-times-review-of-in-the-presence-of-mine-enemies:
+  connection: A review written at the time of release of a Rod Serling teleplay from his live-TV years around The
+    Twilight Zone.
+  tier: related
+  tier_reason: Serling work, not Twilight Zone.
+  recommendation: include
+  reason: Documents how critics received the work when it was new, which the site currently covers mostly for 2019.
+  subcategory: Contemporary reviews
+essays/review-the-new-york-times-review-of-patterns:
+  connection: A review written at the time of release of a Rod Serling teleplay from his live-TV years around The
+    Twilight Zone.
+  tier: related
+  tier_reason: Serling work, not Twilight Zone.
+  recommendation: include
+  reason: Documents how critics received the work when it was new, which the site currently covers mostly for 2019.
+  subcategory: Contemporary reviews
+essays/review-the-new-york-times-review-of-requiem-for-a-heavyweight:
+  connection: A review written at the time of release of a Rod Serling teleplay from his live-TV years around The
+    Twilight Zone.
+  tier: related
+  tier_reason: Serling work, not Twilight Zone.
+  recommendation: include
+  reason: Documents how critics received the work when it was new, which the site currently covers mostly for 2019.
+  subcategory: Contemporary reviews
+essays/review-the-new-york-times-review-of-where-is-everybody:
+  connection: A review written at the time of release of a Twilight Zone production.
+  tier: core
+  tier_reason: Contemporary critical reception of the franchise itself.
+  recommendation: include
+  reason: Documents how critics received the work when it was new, which the site currently covers mostly for 2019.
+  subcategory: Contemporary reviews
+essays/review-tod-raper-columbus-dispatch-review-of-the-twilight-zone-pre-premiere:
+  connection: A review written at the time of release of a Twilight Zone production.
+  tier: core
+  tier_reason: Contemporary critical reception of the franchise itself.
+  recommendation: include
+  reason: Documents how critics received the work when it was new, which the site currently covers mostly for 2019.
+  subcategory: Contemporary reviews
+essays/review-tv-guide-review-of-the-twilight-zone-1960:
+  connection: A review written at the time of release of a Twilight Zone production.
+  tier: core
+  tier_reason: Contemporary critical reception of the franchise itself.
+  recommendation: include
+  reason: Documents how critics received the work when it was new, which the site currently covers mostly for 2019.
+  subcategory: Contemporary reviews
+songs/chamillionaire-go-hard:
+  connection: The middle verse carries a Twilight Zone theme cue followed by the words "Twilight zone".
+  tier: tangential
+  tier_reason: Direct mention, possible theme interpolation.
+  recommendation: include
+  reason: Charting rapper; the lyric explicitly evokes the theme. Worth a later listen to see if the theme is actually
+    sampled.
+  subcategory: Lyric mentions (the show)
+songs/ice-cube-ghetto-horror-show:
+  connection: Mack 10 uses "twilight zone" as an idiom in his opening verse; the show itself is not named.
+  tier: tangential
+  tier_reason: Passing idiom only.
+  recommendation: maybe
+  reason: Ice Cube is on it but the phrase is Mack 10's and figurative. Artist credit corrected to Mack 10 feat.
+    Jayo Felony and Ice Cube.
+  subcategory: Lyric mentions (idiom)
+songs/john-entwistle-sleeping-man:
+  connection: The Sandman verses use "twilight zone" for the half-asleep state.
+  tier: tangential
+  tier_reason: Idiom only.
+  recommendation: maybe
+  reason: Famous artist, but the phrase is the generic idiom with no nod to the series.
+  subcategory: Lyric mentions (idiom)
+songs/kid-cudi-m3tamorphosis:
+  connection: Playboi Carti uses "twilight zone" figuratively in his verse; Kid Cudi is the featured guest.
+  tier: tangential
+  tier_reason: Idiom, no show reference.
+  recommendation: maybe
+  reason: High-profile 2020 album track, but the phrase is just a figure of speech and is in Carti's part, not Cudi's.
+  subcategory: Lyric mentions (idiom)
+songs/kid-rock-killin-brain-cells:
+  connection: A closing verse names both The Twilight Zone and Rod Serling.
+  tier: tangential
+  tier_reason: Show and creator named.
+  recommendation: include
+  reason: Famous artist name-checking Serling and the show together.
+  subcategory: Lyric mentions (Rod Serling)
+songs/killah-priest-the-seer-the-poet:
+  connection: WhoSampled lists a sample of a Twilight Zone clip it calls "The Devil's All Around Us".
+  tier: tangential
+  tier_reason: Dialogue sample.
+  recommendation: include
+  reason: Wu-Tang affiliate; dialogue sample from the series. Episode still to identify.
+  subcategory: Dialogue samples
+songs/loudon-wainwright-living-alone:
+  connection: The narrator's lonely evenings include watching Twilight Zone reruns.
+  tier: tangential
+  tier_reason: Direct mention of the show.
+  recommendation: include
+  reason: Well-known songwriter, and the lyric uses the show itself as part of the story.
+  subcategory: Lyric mentions (the show)
+songs/mf-doom-go-with-the-flow:
+  connection: DOOM names Rod Serling in the middle verse, comparing quick rhyme-writing to Serling's script output.
+  tier: tangential
+  tier_reason: Name-check of Serling.
+  recommendation: include
+  reason: A respected artist naming Serling himself is a real cultural nod that fans will enjoy.
+  subcategory: Lyric mentions (Rod Serling)
+songs/morose-code-willoughby:
+  connection: Title only; the Bandcamp page has no lyrics or notes linking it to "A Stop at Willoughby".
+  tier: tangential
+  tier_reason: No evidence of a link.
+  recommendation: exclude
+  reason: Small self-released single whose only tie is a common name; nothing shows it is about the episode.
+  subcategory: Possible references (unconfirmed)
+songs/moses-pelham-twilight-zone:
+  connection: Almost certainly the same song as songs/moses-p-twilight-zone (Moses P is Moses Pelham's stage name).
+  tier: tangential
+  tier_reason: Duplicate.
+  recommendation: exclude
+  reason: Duplicate row; keep the Moses P record (it has album, year and links). File not changed; set duplicate_of
+    after a check.
+  subcategory: Duplicates
+songs/shanti-and-deedrah-twilight-zone:
+  connection: WhoSampled lists it as sampling the third-season introduction.
+  tier: tangential
+  tier_reason: Narration sample plus title.
+  recommendation: maybe
+  reason: Obscure electronic track; the sample listing is the only evidence so far.
+  subcategory: Serling narration samples
+songs/tech-n9ne-strangeland:
+  connection: Verse 3 asks whether the narrator is in the Twilight Zone.
+  tier: tangential
+  tier_reason: One-line rhetorical show reference.
+  recommendation: include
+  reason: Well-known artist using the show's name as a direct point of reference.
+  subcategory: Lyric mentions (the show)
+songs/the-buggers-the-bugger-groove:
+  connection: WhoSampled lists a sample of a clip labelled "There Is a Sixth Dimension", a play on the opening narration.
+  tier: tangential
+  tier_reason: Narration sample.
+  recommendation: maybe
+  reason: Obscure act; keep only if it can be confirmed beyond the WhoSampled listing.
+  subcategory: Serling narration samples
+songs/unkle-unkle-main-title-theme:
+  connection: WhoSampled lists it as sampling a Twilight Zone TV promo.
+  tier: tangential
+  tier_reason: Sample of promo audio.
+  recommendation: include
+  reason: Well-known trip-hop act; a promo sample is an unusual and interesting use.
+  subcategory: Serling narration samples
+songs/vanilla-ice-get-loose:
+  connection: A verse names the Twilight Zone to set up an eerie experience.
+  tier: tangential
+  tier_reason: One-line mention.
+  recommendation: include
+  reason: Recognisable artist and a direct mention; low stakes either way.
+  subcategory: Lyric mentions (the show)
+songs/world-class-wreckin-cru-planet:
+  connection: WhoSampled lists it as sampling the later-season title-sequence music.
+  tier: tangential
+  tier_reason: Theme sample.
+  recommendation: include
+  reason: Early Dr. Dre group sampling the theme is a notable piece of hip-hop history.
+  subcategory: Theme samples

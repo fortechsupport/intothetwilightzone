@@ -5,7 +5,9 @@ kind: archive
 description: Holds a Twilight Zone Magazine collection.
 official: false
 relevance: related
-sources: []
+sources:
+- title: 'CSUF Archives: Twilight Zone Magazine (T Z Publications, New York, N.Y., 1981)'
+  url: https://archives.fullerton.edu/repositories/5/resources/205
 research_confidence: medium
 tags:
 - seed-record

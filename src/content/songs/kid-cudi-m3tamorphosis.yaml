@@ -1,9 +1,24 @@
 title: M3tamorphosis
-artist: Kid Cudi
-tz_connection: unclassified
+artist: Playboi Carti featuring Kid Cudi
+album: Whole Lotta Red
+genre: Hip-hop
+year: 2020
+tz_connection: lyric-mention
+description: A track from Playboi Carti's 2020 album Whole Lotta Red with Kid Cudi as the featured guest; the spreadsheet
+  credited Cudi alone. The phrase "twilight zone" comes in one of Carti's verses, used to describe feeling cut off
+  from the people around him. The nearby Morpheus line points to The Matrix, and nothing in the song refers to the
+  series itself.
+relevance: tangential
+research_confidence: medium
+tags:
+- artist-corrected
+- lyric-idiom
+- research-2026-11-21
 sources:
+- title: 'Letras: Playboi Carti feat. Kid Cudi, "M3tamorphosis" lyrics'
+  url: https://www.letras.mus.br/playboi-carti/m3tamorphosis/
+- title: 'HotNewHipHop: Playboi Carti gets an assist from Kid Cudi on "M3tamorphosis"'
+  url: https://www.hotnewhiphop.com/310606-playboi-carti-gets-an-assist-from-kid-cudi-on-whole-lotta-red-standout-m3tamorphosis-new-song
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-research_confidence: low
-description: A song by Kid Cudi listed in the original research with no stated Twilight Zone connection. The tie
-  is probably a lyric line or sample, but it has not been verified.
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-21'
