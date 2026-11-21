@@ -29,6 +29,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'CreativeWork', name
   <InCategories recKey={`works/${w.id}`} />
   <h1>{d.title}</h1>
   {(() => { const t = trackFor('works', (d as any).kind); return (t.seen || t.own) && <TrackButtons recKey={`works/${w.id}`} seen={t.seen} own={t.own} />; })()}
+  <div class="record-actions" data-record-key={`works/${w.id}`} data-pagefind-ignore></div>
   {d.subtype && <p class="muted">{humanize(d.subtype)}</p>}
   {d.description && <p class="lead">{d.description}</p>}
   <dl class="facts">

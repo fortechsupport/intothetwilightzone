@@ -30,6 +30,7 @@ const jsonld = {
   <InCategories recKey={`locations/${p.id}`} />
   <h1>{d.name}</h1>
   {(() => { const t = trackFor('locations', (d as any).kind); return (t.seen || t.own) && <TrackButtons recKey={`locations/${p.id}`} seen={t.seen} own={t.own} />; })()}
+  <div class="record-actions" data-record-key={`locations/${p.id}`} data-pagefind-ignore></div>
   {placeLine(d) && <p class="muted">{placeLine(d)}</p>}
   <dl class="facts">
     {d.address && <><dt>Address</dt><dd>{d.address}</dd></>}

@@ -42,6 +42,7 @@ const targets = await Promise.all(conns.map(async (c) => ({ c, t: await resolveR
   <InCategories recKey={key} />
   <h1>{title}</h1>
   {(() => { const t = trackFor(col, d.kind); return (t.seen || t.own) && <TrackButtons recKey={key} seen={t.seen} own={t.own} />; })()}
+  <div class="record-actions" data-record-key={key} data-pagefind-ignore></div>
   {col === 'quotes' ? (
     <figure class="quote">
       <blockquote>{d.text}</blockquote>

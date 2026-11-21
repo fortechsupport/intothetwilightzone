@@ -31,6 +31,7 @@ const jsonld = {
   <InCategories recKey={`films/${f.id}`} />
   <h1>{d.title}</h1>
   {(() => { const t = trackFor('films', (d as any).kind); return (t.seen || t.own) && <TrackButtons recKey={`films/${f.id}`} seen={t.seen} own={t.own} />; })()}
+  <div class="record-actions" data-record-key={`films/${f.id}`} data-pagefind-ignore></div>
   {d.parent_series && <p class="muted">{d.parent_series}</p>}
   {d.relevance && d.relevance !== 'core' && <p class="small"><span class="tag">{d.relevance === 'related' ? 'Related to The Twilight Zone' : 'Tangential to The Twilight Zone'}</span></p>}
   {d.summary && <p class="lead">{d.summary}</p>}
