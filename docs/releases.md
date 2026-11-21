@@ -3,6 +3,17 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-21 — Television research round 1: Rod Serling's plays (no change for visitors yet)
+
+Five more of Serling's television plays are on file, pending Adam's review: Buffalo Bill Is Dead and U.F.O. (Studio One,
+1953 and 1954), Horace Mann's Miracle and Man Against Pain (Hallmark Hall of Fame, 1953), and Nightmare at Ground Zero
+(Playhouse 90, 1958, with Paul Monash). Each is dated, has its director and a source, and will sit on its series' page and
+Serling's page once included. Review sheet: review-television-round-1 in the project's review folder.
+
+**Known not to work yet:** Wikipedia has no episode lists for Kraft, The U.S. Steel Hour or Lux, so plays on those are
+still missing; directors and dates for the Playhouse 90 plays already on file are noted in
+data/research/television-2026-11-21/teleplays.md but not added, because those records are locked.
+
 ## 2026-11-21 — Television, step 1: one category, show pages and every homage
 
 **Watch > Television is one category with clear shelves.** The Twilight Zone (the four series), Every Twilight
