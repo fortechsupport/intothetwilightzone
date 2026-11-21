@@ -3,6 +3,17 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-21 — Television research: 47 more of Rod Serling's plays (no change for visitors yet)
+
+Forty-seven more television plays by Serling, from 1952 to 1966, are on file pending Adam's review, each sourced to the Rod
+Serling Memorial Foundation's filmography: seven on Lux Video Theatre, four more on Kraft, plays on Armstrong Circle Theatre,
+Medallion Theatre, The Doctor, Danger, Ford Theatre, Climax!, Matinee Theater, the Chrysler Theatre and more. Once included,
+each sits on its series' page and on Serling's page. Review sheet: review-television-round-1.
+
+**Known not to work yet:** three conflicts between sources are listed for Adam in
+data/research/television-2026-11-21/teleplays.md (The Director, Nightmare at Ground Zero, Old MacDonald); The Loner's
+episodes are not added because the filmography does not say who wrote each.
+
 ## 2026-11-21 — Themes across Television
 
 **Browse by theme.** /themes/ lists 41 themes in eight families (The unknown, Time and memory, Society...), each with a

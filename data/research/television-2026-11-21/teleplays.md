@@ -36,3 +36,20 @@ The Time Element (Desilu Playhouse), A Storm in Summer (Hallmark), and the rest 
 - Still to find: Serling's plays for Lux Video Theatre, Armstrong Circle Theatre, The U.S. Steel Hour beyond Noon on Doomsday
   and The Rack, and his early local and radio-to-TV work. Wikipedia does not list them by episode; next sources to try are the
   Rod Serling Memorial Foundation and the Paley Center catalogue.
+
+## Round 1 leftovers (13:10 UTC): the Rod Serling Memorial Foundation's filmography
+
+Source: https://rodserling.com/rod-serlings-complete-filmography/ (213 television entries, 1952–1976). 47 plays not on file
+were added as pending records (teleplays-foundation.json), each citing that page. Wikipedia's Steel Hour, Kraft and Lux
+articles named no further Serling plays (Lux names none at all); The Rack is dated 12 April 1955 in a Steel Hour photo caption.
+
+Conflicts for Adam (records not changed):
+- "The Director" (1955): on file as The Jane Wyman Show; the Foundation lists it on Fireside Theater, 13 September 1955,
+  dir. Herschell Daugherty, with Jack Carson. (Fireside Theatre was renamed The Jane Wyman Show in 1955 — an inference, unverified.)
+- "Nightmare at Ground Zero": the Foundation lists only the Suspense play (18 August 1953, dir. Robert Stevens), not the
+  1958 Playhouse 90 one taken from Wikipedia's episode list. One of the two sources is wrong; unresolved.
+- "Old MacDonald Had a Curve": the Foundation spells it "Old MacDonald Has a Curve" and dates it 5 August 1953.
+
+Found, for later: The Loner (1965–66) episodes are in the filmography, but it does not say who wrote each one, so they were
+not added; The Oath: "Sad and Lonely Sundays" (1976). The UCLA finding aid for the Rod Serling papers (OAC ark:/13030/kt5489n8zx)
+has no title list online.
