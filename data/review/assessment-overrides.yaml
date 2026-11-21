@@ -4003,13 +4003,6 @@ podcasts/imagine-if-you-will:
   recommendation: include
   reason: 181 episodes, active in 2026.
   subcategory: Podcasts
-podcasts/pretty-much-pop-52-twilight-zone-morality-tales:
-  connection: A discussion episode on TZ morality tales.
-  tier: core
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: Only the title and URL were confirmed.
-  subcategory: Podcasts
 podcasts/rarified-heir-269-anne-serling:
   connection: Anne Serling interviewed about her father.
   tier: related
@@ -4044,13 +4037,6 @@ podcasts/thats-not-fair-a-queer-twilight-zone-podcast:
   tier_reason: Episode-by-episode or thematic coverage of the series.
   recommendation: include
   reason: Distinct queer-reading perspective; 24 episodes 2024.
-  subcategory: Podcasts
-podcasts/the-5th-dimension-a-twilight-zone-podcast:
-  connection: A TZ podcast on Anchor.
-  tier: core
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: 164 episodes but hosts and format unconfirmed; low confidence.
   subcategory: Podcasts
 podcasts/the-fifth-dimension:
   connection: A podcast devoted to the show.
@@ -4150,13 +4136,6 @@ podcasts/zone-i-sodes:
   recommendation: include
   reason: NPR Illinois Front Row Network show; organizations added.
   subcategory: Podcasts
-works/everson-museum-rod-serling-before-the-twilight-zone:
-  connection: Syracuse museum programme on Serling's pre-TZ career.
-  tier: related
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: Type and date unconfirmed; strong lead for a later pass.
-  subcategory: Exhibitions
 works/h-and-i-rod-white-and-blue-marathon-2025:
   connection: H&I network's 2025 July 4 TZ marathon.
   tier: core
@@ -4171,27 +4150,6 @@ works/hole-in-the-wall-of-shadows-and-substance-2008:
   recommendation: include
   reason: Specific cast/director credits; one more US stage production.
   subcategory: Stage
-works/ithaca-college-friday-night-twilight-zone-marathon-2008:
-  connection: Campus TZ marathon at Serling's college.
-  tier: related
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: Minor event; title-only source.
-  subcategory: Screenings and marathons
-works/rosendale-theatre-rod-serling-evening-2025:
-  connection: A Serling-themed evening at a Hudson Valley cinema.
-  tier: related
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: Minor event; programme unconfirmed.
-  subcategory: Screenings and marathons
-works/serling-on-screen-binghamton:
-  connection: Binghamton screening series of Serling work.
-  tier: related
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: Recurring local programme, details unconfirmed.
-  subcategory: Screenings and marathons
 works/serlingfest-2026:
   connection: The foundation's 2026 festival.
   tier: related
@@ -4199,20 +4157,6 @@ works/serlingfest-2026:
   recommendation: include
   reason: Sources added only (schedule PDF, guests page, tickets, press); record is locked.
   subcategory: Anniversaries and festivals
-works/suny-oswego-serling-100th-lecture-screening-2024:
-  connection: Centennial lecture and screening.
-  tier: related
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: Title-only source; speaker unconfirmed.
-  subcategory: Anniversaries and festivals
-works/syfy-65-years-twilight-zone-marathon:
-  connection: Syfy marathon for the 65th anniversary.
-  tier: core
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: Dates unconfirmed; title-only source.
-  subcategory: Screenings and marathons
 works/syfy-july-4-twilight-zone-marathon:
   connection: Syfy's annual July 4 TZ marathon.
   tier: core
@@ -4409,13 +4353,6 @@ songs/kid-rock-killin-brain-cells:
   recommendation: include
   reason: Famous artist name-checking Serling and the show together.
   subcategory: Lyric mentions (Rod Serling)
-songs/killah-priest-the-seer-the-poet:
-  connection: WhoSampled lists a sample of a Twilight Zone clip it calls "The Devil's All Around Us".
-  tier: tangential
-  tier_reason: Dialogue sample.
-  recommendation: include
-  reason: Wu-Tang affiliate; dialogue sample from the series. Episode still to identify.
-  subcategory: Dialogue samples
 songs/loudon-wainwright-living-alone:
   connection: The narrator's lonely evenings include watching Twilight Zone reruns.
   tier: tangential
@@ -4466,13 +4403,6 @@ songs/the-buggers-the-bugger-groove:
   recommendation: maybe
   reason: Obscure act; keep only if it can be confirmed beyond the WhoSampled listing.
   subcategory: Serling narration samples
-songs/unkle-unkle-main-title-theme:
-  connection: WhoSampled lists it as sampling a Twilight Zone TV promo.
-  tier: tangential
-  tier_reason: Sample of promo audio.
-  recommendation: include
-  reason: Well-known trip-hop act; a promo sample is an unusual and interesting use.
-  subcategory: Serling narration samples
 songs/vanilla-ice-get-loose:
   connection: A verse names the Twilight Zone to set up an eerie experience.
   tier: tangential
@@ -4480,10 +4410,265 @@ songs/vanilla-ice-get-loose:
   recommendation: include
   reason: Recognisable artist and a direct mention; low stakes either way.
   subcategory: Lyric mentions (the show)
+
+# Research pass 2026-11-21, round 2
+people/alexandra-barreto:
+  connection: Alexandra Barreto is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/andrew-francis:
+  connection: Andrew Francis is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: maybe
+  reason: Wikipedia lists a Twilight Zone credit but not the episode; identity is very likely.
+  subcategory: Actors
+people/angela-featherstone:
+  connection: Angela Featherstone is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/ben-bass:
+  connection: Ben Bass is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/eric-keenleyside:
+  connection: Eric Keenleyside is credited on a Twilight Zone episode (1980s revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/gabrielle-miller:
+  connection: Gabrielle Miller is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/greg-serano:
+  connection: Greg Serano is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/john-furia-jr:
+  connection: John Furia, Jr. is credited on a Twilight Zone episode (original series).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Writers
+people/kim-hawthorne:
+  connection: Kim Hawthorne is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/kristi-angus:
+  connection: Kristi Angus is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/lindy-booth:
+  connection: Lindy Booth is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/nicki-aycox:
+  connection: Nicki Aycox is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/patrick-r-norris:
+  connection: Patrick R. Norris is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: maybe
+  reason: Wikipedia lists a Twilight Zone credit but not the episode; identity is very likely.
+  subcategory: Directors
+people/sarah-carter:
+  connection: Sarah Carter is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/todd-williams:
+  connection: Todd Williams is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/zak-santiago:
+  connection: Zak Santiago is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+essays/review-variety-review-of-king-nine-will-not-return-1960:
+  connection: A trade-paper review written when the episode first aired.
+  tier: core
+  tier_reason: Contemporary critical reception of the original series.
+  recommendation: include
+  reason: A primary 1959-60 trade review read from the scanned issue, with a link to the full scan; shows that Variety
+    was cooler on the series than its later reputation suggests.
+  subcategory: Contemporary reviews
+essays/review-variety-review-of-the-twilight-zone-premiere-where-is-everybody:
+  connection: A trade-paper review written when the episode first aired.
+  tier: core
+  tier_reason: Contemporary critical reception of the original series.
+  recommendation: include
+  reason: A primary 1959-60 trade review read from the scanned issue, with a link to the full scan; shows that Variety
+    was cooler on the series than its later reputation suggests.
+  subcategory: Contemporary reviews
+essays/review-variety-review-of-the-twilight-zone-season-two:
+  connection: Variety trade review of The Arrival, September 1961.
+  tier: core
+  tier_reason: Contemporary reception of the original series.
+  recommendation: include
+  reason: Locked record; source added confirming the issue (Sept 27, 1961, p. 38), the signature "Les." and the
+    episode. The title says season two and should be corrected by hand.
+  subcategory: Contemporary reviews
+songs/gary-portnoy-alien:
+  connection: Unknown; the song exists (track 9 on Keeper) but no lyric text could be found.
+  tier: tangential
+  tier_reason: No confirmed link.
+  recommendation: maybe
+  reason: The Cheers-theme writer is a fun name for TV fans, but keep it on hold until someone hears the song.
+  subcategory: Possible references (unconfirmed)
+songs/george-white-group-thats-when-i-think-of-you:
+  connection: Probably a cover of 1927's 1988 song, whose fourth verse uses "twilight zone" as an idiom.
+  tier: tangential
+  tier_reason: Idiom only, cover unconfirmed.
+  recommendation: exclude
+  reason: 'Same as the Thirsty Merc row: obscure cover of an idiom-only lyric.'
+  subcategory: Lyric mentions (idiom)
+songs/killah-priest-the-seer-the-poet:
+  connection: Track 18 of The Psychic World of Walter Reed (2013); WhoSampled lists a Twilight Zone dialogue sample.
+  tier: tangential
+  tier_reason: Dialogue sample.
+  recommendation: include
+  reason: Wu-Tang affiliate; album and year now confirmed. Episode of the clip still to identify.
+  subcategory: Dialogue samples
+songs/lisa-brokop-when-you-get-to-be-you:
+  connection: The second verse uses "twilight zone" as an idiom for someone in a world of their own.
+  tier: tangential
+  tier_reason: Idiom only.
+  recommendation: maybe
+  reason: A real country release, but the phrase is generic and says nothing about the show.
+  subcategory: Lyric mentions (idiom)
+songs/thirsty-merc-thats-when-i-think-of-you:
+  connection: Probably a cover of 1927's 1988 song, whose fourth verse uses "twilight zone" as an idiom.
+  tier: tangential
+  tier_reason: Idiom only, cover unconfirmed.
+  recommendation: exclude
+  reason: Idiom-only lyric, and this recording could not be found. If Adam wants the song, 1927's original would
+    be the record to keep.
+  subcategory: Lyric mentions (idiom)
+songs/unkle-unkle-main-title-theme:
+  connection: Track 2 of Psyence Fiction (1998); WhoSampled lists a sample of a Twilight Zone TV promo.
+  tier: tangential
+  tier_reason: Sample of promo audio.
+  recommendation: include
+  reason: Well-known album; album and year now confirmed from the tracklist.
+  subcategory: Serling narration samples
 songs/world-class-wreckin-cru-planet:
-  connection: WhoSampled lists it as sampling the later-season title-sequence music.
+  connection: Opening track of World Class (1985); WhoSampled lists a sample of the later-season title music.
   tier: tangential
   tier_reason: Theme sample.
   recommendation: include
-  reason: Early Dr. Dre group sampling the theme is a notable piece of hip-hop history.
+  reason: Pre-N.W.A Dr. Dre and DJ Yella group using the theme; album and year now confirmed.
   subcategory: Theme samples
+
+# Research pass 2026-11-21, round 3
+podcasts/pretty-much-pop-52-twilight-zone-morality-tales:
+  connection: A Pretty Much Pop discussion of the original series and the 2019 revival.
+  tier: core
+  tier_reason: An episode devoted to the show.
+  recommendation: include
+  reason: 'Now confirmed: hosts, guest, date and the episodes discussed.'
+  subcategory: Podcasts
+podcasts/the-5th-dimension-a-twilight-zone-podcast:
+  connection: A Twilight Zone discussion podcast by three friends.
+  tier: core
+  tier_reason: A podcast devoted to the show.
+  recommendation: maybe
+  reason: 164 episodes, but the hosts are still unnamed and no episode list could be read; tagged unconfirmed.
+  subcategory: Podcasts
+works/bcsd-rod-serling-day-2024:
+  connection: The Binghamton school district's annual Rod Serling Day, with Anne Serling in 2024.
+  tier: related
+  tier_reason: A hometown commemoration of Serling.
+  recommendation: include
+  reason: An annual hometown tradition with a family guest and a "Walking Distance" tribute video; from the district's
+    own article.
+  subcategory: Anniversaries and festivals
+works/binghamton-university-twilight-zone-stage-2014:
+  connection: A university staging of "The Monsters Are Due on Maple Street" and "Dust" in Serling's hometown.
+  tier: related
+  tier_reason: A stage production of the teleplays.
+  recommendation: include
+  reason: AP national coverage; the director is named. The exact performance dates are not stated.
+  subcategory: Stage
+works/everson-museum-rod-serling-before-the-twilight-zone:
+  connection: A centennial lecture and screening of Serling's "Patterns" in Syracuse, his birthplace.
+  tier: related
+  tier_reason: About Serling's pre-Twilight Zone work.
+  recommendation: include
+  reason: 'Confirmed from the museum page and the SUNY Oswego announcement: date, venue, speaker, partners. It was
+    a lecture, not an exhibit, so it moves to Lectures.'
+  subcategory: Lectures
+works/ithaca-college-friday-night-twilight-zone-marathon-2008:
+  connection: The opening screening of the 2008 Rod Serling Conference at Ithaca College.
+  tier: related
+  tier_reason: Fills the 2008 gap between the existing 2006 and 2009 conference records.
+  recommendation: include
+  reason: 'Confirmed: 28 March 2008, 8pm, Park Auditorium; episodes chosen by online vote.'
+  subcategory: Screenings and marathons
+works/rosendale-theatre-rod-serling-evening-2025:
+  connection: The Rod Serling Memorial Foundation's illustrated talk for the show's 66th anniversary.
+  tier: related
+  tier_reason: An event by the foundation about Serling.
+  recommendation: include
+  reason: Two independent sources (WAMC listing, Marist Circle report) confirm the date, speakers and content.
+  subcategory: Lectures
+works/serling-on-screen-binghamton:
+  connection: A Serling screening programme at Binghamton High School's Helen Foley Theatre.
+  tier: related
+  tier_reason: A local Serling event.
+  recommendation: maybe
+  reason: The venue and the 5-7 December times are confirmed, but no year or programme; tagged unconfirmed.
+  subcategory: Screenings and marathons
+works/suny-oswego-serling-100th-lecture-screening-2024:
+  connection: The same event as the Everson lecture.
+  tier: related
+  tier_reason: Duplicate.
+  recommendation: exclude
+  reason: Marked duplicate_of the Everson record; kept only so the id does not break.
+  subcategory: Lectures
+works/syfy-65-years-twilight-zone-marathon:
+  connection: Syfy's 65th-anniversary marathon of the original series, 5-7 October 2024.
+  tier: core
+  tier_reason: A broadcast event of the series itself.
+  recommendation: include
+  reason: Now dated and detailed from the Remind Magazine episode guide (65 episodes, exact days).
+  subcategory: Screenings and marathons

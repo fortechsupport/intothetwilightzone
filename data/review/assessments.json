@@ -27995,17 +27995,41 @@
   "subcategory": "Contemporary reviews",
   "sort": "tv guide review the twilight zone 001960"
  },
- "essays/review-variety-review-of-the-twilight-zone-season-two": {
-  "connection": "Review of The Twilight Zone (original series) in Variety (1961), written at the time of release. Trade review of the second season that faulted the show for seeming to feed off itself.",
+ "essays/review-variety-review-of-king-nine-will-not-return-1960": {
+  "connection": "A trade-paper review written when the episode first aired.",
   "tier": "core",
-  "tier_reason": "Reception of the show.",
+  "tier_reason": "Contemporary critical reception of the original series.",
   "recommendation": "include",
-  "reason": "Shows how critics received it when it was new; part of the reception history.",
+  "reason": "A primary 1959-60 trade review read from the scanned issue, with a link to the full scan; shows that Variety was cooler on the series than its later reputation suggests.",
+  "source_title": "Internet Archive full-text search inside Variety, October 5, 1960 (sim_variety_1960-10-05_220_6), p. 36",
+  "source_url": "https://archive.org/details/sim_variety_1960-10-05_220_6",
+  "title": "Variety review: The Twilight Zone season 2 premiere, King Nine Will Not Return (1960)",
+  "subcategory": "Contemporary reviews",
+  "sort": "variety review the twilight zone season 000002 premiere king nine will not return 001960"
+ },
+ "essays/review-variety-review-of-the-twilight-zone-premiere-where-is-everybody": {
+  "connection": "A trade-paper review written when the episode first aired.",
+  "tier": "core",
+  "tier_reason": "Contemporary critical reception of the original series.",
+  "recommendation": "include",
+  "reason": "A primary 1959-60 trade review read from the scanned issue, with a link to the full scan; shows that Variety was cooler on the series than its later reputation suggests.",
+  "source_title": "Internet Archive full-text search inside Variety, October 7, 1959 (sim_variety_1959-10-07_216_6), p. 28",
+  "source_url": "https://archive.org/details/sim_variety_1959-10-07_216_6",
+  "title": "Variety review: The Twilight Zone premiere, Where Is Everybody? (1959)",
+  "subcategory": "Contemporary reviews",
+  "sort": "variety review the twilight zone premiere where is everybody 001959"
+ },
+ "essays/review-variety-review-of-the-twilight-zone-season-two": {
+  "connection": "Variety trade review of The Arrival, September 1961.",
+  "tier": "core",
+  "tier_reason": "Contemporary reception of the original series.",
+  "recommendation": "include",
+  "reason": "Locked record; source added confirming the issue (Sept 27, 1961, p. 38), the signature \"Les.\" and the episode. The title says season two and should be corrected by hand.",
   "source_title": "The Twilight Zone (1959 TV series) - Wikipedia (references)",
   "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)",
-  "title": "Review of The Twilight Zone, season two (Variety)",
-  "subcategory": "Reviews: at release",
-  "sort": "review of the twilight zone season two variety"
+  "title": "Variety review: \"The Arrival\" and the third season (1961)",
+  "subcategory": "Contemporary reviews",
+  "sort": "variety review the arrival and the third season 001961"
  },
  "essays/review-variety-the-twilight-zone-rod-serlings-lost-classics-tv-review": {
   "connection": "Review of The Twilight Zone: Rod Serling's Lost Classics in Variety (1994), written at the time of release. A contemporary review of the 1994 TV film Rod Serling's Lost Classics in Variety.",
@@ -30183,8 +30207,8 @@
   "connection": "A motorist is stalked across desert highways by an unseen truck driver; Flicks calls the Richard Matheson-scripted film a feature-length Twilight Zone-style story.",
   "tier": "related",
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "recommendation": "exclude",
+  "reason": "Duplicate of films/duel-1971; the other record is kept. This one stays hidden so the importer does not recreate it.",
   "source_title": "Sight, Sound and Mind: The Twilight Zone on the Big Screen (Flicks)",
   "source_url": "https://www.flicks.com.au/features/sight-sound-and-mind-the-twilight-zone-on-the-big-screen/",
   "title": "Duel",
@@ -31455,8 +31479,8 @@
   "connection": "A fellow anthology series: Syndicated creature-feature anthology.",
   "tier": "tangential",
   "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
-  "recommendation": "maybe",
-  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
+  "recommendation": "exclude",
+  "reason": "Duplicate of films/monsters; the other record is kept. This one stays hidden so the importer does not recreate it.",
   "source_title": "Wikipedia: Anthology series",
   "source_url": "https://en.wikipedia.org/wiki/Anthology_series",
   "title": "Monsters",
@@ -37277,8 +37301,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Al Hirschfeld Foundation: Rod Serling",
+  "source_url": "https://alhirschfeldfoundation.org/piece/rod-serling",
   "title": "Al Hirschfeld Foundation",
   "subcategory": "Organizations",
   "sort": "al hirschfeld foundation"
@@ -37361,8 +37385,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Bundy Museum: In The Zone, The Rod Serling Archive",
+  "source_url": "https://www.bundymuseum.org/the-rod-serling-archive-1",
   "title": "Bundy Museum of History & Art",
   "subcategory": "Organizations",
   "sort": "bundy museum of history  art"
@@ -37373,8 +37397,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Calisphere: The Interviews (Television Academy Foundation) collection",
+  "source_url": "https://calisphere.org/collections/27305/",
   "title": "Calisphere",
   "subcategory": "Organizations",
   "sort": "calisphere"
@@ -37433,8 +37457,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "CSUF Archives: Twilight Zone Magazine (T Z Publications, New York, N.Y., 1981)",
+  "source_url": "https://archives.fullerton.edu/repositories/5/resources/205",
   "title": "CSU Fullerton University Archives and Special Collections",
   "subcategory": "Organizations",
   "sort": "csu fullerton university archives and special collections"
@@ -37577,8 +37601,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it. Seed record without a description yet.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "IMDb: Twilight Zone: The Movie, soundtrack",
+  "source_url": "https://www.imdb.com/title/tt0086491/soundtrack",
   "title": "IMDb",
   "subcategory": "Organizations",
   "sort": "imdb"
@@ -37673,8 +37697,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod",
+  "source_url": "https://www.museum.tv/tv-encyclopedia-15/serling-rod",
   "title": "Museum of Broadcast Communications",
   "subcategory": "Organizations",
   "sort": "museum of broadcast communications"
@@ -37733,8 +37757,8 @@
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Prime Video: The Twilight Zone (Classic)",
+  "source_url": "https://www.primevideo.com/detail/0KPKZU2H05HF57GYDSKLU80B1S/ref=atv_pp_fi_13",
   "title": "Prime Video",
   "subcategory": "Organizations",
   "sort": "prime video"
@@ -37757,8 +37781,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it. Seed record without a description yet.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Radio Preservation Task Force database: collection 1182",
+  "source_url": "https://database.radiopreservation.org/catalog/collection_1182",
   "title": "Radio Preservation Task Force",
   "subcategory": "Organizations",
   "sort": "radio preservation task force"
@@ -37769,8 +37793,8 @@
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Cardboard Connection: 2020 Rittenhouse Twilight Zone Archives",
+  "source_url": "https://www.cardboardconnection.com/2020-rittenhouse-twilight-zone-archives-trading-cards",
   "title": "Rittenhouse Archives",
   "subcategory": "Organizations",
   "sort": "rittenhouse archives"
@@ -37853,8 +37877,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Online Archive of California: Herrmann (Bernard) papers, 1927-1977",
+  "source_url": "https://oac.cdlib.org/findaid/ark:/13030/tf438nb3jd",
   "title": "UC Santa Barbara Library",
   "subcategory": "Organizations",
   "sort": "uc santa barbara library"
@@ -37865,8 +37889,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Online Archive of California: Serling (Rod) papers, 1945-1969",
+  "source_url": "https://oac.cdlib.org/findaid/ark:/13030/kt5489n8zx",
   "title": "UCLA Library Special Collections",
   "subcategory": "Organizations",
   "sort": "ucla library special collections"
@@ -37913,8 +37937,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "USC Archives: Twilight Zone call sheets and production reports, 1985",
+  "source_url": "https://archives.usc.edu/repositories/5/archival_objects/676113",
   "title": "USC Cinematic Arts Library",
   "subcategory": "Organizations",
   "sort": "usc cinematic arts library"
@@ -37937,8 +37961,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Visit Binghamton: Rod Serling",
+  "source_url": "https://visitbinghamton.org/things-to-do/rod-serling",
   "title": "Visit Binghamton",
   "subcategory": "Organizations",
   "sort": "visit binghamton"
@@ -37961,8 +37985,8 @@
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "D23: The Twilight Zone Tower of Terror",
+  "source_url": "https://d23.com/a-to-z/twilight-zone-tower-of-terror-the",
   "title": "Walt Disney Parks",
   "subcategory": "Organizations",
   "sort": "walt disney parks"
@@ -38435,6 +38459,18 @@
   "subcategory": "Composers",
   "sort": "alexander courage"
  },
+ "people/alexandra-barreto": {
+  "connection": "Alexandra Barreto is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Alexandra Barreto - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Alexandra_Barreto",
+  "title": "Alexandra Barreto",
+  "subcategory": "Actors",
+  "sort": "alexandra barreto"
+ },
  "people/alf-humphreys": {
   "connection": "Alf Humphreys acted in 2 episodes of the 1985 series (“There Was an Old Woman” and “The Trunk”).",
   "tier": "core",
@@ -38783,6 +38819,18 @@
   "subcategory": "Actors",
   "sort": "andrew divoff"
  },
+ "people/andrew-francis": {
+  "connection": "Andrew Francis is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "maybe",
+  "reason": "Wikipedia lists a Twilight Zone credit but not the episode; identity is very likely.",
+  "source_title": "Andrew Francis - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Andrew_Francis",
+  "title": "Andrew Francis",
+  "subcategory": "Actors",
+  "sort": "andrew francis"
+ },
  "people/andrew-guest": {
   "connection": "Writer of the 2019 episode \"The Wunderkind\".",
   "tier": "core",
@@ -38866,6 +38914,18 @@
   "title": "Angel Tompkins",
   "subcategory": "Actors",
   "sort": "angel tompkins"
+ },
+ "people/angela-featherstone": {
+  "connection": "Angela Featherstone is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Angela Featherstone - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Angela_Featherstone",
+  "title": "Angela Featherstone",
+  "subcategory": "Actors",
+  "sort": "angela featherstone"
  },
  "people/ann-blyth": {
   "connection": "Ann Blyth acted in 1 episode of the 1959 series (“Queen of the Nile”).",
@@ -39754,6 +39814,18 @@
   "title": "Beau Bridges",
   "subcategory": "Actors",
   "sort": "beau bridges"
+ },
+ "people/ben-bass": {
+  "connection": "Ben Bass is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Ben Bass (actor) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Ben_Bass_(actor)",
+  "title": "Ben Bass",
+  "subcategory": "Actors",
+  "sort": "ben bass"
  },
  "people/ben-bolt": {
   "connection": "Ben Bolt directed 1 episode of the 1985 series (“Devil's Alphabet”).",
@@ -41100,7 +41172,7 @@
   "sort": "cesare danova"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -43367,7 +43439,7 @@
   "subcategory": "Actors",
   "sort": "e g marshall"
  },
- "people/e-j-andr": {
+ "people/e-j-andre": {
   "connection": "E. J. André worked on 1 Night Gallery production.",
   "tier": "related",
   "tier_reason": "Credits on Night Gallery or Serling's wider work.",
@@ -43824,7 +43896,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -43906,6 +43978,18 @@
   "title": "Eric Darnell",
   "subcategory": "Writers",
   "sort": "eric darnell"
+ },
+ "people/eric-keenleyside": {
+  "connection": "Eric Keenleyside is credited on a Twilight Zone episode (1980s revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Eric Keenleyside - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Eric_Keenleyside",
+  "title": "Eric Keenleyside",
+  "subcategory": "Actors",
+  "sort": "eric keenleyside"
  },
  "people/eric-till": {
   "connection": "Eric Till directed 1 episode of the 1985 series (“Cat and Mouse”).",
@@ -44554,6 +44638,18 @@
   "title": "Fritz Weaver",
   "subcategory": "Actors",
   "sort": "fritz weaver"
+ },
+ "people/gabrielle-miller": {
+  "connection": "Gabrielle Miller is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Gabrielle Miller - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Gabrielle_Miller",
+  "title": "Gabrielle Miller",
+  "subcategory": "Actors",
+  "sort": "gabrielle miller"
  },
  "people/gage-clarke": {
   "connection": "Gage Clarke acted in 1 episode of the 1959 series (“One More Pallbearer”).",
@@ -45466,6 +45562,18 @@
   "title": "Greg Mullavey",
   "subcategory": "Actors",
   "sort": "greg mullavey"
+ },
+ "people/greg-serano": {
+  "connection": "Greg Serano is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Greg Serano - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Greg_Serano",
+  "title": "Greg Serano",
+  "subcategory": "Actors",
+  "sort": "greg serano"
  },
  "people/greg-yaitanes": {
   "connection": "Greg Yaitanes directed 1 episode of the 2019 series (“Nightmare at 30,000 Feet”).",
@@ -48875,6 +48983,18 @@
   "subcategory": "Actors",
   "sort": "john franklin"
  },
+ "people/john-furia-jr": {
+  "connection": "John Furia, Jr. is credited on a Twilight Zone episode (original series).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "John Furia Jr. - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/John_Furia_Jr.",
+  "title": "John Furia, Jr.",
+  "subcategory": "Writers",
+  "sort": "john furia jr"
+ },
  "people/john-glover": {
   "connection": "John Glover acted in 1 episode of the 1985 series (“A Small Talent for War”).",
   "tier": "core",
@@ -50279,6 +50399,18 @@
   "subcategory": "Actors",
   "sort": "kim hamilton"
  },
+ "people/kim-hawthorne": {
+  "connection": "Kim Hawthorne is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Kim Hawthorne - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Kim_Hawthorne",
+  "title": "Kim Hawthorne",
+  "subcategory": "Actors",
+  "sort": "kim hawthorne"
+ },
  "people/kim-hunter": {
   "connection": "Kim Hunter worked on 1 Night Gallery production.",
   "tier": "related",
@@ -50374,6 +50506,18 @@
   "title": "Koren Shadmi",
   "subcategory": "Scholars and historians",
   "sort": "koren shadmi"
+ },
+ "people/kristi-angus": {
+  "connection": "Kristi Angus is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Kristi Angus - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Kristi_Angus",
+  "title": "Kristi Angus",
+  "subcategory": "Actors",
+  "sort": "kristi angus"
  },
  "people/kristin-lehman": {
   "connection": "Kristin Lehman acted in 1 episode of the 2002 series (“Dead Man's Eyes”); acted in 1 episode of the 2019 series (“Meet in the Middle”).",
@@ -51094,6 +51238,18 @@
   "title": "Lindsay Wagner",
   "subcategory": "Actors",
   "sort": "lindsay wagner"
+ },
+ "people/lindy-booth": {
+  "connection": "Lindy Booth is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Lindy Booth - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Lindy_Booth",
+  "title": "Lindy Booth",
+  "subcategory": "Actors",
+  "sort": "lindy booth"
  },
  "people/lionel-lindon": {
   "connection": "Lionel Lindon was credited as director of photography on “Night Gallery” (Night Gallery).",
@@ -52271,7 +52427,7 @@
   "subcategory": "Actors",
   "sort": "mel rodriguez"
  },
- "people/mel-torm": {
+ "people/mel-torme": {
   "connection": "Mel Tormé played the browbeaten brother of Mickey Rooney's monstrous TV comic in The Comedian (1957), Rod Serling's Emmy-winning Playhouse 90 adaptation.",
   "tier": "related",
   "tier_reason": "Part of Rod Serling's life or circle.",
@@ -52607,18 +52763,6 @@
   "subcategory": "Writers",
   "sort": "michael ohara"
  },
- "people/michael-pe-a": {
-  "connection": "Michael Peña acted in 1 episode of the 2002 series (“Sunrise”).",
-  "tier": "core",
-  "tier_reason": "Has screen, radio or production credits on the franchise.",
-  "recommendation": "include",
-  "reason": "A credited contributor; their page ties together everything they made for the franchise.",
-  "source_title": "Michael Peña - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Michael_Peña",
-  "title": "Michael Peña",
-  "subcategory": "Actors",
-  "sort": "michael pea"
- },
  "people/michael-pena": {
   "connection": "Michael Peña acted in 1 episode of the 2002 series (“Sunrise”).",
   "tier": "core",
@@ -52739,7 +52883,7 @@
   "subcategory": "Actors",
   "sort": "mickey rooney"
  },
- "people/miguel-a-n-ez-jr": {
+ "people/miguel-a-nunez-jr": {
   "connection": "Miguel A. Núñez Jr. acted in 1 episode of the 1985 series (“Teacher's Aide”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
@@ -53314,6 +53458,18 @@
   "title": "Nick Cravat",
   "subcategory": "Actors",
   "sort": "nick cravat"
+ },
+ "people/nicki-aycox": {
+  "connection": "Nicki Aycox is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Nicki Aycox - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Nicki_Aycox",
+  "title": "Nicki Aycox",
+  "subcategory": "Actors",
+  "sort": "nicki aycox"
  },
  "people/nicky-guadagni": {
   "connection": "Nicky Guadagni acted in 1 episode of the 1985 series (“The Cold Equations”).",
@@ -53927,6 +54083,18 @@
   "subcategory": "Actors",
   "sort": "patrick oneal"
  },
+ "people/patrick-r-norris": {
+  "connection": "Patrick R. Norris is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "maybe",
+  "reason": "Wikipedia lists a Twilight Zone credit but not the episode; identity is very likely.",
+  "source_title": "Patrick Norris - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Patrick_Norris",
+  "title": "Patrick R. Norris",
+  "subcategory": "Directors",
+  "sort": "patrick r norris"
+ },
  "people/patrick-warburton": {
   "connection": "Patrick Warburton acted in 1 episode of the 2002 series (“Azoth the Avenger Is a Friend of Mine”).",
   "tier": "core",
@@ -54108,7 +54276,7 @@
   "sort": "paul le mat"
  },
  "people/paul-lynch": {
-  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “Examination Day” and “A Message from Charity”).",
+  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “A Message from Charity” and “Examination Day”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -55031,7 +55199,7 @@
   "subcategory": "Actors",
   "sort": "rekha sharma"
  },
- "people/ren-auberjonois": {
+ "people/rene-auberjonois": {
   "connection": "René Auberjonois worked on 1 Night Gallery production.",
   "tier": "related",
   "tier_reason": "Credits on Night Gallery or Serling's wider work.",
@@ -55415,7 +55583,7 @@
   "subcategory": "Actors",
   "sort": "richard van vleet"
  },
- "people/richard-y-iguez": {
+ "people/richard-yniguez": {
   "connection": "Richard Yñiguez worked on 1 Night Gallery production.",
   "tier": "related",
   "tier_reason": "Credits on Night Gallery or Serling's wider work.",
@@ -56507,7 +56675,7 @@
   "subcategory": "Directors",
   "sort": "rudy larriva"
  },
- "people/rudy-vall-e": {
+ "people/rudy-vallee": {
   "connection": "Rudy Vallée worked on 1 Night Gallery production.",
   "tier": "related",
   "tier_reason": "Credits on Night Gallery or Serling's wider work.",
@@ -56796,7 +56964,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -56806,6 +56974,18 @@
   "title": "Sara Amini",
   "subcategory": "Writers",
   "sort": "sara amini"
+ },
+ "people/sarah-carter": {
+  "connection": "Sarah Carter is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Sarah Carter - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Sarah_Carter",
+  "title": "Sarah Carter",
+  "subcategory": "Actors",
+  "sort": "sarah carter"
  },
  "people/sarah-marshall": {
   "connection": "Sarah Marshall acted in 1 episode of the 1959 series (“Little Girl Lost”).",
@@ -58451,6 +58631,18 @@
   "subcategory": "Actors",
   "sort": "tod andrews"
  },
+ "people/todd-williams": {
+  "connection": "Todd Williams is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Todd Williams (actor) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Todd_Williams_(actor)",
+  "title": "Todd Williams",
+  "subcategory": "Actors",
+  "sort": "todd williams"
+ },
  "people/tom-bosley": {
   "connection": "Tom Bosley worked on 2 Night Gallery productions.",
   "tier": "related",
@@ -59280,7 +59472,7 @@
   "sort": "werner klemperer"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -59855,6 +60047,18 @@
   "subcategory": "Writers",
   "sort": "zack stentz"
  },
+ "people/zak-santiago": {
+  "connection": "Zak Santiago is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Zak Santiago - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Zak_Santiago",
+  "title": "Zak Santiago",
+  "subcategory": "Actors",
+  "sort": "zak santiago"
+ },
  "people/zalman-king": {
   "connection": "Zalman King guest-starred in \"To the West of Eden\" (1966), an episode of Rod Serling's western The Loner, early in his acting career.",
   "tier": "related",
@@ -60264,11 +60468,11 @@
   "sort": "pop culture happy hour  roaming in the gloaming of the twilight zone"
  },
  "podcasts/pretty-much-pop-52-twilight-zone-morality-tales": {
-  "connection": "A discussion episode on TZ morality tales.",
+  "connection": "A Pretty Much Pop discussion of the original series and the 2019 revival.",
   "tier": "core",
-  "tier_reason": "See connection.",
-  "recommendation": "maybe",
-  "reason": "Only the title and URL were confirmed.",
+  "tier_reason": "An episode devoted to the show.",
+  "recommendation": "include",
+  "reason": "Now confirmed: hosts, guest, date and the episodes discussed.",
   "source_title": "Open Culture - Twilight Zone Morality Tales: A Pretty Much Pop Culture Podcast Discussion (#52)",
   "source_url": "https://openculture.com/2020/07/twilight-zone-morality-tales-a-pretty-much-pop-culture-podcast-discussion-52.html",
   "title": "Pretty Much Pop: A Culture Podcast - #52: Twilight Zone Morality Tales",
@@ -60360,11 +60564,11 @@
   "sort": "thats not fair a queer twilight zone podcast"
  },
  "podcasts/the-5th-dimension-a-twilight-zone-podcast": {
-  "connection": "A TZ podcast on Anchor.",
+  "connection": "A Twilight Zone discussion podcast by three friends.",
   "tier": "core",
-  "tier_reason": "See connection.",
+  "tier_reason": "A podcast devoted to the show.",
   "recommendation": "maybe",
-  "reason": "164 episodes but hosts and format unconfirmed; low confidence.",
+  "reason": "164 episodes, but the hosts are still unnamed and no episode list could be read; tagged unconfirmed.",
   "source_title": "Apple Podcasts directory lookup (iTunes API), id 1584885220",
   "source_url": "https://itunes.apple.com/lookup?id=1584885220&entity=podcast",
   "title": "The 5th Dimension (A Twilight Zone Podcast)",
@@ -64104,27 +64308,27 @@
   "sort": "at the park"
  },
  "songs/gary-portnoy-alien": {
-  "connection": "A song by Gary Portnoy listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Unknown; the song exists (track 9 on Keeper) but no lyric text could be found.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "No confirmed link.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "reason": "The Cheers-theme writer is a fun name for TV fans, but keep it on hold until someone hears the song.",
+  "source_title": "Gary Portnoy official site: CDs",
+  "source_url": "https://www.garyportnoy.com/cds-cheers-theme-2",
   "title": "Alien",
-  "subcategory": "Connection not yet confirmed",
+  "subcategory": "Possible references (unconfirmed)",
   "sort": "alien"
  },
  "songs/george-white-group-thats-when-i-think-of-you": {
-  "connection": "A song by George White Group listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Probably a cover of 1927's 1988 song, whose fourth verse uses \"twilight zone\" as an idiom.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
-  "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "tier_reason": "Idiom only, cover unconfirmed.",
+  "recommendation": "exclude",
+  "reason": "Same as the Thirsty Merc row: obscure cover of an idiom-only lyric.",
+  "source_title": "Letras: 1927, \"That's When I Think of You\" lyrics",
+  "source_url": "https://www.letras.mus.br/1927/thats-when-i-think-of-you/",
   "title": "That's When I Think of You",
-  "subcategory": "Connection not yet confirmed",
+  "subcategory": "Lyric mentions (idiom)",
   "sort": "thats when i think of you"
  },
  "songs/gigolo-tony-smurf-rock": {
@@ -64452,11 +64656,11 @@
   "sort": "killin brain cells"
  },
  "songs/killah-priest-the-seer-the-poet": {
-  "connection": "WhoSampled lists a sample of a Twilight Zone clip it calls \"The Devil's All Around Us\".",
+  "connection": "Track 18 of The Psychic World of Walter Reed (2013); WhoSampled lists a Twilight Zone dialogue sample.",
   "tier": "tangential",
   "tier_reason": "Dialogue sample.",
   "recommendation": "include",
-  "reason": "Wu-Tang affiliate; dialogue sample from the series. Episode still to identify.",
+  "reason": "Wu-Tang affiliate; album and year now confirmed. Episode of the clip still to identify.",
   "source_title": "WhoSampled: Killah Priest's 'The Seer, the Poet' sample of The Devil's All Around Us scene in The Twilight Zone",
   "source_url": "https://www.whosampled.com/sample/385674/Killah-Priest-The-Seer,-the-Poet-The-Twilight-Zone-The-Devil's-All-Around-Us/",
   "title": "The Seer, the Poet",
@@ -64596,15 +64800,15 @@
   "sort": "welcome to the zone"
  },
  "songs/lisa-brokop-when-you-get-to-be-you": {
-  "connection": "A song by Lisa Brokop listed in the original research with no stated Twilight Zone connection.",
+  "connection": "The second verse uses \"twilight zone\" as an idiom for someone in a world of their own.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Idiom only.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "reason": "A real country release, but the phrase is generic and says nothing about the show.",
+  "source_title": "Vagalume: Lisa Brokop, \"When You Get To Be You\" lyrics",
+  "source_url": "https://www.vagalume.com.br/lisa-brokop/when-you-get-to-be-you.html",
   "title": "When You Get To Be You",
-  "subcategory": "Connection not yet confirmed",
+  "subcategory": "Lyric mentions (idiom)",
   "sort": "when you get to be you"
  },
  "songs/loudon-wainwright-living-alone": {
@@ -65736,15 +65940,15 @@
   "sort": "punishment information"
  },
  "songs/thirsty-merc-thats-when-i-think-of-you": {
-  "connection": "A song by Thirsty Merc listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Probably a cover of 1927's 1988 song, whose fourth verse uses \"twilight zone\" as an idiom.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
-  "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "tier_reason": "Idiom only, cover unconfirmed.",
+  "recommendation": "exclude",
+  "reason": "Idiom-only lyric, and this recording could not be found. If Adam wants the song, 1927's original would be the record to keep.",
+  "source_title": "Letras: 1927, \"That's When I Think of You\" lyrics",
+  "source_url": "https://www.letras.mus.br/1927/thats-when-i-think-of-you/",
   "title": "That’s When I Think of You",
-  "subcategory": "Connection not yet confirmed",
+  "subcategory": "Lyric mentions (idiom)",
   "sort": "thats when i think of you"
  },
  "songs/tyler-the-creator-nightmare": {
@@ -65760,11 +65964,11 @@
   "sort": "nightmare"
  },
  "songs/unkle-unkle-main-title-theme": {
-  "connection": "WhoSampled lists it as sampling a Twilight Zone TV promo.",
+  "connection": "Track 2 of Psyence Fiction (1998); WhoSampled lists a sample of a Twilight Zone TV promo.",
   "tier": "tangential",
   "tier_reason": "Sample of promo audio.",
   "recommendation": "include",
-  "reason": "Well-known trip-hop act; a promo sample is an unusual and interesting use.",
+  "reason": "Well-known album; album and year now confirmed from the tracklist.",
   "source_title": "WhoSampled: UNKLE's 'Unkle (Main Title Theme)' sample of TV Promo scene in The Twilight Zone",
   "source_url": "https://www.whosampled.com/sample/348105/UNKLE-Unkle-(Main-Title-Theme)-The-Twilight-Zone-TV-Promo/",
   "title": "Unkle (Main Title Theme)",
@@ -65844,11 +66048,11 @@
   "sort": "new year thngs"
  },
  "songs/world-class-wreckin-cru-planet": {
-  "connection": "WhoSampled lists it as sampling the later-season title-sequence music.",
+  "connection": "Opening track of World Class (1985); WhoSampled lists a sample of the later-season title music.",
   "tier": "tangential",
   "tier_reason": "Theme sample.",
   "recommendation": "include",
-  "reason": "Early Dr. Dre group sampling the theme is a notable piece of hip-hop history.",
+  "reason": "Pre-N.W.A Dr. Dre and DJ Yella group using the theme; album and year now confirmed.",
   "source_title": "WhoSampled: World Class Wreckin' Cru's 'Planet' sample of Title Sequence (Season 4 Onwards) in The Twilight Zone",
   "source_url": "https://www.whosampled.com/sample/476186/World-Class-Wreckin%27-Cru-Planet-The-Twilight-Zone-Title-Sequence-%28Season-4-Onwards%29/",
   "title": "Planet",
@@ -66171,8 +66375,8 @@
   "connection": "A first-person psychological thriller planned as the first episode of an anthology; its creator said the studio wanted to do what Serling did with Twilight Zone, including bringing in outside writers. Linked to The Twilight Zone (original series).",
   "tier": "related",
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "recommendation": "exclude",
+  "reason": "Duplicate of works/asemblance-2016; the other record is kept. This one stays hidden so the importer does not recreate it.",
   "source_title": "Kill Screen – New videogame thriller takes its cues from The Twilight Zone",
   "source_url": "https://www.killscreen.com/new-videogame-thriller-takes-its-cues-from-the-twilight-zone/",
   "title": "Asemblance",
@@ -66226,6 +66430,18 @@
   "title": "The Immigration of the Body Snatchers",
   "subcategory": "Parodies",
   "sort": "immigration of the body snatchers"
+ },
+ "works/bcsd-rod-serling-day-2024": {
+  "connection": "The Binghamton school district's annual Rod Serling Day, with Anne Serling in 2024.",
+  "tier": "related",
+  "tier_reason": "A hometown commemoration of Serling.",
+  "recommendation": "include",
+  "reason": "An annual hometown tradition with a family guest and a \"Walking Distance\" tribute video; from the district's own article.",
+  "source_title": "Binghamton City School District - Dimension of Mind: Celebrating Rod Serling's Legacy (Christopher Whalen, 11 Apr 2024)",
+  "source_url": "https://www.binghamtonschools.org/article/1547312",
+  "title": "Binghamton City School District's Rod Serling Day (2024)",
+  "subcategory": "Anniversaries and festivals",
+  "sort": "binghamton city school districts rod serling day 002024"
  },
  "works/beltrami-tz-theme-2019": {
   "connection": "2019 main title.",
@@ -66742,6 +66958,18 @@
   "title": "Binghamton's Twilight Zone 50th anniversary celebration (2009)",
   "subcategory": "Anniversaries and festivals",
   "sort": "binghamtons twilight zone 000050th anniversary celebration 002009"
+ },
+ "works/binghamton-university-twilight-zone-stage-2014": {
+  "connection": "A university staging of \"The Monsters Are Due on Maple Street\" and \"Dust\" in Serling's hometown.",
+  "tier": "related",
+  "tier_reason": "A stage production of the teleplays.",
+  "recommendation": "include",
+  "reason": "AP national coverage; the director is named. The exact performance dates are not stated.",
+  "source_title": "Washington Times (Associated Press) - NY college bringing 'Twilight Zone' to the stage (6 Mar 2014)",
+  "source_url": "https://m.washingtontimes.com/news/2014/mar/6/ny-college-bringing-twilight-zone-to-the-stage/",
+  "title": "The Twilight Zone onstage at Binghamton University (2014)",
+  "subcategory": "Stage",
+  "sort": "twilight zone onstage at binghamton university 002014"
  },
  "works/blue-room-chico-twilight-zone": {
   "connection": "A community theatre that has repeatedly staged Twilight Zone episodes; local press covered a \"return to the Zone.\"",
@@ -67368,16 +67596,16 @@
   "sort": "twilight zone doorway 000014 oz travel mug ee exclusive"
  },
  "works/everson-museum-rod-serling-before-the-twilight-zone": {
-  "connection": "Syracuse museum programme on Serling's pre-TZ career.",
+  "connection": "A centennial lecture and screening of Serling's \"Patterns\" in Syracuse, his birthplace.",
   "tier": "related",
-  "tier_reason": "See connection.",
-  "recommendation": "maybe",
-  "reason": "Type and date unconfirmed; strong lead for a later pass.",
+  "tier_reason": "About Serling's pre-Twilight Zone work.",
+  "recommendation": "include",
+  "reason": "Confirmed from the museum page and the SUNY Oswego announcement: date, venue, speaker, partners. It was a lecture, not an exhibit, so it moves to Lectures.",
   "source_title": "Everson Museum of Art - Rod Serling: Before the Twilight Zone",
   "source_url": "https://everson.org/connect/rod-serling-before-the-twilight-zone/",
-  "title": "\"Rod Serling: Before the Twilight Zone\" (Everson Museum of Art, Syracuse)",
-  "subcategory": "Exhibitions",
-  "sort": "rod serling before the twilight zone everson museum of art syracuse"
+  "title": "\"Rod Serling: Before The Twilight Zone\" (Everson Museum of Art, 2024)",
+  "subcategory": "Lectures",
+  "sort": "rod serling before the twilight zone everson museum of art 002024"
  },
  "works/eye-of-the-beholder-male-nurse-appliance-propstore-2023": {
   "connection": "Surviving makeup piece from season 2's \"Eye of the Beholder\".",
@@ -68328,16 +68556,16 @@
   "sort": "italy ai confini della realt"
  },
  "works/ithaca-college-friday-night-twilight-zone-marathon-2008": {
-  "connection": "Campus TZ marathon at Serling's college.",
+  "connection": "The opening screening of the 2008 Rod Serling Conference at Ithaca College.",
   "tier": "related",
-  "tier_reason": "See connection.",
-  "recommendation": "maybe",
-  "reason": "Minor event; title-only source.",
+  "tier_reason": "Fills the 2008 gap between the existing 2006 and 2009 conference records.",
+  "recommendation": "include",
+  "reason": "Confirmed: 28 March 2008, 8pm, Park Auditorium; episodes chosen by online vote.",
   "source_title": "Ithaca College Intercom - Friday Night Twilight Zone Marathon",
   "source_url": "https://web2.ithaca.edu/intercom-archive/article.php/20080322095202313.html",
-  "title": "Friday Night Twilight Zone Marathon (Ithaca College, 2008)",
+  "title": "Friday Night Twilight Zone Marathon (Rod Serling Conference, Ithaca College, 2008)",
   "subcategory": "Screenings and marathons",
-  "sort": "friday night twilight zone marathon ithaca college 002008"
+  "sort": "friday night twilight zone marathon rod serling conference ithaca college 002008"
  },
  "works/ithaca-college-rod-serling-archives": {
   "connection": "Research guide to the Serling materials Carol Serling donated to Ithaca College, where Serling taught from 1967 to 1975.",
@@ -70116,15 +70344,15 @@
   "sort": "rod serlings stories from the zone"
  },
  "works/rosendale-theatre-rod-serling-evening-2025": {
-  "connection": "A Serling-themed evening at a Hudson Valley cinema.",
+  "connection": "The Rod Serling Memorial Foundation's illustrated talk for the show's 66th anniversary.",
   "tier": "related",
-  "tier_reason": "See connection.",
-  "recommendation": "maybe",
-  "reason": "Minor event; programme unconfirmed.",
+  "tier_reason": "An event by the foundation about Serling.",
+  "recommendation": "include",
+  "reason": "Two independent sources (WAMC listing, Marist Circle report) confirm the date, speakers and content.",
   "source_title": "WAMC community calendar - A Rod Serling Evening at the Rosendale Theatre",
   "source_url": "https://www.wamc.org/community-calendar/event/a-rod-serling-evening-at-the-rosendale-theatre-29-07-2025-14-16-20",
   "title": "A Rod Serling Evening (Rosendale Theatre, 2025)",
-  "subcategory": "Screenings and marathons",
+  "subcategory": "Lectures",
   "sort": "rod serling evening rosendale theatre 002025"
  },
  "works/rsmf-awards-page": {
@@ -70668,11 +70896,11 @@
   "sort": "rod serling at moorpark college loyalty oaths vietnam and social inequity 001968"
  },
  "works/serling-on-screen-binghamton": {
-  "connection": "Binghamton screening series of Serling work.",
+  "connection": "A Serling screening programme at Binghamton High School's Helen Foley Theatre.",
   "tier": "related",
-  "tier_reason": "See connection.",
+  "tier_reason": "A local Serling event.",
   "recommendation": "maybe",
-  "reason": "Recurring local programme, details unconfirmed.",
+  "reason": "The venue and the 5-7 December times are confirmed, but no year or programme; tagged unconfirmed.",
   "source_title": "Visit Binghamton - Serling on Screen",
   "source_url": "https://visitbinghamton.org/event/serling-on-screen/",
   "title": "Serling on Screen (Binghamton screening series)",
@@ -71280,15 +71508,15 @@
   "sort": "submitted for your approval"
  },
  "works/suny-oswego-serling-100th-lecture-screening-2024": {
-  "connection": "Centennial lecture and screening.",
+  "connection": "The same event as the Everson lecture.",
   "tier": "related",
-  "tier_reason": "See connection.",
-  "recommendation": "maybe",
-  "reason": "Title-only source; speaker unconfirmed.",
+  "tier_reason": "Duplicate.",
+  "recommendation": "exclude",
+  "reason": "Marked duplicate_of the Everson record; kept only so the id does not break.",
   "source_title": "SUNY Oswego - Faculty member to lead lecture, screening for Twilight Zone creator's 100th birthday",
   "source_url": "https://oswego.edu/news/announcements/faculty-member-lead-lecture-screening-twilight-zone-creators-100th-birthday",
   "title": "SUNY Oswego lecture and screening for Rod Serling's 100th birthday (2024)",
-  "subcategory": "Anniversaries and festivals",
+  "subcategory": "Lectures",
   "sort": "suny oswego lecture and screening for rod serlings 000100th birthday 002024"
  },
  "works/super-bowl-liii-spot-for-the-2019-revival": {
@@ -71316,11 +71544,11 @@
   "sort": "iron maiden reaction figure twilight zone single art"
  },
  "works/syfy-65-years-twilight-zone-marathon": {
-  "connection": "Syfy marathon for the 65th anniversary.",
+  "connection": "Syfy's 65th-anniversary marathon of the original series, 5-7 October 2024.",
   "tier": "core",
-  "tier_reason": "See connection.",
-  "recommendation": "maybe",
-  "reason": "Dates unconfirmed; title-only source.",
+  "tier_reason": "A broadcast event of the series itself.",
+  "recommendation": "include",
+  "reason": "Now dated and detailed from the Remind Magazine episode guide (65 episodes, exact days).",
   "source_title": "Remind Magazine - Episode Guide to Syfy's '65 Years of The Twilight Zone' Marathon",
   "source_url": "https://www.remindmagazine.com/article/20216/twilight-zone-65-years-syfy-marathon-episodes-schedule-dates",
   "title": "Syfy's \"65 Years of The Twilight Zone\" marathon (2024)",
