@@ -37895,6 +37895,18 @@
   "subcategory": "TV Guide",
   "sort": "tv guide 001962000006000030"
  },
+ "organizations/abc": {
+  "connection": "The network that carried The United States Steel Hour, including Serling's The Rack, from 1953 to 1955.",
+  "tier": "tangential",
+  "tier_reason": "Its only ties found so far are anthologies that aired Serling plays.",
+  "recommendation": "include",
+  "reason": "Stated on the Wikipedia articles for The United States Steel Hour and Kraft Television Theatre.",
+  "source_title": "Wikipedia: American Broadcasting Company",
+  "source_url": "https://en.wikipedia.org/wiki/American_Broadcasting_Company",
+  "title": "ABC",
+  "subcategory": "Organizations",
+  "sort": "abc"
+ },
  "organizations/academy-of-motion-picture-arts-and-sciences": {
   "connection": "Gives the Oscars.",
   "tier": "related",
@@ -37966,6 +37978,18 @@
   "title": "Antioch College",
   "subcategory": "Organizations",
   "sort": "antioch college"
+ },
+ "organizations/armstrong-world-industries": {
+  "connection": "Principal sponsor of Armstrong Circle Theatre, which aired two Serling plays.",
+  "tier": "tangential",
+  "tier_reason": "A sponsor of Serling's pre-Twilight Zone work.",
+  "recommendation": "maybe",
+  "reason": "The sponsorship is on Wikipedia; the Serling plays come from the Rod Serling Memorial Foundation's filmography.",
+  "source_title": "Wikipedia: Armstrong Circle Theatre",
+  "source_url": "https://en.wikipedia.org/wiki/Armstrong_Circle_Theatre",
+  "title": "Armstrong World Industries",
+  "subcategory": "Organizations",
+  "sort": "armstrong world industries"
  },
  "organizations/bantam-books": {
   "connection": "Paperback publisher of Serling's three Twilight Zone story collections, Stories from the Twilight Zone (1960), More Stories (1961) and New Stories (1962), and of his 1957 collection Patterns, whose introduction he wrote.",
@@ -38195,6 +38219,18 @@
   "subcategory": "Organizations",
   "sort": "gold key comics"
  },
+ "organizations/hallmark-cards": {
+  "connection": "Sponsor of Hallmark Hall of Fame, which aired Serling plays from 1952 and A Storm in Summer (1970).",
+  "tier": "tangential",
+  "tier_reason": "A sponsor of Serling's work outside The Twilight Zone.",
+  "recommendation": "include",
+  "reason": "Sponsorship on Wikipedia; plays from the Rod Serling Memorial Foundation's filmography.",
+  "source_title": "Wikipedia: Hallmark Hall of Fame",
+  "source_url": "https://en.wikipedia.org/wiki/Hallmark_Hall_of_Fame",
+  "title": "Hallmark Cards",
+  "subcategory": "Organizations",
+  "sort": "hallmark cards"
+ },
  "organizations/idw-publishing": {
   "connection": "Current licensee of The Twilight Zone comic: its 2025 anthology series under the IDW Dark label, the collections Stories from the Fifth Dimension and Tales Between Light and Shadow (listed for 2027).",
   "tier": "related",
@@ -38243,6 +38279,18 @@
   "subcategory": "Organizations",
   "sort": "ithaca college"
  },
+ "organizations/kraft": {
+  "connection": "Sponsor of Kraft Television Theatre, which aired Serling's Patterns (1955).",
+  "tier": "tangential",
+  "tier_reason": "A sponsor of Serling's pre-Twilight Zone work.",
+  "recommendation": "include",
+  "reason": "Stated on Wikipedia's Kraft Television Theatre article.",
+  "source_title": "Wikipedia: Kraft Television Theatre",
+  "source_url": "https://en.wikipedia.org/wiki/Kraft_Television_Theatre",
+  "title": "Kraft",
+  "subcategory": "Organizations",
+  "sort": "kraft"
+ },
  "organizations/library-of-congress": {
   "connection": "The US national library, where Rod Serling gave a lecture on 4 October 1968 on what the mass media demand of a writer; the talk was broadcast on National Educational Radio and its audio survives.",
   "tier": "related",
@@ -38278,6 +38326,18 @@
   "title": "Louisiana State University",
   "subcategory": "Organizations",
   "sort": "louisiana state university"
+ },
+ "organizations/lux": {
+  "connection": "Sponsor of Lux Video Theatre, which aired seven early Serling plays.",
+  "tier": "tangential",
+  "tier_reason": "A sponsor of Serling's pre-Twilight Zone work.",
+  "recommendation": "maybe",
+  "reason": "Sponsorship on Wikipedia; the plays come from the Rod Serling Memorial Foundation's filmography.",
+  "source_title": "Wikipedia: Lux Video Theatre",
+  "source_url": "https://en.wikipedia.org/wiki/Lux_Video_Theatre",
+  "title": "Lux",
+  "subcategory": "Organizations",
+  "sort": "lux"
  },
  "organizations/metacritic": {
   "connection": "Review aggregator whose weighted scores for the 2019 revival and Twilight Zone: The Movie are summarized on the Reviews aggregate-score pages.",
@@ -38338,6 +38398,18 @@
   "title": "National Association of Broadcasters",
   "subcategory": "Organizations",
   "sort": "national association of broadcasters"
+ },
+ "organizations/nbc": {
+  "connection": "The network that aired Night Gallery and many of the anthologies Rod Serling wrote for in the 1950s.",
+  "tier": "related",
+  "tier_reason": "It carried Serling's own series and early plays, not The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Its role is stated on the Wikipedia articles for Night Gallery, Kraft Television Theatre, Lux Video Theatre and Hallmark Hall of Fame.",
+  "source_title": "Wikipedia: NBC",
+  "source_url": "https://en.wikipedia.org/wiki/NBC",
+  "title": "NBC",
+  "subcategory": "Organizations",
+  "sort": "nbc"
  },
  "organizations/now-comics": {
   "connection": "Chicago publisher of the licensed Twilight Zone comics of 1990-1993: a 1990 one-shot, an eleven-issue volume 2, a four-issue volume 3, an annual and 3-D, science-fiction and premiere specials.",
@@ -38471,6 +38543,18 @@
   "subcategory": "Organizations",
   "sort": "television academy foundation"
  },
+ "organizations/the-theatre-guild": {
+  "connection": "Producer of The United States Steel Hour, including Serling's Noon on Doomsday (1956).",
+  "tier": "tangential",
+  "tier_reason": "It produced Serling's pre-Twilight Zone plays.",
+  "recommendation": "include",
+  "reason": "Stated on Wikipedia's The United States Steel Hour article.",
+  "source_title": "Wikipedia: The United States Steel Hour",
+  "source_url": "https://en.wikipedia.org/wiki/The_United_States_Steel_Hour",
+  "title": "The Theatre Guild",
+  "subcategory": "Organizations",
+  "sort": "theatre guild"
+ },
  "organizations/tor-books": {
   "connection": "Science-fiction publisher of the licensed Twilight Zone story anthologies edited by Carol Serling, including Twilight Zone: 19 Original Stories on the 50th Anniversary (2009) and More Stories from the Twilight Zone (2010).",
   "tier": "core",
@@ -38518,6 +38602,30 @@
   "title": "UCLA Library Special Collections",
   "subcategory": "Organizations",
   "sort": "ucla library special collections"
+ },
+ "organizations/united-states-steel": {
+  "connection": "Sponsor of The United States Steel Hour, which aired Serling's The Rack and Noon on Doomsday.",
+  "tier": "tangential",
+  "tier_reason": "A sponsor of Serling's pre-Twilight Zone work.",
+  "recommendation": "include",
+  "reason": "Stated on Wikipedia's The United States Steel Hour article.",
+  "source_title": "Wikipedia: The United States Steel Hour",
+  "source_url": "https://en.wikipedia.org/wiki/The_United_States_Steel_Hour",
+  "title": "United States Steel Corporation",
+  "subcategory": "Organizations",
+  "sort": "united states steel corporation"
+ },
+ "organizations/universal-television": {
+  "connection": "The studio that produced Rod Serling's Night Gallery.",
+  "tier": "related",
+  "tier_reason": "It made Serling's second anthology, the companion series to The Twilight Zone on this site.",
+  "recommendation": "include",
+  "reason": "Named as production company on Wikipedia's Night Gallery article.",
+  "source_title": "Wikipedia: Universal Television",
+  "source_url": "https://en.wikipedia.org/wiki/Universal_Television",
+  "title": "Universal Television",
+  "subcategory": "Organizations",
+  "sort": "universal television"
  },
  "organizations/university-of-kansas": {
   "connection": "James Gunn's science-fiction teaching program at the university filmed an interview with Serling in 1970 for a series on science fiction in literature; the film was never finished, and its audio was later reconstructed.",
@@ -41076,7 +41184,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -44520,7 +44628,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -44856,7 +44964,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -48156,7 +48264,7 @@
   "sort": "jean carson"
  },
  "people/jean-de-segonzac": {
-  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Night Route” and “Cradle of Darkness”).",
+  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Cradle of Darkness” and “Night Route”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -50220,7 +50328,7 @@
   "sort": "jonathan winters"
  },
  "people/jordan-peele": {
-  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “Nightmare at 30,000 Feet” and “The Comedian”).",
+  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “The Comedian” and “Nightmare at 30,000 Feet”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -57588,7 +57696,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",

@@ -3,6 +3,15 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-21 — Television research round 2: networks, studios and sponsors (no change for visitors yet)
+
+Nine organizations are on file pending Adam's review, each with what ties it to Serling's work and a source: NBC (Night
+Gallery and many 1950s anthologies), ABC, Universal Television (Night Gallery's studio), the Theatre Guild, and the
+sponsors Kraft, United States Steel, Armstrong World Industries, Hallmark Cards and Lux. Review sheet: review-television-round-2.
+
+**Known not to work yet:** Matinee Theater and the Chrysler Theatre networks were not checked; Lux's maker (Lever Brothers)
+is not named on the source read, so it is not recorded.
+
 ## 2026-11-21 — Television research: 47 more of Rod Serling's plays (no change for visitors yet)
 
 Forty-seven more television plays by Serling, from 1952 to 1966, are on file pending Adam's review, each sourced to the Rod

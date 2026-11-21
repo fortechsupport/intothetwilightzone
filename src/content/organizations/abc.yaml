@@ -1,0 +1,26 @@
+name: ABC
+aka:
+- American Broadcasting Company
+- American Broadcasting Companies, Inc.
+kind: network
+founded: '1943-05-15'
+location: Burbank, California, and New York City
+website: https://abc.com/
+parent: The Walt Disney Company
+description: A network that carried The United States Steel Hour from 1953 to 1955, when Rod Serling's The Rack aired on it, and a second Kraft Television Theatre from 1953 to 1955. Its roots are NBC's Blue Network, separated in 1943.
+sources:
+- title: 'Wikipedia: American Broadcasting Company'
+  url: https://en.wikipedia.org/wiki/American_Broadcasting_Company
+  publisher: Wikipedia
+- title: 'Wikipedia: The United States Steel Hour'
+  url: https://en.wikipedia.org/wiki/The_United_States_Steel_Hour
+  publisher: Wikipedia
+- title: 'Wikipedia: Kraft Television Theatre'
+  url: https://en.wikipedia.org/wiki/Kraft_Television_Theatre
+  publisher: Wikipedia
+relevance: related
+research_confidence: medium
+tags:
+- research-2026-11-21
+- television-round-2
+last_verified: '2026-11-21'

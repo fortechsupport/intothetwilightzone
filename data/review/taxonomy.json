@@ -37842,6 +37842,17 @@
    "official": false
   }
  ],
+ "organizations/abc": [
+  {
+   "cat": "organizations",
+   "sub": "networks-studios",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Networks, studios and streamers",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "organizations/academy-of-motion-picture-arts-and-sciences": [
   {
    "cat": "organizations",
@@ -37906,6 +37917,17 @@
    "subTitle": "Schools and universities",
    "isNew": false,
    "official": false
+  }
+ ],
+ "organizations/armstrong-world-industries": [
+  {
+   "cat": "organizations",
+   "sub": "sponsors",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Sponsors and advertisers",
+   "isNew": false,
+   "official": null
   }
  ],
  "organizations/bantam-books": [
@@ -38117,6 +38139,17 @@
    "official": true
   }
  ],
+ "organizations/hallmark-cards": [
+  {
+   "cat": "organizations",
+   "sub": "sponsors",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Sponsors and advertisers",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "organizations/idw-publishing": [
   {
    "cat": "organizations",
@@ -38161,6 +38194,17 @@
    "official": false
   }
  ],
+ "organizations/kraft": [
+  {
+   "cat": "organizations",
+   "sub": "sponsors",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Sponsors and advertisers",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "organizations/library-of-congress": [
   {
    "cat": "organizations",
@@ -38192,6 +38236,17 @@
    "subTitle": "Schools and universities",
    "isNew": false,
    "official": false
+  }
+ ],
+ "organizations/lux": [
+  {
+   "cat": "organizations",
+   "sub": "sponsors",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Sponsors and advertisers",
+   "isNew": false,
+   "official": null
   }
  ],
  "organizations/metacritic": [
@@ -38247,6 +38302,17 @@
    "subTitle": "Foundations and societies",
    "isNew": false,
    "official": false
+  }
+ ],
+ "organizations/nbc": [
+  {
+   "cat": "organizations",
+   "sub": "networks-studios",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Networks, studios and streamers",
+   "isNew": false,
+   "official": true
   }
  ],
  "organizations/now-comics": [
@@ -38370,6 +38436,17 @@
    "official": false
   }
  ],
+ "organizations/the-theatre-guild": [
+  {
+   "cat": "organizations",
+   "sub": "production-companies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Production companies",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "organizations/tor-books": [
   {
    "cat": "organizations",
@@ -38412,6 +38489,28 @@
    "subTitle": "Archives and libraries",
    "isNew": false,
    "official": false
+  }
+ ],
+ "organizations/united-states-steel": [
+  {
+   "cat": "organizations",
+   "sub": "sponsors",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Sponsors and advertisers",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "organizations/universal-television": [
+  {
+   "cat": "organizations",
+   "sub": "networks-studios",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Networks, studios and streamers",
+   "isNew": false,
+   "official": true
   }
  ],
  "organizations/university-of-kansas": [
