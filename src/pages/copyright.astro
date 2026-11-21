@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Copyright and takedown requests" description="How IntoTheTwilightZone.com handles copyright: what the site hosts, and how rights holders can ask for material to be removed.">
+  <article class="legal acct">
+    <h1>Copyright and takedown requests</h1>
+    <p class="lead">IntoTheTwilightZone.com respects the rights of the people and companies who made The Twilight Zone and everything it inspired.</p>
+    <h2>What the site hosts</h2>
+    <ul>
+      <li><strong>The site's own records</strong> are written in its own words, with short quotations for commentary and history, and they link to legitimate sources rather than copying them. Images and media are linked, not re-hosted, unless they are in the public domain or openly licensed.</li>
+      <li><strong>Member contributions</strong> must be the member's own work, public domain, openly licensed, or shared with permission, and a moderator checks each one before it appears. Even so, mistakes can happen.</li>
+    </ul>
+    <h2>Asking for something to be removed</h2>
+    <p>If you own the rights to something on this site, or represent someone who does, and believe it is being used without permission, send a notice with the form below. Please include:</p>
+    <ol>
+      <li>Your name and how to reach you.</li>
+      <li>The work you believe is being infringed.</li>
+      <li>The address of each page on this site where it appears.</li>
+      <li>A statement that you believe in good faith the use isn't authorised by the owner, its agent or the law.</li>
+      <li>A statement that the notice is accurate and, under penalty of perjury, that you are the owner or authorised to act for the owner.</li>
+      <li>Your signature (typing your full name counts).</li>
+    </ol>
+    <p>Material named in a complete notice is taken down while the notice is reviewed. Member uploads are removed and the member is told; members who repeatedly upload infringing material lose their accounts. If you're a member and think your contribution was removed by mistake, contact us through the <a href="/about/#contact">About page</a>.</p>
+
+    <h2 id="notice">Send a notice</h2>
+    <form id="f" class="stack narrow" novalidate data-pagefind-ignore>
+      <label>Your full name <input name="name" required maxlength="120" autocomplete="name" /></label>
+      <label>Organization <span class="muted small">(if you act for one)</span> <input name="organization" maxlength="200" autocomplete="organization" /></label>
+      <label>Email <input type="email" name="email" required maxlength="254" autocomplete="email" /></label>
+      <label>The copyrighted work <textarea name="work" rows="4" required maxlength="4000"></textarea></label>
+      <label>Addresses on this site where it appears <span class="muted small">(one per line)</span> <textarea name="urls" rows="4" required maxlength="4000"></textarea></label>
+      <label class="check"><input type="checkbox" name="goodFaith" /> <span>I believe in good faith that this use of the material is not authorised by the copyright owner, its agent, or the law.</span></label>
+      <label class="check"><input type="checkbox" name="accurate" /> <span>The information in this notice is accurate, and under penalty of perjury, I am the owner, or authorised to act on behalf of the owner, of the right that is allegedly infringed.</span></label>
+      <label>Signature: type your full name <input name="signature" required maxlength="120" /></label>
+      <div class="ts" data-ts></div>
+      <p><button class="btn primary" type="submit">Send notice</button></p>
+      <p class="form-error" data-error hidden tabindex="-1" role="alert"></p>
+    </form>
+    <div id="thanks" class="notice" hidden role="status">Thank you. Your notice has been received and will be reviewed. We'll reply to the email address you gave.</div>
+    <p class="small muted" id="off" hidden>The notice form isn't switched on for this version of the site. Please use the <a href="/about/#contact">contact details on the About page</a>.</p>
+  </article>
+  <script>
+    import { api, me, turnstile, resetTurnstile, showError, clearError, busy, formData } from '../lib/account/client';
+    const f = document.getElementById('f') as HTMLFormElement;
+    (async () => {
+      const m = await me();
+      if (!m.config.features.accounts) { f.hidden = true; document.getElementById('off')!.hidden = false; return; }
+      const tok = await turnstile(f.querySelector('[data-ts]')!, m.config.turnstileSiteKey);
+      f.addEventListener('submit', (ev) => {
+        ev.preventDefault(); clearError(f);
+        busy(f, async () => {
+          try { await api('/api/takedowns', { ...formData(f), turnstile: tok() }); f.hidden = true; document.getElementById('thanks')!.hidden = false; }
+          catch (e) { resetTurnstile(); showError(f, e); }
+        });
+      });
+    })();
+  </script>
+</Base>

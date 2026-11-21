@@ -1,27 +1,35 @@
-// IntoTheTwilightZone.com fan tools that run on every page. Everything is stored in this browser
-// only (localStorage): no account, no cookies, nothing sent anywhere.
+// IntoTheTwilightZone.com fan tools that run on every page. The checklist (watched, owned, wanted,
+// favorites and later) is kept in this browser (localStorage). When a member is signed in, account.js
+// copies it into their account and keeps the two in step through the tz:toggle event below.
 (function () {
   'use strict';
   var STORE = 'tz-tracker-v1';
   var SPOIL = 'tz-spoilers';
   function load() {
-    try { var v = JSON.parse(localStorage.getItem(STORE) || '{}'); return { watched: v.watched || {}, owned: v.owned || {}, wanted: v.wanted || {} }; }
-    catch (e) { return { watched: {}, owned: {}, wanted: {} }; }
+    try { return norm(JSON.parse(localStorage.getItem(STORE) || '{}')); }
+    catch (e) { return norm({}); }
   }
+  var LISTS = ['watched', 'owned', 'wanted', 'favorite', 'later'];
+  function norm(v) { var o = {}; LISTS.forEach(function (l) { o[l] = (v && v[l]) || {}; }); return o; }
   function save(t) { try { localStorage.setItem(STORE, JSON.stringify(t)); } catch (e) { /* storage blocked: the buttons still toggle for this visit */ } }
   var tracker = load();
   window.tzTracker = {
     get: function () { return tracker; },
-    set: function (t) { tracker = { watched: t.watched || {}, owned: t.owned || {}, wanted: t.wanted || {} }; save(tracker); paint(); },
+    lists: LISTS,
+    set: function (t) { tracker = norm(t); save(tracker); paint(); },
     toggle: function (list, key) {
-      if (tracker[list][key]) delete tracker[list][key]; else tracker[list][key] = new Date().toISOString().slice(0, 10);
+      if (!tracker[list]) return;
+      var on = !tracker[list][key];
+      if (on) tracker[list][key] = new Date().toISOString().slice(0, 10); else delete tracker[list][key];
       save(tracker); paint();
+      document.dispatchEvent(new CustomEvent('tz:toggle', { detail: { list: list, key: key, on: on } }));
     },
   };
 
   function paint() {
     document.querySelectorAll('[data-track]').forEach(function (b) {
-      var on = !!tracker[b.getAttribute('data-track')][b.getAttribute('data-key')];
+      var l = tracker[b.getAttribute('data-track')];
+      var on = !!(l && l[b.getAttribute('data-key')]);
       b.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
     document.querySelectorAll('[data-mark]').forEach(function (el) {
@@ -29,6 +37,8 @@
       el.classList.toggle('is-watched', !!tracker.watched[k]);
       el.classList.toggle('is-owned', !!tracker.owned[k]);
       el.classList.toggle('is-wanted', !!tracker.wanted[k]);
+      el.classList.toggle('is-favorite', !!tracker.favorite[k]);
+      el.classList.toggle('is-later', !!tracker.later[k]);
     });
     document.querySelectorAll('[data-progress]').forEach(function (el) {
       var keys = (el.getAttribute('data-progress') || '').split(' ').filter(Boolean);

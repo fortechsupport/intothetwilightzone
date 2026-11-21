@@ -1,0 +1,51 @@
+---
+import Base from '../../../../layouts/Base.astro';
+---
+<Base title="Fan contribution" description="A fan contribution shared on IntoTheTwilightZone.com." noindex>
+  <div class="community" id="root" data-pagefind-ignore>
+    <p class="breadcrumb"><a href="/community/">Community</a> / <a href="/community/uploads/">Fan contributions</a></p>
+    <h1 id="title">Loading…</h1>
+    <p class="small" id="meta"></p>
+    <div class="media-view" id="media"></div>
+    <div id="desc"></div>
+    <p class="small muted" id="rights"></p>
+    <p id="tools"></p>
+  </div>
+  <script>
+    import { api, me, esc, when, renderText, authorHtml, itemLabel } from '../../../../lib/account/client';
+    import { wireReports, uploadKindLabel, RIGHTS_LABEL } from '../../../../lib/account/community';
+    const id = new URLSearchParams(location.search).get('id') ?? '';
+    const $ = (x: string) => document.getElementById(x)!;
+    let signedIn = false;
+    wireReports($('root'), () => signedIn);
+    (async () => {
+      try {
+        const [m, r] = await Promise.all([me(), api(`/api/uploads/${encodeURIComponent(id)}`)]);
+        signedIn = !!m.user;
+        const u = r.upload;
+        document.title = `${u.title} · Fan contributions · IntoTheTwilightZone.com`;
+        $('title').textContent = u.title;
+        const about = u.item_key ? await itemLabel(u.item_key) : null;
+        $('meta').innerHTML = `${esc(uploadKindLabel(u))} shared by ${authorHtml(u)} · ${when(u.created_at)}${about ? ` · about <a href='${esc(about.href)}'>${esc(about.title)}</a>` : ''}${u.status !== 'approved' ? ` · <span class="status s-${esc(u.status)}">${u.status === 'pending' ? 'Waiting for review: only you and moderators can see it' : esc(u.status)}</span>` : ''}`;
+        const src = `/api/uploads/${encodeURIComponent(u.id)}/file`;
+        const t = u.media_type ?? '';
+        $('media').innerHTML = u.kind === 'file'
+          ? t.startsWith('image/') ? `<img src='${src}' alt="${esc(u.title)}">`
+          : t.startsWith('audio/') ? `<audio controls preload="metadata" src='${src}'></audio>`
+          : t.startsWith('video/') ? `<video controls preload="metadata" playsinline src='${src}'></video>`
+          : `<p><a class="btn" href='${src}' target="_blank" rel="noopener">Open the PDF</a></p>`
+          : u.kind === 'link' ? `<p><a class="btn primary" href='${esc(u.link_url)}' rel="nofollow ugc noopener" target="_blank">Open the link</a> <span class="small muted">${esc(new URL(u.link_url).hostname)}</span></p>`
+          : `<div class="post"><div class="body">${renderText(u.body)}</div></div>`;
+        $('desc').innerHTML = u.description ? renderText(u.description) : '';
+        $('rights').textContent = `${RIGHTS_LABEL[u.rights] ?? ''}${u.license ? ` · Licence: ${u.license}` : ''}. Shared by a member; IntoTheTwilightZone.com does not claim ownership.`;
+        $('tools').innerHTML = u.mine ? `<button class="link-btn danger" id="withdraw">Withdraw this contribution</button>` : signedIn ? `<button class="link-btn" data-report-type="upload" data-report-id="${esc(u.id)}">Report</button>` : '';
+        document.getElementById('withdraw')?.addEventListener('click', async (ev) => {
+          const b = ev.target as HTMLButtonElement;
+          if (b.dataset.armed !== '1') { b.dataset.armed = '1'; b.textContent = 'Click again to withdraw and delete it'; return; }
+          await api(`/api/uploads/${encodeURIComponent(u.id)}`, undefined, 'DELETE');
+          location.href = '/account/#contributions';
+        });
+      } catch (e: any) { $('title').textContent = e.status === 404 ? 'Not found' : 'This could not load'; $('meta').textContent = e.message; }
+    })();
+  </script>
+</Base>

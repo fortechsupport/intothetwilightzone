@@ -1,0 +1,28 @@
+---
+import Base from '../../../layouts/Base.astro';
+---
+<Base title="Signing you in" description="Finishing an email sign-in link." noindex>
+  <div class="acct" data-pagefind-ignore>
+    <h1>Signing you in</h1>
+    <p id="msg" class="lead" role="status">One moment…</p>
+  </div>
+  <script>
+    // The token is in the address fragment (#t=...), which browsers never send to servers or in Referer
+    // headers, and link scanners that only fetch the page can't use it up.
+    import { api, esc, ApiError } from '../../../lib/account/client';
+    const msg = document.getElementById('msg')!;
+    const token = new URLSearchParams(location.hash.slice(1)).get('t');
+    history.replaceState(null, '', '/account/verify/');
+    (async () => {
+      if (!token) { msg.innerHTML = `This link is incomplete. <a href='/account/'>Ask for a new one</a>.`; return; }
+      try {
+        const r = await api('/api/auth/email/verify', { token });
+        if (r.needsProfile) { location.replace(`/account/#signup=${encodeURIComponent(r.ticket)}&email=${encodeURIComponent(r.email)}`); return; }
+        if (r.added) { location.replace('/account/#security'); return; }
+        location.replace('/account/');
+      } catch (e) {
+        msg.innerHTML = `${esc(e instanceof ApiError ? e.message : 'That did not work.')} <a href='/account/'>Back to sign in</a>.`;
+      }
+    })();
+  </script>
+</Base>

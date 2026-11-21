@@ -1,0 +1,51 @@
+---
+import Base from '../../../layouts/Base.astro';
+---
+<Base title="Suggest something" description="Suggest a correction, a missing record or an idea for IntoTheTwilightZone.com. Every suggestion is read and reviewed." noindex>
+  <div class="acct" data-pagefind-ignore>
+    <p class="breadcrumb"><a href="/contribute/">Contribute</a> / Suggest something</p>
+    <h1>Suggest something</h1>
+    <p class="lead">Tell us about a mistake, something missing, or an idea for the site. Suggestions go to the editor's review queue, and you can follow each one's status on your <a href="/account/#contributions">account page</a>.</p>
+    <p id="signin-hint" class="notice" hidden><a href="/account/">Sign in or create an account</a> to send a suggestion. No account? You can still <a id="gh" href="/contribute/">use the GitHub forms</a>.</p>
+    <form id="f" class="stack narrow" novalidate hidden>
+      <fieldset class="stack">
+        <legend>What kind of suggestion?</legend>
+        <label class="check"><input type="radio" name="kind" value="correction" /> <span><strong>A correction</strong>: something on a page is wrong or incomplete</span></label>
+        <label class="check"><input type="radio" name="kind" value="new" /> <span><strong>Something new</strong>: an episode detail, person, place, film, song, book, collectible, homage or anything else connected to the Zone</span></label>
+        <label class="check"><input type="radio" name="kind" value="idea" /> <span><strong>An idea for the site</strong>: a feature, a section, a way to make it better</span></label>
+      </fieldset>
+      <label>Page it's about <span class="muted small">(optional; filled in if you came from a page)</span> <input name="pageUrl" type="url" maxlength="500" placeholder="https://intothetwilightzone.com/…" /></label>
+      <label>Short title <input name="title" required minlength="3" maxlength="140" /></label>
+      <label>The details <textarea name="body" rows="7" required minlength="10" maxlength="8000"></textarea></label>
+      <label>Sources <span class="muted small">(links or references that back it up: official listings, archives, articles, the work itself)</span> <textarea name="sources" rows="3" maxlength="2000"></textarea></label>
+      <label class="check"><input type="checkbox" name="credit" checked /> <span>Credit me by username if this is used</span></label>
+      <div class="ts" data-ts></div>
+      <p><button class="btn primary" type="submit">Send suggestion</button></p>
+      <p class="form-error" data-error hidden tabindex="-1" role="alert"></p>
+    </form>
+    <div id="thanks" hidden class="notice" role="status"><p><strong>Thank you.</strong> Your suggestion is in the review queue. You'll see its status on your <a href="/account/#contributions">account page</a>.</p><p><a href="/contribute/suggest/">Send another</a></p></div>
+  </div>
+  <script>
+    import { api, me, turnstile, resetTurnstile, showError, clearError, busy, formData } from '../../../lib/account/client';
+    const q = new URLSearchParams(location.search);
+    const f = document.getElementById('f') as HTMLFormElement;
+    (async () => {
+      const m = await me();
+      if (!m.user) { document.getElementById('signin-hint')!.hidden = false; return; }
+      f.hidden = false;
+      const kind = q.get('kind') ?? (q.get('page') ? 'correction' : '');
+      if (kind) (f.querySelector(`input[name=kind][value="${CSS.escape(kind)}"]`) as HTMLInputElement | null)?.click();
+      if (q.get('page')) (f.elements.namedItem('pageUrl') as HTMLInputElement).value = q.get('page')!;
+      const tok = await turnstile(f.querySelector('[data-ts]')!, m.config.turnstileSiteKey);
+      f.addEventListener('submit', (ev) => {
+        ev.preventDefault(); clearError(f);
+        busy(f, async () => {
+          try {
+            await api('/api/suggestions', { ...formData(f), turnstile: tok() });
+            f.hidden = true; document.getElementById('thanks')!.hidden = false;
+          } catch (e) { resetTurnstile(); showError(f, e); }
+        });
+      });
+    })();
+  </script>
+</Base>

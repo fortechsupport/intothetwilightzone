@@ -1,0 +1,107 @@
+---
+import Base from '../../../layouts/Base.astro';
+---
+<Base title="Share your work" description="Share fan art, photos, recordings, video, writing or a link with other Twilight Zone fans. Every contribution is checked before it appears." noindex>
+  <div class="acct" data-pagefind-ignore>
+    <p class="breadcrumb"><a href="/contribute/">Contribute</a> / Share your work</p>
+    <h1>Share your work</h1>
+    <p class="lead">Fan art, your photos of filming locations or memorabilia, recordings, short films, essays, memories, or a link to something worth seeing. A moderator checks every contribution before it appears in <a href="/community/uploads/">Fan contributions</a>.</p>
+    <p id="signin-hint" class="notice" hidden><a href="/account/">Sign in or create an account</a> to share your work.</p>
+    <form id="f" class="stack narrow" novalidate hidden>
+      <fieldset class="stack">
+        <legend>What are you sharing?</legend>
+        <label class="check"><input type="radio" name="kind" value="file" /> <span><strong>A file</strong>: an image, audio, video or PDF</span></label>
+        <label class="check"><input type="radio" name="kind" value="text" /> <span><strong>Something you wrote</strong>: an essay, a memory, a review, a story</span></label>
+        <label class="check"><input type="radio" name="kind" value="link" /> <span><strong>A link</strong>: something hosted elsewhere, like a video on YouTube or an article</span></label>
+      </fieldset>
+      <div data-for="file" hidden class="stack">
+        <label>File <input type="file" name="file" accept="image/jpeg,image/png,image/gif,image/webp,audio/mpeg,audio/mp4,audio/x-m4a,audio/ogg,audio/wav,audio/flac,video/mp4,video/quicktime,video/webm,application/pdf" /></label>
+        <p class="small muted">Images up to 15 MB (JPEG, PNG, GIF, WebP) · audio up to 50 MB (MP3, M4A, OGG, WAV, FLAC) · video up to 95 MB (MP4, MOV, WebM) · PDF up to 25 MB. Longer videos: upload them to a video site and share the link. Photos: your phone may store where a photo was taken inside the file; remove the location first if you'd rather not share it.</p>
+      </div>
+      <label data-for="text" hidden>Your piece <span class="muted small">(plain text, up to 50,000 characters)</span> <textarea name="body" rows="12" maxlength="50000"></textarea></label>
+      <label data-for="link" hidden>Link <input type="url" name="linkUrl" maxlength="1000" placeholder="https://" /></label>
+      <label>Title <input name="title" required minlength="3" maxlength="140" /></label>
+      <label>Description <span class="muted small">(optional: what it is, when and where it was made)</span> <textarea name="description" rows="4" maxlength="4000"></textarea></label>
+      <p id="about" class="small" hidden></p>
+      <fieldset class="stack">
+        <legend>Whose work is it?</legend>
+        <label class="check"><input type="radio" name="rights" value="own" /> <span>I made it myself (or took the photo, or recorded it)</span></label>
+        <label class="check"><input type="radio" name="rights" value="public-domain" /> <span>It's in the public domain</span></label>
+        <label class="check"><input type="radio" name="rights" value="licensed" /> <span>It's openly licensed (for example Creative Commons)</span></label>
+        <label class="check"><input type="radio" name="rights" value="permission" /> <span>The rights holder gave me permission to share it here</span></label>
+      </fieldset>
+      <label>Licence or permission details <span class="muted small">(needed for openly licensed work; helpful for the others)</span> <input name="license" maxlength="200" placeholder="e.g. CC BY 4.0, or 'permission from the photographer by email, 2026'" /></label>
+      <label class="check"><input type="checkbox" name="agree" /> <span>I have the right to share this, it doesn't copy episodes, scripts, scans or other copyrighted material I don't own, and I agree to the <a href="/terms/#your-content">terms for contributions</a>.</span></label>
+      <div class="ts" data-ts></div>
+      <p><button class="btn primary" type="submit">Send for review</button></p>
+      <p id="progress" class="small muted" hidden aria-live="polite"></p>
+      <p class="form-error" data-error hidden tabindex="-1" role="alert"></p>
+    </form>
+    <div id="thanks" hidden class="notice" role="status"><p><strong>Thank you.</strong> Your contribution is waiting for review. You can follow it on your <a href="/account/#contributions">account page</a>.</p><p><a href="/contribute/share/">Share something else</a></p></div>
+  </div>
+  <script>
+    import { api, me, esc, turnstile, resetTurnstile, showError, clearError, busy, formData, itemLabel, ApiError } from '../../../lib/account/client';
+    const q = new URLSearchParams(location.search);
+    const item = q.get('item') ?? '';
+    const f = document.getElementById('f') as HTMLFormElement;
+    const MB = 1048576;
+    const LIMIT: Record<string, number> = { image: 15 * MB, audio: 50 * MB, video: 95 * MB, application: 25 * MB };
+    (async () => {
+      const m = await me();
+      if (!m.user) { document.getElementById('signin-hint')!.hidden = false; return; }
+      f.hidden = false;
+      if (!m.config.features.uploads) {
+        const fileRadio = f.querySelector('input[value=file]') as HTMLInputElement;
+        fileRadio.disabled = true;
+        fileRadio.closest('label')!.insertAdjacentHTML('beforeend', ' <span class="small muted">(file uploads aren\'t switched on yet)</span>');
+      }
+      f.addEventListener('change', (e) => {
+        const t = e.target as HTMLInputElement;
+        if (t.name === 'kind') f.querySelectorAll<HTMLElement>('[data-for]').forEach((el) => (el.hidden = el.dataset.for !== t.value));
+      });
+      if (item) {
+        const l = await itemLabel(item);
+        const a = document.getElementById('about')!;
+        a.hidden = false;
+        a.innerHTML = `This will be listed with <a href='${esc(l?.href ?? '')}'>${esc(l?.title ?? item)}</a>.`;
+      }
+      const tok = await turnstile(f.querySelector('[data-ts]')!, m.config.turnstileSiteKey);
+      f.addEventListener('submit', (ev) => {
+        ev.preventDefault(); clearError(f);
+        busy(f, async () => {
+          const d = formData(f);
+          const file = (f.elements.namedItem('file') as HTMLInputElement).files?.[0];
+          try {
+            if (d.kind === 'file') {
+              if (!file) throw new ApiError(400, 'missing_field', 'Please choose a file.', 'file');
+              const group = file.type.split('/')[0] ?? '';
+              if (LIMIT[group] && file.size > LIMIT[group]) throw new ApiError(413, 'too_large', `That file is ${(file.size / MB).toFixed(1)} MB; the limit for this type is ${LIMIT[group] / MB} MB.`, 'file');
+            }
+            const r = await api('/api/uploads', { ...d, itemKey: item || undefined, filename: file?.name, size: file?.size, turnstile: tok() });
+            if (r.uploadUrl && file) await send(r.uploadUrl, file);
+            f.hidden = true; document.getElementById('thanks')!.hidden = false;
+          } catch (e) { resetTurnstile(); showError(f, e); }
+        });
+      });
+    })();
+    function send(url: string, file: File) {
+      const p = document.getElementById('progress')!;
+      p.hidden = false;
+      return new Promise<void>((res, rej) => {
+        const x = new XMLHttpRequest();
+        x.open('PUT', url);
+        x.setRequestHeader('Content-Type', 'application/octet-stream');
+        x.upload.onprogress = (e) => { if (e.lengthComputable) p.textContent = `Uploading… ${Math.round((e.loaded / e.total) * 100)}%`; };
+        x.onload = () => {
+          p.hidden = true;
+          if (x.status >= 200 && x.status < 300) return res();
+          let msg = 'The upload did not finish. Please try again.';
+          try { msg = JSON.parse(x.responseText).message ?? msg; } catch { /* keep default */ }
+          rej(new ApiError(x.status, 'upload', msg, 'file'));
+        };
+        x.onerror = () => { p.hidden = true; rej(new ApiError(0, 'offline', 'The upload was interrupted. Check your connection and try again.', 'file')); };
+        x.send(file);
+      });
+    }
+  </script>
+</Base>

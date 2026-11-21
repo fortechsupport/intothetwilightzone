@@ -1,0 +1,369 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Your account" description="Sign in to IntoTheTwilightZone.com to keep favorites and watch, listen and read-later lists on every device, join the forums and share your own work." noindex>
+  <div class="acct" id="acct" data-pagefind-ignore>
+    <h1 id="acct-title">Your account</h1>
+    <p class="muted" id="acct-loading">Loading…</p>
+
+    <!-- Accounts not switched on for this deployment -->
+    <section id="v-off" hidden>
+      <p class="lead">Member accounts are being set up and are not switched on for this version of the site yet.</p>
+      <p>Your checklist still works without one: everything you mark is saved in this browser. See it in <a href="/my-zone/">My Zone</a>.</p>
+    </section>
+
+    <!-- Signed out -->
+    <section id="v-out" hidden>
+      <p class="lead">A free account keeps your favorites, your watch, listen and read-later lists and your checklist on every device, and lets you join the forums, suggest additions and share your own work.</p>
+      <div class="acct-cols">
+        <div class="panel">
+          <h2>Sign in</h2>
+          <button type="button" class="btn primary" id="pk-login">Sign in with a passkey</button>
+          <p class="small muted">Your phone, computer or password manager confirms it's you, with your face, fingerprint or screen lock.</p>
+          <div id="email-login-wrap" hidden>
+            <p class="or"><span>or</span></p>
+            <form id="email-login" class="stack" novalidate>
+              <label>Email me a sign-in link <input type="email" name="email" autocomplete="email" required maxlength="254" /></label>
+              <div class="ts" data-ts></div>
+              <button type="submit" class="btn">Send link</button>
+              <p class="form-error" data-error hidden tabindex="-1" role="alert"></p>
+            </form>
+          </div>
+          <div id="google-wrap" hidden>
+            <p class="or"><span>or</span></p>
+            <a class="btn" href="/api/auth/google/start">Continue with Google</a>
+          </div>
+          <p class="form-error" id="login-error" hidden tabindex="-1" role="alert"></p>
+        </div>
+        <div class="panel">
+          <h2>Create an account</h2>
+          <form id="signup" class="stack" novalidate>
+            <label>Username <span class="muted small">(public, 3 to 24 letters, numbers, - or _)</span>
+              <input name="handle" required minlength="3" maxlength="24" pattern="[A-Za-z0-9][A-Za-z0-9_\-]{2,23}" autocomplete="username" autocapitalize="off" spellcheck="false" />
+            </label>
+            <label>Display name <span class="muted small">(optional, shown beside your posts)</span>
+              <input name="displayName" maxlength="50" autocomplete="nickname" />
+            </label>
+            <label class="check"><input type="checkbox" name="agree" /> <span>I'm 13 or older and I agree to the <a href="/terms/">terms of use</a> and <a href="/community/guidelines/">community guidelines</a>. I've read the <a href="/privacy/">privacy notice</a>.</span></label>
+            <div class="ts" data-ts></div>
+            <button type="submit" class="btn primary">Create account with a passkey</button>
+            <p class="form-error" data-error hidden tabindex="-1" role="alert"></p>
+          </form>
+          <p class="small muted" id="signup-email-hint" hidden>Rather use email? Ask for a sign-in link on the left; if the address is new here, you'll pick a username after opening the link.</p>
+          <details class="small">
+            <summary>What's a passkey?</summary>
+            <p>A passkey replaces a password. It's created and kept by your device or password manager (for example iCloud Keychain, Google Password Manager, Windows Hello, 1Password or Bitwarden), and only works on this site, so it can't be guessed, reused or phished. We only ever receive a public key, never your fingerprint or face.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Finishing sign-up after an email link or Google -->
+    <section id="v-finish" hidden>
+      <p class="lead">Nearly there. Pick the username other fans will see.</p>
+      <form id="finish" class="stack panel narrow" novalidate>
+        <p class="small muted" id="finish-email"></p>
+        <label>Username <input name="handle" required minlength="3" maxlength="24" autocomplete="username" autocapitalize="off" spellcheck="false" /></label>
+        <label>Display name <span class="muted small">(optional)</span> <input name="displayName" maxlength="50" /></label>
+        <label class="check"><input type="checkbox" name="agree" /> <span>I'm 13 or older and I agree to the <a href="/terms/">terms of use</a> and <a href="/community/guidelines/">community guidelines</a>. I've read the <a href="/privacy/">privacy notice</a>.</span></label>
+        <button type="submit" class="btn primary">Create my account</button>
+        <p class="form-error" data-error hidden tabindex="-1" role="alert"></p>
+      </form>
+    </section>
+
+    <!-- Signed in -->
+    <section id="v-in" hidden>
+      <p class="lead" id="welcome"></p>
+      <p class="notice" id="migrated" hidden role="status">Your checklist from this browser is now saved in your account.</p>
+      <p class="notice" id="flash" hidden role="status"></p>
+
+      <nav class="acct-tabs" aria-label="Account sections">
+        <a href="#lists">Lists</a><a href="#contributions">Contributions</a><a href="#profile">Profile</a><a href="#security">Sign-in and devices</a><a href="#data">Your data</a><a href="/moderation/" id="mod-link" hidden>Moderation <span class="count-pill" id="mod-n"></span></a>
+      </nav>
+
+      <h2 id="lists">Your lists</h2>
+      <div class="grid" id="list-cards"></div>
+      <p class="small"><a href="/my-zone/">Open My Zone</a> to see every list in full, with your progress through each series.</p>
+
+      <h2 id="contributions">Your contributions</h2>
+      <p><a class="btn" href="/contribute/suggest/">Suggest something</a> <a class="btn" href="/contribute/share/">Share your work</a> <a class="btn" href="/community/">Forums</a></p>
+      <div id="contribs"><p class="muted">Loading…</p></div>
+
+      <h2 id="profile">Profile</h2>
+      <form id="profile-form" class="stack panel narrow" novalidate>
+        <p class="small">Username: <strong id="p-handle"></strong> · <a id="p-public" href="/members/">see your public profile</a></p>
+        <label>Display name <input name="displayName" maxlength="50" required /></label>
+        <label>About you <span class="muted small">(optional, public, up to 500 characters)</span> <textarea name="bio" maxlength="500" rows="4"></textarea></label>
+        <label class="check"><input type="checkbox" name="showFavorites" /> <span>Show my favorites on my public profile</span></label>
+        <button type="submit" class="btn">Save profile</button>
+        <p class="form-error" data-error hidden tabindex="-1" role="alert"></p>
+      </form>
+
+      <h2 id="security">Sign-in and devices</h2>
+      <h3>Passkeys</h3>
+      <ul class="plain rows" id="passkeys"></ul>
+      <p><button type="button" class="btn" id="add-pk">Add a passkey</button> <span class="small muted">Add one for each device or password manager you use.</span></p>
+      <div id="email-box"></div>
+      <div id="google-box"></div>
+      <h3>Signed-in devices</h3>
+      <ul class="plain rows" id="sessions"></ul>
+      <p><button type="button" class="btn" id="signout">Sign out</button> <button type="button" class="btn subtle" id="signout-all">Sign out everywhere</button></p>
+      <p class="form-error" id="sec-error" hidden tabindex="-1" role="alert"></p>
+
+      <h2 id="data">Your data</h2>
+      <p>Download everything your account holds, as a file you can keep. See the <a href="/privacy/">privacy notice</a> for what we keep and why.</p>
+      <p><a class="btn" href="/api/account/export" download>Download my data</a></p>
+      <details class="danger-zone">
+        <summary>Delete my account</summary>
+        <form id="delete-form" class="stack" novalidate>
+          <p>This deletes your profile, lists, passkeys, sign-ins and uploads straight away. It can't be undone.</p>
+          <label class="check"><input type="checkbox" name="keepPosts" /> <span>Keep my forum posts, shown as "Deleted member" (otherwise they are deleted too)</span></label>
+          <label>Type your username to confirm <input name="confirm" autocomplete="off" autocapitalize="off" /></label>
+          <button type="submit" class="btn danger">Delete my account</button>
+          <p class="form-error" data-error hidden tabindex="-1" role="alert"></p>
+        </form>
+      </details>
+      <details class="small" id="admin-claim">
+        <summary>Have a site editor code?</summary>
+        <form id="claim-form" class="stack" novalidate>
+          <label>Code <input name="code" autocomplete="off" /></label>
+          <button type="submit" class="btn">Use code</button>
+          <p class="form-error" data-error hidden tabindex="-1" role="alert"></p>
+        </form>
+      </details>
+    </section>
+  </div>
+
+  <script>
+    import { startAuthentication, startRegistration, browserSupportsWebAuthn } from '@simplewebauthn/browser';
+    import { api, me, esc, when, turnstile, resetTurnstile, showError, clearError, formData, busy, ApiError, bytes, itemLabel, type Me } from '../../lib/account/client';
+
+    const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
+    const views = ['v-off', 'v-out', 'v-finish', 'v-in'];
+    const show = (id: string) => { $('acct-loading').hidden = true; views.forEach((v) => ($(v).hidden = v !== id)); };
+    const hash = new URLSearchParams(location.hash.slice(1));
+    const tzA = () => (window as any).tzAccount;
+    const flash = (msg: string) => { const f = $('flash'); f.textContent = msg; f.hidden = false; };
+    const LIST_LABEL: Record<string, string> = { favorite: 'Favorites', later: 'Watch, listen or read later', watched: 'Watched, read or heard', owned: 'I own it', wanted: 'Want it' };
+    const STATUS: Record<string, string> = { pending: 'Waiting for review', accepted: 'Accepted', declined: 'Declined', approved: 'Published', rejected: 'Not published', removed: 'Removed', hidden: 'Hidden by a moderator' };
+
+    function errorMessage(e: unknown) {
+      if (e instanceof ApiError) return e.message;
+      const name = (e as Error)?.name;
+      if (name === 'NotAllowedError' || name === 'AbortError') return 'The passkey request was cancelled or timed out.';
+      if (name === 'InvalidStateError') return 'This device already has a passkey for this account.';
+      return 'Something went wrong with the passkey. Please try again.';
+    }
+    function inlineError(id: string, e: unknown) { const el = $(id); el.textContent = errorMessage(e); el.hidden = false; }
+
+    async function boot() {
+      const m = await me(true);
+      if (!m.config.features.accounts) return show('v-off');
+      if (hash.get('error')) flash({ google_cancelled: 'Google sign-in was cancelled.', expired: 'That took too long. Please try again.', google_failed: 'Google sign-in did not work. Please try again.', google_other_account: 'That Google account is linked to another member.', suspended: 'This account is suspended.' }[hash.get('error')!] ?? 'Sign-in did not work. Please try again.');
+      if (hash.get('signup') && !m.user) return finishView(hash.get('signup')!, hash.get('email'));
+      if (m.user) return signedIn(m);
+      signedOut(m);
+    }
+
+    // ---------- Signed out ----------
+    async function signedOut(m: Me) {
+      show('v-out');
+      tzA()?.signedOut?.();
+      const f = m.config.features;
+      $('email-login-wrap').hidden = !f.email;
+      $('google-wrap').hidden = !f.google;
+      $('signup-email-hint').hidden = !f.email;
+      if (!browserSupportsWebAuthn()) {
+        $('pk-login').setAttribute('disabled', '');
+        inlineError('login-error', new ApiError(0, 'nope', 'This browser does not support passkeys. ' + (f.email ? 'Use an email link instead, or update your browser.' : 'Please update your browser or try another device.')));
+      }
+      const signup = $<HTMLFormElement>('signup');
+      const tsBoxes = document.querySelectorAll<HTMLElement>('#v-out [data-ts]');
+      const tokSignup = await turnstile(tsBoxes[1]!, m.config.turnstileSiteKey);
+      const tokEmail = f.email ? await turnstile(tsBoxes[0]!, m.config.turnstileSiteKey) : () => undefined;
+
+      $('pk-login').onclick = async () => {
+        $('login-error').hidden = true;
+        try {
+          const { challengeId, options } = await api('/api/auth/passkey/login/options', {});
+          const response = await startAuthentication({ optionsJSON: options });
+          await api('/api/auth/passkey/login/verify', { challengeId, response });
+          done();
+        } catch (e) { inlineError('login-error', e); }
+      };
+
+      signup.onsubmit = (ev) => {
+        ev.preventDefault();
+        clearError(signup);
+        busy(signup, async () => {
+          try {
+            const body = { ...formData(signup), turnstile: tokSignup() };
+            const { challengeId, options } = await api('/api/auth/passkey/register/options', body);
+            const response = await startRegistration({ optionsJSON: options });
+            await api('/api/auth/passkey/register/verify', { challengeId, response, nickname: guessDevice() });
+            done(true);
+          } catch (e) {
+            resetTurnstile();
+            if (e instanceof ApiError) showError(signup, e); else showError(signup, new ApiError(0, 'pk', errorMessage(e)));
+          }
+        });
+      };
+
+      const el = $<HTMLFormElement>('email-login');
+      el.onsubmit = (ev) => {
+        ev.preventDefault();
+        clearError(el);
+        busy(el, async () => {
+          try {
+            await api('/api/auth/email/start', { email: formData(el).email, turnstile: tokEmail() });
+            el.innerHTML = `<p class="notice" role="status">Check your inbox. If that address can receive email, a sign-in link is on its way. It works once, for 20 minutes.</p>`;
+          } catch (e) { resetTurnstile(); showError(el, e); }
+        });
+      };
+    }
+
+    function guessDevice() {
+      const ua = navigator.userAgent;
+      return /iPhone/.test(ua) ? 'iPhone' : /iPad/.test(ua) ? 'iPad' : /Android/.test(ua) ? 'Android' : /Mac/.test(ua) ? 'Mac' : /Windows/.test(ua) ? 'Windows' : 'This device';
+    }
+
+    async function done(created = false) {
+      history.replaceState(null, '', '/account/');
+      const m = await me(true);
+      if (m.user) { tzA()?.signedIn?.(m.user.handle); signedIn(m, created); }
+    }
+
+    // ---------- Finish sign-up ----------
+    function finishView(ticket: string, email: string | null) {
+      show('v-finish');
+      $('finish-email').textContent = email ? `Creating an account for ${email}.` : '';
+      const f = $<HTMLFormElement>('finish');
+      f.onsubmit = (ev) => {
+        ev.preventDefault();
+        clearError(f);
+        busy(f, async () => {
+          try { await api('/api/auth/complete-signup', { ...formData(f), ticket }); done(true); }
+          catch (e) {
+            if (e instanceof ApiError && e.code === 'expired') { f.innerHTML = `<p class="notice">That sign-up link has expired. <a href="/account/">Start again</a>.</p>`; return; }
+            showError(f, e);
+          }
+        });
+      };
+    }
+
+    // ---------- Signed in ----------
+    async function signedIn(m: Me, created = false) {
+      const u = m.user!;
+      show('v-in');
+      $('acct-title').textContent = `Welcome, ${u.displayName}`;
+      $('welcome').innerHTML = created
+        ? `Your account is ready. Everything you mark across the site is now saved to it. <a href="/start/">Find somewhere to start</a> or <a href="/community/">say hello in the forums</a>.`
+        : `Signed in as <strong>@${esc(u.handle)}</strong>${u.role !== 'member' ? ` · ${u.role === 'admin' ? 'Site editor' : 'Moderator'}` : ''}. Member since ${new Date(u.createdAt).toLocaleDateString(undefined, { year: 'numeric', month: 'long' })}.`;
+      if (hash.get('linked') === 'google') flash('Google sign-in is now linked to your account.');
+      if (m.queue) {
+        const n = Object.values(m.queue).reduce((a, b) => a + b, 0);
+        $('mod-link').hidden = false;
+        $('mod-n').textContent = String(n);
+        $('admin-claim').hidden = true;
+      }
+      document.addEventListener('tz:migrated', () => ($('migrated').hidden = false));
+      paintLists();
+      document.addEventListener('tz:synced', paintLists);
+      loadContribs();
+      profileForm(m);
+      security(m);
+      deleteForm(u.handle);
+      claimForm();
+      if (location.hash && document.querySelector(location.hash)) document.querySelector(location.hash)!.scrollIntoView();
+    }
+
+    function paintLists() {
+      const t = (window as any).tzTracker?.get?.() ?? {};
+      $('list-cards').innerHTML = Object.entries(LIST_LABEL).map(([k, label]) => `<a class="card" href='/my-zone/#${k}'><span class="count">${Object.keys(t[k] ?? {}).length}</span><h3>${esc(label)}</h3></a>`).join('');
+    }
+
+    async function loadContribs() {
+      try {
+        const c = await api('/api/account/contributions');
+        const rows: string[] = [];
+        for (const s of c.suggestions) rows.push(`<li><span class="status s-${esc(s.status)}">${esc(STATUS[s.status] ?? s.status)}</span> <strong>${esc(s.title)}</strong> <span class="muted small">suggestion · ${when(s.created_at)}</span>${s.review_note ? `<br><span class="small">Editor's note: ${esc(s.review_note)}</span>` : ''}</li>`);
+        for (const x of c.uploads) {
+          const label = await itemLabel(x.item_key);
+          rows.push(`<li><span class="status s-${esc(x.status)}">${esc(STATUS[x.status] ?? x.status)}</span> <a href='/community/uploads/view/?id=${esc(x.id)}'><strong>${esc(x.title)}</strong></a> <span class="muted small">${esc(x.kind === 'file' ? `${x.media_type} · ${bytes(x.size)}` : x.kind === 'text' ? 'written piece' : 'link')}${label ? ` · about ${esc(label.title)}` : ''} · ${when(x.created_at)}</span>${x.review_note ? `<br><span class="small">Editor's note: ${esc(x.review_note)}</span>` : ''}</li>`);
+        }
+        for (const p of c.heldPosts) rows.push(`<li><span class="status s-${esc(p.status)}">${esc(p.status === 'pending' ? 'Waiting for review' : STATUS[p.status])}</span> Forum post in <a href='/community/topic/?id=${esc(p.topic_id)}'>${esc(p.title)}</a> <span class="muted small">· ${when(p.created_at)}</span></li>`);
+        $('contribs').innerHTML = rows.length ? `<ul class="plain rows">${rows.join('')}</ul>` : '<p class="muted">Nothing yet. Suggestions and uploads you send will show here with their review status.</p>';
+      } catch (e) { $('contribs').innerHTML = `<p class="form-error">${esc(errorMessage(e))}</p>`; }
+    }
+
+    function profileForm(m: Me) {
+      const u = m.user!;
+      const f = $<HTMLFormElement>('profile-form');
+      $('p-handle').textContent = '@' + u.handle;
+      $<HTMLAnchorElement>('p-public').href = `/members/?h=${encodeURIComponent(u.handle)}`;
+      (f.elements.namedItem('displayName') as HTMLInputElement).value = u.displayName;
+      (f.elements.namedItem('bio') as HTMLTextAreaElement).value = u.bio;
+      (f.elements.namedItem('showFavorites') as HTMLInputElement).checked = u.showFavorites;
+      f.onsubmit = (ev) => {
+        ev.preventDefault(); clearError(f);
+        busy(f, async () => {
+          try { await api('/api/account/profile', formData(f)); flash('Profile saved.'); $('acct-title').textContent = `Welcome, ${formData(f).displayName}`; }
+          catch (e) { showError(f, e); }
+        });
+      };
+    }
+
+    async function security(m: Me) {
+      const s = await api('/api/account/security').catch(() => null);
+      if (!s) return;
+      const u = m.user!;
+      $('passkeys').innerHTML = s.passkeys.length ? s.passkeys.map((p: any) => `<li><strong>${esc(p.nickname || 'Passkey')}</strong> <span class="muted small">${p.backed_up ? 'synced passkey' : 'this device only'} · added ${when(p.created_at)}${p.last_used_at ? ` · last used ${when(p.last_used_at)}` : ''}</span> <button type="button" class="link-btn" data-rm-pk="${esc(p.id)}">Remove</button></li>`).join('') : '<li class="muted">No passkeys yet. Add one so you can sign in quickly.</li>';
+      $('sessions').innerHTML = s.sessions.map((x: any) => `<li>${esc(x.label)} <span class="muted small">· signed in ${when(x.createdAt)} · last seen ${when(x.seenAt)}</span> ${x.current ? '<span class="role-badge">This device</span>' : `<button type="button" class="link-btn" data-end="${esc(x.id)}">Sign out</button>`}</li>`).join('');
+      const f = m.config.features;
+      $('email-box').innerHTML = `<h3>Email</h3>` + (u.email
+        ? `<p>${esc(u.email)} ${u.emailVerified ? '<span class="muted small">(confirmed)</span>' : ''} <button type="button" class="link-btn" id="rm-email">Remove</button></p><p class="small muted">Used only to send sign-in links you ask for. Never shown to anyone.</p>`
+        : f.email ? `<form id="add-email" class="stack narrow" novalidate><label>Add an email for sign-in links (optional, never shown) <input type="email" name="email" maxlength="254" autocomplete="email" /></label><div class="ts" data-ts></div><button class="btn" type="submit">Send confirmation link</button><p class="form-error" data-error hidden tabindex="-1" role="alert"></p></form>`
+        : `<p class="small muted">Email sign-in links aren't switched on yet. Add a second passkey as a backup.</p>`);
+      $('google-box').innerHTML = f.google ? `<h3>Google</h3>` + (s.identities.some((i: any) => i.provider === 'google') ? `<p>Linked. <button type="button" class="link-btn" id="rm-google">Unlink</button></p>` : `<p><a class="btn" href="/api/auth/google/start?link=1">Link Google sign-in</a></p>`) : '';
+      const ae = document.getElementById('add-email') as HTMLFormElement | null;
+      if (ae) {
+        const tok = await turnstile(ae.querySelector('[data-ts]')!, m.config.turnstileSiteKey);
+        ae.onsubmit = (ev) => { ev.preventDefault(); clearError(ae); busy(ae, async () => { try { await api('/api/auth/email/start', { email: formData(ae).email, purpose: 'add', turnstile: tok() }); ae.innerHTML = '<p class="notice">Check your inbox for a confirmation link. Open it in this browser.</p>'; } catch (e) { resetTurnstile(); showError(ae, e); } }); };
+      }
+      document.getElementById('rm-email')?.addEventListener('click', () => act(() => api('/api/account/email', undefined, 'DELETE')));
+      document.getElementById('rm-google')?.addEventListener('click', () => act(() => api('/api/account/identities/google', undefined, 'DELETE')));
+      $('passkeys').onclick = (ev) => { const id = (ev.target as HTMLElement).dataset.rmPk; if (id) act(() => api(`/api/account/passkeys/${encodeURIComponent(id)}`, undefined, 'DELETE')); };
+      $('sessions').onclick = (ev) => { const id = (ev.target as HTMLElement).dataset.end; if (id) act(() => api(`/api/account/sessions/${id}`, undefined, 'DELETE')); };
+      $('add-pk').onclick = () => act(async () => {
+        const { challengeId, options } = await api('/api/auth/passkey/register/options', {});
+        const response = await startRegistration({ optionsJSON: options });
+        await api('/api/auth/passkey/register/verify', { challengeId, response, nickname: guessDevice() });
+      });
+      $('signout').onclick = () => act(async () => { await api('/api/auth/signout', {}); tzA()?.signedOut?.(); location.href = '/account/'; });
+      $('signout-all').onclick = () => act(async () => { await api('/api/auth/signout-everywhere', {}); tzA()?.signedOut?.(); location.href = '/account/'; });
+      async function act(fn: () => Promise<unknown>) {
+        $('sec-error').hidden = true;
+        try { await fn(); security(await me(true)); } catch (e) { inlineError('sec-error', e); }
+      }
+    }
+
+    function deleteForm(handle: string) {
+      const f = $<HTMLFormElement>('delete-form');
+      f.onsubmit = (ev) => {
+        ev.preventDefault(); clearError(f);
+        busy(f, async () => {
+          try { await api('/api/account/delete', formData(f)); tzA()?.signedOut?.(); $('v-in').innerHTML = '<p class="lead">Your account has been deleted. Thank you for being part of the site.</p>'; $('acct-title').textContent = 'Account deleted'; }
+          catch (e) { showError(f, e); }
+        });
+      };
+      void handle;
+    }
+
+    function claimForm() {
+      const f = $<HTMLFormElement>('claim-form');
+      f.onsubmit = (ev) => { ev.preventDefault(); clearError(f); busy(f, async () => { try { await api('/api/account/claim-admin', formData(f)); location.reload(); } catch (e) { showError(f, e); } }); };
+    }
+
+    boot();
+  </script>
+</Base>

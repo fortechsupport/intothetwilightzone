@@ -1,0 +1,24 @@
+# Local development settings for the accounts API (Cloudflare Pages Functions).
+# Copy to wrangler.toml to run `npm run dev:accounts`. wrangler.toml is git-ignored on purpose: the live
+# bindings (D1, R2) and secrets are set in the Cloudflare dashboard, as docs/ACCOUNTS_SETUP.md explains.
+name = "intothetwilightzone-preview"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "intothetwilightzone"
+database_id = "00000000-0000-0000-0000-000000000000" # local only; replace with the real id to manage the remote database
+migrations_dir = "migrations"
+
+[[r2_buckets]]
+binding = "UPLOADS"
+bucket_name = "intothetwilightzone-uploads"
+
+[vars]
+DEV_EMAIL_LOG = "1"
+EMAIL_FROM = "signin@example.test"
+ADMIN_BOOTSTRAP_TOKEN = "local-dev-admin-code-123"
+# Cloudflare's published Turnstile test keys: the widget always passes.
+TURNSTILE_SITE_KEY = "1x00000000000000000000AA"
+TURNSTILE_SECRET = "1x0000000000000000000000000000000AA"
