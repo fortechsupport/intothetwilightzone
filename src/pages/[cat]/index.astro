@@ -5,8 +5,10 @@
 import Base from '../../layouts/Base.astro';
 import EntryList from '../../components/EntryList.astro';
 import EntityIndex from '../../components/EntityIndex.astro';
+import EntityFinder from '../../components/EntityFinder.astro';
+import LetterNav from '../../components/LetterNav.astro';
 import SectionSummary from '../../components/SectionSummary.astro';
-import { catalog, countOf, type CatInfo } from '../../lib/catalog';
+import { catalog, countOf, entityRows, letterOf, SPLIT_INDEX_AT, type CatInfo } from '../../lib/catalog';
 import { verbOf } from '../../lib/taxonomy.mjs';
 
 export async function getStaticPaths() {
@@ -25,6 +27,9 @@ const offN = (list: { official?: boolean }[]) => list.filter((e) => e.official =
 const allEntries = [...new Map(c.subs.flatMap((s) => s.entries.map((e) => [e.key, e]))).values()];
 const totalOff = offN(allEntries);
 const group = verbOf(c.slug);
+const entRows = section ? await entityRows(c.slug as any) : [];
+const split = entRows.length > SPLIT_INDEX_AT;
+const letters = [...new Set(entRows.map((r) => letterOf(r.sort)))].sort();
 const NOUN: Record<string, string> = { people: 'people', places: 'places', organizations: 'organizations' };
 ---
 <Base title={c.title} description={c.description}>
@@ -52,8 +57,18 @@ const NOUN: Record<string, string> = { people: 'people', places: 'places', organ
   {section ? (
     <>
       <h2>Every {c.title.toLowerCase().replace(/s$/, '')} A to Z</h2>
-      <p class="small muted">Sort by name or number of records, filter by kind or by where they appear, or search. Each name links to its page, which links back to every record.</p>
-      <EntityIndex section={c.slug as any} noun={NOUN[c.slug]} />
+      {split ? (
+        <>
+          <p class="small muted">{entRows.length.toLocaleString('en-US')} entries, one page per letter{c.slug === 'people' && ', filed by surname'}. Or filter and search them all below.</p>
+          <LetterNav base={`/${c.slug}/a-z/`} letters={letters} />
+          <EntityFinder section={c.slug as any} noun={NOUN[c.slug]} />
+        </>
+      ) : (
+        <>
+          <p class="small muted">Sort by name or number of records, filter by kind or by where they appear, or search. Each name links to its page, which links back to every record.</p>
+          <EntityIndex section={c.slug as any} noun={NOUN[c.slug]} rows={entRows} />
+        </>
+      )}
     </>
   ) : (
     <>

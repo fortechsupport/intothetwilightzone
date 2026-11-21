@@ -1,92 +1,52 @@
 ---
-// The Media Library: every video, recording, image, document, review, interview, quote, advertisement,
-// archival holding and link on the site, each with every page it appears on. Sortable and filterable
-// (type, category, rights, text); ?type=review, ?in=reading/comics and ?q=... preset the filters.
+// The Media Library overview: every kind of media and content on the site, each with its own page
+// (/media/<type>/) listing every item and every page it appears on. Old links still work: ?type=review and
+// #<item id> are sent on to the right type page by the script below.
 import Base from '../../layouts/Base.astro';
-import { catalog, mediaLibrary } from '../../lib/catalog';
-import { LIBRARY_TYPES, sortKey } from '../../lib/taxonomy.mjs';
+import { mediaLibrary } from '../../lib/catalog';
+import { MEDIA_TYPES, mediaTypeHref } from '../../lib/media-types';
 
 const items = await mediaLibrary();
-const cats = [...(await catalog()).values()];
 const counts = new Map<string, number>();
 for (const i of items) counts.set(i.type, (counts.get(i.type) ?? 0) + 1);
-const RIGHTS: Record<string, string> = { 'public-domain': 'Public domain', cc: 'Creative Commons', licensed: 'Rights holder', 'link-only': 'Link only', unknown: 'Unknown', summary: 'Summary, source linked', site: 'Kept on this site' };
-const rightsOf = (m: { external: boolean; rights?: string; recordKey?: string }) => (m.external ? m.rights ?? 'link-only' : m.recordKey ? 'summary' : 'site');
-const human = (s?: string) => s?.replace(/-/g, ' ');
-const usedCats = new Set(items.flatMap((i) => i.cats.map((c) => c.slug)));
+const types = MEDIA_TYPES.filter((t) => counts.get(t.key));
+const where = Object.fromEntries(items.map((i) => [i.id, i.type]));
+const slugs = Object.fromEntries(MEDIA_TYPES.map((t) => [t.key, t.slug]));
+const recent = items.filter((i) => i.date).sort((a, b) => b.date!.localeCompare(a.date!)).slice(0, 12);
 ---
 <Base title="Media Library" description="Every video, recording, image, document, review, interview, quote and advertisement on IntoTheTwilightZone.com, with every page it appears on.">
   <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a></p>
   <h1>Media Library</h1>
-  <p class="lead">{items.length.toLocaleString('en-US')} items of media and content. Each one belongs to the pages it is about and appears there; this library gathers them all so you can browse, sort and filter, and see exactly where each one appears.</p>
-  <p class="small muted">Copyrighted material is linked where the rights holder or an archive hosts it, never copied here. Public-domain items may be kept on this site. Rights: <strong>Link only</strong> means we point to it; <strong>Rights holder</strong> means the owner hosts it; <strong>Summary, source linked</strong> means our own page summarizes it and links to the original.</p>
-  <ul class="media-types plain" data-pagefind-ignore>
-    {LIBRARY_TYPES.filter(([k]) => counts.get(k)).map(([k, label, what]) => <li><a href={`?type=${k}`} data-type-link={k}>{label}</a> <span class="count-pill">{counts.get(k)}</span> <span class="small muted">{what}</span></li>)}
-  </ul>
-  <form class="lib-filters" data-pagefind-ignore onsubmit="return false">
-    <label>Type <select id="f-type"><option value="">All types</option>{LIBRARY_TYPES.filter(([k]) => counts.get(k)).map(([k, l]) => <option value={k}>{l}</option>)}</select></label>
-    <label>Appears in <select id="f-in"><option value="">Anywhere</option>{cats.map((c) => usedCats.has(c.slug) && <><option value={c.slug}>{c.title}</option>{c.subs.filter((s) => usedCats.has(`${c.slug}/${s.slug}`)).map((s) => <option value={`${c.slug}/${s.slug}`}>&nbsp;&nbsp;{c.title}: {s.title}</option>)}</>)}</select></label>
-    <label>Rights <select id="f-rights"><option value="">Any</option>{Object.entries(RIGHTS).map(([k, l]) => <option value={k}>{l}</option>)}</select></label>
-    <label>Search <input id="f-q" type="search" placeholder="Title, credit, source, page" /></label>
-    <span id="f-count" class="small muted"></span>
-  </form>
-  <div class="table-wrap">
-    <table class="lib" id="lib">
-      <thead><tr>
-        <th data-sort="type">Type</th><th data-sort="title">Title</th><th data-sort="credit">Credit and source</th><th data-sort="date">Date</th><th>Rights</th><th data-sort="on">Appears on</th>
-      </tr></thead>
-      <tbody>
-        {items.map((m) => (
-          <tr id={m.id} data-type={m.type} data-in={m.cats.map((c) => c.slug).join(' ')} data-rights={rightsOf(m)} data-title={sortKey(m.title)} data-date={m.date ?? ''} data-credit={(m.creator ?? m.host ?? '').toLowerCase()} data-on={m.on.length} data-text={[m.title, m.creator, m.host, m.subtype, ...m.on.map((o) => o.title)].filter(Boolean).join(' ').toLowerCase()}>
-            <td>{m.typeLabel}{m.subtype && <div class="small muted">{human(m.subtype)}</div>}</td>
-            <td><a href={m.href} rel={m.external ? 'noopener' : undefined}>{m.title}</a>{m.note && <div class="small muted">{m.note.length > 160 ? m.note.slice(0, 157) + '…' : m.note}</div>}</td>
-            <td class="small">{m.creator}{m.creator && m.host && <br />}{m.host && <span class="muted">{m.host}</span>}</td>
-            <td class="small">{m.date}</td>
-            <td><span class={`tag nowrap rights-${rightsOf(m)}`}>{RIGHTS[rightsOf(m)]}</span></td>
-            <td class="small">
-              {m.on.length ? m.on.map((o, i) => <>{i > 0 && ' · '}{o.href ? <a href={o.href}>{o.title}</a> : o.title}</>) : <span class="muted">Not yet attached to a page</span>}
-              {m.cats.filter((c) => c.slug.includes('/')).length > 0 && <div class="muted">In: {m.cats.filter((c) => c.slug.includes('/')).slice(0, 4).map((c, i) => <>{i > 0 && ' · '}<a href={c.href}>{c.title}</a></>)}{m.cats.filter((c) => c.slug.includes('/')).length > 4 && ' …'}</div>}
-            </td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+  <p class="lead">{items.length.toLocaleString('en-US')} items of media and content. Each one belongs to the pages it is about and appears there. The library gathers them by kind, so you can browse, sort and filter them and see exactly where each one appears.</p>
+  <div class="grid media-type-grid">
+    {types.map((t) => (
+      <a class="card" href={`/media/${t.slug}/`}>
+        <span class="count">{counts.get(t.key)!.toLocaleString('en-US')}</span>
+        <h2 class="h3">{t.label}</h2>
+        <p>{t.what}</p>
+      </a>
+    ))}
   </div>
-  <script is:inline>
+  <div class="section-head">
+    <h2>Most recent</h2>
+    <p>The newest dated items in the library.</p>
+  </div>
+  <ul class="media-list compact">
+    {recent.map((m) => <li><span class="tag">{m.typeLabel}</span> <a href={m.href} rel={m.external ? 'noopener' : undefined}>{m.title}</a> <span class="muted small">{m.date}{m.on[0] && <> · on {m.on[0].href ? <a href={m.on[0].href}>{m.on[0].title}</a> : m.on[0].title}</>}</span></li>)}
+  </ul>
+  <div class="section-head">
+    <h2>Rights</h2>
+  </div>
+  <p class="small muted">Copyrighted material is linked where the rights holder or an archive hosts it, never copied here. Public-domain items may be kept on this site. <strong>Link only</strong> means we point to it; <strong>Rights holder</strong> means the owner hosts it; <strong>Summary, source linked</strong> means our own page summarizes it and links to the original.</p>
+  <script is:inline define:vars={{ where, slugs }}>
     (() => {
-      const $ = (id) => document.getElementById(id);
-      const rows = [...document.querySelectorAll('#lib tbody tr')];
-      const tbody = document.querySelector('#lib tbody');
       const p = new URLSearchParams(location.search);
-      $('f-type').value = p.get('type') || '';
-      $('f-in').value = p.get('in') || '';
-      $('f-q').value = p.get('q') || '';
-      const apply = () => {
-        const t = $('f-type').value, inn = $('f-in').value, r = $('f-rights').value, q = $('f-q').value.trim().toLowerCase();
-        let n = 0;
-        for (const row of rows) {
-          const ok = (!t || row.dataset.type === t) && (!inn || row.dataset.in.split(' ').includes(inn)) && (!r || row.dataset.rights === r) && (!q || row.dataset.text.includes(q));
-          row.hidden = !ok; if (ok) n++;
-        }
-        $('f-count').textContent = `${n} of ${rows.length} shown`;
-        const u = new URLSearchParams();
-        if (t) u.set('type', t); if (inn) u.set('in', inn); if (q) u.set('q', q);
-        history.replaceState(null, '', `${location.pathname}${u.toString() ? '?' + u : ''}${location.hash}`);
-      };
-      for (const id of ['f-type', 'f-in', 'f-rights']) $(id).addEventListener('change', apply);
-      $('f-q').addEventListener('input', apply);
-      for (const a of document.querySelectorAll('[data-type-link]')) a.addEventListener('click', (e) => { e.preventDefault(); $('f-type').value = a.dataset.typeLink; apply(); });
-      let dir = 1, last = '';
-      for (const th of document.querySelectorAll('#lib th[data-sort]')) th.addEventListener('click', () => {
-        const k = th.dataset.sort; dir = last === k ? -dir : 1; last = k;
-        const order = ['video','audio','image','map','document','text','review','interview','quote','ad','holding','link','file'];
-        const val = (r) => k === 'type' ? String(order.indexOf(r.dataset.type)).padStart(2, '0') + r.dataset.title : k === 'on' ? String(r.dataset.on).padStart(4, '0') : r.dataset[k] || '~';
-        rows.sort((a, b) => val(a).localeCompare(val(b)) * dir).forEach((r) => tbody.appendChild(r));
-        document.querySelectorAll('#lib th').forEach((x) => x.removeAttribute('aria-sort'));
-        th.setAttribute('aria-sort', dir > 0 ? 'ascending' : 'descending');
-      });
-      apply();
-      if (location.hash) { const r = document.querySelector(location.hash); if (r) { r.hidden = false; r.classList.add('hit'); r.scrollIntoView({ block: 'center' }); } }
+      const id = location.hash.slice(1);
+      const type = where[id] || p.get('type');
+      if (!type || !slugs[type]) return;
+      p.delete('type');
+      const q = p.toString();
+      location.replace(`/media/${slugs[type]}/${q ? '?' + q : ''}${id && where[id] ? '#' + id : ''}`);
     })();
   </script>
 </Base>

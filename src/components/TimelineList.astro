@@ -1,0 +1,41 @@
+---
+// Timeline entries grouped by year, with a filter by kind. Styles are in public/site.css (Timeline).
+import { fmtDay, kindClass, type Item } from '../lib/timeline';
+interface Props { items: Item[]; filter?: boolean }
+const { items, filter = true } = Astro.props;
+const byYear = new Map<number, Item[]>();
+for (const i of items) byYear.set(i.year, [...(byYear.get(i.year) ?? []), i]);
+const years = [...byYear.keys()].sort((a, b) => a - b);
+const kinds = [...new Set(items.map((i) => i.kind))].sort();
+---
+{filter && kinds.length > 1 && (
+  <fieldset class="timeline-filter" data-pagefind-ignore>
+    <legend>Show</legend>
+    {kinds.map((k) => (
+      <label><input type="checkbox" checked data-kind={kindClass(k)} /> {k} <span class="muted small">({items.filter((i) => i.kind === k).length})</span></label>
+    ))}
+  </fieldset>
+)}
+{years.map((y) => (
+  <section id={`y${y}`} class="timeline-year">
+    <h2>{y}</h2>
+    <ul class="timeline-list">
+      {byYear.get(y)!.map((i) => (
+        <li class={kindClass(i.kind)}><span class="timeline-date">{fmtDay(i.date)}</span><span class="tag">{i.kind}</span>{i.url ? <a href={i.url}>{i.label}</a> : i.label}{i.detail && <span class="muted small"> · {i.detail}</span>}</li>
+      ))}
+    </ul>
+  </section>
+))}
+{filter && kinds.length > 1 && (
+  <script is:inline>
+    (() => {
+      const boxes = [...document.querySelectorAll('.timeline-filter input')];
+      const apply = () => {
+        const off = new Set(boxes.filter((b) => !b.checked).map((b) => b.dataset.kind));
+        document.querySelectorAll('.timeline-list li').forEach((li) => { li.hidden = [...li.classList].some((c) => off.has(c)); });
+        document.querySelectorAll('.timeline-year').forEach((sec) => { sec.hidden = !sec.querySelector('li:not([hidden])'); });
+      };
+      boxes.forEach((b) => b.addEventListener('change', apply));
+    })();
+  </script>
+)}

@@ -167,7 +167,7 @@ li { margin: 0 0 4px; }
   transition: border-color .15s ease, transform .15s ease, background .15s ease;
 }
 a.card:hover { border-color: var(--brass); color: var(--text); background: var(--surface-2); transform: translateY(-2px); }
-.card h3 { margin: 2px 0 2px; font-size: var(--step-1); }
+.card h3, .card h2.h3 { margin: 2px 0 2px; font-size: var(--step-1); }
 .card .count { font-family: var(--font-display); font-size: 2.1rem; line-height: 1; color: var(--brass); font-variant-numeric: lining-nums; }
 .card p { margin: 0; color: var(--muted); font-size: var(--step--1); }
 .card p + p { margin-top: var(--space-2); }
@@ -200,6 +200,12 @@ a.card:hover { border-color: var(--brass); color: var(--text); background: var(-
 .letters { display: flex; flex-wrap: wrap; gap: 4px; margin: var(--space-3) 0 var(--space-5); }
 .letters a { display: inline-flex; align-items: center; justify-content: center; min-width: 34px; min-height: 34px; padding: 0 6px; border: 1px solid var(--line); border-radius: var(--radius-md); text-decoration: none; color: var(--text-soft); font-weight: 500; }
 .letters a:hover { border-color: var(--brass); color: var(--brass); }
+.letter-nav ul { display: flex; flex-wrap: wrap; gap: 4px; list-style: none; margin: var(--space-3) 0 var(--space-5); padding: 0; }
+.letter-nav a, .letter-nav .off { display: inline-flex; align-items: center; justify-content: center; min-width: 36px; min-height: 36px; padding: 0 6px; border: 1px solid var(--line); border-radius: var(--radius-md); text-decoration: none; font-weight: 500; }
+.letter-nav a { color: var(--text-soft); }
+.letter-nav a:hover { border-color: var(--brass); color: var(--brass); }
+.letter-nav a[aria-current="page"] { background: var(--brass); border-color: var(--brass); color: var(--on-brass); }
+.letter-nav .off { color: var(--muted); border-style: dashed; }
 
 /* ---------- 6. Record pages ---------- */
 .record-head { margin: var(--space-2) 0 var(--space-5); padding-bottom: var(--space-4); border-bottom: 1px solid var(--line); }
@@ -398,3 +404,15 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
 .lib-filters label { min-width: 0; max-width: 100%; }
 select, input, textarea { max-width: 100%; }
 .lib-filters select, .lib-filters input { max-width: min(16rem, 100%); }
+
+/* Timeline (src/components/TimelineList.astro) */
+.timeline-filter { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-4); border: 1px solid var(--line); border-radius: var(--radius-md); padding: var(--space-2) var(--space-3); margin: var(--space-4) 0; }
+.timeline-filter label { white-space: nowrap; }
+.timeline-year[hidden] { display: none; }
+.timeline-year h2 { margin-top: var(--space-6); }
+.timeline-list { list-style: none; margin: 0; padding: 0; }
+.timeline-list li { padding: 0.2rem 0; border-bottom: 1px solid var(--line); }
+.timeline-list li:last-child { border-bottom: 0; }
+.timeline-list .tag { margin-right: var(--space-2); }
+.timeline-date { display: inline-block; min-width: 3.75rem; color: var(--muted); font-size: var(--step--1); font-variant-numeric: tabular-nums; }
+.pager.top { margin-top: var(--space-3); border-top: 0; padding-top: 0; }
