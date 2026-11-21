@@ -2,10 +2,14 @@ from: films/futurama-benderama
 to: series/1959
 kind: parody
 confidence: fan-noted
-summary: Features the Scary Door tale 'Be Careful What You Wish For', about an inventor whose robot replaces him
-  so completely that his son embraces the machine instead.
+summary: Features the Scary Door tale 'Be Careful What You Wish For', about an inventor whose robot replaces him so completely
+  that his son embraces the machine instead.
 sources:
 - title: The Infosphere – The Scary Door
   url: https://theinfosphere.org/TSD
-last_verified: '2026-11-20'
+- title: 'Wikipedia: Benderama'
+  url: https://en.wikipedia.org/wiki/Benderama
+  publisher: Wikipedia
+  note: Calls the episode's opening part of Futurama's ongoing Twilight Zone parody, citing a 2010 Comic-Con table read.
+last_verified: '2026-11-21'
 locked: true

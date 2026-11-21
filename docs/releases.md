@@ -3,6 +3,15 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-21 — Television research round 3: stronger sources for homages
+
+Two Simpsons homages now carry their makers' or the official guide's word instead of a fan wiki's: "Bart's Comet" (the
+producer's DVD commentary names "The Shelter" and "The Monsters Are Due on Maple Street") and "El Viaje Misterioso de
+Nuestro Jomer" ("The Old Man in the Cave"). Two more gained a Wikipedia source.
+
+**Known not to work yet:** 16 of the 20 homages checked have no mention on Wikipedia and stay fan-noted; the notes are in
+data/research/television-2026-11-21/homages-round-3.md.
+
 ## 2026-11-21 — Television research round 2: networks, studios and sponsors (no change for visitors yet)
 
 Nine organizations are on file pending Adam's review, each with what ties it to Serling's work and a source: NBC (Night
