@@ -200,9 +200,9 @@
   "date": "2026-11-20"
  },
  "books/diary-of-a-nerd-volume-3-diary-of-super-hero-the-twilight-zone": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Print research: Probably not a Twilight Zone item: an unrelated children's book whose subtitle uses the phrase. Recommend removal.",
+  "date": "2026-11-21"
  },
  "books/did-you-grow-up-with-me-too-the-autobiography-of-june-foray": {
   "status": "include",
@@ -290,9 +290,9 @@
   "date": "2026-11-20"
  },
  "books/into-the-twilight-zone": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of books/into-the-twilight-zone-the-rod-serling-programme-guide; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "books/into-the-twilight-zone-the-rod-serling-programme-guide": {
   "status": "include",
@@ -325,9 +325,9 @@
   "date": "2026-11-20"
  },
  "books/last-stop-the-twilight-zone-the-biography-of-rod-serling": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of books/rod-serling-the-dreams-and-nightmares-of-life-in-the-twilight-zone; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "books/logans-run-novel": {
   "status": "include",
@@ -390,9 +390,9 @@
   "date": "2026-11-20"
  },
  "books/new-stories-from-the-twilight-zone-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of books/new-stories-from-the-twilight-zone; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "books/night-gallery-the-series": {
   "status": "include",
@@ -750,9 +750,9 @@
   "date": "2026-11-20"
  },
  "books/the-twilight-zone-coloring-book": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Print research: Unlicensed self-published coloring book; low value. Recommend removal or moving to Merchandise.",
+  "date": "2026-11-21"
  },
  "books/the-twilight-zone-companion": {
   "status": "include",
@@ -775,9 +775,9 @@
   "date": "2026-11-20"
  },
  "books/the-twilight-zone-dots-lines-swirls-coloring-book": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Print research: Generic self-published coloring book (series of templated titles); recommend removal.",
+  "date": "2026-11-21"
  },
  "books/the-twilight-zone-encyclopedia": {
   "status": "include",
@@ -785,9 +785,9 @@
   "date": "2026-11-20"
  },
  "books/the-twilight-zone-essential-guide": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Print research: Probably low-quality self-published or generated guide; author identity unclear (compare 'The Twilight Zone Ultimate Guide' by 'David Vance'). Recommend removal unless verified.",
+  "date": "2026-11-21"
  },
  "books/the-twilight-zone-faq-all-thats-left-to-know-about-the-fifth-dimension-and-beyond": {
   "status": "include",
@@ -890,9 +890,9 @@
   "date": "2026-11-20"
  },
  "books/the-twilight-zone-trivia-for-fans-questions-and-answer-about-the-twilight-zone-for-ultimate-fans": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Print research: Templated self-published trivia title; recommend removal.",
+  "date": "2026-11-21"
  },
  "books/the-twilight-zone-tv-milestones": {
   "status": "include",
@@ -900,9 +900,9 @@
   "date": "2026-11-20"
  },
  "books/the-twilight-zone-ultimate-guide": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Likely duplicate. Probably low-quality self-published or generated guide; possible duplicate of 'Essential Guide' by 'John Vance'.",
+  "date": "2026-11-21"
  },
  "books/the-twilight-zone-unlocking-the-door-to-a-television-classic": {
   "status": "include",
@@ -965,9 +965,9 @@
   "date": "2026-11-20"
  },
  "books/twists-in-the-twilight-unlock-the-twilight-zones-secrets-how-to-craft-unforgettable-twist-endings": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Print research: Probably low-quality self-published or AI-generated title; recommend removal.",
+  "date": "2026-11-21"
  },
  "books/unknown-serling-an-episodic-history-vol-1-the-bradbury-kennedy-pentagon-and-wwii-stories": {
   "status": "include",
@@ -17629,7 +17629,7 @@
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
   "date": "2026-11-20"
  },
- "people/e-j-andr": {
+ "people/e-j-andre": {
   "status": "include",
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
   "date": "2026-11-20"
@@ -21329,7 +21329,7 @@
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
   "date": "2026-11-20"
  },
- "people/mel-torm": {
+ "people/mel-torme": {
   "status": "include",
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
   "date": "2026-11-20"
@@ -21469,11 +21469,6 @@
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
   "date": "2026-11-20"
  },
- "people/michael-pe-a": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
- },
  "people/michael-pena": {
   "status": "include",
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
@@ -21524,7 +21519,7 @@
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
   "date": "2026-11-20"
  },
- "people/miguel-a-n-ez-jr": {
+ "people/miguel-a-nunez-jr": {
   "status": "include",
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
   "date": "2026-11-20"
@@ -22469,7 +22464,7 @@
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
   "date": "2026-11-20"
  },
- "people/ren-auberjonois": {
+ "people/rene-auberjonois": {
   "status": "include",
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
   "date": "2026-11-20"
@@ -22629,7 +22624,7 @@
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
   "date": "2026-11-20"
  },
- "people/richard-y-iguez": {
+ "people/richard-yniguez": {
   "status": "include",
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
   "date": "2026-11-20"
@@ -23084,7 +23079,7 @@
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
   "date": "2026-11-20"
  },
- "people/rudy-vall-e": {
+ "people/rudy-vallee": {
   "status": "include",
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
   "date": "2026-11-20"
@@ -25860,9 +25855,9 @@
   "date": "2026-11-20"
  },
  "songs/2-unlimited-twilight-zone-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/2-unlimited-twilight-zone; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/311-prisoner": {
   "status": "include",
@@ -25870,9 +25865,9 @@
   "date": "2026-11-20"
  },
  "songs/311-prisoner-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/311-prisoner; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/69-boyz-buddy-buddy": {
   "status": "include",
@@ -25960,9 +25955,9 @@
   "date": "2026-11-20"
  },
  "songs/big-audio-dynamite-dial-a-hitman-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/big-audio-dynamite-dial-a-hitman; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/billy-creepshow-in-the-twilight-zone": {
   "status": "include",
@@ -26090,9 +26085,9 @@
   "date": "2026-11-20"
  },
  "songs/dj-jazzy-jeff-and-the-fresh-prince-then-she-bit-me-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/dj-jazzy-jeff-and-the-fresh-prince-then-she-bit-me; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/dj-premier-tiimmy-turner-preemix": {
   "status": "include",
@@ -26175,9 +26170,9 @@
   "date": "2026-11-20"
  },
  "songs/fountains-of-wayne-i-want-an-alien-for-christmas-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/fountains-of-wayne-i-want-an-alien-for-christmas; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/freedom-fry-mr-nobody": {
   "status": "include",
@@ -26210,9 +26205,9 @@
   "date": "2026-11-20"
  },
  "songs/golden-earring-twilight-zone-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/golden-earring-twilight-zone; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/grateful-dead-the-twilight-zone-1985": {
   "status": "include",
@@ -26245,9 +26240,9 @@
   "date": "2026-11-20"
  },
  "songs/iron-maiden-twilight-zone-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/iron-maiden-twilight-zone; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/j-rock-fake-newz": {
   "status": "include",
@@ -26440,9 +26435,9 @@
   "date": "2026-11-20"
  },
  "songs/ministry-twilight-zone-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/ministry-twilight-zone; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/mono-puff-to-serve-mankind": {
   "status": "include",
@@ -26550,9 +26545,9 @@
   "date": "2026-11-20"
  },
  "songs/rage-chasing-the-twilight-zone-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/rage-chasing-the-twilight-zone; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/red-hot-chili-peppers-nobody-weird-like-me": {
   "status": "include",
@@ -26560,9 +26555,9 @@
   "date": "2026-11-20"
  },
  "songs/red-hot-chili-peppers-nobody-weird-like-me-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/red-hot-chili-peppers-nobody-weird-like-me; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/richard-bellis-the-twilight-zone-tower-of-terror-theme": {
   "status": "include",
@@ -26580,9 +26575,9 @@
   "date": "2026-11-20"
  },
  "songs/rockwell-somebodys-watching-me-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/rockwell-somebodys-watching-me; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/rorschach-lightning-strikes-twice": {
   "status": "include",
@@ -26595,9 +26590,9 @@
   "date": "2026-11-20"
  },
  "songs/rush-the-twilight-zone-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/rush-the-twilight-zone; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/s-e-s-twilight-zone": {
   "status": "include",
@@ -26695,9 +26690,9 @@
   "date": "2026-11-20"
  },
  "songs/sheena-easton-i-like-the-fright-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/sheena-easton-i-like-the-fright; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/shitmat-badman-ballad": {
   "status": "include",
@@ -26750,9 +26745,9 @@
   "date": "2026-11-20"
  },
  "songs/ted-sink-twilight-zone": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: An amateur self-submission with no release information; too thin for the site.",
+  "date": "2026-11-21"
  },
  "songs/the-bouncing-souls-digital-twilight-zone": {
   "status": "include",
@@ -26760,9 +26755,9 @@
   "date": "2026-11-20"
  },
  "songs/the-bouncing-souls-digital-twilight-zone-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/the-bouncing-souls-digital-twilight-zone; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/the-dockers-talking-tina": {
   "status": "include",
@@ -26805,9 +26800,9 @@
   "date": "2026-11-20"
  },
  "songs/the-manhattan-transfer-twilight-zone-twilight-tone-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/the-manhattan-transfer-twilight-zone-twilight-tone; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/the-manhattan-transfer-wdr-funkhausorchester-twilight-zone-twilight-tone": {
   "status": "include",
@@ -26900,9 +26895,9 @@
   "date": "2026-11-20"
  },
  "songs/xtc-do-what-you-do-2": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Duplicate of songs/xtc-do-what-you-do; the other record is kept. This one stays hidden so the importer does not recreate it.",
+  "date": "2026-11-21"
  },
  "songs/z-channel-who-knows": {
   "status": "include",
@@ -29540,9 +29535,9 @@
   "date": "2026-11-20"
  },
  "works/twilight-zone-zx-spectrum-name-only": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded by Adam 2026-11-21 (review of records recommended for exclusion). Assessment: Listed only to prevent confusion with the licensed 1988 game.",
+  "date": "2026-11-21"
  },
  "works/twisted-metal-2-calypsos-ending-shadow": {
   "status": "include",

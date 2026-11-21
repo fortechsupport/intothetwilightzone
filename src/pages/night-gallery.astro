@@ -17,7 +17,7 @@ const related = (await getCollection('films')).filter((f) => f.id.startsWith('ni
 const works = (await getCollection('works')).filter((w) => /night gallery/i.test(w.data.title));
 const books = (await getCollection('books')).filter((b) => /night gallery/i.test(b.data.title));
 ---
-<Base title="Night Gallery" description="Rod Serling's Night Gallery (1969–1973): the pilot film and every episode and segment, with writers, directors, cast and source stories.">
+<Base title="Rod Serling's Night Gallery (1969–1973)" description="Rod Serling's Night Gallery (1969–1973): the pilot film and every episode and segment, with writers, directors, cast and source stories.">
   <p class="breadcrumb" data-pagefind-ignore><a href="/series/">Series</a> / <a href="/series/tv/">Television series</a></p>
   <h1>Rod Serling's Night Gallery</h1>
   {series?.data.summary && <p class="lead">{series.data.summary}</p>}

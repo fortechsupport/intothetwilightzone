@@ -2,6 +2,8 @@
 import TrackButtons from '../../components/fan/TrackButtons.astro';
 import { trackFor } from '../../lib/fan/contribute';
 import Base from '../../layouts/Base.astro';
+import RecordHeader from '../../components/RecordHeader.astro';
+import { recordDocTitle, recordType, recordContext } from '../../lib/titles';
 import InCategories from '../../components/InCategories.astro';
 import Media from '../../components/Media.astro';
 import Related from '../../components/Related.astro';
@@ -11,7 +13,7 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 import { formatDate, personUrl, resolveRef, CONNECTION_LABELS, CONFIDENCE_LABELS } from '../../lib/data';
 
 export async function getStaticPaths() {
-  return (await getCollection('films')).map((f) => ({ params: { slug: f.id }, props: { f } }));
+  return (await getCollection('films')).filter((f) => !f.data.duplicate_of).map((f) => ({ params: { slug: f.id }, props: { f } }));
 }
 interface Props { f: CollectionEntry<'films'> }
 const { f } = Astro.props;
@@ -27,9 +29,9 @@ const jsonld = {
   sameAs: d.ids?.imdb ? [`https://www.imdb.com/title/${d.ids.imdb}/`] : undefined,
 };
 ---
-<Base title={d.title} description={`${d.title} and its connection to The Twilight Zone.`} jsonld={jsonld}>
+<Base title={recordDocTitle('films', d, d.title)} description={`${d.title} and its connection to The Twilight Zone.`} jsonld={jsonld}>
   <InCategories recKey={`films/${f.id}`} />
-  <h1>{d.title}</h1>
+  <RecordHeader type={recordType('films', d)} context={recordContext('films', d)} title={d.title} recKey={`films/${f.id}`} />
   {(() => { const t = trackFor('films', (d as any).kind); return (t.seen || t.own) && <TrackButtons recKey={`films/${f.id}`} seen={t.seen} own={t.own} />; })()}
   {d.parent_series && <p class="muted">{d.parent_series}</p>}
   {d.relevance && d.relevance !== 'core' && <p class="small"><span class="tag">{d.relevance === 'related' ? 'Related to The Twilight Zone' : 'Tangential to The Twilight Zone'}</span></p>}
@@ -75,7 +77,7 @@ const jsonld = {
     </section>
   )}
   <HistoryAndIntl history={d.history} intl={d.international_titles} releases={d.releases} />
-  <section>
+  {(d.ids?.imdb || d.links?.wikipedia || d.links?.trailer_youtube || d.links?.justwatch) && <section>
     <h2>Watch and read more</h2>
     <ul>
       {d.ids?.imdb && <li><a href={`https://www.imdb.com/title/${d.ids.imdb}/`} rel="noopener">IMDb</a></li>}
@@ -83,7 +85,7 @@ const jsonld = {
       {d.links?.trailer_youtube && <li><a href={`https://www.youtube.com/watch?v=${d.links.trailer_youtube}`} rel="noopener">Trailer on YouTube</a></li>}
       {d.links?.justwatch && <li><a href={d.links.justwatch.startsWith('http') ? d.links.justwatch : `https://www.justwatch.com/us/movie/${d.links.justwatch}`} rel="noopener">Where to watch (JustWatch)</a></li>}
     </ul>
-  </section>
+  </section>}
   <Related recKey={`films/${f.id}`} skip={['people']} />
   <Media media={d.media} recKey={`films/${f.id}`} />
   <Sources sources={d.sources} verified={d.last_verified} />

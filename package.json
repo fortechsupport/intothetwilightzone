@@ -14,13 +14,19 @@
     "review:export": "python3 scripts/review.py export",
     "review:import": "python3 scripts/review.py import",
     "review:status": "python3 scripts/review.py status",
-    "assess": "python3 scripts/assess.py"
+    "assess": "python3 scripts/assess.py",
+    "check:data": "node scripts/check-data.mjs",
+    "check:site": "node scripts/check-site.mjs",
+    "check:a11y": "node scripts/check-a11y.cjs",
+    "check:all": "npm run check:data && npm run tokens -- --check && npm run build:preview && npm run check:site",
+    "tokens": "node scripts/build-tokens.mjs"
   },
   "dependencies": {
     "astro": "^7.4.13",
     "leaflet": "^1.9.4"
   },
   "devDependencies": {
+    "axe-core": "^4.10.3",
     "pagefind": "^1.6.0",
     "yaml": "^2.9.1"
   }
