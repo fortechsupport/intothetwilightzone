@@ -3,6 +3,15 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-21 — Research checklist (no change for visitors)
+
+**Nothing changes on the site.** `docs/RESEARCH_CHECKLIST.md` lists every category and subcategory under the
+nine verbs, with today's record counts, Official and Unofficial shelves, how deeply each is researched, known
+gaps, and a recommended order. Adam works through it one category at a time: content plan, research, his
+decisions, then the pages.
+
+**Known not to work yet:** nothing new; the checklist's "Found, for later" list names four placement issues.
+
 ## 2026-11-21 (later) — Faster long pages and a polish pass
 
 **The three heaviest pages now open quickly.**
