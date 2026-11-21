@@ -46,3 +46,26 @@ These are mostly self-released tracks; the web search engine here does not index
 - letras.mus.br slug guesses fail quietly: the site falls back to another song by the same artist. Always check the returned title. vagalume.com.br works for some artists and 404s for others. muztext.com worked twice.
 - WhoSampled cannot be fetched, but its sample-page titles in search results state the sampled scene, which is enough as a medium-confidence source. Searches restricted to whosampled.com for "scene in The Twilight Zone" mostly return songs already in the collection, so the theme-sample coverage is now close to complete.
 - Schema: no changes needed. Existing records use a `subtype: sample` key that is not in the songs schema; I used the `sample` tag instead.
+
+## Round 2
+
+Budget: 21 of 22 WebFetch calls used, about 8 searches.
+
+### Updated
+- `lisa-brokop-when-you-get-to-be-you`: lyric-mention (idiom, verse 2). Source: Vagalume lyric page. Recommend maybe.
+- `thirsty-merc-thats-when-i-think-of-you`, `george-white-group-thats-when-i-think-of-you`: set to lyric-mention, low confidence, tag `cover-unconfirmed`. 1927's original "That's When I Think of You" (...Ish, 1988) uses "twilight zone" as an idiom in verse 4 (Letras). Neither cover recording was found, and Letras has no Thirsty Merc version. Recommend exclude.
+- `gary-portnoy-alien`: the song exists, as track 9 on *Keeper* (from the discography on garyportnoy.com). No lyric text found. Still unclassified, tagged `needs-lyric-check`.
+- New sample records now have album and year, from opened tracklists:
+  - `unkle-unkle-main-title-theme`: *Psyence Fiction*, 1998, track 2 (Wikipedia).
+  - `world-class-wreckin-cru-planet`: *World Class*, 1985, track 1 (Wikipedia).
+  - `killah-priest-the-seer-the-poet`: *The Psychic World of Walter Reed*, 2013, track 18 (Lyreka).
+- Review metadata: scratchpad `overrides-songs-2.yaml` (7 entries).
+
+### Still unresolved
+- Dennis DeYoung "Little Did We Know": not on the Letras artist page, and the Vagalume and MuzText pages failed.
+- E-40 "Zombie": not on the Letras artist page, and MuzText failed. Possibly a guest verse on another artist's track.
+- The Roots "New Year's Eve Polka (5-4-3-2-1)": not on the Letras artist page, and Vagalume failed. It may be a Tonight Show performance rather than a release.
+- WC "Put On Tha Set": not on the Letras artist page, and MuzText failed.
+- Warren Haynes "Twilight Zone": no "Twilight" title on his Letras page, and nothing in search. Existence unconfirmed; a later pass might tag it `unverified-existence`.
+- `the-buggers-the-bugger-groove` and `shanti-and-deedrah-twilight-zone`: no release details found.
+- The obscure rows (about 50) are still not reached. Web search here returns titles and links only and barely indexes Bandcamp or SoundCloud. Each needs a known Bandcamp, Spotify or official-page URL before it can be checked.

@@ -42,3 +42,29 @@ Radio dramas, AudioFile (4; LOW; existence and readers known from page titles on
 
 ## Schema needs
 None. One idea: an optional `headline` field would help where the original headline (e.g. "Rod Serling's Drama Scores a Knockout") is the only evidence of the verdict.
+
+## Round 2
+
+Fetches used: 26 of 28.
+
+**Method.** Archive.org's search-inside OCR endpoint, `fulltext/inside.php` on the item's server and dir (taken from `/metadata/<id>`). Whole `_djvu.txt` files can't be read this way: WebFetch stops at about 80k characters, and a Variety issue is about 745k.
+
+**Coverage.** Archive.org's weekly Variety (Serials in Microfilm, `sim_variety_*`) only covers some years here.
+- Present: 1959-60 and Sept 1961.
+- Missing: 1963 (season 4 and season 5 premieres), 1964 and 1983-85. Searches for those dates returned nothing.
+- A Radio-Television Daily search on archive.org also returned nothing.
+
+**Added (2 records, both with verdicts read from the scans):**
+- `review-variety-review-of-the-twilight-zone-premiere-where-is-everybody`: Variety, 1959-10-07, p. 28. The reviewer faulted the overly neat, logical ending. The OCR is jumbled, so the summary is medium confidence and the signature was not read.
+- `review-variety-review-of-king-nine-will-not-return-1960`: Variety, 1960-10-05, p. 36. The reviewer called it a "weak vehicle" for the season 2 start and "a letdown", with Cummings the only dramatic force.
+
+**Locked record, source added only:**
+- `review-variety-review-of-the-twilight-zone-season-two` is actually Variety 1961-09-27, p. 38, signed "Les.", reviewing "The Arrival". It says the series is "running dry of inspiration". Adam should fix its title and date by hand.
+
+**Daily Variety "Helm" (still unconfirmed).** Not confirmed from a scan. Daily Variety itself isn't in these archive.org runs, and the Oct 7, 1959 weekly has no "Helm." signature. The eNotes source note from round 1 stands.
+
+**Overrides.** Written to `scratchpad/overrides-reviews-2.yaml`.
+
+**Next leads:**
+- The same `inside.php` method works on any other SIM Variety issue. Weekly Variety also reviewed later episodes and specials (e.g. 1960-61 midseason items); query `serling` for each issue's server.
+- worldradiohistory Broadcasting PDFs were not tried, for lack of budget.

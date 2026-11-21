@@ -1,9 +1,19 @@
 title: Alien
 artist: Gary Portnoy
+album: Keeper
+genre: Pop
 tz_connection: unclassified
-sources:
-- title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+description: A track from Keeper, an album by Gary Portnoy, the songwriter behind the Cheers theme. The song exists,
+  but no lyric text could be found, so its Twilight Zone tie is still unknown. His official site's discography page
+  does not mention the show or Serling.
 research_confidence: low
-description: A song by Gary Portnoy listed in the original research with no stated Twilight Zone connection. The
-  tie is probably a lyric line or sample, but it has not been verified.
+tags:
+- needs-lyric-check
+- research-2026-11-21
+sources:
+- title: 'Gary Portnoy official site: CDs'
+  url: https://www.garyportnoy.com/cds-cheers-theme-2
+  note: Lists "Alien" as track 9 on Keeper; no year given.
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-21'

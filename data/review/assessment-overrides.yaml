@@ -4409,13 +4409,6 @@ songs/kid-rock-killin-brain-cells:
   recommendation: include
   reason: Famous artist name-checking Serling and the show together.
   subcategory: Lyric mentions (Rod Serling)
-songs/killah-priest-the-seer-the-poet:
-  connection: WhoSampled lists a sample of a Twilight Zone clip it calls "The Devil's All Around Us".
-  tier: tangential
-  tier_reason: Dialogue sample.
-  recommendation: include
-  reason: Wu-Tang affiliate; dialogue sample from the series. Episode still to identify.
-  subcategory: Dialogue samples
 songs/loudon-wainwright-living-alone:
   connection: The narrator's lonely evenings include watching Twilight Zone reruns.
   tier: tangential
@@ -4466,13 +4459,6 @@ songs/the-buggers-the-bugger-groove:
   recommendation: maybe
   reason: Obscure act; keep only if it can be confirmed beyond the WhoSampled listing.
   subcategory: Serling narration samples
-songs/unkle-unkle-main-title-theme:
-  connection: WhoSampled lists it as sampling a Twilight Zone TV promo.
-  tier: tangential
-  tier_reason: Sample of promo audio.
-  recommendation: include
-  reason: Well-known trip-hop act; a promo sample is an unusual and interesting use.
-  subcategory: Serling narration samples
 songs/vanilla-ice-get-loose:
   connection: A verse names the Twilight Zone to set up an eerie experience.
   tier: tangential
@@ -4480,10 +4466,191 @@ songs/vanilla-ice-get-loose:
   recommendation: include
   reason: Recognisable artist and a direct mention; low stakes either way.
   subcategory: Lyric mentions (the show)
+
+# Research pass 2026-11-21, round 2
+people/alexandra-barreto:
+  connection: Alexandra Barreto is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/andrew-francis:
+  connection: Andrew Francis is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: maybe
+  reason: Wikipedia lists a Twilight Zone credit but not the episode; identity is very likely.
+  subcategory: Actors
+people/angela-featherstone:
+  connection: Angela Featherstone is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/ben-bass:
+  connection: Ben Bass is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/eric-keenleyside:
+  connection: Eric Keenleyside is credited on a Twilight Zone episode (1980s revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/gabrielle-miller:
+  connection: Gabrielle Miller is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/greg-serano:
+  connection: Greg Serano is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/john-furia-jr:
+  connection: John Furia, Jr. is credited on a Twilight Zone episode (original series).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Writers
+people/kim-hawthorne:
+  connection: Kim Hawthorne is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/kristi-angus:
+  connection: Kristi Angus is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/lindy-booth:
+  connection: Lindy Booth is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/nicki-aycox:
+  connection: Nicki Aycox is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/patrick-r-norris:
+  connection: Patrick R. Norris is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: maybe
+  reason: Wikipedia lists a Twilight Zone credit but not the episode; identity is very likely.
+  subcategory: Directors
+people/sarah-carter:
+  connection: Sarah Carter is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/todd-williams:
+  connection: Todd Williams is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+people/zak-santiago:
+  connection: Zak Santiago is credited on a Twilight Zone episode (2002 revival).
+  tier: core
+  tier_reason: Credited cast or crew of a Twilight Zone episode.
+  recommendation: include
+  reason: Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.
+  subcategory: Actors
+essays/review-variety-review-of-king-nine-will-not-return-1960:
+  connection: A trade-paper review written when the episode first aired.
+  tier: core
+  tier_reason: Contemporary critical reception of the original series.
+  recommendation: include
+  reason: A primary 1959-60 trade review read from the scanned issue, with a link to the full scan; shows that Variety
+    was cooler on the series than its later reputation suggests.
+  subcategory: Contemporary reviews
+essays/review-variety-review-of-the-twilight-zone-premiere-where-is-everybody:
+  connection: A trade-paper review written when the episode first aired.
+  tier: core
+  tier_reason: Contemporary critical reception of the original series.
+  recommendation: include
+  reason: A primary 1959-60 trade review read from the scanned issue, with a link to the full scan; shows that Variety
+    was cooler on the series than its later reputation suggests.
+  subcategory: Contemporary reviews
+essays/review-variety-review-of-the-twilight-zone-season-two:
+  connection: Variety trade review of The Arrival, September 1961.
+  tier: core
+  tier_reason: Contemporary reception of the original series.
+  recommendation: include
+  reason: Locked record; source added confirming the issue (Sept 27, 1961, p. 38), the signature "Les." and the
+    episode. The title says season two and should be corrected by hand.
+  subcategory: Contemporary reviews
+songs/gary-portnoy-alien:
+  connection: Unknown; the song exists (track 9 on Keeper) but no lyric text could be found.
+  tier: tangential
+  tier_reason: No confirmed link.
+  recommendation: maybe
+  reason: The Cheers-theme writer is a fun name for TV fans, but keep it on hold until someone hears the song.
+  subcategory: Possible references (unconfirmed)
+songs/george-white-group-thats-when-i-think-of-you:
+  connection: Probably a cover of 1927's 1988 song, whose fourth verse uses "twilight zone" as an idiom.
+  tier: tangential
+  tier_reason: Idiom only, cover unconfirmed.
+  recommendation: exclude
+  reason: 'Same as the Thirsty Merc row: obscure cover of an idiom-only lyric.'
+  subcategory: Lyric mentions (idiom)
+songs/killah-priest-the-seer-the-poet:
+  connection: Track 18 of The Psychic World of Walter Reed (2013); WhoSampled lists a Twilight Zone dialogue sample.
+  tier: tangential
+  tier_reason: Dialogue sample.
+  recommendation: include
+  reason: Wu-Tang affiliate; album and year now confirmed. Episode of the clip still to identify.
+  subcategory: Dialogue samples
+songs/lisa-brokop-when-you-get-to-be-you:
+  connection: The second verse uses "twilight zone" as an idiom for someone in a world of their own.
+  tier: tangential
+  tier_reason: Idiom only.
+  recommendation: maybe
+  reason: A real country release, but the phrase is generic and says nothing about the show.
+  subcategory: Lyric mentions (idiom)
+songs/thirsty-merc-thats-when-i-think-of-you:
+  connection: Probably a cover of 1927's 1988 song, whose fourth verse uses "twilight zone" as an idiom.
+  tier: tangential
+  tier_reason: Idiom only, cover unconfirmed.
+  recommendation: exclude
+  reason: Idiom-only lyric, and this recording could not be found. If Adam wants the song, 1927's original would
+    be the record to keep.
+  subcategory: Lyric mentions (idiom)
+songs/unkle-unkle-main-title-theme:
+  connection: Track 2 of Psyence Fiction (1998); WhoSampled lists a sample of a Twilight Zone TV promo.
+  tier: tangential
+  tier_reason: Sample of promo audio.
+  recommendation: include
+  reason: Well-known album; album and year now confirmed from the tracklist.
+  subcategory: Serling narration samples
 songs/world-class-wreckin-cru-planet:
-  connection: WhoSampled lists it as sampling the later-season title-sequence music.
+  connection: Opening track of World Class (1985); WhoSampled lists a sample of the later-season title music.
   tier: tangential
   tier_reason: Theme sample.
   recommendation: include
-  reason: Early Dr. Dre group sampling the theme is a notable piece of hip-hop history.
+  reason: Pre-N.W.A Dr. Dre and DJ Yella group using the theme; album and year now confirmed.
   subcategory: Theme samples
