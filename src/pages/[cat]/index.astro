@@ -13,7 +13,8 @@ import { verbOf } from '../../lib/taxonomy.mjs';
 
 export async function getStaticPaths() {
   const cats = await catalog();
-  return [...cats.values()].map((c) => ({ params: { cat: c.slug }, props: { c } }));
+  // Television has its own landing page (src/pages/series/index.astro).
+  return [...cats.values()].filter((c) => c.slug !== 'series').map((c) => ({ params: { cat: c.slug }, props: { c } }));
 }
 interface Props { c: CatInfo }
 const { c } = Astro.props;
@@ -78,7 +79,7 @@ const NOUN: Record<string, string> = { people: 'people', places: 'places', organ
           <h2><a href={`/${c.slug}/${s.slug}/`}>{s.title}</a> <span class="muted small">({s.entries.length.toLocaleString('en-US')})</span></h2>
           {s.intro && <p>{s.intro}</p>}
           <EntryList entries={s.entries.slice(0, PREVIEW)} />
-          {s.entries.length > PREVIEW && <p><a href={`/${c.slug}/${s.slug}/`}>All {s.entries.length.toLocaleString('en-US')} in {s.title} →</a></p>}
+          {s.entries.length > PREVIEW && <p><a href={`/${c.slug}/${s.slug}/`}>See all {s.entries.length.toLocaleString("en-US")}</a></p>}
         </section>
       ))}
     </>

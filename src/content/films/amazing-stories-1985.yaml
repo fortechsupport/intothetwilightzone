@@ -1,16 +1,36 @@
 title: Amazing Stories
 kind: tv-series
-summary: 'Steven Spielberg''s NBC fantasy anthology, two years after he produced Twilight Zone: The Movie; rebooted
-  2020.'
-release_date: '1985'
+summary: 'Steven Spielberg''s NBC fantasy anthology, two years after he produced Twilight Zone: The Movie; rebooted 2020.'
+release_date: '1985-09-29'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Amazing Stories (1985 TV series)"
+  url: https://en.wikipedia.org/wiki/Amazing_Stories_(1985_TV_series)
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Amazing_Stories_(1985_TV_series)
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: NBC
+seasons: 2
+episode_count: 45
+country: United States
+end_date: '1987-04-10'
+created_by:
+- Steven Spielberg
+ties:
+- text: Richard Matheson wrote “The Doll” for the original Twilight Zone, where producer William Froug turned it down; Amazing Stories made it.
+  sources:
+  - title: "Wikipedia: Amazing Stories (1985 TV series)"
+    url: https://en.wikipedia.org/wiki/Amazing_Stories_(1985_TV_series)
+    publisher: Wikipedia
+- text: Steven Spielberg said he wanted to avoid the “moralizing” of series such as the original Twilight Zone.
+  sources:
+  - title: "Wikipedia: Amazing Stories (1985 TV series)"
+    url: https://en.wikipedia.org/wiki/Amazing_Stories_(1985_TV_series)
+    publisher: Wikipedia

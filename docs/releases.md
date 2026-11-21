@@ -3,6 +3,56 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-21 — Television, step 1: one category, show pages and every homage
+
+**Watch > Television is one category with clear shelves.** The Twilight Zone (the four series), Every Twilight
+Zone episode, Rod Serling's series, Fellow anthology series, Homages in other shows, Pilots and unmade projects
+(new) and International titles. Old Episodes and TV series links land in the right place.
+
+**Every other show has one page with an episode explorer.** Night Gallery (`/night-gallery/`) lists all 43
+episodes and their segments by season, with the 1969 pilot at the top; filter by season, person or text, sort by
+air date or A to Z, and link straight to any episode (`/night-gallery/#night-gallery-s1e01`). The same explorer
+is on every show with a Twilight Zone homage (The Simpsons, Futurama, Saturday Night Live...) and on the
+anthologies Rod Serling wrote plays for (Playhouse 90, Kraft Television Theatre...). Old episode addresses
+redirect to the entry.
+
+**Every homage, on both pages.** Each homage shows on its show's page and on the Twilight Zone episode it points
+to; homages to a series as a whole show on that series' page. `/television/homages/` lists all of them, filterable
+by type, show, Twilight Zone series and how sure we are: "Confirmed by its makers", "Documented" or "Noted by fans".
+
+**Credit.** Sources can now name their author and publication, and media can name the rights holder.
+
+**Search, sort and filter everywhere (second pass, after Adam's review).** Every subcategory page on the site now
+has search, shelf, group and relevance filters and A to Z, Z to A, newest and oldest sorting. The Television page
+leads with the four series and Night Gallery, has one box to find any show or episode, and ranks the most-homaged
+episodes and shows. Series pages gain run dates, runtime, top writers and directors, a People and Characters
+section, page tabs, and one episode table you can search, filter by season, writer or director, and sort. Episode
+pages group their legacy by medium with filters. 24 anthology and Serling series pages now show their network, run,
+episode count, creators, hosts and sourced Twilight Zone ties. Link text is shorter throughout.
+
+**Where to watch, and links that open in a new tab (third pass, after Adam's second review).** Every series, show,
+film and episode page now says where to watch it in the US near the top: stream, free with ads, and buy or rent,
+with the date JustWatch last checked and plain links to JustWatch and Reelgood. Lists name it once beside each
+show (the four series cards, Night Gallery, the anthology shelves, the homage shelf's show headings, the
+most-homaged shows), and picking a show on the homages page shows where to watch it above its entries. 79 shows
+are checked so far; the rest show search links until they are. Every link to another website now opens in a new
+tab, marked with ↗ and announced to screen readers; links within the site open in the same tab, and the site check
+fails any page that breaks the rule.
+
+**Known not to work yet:** about 60 shows (mostly single-homage shows) and the 2002 revival still need their where
+to watch checked; films other than TV series only have search links; research rounds 1 to 4 (Serling's other plays, the anthologies' own sources, homage
+sources, home video) come next; fans cannot yet second a homage (needs fan accounts); most
+sources do not yet carry an author or publisher.
+
+## 2026-11-21 — Research checklist (no change for visitors)
+
+**Nothing changes on the site.** `docs/RESEARCH_CHECKLIST.md` lists every category and subcategory under the
+nine verbs, with today's record counts, Official and Unofficial shelves, how deeply each is researched, known
+gaps, and a recommended order. Adam works through it one category at a time: content plan, research, his
+decisions, then the pages.
+
+**Known not to work yet:** nothing new; the checklist's "Found, for later" list names four placement issues.
+
 ## 2026-11-21 (later) — Faster long pages and a polish pass
 
 **The three heaviest pages now open quickly.**

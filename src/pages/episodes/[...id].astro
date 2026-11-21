@@ -7,8 +7,11 @@ import Related from '../../components/Related.astro';
 import Sources from '../../components/Sources.astro';
 import EpisodeActions from '../../components/fan/EpisodeActions.astro';
 import EpisodeExtras from '../../components/fan/EpisodeExtras.astro';
+import WhereToWatch from '../../components/WhereToWatch.astro';
+import { watchFor } from '../../lib/watch';
 import { getCollection } from 'astro:content';
-import { allEpisodes, formatDate, episodeNumber, personUrl, resolveRef, CONNECTION_LABELS, CONFIDENCE_LABELS, type Episode } from '../../lib/data';
+import { allEpisodes, formatDate, episodeNumber, personUrl, resolveRef, mediumOf, CONNECTION_VERBS, MEDIUM_ORDER, CONNECTION_LABELS, CONFIDENCE_LABELS, type Episode } from '../../lib/data';
+import { sortKey } from '../../lib/categories';
 
 export async function getStaticPaths() {
   const eps = await allEpisodes();
@@ -27,6 +30,7 @@ const allConnections = await getCollection('connections');
 const connections = allConnections.filter((c) => c.data.to === e.id);
 const drawsOn = await Promise.all(allConnections.filter((c) => c.data.from === e.id).map(async (c) => ({ c, work: await resolveRef(c.data.to) })));
 const legacy = await Promise.all(connections.map(async (c) => ({ c, work: await resolveRef(c.data.from) })));
+const legacyGroups = MEDIUM_ORDER.map((m) => [m, legacy.filter(({ work }) => mediumOf(work?.kind ?? '') === m).sort((a, b) => sortKey(a.work?.title ?? '').localeCompare(sortKey(b.work?.title ?? '')))] as const).filter(([, l]) => l.length > 0);
 const radio = (await getCollection('radio')).filter((r) => r.data.adapts_episode === e.id);
 const places = (await getCollection('locations')).filter((l) => l.data.filmed.some((f) => f.ref === e.id));
 const quotes = (await getCollection('quotes')).filter((q) => q.data.episodes.includes(e.id));
@@ -61,6 +65,7 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
     {d.directors.length > 0 && <><dt>Directed by</dt><dd>{d.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
     {d.narrator && <><dt>Narrator</dt><dd><a href={personUrl(d.narrator)}>{d.narrator}</a></dd></>}
     {d.cast.length > 0 && <><dt>Cast</dt><dd>{d.cast.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
+    <WhereToWatch info={watchFor({ series: d.series, justwatch: d.links?.justwatch })} note={`Season ${d.season} of the ${d.series} series.`} />
   </dl>
 
   {d.synopsis ? (
@@ -86,30 +91,59 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
       <h2>Draws on</h2>
       <ul class="plain">
         {drawsOn.map(({ c, work }) => (
-          <li><span class="tag">{CONNECTION_LABELS[c.data.kind]}</span>{work ? <a href={work.url}>{work.title}</a> : c.data.to}{work && <span class="muted small"> ({work.kind})</span>} <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span></li>
+          <li>{CONNECTION_VERBS[c.data.kind] ?? CONNECTION_LABELS[c.data.kind]} {work ? <a href={work.url}>{work.title}</a> : c.data.to}{work && <span class="muted small"> · {work.kind.toLowerCase()}</span>} <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span></li>
         ))}
       </ul>
     </section>
   )}
 
   {(legacy.length > 0 || radio.length > 0) && (
-    <section>
-      <h2>Legacy</h2>
-      {legacy.length > 0 && (
-        <ul class="plain">
-          {legacy.map(({ c, work }) => (
-            <li>
-              <span class="tag">{CONNECTION_LABELS[c.data.kind]}</span>
-              {work ? <a href={work.url}>{work.title}</a> : c.data.from}
-              {work && <span class="muted small"> ({work.kind})</span>}
-              {' '}<span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span>
-            </li>
-          ))}
-        </ul>
+    <section id="legacy">
+      <h2>Legacy <span class="muted small">({legacy.length + radio.length})</span></h2>
+      <p class="small muted">Works that adapt, parody, honor or refer to this episode.</p>
+      {legacy.length > 6 && (
+        <form class="lib-filters" id="lg-tools" data-pagefind-ignore onsubmit="return false" aria-label="Filter the legacy list">
+          <label>Medium <select data-f="medium"><option value="">All</option>{legacyGroups.map(([m, list]) => <option value={m}>{m} ({list.length})</option>)}</select></label>
+          <label>How sure <select data-f="cert"><option value="">Any</option>{['confirmed-by-creator', 'documented', 'fan-noted'].filter((x) => legacy.some(({ c }) => c.data.confidence === x)).map((x) => <option value={x}>{CONFIDENCE_LABELS[x]}</option>)}</select></label>
+          <span class="small muted lt-count" role="status"></span>
+        </form>
       )}
+      <div id="lg-list">
+        {legacyGroups.map(([m, list]) => (
+          <section class="lg-group" data-medium={m}>
+            <h3>{m} <span class="muted small">({list.length})</span></h3>
+            <ul class="plain homage-compact">
+              {list.map(({ c, work }) => (
+                <li data-cert={c.data.confidence}>
+                  {work ? <a href={work.url}>{work.title}</a> : c.data.from}
+                  <span class="muted small"> {(CONNECTION_LABELS[c.data.kind] ?? c.data.kind).toLowerCase()}</span>
+                  {' '}<span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
       {radio.length > 0 && (
-        <p>Adapted as a radio drama: {radio.map((r, i) => <>{i > 0 && ', '}<a href={`/radio/${r.id}/`}>{r.data.title}</a>{r.data.volume && ` (Volume ${r.data.volume})`}</>)}</p>
+        <p>Radio drama: {radio.map((r, i) => <>{i > 0 && ', '}<a href={`/radio/${r.id}/`}>{r.data.title}</a>{r.data.volume && ` (Volume ${r.data.volume})`}</>)}</p>
       )}
+      <script is:inline>
+        (() => {
+          const form = document.getElementById('lg-tools'); if (!form) return;
+          const groups = [...document.querySelectorAll('#lg-list .lg-group')]; const count = form.querySelector('.lt-count');
+          const v = (k) => form.querySelector(`[data-f="${k}"]`).value;
+          const apply = () => {
+            const m = v('medium'), c = v('cert'); let n = 0, t = 0;
+            for (const g of groups) {
+              let any = false;
+              for (const li of g.querySelectorAll('li')) { t++; const ok = (!m || g.dataset.medium === m) && (!c || li.dataset.cert === c); li.hidden = !ok; if (ok) { n++; any = true; } }
+              g.hidden = !any;
+            }
+            count.textContent = n === t ? '' : `${n} of ${t} shown`;
+          };
+          form.addEventListener('change', apply); apply();
+        })();
+      </script>
     </section>
   )}
 
@@ -137,7 +171,6 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
     <ul>
       {d.ids?.imdb && <li><a href={`https://www.imdb.com/title/${d.ids.imdb}/`} rel="noopener">IMDb</a></li>}
       {d.links?.wikipedia && <li><a href={d.links.wikipedia} rel="noopener">Wikipedia</a></li>}
-      {d.links?.justwatch && <li><a href={d.links.justwatch} rel="noopener">Where to watch (JustWatch)</a></li>}
     </ul>
   </section>
   <Related recKey={`episodes/${e.id}`} skip={['people']} inherit={`series/${d.series}`} exclude={places.map((l) => `/places/${l.id}/`)} />

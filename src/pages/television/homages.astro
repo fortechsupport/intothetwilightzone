@@ -1,0 +1,73 @@
+---
+// Every homage to The Twilight Zone in another television show, on one page, filterable by type,
+// show, the Twilight Zone series it points to, and how sure we are (Adam, 2026-11-21, decision 0002).
+// Each homage also shows on its show's page and on the Twilight Zone episode or series page it points to.
+import Base from '../../layouts/Base.astro';
+import { allHomageRows } from '../../lib/television';
+import { CONNECTION_LABELS, CONNECTION_VERBS, CONFIDENCE_LABELS } from '../../lib/data';
+import { sortKey } from '../../lib/categories';
+import { watchFor, watchShort } from '../../lib/watch';
+
+const rows = [...await allHomageRows()].sort((a, b) => sortKey(a.l.title).localeCompare(sortKey(b.l.title)) || sortKey(a.show).localeCompare(sortKey(b.show)));
+const shows = [...new Set(rows.map((r) => r.show))].sort((a, b) => sortKey(a).localeCompare(sortKey(b)));
+const kinds = [...new Set(rows.map((r) => r.l.kind))].sort();
+const certs = ['confirmed-by-creator', 'documented', 'fan-noted'].filter((c) => rows.some((r) => r.l.certainty === c));
+const SERIES_NAME: Record<string, string> = { '1959': 'The Twilight Zone (1959)', '1985': 'The Twilight Zone (1985)', '2002': 'The Twilight Zone (2002)', '2019': 'The Twilight Zone (2019)' };
+const tzs = Object.keys(SERIES_NAME).filter((k) => rows.some((r) => r.tzSeries === k));
+// Where each show streams, shown once above the list when the Show filter picks one (Adam, 2026-11-21).
+const watchOf = Object.fromEntries(shows.map((sh) => { const i = watchFor({ show: sh }); return [sh, [watchShort(i.w) ?? '', i.w?.justwatch ?? i.search.justwatch, rows.find((r) => r.show === sh)?.showHref ?? '']]; }));
+const count = (c: string) => rows.filter((r) => r.l.certainty === c).length;
+---
+<Base title="Twilight Zone homages on television" description={`All ${rows.length} Twilight Zone homages, parodies and references we know of in other television shows, filterable by type, show, series and how sure we are.`}>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/watch/">Watch</a> / <a href="/series/">Television</a> / <a href="/series/homages/">Homages</a></p>
+  <h1>Homages on television</h1>
+  <p class="lead">{rows.length} homages, parodies and references to The Twilight Zone in {shows.length} other shows.</p>
+  <p class="small marks"><span class="tag confirmed-by-creator">{CONFIDENCE_LABELS['confirmed-by-creator']}</span> {count('confirmed-by-creator')} · <span class="tag documented">{CONFIDENCE_LABELS.documented}</span> {count('documented')} · <span class="tag fan-noted">{CONFIDENCE_LABELS['fan-noted']}</span> {count('fan-noted')} · <a href="/sources/#grading">What these mean</a></p>
+  <form class="lib-filters" id="hf" data-pagefind-ignore onsubmit="return false" aria-label="Search, filter and sort homages">
+    <label>Search <input data-f="q" type="search" placeholder="Search homages" /></label>
+    <label>Type <select data-f="kind"><option value="">Any</option>{kinds.map((k) => <option value={k}>{CONNECTION_LABELS[k] ?? k} ({rows.filter((r) => r.l.kind === k).length})</option>)}</select></label>
+    <label>Show <select data-f="show"><option value="">Any</option>{shows.map((s) => <option value={s}>{s} ({rows.filter((r) => r.show === s).length})</option>)}</select></label>
+    <label>Series <select data-f="tz"><option value="">Any</option>{tzs.map((k) => <option value={k}>{SERIES_NAME[k]}</option>)}</select></label>
+    <label>How sure <select data-f="cert"><option value="">Any</option>{certs.map((c) => <option value={c}>{CONFIDENCE_LABELS[c]}</option>)}</select></label>
+    <label>Sort <select data-f="sort"><option value="tz">By episode</option><option value="show">By show</option><option value="new">Newest first</option><option value="old">Oldest first</option></select></label>
+    <span class="small muted" id="hf-count" role="status"></span>
+  </form>
+  <p class="watch-banner" id="hf-watch" hidden data-pagefind-ignore></p>
+  <ol class="plain homage-list" id="hl">
+    {rows.map((r) => (
+      <li class="card" data-kind={r.l.kind} data-show={r.show} data-tz={r.tzSeries} data-cert={r.l.certainty} data-s-tz={sortKey(r.l.title)} data-s-show={`${sortKey(r.show)}|${r.e.date ?? ''}`} data-year={(r.e.date ?? '').slice(0, 4)}>
+        <h2 class="homage-where"><a href={r.href}>{r.whole || r.show === r.e.title ? r.e.title : <>{r.show}: {r.e.title}</>}</a>{r.e.date && <span class="muted small"> · {r.e.date.slice(0, 4)}</span>}</h2>
+        <p>{CONNECTION_VERBS[r.l.kind] ?? CONNECTION_LABELS[r.l.kind]} <a href={r.l.href}>{r.l.title}</a> <span class={`tag ${r.l.certainty}`}>{CONFIDENCE_LABELS[r.l.certainty]}</span></p>
+        {r.l.evidence && <p class="small muted">{r.l.evidence}</p>}
+      </li>
+    ))}
+  </ol>
+  <p class="small">Missing one? <a href="/contribute/">Tell us</a>.</p>
+  <script is:inline define:vars={{ watchOf }}>
+    (() => {
+      const form = document.getElementById('hf'); const list = document.getElementById('hl'); const items = [...list.children]; const count = document.getElementById('hf-count');
+      for (const it of items) it.dataset.text = it.textContent.toLowerCase();
+      const v = (k) => form.querySelector(`[data-f="${k}"]`).value;
+      const keys = ['q', 'kind', 'show', 'tz', 'cert', 'sort'];
+      const p = new URLSearchParams(location.search);
+      for (const k of keys) if (p.get(k)) form.querySelector(`[data-f="${k}"]`).value = p.get(k);
+      const yr = (x) => Number(x.dataset.year || 0);
+      const cmp = { tz: (a, b) => a.dataset.sTz.localeCompare(b.dataset.sTz), show: (a, b) => a.dataset.sShow.localeCompare(b.dataset.sShow), new: (a, b) => yr(b) - yr(a), old: (a, b) => (yr(a) || 9999) - (yr(b) || 9999) };
+      const apply = () => {
+        const f = { kind: v('kind'), show: v('show'), tz: v('tz'), cert: v('cert') }; const q = v('q').trim().toLowerCase(); let n = 0;
+        for (const it of items) { const ok = Object.entries(f).every(([k, x]) => !x || it.dataset[k] === x) && (!q || it.dataset.text.includes(q)); it.hidden = !ok; if (ok) n++; }
+        [...items].sort((a, b) => cmp[v('sort') || 'tz'](a, b) || a.dataset.sTz.localeCompare(b.dataset.sTz)).forEach((x) => list.appendChild(x));
+        const wb = document.getElementById('hf-watch'); const ws = v('show') && watchOf[v('show')];
+        if (ws) {
+          const esc = (t) => t.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+          wb.innerHTML = `<strong><a href="${esc(ws[2])}">${esc(v('show'))}</a></strong>: ${ws[0] ? esc(ws[0]) + '. ' : ''}<a href="${esc(ws[1])}" target="_blank" rel="noopener noreferrer" aria-describedby="ext-note">Where to watch</a>`;
+          wb.hidden = false;
+        } else wb.hidden = true;
+        count.textContent = n === items.length ? `${n} homages` : `${n} of ${items.length} shown`;
+        const u = new URLSearchParams(); for (const k of keys) { const x = k === 'q' ? q : v(k); if (x && !(k === 'sort' && x === 'tz')) u.set(k, x); }
+        history.replaceState(null, '', `${location.pathname}${u.toString() ? '?' + u : ''}`);
+      };
+      form.addEventListener('change', apply); form.addEventListener('input', apply); apply();
+    })();
+  </script>
+</Base>

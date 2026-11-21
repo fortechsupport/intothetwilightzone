@@ -4,8 +4,10 @@
 import Base from '../../layouts/Base.astro';
 import EntryList from '../../components/EntryList.astro';
 import SectionSummary from '../../components/SectionSummary.astro';
+import ListTools from '../../components/ListTools.astro';
 import { catalog, type CatInfo, type SubInfo, type Entry } from '../../lib/catalog';
 import { sortKey, OFFICIAL_LABEL, UNOFFICIAL_LABEL, verbOf } from '../../lib/taxonomy.mjs';
+import { watchFor, watchShort } from '../../lib/watch';
 
 export async function getStaticPaths() {
   const cats = await catalog();
@@ -44,6 +46,7 @@ const parts: { id: string; label: string; entries: Entry[] }[] = split
   ? [{ id: 'official', label: OFFICIAL_LABEL, entries: off }, { id: 'unofficial', label: UNOFFICIAL_LABEL, entries: unoff }]
   : [{ id: '', label: '', entries: s.entries }];
 const sideNote = canSplit && !split && s.entries.length ? (off.length ? `Everything here is official.` : `Everything here is unofficial or inspired by the show.`) : '';
+const showWatch = c.slug === 'series' && s.slug === 'homages';
 const compact = c.slug === 'people' || (s.entries.length > 400 && !s.entries.some((e) => e.desc));
 const gid = (p: string, g: string) => `${p ? p + '-' : ''}${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 const siblings = c.subs.filter((x) => x.entries.length > 0);
@@ -75,6 +78,10 @@ const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
     </nav>
   )}
   {!s.entries.length && <p class="muted">No entries yet. Research is under way.</p>}
+  {s.entries.length > 5 && (
+    <ListTools scope="list" noun={s.title.toLowerCase()} groups={[...new Set(s.entries.map((e) => e.group).filter(Boolean) as string[])].sort((a, b) => rank(a).localeCompare(rank(b)))} sides={split} tiers={new Set(s.entries.map((e) => e.tier ?? 'core')).size > 1} years={s.entries.some((e) => /\b(1[89]\d\d|20\d\d)\b/.test(e.meta ?? ''))} groupLabel={c.slug === 'series' && s.slug === 'homages' ? 'Show' : 'Group'} />
+  )}
+  <div id="list">
   {parts.map((p) => {
     const gs = groupsOf(p.entries);
     const multi = gs.length > 1;
@@ -86,7 +93,7 @@ const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
         {letters && <p class="letters" data-pagefind-ignore>{byLetter(p.entries).map(([L]) => <a href={`#${gid(p.id, 'letter-' + L)}`}>{L}</a>)}</p>}
         {multi ? gs.map(([g, list]) => (
           <section id={gid(p.id, g)}>
-            <H>{g} <span class="muted small">({list.length})</span></H>
+            <H>{g} <span class="muted small">({list.length})</span>{showWatch && (() => { const w = watchShort(watchFor({ show: g }).w); return w && <span class="small watch-inline">{w}</span>; })()}</H>
             <EntryList entries={list} compact={compact} />
           </section>
         )) : letters ? byLetter(p.entries).map(([L, list]) => (
@@ -98,8 +105,9 @@ const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
       </section>
     );
   })}
+  </div>
   {c.kind !== 'section' && <SectionSummary entries={s.entries} scope={`${c.slug}/${s.slug}`} label={s.title} />}
-  {c.kind === 'section' && <p class="small"><a href={`/${c.slug}/?role=${s.slug}`}>Sort and filter {s.title.toLowerCase()} in the {c.title} index →</a></p>}
+  {c.kind === 'section' && <p class="small"><a href={`/${c.slug}/?role=${s.slug}`}>Browse all {c.title.toLowerCase()}</a></p>}
   <nav class="subnav siblings" aria-label={`More in ${c.title}`} data-pagefind-ignore>
     <h2>More in {c.title}</h2>
     <ul>{siblings.map((x) => <li>{x.slug === s.slug ? <strong>{x.title}</strong> : <a href={`/${c.slug}/${x.slug}/`}>{x.title}</a>} <span class="count-pill">{x.entries.length}</span></li>)}</ul>

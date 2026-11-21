@@ -1,12 +1,14 @@
 title: Guillermo del Toro's Cabinet of Curiosities
 kind: tv-series
-release_date: '2022'
-summary: Del Toro's Netflix horror anthology, with the filmmaker introducing each tale on camera, is framed as a love letter
-  to Rod Serling's Night Gallery, his follow-up to The Twilight Zone.
+release_date: '2022-10-25'
+summary: Del Toro's Netflix horror anthology, with the filmmaker introducing each tale on camera, is framed as a love letter to Rod Serling's Night Gallery, his follow-up to The Twilight Zone.
 sources:
 - title: 'TheWrap: Why Cabinet of Curiosities is Guillermo del Toro''s love letter to Rod Serling''s Night Gallery'
   url: https://www.thewrap.com/cabinet-of-curiosities-guillermo-del-toro-rod-serling-night-gallery/
-last_verified: '2026-11-19'
+- title: "Wikipedia: Guillermo del Toro's Cabinet of Curiosities"
+  url: https://en.wikipedia.org/wiki/Guillermo_del_Toro%27s_Cabinet_of_Curiosities
+  publisher: Wikipedia
+last_verified: '2026-11-21'
 locked: true
 research_confidence: medium
 relevance: tangential
@@ -14,3 +16,18 @@ tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Guillermo_del_Toro%27s_Cabinet_of_Curiosities
+network: Netflix
+seasons: 1
+episode_count: 8
+country: United States and Mexico
+end_date: '2022-10-28'
+created_by:
+- Guillermo del Toro
+presented_by:
+- Guillermo del Toro
+ties:
+- text: The article names Rod Serling’s Night Gallery as an inspiration.
+  sources:
+  - title: "Wikipedia: Guillermo del Toro's Cabinet of Curiosities"
+    url: https://en.wikipedia.org/wiki/Guillermo_del_Toro%27s_Cabinet_of_Curiosities
+    publisher: Wikipedia

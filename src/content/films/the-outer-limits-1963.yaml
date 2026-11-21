@@ -1,15 +1,43 @@
 title: The Outer Limits
 kind: tv-series
 summary: ABC science-fiction anthology, TZ's best-known contemporary companion; revived 1995–2002.
-release_date: '1963'
+release_date: '1963-09-16'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: The Outer Limits (1963 TV series)"
+  url: https://en.wikipedia.org/wiki/The_Outer_Limits_(1963_TV_series)
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/The_Outer_Limits_(1963_TV_series)
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: ABC
+seasons: 2
+episode_count: 49
+country: United States
+end_date: '1965-01-16'
+created_by:
+- Leslie Stevens
+presented_by:
+- Vic Perrin
+ties:
+- text: It is often compared to The Twilight Zone, with more emphasis on science fiction, and was one of many series it influenced.
+  sources:
+  - title: "Wikipedia: The Outer Limits (1963 TV series)"
+    url: https://en.wikipedia.org/wiki/The_Outer_Limits_(1963_TV_series)
+    publisher: Wikipedia
+- text: Like The Twilight Zone, it had opening and closing narration in almost every episode.
+  sources:
+  - title: "Wikipedia: The Outer Limits (1963 TV series)"
+    url: https://en.wikipedia.org/wiki/The_Outer_Limits_(1963_TV_series)
+    publisher: Wikipedia
+- text: David J. Schow and Jeffrey Frentzen note that fans often misremember Outer Limits episodes as Twilight Zone episodes.
+  sources:
+  - title: "Wikipedia: The Outer Limits (1963 TV series)"
+    url: https://en.wikipedia.org/wiki/The_Outer_Limits_(1963_TV_series)
+    publisher: Wikipedia

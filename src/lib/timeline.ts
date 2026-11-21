@@ -2,6 +2,7 @@
 // /timeline/<decade>/ (every entry in that decade).
 import { getCollection } from 'astro:content';
 import { allEpisodes, episodeNumber, personUrl } from './data';
+import { filmHref } from './television';
 
 export interface Item { date: string; year: number; label: string; url?: string; kind: string; detail?: string }
 const MONTHS: Record<string, string> = { jan: '01', feb: '02', mar: '03', apr: '04', may: '05', jun: '06', jul: '07', aug: '08', sep: '09', oct: '10', nov: '11', dec: '12' };
@@ -53,9 +54,9 @@ export async function timelineItems(): Promise<Item[]> {
   }
   for (const f of (await safe('films')) as any[]) {
     const label = f.data.parent_series ? `${f.data.title} (${f.data.parent_series})` : f.data.title;
-    add(items, f.data.release_date, f.data.kind === 'film' ? 'Film' : 'Screen', label, `/films/${f.id}/`, f.data.kind.replace(/-/g, ' '));
-    for (const h of f.data.history ?? []) add(items, h.date, 'History', h.title, `/films/${f.id}/`, f.data.title);
-    for (const r of f.data.releases ?? []) add(items, r.date, 'Home media', r.title, `/films/${f.id}/`, [r.format, r.publisher, r.region].filter(Boolean).join(', '));
+    add(items, f.data.release_date, f.data.kind === 'film' ? 'Film' : 'Screen', label, filmHref(f.id), f.data.kind.replace(/-/g, ' '));
+    for (const h of f.data.history ?? []) add(items, h.date, 'History', h.title, filmHref(f.id), f.data.title);
+    for (const r of f.data.releases ?? []) add(items, r.date, 'Home media', r.title, filmHref(f.id), [r.format, r.publisher, r.region].filter(Boolean).join(', '));
   }
   for (const b of (await safe('books')) as any[]) add(items, b.data.published, 'Book', b.data.title, `/books/${b.id}/`, (b.data.authors ?? []).join(', '));
   for (const c of (await safe('comics')) as any[]) add(items, c.data.cover_date, 'Comic', c.data.title, `/comics/${c.id}/`, c.data.publisher);

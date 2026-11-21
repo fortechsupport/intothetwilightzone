@@ -1,15 +1,33 @@
 title: Out of This World
 kind: tv-series
 summary: British science-fiction anthology hosted by Boris Karloff.
-release_date: '1962'
+release_date: '1962-06-30'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Out of This World (British TV series)"
+  url: https://en.wikipedia.org/wiki/Out_of_This_World_(British_TV_series)
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Out_of_This_World_(British_TV_series)
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: ITV
+seasons: 1
+episode_count: 13
+country: United Kingdom
+end_date: '1962-09-22'
+created_by:
+- Irene Shubik
+presented_by:
+- Boris Karloff
+ties:
+- text: Boris Karloff was chosen as host on the model of American anthologies including The Twilight Zone, Alfred Hitchcock Presents and Thriller.
+  sources:
+  - title: "Wikipedia: Out of This World (British TV series)"
+    url: https://en.wikipedia.org/wiki/Out_of_This_World_(British_TV_series)
+    publisher: Wikipedia

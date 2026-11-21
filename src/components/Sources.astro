@@ -1,5 +1,5 @@
 ---
-interface Props { sources: { title: string; url?: string; note?: string }[]; verified?: string }
+interface Props { sources: { title: string; url?: string; author?: string; publisher?: string; note?: string }[]; verified?: string }
 const { sources, verified } = Astro.props;
 import { correctionUrl } from '../lib/fan/contribute';
 const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
@@ -10,7 +10,7 @@ const pageTitle = Astro.url.pathname.replace(/^\/|\/$/g, '');
   {sources.length === 0 ? <p class="muted">No sources recorded yet.</p> : (
     <ul class="small">
       {sources.map((s) => (
-        <li>{s.url ? <a href={s.url} rel="noopener">{s.title}</a> : s.title}{s.note && <span class="muted"> · {s.note}</span>}</li>
+        <li>{s.author && <>{s.author}, </>}{s.url ? <a href={s.url} rel="noopener">{s.title}</a> : s.title}{s.publisher && !s.title.includes(s.publisher) && <span class="muted"> ({s.publisher})</span>}{s.note && <span class="muted"> · {s.note}</span>}</li>
       ))}
     </ul>
   )}

@@ -40,6 +40,9 @@ body::before {
 img, video { max-width: 100%; height: auto; }
 a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 3px; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); }
 a:hover { color: var(--link-hover); text-decoration-color: currentColor; }
+/* Links to other websites open in a new tab (integrations/external-links.mjs); the arrow says so, and screen readers hear "opens in a new tab". */
+a[target="_blank"]::after { content: "\2197"; content: "\2197" / ""; display: inline-block; margin-left: .15em; font-size: .8em; line-height: 1; text-decoration: none; color: var(--muted); }
+a.card[target="_blank"]::after, a.btn[target="_blank"]::after { display: none; }
 :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 3px; }
 button, input, select, textarea { font: inherit; color: inherit; }
 ::selection { background: var(--brass); color: var(--on-brass); }
@@ -434,3 +437,64 @@ select, input, textarea { max-width: 100%; }
 .decade-grid .card .count { font-size: var(--step-2); }
 .decade-grid .card h3 { font-size: var(--step-0); font-family: var(--font-ui); font-weight: 600; }
 .decade-grid .card p { margin: 2px 0 0; font-size: var(--step--2); }
+
+/* ---------- Episode explorer (src/components/EpisodeExplorer.astro) ---------- */
+.explorer .ex-list { display: grid; gap: var(--space-3); margin: var(--space-3) 0 var(--space-5); padding: 0; list-style: none; }
+.explorer .ex-entry { display: block; }
+.explorer .ex-entry.hit { border-color: var(--brass); }
+.explorer .ex-title { margin: 0; font-size: var(--step-1); }
+.explorer .ex-anchor { color: var(--text); text-decoration: none; }
+.explorer .ex-anchor:hover { text-decoration: underline; }
+.explorer .ex-segments { margin: var(--space-2) 0 0; padding: 0; list-style: none; display: grid; gap: var(--space-2); }
+.explorer .ex-segments > li { border-left: 2px solid var(--line); padding-left: var(--space-3); }
+.explorer .ex-links { margin: var(--space-2) 0; padding: 0; list-style: none; }
+.explorer .ex-sources summary { cursor: pointer; color: var(--muted); }
+.explorer .ex-count { align-self: center; }
+.explorer [hidden] { display: none !important; }
+.homage-list { display: grid; gap: var(--space-3); padding: 0; list-style: none; }
+.homage-list > li { display: block; }
+.homage-list > li[hidden] { display: none; }
+.homage-list .homage-line { color: var(--text); font-size: var(--step-0); }
+.lib-filters label { min-width: 0; max-width: 100%; }
+.lib-filters select, .lib-filters input { max-width: 100%; }
+.homage-list, .explorer .ex-list { grid-template-columns: minmax(0, 1fr); }
+.homage-list > li, .explorer .ex-entry { overflow-wrap: anywhere; }
+.homage-compact { margin: var(--space-2) 0 var(--space-4); }
+.homage-compact > li { padding: 4px 0; border-bottom: 1px solid var(--line); }
+.homage-list .homage-where { font-family: var(--font-ui); font-size: var(--step-0); font-weight: 600; margin: 0 0 4px; line-height: 1.4; }
+.homage-list .homage-where a { color: var(--text); }
+.marks .tag { margin-right: 2px; }
+
+/* ---------- Television landing (src/pages/series/index.astro) ---------- */
+.tv-find { position: relative; margin: var(--space-4) 0 var(--space-6); max-width: 640px; }
+.tv-find input { width: 100%; font-size: var(--step-1); padding: 12px 16px; }
+.tv-results { position: absolute; z-index: 20; left: 0; right: 0; margin: 4px 0 0; padding: var(--space-2) 0; background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--radius-md); max-height: 60vh; overflow: auto; }
+.tv-results li { padding: 6px var(--space-4); }
+.tv-results[hidden] { display: none; }
+.tv-series .count { font-size: 1.6rem; }
+.tv-feature { margin: var(--space-4) 0 var(--space-6); }
+.two-col { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: var(--space-6); margin: var(--space-6) 0; }
+ol.rank { padding-left: 1.6em; margin: var(--space-3) 0; }
+ol.rank li { padding: 4px 0; border-bottom: 1px solid var(--line); }
+.list-tools .lt-q { flex: 1 1 220px; }
+.list-tools .lt-q input { width: 100%; }
+.list-tools .lt-count { align-self: center; }
+/* In-page tabs on long record pages (series pages). */
+.page-tabs { border-bottom: 1px solid var(--line); margin: var(--space-5) 0 var(--space-4); }
+.page-tabs ul { display: flex; gap: var(--space-4); list-style: none; margin: 0; padding: var(--space-2) 0; overflow-x: auto; white-space: nowrap; scrollbar-width: thin; }
+.page-tabs a { text-decoration: none; color: var(--text-soft); font-weight: 500; }
+.page-tabs a:hover { color: var(--text); text-decoration: underline; }
+.people-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: var(--space-5); }
+.people-tally { margin: var(--space-2) 0; padding: 0; list-style: none; }
+.people-tally li { padding: 3px 0; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: var(--space-2); }
+.ep-table td.nowrap { white-space: nowrap; }
+.ep-table tr[hidden] { display: none; }
+.tz-link .ties { margin: var(--space-2) 0; padding-left: 1.2em; }
+
+/* Where to watch (src/components/WhereToWatch.astro, src/lib/watch.ts): a facts row near the top of series,
+   show, film and episode pages, and a short line beside a show's name in lists. */
+.watch-dd .watch-src { display: block; margin-top: .15rem; }
+.watch-inline { display: block; color: var(--muted); font-family: var(--font-ui); font-size: var(--step--1); font-weight: 400; letter-spacing: 0; margin-top: .1rem; }
+h2 .watch-inline, h3 .watch-inline { font-size: var(--step--1); }
+ol.rank .watch-inline { margin-left: 0; }
+.watch-banner { padding: var(--space-2) var(--space-3); border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface); }

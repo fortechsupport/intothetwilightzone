@@ -4,6 +4,8 @@
 // Plain JavaScript so both the Astro build and the review-sheet export (scripts/taxonomy-export.mjs)
 // use the same rules. All copy is our own words; keep facts conservative.
 
+import { hostShow, ENTRY_KINDS } from './tv-shows.mjs';
+
 // Three kinds of top-level entry:
 //   section   People, Places, Organizations: who and where, linked from everything else.
 //   category  the things themselves (Series, Episodes, Reading...). `split: true` shows each list in two
@@ -117,34 +119,25 @@ export const TAXONOMY = [
   },
   {
     slug: 'series',
-    title: 'TV series',
+    title: 'Television',
     group: 'watch',
     split: true,
-    description: 'Every Twilight Zone television series, plus Night Gallery, Rod Serling\'s other series and the anthology series in its tradition.',
+    description: 'The four Twilight Zone series and every episode, Rod Serling\'s other series and television plays, the anthology series in its tradition, and the shows that pay it homage.',
     intro: [
-      'There have been four Twilight Zone television series: the original (CBS, 1959-1964), the first revival (CBS and syndication, 1985-1989), a second revival (UPN, 2002-2003) and Jordan Peele\'s (CBS All Access, 2019-2020). Serling followed the original with Night Gallery (NBC, 1969-1973).',
+      'There have been four Twilight Zone television series: the original (CBS, 1959-1964), the first revival (CBS and syndication, 1985-1989), a second revival (UPN, 2002-2003) and Jordan Peele\'s (CBS All Access, 2019-2020). Each has a page, and every one of their episodes has its own page.',
+      'Serling followed the original with Night Gallery (NBC, 1969-1973), and before it wrote plays for the live anthologies of the 1950s. Those series, the anthologies in the same tradition and the shows that pay homage each have one page, where every episode is an entry you can filter, search and link to.',
     ],
-    connection: 'The four television series are the franchise itself. Night Gallery and Serling\'s other series are official Serling work one step away. Fellow anthology series are here for a specific, stated link.',
-    seeAlso: [['Night Gallery guide', '/night-gallery/'], ['TV episodes', '/episodes/']],
+    connection: 'The four Twilight Zone series are the franchise itself. Night Gallery and Serling\'s other television are official Serling work one step away. Similar anthologies are here for a stated link or a shared tradition, each tagged with how it connects, and homages for a specific episode or sketch.',
+    seeAlso: [['Night Gallery', '/night-gallery/'], ['All homages', '/television/homages/'], ['Rod Serling', '/rod-serling/']],
     subs: [
-      { slug: 'tv', title: 'Television series', blurb: 'The four Twilight Zone series, Night Gallery, Serling\'s other series and fellow anthologies.', order: 'chrono' },
-      { slug: 'international', title: 'International titles and dubs', blurb: 'The names the series went by around the world.', isNew: true, intro: 'The show was dubbed and retitled in many countries: La Dimensión Desconocida, La Quatrième Dimension, Ai confini della realtà, Unglaubliche Geschichten. Each title is sourced.' },
-    ],
-  },
-  {
-    slug: 'episodes',
-    title: 'TV episodes',
-    group: 'watch',
-    split: true,
-    description: 'Every Twilight Zone television episode, and Night Gallery segment by segment.',
-    intro: [
-      'The four television series total more than 300 episodes, from "Where Is Everybody?" in 1959 to the last of Jordan Peele\'s run in 2020. Night Gallery adds 43 episodes of one to four segments each.',
-      'Listings here are alphabetical. For broadcast order, open a series page.',
-    ],
-    connection: 'Television episodes are the franchise itself; Night Gallery is Serling\'s second anthology.',
-    seeAlso: [['Original series in air order', '/series/1959/'], ['All series', '/series/tv/']],
-    subs: [
-      { slug: 'tv', title: 'Television episodes', blurb: 'All four series and Night Gallery, alphabetically within each series.' },
+      { slug: 'twilight-zone', title: 'The Twilight Zone', blurb: 'The original series and its three revivals, each with every episode.', order: 'chrono', side: 'official' },
+      { slug: 'episodes', title: 'All Twilight Zone episodes', blurb: 'Every episode and segment of the four series, by series.', side: 'official' },
+      { slug: 'serling-series', title: "Rod Serling's series", blurb: 'Night Gallery, The Loner and his other series, and the plays he wrote for other anthologies.', side: 'official' },
+      { slug: 'anthologies', title: 'Fellow anthologies', blurb: 'Anthology series in the same tradition, each tagged with how it connects.', side: 'unofficial' },
+      { slug: 'homages', title: 'Homages in other shows', blurb: 'Episodes and sketches of other shows that parody, honor or reference it, by show.', side: 'unofficial' },
+      { slug: 'pilots-unmade', title: 'Pilots and unmade projects', isNew: true, blurb: 'Pilots, unaired material and announced projects tied to the series and their episodes.' },
+      { slug: 'where-to-watch', title: 'Where to watch', isNew: true, blurb: 'Where each series can be watched now, with the date it was checked.' },
+      { slug: 'international', title: 'Around the world', blurb: 'The titles and dubs the series went by abroad.', isNew: true, intro: 'The show was dubbed and retitled in many countries: La Dimensión Desconocida, La Quatrième Dimension, Ai confini della realtà, Unglaubliche Geschichten. Each title is sourced.' },
     ],
   },
   {
@@ -538,6 +531,8 @@ const ALIASES = {
  * composers from Music to People, and two one-record subcategories fold into their neighbours.
  */
 const MOVES = {
+  // Television (2026-11-21): TV series and TV episodes became one category.
+  'episodes/tv': ['series', 'episodes'],
   'events/honors-awards': ['history', 'honors-awards'],
   'events/premieres': ['history', 'premieres'],
   'events/production-history': ['history', 'production-history'],
@@ -621,30 +616,36 @@ export function place(col, id, d, ctx = {}) {
 
   switch (col) {
     case 'series':
-      add('series', 'tv', 'The Twilight Zone');
+      add('series', 'twilight-zone');
       break;
     case 'episodes':
-      add('episodes', 'tv', SERIES_LABEL[d.series] ?? d.series);
+      add('series', 'episodes', SERIES_LABEL[d.series] ?? d.series);
       break;
     case 'films': {
       const k = d.kind ?? 'film';
       const conns = ctx.connKinds?.(`films/${id}`) ?? [];
-      if (/^night-gallery-s\d+e\d+$/.test(id)) { add('episodes', 'tv', 'Night Gallery (1969-1973)'); break; }
+      const host = hostShow(id, d);
+      if (host === 'Night Gallery' || id === 'night-gallery') { add('series', 'serling-series', 'Night Gallery'); break; }
       if (k === 'tv-series') {
-        const g = id === 'night-gallery' || /night gallery/i.test(d.title) ? 'Night Gallery'
-          : asub === "Rod Serling's other screen work" ? "Rod Serling's other series"
-          : tags.includes('anthology-family') || asub === 'Fellow anthology series' ? 'Fellow anthology series'
-          : 'Other series linked to the show';
-        add('series', 'tv', g);
+        if (tags.includes('radio-only')) { add('radio', 'series', 'Fellow radio anthologies'); break; }
+        if (asub === "Rod Serling's other screen work") add('series', 'serling-series', "Rod Serling's series");
+        else if (tags.includes('tz-writers')) add('series', 'anthologies', 'Series by Twilight Zone writers');
+        else if (tags.includes('anthology-family') || asub === 'Fellow anthology series') add('series', 'anthologies', 'Anthology series');
+        else add('series', 'homages', 'Whole series');
         break;
       }
-      if (['tv-episode', 'tv-segment', 'sketch', 'web-series'].includes(k)) {
-        if (asub === "Rod Serling's other screen work" && !conns.length) add('episodes', 'tv', "Rod Serling's other television");
-        else add('homages', 'in-other-shows', { 'tv-episode': 'Episodes', 'tv-segment': 'Segments', sketch: 'Sketches', 'web-series': 'Web series' }[k]);
+      if (ENTRY_KINDS.has(k)) {
+        if (asub === "Rod Serling's other screen work" && !conns.length) add('series', 'serling-series', 'Plays for other series');
+        else {
+          add('homages', 'in-other-shows', { 'tv-episode': 'Episodes', 'tv-segment': 'Segments', sketch: 'Sketches', 'web-series': 'Web series' }[k]);
+          add('series', 'homages', host ?? d.title);
+        }
         break;
       }
       if (k === 'stage') { add('stage', 'theatre'); break; }
       if (id === 'night-gallery-pilot') { add('movies', 'rod-serling-films', 'Night Gallery'); break; }
+      // Pilots and unmade projects tied to a series stay in Television, not Movies (decision 0002).
+      if ((d.categories ?? []).includes('series/pilots-unmade')) break;
       if (asub === 'Twilight Zone productions') add('movies', 'twilight-zone-films');
       else if (asub === "Rod Serling's other screen work") add('movies', 'rod-serling-films', k === 'film' ? 'Feature films' : 'Television and other');
       if (k === 'documentary') add('movies', 'documentaries');
@@ -797,7 +798,8 @@ function placeWork(d, st, add) {
       add('homages', 'parodies');
       return;
     case 'television':
-      add('series', 'tv', 'Other television');
+      if (/around the world|international|local titles/i.test(d.title ?? '')) add('series', 'international');
+      else add('series', 'serling-series', 'Rod Serling on television');
       return;
     case 'link':
       if (/fan-site|fan site/.test(st)) add('reading', 'websites', 'Fan sites');
@@ -850,7 +852,7 @@ export function placePerson({ roles = [], creditRoles = [], quoted = false, play
   const any = (re) => r.some((x) => re.test(x)) || c.some((x) => re.test(x));
   if (any(/writer|teleplay|story|ghostwriter|source|adaptation|author/)) out.add('writers');
   if (any(/director/) ) out.add('directors');
-  if (r.some((x) => /producer|developer|showrunner/.test(x)) || c.some((x) => /producer/.test(x))) out.add('producers');
+  if (r.some((x) => /producer|developer|showrunner/.test(x)) || c.some((x) => /producer|series creator/.test(x))) out.add('producers');
   if (r.some((x) => /^actor|actress|performer/.test(x)) || c.includes('cast')) out.add('actors');
   if (c.includes('radio cast') || r.some((x) => /voice/.test(x))) out.add('voice-actors');
   if (any(/narrator|host/)) out.add('narrators-hosts');
@@ -901,8 +903,9 @@ export function isOfficial(col, d, p, ctx = {}) {
   const serling = (d.authors ?? []).some(isSerlingName) || isSerlingName(d.creator) || (d.writers ?? []).some?.(isSerlingName);
   const pub = lc(d.publisher);
   switch (`${p.cat}/${p.sub}`) {
-    case 'series/tv': return !/fellow anthology|other series linked|other television/i.test(p.group ?? '');
-    case 'radio/series': case 'series/international': case 'episodes/tv': case 'radio/episodes':
+    case 'series/pilots-unmade': return serling || !unoff;
+    case 'radio/series': return p.group !== 'Fellow radio anthologies';
+    case 'series/international': case 'radio/episodes':
     case 'radio/original-stories': case 'radio/unmade-scripts':
       return p.group ? !/^(Episodes|Segments|Sketches|Web series)$/.test(p.group) : true;
     case 'movies/twilight-zone-films': case 'movies/rod-serling-films': case 'movies/unmade-projects': return !unoff;

@@ -10,8 +10,11 @@
 // 4. Repeated roles in a person's role line ("Writer · ... · writer").
 // 5. Page weight: no public page over 1.5 MB of HTML (the preview-only review queue is exempt); pages over
 //    300 KB are listed as warnings, the target in the Seymour quality plan.
+// 6. Link rule (Adam, 2026-11-21): every link to another website opens in a new tab with
+//    rel="noopener noreferrer" and the "opens in a new tab" note; no link within the site opens a new tab.
 import fs from 'node:fs';
 import path from 'node:path';
+import { isExternal } from '../integrations/external-links.mjs';
 
 const dist = path.resolve(process.argv[2] ?? 'dist');
 const MAX_HTML = 1536 * 1024;
@@ -56,7 +59,7 @@ function resolves(url) {
   return false;
 }
 
-const findings = { links: [], titles: [], structure: [], roles: [], weight: [] };
+const findings = { links: [], titles: [], structure: [], roles: [], weight: [], tabs: [] };
 const titles = new Map();
 
 for (const file of htmlFiles) {
@@ -83,6 +86,19 @@ for (const file of htmlFiles) {
     if (!resolves(url)) findings.links.push(`${pageUrl} -> ${url}`);
   }
 
+  let ext = 0;
+  for (const [tag] of body.matchAll(/<a\b[^>]*>/g)) {
+    const href = /\shref="([^"]*)"/.exec(tag)?.[1];
+    if (href === undefined) continue;
+    const blank = /\starget="_blank"/.test(tag);
+    if (isExternal(href)) {
+      ext++;
+      const rel = /\srel="([^"]*)"/.exec(tag)?.[1]?.split(/\s+/) ?? [];
+      if (!blank || !rel.includes('noopener') || !rel.includes('noreferrer') || !/\saria-describedby="[^"]*ext-note/.test(tag)) findings.tabs.push(`${pageUrl}: ${href.slice(0, 80)} should open in a new tab, with noopener noreferrer and the note`);
+    } else if (/\starget=/.test(tag)) findings.tabs.push(`${pageUrl}: internal link ${href.slice(0, 80)} sets a target`);
+  }
+  if (ext && !/<span id="ext-note" hidden>/.test(html)) findings.tabs.push(`${pageUrl}: external links but no #ext-note`);
+
   if (pageUrl.startsWith('/people/') && pageUrl !== '/people/') {
     const line = /<p class="record-roles"[^>]*>([^<]*)<\/p>/.exec(html)?.[1];
     if (line) {
@@ -101,7 +117,7 @@ for (const file of htmlFiles) {
 for (const [t, urls] of titles) if (urls.length > 1) findings.titles.push(`"${t}" on ${urls.length} pages: ${urls.slice(0, 4).join(', ')}${urls.length > 4 ? ' …' : ''}`);
 
 let failed = 0;
-const LABELS = { links: 'Broken internal links', titles: 'Duplicate page titles', structure: 'Page structure', roles: 'Repeated roles', weight: 'Pages over the size budget' };
+const LABELS = { links: 'Broken internal links', titles: 'Duplicate page titles', structure: 'Page structure', roles: 'Repeated roles', weight: 'Pages over the size budget', tabs: 'Link rule (external new tab, internal same tab)' };
 for (const [k, list] of Object.entries(findings)) {
   const uniq = [...new Set(list)];
   console.log(`${uniq.length ? '✗' : '✓'} ${LABELS[k]}: ${uniq.length}`);

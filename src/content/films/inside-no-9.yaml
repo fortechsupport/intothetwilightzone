@@ -1,16 +1,32 @@
 title: Inside No. 9
 kind: tv-series
-summary: BBC dark-comedy anthology by Reece Shearsmith and Steve Pemberton, each story set behind a door numbered
-  9.
-release_date: '2014'
+summary: BBC dark-comedy anthology by Reece Shearsmith and Steve Pemberton, each story set behind a door numbered 9.
+release_date: '2014-02-05'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Inside No. 9"
+  url: https://en.wikipedia.org/wiki/Inside_No._9
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Inside_No._9
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: BBC Two
+seasons: 9
+episode_count: 55
+country: United Kingdom
+end_date: '2024-06-12'
+created_by:
+- Steve Pemberton
+- Reece Shearsmith
+ties:
+- text: The article places it after earlier horror anthologies including The Twilight Zone, Alfred Hitchcock Presents and Tales of the Unexpected.
+  sources:
+  - title: "Wikipedia: Inside No. 9"
+    url: https://en.wikipedia.org/wiki/Inside_No._9
+    publisher: Wikipedia

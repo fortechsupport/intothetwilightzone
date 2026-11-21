@@ -21,13 +21,13 @@ const byType = LIBRARY_TYPES.map(([k, l]) => [k, l, media.filter((m) => m.type =
       <div class="related-part">
         <h3>{l} <span class="muted small">({r[k].length})</span></h3>
         <p>{r[k].slice(0, TOP).map((x, i) => <>{i > 0 && ' · '}<a href={x.href}>{x.title}</a>{x.count! > 1 && <span class="count-pill">{x.count}</span>}</>)}
-        {r[k].length > TOP && <> · <a href={`${href}${q()}`}>all {r[k].length} →</a></>}</p>
+        {r[k].length > TOP && <> · <a href={`${href}${q()}`}>All {r[k].length.toLocaleString('en-US')}</a></>}</p>
       </div>
     ))}
     {media.length > 0 && (
       <>
         <h2>Media and content in {label} <span class="muted small">({media.length})</span></h2>
-        <p>{byType.map(([k, l, n], i) => <>{i > 0 && ' · '}<a href={mediaTypeHref(k, { in: scope })}>{l}</a> <span class="count-pill">{n}</span></>)} · <a href="/media/">the Media Library →</a></p>
+        <p>{byType.map(([k, l, n], i) => <>{i > 0 && ' · '}<a href={mediaTypeHref(k, { in: scope })}>{l}</a> <span class="count-pill">{n}</span></>)} · <a href="/media/">Media Library</a></p>
         <ul class="media-list compact">
           {media.slice(0, 8).map((m) => <li><span class="tag">{m.typeLabel}</span> <a href={m.href} rel={m.external ? 'noopener' : undefined}>{m.title}</a> <span class="muted small">on {m.on.slice(0, 2).map((o, i) => <>{i > 0 && ', '}{o.href ? <a href={o.href}>{o.title}</a> : o.title}</>)}{m.on.length > 2 && ` +${m.on.length - 2}`}</span></li>)}
         </ul>

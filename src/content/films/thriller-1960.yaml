@@ -1,15 +1,27 @@
 title: Thriller
 kind: tv-series
 summary: NBC suspense and horror anthology hosted by Boris Karloff.
-release_date: '1960'
+release_date: '1960-09-13'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Thriller (American TV series)"
+  url: https://en.wikipedia.org/wiki/Thriller_(American_TV_series)
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Thriller_(American_TV_series)
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: NBC
+seasons: 2
+episode_count: 67
+country: United States
+end_date: '1962-04-30'
+created_by:
+- Hubbell Robinson
+presented_by:
+- Boris Karloff

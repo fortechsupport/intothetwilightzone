@@ -20,8 +20,15 @@ to every change, by every person or Claude thread. They come from how Adam's Sey
 - **Official vs unofficial:** each category shows official items and "unofficial and inspired" ones on
   separate shelves (`isOfficial()` in src/lib/taxonomy.mjs; a record's `official:` overrides).
 - **A to Z everywhere**, ignoring a leading The, A or An. Chronological only where order is the point.
+- **Credit where credit is due** for everything: every record, image, quote, link and fact names its creator,
+  its rights holder and its source (author and publication), and credits the researchers and fans who
+  contributed. Every category plan has a "Blessing-ready" section: the aim is a site CBS/Paramount and the
+  Serling family would gladly point fans to.
 - **Copyright:** copyrighted media is linked, never copied. Only public-domain or CC files are hosted.
 - **No money** is made from the site: no ads, no affiliate links, no sponsorships.
+- **Where to watch** on every series, show, film and episode page, and once beside a show's name in lists
+  (`data/fan/watch.yaml`, `WhereToWatch`; decision 0003). **Links** to other sites open in a new tab, links within the
+  site in the same tab (applied at build by integrations/external-links.mjs, enforced by `npm run check:site`).
 - New categories may be added but are flagged `new` so Adam can remove them.
 - Records start **pending**; only Adam's decisions in `data/review/decisions.json` publish them
   (docs/REVIEW.md). Renaming a record id orphans its decision: carry the key over.
@@ -53,7 +60,7 @@ to every change, by every person or Claude thread. They come from how Adam's Sey
 | `npm run check:data` | People files are named for their slug; every decision key has a record; duplicate_of targets exist; no two records share a title, year and maker; every record has a source |
 | `npm run tokens -- --check` | Every text color pair meets 4.5:1 contrast and every control border 3:1, in both themes |
 | `npm run build` and `npm run build:preview` | The schema accepts every record (public and preview modes) |
-| `npm run check:site` | No broken internal links, no duplicate page titles, one h1 and a description per page, no repeated roles, no page over 1.5 MB (300 KB is the target) |
+| `npm run check:site` | External links open in a new tab and internal ones do not; no broken internal links, no duplicate page titles, one h1 and a description per page, no repeated roles, no page over 1.5 MB (300 KB is the target) |
 | `npm run check:a11y` | axe-core finds no WCAG 2.2 AA violations on one page of every type, dark and light; at 320 x 640 nothing scrolls sideways and the h1 starts in the top third |
 
 ## Design system

@@ -1,15 +1,38 @@
 title: Tales from the Darkside
 kind: tv-series
 summary: Syndicated horror anthology from George A. Romero.
-release_date: '1984'
+release_date: '1983-10-29'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Tales from the Darkside"
+  url: https://en.wikipedia.org/wiki/Tales_from_the_Darkside
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Tales_from_the_Darkside
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: Syndication
+seasons: 4
+episode_count: 90
+country: United States
+end_date: '1988-07-24'
+created_by:
+- George A. Romero
+presented_by:
+- Paul Sparer
+ties:
+- text: Each episode opens with a montage and an unseen narrator, in the vein of The Twilight Zone and The Outer Limits.
+  sources:
+  - title: "Wikipedia: Tales from the Darkside"
+    url: https://en.wikipedia.org/wiki/Tales_from_the_Darkside
+    publisher: Wikipedia
+- text: In syndication it outperformed higher-profile network anthologies, among them the 1985 Twilight Zone revival.
+  sources:
+  - title: "Wikipedia: Tales from the Darkside"
+    url: https://en.wikipedia.org/wiki/Tales_from_the_Darkside
+    publisher: Wikipedia

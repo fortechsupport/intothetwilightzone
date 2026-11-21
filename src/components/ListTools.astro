@@ -1,0 +1,64 @@
+---
+// Search, filter and sort for any list of `[data-lt]` items inside the element with id `scope` (EntryList sets
+// the data). One bar, the same on every list page: search, shelf, group, relevance, and sort A to Z, Z to A,
+// newest or oldest. Sorting other than A to Z shows one flat list; A to Z restores the groups and letters.
+// Choices stay in the address (?q=, &side=, &group=, &tier=, &sort=) so a filtered list can be shared.
+// Without JavaScript the full list shows.
+interface Props { scope: string; noun?: string; groups?: string[]; sides?: boolean; tiers?: boolean; years?: boolean; groupLabel?: string }
+const { scope, noun = 'entries', groups = [], sides = false, tiers = false, years = true, groupLabel = 'Group' } = Astro.props;
+const id = `lt-${scope}`;
+---
+<form class="lib-filters list-tools" id={id} data-scope={scope} data-pagefind-ignore onsubmit="return false" aria-label={`Search and sort ${noun}`}>
+  <label class="lt-q">Search <input data-f="q" type="search" placeholder={`Search ${noun}`} /></label>
+  {sides && <label>Shelf <select data-f="side"><option value="">Both</option><option value="official">Official</option><option value="unofficial">Unofficial and inspired</option></select></label>}
+  {groups.length > 1 && <label>{groupLabel} <select data-f="group"><option value="">All</option>{groups.map((g) => <option value={g}>{g}</option>)}</select></label>}
+  {tiers && <label>Relevance <select data-f="tier"><option value="">Any</option><option value="core">Core</option><option value="related">Related</option><option value="tangential">Tangential</option></select></label>}
+  <label>Sort <select data-f="sort"><option value="az">A to Z</option><option value="za">Z to A</option>{years && <><option value="new">Newest first</option><option value="old">Oldest first</option></>}</select></label>
+  <span class="small muted lt-count" role="status"></span>
+</form>
+<script is:inline define:vars={{ formId: id }}>
+  (() => {
+    const form = document.getElementById(formId);
+    const root = form && document.getElementById(form.dataset.scope);
+    if (!root) return;
+    const items = [...root.querySelectorAll('[data-lt]')];
+    const home = items.map((it) => [it, it.parentNode, it.nextSibling]);
+    for (const it of items) { it.dataset.text = it.textContent.toLowerCase(); if (!it.dataset.sort) it.dataset.sort = it.dataset.text.trim().replace(/^(the|a|an) /, ''); }
+    const flat = document.createElement('ul');
+    flat.className = (items[0] && items[0].parentNode.className) || 'entries';
+    flat.hidden = true;
+    root.prepend(flat);
+    const sections = [...root.querySelectorAll('section, .letters, nav.subnav')].filter((x) => !flat.contains(x));
+    const f = (k) => form.querySelector(`[data-f="${k}"]`);
+    const v = (k) => (f(k) ? f(k).value : '');
+    const p = new URLSearchParams(location.search);
+    for (const k of ['q', 'side', 'group', 'tier', 'sort']) if (f(k) && p.get(k)) f(k).value = p.get(k);
+    const count = form.querySelector('.lt-count');
+    const yr = (x) => Number(x.dataset.year || 0);
+    const apply = () => {
+      const q = v('q').trim().toLowerCase(), side = v('side'), group = v('group'), tier = v('tier'), sort = v('sort') || 'az';
+      let n = 0;
+      for (const it of items) {
+        const ok = (!q || it.dataset.text.includes(q)) && (!side || it.dataset.side === side) && (!group || (it.dataset.group || '') === group) && (!tier || (it.dataset.tier || 'core') === tier);
+        it.hidden = !ok; if (ok) n++;
+      }
+      if (sort === 'az') {
+        if (!flat.hidden) { for (const [it, parent] of home) parent.appendChild(it); flat.hidden = true; }
+        for (const [it, parent] of home) parent.appendChild(it);
+        for (const s of sections) s.hidden = s.matches('section') ? ![...s.querySelectorAll('[data-lt]')].some((x) => !x.hidden) : false;
+      } else {
+        const cmp = { za: (a, b) => (b.dataset.sort || '').localeCompare(a.dataset.sort || ''), new: (a, b) => yr(b) - yr(a) || a.dataset.sort.localeCompare(b.dataset.sort), old: (a, b) => (yr(a) || 9999) - (yr(b) || 9999) || a.dataset.sort.localeCompare(b.dataset.sort) }[sort];
+        [...items].sort(cmp).forEach((it) => flat.appendChild(it));
+        flat.hidden = false;
+        for (const s of sections) s.hidden = true;
+      }
+      if (count) count.textContent = n === items.length ? `${n.toLocaleString('en-US')} ${n === 1 ? 'entry' : 'entries'}` : `${n.toLocaleString('en-US')} of ${items.length.toLocaleString('en-US')} shown`;
+      const u = new URLSearchParams(location.search);
+      for (const k of ['q', 'side', 'group', 'tier', 'sort']) { const x = k === 'q' ? q : v(k); if (x && !(k === 'sort' && x === 'az')) u.set(k, x); else u.delete(k); }
+      history.replaceState(null, '', `${location.pathname}${u.toString() ? '?' + u : ''}${location.hash}`);
+    };
+    form.addEventListener('input', apply);
+    form.addEventListener('change', apply);
+    apply();
+  })();
+</script>

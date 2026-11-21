@@ -1,0 +1,33 @@
+---
+// A page for a show we hold no record of its own for: the shows with Twilight Zone homages and the
+// anthologies Rod Serling wrote single plays for (Adam, 2026-11-21, decision 0002). Every episode,
+// segment or sketch we know of is an entry in the episode explorer, with its own anchor.
+import Base from '../../layouts/Base.astro';
+import EpisodeExplorer from '../../components/EpisodeExplorer.astro';
+import WhereToWatch from '../../components/WhereToWatch.astro';
+import { watchFor } from '../../lib/watch';
+import { showsWithEntries, explorerEntries } from '../../lib/television';
+
+export async function getStaticPaths() {
+  return showsWithEntries().filter((s) => !s.recordId && s.slug !== 'night-gallery').map((s) => ({ params: { show: s.slug }, props: { s } }));
+}
+const { s } = Astro.props as { s: ReturnType<typeof showsWithEntries>[number] };
+const entries = await explorerEntries(s.entries);
+const homages = entries.filter((e) => e.links.length > 0).length;
+const serling = entries.filter((e) => [...e.writers, ...e.segments.flatMap((g) => g.writers)].includes('Rod Serling')).length;
+const n = entries.length;
+const noun = entries.every((e) => e.kindLabel === 'Sketch') ? (n === 1 ? 'sketch' : 'sketches') : n === 1 ? 'episode' : 'episodes';
+const parts = [homages > 0 && `${homages} with a Twilight Zone homage`, serling > 0 && `${serling} written by Rod Serling`].filter(Boolean);
+const crumb = serling > 0 && homages === 0 ? ['Rod Serling’s series', '/series/serling-series/'] : ['Homages in other shows', '/series/homages/'];
+---
+<Base title={`${s.title}: television show page`} description={`${s.title}: the ${n} ${noun} with a Twilight Zone or Rod Serling connection, with credits, sources and how sure each connection is.`}>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/watch/">Watch</a> / <a href="/series/">Television</a> / <a href={crumb[1]}>{crumb[0]}</a></p>
+  <header class="record-head">
+    <p class="eyebrow"><span class="eyebrow-in"><span class="eyebrow-type">Television series</span></span></p>
+    <h1>{s.title}</h1>
+  </header>
+  <p class="lead">{homages === n ? `${n} ${noun} that pay homage to The Twilight Zone.` : serling === n ? `${n} ${noun} written by Rod Serling.` : `${n} ${noun}${parts.length ? `: ${parts.join(', ')}` : ''}.`}</p>
+  <dl class="facts"><WhereToWatch info={watchFor({ slug: s.slug, name: s.title })} /></dl>
+  <EpisodeExplorer entries={entries} noun={noun} />
+  <p class="small">Missing one? <a href="/contribute/">Tell us</a>.</p>
+</Base>

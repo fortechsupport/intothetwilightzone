@@ -1,12 +1,6 @@
 title: The Loner
 kind: tv-series
-summary: 'Serling''s half-hour CBS western, created and largely written by him. Lloyd Bridges played William Colton,
-  a Union cavalry officer who drifts west after the Civil War, and most episodes turn on a moral problem about violence,
-  prejudice or revenge rather than gunplay. Executive producer William Dozier; theme by Jerry Goldsmith; made by
-  Greenway and Serling''s Interlaken Productions with 20th Century-Fox. It ran one season of 26 black-and-white
-  episodes, from September 18, 1965 to March 12, 1966, amid disputes with CBS over the network''s wish for more
-  action. Shout! Factory and Timeless Media released the complete series on four DVDs in 2016 with the featurette
-  The Wandering Man''s Burden: Making The Loner.'
+summary: 'Serling''s half-hour CBS western, created and largely written by him. Lloyd Bridges played William Colton, a Union cavalry officer who drifts west after the Civil War, and most episodes turn on a moral problem about violence, prejudice or revenge rather than gunplay. Executive producer William Dozier; theme by Jerry Goldsmith; made by Greenway and Serling''s Interlaken Productions with 20th Century-Fox. It ran one season of 26 black-and-white episodes, from September 18, 1965 to March 12, 1966, amid disputes with CBS over the network''s wish for more action. Shout! Factory and Timeless Media released the complete series on four DVDs in 2016 with the featurette The Wandering Man''s Burden: Making The Loner.'
 release_date: '1965-09-18'
 runtime_min: 25
 writers:
@@ -302,5 +296,23 @@ research_confidence: high
 relevance: related
 links:
   wikipedia: https://en.wikipedia.org/wiki/The_Loner_(TV_series)
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: CBS
+seasons: 1
+episode_count: 26
+country: United States
+end_date: '1966-03-12'
+created_by:
+- Rod Serling
+ties:
+- text: Serling created The Loner a year after The Twilight Zone was cancelled.
+  sources:
+  - title: "Wikipedia: The Loner (TV series)"
+    url: https://en.wikipedia.org/wiki/The_Loner_(TV_series)
+    publisher: Wikipedia
+- text: Burgess Meredith, a four-time Twilight Zone actor, appears in episode 13, “Hunt the Man Down”.
+  sources:
+  - title: "Wikipedia: The Loner (TV series)"
+    url: https://en.wikipedia.org/wiki/The_Loner_(TV_series)
+    publisher: Wikipedia

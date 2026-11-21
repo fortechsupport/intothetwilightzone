@@ -12,7 +12,7 @@ The site is organized around **what a visitor wants to do**. Each top-level item
 
 | Verb | What the visitor does | Categories | Records* |
 |---|---|---|---:|
-| **Watch** | Watches it on a screen or stage | Movies, Stage, TV episodes, TV series | 657 |
+| **Watch** | Watches it on a screen or stage | Movies, Stage, Television | 657 |
 | **Listen** | Listens to it | Music, Podcasts, Radio dramas | 489 |
 | **Read** | Reads it | Articles, Books, Comics, Essays and scholarship, Magazines, Scripts, Websites | 665 |
 | **Play** | Plays it | Games | 52 |
@@ -74,11 +74,18 @@ Each verb lists its purpose, what belongs in it, what does not, and its categori
 | | Unmade projects **(new)** | Announced films that were never made | Planned revival films | 4 |
 | **Stage** | Live readings | Staged readings and radio-style live shows | Live readings of classic scripts | 4 |
 | | Theatre | Stage plays and adaptations | *The Twilight Zone* stage adaptation (Almeida Theatre, 2017) | 15 |
-| **TV episodes** | (by series) | Every episode and every Night Gallery segment, listed under its series | "Time Enough at Last", "The Monsters Are Due on Maple Street" | 394 |
-| **TV series** | International titles and dubs **(new)** | Foreign broadcasts and translated titles | Dubbed and retitled broadcasts abroad | 6 |
-| | Television series | The five Twilight Zone series, Night Gallery and related series | *The Twilight Zone* (1959, 1985, 2002, 2019), *Night Gallery* (1970) | 55 |
+| **Television** (`/series/`) | The Twilight Zone | The four official series and revivals; each has a page per episode | *The Twilight Zone* (1959, 1985, 2002, 2019) | 4 |
+| | All Twilight Zone episodes | Every episode of the four series, by series and season | "Time Enough at Last", "The Monsters Are Due on Maple Street" | 329 |
+| | Rod Serling's series | Night Gallery, Serling's other series, and the plays he wrote for other anthologies, each show on one page with an episode explorer | *Night Gallery* (`/night-gallery/`), *The Loner*, *Playhouse 90* | 73 |
+| | Fellow anthologies | Anthologies like The Twilight Zone, tagged by how they connect (cited by their makers, by Twilight Zone writers, compared by critics) | *The Outer Limits*, *Black Mirror* | 34 |
+| | Homages in other shows | Episodes, segments and sketches of other shows that pay homage to The Twilight Zone, on their show's page; all of them at `/television/homages/` with filters | *The Simpsons*, *Futurama*, *Saturday Night Live* | 194 |
+| | Pilots and unmade projects **(new)** | Pilots and series that were planned but never made | *The Time Element* | — |
+| | Around the world | Foreign broadcasts and translated titles | Dubbed and retitled broadcasts abroad | 7 |
 
-**Suggested change:** TV episodes should be browsed by series and season, not by subcategory. A subcategory list with one item adds a click and helps no one.
+**Decision 0002 (Adam, 2026-11-21):** only the four Twilight Zone series have a page per episode. Every other show has one
+page, and its episodes are entries in an episode explorer on that page (filters for season, person, homage type and how
+sure we are). A homage shows on its show's page and on the Twilight Zone episode it points to, or the series page when it
+points to no single episode. Television films go to Movies; radio-only anthologies go to Listen.
 
 ### 3.2 Listen
 
@@ -318,12 +325,12 @@ Apply the questions in order. The first "yes" decides the home.
 | **A script**: *As Timeless as Infinity*, vol. 1 | Read > Books, on the official shelf | Read > Scripts; each episode page ("Read the script") | A script collection is a book you read. A scanned draft in an archive is content instead, on the episode, in the Media Library. |
 | **The 1983 movie**: *Twilight Zone: The Movie* | Watch > Movies > Twilight Zone films (official) | Discover > History > Trials, lawsuits and rights (the accident); Discover > Legacy > Adaptations (its segments remaking "It's a Good Life" and "Kick the Can"); Meet > Characters (the Driver, the Passenger); Read > Books (the novelization has its own home) | The film is watched. Its remakes, its accident and its characters are separate records linked to it. |
 | **Disneyland's Tower of Terror** | Visit > Real places > Attractions | Discover > Legacy > References (the 1997 TV film, which is itself in Watch > Movies, unofficial); Collect > Merchandise (ride merchandise); Read > Articles (coverage). Reviews are content. | An attraction is a place you go. 31 records mention it. Each sits in its own verb, and the attraction page links them. |
-| **Night Gallery** | Watch > TV series (official, a Rod Serling series) | Watch > TV episodes (every segment, by season); Watch > Movies > Shorts, pilots and other (the 1969 pilot); Collect > Artwork > Night Gallery paintings; Read > Books; Meet > Characters | Night Gallery is in scope as "all things Rod Serling". It is a series, so it lives with the series and has no verb of its own. Its series page is the hub. |
+| **Night Gallery** | Watch > Television > Rod Serling's series (one page, `/night-gallery/`, every episode and segment in its explorer) | Watch > Movies > Shorts, pilots and other (the 1969 pilot, also listed on the Night Gallery page); Collect > Artwork > Night Gallery paintings; Read > Books; Meet > Characters | Night Gallery is in scope as "all things Rod Serling". It is a series, so it lives with the series and has no verb of its own. Its series page is the hub. |
 | ***Twilight Zone Magazine*** | Read > Magazines (official; each issue is a record) | Meet > Organizations > Publishers (TZ Publications); Collect > Artwork > Cover art (cover paintings); Media Library (the archive collection holding the run) | The magazine is read. The archive holding the run is content. |
 | **A cover painting**: George Wilson's cover for Gold Key *The Twilight Zone* #1 (1962) | Collect > Artwork > Cover art (official) | The comic's page (as its cover); Meet > People > Artists and illustrators (George Wilson) | Artwork is both a category and content. The painting is its own record and also shows on the comic. |
-| **A parody episode**: *The Simpsons*, "Treehouse of Horror IV" | Watch > TV episodes, unofficial shelf ("In other shows") | Discover > Legacy > Parodies; each parodied episode's page | The episode is watched. What makes it relevant is the parody relationship, so Discover indexes it by that. |
+| **A parody episode**: *The Simpsons*, "Treehouse of Horror IV" | An entry on The Simpsons' page, listed in Watch > Television > Homages in other shows | Discover > Legacy > Parodies; each parodied episode's page; `/television/homages/` | The episode is watched. What makes it relevant is the parody relationship, so Discover indexes it by that. |
 | **A Serling lecture**: Library of Congress, 1968 | Attend > Lectures and talks > Rod Serling's lectures and speeches (official) | Meet > People (Rod Serling); Visit > Real places > Venues; Media Library (a transcript or recording, if public) | It happened at a date and place. A recording is content on it. |
-| **Talky Tina** | Meet > Characters | Collect > Merchandise > Toys and figures (the doll); Watch > TV episodes ("Living Doll") | The character and the doll are two records. |
+| **Talky Tina** | Meet > Characters | Collect > Merchandise > Toys and figures (the doll); Watch > Television ("Living Doll") | The character and the doll are two records. |
 | **Rush, "The Twilight Zone" (1976)** | Listen > Music > Songs (unofficial) | Discover > Legacy > Inspired by | A song is heard. The lyrics are linked, never reproduced. |
 | **A review of the 2019 series** | Content on the 2019 series | Media Library > Reviews | Reviews are content, never a category. |
 
