@@ -231,6 +231,19 @@ Television, that means:
   - Full credit for every writer, including the authors of the stories that were adapted.
   - Serling's teleplays documented as his body of work, not a footnote.
   - The 1982 accident written factually and with respect for the three people who died.
+- **Credit where credit is due, for everything (Adam, 09:33 UTC):**
+  - **Works:** every credited role from the on-screen credits, including the authors of adapted stories, plus
+    uncredited contributors where a source names them. The "uncredited" label is shown.
+  - **Media:** each image, clip, poster, cover and document names who made it (`creator`, already in the
+    schema) and who owns it. The latter is a new `rights_holder` field, for example "CBS Studios" or "the Serling
+    estate".
+  - **Quotes:** the speaker, plus where and when it was said and published.
+  - **Sources:** the author and publication, not just a URL. These are new `author` and `publisher` fields on
+    sources.
+  - **Researchers:** a "Credits and thanks" page names the historians whose work the site relies on, linking
+    each to the records that cite them.
+  - **Fans:** a fan's submission, correction or seconding is credited by their display name, if they agree.
+  - Credits link to People and Organizations pages wherever one exists.
 - **No money, no ads, no tracking.** No affiliate links, ever.
 - **Professional finish:** consistent pages, WCAG 2.2 AA, fast on phones, and A to Z throughout.
 - **Outreach later, only with Adam's go-ahead:** once Television is complete, show it to the Rod Serling Memorial
@@ -251,7 +264,7 @@ Television, that means:
 
 ## 10. Steps (one pull request each)
 
-1. **Structure:** the Television category, the subsections, the explorer component, the Night Gallery pages
+1. **Structure:** credit fields on media (`rights_holder`) and sources (`author`, `publisher`); the Television category, the subsections, the explorer component, the Night Gallery pages
    retired into the explorer with redirects, the merges, the radio and TV-film moves. No new records.
    Screenshots go to Adam before merge.
 2. **Research round 1:** Serling's plays and his other series. Pending records, with a review sheet.
@@ -273,6 +286,8 @@ Television, that means:
 - No home video or streaming link carries an affiliate or referral code.
 - Every new record has a connection, tier, recommendation and source, starts pending, and is on a
   new-records-only sheet.
+- Every Television media item names its creator and rights holder where known, and every new source names its
+  author or publisher.
 - Every Television record has a "Last verified" date. A public corrections log exists.
 - CI passes: `check:data`, `tokens --check`, both builds, `check:site` and `check:a11y`. No page is over 300 KB.
 

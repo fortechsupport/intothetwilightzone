@@ -30,7 +30,9 @@ built before box 3 is ticked.
 
 **Every content plan includes a "Blessing-ready" section** (Adam, 2026-11-21): how the category earns the trust of
 CBS/Paramount and the Serling family through accuracy, sourcing, respect for their property, honoring the
-creators, a professional finish and no commercial use. The Television plan's section 9a is the model.
+creators, a professional finish and no commercial use. It also covers **credit where credit is due**: creators, rights holders, sources, researchers
+and contributing fans are named for every record, image, quote and fact. The Television plan's section 9a is the
+model.
 
 **Depth key:** **Deep** = complete against a known full list, or searched to exhaustion. **Partial** = the main
 items are in, but known gaps or unverified rows remain. **Thin** = a start only; most of what exists is not yet

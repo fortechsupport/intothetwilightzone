@@ -20,6 +20,10 @@ to every change, by every person or Claude thread. They come from how Adam's Sey
 - **Official vs unofficial:** each category shows official items and "unofficial and inspired" ones on
   separate shelves (`isOfficial()` in src/lib/taxonomy.mjs; a record's `official:` overrides).
 - **A to Z everywhere**, ignoring a leading The, A or An. Chronological only where order is the point.
+- **Credit where credit is due** for everything: every record, image, quote, link and fact names its creator,
+  its rights holder and its source (author and publication), and credits the researchers and fans who
+  contributed. Every category plan has a "Blessing-ready" section: the aim is a site CBS/Paramount and the
+  Serling family would gladly point fans to.
 - **Copyright:** copyrighted media is linked, never copied. Only public-domain or CC files are hosted.
 - **No money** is made from the site: no ads, no affiliate links, no sponsorships.
 - New categories may be added but are flagged `new` so Adam can remove them.
