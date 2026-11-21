@@ -15,6 +15,10 @@ const eps = films.filter((f) => /^night-gallery-s\de\d\d$/.test(f.id));
 const segCount = eps.reduce((t, e) => t + e.data.segments.length, 0);
 const works = (await getCollection('works')).filter((w) => /night gallery/i.test(w.data.title));
 const books = (await getCollection('books')).filter((b) => /night gallery/i.test(b.data.title));
+// The extras, grouped by what they are, A to Z within each group.
+const KIND_GROUP: Record<string, string> = { artwork: 'Paintings and art', prop: 'Paintings and art', soundtrack: 'Music', event: 'Awards and events', collectible: 'Collectibles', game: 'Games' };
+const extras = [...works.map((w) => ({ g: /blu-ray|dvd|vhs|home video/i.test(w.data.title) ? 'Home video' : KIND_GROUP[w.data.kind] ?? 'More', title: w.data.title.replace(/^Night Gallery (painting|pilot painting|pilot portrait)?:?\s*/i, (m) => m), href: `/works/${w.id}/` })), ...books.map((b) => ({ g: 'Books', title: b.data.title, href: `/books/${b.id}/` }))];
+const extraGroups = [...new Set(extras.map((x) => x.g))].sort().map((g) => [g, extras.filter((x) => x.g === g).sort((a, b) => a.title.localeCompare(b.title))] as const);
 const jsonld = { '@context': 'https://schema.org', '@type': 'TVSeries', name: "Rod Serling's Night Gallery", startDate: '1969', creator: { '@type': 'Person', name: 'Rod Serling' } };
 ---
 <Base title={recordDocTitle('films', series.data, "Rod Serling's Night Gallery")} description={`Rod Serling's Night Gallery (1969–1973): the pilot film and all ${eps.length} episodes and ${segCount} segments, with writers, directors, cast and the stories they adapt.`} jsonld={jsonld}>
@@ -28,13 +32,17 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'TVSeries', name: "R
         <p class="small muted">A feature-length television film, so its own page is in Movies.</p>
       </section>
     )}
-    {(works.length > 0 || books.length > 0) && (
+    {extras.length > 0 && (
       <section slot="after">
-        <h2>More Night Gallery</h2>
-        <ul>
-          {works.map((w) => <li><a href={`/works/${w.id}/`}>{w.data.title}</a></li>)}
-          {books.map((b) => <li><a href={`/books/${b.id}/`}>{b.data.title}</a></li>)}
-        </ul>
+        <h2>More Night Gallery <span class="muted small">({extras.length})</span></h2>
+        <div class="people-cols">
+          {extraGroups.map(([g, list]) => (
+            <div>
+              <h3>{g} <span class="muted small">({list.length})</span></h3>
+              <ul class="plain people-tally">{list.map((x) => <li><a href={x.href}>{x.title}</a></li>)}</ul>
+            </div>
+          ))}
+        </div>
       </section>
     )}
   </FilmRecord>

@@ -1,14 +1,24 @@
 title: Monsters
 kind: tv-series
-release_date: '1988'
-summary: The syndicated late-1980s horror anthology from the Tales from the Darkside producers, built around a creature
-  in every story, has been described as an anti-Twilight Zone.
+release_date: '1988-10-22'
+summary: The syndicated late-1980s horror anthology from the Tales from the Darkside producers, built around a creature in every story, has been described as an anti-Twilight Zone.
 sources:
 - title: 'ComicBook.com: Forgotten horror anthology Monsters, the anti-Twilight Zone'
   url: https://comicbook.com/tv-shows/news/forgotten-horror-anthology-monsters-anti-twilight-zone
+- title: "Wikipedia: Monsters (American TV series)"
+  url: https://en.wikipedia.org/wiki/Monsters_(American_TV_series)
+  publisher: Wikipedia
 links:
   wikipedia: https://en.wikipedia.org/wiki/Monsters_(American_TV_series)
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
 tags:
 - anthology-family
+network: Syndication
+seasons: 3
+episode_count: 72
+country: United States
+end_date: '1991-04-26'
+created_by:
+- Richard P. Rubinstein
+- Mitchell Galin

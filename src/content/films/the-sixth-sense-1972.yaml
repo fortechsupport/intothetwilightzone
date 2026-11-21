@@ -1,11 +1,6 @@
 title: The Sixth Sense (1972 TV series)
 kind: tv-series
-summary: 'ABC''s hour-long paranormal drama starring Gary Collins as Dr. Michael Rhodes, a parapsychologist with
-  ESP who investigates supernatural crimes with his assistant Nancy Murphy (Catherine Ferrar). Created by Anthony
-  Lawrence from the 1971 TV movie Sweet, Sweet Rachel and produced by Stan Shpetner, it ran 25 episodes from January
-  15 to December 23, 1972. Its link to The Twilight Zone runs through Rod Serling: Universal cut every episode to
-  half an hour and folded them into the syndicated Night Gallery package, with newly filmed Serling introductions
-  in front of new paintings.'
+summary: 'ABC''s hour-long paranormal drama starring Gary Collins as Dr. Michael Rhodes, a parapsychologist with ESP who investigates supernatural crimes with his assistant Nancy Murphy (Catherine Ferrar). Created by Anthony Lawrence from the 1971 TV movie Sweet, Sweet Rachel and produced by Stan Shpetner, it ran 25 episodes from January 15 to December 23, 1972. Its link to The Twilight Zone runs through Rod Serling: Universal cut every episode to half an hour and folded them into the syndicated Night Gallery package, with newly filmed Serling introductions in front of new paintings.'
 release_date: '1972-01-15'
 cast:
 - Gary Collins
@@ -228,7 +223,14 @@ research_confidence: high
 relevance: related
 links:
   wikipedia: https://en.wikipedia.org/wiki/The_Sixth_Sense_(American_TV_series)
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
 tags:
 - anthology-family
+network: ABC
+seasons: 2
+episode_count: 25
+country: United States
+end_date: '1972-12-23'
+created_by:
+- Anthony Lawrence

@@ -211,6 +211,16 @@ const films = defineCollection({
     writers: names,
     directors: names,
     cast: names,
+    // A series' run (kind tv-series), from its sourced reference page (decision 0002, plan section 5).
+    network: z.string().optional(),
+    end_date: z.string().optional(), // last first-run broadcast; release_date is the first
+    seasons: z.number().optional(),
+    episode_count: z.number().optional(),
+    created_by: names,
+    presented_by: names, // hosts and narrators
+    country: z.string().optional(),
+    // Sourced statements of how a series connects to The Twilight Zone (own words, one sentence each).
+    ties: z.array(z.object({ text: z.string().max(400), sources: z.array(source).min(1) })).default([]),
     ...common,
   }),
 });

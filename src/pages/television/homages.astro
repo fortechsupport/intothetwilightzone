@@ -3,24 +3,11 @@
 // show, the Twilight Zone series it points to, and how sure we are (Adam, 2026-11-21, decision 0002).
 // Each homage also shows on its show's page and on the Twilight Zone episode or series page it points to.
 import Base from '../../layouts/Base.astro';
-import { getCollection } from 'astro:content';
-import { tv, filmHref, explorerEntries } from '../../lib/television';
-import { CONNECTION_LABELS, CONFIDENCE_LABELS, formatDate } from '../../lib/data';
+import { allHomageRows } from '../../lib/television';
+import { CONNECTION_LABELS, CONNECTION_VERBS, CONFIDENCE_LABELS } from '../../lib/data';
 import { sortKey } from '../../lib/categories';
 
-const films = await getCollection('films');
-const conns = await getCollection('connections');
-const fromFilms = new Set(conns.filter((c) => c.data.from.startsWith('films/')).map((c) => c.data.from.slice(6)));
-const showIds = [...tv.shows.values()].flatMap((s) => s.entries);
-const entries = await explorerEntries(showIds.filter((id) => fromFilms.has(id)));
-// Whole series that are themselves homages (a show record with connections of its own).
-const wholeIds = films.filter((f) => f.data.kind === 'tv-series' && !f.data.parent_series && !f.data.duplicate_of && fromFilms.has(f.id)).map((f) => f.id);
-const whole = (await explorerEntries(wholeIds)).map((e) => ({ ...e, group: 'Whole series' }));
-const rows = [...entries, ...whole].flatMap((e) => e.links.map((l) => {
-  const show = tv.showOf(e.id);
-  const tzSeries = /\/episodes\/(\d{4})\//.exec(l.href)?.[1] ?? /\/series\/(\d{4})\//.exec(l.href)?.[1] ?? '';
-  return { e, l, show: show?.title ?? e.title, showHref: show?.href ?? filmHref(e.id), href: filmHref(e.id), tzSeries };
-})).sort((a, b) => sortKey(a.l.title).localeCompare(sortKey(b.l.title)) || sortKey(a.show).localeCompare(sortKey(b.show)));
+const rows = [...await allHomageRows()].sort((a, b) => sortKey(a.l.title).localeCompare(sortKey(b.l.title)) || sortKey(a.show).localeCompare(sortKey(b.show)));
 const shows = [...new Set(rows.map((r) => r.show))].sort((a, b) => sortKey(a).localeCompare(sortKey(b)));
 const kinds = [...new Set(rows.map((r) => r.l.kind))].sort();
 const certs = ['confirmed-by-creator', 'documented', 'fan-noted'].filter((c) => rows.some((r) => r.l.certainty === c));
@@ -28,44 +15,46 @@ const SERIES_NAME: Record<string, string> = { '1959': 'The Twilight Zone (1959)'
 const tzs = Object.keys(SERIES_NAME).filter((k) => rows.some((r) => r.tzSeries === k));
 const count = (c: string) => rows.filter((r) => r.l.certainty === c).length;
 ---
-<Base title="Twilight Zone homages in other television shows" description={`All ${rows.length} Twilight Zone homages, parodies and references we know of in other television shows, filterable by type, show, series and how sure we are.`}>
-  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/watch/">Watch</a> / <a href="/series/">Television</a> / <a href="/series/homages/">Homages in other shows</a></p>
-  <h1>Every homage, in every show</h1>
-  <p class="lead">{rows.length} homages, parodies and references to The Twilight Zone in {shows.length} other shows, A to Z by the Twilight Zone story they point to.</p>
-  <aside class="tz-link">
-    <h2>How sure we are</h2>
-    <p class="small"><span class="tag confirmed-by-creator">{CONFIDENCE_LABELS['confirmed-by-creator']}</span> the show’s makers said so ({count('confirmed-by-creator')}). <span class="tag documented">{CONFIDENCE_LABELS.documented}</span> a published source says so ({count('documented')}). <span class="tag fan-noted">{CONFIDENCE_LABELS['fan-noted']}</span> fans spotted it and no published source confirms it yet ({count('fan-noted')}). <a href="/sources/">How we grade sources</a>.</p>
-  </aside>
-  <form class="lib-filters" id="hf" data-pagefind-ignore onsubmit="return false" aria-label="Filter homages">
-    <label>Type <select data-f="kind"><option value="">Any type</option>{kinds.map((k) => <option value={k}>{CONNECTION_LABELS[k] ?? k}</option>)}</select></label>
-    <label>Show <select data-f="show"><option value="">Any show</option>{shows.map((s) => <option value={s}>{s}</option>)}</select></label>
-    <label>Twilight Zone series <select data-f="tz"><option value="">Any</option>{tzs.map((k) => <option value={k}>{SERIES_NAME[k]}</option>)}</select></label>
+<Base title="Twilight Zone homages on television" description={`All ${rows.length} Twilight Zone homages, parodies and references we know of in other television shows, filterable by type, show, series and how sure we are.`}>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/watch/">Watch</a> / <a href="/series/">Television</a> / <a href="/series/homages/">Homages</a></p>
+  <h1>Homages on television</h1>
+  <p class="lead">{rows.length} homages, parodies and references to The Twilight Zone in {shows.length} other shows.</p>
+  <p class="small marks"><span class="tag confirmed-by-creator">{CONFIDENCE_LABELS['confirmed-by-creator']}</span> {count('confirmed-by-creator')} · <span class="tag documented">{CONFIDENCE_LABELS.documented}</span> {count('documented')} · <span class="tag fan-noted">{CONFIDENCE_LABELS['fan-noted']}</span> {count('fan-noted')} · <a href="/sources/#grading">What these mean</a></p>
+  <form class="lib-filters" id="hf" data-pagefind-ignore onsubmit="return false" aria-label="Search, filter and sort homages">
+    <label>Search <input data-f="q" type="search" placeholder="Search homages" /></label>
+    <label>Type <select data-f="kind"><option value="">Any</option>{kinds.map((k) => <option value={k}>{CONNECTION_LABELS[k] ?? k} ({rows.filter((r) => r.l.kind === k).length})</option>)}</select></label>
+    <label>Show <select data-f="show"><option value="">Any</option>{shows.map((s) => <option value={s}>{s} ({rows.filter((r) => r.show === s).length})</option>)}</select></label>
+    <label>Series <select data-f="tz"><option value="">Any</option>{tzs.map((k) => <option value={k}>{SERIES_NAME[k]}</option>)}</select></label>
     <label>How sure <select data-f="cert"><option value="">Any</option>{certs.map((c) => <option value={c}>{CONFIDENCE_LABELS[c]}</option>)}</select></label>
-    <label>Search <input data-f="q" type="search" placeholder="Find a homage" /></label>
+    <label>Sort <select data-f="sort"><option value="tz">By episode</option><option value="show">By show</option><option value="new">Newest first</option><option value="old">Oldest first</option></select></label>
     <span class="small muted" id="hf-count" role="status"></span>
   </form>
   <ol class="plain homage-list" id="hl">
     {rows.map((r) => (
-      <li class="card" data-kind={r.l.kind} data-show={r.show} data-tz={r.tzSeries} data-cert={r.l.certainty}>
-        <p class="homage-line"><span class="tag">{CONNECTION_LABELS[r.l.kind] ?? r.l.kind}</span> of <a href={r.l.href}>{r.l.title}</a></p>
-        <p>in <a href={r.href}>{r.e.title}</a>{r.e.group !== 'Whole series' && r.show !== r.e.title && <> · <a href={r.showHref}>{r.show}</a></>}{r.e.date && <span class="muted"> · {formatDate(r.e.date)}</span>} <span class={`tag ${r.l.certainty}`}>{CONFIDENCE_LABELS[r.l.certainty]}</span></p>
-        {r.l.evidence && <p class="small">{r.l.evidence}</p>}
+      <li class="card" data-kind={r.l.kind} data-show={r.show} data-tz={r.tzSeries} data-cert={r.l.certainty} data-s-tz={sortKey(r.l.title)} data-s-show={`${sortKey(r.show)}|${r.e.date ?? ''}`} data-year={(r.e.date ?? '').slice(0, 4)}>
+        <h2 class="homage-where"><a href={r.href}>{r.whole || r.show === r.e.title ? r.e.title : <>{r.show}: {r.e.title}</>}</a>{r.e.date && <span class="muted small"> · {r.e.date.slice(0, 4)}</span>}</h2>
+        <p>{CONNECTION_VERBS[r.l.kind] ?? CONNECTION_LABELS[r.l.kind]} <a href={r.l.href}>{r.l.title}</a> <span class={`tag ${r.l.certainty}`}>{CONFIDENCE_LABELS[r.l.certainty]}</span></p>
+        {r.l.evidence && <p class="small muted">{r.l.evidence}</p>}
       </li>
     ))}
   </ol>
-  <p class="small muted">Spotted one we are missing? <a href="/contribute/">Tell us where you saw it</a>.</p>
+  <p class="small">Missing one? <a href="/contribute/">Tell us</a>.</p>
   <script is:inline>
     (() => {
-      const form = document.getElementById('hf'); const items = [...document.querySelectorAll('#hl > li')]; const count = document.getElementById('hf-count');
+      const form = document.getElementById('hf'); const list = document.getElementById('hl'); const items = [...list.children]; const count = document.getElementById('hf-count');
       for (const it of items) it.dataset.text = it.textContent.toLowerCase();
       const v = (k) => form.querySelector(`[data-f="${k}"]`).value;
+      const keys = ['q', 'kind', 'show', 'tz', 'cert', 'sort'];
       const p = new URLSearchParams(location.search);
-      for (const k of ['kind', 'show', 'tz', 'cert', 'q']) if (p.get(k)) form.querySelector(`[data-f="${k}"]`).value = p.get(k);
+      for (const k of keys) if (p.get(k)) form.querySelector(`[data-f="${k}"]`).value = p.get(k);
+      const yr = (x) => Number(x.dataset.year || 0);
+      const cmp = { tz: (a, b) => a.dataset.sTz.localeCompare(b.dataset.sTz), show: (a, b) => a.dataset.sShow.localeCompare(b.dataset.sShow), new: (a, b) => yr(b) - yr(a), old: (a, b) => (yr(a) || 9999) - (yr(b) || 9999) };
       const apply = () => {
         const f = { kind: v('kind'), show: v('show'), tz: v('tz'), cert: v('cert') }; const q = v('q').trim().toLowerCase(); let n = 0;
         for (const it of items) { const ok = Object.entries(f).every(([k, x]) => !x || it.dataset[k] === x) && (!q || it.dataset.text.includes(q)); it.hidden = !ok; if (ok) n++; }
-        count.textContent = `${n} of ${items.length} shown`;
-        const u = new URLSearchParams(); for (const [k, x] of Object.entries({ ...f, q })) if (x) u.set(k, x);
+        [...items].sort((a, b) => cmp[v('sort') || 'tz'](a, b) || a.dataset.sTz.localeCompare(b.dataset.sTz)).forEach((x) => list.appendChild(x));
+        count.textContent = n === items.length ? `${n} homages` : `${n} of ${items.length} shown`;
+        const u = new URLSearchParams(); for (const k of keys) { const x = k === 'q' ? q : v(k); if (x && !(k === 'sort' && x === 'tz')) u.set(k, x); }
         history.replaceState(null, '', `${location.pathname}${u.toString() ? '?' + u : ''}`);
       };
       form.addEventListener('change', apply); form.addEventListener('input', apply); apply();

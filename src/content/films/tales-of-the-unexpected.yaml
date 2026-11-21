@@ -1,15 +1,36 @@
 title: Tales of the Unexpected
 kind: tv-series
 summary: British twist-ending anthology, first built on Roald Dahl stories.
-release_date: '1979'
+release_date: '1979-03-24'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Tales of the Unexpected (TV series)"
+  url: https://en.wikipedia.org/wiki/Tales_of_the_Unexpected_(TV_series)
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Tales_of_the_Unexpected_(TV_series)
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: ITV
+seasons: 9
+episode_count: 112
+country: United Kingdom
+end_date: '1988-05-13'
+presented_by:
+- Roald Dahl
+ties:
+- text: Unlike The Twilight Zone, it has few supernatural, science-fiction or fantasy elements.
+  sources:
+  - title: "Wikipedia: Tales of the Unexpected (TV series)"
+    url: https://en.wikipedia.org/wiki/Tales_of_the_Unexpected_(TV_series)
+    publisher: Wikipedia
+- text: Roald Dahl had earlier hosted Way Out (CBS, 1961), which ran as The Twilight Zone’s lead-in.
+  sources:
+  - title: "Wikipedia: Tales of the Unexpected (TV series)"
+    url: https://en.wikipedia.org/wiki/Tales_of_the_Unexpected_(TV_series)
+    publisher: Wikipedia

@@ -1,6 +1,7 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { slugify } from './slug';
 import { filmHref } from './television';
+import { normShow } from './tv-shows.mjs';
 
 export type Episode = CollectionEntry<'episodes'>;
 export type Film = CollectionEntry<'films'>;
@@ -15,6 +16,33 @@ export const CONNECTION_LABELS: Record<string, string> = {
   parody: 'Parody',
   reference: 'Reference',
   'lyric-mention': 'Lyric mention',
+};
+
+/** The medium a connected work belongs to, for grouping legacy lists: from resolveRef's `kind`. */
+export function mediumOf(kind: string): string {
+  const k = kind.toLowerCase();
+  if (/tv episode|tv segment|tv series|sketch|web series|special|series$/.test(k)) return 'Television';
+  if (/film|documentary|pilot|unproduced|commercial/.test(k)) return 'Film';
+  if (/song|music|soundtrack/.test(k)) return 'Music';
+  if (/game/.test(k)) return 'Games';
+  if (/collectible|prop/.test(k)) return 'Collectibles';
+  if (/artwork/.test(k)) return 'Art';
+  if (/stage|attraction|event|convention|lecture/.test(k)) return 'Stage and events';
+  if (/radio/.test(k)) return 'Radio';
+  if (/book|comic|magazine|essay/.test(k)) return 'Print';
+  return 'Other';
+}
+export const MEDIUM_ORDER = ['Television', 'Film', 'Radio', 'Music', 'Print', 'Games', 'Stage and events', 'Art', 'Collectibles', 'Other'];
+
+/** The same kinds as a phrase that leads into the title it points to: "Parody of “Eye of the Beholder”". */
+export const CONNECTION_VERBS: Record<string, string> = {
+  'official-adaptation': 'Adapts',
+  remake: 'Remake of',
+  'inspired-by': 'Inspired by',
+  homage: 'Homage to',
+  parody: 'Parody of',
+  reference: 'Refers to',
+  'lyric-mention': 'Names',
 };
 
 export const CONFIDENCE_LABELS: Record<string, string> = {
@@ -63,7 +91,10 @@ export async function resolveRef(ref: string): Promise<{ title: string; url: str
   if (collection === 'films') {
     const f = (await getCollection('films')).find((x) => x.id === id);
     const kinds: Record<string, string> = { film: 'Film', 'tv-film': 'TV film', 'tv-episode': 'TV episode', 'tv-segment': 'TV segment', 'tv-series': 'TV series', sketch: 'Sketch', documentary: 'Documentary', special: 'Special', pilot: 'Pilot', stage: 'Stage', unproduced: 'Unproduced', short: 'Short film', 'music-video': 'Music video', commercial: 'Commercial', 'web-series': 'Web series' };
-    return f && { title: f.data.parent_series ? `${f.data.title} (${f.data.parent_series})` : f.data.title, url: filmHref(f.id), kind: kinds[f.data.kind] ?? 'Film' };
+    if (!f) return undefined;
+    const show = f.data.parent_series ? normShow(f.data.parent_series) : '';
+    const title = !show || f.data.title.startsWith(show) ? f.data.title : `${show}: ${f.data.title}`;
+    return { title, url: filmHref(f.id), kind: kinds[f.data.kind] ?? 'Film' };
   }
   if (collection === 'songs') {
     const s = (await getCollection('songs')).find((x) => x.id === id);
@@ -76,6 +107,10 @@ export async function resolveRef(ref: string): Promise<{ title: string; url: str
   if (collection === 'series') {
     const s = (await getCollection('series')).find((x) => x.id === id);
     return s && { title: `${s.data.title} (${s.data.years})`, url: `/series/${s.id}/`, kind: 'Series' };
+  }
+  if (collection === 'radio') {
+    const r = (await getCollection('radio')).find((x) => x.id === id);
+    return r && { title: r.data.title, url: `/radio/${r.id}/`, kind: 'Radio' };
   }
   const ep = (await allEpisodes()).find((x) => x.id === ref);
   if (ep) return { title: ep.data.title, url: `/episodes/${ep.id}/`, kind: `${ep.data.series} series` };
@@ -122,6 +157,8 @@ export async function allPeople(): Promise<Map<string, Person>> {
     f.data.writers.forEach((n) => add(n, { ...base, role: 'Writer' }));
     f.data.directors.forEach((n) => add(n, { ...base, role: 'Director' }));
     f.data.cast.forEach((n) => add(n, { ...base, role: 'Cast' }));
+    f.data.created_by.forEach((n) => add(n, { ...base, role: 'Series creator' }));
+    f.data.presented_by.forEach((n) => add(n, { ...base, role: 'Host' }));
     for (const sg of f.data.segments) {
       const sb = { ...base, detail: `Segment: ${sg.title}` };
       sg.writers.forEach((n) => add(n, { ...sb, role: 'Writer' }));
@@ -188,4 +225,36 @@ export function uniqueRoles(roles: string[]): string[] {
     out.push(r.charAt(0).toUpperCase() + r.slice(1));
   }
   return out;
+}
+
+const SITE_NAMES: Record<string, string> = {
+  'wikipedia.org': 'Wikipedia', 'imdb.com': 'IMDb', 'archive.org': 'Internet Archive', 'fandom.com': 'Fandom',
+  'twilightzonevortex.blogspot.com': 'Twilight Zone Vortex', 'variety.com': 'Variety', 'nytimes.com': 'The New York Times',
+  'slashfilm.com': '/Film', 'tvshowsondvd.com': 'TVShowsOnDVD', 'rodserling.com': 'Rod Serling Memorial Foundation',
+  'twilightzonemuseum.com': 'Twilight Zone Museum', 'blu-ray.com': 'Blu-ray.com', 'dvdtalk.com': 'DVD Talk',
+  'tvtropes.org': 'TV Tropes', 'ign.com': 'IGN', 'avclub.com': 'The A.V. Club', 'screenrant.com': 'Screen Rant',
+  'cbr.com': 'CBR', 'syfy.com': 'SYFY', 'paramount.com': 'Paramount', 'justwatch.com': 'JustWatch',
+};
+/**
+ * A short name for a source, for inline citations: "Wikipedia", "Variety, March 11, 1959", "Twilight Zone Vortex".
+ * The full title stays in the link's title attribute and in the page's Sources list.
+ */
+export function shortSource(s: { title: string; url?: string; publisher?: string }): string {
+  if (s.publisher) return s.publisher;
+  const t = s.title.trim();
+  const head = /^([A-Z][^:,"“]{1,40}?)(?::| -| –|,)\s/.exec(t)?.[1]?.replace(/\s*\(.*\)$/, '');
+  if (head && /^(Wikipedia|IMDb|Variety|Billboard|Fandom|SlashFilm|\/Film|Moviefone|Why So Blu|The Twilight Zone Wiki|TV Guide|Los Angeles Times|The New York Times|Time|Newsweek|Broadcasting|Screen Rant|Collider|IGN|Vulture|Deadline|The Hollywood Reporter|Plagiarism Today)$/i.test(head)) {
+    const date = /^[^,]+,\s*([A-Z][a-z]+ \d{1,2}, \d{4})/.exec(t)?.[1];
+    return date ? `${head}, ${date}` : head;
+  }
+  const tail = / [-–|] ([^-–|"“]{2,40})$/.exec(t)?.[1];
+  if (tail && !/\(\d{4}/.test(tail)) return tail.replace(/\s*\(.*\)$/, '');
+  if (s.url) {
+    try {
+      const h = new URL(s.url).hostname.replace(/^www\./, '');
+      const k = Object.keys(SITE_NAMES).find((d) => h === d || h.endsWith('.' + d));
+      return k ? SITE_NAMES[k] : h;
+    } catch { /* fall through */ }
+  }
+  return t.length > 40 ? t.slice(0, t.lastIndexOf(' ', 40)) + '…' : t;
 }

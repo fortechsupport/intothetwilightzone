@@ -1,15 +1,31 @@
 title: Science Fiction Theatre
 kind: tv-series
 summary: Syndicated science-fiction anthology that preceded The Twilight Zone.
-release_date: '1955'
+release_date: '1955-04-09'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Science Fiction Theatre"
+  url: https://en.wikipedia.org/wiki/Science_Fiction_Theatre
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Science_Fiction_Theatre
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: Syndication
+seasons: 2
+episode_count: 78
+country: United States
+end_date: '1957-02-09'
+presented_by:
+- Truman Bradley
+ties:
+- text: The article calls it a predecessor of later science-fiction anthologies such as The Twilight Zone and The Outer Limits.
+  sources:
+  - title: "Wikipedia: Science Fiction Theatre"
+    url: https://en.wikipedia.org/wiki/Science_Fiction_Theatre
+    publisher: Wikipedia

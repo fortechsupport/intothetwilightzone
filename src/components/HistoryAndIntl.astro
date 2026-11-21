@@ -1,6 +1,6 @@
 ---
-import { formatDate } from '../lib/data';
-interface Src { title: string; url?: string }
+import { formatDate, shortSource } from '../lib/data';
+interface Src { title: string; url?: string; publisher?: string }
 interface Props {
   history?: { date: string; title: string; text: string; sources: Src[] }[];
   releases?: { date?: string; format: string; title: string; publisher?: string; region?: string; note?: string; sources: Src[] }[];
@@ -16,7 +16,7 @@ const sortedIntl = [...intl].sort((a, b) => a.country.localeCompare(b.country));
     <h2>History and legal record</h2>
     <ul>
       {sortedHistory.map((h) => (
-        <li><strong>{formatDate(h.date)}: {h.title}.</strong> {h.text} <span class="small muted">({h.sources.map((s, i) => <>{i > 0 && ', '}{s.url ? <a href={s.url} rel="noopener">{s.title}</a> : s.title}</>)})</span></li>
+        <li><strong>{formatDate(h.date)}: {h.title}.</strong> {h.text} <span class="small muted">({h.sources.map((s, i) => <>{i > 0 && ', '}{s.url ? <a href={s.url} rel="noopener" title={s.title}>{shortSource(s)}</a> : <span title={s.title}>{shortSource(s)}</span>}</>)})</span></li>
       ))}
     </ul>
   </section>
@@ -34,7 +34,7 @@ const sortedIntl = [...intl].sort((a, b) => a.country.localeCompare(b.country));
               <td>{r.format}</td>
               <td>{r.title}{r.region && <span class="muted small"> ({r.region})</span>}{r.note && <div class="small muted">{r.note}</div>}</td>
               <td>{r.publisher}</td>
-              <td class="small">{r.sources.map((s, i) => <>{i > 0 && ', '}{s.url ? <a href={s.url} rel="noopener">{s.title}</a> : s.title}</>)}</td>
+              <td class="small">{r.sources.map((s, i) => <>{i > 0 && ', '}{s.url ? <a href={s.url} rel="noopener" title={s.title}>{shortSource(s)}</a> : <span title={s.title}>{shortSource(s)}</span>}</>)}</td>
             </tr>
           ))}
         </tbody>
@@ -55,7 +55,7 @@ const sortedIntl = [...intl].sort((a, b) => a.country.localeCompare(b.country));
               <td>{t.title}{t.note && <div class="small muted">{t.note}</div>}</td>
               <td>{t.language}</td>
               <td>{[t.broadcaster, t.year].filter(Boolean).join(', ')}</td>
-              <td class="small">{t.sources.map((s, i) => <>{i > 0 && ', '}{s.url ? <a href={s.url} rel="noopener">{s.title}</a> : s.title}</>)}</td>
+              <td class="small">{t.sources.map((s, i) => <>{i > 0 && ', '}{s.url ? <a href={s.url} rel="noopener" title={s.title}>{shortSource(s)}</a> : <span title={s.title}>{shortSource(s)}</span>}</>)}</td>
             </tr>
           ))}
         </tbody>

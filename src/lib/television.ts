@@ -102,3 +102,21 @@ export async function explorerEntries(ids: string[]): Promise<ExEntry[]> {
 export function showsWithEntries() {
   return [...tv.shows.values()].filter((s) => s.entries.length > 0);
 }
+
+export interface HomageRow { e: ExEntry; l: ExLink; show: string; showHref: string; href: string; tzSeries: string; whole: boolean }
+let homageCache: HomageRow[] | undefined;
+/** Every television homage: each link from a show's entry, or from a whole series, to a Twilight Zone episode or series. */
+export async function allHomageRows(): Promise<HomageRow[]> {
+  if (homageCache) return homageCache;
+  const conns = await getCollection('connections');
+  const fromFilms = new Set(conns.filter((c) => c.data.from.startsWith('films/')).map((c) => c.data.from.slice(6)));
+  const showIds = [...tv.shows.values()].flatMap((s) => s.entries).filter((id) => fromFilms.has(id));
+  const wholeIds = films.filter((f) => f.data.kind === 'tv-series' && !f.data.parent_series && !f.data.duplicate_of && fromFilms.has(f.id)).map((f) => f.id);
+  const entries = [...(await explorerEntries(showIds)).map((e) => ({ e, whole: false })), ...(await explorerEntries(wholeIds)).map((e) => ({ e, whole: true }))];
+  homageCache = entries.flatMap(({ e, whole }) => e.links.map((l) => {
+    const show = tv.showOf(e.id);
+    const tzSeries = /\/episodes\/(\d{4})\//.exec(l.href)?.[1] ?? /\/series\/(\d{4})\//.exec(l.href)?.[1] ?? '';
+    return { e, l, whole, show: show?.title ?? e.title, showHref: show?.href ?? filmHref(e.id), href: filmHref(e.id), tzSeries };
+  }));
+  return homageCache;
+}

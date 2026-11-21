@@ -1,17 +1,7 @@
 title: Night Gallery
 kind: tv-series
 release_date: '1970-12-16'
-summary: 'Rod Serling''s second anthology series ran on NBC from December 1970 to May 1973, after a 1969 pilot film.
-  Serling introduced each story from a gallery of eerie paintings, one canvas per tale, and wrote about a third
-  of the scripts. Unlike The Twilight Zone, he did not control the show: producer Jack Laird chose much of the material,
-  leaned toward gothic horror, and added short comic blackout sketches in season two, which Serling disliked. The
-  first season rotated with three other series under the umbrella title Four in One; seasons two and three ran on
-  their own, the last in a half-hour format. Its 43 episodes and pilot hold 98 segments, adapting writers such as
-  H. P. Lovecraft, Fritz Leiber, Richard Matheson, A. E. van Vogt, Algernon Blackwood and August Derleth. Directors
-  included Steven Spielberg, John Badham, Jeannot Szwarc and Leonard Nimoy. The gallery paintings were by Thomas
-  J. Wright and Jaroslav Gebr, and Gil Mellé''s electronic theme opened the first two seasons. For syndication Universal
-  cut the hour episodes into half hours, padded some with stock footage, and folded in 25 episodes of The Sixth
-  Sense with new Serling introductions; the uncut versions were restored on home video.'
+summary: 'Rod Serling''s second anthology series ran on NBC from December 1970 to May 1973, after a 1969 pilot film. Serling introduced each story from a gallery of eerie paintings, one canvas per tale, and wrote about a third of the scripts. Unlike The Twilight Zone, he did not control the show: producer Jack Laird chose much of the material, leaned toward gothic horror, and added short comic blackout sketches in season two, which Serling disliked. The first season rotated with three other series under the umbrella title Four in One; seasons two and three ran on their own, the last in a half-hour format. Its 43 episodes and pilot hold 98 segments, adapting writers such as H. P. Lovecraft, Fritz Leiber, Richard Matheson, A. E. van Vogt, Algernon Blackwood and August Derleth. Directors included Steven Spielberg, John Badham, Jeannot Szwarc and Leonard Nimoy. The gallery paintings were by Thomas J. Wright and Jaroslav Gebr, and Gil Mellé''s electronic theme opened the first two seasons. For syndication Universal cut the hour episodes into half hours, padded some with stock footage, and folded in 25 episodes of The Sixth Sense with new Serling introductions; the uncut versions were restored on home video.'
 runtime_min: 50
 links:
   wikipedia: https://en.wikipedia.org/wiki/Night_Gallery
@@ -22,5 +12,35 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
 research_confidence: high
 relevance: related
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: NBC
+seasons: 3
+episode_count: 43
+country: United States
+end_date: '1973-05-27'
+created_by:
+- Rod Serling
+presented_by:
+- Rod Serling
+ties:
+- text: Serling saw Night Gallery as a logical extension of The Twilight Zone, and hosted it and wrote many of its scripts.
+  sources:
+  - title: "Wikipedia: Night Gallery"
+    url: https://en.wikipedia.org/wiki/Night_Gallery
+    publisher: Wikipedia
+- text: Serling ranked his segment “They’re Tearing Down Tim Riley’s Bar” above even his Twilight Zone work.
+  sources:
+  - title: "Wikipedia: Night Gallery"
+    url: https://en.wikipedia.org/wiki/Night_Gallery
+    publisher: Wikipedia
+- text: In the third season NBC forbade the philosophical stories The Twilight Zone was known for.
+  sources:
+  - title: "Wikipedia: Night Gallery"
+    url: https://en.wikipedia.org/wiki/Night_Gallery
+    publisher: Wikipedia
+- text: "Steven Spielberg directed a Night Gallery segment and later a segment of Twilight Zone: The Movie (1983)."
+  sources:
+  - title: "Wikipedia: Night Gallery"
+    url: https://en.wikipedia.org/wiki/Night_Gallery
+    publisher: Wikipedia

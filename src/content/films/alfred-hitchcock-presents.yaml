@@ -1,15 +1,27 @@
 title: Alfred Hitchcock Presents
 kind: tv-series
 summary: Hitchcock's host-introduced twist-ending anthology, TZ's closest contemporary rival; revived 1985.
-release_date: '1955'
+release_date: '1955-10-02'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Alfred Hitchcock Presents"
+  url: https://en.wikipedia.org/wiki/Alfred_Hitchcock_Presents
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Alfred_Hitchcock_Presents
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: CBS, then NBC
+seasons: 10
+episode_count: 361
+country: United States
+end_date: '1965'
+created_by:
+- Alfred Hitchcock
+presented_by:
+- Alfred Hitchcock

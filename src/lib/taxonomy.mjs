@@ -128,15 +128,16 @@ export const TAXONOMY = [
       'Serling followed the original with Night Gallery (NBC, 1969-1973), and before it wrote plays for the live anthologies of the 1950s. Those series, the anthologies in the same tradition and the shows that pay homage each have one page, where every episode is an entry you can filter, search and link to.',
     ],
     connection: 'The four Twilight Zone series are the franchise itself. Night Gallery and Serling\'s other television are official Serling work one step away. Similar anthologies are here for a stated link or a shared tradition, each tagged with how it connects, and homages for a specific episode or sketch.',
-    seeAlso: [['Night Gallery', '/night-gallery/'], ['Every homage, with filters', '/television/homages/'], ['Rod Serling', '/rod-serling/']],
+    seeAlso: [['Night Gallery', '/night-gallery/'], ['All homages', '/television/homages/'], ['Rod Serling', '/rod-serling/']],
     subs: [
       { slug: 'twilight-zone', title: 'The Twilight Zone', blurb: 'The original series and its three revivals, each with every episode.', order: 'chrono', side: 'official' },
-      { slug: 'episodes', title: 'Every Twilight Zone episode', blurb: 'All episodes and segments of the four series, A to Z within each series.', side: 'official' },
-      { slug: 'serling-series', title: "Rod Serling's other series", blurb: 'Night Gallery, The Loner and Serling\'s other series, and the plays he wrote for other anthologies.', side: 'official' },
-      { slug: 'anthologies', title: 'Similar anthology series', blurb: 'Anthology series in the same tradition, each tagged with how it connects to The Twilight Zone.', side: 'unofficial' },
-      { slug: 'homages', title: 'Homages in other shows', blurb: 'Episodes, segments and sketches of other shows that parody, honor or reference The Twilight Zone, grouped by show.', side: 'unofficial' },
+      { slug: 'episodes', title: 'All Twilight Zone episodes', blurb: 'Every episode and segment of the four series, by series.', side: 'official' },
+      { slug: 'serling-series', title: "Rod Serling's series", blurb: 'Night Gallery, The Loner and his other series, and the plays he wrote for other anthologies.', side: 'official' },
+      { slug: 'anthologies', title: 'Fellow anthologies', blurb: 'Anthology series in the same tradition, each tagged with how it connects.', side: 'unofficial' },
+      { slug: 'homages', title: 'Homages in other shows', blurb: 'Episodes and sketches of other shows that parody, honor or reference it, by show.', side: 'unofficial' },
       { slug: 'pilots-unmade', title: 'Pilots and unmade projects', isNew: true, blurb: 'Pilots, unaired material and announced projects tied to the series and their episodes.' },
-      { slug: 'international', title: 'International titles and dubs', blurb: 'The names the series went by around the world.', isNew: true, intro: 'The show was dubbed and retitled in many countries: La Dimensión Desconocida, La Quatrième Dimension, Ai confini della realtà, Unglaubliche Geschichten. Each title is sourced.' },
+      { slug: 'where-to-watch', title: 'Where to watch', isNew: true, blurb: 'Where each series can be watched now, with the date it was checked.' },
+      { slug: 'international', title: 'Around the world', blurb: 'The titles and dubs the series went by abroad.', isNew: true, intro: 'The show was dubbed and retitled in many countries: La Dimensión Desconocida, La Quatrième Dimension, Ai confini della realtà, Unglaubliche Geschichten. Each title is sourced.' },
     ],
   },
   {
@@ -851,7 +852,7 @@ export function placePerson({ roles = [], creditRoles = [], quoted = false, play
   const any = (re) => r.some((x) => re.test(x)) || c.some((x) => re.test(x));
   if (any(/writer|teleplay|story|ghostwriter|source|adaptation|author/)) out.add('writers');
   if (any(/director/) ) out.add('directors');
-  if (r.some((x) => /producer|developer|showrunner/.test(x)) || c.some((x) => /producer/.test(x))) out.add('producers');
+  if (r.some((x) => /producer|developer|showrunner/.test(x)) || c.some((x) => /producer|series creator/.test(x))) out.add('producers');
   if (r.some((x) => /^actor|actress|performer/.test(x)) || c.includes('cast')) out.add('actors');
   if (c.includes('radio cast') || r.some((x) => /voice/.test(x))) out.add('voice-actors');
   if (any(/narrator|host/)) out.add('narrators-hosts');

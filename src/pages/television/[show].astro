@@ -15,7 +15,7 @@ const homages = entries.filter((e) => e.links.length > 0).length;
 const serling = entries.filter((e) => [...e.writers, ...e.segments.flatMap((g) => g.writers)].includes('Rod Serling')).length;
 const n = entries.length;
 const noun = entries.every((e) => e.kindLabel === 'Sketch') ? (n === 1 ? 'sketch' : 'sketches') : n === 1 ? 'episode' : 'episodes';
-const parts = [homages > 0 && `${homages} ${homages === 1 ? 'pays' : 'pay'} homage to The Twilight Zone`, serling > 0 && `${serling} ${serling === 1 ? 'was' : 'were'} written by Rod Serling`].filter(Boolean);
+const parts = [homages > 0 && `${homages} with a Twilight Zone homage`, serling > 0 && `${serling} written by Rod Serling`].filter(Boolean);
 const crumb = serling > 0 && homages === 0 ? ['Rod Serling’s series', '/series/serling-series/'] : ['Homages in other shows', '/series/homages/'];
 ---
 <Base title={`${s.title}: television show page`} description={`${s.title}: the ${n} ${noun} with a Twilight Zone or Rod Serling connection, with credits, sources and how sure each connection is.`}>
@@ -24,8 +24,7 @@ const crumb = serling > 0 && homages === 0 ? ['Rod Serling’s series', '/series
     <p class="eyebrow"><span class="eyebrow-in"><span class="eyebrow-type">Television series</span></span></p>
     <h1>{s.title}</h1>
   </header>
-  <p class="lead">We list {n} {noun} of {s.title}{parts.length > 0 && <>: {parts.join(', and ')}</>}.</p>
-  <p class="small muted">We have no record of the series itself yet, so this page holds only the {noun} that connect to The Twilight Zone or Rod Serling. Each has its own link and its own sources.</p>
+  <p class="lead">{homages === n ? `${n} ${noun} that pay homage to The Twilight Zone.` : serling === n ? `${n} ${noun} written by Rod Serling.` : `${n} ${noun}${parts.length ? `: ${parts.join(', ')}` : ''}.`}</p>
   <EpisodeExplorer entries={entries} noun={noun} />
-  <p class="small muted">Know another? <a href="/contribute/">Send it to us</a>, with where you saw it.</p>
+  <p class="small">Missing one? <a href="/contribute/">Tell us</a>.</p>
 </Base>

@@ -4,10 +4,12 @@ import InCategories from '../../components/InCategories.astro';
 import Media from '../../components/Media.astro';
 import Related from '../../components/Related.astro';
 import { getCollection } from 'astro:content';
-import { allEpisodes, formatDate, episodeNumber } from '../../lib/data';
+import { allEpisodes, formatDate, episodeNumber, personUrl } from '../../lib/data';
 import HistoryAndIntl from '../../components/HistoryAndIntl.astro';
 import { sortKey } from '../../lib/categories';
-import { resolveRef, CONNECTION_LABELS, CONFIDENCE_LABELS } from '../../lib/data';
+import { resolveRef, CONNECTION_LABELS, CONNECTION_VERBS, CONFIDENCE_LABELS } from '../../lib/data';
+import RecordHeader from '../../components/RecordHeader.astro';
+import Sources from '../../components/Sources.astro';
 import { tv } from '../../lib/television';
 
 export async function getStaticPaths() {
@@ -16,9 +18,6 @@ export async function getStaticPaths() {
 }
 const { s } = Astro.props;
 const eps = (await allEpisodes()).filter((e) => e.data.series === s.id);
-const az = [...eps].sort((a, b) => sortKey(a.data.title).localeCompare(sortKey(b.data.title)));
-const letterOf = (t: string) => (sortKey(t)[0] ?? '#').toUpperCase().replace(/[^A-Z]/, '#');
-const letters = [...new Set(az.map((e) => letterOf(e.data.title)))];
 const seasons = [...new Set(eps.map((e) => e.data.season))].sort((a, b) => a - b);
 // Homages to the series as a whole, not to one episode (Adam, 2026-11-21, decision 0002). Homages to one
 // episode are on that episode's page; every homage is on /television/homages/.
@@ -35,6 +34,25 @@ const homages = (await Promise.all((await getCollection('connections'))
   .filter((x): x is NonNullable<typeof x> => !!x)
   .sort((a, b) => sortKey(a.show ?? a.r.title).localeCompare(sortKey(b.show ?? b.r.title)) || sortKey(a.r.title).localeCompare(sortKey(b.r.title)));
 const homageGroups = [['On television', homages.filter((h) => h.isTv)], ['Elsewhere', homages.filter((h) => !h.isTv)]] as const;
+
+// Facts and people counted from the episode records.
+const dates = eps.map((e) => e.data.air_date).filter(Boolean).sort() as string[];
+const runtimes = eps.map((e) => e.data.runtime_min).filter((n): n is number => !!n).sort((a, b) => a - b);
+const runtimeText = runtimes.length ? (runtimes[0] === runtimes[runtimes.length - 1] ? `${runtimes[0]} minutes` : `${runtimes[0]} to ${runtimes[runtimes.length - 1]} minutes`) : undefined;
+const tally = (get: (e: (typeof eps)[number]) => string[]) => {
+  const m = new Map<string, number>();
+  for (const e of eps) for (const n of new Set(get(e))) m.set(n, (m.get(n) ?? 0) + 1);
+  return [...m.entries()].sort((a, b) => b[1] - a[1] || sortKey(a[0]).localeCompare(sortKey(b[0])));
+};
+const writers = tally((e) => e.data.writers);
+const directors = tally((e) => e.data.directors);
+const actors = tally((e) => e.data.cast);
+const authors = tally((e) => e.data.source_authors.filter((n) => !e.data.writers.includes(n)));
+const epIds = new Set(eps.map((e) => e.id));
+const characters = (await getCollection('characters')).filter((ch) => (ch.data.appears_in ?? []).some((x: string) => epIds.has(x))).sort((a, b) => sortKey(a.data.name).localeCompare(sortKey(b.data.name)));
+const people = [['Writers', writers], ['Directors', directors], ['Actors', actors], ['Source authors', authors]] as const;
+const TOP = 24;
+const tabs = [['episodes', 'Episodes'], ['people', 'People'], characters.length > 0 && ['characters', 'Characters'], s.data.history?.length && ['history', 'History'], s.data.releases?.length && ['releases', 'Home video'], s.data.international_titles?.length && ['world', 'Around the world'], homages.length > 0 && ['homages', 'Homages'], ['related', 'More'], ['sources', 'Sources']].filter(Boolean) as [string, string][];
 const jsonld = {
   '@context': 'https://schema.org',
   '@type': 'TVSeries',
@@ -46,91 +64,118 @@ const jsonld = {
 ---
 <Base title={`${s.data.title} (${s.id} series)`} description={s.data.summary} jsonld={jsonld}>
   <InCategories recKey={`series/${s.id}`} />
-  <h1>{s.data.title} <span class="muted">({s.data.years})</span></h1>
+  <RecordHeader type="TV series" context={s.data.years} title={s.data.title} recKey={`series/${s.id}`} />
   <p class="lead">{s.data.summary}</p>
   <dl class="facts">
+    {dates.length > 0 && <><dt>On the air</dt><dd>{formatDate(dates[0])} to {formatDate(dates[dates.length - 1])}</dd></>}
     <dt>Network</dt><dd>{s.data.network}</dd>
     <dt>Host</dt><dd>{s.data.host}</dd>
-    <dt>Seasons</dt><dd>{s.data.seasons}</dd>
-    <dt>Episodes and segments</dt><dd>{eps.length}</dd>
+    <dt>Episodes</dt><dd>{eps.length} in {s.data.seasons} {s.data.seasons === 1 ? 'season' : 'seasons'}</dd>
+    {runtimeText && <><dt>Runtime</dt><dd>{runtimeText}</dd></>}
+    {writers.length > 0 && <><dt>Most episodes written</dt><dd>{writers.slice(0, 3).map(([n, k], i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a> ({k})</>)}</dd></>}
+    {directors.length > 0 && <><dt>Most episodes directed</dt><dd>{directors.slice(0, 3).map(([n, k], i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a> ({k})</>)}</dd></>}
   </dl>
-  <p><a href="#episodes">Jump to all {eps.length} episodes</a> (A to Z or in air order)</p>
-  <HistoryAndIntl history={s.data.history} intl={s.data.international_titles} releases={s.data.releases} />
-  <h2 id="episodes">Episodes</h2>
-  <div class="view-toggle" data-pagefind-ignore>
-    <button type="button" data-view="az" aria-pressed="true">A to Z</button>
-    <button type="button" data-view="air" aria-pressed="false">In air order</button>
-    <span class="small muted">Alphabetical by default (ignoring a leading "The", "A" or "An"); switch to see the broadcast order by season.</span>
-  </div>
-  <div id="view-az">
-    <p class="small letters">{letters.map((l) => <a href={`#az-${l}`}>{l}</a>)}</p>
+  <nav class="page-tabs" aria-label="On this page" data-pagefind-ignore>
+    <ul>{tabs.map(([id, l]) => <li><a href={`#${id}`}>{l}</a></li>)}</ul>
+  </nav>
+
+  <section id="episodes">
+    <h2>Episodes <span class="muted small">({eps.length})</span></h2>
+    <form class="lib-filters" id="ep-tools" data-pagefind-ignore onsubmit="return false" aria-label="Search, filter and sort episodes">
+      <label class="lt-q">Search <input data-f="q" type="search" placeholder="Title, writer, actor…" /></label>
+      {seasons.length > 1 && <label>Season <select data-f="season"><option value="">All</option>{seasons.map((n) => <option value={String(n)}>Season {n}</option>)}</select></label>}
+      <label>Writer <select data-f="writer"><option value="">Anyone</option>{writers.map(([n, k]) => <option value={n}>{n} ({k})</option>)}</select></label>
+      <label>Director <select data-f="director"><option value="">Anyone</option>{directors.map(([n, k]) => <option value={n}>{n} ({k})</option>)}</select></label>
+      <label>Sort <select data-f="sort"><option value="air">Air order</option><option value="az">A to Z</option><option value="za">Z to A</option><option value="new">Newest first</option></select></label>
+      <span class="small muted lt-count" role="status"></span>
+    </form>
     <div class="table-wrap">
-      <table>
-        <thead><tr><th>Title</th><th>Season and episode</th><th>Aired</th><th>Written by</th></tr></thead>
-        <tbody>
-          {az.map((e, i) => (
-            <tr id={i === 0 || letterOf(az[i - 1].data.title) !== letterOf(e.data.title) ? `az-${letterOf(e.data.title)}` : undefined}>
+      <table class="ep-table">
+        <thead><tr><th scope="col">No.</th><th scope="col">Title</th><th scope="col">Aired</th><th scope="col">Written by</th><th scope="col">Directed by</th></tr></thead>
+        <tbody id="ep-rows">
+          {eps.map((e, i) => (
+            <tr id={i === 0 || eps[i - 1].data.season !== e.data.season ? `season-${e.data.season}` : undefined}
+              data-season={String(e.data.season)} data-air={String(i).padStart(4, '0')} data-date={e.data.air_date ?? ''}
+              data-writers={`|${e.data.writers.join('|')}|`} data-directors={`|${e.data.directors.join('|')}|`} data-more={[...e.data.cast, ...e.data.source_authors].join(' ').toLowerCase()}>
+              <td class="nowrap">{episodeNumber(e.data)}</td>
               <td><a href={`/episodes/${e.id}/`}>{e.data.title}</a></td>
-              <td>{episodeNumber(e.data)}</td>
-              <td>{formatDate(e.data.air_date)}</td>
-              <td>{e.data.writers.join(', ')}</td>
+              <td class="nowrap">{formatDate(e.data.air_date)}</td>
+              <td>{e.data.writers.map((n, j) => <>{j > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</td>
+              <td>{e.data.directors.map((n, j) => <>{j > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</td>
             </tr>
           ))}
         </tbody>
       </table>
     </div>
-  </div>
-  <div id="view-air">
-  <p class="small letters">Jump to: {seasons.map((n) => <a href={`#season-${n}`}>Season {n}</a>)}</p>
-  {seasons.map((n) => (
-    <section id={`season-${n}`}>
-      <h3>Season {n}</h3>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>#</th><th>Title</th><th>Aired</th><th>Written by</th><th>Directed by</th></tr></thead>
-          <tbody>
-            {eps.filter((e) => e.data.season === n).map((e) => (
-              <tr>
-                <td>{episodeNumber(e.data)}</td>
-                <td><a href={`/episodes/${e.id}/`}>{e.data.title}</a></td>
-                <td>{formatDate(e.data.air_date)}</td>
-                <td>{e.data.writers.join(', ')}</td>
-                <td>{e.data.directors.join(', ')}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </section>
-  ))}
-  </div>
+  </section>
   <script is:inline>
     (() => {
-      const set = (v) => {
-        for (const b of document.querySelectorAll('.view-toggle button')) b.setAttribute('aria-pressed', String(b.dataset.view === v));
-        document.getElementById('view-az').hidden = v !== 'az';
-        document.getElementById('view-air').hidden = v !== 'air';
+      const form = document.getElementById('ep-tools'), body = document.getElementById('ep-rows');
+      if (!form || !body) return;
+      const rows = [...body.rows], count = form.querySelector('.lt-count');
+      for (const r of rows) { r.dataset.text = (r.textContent + ' ' + r.dataset.more).toLowerCase(); r.dataset.sort = r.cells[1].textContent.trim().toLowerCase().replace(/^(the|a|an) /, ''); }
+      const v = (k) => { const el = form.querySelector(`[data-f="${k}"]`); return el ? el.value : ''; };
+      const keys = ['q', 'season', 'writer', 'director', 'sort'];
+      const p = new URLSearchParams(location.search);
+      for (const k of keys) { const el = form.querySelector(`[data-f="${k}"]`); if (el && p.get(k)) el.value = p.get(k); }
+      const cmp = { air: (a, b) => a.dataset.air.localeCompare(b.dataset.air), az: (a, b) => a.dataset.sort.localeCompare(b.dataset.sort), za: (a, b) => b.dataset.sort.localeCompare(a.dataset.sort), new: (a, b) => b.dataset.date.localeCompare(a.dataset.date) || b.dataset.air.localeCompare(a.dataset.air) };
+      const apply = () => {
+        const q = v('q').trim().toLowerCase(), se = v('season'), w = v('writer'), d = v('director');
+        let n = 0;
+        for (const r of rows) { const ok = (!q || r.dataset.text.includes(q)) && (!se || r.dataset.season === se) && (!w || r.dataset.writers.includes(`|${w}|`)) && (!d || r.dataset.directors.includes(`|${d}|`)); r.hidden = !ok; if (ok) n++; }
+        [...rows].sort(cmp[v('sort') || 'air']).forEach((r) => body.appendChild(r));
+        count.textContent = n === rows.length ? `${n} episodes` : `${n} of ${rows.length} shown`;
+        const u = new URLSearchParams(); for (const k of keys) { const x = k === 'q' ? q : v(k); if (x && !(k === 'sort' && x === 'air')) u.set(k, x); }
+        history.replaceState(null, '', `${location.pathname}${u.toString() ? '?' + u : ''}${location.hash}`);
       };
-      for (const b of document.querySelectorAll('.view-toggle button')) b.addEventListener('click', () => set(b.dataset.view));
-      set(location.hash.startsWith('#season-') ? 'air' : 'az');
+      form.addEventListener('input', apply); form.addEventListener('change', apply); apply();
     })();
   </script>
+
+  <section id="people">
+    <h2>People</h2>
+    <p class="small muted">Counted from the credits of every episode. The number is how many episodes.</p>
+    <div class="people-cols">
+      {people.filter(([, list]) => list.length > 0).map(([label, list]) => (
+        <div>
+          <h3>{label} <span class="muted small">({list.length})</span></h3>
+          <ol class="plain people-tally">
+            {list.slice(0, TOP).map(([n, k]) => <li><a href={personUrl(n)}>{n}</a> <span class="count-pill">{k}</span></li>)}
+          </ol>
+          {list.length > TOP && (
+            <details><summary class="small">All {list.length}</summary><p class="small">{list.slice(TOP).map(([n, k], i) => <>{i > 0 && ' · '}<a href={personUrl(n)}>{n}</a> ({k})</>)}</p></details>
+          )}
+        </div>
+      ))}
+    </div>
+  </section>
+
+  {characters.length > 0 && (
+    <section id="characters">
+      <h2>Characters <span class="muted small">({characters.length})</span></h2>
+      <p class="columns small">{characters.map((ch, i) => <>{i > 0 && ' · '}<a href={`/characters/${ch.id}/`}>{ch.data.name}</a></>)}</p>
+    </section>
+  )}
+
+  <div id="history"><HistoryAndIntl history={s.data.history} intl={s.data.international_titles} releases={s.data.releases} /></div>
+
   {homages.length > 0 && (
     <section id="homages">
-      <h2>Homages to the series as a whole</h2>
-      <p class="small muted">{homages.length} works point to this series rather than to one episode. Homages to a single episode are on its page. <a href={`/television/homages/?tz=${s.id}`}>Every television homage to this series, with filters</a>.</p>
+      <h2>Homages to the series <span class="muted small">({homages.length})</span></h2>
+      <p class="small muted">Works that point to the series as a whole. Homages to one episode are on that episode’s page. <a href={`/television/homages/?tz=${s.id}`}>All television homages</a></p>
       {homageGroups.map(([label, list]) => list.length > 0 && (
         <details open={label === 'On television'}>
           <summary><strong>{label}</strong> <span class="muted small">({list.length})</span></summary>
           <ul class="plain homage-compact">
             {list.map(({ c, r, show }) => (
-              <li><span class="tag">{CONNECTION_LABELS[c.data.kind] ?? c.data.kind}</span> <a href={r.url}>{r.title}</a>{show && show !== r.title && <span class="muted small"> · {show}</span>} <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span></li>
+              <li><a href={r.url}>{show && show !== r.title ? `${show}: ${r.title}` : r.title}</a> <span class="muted small">{CONNECTION_LABELS[c.data.kind] ?? c.data.kind}</span> <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span></li>
             ))}
           </ul>
         </details>
       ))}
     </section>
   )}
-  <Related recKey={`series/${s.id}`} />
+  <div id="related"><Related recKey={`series/${s.id}`} skip={['people']} /></div>
   <Media media={s.data.media} recKey={`series/${s.id}`} />
+  <div id="sources"><Sources sources={s.data.sources} verified={(s.data as any).last_verified} /></div>
 </Base>

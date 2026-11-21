@@ -22,6 +22,14 @@ by type, show, Twilight Zone series and how sure we are: "Confirmed by its maker
 
 **Credit.** Sources can now name their author and publication, and media can name the rights holder.
 
+**Search, sort and filter everywhere (second pass, after Adam's review).** Every subcategory page on the site now
+has search, shelf, group and relevance filters and A to Z, Z to A, newest and oldest sorting. The Television page
+leads with the four series and Night Gallery, has one box to find any show or episode, and ranks the most-homaged
+episodes and shows. Series pages gain run dates, runtime, top writers and directors, a People and Characters
+section, page tabs, and one episode table you can search, filter by season, writer or director, and sort. Episode
+pages group their legacy by medium with filters. 24 anthology and Serling series pages now show their network, run,
+episode count, creators, hosts and sourced Twilight Zone ties. Link text is shorter throughout.
+
 **Known not to work yet:** research rounds 1 to 4 (Serling's other plays, the anthologies' own sources, homage
 sources, home video and streaming links) come next; fans cannot yet second a homage (needs fan accounts); most
 sources do not yet carry an author or publisher.

@@ -1,15 +1,29 @@
 title: Journey to the Unknown
 kind: tv-series
 summary: Hammer Films anthology for ABC and British television.
-release_date: '1968'
+release_date: '1968-09-26'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Journey to the Unknown"
+  url: https://en.wikipedia.org/wiki/Journey_to_the_Unknown
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Journey_to_the_Unknown
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: ABC (US), ITV (UK)
+seasons: 1
+episode_count: 17
+country: United Kingdom
+end_date: '1969-01-30'
+ties:
+- text: The article calls its mix of fantasy, science fiction, the supernatural and horror “very similar to” The Twilight Zone.
+  sources:
+  - title: "Wikipedia: Journey to the Unknown"
+    url: https://en.wikipedia.org/wiki/Journey_to_the_Unknown
+    publisher: Wikipedia

@@ -3,7 +3,7 @@
 // anchor (#<record id>), and filters for season, person, homage type and how sure we are. Used on every
 // show page except the four Twilight Zone series, which have a page per episode (decision 0002).
 // Without JavaScript the full list shows; the filters only hide entries.
-import { personUrl, formatDate, CONNECTION_LABELS, CONFIDENCE_LABELS } from '../lib/data';
+import { personUrl, formatDate, CONNECTION_LABELS, CONNECTION_VERBS, CONFIDENCE_LABELS } from '../lib/data';
 import { sortKey } from '../lib/categories';
 import type { ExEntry } from '../lib/television';
 
@@ -23,10 +23,10 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
     <form class="lib-filters" data-pagefind-ignore onsubmit="return false" aria-label={`Filter ${noun}`}>
       {groups.length > 1 && <label>{groupLabel} <select data-f="group"><option value="">All</option>{groups.map((g) => <option value={g}>{g}</option>)}</select></label>}
       {people.length > 0 && <label>Person <select data-f="person"><option value="">Anyone</option>{people.map((p) => <option value={p}>{p}</option>)}</select></label>}
-      {kinds.length > 0 && <label>Type <select data-f="kind"><option value="">Any type</option>{kinds.map((k) => <option value={k}>{CONNECTION_LABELS[k] ?? k}</option>)}</select></label>}
+      {kinds.length > 0 && <label>Type <select data-f="kind"><option value="">Any</option>{kinds.map((k) => <option value={k}>{CONNECTION_LABELS[k] ?? k}</option>)}</select></label>}
       {certs.length > 0 && <label>How sure <select data-f="cert"><option value="">Any</option>{certs.map((c) => <option value={c}>{CONFIDENCE_LABELS[c]}</option>)}</select></label>}
-      <label>Search <input data-f="q" type="search" placeholder={`Find ${noun}`} /></label>
-      <label>Order <select data-f="order"><option value="air">Air order</option><option value="az">A to Z</option></select></label>
+      <label class="lt-q">Search <input data-f="q" type="search" placeholder={`Search ${noun}`} /></label>
+      <label>Sort <select data-f="order"><option value="air">Air order</option><option value="az">A to Z</option><option value="za">Z to A</option><option value="new">Newest first</option></select></label>
       <span class="small muted ex-count" role="status"></span>
     </form>
   )}
@@ -42,13 +42,13 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
             data-kind={`|${e.links.map((l) => l.kind).join('|')}|`}
             data-cert={`|${e.links.map((l) => l.certainty).join('|')}|`}
             data-sort={sortKey(e.title)}
-            data-air={`${e.group}|${e.date ?? ''}|${e.id}`}>
+            data-air={`${e.group}|${e.date ?? ''}|${e.id}`} data-date={e.date ?? ''}>
             <h4 class="ex-title"><a href={`#${e.id}`} class="ex-anchor">{e.title}</a></h4>
             <p class="small muted">{[e.number, e.kindLabel !== 'Episode' && e.kindLabel, formatDate(e.date)].filter(Boolean).join(' · ')}</p>
             {e.links.length > 0 && (
               <ul class="plain ex-links">
                 {e.links.map((l) => (
-                  <li><span class="tag">{CONNECTION_LABELS[l.kind] ?? l.kind}</span> of <a href={l.href}>{l.title}</a> <span class={`tag ${l.certainty}`}>{CONFIDENCE_LABELS[l.certainty]}</span>{l.evidence && <p class="small">{l.evidence}</p>}</li>
+                  <li>{CONNECTION_VERBS[l.kind] ?? CONNECTION_LABELS[l.kind]} <a href={l.href}>{l.title}</a> <span class={`tag ${l.certainty}`}>{CONFIDENCE_LABELS[l.certainty]}</span>{l.evidence && <p class="small muted">{l.evidence}</p>}</li>
                 ))}
               </ul>
             )}
@@ -73,7 +73,7 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
               </ul>
             )}
             {e.media.length > 0 && <p class="small">Media: {e.media.map((m, i) => <>{i > 0 && ' · '}<a href={m.url} rel="noopener">{m.title}</a>{m.creator && <span class="muted"> ({m.creator})</span>}</>)}</p>}
-            {e.sources.length > 0 && <details class="small ex-sources" data-pagefind-ignore><summary>Sources{e.verified && <span class="muted"> · last verified {e.verified}</span>}</summary><ul>{e.sources.map((s) => <li>{s.author && <>{s.author}, </>}{s.url ? <a href={s.url} rel="noopener">{s.title}</a> : s.title}{s.publisher && <span class="muted"> ({s.publisher})</span>}{s.note && <span class="muted"> · {s.note}</span>}</li>)}</ul></details>}
+            {e.sources.length > 0 && <details class="small ex-sources" data-pagefind-ignore><summary>Sources{e.verified && <span class="muted"> · last verified {e.verified}</span>}</summary><ul>{e.sources.map((s) => <li>{s.author && <>{s.author}, </>}{s.url ? <a href={s.url} rel="noopener">{s.title}</a> : s.title}{s.publisher && !s.title.includes(s.publisher) && <span class="muted"> ({s.publisher})</span>}{s.note && <span class="muted"> · {s.note}</span>}</li>)}</ul></details>}
           </li>
         ))}
       </ol>
@@ -101,11 +101,12 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
         it.hidden = !ok; if (ok) n++;
       }
       for (const sec of root.querySelectorAll('.ex-group')) sec.hidden = ![...sec.querySelectorAll('.ex-entry')].some((x) => !x.hidden);
-      const az = val('order') === 'az';
-      for (const list of root.querySelectorAll('.ex-list')) {
-        [...list.children].sort((a, b) => (az ? a.dataset.sort.localeCompare(b.dataset.sort) : a.dataset.air.localeCompare(b.dataset.air))).forEach((x) => list.appendChild(x));
+            for (const list of root.querySelectorAll('.ex-list')) {
+        const o = val('order');
+        const cmp = { air: (a, b) => a.dataset.air.localeCompare(b.dataset.air), az: (a, b) => a.dataset.sort.localeCompare(b.dataset.sort), za: (a, b) => b.dataset.sort.localeCompare(a.dataset.sort), new: (a, b) => b.dataset.date.localeCompare(a.dataset.date) }[o] || ((a, b) => a.dataset.air.localeCompare(b.dataset.air));
+        [...list.children].sort(cmp).forEach((x) => list.appendChild(x));
       }
-      if (count) count.textContent = `${n} of ${items.length} shown`;
+      if (count) count.textContent = n === items.length ? `${n} ${n === 1 ? 'entry' : 'entries'}` : `${n} of ${items.length} shown`;
       const u = new URLSearchParams(location.search);
       for (const k of ['group', 'person', 'kind', 'cert', 'q', 'order']) { const v = k === 'q' ? q : val(k); if (v && !(k === 'order' && v === 'air')) u.set(k, v); else u.delete(k); }
       history.replaceState(null, '', `${location.pathname}${u.toString() ? '?' + u : ''}${location.hash}`);
