@@ -69,6 +69,6 @@ external links open in new tabs." Recorded as decision 0003.
 | Facts sourced and dated | Each show's JustWatch US page and its check date |
 
 ### Found, for later
-- About 60 single-homage shows and the 2002 revival not yet checked (the fetch limit ran out); they show search links.
+- Filled in after merge: 112 shows and series checked. Not on JustWatch US: the 2002 revival, Playhouse 90, Studio One, The U.S. Steel Hour, Kraft, Climax!, The Jane Wyman Show, Chrysler Theatre, Journey to the Unknown, Out of This World, Science Fiction Theatre, The Loner, B.J. and the Bear, Ghost Story, Ichabod and Me, Hot Metal, Hoppity Hooper, Muppets Tonight, Countdown, Svengoolie, The Charmings, The Flash (1990), Muppet Babies (1984); they show search links.
 - Movies and TV films: search links only; check each film's JustWatch page in a later round.
 - /series/1959/ is 305 KB, just over the 300 KB target, after the new-tab attributes.

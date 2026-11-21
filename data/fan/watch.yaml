@@ -33,6 +33,13 @@ alfred-hitchcock-presents:
   stream: ['Prime Video', 'Peacock']
   free: ['The Roku Channel', 'Xumo Play', 'Tubi']
   buy: ['Amazon', 'Fandango at Home']
+all-in-the-family:
+  justwatch: https://www.justwatch.com/us/tv-show/all-in-the-family
+  checked: '2026-10-25'
+  fetched: '2026-11-21'
+  stream: ['Prime Video']
+  free: []
+  buy: []
 amazing-stories:
   justwatch: https://www.justwatch.com/us/tv-show/amazing-stories
   checked: '2026-10-12'
@@ -54,6 +61,13 @@ andy-richter-controls-the-universe:
   stream: []
   free: []
   buy: []
+angel:
+  justwatch: https://www.justwatch.com/us/tv-show/angel
+  checked: '2026-11-17'
+  fetched: '2026-11-21'
+  stream: ['Hulu']
+  free: ['Tubi']
+  buy: ['Amazon', 'Apple TV', 'Fandango at Home']
 animaniacs:
   justwatch: https://www.justwatch.com/us/tv-show/animaniacs
   checked: '2026-11-15'
@@ -82,6 +96,13 @@ beetlejuice:
   stream: ['Howdy']
   free: ['Tubi']
   buy: ['Amazon', 'Apple TV']
+big-city-greens:
+  justwatch: https://www.justwatch.com/us/tv-show/big-city-greens
+  checked: '2026-10-06'
+  fetched: '2026-11-21'
+  stream: ['Disney+', 'Hulu', 'DisneyNOW', 'fuboTV']
+  free: []
+  buy: ['Amazon', 'Apple TV', 'Fandango at Home']
 black-mirror:
   justwatch: https://www.justwatch.com/us/tv-show/black-mirror
   checked: '2026-11-18'
@@ -103,6 +124,13 @@ bosom-buddies:
   stream: []
   free: []
   buy: []
+buffy-the-vampire-slayer:
+  justwatch: https://www.justwatch.com/us/tv-show/buffy-the-vampire-slayer
+  checked: '2026-11-17'
+  fetched: '2026-11-21'
+  stream: ['Hulu']
+  free: []
+  buy: ['Amazon', 'Apple TV', 'Fandango at Home']
 cold-case:
   justwatch: https://www.justwatch.com/us/tv-show/cold-case
   checked: '2026-10-31'
@@ -110,6 +138,13 @@ cold-case:
   stream: ['YouTube TV']
   free: ['The Roku Channel']
   buy: []
+deadliest-catch:
+  justwatch: https://www.justwatch.com/us/tv-show/deadliest-catch
+  checked: null
+  fetched: '2026-11-21'
+  stream: ['Discovery+', 'HBO Max', 'Hulu', 'Philo', 'YouTube TV']
+  free: ['Plex', 'The Roku Channel']
+  buy: ['Amazon', 'Apple TV', 'Fandango at Home']
 dimension-404:
   justwatch: https://www.justwatch.com/us/tv-show/dimension-404
   checked: '2026-09-07'
@@ -131,6 +166,13 @@ eastenders:
   stream: ['BritBox']
   free: ['Plex']
   buy: []
+eureka:
+  justwatch: https://www.justwatch.com/us/tv-show/eureka
+  checked: '2026-11-20'
+  fetched: '2026-11-21'
+  stream: []
+  free: []
+  buy: ['Amazon', 'Apple TV', 'Fandango at Home']
 extreme-ghostbusters:
   justwatch: https://www.justwatch.com/us/tv-show/extreme-ghostbusters
   checked: '2026-11-04'
@@ -194,6 +236,13 @@ futurama:
   stream: ['Hulu', 'fuboTV', 'FXNow', 'YouTube TV']
   free: []
   buy: ['Amazon', 'Apple TV', 'Fandango at Home']
+garfield-and-friends:
+  justwatch: https://www.justwatch.com/us/tv-show/garfield-and-friends
+  checked: '2026-11-16'
+  fetched: '2026-11-21'
+  stream: ['Paramount+', 'Peacock']
+  free: ['The Roku Channel', 'Tubi']
+  buy: ['Amazon', 'Fandango at Home']
 garth-marenghis-darkplace:
   justwatch: https://www.justwatch.com/us/tv-show/garth-marenghis-darkplace
   checked: '2026-10-24'
@@ -222,6 +271,13 @@ good-times:
   stream: ['Prime Video', 'Peacock']
   free: ['Tubi']
   buy: ['Amazon', 'Apple TV']
+grim-and-evil:
+  justwatch: https://www.justwatch.com/us/tv-show/grim-and-evil
+  checked: null
+  fetched: '2026-11-21'
+  stream: []
+  free: []
+  buy: []
 guillermo-del-toros-cabinet-of-curiosities:
   justwatch: https://www.justwatch.com/us/tv-show/guillermo-del-toros-cabinet-of-curiosities
   checked: '2026-10-28'
@@ -257,6 +313,13 @@ into-the-dark:
   stream: []
   free: []
   buy: []
+ironside:
+  justwatch: https://www.justwatch.com/us/tv-show/ironside
+  checked: '2026-11-08'
+  fetched: '2026-11-21'
+  stream: []
+  free: ['The Roku Channel']
+  buy: []
 johnny-bravo:
   justwatch: https://www.justwatch.com/us/tv-show/johnny-bravo
   checked: '2026-10-20'
@@ -271,6 +334,13 @@ key-and-peele:
   stream: ['Paramount+', 'Philo']
   free: ['Pluto TV', 'Hoopla']
   buy: ['Apple TV', 'Fandango at Home', 'Amazon']
+kid-cosmic:
+  justwatch: https://www.justwatch.com/us/tv-show/kid-cosmic
+  checked: '2026-11-20'
+  fetched: '2026-11-21'
+  stream: ['Netflix']
+  free: []
+  buy: []
 kraft-television-theatre:
   justwatch: https://www.justwatch.com/us/search?q=Kraft%20Television%20Theatre
   checked: null
@@ -292,6 +362,13 @@ liars-club:
   stream: []
   free: []
   buy: []
+love-american-style:
+  justwatch: https://www.justwatch.com/us/tv-show/love-american-style
+  checked: null
+  fetched: '2026-11-21'
+  stream: []
+  free: []
+  buy: []
 love-death-and-robots:
   justwatch: https://www.justwatch.com/us/tv-show/love-death-and-robots
   checked: '2026-11-08'
@@ -306,6 +383,13 @@ masters-of-horror:
   stream: ['Prime Video']
   free: ['The Roku Channel', 'Tubi', 'Fawesome']
   buy: ['Amazon', 'Apple TV', 'Fandango at Home']
+medium:
+  justwatch: https://www.justwatch.com/us/tv-show/medium
+  checked: '2026-11-06'
+  fetched: '2026-11-21'
+  stream: ['Paramount+']
+  free: ['The Roku Channel']
+  buy: ['Amazon', 'Apple TV', 'Fandango at Home']
 monsters:
   justwatch: https://www.justwatch.com/us/tv-show/monsters
   checked: null
@@ -313,6 +397,13 @@ monsters:
   stream: []
   free: ['The Roku Channel', 'Tubi']
   buy: []
+moonlighting:
+  justwatch: https://www.justwatch.com/us/tv-show/moonlighting
+  checked: '2026-09-11'
+  fetched: '2026-11-21'
+  stream: ['Prime Video', 'Hulu']
+  free: []
+  buy: ['Amazon', 'Apple TV', 'Fandango at Home']
 mystery-science-theater-3000:
   justwatch: https://www.justwatch.com/us/tv-show/mystery-science-theater-3000
   checked: '2026-11-19'
@@ -334,6 +425,13 @@ night-gallery:
   stream: []
   free: []
   buy: ['Amazon', 'Apple TV', 'Fandango at Home']
+northern-exposure:
+  justwatch: https://www.justwatch.com/us/tv-show/northern-exposure
+  checked: '2026-11-16'
+  fetched: '2026-11-21'
+  stream: []
+  free: []
+  buy: ['Amazon', 'Apple TV', 'Fandango at Home']
 one-step-beyond:
   justwatch: https://www.justwatch.com/us/tv-show/one-step-beyond
   checked: '2026-11-19'
@@ -341,6 +439,13 @@ one-step-beyond:
   stream: []
   free: ['The Roku Channel', 'Plex', 'Tubi', 'Xumo Play', 'Hoopla', 'Fawesome']
   buy: ['Amazon']
+perfect-strangers:
+  justwatch: https://www.justwatch.com/us/tv-show/perfect-strangers
+  checked: '2026-09-13'
+  fetched: '2026-11-21'
+  stream: ['Howdy']
+  free: ['Plex', 'Pluto TV', 'The Roku Channel', 'Tubi', 'Xumo Play']
+  buy: ['Amazon', 'Apple TV']
 philip-k-dicks-electric-dreams:
   justwatch: https://www.justwatch.com/us/tv-show/philip-k-dicks-electric-dreams
   checked: '2026-10-30'
@@ -355,6 +460,34 @@ pluribus:
   stream: ['Apple TV']
   free: []
   buy: []
+psych:
+  justwatch: https://www.justwatch.com/us/tv-show/psych
+  checked: '2026-11-20'
+  fetched: '2026-11-21'
+  stream: ['Prime Video', 'Peacock', 'Philo']
+  free: ['The Roku Channel']
+  buy: ['Amazon', 'Apple TV', 'Fandango at Home']
+qi:
+  justwatch: https://www.justwatch.com/us/tv-show/qi
+  checked: '2026-11-08'
+  fetched: '2026-11-21'
+  stream: ['BritBox']
+  free: ['Tubi']
+  buy: []
+quantum-leap:
+  justwatch: https://www.justwatch.com/us/tv-show/quantum-leap
+  checked: '2026-11-09'
+  fetched: '2026-11-21'
+  stream: ['Philo']
+  free: []
+  buy: ['Amazon', 'Apple TV', 'Fandango at Home']
+red-dwarf:
+  justwatch: https://www.justwatch.com/us/tv-show/red-dwarf
+  checked: '2026-10-29'
+  fetched: '2026-11-21'
+  stream: ['BritBox']
+  free: ['Pluto TV', 'Hoopla']
+  buy: ['Amazon', 'Fandango at Home']
 robot-chicken:
   justwatch: https://www.justwatch.com/us/tv-show/robot-chicken
   checked: '2026-10-29'
@@ -397,6 +530,13 @@ sesame-street:
   stream: ['HBO Max', 'Netflix']
   free: ['Tubi', 'The Roku Channel']
   buy: ['Amazon', 'Apple TV']
+severance:
+  justwatch: https://www.justwatch.com/us/tv-show/severance
+  checked: '2026-11-20'
+  fetched: '2026-11-21'
+  stream: ['Apple TV']
+  free: []
+  buy: []
 star-trek:
   justwatch: https://www.justwatch.com/us/tv-show/star-trek
   checked: '2026-11-15'
@@ -425,6 +565,13 @@ tales-of-the-unexpected:
   stream: ['Shout! Factory TV']
   free: ['The Roku Channel']
   buy: []
+the-a-team:
+  justwatch: https://www.justwatch.com/us/tv-show/the-a-team
+  checked: '2026-08-31'
+  fetched: '2026-11-21'
+  stream: ['Philo']
+  free: ['Tubi']
+  buy: ['Apple TV', 'Amazon', 'Fandango at Home']
 the-andy-griffith-show:
   justwatch: https://www.justwatch.com/us/tv-show/the-andy-griffith-show
   checked: '2026-11-09'
@@ -432,6 +579,20 @@ the-andy-griffith-show:
   stream: ['Paramount+', 'Philo', 'YouTube TV']
   free: ['Pluto TV', 'Tubi']
   buy: ['Apple TV', 'Fandango at Home', 'Amazon']
+the-bernie-mac-show:
+  justwatch: https://www.justwatch.com/us/tv-show/the-bernie-mac-show
+  checked: '2026-09-28'
+  fetched: '2026-11-21'
+  stream: ['Hulu']
+  free: ['Tubi']
+  buy: []
+the-dead-zone:
+  justwatch: https://www.justwatch.com/us/tv-show/the-dead-zone
+  checked: '2026-10-01'
+  fetched: '2026-11-21'
+  stream: ['Prime Video']
+  free: ['The Roku Channel', 'Plex', 'Tubi', 'MX Player', 'The CW', 'Fawesome']
+  buy: ['Amazon', 'Apple TV', 'Fandango at Home']
 the-dick-van-dyke-show:
   justwatch: https://www.justwatch.com/us/tv-show/the-dick-van-dyke-show
   checked: null
@@ -439,6 +600,20 @@ the-dick-van-dyke-show:
   stream: ['Prime Video', 'Peacock', 'Pure Flix']
   free: ['The Roku Channel', 'Tubi', 'Pluto TV', 'Plex', 'Xumo Play', 'Hoopla', 'Fawesome']
   buy: []
+the-facts-of-life:
+  justwatch: https://www.justwatch.com/us/tv-show/the-facts-of-life
+  checked: '2026-11-01'
+  fetched: '2026-11-21'
+  stream: []
+  free: ['The Roku Channel', 'Tubi']
+  buy: ['Amazon', 'Apple TV']
+the-golden-girls:
+  justwatch: https://www.justwatch.com/us/tv-show/the-golden-girls
+  checked: '2026-11-19'
+  fetched: '2026-11-21'
+  stream: ['Disney+', 'Hulu']
+  free: []
+  buy: ['Amazon', 'Apple TV', 'Fandango at Home']
 the-good-place:
   justwatch: https://www.justwatch.com/us/tv-show/the-good-place
   checked: '2026-11-20'
@@ -446,6 +621,27 @@ the-good-place:
   stream: ['Prime Video', 'Hulu', 'Peacock']
   free: []
   buy: ['Amazon', 'Apple TV', 'Fandango at Home']
+the-greatest-american-hero:
+  justwatch: https://www.justwatch.com/us/tv-show/the-greatest-american-hero
+  checked: null
+  fetched: '2026-11-21'
+  stream: ['Prime Video', 'Peacock', 'fuboTV']
+  free: ['The Roku Channel', 'Pluto TV', 'Shout! Factory TV', 'The CW', 'Plex']
+  buy: ['Apple TV', 'Fandango at Home', 'Amazon']
+the-grim-adventures-of-billy-and-mandy:
+  justwatch: https://www.justwatch.com/us/tv-show/the-grim-adventures-of-billy-and-mandy
+  checked: '2026-11-18'
+  fetched: '2026-11-21'
+  stream: []
+  free: ['Tubi']
+  buy: ['Amazon', 'Apple TV']
+the-jack-benny-program:
+  justwatch: https://www.justwatch.com/us/tv-show/the-jack-benny-program
+  checked: '2026-11-20'
+  fetched: '2026-11-21'
+  stream: []
+  free: ['Tubi', 'Xumo Play']
+  buy: ['Amazon']
 the-many-loves-of-dobie-gillis:
   justwatch: https://www.justwatch.com/us/tv-show/the-many-loves-of-dobie-gillis
   checked: '2026-11-14'
@@ -495,6 +691,13 @@ the-waltons:
   stream: ['Prime Video', 'Peacock', 'Philo']
   free: []
   buy: ['Apple TV', 'Fandango at Home', 'Amazon']
+the-wonder-years:
+  justwatch: https://www.justwatch.com/us/tv-show/the-wonder-years
+  checked: '2026-11-06'
+  fetched: '2026-11-21'
+  stream: ['Hulu']
+  free: []
+  buy: []
 the-x-files:
   justwatch: https://www.justwatch.com/us/tv-show/the-x-files
   checked: '2026-11-17'
@@ -544,6 +747,13 @@ ultra-q:
   stream: []
   free: ['The Roku Channel', 'Pluto TV', 'Plex', 'Tubi', 'Fawesome']
   buy: ['Amazon']
+veronica-mars:
+  justwatch: https://www.justwatch.com/us/tv-show/veronica-mars
+  checked: '2026-11-03'
+  fetched: '2026-11-21'
+  stream: ['Netflix', 'Hulu']
+  free: []
+  buy: ['Amazon', 'Apple TV', 'Fandango at Home']
 wandavision:
   justwatch: https://www.justwatch.com/us/tv-show/wandavision
   checked: '2026-11-18'
@@ -558,3 +768,24 @@ way-out:
   stream: []
   free: []
   buy: []
+weird-science:
+  justwatch: https://www.justwatch.com/us/tv-show/weird-science
+  checked: '2026-11-14'
+  fetched: '2026-11-21'
+  stream: []
+  free: ['The Roku Channel']
+  buy: ['Apple TV', 'Amazon']
+x-men-evolution:
+  justwatch: https://www.justwatch.com/us/tv-show/x-men-evolution
+  checked: '2026-11-08'
+  fetched: '2026-11-21'
+  stream: ['Disney+']
+  free: []
+  buy: ['Apple TV', 'Amazon', 'Fandango at Home']
+yo-kai-watch:
+  justwatch: https://www.justwatch.com/us/tv-show/yo-kai-watch
+  checked: '2026-10-08'
+  fetched: '2026-11-21'
+  stream: []
+  free: ['Hoopla']
+  buy: ['Amazon', 'Apple TV']

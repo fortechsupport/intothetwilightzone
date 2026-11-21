@@ -34,13 +34,13 @@ episode count, creators, hosts and sourced Twilight Zone ties. Link text is shor
 film and episode page now says where to watch it in the US near the top: stream, free with ads, and buy or rent,
 with the date JustWatch last checked and plain links to JustWatch and Reelgood. Lists name it once beside each
 show (the four series cards, Night Gallery, the anthology shelves, the homage shelf's show headings, the
-most-homaged shows), and picking a show on the homages page shows where to watch it above its entries. 79 shows
-are checked so far; the rest show search links until they are. Every link to another website now opens in a new
+most-homaged shows), and picking a show on the homages page shows where to watch it above its entries. 112 shows
+and series are checked; the 20 or so JustWatch doesn't list show search links instead. Every link to another website now opens in a new
 tab, marked with ↗ and announced to screen readers; links within the site open in the same tab, and the site check
 fails any page that breaks the rule.
 
-**Known not to work yet:** about 60 shows (mostly single-homage shows) and the 2002 revival still need their where
-to watch checked; films other than TV series only have search links; research rounds 1 to 4 (Serling's other plays, the anthologies' own sources, homage
+**Known not to work yet:** the 2002 revival and about 20 older or non-US shows that JustWatch doesn't list have no where to
+watch yet; films other than TV series only have search links; research rounds 1 to 4 (Serling's other plays, the anthologies' own sources, homage
 sources, home video) come next; fans cannot yet second a homage (needs fan accounts); most
 sources do not yet carry an author or publisher.
 
