@@ -215,10 +215,10 @@ Television, that means:
   - Credits match the on-screen credits.
   - Primary sources come first: CBS/Paramount press material, archive finding aids, the Library of Congress
     copyright catalogue, the published scripts.
-  - Each record shows its sources and when it was last checked.
   - Wherever an inference is used, it is labelled as one.
-- **A visible way to fix mistakes.** Every series and episode page gets a "Report a correction" link. A public
-  corrections log shows what changed and when.
+- **A visible way to fix mistakes.** Every page already has "Suggest a correction", a "Last verified" date, and a
+  rights-holder route (footer, then /contribute/#rights). New here: a public corrections log showing what changed
+  and when.
 - **Respect for their property:**
   - Media is link-only: no screen grabs, clips, narration transcripts or full script text.
   - The site's look never borrows the official logo or title design.
@@ -273,7 +273,7 @@ Television, that means:
 - No home video or streaming link carries an affiliate or referral code.
 - Every new record has a connection, tier, recommendation and source, starts pending, and is on a
   new-records-only sheet.
-- Every series and episode page has a "Report a correction" link and shows when it was last checked.
+- Every Television record has a "Last verified" date. A public corrections log exists.
 - CI passes: `check:data`, `tokens --check`, both builds, `check:site` and `check:a11y`. No page is over 300 KB.
 
 ## Decided here (Adam reviews later)
