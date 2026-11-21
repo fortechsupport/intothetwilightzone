@@ -99,18 +99,28 @@ There are four layers:
   has a sortable, filterable index (`/people/`, `/places/`, `/organizations/`) that shows every page an
   entry appears on, and every category and record page lists its relevant people, places and
   organizations, linking both ways. They sit at the top of the main navigation.
-- **Groups**: categories grouped by medium (`GROUPS` in `taxonomy.mjs`). A group with more than one
-  category has a landing page at `/explore/<group>/`; a single-category group links straight to it.
+- **Verbs** (Adam, 2026-11-21; full spec in `site/INFORMATION_ARCHITECTURE.md`): the main navigation is
+  nine verbs, each a page at `/<verb>/` and a menu of its categories and subcategories with counts
+  (`VERBS` in `taxonomy.mjs`, menu model in `src/lib/nav.ts`). Old `/explore/<group>/` pages redirect.
 
-  | Group | Categories |
+  | Verb | Categories |
   |---|---|
-  | Screen (`screen`) | TV series, TV episodes, Movies |
-  | Audio (`audio`) | Radio *(new)*, Podcasts *(new)*, Music |
-  | Print and literature (`print`) | Reading (books, comics, magazines, essays, scripts...) |
-  | Games (`games`) | Games |
-  | Live and experiences (`live`) | Events, Lectures, Stage and attractions |
-  | Art and collectibles (`art`) | Artwork, Merchandise |
-  | Legacy (`legacy`) | Homages |
+  | Watch | Movies, Stage, TV episodes, TV series |
+  | Listen | Music, Podcasts, Radio dramas |
+  | Read | the Reading formats (Articles, Books, Comics, Essays, Magazines, Scripts, Websites), plus topic collections |
+  | Play | Games |
+  | Collect | Artwork, Merchandise |
+  | Attend | Events, Lectures |
+  | Discover | History *(new: honors, premieres, production history, trials and rights, Serling's life)*, Legacy (`/homages/`) |
+  | Meet | People, Characters (`/people/characters/`), Organizations |
+  | Visit | Real places (attractions, filming locations, memorials and exhibits, Serling's places, sets and backlots, venues), Settings (`/places/in-story/`) |
+
+  Moves (`MOVES` in `taxonomy.mjs`, applied to every placement; old addresses redirect): Events'
+  milestone subcategories → `history/*`; `stage/attractions` → `places/attractions`; `music/composers` →
+  `people/composers`; `places/lecture-event-venues` → `places/venues`; `merchandise/ornaments` →
+  household-apparel; `games/slot-and-casino-games` → pinball-arcade. Real places get their subcategory
+  from `locations.kind`. The utility bar holds Search, Media Library, Timeline, Rod Serling, Night
+  Gallery, Everything A to Z and About.
 
 - **Categories**: the things themselves. Every category is split into **Official** (made, broadcast,
   licensed or published by the franchise's makers and rights holders, or by Rod Serling himself) and

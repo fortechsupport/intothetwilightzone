@@ -22,6 +22,7 @@ export const TAXONOMY = [
     slug: 'people',
     title: 'People',
     kind: 'section',
+    group: 'meet',
     description: 'The writers, directors, actors, narrators, composers, crew, characters and admirers of The Twilight Zone.',
     intro: [
       "The Twilight Zone was Rod Serling's show, but it was made by a remarkable group: the writers Charles Beaumont, Richard Matheson and George Clayton Johnson; the producers Buck Houghton, Herbert Hirschman, Bert Granet and William Froug; composers including Bernard Herrmann, Jerry Goldsmith and Fred Steiner; and a cast list that runs from silent-era veterans to future stars such as Robert Redford, William Shatner and Burt Reynolds.",
@@ -51,6 +52,7 @@ export const TAXONOMY = [
     slug: 'places',
     title: 'Places',
     kind: 'section',
+    group: 'visit',
     description: 'Real places tied to The Twilight Zone, from MGM backlots to Rod Serling\'s hometown, and the fictional places of its stories.',
     intro: [
       "The original series was made almost entirely at MGM in Culver City, on soundstages and the backlot streets that stood in for small-town America, with location trips to Death Valley, Lone Pine and the Malibu coast. The revivals moved north to Vancouver and Toronto. Serling's own story runs from Syracuse and Binghamton, New York, through Antioch College and Cincinnati, to Pacific Palisades and his summer cottage on Cayuga Lake.",
@@ -58,15 +60,21 @@ export const TAXONOMY = [
     ],
     connection: 'Real places are where episodes were made, where Serling lived and is remembered, or where the franchise can be visited today. In-story places are settings named in the episodes, each linked to where it appears.',
     subs: [
-      { slug: 'real-life', title: 'Real-life places', blurb: 'Filming locations, backlots, Serling\'s homes, memorials, museums and attractions.', intro: 'Each place says what was filmed or happened there and whether you can still visit.' },
-      { slug: 'lecture-event-venues', title: 'Lecture and event venues', isNew: true, blurb: 'Halls and campuses where Serling spoke and where Twilight Zone events are held.' },
-      { slug: 'in-story', title: 'Places in the stories', blurb: 'Willoughby, Peaksville, Maple Street and the other settings of the stories.', intro: 'Fictional towns, planets and rooms from the episodes, with the episodes they appear in.' },
+      { slug: 'attractions', title: 'Attractions', blurb: 'Theme-park rides such as the Tower of Terror, and other Twilight Zone experiences you can visit.' },
+      { slug: 'filming-locations', title: 'Filming locations', blurb: 'Where episodes and films were shot, from Death Valley to Vancouver.' },
+      { slug: 'memorials-exhibits', title: 'Memorials and exhibits', isNew: true, blurb: 'Memorials, plaques, statues, museum exhibits and Serling\'s grave.' },
+      { slug: 'serling-places', title: "Rod Serling's places", isNew: true, blurb: 'Where Serling was born, grew up, studied, lived and worked.' },
+      { slug: 'sets-backlots', title: 'Sets and backlots', isNew: true, blurb: 'Studio lots and standing sets, such as MGM\'s Lot 2 and CBS Television City.' },
+      { slug: 'venues', title: 'Venues and archives', blurb: 'Halls and campuses where Serling spoke, where events are held, and where his papers are kept.' },
+      { slug: 'real-life', title: 'Other real places', blurb: 'Real places that fit no other group.', intro: 'Each place says what was filmed or happened there and whether you can still visit.' },
+      { slug: 'in-story', title: 'Settings', blurb: 'Willoughby, Peaksville, Maple Street and the other settings of the stories.', intro: 'Fictional towns, planets and rooms from the episodes, with the episodes they appear in.' },
     ],
   },
   {
     slug: 'organizations',
     title: 'Organizations',
     kind: 'section',
+    group: 'meet',
     description: 'The networks, studios, production companies, publishers, licensees and sponsors behind The Twilight Zone, and the archives, museums, foundations, award bodies and fan groups around it.',
     intro: [
       "Every part of the franchise passed through an organization. Serling's company Cayuga Productions made the original series with CBS, which broadcast it and the first revival and now owns the franchise; the original series was filmed at MGM; UPN carried the 2002 series and CBS All Access the 2019 one. Licensees carried it into print and products: Dell and Gold Key comics, TZ Publications' Twilight Zone Magazine, Gauntlet Press's script volumes, Bif Bang Pow! figures and Rittenhouse cards. Sponsors such as General Foods and Kimberly-Clark paid for the first season.",
@@ -91,31 +99,26 @@ export const TAXONOMY = [
   {
     slug: 'events',
     title: 'Events',
-    group: 'live',
+    group: 'attend',
     split: true,
-    description: 'Conventions, premieres, marathons, anniversaries, exhibitions, honors and the moments that shaped Twilight Zone history.',
+    description: 'Conventions, festivals, anniversaries, exhibitions, screenings and marathons: gatherings people could go to.',
     intro: [
-      "The Twilight Zone's history is a run of events as much as episodes: its October 2, 1959 premiere on CBS, Serling's Emmy wins, cancellation and revival, the 1982 helicopter accident on the film set and the trial that followed, the New Year's marathons that introduced the show to new generations, and the anniversaries, festivals and conventions fans still hold.",
+      "Fans have gathered around The Twilight Zone for decades: the New Year's marathons that introduced the show to new generations, Binghamton's Rod Serling festivals, conventions, and museum exhibitions. Milestones such as premieres, awards and the 1982 trial are under History.",
     ],
     connection: 'Every event here is part of the franchise\'s own history, honors Rod Serling or the show, or is a gathering devoted to it.',
-    seeAlso: [['Timeline', '/timeline/']],
+    seeAlso: [['History', '/history/'], ['Timeline', '/timeline/']],
     subs: [
       { slug: 'anniversaries-festivals', title: 'Anniversaries and festivals', blurb: 'Anniversary celebrations and festivals, including Binghamton\'s Rod Serling festivals.' },
-      { slug: 'broadcasts-marathons', title: 'Broadcasts and marathons', blurb: 'Notable airings, from the premiere to the holiday marathons.' },
+      { slug: 'broadcasts-marathons', title: 'Screenings and marathons', blurb: 'Notable airings, from the premiere to the holiday marathons.' },
       { slug: 'conventions', title: 'Conventions', blurb: 'Fan conventions and gatherings devoted to the show.' },
       { slug: 'exhibitions', title: 'Exhibitions', blurb: 'Museum shows and exhibits about Serling and the series.' },
-      { slug: 'legal', title: 'Trials, lawsuits and rights', isNew: true, blurb: 'The 1982 accident trial, lawsuits and credit disputes, sponsor censorship, and who has owned the franchise.', intro: 'The 1982 helicopter accident on the set of Twilight Zone: The Movie killed Vic Morrow and two child actors and led to a manslaughter trial that ended in acquittals in 1987. Rights to the series passed from Cayuga Productions to CBS; writers disputed credits; and Serling fought sponsors over what he could say.' },
-      { slug: 'honors-awards', title: 'Honors and awards', blurb: 'Emmys, Hugos, halls of fame, stamps and other honors to Serling and the show.', intro: 'Serling won six Emmys, three of them before The Twilight Zone, and the show won Hugo Awards in 1960, 1961 and 1962. Later honors include the Television Academy Hall of Fame and a star on the Hollywood Walk of Fame.' },
-      { slug: 'premieres', title: 'Premieres', blurb: 'Premieres of the series, revivals and films.' },
-      { slug: 'production-history', title: 'Production and broadcast history', blurb: 'Dated milestones in how each series was made, scheduled and syndicated.', intro: 'From the history notes on each series and film: pilots, renewals, format changes, cancellations and syndication.' },
-      { slug: 'serling-life', title: "Milestones in Rod Serling's life", isNew: true, blurb: 'Dated events in Serling\'s life, from his birth in 1924 to his death in 1975.' },
       { slug: 'other-events', title: 'Other events', blurb: 'Events that fit no other group.' },
     ],
   },
   {
     slug: 'series',
     title: 'TV series',
-    group: 'screen',
+    group: 'watch',
     split: true,
     description: 'Every Twilight Zone television series, plus Night Gallery, Rod Serling\'s other series and the anthology series in its tradition.',
     intro: [
@@ -131,7 +134,7 @@ export const TAXONOMY = [
   {
     slug: 'episodes',
     title: 'TV episodes',
-    group: 'screen',
+    group: 'watch',
     split: true,
     description: 'Every Twilight Zone television episode, and Night Gallery segment by segment.',
     intro: [
@@ -146,8 +149,8 @@ export const TAXONOMY = [
   },
   {
     slug: 'radio',
-    title: 'Radio',
-    group: 'audio',
+    title: 'Radio dramas',
+    group: 'listen',
     split: true,
     description: 'The Twilight Zone Radio Dramas and Rod Serling\'s radio work: series and every episode.',
     intro: [
@@ -164,7 +167,7 @@ export const TAXONOMY = [
   {
     slug: 'podcasts',
     title: 'Podcasts',
-    group: 'audio',
+    group: 'listen',
     split: true,
     description: 'Podcasts devoted to The Twilight Zone, and notable single episodes of other podcasts.',
     intro: [
@@ -179,7 +182,7 @@ export const TAXONOMY = [
   {
     slug: 'movies',
     title: 'Movies',
-    group: 'screen',
+    group: 'watch',
     split: true,
     description: 'Twilight Zone films, Rod Serling\'s films, documentaries, and the films linked to specific episodes.',
     intro: [
@@ -201,7 +204,7 @@ export const TAXONOMY = [
   {
     slug: 'music',
     title: 'Music',
-    group: 'audio',
+    group: 'listen',
     split: true,
     description: 'The Twilight Zone theme, its composers and scores, soundtrack releases, and the songs that name or are about the show.',
     intro: [
@@ -210,7 +213,6 @@ export const TAXONOMY = [
     ],
     connection: 'Themes and scores are part of the show itself. Songs written about it are one step away. Songs that only use the phrase "twilight zone" are tangential, and where nobody has yet checked a reference, the entry says so.',
     subs: [
-      { slug: 'composers', title: 'Composers', blurb: 'The composers who scored the series and films.' },
       { slug: 'songs', title: 'Songs', blurb: 'Songs about, titled after, or mentioning the show.' },
       { slug: 'soundtracks', title: 'Soundtracks and score releases', blurb: 'Albums and releases of the scores and themes.' },
       { slug: 'theme', title: 'The theme', blurb: 'The theme music, its covers and samples.' },
@@ -219,7 +221,7 @@ export const TAXONOMY = [
   {
     slug: 'reading',
     title: 'Reading',
-    group: 'print',
+    group: 'read',
     split: true,
     description: 'Books, comics, magazines, essays, articles and published scripts about The Twilight Zone and Rod Serling.',
     intro: [
@@ -246,7 +248,7 @@ export const TAXONOMY = [
   {
     slug: 'games',
     title: 'Games',
-    group: 'games',
+    group: 'play',
     split: true,
     description: 'Twilight Zone pinball, video games, board and card games.',
     intro: [
@@ -264,7 +266,7 @@ export const TAXONOMY = [
   {
     slug: 'artwork',
     title: 'Artwork',
-    group: 'art',
+    group: 'collect',
     split: true,
     description: 'Posters, key art, title design, illustration and art inspired by The Twilight Zone.',
     intro: [
@@ -285,8 +287,8 @@ export const TAXONOMY = [
   },
   {
     slug: 'homages',
-    title: 'Homages',
-    group: 'legacy',
+    title: 'Legacy',
+    group: 'discover',
     split: true,
     description: 'Remakes, adaptations, homages, parodies and references to The Twilight Zone across film, television, music and print, with the evidence for each.',
     intro: [
@@ -308,7 +310,7 @@ export const TAXONOMY = [
   {
     slug: 'merchandise',
     title: 'Merchandise',
-    group: 'art',
+    group: 'collect',
     split: true,
     description: 'Twilight Zone collectibles, toys, trading cards, home video releases and other licensed products.',
     intro: [
@@ -320,6 +322,7 @@ export const TAXONOMY = [
       { slug: 'collectibles', title: 'Collectibles', blurb: 'Replicas, stamps and other memorabilia.' },
       { slug: 'home-media', title: 'Home video and streaming', blurb: 'VHS, laserdisc, DVD, Blu-ray and streaming releases.' },
       { slug: 'household-apparel', title: 'Household and apparel', blurb: 'Clothing, homewares and everyday goods.' },
+      { slug: 'masks-and-costumes', title: 'Masks and costumes', blurb: 'Licensed masks and costumes to wear.' },
       { slug: 'other-merchandise', title: 'Other merchandise', blurb: 'Products that fit no other group.' },
       { slug: 'replicas', title: 'Prop replicas', isNew: true, blurb: 'Licensed replicas of props such as Talky Tina and the Mystic Seer.' },
       { slug: 'toys-figures', title: 'Toys and figures', blurb: 'Action figures, bobbleheads and vinyl figures.' },
@@ -329,7 +332,7 @@ export const TAXONOMY = [
   {
     slug: 'lectures',
     title: 'Lectures',
-    group: 'live',
+    group: 'attend',
     split: true,
     description: "Rod Serling's lectures and speeches, academic talks about the show, and The Twilight Zone in the classroom.",
     intro: [
@@ -345,18 +348,38 @@ export const TAXONOMY = [
   },
   // ---- Categories added during research (flagged new) ----
   {
-    slug: 'stage',
-    title: 'Stage and attractions',
-    group: 'live',
+    slug: 'history',
+    title: 'History',
+    group: 'discover',
     isNew: true,
     split: true,
-    description: 'Twilight Zone stage adaptations, live readings, and the Tower of Terror and other attractions.',
+    description: 'Milestones: premieres, awards, production and broadcast history, trials and rights, and Rod Serling\'s life.',
     intro: [
-      'The stories work on stage: Anne Washburn\'s adaptation played at London\'s Almeida Theatre in 2017 and the West End after, and theatre companies across America stage episodes from the published scripts. Disney\'s The Twilight Zone Tower of Terror opened at Walt Disney World in 1994, with later versions in California and Paris.',
+      "The Twilight Zone premiered on CBS on October 2, 1959. Serling won Emmys for it, it won three Hugo Awards, and it was cancelled, revived and syndicated around the world. In 1982 a helicopter accident on the set of Twilight Zone: The Movie killed Vic Morrow and two child actors and led to a manslaughter trial that ended in acquittals in 1987.",
+      'Each milestone is dated and sourced, and the Timeline plots them all in order.',
     ],
-    connection: 'Official entries are licensed productions and attractions; unofficial ones are fan stagings and experiences built on the show without a license.',
+    connection: 'Every milestone is part of the franchise\'s own history or Rod Serling\'s life.',
+    seeAlso: [['Timeline', '/timeline/'], ['Events', '/events/']],
     subs: [
-      { slug: 'attractions', title: 'Attractions', blurb: 'Theme park rides, escape rooms and experiences.' },
+      { slug: 'honors-awards', title: 'Honors and awards', blurb: 'Emmys, Hugos, halls of fame, stamps and other honors to Serling and the show.', intro: 'Serling won six Emmys, three of them before The Twilight Zone, and the show won Hugo Awards in 1960, 1961 and 1962. Later honors include the Television Academy Hall of Fame and a star on the Hollywood Walk of Fame.' },
+      { slug: 'premieres', title: 'Premieres', blurb: 'Premieres of the series, revivals and films.' },
+      { slug: 'production-history', title: 'Production and broadcast history', blurb: 'Dated milestones in how each series was made, scheduled and syndicated.', intro: 'From the history notes on each series and film: pilots, renewals, format changes, cancellations and syndication.' },
+      { slug: 'serling-life', title: "Rod Serling's life", isNew: true, blurb: 'Dated events in Serling\'s life, from his birth in 1924 to his death in 1975.' },
+      { slug: 'legal', title: 'Trials, lawsuits and rights', isNew: true, blurb: 'The 1982 accident trial, lawsuits and credit disputes, sponsor censorship, and who has owned the franchise.', intro: 'The 1982 helicopter accident on the set of Twilight Zone: The Movie killed Vic Morrow and two child actors and led to a manslaughter trial that ended in acquittals in 1987. Rights to the series passed from Cayuga Productions to CBS; writers disputed credits; and Serling fought sponsors over what he could say.' },
+    ],
+  },
+  {
+    slug: 'stage',
+    title: 'Stage',
+    group: 'watch',
+    isNew: true,
+    split: true,
+    description: 'Twilight Zone stage adaptations and live readings.',
+    intro: [
+      'The stories work on stage: Anne Washburn\'s adaptation played at London\'s Almeida Theatre in 2017 and the West End after, and theatre companies across America stage episodes from the published scripts.',
+    ],
+    connection: 'Official entries are licensed productions; unofficial ones are stagings built on the show without a license. Theme-park attractions are under Places.',
+    subs: [
       { slug: 'live-readings', title: 'Live readings', blurb: 'Staged readings and live audio performances.' },
       { slug: 'theatre', title: 'Theatre', blurb: 'Stage plays and productions.' },
     ],
@@ -376,18 +399,29 @@ export function sortKey(title) {
 
 export const CATEGORY = Object.fromEntries(TAXONOMY.map((c) => [c.slug, c]));
 const byTitle = (a, b) => sortKey(a.title).localeCompare(sortKey(b.title));
-/** Top-level groupings of categories (Adam, 2026-11-20 22:05 UTC), in display order. */
-export const GROUPS = [
-  { slug: 'screen', title: 'Screen', blurb: 'Television series and episodes, movies, documentaries and specials.' },
-  { slug: 'audio', title: 'Audio', blurb: 'Radio dramas, podcasts and music.' },
-  { slug: 'print', title: 'Print and literature', blurb: 'Books, comics, magazines, essays, articles and scripts.' },
-  { slug: 'games', title: 'Games', blurb: 'Pinball, video, board and card games.' },
-  { slug: 'live', title: 'Live and experiences', blurb: 'Events, lectures, stage productions and attractions.' },
-  { slug: 'art', title: 'Art and collectibles', blurb: 'Artwork, props, merchandise and collectibles.' },
-  { slug: 'legacy', title: 'Legacy', blurb: 'Homages, parodies, references, and the show in everyday language.' },
-].map((g) => ({ ...g, categories: TAXONOMY.filter((c) => c.group === g.slug) }));
-/** Where a group's page is: its own page when it holds several categories, else its one category. */
-export const groupHref = (g) => (g.categories.length === 1 ? `/${g.categories[0].slug}/` : `/explore/${g.slug}/`);
+/**
+ * The nine verbs (Adam, 2026-11-21; site/INFORMATION_ARCHITECTURE.md): what a visitor wants to do. Each
+ * holds categories, A-Z; Meet and Visit open the directories. Pages at /<verb>/; the old /explore/<group>/
+ * pages redirect (OLD_GROUPS).
+ */
+export const VERBS = [
+  { slug: 'watch', title: 'Watch', blurb: 'TV series and episodes, movies, documentaries and the stage.' },
+  { slug: 'listen', title: 'Listen', blurb: 'Radio dramas, podcasts, songs, soundtracks and the theme.' },
+  { slug: 'read', title: 'Read', blurb: 'Books, comics, magazines, scripts, essays, articles and websites.' },
+  { slug: 'play', title: 'Play', blurb: 'Pinball, video games, board and card games.' },
+  { slug: 'collect', title: 'Collect', blurb: 'Artwork, props, posters, merchandise and collectibles.' },
+  { slug: 'attend', title: 'Attend', blurb: 'Conventions, festivals, exhibitions, screenings, lectures and talks.' },
+  { slug: 'discover', title: 'Discover', blurb: 'The history behind the show and everything it inspired.' },
+  { slug: 'meet', title: 'Meet', blurb: 'The people who made it, its characters, and the organizations around it.' },
+  { slug: 'visit', title: 'Visit', blurb: 'Real places, from filming locations to the Tower of Terror, and the settings of the stories.' },
+].map((g) => ({ ...g, href: `/${g.slug}/`, categories: TAXONOMY.filter((c) => c.group === g.slug).sort(byTitle) }));
+export const GROUPS = VERBS;
+export const groupHref = (g) => g.href;
+export const verbOf = (catSlug) => VERBS.find((v) => v.categories.some((c) => c.slug === catSlug));
+/** Old group pages and the verb that replaced each. */
+export const OLD_GROUPS = { screen: 'watch', audio: 'listen', print: 'read', games: 'play', live: 'attend', art: 'collect', legacy: 'discover' };
+/** Reading subcategories that are topics, not formats: shown as collections on Read. */
+export const READ_COLLECTIONS = ['accident-and-trial', 'anniversary-coverage', 'cast-and-crew-memoirs', 'foreign-language', 'serling-foundation-papers', 'serling-own-writing'];
 
 /** People, Places, Organizations, in that order. */
 export const SECTIONS = TAXONOMY.filter((c) => c.kind === 'section');
@@ -433,6 +467,11 @@ export { SERIES_LABEL };
 const CONN_SUB = {
   'official-adaptation': 'adaptations-remakes', remake: 'adaptations-remakes', 'inspired-by': 'inspired-by',
   homage: 'homages', parody: 'parodies', reference: 'references', 'lyric-mention': 'references',
+};
+/** A real place's subcategory, from its kind. */
+const LOC_SUB = {
+  attraction: 'attractions', 'filming-location': 'filming-locations', memorial: 'memorials-exhibits', 'museum-exhibit': 'memorials-exhibits',
+  'serling-place': 'serling-places', 'backlot-set': 'sets-backlots', 'event-venue': 'venues', archive: 'venues',
 };
 const LOC_GROUP = {
   'backlot-set': 'Studio backlots and sets', 'filming-location': 'Filming locations', 'serling-place': "Rod Serling's places",
@@ -493,6 +532,29 @@ const ALIASES = {
   'artwork/makeup-and-production-design': ['artwork', 'production-design'],
   'artwork/exhibitions': ['events', 'exhibitions', 'Art exhibitions'],
 };
+/**
+ * The nine-verb structure (Adam, 2026-11-21) moved some subcategories. Every placement, however it was
+ * made, passes through here: milestones go from Events to History, attractions from Stage to Places,
+ * composers from Music to People, and two one-record subcategories fold into their neighbours.
+ */
+const MOVES = {
+  'events/honors-awards': ['history', 'honors-awards'],
+  'events/premieres': ['history', 'premieres'],
+  'events/production-history': ['history', 'production-history'],
+  'events/serling-life': ['history', 'serling-life'],
+  'events/legal': ['history', 'legal'],
+  'stage/attractions': ['places', 'attractions'],
+  'music/composers': ['people', 'composers'],
+  'places/lecture-event-venues': ['places', 'venues'],
+  'merchandise/ornaments': ['merchandise', 'household-apparel'],
+  'games/slot-and-casino-games': ['games', 'pinball-arcade'],
+};
+export function remap(cat, sub) {
+  const m = MOVES[`${cat}/${sub}`];
+  return m ? { cat: m[0], sub: m[1] } : { cat, sub };
+}
+/** Old category addresses and where they live now, for redirects. */
+export const MOVED_PATHS = Object.fromEntries(Object.entries(MOVES).map(([k, [c, s]]) => [`/${k}/`, `/${c}/${s}/`]));
 function alias(cat, sub) {
   const a = ALIASES[`${cat}/${sub}`] ?? ALIASES[`${cat}/*`];
   if (!a) return { cat, sub };
@@ -546,7 +608,7 @@ export function contentParents(col, d) {
 export function place(col, id, d, ctx = {}) {
   /** @type {{cat: string, sub: string, group?: string}[]} */
   const out = [];
-  const add = (cat, sub, group) => out.push({ cat, sub, group });
+  const add = (cat, sub, group) => out.push({ ...remap(cat, sub), group });
   const asub = ctx.assessSub?.(`${col}/${id}`);
   const tags = d.tags ?? [];
   const subtype = lc(d.subtype);
@@ -636,8 +698,7 @@ export function place(col, id, d, ctx = {}) {
       break;
     case 'locations':
       if (d.kind === 'in-story') add('places', 'in-story');
-      else add('places', 'real-life', LOC_GROUP[d.kind] ?? 'Other places');
-      if (d.kind === 'attraction') add('stage', 'attractions', 'Places');
+      else add('places', LOC_SUB[d.kind] ?? 'real-life');
       break;
     case 'organizations':
       add('organizations', ORG_SUB[d.kind] ?? 'other-organizations');
@@ -710,7 +771,7 @@ function placeWork(d, st, add) {
       else add('stage', 'theatre');
       return;
     case 'attraction':
-      add('stage', 'attractions', /ride/.test(st) ? 'Rides' : /museum|exhibit/.test(st) ? 'Exhibits' : undefined);
+      add('places', 'attractions', /ride/.test(st) ? 'Rides' : /museum|exhibit/.test(st) ? 'Exhibits' : 'Attractions');
       if (/museum|exhibit/.test(st)) add('events', 'exhibitions');
       return;
     case 'event':
@@ -729,7 +790,7 @@ function placeWork(d, st, add) {
       add('events', 'conventions');
       return;
     case 'memorial':
-      add('places', 'real-life', 'Memorials');
+      add('places', 'memorials-exhibits');
       add('events', 'honors-awards', 'Memorials');
       return;
     case 'parody':
@@ -813,7 +874,7 @@ export function explicitPlacements(d) {
     const [cat, sub] = s.split('/');
     const a = alias(cat, sub);
     if (a.content) continue;
-    out.push({ cat: a.cat, sub: a.sub, group: a.group, explicit: true });
+    out.push({ ...remap(a.cat, a.sub), group: a.group, explicit: true });
   }
   return out;
 }
@@ -845,7 +906,7 @@ export function isOfficial(col, d, p, ctx = {}) {
     case 'radio/original-stories': case 'radio/unmade-scripts':
       return p.group ? !/^(Episodes|Segments|Sketches|Web series)$/.test(p.group) : true;
     case 'movies/twilight-zone-films': case 'movies/rod-serling-films': case 'movies/unmade-projects': return !unoff;
-    case 'music/theme': case 'music/soundtracks': case 'music/composers': return !unoff;
+    case 'music/theme': case 'music/soundtracks': return !unoff;
     case 'reading/comics': return !unoff && (OFFICIAL_PUBLISHER.test(pub) || off);
     case 'reading/magazines': return !unoff && (/twilight zone magazine|night cry/i.test(d.magazine ?? '') || /tz publications|montcalm/.test(pub));
     case 'reading/scripts': case 'reading/serling-own-writing': return !unoff;
@@ -855,9 +916,8 @@ export function isOfficial(col, d, p, ctx = {}) {
     case 'artwork/art-illustration': return off;
     case 'homages/adaptations-remakes': return d.kind === 'official-adaptation' || off;
     case 'lectures/serling-lectures': return true;
-    case 'events/premieres': case 'events/production-history': case 'events/honors-awards': case 'events/serling-life':
-    case 'events/legal': case 'events/broadcasts-marathons': return true;
-    case 'stage/attractions': return !unoff && (off || /disney/.test(text));
+    case 'history/premieres': case 'history/production-history': case 'history/honors-awards': case 'history/serling-life':
+    case 'history/legal': case 'events/broadcasts-marathons': return true;
     default: break;
   }
   if (p.cat === 'homages') return false;

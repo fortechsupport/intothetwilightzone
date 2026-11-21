@@ -7,7 +7,7 @@ import EntryList from '../../components/EntryList.astro';
 import EntityIndex from '../../components/EntityIndex.astro';
 import SectionSummary from '../../components/SectionSummary.astro';
 import { catalog, countOf, type CatInfo } from '../../lib/catalog';
-import { GROUPS, groupHref } from '../../lib/taxonomy.mjs';
+import { verbOf } from '../../lib/taxonomy.mjs';
 
 export async function getStaticPaths() {
   const cats = await catalog();
@@ -24,11 +24,11 @@ const canSplit = c.split || c.slug === 'organizations';
 const offN = (list: { official?: boolean }[]) => list.filter((e) => e.official === true).length;
 const allEntries = [...new Map(c.subs.flatMap((s) => s.entries.map((e) => [e.key, e]))).values()];
 const totalOff = offN(allEntries);
-const group = GROUPS.find((g) => g.slug === (c as any).group);
+const group = verbOf(c.slug);
 const NOUN: Record<string, string> = { people: 'people', places: 'places', organizations: 'organizations' };
 ---
 <Base title={c.title} description={c.description}>
-  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a>{group && group.categories.length > 1 && <> / <a href={groupHref(group)}>{group.title}</a></>}</p>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a>{group && <> / <a href={group.href}>{group.title}</a></>}</p>
   <h1>{c.title} {c.isNew && <span class="tag new" title="Added during research; Adam decides whether to keep it">new</span>}</h1>
   <p class="lead">{total.toLocaleString('en-US')} {total === 1 ? 'entry' : 'entries'}{section ? `, in ${subs.length} kinds` : ` in ${subs.length} ${subs.length === 1 ? 'subcategory' : 'subcategories'}`}{canSplit && totalOff > 0 && totalOff < total && `, ${totalOff.toLocaleString('en-US')} official and ${(total - totalOff).toLocaleString('en-US')} unofficial or inspired`}.</p>
   {c.intro.map((p) => <p set:html={p} />)}

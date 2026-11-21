@@ -2,11 +2,11 @@
 import Base from '../layouts/Base.astro';
 import TodayPanel from '../components/fan/TodayPanel.astro';
 import { catalog, countOf, mediaLibrary } from '../lib/catalog';
-import { SECTIONS, GROUPS, groupHref, LIBRARY_TYPES } from '../lib/taxonomy.mjs';
+import { LIBRARY_TYPES } from '../lib/taxonomy.mjs';
+import { navModel } from '../lib/nav';
 const cat = await catalog();
 const all = [...cat.values()];
-const sections = SECTIONS.map((s) => all.find((c) => c.slug === s.slug)!).filter(Boolean);
-const groups = GROUPS.map((g) => ({ ...g, cats: g.categories.map((c) => cat.get(c.slug)).filter(Boolean) as typeof all }));
+const verbs = await navModel();
 const lib = await mediaLibrary();
 const libCounts = LIBRARY_TYPES.map(([k, label]) => [k, label, lib.filter((i) => i.type === k).length] as const).filter(([, , n]) => n);
 const jsonld = {
@@ -38,39 +38,26 @@ const jsonld = {
   <TodayPanel compact />
 
   <h2>Explore the Twilight Zone</h2>
-  <p class="small muted">Seven groups, by medium. Each category is split into official items and unofficial or inspired ones. Reviews, interviews, documents, advertisements and other media appear on the pages they belong to and all together in the <a href="/media/">Media Library</a>. <a href="/categories/">See every subcategory</a>.</p>
-  {groups.map((g) => (
-    <section class="group-block">
-      <h3 class="group-title"><a href={groupHref(g)}>{g.title}</a></h3>
-      <p class="small muted">{g.blurb}</p>
-      <div class="grid">
-        {g.cats.map((c) => (
-          <a class="card" href={`/${c.slug}/`}>
-            <span class="count">{countOf(c).toLocaleString('en-US')}</span>
-            <h3>{c.title}{c.isNew && <span class="tag new">new</span>}</h3>
-            <p>{c.subs.filter((x) => x.entries.length).map((x) => x.title).join(' · ')}</p>
-          </a>
-        ))}
-      </div>
-    </section>
-  ))}
-  <h2>People, places, organizations and media</h2>
-  <p class="small muted">The directories every category links to, and the Media Library. Each has a sortable, filterable index showing every page an entry appears on.</p>
-  <div class="grid">
-    {sections.map((c) => (
-      <a class="card" href={`/${c.slug}/`}>
-        <span class="count">{countOf(c).toLocaleString('en-US')}</span>
-        <h3>{c.title}{c.isNew && <span class="tag new">new</span>}</h3>
-        <p>{c.subs.filter((x) => x.entries.length).map((x) => x.title).join(' · ')}</p>
-      </a>
+  <p class="small muted">Nine ways in, by what you want to do. Every category shows official items and unofficial or inspired ones on separate shelves. Reviews, interviews, clips and documents appear on the pages they belong to and all together in the <a href="/media/">Media Library</a>.</p>
+  <div class="verb-grid">
+    {verbs.map((v) => (
+      <section class="verb-tile">
+        <h3><a href={v.href}>{v.title}</a> <span class="count-pill">{v.n.toLocaleString('en-US')}</span></h3>
+        <p class="small muted">{v.blurb}</p>
+        <ul class="plain">{(v.cols.length === 1 ? v.cols[0].subs : v.cols).map((c) => <li><a href={c.href}>{c.title}</a> <span class="n">{c.n.toLocaleString('en-US')}</span></li>)}</ul>
+      </section>
     ))}
+  </div>
+
+  <h2>Media Library</h2>
+  <p class="small muted">Every video, recording, image, document, review, interview, quote, advertisement and link on the site, in one sortable, filterable table that shows every page each item appears on.</p>
+  <div class="grid">
     <a class="card" href="/media/">
       <span class="count">{lib.length.toLocaleString('en-US')}</span>
       <h3>Media Library</h3>
       <p>{libCounts.map(([, l, n]) => `${l} (${n.toLocaleString('en-US')})`).join(' · ')}</p>
     </a>
   </div>
-
   <h2>Features</h2>
   <ul>
     <li><a href="/rod-serling/">Rod Serling</a>: his life and work beyond The Twilight Zone.</li>

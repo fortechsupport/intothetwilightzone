@@ -10,29 +10,23 @@ const preview = reviewMode() !== 'public';
 const { title, description = 'An independent, non-commercial living history of The Twilight Zone: every series, episode, person, and the films, songs and stories it inspired.', jsonld, noindex } = Astro.props;
 const fullTitle = title === 'Home' ? 'IntoTheTwilightZone.com' : `${title} · IntoTheTwilightZone.com`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
-// Navigation. The primary bar is the seven category groups (Screen, Audio, Print...), each opening a
-// panel of its categories and their subcategories. The utility bar above it holds the directories,
-// the Media Library and the features; add utility links to `nav`.
-import { GROUPS, groupHref } from '../lib/taxonomy.mjs';
-import { catalog } from '../lib/catalog';
-const cats = await catalog();
-const groupsNav = GROUPS.map((g) => ({
-  ...g,
-  href: groupHref(g),
-  cats: g.categories.map((c) => cats.get(c.slug)).filter(Boolean).map((c) => ({ slug: c!.slug, title: c!.title, isNew: c!.isNew, subs: c!.subs.filter((x) => x.entries.length).map((x) => ({ slug: x.slug, title: x.title, n: x.entries.length })) })),
-}));
+// Navigation (Adam, 2026-11-21). The main bar is the nine verbs, each opening a panel of its categories
+// and their subcategories with counts (model in src/lib/nav.ts). The utility bar above holds Search, the
+// Media Library and the features; add utility links to `nav`. On phones the verbs fold into one Menu button.
+import { navModel } from '../lib/nav';
+const verbs = await navModel();
 const nav = [
   ['Start here', '/start/'],
-  ['People', '/people/'],
-  ['Places', '/places/'],
-  ['Organizations', '/organizations/'],
+  ['Search', '/search/'],
   ['Media Library', '/media/'],
+  ['Timeline', '/timeline/'],
   ['Rod Serling', '/rod-serling/'],
   ['Night Gallery', '/night-gallery/'],
-  ['Timeline', '/timeline/'],
-  ['All categories', '/categories/'],
-  ['Search', '/search/'],
+  ['Everything A to Z', '/categories/'],
+  ['About', '/about/'],
 ];
+// Record pages belong to a verb too, so its tab is marked while you read one.
+const RECORD_VERB: Record<string, string> = { series: 'watch', episodes: 'watch', films: 'watch', '1959series': 'watch', '1985series': 'watch', '2002series': 'watch', '2019series': 'watch', songs: 'listen', books: 'read', comics: 'read', magazines: 'read', essays: 'read', characters: 'meet' };
 const path = Astro.url.pathname;
 import { correctionUrl } from '../lib/fan/contribute';
 // One "Type" filter for site search, from the first part of the address.
@@ -42,6 +36,8 @@ const TYPE_LABEL: Record<string, string> = {
   songs: 'Music', radio: 'Radio', podcasts: 'Podcasts', works: 'Other works', quotes: 'Quotes', paths: 'Guides', media: 'Media',
 };
 const searchType = TYPE_LABEL[path.split('/')[1] ?? ''] ?? (path === '/' ? undefined : 'Guides and indexes');
+const first = path.split('/')[1] ?? '';
+const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) => path.startsWith(c.href)) || (v.collections ?? []).some((c) => path.startsWith(c.href)))?.slug ?? RECORD_VERB[first];
 ---
 <!doctype html>
 <html lang="en">
@@ -68,50 +64,51 @@ const searchType = TYPE_LABEL[path.split('/')[1] ?? ''] ?? (path === '/' ? undef
     <header class="site-header">
       <div class="wrap header-inner">
         <a class="brand" href="/">Into<span>The</span>TwilightZone<small>.com</small></a>
-        <nav class="utility" aria-label="Directories and features">
+        <nav class="utility" aria-label="Search and features">
           <ul>
             {nav.map(([label, href]) => (
               <li><a href={href} aria-current={path.startsWith(href) ? 'page' : undefined}>{label}</a></li>
             ))}
           </ul>
         </nav>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="verbs-bar">Menu</button>
       </div>
-      <nav class="groups-bar" aria-label="Categories">
+      <nav class="groups-bar" id="verbs-bar" aria-label="Watch, listen, read and more">
         <ul class="wrap groups">
-          {groupsNav.map((g) => {
-            const here = g.cats.some((c) => path.startsWith(`/${c.slug}/`)) || path.startsWith(`/explore/${g.slug}/`);
-            return (
-              <li class="group">
-                <details>
-                  <summary aria-current={here ? 'page' : undefined}>{g.title}</summary>
-                  <div class={`mega${g.cats.length === 1 ? ' single' : ''}`}>
-                    <div class="mega-head">
-                      <a href={g.href}><strong>{g.cats.length > 1 ? `All of ${g.title}` : `All of ${g.cats[0]?.title}`} →</strong></a>
-                      <span class="muted small">{g.blurb}</span>
-                    </div>
-                    <div class="mega-cols">
-                      {g.cats.map((c) => (
-                        <div class="mega-col">
-                          {g.cats.length > 1 && <a class="mega-cat" href={`/${c.slug}/`}>{c.title}{c.isNew && <span class="tag new">new</span>}</a>}
-                          <ul>{c.subs.map((x) => <li><a href={`/${c.slug}/${x.slug}/`}>{x.title}</a> <span class="n">{x.n}</span></li>)}</ul>
-                        </div>
-                      ))}
-                    </div>
+          {verbs.map((v) => (
+            <li class="group">
+              <details>
+                <summary aria-current={hereVerb === v.slug ? 'page' : undefined}>{v.title}</summary>
+                <div class={`mega${(v.menu ?? v.cols).every((c) => !c.subs.length) ? ' flat' : ''}`}>
+                  <div class="mega-head">
+                    <a href={v.href}><strong>All of {v.title} →</strong></a>
+                    <span class="muted small">{v.blurb}</span>
                   </div>
-                </details>
-              </li>
-            );
-          })}
+                  <div class="mega-cols">
+                    {(v.menu ?? v.cols).map((c) => (
+                      <div class="mega-col">
+                        <a class="mega-cat" href={c.href}>{c.title}{c.isNew && <span class="tag new">new</span>}</a> <span class="n">{c.n}</span>
+                        {c.subs.length > 0 && <ul>{c.subs.map((x) => <li><a href={x.href}>{x.title}</a> <span class="n">{x.n}</span></li>)}</ul>}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </details>
+            </li>
+          ))}
         </ul>
+        <ul class="wrap mobile-util">{nav.map(([label, href]) => <li><a href={href}>{label}</a></li>)}</ul>
       </nav>
     </header>
     <script is:inline>
-      // One menu open at a time; close on outside click or Escape.
+      // One menu open at a time; close on outside click or Escape. On phones the Menu button shows the verbs.
       (() => {
         const ds = [...document.querySelectorAll('.groups-bar details')];
         ds.forEach((d) => d.addEventListener('toggle', () => { if (d.open) ds.forEach((o) => o !== d && (o.open = false)); }));
         document.addEventListener('click', (e) => { if (!e.target.closest('.groups-bar')) ds.forEach((d) => (d.open = false)); });
         document.addEventListener('keydown', (e) => { if (e.key === 'Escape') ds.forEach((d) => (d.open = false)); });
+        const t = document.querySelector('.menu-toggle'), bar = document.getElementById('verbs-bar');
+        t?.addEventListener('click', (e) => { e.stopPropagation(); const open = bar.classList.toggle('open'); t.setAttribute('aria-expanded', String(open)); });
       })();
     </script>
     <main id="main" class="wrap" data-pagefind-body={noindex ? undefined : ''}>
