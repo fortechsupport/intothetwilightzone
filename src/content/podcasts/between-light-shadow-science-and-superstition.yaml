@@ -5,8 +5,28 @@ first_episode: '2020-01-04'
 links:
   podchaser: https://www.podchaser.com/podcasts/between-light-shadow-science-s-1136517
   rss: https://anchor.fm/s/112300a8/podcast/rss
+  apple: https://podcasts.apple.com/us/podcast/between-light-shadow-science-superstition/id1493441439
+  spotify: https://open.spotify.com/show/1fzPtn0WGmvk73NGnDG2JS
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: An independent fan podcast that discusses episodes of The Twilight Zone, hosted by Tony, with its first
-  episode in January 2020. Its name and RSS feed are listed; how many episodes it covers has not been checked.
+  note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
+- title: Apple Podcasts directory lookup (iTunes API), id 1493441439
+  url: https://itunes.apple.com/lookup?id=1493441439&entity=podcast
+  note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
+- title: Feedspot - 19 Best The Twilight Zone Podcasts
+  url: https://podcast.feedspot.com/the_twilight_zone_podcasts
+description: A weekly show from Brown Green Blog Productions, hosted by Tony, that mixes episode reviews of the
+  original series with background on Rod Serling and trivia, presented in the style of old-time radio. It began
+  in January 2020; Apple lists 58 episodes, the last in December 2022.
+status: ended
+episode_count: 58
+episode_count_as_of: '2026-11-21'
+covers:
+- '1959'
+organizations:
+- Brown Green Blog Productions
+research_confidence: medium
+tags:
+- research-2026-11-21
+last_verified: '2026-11-21'
+relevance: core

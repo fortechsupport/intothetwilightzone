@@ -1,0 +1,20 @@
+title: Season 3 of The Twilight Zone premieres (1961)
+kind: event
+subtype: premiere
+year: 1961
+description: The third season began on September 15, 1961, with "Two," starring Elizabeth Montgomery and Charles
+  Bronson, and aired Fridays at 10 p.m. on CBS. At 37 episodes it was the longest season of the original series.
+details:
+  date: '1961-09-15'
+  network: CBS
+  first_episode: 1959/two
+sources:
+- title: 'Wikipedia: The Twilight Zone (1959 TV series, season 3)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_3)
+categories:
+- events/premieres
+research_confidence: high
+relevance: core
+last_verified: '2026-11-21'
+tags:
+- research-2026-11-21

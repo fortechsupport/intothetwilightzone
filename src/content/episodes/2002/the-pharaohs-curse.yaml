@@ -12,6 +12,7 @@ directors:
 cast:
 - Shawn Hatosy
 - Xander Berkeley
+- Lindy Booth
 narrator: Forest Whitaker
 synopsis: An ambitious young illusionist worms his way into the lives of a veteran magician and his wife, determined
   to learn the secret behind their legendary act.
@@ -22,6 +23,9 @@ themes:
 ids:
   imdb: tt0734797
 sources:
+- title: "The Twilight Zone (2002) season 1 cast and characters - scifi-movies.com"
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+  note: Added cast confirmed by this source (research pass 2026-11-21).
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 - title: The Twilight Zone (2002 TV series) - Wikipedia

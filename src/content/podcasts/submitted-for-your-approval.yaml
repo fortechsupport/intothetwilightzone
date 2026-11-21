@@ -1,13 +1,41 @@
-title: Submitted for Your Approval
+title: Submitted For Your Approval - A Twilight Zone Podcast
 hosts:
 - Brandon Cruz
 first_episode: '2015-12-29'
 links:
   podchaser: https://www.podchaser.com/podcasts/submitted-for-your-approval-a-91636
   rss: https://feeds.redcircle.com/66397e15-6c76-4ffc-831b-9e441ca57033
+  apple: https://podcasts.apple.com/podcast/id1071239521
+  spotify: https://open.spotify.com/show/6TgQgzJDyWnwtnwsKyf7Zy
+  website: https://redcircle.com/shows/submitted-for-your-approval-a-twilight-zone-podcast
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: An independent fan podcast that discusses episodes of The Twilight Zone, hosted by Brandon Cruz, with
-  its first episode in December 2015. Its name and RSS feed are listed; how many episodes it covers has not been
-  checked.
+  note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
+- title: Apple Podcasts directory lookup (iTunes API), id 1071239521
+  url: https://itunes.apple.com/lookup?id=1071239521&entity=podcast
+  note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
+- title: Feedspot - 19 Best The Twilight Zone Podcasts
+  url: https://podcast.feedspot.com/the_twilight_zone_podcasts
+- title: Blubrry - Submitted For Your Approval archive
+  url: https://blubrry.com/submitted_for_your_approval__/archive/?pi=1
+description: Brandon Cruz, with regular and guest co-hosts, watches the original series from the start and talks
+  through each episode's characters, themes and ideas. It began in December 2015 and had reached the third season
+  (episodes such as "It's a Good Life" and "Once Upon a Time"); Apple lists 94 episodes, the latest in April 2023.
+  Cruz later reviewed season 3 as a guest on the Anthology podcast in April 2024.
+status: unknown
+episode_count: 94
+episode_count_as_of: '2026-11-21'
+covers:
+- '1959'
+featured_episodes:
+- title: S4YA S3E8 It's a Good Life
+  url: https://blubrry.com/submitted_for_your_approval__/46914794/s4ya-s3e8-its-a-good-life-twilight-zone/
+  covers_episode: 1959/its-a-good-life
+- title: S4YA S3E13 Once Upon a Time
+  url: https://blubrry.com/submitted_for_your_approval__/50824984/s4ya-s313-once-upon-a-time-twilight-zone/
+  covers_episode: 1959/once-upon-a-time
+research_confidence: medium
+tags:
+- research-2026-11-21
+last_verified: '2026-11-21'
+relevance: core

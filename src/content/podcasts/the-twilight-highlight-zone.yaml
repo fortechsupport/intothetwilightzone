@@ -7,8 +7,42 @@ links:
   podchaser: https://www.podchaser.com/podcasts/the-twilight-highlight-zone-40544
   rss: https://pinecast.com/feed/the-twilight-highlight-zone
   youtube: https://www.youtube.com/playlist?list=PL6FR1Lkt9IiPhfUyWGmA8zjvzDtW4Twa_
+  apple: https://podcasts.apple.com/podcast/id688783670
+  spotify: https://open.spotify.com/show/3HH6pnT2ZCeCriPWUqIrfp
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: A podcast on The Twilight Zone from Game Informer editors, hosted by Jeff Cork and Ben Hanson, with
-  its first episode in April 2013. Its name and RSS feed are listed; how many episodes it covers has not been checked.
+  note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
+- title: Apple Podcasts directory lookup (iTunes API), id 688783670
+  url: https://itunes.apple.com/lookup?id=688783670&entity=podcast
+  note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
+- title: Million Podcasts - Best The Twilight Zone Podcasts
+  url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
+- title: 'Game Informer - The Twilight Highlight Zone Reboot: A Traveler'
+  url: https://www.gameinformer.com/twilight-highlight-zone/2019/04/18/the-twilight-highlight-zone-reboot-a-traveler
+description: Game Informer editors Ben Hanson and Jeff Cork began this side podcast in April 2013, reviewing episodes
+  of the original series; it later moved with Hanson to MinnMax. In 2019 they reviewed the Jordan Peele revival
+  week by week on gameinformer.com ("A Traveler", "Point of Origin"). Apple lists 55 episodes, the last in February
+  2020.
+status: ended
+episode_count: 55
+episode_count_as_of: '2026-11-21'
+covers:
+- '1959'
+- '2019'
+organizations:
+- Game Informer
+- MinnMax
+featured_episodes:
+- title: 'The Twilight Highlight Zone Reboot: A Traveler'
+  date: '2019-04-18'
+  url: https://www.gameinformer.com/twilight-highlight-zone/2019/04/18/the-twilight-highlight-zone-reboot-a-traveler
+  covers_episode: 2019/a-traveler
+- title: 'The Twilight Highlight Zone Reboot: Point of Origin'
+  date: '2019-05-15'
+  url: https://www.gameinformer.com/twilight-highlight-zone/2019/05/15/the-twilight-highlight-zone-reboot-point-of-origin
+  covers_episode: 2019/point-of-origin
+research_confidence: medium
+tags:
+- research-2026-11-21
+last_verified: '2026-11-21'
+relevance: core

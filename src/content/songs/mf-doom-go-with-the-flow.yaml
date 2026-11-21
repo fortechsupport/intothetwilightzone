@@ -1,9 +1,22 @@
 title: Go with the Flow
-artist: MF Doom
-tz_connection: unclassified
+artist: MF DOOM
+genre: Hip-hop
+tz_connection: lyric-mention
+description: 'An early MF DOOM track, issued as a 12-inch with Sci.Fly and later collected on the Operation: Doomsday
+  (Complete) reissue. In the middle verse DOOM names Rod Serling, comparing a fast-writing rhymer to Serling turning
+  out scripts at speed. The show is not named, so the nod is to Serling as a famously prolific writer rather than
+  to a particular episode.'
+relevance: tangential
+research_confidence: medium
+tags:
+- research-2026-11-21
+- serling-mention
 sources:
+- title: 'MuzText: MF DOOM, "Go with the Flow" lyrics'
+  url: https://en.muztext.com/lyrics/mf-doom-maker-go-with-the-flow
+  note: 'Page lists the Operation: Doomsday (Complete) release.'
+- title: 'Bandcamp (official MF DOOM): "Go With the Flow (feat. Sci.Fly) [12\" Version]"'
+  url: https://mfdoom.bandcamp.com/track/go-with-the-flow-feat-sci-fly-12-version
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-research_confidence: low
-description: A song by MF Doom listed in the original research with no stated Twilight Zone connection. The tie
-  is probably a lyric line or sample, but it has not been verified.
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-21'

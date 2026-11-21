@@ -1,0 +1,31 @@
+title: 'The Sign Post Up Ahead: A Twilight Zone Podcast'
+hosts:
+- Matt Stokes
+- Patrick Perot
+description: A monthly spin-off of the 1-Week Rental movie podcast in which Matt Stokes and Patrick Perot go through
+  the original series in broadcast order, one episode per show. Apple lists 13 episodes, the latest in June 2026.
+  Not to be confused with Eric Silver and Joe Stanton's "The Signpost Up Ahead".
+status: active
+episode_count: 13
+episode_count_as_of: '2026-11-21'
+covers:
+- '1959'
+organizations:
+- Load Bearing Beams Productions
+links:
+  apple: https://podcasts.apple.com/us/podcast/the-sign-post-up-ahead-a-twilight-zone-podcast/id1793132568
+  spotify: https://open.spotify.com/show/4pjrUVpjxF94gVOhFNGHSi
+  rss: https://rss.libsyn.com/shows/565665/destinations/4890570.xml
+sources:
+- title: Apple Podcasts directory lookup (iTunes API), id 1793132568
+  url: https://itunes.apple.com/lookup?id=1793132568&entity=podcast
+  note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
+- title: Feedspot - 19 Best The Twilight Zone Podcasts
+  url: https://podcast.feedspot.com/the_twilight_zone_podcasts
+- title: Million Podcasts - Best The Twilight Zone Podcasts
+  url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
+relevance: core
+research_confidence: medium
+tags:
+- research-2026-11-21
+last_verified: '2026-11-21'

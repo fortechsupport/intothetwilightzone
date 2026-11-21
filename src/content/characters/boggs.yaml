@@ -1,0 +1,27 @@
+name: Boggs
+kind: human
+played_by:
+- Usher
+appears_in:
+- 2002/to-protect-and-serve
+description: >-
+  An idealistic young police officer forced to shoot a violent pimp to protect a woman he knows. When the pimp's
+  ghost comes back for her, Boggs follows him beyond death to stop him.
+recurring: false
+relevance: core
+sources:
+- title: The Twilight Zone (2002) season 1 cast and characters - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: The Twilight Zone (2002) - TV Tropes
+  url: https://tvtropes.org/pmwiki/pmwiki.php/Series/TheTwilightZone2002
+  note: Supporting source for plot details.
+- title: To Protect and Serve - IMDb
+  url: https://www.imdb.com/title/tt0734812/
+research_confidence: medium
+last_verified: '2026-11-21'
+categories:
+- people/characters
+tags:
+- research-2026-11-21

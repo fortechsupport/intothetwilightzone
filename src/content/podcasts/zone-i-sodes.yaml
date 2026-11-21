@@ -9,12 +9,12 @@ links:
   youtube: https://www.youtube.com/playlist?list=PLtFwYWxZ17IEC4WjQeveaKmYlvtWNH0Af
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+  note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
 - title: Apple Podcasts - Zone-i-Sodes
   url: https://podcasts.apple.com/us/podcast/id1630502455
-description: A review podcast by Scott McFarland and Brandon Davis on the Front Row Network (NPR Illinois), going through
-  the original series in order, sometimes joined by Katharine Roberts. Apple lists 23 episodes, all from 2022, ending
-  with "The Monsters Are Due on Maple Street".
+description: A review podcast by Scott McFarland and Brandon Davis on the Front Row Network (NPR Illinois), going
+  through the original series in order, sometimes joined by Katharine Roberts. Apple lists 23 episodes, all from
+  2022, ending with "The Monsters Are Due on Maple Street".
 episode_count: 23
 status: ended
 covers:
@@ -31,7 +31,7 @@ featured_episodes:
 - title: 'Episode 20: Elegy'
   date: '2022-09-02'
   url: https://podcasts.apple.com/us/podcast/episode-20-elegy/id1630502455?i=1000578126793
-  covers_episode: '1959/elegy'
+  covers_episode: 1959/elegy
 - title: 'Episode 19: The Purple Testament'
   date: '2022-08-26'
   url: https://podcasts.apple.com/us/podcast/episode-19-the-purple-testament/id1630502455?i=1000577404973
@@ -41,4 +41,10 @@ featured_episodes:
   url: https://podcasts.apple.com/us/podcast/episode-16-the-hitch-hiker/id1630502455?i=1000575092373
   covers_episode: 1959/the-hitch-hiker
 research_confidence: high
-last_verified: '2026-11-20'
+last_verified: '2026-11-21'
+organizations:
+- Front Row Network
+- NPR Illinois
+tags:
+- research-2026-11-21
+relevance: core

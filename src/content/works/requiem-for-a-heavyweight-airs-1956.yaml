@@ -1,0 +1,24 @@
+title: '"Requiem for a Heavyweight" airs on Playhouse 90 (1956)'
+kind: event
+subtype: history
+year: 1956
+description: CBS's Playhouse 90 broadcast "Requiem for a Heavyweight," Serling's drama about a washed-up boxer,
+  live on October 11, 1956. It brought him a second Emmy and a Peabody Award and was later remade as a feature film
+  (1962).
+details:
+  date: '1956-10-11'
+  network: CBS
+  film: films/requiem-for-a-heavyweight-1956-teleplay
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+- title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
+  url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+  note: Cited on the site's existing film record; not re-fetched in this pass.
+categories:
+- events/serling-life
+research_confidence: high
+relevance: related
+last_verified: '2026-11-21'
+tags:
+- research-2026-11-21

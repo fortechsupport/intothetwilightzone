@@ -1,0 +1,22 @@
+title: Unkle (Main Title Theme)
+artist: UNKLE
+genre: Trip hop
+tz_connection: theme
+description: A short instrumental by UNKLE, the Mo' Wax project of James Lavelle and DJ Shadow. WhoSampled lists
+  it as sampling a Twilight Zone TV promo, the kind of spot in which Serling previews the next week's story. The
+  track is generally placed on the 1998 album Psyence Fiction, but that was not confirmed against a tracklist here.
+relevance: tangential
+research_confidence: medium
+categories:
+- music/theme
+tags:
+- research-2026-11-21
+- sample
+sources:
+- title: 'WhoSampled: UNKLE''s ''Unkle (Main Title Theme)'' sample of TV Promo scene in The Twilight Zone'
+  url: https://www.whosampled.com/sample/348105/UNKLE-Unkle-(Main-Title-Theme)-The-Twilight-Zone-TV-Promo/
+  note: Seen as a search result title; the page itself refused fetches.
+- title: Psyence Fiction (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Psyence_Fiction
+  note: Album link from search; tracklist not opened.
+last_verified: '2026-11-21'

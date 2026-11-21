@@ -1,9 +1,19 @@
 title: Go Hard
 artist: Chamillionaire
-tz_connection: unclassified
+genre: Southern hip-hop
+tz_connection: lyric-mention
+description: A Chamillionaire track whose middle verse follows a line about turning history into a mystery with
+  a cue for the Twilight Zone theme and the words "Twilight zone". The published lyric marks the theme as a sound
+  cue, but no sample credit has been found, so it is filed as a lyric mention. Album and year not confirmed in this
+  pass.
+relevance: tangential
+research_confidence: medium
+tags:
+- research-2026-11-21
 sources:
+- title: 'Vagalume: Chamillionaire, "Go Hard" lyrics'
+  url: https://www.vagalume.com.br/chamillionaire/go-hard.html
+  note: Lyric text includes a bracketed Twilight Zone theme cue.
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-research_confidence: low
-description: A song by Chamillionaire listed in the original research with no stated Twilight Zone connection. The
-  tie is probably a lyric line or sample, but it has not been verified.
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-21'

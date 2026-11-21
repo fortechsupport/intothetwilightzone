@@ -1,0 +1,27 @@
+name: Ray Ellison
+kind: human
+played_by:
+- Eriq La Salle
+appears_in:
+- 2002/memphis
+description: >-
+  A law clerk with an inoperable brain tumor and months to live who finds himself in Memphis on the day in April
+  1968 when Martin Luther King Jr. is to be killed, and tries to stop it.
+recurring: false
+relevance: core
+sources:
+- title: The Twilight Zone (2002) season 1 cast and characters - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: The Twilight Zone (2002) - TV Tropes
+  url: https://tvtropes.org/pmwiki/pmwiki.php/Series/TheTwilightZone2002
+  note: Supporting source for plot details.
+- title: Memphis - IMDb
+  url: https://www.imdb.com/title/tt0734793/
+research_confidence: high
+last_verified: '2026-11-21'
+categories:
+- people/characters
+tags:
+- research-2026-11-21

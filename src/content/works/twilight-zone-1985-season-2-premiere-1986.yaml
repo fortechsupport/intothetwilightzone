@@ -1,0 +1,24 @@
+title: Season 2 of the 1985 revival premieres (1986)
+kind: event
+subtype: premiere
+year: 1986
+description: The revival's second season opened on September 27, 1986, with "A Saucer of Loneliness," after CBS
+  moved the show to Saturday nights. It went on hiatus a few weeks later and returned in December with mostly half-hour
+  single-story episodes.
+details:
+  date: '1986-09-27'
+  network: CBS
+  first_episode: 1985/a-saucer-of-loneliness
+sources:
+- title: 'Wikipedia: The Twilight Zone (1985 TV series)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
+- title: 'Wikipedia: List of The Twilight Zone (1985 TV series) episodes'
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+  note: Cited on the site's episode record for the date; not re-fetched in this pass.
+categories:
+- events/premieres
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-21'
+tags:
+- research-2026-11-21

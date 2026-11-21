@@ -1,4 +1,4 @@
-title: Anthology
+title: Anthology - The Twilight Zone, Science Fiction Theatre, and Sci-Fi Podcast
 hosts:
 - Matt Hurt
 first_episode: '2015-08-02'
@@ -6,8 +6,42 @@ links:
   podchaser: https://www.podchaser.com/podcasts/anthology-the-twilight-zone-sc-21971/
   rss: https://anthologypod.libsyn.com/rss
   youtube: https://www.youtube.com/playlist?list=PLPHh7R7-dA8f-ROE6KYFb8FwdZSb_Ds6x
+  apple: https://podcasts.apple.com/us/podcast/id1025501347
+  spotify: https://open.spotify.com/show/0hhVInY3UzQRBwQnFrp4gO
+  website: https://anthologypod.com/
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-description: An independent fan podcast that discusses episodes of The Twilight Zone, hosted by Matt Hurt, with
-  its first episode in August 2015. Its name and RSS feed are listed; how many episodes it covers has not been checked.
+  note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
+- title: Apple Podcasts - Anthology
+  url: https://podcasts.apple.com/podcast/id1025501347
+- title: Apple Podcasts directory lookup (iTunes API), id 1025501347
+  url: https://itunes.apple.com/lookup?id=1025501347&entity=podcast
+  note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
+- title: Million Podcasts - Best The Twilight Zone Podcasts
+  url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
+description: Matt Hurt, a science-fiction fan who had never watched The Twilight Zone, reviews the original series
+  in broadcast order, giving first impressions of each episode. Each review is paired with a spoiler-free look at
+  an episode of Science Fiction Theatre (1955), and bonus shows cover Black Mirror, Electric Dreams and the 2019
+  revival. Published by Obsessive Viewer Podcasts; Apple lists 168 episodes, the latest in April 2024, when it had
+  reached season 4.
+status: unknown
+episode_count: 168
+episode_count_as_of: '2026-11-21'
+covers:
+- '1959'
+- '2019'
+featured_episodes:
+- title: 102 - The Twilight Zone Season 3 Review with Brandon Cruz (Submitted For Your Approval Podcast)
+  date: '2024-04-05'
+- title: 103 - Actors in The Twilight Zone and The Outer Limits with Victor Gamboa (The Outer Limits Podcast)
+  date: '2024-04-12'
+- title: 105 - In His Image (Twilight Zone S04E01) + When a Camera Fails (Science Fiction Theatre S02E05)
+  date: '2024-04-29'
+  covers_episode: 1959/in-his-image
+organizations:
+- Obsessive Viewer Podcasts
+research_confidence: high
+relevance: core
+tags:
+- research-2026-11-21
+last_verified: '2026-11-21'

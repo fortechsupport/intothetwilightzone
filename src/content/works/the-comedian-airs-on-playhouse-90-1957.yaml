@@ -1,0 +1,23 @@
+title: '"The Comedian" airs on Playhouse 90 (1957)'
+kind: event
+subtype: history
+year: 1957
+description: Serling's "The Comedian," a live drama about a television comedian and the people around him, aired
+  on CBS's Playhouse 90 on February 14, 1957. It won Serling his third Emmy, for teleplay writing.
+details:
+  date: '1957-02-14'
+  network: CBS
+  film: films/the-comedian-playhouse-90
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+- title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
+  url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+  note: Cited on the site's existing film record; not re-fetched in this pass.
+categories:
+- events/serling-life
+research_confidence: medium
+relevance: related
+last_verified: '2026-11-21'
+tags:
+- research-2026-11-21
