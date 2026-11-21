@@ -1,0 +1,94 @@
+---
+// The body of a film-record page: every screen work with a page of its own, and every show page
+// (a tv-series record), which also lists its episodes, segments and sketches in the episode explorer.
+import TrackButtons from './fan/TrackButtons.astro';
+import { trackFor } from '../lib/fan/contribute';
+import RecordHeader from './RecordHeader.astro';
+import { recordType, recordContext } from '../lib/titles';
+import InCategories from './InCategories.astro';
+import Media from './Media.astro';
+import Related from './Related.astro';
+import Sources from './Sources.astro';
+import HistoryAndIntl from './HistoryAndIntl.astro';
+import EpisodeExplorer from './EpisodeExplorer.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { formatDate, personUrl, resolveRef, CONNECTION_LABELS, CONFIDENCE_LABELS } from '../lib/data';
+import { tv, explorerEntries } from '../lib/television';
+
+interface Props { f: CollectionEntry<'films'>; title?: string }
+const { f, title } = Astro.props;
+const d = f.data;
+const conns = (await getCollection('connections')).filter((c) => c.data.from === `films/${f.id}`);
+const targets = await Promise.all(conns.map(async (c) => ({ c, ep: await resolveRef(c.data.to) })));
+const show = d.kind === 'tv-series' ? tv.showByRecord(f.id) : undefined;
+const entries = show ? await explorerEntries(show.entries) : [];
+const nouns = entries.every((e) => e.kindLabel === 'Sketch') ? 'sketches' : 'episodes';
+---
+  <InCategories recKey={`films/${f.id}`} />
+  <RecordHeader type={recordType('films', d)} context={recordContext('films', d)} title={title ?? d.title} recKey={`films/${f.id}`} />
+  {(() => { const t = trackFor('films', (d as any).kind); return (t.seen || t.own) && <TrackButtons recKey={`films/${f.id}`} seen={t.seen} own={t.own} />; })()}
+  {d.parent_series && <p class="muted">{d.parent_series}</p>}
+  {d.relevance && d.relevance !== 'core' && <p class="small"><span class="tag">{d.relevance === 'related' ? 'Related to The Twilight Zone' : 'Tangential to The Twilight Zone'}</span></p>}
+  {d.summary && <p class="lead">{d.summary}</p>}
+  <dl class="facts">
+    {d.release_date && <><dt>Released</dt><dd>{formatDate(d.release_date)}</dd></>}
+    {d.rating && <><dt>Rating</dt><dd>{d.rating}</dd></>}
+    {d.runtime_min && <><dt>Runtime</dt><dd>{d.runtime_min} minutes</dd></>}
+    {d.directors.length > 0 && <><dt>Directed by</dt><dd>{d.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
+    {d.writers.length > 0 && <><dt>Written by</dt><dd>{d.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
+  </dl>
+  {d.segments.length > 0 && (
+    <section>
+      <h2>Segments</h2>
+      <ul class="plain">
+        {d.segments.map((sg) => (
+          <li>
+            <strong>{sg.title}</strong>
+            {sg.adapts_episode && <> · adapts <a href={`/episodes/${sg.adapts_episode}/`}>{sg.adapts_episode.split('/')[1].replace(/-/g, ' ')}</a></>}
+            {sg.summary && <p class="small">{sg.summary}</p>}
+            {sg.source_title && <div class="small">Based on “{sg.source_title}”{sg.source_authors.length > 0 && <> by {sg.source_authors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}</div>}
+            {sg.directors.length > 0 && <div class="small">Directed by {sg.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</div>}
+            {sg.writers.length > 0 && <div class="small">Written by {sg.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</div>}
+            {sg.cast.length > 0 && <div class="small">Cast: {sg.cast.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</div>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+  {targets.length > 0 && (
+    <section>
+      <h2>Twilight Zone connection</h2>
+      <ul class="plain">
+        {targets.map(({ c, ep }) => (
+          <li>
+            <span class="tag">{CONNECTION_LABELS[c.data.kind]}</span>
+            {ep ? <a href={ep.url}>{ep.title}</a> : c.data.to}{ep && <span class="muted small"> ({ep.kind})</span>}
+            {' '}<span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span>
+            {c.data.evidence && <p class="small">{c.data.evidence}</p>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+  <slot />
+  {entries.length > 0 && (
+    <section>
+      <h2>{nouns === 'sketches' ? 'Sketches' : 'Episodes'} <span class="muted small">({entries.length} {entries.length === 1 ? 'entry' : 'entries'})</span></h2>
+      <p class="small muted">Each entry has its own link. Filter by season, person, kind of homage or how sure the connection is.</p>
+      <EpisodeExplorer entries={entries} noun={nouns} />
+    </section>
+  )}
+  <slot name="after" />
+  <HistoryAndIntl history={d.history} intl={d.international_titles} releases={d.releases} />
+  {(d.ids?.imdb || d.links?.wikipedia || d.links?.trailer_youtube || d.links?.justwatch) && <section>
+    <h2>Watch and read more</h2>
+    <ul>
+      {d.ids?.imdb && <li><a href={`https://www.imdb.com/title/${d.ids.imdb}/`} rel="noopener">IMDb</a></li>}
+      {d.links?.wikipedia && <li><a href={d.links.wikipedia} rel="noopener">Wikipedia</a></li>}
+      {d.links?.trailer_youtube && <li><a href={`https://www.youtube.com/watch?v=${d.links.trailer_youtube}`} rel="noopener">Trailer on YouTube</a></li>}
+      {d.links?.justwatch && <li><a href={d.links.justwatch.startsWith('http') ? d.links.justwatch : `https://www.justwatch.com/us/movie/${d.links.justwatch}`} rel="noopener">Where to watch (JustWatch)</a></li>}
+    </ul>
+  </section>}
+  <Related recKey={`films/${f.id}`} skip={['people']} />
+  <Media media={d.media} recKey={`films/${f.id}`} />
+  <Sources sources={d.sources} verified={d.last_verified} />

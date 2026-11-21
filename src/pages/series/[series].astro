@@ -7,6 +7,8 @@ import { getCollection } from 'astro:content';
 import { allEpisodes, formatDate, episodeNumber } from '../../lib/data';
 import HistoryAndIntl from '../../components/HistoryAndIntl.astro';
 import { sortKey } from '../../lib/categories';
+import { resolveRef, CONNECTION_LABELS, CONFIDENCE_LABELS } from '../../lib/data';
+import { tv } from '../../lib/television';
 
 export async function getStaticPaths() {
   const series = await getCollection('series');
@@ -18,6 +20,21 @@ const az = [...eps].sort((a, b) => sortKey(a.data.title).localeCompare(sortKey(b
 const letterOf = (t: string) => (sortKey(t)[0] ?? '#').toUpperCase().replace(/[^A-Z]/, '#');
 const letters = [...new Set(az.map((e) => letterOf(e.data.title)))];
 const seasons = [...new Set(eps.map((e) => e.data.season))].sort((a, b) => a - b);
+// Homages to the series as a whole, not to one episode (Adam, 2026-11-21, decision 0002). Homages to one
+// episode are on that episode's page; every homage is on /television/homages/.
+const films = new Map((await getCollection('films')).map((f) => [f.id, f]));
+const homages = (await Promise.all((await getCollection('connections'))
+  .filter((c) => c.data.to === `series/${s.id}`)
+  .map(async (c) => {
+    const r = await resolveRef(c.data.from);
+    const fid = c.data.from.startsWith('films/') ? c.data.from.slice(6) : '';
+    const f = films.get(fid);
+    const isTv = !!f && (f.data.kind === 'tv-series' || !!tv.showOf(fid));
+    return r && { c, r, isTv, show: tv.showOf(fid)?.title };
+  })))
+  .filter((x): x is NonNullable<typeof x> => !!x)
+  .sort((a, b) => sortKey(a.show ?? a.r.title).localeCompare(sortKey(b.show ?? b.r.title)) || sortKey(a.r.title).localeCompare(sortKey(b.r.title)));
+const homageGroups = [['On television', homages.filter((h) => h.isTv)], ['Elsewhere', homages.filter((h) => !h.isTv)]] as const;
 const jsonld = {
   '@context': 'https://schema.org',
   '@type': 'TVSeries',
@@ -98,6 +115,22 @@ const jsonld = {
       set(location.hash.startsWith('#season-') ? 'air' : 'az');
     })();
   </script>
+  {homages.length > 0 && (
+    <section id="homages">
+      <h2>Homages to the series as a whole</h2>
+      <p class="small muted">{homages.length} works point to this series rather than to one episode. Homages to a single episode are on its page. <a href={`/television/homages/?tz=${s.id}`}>Every television homage to this series, with filters</a>.</p>
+      {homageGroups.map(([label, list]) => list.length > 0 && (
+        <details open={label === 'On television'}>
+          <summary><strong>{label}</strong> <span class="muted small">({list.length})</span></summary>
+          <ul class="plain homage-compact">
+            {list.map(({ c, r, show }) => (
+              <li><span class="tag">{CONNECTION_LABELS[c.data.kind] ?? c.data.kind}</span> <a href={r.url}>{r.title}</a>{show && show !== r.title && <span class="muted small"> · {show}</span>} <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span></li>
+            ))}
+          </ul>
+        </details>
+      ))}
+    </section>
+  )}
   <Related recKey={`series/${s.id}`} />
   <Media media={s.data.media} recKey={`series/${s.id}`} />
 </Base>

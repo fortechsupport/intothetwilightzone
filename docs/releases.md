@@ -3,6 +3,29 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-21 — Television, step 1: one category, show pages and every homage
+
+**Watch > Television is one category with clear shelves.** The Twilight Zone (the four series), Every Twilight
+Zone episode, Rod Serling's series, Fellow anthology series, Homages in other shows, Pilots and unmade projects
+(new) and International titles. Old Episodes and TV series links land in the right place.
+
+**Every other show has one page with an episode explorer.** Night Gallery (`/night-gallery/`) lists all 43
+episodes and their segments by season, with the 1969 pilot at the top; filter by season, person or text, sort by
+air date or A to Z, and link straight to any episode (`/night-gallery/#night-gallery-s1e01`). The same explorer
+is on every show with a Twilight Zone homage (The Simpsons, Futurama, Saturday Night Live...) and on the
+anthologies Rod Serling wrote plays for (Playhouse 90, Kraft Television Theatre...). Old episode addresses
+redirect to the entry.
+
+**Every homage, on both pages.** Each homage shows on its show's page and on the Twilight Zone episode it points
+to; homages to a series as a whole show on that series' page. `/television/homages/` lists all of them, filterable
+by type, show, Twilight Zone series and how sure we are: "Confirmed by its makers", "Documented" or "Noted by fans".
+
+**Credit.** Sources can now name their author and publication, and media can name the rights holder.
+
+**Known not to work yet:** research rounds 1 to 4 (Serling's other plays, the anthologies' own sources, homage
+sources, home video and streaming links) come next; fans cannot yet second a homage (needs fan accounts); most
+sources do not yet carry an author or publisher.
+
 ## 2026-11-21 — Research checklist (no change for visitors)
 
 **Nothing changes on the site.** `docs/RESEARCH_CHECKLIST.md` lists every category and subcategory under the

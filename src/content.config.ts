@@ -3,9 +3,12 @@ import { glob, type Loader } from 'astro/loaders';
 import { isVisible, loadDecisions, reviewMode, statusOf } from './lib/review';
 import { z } from 'astro/zod';
 
+// Credit where credit is due (Adam, 2026-11-21): a source names its author and its publication when known.
 const source = z.object({
   title: z.string(),
   url: z.string().url().optional(),
+  author: z.string().optional(), // the writer or researcher: "Marc Scott Zicree"
+  publisher: z.string().optional(), // the publication or site: "Bantam Books", "The Twilight Zone Wiki (Fandom)"
   note: z.string().optional(),
 });
 const ids = z.record(z.string(), z.string()).optional();
@@ -50,6 +53,8 @@ const mediaItem = z.preprocess((raw) => {
   // Who made it: the cover artist, photographer, poster designer or speaker. An image with a subtype
   // of cover-art, poster, key-art or illustration is also listed under Artwork.
   creator: z.string().optional(),
+  // Who owns the rights, when it is not the creator: "CBS Studios", "Rod Serling Trust", "Associated Press".
+  rights_holder: z.string().optional(),
   note: z.string().max(400).optional(),
 }));
 const media = z.array(mediaItem).default([]);

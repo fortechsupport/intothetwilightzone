@@ -15,7 +15,8 @@ a record that does not match fails the build.
   Person pages are generated from credits; a `people/<slug>.yaml` record only adds bio/dates.
   Person slug = slugify(name), e.g. `rod-serling`, `burgess-meredith`.
 - Dates: ISO `YYYY-MM-DD` strings (quoted in YAML). Unknown day/month: `YYYY` or `YYYY-MM`.
-- Every record has `sources: [{title, url?, note?}]`, optional `last_verified: 'YYYY-MM-DD'`,
+- Every record has `sources: [{title, url?, author?, publisher?, note?}]` (name the author and the publication
+  whenever they are known: credit where credit is due), optional `last_verified: 'YYYY-MM-DD'`,
   optional `ids: {imdb, wikidata, goodreads, ...}` and `links: {wikipedia, justwatch, ...}`.
 - Optional `research_confidence: high|medium|low` on any record (connections keep their own `confidence`).
 - Review status is not a record field: Adam's include/exclude decisions live in
@@ -47,14 +48,26 @@ a record that does not match fails the build.
 | locations | `locations/<slug>.yaml` | name | kind (`backlot-set`/`filming-location`/`serling-place`/`attraction`/`museum-exhibit`/`memorial`/`archive`), address, city, region, country, lat, lng, status, opened, closed, filmed[] ({ref, note}), notes |
 
 `connections.kind`: `official-adaptation`, `remake`, `inspired-by`, `homage`, `parody`, `reference`, `lyric-mention`.
-`connections.confidence`: `confirmed-by-creator`, `documented`, `fan-noted` (shown on the site as "Unconfirmed"). Use `documented` or
-better only with a source URL in `sources`.
+`connections.confidence`: `confirmed-by-creator`, `documented`, `fan-noted`, shown on the site as "Confirmed by its makers",
+"Documented" and "Noted by fans" (decision 0002). Use `documented` or better only with a source URL in `sources`.
 
 ## Night Gallery and Rod Serling
 
 - Night Gallery lives in `films`: `night-gallery` (series), `night-gallery-pilot` (1969 film), and one record per broadcast
   episode, `night-gallery-s<season>e<NN>` (kind `tv-episode`), whose `segments[]` carry each story's writers, director,
-  cast, own-words summary and source story. `/night-gallery/` lists them in order; the Films index leaves the episodes out.
+  cast, own-words summary and source story. `/night-gallery/` is the one page for the series: the episodes are entries
+  in its episode explorer (`#night-gallery-s1e01`), with no page of their own.
+
+## Shows and their entries (decision 0002, 2026-11-21)
+
+- Only the four Twilight Zone series have a page per episode. A `films` record of kind `tv-episode`, `tv-segment`,
+  `sketch` or `web-series` with a `parent_series`, or a `tv-series` record with one, is an **entry** on its show's page,
+  at `<show page>#<record id>`. The rule is `isEntryOnly()` in `src/lib/tv-shows.mjs`; `filmHref()` gives the address.
+- The show is `parent_series` without its season or episode note (`The Simpsons, S5E5` → The Simpsons). Its page is the
+  matching `tv-series` record's page when there is one, else `/television/<show-slug>/`.
+- Old `/films/<entry id>/` addresses redirect to the entry. Decision keys stay `films/<id>`.
+- Tags on `tv-series` records place them in Television: `anthology-family` (Fellow anthology series),
+  `tz-writers` (a series by Twilight Zone writers), `radio-only` (moves to Listen).
 - Serling's work outside the show is ordinary `films`, `radio` and `works` records with `Rod Serling` in their credits.
   `/rod-serling/` gathers them with the timeline from `people/rod-serling.yaml`. Honors are `works` with `kind: event`,
   `subtype: honor`.
@@ -193,7 +206,8 @@ name organizations with `organizations[]`. `details.relates_to` names are also m
 - `content_of[]`: for content records, the records it belongs on (above).
 - `categories[]`: extra `"<category>/<subcategory>"` placements, on top of the automatic ones.
 - `media[]`: legitimately hosted media about the record. A `creator` field credits the artist,
-  photographer or designer; an image with subtype `cover-art`, `poster`, `key-art` or `illustration` is
+  photographer or designer, and `rights_holder` names who owns the rights when that is someone else
+  (shown as "© CBS Studios"); an image with subtype `cover-art`, `poster`, `key-art` or `illustration` is
   also listed under Artwork.
 
 ### Organizations collection

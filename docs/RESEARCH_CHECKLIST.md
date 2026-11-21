@@ -79,7 +79,7 @@ first because everything else links to it.
 ## 1. Watch
 
 ### TV series
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved (2026-11-21, docs/plans/research-television.md; now one category, Television) · [ ] Researched · [ ] Records decided · [ ] Pages built
 
 | Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|
@@ -96,7 +96,7 @@ first because everything else links to it.
 **Likely missing:** The Loner, The New People and The Liar's Club as full series hubs; every country's broadcaster and title; syndication packages; current streaming and broadcast homes for each series (Where to watch).
 
 ### TV episodes
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved (2026-11-21, docs/plans/research-television.md; now one category, Television) · [ ] Researched · [ ] Records decided · [ ] Pages built
 
 | Group | Records | Depth |
 |---|---:|---|

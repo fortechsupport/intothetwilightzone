@@ -1,67 +1,41 @@
 ---
 import Base from '../layouts/Base.astro';
-import Sources from '../components/Sources.astro';
+import FilmRecord from '../components/FilmRecord.astro';
 import { getCollection, getEntry } from 'astro:content';
-import { formatDate, personUrl } from '../lib/data';
+import { formatDate } from '../lib/data';
+import { recordDocTitle } from '../lib/titles';
 
-// Night Gallery lives in the films collection: the series record, the 1969 pilot film and one
-// record per broadcast episode (kind tv-episode, id night-gallery-s<season>e<nn>), each with segments.
-const series = await getEntry('films', 'night-gallery');
+// Night Gallery has one page (Adam, 2026-11-21, decision 0002): the series record, then every
+// broadcast episode and its segments in the episode explorer. The 1969 pilot film has its own page
+// in Movies and is listed here too.
+const series = (await getEntry('films', 'night-gallery'))!;
 const pilot = await getEntry('films', 'night-gallery-pilot');
-const eps = (await getCollection('films'))
-  .filter((f) => /^night-gallery-s\de\d\d$/.test(f.id))
-  .sort((a, b) => a.id.localeCompare(b.id));
-const seasons = [1, 2, 3].map((n) => ({ n, eps: eps.filter((e) => e.id.startsWith(`night-gallery-s${n}`)) }));
-const segCount = eps.reduce((t, e) => t + e.data.segments.length, 0) + (pilot?.data.segments.length ?? 0);
-const related = (await getCollection('films')).filter((f) => f.id.startsWith('night-gallery-') && !/^night-gallery-s\de\d\d$/.test(f.id) && f.id !== 'night-gallery-pilot');
+const films = await getCollection('films');
+const eps = films.filter((f) => /^night-gallery-s\de\d\d$/.test(f.id));
+const segCount = eps.reduce((t, e) => t + e.data.segments.length, 0);
 const works = (await getCollection('works')).filter((w) => /night gallery/i.test(w.data.title));
 const books = (await getCollection('books')).filter((b) => /night gallery/i.test(b.data.title));
+const jsonld = { '@context': 'https://schema.org', '@type': 'TVSeries', name: "Rod Serling's Night Gallery", startDate: '1969', creator: { '@type': 'Person', name: 'Rod Serling' } };
 ---
-<Base title="Rod Serling's Night Gallery (1969–1973)" description="Rod Serling's Night Gallery (1969–1973): the pilot film and every episode and segment, with writers, directors, cast and source stories.">
-  <p class="breadcrumb" data-pagefind-ignore><a href="/series/">Series</a> / <a href="/series/tv/">Television series</a></p>
-  <h1>Rod Serling's Night Gallery</h1>
-  {series?.data.summary && <p class="lead">{series.data.summary}</p>}
-  <p>The pilot film plus {eps.length} broadcast episodes hold {segCount} segments; two more sketches surfaced only in syndication. Each segment is listed under the episode it aired in, with the story it adapts where there is one.</p>
-
-  {pilot && (
-    <section>
-      <h2>The pilot film (1969)</h2>
-      <p><a href={`/films/${pilot.id}/`}>{pilot.data.title}</a>{pilot.data.release_date && <span class="muted small"> {formatDate(pilot.data.release_date)}</span>}</p>
-      <ul class="plain">{pilot.data.segments.map((sg) => <li>{sg.title}{sg.directors.length > 0 && <span class="muted small"> · directed by {sg.directors.join(', ')}</span>}</li>)}</ul>
-    </section>
-  )}
-
-  {seasons.map(({ n, eps }) => eps.length > 0 && (
-    <section>
-      <h2>Season {n}</h2>
-      <ol class="plain">
-        {eps.map((e) => (
-          <li>
-            <a href={`/films/${e.id}/`}><strong>Episode {Number(e.id.slice(-2))}</strong></a>
-            {e.data.release_date && <span class="muted small"> {formatDate(e.data.release_date)}</span>}
-            <ul class="small">
-              {e.data.segments.map((sg) => (
-                <li>{sg.title}
-                  {sg.writers.length > 0 && <span class="muted"> · written by {sg.writers.map((w, i) => <>{i > 0 && ', '}<a href={personUrl(w)}>{w}</a></>)}</span>}
-                  {sg.source_authors.length > 0 && <span class="muted"> · from {sg.source_authors.join(', ')}</span>}
-                </li>
-              ))}
-            </ul>
-          </li>
-        ))}
-      </ol>
-    </section>
-  ))}
-
-  {(related.length > 0 || works.length > 0 || books.length > 0) && (
-    <section>
-      <h2>More Night Gallery</h2>
-      <ul>
-        {related.map((f) => <li><a href={`/films/${f.id}/`}>{f.data.title}</a></li>)}
-        {works.map((w) => <li><a href={`/works/${w.id}/`}>{w.data.title}</a></li>)}
-        {books.map((b) => <li><a href={`/books/${b.id}/`}>{b.data.title}</a></li>)}
-      </ul>
-    </section>
-  )}
-  {series && <Sources sources={series.data.sources} verified={series.data.last_verified} />}
+<Base title={recordDocTitle('films', series.data, "Rod Serling's Night Gallery")} description={`Rod Serling's Night Gallery (1969–1973): the pilot film and all ${eps.length} episodes and ${segCount} segments, with writers, directors, cast and the stories they adapt.`} jsonld={jsonld}>
+  <FilmRecord f={series} title="Rod Serling's Night Gallery">
+    <p>{eps.length} broadcast episodes hold {segCount} segments. Two more sketches were seen only in the syndicated version. Every one is below, under the season it aired in.</p>
+    {pilot && (
+      <section class="panel">
+        <h2>The pilot film (1969)</h2>
+        <p><a href={`/films/${pilot.id}/`}>{pilot.data.title}</a>{pilot.data.release_date && <span class="muted small"> · {formatDate(pilot.data.release_date)}</span>}</p>
+        {pilot.data.segments.length > 0 && <p class="small">{pilot.data.segments.length} stories: {pilot.data.segments.map((sg) => sg.title).join(', ')}.</p>}
+        <p class="small muted">A feature-length television film, so its own page is in Movies.</p>
+      </section>
+    )}
+    {(works.length > 0 || books.length > 0) && (
+      <section slot="after">
+        <h2>More Night Gallery</h2>
+        <ul>
+          {works.map((w) => <li><a href={`/works/${w.id}/`}>{w.data.title}</a></li>)}
+          {books.map((b) => <li><a href={`/books/${b.id}/`}>{b.data.title}</a></li>)}
+        </ul>
+      </section>
+    )}
+  </FilmRecord>
 </Base>

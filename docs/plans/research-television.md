@@ -295,9 +295,20 @@ Television, that means:
 - Night Gallery episode records stay as data; only their pages go, with redirects.
 - Serling's plays sit on their anthology's page and on his own page.
 - The 1969 Night Gallery pilot is a TV film, so it goes to Movies.
+- Step 1: a show with a `tv-series` record keeps its `/films/<id>/` page and gains the explorer; a show with no
+  record gets `/television/<show>/`. The show is `parent_series` without its season or episode note.
+- Step 1: "The Time Element" and three unmade series projects (the ABC proposal, the 2012 CBS revival, Matheson's
+  "The Doll") move from Movies to Television > Pilots and unmade projects; Serling's own projects count as official.
+- Step 1: the TV-series records for Lights Out and Inner Sanctum Mystery are tagged `radio-only` and move to Listen.
+- Step 1: series pages list homages to the series as a whole (179 for the 1959 series), with television first.
+- Step 1: "Rod Serling's television commercials" sits under Rod Serling's series until the Movies pass.
 
 ## Waiting on Adam
-- Approval of this revision, and Q1–Q4 and Q6.
+- Screenshots of step 1 before merge.
 
 ## Found, for later
 - 39 Serling-life milestones also show under Attend > Other events (see the checklist).
+- Five web series have no parent show (Sandwich of Terror, Weird City and others), so each is its own entry; the
+  Movies or a later web-series pass should decide their home.
+- "Suspense" is one record for both the radio and the TV anthology; Serling's TV play sits on it. Split in round 2?
+- Show pages without a series record (90 shows) say so; round 3 can add a series record where a show has several homages.

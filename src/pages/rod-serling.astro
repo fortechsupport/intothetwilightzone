@@ -1,4 +1,5 @@
 ---
+import { filmHref } from '../lib/television';
 import Base from '../layouts/Base.astro';
 import Sources from '../components/Sources.astro';
 import { getCollection, getEntry } from 'astro:content';
@@ -48,7 +49,7 @@ const list = [
     <section id={h.toLowerCase().replace(/[^a-z]+/g, '-')}>
       <h2>{h} <span class="muted small">({items.length})</span></h2>
       <ul class="plain">
-        {items.map((f) => <li><a href={`/films/${f.id}/`}>{f.data.title}</a> <span class="muted small">{[f.data.parent_series, year(f.data.release_date)].filter(Boolean).join(' · ')}</span></li>)}
+        {items.map((f) => <li><a href={filmHref(f.id)}>{f.data.title}</a> <span class="muted small">{[f.data.parent_series, year(f.data.release_date)].filter(Boolean).join(' · ')}</span></li>)}
       </ul>
     </section>
   ))}

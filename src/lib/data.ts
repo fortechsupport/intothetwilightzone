@@ -1,5 +1,6 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { slugify } from './slug';
+import { filmHref } from './television';
 
 export type Episode = CollectionEntry<'episodes'>;
 export type Film = CollectionEntry<'films'>;
@@ -17,9 +18,10 @@ export const CONNECTION_LABELS: Record<string, string> = {
 };
 
 export const CONFIDENCE_LABELS: Record<string, string> = {
-  'confirmed-by-creator': 'Confirmed by the creator',
-  documented: 'Documented by a reliable source',
-  'fan-noted': 'Unconfirmed: fan-noted, no source yet',
+  // Adam's three marks for how sure we are (2026-11-21, docs/decisions/0002-television-structure.md).
+  'confirmed-by-creator': 'Confirmed by its makers',
+  documented: 'Documented',
+  'fan-noted': 'Noted by fans',
 };
 
 export function episodeNumber(e: Episode['data']): string {
@@ -61,7 +63,7 @@ export async function resolveRef(ref: string): Promise<{ title: string; url: str
   if (collection === 'films') {
     const f = (await getCollection('films')).find((x) => x.id === id);
     const kinds: Record<string, string> = { film: 'Film', 'tv-film': 'TV film', 'tv-episode': 'TV episode', 'tv-segment': 'TV segment', 'tv-series': 'TV series', sketch: 'Sketch', documentary: 'Documentary', special: 'Special', pilot: 'Pilot', stage: 'Stage', unproduced: 'Unproduced', short: 'Short film', 'music-video': 'Music video', commercial: 'Commercial', 'web-series': 'Web series' };
-    return f && { title: f.data.parent_series ? `${f.data.title} (${f.data.parent_series})` : f.data.title, url: `/films/${f.id}/`, kind: kinds[f.data.kind] ?? 'Film' };
+    return f && { title: f.data.parent_series ? `${f.data.title} (${f.data.parent_series})` : f.data.title, url: filmHref(f.id), kind: kinds[f.data.kind] ?? 'Film' };
   }
   if (collection === 'songs') {
     const s = (await getCollection('songs')).find((x) => x.id === id);
@@ -116,7 +118,7 @@ export async function allPeople(): Promise<Map<string, Person>> {
     add(e.data.narrator, { ...base, role: 'Narrator' });
   }
   for (const f of await getCollection('films')) {
-    const base = { title: f.data.title, url: `/films/${f.id}/`, date: f.data.release_date, detail: f.data.parent_series ?? (f.data.kind === 'film' ? 'Film' : f.data.kind.replace(/-/g, ' ').replace(/^./, (c) => c.toUpperCase())) };
+    const base = { title: f.data.title, url: filmHref(f.id), date: f.data.release_date, detail: f.data.parent_series ?? (f.data.kind === 'film' ? 'Film' : f.data.kind.replace(/-/g, ' ').replace(/^./, (c) => c.toUpperCase())) };
     f.data.writers.forEach((n) => add(n, { ...base, role: 'Writer' }));
     f.data.directors.forEach((n) => add(n, { ...base, role: 'Director' }));
     f.data.cast.forEach((n) => add(n, { ...base, role: 'Cast' }));

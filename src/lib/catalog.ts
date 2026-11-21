@@ -6,6 +6,7 @@ import { allEpisodes, allPeople, episodeNumber, splitCredit, CONNECTION_LABELS, 
 import { assess } from './assessments';
 import { slugify } from './slug';
 import { TAXONOMY, CATEGORY, place, placePerson, explicitPlacements, mediaArtwork, libraryType, LIBRARY_TYPES, sortKey, subTitleFromSlug, SERIES_LABEL, contentOf, contentParents, isOfficial, orgSub, remap } from './taxonomy.mjs';
+import { filmHref } from './television';
 
 export interface Entry {
   key: string; // "<collection>/<id>" or a derived key
@@ -27,7 +28,7 @@ export interface OrgLink { key: string; title: string; href?: string; role: stri
 /** One item in the Media Library: a media[] item (merged by URL) or a content record. */
 export interface LibItem {
   id: string; type: string; typeLabel: string; subtype?: string; title: string; href: string; external: boolean;
-  host?: string; date?: string; creator?: string; rights?: string; note?: string;
+  host?: string; date?: string; creator?: string; rights_holder?: string; rights?: string; note?: string;
   on: { key: string; title: string; href?: string }[]; // record pages it appears on
   cats: { slug: string; title: string; href: string }[]; // category and subcategory pages it appears on
   recordKey?: string; // for content records, the record itself
@@ -52,6 +53,7 @@ const human = (s?: string) => (s ? (s.charAt(0).toUpperCase() + s.slice(1)).repl
 export function recordHref(col: string, id: string): string {
   switch (col) {
     case 'episodes': return `/episodes/${id}/`;
+    case 'films': return filmHref(id);
     case 'locations': return `/places/${id}/`;
     case 'organizations': return `/organizations/${id}/`;
     default: return `/${col}/${id}/`;
@@ -226,7 +228,7 @@ export async function catalog(): Promise<Map<string, CatInfo>> {
     let it = library.get(id);
     if (!it) {
       const local = m.file && (m.rights === 'public-domain' || m.rights === 'cc') ? `/${String(m.file).replace(/^\/?(public\/)?/, '')}` : undefined;
-      it = { id, type: libraryType(m), typeLabel: TYPE_LABEL[libraryType(m)], subtype: m.subtype, title: m.title, href: local ?? m.url, external: !local, host: m.host, date: m.date, creator: m.creator, rights: m.rights ?? 'link-only', note: m.note, on: [], cats: [] };
+      it = { id, type: libraryType(m), typeLabel: TYPE_LABEL[libraryType(m)], subtype: m.subtype, title: m.title, href: local ?? m.url, external: !local, host: m.host, date: m.date, creator: m.creator, rights_holder: m.rights_holder, rights: m.rights ?? 'link-only', note: m.note, on: [], cats: [] };
       library.set(id, it);
     }
     if (!it.on.some((x) => x.key === on.key)) it.on.push(on);
