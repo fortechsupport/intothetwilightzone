@@ -4003,13 +4003,6 @@ podcasts/imagine-if-you-will:
   recommendation: include
   reason: 181 episodes, active in 2026.
   subcategory: Podcasts
-podcasts/pretty-much-pop-52-twilight-zone-morality-tales:
-  connection: A discussion episode on TZ morality tales.
-  tier: core
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: Only the title and URL were confirmed.
-  subcategory: Podcasts
 podcasts/rarified-heir-269-anne-serling:
   connection: Anne Serling interviewed about her father.
   tier: related
@@ -4044,13 +4037,6 @@ podcasts/thats-not-fair-a-queer-twilight-zone-podcast:
   tier_reason: Episode-by-episode or thematic coverage of the series.
   recommendation: include
   reason: Distinct queer-reading perspective; 24 episodes 2024.
-  subcategory: Podcasts
-podcasts/the-5th-dimension-a-twilight-zone-podcast:
-  connection: A TZ podcast on Anchor.
-  tier: core
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: 164 episodes but hosts and format unconfirmed; low confidence.
   subcategory: Podcasts
 podcasts/the-fifth-dimension:
   connection: A podcast devoted to the show.
@@ -4150,13 +4136,6 @@ podcasts/zone-i-sodes:
   recommendation: include
   reason: NPR Illinois Front Row Network show; organizations added.
   subcategory: Podcasts
-works/everson-museum-rod-serling-before-the-twilight-zone:
-  connection: Syracuse museum programme on Serling's pre-TZ career.
-  tier: related
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: Type and date unconfirmed; strong lead for a later pass.
-  subcategory: Exhibitions
 works/h-and-i-rod-white-and-blue-marathon-2025:
   connection: H&I network's 2025 July 4 TZ marathon.
   tier: core
@@ -4171,27 +4150,6 @@ works/hole-in-the-wall-of-shadows-and-substance-2008:
   recommendation: include
   reason: Specific cast/director credits; one more US stage production.
   subcategory: Stage
-works/ithaca-college-friday-night-twilight-zone-marathon-2008:
-  connection: Campus TZ marathon at Serling's college.
-  tier: related
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: Minor event; title-only source.
-  subcategory: Screenings and marathons
-works/rosendale-theatre-rod-serling-evening-2025:
-  connection: A Serling-themed evening at a Hudson Valley cinema.
-  tier: related
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: Minor event; programme unconfirmed.
-  subcategory: Screenings and marathons
-works/serling-on-screen-binghamton:
-  connection: Binghamton screening series of Serling work.
-  tier: related
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: Recurring local programme, details unconfirmed.
-  subcategory: Screenings and marathons
 works/serlingfest-2026:
   connection: The foundation's 2026 festival.
   tier: related
@@ -4199,20 +4157,6 @@ works/serlingfest-2026:
   recommendation: include
   reason: Sources added only (schedule PDF, guests page, tickets, press); record is locked.
   subcategory: Anniversaries and festivals
-works/suny-oswego-serling-100th-lecture-screening-2024:
-  connection: Centennial lecture and screening.
-  tier: related
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: Title-only source; speaker unconfirmed.
-  subcategory: Anniversaries and festivals
-works/syfy-65-years-twilight-zone-marathon:
-  connection: Syfy marathon for the 65th anniversary.
-  tier: core
-  tier_reason: See connection.
-  recommendation: maybe
-  reason: Dates unconfirmed; title-only source.
-  subcategory: Screenings and marathons
 works/syfy-july-4-twilight-zone-marathon:
   connection: Syfy's annual July 4 TZ marathon.
   tier: core
@@ -4654,3 +4598,77 @@ songs/world-class-wreckin-cru-planet:
   recommendation: include
   reason: Pre-N.W.A Dr. Dre and DJ Yella group using the theme; album and year now confirmed.
   subcategory: Theme samples
+
+# Research pass 2026-11-21, round 3
+podcasts/pretty-much-pop-52-twilight-zone-morality-tales:
+  connection: A Pretty Much Pop discussion of the original series and the 2019 revival.
+  tier: core
+  tier_reason: An episode devoted to the show.
+  recommendation: include
+  reason: 'Now confirmed: hosts, guest, date and the episodes discussed.'
+  subcategory: Podcasts
+podcasts/the-5th-dimension-a-twilight-zone-podcast:
+  connection: A Twilight Zone discussion podcast by three friends.
+  tier: core
+  tier_reason: A podcast devoted to the show.
+  recommendation: maybe
+  reason: 164 episodes, but the hosts are still unnamed and no episode list could be read; tagged unconfirmed.
+  subcategory: Podcasts
+works/bcsd-rod-serling-day-2024:
+  connection: The Binghamton school district's annual Rod Serling Day, with Anne Serling in 2024.
+  tier: related
+  tier_reason: A hometown commemoration of Serling.
+  recommendation: include
+  reason: An annual hometown tradition with a family guest and a "Walking Distance" tribute video; from the district's
+    own article.
+  subcategory: Anniversaries and festivals
+works/binghamton-university-twilight-zone-stage-2014:
+  connection: A university staging of "The Monsters Are Due on Maple Street" and "Dust" in Serling's hometown.
+  tier: related
+  tier_reason: A stage production of the teleplays.
+  recommendation: include
+  reason: AP national coverage; the director is named. The exact performance dates are not stated.
+  subcategory: Stage
+works/everson-museum-rod-serling-before-the-twilight-zone:
+  connection: A centennial lecture and screening of Serling's "Patterns" in Syracuse, his birthplace.
+  tier: related
+  tier_reason: About Serling's pre-Twilight Zone work.
+  recommendation: include
+  reason: 'Confirmed from the museum page and the SUNY Oswego announcement: date, venue, speaker, partners. It was
+    a lecture, not an exhibit, so it moves to Lectures.'
+  subcategory: Lectures
+works/ithaca-college-friday-night-twilight-zone-marathon-2008:
+  connection: The opening screening of the 2008 Rod Serling Conference at Ithaca College.
+  tier: related
+  tier_reason: Fills the 2008 gap between the existing 2006 and 2009 conference records.
+  recommendation: include
+  reason: 'Confirmed: 28 March 2008, 8pm, Park Auditorium; episodes chosen by online vote.'
+  subcategory: Screenings and marathons
+works/rosendale-theatre-rod-serling-evening-2025:
+  connection: The Rod Serling Memorial Foundation's illustrated talk for the show's 66th anniversary.
+  tier: related
+  tier_reason: An event by the foundation about Serling.
+  recommendation: include
+  reason: Two independent sources (WAMC listing, Marist Circle report) confirm the date, speakers and content.
+  subcategory: Lectures
+works/serling-on-screen-binghamton:
+  connection: A Serling screening programme at Binghamton High School's Helen Foley Theatre.
+  tier: related
+  tier_reason: A local Serling event.
+  recommendation: maybe
+  reason: The venue and the 5-7 December times are confirmed, but no year or programme; tagged unconfirmed.
+  subcategory: Screenings and marathons
+works/suny-oswego-serling-100th-lecture-screening-2024:
+  connection: The same event as the Everson lecture.
+  tier: related
+  tier_reason: Duplicate.
+  recommendation: exclude
+  reason: Marked duplicate_of the Everson record; kept only so the id does not break.
+  subcategory: Lectures
+works/syfy-65-years-twilight-zone-marathon:
+  connection: Syfy's 65th-anniversary marathon of the original series, 5-7 October 2024.
+  tier: core
+  tier_reason: A broadcast event of the series itself.
+  recommendation: include
+  reason: Now dated and detailed from the Remind Magazine episode guide (65 episodes, exact days).
+  subcategory: Screenings and marathons

@@ -1,24 +1,32 @@
 title: A Rod Serling Evening (Rosendale Theatre, 2025)
-kind: event
-subtype: screening
+kind: lecture
+subtype: talk
 year: 2025
-description: An evening devoted to Rod Serling at the Rosendale Theatre in Rosendale, New York, listed on WAMC public
-  radio's community calendar in 2025. The programme and exact date were not confirmed.
+description: A two-hour illustrated talk by Nicholas Parisi and Tony Albarella, president and vice-president of
+  the Rod Serling Memorial Foundation, on the 66th anniversary of the Twilight Zone premiere. It covered Serling's
+  early years, career and legacy with childhood photos, archival interviews and clips from The Twilight Zone, Night
+  Gallery and Planet of the Apes, followed by questions. Tickets were $10 ($6 for members).
 details:
-  place: Rosendale Theatre, Rosendale, New York
-  date: 2025 (calendar listing created 29 July 2025; event date not confirmed)
+  date: 2025-10-02, 7pm to 9pm
+  place: Rosendale Theatre, 408 Main Street, Rosendale, New York
+  speakers:
+  - Nicholas Parisi
+  - Tony Albarella
 organizations:
 - Rosendale Theatre
+- Rod Serling Memorial Foundation
 sources:
 - title: WAMC community calendar - A Rod Serling Evening at the Rosendale Theatre
   url: https://www.wamc.org/community-calendar/event/a-rod-serling-evening-at-the-rosendale-theatre-29-07-2025-14-16-20
-  note: Seen as a search result only.
+- title: 'Marist Circle - Celebrating 66 Years in the "Twilight Zone": Honoring the Legacy of Rod Serling (Jack
+    Torry, 16 Oct 2025)'
+  url: https://www.maristcircle.com/arts-entertainment/2025/10/16/celebrating-66-years-in-the-twilight-zone-honoring-the-legacy-of-rod-serling
 content_of:
 - people/rod-serling
 categories:
-- events/other-events
+- lectures/academic
 relevance: related
-research_confidence: low
+research_confidence: high
 tags:
 - research-2026-11-21
 last_verified: '2026-11-21'

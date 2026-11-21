@@ -41,3 +41,34 @@ CNY Playhouse, ARC Theatre and Boston "Live Onstage: The Twilight Zone" stagings
 - Added `episode_count_as_of` to the podcasts schema (records already used it).
 - Event records mix details.date/dates/location/place/venue; one agreed set would help.
 - A `latest_episode` podcast field would let "active" be computed.
+
+## Round 3
+
+I used 18 of the 20 WebFetch calls. Each low-confidence record was checked against its key page.
+
+- syfy-65-years-twilight-zone-marathon: confirmed (Remind Magazine, 4 Oct 2024). It ran 5-7 Oct 2024 with 65 slots and 64 different episodes. Confidence is now high.
+- everson-museum-rod-serling-before-the-twilight-zone: this was a lecture and screening, not an exhibit. I rewrote it.
+  - When and where: 19 Dec 2024, 6pm, Hosmer Auditorium at the Everson Museum, Syracuse.
+  - What: "Patterns" was screened.
+  - Speaker: Ryan Zlomek of SUNY Oswego. The museum spells it Zlomek and Oswego spells it Ziomek; both spellings are recorded.
+  - Partners: the Rod Serling Memorial Foundation and SUNY Oswego.
+  - It now has kind lecture and category lectures/academic.
+- suny-oswego-serling-100th-lecture-screening-2024: this is the same event as the Everson lecture, so I set `duplicate_of: works/everson-museum-rod-serling-before-the-twilight-zone`. The record is not deleted.
+- serling-on-screen-binghamton: the venue (Helen Foley Theatre, Binghamton High School) and the times (5-6 Dec 7-9pm, 7 Dec 2-4pm) are confirmed. No year and no programme could be found, even in the summer 2025 newsletter. Tagged `unconfirmed`; recommendation is maybe.
+- ithaca-college-friday-night-twilight-zone-marathon-2008: this was the opening event of the 2008 Rod Serling Conference (28-29 March 2008). It ran 28 March, 8pm, in Park Auditorium, with episodes chosen by online vote. Confidence is high. The site has no record for the 2008 conference itself; that is a lead.
+- rosendale-theatre-rod-serling-evening-2025: a talk by Nicholas Parisi and Tony Albarella on 2 Oct 2025, 7-9pm, for the show's 66th anniversary. The WAMC listing and the Marist Circle report (16 Oct 2025) both confirm it. It is now kind lecture, subtype talk.
+- the-5th-dimension-a-twilight-zone-podcast: Podnews gives only "three friends" as hosts, plus the Spotify and website links. Tagged `unconfirmed`; recommendation is maybe.
+- pretty-much-pop-52-twilight-zone-morality-tales: confirmed. Posted 15 July 2020; hosts Mark Linsenmayer, Erica Spyres and Brian Hirt, with guest Ken Gerber; the episodes discussed are listed. Confidence is high.
+
+New records from the leads:
+- works/bcsd-rod-serling-day-2024: the Binghamton City School District's annual Rod Serling Day for fifth graders. In 2024 Anne Serling-Sutton spoke, and the district screened a tribute video based on "Walking Distance".
+- works/binghamton-university-twilight-zone-stage-2014: a staging of "The Monsters Are Due on Maple Street" and "Dust", directed by Elizabeth Mozer and reported by the AP on 6 Mar 2014. Confidence is medium because the exact dates are not given.
+- The Marist Oct 2025 lead turned out to be the Rosendale event, so I used it as a second source there.
+
+Remaining leads:
+- The SerlingFest 2026 schedule PDF.
+- CNY Playhouse, ARC Theatre and the Boston "Live Onstage" TZ stagings.
+- A record for the 2008 Rod Serling Conference.
+- The year of "Serling on Screen".
+
+Checks: the YAML check passes, and `npm run check:data` checked 6152 records with no findings.

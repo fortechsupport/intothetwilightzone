@@ -68680,6 +68680,17 @@
    "official": false
   }
  ],
+ "works/bcsd-rod-serling-day-2024": [
+  {
+   "cat": "events",
+   "sub": "anniversaries-festivals",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Anniversaries and festivals",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "works/beltrami-tz-theme-2019": [
   {
    "cat": "music",
@@ -69204,6 +69215,17 @@
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
+   "official": false
+  }
+ ],
+ "works/binghamton-university-twilight-zone-stage-2014": [
+  {
+   "cat": "stage",
+   "sub": "theatre",
+   "group": null,
+   "catTitle": "Stage",
+   "subTitle": "Theatre",
+   "isNew": true,
    "official": false
   }
  ],
@@ -69898,11 +69920,20 @@
  ],
  "works/everson-museum-rod-serling-before-the-twilight-zone": [
   {
-   "cat": "events",
-   "sub": "other-events",
+   "cat": "lectures",
+   "sub": "serling-lectures",
    "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false,
+   "official": true
+  },
+  {
+   "cat": "lectures",
+   "sub": "academic",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Academic lectures and courses",
    "isNew": false,
    "official": false
   }
@@ -72876,11 +72907,20 @@
  ],
  "works/rosendale-theatre-rod-serling-evening-2025": [
   {
-   "cat": "events",
-   "sub": "other-events",
+   "cat": "lectures",
+   "sub": "serling-lectures",
    "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
+   "catTitle": "Lectures",
+   "subTitle": "Rod Serling's lectures and speeches",
+   "isNew": false,
+   "official": true
+  },
+  {
+   "cat": "lectures",
+   "sub": "academic",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Academic lectures and courses",
    "isNew": false,
    "official": false
   }
