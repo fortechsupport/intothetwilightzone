@@ -206,6 +206,36 @@ The 26 series that today cite only Wikipedia's general anthology list each get a
 
 ---
 
+## 9a. Blessing-ready (Adam's standing goal, 2026-11-21 09:32 UTC)
+
+The site should be good enough that CBS/Paramount and the Serling family would be glad to point fans to it. For
+Television, that means:
+
+- **Accuracy a rights holder would trust:**
+  - Credits match the on-screen credits.
+  - Primary sources come first: CBS/Paramount press material, archive finding aids, the Library of Congress
+    copyright catalogue, the published scripts.
+  - Each record shows its sources and when it was last checked.
+  - Wherever an inference is used, it is labelled as one.
+- **A visible way to fix mistakes.** Every series and episode page gets a "Report a correction" link. A public
+  corrections log shows what changed and when.
+- **Respect for their property:**
+  - Media is link-only: no screen grabs, clips, narration transcripts or full script text.
+  - The site's look never borrows the official logo or title design.
+  - The "independent fan site, not affiliated" notice (already in every page footer and on About) stays.
+  - A prompt takedown contact is published. The copyright agent registration is still waiting on Adam (fan
+    accounts work).
+- **Sending fans to the official sources.** Where to watch and home video links go only to licensed services and
+  publishers. Each series page links to the official site and to the Rod Serling Memorial Foundation.
+- **Honoring the people:**
+  - Full credit for every writer, including the authors of the stories that were adapted.
+  - Serling's teleplays documented as his body of work, not a footnote.
+  - The 1982 accident written factually and with respect for the three people who died.
+- **No money, no ads, no tracking.** No affiliate links, ever.
+- **Professional finish:** consistent pages, WCAG 2.2 AA, fast on phones, and A to Z throughout.
+- **Outreach later, only with Adam's go-ahead:** once Television is complete, show it to the Rod Serling Memorial
+  Foundation and ask for corrections. Nothing is sent without Adam.
+
 ## 9. Questions for Adam (each with a proposed answer)
 
 | # | Question | Proposed answer |
@@ -243,6 +273,7 @@ The 26 series that today cite only Wikipedia's general anthology list each get a
 - No home video or streaming link carries an affiliate or referral code.
 - Every new record has a connection, tier, recommendation and source, starts pending, and is on a
   new-records-only sheet.
+- Every series and episode page has a "Report a correction" link and shows when it was last checked.
 - CI passes: `check:data`, `tokens --check`, both builds, `check:site` and `check:a11y`. No page is over 300 KB.
 
 ## Decided here (Adam reviews later)
