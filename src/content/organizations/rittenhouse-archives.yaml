@@ -5,7 +5,11 @@ kind: licensee
 description: Maker of licensed Twilight Zone trading card sets.
 official: true
 relevance: core
-sources: []
+sources:
+- title: 'Cardboard Connection: 2020 Rittenhouse Twilight Zone Archives'
+  url: https://www.cardboardconnection.com/2020-rittenhouse-twilight-zone-archives-trading-cards
+- title: 'Trading Card Database: 2020 Rittenhouse Twilight Zone Archives'
+  url: https://www.tcdb.com/ChecklistByName.cfm/sid/231506/2020-Rittenhouse-Twilight-Zone-Archives
 research_confidence: medium
 tags:
 - seed-record

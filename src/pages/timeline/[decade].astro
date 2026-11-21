@@ -1,0 +1,30 @@
+---
+// Every dated record in one decade.
+import Base from '../../layouts/Base.astro';
+import TimelineList from '../../components/TimelineList.astro';
+import { timelineItems, decadeSlug, decadeLabel } from '../../lib/timeline';
+
+export async function getStaticPaths() {
+  const items = await timelineItems();
+  const slugs = [...new Set(items.map((i) => decadeSlug(i.year)))];
+  return slugs.map((decade, n) => ({ params: { decade }, props: { prev: slugs[n - 1], next: slugs[n + 1] } }));
+}
+const { decade } = Astro.params as { decade: string };
+const { prev, next } = Astro.props as { prev?: string; next?: string };
+const items = (await timelineItems()).filter((i) => decadeSlug(i.year) === decade);
+const label = decadeLabel(decade);
+---
+<Base title={`Timeline: ${label.replace(/^The /, '')}`} description={`${label.replace(/^The /, 'The ')} in The Twilight Zone's history: ${items.length} dated entries, from broadcasts and films to books, songs, births and deaths.`}>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/timeline/">Timeline</a></p>
+  <h1>Timeline: {label.replace(/^The /, 'the ')}</h1>
+  <p class="lead">{items.length.toLocaleString('en-US')} dated entries. Untick a kind to hide it.</p>
+  <nav class="pager top" aria-label="Decades" data-pagefind-ignore>
+    {prev ? <a href={`/timeline/${prev}/`} rel="prev">← {decadeLabel(prev).replace(/^The /, '')}</a> : <span />}
+    {next && <a href={`/timeline/${next}/`} rel="next">{decadeLabel(next).replace(/^The /, '')} →</a>}
+  </nav>
+  <TimelineList items={items} />
+  <nav class="pager" aria-label="Decades, again" data-pagefind-ignore>
+    {prev ? <a href={`/timeline/${prev}/`}>← {decadeLabel(prev).replace(/^The /, '')}</a> : <span />}
+    {next && <a href={`/timeline/${next}/`}>{decadeLabel(next).replace(/^The /, '')} →</a>}
+  </nav>
+</Base>

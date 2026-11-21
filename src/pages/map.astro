@@ -10,15 +10,15 @@ import { sortKey } from '../lib/taxonomy.mjs';
 
 const geo = parse(readFileSync(resolve(process.cwd(), 'data/fan/geo.yaml'), 'utf8')) as Record<string, { lat: number; lng: number; precision: string }>;
 const KIND: Record<string, [string, string]> = {
-  'filming-location': [PLACE_LABEL['filming-location'] ?? 'Filming locations', '#8fb3d9'],
-  'backlot-set': [PLACE_LABEL['backlot-set'] ?? 'Studio backlots and sets', '#d9c38f'],
-  'serling-place': [PLACE_LABEL['serling-place'] ?? "Rod Serling's places", '#e58f8f'],
-  memorial: [PLACE_LABEL.memorial ?? 'Memorials', '#c3b3e6'],
-  attraction: [PLACE_LABEL.attraction ?? 'Attractions', '#7fd1b9'],
-  'museum-exhibit': [PLACE_LABEL['museum-exhibit'] ?? 'Museums and exhibits', '#f0a35e'],
-  archive: [PLACE_LABEL.archive ?? 'Archives', '#b0c4a0'],
-  'event-venue': ['Event venues', '#e6e9f0'],
-  '': ['Other places', '#9aa3b8'],
+  'filming-location': [PLACE_LABEL['filming-location'] ?? 'Filming locations', 'var(--map-1)'],
+  'backlot-set': [PLACE_LABEL['backlot-set'] ?? 'Studio backlots and sets', 'var(--map-2)'],
+  'serling-place': [PLACE_LABEL['serling-place'] ?? "Rod Serling's places", 'var(--map-3)'],
+  memorial: [PLACE_LABEL.memorial ?? 'Memorials', 'var(--map-4)'],
+  attraction: [PLACE_LABEL.attraction ?? 'Attractions', 'var(--map-5)'],
+  'museum-exhibit': [PLACE_LABEL['museum-exhibit'] ?? 'Museums and exhibits', 'var(--map-6)'],
+  archive: [PLACE_LABEL.archive ?? 'Archives', 'var(--map-7)'],
+  'event-venue': ['Event venues', 'var(--map-8)'],
+  '': ['Other places', 'var(--map-9)'],
 };
 const all = (await getCollection('locations')).sort((a, b) => sortKey(a.data.name).localeCompare(sortKey(b.data.name)));
 const real = all.filter((l) => l.data.kind !== 'in-story');
@@ -74,7 +74,7 @@ const stories = await Promise.all(inStory.map(async (l) => ({ l, refs: (await Pr
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
     const layers: Record<string, L.LayerGroup> = {};
     for (const p of points) {
-      const color = kinds[p.k][1];
+      const color = getComputedStyle(document.documentElement).getPropertyValue(kinds[p.k][1].slice(4, -1)).trim();
       const approx = p.p === 'city';
       const m = L.circleMarker([p.lat, p.lng], { radius: 8, color, weight: 2, fillColor: color, fillOpacity: approx ? 0.1 : 0.75 });
       m.bindPopup(`<strong><a href='/places/${p.id}/'>${esc(p.n)}</a></strong><br>${esc(kinds[p.k][0])}${p.w ? '<br>' + esc(p.w) : ''}${approx ? '<br><em>Approximate: placed at the town or city</em>' : ''}${p.f ? `<br>${p.f} on-screen appearance${p.f > 1 ? 's' : ''}` : ''}`);

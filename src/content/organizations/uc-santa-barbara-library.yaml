@@ -5,7 +5,9 @@ kind: library
 description: Holds the Bernard Herrmann papers.
 official: false
 relevance: related
-sources: []
+sources:
+- title: 'Online Archive of California: Herrmann (Bernard) papers, 1927-1977'
+  url: https://oac.cdlib.org/findaid/ark:/13030/tf438nb3jd
 research_confidence: medium
 tags:
 - seed-record

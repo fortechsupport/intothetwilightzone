@@ -3,6 +3,7 @@
 // lists, and its media and content, each with a link to the full index filtered to this page.
 import { relatedForEntries, mediaForEntries, type Entry } from '../lib/catalog';
 import { LIBRARY_TYPES } from '../lib/taxonomy.mjs';
+import { mediaTypeHref } from '../lib/media-types';
 interface Props { entries: Entry[]; scope?: string; label: string; skipPeople?: boolean }
 const { entries, scope, label, skipPeople = false } = Astro.props;
 const r = relatedForEntries(entries);
@@ -26,7 +27,7 @@ const byType = LIBRARY_TYPES.map(([k, l]) => [k, l, media.filter((m) => m.type =
     {media.length > 0 && (
       <>
         <h2>Media and content in {label} <span class="muted small">({media.length})</span></h2>
-        <p>{byType.map(([k, l, n], i) => <>{i > 0 && ' · '}<a href={`/media/${q(k)}`}>{l}</a> <span class="count-pill">{n}</span></>)} · <a href={`/media/${q()}`}>all in the Media Library →</a></p>
+        <p>{byType.map(([k, l, n], i) => <>{i > 0 && ' · '}<a href={mediaTypeHref(k, { in: scope })}>{l}</a> <span class="count-pill">{n}</span></>)} · <a href="/media/">the Media Library →</a></p>
         <ul class="media-list compact">
           {media.slice(0, 8).map((m) => <li><span class="tag">{m.typeLabel}</span> <a href={m.href} rel={m.external ? 'noopener' : undefined}>{m.title}</a> <span class="muted small">on {m.on.slice(0, 2).map((o, i) => <>{i > 0 && ', '}{o.href ? <a href={o.href}>{o.title}</a> : o.title}</>)}{m.on.length > 2 && ` +${m.on.length - 2}`}</span></li>)}
         </ul>

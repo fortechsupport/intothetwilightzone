@@ -1,0 +1,42 @@
+---
+// The timeline overview: the franchise's own milestones on one page, and every dated record split by decade.
+import Base from '../../layouts/Base.astro';
+import TimelineList from '../../components/TimelineList.astro';
+import { timelineItems, decadeSlug, decadeLabel, MILESTONE_KINDS } from '../../lib/timeline';
+
+const items = await timelineItems();
+const decades = new Map<string, typeof items>();
+for (const i of items) decades.set(decadeSlug(i.year), [...(decades.get(decadeSlug(i.year)) ?? []), i]);
+const milestones = items.filter((i) => MILESTONE_KINDS.has(i.kind));
+const years = items.map((i) => i.year);
+const NOUNS: Record<string, [string, string]> = {
+  Born: ['birth', 'births'], Died: ['death', 'deaths'], Screen: ['screen work', 'screen works'], 'Home media': ['home media release', 'home media releases'],
+  'Around the world': ['foreign title', 'foreign titles'], History: ['history entry', 'history entries'], Series: ['series date', 'series dates'],
+};
+const plural = (k: string, n: number) => (NOUNS[k] ? NOUNS[k][n === 1 ? 0 : 1] : `${k.toLowerCase()}${n === 1 ? '' : 's'}`);
+const top = (list: typeof items) => {
+  const c = new Map<string, number>();
+  for (const i of list) c.set(i.kind, (c.get(i.kind) ?? 0) + 1);
+  return [...c].sort((a, b) => b[1] - a[1]).slice(0, 3).map(([k, n]) => `${n} ${plural(k, n)}`).join(', ');
+};
+---
+<Base title="Timeline" description="The Twilight Zone year by year: premieres, finales, films, legal and production history, then every dated record on the site, decade by decade.">
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a></p>
+  <h1>Timeline</h1>
+  <p class="lead">{items.length.toLocaleString('en-US')} dated entries from {Math.min(...years)} to {Math.max(...years)}: broadcasts, films, books, songs, births and deaths, and the franchise's own history. Each entry links to its page.</p>
+  <h2>Decade by decade</h2>
+  <div class="grid decade-grid">
+    {[...decades].map(([slug, list]) => (
+      <a class="card" href={`/timeline/${slug}/`}>
+        <span class="count">{list.length.toLocaleString('en-US')}</span>
+        <h3>{decadeLabel(slug)}</h3>
+        <p class="small muted">{top(list)}</p>
+      </a>
+    ))}
+  </div>
+  <div class="section-head">
+    <h2>Milestones</h2>
+    <p>Premieres and finales of each series, the films, and the production, legal and broadcast history: {milestones.length} entries. The decade pages add episodes, books, songs, people and everything else.</p>
+  </div>
+  <TimelineList items={milestones} />
+</Base>

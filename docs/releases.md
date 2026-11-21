@@ -3,6 +3,41 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-21 (later) — Faster long pages and a polish pass
+
+**The three heaviest pages now open quickly.**
+- **People** shows the 60 people in the most records, with A to Z letters at the top. Every person is on a
+  letter page ("People: S", filed by surname). Filtering or searching on the People page still covers all
+  2,979 entries; it loads the full index only when you use it. The page went from 1.1 MB to 50 KB.
+- **Timeline** opens on the franchise's own milestones (premieres, finales, films, production and legal
+  history) with a card for each decade. Each decade has its own page with every dated entry and the same
+  show/hide filter. 1.4 MB became 67 KB, and the largest decade page is 185 KB.
+- **Media Library** opens on an overview of the types, each with its own sortable page ("Reviews",
+  "Interviews"...). Old links (`/media/?type=review`, `/media/#item`) still land in the right place.
+  607 KB became 56 KB.
+
+**Polish.**
+- On phones, the Media Library and index tables show each row as a card with every column, instead of hiding
+  columns.
+- The small label above a record's title no longer starts a wrapped line with a stray dot.
+- Dates in record facts read as dates ("November 21, 2026", not "2026 11 21"), and hyphenated words keep their
+  hyphens. Outside links say what they are ("Read it online", "Official site", "Apple Podcasts") instead of
+  showing a field name.
+- The "page not found" page offers a search (filled in from the missing address) and the nine ways in.
+- Map colors moved into the design tokens, and a few leftover raw colors were removed.
+
+**Sources.** The 14 organizations that had none now cite the archive finding aids, catalogue pages and press
+the site already relies on for their holdings. `check:data` now fails any record without a source.
+
+**Checked:** data, tokens, both builds, links and titles (6,272 public pages), accessibility on 34 page types
+in both themes at 320 px. Load times on a simulated slow 4G phone with a slowed processor: 0.7 to 1.4 s to
+fully loaded for the home, record, index, timeline, Media Library, map and search pages.
+
+**Known not to work yet**
+- Without JavaScript, the People page's filters do nothing; the letter pages list everyone.
+- Sorting index tables is not available on phones (the column headers are hidden there).
+- Map marker colors are the same in both themes and are not part of the contrast check.
+
 ## 2026-11-21 — The redesign
 
 **Everything is on `main`.** The fan features, the nine-verb navigation and the structure document, which

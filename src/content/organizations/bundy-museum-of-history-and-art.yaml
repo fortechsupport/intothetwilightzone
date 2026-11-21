@@ -6,7 +6,11 @@ kind: museum
 description: A museum in Binghamton, New York, with a Rod Serling archive exhibit.
 official: false
 relevance: related
-sources: []
+sources:
+- title: 'Bundy Museum: In The Zone, The Rod Serling Archive'
+  url: https://www.bundymuseum.org/the-rod-serling-archive-1
+- title: 'MeTV: A new Rod Serling exhibit opens in the Twilight Zone creator''s hometown'
+  url: https://metv.com/stories/a-new-rod-serling-exhibit-opens-in-the-twilight-zone-creators-hometown
 research_confidence: medium
 tags:
 - seed-record

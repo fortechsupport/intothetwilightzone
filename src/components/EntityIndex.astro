@@ -1,28 +1,29 @@
 ---
-// A sortable, filterable index of every person, place or organization: what kind it is, how many records
+// A sortable, filterable index of people, places or organizations: what kind each is, how many records
 // it appears in, and the categories it appears in, each linked. ?in=<category or category/sub>, ?role=<sub>
-// and ?q= preset the filters (category pages link here filtered to themselves).
+// and ?q= preset the filters. Pass `rows` to index a subset (one letter of a split A to Z index).
 import { entityRows, catalog } from '../lib/catalog';
-interface Props { section: 'people' | 'places' | 'organizations'; noun: string }
+interface Props { section: 'people' | 'places' | 'organizations'; noun: string; rows?: Awaited<ReturnType<typeof entityRows>> }
 const { section, noun } = Astro.props;
-const rows = await entityRows(section);
+const rows = Astro.props.rows ?? (await entityRows(section));
 const cats = [...(await catalog()).values()].filter((c) => !c.kind);
 const used = new Set(rows.flatMap((r) => r.where.map((w) => w.slug)));
-const subs = (await catalog()).get(section)!.subs.filter((s) => s.entries.length);
+const usedSubs = new Set(rows.flatMap((r) => r.subs.map((s) => s.slug)));
+const subs = (await catalog()).get(section)!.subs.filter((s) => s.entries.length && usedSubs.has(s.slug));
 const tops = (r: (typeof rows)[number]) => r.where.filter((w) => !w.slug.includes('/'));
 ---
 <form class="lib-filters" data-pagefind-ignore onsubmit="return false">
   <label>Kind <select id="e-role"><option value="">All</option>{subs.map((s) => <option value={s.slug}>{s.title}</option>)}</select></label>
   <label>Appears in <select id="e-in"><option value="">Anywhere</option>{cats.map((c) => used.has(c.slug) && <><option value={c.slug}>{c.title}</option>{c.subs.filter((s) => used.has(`${c.slug}/${s.slug}`)).map((s) => <option value={`${c.slug}/${s.slug}`}>&nbsp;&nbsp;{c.title}: {s.title}</option>)}</>)}</select></label>
   <label>Search <input id="e-q" type="search" placeholder={`Find ${noun}`} /></label>
-  <span id="e-count" class="small muted"></span>
+  <span id="e-count" class="small muted" role="status"></span>
 </form>
 <div class="table-wrap">
   <table class="lib" id="ent">
     <thead><tr><th data-sort="name">Name</th><th>Kind</th><th data-sort="n">Records</th><th>Appears in</th></tr></thead>
     <tbody>
       {rows.map((r) => (
-        <tr data-role={r.subs.map((s) => s.slug).join(' ')} data-in={r.where.map((w) => w.slug).join(' ')} data-name={r.sort} data-n={String(r.records).padStart(5, '0')} data-text={`${r.title} ${r.meta ?? ''}`.toLowerCase()}>
+        <tr data-role={r.subs.map((s) => s.slug).join(' ')} data-in={r.where.map((w) => w.slug).join(' ')} data-name={r.sort} data-n={r.records}>
           <td><a href={r.href}>{r.title}</a>{r.official === true && <span class="tag">Official</span>}{r.meta && <div class="small muted">{r.meta}</div>}</td>
           <td class="small">{r.subs.map((s) => s.title).join(', ')}</td>
           <td class="small">{r.records || ''}</td>
@@ -36,6 +37,7 @@ const tops = (r: (typeof rows)[number]) => r.where.filter((w) => !w.slug.include
   (() => {
     const $ = (id) => document.getElementById(id);
     const rows = [...document.querySelectorAll('#ent tbody tr')];
+    for (const r of rows) r.dataset.text = r.cells[0].textContent.toLowerCase();
     const tbody = document.querySelector('#ent tbody');
     const p = new URLSearchParams(location.search);
     $('e-role').value = p.get('role') || ''; $('e-in').value = p.get('in') || ''; $('e-q').value = p.get('q') || '';
@@ -55,7 +57,8 @@ const tops = (r: (typeof rows)[number]) => r.where.filter((w) => !w.slug.include
     let dir = 1, last = 'name';
     for (const th of document.querySelectorAll('#ent th[data-sort]')) th.addEventListener('click', () => {
       const k = th.dataset.sort; dir = last === k ? -dir : (k === 'n' ? -1 : 1); last = k;
-      rows.sort((a, b) => a.dataset[k].localeCompare(b.dataset[k]) * dir).forEach((x) => tbody.appendChild(x));
+      const val = (x) => k === 'n' ? String(x.dataset.n).padStart(5, '0') : x.dataset[k];
+      rows.sort((a, b) => val(a).localeCompare(val(b)) * dir).forEach((x) => tbody.appendChild(x));
     });
     apply();
   })();
