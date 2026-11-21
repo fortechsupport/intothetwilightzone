@@ -44,3 +44,58 @@ ties:
   - title: "Wikipedia: Night Gallery"
     url: https://en.wikipedia.org/wiki/Night_Gallery
     publisher: Wikipedia
+releases:
+- date: '2004-08-24'
+  format: DVD
+  title: 'Night Gallery: Season One'
+  publisher: Universal
+  note: 'Three discs: the 1969 pilot and the first season, plus three later episodes as extras; no other bonus features.'
+  sources:
+  - title: 'Night Gallery: Complete First Season (review)'
+    url: https://www.dvdtalk.com/reviews/review/12105
+    publisher: DVD Talk
+  - title: 'Night Gallery: Season One'
+    url: https://www.universalpicturesathome.com/tv/night-gallery-season-one
+    publisher: Universal Pictures Home Entertainment
+- date: 2008-11
+  format: DVD
+  title: 'Night Gallery: Season Two'
+  publisher: Universal
+  note: Adds a 30-minute documentary, a gallery of the paintings and commentaries by Guillermo del Toro and by Scott Skelton
+    and Jim Benson, per a fan site; not yet confirmed elsewhere.
+  sources:
+  - title: Night Gallery on DVD
+    url: https://www.nightgallery.net/night-gallery-on-dvd
+    publisher: nightgallery.net (fan site)
+- date: '2012-04-10'
+  format: DVD
+  title: 'Night Gallery: Season Three'
+  publisher: Universal
+  note: Includes a restored "lost episode" of four segments and commentaries, per a fan site; another review places those
+    segments with Season Two.
+  sources:
+  - title: Night Gallery on DVD
+    url: https://www.nightgallery.net/night-gallery-on-dvd
+    publisher: nightgallery.net (fan site)
+- date: '2021-11-23'
+  format: Blu-ray
+  title: 'Night Gallery: Season One'
+  publisher: Kino Lorber Studio Classics
+  note: 'Two discs from new 2K masters: the pilot and the first season, new commentaries and "The Syndication Conundrum" featurette.'
+  sources:
+  - title: 'Night Gallery: Season One (Blu-ray review)'
+    url: https://www.digitalbits.com/item/night-gallery-s1-klsc-2022-bd
+    author: Tim Salmons
+    publisher: The Digital Bits
+- date: '2026-01-14'
+  format: Blu-ray
+  title: 'Rod Serling''s Night Gallery: The Complete Collection'
+  publisher: Imprint Television (Via Vision Entertainment)
+  region: Australia
+  note: 'Limited edition of 1,500: ten discs with all three seasons, the pilot and the lost Season Two segments, eight new
+    commentaries and a paintings disc.'
+  sources:
+  - title: 'Rod Serling''s Night Gallery: The Complete Collection (Blu-ray review)'
+    url: https://digitalbits.com/reviews/item/rod-serling-s-night-gallery-the-complete-collection-blu-ray-review
+    author: Tim Salmons
+    publisher: The Digital Bits
