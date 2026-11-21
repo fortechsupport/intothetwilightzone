@@ -3,6 +3,21 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-21 — Themes across Television
+
+**Browse by theme.** /themes/ lists 41 themes in eight families (The unknown, Time and memory, Society...), each with a
+page holding every Twilight Zone episode by series, every Night Gallery segment and every homage or work that points to one
+of those episodes, with a search and series filter. Themes link from the footer, the Television page and every page that
+shows them.
+
+**Themes everywhere in Television.** Episode pages list their themes; series and show pages list their most common themes
+with counts; each Night Gallery segment and each homage shows its themes. Series episode tables, the episode explorer
+(Night Gallery, The Simpsons and every show page) and the homages page have a Theme filter, kept in the address so a
+filtered view can be shared. The episode finder's theme chips use the same 41 themes.
+
+**Known not to work yet:** themes are our editors' reading and Adam has not reviewed the list; Serling's other plays
+(Playhouse 90, Studio One...) have no themes yet; homages to a whole series rather than one episode have none.
+
 ## 2026-11-21 — Television research round 1: Rod Serling's plays (no change for visitors yet)
 
 Five more of Serling's television plays are on file, pending Adam's review: Buffalo Bill Is Dead and U.F.O. (Studio One,

@@ -1,0 +1,123 @@
+---
+// One theme (decision 0004): its definition, then every Twilight Zone episode by series, every Night Gallery
+// segment, and every work that points to an episode carrying it, grouped by medium. Filters narrow the lists
+// without JavaScript-only content: with scripts off, everything shows.
+import Base from '../../layouts/Base.astro';
+import { THEMES, THEME, FAMILIES, themeHref, THEME_NOTE, type Theme } from '../../lib/themes';
+import { themeIndex } from '../../lib/theme-index';
+import { formatDate, SERIES_ORDER, MEDIUM_ORDER } from '../../lib/data';
+import { sortKey } from '../../lib/categories';
+
+export function getStaticPaths() {
+  return THEMES.map((t) => ({ params: { slug: t.slug }, props: { t } }));
+}
+const { t } = Astro.props as { t: Theme };
+const ix = await themeIndex();
+const has = (x: { themes: string[] }) => x.themes.includes(t.slug);
+const eps = ix.episodes.filter(has);
+const segs = ix.segments.filter(has);
+const works = ix.works.filter(has);
+const SERIES_NAME: Record<string, string> = { '1959': 'The Twilight Zone (1959–1964)', '1985': 'The Twilight Zone (1985–1989)', '2002': 'The Twilight Zone (2002–2003)', '2019': 'The Twilight Zone (2019–2020)' };
+const bySeries = SERIES_ORDER.map((s) => [s, eps.filter((e) => e.series === s)] as const).filter(([, l]) => l.length);
+const byMedium = MEDIUM_ORDER.map((m) => [m, works.filter((w) => w.medium === m)] as const).filter(([, l]) => l.length);
+const family = FAMILIES.find((f) => f.family === t.family)!;
+const siblings = family.themes.filter((x) => x.slug !== t.slug).sort((a, b) => a.label.localeCompare(b.label));
+// Themes that most often share an episode with this one.
+const co = new Map<string, number>();
+for (const e of eps) for (const s of e.themes) if (s !== t.slug) co.set(s, (co.get(s) ?? 0) + 1);
+const often = [...co.entries()].sort((a, b) => b[1] - a[1]).slice(0, 5);
+const total = eps.length + segs.length + works.length;
+const parts = [eps.length && `${eps.length} Twilight Zone ${eps.length === 1 ? 'episode' : 'episodes'}`, segs.length && `${segs.length} Night Gallery ${segs.length === 1 ? 'segment' : 'segments'}`, works.length && `${works.length} ${works.length === 1 ? 'work' : 'works'} that point to them`].filter(Boolean) as string[];
+const sec = [eps.length && ['episodes', 'Twilight Zone'], segs.length && ['night-gallery', 'Night Gallery'], works.length && ['homages', 'Homages and works']].filter(Boolean) as [string, string][];
+---
+<Base title={`${t.label}: a Twilight Zone theme`} description={`${t.desc} ${parts.join(', ')}.`}>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/discover/">Discover</a> / <a href="/themes/">Themes</a> / <a href={`/themes/#${family.slug}`}>{t.family}</a></p>
+  <header class="record-head">
+    <p class="eyebrow"><span class="eyebrow-in"><span class="eyebrow-type">Theme</span><span class="eyebrow-ctx">{t.family}</span></span></p>
+    <h1>{t.label}</h1>
+  </header>
+  <p class="lead">{t.desc}</p>
+  <p>{total ? `${parts.join(', ')}.` : 'Nothing is filed under this theme yet.'}</p>
+  <p class="small muted">{THEME_NOTE} <a href="/themes/">How themes are assigned</a>.</p>
+  {sec.length > 1 && <nav class="page-tabs" aria-label="On this page" data-pagefind-ignore><ul>{sec.map(([id, l]) => <li><a href={`#${id}`}>{l}</a></li>)}</ul></nav>}
+  {total > 8 && (
+    <form class="lib-filters" id="tf" data-pagefind-ignore onsubmit="return false" aria-label={`Filter everything under ${t.label}`}>
+      <label class="lt-q">Search <input data-f="q" type="search" placeholder="Title or episode" /></label>
+      {bySeries.length > 1 && <label>Series <select data-f="series"><option value="">All</option>{bySeries.map(([s]) => <option value={s}>{s} series</option>)}</select></label>}
+      <span class="small muted" id="tf-count" role="status"></span>
+    </form>
+  )}
+
+  {eps.length > 0 && (
+    <section id="episodes">
+      <h2>Twilight Zone episodes <span class="muted small">({eps.length})</span></h2>
+      {bySeries.map(([s, list]) => (
+        <section class="tf-group" data-series={s}>
+          <h3>{SERIES_NAME[s]} <span class="muted small">({list.length})</span></h3>
+          <ul class="columns plain tf-list">
+            {[...list].sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title))).map((e) => (
+              <li class="tf-item" data-series={s}><a href={e.href}>{e.title}</a> <span class="small muted">{e.number}{e.date && `, ${e.date.slice(0, 4)}`}</span></li>
+            ))}
+          </ul>
+        </section>
+      ))}
+      <p class="small"><a href={`/finder/?theme=${encodeURIComponent(t.label)}`}>Combine with other themes, writers and actors in the episode finder</a></p>
+    </section>
+  )}
+
+  {segs.length > 0 && (
+    <section id="night-gallery" class="tf-group">
+      <h2>Night Gallery segments <span class="muted small">({segs.length})</span></h2>
+      <ul class="columns plain tf-list">
+        {[...segs].sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title))).map((g) => (
+          <li class="tf-item"><a href={g.href}>{g.title}</a> <span class="small muted">{g.episode}</span></li>
+        ))}
+      </ul>
+      <p class="small"><a href={`/night-gallery/?theme=${t.slug}#ex`}>See them with their summaries on the Night Gallery page</a></p>
+    </section>
+  )}
+
+  {works.length > 0 && (
+    <section id="homages">
+      <h2>Homages and works <span class="muted small">({works.length})</span></h2>
+      <p class="small muted">Shows, films, songs and more that point to a Twilight Zone episode under this theme. They take the episode’s themes.</p>
+      {byMedium.map(([m, list]) => (
+        <details class="tf-group" open={list.length <= 40}>
+          <summary><strong>{m}</strong> <span class="muted small">({list.length})</span></summary>
+          <ul class="plain homage-compact tf-list">
+            {list.map((w) => (
+              <li class="tf-item" data-series={`|${w.via.map((v) => v.series).join('|')}|`}><a href={w.href}>{w.title}</a> <span class="small muted">{w.kind.toLowerCase()} of {w.via.map((v, i) => <>{i > 0 && ', '}<a href={v.href}>{v.title}</a> ({v.series})</>)}</span></li>
+            ))}
+          </ul>
+        </details>
+      ))}
+    </section>
+  )}
+
+  <section>
+    <h2>Related themes</h2>
+    {often.length > 0 && <p>Most often found with: {often.map(([s, n], i) => <>{i > 0 && ', '}<a href={themeHref(s)}>{THEME.get(s)!.label}</a> <span class="muted small">({n})</span></>)}</p>}
+    <p>Also in {t.family}: {siblings.map((x, i) => <>{i > 0 && ', '}<a href={themeHref(x.slug)}>{x.label}</a></>)}</p>
+    <p class="small"><a href="/themes/">All {THEMES.length} themes</a></p>
+  </section>
+  <script is:inline>
+    (() => {
+      const form = document.getElementById('tf');
+      if (!form) return;
+      const items = [...document.querySelectorAll('.tf-item')]; const count = document.getElementById('tf-count');
+      for (const it of items) it.dataset.text = it.textContent.toLowerCase();
+      const v = (k) => { const el = form.querySelector(`[data-f="${k}"]`); return el ? el.value : ''; };
+      const p = new URLSearchParams(location.search);
+      for (const k of ['q', 'series']) { const el = form.querySelector(`[data-f="${k}"]`); if (el && p.get(k)) el.value = p.get(k); }
+      const apply = () => {
+        const q = v('q').trim().toLowerCase(), s = v('series'); let n = 0;
+        for (const it of items) { const ds = it.dataset.series || ''; const ok = (!q || it.dataset.text.includes(q)) && (!s || ds === s || ds.includes(`|${s}|`)); it.hidden = !ok; if (ok) n++; }
+        for (const g of document.querySelectorAll('.tf-group')) g.hidden = ![...g.querySelectorAll('.tf-item')].some((x) => !x.hidden);
+        count.textContent = n === items.length ? `${n} in all` : `${n} of ${items.length} shown`;
+        const u = new URLSearchParams(); if (q) u.set('q', q); if (s) u.set('series', s);
+        history.replaceState(null, '', `${location.pathname}${u.toString() ? '?' + u : ''}${location.hash}`);
+      };
+      form.addEventListener('input', apply); form.addEventListener('change', apply); apply();
+    })();
+  </script>
+</Base>

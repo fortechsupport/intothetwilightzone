@@ -16,6 +16,8 @@ import { watchFor } from '../lib/watch';
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { formatDate, personUrl, resolveRef, CONNECTION_LABELS, CONFIDENCE_LABELS } from '../lib/data';
 import { tv, explorerEntries } from '../lib/television';
+import ThemeList from './ThemeList.astro';
+import { segmentThemes, inheritedThemes, topThemes, ordered } from '../lib/themes';
 import { assess, TIER_LABEL } from '../lib/assessments';
 import { catalog, placesOf } from '../lib/catalog';
 import { shortSource, CONNECTION_VERBS } from '../lib/data';
@@ -29,6 +31,13 @@ const show = d.kind === 'tv-series' ? tv.showByRecord(f.id) : undefined;
 const entries = show ? await explorerEntries(show.entries) : [];
 const nouns = entries.every((e) => e.kindLabel === 'Sketch') ? 'sketches' : 'episodes';
 const a = assess(`films/${f.id}`);
+// Themes (decision 0004): a show's most common, a film's own segments', or those of the episodes it points to.
+const segThemes = d.segments.map((_, i) => segmentThemes(f.id, i));
+const showThemes = topThemes(entries.map((e) => e.themes), 6);
+const ownThemes = ordered(segThemes.flat());
+const pointsTo = conns.map((c) => c.data.to).filter((t) => /^\d{4}\//.test(t));
+const inherited = ownThemes.length ? [] : await inheritedThemes(pointsTo);
+const fromSegs = entries.some((e) => e.themesFrom === 'segments');
 const TAGS: Record<string, string> = { 'anthology-family': 'Fellow anthology', 'tz-writers': 'Made by Twilight Zone writers', 'radio-only': 'Radio only', 'compared-by-critics': 'Compared by critics', 'cited-by-makers': 'Cited by its makers' };
 const tags = (d.tags ?? []).map((t: string) => TAGS[t]).filter(Boolean);
 const host = d.parent_series ? tv.showOf(f.id) : undefined;
@@ -60,6 +69,9 @@ const watch = WATCHABLE.has(d.kind) && !(d.tags ?? []).includes('radio-only') &&
     {d.presented_by.length > 0 && <><dt>Hosted by</dt><dd>{d.presented_by.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
     {tags.length > 0 && <><dt>Tagged</dt><dd>{tags.map((t: string) => <span class="tag">{t}</span>)}</dd></>}
     {d.rating && <><dt>Rating</dt><dd>{d.rating}</dd></>}
+    {showThemes.length > 0 ? <ThemeList slugs={showThemes.map(([t]) => t)} counts={new Map(showThemes)} label="Most common themes" from={fromSegs ? 'its segments, with how many episodes carry each' : 'the Twilight Zone episodes its episodes point to, with how many'} />
+      : ownThemes.length > 0 ? <ThemeList slugs={ownThemes} from="its segments" />
+      : <ThemeList slugs={inherited} from={pointsTo.length > 1 ? 'the Twilight Zone episodes it points to' : 'the Twilight Zone episode it points to'} />}
     {watch && <WhereToWatch info={watch} />}
     {d.runtime_min && <><dt>Runtime</dt><dd>{d.runtime_min} minutes</dd></>}
     {d.directors.length > 0 && <><dt>Directed by</dt><dd>{d.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
@@ -69,11 +81,12 @@ const watch = WATCHABLE.has(d.kind) && !(d.tags ?? []).includes('radio-only') &&
     <section>
       <h2>Segments</h2>
       <ul class="plain">
-        {d.segments.map((sg) => (
+        {d.segments.map((sg, si) => (
           <li>
             <strong>{sg.title}</strong>
             {sg.adapts_episode && <> · adapts <a href={`/episodes/${sg.adapts_episode}/`}>{sg.adapts_episode.split('/')[1].replace(/-/g, ' ')}</a></>}
             {sg.summary && <p class="small">{sg.summary}</p>}
+            <ThemeList slugs={segThemes[si]} as="line" />
             {sg.source_title && <div class="small">Based on “{sg.source_title}”{sg.source_authors.length > 0 && <> by {sg.source_authors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}</div>}
             {sg.directors.length > 0 && <div class="small">Directed by {sg.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</div>}
             {sg.writers.length > 0 && <div class="small">Written by {sg.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</div>}

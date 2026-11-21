@@ -6,6 +6,8 @@
 import { personUrl, formatDate, CONNECTION_LABELS, CONNECTION_VERBS, CONFIDENCE_LABELS } from '../lib/data';
 import { sortKey } from '../lib/categories';
 import type { ExEntry } from '../lib/television';
+import ThemeList from './ThemeList.astro';
+import { THEMES, topThemes } from '../lib/themes';
 
 interface Props { entries: ExEntry[]; id?: string; noun?: string; groupLabel?: string }
 const { entries, id = 'ex', noun = 'episodes', groupLabel = 'Season' } = Astro.props;
@@ -15,6 +17,7 @@ const people = [...new Set(entries.flatMap(peopleOf))].sort((a, b) => sortKey(a)
 const groups = [...new Set(entries.map((e) => e.group))];
 const kinds = [...new Set(entries.flatMap((e) => e.links.map((l) => l.kind)))].sort();
 const certs = ['confirmed-by-creator', 'documented', 'fan-noted'].filter((c) => entries.some((e) => e.links.some((l) => l.certainty === c)));
+const themeCounts = new Map(topThemes(entries.map((e) => e.themes), 99));
 const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 ---
 {entries.length > 0 && (
@@ -24,6 +27,7 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
       {groups.length > 1 && <label>{groupLabel} <select data-f="group"><option value="">All</option>{groups.map((g) => <option value={g}>{g}</option>)}</select></label>}
       {people.length > 0 && <label>Person <select data-f="person"><option value="">Anyone</option>{people.map((p) => <option value={p}>{p}</option>)}</select></label>}
       {kinds.length > 0 && <label>Type <select data-f="kind"><option value="">Any</option>{kinds.map((k) => <option value={k}>{CONNECTION_LABELS[k] ?? k}</option>)}</select></label>}
+      {themeCounts.size > 0 && <label>Theme <select data-f="theme"><option value="">Any</option>{THEMES.filter((t) => themeCounts.has(t.slug)).map((t) => <option value={t.slug}>{t.label} ({themeCounts.get(t.slug)})</option>)}</select></label>}
       {certs.length > 0 && <label>How sure <select data-f="cert"><option value="">Any</option>{certs.map((c) => <option value={c}>{CONFIDENCE_LABELS[c]}</option>)}</select></label>}
       <label class="lt-q">Search <input data-f="q" type="search" placeholder={`Search ${noun}`} /></label>
       <label>Sort <select data-f="order"><option value="air">Air order</option><option value="az">A to Z</option><option value="za">Z to A</option><option value="new">Newest first</option></select></label>
@@ -41,6 +45,7 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
             data-people={`|${peopleOf(e).join('|')}|`}
             data-kind={`|${e.links.map((l) => l.kind).join('|')}|`}
             data-cert={`|${e.links.map((l) => l.certainty).join('|')}|`}
+            data-themes={`|${e.themes.join('|')}|`}
             data-sort={sortKey(e.title)}
             data-air={`${e.group}|${e.date ?? ''}|${e.id}`} data-date={e.date ?? ''}>
             <h4 class="ex-title"><a href={`#${e.id}`} class="ex-anchor">{e.title}</a></h4>
@@ -52,6 +57,7 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
                 ))}
               </ul>
             )}
+            {e.themesFrom === 'episodes' && <ThemeList slugs={e.themes} as="line" from={e.links.filter((l) => l.href.startsWith('/episodes/')).length > 1 ? 'the episodes it points to' : 'the episode it points to'} />}
             {e.summary && e.segments.length !== 1 && <p class="small">{e.summary}</p>}
             {(e.writers.length > 0 || e.directors.length > 0) && (
               <p class="small">{e.writers.length > 0 && <>Written by {e.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}{e.writers.length > 0 && e.directors.length > 0 && ' · '}{e.directors.length > 0 && <>Directed by {e.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}</p>
@@ -64,6 +70,7 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
                     <strong>{sg.title}</strong>
                     {sg.adapts && <span class="small"> · adapts <a href={sg.adapts.href}>{sg.adapts.title}</a></span>}
                     {sg.summary && <p class="small">{sg.summary}</p>}
+                    <ThemeList slugs={sg.themes} as="line" />
                     {sg.source_title && <p class="small">Based on “{sg.source_title}”{sg.source_authors.length > 0 && <> by {sg.source_authors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}</p>}
                     {!sg.source_title && sg.source_authors.length > 0 && <p class="small">From a story by {sg.source_authors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</p>}
                     {(sg.writers.length > 0 || sg.directors.length > 0) && <p class="small">{sg.writers.length > 0 && <>Written by {sg.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}{sg.writers.length > 0 && sg.directors.length > 0 && ' · '}{sg.directors.length > 0 && <>Directed by {sg.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}</p>}
@@ -92,12 +99,12 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
     const val = (k) => (f(k) ? f(k).value : '');
     const count = root.querySelector('.ex-count');
     const p = new URLSearchParams(location.search);
-    for (const k of ['group', 'person', 'kind', 'cert', 'q', 'order']) if (f(k) && p.get(k)) f(k).value = p.get(k);
+    for (const k of ['group', 'person', 'kind', 'theme', 'cert', 'q', 'order']) if (f(k) && p.get(k)) f(k).value = p.get(k);
     const apply = () => {
-      const g = val('group'), per = val('person'), kind = val('kind'), cert = val('cert'), q = val('q').trim().toLowerCase();
+      const g = val('group'), per = val('person'), kind = val('kind'), th = val('theme'), cert = val('cert'), q = val('q').trim().toLowerCase();
       let n = 0;
       for (const it of items) {
-        const ok = (!g || it.dataset.group === g) && (!per || it.dataset.people.includes(`|${per}|`)) && (!kind || it.dataset.kind.includes(`|${kind}|`)) && (!cert || it.dataset.cert.includes(`|${cert}|`)) && (!q || it.dataset.text.includes(q));
+        const ok = (!g || it.dataset.group === g) && (!per || it.dataset.people.includes(`|${per}|`)) && (!kind || it.dataset.kind.includes(`|${kind}|`)) && (!th || it.dataset.themes.includes(`|${th}|`)) && (!cert || it.dataset.cert.includes(`|${cert}|`)) && (!q || it.dataset.text.includes(q));
         it.hidden = !ok; if (ok) n++;
       }
       for (const sec of root.querySelectorAll('.ex-group')) sec.hidden = ![...sec.querySelectorAll('.ex-entry')].some((x) => !x.hidden);
@@ -108,7 +115,7 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
       }
       if (count) count.textContent = n === items.length ? `${n} ${n === 1 ? 'entry' : 'entries'}` : `${n} of ${items.length} shown`;
       const u = new URLSearchParams(location.search);
-      for (const k of ['group', 'person', 'kind', 'cert', 'q', 'order']) { const v = k === 'q' ? q : val(k); if (v && !(k === 'order' && v === 'air')) u.set(k, v); else u.delete(k); }
+      for (const k of ['group', 'person', 'kind', 'theme', 'cert', 'q', 'order']) { const v = k === 'q' ? q : val(k); if (v && !(k === 'order' && v === 'air')) u.set(k, v); else u.delete(k); }
       history.replaceState(null, '', `${location.pathname}${u.toString() ? '?' + u : ''}${location.hash}`);
     };
     form.addEventListener('change', apply);

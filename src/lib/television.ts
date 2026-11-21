@@ -3,6 +3,7 @@
 // The rule itself is in ./tv-shows.mjs, shared with astro.config.mjs for redirects.
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { buildShowIndex, isEntryOnly } from './tv-shows.mjs';
+import { segmentThemes, inheritedThemes, ordered } from './themes';
 
 const films = await getCollection('films');
 const byId = new Map(films.map((f) => [f.id, f]));
@@ -16,7 +17,7 @@ export function filmHref(id: string): string {
 export { isEntryOnly };
 
 export interface ExPerson { name: string }
-export interface ExSegment { title: string; summary?: string; source_title?: string; source_authors: string[]; writers: string[]; directors: string[]; cast: string[]; adapts?: { title: string; href: string } }
+export interface ExSegment { title: string; summary?: string; source_title?: string; source_authors: string[]; writers: string[]; directors: string[]; cast: string[]; adapts?: { title: string; href: string }; themes: string[] }
 export interface ExLink { kind: string; certainty: string; title: string; href: string; evidence?: string }
 export interface ExEntry {
   id: string;
@@ -31,6 +32,8 @@ export interface ExEntry {
   directors: string[];
   cast: string[];
   links: ExLink[]; // Twilight Zone episodes and series this entry pays homage to
+  themes: string[]; // its segments' themes, or those of the episodes it points to (src/lib/themes.ts)
+  themesFrom?: 'segments' | 'episodes';
   sources: CollectionEntry<'films'>['data']['sources'];
   media: CollectionEntry<'films'>['data']['media'];
   verified?: string;
@@ -79,18 +82,23 @@ export async function explorerEntries(ids: string[]): Promise<ExEntry[]> {
     if (!f) continue;
     const d = f.data;
     const links: ExLink[] = [];
-    for (const c of conns.filter((x) => x.data.from === `films/${id}`)) {
+    const mine = conns.filter((x) => x.data.from === `films/${id}`);
+    for (const c of mine) {
       const t = await resolveTz(c.data.to);
       if (t) links.push({ kind: c.data.kind, certainty: c.data.confidence, title: t.title, href: t.href, evidence: c.data.evidence ?? c.data.summary });
     }
     const segments: ExSegment[] = [];
     for (const sg of d.segments) {
       const adapts = sg.adapts_episode ? await resolveTz(sg.adapts_episode) : undefined;
-      segments.push({ title: sg.title, summary: sg.summary, source_title: sg.source_title, source_authors: sg.source_authors, writers: sg.writers, directors: sg.directors, cast: sg.cast, adapts });
+      segments.push({ title: sg.title, summary: sg.summary, source_title: sg.source_title, source_authors: sg.source_authors, writers: sg.writers, directors: sg.directors, cast: sg.cast, adapts, themes: segmentThemes(id, segments.length) });
     }
+    const segThemes = ordered(segments.flatMap((sg) => sg.themes));
+    const epThemes = segThemes.length ? [] : await inheritedThemes(mine.map((c) => c.data.to));
+    const themes = segThemes.length ? segThemes : epThemes;
     out.push({
       id, title: shortTitle(id, d.title), date: d.release_date, ...groupOf(id, d), kindLabel: KIND_LABEL[d.kind],
       summary: d.summary, segments, writers: d.writers, directors: d.directors, cast: d.cast, links,
+      themes, themesFrom: segThemes.length ? 'segments' : epThemes.length ? 'episodes' : undefined,
       sources: d.sources, media: d.media, verified: d.last_verified,
     });
   }

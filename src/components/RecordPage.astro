@@ -15,6 +15,8 @@ import ExtLinks from './ExtLinks.astro';
 import { getCollection } from 'astro:content';
 import { resolveRef, formatDate, CONNECTION_LABELS, CONFIDENCE_LABELS, personUrl, splitCredit } from '../lib/data';
 import { assess, TIER_LABEL } from '../lib/assessments';
+import ThemeList from './ThemeList.astro';
+import { inheritedThemes } from '../lib/themes';
 
 interface Props { col: string; entry: any }
 const { col, entry } = Astro.props;
@@ -40,6 +42,8 @@ const refList: string[] = [...(d.episodes ?? []), ...(d.appears_in ?? []), ...(d
 const refs = (await Promise.all([...new Set(refList)].map(async (r) => ({ r, t: await resolveRef(r) }))));
 const conns = (await getCollection('connections')).filter((c) => c.data.from === key);
 const targets = await Promise.all(conns.map(async (c) => ({ c, t: await resolveRef(c.data.to) })));
+const epRefs = conns.map((c) => c.data.to).filter((t) => /^\d{4}\//.test(t));
+const themes = await inheritedThemes(epRefs);
 const firstRef = refs.find((x) => x.t)?.t?.title;
 const docTitle = recordDocTitle(col, d, title, { firstRef });
 ---
@@ -75,6 +79,7 @@ const docTitle = recordDocTitle(col, d, title, { firstRef });
           {targets.map(({ c, t }) => <li><span class="tag">{CONNECTION_LABELS[c.data.kind]}</span>{t ? <a href={t.url}>{t.title}</a> : c.data.to} <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span>{c.data.evidence && <span class="small"> {c.data.evidence}</span>}</li>)}
         </ul>
       )}
+      {themes.length > 0 && <ThemeList slugs={themes} as="line" from={epRefs.length > 1 ? 'the episodes it points to' : 'the episode it points to'} />}
       {a?.tier && <p class="small muted">Relevance: {TIER_LABEL[a.tier]}. {a.tier_reason}</p>}
     </section>
   )}

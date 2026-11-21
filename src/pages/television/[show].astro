@@ -6,6 +6,8 @@ import Base from '../../layouts/Base.astro';
 import EpisodeExplorer from '../../components/EpisodeExplorer.astro';
 import WhereToWatch from '../../components/WhereToWatch.astro';
 import { watchFor } from '../../lib/watch';
+import ThemeList from '../../components/ThemeList.astro';
+import { topThemes } from '../../lib/themes';
 import { showsWithEntries, explorerEntries } from '../../lib/television';
 
 export async function getStaticPaths() {
@@ -16,6 +18,7 @@ const entries = await explorerEntries(s.entries);
 const homages = entries.filter((e) => e.links.length > 0).length;
 const serling = entries.filter((e) => [...e.writers, ...e.segments.flatMap((g) => g.writers)].includes('Rod Serling')).length;
 const n = entries.length;
+const themes = topThemes(entries.map((e) => e.themes), 6);
 const noun = entries.every((e) => e.kindLabel === 'Sketch') ? (n === 1 ? 'sketch' : 'sketches') : n === 1 ? 'episode' : 'episodes';
 const parts = [homages > 0 && `${homages} with a Twilight Zone homage`, serling > 0 && `${serling} written by Rod Serling`].filter(Boolean);
 const crumb = serling > 0 && homages === 0 ? ['Rod Serling’s series', '/series/serling-series/'] : ['Homages in other shows', '/series/homages/'];
@@ -27,7 +30,10 @@ const crumb = serling > 0 && homages === 0 ? ['Rod Serling’s series', '/series
     <h1>{s.title}</h1>
   </header>
   <p class="lead">{homages === n ? `${n} ${noun} that pay homage to The Twilight Zone.` : serling === n ? `${n} ${noun} written by Rod Serling.` : `${n} ${noun}${parts.length ? `: ${parts.join(', ')}` : ''}.`}</p>
-  <dl class="facts"><WhereToWatch info={watchFor({ slug: s.slug, name: s.title })} /></dl>
+  <dl class="facts">
+    <ThemeList slugs={themes.map(([t]) => t)} counts={new Map(themes)} label="Most common themes" from="the Twilight Zone episodes its episodes point to, with how many" />
+    <WhereToWatch info={watchFor({ slug: s.slug, name: s.title })} />
+  </dl>
   <EpisodeExplorer entries={entries} noun={noun} />
   <p class="small">Missing one? <a href="/contribute/">Tell us</a>.</p>
 </Base>

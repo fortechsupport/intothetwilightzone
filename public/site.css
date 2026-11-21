@@ -494,6 +494,8 @@ ol.rank li { padding: 4px 0; border-bottom: 1px solid var(--line); }
 /* Where to watch (src/components/WhereToWatch.astro, src/lib/watch.ts): a facts row near the top of series,
    show, film and episode pages, and a short line beside a show's name in lists. */
 .watch-dd .watch-src { display: block; margin-top: .15rem; }
+.theme-dd .theme-src { display: block; margin-top: .15rem; }
+.theme-line { margin: var(--space-1) 0 0; }
 .watch-inline { display: block; color: var(--muted); font-family: var(--font-ui); font-size: var(--step--1); font-weight: 400; letter-spacing: 0; margin-top: .1rem; }
 h2 .watch-inline, h3 .watch-inline { font-size: var(--step--1); }
 ol.rank .watch-inline { margin-left: 0; }
