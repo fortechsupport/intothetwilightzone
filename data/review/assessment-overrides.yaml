@@ -5040,3 +5040,59 @@ films/the-hate-syndrome-1966-teleplay:
   recommendation: include
   reason: Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.
   subcategory: Rod Serling's series
+
+# Television research round 2 (networks, studios and sponsors), 2026-11-21
+organizations/nbc:
+  connection: The network that aired Night Gallery and many of the anthologies Rod Serling wrote for in the 1950s.
+  tier: related
+  tier_reason: It carried Serling's own series and early plays, not The Twilight Zone itself.
+  recommendation: include
+  reason: Its role is stated on the Wikipedia articles for Night Gallery, Kraft Television Theatre, Lux Video Theatre and Hallmark Hall of Fame.
+organizations/abc:
+  connection: The network that carried The United States Steel Hour, including Serling's The Rack, from 1953 to 1955.
+  tier: tangential
+  tier_reason: Its only ties found so far are anthologies that aired Serling plays.
+  recommendation: include
+  reason: Stated on the Wikipedia articles for The United States Steel Hour and Kraft Television Theatre.
+organizations/universal-television:
+  connection: The studio that produced Rod Serling's Night Gallery.
+  tier: related
+  tier_reason: It made Serling's second anthology, the companion series to The Twilight Zone on this site.
+  recommendation: include
+  reason: Named as production company on Wikipedia's Night Gallery article.
+organizations/kraft:
+  connection: Sponsor of Kraft Television Theatre, which aired Serling's Patterns (1955).
+  tier: tangential
+  tier_reason: A sponsor of Serling's pre-Twilight Zone work.
+  recommendation: include
+  reason: Stated on Wikipedia's Kraft Television Theatre article.
+organizations/united-states-steel:
+  connection: Sponsor of The United States Steel Hour, which aired Serling's The Rack and Noon on Doomsday.
+  tier: tangential
+  tier_reason: A sponsor of Serling's pre-Twilight Zone work.
+  recommendation: include
+  reason: Stated on Wikipedia's The United States Steel Hour article.
+organizations/the-theatre-guild:
+  connection: Producer of The United States Steel Hour, including Serling's Noon on Doomsday (1956).
+  tier: tangential
+  tier_reason: It produced Serling's pre-Twilight Zone plays.
+  recommendation: include
+  reason: Stated on Wikipedia's The United States Steel Hour article.
+organizations/armstrong-world-industries:
+  connection: Principal sponsor of Armstrong Circle Theatre, which aired two Serling plays.
+  tier: tangential
+  tier_reason: A sponsor of Serling's pre-Twilight Zone work.
+  recommendation: maybe
+  reason: The sponsorship is on Wikipedia; the Serling plays come from the Rod Serling Memorial Foundation's filmography.
+organizations/hallmark-cards:
+  connection: Sponsor of Hallmark Hall of Fame, which aired Serling plays from 1952 and A Storm in Summer (1970).
+  tier: tangential
+  tier_reason: A sponsor of Serling's work outside The Twilight Zone.
+  recommendation: include
+  reason: Sponsorship on Wikipedia; plays from the Rod Serling Memorial Foundation's filmography.
+organizations/lux:
+  connection: Sponsor of Lux Video Theatre, which aired seven early Serling plays.
+  tier: tangential
+  tier_reason: A sponsor of Serling's pre-Twilight Zone work.
+  recommendation: maybe
+  reason: Sponsorship on Wikipedia; the plays come from the Rod Serling Memorial Foundation's filmography.
