@@ -28,7 +28,10 @@
    - Broadcast history, home video and streaming are included for every series (official, revival and other),
      with links to home video products and to where each series can be streamed now.
 6. **A play made for any TV series goes in Television**, and also in Movies if it is feature-length.
-7. **Networks and narrators** (and by extension showrunners, production companies, writers, directors and composers)
+7. **Homage certainty (09:26 UTC).** Each homage is marked Confirmed by its makers, Documented, or Noted by
+   fans. Fan-noted homages can be seconded by other fans, and show a count. The 1969 Night Gallery pilot has its
+   home in Movies and still appears on the Night Gallery page.
+8. **Networks and narrators** (and by extension showrunners, production companies, writers, directors and composers)
    show in Television as links. Their pages stay in Organizations and People.
 
 ## Why
@@ -51,5 +54,4 @@ thin pages.
 - Whether anthology pages list only the plays tied to Serling or TZ
 - Pages for shows with one homage
 - Which countries the streaming links cover
-- Fan-noted homages
 - Night Gallery's syndicated versions

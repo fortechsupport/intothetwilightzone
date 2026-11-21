@@ -1,6 +1,6 @@
 # Content plan: Television
 
-**Date:** 2026-11-21 · **Status:** revision 2, for Adam's approval (checklist box 1 of 4) · **Checklist:** docs/RESEARCH_CHECKLIST.md, item 1
+**Date:** 2026-11-21 · **Status:** revision 3, for Adam's approval (checklist box 1 of 4) · **Checklist:** docs/RESEARCH_CHECKLIST.md, item 1
 **Decisions so far:** docs/decisions/0002-television-structure.md (Adam, 2026-11-21 09:15 UTC)
 
 **What Adam set.**
@@ -56,7 +56,9 @@ Every example below is an existing record on `main` with its own source.
 
 **Moved out:**
 - TV films go to Movies: Carol for Another Christmas, The Electric Grandmother, Duel. The Night Gallery pilot
-  (1969, 95 minutes) is a TV film too, so it moves to Movies. The Night Gallery page links to it as the pilot.
+  (1969, 95 minutes) is a TV film too, so its home is in Movies. It still shows on the Night Gallery page, at the
+  top of the explorer as "The pilot", with its three stories, credits and a link to its Movies page (Adam
+  confirmed, 09:26 UTC).
 - Radio-only series (Lights Out, Inner Sanctum Mystery) go to Listen. Suspense stays here as well, because
   Serling wrote for its TV run.
 - Duplicates are merged: Monsters (two records) and Duel (two records).
@@ -113,8 +115,20 @@ The 26 series that today cite only Wikipedia's general anthology list each get a
   - when it points to no particular episode, on that series' page
   - when it points to several episodes, on each of them
 - **Filters:** type (parody, homage, reference, remake, comparison), host show, TZ series, TZ episode, decade, and
-  how sure we are (confirmed by its makers, documented, fan-noted). Fan-noted entries show with a label and are
-  never dropped.
+  how sure we are.
+- **How sure we are (Adam, 09:26 UTC):** every homage carries one of three marks.
+  1. **Confirmed by its makers:** the writer, director or studio says so, with a source.
+  2. **Documented:** a published source (press, book, critic) makes the link.
+  3. **Noted by fans:** a fan source names it (a fan wiki, a forum, TV Tropes, or a fan's suggestion on this site).
+     It shows "Seconded by N fans".
+- **Seconding (needs fan accounts, PR #25):**
+  - A signed-in fan can second a fan-noted homage once per account, and can take it back.
+  - The count shows on every page the homage appears on, and you can sort and filter by it.
+  - A count never changes the mark. Only a source does: a fan who has one can attach it, and on your approval
+    the homage moves up to Documented or Confirmed.
+  - Accounts need Turnstile, and editors can reset a count that looks gamed.
+  - Until accounts are live, fan-noted homages show the mark without a count.
+- Fan-noted entries are never dropped.
 
 ---
 
@@ -200,7 +214,7 @@ The 26 series that today cite only Wikipedia's general anthology list each get a
 | Q2 | Do the anthologies Serling wrote for (Playhouse 90, Kraft…) list only his plays? | **Yes.** Only episodes tied to Serling or TZ, with a line saying so. A full episode list would be thousands of entries unrelated to the show. |
 | Q3 | Does every show with a homage get a page, even with one entry? | **Yes**, so the rule stays simple and each homage has a home. A show with one entry gets a short page. |
 | Q4 | Where to stream: US only, or every country? | **US first**, with a check date, adding countries where a source lists them. |
-| Q5 | Do fan-noted homages (no published source yet) show? | **Yes, with a "fan-noted" label**, and a filter to hide them. Nothing is dropped, per your rule. |
+| Q5 | Do fan-noted homages (no published source yet) show? | **Answered (09:26 UTC):** yes, marked "Noted by fans", with a seconding count from fan accounts (section 4). |
 | Q6 | Night Gallery segments also aired in the syndicated package with different titles and cuts. Should those versions be noted? | **Yes**, as a line on the entry, where a source describes the change. |
 
 ---
@@ -214,6 +228,7 @@ The 26 series that today cite only Wikipedia's general anthology list each get a
 3. **Research round 2:** the anthologies and organizations.
 4. **Research round 3:** homages.
 5. **Research round 4:** home video and streaming.
+   - **Seconding** (a small add-on to the fan accounts, after PR #25 merges): one vote per account, with the count shown on each homage.
 6. **Pages filled out** after Adam's decisions on the records.
 
 ## 11. Acceptance checks (pass or fail)
@@ -236,7 +251,7 @@ The 26 series that today cite only Wikipedia's general anthology list each get a
 - The 1969 Night Gallery pilot is a TV film, so it goes to Movies.
 
 ## Waiting on Adam
-- Approval of this revision, and Q1–Q6.
+- Approval of this revision, and Q1–Q4 and Q6.
 
 ## Found, for later
 - 39 Serling-life milestones also show under Attend > Other events (see the checklist).
