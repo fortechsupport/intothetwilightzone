@@ -6,7 +6,8 @@ import { allEpisodes, allPeople, episodeNumber, splitCredit, CONNECTION_LABELS, 
 import { assess } from './assessments';
 import { slugify } from './slug';
 import { TAXONOMY, CATEGORY, place, placePerson, explicitPlacements, mediaArtwork, libraryType, LIBRARY_TYPES, sortKey, subTitleFromSlug, SERIES_LABEL, contentOf, contentParents, isOfficial, orgSub, remap } from './taxonomy.mjs';
-import { filmHref } from './television';
+import { filmHref, tv } from './television';
+import { watchFor, watchShort } from './watch';
 
 export interface Entry {
   key: string; // "<collection>/<id>" or a derived key
@@ -21,6 +22,7 @@ export interface Entry {
   external?: boolean;
   isNew?: boolean; // placed through a categories[] slug that created a new subcategory
   official?: boolean; // Official or Unofficial and inspired, in categories that split
+  watch?: string; // where a series or show streams in the US, shown beside its name (src/lib/watch.ts)
 }
 /** A content record (advertisement, holding, quote, link) shown on another record's page. */
 export interface Attachment { key: string; kind: string; label: string; title: string; href: string; meta?: string; desc?: string }
@@ -136,9 +138,9 @@ export async function catalog(): Promise<Map<string, CatInfo>> {
   const describe = (col: string, r: any): Entry => {
     const d = r.data;
     switch (col) {
-      case 'series': return base(col, r.id, `${d.title} (${d.years})`, { sort: String(d.order).padStart(3, '0'), meta: meta(d.network, d.host && `host ${d.host}`, `${d.seasons} seasons`), desc: d.summary });
+      case 'series': return base(col, r.id, `${d.title} (${d.years})`, { sort: String(d.order).padStart(3, '0'), meta: meta(d.network, d.host && `host ${d.host}`, `${d.seasons} seasons`), desc: d.summary, watch: watchShort(watchFor({ series: r.id }).w) });
       case 'episodes': return base(col, r.id, d.title, { meta: meta(`${d.series} series, ${episodeNumber(d)}`, yearOf(d.air_date), d.writers.length ? `written by ${d.writers.slice(0, 2).join(', ')}` : undefined), desc: d.synopsis });
-      case 'films': return base(col, r.id, d.parent_series ? `${d.title} (${d.parent_series})` : d.title, { sort: sortKey(d.title), meta: meta(yearOf(d.release_date), d.kind !== 'film' && human(d.kind), d.directors.length ? `dir. ${d.directors.slice(0, 2).join(', ')}` : undefined), desc: d.summary });
+      case 'films': return base(col, r.id, d.parent_series ? `${d.title} (${d.parent_series})` : d.title, { sort: sortKey(d.title), meta: meta(yearOf(d.release_date), d.kind !== 'film' && human(d.kind), d.directors.length ? `dir. ${d.directors.slice(0, 2).join(', ')}` : undefined), desc: d.summary, watch: d.kind === 'tv-series' && !d.parent_series ? watchShort(watchFor({ slug: tv.showByRecord(r.id)?.slug ?? `film-${r.id}` }).w) : undefined });
       case 'connections': {
         const t = `${titleOf(d.from)} → ${titleOf(d.to)}`;
         return base(col, r.id, t, { sort: sortKey(titleOf(d.from)), href: hrefOf(d.from), meta: meta(CONNECTION_LABELS[d.kind], CONFIDENCE_LABELS[d.confidence]), desc: d.summary ?? d.evidence });

@@ -32,6 +32,7 @@ const attrs = (e: Entry) => {
           {e.meta && <span class="muted small"> · {e.meta}</span>}
           {e.tier && e.tier !== 'core' && <span class={`tag tier-${e.tier}`}>{e.tier}</span>}
           {e.external && <span class="tag">external</span>}
+          {e.watch && <span class="small watch-inline">{e.watch}</span>}
         </div>
         {e.desc && <p class="entry-desc">{e.desc}</p>}
         {e.why && e.why !== e.desc && <p class="entry-why small"><strong>Why it’s here:</strong> {e.why}</p>}

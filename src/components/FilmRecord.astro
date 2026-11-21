@@ -11,6 +11,8 @@ import Related from './Related.astro';
 import Sources from './Sources.astro';
 import HistoryAndIntl from './HistoryAndIntl.astro';
 import EpisodeExplorer from './EpisodeExplorer.astro';
+import WhereToWatch from './WhereToWatch.astro';
+import { watchFor } from '../lib/watch';
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { formatDate, personUrl, resolveRef, CONNECTION_LABELS, CONFIDENCE_LABELS } from '../lib/data';
 import { tv, explorerEntries } from '../lib/television';
@@ -37,6 +39,12 @@ const at = shelfEntries.findIndex((e) => e.key === `films/${f.id}`);
 const prevE = at > 0 ? shelfEntries[at - 1] : undefined;
 const nextE = at >= 0 && at < shelfEntries.length - 1 ? shelfEntries[at + 1] : undefined;
 const firstLabel = d.kind === 'tv-series' ? 'First aired' : 'Released';
+// Where to watch, for anything made for the screen that still exists (not radio, pilots never aired or unmade work).
+const WATCHABLE = new Set(['tv-series', 'film', 'documentary', 'tv-film', 'special', 'short']);
+const jw = d.links?.justwatch ? (d.links.justwatch.startsWith('http') ? d.links.justwatch : `https://www.justwatch.com/us/movie/${d.links.justwatch}`) : undefined;
+const watch = WATCHABLE.has(d.kind) && !(d.tags ?? []).includes('radio-only') && !d.parent_series
+  ? watchFor(d.kind === 'tv-series' ? { slug: show?.slug ?? `film-${f.id}`, name: show?.title ?? d.title, justwatch: jw } : { name: d.title, slug: `film-${f.id}`, justwatch: jw })
+  : undefined;
 ---
   <InCategories recKey={`films/${f.id}`} />
   <RecordHeader type={recordType('films', d)} context={recordContext('films', d)} title={title ?? d.title} recKey={`films/${f.id}`} />
@@ -52,6 +60,7 @@ const firstLabel = d.kind === 'tv-series' ? 'First aired' : 'Released';
     {d.presented_by.length > 0 && <><dt>Hosted by</dt><dd>{d.presented_by.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
     {tags.length > 0 && <><dt>Tagged</dt><dd>{tags.map((t: string) => <span class="tag">{t}</span>)}</dd></>}
     {d.rating && <><dt>Rating</dt><dd>{d.rating}</dd></>}
+    {watch && <WhereToWatch info={watch} />}
     {d.runtime_min && <><dt>Runtime</dt><dd>{d.runtime_min} minutes</dd></>}
     {d.directors.length > 0 && <><dt>Directed by</dt><dd>{d.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
     {d.writers.length > 0 && <><dt>Written by</dt><dd>{d.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
@@ -111,7 +120,6 @@ const firstLabel = d.kind === 'tv-series' ? 'First aired' : 'Released';
       {d.ids?.imdb && <li><a href={`https://www.imdb.com/title/${d.ids.imdb}/`} rel="noopener">IMDb</a></li>}
       {d.links?.wikipedia && <li><a href={d.links.wikipedia} rel="noopener">Wikipedia</a></li>}
       {d.links?.trailer_youtube && <li><a href={`https://www.youtube.com/watch?v=${d.links.trailer_youtube}`} rel="noopener">Trailer</a></li>}
-      {d.links?.justwatch && <li><a href={d.links.justwatch.startsWith('http') ? d.links.justwatch : `https://www.justwatch.com/us/movie/${d.links.justwatch}`} rel="noopener">Where to watch</a></li>}
     </ul>
   </section>}
   <Related recKey={`films/${f.id}`} skip={['people']} />

@@ -77,16 +77,6 @@ export async function relatedEpisodes(e: Episode, limit = 6) {
   return scored.sort((a, b) => b.score - a.score || (a.e.data.air_date ?? '').localeCompare(b.e.data.air_date ?? '')).slice(0, limit);
 }
 
-/** A per-episode search link on JustWatch, which tracks streaming, free and purchase options by country. */
-export function watchLinks(e: Episode) {
-  const show = e.data.series === '1959' ? 'The Twilight Zone 1959' : `The Twilight Zone ${e.data.series}`;
-  return {
-    justwatch: e.data.links?.justwatch ?? `https://www.justwatch.com/us/search?q=${encodeURIComponent(show)}`,
-    reelgood: `https://reelgood.com/search?q=${encodeURIComponent('The Twilight Zone')}`,
-    homeMedia: `/series/${e.data.series}/#releases`,
-  };
-}
-
 /** Compact rows for the episode finder, episode of the day and on-this-day tools. */
 export async function episodeIndex() {
   const eps = await allEpisodes();

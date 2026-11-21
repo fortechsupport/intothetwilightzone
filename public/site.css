@@ -40,6 +40,9 @@ body::before {
 img, video { max-width: 100%; height: auto; }
 a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 3px; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); }
 a:hover { color: var(--link-hover); text-decoration-color: currentColor; }
+/* Links to other websites open in a new tab (integrations/external-links.mjs); the arrow says so, and screen readers hear "opens in a new tab". */
+a[target="_blank"]::after { content: "\2197"; content: "\2197" / ""; display: inline-block; margin-left: .15em; font-size: .8em; line-height: 1; text-decoration: none; color: var(--muted); }
+a.card[target="_blank"]::after, a.btn[target="_blank"]::after { display: none; }
 :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 3px; }
 button, input, select, textarea { font: inherit; color: inherit; }
 ::selection { background: var(--brass); color: var(--on-brass); }
@@ -487,3 +490,11 @@ ol.rank li { padding: 4px 0; border-bottom: 1px solid var(--line); }
 .ep-table td.nowrap { white-space: nowrap; }
 .ep-table tr[hidden] { display: none; }
 .tz-link .ties { margin: var(--space-2) 0; padding-left: 1.2em; }
+
+/* Where to watch (src/components/WhereToWatch.astro, src/lib/watch.ts): a facts row near the top of series,
+   show, film and episode pages, and a short line beside a show's name in lists. */
+.watch-dd .watch-src { display: block; margin-top: .15rem; }
+.watch-inline { display: block; color: var(--muted); font-family: var(--font-ui); font-size: var(--step--1); font-weight: 400; letter-spacing: 0; margin-top: .1rem; }
+h2 .watch-inline, h3 .watch-inline { font-size: var(--step--1); }
+ol.rank .watch-inline { margin-left: 0; }
+.watch-banner { padding: var(--space-2) var(--space-3); border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface); }

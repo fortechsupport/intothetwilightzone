@@ -7,6 +7,8 @@ import Related from '../../components/Related.astro';
 import Sources from '../../components/Sources.astro';
 import EpisodeActions from '../../components/fan/EpisodeActions.astro';
 import EpisodeExtras from '../../components/fan/EpisodeExtras.astro';
+import WhereToWatch from '../../components/WhereToWatch.astro';
+import { watchFor } from '../../lib/watch';
 import { getCollection } from 'astro:content';
 import { allEpisodes, formatDate, episodeNumber, personUrl, resolveRef, mediumOf, CONNECTION_VERBS, MEDIUM_ORDER, CONNECTION_LABELS, CONFIDENCE_LABELS, type Episode } from '../../lib/data';
 import { sortKey } from '../../lib/categories';
@@ -63,6 +65,7 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
     {d.directors.length > 0 && <><dt>Directed by</dt><dd>{d.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
     {d.narrator && <><dt>Narrator</dt><dd><a href={personUrl(d.narrator)}>{d.narrator}</a></dd></>}
     {d.cast.length > 0 && <><dt>Cast</dt><dd>{d.cast.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
+    <WhereToWatch info={watchFor({ series: d.series, justwatch: d.links?.justwatch })} note={`Season ${d.season} of the ${d.series} series.`} />
   </dl>
 
   {d.synopsis ? (
@@ -168,7 +171,6 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
     <ul>
       {d.ids?.imdb && <li><a href={`https://www.imdb.com/title/${d.ids.imdb}/`} rel="noopener">IMDb</a></li>}
       {d.links?.wikipedia && <li><a href={d.links.wikipedia} rel="noopener">Wikipedia</a></li>}
-      {d.links?.justwatch && <li><a href={d.links.justwatch} rel="noopener">Where to watch (JustWatch)</a></li>}
     </ul>
   </section>
   <Related recKey={`episodes/${e.id}`} skip={['people']} inherit={`series/${d.series}`} exclude={places.map((l) => `/places/${l.id}/`)} />

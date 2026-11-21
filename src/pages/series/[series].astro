@@ -11,6 +11,8 @@ import { resolveRef, CONNECTION_LABELS, CONNECTION_VERBS, CONFIDENCE_LABELS } fr
 import RecordHeader from '../../components/RecordHeader.astro';
 import Sources from '../../components/Sources.astro';
 import { tv } from '../../lib/television';
+import WhereToWatch from '../../components/WhereToWatch.astro';
+import { watchFor } from '../../lib/watch';
 
 export async function getStaticPaths() {
   const series = await getCollection('series');
@@ -74,6 +76,7 @@ const jsonld = {
     {runtimeText && <><dt>Runtime</dt><dd>{runtimeText}</dd></>}
     {writers.length > 0 && <><dt>Most episodes written</dt><dd>{writers.slice(0, 3).map(([n, k], i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a> ({k})</>)}</dd></>}
     {directors.length > 0 && <><dt>Most episodes directed</dt><dd>{directors.slice(0, 3).map(([n, k], i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a> ({k})</>)}</dd></>}
+    <WhereToWatch info={watchFor({ series: s.id })} />
   </dl>
   <nav class="page-tabs" aria-label="On this page" data-pagefind-ignore>
     <ul>{tabs.map(([id, l]) => <li><a href={`#${id}`}>{l}</a></li>)}</ul>

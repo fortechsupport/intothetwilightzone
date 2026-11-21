@@ -9,6 +9,7 @@ import { catalog } from '../../lib/catalog';
 import { allEpisodes, episodeNumber } from '../../lib/data';
 import { tv, filmHref, allHomageRows } from '../../lib/television';
 import { sortKey } from '../../lib/categories';
+import { watchFor, watchShort } from '../../lib/watch';
 
 const c = (await catalog()).get('series')!;
 const sub = (slug: string) => c.subs.find((s) => s.slug === slug)!;
@@ -65,6 +66,7 @@ const LABEL: Record<string, string> = { '1959': 'The original series', '1985': '
         <p class="small muted">{s.data.years}</p>
         <p>{s.data.network} · {s.data.seasons} {s.data.seasons === 1 ? 'season' : 'seasons'} · {epCount(s.id)} episodes</p>
         <p class="small">Hosted by {s.data.host}</p>
+        {watchShort(watchFor({ series: s.id }).w) && <p class="small watch-inline">{watchShort(watchFor({ series: s.id }).w)}</p>}
       </a>
     ))}
   </div>
@@ -73,6 +75,7 @@ const LABEL: Record<string, string> = { '1959': 'The original series', '1985': '
     <a class="card tv-feature" href="/night-gallery/">
       <h3>Rod Serling’s Night Gallery <span class="muted">(1969–1973)</span></h3>
       <p>NBC · 3 seasons · {ngEps.length} episodes and {ngSegs} segments, plus the 1969 pilot film. Serling hosted every story from a gallery of paintings.</p>
+      {watchShort(watchFor({ show: 'Night Gallery' }).w) && <p class="small watch-inline">{watchShort(watchFor({ show: 'Night Gallery' }).w)}</p>}
     </a>
   )}
 
@@ -99,7 +102,7 @@ const LABEL: Record<string, string> = { '1959': 'The original series', '1985': '
     <section>
       <h2>Shows with the most homages</h2>
       <ol class="rank">
-        {topShows.map((s) => <li><a href={s.href}>{s.title}</a> <span class="count-pill">{s.entries.length}</span></li>)}
+        {topShows.map((s) => { const w = watchShort(watchFor({ slug: s.slug }).w); return <li><a href={s.href}>{s.title}</a> <span class="count-pill">{s.entries.length}</span>{w && <span class="small watch-inline">{w}</span>}</li>; })}
       </ol>
       <p class="small"><a href="/television/homages/">All homages</a></p>
     </section>

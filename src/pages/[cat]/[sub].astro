@@ -7,6 +7,7 @@ import SectionSummary from '../../components/SectionSummary.astro';
 import ListTools from '../../components/ListTools.astro';
 import { catalog, type CatInfo, type SubInfo, type Entry } from '../../lib/catalog';
 import { sortKey, OFFICIAL_LABEL, UNOFFICIAL_LABEL, verbOf } from '../../lib/taxonomy.mjs';
+import { watchFor, watchShort } from '../../lib/watch';
 
 export async function getStaticPaths() {
   const cats = await catalog();
@@ -45,6 +46,7 @@ const parts: { id: string; label: string; entries: Entry[] }[] = split
   ? [{ id: 'official', label: OFFICIAL_LABEL, entries: off }, { id: 'unofficial', label: UNOFFICIAL_LABEL, entries: unoff }]
   : [{ id: '', label: '', entries: s.entries }];
 const sideNote = canSplit && !split && s.entries.length ? (off.length ? `Everything here is official.` : `Everything here is unofficial or inspired by the show.`) : '';
+const showWatch = c.slug === 'series' && s.slug === 'homages';
 const compact = c.slug === 'people' || (s.entries.length > 400 && !s.entries.some((e) => e.desc));
 const gid = (p: string, g: string) => `${p ? p + '-' : ''}${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 const siblings = c.subs.filter((x) => x.entries.length > 0);
@@ -91,7 +93,7 @@ const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
         {letters && <p class="letters" data-pagefind-ignore>{byLetter(p.entries).map(([L]) => <a href={`#${gid(p.id, 'letter-' + L)}`}>{L}</a>)}</p>}
         {multi ? gs.map(([g, list]) => (
           <section id={gid(p.id, g)}>
-            <H>{g} <span class="muted small">({list.length})</span></H>
+            <H>{g} <span class="muted small">({list.length})</span>{showWatch && (() => { const w = watchShort(watchFor({ show: g }).w); return w && <span class="small watch-inline">{w}</span>; })()}</H>
             <EntryList entries={list} compact={compact} />
           </section>
         )) : letters ? byLetter(p.entries).map(([L, list]) => (

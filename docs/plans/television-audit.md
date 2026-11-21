@@ -53,3 +53,22 @@ fixed in this pass unless it is marked *research*: that needs new sourced facts,
 - Network and studio records for NBC, Universal, ABC and the anthologies' networks (plan section 6): *research*.
 - Serling's 200+ teleplays: *research*, round 1.
 - Home video and streaming links per show: *research*, round 4.
+
+## Third pass (Adam, 11:25 UTC): where to watch and new-tab links
+
+Adam: "I love the dynamic feel... the Where to watch should appear on any content page or section referencing
+content... display it next to the series name rather than each episode... internal links open in the same tab, but
+external links open in new tabs." Recorded as decision 0003.
+
+| Check | Result |
+|---|---|
+| Every series, show, film and episode page has a Where to watch row near the top | Done (radio, unaired and unmade excluded) |
+| Lists show it once per show, never per episode | Done: series cards, Night Gallery card, anthology and Serling shelves, homage shelf headings, most-homaged shows, homages page show filter |
+| Every external link opens in a new tab with noopener noreferrer and a screen-reader note | Done, enforced by check:site |
+| No internal link opens a new tab | Done, enforced by check:site |
+| Facts sourced and dated | Each show's JustWatch US page and its check date |
+
+### Found, for later
+- About 60 single-homage shows and the 2002 revival not yet checked (the fetch limit ran out); they show search links.
+- Movies and TV films: search links only; check each film's JustWatch page in a later round.
+- /series/1959/ is 305 KB, just over the 300 KB target, after the new-tab attributes.

@@ -4,6 +4,8 @@
 // segment or sketch we know of is an entry in the episode explorer, with its own anchor.
 import Base from '../../layouts/Base.astro';
 import EpisodeExplorer from '../../components/EpisodeExplorer.astro';
+import WhereToWatch from '../../components/WhereToWatch.astro';
+import { watchFor } from '../../lib/watch';
 import { showsWithEntries, explorerEntries } from '../../lib/television';
 
 export async function getStaticPaths() {
@@ -25,6 +27,7 @@ const crumb = serling > 0 && homages === 0 ? ['Rod Serling’s series', '/series
     <h1>{s.title}</h1>
   </header>
   <p class="lead">{homages === n ? `${n} ${noun} that pay homage to The Twilight Zone.` : serling === n ? `${n} ${noun} written by Rod Serling.` : `${n} ${noun}${parts.length ? `: ${parts.join(', ')}` : ''}.`}</p>
+  <dl class="facts"><WhereToWatch info={watchFor({ slug: s.slug, name: s.title })} /></dl>
   <EpisodeExplorer entries={entries} noun={noun} />
   <p class="small">Missing one? <a href="/contribute/">Tell us</a>.</p>
 </Base>
