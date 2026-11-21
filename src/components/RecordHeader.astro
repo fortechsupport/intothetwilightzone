@@ -1,0 +1,12 @@
+---
+// The top of every record page: a type label with context ("Radio drama · Lights Out"), the title,
+// and an empty actions bar that the accounts script fills (favorite, watch/read/listen later).
+interface Props { type: string; context?: string; title: string; recKey?: string; contextMeta?: string }
+const { type, context, title, recKey, contextMeta } = Astro.props;
+---
+<header class="record-head">
+  <p class="eyebrow"><span class="eyebrow-type">{type}</span>{context && <span class="eyebrow-ctx" data-pagefind-meta={contextMeta}>{context}</span>}</p>
+  <h1>{title}</h1>
+  <slot />
+  {recKey && <div class="record-actions" data-record-key={recKey}></div>}
+</header>

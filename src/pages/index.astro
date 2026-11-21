@@ -1,14 +1,33 @@
 ---
 import Base from '../layouts/Base.astro';
 import TodayPanel from '../components/fan/TodayPanel.astro';
-import { catalog, countOf, mediaLibrary } from '../lib/catalog';
+import { catalog, mediaLibrary } from '../lib/catalog';
 import { LIBRARY_TYPES } from '../lib/taxonomy.mjs';
 import { navModel } from '../lib/nav';
+import { getCollection } from 'astro:content';
+import { allEpisodes, allPeople } from '../lib/data';
+
 const cat = await catalog();
-const all = [...cat.values()];
 const verbs = await navModel();
 const lib = await mediaLibrary();
 const libCounts = LIBRARY_TYPES.map(([k, label]) => [k, label, lib.filter((i) => i.type === k).length] as const).filter(([, , n]) => n);
+const episodes = await allEpisodes();
+const people = await allPeople();
+const series = (await getCollection('series')).sort((a, b) => (a.data.order ?? 0) - (b.data.order ?? 0));
+const epCount = (id: string) => episodes.filter((e) => e.data.series === id).length;
+const records = new Set([...cat.values()].flatMap((c) => c.subs.flatMap((s) => s.entries.map((e) => e.key)))).size;
+const fmt = (n: number) => n.toLocaleString('en-US');
+
+const FEATURES: [string, string, string, string][] = [
+  ['/start/', 'New here', 'Start here', 'What the show is, which series to begin with, and the first ten episodes to watch.'],
+  ['/paths/', 'Guided', 'Viewing paths', 'The essentials, the great twist endings, Serling at his most personal, the best of the revivals.'],
+  ['/finder/', 'Tool', 'Episode finder', 'Every episode, filtered by series, decade, writer, director, actor and theme at once.'],
+  ['/timeline/', 'History', 'Timeline', 'The franchise year by year: broadcasts, films, books, trials, revivals and anniversaries.'],
+  ['/map/', 'Places', 'Map', 'Filming locations, the MGM backlot, Serling’s Binghamton, memorials and the parks.'],
+  ['/degrees/', 'Game', 'Six degrees of the Zone', 'How any two actors, writers or directors connect through the episodes they made.'],
+  ['/rod-serling/', 'Creator', 'Rod Serling', 'His life and work beyond The Twilight Zone: live television, films, Night Gallery and teaching.'],
+  ['/night-gallery/', 'Companion series', 'Night Gallery', 'Every episode and segment of Serling’s second anthology, 1969 to 1973.'],
+];
 const jsonld = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -18,57 +37,145 @@ const jsonld = {
 };
 ---
 <Base title="Home" jsonld={jsonld}>
-  <section class="hero">
-    <h1>A living history of The Twilight Zone</h1>
-    <p class="lead">
-      Every series, every episode, the people who made them, and the films, songs, books and stories
-      they went on to inspire. Fan-curated, sourced, and free of advertising.
-    </p>
+  <section class="hero home-hero">
+    <div class="home-hero-text">
+      <p class="kicker">The Twilight Zone · 1959 to today</p>
+      <h1>A living history of <br /><em>The Twilight Zone</em></h1>
+      <p class="lead">
+        Every series and episode, the people who made them, and the films, songs, books, games and stories
+        they went on to inspire. Researched by fans, sourced line by line, and free of advertising.
+      </p>
+      <form class="hero-search" action="/search/" method="get" role="search">
+        <label class="visually-hidden" for="home-q">Search the site</label>
+        <input id="home-q" type="search" name="q" placeholder="Search episodes, people, films, songs…" autocomplete="off" />
+        <button class="btn primary" type="submit">Search</button>
+      </form>
+      <nav class="fan-ctas" aria-label="Ways in" data-pagefind-ignore>
+        <a class="cta primary" href="/start/">New to the Zone? Start here</a>
+        <a class="cta" href="/paths/">Viewing paths</a>
+        <a class="cta" href="/finder/">Episode finder</a>
+      </nav>
+      <ul class="hero-stats" aria-label="What's here">
+        <li><strong>{fmt(episodes.length)}</strong><span>Episodes</span></li>
+        <li><strong>{fmt(people.size)}</strong><span>People</span></li>
+        <li><strong>{fmt(records)}</strong><span>Records</span></li>
+        <li><strong>{fmt(lib.length)}</strong><span>Media items</span></li>
+      </ul>
+    </div>
+    <div class="home-hero-art" aria-hidden="true">
+      <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+            <stop offset="0" stop-color="var(--brass)" stop-opacity=".55" />
+            <stop offset=".45" stop-color="var(--brass)" stop-opacity=".08" />
+            <stop offset="1" stop-color="var(--brass)" stop-opacity="0" />
+          </radialGradient>
+          <linearGradient id="door" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="var(--text)" stop-opacity=".95" />
+            <stop offset="1" stop-color="var(--brass)" stop-opacity=".7" />
+          </linearGradient>
+        </defs>
+        <circle cx="200" cy="200" r="200" fill="url(#glow)" />
+        <g class="vortex" fill="none" stroke="var(--line-strong)" stroke-width="1">
+          <ellipse cx="200" cy="200" rx="190" ry="190" opacity=".35" />
+          <ellipse cx="200" cy="200" rx="160" ry="150" opacity=".45" transform="rotate(12 200 200)" />
+          <ellipse cx="200" cy="200" rx="130" ry="115" opacity=".55" transform="rotate(26 200 200)" />
+          <ellipse cx="200" cy="200" rx="100" ry="84" opacity=".65" transform="rotate(41 200 200)" />
+          <ellipse cx="200" cy="200" rx="72" ry="57" opacity=".75" transform="rotate(57 200 200)" />
+          <ellipse cx="200" cy="200" rx="46" ry="34" opacity=".85" transform="rotate(74 200 200)" />
+        </g>
+        <g transform="translate(200 206)">
+          <rect x="-34" y="-62" width="68" height="124" rx="2" fill="none" stroke="var(--text)" stroke-opacity=".5" />
+          <path d="M-34 -62 L18 -50 L18 74 L-34 62 Z" fill="url(#door)" opacity=".9" />
+          <circle cx="10" cy="8" r="2.4" fill="var(--bg)" />
+        </g>
+        <g fill="var(--text)">
+          <circle cx="62" cy="80" r="1.3" opacity=".8" /><circle cx="330" cy="64" r="1" opacity=".7" /><circle cx="350" cy="250" r="1.4" opacity=".6" />
+          <circle cx="40" cy="300" r="1" opacity=".7" /><circle cx="120" cy="360" r="1.2" opacity=".5" /><circle cx="290" cy="350" r="1" opacity=".7" />
+          <circle cx="250" cy="30" r="1.1" opacity=".6" /><circle cx="20" cy="190" r="1.2" opacity=".5" /><circle cx="380" cy="150" r="1" opacity=".6" />
+        </g>
+      </svg>
+    </div>
   </section>
 
-  <nav class="fan-ctas" aria-label="Ways in" data-pagefind-ignore>
-    <a class="cta primary" href="/start/">New to the Zone? Start here</a>
-    <a class="cta" href="/paths/">Viewing paths</a>
-    <a class="cta" href="/finder/">Episode finder</a>
-    <a class="cta" href="/map/">Map</a>
-    <a class="cta" href="/timeline/">Timeline</a>
-    <a class="cta" href="/degrees/">Six degrees</a>
-    <a class="cta" href="/my-zone/">My Zone</a>
-  </nav>
   <TodayPanel compact />
 
-  <h2>Explore the Twilight Zone</h2>
-  <p class="small muted">Nine ways in, by what you want to do. Every category shows official items and unofficial or inspired ones on separate shelves. Reviews, interviews, clips and documents appear on the pages they belong to and all together in the <a href="/media/">Media Library</a>.</p>
+  <div class="section-head">
+    <h2>Nine ways in</h2>
+    <p>Choose what you want to do. Each category keeps official releases and unofficial or inspired work on separate shelves.</p>
+  </div>
   <div class="verb-grid">
     {verbs.map((v) => (
       <section class="verb-tile">
-        <h3><a href={v.href}>{v.title}</a> <span class="count-pill">{v.n.toLocaleString('en-US')}</span></h3>
+        <h3><a href={v.href}>{v.title}</a> <span class="count-pill">{fmt(v.n)}</span></h3>
         <p class="small muted">{v.blurb}</p>
-        <ul class="plain">{(v.cols.length === 1 ? v.cols[0].subs : v.cols).map((c) => <li><a href={c.href}>{c.title}</a> <span class="n">{c.n.toLocaleString('en-US')}</span></li>)}</ul>
+        <ul>{(v.cols.length === 1 ? v.cols[0].subs : v.cols).slice(0, 8).map((c) => <li><a href={c.href}>{c.title}</a> <span class="n">{fmt(c.n)}</span></li>)}</ul>
       </section>
     ))}
   </div>
 
-  <h2>Media Library</h2>
-  <p class="small muted">Every video, recording, image, document, review, interview, quote, advertisement and link on the site, in one sortable, filterable table that shows every page each item appears on.</p>
-  <div class="grid">
-    <a class="card" href="/media/">
-      <span class="count">{lib.length.toLocaleString('en-US')}</span>
-      <h3>Media Library</h3>
-      <p>{libCounts.map(([, l, n]) => `${l} (${n.toLocaleString('en-US')})`).join(' · ')}</p>
-    </a>
+  <div class="section-head">
+    <h2>The series</h2>
+    <p>Four television series carry the name. Every episode has its credits, air date, sources and connections.</p>
   </div>
-  <h2>Features</h2>
-  <ul>
-    <li><a href="/rod-serling/">Rod Serling</a>: his life and work beyond The Twilight Zone.</li>
-    <li><a href="/night-gallery/">Night Gallery</a>: every episode and segment of Serling's second anthology.</li>
-    <li><a href="/timeline/">Timeline</a>: the franchise year by year.</li>
-  </ul>
+  <div class="grid series-grid">
+    {series.map((s) => (
+      <a class="card" href={`/series/${s.id}/`}>
+        <span class="kicker">{s.data.years}{s.data.network && ` · ${s.data.network}`}</span>
+        <h3>{s.data.title} ({s.id})</h3>
+        <p>{fmt(epCount(s.id))} episodes{s.data.host && ` · hosted by ${s.data.host}`}</p>
+      </a>
+    ))}
+  </div>
 
-  <h2>About this site</h2>
-  <p>
-    IntoTheTwilightZone.com documents the franchise and its long shadow across film, television, music and
-    print. Facts come with sources; connections between works are labelled by how well they are documented.
-    Spotted an error? <a href="/about/#contact">Send a correction</a>.
-  </p>
+  <div class="section-head">
+    <h2>Features</h2>
+    <p>Tools and guides for watching, exploring and keeping track.</p>
+  </div>
+  <div class="feature-grid">
+    {FEATURES.map(([href, kicker, title, text]) => (
+      <a class="feature" href={href}>
+        <span class="kicker">{kicker}</span>
+        <h3>{title}</h3>
+        <p>{text}</p>
+      </a>
+    ))}
+  </div>
+
+  <div class="section-head">
+    <h2>Media Library</h2>
+    <p>Every video, recording, image, document, review, interview and advertisement on the site, in one sortable table that shows every page each item belongs to.</p>
+  </div>
+  <a class="card library-card" href="/media/">
+    <span class="count">{fmt(lib.length)}</span>
+    <h3>Open the Media Library</h3>
+    <p>{libCounts.map(([, l, n]) => `${l} ${fmt(n)}`).join(' · ')}</p>
+  </a>
+
+  <div class="section-head">
+    <h2>About this site</h2>
+  </div>
+  <div class="about-strip">
+    <p>
+      IntoTheTwilightZone.com documents the franchise and its long shadow across film, television, music and
+      print. Every fact carries a source, and every connection between works says how well it is documented,
+      from confirmed by its creator to noticed by fans. Nothing here is sold and nothing is advertised.
+    </p>
+    <p><a href="/about/">How the site works</a> · <a href="/sources/">Sources and policy</a> · <a href="/contribute/">Suggest a correction or a new record</a></p>
+  </div>
 </Base>
+<style>
+  .home-hero { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: var(--space-6); align-items: center; padding-top: var(--space-7); }
+  .home-hero-art svg { width: 100%; max-width: 420px; height: auto; display: block; margin-left: auto; }
+  .home-hero-art .vortex { transform-origin: 200px 200px; animation: tz-turn 90s linear infinite; }
+  @keyframes tz-turn { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .home-hero-art .vortex { animation: none; } }
+  .home-hero::before, .home-hero::after { display: none; }
+  .series-grid .card h3 { font-size: var(--step-2); }
+  .library-card { max-width: 760px; }
+  .about-strip p { max-width: 72ch; }
+  @media (max-width: 900px) {
+    .home-hero { grid-template-columns: 1fr; padding-top: var(--space-4); }
+    .home-hero-art { display: none; }
+  }
+</style>

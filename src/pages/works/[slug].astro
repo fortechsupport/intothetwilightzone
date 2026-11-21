@@ -2,6 +2,8 @@
 import TrackButtons from '../../components/fan/TrackButtons.astro';
 import { trackFor } from '../../lib/fan/contribute';
 import Base from '../../layouts/Base.astro';
+import RecordHeader from '../../components/RecordHeader.astro';
+import { recordDocTitle, recordType, recordContext } from '../../lib/titles';
 import InCategories from '../../components/InCategories.astro';
 import Media from '../../components/Media.astro';
 import Related from '../../components/Related.astro';
@@ -12,7 +14,7 @@ import { resolveRef, CONNECTION_LABELS, CONFIDENCE_LABELS } from '../../lib/data
 import { KIND_LABEL, humanize, detailText } from '../../lib/works';
 
 export async function getStaticPaths() {
-  return (await getCollection('works')).map((w) => ({ params: { slug: w.id }, props: { w } }));
+  return (await getCollection('works')).filter((w) => !w.data.duplicate_of).map((w) => ({ params: { slug: w.id }, props: { w } }));
 }
 interface Props { w: CollectionEntry<'works'> }
 const { w } = Astro.props;
@@ -25,11 +27,10 @@ const extraLinks = Object.entries(d.links ?? {}).filter(([k]) => k in linkNames)
 const otherLinks = Object.fromEntries(Object.entries(d.links ?? {}).filter(([k]) => !(k in linkNames)));
 const jsonld = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: d.title, dateCreated: d.year ? String(d.year) : undefined, creator: d.creator, publisher: d.publisher };
 ---
-<Base title={d.title} description={d.description ?? `${d.title}: ${KIND_LABEL[d.kind] ?? d.kind} connected to The Twilight Zone.`} jsonld={jsonld}>
+<Base title={recordDocTitle('works', d, d.title)} description={d.description ?? `${d.title}: ${KIND_LABEL[d.kind] ?? d.kind} connected to The Twilight Zone.`} jsonld={jsonld}>
   <InCategories recKey={`works/${w.id}`} />
-  <h1>{d.title}</h1>
+  <RecordHeader type={recordType('works', d)} context={recordContext('works', d)} title={d.title} recKey={`works/${w.id}`} />
   {(() => { const t = trackFor('works', (d as any).kind); return (t.seen || t.own) && <TrackButtons recKey={`works/${w.id}`} seen={t.seen} own={t.own} />; })()}
-  <div class="record-actions" data-record-key={`works/${w.id}`} data-pagefind-ignore></div>
   {d.subtype && <p class="muted">{humanize(d.subtype)}</p>}
   {d.description && <p class="lead">{d.description}</p>}
   <dl class="facts">

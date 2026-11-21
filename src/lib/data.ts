@@ -172,3 +172,18 @@ export const COMIC_ROLE: Record<string, string> = { writer: 'Comics writer', art
 export function personUrl(name: string) {
   return `/people/${slugify(splitCredit(name).name)}/`;
 }
+
+/** Role labels without repeats: "writer" and "Writer" (or "Writers") count once, first spelling kept, capitalized. */
+export function uniqueRoles(roles: string[]): string[] {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const raw of roles) {
+    const r = String(raw ?? '').trim();
+    if (!r) continue;
+    const key = r.toLowerCase().replace(/[^a-z]+/g, ' ').trim().replace(/s$/, '');
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(r.charAt(0).toUpperCase() + r.slice(1));
+  }
+  return out;
+}

@@ -37,8 +37,9 @@
   }
 
   function paintSlot() {
-    document.querySelectorAll('[data-account-slot]').forEach(function (a) {
-      if (a.tagName !== 'A') return;
+    document.querySelectorAll('[data-account-slot]').forEach(function (slot) {
+      var a = slot.tagName === 'A' ? slot : slot.querySelector('a');
+      if (!a) return;
       a.setAttribute('href', '/account/');
       a.textContent = handle ? handle : 'Sign in';
       if (handle) a.setAttribute('aria-label', 'Your account: ' + handle); else a.removeAttribute('aria-label');

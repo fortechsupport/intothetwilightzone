@@ -3,6 +3,8 @@
 // radio, podcasts, essays, archives, quotes, characters): its description, every recorded fact,
 // the episodes and works it refers to, its Twilight Zone connection, media and sources.
 import Base from '../layouts/Base.astro';
+import RecordHeader from './RecordHeader.astro';
+import { recordDocTitle, recordType, recordContext } from '../lib/titles';
 import InCategories from './InCategories.astro';
 import Media from './Media.astro';
 import Related from './Related.astro';
@@ -37,12 +39,13 @@ const refList: string[] = [...(d.episodes ?? []), ...(d.appears_in ?? []), ...(d
 const refs = (await Promise.all([...new Set(refList)].map(async (r) => ({ r, t: await resolveRef(r) }))));
 const conns = (await getCollection('connections')).filter((c) => c.data.from === key);
 const targets = await Promise.all(conns.map(async (c) => ({ c, t: await resolveRef(c.data.to) })));
+const firstRef = refs.find((x) => x.t)?.t?.title;
+const docTitle = recordDocTitle(col, d, title, { firstRef });
 ---
-<Base title={title} description={text ? text.slice(0, 155) : `${title}: its connection to The Twilight Zone.`}>
+<Base title={docTitle} description={text ? text.slice(0, 155) : `${title}: its connection to The Twilight Zone.`}>
   <InCategories recKey={key} />
-  <h1>{title}</h1>
+  <RecordHeader type={recordType(col, d)} context={recordContext(col, d, { firstRef })} title={title} recKey={key} />
   {(() => { const t = trackFor(col, d.kind); return (t.seen || t.own) && <TrackButtons recKey={key} seen={t.seen} own={t.own} />; })()}
-  <div class="record-actions" data-record-key={key} data-pagefind-ignore></div>
   {col === 'quotes' ? (
     <figure class="quote">
       <blockquote>{d.text}</blockquote>

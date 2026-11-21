@@ -7,7 +7,6 @@ const { id } = Astro.props;
 const paths = pathsFor(id);
 ---
 <TrackButtons recKey={`episodes/${id}`} />
-<div class="record-actions" data-record-key={`episodes/${id}`} data-pagefind-ignore></div>
 {paths.length > 0 && (
   <p class="on-paths small" data-pagefind-ignore>On {paths.length === 1 ? 'the path' : 'the paths'}: {paths.map((p, i) => <>{i > 0 && ' · '}<a href={`/paths/${p.slug}/`}>{p.title}</a></>)}</p>
 )}

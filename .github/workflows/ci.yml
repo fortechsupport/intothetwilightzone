@@ -1,0 +1,41 @@
+name: Checks
+
+# Runs on every pull request and on main. Each step is a pass/fail check from CLAUDE.md.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Data (records and review ledger)
+        run: npm run check:data
+      - name: Design tokens (contrast in both themes, tokens.css up to date)
+        run: npm run tokens -- --check
+      - name: Build, public mode (what intothetwilightzone.com would serve)
+        run: npm run build
+      - name: Site (links, duplicate titles, page structure, roles, page weight), public mode
+        run: npm run check:site
+      - name: Build, preview mode (what the preview site serves)
+        run: npm run build:preview
+      - name: Site, preview mode
+        run: npm run check:site
+      - name: Install Chromium for accessibility checks
+        run: npm i --no-save playwright@1.63.0 && npx playwright install --with-deps chromium
+      - name: Accessibility and phone layout (axe, 320 px)
+        run: |
+          npx astro preview --port 4321 &
+          for i in $(seq 1 30); do curl -sf http://localhost:4321/ > /dev/null && break; sleep 2; done
+          npm run check:a11y

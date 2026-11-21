@@ -1,4 +1,6 @@
 ---
-// Header account link. public/account.js turns "Sign in" into the member's username once signed in.
+// Where the signed-in state shows. /account.js turns "Sign in" into the member's username once signed in.
+interface Props { compact?: boolean }
+const { compact = false } = Astro.props;
 ---
-<a href="/account/" data-account-slot>Sign in</a>
+<span class="account-slot" data-account-slot data-compact={compact ? '1' : undefined}><a href="/account/">Sign in</a></span>

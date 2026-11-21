@@ -2,6 +2,7 @@
 // An organization: what it is, whether it is part of the official franchise, every record on the site
 // that names it (grouped by what it did), and the content attached to it (holdings, sponsorships, pages).
 import Base from '../../layouts/Base.astro';
+import RecordHeader from '../../components/RecordHeader.astro';
 import InCategories from '../../components/InCategories.astro';
 import Media from '../../components/Media.astro';
 import Sources from '../../components/Sources.astro';
@@ -34,10 +35,10 @@ for (const list of roles.values()) list.sort((a, b) => sortKey(a.title).localeCo
 const a = assess(key);
 const text = d.description ?? `${o.name} is named in ${o.links.length} ${o.links.length === 1 ? 'record' : 'records'} on this site, listed below.`;
 ---
-<Base title={o.name} description={text.slice(0, 155)}>
+<Base title={`${o.name} (organization)`} description={text.slice(0, 155)}>
   <InCategories recKey={key} />
-  <h1>{o.name}</h1>
-  <p class="muted"><span class="org-kind">{KIND[o.kind] ?? 'Organization'}</span> · {o.official ? <span class="tag">{OFFICIAL_LABEL}</span> : <span class="tag">Related</span>}{!o.record && <span class="tag" title="Built from the records that name it; no researched record yet">from records</span>}</p>
+  <RecordHeader type={KIND[o.kind] ?? 'Organization'} title={o.name} recKey={key} />
+  <p class="muted">{o.official ? <span class="tag">{OFFICIAL_LABEL}</span> : <span class="tag">Related</span>}{!o.record && <span class="tag" title="Built from the records that name it; no researched record yet">from records</span>}</p>
   <p class="lead">{text}</p>
   {(o.aka.length > 0 || d.founded || d.location || d.website || d.parent) && (
     <dl class="facts">
