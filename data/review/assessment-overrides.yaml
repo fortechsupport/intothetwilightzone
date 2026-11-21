@@ -4672,3 +4672,40 @@ works/syfy-65-years-twilight-zone-marathon:
   recommendation: include
   reason: Now dated and detailed from the Remind Magazine episode guide (65 episodes, exact days).
   subcategory: Screenings and marathons
+
+# Television research round 1 (Serling's plays), 2026-11-21
+films/buffalo-bill-is-dead-1953-teleplay:
+  connection: A television play by Rod Serling for Studio One, 1953, from the career that led to The Twilight Zone.
+  tier: related
+  tier_reason: Serling's own work outside the series; Adam's scope covers all things Rod Serling.
+  recommendation: include
+  reason: Credited to Serling in Wikipedia; it completes his body of work on his page and the series page.
+  subcategory: Rod Serling's series
+films/u-f-o-1954-teleplay:
+  connection: A television play by Rod Serling for Studio One, 1954, from the career that led to The Twilight Zone.
+  tier: related
+  tier_reason: Serling's own work outside the series; Adam's scope covers all things Rod Serling.
+  recommendation: include
+  reason: Credited to Serling in Wikipedia; it completes his body of work on his page and the series page.
+  subcategory: Rod Serling's series
+films/horace-manns-miracle-1953-teleplay:
+  connection: A television play by Rod Serling for Hallmark Hall of Fame, 1953, from the career that led to The Twilight Zone.
+  tier: related
+  tier_reason: Serling's own work outside the series; Adam's scope covers all things Rod Serling.
+  recommendation: include
+  reason: Credited to Serling in Wikipedia; it completes his body of work on his page and the series page.
+  subcategory: Rod Serling's series
+films/man-against-pain-1953-teleplay:
+  connection: A television play by Rod Serling for Hallmark Hall of Fame, 1953, from the career that led to The Twilight Zone.
+  tier: related
+  tier_reason: Serling's own work outside the series; Adam's scope covers all things Rod Serling.
+  recommendation: include
+  reason: Credited to Serling in Wikipedia; it completes his body of work on his page and the series page.
+  subcategory: Rod Serling's series
+films/nightmare-at-ground-zero-1958-teleplay:
+  connection: A television play by Rod Serling for Playhouse 90, 1958, from the career that led to The Twilight Zone.
+  tier: related
+  tier_reason: Serling's own work outside the series; Adam's scope covers all things Rod Serling.
+  recommendation: include
+  reason: Credited to Serling in Wikipedia; it completes his body of work on his page and the series page.
+  subcategory: Rod Serling's series

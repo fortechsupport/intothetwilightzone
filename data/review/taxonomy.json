@@ -28679,6 +28679,26 @@
    "official": false
   }
  ],
+ "films/buffalo-bill-is-dead-1953-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Studio One",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/buffy-the-vampire-slayer-older-and-far-away": [
   {
    "cat": "homages",
@@ -29802,6 +29822,26 @@
    "official": false
   }
  ],
+ "films/horace-manns-miracle-1953-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Hallmark Hall of Fame",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/hot-metal-the-twilight-zone": [
   {
    "cat": "homages",
@@ -30417,6 +30457,26 @@
    "group": null,
    "catTitle": "Movies",
    "subTitle": "Films linked to an episode",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/man-against-pain-1953-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Hallmark Hall of Fame",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
    "isNew": false,
    "official": false
   }
@@ -31359,6 +31419,26 @@
    "subTitle": "Rod Serling's series",
    "isNew": false,
    "official": true
+  }
+ ],
+ "films/nightmare-at-ground-zero-1958-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Playhouse 90",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
   }
  ],
  "films/nightmare-at-ground-zero": [
@@ -34458,6 +34538,26 @@
    "subTitle": "Unmade projects",
    "isNew": true,
    "official": true
+  }
+ ],
+ "films/u-f-o-1954-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Studio One",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
   }
  ],
  "films/ufos-past-present-and-future": [

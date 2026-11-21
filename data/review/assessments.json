@@ -29676,15 +29676,15 @@
   "sort": "amazing stories"
  },
  "films/amazing-stories-2020": {
-  "connection": "Apple TV+'s revival of Spielberg's anthology launched amid constant comparisons to The Twilight Zone and Black Mirror, which its producers addressed in interviews.",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "connection": "A fellow anthology series: Apple TV+'s revival of Spielberg's anthology launched amid constant comparisons to The Twilight Zone and Black Mirror, which its producers addressed in interviews.",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
+  "recommendation": "maybe",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "SYFY Wire: Why Amazing Stories producers aren't worried about Black Mirror, Twilight Zone comparisons",
   "source_url": "https://www.syfy.com/syfy-wire/amazing-stories-producers-not-worried",
   "title": "Amazing Stories (2020)",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "amazing stories 002020"
  },
  "films/american-dad-rabbit-ears": {
@@ -29868,15 +29868,15 @@
   "sort": "uncaged"
  },
  "films/black-mirror": {
-  "connection": "Inspired by The Twilight Zone (original series) (a published source makes the link).",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "connection": "A fellow anthology series: Charlie Brooker has cited the series as a model and considered a Serling-style host before deciding the show's tone should be the recurring character.",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
+  "recommendation": "maybe",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "Twilight Zone meets Tales of the Unexpected: Charlie Brooker on Black Mirror (Creative Screenwriting)",
   "source_url": "https://www.creativescreenwriting.com/cswcms/twilight-zone-meets-tales-of-the-unexpected-charlie-brooker-on-black-mirror/",
   "title": "Black Mirror",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "black mirror"
  },
  "films/black-mirror-uss-callister": {
@@ -29950,6 +29950,18 @@
   "title": "Bridesmaids",
   "subcategory": "Feature films",
   "sort": "bridesmaids"
+ },
+ "films/buffalo-bill-is-dead-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Studio One, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Wikipedia; it completes his body of work on his page and the series page.",
+  "source_title": "List of Studio One episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Studio_One_episodes",
+  "title": "Buffalo Bill Is Dead",
+  "subcategory": "Rod Serling's series",
+  "sort": "buffalo bill is dead"
  },
  "films/buffy-the-vampire-slayer-older-and-far-away": {
   "connection": "A reference to “It's a Good Life” (1959). Xander jokes about being wished into 'the cornfield', the fate Anthony Fremont dispenses.",
@@ -30144,15 +30156,15 @@
   "sort": "devil"
  },
  "films/dimension-404": {
-  "connection": "Hulu's Mark Hamill-narrated sci-fi anthology was pitched to viewers and reviewed as a Twilight Zone- and Black Mirror-style series of twisty standalone tales.",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "connection": "A fellow anthology series: Hulu's Mark Hamill-narrated sci-fi anthology was pitched to viewers and reviewed as a Twilight Zone- and Black Mirror-style series of twisty standalone tales.",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
+  "recommendation": "maybe",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "/Film: Mark Hamill's sci-fi anthology series has major The Twilight Zone vibes",
   "source_url": "https://www.slashfilm.com/2122098/mark-hamill-sci-fi-anthology-series-the-twilight-zone-dimension-404-streaming-hulu",
   "title": "Dimension 404",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "dimension 000404"
  },
  "films/disneys-the-kid": {
@@ -30803,6 +30815,18 @@
   "subcategory": "Segments of other shows",
   "sort": "traffic zone"
  },
+ "films/horace-manns-miracle-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Hallmark Hall of Fame, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Wikipedia; it completes his body of work on his page and the series page.",
+  "source_title": "List of Hallmark Hall of Fame episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Hallmark_Hall_of_Fame_episodes",
+  "title": "Horace Mann's Miracle",
+  "subcategory": "Rod Serling's series",
+  "sort": "horace manns miracle"
+ },
  "films/hot-metal-the-twilight-zone": {
   "connection": "An episode of the British tabloid-newspaper satire borrows the anthology's title.",
   "tier": "tangential",
@@ -31331,6 +31355,18 @@
   "subcategory": "Feature films",
   "sort": "magic"
  },
+ "films/man-against-pain-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Hallmark Hall of Fame, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Wikipedia; it completes his body of work on his page and the series page.",
+  "source_title": "List of Hallmark Hall of Fame episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Hallmark_Hall_of_Fame_episodes",
+  "title": "Man Against Pain",
+  "subcategory": "Rod Serling's series",
+  "sort": "man against pain"
+ },
  "films/masters-of-horror": {
   "connection": "A fellow anthology series: Showtime anthology of hour films by well-known horror directors.",
   "tier": "tangential",
@@ -31464,15 +31500,15 @@
   "sort": "miracle mile"
  },
  "films/monsters": {
-  "connection": "The syndicated late-1980s horror anthology from the Tales from the Darkside producers, built around a creature in every story, has been described as an anti-Twilight Zone.",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "connection": "A fellow anthology series: The syndicated late-1980s horror anthology from the Tales from the Darkside producers, built around a creature in every story, has been described as an anti-Twilight Zone.",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
+  "recommendation": "maybe",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "ComicBook.com: Forgotten horror anthology Monsters, the anti-Twilight Zone",
   "source_url": "https://comicbook.com/tv-shows/news/forgotten-horror-anthology-monsters-anti-twilight-zone",
   "title": "Monsters",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "monsters"
  },
  "films/monsters-1988": {
@@ -32229,6 +32265,18 @@
   "source_url": "https://www.museum.tv/tv-encyclopedia-15/serling-rod",
   "title": "Nightmare at Ground Zero",
   "subcategory": "Rod Serling's other screen work",
+  "sort": "nightmare at ground zero"
+ },
+ "films/nightmare-at-ground-zero-1958-teleplay": {
+  "connection": "A television play by Rod Serling for Playhouse 90, 1958, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Wikipedia; it completes his body of work on his page and the series page.",
+  "source_title": "List of Playhouse 90 episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Playhouse_90_episodes",
+  "title": "Nightmare at Ground Zero",
+  "subcategory": "Rod Serling's series",
   "sort": "nightmare at ground zero"
  },
  "films/no-christmas-this-year": {
@@ -33108,15 +33156,15 @@
   "sort": "tales of the unexpected"
  },
  "films/tales-of-the-unusual-yo-nimo-kimyo-na-monogatari": {
-  "connection": "Japan's long-running Fuji TV anthology of strange tales, introduced by a sunglasses-wearing host, is widely regarded as the country's answer to The Twilight Zone.",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "connection": "A fellow anthology series: Japan's long-running Fuji TV anthology of strange tales, introduced by a sunglasses-wearing host, is widely regarded as the country's answer to The Twilight Zone.",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
+  "recommendation": "maybe",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "Wikipedia: Tales of the Unusual",
   "source_url": "https://en.wikipedia.org/wiki/Tales_of_the_Unusual",
   "title": "Tales of the Unusual (Yo nimo Kimyō na Monogatari)",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "tales of the unusual yo nimo kimy na monogatari"
  },
  "films/talking-to-myself-the-linda-lindas": {
@@ -33924,15 +33972,15 @@
   "sort": "rank and file"
  },
  "films/the-ray-bradbury-theater": {
-  "connection": "Anthology of Bradbury stories, each introduced by the author (1985–1992).",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "connection": "A fellow anthology series: Anthology of Bradbury stories, each introduced by the author (1985–1992).",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
+  "recommendation": "maybe",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "Wikipedia: The Ray Bradbury Theater",
   "source_url": "https://en.wikipedia.org/wiki/The_Ray_Bradbury_Theater",
   "title": "The Ray Bradbury Theater",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "ray bradbury theater"
  },
  "films/the-salamander": {
@@ -34248,15 +34296,15 @@
   "sort": "sixth sense"
  },
  "films/the-sixth-sense-1972": {
-  "connection": "Its 25 episodes were cut to half an hour and added to the syndicated Night Gallery with new Rod Serling introductions.",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "connection": "A fellow anthology series: ABC's hour-long paranormal drama starring Gary Collins as Dr. Michael Rhodes, a parapsychologist with ESP who investigates supernatural crimes with his assistant Nancy Murphy (Catherine Ferrar).",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
   "recommendation": "maybe",
-  "reason": "A documented but passing reference; useful for completeness in the Influence section.",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "Wikipedia: The Sixth Sense (American TV series)",
   "source_url": "https://en.wikipedia.org/wiki/The_Sixth_Sense_(American_TV_series)",
   "title": "The Sixth Sense (1972 TV series)",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "sixth sense 001972 tv series"
  },
  "films/the-stepford-wives": {
@@ -34775,6 +34823,18 @@
   "subcategory": "Unproduced scripts",
   "sort": "twilight zone warner bros feature in development"
  },
+ "films/u-f-o-1954-teleplay": {
+  "connection": "A television play by Rod Serling for Studio One, 1954, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Wikipedia; it completes his body of work on his page and the series page.",
+  "source_title": "List of Studio One episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Studio_One_episodes",
+  "title": "U.F.O.",
+  "subcategory": "Rod Serling's series",
+  "sort": "ufo"
+ },
  "films/ufos-past-present-and-future": {
   "connection": "Rod Serling's work beyond The Twilight Zone: A documentary on the UFO phenomenon narrated by Serling; it was later recut as UFOs: It Has Begun.",
   "tier": "related",
@@ -34812,15 +34872,15 @@
   "sort": "uglydolls"
  },
  "films/ultra-q": {
-  "connection": "Tsuburaya Productions' black-and-white series of strange phenomena and monsters, the precursor to Ultraman, is often recommended as Japan's counterpart to The Twilight Zone.",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "connection": "A fellow anthology series: Tsuburaya Productions' black-and-white series of strange phenomena and monsters, the precursor to Ultraman, is often recommended as Japan's counterpart to The Twilight Zone.",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
+  "recommendation": "maybe",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "The Portalist: Fans of The Twilight Zone and The X-Files need to watch Ultra Q",
   "source_url": "https://theportalist.com/ultra-q-tv-series",
   "title": "Ultra Q",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "ultra q"
  },
  "films/unknown": {
@@ -40452,7 +40512,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -41172,7 +41232,7 @@
   "sort": "cesare danova"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -47532,7 +47592,7 @@
   "sort": "jean carson"
  },
  "people/jean-de-segonzac": {
-  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Cradle of Darkness” and “Night Route”).",
+  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Night Route” and “Cradle of Darkness”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -49596,7 +49656,7 @@
   "sort": "jonathan winters"
  },
  "people/jordan-peele": {
-  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “Nightmare at 30,000 Feet” and “The Comedian”).",
+  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “The Comedian” and “Nightmare at 30,000 Feet”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
