@@ -23,14 +23,17 @@ international_titles:
   - title: 'AlloCiné: La 13ème dimension'
     url: https://www.allocine.fr/series/ficheserie_gen_cserie=41.html
 releases:
-- date: '2004'
+- date: '2004-09-07'
   format: DVD
   title: 'The Twilight Zone (2002): The Complete Series'
-  publisher: Image Entertainment (unconfirmed)
+  publisher: New Line Home Entertainment
   region: Region 1
-  note: 6-disc set of all 43 episodes of the UPN revival hosted by Forest Whitaker, sold as "Season One"/complete series.
-    Label and exact date not verified.
+  note: Six discs, all 43 episodes, widescreen with 5.1 and DTS sound, no extras; also sold as "Season One". The year of
+    the September 7 date is read from the announcement's June 2004 date.
   sources:
+  - title: New Line Brings Home The Twilight Zone Series On DVD
+    url: https://movieweb.com/new-line-brings-home-the-twilight-zone-series-on-dvd/
+    publisher: MovieWeb
   - title: The Twilight Zone (2002) (DVD, 2004, 6-Disc Set) - eBay product listing
     url: https://ebay.com/p/43707144
   - title: DVD Talk review 12253

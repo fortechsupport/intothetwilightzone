@@ -3,6 +3,15 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-21 — Television research round 4: home video
+
+The Night Gallery page now lists its home releases: Universal's DVD season sets (2004, 2008, 2012), Kino Lorber's
+Season One Blu-ray (2021) and Imprint's ten-disc Complete Collection Blu-ray (2026), each with its source. The 2002
+series' DVD now names its label, New Line Home Entertainment, and its date, 7 September 2004.
+
+**Known not to work yet:** the Season Two and Three DVD dates rest on a fan site; Kino Lorber's later Night Gallery
+Blu-rays were not checked; the 1985 series' early DVD dates still rest on a forum list.
+
 ## 2026-11-21 — Television research round 3: stronger sources for homages
 
 Two Simpsons homages now carry their makers' or the official guide's word instead of a fan wiki's: "Bart's Comet" (the
