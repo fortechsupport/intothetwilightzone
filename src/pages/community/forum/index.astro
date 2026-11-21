@@ -1,0 +1,40 @@
+---
+import Base from '../../../layouts/Base.astro';
+---
+<Base title="Forum" description="Topics in this IntoTheTwilightZone.com forum." noindex>
+  <div class="community" data-pagefind-ignore>
+    <p class="breadcrumb"><a href="/community/">Community</a> / <span id="crumb">Forum</span></p>
+    <h1 id="title">Forum</h1>
+    <p class="lead" id="desc"></p>
+    <p><a class="btn primary" id="new" href="/community/new/">Start a topic here</a></p>
+    <ul class="forum-list" id="topics"><li class="muted">Loading…</li></ul>
+    <p><button class="btn" id="more" hidden>Show older topics</button></p>
+  </div>
+  <script>
+    import { api, esc, when, authorHtml } from '../../../lib/account/client';
+    const c = new URLSearchParams(location.search).get('c') ?? '';
+    const list = document.getElementById('topics')!;
+    let before = 0, first = true;
+    async function load() {
+      try {
+        const r = await api(`/api/forum/topics?category=${encodeURIComponent(c)}${before ? `&before=${before}` : ''}`);
+        if (first) {
+          document.title = `${r.category.title} · Community · IntoTheTwilightZone.com`;
+          document.getElementById('title')!.textContent = r.category.title;
+          document.getElementById('crumb')!.textContent = r.category.title;
+          document.getElementById('desc')!.textContent = r.category.description;
+          (document.getElementById('new') as HTMLAnchorElement).href = `/community/new/?c=${encodeURIComponent(c)}`;
+          list.innerHTML = '';
+          first = false;
+        }
+        if (!r.topics.length && !before) list.innerHTML = '<li class="muted">No topics here yet. Start the first one.</li>';
+        list.insertAdjacentHTML('beforeend', r.topics.map((x: any) => `<li><div><h3>${x.pinned ? '<span class="tag-pill">Pinned</span> ' : ''}${x.locked ? '<span class="tag-pill">Closed</span> ' : ''}<a href='/community/topic/?id=${esc(x.id)}'>${esc(x.title)}</a></h3><p class="small">${authorHtml(x)} · started ${when(x.created_at)}</p></div><div class="stats">${x.post_count} post${x.post_count === 1 ? '' : 's'}<br>last ${when(x.last_post_at)}</div></li>`).join(''));
+        const btn = document.getElementById('more')!;
+        btn.hidden = !r.more;
+        if (r.topics.length) before = r.topics[r.topics.length - 1].last_post_at;
+      } catch (e: any) { list.innerHTML = `<li class="form-error">${esc(e.message)}</li>`; }
+    }
+    document.getElementById('more')!.addEventListener('click', load);
+    load();
+  </script>
+</Base>

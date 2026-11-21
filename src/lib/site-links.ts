@@ -19,4 +19,9 @@ export const FOOTER_COLUMNS: { title: string; links: [string, string][] }[] = [
 ];
 
 /** Extra footer links (terms, privacy, community rules...). The accounts work adds its pages here. */
-export const FOOTER_LINKS: [string, string][] = [];
+export const FOOTER_LINKS: [string, string][] = [
+  ['Community', '/community/'],
+  ['Terms of use', '/terms/'],
+  ['Privacy', '/privacy/'],
+  ['Copyright', '/copyright/'],
+];

@@ -1,0 +1,73 @@
+---
+import Base from '../layouts/Base.astro';
+const updated = '21 November 2026';
+---
+<Base title="Privacy notice" description="What IntoTheTwilightZone.com collects, why, how long it keeps it, and how to download or delete your data.">
+  <article class="legal">
+    <h1>Privacy notice</h1>
+    <p class="updated">Last updated {updated}</p>
+    <p class="lead">IntoTheTwilightZone.com is a non-commercial fan site. It has no advertising, no analytics or tracking scripts, and it never sells or shares your information. You can read the whole site without an account, and without any cookies being set.</p>
+
+    <h2>If you just read the site</h2>
+    <ul>
+      <li><strong>No cookies, no tracking.</strong> Reading pages sets no cookies.</li>
+      <li><strong>Your checklist stays in your browser.</strong> Anything you mark Watched, I own it, Want it, Favorite or Later is saved in your browser's own storage on your device. It isn't sent to us unless you sign in.</li>
+      <li><strong>Hosting logs.</strong> The site is hosted by Cloudflare, which processes technical request data (such as IP addresses) to deliver pages and protect the site from attacks, under the <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">Cloudflare privacy policy</a>. We don't use that data to identify or profile visitors.</li>
+    </ul>
+
+    <h2>If you create an account</h2>
+    <table>
+      <thead><tr><th>What</th><th>Why</th><th>Who can see it</th></tr></thead>
+      <tbody>
+        <tr><td>Username, display name, and the "about you" text if you add it</td><td>To show who wrote a post or shared a contribution</td><td>Everyone</td></tr>
+        <tr><td>Passkey public key, and the passkey's name and dates</td><td>To let you sign in. A passkey's private part never leaves your device, and we never receive fingerprints or face data</td><td>Only you</td></tr>
+        <tr><td>Email address, if you choose to add one</td><td>Only to send sign-in links you ask for. No newsletters</td><td>Only you (and the site editor, if needed to help with your account)</td></tr>
+        <tr><td>Google account id, if you sign in with Google</td><td>To recognise you next time. We ask Google only for your basic profile and email</td><td>Only you</td></tr>
+        <tr><td>Your lists (favorites, later, watched, owned, wanted)</td><td>To keep them on every device</td><td>Only you, unless you choose to show favorites on your profile</td></tr>
+        <tr><td>Posts, suggestions, uploads and reports you send</td><td>To run the forums and the review queue</td><td>Posts and approved uploads: everyone. Suggestions and reports: you and moderators</td></tr>
+        <tr><td>Signed-in devices: browser and system name (for example "Safari on iPhone") and dates</td><td>So you can see and sign out devices</td><td>Only you</td></tr>
+      </tbody>
+    </table>
+    <p>We don't store your IP address with your account. To stop abuse, rate limits use a one-way code made from your IP address that changes every day and is deleted within two days.</p>
+
+    <h2>Cookies</h2>
+    <p>Signing in sets two cookies, and only these:</p>
+    <ul>
+      <li><code>__Host-tz_s</code>: keeps you signed in (30 days, renewed while you use the site). Scripts on the page can't read it. We store only a scrambled (hashed) copy of it.</li>
+      <li><code>tz_hint</code>: holds only your username, so pages know to load your account. Deleted when you sign out.</li>
+    </ul>
+    <p>Both are strictly necessary for the account you asked for, so there is no cookie banner.</p>
+
+    <h2>The "I am human" check</h2>
+    <p>Forms that create accounts or send content use Cloudflare Turnstile to stop automated spam. When it runs, Cloudflare processes information about your browser and device to tell people from bots, as described in the <a href="https://www.cloudflare.com/turnstile-privacy-policy/" rel="noopener">Turnstile privacy addendum</a>.</p>
+
+    <h2>Sign-in emails</h2>
+    <p>If email sign-in is switched on and you ask for a link, the email is delivered by an email service acting for us (Cloudflare Email Service or Resend), which handles your address only to deliver that message.</p>
+
+    <h2>Uploads</h2>
+    <p>Files are stored privately with Cloudflare R2 and shown only after a moderator approves them. Photos can carry hidden details such as where they were taken; please remove location data before uploading if you'd rather not share it. Rejected files are deleted from storage straight away.</p>
+
+    <h2>How long we keep things</h2>
+    <ul>
+      <li>Your account and everything in it: until you delete it.</li>
+      <li>Sign-in links and passkey challenges: minutes, then deleted.</li>
+      <li>Sessions: 30 days after you last use the site, or until you sign out.</li>
+      <li>Rate-limit counters: up to two days.</li>
+      <li>Moderation records (what was approved or removed, and by whom): kept for accountability; they don't include your private details.</li>
+    </ul>
+
+    <h2>Your choices and rights</h2>
+    <ul>
+      <li><strong>See and download your data</strong> any time from your <a href="/account/#data">account page</a> ("Download my data").</li>
+      <li><strong>Correct it</strong> by editing your profile, posts and lists.</li>
+      <li><strong>Delete your account</strong> from the same page. Your profile, lists, passkeys, sign-ins and uploads are deleted immediately. Your forum posts are deleted too, unless you choose to keep them under "Deleted member".</li>
+    </ul>
+    <p>Depending on where you live (for example under the UK or EU GDPR, or California law), you may have further rights; the tools above cover access, correction, deletion and portability. For anything else, use the <a href="/about/#contact">contact details on the About page</a>.</p>
+
+    <h2>Children</h2>
+    <p>Accounts are for people aged 13 or older. If you believe a child under 13 has made an account, tell us and we'll delete it.</p>
+
+    <h2>Changes</h2>
+    <p>If this notice changes in a way that matters, we'll say so on the site before the change applies. The date at the top shows the last update.</p>
+  </article>
+</Base>

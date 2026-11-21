@@ -3,6 +3,28 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-21 — Fan accounts (switch on after Cloudflare setup)
+
+**Free member accounts.** Once switched on (docs/ACCOUNTS_SETUP.md), a visitor can:
+- Create an account with a passkey (face, fingerprint or screen lock; no password) and sign in on any device.
+- Keep **Favorites** and **Watch, listen, read or play later** lists, alongside Watched, I own it and Want it,
+  on every device. Anything marked before signing up comes with them. My Zone shows all five lists.
+- Join the **forums** (/community/): ten forums, a Discuss link on record pages, replies, editing and deleting
+  their own posts, and reporting.
+- **Suggest** a correction, something new or an idea, privately, and follow its review status.
+- **Share their work**: images, audio, video, PDFs, written pieces or links, shown in Fan contributions
+  once approved.
+- Download all their data, or delete their account.
+
+The editor gets a **Moderation** page for suggestions, uploads, held posts, reports and copyright notices.
+New pages: Terms of use, Privacy notice, Copyright (with a notice form), Community guidelines.
+
+**Known not to work yet**
+- Nothing member-related works until the Cloudflare setup is done; until then those pages say "being set up".
+- Email sign-in links and Google sign-in are off until their settings are added.
+- No email notifications (replies, approvals); members see statuses on their account page.
+- Photos are not resized and their location data is not removed automatically (the upload form says so).
+- Forum posts are not in site search.
 ## 2026-11-21 (later) — Faster long pages and a polish pass
 
 **The three heaviest pages now open quickly.**

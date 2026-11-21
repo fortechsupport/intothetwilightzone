@@ -1,0 +1,54 @@
+---
+import Base from '../../../layouts/Base.astro';
+---
+<Base title="Start a topic" description="Start a new discussion in the IntoTheTwilightZone.com forums." noindex>
+  <div class="community" data-pagefind-ignore>
+    <p class="breadcrumb"><a href="/community/">Community</a> / Start a topic</p>
+    <h1>Start a topic</h1>
+    <p id="signin-hint" class="notice" hidden><a href="/account/">Sign in or create an account</a> to start a topic.</p>
+    <form id="f" class="stack narrow" novalidate hidden>
+      <p id="about" class="small" hidden></p>
+      <label>Forum <select name="category" required></select></label>
+      <label>Title <input name="title" required minlength="4" maxlength="120" /></label>
+      <label>Your post <textarea name="body" rows="9" required maxlength="10000" placeholder="Plain text; links are fine."></textarea></label>
+      <p class="small muted">New members' first two posts are checked by a moderator before they appear, which keeps spam out. After that, posts appear straight away. <a href="/community/guidelines/">Community guidelines</a>.</p>
+      <div class="ts" data-ts></div>
+      <p><button class="btn primary" type="submit">Post topic</button></p>
+      <p class="form-error" data-error hidden tabindex="-1" role="alert"></p>
+    </form>
+  </div>
+  <script>
+    import { api, me, esc, turnstile, resetTurnstile, showError, clearError, busy, formData, itemLabel } from '../../../lib/account/client';
+    const q = new URLSearchParams(location.search);
+    const item = q.get('item') ?? '';
+    const f = document.getElementById('f') as HTMLFormElement;
+    (async () => {
+      const m = await me();
+      if (!m.user) { document.getElementById('signin-hint')!.hidden = false; return; }
+      f.hidden = false;
+      const c = await api('/api/forum/categories');
+      const sel = f.elements.namedItem('category') as HTMLSelectElement;
+      sel.innerHTML = c.categories.map((x: any) => `<option value="${esc(x.id)}">${esc(x.title)}</option>`).join('');
+      sel.value = q.get('c') ?? (item.startsWith('episodes/') ? 'original-series' : 'general');
+      if (!sel.value) sel.value = 'general';
+      if (item) {
+        const l = await itemLabel(item);
+        const a = document.getElementById('about')!;
+        a.hidden = false;
+        a.innerHTML = `This topic will be linked to <a href='${esc(l?.href ?? '')}'>${esc(l?.title ?? item)}</a>, so it shows up on that page's Discuss link.`;
+        const t = f.elements.namedItem('title') as HTMLInputElement;
+        if (l && !t.value) t.value = l.title;
+      }
+      const tok = await turnstile(f.querySelector('[data-ts]')!, m.config.turnstileSiteKey);
+      f.addEventListener('submit', (ev) => {
+        ev.preventDefault(); clearError(f);
+        busy(f, async () => {
+          try {
+            const r = await api('/api/forum/topics', { ...formData(f), itemKey: item || undefined, turnstile: tok() });
+            location.href = `/community/topic/?id=${encodeURIComponent(r.id)}`;
+          } catch (e) { resetTurnstile(); showError(f, e); }
+        });
+      });
+    })();
+  </script>
+</Base>

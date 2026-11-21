@@ -15,8 +15,6 @@ const redirects = {
   '/television/2019-series': '/series/2019/',
   '/blog': '/',
   '/contact': '/about/#contact',
-  '/privacy': '/about/#privacy',
-  '/terms': '/about/#disclaimer',
   // Section pages replaced by the category structure (2026-11-20).
   '/films': '/movies/',
   '/works': '/categories/',
@@ -40,7 +38,6 @@ const redirects = {
   '/quotes': '/people/fans/',
   '/quotes/admirers': '/people/fans/',
   '/quotes/rod-serling': '/rod-serling/',
-  '/community': '/organizations/',
   '/community/fan-communities': '/organizations/fan-groups/',
   '/community/organizations': '/organizations/foundations-societies/',
   '/community/websites-databases': '/reading/websites/',
