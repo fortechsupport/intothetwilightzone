@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import RecordHeader from '../../components/RecordHeader.astro';
 import InCategories from '../../components/InCategories.astro';
 import Media from '../../components/Media.astro';
 import Related from '../../components/Related.astro';
@@ -46,9 +47,8 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
 ---
 <Base title={`${d.title} (${d.series})`} description={description} jsonld={jsonld}>
   <InCategories recKey={`episodes/${e.id}`} extra={[[`${d.series} series`, `/series/${d.series}/`], [`Season ${d.season}`, `/series/${d.series}/#season-${d.season}`]]} />
-  <h1>{d.title}</h1>
+  <RecordHeader type="Episode" context={`${seriesTitle} (${d.series}) · Season ${d.season}, episode ${d.episode}`} contextMeta="series" title={d.title} recKey={`episodes/${e.id}`} />
   {d.aka.length > 0 && <p class="muted">Also known as {d.aka.join(', ')}</p>}
-  <p class="muted" data-pagefind-meta="series">{seriesTitle} ({d.series}) · Season {d.season}, episode {d.episode}</p>
   <div hidden data-pagefind-ignore><span data-pagefind-filter="Series">{d.series} series</span>{d.air_date && <span data-pagefind-filter="Decade">{d.air_date.slice(0, 3)}0s</span>}{[...d.writers, ...d.source_authors].map((n) => <span data-pagefind-filter="Writer">{n}</span>)}{d.themes.map((t) => <span data-pagefind-filter="Theme">{t}</span>)}</div>
   <EpisodeActions id={e.id} />
 

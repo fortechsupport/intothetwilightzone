@@ -16,10 +16,13 @@ const entries = isDir ? [] : [...new Map(def.categories.flatMap((c) => cats.get(
 const SPLIT = 'Each category shows official items (made, licensed or published by the franchise or by Rod Serling) and unofficial or inspired ones on separate shelves.';
 ---
 <Base title={v.title} description={`${v.title}: ${v.blurb}`}>
-  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a></p>
-  <h1>{v.title}</h1>
-  <p class="lead">{v.blurb} {v.n.toLocaleString('en-US')} entries in {v.cols.length} categories.</p>
-  {!isDir && <p class="small muted">{SPLIT} Reviews, interviews, clips and documents appear on the pages they belong to, and all together in the <a href="/media/">Media Library</a>.</p>}
+  <header class="verb-head">
+    <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a></p>
+    <p class="kicker">{v.n.toLocaleString('en-US')} entries · {v.cols.length} categories</p>
+    <h1>{v.title}</h1>
+    <p class="lead">{v.blurb}</p>
+    {!isDir && <p class="small muted">{SPLIT} Reviews, interviews, clips and documents appear on the pages they belong to, and all together in the <a href="/media/">Media Library</a>.</p>}
+  </header>
   <div class="grid">
     {v.cols.map((c) => (
       <a class="card" href={c.href}>

@@ -1,10 +1,11 @@
 ---
 import Base from '../../layouts/Base.astro';
+import RecordHeader from '../../components/RecordHeader.astro';
 import InCategories from '../../components/InCategories.astro';
 import Media from '../../components/Media.astro';
 import Sources from '../../components/Sources.astro';
 import { getCollection } from 'astro:content';
-import { allPeople, formatDate, resolveRef, type Person } from '../../lib/data';
+import { allPeople, formatDate, resolveRef, uniqueRoles, type Person } from '../../lib/data';
 import { slugify } from '../../lib/slug';
 
 export async function getStaticPaths() {
@@ -19,7 +20,7 @@ const played = await Promise.all((await getCollection('characters'))
   .filter((c) => c.data.played_by.some((n) => slugify(n) === p.slug))
   .sort((a, b) => a.data.name.localeCompare(b.data.name))
   .map(async (c) => ({ c, where: (await Promise.all(c.data.appears_in.map((r) => resolveRef(r)))).filter(Boolean) as { title: string; url: string }[] })));
-const roles = [...new Set([...(rec?.roles ?? []), ...p.credits.map((c) => c.role)])];
+const roles = uniqueRoles([...p.credits.map((c) => c.role), ...(rec?.roles ?? [])]);
 const byRole = [...new Set(p.credits.map((c) => c.role))].map((role) => ({
   role,
   credits: p.credits.filter((c) => c.role === role).sort((a, b) => (a.date ?? '9999').localeCompare(b.date ?? '9999')),
@@ -35,8 +36,9 @@ const jsonld = {
 ---
 <Base title={p.name} description={`${p.name}: ${roles.join(', ').toLowerCase()} credits connected to The Twilight Zone.`} jsonld={jsonld}>
   <InCategories recKey={`people/${p.slug}`} />
-  <h1>{p.name}</h1>
-  <p class="muted">{roles.join(' · ')}</p>
+  <RecordHeader type="Person" title={p.name} recKey={`people/${p.slug}`}>
+    {roles.length > 0 && <p class="record-roles">{roles.join(' · ')}</p>}
+  </RecordHeader>
   {rec && (
     <dl class="facts">
       {rec.born && <><dt>Born</dt><dd>{formatDate(rec.born)}</dd></>}
