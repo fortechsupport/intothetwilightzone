@@ -28170,6 +28170,66 @@
    "official": false
   }
  ],
+ "films/a-killing-at-sundial-1963-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Bob Hope Presents the Chrysler Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/a-long-time-till-dawn-1953-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Kraft Television Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/a-man-with-a-vengeance-1955-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "General Electric Theater",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/a-nightmare-on-elm-street": [
   {
    "cat": "movies",
@@ -28203,6 +28263,26 @@
    "official": true
   }
  ],
+ "films/a-time-for-heroes-1953-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Lux Video Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/a-town-has-turned-to-dust": [
   {
    "cat": "series",
@@ -28212,6 +28292,26 @@
    "subTitle": "Rod Serling's series",
    "isNew": false,
    "official": true
+  }
+ ],
+ "films/a-walk-in-the-night-1954-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Philip Morris Playhouse",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
   }
  ],
  "films/ace-ventura-when-nature-calls": [
@@ -28453,6 +28553,26 @@
    "official": true
   }
  ],
+ "films/at-ease-1953-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "The Motorola Television Hour",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/austin-powers-international-man-of-mystery": [
   {
    "cat": "movies",
@@ -28538,6 +28658,26 @@
    "cat": "series",
    "sub": "homages",
    "group": "Beetlejuice",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/beloved-outcasts-1956-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "The Catholic Hour",
    "catTitle": "Television",
    "subTitle": "Homages in other shows",
    "isNew": false,
@@ -29088,6 +29228,26 @@
    "official": false
   }
  ],
+ "films/exit-from-a-plane-in-flight-1965-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Bob Hope Presents the Chrysler Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/extreme-ghostbusters-grease": [
   {
    "cat": "homages",
@@ -29596,6 +29756,26 @@
    "official": false
   }
  ],
+ "films/garritys-sons-1955-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Ford Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/garth-marenghis-darkplace": [
   {
    "cat": "series",
@@ -29802,6 +29982,26 @@
    "official": false
   }
  ],
+ "films/herman-came-by-bomber-1954-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Studio One",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/hoppity-hooper-the-traffic-zone": [
   {
    "cat": "homages",
@@ -29869,6 +30069,26 @@
    "group": null,
    "catTitle": "Movies",
    "subTitle": "Films linked to an episode",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/i-lift-up-my-lamp-1952-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Hallmark Hall of Fame",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
    "isNew": false,
    "official": false
   }
@@ -29975,6 +30195,26 @@
    "subTitle": "Rod Serling's films",
    "isNew": false,
    "official": true
+  }
+ ],
+ "films/incident-in-an-alley-1955-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "The U.S. Steel Hour",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
   }
  ],
  "films/incident-in-an-alley": [
@@ -30261,6 +30501,26 @@
    "cat": "series",
    "sub": "homages",
    "group": "Kid Cosmic",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/knife-in-the-dark-1954-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Danger",
    "catTitle": "Television",
    "subTitle": "Homages in other shows",
    "isNew": false,
@@ -30682,6 +30942,26 @@
    "official": false
   }
  ],
+ "films/mr-finchley-versus-the-bomb-1956-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Kaiser Aluminum Hour",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/mulholland-drive": [
   {
    "cat": "movies",
@@ -30878,6 +31158,26 @@
    "cat": "series",
    "sub": "homages",
    "group": "Mystery Science Theater 3000",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/next-of-kin-1953-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Kraft Television Theatre",
    "catTitle": "Television",
    "subTitle": "Homages in other shows",
    "isNew": false,
@@ -31472,6 +31772,26 @@
    "official": false
   }
  ],
+ "films/no-gods-to-serve-1952-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "The Doctor",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/noon-on-doomsday": [
   {
    "cat": "series",
@@ -31536,6 +31856,26 @@
    "official": false
   }
  ],
+ "films/one-for-the-angels-1954-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Danger",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/one-step-beyond": [
   {
    "cat": "series",
@@ -31543,6 +31883,26 @@
    "group": "Anthology series",
    "catTitle": "Television",
    "subTitle": "Fellow anthologies",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/otoole-from-moscow-1955-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Matinee Theater",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
    "isNew": false,
    "official": false
   }
@@ -31693,6 +32053,26 @@
    "group": null,
    "catTitle": "Movies",
    "subTitle": "Films linked to an episode",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/portrait-in-celluloid-1955-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Climax!",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
    "isNew": false,
    "official": false
   }
@@ -32156,6 +32536,26 @@
    "official": false
   }
  ],
+ "films/save-me-from-treason-1955-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Armstrong Circle Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/science-fiction-theatre": [
   {
    "cat": "series",
@@ -32366,6 +32766,26 @@
    "official": false
   }
  ],
+ "films/slow-fade-to-black-1964-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Bob Hope Presents the Chrysler Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/somewhere-in-time": [
   {
    "cat": "movies",
@@ -32455,6 +32875,26 @@
    "group": null,
    "catTitle": "Movies",
    "subTitle": "Films linked to an episode",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/strength-of-steel-1955-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Star Tonight",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
    "isNew": false,
    "official": false
   }
@@ -32669,6 +33109,26 @@
    "official": false
   }
  ],
+ "films/the-blues-for-joey-menotti-1953-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Kraft Television Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/the-bourne-identity": [
   {
    "cat": "movies",
@@ -32687,6 +33147,46 @@
    "group": null,
    "catTitle": "Movies",
    "subTitle": "Films linked to an episode",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/the-carlson-legend-1952-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Hallmark Hall of Fame",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/the-cause-1958-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Matinee Theater",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
    "isNew": false,
    "official": false
   }
@@ -32753,6 +33253,26 @@
    "subTitle": "Rod Serling's series",
    "isNew": false,
    "official": true
+  }
+ ],
+ "films/the-command-1964-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Bob Hope Presents the Chrysler Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
   }
  ],
  "films/the-creator": [
@@ -32903,6 +33423,26 @@
    "official": false
   }
  ],
+ "films/the-face-of-autumn-1952-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Lux Video Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/the-facts-of-life-seven-little-indians": [
   {
    "cat": "homages",
@@ -32917,6 +33457,26 @@
    "cat": "series",
    "sub": "homages",
    "group": "The Facts of Life",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/the-fateful-pilgrimage-1955-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Appointment with Adventure",
    "catTitle": "Television",
    "subTitle": "Homages in other shows",
    "isNew": false,
@@ -33036,6 +33596,26 @@
    "official": false
   }
  ],
+ "films/the-happy-headline-1953-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Campbell Soundstage",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/the-happy-place": [
   {
    "cat": "movies",
@@ -33047,6 +33627,26 @@
    "official": false
   }
  ],
+ "films/the-hate-syndrome-1966-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Insight",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/the-haunted-palace": [
   {
    "cat": "movies",
@@ -33054,6 +33654,26 @@
    "group": null,
    "catTitle": "Movies",
    "subTitle": "Films linked to an episode",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/the-hill-1952-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Lux Video Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
    "isNew": false,
    "official": false
   }
@@ -33076,6 +33696,26 @@
    "group": null,
    "catTitle": "Movies",
    "subTitle": "Films linked to an episode",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/the-inn-of-eagles-1953-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Lux Video Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
    "isNew": false,
    "official": false
   }
@@ -33144,6 +33784,26 @@
    "official": false
   }
  ],
+ "films/the-last-night-of-august-1958-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Pursuit",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/the-legend-of-hell-house": [
   {
    "cat": "movies",
@@ -33184,6 +33844,26 @@
    "group": null,
    "catTitle": "Movies",
    "subTitle": "Films linked to an episode",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/the-man-who-caught-the-ball-at-coogans-bluff-1955-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Studio One",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
    "isNew": false,
    "official": false
   }
@@ -33248,6 +33928,26 @@
    "group": null,
    "catTitle": "Movies",
    "subTitle": "Films linked to an episode",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/the-muldoon-matter-1954-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "The Motorola Television Hour",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
    "isNew": false,
    "official": false
   }
@@ -33429,6 +34129,26 @@
    "official": false
   }
  ],
+ "films/the-quiet-village-1953-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Medallion Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/the-rack-us-steel-hour": [
   {
    "cat": "series",
@@ -33473,6 +34193,26 @@
    "official": false
   }
  ],
+ "films/the-return-of-socko-renard-1953-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Lux Video Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/the-salamander": [
   {
    "cat": "movies",
@@ -33491,6 +34231,26 @@
    "group": null,
    "catTitle": "Movies",
    "subTitle": "Films linked to an episode",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/the-sergeant-1952-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Armstrong Circle Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
    "isNew": false,
    "official": false
   }
@@ -34003,6 +34763,26 @@
    "official": true
   }
  ],
+ "films/the-summer-memory-1954-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Ford Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/the-thirteenth-floor": [
   {
    "cat": "movies",
@@ -34043,6 +34823,26 @@
    "group": null,
    "catTitle": "Movies",
    "subTitle": "Films linked to an episode",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/the-twilight-rounds-1953-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Kraft Television Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
    "isNew": false,
    "official": false
   }
@@ -34235,6 +35035,26 @@
    "official": false
   }
  ],
+ "films/the-worthy-opponent-1954-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Center Stage",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/the-x-files-the-lost-art-of-forehead-sweat": [
   {
    "cat": "homages",
@@ -34275,6 +35095,46 @@
    "subTitle": "Rod Serling's films",
    "isNew": false,
    "official": true
+  }
+ ],
+ "films/they-call-them-meek-1953-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Medallion Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/those-who-wait-1952-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "The Doctor",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
   }
  ],
  "films/thriller-1960": [
@@ -34379,6 +35239,26 @@
    "official": false
   }
  ],
+ "films/to-wake-at-midnight-1955-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Climax!",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/tower-of-terror-1997": [
   {
    "cat": "movies",
@@ -34430,6 +35310,26 @@
    "group": null,
    "catTitle": "Movies",
    "subTitle": "Television films",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/twenty-four-men-in-a-plane-1953-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Medallion Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
    "isNew": false,
    "official": false
   }
@@ -34750,6 +35650,26 @@
    "official": false
   }
  ],
+ "films/welcome-home-lefty-1952-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Lux Video Theatre",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/what-women-want": [
   {
    "cat": "movies",
@@ -34806,6 +35726,26 @@
    "cat": "series",
    "sub": "homages",
    "group": "Yo-kai Watch",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/you-be-the-bad-guy-1952-teleplay": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Lux Video Theatre",
    "catTitle": "Television",
    "subTitle": "Homages in other shows",
    "isNew": false,
