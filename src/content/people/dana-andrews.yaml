@@ -1,0 +1,22 @@
+name: Dana Andrews
+roles:
+- actor
+born: '1909-01-01'
+died: '1992-12-17'
+bio: >-
+  Dana Andrews starred in the fourth-season episode "No Time Like the Past" (1963) as Paul Driscoll, a scientist
+  who travels back in time hoping to prevent disasters such as Hiroshima, and later played the anguished father
+  in Rod Serling's Night Gallery segment "The Different Ones" (1971). He was a major 1940s star in Laura, The Ox-Bow
+  Incident and The Best Years of Our Lives.
+relevance: core
+sources:
+- title: Dana Andrews - Wikipedia
+  url: https://en.wikipedia.org/wiki/Dana_Andrews
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+- title: List of Night Gallery episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/actors

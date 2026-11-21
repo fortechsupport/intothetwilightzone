@@ -1,0 +1,19 @@
+name: Dr. Koslenko
+aka: []
+kind: human
+played_by:
+- Frank Silvera
+appears_in:
+- 1959/person-or-persons-unknown
+description: The psychiatrist who sees David at the hospital. He diagnoses him as deluded.
+recurring: false
+relevance: core
+sources:
+- title: Person or Persons Unknown (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Person_or_Persons_Unknown
+- title: 'The Twilight Zone: Person or Persons Unknown - IMDb'
+  url: https://www.imdb.com/title/tt0734613/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

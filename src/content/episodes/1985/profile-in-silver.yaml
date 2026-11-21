@@ -1,0 +1,35 @@
+title: Profile in Silver
+series: '1985'
+season: 1
+episode: '20a'
+air_date: '1986-03-07'
+runtime_min: 28
+writers:
+- J. Neil Schulman
+directors:
+- John D. Hancock
+cast:
+- Lane Smith
+- Andrew Robinson
+- Jerry Hardin
+- Mark Taylor
+narrator: Charles Aidman
+synopsis: A time-traveling historian descended from John F. Kennedy journeys to Dallas in November 1963 to observe
+  the assassination firsthand, and finds himself tempted to intervene.
+themes:
+- history
+- jfk
+- time travel
+ids:
+  imdb: tt0734727
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Profile_in_Silver
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

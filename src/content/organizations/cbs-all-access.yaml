@@ -1,0 +1,13 @@
+name: CBS All Access
+aka:
+- Paramount+
+kind: streamer
+description: The CBS streaming service that carried the 2019 revival. It was renamed Paramount+ in 2021.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: Paramount+'
+  url: https://en.wikipedia.org/wiki/Paramount%2B
+research_confidence: medium
+tags:
+- seed-record

@@ -1,0 +1,20 @@
+name: The player piano
+aka: []
+kind: object
+played_by: []
+appears_in:
+- 1959/a-piano-in-the-house
+description: >-
+  An antique player piano whose tunes bring out each listener's hidden nature. It is the episode's instrument of
+  truth.
+recurring: false
+relevance: core
+sources:
+- title: A Piano in the House (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/A_Piano_in_the_House
+- title: 'The Twilight Zone: A Piano in the House - IMDb'
+  url: https://www.imdb.com/title/tt0734547/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,12 @@
+from: films/the-nostalgia-critic-howard-the-duck
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: In his Howard the Duck review the Critic jokes that the duck universe is like a Twilight Zone episode that
+  starts with the twist.
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: Only TV Tropes documents the joke.'

@@ -1,0 +1,22 @@
+name: Arthur Castle
+aka: []
+kind: human
+played_by:
+- Luther Adler
+appears_in:
+- 1959/the-man-in-the-bottle
+description: >-
+  A struggling antique dealer who releases a genie from an old bottle and is granted four wishes. Each wish turns
+  sour, and his last, to be a world leader, makes him Adolf Hitler in his bunker, so he uses up his final wish to
+  return to his old life.
+recurring: false
+relevance: core
+sources:
+- title: The Man in the Bottle (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Man_in_the_Bottle
+- title: 'The Twilight Zone: The Man in the Bottle - IMDb'
+  url: https://www.imdb.com/title/tt0734658/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

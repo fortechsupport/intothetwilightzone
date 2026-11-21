@@ -1,0 +1,22 @@
+title: 'Critics'' aggregate scores: Twilight Zone: The Movie'
+kind: review
+review_type: retrospective
+reviews:
+- films/twilight-zone-the-movie
+description: How the 1983 film fared with critics and at the box office. Rotten Tomatoes gives it 59% from about
+  40 reviews (audience 55%), with a consensus that the anthology's highs outnumber its lows; Metacritic scores it
+  44 from 8 reviews. Made for about $10 million, it opened fourth with $6.6 million and earned about $29.5 million
+  in the US and Canada and roughly $42 million worldwide.
+categories:
+- reviews/aggregate-scores
+research_confidence: medium
+sources:
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+- title: Rotten Tomatoes
+  url: https://www.rottentomatoes.com/m/twilight_zone_the_movie
+last_verified: '2026-11-20'
+locked: true
+organizations:
+- Metacritic
+- Rotten Tomatoes

@@ -1,0 +1,71 @@
+title: The Twilight Zone
+kind: game
+subtype: video-game
+year: 1988
+creator: Covenant Technologies (developer)
+publisher: First Row Software Publishing, Inc. (King of Prussia, PA)
+description: >-
+  A licensed text-and-graphics adventure built like a self-contained episode of Serling's series, with the player
+  typing verb-noun commands and stepping between first-person illustrated locations. Developed by Gigabit Systems
+  and published by First Row Software in December 1988.
+details:
+  platforms: Amiga, IBM PC/DOS (Atari ST not confirmed in sources seen); C64 announced but unreleased
+  licensed: true
+  subtitle: The Crossroads of Imagination
+  amiga_product_id: 30955-06007
+  amiga_upc: 030955060071
+  concept: Dr. Michael M. Breggar, Terrence R. Boyle, Steven Trippe
+  writing: Terence R. Boyle, Steven Trippe
+  graphics: Patrick Moran
+  programming: A. Caleb Gattegno
+  development: Terrence R. Boyle
+  copy_protection: none
+  people:
+  - Michael M. Breggar
+  - Terrence R. Boyle
+  - Steven Trippe
+  - Patrick Moran
+  - A. Caleb Gattegno
+  confirmed_platforms:
+  - Amiga
+  - PC (MS-DOS)
+  atari_st: unconfirmed; none found
+  note: >-
+    First Row did publish other 1988 titles on Atari ST (e.g. Prime Time), so an ST port is plausible but unproven
+ids:
+  mobygames: '4095'
+sources:
+- title: archive.org
+  url: https://archive.org/details/msdos_Twilight_Zone_1988
+- title: MobyGames
+  url: https://www.mobygames.com/game/4095/the-twilight-zone/
+- title: elisoftware.org
+  url: >-
+    https://elisoftware.org/wiki/Twilight_Zone_(Amiga,_3_1/2%22_Disk)_First_Row_Software_-_1988_USA,_Canada_Release
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(franchise)
+- title: 'Museum of Computer Adventure Game History: manual PDF'
+  url: https://mocagh.org/miscgame/twilightzone-manual.pdf
+- title: 'Games That Weren''t: Twilight Zone (C64)'
+  url: https://www.gamesthatwerent.com/gtw64/twilight-zone
+- title: 'Lysator: First Row Software'
+  url: https://lysator.liu.se/adventure/First_Row_Software.html
+- title: 'Elisoftware: Prime Time (Atari ST) First Row Software 1988 (First Row did publish other ST titles)'
+  url: >-
+    https://elisoftware.org/wiki/Prime_Time_(Atari_ST,_3_1/2%22_Disk)_First_Row_Software_-_1988_USA,_Canada_Release
+research_confidence: medium
+last_verified: '2026-11-20'
+relevance: core
+media:
+- type: document
+  title: The Twilight Zone (First Row, 1988) manual scan
+  url: https://mocagh.org/miscgame/twilightzone-manual.pdf
+  host: Museum of Computer Adventure Game History (mocagh.org)
+  rights: link-only
+- type: document
+  title: QuestBusters newsletter archive (period adventure-game coverage)
+  url: https://mocagh.org/questbusters/qbustersV5.pdf
+  host: mocagh.org
+  rights: link-only
+categories:
+- games/video-games

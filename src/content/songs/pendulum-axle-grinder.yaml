@@ -1,0 +1,14 @@
+title: Axle Grinder
+artist: Pendulum
+album: Blood Sugar / Axle Grinder (single)
+genre: drum and bass
+tz_connection: reference
+description: The Australian drum and bass act opens the track with audio from a Twilight Zone introduction.
+subtype: sample
+sources:
+- title: whosampled.com
+  url: https://www.whosampled.com/sample/749362/Pendulum-Axle-Grinder-The-Twilight-Zone-Intro/
+- title: en.wikipedia-on-ipfs.org
+  url: https://en.wikipedia-on-ipfs.org/wiki/Blood_Sugar_/_Axle_Grinder
+research_confidence: medium
+last_verified: '2026-11-19'

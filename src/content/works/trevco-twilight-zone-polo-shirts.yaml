@@ -1,0 +1,17 @@
+title: The Twilight Zone Polo Shirts (Trevco)
+kind: collectible
+creator: Trevco
+publisher: Trevco
+description: >-
+  Licensed Twilight Zone polo shirts produced by apparel licensee Trevco and sold through Entertainment Earth.
+subtype: polo-shirt
+details:
+  licensed: true
+relevance: core
+research_confidence: low
+categories:
+- merchandise/household-apparel
+sources:
+- title: 'Entertainment Earth News: Twilight Zone Collectibles'
+  url: https://www.entertainmentearth.com/news/twilight-zone-collectibles/
+last_verified: '2026-11-20'

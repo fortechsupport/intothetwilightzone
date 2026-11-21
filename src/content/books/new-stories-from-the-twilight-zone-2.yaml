@@ -1,0 +1,14 @@
+title: New Stories From The Twilight Zone
+authors:
+- Various Authors
+publisher: Bantam Books
+published: '1962-01-01'
+ids:
+  goodreads: '948253'
+  amazon_asin: '1490423893'
+relevance: core
+duplicate_of: books/new-stories-from-the-twilight-zone
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+locked: true

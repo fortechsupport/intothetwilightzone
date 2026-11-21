@@ -1,0 +1,21 @@
+name: Jackie Cooper
+roles:
+- actor
+- director
+born: '1922-09-15'
+died: '2011-05-03'
+bio: >-
+  Jackie Cooper played Jonathan West, a struggling Irish ventriloquist whose dummy Caesar talks him into crime,
+  in "Caesar and Me" (1964). He was an Oscar-nominated child star at nine for Skippy (1931), later a television
+  producer and Emmy-winning director, and played Perry White in the Superman films of 1978 to 1987.
+relevance: core
+sources:
+- title: Jackie Cooper - Wikipedia
+  url: https://en.wikipedia.org/wiki/Jackie_Cooper
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/actors
+- people/directors

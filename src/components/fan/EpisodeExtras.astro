@@ -1,0 +1,50 @@
+---
+// Episode fan tools: the hidden ending, where to watch it, and "if you liked this" picks.
+import Ending from './Ending.astro';
+import SpoilerToggle from './SpoilerToggle.astro';
+import { endingOf, relatedEpisodes, watchLinks } from '../../lib/fan';
+import { episodeNumber, type Episode } from '../../lib/data';
+interface Props { e: Episode }
+const { e } = Astro.props;
+const ending = endingOf(e.id);
+const related = await relatedEpisodes(e);
+const w = watchLinks(e);
+---
+{ending && (
+  <section class="ending-box">
+    <h2>How it ends</h2>
+    <Ending text={ending} />
+    <SpoilerToggle />
+  </section>
+)}
+
+<section class="where-to-watch" data-pagefind-ignore>
+  <h2>Where to watch</h2>
+  <p>
+    Streaming rights change often and differ by country, so this site doesn't list services itself. JustWatch and
+    Reelgood track every current subscription, free-with-ads, rental and purchase option for the
+    {e.data.series === '1959' ? ' original series' : ` ${e.data.series} series`}.
+  </p>
+  <ul class="watch-links">
+    <li><a href={w.justwatch} rel="noopener">Find it on JustWatch</a></li>
+    <li><a href={w.reelgood} rel="noopener">Find it on Reelgood</a></li>
+    <li><a href={w.homeMedia}>DVD and Blu-ray releases</a></li>
+  </ul>
+  <p class="small muted">These are plain links with no affiliate codes. This site earns nothing from them.</p>
+</section>
+
+{related.length > 0 && (
+  <section class="related-eps">
+    <h2>If you liked this, try</h2>
+    <ul class="plain">
+      {related.map((r) => (
+        <li data-mark={`episodes/${r.e.id}`}>
+          <a href={`/episodes/${r.e.id}/`}>{r.e.data.title}</a>
+          <span class="muted small"> ({r.e.data.series}, {episodeNumber(r.e.data)})</span>
+          <span class="seen-mark" aria-hidden="true"></span>
+          <div class="small muted">{r.why.join('; ').replace(/^./, (c) => c.toUpperCase())}</div>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

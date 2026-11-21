@@ -1,0 +1,28 @@
+title: Rod Serling's Twilight Zone Revisited
+authors:
+- Walter B. Gibson
+publisher: Grosset & Dunlap
+published: '1964'
+pages: 208
+kind: juvenile
+description: Gibson's second ghostwritten Twilight Zone hardcover, again illustrated by Earl E. Mayan.
+  Four of its thirteen stories adapt episodes (one retitled 'Beyond the Rim') and nine are new.
+episodes:
+- 1959/a-hundred-yards-over-the-rim
+- 1959/mirror-image
+- 1959/the-purple-testament
+- 1959/the-man-in-the-bottle
+ids:
+  goodreads: '3826505'
+  amazon_asin: B007PNRL0W
+relevance: core
+research_confidence: high
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Originally listed in Adam's research spreadsheets.
+- title: Martin Grams, 'Revisiting Twilight Zone Books' (2025)
+  url: https://martingrams.blogspot.com/2025/01/revisiting-twilight-zone-books.html
+- title: 'SF Encyclopedia: Serling, Rod'
+  url: https://sf-encyclopedia.com/entry/serling_rod
+last_verified: '2026-11-19'
+locked: true

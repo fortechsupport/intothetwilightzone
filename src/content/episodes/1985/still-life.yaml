@@ -1,0 +1,34 @@
+title: Still Life
+series: '1985'
+season: 1
+episode: '14a'
+air_date: '1986-01-03'
+runtime_min: 18
+writers:
+- Gerrit Graham
+- Chris Hubbell
+directors:
+- Peter Medak
+cast:
+- Robert Carradine
+- John Carradine
+narrator: Charles Aidman
+synopsis: A photographer and his wife find an old camera that belonged to an explorer who vanished in the South
+  American jungle, and its undeveloped film turns out to hold more than images.
+themes:
+- curse
+- exploration
+- photography
+ids:
+  imdb: tt0734736
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Still_Life_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

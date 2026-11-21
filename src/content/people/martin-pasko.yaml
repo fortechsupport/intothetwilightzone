@@ -1,0 +1,28 @@
+name: Martin Pasko
+roles:
+- writer
+born: '1954-08-04'
+died: '2020-06-10'
+bio: >-
+  Martin Pasko co-wrote three first-season segments of the 1985 revival: "The Beacon," "But Can She Type?" (both
+  with Rebecca Parr Cioffi) and "Cold Reading," a comedy about a live 1940s radio serial whose sound effects come
+  to life. A comics writer for DC, he wrote Superman and Wonder Woman, launched The Saga of the Swamp Thing that
+  Alan Moore would take over, and later won an Emmy for writing on Batman: The Animated Series and co-wrote Batman:
+  Mask of the Phantasm.
+relevance: core
+sources:
+- title: Martin Pasko - Wikipedia
+  url: https://en.wikipedia.org/wiki/Martin_Pasko
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+tags:
+- 1985-series
+- comics
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: series
+  role: story editor
+categories:
+- people/writers

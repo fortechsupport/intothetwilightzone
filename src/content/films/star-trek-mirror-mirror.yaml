@@ -1,0 +1,14 @@
+title: 'Star Trek: Mirror, Mirror'
+kind: tv-episode
+parent_series: Star Trek, season 2
+summary: The mirror-universe episode, written by Jerome Bixby, author of the story behind It's a Good Life.
+release_date: '1967'
+writers:
+- Jerome Bixby
+sources:
+- title: 'Wikipedia: Mirror, Mirror (Star Trek: The Original Series)'
+  url: https://en.wikipedia.org/wiki/Mirror,_Mirror_(Star_Trek:_The_Original_Series)
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

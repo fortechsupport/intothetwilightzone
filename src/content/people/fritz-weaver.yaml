@@ -1,0 +1,28 @@
+name: Fritz Weaver
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Third from the Sun
+  role: William Sturka
+  ref: 1959/third-from-the-sun
+- series: The Twilight Zone (1959)
+  work: The Obsolete Man
+  role: The Chancellor
+  ref: 1959/the-obsolete-man
+- series: The Twilight Zone (1985)
+  work: The Star
+  role: Father Matthew Karsighan
+  ref: 1985/the-star
+born: '1926-01-19'
+died: '2016-11-26'
+bio: >-
+  Fritz Weaver was a Tony-winning stage actor with a long run of screen roles, from Fail-Safe to the miniseries
+  Holocaust. He played a scientist fleeing nuclear war in "Third from the Sun" and the totalitarian Chancellor
+  in "The Obsolete Man", then returned to the franchise in the 1985 revival's "The Star".
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Fritz_Weaver
+sources:
+- title: Fritz Weaver - Wikipedia
+  url: https://en.wikipedia.org/wiki/Fritz_Weaver
+last_verified: '2026-11-19'

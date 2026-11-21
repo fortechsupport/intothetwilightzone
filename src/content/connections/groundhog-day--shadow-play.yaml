@@ -1,0 +1,16 @@
+from: films/groundhog-day
+to: 1959/shadow-play
+kind: inspired-by
+confidence: fan-noted
+summary: A weatherman relives the same day over and over; MeTV points fans of the film toward the episode about
+  a man trapped in a recurring execution dream.
+sources:
+- title: Two classic Twilight Zone episodes for those who love Groundhog Day (MeTV)
+  url: https://metv.com/stories/two-classic-twilight-zone-episodes-for-those-who-love-groundhog-day
+- title: 'Groundhog Day screenwriter interview: Danny Rubin (The Ringer)'
+  url: https://www.theringer.com/movies/2017/12/20/16799120/groundhog-day-screenwriter-interview-danny-rubin
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: MeTV recommends Shadow Play to Groundhog Day fans; that is a viewing suggestion.
+  Interviews with screenwriter Danny Rubin (The Ringer, Indie Outlook) surfaced in search, but none were confirmed
+  to cite Twilight Zone. Rubin has said the idea came from thinking about living forever; The Twilight Zone link is a comparison.'

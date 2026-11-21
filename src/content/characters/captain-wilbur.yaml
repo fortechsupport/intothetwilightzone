@@ -1,0 +1,21 @@
+name: Captain Wilbur
+aka: []
+kind: human
+played_by:
+- Ben Wright
+appears_in:
+- 1959/judgment-night
+description: >-
+  The master of the S.S. Queen of Glasgow, who worries about the danger of U-boats as his slow freighter falls behind
+  its convoy. He and his crew are among those killed when the ship is torpedoed and shelled.
+recurring: false
+relevance: core
+sources:
+- title: Judgment Night (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Judgment_Night_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Judgment Night - IMDb'
+  url: https://www.imdb.com/title/tt0734582/
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

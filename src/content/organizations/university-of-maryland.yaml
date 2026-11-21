@@ -1,0 +1,16 @@
+name: University of Maryland
+aka:
+- Unlocking the Airwaves
+- University of Maryland MITH
+kind: archive
+location: College Park, Maryland, USA
+description: Its Unlocking the Airwaves project (with the Maryland Institute for Technology in the Humanities) has
+  digitized the National Association of Educational Broadcasters radio collection, including the recording of Serling's
+  1968 Library of Congress lecture.
+sources:
+- title: Unlocking the Airwaves
+  url: https://archive.mith.umd.edu/airwaves/episode/cpb-aacip-500-bz619d02/
+relevance: related
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

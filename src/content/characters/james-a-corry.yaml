@@ -1,0 +1,23 @@
+name: James A. Corry
+aka:
+- Corry
+kind: human
+played_by:
+- Jack Warden
+appears_in:
+- 1959/the-lonely
+description: >-
+  A convict serving a fifty-year sentence in solitary confinement on a barren asteroid, visited by a supply ship
+  four times a year. Given a female robot to ease his isolation, he comes to love her, and when he is pardoned and
+  told there is no room on the ship for her, the captain shoots the robot to make him leave.
+recurring: false
+relevance: core
+sources:
+- title: The Lonely (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Lonely
+- title: 'The Twilight Zone: The Lonely - IMDb'
+  url: https://www.imdb.com/title/tt0734656/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

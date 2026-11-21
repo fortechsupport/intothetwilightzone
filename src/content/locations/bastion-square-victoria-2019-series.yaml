@@ -1,0 +1,24 @@
+name: Bastion Square, Victoria
+kind: filming-location
+city: Victoria
+region: British Columbia
+country: CA
+lat: 48.4268
+lng: -123.3693
+status: extant
+filmed:
+- ref: 2019/downtime
+  note: Second day of the Victoria shoot.
+notes: >-
+  The historic pedestrian square off Wharf Street was the second-day location of the November 2019 Victoria
+  shoot, after a portion of Government Street was closed for the first day. The Victoria filming is tied
+  to the second-season episode "Downtime."
+sources:
+- title: Twilight Zone filming continues in downtown Victoria Wednesday - Times Colonist
+  url: >-
+    https://www.timescolonist.com/entertainment/twilight-zone-filming-continues-in-downtown-victoria-wednesday-traffic-delays-expected-4677208
+- title: >-
+    THE END: Jordan Peele's THE TWILIGHT ZONE Ends With Season 2 Which Wrapped Filming in Vancouver -
+    Hollywood North Buzz
+  url: https://hollywoodnorthbuzz.com/?p=116506
+last_verified: '2026-11-19'

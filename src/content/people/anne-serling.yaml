@@ -1,0 +1,33 @@
+name: Anne Serling
+born: '1955'
+roles:
+- writer
+- family
+bio: 'Rod and Carol Serling''s younger daughter, author of the memoir As I Knew Him: My Dad, Rod Serling (2013).'
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true
+media:
+- title: Anne Serling on her dad Rod Serling and her memoir As I Knew Him
+  url: https://wpr.org/culture/anne-serling-dad-rod-serling-the-twilight-zone-memoir-as-i-knew-him
+  host: Wisconsin Public Radio
+  type: interview
+  rights: link-only
+- title: My Dad, Rod Serling
+  url: https://file770.com/my-dad-rod-serling/
+  host: File 770
+  type: article
+  rights: link-only
+- title: A short story by The Twilight Zone's Rod Serling is published for the first time
+  url: https://www.npr.org/2024/05/09/1248501666/rod-serling-twilight-zone-new-story-wwii
+  host: NPR
+  date: '2024-05-09'
+  type: article
+  rights: link-only
+categories:
+- people/writers
+- people/family

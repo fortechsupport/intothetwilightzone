@@ -1,0 +1,28 @@
+name: Indian Dunes (site of the Twilight Zone accident)
+kind: filming-location
+city: Santa Clarita (Valencia)
+region: California
+country: US
+lat: 34.41861
+lng: -118.63222
+status: unknown
+closed: '1982-07-23'
+filmed:
+- ref: films/twilight-zone-the-movie
+  note: Location of the fatal helicopter crash during filming.
+notes: >-
+  Indian Dunes was a roughly 600-acre movie ranch beside the Santa Clara River in Valencia, inside Hollywood's
+  30-mile studio zone, often used to stand in for Vietnam and other far-off places. In the early hours
+  of July 23, 1982, while John Landis was filming the Vietnam village sequence of the "Time Out" segment,
+  a helicopter brought down by special-effects explosions crashed onto actor Vic Morrow and child actors
+  Myca Dinh Le, 7, and Renee Shin-Yi Chen, 6, killing all three. The disaster led to a long criminal trial,
+  which ended in acquittals in 1987, and to lasting changes in film-set safety rules and child-labor enforcement.
+sources:
+- title: Twilight Zone accident - Wikipedia
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_accident
+- title: Indian Dunes - Wikipedia
+  url: https://en.wikipedia.org/wiki/Indian_Dunes
+- title: 'Today In SCV History May 29, 1987: Director John Landis Acquitted - Hometown Station'
+  url: >-
+    https://www.hometownstation.com/santa-clarita-news/community-news/today-in-scv-history/today-in-history-may-29-1987-director-john-landis-acquitted-in-deadly-twilight-zone-set-tragedy-550558
+last_verified: '2026-11-19'

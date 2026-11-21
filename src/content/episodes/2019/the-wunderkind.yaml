@@ -1,0 +1,35 @@
+title: The Wunderkind
+series: '2019'
+season: 1
+episode: '5'
+air_date: '2019-04-25'
+runtime_min: 40
+writers:
+- Andrew Guest
+directors:
+- Richard Shepard
+cast:
+- John Cho
+- Jacob Tremblay
+- Allison Tolman
+narrator: Jordan Peele
+synopsis: 'A down-on-his-luck campaign manager stakes his career on an unlikely candidate: an eleven-year-old internet
+  star running for President of the United States, whose viral appeal quickly outpaces anyone''s ability to control
+  him.'
+themes:
+- media
+- politics
+- populism
+ids:
+  imdb: tt9199162
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2019 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+- title: The Wunderkind - Theme Ontology
+  url: https://prod.themeontology.org/story/tz2019e1x05.html
+last_verified: '2026-11-19'
+locked: true

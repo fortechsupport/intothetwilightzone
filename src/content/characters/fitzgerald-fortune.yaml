@@ -1,0 +1,23 @@
+name: Fitzgerald Fortune
+aka:
+- Jerry Fortune
+kind: human
+played_by:
+- Barry Morse
+appears_in:
+- 1959/a-piano-in-the-house
+description: >-
+  A cruel drama critic who buys an old player piano that makes whoever hears it reveal their true self. He uses
+  it to humiliate the guests at his wife's birthday party, until his wife plays it on him and exposes him as a frightened
+  little boy.
+recurring: false
+relevance: core
+sources:
+- title: A Piano in the House (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/A_Piano_in_the_House
+- title: 'The Twilight Zone: A Piano in the House - IMDb'
+  url: https://www.imdb.com/title/tt0734547/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

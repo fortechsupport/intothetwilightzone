@@ -1,0 +1,15 @@
+title: Tales of the Unexpected
+kind: tv-series
+summary: British twist-ending anthology, first built on Roald Dahl stories.
+release_date: '1979'
+sources:
+- title: 'Wikipedia: Anthology series'
+  url: https://en.wikipedia.org/wiki/Anthology_series
+research_confidence: medium
+relevance: tangential
+tags:
+- anthology-family
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Tales_of_the_Unexpected_(TV_series)
+last_verified: '2026-11-19'
+locked: true

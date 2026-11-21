@@ -1,0 +1,20 @@
+name: The Driver
+aka:
+- Driver
+kind: human
+played_by:
+- Albert Brooks
+appears_in:
+- films/twilight-zone-the-movie
+description: >-
+  The motorist in the prologue who plays TV-theme games with his passenger and is attacked when the passenger shows
+  him something really scary.
+recurring: false
+relevance: core
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

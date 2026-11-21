@@ -1,0 +1,11 @@
+title: The Omen
+kind: film
+ids:
+  imdb: tt0075005
+links:
+  trailer_youtube: kqAYR6z7yAU
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+summary: Richard Donner's horror film in which an American diplomat comes to believe his adopted son is the Antichrist.
+release_date: '1976'

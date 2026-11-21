@@ -1,0 +1,74 @@
+---
+import Base from '../layouts/Base.astro';
+import TodayPanel from '../components/fan/TodayPanel.astro';
+import { catalog, countOf, mediaLibrary } from '../lib/catalog';
+import { LIBRARY_TYPES } from '../lib/taxonomy.mjs';
+import { navModel } from '../lib/nav';
+const cat = await catalog();
+const all = [...cat.values()];
+const verbs = await navModel();
+const lib = await mediaLibrary();
+const libCounts = LIBRARY_TYPES.map(([k, label]) => [k, label, lib.filter((i) => i.type === k).length] as const).filter(([, , n]) => n);
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'IntoTheTwilightZone.com',
+  url: 'https://intothetwilightzone.com/',
+  potentialAction: { '@type': 'SearchAction', target: 'https://intothetwilightzone.com/search/?q={query}', 'query-input': 'required name=query' },
+};
+---
+<Base title="Home" jsonld={jsonld}>
+  <section class="hero">
+    <h1>A living history of The Twilight Zone</h1>
+    <p class="lead">
+      Every series, every episode, the people who made them, and the films, songs, books and stories
+      they went on to inspire. Fan-curated, sourced, and free of advertising.
+    </p>
+  </section>
+
+  <nav class="fan-ctas" aria-label="Ways in" data-pagefind-ignore>
+    <a class="cta primary" href="/start/">New to the Zone? Start here</a>
+    <a class="cta" href="/paths/">Viewing paths</a>
+    <a class="cta" href="/finder/">Episode finder</a>
+    <a class="cta" href="/map/">Map</a>
+    <a class="cta" href="/timeline/">Timeline</a>
+    <a class="cta" href="/degrees/">Six degrees</a>
+    <a class="cta" href="/my-zone/">My Zone</a>
+  </nav>
+  <TodayPanel compact />
+
+  <h2>Explore the Twilight Zone</h2>
+  <p class="small muted">Nine ways in, by what you want to do. Every category shows official items and unofficial or inspired ones on separate shelves. Reviews, interviews, clips and documents appear on the pages they belong to and all together in the <a href="/media/">Media Library</a>.</p>
+  <div class="verb-grid">
+    {verbs.map((v) => (
+      <section class="verb-tile">
+        <h3><a href={v.href}>{v.title}</a> <span class="count-pill">{v.n.toLocaleString('en-US')}</span></h3>
+        <p class="small muted">{v.blurb}</p>
+        <ul class="plain">{(v.cols.length === 1 ? v.cols[0].subs : v.cols).map((c) => <li><a href={c.href}>{c.title}</a> <span class="n">{c.n.toLocaleString('en-US')}</span></li>)}</ul>
+      </section>
+    ))}
+  </div>
+
+  <h2>Media Library</h2>
+  <p class="small muted">Every video, recording, image, document, review, interview, quote, advertisement and link on the site, in one sortable, filterable table that shows every page each item appears on.</p>
+  <div class="grid">
+    <a class="card" href="/media/">
+      <span class="count">{lib.length.toLocaleString('en-US')}</span>
+      <h3>Media Library</h3>
+      <p>{libCounts.map(([, l, n]) => `${l} (${n.toLocaleString('en-US')})`).join(' · ')}</p>
+    </a>
+  </div>
+  <h2>Features</h2>
+  <ul>
+    <li><a href="/rod-serling/">Rod Serling</a>: his life and work beyond The Twilight Zone.</li>
+    <li><a href="/night-gallery/">Night Gallery</a>: every episode and segment of Serling's second anthology.</li>
+    <li><a href="/timeline/">Timeline</a>: the franchise year by year.</li>
+  </ul>
+
+  <h2>About this site</h2>
+  <p>
+    IntoTheTwilightZone.com documents the franchise and its long shadow across film, television, music and
+    print. Facts come with sources; connections between works are labelled by how well they are documented.
+    Spotted an error? <a href="/about/#contact">Send a correction</a>.
+  </p>
+</Base>

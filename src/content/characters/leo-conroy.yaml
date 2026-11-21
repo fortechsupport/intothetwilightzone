@@ -1,0 +1,19 @@
+name: Leo Conroy
+aka:
+- Mr. Conroy
+kind: human
+played_by:
+- Bill Quinn
+appears_in:
+- films/twilight-zone-the-movie
+description: >-
+  The grumpy resident of Sunnyvale who refuses Mr. Bloom's magic and is left behind as the others become children.
+recurring: false
+relevance: core
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

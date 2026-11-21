@@ -1,0 +1,84 @@
+---
+import Base from '../../layouts/Base.astro';
+import InCategories from '../../components/InCategories.astro';
+import Media from '../../components/Media.astro';
+import Sources from '../../components/Sources.astro';
+import { getCollection } from 'astro:content';
+import { allPeople, formatDate, resolveRef, type Person } from '../../lib/data';
+import { slugify } from '../../lib/slug';
+
+export async function getStaticPaths() {
+  const people = await allPeople();
+  return [...people.values()].map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+interface Props { p: Person }
+const { p } = Astro.props;
+const rec = p.record?.data;
+const quotes = (await getCollection('quotes')).filter((q) => slugify(q.data.person) === p.slug);
+const played = await Promise.all((await getCollection('characters'))
+  .filter((c) => c.data.played_by.some((n) => slugify(n) === p.slug))
+  .sort((a, b) => a.data.name.localeCompare(b.data.name))
+  .map(async (c) => ({ c, where: (await Promise.all(c.data.appears_in.map((r) => resolveRef(r)))).filter(Boolean) as { title: string; url: string }[] })));
+const roles = [...new Set([...(rec?.roles ?? []), ...p.credits.map((c) => c.role)])];
+const byRole = [...new Set(p.credits.map((c) => c.role))].map((role) => ({
+  role,
+  credits: p.credits.filter((c) => c.role === role).sort((a, b) => (a.date ?? '9999').localeCompare(b.date ?? '9999')),
+}));
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: p.name,
+  birthDate: rec?.born,
+  deathDate: rec?.died,
+  sameAs: rec?.links?.wikipedia ? [rec.links.wikipedia] : undefined,
+};
+---
+<Base title={p.name} description={`${p.name}: ${roles.join(', ').toLowerCase()} credits connected to The Twilight Zone.`} jsonld={jsonld}>
+  <InCategories recKey={`people/${p.slug}`} />
+  <h1>{p.name}</h1>
+  <p class="muted">{roles.join(' · ')}</p>
+  {rec && (
+    <dl class="facts">
+      {rec.born && <><dt>Born</dt><dd>{formatDate(rec.born)}</dd></>}
+      {rec.died && <><dt>Died</dt><dd>{formatDate(rec.died)}</dd></>}
+    </dl>
+  )}
+  {rec?.bio && <p class="lead">{rec.bio}</p>}
+  {p.slug === 'rod-serling' && <p><a href="/rod-serling/">Rod Serling's life and work beyond The Twilight Zone</a></p>}
+  {rec && rec.timeline.length > 0 && (
+    <section>
+      <h2>Timeline</h2>
+      <dl class="facts">
+        {rec.timeline.map((t) => <><dt>{formatDate(t.date)}</dt><dd>{t.text}</dd></>)}
+      </dl>
+    </section>
+  )}
+  {quotes.map((q) => (
+    <figure class="quote">
+      <blockquote>{q.data.text}</blockquote>
+      <figcaption class="small muted">{formatDate(q.data.date)}{q.data.sources[0]?.url && <> · <a href={q.data.sources[0].url} rel="noopener">{q.data.sources[0].title}</a></>}</figcaption>
+    </figure>
+  ))}
+  {played.length > 0 && (
+    <section>
+      <h2>Characters played <span class="muted small">({played.length})</span></h2>
+      <ul class="plain">
+        {played.map(({ c, where }) => (
+          <li><a href={`/characters/${c.id}/`}>{c.data.name}</a>{where.length > 0 && <span class="muted small"> in {where.map((w, i) => <>{i > 0 && ', '}<a href={w.url}>{w.title}</a></>)}</span>}</li>
+        ))}
+      </ul>
+    </section>
+  )}
+  {byRole.map(({ role, credits }) => (
+    <section>
+      <h2>{role} <span class="muted small">({credits.length})</span></h2>
+      <ul class="plain">
+        {credits.map((c) => (
+          <li>{c.url ? <a href={c.url}>{c.title}</a> : c.title} <span class="muted small">{[c.detail, formatDate(c.date)].filter(Boolean).join(' · ')}</span></li>
+        ))}
+      </ul>
+    </section>
+  ))}
+  <Media recKey={`people/${p.slug}`} skip={["quote"]} />
+  {rec && <Sources sources={rec.sources} verified={rec.last_verified} />}
+</Base>

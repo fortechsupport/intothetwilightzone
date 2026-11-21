@@ -1,0 +1,12 @@
+title: Minority Report
+kind: film
+ids:
+  imdb: tt0181689
+links:
+  trailer_youtube: mdhaZ7cJAx8
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+summary: Steven Spielberg's film of Philip K. Dick's story, in which a police chief who arrests murderers before
+  they act, using visions from three psychics, is himself predicted to kill.
+release_date: '2002'

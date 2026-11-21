@@ -1,0 +1,30 @@
+name: Ted de Corsia
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: The Brain Center at Whipple's
+  role: actor (as Dickerson)
+  ref: 1959/the-brain-center-at-whipples
+born: '1903-09-29'
+died: '1973-04-11'
+bio: >-
+  Ted de Corsia played Dickerson, the long-serving foreman who is laid off and tries to destroy the machine with
+  a gun, in "The Brain Center at Whipple's" (1964). A radio actor in New York, he moved to films as a tough-guy
+  heavy, playing the killer hunted in The Naked City (1948) and appearing in Orson Welles's The Lady from Shanghai
+  (1947) and Stanley Kubrick's The Killing (1956). He also played Captain Farragut in Disney's 20,000 Leagues Under
+  the Sea (1954).
+relevance: core
+sources:
+- title: Ted de Corsia - Wikipedia
+  url: https://en.wikipedia.org/wiki/Ted_de_Corsia
+- title: The Brain Center at Whipple's (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Brain_Center_at_Whipple%27s
+- title: List of The Twilight Zone (1959 TV series) guest stars - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_guest_stars
+research_confidence: medium
+last_verified: '2026-11-20'
+tags:
+- 1959-series
+categories:
+- people/actors

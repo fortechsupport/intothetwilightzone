@@ -1,0 +1,13 @@
+from: films/buffy-the-vampire-slayer-older-and-far-away
+to: 1959/its-a-good-life
+kind: reference
+confidence: fan-noted
+summary: Xander jokes about being wished into 'the cornfield', the fate Anthony Fremont dispenses.
+sources:
+- title: 'Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: Only the fan-run Twilight Zone Wiki list records the cornfield joke; no published
+  source was found. ''The cornfield'' is an unmistakable It''s a Good Life reference, so this is a safe claim even
+  without a source.'

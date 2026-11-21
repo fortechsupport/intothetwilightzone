@@ -1,0 +1,15 @@
+name: DAW Books
+aka:
+- DAW
+kind: publisher
+official: true
+location: New York, USA
+description: Paperback science-fiction publisher of the 1990s licensed anthologies edited by Carol Serling with
+  Martin H. Greenberg, including Journeys to the Twilight Zone and Return to The Twilight Zone.
+sources:
+- title: 'Wikipedia: DAW Books'
+  url: https://en.wikipedia.org/wiki/DAW_Books
+relevance: related
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

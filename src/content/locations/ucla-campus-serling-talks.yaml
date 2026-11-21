@@ -1,0 +1,20 @@
+name: UCLA (Serling's campus talks)
+kind: event-venue
+city: Los Angeles
+region: California
+country: US
+status: open
+notes: The University of California, Los Angeles, where Serling spoke to students in November 1966 and May 1971.
+  Both talks were filmed by the UCLA Communication Studies department and are now on YouTube. UCLA Library also
+  holds Serling's papers and dictabelt recordings (see the separate archive records).
+sources:
+- title: 'LearnOutLoud: Rod Serling at UCLA in 1966'
+  url: https://learnoutloud.com/Catalog/Arts-and-Entertainment/Film_-Music_-Radio_-TV_-and-Pop-Culture/Rod-Serling-at-UCLA-in-1966/116797
+- title: 'LearnOutLoud: Rod Serling at UCLA in 1971'
+  url: https://learnoutloud.com/Free-Audio-Video/Arts-and-Entertainment/Film_-Music_-Radio_-TV_-and-Pop-Culture/Rod-Serling-at-UCLA-in-1971/116798
+categories:
+- places/lecture-event-venues
+research_confidence: high
+relevance: related
+last_verified: '2026-11-20'
+locked: true

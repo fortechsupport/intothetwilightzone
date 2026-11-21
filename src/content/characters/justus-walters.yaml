@@ -1,0 +1,20 @@
+name: Justus Walters
+kind: human
+played_by:
+- Patrick O'Neal
+appears_in:
+- films/night-gallery-s2e04
+description: >-
+  A cold, sneering writer who rejects a lonely neighbor's affections and is then confronted by a growing, very real
+  spider in his apartment.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,38 @@
+title: Cavender Is Coming
+series: '1959'
+season: 3
+episode: '36'
+air_date: '1962-05-25'
+runtime_min: 25
+production_code: '4827'
+writers:
+- Rod Serling
+directors:
+- Christian Nyby
+cast:
+- Jesse White
+- Carol Burnett
+- Sandra Gould
+- Donna Douglas
+- John Fiedler
+narrator: Rod Serling
+synopsis: A bumbling apprentice angel needs one success to earn his wings. He is assigned a clumsy young woman who
+  keeps getting fired, and he sets out to improve her life by giving her wealth and social standing.
+themes:
+- angels
+- comedy
+- friendship
+- happiness
+ids:
+  imdb: tt0734559
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Cavender_Is_Coming
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+last_verified: '2026-11-19'
+locked: true

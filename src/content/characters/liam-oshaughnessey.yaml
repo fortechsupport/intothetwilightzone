@@ -1,0 +1,20 @@
+name: Liam O'Shaughnessey
+kind: human
+played_by:
+- Hamilton Camp
+appears_in:
+- 1985/the-little-people-of-killany-woods
+description: >-
+  The village tippler and town pariah in a small Irish community who swears that the little people of the nearby
+  woods are real. When he turns up with unexplained gold, his neighbors follow him to find its source.
+recurring: false
+relevance: core
+sources:
+- title: The Little People of Killany Woods (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Little_People_of_Killany_Woods
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

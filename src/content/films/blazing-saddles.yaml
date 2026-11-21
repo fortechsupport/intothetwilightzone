@@ -1,0 +1,12 @@
+title: Blazing Saddles
+kind: film
+ids:
+  imdb: tt0071230
+links:
+  trailer_youtube: tb2fYUKJdN8
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+summary: Mel Brooks's Western spoof in which a Black sheriff is sent to a bigoted frontier town as part of a land-grab
+  scheme and wins it over with the help of a washed-up gunslinger.
+release_date: '1974'

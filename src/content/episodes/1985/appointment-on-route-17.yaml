@@ -1,0 +1,31 @@
+title: Appointment on Route 17
+series: '1985'
+season: 3
+episode: '15'
+air_date: '1988-12-31'
+runtime_min: 22
+writers:
+- Haskell Barkin
+directors:
+- Rene Bonniere
+cast:
+- Paul Le Mat
+- Rosemary Dunsmore
+narrator: Robin Ward
+synopsis: A driven executive recovering from a heart transplant feels an inexplicable pull toward a roadside diner
+  and one waitress there, as if his new heart remembers something he does not.
+themes:
+- fate
+- love
+- transplants
+ids:
+  imdb: tt0734702
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Appointment_on_Route_17
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

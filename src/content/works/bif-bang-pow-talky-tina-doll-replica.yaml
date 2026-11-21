@@ -1,0 +1,36 @@
+title: The Twilight Zone Talky Tina Doll Replica (Bif Bang Pow!)
+kind: collectible
+year: 2011
+creator: Bif Bang Pow!
+publisher: Bif Bang Pow!
+description: >-
+  Bif Bang Pow!'s full-size talking replica of the doll, first sold as an Entertainment Earth exclusive and also
+  issued in a colorized version; a 2012 web article (preserved by the UNT Web Archive) announced that collectors
+  could now own her.
+subtype: prop-replica
+details:
+  skus:
+  - BBP05009 (EE exclusive)
+  - BBP05009C (color)
+  later: 18-inch version BBP05009ALT (2023), see bif-bang-pow-entertainment-earth-2023-exclusives
+  licensed: true
+relevance: core
+research_confidence: medium
+categories:
+- merchandise/prop-replicas
+sources:
+- title: 'Entertainment Earth: Talky Tina Doll Replica'
+  url: https://www.entertainmentearth.com/product/the-twilight-zone-talky-tina-doll-replica/bbp05009
+- title: 'Entertainment Earth: Talky Tina Doll Replica Color'
+  url: https://www.entertainmentearth.com/product/the-twilight-zone-talky-tina-doll-replica-color/bbp05009c
+- title: 'Nerd Approved (UNT Web Archive, 2012): My Name Is Talky Tina And You Can Own Me Now'
+  url: >-
+    https://webarchive.library.unt.edu/web/20120110102141/http://nerdapproved.com/approved-products/my-name-is-talky-tina-and-you-can-own-me-now
+media:
+- type: document
+  title: UNT Web Archive capture of 2012 article
+  url: >-
+    https://webarchive.library.unt.edu/web/20120110102141/http://nerdapproved.com/approved-products/my-name-is-talky-tina-and-you-can-own-me-now
+  host: University of North Texas Web Archive
+  rights: link-only
+last_verified: '2026-11-20'

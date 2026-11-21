@@ -1,0 +1,20 @@
+name: The brontosaurus
+aka: []
+kind: animal
+played_by: []
+appears_in:
+- 1959/the-odyssey-of-flight-33
+description: >-
+  The dinosaur the crew sees from the plane in prehistoric Manhattan, created with stop-motion animation. It is
+  one of the series' most memorable special effects.
+recurring: false
+relevance: core
+sources:
+- title: The Odyssey of Flight 33 (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Odyssey_of_Flight_33
+- title: 'The Twilight Zone: The Odyssey of Flight 33 - IMDb'
+  url: https://www.imdb.com/title/tt0734668/
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,19 @@
+name: Leonard J. South
+roles:
+- cinematographer
+tz_credits:
+- series: Night Gallery
+  work: Night Gallery
+  role: director of photography
+  ref: films/night-gallery
+bio: >-
+  Leonard J. South was one of the directors of photography on Night Gallery. He had been Alfred Hitchcock's camera
+  operator on many of his films, and he photographed Hitchcock's last, Family Plot.
+sources:
+- title: 'Sci-Fi-Movies: Night Gallery (1970-73) series credits'
+  url: https://www.scifi-movies.com/en/credits/0002782/night-gallery-1969/
+research_confidence: low
+relevance: related
+last_verified: '2026-11-20'
+categories:
+- people/crew

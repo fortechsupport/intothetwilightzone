@@ -1,0 +1,17 @@
+name: The Stockton basement shelter ("The Shelter")
+kind: in-story
+filmed:
+- ref: 1959/the-shelter
+  note: A family fallout shelter that splits a neighbourhood during a false alarm.
+episodes:
+- 1959/the-shelter
+notes: Dr. Bill Stockton's basement fallout shelter, stocked for his family only, becomes the target of his neighbours
+  when a radio warning of incoming missiles turns out to be false. A Cold War morality play in which no one is literally
+  attacked.
+sources:
+- title: 'Wikipedia: The Shelter (The Twilight Zone)'
+  url: https://en.wikipedia.org/wiki/The_Shelter_(The_Twilight_Zone)
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,21 @@
+name: Joe
+aka: []
+kind: human
+played_by:
+- John Crawford
+appears_in:
+- 1959/a-hundred-yards-over-the-rim
+description: >-
+  The owner of the 1961 roadside diner where Horn stumbles in. He and his wife take Horn in and help him get medicine
+  for his son.
+recurring: false
+relevance: core
+sources:
+- title: A Hundred Yards Over the Rim (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/A_Hundred_Yards_Over_the_Rim
+- title: 'The Twilight Zone: A Hundred Yards Over the Rim - IMDb'
+  url: https://www.imdb.com/title/tt0734541/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

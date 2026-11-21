@@ -1,0 +1,30 @@
+name: Carl Amari
+roles:
+- producer
+tz_credits:
+- series: The Twilight Zone Radio Dramas
+  work: Series (2002 onward)
+  role: producer
+bio: >-
+  Radio producer Carl Amari created The Twilight Zone Radio Dramas: beginning in 2002 he licensed the
+  rights from the Rod Serling estate and produced full-cast audio adaptations of the original television
+  scripts, each about 40 minutes long and led by a Hollywood guest star, with Stacy Keach as narrator.
+  The dramas were broadcast in Britain on BBC Radio and in the US through CBS's distribution arm, and
+  were heard on hundreds of radio stations and satellite radio.
+sources:
+- title: The Twilight Zone - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone
+last_verified: '2026-11-19'
+media:
+- title: 'Episode 341: Unstoppable vintage radio broadcast expert and creator with Carl Amari'
+  url: https://michaelhingson.com/?p=126047
+  host: Unstoppable Mindset podcast
+  type: audio
+  rights: link-only
+- title: Carl Amari, host page
+  url: https://am920theanswer.com/personality/carl-amari
+  host: AM 920 The Answer
+  type: website
+  rights: link-only
+categories:
+- people/producers

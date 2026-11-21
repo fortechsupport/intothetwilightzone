@@ -1,0 +1,12 @@
+---
+// Top-of-page fan actions for an episode: checklist buttons and the curated paths it belongs to.
+import TrackButtons from './TrackButtons.astro';
+import { pathsFor } from '../../lib/fan';
+interface Props { id: string }
+const { id } = Astro.props;
+const paths = pathsFor(id);
+---
+<TrackButtons recKey={`episodes/${id}`} />
+{paths.length > 0 && (
+  <p class="on-paths small" data-pagefind-ignore>On {paths.length === 1 ? 'the path' : 'the paths'}: {paths.map((p, i) => <>{i > 0 && ' · '}<a href={`/paths/${p.slug}/`}>{p.title}</a></>)}</p>
+)}

@@ -1,0 +1,11 @@
+from: films/night-gallery
+to: series/1959
+kind: reference
+confidence: documented
+summary: Rod Serling's follow-up supernatural anthology, which he hosted from a gallery of macabre paintings, is
+  a sibling series rather than a parody.
+sources:
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+last_verified: '2026-11-19'
+locked: true

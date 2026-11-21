@@ -1,0 +1,33 @@
+title: Homecoming
+series: '2002'
+season: 1
+episode: '41'
+air_date: '2003-05-07'
+runtime_min: 22
+production_code: '142'
+writers:
+- Bradley Thompson
+- David Weddle
+- Michael Angeli
+writing_credit_note: Story by Bradley Thompson & David Weddle; teleplay by Michael Angeli
+directors:
+- Risa Bramon Garcia
+cast:
+- Gil Bellows
+- Penn Badgley
+narrator: Forest Whitaker
+synopsis: A discharged Delta Force officer returns home hoping to reconnect with his teenage son, while working
+  hard to keep a dangerous secret from him and from everyone else in town.
+themes:
+- fatherhood
+- secrets
+- war
+ids:
+  imdb: tt0734787
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

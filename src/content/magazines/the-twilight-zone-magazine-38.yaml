@@ -1,0 +1,30 @@
+title: 'The Twilight Zone Magazine, #38'
+magazine: The Twilight Zone Magazine
+cover_date: Oct 1985
+order: 38
+publisher: TZ Publications, Inc.
+editor: Michael Blaine (first issue as editor-in-chief, per SF Encyclopedia dates)
+links:
+  isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60209
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Originally listed in Adam's research spreadsheets.
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+description: 'October 1985 issue, edited by Michael Blaine (first issue as editor-in-chief, per SF Encyclopedia
+  dates). Fiction: "The Vampire Lestat (excerpt)" by Anne Rice; "The Love Pet" by Ted Hughes; "Compensation" by
+  John Sherman; "The Terminator" by Donald R. Burleson; "He and My Shadow" by T.M. Swain; "Post Awful" by William
+  John Watkins; "The Night People" by Michael Reaves; "Where You Lead .. I Will Follow" by Robert Grant; "The Secret
+  of Rowena" by Ray Russell; "My Darkest Fantasy" by John Skipp. Features: Explorers (film feature) by Robert Martin;
+  ''Max''s'' Mythmaker (Max Headroom) by Hal Erickson; Serling and the Censors by J. Michael Straczynski and Kathryn
+  M. Drennan; Show-by-Show Guide to ''Night Gallery'', Part Four. Teleplay: "The Purple Testament" by Rod Serling
+  (The Purple Testament (original series, Season 1, 1960)). Regular columns: In the Twilight Zone; Letters; Books
+  (D.W. ''Doc'' Kennedy); TZ Tech; Illuminations; Screen; TZ Video (bylines partly uncertain). Vol. 5 No. 4. OCR
+  layout of contents page is garbled; column bylines uncertain.'
+episodes:
+- 1959/the-purple-testament
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

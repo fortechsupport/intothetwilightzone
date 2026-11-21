@@ -1,0 +1,30 @@
+title: Sanctuary
+series: '2002'
+season: 1
+episode: '19'
+air_date: '2002-11-20'
+runtime_min: 22
+production_code: '119'
+writers:
+- James Crocker
+directors:
+- Patrick R. Norris
+cast:
+- Elizabeth Berkley
+- Rob Estes
+narrator: Forest Whitaker
+synopsis: Two agents find themselves living in an idyllic, timeless paradise, until an injured motorcyclist arrives
+  carrying a cell phone and the outside world starts intruding.
+themes:
+- isolation
+- paradise
+- technology
+ids:
+  imdb: tt0734800
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

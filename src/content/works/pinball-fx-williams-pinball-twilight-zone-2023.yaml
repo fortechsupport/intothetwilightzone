@@ -1,0 +1,38 @@
+title: 'Pinball FX - Williams Pinball: Twilight Zone'
+kind: game
+subtype: game-appearance
+year: 2023
+creator: Zen Studios
+publisher: Zen Studios
+description: >-
+  Zen Studios' remastered digital version of the 1993 Twilight Zone machine, sold as paid DLC for Pinball FX from
+  13 April 2023. It can be played as a faithful recreation or with optional extra animations added by Zen.
+details:
+  platforms: PC (Steam/Epic), PS4, PS5, Xbox One/Series; trial edition available
+  licensed: true
+  release: '2023-04-13'
+sources:
+- title: store.playstation.com
+  url: https://store.playstation.com/en-us/product/UP4042-PPSA08755_00-PINBALLFXTWLGHTK
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_(pinball)
+- title: xbox.com
+  url: https://www.xbox.com/en-gb/games/store/pinball-fx-williams-pinball-twilight-zone/9PM3MXKWNDSK
+- title: 'Worthplaying: Pinball FX comes to Steam next week, reveals 5 new tables'
+  url: >-
+    https://worthplaying.com/article/2023/4/3/news/136592-pinball-fx-comes-to-steam-next-week-reveals-5-new-tables-trailer
+- title: 'Push Square: Pinball FX PS5/PS4 adding Twilight Zone'
+  url: >-
+    https://pushsquare.com/news/2023/04/pinball-fx-ps5-ps4-adding-two-free-tables-twilight-zone-and-crypt-of-the-necrodancer-coming
+research_confidence: high
+last_verified: '2026-11-20'
+relevance: core
+media:
+- type: link
+  title: Xbox Store page
+  url: https://www.xbox.com/en-gb/games/store/pinball-fx-williams-pinball-twilight-zone/9PM3MXKWNDSK
+  host: Microsoft (Xbox)
+  rights: link-only
+  subtype: listing
+categories:
+- games/pinball-arcade

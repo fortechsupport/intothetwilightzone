@@ -1,0 +1,21 @@
+name: The Chancellor
+aka: []
+kind: human
+played_by:
+- Fritz Weaver
+appears_in:
+- 1959/the-obsolete-man
+description: >-
+  The leader of the State tribunal who declares Wordsworth obsolete. After he shows fear while trapped with Wordsworth,
+  he is declared obsolete himself and killed by his own tribunal.
+recurring: false
+relevance: core
+sources:
+- title: The Obsolete Man (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Obsolete_Man
+- title: 'The Twilight Zone: The Obsolete Man - IMDb'
+  url: https://www.imdb.com/title/tt0734667/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

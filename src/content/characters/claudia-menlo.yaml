@@ -1,0 +1,21 @@
+name: Claudia Menlo
+kind: human
+played_by:
+- Joan Crawford
+appears_in:
+- films/night-gallery-pilot
+description: >-
+  A blind, ruthless heiress who blackmails a surgeon and buys a poor man's eyes for an operation that will let her
+  see for a few hours. When the bandages come off, a citywide blackout leaves her in darkness. Steven Spielberg
+  directed the segment, his first professional work.
+recurring: false
+relevance: related
+sources:
+- title: Night Gallery (1969 pilot film) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Night_Gallery_(film)
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

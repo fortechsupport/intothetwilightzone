@@ -1,0 +1,29 @@
+name: 4th Street, Ashcroft
+kind: filming-location
+address: 4th Street between Railway Avenue and Brink Street, Ashcroft, BC
+city: Ashcroft
+region: British Columbia
+country: CA
+lat: 50.7255
+lng: -121.2813
+status: extant
+filmed:
+- ref: 2019/a-small-town
+  note: Main street, replica church and storefronts.
+notes: >-
+  The Thompson River village of Ashcroft became the town in "A Small Town" in January and February 2020,
+  with 4th Street serving as the main street. The crew built a replica of the Zion United Church opposite
+  the Ashcroft-Cache Creek Journal office, repainted the real church's interior and the Central Café front,
+  and used a warehouse near Cache Creek as a workshop.
+sources:
+- title: >-
+    Film company leaves tangible legacy for Ashcroft after production - Ashcroft-Cache Creek Journal
+  url: >-
+    https://www.ashcroftcachecreekjournal.com/community/film-company-leaves-tangible-legacy-for-ashcroft-after-production/
+- title: What Happened when "The Twilight Zone" Came to Town - Portail Médias
+  url: https://mail.portailmedias.ca/fr/node/465
+- title: >-
+    THE END: Jordan Peele's THE TWILIGHT ZONE Ends With Season 2 Which Wrapped Filming in Vancouver -
+    Hollywood North Buzz
+  url: https://hollywoodnorthbuzz.com/?p=116506
+last_verified: '2026-11-19'

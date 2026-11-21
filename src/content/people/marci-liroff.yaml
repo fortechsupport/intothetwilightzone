@@ -1,0 +1,19 @@
+name: Marci Liroff
+roles:
+- casting director
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: casting director
+  ref: films/twilight-zone-the-movie
+bio: >-
+  Marci Liroff was casting director of Twilight Zone: The Movie (1983). She cast E.T. the Extra-Terrestrial and
+  Footloose, among many other films of the period.
+sources:
+- title: 'Sci-Fi-Movies: Twilight Zone: The Movie (1983) credits'
+  url: https://www.scifi-movies.com/en/credits/0001932/twilight-zone-the-movie-1983/
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/directors

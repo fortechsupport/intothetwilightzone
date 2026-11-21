@@ -1,0 +1,20 @@
+name: Johnny Davis
+kind: human
+played_by:
+- Steve Railsback
+appears_in:
+- 1985/dead-run
+description: >-
+  An out-of-work trucker who takes a job driving the dead to Hell. When he realizes that some souls are being damned
+  for reasons he finds unjust, he starts making his own judgments about who gets delivered.
+recurring: false
+relevance: core
+sources:
+- title: Dead Run (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Dead_Run_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

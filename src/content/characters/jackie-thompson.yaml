@@ -1,0 +1,20 @@
+name: Jackie Thompson
+kind: human
+played_by:
+- Eric Bogosian
+appears_in:
+- 1985/healer
+description: >-
+  A cat burglar who steals an ancient stone artifact that gives him the power to heal. He turns the gift into a
+  profitable faith-healing act until the stone's power turns on him.
+recurring: false
+relevance: core
+sources:
+- title: Healer (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Healer_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

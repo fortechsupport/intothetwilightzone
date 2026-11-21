@@ -1,0 +1,19 @@
+title: Time Enough at Last
+artist: Electromud
+genre: Electronic
+tz_connection: reference
+description: >-
+  An independent track released on Bandcamp whose page labels it as built around Rod Serling's The Twilight Zone,
+  season 1, episode 8 (November 1959).
+relevance: tangential
+research_confidence: medium
+sources:
+- title: 'Bandcamp: Electromud - Time Enough at Last'
+  url: https://electromud.bandcamp.com/track/time-enough-at-last
+media:
+- type: audio
+  title: Time Enough at Last (Bandcamp stream)
+  url: https://electromud.bandcamp.com/track/time-enough-at-last
+  host: bandcamp (artist page)
+  rights: licensed
+last_verified: '2026-11-20'

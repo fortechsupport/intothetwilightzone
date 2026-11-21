@@ -1,0 +1,14 @@
+from: films/futurama-spanish-fry
+to: series/1959
+kind: parody
+confidence: documented
+summary: Another instalment of The Scary Door plays on screen.
+sources:
+- title: 'Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+- title: 'The Scary Door: Futurama Writer Recalls Origin of Twilight Zone''s Ultimate Parody (SYFY Wire)'
+  url: https://www.syfy.com/index%2ephp/syfy-wire/futurama-writer-recalls-origin-of-twilight-zone-parody-the-scary-door
+last_verified: '2026-11-20'
+locked: true
+evidence: SYFY Wire's piece on the Scary Door (quoting writer J. Stewart Burns on its origin as a Twilight Zone tip of the
+  hat) states that in Spanish Fry a Scary Door segment plays over the end credits.

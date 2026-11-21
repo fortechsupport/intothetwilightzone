@@ -1,0 +1,11 @@
+from: works/bif-bang-pow-zica-3-75-inch-figures
+to: 1959/living-doll
+kind: reference
+confidence: documented
+summary: Each figure is drawn from a specific original-series episode.
+sources:
+- title: dailydead.com
+  url: https://dailydead.com/?p=71282
+- title: gizmodo.com
+  url: https://gizmodo.com/comic-cons-exclusive-twilight-zone-toys-revealed-1591431215
+last_verified: '2026-11-20'

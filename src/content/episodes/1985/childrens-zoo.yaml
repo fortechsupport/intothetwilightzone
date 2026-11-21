@@ -1,0 +1,35 @@
+title: Children's Zoo
+series: '1985'
+season: 1
+episode: '03b'
+air_date: '1985-10-11'
+runtime_min: 9
+writers:
+- Chris Hubbell
+- Gerrit Graham
+directors:
+- Robert Downey Sr.
+cast:
+- Lorna Luft
+- Wes Craven
+- Virginia Morris
+narrator: Charles Aidman
+synopsis: Ignored and belittled by her bickering parents, a lonely young girl receives a mysterious invitation to
+  a very unusual zoo, whose exhibits are nothing like what visitors usually expect.
+themes:
+- childhood
+- family
+- neglect
+ids:
+  imdb: tt0734712
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Children%27s_Zoo_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

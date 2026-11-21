@@ -1,0 +1,20 @@
+name: Keith Barnes
+kind: human
+played_by:
+- Scott Coffey
+appears_in:
+- 1985/private-channel
+description: >-
+  A teenager whose damaged portable stereo begins picking up the thoughts of other passengers on a flight. He discovers
+  that one of them plans to destroy the plane.
+recurring: false
+relevance: core
+sources:
+- title: Private Channel (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Private_Channel
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

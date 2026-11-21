@@ -1,0 +1,21 @@
+title: NTSB probable-cause finding on the Twilight Zone helicopter crash
+kind: legal
+subtype: investigation
+year: '1984-10'
+creator: National Transportation Safety Board; Dorcey Wingo; John Landis
+description: In October 1984 the NTSB found the probable cause of the crash to be special-effects explosions set
+  off too close to a helicopter flying at low altitude. It added that the pilot and the director had failed to communicate
+  and coordinate directly. The board also recommended extending film-flying rules to all types of aircraft.
+details:
+  why_it_matters: This is the official technical record of what caused the deaths.
+  relates_to:
+  - 'Twilight Zone: The Movie'
+categories:
+- legal-history/lawsuits
+relevance: related
+sources:
+- title: Wikipedia - Twilight Zone accident
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_accident
+research_confidence: high
+last_verified: '2026-11-20'
+locked: true

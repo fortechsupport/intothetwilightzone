@@ -1,0 +1,20 @@
+name: Nelson Westbrook
+kind: human
+played_by:
+- Dick Shawn
+appears_in:
+- 1985/cold-reading
+description: >-
+  The pompous figure behind the live radio serial in Cold Reading, whose broadcast spins into chaos as the scripted
+  jungle sounds turn into real animals and storms in the studio.
+recurring: false
+relevance: core
+sources:
+- title: Cold Reading (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Cold_Reading_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

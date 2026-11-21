@@ -1,0 +1,35 @@
+name: Kevin Hagen
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Elegy
+  role: actor (as Capt. James Webber)
+  ref: 1959/elegy
+- series: The Twilight Zone (1959)
+  work: You Drive
+  role: actor (as Pete Radcliff)
+  ref: 1959/you-drive
+born: '1928-04-03'
+died: '2005-07-09'
+bio: >-
+  Kevin Hagen appeared twice in the original series: as one of the three astronauts stranded on a strangely Earth-like
+  asteroid in "Elegy" (1960), and as Pete Radcliff, the coworker who is blamed for Edward Andrews's hit-and-run
+  in "You Drive" (1964). A prolific television character actor, he played Inspector Kobick on Land of the Giants.
+  He is best remembered as the kindly Doc Baker on Little House on the Prairie (1974-83).
+relevance: core
+sources:
+- title: Kevin Hagen - Wikipedia
+  url: https://en.wikipedia.org/wiki/Kevin_Hagen
+- title: Elegy (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Elegy_(The_Twilight_Zone)
+- title: You Drive (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/You_Drive
+- title: List of The Twilight Zone (1959 TV series) guest stars - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_guest_stars
+research_confidence: medium
+last_verified: '2026-11-20'
+tags:
+- 1959-series
+categories:
+- people/actors

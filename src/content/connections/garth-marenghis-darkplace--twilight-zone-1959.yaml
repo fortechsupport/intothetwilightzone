@@ -1,0 +1,17 @@
+from: films/garth-marenghis-darkplace
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: The opening sequence is described as a shot-for-shot spoof of the Twilight Zone titles with deliberately
+  dated effects.
+sources:
+- title: 'Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+- title: Garth Marenghi's Darkplace (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Garth_Marenghi%27s_Darkplace
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: Wikipedia''s Darkplace article describes it as parodying low-budget 1980s TV fashion,
+  effects and music, and says nothing about The Twilight Zone. No press source naming a Twilight Zone title spoof was found.
+  The ''shot-for-shot spoof of The Twilight Zone titles'' description looks overstated; the titles mostly pastiche 80s cop
+  and horror shows. Check the Art of the Title page.'

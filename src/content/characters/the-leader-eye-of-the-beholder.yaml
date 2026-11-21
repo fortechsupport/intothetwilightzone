@@ -1,0 +1,21 @@
+name: The Leader
+aka: []
+kind: human
+played_by:
+- George Keymas
+appears_in:
+- 1959/eye-of-the-beholder
+description: >-
+  A dictator who appears on television screens in the hospital, speaking of the glory of conformity. He gives the
+  episode its political edge.
+recurring: false
+relevance: core
+sources:
+- title: Eye of the Beholder (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Eye_of_the_Beholder_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Eye of the Beholder - IMDb'
+  url: https://www.imdb.com/title/tt0734568/
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

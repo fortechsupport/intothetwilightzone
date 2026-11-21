@@ -1,0 +1,22 @@
+name: Doctor Rex
+aka:
+- Uncle Rick
+kind: human
+played_by:
+- Richard Long
+appears_in:
+- 1959/number-12-looks-just-like-you
+description: >-
+  One of the doctors who perform the Transformation. Richard Long plays him and several other men, all with the
+  same face.
+recurring: false
+relevance: core
+sources:
+- title: Number 12 Looks Just Like You (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Number_12_Looks_Just_Like_You
+- title: 'The Twilight Zone: Number 12 Looks Just Like You - IMDb'
+  url: https://www.imdb.com/title/tt0734604/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

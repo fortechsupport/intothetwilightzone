@@ -1,0 +1,39 @@
+title: The Monsters Are Due - A Twilight Zone Podcast
+description: A weekly podcast by Nicole and Peter Hunter, started in February 2025, that goes through the original series
+  in order and digs into the people and production history behind each episode. By November 2026 it had reached about
+  98 episodes, recently "Little Girl Lost" and "Person or Persons Unknown".
+subtype: episode-review
+status: active
+links:
+  home: https://themonstersareduepodcast.com
+  rss: https://www.themonstersareduepodcast.com/feed.xml
+  apple: https://podcasts.apple.com/us/podcast/the-monsters-are-due-a-twilight-zone-podcast/id1795624031
+sources:
+- title: podcasts.apple.com
+  url: https://podcasts.apple.com/us/podcast/the-monsters-are-due-a-twilight-zone-podcast/id1795624031
+- title: iheart.com
+  url: https://www.iheart.com/podcast/1323-the-monsters-are-due-a-tw-266269294/
+- title: castfox.net
+  url: https://www.castfox.net/podcast/the-monsters-are-due-a-twilight-zone-podcast-7210548/episode/the-shelter-1860442
+- title: Pod Engine - The Monsters Are Due
+  url: https://www.podengine.ai/podcasts/the-monsters-are-due-a-twilight-zone-podcast
+research_confidence: high
+last_verified: '2026-11-20'
+hosts:
+- Nicole Hunter
+- Peter Hunter
+first_episode: '2025-02-18'
+episode_count: 98
+episode_count_as_of: '2026-11-17'
+covers:
+- '1959'
+featured_episodes:
+- title: Person or Persons Unknown
+  date: '2026-11-17'
+  covers_episode: 1959/person-or-persons-unknown
+- title: Little Girl Lost
+  date: '2026-11-10'
+  covers_episode: 1959/little-girl-lost
+- title: The Fugitive
+  date: '2026-11-03'
+  covers_episode: 1959/the-fugitive

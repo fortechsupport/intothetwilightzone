@@ -1,0 +1,20 @@
+name: Death
+kind: supernatural
+played_by:
+- Stephen McHattie
+appears_in:
+- 1985/rendezvous-in-a-dark-place
+description: >-
+  Death in human form, sought out by Barbara LeMay, an elderly widow who wants him to take her. He refuses at first,
+  but he comes to comfort her and gives her a role helping the dying cross over.
+recurring: false
+relevance: core
+sources:
+- title: Rendezvous in a Dark Place (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Rendezvous_in_a_Dark_Place
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

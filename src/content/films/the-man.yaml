@@ -1,0 +1,22 @@
+title: The Man
+kind: film
+summary: Serling's screenplay from Irving Wallace's novel about the first Black president of the United States,
+  who takes office by succession.
+release_date: '1972'
+writers:
+- Rod Serling
+directors:
+- Joseph Sargent
+cast:
+- James Earl Jones
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+- title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
+  url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+research_confidence: medium
+relevance: related
+ids:
+  imdb: tt0068912
+last_verified: '2026-11-19'
+locked: true

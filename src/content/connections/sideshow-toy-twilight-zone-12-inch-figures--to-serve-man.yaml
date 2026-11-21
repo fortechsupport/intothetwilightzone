@@ -1,0 +1,11 @@
+from: works/sideshow-toy-twilight-zone-12-inch-figures
+to: 1959/to-serve-man
+kind: reference
+confidence: documented
+summary: Each figure recreates a creature or character from a specific original-series episode.
+sources:
+- title: toymania.com
+  url: https://www.toymania.com/columns/spotlight/tzinvader.shtml
+- title: entertainmentearth.com
+  url: https://www.entertainmentearth.com/product/eye-of-the-beholder-set/sid6900
+last_verified: '2026-11-20'

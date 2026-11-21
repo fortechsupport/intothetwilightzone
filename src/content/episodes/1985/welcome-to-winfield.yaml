@@ -1,0 +1,35 @@
+title: Welcome to Winfield
+series: '1985'
+season: 1
+episode: '17a'
+air_date: '1986-02-07'
+runtime_min: 26
+writers:
+- Les Enloe
+directors:
+- Bruce Bilson
+cast:
+- Elisa Cook
+- Henry Gibson
+- Gerrit Graham
+- Dennis Fimple
+narrator: Charles Aidman
+synopsis: An agent of Death arrives in a small, sleepy Western town to collect a man whose time is up, only to find
+  the residents of Winfield far harder to deal with than he expected.
+themes:
+- comedy
+- death
+- small town
+ids:
+  imdb: tt0734768
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Welcome_to_Winfield
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

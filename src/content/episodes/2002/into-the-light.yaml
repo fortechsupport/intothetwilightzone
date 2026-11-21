@@ -1,0 +1,33 @@
+title: Into the Light
+series: '2002'
+season: 1
+episode: '29'
+air_date: '2003-02-12'
+runtime_min: 22
+production_code: '128'
+writers:
+- Moira Kirland Dekker
+directors:
+- Lou Diamond Phillips
+cast:
+- Samantha Mathis
+- Reed Diamond
+- Andrew Francis
+narrator: Forest Whitaker
+synopsis: A schoolteacher finds she can tell when someone is about to die simply by looking at their face, a gift
+  that weighs on her each time she sees it.
+themes:
+- burden
+- death
+- precognition
+ids:
+  imdb: tt0734790
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: The Twilight Zone (2002) season 1 - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+last_verified: '2026-11-19'
+locked: true

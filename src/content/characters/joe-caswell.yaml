@@ -1,0 +1,22 @@
+name: Joe Caswell
+aka: []
+kind: human
+played_by:
+- Albert Salmi
+appears_in:
+- 1959/execution
+description: >-
+  A cowboy murderer about to be hanged in 1880 who is plucked from the noose by a time machine and brought to the
+  20th century. He kills the inventor and is killed in turn by a thief, whom the machine then returns to the noose
+  in his place.
+recurring: false
+relevance: core
+sources:
+- title: Execution (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Execution_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Execution - IMDb'
+  url: https://www.imdb.com/title/tt0734567/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

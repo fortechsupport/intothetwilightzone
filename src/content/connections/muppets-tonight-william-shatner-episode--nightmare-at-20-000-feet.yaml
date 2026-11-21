@@ -1,0 +1,11 @@
+from: films/muppets-tonight-william-shatner-episode
+to: 1959/nightmare-at-20-000-feet
+kind: homage
+confidence: documented
+evidence: William Shatner spoofs his own famous episode on Muppets Tonight, according to the episode's Wikipedia
+  page.
+sources:
+- title: Nightmare at 20,000 Feet (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+last_verified: '2026-11-19'
+locked: true

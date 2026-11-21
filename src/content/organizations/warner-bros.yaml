@@ -1,0 +1,14 @@
+name: Warner Bros.
+aka:
+- Warner Bros. Pictures
+- Warner Brothers
+kind: studio
+description: 'The studio that made and released Twilight Zone: The Movie (1983).'
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: Twilight Zone: The Movie'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+research_confidence: medium
+tags:
+- seed-record

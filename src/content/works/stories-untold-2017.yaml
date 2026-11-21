@@ -1,0 +1,21 @@
+title: Stories Untold
+kind: game
+year: 2017
+creator: No Code
+publisher: Devolver Digital
+description: >-
+  An anthology of four linked experimental horror episodes from Glasgow studio No Code, played through retro computers
+  and lab equipment. Its episodic, twist-driven structure is often compared to classic TV anthologies.
+subtype: video-game-homage
+details:
+  licensed: false
+relevance: tangential
+research_confidence: low
+categories:
+- games/game-homages
+sources:
+- title: 'IGF: Stories Untold'
+  url: https://igf.com/stories-untold
+- title: 'Giant Bomb: Stories Untold'
+  url: https://giantbomb.com/wiki/Games/Stories_Untold
+last_verified: '2026-11-20'

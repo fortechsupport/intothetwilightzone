@@ -1,0 +1,15 @@
+from: films/madagascar
+to: 1959/to-serve-man
+kind: reference
+confidence: fan-noted
+summary: A panicking lemur holds up a book titled 'To Serve Lemur' and shrieks that it is a cookbook.
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone (1959)'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959
+- title: Where Have You Seen Rod Serling or The Twilight Zone in Pop Culture? (Ithaca College Intercom)
+  url: https://web2.ithaca.edu/intercom-archive/article.php/20090702141144939.html
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: Only TV Tropes records the ''To Serve Lemur'' gag. An Ithaca College Intercom page
+  on Serling in pop culture cites Madagascar for a different gag, which it transcribes as ''Plant of the Apes''.
+  The gag is real in the film; a weak institutional mention exists, but not for this joke.'

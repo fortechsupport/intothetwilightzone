@@ -1,0 +1,10 @@
+from: works/willy-wonka-the-chocolate-factory-pinball-time-enough-at-last-achievement
+to: 1959/time-enough-at-last
+kind: reference
+confidence: fan-noted
+summary: One of the table's achievements is named after the Burgess Meredith episode.
+sources:
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
+locked: true

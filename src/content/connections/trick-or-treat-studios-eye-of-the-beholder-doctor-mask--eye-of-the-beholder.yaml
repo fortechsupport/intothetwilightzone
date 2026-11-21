@@ -1,0 +1,9 @@
+from: works/trick-or-treat-studios-eye-of-the-beholder-doctor-mask
+to: 1959/eye-of-the-beholder
+kind: reference
+confidence: documented
+summary: From 'The Eye of the Beholder' (1960).
+sources:
+- title: Halloween Daily News (Jan 2017)
+  url: https://halloweendailynews.com/2017/01/trick-treat-studios-twilight-zone-masks/
+last_verified: '2026-11-20'

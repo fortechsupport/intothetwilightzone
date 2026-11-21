@@ -1,0 +1,12 @@
+title: Christine
+kind: film
+ids:
+  imdb: tt0085333
+links:
+  trailer_youtube: ieBmy6qjiCI
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+summary: John Carpenter's film of Stephen King's novel about a shy teenager who restores a 1958 Plymouth Fury that
+  turns out to be possessed and jealous.
+release_date: '1983'

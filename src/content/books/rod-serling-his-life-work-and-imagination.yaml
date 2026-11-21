@@ -1,0 +1,20 @@
+title: 'Rod Serling: His Life, Work, and Imagination'
+authors:
+- Nicholas Parisi
+publisher: University Press of Mississippi
+published: '2018'
+kind: biography
+description: A full-length critical biography covering Serling's whole career, including radio, live television,
+  The Twilight Zone, Night Gallery and his film work, drawing on archival papers.
+ids:
+  goodreads: '40003994'
+  amazon_asin: 149684646X
+relevance: core
+research_confidence: high
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Originally listed in Adam's research spreadsheets.
+- title: University Press of Mississippi
+  url: https://www.upress.state.ms.us/Books/R/Rod-Serling
+last_verified: '2026-11-19'
+locked: true

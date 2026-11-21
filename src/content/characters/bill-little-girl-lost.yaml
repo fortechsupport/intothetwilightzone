@@ -1,0 +1,21 @@
+name: Bill
+aka: []
+kind: human
+played_by:
+- Charles Aidman
+appears_in:
+- 1959/little-girl-lost
+description: >-
+  A physicist friend of the Millers who works out that Tina has fallen into another dimension. He marks the opening
+  on the wall.
+recurring: false
+relevance: core
+sources:
+- title: Little Girl Lost (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Little_Girl_Lost_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Little Girl Lost - IMDb'
+  url: https://www.imdb.com/title/tt0734585/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

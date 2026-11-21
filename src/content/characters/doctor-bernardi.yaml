@@ -1,0 +1,21 @@
+name: Doctor Bernardi
+aka: []
+kind: human
+played_by:
+- William D. Gordon
+appears_in:
+- 1959/eye-of-the-beholder
+description: >-
+  Janet Tyler's doctor, whose face is kept in shadow until the reveal. He privately questions why the state cannot
+  accept people as they are.
+recurring: false
+relevance: core
+sources:
+- title: Eye of the Beholder (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Eye_of_the_Beholder_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Eye of the Beholder - IMDb'
+  url: https://www.imdb.com/title/tt0734568/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

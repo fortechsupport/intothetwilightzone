@@ -1,0 +1,11 @@
+from: films/american-dad-rabbit-ears
+to: 1959/its-a-good-life
+kind: homage
+confidence: documented
+evidence: Stan finds a never-broadcast show on an old TV set and is pulled into its world, where a host who traps
+  viewers in endless reruns plays like Anthony Fremont; Den of Geek calls it the show's best Twilight Zone impression.
+sources:
+- title: 'Den of Geek – American Dad Season 16 Episode 4 Review: Rabbit Ears'
+  url: https://www.denofgeek.com/us/tv/american-dad/280948/american-dad-season-16-episode-4-review-rabbit-ears
+last_verified: '2026-11-20'
+locked: true

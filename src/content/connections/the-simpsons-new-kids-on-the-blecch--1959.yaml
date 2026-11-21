@@ -1,0 +1,13 @@
+from: films/the-simpsons-new-kids-on-the-blecch
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Marge jokes that Homer wore himself out watching a Twilight Zone marathon, a passing nod to the holiday
+  Twilight Zone marathon tradition.
+sources:
+- title: Wikisimpsons – Twilight Zone
+  url: https://simpsonswiki.com/wiki/Twilight_Zone
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
+locked: true

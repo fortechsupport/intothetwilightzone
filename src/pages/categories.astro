@@ -1,0 +1,35 @@
+---
+import Base from '../layouts/Base.astro';
+import { catalog, countOf, type CatInfo } from '../lib/catalog';
+import { VERBS } from '../lib/taxonomy.mjs';
+const cat = await catalog();
+const all = [...cat.values()];
+// Every category under its verb, A to Z. People, Organizations and Places appear under Meet and Visit.
+const verbs = VERBS.map((v) => ({ ...v, cats: v.categories.map((c) => cat.get(c.slug)).filter(Boolean) as CatInfo[] }));
+const listed = new Set(verbs.flatMap((v) => v.cats.map((c) => c.slug)));
+const other = all.filter((c) => !listed.has(c.slug) && c.slug !== 'content');
+const cats = [...verbs.flatMap((v) => v.cats), ...other];
+const blocks: [string, string | null, CatInfo[]][] = [...verbs.map((v) => [v.title, v.href, v.cats] as [string, string, CatInfo[]]), ...(other.length ? [['Other', null, other] as [string, null, CatInfo[]]] : [])];
+---
+<Base title="Everything A to Z" description="Every verb, category and subcategory on IntoTheTwilightZone.com, A to Z, with counts.">
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a></p>
+  <h1>Everything A to Z</h1>
+  <p class="lead">{VERBS.length} verbs, {cats.length} categories and {cats.reduce((n, c) => n + c.subs.filter((s) => s.entries.length).length, 0)} subcategories. Those marked <span class="tag new">new</span> were added during research and are up for review.</p>
+  <p>The site is organized by what you want to do: <strong>Watch, Listen, Read, Play, Collect, Attend, Discover, Meet and Visit</strong>. Meet and Visit hold the people, characters, organizations and places everything else links to. The other verbs hold the works and events themselves, and most categories are split into official items (made, broadcast, licensed or published by the franchise or by Rod Serling) and unofficial items made by others about or inspired by the show. <strong>Media and content</strong> (videos, audio, images, documents, reviews, interviews, quotes, advertisements, archival holdings and links) attaches to the pages it belongs to, and the <a href="/media/">Media Library</a> gathers it in one place.</p>
+  {blocks.map(([label, href, list]) => (
+    <>
+      <h2>{href ? <a href={href}>{label}</a> : label}</h2>
+      <div class="cat-index">
+        {list.map((c) => (
+          <section>
+            <h3><a href={`/${c.slug}/`}>{c.title}</a> {c.isNew && <span class="tag new">new</span>} <span class="muted small">({countOf(c).toLocaleString('en-US')})</span></h3>
+            <p class="small muted">{c.description}</p>
+            <ul class="plain">
+              {c.subs.map((s) => <li>{s.entries.length ? <a href={`/${c.slug}/${s.slug}/`}>{s.title}</a> : <span class="muted">{s.title}</span>} <span class="count-pill">{s.entries.length}</span>{s.isNew && !c.isNew && <span class="tag new">new</span>}</li>)}
+            </ul>
+          </section>
+        ))}
+      </div>
+    </>
+  ))}
+</Base>

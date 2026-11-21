@@ -1,0 +1,21 @@
+name: The invaders
+aka:
+- U.S. Air Force Space Probe No. 1 crew
+kind: human
+played_by: []
+appears_in:
+- 1959/the-invaders
+description: >-
+  Small humanoid figures who land on the woman's roof in a flying saucer. A radio message reveals that they are
+  American astronauts, and the craft is labeled U.S. Air Force Space Probe No. 1.
+recurring: false
+relevance: core
+sources:
+- title: The Invaders (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Invaders_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Invaders - IMDb'
+  url: https://www.imdb.com/title/tt0734648/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

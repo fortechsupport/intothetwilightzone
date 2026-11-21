@@ -1,0 +1,243 @@
+---
+// Review queue: every record, grouped by category, with include/exclude buttons.
+// Built only on preview builds (REVIEW_MODE preview or all); the public site has no /review/ page.
+// Choices are kept in this browser until downloaded as a CSV, which `npm run review:import` reads.
+import Base from '../../layouts/Base.astro';
+import { reviewMode } from '../../lib/review';
+import { reviewQueue, CATEGORY_LABELS } from '../../lib/review-queue';
+
+export function getStaticPaths() {
+  return reviewMode() === 'public' ? [] : [{ params: { slug: undefined } }];
+}
+const rows = reviewQueue();
+const mode = reviewMode();
+const categories = [...new Set(rows.map((r) => r.collection))].map((c) => ({ id: c, label: CATEGORY_LABELS[c] ?? c })).sort((a, b) => a.label.localeCompare(b.label));
+const counts = { pending: 0, include: 0, exclude: 0 } as Record<string, number>;
+rows.forEach((r) => counts[r.status]++);
+---
+<Base title="Review queue" noindex>
+  <h1>Review queue</h1>
+  <p class="lead">Every record the research has found, {rows.length.toLocaleString('en-US')} in all.
+    Mark each one <strong>Include</strong> or <strong>Exclude</strong>. The public site shows only included records.</p>
+  <p class="muted small">Saved decisions: {counts.include} included, {counts.exclude} excluded, {counts.pending} pending.
+    This build is in <code>{mode}</code> mode, so record links work for anything not excluded.
+    Each record says how it connects to the show, its tier (core, related or tangential) and my recommendation with the reason.
+    Your clicks are kept in this browser. When you finish a session, press <strong>Download decisions</strong>{" "}
+    and send the file over (or run <code>npm run review:import -- file.csv</code>).</p>
+
+  <div class="rq-bar" id="rq-bar">
+    <label>Show <select id="rq-status">
+      <option value="pending" selected>Pending</option>
+      <option value="include">Included</option>
+      <option value="exclude">Excluded</option>
+      <option value="changed">Changed in this browser</option>
+      <option value="">All</option>
+    </select></label>
+    <label>Category <select id="rq-cat">
+      <option value="">All</option>
+      {categories.map((c) => <option value={c.id}>{c.label}</option>)}
+    </select></label>
+    <label>Tier <select id="rq-rel">
+      <option value="">Any</option>
+      <option value="core">Core</option>
+      <option value="related">Related</option>
+      <option value="tangential">Tangential</option>
+    </select></label>
+    <label>Recommendation <select id="rq-rec">
+      <option value="">Any</option>
+      <option value="include">Include</option>
+      <option value="maybe">Maybe</option>
+      <option value="exclude">Exclude</option>
+    </select></label>
+    <label class="rq-grow">Search <input id="rq-q" type="search" placeholder="Title, person, notes…" /></label>
+    <span class="rq-actions">
+      <span id="rq-changed" class="muted small"></span>
+      <button type="button" id="rq-download">Download decisions</button>
+      <button type="button" id="rq-reset" class="rq-quiet">Discard changes</button>
+    </span>
+  </div>
+
+  <div id="rq-groups">
+    {categories.map((c) => (
+      <details class="rq-group" data-cat={c.id}>
+        <summary><span class="rq-label">{c.label}</span> <span class="rq-count muted small"></span></summary>
+        <p class="rq-bulk small">
+          <button type="button" data-bulk="include">Include all shown</button>
+          <button type="button" data-bulk="exclude">Exclude all shown</button>
+          <button type="button" data-bulk="pending" class="rq-quiet">Reset shown to pending</button>
+        </p>
+        <ol class="rq-list"></ol>
+        <p class="rq-more"><button type="button" class="rq-quiet" data-more>Show more</button></p>
+      </details>
+    ))}
+  </div>
+  <script type="application/json" id="rq-data" set:html={JSON.stringify(rows)} />
+</Base>
+
+<style is:global>
+  .rq-bar { position: sticky; top: 58px; z-index: 4; display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: end; background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; margin: 16px 0; font-size: 0.9rem; }
+  .rq-bar label { display: flex; flex-direction: column; gap: 2px; color: var(--muted); }
+  .rq-bar .rq-grow { flex: 1 1 180px; }
+  .rq-bar select, .rq-bar input, .rq-item textarea { background: var(--bg); color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; font: inherit; }
+  .rq-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  #rq-groups button, .rq-bar button { background: var(--bg); color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 4px 10px; font: inherit; font-size: 0.88rem; cursor: pointer; }
+  #rq-groups button:hover, .rq-bar button:hover { border-color: var(--accent); }
+  .rq-quiet { opacity: 0.75; }
+  .rq-group { border-bottom: 1px solid var(--line); padding: 6px 0; }
+  .rq-group > summary { cursor: pointer; font-family: var(--serif); font-size: 1.25rem; padding: 6px 0; }
+  .rq-list { list-style: none; padding: 0; margin: 0; }
+  .rq-item { border: 1px solid var(--line); border-left: 4px solid var(--line); border-radius: 8px; padding: 10px 12px; margin: 10px 0; background: rgba(19, 23, 37, 0.6); }
+  .rq-item.s-include { border-left-color: #5fa36a; }
+  .rq-item.s-exclude { border-left-color: #b45a5a; opacity: 0.8; }
+  .rq-item.changed { box-shadow: 0 0 0 1px var(--accent-2) inset; }
+  .rq-item h3 { margin: 0 0 4px; font-size: 1.05rem; }
+  .rq-meta { color: var(--muted); font-size: 0.85rem; margin: 0 0 6px; }
+  .rq-sum { margin: 0 0 6px; font-size: 0.93rem; color: #cfd5e3; }
+  .rq-src { font-size: 0.82rem; margin: 0 0 8px; }
+  .rq-src a { margin-right: 10px; }
+  .rq-ctl { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  #rq-groups .rq-ctl button[aria-pressed='true'][data-set='include'] { background: #284a2e; border-color: #5fa36a; }
+  #rq-groups .rq-ctl button[aria-pressed='true'][data-set='exclude'] { background: #4a2828; border-color: #b45a5a; }
+  #rq-groups .rq-ctl button[aria-pressed='true'][data-set='pending'] { border-color: var(--accent); }
+  .rq-item textarea { flex: 1 1 220px; min-height: 2.2em; font-size: 0.88rem; resize: vertical; }
+  .tag.rel-core { border-color: #5fa36a; color: #9fd3a8; }
+  .tag.rel-related { border-color: #4b3d6b; color: #c3b3e6; }
+  .tag.rec-include { border-color: #5fa36a; color: #9fd3a8; }
+  .tag.rec-maybe { border-color: #6b5a2e; color: var(--accent-2); }
+  .tag.rec-exclude { border-color: #b45a5a; color: #e0a0a0; }
+  .rq-why { margin: 0 0 6px; font-size: 0.93rem; }
+  .tag.rel-tangential { border-color: #6b5a2e; color: var(--accent-2); }
+  @media (max-width: 640px) { .rq-bar { position: static; } }
+</style>
+
+<script is:inline>
+(() => {
+  const STORE = 'itz-review-v1';
+  const PAGE = 50;
+  const rows = JSON.parse(document.getElementById('rq-data').textContent);
+  const byKey = new Map(rows.map((r) => [r.key, r]));
+  let local = {};
+  try { local = JSON.parse(localStorage.getItem(STORE) || '{}'); } catch { local = {}; }
+  // Drop local choices that the saved ledger already matches (for example after an import).
+  for (const [k, v] of Object.entries(local)) {
+    const r = byKey.get(k);
+    if (!r || (v.status === r.status && (v.notes ?? '') === (r.notes ?? ''))) delete local[k];
+  }
+  const save = () => { try { localStorage.setItem(STORE, JSON.stringify(local)); } catch {} updateChanged(); };
+  const statusOf = (r) => local[r.key]?.status ?? r.status;
+  const notesOf = (r) => local[r.key]?.notes ?? r.notes ?? '';
+  const $ = (id) => document.getElementById(id);
+  const filters = { status: $('rq-status'), cat: $('rq-cat'), rel: $('rq-rel'), rec: $('rq-rec'), q: $('rq-q') };
+  const shown = new Map(); // category -> how many rows rendered
+
+  function setDecision(key, patch) {
+    const r = byKey.get(key);
+    const next = { status: statusOf(r), notes: notesOf(r), ...patch };
+    if (next.status === r.status && next.notes === (r.notes ?? '')) delete local[key];
+    else local[key] = next;
+  }
+  function matches(r) {
+    const s = filters.status.value;
+    if (s === 'changed' ? !local[r.key] : s && statusOf(r) !== s) return false;
+    if (filters.cat.value && r.collection !== filters.cat.value) return false;
+    const rel = filters.rel.value;
+    if (rel && (r.tier ?? r.relevance) !== rel) return false;
+    if (filters.rec.value && r.recommendation !== filters.rec.value) return false;
+    const q = filters.q.value.trim().toLowerCase();
+    if (q && ![r.title, r.who, r.summary, r.kind, r.key, r.connection, r.subcategory, notesOf(r), r.tags.join(' ')].join(' ').toLowerCase().includes(q)) return false;
+    return true;
+  }
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  function itemHtml(r) {
+    const st = statusOf(r);
+    const meta = [r.kind, r.date, r.who].filter(Boolean).map(esc).join(' · ');
+    const tags = [
+      r.subcategory && `<span class="tag">${esc(r.subcategory)}</span>`,
+      r.confidence && `<span class="tag">${esc(r.confidence)}</span>`,
+      ...r.tags.map((t) => `<span class="tag">${esc(t)}</span>`),
+      r.duplicate_of && `<span class="tag">duplicate of ${esc(r.duplicate_of)}</span>`,
+    ].filter(Boolean).join('');
+    const sum = r.summary ? (r.summary.length > 360 ? r.summary.slice(0, 360) + '…' : r.summary) : '';
+    const others = r.sources.filter((s) => !r.source_url || s.url !== r.source_url);
+    const src = others.length
+      ? others.slice(0, 4).map((s) => s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>` : `<span class="muted">${esc(s.title)}</span>`).join('') + (others.length > 4 ? `<span class="muted">+${others.length - 4} more</span>` : '')
+      : (r.source_url ? '' : '<span class="muted">No independent source yet</span>');
+    const view = r.url && st !== 'exclude' ? ` <a class="small" href="${esc(r.url)}" target="_blank">View page</a>` : '';
+    const btn = (v, label) => `<button type="button" data-set="${v}" aria-pressed="${st === v}">${label}</button>`;
+    return `<li class="rq-item s-${st}${local[r.key] ? ' changed' : ''}" data-key="${esc(r.key)}">
+      <h3>${esc(r.title)}${view}</h3>
+      <p class="rq-meta">${meta}${meta && tags ? ' ' : ''}${tags} <code class="small">${esc(r.key)}</code></p>
+      ${r.connection ? `<p class="rq-why"><strong>Connection to TZ:</strong> ${esc(r.connection)}</p>` : ''}
+      <p class="rq-why"><span class="tag rel-${esc(r.tier)}">${esc(r.tier || 'untiered')}</span> ${esc(r.tier_reason || '')}</p>
+      ${r.recommendation ? `<p class="rq-why"><span class="tag rec-${esc(r.recommendation)}">Recommend: ${esc(r.recommendation)}</span> ${esc(r.reason || '')}</p>` : ''}
+      ${sum && !String(r.connection || '').startsWith(sum.slice(0, 50)) ? `<p class="rq-sum">${esc(sum)}</p>` : ''}
+      <p class="rq-src">${r.source_url ? `<strong>Best source:</strong> <a href="${esc(r.source_url)}" target="_blank" rel="noopener">${esc(r.source_title || r.source_url)}</a> ` : ''}${src}</p>
+      <div class="rq-ctl">${btn('include', 'Include')}${btn('exclude', 'Exclude')}${btn('pending', 'Pending')}
+        <textarea rows="1" placeholder="Notes (optional)">${esc(notesOf(r))}</textarea></div>
+    </li>`;
+  }
+  function render() {
+    for (const g of document.querySelectorAll('.rq-group')) {
+      const cat = g.dataset.cat;
+      const list = rows.filter((r) => r.collection === cat && matches(r));
+      g.hidden = list.length === 0;
+      g.querySelector('.rq-count').textContent = `${list.length.toLocaleString('en-US')} shown`;
+      const n = shown.get(cat) || PAGE;
+      g.querySelector('.rq-list').innerHTML = g.open ? list.slice(0, n).map(itemHtml).join('') : '';
+      g.querySelector('.rq-more').hidden = !g.open || list.length <= n;
+      g._list = list;
+    }
+  }
+  function updateChanged() {
+    const n = Object.keys(local).length;
+    $('rq-changed').textContent = n ? `${n} change${n === 1 ? '' : 's'} not yet downloaded` : 'No unsaved changes';
+  }
+  function csvCell(v) { const s = String(v ?? ''); return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; }
+
+  Object.values(filters).forEach((el) => el.addEventListener('input', () => { shown.clear(); if (filters.cat.value) document.querySelector(`.rq-group[data-cat="${filters.cat.value}"]`).open = true; render(); }));
+  document.querySelectorAll('.rq-group').forEach((g) => g.addEventListener('toggle', render));
+  $('rq-groups').addEventListener('click', (e) => {
+    const b = e.target.closest('button');
+    if (!b) return;
+    const g = b.closest('.rq-group');
+    if (b.dataset.set) {
+      const li = b.closest('.rq-item');
+      setDecision(li.dataset.key, { status: b.dataset.set });
+      save();
+      li.outerHTML = itemHtml(byKey.get(li.dataset.key));
+    } else if (b.dataset.bulk) {
+      const list = (g._list || []).slice(0, shown.get(g.dataset.cat) || PAGE);
+      if (!list.length) return;
+      list.forEach((r) => setDecision(r.key, { status: b.dataset.bulk }));
+      save(); render();
+    } else if ('more' in b.dataset) {
+      shown.set(g.dataset.cat, (shown.get(g.dataset.cat) || PAGE) + PAGE * 4);
+      render();
+    }
+  });
+  $('rq-groups').addEventListener('change', (e) => {
+    if (e.target.tagName !== 'TEXTAREA') return;
+    const li = e.target.closest('.rq-item');
+    setDecision(li.dataset.key, { notes: e.target.value.trim() });
+    save();
+    li.classList.toggle('changed', !!local[li.dataset.key]);
+  });
+  $('rq-download').addEventListener('click', () => {
+    const keys = Object.keys(local).sort();
+    if (!keys.length) return;
+    const lines = ['key,decision,notes,title', ...keys.map((k) => [k, local[k].status, local[k].notes, byKey.get(k)?.title].map(csvCell).join(','))];
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([lines.join('\r\n') + '\r\n'], { type: 'text/csv' }));
+    a.download = `review-decisions-${new Date().toISOString().slice(0, 10)}.csv`;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  });
+  $('rq-reset').addEventListener('click', () => {
+    if (!Object.keys(local).length) return;
+    local = {}; save(); render();
+  });
+  document.querySelector('.rq-group').open = true;
+  updateChanged();
+  render();
+})();
+</script>

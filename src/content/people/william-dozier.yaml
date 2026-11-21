@@ -1,0 +1,16 @@
+name: William Dozier
+roles:
+- producer
+bio: Executive producer of Rod Serling's western The Loner (CBS, 1965–66).
+tz_credits:
+- series: The Loner
+  work: The Loner
+  role: executive producer
+  ref: films/the-loner
+sources:
+- title: 'Wikipedia: The Loner (TV series)'
+  url: https://en.wikipedia.org/wiki/The_Loner_(TV_series)
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

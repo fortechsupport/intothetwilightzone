@@ -1,0 +1,21 @@
+title: 'The Score #906 – "Next Stop: The Twilight Zone"'
+kind: other
+description: >-
+  An episode of The Score, the public-radio film-music program, given over to music from and inspired by The Twilight
+  Zone. The station's playlist page lists what was played.
+subtype: radio-segment
+relevance: related
+research_confidence: medium
+sources:
+- title: 'The Score – Score 906: Next Stop: The Twilight Zone (playlist)'
+  url: https://www.thescore.org/playlists/score-906-next-stop-the-twilight-zone/
+- title: 'The Score – Next Stop: The Twilight Zone'
+  url: https://www.thescore.org/?p=8989
+media:
+- type: link
+  title: Score 906 playlist
+  url: https://www.thescore.org/playlists/score-906-next-stop-the-twilight-zone/
+  host: The Score (public radio)
+  rights: link-only
+  subtype: listing
+last_verified: '2026-11-20'

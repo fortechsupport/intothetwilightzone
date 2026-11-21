@@ -1,0 +1,22 @@
+title: 'Italy: ''Ai confini della realtà'''
+kind: production
+subtype: dub
+creator: Italian broadcasters
+description: In Italy the series and its successors are known as 'Ai confini della realtà'. The title was also used
+  for the 1983 film, and Italian DVD sets included extras such as 'The Time Element'. Italian sources, including
+  the Fantafestival catalogue, discuss the show's influence on Italian genre audiences.
+details:
+  why_it_matters: It covers the show's Italian title and reception.
+  relates_to:
+  - series 1959
+categories:
+- series/international
+relevance: related
+sources:
+- title: MYmovies - Ai confini della realtà (1959)
+  url: https://www.mymovies.it/film/1959/ai-confini-della-realta/
+- title: Fantafestival - Twilight Zone (PDF)
+  url: https://www.fanta-festival.it/wp-content/uploads/2014/05/04-Fanta-TWILIGHT-ZONE.pdf
+research_confidence: low
+last_verified: '2026-11-20'
+locked: true

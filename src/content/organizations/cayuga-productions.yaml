@@ -1,0 +1,14 @@
+name: Cayuga Productions
+aka:
+- Cayuga Productions, Inc.
+kind: production-company
+description: Rod Serling's production company, which made the original series with CBS. It was named after Cayuga
+  Lake in upstate New York, where Serling had a summer home.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: The Twilight Zone (1959 TV series)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+research_confidence: medium
+tags:
+- seed-record

@@ -1,0 +1,12 @@
+title: Get Out
+kind: film
+ids:
+  imdb: tt5052448
+links:
+  trailer_youtube: DzfpyUB60YY
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+summary: Jordan Peele's horror film about a young Black man whose weekend with his white girlfriend's family uncovers
+  a plot to transplant wealthy white people's minds into Black bodies.
+release_date: '2017'

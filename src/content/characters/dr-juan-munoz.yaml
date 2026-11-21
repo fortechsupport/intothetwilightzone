@@ -1,0 +1,20 @@
+name: Dr. Juan Muñoz
+kind: human
+played_by:
+- Henry Darrow
+appears_in:
+- films/night-gallery-s2e12
+description: >-
+  A courtly scientist who keeps himself alive after death by living in a refrigerated apartment, in an adaptation
+  of H. P. Lovecraft's "Cool Air." When the cooling fails, so does he.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

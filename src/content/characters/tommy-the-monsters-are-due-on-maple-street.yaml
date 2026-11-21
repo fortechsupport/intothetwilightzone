@@ -1,0 +1,21 @@
+name: Tommy
+aka: []
+kind: human
+played_by:
+- Jan Handzlik
+appears_in:
+- 1959/the-monsters-are-due-on-maple-street
+description: >-
+  The boy who has read comic books about aliens and tells the street that the invaders send people who look like
+  humans ahead of them. His story starts the panic.
+recurring: false
+relevance: core
+sources:
+- title: The Monsters Are Due on Maple Street (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Monsters_Are_Due_on_Maple_Street
+- title: 'The Twilight Zone: The Monsters Are Due on Maple Street - IMDb'
+  url: https://www.imdb.com/title/tt0734664/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

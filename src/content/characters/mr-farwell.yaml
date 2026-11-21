@@ -1,0 +1,22 @@
+name: Mr. Farwell
+aka: []
+kind: human
+played_by:
+- Oscar Beregi Jr.
+appears_in:
+- 1959/the-rip-van-winkle-caper
+description: >-
+  The scientist who plans a gold-bullion train robbery and puts the four thieves into suspended animation for a
+  century. After waking he kills DeCruz with a gold bar and dies of thirst on a desert road, offering gold for water
+  to a couple from 2061, who explain that gold can now be manufactured and is worthless.
+recurring: false
+relevance: core
+sources:
+- title: The Rip Van Winkle Caper (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Rip_Van_Winkle_Caper
+- title: 'The Twilight Zone: The Rip Van Winkle Caper - IMDb'
+  url: https://www.imdb.com/title/tt0734674/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

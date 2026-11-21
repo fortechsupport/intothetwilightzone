@@ -1,0 +1,17 @@
+name: Walter Reed
+born: '1916-02-10'
+died: '2001-08-20'
+roles:
+- actor
+bio: >-
+  Walter Reed appeared in "Nick of Time" (1960), Richard Matheson's episode about a newlywed (William Shatner) who
+  becomes obsessed with a fortune-telling machine in a small-town diner. A dependable supporting actor, he worked
+  in John Ford westerns and dozens of 1950s films and TV series.
+relevance: core
+sources:
+- title: Walter Reed (actor) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Walter_Reed_(actor)
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/actors

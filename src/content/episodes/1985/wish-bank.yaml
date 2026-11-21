@@ -1,0 +1,32 @@
+title: Wish Bank
+series: '1985'
+season: 1
+episode: '04b'
+air_date: '1985-10-18'
+runtime_min: 9
+writers:
+- Michael Cassutt
+directors:
+- Rick Friedberg
+cast:
+- Dee Wallace
+narrator: Charles Aidman
+synopsis: A woman finds an old lamp and releases a genie, only to learn that wishes are now processed by a bureaucratic
+  office complete with forms, clerks and fine print.
+themes:
+- bureaucracy
+- comedy
+- wishes
+ids:
+  imdb: tt0734716
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Wish_Bank_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,12 @@
+from: films/psych-game-set-muuurder
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Shawn tosses off a Twilight Zone reference in the course of a tennis-world murder case.
+sources:
+- title: 'The Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: No reliable published source found; the claim rests on the Twilight Zone fandom wiki''s
+  list of TV references.'

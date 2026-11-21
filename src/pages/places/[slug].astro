@@ -1,0 +1,54 @@
+---
+import TrackButtons from '../../components/fan/TrackButtons.astro';
+import { trackFor } from '../../lib/fan/contribute';
+import Base from '../../layouts/Base.astro';
+import InCategories from '../../components/InCategories.astro';
+import Media from '../../components/Media.astro';
+import Sources from '../../components/Sources.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { resolveRef, formatDate } from '../../lib/data';
+import { PLACE_LABEL, placeLine } from '../../lib/places';
+
+export async function getStaticPaths() {
+  return (await getCollection('locations')).map((p) => ({ params: { slug: p.id }, props: { p } }));
+}
+interface Props { p: CollectionEntry<'locations'> }
+const { p } = Astro.props;
+const d = p.data;
+const filmed = await Promise.all(d.filmed.map(async (f) => ({ f, t: await resolveRef(f.ref) })));
+const paragraphs = (d.notes ?? '').split(/\n\s*\n/).map((x) => x.trim()).filter(Boolean);
+const hasGeo = typeof d.lat === 'number' && typeof d.lng === 'number';
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'Place',
+  name: d.name,
+  address: d.address,
+  geo: hasGeo ? { '@type': 'GeoCoordinates', latitude: d.lat, longitude: d.lng } : undefined,
+};
+---
+<Base title={d.name} description={`${d.name}${placeLine(d) ? `, ${placeLine(d)}` : ''}: its connection to The Twilight Zone.`} jsonld={jsonld}>
+  <InCategories recKey={`locations/${p.id}`} />
+  <h1>{d.name}</h1>
+  {(() => { const t = trackFor('locations', (d as any).kind); return (t.seen || t.own) && <TrackButtons recKey={`locations/${p.id}`} seen={t.seen} own={t.own} />; })()}
+  {placeLine(d) && <p class="muted">{placeLine(d)}</p>}
+  <dl class="facts">
+    {d.address && <><dt>Address</dt><dd>{d.address}</dd></>}
+    {d.status && <><dt>Status</dt><dd>{d.status}</dd></>}
+    {d.opened && <><dt>Opened</dt><dd>{formatDate(d.opened)}</dd></>}
+    {d.closed && <><dt>Closed</dt><dd>{formatDate(d.closed)}</dd></>}
+    {hasGeo && <><dt>Map</dt><dd><a href={`https://www.openstreetmap.org/?mlat=${d.lat}&mlon=${d.lng}#map=16/${d.lat}/${d.lng}`} rel="noopener">OpenStreetMap</a></dd></>}
+  </dl>
+  {paragraphs.map((t) => <p>{t}</p>)}
+  {filmed.length > 0 && (
+    <section>
+      <h2>{d.kind === 'in-story' ? 'Appears in' : 'Filmed here'}</h2>
+      <ul class="plain">
+        {filmed.map(({ f, t }) => (
+          <li>{t ? <a href={t.url}>{t.title}</a> : f.ref}{t && <span class="muted small"> ({t.kind})</span>}{f.note && <div class="small muted">{f.note}</div>}</li>
+        ))}
+      </ul>
+    </section>
+  )}
+  <Media media={d.media} recKey={`locations/${p.id}`} />
+  <Sources sources={d.sources} verified={d.last_verified} />
+</Base>

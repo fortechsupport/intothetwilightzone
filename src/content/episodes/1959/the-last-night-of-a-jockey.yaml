@@ -1,0 +1,33 @@
+title: The Last Night of a Jockey
+series: '1959'
+season: 5
+episode: '5'
+air_date: '1963-10-25'
+runtime_min: 25
+production_code: '2616'
+writers:
+- Rod Serling
+directors:
+- Joseph M. Newman
+cast:
+- Mickey Rooney
+narrator: Rod Serling
+synopsis: Grady, a disgraced jockey banned from racing for fixing races, sits alone in his shabby room arguing with
+  his own reflection. When his alter ego offers to grant his deepest wish, he asks to be big, with unexpected consequences.
+themes:
+- ambition
+- isolation
+- self-image
+ids:
+  imdb: tt0734652
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Last_Night_of_a_Jockey
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+last_verified: '2026-11-19'
+locked: true

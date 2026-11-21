@@ -1,0 +1,32 @@
+name: James Whitmore Jr.
+born: '1948-10-24'
+roles:
+- actor
+- director
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: Nightcrawlers
+  role: Trooper Dennis Wells
+  ref: 1985/nightcrawlers
+- series: The Twilight Zone (1985)
+  work: The Girl I Married
+  role: Ira
+  ref: 1985/the-girl-i-married
+bio: >-
+  James Whitmore Jr. played state trooper Dennis Wells in "Nightcrawlers" (1985), William Friedkin's segment of
+  the revival, and the lawyer Ira in the 1987 segment "The Girl I Married." The son of actor James Whitmore, he
+  acted in Baa Baa Black Sheep and other series before becoming a prolific television director on shows including
+  Quantum Leap, The X-Files and NCIS.
+relevance: core
+sources:
+- title: Nightcrawlers (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Nightcrawlers_(The_Twilight_Zone)
+- title: The Girl I Married - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Girl_I_Married
+- title: James Whitmore Jr. - Wikipedia
+  url: https://en.wikipedia.org/wiki/James_Whitmore_Jr.
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/actors
+- people/directors

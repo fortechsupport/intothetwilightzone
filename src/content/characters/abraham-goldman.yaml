@@ -1,0 +1,20 @@
+name: Abraham Goldman
+kind: human
+played_by:
+- Edward G. Robinson
+appears_in:
+- films/night-gallery-s2e13
+description: >-
+  A dying old man in New York's Lower East Side who insists the Messiah will come to save him and look after his
+  grandson. A large Black stranger in the snow may be the answer to his prayers.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

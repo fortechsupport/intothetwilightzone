@@ -1,0 +1,12 @@
+from: works/trick-or-treat-studios-talky-tina-replica
+to: 1959/living-doll
+kind: reference
+confidence: documented
+summary: Recreates the doll from 'Living Doll' (1963).
+sources:
+- title: sideshow.com
+  url: >-
+    https://www.sideshow.com/collectibles/the-twilight-zone-talky-tina-doll-trick-or-treat-studios-905676
+- title: bigbadtoystore.com
+  url: https://www.bigbadtoystore.com/Product/VariationDetails/95328
+last_verified: '2026-11-20'

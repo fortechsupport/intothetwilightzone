@@ -1,0 +1,33 @@
+title: Trevco CBS-licensed Twilight Zone t-shirts
+kind: collectible
+publisher: Trevco (CBS license)
+description: >-
+  Trevco makes Twilight Zone t-shirts under license from CBS, and Entertainment Earth sells them with item numbers
+  in its TRCBS range. Examples are "I'm in the Twilight Zone" (TRCBS186) and the Kanamit's Diner shirt (TRCBS1562BK).
+  These sit alongside the Trevco polo shirts already on the site. Big retailers carry similar licensed designs,
+  such as Target's women's cropped tee of "The Masks" and Walmart's "Living Doll" graphic tee and "Monologue" long-sleeve
+  shirt.
+subtype: apparel
+details:
+  item_numbers:
+  - TRCBS186
+  - TRCBS1562BK
+  note: The Hot Topic, Junk Food and Mad Engine lines were not confirmed
+  licensed: true
+relevance: core
+research_confidence: medium
+categories:
+- merchandise/household-apparel
+sources:
+- title: 'Entertainment Earth: The Twilight Zone I''m in the Twilight Zone T-Shirt (TRCBS186)'
+  url: https://www.entertainmentearth.com/product/the-twilight-zone-im-in-the-twilight-zone-tshirt/trcbs186
+- title: 'Entertainment Earth: The Twilight Zone Kanamit''s Diner (TRCBS1562BK)'
+  url: https://www.entertainmentearth.com/product/the-twilight-zone-kanamits-diner-polo-tshirt/trcbs1562bk
+- title: 'Target: Twilight Zone The Masks Women''s Heather Gray Cropped Tee'
+  url: https://www.target.com/p/twilight-zone-the-masks-women-s-heather-gray-cropped-tee/-/A-90368837
+- title: 'Walmart: Men''s The Twilight Zone Living Doll Episode Graphic Tee'
+  url: >-
+    https://www.walmart.com/ip/Men-s-The-Twilight-Zone-Living-Doll-Episode-Graphic-Tee-Black-2X-Large/676660278
+- title: 'Walmart: Twilight Zone Monologue Long Sleeve Shirt'
+  url: https://www.walmart.com/ip/Twilight-Zone-Monologue-Long-Sleeve-Shirt-Medium/573066295
+last_verified: '2026-11-20'

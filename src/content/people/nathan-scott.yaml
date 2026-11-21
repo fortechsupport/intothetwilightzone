@@ -1,0 +1,34 @@
+name: Nathan Scott
+roles:
+- composer
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: A Stop at Willoughby
+  role: composer
+  ref: 1959/a-stop-at-willoughby
+- series: The Twilight Zone (1959)
+  work: Young Man's Fancy
+  role: composer
+  ref: 1959/young-mans-fancy
+- series: The Twilight Zone (1959-1964)
+  work: A Stop at Willoughby
+  ref: 1959/a-stop-at-willoughby
+- series: The Twilight Zone (1959-1964)
+  work: Young Man's Fancy
+  ref: 1959/young-mans-fancy
+born: '1915-05-11'
+died: '2010-02-27'
+bio: >-
+  Television composer Nathan Scott scored two first-season Twilight Zone episodes, A Stop at Willoughby and Young
+  Man's Fancy, the former among the most admired episodes of the series. He worked widely in television and film
+  music of the period.
+sources:
+- title: Twilight Zone Composers Strike A Spooky Note - Long Island Weekly
+  url: https://longislandweekly.com/twilight-zone-composers-a-spooky-note/
+- title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
+  url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
+- title: Filmtracks – The Twilight Zone (40th Anniversary Collection)
+  url: https://www.filmtracks.com/titles/twilight_zone.html
+last_verified: '2026-11-20'
+relevance: core
+research_confidence: medium

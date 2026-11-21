@@ -1,0 +1,33 @@
+title: 'Twilight Zone: The Movie in 1983 college newspapers (library digital collections)'
+kind: other
+year: 1983
+publisher: The Battalion (Texas A&M); The Michigan Daily
+description: >-
+  Two university newspaper archives have digitized 1983 pages that come up in searches for Twilight Zone: The Movie.
+  One is page 5 of Texas A&M's The Battalion for June 23, 1983, the day before the film opened on June 24. The other
+  is a page of The Michigan Daily in the Bentley Historical Library's digital archive. Pages like these usually
+  carry the local theater ads or a review. Whether each page is a display ad or a review still needs checking.
+subtype: vintage-ad
+details:
+  to_verify: ad vs review on each page
+relevance: core
+research_confidence: low
+sources:
+- title: The Battalion (College Station, Tex.), June 23, 1983, Image 5 (Texas A&M digital newspapers)
+  url: https://newspaper.library.tamu.edu/lccn/sn86088544/1983-06-23/ed-1/seq-5/ocr
+- title: Michigan Daily digital archives (Bentley Historical Library)
+  url: https://digital.bentley.umich.edu/midaily/mdp.39015071755362/353
+- title: 'Box Office Mojo: Twilight Zone: The Movie'
+  url: https://www.boxofficemojo.com/title/tt0086491
+media:
+- type: ad
+  title: The Battalion, June 23, 1983, p.5
+  url: https://newspaper.library.tamu.edu/lccn/sn86088544/1983-06-23/ed-1/seq-5/ocr
+  host: Texas A&M University Libraries
+  rights: link-only
+- type: ad
+  title: Michigan Daily page
+  url: https://digital.bentley.umich.edu/midaily/mdp.39015071755362/353
+  host: Bentley Historical Library, University of Michigan
+  rights: link-only
+last_verified: '2026-11-20'

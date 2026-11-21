@@ -1,0 +1,18 @@
+title: Willy Wonka & the Chocolate Factory (pinball)
+kind: game
+year: 2019
+publisher: Jersey Jack Pinball
+description: >-
+  Includes a 'Time Enough at Last' achievement named after the classic episode. Pat Lawlor also worked on this table.
+  The table is otherwise unrelated to The Twilight Zone.
+subtype: pinball-homage
+details:
+  licensed: false
+relevance: tangential
+research_confidence: medium
+categories:
+- games/game-homages
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'

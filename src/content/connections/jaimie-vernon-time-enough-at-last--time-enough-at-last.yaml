@@ -1,0 +1,11 @@
+from: songs/jaimie-vernon-time-enough-at-last
+to: 1959/time-enough-at-last
+kind: reference
+confidence: documented
+summary: >-
+  Shares its title with the Burgess Meredith episode 'Time Enough at Last'; the episode link is inferred from the
+  title.
+sources:
+- title: 'Last.fm: Jaimie Vernon - Time Enough At Last (Chicago 2007)'
+  url: https://www.last.fm/music/Jaimie+Vernon/_/Time+Enough+At+Last+(Chicago+2007)
+last_verified: '2026-11-20'

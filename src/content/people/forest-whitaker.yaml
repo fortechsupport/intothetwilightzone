@@ -1,0 +1,25 @@
+name: Forest Whitaker
+roles:
+- host
+- narrator
+born: '1961-07-15'
+bio: >-
+  Forest Whitaker took on Rod Serling's role as on-screen host and narrator for all 43 episodes of the
+  2002 UPN revival, delivering the opening and closing monologues. An actor and director whose credits
+  include Bird, The Crying Game and Ghost Dog, he won the Academy Award for Best Actor a few years later
+  for playing Idi Amin in The Last King of Scotland (2006).
+sources:
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: Forest Whitaker - Wikipedia
+  url: https://en.wikipedia.org/wiki/Forest_Whitaker
+last_verified: '2026-11-19'
+tz_credits:
+- series: The Twilight Zone (2002)
+  work: 43 episodes
+  role: host/narrator
+- series: The Twilight Zone (2002)
+  work: series
+  role: consulting producer
+categories:
+- people/narrators-hosts

@@ -1,0 +1,20 @@
+name: Christine
+kind: human
+played_by:
+- Mimi Kennedy
+appears_in:
+- 1985/aqua-vita
+description: >-
+  A television news anchor facing her fortieth birthday who drinks a mysterious bottled water that makes her young
+  again, and pays the price.
+recurring: false
+relevance: core
+sources:
+- title: Aqua Vita (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Aqua_Vita
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,35 @@
+title: The Last Flight
+series: '1959'
+season: 1
+episode: '18'
+air_date: '1960-02-05'
+runtime_min: 25
+production_code: 173-3607
+writers:
+- Richard Matheson
+directors:
+- William F. Claxton
+cast:
+- Kenneth Haigh
+- Robert Warwick
+narrator: Rod Serling
+synopsis: A British World War I pilot flies into a strange white cloud over France in 1917 and lands at a modern
+  American air base decades later. Confused officers question him while he wrestles with what he left behind.
+themes:
+- cowardice
+- redemption
+- time travel
+- war
+ids:
+  imdb: tt0734651
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Last_Flight_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+last_verified: '2026-11-19'
+locked: true

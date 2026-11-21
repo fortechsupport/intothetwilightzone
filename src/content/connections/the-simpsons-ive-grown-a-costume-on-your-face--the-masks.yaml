@@ -1,0 +1,13 @@
+from: films/the-simpsons-ive-grown-a-costume-on-your-face
+to: 1959/the-masks
+kind: homage
+confidence: documented
+evidence: At a Halloween party, Springfield's residents turn into their costumes, echoing the episode's masks that
+  remake their wearers' faces.
+sources:
+- title: Television series with references to The Twilight Zone (Twilight Zone Wiki)
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+- title: Treehouse of Horror XVI/References (Simpsons Wiki)
+  url: https://simpsonswiki.com/wiki/Treehouse_of_Horror_XVI/References
+last_verified: '2026-11-19'
+locked: true

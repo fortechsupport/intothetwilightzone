@@ -1,0 +1,13 @@
+from: films/family-guy-httpete
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: After the Griffins and fellow diners are too absorbed in their phones to notice chaos around them, a Rod
+  Serling figure delivers a mock closing narration.
+sources:
+- title: Family Guy Wiki – Rod Serling
+  url: https://familyguy.fandom.com/wiki/Rod_Serling
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,16 @@
+from: films/the-woke-zone-the-babylon-bee
+to: series/1959
+kind: parody
+confidence: documented
+summary: The satire site's animated shorts spoof the show's format under the banner 'The Woke Zone'.
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+- title: Introducing The Woke Zone (The American Spectator)
+  url: https://spectator.org/?p=449032
+- title: 'Entering the Woke Dimension: Twilight Zone episode (Daily Wire)'
+  url: https://www.dailywire.com/news/entering-woke-dimension-twilight-zone-episode-paul-bois
+last_verified: '2026-11-20'
+locked: true
+evidence: The American Spectator ran a piece introducing the Babylon Bee's 'The Woke Zone' shorts, and the Daily
+  Wire also covered a Woke Zone 'Twilight Zone episode', so The Twilight Zone-spoof framing is reported beyond TV Tropes.

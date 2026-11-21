@@ -1,0 +1,28 @@
+name: Arthur C. Clarke
+roles:
+- author
+- writer
+born: '1917-12-16'
+died: '2008-03-19'
+bio: >-
+  Arthur C. Clarke wrote "The Star" (1955), the Hugo-winning short story about a Jesuit astrophysicist who discovers
+  that the star of Bethlehem was a supernova that destroyed a civilization; it was adapted as a segment of the 1985
+  Twilight Zone revival with a script by Alan Brennert. One of the central figures of science fiction, he wrote
+  Childhood's End, Rendezvous with Rama and The Fountains of Paradise, co-wrote 2001: A Space Odyssey with Stanley
+  Kubrick, and first proposed geostationary communications satellites in 1945.
+relevance: core
+sources:
+- title: Arthur C. Clarke - Wikipedia
+  url: https://en.wikipedia.org/wiki/Arthur_C._Clarke
+- title: The Star (Clarke short story) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Star_(Clarke_short_story)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+tags:
+- 1985-series
+- source-author
+- science-fiction
+categories:
+- people/writers

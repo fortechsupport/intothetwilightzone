@@ -1,0 +1,17 @@
+title: 'Williams Pinball: The Twilight Zone (Legends 4K Premium Pack)'
+kind: game
+subtype: game-appearance
+year: 2024
+creator: Zen Studios
+publisher: AtGames
+description: A downloadable Twilight Zone table pack for AtGames' Legends 4K home virtual-pinball cabinets, running
+  Zen Studios' game code under license from CBS. It brings the 1993 table to a full-size home digital cabinet.
+details:
+  platforms:
+  - AtGames Legends 4K Pinball
+  licensed: true
+sources:
+- title: atgames.us
+  url: https://www.atgames.us/products/williams-pinball-the-twilight-zone-l4k-only
+research_confidence: medium
+last_verified: '2026-11-19'

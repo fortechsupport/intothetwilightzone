@@ -1,0 +1,30 @@
+title: Hunted
+series: '2002'
+season: 1
+episode: '17'
+air_date: '2002-11-13'
+runtime_min: 22
+production_code: '117'
+writers:
+- Christopher Mack
+directors:
+- Patrick R. Norris
+cast:
+- Scott Bairstow
+- Marisol Nichols
+narrator: Forest Whitaker
+synopsis: In a future that has bred violence out of humanity, a special forces team must track down a lethal creature,
+  forcing them to confront instincts their society thought it had erased.
+themes:
+- future
+- human nature
+- violence
+ids:
+  imdb: tt0734789
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

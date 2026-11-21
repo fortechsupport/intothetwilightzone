@@ -1,0 +1,17 @@
+title: KTLA's Fourth of July Twilight Zone marathon (from 1983)
+kind: event
+subtype: marathon
+year: 1983
+description: KTLA began a Fourth of July Twilight Zone marathon in 1983, according to its program director in a
+  1991 Los Angeles Times piece. It became a summer counterpart to the New Year's marathons in other cities.
+details:
+  station: KTLA (Los Angeles)
+sources:
+- title: 'Den of Geek: The Twilight Zone Marathon, a History of a Holiday Tradition (Arlen Schumer, 2018)'
+  url: https://www.denofgeek.com/tv/the-twilight-zone-marathon-a-history-of-a-holiday-tradition/
+categories:
+- events/broadcasts-marathons
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

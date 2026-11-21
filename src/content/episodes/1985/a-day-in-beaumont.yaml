@@ -1,0 +1,35 @@
+title: A Day in Beaumont
+series: '1985'
+season: 1
+episode: '24a'
+air_date: '1986-04-11'
+runtime_min: 19
+writers:
+- David Gerrold
+directors:
+- Philip DeGuere
+cast:
+- Victor Garber
+- Stacey Nelkin
+- John Agar
+- Warren Stevens
+narrator: Charles Aidman
+synopsis: In the 1950s, a young couple sees a meteor come down near their small town and soon finds evidence of
+  an alien invasion that no one in authority will believe.
+themes:
+- '1950s'
+- alien invasion
+- paranoia
+ids:
+  imdb: tt0734697
+links:
+  wikipedia: https://en.wikipedia.org/wiki/A_Day_in_Beaumont
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

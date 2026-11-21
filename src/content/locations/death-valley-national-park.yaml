@@ -1,0 +1,29 @@
+name: Death Valley National Park
+kind: filming-location
+city: Death Valley
+region: California
+country: US
+lat: 36.5054
+lng: -117.0794
+status: open
+filmed:
+- ref: 1959/the-lonely
+  note: Two days of location filming in June 1959.
+- ref: 1959/i-shot-an-arrow-into-the-air
+  note: Listed by the National Park Service as filmed in Death Valley.
+notes: >-
+  The production went to Death Valley in the second week of June 1959 for "The Lonely," choosing it as
+  the lowest, driest, hottest spot in the country to stand in for an asteroid prison; the heat nearly
+  overwhelmed cast and crew. The park service lists "I Shot an Arrow into the Air" as another Twilight
+  Zone episode filmed there, its barren terrain standing in for the place where crash-landed astronauts
+  believe they are stranded on an alien world. Specific spots within the park are not documented in the
+  sources found.
+sources:
+- title: Filming This Twilight Zone Season 1 Episode Ended Up Being Too Hot To Handle - SlashFilm
+  url: https://www.slashfilm.com/1419971/the-twilight-zone-episode-the-lonely-too-hot
+- title: Death Valley in Movies and Television - National Park Service
+  url: https://home.nps.gov/deva/learn/historyculture/death-valley-in-movies-and-television.htm
+- title: Twilight Zone, Death Valley and Highway 395 - Vacation Education
+  url: >-
+    https://vacation-education.blogspot.com/2011/12/twilight-zone-death-valley-and-highway.html
+last_verified: '2026-11-19'

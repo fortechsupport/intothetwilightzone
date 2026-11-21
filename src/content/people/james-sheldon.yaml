@@ -1,0 +1,59 @@
+name: James Sheldon
+roles:
+- director
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: 6 episodes
+  role: director
+- series: The Twilight Zone (1959)
+  work: The Whole Truth
+  role: director
+  ref: 1959/the-whole-truth
+- series: The Twilight Zone (1959)
+  work: A Penny for Your Thoughts
+  role: director
+  ref: 1959/a-penny-for-your-thoughts
+- series: The Twilight Zone (1959)
+  work: Long Distance Call
+  role: director
+  ref: 1959/long-distance-call
+- series: The Twilight Zone (1959)
+  work: It's a Good Life
+  role: director
+  ref: 1959/its-a-good-life
+- series: The Twilight Zone (1959)
+  work: Still Valley
+  role: director
+  ref: 1959/still-valley
+- series: The Twilight Zone (1959)
+  work: I Sing the Body Electric
+  role: director
+  ref: 1959/i-sing-the-body-electric
+born: '1920'
+died: '2016'
+bio: >-
+  Television director James Sheldon directed six episodes of the original series, among them It's a Good
+  Life, with Billy Mumy as the all-powerful Anthony, as well as Long Distance Call, Still Valley and I
+  Sing the Body Electric. One of the busiest directors in American television, he directed hundreds of
+  episodes of network series from the 1950s into the 1980s, including M*A*S*H.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/James_Sheldon
+sources:
+- title: James Sheldon - Wikipedia
+  url: https://en.wikipedia.org/wiki/James_Sheldon
+- title: Remembering James Sheldon - Television Academy Interviews
+  url: https://interviews.televisionacademy.com/news/remembering-james-sheldon
+last_verified: '2026-11-19'
+media:
+- title: 'James Sheldon interview, The Interviews: An Oral History of Television'
+  url: https://interviews.televisionacademy.com/interviews/james-sheldon
+  host: Television Academy Foundation
+  type: interview
+  rights: link-only
+- title: James Sheldon's interview is online
+  url: https://interviews.televisionacademy.com/news/james-sheldons-interview-is-online
+  host: Television Academy Foundation
+  type: article
+  rights: link-only
+categories:
+- people/directors

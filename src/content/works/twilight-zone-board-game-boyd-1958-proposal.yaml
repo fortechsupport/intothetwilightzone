@@ -1,0 +1,26 @@
+title: Proposed Twilight Zone board game (Boyd Specialty Company, 1958)
+kind: game
+year: 1958
+creator: John J. Boyd, Sr.
+publisher: Boyd Specialty Company (proposed)
+description: >-
+  In 1958, before the pilot was made, Boyd Specialty Company president John J. Boyd, Sr. wrote to Rod Serling asking
+  to license the show's name for a board game and to place it in episodes as an advertising tie-in, promising it
+  would beat Monopoly. Serling said the show was too early for merchandise and referred him to CBS programming head
+  William Dozier. The game was never made.
+subtype: unrealized-project
+details:
+  status: never produced
+  licensed: false
+  people:
+  - Rod Serling
+  - John J. Boyd, Sr.
+  - William Dozier
+relevance: core
+research_confidence: medium
+categories:
+- games/board-card-games
+sources:
+- title: '/Film: The Twilight Zone almost had merchandise before the pilot was even made'
+  url: https://www.slashfilm.com/1909975/twilight-zone-merchandise-board-game-before-pilot
+last_verified: '2026-11-20'

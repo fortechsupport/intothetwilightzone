@@ -1,0 +1,22 @@
+name: Alice
+aka:
+- The Doll
+kind: object
+played_by:
+- Claire Griswold
+appears_in:
+- 1959/miniature
+description: >-
+  A lovely doll in a museum dollhouse, who comes to life for Charley. She plays the piano and cries over an unkind
+  suitor, and in the end Charley joins her.
+recurring: false
+relevance: core
+sources:
+- title: Miniature (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Miniature_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Miniature - IMDb'
+  url: https://www.imdb.com/title/tt0734589/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

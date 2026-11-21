@@ -1,0 +1,17 @@
+name: Dachau ("Deaths-Head Revisited")
+kind: in-story
+filmed:
+- ref: 1959/deaths-head-revisited
+  note: A former SS captain returns to the camp and is tried by the ghosts of its prisoners.
+episodes:
+- 1959/deaths-head-revisited
+notes: Serling set this episode in the ruins of the real Nazi concentration camp near Munich, which he described
+  in his closing narration as a place that must stand as a reminder. The memorial site at Dachau is now visited
+  by about 800,000 people a year.
+sources:
+- title: 'Wikipedia: Deaths-Head Revisited'
+  url: https://en.wikipedia.org/wiki/Deaths-Head_Revisited
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

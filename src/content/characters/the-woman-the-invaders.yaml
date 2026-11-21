@@ -1,0 +1,22 @@
+name: The Woman
+aka: []
+kind: human
+played_by:
+- Agnes Moorehead
+appears_in:
+- 1959/the-invaders
+description: >-
+  A lone farm woman whose house is invaded by two tiny figures from a miniature spacecraft. She fights them in a
+  wordless performance and destroys them, only to learn that they are astronauts from Earth and she is a giant on
+  another world.
+recurring: false
+relevance: core
+sources:
+- title: The Invaders (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Invaders_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Invaders - IMDb'
+  url: https://www.imdb.com/title/tt0734648/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

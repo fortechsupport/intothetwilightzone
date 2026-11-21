@@ -1,0 +1,73 @@
+title: Where Is Everybody?
+series: '1959'
+season: 1
+episode: '1'
+air_date: '1959-10-02'
+runtime_min: 25
+production_code: 173-3601
+writers:
+- Rod Serling
+directors:
+- Robert Stevens
+cast:
+- Earl Holliman
+- James Gregory
+narrator: Rod Serling
+synopsis: A man in an Air Force-style jumpsuit wanders into a small town with no memory of who he is. Coffee is still
+  warm, a jukebox plays, and a cigar smolders, yet he cannot find a single living person anywhere.
+themes:
+- identity
+- isolation
+- loneliness
+- space race
+trivia:
+- text: Westbrook Van Voorhis recorded the pilot's original narration. Serling later re-recorded it himself so the narration
+    would be consistent with the rest of the series.
+  sources:
+  - title: Where Is Everybody? - Wikipedia
+    url: https://en.wikipedia.org/wiki/Where_Is_Everybody%3F
+- text: Unlike most episodes, which were made at MGM, the pilot was shot at Universal Studios, with the Courthouse Square
+    set standing in for the town of Oakwood.
+  sources:
+  - title: Where Is Everybody? - Wikipedia
+    url: https://en.wikipedia.org/wiki/Where_Is_Everybody%3F
+- text: Before this pilot, CBS bought Serling's teleplay "The Time Element" and shelved it; it was later found in the
+    vaults and aired on Westinghouse Desilu Playhouse on November 24, 1958.
+  sources:
+  - title: The Twilight Zone (1959 TV series) - Wikipedia
+    url: https://en.wikipedia.org/wiki/The_Time_Element
+ids:
+  imdb: tt0734692
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Where_Is_Everybody%3F
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+last_verified: '2026-11-19'
+locked: true
+media:
+- type: video
+  subtype: alternate-version
+  title: 'Where Is Everybody?: original pilot version with Serling''s sales pitch (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+- type: video
+  subtype: alternate-version
+  title: 'Where Is Everybody?: alternate opening (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+- type: video
+  subtype: alternate-version
+  title: 'Where Is Everybody?: alternate ending (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed

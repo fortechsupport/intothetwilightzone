@@ -1,0 +1,10 @@
+from: films/tiny-toon-adventures-the-return-of-the-acme-acres-zone
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: Sequel to 'The Acme Acres Zone', again presenting a set of eerie shorts with Twilight Zone-style hosting.
+sources:
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
+locked: true

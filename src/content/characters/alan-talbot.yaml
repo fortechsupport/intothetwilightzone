@@ -1,0 +1,22 @@
+name: Alan Talbot
+aka: []
+kind: robot
+played_by:
+- George Grizzard
+appears_in:
+- 1959/in-his-image
+description: >-
+  A young man who brings his fiancée home to Coeurville and finds the town he remembers has changed. He learns he
+  is a robot built a week earlier by the scientist Walter Ryder Jr., who made Alan in his own image as a better
+  version of himself. Alan is destroyed, and Ryder takes his place with the fiancée.
+recurring: false
+relevance: core
+sources:
+- title: In His Image (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/In_His_Image
+- title: 'The Twilight Zone: In His Image - IMDb'
+  url: https://www.imdb.com/title/tt0734578/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

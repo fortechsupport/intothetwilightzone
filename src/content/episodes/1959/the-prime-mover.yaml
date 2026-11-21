@@ -1,0 +1,48 @@
+title: The Prime Mover
+series: '1959'
+season: 2
+episode: '21'
+air_date: '1961-03-24'
+runtime_min: 25
+production_code: 173-3647
+writers:
+- Charles Beaumont
+directors:
+- Richard L. Bare
+cast:
+- Dane Clark
+- Buddy Ebsen
+narrator: Rod Serling
+synopsis: Ace Larsen runs a roadside cafe with his partner Jimbo, who can move objects with his mind. Ace talks Jimbo
+  into taking his gift to Las Vegas, where the winnings begin to change Ace.
+themes:
+- friendship
+- gambling
+- greed
+- telekinesis
+ids:
+  imdb: tt0734672
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Prime_Mover
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 2) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_2)
+- title: The Twilight Zone (1959 TV series, season 2) - GoodOldTV (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_2)
+- title: 'CTVA: The Twilight Zone Season 2 (1960-61)'
+  url: https://ctva.biz/US/Anthology/TwilightZone_02_(1960-61).htm
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson on "The Prime Mover"
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  duration: '10:31'

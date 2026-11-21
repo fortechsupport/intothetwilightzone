@@ -1,0 +1,23 @@
+name: Pacific Ocean Park, Santa Monica
+kind: filming-location
+city: Santa Monica
+region: California
+country: US
+status: demolished
+opened: '1958'
+closed: '1967'
+filmed:
+- ref: 1959/in-praise-of-pip
+  note: Amusement-park scenes.
+notes: A nautical-themed amusement pier at Santa Monica and Venice that operated from 1958 to 1967. It stood in
+  for the amusement park in "In Praise of Pip," where Jack Klugman's bookie relives an evening with his young son
+  in the shooting gallery and house of mirrors. The pier was demolished in the 1970s.
+sources:
+- title: 'Wikipedia: In Praise of Pip'
+  url: https://en.wikipedia.org/wiki/In_Praise_of_Pip
+- title: 'Wikipedia: Pacific Ocean Park'
+  url: https://en.wikipedia.org/wiki/Pacific_Ocean_Park
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,36 @@
+title: The 7th Is Made Up of Phantoms
+series: '1959'
+season: 5
+episode: '10'
+air_date: '1963-12-06'
+runtime_min: 25
+production_code: '2606'
+writers:
+- Rod Serling
+directors:
+- Alan Crosland Jr.
+cast:
+- Ron Foster
+- Warren Oates
+- Greg Morris
+narrator: Rod Serling
+synopsis: Three National Guardsmen on modern tank maneuvers near the Little Bighorn battlefield in 1964 begin hearing
+  war cries and finding relics. Gradually they seem to be slipping back toward the day of Custer's last stand.
+themes:
+- history
+- soldiers
+- time slip
+- war
+ids:
+  imdb: tt0734627
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_7th_Is_Made_Up_of_Phantoms
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+last_verified: '2026-11-19'
+locked: true

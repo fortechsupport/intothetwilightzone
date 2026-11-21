@@ -1,0 +1,13 @@
+from: works/bif-bang-pow-star-trek-twilight-zone-shatner-bobbleheads
+to: 1959/nightmare-at-20-000-feet
+kind: reference
+confidence: documented
+summary: Bob Wilson is Shatner's character in 'Nightmare at 20,000 Feet'.
+sources:
+- title: entertainmentearth.com
+  url: >-
+    https://www.entertainmentearth.com/product/star-trek-twilight-zone-capt-passenger-con-exclusive/bbp05022e
+- title: 'Entertainment Earth: Star Trek / The Twilight Zone The Captain and the Passenger Monitor Mates'
+  url: >-
+    https://www.entertainmentearth.com/product/star-trek-the-twilight-zone-the-captain-and-the-passenger-monitor-mates-convention-exclusive/bbp05022e
+last_verified: '2026-11-20'

@@ -1,0 +1,18 @@
+name: Elvis Presley
+kind: human
+played_by:
+- Jeff Yagher
+appears_in:
+- 1985/the-once-and-future-king
+description: The young Elvis before fame, played by the same actor as his impersonator in a time-loop story.
+recurring: false
+relevance: core
+sources:
+- title: The Once and Future King (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Once_and_Future_King_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

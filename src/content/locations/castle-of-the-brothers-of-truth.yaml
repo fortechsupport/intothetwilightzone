@@ -1,0 +1,17 @@
+name: The castle of the Brothers of Truth
+kind: in-story
+filmed:
+- ref: 1959/the-howling-man
+  note: The Central European monastery where a monk keeps the Devil locked up.
+episodes:
+- 1959/the-howling-man
+notes: An ancient castle in Central Europe, just after the First World War, where a monastic order holds a howling
+  prisoner behind a door barred with the Staff of Truth. Their guest frees him and learns too late that he has released
+  the Devil.
+sources:
+- title: 'Wikipedia: The Howling Man'
+  url: https://en.wikipedia.org/wiki/The_Howling_Man
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

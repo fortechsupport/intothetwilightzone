@@ -1,0 +1,22 @@
+---
+// Breadcrumb for a record page: its first place in the taxonomy, plus every other place it is listed.
+// For content (an advertisement, archival holding, quote or link), it also names the records it belongs to.
+import { placesOf, parentsOfContent } from '../lib/catalog';
+interface Props { recKey: string; extra?: [string, string][] }
+const { recKey, extra = [] } = Astro.props;
+const places = await placesOf(recKey);
+const parents = (await parentsOfContent(recKey)) ?? [];
+const [first, ...rest] = places;
+---
+<p class="breadcrumb" data-pagefind-ignore>
+  <a href="/">Home</a>
+  {first && <> / <a href={`/${first.cat}/`}>{first.catTitle}</a> / <a href={first.href}>{first.subTitle}</a></>}
+  {!first && parents[0]?.href && <> / <a href={parents[0].href}>{parents[0].title}</a></>}
+  {extra.map(([label, href]) => <> / <a href={href}>{label}</a></>)}
+</p>
+{parents.length > 0 && (
+  <p class="also-in small" data-pagefind-ignore>Part of: {parents.map((p, i) => <>{i > 0 && ' · '}{p.href ? <a href={p.href}>{p.title}</a> : p.title}</>)}</p>
+)}
+{rest.length > 0 && (
+  <p class="also-in small muted" data-pagefind-ignore>Also listed in: {rest.map((p, i) => <>{i > 0 && ' · '}<a href={p.href}>{p.catTitle}: {p.subTitle}</a></>)}</p>
+)}

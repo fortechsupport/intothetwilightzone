@@ -1,0 +1,85 @@
+title: Twilight Zone (pinball)
+kind: game
+subtype: pinball
+year: 1993
+creator: Pat Lawlor (lead designer)
+publisher: Midway Manufacturing (Bally label)
+description: >-
+  Midway's widebody pinball machine, sold under the Bally name, conceived by Pat Lawlor and stuffed with references
+  to the original series: a Powerfield magnetic mini-playfield, a working gumball machine, a ceramic "Powerball",
+  and a slot machine kickout. Widely ranked among the most complex and best-loved pinball machines ever made, it
+  is the franchise's best-known game.
+details:
+  platforms:
+  - arcade
+  licensed: true
+  release: April 1993
+  model_number: '50020'
+  system: Midway WPC (Fliptronics II)
+  players: 1-4
+  production: 15,235
+  design: Pat Lawlor, Larry DeMar, Ted Estes
+  software: Larry DeMar, Ted Estes
+  art: John Youssi
+  mechanics: John Krutsch
+  music: Chris Granner
+  sound: Chris Granner, Rich Karstens
+  voice: Tim Kitzrow (Rod Serling narration)
+  sound_hardware: Yamaha YM2151 + CVSD board (DCS was not ready in time)
+  music_note: >-
+    Main theme interprets Golden Earring's 1982 song 'Twilight Zone'; George Kooymans reportedly took a machine
+    in exchange for the rights
+  toys: >-
+    Gumball machine, Powerball (white ceramic), clock, Powerfield mini-playfield with Magna-Flips, slot machine,
+    player piano, camera, door, Talky Tina, Robby the Robot, Henry Bemis glasses
+  people:
+  - Pat Lawlor
+  - Larry DeMar
+  - Ted Estes
+  - John Youssi
+  - John Krutsch
+  - Chris Granner
+  - Rich Karstens
+  - Tim Kitzrow
+ids:
+  ipdb: '2684'
+  wikipedia: Twilight_Zone_(pinball)
+sources:
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_(pinball)
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(franchise)
+- title: 'Pinside: Twilight Zone'
+  url: https://pinside.com/pinball/archive/twilight-zone
+- title: 'Museum of the Game (IPDB/KLOV): Twilight Zone'
+  url: https://arcade-museum.com/Pinball/twilight-zone--bally
+- title: 'Kineticist: the most complex 90s pinball machine ever built'
+  url: https://www.kineticist.com/promoters/the-skill-shot/the-most-complex-90s-pinball-machine-ever-built
+- title: 'Arcade History: Twilight Zone [Model 50020]'
+  url: https://www.arcade-history.com/game/5286/
+research_confidence: high
+last_verified: '2026-11-20'
+relevance: core
+media:
+- type: document
+  title: Twilight Zone operations manual (PDF)
+  url: https://www.arcade-museum.com/manuals-pinball/T/Twilight_Zone_OPS.pdf
+  host: arcade-museum.com
+  rights: link-only
+- type: document
+  title: The Flipside vol.2 no.3 review (PDF)
+  url: https://legacy.papa.org/flipside/v2i3.pdf
+  host: PAPA (legacy.papa.org)
+  rights: link-only
+- type: document
+  title: Play Meter vol.19 no.8 (July 1993), Twilight Zone coverage
+  url: https://archive.org/details/play-meter-volume-19-number-8-july-1993
+  host: archive.org
+  rights: link-only
+- type: audio
+  title: Twilight Zone pinball soundtrack, original version (Chris Granner)
+  url: https://cgmusic.net/TZ/TwilightZonePinballSoundtrackOriginalVersion.mp3
+  host: cgmusic.net (composer's own site)
+  rights: licensed
+categories:
+- games/pinball-arcade

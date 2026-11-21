@@ -1,0 +1,13 @@
+from: films/futurama-a-head-in-the-polls
+to: 1959/time-enough-at-last
+kind: parody
+confidence: documented
+evidence: Introduces the in-universe show 'The Scary Door' with 'The Last Man on Earth', where a bookworm's glasses
+  break and then he loses ever more body parts, an escalating riff on Henry Bemis's fate.
+sources:
+- title: The Infosphere – The Scary Door
+  url: https://theinfosphere.org/TSD
+- title: /Film – Every Twilight Zone episode parodied by Futurama's The Scary Door
+  url: https://slashfilm.com/stories/every-twilight-zone-episode-parodied-by-futuramas-the-scary-door
+last_verified: '2026-11-20'
+locked: true

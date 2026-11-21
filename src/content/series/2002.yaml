@@ -1,0 +1,81 @@
+title: The Twilight Zone
+years: '2002–2003'
+network: UPN
+host: Forest Whitaker
+seasons: 1
+order: 3
+summary: The second revival, one season of 43 stories on UPN from September 18, 2002 to May 21, 2003, hosted by Forest
+  Whitaker. UPN usually paired two half-hour stories in an hour on Wednesday nights. Alongside new tales it revisited
+  the original with updated remakes and a sequel, "It's Still a Good Life", which brought back Bill Mumy and Cloris Leachman.
+  It was produced by Trilogy Entertainment's Pen Densham, Mark Stern and John Watson, with Ira Steven Behr running the
+  writers' room.
+locked: true
+international_titles:
+- country: France
+  language: French
+  title: La 13ème dimension
+  year: 2003
+  note: First French broadcast dated 29 January 2003, with no channel named. The series aired on 13ème Rue, Série Club
+    and NRJ12.
+  sources:
+  - title: 'A Suivre: 13ème dimension (La)'
+    url: https://a-suivre.org/annuseries/encyclopedie/series.php?series=856
+  - title: 'AlloCiné: La 13ème dimension'
+    url: https://www.allocine.fr/series/ficheserie_gen_cserie=41.html
+releases:
+- date: '2004'
+  format: DVD
+  title: 'The Twilight Zone (2002): The Complete Series'
+  publisher: Image Entertainment (unconfirmed)
+  region: Region 1
+  note: 6-disc set of all 43 episodes of the UPN revival hosted by Forest Whitaker, sold as "Season One"/complete series.
+    Label and exact date not verified.
+  sources:
+  - title: The Twilight Zone (2002) (DVD, 2004, 6-Disc Set) - eBay product listing
+    url: https://ebay.com/p/43707144
+  - title: DVD Talk review 12253
+    url: https://www.dvdtalk.com/reviews/review/12253
+history:
+- date: '2002-09-18'
+  title: UPN premiere
+  text: The revival opened on UPN on a Wednesday night with two half-hour stories, introduced on screen by Forest Whitaker.
+  sources:
+  - title: Wikipedia - The Twilight Zone (2002 TV series)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- date: '2003-05-21'
+  title: Cancelled after one season
+  text: UPN ended the series after its first season of 43 stories.
+  sources:
+  - title: Wikipedia - The Twilight Zone (2002 TV series)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+sources:
+- title: Wikipedia - The Twilight Zone (2002 TV series)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+media:
+- type: interview
+  subtype: retrospective-interview
+  title: '''The Twilight Zone'' producer on short-lived revival 20 years later: ''They did not know what they wanted'''
+  url: https://syfy.com/syfy-wire/twilight-zone-2002-upn-revival-producer-ira-behr-interview
+  host: SYFY WIRE
+  rights: link-only
+  date: '2022'
+  note: Showrunner Ira Steven Behr looks back on making the UPN series.
+- type: article
+  subtype: retrospective
+  title: The Twilight Zone's 2002 revival was doomed from the start, thanks to network interference
+  url: https://slashfilm.com/1407362/the-twilight-zone-2002-upn-revival-network-interference
+  host: /Film
+  rights: link-only
+- type: article
+  subtype: retrospective
+  title: '''The Twilight Zone'' 20 years later: remembering UPN''s 2002 revival'
+  url: https://www.syfy.com/syfy-wire/the-twilight-zone-remembering-2002-upn-tv-revival
+  host: SYFY WIRE
+  rights: link-only
+  date: '2022'
+- type: article
+  subtype: retrospective
+  title: 'TV Terrors: remembering the 2002 revival of The Twilight Zone'
+  url: https://www.bloody-disgusting.com/tv/3554267/tv-terrors-remember-2002-revival-twilight-zone/
+  host: Bloody Disgusting
+  rights: link-only

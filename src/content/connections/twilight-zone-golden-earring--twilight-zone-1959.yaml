@@ -1,0 +1,19 @@
+from: films/twilight-zone-golden-earring
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Dick Maas's video for Golden Earring's hit borrows the series' name for its title; included here for curation,
+  as the song's link to the show is in name only.
+sources:
+- title: 'Music Video of the Day: Twilight Zone by Golden Earring (1982, dir. Dick Maas)'
+  url: https://unobtainium13.com/2017/06/13/music-video-of-the-day-twilight-zone-by-golden-earring-1982-dir-dick-maas
+- title: 'Golden Earring: Twilight Zone (IMDb)'
+  url: https://www.imdb.de/title/tt10222666/
+- title: The Song That Brought Rock Band Golden Earring Back From Obscurity in America (American Songwriter)
+  url: https://americansongwriter.com/the-song-that-brought-rock-band-golden-earring-back-from-obscurity-in-america/?nb=1
+last_verified: '2026-11-20'
+locked: true
+research_confidence: low
+evidence: 'Research note (2026-11-20): American Songwriter reports that George Kooymans wrote the song with spy
+  fiction in mind, specifically Robert Ludlum''s Bourne novels, and says the title and lyrics have no tie to the
+  TV series.'

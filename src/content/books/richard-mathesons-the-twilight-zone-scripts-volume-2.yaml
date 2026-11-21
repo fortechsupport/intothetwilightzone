@@ -1,0 +1,22 @@
+title: Richard Matheson's The Twilight Zone Scripts, Volume 2
+authors:
+- Richard Matheson
+- Stanley Wiater
+publisher: Gauntlet Press / Edge Books
+published: '2002-05'
+pages: 406
+isbn: '1887368523'
+kind: scripts
+description: The second volume of Richard Matheson's Twilight Zone teleplays, edited by Stanley Wiater.
+ids:
+  goodreads: '33552'
+  amazon_asin: '1887368523'
+relevance: core
+research_confidence: high
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Originally listed in Adam's research spreadsheets.
+- title: Locus Index to Science Fiction 2003
+  url: https://locusmag.com/index/yr2003/t32.htm
+last_verified: '2026-11-19'
+locked: true

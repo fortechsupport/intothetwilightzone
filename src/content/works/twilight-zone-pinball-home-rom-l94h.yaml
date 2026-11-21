@@ -1,0 +1,25 @@
+title: Twilight Zone pinball home ROM (L-9.4H)
+kind: game
+creator: Ted Estes
+description: >-
+  A home-use version of the Twilight Zone pinball software by original programmer Ted Estes, meant for free-play
+  machines only. It adds a 'Lost in the Zone' practice round, an extra multiball start mode and a pause of up to
+  15 minutes. Separately, Estes fixed bugs in the standard ROMs without changing the rules.
+subtype: pinball-software
+details:
+  licensed: true
+  people:
+  - Ted Estes
+relevance: core
+research_confidence: medium
+categories:
+- games/pinball-arcade
+sources:
+- title: 'Wikipedia: Twilight Zone (pinball)'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_(pinball)
+- title: 'Action Pinball tech article: TZ 9.4H'
+  url: https://actionpinball.com/tech/tz94h.php
+- title: 'Pinball Heaven UK: EPROM special home use software U6 L9.4H'
+  url: >-
+    https://www.pinball.co.uk/game-specific-parts/twilight-zone/eprom-special-home-use-software-u6-l9-4h/
+last_verified: '2026-11-20'

@@ -1,0 +1,21 @@
+name: Veterans Memorial Park, Culver City
+kind: filming-location
+address: 4117 Overland Avenue, Culver City, CA
+city: Culver City
+region: California
+country: US
+lat: 34.0079
+lng: -118.4038
+status: open
+filmed:
+- ref: 1959/person-or-persons-unknown
+  note: Park scenes near Gurney's bank.
+notes: >-
+  The civic park across the road from MGM's studio was used for the park scenes of "Person or Persons
+  Unknown," in which David Gurney wakes to find no one knows him. The bank where he tries to prove his
+  identity was the old Culver City library nearby.
+sources:
+- title: A Twilight Zone Hangover - On the MGM Studio Backlot - Phantom of the Backlots
+  url: >-
+    https://phantomofthebacklots.com/2023/09/28/a-twilight-zone-hangover-on-the-mgm-studio-backlot
+last_verified: '2026-11-19'

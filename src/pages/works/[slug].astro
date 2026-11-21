@@ -1,0 +1,63 @@
+---
+import TrackButtons from '../../components/fan/TrackButtons.astro';
+import { trackFor } from '../../lib/fan/contribute';
+import Base from '../../layouts/Base.astro';
+import InCategories from '../../components/InCategories.astro';
+import Media from '../../components/Media.astro';
+import Related from '../../components/Related.astro';
+import Sources from '../../components/Sources.astro';
+import ExtLinks from '../../components/ExtLinks.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { resolveRef, CONNECTION_LABELS, CONFIDENCE_LABELS } from '../../lib/data';
+import { KIND_LABEL, humanize, detailText } from '../../lib/works';
+
+export async function getStaticPaths() {
+  return (await getCollection('works')).map((w) => ({ params: { slug: w.id }, props: { w } }));
+}
+interface Props { w: CollectionEntry<'works'> }
+const { w } = Astro.props;
+const d = w.data;
+const conns = (await getCollection('connections')).filter((c) => c.data.from === `works/${w.id}`);
+const targets = await Promise.all(conns.map(async (c) => ({ c, t: await resolveRef(c.data.to) })));
+const details = Object.entries(d.details ?? {}).filter(([, v]) => detailText(v) !== '');
+const linkNames: Record<string, string> = { official: 'Official site', home: 'Website' };
+const extraLinks = Object.entries(d.links ?? {}).filter(([k]) => k in linkNames);
+const otherLinks = Object.fromEntries(Object.entries(d.links ?? {}).filter(([k]) => !(k in linkNames)));
+const jsonld = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: d.title, dateCreated: d.year ? String(d.year) : undefined, creator: d.creator, publisher: d.publisher };
+---
+<Base title={d.title} description={d.description ?? `${d.title}: ${KIND_LABEL[d.kind] ?? d.kind} connected to The Twilight Zone.`} jsonld={jsonld}>
+  <InCategories recKey={`works/${w.id}`} />
+  <h1>{d.title}</h1>
+  {(() => { const t = trackFor('works', (d as any).kind); return (t.seen || t.own) && <TrackButtons recKey={`works/${w.id}`} seen={t.seen} own={t.own} />; })()}
+  {d.subtype && <p class="muted">{humanize(d.subtype)}</p>}
+  {d.description && <p class="lead">{d.description}</p>}
+  <dl class="facts">
+    {d.year && <><dt>Year</dt><dd>{d.year}</dd></>}
+    {d.creator && <><dt>Creator</dt><dd>{d.creator}</dd></>}
+    {d.publisher && <><dt>Publisher or maker</dt><dd>{d.publisher}</dd></>}
+    {details.map(([k, v]) => <><dt>{humanize(k)}</dt><dd>{detailText(v)}</dd></>)}
+  </dl>
+  {targets.length > 0 && (
+    <section>
+      <h2>Twilight Zone connection</h2>
+      <ul class="plain">
+        {targets.map(({ c, t }) => (
+          <li><span class="tag">{CONNECTION_LABELS[c.data.kind]}</span>{t ? <a href={t.url}>{t.title}</a> : c.data.to} <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span></li>
+        ))}
+      </ul>
+    </section>
+  )}
+  {(extraLinks.length > 0 || Object.keys(otherLinks).length > 0 || d.ids) && (
+    <section>
+      <h2>Links</h2>
+      <p>
+        {extraLinks.map(([k, url], i) => <>{i > 0 && ' · '}<a href={url} rel="noopener nofollow">{linkNames[k]}</a></>)}
+        {extraLinks.length > 0 && Object.keys(otherLinks).length > 0 && ' · '}
+        <ExtLinks ids={d.ids} links={otherLinks} />
+      </p>
+    </section>
+  )}
+  <Related recKey={`works/${w.id}`} />
+  <Media media={d.media} recKey={`works/${w.id}`} />
+  <Sources sources={d.sources} verified={d.last_verified} />
+</Base>

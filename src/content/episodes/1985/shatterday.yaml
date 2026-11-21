@@ -1,0 +1,39 @@
+title: Shatterday
+series: '1985'
+season: 1
+episode: '01a'
+air_date: '1985-09-27'
+runtime_min: 24
+writers:
+- Alan Brennert
+writing_credit_note: Teleplay by Alan Brennert; based on the short story "Shatterday" by Harlan Ellison
+source_authors:
+- Harlan Ellison
+directors:
+- Wes Craven
+cast:
+- Bruce Willis
+- Dan Gilvezan
+narrator: Charles Aidman
+synopsis: After absent-mindedly dialing his own apartment from a bar, a self-absorbed Manhattan man is stunned when
+  the call is answered by his own voice. Over the following days, the double on the line begins reshaping the life
+  he has neglected.
+themes:
+- doppelganger
+- identity
+- self-reckoning
+ids:
+  imdb: tt0734732
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Shatterday
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+- title: The Logbook - Twilight Zone (1985) episode guide part 1
+  url: https://thelogbook.com/logbook/series/twilight-zone/zone-remake-1
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,32 @@
+title: Chosen
+series: '2002'
+season: 1
+episode: '15'
+air_date: '2002-11-06'
+runtime_min: 22
+production_code: '114'
+writers:
+- Ira Steven Behr
+directors:
+- Winrich Kolbe
+cast:
+- Jake Busey
+- Nicholas Turturro
+- Michael Kopsa
+- Ty Olsson
+narrator: Forest Whitaker
+synopsis: A down-and-out man looks into a string of disappearances that may be linked to a pair of traveling evangelists,
+  and the deeper he digs, the stranger their promises appear.
+themes:
+- conspiracy
+- faith
+- religion
+ids:
+  imdb: tt0734774
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

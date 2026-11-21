@@ -1,0 +1,33 @@
+title: The Curious Case of Edgar Witherspoon
+series: '1985'
+season: 3
+episode: '01'
+air_date: '1988-09-24'
+runtime_min: 22
+writers:
+- Haskell Barkin
+- J. Michael Straczynski
+writing_credit_note: Story by Haskell Barkin and J. Michael Straczynski; teleplay by Haskell Barkin
+directors:
+- Rene Bonniere
+cast:
+- Harry Morgan
+- Cedric Smith
+narrator: Robin Ward
+synopsis: A psychiatrist visits an elderly man whose apartment is crammed with an elaborate contraption of junk,
+  which he insists he must keep adjusting to hold the whole world together.
+themes:
+- cosmic balance
+- responsibility
+- sanity
+ids:
+  imdb: tt0734748
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Curious_Case_of_Edgar_Witherspoon
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

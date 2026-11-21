@@ -1,0 +1,20 @@
+name: Griffin St. George
+kind: supernatural
+played_by:
+- Gerrit Graham
+appears_in:
+- 1985/welcome-to-winfield
+description: >-
+  A dapper agent of Death sent to collect a dying young man who has fled his hospital bed for the sleepy Western
+  town of Winfield. The eccentric townsfolk get in his way.
+recurring: false
+relevance: core
+sources:
+- title: Welcome to Winfield (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Welcome_to_Winfield
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

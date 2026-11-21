@@ -1,0 +1,11 @@
+from: films/the-bernie-mac-show-tryptophan-tasy
+to: series/1959
+kind: parody
+confidence: documented
+evidence: During a feverish turkey-induced dream Bernie, on a plane, sees his niece Vanessa as the gremlin on the
+  wing.
+sources:
+- title: Wikipedia – Nightmare at 20,000 Feet
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+last_verified: '2026-11-20'
+locked: true

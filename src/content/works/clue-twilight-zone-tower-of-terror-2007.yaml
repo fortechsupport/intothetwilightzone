@@ -1,0 +1,38 @@
+title: 'Clue: The Twilight Zone Tower of Terror'
+kind: game
+subtype: board-game
+year: 2007
+description: >-
+  A themed edition of Clue built around Disney's Twilight Zone Tower of Terror attraction, keeping the classic suspect/location/item
+  deduction but dressing it in the haunted Hollywood Tower Hotel setting. It was a limited edition originally sold
+  only at Disney theme parks, which has made it a collector's item.
+details:
+  platforms:
+  - tabletop
+  licensed: true
+  edition: Theme Park Edition
+  distribution: Disney parks and Disney Store online
+ids:
+  bgg: '33225'
+sources:
+- title: boardgameguys.com
+  url: https://boardgameguys.com/clue-the-twilight-zone-tower-of-terror
+- title: BoardGameGeek
+  url: https://boardgamegeek.com/boardgame/33225/clue-the-twilight-zone-tower-of-terror
+- title: 'Tower Secrets: Tower of Terror Games'
+  url: https://towersecrets.com/tower-of-terror-games/
+- title: Noble Knight Games listing
+  url: https://www.nobleknight.com/P/2147947760
+- title: 'RulesPal: rulebook'
+  url: https://rulespal.com/clue-the-twilight-zone-tower-of-terror/rulebook
+research_confidence: medium
+last_verified: '2026-11-20'
+relevance: related
+media:
+- type: document
+  title: Rulebook (RulesPal)
+  url: https://rulespal.com/clue-the-twilight-zone-tower-of-terror/rulebook
+  host: rulespal.com
+  rights: link-only
+categories:
+- games/board-card-games

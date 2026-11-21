@@ -1,0 +1,17 @@
+name: Hi-Way Café
+kind: in-story
+filmed:
+- ref: 1959/will-the-real-martian-please-stand-up
+  note: The roadside diner where bus passengers are stranded on a snowy night.
+episodes:
+- 1959/will-the-real-martian-please-stand-up
+notes: A roadside diner near a washed-out bridge where state troopers, a bus driver and seven passengers (one too
+  many) wait out a storm. Each traveller is suspected of being a Martian; the counterman Haley turns out to be a
+  Venusian with a third eye.
+sources:
+- title: 'Wikipedia: Will the Real Martian Please Stand Up?'
+  url: https://en.wikipedia.org/wiki/Will_the_Real_Martian_Please_Stand_Up%3F
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

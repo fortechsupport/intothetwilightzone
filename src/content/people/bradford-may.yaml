@@ -1,0 +1,23 @@
+name: Bradford May
+roles:
+- director
+- cinematographer
+bio: >-
+  Bradford May directed three episodes of the 1985 Twilight Zone revival, "Gramma" (from Stephen King's story),
+  "Nightsong" and "The Card." He started as a cinematographer and became a prolific director of television films
+  and series, including Darkman II and Darkman III, Lois & Clark and Monk.
+relevance: core
+sources:
+- title: May, Bradford (Brad May) - Encyclopedia.com
+  url: https://www.encyclopedia.com/education/news-wires-white-papers-and-books/may-bradford-brad-may
+research_confidence: medium
+last_verified: '2026-11-20'
+tags:
+- 1985-series
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: series
+  role: director of photography
+categories:
+- people/directors
+- people/crew

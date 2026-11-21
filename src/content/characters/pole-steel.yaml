@@ -1,0 +1,21 @@
+name: Pole
+aka: []
+kind: human
+played_by:
+- Joe Mantell
+appears_in:
+- 1959/steel
+description: >-
+  Kelly's mechanic and partner, who tries to talk him out of fighting in place of the robot. He is horrified by
+  the beating Kelly takes.
+recurring: false
+relevance: core
+sources:
+- title: Steel (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Steel_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Steel - IMDb'
+  url: https://www.imdb.com/title/tt0734623/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

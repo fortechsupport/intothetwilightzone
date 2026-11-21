@@ -1,0 +1,19 @@
+name: Toby
+kind: human
+played_by:
+- Oliver Robins
+appears_in:
+- 1985/monsters
+description: >-
+  A boy obsessed with horror films who befriends his new neighbor, Mr. Bullock, and discovers the old man is a vampire.
+recurring: false
+relevance: core
+sources:
+- title: Monsters! (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Monsters!
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

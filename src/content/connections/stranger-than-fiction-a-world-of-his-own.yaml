@@ -1,0 +1,14 @@
+from: films/stranger-than-fiction
+to: 1959/a-world-of-his-own
+kind: inspired-by
+confidence: fan-noted
+summary: Stranger Than Fiction is listed in Adam's research as inspired by "A World of His Own".
+evidence: 'No source found; the link rests on the theme of an author''s writing controlling real lives. Checked
+  2026-11-20: No source found that ties the film to ''A World of His Own''. The premise is loosely inverted: in
+  the film a character hears his author, while in the episode a writer conjures people by dictating them. Thematic
+  only.'
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+last_verified: '2026-11-20'
+locked: true

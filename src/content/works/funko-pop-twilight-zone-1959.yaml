@@ -1,0 +1,41 @@
+title: 'Funko Pop! TV: The Twilight Zone (1959)'
+kind: collectible
+subtype: vinyl-figure
+creator: Funko
+description: >-
+  Funko's stylised vinyl figures of Rod Serling as narrator and both halves of "Nightmare at 20,000 Feet," with
+  Robert Wilson issued as a larger Deluxe piece at the aeroplane window.
+details:
+  line: Pop! TV / Pop! Deluxe
+  series: The Twilight Zone (1959)
+  items:
+  - '#1582 The Narrator (Rod Serling)'
+  - '#1583 The Gremlin'
+  - '#1584 Mr. Robert Wilson (Pop! Deluxe)'
+  licensed: true
+  numbers:
+    '1582': The Narrator (Rod Serling)
+    '1583': The Gremlin
+    '1584': Mr. Robert Wilson (Deluxe)
+  launch_prices: $11.99 standard, $24.99 deluxe
+  not_produced_as_of_research: No Talky Tina or Kanamit Pop! found
+  people:
+  - Rod Serling
+sources:
+- title: funko.com
+  url: https://funko.com/pop-deluxe-robert-wilson/80197.html
+- title: pops.today
+  url: https://pops.today/television/1582-the-narrator-the-twilight-zone
+- title: pops.today
+  url: https://pops.today/television/1583-the-gremlin-the-twilight-zone
+- title: 'All Hallows Geek: Funko Twilight Zone Pops (Aug 28, 2024)'
+  url: https://www.allhallowsgeek.com/?p=22881
+- title: 'Pops Today: #1584 Robert Wilson'
+  url: https://pops.today/television/1584-robert-wilson-the-twilight-zone
+research_confidence: high
+last_verified: '2026-11-20'
+year: 2024
+publisher: Funko
+relevance: core
+categories:
+- merchandise/toys-figures

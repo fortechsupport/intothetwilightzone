@@ -1,0 +1,37 @@
+title: The Shelter
+series: '1959'
+season: 3
+episode: '3'
+air_date: '1961-09-29'
+runtime_min: 25
+production_code: '4803'
+writers:
+- Rod Serling
+directors:
+- Lamont Johnson
+cast:
+- Larry Gates
+- Jack Albertson
+- Sandy Kenyon
+narrator: Rod Serling
+synopsis: During a friendly suburban birthday party, a radio bulletin warns of incoming missiles. Only the local
+  doctor has built a fallout shelter, and as panic spreads his longtime neighbors begin pounding on its door, their
+  friendship eroding by the minute.
+themes:
+- cold war
+- community
+- human nature
+- paranoia
+ids:
+  imdb: tt0734676
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Shelter_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+last_verified: '2026-11-19'
+locked: true

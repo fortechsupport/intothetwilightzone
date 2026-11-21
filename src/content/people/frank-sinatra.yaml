@@ -1,0 +1,24 @@
+name: Frank Sinatra
+roles:
+- actor
+- singer
+born: '1915-12-12'
+died: '1998-05-14'
+bio: >-
+  Frank Sinatra starred in two films with Twilight Zone writer connections: Ocean's 11 (1960), which grew from a
+  story by George Clayton Johnson and Jack Golden Russell, and Assault on a Queen (1966), whose screenplay was written
+  by Rod Serling from Jack Finney's novel about a plot to rob the Queen Mary with a salvaged U-boat. One of the
+  most popular singers of the twentieth century, he won the Academy Award for From Here to Eternity (1953) and starred
+  in The Manchurian Candidate and The Man with the Golden Arm.
+relevance: related
+sources:
+- title: Frank Sinatra - Wikipedia
+  url: https://en.wikipedia.org/wiki/Frank_Sinatra
+- title: Assault on a Queen - Wikipedia
+  url: https://en.wikipedia.org/wiki/Assault_on_a_Queen
+research_confidence: high
+last_verified: '2026-11-20'
+tags:
+- serling-films
+categories:
+- people/actors

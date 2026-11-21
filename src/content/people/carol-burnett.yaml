@@ -1,0 +1,28 @@
+name: Carol Burnett
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Cavender Is Coming
+  role: Agnes Grep
+  ref: 1959/cavender-is-coming
+born: '1933-04-26'
+bio: >-
+  Carol Burnett is a comedy legend whose variety series The Carol Burnett Show won multiple Emmys over
+  11 seasons. She starred in "Cavender Is Coming", a comic Twilight Zone episode about a hapless woman
+  and a bumbling guardian angel, which was intended as a backdoor pilot for a series that never went ahead.
+sources:
+- title: Carol Burnett's Twilight Zone episode was meant to launch a whole new series - MeTV
+  url: >-
+    https://metv.com/stories/carol-burnetts-twilight-zone-episode-was-meant-to-launch-a-whole-new-series
+- title: Cavender Is Coming - TVmaze
+  url: https://tvmaze.com/episodes/69642/the-twilight-zone-3x36-cavender-is-coming
+last_verified: '2026-11-19'
+media:
+- title: 'Carol Burnett interview, The Interviews: An Oral History of Television'
+  url: https://interviews.televisionacademy.com/interviews/carol-burnett
+  host: Television Academy Foundation
+  type: interview
+  rights: link-only
+categories:
+- people/actors

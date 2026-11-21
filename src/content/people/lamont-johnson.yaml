@@ -1,0 +1,59 @@
+name: Lamont Johnson
+roles:
+- director
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: 8 episodes
+  role: director
+- series: The Twilight Zone (1959)
+  work: The Shelter
+  role: director
+  ref: 1959/the-shelter
+- series: The Twilight Zone (1959)
+  work: Five Characters in Search of an Exit
+  role: director
+  ref: 1959/five-characters-in-search-of-an-exit
+- series: The Twilight Zone (1959)
+  work: Nothing in the Dark
+  role: director
+  ref: 1959/nothing-in-the-dark
+- series: The Twilight Zone (1959)
+  work: One More Pallbearer
+  role: director
+  ref: 1959/one-more-pallbearer
+- series: The Twilight Zone (1959)
+  work: Kick the Can
+  role: director
+  ref: 1959/kick-the-can
+- series: The Twilight Zone (1959)
+  work: Four O'Clock
+  role: director
+  ref: 1959/four-oclock
+- series: The Twilight Zone (1959)
+  work: Passage on the Lady Anne
+  role: director
+  ref: 1959/passage-on-the-lady-anne
+born: '1922'
+died: '2010'
+bio: >-
+  Former actor Lamont Johnson directed eight episodes in the original series' third and fourth seasons,
+  including Nothing in the Dark with a young Robert Redford, the nostalgic Kick the Can, the claustrophobic
+  Five Characters in Search of an Exit and the bomb-shelter drama The Shelter. He went on to a distinguished
+  directing career, chiefly in television films, winning Emmys and earning acclaim for The Execution of
+  Private Slovik.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Lamont_Johnson
+sources:
+- title: Lamont Johnson - Wikipedia
+  url: https://en.wikipedia.org/wiki/Lamont_Johnson
+- title: Emmy-Winning Director Lamont Johnson Dies at 88 - Television Academy
+  url: https://www.emmys.com/node/32966
+last_verified: '2026-11-19'
+media:
+- title: 'Lamont Johnson interview, The Interviews: An Oral History of Television'
+  url: https://interviews.televisionacademy.com/interviews/lamont-johnson
+  host: Television Academy Foundation
+  type: interview
+  rights: link-only
+categories:
+- people/directors

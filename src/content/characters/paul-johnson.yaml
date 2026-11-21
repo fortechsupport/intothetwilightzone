@@ -1,0 +1,21 @@
+name: Paul Johnson
+aka: []
+kind: human
+played_by:
+- Than Wyenn
+appears_in:
+- 1959/execution
+description: >-
+  A small-time burglar who breaks into Manion's laboratory and strangles Caswell in a struggle. Fiddling with the
+  machine, he sends himself back to 1880, where he appears in Caswell's noose and is hanged.
+recurring: false
+relevance: core
+sources:
+- title: Execution (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Execution_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Execution - IMDb'
+  url: https://www.imdb.com/title/tt0734567/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

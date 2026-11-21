@@ -1,0 +1,21 @@
+name: Jerry Wunderlich
+roles:
+- set decorator
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: series
+  role: set decorator (credited 1960-1964)
+bio: >-
+  Jerry Wunderlich is credited as a set decorator on the original Twilight Zone across seasons two to five, one
+  of the MGM decorators who dressed its sets. He later worked on major features of the 1970s, and he shared an Academy
+  Award nomination for the art direction of The Exorcist (1973).
+sources:
+- title: 'TVMaze: The Twilight Zone (1959) crew'
+  url: https://www.tvmaze.com/shows/787/the-twilight-zone/crew
+- title: 'IMDb: The Twilight Zone (1959-1964) full credits'
+  url: https://m.imdb.com/title/tt0052520/fullcredits/cast
+research_confidence: low
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/crew

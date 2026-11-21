@@ -1,0 +1,14 @@
+from: films/saturday-night-live-hitler-in-heaven
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: A sketch about Hitler in the afterlife borrows Twilight Zone framing, with Brian Doyle-Murray playing Rod
+  Serling.
+sources:
+- title: 'The Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: Episode guides and a fan review blog list the May 22, 1982 Olivia Newton-John episode,
+  but no reliable source I checked describes the sketch''s Twilight Zone framing or Brian Doyle-Murray playing Serling. bronwynjoan.com''s
+  Classic SNL Review of this episode may describe it, but it is a blog.'

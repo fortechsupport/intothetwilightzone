@@ -1,0 +1,20 @@
+name: Josef Strobe
+kind: human
+played_by:
+- Richard Kiley
+appears_in:
+- films/night-gallery-pilot
+description: >-
+  A Nazi war criminal hiding in South America who tries to escape into a painting of a peaceful fisherman. He ends
+  up trapped forever in a painting of a crucifixion instead.
+recurring: false
+relevance: related
+sources:
+- title: Night Gallery (1969 pilot film) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Night_Gallery_(film)
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

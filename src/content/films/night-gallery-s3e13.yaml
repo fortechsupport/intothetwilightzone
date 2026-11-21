@@ -1,0 +1,29 @@
+title: 'Night Gallery: Whisper'
+kind: tv-episode
+parent_series: Night Gallery, season 3, episode 13
+release_date: '1973-05-13'
+runtime_min: 25
+segments:
+- title: Whisper
+  summary: A young wife who hears the voices of the dead begins to be taken over by them.
+  source_authors:
+  - Martin Waddell
+  writers:
+  - David Rayfiel
+  directors:
+  - Jeannot Szwarc
+  cast:
+  - Sally Field
+  - Dean Stockwell
+  - Kent Smith
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true
+summary: A Night Gallery episode built around a single story, "Whisper" (from Martin Waddell). A young wife who hears
+  the voices of the dead begins to be taken over by them.

@@ -1,0 +1,21 @@
+name: Jerry Etherson
+aka: []
+kind: human
+played_by:
+- Cliff Robertson
+appears_in:
+- 1959/the-dummy
+description: >-
+  A ventriloquist who thinks his dummy, Willie, is alive and evil. He tries to get away from Willie and is trapped.
+  At the end Jerry has become the dummy, and Willie is the ventriloquist.
+recurring: false
+relevance: core
+sources:
+- title: The Dummy (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Dummy
+- title: 'The Twilight Zone: The Dummy - IMDb'
+  url: https://www.imdb.com/title/tt0734636/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

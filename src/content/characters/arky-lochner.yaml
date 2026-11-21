@@ -1,0 +1,21 @@
+name: Arky Lochner
+kind: human
+played_by:
+- Wayne Robson
+appears_in:
+- 1985/crazy-as-a-soup-sandwich
+description: >-
+  A small-time con man who sold his soul to a demon for winning racing tips and now owes money to a mob boss. In
+  Harlan Ellison's comic deal-with-the-devil story, he tries to play the gangster and the demon against each other
+  to get out of his bargain.
+recurring: false
+relevance: core
+sources:
+- title: Crazy as a Soup Sandwich (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Crazy_as_a_Soup_Sandwich
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,20 @@
+name: Zamba
+roles:
+- animal performer
+bio: >-
+  Zamba was the trained lion credited in "The Jungle" (1961), Charles Beaumont's story of an engineer stalked through
+  New York by African curses, appearing in the final scene. Raised by animal trainer Ralph Helfer using his "affection
+  training" methods, Zamba worked in many films and television shows of the 1950s and 1960s, including The Lion
+  (1962).
+relevance: core
+sources:
+- title: Ralph Helfer - Wikipedia
+  url: https://en.wikipedia.org/wiki/Ralph_Helfer
+- title: The Jungle (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Jungle_(The_Twilight_Zone)
+- title: Twilight Zone Vortex - The Jungle
+  url: https://twilightzonevortex.blogspot.com/2016/08/the-jungle.html
+research_confidence: medium
+last_verified: '2026-11-20'
+tags:
+- animal

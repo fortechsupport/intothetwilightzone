@@ -1,0 +1,16 @@
+name: Larry Cedar
+roles:
+- actor
+born: '1955'
+bio: >-
+  Larry Cedar played the gremlin tearing apart the airliner's engine in George Miller's "Nightmare at 20,000 Feet"
+  segment of Twilight Zone: The Movie (1983). The character actor later played Leon, the opium-den regular, on Deadwood,
+  and has many television credits.
+relevance: core
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/actors

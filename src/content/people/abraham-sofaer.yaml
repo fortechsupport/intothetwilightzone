@@ -1,0 +1,30 @@
+name: Abraham Sofaer
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: The Mighty Casey
+  role: actor (as Dr. Stillman)
+  ref: 1959/the-mighty-casey
+born: '1896-10-01'
+died: '1988-01-21'
+bio: >-
+  Abraham Sofaer played Dr. Stillman, the inventor who builds the robot pitcher Casey and later gives him a mechanical
+  heart, in "The Mighty Casey" (1960). Born in Rangoon, Burma, he made his name on the London stage and in British
+  radio before moving into films such as Quo Vadis (1951), where he played the apostle Paul. In American television
+  he was a frequent guest, notably as the Thasian who comes to reclaim the boy in the Star Trek episode "Charlie
+  X."
+relevance: core
+sources:
+- title: Abraham Sofaer - Wikipedia
+  url: https://en.wikipedia.org/wiki/Abraham_Sofaer
+- title: The Mighty Casey (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Mighty_Casey
+- title: List of The Twilight Zone (1959 TV series) guest stars - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_guest_stars
+research_confidence: medium
+last_verified: '2026-11-20'
+tags:
+- 1959-series
+categories:
+- people/actors

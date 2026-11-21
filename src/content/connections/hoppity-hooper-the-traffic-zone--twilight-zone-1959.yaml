@@ -1,0 +1,12 @@
+from: films/hoppity-hooper-the-traffic-zone
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: A multi-part Hoppity Hooper serial spoofs the anthology's eerie format under a traffic-themed title.
+sources:
+- title: 'The Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: Only the fan-run Twilight Zone Wiki list records this serial. Year missing (Hoppity
+  Hooper ran 1964 to 1967).'

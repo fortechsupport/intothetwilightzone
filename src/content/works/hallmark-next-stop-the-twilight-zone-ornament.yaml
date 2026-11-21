@@ -1,0 +1,31 @@
+title: 'Next Stop: The Twilight Zone (Keepsake Ornament)'
+kind: collectible
+subtype: ornament
+year: 2009
+creator: Hallmark
+description: >-
+  A 2009 Hallmark Keepsake Christmas ornament with a Twilight Zone theme. An example is held in The Henry Ford museum's
+  ornament collection.
+details:
+  line: Keepsake Ornaments
+  series: The Twilight Zone (1959)
+  items:
+  - '"Next Stop: The Twilight Zone" ornament'
+  licensed: true
+  museum_object: The Henry Ford artifact 518331
+  other_years: No other TZ-branded Hallmark Keepsake ornaments verified in this pass
+sources:
+- title: thehenryford.org
+  url: https://www.thehenryford.org/collections/explore/artifact/518331
+research_confidence: high
+last_verified: '2026-11-20'
+publisher: Hallmark Keepsake
+relevance: core
+media:
+- type: image
+  title: The Henry Ford collection record and photograph
+  url: https://www.thehenryford.org/collections/explore/artifact/518331
+  host: The Henry Ford (museum)
+  rights: licensed
+categories:
+- merchandise/ornaments

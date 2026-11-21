@@ -1,0 +1,22 @@
+name: Mr. Smith
+aka:
+- The Devil
+kind: supernatural
+played_by:
+- Burgess Meredith
+appears_in:
+- 1959/printers-devil
+description: >-
+  A cigar-chewing old man who joins the paper as a Linotype operator and prints stories that make themselves come
+  true. He is the Devil, and it was the third of Burgess Meredith's four Twilight Zone roles.
+recurring: false
+relevance: core
+sources:
+- title: Printer's Devil (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Printer%27s_Devil
+- title: 'The Twilight Zone: Printer''s Devil - IMDb'
+  url: https://www.imdb.com/title/tt0734614/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

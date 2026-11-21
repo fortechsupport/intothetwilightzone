@@ -1,0 +1,12 @@
+title: Us
+kind: film
+ids:
+  imdb: tt6857112
+links:
+  trailer_youtube: hNCmb-4oXJA
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+summary: Jordan Peele's horror film in which a family on vacation is attacked by red-clad doubles of themselves
+  who have lived underground.
+release_date: '2019'

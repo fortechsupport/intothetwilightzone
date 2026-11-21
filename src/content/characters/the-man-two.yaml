@@ -1,0 +1,22 @@
+name: The Man
+aka: []
+kind: human
+played_by:
+- Charles Bronson
+appears_in:
+- 1959/two
+description: >-
+  A weary soldier of the opposing army who finds the Woman in the ruins and proposes that, with the war long over,
+  they need not be enemies. After she shoots at him he still refuses to fight, and at the end they walk off together,
+  the last two people starting over.
+recurring: false
+relevance: core
+sources:
+- title: Two (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Two_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Two - IMDb'
+  url: https://www.imdb.com/title/tt0734686/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

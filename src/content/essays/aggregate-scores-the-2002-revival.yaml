@@ -1,0 +1,17 @@
+title: 'Critics'' aggregate scores: the 2002 revival'
+kind: review
+review_type: retrospective
+reviews:
+- series/2002
+description: How critics scored the 2002 UPN revival hosted by Forest Whitaker. Rotten Tomatoes rates season 1 at
+  50% from 16 reviews (checked November 2026), a split verdict that matches the individual reviews listed here.
+categories:
+- reviews/aggregate-scores
+research_confidence: medium
+sources:
+- title: Rotten Tomatoes
+  url: https://static.rottentomatoes.com/tv/the_twilight_zone-upn/s01
+last_verified: '2026-11-20'
+locked: true
+organizations:
+- Rotten Tomatoes

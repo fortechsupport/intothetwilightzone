@@ -1,0 +1,11 @@
+from: films/sandwich-of-terror
+to: series/1959
+kind: parody
+confidence: documented
+evidence: A Brooklyn-made comedy horror web anthology that spoofs Twilight Zone and Tales from the Darkside, complete with
+  Serling-style host introductions and twist endings.
+sources:
+- title: Tubefilter – 'Sandwich of Terror' from 'Scissor Cop' chefs delivers
+  url: https://tubefilter.com/2009/02/18/sandwich-of-terror-from-scissor-cop-chefs-delivers/
+last_verified: '2026-11-20'
+locked: true

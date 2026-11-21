@@ -1,0 +1,19 @@
+name: Bill Connor
+kind: human
+played_by:
+- Vic Morrow
+appears_in:
+- films/twilight-zone-the-movie
+description: >-
+  A bitter bigot passed over for promotion who rants against Jews, Black people and Asians, and then finds himself
+  living as the targets of his hatred: in Nazi-occupied France, at a Ku Klux Klan lynching and in Vietnam. Vic Morrow
+  and two child actors died in a helicopter crash while filming the segment.
+recurring: false
+relevance: core
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

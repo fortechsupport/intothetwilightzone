@@ -1,0 +1,13 @@
+from: films/big-city-greens-uncaged
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: A frantic plane passenger insists something is on the wing; it turns out to be a monkey pressed against
+  the window.
+sources:
+- title: 'TV Tropes – Referenced By: Nightmare at 20,000 Feet'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959S5E3NightmareAt20000Feet
+- title: 'Bubbleblabber – Review: Big City Greens ''Uncaged'''
+  url: https://www.bubbleblabber.com/review-big-city-greens-uncaged
+last_verified: '2026-11-20'
+locked: true

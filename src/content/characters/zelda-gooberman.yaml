@@ -1,0 +1,21 @@
+name: Zelda Gooberman
+aka: []
+kind: human
+played_by:
+- Kate Murtagh
+appears_in:
+- 1959/mr-garrity-and-the-graves
+description: >-
+  Gooberman's dead and unlamented wife. Her return from the cemetery is the town's running joke, and at the end
+  a real threat.
+recurring: false
+relevance: core
+sources:
+- title: Mr. Garrity and the Graves (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Mr._Garrity_and_the_Graves
+- title: 'The Twilight Zone: Mr. Garrity and the Graves - IMDb'
+  url: https://www.imdb.com/title/tt0734594/
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

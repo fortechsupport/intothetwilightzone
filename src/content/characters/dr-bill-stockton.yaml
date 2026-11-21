@@ -1,0 +1,22 @@
+name: Dr. Bill Stockton
+aka: []
+kind: human
+played_by:
+- Larry Gates
+appears_in:
+- 1959/the-shelter
+description: >-
+  A respected small-town doctor whose birthday party is interrupted by a radio warning of a nuclear attack. He locks
+  his family in his fallout shelter while his friends and neighbors break down the door, and the alarm turns out
+  to be false.
+recurring: false
+relevance: core
+sources:
+- title: The Shelter (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Shelter_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Shelter - IMDb'
+  url: https://www.imdb.com/title/tt0734676/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

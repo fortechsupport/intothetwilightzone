@@ -1,0 +1,14 @@
+from: films/seinfeld-the-van-buren-boys
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: Jerry delivers a mock Serling narration about a man who stays the same while everyone around him changes.
+sources:
+- title: 'Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+- title: 'Seinfeld: The Comeback / The Van Buren Boys (The A.V. Club)'
+  url: https://www.avclub.com/seinfeld-the-comeback-the-van-buren-boys-1798170964
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: The A.V. Club''s review of the episode doesn''t mention any Serling-style narration,
+  and no other reliable source documents it. Unverified. The details should be checked against the episode itself.'

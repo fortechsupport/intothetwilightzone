@@ -1,0 +1,22 @@
+title: Primetime Emmy Award – Outstanding Writing Achievement in Drama (1962), nomination, Rod Serling
+kind: event
+subtype: honor
+year: 1962
+description: Rod Serling was nominated for the Primetime Emmy Award for Outstanding Writing Achievement in Drama
+  in 1962 for the original series. Per Wikipedia awards table.
+details:
+  result: nominated
+  recipient: Rod Serling
+  honors:
+  - series/1959
+categories:
+- reviews/awards-citations
+research_confidence: high
+sources:
+- title: 'Rod Serling Memorial Foundation: Awards'
+  url: https://rodserling.com/awards/
+last_verified: '2026-11-20'
+locked: true
+organizations:
+- Television Academy
+creator: Television Academy

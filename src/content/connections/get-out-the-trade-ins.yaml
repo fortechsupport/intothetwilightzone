@@ -1,0 +1,13 @@
+from: films/get-out
+to: 1959/the-trade-ins
+kind: inspired-by
+confidence: documented
+summary: Horror scholar Dawn Keetley argues that the episode's transfer of an old man's mind into a young body anticipates
+  the film's 'Coagula' procedure. This is a critical reading; Peele has not confirmed it.
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: 'Horror Homeroom: Get Out and ''The Trade-Ins'' (Dawn Keetley)'
+  url: https://www.horrorhomeroom.com/?p=4749
+last_verified: '2026-11-19'
+locked: true

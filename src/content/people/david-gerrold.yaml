@@ -1,0 +1,23 @@
+name: David Gerrold
+roles:
+- writer
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: A Day in Beaumont
+  role: writer
+  ref: 1985/a-day-in-beaumont
+- series: The Twilight Zone (1985)
+  work: A Saucer of Loneliness
+  role: teleplay
+  ref: 1985/a-saucer-of-loneliness
+born: '1944'
+bio: >-
+  Science fiction writer David Gerrold, author of Star Trek's The Trouble with Tribbles, wrote two segments
+  for the 1985 revival: A Day in Beaumont, an affectionate pastiche of 1950s alien-invasion films, and
+  A Saucer of Loneliness, adapted from Theodore Sturgeon's story.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/David_Gerrold
+sources:
+- title: David Gerrold - Wikipedia
+  url: https://en.wikipedia.org/wiki/David_Gerrold
+last_verified: '2026-11-19'

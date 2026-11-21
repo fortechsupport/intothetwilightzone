@@ -1,0 +1,14 @@
+from: films/bridesmaids
+to: 1959/nightmare-at-20-000-feet
+kind: homage
+confidence: documented
+summary: Kristen Wiig's medicated, paranoid airline passenger echoes the Shatner episode, but sees a pioneer woman
+  churning butter instead of a gremlin.
+sources:
+- title: 'Westword: Top ten Twilight Zone references in pop culture'
+  url: https://www.westword.com/arts/top-ten-twilight-zone-references-in-pop-culture-5814980
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Westword''s ''Top Ten Twilight Zone References in Pop Culture'' lists the Bridesmaids airplane scene:
+  Wiig''s medicated, paranoid passenger is likened to Shatner in Nightmare at 20,000 Feet, with a colonial woman
+  churning butter in place of the gremlin.'

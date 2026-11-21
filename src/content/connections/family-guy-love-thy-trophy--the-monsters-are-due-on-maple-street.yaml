@@ -1,0 +1,13 @@
+from: films/family-guy-love-thy-trophy
+to: 1959/the-monsters-are-due-on-maple-street
+kind: homage
+confidence: documented
+evidence: The Twilight Zone Wiki lists this Family Guy episode as built on the Maple Street premise of neighbours
+  turning on one another.
+sources:
+- title: Television series with references to The Twilight Zone (Twilight Zone Wiki)
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+- title: Family Guy S2E5 Love Thy Trophy (TV Tropes recap)
+  url: https://www.tvtropes.org/pmwiki/pmwiki.php/Recap/FamilyGuyS2E5LoveThyTrophy
+last_verified: '2026-11-19'
+locked: true

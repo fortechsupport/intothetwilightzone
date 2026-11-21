@@ -1,0 +1,17 @@
+name: The Foster mansion, New Orleans ("The Masks")
+kind: in-story
+filmed:
+- ref: 1959/the-masks
+  note: A dying patriarch's house on Mardi Gras night.
+episodes:
+- 1959/the-masks
+notes: On the last night of Mardi Gras, dying millionaire Jason Foster makes his greedy heirs wear grotesque masks
+  until midnight as a condition of his will. When they take them off, their faces have become the masks. Directed
+  by Ida Lupino, the only woman to direct an episode of the original series.
+sources:
+- title: 'Wikipedia: The Masks'
+  url: https://en.wikipedia.org/wiki/The_Masks
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

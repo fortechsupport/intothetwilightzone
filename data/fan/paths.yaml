@@ -1,0 +1,224 @@
+# Curated viewing paths for /start/ and /paths/<slug>/.
+# Each step names an episode id (src/content/episodes/<series>/<id>.yaml) and a spoiler-free note in our own words.
+# Rankings and picks are the site's editorial opinion, labelled as such on the page.
+# ranked: true shows the steps as a numbered countdown. spoilers: true hides each ending behind the spoiler toggle.
+- slug: first-ten
+  title: New to the Zone? Your first ten episodes
+  short: Ten half-hours that show everything the original series could do, in the order we suggest watching them.
+  intro: >-
+    If you have never seen The Twilight Zone, start here. These ten episodes from the original 1959 to 1964 series
+    cover its range: science fiction, fantasy, horror, comedy and quiet human drama, all under half an hour. Watch
+    them in this order and you will recognise the references that turn up everywhere else on this site. None of the
+    notes below gives away an ending.
+  steps:
+    - ref: 1959/where-is-everybody
+      note: The very first episode. A man walks into a town with no one in it, and the series sets out its rules.
+    - ref: 1959/time-enough-at-last
+      note: Burgess Meredith as a bookworm who only wants time to read. The episode most people remember first.
+    - ref: 1959/walking-distance
+      note: Rod Serling's most personal script, about a tired man who walks back into his hometown. No monsters, just longing.
+    - ref: 1959/the-monsters-are-due-on-maple-street
+      note: The power goes out on an ordinary street and the neighbours start looking at each other. Serling's sharpest parable about fear.
+    - ref: 1959/eye-of-the-beholder
+      note: A woman waits for her bandages to come off. Famous for its lighting and camera work as much as its story.
+    - ref: 1959/nightmare-at-20-000-feet
+      note: William Shatner, a stormy night flight and something on the wing. Richard Matheson's script is pure suspense.
+    - ref: 1959/its-a-good-life
+      note: A small Ohio town lives in terror of a six-year-old boy. One of the most unsettling things network TV ever aired.
+    - ref: 1959/to-serve-man
+      note: Friendly aliens arrive offering to end hunger and war. Watch it before someone tells you the last line.
+    - ref: 1959/the-obsolete-man
+      note: Burgess Meredith again, as a librarian on trial in a state that has banned books and God. Serling at his angriest.
+    - ref: 1959/a-stop-at-willoughby
+      note: An exhausted ad man keeps dozing off on his commuter train and waking somewhere gentler. A favourite of Serling's own.
+
+- slug: essential-25
+  title: The 25 essential episodes of the original series
+  short: The core of the 1959 to 1964 series, A to Z by title, beyond the first ten.
+  intro: >-
+    Once you have seen the first ten, these are the episodes that fans, critics and the people who made the show
+    return to most often. Together with the first ten they make a fair picture of the original five seasons. Listed
+    alphabetically, ignoring "A" and "The". The picks are this site's editorial choice.
+  sort: az
+  steps:
+    - ref: 1959/the-after-hours
+      note: A shopper looking for a gift is sent to a floor of a department store that should not exist.
+    - ref: 1959/deaths-head-revisited
+      note: A former SS officer returns to Dachau as a tourist. Serling's response to the Eichmann trial, and one of his most important scripts.
+    - ref: 1959/five-characters-in-search-of-an-exit
+      note: An Army major, a clown, a ballerina, a hobo and a bagpiper wake up in a featureless cylinder with no memory of how they got there.
+    - ref: 1959/a-game-of-pool
+      note: Jack Klugman and Jonathan Winters in a two-hander about wanting to be the best, written by George Clayton Johnson.
+    - ref: 1959/the-hitch-hiker
+      note: A woman driving across the country keeps passing the same man thumbing a ride. Based on Lucille Fletcher's radio play.
+    - ref: 1959/the-howling-man
+      note: A traveller seeks shelter at a remote monastery where the brothers keep a man locked in a cell. Charles Beaumont's gothic classic.
+    - ref: 1959/i-shot-an-arrow-into-the-air
+      note: The crew of the first manned spaceflight crash on an unknown world with little water, and turn on one another.
+    - ref: 1959/the-invaders
+      note: Agnes Moorehead, alone in a farmhouse, fights off tiny intruders. Almost no dialogue at all.
+    - ref: 1959/kick-the-can
+      note: In a retirement home, one resident believes the games of childhood might keep you young. Later remade for the 1983 movie.
+    - ref: 1959/living-doll
+      note: Telly Savalas as a stepfather who can't stand his stepdaughter's new talking doll, and the feeling seems to be mutual.
+    - ref: 1959/the-masks
+      note: A dying rich man makes his greedy heirs wear grotesque masks at a Mardi Gras party. Directed by Ida Lupino.
+    - ref: 1959/the-midnight-sun
+      note: Earth has slipped out of its orbit and two women in a New York apartment try to survive the heat.
+    - ref: 1959/mirror-image
+      note: Vera Miles in a bus station, where someone who looks exactly like her seems to be one step ahead.
+    - ref: 1959/nothing-in-the-dark
+      note: An old woman has barricaded herself away from Death for years. A young Robert Redford co-stars.
+    - ref: 1959/number-12-looks-just-like-you
+      note: In a future where everyone chooses a perfect body at nineteen, one young woman doesn't want to.
+    - ref: 1959/the-odyssey-of-flight-33
+      note: A jetliner over the Atlantic hits an impossible tailwind. One of the show's most convincing pieces of science fiction.
+    - ref: 1959/people-are-alike-all-over
+      note: Roddy McDowall as a frightened astronaut who lands on Mars and meets its very welcoming people.
+    - ref: 1959/the-shelter
+      note: An air-raid warning sends a suburban dinner party scrambling for the one family that built a fallout shelter.
+    - ref: 1959/third-from-the-sun
+      note: Two families plan an escape on the eve of a nuclear war. Notice the tilted camera angles throughout.
+    - ref: 1959/the-night-of-the-meek
+      note: Art Carney as a drunken department-store Santa who gets one Christmas Eve to do real good.
+    - ref: 1959/will-the-real-martian-please-stand-up
+      note: Snowbound bus passengers in a diner, two state troopers and one passenger too many. A comic mystery.
+    - ref: 1959/the-lonely
+      note: A convict serving solitary confinement on an asteroid is given a robot companion. The first season's quiet heartbreak.
+    - ref: 1959/long-live-walter-jameson
+      note: A history professor who describes the Civil War a little too vividly. Charles Beaumont on the cost of living forever.
+    - ref: 1959/the-big-tall-wish
+      note: An ageing boxer and the boy who believes in him. One of the first network dramas with a mostly Black cast, led by Ivan Dixon.
+    - ref: 1959/the-silence
+      note: A wealthy man bets a chatterbox a fortune that he cannot stay silent for a year.
+
+- slug: twists-ranked
+  title: The great twist endings, ranked
+  short: Twenty-two endings that made the show's reputation, counted down from 22 to 1. Endings stay hidden until you choose to reveal them.
+  intro: >-
+    The Twilight Zone did not invent the twist ending, but it made it a household idea. This is our countdown of the
+    endings that land hardest, from both the original series and the 1985 revival. It is an editorial ranking, not a
+    poll. Every ending is hidden behind a spoiler button; reveal them one at a time, or switch spoilers on for the
+    whole site with the toggle at the top of this page. If you are new to the show, watch first.
+  ranked: true
+  spoilers: true
+  steps:
+    - ref: 1959/to-serve-man
+      note: The one everyone quotes. The reveal is a single sentence, and it is perfect.
+    - ref: 1959/time-enough-at-last
+      note: Cruel, simple and unforgettable. The prop at the centre of it has become an icon.
+    - ref: 1959/eye-of-the-beholder
+      note: The whole episode is shot to keep one secret, and the reveal turns its meaning inside out.
+    - ref: 1959/the-invaders
+      note: Half an hour of near-silence pays off with one line of text.
+    - ref: 1959/the-hitch-hiker
+      note: A slow realisation rather than a shock, which is why it lingers.
+    - ref: 1959/a-stop-at-willoughby
+      note: A gentle fantasy with a final shot that changes everything that came before.
+    - ref: 1959/the-after-hours
+      note: Strange from the first minute, and the explanation is stranger still.
+    - ref: 1959/the-midnight-sun
+      note: A double reversal in the last minute.
+    - ref: 1959/will-the-real-martian-please-stand-up
+      note: A whodunit with one more answer than the audience expects.
+    - ref: 1959/five-characters-in-search-of-an-exit
+      note: The final pull-back of the camera explains the cylinder.
+    - ref: 1959/third-from-the-sun
+      note: The destination is named in the last line.
+    - ref: 1959/people-are-alike-all-over
+      note: The title is the punchline.
+    - ref: 1959/i-shot-an-arrow-into-the-air
+      note: A sign by the side of the road.
+    - ref: 1959/the-monsters-are-due-on-maple-street
+      note: The last scene moves up the hill and explains who has been watching.
+    - ref: 1959/nightmare-at-20-000-feet
+      note: Everyone thinks he is mad, and the final shot settles the question.
+    - ref: 1959/the-howling-man
+      note: One act of kindness, and its consequences.
+    - ref: 1959/the-masks
+      note: Midnight comes and the masks come off.
+    - ref: 1959/where-is-everybody
+      note: The first episode already has a twist, and then a hint that it may not be the whole story.
+    - ref: 1959/number-12-looks-just-like-you
+      note: The horror is in how happy everyone is.
+    - ref: 1959/mirror-image
+      note: The sceptic gets the last scene.
+    - ref: 1985/examination-day
+      note: The 1985 revival's most chilling ending, from Henry Slesar's short story.
+    - ref: 1985/button-button
+      note: Richard Matheson's story about a box with a button, and what the stranger says when he collects it.
+
+- slug: serlings-voice
+  title: "Rod Serling's voice: his most personal scripts"
+  short: Fifteen episodes Serling wrote that show what he cared about most, from war and prejudice to nostalgia and second chances.
+  intro: >-
+    Rod Serling wrote 92 of the original series' 156 episodes and introduced every one. These are the scripts where
+    his own concerns come through most clearly: his time as a paratrooper in the Second World War, his anger at
+    prejudice and conformity, his fear of the bomb, and his longing for the small-town summers of Binghamton, New
+    York. Listed in the order they first aired. Listen for the narrations; Serling wrote and spoke each one.
+  sort: aired
+  steps:
+    - ref: 1959/walking-distance
+      note: Homesickness for childhood, written by a man who never stopped missing Binghamton.
+    - ref: 1959/the-monsters-are-due-on-maple-street
+      note: McCarthy-era paranoia, told as a suburban science-fiction story.
+    - ref: 1959/a-stop-at-willoughby
+      note: The pressure of the television business that Serling knew first-hand.
+    - ref: 1959/the-big-tall-wish
+      note: Belief, failure and a Black lead cast at a time when networks avoided them.
+    - ref: 1959/the-night-of-the-meek
+      note: Serling's Christmas story about poverty and kindness.
+    - ref: 1959/eye-of-the-beholder
+      note: Conformity and the tyranny of the norm.
+    - ref: 1959/the-obsolete-man
+      note: Totalitarianism, books and the dignity of one man.
+    - ref: 1959/the-shelter
+      note: Civil defence fears and how quickly civility breaks.
+    - ref: 1959/deaths-head-revisited
+      note: Holocaust memory. Serling's closing narration argues that the camps must never be forgotten.
+    - ref: 1959/the-midnight-sun
+      note: Climate catastrophe, decades before the phrase was common.
+    - ref: 1959/a-quality-of-mercy
+      note: A war story from a paratrooper who fought in the Pacific.
+    - ref: 1959/the-changing-of-the-guard
+      note: An old teacher who believes he has made no difference, and the boys he taught.
+    - ref: 1959/hes-alive
+      note: A young neo-Nazi and the voice that guides him. Dennis Hopper stars.
+    - ref: 1959/in-praise-of-pip
+      note: A father, a son and Vietnam, aired in 1963 before most Americans were paying attention.
+    - ref: 1959/i-am-the-nightcolor-me-black
+      note: Hate, an execution and a sun that will not rise. Aired four months after the assassination of John F. Kennedy.
+
+- slug: beyond-the-original
+  title: "Beyond the original: the best of the revivals"
+  short: Where to start with the 1985, 2002 and 2019 series. A to Z by title.
+  intro: >-
+    The Twilight Zone has come back three times, in 1985, 2002 and 2019. Each revival has its admirers, and each has
+    a handful of episodes that stand with the original. These are good first picks for each era, listed A to Z by
+    title. The picks are this site's editorial choice.
+  sort: az
+  steps:
+    - ref: 1985/button-button
+      note: A struggling couple is offered a box with a button and a large sum of money. From Richard Matheson's story.
+    - ref: 2019/the-comedian
+      note: Kumail Nanjiani as a stand-up who finds material that kills, in a way he did not intend.
+    - ref: 1985/dead-run
+      note: A trucker takes a job on a route that leads somewhere no driver should go. From Greg Bear's story.
+    - ref: 1985/examination-day
+      note: A boy's twelfth birthday means a government intelligence test. From Henry Slesar's short story.
+    - ref: 1985/her-pilgrim-soul
+      note: Two scientists find an image of a baby in their hologram lab, and she starts to grow. Written by Alan Brennert.
+    - ref: 2002/its-still-a-good-life
+      note: Bill Mumy and Cloris Leachman return to Peaksville forty years later, with Mumy's daughter Liliana.
+    - ref: 1985/a-little-peace-and-quiet
+      note: A harried mother finds a pendant that can silence the world around her.
+    - ref: 2019/nightmare-at-30-000-feet
+      note: Adam Scott and a true-crime podcast on a flight that seems to be going wrong exactly as described.
+    - ref: 1985/paladin-of-the-lost-hour
+      note: Danny Kaye as an old man who guards a watch that may hold the last hour. Harlan Ellison adapted his own story.
+    - ref: 2019/replay
+      note: A mother driving her son to college finds that her old camcorder can rewind time.
+    - ref: 1985/shatterday
+      note: Bruce Willis calls his own apartment and someone answers. From Harlan Ellison's story; the first episode of the revival.
+    - ref: 1985/wordplay
+      note: A salesman wakes to find familiar words have changed their meanings.

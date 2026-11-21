@@ -1,0 +1,11 @@
+from: works/the-simpsons-tapped-out-kangs-how-to-cook-humans
+to: 1959/to-serve-man
+kind: reference
+confidence: fan-noted
+summary: In the mobile game, Kang is seen reading a book titled How to Cook Humans, continuing the Simpsons' running
+  nod to The Twilight Zone cookbook twist.
+sources:
+- title: Wikisimpsons – Twilight Zone
+  url: https://simpsonswiki.com/wiki/Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

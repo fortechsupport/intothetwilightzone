@@ -1,0 +1,15 @@
+title: Alfred Hitchcock Presents
+kind: tv-series
+summary: Hitchcock's host-introduced twist-ending anthology, TZ's closest contemporary rival; revived 1985.
+release_date: '1955'
+sources:
+- title: 'Wikipedia: Anthology series'
+  url: https://en.wikipedia.org/wiki/Anthology_series
+research_confidence: medium
+relevance: tangential
+tags:
+- anthology-family
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Alfred_Hitchcock_Presents
+last_verified: '2026-11-19'
+locked: true

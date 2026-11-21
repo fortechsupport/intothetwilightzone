@@ -1,0 +1,20 @@
+name: Carlson Park neighborhood, Culver City
+kind: filming-location
+address: Braddock Drive and Motor Avenue, Culver City, CA
+city: Culver City
+region: California
+country: US
+lat: 34.0185
+lng: -118.401
+status: extant
+filmed:
+- ref: 1959/you-drive
+  note: Residential street exteriors.
+notes: >-
+  Most of "You Drive," in which a hit-and-run driver is hounded by his own car, was filmed on the residential
+  streets around Carlson Park, a few blocks from MGM. A then-and-now comparison shows the houses largely
+  unchanged since 1964.
+sources:
+- title: The Twilight Zone - You Drive (1964) - Filming Locations - Chris Bungo Studios
+  url: https://video.chrisbungostudios.com/QuickPreview-TheTwilightZone-YouDrive.html
+last_verified: '2026-11-19'

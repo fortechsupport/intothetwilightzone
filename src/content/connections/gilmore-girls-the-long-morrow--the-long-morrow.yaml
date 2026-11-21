@@ -1,0 +1,13 @@
+from: films/gilmore-girls-the-long-morrow
+to: 1959/the-long-morrow
+kind: homage
+confidence: documented
+summary: The season premiere borrows the episode's title, and Logan gives Rory a replica of its rocket before leaving
+  for London.
+sources:
+- title: 'Westword: Top ten Twilight Zone references in pop culture'
+  url: https://www.westword.com/arts/top-ten-twilight-zone-references-in-pop-culture-5814980
+- title: 'Wikipedia: Gilmore Girls season 7'
+  url: https://en.wikipedia.org/wiki/Gilmore_Girls_season_7
+last_verified: '2026-11-19'
+locked: true

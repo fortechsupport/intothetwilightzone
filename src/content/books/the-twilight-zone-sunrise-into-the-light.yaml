@@ -1,0 +1,19 @@
+title: 'The Twilight Zone: Sunrise / Into the Light'
+authors:
+- Paul Woods
+publisher: Black Flame
+published: '2004'
+kind: novelization
+description: Black Flame novelization of two episodes of the 2002–03 revival.
+episodes:
+- 2002/sunrise
+- 2002/into-the-light
+relevance: core
+research_confidence: medium
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Wikipedia: Twilight Zone literature'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_literature
+last_verified: '2026-11-19'
+locked: true

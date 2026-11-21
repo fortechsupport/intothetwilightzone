@@ -1,0 +1,25 @@
+name: Lucien Moraweck
+roles:
+- composer
+tz_credits:
+- series: The Twilight Zone (1959-1964)
+  work: Mr. Denton on Doomsday
+  ref: 1959/mr-denton-on-doomsday
+relevance: related
+research_confidence: medium
+last_verified: '2026-11-20'
+bio: >-
+  Lucien Moraweck is credited for music on the original Twilight Zone, largely through cues he wrote for the CBS
+  music library that the series used to fill out its scores. A composer and arranger for CBS radio and television,
+  he was part of the network's Hollywood staff alongside Rene Garriguenc and Lud Gluskin. His library cues are heard
+  in a number of episodes that had no original score of their own.
+sources:
+- title: Cambridge Core – Wissner, 'Episode and Cue Information' appendix
+  url: >-
+    https://core-prod.cambridgecore.org/core/books/dimension-of-sound/episode-and-cue-information/D3509C7720B4715668F1CDF11692BA78
+- title: 'TVMaze: The Twilight Zone (1959) crew'
+  url: https://www.tvmaze.com/shows/787/the-twilight-zone/crew
+- title: 'IMDb: The Twilight Zone (1959-1964) full credits'
+  url: https://m.imdb.com/title/tt0052520/fullcredits/cast
+categories:
+- people/composers

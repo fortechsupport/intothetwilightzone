@@ -1,0 +1,72 @@
+title: The Twilight Zone VR
+kind: game
+subtype: video-game
+year: 2022
+creator: Pocket Money Games (developer)
+publisher: Fun Train
+description: >-
+  A licensed virtual-reality anthology with three original stories - Character Building, Terror Firma and Deadline
+  Earth - mixing stealth, shooting and escape sequences with a narrator in the Serling tradition. It launched on
+  Meta Quest 2 on 14 July 2022, with a PlayStation VR2 version following in March 2024.
+details:
+  platforms: Meta Quest 2, PSVR, PSVR2
+  licensed: true
+  stories: Character Building; Terror Firma; Deadline Earth
+  quest_release: '2022-07-14'
+  psvr2_release: '2024-03-19'
+  people:
+  - Frankie Cavanagh
+  - Douglas Nabors
+ids:
+  mobygames: '193897'
+sources:
+- title: MobyGames
+  url: https://www.mobygames.com/game/193897/the-twilight-zone-vr/
+- title: denofgeek.com
+  url: https://www.denofgeek.com/games/the-twilight-zone-revived-vr-game/
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(franchise)
+- title: funtrainvr.com
+  url: https://funtrainvr.com/updates/twilightzoneps5
+- title: 'UploadVR: Twilight Zone VR PSVR 2 release date'
+  url: https://www.uploadvr.com/twilight-zone-vr-psvr-2-release-date
+- title: 'Fun Train: The Twilight Zone is back and returns for virtual reality'
+  url: >-
+    https://www.funtrainvr.com/updates/2022/6/8/the-twilight-zone-is-back-and-returns-for-virtual-reality
+- title: Road to VR review
+  url: https://www.roadtovr.com/twilight-zone-vr-review-quest-2-psvr/
+- title: 'Android Central: launches for Quest 2 this July'
+  url: >-
+    https://www.androidcentral.com/gaming/virtual-reality/the-twilight-zone-vr-launches-for-oculus-quest-2-this-july
+- title: 'Den of Geek: How The Twilight Zone was revived as a VR game'
+  url: https://www.denofgeek.com/?p=771108
+- title: 'Fangoria: Heading Into THE TWILIGHT ZONE VR Experience With Pocket Money Games'' Frankie Cavanagh'
+  url: https://www.fangoria.com/heading-into-the-twilight-zone-vr-experience/
+- title: 'DreadXP: The Twilight Zone VR Interview with Fun Train''s Douglas Nabors'
+  url: https://www.dreadxp.com/?p=27020
+- title: 'ISPR: Presence challenges: Adapting ''The Twilight Zone'' for virtual reality'
+  url: https://ispr.info/2022/07/13/presence-challenges-adapting-the-twilight-zone-for-virtual-reality/
+- title: 'Fun Train VR: History of The Twilight Zone'
+  url: https://funtrainvr.com/updates/2023/9/12/history-of-the-twilight-zone
+research_confidence: medium
+last_verified: '2026-11-20'
+relevance: core
+media:
+- type: video
+  title: Trailers (OpenCritic media page)
+  url: https://opencritic.com/game/13517/xxx/media
+  host: opencritic.com (embeds publisher trailers)
+  rights: link-only
+- type: link
+  title: Meta Quest store entry (QuestStoreDB)
+  url: https://queststoredb.com/game/the-twilight-zonetm/3508802139177629
+  host: queststoredb.com
+  rights: link-only
+  subtype: listing
+- type: document
+  title: 'Fun Train: History of The Twilight Zone (developer blog)'
+  url: https://funtrainvr.com/updates/2023/9/12/history-of-the-twilight-zone
+  host: Fun Train (developer)
+  rights: licensed
+categories:
+- games/video-games

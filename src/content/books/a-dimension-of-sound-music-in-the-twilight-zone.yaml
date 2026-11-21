@@ -1,0 +1,23 @@
+title: 'A Dimension of Sound: Music in the Twilight Zone'
+authors:
+- Reba A. Wissner
+publisher: Pendragon Press
+published: '2013'
+isbn: '9781576472163'
+kind: scholarly
+description: A musicological study of the original series' scores, covering composers such as Bernard
+  Herrmann and Nathan Van Cleave and the CBS stock music library whose cues were reused across episodes.
+ids:
+  goodreads: '18443978'
+  amazon_asin: '1576472167'
+relevance: core
+research_confidence: medium
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Originally listed in Adam's research spreadsheets.
+- title: British Library catalogue record
+  url: https://eld.bl.uk/catalog/019389549
+- title: Cambridge Core chapter listing
+  url: https://www.cambridge.org/core/books/dimension-of-sound/composing-and-recording-in-the-twilight-zone/FB1702A39C06B44D12717DB408D350A7
+last_verified: '2026-11-19'
+locked: true

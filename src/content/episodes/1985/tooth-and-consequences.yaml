@@ -1,0 +1,33 @@
+title: Tooth and Consequences
+series: '1985'
+season: 1
+episode: '16c'
+air_date: '1986-01-31'
+runtime_min: 14
+writers:
+- Haskell Barkin
+directors:
+- Robert Downey Sr.
+cast:
+- David Birney
+- Kenneth Mars
+narrator: Charles Aidman
+synopsis: A miserable dentist, fed up with his practice and his patients, is visited by an impish Tooth Fairy figure
+  who offers him a way to change his life.
+themes:
+- comedy
+- despair
+- fantasy
+ids:
+  imdb: tt0734749
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Tooth_and_Consequences
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,62 @@
+title: Nothing in the Dark
+series: '1959'
+season: 3
+episode: '16'
+air_date: '1962-01-05'
+runtime_min: 25
+production_code: '3652'
+writers:
+- George Clayton Johnson
+directors:
+- Lamont Johnson
+cast:
+- Gladys Cooper
+- Robert Redford
+- R.G. Armstrong
+narrator: Rod Serling
+synopsis: An elderly woman has barricaded herself for years in a basement apartment, convinced that Death will take her
+  at the first touch of a stranger. When a wounded young policeman collapses outside her door, she must decide whether
+  to let him in.
+themes:
+- acceptance
+- death
+- fear
+- trust
+ids:
+  imdb: tt0734603
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Nothing_in_the_Dark
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+last_verified: '2026-11-19'
+locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  date: '2003-09-16'
+  title: George Clayton Johnson on "Nothing in the Dark"
+  url: https://interviews.televisionacademy.com/interviews/george-clayton-johnson
+  duration: '10:18'
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Lamont Johnson and George Clayton Johnson (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Lamont Johnson on directing "Nothing in the Dark" with Robert Redford
+  url: https://interviews.televisionacademy.com/interviews/lamont-johnson
+  date: '2003-06-10'
+  duration: '5:59'

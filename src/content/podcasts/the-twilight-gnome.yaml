@@ -1,0 +1,33 @@
+title: The Twilight Gnome
+hosts:
+- Alex
+- Tyler
+status: active
+covers:
+- '1959'
+description: A weekly fan podcast in which hosts Alex and Tyler watch the original series one episode at a time and give
+  their takes; it passed 139 episodes in November 2026 and runs an annual Halloween special.
+featured_episodes:
+- title: 'Episode 139: An Occurrence at Owl Creek Bridge'
+  url: https://ajrockstar3.podbean.com/e/episode-139-an-occurrence-at-owl-creek-bridge/
+  covers_episode: 1959/an-occurrence-at-owl-creek-bridge
+- title: 'Episode 138: Mr. Bevis'
+  date: '2026-11-06'
+  url: https://ajrockstar3.podbean.com/e/episode-138-mr-bevis/
+  covers_episode: 1959/mr-bevis
+- title: 'Episode 137: Twenty Two (Halloween special)'
+  date: '2026-10-30'
+  url: https://ajrockstar3.podbean.com/e/episode-137-twenty-two/
+  covers_episode: 1959/twenty-two
+- title: 'Episode 136: The Dummy'
+  date: '2026-10-23'
+  url: https://ajrockstar3.podbean.com/e/episode-136-the-dummy/
+  covers_episode: 1959/the-dummy
+links:
+  home: https://ajrockstar3.podbean.com
+sources:
+- title: Podbean - The Twilight Gnome
+  url: https://ajrockstar3.podbean.com
+relevance: core
+research_confidence: medium
+last_verified: '2026-11-20'

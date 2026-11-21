@@ -1,0 +1,11 @@
+from: films/the-simpsons-the-devil-and-homer-simpson
+to: 1959/one-for-the-angels
+kind: inspired-by
+confidence: fan-noted
+summary: Homer sells his soul to Ned-as-devil for a doughnut; The Twilight Zone wiki notes it shares the soul-bargain and loophole
+  themes of two first-season episodes.
+sources:
+- title: Twilight Zone Wiki – Television series with references to The Twilight Zone
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,45 @@
+name: William Froug
+roles:
+- producer
+- writer
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Season 5 (second half)
+  role: producer
+- series: The Twilight Zone (1985)
+  work: Many, Many Monkeys
+  role: writer
+  ref: 1985/many-many-monkeys
+born: '1922-05-26'
+died: '2013-08-25'
+bio: >-
+  William Froug took over as producer of The Twilight Zone partway through its fifth and final season,
+  after Bert Granet left with thirteen episodes completed. He shelved several scripts already in development
+  and brought in new writers, a period fans still debate. Decades later he wrote Many, Many Monkeys for
+  the 1985 revival. A prolific writer-producer whose credits included Gilligan's Island and Bewitched,
+  he later taught screenwriting at UCLA and wrote several books on the craft.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/William_Froug
+sources:
+- title: William Froug - Wikipedia
+  url: https://en.wikipedia.org/wiki/William_Froug
+- title: Season Five (1963-1964) - The Twilight Zone Vortex
+  url: https://twilightzonevortex.blogspot.com/2021/03/season-five-1963-1964.html
+- title: William Froug - Television Academy Interviews
+  url: https://interviews.televisionacademy.com/node/26823
+last_verified: '2026-11-19'
+media:
+- title: 'William Froug interview, The Interviews: An Oral History of Television'
+  url: https://interviews.televisionacademy.com/interviews/william-froug?clip=83904
+  host: Television Academy Foundation
+  type: interview
+  rights: link-only
+- title: Influential UCLA professor and producer William Froug dies at 91
+  url: https://dailybruin.com/2013/09/03/influential-ucla-professor-and-producer-william-froug-dies-at-91
+  host: Daily Bruin
+  date: '2013-09-03'
+  type: article
+  rights: link-only
+categories:
+- people/producers
+- people/writers

@@ -1,0 +1,10 @@
+from: films/family-guy-family-guy-through-the-years
+to: 1959/eye-of-the-beholder
+kind: reference
+confidence: fan-noted
+summary: In a period-hopping scene, a still from 'The Eye of the Beholder' is visible on a TV behind Peter.
+sources:
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
+locked: true

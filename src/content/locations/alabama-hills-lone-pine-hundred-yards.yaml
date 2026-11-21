@@ -1,0 +1,19 @@
+name: Alabama Hills, Lone Pine
+kind: filming-location
+city: Lone Pine
+region: California
+country: US
+lat: 36.6082
+lng: -118.124
+status: open
+filmed:
+- ref: 1959/a-hundred-yards-over-the-rim
+  note: Frontier exteriors.
+notes: >-
+  The boulder-strewn hills below Mount Whitney, used in hundreds of Westerns, are credited by the Lone
+  Pine Film Festival's history as a location for "A Hundred Yards Over the Rim." They supplied the 1847
+  frontier that Cliff Robertson's wagon-train leader crosses before he stumbles into the twentieth century.
+sources:
+- title: A Hundred Yards Over the Rim - Lone Pine Film Festival
+  url: https://lonepinefilmfestival.org/html_page/lp0000291/
+last_verified: '2026-11-19'

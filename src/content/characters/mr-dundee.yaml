@@ -1,0 +1,21 @@
+name: Mr. Dundee
+aka: []
+kind: human
+played_by:
+- John Fiedler
+appears_in:
+- 1959/the-night-of-the-meek
+description: >-
+  The stingy department store manager who fires Henry Corwin and later accuses him of stealing the gifts. He is
+  won over by Corwin's kindness at the end.
+recurring: false
+relevance: core
+sources:
+- title: The Night of the Meek (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Night_of_the_Meek
+- title: 'The Twilight Zone: The Night of the Meek - IMDb'
+  url: https://www.imdb.com/title/tt0734666/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

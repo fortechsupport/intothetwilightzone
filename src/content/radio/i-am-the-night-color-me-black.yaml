@@ -1,0 +1,28 @@
+title: I Am the Night, Color Me Black
+series_title: The Twilight Zone Radio Dramas
+season: 4
+season_order: 5
+volume: 6
+volume_order: 5
+volume_released: July 2013
+original_writer: Rod Serling
+adapted_by: Dennis Etchison
+voiced_by:
+- John Ratzenberger
+ids:
+  imdb: tt30627809
+  audible_asin: B0046FO2YU
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
+adapts_episode: 1959/i-am-the-nightcolor-me-black
+description: 'A full-cast audio remake of “I Am the Night—Color Me Black” from the original 1959 series (season 5, 1964),
+  written for television by Rod Serling. Adapted for radio by Dennis Etchison, starring John Ratzenberger. The story:
+  In a small town, a man convicted of killing a bigot is set to be hanged at dawn, but on the day of the execution the
+  sun fails to rise. Darkness lingers over the town as residents confront their own hatred.'
+last_verified: '2026-11-20'
+research_confidence: high

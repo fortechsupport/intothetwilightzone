@@ -1,0 +1,13 @@
+from: films/saturday-night-live-twilight-zone-sketch-ariana-grande-episode
+to: series/1959
+kind: parody
+confidence: documented
+summary: A sketch that drops a tongue-twister routine into a Twilight Zone-style setup, reviewed by Slashfilm as
+  one of the episode's highlights.
+sources:
+- title: slashfilm.com
+  url: https://slashfilm.com/1687268/snl-ariana-grande-hotel-detectives-twilight-zone
+- title: exclaim.ca
+  url: https://exclaim.ca/film/article/saturday-night-live-ariana-grande-and-stevie-nicks-october-12-2024
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,21 @@
+name: Peter Kirby
+aka: []
+kind: human
+played_by:
+- Jeff Morrow
+appears_in:
+- 1959/elegy
+description: >-
+  The leader of three astronauts who land on an asteroid that looks like a frozen 20th-century Earth. He solves
+  the puzzle of the motionless people too late, after drinking Wickwire's poisoned toast.
+recurring: false
+relevance: core
+sources:
+- title: Elegy (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Elegy_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Elegy - IMDb'
+  url: https://www.imdb.com/title/tt0734565/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

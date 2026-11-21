@@ -1,0 +1,28 @@
+name: Tommy Lee Wallace
+roles:
+- director
+- writer
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: Dreams for Sale
+  role: director
+  ref: 1985/dreams-for-sale
+- series: The Twilight Zone (1985)
+  work: Little Boy Lost
+  role: director
+  ref: 1985/little-boy-lost
+- series: The Twilight Zone (1985)
+  work: The Leprechaun-Artist
+  role: writer/director
+  ref: 1985/the-leprechaun-artist
+born: '1949'
+bio: >-
+  Tommy Lee Wallace, a longtime collaborator of John Carpenter and director of Halloween III: Season of
+  the Witch, directed three segments of the 1985 revival, Dreams for Sale, Little Boy Lost and The Leprechaun-Artist,
+  the last of which he also co-wrote. He later directed the 1990 miniseries of Stephen King's It.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Tommy_Lee_Wallace
+sources:
+- title: Tommy Lee Wallace - Wikipedia
+  url: https://en.wikipedia.org/wiki/Tommy_Lee_Wallace
+last_verified: '2026-11-19'

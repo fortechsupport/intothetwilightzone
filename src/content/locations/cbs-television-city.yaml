@@ -1,0 +1,38 @@
+name: CBS Television City
+kind: backlot-set
+address: 7800 Beverly Blvd, Los Angeles, CA
+city: Los Angeles
+region: California
+country: US
+lat: 34.0745
+lng: -118.3592
+status: extant
+filmed:
+- ref: 1959/the-lateness-of-the-hour
+  note: The six videotaped episodes of season 2.
+- ref: 1959/static
+  note: The six videotaped episodes of season 2.
+- ref: 1959/the-whole-truth
+  note: The six videotaped episodes of season 2.
+- ref: 1959/the-night-of-the-meek
+  note: The six videotaped episodes of season 2.
+- ref: 1959/long-distance-call
+  note: The six videotaped episodes of season 2.
+notes: >-
+  CBS's live-TV studio complex in the Fairfax district was where six second-season episodes were shot
+  on videotape, back to back, from November to mid-December 1960, as a cost-saving experiment when the
+  series was running over budget. The episodes were "The Lateness of the Hour," "Static," "The Whole Truth,"
+  "The Night of the Meek," "Twenty Two" and "Long Distance Call." The savings were small and the flat,
+  stagey look was disliked, so the show went back to film at MGM.
+
+
+  Twilight Zone connections: Twenty Two: The six videotaped episodes of season 2.
+sources:
+- title: '''The Twilight Zone''...The Six Video Tape Episodes - Eyes of a Generation'
+  url: https://eyesofageneration.com/?p=26913
+- title: Why Six Episodes of The Twilight Zone Season 2 Look Very Different - SYFY
+  url: >-
+    https://www.syfy.com/index%2ephp/syfy-wire/why-six-episodes-of-the-twilight-zone-season-2-look-very-different
+- title: There's A Reason Why Six Twilight Zone Episodes Will Always Look Terrible - SlashFilm
+  url: https://www.slashfilm.com/1378989/why-six-twilight-zone-episodes-will-always-look-terrible
+last_verified: '2026-11-19'

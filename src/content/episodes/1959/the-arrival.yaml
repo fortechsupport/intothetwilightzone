@@ -1,0 +1,37 @@
+title: The Arrival
+series: '1959'
+season: 3
+episode: '2'
+air_date: '1961-09-22'
+runtime_min: 25
+production_code: '4814'
+writers:
+- Rod Serling
+directors:
+- Boris Sagal
+cast:
+- Harold J. Stone
+- Fredd Wayne
+- Bing Russell
+narrator: Rod Serling
+synopsis: An airliner lands safely at its destination with no passengers, no crew and no luggage aboard. A veteran
+  aviation investigator who has never failed to crack a case takes on the riddle, but every witness seems to remember
+  the plane differently.
+themes:
+- aviation
+- mystery
+- obsession
+- perception
+ids:
+  imdb: tt0734629
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Arrival_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+last_verified: '2026-11-19'
+locked: true

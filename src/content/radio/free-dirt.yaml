@@ -1,0 +1,27 @@
+title: Free Dirt
+series_title: The Twilight Zone Radio Dramas
+season: 14
+season_order: 5
+volume: 22
+volume_order: 1
+volume_released: October 2013
+original_writer: Charles Beaumont
+adapted_by: Dennis Etchison
+voiced_by:
+- Eric Bogosian
+ids:
+  imdb: tt28468682
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
+  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
+  url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
+description: 'A dramatization of Charles Beaumont''s short story "Free Dirt" (collected in Charles Beaumont: Selected
+  Stories), about a greedy man who takes soil from a cemetery for his garden. It was never a TV episode. Adapted for
+  radio by Dennis Etchison, starring Eric Bogosian.'
+last_verified: '2026-11-20'
+research_confidence: high
+categories:
+- episodes/radio-original-stories

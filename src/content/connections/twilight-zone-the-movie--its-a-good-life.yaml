@@ -1,0 +1,12 @@
+from: films/twilight-zone-the-movie
+to: 1959/its-a-good-life
+kind: official-adaptation
+confidence: documented
+summary: 'The "It''s a Good Life" segment of Twilight Zone: The Movie adapts It''s a Good Life.'
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+- title: 'Box Office Mojo - Twilight Zone: The Movie'
+  url: https://www.boxofficemojo.com/title/tt0086491
+last_verified: '2026-11-19'
+locked: true

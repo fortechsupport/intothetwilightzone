@@ -1,0 +1,10 @@
+from: works/sesame-street-home-video-the-curious-zone-neat-stuff-to-know-to-do
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: Rodney, a Muppet caricature of Serling, guides viewers into 'The Curious Zone' to spoofed Twilight Zone music.
+sources:
+- title: Muppet Wiki – The Twilight Zone
+  url: https://muppet.fandom.com/wiki/The_Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,16 @@
+from: films/good-morning-vietnam
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: Robin Williams' DJ hums the theme and spoofs Serling's opening narration on air, steering it toward the
+  Demilitarized Zone.
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone (1959)'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959
+- title: 'TV Tropes: Referenced By / The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: The bit is in the film, but only TV Tropes records it; IMDb and TCM pages surfaced
+  without confirming it in snippets. Williams improvised much of the radio material, so any creator credit would
+  go to him.'

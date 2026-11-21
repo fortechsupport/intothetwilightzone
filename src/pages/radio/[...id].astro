@@ -1,0 +1,9 @@
+---
+import RecordPage from '../../components/RecordPage.astro';
+import { getCollection } from 'astro:content';
+export async function getStaticPaths() {
+  return (await getCollection('radio')).filter((r) => !r.data.duplicate_of).map((r) => ({ params: { id: r.id }, props: { entry: r } }));
+}
+const { entry } = Astro.props;
+---
+<RecordPage col="radio" entry={entry} />

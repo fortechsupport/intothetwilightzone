@@ -1,0 +1,13 @@
+name: UPN
+aka:
+- United Paramount Network
+kind: network
+description: The network that carried the 2002-2003 revival hosted by Forest Whitaker.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: UPN'
+  url: https://en.wikipedia.org/wiki/UPN
+research_confidence: medium
+tags:
+- seed-record

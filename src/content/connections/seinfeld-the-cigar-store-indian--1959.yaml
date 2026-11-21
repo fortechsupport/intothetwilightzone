@@ -1,0 +1,11 @@
+from: films/seinfeld-the-cigar-store-indian
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: The show is name-checked in dialogue (Seinfeld's fuller Serling parody, 'The Van Buren Boys', is listed
+  separately).
+sources:
+- title: Twilight Zone Wiki – Television series with references to The Twilight Zone
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

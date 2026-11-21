@@ -1,0 +1,30 @@
+title: Sensuous Cindy
+series: '2002'
+season: 1
+episode: '16'
+air_date: '2002-11-13'
+runtime_min: 22
+production_code: '116'
+writers:
+- James Crocker
+directors:
+- John T. Kretchmer
+cast:
+- Greg Germann
+- Jaime Pressly
+narrator: Forest Whitaker
+synopsis: An overworked magazine writer seeks escape in a virtual-reality program featuring a seductive artificial
+  companion, and soon prefers her company to the people in his real life.
+themes:
+- loneliness
+- technology
+- virtual reality
+ids:
+  imdb: tt0734801
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

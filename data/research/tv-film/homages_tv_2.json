@@ -1,0 +1,1182 @@
+[
+ {
+  "work": {
+   "title": "Cowboy George",
+   "kind": "tv-episode",
+   "year": 1986,
+   "parent_series": "The A-Team"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Hannibal drops a passing mention of The Twilight Zone during the team's latest caper.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Double Vision",
+   "kind": "tv-episode",
+   "year": 1990,
+   "parent_series": "The Flash (1990)"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "A police officer remarks that a case with supernatural overtones feels like something out of The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Runaway Pants / Scythe 2.0",
+   "kind": "tv-episode",
+   "year": 2005,
+   "parent_series": "Grim & Evil"
+  },
+  "to": "series/1959",
+  "kind": "parody",
+  "confidence": "fan-noted",
+  "summary": "The episode opens with a \"Billy Zone\" bumper featuring a narrator styled after Rod Serling.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Traffic Zone",
+   "kind": "tv-segment",
+   "year": null,
+   "parent_series": "Hoppity Hooper (four-part story)"
+  },
+  "to": "series/1959",
+  "kind": "parody",
+  "confidence": "fan-noted",
+  "summary": "A multi-part Hoppity Hooper serial spoofs the anthology's eerie format under a traffic-themed title.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Zone Where Normal Things Don't Happen Very Often",
+   "kind": "tv-segment",
+   "year": null,
+   "parent_series": "Johnny Bravo (episode 12 shorts)"
+  },
+  "to": "series/1959",
+  "kind": "parody",
+  "confidence": "fan-noted",
+  "summary": "A Johnny Bravo short whose very title and framing lampoon The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Muppet Babies: The Next Generation",
+   "kind": "tv-episode",
+   "year": 1990,
+   "parent_series": "Muppet Babies"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "One of the nursery gang wonders aloud whether they have wandered into The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Middleverse",
+   "kind": "tv-episode",
+   "year": null,
+   "parent_series": "X-Men: Evolution"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Stranded in a strange alternate dimension, Nightcrawler names the Twilight Zone to describe their predicament.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The High Fright Zone",
+   "kind": "tv-segment",
+   "year": null,
+   "parent_series": "Yo-kai Watch"
+  },
+  "to": "series/1959",
+  "kind": "parody",
+  "confidence": "fan-noted",
+  "summary": "A recurring short in the Yo-kai Watch anime spoofs the classic anthology's mysterious presentation.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Mary Ellen",
+   "kind": "tv-episode",
+   "year": 1979,
+   "parent_series": "B.J. and the Bear"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "A driving instructor likens the hidden dangers of the road to The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Good, the Bad and the Beautiful",
+   "kind": "tv-episode",
+   "year": 1980,
+   "parent_series": "B.J. and the Bear"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Arriving on eerily empty streets, the characters compare the scene to The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Pilot",
+   "kind": "tv-episode",
+   "year": 1981,
+   "parent_series": "The Greatest American Hero"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "FBI agent Bill Maxwell invokes The Twilight Zone while confronting the strange events that give Ralph his super-suit.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Brother, Can You Spare a Blonde?",
+   "kind": "tv-episode",
+   "year": 1985,
+   "parent_series": "Moonlighting"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "A character compares a sudden windfall of cash to an episode of The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Sex, Lies and Ed's Tapes",
+   "kind": "tv-episode",
+   "year": 1990,
+   "parent_series": "Northern Exposure"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Rick hums the famous Twilight Zone theme to underline something odd in Cicely.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Game, Set... Muuurder?",
+   "kind": "tv-episode",
+   "year": 2007,
+   "parent_series": "Psych"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Shawn tosses off a Twilight Zone reference in the course of a tennis-world murder case.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Don't It Make My Brown Eyes Blue?",
+   "kind": "tv-episode",
+   "year": 1986,
+   "parent_series": "ALF"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "The Twilight Zone gets a name-check in a song performed during the episode.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Archie and the Computer",
+   "kind": "tv-episode",
+   "year": 1973,
+   "parent_series": "All in the Family"
+  },
+  "to": "series/1959",
+  "kind": "homage",
+  "confidence": "fan-noted",
+  "summary": "When a computer error upends Archie's life, Mike suggests he has entered the Twilight Zone and the family hums its theme.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Haunted House",
+   "kind": "tv-episode",
+   "year": 1963,
+   "parent_series": "The Andy Griffith Show"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Barney nervously mentions The Twilight Zone while investigating a supposedly haunted house.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Citizen's Arrest",
+   "kind": "tv-episode",
+   "year": 1963,
+   "parent_series": "The Andy Griffith Show"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Otis, baffled by events in Mayberry, declares that he must be in The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Bully the Kid",
+   "kind": "tv-episode",
+   "year": 2004,
+   "parent_series": "Andy Richter Controls the Universe"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Keith makes a passing Twilight Zone reference in this office-comedy episode.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Only the Lonely",
+   "kind": "tv-episode",
+   "year": 1981,
+   "parent_series": "Bosom Buddies"
+  },
+  "to": "series/1959",
+  "kind": "parody",
+  "confidence": "fan-noted",
+  "summary": "Henry slips into a Rod Serling impersonation, mimicking the host's clipped narration.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Man Who Came to Dinner",
+   "kind": "tv-episode",
+   "year": 1988,
+   "parent_series": "The Charmings"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Don sings the Twilight Zone theme, a natural joke for a fairy-tale family stranded in modern suburbia.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "It May Look Like a Walnut!",
+   "kind": "tv-episode",
+   "year": 1963,
+   "parent_series": "The Dick Van Dyke Show"
+  },
+  "to": "series/1959",
+  "kind": "homage",
+  "confidence": "fan-noted",
+  "summary": "In an alien-invasion nightmare that parodies late-night sci-fi, Rob wonders whether he has landed in \"the Twilo Zone.\"",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Young Man with a Shoehorn",
+   "kind": "tv-episode",
+   "year": 1965,
+   "parent_series": "The Dick Van Dyke Show"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Sally quips that she has either walked into the wrong office or into The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Mixed Doubles",
+   "kind": "tv-episode",
+   "year": 1996,
+   "parent_series": "Frasier"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Martin, confused by the romantic tangle around him, says he feels like he is in The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Skankin'",
+   "kind": "tv-episode",
+   "year": 1985,
+   "parent_series": "Girls on Top"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Shelley announces that the flatmates are \"entering The Twilight Zone,\" borrowing the show's famous phrase.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Bedtime Story",
+   "kind": "tv-episode",
+   "year": 1987,
+   "parent_series": "The Golden Girls"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Blanche compares being stranded at a deserted railway station to an episode of The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Evans' Dilemma",
+   "kind": "tv-episode",
+   "year": 1979,
+   "parent_series": "Good Times"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "J.J. jokes that the family has wandered into The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Twilight Zone",
+   "kind": "tv-episode",
+   "year": 1988,
+   "parent_series": "Hot Metal"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "An episode of the British tabloid-newspaper satire borrows the anthology's title.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Beaver on TV",
+   "kind": "tv-episode",
+   "year": 1963,
+   "parent_series": "Leave It to Beaver"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Gilbert compares the strange turn of events around Beaver's TV appearance to Rod Serling's show, a reference made while the series was still airing.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Love and the Modern Wife / Love and the Phonies / Love and the Single Couple",
+   "kind": "tv-episode",
+   "year": 1969,
+   "parent_series": "Love, American Style"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Bob Crane's character references The Twilight Zone in one of the episode's comic vignettes.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Beethoven, Presley and Me",
+   "kind": "tv-episode",
+   "year": 1963,
+   "parent_series": "The Many Loves of Dobie Gillis"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Herbert describes Maynard's sudden transformation as something straight out of The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Imaginary Friend",
+   "kind": "tv-episode",
+   "year": 1993,
+   "parent_series": "The Nanny"
+  },
+  "to": "series/1959",
+  "kind": "parody",
+  "confidence": "fan-noted",
+  "summary": "Brighton teases his sister with a mock Rod Serling monologue.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Nose Knows",
+   "kind": "tv-episode",
+   "year": 1997,
+   "parent_series": "The Nanny"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Fran jokes that her diet belongs more in The Twilight Zone than the Zone Diet.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Honeymoon's Overboard",
+   "kind": "tv-episode",
+   "year": 1998,
+   "parent_series": "The Nanny"
+  },
+  "to": "series/1959",
+  "kind": "homage",
+  "confidence": "fan-noted",
+  "summary": "The Twilight Zone theme plays over a dream sequence.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Horn Blows at Midnight",
+   "kind": "tv-episode",
+   "year": 1987,
+   "parent_series": "Perfect Strangers"
+  },
+  "to": "series/1959",
+  "kind": "homage",
+  "confidence": "fan-noted",
+  "summary": "The Twilight Zone theme is cued near the episode's close to underline a spooky turn.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Beach Blanket Bizarro",
+   "kind": "tv-episode",
+   "year": 2001,
+   "parent_series": "Sabrina the Teenage Witch"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Kevin remarks that they must be in The Twilight Zone after witnessing something inexplicable.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Hitler in Heaven",
+   "kind": "sketch",
+   "year": 1982,
+   "parent_series": "Saturday Night Live (Olivia Newton-John episode)"
+  },
+  "to": "series/1959",
+  "kind": "parody",
+  "confidence": "fan-noted",
+  "summary": "A sketch about Hitler in the afterlife borrows Twilight Zone framing, with Brian Doyle-Murray playing Rod Serling.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Vincent Price's Thanksgiving Special",
+   "kind": "sketch",
+   "year": 2006,
+   "parent_series": "Saturday Night Live (Matt Dillon episode)"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "A recurring horror-host holiday sketch slips in a Twilight Zone reference.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Trying to Connect You",
+   "kind": "tv-episode",
+   "year": 1996,
+   "parent_series": "Ballykissangel"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Peter, unsettled by events in the Irish village, asks whether he is in The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Episode of 27 September 2005",
+   "kind": "tv-episode",
+   "year": 2005,
+   "parent_series": "EastEnders"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Garry declares that they are back in The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Een oude man",
+   "kind": "tv-episode",
+   "year": 2007,
+   "parent_series": "Flikken Maastricht"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "A character in the Dutch police drama references The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Perfect Dress",
+   "kind": "tv-episode",
+   "year": 2006,
+   "parent_series": "Gilmore Girls"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "A strange wedding situation is likened to a Twilight Zone episode.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Silence of the Lamb",
+   "kind": "tv-episode",
+   "year": 2005,
+   "parent_series": "Veronica Mars"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "A character jokes that Rod Serling must be waiting on the couch, given how surreal things have become.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Future",
+   "kind": "tv-episode",
+   "year": 2009,
+   "parent_series": "QI"
+  },
+  "to": "series/1959",
+  "kind": "homage",
+  "confidence": "fan-noted",
+  "summary": "Sean Lock's buzzer on the panel show plays the Twilight Zone theme.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Valerie on the Stairs",
+   "kind": "tv-episode",
+   "year": 2006,
+   "parent_series": "Masters of Horror"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "A character references entering the Twilight Zone via a signpost in this Clive Barker-based horror tale.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Color of Truth - August 8, 1955",
+   "kind": "tv-episode",
+   "year": 1989,
+   "parent_series": "Quantum Leap"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Al mentions The Twilight Zone while Sam leaps into the segregated South.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Pilot",
+   "kind": "tv-episode",
+   "year": 2006,
+   "parent_series": "Eureka"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "A newcomer to the secret town of geniuses names The Twilight Zone to describe the place.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Amazing Colossal Man",
+   "kind": "tv-episode",
+   "year": 1991,
+   "parent_series": "Mystery Science Theater 3000"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "The riffers work a Twilight Zone mention into their commentary on the 1957 giant-man film.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Santa Claus Conquers the Martians",
+   "kind": "tv-episode",
+   "year": 1991,
+   "parent_series": "Mystery Science Theater 3000"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "The Twilight Zone is name-checked during the riff on the infamous holiday sci-fi film.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Creeping Terror",
+   "kind": "tv-episode",
+   "year": 1994,
+   "parent_series": "Mystery Science Theater 3000"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Tom Servo riffs on a doorway into another dimension, echoing the anthology's narration.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies",
+   "kind": "tv-episode",
+   "year": 1997,
+   "parent_series": "Mystery Science Theater 3000"
+  },
+  "to": "series/1959",
+  "kind": "parody",
+  "confidence": "fan-noted",
+  "summary": "Crow spins a variation on The Twilight Zone's opening narration.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Back in the Red: Part 1",
+   "kind": "tv-episode",
+   "year": 1999,
+   "parent_series": "Red Dwarf"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "The Twilight Zone is name-checked as the crew faces another bizarre predicament.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Gifted",
+   "kind": "tv-episode",
+   "year": 2007,
+   "parent_series": "Blood Ties"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "A line in this supernatural detective episode references The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Wiki: Television series with references to The Twilight Zone",
+    "url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Room 104",
+   "kind": "tv-series",
+   "year": 2017,
+   "parent_series": null
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "The Duplass brothers' HBO anthology sets each self-contained story, from comedy to horror, in the same motel room, and critics dubbed it a new Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Daily Beast: Inside HBO's Room 104, a new Twilight Zone from the Duplass brothers",
+    "url": "https://www.thedailybeast.com/inside-hbos-room-104-a-new-twilight-zone-from-the-duplass-brothers"
+   },
+   {
+    "title": "Refinery29: Room 104 HBO anthology series and The Twilight Zone",
+    "url": "https://refinery29.com/en-us/2017/07/165664/room-104-hbo-series-anthology-twilight-zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Tales of the Unusual (Yo nimo Kimyō na Monogatari)",
+   "kind": "tv-series",
+   "year": 1990,
+   "parent_series": null
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "Japan's long-running Fuji TV anthology of strange tales, introduced by a sunglasses-wearing host, is widely regarded as the country's answer to The Twilight Zone.",
+  "sources": [
+   {
+    "title": "Wikipedia: Tales of the Unusual",
+    "url": "https://www.wikipedia.org/wiki/Tales_of_the_Unusual"
+   },
+   {
+    "title": "Bloody Disgusting: Tales of the Unusual, charming Japanese anthology",
+    "url": "https://bloody-disgusting.com/editorials/3708913/tales-of-the-unusual-charming-japanese-anthology-offers-multiple-genres-horrors-elsewhere/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Are You Afraid of the Dark?",
+   "kind": "tv-series",
+   "year": 1990,
+   "parent_series": null
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "Nickelodeon's campfire anthology owes a clear debt to The Twilight Zone, down to each storyteller's Serling-style plea: \"Submitted for the approval of the Midnight Society.\"",
+  "sources": [
+   {
+    "title": "Den of Geek: How The Twilight Zone Influenced Are You Afraid of the Dark?",
+    "url": "https://www.denofgeek.com/?p=627437"
+   },
+   {
+    "title": "Cheat Sheet: Rod Serling's signature phrase was later borrowed by a kids' show",
+    "url": "https://www.cheatsheet.com/news/the-twilight-zones-rod-serlings-signature-phrase-was-only-uttered-in-3-episodes-but-was-later-borrowed-by-a-kids-show.html"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Dimension 404",
+   "kind": "tv-series",
+   "year": 2017,
+   "parent_series": null
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "Hulu's Mark Hamill-narrated sci-fi anthology was pitched to viewers and reviewed as a Twilight Zone- and Black Mirror-style series of twisty standalone tales.",
+  "sources": [
+   {
+    "title": "/Film: Mark Hamill's sci-fi anthology series has major The Twilight Zone vibes",
+    "url": "https://www.slashfilm.com/2122098/mark-hamill-sci-fi-anthology-series-the-twilight-zone-dimension-404-streaming-hulu"
+   },
+   {
+    "title": "We Minored in Film: Dimension 404 is a Black Mirror/Twilight Zone hybrid",
+    "url": "https://weminoredinfilm.com/2017/04/05/review-hulus-dimension-404-is-a-black-mirror-twilight-zone-hybrid-for-people-who-grew-up-on-goosebumps"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "WandaVision",
+   "kind": "tv-series",
+   "year": 2021,
+   "parent_series": null
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "confirmed-by-creator",
+  "summary": "Head writer Jac Schaeffer named The Twilight Zone among the influences on Marvel's sitcom-pastiche series about a too-perfect suburban reality that slowly reveals its seams.",
+  "sources": [
+   {
+    "title": "ComicBook.com: WandaVision's modern influences, per Jac Schaeffer, include The Twilight Zone and The Outer Limits",
+    "url": "https://comicbook.com/tv-shows/news/wandavision-modern-influences-jac-schaeffer-twilight-zone-outer-limits/?nb=1"
+   },
+   {
+    "title": "Screen Rant: WandaVision, Scarlet Witch and Twilight Zone-style reality warping",
+    "url": "https://screenrant.com/wandavision-scarlet-witch-twilight-zone-fake-reality-warping/"
+   },
+   {
+    "title": "Cracked: How WandaVision has gone full Twilight Zone",
+    "url": "https://cracked.com/article_29481_how-wandavision-has-gone-full-twilight-zone.html"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Guillermo del Toro's Cabinet of Curiosities",
+   "kind": "tv-series",
+   "year": 2022,
+   "parent_series": null
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "Del Toro's Netflix horror anthology, with the filmmaker introducing each tale on camera, is framed as a love letter to Rod Serling's Night Gallery, his follow-up to The Twilight Zone.",
+  "sources": [
+   {
+    "title": "TheWrap: Why Cabinet of Curiosities is Guillermo del Toro's love letter to Rod Serling's Night Gallery",
+    "url": "https://www.thewrap.com/cabinet-of-curiosities-guillermo-del-toro-rod-serling-night-gallery/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Ultra Q",
+   "kind": "tv-series",
+   "year": 1966,
+   "parent_series": null
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "Tsuburaya Productions' black-and-white series of strange phenomena and monsters, the precursor to Ultraman, is often recommended as Japan's counterpart to The Twilight Zone.",
+  "sources": [
+   {
+    "title": "The Portalist: Fans of The Twilight Zone and The X-Files need to watch Ultra Q",
+    "url": "https://theportalist.com/ultra-q-tv-series"
+   },
+   {
+    "title": "Wikipedia: Ultra Q",
+    "url": "https://en.wikipedia.org/wiki/Ultra_Q"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Monsters",
+   "kind": "tv-series",
+   "year": 1988,
+   "parent_series": null
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "The syndicated late-1980s horror anthology from the Tales from the Darkside producers, built around a creature in every story, has been described as an anti-Twilight Zone.",
+  "sources": [
+   {
+    "title": "ComicBook.com: Forgotten horror anthology Monsters, the anti-Twilight Zone",
+    "url": "https://comicbook.com/tv-shows/news/forgotten-horror-anthology-monsters-anti-twilight-zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Amazing Stories (2020)",
+   "kind": "tv-series",
+   "year": 2020,
+   "parent_series": null
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "Apple TV+'s revival of Spielberg's anthology launched amid constant comparisons to The Twilight Zone and Black Mirror, which its producers addressed in interviews.",
+  "sources": [
+   {
+    "title": "SYFY Wire: Why Amazing Stories producers aren't worried about Black Mirror, Twilight Zone comparisons",
+    "url": "https://www.syfy.com/syfy-wire/amazing-stories-producers-not-worried"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Commuter",
+   "kind": "tv-episode",
+   "year": 2017,
+   "parent_series": "Philip K. Dick's Electric Dreams S1"
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "A railway clerk follows a passenger to a town that should not exist, in an episode a reviewer framed as Twilight Zone territory.",
+  "sources": [
+   {
+    "title": "Goodreads blog: Philip K. Dick's Electric Dreams 1.9 The Commuter: Submitted for Your Approval",
+    "url": "https://www.goodreads.com/author_blog_posts/16261555-philip-k-dick-s-electric-dreams-1-9-the-commuter-submitted-for-your-ap"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Boo to a Goose",
+   "kind": "tv-episode",
+   "year": null,
+   "parent_series": "Inside No. 9"
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Commuters stuck in a stalled train carriage turn on one another over a missing wallet, and viewers likened the episode's set-up to The Twilight Zone.",
+  "sources": [
+   {
+    "title": "British Comedy Guide forum: Boo to a Goose was very Twilight Zone",
+    "url": "https://www.comedy.co.uk/forums/post/1280210/"
+   }
+  ]
+ }
+]

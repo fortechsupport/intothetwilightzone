@@ -1,0 +1,14 @@
+from: works/cbs-music-library-twilight-zone
+to: 1959/one-for-the-angels
+kind: reference
+confidence: documented
+summary: >-
+  Explains how nearly every Twilight Zone episode got its music, and why the same cues recur across seasons.
+sources:
+- title: Cambridge Core – Wissner, 'Composing and Recording in The Twilight Zone' (A Dimension of Sound)
+  url: >-
+    https://www.cambridge.org/core/books/dimension-of-sound/composing-and-recording-in-the-twilight-zone/FB1702A39C06B44D12717DB408D350A7
+- title: Cambridge Core – Wissner, 'Episode and Cue Information' appendix
+  url: >-
+    https://core-prod.cambridgecore.org/core/books/dimension-of-sound/episode-and-cue-information/D3509C7720B4715668F1CDF11692BA78
+last_verified: '2026-11-20'

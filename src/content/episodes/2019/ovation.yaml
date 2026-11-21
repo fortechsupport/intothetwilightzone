@@ -1,0 +1,36 @@
+title: Ovation
+series: '2019'
+season: 2
+episode: '4'
+air_date: '2020-06-25'
+runtime_min: 42
+writers:
+- David Weil
+- Emily C. Chang
+- Sara Amini
+writing_credit_note: Story by David Weil; teleplay by Emily C. Chang & Sara Amini
+directors:
+- Ana Lily Amirpour
+cast:
+- Jurnee Smollett
+- Tawny Newsome
+- Paul F. Tompkins
+- Thomas Lennon
+narrator: Jordan Peele
+synopsis: A street singer is handed a strange medallion by a troubled pop star moments before tragedy strikes. Her
+  career soon takes off on a wave of applause that never seems to stop.
+themes:
+- celebrity
+- fame
+- music
+ids:
+  imdb: tt11839570
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2019 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

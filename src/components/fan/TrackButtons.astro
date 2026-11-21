@@ -1,0 +1,12 @@
+---
+// Watched / owned / wanted toggles for any record, saved in this browser only (public/fan.js).
+interface Props { recKey: string; seen?: 'watched' | 'read' | 'heard' | 'played' | 'visited' | false; own?: boolean }
+const { recKey, seen = 'watched', own = true } = Astro.props;
+const SEEN_LABEL = { watched: 'Watched', read: 'Read', heard: 'Listened', played: 'Played', visited: 'Visited' } as const;
+---
+<div class="track" role="group" aria-label="My checklist" data-pagefind-ignore>
+  {seen && <button type="button" data-track="watched" data-key={recKey} aria-pressed="false"><span aria-hidden="true" class="tick"></span>{SEEN_LABEL[seen]}</button>}
+  {own && <button type="button" data-track="owned" data-key={recKey} aria-pressed="false"><span aria-hidden="true" class="tick"></span>I own it</button>}
+  {own && <button type="button" data-track="wanted" data-key={recKey} aria-pressed="false"><span aria-hidden="true" class="tick"></span>Want it</button>}
+  <a class="small muted" href="/my-zone/">My Zone</a>
+</div>

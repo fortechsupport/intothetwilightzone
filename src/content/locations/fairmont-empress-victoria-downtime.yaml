@@ -1,0 +1,30 @@
+name: Fairmont Empress and Government Street, Victoria
+kind: filming-location
+address: 721 Government Street, Victoria, BC
+city: Victoria
+region: British Columbia
+country: CA
+lat: 48.4216
+lng: -123.368
+status: open
+filmed:
+- ref: 2019/downtime
+  note: Inner Harbour street scenes, November 2019.
+notes: >-
+  Over three days in November 2019 the second season filmed in front of the Fairmont Empress and along
+  the 700 block of Government Street and the 500 and 600 blocks of Belleville Street, with further work
+  on Humboldt and Gordon streets. Hundreds of extras stood motionless beside abandoned vintage cars in
+  the Inner Harbour. Hollywood North Buzz lists Victoria as the location for "Downtime," the season's
+  only episode credited to the city.
+sources:
+- title: >-
+    Downtown Victoria scene of filming for new Twilight Zone series - CTV News Vancouver Island
+  url: >-
+    https://vancouverisland.ctvnews.ca/downtown-victoria-scene-of-filming-for-new-twilight-zone-series-1.4693200
+- title: Victoria's Inner Harbour transformed for Twilight Zone series - CHEK News
+  url: https://cheknews.ca/victorias-inner-harbour-transformed-for-twilight-zone-series-623463/
+- title: >-
+    THE END: Jordan Peele's THE TWILIGHT ZONE Ends With Season 2 Which Wrapped Filming in Vancouver -
+    Hollywood North Buzz
+  url: https://hollywoodnorthbuzz.com/?p=116506
+last_verified: '2026-11-19'

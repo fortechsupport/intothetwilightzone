@@ -1,0 +1,31 @@
+title: Extra Innings
+series: '1985'
+season: 3
+episode: '02'
+air_date: '1988-10-01'
+runtime_min: 22
+writers:
+- Tom Palmer
+directors:
+- Doug Jackson
+cast:
+- Marc Singer
+- Steve Makaj
+narrator: Robin Ward
+synopsis: A former ballplayer whose career was ended by injury discovers that an old baseball card can transport
+  him into the world of an early twentieth-century player.
+themes:
+- baseball
+- nostalgia
+- second chances
+ids:
+  imdb: tt0734709
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Extra_Innings_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

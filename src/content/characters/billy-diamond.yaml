@@ -1,0 +1,21 @@
+name: Billy Diamond
+kind: human
+played_by:
+- Tim Thomerson
+appears_in:
+- 1985/take-my-life-please
+description: >-
+  A selfish stand-up comedian who dies in an accident and finds himself performing for an audience in the afterlife.
+  There his act, and the way he treated people in life, are judged. The 2019 revival's premiere episode was inspired
+  by this segment.
+recurring: false
+relevance: core
+sources:
+- title: Take My Life...Please! (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Take_My_Life...Please!
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

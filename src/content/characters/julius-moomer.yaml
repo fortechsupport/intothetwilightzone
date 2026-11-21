@@ -1,0 +1,21 @@
+name: Julius Moomer
+aka: []
+kind: human
+played_by:
+- Jack Weston
+appears_in:
+- 1959/the-bard
+description: >-
+  A writer with no talent who uses black magic to bring William Shakespeare to the present and has him write a TV
+  script. Shakespeare leaves, and Moomer brings back other famous figures.
+recurring: false
+relevance: core
+sources:
+- title: The Bard (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Bard_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Bard - IMDb'
+  url: https://www.imdb.com/title/tt0734630/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

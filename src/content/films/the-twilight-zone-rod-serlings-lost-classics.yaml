@@ -1,0 +1,53 @@
+title: 'The Twilight Zone: Rod Serling''s Lost Classics'
+kind: tv-film
+release_date: '1994-05-19'
+runtime_min: 89
+writers:
+- Rod Serling
+- Richard Matheson
+directors:
+- Robert Markowitz
+cast:
+- James Earl Jones
+- Gary Cole
+- Amy Irving
+- Patrick Bergin
+- Jack Palance
+- Priscilla Pointer
+- Julia Campbell
+summary: A CBS television film built from material Rod Serling left behind, hosted by James Earl Jones. Richard Matheson expands
+  a Serling outline into "The Theatre," about a moviegoer who sees her own life on the screen, and Serling's own 1968 script
+  "Where the Dead Are" sends a Civil War surgeon to an isolated island where something is wrong. Carol Serling co-produced.
+segments:
+- title: The Theatre
+  writers:
+  - Rod Serling
+  - Richard Matheson
+  directors:
+  - Robert Markowitz
+  cast:
+  - Amy Irving
+  - Gary Cole
+- title: Where the Dead Are
+  writers:
+  - Rod Serling
+  directors:
+  - Robert Markowitz
+  cast:
+  - Patrick Bergin
+  - Jack Palance
+ids:
+  imdb: tt0111520
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Twilight_Zone:_Rod_Serling%27s_Lost_Classics
+  justwatch: twilight-zone-rod-serlings-lost-classics
+  trailer_youtube: 9yb3WL5ffpE
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: 'Twilight Zone: Rod Serling''s Lost Classics - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_Rod_Serling%27s_Lost_Classics
+- title: 'IMDb - Twilight Zone: Rod Serling''s Lost Classics'
+  url: https://m.imdb.com/title/tt0111520/
+last_verified: '2026-11-19'
+locked: true

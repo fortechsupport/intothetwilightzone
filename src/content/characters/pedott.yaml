@@ -1,0 +1,22 @@
+name: Pedott
+aka: []
+kind: other
+played_by:
+- Ernest Truex
+appears_in:
+- 1959/what-you-need
+description: >-
+  A kindly old peddler who can see a little into the future and hands people the item they will need, from a bus
+  ticket to a spot remover. Threatened by Renard, he gives him the shoes that lead to his death, then calmly reflects
+  that Renard got exactly what he needed.
+recurring: false
+relevance: core
+sources:
+- title: What You Need (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/What_You_Need_(The_Twilight_Zone)
+- title: 'The Twilight Zone: What You Need - IMDb'
+  url: https://www.imdb.com/title/tt0734690/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

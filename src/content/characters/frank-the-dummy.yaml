@@ -1,0 +1,19 @@
+name: Frank
+aka: []
+kind: human
+played_by:
+- Frank Sutton
+appears_in:
+- 1959/the-dummy
+description: Jerry's agent, who thinks the dummy is all in Jerry's head. He tries to get Jerry back to work.
+recurring: false
+relevance: core
+sources:
+- title: The Dummy (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Dummy
+- title: 'The Twilight Zone: The Dummy - IMDb'
+  url: https://www.imdb.com/title/tt0734636/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

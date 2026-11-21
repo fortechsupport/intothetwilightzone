@@ -1,0 +1,20 @@
+name: Simon Foster
+kind: human
+played_by:
+- Bruce Weitz
+appears_in:
+- 1985/the-mind-of-simon-foster
+description: >-
+  An unemployed man in a bleak future who sells off his memories one by one to a pawnbroker to stay afloat. He has
+  to decide which parts of himself he can live without.
+recurring: false
+relevance: core
+sources:
+- title: The Mind of Simon Foster (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Mind_of_Simon_Foster
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

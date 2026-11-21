@@ -1,0 +1,15 @@
+from: works/alan-wake-series-remedy-entertainment-night-springs-show-within-a-game-alan-wake-ii-night-
+to: series/1959
+kind: homage
+confidence: documented
+evidence: Alan Wake's in-game TV anthology Night Springs, with its narrated openings and twist endings, is Remedy's
+  Twilight Zone pastiche; the 2024 Alan Wake II expansion turned it into playable anthology episodes.
+sources:
+- title: 'TV Tropes – Shout Out: Alan Wake'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ShoutOut/AlanWake
+- title: Inverse – Alan Wake 2 DLC makes me wish Remedy would develop an anthology series
+  url: https://inverse.com/gaming/alan-wake-2-dlc-makes-me-wish-remedy-would-develop-anthology-series
+- title: Epic Games Store – Night Springs Remedy interview
+  url: https://store.epicgames.com/news/alan-wake-2-dlc-night-springs-remedy-interview-release-date
+last_verified: '2026-11-20'
+locked: true

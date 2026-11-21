@@ -1,0 +1,14 @@
+from: films/saturday-night-live-twilite-zone-sketch-paul-simon-george-harrison
+to: series/1959
+kind: parody
+confidence: documented
+summary: Dan Aykroyd plays Rod Serling in an early SNL spoof of the series.
+sources:
+- title: 'Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+- title: 'Saturday Night Live (Classic): Paul Simon/George Harrison (The A.V. Club)'
+  url: https://avclub.com/saturday-night-live-classic-paul-simon-george-harri-1798203856
+last_verified: '2026-11-20'
+locked: true
+evidence: The A.V. Club's retro review of the Nov 20, 1976 Paul Simon/George Harrison episode singles out a funny
+  Twilight Zone parody in which Dan Aykroyd does an uncannily accurate Rod Serling.

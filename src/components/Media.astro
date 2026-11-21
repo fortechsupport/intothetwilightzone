@@ -1,0 +1,42 @@
+---
+// Media and content on a record's page: its own media[] (videos, audio, images, documents...) and the
+// content records attached to it (reviews, interviews, advertisements, archival holdings, links, quotes),
+// grouped by type. Each item shows its credit, source, date and rights, the other pages it appears on,
+// and a link to its entry in the Media Library. Public-domain files kept on this site play inline.
+import { mediaFor } from '../lib/catalog';
+import { LIBRARY_TYPES } from '../lib/taxonomy.mjs';
+interface Props { recKey: string; media?: unknown; skip?: string[] }
+const { recKey, skip = [] } = Astro.props;
+const items = (await mediaFor(recKey)).filter((i) => !skip.includes(i.type));
+const RIGHTS: Record<string, string> = { 'public-domain': 'Public domain', cc: 'Creative Commons', licensed: 'Hosted by the rights holder', 'link-only': 'Link only', unknown: 'Rights unknown' };
+const groups = LIBRARY_TYPES.map(([k, label]) => [label, items.filter((i) => i.type === k)] as const).filter(([, l]) => l.length);
+const human = (s?: string) => s?.replace(/-/g, ' ');
+---
+{items.length > 0 && (
+  <section class="media-block" id="media">
+    <h2>Media and content <span class="muted small">({items.length})</span></h2>
+    <p class="small muted">Everything here is also in the <a href="/media/">Media Library</a>, which shows every page it appears on. Copyrighted items are linked where the rights holder or an archive hosts them, never copied.</p>
+    {groups.map(([g, list]) => (
+      <>
+        <h3>{g}</h3>
+        <ul class="media-list">
+          {list.map((m) => {
+            const others = m.on.filter((o) => o.key !== recKey);
+            return (
+              <li>
+                <a href={m.href} rel={m.external ? 'noopener' : undefined}>{m.title}</a>
+                <span class="muted small"> · {[human(m.subtype), m.creator && `by ${m.creator}`, m.host, m.date].filter(Boolean).join(' · ')}</span>
+                {m.external && <span class={`tag rights-${m.rights ?? 'link-only'}`}>{RIGHTS[m.rights ?? 'link-only']}</span>}
+                {m.note && <p class="small">{m.note}</p>}
+                {!m.external && m.type === 'audio' && <audio controls preload="none" src={m.href} />}
+                {!m.external && m.type === 'video' && <video controls preload="none" src={m.href} />}
+                {!m.external && m.type === 'image' && <img src={m.href} alt={m.title} loading="lazy" />}
+                <p class="small muted">{others.length > 0 && <>Also on: {others.slice(0, 6).map((o, i) => <>{i > 0 && ', '}{o.href ? <a href={o.href}>{o.title}</a> : o.title}</>)}{others.length > 6 && ` and ${others.length - 6} more`}. </>}<a href={`/media/#${m.id}`}>In the Media Library</a></p>
+              </li>
+            );
+          })}
+        </ul>
+      </>
+    ))}
+  </section>
+)}

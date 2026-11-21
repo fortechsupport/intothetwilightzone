@@ -1,0 +1,32 @@
+title: Cradle of Darkness
+series: '2002'
+season: 1
+episode: '5'
+air_date: '2002-10-02'
+runtime_min: 22
+production_code: '104'
+writers:
+- Kamran Pasha
+directors:
+- Jean de Segonzac
+cast:
+- Katherine Heigl
+- James Remar
+narrator: Forest Whitaker
+synopsis: A woman from the future travels back to 1889 Austria and takes a job in a household with a newborn named
+  Adolf, determined to change history before the child can grow up.
+themes:
+- history
+- morality
+- time travel
+ids:
+  imdb: tt0734776
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: The Twilight Zone (2002) season 1 - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+last_verified: '2026-11-19'
+locked: true

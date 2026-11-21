@@ -1,0 +1,25 @@
+name: Jaroslav Gebr
+roles:
+- artist
+- scenic artist
+bio: >-
+  Universal staff artist, known as Jerry Gebr, who painted gallery canvases for Night Gallery alongside Thomas J.
+  Wright.
+tz_credits:
+- series: Night Gallery
+  work: Gallery paintings
+  role: artist
+  ref: films/night-gallery
+sources:
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+- title: Hollywood Backdrop Collection - Jaroslav Gebr
+  url: https://hollywoodbackdrops.org/?p=26
+- title: 'SYFY Wire - ''Night Gallery: The Art of Darkness'' offers a private showing'
+  url: https://www.syfy.com/syfy-wire/night-gallery-the-art-of-darkness-rod-serling-exclusive
+- title: 'Black Gate - Rod Serling''s Night Gallery: The Art of Darkness (review)'
+  url: https://www.blackgate.com/?p=474382
+research_confidence: high
+relevance: related
+last_verified: '2026-11-20'
+locked: true

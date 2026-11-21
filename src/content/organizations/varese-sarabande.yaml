@@ -1,0 +1,13 @@
+name: Varèse Sarabande
+aka:
+- Varese Sarabande
+kind: record-label
+description: Record label that released Twilight Zone score albums.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: Varèse Sarabande'
+  url: https://en.wikipedia.org/wiki/Var%C3%A8se_Sarabande
+research_confidence: medium
+tags:
+- seed-record

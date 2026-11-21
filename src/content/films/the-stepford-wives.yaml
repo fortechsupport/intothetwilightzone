@@ -1,0 +1,12 @@
+title: The Stepford Wives
+kind: film
+ids:
+  imdb: tt0073747
+links:
+  trailer_youtube: GiojqTLSkdA
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+summary: Bryan Forbes's film of Ira Levin's novel, in which a newcomer to a Connecticut suburb realizes the local
+  wives are being replaced by compliant robots.
+release_date: '1975'

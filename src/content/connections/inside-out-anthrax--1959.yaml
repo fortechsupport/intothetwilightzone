@@ -1,0 +1,10 @@
+from: films/inside-out-anthrax
+to: series/1959
+kind: inspired-by
+confidence: documented
+evidence: Marcos Siega's video for Anthrax's single is modeled on the gremlin-on-the-wing episode.
+sources:
+- title: Wikipedia – Nightmare at 20,000 Feet
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+last_verified: '2026-11-20'
+locked: true

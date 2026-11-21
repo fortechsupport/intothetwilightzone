@@ -1,0 +1,11 @@
+from: works/herrmann-jess-belle-score
+to: 1959/jess-belle
+kind: reference
+confidence: documented
+summary: Possible Herrmann original score for a season-four episode.
+sources:
+- title: Wikipedia – Jess-Belle
+  url: https://en.wikipedia.org/wiki/Jess-Belle
+- title: 45worlds – Varèse STV 81205
+  url: https://mail.45worlds.com/vinyl/album/stv81205
+last_verified: '2026-11-20'

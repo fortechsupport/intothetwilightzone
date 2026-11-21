@@ -1,0 +1,36 @@
+title: To See the Invisible Man
+series: '1985'
+season: 1
+episode: '16b'
+air_date: '1986-01-31'
+runtime_min: 23
+writers:
+- Steven Barnes
+writing_credit_note: Teleplay by Steven Barnes; based on the short story "To See the Invisible Man" by Robert Silverberg
+source_authors:
+- Robert Silverberg
+directors:
+- Noel Black
+cast:
+- Cotter Smith
+- Whitby Hertford
+narrator: Charles Aidman
+synopsis: In a future society, a man convicted of coldness toward others is sentenced to a year of social invisibility,
+  marked so that everyone must act as though he does not exist.
+themes:
+- dystopia
+- isolation
+- punishment
+ids:
+  imdb: tt0734749
+links:
+  wikipedia: https://en.wikipedia.org/wiki/To_See_the_Invisible_Man
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

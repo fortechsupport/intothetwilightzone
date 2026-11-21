@@ -1,0 +1,24 @@
+name: Paul Sand
+born: '1932-03-05'
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: Time and Teresa Golowitz
+  role: Bluestone
+  ref: 1985/time-and-teresa-golowitz
+bio: >-
+  Paul Sand played Bluestone, the Broadway composer given one night back in his youth by the Devil (Gene Barry),
+  in "Time and Teresa Golowitz" (1987). A Second City alumnus, he won a Tony Award for Paul Sills' Story Theatre
+  (1971). He starred in his own sitcom, Paul Sand in Friends and Lovers (1974–75), and had many film and guest television
+  roles.
+relevance: core
+sources:
+- title: Time and Teresa Golowitz - Wikipedia
+  url: https://en.wikipedia.org/wiki/Time_and_Teresa_Golowitz
+- title: Paul Sand - Wikipedia
+  url: https://en.wikipedia.org/wiki/Paul_Sand
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/actors

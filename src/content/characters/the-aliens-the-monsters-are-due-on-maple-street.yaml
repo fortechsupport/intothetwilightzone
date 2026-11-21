@@ -1,0 +1,22 @@
+name: The aliens
+aka:
+- Figure One
+- Figure Two
+kind: alien
+played_by: []
+appears_in:
+- 1959/the-monsters-are-due-on-maple-street
+description: >-
+  Two aliens who watch from a hilltop as Maple Street destroys itself. They explain that turning out the lights
+  and letting fear do the rest is how they will conquer the world, one street at a time.
+recurring: false
+relevance: core
+sources:
+- title: The Monsters Are Due on Maple Street (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Monsters_Are_Due_on_Maple_Street
+- title: 'The Twilight Zone: The Monsters Are Due on Maple Street - IMDb'
+  url: https://www.imdb.com/title/tt0734664/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

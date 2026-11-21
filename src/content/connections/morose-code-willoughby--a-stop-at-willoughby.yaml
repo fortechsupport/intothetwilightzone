@@ -1,0 +1,9 @@
+from: songs/morose-code-willoughby
+to: 1959/a-stop-at-willoughby
+kind: reference
+confidence: documented
+summary: Possible reference to 'A Stop at Willoughby' (1960); unconfirmed.
+sources:
+- title: 'Bandcamp: Willoughby'
+  url: https://morosecodeoh.bandcamp.com/track/willoughby
+last_verified: '2026-11-20'

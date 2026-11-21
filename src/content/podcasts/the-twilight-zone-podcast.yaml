@@ -1,0 +1,51 @@
+title: The Twilight Zone Podcast
+hosts:
+- Tom Elliot
+first_episode: '2011-06-01'
+links:
+  podchaser: https://www.podchaser.com/podcasts/the-twilight-zone-podcast-11686
+  rss: https://www.spreaker.com/show/5856481/episodes/feed
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone Podcast - About
+  url: https://www.thetwilightzonepodcast.com/about
+- title: The Twilight Zone Podcast - Episodes
+  url: https://www.thetwilightzonepodcast.com/episodes
+description: Tom Elliot's long-running independent podcast about The Twilight Zone, started in 2010 and billed as the
+  longest-running show about the series. Alongside reviews of episodes across every season it runs readings of the short
+  stories behind episodes, book reviews, interviews with authors and Serling family members, and live coverage of Serlingfest
+  in Binghamton. In 2026 it covered the Serling documentary's SXSW premiere and talked with Alan Sepinwall about his
+  Serling biography.
+status: active
+covers:
+- '1959'
+- '1985'
+- '2002'
+- '2019'
+featured_episodes:
+- title: Serling, A Journey into the Twilight Zone with Alan Sepinwall
+  date: '2026-06-11'
+  url: https://www.thetwilightzonepodcast.com/episodes/alan-sepinwall
+- title: Serling, A Journey into the Twilight Zone with Alan Sepinwall, part 2
+  date: '2026-10-13'
+  url: https://www.thetwilightzonepodcast.com/episodes/alan-sepinwall-2
+- title: Jodi Serling with Tony Albarella (live at Serlingfest 2026)
+  date: '2026-09-24'
+  url: https://www.thetwilightzonepodcast.com/episodes/jodi-serling
+- title: 'Serling: SXSW premiere with Harold Clark'
+  date: '2026-05-11'
+  url: https://www.thetwilightzonepodcast.com/episodes/serling-sxsw
+- title: 'Roddy McDowall: An Actor''s Life, with Samuel Garza Bernstein'
+  date: '2026-05-03'
+  url: https://www.thetwilightzonepodcast.com/episodes/roddy-mcdowall
+- title: Prelude to "An Occurrence at Owl Creek Bridge" (Vincent Price's Suspense radio performance)
+  date: '2026-02-21'
+  url: https://www.thetwilightzonepodcast.com/episodes/suspense
+  covers_episode: 1959/an-occurrence-at-owl-creek-bridge
+- title: '"What''s in the Box"'
+  date: '2026-11-11'
+  url: https://www.thetwilightzonepodcast.com/episodes
+  covers_episode: 1959/whats-in-the-box
+research_confidence: high
+last_verified: '2026-11-20'

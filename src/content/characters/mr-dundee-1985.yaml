@@ -1,0 +1,20 @@
+name: Mr. Dundee (1985)
+aka:
+- Mr. Dundee
+kind: human
+played_by:
+- William Atherton
+appears_in:
+- 1985/night-of-the-meek
+description: The store manager who fires Henry Corwin, in the remake of Serling's 1960 Christmas episode.
+recurring: false
+relevance: core
+sources:
+- title: Night of the Meek (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Night_of_the_Meek_(The_Twilight_Zon
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,27 @@
+name: Richard Bellis
+bio: >-
+  American composer and Emmy winner for Stephen King's It (1990). He has written a lot of Disney park music, including
+  Star Tours and Indiana Jones Adventure. For The Twilight Zone Tower of Terror he scored the pre-show 'episode',
+  re-recording the series' instrumentation and writing the new material.
+roles:
+- composer
+tz_credits:
+- series: The Twilight Zone Tower of Terror (Disney parks)
+  work: Pre-show episode score
+relevance: core
+research_confidence: high
+sources:
+- title: Attractions Magazine – The music of The Twilight Zone Tower of Terror
+  url: https://attractionsmagazine.com/music-twilight-zone-tower-of-terror-enter-new-dimension-sound/
+- title: Tomorrow Society – Richard Bellis interview
+  url: https://tomorrowsociety.com/richard-bellis-interview/
+- title: Wikipedia – Richard Bellis
+  url: https://en.wikipedia.org/wiki/Richard_Bellis
+media:
+- type: audio
+  title: Tomorrow Society podcast – Richard Bellis on composing music for Disney's parks (2018)
+  url: >-
+    https://www.dix-project.net/document/tomorrow-society-podcast_2018-08-01_richard-bellis-on-composing-music-for-disney-s-parks
+  host: Tomorrow Society / DIX Project index
+  rights: link-only
+last_verified: '2026-11-20'

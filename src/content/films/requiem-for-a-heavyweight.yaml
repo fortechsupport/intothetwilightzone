@@ -1,0 +1,24 @@
+title: Requiem for a Heavyweight
+kind: film
+summary: The feature remake of the 1956 Playhouse 90 drama, with Serling adapting his own script.
+release_date: '1962'
+writers:
+- Rod Serling
+directors:
+- Ralph Nelson
+cast:
+- Anthony Quinn
+- Jackie Gleason
+- Mickey Rooney
+- Julie Harris
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+- title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
+  url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+research_confidence: medium
+relevance: related
+ids:
+  imdb: tt0056406
+last_verified: '2026-11-19'
+locked: true

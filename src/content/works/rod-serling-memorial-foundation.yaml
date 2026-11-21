@@ -1,0 +1,23 @@
+title: Rod Serling Memorial Foundation
+kind: link
+subtype: foundation
+year: 1985
+publisher: Rod Serling Memorial Foundation (Binghamton, NY)
+description: Binghamton-based nonprofit that Serling's former teacher Helen Foley founded in 1985 to keep his legacy
+  alive. Its site carries newsletters, articles, an awards list, and news of SerlingFest and the Recreation Park
+  statue.
+details:
+  status: active
+links:
+  official: https://rodserling.com/
+sources:
+- title: rodserling.com
+  url: https://rodserling.com/about-us/
+- title: bupipedream.com
+  url: https://www.bupipedream.com/ac/serling-fest-celebrates-60th-anniversary-of-the-twilight-zone/110317/
+research_confidence: high
+last_verified: '2026-11-19'
+content_of:
+- people/rod-serling
+organizations:
+- Rod Serling Memorial Foundation

@@ -1,0 +1,29 @@
+name: Gladys Cooper
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Nothing in the Dark
+  role: Wanda Dunn
+  ref: 1959/nothing-in-the-dark
+- series: The Twilight Zone (1959)
+  work: Passage on the Lady Anne
+  role: Millie McKenzie
+  ref: 1959/passage-on-the-lady-anne
+- series: The Twilight Zone (1959)
+  work: Night Call
+  role: Elva Keene
+  ref: 1959/night-call
+born: '1888-12-18'
+died: '1971-11-17'
+bio: >-
+  Dame Gladys Cooper was a leading London stage star and theatre manager who later became a three-time
+  Oscar-nominated Hollywood character actress. She appeared in three Twilight Zone episodes, including
+  the frail recluse who fears Death in "Nothing in the Dark" and the lonely widow plagued by phone calls
+  in "Night Call".
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Gladys_Cooper
+sources:
+- title: Gladys Cooper - Wikipedia
+  url: https://en.wikipedia.org/wiki/Gladys_Cooper
+last_verified: '2026-11-19'

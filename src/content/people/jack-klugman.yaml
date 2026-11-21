@@ -1,0 +1,54 @@
+name: Jack Klugman
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: A Passage for Trumpet
+  role: Joey Crown
+  ref: 1959/a-passage-for-trumpet
+- series: The Twilight Zone (1959)
+  work: A Game of Pool
+  role: Jesse Cardiff
+  ref: 1959/a-game-of-pool
+- series: The Twilight Zone (1959)
+  work: Death Ship
+  role: Captain Ross
+  ref: 1959/death-ship
+- series: The Twilight Zone (1959)
+  work: In Praise of Pip
+  role: Max Phillips
+  ref: 1959/in-praise-of-pip
+born: '1922-04-27'
+died: '2012-12-24'
+bio: >-
+  Jack Klugman was a stage-trained character actor who became a household name as sloppy sportswriter
+  Oscar Madison on The Odd Couple and as the crusading medical examiner in Quincy, M.E. He is tied with
+  Burgess Meredith for the most starring turns on the original Twilight Zone, headlining four episodes
+  as a down-and-out trumpeter, a pool shark, a starship captain and a dying bookie.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Jack_Klugman
+sources:
+- title: Jack Klugman - Wikipedia
+  url: https://en.wikipedia.org/wiki/Jack_Klugman
+last_verified: '2026-11-19'
+media:
+- title: 'Jack Klugman interview, The Interviews: An Oral History of Television'
+  url: https://interviews.televisionacademy.com/interviews/jack-klugman
+  host: Television Academy Foundation
+  type: interview
+  rights: link-only
+- title: Remembering Jack Klugman
+  url: https://interviews.televisionacademy.com/news/remembering-jack-klugman
+  host: Television Academy Foundation
+  date: 2012-12
+  type: article
+  rights: link-only
+- title: Actor Jack Klugman dies in Los Angeles
+  url: >-
+    https://www.bostonglobe.com/metro/obituaries/2012/12/24/actor-jack-klugman-dies-los-angeles/rVUIuHqDqwxltfGcSkwhYJ/story.html
+  host: The Boston Globe
+  date: '2012-12-24'
+  type: article
+  rights: link-only
+categories:
+- people/actors

@@ -1,0 +1,30 @@
+title: Gabe's Story
+series: '2002'
+season: 1
+episode: '22'
+air_date: '2002-12-11'
+runtime_min: 22
+production_code: '123'
+writers:
+- Dusty Kay
+directors:
+- Allan Kroeker
+cast:
+- Christopher Titus
+- Jed Rees
+narrator: Forest Whitaker
+synopsis: A chronically unlucky deliveryman suddenly gains the ability to see the hidden chain of events behind
+  each of his misfortunes, and wonders whether he can break it.
+themes:
+- cause and effect
+- fate
+- luck
+ids:
+  imdb: tt0734785
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

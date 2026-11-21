@@ -1,0 +1,21 @@
+name: Professor A. Daemon
+aka: []
+kind: other
+played_by:
+- John McIntire
+appears_in:
+- 1959/the-chaser
+description: >-
+  The dealer in potions who sells Roger the love potion for a dollar and keeps a poison, the 'glove cleaner,' for
+  a thousand. He knows from experience that the second sale always follows the first.
+recurring: false
+relevance: core
+sources:
+- title: The Chaser (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Chaser_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Chaser - IMDb'
+  url: https://www.imdb.com/title/tt0734635/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

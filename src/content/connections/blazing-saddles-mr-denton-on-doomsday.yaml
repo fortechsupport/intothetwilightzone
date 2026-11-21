@@ -1,0 +1,13 @@
+from: films/blazing-saddles
+to: 1959/mr-denton-on-doomsday
+kind: inspired-by
+confidence: fan-noted
+summary: Blazing Saddles is listed in Adam's research as inspired by "Mr. Denton on Doomsday".
+evidence: 'No source found; the link seems to rest only on both featuring a washed-up drunken gunfighter who gets
+  his skill back. Checked 2026-11-20: No source was found linking Blazing Saddles to the episode; the shared drunken-gunfighter
+  figure is a stock Western type (Destry, Cat Ballou). Weak; consider removing.'
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+last_verified: '2026-11-20'
+locked: true

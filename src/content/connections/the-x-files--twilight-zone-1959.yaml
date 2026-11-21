@@ -1,0 +1,14 @@
+from: films/the-x-files
+to: series/1959
+kind: reference
+confidence: documented
+summary: Mulder's ally Senator Richard Matheson is named after the Twilight Zone writer.
+sources:
+- title: 'Westword: Top ten Twilight Zone references in pop culture'
+  url: https://www.westword.com/arts/top-ten-twilight-zone-references-in-pop-culture-5814980
+- title: 'TVmaze: The X-Files – Senator Richard Matheson'
+  url: https://www.tvmaze.com/characters/76593/the-x-files-senator-richard-matheson
+last_verified: '2026-11-20'
+locked: true
+evidence: Westword's list of top Twilight Zone references in pop culture says The X-Files named Senator Richard
+  Matheson after The Twilight Zone writer, and adds the joke that the show did not go as far as a 'President Rod Serling'.

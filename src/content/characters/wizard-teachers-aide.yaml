@@ -1,0 +1,16 @@
+name: Wizard
+kind: human
+appears_in:
+- 1985/teachers-aide
+description: The leader of the gang terrorizing Miss Peters's school, who plans to attack her.
+recurring: false
+relevance: core
+sources:
+- title: Teacher's Aide (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Teacher%27s_Aide_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

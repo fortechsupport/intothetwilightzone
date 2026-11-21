@@ -1,0 +1,20 @@
+name: James D. Bissell
+roles:
+- production designer
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: production designer
+  ref: films/twilight-zone-the-movie
+bio: >-
+  James D. Bissell was production designer of Twilight Zone: The Movie (1983). He had designed E.T. the Extra-Terrestrial
+  for Steven Spielberg the year before, and later designed films including The Rocketeer, Jumanji and Good Night,
+  and Good Luck.
+sources:
+- title: 'Sci-Fi-Movies: Twilight Zone: The Movie (1983) credits'
+  url: https://www.scifi-movies.com/en/credits/0001932/twilight-zone-the-movie-1983/
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/producers

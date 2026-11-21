@@ -1,0 +1,22 @@
+title: Saturn Award – Best Horror Film (1984), nomination
+kind: event
+subtype: honor
+year: 1984
+description: 'Twilight Zone: The Movie was nominated for the Saturn Award for Best Horror Film in 1984 for Twilight
+  Zone: The Movie. The Dead Zone won.'
+details:
+  result: nominated
+  recipient: 'Twilight Zone: The Movie'
+  honors:
+  - films/twilight-zone-the-movie
+categories:
+- reviews/awards-citations
+research_confidence: medium
+sources:
+- title: 'Wikipedia: 11th Saturn Awards'
+  url: https://en.wikipedia.org/wiki/11th_Saturn_Awards
+last_verified: '2026-11-20'
+locked: true
+organizations:
+- Academy of Science Fiction, Fantasy and Horror Films
+creator: Academy of Science Fiction, Fantasy and Horror Films

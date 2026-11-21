@@ -1,0 +1,36 @@
+title: The Brain Center at Whipple's
+series: '1959'
+season: 5
+episode: '33'
+air_date: '1964-05-15'
+runtime_min: 25
+production_code: '2632'
+writers:
+- Rod Serling
+directors:
+- Richard Donner
+cast:
+- Richard Deacon
+- Thalmus Rasulala
+- Robby the Robot
+narrator: Rod Serling
+synopsis: Factory owner Wallace V. Whipple replaces his workers, one department after another, with a massive automated
+  machine in the name of efficiency, dismissing the pleas of his plant manager and the men he lays off.
+themes:
+- automation
+- greed
+- labor
+- progress
+ids:
+  imdb: tt0734633
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Brain_Center_at_Whipple%27s
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+last_verified: '2026-11-19'
+locked: true

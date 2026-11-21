@@ -1,0 +1,20 @@
+title: 'Japan: ''Michi no Sekai'' and ''Mystery Zone'''
+kind: production
+subtype: dub
+year: '1960'
+creator: Nippon Television; TBS
+description: Nippon Television first showed the series in 1960 as 未知の世界 ('Michi no Sekai', 'The Unknown World').
+  TBS then ran it from 1961 to 1967 as ミステリー・ゾーン ('Mystery Zone'), which remained its familiar Japanese title.
+details:
+  why_it_matters: It records the show's Asian broadcast history and alternative titles.
+  relates_to:
+  - series 1959
+categories:
+- series/international
+relevance: related
+sources:
+- title: eiga.com - Twilight Zone series page
+  url: https://eiga.com/drama/series/Twilight/
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

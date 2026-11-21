@@ -1,0 +1,18 @@
+title: KTLA's first Twilight Zone marathon (Thanksgiving 1980)
+kind: event
+subtype: marathon
+year: 1980
+description: Los Angeles station KTLA ran an eight-hour Twilight Zone marathon on Thanksgiving 1980, which its program
+  director later called the station's first; it drew a 16% share. The Thanksgiving marathon did not last, but it
+  set the pattern for holiday marathons.
+details:
+  station: KTLA (Los Angeles)
+sources:
+- title: 'Den of Geek: The Twilight Zone Marathon, a History of a Holiday Tradition (Arlen Schumer, 2018)'
+  url: https://www.denofgeek.com/tv/the-twilight-zone-marathon-a-history-of-a-holiday-tradition/
+categories:
+- events/broadcasts-marathons
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

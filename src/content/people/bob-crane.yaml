@@ -1,0 +1,22 @@
+name: Bob Crane
+roles:
+- actor
+born: '1928-07-13'
+died: '1978-06-29'
+bio: >-
+  Bob Crane, then a popular Los Angeles radio host, appeared in "Static" (1961), the story of an old radio that
+  plays broadcasts from the past, and later played Ralph Ashton in Night Gallery's comic ghost story "House – with
+  Ghost" (1971). He starred as Colonel Robert Hogan in Hogan's Heroes; his unsolved 1978 murder was dramatized in
+  Auto Focus.
+relevance: core
+sources:
+- title: Bob Crane - Wikipedia
+  url: https://en.wikipedia.org/wiki/Bob_Crane
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+- title: List of Night Gallery episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/actors

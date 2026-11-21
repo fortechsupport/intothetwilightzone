@@ -1,0 +1,13 @@
+from: films/medium-still-life
+to: 1959/the-midnight-sun
+kind: homage
+confidence: documented
+evidence: A Start TV feature on Medium's 3-D episode 'Still Life' says the Serling intro recorded for 'The Midnight
+  Sun' was reused, with impressionist Mark Silverman voicing the new narration.
+sources:
+- title: Television series with references to The Twilight Zone (Twilight Zone Wiki)
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+- title: They revived Rod Serling to introduce the weirdest episode of Medium (Start TV)
+  url: https://starttv.com/stories/they-revived-rod-serling-to-introduce-the-weirdest-episode-of-medium
+last_verified: '2026-11-20'
+locked: true

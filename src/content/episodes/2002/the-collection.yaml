@@ -1,0 +1,30 @@
+title: The Collection
+series: '2002'
+season: 1
+episode: '37'
+air_date: '2003-04-23'
+runtime_min: 22
+production_code: '138'
+writers:
+- Erin Maher
+- Kay Reindl
+directors:
+- John T. Kretchmer
+cast:
+- Jessica Simpson
+narrator: Forest Whitaker
+synopsis: A babysitter in a house filled with unsettling dolls begins to suspect a link between the collection and
+  the earlier sitters who vanished without a trace from the very same job.
+themes:
+- children
+- disappearance
+- dolls
+ids:
+  imdb: tt0734805
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

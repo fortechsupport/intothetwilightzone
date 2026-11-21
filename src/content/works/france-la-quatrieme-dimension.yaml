@@ -1,0 +1,23 @@
+title: 'France: ''La Quatrième Dimension'''
+kind: production
+subtype: dub
+year: '1965-02-06'
+creator: ORTF; TF1; France 3; Sci Fi; Ciné FX
+description: The series first aired in France in February 1965 on the ORTF's first channel as 'La Quatrième Dimension'.
+  It was later rerun on TF1, France 3 and the cable channels Sci Fi and Ciné FX. The French title became so familiar
+  that it was reused for the 1983 film and the later revivals.
+details:
+  why_it_matters: It covers the show's French title and broadcast history.
+  relates_to:
+  - series 1959
+categories:
+- series/international
+relevance: related
+sources:
+- title: AnnuSéries - Quatrième dimension (La)
+  url: https://www.a-suivre.org/annuseries/encyclopedie/series.php?series=151
+- title: AlloCiné - La Quatrième dimension
+  url: https://www.allocine.fr/series/ficheserie_gen_cserie=382.html
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

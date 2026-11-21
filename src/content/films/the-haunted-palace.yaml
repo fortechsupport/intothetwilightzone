@@ -1,0 +1,17 @@
+title: The Haunted Palace
+kind: film
+summary: Corman horror film, billed as Poe but drawn from Lovecraft, scripted by Beaumont.
+release_date: '1963'
+writers:
+- Charles Beaumont
+directors:
+- Roger Corman
+cast:
+- Vincent Price
+sources:
+- title: 'Wikipedia: The Haunted Palace (film)'
+  url: https://en.wikipedia.org/wiki/The_Haunted_Palace_(film)
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

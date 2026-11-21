@@ -1,0 +1,18 @@
+name: Mr. Motivation
+kind: object
+played_by:
+- Pat O'Brien
+appears_in:
+- 2002/mr-motivation
+description: >-
+  A talking self-help doll, voiced by entertainment-news host Pat O'Brien, that coaches a meek office worker to
+  stand up to his overbearing boss. Its advice soon goes far beyond confidence-building.
+recurring: false
+relevance: core
+sources:
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

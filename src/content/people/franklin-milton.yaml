@@ -1,0 +1,21 @@
+name: Franklin Milton
+roles:
+- sound
+- crew
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: series
+  role: sound (MGM recording supervisor)
+bio: >-
+  Franklin Milton is credited for sound on the original Twilight Zone, which was recorded by MGM's sound department
+  while the series filmed on the studio lot. As MGM's recording director he won Academy Awards for the sound of
+  Ben-Hur, How the West Was Won and Grand Prix. His credit on the series reflects the studio-level resources that
+  CBS's anthology could draw on.
+sources:
+- title: 'TVMaze: The Twilight Zone (1959) crew'
+  url: https://www.tvmaze.com/shows/787/the-twilight-zone/crew
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/crew

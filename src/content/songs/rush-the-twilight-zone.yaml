@@ -1,0 +1,20 @@
+title: The Twilight Zone
+artist: Rush
+album: '2112'
+genre: Progressive Rock
+length: '3:14'
+year: 1976
+tz_connection: reference
+ids:
+  amazon_asin: B00AL1PAXU
+links:
+  youtube: fA79lLwRYTY
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: 'Wikipedia: The Twilight Zone (Rush song)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(Rush_song)
+research_confidence: high
+description: Rush's tribute to the show, the third track on 2112 (1976) and its first single, dedicated to the memory
+  of Rod Serling. Neil Peart based its two verses on "Will the Real Martian Please Stand Up?" and "Stopover in a
+  Quiet Town".

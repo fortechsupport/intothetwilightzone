@@ -1,0 +1,25 @@
+name: Robert Prince
+roles:
+- composer
+relevance: related
+research_confidence: medium
+last_verified: '2026-11-20'
+bio: >-
+  Robert Prince wrote music for Night Gallery. He was a composer for ballet and television, best known for his jazz
+  score for Jerome Robbins's N.Y. Export: Opus Jazz.
+tz_credits:
+- series: Night Gallery (1969-1973)
+  work: The Dead Man; The House; The Doll; and a comic ghost story (about 5 episodes)
+- series: Night Gallery
+  work: Night Gallery
+  role: composer
+  ref: films/night-gallery
+sources:
+- title: NightGallery.net – Music
+  url: https://nightgallery.net/music
+- title: Socialist Jazz – The soundtrack composers in Night Gallery
+  url: https://socialistjazz.blogspot.com/2016/05/the-soundtrack-composers-in-night.html
+- title: 'Sci-Fi-Movies: Night Gallery (1970-73) series credits'
+  url: https://www.scifi-movies.com/en/credits/0002782/night-gallery-1969/
+categories:
+- people/composers

@@ -1,0 +1,32 @@
+title: Cold Fusion
+series: '2002'
+season: 1
+episode: '35'
+air_date: '2003-04-02'
+runtime_min: 22
+production_code: '135'
+writers:
+- Ashley Edward Miller
+- Zack Stentz
+directors:
+- Eli Richbourg
+cast:
+- Sean Patrick Flanery
+- Ian McShane
+- Aaron Pearl
+narrator: Forest Whitaker
+synopsis: A physicist on the verge of unveiling a limitless energy source finds himself in a deadly rivalry, with
+  the stakes rising faster than his experiment.
+themes:
+- ambition
+- rivalry
+- science
+ids:
+  imdb: tt0734775
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

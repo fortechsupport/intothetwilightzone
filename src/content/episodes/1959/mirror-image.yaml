@@ -1,0 +1,35 @@
+title: Mirror Image
+series: '1959'
+season: 1
+episode: '21'
+air_date: '1960-02-26'
+runtime_min: 25
+production_code: 173-3623
+writers:
+- Rod Serling
+directors:
+- John Brahm
+cast:
+- Vera Miles
+- Martin Milner
+- Naomi Stevens
+narrator: Rod Serling
+synopsis: Waiting at a rainy bus station, Millicent Barnes is told by the ticket agent that she has already been
+  there several times. Soon she begins to glimpse a woman who looks exactly like her.
+themes:
+- doppelganger
+- identity
+- sanity
+ids:
+  imdb: tt0734590
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Mirror_Image_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,33 @@
+title: '"Eye of the Beholder" screen print by Tom Whalen'
+kind: artwork
+year: 2014
+creator: Tom Whalen
+publisher: Dark Hall Mansion
+description: >-
+  The first print in Tom Whalen's licensed Dark Hall Mansion series: an 18 x 24 inch, five-color screen print, with
+  metallic ink highlights on the variant. It was produced with Burlesque of North America in an edition of 230 standard
+  and 70 variant.
+subtype: screen-print
+details:
+  printer: Burlesque of North America
+  colors: 5
+  size: 18 x 24 in
+  edition: 230 standard / 70 variant
+  licensed: true
+  people:
+  - Tom Whalen
+relevance: core
+research_confidence: high
+categories:
+- artwork/posters-key-art
+sources:
+- title: Expresso Beans - Eye of the Beholder (Tom Whalen)
+  url: https://expressobeans.com/public/detail.php/200247
+media:
+- type: link
+  title: Expresso Beans print database entry
+  url: https://expressobeans.com/public/detail.php/200247
+  host: Expresso Beans
+  rights: link-only
+  subtype: listing
+last_verified: '2026-11-20'

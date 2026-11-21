@@ -1,0 +1,11 @@
+from: works/bart-simpsons-treehouse-of-horror-3-bongo-comics-the-immigration-of-the-body-snatchers
+to: 1959/will-the-real-martian-please-stand-up
+kind: parody
+confidence: fan-noted
+summary: A Bongo Halloween comic story in which a character's alien reveal mirrors the diner twist of 'Will the
+  Real Martian...', and an ape shouts the 'cookbook' punchline.
+sources:
+- title: Wikisimpsons – Twilight Zone
+  url: https://simpsonswiki.com/wiki/Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

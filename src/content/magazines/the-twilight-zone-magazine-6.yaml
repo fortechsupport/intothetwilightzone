@@ -1,0 +1,22 @@
+title: 'The Twilight Zone Magazine, #6'
+magazine: The Twilight Zone Magazine
+cover_date: Sep 1981
+order: 6
+publisher: TZ Publications, Inc.
+editor: T.E.D. Klein
+description: 'September 1981 issue built around Richard Matheson: part one of James H. Burns''s interview
+  with him plus a profile of his film work, alongside Allan Asherman''s look at the show''s forerunners.
+  Fiction by Parke Godwin, Gary Brandner and John Sladek; part six of Zicree''s guide and Serling''s teleplay
+  ''Time Enough at Last''.'
+episodes:
+- 1959/time-enough-at-last
+links:
+  isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60205
+research_confidence: high
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 6'
+  url: https://twilightzonevortex.blogspot.com/2018/01/reading-rod-serlings-twilight-zone.html
+last_verified: '2026-11-19'
+locked: true

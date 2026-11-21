@@ -1,0 +1,11 @@
+from: films/3rd-rock-from-the-sun-frozen-dick
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: On a flight Dick sees 'something on the wing' and is told it is the engine; William Shatner's Big Giant
+  Head later recounts the same experience.
+sources:
+- title: 'TV Tropes – Referenced By: Nightmare at 20,000 Feet'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959S5E3NightmareAt20000Feet
+last_verified: '2026-11-20'
+locked: true

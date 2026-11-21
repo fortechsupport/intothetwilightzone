@@ -1,0 +1,35 @@
+title: The Fever
+series: '1959'
+season: 1
+episode: '17'
+air_date: '1960-01-29'
+runtime_min: 25
+production_code: 173-3627
+writers:
+- Rod Serling
+directors:
+- Robert Florey
+cast:
+- Everett Sloane
+- Vivi Janiss
+- Steve Carruthers
+narrator: Rod Serling
+synopsis: Franklin Gibbs, a tightfisted man who scorns gambling, wins a trip to Las Vegas with his wife. One pull
+  of a slot machine sparks an obsession, and soon the machine itself seems to be calling his name.
+themes:
+- gambling
+- greed
+- obsession
+ids:
+  imdb: tt0734639
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Fever_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+last_verified: '2026-11-19'
+locked: true

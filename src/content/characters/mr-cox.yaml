@@ -1,0 +1,21 @@
+name: Mr. Cox
+aka: []
+kind: human
+played_by:
+- John Marley
+appears_in:
+- 1959/kick-the-can
+description: >-
+  The superintendent of Sunnyvale Rest, who thinks Charles is going senile. He threatens to put him in a locked
+  ward.
+recurring: false
+relevance: core
+sources:
+- title: Kick the Can (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Kick_the_Can
+- title: 'The Twilight Zone: Kick the Can - IMDb'
+  url: https://www.imdb.com/title/tt0734583/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,23 @@
+name: Bluestone
+aka:
+- Blaustein
+kind: human
+played_by:
+- Paul Sand
+- Grant Heslov
+appears_in:
+- 1985/time-and-teresa-golowitz
+description: >-
+  A Broadway composer who has just died and is offered a deal by the Devil: one night back in his high school years.
+  He spends it not on the popular girl he once wanted but on Teresa Golowitz, a lonely classmate he hopes to save.
+recurring: false
+relevance: core
+sources:
+- title: Time and Teresa Golowitz (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Time_and_Teresa_Golowitz
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

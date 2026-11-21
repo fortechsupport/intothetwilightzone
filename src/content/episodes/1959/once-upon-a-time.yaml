@@ -1,0 +1,46 @@
+title: Once Upon a Time
+series: '1959'
+season: 3
+episode: '13'
+air_date: '1961-12-15'
+runtime_min: 25
+production_code: '4820'
+writers:
+- Richard Matheson
+directors:
+- Norman Z. McLeod
+cast:
+- Buster Keaton
+- Jesse White
+- George E. Stone
+narrator: Rod Serling
+synopsis: A cranky janitor in 1890 sneaks a try with his employer's experimental time helmet and lands in 1962, where
+  cars, noise and prices bewilder him. Told largely as a silent-film comedy, his adventure has him desperate to get back
+  home.
+themes:
+- comedy
+- nostalgia
+- progress
+- time travel
+ids:
+  imdb: tt0734607
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Once_Upon_a_Time_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+last_verified: '2026-11-19'
+locked: true
+media:
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "A World of Difference", "Once Upon a Time", "Young Man's Fancy" and "Mute"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '5:32'

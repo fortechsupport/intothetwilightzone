@@ -1,0 +1,21 @@
+name: Williams
+aka: []
+kind: alien
+played_by:
+- Geoffrey Horne
+appears_in:
+- 1959/the-gift
+description: >-
+  An alien whose ship crashes near a Mexican village. The villagers fear him and kill him, and only then find that
+  his gift is a cure for all cancer, which they burn.
+recurring: false
+relevance: core
+sources:
+- title: The Gift (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Gift_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Gift - IMDb'
+  url: https://www.imdb.com/title/tt0734642/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

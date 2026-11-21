@@ -1,0 +1,47 @@
+name: Del Reisman
+roles:
+- story editor
+- associate producer
+- writer
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: series
+  role: associate producer and story consultant
+born: '1924'
+died: 2011-01
+bio: >-
+  Del Reisman worked under producer Buck Houghton on the original Twilight Zone, credited as associate producer
+  and acting as the show's story consultant, reading submissions and working with writers on scripts. He came to
+  the series from Playhouse 90, where he had been a story editor during live television's last great years. He went
+  on to a long career as a television writer and story editor and served as president of the Writers Guild of America,
+  West. He gave a full-length oral history to the Television Academy Foundation before his death in January 2011
+  at 86.
+sources:
+- title: 'Wikipedia: Del Reisman'
+  url: https://en.wikipedia.org/wiki/Del_Reisman
+- title: 'TVMaze: The Twilight Zone (1959) crew'
+  url: https://www.tvmaze.com/shows/787/the-twilight-zone/crew
+- title: 'Television Academy: Writer and former WGA West president Del Reisman dies at 86'
+  url: >-
+    https://www.televisionacademy.com/features/news/news/writer-and-former-wga-west-president-del-reisman-dies-86
+- title: 'WGA: Past presidents, Del Reisman'
+  url: https://origin.www.wga.org/the-guild/about-us/history/past-presidents/del-reisman
+media:
+- title: 'Del Reisman interview, The Interviews: An Oral History of Television'
+  url: https://interviews.televisionacademy.com/interviews/del-reisman
+  host: Television Academy Foundation
+  type: interview
+  rights: link-only
+- title: 'Writer Del Reisman has died: story editor for Playhouse 90 and The Twilight Zone'
+  url: >-
+    https://interviews.televisionacademy.com/news/writer-del-reisman-has-died-story-editor-for-playhouse-90-and-the-twilight-zone
+  host: Television Academy Foundation
+  date: 2011-01
+  type: article
+  rights: link-only
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/writers
+- people/producers

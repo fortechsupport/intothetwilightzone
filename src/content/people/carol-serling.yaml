@@ -1,0 +1,57 @@
+name: Carol Serling
+roles:
+- estate
+- producer
+- publisher
+born: '1929'
+died: '2020'
+bio: >-
+  Carolyn "Carol" Serling, Rod Serling's widow, spent the decades after his death in 1975 as the keeper
+  of his legacy and the franchise's link to its creator. She co-produced the 1994 television film Rod
+  Serling's Lost Classics, was involved with The Twilight Zone Magazine in the 1980s, and was credited
+  as an executive producer on the 2019 revival.
+sources:
+- title: 'Twilight Zone: Rod Serling''s Lost Classics - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_Rod_Serling%27s_Lost_Classics
+- title: The Twilight Zone (2019 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+last_verified: '2026-11-19'
+tz_credits:
+- series: Rod Serling's Lost Classics (1994)
+  work: 'Twilight Zone: Rod Serling''s Lost Classics'
+  role: co-producer
+  ref: films/the-twilight-zone-rod-serlings-lost-classics
+- series: The Twilight Zone (2019)
+  work: Seasons 1–2
+  role: executive producer
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: project consultant
+  ref: films/twilight-zone-the-movie
+media:
+- title: Carol Serling remembered
+  url: https://antiochcollege.edu/2020/01/28/carol-serling-50/
+  host: Antioch College
+  date: '2020-01-28'
+  type: article
+  rights: link-only
+- title: 'Sad news: passing of longtime Ithaca College friend Carol Serling'
+  url: https://www.ithaca.edu/news/sad-news-passing-longtime-ithaca-college-friend-carol-serling
+  host: Ithaca College
+  date: 2020-01
+  type: article
+  rights: link-only
+- title: 'R.I.P. Carol Serling, the wife of Rod Serling who made a cameo in Twilight Zone: The Movie'
+  url: >-
+    https://metv.com/stories/rip-carol-serling-the-wife-of-rod-serling-who-made-a-cameo-in-twilight-zone-the-movie
+  host: MeTV
+  date: 2020-01
+  type: article
+  rights: link-only
+- title: In the Zone with Carol Serling
+  url: https://palipost.com/in-the-zone-with-carol-serling
+  host: Palisadian-Post
+  type: article
+  rights: link-only
+categories:
+- people/producers

@@ -1,0 +1,57 @@
+title: Night Call
+series: '1959'
+season: 5
+episode: '19'
+air_date: '1964-02-07'
+runtime_min: 25
+production_code: '2610'
+writers:
+- Richard Matheson
+writing_credit_note: Based on Richard Matheson's short story "Sorry, Right Number" (Beyond Fantasy Fiction, November
+  1953), later anthologized as "Long Distance Call".
+source_authors:
+- Richard Matheson
+directors:
+- Jacques Tourneur
+cast:
+- Gladys Cooper
+- Nora Marlowe
+narrator: Rod Serling
+synopsis: Elva Keene, an elderly invalid living alone, begins receiving late-night phone calls of moans and static that
+  soon turn into a faint voice. The phone company traces the source to a fallen line, but the calls continue.
+themes:
+- grief
+- guilt
+- loneliness
+- the past
+ids:
+  imdb: tt0734598
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Night_Call_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+- title: Night Call (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Night_Call_(The_Twilight_Zone)
+last_verified: '2026-11-19'
+locked: true
+media:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Richard Matheson, part 3 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "Death Ship", "Night Call", "Spur of the Moment" and "Third from the Sun"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '3:45'

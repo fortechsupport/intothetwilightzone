@@ -1,0 +1,21 @@
+name: Agnes Grep
+aka: []
+kind: human
+played_by:
+- Carol Burnett
+appears_in:
+- 1959/cavender-is-coming
+description: >-
+  A clumsy woman who cannot keep a job. Her guardian angel makes her rich, but she misses her old life and friends,
+  and goes back.
+recurring: false
+relevance: core
+sources:
+- title: Cavender Is Coming (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Cavender_Is_Coming
+- title: 'The Twilight Zone: Cavender Is Coming - IMDb'
+  url: https://www.imdb.com/title/tt0734559/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

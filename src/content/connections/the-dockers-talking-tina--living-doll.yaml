@@ -1,0 +1,9 @@
+from: songs/the-dockers-talking-tina
+to: 1959/living-doll
+kind: reference
+confidence: documented
+summary: The title appears to name the Talky Tina doll from 'Living Doll' (1963); lyrics not checked.
+sources:
+- title: 'Last.fm: The Dockers - Talking Tina'
+  url: https://www.last.fm/music/The+Dockers/Fury+of+the+Mindless+Ones/Talking+Tina
+last_verified: '2026-11-20'

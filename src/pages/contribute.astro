@@ -1,0 +1,35 @@
+---
+import Base from '../layouts/Base.astro';
+import { correctionUrl, submissionUrl, REPO_URL } from '../lib/fan/contribute';
+const page = new URL('/', Astro.site).href;
+---
+<Base title="Contribute" description="Send a correction or suggest something new for IntoTheTwilightZone.com: how fan submissions are reviewed, sourced and credited.">
+  <h1>Contribute</h1>
+  <p class="lead">This site is a living history, and fans know things no database does. Send a correction or tell us about something we're missing, and it goes into the same review queue as everything else on the site.</p>
+
+  <div class="grid">
+    <a class="card" href={correctionUrl(page, 'a page')} rel="noopener"><h3>Suggest a correction</h3><p>A wrong date, a missing credit, a better source. Every page also has its own link that fills in the address for you.</p></a>
+    <a class="card" href={submissionUrl()} rel="noopener"><h3>Submit something new</h3><p>An episode detail, a person, a place, a film, a song, a book, a collectible, an homage, an interview or anything else connected to the Zone.</p></a>
+  </div>
+
+  <h2>What happens next</h2>
+  <ol>
+    <li><strong>You send it.</strong> Both forms open on GitHub, where this site's source lives. You need a free GitHub account, and what you send is public.</li>
+    <li><strong>It joins the review queue.</strong> Each submission becomes a row in the same queue that every record on the site passes through, marked as a fan submission.</li>
+    <li><strong>It is researched and sourced.</strong> Every fact on the site needs a source, so we look for one: an official listing, an archive record, a contemporary article or the work itself.</li>
+    <li><strong>The editor decides.</strong> Accepted submissions become records or corrections, credited to you if you asked to be. Declined ones get a short reason on the issue.</li>
+  </ol>
+
+  <h2>What we can and can't accept</h2>
+  <ul>
+    <li><strong>Links, not copies.</strong> The site never re-hosts copyrighted video, audio, scans or images. Send a link to where something is legitimately available. Public-domain and openly licensed files are the exception, and we note their licence.</li>
+    <li><strong>Your own words.</strong> Describe things in your own words rather than pasting text from elsewhere. Short quotations with their source are fine.</li>
+    <li><strong>Connections labelled honestly.</strong> Say whether a link to the Zone is stated by the people who made something, or is a resemblance you have noticed. Both are welcome; they are labelled differently.</li>
+    <li><strong>No advertising.</strong> The site is non-commercial: no shop links, affiliate codes or promotions.</li>
+  </ul>
+
+  <h2 id="rights">Rights holders</h2>
+  <p>If you represent a rights holder and have a concern about something on the site, please use the correction form and choose "Rights holder or their representative". Content under question is taken down or corrected while the request is reviewed.</p>
+
+  <p class="small muted">Prefer to look first? <a href={`${REPO_URL}/issues`} rel="noopener">See every open correction and submission</a>.</p>
+</Base>

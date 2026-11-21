@@ -1,0 +1,31 @@
+title: The Crossing
+series: '1985'
+season: 3
+episode: '03'
+air_date: '1988-10-08'
+runtime_min: 22
+writers:
+- Ralph Phillips
+directors:
+- Paul Lynch
+cast:
+- Ted Shackelford
+- Gerard Parkes
+narrator: Robin Ward
+synopsis: A priest at a struggling parish is haunted by repeated visions of a burning station wagon and a woman
+  trapped inside, a sight tied to a past he would rather forget.
+themes:
+- faith
+- guilt
+- the past
+ids:
+  imdb: tt0734747
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Crossing_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

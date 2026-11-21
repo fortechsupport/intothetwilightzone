@@ -1,0 +1,37 @@
+title: Uncle Simon
+series: '1959'
+season: 5
+episode: '8'
+air_date: '1963-11-15'
+runtime_min: 25
+production_code: '2604'
+writers:
+- Rod Serling
+directors:
+- Don Siegel
+cast:
+- Cedric Hardwicke
+- Constance Ford
+- Robby the Robot
+narrator: Rod Serling
+synopsis: Barbara has spent twenty-five years caring for her cruel, domineering uncle, an inventor, in hopes of
+  inheriting his fortune. When he dies, she finds the will comes with conditions involving the secret project in
+  his laboratory.
+themes:
+- cruelty
+- greed
+- inheritance
+- robots
+ids:
+  imdb: tt0734687
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Uncle_Simon
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+last_verified: '2026-11-19'
+locked: true

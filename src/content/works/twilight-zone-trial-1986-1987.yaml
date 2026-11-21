@@ -1,0 +1,26 @@
+title: The Twilight Zone manslaughter trial (1986-1987)
+kind: legal
+subtype: trial
+year: 1987
+description: John Landis, associate producer George Folsey Jr., unit production manager Dan Allingham, helicopter
+  pilot Dorcey Wingo and special-effects coordinator Paul Stewart were charged with involuntary manslaughter over
+  the 1982 deaths of Vic Morrow, Myca Dinh Le and Renee Shin-Yi Chen. The trial in Los Angeles ran from mid-1986,
+  with testimony about the hiring of the children without permits and the timing of the explosions. The jury acquitted
+  all five on May 29, 1987. Civil suits by the families were settled, and the case changed safety rules for stunts,
+  pyrotechnics and child actors.
+details:
+  verdict: Not guilty, 1987-05-29
+  location: Los Angeles
+  related: works/twilight-zone-accident-1982
+sources:
+- title: 'Wikipedia: Twilight Zone accident'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_accident
+- title: 'Crime Library: The Twilight Zone Tragedy'
+  url: https://crimelibrary.org/notorious_murders/not_guilty/twilight_zone/9.html
+categories:
+- legal-history/accident-trial
+- events/production-history
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

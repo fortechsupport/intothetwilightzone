@@ -1,0 +1,33 @@
+title: 'Pinball FX VR - Williams Pinball: Twilight Zone'
+kind: game
+subtype: game-appearance
+creator: Zen Studios
+publisher: Zen Studios
+description: >-
+  The Zen Studios Twilight Zone table offered as an add-on for Pinball FX VR on Meta Quest, letting players stand
+  in front of a virtual version of the 1993 machine. Pinball FX VR itself launched in April 2025; the add-on's own
+  release date was not confirmed.
+details:
+  platforms:
+  - Meta Quest
+  licensed: true
+  platform: Meta Quest (Pinball FX VR)
+  release_date: '2024-08-26'
+  base_price_usd: 14.99
+  price_history_low_usd: 5.99
+sources:
+- title: queststoredb.com
+  url: https://queststoredb.com/add-on/pinball-fx-vr-williamstm-pinball-twilight-zone-1004722074473796
+- title: zenstudios.com
+  url: https://zenstudios.com/news/pinball-fx-vr-is-coming-to-meta-quest-on-april-3/
+research_confidence: high
+last_verified: '2026-11-20'
+year: 2024
+relevance: core
+media:
+- type: link
+  title: Meta Quest add-on listing (QuestStoreDB mirror)
+  url: https://queststoredb.com/add-on/pinball-fx-vr-williamstm-pinball-twilight-zone-1004722074473796
+  host: queststoredb
+  rights: link-only
+  subtype: listing

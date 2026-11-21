@@ -1,0 +1,33 @@
+name: Will Kuluva
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: The Mirror
+  role: actor (as Father Tomás)
+  ref: 1959/the-mirror
+- series: The Twilight Zone (1959)
+  work: The New Exhibit
+  role: actor (as Ernest Ferguson)
+  ref: 1959/the-new-exhibit
+bio: >-
+  Will Kuluva appeared in two episodes of the original series: as Father Tomás, the priest who tells Peter Falk's
+  paranoid revolutionary Ramos Clemente that his only real enemy is himself, in "The Mirror" (1961), and as Ernest
+  Ferguson, the wax museum owner who becomes one of the victims in "The New Exhibit" (1963). A stage-trained character
+  actor, he worked steadily in television drama through the 1950s and 1960s.
+relevance: core
+sources:
+- title: Will Kuluva - Wikipedia
+  url: https://en.wikipedia.org/wiki/Will_Kuluva
+- title: The Mirror (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Mirror_(The_Twilight_Zone)
+- title: The New Exhibit (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_New_Exhibit
+- title: List of The Twilight Zone (1959 TV series) guest stars - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_guest_stars
+research_confidence: low
+last_verified: '2026-11-20'
+tags:
+- 1959-series
+categories:
+- people/actors

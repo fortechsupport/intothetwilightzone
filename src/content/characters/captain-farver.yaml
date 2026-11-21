@@ -1,0 +1,23 @@
+name: Captain Farver
+aka:
+- Skipper
+kind: human
+played_by:
+- John Anderson
+appears_in:
+- 1959/the-odyssey-of-flight-33
+description: >-
+  The captain of Global Airlines Flight 33, a Boeing 707 that speeds through a time warp over the Atlantic. He tries
+  to bring the plane home, first to prehistoric times and then to the New York World's Fair of 1939, and the episode
+  ends with them still searching.
+recurring: false
+relevance: core
+sources:
+- title: The Odyssey of Flight 33 (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Odyssey_of_Flight_33
+- title: 'The Twilight Zone: The Odyssey of Flight 33 - IMDb'
+  url: https://www.imdb.com/title/tt0734668/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

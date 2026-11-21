@@ -1,0 +1,21 @@
+name: John Holt
+aka: []
+kind: human
+played_by:
+- Joseph Schildkraut
+appears_in:
+- 1959/the-trade-ins
+description: >-
+  An old man in pain in the future who wants to buy a young body. He can only afford one, so he gambles to win the
+  money for a second and loses. He has the operation, but goes back to his old body to stay with his wife.
+recurring: false
+relevance: core
+sources:
+- title: The Trade-Ins (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Trade-Ins
+- title: 'The Twilight Zone: The Trade-Ins - IMDb'
+  url: https://www.imdb.com/title/tt0734679/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

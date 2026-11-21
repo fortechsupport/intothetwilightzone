@@ -1,0 +1,22 @@
+name: Jonathan Wellington
+aka:
+- John Wilkes Booth
+kind: human
+played_by:
+- John Lasell
+appears_in:
+- 1959/back-there
+description: >-
+  A charming stranger who takes Corrigan into his care after police arrest him in 1865. He drugs Corrigan and is
+  revealed to be John Wilkes Booth.
+recurring: false
+relevance: core
+sources:
+- title: Back There (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Back_There
+- title: 'The Twilight Zone: Back There - IMDb'
+  url: https://www.imdb.com/title/tt0734556/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

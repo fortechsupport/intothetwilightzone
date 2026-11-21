@@ -1,0 +1,18 @@
+name: Mr. Bloom
+kind: other
+played_by:
+- Scatman Crothers
+appears_in:
+- films/twilight-zone-the-movie
+description: >-
+  A gentle new arrival at the Sunnyvale Rest Home who persuades the residents to play kick the can. The game turns
+  them young again, in the film's remake of the 1962 episode "Kick the Can."
+recurring: false
+relevance: core
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

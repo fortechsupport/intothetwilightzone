@@ -1,0 +1,10 @@
+from: songs/c-duncan-the-midnight-sun
+to: 1959/the-midnight-sun
+kind: reference
+confidence: documented
+evidence: The Scottish songwriter named his second album after the third-season episode about an Earth drifting
+  toward the sun, saying the series partly inspired the record.
+sources:
+- title: undertheradarmag.com
+  url: https://www.undertheradarmag.com/news/c_duncan_on_his_favorite_episodes_of_the_twilight_zone
+last_verified: '2026-11-19'

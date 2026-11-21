@@ -1,0 +1,22 @@
+name: Jack Swain
+roles:
+- cinematographer
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: series
+  role: director of photography (credited 1961-1962)
+born: '1922'
+died: '1987'
+bio: >-
+  Jack Swain shared director-of-photography duties on the original Twilight Zone during its third season (1961-62),
+  alternating with George T. Clemens. He died in 1987.
+sources:
+- title: 'IMDb: The Twilight Zone (1959-1964) full credits'
+  url: https://m.imdb.com/title/tt0052520/fullcredits/cast
+- title: 'IMDb: Jack Swain (1922-1987)'
+  url: https://s.media-imdb.com/name/nm0841484
+research_confidence: low
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/crew

@@ -1,0 +1,15 @@
+from: works/bif-bang-pow-color-sdcc-bobbleheads
+to: 1959/the-invaders
+kind: reference
+confidence: documented
+summary: >-
+  Colorized versions of characters from 'The Invaders', 'Nick of Time', 'Living Doll', 'Nightmare at 20,000 Feet'
+  and 'To Serve Man'.
+sources:
+- title: 'Entertainment Earth: Invader Bobble Head Color SDCC'
+  url: >-
+    https://www.entertainmentearth.com/product/the-twilight-zone-invader-bobble-head-color-sdcc-exclusive/bbp05003c
+- title: 'Entertainment Earth: Mystic Seer Bobble Head Color SDCC'
+  url: >-
+    https://www.entertainmentearth.com/product/twilight-zone-mystic-seer-bobble-head-color-sdcc-exclusive/bbp05004c?id=EV-102015971
+last_verified: '2026-11-20'

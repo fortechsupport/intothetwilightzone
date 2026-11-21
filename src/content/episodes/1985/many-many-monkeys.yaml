@@ -1,0 +1,31 @@
+title: Many, Many Monkeys
+series: '1985'
+season: 3
+episode: '26'
+air_date: '1989-03-18'
+runtime_min: 22
+writers:
+- William Froug
+directors:
+- Ryszard Bugajski
+cast:
+- Karen Valentine
+- Jackie Burroughs
+narrator: Robin Ward
+synopsis: During a spreading epidemic of sudden blindness, a cold and brusque hospital nurse is convinced that the
+  people struck down are being punished for their sins, until the illness comes closer to home.
+themes:
+- blindness
+- empathy
+- epidemic
+ids:
+  imdb: tt0734719
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Man
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

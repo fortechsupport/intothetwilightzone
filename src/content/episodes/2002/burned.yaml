@@ -1,0 +1,32 @@
+title: Burned
+series: '2002'
+season: 1
+episode: '43'
+air_date: '2003-05-21'
+runtime_min: 22
+production_code: '136'
+writers:
+- Seth Weisburst
+- Daniel Wolowicz
+directors:
+- John T. Kretchmer
+cast:
+- Jason Bateman
+narrator: Forest Whitaker
+synopsis: An agoraphobic real-estate tycoon locked away in his home is visited by the ghosts of children who died
+  in a fire he started years before, and they will not let him forget.
+themes:
+- ghosts
+- greed
+- guilt
+ids:
+  imdb: tt0734773
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: The Twilight Zone (2002) season 1 - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+last_verified: '2026-11-19'
+locked: true

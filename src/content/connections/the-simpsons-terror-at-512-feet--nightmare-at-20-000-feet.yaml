@@ -1,0 +1,13 @@
+from: films/the-simpsons-terror-at-512-feet
+to: 1959/nightmare-at-20-000-feet
+kind: homage
+confidence: documented
+evidence: Bart spots a gremlin sabotaging his school bus, which no one else can see, in a parody of the airliner
+  episode.
+sources:
+- title: Nightmare at 20,000 Feet (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+- title: Television series with references to The Twilight Zone (Twilight Zone Wiki)
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-19'
+locked: true

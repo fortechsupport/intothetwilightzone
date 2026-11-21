@@ -1,0 +1,21 @@
+name: Peter Wood
+kind: human
+played_by:
+- Duncan McNeil
+appears_in:
+- 1985/a-message-from-charity
+description: >-
+  A feverish modern teenager in Massachusetts who forms a telepathic bond with a girl living in the same village
+  almost three centuries earlier. His knowledge of the future becomes the evidence that puts her in danger of being
+  tried as a witch.
+recurring: false
+relevance: core
+sources:
+- title: A Message from Charity (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/A_Message_from_Charity
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

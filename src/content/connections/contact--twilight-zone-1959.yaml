@@ -1,0 +1,17 @@
+from: films/contact
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: In the film's cosmic pull-back opening, a snippet of the Twilight Zone theme can be heard among the Earth
+  broadcasts as the camera passes Jupiter.
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone (1959)'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959
+- title: Contact facts (SciFlicks)
+  url: https://www.sciflicks.com/contact/facts.html
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: SciFlicks'' Contact trivia page lists the Twilight Zone theme among the broadcasts
+  heard in the opening pull-back, alongside Dallas, Cronkite on JFK and Nixon. It is a fan-run trivia site, not
+  trade press. Two independent fan sources agree; a sound-design interview (Randy Thom, filmsound.org) might settle
+  it.'

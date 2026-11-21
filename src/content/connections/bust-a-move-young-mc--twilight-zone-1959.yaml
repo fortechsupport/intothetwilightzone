@@ -1,0 +1,12 @@
+from: films/bust-a-move-young-mc
+to: series/1959
+kind: inspired-by
+confidence: documented
+summary: /Film reports that the show inspired the much-played video for Young MC's hit single.
+sources:
+- title: Rod Serling's The Twilight Zone Inspired A '80s Music Video That's Still Legendary (/Film)
+  url: https://slashfilm.com/2177338/rod-serling-the-twilight-zone-inspired-80s-music-video-young-mc-bust-a-move
+- title: Young MC - Bust a Move (IMVDb)
+  url: https://imvdb.com/video/young-mc/bust-a-move
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,20 @@
+name: Harry Folger
+kind: human
+played_by:
+- Elliott Gould
+appears_in:
+- 1985/the-misfortune-cookie
+description: >-
+  A nasty food critic who savages a Chinese restaurant and is then served fortune cookies whose predictions come
+  true. Then a last fortune catches up with him.
+recurring: false
+relevance: core
+sources:
+- title: The Misfortune Cookie (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Misfortune_Cookie
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

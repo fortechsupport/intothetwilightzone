@@ -1,0 +1,10 @@
+title: Toy Story
+kind: film
+ids:
+  imdb: tt0114709
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+summary: Pixar's first feature, about a cowboy doll whose place as a boy's favorite toy is threatened by a new space-ranger
+  action figure.
+release_date: '1995'

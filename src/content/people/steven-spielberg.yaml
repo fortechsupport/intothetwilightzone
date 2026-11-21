@@ -1,0 +1,46 @@
+name: Steven Spielberg
+roles:
+- producer
+- director
+tz_credits:
+- series: Night Gallery
+  work: Night Gallery pilot (1969), segment Eyes
+  role: director
+- series: Night Gallery
+  work: Make Me Laugh
+  role: director
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: producer
+  ref: films/twilight-zone-the-movie
+- series: 'Twilight Zone: The Movie (1983)'
+  work: Kick the Can segment
+  role: director
+  ref: films/twilight-zone-the-movie
+born: '1946-12-18'
+bio: >-
+  Steven Spielberg's franchise ties begin with Rod Serling: his directorial debut was the Joan Crawford
+  segment Eyes in the 1969 pilot film for Serling's Night Gallery, and he later directed the episode Make
+  Me Laugh. In 1983 he co-produced Twilight Zone: The Movie with John Landis through his company and directed
+  its second segment, Kick the Can, a remake of George Clayton Johnson's original-series episode about
+  residents of a retirement home who briefly regain their youth. He is one of the most commercially successful
+  directors in film history, from Jaws and E.T. to Schindler's List.
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+- title: Steven Spielberg - Wikipedia
+  url: https://en.wikipedia.org/wiki/Steven_Spielberg
+- title: Night Gallery - Wikipedia
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+last_verified: '2026-11-19'
+media:
+- title: 'Night Gallery: show page, The Interviews'
+  url: https://interviews.televisionacademy.com/shows/night-gallery
+  host: Television Academy Foundation
+  note: >-
+    Clips from oral histories about Night Gallery, whose 1969 pilot was Spielberg's professional directing debut.
+  type: website
+  rights: link-only
+categories:
+- people/producers
+- people/directors

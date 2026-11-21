@@ -1,0 +1,123 @@
+# Print research: items for Adam to decide
+
+These came out of the books, comics, magazines, essays and archives research. Nothing below was deleted; each needs a yes/no.
+
+## Existing book records flagged by the research
+
+- **More Stories From The Twilight Zone**: Imprint wrong: Tor Nightfire did not exist in 2010; this is Tor Books. Credit should be Carol Serling (ed.) rather than 'Various Authors'. Trade paperback ISBN 978-0-7653-2582-2. Distinct work from Rod Serling's 1961 book of the same title, so keep both rows but disambiguate.
+- **New Stories From The Twilight Zone**: Duplicate/confused row. Either delete it (Serling's 1962 book is already the other row) or repurpose it as 'New Stories from the Twilight Zone', ed. Martin H. Greenberg, Avon, 1991, ISBN 0-380-75926-8 (details not verified on an opened page).
+- **From the Twilight Zone**: Listed year 1960 is wrong; the omnibus appeared in the second half of 1962.
+- **The Twilight Zone Complete Stories**: Listed year 1963 is impossible for TV Books (a 1990s publisher); the edition appears to date from 1998. Verify contents.
+- **The Twilight Zone Omnibus, Vol. 1**: Could not verify this edition or its contents; possibly a reprint of an existing title rather than a distinct work.
+- **Rod Serling's Night Gallery**: Not a Twilight Zone book (Night Gallery); keep only if the site covers Serling's wider work.
+- **Rod Serling's Night Gallery Reader**: Not a Twilight Zone book (Night Gallery).
+- **The Season to Be Wary**: Not a Twilight Zone book; Serling's other fiction.
+- **Rod Serling’s Triple W: Witches, Warlocks and Werewolves**: Not Twilight Zone content; a Serling-branded anthology.
+- **Rod Serling's Devils and Demons**: Not Twilight Zone content; a Serling-branded anthology.
+- **Rod Serling's Other Worlds**: Not Twilight Zone content; a Serling-branded anthology.
+- **Diary of a Nerd(Volume 3):Diary of Super Hero:The Twilight Zone**: Probably not a Twilight Zone item: an unrelated children's book whose subtitle uses the phrase. Recommend removal.
+- **Georges Run: A Writers Journey through the Twilight Zone**: Publisher (listed as Rutgers University Press) and year (2023) not verified; no source page could be opened. Check before publishing.
+- **Into the Twilight Zone: The Rod Serling Programme Guide**: Author field split wrongly ('Jean-Marc' and 'Randy Lofficier'); should be Jean-Marc Lofficier and Randy Lofficier. The first edition is Virgin 1995; iUniverse is the 2003 reissue.
+- **Last Stop, The Twilight Zone: The Biography of Rod Serling**: Probably a later edition of 'Rod Serling: The Dreams and Nightmares of Life in The Twilight Zone' (1989). Consider merging the two rows.
+- **Memo to the Twilight Zone: Personal Reflections On All Five Seasons**: Appears to be self-published; no catalogue record found. Editor to decide.
+- **Reimagining The Twilight Zone : A Young Fan’s Stories**: Probably self-published fan fiction; editor to decide.
+- **Return to The Twilight Zone**: MJF Books is a later hardcover reprint; the first edition was a DAW paperback (1994).
+- **Submitted For Your Approval, Volume 1**: Publisher 'Rod Serling Books' and contents not verified; B&N credits Anne Serling. Check before publishing.
+- **The Gospel According to Science Fiction: From The Twilight Zone to The Final Frontier**: Only partly about The Twilight Zone. Publisher and date are from memory; no source opened.
+- **The Twilight Zone - The Complete Episode Guide**: Self-published; editor to decide.
+- **The Twilight Zone (Oberon Modern Plays)**: Author credit wrong: the playwright is Anne Washburn; Serling, Beaumont and Matheson are the writers of the source episodes.
+- **The Twilight Zone Coloring Book**: Unlicensed self-published coloring book; low value. Recommend removal or moving to Merchandise.
+- **The Twilight Zone Dots Lines Swirls Coloring Book**: Generic self-published coloring book (series of templated titles); recommend removal.
+- **The Twilight Zone Essential Guide**: Probably low-quality self-published or generated guide; author identity unclear (compare 'The Twilight Zone Ultimate Guide' by 'David Vance'). Recommend removal unless verified.
+- **The Twilight Zone Haiku**: Small-press/self-published novelty; editor to decide.
+- **The Twilight Zone Retrospective**: No catalogue record found; likely low-quality self-published title.
+- **The Twilight Zone Trivia for Fans: Questions and Answer About The Twilight Zone for Ultimate Fans**: Templated self-published trivia title; recommend removal.
+- **The Twilight Zone Ultimate Guide**: Probably low-quality self-published or generated guide; possible duplicate of 'Essential Guide' by 'John Vance'.
+- **The Twilight Zone: Revisited and Reviewed Volume I: Analysis and Critique of All 36 Episodes of Season One**: Appears to be self-published; no catalogue record found.
+- **The Twilight Zone: Stranger in Possum Meadows**: Episode link not set: this is the teleplay for a 1985-revival segment about a stranger in Possum Meadows; the editor should add the correct 1985 slug once the segment title is confirmed. Publisher and year not verified.
+- **The Twilight Zone: The Trunk**: Could not confirm that 'The Trunk' was ever produced or published; verify.
+- **The Twilight Zone: The Crossing**: Appears to be a teleplay or episode, not a published book; verify that a print edition exists.
+- **The Twilight Zone: The Road Less Traveled**: Not a stand-alone book: a teleplay that appears inside GRRM collections. Consider moving to Essays/Documents or noting the containing book.
+- **Twilight Zone Pinball Service & Repair Manual**: A machine manual, not a book. Better placed under Games or Documents. 'Bally Technologies, Inc.' is anachronistic; the game was made by Midway Manufacturing under the Bally name.
+- **Twists in The Twilight: Unlock The Twilight Zone’s Secrets: How to Craft Unforgettable Twist Endings**: Probably low-quality self-published or AI-generated title; recommend removal.
+- **Patterns: Four Television Plays with the Author's Personal Commentaries**: Not a Twilight Zone book; pre-series Serling teleplays.
+- **Requiem for a Heavyweight and Other Plays - Tragedy in a Temporary Town, The White Cane and The Elevator**: Not a Twilight Zone book; a multi-author live-TV play anthology.
+- **B.C. Strikes Back**: Not a Twilight Zone book. Serling should not be credited as co-author; confirm the nature of his contribution.
+- **Into the Twilight Zone**: Likely duplicate of 'Into the Twilight Zone: The Rod Serling Programme Guide' with a wrong author credit; recommend merging.
+
+## Existing book records still without an independent source
+
+- New Stories From The Twilight Zone
+- The Twilight Zone Complete Stories
+- The Twilight Zone Omnibus, Vol. 1
+- Rod Serling's Night Gallery Reader
+- Diary of a Nerd(Volume 3):Diary of Super Hero:The Twilight Zone
+- George Clayton Johnson: Fictioneer from Ocean's Eleven, Through the Twilight Zone, to Logan's Run
+- Georges Run: A Writers Journey through the Twilight Zone
+- Irony in the Twilight Zone: How the Series Critiqued Postwar American Culture
+- Last Stop, The Twilight Zone: The Biography of Rod Serling
+- Memo to the Twilight Zone: Personal Reflections On All Five Seasons
+- My Mystical Life with Rod Serling: A Real Twilight Zone
+- Outrageous Conduct: Art, Ego, and the Twilight Zone Case
+- Philosophy in The Twilight Zone
+- Reimagining The Twilight Zone : A Young Fan’s Stories
+- Richard Matheson's Monsters: Gender in the Stories, Scripts, Novels, and Twilight Zone Episodes
+- Rod Serling: The Dreams and Nightmares of Life in The Twilight Zone
+- Sci Fi TV: From The Twilight Zone to Deep Space Nine
+- Special Effects: Disaster at Twilight Zone: The Tragedy and the Trial
+- Submitted For Your Approval, Volume 1
+- Tales from the New Twilight Zone
+- The Gospel According to Science Fiction: From The Twilight Zone to The Final Frontier
+- The New Twilight Zone: 21 Tales By the Greatest Sci-Fi and Dark Fantasy Writers of Our Time
+- The Twilight and Other Zones: The Dark Worlds of Richard Matheson
+- The Twilight Man: Rod Serling and the Birth of Television
+- The Twilight Zone - The Complete Episode Guide
+- The Twilight Zone and Philosophy: A Dangerous Dimension to Visit
+- The Twilight Zone Coloring Book
+- The Twilight Zone Dots Lines Swirls Coloring Book
+- The Twilight Zone Encyclopedia
+- The Twilight Zone Essential Guide
+- The Twilight Zone FAQ: All Thats Left to Know About the Fifth Dimension and Beyond
+- The Twilight Zone Haiku
+- The Twilight Zone Retrospective
+- The Twilight Zone Scripts of Earl Hamner
+- The Twilight Zone Scripts of Jerry Sohl
+- The Twilight Zone Trivia for Fans: Questions and Answer About The Twilight Zone for Ultimate Fans
+- The Twilight Zone Ultimate Guide
+- The Twilight Zone: Revisited and Reviewed Volume I: Analysis and Critique of All 36 Episodes of Season One
+- The Twilight Zone: Room 2426
+- The Twilight Zone: Stranger in Possum Meadows
+- The Twilight Zone: The Trunk
+- The Twilight Zone: The Crossing
+- The Ultimate Twilight Zone Word Search Puzzle Book
+- Trivia from the Twilight Zone
+- Twilight Zone Reflections: An Introduction to the Philosophical Imagination
+- Twilight Zone Scripts and Stories
+- Twilight Zone The Movie
+- Twilight Zone: The Original Stories
+- Twists in The Twilight: Unlock The Twilight Zone’s Secrets: How to Craft Unforgettable Twist Endings
+- Visions From The Twilight Zone
+- Writing for the Twilight Zone
+- Patterns: Four Television Plays with the Author's Personal Commentaries
+- Requiem for a Heavyweight and Other Plays - Tragedy in a Temporary Town, The White Cane and The Elevator
+- B.C. Strikes Back
+- Into the Twilight Zone
+
+## Leads not yet added (low confidence or source not opened)
+
+- [books] The Definitive History of The Twilight Zone
+- [books] Ai confini della realtà, Volume 1 - I racconti originali
+- [books] Ai confini della realtà, Volume 2 - I racconti originali
+- [books] Rod Serling's Night Gallery: The Art of Darkness
+- [magazines] TZ Trivia Quiz Book (Rod Serling's The Twilight Zone Magazine Special #2)
+- [essays] The Twilight Zone
+- [essays] Between the Twilight Zone and the Underground Railroad
+- [essays] Can a TV Writer Keep His Integrity?
+- [essays] Why Is TV the Whipping Boy?
+- [essays] Jordan Peele's 'Twilight Zone' Is Ready to Make Americans Think Again
+- [essays] Rod Serling and the Conscience of a Generation
+- [essays] Did the Creator of The Twilight Zone Plagiarize Ray Bradbury?
+- [essays] Paul Mandell Analyzes 'Walking Distance'
+- [essays] The Twilight Zone (column)
+- [archives] Anthony and Nancy Lawrence Papers, ca. 1960-ca. 1980
+- [archives] George Clayton Johnson donation, University of North Alabama Archives

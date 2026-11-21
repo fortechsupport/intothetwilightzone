@@ -1,0 +1,24 @@
+name: Robert Stevens
+roles:
+- director
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Where Is Everybody?
+  role: director
+  ref: 1959/where-is-everybody
+- series: The Twilight Zone (1959)
+  work: Walking Distance
+  role: director
+  ref: 1959/walking-distance
+born: '1920'
+died: '1989'
+bio: >-
+  Robert Stevens directed the original Twilight Zone's pilot, Where Is Everybody?, and the early classic
+  Walking Distance, helping set the series' visual tone. He was a leading director on Alfred Hitchcock
+  Presents, for which he won an Emmy.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Robert_Stevens_(director)
+sources:
+- title: Robert Stevens (director) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Robert_Stevens_(director)
+last_verified: '2026-11-19'

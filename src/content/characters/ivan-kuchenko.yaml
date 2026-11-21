@@ -1,0 +1,23 @@
+name: Ivan Kuchenko
+aka:
+- Maj. Ivan Kuchenko
+kind: human
+played_by:
+- Martin Landau
+appears_in:
+- 1959/the-jeopardy-room
+description: >-
+  A Soviet officer trying to defect, holed up in a shabby hotel room in an Eastern European port. An assassin drugs
+  him and leaves him three hours to find a hidden bomb, while a sniper watches the window. He works out the trap
+  and escapes without touching it.
+recurring: false
+relevance: core
+sources:
+- title: The Jeopardy Room (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Jeopardy_Room
+- title: 'The Twilight Zone: The Jeopardy Room - IMDb'
+  url: https://www.imdb.com/title/tt0734649/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,11 @@
+from: films/johnny-bravo-johnny-real-good
+to: 1959/its-a-good-life
+kind: homage
+confidence: documented
+evidence: Wikipedia says this Johnny Bravo segment is based on the episode, with a boy who sends Johnny 'to the
+  cornfield'.
+sources:
+- title: It's a Good Life (The Twilight Zone) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/It%27s_a_Good_Life_(The_Twilight_Zone)
+last_verified: '2026-11-19'
+locked: true

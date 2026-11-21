@@ -1,0 +1,17 @@
+title: WPIX's New Year's Twilight Zone marathon (1980s)
+kind: event
+subtype: marathon
+year: 1983
+description: New York's WPIX (Channel 11) began Twilight Zone marathons in the early 1980s and was perhaps the first
+  station to run one on New Year's Eve, the slot most fans associate with the show. Exact first year is not documented.
+details:
+  station: WPIX (New York)
+sources:
+- title: 'Den of Geek: The Twilight Zone Marathon, a History of a Holiday Tradition (Arlen Schumer, 2018)'
+  url: https://www.denofgeek.com/tv/the-twilight-zone-marathon-a-history-of-a-holiday-tradition/
+categories:
+- events/broadcasts-marathons
+research_confidence: low
+relevance: core
+last_verified: '2026-11-20'
+locked: true

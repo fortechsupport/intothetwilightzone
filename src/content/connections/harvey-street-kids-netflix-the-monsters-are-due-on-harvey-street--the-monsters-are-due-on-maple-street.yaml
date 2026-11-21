@@ -1,0 +1,13 @@
+from: films/harvey-street-kids-netflix-the-monsters-are-due-on-harvey-street
+to: 1959/the-monsters-are-due-on-maple-street
+kind: inspired-by
+confidence: fan-noted
+summary: The title and premise of neighbors turning suspicious of each other borrow from Serling's Maple Street
+  parable.
+sources:
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+- title: TheTVDB – Harvey Street Kids episode
+  url: https://thetvdb.com/series/harvey-street-kids/episodes/6749212
+last_verified: '2026-11-20'
+locked: true

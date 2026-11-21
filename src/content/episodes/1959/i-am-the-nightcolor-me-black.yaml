@@ -1,0 +1,46 @@
+title: I Am the Night—Color Me Black
+series: '1959'
+season: 5
+episode: '26'
+air_date: '1964-03-27'
+runtime_min: 25
+production_code: '2630'
+writers:
+- Rod Serling
+directors:
+- Abner Biberman
+cast:
+- Michael Constantine
+- Paul Fix
+- George Lindsey
+- Ivan Dixon
+- Calvin Brown
+narrator: Rod Serling
+synopsis: In a small town, a man convicted of killing a bigot is set to be hanged at dawn, but on the day of the execution
+  the sun fails to rise. Darkness lingers over the town as residents confront their own hatred.
+themes:
+- darkness
+- hatred
+- justice
+- racism
+ids:
+  imdb: tt0734577
+links:
+  wikipedia: https://en.wikipedia.org/wiki/I_Am_the_Night%E2%80%94Color_Me_Black
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+last_verified: '2026-11-19'
+locked: true
+media:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Terry Becker (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed

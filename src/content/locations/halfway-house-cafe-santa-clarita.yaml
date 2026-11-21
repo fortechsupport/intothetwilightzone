@@ -1,0 +1,21 @@
+name: Halfway House Cafe
+kind: filming-location
+address: 15564 Sierra Highway, Santa Clarita, CA
+city: Santa Clarita
+region: California
+country: US
+status: open
+filmed:
+- ref: films/twilight-zone-the-movie
+  note: Roadside diner location.
+notes: >-
+  This roadside diner on old Sierra Highway, more than a century old and a favorite of location scouts
+  (it is best known for the film Waitress), was used for diner scenes in Twilight Zone: The Movie. In
+  Joe Dante's "It's a Good Life" segment, the roadside diner is where schoolteacher Helen Foley first
+  meets young Anthony. It still serves customers.
+sources:
+- title: 'Twilight Zone: The Movie (1983) - Set-Jetter'
+  url: https://www.set-jetter.com/ontheset/twilightzonemovie
+- title: Halfway House - More Than a Century of Popularity - The Signal
+  url: https://signalscv.com/2022/04/halfway-house-more-than-a-century-of-popularity
+last_verified: '2026-11-19'

@@ -1,0 +1,24 @@
+title: From the Twilight Zone
+authors:
+- Rod Serling
+publisher: Nelson Doubleday
+published: '1962'
+pages: 314
+kind: anthology
+description: A hardcover book-club omnibus drawing together the stories from Serling's three Bantam paperbacks.
+ids:
+  goodreads: '4700921'
+  amazon_asin: B0006FB2PG
+relevance: core
+research_confidence: high
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Originally listed in Adam's research spreadsheets.
+- title: Martin Grams, 'Revisiting Twilight Zone Books' (2025)
+  url: https://martingrams.blogspot.com/2025/01/revisiting-twilight-zone-books.html
+- title: 'SF Encyclopedia: Serling, Rod'
+  url: https://sf-encyclopedia.com/entry/serling_rod
+- title: 'Wikipedia: Twilight Zone literature'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_literature
+last_verified: '2026-11-19'
+locked: true

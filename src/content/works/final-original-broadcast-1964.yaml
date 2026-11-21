@@ -1,0 +1,20 @@
+title: Last first-run episode of the original series (1964)
+kind: event
+subtype: broadcast
+year: 1964
+description: CBS broadcast the last new episode of the original series, "The Bewitchin' Pool," on June 19, 1964.
+  CBS did not renew the show; reruns followed that summer and it then went into syndication, where it has rarely
+  been off the air.
+details:
+  date: '1964-06-19'
+  network: CBS
+  episode: 1959/the-bewitchin-pool
+sources:
+- title: 'Wikipedia: The Twilight Zone (1959 TV series)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+categories:
+- events/broadcasts-marathons
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

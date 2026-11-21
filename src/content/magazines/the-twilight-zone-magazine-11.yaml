@@ -1,0 +1,21 @@
+title: 'The Twilight Zone Magazine, #11'
+magazine: The Twilight Zone Magazine
+cover_date: Feb 1982
+order: 11
+publisher: TZ Publications, Inc.
+editor: T.E.D. Klein
+description: February 1982 issue with an interview with Wes Craven, a new music column by Jack Sullivan,
+  a preview of 'Swamp Thing', and fiction by Gardner Dozois and Jack Dann, Charles L. Grant and George
+  Alec Effinger. It ran part eleven of Zicree's guide and Serling's teleplay 'A Stop at Willoughby'.
+episodes:
+- 1959/a-stop-at-willoughby
+links:
+  isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60165
+research_confidence: high
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 11'
+  url: https://twilightzonevortex.blogspot.com/2018/12/reading-rod-serlings-twilight-zone.html
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,12 @@
+from: works/bif-bang-pow-8-inch-retro-figures
+to: 1959/will-the-real-martian-please-stand-up
+kind: reference
+confidence: documented
+summary: Every figure represents a character from a specific original-series episode.
+sources:
+- title: dreadcentral.com
+  url: >-
+    https://www.dreadcentral.com/last-toys-on-the-left/15977/enter-the-twilight-zone-with-new-bobble-heads-and-figures/
+- title: megomuseum.com
+  url: https://www.megomuseum.com/bif-bang-pow-unveils-more-from-the-twilight-zone/
+last_verified: '2026-11-20'

@@ -1,0 +1,30 @@
+title: 'The Twilight Zone Magazine, #60'
+magazine: The Twilight Zone Magazine
+cover_date: Jun 1989
+order: 60
+publisher: TZ Publications, Inc.
+editor: Tappan King
+description: 'June 1989 issue, edited by Tappan King. Fiction: "Just Another Perfect Day" by John Varley; "Maggie
+  (TZ First)" by Dan Bennett; "Spuds (TZ First)" by Terry Runte; "The Carnival" by Charles Beaumont; "Timed Exposure"
+  by Richard Christian Matheson; "Exodus: 22:18" by Nancy Baker. Features: Return of the Zone, Part 5 by J. Michael
+  Straczynski; Remembering Charles Beaumont by Roger Anker; Your Three Minutes Are Up by George Clayton Johnson;
+  Rod Serling''s Night Gallery, Part 11 by Kathryn Drennan and J. Michael Straczynski; The Mind''s Ear by Jillian
+  Smith and Margaret Mayo McGlynn. Teleplay: "Nothing in the Dark" by George Clayton Johnson (Nothing in the Dark
+  (original series, 1962)). Regular columns: Editor''s Notes (Tappan King); Letters; Books (Edward Bryant); Screen
+  (Gahan Wilson); In the Twilight Zone; TZ Quiz; TZ Screening Room. Vol. 9 No. 2; final issue.'
+links:
+  isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60151
+research_confidence: high
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+- title: 'Twilight Zone Vortex: capsule history of the magazine'
+  url: http://twilightzonevortex.blogspot.com/2012/01/rod-serlings-twilight-zone-magazine.html
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+last_verified: '2026-11-20'
+locked: true
+episodes:
+- 1959/nothing-in-the-dark

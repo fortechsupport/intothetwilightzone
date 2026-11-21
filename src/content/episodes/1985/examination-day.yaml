@@ -1,0 +1,36 @@
+title: Examination Day
+series: '1985'
+season: 1
+episode: '06a'
+air_date: '1985-11-01'
+runtime_min: 11
+writers:
+- Philip DeGuere Jr.
+writing_credit_note: Teleplay by Philip DeGuere; based on the short story "Examination Day" by Henry Slesar
+source_authors:
+- Henry Slesar
+directors:
+- Paul Lynch
+cast:
+- Christopher Allport
+- David Mendenhall
+narrator: Charles Aidman
+synopsis: In a future society, a cheerful boy prepares for the government intelligence test every child must take
+  on their twelfth birthday, while his parents grow quietly anxious about the results.
+themes:
+- childhood
+- conformity
+- dystopia
+ids:
+  imdb: tt0734708
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Examination_Day
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

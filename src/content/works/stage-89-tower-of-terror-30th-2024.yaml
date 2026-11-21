@@ -1,0 +1,29 @@
+title: 'Stage 89: Tower of Terror 30th anniversary gathering (2024)'
+kind: event
+subtype: anniversary
+year: 2024
+description: A fan event near Walt Disney World marking the 35th anniversary of Disney's Hollywood Studios and the
+  30th of the Twilight Zone Tower of Terror, billed as the largest in-person gathering of former Imagineers, with
+  panels on the ride. Mark Silverman, who voices the Rod Serling narration in the attraction, recorded a promo in
+  character and met fans.
+details:
+  date: '2024'
+  location: Near Walt Disney World, Florida
+  related: locations/tower-of-terror-disneys-hollywood-studios
+sources:
+- title: 'WDW News Today: Voice of Rod Serling from Tower of Terror returns for 30th anniversary meet & greet (2024)'
+  url: https://wdwnt.com/2024/02/voice-of-rod-serling-from-twilight-zone-tower-of-terror-returns-for-attractions-30th-anniversary-meet-greet
+media:
+- type: video
+  subtype: promo
+  title: Stage 89 promo voiced as Rod Serling by Mark Silverman
+  url: https://www.youtube.com/watch?v=IaeccTyz1rI
+  host: YouTube
+  date: '2024'
+  rights: link-only
+categories:
+- events/anniversaries-festivals
+research_confidence: medium
+relevance: related
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,25 @@
+name: Dan Allingham
+roles:
+- unit production manager
+- crew
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: Time Out
+  role: unit production manager (Landis segment)
+  ref: films/twilight-zone-the-movie
+bio: >-
+  Dan Allingham was unit production manager on John Landis's segment of Twilight Zone: The Movie (1983). He was
+  one of the five people charged with involuntary manslaughter after the July 1982 helicopter accident that killed
+  Vic Morrow, Myca Dinh Le and Renee Shin-Yi Chen on the set, and he was acquitted in 1987. Little else about his
+  career is documented here.
+sources:
+- title: 'Sci-Fi-Movies: Twilight Zone: The Movie (1983) credits'
+  url: https://www.scifi-movies.com/en/credits/0001932/twilight-zone-the-movie-1983/
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+research_confidence: low
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/producers
+- people/crew

@@ -1,0 +1,33 @@
+title: Song of the Younger World
+series: '1985'
+season: 2
+episode: '11a'
+air_date: '1987-07-17'
+runtime_min: 24
+writers:
+- Anthony Lawrence
+- Nancy Lawrence
+directors:
+- Noel Black
+cast:
+- Paul Benedict
+- Jennifer Rubin
+- Roberts Blossom
+narrator: Charles Aidman
+synopsis: In 1916, a boy at a harsh reform school falls in love with the daughter of its stern warden, and an old
+  legend about shape-changing offers the young couple a strange way out.
+themes:
+- escape
+- forbidden love
+- transformation
+ids:
+  imdb: tt0734735
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Song_of_the_Younger_World
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

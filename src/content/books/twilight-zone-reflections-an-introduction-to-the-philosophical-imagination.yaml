@@ -1,0 +1,22 @@
+title: 'Twilight Zone Reflections: An Introduction to the Philosophical Imagination'
+authors:
+- Saul Traiger
+publisher: Lever Press
+published: '2024-06'
+relevance: core
+pages: 450
+isbn: '9781643150628'
+kind: scholarly
+description: Open-access introduction to philosophy that gives each of the 156 original episodes its own
+  short chapter, with suggested reading and cross-references by theme.
+ids:
+  goodreads: '213252685'
+  amazon_asin: '1643150626'
+research_confidence: high
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Originally listed in Adam's research spreadsheets.
+- title: Michigan Publishing Services page
+  url: https://services.publishing.umich.edu/Books/T/Twilight-Zone-Reflections2
+last_verified: '2026-11-19'
+locked: true

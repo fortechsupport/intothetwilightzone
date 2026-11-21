@@ -1,0 +1,22 @@
+title: The Twilight Zone premieres on CBS (1959)
+kind: event
+subtype: premiere
+year: 1959
+description: The series debuted on Friday, October 2, 1959, at 10 p.m. Eastern on CBS with "Where Is Everybody?",
+  starring Earl Holliman as a man alone in an empty town. Serling wrote the episode and narrated in voice-over;
+  he did not appear on camera until later in the first season. The original run lasted five seasons and 156 episodes.
+details:
+  date: '1959-10-02'
+  network: CBS
+  first_episode: 1959/where-is-everybody
+sources:
+- title: 'HISTORY.com: The Twilight Zone premieres'
+  url: https://www.history.com/this-day-in-history/october-2/the-twilight-zone-premieres
+- title: 'Wikipedia: The Twilight Zone (1959 TV series)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+categories:
+- events/premieres
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

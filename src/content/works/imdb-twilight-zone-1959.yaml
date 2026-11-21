@@ -1,0 +1,19 @@
+title: IMDb – The Twilight Zone (1959–1964)
+kind: link
+subtype: database
+publisher: IMDb (Amazon)
+description: Credits database for the original series, including a "connections" page listing works that reference
+  or spoof it.
+details:
+  status: active
+links:
+  official: https://www.imdb.com/title/tt0052520/
+sources:
+- title: imdb.com:443
+  url: https://www.imdb.com:443/title/tt0052520/movieconnections
+research_confidence: high
+last_verified: '2026-11-19'
+content_of:
+- series/1959
+organizations:
+- IMDb

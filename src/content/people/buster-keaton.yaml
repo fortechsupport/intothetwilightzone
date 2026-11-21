@@ -1,0 +1,20 @@
+name: Buster Keaton
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Once Upon a Time
+  role: Woodrow Mulligan
+  ref: 1959/once-upon-a-time
+born: '1895-10-04'
+died: '1966-02-01'
+bio: >-
+  Buster Keaton was one of the great silent-film comedians, the stone-faced star and director of The General
+  and Sherlock Jr. Rod Serling paid tribute to him with "Once Upon a Time", partly shot as a silent comedy,
+  in which Keaton plays an 1890 janitor who travels to 1962 via a time helmet.
+sources:
+- title: Once Upon a Time (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Once_Upon_a_Time_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Woodrow Mulligan (TVmaze)'
+  url: https://www.tvmaze.com/characters/1274339/the-twilight-zone-woodrow-mulligan
+last_verified: '2026-11-19'

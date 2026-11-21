@@ -1,0 +1,25 @@
+name: Paul Glass
+bio: >-
+  American-born composer working between Europe and Hollywood whose Night Gallery scores include the delicate 'Silent
+  Snow, Secret Snow'.
+roles:
+- composer
+relevance: related
+research_confidence: medium
+last_verified: '2026-11-20'
+tz_credits:
+- series: Night Gallery (1969-1973)
+  work: Silent Snow, Secret Snow; A Question of Fear; a Christmas Eve segment (about 11 episodes)
+- series: Night Gallery
+  work: Night Gallery
+  role: composer
+  ref: films/night-gallery
+sources:
+- title: NightGallery.net – Music
+  url: https://nightgallery.net/music
+- title: Socialist Jazz – The soundtrack composers in Night Gallery
+  url: https://socialistjazz.blogspot.com/2016/05/the-soundtrack-composers-in-night.html
+- title: 'Sci-Fi-Movies: Night Gallery (1970-73) series credits'
+  url: https://www.scifi-movies.com/en/credits/0002782/night-gallery-1969/
+categories:
+- people/composers

@@ -1,0 +1,26 @@
+title: Seven Days in May
+kind: film
+summary: Serling's adaptation of the Fletcher Knebel and Charles W. Bailey II novel about a planned military coup
+  against a U.S. president who signs a nuclear disarmament treaty. He wrote it while writer in residence at Antioch
+  College in 1962 and 1963.
+release_date: '1964'
+writers:
+- Rod Serling
+directors:
+- John Frankenheimer
+cast:
+- Burt Lancaster
+- Kirk Douglas
+- Fredric March
+- Ava Gardner
+sources:
+- title: 'Wikipedia: Rod Serling'
+  url: https://en.wikipedia.org/wiki/Rod_Serling
+- title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
+  url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+research_confidence: medium
+relevance: related
+ids:
+  imdb: tt0058576
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,22 @@
+name: The Gremlin
+aka:
+- the thing on the wing
+kind: supernatural
+played_by:
+- Nick Cravat
+appears_in:
+- 1959/nightmare-at-20-000-feet
+description: >-
+  A furry creature that crawls across the airliner's wing in the storm and tears at the engine. It is one of the
+  series' most famous images, and Larry Cedar played a new version of it in Twilight Zone: The Movie.
+recurring: false
+relevance: core
+sources:
+- title: Nightmare at 20,000 Feet (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+- title: 'The Twilight Zone: Nightmare at 20,000 Feet - IMDb'
+  url: https://www.imdb.com/title/tt0734600/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

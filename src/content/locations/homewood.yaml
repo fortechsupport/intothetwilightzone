@@ -1,0 +1,20 @@
+name: Homewood
+kind: in-story
+filmed:
+- ref: 1959/walking-distance
+  note: Martin Sloan's hometown, where he walks back into his own childhood summer.
+episodes:
+- 1959/walking-distance
+notes: 'The small hometown that a burned-out 36-year-old executive reaches on foot from a gas station and finds
+  unchanged from his boyhood: the drugstore, the bandstand concert and the carousel in the park. Serling said the
+  episode was partly autobiographical, and fans link Homewood''s park and carousel to Recreation Park in Binghamton,
+  New York.'
+sources:
+- title: 'Wikipedia: Walking Distance'
+  url: https://en.wikipedia.org/wiki/Walking_Distance
+- title: Elliot Becker remembers Rod the teacher (Rod Serling Memorial Foundation)
+  url: https://rodserling.com/elliot-becker-remembers-rod-the-teacher
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

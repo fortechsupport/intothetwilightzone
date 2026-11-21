@@ -1,0 +1,20 @@
+name: Jerry Garcia
+bio: >-
+  Grateful Dead guitarist and Merl Saunders's frequent partner; he played on and is a credited composer of the 1985
+  Twilight Zone theme arrangement.
+roles:
+- musician
+- composer
+tz_credits:
+- series: The Twilight Zone (1985-1989)
+  work: Theme co-composer and performer
+relevance: core
+research_confidence: medium
+sources:
+- title: ClassicThemes – The Twilight Zone theme history
+  url: https://classicthemes.com/50sTVThemes/themePages/twilightZone.html
+- title: Intrada – The Twilight Zone (3CD) ISC 348
+  url: https://store.intrada.com/s.nl/it.A/id.10063/.f
+- title: JamBase – The Twilight Zone soundtrack recorded by Merl Saunders & Grateful Dead
+  url: https://www.jambase.com/article/grateful-dead-merl-saunders-twilight-zone-soundtrack
+last_verified: '2026-11-20'

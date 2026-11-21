@@ -1,0 +1,51 @@
+name: Ira Steven Behr
+roles:
+- executive producer
+- writer
+tz_credits:
+- series: The Twilight Zone (2002)
+  work: 43 episodes
+  role: executive producer
+- series: The Twilight Zone (2002)
+  work: Shades of Guilt
+  role: writer
+  ref: 2002/shades-of-guilt
+- series: The Twilight Zone (2002)
+  work: Chosen
+  role: writer
+  ref: 2002/chosen
+- series: The Twilight Zone (2002)
+  work: It's Still a Good Life
+  role: writer
+  ref: 2002/its-still-a-good-life
+- series: The Twilight Zone (2002)
+  work: The Executions of Grady Finch
+  role: writer
+  ref: 2002/the-executions-of-grady-finch
+born: '1953'
+bio: >-
+  Ira Steven Behr, fresh from running Star Trek: Deep Space Nine, was one of the executive producers of
+  the 2002 UPN revival and wrote several of its episodes, most notably It's Still a Good Life, the sequel
+  to the 1961 classic that brought back Bill Mumy and Cloris Leachman and cast Mumy's daughter Liliana
+  as Anthony Fremont's even more powerful child. He later worked as an executive producer on Outlander.
+sources:
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: Ira Steven Behr - Wikipedia
+  url: https://en.wikipedia.org/wiki/Ira_Steven_Behr
+last_verified: '2026-11-19'
+media:
+- title: >-
+    The Twilight Zone producer on short-lived revival 20 years later: 'They did not know what they wanted'
+  url: https://syfy.com/syfy-wire/twilight-zone-2002-upn-revival-producer-ira-behr-interview
+  host: SYFY Wire
+  type: interview
+  rights: link-only
+- title: The Twilight Zone executive producer looks back on the experience of making the UPN series
+  url: https://www.joblo.com/the-twilight-zone-upn/
+  host: JoBlo
+  type: article
+  rights: link-only
+categories:
+- people/producers
+- people/writers

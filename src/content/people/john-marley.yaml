@@ -1,0 +1,19 @@
+name: John Marley
+roles:
+- actor
+born: '1907-10-17'
+died: '1984-05-22'
+bio: >-
+  John Marley played Mr. Cox, the stern superintendent of a retirement home, in George Clayton Johnson's "Kick the
+  Can" (1962). He was Oscar-nominated for Love Story, won the Venice best-actor award for John Cassavetes's Faces,
+  and played the producer Jack Woltz who wakes beside a horse's head in The Godfather.
+relevance: core
+sources:
+- title: John Marley - Wikipedia
+  url: https://en.wikipedia.org/wiki/John_Marley
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/actors

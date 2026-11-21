@@ -1,0 +1,21 @@
+name: Penny
+kind: human
+played_by:
+- Melinda Dillon
+appears_in:
+- 1985/a-little-peace-and-quiet
+description: >-
+  A worn-out suburban mother who digs up a sundial-shaped pendant that freezes the world whenever she says "Shut
+  up" and restarts it with "Start talking." She uses it for small moments of calm until a news report of incoming
+  Soviet missiles leaves her with one terrible choice.
+recurring: false
+relevance: core
+sources:
+- title: A Little Peace and Quiet (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/A_Little_Peace_and_Quiet
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

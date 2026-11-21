@@ -1,0 +1,22 @@
+name: Sam Clayberger
+roles:
+- artist
+- title designer
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: series
+  role: layout and background artist, season 1 title sequence (UPA, uncredited)
+bio: >-
+  Sam Clayberger drew the layout and painted the backgrounds and foggy overlay of the first-season title sequence
+  of the original Twilight Zone, made by UPA. He was a background artist at UPA in its heyday, working on its stylized
+  cartoons of the 1950s. His work on the Twilight Zone opening went uncredited on screen.
+sources:
+- title: 'Twilight Zone Museum: The Twilight Zone title'
+  url: https://twilightzonemuseum.com/media/title.php
+- title: 'IMDb: The Twilight Zone (1959-1964) full credits'
+  url: https://m.imdb.com/title/tt0052520/fullcredits/cast
+research_confidence: low
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/crew

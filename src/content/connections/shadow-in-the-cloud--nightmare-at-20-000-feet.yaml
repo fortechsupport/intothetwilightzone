@@ -1,0 +1,21 @@
+from: films/shadow-in-the-cloud
+to: 1959/nightmare-at-20-000-feet
+kind: homage
+confidence: fan-noted
+summary: A WWII flight officer aboard a bomber spots a gremlin damaging the plane and no one believes her, reworking
+  the wing-gremlin premise.
+sources:
+- title: 'TV Tropes: Referenced By / Nightmare at 20,000 Feet'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959S5E3NightmareAt20000Feet
+- title: 'Shadow in the Cloud Review: Gremlins and Gaslighting at 20,000 Feet (Rolling Stone)'
+  url: https://www.rollingstone.com/movies/movie-reviews/shadow-in-the-clouds-movie-review-chloe-grace-moretz-1106989/
+- title: 'Shadow in the Cloud Review: Chloe Grace Moretz Faces World War II Gremlins (Den of Geek)'
+  url: https://www.denofgeek.com/movies/shadow-in-the-cloud-review-chloe-grace-moretz
+- title: Shadow in the Cloud director Roseanne Liang interview (CBR)
+  url: https://www.cbr.com/shadow-in-the-cloud-director-roseanne-liang-interview/
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: Den of Geek''s review says the film is closer to ''Nightmare at 20,000 Feet'' than
+  to Gremlins, but that is the critic''s comparison. In CBR''s interview, director Roseanne Liang traces her gremlin
+  to WWII pilot folklore and never mentions Twilight Zone. The interview points the other way: the director credits wartime
+  gremlin lore, not Twilight Zone. Consider kind ''reference'' or text along the lines of ''often compared to''.'

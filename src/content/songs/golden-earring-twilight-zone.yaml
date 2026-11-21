@@ -1,0 +1,19 @@
+title: Twilight Zone
+artist: Golden Earring
+album: Cut
+genre: Rock
+length: '7:58'
+year: 1982
+tz_connection: reference
+ids:
+  amazon_asin: B01M1AYNTC
+links:
+  youtube: a1sf2CzEq0w
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: 'Songfacts: Twilight Zone by Golden Earring'
+  url: https://www.songfacts.com/facts/golden-earring/twilight-zone
+research_confidence: high
+description: Golden Earring's 1982 hit from Cut, written by George Kooymans. It borrows the show's name for a spy-on-the-run
+  story inspired by Robert Ludlum's novel The Bourne Identity, not by the series.

@@ -1,0 +1,16 @@
+---
+interface Props { ids?: Record<string, string>; links?: Record<string, string> }
+const { ids = {}, links = {} } = Astro.props;
+const items: [string, string][] = [];
+if (ids.imdb) items.push(['IMDb', `https://www.imdb.com/title/${ids.imdb}/`]);
+if (ids.goodreads) items.push(['Goodreads', `https://www.goodreads.com/book/show/${ids.goodreads}`]);
+const names: Record<string, string> = { wikipedia: 'Wikipedia', info: 'Details', isfdb: 'ISFDB', podchaser: 'Podchaser', rss: 'RSS feed', youtube: 'YouTube', lyrics: 'Lyrics', justwatch: 'JustWatch' };
+for (const [k, v] of Object.entries(links)) {
+  if (!v) continue;
+  const url = k === 'youtube' && !v.startsWith('http') ? `https://www.youtube.com/watch?v=${v}` : v;
+  if (url.startsWith('http')) items.push([names[k] ?? k, url]);
+}
+if (ids.amazon_asin) items.push(['Amazon', `https://www.amazon.com/dp/${ids.amazon_asin}`]);
+if (ids.audible_asin) items.push(['Audible', `https://www.audible.com/pd/${ids.audible_asin}`]);
+---
+{items.length > 0 && <span class="small">{items.map(([label, url], i) => <>{i > 0 && ' · '}<a href={url} rel="noopener nofollow">{label}</a></>)}</span>}

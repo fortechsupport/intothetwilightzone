@@ -1,0 +1,20 @@
+name: Maury Winkler
+kind: human
+played_by:
+- James Coco
+appears_in:
+- 1985/act-break
+description: >-
+  A struggling playwright behind on his rent whose writing partner Harry dies just as they need a hit. With a magic
+  amulet he wishes himself back to Elizabethan England, with consequences for the history of the theatre.
+recurring: false
+relevance: core
+sources:
+- title: Act Break (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Act_Break
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

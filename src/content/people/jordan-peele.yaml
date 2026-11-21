@@ -1,0 +1,50 @@
+name: Jordan Peele
+roles:
+- developer
+- executive producer
+- host
+- narrator
+tz_credits:
+- series: The Twilight Zone (2019)
+  work: 20 episodes
+  role: host/narrator
+- series: The Twilight Zone (2019)
+  work: Seasons 1–2
+  role: developer/executive producer
+born: '1979-02-21'
+bio: >-
+  Jordan Peele co-developed the 2019 revival for CBS All Access with Simon Kinberg and Marco Ramirez,
+  produced it through his company Monkeypaw Productions, and stepped into Rod Serling's shoes as on-screen
+  host and narrator for all 20 episodes across two seasons. He came to the project as one of the defining
+  genre filmmakers of his generation: half of the sketch duo Key & Peele, he won the Academy Award for
+  Best Original Screenplay for Get Out (2017) and followed it with Us and Nope, films that openly acknowledge
+  their debt to The Twilight Zone.
+sources:
+- title: The Twilight Zone (2019 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+- title: Jordan Peele - Wikipedia
+  url: https://en.wikipedia.org/wiki/Jordan_Peele
+last_verified: '2026-11-19'
+media:
+- title: Roaming in the gloaming of The Twilight Zone
+  url: https://www.npr.org/2019/04/10/711758888/roaming-in-the-gloaming-of-the-twilight-zone
+  host: NPR
+  date: '2019-04-10'
+  type: article
+  rights: link-only
+- title: Fears are forever in Jordan Peele's Twilight Zone
+  url: https://www.kcur.org/2019-04-01/fears-are-forever-in-jordan-peeles-twilight-zone
+  host: KCUR / NPR
+  date: '2019-04-01'
+  type: article
+  rights: link-only
+- title: Jordan Peele reveals the Twilight Zone episode that inspired Us
+  url: >-
+    https://www.salon.com/2019/01/31/jordan-peele-reveals-the-twilight-zone-episode-that-inspired-us_partner
+  host: Salon
+  date: '2019-01-31'
+  type: article
+  rights: link-only
+categories:
+- people/producers
+- people/narrators-hosts

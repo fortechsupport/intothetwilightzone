@@ -1,0 +1,30 @@
+title: Nightsong
+series: '1985'
+season: 2
+episode: '03b'
+air_date: '1986-10-11'
+runtime_min: 23
+writers:
+- Michael Reaves
+directors:
+- Bradford May
+cast:
+- Lisa Eilbacher
+narrator: Charles Aidman
+synopsis: A late-night radio DJ still grieving the musician lover who vanished five years ago is stunned when he
+  walks back into her life, unchanged and evasive about where he has been.
+themes:
+- grief
+- lost love
+- music
+ids:
+  imdb: tt0734724
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Nightsong
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

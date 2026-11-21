@@ -1,0 +1,37 @@
+title: Person or Persons Unknown
+series: '1959'
+season: 3
+episode: '27'
+air_date: '1962-03-23'
+runtime_min: 25
+production_code: '4829'
+writers:
+- Charles Beaumont
+directors:
+- John Brahm
+cast:
+- Richard Long
+- Frank Silvera
+- John Brahm
+narrator: Rod Serling
+synopsis: After a night of drinking, a man wakes up and discovers that his wife, his coworkers and even his own
+  mother insist they have never met him. Desperate to prove that he exists, he searches for anyone who can confirm
+  who he is.
+themes:
+- identity
+- isolation
+- memory
+- sanity
+ids:
+  imdb: tt0734613
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Person_or_Persons_Unknown
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+last_verified: '2026-11-19'
+locked: true

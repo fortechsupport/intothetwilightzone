@@ -1,0 +1,20 @@
+name: Ira
+kind: human
+played_by:
+- James Whitmore Jr.
+appears_in:
+- 1985/the-girl-i-married
+description: >-
+  A successful lawyer who misses the idealistic young man he once was. When the younger versions of himself and
+  his wife Valerie appear, they push the couple to reconsider the lives they have built.
+recurring: false
+relevance: core
+sources:
+- title: The Girl I Married (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Girl_I_Married
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

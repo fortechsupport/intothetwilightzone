@@ -1,0 +1,23 @@
+name: Lou Holz
+roles:
+- author
+born: '1893'
+died: '1980'
+bio: >-
+  "Lou Holz" is the site's credit spelling for the vaudeville comedian Lou Holtz, whose idea Rod Serling credited
+  as the basis of "A Short Drink from a Certain Fountain" (1963), in which an aging man takes a youth serum to keep
+  his young wife and overshoots back to infancy. Holtz was a dialect comic and monologuist who headlined vaudeville
+  and Broadway revues in the 1920s and 1930s and later appeared on radio and television variety shows.
+relevance: core
+sources:
+- title: Lou Holtz (actor) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Lou_Holtz_(actor)
+- title: List of The Twilight Zone (1959 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
+research_confidence: medium
+last_verified: '2026-11-20'
+tags:
+- source-author
+- credit-spelling
+categories:
+- people/writers

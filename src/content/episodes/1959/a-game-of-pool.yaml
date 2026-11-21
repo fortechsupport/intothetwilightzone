@@ -1,0 +1,61 @@
+title: A Game of Pool
+series: '1959'
+season: 3
+episode: '5'
+air_date: '1961-10-13'
+runtime_min: 25
+production_code: '4815'
+writers:
+- George Clayton Johnson
+directors:
+- Buzz Kulik
+cast:
+- Jack Klugman
+- Jonathan Winters
+narrator: Rod Serling
+synopsis: A brilliant pool hustler is haunted by comparisons to a legendary champion who died years earlier. Alone in
+  the hall one night, he wishes aloud for a chance to beat the master, and the late champion arrives to accept a game
+  with very high stakes.
+themes:
+- ambition
+- competition
+- death
+- legacy
+ids:
+  imdb: tt0734540
+links:
+  wikipedia: https://en.wikipedia.org/wiki/A_Game_of_Pool_(The_Twilight_Zon
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+- title: A Game of Pool (The Twilight Zone, 1985) - Wikipedia
+  url: https://en.wikipedia.org/wiki/A_Game_of_Pool_(The_Twilight_Zone,_1985)
+last_verified: '2026-11-19'
+locked: true
+media:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Buzz Kulik and Buck Houghton (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+- type: video
+  subtype: alternate-version
+  title: 'A Game of Pool: alternate ending read by Jonathan Winters (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed
+- type: video
+  subtype: bonus-feature
+  title: 'A Game of Pool: clip from the 1989 remake (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-02-15'
+  rights: licensed

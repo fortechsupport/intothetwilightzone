@@ -1,0 +1,29 @@
+name: Harold Gould
+roles:
+- actor
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: Probe 7, Over and Out
+  role: actor (as General Larrabee)
+  ref: 1959/probe-7-over-and-out
+born: '1923-12-10'
+died: '2010-09-11'
+bio: >-
+  Harold Gould played General Larrabee, the commander who tells the stranded astronaut Cook by radio that his world
+  is ending, in "Probe 7, Over and Out" (1963). A former theatre professor with a doctorate, he became one of television's
+  most familiar character actors. He played Rhoda's father Martin Morgenstern on The Mary Tyler Moore Show and Rhoda,
+  the gangster Kid Twist in The Sting (1973), and Miles Webber, Rose's boyfriend, on The Golden Girls.
+relevance: core
+sources:
+- title: Harold Gould - Wikipedia
+  url: https://en.wikipedia.org/wiki/Harold_Gould
+- title: Probe 7, Over and Out (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Probe_
+- title: List of The Twilight Zone (1959 TV series) guest stars - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_guest_stars
+research_confidence: high
+last_verified: '2026-11-20'
+tags:
+- 1959-series
+categories:
+- people/actors

@@ -1,0 +1,29 @@
+name: René Garriguenc
+bio: >-
+  French-born CBS staff composer and arranger who supplied library music and arrangements for many CBS series. His
+  'Jazz Theme #3' source cue turns up in several Twilight Zone episodes, and he arranged other library material
+  (including a Dimitri Tiomkin piece) that was tracked into the show.
+roles:
+- composer
+tz_credits:
+- series: The Twilight Zone (1959-1964)
+  work: 'Jazz Theme #3 (source cue; used in ''The Fever'' and others)'
+  ref: 1959/the-fever
+- series: The Twilight Zone (1959-1964)
+  work: Arrangement of a Tiomkin cue tracked in 'Mr. Denton on Doomsday'
+  ref: 1959/mr-denton-on-doomsday
+relevance: core
+research_confidence: medium
+last_verified: '2026-11-20'
+sources:
+- title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
+  url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
+- title: Filmtracks – The Twilight Zone (40th Anniversary Collection)
+  url: https://www.filmtracks.com/titles/twilight_zone.html
+- title: Cambridge Core – Wissner, 'Episode and Cue Information' appendix
+  url: >-
+    https://core-prod.cambridgecore.org/core/books/dimension-of-sound/episode-and-cue-information/D3509C7720B4715668F1CDF11692BA78
+- title: 'TVMaze: The Twilight Zone (1959) crew'
+  url: https://www.tvmaze.com/shows/787/the-twilight-zone/crew
+categories:
+- people/composers

@@ -1,0 +1,16 @@
+from: songs/cattle-decapitation-to-serve-man
+to: 1959/to-serve-man
+kind: reference
+confidence: fan-noted
+evidence: 'The San Diego band borrowed the episode''s double-meaning title for its second album, turning the humans-as-food
+  twist into the album''s pro-animal, anti-human theme. Checked 2026-11-20: Wikipedia''s album article says the
+  title references The Twilight Zone episode, but that sentence has no citation. Band interviews exist, but none surfaced in
+  search confirming this. from_title and year are null: the album is Cattle Decapitation, To Serve Man (released
+  30 July 2002). The title could also come from Damon Knight''s original story; the album art suggests The Twilight Zone episode.'
+sources:
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/To_Serve_Man_(album)
+- title: metalmusicarchives.com
+  url: https://metalmusicarchives.com/album/cattle-decapitation/to-serve-man
+last_verified: '2026-11-20'
+locked: true

@@ -1,0 +1,20 @@
+name: Bob Spindler
+kind: human
+played_by:
+- Jeffrey DeMunn
+appears_in:
+- 1985/kentucky-rye
+description: >-
+  A drunken businessman who wrecks his car and stumbles into a friendly country bar. The bar's hospitality becomes
+  a trap that keeps him there for good.
+recurring: false
+relevance: core
+sources:
+- title: Kentucky Rye (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Kentucky_Rye
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

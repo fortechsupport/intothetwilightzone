@@ -1,0 +1,32 @@
+title: Twilight Zone by Monster Mini Golf (Las Vegas)
+kind: game
+year: 2020
+publisher: Monster Mini Golf
+description: >-
+  A licensed glow-in-the-dark indoor mini-golf course themed to The Twilight Zone, opened by Monster Mini Golf at
+  Bally's Las Vegas around August 2020, with holes and props drawn from classic episodes.
+subtype: mini-golf
+details:
+  location: Bally's Las Vegas (later Horseshoe Las Vegas)
+  note: Cross-check with the attractions researcher to avoid a duplicate
+  licensed: true
+relevance: core
+research_confidence: medium
+categories:
+- games/other-games
+sources:
+- title: 'Vital Vegas: Twilight Zone mini golf opens at Bally''s Las Vegas'
+  url: https://vitalvegas.com/twilight-zone-mini-golf-opens-ballys-las-vegas/
+- title: 'Attractions Magazine: Twilight Zone Monster Mini Golf now open in Las Vegas'
+  url: https://attractionsmagazine.com/twilight-zone-mini-golf-now-open-las-vegas/
+- title: Las Vegas Magazine (Aug 2020)
+  url: https://lasvegasmagazine.com/entertainment/2020/aug/19/twilight-zone-minigolf-vegas-ballys
+- title: 'InPark Magazine: Monster Golf Twilight Zone'
+  url: https://www.inparkmagazine.com/monster-golf-twilight-zone/
+media:
+- type: video
+  title: Review-Journal video tour
+  url: https://neon.reviewjournal.com/?p=1262389
+  host: Las Vegas Review-Journal
+  rights: link-only
+last_verified: '2026-11-20'

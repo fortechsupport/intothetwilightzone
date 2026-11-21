@@ -1,0 +1,71 @@
+---
+// A section or category landing page. Sections (People, Places, Organizations) show their kinds and a
+// sortable, filterable index of every entry. Categories show their subcategories with counts and
+// previews, then the people, places, organizations and media connected to them.
+import Base from '../../layouts/Base.astro';
+import EntryList from '../../components/EntryList.astro';
+import EntityIndex from '../../components/EntityIndex.astro';
+import SectionSummary from '../../components/SectionSummary.astro';
+import { catalog, countOf, type CatInfo } from '../../lib/catalog';
+import { verbOf } from '../../lib/taxonomy.mjs';
+
+export async function getStaticPaths() {
+  const cats = await catalog();
+  return [...cats.values()].map((c) => ({ params: { cat: c.slug }, props: { c } }));
+}
+interface Props { c: CatInfo }
+const { c } = Astro.props;
+const subs = c.subs.filter((s) => s.entries.length > 0);
+const empty = c.subs.filter((s) => s.entries.length === 0);
+const total = countOf(c);
+const PREVIEW = 8;
+const section = c.kind === 'section';
+const canSplit = c.split || c.slug === 'organizations';
+const offN = (list: { official?: boolean }[]) => list.filter((e) => e.official === true).length;
+const allEntries = [...new Map(c.subs.flatMap((s) => s.entries.map((e) => [e.key, e]))).values()];
+const totalOff = offN(allEntries);
+const group = verbOf(c.slug);
+const NOUN: Record<string, string> = { people: 'people', places: 'places', organizations: 'organizations' };
+---
+<Base title={c.title} description={c.description}>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a>{group && <> / <a href={group.href}>{group.title}</a></>}</p>
+  <h1>{c.title} {c.isNew && <span class="tag new" title="Added during research; Adam decides whether to keep it">new</span>}</h1>
+  <p class="lead">{total.toLocaleString('en-US')} {total === 1 ? 'entry' : 'entries'}{section ? `, in ${subs.length} kinds` : ` in ${subs.length} ${subs.length === 1 ? 'subcategory' : 'subcategories'}`}{canSplit && totalOff > 0 && totalOff < total && `, ${totalOff.toLocaleString('en-US')} official and ${(total - totalOff).toLocaleString('en-US')} unofficial or inspired`}.</p>
+  {c.intro.map((p) => <p set:html={p} />)}
+  <aside class="tz-link">
+    <h2>How this connects to The Twilight Zone</h2>
+    <p>{c.connection}</p>
+  </aside>
+  {c.seeAlso && <p class="small">See also: {c.seeAlso.map(([l, h], i) => <>{i > 0 && ' · '}<a href={h}>{l}</a></>)}</p>}
+  <h2>{section ? 'Kinds' : 'Subcategories'}</h2>
+  <div class="grid">
+    {subs.map((s) => (
+      <a class="card" href={`/${c.slug}/${s.slug}/`}>
+        <span class="count">{s.entries.length.toLocaleString('en-US')}</span>
+        <h3>{s.title} {s.isNew && <span class="tag new">new</span>}</h3>
+        <p>{s.blurb}</p>
+        {canSplit && (() => { const o = offN(s.entries); const u = s.entries.length - o; return <p class="small muted">{o > 0 && u > 0 ? `${o} official · ${u} unofficial` : o > 0 ? 'All official' : 'Unofficial and inspired'}</p>; })()}
+      </a>
+    ))}
+  </div>
+  {empty.length > 0 && <p class="small muted">Planned, with no entries yet: {empty.map((s, i) => <>{i > 0 && ', '}{s.title}{s.isNew && ' (new)'}</>)}. Research is under way.</p>}
+  {section ? (
+    <>
+      <h2>Every {c.title.toLowerCase().replace(/s$/, '')} A to Z</h2>
+      <p class="small muted">Sort by name or number of records, filter by kind or by where they appear, or search. Each name links to its page, which links back to every record.</p>
+      <EntityIndex section={c.slug as any} noun={NOUN[c.slug]} />
+    </>
+  ) : (
+    <>
+      <SectionSummary entries={allEntries} scope={c.slug} label={c.title} />
+      {subs.map((s) => (
+        <section id={s.slug}>
+          <h2><a href={`/${c.slug}/${s.slug}/`}>{s.title}</a> <span class="muted small">({s.entries.length.toLocaleString('en-US')})</span></h2>
+          {s.intro && <p>{s.intro}</p>}
+          <EntryList entries={s.entries.slice(0, PREVIEW)} />
+          {s.entries.length > PREVIEW && <p><a href={`/${c.slug}/${s.slug}/`}>All {s.entries.length.toLocaleString('en-US')} in {s.title} →</a></p>}
+        </section>
+      ))}
+    </>
+  )}
+</Base>

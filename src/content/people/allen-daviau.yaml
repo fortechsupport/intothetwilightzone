@@ -1,0 +1,28 @@
+name: Allen Daviau
+roles:
+- cinematographer
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: Kick the Can
+  role: director of photography (segments 2 and 4)
+  ref: films/twilight-zone-the-movie
+- series: 'Twilight Zone: The Movie (1983)'
+  work: Nightmare at 20,000 Feet
+  role: director of photography
+  ref: films/twilight-zone-the-movie
+born: '1942'
+died: '2020'
+bio: >-
+  Allen Daviau photographed two segments of Twilight Zone: The Movie (1983), Steven Spielberg's Kick the Can and
+  George Miller's Nightmare at 20,000 Feet. He was Spielberg's cinematographer on E.T. the Extra- Terrestrial, The
+  Color Purple and Empire of the Sun, and received five Academy Award nominations. He died in 2020.
+sources:
+- title: 'Wikipedia: Allen Daviau'
+  url: https://en.wikipedia.org/wiki/Allen_Daviau
+- title: 'Sci-Fi-Movies: Twilight Zone: The Movie (1983) credits'
+  url: https://www.scifi-movies.com/en/credits/0001932/twilight-zone-the-movie-1983/
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/crew

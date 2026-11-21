@@ -1,0 +1,22 @@
+name: Battling Maxo
+aka:
+- B2
+kind: robot
+played_by:
+- Chuck Hicks
+appears_in:
+- 1959/steel
+description: >-
+  Steel Kelly's old, worn-out robot boxer, a B2 model that is out of date. Its breakdown before a fight forces Kelly
+  into the ring.
+recurring: false
+relevance: core
+sources:
+- title: Steel (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Steel_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Steel - IMDb'
+  url: https://www.imdb.com/title/tt0734623/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

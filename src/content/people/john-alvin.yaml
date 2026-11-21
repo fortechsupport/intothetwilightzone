@@ -1,0 +1,29 @@
+name: John Alvin
+roles:
+- artist
+- poster illustrator
+relevance: core
+research_confidence: medium
+last_verified: '2026-11-20'
+bio: >-
+  John Alvin painted poster art for Twilight Zone: The Movie (1983). He was one of the best-known movie poster artists
+  of his time, creating the posters for E.T. the Extra-Terrestrial, Blazing Saddles and many Disney films. He died
+  in 2008.
+sources:
+- title: Wikipedia - John Alvin
+  url: https://wikipedia.com/wiki/John_Alvin
+- title: 'Original Film Art - Twilight Zone: The Movie (1983)'
+  url: https://www.originalfilmart.com/products/twilight-zone-the-movie-1983
+- title: Art of the Movies - The movie posters of John Alvin
+  url: >-
+    https://artofthemovies.co.uk/blogs/original-movie-posters/the-artists-the-movie-posters-of-john-alvin
+- title: 'Wikipedia: John Alvin'
+  url: https://en.wikipedia.org/wiki/John_Alvin
+- title: 'Sci-Fi-Movies: Twilight Zone: The Movie (1983) credits'
+  url: https://www.scifi-movies.com/en/credits/0001932/twilight-zone-the-movie-1983/
+died: '2008'
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: poster artist
+  ref: films/twilight-zone-the-movie

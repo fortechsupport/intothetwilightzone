@@ -1,0 +1,32 @@
+title: Fair Warning
+series: '2002'
+season: 1
+episode: '25'
+air_date: '2003-01-08'
+runtime_min: 22
+production_code: '124'
+writers:
+- David Weddle
+- Bradley Thompson
+directors:
+- John T. Kretchmer
+cast:
+- Taryn Manning
+- Kandyse McClure
+- Andrew Johnston
+narrator: Forest Whitaker
+synopsis: A young florist draws the attention of a pet shop clerk whose shifting personalities make his intentions
+  impossible to read, and his attention soon turns menacing.
+themes:
+- fear
+- mental illness
+- stalking
+ids:
+  imdb: tt0734782
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

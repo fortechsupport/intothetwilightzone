@@ -1,0 +1,19 @@
+name: Janet Leigh
+roles:
+- actor
+born: '1927-07-06'
+died: '2004-10-03'
+bio: >-
+  Janet Leigh starred in "Rendezvous in a Dark Place" (1989), a third-season segment of the 1980s revival about
+  a woman who haunts funerals hoping to meet Death in person. Her career included Touch of Evil and The Manchurian
+  Candidate, and she won a Golden Globe and an Oscar nomination as Marion Crane in Psycho (1960).
+relevance: core
+sources:
+- title: Janet Leigh - Wikipedia
+  url: https://en.wikipedia.org/wiki/Janet_Leigh
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/actors

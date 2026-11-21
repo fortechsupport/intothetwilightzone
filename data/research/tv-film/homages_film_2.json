@@ -1,0 +1,1346 @@
+[
+ {
+  "work": {
+   "title": "Coherence",
+   "kind": "film",
+   "year": 2013,
+   "directors": [
+    "James Ward Byrkit"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "A dinner party fractures into overlapping realities during a comet's pass, a low-budget puzzle that /Film traces directly to the show's influence.",
+  "sources": [
+   {
+    "title": "The Twilight Zone Inspired This Cult 2010s Sci-Fi Movie With A Head-Spinning Ending (/Film)",
+    "url": "https://slashfilm.com/2115017/the-twilight-zone-inspiration-2010s-cult-sci-fi-movie-coherence"
+   },
+   {
+    "title": "The Twilight Zone Inspired This Cult 2010s Sci-Fi Movie (AOL)",
+    "url": "https://www.aol.com/articles/twilight-zone-inspired-cult-2010s-160000579.html"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Journey to the Far Side of the Sun (Doppelgänger)",
+   "kind": "film",
+   "year": 1969,
+   "directors": [
+    "Robert Parrish"
+   ],
+   "ids": {}
+  },
+  "to": "1959/the-parallel",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "An astronaut returns from a mission to a mirror-reversed Earth, a premise Gizmodo likens to the season-four episode about a pilot who comes home to a subtly altered world.",
+  "sources": [
+   {
+    "title": "Films That Have Found Their Way Into the Twilight Zone (Gizmodo)",
+    "url": "https://gizmodo.com/films-that-have-found-their-way-into-the-twilight-zone-5122451"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Payback",
+   "kind": "film",
+   "year": 1999,
+   "directors": [
+    "Brian Helgeland"
+   ],
+   "ids": {}
+  },
+  "to": "1959/the-jeopardy-room",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "Gizmodo argues the crime thriller's climax lifts its booby-trapped-telephone ending straight from the Martin Landau espionage episode.",
+  "sources": [
+   {
+    "title": "Films That Have Found Their Way Into the Twilight Zone (Gizmodo)",
+    "url": "https://gizmodo.com/films-that-have-found-their-way-into-the-twilight-zone-5122451"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Terminator 2: Judgment Day",
+   "kind": "film",
+   "year": 1991,
+   "directors": [
+    "James Cameron"
+   ],
+   "ids": {}
+  },
+  "to": "1959/the-four-of-us-are-dying",
+  "kind": "homage",
+  "confidence": "fan-noted",
+  "summary": "Gizmodo reads the shape-shifting T-1000's death throes, cycling through stolen faces, as a nod to the episode about a man who can change his face at will.",
+  "sources": [
+   {
+    "title": "Films That Have Found Their Way Into the Twilight Zone (Gizmodo)",
+    "url": "https://gizmodo.com/films-that-have-found-their-way-into-the-twilight-zone-5122451"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Disney's The Kid",
+   "kind": "film",
+   "year": 2000,
+   "directors": [
+    "Jon Turteltaub"
+   ],
+   "ids": {}
+  },
+  "to": "1959/nightmare-as-a-child",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "A cynical image consultant is confronted by his own childhood self, a setup TopTenz compares to the episode in which a woman meets the girl she once was.",
+  "sources": [
+   {
+    "title": "Top 10 Movies That Ripped Off The Twilight Zone (TopTenz)",
+    "url": "https://www.toptenz.net/top-10-movies-that-ripped-off-the-twilight-zone.php"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Galaxy Quest",
+   "kind": "film",
+   "year": 1999,
+   "directors": [
+    "Dean Parisot"
+   ],
+   "ids": {}
+  },
+  "to": "1959/hocus-pocus-and-frisby",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "Aliens mistake washed-up TV actors for real heroes, echoing the episode where visitors take a small-town braggart's tall tales at face value; TopTenz lists the parallel.",
+  "sources": [
+   {
+    "title": "Top 10 Movies That Ripped Off The Twilight Zone (TopTenz)",
+    "url": "https://www.toptenz.net/top-10-movies-that-ripped-off-the-twilight-zone.php"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Knock at the Cabin",
+   "kind": "film",
+   "year": 2023,
+   "directors": [
+    "M. Night Shyamalan"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "Four strangers take a family hostage and demand an impossible sacrifice to stop the apocalypse; reviewers framed it as Shyamalan's own Twilight Zone episode.",
+  "sources": [
+   {
+    "title": "Knock at the Cabin Feels Like M. Night Shyamalan's Version of a Twilight Zone Episode (InsideHook)",
+    "url": "https://www.insidehook.com/film/knock-cabin-review"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Old",
+   "kind": "film",
+   "year": 2021,
+   "directors": [
+    "M. Night Shyamalan"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "confirmed-by-creator",
+  "summary": "Vacationers on a secluded beach find themselves aging at a terrifying rate; Shyamalan named the show as an influence and called the film more Twilight Zone than Lost.",
+  "sources": [
+   {
+    "title": "Old director M. Night Shyamalan talks island mystery that's more Twilight Zone than Lost (GamesRadar)",
+    "url": "https://gamesradar.com/old-movie-interview-m-night-shyamalan-director"
+   },
+   {
+    "title": "9 Storytellers Influenced by The Twilight Zone (PBS American Masters)",
+    "url": "https://www.pbs.org/wnet/americanmasters/9-storytellers-influenced-by-the-twilight-zone/23564"
+   },
+   {
+    "title": "Old Is Best Understood as a Modern Day Episode of The Twilight Zone (SYFY Wire)",
+    "url": "https://www.syfy.com/index%2Ephp/syfy-wire/old-is-best-understood-as-an-episode-of-the-twilight-zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Miracle Mile",
+   "kind": "film",
+   "year": 1988,
+   "directors": [
+    "Steve De Jarnatt"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "documented",
+  "summary": "A man learns by a misdialed call that nuclear war is about to start; Flicks notes the script was at one point a possible candidate for Twilight Zone: The Movie.",
+  "sources": [
+   {
+    "title": "Sight, Sound and Mind: The Twilight Zone on the Big Screen (Flicks)",
+    "url": "https://www.flicks.com.au/features/sight-sound-and-mind-the-twilight-zone-on-the-big-screen/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Duel",
+   "kind": "tv-film",
+   "year": 1971,
+   "directors": [
+    "Steven Spielberg"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "A motorist is stalked across desert highways by an unseen truck driver; Flicks calls the Richard Matheson-scripted film a feature-length Twilight Zone-style story.",
+  "sources": [
+   {
+    "title": "Sight, Sound and Mind: The Twilight Zone on the Big Screen (Flicks)",
+    "url": "https://www.flicks.com.au/features/sight-sound-and-mind-the-twilight-zone-on-the-big-screen/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Thirteenth Floor",
+   "kind": "film",
+   "year": 1999,
+   "directors": [
+    "Josef Rusnak"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "Flicks groups this simulated-reality thriller among films that carry the show's reality-questioning DNA.",
+  "sources": [
+   {
+    "title": "Sight, Sound and Mind: The Twilight Zone on the Big Screen (Flicks)",
+    "url": "https://www.flicks.com.au/features/sight-sound-and-mind-the-twilight-zone-on-the-big-screen/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Matrix",
+   "kind": "film",
+   "year": 1999,
+   "directors": [
+    "Lana Wachowski",
+    "Lilly Wachowski"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "Flicks cites the hacker-discovers-false-reality blockbuster as one of the Twilight Zone-style films of its era.",
+  "sources": [
+   {
+    "title": "Sight, Sound and Mind: The Twilight Zone on the Big Screen (Flicks)",
+    "url": "https://www.flicks.com.au/features/sight-sound-and-mind-the-twilight-zone-on-the-big-screen/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Devil",
+   "kind": "film",
+   "year": 2010,
+   "directors": [
+    "John Erick Dowdle"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "Strangers trapped in a stalled elevator suspect one of them is the devil; Flicks names it among Twilight Zone-style films.",
+  "sources": [
+   {
+    "title": "Sight, Sound and Mind: The Twilight Zone on the Big Screen (Flicks)",
+    "url": "https://www.flicks.com.au/features/sight-sound-and-mind-the-twilight-zone-on-the-big-screen/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Mulholland Drive",
+   "kind": "film",
+   "year": 2001,
+   "directors": [
+    "David Lynch"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "Flickering Myth ranks Lynch's dream-logic Hollywood mystery among its ten great Twilight Zone-style movies.",
+  "sources": [
+   {
+    "title": "10 Great Twilight Zone Style Movies (Flickering Myth)",
+    "url": "https://www.flickeringmyth.com/10-great-twilight-zone-style-movies/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Shutter Island",
+   "kind": "film",
+   "year": 2010,
+   "directors": [
+    "Martin Scorsese"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "A marshal investigating an island asylum begins doubting his own perceptions; Flickering Myth lists it as a Twilight Zone-style movie.",
+  "sources": [
+   {
+    "title": "10 Great Twilight Zone Style Movies (Flickering Myth)",
+    "url": "https://www.flickeringmyth.com/10-great-twilight-zone-style-movies/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Game",
+   "kind": "film",
+   "year": 1997,
+   "directors": [
+    "David Fincher"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "A wealthy banker is drawn into a reality-warping birthday 'game'; Flickering Myth counts it among Twilight Zone-style movies.",
+  "sources": [
+   {
+    "title": "10 Great Twilight Zone Style Movies (Flickering Myth)",
+    "url": "https://www.flickeringmyth.com/10-great-twilight-zone-style-movies/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "After Hours",
+   "kind": "film",
+   "year": 1985,
+   "directors": [
+    "Martin Scorsese"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "A word processor's night in SoHo spirals into nightmarish coincidence; Flickering Myth includes it on its Twilight Zone-style list.",
+  "sources": [
+   {
+    "title": "10 Great Twilight Zone Style Movies (Flickering Myth)",
+    "url": "https://www.flickeringmyth.com/10-great-twilight-zone-style-movies/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Memento",
+   "kind": "film",
+   "year": 2000,
+   "directors": [
+    "Christopher Nolan"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "A man without short-term memory hunts his wife's killer in reverse-ordered scenes; Flickering Myth lists it as a Twilight Zone-style movie.",
+  "sources": [
+   {
+    "title": "10 Great Twilight Zone Style Movies (Flickering Myth)",
+    "url": "https://www.flickeringmyth.com/10-great-twilight-zone-style-movies/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Triangle",
+   "kind": "film",
+   "year": 2009,
+   "directors": [
+    "Christopher Smith"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "Yacht passengers board an empty ocean liner and fall into a looping nightmare; Flickering Myth names it a Twilight Zone-style movie.",
+  "sources": [
+   {
+    "title": "10 Great Twilight Zone Style Movies (Flickering Myth)",
+    "url": "https://www.flickeringmyth.com/10-great-twilight-zone-style-movies/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Bust a Move (Young MC)",
+   "kind": "music-video",
+   "year": 1989,
+   "directors": [
+    "Tamra Davis"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "/Film reports that the show inspired the much-played video for Young MC's hit single.",
+  "sources": [
+   {
+    "title": "Rod Serling's The Twilight Zone Inspired A '80s Music Video That's Still Legendary (/Film)",
+    "url": "https://slashfilm.com/2177338/rod-serling-the-twilight-zone-inspired-80s-music-video-young-mc-bust-a-move"
+   },
+   {
+    "title": "Young MC - Bust a Move (IMVDb)",
+    "url": "https://imvdb.com/video/young-mc/bust-a-move"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Twilight Zone (Golden Earring)",
+   "kind": "music-video",
+   "year": 1982,
+   "directors": [
+    "Dick Maas"
+   ],
+   "ids": {
+    "imdb": "tt10222666"
+   }
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Dick Maas's video for Golden Earring's hit borrows the series' name for its title; included here for curation, as the song's link to the show is in name only.",
+  "sources": [
+   {
+    "title": "Music Video of the Day: Twilight Zone by Golden Earring (1982, dir. Dick Maas)",
+    "url": "https://unobtainium13.com/2017/06/13/music-video-of-the-day-twilight-zone-by-golden-earring-1982-dir-dick-maas"
+   },
+   {
+    "title": "Golden Earring: Twilight Zone (IMDb)",
+    "url": "https://www.imdb.de/title/tt10222666/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Twilight Zone Super Bowl LIII spot",
+   "kind": "commercial",
+   "year": 2019,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "series/2019",
+  "kind": "reference",
+  "confidence": "documented",
+  "summary": "CBS All Access promoted Jordan Peele's revival with a Super Bowl ad that appeared to interrupt the broadcast itself, a meta trick in the spirit of the original.",
+  "sources": [
+   {
+    "title": "Travel to another dimension in the Super Bowl spot for The Twilight Zone (The Week)",
+    "url": "https://theweek.com/speedreads/821523/travel-another-dimension-super-bowl-spot-twilight-zone"
+   },
+   {
+    "title": "Jordan Peele Disrupts the Super Bowl with His Ad for Upcoming Twilight Zone (No Film School)",
+    "url": "https://nofilmschool.com/twilight-zone-jordan-peele"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Groundhog Day",
+   "kind": "film",
+   "year": 1993,
+   "directors": [
+    "Harold Ramis"
+   ],
+   "ids": {}
+  },
+  "to": "1959/shadow-play",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "A weatherman relives the same day over and over; MeTV points fans of the film toward the episode about a man trapped in a recurring execution dream.",
+  "sources": [
+   {
+    "title": "Two classic Twilight Zone episodes for those who love Groundhog Day (MeTV)",
+    "url": "https://metv.com/stories/two-classic-twilight-zone-episodes-for-those-who-love-groundhog-day"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Vast of Night",
+   "kind": "film",
+   "year": 2019,
+   "directors": [
+    "Andrew Patterson"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "homage",
+  "confidence": "documented",
+  "summary": "Two teens in 1950s New Mexico chase a strange radio frequency; the film is framed as an episode of a fictional TV anthology, Paradox Theater, in open tribute to the show.",
+  "sources": [
+   {
+    "title": "You are entering Paradox Theater (Cinapse)",
+    "url": "https://cinapse.co/?p=19920"
+   },
+   {
+    "title": "The Vast of Night Review: Nifty Twilight Zone-Inspired UFO Thriller (Yahoo/IndieWire)",
+    "url": "https://ca.news.yahoo.com/vast-night-review-nifty-twilight-200055536.html"
+   },
+   {
+    "title": "The Vast of Night riffs on Rod Serling's Twilight Zone (KPBS)",
+    "url": "https://www.kpbs.org/news/2020/may/28/vast-night-riffs-rod-serlings-twilight-zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Strange Dark",
+   "kind": "film",
+   "year": 2024,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "A reviewer describes this cosy thriller as what happens when the Twilight Zone invades a Hallmark movie.",
+  "sources": [
+   {
+    "title": "The Strange Dark (2024): A Cosy Thriller Where The Twilight Zone Invades a Hallmark Movie (The Geek Show)",
+    "url": "https://thegeekshow.co.uk/the-strange-dark-2024-review/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Sinners",
+   "kind": "film",
+   "year": 2025,
+   "directors": [
+    "Ryan Coogler"
+   ],
+   "ids": {}
+  },
+  "to": "1959/the-last-rites-of-jeff-myrtlebank",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "Twin brothers open a juke joint in 1930s Mississippi and face a vampiric threat; multiple outlets trace a key inspiration to the episode about a man who rises at his own funeral.",
+  "sources": [
+   {
+    "title": "Ryan Coogler's Sinners Was Heavily Inspired By An Underrated Twilight Zone Episode (/Film)",
+    "url": "https://www.slashfilm.com/1772810/ryan-coogler-sinners-the-twilight-zone-inspiration"
+   },
+   {
+    "title": "Sinners: Ryan Coogler's Oscar Darling Was Inspired By This Classic Episode of The Twilight Zone (SYFY Wire)",
+    "url": "https://www.syfy.com/index%2ephp/syfy-wire/sinners-ryan-coogler-vampire-movie-inspired-by-twilight-zone-jeff-myrtlebank-episode"
+   },
+   {
+    "title": "The Twilight Zone episode that inspired Sinners (MeTV)",
+    "url": "https://metv.com/stories/the-twilight-zone-episode-that-inspired-sinners"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Uglies",
+   "kind": "film",
+   "year": 2024,
+   "directors": [
+    "McG"
+   ],
+   "ids": {}
+  },
+  "to": "1959/eye-of-the-beholder",
+  "kind": "homage",
+  "confidence": "documented",
+  "summary": "In a society where everyone is surgically made 'pretty' at sixteen, a teen questions the system; /Film says the Netflix adaptation pays tribute to the bandaged-patient classic.",
+  "sources": [
+   {
+    "title": "Netflix's Uglies Pays Tribute To A Classic Episode Of The Twilight Zone (/Film)",
+    "url": "https://slashfilm.com/1673416/netflix-uglies-the-twilight-zone-tribute"
+   },
+   {
+    "title": "Netflix Uglies movie shamelessly rips off The Twilight Zone (Fortress of Solitude)",
+    "url": "https://www.fortressofsolitude.co.za/netflix-uglies-movie-shamelessly-rips-off-the-twilight-zone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Similars (Los parecidos)",
+   "kind": "film",
+   "year": 2015,
+   "directors": [
+    "Isaac Ezban"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "homage",
+  "confidence": "documented",
+  "summary": "Travelers stranded at a 1968 Mexican bus station during a storm begin to change in impossible ways; critics describe the black-and-white-styled film as a tribute to Serling's series.",
+  "sources": [
+   {
+    "title": "Los parecidos: A Tribute to Rod Serling's The Twilight Zone (What Sleeps Beneath)",
+    "url": "https://www.whatsleepsbeneath.com/archive/the-similars-review"
+   },
+   {
+    "title": "Review: Isaac Ezban's The Similars Pays Homage To An Era Of Fear And Paranoia (ScreenAnarchy)",
+    "url": "https://screenanarchy.com/2015/11/review-isaac-ezbans-the-similars-pays-homage-to-an-era-of-fear-and-paranoia.html"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Leave the World Behind",
+   "kind": "film",
+   "year": 2023,
+   "directors": [
+    "Sam Esmail"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "Two families share a rental house as a mysterious collapse cuts them off from the world; at least one reviewer compared it to The Twilight Zone.",
+  "sources": [
+   {
+    "title": "Leave the World Behind (Film Yap)",
+    "url": "https://filmyap.substack.com/p/leave-the-world-behind"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Creator",
+   "kind": "film",
+   "year": 2023,
+   "directors": [
+    "Gareth Edwards"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "/Film reports The Twilight Zone is director Gareth Edwards' favorite TV show, in coverage of his AI-war epic.",
+  "sources": [
+   {
+    "title": "Why The Twilight Zone Is The Creator Director Gareth Edwards' Favorite TV Show (/Film)",
+    "url": "https://www.slashfilm.com/1381449/twilight-zone-creator-director-gareth-edwards-favorite-tv-show"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The End of Oak Street",
+   "kind": "film",
+   "year": 2026,
+   "directors": [
+    "David Robert Mitchell"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "A suburban street is torn out of its time and dropped into a prehistoric wilderness; coverage cites The Twilight Zone as an inspiration and reports an original twist ending in the show's style.",
+  "sources": [
+   {
+    "title": "Warner Bros. new dinosaur sci-fi details reveal a masterpiece inspiration: The Twilight Zone (ComicBook.com)",
+    "url": "https://comicbook.com/movies/news/warner-bros-new-dinosaur-sci-fi-details-reveal-a-masterpiece-inspiration-the-twilight-zone/"
+   },
+   {
+    "title": "The End of Oak Street's Original Ending Had a Twilight Zone Twist (SYFY Wire)",
+    "url": "https://www.syfy.com/index%2Ephp/syfy-wire/the-end-of-oak-streets-original-ending-was-twilight-zone-style-twist"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Saviors",
+   "kind": "film",
+   "year": 2026,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "confirmed-by-creator",
+  "summary": "A couple's paranoia about their new houseguests escalates in a darkly comic thriller whose director cites The Twilight Zone and The X-Files as influences.",
+  "sources": [
+   {
+    "title": "Adam Scott & Danielle Deadwyler's New Sci-Fi Thriller Movie Was Inspired By The Twilight Zone & X-Files (AOL)",
+    "url": "https://www.aol.com/articles/adam-scott-danielle-deadwylers-sci-163658068.html"
+   },
+   {
+    "title": "The director of Adam Scott's film The Saviors talks sci-fi influences (Bleeding Cool)",
+    "url": "https://bleedingcool.com/movies/the-director-of-adam-scotts-film-the-saviors-talks-sc-fi-influences"
+   },
+   {
+    "title": "This Wild New Sci-Fi Movie Is Truly The Twilight Zone For The Modern Age (/Film)",
+    "url": "https://www.slashfilm.com/2163158/the-saviors-2026-sci-fi-movie-modern-age-the-twilight-zone/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Weird City",
+   "kind": "web-series",
+   "year": 2019,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "Jordan Peele and Charlie Sanders' YouTube Originals anthology about a city divided by class was billed as a comic Twilight Zone with a twist.",
+  "sources": [
+   {
+    "title": "YouTube's Weird City Is Twilight Zone with a Twist (MediaVillage)",
+    "url": "https://www.mediavillage.com/article/youtubes-weird-city-is-twilight-zone-with-a-twist/"
+   },
+   {
+    "title": "Weird City's Charlie Sanders on crafting a different kind of anthology series (SYFY Wire)",
+    "url": "https://www.syfy.com/index%2ephp/syfy-wire/weird-citys-charlie-sanders-on-crafting-a-different-kind-of-anthology-series-with-jordan"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Dimension 404",
+   "kind": "web-series",
+   "year": 2017,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "Hulu's Mark Hamill-narrated sci-fi anthology is described by /Film as having major Twilight Zone vibes.",
+  "sources": [
+   {
+    "title": "Mark Hamill's Sci-Fi Anthology Series Streaming On Hulu Has Major The Twilight Zone Vibes (/Film)",
+    "url": "https://www.slashfilm.com/2122098/mark-hamill-sci-fi-anthology-series-the-twilight-zone-dimension-404-streaming-hulu"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Contact",
+   "kind": "film",
+   "year": 1997,
+   "directors": [
+    "Robert Zemeckis"
+   ],
+   "ids": {
+    "imdb": "tt0118884"
+   }
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "In the film's cosmic pull-back opening, a snippet of the Twilight Zone theme can be heard among the Earth broadcasts as the camera passes Jupiter.",
+  "sources": [
+   {
+    "title": "TV Tropes: Referenced By / The Twilight Zone (1959)",
+    "url": "https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Good Morning, Vietnam",
+   "kind": "film",
+   "year": 1987,
+   "directors": [
+    "Barry Levinson"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "parody",
+  "confidence": "fan-noted",
+  "summary": "Robin Williams' DJ hums the theme and spoofs Serling's opening narration on air, steering it toward the Demilitarized Zone.",
+  "sources": [
+   {
+    "title": "TV Tropes: Referenced By / The Twilight Zone (1959)",
+    "url": "https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959"
+   },
+   {
+    "title": "TV Tropes: Referenced By / The Twilight Zone",
+    "url": "https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Madagascar",
+   "kind": "film",
+   "year": 2005,
+   "directors": [
+    "Eric Darnell",
+    "Tom McGrath"
+   ],
+   "ids": {}
+  },
+  "to": "1959/to-serve-man",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "A panicking lemur holds up a book titled 'To Serve Lemur' and shrieks that it is a cookbook.",
+  "sources": [
+   {
+    "title": "TV Tropes: Referenced By / The Twilight Zone (1959)",
+    "url": "https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Talking to Myself (The Linda Lindas)",
+   "kind": "music-video",
+   "year": 2022,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "1959/living-doll",
+  "kind": "homage",
+  "confidence": "documented",
+  "summary": "The punk band's black-and-white video is staged as a Twilight Zone tale in which the members' dolls take revenge, riffing on Talky Tina.",
+  "sources": [
+   {
+    "title": "The Linda Lindas Face Off With Vengeful Dolls in Twilight Zone-Themed Talking to Myself Video (Rolling Stone)",
+    "url": "https://www.rollingstone.com/music/music-news/the-linda-lindas-talking-to-myself-video-1314804/"
+   },
+   {
+    "title": "The Linda Lindas share single and Twilight Zone-inspired video (SPIN)",
+    "url": "https://www.spinmagazine.com/2022/03/the-linda-lindas-share-single-and-twilight-zone-inspired-video/"
+   },
+   {
+    "title": "TV Tropes: Referenced By / The Twilight Zone (1959)",
+    "url": "https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "UglyDolls",
+   "kind": "film",
+   "year": 2019,
+   "directors": [
+    "Kelly Asbury"
+   ],
+   "ids": {}
+  },
+  "to": "1959/number-12-looks-just-like-you",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "The film's uniform 'Perfect' dolls carry the model number 12, a nod to the episode about mandatory beauty transformations.",
+  "sources": [
+   {
+    "title": "TV Tropes: Referenced By / The Twilight Zone",
+    "url": "https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Austin Powers: International Man of Mystery",
+   "kind": "film",
+   "year": 1997,
+   "directors": [
+    "Jay Roach"
+   ],
+   "ids": {}
+  },
+  "to": "1959/number-12-looks-just-like-you",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "TV Tropes traces Dr. Evil's pinky-to-the-mouth habit to Dr. Rex's mannerism in the episode.",
+  "sources": [
+   {
+    "title": "TV Tropes: Referenced By / The Twilight Zone",
+    "url": "https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Masters of the Universe",
+   "kind": "film",
+   "year": 1987,
+   "directors": [
+    "Gary Goddard"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "Amid the final ray-gun battle a bewildered detective exclaims that he feels like he is in the Twilight Zone.",
+  "sources": [
+   {
+    "title": "TV Tropes: Referenced By / The Twilight Zone",
+    "url": "https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Meadowland",
+   "kind": "film",
+   "year": 2015,
+   "directors": [
+    "Reed Morano"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "A member of a grief support group likens his sense of unreality to being in The Twilight Zone.",
+  "sources": [
+   {
+    "title": "TV Tropes: Referenced By / The Twilight Zone",
+    "url": "https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Vanilla Sky",
+   "kind": "film",
+   "year": 2001,
+   "directors": [
+    "Cameron Crowe"
+   ],
+   "ids": {}
+  },
+  "to": "1959/shadow-play",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "A television in David's nightmare plays the dream-trap episode, quietly foreshadowing the film's own reveal.",
+  "sources": [
+   {
+    "title": "TV Tropes: Referenced By / The Twilight Zone",
+    "url": "https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Nostalgia Critic: Howard the Duck",
+   "kind": "web-series",
+   "year": null,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "reference",
+  "confidence": "fan-noted",
+  "summary": "In his Howard the Duck review the Critic jokes that the duck universe is like a Twilight Zone episode that starts with the twist.",
+  "sources": [
+   {
+    "title": "TV Tropes: Referenced By / The Twilight Zone",
+    "url": "https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Woke Zone (The Babylon Bee)",
+   "kind": "web-series",
+   "year": null,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "parody",
+  "confidence": "fan-noted",
+  "summary": "The satire site's animated shorts spoof the show's format under the banner 'The Woke Zone'.",
+  "sources": [
+   {
+    "title": "TV Tropes: Referenced By / The Twilight Zone",
+    "url": "https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "La Rivière du hibou (An Occurrence at Owl Creek Bridge)",
+   "kind": "short",
+   "year": 1962,
+   "directors": [
+    "Robert Enrico"
+   ],
+   "ids": {
+    "imdb": "tt0056300"
+   }
+  },
+  "to": "1959/an-occurrence-at-owl-creek-bridge",
+  "kind": "official-adaptation",
+  "confidence": "documented",
+  "summary": "Robert Enrico's award-winning French short of the Ambrose Bierce story was acquired by the original series and broadcast as one of its fifth-season episodes.",
+  "sources": [
+   {
+    "title": "An Occurrence at Owl Creek Bridge (film) (Wikipedia)",
+    "url": "https://en.Wikipedia.com/wiki/An_Occurrence_at_Owl_Creek_Bridge_(film)"
+   },
+   {
+    "title": "Twilight Zone: Occurrence at Owl Creek Bridge different history explained (ComicBook.com)",
+    "url": "https://comicbook.com/tv-shows/news/twilight-zone-occurrence-owl-creek-bridge-different-history-explained/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Shadow in the Cloud",
+   "kind": "film",
+   "year": 2020,
+   "directors": [
+    "Roseanne Liang"
+   ],
+   "ids": {}
+  },
+  "to": "1959/nightmare-at-20-000-feet",
+  "kind": "homage",
+  "confidence": "fan-noted",
+  "summary": "A WWII flight officer aboard a bomber spots a gremlin damaging the plane and no one believes her, reworking the wing-gremlin premise.",
+  "sources": [
+   {
+    "title": "TV Tropes: Referenced By / Nightmare at 20,000 Feet",
+    "url": "https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959S5E3NightmareAt20000Feet"
+   },
+   {
+    "title": "Shadow in the Cloud Review: Gremlins and Gaslighting at 20,000 Feet (Rolling Stone)",
+    "url": "https://www.rollingstone.com/movies/movie-reviews/shadow-in-the-clouds-movie-review-chloe-grace-moretz-1106989/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Super 8",
+   "kind": "film",
+   "year": 2011,
+   "directors": [
+    "J.J. Abrams"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "documented",
+  "summary": "Kids shooting a zombie movie in 1979 witness a train crash that frees something strange; press noted Abrams borrowing from The Twilight Zone, whose 'Walking Distance' he names as a favorite.",
+  "sources": [
+   {
+    "title": "Abrams borrows from the best: Twilight Zone (Spokesman-Review)",
+    "url": "https://www.spokesman.com/stories/2011/jun/15/abrams-borrows-from-the-best-twilight-zone"
+   },
+   {
+    "title": "9 Storytellers Influenced by The Twilight Zone (PBS American Masters)",
+    "url": "https://www.pbs.org/wnet/americanmasters/9-storytellers-influenced-by-the-twilight-zone/23564"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Cloverfield Paradox",
+   "kind": "film",
+   "year": 2018,
+   "directors": [
+    "Julius Onah"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "confirmed-by-creator",
+  "summary": "An entry in the loosely linked Cloverfield series, which producer J.J. Abrams has said was conceived in the spirit of Serling's anthology.",
+  "sources": [
+   {
+    "title": "9 Storytellers Influenced by The Twilight Zone (PBS American Masters)",
+    "url": "https://www.pbs.org/wnet/americanmasters/9-storytellers-influenced-by-the-twilight-zone/23564"
+   },
+   {
+    "title": "J.J. Abrams is building a big-screen Twilight Zone with the Cloververse (Inverse)",
+    "url": "https://www.inverse.com/article/12279-j-j-abrams-is-building-a-big-screen-twilight-zone-with-the-cloververse"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Pod",
+   "kind": "film",
+   "year": 2015,
+   "directors": [
+    "Mickey Keating"
+   ],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "inspired-by",
+  "confidence": "confirmed-by-creator",
+  "summary": "Siblings find their troubled brother insisting he has captured something in his basement; Keating discussed channeling classic Twilight Zone episodes.",
+  "sources": [
+   {
+    "title": "SXSW '15 Interview: Mickey Keating's Pod Channels Classic Twilight Zone Episodes (Bloody Disgusting)",
+    "url": "https://bloody-disgusting.com/interviews/3335587/sxsw-15-interview-mickey-keatings-pod-channels-classic-twilight-zone-episodes/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "M3GAN",
+   "kind": "film",
+   "year": 2022,
+   "directors": [
+    "Gerard Johnstone"
+   ],
+   "ids": {}
+  },
+  "to": "1959/living-doll",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "An AI companion doll grows dangerously protective of an orphaned girl; writers compare it to Talky Tina.",
+  "sources": [
+   {
+    "title": "Which is more frightening, M3GAN or Talky Tina? (RunPee)",
+    "url": "https://runpee.com/which-is-more-frightening-m3gan-or-talky-tina/"
+   },
+   {
+    "title": "M3GAN, Chucky and Twilight Zone's talking doll (Sci-Fi Guy)",
+    "url": "https://willstape.substack.com/p/m3gan-chucky-and-twilight-zones-talking"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Annabelle",
+   "kind": "film",
+   "year": 2014,
+   "directors": [
+    "John R. Leonetti"
+   ],
+   "ids": {}
+  },
+  "to": "1959/living-doll",
+  "kind": "inspired-by",
+  "confidence": "fan-noted",
+  "summary": "Bloody Disgusting places the possessed-doll spin-off in a killer-doll lineage that runs back to Talky Tina.",
+  "sources": [
+   {
+    "title": "Before Annabelle and Chucky, we met Talky Tina in The Twilight Zone (Bloody Disgusting)",
+    "url": "https://bloody-disgusting.com/editorials/3568626/annabelle-chucky-met-talky-tina-twilight-zone/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Twilight Zone: Planet of the Apes (fan edit)",
+   "kind": "short",
+   "year": 2004,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "homage",
+  "confidence": "documented",
+  "summary": "Fan editor Film Scalpel cut the 1968 feature down to a roughly 25-minute faux Twilight Zone episode.",
+  "sources": [
+   {
+    "title": "Remembering When Planet of the Apes Was Edited Into a 25-Minute Twilight Zone Episode (SYFY Wire)",
+    "url": "https://www.syfy.com/index%2ephp/syfy-wire/remembering-when-planet-of-the-apes-was-edited-into-twilight-zone-episode"
+   },
+   {
+    "title": "Twilight Zone: Planet of the Apes (Film Scalpel)",
+    "url": "https://filmscalpel.com/twilight-zone-planet-of-the-apes"
+   },
+   {
+    "title": "Planet of the Apes as a Twilight Zone episode (Boing Boing)",
+    "url": "https://boingboing.net/2004/08/24/planet-of-the-apes-a.html"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Twilight Zone: SF - Why Is Everybody Here? (Killing My Lobster)",
+   "kind": "web-series",
+   "year": null,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "1959/where-is-everybody",
+  "kind": "parody",
+  "confidence": "documented",
+  "summary": "San Francisco sketch troupe Killing My Lobster flips the pilot episode's empty-town premise into a joke about a city where no one seems to be at work.",
+  "sources": [
+   {
+    "title": "Killing My Lobster's Twilight Zone: SF Video Wonders Why No One In The City Works (7x7)",
+    "url": "https://www.7x7.com/amp/killing-my-lobsters-twilight-zone-sf-video-wonders-why-no-one-in-the-c-1781341761"
+   },
+   {
+    "title": "Twilight Zone San Francisco: Why Is Everybody Here? (Laughing Squid)",
+    "url": "https://laughingsquid.com/twilight-zone-san-francisco-why-is-everybody-here/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Life (SNOT)",
+   "kind": "music-video",
+   "year": null,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "homage",
+  "confidence": "documented",
+  "summary": "Complex describes the rapper's ominous visuals for the song as going full Twilight Zone.",
+  "sources": [
+   {
+    "title": "SNOT goes full Twilight Zone in the new ominous visuals for his song Life (Complex)",
+    "url": "https://www.complex.com/music/a/j-rose/snot-life-video-stream"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Show Us Your Mind (Summer Cannibals)",
+   "kind": "music-video",
+   "year": null,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "homage",
+  "confidence": "documented",
+  "summary": "Nerdist premiered the Portland band's video, which it says goes full Twilight Zone.",
+  "sources": [
+   {
+    "title": "Premiere: Summer Cannibals Go Full Twilight Zone in Their Show Us Your Mind Video (Nerdist)",
+    "url": "https://archive.nerdist.com/premiere-summer-cannibals-go-full-twilight-zone-in-their-show-us-your-mind-video"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "See You There (Psychic Ills)",
+   "kind": "music-video",
+   "year": 2013,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "homage",
+  "confidence": "documented",
+  "summary": "SPIN framed the psych-rock band's alien-encounter video as a Twilight Zone-style vignette.",
+  "sources": [
+   {
+    "title": "Psychic Ills Twilight Zone See You There video (SPIN)",
+    "url": "https://www.spinmagazine.com/2013/08/psychic-ills-twilight-zone-see-you-there-video-alien/"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Reap What You Sow",
+   "kind": "short",
+   "year": null,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "homage",
+  "confidence": "documented",
+  "summary": "An animated fan film made in the style of a Twilight Zone episode, spotlighted by Dread Central.",
+  "sources": [
+   {
+    "title": "Video: You'll Love This Animated TWILIGHT ZONE Fan Film Reap What You Sow (Dread Central)",
+    "url": "https://www.dreadcentral.com/news/369317/video-youll-love-this-animated-twilight-zone-fan-film-reap-what-you-sow"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "The Mysterious Disappearance of M.M. Bayliss",
+   "kind": "short",
+   "year": null,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "homage",
+  "confidence": "documented",
+  "summary": "A short film GeekTyrant highlighted as Twilight Zone-inspired.",
+  "sources": [
+   {
+    "title": "Twilight Zone Inspired Short - The Mysterious Disappearance of M.M. Bayliss (GeekTyrant)",
+    "url": "https://geektyrant.com/news/twilight-zone-inspired-short-the-mysterious-disappearance-of-mm-bayliss"
+   }
+  ]
+ },
+ {
+  "work": {
+   "title": "Twilight Zone opening monologues supercut",
+   "kind": "short",
+   "year": null,
+   "directors": [],
+   "ids": {}
+  },
+  "to": "series/1959",
+  "kind": "homage",
+  "confidence": "documented",
+  "summary": "A fan-made video syncs nearly every one of Serling's opening monologues so they land on the same moment at once.",
+  "sources": [
+   {
+    "title": "Nearly Every THE TWILIGHT ZONE Opening Monologue Synced to Land on the Perfect Moment (Dread Central)",
+    "url": "https://dreadcentral.com/news/292308/nearly-every-the-twilight-zone-opening-monologue-synced-to-land-on-the-perfect-moment"
+   }
+  ]
+ }
+]

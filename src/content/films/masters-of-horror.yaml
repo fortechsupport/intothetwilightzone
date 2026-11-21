@@ -1,0 +1,15 @@
+title: Masters of Horror
+kind: tv-series
+summary: Showtime anthology of hour films by well-known horror directors.
+release_date: '2005'
+sources:
+- title: 'Wikipedia: Anthology series'
+  url: https://en.wikipedia.org/wiki/Anthology_series
+research_confidence: medium
+relevance: tangential
+tags:
+- anthology-family
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Masters_of_Horror
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,32 @@
+title: Grace Note
+series: '1985'
+season: 1
+episode: '23b'
+air_date: '1986-04-04'
+runtime_min: 20
+writers:
+- Patrice Messina
+directors:
+- Peter Medak
+cast:
+- Julia Migenes
+narrator: Charles Aidman
+synopsis: A gifted singer who set aside her dreams to care for her family is given a glimpse of the celebrated career
+  she might have had, and of what it would cost.
+themes:
+- family
+- music
+- sacrifice
+ids:
+  imdb: tt0734731
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Grace_Note_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

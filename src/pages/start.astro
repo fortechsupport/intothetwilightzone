@@ -1,0 +1,76 @@
+---
+import Base from '../layouts/Base.astro';
+import { fanPaths, resolvePath, SERIES_LABEL } from '../lib/fan';
+import { allEpisodes } from '../lib/data';
+const eps = await allEpisodes();
+const counts = Object.fromEntries(Object.keys(SERIES_LABEL).map((s) => [s, eps.filter((e) => e.data.series === s).length]));
+const first = fanPaths().find((p) => p.slug === 'first-ten')!;
+const firstSteps = await resolvePath(first);
+const others = await Promise.all(fanPaths().filter((p) => p.slug !== 'first-ten').map(async (p) => ({ p, n: (await resolvePath(p)).length })));
+---
+<Base title="Start here" description="New to The Twilight Zone? What the show is, which series to start with, the first ten episodes to watch, and how to use this site.">
+  <section class="hero">
+    <p class="kicker">New to the Zone?</p>
+    <h1>Start here</h1>
+    <p class="lead">
+      The Twilight Zone is an anthology: every episode is a self-contained story with new characters, so you can
+      start anywhere. Rod Serling created it for CBS in 1959, wrote most of the first series and introduced every
+      episode on camera. It has been revived three times since, and its ideas turn up in films, songs, books and
+      everyday speech.
+    </p>
+  </section>
+
+  <h2>The four television series</h2>
+  <div class="grid">
+    {Object.entries(SERIES_LABEL).map(([s, label]) => (
+      <a class="card" href={`/series/${s}/`}>
+        <span class="count">{counts[s]}</span>
+        <h3>{label}</h3>
+        <p>{{
+          '1959': 'Black and white, mostly half an hour, five seasons on CBS. Where everyone should begin.',
+          '1985': 'The CBS revival, in colour, with stories by Harlan Ellison, Stephen King, Ray Bradbury and others.',
+          '2002': 'A single season on UPN hosted by Forest Whitaker, including sequels and remakes of classics.',
+          '2019': "Jordan Peele's two seasons for CBS All Access, which he hosts in Serling's place.",
+        }[s]}</p>
+      </a>
+    ))}
+  </div>
+  <p class="small muted">There is also Rod Serling's second anthology, <a href="/night-gallery/">Night Gallery</a> (1970 to 1973), a 1983 <a href="/movies/">feature film</a>, radio dramas and podcasts.</p>
+
+  <h2>Your first ten episodes</h2>
+  <p>{first.short} <a href={`/paths/${first.slug}/`}>See the full path with notes</a> · <span class="path-progress small" data-progress={firstSteps.map((s) => `episodes/${s.e.id}`).join(' ')}></span></p>
+  <ol class="path-steps compact">
+    {firstSteps.map((s) => (
+      <li data-mark={`episodes/${s.e.id}`}><a class="step-title" href={`/episodes/${s.e.id}/`}>{s.e.data.title}</a> <span class="muted small">({s.e.data.air_date?.slice(0, 4)})</span><span class="seen-mark" aria-hidden="true"></span><br /><span class="small">{s.note}</span></li>
+    ))}
+  </ol>
+
+  <h2>Then pick a path</h2>
+  <ul class="plain">
+    {others.map(({ p, n }) => <li><a href={`/paths/${p.slug}/`}><strong>{p.title}</strong></a> <span class="muted small">({n} episodes)</span><br /><span class="small">{p.short}</span></li>)}
+  </ul>
+
+  <h2>Ways to explore</h2>
+  <div class="grid">
+    <a class="card" href="/finder/"><h3>Episode finder</h3><p>Filter every episode by series, season, decade, writer, director, actor and theme at once.</p></a>
+    <a class="card" href="/today/"><h3>Episode of the day</h3><p>A different episode every day, plus everything that first aired on today's date.</p></a>
+    <a class="card" href="/my-zone/"><h3>My Zone</h3><p>Your watched, owned and wanted checklist, kept in this browser with no account.</p></a>
+    <a class="card" href="/map/"><h3>Map</h3><p>Filming locations, backlots, Serling's places, attractions and museums.</p></a>
+    <a class="card" href="/timeline/"><h3>Timeline</h3><p>The franchise year by year, from 1959 to today.</p></a>
+    <a class="card" href="/degrees/"><h3>Six degrees</h3><p>How any two people in the Zone are connected through the episodes they made.</p></a>
+  </div>
+
+  <h2>Where to watch</h2>
+  <p>
+    Every episode page links to JustWatch and Reelgood, which list current streaming, free-with-ads, rental and
+    purchase options in your country. The original series has also been released on DVD and Blu-ray many times;
+    each <a href="/series/1959/#releases">series page</a> lists its home-media releases.
+  </p>
+
+  <h2>About spoilers</h2>
+  <p>
+    Episode synopses here set up the story without giving away the ending. Where an ending is described, it is hidden
+    behind a <strong>Reveal how it ends</strong> button. You can show every ending site-wide with the spoiler switch,
+    and the site remembers your choice.
+  </p>
+</Base>

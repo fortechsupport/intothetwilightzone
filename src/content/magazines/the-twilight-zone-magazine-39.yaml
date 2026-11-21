@@ -1,0 +1,33 @@
+title: 'The Twilight Zone Magazine, #39'
+magazine: The Twilight Zone Magazine
+cover_date: Dec 1985
+order: 39
+publisher: TZ Publications, Inc.
+editor: Michael Blaine
+description: 'December 1985 issue, edited by Michael Blaine. Fiction: "The Vampire Lestat (excerpt, continued)"
+  by Anne Rice; "Fade to Black" by A.M. Ronning; "I Don''t Know Why She Swallowed the Fly" by Jon Cohen; "Why the
+  Stranger Dreams" by Randall Silvis; "Paladin of the Lost Hour" by Harlan Ellison; "Dwindling" by Annette Hard;
+  "Give Us a Big Smile" by Charles L. Grant. Features: Special CBS Twilight Zone preview section on the 1985 revival:
+  Starbursts; Adventures in the Scream Trade; Real Tube Terror; Ellison''s Rules (Ben Herndon); Talking Twilight
+  Zone (Carol Serling talks with producer Philip DeGuere); Movie Preview: The Doctor and the Devils; Show-by-Show
+  Guide to ''Night Gallery'', Part Five (series by Kathryn M. Drennan and J. Michael Straczynski); Stephen King
+  interview (interviewer not identified in OCR). Teleplay: "A Thing About Machines" by Rod Serling (A Thing About
+  Machines (original series, Season 2, 1960)). Regular columns: Books (Doc Kennedy); Illuminations (Peter Rondinone);
+  TZ Tech (Robert Edelstein); TZ Video (Welch Everman); Screen (Gahan Wilson); TZ Terror (F. Paul Wilson). Vol.
+  5 No. 5. Ellison''s ''Paladin of the Lost Hour'' was adapted as a 1985 revival episode. Contents-page OCR is jumbled,
+  so several feature bylines are uncertain and omitted.'
+episodes:
+- 1959/a-thing-about-machines
+- 1985/paladin-of-the-lost-hour
+links:
+  isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60199
+research_confidence: medium
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+- title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
+    is in copyright.
+last_verified: '2026-11-20'
+locked: true

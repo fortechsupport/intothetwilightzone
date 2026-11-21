@@ -1,0 +1,32 @@
+title: Street of Shadows
+series: '1985'
+season: 3
+episode: '18'
+air_date: '1989-01-21'
+runtime_min: 22
+writers:
+- Michael Reaves
+directors:
+- Ryszard Bugajski
+cast:
+- Charles Haid
+- Marla Lukofsky
+- Lisa Jakub
+narrator: Robin Ward
+synopsis: A homeless man breaks into a wealthy family's home for shelter and wakes up to find himself living the
+  owner's life, with a family who treat him as their own.
+themes:
+- class
+- identity
+- poverty
+ids:
+  imdb: tt0734738
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Street_of_Shadows_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

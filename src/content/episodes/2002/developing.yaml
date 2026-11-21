@@ -1,0 +1,32 @@
+title: Developing
+series: '2002'
+season: 1
+episode: '39'
+air_date: '2003-04-30'
+runtime_min: 22
+production_code: '141'
+writers:
+- Moira Kirland Dekker
+directors:
+- Allison Liddi-Brown
+cast:
+- Robin Tunney
+- Malik Yoba
+narrator: Forest Whitaker
+synopsis: A grieving photographer starts finding her late fiancé in pictures that could not possibly contain him,
+  and the images seem to be telling her something.
+themes:
+- ghosts
+- grief
+- photography
+ids:
+  imdb: tt0734778
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: The Twilight Zone (2002) season 1 - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+last_verified: '2026-11-19'
+locked: true

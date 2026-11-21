@@ -1,0 +1,21 @@
+name: David Lynch
+roles:
+- director
+- writer
+born: '1946-01-20'
+died: '2025-01-15'
+bio: >-
+  David Lynch directed Mulholland Drive (2001), which critics have ranked among the great Twilight Zone- style films
+  for its dream logic and identity-swapping Hollywood mystery. His work includes Eraserhead, The Elephant Man, Blue
+  Velvet and Twin Peaks, and he received an honorary Academy Award in 2019.
+relevance: tangential
+sources:
+- title: David Lynch - Wikipedia
+  url: https://en.wikipedia.org/wiki/David_Lynch
+- title: 10 Great Twilight Zone Style Movies - Flickering Myth
+  url: https://www.flickeringmyth.com/10-great-twilight-zone-style-movies/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/directors
+- people/writers

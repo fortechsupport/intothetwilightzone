@@ -1,0 +1,22 @@
+title: 'The Twilight Zone Magazine, #12'
+magazine: The Twilight Zone Magazine
+cover_date: Mar 1982
+order: 12
+publisher: TZ Publications, Inc.
+editor: T.E.D. Klein
+description: March 1982 issue spotlighting Fritz Leiber, with his story 'The Man Who Never Grew Young'
+  and an interview by Paul Sammon, plus Ed Naha's preview of John Carpenter's 'The Thing' and fiction
+  by Ron Goulart and Steve Rasnic Tem. It ran part twelve of Zicree's guide and Serling's teleplay 'A
+  Passage for Trumpet'.
+episodes:
+- 1959/a-passage-for-trumpet
+links:
+  isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60184
+research_confidence: high
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 12'
+  url: https://twilightzonevortex.blogspot.com/2019/02/reading-rod-serlings-twilight-zone.html
+last_verified: '2026-11-19'
+locked: true

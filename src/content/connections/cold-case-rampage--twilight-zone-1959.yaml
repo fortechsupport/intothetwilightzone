@@ -1,0 +1,12 @@
+from: films/cold-case-rampage
+to: series/1959
+kind: homage
+confidence: fan-noted
+summary: Two children open the episode by spoofing the show's opening narration.
+sources:
+- title: 'Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: Only the fan-run Twilight Zone Wiki list records the narration spoof; no published
+  source was found. Children spoofing the narration is a parody or reference rather than an homage.'

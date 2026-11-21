@@ -1,0 +1,20 @@
+name: Brenda
+kind: human
+played_by:
+- Laurie Prange
+appears_in:
+- films/night-gallery-s2e07
+description: >-
+  A difficult, lonely girl spending the summer on an island who traps a shaggy creature in a pit and later befriends
+  it, in an adaptation of Margaret St. Clair's story.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

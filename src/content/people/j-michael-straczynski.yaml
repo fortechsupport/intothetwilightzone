@@ -1,0 +1,56 @@
+name: J. Michael Straczynski
+roles:
+- writer
+- story editor
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: Season 3
+  role: story editor
+- series: The Twilight Zone (1985)
+  work: 11 episodes
+  role: writer
+- series: The Twilight Zone (1985)
+  work: The Curious Case of Edgar Witherspoon
+  role: writer
+  ref: 1985/the-curious-case-of-edgar-witherspoon
+- series: The Twilight Zone (1985)
+  work: Dream Me a Life
+  role: writer
+  ref: 1985/dream-me-a-life
+- series: The Twilight Zone (1985)
+  work: Our Selena is Dying
+  role: writer
+  ref: 1985/our-selena-is-dying
+- series: The Twilight Zone (1985)
+  work: The Call
+  role: writer
+  ref: 1985/the-call
+- series: The Twilight Zone (1985)
+  work: The Mind of Simon Foster
+  role: writer
+  ref: 1985/the-mind-of-simon-foster
+- series: The Twilight Zone (1985)
+  work: The Wall
+  role: writer
+  ref: 1985/the-wall
+born: '1954-07-17'
+bio: >-
+  J. Michael Straczynski joined the 1985 revival for its Canadian-produced syndicated third season, first
+  as a story editor and then as its sole story editor, and wrote more of that season's episodes than anyone
+  else, including The Curious Case of Edgar Witherspoon, Dream Me a Life and The Wall. He went on to create
+  Babylon 5, co-create Sense8 and write the screenplay for Changeling, as well as long runs on Marvel
+  comics.
+sources:
+- title: The Twilight Zone (1985 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
+- title: J. Michael Straczynski - Wikipedia
+  url: https://en.wikipedia.org/wiki/J._Michael_Straczynski
+last_verified: '2026-11-19'
+media:
+- title: 'J. Michael Straczynski interview, The Interviews: An Oral History of Television'
+  url: https://interviews.televisionacademy.com/interviews/j-michael-straczynski
+  host: Television Academy Foundation
+  type: interview
+  rights: link-only
+categories:
+- people/writers

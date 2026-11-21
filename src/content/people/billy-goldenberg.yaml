@@ -1,0 +1,36 @@
+name: Billy Goldenberg
+roles:
+- composer
+bio: Composer of the theme and score for the 1969 Night Gallery pilot film.
+tz_credits:
+- series: Night Gallery
+  work: Night Gallery (1969 pilot film)
+  role: composer
+  ref: films/night-gallery-pilot
+- series: Night Gallery (1969-1973)
+  work: Pilot film (1969) main title and score
+- series: Night Gallery (1969-1973)
+  work: The Cemetery
+- series: Night Gallery (1969-1973)
+  work: Eyes
+- series: Night Gallery (1969-1973)
+  work: The Escape Route
+- series: Night Gallery (1969-1973)
+  work: Four in One wheel fanfare
+sources:
+- title: 'Wikipedia: Night Gallery (film)'
+  url: https://en.wikipedia.org/wiki/Night_Gallery_(film)
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+- title: NightGallery.net – Music
+  url: https://nightgallery.net/music
+- title: Socialist Jazz – The soundtrack composers in Night Gallery
+  url: https://socialistjazz.blogspot.com/2016/05/the-soundtrack-composers-in-night.html
+- title: 'Confluence Film Blog – Soundtrack Spotlight #2: Night Gallery (Billy Goldenberg)'
+  url: https://confluencefilmblog.blogspot.com/2010/07/soundtrack-spotlight-2-night-gallery.html
+- title: The Extras – Night Gallery, The UFO Incident, and Composer Billy Goldenberg
+  url: https://www.theextras.tv/podcasts/blog-post-billyg-082222
+research_confidence: medium
+relevance: related
+last_verified: '2026-11-20'
+locked: true

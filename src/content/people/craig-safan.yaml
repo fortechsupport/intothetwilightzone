@@ -1,0 +1,42 @@
+name: Craig Safan
+bio: >-
+  Film and TV composer (The Last Starfighter, Cheers) and the most prolific contributor to the 1985 series on record,
+  with seven scores on the Intrada set.
+roles:
+- composer
+tz_credits:
+- series: The Twilight Zone (1985-1989)
+  work: Dead Woman's Shoes
+  ref: 1985/dead-womans-shoes
+- series: The Twilight Zone (1985-1989)
+  work: Wong's Lost and Found Emporium
+  ref: 1985/wongs-lost-and-found-emporium
+- series: The Twilight Zone (1985-1989)
+  work: The Uncle Devil Show
+  ref: 1985/the-uncle-devil-show
+- series: The Twilight Zone (1985-1989)
+  work: Opening Day
+  ref: 1985/opening-day
+- series: The Twilight Zone (1985-1989)
+  work: To See the Invisible Man
+  ref: 1985/to-see-the-invisible-man
+- series: The Twilight Zone (1985-1989)
+  work: Tooth and Consequences
+  ref: 1985/tooth-and-consequences
+- series: The Twilight Zone (1985-1989)
+  work: Teacher's Aide
+  ref: 1985/teachers-aide
+relevance: core
+research_confidence: high
+last_verified: '2026-11-20'
+sources:
+- title: Intrada – The Twilight Zone (3CD) ISC 348
+  url: https://store.intrada.com/s.nl/it.A/id.10063/.f
+- title: SoundtrackCollector – Twilight Zone (1985) composers
+  url: https://www.soundtrackcollector.com/title/28972/Twilight+Zone
+- title: 'Wikipedia: Craig Safan'
+  url: https://en.wikipedia.org/wiki/Craig_Safan
+- title: 'Sci-Fi-Movies: The Twilight Zone (1985) credits'
+  url: https://www.scifi-movies.com/en/credits/0000456/the-twilight-zone-1985/
+categories:
+- people/composers

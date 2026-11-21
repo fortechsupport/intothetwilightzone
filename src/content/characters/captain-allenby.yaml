@@ -1,0 +1,21 @@
+name: Captain Allenby
+aka: []
+kind: human
+played_by:
+- John Dehner
+appears_in:
+- 1959/the-lonely
+description: >-
+  The commander of the supply ship who brings Corry the robot Alicia out of compassion. When the pardon comes and
+  the weight limit leaves no room for her, he shoots Alicia so that Corry will come home.
+recurring: false
+relevance: core
+sources:
+- title: The Lonely (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Lonely
+- title: 'The Twilight Zone: The Lonely - IMDb'
+  url: https://www.imdb.com/title/tt0734656/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

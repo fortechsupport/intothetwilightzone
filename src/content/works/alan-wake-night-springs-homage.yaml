@@ -1,0 +1,22 @@
+title: 'Alan Wake: ''Night Springs'' in-game TV series'
+kind: game
+year: 2010
+creator: Remedy Entertainment
+publisher: Microsoft Game Studios
+description: >-
+  Alan Wake has a fictional anthology TV show, Night Springs, playing on in-world televisions as short live-action
+  episodes, with a narrator's intro and outro in the style of Rod Serling. Remedy brought it back across the Alan
+  Wake games and in Control.
+subtype: video-game-homage
+details:
+  licensed: false
+relevance: tangential
+research_confidence: high
+categories:
+- games/game-homages
+sources:
+- title: 'TV Tropes: Shout Out / Alan Wake'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ShoutOut/AlanWake
+- title: 'IMDb: Alan Wake movie connections'
+  url: https://www.imdb.de/title/tt0466662/movieconnections/
+last_verified: '2026-11-20'

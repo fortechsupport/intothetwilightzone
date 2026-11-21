@@ -1,0 +1,87 @@
+name: Richard Matheson
+roles:
+- writer
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: 16 episodes
+  role: writer
+- series: The Twilight Zone (1959)
+  work: The Last Flight
+  role: writer
+  ref: 1959/the-last-flight
+- series: The Twilight Zone (1959)
+  work: Third from the Sun
+  role: writer
+  ref: 1959/third-from-the-sun
+- series: The Twilight Zone (1959)
+  work: Nick of Time
+  role: writer
+  ref: 1959/nick-of-time
+- series: The Twilight Zone (1959)
+  work: The Invaders
+  role: writer
+  ref: 1959/the-invaders
+- series: The Twilight Zone (1959)
+  work: Little Girl Lost
+  role: writer
+  ref: 1959/little-girl-lost
+- series: The Twilight Zone (1959)
+  work: Steel
+  role: writer
+  ref: 1959/steel
+- series: The Twilight Zone (1959)
+  work: Nightmare at 20,000 Feet
+  role: writer
+  ref: 1959/nightmare-at-20-000-feet
+- series: The Twilight Zone (1985)
+  work: Button, Button
+  role: writer (as Logan Swanson)
+  ref: 1985/button-button
+- series: 'Twilight Zone: The Movie (1983)'
+  work: Kick the Can, It's a Good Life and Nightmare at 20,000 Feet segments
+  role: screenwriter
+  ref: films/twilight-zone-the-movie
+born: '1926-02-20'
+died: '2013-06-23'
+bio: >-
+  Richard Matheson wrote 16 episodes of the original Twilight Zone, among them Nightmare at 20,000 Feet,
+  Steel, Little Girl Lost and The Invaders, and he wrote or co-wrote the screenplays for the Kick the
+  Can, It's a Good Life and Nightmare at 20,000 Feet segments of Twilight Zone: The Movie. He later expanded
+  a Serling outline into The Theatre for the 1994 TV film Rod Serling's Lost Classics, and his story Button,
+  Button became an episode of the 1985 revival under his pseudonym Logan Swanson. Outside the Zone he
+  was one of the most influential fantasy and horror writers of his century, author of I Am Legend, The
+  Shrinking Man and Hell House and the writer of Spielberg's Duel.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Richard_Matheson
+sources:
+- title: Richard Matheson - Wikipedia
+  url: https://en.wikipedia.org/wiki/Richard_Matheson
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+last_verified: '2026-11-19'
+media:
+- title: 'Richard Matheson interview, The Interviews: An Oral History of Television'
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  host: Television Academy Foundation
+  type: interview
+  rights: link-only
+- title: Remembering Richard Matheson
+  url: https://interviews.televisionacademy.com/news/remembering-richard-matheson
+  host: Television Academy Foundation
+  date: 2013-06
+  type: article
+  rights: link-only
+- title: Richard Matheson (1926-2013)
+  url: https://locusmag.com/2013/06/richard-matheson-1926-2013
+  host: Locus
+  date: 2013-06
+  type: article
+  rights: link-only
+- title: Richard Matheson, prolific writer known for Twilight Zone, Duel, much more
+  url: https://www.emmys.com/news/news/richard-matheson-prolific-writer-known-twilight-zone-duel-much-more
+  host: Television Academy
+  date: 2013-06
+  type: article
+  rights: link-only
+categories:
+- people/writers

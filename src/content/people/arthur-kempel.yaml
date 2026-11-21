@@ -1,0 +1,14 @@
+name: Arthur Kempel
+bio: Film and TV composer who scored the Ray Bradbury adaptation in the revival.
+roles:
+- composer
+tz_credits:
+- series: The Twilight Zone (1985-1989)
+  work: The Elevator
+  ref: 1985/the-elevator
+relevance: core
+research_confidence: high
+sources:
+- title: Intrada – The Twilight Zone (3CD) ISC 348
+  url: https://store.intrada.com/s.nl/it.A/id.10063/.f
+last_verified: '2026-11-20'

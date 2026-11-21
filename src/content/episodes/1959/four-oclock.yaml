@@ -1,0 +1,42 @@
+title: Four O'Clock
+series: '1959'
+season: 3
+episode: '29'
+air_date: '1962-04-06'
+runtime_min: 25
+production_code: '4832'
+writers:
+- Rod Serling
+writing_credit_note: Teleplay by Rod Serling; based on the short story "Four O'Clock" by Price Day
+source_authors:
+- Price Day
+directors:
+- Lamont Johnson
+cast:
+- Theodore Bikel
+- Phyllis Love
+- Linden Chiles
+narrator: Rod Serling
+synopsis: A fanatical crank keeps files on everyone he considers wicked and phones in anonymous accusations. Now
+  he has devised a plan to mark all the evil people in the world at once, and the deadline he has set is four o'clock
+  this afternoon.
+themes:
+- fanaticism
+- judgment
+- obsession
+- self-righteousness
+ids:
+  imdb: tt0734570
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Four_O%27Clock
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+- title: The Twilight Zone Vortex - Four O'Clock
+  url: https://twilightzonevortex.blogspot.com/2017/07/four-oclock.html
+last_verified: '2026-11-19'
+locked: true

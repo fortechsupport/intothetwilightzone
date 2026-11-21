@@ -1,0 +1,20 @@
+name: Stephen Brigham
+kind: human
+played_by:
+- Louis Hayward
+appears_in:
+- films/night-gallery-s1e03
+description: >-
+  A doctor who poisons his invalid sister Emma for her money. Her shadow then appears on the wall of the house and
+  will not go away.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

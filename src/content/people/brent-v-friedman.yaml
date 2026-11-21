@@ -1,0 +1,30 @@
+name: Brent V. Friedman
+roles:
+- writer
+tz_credits:
+- series: The Twilight Zone (2002)
+  work: 5 episodes
+  role: writer
+- series: The Twilight Zone (2002)
+  work: Azoth the Avenger Is a Friend of Mine
+  role: writer
+  ref: 2002/azoth-the-avenger-is-a-friend-of-mine
+- series: The Twilight Zone (2002)
+  work: Mr. Motivation
+  role: writer
+  ref: 2002/mr-motivation
+- series: The Twilight Zone (2002)
+  work: Another Life
+  role: writer
+  ref: 2002/another-life
+- series: The Twilight Zone (2002)
+  work: The Placebo Effect
+  role: writer
+  ref: 2002/the-placebo-effect
+bio: >-
+  Brent V. Friedman wrote several episodes of the 2002 UPN revival, among them Azoth the Avenger Is a
+  Friend of Mine, Mr. Motivation, Another Life and The Placebo Effect.
+sources:
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'

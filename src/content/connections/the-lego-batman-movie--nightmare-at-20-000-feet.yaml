@@ -1,0 +1,10 @@
+from: films/the-lego-batman-movie
+to: 1959/nightmare-at-20-000-feet
+kind: homage
+confidence: documented
+evidence: Wikipedia's episode page lists a gremlins-attack-a-plane gag in the film as a nod to the episode.
+sources:
+- title: Nightmare at 20,000 Feet (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+last_verified: '2026-11-19'
+locked: true

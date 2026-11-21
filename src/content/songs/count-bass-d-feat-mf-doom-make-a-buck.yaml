@@ -1,0 +1,16 @@
+title: Make a Buck
+artist: Count Bass D feat. MF DOOM
+album: Dwight Spitz
+genre: hip-hop
+year: 2002
+tz_connection: reference
+description: The track samples a Twilight Zone scene of a character out of work and wondering what to do next, fitting
+  the song's money-hustle theme.
+subtype: sample
+sources:
+- title: whosampled.com
+  url: https://www.whosampled.com/sample/379677/Count-Bass-D-MF-DOOM-Make-a-Buck-The-Twilight-Zone-No-Job,-Now-What%3F/
+- title: Wikipedia
+  url: https://en.wikipedia.org/wiki/Dwight_Spitz
+research_confidence: medium
+last_verified: '2026-11-19'

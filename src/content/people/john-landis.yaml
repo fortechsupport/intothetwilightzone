@@ -1,0 +1,33 @@
+name: John Landis
+roles:
+- producer
+- director
+- writer
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: 'Twilight Zone: The Movie'
+  role: producer
+  ref: films/twilight-zone-the-movie
+- series: 'Twilight Zone: The Movie (1983)'
+  work: Prologue and epilogue
+  role: writer/director
+  ref: films/twilight-zone-the-movie
+- series: 'Twilight Zone: The Movie (1983)'
+  work: Time Out segment
+  role: writer/director
+  ref: films/twilight-zone-the-movie
+born: '1950-08-03'
+bio: >-
+  John Landis co-produced Twilight Zone: The Movie with Steven Spielberg and wrote and directed both its
+  prologue, with Dan Aykroyd and Albert Brooks, and its first segment, Time Out, about a bigot forced
+  to experience persecution. During filming on July 23, 1982, a helicopter crash on his set killed actor
+  Vic Morrow and two child actors, Myca Dinh Le and Renee Shin-Yi Chen, who had been hired in violation
+  of child-labor law. Landis and four others were tried for manslaughter and acquitted in 1987; the tragedy
+  changed safety practice across the industry. He is otherwise known for comedies such as Animal House
+  and The Blues Brothers and for An American Werewolf in London.
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+- title: John Landis - Wikipedia
+  url: https://en.wikipedia.org/wiki/John_Landis
+last_verified: '2026-11-19'

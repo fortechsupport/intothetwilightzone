@@ -1,0 +1,25 @@
+name: Howard E. Johnson
+roles:
+- art director
+tz_credits:
+- series: Night Gallery
+  work: Night Gallery (pilot)
+  role: art director
+  ref: films/night-gallery-pilot
+- series: Night Gallery
+  work: Night Gallery
+  role: art director
+  ref: films/night-gallery
+bio: >-
+  Howard E. Johnson was art director of the 1969 Night Gallery pilot film and of episodes of the series at Universal.
+  He was a longtime Universal art director in film and television.
+sources:
+- title: 'Sci-Fi-Movies: Night Gallery (1969 pilot) credits'
+  url: https://www.scifi-movies.com/en/credits/0000775/night-gallery-1969/
+- title: 'Sci-Fi-Movies: Night Gallery (1970-73) series credits'
+  url: https://www.scifi-movies.com/en/credits/0002782/night-gallery-1969/
+research_confidence: low
+relevance: related
+last_verified: '2026-11-20'
+categories:
+- people/directors

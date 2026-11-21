@@ -1,0 +1,20 @@
+name: Tom Bennett
+kind: human
+played_by:
+- Paul Le Mat
+appears_in:
+- 1985/appointment-on-route-17
+description: >-
+  A driven businessman who receives a heart transplant and takes on the feelings of its donor. He is drawn to a
+  roadside diner and to a waitress grieving her late boyfriend.
+recurring: false
+relevance: core
+sources:
+- title: Appointment on Route 17 (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Appointment_on_Route_17
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

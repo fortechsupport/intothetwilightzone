@@ -1,0 +1,20 @@
+name: George Miller
+roles:
+- director
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: Nightmare at 20,000 Feet segment
+  role: director
+  ref: films/twilight-zone-the-movie
+born: '1945-03-03'
+bio: >-
+  Australian filmmaker George Miller, fresh from Mad Max 2, directed the final and most acclaimed segment
+  of Twilight Zone: The Movie, a remake of Nightmare at 20,000 Feet with John Lithgow as a terrified airline
+  passenger who sees a creature tearing at the wing. A former medical doctor, Miller went on to the Mad
+  Max: Fury Road saga, Babe and the Oscar-winning animated film Happy Feet.
+sources:
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+- title: George Miller (filmmaker) - Wikipedia
+  url: https://en.wikipedia.org/wiki/George_Miller_(filmmaker)
+last_verified: '2026-11-19'

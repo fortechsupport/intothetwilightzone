@@ -1,0 +1,17 @@
+title: SNAC – Serling, Rod, 1924-1975
+kind: link
+subtype: database
+publisher: Social Networks and Archival Context (SNAC) Cooperative
+description: Archival authority record that links out to every repository known to hold Serling material, a quick
+  way to find collections beyond Ithaca and Wisconsin.
+details:
+  status: active
+links:
+  official: https://snaccooperative.org/history/50707350/7411803
+sources:
+- title: snaccooperative.org
+  url: https://snaccooperative.org/history/50707350/7411803
+research_confidence: high
+last_verified: '2026-11-19'
+content_of:
+- people/rod-serling

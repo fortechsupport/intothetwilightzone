@@ -1,0 +1,20 @@
+name: Price
+kind: human
+played_by:
+- Scott Paulin
+appears_in:
+- 1985/nightcrawlers
+description: >-
+  A Vietnam veteran whose mind turns his memories and fears into reality, on a stormy night in a roadside diner.
+  William Friedkin directed the segment from a Robert R. McCammon story.
+recurring: false
+relevance: core
+sources:
+- title: Nightcrawlers (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Nightcrawlers_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,32 @@
+title: A Traveler
+series: '2019'
+season: 1
+episode: '4'
+air_date: '2019-04-18'
+runtime_min: 51
+writers:
+- Glen Morgan
+directors:
+- Ana Lily Amirpour
+cast:
+- Steven Yeun
+- Patrick Gallagher
+- Greg Kinnear
+narrator: Jordan Peele
+synopsis: On Christmas Eve at a remote Alaskan police station, where the captain hands out a holiday pardon each
+  year, a charming stranger who calls himself an extreme tourist turns up inside a locked holding cell.
+themes:
+- holidays
+- power
+- strangers
+ids:
+  imdb: tt9121554
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2019 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,32 @@
+name: John Badham
+born: '1939-08-25'
+roles:
+- director
+bio: >-
+  John Badham directed a run of Night Gallery segments in 1971-73, among them "The Boy Who Predicted Earthquakes,"
+  "Camera Obscura," "Green Fingers," "The Girl with the Hungry Eyes" and "The Doll of Death," and also directed
+  episodes of the companion series The Sixth Sense. He was one of the young directors Universal developed on its
+  television anthologies before moving to features. He went on to direct Saturday Night Fever, Dracula (1979), WarGames,
+  Blue Thunder, Short Circuit and Stakeout. His sister Mary Badham, the Scout of To Kill a Mockingbird, appeared
+  in the original Twilight Zone's "The Bewitchin' Pool."
+relevance: related
+sources:
+- title: John Badham - Wikipedia
+  url: https://en.wikipedia.org/wiki/John_Badham
+- title: Mary Badham - Wikipedia
+  url: https://en.wikipedia.org/wiki/Mary_Badham
+research_confidence: high
+last_verified: '2026-11-20'
+tags:
+- night-gallery
+tz_credits:
+- series: Night Gallery
+  work: Night Gallery (pilot)
+  role: associate producer
+  ref: films/night-gallery-pilot
+- series: Night Gallery
+  work: Night Gallery
+  role: associate producer
+  ref: films/night-gallery
+categories:
+- people/directors

@@ -1,0 +1,22 @@
+name: The Major
+aka: []
+kind: object
+played_by:
+- William Windom
+appears_in:
+- 1959/five-characters-in-search-of-an-exit
+description: >-
+  An army major who wakes in a huge, featureless cylinder with four others and no memory of how he got there. He
+  drives the group to build a human ladder and climbs out, only for the final shot to show that all five are dolls
+  in a Salvation Army-style collection barrel, and he has fallen into the snow.
+recurring: false
+relevance: core
+sources:
+- title: Five Characters in Search of an Exit (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Five_Characters_in_Search_of_an_Exit
+- title: 'The Twilight Zone: Five Characters in Search of an Exit - IMDb'
+  url: https://www.imdb.com/title/tt0734569/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

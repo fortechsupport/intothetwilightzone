@@ -1,0 +1,17 @@
+name: The bus depot in upstate New York
+kind: in-story
+filmed:
+- ref: 1959/mirror-image
+  note: The waiting room where Millicent Barnes meets her double.
+episodes:
+- 1959/mirror-image
+notes: An isolated bus station where Millicent Barnes waits for the bus to Cortland and keeps finding her suitcase
+  moved and her double in the restroom mirror. Fellow traveller Paul Grinstead is from Binghamton and is bound for
+  Syracuse; the place names are Serling nods to his home region.
+sources:
+- title: 'Wikipedia: Mirror Image (The Twilight Zone)'
+  url: https://en.wikipedia.org/wiki/Mirror_Image_(The_Twilight_Zone)
+research_confidence: high
+relevance: core
+last_verified: '2026-11-20'
+locked: true

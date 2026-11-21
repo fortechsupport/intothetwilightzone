@@ -1,0 +1,15 @@
+name: John Lewis
+bio: Pianist and musical director of the Modern Jazz Quartet, who scored two Night Gallery episodes.
+roles:
+- composer
+tz_credits:
+- series: Night Gallery (1969-1973)
+  work: A Death in the Family; an Aunt Ada conjuring segment
+relevance: related
+research_confidence: medium
+sources:
+- title: NightGallery.net – Music
+  url: https://nightgallery.net/music
+- title: Socialist Jazz – The soundtrack composers in Night Gallery
+  url: https://socialistjazz.blogspot.com/2016/05/the-soundtrack-composers-in-night.html
+last_verified: '2026-11-20'

@@ -1,0 +1,19 @@
+name: The Gatekeeper
+aka: []
+kind: human
+played_by:
+- Robert Foulk
+appears_in:
+- 1959/the-hunt
+description: The man at the first gate who invites Hyder in but not his dog. He is the keeper of Hell's entrance.
+recurring: false
+relevance: core
+sources:
+- title: The Hunt (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Hunt_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Hunt - IMDb'
+  url: https://www.imdb.com/title/tt0734646/
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

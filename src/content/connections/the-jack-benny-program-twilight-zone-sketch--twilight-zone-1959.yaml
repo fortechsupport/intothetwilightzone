@@ -1,0 +1,17 @@
+from: films/the-jack-benny-program-twilight-zone-sketch
+to: series/1959
+kind: parody
+confidence: documented
+summary: Rod Serling himself appears in a comic Twilight Zone sketch with Jack Benny.
+sources:
+- title: 'Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+- title: Rod Serling Played The Mayor Of The Twilight Zone On The Jack Benny Program (Slashfilm)
+  url: https://www.slashfilm.com/1481356/rod-serling-played-mayor-twilight-zone-jack-benny-program
+- title: 'The Jack Benny Program 13x16: Twilight Zone Sketch (TVmaze)'
+  url: https://www.tvmaze.com/episodes/946841/the-jack-benny-program-13x16-twilight-zone-sketch/castappearances
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Slashfilm describes the January 15, 1963 episode: Serling plays himself, then plays ''Mayor Twilight
+  Zone'' in a fog-bound sketch where Rochester doesn''t know Benny, and he closes with a joke about Benny''s perpetual
+  age of 39. It says CBS used the appearance to promote the show''s return that month.'

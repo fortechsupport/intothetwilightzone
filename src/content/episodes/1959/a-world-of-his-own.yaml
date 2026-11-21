@@ -1,0 +1,52 @@
+title: A World of His Own
+series: '1959'
+season: 1
+episode: '36'
+air_date: '1960-07-01'
+runtime_min: 25
+production_code: 173-3634
+writers:
+- Richard Matheson
+directors:
+- Ralph Nelson
+cast:
+- Keenan Wynn
+- Phyllis Kirk
+narrator: Rod Serling
+synopsis: Playwright Gregory West is entertaining an attractive woman at home when his wife walks in and catches them.
+  He then reveals a secret about his dictation machine and the characters he describes into it.
+themes:
+- comedy
+- creativity
+- imagination
+- marriage
+ids:
+  imdb: tt0734553
+links:
+  wikipedia: https://en.wikipedia.org/wiki/A_World_of_His_Own
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+last_verified: '2026-11-19'
+locked: true
+media:
+- type: interview
+  subtype: bonus-interview
+  title: 'Marc Scott Zicree interview: Richard Matheson (1978) (Blu-ray extra)'
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2010-09-14'
+  rights: licensed
+  note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "A World of His Own", based on a previously rejected pitch
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '1:11'

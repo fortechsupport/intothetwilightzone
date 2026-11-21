@@ -1,0 +1,13 @@
+from: films/galaxy-quest
+to: 1959/hocus-pocus-and-frisby
+kind: inspired-by
+confidence: fan-noted
+summary: Aliens mistake washed-up TV actors for real heroes, echoing the episode where visitors take a small-town
+  braggart's tall tales at face value; TopTenz lists the parallel.
+sources:
+- title: Top 10 Movies That Ripped Off The Twilight Zone (TopTenz)
+  url: https://www.toptenz.net/top-10-movies-that-ripped-off-the-twilight-zone.php
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: TopTenz''s ''ripped off'' listicle pairs Galaxy Quest with the episode; no writer
+  statement was found. The film''s own lineage is Star Trek fandom. Weak.'

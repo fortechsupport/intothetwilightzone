@@ -1,0 +1,20 @@
+name: The Girl
+kind: supernatural
+played_by:
+- Joanna Pettet
+appears_in:
+- films/night-gallery-s3e02
+description: >-
+  A nameless model whose photographs become irresistible. She is a vampire of attention, draining the men who are
+  drawn to her.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

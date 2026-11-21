@@ -1,0 +1,33 @@
+name: Jack Smight
+roles:
+- director
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: The Lonely
+  role: director
+  ref: 1959/the-lonely
+- series: The Twilight Zone (1959)
+  work: The Lateness of the Hour
+  role: director
+  ref: 1959/the-lateness-of-the-hour
+- series: The Twilight Zone (1959)
+  work: The Night of the Meek
+  role: director
+  ref: 1959/the-night-of-the-meek
+- series: The Twilight Zone (1959)
+  work: Twenty-Two
+  role: director
+  ref: 1959/twenty-two
+born: '1925'
+died: '2003'
+bio: >-
+  Jack Smight directed four episodes of the original series' first two seasons, including the desert-asteroid
+  love story The Lonely, the Christmas fable The Night of the Meek and the hospital nightmare Twenty-Two.
+  Coming out of live television drama, he moved on to features such as Harper (1966), No Way to Treat
+  a Lady, Airport 1975 and Midway.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Jack_Smight
+sources:
+- title: Jack Smight - Wikipedia
+  url: https://en.wikipedia.org/wiki/Jack_Smight
+last_verified: '2026-11-19'

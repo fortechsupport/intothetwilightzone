@@ -1,0 +1,36 @@
+title: The Changing of the Guard
+series: '1959'
+season: 3
+episode: '37'
+air_date: '1962-06-01'
+runtime_min: 25
+production_code: '4835'
+writers:
+- Rod Serling
+directors:
+- Robert Ellis Miller
+cast:
+- Donald Pleasence
+- Liam Sullivan
+- Buddy Joe Hooker
+narrator: Rod Serling
+synopsis: An elderly teacher at a New England boys' school is told just before Christmas that he is being retired.
+  Convinced his decades of teaching meant nothing, he walks out into the snowy night in despair.
+themes:
+- aging
+- christmas
+- legacy
+- teaching
+ids:
+  imdb: tt0734634
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Changing_of_the_Guard_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+last_verified: '2026-11-19'
+locked: true

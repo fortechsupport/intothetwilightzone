@@ -1,0 +1,16 @@
+from: films/austin-powers-international-man-of-mystery
+to: 1959/number-12-looks-just-like-you
+kind: reference
+confidence: fan-noted
+summary: TV Tropes traces Dr. Evil's pinky-to-the-mouth habit to Dr. Rex's mannerism in the episode.
+sources:
+- title: 'TV Tropes: Referenced By / The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+- title: Dr. Evil (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Dr._Evil
+last_verified: '2026-11-20'
+locked: true
+research_confidence: low
+evidence: 'Research note (2026-11-20): Wikipedia''s Dr. Evil article traces the pinky gesture to Lorne Michaels
+  (Dana Carvey''s claim). Myers credited Blofeld in You Only Live Twice as the main model. It says nothing about
+  The Twilight Zone.'

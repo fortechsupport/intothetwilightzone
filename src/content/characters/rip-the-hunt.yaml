@@ -1,0 +1,20 @@
+name: Rip
+aka: []
+kind: animal
+played_by: []
+appears_in:
+- 1959/the-hunt
+description: >-
+  Hyder Simpson's coonhound, who dies with him in the pond and whose instinct keeps him from the false gate. The
+  episode's ending turns on the loyalty between man and dog.
+recurring: false
+relevance: core
+sources:
+- title: The Hunt (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Hunt_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Hunt - IMDb'
+  url: https://www.imdb.com/title/tt0734646/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

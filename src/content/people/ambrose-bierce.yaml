@@ -1,0 +1,22 @@
+name: Ambrose Bierce
+born: '1842-06-24'
+died: '1914'
+roles:
+- author
+bio: >-
+  Ambrose Bierce wrote "An Occurrence at Owl Creek Bridge" (1890), the Civil War story of a hanged man's imagined
+  escape that Robert Enrico filmed in 1962; The Twilight Zone aired that film as an episode in 1964. A journalist
+  and satirist known for The Devil's Dictionary and his war stories, Bierce vanished in Mexico around 1914. His
+  stories are in the public domain.
+relevance: core
+sources:
+- title: Ambrose Bierce - Wikipedia
+  url: https://en.wikipedia.org/wiki/Ambrose_Bierce
+- title: An Occurrence at Owl Creek Bridge - Wikipedia
+  url: https://en.wikipedia.org/wiki/An_Occurrence_at_Owl_Creek_Bridge
+research_confidence: high
+last_verified: '2026-11-20'
+tags:
+- source-author
+categories:
+- people/writers

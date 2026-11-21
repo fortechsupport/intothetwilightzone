@@ -1,0 +1,24 @@
+name: Lynn Venable
+roles:
+- author
+bio: >-
+  Lynn Venable wrote "Time Enough at Last," the short story published in If magazine in January 1953 that became
+  the 1959 episode in which Burgess Meredith's bookworm survives a nuclear war only to break his glasses. The story,
+  credited as Lyn Venable in print, is one of the few she published; it is now in the public domain and available
+  from Project Gutenberg.
+relevance: core
+sources:
+- title: Lynn Venable (writer) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Lynn_Venable_(writer)
+media:
+- title: Time Enough at Last by Lyn Venable (full text)
+  url: https://www.gutenberg.org/ebooks/32633
+  host: Project Gutenberg
+  type: document
+  rights: link-only
+research_confidence: medium
+last_verified: '2026-11-20'
+tags:
+- source-author
+categories:
+- people/writers

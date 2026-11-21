@@ -1,0 +1,22 @@
+title: Primetime Emmy Award – Outstanding Achievement in Cinematography for Television (1961), George T. Clemens
+kind: event
+subtype: honor
+year: 1961
+description: George T. Clemens won the Primetime Emmy Award for Outstanding Achievement in Cinematography for Television
+  in 1961 for the original series.
+details:
+  result: won
+  recipient: George T. Clemens
+  honors:
+  - series/1959
+categories:
+- reviews/awards-citations
+research_confidence: high
+sources:
+- title: 'Wikipedia (mirror): The Twilight Zone (1959 TV series)'
+  url: https://troywiki.duckdns.org/content/wikipedia_en_all_maxi_2024-01/A/Twilight_Zone%2C_The_(1959)
+last_verified: '2026-11-20'
+locked: true
+organizations:
+- Television Academy
+creator: Television Academy

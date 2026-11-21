@@ -1,0 +1,12 @@
+name: University of Kansas
+kind: school
+location: Lawrence, Kansas, USA
+description: James Gunn's science-fiction teaching program at the university filmed an interview with Serling in
+  1970 for a series on science fiction in literature; the film was never finished, and its audio was later reconstructed.
+sources:
+- title: 'Internet Archive: James Gunn interviews Rod Serling (1970 audio)'
+  url: https://archive.org/details/gunn-serling-original-audio-track-unedited
+relevance: related
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true

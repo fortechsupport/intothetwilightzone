@@ -1,0 +1,13 @@
+from: films/the-simpsons-the-genesis-tub
+to: 1959/the-little-people
+kind: homage
+confidence: documented
+evidence: Lisa accidentally creates a microscopic civilisation that worships her, reworking the episode's astronaut
+  who plays god to tiny beings.
+sources:
+- title: Television series with references to The Twilight Zone (Twilight Zone Wiki)
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+- title: Every Twilight Zone Episode The Simpsons Parodied in 'Treehouse of Horror' (SYFY)
+  url: https://syfy.com/syfy-wire/every-twilight-zone-parody-in-the-simpsons-treehouse-of-horror
+last_verified: '2026-11-19'
+locked: true

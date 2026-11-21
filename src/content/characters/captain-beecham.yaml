@@ -1,0 +1,21 @@
+name: Captain Beecham
+aka: []
+kind: human
+played_by:
+- Simon Oakland
+appears_in:
+- 1959/the-thirty-fathom-grave
+description: >-
+  The captain of the destroyer, who wants to find out who is hammering on the hull of a sunken submarine. He sends
+  divers down to look.
+recurring: false
+relevance: core
+sources:
+- title: The Thirty-Fathom Grave (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Thirty-Fathom_Grave
+- title: 'The Twilight Zone: The Thirty-Fathom Grave - IMDb'
+  url: https://www.imdb.com/title/tt0734678/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

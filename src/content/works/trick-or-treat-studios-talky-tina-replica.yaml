@@ -1,0 +1,36 @@
+title: The Twilight Zone Talky Tina 1:1 Replica Doll
+kind: collectible
+subtype: prop-replica
+creator: Trick or Treat Studios
+description: >-
+  A full-size replica of the doll from "Living Doll," made by the horror mask and prop company Trick or Treat Studios
+  and sold through specialist collectible retailers.
+details:
+  series: The Twilight Zone (1959) - "Living Doll"
+  items:
+  - Talky Tina full-size doll
+  licensed: true
+  sideshow_item: '905676'
+  tots_code: MACBS101 (per resale listings)
+sources:
+- title: sideshow.com
+  url: >-
+    https://www.sideshow.com/collectibles/the-twilight-zone-talky-tina-doll-trick-or-treat-studios-905676
+- title: bigbadtoystore.com
+  url: https://www.bigbadtoystore.com/Product/VariationDetails/95328
+- title: 'Halloween Daily News: Trick or Treat Studios Enters The Twilight Zone'
+  url: https://halloweendailynews.com/2017/01/trick-treat-studios-twilight-zone-masks/
+research_confidence: medium
+last_verified: '2026-11-20'
+publisher: Trick or Treat Studios
+relevance: core
+media:
+- type: link
+  title: Sideshow product page
+  url: >-
+    https://www.sideshow.com/collectibles/the-twilight-zone-talky-tina-doll-trick-or-treat-studios-905676
+  host: Sideshow (retailer)
+  rights: link-only
+  subtype: listing
+categories:
+- merchandise/prop-replicas

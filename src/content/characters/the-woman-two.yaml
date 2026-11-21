@@ -1,0 +1,23 @@
+name: The Woman
+aka: []
+kind: human
+played_by:
+- Elizabeth Montgomery
+appears_in:
+- 1959/two
+description: >-
+  A soldier of one side in a war that has emptied the world, scavenging in a ruined town years after the fighting.
+  She distrusts the enemy soldier she meets there and even shoots at him, but slowly accepts his offer of peace.
+  Her only word in the episode is the Russian "prekrasnyy" (beautiful), and the near-wordless role is one of Elizabeth
+  Montgomery's best remembered.
+recurring: false
+relevance: core
+sources:
+- title: Two (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Two_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Two - IMDb'
+  url: https://www.imdb.com/title/tt0734686/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,21 @@
+name: The slot machine
+aka:
+- The one-armed bandit
+kind: object
+played_by: []
+appears_in:
+- 1959/the-fever
+description: >-
+  The Las Vegas slot machine that seems to call "Fraaanklin" and pursue Franklin Gibbs. At the end its silver dollar
+  rolls to his dead hand, a memorably absurd Serling villain.
+recurring: false
+relevance: core
+sources:
+- title: The Fever (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Fever_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Fever - IMDb'
+  url: https://www.imdb.com/title/tt0734639/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

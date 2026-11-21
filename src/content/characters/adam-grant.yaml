@@ -1,0 +1,20 @@
+name: Adam Grant
+aka: []
+kind: human
+played_by:
+- Dennis Weaver
+appears_in:
+- 1959/shadow-play
+description: >-
+  A man convicted of murder who insists that his trial, his sentence and the people around him are part of a recurring
+  nightmare that will vanish when he is executed. He is put to death, and the dream starts again with the cast in
+  new roles. Peter Coyote played him in the 1985 remake.
+recurring: false
+relevance: core
+sources:
+- title: 'The Twilight Zone: Shadow Play - IMDb'
+  url: https://www.imdb.com/title/tt0734618/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

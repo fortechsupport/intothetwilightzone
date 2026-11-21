@@ -1,0 +1,14 @@
+title: Simpsons Wiki – Twilight Zone
+kind: link
+subtype: fan-site
+publisher: Simpsons Wiki (community)
+description: Tracks every Twilight Zone reference in The Simpsons, beyond the Treehouse of Horror segments.
+details:
+  status: active
+links:
+  official: https://simpsonswiki.com/wiki/Twilight_Zone
+sources:
+- title: simpsonswiki.com
+  url: https://simpsonswiki.com/wiki/Twilight_Zone
+research_confidence: high
+last_verified: '2026-11-19'

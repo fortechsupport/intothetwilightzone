@@ -1,0 +1,11 @@
+from: works/red-teds-road-show-twilight-zone-invaders
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: Invaders artwork from the Twilight Zone pinball table reappears as alien fleets and robots in this later
+  Williams machine.
+sources:
+- title: 'TV Tropes – Referenced By: The Twilight Zone'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+last_verified: '2026-11-20'
+locked: true

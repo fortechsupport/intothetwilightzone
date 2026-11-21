@@ -1,0 +1,92 @@
+---
+import Base from '../layouts/Base.astro';
+import Sources from '../components/Sources.astro';
+import { getCollection, getEntry } from 'astro:content';
+import { formatDate } from '../lib/data';
+
+// A hub for Serling's life and the work outside The Twilight Zone, assembled from existing collections.
+const RS = 'Rod Serling';
+const rec = await getEntry('people', 'rod-serling');
+const films = (await getCollection('films')).filter((f) => !f.data.duplicate_of);
+const isNG = (id: string) => id.startsWith('night-gallery');
+const byDate = <T extends { data: { release_date?: string; title: string } }>(a: T, b: T) =>
+  (a.data.release_date ?? '9999').localeCompare(b.data.release_date ?? '9999') || a.data.title.localeCompare(b.data.title);
+const wrote = (f: (typeof films)[number]) => f.data.writers.includes(RS) || f.data.segments.some((s) => s.writers.includes(RS));
+const notTZ = (f: (typeof films)[number]) => !/twilight zone/i.test(f.data.title + ' ' + (f.data.parent_series ?? ''));
+const plays = films.filter((f) => f.data.kind === 'tv-episode' && wrote(f) && notTZ(f) && !isNG(f.id)).sort(byDate);
+const features = films.filter((f) => f.data.kind === 'film' && wrote(f) && notTZ(f)).sort(byDate);
+const tv = films.filter((f) => ['tv-film', 'tv-series', 'pilot', 'unproduced'].includes(f.data.kind) && wrote(f) && notTZ(f) && !isNG(f.id)).sort(byDate);
+const onscreen = films.filter((f) => f.data.cast.includes(RS) && !wrote(f) && !isNG(f.id)).sort(byDate);
+const radio = (await getCollection('radio')).filter((r) => !/twilight zone/i.test(r.data.series_title ?? '') && (r.data.original_writer === RS || r.data.voiced_by.some((v) => v.startsWith(RS))));
+const books = (await getCollection('books')).filter((b) => !b.data.duplicate_of && b.data.authors.includes(RS)).sort((a, b) => (a.data.published ?? '9999').localeCompare(b.data.published ?? '9999'));
+const works = (await getCollection('works')).filter((w) => !w.data.duplicate_of);
+const honors = works.filter((w) => w.data.subtype === 'honor').sort((a, b) => String(a.data.year ?? '9999').localeCompare(String(b.data.year ?? '9999')));
+const other = works.filter((w) => w.data.subtype !== 'honor' && /serling/i.test(w.data.title + ' ' + (w.data.description ?? ''))).sort((a, b) => a.data.title.localeCompare(b.data.title));
+const places = (await getCollection('locations')).filter((l) => l.data.kind === 'serling-place' || /serling/i.test(l.data.name));
+const year = (d?: string | number) => (d ? String(d).slice(0, 4) : '');
+const list = [
+  ['Live television plays', plays],
+  ['Television films, pilots and series', tv],
+  ['Feature films', features],
+  ['On screen and as narrator', onscreen],
+] as const;
+---
+<Base title="Rod Serling" description="Rod Serling's life and work beyond The Twilight Zone: live television, films, Night Gallery, The Loner, radio, books, honors and places.">
+  <p class="breadcrumb" data-pagefind-ignore><a href="/people/rod-serling/">Rod Serling credits</a></p>
+  <h1>Rod Serling, 1924–1975</h1>
+  {rec?.data.bio && <p class="lead">{rec.data.bio}</p>}
+  <p>Jump to: {list.map(([h]) => <><a href={`#${h.toLowerCase().replace(/[^a-z]+/g, '-')}`}>{h}</a> · </>)}<a href="/night-gallery/">Night Gallery</a> · <a href="#radio">Radio</a> · <a href="#books">Books</a> · <a href="#honors">Honors</a> · <a href="#places">Places</a></p>
+
+  {rec && rec.data.timeline.length > 0 && (
+    <section>
+      <h2>Timeline</h2>
+      <dl class="facts">{rec.data.timeline.map((t) => <><dt>{formatDate(t.date)}</dt><dd>{t.text}</dd></>)}</dl>
+    </section>
+  )}
+
+  {list.map(([h, items]) => items.length > 0 && (
+    <section id={h.toLowerCase().replace(/[^a-z]+/g, '-')}>
+      <h2>{h} <span class="muted small">({items.length})</span></h2>
+      <ul class="plain">
+        {items.map((f) => <li><a href={`/films/${f.id}/`}>{f.data.title}</a> <span class="muted small">{[f.data.parent_series, year(f.data.release_date)].filter(Boolean).join(' · ')}</span></li>)}
+      </ul>
+    </section>
+  ))}
+
+  <section>
+    <h2>Night Gallery</h2>
+    <p>Serling hosted and wrote about a third of <a href="/night-gallery/">Rod Serling's Night Gallery</a> (NBC, 1969–1973). Every episode and segment has its own entry.</p>
+  </section>
+
+  {radio.length > 0 && (
+    <section id="radio">
+      <h2>Radio <span class="muted small">({radio.length})</span></h2>
+      <ul class="plain">{radio.map((r) => <li><a href={`/radio/${r.id}/`}>{r.data.title}</a> <span class="muted small">{r.data.series_title}</span></li>)}</ul>
+    </section>
+  )}
+  {books.length > 0 && (
+    <section id="books">
+      <h2>Books by Serling <span class="muted small">({books.length})</span></h2>
+      <ul class="plain">{books.map((b) => <li><a href={`/books/${b.id}/`}>{b.data.title}</a> <span class="muted small">{year(b.data.published)}</span></li>)}</ul>
+    </section>
+  )}
+  {honors.length > 0 && (
+    <section id="honors">
+      <h2>Honors <span class="muted small">({honors.length})</span></h2>
+      <ul class="plain">{honors.map((w) => <li><a href={`/works/${w.id}/`}>{w.data.title}</a></li>)}</ul>
+    </section>
+  )}
+  {places.length > 0 && (
+    <section id="places">
+      <h2>Places <span class="muted small">({places.length})</span></h2>
+      <ul class="plain">{places.map((l) => <li><a href={`/places/${l.id}/`}>{l.data.name}</a></li>)}</ul>
+    </section>
+  )}
+  {other.length > 0 && (
+    <section>
+      <h2>Tributes, archives and more</h2>
+      <ul class="plain">{other.map((w) => <li><a href={`/works/${w.id}/`}>{w.data.title}</a></li>)}</ul>
+    </section>
+  )}
+  {rec && <Sources sources={rec.data.sources} verified={rec.data.last_verified} />}
+</Base>

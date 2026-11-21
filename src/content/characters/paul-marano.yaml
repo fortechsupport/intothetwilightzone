@@ -1,0 +1,20 @@
+name: Paul Marano
+kind: human
+played_by:
+- Tony Lo Bianco
+appears_in:
+- 1985/if-she-dies
+description: >-
+  A widower whose daughter lies in a coma after a car accident. He buys an old bed from a former orphanage and comes
+  to believe the ghost of a girl connected to it can help save his child.
+recurring: false
+relevance: core
+sources:
+- title: If She Dies (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/If_She_Dies
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

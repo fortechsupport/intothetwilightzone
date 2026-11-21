@@ -1,0 +1,20 @@
+name: John Parker
+kind: human
+played_by:
+- William Allen Young
+appears_in:
+- 1985/the-junction
+description: >-
+  A modern miner trapped by a cave-in in a section of the mine that seems to exist in both 1986 and 1912. In the
+  dark he meets a miner from the earlier year, and their talk forces him to face his own failings.
+recurring: false
+relevance: core
+sources:
+- title: The Junction (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Junction_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

@@ -1,0 +1,36 @@
+title: Need to Know
+series: '1985'
+season: 1
+episode: '21a'
+air_date: '1986-03-21'
+runtime_min: 19
+writers:
+- Sidney Sheldon
+- Mary Sheldon
+writing_credit_note: Teleplay by Mary Sheldon; story by Sidney Sheldon
+directors:
+- Paul Lynch
+cast:
+- William L. Petersen
+- Frances McDormand
+- Ellen Albertini Dow
+narrator: Charles Aidman
+synopsis: An investigator arrives in a small rural town where residents are being driven mad one by one, apparently
+  after learning some terrible secret that spreads from person to person.
+themes:
+- knowledge
+- madness
+- small town
+ids:
+  imdb: tt0734722
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Need_to_Know_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

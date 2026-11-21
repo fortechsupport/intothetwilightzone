@@ -1,0 +1,19 @@
+name: Potts
+aka: []
+kind: human
+played_by:
+- Leon Belasco
+appears_in:
+- 1959/a-kind-of-a-stopwatch
+description: The old man at the bar who gives McNulty the stopwatch. He explains that it can stop time.
+recurring: false
+relevance: core
+sources:
+- title: A Kind of a Stopwatch (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/A_Kind_of_a_Stopwatch
+- title: 'The Twilight Zone: A Kind of a Stopwatch - IMDb'
+  url: https://www.imdb.com/title/tt0734542/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

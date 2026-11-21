@@ -1,0 +1,83 @@
+title: Nightmare at 20,000 Feet
+series: '1959'
+season: 5
+episode: '3'
+air_date: '1963-10-11'
+runtime_min: 25
+production_code: '2605'
+writers:
+- Richard Matheson
+writing_credit_note: Based on Richard Matheson's short story "Nightmare at 20,000 Feet" (collected in Alone by Night,
+  1961).
+source_authors:
+- Richard Matheson
+directors:
+- Richard Donner
+cast:
+- William Shatner
+- Christine White
+- Ed Kemmer
+narrator: Rod Serling
+synopsis: Bob Wilson, flying home after a stay in a sanitarium following a breakdown, glimpses a strange creature crouched
+  on the airliner's wing during a storm. No one else sees it, and his efforts to warn the crew only make him look unwell
+  again.
+themes:
+- air travel
+- mental illness
+- monsters
+- paranoia
+ids:
+  imdb: tt0734600
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Nightmare_at_2
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+- title: Nightmare at 20,000 Feet - Wikipedia
+  url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
+last_verified: '2026-11-19'
+locked: true
+media:
+- type: interview
+  subtype: bonus-interview
+  title: Interview with Richard Matheson, part 2 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+- type: interview
+  subtype: lecture
+  title: Rod Serling Lecture at Sherwood Oaks Experimental College (1975), part 4 (Blu-ray extra)
+  url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
+  host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
+  date: '2011-08-30'
+  rights: licensed
+  note: Serling speaking to a screenwriting class at Sherwood Oaks Experimental College, Hollywood, 1975.
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on the shock moment in "Nightmare at 20,000 Feet"
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '1:47'
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: Richard Matheson on "Nick of Time" and "Nightmare at 20,000 Feet", both with William Shatner
+  url: https://interviews.televisionacademy.com/interviews/richard-matheson
+  date: '2002-04-16'
+  duration: '2:02'
+- type: interview
+  subtype: oral-history
+  host: Television Academy Foundation (The Interviews)
+  rights: licensed
+  title: William Froug on production of "Nightmare at 20,000 Feet"
+  url: https://interviews.televisionacademy.com/interviews/william-froug
+  date: '2011-07-18'
+  duration: '1:34'

@@ -1,0 +1,17 @@
+name: Harry Tatelman
+roles:
+- producer
+bio: Universal producer who oversaw the re-editing of Night Gallery's hour-long episodes into half hours for syndication,
+  padding some with new and stock footage.
+tz_credits:
+- series: Night Gallery
+  work: Syndication re-edit
+  role: producer
+  ref: films/night-gallery
+sources:
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+relevance: related
+last_verified: '2026-11-19'
+locked: true

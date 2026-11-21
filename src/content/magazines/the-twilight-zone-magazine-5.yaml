@@ -1,0 +1,22 @@
+title: 'The Twilight Zone Magazine, #5'
+magazine: The Twilight Zone Magazine
+cover_date: Aug 1981
+order: 5
+publisher: TZ Publications, Inc.
+editor: T.E.D. Klein
+description: August 1981 issue with George Clayton Johnson's memoir 'Writing for The Twilight Zone', an
+  interview with George A. Romero, and a werewolf-film feature talking to John Landis, Joe Dante and Michael
+  Wadleigh. Fiction came from David Morrell, Lisa Tuttle and James Patrick Kelly; it ran part five of
+  Zicree's episode guide and Serling's teleplay 'The Odyssey of Flight 33'.
+episodes:
+- 1959/the-odyssey-of-flight-33
+links:
+  isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60157
+research_confidence: high
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 5'
+  url: https://twilightzonevortex.blogspot.com/2017/11/reading-rod-serlings-twilight-zone.html
+last_verified: '2026-11-19'
+locked: true

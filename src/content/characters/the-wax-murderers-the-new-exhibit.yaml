@@ -1,0 +1,29 @@
+name: The wax murderers
+aka:
+- Jack the Ripper
+- Burke and Hare
+- Henri Desire Landru
+- Albert W. Hicks
+kind: object
+played_by:
+- David Bond
+- Robert McCord
+- Billy Beck
+- Milton Parsons
+- Bob Mitchell
+appears_in:
+- 1959/the-new-exhibit
+description: >-
+  Wax figures of Jack the Ripper, Burke and Hare, Landru and Albert W. Hicks, the stars of the museum's murderers'
+  row. They seem to come alive and kill, but the ending suggests that they did not.
+recurring: false
+relevance: core
+sources:
+- title: The New Exhibit (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_New_Exhibit
+- title: 'The Twilight Zone: The New Exhibit - IMDb'
+  url: https://www.imdb.com/title/tt0734665/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

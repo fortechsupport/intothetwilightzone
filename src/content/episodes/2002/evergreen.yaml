@@ -1,0 +1,33 @@
+title: Evergreen
+series: '2002'
+season: 1
+episode: '1'
+air_date: '2002-09-18'
+runtime_min: 22
+production_code: '106'
+writers:
+- Jill Blotevogel
+directors:
+- Allan Kroeker
+cast:
+- Amber Tamblyn
+- Jesse Moss
+narrator: Forest Whitaker
+synopsis: A defiant teenager arrives with her family in a pristine gated community where every lawn, smile and curfew
+  is policed. Her small rebellions draw the attention of neighbors who take conformity far more seriously than she
+  imagines.
+themes:
+- adolescence
+- conformity
+- suburbia
+ids:
+  imdb: tt0734780
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: The Twilight Zone (2002) season 1 - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+last_verified: '2026-11-19'
+locked: true

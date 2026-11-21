@@ -1,0 +1,32 @@
+title: Rewind
+series: '2002'
+season: 1
+episode: '27'
+air_date: '2003-02-05'
+runtime_min: 22
+production_code: '127'
+writers:
+- James Crocker
+directors:
+- Kevin Bray
+cast:
+- Eddie Kaye Thomas
+- Marisa Coughlan
+narrator: Forest Whitaker
+synopsis: A compulsive gambler in debt discovers that an old tape recorder can rewind time by five minutes, and
+  plots to use it to take down a casino owner.
+themes:
+- gambling
+- greed
+- time
+ids:
+  imdb: tt0734799
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+- title: The Twilight Zone (2002) season 1 - scifi-movies.com
+  url: https://www.scifi-movies.com/en/season/0003143/1/the-twilight-zone-2002/
+last_verified: '2026-11-19'
+locked: true

@@ -1,0 +1,11 @@
+from: films/the-simpsons-homie-the-clown
+to: 1959/eye-of-the-beholder
+kind: reference
+confidence: fan-noted
+summary: A bandage-removal reveal of Krusty's face is staged like the famous unwrapping scene in which a supposedly
+  disfigured woman proves conventionally beautiful.
+sources:
+- title: Wikisimpsons – Twilight Zone
+  url: https://simpsonswiki.com/wiki/Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

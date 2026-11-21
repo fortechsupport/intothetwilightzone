@@ -1,0 +1,11 @@
+from: films/muppet-babies-1984-i-want-my-muppet-t-v
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: Baby Gonzo impersonates Serling, introduces 'a dimension of sight and sound', and sings the theme as one
+  of the episode's TV-channel parodies.
+sources:
+- title: Muppet Wiki – The Twilight Zone
+  url: https://muppet.fandom.com/wiki/The_Twilight_Zone
+last_verified: '2026-11-20'
+locked: true

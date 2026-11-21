@@ -1,0 +1,38 @@
+title: Rod Serling's The Twilight Zone Magazine cover art (1981-1989)
+kind: artwork
+year: 1981-1989
+publisher: TZ Publications / Montcalm Publishing
+description: >-
+  The 60-issue magazine (April 1981 to June 1989), edited first by T. E. D. Klein, opened with painted and illustrated
+  covers and switched to film stills from October 1983 to boost newsstand sales. Many issues are scanned on the
+  Internet Archive and its covers are collected on MovieMags.
+subtype: magazine-cover
+details:
+  issues: 60
+  cover_policy_change: film-still covers from Oct. 1983
+  licensed: true
+  people:
+  - T. E. D. Klein
+  - Jim Warren
+relevance: core
+research_confidence: high
+categories:
+- artwork/comic-and-magazine-covers
+sources:
+- title: SF Encyclopedia - Rod Serling's The Twilight Zone Magazine
+  url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
+- title: MovieMags - Twilight Zone
+  url: https://moviemags.com/twilight-zone
+media:
+- type: document
+  title: Internet Archive scan - Twilight Zone v4n1 (April 1984)
+  url: >-
+    https://archive.org/stream/Twilight_Zone_v04n01_1984-04_noads/Twilight_Zone_v04n01_1984-04_noads_djvu.txt
+  host: archive.org
+  rights: link-only
+- type: image
+  title: MovieMags cover gallery
+  url: https://moviemags.com/twilight-zone
+  host: MovieMags
+  rights: link-only
+last_verified: '2026-11-20'

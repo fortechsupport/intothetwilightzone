@@ -1,0 +1,26 @@
+name: Jean Boffety
+roles:
+- cinematographer
+tz_credits:
+- series: The Twilight Zone (1959)
+  work: An Occurrence at Owl Creek Bridge
+  role: director of photography
+  ref: 1959/an-occurrence-at-owl-creek-bridge
+born: '1925'
+died: '1988'
+bio: >-
+  Jean Boffety photographed Robert Enrico's French short film An Occurrence at Owl Creek Bridge, which The Twilight
+  Zone bought and broadcast in February 1964 as an episode of its fifth season. The film had already won at Cannes
+  and later won the Academy Award for best live action short. Boffety became a leading French cinematographer, known
+  especially for his films with Claude Sautet, such as Les Choses de la vie and Cesar et Rosalie, and he also shot
+  Robert Altman's Thieves Like Us.
+sources:
+- title: 'IMDb: The Twilight Zone (1959-1964) full credits'
+  url: https://m.imdb.com/title/tt0052520/fullcredits/cast
+- title: An Occurrence at Owl Creek Bridge (film) - Wikipedia
+  url: https://en.wikipedia.org/wiki/An_Occurrence_at_Owl_Creek_Bridge_(film)
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/crew

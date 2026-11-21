@@ -1,0 +1,34 @@
+title: The Fear
+series: '1959'
+season: 5
+episode: '35'
+air_date: '1964-05-29'
+runtime_min: 25
+production_code: '2633'
+writers:
+- Rod Serling
+directors:
+- Ted Post
+cast:
+- Peter Mark Richman
+- Hazel Court
+narrator: Rod Serling
+synopsis: A state trooper checks on a nervous fashion editor staying alone in a remote mountain cabin, where she
+  reports strange lights in the sky. Then giant footprints and a crushed car suggest something enormous is near.
+themes:
+- aliens
+- fear
+- isolation
+ids:
+  imdb: tt0734638
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Fear_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 5) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
+- title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
+  url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+last_verified: '2026-11-19'
+locked: true

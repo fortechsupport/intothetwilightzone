@@ -1,0 +1,22 @@
+title: 'The Twilight Zone Magazine, #19'
+magazine: The Twilight Zone Magazine
+cover_date: Oct 1982
+order: 19
+publisher: TZ Publications, Inc.
+editor: T.E.D. Klein
+description: October 1982 issue with an interview with 'Star Trek II' director Nicholas Meyer, an essay
+  on Star Trek's enduring appeal, a Simon Marsden photo feature, and fiction by Avram Davidson, Robert
+  Sheckley, Al Sarrantonio and Gary Brandner. It ran part nineteen of Zicree's guide and Serling's teleplay
+  'In Praise of Pip'.
+episodes:
+- 1959/in-praise-of-pip
+links:
+  isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60202
+research_confidence: high
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Originally listed in Adam's research spreadsheets.
+- title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 19'
+  url: https://twilightzonevortex.blogspot.com/2020/02/reading-rod-serlings-twilight-zone.html
+last_verified: '2026-11-19'
+locked: true

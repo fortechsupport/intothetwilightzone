@@ -1,0 +1,26 @@
+name: Zabriskie Point, Death Valley
+kind: filming-location
+city: Death Valley
+region: California
+country: US
+lat: 36.4207
+lng: -116.8101
+status: open
+filmed:
+- ref: 1959/the-lonely
+  note: Asteroid exteriors (identified by frame matching).
+- ref: 1959/i-shot-an-arrow-into-the-air
+  note: Desert where the astronauts believe they are stranded.
+notes: The eroded badlands overlook in Death Valley National Park. Location photographers who matched frames from
+  the episodes identify it as a backdrop for the asteroid in "The Lonely" (1959) and the alien-looking desert of
+  "I Shot an Arrow into the Air" (1960). It is one of the park's most visited viewpoints and looks much as it did
+  on screen.
+sources:
+- title: 'Lightpainter: Twilight Zone On Location, part 1 (Paul Giammarco, 2012)'
+  url: https://www.lightpainter.us/2012/11/twilight-zone-on-location-part-1/
+- title: 'NPS: Death Valley in Movies and Television'
+  url: https://home.nps.gov/deva/learn/historyculture/death-valley-in-movies-and-television.htm
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+locked: true

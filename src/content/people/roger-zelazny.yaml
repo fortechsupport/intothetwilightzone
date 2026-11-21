@@ -1,0 +1,23 @@
+name: Roger Zelazny
+roles:
+- author
+born: '1937-05-13'
+died: '1995-06-14'
+bio: >-
+  Roger Zelazny wrote "The Last Defender of Camelot" (1979), adapted by George R. R. Martin for the 1985 revival
+  in 1986, with Richard Kiley as Lancelot, still alive in the modern world and facing Merlin's return. One of the
+  leading science-fiction and fantasy writers of the New Wave, he won six Hugo Awards and three Nebulas for works
+  including Lord of Light and "Home Is the Hangman," and wrote the Chronicles of Amber.
+relevance: core
+sources:
+- title: Roger Zelazny - Wikipedia
+  url: https://en.wikipedia.org/wiki/Roger_Zelazny
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+tags:
+- 1985-series
+- source-author
+categories:
+- people/writers

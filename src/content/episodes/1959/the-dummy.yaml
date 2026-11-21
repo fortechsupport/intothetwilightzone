@@ -1,0 +1,41 @@
+title: The Dummy
+series: '1959'
+season: 3
+episode: '33'
+air_date: '1962-05-04'
+runtime_min: 25
+production_code: '4834'
+writers:
+- Rod Serling
+writing_credit_note: Teleplay by Rod Serling; based on a story by Lee Polk
+source_authors:
+- Lee Polk
+directors:
+- Abner Biberman
+cast:
+- Cliff Robertson
+- Frank Sutton
+- George Murdock
+- Edy Williams
+narrator: Rod Serling
+synopsis: A heavy-drinking nightclub ventriloquist is convinced that his wisecracking dummy, Willie, has a mind
+  of its own. His agent dismisses it as nerves, but the performer grows desperate to get free of the puppet before
+  it is too late.
+themes:
+- control
+- identity
+- madness
+- ventriloquism
+ids:
+  imdb: tt0734636
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Dummy
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)
+- title: CTVA - The Twilight Zone Season 3 (1961-62)
+  url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
+last_verified: '2026-11-19'
+locked: true

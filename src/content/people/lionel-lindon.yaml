@@ -1,0 +1,23 @@
+name: Lionel Lindon
+roles:
+- cinematographer
+tz_credits:
+- series: Night Gallery
+  work: Night Gallery
+  role: director of photography
+  ref: films/night-gallery
+born: '1905'
+died: '1971'
+bio: >-
+  Lionel Lindon was one of the directors of photography on Night Gallery at Universal. He won the Academy Award
+  for Around the World in 80 Days and shot John Frankenheimer's The Manchurian Candidate. He died in 1971.
+sources:
+- title: 'Wikipedia: Lionel Lindon'
+  url: https://en.wikipedia.org/wiki/Lionel_Lindon
+- title: 'Sci-Fi-Movies: Night Gallery (1970-73) series credits'
+  url: https://www.scifi-movies.com/en/credits/0002782/night-gallery-1969/
+research_confidence: medium
+relevance: related
+last_verified: '2026-11-20'
+categories:
+- people/crew

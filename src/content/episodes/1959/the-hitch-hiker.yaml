@@ -1,0 +1,39 @@
+title: The Hitch-Hiker
+series: '1959'
+season: 1
+episode: '16'
+air_date: '1960-01-22'
+runtime_min: 25
+production_code: 173-3612
+writers:
+- Rod Serling
+writing_credit_note: Teleplay by Rod Serling; based on the radio play "The Hitch-Hiker" by Lucille Fletcher
+source_authors:
+- Lucille Fletcher
+directors:
+- Alvin Ganzer
+cast:
+- Inger Stevens
+- Adam Williams
+- Lew Gallo
+- Leonard Strong
+narrator: Rod Serling
+synopsis: Nan Adams is driving cross-country alone when she spots a drab man thumbing for a ride beside the highway.
+  Mile after mile, state after state, the same figure keeps appearing ahead of her.
+themes:
+- death
+- fear
+- road trip
+ids:
+  imdb: tt0734644
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Hitch-Hiker_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+last_verified: '2026-11-19'
+locked: true

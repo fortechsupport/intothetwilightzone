@@ -1,0 +1,20 @@
+name: Barry De Vorzon
+roles:
+- music consultant
+- composer
+tz_credits:
+- series: The Twilight Zone (1985)
+  work: series
+  role: music consultant
+bio: >-
+  Barry De Vorzon was music consultant on the 1985 Twilight Zone. He co-wrote the instrumental Nadia's Theme, originally
+  from the film Bless the Beasts and Children and later the theme of The Young and the Restless, and scored films
+  such as The Warriors.
+sources:
+- title: 'Sci-Fi-Movies: The Twilight Zone (1985) credits'
+  url: https://www.scifi-movies.com/en/credits/0000456/the-twilight-zone-1985/
+research_confidence: low
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/composers

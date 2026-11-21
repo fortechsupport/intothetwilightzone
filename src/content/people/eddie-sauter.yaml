@@ -1,0 +1,27 @@
+name: Eddie Sauter
+roles:
+- composer
+bio: >-
+  Big-band arranger who wrote the more frantic orchestral theme that replaced Gil Mellé's for Night Gallery's third
+  season.
+tz_credits:
+- series: Night Gallery
+  work: Main title theme, season 3
+  role: composer
+  ref: films/night-gallery
+- series: Night Gallery (1969-1973)
+  work: Season 3 main title
+- series: Night Gallery (1969-1973)
+  work: >-
+    Brenda; The Dark Boy; The Caterpillar; Little Girl Lost; Smile, Please; and others (about 17 episodes)
+sources:
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+- title: NightGallery.net – Music
+  url: https://nightgallery.net/music
+- title: Socialist Jazz – The soundtrack composers in Night Gallery
+  url: https://socialistjazz.blogspot.com/2016/05/the-soundtrack-composers-in-night.html
+research_confidence: medium
+relevance: related
+last_verified: '2026-11-20'
+locked: true

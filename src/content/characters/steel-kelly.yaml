@@ -1,0 +1,22 @@
+name: Steel Kelly
+aka: []
+kind: human
+played_by:
+- Lee Marvin
+appears_in:
+- 1959/steel
+description: >-
+  A former boxer in 1974, when human boxing is banned and robots fight instead. When his old robot, Battling Maxo,
+  breaks down before a fight, Kelly fights in its place, disguised as a robot, and takes a beating to earn the money
+  to repair it. The story is by Richard Matheson, and it was the basis for the 2011 film Real Steel.
+recurring: false
+relevance: core
+sources:
+- title: Steel (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Steel_(The_Twilight_Zone)
+- title: 'The Twilight Zone: Steel - IMDb'
+  url: https://www.imdb.com/title/tt0734623/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

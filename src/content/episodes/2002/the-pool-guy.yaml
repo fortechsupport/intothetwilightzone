@@ -1,0 +1,32 @@
+title: The Pool Guy
+series: '2002'
+season: 1
+episode: '9'
+air_date: '2002-10-16'
+runtime_min: 22
+production_code: '111'
+writers:
+- Hans Beimler
+directors:
+- Paul Shapiro
+- Brad Turner
+cast:
+- Lou Diamond Phillips
+- Erik King
+- Zak Santiago
+narrator: Forest Whitaker
+synopsis: A pool cleaner is trapped in a recurring dream in which a stranger shoots him and orders him to wake up,
+  and he begins to wonder which of his lives is the real one.
+themes:
+- dreams
+- loops
+- reality
+ids:
+  imdb: tt0734810
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+last_verified: '2026-11-19'
+locked: true

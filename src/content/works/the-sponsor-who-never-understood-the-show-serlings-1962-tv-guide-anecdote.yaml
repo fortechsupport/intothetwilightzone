@@ -1,0 +1,27 @@
+title: The sponsor who never understood the show (Serling's 1962 TV Guide anecdote)
+kind: advertisement
+subtype: sponsor
+year: '1962'
+creator: Rod Serling; TV Guide; unnamed first-season sponsor
+description: In a 1962 TV Guide interview, Serling described an early sponsor who preferred plain westerns. Each
+  Monday this sponsor called the ad agency asking what the previous Friday's episode had meant, and he left after
+  one season. Serling also mentioned a food sponsor that disliked a gruesome script because it might put viewers
+  off their food.
+details:
+  why_it_matters: It is a first-hand account of the friction between sponsors and the show's unusual content.
+  relates_to:
+  - series 1959
+  - season 1
+categories:
+- advertising/sponsors
+relevance: related
+sources:
+- title: TVLine - The Twilight Zone Lost An Early Sponsor Who Was Never Able To Understand The Show
+  url: https://www.tvline.com/2300762/the-twilight-zone-lost-early-sponsor-never-able-understand-show/
+research_confidence: medium
+last_verified: '2026-11-20'
+locked: true
+content_of:
+- series/1959
+organizations:
+- TV Guide

@@ -1,0 +1,28 @@
+name: George Folsey Jr.
+roles:
+- associate producer
+- editor
+- producer
+tz_credits:
+- series: 'Twilight Zone: The Movie (1983)'
+  work: Time Out
+  role: associate producer (prologue and Landis segment)
+  ref: films/twilight-zone-the-movie
+born: '1939'
+bio: >-
+  George Folsey Jr. was associate producer of John Landis's prologue and Time Out segment of Twilight Zone: The
+  Movie (1983). After the helicopter crash that killed Vic Morrow and two children during filming, he was one of
+  five people tried for involuntary manslaughter, and he was acquitted with the others in 1987. He was Landis's
+  longtime editor and producer, on films such as Animal House, The Blues Brothers and An American Werewolf in London,
+  and he co-produced Michael Jackson's Thriller video. He is the son of MGM cinematographer George J. Folsey.
+sources:
+- title: 'Sci-Fi-Movies: Twilight Zone: The Movie (1983) credits'
+  url: https://www.scifi-movies.com/en/credits/0001932/twilight-zone-the-movie-1983/
+- title: 'Twilight Zone: The Movie - Wikipedia'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+research_confidence: medium
+relevance: core
+last_verified: '2026-11-20'
+categories:
+- people/producers
+- people/crew

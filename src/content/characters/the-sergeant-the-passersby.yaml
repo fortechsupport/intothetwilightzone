@@ -1,0 +1,21 @@
+name: The Sergeant
+aka: []
+kind: human
+played_by:
+- James Gregory
+appears_in:
+- 1959/the-passersby
+description: >-
+  A wounded Confederate soldier who stops to rest at the Godwin house. He comes to realize that he is dead and that
+  the road leads to the afterlife.
+recurring: false
+relevance: core
+sources:
+- title: The Passersby (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Passersby
+- title: 'The Twilight Zone: The Passersby - IMDb'
+  url: https://www.imdb.com/title/tt0734671/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

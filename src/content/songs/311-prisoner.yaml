@@ -1,0 +1,17 @@
+title: Prisoner
+artist: '311'
+album: Transistor
+genre: Alternative
+length: '2:50'
+year: 1997
+tz_connection: lyric-mention
+ids:
+  amazon_asin: B00137QRJW
+links:
+  youtube: ymM3nP9I7c0
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+research_confidence: low
+description: A song by 311 from Transistor (1997). The original research lists it for a lyric that mentions the
+  Twilight Zone; the exact line has not yet been checked against a lyric source.

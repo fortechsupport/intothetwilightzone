@@ -1,0 +1,22 @@
+name: Alexander Mackaye
+aka:
+- Air Vice Marshal Mackaye
+kind: human
+played_by:
+- Robert Warwick
+appears_in:
+- 1959/the-last-flight
+description: >-
+  The elderly British air marshal who visits the base and who, as a young pilot, was Decker's friend. He remembers
+  that Decker came back to rescue him in 1917, which reveals that Decker has made the right choice.
+recurring: false
+relevance: core
+sources:
+- title: The Last Flight (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Last_Flight_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Last Flight - IMDb'
+  url: https://www.imdb.com/title/tt0734651/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

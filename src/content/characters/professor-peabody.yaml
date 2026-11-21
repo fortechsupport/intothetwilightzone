@@ -1,0 +1,20 @@
+name: Professor Peabody
+kind: human
+played_by:
+- Carl Reiner
+appears_in:
+- films/night-gallery-s2e08
+description: >-
+  A university lecturer who mocks the Cthulhu Mythos gods in front of his class, whose students have Lovecraftian
+  names. He pays for it before the hour is up.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

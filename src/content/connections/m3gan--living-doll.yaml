@@ -1,0 +1,17 @@
+from: films/m3gan
+to: 1959/living-doll
+kind: inspired-by
+confidence: fan-noted
+summary: An AI companion doll grows dangerously protective of an orphaned girl; writers compare it to Talky Tina.
+sources:
+- title: Which is more frightening, M3GAN or Talky Tina? (RunPee)
+  url: https://runpee.com/which-is-more-frightening-m3gan-or-talky-tina/
+- title: M3GAN, Chucky and Twilight Zone's talking doll (Sci-Fi Guy)
+  url: https://willstape.substack.com/p/m3gan-chucky-and-twilight-zones-talking
+- title: What influenced M3GAN? (SYFY Wire)
+  url: https://www.syfy.com/index%2ephp/syfy-wire/m3gan-screenwriter-reveals-killer-doll-influences
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: In a SYFY Wire interview, M3GAN screenwriter Akela Cooper names Magic and Child''s
+  Play as her killer-doll influences, and James Wan calls it Annabelle meets The Terminator; Talky Tina is not mentioned.
+  RunPee and a Substack only compare the two. The documented influences point elsewhere; a comparison only.'

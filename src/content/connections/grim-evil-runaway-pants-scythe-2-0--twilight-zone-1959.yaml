@@ -1,0 +1,11 @@
+from: films/grim-evil-runaway-pants-scythe-2-0
+to: series/1959
+kind: parody
+confidence: fan-noted
+summary: The episode opens with a "Billy Zone" bumper featuring a narrator styled after Rod Serling.
+sources:
+- title: 'The Twilight Zone Wiki: Television series with references to The Twilight Zone'
+  url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
+last_verified: '2026-11-20'
+locked: true
+evidence: 'Checked 2026-11-20: Only the fan-run Twilight Zone Wiki list records the ''Billy Zone'' bumper.'

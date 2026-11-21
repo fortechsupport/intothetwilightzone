@@ -1,0 +1,34 @@
+title: Elegy
+series: '1959'
+season: 1
+episode: '20'
+air_date: '1960-02-19'
+runtime_min: 25
+production_code: 173-3625
+writers:
+- Charles Beaumont
+directors:
+- Douglas Heyes
+cast:
+- Cecil Kellaway
+- Jeff Morrow
+narrator: Rod Serling
+synopsis: Three astronauts, low on fuel in the far future, land on an asteroid that looks exactly like mid-20th-century
+  Earth. They find people frozen in place everywhere, and one courteous caretaker who can explain.
+themes:
+- death
+- peace
+- space travel
+ids:
+  imdb: tt0734565
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Elegy_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)
+  url: https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)
+- title: CTVA - The Twilight Zone Season 1 (1959-60)
+  url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
+last_verified: '2026-11-19'
+locked: true

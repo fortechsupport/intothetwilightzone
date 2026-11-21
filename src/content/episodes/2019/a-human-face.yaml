@@ -1,0 +1,32 @@
+title: A Human Face
+series: '2019'
+season: 2
+episode: '7'
+air_date: '2020-06-25'
+runtime_min: 33
+writers:
+- Alex Rubens
+directors:
+- Christina Choe
+cast:
+- Christopher Meloni
+- Jenna Elfman
+- Tavi Gevinson
+narrator: Jordan Peele
+synopsis: A couple mourning their young daughter are clearing out her room when a radio warns of a cosmic flare,
+  and soon afterwards a strange visitor turns up in their basement, offering an unexpected kind of comfort.
+themes:
+- aliens
+- family
+- grief
+ids:
+  imdb: tt11839580
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: The Twilight Zone (2019 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+- title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+last_verified: '2026-11-19'
+locked: true

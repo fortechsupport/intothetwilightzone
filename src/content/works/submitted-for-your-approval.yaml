@@ -1,0 +1,27 @@
+title: '''Submitted for your approval'''
+kind: cultural-impact
+subtype: catchphrase
+year: '1962'
+creator: Rod Serling
+description: 'Although it is the phrase most associated with Serling, he says it word for word in only three episodes:
+  ''Cavender Is Coming'', ''In Praise of Pip'' and ''A Kind of a Stopwatch''. Close variants such as ''for your
+  consideration'' appear elsewhere, and he says ''in just a moment'' far more often. The phrase is now a standard
+  opener for parodies and for anyone imitating Serling.'
+details:
+  why_it_matters: It is the show's best-known catchphrase.
+  relates_to:
+  - Cavender Is Coming
+  - In Praise of Pip
+  - A Kind of a Stopwatch
+  - The Trouble with Templeton
+categories:
+- cultural-impact/catchphrases
+relevance: core
+sources:
+- title: SYFY - The Twilight Zone's most iconic catchphrase was barely ever said
+  url: https://syfy.com/syfy-wire/the-twilight-zones-most-iconic-catchphrase-was-barely-ever-said
+- title: Cheat Sheet - Serling's signature phrase was only uttered in 3 episodes
+  url: https://www.cheatsheet.com/entertainment/the-twilight-zones-rod-serlings-signature-phrase-was-only-uttered-in-3-episodes-but-was-later-borrowed-by-a-kids-show.html/
+research_confidence: high
+last_verified: '2026-11-20'
+locked: true

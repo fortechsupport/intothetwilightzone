@@ -1,0 +1,152 @@
+---
+import Base from '../../layouts/Base.astro';
+import InCategories from '../../components/InCategories.astro';
+import Media from '../../components/Media.astro';
+import Related from '../../components/Related.astro';
+import Sources from '../../components/Sources.astro';
+import EpisodeActions from '../../components/fan/EpisodeActions.astro';
+import EpisodeExtras from '../../components/fan/EpisodeExtras.astro';
+import { getCollection } from 'astro:content';
+import { allEpisodes, formatDate, episodeNumber, personUrl, resolveRef, CONNECTION_LABELS, CONFIDENCE_LABELS, type Episode } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const eps = await allEpisodes();
+  return eps.map((e, i) => ({
+    params: { id: e.id },
+    props: { e, prev: eps[i - 1]?.data.series === e.data.series ? eps[i - 1] : undefined, next: eps[i + 1]?.data.series === e.data.series ? eps[i + 1] : undefined },
+  }));
+}
+interface Props { e: Episode; prev?: Episode; next?: Episode }
+const { e, prev, next } = Astro.props;
+const d = e.data;
+// The series record can be hidden by review while this episode is included.
+const series = (await getCollection('series')).find((s) => s.id === d.series);
+const seriesTitle = series?.data.title ?? 'The Twilight Zone';
+const allConnections = await getCollection('connections');
+const connections = allConnections.filter((c) => c.data.to === e.id);
+const drawsOn = await Promise.all(allConnections.filter((c) => c.data.from === e.id).map(async (c) => ({ c, work: await resolveRef(c.data.to) })));
+const legacy = await Promise.all(connections.map(async (c) => ({ c, work: await resolveRef(c.data.from) })));
+const radio = (await getCollection('radio')).filter((r) => r.data.adapts_episode === e.id);
+const places = (await getCollection('locations')).filter((l) => l.data.filmed.some((f) => f.ref === e.id));
+const quotes = (await getCollection('quotes')).filter((q) => q.data.episodes.includes(e.id));
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'TVEpisode',
+  name: d.title,
+  episodeNumber: d.episode,
+  datePublished: d.air_date,
+  partOfSeason: { '@type': 'TVSeason', seasonNumber: d.season },
+  partOfSeries: { '@type': 'TVSeries', name: `${seriesTitle} (${d.series})` },
+  author: d.writers.map((n) => ({ '@type': 'Person', name: n })),
+  director: d.directors.map((n) => ({ '@type': 'Person', name: n })),
+  actor: d.cast.map((n) => ({ '@type': 'Person', name: n })),
+  sameAs: [d.ids?.imdb && `https://www.imdb.com/title/${d.ids.imdb}/`, d.links?.wikipedia].filter(Boolean),
+};
+const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), first aired ${formatDate(d.air_date) ?? 'date unknown'}. Written by ${d.writers.join(', ') || 'unknown'}; directed by ${d.directors.join(', ') || 'unknown'}.`;
+---
+<Base title={`${d.title} (${d.series})`} description={description} jsonld={jsonld}>
+  <InCategories recKey={`episodes/${e.id}`} extra={[[`${d.series} series`, `/series/${d.series}/`], [`Season ${d.season}`, `/series/${d.series}/#season-${d.season}`]]} />
+  <h1>{d.title}</h1>
+  {d.aka.length > 0 && <p class="muted">Also known as {d.aka.join(', ')}</p>}
+  <p class="muted" data-pagefind-meta="series">{seriesTitle} ({d.series}) · Season {d.season}, episode {d.episode}</p>
+  <div hidden data-pagefind-ignore><span data-pagefind-filter="Series">{d.series} series</span>{d.air_date && <span data-pagefind-filter="Decade">{d.air_date.slice(0, 3)}0s</span>}{[...d.writers, ...d.source_authors].map((n) => <span data-pagefind-filter="Writer">{n}</span>)}{d.themes.map((t) => <span data-pagefind-filter="Theme">{t}</span>)}</div>
+  <EpisodeActions id={e.id} />
+
+  <dl class="facts">
+    {d.air_date && <><dt>First aired</dt><dd>{formatDate(d.air_date)}</dd></>}
+    {d.runtime_min && <><dt>Runtime</dt><dd>{d.runtime_min} minutes</dd></>}
+    {d.production_code && <><dt>Production code</dt><dd>{d.production_code}</dd></>}
+    {d.writers.length > 0 && <><dt>Written by</dt><dd>{d.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}{d.writing_credit_note && <div class="small muted">{d.writing_credit_note}</div>}</dd></>}
+    {d.source_authors.length > 0 && <><dt>Based on a story by</dt><dd>{d.source_authors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
+    {d.directors.length > 0 && <><dt>Directed by</dt><dd>{d.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
+    {d.narrator && <><dt>Narrator</dt><dd><a href={personUrl(d.narrator)}>{d.narrator}</a></dd></>}
+    {d.cast.length > 0 && <><dt>Cast</dt><dd>{d.cast.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
+  </dl>
+
+  {d.synopsis ? (
+    <section><h2>Synopsis</h2><p>{d.synopsis}</p></section>
+  ) : (
+    <p class="notice">A synopsis for this episode has not been written yet.</p>
+  )}
+  <EpisodeExtras e={e} />
+
+  {d.trivia.length > 0 && (
+    <section>
+      <h2>Did you know</h2>
+      <ul>
+        {d.trivia.map((t) => (
+          <li>{t.text} <span class="small muted">({t.sources.map((src, i) => <>{i > 0 && ', '}{src.url ? <a href={src.url} rel="noopener">{src.title}</a> : src.title}</>)})</span></li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {drawsOn.length > 0 && (
+    <section>
+      <h2>Draws on</h2>
+      <ul class="plain">
+        {drawsOn.map(({ c, work }) => (
+          <li><span class="tag">{CONNECTION_LABELS[c.data.kind]}</span>{work ? <a href={work.url}>{work.title}</a> : c.data.to}{work && <span class="muted small"> ({work.kind})</span>} <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span></li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {(legacy.length > 0 || radio.length > 0) && (
+    <section>
+      <h2>Legacy</h2>
+      {legacy.length > 0 && (
+        <ul class="plain">
+          {legacy.map(({ c, work }) => (
+            <li>
+              <span class="tag">{CONNECTION_LABELS[c.data.kind]}</span>
+              {work ? <a href={work.url}>{work.title}</a> : c.data.from}
+              {work && <span class="muted small"> ({work.kind})</span>}
+              {' '}<span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+      {radio.length > 0 && (
+        <p>Adapted as a radio drama: {radio.map((r, i) => <>{i > 0 && ', '}<a href={`/radio/${r.id}/`}>{r.data.title}</a>{r.data.volume && ` (Volume ${r.data.volume})`}</>)}</p>
+      )}
+    </section>
+  )}
+
+  {places.length > 0 && (
+    <section>
+      <h2>Filming locations</h2>
+      <ul class="plain">{places.map((l) => <li><a href={`/places/${l.id}/`}>{l.data.name}</a>{l.data.filmed.find((f) => f.ref === e.id)?.note && <div class="small muted">{l.data.filmed.find((f) => f.ref === e.id)!.note}</div>}</li>)}</ul>
+    </section>
+  )}
+
+  {quotes.length > 0 && (
+    <section>
+      <h2>Voices</h2>
+      {quotes.map((q) => (
+        <figure class="quote">
+          <blockquote>{q.data.text}</blockquote>
+          <figcaption><a href={personUrl(q.data.person)}>{q.data.person}</a>{q.data.sources[0]?.url && <span class="small muted"> · <a href={q.data.sources[0].url} rel="noopener">{q.data.sources[0].title}</a></span>}</figcaption>
+        </figure>
+      ))}
+    </section>
+  )}
+
+  <section>
+    <h2>More about this episode elsewhere</h2>
+    <ul>
+      {d.ids?.imdb && <li><a href={`https://www.imdb.com/title/${d.ids.imdb}/`} rel="noopener">IMDb</a></li>}
+      {d.links?.wikipedia && <li><a href={d.links.wikipedia} rel="noopener">Wikipedia</a></li>}
+      {d.links?.justwatch && <li><a href={d.links.justwatch} rel="noopener">Where to watch (JustWatch)</a></li>}
+    </ul>
+  </section>
+  <Related recKey={`episodes/${e.id}`} skip={['people']} inherit={`series/${d.series}`} exclude={places.map((l) => `/places/${l.id}/`)} />
+  <Media recKey={`episodes/${e.id}`} skip={["quote"]} />
+
+  <Sources sources={d.sources} verified={d.last_verified} />
+
+  <nav class="pager" aria-label="Episodes">
+    <span>{prev && <a href={`/episodes/${prev.id}/`}>← {prev.data.title}</a>}</span>
+    <span>{next && <a href={`/episodes/${next.id}/`}>{next.data.title} →</a>}</span>
+  </nav>
+</Base>

@@ -1,0 +1,20 @@
+name: Steve Cranston
+kind: human
+played_by:
+- Charles Haid
+appears_in:
+- 1985/street-of-shadows
+description: >-
+  An out-of-work builder whose family is living in a homeless shelter. He breaks into a wealthy man's home for a
+  night's shelter and wakes up in the owner's body and life.
+recurring: false
+relevance: core
+sources:
+- title: Street of Shadows (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/Street_of_Shadows_(The_Twilight_Zone)
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters

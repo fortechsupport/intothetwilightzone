@@ -1,0 +1,17 @@
+name: Gabe
+kind: human
+played_by:
+- Christopher Titus
+appears_in:
+- 2002/gabes-story
+description: >-
+  A chronically unlucky deliveryman who suddenly sees the hidden chain of events behind each of his misfortunes.
+recurring: false
+relevance: core
+sources:
+- title: The Twilight Zone (2002 TV series) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
+research_confidence: medium
+last_verified: '2026-11-20'
+categories:
+- people/characters

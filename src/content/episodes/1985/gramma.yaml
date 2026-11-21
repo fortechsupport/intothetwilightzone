@@ -1,0 +1,38 @@
+title: Gramma
+series: '1985'
+season: 1
+episode: '18a'
+air_date: '1986-02-14'
+runtime_min: 21
+writers:
+- Harlan Ellison
+writing_credit_note: Teleplay by Harlan Ellison; based on the short story "Gramma" by Stephen King
+source_authors:
+- Stephen King
+directors:
+- Bradford May
+cast:
+- Barret Oliver
+- Darlanne Fluegel
+- Kane Hodder
+- Piper Laurie
+narrator: Charles Aidman
+synopsis: Left home alone, a young boy must look after his bedridden grandmother, a frightening woman he has always
+  feared and about whom his family whispers dark rumors.
+themes:
+- family
+- fear
+- witchcraft
+ids:
+  imdb: tt0734711
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Gramma_(The_Twilight_Zone)
+sources:
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+- title: List of The Twilight Zone (1985 TV series) episodes - Wikipedia
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+- title: The Twilight Zone (1985) Season 1 - TheTVDB
+  url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+last_verified: '2026-11-19'
+locked: true

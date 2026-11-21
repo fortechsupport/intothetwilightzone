@@ -1,0 +1,20 @@
+name: The haunted Model A
+aka: []
+kind: object
+played_by: []
+appears_in:
+- 1959/the-whole-truth
+description: >-
+  A 1920s Model A Ford that makes its owner unable to lie. Hunnicut sees it as a weapon in the Cold War when he
+  sells it to the Soviet premier.
+recurring: false
+relevance: core
+sources:
+- title: The Whole Truth (The Twilight Zone) - Wikipedia
+  url: https://en.wikipedia.org/wiki/The_Whole_Truth_(The_Twilight_Zone)
+- title: 'The Twilight Zone: The Whole Truth - IMDb'
+  url: https://www.imdb.com/title/tt0734681/
+research_confidence: high
+last_verified: '2026-11-20'
+categories:
+- people/characters
