@@ -7,6 +7,8 @@ import { allHomageRows } from '../../lib/television';
 import { CONNECTION_LABELS, CONNECTION_VERBS, CONFIDENCE_LABELS } from '../../lib/data';
 import { sortKey } from '../../lib/categories';
 import { watchFor, watchShort } from '../../lib/watch';
+import ThemeList from '../../components/ThemeList.astro';
+import { episodeThemes, topThemes, THEMES } from '../../lib/themes';
 
 const rows = [...await allHomageRows()].sort((a, b) => sortKey(a.l.title).localeCompare(sortKey(b.l.title)) || sortKey(a.show).localeCompare(sortKey(b.show)));
 const shows = [...new Set(rows.map((r) => r.show))].sort((a, b) => sortKey(a).localeCompare(sortKey(b)));
@@ -16,9 +18,13 @@ const SERIES_NAME: Record<string, string> = { '1959': 'The Twilight Zone (1959)'
 const tzs = Object.keys(SERIES_NAME).filter((k) => rows.some((r) => r.tzSeries === k));
 // Where each show streams, shown once above the list when the Show filter picks one (Adam, 2026-11-21).
 const watchOf = Object.fromEntries(shows.map((sh) => { const i = watchFor({ show: sh }); return [sh, [watchShort(i.w) ?? '', i.w?.justwatch ?? i.search.justwatch, rows.find((r) => r.show === sh)?.showHref ?? '']]; }));
+// Each homage takes the themes of the episode it points to (decision 0004).
+const epT = await episodeThemes();
+const themesOf = (href: string) => epT.get(/^\/episodes\/(.+)\/$/.exec(href)?.[1] ?? '') ?? [];
+const themeCounts = new Map(topThemes(rows.map((r) => themesOf(r.l.href)), 99));
 const count = (c: string) => rows.filter((r) => r.l.certainty === c).length;
 ---
-<Base title="Twilight Zone homages on television" description={`All ${rows.length} Twilight Zone homages, parodies and references we know of in other television shows, filterable by type, show, series and how sure we are.`}>
+<Base title="Twilight Zone homages on television" description={`All ${rows.length} Twilight Zone homages, parodies and references we know of in other television shows, filterable by type, show, series, theme and how sure we are.`}>
   <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/watch/">Watch</a> / <a href="/series/">Television</a> / <a href="/series/homages/">Homages</a></p>
   <h1>Homages on television</h1>
   <p class="lead">{rows.length} homages, parodies and references to The Twilight Zone in {shows.length} other shows.</p>
@@ -28,6 +34,7 @@ const count = (c: string) => rows.filter((r) => r.l.certainty === c).length;
     <label>Type <select data-f="kind"><option value="">Any</option>{kinds.map((k) => <option value={k}>{CONNECTION_LABELS[k] ?? k} ({rows.filter((r) => r.l.kind === k).length})</option>)}</select></label>
     <label>Show <select data-f="show"><option value="">Any</option>{shows.map((s) => <option value={s}>{s} ({rows.filter((r) => r.show === s).length})</option>)}</select></label>
     <label>Series <select data-f="tz"><option value="">Any</option>{tzs.map((k) => <option value={k}>{SERIES_NAME[k]}</option>)}</select></label>
+    <label>Theme <select data-f="theme"><option value="">Any</option>{THEMES.filter((t) => themeCounts.has(t.slug)).map((t) => <option value={t.slug}>{t.label} ({themeCounts.get(t.slug)})</option>)}</select></label>
     <label>How sure <select data-f="cert"><option value="">Any</option>{certs.map((c) => <option value={c}>{CONFIDENCE_LABELS[c]}</option>)}</select></label>
     <label>Sort <select data-f="sort"><option value="tz">By episode</option><option value="show">By show</option><option value="new">Newest first</option><option value="old">Oldest first</option></select></label>
     <span class="small muted" id="hf-count" role="status"></span>
@@ -35,10 +42,11 @@ const count = (c: string) => rows.filter((r) => r.l.certainty === c).length;
   <p class="watch-banner" id="hf-watch" hidden data-pagefind-ignore></p>
   <ol class="plain homage-list" id="hl">
     {rows.map((r) => (
-      <li class="card" data-kind={r.l.kind} data-show={r.show} data-tz={r.tzSeries} data-cert={r.l.certainty} data-s-tz={sortKey(r.l.title)} data-s-show={`${sortKey(r.show)}|${r.e.date ?? ''}`} data-year={(r.e.date ?? '').slice(0, 4)}>
+      <li class="card" data-kind={r.l.kind} data-show={r.show} data-tz={r.tzSeries} data-cert={r.l.certainty} data-themes={`|${themesOf(r.l.href).join('|')}|`} data-s-tz={sortKey(r.l.title)} data-s-show={`${sortKey(r.show)}|${r.e.date ?? ''}`} data-year={(r.e.date ?? '').slice(0, 4)}>
         <h2 class="homage-where"><a href={r.href}>{r.whole || r.show === r.e.title ? r.e.title : <>{r.show}: {r.e.title}</>}</a>{r.e.date && <span class="muted small"> · {r.e.date.slice(0, 4)}</span>}</h2>
         <p>{CONNECTION_VERBS[r.l.kind] ?? CONNECTION_LABELS[r.l.kind]} <a href={r.l.href}>{r.l.title}</a> <span class={`tag ${r.l.certainty}`}>{CONFIDENCE_LABELS[r.l.certainty]}</span></p>
         {r.l.evidence && <p class="small muted">{r.l.evidence}</p>}
+        <ThemeList slugs={themesOf(r.l.href)} as="line" from="the episode" />
       </li>
     ))}
   </ol>
@@ -48,14 +56,14 @@ const count = (c: string) => rows.filter((r) => r.l.certainty === c).length;
       const form = document.getElementById('hf'); const list = document.getElementById('hl'); const items = [...list.children]; const count = document.getElementById('hf-count');
       for (const it of items) it.dataset.text = it.textContent.toLowerCase();
       const v = (k) => form.querySelector(`[data-f="${k}"]`).value;
-      const keys = ['q', 'kind', 'show', 'tz', 'cert', 'sort'];
+      const keys = ['q', 'kind', 'show', 'tz', 'theme', 'cert', 'sort'];
       const p = new URLSearchParams(location.search);
       for (const k of keys) if (p.get(k)) form.querySelector(`[data-f="${k}"]`).value = p.get(k);
       const yr = (x) => Number(x.dataset.year || 0);
       const cmp = { tz: (a, b) => a.dataset.sTz.localeCompare(b.dataset.sTz), show: (a, b) => a.dataset.sShow.localeCompare(b.dataset.sShow), new: (a, b) => yr(b) - yr(a), old: (a, b) => (yr(a) || 9999) - (yr(b) || 9999) };
       const apply = () => {
         const f = { kind: v('kind'), show: v('show'), tz: v('tz'), cert: v('cert') }; const q = v('q').trim().toLowerCase(); let n = 0;
-        for (const it of items) { const ok = Object.entries(f).every(([k, x]) => !x || it.dataset[k] === x) && (!q || it.dataset.text.includes(q)); it.hidden = !ok; if (ok) n++; }
+        for (const it of items) { const ok = Object.entries(f).every(([k, x]) => !x || it.dataset[k] === x) && (!v('theme') || it.dataset.themes.includes(`|${v('theme')}|`)) && (!q || it.dataset.text.includes(q)); it.hidden = !ok; if (ok) n++; }
         [...items].sort((a, b) => cmp[v('sort') || 'tz'](a, b) || a.dataset.sTz.localeCompare(b.dataset.sTz)).forEach((x) => list.appendChild(x));
         const wb = document.getElementById('hf-watch'); const ws = v('show') && watchOf[v('show')];
         if (ws) {

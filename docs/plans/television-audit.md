@@ -72,3 +72,12 @@ external links open in new tabs." Recorded as decision 0003.
 - Filled in after merge: 112 shows and series checked. Not on JustWatch US: the 2002 revival, Playhouse 90, Studio One, The U.S. Steel Hour, Kraft, Climax!, The Jane Wyman Show, Chrysler Theatre, Journey to the Unknown, Out of This World, Science Fiction Theatre, The Loner, B.J. and the Bear, Ghost Story, Ichabod and Me, Hot Metal, Hoppity Hooper, Muppets Tonight, Countdown, Svengoolie, The Charmings, The Flash (1990), Muppet Babies (1984); they show search links.
 - Movies and TV films: search links only; check each film's JustWatch page in a later round.
 - /series/1959/ is 305 KB, just over the 300 KB target, after the new-tab attributes.
+
+## Themes (2026-11-21, Adam: "include it for all series, episodes, and homages")
+
+Built in one pull request; decision 0004. Acceptance: every Twilight Zone episode maps to 1–4 of the 41 themes (pass: 329
+of 329); every Night Gallery segment has 1–3 (pass: 96 of 96); theme filter works on series tables, the explorer and the
+homages page, and survives in the address; /themes/ and 41 theme pages pass check:site and check:a11y.
+
+- *Decided here (Adam reviews later):* the 41 theme names and families; the keyword-to-theme aliases; the Night Gallery readings.
+- *Found, for later:* themes for Serling's other plays once they have summaries; /series/1959/ is 308 KB, over the 300 KB target.

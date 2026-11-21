@@ -1,0 +1,100 @@
+# Themes for records that carry no theme keywords of their own (Adam, 2026-11-21): Night Gallery segments.
+# Each list is our editors' reading of the segment's summary on this site (src/content/films/night-gallery-*.yaml),
+# not a claim by the show's makers, and pages say so. Slugs come from data/themes.yaml; one to three per segment.
+# Key: "<film id>#<segment number from 0>", with the title alongside so a reader can check it.
+night-gallery-pilot#0: { title: "The Cemetery", themes: [greed, justice, the-uncanny] }
+night-gallery-pilot#1: { title: "Eyes", themes: [power, greed, justice] }
+night-gallery-pilot#2: { title: "Escape Route", themes: [war, justice, dreams-and-escape] }
+night-gallery-s1e01#0: { title: "The Dead Man", themes: [technology, power] }
+night-gallery-s1e01#1: { title: "The Housekeeper", themes: [the-uncanny, doubles, marriage] }
+night-gallery-s1e02#0: { title: "Room with a View", themes: [marriage, justice] }
+night-gallery-s1e02#1: { title: "The Little Black Bag", themes: [time-travel, greed, technology] }
+night-gallery-s1e02#2: { title: "The Nature of the Enemy", themes: [space, aliens] }
+night-gallery-s1e03#0: { title: "The House", themes: [dreams-and-escape, sanity, the-uncanny] }
+night-gallery-s1e03#1: { title: "Certain Shadows on the Wall", themes: [the-uncanny, justice, family] }
+night-gallery-s1e04#0: { title: "Make Me Laugh", themes: [wishes, fame-and-media] }
+night-gallery-s1e04#1: { title: "Clean Kills and Other Trophies", themes: [justice, power, family] }
+night-gallery-s1e05#0: { title: "Pamela's Voice", themes: [marriage, justice, afterlife] }
+night-gallery-s1e05#1: { title: "Lone Survivor", themes: [survival, redemption, justice] }
+night-gallery-s1e05#2: { title: "The Doll", themes: [doubles, justice, the-uncanny] }
+night-gallery-s1e06#0: { title: "They're Tearing Down Tim Riley's Bar", themes: [nostalgia, aging, isolation] }
+night-gallery-s1e06#1: { title: "The Last Laurel", themes: [marriage, sanity] }
+night-gallery-s2e01#0: { title: "The Boy Who Predicted Earthquakes", themes: [fate, fame-and-media, childhood] }
+night-gallery-s2e01#1: { title: "Miss Lovecraft Sent Me", themes: [the-uncanny] }
+night-gallery-s2e01#2: { title: "The Hand of Borgus Weems", themes: [sanity, the-uncanny] }
+night-gallery-s2e01#3: { title: "Phantom of What Opera?", themes: [monsters] }
+night-gallery-s2e02#0: { title: "Death in the Family", themes: [death, family, isolation] }
+night-gallery-s2e02#1: { title: "The Merciful", themes: [marriage] }
+night-gallery-s2e02#2: { title: "Class of '99", themes: [prejudice, technology, conformity] }
+night-gallery-s2e02#3: { title: "Witches' Feast", themes: [the-uncanny] }
+night-gallery-s2e03#0: { title: "Since Aunt Ada Came to Stay", themes: [the-uncanny, marriage, identity] }
+night-gallery-s2e03#1: { title: "With Apologies to Mr. Hyde", themes: [doubles] }
+night-gallery-s2e03#2: { title: "The Flip-Side of Satan", themes: [deals-with-the-devil, justice, fame-and-media] }
+night-gallery-s2e04#0: { title: "A Fear of Spiders", themes: [monsters, isolation, kindness] }
+night-gallery-s2e04#1: { title: "Junior", themes: [monsters, family] }
+night-gallery-s2e04#2: { title: "Marmalade Wine", themes: [fate, power] }
+night-gallery-s2e04#3: { title: "The Academy", themes: [conformity, family, childhood] }
+night-gallery-s2e05#0: { title: "The Phantom Farmhouse", themes: [monsters, love] }
+night-gallery-s2e05#1: { title: "Silent Snow, Secret Snow", themes: [isolation, sanity, childhood] }
+night-gallery-s2e06#0: { title: "A Question of Fear", themes: [the-uncanny, power] }
+night-gallery-s2e06#1: { title: "The Devil Is Not Mocked", themes: [war, monsters, justice] }
+night-gallery-s2e07#0: { title: "Midnight Never Ends", themes: [time-travel, fate] }
+night-gallery-s2e07#1: { title: "Brenda", themes: [monsters, isolation, childhood] }
+night-gallery-s2e08#0: { title: "The Diary", themes: [fate, fame-and-media, redemption] }
+night-gallery-s2e08#1: { title: "A Matter of Semantics", themes: [the-uncanny] }
+night-gallery-s2e08#2: { title: "Big Surprise", themes: [childhood, the-uncanny] }
+night-gallery-s2e08#3: { title: "Professor Peabody's Last Lecture", themes: [power, the-uncanny] }
+night-gallery-s2e09#0: { title: "House – with Ghost", themes: [marriage, the-uncanny] }
+night-gallery-s2e09#1: { title: "A Midnight Visit to the Neighborhood Blood Bank", themes: [the-uncanny] }
+night-gallery-s2e09#2: { title: "Dr. Stringfellow's Rejuvenator", themes: [greed, faith, death] }
+night-gallery-s2e09#3: { title: "Hell's Bells", themes: [afterlife] }
+night-gallery-s2e10#0: { title: "The Dark Boy", themes: [the-uncanny, grief, childhood] }
+night-gallery-s2e10#1: { title: "Keep in Touch – We'll Think of Something", themes: [dreams-and-escape, love, sanity] }
+night-gallery-s2e11#0: { title: "Pickman's Model", themes: [monsters, dreams-and-escape] }
+night-gallery-s2e11#1: { title: "The Dear Departed", themes: [greed, justice, afterlife] }
+night-gallery-s2e11#2: { title: "An Act of Chivalry", themes: [death] }
+night-gallery-s2e12#0: { title: "Cool Air", themes: [immortality, love] }
+night-gallery-s2e12#1: { title: "Camera Obscura", themes: [greed, justice] }
+night-gallery-s2e12#2: { title: "Quoth the Raven", themes: [dreams-and-escape] }
+night-gallery-s2e13#0: { title: "The Messiah on Mott Street", themes: [faith, family, death] }
+night-gallery-s2e13#1: { title: "The Painted Mirror", themes: [other-worlds, greed] }
+night-gallery-s2e14#0: { title: "The Different Ones", themes: [prejudice, aliens, family] }
+night-gallery-s2e14#1: { title: "Tell David…", themes: [fate, marriage] }
+night-gallery-s2e14#2: { title: "Logoda's Heads", themes: [the-uncanny, justice] }
+night-gallery-s2e15#0: { title: "Green Fingers", themes: [greed, justice, aging] }
+night-gallery-s2e15#1: { title: "The Funeral", themes: [monsters, death] }
+night-gallery-s2e15#2: { title: "The Tune in Dan's Café", themes: [marriage, the-uncanny, love] }
+night-gallery-s2e16#0: { title: "Lindemann's Catch", themes: [love, power, monsters] }
+night-gallery-s2e16#1: { title: "The Late Mr. Peddington", themes: [greed, marriage, death] }
+night-gallery-s2e16#2: { title: "A Feast of Blood", themes: [justice, monsters] }
+night-gallery-s2e17#0: { title: "The Miracle at Camafeo", themes: [faith, greed, justice] }
+night-gallery-s2e17#1: { title: "The Ghost of Sorworth Place", themes: [the-uncanny, love] }
+night-gallery-s2e18#0: { title: "The Waiting Room", themes: [afterlife, death, nostalgia] }
+night-gallery-s2e18#1: { title: "Last Rites for a Dead Druid", themes: [the-uncanny, doubles, marriage] }
+night-gallery-s2e19#0: { title: "Deliveries in the Rear", themes: [greed, justice, death] }
+night-gallery-s2e19#1: { title: "Stop Killing Me", themes: [marriage] }
+night-gallery-s2e19#2: { title: "Dead Weight", themes: [greed, justice] }
+night-gallery-s2e20#0: { title: "I'll Never Leave You – Ever", themes: [marriage, deals-with-the-devil, the-uncanny] }
+night-gallery-s2e20#1: { title: "There Aren't Any More MacBanes", themes: [power, family, monsters] }
+night-gallery-s2e21#0: { title: "The Sins of the Fathers", themes: [faith, family, survival] }
+night-gallery-s2e21#1: { title: "You Can't Get Help Like That Anymore", themes: [technology, power, justice] }
+night-gallery-s2e22#0: { title: "The Caterpillar", themes: [love, justice, monsters] }
+night-gallery-s2e22#1: { title: "Little Girl Lost", themes: [war, grief, family] }
+night-gallery-s2e22#2: { title: "Satisfaction Guaranteed", themes: [monsters, work-and-class] }
+night-gallery-s3e01#0: { title: "The Return of the Sorcerer", themes: [the-uncanny, doubles] }
+night-gallery-s3e02#0: { title: "The Girl with the Hungry Eyes", themes: [fame-and-media, monsters] }
+night-gallery-s3e03#0: { title: "Rare Objects", themes: [justice, isolation] }
+night-gallery-s3e04#0: { title: "Spectre in Tap-Shoes", themes: [the-uncanny, doubles, grief] }
+night-gallery-s3e05#0: { title: "You Can Come Up Now, Mrs. Millikan", themes: [technology, marriage, death] }
+night-gallery-s3e05#1: { title: "Smile, Please", themes: [the-uncanny] }
+night-gallery-s3e06#0: { title: "The Other Way Out", themes: [justice] }
+night-gallery-s3e07#0: { title: "Fright Night", themes: [the-uncanny, marriage] }
+night-gallery-s3e08#0: { title: "Finnegan's Flight", themes: [dreams-and-escape, sanity] }
+night-gallery-s3e09#0: { title: "She'll Be Company for You", themes: [marriage, grief, the-uncanny] }
+night-gallery-s3e10#0: { title: "The Ring with the Red Velvet Ropes", themes: [power, fame-and-media] }
+night-gallery-s3e11#0: { title: "Something in the Woodwork", themes: [the-uncanny, isolation, marriage] }
+night-gallery-s3e12#0: { title: "Death on a Barge", themes: [monsters, love] }
+night-gallery-s3e13#0: { title: "Whisper", themes: [the-uncanny, marriage, identity] }
+night-gallery-s3e14#0: { title: "The Doll of Death", themes: [the-uncanny, justice, love] }
+night-gallery-s3e15#0: { title: "Hatred unto Death", themes: [monsters, justice] }
+night-gallery-s3e15#1: { title: "How to Cure the Common Vampire", themes: [monsters] }
