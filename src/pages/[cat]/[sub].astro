@@ -5,7 +5,7 @@ import Base from '../../layouts/Base.astro';
 import EntryList from '../../components/EntryList.astro';
 import SectionSummary from '../../components/SectionSummary.astro';
 import { catalog, type CatInfo, type SubInfo, type Entry } from '../../lib/catalog';
-import { sortKey, OFFICIAL_LABEL, UNOFFICIAL_LABEL, GROUPS, groupHref } from '../../lib/taxonomy.mjs';
+import { sortKey, OFFICIAL_LABEL, UNOFFICIAL_LABEL, verbOf } from '../../lib/taxonomy.mjs';
 
 export async function getStaticPaths() {
   const cats = await catalog();
@@ -50,7 +50,7 @@ const siblings = c.subs.filter((x) => x.entries.length > 0);
 const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
 ---
 <Base title={`${s.title}: ${c.title}`} description={`${s.title} (${c.title}): ${s.blurb}`}>
-  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a>{(() => { const g = GROUPS.find((x) => x.categories.some((y) => y.slug === c.slug)); return g && g.categories.length > 1 ? <> / <a href={groupHref(g)}>{g.title}</a></> : null; })()} / <a href={`/${c.slug}/`}>{c.title}</a></p>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a>{(() => { const g = verbOf(c.slug); return g ? <> / <a href={g.href}>{g.title}</a></> : null; })()} / <a href={`/${c.slug}/`}>{c.title}</a></p>
   <h1>{s.title} {(s.isNew || c.isNew) && <span class="tag new" title="Added during research; Adam decides whether to keep it">new</span>}</h1>
   <p class="lead">{s.entries.length.toLocaleString('en-US')} {s.entries.length === 1 ? 'entry' : 'entries'}{split && `: ${off.length.toLocaleString('en-US')} official, ${unoff.length.toLocaleString('en-US')} unofficial and inspired`}. {s.blurb}</p>
   {s.intro && <p>{s.intro}</p>}

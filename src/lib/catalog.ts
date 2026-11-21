@@ -5,7 +5,7 @@ import { getCollection } from 'astro:content';
 import { allEpisodes, allPeople, episodeNumber, splitCredit, CONNECTION_LABELS, CONFIDENCE_LABELS } from './data';
 import { assess } from './assessments';
 import { slugify } from './slug';
-import { TAXONOMY, CATEGORY, place, placePerson, explicitPlacements, mediaArtwork, libraryType, LIBRARY_TYPES, sortKey, subTitleFromSlug, SERIES_LABEL, contentOf, contentParents, isOfficial, orgSub } from './taxonomy.mjs';
+import { TAXONOMY, CATEGORY, place, placePerson, explicitPlacements, mediaArtwork, libraryType, LIBRARY_TYPES, sortKey, subTitleFromSlug, SERIES_LABEL, contentOf, contentParents, isOfficial, orgSub, remap } from './taxonomy.mjs';
 
 export interface Entry {
   key: string; // "<collection>/<id>" or a derived key
@@ -80,7 +80,8 @@ export async function catalog(): Promise<Map<string, CatInfo>> {
     cats.set(c.slug, { ...c, subs: c.subs.map((s) => ({ ...s, entries: [] })) });
   }
   const recPlaces = new Map<string, { cat: string; sub: string }[]>();
-  const put = (cat: string, sub: string, e: Entry, recKey?: string) => {
+  const put = (cat0: string, sub0: string, e: Entry, recKey?: string) => {
+    const { cat, sub } = remap(cat0, sub0);
     let c = cats.get(cat);
     if (!c) {
       c = { slug: cat, title: subTitleFromSlug(cat), isNew: true, description: `${subTitleFromSlug(cat)}: added during research.`, intro: ['A category added during research. Adam decides whether to keep it.'], connection: 'Each entry states its own connection to The Twilight Zone.', subs: [] };

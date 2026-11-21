@@ -1,0 +1,41 @@
+---
+// A verb's landing page (/watch/, /read/, /meet/...): its categories as cards, Read's collections, and the
+// people, places, organizations and media most connected to everything under it.
+import Base from '../layouts/Base.astro';
+import SectionSummary from './SectionSummary.astro';
+import { navModel } from '../lib/nav';
+import { catalog } from '../lib/catalog';
+import { VERBS } from '../lib/taxonomy.mjs';
+interface Props { slug: string }
+const { slug } = Astro.props;
+const v = (await navModel()).find((x) => x.slug === slug)!;
+const def = VERBS.find((x) => x.slug === slug)!;
+const cats = await catalog();
+const isDir = slug === 'meet' || slug === 'visit';
+const entries = isDir ? [] : [...new Map(def.categories.flatMap((c) => cats.get(c.slug)?.subs.flatMap((s) => s.entries.map((e) => [e.key, e] as const)) ?? [])).values()];
+const SPLIT = 'Each category shows official items (made, licensed or published by the franchise or by Rod Serling) and unofficial or inspired ones on separate shelves.';
+---
+<Base title={v.title} description={`${v.title}: ${v.blurb}`}>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a></p>
+  <h1>{v.title}</h1>
+  <p class="lead">{v.blurb} {v.n.toLocaleString('en-US')} entries in {v.cols.length} categories.</p>
+  {!isDir && <p class="small muted">{SPLIT} Reviews, interviews, clips and documents appear on the pages they belong to, and all together in the <a href="/media/">Media Library</a>.</p>}
+  <div class="grid">
+    {v.cols.map((c) => (
+      <a class="card" href={c.href}>
+        <span class="count">{c.n.toLocaleString('en-US')}</span>
+        <h3>{c.title}{c.isNew && <span class="tag new">new</span>}</h3>
+        {c.blurb && <p>{c.blurb}</p>}
+        {c.subs.length > 0 && <p class="small muted">{c.subs.map((x) => x.title).join(' · ')}</p>}
+      </a>
+    ))}
+  </div>
+  {v.collections && (
+    <>
+      <h2 id="collections">Collections</h2>
+      <p class="small muted">Topics that cut across formats. Each item also sits in its format above.</p>
+      <ul class="plain">{v.collections.map((x) => <li><a href={x.href}>{x.title}</a> <span class="count-pill">{x.n}</span></li>)}</ul>
+    </>
+  )}
+  {!isDir && entries.length > 0 && <SectionSummary entries={entries} label={v.title} />}
+</Base>

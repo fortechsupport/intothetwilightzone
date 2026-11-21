@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import unlinkHidden from './integrations/unlink-hidden.mjs';
+import { MOVED_PATHS, OLD_GROUPS } from './src/lib/taxonomy.mjs';
 
 // Old WordPress URLs (2023 site) mapped to their new homes.
 const redirects = {
@@ -79,6 +80,10 @@ const redirects = {
   '/media/links': '/media/?type=link',
   '/media/video': '/media/?type=video',
 };
+// The nine verbs (2026-11-21): group pages became verb pages, and some subcategories moved.
+for (const [g, v] of Object.entries(OLD_GROUPS)) redirects[`/explore/${g}`] = `/${v}/`;
+for (const [from, to] of Object.entries(MOVED_PATHS)) redirects[from.replace(/\/$/, '')] = to;
+for (const [k, t] of Object.entries(redirects)) if (MOVED_PATHS[t]) redirects[k] = MOVED_PATHS[t];
 
 export default defineConfig({
   site: 'https://intothetwilightzone.com',
