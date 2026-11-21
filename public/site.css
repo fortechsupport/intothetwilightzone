@@ -210,9 +210,13 @@ a.card:hover { border-color: var(--brass); color: var(--text); background: var(-
 /* ---------- 6. Record pages ---------- */
 .record-head { margin: var(--space-2) 0 var(--space-5); padding-bottom: var(--space-4); border-bottom: 1px solid var(--line); }
 .record-head h1 { margin: 2px 0 var(--space-2); max-width: 24ch; }
-.eyebrow { display: flex; flex-wrap: wrap; gap: 2px 10px; align-items: baseline; }
+/* The separator dot sits in each part's left padding; the wrapper's negative margin and the eyebrow's
+   overflow clip it whenever a part starts a new line, so a wrapped line never begins with a dot. */
+.eyebrow { overflow: hidden; }
+.eyebrow-in { display: flex; flex-wrap: wrap; row-gap: 2px; align-items: baseline; margin-left: -22px; }
+.eyebrow-type, .eyebrow-ctx { position: relative; padding-left: 22px; }
 .eyebrow-ctx { color: var(--muted); letter-spacing: .08em; }
-.eyebrow-ctx::before { content: '·'; margin-right: 10px; color: var(--line-strong); }
+.eyebrow-ctx::before { content: '·'; position: absolute; left: 7px; color: var(--line-strong); }
 .record-roles { color: var(--text-soft); font-size: var(--step--1); margin: 0; max-width: 70ch; }
 .record-actions:empty { display: none; }
 .record-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: var(--space-3); }
@@ -289,7 +293,7 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
 .hero-narration { font-family: var(--font-mono); color: var(--text-soft); max-width: 58ch; margin: var(--space-5) 0 var(--space-5); padding-left: var(--space-4); border-left: 2px solid var(--brass); font-size: 1rem; }
 .hero-narration cite { display: block; margin-top: var(--space-2); font-style: normal; color: var(--muted); font-family: var(--font-ui); font-size: var(--step--1); }
 .hero-search { display: flex; gap: 8px; max-width: 560px; margin: var(--space-5) 0 var(--space-4); }
-.hero-search input { flex: 1; min-height: 50px; font-size: 1.05rem; border-radius: var(--radius-pill); padding: 0 20px; background: var(--surface); }
+.hero-search input { flex: 1; min-width: 0; min-height: 50px; font-size: 1.05rem; border-radius: var(--radius-pill); padding: 0 20px; background: var(--surface); }
 .hero-search button { min-height: 50px; padding: 0 24px; }
 .hero-stats { display: grid; grid-template-columns: repeat(4, max-content); gap: var(--space-3) var(--space-6); margin: var(--space-5) 0 0; padding: 0; list-style: none; }
 .hero-stats li { display: flex; flex-direction: column; margin: 0; }
@@ -388,7 +392,15 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
   .panel, .tz-link, .subnav, .card { padding-left: var(--space-4); padding-right: var(--space-4); }
   .subnav ul { columns: 1; }
   .section-head { margin-top: var(--space-7); }
-  table.lib th:nth-child(3), table.lib td:nth-child(3), table.lib th:nth-child(5), table.lib td:nth-child(5) { display: none; }
+  /* Index tables become one card per row on phones: every cell kept, stacked. */
+  table.lib thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  table.lib, table.lib tbody { display: block; }
+  table.lib tr { display: block; padding: var(--space-3) var(--space-4); border-bottom: 1px solid var(--line); }
+  table.lib tr:last-child { border-bottom: 0; }
+  table.lib tr[hidden] { display: none; }
+  table.lib td { display: block; padding: 2px 0; border: 0; }
+  table.lib td:empty { display: none; }
+  table.lib td:first-child { font-size: var(--step-0); }
   .preview-banner { font-size: .7rem; padding: 3px 10px; }
 }
 @media (max-width: 360px) { .brand-mark { font-size: 1.05rem; } .header-search .label { display: none; } }
@@ -411,8 +423,14 @@ select, input, textarea { max-width: 100%; }
 .timeline-year[hidden] { display: none; }
 .timeline-year h2 { margin-top: var(--space-6); }
 .timeline-list { list-style: none; margin: 0; padding: 0; }
-.timeline-list li { padding: 0.2rem 0; border-bottom: 1px solid var(--line); }
+.timeline-list li { display: grid; grid-template-columns: 3.75rem minmax(0, 1fr); gap: var(--space-2); padding: 0.3rem 0; border-bottom: 1px solid var(--line); }
+.timeline-list li[hidden] { display: none; }
 .timeline-list li:last-child { border-bottom: 0; }
 .timeline-list .tag { margin-right: var(--space-2); }
-.timeline-date { display: inline-block; min-width: 3.75rem; color: var(--muted); font-size: var(--step--1); font-variant-numeric: tabular-nums; }
+.timeline-date { padding-top: 2px; color: var(--muted); font-size: var(--step--1); font-variant-numeric: tabular-nums; }
 .pager.top { margin-top: var(--space-3); border-top: 0; padding-top: 0; }
+.decade-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--space-3); }
+.decade-grid .card { padding: var(--space-3) var(--space-4); }
+.decade-grid .card .count { font-size: var(--step-2); }
+.decade-grid .card h3 { font-size: var(--step-0); font-family: var(--font-ui); font-weight: 600; }
+.decade-grid .card p { margin: 2px 0 0; font-size: var(--step--2); }

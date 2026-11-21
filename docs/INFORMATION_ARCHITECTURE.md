@@ -288,6 +288,8 @@ A person can hold several roles. Rod Serling is a writer, narrator, producer and
 
 Every item shows on the page of the record it belongs to. The Library lists each item once, with every page it appears on.
 
+**Pages (2026-11-21):** `/media/` is an overview of the types; each type has its own page (`/media/reviews/`, `/media/interviews/` and so on) with the sortable table, so no page carries the whole library. A record's "In the Media Library" link goes straight to its row on the type page. The same rule splits the two other long indexes: People has one page per letter (`/people/a-z/s/`) and the section page searches the whole index on demand, and the Timeline has a milestones page plus one page per decade (`/timeline/1960s/`).
+
 ---
 
 ## 4. Placement rules

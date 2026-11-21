@@ -27,6 +27,7 @@ const a = assess(key);
 const SKIP = new Set(['title', 'name', 'description', 'summary', 'notes', 'sources', 'ids', 'links', 'locked', 'tags', 'media', 'categories', 'duplicate_of', 'relevance', 'research_confidence', 'last_verified', 'details', 'episodes', 'appears_in', 'reviews', 'covers', 'featured_episodes', 'adapts_episode', 'text', 'person', 'order', 'season_order', 'volume_order', 'url']);
 const PEOPLE = new Set(['authors', 'creators', 'hosts', 'voiced_by', 'played_by', 'editor', 'artist', 'original_writer', 'adapted_by']);
 const LABEL: Record<string, string> = {
+  episode_count_as_of: 'Episode count as of',
   series_name: 'Series', series_title: 'Series', cover_date: 'Cover date', voiced_by: 'Voices', played_by: 'Played by', original_writer: 'Original writer',
   adapted_by: 'Adapted by', volume_released: 'Volume released', first_episode: 'First episode', episode_count: 'Episodes', published_in: 'Published in',
   review_type: 'Review type', outlet_rating: 'Rating given', tz_connection: 'Connection', isbn: 'ISBN', aka: 'Also known as',
@@ -59,7 +60,7 @@ const docTitle = recordDocTitle(col, d, title, { firstRef });
           Array.isArray(v)
             ? (v as unknown[]).map((x, i) => <>{i > 0 && ', '}{PEOPLE.has(k) && typeof x === 'string' ? (() => { const c = splitCredit(x); return <><a href={personUrl(c.name)}>{c.name}</a>{c.roles.length > 0 && <span class="muted"> ({c.roles.join(', ')})</span>}</>; })() : String(x)}</>)
             : PEOPLE.has(k) && typeof v === 'string' ? v.split(/,\s*/).map((x, i) => <>{i > 0 && ', '}<a href={personUrl(x)}>{x}</a></>)
-            : isDate(k) ? formatDate(String(v)) : typeof v === 'boolean' ? (v ? 'Yes' : 'No') : String(v).replace(/^([a-z])/, (m) => m.toUpperCase()).replace(/-/g, ' ')
+            : isDate(k) || /^\d{4}-\d{2}-\d{2}$/.test(String(v)) ? formatDate(String(v)) : typeof v === 'boolean' ? (v ? 'Yes' : 'No') : /^[a-z0-9]+(-[a-z0-9]+)+$/.test(String(v)) ? String(v).replace(/^([a-z])/, (m) => m.toUpperCase()).replace(/-/g, ' ') : String(v).replace(/^([a-z])/, (m) => m.toUpperCase())
         }</dd></>
       ))}
     </dl>

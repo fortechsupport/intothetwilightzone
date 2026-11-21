@@ -21,7 +21,7 @@ const kinds = [...new Set(items.map((i) => i.kind))].sort();
     <h2>{y}</h2>
     <ul class="timeline-list">
       {byYear.get(y)!.map((i) => (
-        <li class={kindClass(i.kind)}><span class="timeline-date">{fmtDay(i.date)}</span><span class="tag">{i.kind}</span>{i.url ? <a href={i.url}>{i.label}</a> : i.label}{i.detail && <span class="muted small"> · {i.detail}</span>}</li>
+        <li class={kindClass(i.kind)}><span class="timeline-date">{fmtDay(i.date)}</span><span><span class="tag">{i.kind}</span>{i.url ? <a href={i.url}>{i.label}</a> : i.label}{i.detail && <span class="muted small"> · {i.detail}</span>}</span></li>
       ))}
     </ul>
   </section>
