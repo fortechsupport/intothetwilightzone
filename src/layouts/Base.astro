@@ -16,6 +16,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
 import { navModel } from '../lib/nav';
 const verbs = await navModel();
 const nav = [
+  ['Start here', '/start/'],
   ['Search', '/search/'],
   ['Media Library', '/media/'],
   ['Timeline', '/timeline/'],
@@ -27,6 +28,14 @@ const nav = [
 // Record pages belong to a verb too, so its tab is marked while you read one.
 const RECORD_VERB: Record<string, string> = { series: 'watch', episodes: 'watch', films: 'watch', '1959series': 'watch', '1985series': 'watch', '2002series': 'watch', '2019series': 'watch', songs: 'listen', books: 'read', comics: 'read', magazines: 'read', essays: 'read', characters: 'meet' };
 const path = Astro.url.pathname;
+import { correctionUrl } from '../lib/fan/contribute';
+// One "Type" filter for site search, from the first part of the address.
+const TYPE_LABEL: Record<string, string> = {
+  episodes: 'Episodes', series: 'Series', films: 'Movies and screen', people: 'People', characters: 'Characters', places: 'Places',
+  organizations: 'Organizations', books: 'Reading', comics: 'Reading', magazines: 'Reading', essays: 'Reading', archives: 'Archives',
+  songs: 'Music', radio: 'Radio', podcasts: 'Podcasts', works: 'Other works', quotes: 'Quotes', paths: 'Guides', media: 'Media',
+};
+const searchType = TYPE_LABEL[path.split('/')[1] ?? ''] ?? (path === '/' ? undefined : 'Guides and indexes');
 const first = path.split('/')[1] ?? '';
 const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) => path.startsWith(c.href)) || (v.collections ?? []).some((c) => path.startsWith(c.href)))?.slug ?? RECORD_VERB[first];
 ---
@@ -45,6 +54,8 @@ const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) =>
     <meta property="og:url" content={canonical} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/site.css" />
+    <link rel="stylesheet" href="/fan.css" />
+    <script is:inline src="/fan.js" defer></script>
     {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
   </head>
   <body>
@@ -101,6 +112,7 @@ const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) =>
       })();
     </script>
     <main id="main" class="wrap" data-pagefind-body={noindex ? undefined : ''}>
+      {!noindex && searchType && <span hidden data-pagefind-ignore><span data-pagefind-filter="Type">{searchType}</span></span>}
       <slot />
     </main>
     <footer class="site-footer">
@@ -110,9 +122,9 @@ const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) =>
           endorsed by, or sponsored by CBS Studios, Paramount, the Rod Serling estate, or any rights holder.
           The Twilight Zone is a trademark of CBS Studios Inc. All other trademarks and copyrighted works belong
           to their respective owners and are referenced for commentary, criticism and historical documentation.
-          Rights holders can request corrections or removal through the <a href="/about/#contact">contact details</a>.
+          Rights holders can request corrections or removal through the <a href="/contribute/#rights">contribute page</a>.
         </p>
-        <p class="footer-links"><a href="/about/">About</a> · <a href="/sources/">Sources and policy</a> · <a href="/about/#contact">Contact and corrections</a></p>
+        <p class="footer-links"><a href="/about/">About</a> · <a href="/sources/">Sources and policy</a> · <a href={correctionUrl(canonical.href, path)} rel="noopener">Suggest a correction to this page</a> · <a href="/contribute/">Contribute</a> · <a href="/start/">Start here</a> · <a href="/my-zone/">My Zone</a></p>
       </div>
     </footer>
   </body>

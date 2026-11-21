@@ -1,0 +1,43 @@
+# Approximate map positions for places whose record has no lat/lng yet, used only by /map/.
+# precision: site = the venue itself (from its well-known location); city = the town or city centre.
+# Records' own lat/lng always win. Replace with exact coordinates in the location record when researched.
+wlw-radio-cincinnati-serling: { lat: 39.1031, lng: -84.5120, precision: city }
+wkrc-tv-cincinnati: { lat: 39.1031, lng: -84.5120, precision: city }
+moorpark-college: { lat: 34.2995, lng: -118.8340, precision: site }
+halfway-house-cafe-santa-clarita: { lat: 34.3917, lng: -118.5426, precision: city }
+ambassadors-theatre-twilight-zone-play: { lat: 51.5127, lng: -0.1279, precision: site }
+almeida-theatre-twilight-zone-play: { lat: 51.5393, lng: -0.1030, precision: site }
+serlingfest-binghamton: { lat: 42.0987, lng: -75.9180, precision: city }
+rod-serling-film-festival-binghamton: { lat: 42.0987, lng: -75.9180, precision: city }
+mirabito-stadium-binghamton-creatures: { lat: 42.1035, lng: -75.9040, precision: site }
+rod-serling-boyhood-home-bennett-avenue: { lat: 42.1040, lng: -75.9330, precision: city }
+bundy-museum-rod-serling-archive: { lat: 42.1000, lng: -75.9330, precision: city }
+broome-county-forum-theatre: { lat: 42.0990, lng: -75.9145, precision: city }
+suny-broome-community-college: { lat: 42.1380, lng: -75.9060, precision: site }
+camp-toccoa-currahee: { lat: 34.5773, lng: -83.3324, precision: city }
+tower-of-terror-tokyo-disneysea: { lat: 35.6267, lng: 139.8851, precision: site }
+tower-of-terror-disney-california-adventure: { lat: 33.8073, lng: -117.9170, precision: site }
+tower-of-terror-paris: { lat: 48.8674, lng: 2.7800, precision: site }
+vancouver-2002-series: { lat: 49.2827, lng: -123.1207, precision: city }
+arch-alley-vancouver-eddies-comedy-club: { lat: 49.2827, lng: -123.1207, precision: city }
+mgm-lot-2-new-england-street: { lat: 34.0135, lng: -118.3930, precision: city }
+mgm-new-york-street: { lat: 34.0135, lng: -118.3930, precision: city }
+former-culver-city-library-person-or-persons-unknown: { lat: 34.0211, lng: -118.3965, precision: city }
+anthonys-house-granada-hills: { lat: 34.2647, lng: -118.5236, precision: city }
+desolation-canyon-death-valley: { lat: 36.4100, lng: -116.8500, precision: city }
+sage-chapel-cornell-serling-memorial: { lat: 42.4470, lng: -76.4846, precision: site }
+ithaca-college-rod-serling-archives: { lat: 42.4220, lng: -76.4950, precision: site }
+universal-courthouse-square: { lat: 34.1381, lng: -118.3534, precision: site }
+ucla-campus-serling-talks: { lat: 34.0689, lng: -118.4452, precision: site }
+ucla-rod-serling-papers: { lat: 34.0750, lng: -118.4415, precision: site }
+rod-serling-hollywood-walk-of-fame-star: { lat: 34.1016, lng: -118.3387, precision: site }
+serling-pacific-palisades-home: { lat: 34.0480, lng: -118.5265, precision: city }
+serling-westport-connecticut: { lat: 41.1415, lng: -73.3579, precision: city }
+westport-library: { lat: 41.1410, lng: -73.3590, precision: site }
+elmira-college: { lat: 42.0980, lng: -76.8100, precision: site }
+serling-cayuga-lake-cottage-interlaken: { lat: 42.6181, lng: -76.7255, precision: city }
+wisconsin-center-film-theater-research-serling: { lat: 43.0750, lng: -89.4000, precision: city }
+strong-memorial-hospital-rochester: { lat: 43.1225, lng: -77.6250, precision: site }
+rod-serling-birthplace-syracuse: { lat: 43.0481, lng: -76.1474, precision: city }
+pacific-ocean-park-santa-monica: { lat: 34.0005, lng: -118.4840, precision: site }
+leyte-philippines-serling-wwii: { lat: 10.9, lng: 124.85, precision: city }

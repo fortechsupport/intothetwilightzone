@@ -1,0 +1,119 @@
+---
+import Base from '../layouts/Base.astro';
+import { episodeIndex, SERIES_LABEL } from '../lib/fan';
+import { sortKey } from '../lib/taxonomy.mjs';
+const rows = await episodeIndex();
+const tally = (vals: string[]) => {
+  const m = new Map<string, number>();
+  vals.forEach((v) => m.set(v, (m.get(v) ?? 0) + 1));
+  return [...m.entries()].sort((a, b) => sortKey(a[0]).localeCompare(sortKey(b[0])));
+};
+const writers = tally(rows.flatMap((r) => [...new Set([...r.w, ...r.sa])]));
+const directors = tally(rows.flatMap((r) => r.di));
+const themes = tally(rows.flatMap((r) => r.th));
+const actors = tally(rows.flatMap((r) => r.c));
+const decades = [...new Set(rows.map((r) => r.d.slice(0, 3)).filter(Boolean))].sort().map((d) => `${d}0s`);
+const seasons = [...new Set(rows.map((r) => r.se))].sort((a, b) => a - b);
+---
+<Base title="Episode finder" description="Find Twilight Zone episodes by series, season, decade, writer, director, actor and theme, all at once.">
+  <p class="breadcrumb"><a href="/start/">Start here</a> / Episode finder</p>
+  <h1>Episode finder</h1>
+  <p class="lead">Combine any filters to narrow all {rows.length} episodes of the four series. Every filter is listed A to Z with how many episodes it matches. Your choices are kept in the address, so you can bookmark or share a search.</p>
+
+  <form id="finder" class="finder" role="search" data-pagefind-ignore>
+    <div class="finder-row">
+      <label>Words in the title or synopsis <input type="search" name="q" autocomplete="off" placeholder="for example: mannequin, robot, Willoughby" /></label>
+    </div>
+    <div class="finder-grid">
+      <label>Series
+        <select name="series"><option value="">All series</option>{Object.entries(SERIES_LABEL).map(([v, l]) => <option value={v}>{l}</option>)}</select>
+      </label>
+      <label>Season
+        <select name="season"><option value="">Any season</option>{seasons.map((s) => <option value={s}>Season {s}</option>)}</select>
+      </label>
+      <label>Decade first aired
+        <select name="decade"><option value="">Any decade</option>{decades.map((d) => <option value={d.slice(0, 3)}>{d}</option>)}</select>
+      </label>
+      <label>Writer or source author
+        <input name="writer" list="dl-writers" placeholder="Any writer" />
+        <datalist id="dl-writers">{writers.map(([n, c]) => <option value={n}>{n} ({c})</option>)}</datalist>
+      </label>
+      <label>Director
+        <input name="director" list="dl-directors" placeholder="Any director" />
+        <datalist id="dl-directors">{directors.map(([n, c]) => <option value={n}>{n} ({c})</option>)}</datalist>
+      </label>
+      <label>Actor
+        <input name="actor" list="dl-actors" placeholder="Any actor" />
+        <datalist id="dl-actors">{actors.map(([n, c]) => <option value={n}>{n} ({c})</option>)}</datalist>
+      </label>
+      <label>Watched
+        <select name="seen"><option value="">Watched or not</option><option value="no">Not watched yet</option><option value="yes">Watched</option></select>
+      </label>
+      <label>Sort
+        <select name="sort"><option value="az">Title A to Z</option><option value="aired">First aired</option></select>
+      </label>
+    </div>
+    <fieldset class="theme-chips">
+      <legend>Themes <span class="small muted">(pick any; episodes must match all)</span></legend>
+      {themes.map(([t, c]) => <label class="chip"><input type="checkbox" name="theme" value={t} /> {t} <span class="muted">{c}</span></label>)}
+    </fieldset>
+    <p><button type="reset" class="mini">Clear all filters</button></p>
+  </form>
+
+  <p id="finder-count" class="finder-count" aria-live="polite"></p>
+  <ul id="finder-results" class="finder-results plain"></ul>
+  <noscript><p class="notice">The finder needs JavaScript. Every episode is also listed on its <a href="/series/">series page</a>, and <a href="/search/">site search</a> works without it.</p></noscript>
+
+  <script>
+    type Row = { id: string; t: string; s: string; se: number; n: string; d: string; w: string[]; sa: string[]; di: string[]; c: string[]; th: string[]; sy: string };
+    const form = document.getElementById('finder') as HTMLFormElement;
+    const out = document.getElementById('finder-results')!;
+    const count = document.getElementById('finder-count')!;
+    const sortKey = (s: string) => s.replace(/^(the|a|an)\s+/i, '').toLowerCase();
+    const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+    const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    let rows: Row[] = [];
+
+    function fromUrl() {
+      const p = new URLSearchParams(location.search);
+      for (const el of Array.from(form.elements) as HTMLInputElement[]) {
+        if (!el.name) continue;
+        if (el.type === 'checkbox') el.checked = p.getAll(el.name).includes(el.value);
+        else if (p.has(el.name)) el.value = p.get(el.name)!;
+      }
+    }
+    function toUrl(fd: FormData) {
+      const p = new URLSearchParams();
+      for (const [k, v] of fd.entries()) if (v && !(k === 'sort' && v === 'az')) p.append(k, String(v));
+      history.replaceState(null, '', p.toString() ? `?${p}` : location.pathname);
+    }
+    function run() {
+      const fd = new FormData(form);
+      toUrl(fd);
+      const q = norm(String(fd.get('q') ?? '').trim());
+      const g = (k: string) => String(fd.get(k) ?? '').trim();
+      const series = g('series'), season = g('season'), decade = g('decade'), seen = g('seen'), sort = g('sort') || 'az';
+      const writer = norm(g('writer')), director = norm(g('director')), actor = norm(g('actor'));
+      const themes = fd.getAll('theme').map(String);
+      const watched = (window as any).tzTracker?.get().watched ?? {};
+      const has = (list: string[], v: string) => !v || list.some((x) => norm(x).includes(v));
+      const hits = rows.filter((r) =>
+        (!series || r.s === series) && (!season || String(r.se) === season) && (!decade || r.d.startsWith(decade)) &&
+        has([...r.w, ...r.sa], writer) && has(r.di, director) && has(r.c, actor) &&
+        themes.every((t) => r.th.includes(t)) &&
+        (!seen || (seen === 'yes') === !!watched[`episodes/${r.id}`]) &&
+        (!q || norm(`${r.t} ${r.sy}`).includes(q)));
+      hits.sort(sort === 'aired' ? (a, b) => a.d.localeCompare(b.d) : (a, b) => sortKey(a.t).localeCompare(sortKey(b.t)));
+      count.textContent = `${hits.length} of ${rows.length} episodes`;
+      out.innerHTML = hits.slice(0, 400).map((r) => `<li data-mark="episodes/${r.id}"><a href='/episodes/${r.id}/'><strong>${esc(r.t)}</strong></a> <span class="muted small">${r.s} series, ${r.n}${r.d ? ' · ' + r.d.slice(0, 4) : ''}</span><span class="seen-mark" aria-hidden="true"></span>` +
+        `<div class="small">${esc(r.sy.length > 220 ? r.sy.slice(0, 217).replace(/\s+\S*$/, '') + '…' : r.sy)}</div>` +
+        `<div class="small muted">Written by ${esc([...r.w].join(', ') || 'unknown')}${r.di.length ? ' · Directed by ' + esc(r.di.join(', ')) : ''}${r.th.length ? ' · ' + esc(r.th.join(', ')) : ''}</div></li>`).join('') +
+        (hits.length > 400 ? `<li class="muted">Showing the first 400. Add a filter to narrow the list.</li>` : '');
+      document.dispatchEvent(new Event('tz:repaint'));
+    }
+    fetch('/fan/episodes.json').then((r) => r.json()).then((data: Row[]) => { rows = data; fromUrl(); run(); });
+    form.addEventListener('input', run);
+    form.addEventListener('submit', (e) => { e.preventDefault(); run(); });
+    form.addEventListener('reset', () => setTimeout(run, 0));
+  </script>
+</Base>

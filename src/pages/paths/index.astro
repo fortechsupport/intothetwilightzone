@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import { fanPaths, resolvePath } from '../../lib/fan';
+const paths = await Promise.all(fanPaths().map(async (p) => ({ p, steps: await resolvePath(p) })));
+---
+<Base title="Viewing paths" description="Curated ways into The Twilight Zone: the first ten episodes to watch, the 25 essentials, the great twist endings ranked, Rod Serling's most personal scripts and the best of the revivals.">
+  <p class="breadcrumb"><a href="/start/">Start here</a> / Viewing paths</p>
+  <h1>Viewing paths</h1>
+  <p class="lead">Hand-picked routes through more than three hundred episodes. Each one tells you why an episode is on it without giving the ending away, and tracks what you have watched in this browser.</p>
+  <div class="grid">
+    {paths.map(({ p, steps }) => (
+      <a class="card" href={`/paths/${p.slug}/`}>
+        <span class="count">{steps.length}</span>
+        <h3>{p.title}</h3>
+        <p>{p.short}</p>
+        <p class="small path-progress" data-progress={steps.map((s) => `episodes/${s.e.id}`).join(' ')}></p>
+      </a>
+    ))}
+  </div>
+  <p class="small muted">Picks and rankings are this site's editorial opinion. Have a path you'd like to see? <a href="/contribute/">Suggest one</a>.</p>
+</Base>

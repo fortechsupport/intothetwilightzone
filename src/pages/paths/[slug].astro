@@ -1,0 +1,51 @@
+---
+import Base from '../../layouts/Base.astro';
+import Ending from '../../components/fan/Ending.astro';
+import SpoilerToggle from '../../components/fan/SpoilerToggle.astro';
+import { fanPaths, resolvePath, endingOf, type FanPath } from '../../lib/fan';
+import { episodeNumber, formatDate } from '../../lib/data';
+
+export function getStaticPaths() {
+  return fanPaths().map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+interface Props { p: FanPath }
+const { p } = Astro.props;
+const steps = await resolvePath(p);
+const others = fanPaths().filter((o) => o.slug !== p.slug);
+const keys = steps.map((s) => `episodes/${s.e.id}`);
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: p.title,
+  itemListOrder: p.ranked ? 'https://schema.org/ItemListOrderDescending' : 'https://schema.org/ItemListUnordered',
+  numberOfItems: steps.length,
+  itemListElement: steps.map((s, i) => ({ '@type': 'ListItem', position: i + 1, name: s.e.data.title, url: new URL(`/episodes/${s.e.id}/`, Astro.site).href })),
+};
+// A ranked path is a countdown: show the last-ranked first and number down to 1.
+const shown = p.ranked ? [...steps].reverse() : steps;
+---
+<Base title={p.title} description={p.short} jsonld={jsonld}>
+  <p class="breadcrumb"><a href="/start/">Start here</a> / <a href="/paths/">Viewing paths</a></p>
+  <h1>{p.title}</h1>
+  <p class="lead">{p.intro}</p>
+  <p class="path-meta small"><span class="path-progress" data-progress={keys.join(' ')}></span> · Tap <strong>Watched</strong> on each one as you go; your progress stays in this browser. <a href="/my-zone/">My Zone</a></p>
+  {p.spoilers && <SpoilerToggle />}
+  <ol class={`path-steps${p.ranked ? ' countdown' : ''}`} reversed={p.ranked ? true : undefined} start={p.ranked ? shown.length : undefined}>
+    {shown.map((s) => (
+      <li data-mark={`episodes/${s.e.id}`}>
+        <div class="step-head">
+          <a class="step-title" href={`/episodes/${s.e.id}/`}>{s.e.data.title}</a>
+          <span class="muted small">{s.e.data.series} series, {episodeNumber(s.e.data)}{s.e.data.air_date && ` · ${formatDate(s.e.data.air_date)}`}</span>
+          <button type="button" class="mini" data-track="watched" data-key={`episodes/${s.e.id}`} aria-pressed="false" aria-label={`Watched ${s.e.data.title}`}><span aria-hidden="true" class="tick"></span>Watched</button>
+        </div>
+        <p>{s.note}</p>
+        {p.spoilers && <Ending text={endingOf(s.e.id)} />}
+      </li>
+    ))}
+  </ol>
+  <h2>More paths</h2>
+  <ul>
+    {others.map((o) => <li><a href={`/paths/${o.slug}/`}>{o.title}</a>: <span class="muted">{o.short}</span></li>)}
+  </ul>
+  <p class="small muted">Picks{p.ranked ? ' and the ranking' : ''} are this site's editorial opinion. Facts about each episode, with sources, are on its own page. <a href="/contribute/">Suggest a change</a>.</p>
+</Base>

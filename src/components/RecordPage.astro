@@ -7,6 +7,8 @@ import InCategories from './InCategories.astro';
 import Media from './Media.astro';
 import Related from './Related.astro';
 import Sources from './Sources.astro';
+import TrackButtons from './fan/TrackButtons.astro';
+import { trackFor } from '../lib/fan/contribute';
 import ExtLinks from './ExtLinks.astro';
 import { getCollection } from 'astro:content';
 import { resolveRef, formatDate, CONNECTION_LABELS, CONFIDENCE_LABELS, personUrl, splitCredit } from '../lib/data';
@@ -39,6 +41,7 @@ const targets = await Promise.all(conns.map(async (c) => ({ c, t: await resolveR
 <Base title={title} description={text ? text.slice(0, 155) : `${title}: its connection to The Twilight Zone.`}>
   <InCategories recKey={key} />
   <h1>{title}</h1>
+  {(() => { const t = trackFor(col, d.kind); return (t.seen || t.own) && <TrackButtons recKey={key} seen={t.seen} own={t.own} />; })()}
   {col === 'quotes' ? (
     <figure class="quote">
       <blockquote>{d.text}</blockquote>

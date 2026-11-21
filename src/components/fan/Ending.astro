@@ -1,0 +1,11 @@
+---
+// A hidden ending. Closed by default; the visitor opens it or switches spoilers on site-wide.
+interface Props { text?: string; label?: string }
+const { text, label = 'Reveal how it ends' } = Astro.props;
+---
+{text && (
+  <details class="spoiler" data-pagefind-ignore>
+    <summary><span class="spoiler-label">{label}</span> <span class="small muted">(spoiler)</span></summary>
+    <p>{text}</p>
+  </details>
+)}

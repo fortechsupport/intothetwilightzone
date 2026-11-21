@@ -1,7 +1,7 @@
 // Builds the review queue: one summary row per record in src/content, read straight from the
 // YAML files so it includes records the current REVIEW_MODE hides. scripts/review.py builds the
 // same rows for the spreadsheet; keep the two field lists in step.
-import { readdirSync, readFileSync, statSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative, resolve } from 'node:path';
 import { parse } from 'yaml';
 import { loadDecisions, statusOf, type ReviewStatus } from './review';
@@ -58,6 +58,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
   magazines: 'Magazines',
   essays: 'Essays and articles',
   archives: 'Archives',
+  submissions: 'Fan submissions',
   organizations: 'Organizations',
   works: 'Games, merchandise and other works',
 };
@@ -139,6 +140,23 @@ export function reviewQueue(root = resolve(process.cwd(), 'src/content')): Queue
       const d = parse(readFileSync(file, 'utf8')) ?? {};
       rows.push(rowFor(collection, id, d, decisions));
     }
+  }
+  // Fan corrections and submissions from GitHub issues (scripts/submissions.py) are reviewed like records.
+  const subsPath = resolve(process.cwd(), 'data/review/submissions.json');
+  const subs: Record<string, any> = existsSync(subsPath) ? JSON.parse(readFileSync(subsPath, 'utf8')) : {};
+  for (const [key, s] of Object.entries(subs)) {
+    const f = s.fields ?? {};
+    const isSub = s.type === 'submission';
+    rows.push({
+      key, collection: 'submissions', id: key.split('/')[1], title: s.title ?? key, kind: f.kind ?? s.type, date: s.opened, who: f.credit,
+      summary: f.description ?? f.problem, tags: [], locked: false, url: f.page ?? s.url,
+      sources: [{ title: `GitHub issue #${s.issue}`, url: s.url }],
+      status: statusOf(decisions, key), notes: decisions[key]?.notes, reviewed: decisions[key]?.date,
+      subcategory: isSub ? 'Submissions' : 'Corrections', sort: String(s.title ?? '').toLowerCase(),
+      connection: f.connection ?? f.fix, recommendation: 'maybe',
+      reason: isSub ? 'Fan submission: include to accept it for research and sourcing, exclude to decline.' : 'Fan correction: include to accept and apply it once the source checks out, exclude to decline.',
+      source_title: `GitHub issue #${s.issue}`, source_url: s.url,
+    });
   }
   // Grouped by category (alphabetical by label), then subcategory, then title ignoring a leading The/A/An.
   void order;
