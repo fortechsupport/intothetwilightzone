@@ -4,11 +4,17 @@ const { ids = {}, links = {} } = Astro.props;
 const items: [string, string][] = [];
 if (ids.imdb) items.push(['IMDb', `https://www.imdb.com/title/${ids.imdb}/`]);
 if (ids.goodreads) items.push(['Goodreads', `https://www.goodreads.com/book/show/${ids.goodreads}`]);
-const names: Record<string, string> = { wikipedia: 'Wikipedia', info: 'Details', isfdb: 'ISFDB', podchaser: 'Podchaser', rss: 'RSS feed', youtube: 'YouTube', lyrics: 'Lyrics', justwatch: 'JustWatch' };
+const names: Record<string, string> = {
+  wikipedia: 'Wikipedia', info: 'Details', isfdb: 'ISFDB', podchaser: 'Podchaser', rss: 'RSS feed', youtube: 'YouTube', lyrics: 'Lyrics',
+  justwatch: 'JustWatch', online: 'Read it online', official: 'Official site', home: 'Home page', website: 'Website', apple: 'Apple Podcasts',
+  spotify: 'Spotify', pbs: 'PBS', imdb: 'IMDb', everand: 'Everand', britannica: 'Britannica', merriam_webster: 'Merriam-Webster',
+};
+// Any other key is shown as words: "some_site" becomes "Some site".
+const label = (k: string) => names[k] ?? k.charAt(0).toUpperCase() + k.slice(1).replace(/[_-]+/g, ' ');
 for (const [k, v] of Object.entries(links)) {
   if (!v) continue;
   const url = k === 'youtube' && !v.startsWith('http') ? `https://www.youtube.com/watch?v=${v}` : v;
-  if (url.startsWith('http')) items.push([names[k] ?? k, url]);
+  if (url.startsWith('http')) items.push([label(k), url]);
 }
 if (ids.amazon_asin) items.push(['Amazon', `https://www.amazon.com/dp/${ids.amazon_asin}`]);
 if (ids.audible_asin) items.push(['Audible', `https://www.audible.com/pd/${ids.audible_asin}`]);

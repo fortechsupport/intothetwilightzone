@@ -1,0 +1,78 @@
+---
+// A sortable, filterable table of Media Library items (one type per page). ?in=<category or category/sub>,
+// ?rights= and ?q= preset the filters; #<item id> highlights one item.
+import { catalog, type LibItem } from '../lib/catalog';
+import { sortKey } from '../lib/taxonomy.mjs';
+interface Props { items: LibItem[] }
+const { items } = Astro.props;
+const cats = [...(await catalog()).values()];
+const RIGHTS: Record<string, string> = { 'public-domain': 'Public domain', cc: 'Creative Commons', licensed: 'Rights holder', 'link-only': 'Link only', unknown: 'Unknown', summary: 'Summary, source linked', site: 'Kept on this site' };
+const rightsOf = (m: { external: boolean; rights?: string; recordKey?: string }) => (m.external ? m.rights ?? 'link-only' : m.recordKey ? 'summary' : 'site');
+const human = (s?: string) => s?.replace(/-/g, ' ');
+const usedCats = new Set(items.flatMap((i) => i.cats.map((c) => c.slug)));
+const usedRights = new Set(items.map(rightsOf));
+const subCats = (m: LibItem) => m.cats.filter((c) => c.slug.includes('/'));
+---
+<form class="lib-filters" data-pagefind-ignore onsubmit="return false">
+  <label>Appears in <select id="f-in"><option value="">Anywhere</option>{cats.map((c) => usedCats.has(c.slug) && <><option value={c.slug}>{c.title}</option>{c.subs.filter((s) => usedCats.has(`${c.slug}/${s.slug}`)).map((s) => <option value={`${c.slug}/${s.slug}`}>&nbsp;&nbsp;{c.title}: {s.title}</option>)}</>)}</select></label>
+  {usedRights.size > 1 && <label>Rights <select id="f-rights"><option value="">Any</option>{Object.entries(RIGHTS).filter(([k]) => usedRights.has(k)).map(([k, l]) => <option value={k}>{l}</option>)}</select></label>}
+  <label>Search <input id="f-q" type="search" placeholder="Title, credit, source, page" /></label>
+  <span id="f-count" class="small muted" role="status"></span>
+</form>
+<div class="table-wrap">
+  <table class="lib" id="lib">
+    <thead><tr>
+      <th data-sort="title">Title</th><th data-sort="credit">Credit and source</th><th data-sort="date">Date</th><th>Rights</th><th data-sort="on">Appears on</th>
+    </tr></thead>
+    <tbody>
+      {items.map((m) => (
+        <tr id={m.id} data-in={m.cats.map((c) => c.slug).join(' ')} data-rights={rightsOf(m)} data-title={sortKey(m.title)} data-date={m.date ?? ''} data-on={m.on.length}>
+          <td><a href={m.href} rel={m.external ? 'noopener' : undefined}>{m.title}</a>{m.subtype && <span class="tag">{human(m.subtype)}</span>}{m.note && <div class="small muted">{m.note.length > 140 ? m.note.slice(0, 137) + '…' : m.note}</div>}</td>
+          <td class="small">{m.creator}{m.creator && m.host && <br />}{m.host && <span class="muted">{m.host}</span>}</td>
+          <td class="small nowrap">{m.date}</td>
+          <td><span class={`tag nowrap rights-${rightsOf(m)}`}>{RIGHTS[rightsOf(m)]}</span></td>
+          <td class="small">
+            {m.on.length ? m.on.map((o, i) => <>{i > 0 && ' · '}{o.href ? <a href={o.href}>{o.title}</a> : o.title}</>) : <span class="muted">Not yet attached to a page</span>}
+            {subCats(m).length > 0 && <div class="muted">In: {subCats(m).slice(0, 3).map((c, i) => <>{i > 0 && ' · '}<a href={c.href}>{c.title}</a></>)}{subCats(m).length > 3 && ' …'}</div>}
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+<script is:inline>
+  (() => {
+    const $ = (id) => document.getElementById(id);
+    const rows = [...document.querySelectorAll('#lib tbody tr')];
+    for (const r of rows) { r.dataset.text = r.textContent.toLowerCase(); r.dataset.credit = r.cells[1].textContent.trim().toLowerCase(); }
+    const tbody = document.querySelector('#lib tbody');
+    const p = new URLSearchParams(location.search);
+    $('f-in').value = p.get('in') || '';
+    if ($('f-rights')) $('f-rights').value = p.get('rights') || '';
+    $('f-q').value = p.get('q') || '';
+    const apply = () => {
+      const inn = $('f-in').value, r = $('f-rights')?.value || '', q = $('f-q').value.trim().toLowerCase();
+      let n = 0;
+      for (const row of rows) {
+        const ok = (!inn || row.dataset.in.split(' ').includes(inn)) && (!r || row.dataset.rights === r) && (!q || row.dataset.text.includes(q));
+        row.hidden = !ok; if (ok) n++;
+      }
+      $('f-count').textContent = `${n} of ${rows.length} shown`;
+      const u = new URLSearchParams();
+      if (inn) u.set('in', inn); if (r) u.set('rights', r); if (q) u.set('q', q);
+      history.replaceState(null, '', `${location.pathname}${u.toString() ? '?' + u : ''}${location.hash}`);
+    };
+    for (const id of ['f-in', 'f-rights']) $(id)?.addEventListener('change', apply);
+    $('f-q').addEventListener('input', apply);
+    let dir = 1, last = '';
+    for (const th of document.querySelectorAll('#lib th[data-sort]')) th.addEventListener('click', () => {
+      const k = th.dataset.sort; dir = last === k ? -dir : 1; last = k;
+      const val = (r) => k === 'on' ? String(r.dataset.on).padStart(4, '0') : r.dataset[k] || '~';
+      rows.sort((a, b) => val(a).localeCompare(val(b)) * dir).forEach((r) => tbody.appendChild(r));
+      document.querySelectorAll('#lib th').forEach((x) => x.removeAttribute('aria-sort'));
+      th.setAttribute('aria-sort', dir > 0 ? 'ascending' : 'descending');
+    });
+    apply();
+    if (location.hash) { const r = document.getElementById(location.hash.slice(1)); if (r) { r.hidden = false; r.classList.add('hit'); r.scrollIntoView({ block: 'center' }); } }
+  })();
+</script>

@@ -567,6 +567,14 @@ export async function entityRows(section: 'people' | 'places' | 'organizations')
       const k = `${p.cat}/${p.sub}`;
       if (!where.has(k)) where.set(k, { slug: k, title: `${cc.title}: ${cc.subs.find((x) => x.slug === p.sub)!.title}`, href: `/${k}/` });
     }
-    return { ...e, subs: entInfo!.get(e.key)?.subs.map((s) => ({ slug: s, title: subTitle.get(s)! })) ?? [], records: recs.length, where: [...where.values()] };
+    return { ...e, subs: [...new Set(entInfo!.get(e.key)?.subs ?? [])].map((s) => ({ slug: s, title: subTitle.get(s)! })), records: recs.length, where: [...where.values()] };
   }).sort((a, b) => a.sort.localeCompare(b.sort));
 }
+
+/** The A to Z letter an index row files under: a to z, or "0-9" for anything else. */
+export function letterOf(sort: string) {
+  const c = sort.trim().charAt(0).toLowerCase();
+  return c >= 'a' && c <= 'z' ? c : '0-9';
+}
+/** Sections whose A to Z index is too long for one page are split into one page per letter. */
+export const SPLIT_INDEX_AT = 800;
