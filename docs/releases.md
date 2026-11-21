@@ -36,7 +36,7 @@ fully loaded for the home, record, index, timeline, Media Library, map and searc
 **Known not to work yet**
 - Without JavaScript, the People page's filters do nothing; the letter pages list everyone.
 - Sorting index tables is not available on phones (the column headers are hidden there).
-- The 2002 and 2019 series still have fewer characters and credits than the original series.
+- Map marker colors are the same in both themes and are not part of the contrast check.
 
 ## 2026-11-21 — The redesign
 
