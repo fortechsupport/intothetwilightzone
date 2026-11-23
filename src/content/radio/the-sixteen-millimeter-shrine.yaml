@@ -16,13 +16,15 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
-  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: The Twilight Zone (radio series), episode list (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
+  publisher: Wikipedia
+  note: Read directly on 2026-11-23; season, order in season and star match this record.
 - title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
   url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “The Sixteen-Millimeter Shrine” from the original 1959 series (season 1, 1959),
   written for television by Rod Serling. Adapted for radio by Dennis Etchison, starring Kathy Garver. The story: Barbara
   Jean Trenton, a faded movie star, shuts herself away in her mansion watching her old films night after night. Her loyal
   agent urges her to face the present, but she longs to live inside her glory days.'
-last_verified: '2026-11-20'
+last_verified: '2026-11-23'
 research_confidence: high

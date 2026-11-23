@@ -16,13 +16,15 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
-  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: The Twilight Zone (radio series), episode list (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
+  publisher: Wikipedia
+  note: Read directly on 2026-11-23; season, order in season and star match this record.
 - title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
   url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “Person or Persons Unknown” from the original 1959 series (season 3, 1962),
   written for television by Charles Beaumont. Adapted for radio by Dennis Etchison, starring John Schneider. The story:
   After a night of drinking, a man wakes up and discovers that his wife, his coworkers and even his own mother insist
   they have never met him. Desperate to prove that he exists, he searches for anyone who can confirm who he is.'
-last_verified: '2026-11-20'
+last_verified: '2026-11-23'
 research_confidence: high

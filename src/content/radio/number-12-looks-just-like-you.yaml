@@ -14,8 +14,10 @@ adapts_episode: 1959/number-12-looks-just-like-you
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
-  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: The Twilight Zone (radio series), episode list (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
+  publisher: Wikipedia
+  note: Read directly on 2026-11-23; season, order in season and star match this record.
 - title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
   url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “Number 12 Looks Just Like You” from the original 1959 series (season 5, 1964),
@@ -23,5 +25,5 @@ description: 'A full-cast audio remake of “Number 12 Looks Just Like You” fr
   Shaughnessy. The story: In a future society where everyone undergoes a ''Transformation'' at nineteen to take on one
   of a few perfect, approved faces and bodies, young Marilyn resists, wanting to remain herself despite pressure from
   everyone she loves.'
-last_verified: '2026-11-20'
+last_verified: '2026-11-23'
 research_confidence: high

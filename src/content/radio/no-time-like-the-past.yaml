@@ -16,13 +16,15 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
-  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: The Twilight Zone (radio series), episode list (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
+  publisher: Wikipedia
+  note: Read directly on 2026-11-23; season, order in season and star match this record.
 - title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
   url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “No Time Like the Past” from the original 1959 series (season 4, 1963), written
   for television by Rod Serling. Adapted for radio by Dennis Etchison, starring Jason Alexander. The story: Disgusted
   with the violence of the 20th century, a scientist uses a time machine to try to change history''s worst disasters.
   When that fails, he escapes to a peaceful 1880s town he hopes will be a refuge.'
-last_verified: '2026-11-20'
+last_verified: '2026-11-23'
 research_confidence: high

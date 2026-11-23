@@ -142,10 +142,10 @@ export const TAXONOMY = [
   },
   {
     slug: 'radio',
-    title: 'Radio dramas',
+    title: 'Radio',
     group: 'listen',
     split: true,
-    description: 'The Twilight Zone Radio Dramas and Rod Serling\'s radio work: series and every episode.',
+    description: 'The Twilight Zone Radio Dramas, narrated by Stacy Keach, and Rod Serling\'s own radio work.',
     intro: [
       'The Twilight Zone Radio Dramas, produced under license from 2002 with Stacy Keach in Serling\'s narrator role, adapted the original teleplays and later added new stories and scripts that were never filmed. Serling himself started in radio, writing for stations in Cincinnati and for network series before television.',
     ],

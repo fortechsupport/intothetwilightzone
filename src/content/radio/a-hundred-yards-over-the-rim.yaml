@@ -16,13 +16,15 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
-  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: The Twilight Zone (radio series), episode list (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
+  publisher: Wikipedia
+  note: Read directly on 2026-11-23; season, order in season and star match this record.
 - title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
   url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “A Hundred Yards Over the Rim” from the original 1959 series (season 2, 1961),
   written for television by Rod Serling. Adapted for radio by Dennis Etchison, starring Jim Caviezel. The story: In 1847
   a wagon train is stranded in the New Mexico desert, and leader Chris Horn''s young son is gravely ill. Horn walks over
   a nearby ridge in search of water and comes out somewhere he cannot explain.'
-last_verified: '2026-11-20'
+last_verified: '2026-11-23'
 research_confidence: high

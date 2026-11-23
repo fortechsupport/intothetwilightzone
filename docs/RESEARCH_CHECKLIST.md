@@ -53,7 +53,7 @@ first because everything else links to it.
 |---|---|---|
 | 1 | **Watch: TV series and episodes** (incl. Night Gallery and Serling's other TV) | The core every other page links to. The Twilight Zone series are complete, but Serling's other television is thin (22 of the 200+ teleplays he sold), and Night Gallery segments have no pages of their own. |
 | 2 | Watch: Movies | 200 of the 555 work-to-episode links are "fan-noted" only, and most sit here. Documentaries and unmade projects are small. |
-| 3 | Listen: Radio dramas | Already deep; a short pass that adds Serling's own radio career (5 records today). |
+| 3 | Listen: Radio | Already deep; a short pass that adds Serling's own radio career (5 records today). |
 | 4 | Read: Books and Scripts | The stories the episodes adapt have no records of their own; novelizations, editions and translations are partial. |
 | 5 | Read: Comics and Magazines | Already deep; a quick verification pass and cover-art links. |
 | 6 | Read: Articles, Essays and Websites | Articles and websites are partial to thin. |
@@ -141,8 +141,8 @@ first because everything else links to it.
 
 ## 2. Listen
 
-### Radio dramas
-- [ ] Content plan approved (draft 2026-11-23, docs/plans/research-radio.md) · [ ] Researched · [ ] Records decided · [ ] Pages built
+### Radio
+- [x] Content plan approved (2026-11-23, docs/plans/research-radio.md; category renamed Radio) · [ ] Researched · [ ] Records decided · [ ] Pages built
 
 | Subcategory | Records (all official) | Depth |
 |---|---:|---|

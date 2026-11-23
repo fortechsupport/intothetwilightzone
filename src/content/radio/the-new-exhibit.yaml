@@ -6,7 +6,7 @@ volume: 22
 volume_order: 4
 volume_released: October 2013
 original_writer: Jerry Sohl (teleplay, credited to Charles Beaumont)
-adapted_by: Dennis Etchison
+adapted_by: Dennis Etchison, JoBe Cerny
 voiced_by:
 - JoBe Cerny
 adapts_episode: 1959/the-new-exhibit
@@ -15,13 +15,15 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
-  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: The Twilight Zone (radio series), episode list (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
+  publisher: Wikipedia
+  note: Read directly on 2026-11-23; season, order in season and star match this record.
 - title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
   url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “The New Exhibit” from the original 1959 series (season 4, 1963), written for
-  television by Charles Beaumont and Jerry Sohl. Adapted for radio by Dennis Etchison, starring JoBe Cerny. The story:
+  television by Charles Beaumont and Jerry Sohl. Adapted for radio by Dennis Etchison and JoBe Cerny, starring JoBe Cerny. The story:
   When a wax museum closes, devoted guide Martin Senescu takes its murderers'' row figures home to his basement. His
   wife and in-laws resent the creepy figures and the cost, and then people begin to die.'
-last_verified: '2026-11-20'
+last_verified: '2026-11-23'
 research_confidence: high

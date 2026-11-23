@@ -16,13 +16,15 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
-  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: The Twilight Zone (radio series), episode list (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
+  publisher: Wikipedia
+  note: Read directly on 2026-11-23; season, order in season and star match this record.
 - title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
   url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “In Praise of Pip” from the original 1959 series (season 5, 1963), written
   for television by Rod Serling. Adapted for radio by Dennis Etchison, starring Fred Willard. The story: Max Phillips,
   a small-time bookie who has neglected his son for years, learns that Pip has been badly wounded in Vietnam. Desperate
   and wounded himself, Max finds himself in an empty amusement park where the boy Pip once was seems to be waiting.'
-last_verified: '2026-11-20'
+last_verified: '2026-11-23'
 research_confidence: high

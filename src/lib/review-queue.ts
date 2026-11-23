@@ -62,7 +62,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
   quotes: 'Quotes',
   locations: 'Places',
   songs: 'Songs',
-  radio: 'Radio dramas',
+  radio: 'Radio',
   podcasts: 'Podcasts',
   books: 'Books',
   comics: 'Comics',
