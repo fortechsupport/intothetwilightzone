@@ -75,3 +75,13 @@ a lead, cited only through Wikipedia's episode article.
 18 film records updated with exact dates, running times, directors, writers, credit notes, cast and companies, each with
 its own page as the first source and marked research_confidence high. The Rack and Incident in an Alley now credit their
 screenwriters, with Serling kept as the source writer and a note saying so. Yellow Canary has no running time on its page.
+
+# The weakly sourced linked films (plan step: "check the linked films with only a fan source or none")
+59 films have only fan-noted links (the plan's count of 65 was taken before the sweep raised some). Every one was already
+checked on 2026-11-20 and carries that note. Today's sweep added critics' sources to 18 of them. Eleven rest only on Adam's
+research spreadsheets plus a shared premise, and a fresh search for each (21:50 UTC) found nothing naming the episode:
+Blazing Saddles (Mr. Denton on Doomsday), Christine (You Drive), Looper (Back There), Meet Joe Black (One for the Angels),
+Minority Report (A Most Unusual Camera), The Cobbler (Dead Man's Shoes), The Invisible (A Passage for Trumpet), The Stepford
+Wives (Number 12 Looks Just Like You), Toy Story (Five Characters in Search of an Exit), Unknown (Person or Persons
+Unknown), What Women Want (A Penny for Your Thoughts). They stay, marked fan-noted, for Adam to keep or drop (never dropped
+by us). The others lean on TV Tropes, fan wikis or "films like The Twilight Zone" lists, which is what fan-noted means.
