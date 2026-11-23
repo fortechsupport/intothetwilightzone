@@ -3,10 +3,9 @@ to: 1959/a-world-of-his-own
 kind: inspired-by
 confidence: fan-noted
 summary: In The Mouth of Madness is listed in Adam's research as inspired by "A World of His Own".
-evidence: 'No source found; the link rests on an author whose fiction becomes real. Checked 2026-11-20: No source was
-  found linking Carpenter''s film to A World of His Own; the film''s acknowledged model is Lovecraft (and Stephen King).
-  Weak; consider removing. Checked 2026-11-23: TopTenz (2013) lists it as a rip-off of the episode; no statement from
-  the makers.'
+evidence: Both turn on an author whose fiction becomes real. TopTenz (2013) lists the film as a rip-off of the episode.
+  Film Threat's 1995 interview with John Carpenter and Inverse's 2025 oral history name Lovecraft and other films as touchstones
+  and never mention The Twilight Zone. The link is a comparison.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
@@ -15,5 +14,14 @@ sources:
   author: Jim Ciscell
   publisher: TopTenz
   note: 19 June 2013, updated 3 May 2016.
+- title: 'Building horror: John Carpenter on In the Mouth of Madness (Film Threat)'
+  url: https://filmthreat.com/uncategorized/building-horror-john-carpenter-on-in-the-mouth-of-madness/
+  publisher: Film Threat
+  note: 3 February 1995.
+- title: In the Mouth of Madness oral history (Inverse)
+  url: https://www.inverse.com/entertainment/in-the-mouth-of-madness-oral-history
+  author: Jeff Ewing
+  publisher: Inverse
+  note: 3 February 2025.
 last_verified: '2026-11-23'
 locked: true

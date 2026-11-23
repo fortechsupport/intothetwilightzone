@@ -1,13 +1,20 @@
 from: films/devil
 to: series/1959
 kind: inspired-by
-confidence: fan-noted
-summary: Strangers trapped in a stalled elevator suspect one of them is the devil; Flicks names it among Twilight
+confidence: documented
+summary: Strangers trapped in a stalled elevator suspect one of them is the devil; M. Night Shyamalan planned the films
+  it began in the vein of The Twilight Zone.
+evidence: Film Stories (Mark Harrison, 2024) reports that M. Night Shyamalan wanted the Night Chronicles, the planned trilogy
+  Devil was made for, to be "low-budget studio horror movies in the vein of The Twilight Zone and Alfred Hitchcock Presents".
+  That is a published report of his intent, not his own words, and it names no episode. Flicks also lists Devil among Twilight
   Zone-style films.
 sources:
 - title: 'Sight, Sound and Mind: The Twilight Zone on the Big Screen (Flicks)'
   url: https://www.flicks.com.au/features/sight-sound-and-mind-the-twilight-zone-on-the-big-screen/
-last_verified: '2026-11-20'
+- title: 'The Night Chronicles: M Night Shyamalan''s lost urban horror trilogy (Film Stories)'
+  url: https://filmstories.co.uk/features/the-night-chronicles-m-night-shyamalans-lost-urban-horror-trilogy/
+  author: Mark Harrison
+  publisher: Film Stories
+  note: 9 August 2024.
+last_verified: '2026-11-23'
 locked: true
-evidence: 'Checked 2026-11-20: Flicks names Devil among Twilight Zone-style films; that is a critic''s comparison,
-  not a statement from Shyamalan or the filmmakers.'

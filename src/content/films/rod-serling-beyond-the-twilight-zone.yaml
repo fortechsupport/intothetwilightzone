@@ -4,8 +4,6 @@ release_date: '2000-01-25'
 parent_series: E! True Hollywood Story
 summary: An episode of E!'s celebrity biography series E! True Hollywood Story devoted to Rod Serling's life and career,
   from live television through The Twilight Zone, Night Gallery and his death in 1975.
-categories:
-- movies/documentaries
 ids:
   imdb: tt1331568
 relevance: core

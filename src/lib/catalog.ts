@@ -9,6 +9,7 @@ import { TAXONOMY, CATEGORY, place, placePerson, explicitPlacements, mediaArtwor
 import { filmHref, tv } from './television';
 import { watchFor, watchShort } from './watch';
 
+const FILM_TYPE: Record<string, string> = { film: 'Feature film', 'tv-film': 'Television film', documentary: 'Documentary', special: 'Special', short: 'Short film', pilot: 'Pilot', 'tv-episode': 'TV play', unproduced: 'Unmade', 'music-video': 'Music video' };
 export interface Entry {
   key: string; // "<collection>/<id>" or a derived key
   title: string;
@@ -23,6 +24,8 @@ export interface Entry {
   isNew?: boolean; // placed through a categories[] slug that created a new subcategory
   official?: boolean; // Official or Unofficial and inspired, in categories that split
   watch?: string; // where a series or show streams in the US, shown beside its name (src/lib/watch.ts)
+  // Values for the extra filters on list pages (ListTools `facets`): type, decade, episode, confidence.
+  facets?: Record<string, string[]>;
 }
 /** A content record (advertisement, holding, quote, link) shown on another record's page. */
 export interface Attachment { key: string; kind: string; label: string; title: string; href: string; meta?: string; desc?: string }
@@ -112,6 +115,12 @@ export async function catalog(): Promise<Map<string, CatInfo>> {
     if (!connFrom.has(c.data.from)) connFrom.set(c.data.from, []);
     connFrom.get(c.data.from)!.push(c.data.kind);
   }
+  // For the Movies filters: each record's Twilight Zone episodes and how sure each link is.
+  const connInfo = new Map<string, { to: string; confidence: string }[]>();
+  for (const c of data.connections) {
+    if (!connInfo.has(c.data.from)) connInfo.set(c.data.from, []);
+    connInfo.get(c.data.from)!.push({ to: c.data.to, confidence: c.data.confidence });
+  }
   const ctx = { assessSub: (k: string) => assess(k)?.subcategory, connKinds: (k: string) => connFrom.get(k) ?? [] };
 
   // Titles for connection endpoints.
@@ -135,12 +144,22 @@ export async function catalog(): Promise<Map<string, CatInfo>> {
     return { key: `${col}/${id}`, title, href: recordHref(col, id), sort: sortKey(title), tier: a?.tier, why, ...opts, desc };
   };
 
+  const filmFacets = (id: string, d: any): Record<string, string[]> => {
+    const links = connInfo.get(`films/${id}`) ?? [];
+    const y = Number(yearOf(d.release_date));
+    return {
+      type: [FILM_TYPE[d.kind] ?? human(d.kind)],
+      decade: y ? [`${Math.floor(y / 10) * 10}s`] : [],
+      episode: [...new Set(links.filter((l) => epTitle.has(l.to)).map((l) => epTitle.get(l.to)!))],
+      confidence: [...new Set(links.map((l) => CONFIDENCE_LABELS[l.confidence as keyof typeof CONFIDENCE_LABELS]).filter(Boolean))],
+    };
+  };
   const describe = (col: string, r: any): Entry => {
     const d = r.data;
     switch (col) {
       case 'series': return base(col, r.id, `${d.title} (${d.years})`, { sort: String(d.order).padStart(3, '0'), meta: meta(d.network, d.host && `host ${d.host}`, `${d.seasons} seasons`), desc: d.summary, watch: watchShort(watchFor({ series: r.id }).w) });
       case 'episodes': return base(col, r.id, d.title, { meta: meta(`${d.series} series, ${episodeNumber(d)}`, yearOf(d.air_date), d.writers.length ? `written by ${d.writers.slice(0, 2).join(', ')}` : undefined), desc: d.synopsis });
-      case 'films': return base(col, r.id, d.parent_series ? `${d.title} (${d.parent_series})` : d.title, { sort: sortKey(d.title), meta: meta(yearOf(d.release_date), d.kind !== 'film' && human(d.kind), d.directors.length ? `dir. ${d.directors.slice(0, 2).join(', ')}` : undefined), desc: d.summary, watch: d.kind === 'tv-series' && !d.parent_series ? watchShort(watchFor({ slug: tv.showByRecord(r.id)?.slug ?? `film-${r.id}` }).w) : undefined });
+      case 'films': return base(col, r.id, d.parent_series ? `${d.title} (${d.parent_series})` : d.title, { sort: sortKey(d.title), facets: filmFacets(r.id, d), meta: meta(yearOf(d.release_date), d.kind !== 'film' && human(d.kind), d.directors.length ? `dir. ${d.directors.slice(0, 2).join(', ')}` : undefined), desc: d.summary, watch: d.kind === 'tv-series' && !d.parent_series ? watchShort(watchFor({ slug: tv.showByRecord(r.id)?.slug ?? `film-${r.id}` }).w) : undefined });
       case 'connections': {
         const t = `${titleOf(d.from)} → ${titleOf(d.to)}`;
         return base(col, r.id, t, { sort: sortKey(titleOf(d.from)), href: hrefOf(d.from), meta: meta(CONNECTION_LABELS[d.kind], CONFIDENCE_LABELS[d.confidence]), desc: d.summary ?? d.evidence });

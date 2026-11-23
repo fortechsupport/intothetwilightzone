@@ -3,14 +3,18 @@ to: 1959/the-dummy
 kind: inspired-by
 confidence: fan-noted
 summary: Dead Silence is listed in Adam's research as inspired by "The Dummy".
-evidence: 'No source found; the link rests on the shared motif of a sinister ventriloquist''s dummy. Checked 2026-11-20:
-  Bloody Disgusting''s Dead Silence 4K piece says James Wan modelled Billy the dummy on Edgar Bergen''s Charlie
-  McCarthy, and it names no Twilight Zone influence. The documented influence is Charlie McCarthy; The Twilight Zone link is a shared
-  motif only.'
+evidence: Both feature a sinister ventriloquist's dummy. Bloody Disgusting's piece on the 4K release says James Wan modelled
+  Billy on Edgar Bergen's Charlie McCarthy and names other influences, not The Twilight Zone. Moria's review (2008) counts
+  "episodes of The Twilight Zone" in the history of evil-dummy films. The link is a shared motif.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 - title: 'Dead Silence 4K: things learned (Bloody Disgusting)'
   url: https://bloody-disgusting.com/home-video/3755318/dead-silence-4k-scream-factory-things-learned/
-last_verified: '2026-11-20'
+- title: Dead Silence (Moria)
+  url: https://moriareviews.com/horror/dead-silence-2007.htm
+  author: Richard Scheib
+  publisher: Moria
+  note: 17 April 2008.
+last_verified: '2026-11-23'
 locked: true

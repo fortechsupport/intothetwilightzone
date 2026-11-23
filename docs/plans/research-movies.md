@@ -163,6 +163,9 @@ decade and type filter. The shelves are:
 | Q4 | Films that only mention or quote TZ in passing: keep them in Movies? | **Yes.** They go on shelf D, marked "Reference". |
 | Q5 | Documentaries Serling narrated (In Search of Ancient Astronauts): where do they go? | **Standing rule from Adam: anything Rod Serling touched, in any way (writing, creating, acting, voicing, narrating, hosting), is included, without asking.** Each one's home is Rod Serling's films, filed by his role. A documentary he narrated is also listed under Documentaries, because it is one. |
 
+**Adam, 2026-11-23 22:18 UTC (decision 0005):** no film-by-film review. Movies records are included as they are added,
+each with sources; fan-noted links are verified where possible; visitors' thumbs up and down flag doubtful items to Adam.
+
 ## 9. Steps (one pull request each)
 
 1. **Structure:**
@@ -171,6 +174,7 @@ decade and type filter. The shelves are:
    - the "Why it's here" block and the filters on the landing page
 
    No new records. Screenshots go to Adam at 320 px and 1440 px before merge.
+   **Built 2026-11-23** (screenshots in the project files, `screenshots/movies-structure/`).
 2. **Research round 1:** A, B and F. Pending records, with a new-records-only review sheet.
 3. **Research round 2:** D and E: sources for weak links, and new remakes and adaptations.
 4. **Research round 3:** C and the media attachments.
@@ -194,9 +198,27 @@ decade and type filter. The shelves are:
 
 ## Decided here (Adam reviews later)
 - The six shelves, and the moves in section 2.
+- Q2 applied to shelf E too: The Night Stalker, Trilogy of Terror and The Homecoming have no source on file tying them to
+  the show, so they join the 13 films kept only for their writers' pages (`filmography_only: true`). Duel stays on E
+  through the Flicks article that calls it a feature-length Twilight Zone-style story. Any of the three comes back to E
+  when a source ties it to the show.
+- Serling's part in each film is a field on the record (`serling_role`), set from what each record's own sources say.
+- Playhouse 90 plays count as 70 minutes or more from the series' running time ("72–78 minutes", Wikipedia); no other
+  series Serling wrote for ran that long.
+- Rod Serling: Beyond the Twilight Zone (E! True Hollywood Story) is on Documentaries only, not Twilight Zone films,
+  because it was not made under the Twilight Zone name.
+- The SpongeBob "Tidal Zone" record is now a TV episode of SpongeBob (it is a one-hour special of the show), so it lists
+  on that show's page. Its id is unchanged, so its decision carries over.
+- The duplicate Duel record's connection now starts from the kept Duel record (same file, same decision key).
 - Making-of featurettes and DVD extras are media on the film or series, not records.
 - The Warner Bros. feature stays one record with a dated history of each announcement, not one record per
   attempt.
+- Fan-noted links checked against the makers' interviews (2026-11-23, notes in
+  data/research/movies-2026-11-23/round2-fan-noted-links.md): Triangle is raised to confirmed (Christopher Smith's own
+  words), Devil to documented (Film Stories on Shyamalan's plan). The Truman Show's two links stay as comparisons with
+  writer Andrew Niccol's denial quoted, rather than being removed: the comparison is real and widely made, and the page
+  now says plainly that the writer denies it. Evidence on the 26 links checked is rewritten for visitors, without
+  research shorthand.
 
 ## Waiting on Adam
 - Nothing. Adam approved the plan at 19:35 UTC and asked for a wide sweep of films referencing episodes, with Truth or
@@ -205,6 +227,20 @@ decade and type filter. The shelves are:
 ## Found, for later
 - Duel has two records. One is already marked as the duplicate; the importer and the decision key should be
   checked when the duplicate is cleared out.
-- 13 films on the "linked" shelf have no connection record, so nothing says which episode they point to. Round 2
-  fixes this.
-- The 1959 series' broadcast history should absorb the holiday marathons record (Television).
+- ~~13 films on the "linked" shelf have no connection record~~ They were films by the show's writers with no tie;
+  Adam's Q2 moved them to their writers' pages (structure step).
+- ~~The holiday marathons record~~ Moved to History > Screenings and marathons (structure step).
+- The seven music videos should also show on their songs' pages in Music (Q3 says "to their song").
+- The Planet of the Apes franchise record (works) sits on Rod Serling's films in a group of its own, "Franchises".
+- The search and filter bar on list pages never filtered (its script ran before the list loaded). Fixed in the
+  structure step; worth a look on other pages that use their own filter scripts.
+- About 28 connection records (Movies and Television) still carry research shorthand in their visitor-facing evidence,
+  such as "consider removing" or "'inspired-by' overstates it". Rewrite them for visitors.
+- Many fan-noted links are filed as "inspired-by" although the only source is a comparison, which the Legacy page says
+  never happens ("A resemblance is never presented as an influence"). A "compared to" kind of link would fix this
+  honestly; it touches the schema, labels and the Legacy shelves, so it is its own step for Adam to approve.
+- Journey to the Far Side of the Sun: Wikipedia's film article reportedly cites Douglas Pratt and the ICA comparing it to
+  "The Parallel" (refs 67-68). Read those before citing them.
+- The Bourne Identity's Twilight Zone line rests on TV Tropes only; check it against the film.
+- Donnie Darko: Gizmodo says Richard Kelly has mentioned "An Occurrence at Owl Creek Bridge" in interviews; finding
+  one would confirm the link.

@@ -182,16 +182,16 @@ export const TAXONOMY = [
       'Warner Bros. brought the show to cinemas in Twilight Zone: The Movie (1983), four segments directed by John Landis, Steven Spielberg, Joe Dante and George Miller. CBS assembled Rod Serling\'s Lost Classics (1994) from unproduced material, and Serling himself wrote Patterns, Requiem for a Heavyweight, Seven Days in May and the first Planet of the Apes.',
       'Most entries are later films that remake, adapt, borrow from or parody an episode. Each one says what the link is and how well it is documented.',
     ],
-    connection: 'Twilight Zone films are part of the franchise; Serling\'s films are one step away; linked films are here for a specific episode they draw on, stated with its evidence on the film\'s page.',
-    seeAlso: [['Homages', '/homages/']],
+    connection: 'Twilight Zone films are part of the franchise. Rod Serling\'s films (ones he wrote, ones made from his work, and ones he narrated) are one step away, and so are the documentaries about him and the show. Every other film is here for a sourced link to an episode or to the show, stated on its page with how sure that link is.',
+    seeAlso: [['Legacy', '/homages/'], ['Music videos', '/music/music-videos/'], ['Pilots and unmade projects in Television', '/series/pilots-unmade/']],
     subs: [
-      { slug: 'documentaries', title: 'Documentaries', blurb: 'Documentaries about Serling and the show.' },
-      { slug: 'linked-films', title: 'Films linked to an episode', blurb: 'Feature films that remake, adapt, echo or parody a specific episode.' },
-      { slug: 'rod-serling-films', title: "Rod Serling's films", blurb: 'Films and television films Serling wrote, hosted or narrated.' },
-      { slug: 'unmade-projects', title: 'Unmade projects', isNew: true, blurb: 'Twilight Zone films and specials that were announced or developed but never made.' },
-      { slug: 'shorts-and-other', title: 'Shorts, pilots and other screen works', blurb: 'Short films, music videos, pilots, specials and unproduced projects.' },
-      { slug: 'tv-films', title: 'Television films', blurb: 'Made-for-television films.' },
-      { slug: 'twilight-zone-films', title: 'Twilight Zone films', blurb: 'Official Twilight Zone films and specials.' },
+      // Six shelves (Movies plan, docs/plans/research-movies.md section 2, approved by Adam 2026-11-23).
+      { slug: 'documentaries', title: 'Documentaries', blurb: 'Documentaries about Serling and the show, and the documentaries Serling narrated.' },
+      { slug: 'tz-makers', title: 'Films by Twilight Zone makers', isNew: true, side: 'unofficial', blurb: 'Films by the show\'s writers and directors that a source ties to the show or to Serling.', intro: 'Only films with a sourced tie to the series, its episodes or Rod Serling are listed (Adam, 2026-11-23). The other films of the show\'s writers are linked from their People pages instead.' },
+      { slug: 'linked-films', title: 'Films linked to the show', blurb: 'Films that remake, adapt, honor, parody or reference an episode or the show, each with how well the link is documented.' },
+      { slug: 'rod-serling-films', title: "Rod Serling's films", side: 'official', blurb: 'Every film Serling wrote, that was made from his work, or that he narrated, grouped by his part in it.' },
+      { slug: 'twilight-zone-films', title: 'Twilight Zone films', blurb: 'Films and specials made under the Twilight Zone name.' },
+      { slug: 'unmade-projects', title: 'Unmade and lost projects', isNew: true, blurb: 'Twilight Zone films that were announced but never made, and Serling\'s unproduced screen scripts.' },
     ],
   },
   {
@@ -209,6 +209,7 @@ export const TAXONOMY = [
       { slug: 'songs', title: 'Songs', blurb: 'Songs about, titled after, or mentioning the show.' },
       { slug: 'soundtracks', title: 'Soundtracks and score releases', blurb: 'Albums and releases of the scores and themes.' },
       { slug: 'theme', title: 'The theme', blurb: 'The theme music, its covers and samples.' },
+      { slug: 'music-videos', title: 'Music videos', isNew: true, side: 'unofficial', blurb: 'Music videos that borrow from, honor or reference the show.' },
     ],
   },
   {
@@ -289,9 +290,10 @@ export const TAXONOMY = [
       'Every link is labelled by its evidence: confirmed by the makers, documented by a published source, or noted by fans only. A resemblance is never presented as an influence.',
     ],
     connection: 'Each entry names the later work, the episode it draws on, the kind of link and the evidence for it.',
-    seeAlso: [['Movies linked to an episode', '/movies/linked-films/']],
+    seeAlso: [['Films linked to the show', '/movies/linked-films/']],
     subs: [
       { slug: 'adaptations-remakes', title: 'Adaptations and remakes', blurb: 'Official adaptations and remakes of episodes.' },
+      { slug: 'fan-made', title: 'Fan-made', isNew: true, side: 'unofficial', blurb: 'Fan edits, supercuts and other work fans made from the show.' },
       { slug: 'homages', title: 'Homages', blurb: 'Deliberate tributes to an episode or the show.' },
       { slug: 'in-other-shows', title: 'In other shows', blurb: 'Episodes, segments and sketches of other series that adapt, spoof or reference the show.' },
       { slug: 'inspired-by', title: 'Inspired by', blurb: 'Works whose makers, or published sources, say an episode inspired them.' },
@@ -600,6 +602,24 @@ export function contentParents(col, d) {
  *   assessSub(key) -> the review assessment's subcategory label, if any
  *   connKinds(key) -> connection kinds where this record is the `from` end
  */
+/** Groups on "Rod Serling's films", by his part in each (film field serling_role). */
+const SERLING_ROLE = {
+  written: 'Written by Serling',
+  'from-his-work': 'From his work',
+  narrated: 'Narrated by Serling',
+  appeared: 'Serling on screen',
+  play: 'TV plays of 70 minutes or more',
+};
+/**
+ * Anthology series whose plays all ran 70 minutes or more, with the source. Playhouse 90: "Running time:
+ * 72–78 minutes" (Wikipedia, Playhouse 90, read 2026-11-23).
+ */
+const FEATURE_SLOTS = new Set(['Playhouse 90']);
+/** Is a TV play 70 minutes or longer (Adam, Q1)? Its own runtime, or its series' slot. */
+export function isFeatureLength(d) {
+  return (d.runtime_min ?? 0) >= 70 || FEATURE_SLOTS.has(String(d.parent_series ?? '').trim());
+}
+
 export function place(col, id, d, ctx = {}) {
   /** @type {{cat: string, sub: string, group?: string}[]} */
   const out = [];
@@ -635,23 +655,37 @@ export function place(col, id, d, ctx = {}) {
         break;
       }
       if (ENTRY_KINDS.has(k)) {
-        if (asub === "Rod Serling's other screen work" && !conns.length) add('series', 'serling-series', 'Plays for other series');
-        else {
+        if (asub === "Rod Serling's other screen work" && !conns.length) {
+          add('series', 'serling-series', 'Plays for other series');
+          // A TV play of 70 minutes or more is also listed in Movies (Adam, Q1, 2026-11-23).
+          if (isFeatureLength(d)) add('movies', 'rod-serling-films', SERLING_ROLE.play);
+        } else {
           add('homages', 'in-other-shows', { 'tv-episode': 'Episodes', 'tv-segment': 'Segments', sketch: 'Sketches', 'web-series': 'Web series' }[k]);
           add('series', 'homages', host ?? d.title);
         }
         break;
       }
       if (k === 'stage') { add('stage', 'theatre'); break; }
-      if (id === 'night-gallery-pilot') { add('movies', 'rod-serling-films', 'Night Gallery'); break; }
-      // Pilots and unmade projects tied to a series stay in Television, not Movies (decision 0002).
-      if ((d.categories ?? []).includes('series/pilots-unmade')) break;
-      if (asub === 'Twilight Zone productions') add('movies', 'twilight-zone-films');
-      else if (asub === "Rod Serling's other screen work") add('movies', 'rod-serling-films', k === 'film' ? 'Feature films' : 'Television and other');
-      if (k === 'documentary') add('movies', 'documentaries');
-      else if (k === 'tv-film' && asub !== 'Twilight Zone productions' && asub !== "Rod Serling's other screen work") add('movies', 'tv-films');
-      else if (['short', 'music-video', 'unproduced', 'special', 'pilot'].includes(k) && asub !== 'Twilight Zone productions') add('movies', 'shorts-and-other', { short: 'Short films', 'music-video': 'Music videos', unproduced: 'Unproduced projects', special: 'Specials', pilot: 'Pilots' }[k]);
-      else if (k === 'film' && asub !== 'Twilight Zone productions' && asub !== "Rod Serling's other screen work") add('movies', 'linked-films');
+      // Movies: six shelves (docs/plans/research-movies.md, section 2).
+      // A record placed by hand somewhere else and nowhere in Movies (pilots in Television, the holiday
+      // marathons in broadcast history) is not a film.
+      if ((d.categories ?? []).length && !(d.categories ?? []).some((c) => c.startsWith('movies/'))) break;
+      if (k === 'music-video') { add('music', 'music-videos'); break; } // Adam, Q3: music videos are Music
+      if (tags.includes('fan-made')) { add('homages', 'fan-made', 'Fan edits and supercuts'); break; }
+      if (k === 'unproduced') {
+        add('movies', 'unmade-projects', (d.writers ?? []).some(isSerlingName) ? "Rod Serling's unproduced scripts" : 'Twilight Zone films');
+        break;
+      }
+      // A: made under the Twilight Zone name. A documentary about Serling made elsewhere is on C only.
+      const tzFilm = asub === 'Twilight Zone productions' && (k !== 'documentary' || /^The Twilight Zone\b/.test(d.title ?? ''));
+      if (tzFilm) add('movies', 'twilight-zone-films');
+      // B: anything Serling wrote, that was made from his work, or that he narrated (Adam, Q5).
+      if (d.serling_role) add('movies', 'rod-serling-films', SERLING_ROLE[d.serling_role]);
+      // C: documentaries, including the ones Serling narrated (listed on B as well).
+      if (k === 'documentary') add('movies', 'documentaries', d.serling_role === 'narrated' ? 'Narrated by Rod Serling' : 'About Rod Serling and the show');
+      // E: films by the show's makers with a sourced tie (tag tz-makers); D: every other film with a link.
+      if (tags.includes('tz-makers')) add('movies', 'tz-makers');
+      else if (!tzFilm && !d.serling_role && k !== 'documentary') add('movies', 'linked-films');
       break;
     }
     case 'connections':

@@ -65,13 +65,12 @@ Each verb lists its purpose, what belongs in it, what does not, and its categori
 
 | Category | Subcategory | Definition | Examples | Count |
 |---|---|---|---|---:|
-| **Movies** | Documentaries | Non-fiction films about the series or Rod Serling | *Submitted for Your Approval* (1995, American Masters) | 11 |
-| | Films linked to an episode | Films adapted from, remaking or closely echoing an episode | *Twilight Zone: The Movie* (1983) segments; *Nightmare at 20,000 Feet*-inspired films | 116 |
-| | Rod Serling's films | Feature films Serling wrote | *Planet of the Apes* (1968), *Seven Days in May* (1964) | 32 |
-| | Shorts, pilots and other screen works | Short films, unaired pilots, one-offs | Night Gallery pilot (1969) | 25 |
-| | Television films | Made-for-TV movies | *Twilight Zone: Rod Serling's Lost Classics* (1994) | 8 |
-| | Twilight Zone films | Feature films carrying the franchise name | *Twilight Zone: The Movie* (1983) | 6 |
-| | Unmade projects **(new)** | Announced films that were never made | Planned revival films | 4 |
+| **Movies** (six shelves, docs/plans/research-movies.md, 2026-11-23) | Documentaries | Documentaries about Rod Serling and the show, and the ones Serling narrated (also on his shelf) | *Submitted for Your Approval* (1995, American Masters); *In Search of Ancient Astronauts* (1973) | 11 |
+| | Films by Twilight Zone makers **(new)** | Films by the show's writers and directors that a source ties to the show or to Serling. Their other films have no page: the writer's People page links out to them (Adam, Q2) | *Duel* (1971) | 1 |
+| | Films linked to the show | Films, TV films and shorts that remake, adapt, honor, parody or reference an episode or the show, each with its confidence mark | *The Box* (2009); *Truth or Consequences, N.M.* (1997) | 116 |
+| | Rod Serling's films | Everything Serling wrote, that was made from his work, or that he narrated, grouped by his part; his TV plays of 70 minutes or more (Playhouse 90) are listed here too (Adam, Q1) | *Planet of the Apes* (1968), *Seven Days in May* (1964), the Night Gallery pilot (1969) | 40 |
+| | Twilight Zone films | Films and specials made under the Twilight Zone name | *Twilight Zone: The Movie* (1983) | 4 |
+| | Unmade and lost projects **(new)** | Announced Twilight Zone films never made, and Serling's unproduced screen scripts | The Warner Bros. feature; *Jeopardy Run* | 5 |
 | **Stage** | Live readings | Staged readings and radio-style live shows | Live readings of classic scripts | 4 |
 | | Theatre | Stage plays and adaptations | *The Twilight Zone* stage adaptation (Almeida Theatre, 2017) | 15 |
 | **Television** (`/series/`) | The Twilight Zone | The four official series and revivals. A parent page (`/series/twilight-zone/`, Adam 2026-11-23) links to each series page, and each series page links to a page per episode | *The Twilight Zone* (1959, 1985, 2002, 2019) | 4 |
@@ -98,6 +97,7 @@ points to no single episode. Television films go to Movies; radio-only anthologi
 | **Music** | Songs | Songs that name, quote or are about the Twilight Zone | Rush, "The Twilight Zone" (1976); Golden Earring, "Twilight Zone" (1982) | 169 |
 | | Soundtracks and scores | Score and soundtrack releases | Varèse Sarabande score collections | 40 |
 | | The theme | Every recording and cover of the theme | Marius Constant's theme (1959); the Grateful Dead's 1985 version | 57 |
+| | Music videos **(new)** | Music videos that borrow from, honor or reference the show (Adam, Movies Q3: music videos are Music) | Young MC, "Bust a Move" | 7 |
 | **Podcasts** | Podcast episodes | Single episodes about TZ in other podcasts | Episodes of film and horror podcasts | 9 |
 | | Podcast series | Podcasts devoted to TZ | Episode-by-episode rewatch shows | 36 |
 | **Radio dramas** | Original radio stories **(new)** | Radio stories with no TV original | Original stories in the radio series | 17 |
@@ -325,7 +325,7 @@ Apply the questions in order. The first "yes" decides the home.
 | **A script**: *As Timeless as Infinity*, vol. 1 | Read > Books, on the official shelf | Read > Scripts; each episode page ("Read the script") | A script collection is a book you read. A scanned draft in an archive is content instead, on the episode, in the Media Library. |
 | **The 1983 movie**: *Twilight Zone: The Movie* | Watch > Movies > Twilight Zone films (official) | Discover > History > Trials, lawsuits and rights (the accident); Discover > Legacy > Adaptations (its segments remaking "It's a Good Life" and "Kick the Can"); Meet > Characters (the Driver, the Passenger); Read > Books (the novelization has its own home) | The film is watched. Its remakes, its accident and its characters are separate records linked to it. |
 | **Disneyland's Tower of Terror** | Visit > Real places > Attractions | Discover > Legacy > References (the 1997 TV film, which is itself in Watch > Movies, unofficial); Collect > Merchandise (ride merchandise); Read > Articles (coverage). Reviews are content. | An attraction is a place you go. 31 records mention it. Each sits in its own verb, and the attraction page links them. |
-| **Night Gallery** | Watch > Television > Rod Serling's series (one page, `/night-gallery/`, every episode and segment in its explorer) | Watch > Movies > Shorts, pilots and other (the 1969 pilot, also listed on the Night Gallery page); Collect > Artwork > Night Gallery paintings; Read > Books; Meet > Characters | Night Gallery is in scope as "all things Rod Serling". It is a series, so it lives with the series and has no verb of its own. Its series page is the hub. |
+| **Night Gallery** | Watch > Television > Rod Serling's series (one page, `/night-gallery/`, every episode and segment in its explorer) | Watch > Movies > Rod Serling's films (the 1969 pilot, also listed on the Night Gallery page); Collect > Artwork > Night Gallery paintings; Read > Books; Meet > Characters | Night Gallery is in scope as "all things Rod Serling". It is a series, so it lives with the series and has no verb of its own. Its series page is the hub. |
 | ***Twilight Zone Magazine*** | Read > Magazines (official; each issue is a record) | Meet > Organizations > Publishers (TZ Publications); Collect > Artwork > Cover art (cover paintings); Media Library (the archive collection holding the run) | The magazine is read. The archive holding the run is content. |
 | **A cover painting**: George Wilson's cover for Gold Key *The Twilight Zone* #1 (1962) | Collect > Artwork > Cover art (official) | The comic's page (as its cover); Meet > People > Artists and illustrators (George Wilson) | Artwork is both a category and content. The painting is its own record and also shows on the comic. |
 | **A parody episode**: *The Simpsons*, "Treehouse of Horror IV" | An entry on The Simpsons' page, listed in Watch > Television > Homages in other shows | Discover > Legacy > Parodies; each parodied episode's page; `/television/homages/` | The episode is watched. What makes it relevant is the parody relationship, so Discover indexes it by that. |

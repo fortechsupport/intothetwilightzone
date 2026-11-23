@@ -3,6 +3,51 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-23 — Fans' film links checked
+
+Adam asked that links fans have noted be verified. Every film link marked "Noted by fans" has now been checked, and 26 of
+them were read again against the makers' own interviews. A visitor now sees, in each film's "Why it's here" box, what the
+makers actually said:
+- Triangle is now **confirmed by its makers**: writer-director Christopher Smith calls it "that classic Twilight Zone
+  thing of running into yourself".
+- Devil is now **documented**: Film Stories reports Shyamalan planned its trilogy "in the vein of The Twilight Zone".
+- The Truman Show's two links say that writer Andrew Niccol denies a Twilight Zone source ("No. Goes to show you can't
+  believe everything you read.").
+- The rest stay "Noted by fans", and each now names the interviews that were read and what the makers named instead.
+
+**Known not to work yet:** Many fan-noted links are still labelled "Inspired by" when the only source is a comparison;
+a "compared to" label is proposed for Adam. About 28 older links still show research shorthand in their evidence.
+
+## 2026-11-23 — Movies on six shelves
+
+A visitor opening Watch > Movies now finds six shelves, A to Z, each split into official and unofficial items:
+- **Twilight Zone films**: the 1983 film, Rod Serling's Lost Classics and the two 60th anniversary specials.
+- **Rod Serling's films**, grouped by his part: written by him, made from his work, narrated by him, and his Playhouse 90
+  plays (Adam: TV plays of 70 minutes or more are also listed in Movies). Planet of the Apes is here now.
+- **Documentaries**, about Serling and the show, plus the ones he narrated.
+- **Films linked to the show**, which also holds the short films and TV films that point to an episode.
+- **Films by Twilight Zone makers** (new): Duel, the one film by the show's writers with a source tying it to the show.
+- **Unmade and lost projects**: the Warner Bros. feature and Serling's unproduced scripts.
+
+The Movies page lists every film in one list a visitor can filter by section, type, decade, the episode a film points to,
+and how sure the link is. Each film page's "Why it's here" box now names the episode, the mark (confirmed, documented or
+noted by fans) and the source for each link, and Serling's part where he had one. Film pages can show the story a film is
+based on and its composer.
+
+Moved out of Movies: the music videos to Listen > Music > Music videos (new), the two fan edits to Discover > Legacy >
+Fan-made (new), the holiday marathons to Screenings and marathons, The Happy Place to Television's pilots, and the
+SpongeBob "Tidal Zone" special to the SpongeBob page in Television. Old shelf addresses redirect.
+
+Following Adam's rule that films need a tie to the show, its episodes or Serling, 16 films by the show's writers with no
+such tie (among them Somewhere in Time, The Night Stalker and Logan's Run) no longer have pages. Their records are kept,
+and each writer's page lists them under "Other films", linking out to the film's own source and the writer's Wikipedia
+article. Their old addresses go to the writer's page.
+
+The search and filter bar on every list page was not filtering, because it ran before the list loaded. It works now.
+
+**Known not to work yet:** The seven music videos are on their own shelf, not yet on their songs' pages. Composers and source
+stories are filled in for 13 films so far; the rest come with the next research rounds.
+
 ## 2026-11-23 — Rod Serling's films checked one by one
 
 Every film Serling wrote or narrated now shows its exact release date, running time, director, writers, main cast and

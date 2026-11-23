@@ -8,6 +8,7 @@ import ListTools from '../../components/ListTools.astro';
 import { catalog, type CatInfo, type SubInfo, type Entry } from '../../lib/catalog';
 import { sortKey, OFFICIAL_LABEL, UNOFFICIAL_LABEL, verbOf } from '../../lib/taxonomy.mjs';
 import { watchFor, watchShort } from '../../lib/watch';
+import { movieFacets } from '../../lib/facets';
 
 export async function getStaticPaths() {
   const cats = await catalog();
@@ -52,6 +53,8 @@ const showWatch = c.slug === 'series' && s.slug === 'homages';
 const compact = c.slug === 'people' || (s.entries.length > 400 && !s.entries.some((e) => e.desc));
 const gid = (p: string, g: string) => `${p ? p + '-' : ''}${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 const siblings = c.subs.filter((x) => x.entries.length > 0);
+// Movies: filters by type, decade, the Twilight Zone episode a film points to, and how sure the link is.
+const facetDefs = movieFacets(c.slug, s.entries);
 const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
 ---
 <Base title={`${s.title}: ${c.title}`} description={`${s.title} (${c.title}): ${s.blurb}`}>
@@ -81,7 +84,7 @@ const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
   )}
   {!s.entries.length && <p class="muted">No entries yet. Research is under way.</p>}
   {s.entries.length > 5 && (
-    <ListTools scope="list" noun={s.title.toLowerCase()} groups={[...new Set(s.entries.map((e) => e.group).filter(Boolean) as string[])].sort((a, b) => rank(a).localeCompare(rank(b)))} sides={split} tiers={new Set(s.entries.map((e) => e.tier ?? 'core')).size > 1} years={s.entries.some((e) => /\b(1[89]\d\d|20\d\d)\b/.test(e.meta ?? ''))} groupLabel={c.slug === 'series' && s.slug === 'homages' ? 'Show' : 'Group'} />
+    <ListTools scope="list" noun={s.title.toLowerCase()} groups={[...new Set(s.entries.map((e) => e.group).filter(Boolean) as string[])].sort((a, b) => rank(a).localeCompare(rank(b)))} sides={split} tiers={new Set(s.entries.map((e) => e.tier ?? 'core')).size > 1} years={s.entries.some((e) => /\b(1[89]\d\d|20\d\d)\b/.test(e.meta ?? ''))} groupLabel={c.slug === 'series' && s.slug === 'homages' ? 'Show' : s.slug === 'rod-serling-films' ? "Serling's part" : 'Group'} facets={facetDefs} />
   )}
   <div id="list">
   {parts.map((p) => {
@@ -96,14 +99,14 @@ const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
         {multi ? gs.map(([g, list]) => (
           <section id={gid(p.id, g)}>
             <H>{g} <span class="muted small">({list.length})</span>{showWatch && (() => { const w = watchShort(watchFor({ show: g }).w); return w && <span class="small watch-inline">{w}</span>; })()}</H>
-            <EntryList entries={list} compact={compact} />
+            <EntryList entries={list} compact={compact} facets={facetDefs.map((f) => f.key)} />
           </section>
         )) : letters ? byLetter(p.entries).map(([L, list]) => (
           <section id={gid(p.id, 'letter-' + L)}>
             <H>{L}</H>
-            <EntryList entries={list} compact={compact} />
+            <EntryList entries={list} compact={compact} facets={facetDefs.map((f) => f.key)} />
           </section>
-        )) : <EntryList entries={p.entries} compact={compact} />}
+        )) : <EntryList entries={p.entries} compact={compact} facets={facetDefs.map((f) => f.key)} />}
       </section>
     );
   })}

@@ -10,6 +10,8 @@ import LetterNav from '../../components/LetterNav.astro';
 import SectionSummary from '../../components/SectionSummary.astro';
 import { catalog, countOf, entityRows, letterOf, SPLIT_INDEX_AT, type CatInfo } from '../../lib/catalog';
 import { verbOf } from '../../lib/taxonomy.mjs';
+import ListTools from '../../components/ListTools.astro';
+import { movieFacets } from '../../lib/facets';
 
 export async function getStaticPaths() {
   const cats = await catalog();
@@ -31,6 +33,11 @@ const group = verbOf(c.slug);
 const entRows = section ? await entityRows(c.slug as any) : [];
 const split = entRows.length > SPLIT_INDEX_AT;
 const letters = [...new Set(entRows.map((r) => letterOf(r.sort)))].sort();
+// Movies: one list of every film, A to Z, with filters by shelf, type, decade, episode and confidence
+// (plan docs/plans/research-movies.md, section 3), in place of the shelf previews.
+const finder = c.slug === 'movies';
+const finderEntries = finder ? allEntries.map((e) => ({ ...e, group: undefined, facets: { ...e.facets, shelf: subs.filter((s) => s.entries.some((x) => x.key === e.key)).map((s) => s.title) } })).sort((a, b) => a.sort.localeCompare(b.sort)) : [];
+const finderFacets = movieFacets(c.slug, finderEntries);
 const NOUN: Record<string, string> = { people: 'people', places: 'places', organizations: 'organizations' };
 ---
 <Base title={c.title} description={c.description}>
@@ -74,7 +81,14 @@ const NOUN: Record<string, string> = { people: 'people', places: 'places', organ
   ) : (
     <>
       <SectionSummary entries={allEntries} scope={c.slug} label={c.title} />
-      {subs.map((s) => (
+      {finder ? (
+        <section>
+          <h2>Every film A to Z</h2>
+          <p class="small muted">Filter by section, type, decade, the Twilight Zone episode a film points to, or how sure the link is, or search. Titles are alphabetical, ignoring a leading "The", "A" or "An".</p>
+          <ListTools scope="finder" noun="films" sides={canSplit} tiers={new Set(finderEntries.map((e) => e.tier ?? 'core')).size > 1} facets={finderFacets} />
+          <div id="finder"><EntryList entries={finderEntries} facets={finderFacets.map((f) => f.key)} /></div>
+        </section>
+      ) : subs.map((s) => (
         <section id={s.slug}>
           <h2><a href={`/${c.slug}/${s.slug}/`}>{s.title}</a> <span class="muted small">({s.entries.length.toLocaleString('en-US')})</span></h2>
           {s.intro && <p>{s.intro}</p>}

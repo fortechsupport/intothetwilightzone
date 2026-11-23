@@ -3,11 +3,15 @@ to: 1959/living-doll
 kind: inspired-by
 confidence: fan-noted
 summary: Bloody Disgusting places the possessed-doll spin-off in a killer-doll lineage that runs back to Talky Tina.
+evidence: Bloody Disgusting and Birth.Movies.Death (2017) place Annabelle in a killer-doll line that runs back to Talky
+  Tina; both are the writers' own comparisons and quote none of the film's makers. The Annabelle films draw on the Warrens'
+  case files. The link is a comparison.
 sources:
 - title: Before Annabelle and Chucky, we met Talky Tina in The Twilight Zone (Bloody Disgusting)
   url: https://bloody-disgusting.com/editorials/3568626/annabelle-chucky-met-talky-tina-twilight-zone/
-last_verified: '2026-11-20'
+- title: 'On Annabelle and Talky Tina: a brief history of horror''s dolls (Birth.Movies.Death)'
+  url: https://birthmoviesdeath.com/2017/08/16/on-annabelle-and-talky-tina-a-brief-history-of-horrors-dolls.html
+  publisher: Birth.Movies.Death
+  note: 16 August 2017.
+last_verified: '2026-11-23'
 locked: true
-evidence: 'Checked 2026-11-20: Bloody Disgusting places Annabelle in a killer-doll line that runs back to Talky
-  Tina; that is a critic''s lineage piece. No statement from the filmmakers about Twilight Zone was found. Annabelle is based
-  on the Warrens'' real-life case files, so ''inspired-by Living Doll'' overstates the link.'

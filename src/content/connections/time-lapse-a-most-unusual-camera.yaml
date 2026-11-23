@@ -3,12 +3,11 @@ to: 1959/a-most-unusual-camera
 kind: inspired-by
 confidence: fan-noted
 summary: Time Lapse is listed in Adam's research as inspired by "A Most Unusual Camera".
-evidence: 'No source found; both turn on a camera that photographs the future and the greed it provokes. Checked 2026-11-20:
-  Wikipedia''s Time Lapse article says the film shares several elements with ''A Most Unusual Camera'', but presents
-  this as a similarity, with no filmmaker statement attached. Interviews with director Bradley King (Slashfilm, ScreenAnarchy)
-  exist but I did not check them for Twilight Zone mentions. A blog review also frames the film as Twilight Zone plus
-  Hitchcock Presents. Checked 2026-11-23: CBR (2025) calls Time Lapse "the 2014 movie that emulated" the episode; a critic''s
-  reading, with no statement from the makers.'
+evidence: Both turn on a camera that photographs the future and the greed it provokes. Wikipedia's article says the film
+  shares several elements with the episode, without a citation, and CBR (2025) calls it "the 2014 movie that emulated" the
+  episode. In interviews with SlashFilm and ScreenAnarchy (2014), director Bradley King and co-writer BP Cooper do not mention
+  the episode; SlashFilm's interviewer says the film reminded him of "old-school Twilight Zone episodes". The link is a
+  comparison.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
@@ -19,5 +18,15 @@ sources:
   author: Robert Vaux
   publisher: CBR
   note: 15 February 2025.
+- title: 'Time Lapse interview: BP Cooper and Bradley King (SlashFilm)'
+  url: https://www.slashfilm.com/time-lapse-siff-bp-cooper-bradley-king-interview
+  author: David Chen
+  publisher: SlashFilm
+  note: 4 June 2014.
+- title: 'Fantasia 2014: Bradley King and BP Cooper talk Time Lapse (ScreenAnarchy)'
+  url: https://screenanarchy.com/2014/08/fantasia-2014-bradley-king-and-j-p-cooper-talk-time-lapse.html
+  author: Kurt Halfyard
+  publisher: ScreenAnarchy
+  note: 4 August 2014.
 last_verified: '2026-11-23'
 locked: true
