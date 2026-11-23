@@ -19296,7 +19296,7 @@
   "sort": "box  button button 001985"
  },
  "connections/the-brown-bunny--come-wander-with-me": {
-  "connection": "Wikipedia's episode article says Bonnie Beecher's recording of \"Come Wander with Me\", the song written for the episode, is on the film's soundtrack.",
+  "connection": "The film's soundtrack includes \"Come Wander with Me\", the song written for the episode; Wikipedia's episode article says it is Bonnie Beecher's recording, as sung in the episode.",
   "tier": "tangential",
   "tier_reason": "Reference link, a published source makes the link.",
   "recommendation": "include",
@@ -29729,8 +29729,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "A Storm in Summer (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/A_Storm_in_Summer",
   "title": "A Storm in Summer (1970)",
   "subcategory": "Rod Serling's other screen work",
   "sort": "storm in summer 001970"
@@ -29969,8 +29969,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "Assault on a Queen (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Assault_on_a_Queen",
   "title": "Assault on a Queen",
   "subcategory": "Rod Serling's other screen work",
   "sort": "assault on a queen"
@@ -30209,8 +30209,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Carol for Another Christmas (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Carol_for_Another_Christmas",
   "title": "Carol for Another Christmas",
   "subcategory": "Television films",
   "sort": "carol for another christmas"
@@ -30221,8 +30221,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "Certain Honorable Men (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Certain_Honorable_Men",
   "title": "Certain Honorable Men",
   "subcategory": "Rod Serling's other screen work",
   "sort": "certain honorable men"
@@ -30457,8 +30457,8 @@
  },
  "films/duel": {
   "connection": "A motorist is stalked across desert highways by an unseen truck driver; Flicks calls the Richard Matheson-scripted film a feature-length Twilight Zone-style story.",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
   "recommendation": "exclude",
   "reason": "Duplicate of films/duel-1971; the other record is kept. This one stays hidden so the importer does not recreate it.",
   "source_title": "Sight, Sound and Mind: The Twilight Zone on the Big Screen (Flicks)",
@@ -30468,11 +30468,11 @@
   "sort": "duel"
  },
  "films/duel-1971": {
-  "connection": "Steven Spielberg's TV movie about a motorist hunted by an unseen truck driver, written by Matheson from his own story.",
+  "connection": "A motorist is stalked across desert highways by an unseen truck driver; Flicks calls the Richard Matheson-scripted film a feature-length Twilight Zone-style story.",
   "tier": "related",
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
   "recommendation": "include",
-  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "reason": "A published source makes the link, so it is a well-founded influence record.",
   "source_title": "Wikipedia: Duel (1971 film)",
   "source_url": "https://en.wikipedia.org/wiki/Duel_(1971_film)",
   "title": "Duel",
@@ -30521,8 +30521,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "Encounter with the Unknown (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Encounter_with_the_Unknown",
   "title": "Encounter with the Unknown",
   "subcategory": "Rod Serling's other screen work",
   "sort": "encounter with the unknown"
@@ -31241,8 +31241,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "Incident in an Alley (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Incident_in_an_Alley",
   "title": "Incident in an Alley",
   "subcategory": "Rod Serling's other screen work",
   "sort": "incident in an alley"
@@ -32789,8 +32789,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "Patterns (film) (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Patterns_(film)",
   "title": "Patterns",
   "subcategory": "Rod Serling's other screen work",
   "sort": "patterns"
@@ -32837,8 +32837,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "Phantom of the Paradise (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Phantom_of_the_Paradise",
   "title": "Phantom of the Paradise",
   "subcategory": "Rod Serling's other screen work",
   "sort": "phantom of the paradise"
@@ -32861,8 +32861,8 @@
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
   "recommendation": "include",
   "reason": "A published source makes the link, so it is a well-founded influence record.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "Planet of the Apes (1968 film) (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Planet_of_the_Apes_(1968_film)",
   "title": "Planet of the Apes",
   "subcategory": "Feature films",
   "sort": "planet of the apes"
@@ -32993,8 +32993,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "Requiem for a Heavyweight (film) (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Requiem_for_a_Heavyweight_(film)",
   "title": "Requiem for a Heavyweight",
   "subcategory": "Rod Serling's other screen work",
   "sort": "requiem for a heavyweight"
@@ -33113,8 +33113,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "Saddle the Wind (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Saddle_the_Wind",
   "title": "Saddle the Wind",
   "subcategory": "Rod Serling's other screen work",
   "sort": "saddle the wind"
@@ -33341,8 +33341,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "Seven Days in May (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Seven_Days_in_May",
   "title": "Seven Days in May",
   "subcategory": "Rod Serling's other screen work",
   "sort": "seven days in may"
@@ -33464,7 +33464,7 @@
   "source_title": "Twilight Zone Wiki: Television series with references to The Twilight Zone",
   "source_url": "https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone",
   "title": "The Tidal Zone",
-  "subcategory": "Specials",
+  "subcategory": "Episodes of other shows",
   "sort": "tidal zone"
  },
  "films/star-trek-mirror-mirror": {
@@ -33953,8 +33953,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "The Doomsday Flight (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Doomsday_Flight",
   "title": "The Doomsday Flight",
   "subcategory": "Rod Serling's other screen work",
   "sort": "doomsday flight"
@@ -34313,8 +34313,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "The Man (1972 film) (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Man_(1972_film)",
   "title": "The Man",
   "subcategory": "Rod Serling's other screen work",
   "sort": "man"
@@ -34541,8 +34541,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "The Outer Space Connection (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Outer_Space_Connection",
   "title": "The Outer Space Connection",
   "subcategory": "Rod Serling's other screen work",
   "sort": "outer space connection"
@@ -34565,8 +34565,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "The Rack (1956 film) (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Rack_(1956_film)",
   "title": "The Rack",
   "subcategory": "Rod Serling's other screen work",
   "sort": "rack"
@@ -34637,8 +34637,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "The Salamander (1981 film) (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Salamander_(1981_film)",
   "title": "The Salamander",
   "subcategory": "Rod Serling's other screen work",
   "sort": "salamander"
@@ -35285,8 +35285,8 @@
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "Wikipedia: Rod Serling",
-  "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
+  "source_title": "The Yellow Canary (1963 film) (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Yellow_Canary_(1963_film)",
   "title": "The Yellow Canary",
   "subcategory": "Rod Serling's other screen work",
   "sort": "yellow canary"
@@ -41412,7 +41412,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -44856,7 +44856,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -45192,7 +45192,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -48492,7 +48492,7 @@
   "sort": "jean carson"
  },
  "people/jean-de-segonzac": {
-  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Cradle of Darkness” and “Night Route”).",
+  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Night Route” and “Cradle of Darkness”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -50556,7 +50556,7 @@
   "sort": "jonathan winters"
  },
  "people/jordan-peele": {
-  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “Nightmare at 30,000 Feet” and “The Comedian”).",
+  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “The Comedian” and “Nightmare at 30,000 Feet”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -57924,7 +57924,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",

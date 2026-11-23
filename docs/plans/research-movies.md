@@ -171,6 +171,7 @@ decade and type filter. The shelves are:
    - the "Why it's here" block and the filters on the landing page
 
    No new records. Screenshots go to Adam at 320 px and 1440 px before merge.
+   **Built 2026-11-23** (screenshots in the project files, `screenshots/movies-structure/`).
 2. **Research round 1:** A, B and F. Pending records, with a new-records-only review sheet.
 3. **Research round 2:** D and E: sources for weak links, and new remakes and adaptations.
 4. **Research round 3:** C and the media attachments.
@@ -194,6 +195,18 @@ decade and type filter. The shelves are:
 
 ## Decided here (Adam reviews later)
 - The six shelves, and the moves in section 2.
+- Q2 applied to shelf E too: The Night Stalker, Trilogy of Terror and The Homecoming have no source on file tying them to
+  the show, so they join the 13 films kept only for their writers' pages (`filmography_only: true`). Duel stays on E
+  through the Flicks article that calls it a feature-length Twilight Zone-style story. Any of the three comes back to E
+  when a source ties it to the show.
+- Serling's part in each film is a field on the record (`serling_role`), set from what each record's own sources say.
+- Playhouse 90 plays count as 70 minutes or more from the series' running time ("72–78 minutes", Wikipedia); no other
+  series Serling wrote for ran that long.
+- Rod Serling: Beyond the Twilight Zone (E! True Hollywood Story) is on Documentaries only, not Twilight Zone films,
+  because it was not made under the Twilight Zone name.
+- The SpongeBob "Tidal Zone" record is now a TV episode of SpongeBob (it is a one-hour special of the show), so it lists
+  on that show's page. Its id is unchanged, so its decision carries over.
+- The duplicate Duel record's connection now starts from the kept Duel record (same file, same decision key).
 - Making-of featurettes and DVD extras are media on the film or series, not records.
 - The Warner Bros. feature stays one record with a dated history of each announcement, not one record per
   attempt.
@@ -205,6 +218,10 @@ decade and type filter. The shelves are:
 ## Found, for later
 - Duel has two records. One is already marked as the duplicate; the importer and the decision key should be
   checked when the duplicate is cleared out.
-- 13 films on the "linked" shelf have no connection record, so nothing says which episode they point to. Round 2
-  fixes this.
-- The 1959 series' broadcast history should absorb the holiday marathons record (Television).
+- ~~13 films on the "linked" shelf have no connection record~~ They were films by the show's writers with no tie;
+  Adam's Q2 moved them to their writers' pages (structure step).
+- ~~The holiday marathons record~~ Moved to History > Screenings and marathons (structure step).
+- The seven music videos should also show on their songs' pages in Music (Q3 says "to their song").
+- The Planet of the Apes franchise record (works) sits on Rod Serling's films in a group of its own, "Franchises".
+- The search and filter bar on list pages never filtered (its script ran before the list loaded). Fixed in the
+  structure step; worth a look on other pages that use their own filter scripts.

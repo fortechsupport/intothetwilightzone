@@ -100,6 +100,8 @@ const yaml = (dir: string): Loader => {
     name: 'reviewed-glob-loader',
     load: async (context) => {
       await inner.load(context);
+      // Films kept on file only for a writer's filmography links have no page in any mode.
+      for (const id of context.store.keys()) if ((context.store.get(id)?.data as any)?.filmography_only) context.store.delete(id);
       const mode = reviewMode();
       if (mode === 'all') return;
       const decisions = loadDecisions();
@@ -211,8 +213,21 @@ const films = defineCollection({
     runtime_min: z.number().optional(),
     writers: names,
     writing_credit_note: z.string().optional(), // co-writers, adaptation, or how the credit is known
+    // The story, novel, play or teleplay the work is based on, and who wrote it (Movies plan, section 3).
+    source_title: z.string().optional(),
+    source_authors: names,
     directors: names,
     cast: names,
+    composer: names, // who wrote the score
+    // Rod Serling's part in it, for the shelf "Rod Serling's films" (grouped by role, Movies plan section 2):
+    // written (his screenplay or teleplay, made in his lifetime), from-his-work (others' scripts from his
+    // teleplays or stories, or his scripts produced after his death), narrated (voice or narration),
+    // appeared (on screen as himself or a character).
+    serling_role: z.enum(['written', 'from-his-work', 'narrated', 'appeared']).optional(),
+    // A film by a Twilight Zone writer with no tie to the show, its episodes or Serling (Adam, 2026-11-23, Q2):
+    // no page of its own. The record is kept, and the writer's People page links out to it and to their
+    // filmography. The loader drops it from every build; src/lib/filmography.ts reads it from the YAML.
+    filmography_only: z.boolean().optional(),
     // A series' run (kind tv-series), from its sourced reference page (decision 0002, plan section 5).
     network: z.string().optional(),
     end_date: z.string().optional(), // last first-run broadcast; release_date is the first
