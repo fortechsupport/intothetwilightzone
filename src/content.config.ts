@@ -198,6 +198,7 @@ const films = defineCollection({
   loader: yaml('films'),
   schema: z.object({
     title: z.string(),
+    aka: names, // other titles a source gives the work ("Old MacDonald Has a Curve")
     kind: z.enum(['film', 'tv-film', 'tv-episode', 'tv-segment', 'tv-series', 'sketch', 'documentary', 'special', 'pilot', 'stage', 'unproduced', 'short', 'music-video', 'commercial', 'web-series']).default('film'),
     summary: z.string().optional(),
     parent_series: z.string().optional(),
@@ -209,6 +210,7 @@ const films = defineCollection({
     rating: z.string().optional(),
     runtime_min: z.number().optional(),
     writers: names,
+    writing_credit_note: z.string().optional(), // co-writers, adaptation, or how the credit is known
     directors: names,
     cast: names,
     // A series' run (kind tv-series), from its sourced reference page (decision 0002, plan section 5).

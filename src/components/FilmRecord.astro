@@ -59,6 +59,7 @@ const watch = WATCHABLE.has(d.kind) && !(d.tags ?? []).includes('radio-only') &&
   <RecordHeader type={recordType('films', d)} context={recordContext('films', d)} title={title ?? d.title} recKey={`films/${f.id}`} />
   {(() => { const t = trackFor('films', (d as any).kind); return (t.seen || t.own) && <TrackButtons recKey={`films/${f.id}`} seen={t.seen} own={t.own} />; })()}
   {d.parent_series && <p class="muted">{host ? <a href={host.href}>{d.parent_series}</a> : d.parent_series}</p>}
+  {d.aka.length > 0 && <p class="muted">Also known as {d.aka.join(', ')}</p>}
   {d.summary && <p class="lead">{d.summary}</p>}
   <dl class="facts">
     {d.kind === 'tv-series' && d.release_date ? <><dt>On the air</dt><dd>{formatDate(d.release_date)}{d.end_date ? ` to ${formatDate(d.end_date)}` : ''}</dd></> : d.release_date && <><dt>{firstLabel}</dt><dd>{formatDate(d.release_date)}</dd></>}
@@ -75,7 +76,7 @@ const watch = WATCHABLE.has(d.kind) && !(d.tags ?? []).includes('radio-only') &&
     {watch && <WhereToWatch info={watch} />}
     {d.runtime_min && <><dt>Runtime</dt><dd>{d.runtime_min} minutes</dd></>}
     {d.directors.length > 0 && <><dt>Directed by</dt><dd>{d.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
-    {d.writers.length > 0 && <><dt>Written by</dt><dd>{d.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
+    {d.writers.length > 0 && <><dt>Written by</dt><dd>{d.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}{d.writing_credit_note && <div class="small muted">{d.writing_credit_note}</div>}</dd></>}
   </dl>
   {d.segments.length > 0 && (
     <section>

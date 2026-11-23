@@ -2,15 +2,20 @@ title: Nightmare at Ground Zero
 kind: tv-episode
 parent_series: Suspense
 summary: An early Serling suspense play set around an atomic test site, listed among his first network credits.
-release_date: '1953'
+release_date: '1953-08-18'
 writers:
 - Rod Serling
+directors:
+- Robert Stevens
 sources:
 - title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
   url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
-research_confidence: medium
+- title: Rod Serling's Complete Filmography
+  url: https://rodserling.com/rod-serlings-complete-filmography/
+  publisher: Rod Serling Memorial Foundation
+research_confidence: high
 relevance: related
 tags:
 - teleplay
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true

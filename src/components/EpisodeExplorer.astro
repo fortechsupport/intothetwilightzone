@@ -50,6 +50,7 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
             data-air={`${e.group}|${e.date ?? ''}|${e.id}`} data-date={e.date ?? ''}>
             <h4 class="ex-title"><a href={`#${e.id}`} class="ex-anchor">{e.title}</a></h4>
             <p class="small muted">{[e.number, e.kindLabel !== 'Episode' && e.kindLabel, formatDate(e.date)].filter(Boolean).join(' · ')}</p>
+            {e.aka.length > 0 && <p class="small muted">Also known as {e.aka.join(', ')}</p>}
             {e.links.length > 0 && (
               <ul class="plain ex-links">
                 {e.links.map((l) => (
@@ -62,6 +63,7 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
             {(e.writers.length > 0 || e.directors.length > 0) && (
               <p class="small">{e.writers.length > 0 && <>Written by {e.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}{e.writers.length > 0 && e.directors.length > 0 && ' · '}{e.directors.length > 0 && <>Directed by {e.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}</p>
             )}
+            {e.creditNote && <p class="small muted">{e.creditNote}</p>}
             {e.cast.length > 0 && <p class="small">Cast: {e.cast.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</p>}
             {e.segments.length > 0 && (
               <ul class="plain ex-segments">

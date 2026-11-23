@@ -1,9 +1,11 @@
 title: Old MacDonald Had a Curve
+aka:
+- Old MacDonald Has a Curve
 kind: tv-episode
 parent_series: Kraft Television Theatre
 summary: 'One of Serling''s first sales to a national anthology: a light comedy about an aging former ballplayer
   who discovers he can still pitch.'
-release_date: '1953'
+release_date: '1953-08-05'
 writers:
 - Rod Serling
 sources:
@@ -11,9 +13,12 @@ sources:
   url: https://en.wikipedia.org/wiki/Rod_Serling
 - title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
   url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+- title: Rod Serling's Complete Filmography
+  url: https://rodserling.com/rod-serlings-complete-filmography/
+  publisher: Rod Serling Memorial Foundation
 research_confidence: high
 relevance: related
 tags:
 - teleplay
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true
