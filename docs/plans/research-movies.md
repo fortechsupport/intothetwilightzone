@@ -178,6 +178,8 @@ each with sources; fan-noted links are verified where possible; visitors' thumbs
 2. **Research round 1:** A, B and F. Pending records, with a new-records-only review sheet.
 3. **Research round 2:** D and E: sources for weak links, and new remakes and adaptations.
 4. **Research round 3:** C and the media attachments.
+   **Partly done 2026-11-23:** credits and sources for the documentaries, and two named reviews on Twilight Zone: The
+   Movie. Posters, official trailers and home video for the other films are still open (Found, for later).
 5. **Pages filled out** after Adam's decisions on the records.
 
 ## 10. Acceptance checks (pass or fail)
@@ -225,6 +227,9 @@ each with sources; fan-noted links are verified where possible; visitors' thumbs
   Consequences, N.M. (1997) and "A Penny for Your Thoughts" as his example.
 
 ## Found, for later
+- Round 3 still open: posters (credited to their designers), official trailers and home video releases for the films
+  other than Twilight Zone: The Movie. Lost Classics' composer is not in Wikipedia or TCM. Beyond the Twilight Zone
+  (2000) rests on IMDb and Moviefone only. The Undersea World of Jacques Cousteau record is a TV series, not a film.
 - Duel has two records. One is already marked as the duplicate; the importer and the decision key should be
   checked when the duplicate is cleared out.
 - ~~13 films on the "linked" shelf have no connection record~~ They were films by the show's writers with no tie;

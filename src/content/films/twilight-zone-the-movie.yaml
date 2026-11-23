@@ -318,3 +318,18 @@ media:
     20,000 Feet"
   url: https://interviews.televisionacademy.com/interviews/richard-matheson
   date: '2002-04-16'
+- type: review
+  title: 'Cinema: Bad Dreams'
+  url: https://time.com/archive/6859945/cinema-bad-dreams/
+  creator: Richard Corliss
+  host: TIME
+  date: '1983-06-20'
+  rights: link-only
+  note: TIME's review on release, covering all four segments.
+- type: review
+  title: 'Twilight Zone: The Movie review'
+  url: https://www.rogerebert.com/reviews/twilight-zone-the-movie-1983
+  creator: Roger Ebert
+  host: RogerEbert.com
+  rights: link-only
+  note: 'Ebert on the four segments: "Twilight Zone starts slow, almost grinds to a halt, and then has a fast comeback." The page shows no date.'
