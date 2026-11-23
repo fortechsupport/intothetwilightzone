@@ -1,11 +1,11 @@
 from: films/the-invisible
 to: 1959/a-passage-for-trumpet
-kind: inspired-by
+kind: compared
 confidence: fan-noted
-summary: The Invisible is listed in Adam's research as inspired by "A Passage for Trumpet".
-evidence: 'No source found; the link rests on a young man in limbo between life and death whom nobody can see. Checked
-  2026-11-20: No source found. The film remakes the Swedish film Den osynlige, from Mats Wahl''s novel, so a Twilight Zone
-  inspiration is unlikely. Recast as a comparison.'
+summary: Adam's research pairs The Invisible with "A Passage for Trumpet".
+evidence: 'No source found; the link rests on a young man in limbo between life and death whom nobody can see. Checked 2026-11-20:
+  No source found. The film remakes the Swedish film Den osynlige, from Mats Wahl''s novel, so a Twilight Zone inspiration
+  is unlikely.'
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

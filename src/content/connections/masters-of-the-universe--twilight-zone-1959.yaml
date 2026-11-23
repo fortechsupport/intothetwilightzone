@@ -2,12 +2,10 @@ from: films/masters-of-the-universe
 to: series/1959
 kind: reference
 confidence: fan-noted
-summary: Amid the final ray-gun battle a bewildered detective exclaims that he feels like he is in the Twilight
-  Zone.
+summary: Amid the final ray-gun battle a bewildered detective exclaims that he feels like he is in the Twilight Zone.
+evidence: 'Checked 2026-11-20: Only TV Tropes records the line; no published source was found.'
 sources:
 - title: 'TV Tropes: Referenced By / The Twilight Zone'
   url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
 last_verified: '2026-11-20'
 locked: true
-evidence: 'Checked 2026-11-20: Only TV Tropes records the line. Passing dialogue/gag reference listed only on the
-  fan-run Twilight Zone Wiki; no published source found. Low priority for further digging.'

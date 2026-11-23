@@ -1,9 +1,9 @@
 from: films/final-destination
 to: 1959/twenty-two
-kind: inspired-by
+kind: compared
 confidence: documented
-summary: Flavorwire pairs the film's 'premonition of a doomed flight' opening with this episode's warning to avoid a
-  fatal plane; this is a critic's comparison, not a creator statement.
+summary: Flavorwire pairs the film's 'premonition of a doomed flight' opening with this episode's warning to avoid a fatal
+  plane; this is a critic's comparison, not a creator statement.
 evidence: 'Checked 2026-11-23: Also named by CBR (2025), Flavorwire (2012), Den of Geek (2017) and Gizmodo (2009).'
 sources:
 - title: IntoTheTwilightZone research spreadsheets

@@ -1,11 +1,9 @@
 from: films/christine
 to: 1959/you-drive
-kind: inspired-by
+kind: compared
 confidence: fan-noted
-summary: Christine is listed in Adam's research as inspired by "You Drive".
-evidence: 'No source found; the link rests on both stories featuring a car with a will of its own. Checked 2026-11-20:
-  No source was found linking Stephen King''s Christine to You Drive; both feature a car with a will of its own.
-  Weak thematic overlap; consider removing.'
+summary: Adam's research pairs Christine with "You Drive".
+evidence: Both feature a car with a will of its own. No source links Stephen King's Christine to the episode.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

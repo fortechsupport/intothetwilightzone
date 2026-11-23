@@ -1,9 +1,9 @@
 from: films/midnight-in-paris
 to: 1959/a-stop-at-willoughby
-kind: inspired-by
+kind: compared
 confidence: documented
-summary: Flavorwire compares the film's nostalgic writer slipping into an idealised past with the commuter's escape
-  to Willoughby; this is a critic's comparison.
+summary: Flavorwire compares the film's nostalgic writer slipping into an idealised past with the commuter's escape to Willoughby;
+  this is a critic's comparison.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

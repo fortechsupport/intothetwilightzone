@@ -247,7 +247,7 @@ const connections = defineCollection({
   schema: z.object({
     from: ref,
     to: ref,
-    kind: z.enum(['official-adaptation', 'remake', 'inspired-by', 'homage', 'parody', 'reference', 'lyric-mention']),
+    kind: z.enum(['official-adaptation', 'remake', 'inspired-by', 'compared', 'homage', 'parody', 'reference', 'lyric-mention']),
     confidence: z.enum(['confirmed-by-creator', 'documented', 'fan-noted']),
     summary: z.string().optional(),
     evidence: z.string().optional(),

@@ -47,7 +47,9 @@ a record that does not match fails the build.
 | works | `works/<slug>.yaml` | title, kind (`game`/`collectible`/`artwork`/`stage`/`attraction`/`parody`/`convention`/`television`/`soundtrack`/`event`/`link`/`fan-community`/`memorial`/`education`/`other`) | year, creator, publisher, description (own words), subtype, details (free-form map) |
 | locations | `locations/<slug>.yaml` | name | kind (`backlot-set`/`filming-location`/`serling-place`/`attraction`/`museum-exhibit`/`memorial`/`archive`), address, city, region, country, lat, lng, status, opened, closed, filmed[] ({ref, note}), notes |
 
-`connections.kind`: `official-adaptation`, `remake`, `inspired-by`, `homage`, `parody`, `reference`, `lyric-mention`.
+`connections.kind`: `official-adaptation`, `remake`, `inspired-by`, `compared`, `homage`, `parody`, `reference`, `lyric-mention`.
+`compared` is a resemblance that critics or fans point out, where neither the makers nor a published source say the
+episode inspired the work; it shows as "Compared to" (decision 0006). `inspired-by` needs the makers or a source to say so.
 `connections.confidence`: `confirmed-by-creator`, `documented`, `fan-noted`, shown on the site as "Confirmed by its makers",
 "Documented" and "Noted by fans" (decision 0002). Use `documented` or better only with a source URL in `sources`.
 
@@ -171,7 +173,7 @@ cultural-impact, props-collecting) still work and are mapped to the new places (
 | `podcasts` *(new)* | `shows`, `episodes` | podcasts and their featured_episodes |
 | `events` | `premieres`, `broadcasts-marathons`, `honors-awards`, `production-history`, `serling-life`, `legal` *(new: trials, lawsuits, censorship, rights)*, `anniversaries-festivals`, `conventions`, `exhibitions`, `other-events` | works kind event/convention/memorial/legal, series/film history[] |
 | `games` | `pinball-arcade`, `video-games`, `board-card-games`, `game-homages` *(new)*, `other-games` | works kind game |
-| `homages` | `adaptations-remakes`, `inspired-by`, `homages`, `parodies`, `references`, `in-other-shows`, `in-everyday-language` *(new)* | connections, films kind tv-episode/segment/sketch, works kind parody/cultural-impact |
+| `homages` | `adaptations-remakes`, `compared` *(new)*, `inspired-by`, `homages`, `parodies`, `references`, `in-other-shows`, `in-everyday-language` *(new)* | connections, films kind tv-episode/segment/sketch, works kind parody/cultural-impact |
 | `lectures` | `serling-lectures`, `academic`, `classroom`, `readings-panels` | essays kind speech/lecture, works kind lecture/education |
 | `merchandise` | `collectibles`, `toys-figures`, `trading-cards`, `home-media`, `household-apparel`, `replicas` *(new)*, `other-merchandise` | works kind collectible/home-media, series/film releases[] |
 | `movies` | `twilight-zone-films`, `rod-serling-films`, `unmade-projects`, `linked-films`, `tv-films`, `documentaries`, `shorts-and-other` | films |

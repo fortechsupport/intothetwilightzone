@@ -1,11 +1,10 @@
 from: films/minority-report
 to: 1959/a-most-unusual-camera
-kind: inspired-by
+kind: compared
 confidence: fan-noted
-summary: Minority Report is listed in Adam's research as inspired by "A Most Unusual Camera".
-evidence: 'No source found; the film is credited to Philip K. Dick''s story, and the link rests only on seeing pictures
-  of the future. Checked 2026-11-20: No source was found; the film is credited to Philip K. Dick''s The Minority
-  Report. Very weak; consider removing.'
+summary: Adam's research pairs Minority Report with "A Most Unusual Camera".
+evidence: Both turn on seeing pictures of the future. The film is adapted from Philip K. Dick's story The Minority Report,
+  and no source links it to the episode.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

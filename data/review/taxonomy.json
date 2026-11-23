@@ -13696,11 +13696,11 @@
  "connections/10-cloverfield-lane-one-more-pallbearer": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -13850,11 +13850,11 @@
  "connections/a-nightmare-on-elm-street-perchance-to-dream": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -13883,11 +13883,11 @@
  "connections/after-hours--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -13916,10 +13916,10 @@
  "connections/all-in-the-family-archie-and-the-computer--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "references",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "References",
    "isNew": false,
    "official": false
   }
@@ -13993,11 +13993,11 @@
  "connections/annabelle--living-doll": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -14917,11 +14917,11 @@
  "connections/blazing-saddles-mr-denton-on-doomsday": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -15049,33 +15049,33 @@
  "connections/christine-you-drive": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
  "connections/click--a-kind-of-a-stopwatch": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
  "connections/clockstoppers-a-kind-of-a-stopwatch": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -15093,10 +15093,10 @@
  "connections/cold-case-rampage--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "parodies",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "Parodies",
    "isNew": false,
    "official": false
   }
@@ -15159,11 +15159,11 @@
  "connections/dead-silence-the-dummy": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -15214,21 +15214,21 @@
  "connections/disneys-the-kid--nightmare-as-a-child": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
  "connections/dog-city-rocketship-k-9--1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "parodies",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "Parodies",
    "isNew": false,
    "official": false
   }
@@ -15280,11 +15280,11 @@
  "connections/edge-of-tomorrow--shadow-play": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -15445,10 +15445,10 @@
  "connections/family-guy-wasted-talent--time-enough-at-last": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "references",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "References",
    "isNew": false,
    "official": false
   }
@@ -15467,22 +15467,22 @@
  "connections/final-destination--and-when-the-sky-was-opened": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
  "connections/final-destination-twenty-two": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -15720,11 +15720,11 @@
  "connections/galaxy-quest--hocus-pocus-and-frisby": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -15918,11 +15918,11 @@
  "connections/groundhog-day--shadow-play": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -16149,11 +16149,11 @@
  "connections/in-the-mouth-of-madness-a-world-of-his-own": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -16479,10 +16479,10 @@
  "connections/johnny-bravo-the-day-the-world-didnt-move-around-very-much--a-kind-of-a-stopwatch": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "parodies",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "Parodies",
    "isNew": false,
    "official": false
   }
@@ -16523,21 +16523,21 @@
  "connections/journey-to-the-far-side-of-the-sun-doppelganger--the-parallel": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
  "connections/key-peele-airplane-continental--nightmare-at-20-000-feet": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "parodies",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "Parodies",
    "isNew": false,
    "official": false
   }
@@ -16578,22 +16578,22 @@
  "connections/leave-the-world-behind--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
  "connections/liar-liar-the-whole-truth": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -16633,11 +16633,11 @@
  "connections/looper-back-there": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -16666,11 +16666,11 @@
  "connections/m3gan--living-doll": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -16699,22 +16699,22 @@
  "connections/magic--caesar-and-me": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
  "connections/magic-the-dummy": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -16864,22 +16864,22 @@
  "connections/meet-joe-black-one-for-the-angels": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
  "connections/memento--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -16908,22 +16908,22 @@
  "connections/midnight-in-paris-a-stop-at-willoughby": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
  "connections/minority-report-a-most-unusual-camera": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -16985,11 +16985,11 @@
  "connections/mulholland-drive--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -17183,10 +17183,10 @@
  "connections/perfect-strangers-the-horn-blows-at-midnight--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "references",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "References",
    "isNew": false,
    "official": false
   }
@@ -17216,22 +17216,22 @@
  "connections/philip-k-dicks-electric-dreams-the-commuter--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
  "connections/planet-of-the-apes--i-shot-an-arrow-into-the-air": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -17304,10 +17304,10 @@
  "connections/qi-future--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "references",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "References",
    "isNew": false,
    "official": false
   }
@@ -17425,11 +17425,11 @@
  "connections/ruby-sparks-a-world-of-his-own": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -17788,11 +17788,11 @@
  "connections/shadow-in-the-cloud--nightmare-at-20-000-feet": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -17821,11 +17821,11 @@
  "connections/shutter-island--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -17986,11 +17986,11 @@
  "connections/stranger-than-fiction-a-world-of-his-own": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -18041,11 +18041,11 @@
  "connections/terminator-2-judgment-day--the-four-of-us-are-dying": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -18173,11 +18173,11 @@
  "connections/the-cobbler-dead-mans-shoes": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -18228,10 +18228,10 @@
  "connections/the-dick-van-dyke-show-it-may-look-like-a-walnut--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "parodies",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "Parodies",
    "isNew": false,
    "official": false
   }
@@ -18327,11 +18327,11 @@
  "connections/the-game--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -18349,11 +18349,11 @@
  "connections/the-good-place--a-nice-place-to-visit": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -18382,11 +18382,11 @@
  "connections/the-invisible-a-passage-for-trumpet": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -18459,11 +18459,11 @@
  "connections/the-matrix--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -18525,10 +18525,10 @@
  "connections/the-nanny-the-honeymoons-overboard--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "references",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "References",
    "isNew": false,
    "official": false
   }
@@ -18800,22 +18800,22 @@
  "connections/the-simpsons-the-devil-and-homer-simpson--escape-clause": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
  "connections/the-simpsons-the-devil-and-homer-simpson--one-for-the-angels": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -18855,11 +18855,11 @@
  "connections/the-simpsons-the-terror-of-tiny-toon--twilight-zone-the-movie": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -18943,33 +18943,33 @@
  "connections/the-stepford-wives-number-12-looks-just-like-you": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
  "connections/the-strange-dark--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
  "connections/the-thirteenth-floor--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -18987,22 +18987,22 @@
  "connections/the-truman-show--special-service": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
  "connections/the-truman-show-a-world-of-difference": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -19042,11 +19042,11 @@
  "connections/the-village-a-hundred-yards-over-the-rim": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -19097,11 +19097,11 @@
  "connections/time-lapse-a-most-unusual-camera": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -19119,10 +19119,10 @@
  "connections/tiny-toon-adventures-the-acme-acres-zone--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "parodies",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "Parodies",
    "isNew": false,
    "official": false
   }
@@ -19240,11 +19240,11 @@
  "connections/toy-story-five-characters-in-search-of-an-exit": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -19757,11 +19757,11 @@
  "connections/unknown-person-or-persons-unknown": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -19812,11 +19812,11 @@
  "connections/vivarium-stopover-in-a-quiet-town": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -19845,10 +19845,10 @@
  "connections/weird-science-sci-fi-zoned--where-is-everybody": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "parodies",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "Parodies",
    "isNew": false,
    "official": false
   }
@@ -19856,11 +19856,11 @@
  "connections/what-women-want-a-penny-for-your-thoughts": [
   {
    "cat": "homages",
-   "sub": "inspired-by",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Inspired by",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],

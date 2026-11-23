@@ -1,11 +1,11 @@
 from: films/magic
 to: 1959/caesar-and-me
-kind: inspired-by
+kind: compared
 confidence: fan-noted
 summary: TopTenz pairs the film, about a ventriloquist ruled by his dummy, with this episode rather than "The Dummy".
-evidence: 'Checked 2026-11-23: one listicle (TopTenz, 2013) makes the link; Magic is adapted from William Goldman''s
-  own novel and no statement from its makers mentions The Twilight Zone. Kept beside the existing link to "The Dummy"
-  so Adam can choose.'
+evidence: 'Checked 2026-11-23: one listicle (TopTenz, 2013) makes the link; Magic is adapted from William Goldman''s own
+  novel and no statement from its makers mentions The Twilight Zone. Kept beside the existing link to "The Dummy" so Adam
+  can choose.'
 sources:
 - title: Top 10 Movies That Ripped Off The Twilight Zone (TopTenz)
   url: https://www.toptenz.net/top-10-movies-that-ripped-off-the-twilight-zone.php

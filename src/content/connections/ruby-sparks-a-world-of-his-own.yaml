@@ -1,9 +1,9 @@
 from: films/ruby-sparks
 to: 1959/a-world-of-his-own
-kind: inspired-by
+kind: compared
 confidence: documented
-summary: Flavorwire pairs the film's writer who brings his invented girlfriend to life with this episode's playwright;
-  this is a critic's comparison.
+summary: Flavorwire pairs the film's writer who brings his invented girlfriend to life with this episode's playwright; this
+  is a critic's comparison.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
