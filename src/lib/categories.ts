@@ -128,7 +128,7 @@ export const CATEGORIES: Record<string, CategoryInfo> = {
     connection: 'Dedicated podcasts are wholly about the show; single episodes of other podcasts are listed for that one episode.',
   },
   radio: {
-    title: 'Radio dramas',
+    title: 'Radio',
     description: 'The Twilight Zone Radio Dramas: full-cast audio adaptations of classic episodes, plus Rod Serling\'s radio work.',
     intro: [
       "The Twilight Zone Radio Dramas, produced by Falcon Picture Group under license from Carol Serling from 2002, re-recorded the original scripts as full-cast audio plays, with Stacy Keach taking Serling's narrator role and film and television actors in the leads. The run grew to well over 170 episodes, released on CD and download and broadcast on radio, and later added new stories written for it.",

@@ -19,8 +19,12 @@ description: 'Full-cast audio remakes of the original 1959-64 teleplays, produce
   to 2012: 155 of the 156 TV episodes (all but "Come Wander with Me"), "The Time Element", unmade TV scripts such as
   Charles Beaumont''s "Gentlemen, Be Seated" and Jerry Sohl''s "Who Am I?", and, from volume 16, sixteen stories written
   for radio. It aired on about 200 US stations, XM and Sirius satellite radio and BBC Radio 4 Extra, and came out on
-  cassette, CD volumes of ten (to volume 13 in 2008) and downloads. 82 of the adaptations were included as extras on
-  the 2010-11 Blu-ray sets of the original series.'
+  cassette, CD volumes of ten (to volume 13 in 2008) and downloads. Wikipedia lists 81 of the adaptations as extras on
+  the 2010-11 Blu-ray sets of the original series, and 30 on the DVD sets. When the series was announced in 2002, Radio
+  World reported that Falcon had licensed it from CBS Enterprises, that Dick Brescia Associates syndicated it to
+  commercial stations and the American Forces Radio and Television Service, that it used the original Twilight Zone
+  scores for its theme and background music with sound effects from The Hollywood Edge, and that Richard Wolski was
+  series producer. In February 2016 io9 reported that BBC Radio 4 Extra would begin broadcasting it that March.'
 subtype: audio-series
 sources:
 - title: Wikipedia
@@ -31,11 +35,18 @@ sources:
   url: https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(franchise)
-- title: The Twilight Zone (radio series) - Wikipedia mirror
-  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: Radio Enters the Twilight Zone
+  url: https://www.radioworld.com/news-and-business/radio-enters-the-twilight-zone
+  publisher: Radio World
+  note: News report, 18 September 2002.
+- title: The BBC Is Bringing Back The Twilight Zone As a Radio Drama
+  url: https://gizmodo.com/the-bbc-is-bringing-back-the-twilight-zone-as-a-radio-d-1760688908
+  author: Cheryl Eddy
+  publisher: io9 (Gizmodo)
+  note: 22 February 2016; ten 40-minute episodes on BBC Radio 4 Extra from March 2016.
 - title: 'The Twilight Zone Vortex: A Dimension of Sound (2017)'
   url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 - title: Moviefone (TMDB data) - The Twilight Zone specials list
   url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
 research_confidence: high
-last_verified: '2026-11-20'
+last_verified: '2026-11-23'

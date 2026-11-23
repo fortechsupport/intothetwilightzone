@@ -15,13 +15,15 @@ ids:
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
-  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: The Twilight Zone (radio series), episode list (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
+  publisher: Wikipedia
+  note: Read directly on 2026-11-23; season, order in season and star match this record.
 - title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
   url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “The Dummy” from the original 1959 series (season 3, 1962), written for television
   by Rod Serling. Adapted for radio by Dennis Etchison, starring Bruno Kirby. The story: A heavy-drinking nightclub ventriloquist
   is convinced that his wisecracking dummy, Willie, has a mind of its own. His agent dismisses it as nerves, but the
   performer grows desperate to get free of the puppet before it is too late.'
-last_verified: '2026-11-20'
+last_verified: '2026-11-23'
 research_confidence: high

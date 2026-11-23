@@ -3,6 +3,21 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-23 — Radio: the category's new name, and every radio drama checked against Wikipedia
+
+The Listen category is now called **Radio** (Adam's choice); "Radio dramas" will be the name of the shelf for The
+Twilight Zone Radio Dramas narrated by Stacy Keach. All 176 radio drama episodes now cite Wikipedia's episode list,
+read directly, in place of a copy of it on another site; every episode's season, place in the season and star match it.
+"Original radio stories" now lists the 16 stories written for radio, as the series' own description says: "Free Dirt"
+is a radio version of a Charles Beaumont short story, and "The Time Element" was a filmed play (1958), so it is no
+longer listed as an unmade script. "Nothing in the Dark" now credits its radio adapter, M. J. Elliott. Six episodes
+show their full cast from BBC Radio 4 Extra's listings. The series page now says what Radio World reported in 2002:
+the series was licensed from CBS, syndicated to commercial stations and the American Forces Radio and Television
+Service, and used the original Twilight Zone scores for its music.
+
+**Known not to work yet:** The other 170 episodes still list only their star and Stacy Keach. The episode pages have
+no "Where to listen" yet. The radio shelves are still the old ones until the structure step.
+
 ## 2026-11-23 — Serling's films checked against the AFI Catalog, and three trailers
 
 Eight of Rod Serling's feature films now cite the American Film Institute's Catalog of Feature Films as well as

@@ -13,13 +13,15 @@ adapts_episode: 1959/a-game-of-pool
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
-  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: The Twilight Zone (radio series), episode list (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
+  publisher: Wikipedia
+  note: Read directly on 2026-11-23; season, order in season and star match this record.
 - title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
   url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
 description: 'A full-cast audio remake of “A Game of Pool” from the original 1959 series (season 3, 1961), written for
   television by George Clayton Johnson. Adapted for radio by Dennis Etchison, starring Wade Williams. The story: A brilliant
   pool hustler is haunted by comparisons to a legendary champion who died years earlier. Alone in the hall one night,
   he wishes aloud for a chance to beat the master, and the late champion arrives to accept a game with very high stakes.'
-last_verified: '2026-11-20'
+last_verified: '2026-11-23'
 research_confidence: high

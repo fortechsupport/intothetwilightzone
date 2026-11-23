@@ -1,6 +1,6 @@
 # Content plan: Radio dramas
 
-**Date:** 2026-11-23 · **Status:** draft for Adam's approval (checklist box 1 of 4) · **Checklist:** docs/RESEARCH_CHECKLIST.md, item 3
+**Date:** 2026-11-23 · **Status:** approved by Adam 2026-11-23 23:36 UTC (checklist box 1 of 4) · **Checklist:** docs/RESEARCH_CHECKLIST.md, item 3
 **Follows:** decision 0005 (records are included without item-by-item review; visitors' votes flag doubtful ones) and
 decision 0006 (a likeness is "Compared to", never "Inspired by").
 
@@ -144,7 +144,16 @@ Each shelf is A to Z, or in season order where order is the point, with official
 
 ---
 
-## 8. Questions for Adam, each with my suggested answer
+## 8. Questions for Adam, and his answers
+
+**Adam, 2026-11-23 23:36 UTC:** "Just \"Radio\" for the category. \"Radio dramas\" specifically for the Twilight Zone
+Radio Dramas narrated by Stacy Keach section. You decide for me on remaining questions from section 8."
+
+So: **Q1** the category is **Radio**, and shelf A is titled **Radio dramas**. Audio-only productions (downloads,
+foreign-language audio) also sit in Radio, on shelf C. **Q2 to Q7** are decided as the suggested answers below, which
+Adam delegated.
+
+The questions as they were put:
 
 | # | Question | Suggested answer |
 |---|---|---|
@@ -189,11 +198,26 @@ Each shelf is A to Z, or in season order where order is the point, with official
 ## Decided here (Adam reviews later)
 - The plan uses the existing records' facts (the series record, the music record, the award record) and cites
   them; nothing in it is new research.
+- Q2 to Q7 as suggested (Adam delegated them, 2026-11-23 23:36 UTC): the six broadcast and release records become
+  series-page content; Serling's radio interviews are media; fellow anthologies stay only with a sourced tie;
+  fan audio goes on an unofficial shelf (new); Night Gallery and the revivals are searched for on audio; full cast
+  where a source lists it.
+- Q1 follow-on: audio-only and foreign-language audio productions belong in Radio (shelf C), since Adam chose the
+  plain name "Radio" over "Radio and audio dramas".
 
 ## Waiting on Adam
-- Approval of this plan, and answers to Q1 to Q7. The suggested answers are what will be built if he agrees.
+- Nothing. The plan was approved on 2026-11-23, with Q2 to Q7 delegated.
 
 ## Found, for later
+- **Round 1 findings (2026-11-23, notes in data/research/radio-2026-11-23/):**
+  - Done: Wikipedia read directly for all 176 episodes (all match); 16 original radio stories confirmed (Free Dirt and
+    The Time Element taken off the new shelves); two adapters corrected; six full casts from BBC listings; series and
+    music facts from Radio World (2002).
+  - Still open in round 1: full casts for the other 170 episodes (the BBC Programme Index lists them, but its pages
+    have to be found one by one); where to listen (Audible sells single episodes, "©2002 CBS and Falcon Picture
+    Group"); whether the 2023 "Twilight Zone Radio Show!" podcast feed is Falcon's own; release dates per episode
+    (Wikipedia has none); the director credit (Wikipedia's infobox says Roger Wolski, its text says Carl Amari).
+  - Our `volume` and `volume_order` fields follow a release numbering that no source read so far confirms.
 - The Movies plan's round 3 (documentaries and media attachments) is still open and runs alongside this plan.
 - Audiobooks of Twilight Zone books (`works/*-audiobook`) belong with their books in Read, not in Radio. Check them
   when Read is worked.

@@ -9,19 +9,37 @@ original_writer: Charles Beaumont
 adapted_by: Dennis Etchison
 voiced_by:
 - Eric Bogosian
+- Meg Thalken
+- Roderick Peeples
+- Linda Reiter
+- David Darlow
+- Elizabeth Ledo
+- Roger Mueller
+- Ambre Lake
+- Jeff Lupetin
+- Doug James
+- Karen Olsen
+- Carl Amari
+- Dana Boker
 ids:
   imdb: tt28468682
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
-  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: The Twilight Zone (radio series), episode list (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
+  publisher: Wikipedia
+  note: Read directly on 2026-11-23; season, order in season and star match this record.
 - title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
   url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
+- title: 'BBC Programme Index: The Twilight Zone, series 2, episode 4, Free Dirt'
+  url: https://d1lwlp93kdc235.cloudfront.net/b00hl8lx
+  publisher: BBC
+  note: 'First broadcast on BBC Radio 7. Full cast; "Charles Beaumont''s TV script adapted for radio by Dennis Etchison"; produced and directed by Carl Amari for the Falcon Picture Group.'
 description: 'A dramatization of Charles Beaumont''s short story "Free Dirt" (collected in Charles Beaumont: Selected
   Stories), about a greedy man who takes soil from a cemetery for his garden. It was never a TV episode. Adapted for
-  radio by Dennis Etchison, starring Eric Bogosian.'
-last_verified: '2026-11-20'
+  radio by Dennis Etchison, starring Eric Bogosian. The Twilight Zone Vortex lists it as based on the story; the BBC''s
+  listing calls it Charles Beaumont''s TV script. No source read says it was written for The Twilight Zone, so it is
+  not shelved with the unmade scripts or with the stories written for radio.'
+last_verified: '2026-11-23'
 research_confidence: high
-categories:
-- episodes/radio-original-stories

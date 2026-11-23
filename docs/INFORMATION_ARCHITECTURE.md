@@ -13,7 +13,7 @@ The site is organized around **what a visitor wants to do**. Each top-level item
 | Verb | What the visitor does | Categories | Records* |
 |---|---|---|---:|
 | **Watch** | Watches it on a screen or stage | Movies, Stage, Television | 657 |
-| **Listen** | Listens to it | Music, Podcasts, Radio dramas | 489 |
+| **Listen** | Listens to it | Music, Podcasts, Radio | 489 |
 | **Read** | Reads it | Articles, Books, Comics, Essays and scholarship, Magazines, Scripts, Websites | 665 |
 | **Play** | Plays it | Games | 52 |
 | **Collect** | Owns it or admires it as an object | Artwork, Merchandise | 178 |
@@ -100,7 +100,7 @@ points to no single episode. Television films go to Movies; radio-only anthologi
 | | Music videos **(new)** | Music videos that borrow from, honor or reference the show (Adam, Movies Q3: music videos are Music) | Young MC, "Bust a Move" | 7 |
 | **Podcasts** | Podcast episodes | Single episodes about TZ in other podcasts | Episodes of film and horror podcasts | 9 |
 | | Podcast series | Podcasts devoted to TZ | Episode-by-episode rewatch shows | 36 |
-| **Radio dramas** | Original radio stories **(new)** | Radio stories with no TV original | Original stories in the radio series | 17 |
+| **Radio** | Original radio stories **(new)** | Radio stories with no TV original | Original stories in the radio series | 17 |
 | | Radio episodes | *The Twilight Zone Radio Dramas* (2002–2012), adapted from the TV scripts | "The Monsters Are Due on Maple Street" (radio) | 187 |
 | | Radio versions of unmade scripts **(new)** | Radio productions of scripts never filmed | Unproduced Serling scripts | 4 |
 
@@ -371,7 +371,7 @@ Counts are distinct records with a label. Some records, such as directory entrie
 | | TV series | 16 | 45 | Official = the five TZ series, Night Gallery and Serling series. Unofficial = imitators and dubs. |
 | Listen | Music | 89 | 169 | Official = scores and the theme. Unofficial = songs referencing TZ. |
 | | Podcasts | 0 | 45 | All unofficial today. The official 2019 companion podcasts would be official. |
-| | Radio dramas | 187 | 0 | All licensed. |
+| | Radio | 187 | 0 | All licensed. |
 | Read | All | 323 | 348 | Official = licensed books, comics, magazines and scripts. Unofficial = guides, scholarship, articles. |
 | Play | Games | 12 | 40 | Official = licensed games and pinball. Unofficial = nods in other games. |
 | Collect | Artwork | 61 | 15 | Unofficial = fan art and inspired art. |

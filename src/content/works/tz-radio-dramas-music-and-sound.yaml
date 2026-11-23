@@ -4,8 +4,10 @@ year: 2002-2012
 description: >-
   Carl Amari's Falcon Picture Group made 176 full-cast radio adaptations, hosted by Stacy Keach. Wikipedia describes
   them as using a full cast with music and sound effects. The sound engineers named are Roger Wolski, Bob Benson,
-  Craig Lee, Tim Cerny and Jason Rizzo. No individual composer credit turned up in the public sources checked, so
-  the music may be library or in-house production.
+  Craig Lee, Tim Cerny and Jason Rizzo. When the series was announced in 2002, Radio World reported that it used the
+  original Twilight Zone scores for its theme and background music, with sound effects from The Hollywood Edge. No
+  separate composer is credited in the sources checked. Sound mixing was done at Falcon's studios and later at Cerny
+  Sound-to-Picture in Chicago (Wikipedia).
 subtype: audio-drama-score
 details:
   people:
@@ -16,12 +18,15 @@ details:
   - Tim Cerny
   - Jason Rizzo
 relevance: core
-research_confidence: medium
+research_confidence: high
 categories:
 - music/soundtracks
 sources:
 - title: Wikipedia – The Twilight Zone (radio series)
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
+- title: Radio Enters the Twilight Zone (Radio World, 18 September 2002)
+  url: https://www.radioworld.com/news-and-business/radio-enters-the-twilight-zone
+  publisher: Radio World
 - title: 'Great Detectives – Audio drama review: Twilight Zone Radio Dramas Vol. 1'
   url: https://www.greatdetectives.net/detectives/audio-dramas-twilight-zone-radio-dramas-volume-1/
-last_verified: '2026-11-20'
+last_verified: '2026-11-23'

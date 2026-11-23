@@ -9,19 +9,28 @@ original_writer: Rod Serling
 adapted_by: Dennis Etchison
 voiced_by:
 - Louis Gossett Jr.
+- Tony Mockus Sr.
+- Sam Derrence
+- Oksana Fedunyszyn
 adapts_episode: 1959/probe-7-over-and-out
 ids:
   imdb: tt28456808
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-- title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
-  url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+- title: The Twilight Zone (radio series), episode list (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
+  publisher: Wikipedia
+  note: Read directly on 2026-11-23; season, order in season and star match this record.
 - title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
   url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
+- title: 'BBC Programme Index: The Twilight Zone, series 4, episode 5, Probe 7, Over and Out'
+  url: https://d1lwlp93kdc235.cloudfront.net/b08hrb5f
+  publisher: BBC
+  note: 'BBC Radio 4 Extra listing with the full cast; written by Rod Serling, adapted by Dennis Etchison; produced and directed by Carl Amari and JoBe Cerny for Falcon Picture Group.'
 description: 'A full-cast audio remake of “Probe 7, Over and Out” from the original 1959 series (season 5, 1963), written
   for television by Rod Serling. Adapted for radio by Dennis Etchison, starring Louis Gossett Jr.. The story: Colonel
   Adam Cook crash-lands on an unknown planet, his ship wrecked beyond repair and his home world on the brink of war.
   Stranded and injured, he encounters a native woman with whom he shares no language.'
-last_verified: '2026-11-20'
+last_verified: '2026-11-23'
 research_confidence: high
