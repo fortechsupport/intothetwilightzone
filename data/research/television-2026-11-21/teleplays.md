@@ -50,6 +50,26 @@ Conflicts for Adam (records not changed):
   1958 Playhouse 90 one taken from Wikipedia's episode list. One of the two sources is wrong; unresolved.
 - "Old MacDonald Had a Curve": the Foundation spells it "Old MacDonald Has a Curve" and dates it 5 August 1953.
 
-Found, for later: The Loner (1965–66) episodes are in the filmography, but it does not say who wrote each one, so they were
-not added; The Oath: "Sad and Lonely Sundays" (1976). The UCLA finding aid for the Rod Serling papers (OAC ark:/13030/kt5489n8zx)
+Found, for later: The Oath: "Sad and Lonely Sundays" (1976). The UCLA finding aid for the Rod Serling papers (OAC ark:/13030/kt5489n8zx)
 has no title list online.
+
+Correction (2026-11-23): The Loner's episodes were already on file. All 26 are segments of src/content/films/the-loner.yaml, each
+with its writer, director and cast from Wikipedia and CTVA, which agree on every writer and director credit (Serling wrote 15).
+The note above that they were not added was wrong. CTVA and Wikipedia both title episode 9 "The Sheriff of Fetterman's
+Crossing"; the Foundation's "at" is a variant.
+
+## The three conflicts, resolved (2026-11-23, Adam approved each)
+
+- "The Director": kept on The Jane Wyman Show. Wikipedia's Fireside Theatre article confirms the anthology was hosted by Jane
+  Wyman from 1955 (announced 2 April 1955) and billed as Jane Wyman Presents The Fireside Theatre, later The Jane Wyman Show;
+  CTVA titles the 1955–56 season "Jane Wyman Presents Fireside Theatre". Added the Foundation's date (13 September 1955),
+  director Herschell Daugherty and Jack Carson. Neither Wikipedia nor CTVA's index lists the episode itself.
+- "Nightmare at Ground Zero": both kept. The 1953 Suspense play now carries the Foundation's date (18 August 1953) and director
+  Robert Stevens. The 1958 Playhouse 90 play is marked unverified (research_confidence low): Wikipedia's article on it credits
+  Serling and Paul Monash, from the book by John C. Clark and Robert Cahn, and cites the Paley Center and the Port Huron Times
+  Herald and Register-Guard of May 1958, which we have not read. The UCLA Film & Television Archive's Playhouse 90 pages do not
+  mention it. Next source to try: the Paley Center catalogue entry.
+- "Old MacDonald Had a Curve": "Had" stays the title, "Has" is an alternate title (aka), date 5 August 1953 from the Foundation.
+
+Found while doing this: film records had no `writing_credit_note` or `aka` in the schema, so the credit notes on 48 records
+(the Foundation plays among them) were silently dropped. Both fields are now in the schema and shown on film pages.

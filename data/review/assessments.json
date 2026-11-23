@@ -19727,12 +19727,24 @@
   "subcategory": "Homages",
   "sort": "similars los parecidos  the twilight zone original series"
  },
+ "connections/the-simpsons-barts-comet--the-monsters-are-due-on-maple-street": {
+  "connection": "The townspeople turning on one another over a bomb shelter, which the show's producer traced to this episode as well as \"The Shelter\".",
+  "tier": "tangential",
+  "tier_reason": "Reference link, the makers have said so.",
+  "recommendation": "include",
+  "reason": "The makers have confirmed the influence.",
+  "source_title": "Wikisimpsons – Twilight Zone",
+  "source_url": "https://simpsonswiki.com/wiki/Twilight_Zone",
+  "title": "Bart's Comet → “The Monsters Are Due on Maple Street” (1959)",
+  "subcategory": "References",
+  "sort": "barts comet  the monsters are due on maple street 001959"
+ },
  "connections/the-simpsons-barts-comet--the-shelter": {
   "connection": "As a comet heads for Springfield, the townspeople mob Ned Flanders' fallout shelter demanding to be let in, mirroring the neighbours who turn on the one family with a bomb shelter.",
   "tier": "tangential",
-  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
-  "recommendation": "maybe",
-  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "tier_reason": "Reference link, the makers have said so.",
+  "recommendation": "include",
+  "reason": "The makers have confirmed the influence.",
   "source_title": "Wikisimpsons – Twilight Zone",
   "source_url": "https://simpsonswiki.com/wiki/Twilight_Zone",
   "title": "Bart's Comet → “The Shelter” (1959)",
@@ -19778,9 +19790,9 @@
  "connections/the-simpsons-el-viaje-misterioso-de-nuestro-jomer-the-mysterious-voyage-of-homer--the-old-man-in-the-cave": {
   "connection": "Fan-noted nod in the Wikisimpsons Twilight Zone index: a revered advisor turning out to be a machine recalls the computer behind the 'old man' in the post-apocalyptic Twilight Zone episode.",
   "tier": "tangential",
-  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
-  "recommendation": "maybe",
-  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "tier_reason": "Reference link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
   "source_title": "Wikisimpsons – Twilight Zone",
   "source_url": "https://simpsonswiki.com/wiki/Twilight_Zone",
   "title": "El Viaje Misterioso de Nuestro Jomer (The Mysterious Voyage of Homer) → “The Old Man in the Cave” (1959)",
@@ -33732,7 +33744,7 @@
   "sort": "young man with a shoehorn"
  },
  "films/the-director-jane-wyman": {
-  "connection": "Rod Serling's work beyond The Twilight Zone: A half-hour drama for the Jane Wyman anthology.",
+  "connection": "Rod Serling's work beyond The Twilight Zone: A half-hour drama with Jack Carson, aired on NBC in 1955, the year Jane Wyman took over Fireside Theatre as host.",
   "tier": "related",
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
@@ -34476,11 +34488,11 @@
   "sort": "similars los parecidos"
  },
  "films/the-simpsons-barts-comet": {
-  "connection": "A reference to “The Shelter” (1959). As a comet heads for Springfield, the townspeople mob Ned Flanders' fallout shelter demanding to be let in, mirroring the neighbours who turn on the one family with a bomb shelter.",
+  "connection": "The townspeople turning on one another over a bomb shelter, which the show's producer traced to this episode as well as \"The Shelter\". Also linked to “The Shelter” (1959).",
   "tier": "tangential",
   "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
-  "recommendation": "maybe",
-  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "recommendation": "include",
+  "reason": "Its makers have said the show influenced it: the strongest kind of influence record.",
   "source_title": "Wikisimpsons – Twilight Zone",
   "source_url": "https://simpsonswiki.com/wiki/Twilight_Zone",
   "title": "Bart's Comet",
@@ -34528,7 +34540,7 @@
   "tier": "tangential",
   "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
   "recommendation": "maybe",
-  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "reason": "A documented but passing reference; useful for completeness in the Influence section.",
   "source_title": "Wikisimpsons – Twilight Zone",
   "source_url": "https://simpsonswiki.com/wiki/Twilight_Zone",
   "title": "El Viaje Misterioso de Nuestro Jomer (The Mysterious Voyage of Homer)",
@@ -44628,7 +44640,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -48264,7 +48276,7 @@
   "sort": "jean carson"
  },
  "people/jean-de-segonzac": {
-  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Cradle of Darkness” and “Night Route”).",
+  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Night Route” and “Cradle of Darkness”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -57696,7 +57708,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -60204,7 +60216,7 @@
   "sort": "werner klemperer"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",

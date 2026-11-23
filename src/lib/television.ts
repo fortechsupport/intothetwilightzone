@@ -27,8 +27,10 @@ export interface ExEntry {
   number?: string;
   kindLabel?: string;
   summary?: string;
+  aka: string[]; // other titles a source gives it
   segments: ExSegment[];
   writers: string[];
+  creditNote?: string; // writing_credit_note: co-writers, adaptation, how the credit is known
   directors: string[];
   cast: string[];
   links: ExLink[]; // Twilight Zone episodes and series this entry pays homage to
@@ -97,7 +99,7 @@ export async function explorerEntries(ids: string[]): Promise<ExEntry[]> {
     const themes = segThemes.length ? segThemes : epThemes;
     out.push({
       id, title: shortTitle(id, d.title), date: d.release_date, ...groupOf(id, d), kindLabel: KIND_LABEL[d.kind],
-      summary: d.summary, segments, writers: d.writers, directors: d.directors, cast: d.cast, links,
+      summary: d.summary, aka: d.aka, segments, writers: d.writers, creditNote: d.writing_credit_note, directors: d.directors, cast: d.cast, links,
       themes, themesFrom: segThemes.length ? 'segments' : epThemes.length ? 'episodes' : undefined,
       sources: d.sources, media: d.media, verified: d.last_verified,
     });

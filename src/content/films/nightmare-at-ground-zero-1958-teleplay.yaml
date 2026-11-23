@@ -1,20 +1,35 @@
 title: Nightmare at Ground Zero
 kind: tv-episode
 parent_series: Playhouse 90
+summary: Five scientists are trapped for eleven hours in a bunker on Enewetak Atoll, twenty miles from the first hydrogen
+  bomb test. Serling's credit is unconfirmed. Only Wikipedia lists it, and the Rod Serling Memorial Foundation's filmography,
+  which has his 1953 Suspense play of the same name, does not. Wikipedia's article cites the Paley Center and two May 1958
+  newspapers, which we have not read.
 release_date: '1958-05-15'
 writers:
 - Rod Serling
+- Paul Monash
 writing_credit_note: Teleplay by Rod Serling and Paul Monash, from the book by John C. Clark and Robert Cahn.
 directors:
 - Franklin Schaffner
+cast:
+- Barry Sullivan
+- Jack Warden
+- Carl Benton Reid
+- Ainslie Pryor
+- Edmon Ryan
 sources:
 - title: List of Playhouse 90 episodes
   url: https://en.wikipedia.org/wiki/List_of_Playhouse_90_episodes
   publisher: Wikipedia
-research_confidence: medium
+- title: Nightmare at Ground Zero (Playhouse 90)
+  url: https://en.wikipedia.org/wiki/Nightmare_at_Ground_Zero_(Playhouse_90)
+  publisher: Wikipedia
+research_confidence: low
 relevance: related
 tags:
 - teleplay
 - research-2026-11-21
 - television-round-1
-last_verified: '2026-11-21'
+- unverified
+last_verified: '2026-11-23'

@@ -3,6 +3,30 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-23 — Adam's Television review: 61 records published
+
+Adam marked every record in the two Television review sheets "include", with no notes:
+- 52 of Rod Serling's television plays (review-television-round-1), each now listed on the page of the series it aired on
+  (Kraft, Lux Video Theatre, the U.S. Steel Hour, Playhouse 90 and the rest) and on Serling's page.
+- 9 organizations (review-television-round-2): NBC, ABC, Universal Television, Kraft, United States Steel, the Theatre Guild,
+  Armstrong World Industries, Hallmark Cards and Lux, each with its own page in Organizations.
+
+**Known not to work yet:** nothing new.
+
+## 2026-11-23 — Three of Serling's plays settled, and credit notes on film pages
+
+A visitor can now see:
+- "The Director" (1955) with its air date, 13 September 1955, its director and star, and a note that the anthology it aired on
+  was Fireside Theatre, billed then as Jane Wyman Presents The Fireside Theatre.
+- The 1953 Suspense "Nightmare at Ground Zero" with its date and director, and the 1958 Playhouse 90 play of the same name
+  marked unverified, with Paul Monash as co-writer and the cast.
+- "Old MacDonald Had a Curve" dated 5 August 1953, with "Old MacDonald Has a Curve" shown as another title.
+- Writing credit notes ("Teleplay by … from the book by …") and other titles on every film and television-play page. They were
+  in 48 records but not shown.
+
+**Known not to work yet:** the 1958 "Nightmare at Ground Zero" stays unverified until the Paley Center's entry or a 1958
+newspaper is read.
+
 ## 2026-11-21 — Television research round 4: home video
 
 The Night Gallery page now lists its home releases: Universal's DVD season sets (2004, 2008, 2012), Kino Lorber's
@@ -38,8 +62,8 @@ Medallion Theatre, The Doctor, Danger, Ford Theatre, Climax!, Matinee Theater, t
 each sits on its series' page and on Serling's page. Review sheet: review-television-round-1.
 
 **Known not to work yet:** three conflicts between sources are listed for Adam in
-data/research/television-2026-11-21/teleplays.md (The Director, Nightmare at Ground Zero, Old MacDonald); The Loner's
-episodes are not added because the filmography does not say who wrote each.
+data/research/television-2026-11-21/teleplays.md (The Director, Nightmare at Ground Zero, Old MacDonald). (Corrected
+2026-11-23: The Loner's 26 episodes were already on its page; an earlier note here said they were missing.)
 
 ## 2026-11-21 — Themes across Television
 
