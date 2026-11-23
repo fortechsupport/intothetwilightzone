@@ -1,9 +1,9 @@
 from: films/10-cloverfield-lane
 to: 1959/one-more-pallbearer
-kind: inspired-by
+kind: compared
 confidence: documented
-summary: /Film and a Yahoo list both pair the film's bunker-and-doomsday-claim premise with this episode; they are
-  critics' comparisons, and no creator has confirmed it.
+summary: /Film and a Yahoo list both pair the film's bunker-and-doomsday-claim premise with this episode; they are critics'
+  comparisons, and no creator has confirmed it.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.

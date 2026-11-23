@@ -1,12 +1,12 @@
 from: films/the-thirteenth-floor
 to: series/1959
-kind: inspired-by
+kind: compared
 confidence: fan-noted
 summary: Flicks groups this simulated-reality thriller among films that carry the show's reality-questioning DNA.
+evidence: 'Checked 2026-11-20: Flicks.com.au groups it with Twilight Zone-style reality-questioning films, which is a critic''s
+  comparison only. The film is adapted from Daniel F. Galouye''s novel Simulacron-3.'
 sources:
 - title: 'Sight, Sound and Mind: The Twilight Zone on the Big Screen (Flicks)'
   url: https://www.flicks.com.au/features/sight-sound-and-mind-the-twilight-zone-on-the-big-screen/
 last_verified: '2026-11-20'
 locked: true
-evidence: 'Checked 2026-11-20: Flicks.com.au groups it with Twilight Zone-style reality-questioning films, which is a critic''s
-  comparison only. The film is adapted from Daniel F. Galouye''s novel Simulacron-3.'

@@ -64,7 +64,7 @@ const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
   {s.intro && <p>{s.intro}</p>}
   <aside class="tz-link">
     <h2>How this connects to The Twilight Zone</h2>
-    <p>{c.connection}</p>
+    <p>{s.connection ?? c.connection}</p>
     {sideNote && <p class="small">{sideNote}</p>}
   </aside>
   {(split || totalGroups > 1) && (

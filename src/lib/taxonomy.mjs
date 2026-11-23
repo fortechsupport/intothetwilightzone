@@ -287,12 +287,13 @@ export const TAXONOMY = [
     description: 'Remakes, adaptations, homages, parodies and references to The Twilight Zone across film, television, music and print, with the evidence for each.',
     intro: [
       'The Twilight Zone is one of the most borrowed-from works in popular culture. The Simpsons\' "Treehouse of Horror" episodes, Futurama and countless sitcoms have parodied it, anthologies such as Black Mirror openly work in its tradition, and Jordan Peele has said his film Us grew from the episode "Mirror Image".',
-      'Every link is labelled by its evidence: confirmed by the makers, documented by a published source, or noted by fans only. A resemblance is never presented as an influence.',
+      'Every link is labelled by its evidence: confirmed by the makers, documented by a published source, or noted by fans only. A resemblance is never presented as an influence: it is shown as "Compared to".',
     ],
     connection: 'Each entry names the later work, the episode it draws on, the kind of link and the evidence for it.',
     seeAlso: [['Films linked to the show', '/movies/linked-films/']],
     subs: [
       { slug: 'adaptations-remakes', title: 'Adaptations and remakes', blurb: 'Official adaptations and remakes of episodes.' },
+      { slug: 'compared', title: 'Compared to the show', isNew: true, blurb: 'Works that critics or fans compare with an episode or the show, where neither the makers nor a published source say the show inspired them.', connection: 'Each entry names the later work, the episode or series it is compared with, who makes the comparison, and what the makers themselves named instead, where they have said.' },
       { slug: 'fan-made', title: 'Fan-made', isNew: true, side: 'unofficial', blurb: 'Fan edits, supercuts and other work fans made from the show.' },
       { slug: 'homages', title: 'Homages', blurb: 'Deliberate tributes to an episode or the show.' },
       { slug: 'in-other-shows', title: 'In other shows', blurb: 'Episodes, segments and sketches of other series that adapt, spoof or reference the show.' },
@@ -460,7 +461,7 @@ const SERIES_LABEL = { 1959: 'The Twilight Zone (1959-1964)', 1985: 'The Twiligh
 export { SERIES_LABEL };
 
 const CONN_SUB = {
-  'official-adaptation': 'adaptations-remakes', remake: 'adaptations-remakes', 'inspired-by': 'inspired-by',
+  'official-adaptation': 'adaptations-remakes', remake: 'adaptations-remakes', 'inspired-by': 'inspired-by', compared: 'compared',
   homage: 'homages', parody: 'parodies', reference: 'references', 'lyric-mention': 'references',
 };
 /** A real place's subcategory, from its kind. */

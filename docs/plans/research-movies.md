@@ -234,11 +234,12 @@ each with sources; fan-noted links are verified where possible; visitors' thumbs
 - The Planet of the Apes franchise record (works) sits on Rod Serling's films in a group of its own, "Franchises".
 - The search and filter bar on list pages never filtered (its script ran before the list loaded). Fixed in the
   structure step; worth a look on other pages that use their own filter scripts.
-- About 28 connection records (Movies and Television) still carry research shorthand in their visitor-facing evidence,
+- About 26 connection records (Movies and Television) still carry research shorthand in their visitor-facing evidence,
   such as "consider removing" or "'inspired-by' overstates it". Rewrite them for visitors.
-- Many fan-noted links are filed as "inspired-by" although the only source is a comparison, which the Legacy page says
-  never happens ("A resemblance is never presented as an influence"). A "compared to" kind of link would fix this
-  honestly; it touches the schema, labels and the Legacy shelves, so it is its own step for Adam to approve.
+- ~~Many fan-noted links are filed as "inspired-by" on a comparison only~~ Adam chose "Compared to" (2026-11-23 22:41 UTC);
+  53 links relabelled, decision 0006.
+- Several fan-noted "homage" links on TV episodes are really references or parodies (theme cues, narration spoofs), as
+  their own evidence says. Change their kind in a clean-up pass.
 - Journey to the Far Side of the Sun: Wikipedia's film article reportedly cites Douglas Pratt and the ICA comparing it to
   "The Parallel" (refs 67-68). Read those before citing them.
 - The Bourne Identity's Twilight Zone line rests on TV Tropes only; check it against the film.

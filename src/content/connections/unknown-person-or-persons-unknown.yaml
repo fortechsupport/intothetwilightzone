@@ -1,11 +1,11 @@
 from: films/unknown
 to: 1959/person-or-persons-unknown
-kind: inspired-by
+kind: compared
 confidence: fan-noted
-summary: Unknown is listed in Adam's research as inspired by "Person or Persons Unknown".
-evidence: 'No source found; both feature a man whose identity has been erased and who is rejected by his own wife.
-  Checked 2026-11-20: No source found. The film is adapted from Didier van Cauwelaert''s novel Hors de moi (Out
-  of My Head). Thematic resemblance only.'
+summary: Adam's research pairs Unknown with "Person or Persons Unknown".
+evidence: 'No source found; both feature a man whose identity has been erased and who is rejected by his own wife. Checked
+  2026-11-20: No source found. The film is adapted from Didier van Cauwelaert''s novel Hors de moi (Out of My Head). Thematic
+  resemblance only.'
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
