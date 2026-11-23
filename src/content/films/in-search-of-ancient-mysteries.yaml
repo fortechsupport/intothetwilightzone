@@ -1,14 +1,25 @@
 title: In Search of Ancient Mysteries
 kind: documentary
 summary: The second of the three In Search of... specials Serling narrated, on ancient monuments and lost civilizations.
-release_date: '1974'
+release_date: '1974-01-31'
+network: NBC
+writers:
+- Fred Warshofsky
+directors:
+- Fred Warshofsky
 cast:
 - Rod Serling
 sources:
+- title: In Search of... (TV series) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/In_Search_of..._(TV_series)
+  publisher: Wikipedia
+  note: Table of the three Serling-hosted specials, 1973-75.
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
-research_confidence: medium
+research_confidence: high
 relevance: related
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true
 serling_role: narrated
+organizations:
+- Alan Landsburg Productions

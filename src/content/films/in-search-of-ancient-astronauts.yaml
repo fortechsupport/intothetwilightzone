@@ -1,15 +1,27 @@
 title: In Search of Ancient Astronauts
 kind: documentary
-summary: A 1973 NBC special, narrated by Serling, built on Erich von Däniken's ancient-astronaut claims. It and
-  two follow-up specials led to the series In Search of..., which Leonard Nimoy hosted after Serling's death.
-release_date: '1973'
+summary: A one-hour NBC special, first shown on January 5, 1973, narrated by Rod Serling and produced by Alan Landsburg,
+  built on Erich von Däniken's ancient-astronaut claims. It and two follow-up specials led to the series In Search of...,
+  which Leonard Nimoy hosted after Serling's death.
+release_date: '1973-01-05'
+network: NBC
+writers:
+- Don Ringe
+directors:
+- Harald Reinl
 cast:
 - Rod Serling
 sources:
+- title: In Search of... (TV series) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/In_Search_of..._(TV_series)
+  publisher: Wikipedia
+  note: Table of the three Serling-hosted specials, 1973-75.
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
-research_confidence: medium
+research_confidence: high
 relevance: related
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true
 serling_role: narrated
+organizations:
+- Alan Landsburg Productions
