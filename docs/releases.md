@@ -3,6 +3,16 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-23 — Adam's Television review: 61 records published
+
+Adam marked every record in the two Television review sheets "include", with no notes:
+- 52 of Rod Serling's television plays (review-television-round-1), each now listed on the page of the series it aired on
+  (Kraft, Lux Video Theatre, the U.S. Steel Hour, Playhouse 90 and the rest) and on Serling's page.
+- 9 organizations (review-television-round-2): NBC, ABC, Universal Television, Kraft, United States Steel, the Theatre Guild,
+  Armstrong World Industries, Hallmark Cards and Lux, each with its own page in Organizations.
+
+**Known not to work yet:** nothing new.
+
 ## 2026-11-23 — Three of Serling's plays settled, and credit notes on film pages
 
 A visitor can now see:
