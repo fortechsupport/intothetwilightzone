@@ -120,7 +120,7 @@ The 26 series that today cite only Wikipedia's general anthology list each get a
   1. **Confirmed by its makers:** the writer, director or studio says so, with a source.
   2. **Documented:** a published source (press, book, critic) makes the link.
   3. **Noted by fans:** a fan source names it (a fan wiki, a forum, TV Tropes, or a fan's suggestion on this site).
-     It shows "Seconded by N fans".
+     It shows "Seconded by N fans". (2026-11-23: replaced by fan votes, docs/plans/fan-votes.md step 3.)
 - **Seconding (needs fan accounts, PR #25):**
   - A signed-in fan can second a fan-noted homage once per account, and can take it back.
   - The count shows on every page the homage appears on, and you can sort and filter by it.

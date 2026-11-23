@@ -7,6 +7,7 @@ import * as account from './account';
 import * as contrib from './contrib';
 import * as forum from './forum';
 import * as mod from './moderation';
+import * as votes from './votes';
 
 type Handler = (ctx: Ctx, ...params: string[]) => Promise<unknown>;
 const routes: [string, RegExp, Handler][] = [];
@@ -40,6 +41,9 @@ on('GET', '/api/account/contributions', contrib.myContributions);
 on('GET', '/api/lists', account.getLists);
 on('POST', '/api/lists', account.setListItem);
 on('POST', '/api/lists/merge', account.mergeLists);
+// Votes (thumbs up and down on records)
+on('GET', '/api/votes', votes.read);
+on('POST', '/api/votes', votes.cast);
 // Suggestions and uploads
 on('POST', '/api/suggestions', contrib.createSuggestion);
 on('GET', '/api/uploads', contrib.listUploads);
@@ -63,10 +67,13 @@ on('GET', '/api/mod/queue', mod.queue);
 on('POST', '/api/mod/action', mod.act);
 on('GET', '/api/mod/members', mod.findMember);
 on('GET', '/api/mod/log', mod.auditLog);
+on('GET', '/api/mod/votes', votes.alerts);
+on('POST', '/api/mod/votes', votes.decide);
+on('GET', '/api/mod/votes/removals', votes.removals);
 on('POST', '/api/takedowns', mod.createTakedown);
 
-export async function handle(req: Request, env: Env): Promise<Response> {
-  const ctx: Ctx = { env, req, user: null, sessionHash: null, setCookies: [] };
+export async function handle(req: Request, env: Env, waitUntil?: (p: Promise<unknown>) => void): Promise<Response> {
+  const ctx: Ctx = { env, req, user: null, sessionHash: null, setCookies: [], waitUntil };
   let res: Response;
   try {
     const url = new URL(req.url);

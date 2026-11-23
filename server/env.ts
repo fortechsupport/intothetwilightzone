@@ -8,6 +8,8 @@ export interface SendEmailBinding {
 
 export interface Env {
   DB?: D1Database;
+  /** The built site's files (Cloudflare Pages provides this binding to every Function). */
+  ASSETS?: Fetcher;
   UPLOADS?: R2Bucket;
   EMAIL?: SendEmailBinding;
   /** Cloudflare Turnstile. Leave both unset to switch the human check off (development only). */
@@ -23,6 +25,8 @@ export interface Env {
   AUTH_SECRET?: string;
   /** Comma-separated emails that become admins when they verify them. */
   ADMIN_EMAILS?: string;
+  /** Who gets an email when fans vote a record below zero. Defaults to the first of ADMIN_EMAILS. */
+  VOTE_ALERT_EMAIL?: string;
   /** One-time code a signed-in member can enter on their account page to become admin. */
   ADMIN_BOOTSTRAP_TOKEN?: string;
   /** Passkey "relying party" id. Defaults to intothetwilightzone.com on that domain, else the host. */

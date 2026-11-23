@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import unlinkHidden from './integrations/unlink-hidden.mjs';
 import externalLinks from './integrations/external-links.mjs';
+import recordIndex from './integrations/record-index.mjs';
 import { readFileSync, readdirSync } from 'node:fs';
 import { parse } from 'yaml';
 import { MOVED_PATHS, OLD_GROUPS } from './src/lib/taxonomy.mjs';
@@ -94,5 +95,5 @@ export default defineConfig({
   site: 'https://intothetwilightzone.com',
   trailingSlash: 'ignore',
   redirects,
-  integrations: [unlinkHidden(), externalLinks()],
+  integrations: [unlinkHidden(), externalLinks(), recordIndex()],
 });

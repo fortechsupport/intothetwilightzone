@@ -3,4 +3,4 @@
 import { handle } from '../../server/router';
 import type { Env } from '../../server/env';
 
-export const onRequest: PagesFunction<Env> = ({ request, env }) => handle(request, env);
+export const onRequest: PagesFunction<Env> = ({ request, env, waitUntil }) => handle(request, env, waitUntil);

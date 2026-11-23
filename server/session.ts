@@ -28,6 +28,8 @@ export interface Ctx {
   sessionHash: string | null;
   /** Cookies to set on the response. */
   setCookies: string[];
+  /** Keep work (an email, a cache write) running after the response is sent. */
+  waitUntil?: (p: Promise<unknown>) => void;
 }
 
 function cookie(name: string, value: string, maxAgeSec: number, httpOnly: boolean) {

@@ -3,6 +3,7 @@ import { features } from './env';
 import { HttpError, itemKey, now, oneOf, readJson, str, today } from './http';
 import { rateLimit } from './guard';
 import { type Ctx, endSession, publicUser, requireUser } from './session';
+import { memberVoteKeys, recountForMember } from './votes';
 
 export const LISTS = ['favorite', 'later', 'watched', 'owned', 'wanted'] as const;
 type ListName = (typeof LISTS)[number];
@@ -22,16 +23,17 @@ export async function me(ctx: Ctx) {
   };
   if (u.role !== 'member') {
     const db = ctx.env.DB!;
-    const [s, up, p, t, r, d] = await db.batch([
+    const [s, up, p, t, r, d, v] = await db.batch([
       db.prepare("SELECT COUNT(*) AS n FROM suggestions WHERE status = 'pending'"),
       db.prepare("SELECT COUNT(*) AS n FROM uploads WHERE status = 'pending'"),
       db.prepare("SELECT COUNT(*) AS n FROM posts WHERE status = 'pending'"),
       db.prepare("SELECT COUNT(*) AS n FROM topics WHERE status = 'pending'"),
       db.prepare("SELECT COUNT(*) AS n FROM reports WHERE status = 'open'"),
       db.prepare("SELECT COUNT(*) AS n FROM takedowns WHERE status = 'open'"),
+      db.prepare("SELECT COUNT(*) AS n FROM vote_alerts WHERE status = 'open'"),
     ]);
     const n = (x: D1Result) => (x.results[0] as { n: number }).n;
-    out.queue = { suggestions: n(s), uploads: n(up), posts: n(p) + n(t), reports: n(r), takedowns: n(d) };
+    out.queue = { suggestions: n(s), uploads: n(up), posts: n(p) + n(t), reports: n(r), takedowns: n(d), votes: n(v) };
   }
   return out;
 }
@@ -152,7 +154,7 @@ export async function exportData(ctx: Ctx) {
   const u = requireUser(ctx);
   const db = ctx.env.DB!;
   const q = (sql: string) => db.prepare(sql).bind(u.id);
-  const [pk, ss, ids, li, sg, up, tp, ps, rp] = await db.batch([
+  const [pk, ss, ids, li, sg, up, tp, ps, rp, vt] = await db.batch([
     q('SELECT nickname, device_type, backed_up, created_at, last_used_at FROM passkeys WHERE user_id = ?1'),
     q('SELECT label, created_at, seen_at, expires_at FROM sessions WHERE user_id = ?1'),
     q('SELECT provider, created_at FROM identities WHERE user_id = ?1'),
@@ -162,6 +164,7 @@ export async function exportData(ctx: Ctx) {
     q('SELECT id, category_id, title, item_key, status, created_at FROM topics WHERE user_id = ?1'),
     q('SELECT id, topic_id, body, status, created_at, edited_at FROM posts WHERE user_id = ?1'),
     q('SELECT target_type, target_id, reason, note, status, created_at FROM reports WHERE reporter_id = ?1'),
+    q('SELECT item_key, value, created_at, updated_at FROM votes WHERE user_id = ?1'),
   ]);
   const data = {
     site: 'intothetwilightzone.com',
@@ -169,6 +172,7 @@ export async function exportData(ctx: Ctx) {
     account: { handle: u.handle, displayName: u.display_name, email: u.email, emailVerified: !!u.email_verified, bio: u.bio, role: u.role, showFavorites: !!u.show_favorites, createdAt: new Date(u.created_at).toISOString() },
     passkeys: pk.results, sessions: ss.results, linkedSignIns: ids.results, lists: li.results,
     suggestions: sg.results, uploads: up.results, topics: tp.results, posts: ps.results, reports: rp.results,
+    votes: (vt.results as { item_key: string; value: number; created_at: number; updated_at: number }[]).map((v) => ({ item: v.item_key, vote: v.value === 1 ? 'up' : 'down', createdAt: v.created_at, updatedAt: v.updated_at })),
     note: 'Uploaded files themselves are not included; open each one from your account page to download it.',
   };
   return new Response(JSON.stringify(data, null, 2), {
@@ -183,6 +187,7 @@ export async function deleteAccount(ctx: Ctx) {
   if (typeof body.confirm !== 'string' || body.confirm.trim().toLowerCase() !== u.handle.toLowerCase()) throw new HttpError(400, 'confirm', 'Type your username to confirm.', { field: 'confirm' });
   const keepPosts = body.keepPosts === true;
   const db = ctx.env.DB!;
+  const voted = await memberVoteKeys(ctx.env, u.id);
   const files = await db.prepare("SELECT r2_key FROM uploads WHERE user_id = ?1 AND r2_key != ''").bind(u.id).all<{ r2_key: string }>();
   if (ctx.env.UPLOADS && files.results.length) await ctx.env.UPLOADS.delete(files.results.map((f) => f.r2_key));
   const stmts = [
@@ -194,6 +199,8 @@ export async function deleteAccount(ctx: Ctx) {
     db.prepare('DELETE FROM users WHERE id = ?1').bind(u.id), // cascades: passkeys, identities, sessions, list items
   ];
   await db.batch(stmts);
+  // Their votes went with the account (ON DELETE CASCADE): recount those records.
+  await recountForMember(ctx, voted);
   await endSession(ctx);
   return { ok: true };
 }

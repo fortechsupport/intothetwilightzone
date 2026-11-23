@@ -1,12 +1,12 @@
 ---
 import Base from '../../layouts/Base.astro';
 ---
-<Base title="Moderation" description="Review queue for member suggestions, uploads, forum posts, reports and copyright notices." noindex>
+<Base title="Moderation" description="Review queue for member suggestions, uploads, forum posts, reports, copyright notices and records fans voted below zero." noindex>
   <div class="mod" id="root" data-pagefind-ignore>
     <h1>Moderation</h1>
     <p id="gate" class="notice warn" hidden>This page is for the site's moderators. <a href="/account/">Sign in</a> with a moderator account.</p>
     <div id="app" hidden>
-      <p class="lead">Nothing members send appears on the site until it's approved here. Notes you add are shown to the member on their account page.</p>
+      <p class="lead">Nothing members send appears on the site until it's approved here. Notes you add are shown to the member on their account page. Records that fans vote below zero wait here for Adam's decision.</p>
       <div class="mod-tabs" role="toolbar" aria-label="Queues" id="tabs"></div>
       <p class="small"><label><input type="checkbox" id="done" /> Show already-handled items</label></p>
       <div id="list"></div>
@@ -16,7 +16,7 @@ import Base from '../../layouts/Base.astro';
     import { api, me, esc, when, renderText, bytes, itemLabel } from '../../lib/account/client';
     import { uploadKindLabel, RIGHTS_LABEL } from '../../lib/account/community';
     const $ = (x: string) => document.getElementById(x)!;
-    const TABS: [string, string][] = [['suggestions', 'Suggestions'], ['uploads', 'Uploads'], ['posts', 'Held posts'], ['reports', 'Reports'], ['takedowns', 'Copyright notices'], ['members', 'Members'], ['log', 'Activity log']];
+    const TABS: [string, string][] = [['suggestions', 'Suggestions'], ['uploads', 'Uploads'], ['posts', 'Held posts'], ['reports', 'Reports'], ['takedowns', 'Copyright notices'], ['votes', 'Votes below zero'], ['members', 'Members'], ['log', 'Activity log']];
     let tab = new URLSearchParams(location.hash.slice(1)).get('q') ?? 'suggestions';
     let isAdmin = false;
     let counts: Record<string, number> = {};
@@ -37,6 +37,7 @@ import Base from '../../layouts/Base.astro';
       const done = ($('done') as HTMLInputElement).checked;
       try {
         if (tab === 'members') return members();
+        if (tab === 'votes') return voteAlerts(done);
         if (tab === 'log') {
           const r = await api('/api/mod/log');
           list.innerHTML = `<ul class="plain rows">${r.log.map((l: any) => `<li><strong>${esc(l.action)}</strong> ${esc(l.target_type)} ${esc(l.target_id)} by @${esc(l.handle ?? '?')} · ${when(l.at)}${l.note ? ` · "${esc(l.note)}"` : ''}</li>`).join('') || '<li class="muted">Nothing yet.</li>'}</ul>`;
@@ -79,6 +80,27 @@ import Base from '../../layouts/Base.astro';
       } catch (e: any) { list.innerHTML = `<p class="form-error">${esc(e.message)}</p>`; }
     }
 
+    // Records whose fan score (thumbs up minus thumbs down) fell below zero. Nothing is removed automatically:
+    // Adam keeps it, or marks it for removal and applies the download to data/review/decisions.json.
+    const ALERT_LABEL: Record<string, string> = { open: 'waiting', kept: 'kept', remove: 'to remove', applied: 'removed', recovered: 'back above zero' };
+    async function voteAlerts(done: boolean) {
+      const list = $('list');
+      const r = await api(`/api/mod/votes${done ? '?status=done' : ''}`);
+      const intro = `<p class="small">${r.email.on ? 'An email goes out the first time each record falls below zero (at most one a day per record).' : 'Alert emails are off until email sending is set up (docs/ACCOUNTS_SETUP.md); this list is always up to date.'}${isAdmin ? ` <a href='/api/mod/votes/removals'>Download removals for decisions.json</a>` : ''}</p>`;
+      if (!r.items.length) { list.innerHTML = intro + `<p class="notice">${done ? 'Nothing decided yet.' : 'All clear. No record has a score below zero.'}</p>`; return; }
+      list.innerHTML = intro + r.items.map((x: any) => {
+        const net = x.up - x.down;
+        const st = `<span class="status s-${x.status === 'open' ? 'open' : x.status === 'kept' || x.status === 'recovered' ? 'visible' : 'removed'}">${esc(ALERT_LABEL[x.status] ?? x.status)}</span>`;
+        const buttons: [string, string, string?][] = x.status === 'open' ? [['keep', 'Keep it', 'primary'], ['remove', 'Mark for removal', 'danger']]
+          : x.status === 'remove' ? [['applied', 'Removal applied'], ['keep', 'Keep it after all']]
+          : x.status === 'kept' ? [['remove', 'Mark for removal', 'danger']] : [];
+        return `<div class="mod-item">${st} <strong>${x.path ? `<a href='${esc(x.path)}'>${esc(x.title)}</a>` : esc(x.title)}</strong>
+          <span class="small muted">· score ${net} (${x.up} up, ${x.down} down) · below zero since ${when(x.opened_at)}${x.times > 1 ? ` · ${x.times} times so far` : ''}</span>
+          <dl><dt>Record</dt><dd><code>${esc(x.item_key)}</code></dd>${x.decided_at ? `<dt>Decided</dt><dd>${when(x.decided_at)}${x.decided_handle ? ` by @${esc(x.decided_handle)}` : ''}</dd>` : ''}${x.note ? `<dt>Note</dt><dd>${esc(x.note)}</dd>` : ''}</dl>
+          ${isAdmin && buttons.length ? actions('vote', x.item_key, buttons).replace('Note to the member (optional)', 'Note for the record (optional)') : !isAdmin && x.status === 'open' ? '<p class="small muted">Adam decides whether a record stays.</p>' : ''}</div>`;
+      }).join('');
+    }
+
     async function members(q = '') {
       const list = $('list');
       list.innerHTML = `<form id="mf" class="actions"><input name="handle" placeholder="Username starts with…" aria-label="Find a member" value="${esc(q)}" /><button class="btn" type="submit">Find</button></form><div id="mres"></div>`;
@@ -105,7 +127,9 @@ import Base from '../../layouts/Base.astro';
       ev.preventDefault();
       const btn = (ev as SubmitEvent).submitter as HTMLButtonElement;
       try {
-        await api('/api/mod/action', { type: f.dataset.type, id: f.dataset.id, action: btn.value, note: (f.elements.namedItem('note') as HTMLInputElement)?.value ?? '' });
+        const note = (f.elements.namedItem('note') as HTMLInputElement)?.value ?? '';
+        if (f.dataset.type === 'vote') await api('/api/mod/votes', { item: f.dataset.id, action: btn.value, note });
+        else await api('/api/mod/action', { type: f.dataset.type, id: f.dataset.id, action: btn.value, note });
         f.closest('.mod-item')!.innerHTML = `<p class="small">Done: ${esc(btn.textContent ?? '')}.</p>`;
         refreshCounts();
       } catch (e: any) { f.insertAdjacentHTML('beforeend', `<span class="form-error small">${esc(e.message)}</span>`); }
@@ -114,7 +138,7 @@ import Base from '../../layouts/Base.astro';
 
     async function refreshCounts() {
       const m = await me(true);
-      if (m.queue) counts = { suggestions: m.queue.suggestions, uploads: m.queue.uploads, posts: m.queue.posts, reports: m.queue.reports, takedowns: m.queue.takedowns };
+      if (m.queue) counts = { suggestions: m.queue.suggestions, uploads: m.queue.uploads, posts: m.queue.posts, reports: m.queue.reports, takedowns: m.queue.takedowns, votes: m.queue.votes };
       tabs();
     }
     (async () => {

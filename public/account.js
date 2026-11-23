@@ -1,9 +1,10 @@
 // IntoTheTwilightZone.com member features that run on every page:
 // - fills the header's account slot ("Sign in", or the member's username),
-// - adds Favorite / Later / Discuss / Fan contributions to a record's actions,
+// - adds Favorite / Later / thumbs up and down / Discuss / Fan contributions to a record's actions,
 // - keeps the browser checklist (fan.js) and the member's account in step.
-// Visitors who never sign in cause no requests: everything waits for the tz_hint cookie, which only
-// exists after signing in and holds nothing but the username.
+// Visitors who never sign in cause one request, on record pages only: the vote counts (cached for a minute at
+// Cloudflare). Everything else waits for the tz_hint cookie, which only exists after signing in and holds nothing
+// but the username.
 (function () {
   'use strict';
   function cookie(name) {
@@ -57,13 +58,71 @@
       var has = function (list) { return document.querySelector('[data-track="' + list + '"][data-key="' + key + '"]'); };
       if (!has('favorite')) html += '<button type="button" class="track-btn" data-track="favorite" data-key="' + esc(key) + '" aria-pressed="false"><span aria-hidden="true" class="tick"></span>Favorite</button>';
       if (!has('later')) html += '<button type="button" class="track-btn" data-track="later" data-key="' + esc(key) + '" aria-pressed="false"><span aria-hidden="true" class="tick"></span>Later</button>';
+      html += voteGroup(key);
       html += '<a class="action-link" href=' + "'" + '/community/discuss/?item=' + encodeURIComponent(key) + "'" + '>Discuss</a>';
       html += '<a class="action-link" href=' + "'" + '/community/uploads/?item=' + encodeURIComponent(key) + "'" + '>Fan contributions</a>';
       box.insertAdjacentHTML('beforeend', html);
       box.setAttribute('data-filled', '1');
     });
     document.dispatchEvent(new Event('tz:repaint'));
+    loadVotes();
   }
+
+  // Thumbs up / thumbs down (docs/plans/fan-votes.md). Counts are public; voting needs an account so each
+  // fan counts once. The group stays hidden until the counts arrive, so it never shows where accounts are off.
+  // Icons: Feather (MIT licence, feathericons.com).
+  var THUMB_UP = '<svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>';
+  var THUMB_DOWN = '<svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"/></svg>';
+  function voteGroup(key) {
+    return '<div class="vote" role="group" aria-label="Fan votes" data-vote-key="' + esc(key) + '" hidden>' +
+      '<button type="button" class="vote-btn" data-vote="1" aria-pressed="false">' + THUMB_UP + '<span class="vote-n">0</span></button>' +
+      '<button type="button" class="vote-btn" data-vote="-1" aria-pressed="false">' + THUMB_DOWN + '<span class="vote-n">0</span></button>' +
+      '<span class="vote-msg" aria-live="polite"></span></div>';
+  }
+  function paintVote(group, v) {
+    var btns = group.querySelectorAll('.vote-btn');
+    [[btns[0], v.up, 1, 'Thumbs up'], [btns[1], v.down, -1, 'Thumbs down']].forEach(function (b) {
+      b[0].querySelector('.vote-n').textContent = String(b[1]);
+      b[0].setAttribute('aria-label', b[3] + ', ' + b[1] + (b[1] === 1 ? ' vote' : ' votes'));
+      b[0].setAttribute('title', b[3]);
+      b[0].setAttribute('aria-pressed', v.mine === b[2] ? 'true' : 'false');
+    });
+    group.hidden = false;
+  }
+  function loadVotes() {
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.vote[data-vote-key]')).slice(0, 20);
+    if (!groups.length) return;
+    var keys = groups.map(function (g) { return g.getAttribute('data-vote-key'); });
+    fetch('/api/votes?items=' + keys.map(encodeURIComponent).join(',') + (handle ? '&me=1' : ''), { credentials: 'same-origin' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d || !d.votes) return; // accounts not switched on here: leave the buttons hidden
+        groups.forEach(function (g) { var v = d.votes[g.getAttribute('data-vote-key')]; if (v) paintVote(g, v); });
+      })
+      .catch(function () { /* offline: no votes shown */ });
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest ? e.target.closest('.vote-btn') : null;
+    if (!btn) return;
+    var group = btn.closest('.vote');
+    var msg = group.querySelector('.vote-msg');
+    if (!handle) {
+      msg.innerHTML = '<a href=' + "'" + '/account/' + "'" + '>Sign in to vote</a>. Votes need a free account so each fan counts once.';
+      return;
+    }
+    var want = Number(btn.getAttribute('data-vote'));
+    var value = btn.getAttribute('aria-pressed') === 'true' ? 0 : want; // pressing your vote again withdraws it
+    group.querySelectorAll('.vote-btn').forEach(function (b) { b.disabled = true; });
+    api('/api/votes', { item: group.getAttribute('data-vote-key'), value: value })
+      .then(function (r) {
+        paintVote(group, r);
+        msg.textContent = value === 0 ? 'Vote withdrawn.' : 'Thanks, your vote is in.';
+      })
+      .catch(function (err) {
+        msg.textContent = /signed out/.test(err.message) ? 'Please sign in again to vote.' : /429/.test(err.message) ? 'That is a lot of votes at once. Please try again later.' : 'Your vote did not go through. Please try again.';
+      })
+      .then(function () { group.querySelectorAll('.vote-btn').forEach(function (b) { b.disabled = false; }); });
+  });
 
   // Keep the account and this browser in step.
   function sync(force) {
@@ -91,7 +150,7 @@
 
   // When the account page signs someone in or out, it tells us.
   window.tzAccount = {
-    signedIn: function (h) { handle = h; paintSlot(); sync(true); },
+    signedIn: function (h) { handle = h; paintSlot(); sync(true); loadVotes(); },
     signedOut: function () {
       handle = '';
       // Only clear the browser copy if it belongs to an account; a visitor's own checklist stays.
@@ -102,6 +161,7 @@
       if (window.tzTracker) window.tzTracker.set({});
       document.dispatchEvent(new CustomEvent('tz:synced'));
       paintSlot();
+      loadVotes();
     },
     handle: function () { return handle; },
   };

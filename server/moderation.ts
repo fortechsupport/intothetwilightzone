@@ -3,6 +3,7 @@ import { HttpError, newId, now, oneOf, readJson, str } from './http';
 import { ipKey, rateLimit, verifyTurnstile } from './guard';
 import { checkEmail } from './auth';
 import { type Ctx, requireAdmin, requireMod } from './session';
+import { memberVoteKeys, recountForMember } from './votes';
 
 const QUEUES = ['suggestions', 'uploads', 'posts', 'reports', 'takedowns'] as const;
 
@@ -122,13 +123,18 @@ export async function act(ctx: Ctx) {
       if (id === mod.id) throw new HttpError(400, 'self', 'You cannot do that to your own account.');
       if (target.role === 'admin') throw new HttpError(403, 'forbidden', 'Admins cannot be changed here.');
       if (a.startsWith('make-')) requireAdmin(ctx);
-      if (a === 'suspend') {
-        return done(await db.batch([
-          db.prepare("UPDATE users SET status = 'suspended' WHERE id = ?1").bind(id),
-          db.prepare('DELETE FROM sessions WHERE user_id = ?1').bind(id),
-        ]));
+      if (a === 'suspend' || a === 'unsuspend') {
+        // Only active members' votes count, so suspending (or reinstating) someone recounts what they voted on.
+        const out = await done(a === 'suspend'
+          ? await db.batch([
+            db.prepare("UPDATE users SET status = 'suspended' WHERE id = ?1").bind(id),
+            db.prepare('DELETE FROM sessions WHERE user_id = ?1').bind(id),
+          ])
+          : await db.prepare("UPDATE users SET status = 'active' WHERE id = ?1").bind(id).run());
+        await recountForMember(ctx, await memberVoteKeys(ctx.env, id));
+        return out;
       }
-      const sql = { unsuspend: "UPDATE users SET status = 'active' WHERE id = ?1", 'make-moderator': "UPDATE users SET role = 'moderator' WHERE id = ?1", 'make-member': "UPDATE users SET role = 'member' WHERE id = ?1" }[a];
+      const sql = { 'make-moderator': "UPDATE users SET role = 'moderator' WHERE id = ?1", 'make-member': "UPDATE users SET role = 'member' WHERE id = ?1" }[a];
       return done(await db.prepare(sql).bind(id).run());
     }
   }

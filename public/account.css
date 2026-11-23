@@ -77,6 +77,21 @@ details > summary { cursor: pointer; }
 .record-actions .track-btn:focus-visible, .record-actions .action-link:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 .record-actions .action-link { font-size: var(--step--1); color: var(--link); }
 
+/* Fan votes (thumbs up / down) in a record's actions bar */
+.record-actions .vote { display: inline-flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); }
+.record-actions .vote[hidden] { display: none; }
+.record-actions .vote-btn {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 40px; min-width: 56px; padding: 6px 12px; font: inherit; font-size: var(--step--1);
+  font-variant-numeric: tabular-nums; color: var(--text); background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--radius-pill); cursor: pointer;
+}
+.record-actions .vote-btn:hover { border-color: var(--muted); }
+.record-actions .vote-btn[aria-pressed="true"] { border-color: var(--brass); color: var(--brass); }
+.record-actions .vote-btn[aria-pressed="true"] svg { fill: currentColor; fill-opacity: 0.25; }
+.record-actions .vote-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.record-actions .vote-btn[disabled] { cursor: progress; opacity: 0.7; }
+.record-actions .vote-msg { font-size: var(--step--1); color: var(--muted); }
+.record-actions .vote-msg:empty { display: none; }
+
 /* Forums */
 .forum-list { list-style: none; padding: 0; margin: 0; border: 1px solid var(--line-strong); border-radius: var(--radius-md); overflow: hidden; }
 .forum-list > li { display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; padding: 14px 16px; border-bottom: 1px solid var(--line-strong); }

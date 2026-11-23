@@ -17,7 +17,7 @@ straight to a branch preview rather than screenshots first.
 
 | Check | Result (2026-11-21, local `wrangler pages dev` with D1/R2, Chromium virtual passkey) |
 |---|---|
-| A visitor who never signs in makes no API requests and every page works as before | Pass (account.js waits for the sign-in cookie) |
+| A visitor who never signs in makes no API requests and every page works as before | Pass (account.js waits for the sign-in cookie). Amended 2026-11-23: record pages now ask for vote counts (docs/plans/fan-votes.md) |
 | With no D1 binding, account pages say "being set up" and nothing errors | Pass (static `astro preview` run of check:a11y) |
 | Create an account with a passkey; sign out; sign in with the passkey | Pass |
 | Items marked before signing up are in the account after sign-up | Pass |

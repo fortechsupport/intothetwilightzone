@@ -3,6 +3,22 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-23 — Fan votes: thumbs up and down on every record (switch on with fan accounts)
+
+**Fans can vote on anything on the site.** Once fan accounts are switched on (docs/ACCOUNTS_SETUP.md):
+- Every record page (people, characters, places, organizations, episodes, films, books, songs and the rest: 6,045
+  pages) shows a **thumbs up** and a **thumbs down** with their counts, next to Favorite and Later.
+- A signed-in member votes once per record, and can switch or withdraw their vote. Anyone can see the counts.
+- When a record's score (ups minus downs) falls below zero, Adam sees it on the Moderation page under **Votes below
+  zero** and decides: **Keep it** or **Mark for removal**. Nothing is removed automatically.
+
+**Known not to work yet**
+- Nothing shows until the Cloudflare setup is done; the buttons stay hidden until then.
+- No alert emails until email sending is set up; the Moderation page is the alert until then.
+- Single links and homage rows (for example one fan-noted film link) can't be voted on separately yet; the vote
+  is on the whole record page.
+- Lists don't show counts and can't be sorted by score.
+
 ## 2026-11-23 — Rod Serling's films checked one by one
 
 Every film Serling wrote or narrated now shows its exact release date, running time, director, writers, main cast and

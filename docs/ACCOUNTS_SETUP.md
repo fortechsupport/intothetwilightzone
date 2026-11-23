@@ -17,7 +17,9 @@ Everything here is done once, in the Cloudflare dashboard, in about 15 minutes. 
 3. Open the new database → **Console** tab.
 4. Open [`migrations/0001_accounts.sql`](../migrations/0001_accounts.sql) on GitHub, click **Raw**, copy all
    of it, paste it into the console, and click **Execute**. It creates the tables and the ten forums.
-   (Command-line alternative: `npx wrangler d1 migrations apply intothetwilightzone --remote`.)
+5. Do the same with [`migrations/0002_votes.sql`](../migrations/0002_votes.sql): the fan votes (thumbs up and down)
+   and the "Votes below zero" alerts.
+   (Command-line alternative for both: `npx wrangler d1 migrations apply intothetwilightzone --remote`.)
 
 ## 2. Create the uploads bucket (R2)
 
@@ -64,7 +66,9 @@ settings only reach new deployments.
    passkey (your phone or computer asks for your face, fingerprint or screen lock).
 2. On your account page, open **Have a site editor code?**, paste the `ADMIN_BOOTSTRAP_TOKEN`, **Use code**.
 3. A **Moderation** link appears on your account page. That's the review queue for suggestions, uploads,
-   held forum posts, reports and copyright notices.
+   held forum posts, reports and copyright notices, and the **Votes below zero** list, where you keep a record or
+   mark it for removal. To apply removals: **Download removals for decisions.json**, then
+   `node scripts/apply-vote-removals.mjs <the file>` and merge the change (a Claude thread can do this for you).
 4. Optional: once you're admin, delete the `ADMIN_BOOTSTRAP_TOKEN` secret so the code can't be used again.
    You can make other members moderators from Moderation → Members.
 
@@ -78,6 +82,9 @@ settings only reach new deployments.
     add at Bluehost, alongside the Microsoft 365 records, which must stay), then add secret `RESEND_API_KEY`
     and variable `EMAIL_FROM`.
   Optionally add `ADMIN_EMAILS` (your address) so confirming that email makes you admin.
+- **Vote alert emails**: once email sending works (either way above), add text variable `VOTE_ALERT_EMAIL` with
+  the address that should hear when fans vote a record below zero (if it's not set, the first address in
+  `ADMIN_EMAILS` is used). Without it, the alerts are on Moderation → **Votes below zero** only.
 - **Google sign-in**: Google Cloud console → APIs & Services → Credentials → Create OAuth client ID (Web
   application). Authorised redirect URIs: `https://intothetwilightzone.com/api/auth/google/callback` and the
   preview address with the same path. Then add text variable `GOOGLE_CLIENT_ID` and secret
