@@ -2466,7 +2466,7 @@
   "recommendation": "include",
   "reason": "Character pages connect episodes to the actors who played them.",
   "source_title": "Shadow Play (The Twilight Zone) - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Shadow_Play_(The_Twilight_Zon",
+  "source_url": "https://en.wikipedia.org/wiki/Shadow_Play_(The_Twilight_Zone,_1985)",
   "title": "Adam Grant (1985)",
   "subcategory": "1985 revival (1985-1989)",
   "sort": "adam grant 001985"
@@ -5178,7 +5178,7 @@
   "recommendation": "maybe",
   "reason": "Names or casting are medium confidence; check against the episode before including.",
   "source_title": "A Game of Pool (The Twilight Zone) - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/A_Game_of_Pool_(The_Twilight_Zon",
+  "source_url": "https://en.wikipedia.org/wiki/A_Game_of_Pool_(The_Twilight_Zone,_1985)",
   "title": "James Howard \"Fats\" Brown (1985)",
   "subcategory": "1985 revival (1985-1989)",
   "sort": "james howard fats brown 001985"
@@ -5970,7 +5970,7 @@
   "recommendation": "include",
   "reason": "Character pages connect episodes to the actors who played them.",
   "source_title": "Night of the Meek (The Twilight Zone) - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Night_of_the_Meek_(The_Twilight_Zon",
+  "source_url": "https://en.wikipedia.org/wiki/Night_of_the_Meek_(The_Twilight_Zone,_1985)",
   "title": "Henry Corwin (1985)",
   "subcategory": "1985 revival (1985-1989)",
   "sort": "henry corwin 001985"
@@ -6690,7 +6690,7 @@
   "recommendation": "maybe",
   "reason": "Names or casting are medium confidence; check against the episode before including.",
   "source_title": "A Game of Pool (The Twilight Zone) - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/A_Game_of_Pool_(The_Twilight_Zon",
+  "source_url": "https://en.wikipedia.org/wiki/A_Game_of_Pool_(The_Twilight_Zone,_1985)",
   "title": "Jesse Cardiff (1985)",
   "subcategory": "1985 revival (1985-1989)",
   "sort": "jesse cardiff 001985"
@@ -7842,7 +7842,7 @@
   "recommendation": "include",
   "reason": "Character pages connect episodes to the actors who played them.",
   "source_title": "The After Hours (The Twilight Zone) - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/The_After_Hours_(The_Twilight_Zon",
+  "source_url": "https://en.wikipedia.org/wiki/The_After_Hours_(The_Twilight_Zone,_1985)",
   "title": "Marsha Cole",
   "subcategory": "1985 revival (1985-1989)",
   "sort": "marsha cole"
@@ -8646,7 +8646,7 @@
   "recommendation": "maybe",
   "reason": "Names or casting are medium confidence; check against the episode before including.",
   "source_title": "Night of the Meek (The Twilight Zone) - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Night_of_the_Meek_(The_Twilight_Zon",
+  "source_url": "https://en.wikipedia.org/wiki/Night_of_the_Meek_(The_Twilight_Zone,_1985)",
   "title": "Mr. Dundee (1985)",
   "subcategory": "1985 revival (1985-1989)",
   "sort": "mr dundee 001985"
@@ -15997,10 +15997,10 @@
  },
  "connections/cube-five-characters-in-search-of-an-exit": {
   "connection": "Cube and “Five Characters in Search of an Exit” (1959): both trap strangers with no memory of how they arrived in a featureless enclosure they cannot escape.",
-  "tier": "tangential",
-  "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
-  "recommendation": "maybe",
-  "reason": "Close premise, but only fans have made the link; show it labelled as unconfirmed or leave it out.",
+  "tier": "related",
+  "tier_reason": "Inspired by link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
   "source_title": "Cube (1997 film) (Wikipedia)",
   "source_url": "https://en.wikipedia.org/wiki/Cube_(1997_film)",
   "title": "Cube → “Five Characters in Search of an Exit” (1959)",
@@ -18238,6 +18238,18 @@
   "title": "The Commuter → The Twilight Zone (original series)",
   "subcategory": "Inspired by an episode",
   "sort": "commuter  the twilight zone original series"
+ },
+ "connections/planet-of-the-apes--i-shot-an-arrow-into-the-air": {
+  "connection": "Rod Serling co-wrote the 1968 screenplay, and Syfy Wire compares its twist, stranded astronauts who learn they never left Earth, to the twist of this episode.",
+  "tier": "related",
+  "tier_reason": "Inspired by link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
+  "source_title": "I Shot an Arrow into the Air (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/I_Shot_an_Arrow_into_the_Air",
+  "title": "Planet of the Apes → “I Shot an Arrow into the Air” (1959)",
+  "subcategory": "Inspired by an episode",
+  "sort": "planet of the apes  i shot an arrow into the air 001959"
  },
  "connections/planet-of-the-apes-people-are-alike-all-over": {
   "connection": "Rod Serling co-wrote the 1968 screenplay, and several articles trace its astronaut-captivity premise and twist back to this and other Serling episodes.",
@@ -20579,6 +20591,18 @@
   "subcategory": "References",
   "sort": "trick or treat studios the twilight zone mask line 002017  the masks 001959"
  },
+ "connections/truth-or-consequences-nm--a-penny-for-your-thoughts": {
+  "connection": "A scene in the film refers to \"A Penny for Your Thoughts\", as Adam noted in his review of the Movies plan.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "VIDEODOME: \"Truth or Consequences, N.M.\" (1997, r: Kiefer Sutherland)",
+  "source_url": "https://zilesinopti.ro/2024/05/28/truth-or-consequences-n-m-1997/",
+  "title": "Truth or Consequences, N.M. → “A Penny for Your Thoughts” (1959)",
+  "subcategory": "References",
+  "sort": "truth or consequences nm  a penny for your thoughts 001959"
+ },
  "connections/twilight-zone-golden-earring--twilight-zone-1959": {
   "connection": "Dick Maas's video for Golden Earring's hit borrows the series' name for its title; included here for curation, as the song's link to the show is in name only.",
   "tier": "tangential",
@@ -20966,9 +20990,9 @@
  "connections/urban-legends-final-cut--nightmare-at-20-000-feet": {
   "connection": "Urban Legends: Final Cut is an homage to “Nightmare at 20,000 Feet” (1959).",
   "tier": "tangential",
-  "tier_reason": "Homage link, a published source makes the link.",
+  "tier_reason": "Homage link, the makers have said so.",
   "recommendation": "include",
-  "reason": "A published source documents the link.",
+  "reason": "The makers have confirmed the influence.",
   "source_title": "Nightmare at 20,000 Feet (Wikipedia)",
   "source_url": "https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet",
   "title": "Urban Legends: Final Cut → “Nightmare at 20,000 Feet” (1959)",
@@ -30205,10 +30229,10 @@
  },
  "films/cube": {
   "connection": "Suggested link to “Five Characters in Search of an Exit” (1959): both trap strangers with no memory of how they arrived in a featureless enclosure they cannot escape.",
-  "tier": "tangential",
-  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
-  "recommendation": "maybe",
-  "reason": "The premises are strikingly close, but no maker or critic has confirmed the link. Include as a labelled \"resemblance\" or leave out.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A published source makes the link, so it is a well-founded influence record.",
   "source_title": "",
   "source_url": "",
   "title": "Cube",
@@ -32688,7 +32712,7 @@
   "sort": "commuter"
  },
  "films/planet-of-the-apes": {
-  "connection": "Rod Serling co-wrote the 1968 screenplay, and several articles trace its astronaut-captivity premise and twist back to this and other Serling episodes.",
+  "connection": "Rod Serling co-wrote the 1968 screenplay, and Syfy Wire compares its twist, stranded astronauts who learn they never left Earth, to the twist of this episode. Also linked to “People Are Alike All Over” (1959).",
   "tier": "related",
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
   "recommendation": "include",
@@ -35267,6 +35291,18 @@
   "subcategory": "Television films",
   "sort": "trilogy of terror"
  },
+ "films/truth-or-consequences-nm": {
+  "connection": "A 1997 crime film with a scene that refers to the 1959 episode \"A Penny for Your Thoughts\", as Adam noted.",
+  "tier": "tangential",
+  "tier_reason": "A passing reference to one episode in a film otherwise unrelated to the show (plan Q4, marked Reference).",
+  "recommendation": "include",
+  "reason": "Adam named it as an example of a film referencing the show; a 2024 review confirms The Twilight Zone comes up in its dialogue. The episode itself is named only on Adam's word, so the link is marked fan-noted.",
+  "source_title": "Truth or Consequences, N.M. (film) (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Truth_or_Consequences,_N.M._(film)",
+  "title": "Truth or Consequences, N.M.",
+  "subcategory": "Feature films",
+  "sort": "truth or consequences nm"
+ },
  "films/twenty-four-men-in-a-plane-1953-teleplay": {
   "connection": "A television play by Rod Serling for Medallion Theatre, 1953, from the career that led to The Twilight Zone.",
   "tier": "related",
@@ -35448,11 +35484,11 @@
   "sort": "unknown"
  },
  "films/urban-legends-final-cut": {
-  "connection": "An homage to “Nightmare at 20,000 Feet” (1959) (a published source makes the link).",
+  "connection": "An homage to “Nightmare at 20,000 Feet” (1959) (the makers have said so).",
   "tier": "tangential",
   "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
   "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "reason": "Its makers have said the show influenced it: the strongest kind of influence record.",
   "source_title": "Nightmare at 20,000 Feet (Wikipedia)",
   "source_url": "https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet",
   "title": "Urban Legends: Final Cut",
@@ -41196,7 +41232,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -44976,7 +45012,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -48276,7 +48312,7 @@
   "sort": "jean carson"
  },
  "people/jean-de-segonzac": {
-  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Night Route” and “Cradle of Darkness”).",
+  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Cradle of Darkness” and “Night Route”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -55020,7 +55056,7 @@
   "sort": "paul le mat"
  },
  "people/paul-lynch": {
-  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “A Message from Charity” and “Examination Day”).",
+  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “Examination Day” and “A Message from Charity”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -60216,7 +60252,7 @@
   "sort": "werner klemperer"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",

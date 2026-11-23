@@ -1,0 +1,17 @@
+from: films/truth-or-consequences-nm
+to: 1959/a-penny-for-your-thoughts
+kind: reference
+confidence: fan-noted
+summary: A scene in the film refers to "A Penny for Your Thoughts", as Adam noted in his review of the Movies plan.
+evidence: 'Checked 2026-11-23: Ioan Big''s 2024 review for Zile și Nopți says The Twilight Zone comes up in the
+  film''s dialogue but does not name the episode. Neither the film''s nor the episode''s Wikipedia article mentions
+  the scene, and the one quote listed on Movie Mistakes is unrelated. The episode is named on Adam''s word; a
+  transcript or a critic naming it would raise this to documented.'
+sources:
+- title: Adam's note in the Movies plan review
+  note: Adam, 2026-11-23, "Truth or Consequences N.M. ... has a scene referencing the episode A Penny for Your Thoughts."
+- title: 'VIDEODOME: "Truth or Consequences, N.M." (1997, r: Kiefer Sutherland)'
+  url: https://zilesinopti.ro/2024/05/28/truth-or-consequences-n-m-1997/
+  author: Ioan Big
+  publisher: Zile și Nopți
+last_verified: '2026-11-23'

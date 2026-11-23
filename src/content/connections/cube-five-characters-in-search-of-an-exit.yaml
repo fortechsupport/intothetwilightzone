@@ -1,16 +1,27 @@
 from: films/cube
 to: 1959/five-characters-in-search-of-an-exit
 kind: inspired-by
-confidence: fan-noted
-summary: No source found linking Vincenzo Natali's film to the episode; the shared premise is strangers waking up
-  trapped in a featureless enclosure.
+confidence: documented
+summary: Vincenzo Natali's film shares the episode's premise of strangers waking up trapped in a featureless
+  enclosure, and two published sources say it was reportedly inspired by the episode.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 - title: Cube (1997 film) (Wikipedia)
   url: https://en.wikipedia.org/wiki/Cube_(1997_film)
-last_verified: '2026-11-20'
+- title: Five Characters in Search of an Exit (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Five_Characters_in_Search_of_an_Exit
+  note: Says Cube was reportedly inspired by the episode, citing the two sources below.
+- title: Cube (review)
+  author: Brian Eggert
+  publisher: Deep Focus Review
+  note: 19 May 2010; cited by Wikipedia, not yet read directly.
+- title: Writing the Horror Movie
+  author: Blake and Bailey (as cited by Wikipedia)
+  publisher: Bloomsbury, 2013
+  note: Page 137; cited by Wikipedia, not yet read directly.
+last_verified: '2026-11-23'
 locked: true
-evidence: 'Checked 2026-11-20: No interview or review found in which Natali cites Five Characters in Search of an
-  Exit; the claim rests on the shared trapped-strangers premise. Natali has cited Kafka and similar sources in interviews;
-  The Twilight Zone link is not documented.'
+evidence: 'Checked 2026-11-23: Wikipedia''s episode article says Cube was "reportedly" inspired by the episode and
+  cites a 2010 Deep Focus Review piece and a 2013 screenwriting book. No interview in which Natali names the episode
+  has been found (checked 2026-11-20), so this stays documented, not confirmed by the creator.'
