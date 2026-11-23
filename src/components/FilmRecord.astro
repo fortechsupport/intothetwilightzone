@@ -39,7 +39,7 @@ const ownThemes = ordered(segThemes.flat());
 const pointsTo = conns.map((c) => c.data.to).filter((t) => /^\d{4}\//.test(t));
 const inherited = ownThemes.length ? [] : await inheritedThemes(pointsTo);
 const fromSegs = entries.some((e) => e.themesFrom === 'segments');
-const TAGS: Record<string, string> = { 'anthology-family': 'Fellow anthology', 'tz-writers': 'Made by Twilight Zone writers', 'radio-only': 'Radio only', 'compared-by-critics': 'Compared by critics', 'cited-by-makers': 'Cited by its makers' };
+const TAGS: Record<string, string> = { 'anthology-family': 'Fellow anthology', 'tz-writers': 'Made by Twilight Zone writers', 'tz-makers': 'By Twilight Zone makers', 'fan-made': 'Fan-made', 'radio-only': 'Radio only', 'compared-by-critics': 'Compared by critics', 'cited-by-makers': 'Cited by its makers' };
 const tags = (d.tags ?? []).map((t: string) => TAGS[t]).filter(Boolean);
 const host = d.parent_series ? tv.showOf(f.id) : undefined;
 // The shelf this record sits on, for "More on this shelf" and previous/next.
@@ -48,6 +48,14 @@ const shelfEntries = shelf ? ((await catalog()).get(shelf.cat)?.subs.find((x) =>
 const at = shelfEntries.findIndex((e) => e.key === `films/${f.id}`);
 const prevE = at > 0 ? shelfEntries[at - 1] : undefined;
 const nextE = at >= 0 && at < shelfEntries.length - 1 ? shelfEntries[at + 1] : undefined;
+// Serling's part in it, for the films on "Rod Serling's films" (field serling_role).
+const SERLING_PART: Record<string, string> = {
+  written: 'Rod Serling wrote it.',
+  'from-his-work': 'It was made from Rod Serling’s work.',
+  narrated: 'Rod Serling narrates it.',
+  appeared: 'Rod Serling appears in it.',
+};
+const serlingRole = d.serling_role ? SERLING_PART[d.serling_role] : undefined;
 const firstLabel = d.kind === 'tv-series' ? 'First aired' : 'Released';
 // Where to watch, for anything made for the screen that still exists (not radio, pilots never aired or unmade work).
 const WATCHABLE = new Set(['tv-series', 'film', 'documentary', 'tv-film', 'special', 'short']);
@@ -78,6 +86,8 @@ const watch = WATCHABLE.has(d.kind) && !(d.tags ?? []).includes('radio-only') &&
     {d.runtime_min && <><dt>Runtime</dt><dd>{d.runtime_min} minutes</dd></>}
     {d.directors.length > 0 && <><dt>Directed by</dt><dd>{d.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
     {d.writers.length > 0 && <><dt>Written by</dt><dd>{d.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}{d.writing_credit_note && <div class="small muted">{d.writing_credit_note}</div>}</dd></>}
+    {(d.source_title || d.source_authors.length > 0) && <><dt>Based on</dt><dd>{d.source_title ? `“${d.source_title}”` : 'A story'}{d.source_authors.length > 0 && <> by {d.source_authors.map((n, i) => <>{i > 0 && (i === d.source_authors.length - 1 ? ' and ' : ', ')}<a href={personUrl(n)}>{n}</a></>)}</>}</dd></>}
+    {d.composer.length > 0 && <><dt>Music by</dt><dd>{d.composer.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
   </dl>
   {d.segments.length > 0 && (
     <section>
@@ -98,27 +108,26 @@ const watch = WATCHABLE.has(d.kind) && !(d.tags ?? []).includes('radio-only') &&
       </ul>
     </section>
   )}
-  {(a || d.ties.length > 0) && (
+  {(a || d.ties.length > 0 || targets.length > 0 || serlingRole) && (
     <aside class="tz-link">
       <h2>Why it’s here</h2>
       {a && !(d.summary && a.connection.includes(d.summary.slice(0, 40))) && <p>{a.connection}</p>}
+      {serlingRole && <p>{serlingRole}</p>}
+      {targets.length > 0 && (
+        <ul class="ties">
+          {targets.map(({ c, ep }) => (
+            <li>
+              {CONNECTION_VERBS[c.data.kind] ?? CONNECTION_LABELS[c.data.kind]} {ep ? <a href={ep.url}>{ep.title}</a> : c.data.to}{ep && ep.kind !== 'Series' && <span class="muted small"> · {ep.kind}</span>}
+              {' '}<span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span> <LinkVote id={c.id} />
+              {c.data.evidence && <p class="small">{c.data.evidence}</p>}
+              {c.data.sources.length > 0 && <span class="small muted"> ({c.data.sources.map((x, i) => <>{i > 0 && ', '}{x.url ? <a href={x.url} rel="noopener" title={x.title}>{shortSource(x)}</a> : shortSource(x)}</>)})</span>}
+            </li>
+          ))}
+        </ul>
+      )}
       {d.ties.length > 0 && <ul class="ties">{d.ties.map((t) => <li>{t.text} <span class="small muted">({t.sources.map((x, i) => <>{i > 0 && ', '}{x.url ? <a href={x.url} rel="noopener" title={x.title}>{shortSource(x)}</a> : shortSource(x)}</>)})</span></li>)}</ul>}
       {a && <p class="small muted">{TIER_LABEL[a.tier]}: {a.tier_reason}{a.source_url && <> <a href={a.source_url} rel="noopener" title={a.source_title}>{shortSource({ title: a.source_title, url: a.source_url })}</a></>}</p>}
     </aside>
-  )}
-  {targets.length > 0 && (
-    <section>
-      <h2>Twilight Zone connection</h2>
-      <ul class="plain">
-        {targets.map(({ c, ep }) => (
-          <li>
-            {CONNECTION_VERBS[c.data.kind] ?? CONNECTION_LABELS[c.data.kind]} {ep ? <a href={ep.url}>{ep.title}</a> : c.data.to}{ep && ep.kind !== 'Series' && <span class="muted small"> · {ep.kind}</span>}
-            {' '}<span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span> <LinkVote id={c.id} />
-            {c.data.evidence && <p class="small">{c.data.evidence}</p>}
-          </li>
-        ))}
-      </ul>
-    </section>
   )}
   <slot />
   {entries.length > 0 && (

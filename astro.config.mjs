@@ -89,7 +89,15 @@ Object.assign(redirects, { '/episodes': '/series/episodes/', '/series/tv': '/ser
   const films = readdirSync(dir).filter((n) => n.endsWith('.yaml')).map((n) => ({ id: n.slice(0, -5), data: parse(readFileSync(`${dir}/${n}`, 'utf8')) ?? {} }));
   const tv = buildShowIndex(films);
   for (const f of films) if (isEntryOnly(f.id, f.data)) redirects[`/films/${f.id}`] = tv.entryHref(f.id);
+  // Films kept only for a writer's filmography (Movies Q2) send their old address to that writer's page.
+  const slug = (n) => String(n).replace(/['’‘]/g, '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  for (const f of films) {
+    const who = (f.data.writers ?? [])[0] ?? (f.data.source_authors ?? [])[0];
+    if (f.data.filmography_only && who) redirects[`/films/${f.id}`] = `/people/${slug(who)}/`;
+  }
 }
+// Movies (2026-11-23, docs/plans/research-movies.md): the Television films and Shorts shelves were split up.
+Object.assign(redirects, { '/movies/tv-films': '/movies/', '/movies/shorts-and-other': '/movies/linked-films/' });
 
 export default defineConfig({
   site: 'https://intothetwilightzone.com',

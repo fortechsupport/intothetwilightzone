@@ -4,20 +4,26 @@
 // newest or oldest. Sorting other than A to Z shows one flat list; A to Z restores the groups and letters.
 // Choices stay in the address (?q=, &side=, &group=, &tier=, &sort=) so a filtered list can be shared.
 // Without JavaScript the full list shows.
-interface Props { scope: string; noun?: string; groups?: string[]; sides?: boolean; tiers?: boolean; years?: boolean; groupLabel?: string }
-const { scope, noun = 'entries', groups = [], sides = false, tiers = false, years = true, groupLabel = 'Group' } = Astro.props;
+// `facets` adds one select per extra filter, matched against each item's data-x-<key> ("a|b" lists).
+interface Facet { key: string; label: string; options: string[] }
+interface Props { scope: string; noun?: string; groups?: string[]; sides?: boolean; tiers?: boolean; years?: boolean; groupLabel?: string; facets?: Facet[] }
+const { scope, noun = 'entries', groups = [], sides = false, tiers = false, years = true, groupLabel = 'Group', facets = [] } = Astro.props;
+const shown = facets.filter((f) => f.options.length > 1);
+const fkeys = shown.map((f) => `x-${f.key}`);
 const id = `lt-${scope}`;
 ---
 <form class="lib-filters list-tools" id={id} data-scope={scope} data-pagefind-ignore onsubmit="return false" aria-label={`Search and sort ${noun}`}>
   <label class="lt-q">Search <input data-f="q" type="search" placeholder={`Search ${noun}`} /></label>
   {sides && <label>Shelf <select data-f="side"><option value="">Both</option><option value="official">Official</option><option value="unofficial">Unofficial and inspired</option></select></label>}
   {groups.length > 1 && <label>{groupLabel} <select data-f="group"><option value="">All</option>{groups.map((g) => <option value={g}>{g}</option>)}</select></label>}
+  {shown.map((f) => <label>{f.label} <select data-f={`x-${f.key}`}><option value="">All</option>{f.options.map((o) => <option value={o}>{o}</option>)}</select></label>)}
   {tiers && <label>Relevance <select data-f="tier"><option value="">Any</option><option value="core">Core</option><option value="related">Related</option><option value="tangential">Tangential</option></select></label>}
   <label>Sort <select data-f="sort"><option value="az">A to Z</option><option value="za">Z to A</option>{years && <><option value="new">Newest first</option><option value="old">Oldest first</option></>}</select></label>
   <span class="small muted lt-count" role="status"></span>
 </form>
-<script is:inline define:vars={{ formId: id }}>
-  (() => {
+<script is:inline define:vars={{ formId: id, fkeys }}>
+  // The list comes after this form in the page, so wait until it has been parsed.
+  const start = () => {
     const form = document.getElementById(formId);
     const root = form && document.getElementById(form.dataset.scope);
     if (!root) return;
@@ -32,14 +38,15 @@ const id = `lt-${scope}`;
     const f = (k) => form.querySelector(`[data-f="${k}"]`);
     const v = (k) => (f(k) ? f(k).value : '');
     const p = new URLSearchParams(location.search);
-    for (const k of ['q', 'side', 'group', 'tier', 'sort']) if (f(k) && p.get(k)) f(k).value = p.get(k);
+    for (const k of ['q', 'side', 'group', 'tier', 'sort', ...fkeys]) if (f(k) && p.get(k)) f(k).value = p.get(k);
     const count = form.querySelector('.lt-count');
     const yr = (x) => Number(x.dataset.year || 0);
     const apply = () => {
       const q = v('q').trim().toLowerCase(), side = v('side'), group = v('group'), tier = v('tier'), sort = v('sort') || 'az';
       let n = 0;
       for (const it of items) {
-        const ok = (!q || it.dataset.text.includes(q)) && (!side || it.dataset.side === side) && (!group || (it.dataset.group || '') === group) && (!tier || (it.dataset.tier || 'core') === tier);
+        const ok = (!q || it.dataset.text.includes(q)) && (!side || it.dataset.side === side) && (!group || (it.dataset.group || '') === group) && (!tier || (it.dataset.tier || 'core') === tier)
+          && fkeys.every((k) => { const want = v(k); return !want || (it.getAttribute(`data-${k}`) || '').split('|').includes(want); });
         it.hidden = !ok; if (ok) n++;
       }
       if (sort === 'az') {
@@ -54,11 +61,12 @@ const id = `lt-${scope}`;
       }
       if (count) count.textContent = n === items.length ? `${n.toLocaleString('en-US')} ${n === 1 ? 'entry' : 'entries'}` : `${n.toLocaleString('en-US')} of ${items.length.toLocaleString('en-US')} shown`;
       const u = new URLSearchParams(location.search);
-      for (const k of ['q', 'side', 'group', 'tier', 'sort']) { const x = k === 'q' ? q : v(k); if (x && !(k === 'sort' && x === 'az')) u.set(k, x); else u.delete(k); }
+      for (const k of ['q', 'side', 'group', 'tier', 'sort', ...fkeys]) { const x = k === 'q' ? q : v(k); if (x && !(k === 'sort' && x === 'az')) u.set(k, x); else u.delete(k); }
       history.replaceState(null, '', `${location.pathname}${u.toString() ? '?' + u : ''}${location.hash}`);
     };
     form.addEventListener('input', apply);
     form.addEventListener('change', apply);
     apply();
-  })();
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
 </script>

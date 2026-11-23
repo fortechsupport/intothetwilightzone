@@ -159,6 +159,8 @@ export async function allPeople(): Promise<Map<string, Person>> {
     f.data.cast.forEach((n) => add(n, { ...base, role: 'Cast' }));
     f.data.created_by.forEach((n) => add(n, { ...base, role: 'Series creator' }));
     f.data.presented_by.forEach((n) => add(n, { ...base, role: 'Host' }));
+    f.data.source_authors.filter((n) => !f.data.writers.includes(n)).forEach((n) => add(n, { ...base, role: 'Source story' }));
+    f.data.composer.forEach((n) => add(n, { ...base, role: 'Composer' }));
     for (const sg of f.data.segments) {
       const sb = { ...base, detail: `Segment: ${sg.title}` };
       sg.writers.forEach((n) => add(n, { ...sb, role: 'Writer' }));

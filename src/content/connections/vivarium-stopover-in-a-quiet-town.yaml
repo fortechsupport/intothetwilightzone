@@ -3,14 +3,20 @@ to: 1959/stopover-in-a-quiet-town
 kind: inspired-by
 confidence: fan-noted
 summary: Vivarium is listed in Adam's research as inspired by "Stopover in a Quiet Town".
-evidence: 'No source found; both trap a couple in an artificial suburb built by an unseen captor. Checked 2026-11-20:
-  Bleeding Cool says Vivarium plays like a feature-length Twilight Zone, but names no episode, and none of the director
-  interviews I saw listed mention Twilight Zone. The ''Stopover in a Quiet Town'' link is unsourced. The film grew out of Finnegan
-  and Garret Shanley''s short Foxes and their thinking about Irish ghost estates.'
+evidence: Both trap a couple in an artificial suburb built by an unseen captor. Director Lorcan Finnegan names The Twilight
+  Zone as a kindred kind of storytelling ("The same with The Twilight Zone, we're talking about stuff with difficult ideas
+  and true genre", ScreenAnarchy, 2020) but names no episode. Bleeding Cool says the film plays like a feature-length Twilight
+  Zone. The film grew out of Finnegan and Garret Shanley's short Foxes. The tie to "Stopover in a Quiet Town" itself comes
+  from fans; no source names it.
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 - title: New Thriller Vivarium Plays Like a Feature-Length Twilight Zone (Bleeding Cool)
   url: https://bleedingcool.com/movies/new-thriller-vivarium-plays-like-a-feature-length-twilight-zone
-last_verified: '2026-11-20'
+- title: 'Vivarium interview: director Lorcan Finnegan (ScreenAnarchy)'
+  url: https://screenanarchy.com/2020/03/vivarium-interview-director-lorcan-finnegan-on-his-thought-provoking-sci-fi-horror-allegory-of-subur.html
+  author: Eric Ortiz Garcia
+  publisher: ScreenAnarchy
+  note: 28 March 2020.
+last_verified: '2026-11-23'
 locked: true

@@ -2,8 +2,12 @@ from: films/shadow-in-the-cloud
 to: 1959/nightmare-at-20-000-feet
 kind: homage
 confidence: fan-noted
-summary: A WWII flight officer aboard a bomber spots a gremlin damaging the plane and no one believes her, reworking
-  the wing-gremlin premise.
+summary: A WWII flight officer aboard a bomber spots a gremlin damaging the plane and no one believes her, reworking the
+  wing-gremlin premise.
+evidence: Reviewers, among them Den of Geek, compare the film with "Nightmare at 20,000 Feet". Director Roseanne Liang traces
+  her gremlin to Second World War pilot folklore and the Private Snafu cartoons (CBR, 2021). She names The Twilight Zone
+  only as a yardstick, telling The Hollywood Reporter she reworked the script so viewers would not think "Ah, I just watched
+  a 55-minute episode of The Twilight Zone." No maker's statement ties the gremlin to the episode.
 sources:
 - title: 'TV Tropes: Referenced By / Nightmare at 20,000 Feet'
   url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959S5E3NightmareAt20000Feet
@@ -13,9 +17,13 @@ sources:
   url: https://www.denofgeek.com/movies/shadow-in-the-cloud-review-chloe-grace-moretz
 - title: Shadow in the Cloud director Roseanne Liang interview (CBR)
   url: https://www.cbr.com/shadow-in-the-cloud-director-roseanne-liang-interview/
-last_verified: '2026-11-20'
+- title: Shadow in the Cloud filmmaker Roseanne Liang sets the record straight (The Hollywood Reporter)
+  url: https://www.hollywoodreporter.com/heat-vision/shadow-in-the-cloud-filmmaker-roseanne-liang-sets-the-record-straight
+  publisher: The Hollywood Reporter
+- title: Shadow in the Cloud's gremlin explained (CBR)
+  url: https://www.cbr.com/shadow-in-the-cloud-gremlin-explained/
+  author: Cynthia Vinney
+  publisher: CBR
+  note: 2 January 2021.
+last_verified: '2026-11-23'
 locked: true
-evidence: 'Checked 2026-11-20: Den of Geek''s review says the film is closer to ''Nightmare at 20,000 Feet'' than
-  to Gremlins, but that is the critic''s comparison. In CBR''s interview, director Roseanne Liang traces her gremlin
-  to WWII pilot folklore and never mentions Twilight Zone. The interview points the other way: the director credits wartime
-  gremlin lore, not Twilight Zone. Consider kind ''reference'' or text along the lines of ''often compared to''.'

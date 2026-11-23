@@ -7,6 +7,7 @@ import Sources from '../../components/Sources.astro';
 import { getCollection } from 'astro:content';
 import { allPeople, formatDate, resolveRef, uniqueRoles, type Person } from '../../lib/data';
 import { slugify } from '../../lib/slug';
+import { filmographyOnly } from '../../lib/filmography';
 
 export async function getStaticPaths() {
   const people = await allPeople();
@@ -20,6 +21,8 @@ const played = await Promise.all((await getCollection('characters'))
   .filter((c) => c.data.played_by.some((n) => slugify(n) === p.slug))
   .sort((a, b) => a.data.name.localeCompare(b.data.name))
   .map(async (c) => ({ c, where: (await Promise.all(c.data.appears_in.map((r) => resolveRef(r)))).filter(Boolean) as { title: string; url: string }[] })));
+const outside = filmographyOnly().get(p.slug) ?? [];
+const filmographyUrl = rec?.links?.wikipedia;
 const roles = uniqueRoles([...p.credits.map((c) => c.role), ...(rec?.roles ?? [])]);
 const byRole = [...new Set(p.credits.map((c) => c.role))].map((role) => ({
   role,
@@ -81,6 +84,17 @@ const jsonld = {
       </ul>
     </section>
   ))}
+  {outside.length > 0 && (
+    <section>
+      <h2>Other films <span class="muted small">({outside.length})</span></h2>
+      <p class="small">{p.name} also wrote or supplied the story for these films. No source ties them to The Twilight Zone or to Rod Serling, so they have no page here; each links to its own source{filmographyUrl && <>, and <a href={filmographyUrl} rel="noopener">Wikipedia's article on {p.name}</a> lists the rest of their work</>}.</p>
+      <ul class="plain">
+        {outside.map((o) => (
+          <li>{o.url ? <a href={o.url} rel="noopener" title={o.source}>{o.title}</a> : o.title} <span class="muted small">{[o.role === 'Source story' ? 'From their story' : undefined, o.year].filter(Boolean).join(' · ')}</span></li>
+        ))}
+      </ul>
+    </section>
+  )}
   <Media recKey={`people/${p.slug}`} skip={["quote"]} />
   {rec && <Sources sources={rec.sources} verified={rec.last_verified} />}
 </Base>

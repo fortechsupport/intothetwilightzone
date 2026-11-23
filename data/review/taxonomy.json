@@ -15057,6 +15057,17 @@
    "official": false
   }
  ],
+ "connections/click--a-kind-of-a-stopwatch": [
+  {
+   "cat": "homages",
+   "sub": "inspired-by",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "Inspired by",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "connections/clockstoppers-a-kind-of-a-stopwatch": [
   {
    "cat": "homages",
@@ -15124,6 +15135,17 @@
   }
  ],
  "connections/dark-hall-mansion-to-serve-man-prints-2016--to-serve-man": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/day-of-the-evil-gun--come-wander-with-me": [
   {
    "cat": "homages",
    "sub": "references",
@@ -15289,6 +15311,17 @@
   }
  ],
  "connections/eureka-syfy-pilot--1959": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/everybody-wants-some--a-stop-at-willoughby": [
   {
    "cat": "homages",
    "sub": "references",
@@ -16663,6 +16696,17 @@
    "official": false
   }
  ],
+ "connections/magic--caesar-and-me": [
+  {
+   "cat": "homages",
+   "sub": "inspired-by",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "Inspired by",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "connections/magic-the-dummy": [
   {
    "cat": "homages",
@@ -16714,6 +16758,17 @@
    "group": null,
    "catTitle": "Legacy",
    "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/marnie--nightmare-as-a-child": [
+  {
+   "cat": "homages",
+   "sub": "inspired-by",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "Inspired by",
    "isNew": false,
    "official": false
   }
@@ -17159,6 +17214,17 @@
   }
  ],
  "connections/philip-k-dicks-electric-dreams-the-commuter--twilight-zone-1959": [
+  {
+   "cat": "homages",
+   "sub": "inspired-by",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "Inspired by",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/planet-of-the-apes--i-shot-an-arrow-into-the-air": [
   {
    "cat": "homages",
    "sub": "inspired-by",
@@ -18071,6 +18137,17 @@
    "official": false
   }
  ],
+ "connections/the-brown-bunny--come-wander-with-me": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "connections/the-charmings-the-man-who-came-to-dinner--twilight-zone-1959": [
   {
    "cat": "homages",
@@ -18511,6 +18588,17 @@
    "official": false
   }
  ],
+ "connections/the-rewrite--walking-distance": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "connections/the-saviors--twilight-zone-1959": [
   {
    "cat": "homages",
@@ -18529,6 +18617,17 @@
    "group": null,
    "catTitle": "Legacy",
    "subTitle": "Homages",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/the-simpsons-barts-comet--the-monsters-are-due-on-maple-street": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
    "isNew": false,
    "official": false
   }
@@ -19303,6 +19402,17 @@
    "official": false
   }
  ],
+ "connections/truth-or-consequences-nm--a-penny-for-your-thoughts": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "connections/twilight-zone-golden-earring--twilight-zone-1959": [
   {
    "cat": "homages",
@@ -19744,6 +19854,17 @@
   }
  ],
  "connections/what-women-want-a-penny-for-your-thoughts": [
+  {
+   "cat": "homages",
+   "sub": "inspired-by",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "Inspired by",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/wild-tales--twilight-zone-1959": [
   {
    "cat": "homages",
    "sub": "inspired-by",
@@ -28114,7 +28235,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -28165,7 +28286,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -28236,7 +28357,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -28245,7 +28366,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Television and other",
+   "group": "Written by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -28256,7 +28377,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Television and other",
+   "group": "From his work",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -28292,6 +28413,15 @@
    "subTitle": "Rod Serling's series",
    "isNew": false,
    "official": true
+  },
+  {
+   "cat": "movies",
+   "sub": "rod-serling-films",
+   "group": "TV plays of 70 minutes or more",
+   "catTitle": "Movies",
+   "subTitle": "Rod Serling's films",
+   "isNew": false,
+   "official": true
   }
  ],
  "films/a-walk-in-the-night-1954-teleplay": [
@@ -28320,7 +28450,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -28351,7 +28481,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -28526,7 +28656,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -28546,7 +28676,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Feature films",
+   "group": "Written by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -28579,7 +28709,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -28690,7 +28820,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -28752,7 +28882,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -28786,6 +28916,15 @@
    "subTitle": "Rod Serling's series",
    "isNew": false,
    "official": true
+  },
+  {
+   "cat": "movies",
+   "sub": "rod-serling-films",
+   "group": "TV plays of 70 minutes or more",
+   "catTitle": "Movies",
+   "subTitle": "Rod Serling's films",
+   "isNew": false,
+   "official": true
   }
  ],
  "films/bosom-buddies-only-the-lonely": [
@@ -28814,7 +28953,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -28861,31 +29000,31 @@
  ],
  "films/bust-a-move-young-mc": [
   {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Music videos",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
+   "cat": "music",
+   "sub": "music-videos",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Music videos",
+   "isNew": true,
    "official": false
   }
  ],
  "films/carol-for-another-christmas": [
   {
    "cat": "movies",
-   "sub": "tv-films",
-   "group": null,
+   "sub": "rod-serling-films",
+   "group": "Written by Serling",
    "catTitle": "Movies",
-   "subTitle": "Television films",
+   "subTitle": "Rod Serling's films",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "films/certain-honorable-men": [
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Television and other",
+   "group": "Written by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -28898,7 +29037,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -28909,7 +29048,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -28920,7 +29059,18 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/click": [
+  {
+   "cat": "movies",
+   "sub": "linked-films",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -28931,7 +29081,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -28942,7 +29092,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -28973,7 +29123,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29004,7 +29154,18 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/day-of-the-evil-gun": [
+  {
+   "cat": "movies",
+   "sub": "linked-films",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29015,7 +29176,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29046,7 +29207,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29068,7 +29229,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29076,21 +29237,12 @@
  "films/does-the-name-grimsby-do-anything-to-you": [
   {
    "cat": "movies",
-   "sub": "rod-serling-films",
-   "group": "Television and other",
+   "sub": "unmade-projects",
+   "group": "Rod Serling's unproduced scripts",
    "catTitle": "Movies",
-   "subTitle": "Rod Serling's films",
-   "isNew": false,
+   "subTitle": "Unmade and lost projects",
+   "isNew": true,
    "official": true
-  },
-  {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Unproduced projects",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
-   "official": false
   }
  ],
  "films/dog-city-rocketship-k-9": [
@@ -29119,7 +29271,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29127,21 +29279,21 @@
  "films/duel-1971": [
   {
    "cat": "movies",
-   "sub": "tv-films",
+   "sub": "tz-makers",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Television films",
-   "isNew": false,
+   "subTitle": "Films by Twilight Zone makers",
+   "isNew": true,
    "official": false
   }
  ],
  "films/duel": [
   {
    "cat": "movies",
-   "sub": "tv-films",
+   "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Television films",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29172,7 +29324,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29192,7 +29344,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Television and other",
+   "group": "Narrated by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -29201,7 +29353,7 @@
   {
    "cat": "movies",
    "sub": "documentaries",
-   "group": null,
+   "group": "Narrated by Rod Serling",
    "catTitle": "Movies",
    "subTitle": "Documentaries",
    "isNew": false,
@@ -29224,6 +29376,17 @@
    "group": "Eureka",
    "catTitle": "Television",
    "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/everybody-wants-some": [
+  {
+   "cat": "movies",
+   "sub": "linked-films",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29365,7 +29528,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29407,7 +29570,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29418,7 +29581,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29449,7 +29612,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29461,6 +29624,15 @@
    "group": "Plays for other series",
    "catTitle": "Television",
    "subTitle": "Rod Serling's series",
+   "isNew": false,
+   "official": true
+  },
+  {
+   "cat": "movies",
+   "sub": "rod-serling-films",
+   "group": "TV plays of 70 minutes or more",
+   "catTitle": "Movies",
+   "subTitle": "Rod Serling's films",
    "isNew": false,
    "official": true
   }
@@ -29731,7 +29903,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29793,7 +29965,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29895,7 +30067,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -29946,7 +30118,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30068,7 +30240,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30128,7 +30300,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Television and other",
+   "group": "Narrated by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -30137,7 +30309,7 @@
   {
    "cat": "movies",
    "sub": "documentaries",
-   "group": null,
+   "group": "Narrated by Rod Serling",
    "catTitle": "Movies",
    "subTitle": "Documentaries",
    "isNew": false,
@@ -30148,7 +30320,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Television and other",
+   "group": "Narrated by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -30157,7 +30329,7 @@
   {
    "cat": "movies",
    "sub": "documentaries",
-   "group": null,
+   "group": "Narrated by Rod Serling",
    "catTitle": "Movies",
    "subTitle": "Documentaries",
    "isNew": false,
@@ -30170,7 +30342,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30184,13 +30356,22 @@
    "subTitle": "Rod Serling's series",
    "isNew": false,
    "official": true
+  },
+  {
+   "cat": "movies",
+   "sub": "rod-serling-films",
+   "group": "TV plays of 70 minutes or more",
+   "catTitle": "Movies",
+   "subTitle": "Rod Serling's films",
+   "isNew": false,
+   "official": true
   }
  ],
  "films/in-the-presence-of-mine-enemies-1997": [
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Television and other",
+   "group": "From his work",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -30221,7 +30402,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Feature films",
+   "group": "From his work",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -30272,12 +30453,12 @@
  ],
  "films/inside-out-anthrax": [
   {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Music videos",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
+   "cat": "music",
+   "sub": "music-videos",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Music videos",
+   "isNew": true,
    "official": false
   }
  ],
@@ -30320,7 +30501,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30328,21 +30509,12 @@
  "films/jeopardy-run": [
   {
    "cat": "movies",
-   "sub": "rod-serling-films",
-   "group": "Television and other",
+   "sub": "unmade-projects",
+   "group": "Rod Serling's unproduced scripts",
    "catTitle": "Movies",
-   "subTitle": "Rod Serling's films",
-   "isNew": false,
+   "subTitle": "Unmade and lost projects",
+   "isNew": true,
    "official": true
-  },
-  {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Unproduced projects",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
-   "official": false
   }
  ],
  "films/johnny-bravo-johnny-real-good": [
@@ -30451,7 +30623,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30533,7 +30705,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30564,7 +30736,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30575,7 +30747,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30597,19 +30769,19 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
  ],
  "films/life-snot": [
   {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Music videos",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
+   "cat": "music",
+   "sub": "music-videos",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Music videos",
+   "isNew": true,
    "official": false
   }
  ],
@@ -30630,7 +30802,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30641,7 +30813,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30683,7 +30855,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30694,7 +30866,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30705,7 +30877,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30716,7 +30888,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30737,6 +30909,17 @@
    "group": "Hallmark Hall of Fame",
    "catTitle": "Television",
    "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/marnie": [
+  {
+   "cat": "movies",
+   "sub": "linked-films",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30778,7 +30961,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30789,7 +30972,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30820,7 +31003,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30831,7 +31014,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30842,7 +31025,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30853,7 +31036,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30864,7 +31047,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30875,7 +31058,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -30895,7 +31078,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Television and other",
+   "group": "Narrated by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -30904,7 +31087,7 @@
   {
    "cat": "movies",
    "sub": "documentaries",
-   "group": null,
+   "group": "Narrated by Rod Serling",
    "catTitle": "Movies",
    "subTitle": "Documentaries",
    "isNew": false,
@@ -30968,7 +31151,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -31036,10 +31219,10 @@
  "films/muppet-meeting-films-the-safety-zone": [
   {
    "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Short films",
+   "sub": "linked-films",
+   "group": null,
    "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -31219,7 +31402,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Night Gallery",
+   "group": "Written by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -31755,21 +31938,12 @@
  "films/no-christmas-this-year": [
   {
    "cat": "movies",
-   "sub": "rod-serling-films",
-   "group": "Television and other",
+   "sub": "unmade-projects",
+   "group": "Rod Serling's unproduced scripts",
    "catTitle": "Movies",
-   "subTitle": "Rod Serling's films",
-   "isNew": false,
+   "subTitle": "Unmade and lost projects",
+   "isNew": true,
    "official": true
-  },
-  {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Unproduced projects",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
-   "official": false
   }
  ],
  "films/no-gods-to-serve-1952-teleplay": [
@@ -31829,7 +32003,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -31851,7 +32025,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -31927,6 +32101,15 @@
    "subTitle": "Rod Serling's series",
    "isNew": false,
    "official": true
+  },
+  {
+   "cat": "movies",
+   "sub": "rod-serling-films",
+   "group": "TV plays of 70 minutes or more",
+   "catTitle": "Movies",
+   "subTitle": "Rod Serling's films",
+   "isNew": false,
+   "official": true
   }
  ],
  "films/patterns-1955-teleplay": [
@@ -31944,7 +32127,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Feature films",
+   "group": "Written by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -31957,7 +32140,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -31986,7 +32169,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Feature films",
+   "group": "Narrated by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -32016,12 +32199,12 @@
  "films/planet-of-the-apes": [
   {
    "cat": "movies",
-   "sub": "linked-films",
-   "group": null,
+   "sub": "rod-serling-films",
+   "group": "Written by Serling",
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Rod Serling's films",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "films/pluribus": [
@@ -32041,7 +32224,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -32052,7 +32235,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -32143,7 +32326,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -32151,10 +32334,10 @@
  "films/reap-what-you-sow": [
   {
    "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Short films",
+   "sub": "linked-films",
+   "group": null,
    "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -32188,13 +32371,22 @@
    "subTitle": "Rod Serling's series",
    "isNew": false,
    "official": true
+  },
+  {
+   "cat": "movies",
+   "sub": "rod-serling-films",
+   "group": "TV plays of 70 minutes or more",
+   "catTitle": "Movies",
+   "subTitle": "Rod Serling's films",
+   "isNew": false,
+   "official": true
   }
  ],
  "films/requiem-for-a-heavyweight": [
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Feature films",
+   "group": "Written by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -32235,17 +32427,8 @@
  "films/rod-serling-beyond-the-twilight-zone": [
   {
    "cat": "movies",
-   "sub": "twilight-zone-films",
-   "group": null,
-   "catTitle": "Movies",
-   "subTitle": "Twilight Zone films",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "movies",
    "sub": "documentaries",
-   "group": null,
+   "group": "About Rod Serling and the show",
    "catTitle": "Movies",
    "subTitle": "Documentaries",
    "isNew": false,
@@ -32256,7 +32439,7 @@
   {
    "cat": "movies",
    "sub": "documentaries",
-   "group": null,
+   "group": "About Rod Serling and the show",
    "catTitle": "Movies",
    "subTitle": "Documentaries",
    "isNew": false,
@@ -32280,7 +32463,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -32329,7 +32512,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Feature films",
+   "group": "Written by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -32569,12 +32752,12 @@
  ],
  "films/see-you-there-psychic-ills": [
   {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Music videos",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
+   "cat": "music",
+   "sub": "music-videos",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Music videos",
+   "isNew": true,
    "official": false
   }
  ],
@@ -32622,7 +32805,7 @@
   {
    "cat": "movies",
    "sub": "documentaries",
-   "group": null,
+   "group": "About Rod Serling and the show",
    "catTitle": "Movies",
    "subTitle": "Documentaries",
    "isNew": false,
@@ -32673,7 +32856,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Feature films",
+   "group": "Written by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -32706,7 +32889,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -32717,19 +32900,19 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
  ],
  "films/show-us-your-mind-summer-cannibals": [
   {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Music videos",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
+   "cat": "music",
+   "sub": "music-videos",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Music videos",
+   "isNew": true,
    "official": false
   }
  ],
@@ -32739,7 +32922,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -32750,7 +32933,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -32761,7 +32944,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -32792,18 +32975,27 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
  ],
  "films/spongebob-squarepants-the-tidal-zone-recurring-gag": [
   {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Specials",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "SpongeBob SquarePants",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
    "isNew": false,
    "official": false
   }
@@ -32874,7 +33066,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -32905,7 +33097,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -32987,12 +33179,12 @@
  ],
  "films/talking-to-myself-the-linda-lindas": [
   {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Music videos",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
+   "cat": "music",
+   "sub": "music-videos",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Music videos",
+   "isNew": true,
    "official": false
   }
  ],
@@ -33002,7 +33194,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33013,7 +33205,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33135,7 +33327,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33146,7 +33338,18 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/the-brown-bunny": [
+  {
+   "cat": "movies",
+   "sub": "linked-films",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33228,7 +33431,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33239,7 +33442,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33251,6 +33454,15 @@
    "group": "Plays for other series",
    "catTitle": "Television",
    "subTitle": "Rod Serling's series",
+   "isNew": false,
+   "official": true
+  },
+  {
+   "cat": "movies",
+   "sub": "rod-serling-films",
+   "group": "TV plays of 70 minutes or more",
+   "catTitle": "Movies",
+   "subTitle": "Rod Serling's films",
    "isNew": false,
    "official": true
   }
@@ -33281,7 +33493,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33292,7 +33504,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33304,6 +33516,15 @@
    "group": "Plays for other series",
    "catTitle": "Television",
    "subTitle": "Rod Serling's series",
+   "isNew": false,
+   "official": true
+  },
+  {
+   "cat": "movies",
+   "sub": "rod-serling-films",
+   "group": "TV plays of 70 minutes or more",
+   "catTitle": "Movies",
+   "subTitle": "Rod Serling's films",
    "isNew": false,
    "official": true
   }
@@ -33394,7 +33615,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Television and other",
+   "group": "Written by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -33404,10 +33625,10 @@
  "films/the-electric-grandmother": [
   {
    "cat": "movies",
-   "sub": "tv-films",
+   "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Television films",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": true
   }
@@ -33418,7 +33639,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33509,7 +33730,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33520,7 +33741,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33618,13 +33839,13 @@
  ],
  "films/the-happy-place": [
   {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Unproduced projects",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
-   "official": false
+   "cat": "series",
+   "sub": "pilots-unmade",
+   "group": null,
+   "catTitle": "Television",
+   "subTitle": "Pilots and unmade projects",
+   "isNew": true,
+   "official": true
   }
  ],
  "films/the-hate-syndrome-1966-teleplay": [
@@ -33653,7 +33874,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33681,10 +33902,10 @@
  "films/the-homecoming-a-christmas-story": [
   {
    "cat": "movies",
-   "sub": "tv-films",
+   "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Television films",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33695,7 +33916,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33726,7 +33947,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33737,7 +33958,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33768,7 +33989,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33779,7 +34000,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33810,7 +34031,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33821,7 +34042,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33843,7 +34064,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33872,7 +34093,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Feature films",
+   "group": "Written by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -33905,7 +34126,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33916,7 +34137,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33927,7 +34148,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33955,10 +34176,10 @@
  "films/the-mysterious-disappearance-of-m-m-bayliss": [
   {
    "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Short films",
+   "sub": "linked-films",
+   "group": null,
    "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -33969,7 +34190,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -34048,10 +34269,10 @@
  "films/the-night-stalker-1972": [
   {
    "cat": "movies",
-   "sub": "tv-films",
+   "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Television films",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -34080,7 +34301,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Television and other",
+   "group": "From his work",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -34093,7 +34314,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -34113,7 +34334,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Television and other",
+   "group": "Narrated by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -34122,7 +34343,7 @@
   {
    "cat": "movies",
    "sub": "documentaries",
-   "group": null,
+   "group": "Narrated by Rod Serling",
    "catTitle": "Movies",
    "subTitle": "Documentaries",
    "isNew": false,
@@ -34164,7 +34385,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Feature films",
+   "group": "From his work",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -34178,6 +34399,15 @@
    "group": "Plays for other series",
    "catTitle": "Television",
    "subTitle": "Rod Serling's series",
+   "isNew": false,
+   "official": true
+  },
+  {
+   "cat": "movies",
+   "sub": "rod-serling-films",
+   "group": "TV plays of 70 minutes or more",
+   "catTitle": "Movies",
+   "subTitle": "Rod Serling's films",
    "isNew": false,
    "official": true
   }
@@ -34213,11 +34443,22 @@
    "official": false
   }
  ],
+ "films/the-rewrite": [
+  {
+   "cat": "movies",
+   "sub": "linked-films",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Films linked to the show",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/the-salamander": [
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Feature films",
+   "group": "From his work",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -34230,7 +34471,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -34261,7 +34502,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -34329,10 +34570,10 @@
  "films/the-simpsons-disney-short-yellow-mirror": [
   {
    "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Short films",
+   "sub": "linked-films",
+   "group": null,
    "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -34714,7 +34955,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -34725,7 +34966,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -34747,7 +34988,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -34789,7 +35030,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -34811,7 +35052,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -34822,7 +35063,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -34860,7 +35101,7 @@
   {
    "cat": "movies",
    "sub": "documentaries",
-   "group": null,
+   "group": "About Rod Serling and the show",
    "catTitle": "Movies",
    "subTitle": "Documentaries",
    "isNew": false,
@@ -34885,6 +35126,15 @@
    "group": null,
    "catTitle": "Movies",
    "subTitle": "Twilight Zone films",
+   "isNew": false,
+   "official": true
+  },
+  {
+   "cat": "movies",
+   "sub": "rod-serling-films",
+   "group": "From his work",
+   "catTitle": "Movies",
+   "subTitle": "Rod Serling's films",
    "isNew": false,
    "official": true
   }
@@ -34915,7 +35165,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Television and other",
+   "group": "Narrated by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -34924,7 +35174,7 @@
   {
    "cat": "movies",
    "sub": "documentaries",
-   "group": null,
+   "group": "Narrated by Rod Serling",
    "catTitle": "Movies",
    "subTitle": "Documentaries",
    "isNew": false,
@@ -34937,7 +35187,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -34951,26 +35201,26 @@
    "subTitle": "Rod Serling's series",
    "isNew": false,
    "official": true
+  },
+  {
+   "cat": "movies",
+   "sub": "rod-serling-films",
+   "group": "TV plays of 70 minutes or more",
+   "catTitle": "Movies",
+   "subTitle": "Rod Serling's films",
+   "isNew": false,
+   "official": true
   }
  ],
  "films/the-view-of-whatever": [
   {
    "cat": "movies",
-   "sub": "rod-serling-films",
-   "group": "Television and other",
+   "sub": "unmade-projects",
+   "group": "Rod Serling's unproduced scripts",
    "catTitle": "Movies",
-   "subTitle": "Rod Serling's films",
-   "isNew": false,
+   "subTitle": "Unmade and lost projects",
+   "isNew": true,
    "official": true
-  },
-  {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Unproduced projects",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
-   "official": false
   }
  ],
  "films/the-village": [
@@ -34979,7 +35229,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -35090,7 +35340,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Feature films",
+   "group": "Written by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -35154,7 +35404,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -35163,20 +35413,11 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Television and other",
+   "group": "From his work",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
    "official": true
-  },
-  {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Pilots",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
-   "official": false
   }
  ],
  "films/tiny-toon-adventures-night-ghoulery": [
@@ -35262,10 +35503,10 @@
  "films/tower-of-terror-1997": [
   {
    "cat": "movies",
-   "sub": "tv-films",
+   "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Television films",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -35276,7 +35517,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -35287,7 +35528,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -35298,7 +35539,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -35306,10 +35547,21 @@
  "films/trilogy-of-terror": [
   {
    "cat": "movies",
-   "sub": "tv-films",
+   "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Television films",
+   "subTitle": "Films linked to the show",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/truth-or-consequences-nm": [
+  {
+   "cat": "movies",
+   "sub": "linked-films",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -35347,45 +35599,45 @@
  ],
  "films/twilight-zone-golden-earring": [
   {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Music videos",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
+   "cat": "music",
+   "sub": "music-videos",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Music videos",
+   "isNew": true,
    "official": false
   }
  ],
  "films/twilight-zone-holiday-marathons": [
   {
-   "cat": "movies",
-   "sub": "twilight-zone-films",
+   "cat": "events",
+   "sub": "broadcasts-marathons",
    "group": null,
-   "catTitle": "Movies",
-   "subTitle": "Twilight Zone films",
+   "catTitle": "Events",
+   "subTitle": "Screenings and marathons",
    "isNew": false,
    "official": true
   }
  ],
  "films/twilight-zone-opening-monologues-supercut": [
   {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Short films",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
+   "cat": "homages",
+   "sub": "fan-made",
+   "group": "Fan edits and supercuts",
+   "catTitle": "Legacy",
+   "subTitle": "Fan-made",
+   "isNew": true,
    "official": false
   }
  ],
  "films/twilight-zone-planet-of-the-apes-fan-edit": [
   {
-   "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Short films",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
+   "cat": "homages",
+   "sub": "fan-made",
+   "group": "Fan edits and supercuts",
+   "catTitle": "Legacy",
+   "subTitle": "Fan-made",
+   "isNew": true,
    "official": false
   }
  ],
@@ -35423,19 +35675,10 @@
  "films/twilight-zone-warner-bros-feature-project": [
   {
    "cat": "movies",
-   "sub": "shorts-and-other",
-   "group": "Unproduced projects",
-   "catTitle": "Movies",
-   "subTitle": "Shorts, pilots and other screen works",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "movies",
    "sub": "unmade-projects",
-   "group": null,
+   "group": "Twilight Zone films",
    "catTitle": "Movies",
-   "subTitle": "Unmade projects",
+   "subTitle": "Unmade and lost projects",
    "isNew": true,
    "official": true
   }
@@ -35464,7 +35707,7 @@
   {
    "cat": "movies",
    "sub": "rod-serling-films",
-   "group": "Television and other",
+   "group": "Narrated by Serling",
    "catTitle": "Movies",
    "subTitle": "Rod Serling's films",
    "isNew": false,
@@ -35473,7 +35716,7 @@
   {
    "cat": "movies",
    "sub": "documentaries",
-   "group": null,
+   "group": "Narrated by Rod Serling",
    "catTitle": "Movies",
    "subTitle": "Documentaries",
    "isNew": false,
@@ -35486,7 +35729,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -35497,7 +35740,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -35519,7 +35762,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -35530,7 +35773,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -35541,7 +35784,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -35552,7 +35795,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -35583,7 +35826,7 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
@@ -35676,7 +35919,18 @@
    "sub": "linked-films",
    "group": null,
    "catTitle": "Movies",
-   "subTitle": "Films linked to an episode",
+   "subTitle": "Films linked to the show",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/wild-tales": [
+  {
+   "cat": "movies",
+   "sub": "linked-films",
+   "group": null,
+   "catTitle": "Movies",
+   "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
   }
