@@ -50,7 +50,7 @@ thin pages.
 
 ## Open (see the plan, section 9)
 
-- What counts as feature-length
+- ~~What counts as feature-length~~ Answered by Adam, 2026-11-23: 70 minutes or longer (docs/plans/research-movies.md, Q1).
 - Whether anthology pages list only the plays tied to Serling or TZ
 - Pages for shows with one homage
 - Which countries the streaming links cover

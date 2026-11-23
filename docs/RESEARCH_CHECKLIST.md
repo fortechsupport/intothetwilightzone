@@ -79,7 +79,7 @@ first because everything else links to it.
 ## 1. Watch
 
 ### TV series
-- [x] Content plan approved (2026-11-21, docs/plans/research-television.md; now one category, Television) · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved (2026-11-21, docs/plans/research-television.md; now one category, Television) · [x] Researched (rounds 1–4, PRs #33–36) · [x] Records decided (2026-11-23, PR #37) · [x] Pages built (PRs #29, #32, #38)
 
 | Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|
@@ -96,7 +96,7 @@ first because everything else links to it.
 **Likely missing:** The Loner, The New People and The Liar's Club as full series hubs; every country's broadcaster and title; syndication packages; current streaming and broadcast homes for each series (Where to watch).
 
 ### TV episodes
-- [x] Content plan approved (2026-11-21, docs/plans/research-television.md; now one category, Television) · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved (2026-11-21, docs/plans/research-television.md; now one category, Television) · [x] Researched (rounds 1–4, PRs #33–36) · [x] Records decided (2026-11-23, PR #37) · [x] Pages built (PRs #29, #32, #38)
 
 | Group | Records | Depth |
 |---|---:|---|
@@ -111,7 +111,7 @@ first because everything else links to it.
 **Likely missing:** Serling's live-TV plays (Kraft Television Theatre, Studio One, Playhouse 90, U.S. Steel Hour and others), his episodes for other series, and pages for each Night Gallery segment so paintings, characters and people can link to them.
 
 ### Movies
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved (2026-11-23, docs/plans/research-movies.md) · [ ] Researched · [ ] Records decided · [ ] Pages built
 
 | Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|
