@@ -163,6 +163,9 @@ decade and type filter. The shelves are:
 | Q4 | Films that only mention or quote TZ in passing: keep them in Movies? | **Yes.** They go on shelf D, marked "Reference". |
 | Q5 | Documentaries Serling narrated (In Search of Ancient Astronauts): where do they go? | **Standing rule from Adam: anything Rod Serling touched, in any way (writing, creating, acting, voicing, narrating, hosting), is included, without asking.** Each one's home is Rod Serling's films, filed by his role. A documentary he narrated is also listed under Documentaries, because it is one. |
 
+**Adam, 2026-11-23 22:18 UTC (decision 0005):** no film-by-film review. Movies records are included as they are added,
+each with sources; fan-noted links are verified where possible; visitors' thumbs up and down flag doubtful items to Adam.
+
 ## 9. Steps (one pull request each)
 
 1. **Structure:**
