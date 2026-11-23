@@ -24,6 +24,10 @@ sources:
   url: https://en.wikipedia.org/wiki/Rod_Serling
 - title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
   url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+- title: 'AFI Catalog of Feature Films: Incident in an Alley (1962)'
+  url: 'https://catalog.afi.com/Catalog/moviedetails/20280'
+  publisher: 'American Film Institute'
+  note: 'Based on the teleplay "Line of Duty" by Rod Serling on The U.S. Steel Hour; New York opening 15 May 1962. Its history names Harold Medford and John C. Higgins as script writers, which differs from the writers listed here from Wikipedia.'
 research_confidence: high
 relevance: related
 last_verified: '2026-11-23'
@@ -32,3 +36,11 @@ serling_role: from-his-work
 source_title: "Incident in an Alley"
 source_authors:
 - Rod Serling
+media:
+- type: 'document'
+  subtype: 'catalog-entry'
+  title: 'AFI Catalog of Feature Films entry'
+  url: 'https://catalog.afi.com/Catalog/moviedetails/20280'
+  host: 'American Film Institute'
+  rights: 'licensed'
+  note: 'Production history, credits and release details compiled by the AFI.'

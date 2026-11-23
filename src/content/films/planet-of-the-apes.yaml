@@ -30,6 +30,10 @@ sources:
   url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
 - title: 'Encyclopaedia Britannica: Rod Serling'
   url: https://www.britannica.com/biography/Rod-Serling
+- title: 'AFI Catalog of Feature Films: Planet of the Apes (1968)'
+  url: 'https://catalog.afi.com/Catalog/moviedetails/22314'
+  publisher: 'American Film Institute'
+  note: 'An Arthur P. Jacobs production with Twentieth Century-Fox, released 8 February 1968. Its history records that Rod Serling had completed the screenplay by November 1964 (citing The New York Times, 8 November 1964).'
 research_confidence: high
 relevance: related
 ids:
@@ -41,3 +45,18 @@ locked: true
 serling_role: written
 source_authors:
 - Pierre Boulle
+media:
+- type: 'document'
+  subtype: 'catalog-entry'
+  title: 'AFI Catalog of Feature Films entry'
+  url: 'https://catalog.afi.com/Catalog/moviedetails/22314'
+  host: 'American Film Institute'
+  rights: 'licensed'
+  note: 'Production history, credits and release details compiled by the AFI.'
+- type: 'video'
+  subtype: 'trailer'
+  title: 'Trailers From Hell: John Landis on the Planet of the Apes trailer'
+  url: 'https://trailersfromhell.com/planet-apes/'
+  creator: 'John Landis (commentary)'
+  host: 'Trailers From Hell'
+  rights: 'link-only'

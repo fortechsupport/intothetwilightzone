@@ -27,6 +27,10 @@ sources:
   url: https://en.wikipedia.org/wiki/Rod_Serling
 - title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
   url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+- title: 'AFI Catalog of Feature Films: Seven Days in May (1964)'
+  url: 'https://catalog.afi.com/Catalog/moviedetails/23341'
+  publisher: 'American Film Institute'
+  note: 'Screenplay by Rod Serling; director John Frankenheimer; producer Edward Lewis; Seven Arts and Joel Productions, released by Paramount. AFI gives 19 February 1964 and 120 minutes; Warner Bros. gives the original theatrical release as 12 February 1964.'
 research_confidence: high
 relevance: related
 ids:
@@ -37,3 +41,33 @@ serling_role: written
 source_authors:
 - Fletcher Knebel
 - Charles W. Bailey II
+media:
+- type: 'document'
+  subtype: 'catalog-entry'
+  title: 'AFI Catalog of Feature Films entry'
+  url: 'https://catalog.afi.com/Catalog/moviedetails/23341'
+  host: 'American Film Institute'
+  rights: 'licensed'
+  note: 'Production history, credits and release details compiled by the AFI.'
+- type: 'video'
+  subtype: 'trailer'
+  title: 'Trailers From Hell: Michael Peyser on the Seven Days in May trailer'
+  url: 'https://trailersfromhell.com/seven-days-may/'
+  creator: 'Michael Peyser (commentary)'
+  host: 'Trailers From Hell'
+  rights: 'link-only'
+- type: 'review'
+  title: 'CineSavant: Seven Days in May (Warner Archive Blu-ray)'
+  url: 'https://trailersfromhell.com/cinesavant/seven-days-in-may/'
+  creator: 'Glenn Erickson'
+  host: 'CineSavant (Trailers From Hell)'
+  date: '2017-05-03'
+  rights: 'link-only'
+  note: 'A review of the Warner Archive Blu-ray, whose extras include a commentary by John Frankenheimer and the trailer.'
+- type: 'link'
+  subtype: 'official-page'
+  title: 'Seven Days in May at Warner Bros.'
+  url: 'https://www.warnerbros.com/movies/seven-days-may'
+  host: 'Warner Bros.'
+  rights: 'licensed'
+  note: 'The rights holder''s page for the film, which says it is available on Blu-ray, DVD and digital.'

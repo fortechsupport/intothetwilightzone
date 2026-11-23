@@ -2,8 +2,10 @@ title: 'Rod Serling: Beyond the Twilight Zone'
 kind: documentary
 release_date: '2000-01-25'
 parent_series: E! True Hollywood Story
-summary: An episode of E!'s celebrity biography series E! True Hollywood Story devoted to Rod Serling's life and career,
-  from live television through The Twilight Zone, Night Gallery and his death in 1975.
+summary: An episode of E!'s celebrity biography series E! True Hollywood Story (season 4, episode 5) devoted to Rod
+  Serling's life and career, from his war service and live television through The Twilight Zone, Night Gallery and his
+  death in 1975. Listings say it includes interviews with Serling's family and friends and with people who worked with
+  him, among them William Shatner and George Takei. Listings differ on the first air date (25 or 26 January 2000).
 ids:
   imdb: tt1331568
 relevance: core
@@ -13,5 +15,13 @@ sources:
   url: https://www.imdb.com/title/tt1331568
 - title: Moviefone (TMDB data) - The Twilight Zone specials list
   url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
-last_verified: '2026-11-20'
+- title: 'E! True Hollywood Story, season 4, episode 5: Rod Serling: Beyond the Twilight Zone (Yidio)'
+  url: https://www.yidio.com/show/e-true-hollywood-story/season-4/episode-5/links.html
+  publisher: Yidio
+  note: Listing gives season 4, episode 5, channel E!, first aired 26 January 2000, and names Shatner and Takei among those interviewed.
+- title: Rod Serling Beyond The Twilight Zone (TheTVDB)
+  url: https://thetvdb.com/series/the-twilight-zone/episodes/5375543
+  publisher: TheTVDB
+  note: Filed as a special of The Twilight Zone; describes it as an E! True Hollywood Story episode, aired 25 January 2000.
+last_verified: '2026-11-23'
 locked: true

@@ -23,6 +23,10 @@ sources:
   url: https://en.wikipedia.org/wiki/Rod_Serling
 - title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
   url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
+- title: 'AFI Catalog of Feature Films: Assault on a Queen (1966)'
+  url: 'https://catalog.afi.com/Catalog/moviedetails/22720'
+  publisher: 'American Film Institute'
+  note: 'Screenplay by Rod Serling; director Jack Donohue; producer William Goetz; Seven Arts and Sinatra Enterprises, released by Paramount; Philadelphia opening 15 June 1966.'
 research_confidence: high
 relevance: related
 ids:
@@ -32,3 +36,11 @@ locked: true
 serling_role: written
 source_authors:
 - Jack Finney
+media:
+- type: 'document'
+  subtype: 'catalog-entry'
+  title: 'AFI Catalog of Feature Films entry'
+  url: 'https://catalog.afi.com/Catalog/moviedetails/22720'
+  host: 'American Film Institute'
+  rights: 'licensed'
+  note: 'Production history, credits and release details compiled by the AFI.'

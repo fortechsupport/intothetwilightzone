@@ -302,7 +302,7 @@ media:
   title: 'Trailers From Hell commentary on the Twilight Zone: The Movie trailer'
   url: https://trailersfromhell.com/twilight-zone-the-movie/
   host: Trailers From Hell
-  rights: licensed
+  rights: 'link-only'
 - type: document
   subtype: catalog-entry
   title: AFI Catalog of Feature Films entry

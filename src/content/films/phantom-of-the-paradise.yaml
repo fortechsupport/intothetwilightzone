@@ -21,8 +21,20 @@ sources:
   url: https://en.wikipedia.org/wiki/Phantom_of_the_Paradise
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
+- title: 'AFI Catalog of Feature Films: Phantom of the Paradise (1974)'
+  url: 'https://catalog.afi.com/Film/67623-PHANTOM-OFTHEPARADISE'
+  publisher: 'American Film Institute'
+  note: 'Written and directed by Brian De Palma; Harbor Productions, released by Twentieth Century-Fox on 1 November 1974. The entry does not list a narrator, so Serling''s uncredited narration rests on the other sources.'
 research_confidence: high
 relevance: related
 last_verified: '2026-11-23'
 locked: true
 serling_role: narrated
+media:
+- type: 'document'
+  subtype: 'catalog-entry'
+  title: 'AFI Catalog of Feature Films entry'
+  url: 'https://catalog.afi.com/Film/67623-PHANTOM-OFTHEPARADISE'
+  host: 'American Film Institute'
+  rights: 'licensed'
+  note: 'Production history, credits and release details compiled by the AFI.'

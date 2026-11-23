@@ -16,7 +16,16 @@ sources:
   url: https://www.flicks.com.au/features/sight-sound-and-mind-the-twilight-zone-on-the-big-screen/
 research_confidence: high
 relevance: related
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true
 tags:
 - tz-makers
+media:
+- type: 'video'
+  subtype: 'trailer'
+  title: 'Trailers From Hell: Josh Olson on the Duel trailer'
+  url: 'https://trailersfromhell.com/duel/'
+  creator: 'Josh Olson (commentary)'
+  host: 'Trailers From Hell'
+  rights: 'link-only'
+  note: 'The trailer for the film''s theatrical release, which the page dates 1983 (Universal).'
