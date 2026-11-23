@@ -1,4 +1,5 @@
 ---
+import LinkVote from '../../components/fan/LinkVote.astro';
 // Every homage to The Twilight Zone in another television show, on one page, filterable by type,
 // show, the Twilight Zone series it points to, and how sure we are (Adam, 2026-11-21, decision 0002).
 // Each homage also shows on its show's page and on the Twilight Zone episode or series page it points to.
@@ -44,7 +45,7 @@ const count = (c: string) => rows.filter((r) => r.l.certainty === c).length;
     {rows.map((r) => (
       <li class="card" data-kind={r.l.kind} data-show={r.show} data-tz={r.tzSeries} data-cert={r.l.certainty} data-themes={`|${themesOf(r.l.href).join('|')}|`} data-s-tz={sortKey(r.l.title)} data-s-show={`${sortKey(r.show)}|${r.e.date ?? ''}`} data-year={(r.e.date ?? '').slice(0, 4)}>
         <h2 class="homage-where"><a href={r.href}>{r.whole || r.show === r.e.title ? r.e.title : <>{r.show}: {r.e.title}</>}</a>{r.e.date && <span class="muted small"> · {r.e.date.slice(0, 4)}</span>}</h2>
-        <p>{CONNECTION_VERBS[r.l.kind] ?? CONNECTION_LABELS[r.l.kind]} <a href={r.l.href}>{r.l.title}</a> <span class={`tag ${r.l.certainty}`}>{CONFIDENCE_LABELS[r.l.certainty]}</span></p>
+        <p>{CONNECTION_VERBS[r.l.kind] ?? CONNECTION_LABELS[r.l.kind]} <a href={r.l.href}>{r.l.title}</a> <span class={`tag ${r.l.certainty}`}>{CONFIDENCE_LABELS[r.l.certainty]}</span> <LinkVote id={r.l.id} /></p>
         {r.l.evidence && <p class="small muted">{r.l.evidence}</p>}
         <ThemeList slugs={themesOf(r.l.href)} as="line" from="the episode" />
       </li>

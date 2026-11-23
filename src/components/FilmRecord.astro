@@ -1,4 +1,5 @@
 ---
+import LinkVote from './fan/LinkVote.astro';
 // The body of a film-record page: every screen work with a page of its own, and every show page
 // (a tv-series record), which also lists its episodes, segments and sketches in the episode explorer.
 import TrackButtons from './fan/TrackButtons.astro';
@@ -117,7 +118,7 @@ const watch = WATCHABLE.has(d.kind) && !(d.tags ?? []).includes('radio-only') &&
           {targets.map(({ c, ep }) => (
             <li>
               {CONNECTION_VERBS[c.data.kind] ?? CONNECTION_LABELS[c.data.kind]} {ep ? <a href={ep.url}>{ep.title}</a> : c.data.to}{ep && ep.kind !== 'Series' && <span class="muted small"> · {ep.kind}</span>}
-              {' '}<span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span>
+              {' '}<span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span> <LinkVote id={c.id} />
               {c.data.evidence && <p class="small">{c.data.evidence}</p>}
               {c.data.sources.length > 0 && <span class="small muted"> ({c.data.sources.map((x, i) => <>{i > 0 && ', '}{x.url ? <a href={x.url} rel="noopener" title={x.title}>{shortSource(x)}</a> : shortSource(x)}</>)})</span>}
             </li>

@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import unlinkHidden from './integrations/unlink-hidden.mjs';
 import externalLinks from './integrations/external-links.mjs';
+import recordIndex from './integrations/record-index.mjs';
 import { readFileSync, readdirSync } from 'node:fs';
 import { parse } from 'yaml';
 import { MOVED_PATHS, OLD_GROUPS } from './src/lib/taxonomy.mjs';
@@ -19,8 +20,6 @@ const redirects = {
   '/television/2019-series': '/series/2019/',
   '/blog': '/',
   '/contact': '/about/#contact',
-  '/privacy': '/about/#privacy',
-  '/terms': '/about/#disclaimer',
   // Section pages replaced by the category structure (2026-11-20).
   '/films': '/movies/',
   '/works': '/categories/',
@@ -44,7 +43,6 @@ const redirects = {
   '/quotes': '/people/fans/',
   '/quotes/admirers': '/people/fans/',
   '/quotes/rod-serling': '/rod-serling/',
-  '/community': '/organizations/',
   '/community/fan-communities': '/organizations/fan-groups/',
   '/community/organizations': '/organizations/foundations-societies/',
   '/community/websites-databases': '/reading/websites/',
@@ -105,5 +103,5 @@ export default defineConfig({
   site: 'https://intothetwilightzone.com',
   trailingSlash: 'ignore',
   redirects,
-  integrations: [unlinkHidden(), externalLinks()],
+  integrations: [unlinkHidden(), externalLinks(), recordIndex()],
 });

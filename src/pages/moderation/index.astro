@@ -1,0 +1,153 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Moderation" description="Review queue for member suggestions, uploads, forum posts, reports, copyright notices and records fans voted below zero." noindex>
+  <div class="mod" id="root" data-pagefind-ignore>
+    <h1>Moderation</h1>
+    <p id="gate" class="notice warn" hidden>This page is for the site's moderators. <a href="/account/">Sign in</a> with a moderator account.</p>
+    <div id="app" hidden>
+      <p class="lead">Nothing members send appears on the site until it's approved here. Notes you add are shown to the member on their account page. Records that fans vote below zero wait here for Adam's decision.</p>
+      <div class="mod-tabs" role="toolbar" aria-label="Queues" id="tabs"></div>
+      <p class="small"><label><input type="checkbox" id="done" /> Show already-handled items</label></p>
+      <div id="list"></div>
+    </div>
+  </div>
+  <script>
+    import { api, me, esc, when, renderText, bytes, itemLabel } from '../../lib/account/client';
+    import { uploadKindLabel, RIGHTS_LABEL } from '../../lib/account/community';
+    const $ = (x: string) => document.getElementById(x)!;
+    const TABS: [string, string][] = [['suggestions', 'Suggestions'], ['uploads', 'Uploads'], ['posts', 'Held posts'], ['reports', 'Reports'], ['takedowns', 'Copyright notices'], ['votes', 'Votes below zero'], ['members', 'Members'], ['log', 'Activity log']];
+    let tab = new URLSearchParams(location.hash.slice(1)).get('q') ?? 'suggestions';
+    let isAdmin = false;
+    let counts: Record<string, number> = {};
+
+    function tabs() {
+      $('tabs').innerHTML = TABS.map(([k, l]) => `<button class="btn" data-tab="${k}" aria-pressed="${k === tab}">${l}${counts[k] ? ` <span class="count-pill">${counts[k]}</span>` : ''}</button>`).join('');
+    }
+    function actions(type: string, id: string, buttons: [string, string, string?][]) {
+      return `<form class="actions" data-type="${type}" data-id="${esc(id)}"><input name="note" maxlength="1000" placeholder="Note to the member (optional)" aria-label="Note" />${buttons.map(([a, l, cls]) => `<button class="btn ${cls ?? ''}" type="submit" value="${a}">${l}</button>`).join('')}</form>`;
+    }
+    const who = (x: any) => x.handle ? `<a href='/members/?h=${encodeURIComponent(x.handle)}'>@${esc(x.handle)}</a>` : '<span class="muted">deleted member</span>';
+
+    async function render() {
+      tabs();
+      location.hash = `q=${tab}`;
+      const list = $('list');
+      list.innerHTML = '<p class="muted">Loading…</p>';
+      const done = ($('done') as HTMLInputElement).checked;
+      try {
+        if (tab === 'members') return members();
+        if (tab === 'votes') return voteAlerts(done);
+        if (tab === 'log') {
+          const r = await api('/api/mod/log');
+          list.innerHTML = `<ul class="plain rows">${r.log.map((l: any) => `<li><strong>${esc(l.action)}</strong> ${esc(l.target_type)} ${esc(l.target_id)} by @${esc(l.handle ?? '?')} · ${when(l.at)}${l.note ? ` · "${esc(l.note)}"` : ''}</li>`).join('') || '<li class="muted">Nothing yet.</li>'}</ul>`;
+          return;
+        }
+        const r = await api(`/api/mod/queue?q=${tab}${done ? '&status=done' : ''}`);
+        if (!r.items.length) { list.innerHTML = `<p class="notice">${done ? 'Nothing handled yet.' : 'All clear. Nothing is waiting.'}</p>`; return; }
+        const html = await Promise.all(r.items.map(async (x: any) => {
+          const st = `<span class="status s-${esc(x.status)}">${esc(x.status)}</span>`;
+          switch (tab) {
+            case 'suggestions':
+              return `<div class="mod-item">${st} <strong>${esc(x.title)}</strong> <span class="small muted">${esc(x.kind)} · ${who(x)} · ${when(x.created_at)}${x.credit ? ' · wants credit' : ''}</span>
+                <dl>${x.page_url ? `<dt>Page</dt><dd><a href='${esc(x.page_url)}'>${esc(x.page_url)}</a></dd>` : ''}${x.sources ? `<dt>Sources</dt><dd>${renderText(x.sources)}</dd>` : ''}${x.review_note ? `<dt>Note</dt><dd>${esc(x.review_note)}</dd>` : ''}</dl>
+                <div class="quote">${esc(x.body)}</div>${actions('suggestion', x.id, [['accepted', 'Accept', 'primary'], ['declined', 'Decline'], ...(done ? [['pending', 'Back to queue'] as [string, string]] : [])])}</div>`;
+            case 'uploads': {
+              const about = x.item_key ? await itemLabel(x.item_key) : null;
+              const src = `/api/uploads/${esc(x.id)}/file`;
+              const preview = x.kind === 'file' && x.size ? (x.media_type.startsWith('image/') ? `<img src='${src}' alt="" style="max-width:100%;max-height:360px">` : x.media_type.startsWith('audio/') ? `<audio controls preload="none" src='${src}'></audio>` : x.media_type.startsWith('video/') ? `<video controls preload="none" style="max-width:100%;max-height:360px" src='${src}'></video>` : `<a href='${src}' target="_blank" rel="noopener">Open PDF</a>`) : x.kind === 'link' ? `<a href='${esc(x.link_url)}' rel="nofollow noopener" target="_blank">${esc(x.link_url)}</a>` : x.kind === 'text' ? `<div class="quote">${esc(x.body)}</div>` : '<span class="muted">File removed</span>';
+              return `<div class="mod-item">${st} <strong>${esc(x.title)}</strong> <span class="small muted">${esc(uploadKindLabel(x))}${x.size ? ` · ${bytes(x.size)} · ${esc(x.filename)}` : ''} · ${who(x)} · ${when(x.created_at)}</span>
+                <dl><dt>Rights</dt><dd>${esc(RIGHTS_LABEL[x.rights] ?? x.rights)}${x.license ? ` · ${esc(x.license)}` : ''}</dd>${about ? `<dt>About</dt><dd><a href='${esc(about.href)}'>${esc(about.title)}</a></dd>` : ''}${x.description ? `<dt>Description</dt><dd>${esc(x.description)}</dd>` : ''}${x.review_note ? `<dt>Note</dt><dd>${esc(x.review_note)}</dd>` : ''}</dl>
+                <div class="media-view">${preview}</div>${actions('upload', x.id, x.status === 'approved' ? [['removed', 'Remove', 'danger']] : [['approved', 'Approve and publish', 'primary'], ['rejected', 'Reject (deletes the file)', 'danger']])}</div>`;
+            }
+            case 'posts':
+              return `<div class="mod-item">${st} In <a href='/community/topic/?id=${esc(x.topic_id)}'>${esc(x.topic_title)}</a>${x.topic_status === 'pending' ? ' <span class="tag-pill">new topic</span>' : ''} <span class="small muted">· ${who(x)} (${x.author_visible_posts} published posts) · ${when(x.created_at)}</span>
+                <div class="quote">${esc(x.body)}</div>${actions('post', x.id, x.status === 'pending' ? [['visible', 'Approve', 'primary'], ['hidden', 'Hide', 'danger']] : [['visible', 'Show again']])}
+                ${x.handle ? `<p class="small"><button class="link-btn danger" data-suspend-handle="${esc(x.handle)}">Spammer? Find and suspend @${esc(x.handle)}</button></p>` : ''}</div>`;
+            case 'reports':
+              return `<div class="mod-item">${st} <strong>${esc(x.reason)}</strong> report on a ${esc(x.target_type)} <span class="small muted">· by ${who(x)} · ${when(x.created_at)}</span>
+                ${x.note ? `<p>"${esc(x.note)}"</p>` : ''}<div class="quote">${esc(x.target_text ?? '(gone)')}</div>
+                <p class="small">${x.topic_id ? `<a href='/community/topic/?id=${esc(x.topic_id)}${x.target_type === 'post' ? `#p-${esc(x.target_id)}` : ''}'>Open in the forum</a> · ` : ''}${x.target_type === 'upload' ? `<a href='/community/uploads/view/?id=${esc(x.target_id)}'>Open the contribution</a> · ` : ''}${x.target_type === 'post' ? `<button class="link-btn danger" data-hide-post="${esc(x.target_id)}">Hide the post</button>` : ''}${x.target_type === 'upload' ? `<button class="link-btn danger" data-remove-upload="${esc(x.target_id)}">Remove the contribution</button>` : ''}${x.target_type === 'topic' ? `<button class="link-btn danger" data-hide-topic="${esc(x.target_id)}">Hide the topic</button>` : ''}</p>
+                ${actions('report', x.id, [['actioned', 'Mark handled', 'primary'], ['dismissed', 'Dismiss']])}</div>`;
+            case 'takedowns':
+              return `<div class="mod-item">${st} Copyright notice from <strong>${esc(x.name)}</strong>${x.organization ? ` (${esc(x.organization)})` : ''} <span class="small muted">· ${when(x.created_at)}</span>
+                <dl><dt>Email</dt><dd><a href='mailto:${esc(x.email)}'>${esc(x.email)}</a></dd><dt>Work</dt><dd>${esc(x.work)}</dd><dt>On this site</dt><dd>${renderText(x.urls)}</dd><dt>Signed</dt><dd>${esc(x.signature)} (both statements confirmed)</dd>${x.note ? `<dt>Note</dt><dd>${esc(x.note)}</dd>` : ''}</dl>
+                ${isAdmin ? actions('takedown', x.id, [['actioned', 'Content removed: mark done', 'primary'], ['dismissed', 'Dismiss'], ...(done ? [['open', 'Reopen'] as [string, string]] : [])]) : '<p class="small muted">Only the site editor can close copyright notices.</p>'}</div>`;
+          }
+          return '';
+        }));
+        list.innerHTML = html.join('');
+      } catch (e: any) { list.innerHTML = `<p class="form-error">${esc(e.message)}</p>`; }
+    }
+
+    // Records whose fan score (thumbs up minus thumbs down) fell below zero. Nothing is removed automatically:
+    // Adam keeps it, or marks it for removal and applies the download to data/review/decisions.json.
+    const ALERT_LABEL: Record<string, string> = { open: 'waiting', kept: 'kept', remove: 'to remove', applied: 'removed', recovered: 'back above zero' };
+    async function voteAlerts(done: boolean) {
+      const list = $('list');
+      const r = await api(`/api/mod/votes${done ? '?status=done' : ''}`);
+      const intro = `<p class="small">${r.email.on ? 'An email goes out the first time each record falls below zero (at most one a day per record).' : 'Alert emails are off until email sending is set up (docs/ACCOUNTS_SETUP.md); this list is always up to date.'}${isAdmin ? ` <a href='/api/mod/votes/removals'>Download removals for decisions.json</a>` : ''}</p>`;
+      if (!r.items.length) { list.innerHTML = intro + `<p class="notice">${done ? 'Nothing decided yet.' : 'All clear. No record has a score below zero.'}</p>`; return; }
+      list.innerHTML = intro + r.items.map((x: any) => {
+        const net = x.up - x.down;
+        const st = `<span class="status s-${x.status === 'open' ? 'open' : x.status === 'kept' || x.status === 'recovered' ? 'visible' : 'removed'}">${esc(ALERT_LABEL[x.status] ?? x.status)}</span>`;
+        const buttons: [string, string, string?][] = x.status === 'open' ? [['keep', 'Keep it', 'primary'], ['remove', 'Mark for removal', 'danger']]
+          : x.status === 'remove' ? [['applied', 'Removal applied'], ['keep', 'Keep it after all']]
+          : x.status === 'kept' ? [['remove', 'Mark for removal', 'danger']] : [];
+        return `<div class="mod-item">${st} <strong>${x.path ? `<a href='${esc(x.path)}'>${esc(x.title)}</a>` : esc(x.title)}</strong>
+          <span class="small muted">· score ${net} (${x.up} up, ${x.down} down) · below zero since ${when(x.opened_at)}${x.times > 1 ? ` · ${x.times} times so far` : ''}</span>
+          <dl><dt>Record</dt><dd><code>${esc(x.item_key)}</code></dd>${x.decided_at ? `<dt>Decided</dt><dd>${when(x.decided_at)}${x.decided_handle ? ` by @${esc(x.decided_handle)}` : ''}</dd>` : ''}${x.note ? `<dt>Note</dt><dd>${esc(x.note)}</dd>` : ''}</dl>
+          ${isAdmin && buttons.length ? actions('vote', x.item_key, buttons).replace('Note to the member (optional)', 'Note for the record (optional)') : !isAdmin && x.status === 'open' ? '<p class="small muted">Adam decides whether a record stays.</p>' : ''}</div>`;
+      }).join('');
+    }
+
+    async function members(q = '') {
+      const list = $('list');
+      list.innerHTML = `<form id="mf" class="actions"><input name="handle" placeholder="Username starts with…" aria-label="Find a member" value="${esc(q)}" /><button class="btn" type="submit">Find</button></form><div id="mres"></div>`;
+      const mf = $('mf') as HTMLFormElement;
+      mf.onsubmit = (e) => { e.preventDefault(); find((mf.elements.namedItem('handle') as HTMLInputElement).value); };
+      if (q) find(q);
+      async function find(h: string) {
+        const r = await api(`/api/mod/members?handle=${encodeURIComponent(h)}`);
+        $('mres').innerHTML = r.members.map((u: any) => `<div class="mod-item"><strong>@${esc(u.handle)}</strong> ${esc(u.display_name)} <span class="small muted">· ${esc(u.role)} · ${esc(u.status)} · ${u.posts} posts · joined ${when(u.created_at)}</span>
+          ${u.role === 'admin' ? '' : actions('user', u.id, [[u.status === 'active' ? 'suspend' : 'unsuspend', u.status === 'active' ? 'Suspend (signs them out)' : 'Lift suspension', u.status === 'active' ? 'danger' : ''], ...(isAdmin ? [[u.role === 'moderator' ? 'make-member' : 'make-moderator', u.role === 'moderator' ? 'Remove moderator' : 'Make moderator'] as [string, string]] : [])])}</div>`).join('') || '<p class="muted">No one found.</p>';
+      }
+    }
+
+    $('root').addEventListener('click', async (ev) => {
+      const b = ev.target as HTMLElement;
+      if (b.dataset.tab) { tab = b.dataset.tab; return render(); }
+      const quick = b.dataset.hidePost ? ['post', b.dataset.hidePost, 'hidden'] : b.dataset.removeUpload ? ['upload', b.dataset.removeUpload, 'removed'] : b.dataset.hideTopic ? ['topic', b.dataset.hideTopic, 'hide'] : null;
+      if (quick) { try { await api('/api/mod/action', { type: quick[0], id: quick[1], action: quick[2] }); b.replaceWith(Object.assign(document.createElement('span'), { className: 'small', textContent: 'Done.' })); } catch (e: any) { b.insertAdjacentHTML('afterend', ` <span class="form-error small">${esc(e.message)}</span>`); } return; }
+      if (b.dataset.suspendHandle) { tab = 'members'; tabs(); members(b.dataset.suspendHandle); }
+    });
+    $('root').addEventListener('submit', async (ev) => {
+      const f = ev.target as HTMLFormElement;
+      if (!f.classList.contains('actions') || !f.dataset.type) return;
+      ev.preventDefault();
+      const btn = (ev as SubmitEvent).submitter as HTMLButtonElement;
+      try {
+        const note = (f.elements.namedItem('note') as HTMLInputElement)?.value ?? '';
+        if (f.dataset.type === 'vote') await api('/api/mod/votes', { item: f.dataset.id, action: btn.value, note });
+        else await api('/api/mod/action', { type: f.dataset.type, id: f.dataset.id, action: btn.value, note });
+        f.closest('.mod-item')!.innerHTML = `<p class="small">Done: ${esc(btn.textContent ?? '')}.</p>`;
+        refreshCounts();
+      } catch (e: any) { f.insertAdjacentHTML('beforeend', `<span class="form-error small">${esc(e.message)}</span>`); }
+    });
+    $('done').addEventListener('change', render);
+
+    async function refreshCounts() {
+      const m = await me(true);
+      if (m.queue) counts = { suggestions: m.queue.suggestions, uploads: m.queue.uploads, posts: m.queue.posts, reports: m.queue.reports, takedowns: m.queue.takedowns, votes: m.queue.votes };
+      tabs();
+    }
+    (async () => {
+      const m = await me(true);
+      if (!m.user || m.user.role === 'member') { $('gate').hidden = false; return; }
+      isAdmin = m.user.role === 'admin';
+      $('app').hidden = false;
+      await refreshCounts();
+      render();
+    })();
+  </script>
+</Base>

@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Community forums" description="Talk about The Twilight Zone with other fans: episodes, Rod Serling, Night Gallery, the revivals, collecting, fan creations and the places where it was made.">
+  <div class="community" data-pagefind-ignore>
+    <p class="breadcrumb"><a href="/">Home</a> / Community</p>
+    <h1>Community forums</h1>
+    <p class="lead">Talk with other fans about the episodes, the people who made them and everything the Zone inspired. Anyone can read. <a href="/account/">Sign in</a> to post.</p>
+    <p><a class="btn primary" href="/community/new/">Start a topic</a> <a class="btn" href="/community/uploads/">Fan contributions</a> <a class="btn subtle" href="/community/guidelines/">Community guidelines</a></p>
+    <div id="state" class="muted">Loading…</div>
+    <h2>Forums</h2>
+    <ul class="forum-list" id="cats"></ul>
+    <h2>Latest activity</h2>
+    <ul class="forum-list" id="latest"></ul>
+  </div>
+  <script>
+    import { api, esc, when, authorHtml } from '../../lib/account/client';
+    const state = document.getElementById('state')!;
+    (async () => {
+      try {
+        const [c, t] = await Promise.all([api('/api/forum/categories'), api('/api/forum/topics')]);
+        state.hidden = true;
+        document.getElementById('cats')!.innerHTML = c.categories.map((x: any) => `<li><div><h3><a href='/community/forum/?c=${esc(x.id)}'>${esc(x.title)}</a></h3><p class="muted small">${esc(x.description)}</p></div><div class="stats">${x.topics} topic${x.topics === 1 ? '' : 's'} · ${x.posts} post${x.posts === 1 ? '' : 's'}${x.last_post_at ? `<br>last ${when(x.last_post_at)}` : ''}</div></li>`).join('');
+        const cat = Object.fromEntries(c.categories.map((x: any) => [x.id, x.title]));
+        document.getElementById('latest')!.innerHTML = t.topics.length
+          ? t.topics.slice(0, 15).map((x: any) => `<li><div><h3><a href='/community/topic/?id=${esc(x.id)}'>${esc(x.title)}</a></h3><p class="small">${authorHtml(x)} · in ${esc(cat[x.category_id] ?? '')}</p></div><div class="stats">${x.post_count} post${x.post_count === 1 ? '' : 's'}<br>${when(x.last_post_at)}</div></li>`).join('')
+          : '<li class="muted">No topics yet. Be the first to start one.</li>';
+      } catch (e: any) {
+        state.textContent = e?.status === 503 ? 'The forums open when member accounts are switched on.' : (e?.message ?? 'The forums could not load.');
+      }
+    })();
+  </script>
+</Base>

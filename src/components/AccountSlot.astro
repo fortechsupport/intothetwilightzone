@@ -1,7 +1,6 @@
 ---
-// Where the signed-in state shows: "Sign in" for now. /account.js (accounts work) replaces the
-// contents of every [data-account-slot] element once accounts exist.
+// Where the signed-in state shows. /account.js turns "Sign in" into the member's username once signed in.
 interface Props { compact?: boolean }
 const { compact = false } = Astro.props;
 ---
-<span class="account-slot" data-account-slot data-compact={compact ? '1' : undefined}><a href="/my-zone/">My Zone</a></span>
+<span class="account-slot" data-account-slot data-compact={compact ? '1' : undefined}><a href="/account/">Sign in</a></span>

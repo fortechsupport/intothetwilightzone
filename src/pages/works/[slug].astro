@@ -1,4 +1,5 @@
 ---
+import LinkVote from '../../components/fan/LinkVote.astro';
 import ThemeList from '../../components/ThemeList.astro';
 import { inheritedThemes } from '../../lib/themes';
 import TrackButtons from '../../components/fan/TrackButtons.astro';
@@ -49,7 +50,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'CreativeWork', name
       <h2>Twilight Zone connection</h2>
       <ul class="plain">
         {targets.map(({ c, t }) => (
-          <li><span class="tag">{CONNECTION_LABELS[c.data.kind]}</span>{t ? <a href={t.url}>{t.title}</a> : c.data.to} <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span></li>
+          <li><span class="tag">{CONNECTION_LABELS[c.data.kind]}</span>{t ? <a href={t.url}>{t.title}</a> : c.data.to} <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span> <LinkVote id={c.id} /></li>
         ))}
       </ul>
     </section>
