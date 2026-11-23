@@ -1,4 +1,4 @@
-# 0006 Fan votes: thumbs up and down on every record; Adam decides when a score falls below zero
+# 0008 Fan votes: thumbs up and down on every record; Adam decides when a score falls below zero
 
 Date: 2026-11-23. Decided by Adam (22:18 UTC, Movies thread, quoted in 0005); the details below were chosen while
 building it (docs/plans/fan-votes.md) and wait for his review.

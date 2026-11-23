@@ -7,7 +7,7 @@
 > vice versa), notify me so I can decide if that item should or should not be removed from IntoTheTwilightZone.com.
 
 He asked for the feature itself, so this went straight to a build with screenshots rather than mock-ups first.
-The rules it follows are in [decision 0006](../decisions/0006-fan-votes.md).
+The rules it follows are in [decision 0008](../decisions/0008-fan-votes.md).
 
 ## Steps (one pull request each)
 
@@ -27,7 +27,9 @@ The rules it follows are in [decision 0006](../decisions/0006-fan-votes.md).
 3. **Votes on single links** (Adam said yes, 2026-11-23 22:37 UTC; added to this PR because the thread works on one
    branch): a small thumbs pair beside every connection (homage, parody, reference, adaptation, remake...) wherever
    it is listed: record pages, film and show pages, episode "Draws on" and "Legacy" lists, the homages list, series
-   pages and the episode explorer. All 566 connections are votable (`src/components/fan/LinkVote.astro`). It replaces
+   pages and the episode explorer. Series pages show each homage with its label only (no thumbs), to keep that long
+   page light; every one of those links is voted on from its own record page. All connections listed on a record page
+   are votable (`src/components/fan/LinkVote.astro`). It replaces
    the "Seconded by N fans" count planned in the Television plan. A link's alert names both ends: "The Simpsons: The
    Devil and Homer Simpson → Escape Clause (1959): inspired by". Counts load as rows come near the screen, 50 at a
    time, so a long list doesn't load all at once. Removing a link works like removing a record: its
@@ -92,8 +94,12 @@ site (`npm run build:preview`). API checks: 40 (`scripts/e2e/votes-api.mjs`); pa
   This changes one promise from the accounts plan: record pages now make one request for the counts for every
   visitor (it was "visitors who never sign in make no API requests"). Other pages still make none.
 - **Thumb icons** are from Feather Icons (MIT licence), credited in `public/account.js`.
-- **Page weight:** each link adds an empty slot (about 60 bytes), so `/series/1959/` grows from 316 KB to 335 KB.
-  That is a warning against the 300 KB target, not a failure (the limit is 1.5 MB), and it was over before.
+- **Page weight:** series pages have no link votes: `/series/1959/` was 327 KB with them, against the 300 KB target.
+  The thumbs came off its homage rows, and the episode table now works out air order, writers and directors from its
+  own cells instead of repeating them as attributes. It is now 289 KB (296 KB in preview mode). One connection that
+  was only listed on a series page is no longer votable (6,415 votable items public, 6,601 preview).
+- **Decision numbers:** this work's records are 0007 (fan account sign-in) and 0008 (fan votes); they were first
+  numbered 0002 and 0006, which the Television and "Compared to" records already use.
 - **Second read** (an independent review of the code) found two rare race conditions and a caching gap; all three are
   fixed, along with its two small points (decisions follow set steps; made-up record keys are refused).
 
