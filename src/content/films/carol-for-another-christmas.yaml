@@ -1,12 +1,32 @@
 title: Carol for Another Christmas
 kind: tv-film
-ids:
-  imdb: tt0057916
+summary: Rod Serling's anti-isolationist reworking of A Christmas Carol for ABC, directed by Joseph L. Mankiewicz and
+  made for the United Nations, in which a wealthy man who wants America to turn its back on the world is visited by three
+  ghosts. Sterling Hayden, Peter Sellers and Eva Marie Saint star.
+release_date: '1964-12-28'
+runtime_min: 84
+writers:
+- Rod Serling
+writing_credit_note: Written by Rod Serling, from Charles Dickens's A Christmas Carol.
+directors:
+- Joseph L. Mankiewicz
+cast:
+- Britt Ekland
+- Ben Gazzara
+- Sterling Hayden
+- Pat Hingle
+- Steve Lawrence
+- Percy Rodriguez
+organizations:
+- ABC
+- Xerox
 sources:
+- title: Carol for Another Christmas (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Carol_for_Another_Christmas
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+ids:
+  imdb: tt0057916
 locked: true
-summary: Rod Serling's anti-isolationist reworking of A Christmas Carol for ABC, directed by Joseph L. Mankiewicz
-  and made for the United Nations, in which a wealthy man who wants America to turn its back on the world is visited
-  by three ghosts. Sterling Hayden, Peter Sellers and Eva Marie Saint star.
-release_date: '1964'
+research_confidence: high
+last_verified: '2026-11-23'

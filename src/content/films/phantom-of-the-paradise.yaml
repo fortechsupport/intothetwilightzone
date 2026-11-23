@@ -1,20 +1,27 @@
 title: Phantom of the Paradise
 kind: film
 summary: Brian De Palma's rock-opera horror film. Serling is heard, uncredited, delivering the opening narration.
-release_date: '1974'
+release_date: '1974-10-31'
+runtime_min: 91
 writers:
 - Brian De Palma
+writing_credit_note: Rod Serling speaks the opening narration, uncredited.
 directors:
 - Brian De Palma
 cast:
 - Paul Williams
 - William Finley
+- Gerrit Graham
 - Jessica Harper
 - Rod Serling
+organizations:
+- 20th Century Fox
 sources:
+- title: Phantom of the Paradise (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Phantom_of_the_Paradise
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
-research_confidence: medium
+research_confidence: high
 relevance: related
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true

@@ -1,15 +1,30 @@
 title: Incident in an Alley
 kind: film
 summary: A low-budget United Artists crime drama based on a Serling story.
-release_date: '1962'
+release_date: '1962-05-16'
+runtime_min: 84
 writers:
+- Harry Medford
+- Orville H. Hampton
 - Rod Serling
+writing_credit_note: 'Screenplay by Harry Medford and Orville H. Hampton (as Owen Harris), from a story by Rod Serling:
+  his 1955 teleplay for The United States Steel Hour (Serling is credited for the story, not the screenplay).'
+directors:
+- Edward L. Cahn
+cast:
+- Chris Warfield
+- Erin O'Donnell
+- Harp McGuire
+organizations:
+- United Artists
 sources:
+- title: Incident in an Alley (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Incident_in_an_Alley
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
 - title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
   url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
-research_confidence: medium
+research_confidence: high
 relevance: related
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true
