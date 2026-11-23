@@ -3,6 +3,22 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-23 — Serling's films checked against the AFI Catalog, and three trailers
+
+Eight of Rod Serling's feature films now cite the American Film Institute's Catalog of Feature Films as well as
+Wikipedia, and link to their AFI entries: Patterns, The Rack, Saddle the Wind, Incident in an Alley, Seven Days in May,
+Assault on a Queen, Planet of the Apes and Phantom of the Paradise. Where AFI differs from Wikipedia, the source note
+says so (opening dates for Seven Days in May and Incident in an Alley, and the script writers of Incident in an Alley).
+The Rack now credits its screenplay to Stewart Stern, as AFI does, with Serling's teleplay as its source. Planet of the
+Apes, Seven Days in May and Duel link to Trailers From Hell, where a filmmaker comments on each trailer, credited by name.
+Seven Days in May also links Glenn Erickson's CineSavant review of its Blu-ray and the Warner Bros. page for the film.
+Rod Serling: Beyond the Twilight Zone (2000) now gives its season and episode of E! True Hollywood Story, and
+two listings for it beyond IMDb.
+
+**Known not to work yet:** The AFI pages for Requiem for a Heavyweight, The Yellow Canary and The Salamander could not
+be read from here, and The Man (1972) was not found in the catalog. No posters are attached yet: none of these films'
+posters was found on a public-domain or openly licensed page.
+
 ## 2026-11-23 — Fuller credits on the documentaries, and two named reviews of the 1983 film
 
 Five documentaries Serling narrated now show their release date, network or distributor, director, writers and makers,

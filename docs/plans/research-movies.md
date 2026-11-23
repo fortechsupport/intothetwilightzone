@@ -227,9 +227,10 @@ each with sources; fan-noted links are verified where possible; visitors' thumbs
   Consequences, N.M. (1997) and "A Penny for Your Thoughts" as his example.
 
 ## Found, for later
-- Round 3 still open: posters (credited to their designers), official trailers and home video releases for the films
-  other than Twilight Zone: The Movie. Lost Classics' composer is not in Wikipedia or TCM. Beyond the Twilight Zone
-  (2000) rests on IMDb and Moviefone only. The Undersea World of Jacques Cousteau record is a TV series, not a film.
+- Round 3 still open: posters (credited to their designers) for every film; trailers and home video for Serling's
+  films other than Planet of the Apes, Seven Days in May and Duel; the AFI entries for Requiem for a Heavyweight, The
+  Yellow Canary and The Salamander (fetch refused) and The Man (not found). Lost Classics' composer is not in Wikipedia
+  or TCM. ~~Beyond the Twilight Zone (2000) rests on IMDb and Moviefone only~~ (Yidio and TheTVDB listings added). The Undersea World of Jacques Cousteau record is a TV series, not a film.
 - Duel has two records. One is already marked as the duplicate; the importer and the decision key should be
   checked when the duplicate is cleared out.
 - ~~13 films on the "linked" shelf have no connection record~~ They were films by the show's writers with no tie;

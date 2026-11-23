@@ -25,6 +25,10 @@ sources:
   url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
 - title: 'Encyclopaedia Britannica: Rod Serling'
   url: https://www.britannica.com/biography/Rod-Serling
+- title: 'AFI Catalog of Feature Films: Patterns (1956)'
+  url: 'https://catalog.afi.com/Catalog/moviedetails/51951'
+  publisher: 'American Film Institute'
+  note: 'Credits Serling with the original story and screenplay; director Fielder Cook; Harris-Myerberg production released by United Artists; New York opening 27 March 1956; 83 minutes.'
 research_confidence: high
 relevance: related
 ids:
@@ -35,3 +39,11 @@ serling_role: written
 source_title: "Patterns"
 source_authors:
 - Rod Serling
+media:
+- type: 'document'
+  subtype: 'catalog-entry'
+  title: 'AFI Catalog of Feature Films entry'
+  url: 'https://catalog.afi.com/Catalog/moviedetails/51951'
+  host: 'American Film Institute'
+  rights: 'licensed'
+  note: 'Production history, credits and release details compiled by the AFI.'
