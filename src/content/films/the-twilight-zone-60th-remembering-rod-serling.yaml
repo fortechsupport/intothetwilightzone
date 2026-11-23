@@ -1,20 +1,32 @@
 title: 'The Twilight Zone 60th: Remembering Rod Serling'
 kind: documentary
+summary: A documentary short made for the series' 60th anniversary about Rod Serling's life, from his Syracuse childhood
+  and World War II service to his use of science fiction to take on race, paranoia and bigotry. It includes previously unseen
+  footage of Serling teaching a writing class at Ithaca College around 1970, and interviews with his daughter Jodi Serling,
+  producer Bill D'Elia and his former student Esther Gray Peacock. It screened in more than 600 cinemas before six classic
+  episodes ("Walking Distance", "Time Enough at Last", "The Monsters Are Due on Maple Street", "Eye of the Beholder", "The
+  Invaders" and "To Serve Man") at a one-night Fathom Events and CBS Home Entertainment event on November 14, 2019.
 release_date: '2019-11-14'
 runtime_min: 47
-summary: A short retrospective documentary made for the series' 60th anniversary about Rod Serling's life, from his Syracuse
-  childhood and World War II service to his use of science fiction to take on race, paranoia and bigotry. It screened
-  before six classic episodes ("Walking Distance", "Time Enough at Last", "The Monsters Are Due on Maple Street", "Eye
-  of the Beholder", "The Invaders" and "To Serve Man") at a one-night Fathom Events and CBS Home Entertainment cinema
-  event on November 14, 2019. Producer Bill D'Elia is among those interviewed.
 ids:
   imdb: tt11241906
 sources:
+- title: '''Twilight Zone'' Creator Rod Serling Feared He''d Be Forgotten (The Hollywood Reporter)'
+  url: https://www.hollywoodreporter.com/heat-vision/twilight-zone-creator-rod-serling-feared-hed-be-forgotten-1253289
+  author: Aaron Couch
+  publisher: The Hollywood Reporter
+- title: Fathom Events Celebrates 60th Anniversary of 'The Twilight Zone' with Classic Episodes (Boxoffice Pro)
+  url: https://www.boxofficepro.com/fathom-events-celebrates-60th-anniversary-of-the-twilight-zone-with-classic-episodes/
+  publisher: Boxoffice Pro
+  note: Fathom Events press release, Denver, 25 September 2019.
 - title: 'IMDb - The Twilight Zone 60th: Remembering Rod Serling'
   url: https://www.imdb.com/title/tt11241906/
 - title: ComicBook.com - Twilight Zone theater screenings
   url: https://comicbook.com/horror/news/twilight-zone-theater-screenings-original-rod-serling/
 - title: 'SYFY Wire: Exclusive clip from the Rod Serling documentary for the 60th anniversary screenings'
   url: https://syfy.com/syfywire/rod-serling-twilight-zone-documentary
-last_verified: '2026-11-20'
+last_verified: '2026-11-23'
 locked: true
+organizations:
+- CBS Home Entertainment
+- Fathom Events

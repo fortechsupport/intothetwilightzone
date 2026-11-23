@@ -1,14 +1,31 @@
 title: 'UFOs: Past, Present, and Future'
 kind: documentary
-summary: 'A documentary on the UFO phenomenon narrated by Serling; it was later recut as UFOs: It Has Begun.'
-release_date: '1974'
+summary: 'A 1974 documentary on the UFO phenomenon, narrated by Rod Serling with Burgess Meredith and José Ferrer, including
+  a dramatized UFO landing at Holloman Air Force Base that Serling narrates. It was re-released as UFOs: It Has Begun in
+  1976 and 1979.'
+release_date: '1974-07-31'
+runtime_min: 97
+writers:
+- Robert Emenegger
+- Carol Johnsen
+directors:
+- Ray Rivas
 cast:
 - Rod Serling
+- Burgess Meredith
+- José Ferrer
+composer:
+- Robert Emenegger
 sources:
+- title: 'UFOs: Past, Present, and Future (Wikipedia)'
+  url: https://en.wikipedia.org/wiki/UFOs:_Past,_Present,_and_Future
+  publisher: Wikipedia
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
-research_confidence: medium
+research_confidence: high
 relevance: related
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true
 serling_role: narrated
+organizations:
+- Sandler Institutional Films

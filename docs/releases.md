@@ -3,6 +3,20 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-23 — Fuller credits on the documentaries, and two named reviews of the 1983 film
+
+Five documentaries Serling narrated now show their release date, network or distributor, director, writers and makers,
+each from its own source: UFOs: Past, Present, and Future (1974), In Search of Ancient Astronauts (1973), In Search of
+Ancient Mysteries (1974), The Outer Space Connection (1975) and Monsters! Mysteries or Myths? (1974). The 2019
+documentary The Twilight Zone 60th: Remembering Rod Serling now names its makers (CBS Home Entertainment and Fathom
+Events) and the people interviewed, from The Hollywood Reporter and the Fathom Events press release. Twilight Zone: The
+Movie now links two reviews, each credited to its critic and publication: Richard Corliss in TIME (20 June 1983) and
+Roger Ebert on RogerEbert.com. Both are linked, never copied.
+
+**Known not to work yet:** The composer of Lost Classics of the Twilight Zone is not in any source read. Beyond the
+Twilight Zone (2000) still rests on IMDb and Moviefone alone. Posters and official trailers are not yet attached to most
+films. The Ebert review's page shows no date, so none is given.
+
 ## 2026-11-23 — Fan votes: thumbs up and down on every record (switch on with fan accounts)
 
 **Fans can vote on anything on the site.** Once fan accounts are switched on (docs/ACCOUNTS_SETUP.md):

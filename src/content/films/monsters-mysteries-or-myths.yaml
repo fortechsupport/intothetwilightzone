@@ -1,14 +1,24 @@
 title: Monsters! Mysteries or Myths?
 kind: documentary
-summary: A television special on Bigfoot, the Loch Ness monster and the Abominable Snowman, narrated by Serling.
-release_date: '1974'
+summary: A CBS television special on Bigfoot, the Loch Ness monster and the Abominable Snowman, first shown on November
+  25, 1974. It was produced by David L. Wolper in cooperation with the Smithsonian Institution and narrated by Rod Serling;
+  Robert Guenette later reused its material in the 1976 film The Mysterious Monsters.
+release_date: '1974-11-25'
+network: CBS
 cast:
 - Rod Serling
 sources:
+- title: The Mysterious Monsters (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Mysterious_Monsters
+  publisher: Wikipedia
+  note: 'Cites Marcel LaFollette, Science on American Television: A History (University of Chicago Press, 2012), for Wolper,
+    the Smithsonian and Serling.'
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
-research_confidence: low
+research_confidence: medium
 relevance: related
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true
 serling_role: narrated
+organizations:
+- Smithsonian Institution
