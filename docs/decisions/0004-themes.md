@@ -35,6 +35,7 @@ themes browsable across series, Night Gallery and homages, and keeps the episode
 
 ## Decided here (Adam reviews later)
 
-- The 41 themes, their names and families; any can be renamed or merged (a slug change needs a redirect).
+- The 41 themes, their names and families. **Adam approved the names on 2026-11-23** ("Use those theme names"); he may ask
+  for changes later, and a slug change needs a redirect.
 - Which keywords fold into which theme (data/themes.yaml `aliases`).
 - The Night Gallery segment readings in data/themes-assigned.yaml.
