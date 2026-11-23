@@ -22,8 +22,15 @@ const decode = (s) => s.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/
 
 export async function buildRecordIndex(root) {
   const items = {};
+  // Single links (connections) carry <span class="link-vote" data-vote-key="connections/...">; their labels come
+  // from /fan/connection-labels.json (src/pages/fan/connection-labels.json.ts). Only links shown on a page count.
+  let labels = {};
+  try { labels = JSON.parse(await readFile(join(root, 'fan', 'connection-labels.json'), 'utf8')); } catch { /* no connections */ }
   for (const file of await htmlFiles(root)) {
     const html = await readFile(file, 'utf8');
+    for (const m of html.matchAll(/class="link-vote" data-vote-key="(connections\/[^"]+)"/g)) {
+      if (!items[m[1]] && labels[m[1]]) items[m[1]] = labels[m[1]];
+    }
     const key = /class="record-actions" data-record-key="([^"]+)"/.exec(html)?.[1];
     if (!key || items[key]) continue;
     const title = decode(/<h1[^>]*>([\s\S]*?)<\/h1>/.exec(html)?.[1] ?? key);

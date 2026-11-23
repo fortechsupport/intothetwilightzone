@@ -1,4 +1,5 @@
 ---
+import LinkVote from '../../components/fan/LinkVote.astro';
 import Base from '../../layouts/Base.astro';
 import RecordHeader from '../../components/RecordHeader.astro';
 import InCategories from '../../components/InCategories.astro';
@@ -95,7 +96,7 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
       <h2>Draws on</h2>
       <ul class="plain">
         {drawsOn.map(({ c, work }) => (
-          <li>{CONNECTION_VERBS[c.data.kind] ?? CONNECTION_LABELS[c.data.kind]} {work ? <a href={work.url}>{work.title}</a> : c.data.to}{work && <span class="muted small"> · {work.kind.toLowerCase()}</span>} <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span></li>
+          <li>{CONNECTION_VERBS[c.data.kind] ?? CONNECTION_LABELS[c.data.kind]} {work ? <a href={work.url}>{work.title}</a> : c.data.to}{work && <span class="muted small"> · {work.kind.toLowerCase()}</span>} <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span> <LinkVote id={c.id} /></li>
         ))}
       </ul>
     </section>
@@ -121,7 +122,7 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
                 <li data-cert={c.data.confidence}>
                   {work ? <a href={work.url}>{work.title}</a> : c.data.from}
                   <span class="muted small"> {(CONNECTION_LABELS[c.data.kind] ?? c.data.kind).toLowerCase()}</span>
-                  {' '}<span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span>
+                  {' '}<span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span> <LinkVote id={c.id} />
                 </li>
               ))}
             </ul>

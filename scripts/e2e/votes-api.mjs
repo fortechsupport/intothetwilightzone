@@ -46,7 +46,16 @@ r = await call('adam', '/api/mod/votes', { item: K, action: 'remove', note: 'Tes
 r = await call('adam', '/api/mod/votes/removals'); ok(r.j[K]?.status === 'exclude' && /after fans voted it below zero \(1 up, 3 down\): Test removal/.test(r.j[K].notes), `removals download: ${JSON.stringify(r.j[K])}`);
 r = await call('bea', '/api/mod/votes/removals'); ok(r.s === 403, 'member cannot download removals');
 r = await call(null, `/api/votes?items=${K},people/rod-serling`); ok(r.s === 200 && r.j.votes['people/rod-serling'].up === 0 && r.j.votes[K].mine === undefined, 'anonymous multi-item read');
-r = await call(null, `/api/votes?items=${Array.from({ length: 21 }, (_, i) => 'people/x' + i).join(',')}`); ok(r.s === 400, '21 items refused');
+r = await call(null, `/api/votes?items=${Array.from({ length: 51 }, (_, i) => 'people/x' + i).join(',')}`); ok(r.s === 400, '51 items refused');
+r = await call(null, '/api/votes?items=people/not-a-real-person'); ok(r.s === 404, `made-up keys refused, so they can't skip the cache (${r.s})`);
+// Single links (connections) vote the same way, and their alert names both ends.
+const C = 'connections/the-simpsons-the-devil-and-homer-simpson--escape-clause';
+r = await vote('bea', -1, C); ok(r.s === 200 && r.j.down === 1, `vote on a single link (${r.s})`);
+let ca = (await call('adam', '/api/mod/votes')).j.items?.find((x) => x.item_key === C);
+ok(ca && /→ Escape Clause \(1959\)/.test(ca.title) && ca.path.startsWith('/'), `link alert names both ends (${ca?.title}, ${ca?.path})`);
+r = await call('adam', '/api/mod/votes', { item: C, action: 'applied' }); ok(r.s === 404, `can't mark an open alert "removal applied" (${r.s})`);
+r = await vote('bea', 0, C); ca = (await call('adam', '/api/mod/votes?status=done')).j.items?.find((x) => x.item_key === C);
+r = await call('adam', '/api/mod/votes', { item: C, action: 'keep' }); ok(r.s === 404 && ca?.status === 'recovered', `no decision on a record back at zero (${r.s}, ${ca?.status})`);
 r = await call('cal', '/api/account/export'); ok(r.j.votes?.length === 1 && r.j.votes[0].vote === 'down', 'data export includes votes');
 // Delete cal: cal's down vote goes, the record recounts.
 r = await call('cal', '/api/account/delete', { confirm: 'cal' }); ok(r.s === 200, 'cal deletes account');

@@ -1,4 +1,5 @@
 ---
+import LinkVote from '../../components/fan/LinkVote.astro';
 import Base from '../../layouts/Base.astro';
 import InCategories from '../../components/InCategories.astro';
 import Media from '../../components/Media.astro';
@@ -178,7 +179,7 @@ const jsonld = {
           <summary><strong>{label}</strong> <span class="muted small">({list.length})</span></summary>
           <ul class="plain homage-compact">
             {list.map(({ c, r, show }) => (
-              <li><a href={r.url}>{show && show !== r.title ? `${show}: ${r.title}` : r.title}</a> <span class="muted small">{CONNECTION_LABELS[c.data.kind] ?? c.data.kind}</span> <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span></li>
+              <li><a href={r.url}>{show && show !== r.title ? `${show}: ${r.title}` : r.title}</a> <span class="muted small">{CONNECTION_LABELS[c.data.kind] ?? c.data.kind}</span> <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span> <LinkVote id={c.id} /></li>
             ))}
           </ul>
         </details>

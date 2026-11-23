@@ -24,16 +24,20 @@ The rules it follows are in [decision 0006](../decisions/0006-fan-votes.md).
      with `scripts/apply-vote-removals.mjs` and reach the site with the next deploy.
 2. **Adam's Cloudflare setup** (docs/ACCOUNTS_SETUP.md): the accounts steps, plus the votes table (step 1 of that
    page now runs both migrations) and, for emails, `VOTE_ALERT_EMAIL` once email sending works.
-3. **Votes on connections** (next PR, needs Adam's yes): a thumbs pair on each "Why it's here" link and homage row,
-   so fans can vote on a single tie (a fan-noted film link) rather than the whole record. It replaces the "Seconded
-   by N fans" count planned in the Television plan. The API already takes any record key; this step adds the
-   connection keys to the build list and a compact control on list rows.
+3. **Votes on single links** (Adam said yes, 2026-11-23 22:37 UTC; added to this PR because the thread works on one
+   branch): a small thumbs pair beside every connection (homage, parody, reference, adaptation, remake...) wherever
+   it is listed: record pages, film and show pages, episode "Draws on" and "Legacy" lists, the homages list, series
+   pages and the episode explorer. All 566 connections are votable (`src/components/fan/LinkVote.astro`). It replaces
+   the "Seconded by N fans" count planned in the Television plan. A link's alert names both ends: "The Simpsons: The
+   Devil and Homer Simpson → Escape Clause (1959): inspired by". Counts load as rows come near the screen, 50 at a
+   time, so a long list doesn't load all at once. Removing a link works like removing a record: its
+   `connections/<id>` key becomes `exclude` in decisions.json.
 
 ## Acceptance checks (pass/fail)
 
 Run on 2026-11-23 against `wrangler pages dev` with a local D1 database, four test members and the built preview
-site (`npm run build:preview`). API checks: 36 (`scripts/e2e/votes-api.mjs`); page checks: 26 in Playwright
-(`scripts/e2e/votes-ui.cjs`). Setup steps are at the top of `scripts/e2e/votes-seed.py`.
+site (`npm run build:preview`). API checks: 40 (`scripts/e2e/votes-api.mjs`); page checks in Playwright, at 320 and 1440 px, dark and light
+(`scripts/e2e/votes-ui.cjs`). All pass. Setup steps are at the top of `scripts/e2e/votes-seed.py`.
 
 | Check | Result |
 |---|---|
@@ -57,7 +61,13 @@ site (`npm run build:preview`). API checks: 36 (`scripts/e2e/votes-api.mjs`); pa
 | With no D1 binding (today's preview), the vote buttons stay hidden and nothing errors | Pass (API answers 503; the group is only shown when counts arrive) |
 | axe finds no WCAG 2.2 AA problems on a record page with votes and on the Moderation votes tab, dark and light | Pass |
 | No sideways scroll at 320 px; screenshots at 320 and 1440 px, dark and light | Pass |
-| CI checks: data, tokens, both builds, site, a11y, server types | See the pull request |
+| A single link can be voted on; its alert names both ends and the page it's on | Pass |
+| On the homages list, counts load near the screen first and more load on scrolling | Pass (e.g. 9 of 174 at first on a phone) |
+| Votes on records the site doesn't show can't be read (so they can't get round the cache) | Pass (404) |
+| A decision can't skip a step ("Removal applied" on an open alert) or be made on a record back at zero | Pass (404) |
+| Two votes landing together can't crash or leave an alert based on an older count (second read's findings) | Fixed: the alert step re-reads the totals and creates the alert with ON CONFLICT DO NOTHING (not load-tested) |
+| axe clean on the homages list and /series/1959/ with link votes showing, dark and light | Pass |
+| CI checks: data, tokens, server types, both builds, site, a11y (54 pages) | Pass locally; see the pull request for GitHub's run |
 
 ## Decided here (Adam reviews later)
 
@@ -82,6 +92,10 @@ site (`npm run build:preview`). API checks: 36 (`scripts/e2e/votes-api.mjs`); pa
   This changes one promise from the accounts plan: record pages now make one request for the counts for every
   visitor (it was "visitors who never sign in make no API requests"). Other pages still make none.
 - **Thumb icons** are from Feather Icons (MIT licence), credited in `public/account.js`.
+- **Page weight:** each link adds an empty slot (about 60 bytes), so `/series/1959/` grows from 316 KB to 335 KB.
+  That is a warning against the 300 KB target, not a failure (the limit is 1.5 MB), and it was over before.
+- **Second read** (an independent review of the code) found two rare race conditions and a caching gap; all three are
+  fixed, along with its two small points (decisions follow set steps; made-up record keys are refused).
 
 ## Waiting on Adam
 
@@ -91,12 +105,12 @@ site (`npm run build:preview`). API checks: 36 (`scripts/e2e/votes-api.mjs`); pa
   added at Bluehost next to the Microsoft 365 ones, which stay) or Cloudflare Email Service after the nameserver move.
   Then add `VOTE_ALERT_EMAIL` (or `ADMIN_EMAILS`) with the address to notify. Until then the Moderation page is the
   only alert.
-- **Step 3 (votes on single connections):** yes or no.
 
 ## Found, for later
 
-- Records shown only as rows (connections, homages, media library items such as reviews and quotes) have no page of
-  their own and so no votes yet: step 3 covers connections; media library items would follow the same pattern.
+- Media library items that are not records (reviews, quotes and clips listed in the Media Library) have no key of
+  their own yet and so no votes; they would follow the same pattern as links.
+- A film's "Why it's here" ties (sentences with sources, not connections) are voted on through the film page.
 - Counts aren't shown on cards in lists, and lists can't be sorted by score yet.
 - A weekly summary email of open alerts, if Adam wants one.
 - Applying removals still needs a pull request; a "Removal applied" button marks them done afterwards. A GitHub

@@ -15,7 +15,9 @@ const post = (who, path, body) => fetch(B + path, { method: 'POST', headers: { '
     // Signed out
     await page.goto(B + P); await page.waitForSelector('.vote:not([hidden])');
     const up = await page.getAttribute('.vote-btn[data-vote="1"]', 'aria-label');
-    ok(up === 'Thumbs up, 2 votes', `${scheme} ${w} signed-out counts (${up})`);
+    // Signed-out counts are cached for a minute, so compare with what a signed-out reader gets from the API.
+    const anon = (await (await fetch(`${B}/api/votes?items=${K}`)).json()).votes[K].up;
+    ok(up === `Thumbs up, ${anon} ${anon === 1 ? 'vote' : 'votes'}`, `${scheme} ${w} signed-out counts (${up})`);
     await page.click('.vote-btn[data-vote="-1"]');
     ok(/Sign in to vote/.test(await page.textContent('.vote-msg')), `${scheme} ${w} signed-out click asks to sign in`);
     const sw = await page.evaluate(() => document.documentElement.scrollWidth); ok(sw <= w, `${scheme} ${w} no sideways scroll (${sw})`);
@@ -42,13 +44,39 @@ const post = (who, path, body) => fetch(B + path, { method: 'POST', headers: { '
     await page.screenshot({ path: `${S}/shots/moderation-votes-${w}-${scheme}.png`, fullPage: w === 320 ? false : true });
     await ctx.close();
   }
+  // Single links: the homages list and an episode's Legacy list.
+  for (const w of [320, 1440]) {
+    const ctx = await browser.newContext({ viewport: { width: w, height: w === 320 ? 640 : 900 }, colorScheme: 'dark' });
+    await ctx.addCookies([{ name: '__Host-tz_s', value: 'tok-bea', url: 'https://localhost:8788/', secure: true }, { name: 'tz_hint', value: 'bea', url: 'https://localhost:8788/', secure: true }]);
+    const page = await ctx.newPage();
+    await page.goto(B + '/television/homages/'); await page.waitForSelector('.link-vote.vote:not([hidden])');
+    const total = await page.locator('.link-vote').count();
+    const shown = await page.locator('.link-vote.vote:not([hidden])').count();
+    ok(shown > 0 && shown < total, `${w} homages: counts load near the screen first (${shown} of ${total})`);
+    if (w === 320) {
+      const first = page.locator('.link-vote.vote:not([hidden])').first();
+      await first.locator('.vote-btn[data-vote="1"]').click();
+      await page.waitForFunction(() => document.querySelector('.link-vote .vote-btn[data-vote="1"][aria-pressed="true"]'));
+      ok(/Thumbs up for this link, 1 vote/.test(await first.locator('.vote-btn[data-vote="1"]').getAttribute('aria-label')), 'vote on a single link');
+      await first.locator('.vote-btn[data-vote="1"]').click();
+      await page.waitForFunction(() => !document.querySelector('.link-vote .vote-btn[aria-pressed="true"]'));
+    }
+    await page.mouse.wheel(0, 20000); await page.waitForTimeout(800);
+    ok((await page.locator('.link-vote.vote:not([hidden])').count()) > shown, `${w} homages: more load on scrolling`);
+    const sw = await page.evaluate(() => document.documentElement.scrollWidth); ok(sw <= w, `${w} homages: no sideways scroll (${sw})`);
+    await page.evaluate(() => window.scrollTo(0, 0)); await page.waitForTimeout(300);
+    await page.locator('li:has(> p .link-vote.vote:not([hidden]))').nth(1).screenshot({ path: `${S}/shots/link-vote-homage-${w}.png` });
+    await page.goto(B + '/episodes/1959/time-enough-at-last/#legacy'); await page.waitForSelector('#legacy .link-vote.vote:not([hidden])');
+    await page.locator('#legacy').screenshot({ path: `${S}/shots/link-vote-legacy-${w}.png` });
+    await ctx.close();
+  }
   // axe on episode (signed in, votes visible) and moderation
   const axe = require('fs').readFileSync(require.resolve('axe-core/axe.min.js', { paths: [process.cwd()] }), 'utf8');
   for (const scheme of ['dark', 'light']) {
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 }, colorScheme: scheme });
     await ctx.addCookies([{ name: '__Host-tz_s', value: 'tok-adam', url: 'https://localhost:8788/', secure: true }, { name: 'tz_hint', value: 'adam', url: 'https://localhost:8788/', secure: true }]);
     const page = await ctx.newPage();
-    for (const p of [P, '/moderation/#q=votes', '/people/rod-serling/']) {
+    for (const p of [P, '/moderation/#q=votes', '/people/rod-serling/', '/television/homages/', '/series/1959/']) {
       await page.goto(B + p); await page.waitForSelector(p.startsWith('/moderation') ? '.mod-item' : '.vote:not([hidden])');
       await page.addScriptTag({ content: axe });
       const r = await page.evaluate(async () => await window.axe.run(document, { runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'] } }));

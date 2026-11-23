@@ -11,7 +11,7 @@ import { rateLimit } from './guard';
 import { sendEmail } from './email';
 import { type Ctx, requireAdmin, requireMod, requireUser } from './session';
 
-const MAX_KEYS_PER_READ = 20;
+const MAX_KEYS_PER_READ = 50; // D1 allows 100 bound parameters per query
 const PUBLIC_CACHE_SEC = 60;
 const ALERT_EMAILS_PER_DAY = 25;
 const DAY = 86_400_000;
@@ -57,7 +57,7 @@ export async function recountForMember(ctx: Ctx, keys: string[]) {
     const res = await db.batch(chunk.map((k) => recount(db, k)));
     for (let j = 0; j < chunk.length; j++) {
       const t = res[j].results[0] as Totals | undefined;
-      if (t) await checkAlert(ctx, chunk[j], items[chunk[j]], t);
+      if (t) await checkAlert(ctx, chunk[j], items[chunk[j]]);
     }
   }
 }
@@ -72,14 +72,17 @@ export async function memberVoteKeys(env: Env, userId: string) {
 
 function keysParam(url: URL) {
   const raw = (url.searchParams.get('items') ?? '').split(',').filter(Boolean);
-  if (!raw.length || raw.length > MAX_KEYS_PER_READ) throw new HttpError(400, 'bad_item', 'Ask for between 1 and 20 items.');
+  if (!raw.length || raw.length > MAX_KEYS_PER_READ) throw new HttpError(400, 'bad_item', `Ask for between 1 and ${MAX_KEYS_PER_READ} items.`);
   return [...new Set(raw.map((k) => itemKey(k, true)))].sort();
 }
 
 /** GET /api/votes?items=a,b: counts for each record, and the member's own vote when signed in. */
 export async function read(ctx: Ctx) {
   const url = new URL(ctx.req.url);
-  const keys = keysParam(url);
+  // Only records the site shows: made-up keys can't be used to get around the cache.
+  const items = await loadItems(ctx);
+  const keys = keysParam(url).filter((k) => items[k]);
+  if (!keys.length) throw new HttpError(404, 'unknown_item', 'Those records are not on the site.');
   const anonymous = !ctx.user;
   // Signed-out readers share one cached answer per set of records, so busy pages cost one database read a minute.
   const cache = anonymous && typeof caches !== 'undefined' ? (caches as unknown as { default: Cache }).default : null;
@@ -136,7 +139,7 @@ export async function cast(ctx: Ctx) {
         ON CONFLICT (user_id, item_key) DO UPDATE SET value = excluded.value, updated_at = excluded.updated_at`).bind(u.id, key, value, t);
   const [, totals] = await db.batch([write, recount(db, key)]);
   const tot = (totals.results[0] as Totals | undefined) ?? { up: 0, down: 0 };
-  await checkAlert(ctx, key, item, tot);
+  await checkAlert(ctx, key, item);
   return { item: key, up: tot.up, down: tot.down, mine: value };
 }
 
@@ -145,22 +148,28 @@ export async function cast(ctx: Ctx) {
 
 type AlertRow = { status: string; emailed_at: number | null; times: number };
 
-export async function checkAlert(ctx: Ctx, key: string, item: [string, string] | undefined, t: Totals) {
+/**
+ * Open, update or close a record's alert. It reads the totals again rather than trusting the caller's copy, so two
+ * votes landing together can't leave an alert based on an older count.
+ */
+export async function checkAlert(ctx: Ctx, key: string, item: [string, string] | undefined) {
   const db = ctx.env.DB!;
+  const t = (await db.prepare('SELECT up, down FROM vote_totals WHERE item_key = ?1').bind(key).first<Totals>()) ?? { up: 0, down: 0 };
   const net = t.up - t.down;
   const at = now();
   const row = await db.prepare('SELECT status, emailed_at, times FROM vote_alerts WHERE item_key = ?1').bind(key).first<AlertRow>();
   const [title, path] = item ?? [key, ''];
   if (net < 0) {
     if (!row) {
-      await db.prepare("INSERT INTO vote_alerts (item_key, title, path, status, up, down, times, opened_at) VALUES (?1, ?2, ?3, 'open', ?4, ?5, 1, ?6)").bind(key, title, path, t.up, t.down, at).run();
-      await notify(ctx, key, title, path, t, 1, null);
+      // ON CONFLICT: when two votes arrive together, only the one that creates the alert sends the email.
+      const made = await db.prepare("INSERT INTO vote_alerts (item_key, title, path, status, up, down, times, opened_at) VALUES (?1, ?2, ?3, 'open', ?4, ?5, 1, ?6) ON CONFLICT (item_key) DO NOTHING RETURNING item_key").bind(key, title, path, t.up, t.down, at).first();
+      if (made) await notify(ctx, key, title, path, t, 1, null);
       return;
     }
     if (row.status === 'recovered') {
       // A fresh fall below zero, after it had climbed back (or after Adam kept it and it climbed back).
-      await db.prepare("UPDATE vote_alerts SET status = 'open', up = ?2, down = ?3, times = times + 1, opened_at = ?4, title = ?5, path = ?6 WHERE item_key = ?1").bind(key, t.up, t.down, at, title, path).run();
-      await notify(ctx, key, title, path, t, row.times + 1, row.emailed_at);
+      const made = await db.prepare("UPDATE vote_alerts SET status = 'open', up = ?2, down = ?3, times = times + 1, opened_at = ?4, title = ?5, path = ?6 WHERE item_key = ?1 AND status = 'recovered' RETURNING item_key").bind(key, t.up, t.down, at, title, path).first();
+      if (made) await notify(ctx, key, title, path, t, row.times + 1, row.emailed_at);
       return;
     }
   } else if (row && (row.status === 'open' || row.status === 'kept')) {
@@ -232,10 +241,12 @@ export async function decide(ctx: Ctx) {
   const action = oneOf(body.action, ['keep', 'remove', 'applied', 'open'] as const, 'action');
   const note = str(body, 'note', { max: 1000, label: 'the note' });
   const status = ({ keep: 'kept', remove: 'remove', applied: 'applied', open: 'open' } as const)[action];
-  if (!ALERT_STATUSES.includes(status)) throw new HttpError(400, 'bad_value');
+  // Which states each decision can follow. A record back at zero or above ("recovered") needs no decision.
+  const from: Record<typeof action, (typeof ALERT_STATUSES)[number][]> = { keep: ['open', 'remove'], remove: ['open', 'kept'], applied: ['remove'], open: ['kept', 'remove', 'applied'] };
   const db = ctx.env.DB!;
-  const r = await db.prepare('UPDATE vote_alerts SET status = ?2, note = ?3, decided_by = ?4, decided_at = ?5 WHERE item_key = ?1').bind(key, status, note, admin.id, now()).run();
-  if (!r.meta.changes) throw new HttpError(404, 'not_found', 'That alert was not found.');
+  const allowed = from[action];
+  const r = await db.prepare(`UPDATE vote_alerts SET status = ?2, note = ?3, decided_by = ?4, decided_at = ?5 WHERE item_key = ?1 AND status IN (${allowed.map((s) => `'${s}'`).join(', ')})`).bind(key, status, note, admin.id, now()).run();
+  if (!r.meta.changes) throw new HttpError(404, 'not_found', 'That alert was not found, or was already decided.');
   await db.prepare('INSERT INTO audit_log (actor_id, action, target_type, target_id, note, at) VALUES (?1, ?2, ?3, ?4, ?5, ?6)').bind(admin.id, `vote-alert:${action}`, 'record', key, note, now()).run();
   return { ok: true };
 }

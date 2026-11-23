@@ -5,8 +5,9 @@ building it (docs/plans/fan-votes.md) and wait for his review.
 
 ## Decision
 
-- Every record page has a **thumbs up** and a **thumbs down** with their counts. Up and down cancel out: the
-  record's **score** is ups minus downs.
+- Every record page, and every single link between records (a homage, parody, reference, adaptation...), has a
+  **thumbs up** and a **thumbs down** with their counts (Adam chose votes on single links on 2026-11-23, 22:37 UTC).
+  Up and down cancel out: the record's or link's **score** is ups minus downs.
 - Voting needs a free member account: **one vote per member per record**, which they can switch or withdraw.
   Only active members' votes count.
 - When a record's score **falls below zero**, Adam is told: on the Moderation page ("Votes below zero") always, and by

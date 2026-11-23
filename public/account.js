@@ -53,7 +53,7 @@
     document.querySelectorAll('.record-actions[data-record-key]').forEach(function (box) {
       if (box.getAttribute('data-filled')) return;
       var key = box.getAttribute('data-record-key');
-      if (!/^[a-z0-9][a-z0-9-]*(\/[a-z0-9][a-z0-9._-]*)+$/.test(key)) return;
+      if (!KEY_RE.test(key)) return;
       var html = '';
       var has = function (list) { return document.querySelector('[data-track="' + list + '"][data-key="' + key + '"]'); };
       if (!has('favorite')) html += '<button type="button" class="track-btn" data-track="favorite" data-key="' + esc(key) + '" aria-pressed="false"><span aria-hidden="true" class="tick"></span>Favorite</button>';
@@ -71,51 +71,92 @@
   // Thumbs up / thumbs down (docs/plans/fan-votes.md). Counts are public; voting needs an account so each
   // fan counts once. The group stays hidden until the counts arrive, so it never shows where accounts are off.
   // Icons: Feather (MIT licence, feathericons.com).
+  var KEY_RE = /^[a-z0-9][a-z0-9-]*(\/[a-z0-9][a-z0-9._-]*)+$/;
   var THUMB_UP = '<svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>';
   var THUMB_DOWN = '<svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"/></svg>';
+  function voteButtons(what) {
+    return '<button type="button" class="vote-btn" data-vote="1" data-what="' + what + '" aria-pressed="false">' + THUMB_UP + '<span class="vote-n">0</span></button>' +
+      '<button type="button" class="vote-btn" data-vote="-1" data-what="' + what + '" aria-pressed="false">' + THUMB_DOWN + '<span class="vote-n">0</span></button>' +
+      '<span class="vote-msg" aria-live="polite"></span>';
+  }
   function voteGroup(key) {
-    return '<div class="vote" role="group" aria-label="Fan votes" data-vote-key="' + esc(key) + '" hidden>' +
-      '<button type="button" class="vote-btn" data-vote="1" aria-pressed="false">' + THUMB_UP + '<span class="vote-n">0</span></button>' +
-      '<button type="button" class="vote-btn" data-vote="-1" aria-pressed="false">' + THUMB_DOWN + '<span class="vote-n">0</span></button>' +
-      '<span class="vote-msg" aria-live="polite"></span></div>';
+    return '<div class="vote" role="group" aria-label="Fan votes" data-vote-key="' + esc(key) + '" hidden>' + voteButtons('') + '</div>';
+  }
+  // Single links (homages, references, adaptations): <span class="link-vote" data-vote-key="connections/..."> from
+  // src/components/fan/LinkVote.astro. Smaller buttons, same behaviour.
+  function setUpLinkVotes() {
+    document.querySelectorAll('.link-vote[data-vote-key]:not(.vote)').forEach(function (el) {
+      if (!KEY_RE.test(el.getAttribute('data-vote-key'))) return;
+      el.className = 'link-vote vote vote-sm';
+      el.setAttribute('role', 'group');
+      el.setAttribute('aria-label', 'Fan votes on this link');
+      el.hidden = true;
+      el.innerHTML = voteButtons(' for this link');
+    });
   }
   function paintVote(group, v) {
     var btns = group.querySelectorAll('.vote-btn');
     [[btns[0], v.up, 1, 'Thumbs up'], [btns[1], v.down, -1, 'Thumbs down']].forEach(function (b) {
+      var what = b[0].getAttribute('data-what') || '';
       b[0].querySelector('.vote-n').textContent = String(b[1]);
-      b[0].setAttribute('aria-label', b[3] + ', ' + b[1] + (b[1] === 1 ? ' vote' : ' votes'));
-      b[0].setAttribute('title', b[3]);
+      b[0].setAttribute('aria-label', b[3] + what + ', ' + b[1] + (b[1] === 1 ? ' vote' : ' votes'));
+      b[0].setAttribute('title', b[3] + what);
       b[0].setAttribute('aria-pressed', v.mine === b[2] ? 'true' : 'false');
     });
     group.hidden = false;
   }
-  function loadVotes() {
-    var groups = Array.prototype.slice.call(document.querySelectorAll('.vote[data-vote-key]')).slice(0, 20);
-    if (!groups.length) return;
-    var keys = groups.map(function (g) { return g.getAttribute('data-vote-key'); });
-    fetch('/api/votes?items=' + keys.map(encodeURIComponent).join(',') + (handle ? '&me=1' : ''), { credentials: 'same-origin' })
-      .then(function (r) { return r.ok ? r.json() : null; })
+  function groupsFor(key) {
+    return Array.prototype.filter.call(document.querySelectorAll('.vote[data-vote-key]'), function (g) { return g.getAttribute('data-vote-key') === key; });
+  }
+
+  // Counts load as groups come near the screen, 50 at a time (a long homage list doesn't load all at once).
+  var votesOff = false, queued = {}, loaded = {}, timer = 0, observer = null;
+  function want(key) { if (votesOff || loaded[key] || queued[key]) return; queued[key] = 1; clearTimeout(timer); timer = setTimeout(flush, 60); }
+  function flush() {
+    var keys = Object.keys(queued);
+    queued = {};
+    for (var i = 0; i < keys.length; i += 50) fetchVotes(keys.slice(i, i + 50));
+  }
+  function fetchVotes(keys) {
+    keys.forEach(function (k) { loaded[k] = 1; });
+    fetch('/api/votes?items=' + keys.map(encodeURIComponent).join(',') + (handle ? '&me=1' : ''), { credentials: 'same-origin', cache: handle ? 'no-store' : 'default' })
+      .then(function (r) { if (r.status === 503) votesOff = true; return r.ok ? r.json() : null; })
       .then(function (d) {
         if (!d || !d.votes) return; // accounts not switched on here: leave the buttons hidden
-        groups.forEach(function (g) { var v = d.votes[g.getAttribute('data-vote-key')]; if (v) paintVote(g, v); });
+        keys.forEach(function (k) { var v = d.votes[k]; if (v) groupsFor(k).forEach(function (g) { paintVote(g, v); }); });
       })
-      .catch(function () { /* offline: no votes shown */ });
+      .catch(function () { keys.forEach(function (k) { delete loaded[k]; }); });
+  }
+  function loadVotes(again) {
+    setUpLinkVotes();
+    if (again) loaded = {};
+    var groups = document.querySelectorAll('.vote[data-vote-key]');
+    if (!groups.length) return;
+    if (!('IntersectionObserver' in window)) { groups.forEach(function (g) { want(g.getAttribute('data-vote-key')); }); return; }
+    // A hidden group has no box to watch, so watch the row (or actions bar) it sits in.
+    if (!observer) observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) en.target.querySelectorAll(':scope > .vote[data-vote-key]').forEach(function (g) { want(g.getAttribute('data-vote-key')); });
+      });
+    }, { rootMargin: '600px 0px' });
+    groups.forEach(function (g) { var row = g.parentElement; observer.unobserve(row); observer.observe(row); });
   }
   document.addEventListener('click', function (e) {
     var btn = e.target.closest ? e.target.closest('.vote-btn') : null;
     if (!btn) return;
     var group = btn.closest('.vote');
+    var key = group.getAttribute('data-vote-key');
     var msg = group.querySelector('.vote-msg');
     if (!handle) {
       msg.innerHTML = '<a href=' + "'" + '/account/' + "'" + '>Sign in to vote</a>. Votes need a free account so each fan counts once.';
       return;
     }
-    var want = Number(btn.getAttribute('data-vote'));
-    var value = btn.getAttribute('aria-pressed') === 'true' ? 0 : want; // pressing your vote again withdraws it
+    var chosen = Number(btn.getAttribute('data-vote'));
+    var value = btn.getAttribute('aria-pressed') === 'true' ? 0 : chosen; // pressing your vote again withdraws it
     group.querySelectorAll('.vote-btn').forEach(function (b) { b.disabled = true; });
-    api('/api/votes', { item: group.getAttribute('data-vote-key'), value: value })
+    api('/api/votes', { item: key, value: value })
       .then(function (r) {
-        paintVote(group, r);
+        groupsFor(key).forEach(function (g) { paintVote(g, r); });
         msg.textContent = value === 0 ? 'Vote withdrawn.' : 'Thanks, your vote is in.';
       })
       .catch(function (err) {
@@ -150,7 +191,7 @@
 
   // When the account page signs someone in or out, it tells us.
   window.tzAccount = {
-    signedIn: function (h) { handle = h; paintSlot(); sync(true); loadVotes(); },
+    signedIn: function (h) { handle = h; paintSlot(); sync(true); loadVotes(true); },
     signedOut: function () {
       handle = '';
       // Only clear the browser copy if it belongs to an account; a visitor's own checklist stays.
@@ -161,7 +202,7 @@
       if (window.tzTracker) window.tzTracker.set({});
       document.dispatchEvent(new CustomEvent('tz:synced'));
       paintSlot();
-      loadVotes();
+      loadVotes(true);
     },
     handle: function () { return handle; },
   };

@@ -77,20 +77,24 @@ details > summary { cursor: pointer; }
 .record-actions .track-btn:focus-visible, .record-actions .action-link:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 .record-actions .action-link { font-size: var(--step--1); color: var(--link); }
 
-/* Fan votes (thumbs up / down) in a record's actions bar */
-.record-actions .vote { display: inline-flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); }
-.record-actions .vote[hidden] { display: none; }
-.record-actions .vote-btn {
+/* Fan votes (thumbs up / down): in a record's actions bar, and small beside a single link (.vote-sm) */
+.vote { display: inline-flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); }
+.vote[hidden] { display: none; }
+.vote-btn {
   display: inline-flex; align-items: center; gap: 6px; min-height: 40px; min-width: 56px; padding: 6px 12px; font: inherit; font-size: var(--step--1);
   font-variant-numeric: tabular-nums; color: var(--text); background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--radius-pill); cursor: pointer;
 }
-.record-actions .vote-btn:hover { border-color: var(--muted); }
-.record-actions .vote-btn[aria-pressed="true"] { border-color: var(--brass); color: var(--brass); }
-.record-actions .vote-btn[aria-pressed="true"] svg { fill: currentColor; fill-opacity: 0.25; }
-.record-actions .vote-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
-.record-actions .vote-btn[disabled] { cursor: progress; opacity: 0.7; }
-.record-actions .vote-msg { font-size: var(--step--1); color: var(--muted); }
-.record-actions .vote-msg:empty { display: none; }
+.vote-btn:hover { border-color: var(--muted); }
+.vote-btn[aria-pressed="true"] { border-color: var(--brass); color: var(--brass); }
+.vote-btn[aria-pressed="true"] svg { fill: currentColor; fill-opacity: 0.25; }
+.vote-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.vote-btn[disabled] { cursor: progress; opacity: 0.7; }
+.vote-msg { font-size: var(--step--1); color: var(--muted); }
+.vote-msg:empty { display: none; }
+.vote-sm { gap: 4px; vertical-align: middle; margin-left: 2px; }
+.vote-sm .vote-btn { min-height: 28px; min-width: 44px; padding: 2px 8px; gap: 4px; font-size: 0.8rem; }
+.vote-sm .vote-btn svg { width: 14px; height: 14px; }
+.vote-sm .vote-msg { flex-basis: 100%; }
 
 /* Forums */
 .forum-list { list-style: none; padding: 0; margin: 0; border: 1px solid var(--line-strong); border-radius: var(--radius-md); overflow: hidden; }
