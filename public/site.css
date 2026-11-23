@@ -473,6 +473,17 @@ select, input, textarea { max-width: 100%; }
 .tv-results[hidden] { display: none; }
 .tv-series .count { font-size: 1.6rem; }
 .tv-feature { margin: var(--space-4) 0 var(--space-6); }
+.tz-four .count { font-size: 1.6rem; }
+.tz-four h3 a { text-decoration: none; }
+.tz-runs { margin: var(--space-3) 0 0; }
+.tz-runs li { display: grid; grid-template-columns: 3.2em 1fr; column-gap: var(--space-3); align-items: center; padding: 6px 0; }
+.tz-runs-track { position: relative; height: 12px; border-radius: var(--radius-pill); background: var(--surface-3); }
+.tz-runs-bar { position: absolute; top: 0; bottom: 0; border-radius: var(--radius-pill); background: var(--brass); }
+.tz-runs-dates { grid-column: 2; }
+.tz-runs-ticks { position: relative; height: 1.4em; margin: 0 0 var(--space-2) calc(3.2em + var(--space-3)); }
+.tz-runs-ticks span { position: absolute; transform: translateX(-50%); }
+@media (max-width: 560px) { .tz-runs-ticks .tick-minor { display: none; } .tz-runs-ticks span:last-child { transform: translateX(-80%); } }
+.tz-retold li, .tz-themes li { padding: 4px 0; border-bottom: 1px solid var(--line); }
 .two-col { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: var(--space-6); margin: var(--space-6) 0; }
 ol.rank { padding-left: 1.6em; margin: var(--space-3) 0; }
 ol.rank li { padding: 4px 0; border-bottom: 1px solid var(--line); }

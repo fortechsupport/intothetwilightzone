@@ -3,6 +3,21 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-23 — The Twilight Zone on television: one parent page for the four series
+
+A visitor can now open The Twilight Zone (Watch > Television > The Twilight Zone, `/series/twilight-zone/`). It is one page
+for the show on television as a whole, as Adam asked:
+- a card for each of the four series (1959, 1985, 2002, 2019) with its years, network, host, seasons, episode count and
+  where to watch, linking to the series page and to its list of episodes
+- the four runs drawn on one 1959 to 2020 line, from the first and last broadcast dates
+- the 10 later episodes that remake or rework an original one
+- who wrote and directed the most episodes, and the most common themes, across all four series
+
+The navigation trail now runs through it: Television › The Twilight Zone › 1985 series › Season 3 › the episode.
+
+**Known not to work yet:** the page counts from the records and has no history text of its own yet; the series pages
+carry each run's sourced history.
+
 ## 2026-11-23 — Adam's Television review: 61 records published
 
 Adam marked every record in the two Television review sheets "include", with no notes:

@@ -57,7 +57,8 @@ const LABEL: Record<string, string> = { '1959': 'The original series', '1985': '
     <ul id="tv-results" class="tv-results plain" hidden></ul>
   </form>
 
-  <h2>The Twilight Zone</h2>
+  <h2><a href="/series/twilight-zone/">The Twilight Zone</a></h2>
+  <p class="small"><a href="/series/twilight-zone/">About the four series together</a>: their runs, the stories retold, and who wrote and directed the most.</p>
   <div class="grid tv-series">
     {series.map((s) => (
       <a class="card" href={`/series/${s.id}/`}>

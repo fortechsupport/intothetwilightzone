@@ -74,7 +74,7 @@ Each verb lists its purpose, what belongs in it, what does not, and its categori
 | | Unmade projects **(new)** | Announced films that were never made | Planned revival films | 4 |
 | **Stage** | Live readings | Staged readings and radio-style live shows | Live readings of classic scripts | 4 |
 | | Theatre | Stage plays and adaptations | *The Twilight Zone* stage adaptation (Almeida Theatre, 2017) | 15 |
-| **Television** (`/series/`) | The Twilight Zone | The four official series and revivals; each has a page per episode | *The Twilight Zone* (1959, 1985, 2002, 2019) | 4 |
+| **Television** (`/series/`) | The Twilight Zone | The four official series and revivals. A parent page (`/series/twilight-zone/`, Adam 2026-11-23) links to each series page, and each series page links to a page per episode | *The Twilight Zone* (1959, 1985, 2002, 2019) | 4 |
 | | All Twilight Zone episodes | Every episode of the four series, by series and season | "Time Enough at Last", "The Monsters Are Due on Maple Street" | 329 |
 | | Rod Serling's series | Night Gallery, Serling's other series, and the plays he wrote for other anthologies, each show on one page with an episode explorer | *Night Gallery* (`/night-gallery/`), *The Loner*, *Playhouse 90* | 73 |
 | | Fellow anthologies | Anthologies like The Twilight Zone, tagged by how they connect (cited by their makers, by Twilight Zone writers, compared by critics) | *The Outer Limits*, *Black Mirror* | 34 |

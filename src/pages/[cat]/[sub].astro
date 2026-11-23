@@ -11,7 +11,9 @@ import { watchFor, watchShort } from '../../lib/watch';
 
 export async function getStaticPaths() {
   const cats = await catalog();
-  return [...cats.values()].flatMap((c) => c.subs.map((s) => ({ params: { cat: c.slug, sub: s.slug }, props: { c, s } })));
+  // Pages with their own design at a shelf's address: /series/twilight-zone/ (src/pages/series/twilight-zone.astro).
+  const OWN = new Set(['series/twilight-zone']);
+  return [...cats.values()].flatMap((c) => c.subs.filter((s) => !OWN.has(`${c.slug}/${s.slug}`)).map((s) => ({ params: { cat: c.slug, sub: s.slug }, props: { c, s } })));
 }
 interface Props { c: CatInfo; s: SubInfo }
 const { c, s } = Astro.props;
