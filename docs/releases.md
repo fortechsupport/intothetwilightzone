@@ -3,6 +3,16 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-23 — "Compared to" for links that are only likenesses
+
+A visitor now sees "Compared to" instead of "Inspired by" wherever the only source for a link is a critic's or fan's
+comparison: among them Groundhog Day and "Shadow Play", The Truman Show, The Matrix and Liar Liar, 53 links in all. These are gathered on a
+new Legacy shelf, Discover > Legacy > Compared to the show (new). "Inspired by" now means the makers, or a published
+source, say the episode inspired the work. Adam chose this on 2026-11-23 (decision 0006).
+
+**Known not to work yet:** Some fan-noted TV "homages" are really passing references or parodies and still carry the
+wrong label. About 26 older links still show research shorthand in their evidence.
+
 ## 2026-11-23 — Fans' film links checked
 
 Adam asked that links fans have noted be verified. Every film link marked "Noted by fans" has now been checked, and 26 of

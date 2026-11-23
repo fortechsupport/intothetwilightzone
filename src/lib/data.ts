@@ -12,6 +12,8 @@ export const CONNECTION_LABELS: Record<string, string> = {
   'official-adaptation': 'Official adaptation',
   remake: 'Remake',
   'inspired-by': 'Inspired by',
+  // A resemblance that critics or fans point out, with no maker or source saying the episode inspired it (decision 0006).
+  compared: 'Compared to',
   homage: 'Homage',
   parody: 'Parody',
   reference: 'Reference',
@@ -39,6 +41,7 @@ export const CONNECTION_VERBS: Record<string, string> = {
   'official-adaptation': 'Adapts',
   remake: 'Remake of',
   'inspired-by': 'Inspired by',
+  compared: 'Compared to',
   homage: 'Homage to',
   parody: 'Parody of',
   reference: 'Refers to',

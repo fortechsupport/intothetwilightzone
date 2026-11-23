@@ -211,11 +211,12 @@ points to no single episode. Television films go to Movies; radio-only anthologi
 | | Trials, lawsuits and rights | Legal history | The 1982 *Twilight Zone: The Movie* accident and trial | 18 |
 | | Other milestones | | | 5 |
 | **Legacy** | Adaptations and remakes | Retellings of a TZ story | *Twilight Zone: The Movie* segments of "It's a Good Life" and "Kick the Can" (official) | 12 |
+| | Compared to the show **(new)** | Works critics or fans compare with an episode, where no maker or source says it inspired them | *Groundhog Day* and "Shadow Play" | 53 |
 | | Fan-made **(new)** | Fan films, fan art, fan fiction and fan communities' own work | Fan-produced episodes | 0 yet; 7 fan-community records to review |
 | | Homages | Deliberate tributes | Films built as tributes to the series | 72 |
 | | In everyday language | The phrase "twilight zone" and its use in culture | Use of the phrase in news and politics | 11 |
 | | In other shows | TV episodes of other series that pay tribute | *The Simpsons*, "Treehouse of Horror" segments | 160 |
-| | Inspired by | Works whose creators say TZ inspired them | Works by creators who credit the show | 107 |
+| | Inspired by | Works whose creators, or a published source, say TZ inspired them | Works by creators who credit the show | 61 |
 | | Parodies | Comic imitations | *The Simpsons*, "Treehouse of Horror IV" (1993) | 67 |
 | | References | Passing mentions and quotations | The *Tower of Terror* TV film (1997) | 330 |
 

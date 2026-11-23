@@ -201,13 +201,15 @@ def rec_by_evidence(tier: str, d: dict, what: str) -> tuple[str, str]:
 
 CONF_TEXT = {"confirmed-by-creator": "the makers have said so", "documented": "a published source makes the link",
              "fan-noted": "only fans have pointed it out; no source confirms it"}
-KIND_VERB = {"official-adaptation": "an official adaptation of", "remake": "a remake of", "inspired-by": "inspired by",
+KIND_VERB = {"official-adaptation": "an official adaptation of", "remake": "a remake of", "inspired-by": "inspired by", "compared": "often compared with",
              "homage": "an homage to", "parody": "a parody of", "reference": "a reference to",
              "lyric-mention": "a lyric mention of"}
 
 
 def fan_rec(kind: str, summ: str, res: dict):
     """Recommendation for a fan-noted link that is an explicit on-screen reference rather than a resemblance."""
+    if kind == "compared":
+        return ("include", "Shown as a comparison, not an influence: critics or fans compare it with the episode, and the evidence says what is known.")
     if res:
         return None
     if kind in ("parody", "homage", "reference", "lyric-mention") and (not summ or len(summ) < 30 or " is a reference to " in summ or " is an homage to " in summ or " is a parody of " in summ):

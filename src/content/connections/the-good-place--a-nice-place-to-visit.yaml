@@ -1,14 +1,10 @@
 from: films/the-good-place
 to: 1959/a-nice-place-to-visit
-kind: inspired-by
+kind: compared
 confidence: fan-noted
-evidence: 'Several outlets note that the sitcom''s first-season twist matches ''A Nice Place to Visit'', where a
-  paradise turns out to be the other place. No source found shows that Michael Schur took it from the episode, so
-  this is a documented similarity, not documented inspiration. Checked 2026-11-20: Slashfilm''s Michael Boyle compares
-  the season 1 twist to ''A Nice Place to Visit'' but says outright that Michael Schur has never claimed the episode
-  as inspiration and has pointed to Sartre''s No Exit instead; TVLine likewise only notes the similarity. Critic
-  comparison only. Schur''s stated influence is No Exit, so the site text should say ''compared to'', not ''inspired
-  by''.'
+evidence: Several outlets note that the sitcom's first-season twist matches 'A Nice Place to Visit', where a paradise turns
+  out to be the other place. SlashFilm's Michael Boyle makes the comparison but says Michael Schur has never claimed the
+  episode as an inspiration and has pointed to Sartre's No Exit instead; TVLine likewise only notes the similarity.
 sources:
 - title: One Episode Of The Twilight Zone Had The Same Twist As The Good Place (/Film)
   url: https://www.slashfilm.com/1414453/one-twilight-zone-episode-same-twist-the-good-place

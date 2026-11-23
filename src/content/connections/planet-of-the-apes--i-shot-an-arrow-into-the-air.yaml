@@ -1,12 +1,12 @@
 from: films/planet-of-the-apes
 to: 1959/i-shot-an-arrow-into-the-air
-kind: inspired-by
+kind: compared
 confidence: documented
 summary: Rod Serling co-wrote the 1968 screenplay, and Syfy Wire compares its twist, stranded astronauts who learn they
   never left Earth, to the twist of this episode.
-evidence: 'Checked 2026-11-23: the comparison is a critic''s, made in Syfy Wire and cited by Wikipedia; Serling wrote
-  both, but no statement of his linking the two has been found yet. Checked 2026-11-23: Den of Geek (2017) lists the
-  film among the show''s "borrowed plots", paired with this episode.'
+evidence: 'Checked 2026-11-23: the comparison is a critic''s, made in Syfy Wire and cited by Wikipedia; Serling wrote both,
+  but no statement of his linking the two has been found yet. Checked 2026-11-23: Den of Geek (2017) lists the film among
+  the show''s "borrowed plots", paired with this episode.'
 sources:
 - title: I Shot an Arrow into the Air (Wikipedia)
   url: https://en.wikipedia.org/wiki/I_Shot_an_Arrow_into_the_Air
