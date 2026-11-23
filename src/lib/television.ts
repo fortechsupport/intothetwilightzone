@@ -18,7 +18,7 @@ export { isEntryOnly };
 
 export interface ExPerson { name: string }
 export interface ExSegment { title: string; summary?: string; source_title?: string; source_authors: string[]; writers: string[]; directors: string[]; cast: string[]; adapts?: { title: string; href: string }; themes: string[] }
-export interface ExLink { kind: string; certainty: string; title: string; href: string; evidence?: string }
+export interface ExLink { id: string; kind: string; certainty: string; title: string; href: string; evidence?: string }
 export interface ExEntry {
   id: string;
   title: string;
@@ -87,7 +87,7 @@ export async function explorerEntries(ids: string[]): Promise<ExEntry[]> {
     const mine = conns.filter((x) => x.data.from === `films/${id}`);
     for (const c of mine) {
       const t = await resolveTz(c.data.to);
-      if (t) links.push({ kind: c.data.kind, certainty: c.data.confidence, title: t.title, href: t.href, evidence: c.data.evidence ?? c.data.summary });
+      if (t) links.push({ id: c.id, kind: c.data.kind, certainty: c.data.confidence, title: t.title, href: t.href, evidence: c.data.evidence ?? c.data.summary });
     }
     const segments: ExSegment[] = [];
     for (const sg of d.segments) {

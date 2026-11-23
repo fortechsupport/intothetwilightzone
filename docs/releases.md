@@ -17,6 +17,23 @@ Roger Ebert on RogerEbert.com. Both are linked, never copied.
 Twilight Zone (2000) still rests on IMDb and Moviefone alone. Posters and official trailers are not yet attached to most
 films. The Ebert review's page shows no date, so none is given.
 
+## 2026-11-23 — Fan votes: thumbs up and down on every record (switch on with fan accounts)
+
+**Fans can vote on anything on the site.** Once fan accounts are switched on (docs/ACCOUNTS_SETUP.md):
+- Every record page (people, characters, places, organizations, episodes, films, books, songs and the rest: 6,045
+  pages) shows a **thumbs up** and a **thumbs down** with their counts, next to Favorite and Later.
+- So does every single link between records (566 homages, parodies, references and adaptations), wherever it is
+  listed, so fans can vote on one tie, such as a film link noted only by fans.
+- A signed-in member votes once per record, and can switch or withdraw their vote. Anyone can see the counts.
+- When a record's score (ups minus downs) falls below zero, Adam sees it on the Moderation page under **Votes below
+  zero** and decides: **Keep it** or **Mark for removal**. Nothing is removed automatically.
+
+**Known not to work yet**
+- Nothing shows until the Cloudflare setup is done; the buttons stay hidden until then.
+- No alert emails until email sending is set up; the Moderation page is the alert until then.
+- Reviews, quotes and clips in the Media Library that aren't records of their own can't be voted on yet.
+- Lists don't show counts and can't be sorted by score.
+
 ## 2026-11-23 — Clearer labels and plain-words evidence on older links
 
 Thirteen links from TV episodes that were labelled "Homage" now say what they are: five passing references (a theme cue,
@@ -260,6 +277,29 @@ gaps, and a recommended order. Adam works through it one category at a time: con
 decisions, then the pages.
 
 **Known not to work yet:** nothing new; the checklist's "Found, for later" list names four placement issues.
+
+## 2026-11-21 — Fan accounts (switch on after Cloudflare setup)
+
+**Free member accounts.** Once switched on (docs/ACCOUNTS_SETUP.md), a visitor can:
+- Create an account with a passkey (face, fingerprint or screen lock; no password) and sign in on any device.
+- Keep **Favorites** and **Watch, listen, read or play later** lists, alongside Watched, I own it and Want it,
+  on every device. Anything marked before signing up comes with them. My Zone shows all five lists.
+- Join the **forums** (/community/): ten forums, a Discuss link on record pages, replies, editing and deleting
+  their own posts, and reporting.
+- **Suggest** a correction, something new or an idea, privately, and follow its review status.
+- **Share their work**: images, audio, video, PDFs, written pieces or links, shown in Fan contributions
+  once approved.
+- Download all their data, or delete their account.
+
+The editor gets a **Moderation** page for suggestions, uploads, held posts, reports and copyright notices.
+New pages: Terms of use, Privacy notice, Copyright (with a notice form), Community guidelines.
+
+**Known not to work yet**
+- Nothing member-related works until the Cloudflare setup is done; until then those pages say "being set up".
+- Email sign-in links and Google sign-in are off until their settings are added.
+- No email notifications (replies, approvals); members see statuses on their account page.
+- Photos are not resized and their location data is not removed automatically (the upload form says so).
+- Forum posts are not in site search.
 
 ## 2026-11-21 (later) — Faster long pages and a polish pass
 

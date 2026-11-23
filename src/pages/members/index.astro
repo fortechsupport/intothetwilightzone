@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Member" description="A member of the IntoTheTwilightZone.com community." noindex>
+  <div class="community" id="root" data-pagefind-ignore>
+    <p class="breadcrumb"><a href="/community/">Community</a> / Members</p>
+    <h1 id="title">Loading…</h1>
+    <p class="small" id="meta"></p>
+    <div id="bio"></div>
+    <section id="fav" hidden><h2>Favorites</h2><ul class="plain rows" id="fav-list"></ul></section>
+    <h2>Fan contributions</h2>
+    <ul class="gallery" id="uploads"></ul>
+    <h2>Recent posts</h2>
+    <ul class="forum-list" id="posts"></ul>
+    <p id="tools"></p>
+  </div>
+  <script>
+    import { api, me, esc, when, renderText, itemLabel, ROLE_LABEL } from '../../lib/account/client';
+    import { wireReports, uploadKindLabel } from '../../lib/account/community';
+    const h = new URLSearchParams(location.search).get('h') ?? '';
+    const $ = (x: string) => document.getElementById(x)!;
+    let signedIn = false;
+    wireReports($('root'), () => signedIn);
+    (async () => {
+      try {
+        const [m, r] = await Promise.all([me(), api(`/api/members/${encodeURIComponent(h)}`)]);
+        signedIn = !!m.user;
+        const p = r.member;
+        document.title = `${p.display_name} (@${p.handle}) · IntoTheTwilightZone.com`;
+        $('title').textContent = p.display_name;
+        $('meta').innerHTML = `@${esc(p.handle)}${p.role !== 'member' ? ` · <span class="role-badge">${esc(ROLE_LABEL[p.role as 'admin'])}</span>` : ''} · member since ${new Date(p.created_at).toLocaleDateString(undefined, { year: 'numeric', month: 'long' })} · ${p.postCount} post${p.postCount === 1 ? '' : 's'}`;
+        $('bio').innerHTML = p.bio ? renderText(p.bio) : '';
+        if (r.favorites) {
+          $('fav').hidden = false;
+          const items = await Promise.all(r.favorites.map(async (f: any) => ({ ...(await itemLabel(f.item_key)), key: f.item_key })));
+          $('fav-list').innerHTML = items.length ? items.map((i: any) => `<li>${i.href ? `<a href='${esc(i.href)}'>${esc(i.title)}</a>` : esc(i.title)} <span class="muted small">${esc(i.cat)}</span></li>`).join('') : '<li class="muted">No favorites yet.</li>';
+        }
+        $('uploads').innerHTML = r.uploads.length ? r.uploads.map((u: any) => `<li><a href='/community/uploads/view/?id=${esc(u.id)}'><div class="thumb">${u.kind === 'file' && u.media_type.startsWith('image/') ? `<img src='/api/uploads/${esc(u.id)}/file' alt="" loading="lazy">` : esc(uploadKindLabel(u))}</div><div class="meta"><h3>${esc(u.title)}</h3><p class="small muted">${when(u.created_at)}</p></div></a></li>`).join('') : '<li class="muted" style="padding:12px">Nothing shared yet.</li>';
+        $('posts').innerHTML = r.posts.length ? r.posts.map((x: any) => `<li><div><h3><a href='/community/topic/?id=${esc(x.topic_id)}#p-${esc(x.id)}'>${esc(x.title)}</a></h3><p class="small muted">${esc(x.excerpt)}${x.excerpt.length >= 240 ? '…' : ''}</p></div><div class="stats">${when(x.created_at)}</div></li>`).join('') : '<li class="muted">No posts yet.</li>';
+        if (signedIn && m.user!.handle !== p.handle) $('tools').innerHTML = `<button class="link-btn" data-report-type="user" data-report-id="${esc(p.id)}">Report this profile</button>`;
+      } catch (e: any) { $('title').textContent = e.status === 404 ? 'Member not found' : 'This profile could not load'; $('meta').textContent = e.message; }
+    })();
+  </script>
+</Base>

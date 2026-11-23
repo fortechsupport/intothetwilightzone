@@ -1,12 +1,16 @@
 ---
-// Watched / owned / wanted toggles for any record, saved in this browser only (public/fan.js).
+// Watched / owned / wanted / favorite / later toggles for a record (public/fan.js). Saved in this browser,
+// and in the member's account when they are signed in (public/account.js).
 interface Props { recKey: string; seen?: 'watched' | 'read' | 'heard' | 'played' | 'visited' | false; own?: boolean }
 const { recKey, seen = 'watched', own = true } = Astro.props;
 const SEEN_LABEL = { watched: 'Watched', read: 'Read', heard: 'Listened', played: 'Played', visited: 'Visited' } as const;
+const LATER_LABEL = { watched: 'Watch later', read: 'Read later', heard: 'Listen later', played: 'Play later', visited: 'Visit later' } as const;
 ---
 <div class="track" role="group" aria-label="My checklist" data-pagefind-ignore>
   {seen && <button type="button" data-track="watched" data-key={recKey} aria-pressed="false"><span aria-hidden="true" class="tick"></span>{SEEN_LABEL[seen]}</button>}
   {own && <button type="button" data-track="owned" data-key={recKey} aria-pressed="false"><span aria-hidden="true" class="tick"></span>I own it</button>}
   {own && <button type="button" data-track="wanted" data-key={recKey} aria-pressed="false"><span aria-hidden="true" class="tick"></span>Want it</button>}
+  <button type="button" data-track="favorite" data-key={recKey} aria-pressed="false"><span aria-hidden="true" class="tick"></span>Favorite</button>
+  {seen && seen !== 'visited' && <button type="button" data-track="later" data-key={recKey} aria-pressed="false"><span aria-hidden="true" class="tick"></span>{LATER_LABEL[seen]}</button>}
   <a class="small muted" href="/my-zone/">My Zone</a>
 </div>

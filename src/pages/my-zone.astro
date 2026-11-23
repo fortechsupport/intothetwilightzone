@@ -2,10 +2,11 @@
 import Base from '../layouts/Base.astro';
 import { SERIES_LABEL } from '../lib/fan';
 ---
-<Base title="My Zone" description="Your personal Twilight Zone checklist: episodes watched, items owned and wanted, saved in this browser with no account." noindex>
+<Base title="My Zone" description="Your personal Twilight Zone checklist: favorites, watch, listen and read later, episodes watched, items owned and wanted." noindex>
   <p class="breadcrumb"><a href="/start/">Start here</a> / My Zone</p>
   <h1>My Zone</h1>
-  <p class="lead">Everything you have marked <strong>Watched</strong>, <strong>I own it</strong> or <strong>Want it</strong> anywhere on the site. It is stored only in this browser: there is no account, and nothing is sent to us. Use the export button to keep a copy or move it to another device.</p>
+  <p class="lead">Everything you have marked <strong>Favorite</strong>, <strong>Later</strong>, <strong>Watched</strong>, <strong>I own it</strong> or <strong>Want it</strong> anywhere on the site.</p>
+  <p class="small" id="mz-where" data-pagefind-ignore>It is saved in this browser. <a href="/account/">Create a free account</a> to keep it on every device; what you've already marked comes with you.</p>
 
   <div id="mz" data-pagefind-ignore>
     <h2>Episodes watched</h2>
@@ -21,11 +22,15 @@ import { SERIES_LABEL } from '../lib/fan';
     </div>
     <p class="small"><a href="/finder/?seen=no">Find episodes you haven't watched yet</a> · <a href="/paths/">Viewing paths</a></p>
 
-    <h2>I own it <span class="count-pill" id="mz-owned-n">0</span></h2>
+    <h2 id="favorite">Favorites <span class="count-pill" id="mz-favorite-n">0</span></h2>
+    <ul class="plain" id="mz-favorite"></ul>
+    <h2 id="later">Watch, listen or read later <span class="count-pill" id="mz-later-n">0</span></h2>
+    <ul class="plain" id="mz-later"></ul>
+    <h2 id="owned">I own it <span class="count-pill" id="mz-owned-n">0</span></h2>
     <ul class="plain" id="mz-owned"></ul>
-    <h2>Want it <span class="count-pill" id="mz-wanted-n">0</span></h2>
+    <h2 id="wanted">Want it <span class="count-pill" id="mz-wanted-n">0</span></h2>
     <ul class="plain" id="mz-wanted"></ul>
-    <h2>Watched, read or heard, not episodes <span class="count-pill" id="mz-other-n">0</span></h2>
+    <h2 id="watched">Watched, read or heard, not episodes <span class="count-pill" id="mz-other-n">0</span></h2>
     <ul class="plain" id="mz-other"></ul>
 
     <h2>Keep a copy</h2>
@@ -68,9 +73,16 @@ import { SERIES_LABEL } from '../lib/fan';
         card.querySelector('.meter')!.setAttribute('aria-valuenow', String(pct));
         card.querySelector('.mz-of')!.textContent = `of ${all.length} episodes (${pct}%)`;
       });
+      list('mz-favorite', Object.keys(t.favorite ?? {}));
+      list('mz-later', Object.keys(t.later ?? {}));
       list('mz-owned', Object.keys(t.owned));
       list('mz-wanted', Object.keys(t.wanted));
       list('mz-other', Object.keys(t.watched).filter((k) => !k.startsWith('episodes/')));
+    }
+    document.addEventListener('tz:synced', () => { if (eps.length) render(); });
+    if ((window as any).tzAccount?.handle?.()) {
+      document.getElementById('mz-where')!.innerHTML = `Saved in your account, <a href='/account/'>@${esc((window as any).tzAccount.handle())}</a>, and kept in step on every device where you sign in.`;
+      document.getElementById('mz-clear')!.hidden = true;
     }
     Promise.all([fetch('/fan/episodes.json').then((r) => r.json()), fetch('/fan/records.json').then((r) => r.json())]).then(([e, r]) => { eps = e; recs = r; render(); });
     const status = document.getElementById('mz-status')!;
@@ -88,7 +100,10 @@ import { SERIES_LABEL } from '../lib/fan';
         const d = JSON.parse(await f.text());
         const cur = tz().get();
         const merge = (a: object, b: unknown) => ({ ...a, ...(b && typeof b === 'object' ? b : {}) });
-        tz().set({ watched: merge(cur.watched, d.watched), owned: merge(cur.owned, d.owned), wanted: merge(cur.wanted, d.wanted) });
+        const next = { watched: merge(cur.watched, d.watched), owned: merge(cur.owned, d.owned), wanted: merge(cur.wanted, d.wanted), favorite: merge(cur.favorite, d.favorite), later: merge(cur.later, d.later) };
+        tz().set(next);
+        // Signed in: add the restored items to the account too.
+        if ((window as any).tzAccount?.handle?.()) await fetch('/api/lists/merge', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(next) });
         render();
         status.textContent = 'Restored and merged with what was already here.';
       } catch { status.textContent = 'That file could not be read. Choose a file downloaded from this page.'; }
@@ -96,7 +111,7 @@ import { SERIES_LABEL } from '../lib/fan';
     document.getElementById('mz-clear')!.addEventListener('click', () => {
       const btn = document.getElementById('mz-clear')!;
       if (btn.dataset.armed !== '1') { btn.dataset.armed = '1'; btn.textContent = 'Click again to clear everything'; status.textContent = 'This removes your whole checklist from this browser. Download a copy first if you want one.'; return; }
-      tz().set({ watched: {}, owned: {}, wanted: {} });
+      tz().set({});
       btn.dataset.armed = ''; btn.textContent = 'Clear everything';
       render();
       status.textContent = 'Cleared.';

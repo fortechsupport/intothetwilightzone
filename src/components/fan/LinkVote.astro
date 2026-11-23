@@ -1,0 +1,8 @@
+---
+// A thumbs up / thumbs down slot for one connection (a homage, reference, adaptation...), filled by
+// public/account.js once fan accounts are on (docs/plans/fan-votes.md, step 3). Empty and hidden otherwise.
+// The key is the connection's record key, the same one data/review/decisions.json uses.
+interface Props { id: string }
+const { id } = Astro.props;
+---
+<span class="link-vote" data-vote-key={`connections/${id}`}></span>

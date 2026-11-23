@@ -1,0 +1,44 @@
+---
+import Base from '../../../layouts/Base.astro';
+---
+<Base title="Fan contributions" description="Fan art, photos, recordings, writing and links shared by members of IntoTheTwilightZone.com, each checked by a moderator.">
+  <div class="community" data-pagefind-ignore>
+    <p class="breadcrumb"><a href="/community/">Community</a> / Fan contributions</p>
+    <h1 id="title">Fan contributions</h1>
+    <p class="lead" id="lead">Fan art, photographs of filming locations, recordings, essays, memories and links, shared by members. A moderator checks every one before it appears.</p>
+    <p><a class="btn primary" id="share" href="/contribute/share/">Share your work</a></p>
+    <ul class="gallery" id="grid"><li class="muted">Loading…</li></ul>
+    <p><button class="btn" id="more" hidden>Show more</button></p>
+  </div>
+  <script>
+    import { api, esc, when, itemLabel } from '../../../lib/account/client';
+    import { uploadKindLabel } from '../../../lib/account/community';
+    const q = new URLSearchParams(location.search);
+    const item = q.get('item') ?? '', by = q.get('h') ?? '';
+    const grid = document.getElementById('grid')!;
+    let before = 0;
+    (async () => {
+      if (item) {
+        const l = await itemLabel(item);
+        document.getElementById('title')!.textContent = `Fan contributions: ${l?.title ?? item}`;
+        document.getElementById('lead')!.innerHTML = `What members have shared about <a href='${esc(l?.href ?? '')}'>${esc(l?.title ?? item)}</a>.`;
+        (document.getElementById('share') as HTMLAnchorElement).href = `/contribute/share/?item=${encodeURIComponent(item)}`;
+      }
+      if (by) document.getElementById('title')!.textContent = `Fan contributions by @${by}`;
+      load(true);
+    })();
+    async function load(first = false) {
+      try {
+        const r = await api(`/api/uploads?${new URLSearchParams({ ...(item ? { item } : {}), ...(by ? { by } : {}), ...(before ? { before: String(before) } : {}) })}`);
+        if (first) grid.innerHTML = r.uploads.length ? '' : '<li class="muted" style="padding:16px">Nothing shared here yet.</li>';
+        grid.insertAdjacentHTML('beforeend', r.uploads.map((u: any) => {
+          const img = u.kind === 'file' && u.media_type.startsWith('image/');
+          return `<li><a href='/community/uploads/view/?id=${esc(u.id)}'><div class="thumb">${img ? `<img src='/api/uploads/${esc(u.id)}/file' alt="" loading="lazy">` : esc(uploadKindLabel(u))}</div><div class="meta"><h3>${esc(u.title)}</h3><p class="small muted">${esc(uploadKindLabel(u))} · @${esc(u.handle ?? 'deleted')} · ${when(u.created_at)}</p></div></a></li>`;
+        }).join(''));
+        if (r.uploads.length) before = r.uploads[r.uploads.length - 1].created_at;
+        document.getElementById('more')!.hidden = r.uploads.length < 30;
+      } catch (e: any) { grid.innerHTML = `<li class="muted" style="padding:16px">${esc(e.status === 503 ? 'Fan contributions open when member accounts are switched on.' : e.message)}</li>`; }
+    }
+    document.getElementById('more')!.addEventListener('click', () => load());
+  </script>
+</Base>

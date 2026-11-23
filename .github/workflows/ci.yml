@@ -24,6 +24,8 @@ jobs:
         run: npm run check:data
       - name: Design tokens (contrast in both themes, tokens.css up to date)
         run: npm run tokens -- --check
+      - name: Accounts API types
+        run: npm run check:server
       - name: Build, public mode (what intothetwilightzone.com would serve)
         run: npm run build
       - name: Site (links, duplicate titles, page structure, roles, page weight), public mode

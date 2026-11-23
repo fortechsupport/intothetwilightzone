@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+---
+<Base title="Discuss" description="Forum discussions about one item on IntoTheTwilightZone.com." noindex>
+  <div class="community" data-pagefind-ignore>
+    <p class="breadcrumb"><a href="/community/">Community</a> / Discuss</p>
+    <h1 id="title">Discussions</h1>
+    <p class="lead" id="lead"></p>
+    <ul class="forum-list" id="topics"><li class="muted">Loading…</li></ul>
+    <p><a class="btn primary" id="new" href="/community/new/">Start a discussion</a></p>
+  </div>
+  <script>
+    import { api, esc, when, authorHtml, itemLabel } from '../../../lib/account/client';
+    const item = new URLSearchParams(location.search).get('item') ?? '';
+    (async () => {
+      const l = await itemLabel(item);
+      if (l) {
+        document.getElementById('title')!.textContent = `Discussions about ${l.title}`;
+        document.title = `Discuss ${l.title} · IntoTheTwilightZone.com`;
+        document.getElementById('lead')!.innerHTML = `Forum topics about <a href='${esc(l.href)}'>${esc(l.title)}</a>.`;
+      }
+      (document.getElementById('new') as HTMLAnchorElement).href = `/community/new/?item=${encodeURIComponent(item)}`;
+      const list = document.getElementById('topics')!;
+      try {
+        const r = await api(`/api/forum/topics?item=${encodeURIComponent(item)}`);
+        list.innerHTML = r.topics.length ? r.topics.map((x: any) => `<li><div><h3><a href='/community/topic/?id=${esc(x.id)}'>${esc(x.title)}</a></h3><p class="small">${authorHtml(x)} · ${when(x.created_at)}</p></div><div class="stats">${x.post_count} post${x.post_count === 1 ? '' : 's'}<br>last ${when(x.last_post_at)}</div></li>`).join('') : '<li class="muted">No one has started a discussion about this yet.</li>';
+      } catch (e: any) { list.innerHTML = `<li class="muted">${esc(e.status === 503 ? 'Discussions open when member accounts are switched on.' : e.message)}</li>`; }
+    })();
+  </script>
+</Base>

@@ -1,0 +1,108 @@
+---
+import Base from '../../../layouts/Base.astro';
+---
+<Base title="Topic" description="A discussion in the IntoTheTwilightZone.com community forums." noindex>
+  <div class="community" id="root" data-pagefind-ignore>
+    <p class="breadcrumb"><a href="/community/">Community</a> / <a id="crumb" href="/community/">Forum</a></p>
+    <h1 id="title">Loading…</h1>
+    <p class="small" id="meta"></p>
+    <div id="mod-bar" class="mod-tabs" hidden></div>
+    <div id="posts"></div>
+    <section id="reply-box" hidden>
+      <h2>Reply</h2>
+      <form id="reply" class="stack" novalidate>
+        <label class="visually-hidden" for="reply-body">Your reply</label>
+        <textarea id="reply-body" name="body" rows="6" maxlength="10000" required placeholder="Write your reply. Plain text; links are fine."></textarea>
+        <p class="small muted">Be kind, stay on topic, and mark spoilers for anyone who hasn't seen an episode. <a href="/community/guidelines/">Guidelines</a>.</p>
+        <p><button class="btn primary" type="submit">Post reply</button></p>
+        <p class="form-error" data-error hidden tabindex="-1" role="alert"></p>
+      </form>
+    </section>
+    <p id="signin-hint" hidden class="notice"><a href="/account/">Sign in or create an account</a> to reply.</p>
+    <p id="locked-hint" hidden class="notice warn">This topic is closed to new replies.</p>
+  </div>
+  <script>
+    import { api, me, esc, when, renderText, authorHtml, showError, clearError, busy, itemLabel } from '../../../lib/account/client';
+    import { wireReports } from '../../../lib/account/community';
+    const id = new URLSearchParams(location.search).get('id') ?? '';
+    const $ = (x: string) => document.getElementById(x)!;
+    let isMod = false, signedIn = false;
+
+    function postHtml(p: any) {
+      if (p.status === 'deleted') return `<article class="post" id="p-${esc(p.id)}"><p class="muted small">This post was deleted.</p></article>`;
+      const held = p.status === 'pending' ? `<span class="status s-pending">${p.mine ? 'Waiting for a moderator: only you can see this for now' : 'Held for review'}</span>` : p.status === 'hidden' ? '<span class="status s-hidden">Hidden</span>' : '';
+      const tools = [
+        p.mine ? `<button class="link-btn" data-edit="${esc(p.id)}">Edit</button><button class="link-btn danger" data-del="${esc(p.id)}">Delete</button>` : '',
+        !p.mine && signedIn ? `<button class="link-btn" data-report-type="post" data-report-id="${esc(p.id)}">Report</button>` : '',
+        isMod ? (p.status === 'visible' ? `<button class="link-btn danger" data-mod-post="hidden" data-id="${esc(p.id)}">Hide</button>` : `<button class="link-btn" data-mod-post="visible" data-id="${esc(p.id)}">Approve and show</button>`) : '',
+      ].join('');
+      return `<article class="post${p.status !== 'visible' ? ' held' : ''}" id="p-${esc(p.id)}"><header>${authorHtml(p)} <a class="muted small" href="#p-${esc(p.id)}">${when(p.created_at)}</a>${p.edited_at ? ' <span class="muted small">(edited)</span>' : ''} ${held}</header><div class="body" data-raw="${esc(p.body)}">${renderText(p.body)}</div><footer>${tools}</footer></article>`;
+    }
+
+    async function load() {
+      const [m, r] = await Promise.all([me(), api(`/api/forum/topics/${encodeURIComponent(id)}`)]).catch((e) => { $('title').textContent = e.status === 404 ? 'Topic not found' : 'This topic could not load'; $('meta').textContent = e.message ?? ''; throw e; });
+      signedIn = !!m.user; isMod = !!m.user && m.user.role !== 'member';
+      const t = r.topic;
+      document.title = `${t.title} · Community · IntoTheTwilightZone.com`;
+      $('title').textContent = t.title;
+      const crumb = $('crumb') as HTMLAnchorElement;
+      crumb.textContent = t.category_title; crumb.href = `/community/forum/?c=${encodeURIComponent(t.category_id)}`;
+      const about = t.item_key ? await itemLabel(t.item_key) : null;
+      $('meta').innerHTML = `Started by ${authorHtml(t)} · ${when(t.created_at)}${about ? ` · about <a href='${esc(about.href)}'>${esc(about.title)}</a>` : ''}${t.status === 'pending' ? ' · <span class="status s-pending">Waiting for review</span>' : ''}${signedIn && !t.mine ? ` · <button class="link-btn" data-report-type="topic" data-report-id="${esc(t.id)}">Report topic</button>` : ''}`;
+      $('posts').innerHTML = r.posts.map(postHtml).join('');
+      $('reply-box').hidden = !signedIn || (!!t.locked && !isMod);
+      $('signin-hint').hidden = signedIn;
+      $('locked-hint').hidden = !t.locked;
+      if (isMod) {
+        const bar = $('mod-bar');
+        bar.hidden = false;
+        bar.innerHTML = `<span class="small muted">Moderator:</span>
+          <button class="btn subtle" data-mod-topic="${t.pinned ? 'unpin' : 'pin'}">${t.pinned ? 'Unpin' : 'Pin'}</button>
+          <button class="btn subtle" data-mod-topic="${t.locked ? 'unlock' : 'lock'}">${t.locked ? 'Reopen' : 'Close to replies'}</button>
+          <button class="btn subtle" data-mod-topic="${t.status === 'hidden' ? 'show' : 'hide'}">${t.status === 'hidden' ? 'Show topic' : 'Hide topic'}</button>`;
+      }
+      if (location.hash) document.querySelector(location.hash)?.scrollIntoView();
+    }
+
+    const root = $('root');
+    wireReports(root, () => signedIn);
+    root.addEventListener('click', async (ev) => {
+      const b = ev.target as HTMLElement;
+      try {
+        if (b.dataset.modTopic) { await api('/api/mod/action', { type: 'topic', id, action: b.dataset.modTopic }); return load(); }
+        if (b.dataset.modPost) { await api('/api/mod/action', { type: 'post', id: b.dataset.id, action: b.dataset.modPost }); return load(); }
+        if (b.dataset.del) {
+          if (b.dataset.armed !== '1') { b.dataset.armed = '1'; b.textContent = 'Click again to delete'; return; }
+          await api(`/api/forum/posts/${b.dataset.del}`, undefined, 'DELETE'); return load();
+        }
+        if (b.dataset.edit) {
+          const art = b.closest('article')!;
+          const body = art.querySelector<HTMLElement>('.body')!;
+          if (art.querySelector('form')) return;
+          const f = document.createElement('form');
+          f.className = 'stack';
+          f.innerHTML = `<textarea name="body" rows="6" maxlength="10000"></textarea><p><button class="btn primary" type="submit">Save</button> <button class="link-btn" type="button" data-cancel>Cancel</button></p><p class="form-error" data-error hidden role="alert"></p>`;
+          (f.elements.namedItem('body') as HTMLTextAreaElement).value = body.dataset.raw ?? '';
+          body.hidden = true; body.after(f);
+          f.querySelector('[data-cancel]')!.addEventListener('click', () => { f.remove(); body.hidden = false; });
+          f.addEventListener('submit', async (e) => { e.preventDefault(); try { await api(`/api/forum/posts/${b.dataset.edit}`, { body: (f.elements.namedItem('body') as HTMLTextAreaElement).value }, 'PATCH'); load(); } catch (x) { showError(f, x); } });
+        }
+      } catch (e: any) { alertLine(e.message); }
+    });
+    function alertLine(msg: string) { const p = document.createElement('p'); p.className = 'form-error'; p.setAttribute('role', 'alert'); p.textContent = msg; $('posts').after(p); setTimeout(() => p.remove(), 6000); }
+
+    const reply = $('reply') as HTMLFormElement;
+    reply.addEventListener('submit', (ev) => {
+      ev.preventDefault(); clearError(reply);
+      busy(reply, async () => {
+        try {
+          const r = await api(`/api/forum/topics/${encodeURIComponent(id)}/posts`, { body: (reply.elements.namedItem('body') as HTMLTextAreaElement).value });
+          reply.reset();
+          await load();
+          document.getElementById(`p-${r.id}`)?.scrollIntoView({ block: 'center' });
+        } catch (e) { showError(reply, e); }
+      });
+    });
+    load().catch(() => {});
+  </script>
+</Base>
