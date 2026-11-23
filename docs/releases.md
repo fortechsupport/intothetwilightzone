@@ -3,6 +3,15 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-23 — Clearer labels and plain-words evidence on older links
+
+Thirteen links from TV episodes that were labelled "Homage" now say what they are: five passing references (a theme cue,
+a buzzer, a line of dialogue), seven parodies (a spoofed narration, a Serling-style epilogue, a sketch) and one comparison.
+Visitors no longer see research shorthand such as "consider removing" or "low priority for further digging" in a link's
+evidence: about 40 links now say in plain words what was checked and what was found.
+
+**Known not to work yet:** Most links from other TV shows still rest on the fan-run Twilight Zone Wiki alone, and say so.
+
 ## 2026-11-23 — "Compared to" for links that are only likenesses
 
 A visitor now sees "Compared to" instead of "Inspired by" wherever the only source for a link is a critic's or fan's
