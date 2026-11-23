@@ -53,7 +53,7 @@ const jsonld = {
 const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), first aired ${formatDate(d.air_date) ?? 'date unknown'}. Written by ${d.writers.join(', ') || 'unknown'}; directed by ${d.directors.join(', ') || 'unknown'}.`;
 ---
 <Base title={`${d.title} (${d.series})`} description={description} jsonld={jsonld}>
-  <InCategories recKey={`episodes/${e.id}`} extra={[[`${d.series} series`, `/series/${d.series}/`], [`Season ${d.season}`, `/series/${d.series}/#season-${d.season}`]]} />
+  <InCategories recKey={`episodes/${e.id}`} via={['The Twilight Zone', '/series/twilight-zone/']} extra={[[`${d.series} series`, `/series/${d.series}/`], [`Season ${d.season}`, `/series/${d.series}/#season-${d.season}`]]} />
   <RecordHeader type="Episode" context={`${seriesTitle} (${d.series}) · Season ${d.season}, episode ${d.episode}`} contextMeta="series" title={d.title} recKey={`episodes/${e.id}`} />
   {d.aka.length > 0 && <p class="muted">Also known as {d.aka.join(', ')}</p>}
   <div hidden data-pagefind-ignore><span data-pagefind-filter="Series">{d.series} series</span>{d.air_date && <span data-pagefind-filter="Decade">{d.air_date.slice(0, 3)}0s</span>}{[...d.writers, ...d.source_authors].map((n) => <span data-pagefind-filter="Writer">{n}</span>)}{themes.map((t) => <span data-pagefind-filter="Theme">{THEME.get(t)!.label}</span>)}</div>

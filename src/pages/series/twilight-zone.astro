@@ -1,0 +1,127 @@
+---
+// The Twilight Zone on television: the parent page of the four series (Adam, 2026-11-23: "a grandfather page for
+// the TV series, with links to each of the 4 series pages, each with links to their episode pages"). It replaces
+// the generic Television > The Twilight Zone shelf at the same address, so no link changes. Every number here
+// is counted from the series and episode records; the sources are on each series page.
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { allEpisodes, formatDate, personUrl, CONNECTION_VERBS } from '../../lib/data';
+import { sortKey } from '../../lib/categories';
+import { watchFor, watchShort } from '../../lib/watch';
+import { themesOfTags, topThemes, THEME, themeHref, THEME_NOTE } from '../../lib/themes';
+
+const series = (await getCollection('series')).sort((a, b) => a.data.order - b.data.order);
+const eps = await allEpisodes();
+const LABEL: Record<string, string> = { '1959': 'The original series', '1985': 'The 1985 revival', '2002': 'The 2002 revival', '2019': 'The 2019 revival' };
+const firstSentence = (t: string) => (t.match(/^.*?[.!?](?=\s|$)/)?.[0] ?? t);
+const rows = series.map((s) => {
+  const mine = eps.filter((e) => e.data.series === s.id);
+  const dates = mine.map((e) => e.data.air_date).filter((d): d is string => !!d).sort();
+  return { s, count: mine.length, first: dates[0], last: dates[dates.length - 1], watch: watchShort(watchFor({ series: s.id }).w) };
+});
+const total = eps.length;
+
+// The four runs on one line, 1959 to the end of 2020.
+const t0 = Date.UTC(1959, 0, 1), t1 = Date.UTC(2021, 0, 1);
+const pct = (d: string) => ((Date.parse(`${d}T00:00:00Z`) - t0) / (t1 - t0)) * 100;
+const ticks = [1960, 1970, 1980, 1990, 2000, 2010, 2020];
+
+// Stories told again: later episodes that remake or rework an original one (connections between episodes).
+const byId = new Map(eps.map((e) => [e.id, e]));
+const retold = (await getCollection('connections'))
+  .filter((c) => byId.has(c.data.from) && byId.has(c.data.to))
+  .map((c) => ({ from: byId.get(c.data.from)!, to: byId.get(c.data.to)!, verb: (CONNECTION_VERBS[c.data.kind] ?? 'Linked to').toLowerCase() }))
+  .sort((a, b) => a.from.data.series.localeCompare(b.from.data.series) || sortKey(a.from.data.title).localeCompare(sortKey(b.from.data.title)));
+
+// Across all four series.
+const tally = (get: (e: (typeof eps)[number]) => string[]) => {
+  const m = new Map<string, number>();
+  for (const e of eps) for (const n of new Set(get(e))) m.set(n, (m.get(n) ?? 0) + 1);
+  return [...m.entries()].sort((a, b) => b[1] - a[1] || sortKey(a[0]).localeCompare(sortKey(b[0]))).slice(0, 8);
+};
+const writers = tally((e) => e.data.writers);
+const directors = tally((e) => e.data.directors);
+const themes = topThemes(eps.map((e) => themesOfTags(e.data.themes)), 8);
+const description = `The Twilight Zone on television: Rod Serling's original series (1959–1964) and the revivals of 1985, 2002 and 2019, with all ${total} episodes.`;
+---
+<Base title="The Twilight Zone: the four TV series" description={description}>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/watch/">Watch</a> / <a href="/series/">Television</a></p>
+  <header class="record-header">
+    <p class="eyebrow"><span class="eyebrow-in"><span class="eyebrow-type">Television</span><span class="eyebrow-ctx">Four series, 1959 to 2020</span></span></p>
+    <h1>The Twilight Zone</h1>
+  </header>
+  <p class="lead">Rod Serling’s anthology has come to television four times: his original series for CBS, and revivals in 1985, 2002 and 2019. Each series has its own page, and each of its {total.toLocaleString('en-US')} episodes and stories has a page of its own.</p>
+
+  <dl class="facts">
+    <dt>On the air</dt><dd>{rows.map((r, i) => <>{i > 0 && ', '}{r.s.data.years}</>)}</dd>
+    <dt>Episodes</dt><dd>{total} in all: {rows.map((r, i) => <>{i > 0 && ', '}<a href={`/series/${r.s.id}/#episodes`}>{r.count}</a> in {r.s.id}</>)}</dd>
+    <dt>Hosts</dt><dd>{rows.map((r, i) => <>{i > 0 && '; '}{r.s.data.host} ({r.s.id})</>)}</dd>
+    <dt>Networks</dt><dd>{rows.map((r, i) => <>{i > 0 && '; '}{r.s.data.network} ({r.s.id})</>)}</dd>
+  </dl>
+
+  <h2>The four series</h2>
+  <div class="grid tz-four">
+    {rows.map((r) => (
+      <article class="card">
+        <span class="count">{r.s.id}</span>
+        <h3><a href={`/series/${r.s.id}/`}>{LABEL[r.s.id] ?? r.s.data.title}</a></h3>
+        <p class="small muted">{r.s.data.years} · {r.s.data.network}</p>
+        <p class="small">{r.s.data.seasons} {r.s.data.seasons === 1 ? 'season' : 'seasons'} · {r.count} episodes · hosted by {r.s.data.host}</p>
+        <p>{firstSentence(r.s.data.summary)}</p>
+        {r.watch && <p class="small watch-inline">{r.watch}</p>}
+        <p class="small"><a href={`/series/${r.s.id}/`}>Series page</a> · <a href={`/series/${r.s.id}/#episodes`}>All {r.count} episodes</a></p>
+      </article>
+    ))}
+  </div>
+
+  <h2>Four runs, 1959 to 2020</h2>
+  <ol class="plain tz-runs">
+    {rows.filter((r) => r.first && r.last).map((r) => (
+      <li>
+        <a class="tz-runs-label" href={`/series/${r.s.id}/`}>{r.s.id}</a>
+        <span class="tz-runs-track" aria-hidden="true"><span class="tz-runs-bar" style={`left:${pct(r.first!).toFixed(2)}%;width:${Math.max(pct(r.last!) - pct(r.first!), 0.8).toFixed(2)}%`}></span></span>
+        <span class="small muted tz-runs-dates">{formatDate(r.first)} to {formatDate(r.last)}</span>
+      </li>
+    ))}
+  </ol>
+  <p class="tz-runs-ticks small muted" aria-hidden="true">{ticks.map((y) => <span class={y % 20 === 0 ? undefined : 'tick-minor'} style={`left:${(((Date.UTC(y, 0, 1) - t0) / (t1 - t0)) * 100).toFixed(2)}%`}>{y}</span>)}</p>
+  <p class="small muted">First and last broadcast of each series, from its episode records.</p>
+
+  {retold.length > 0 && (
+    <section>
+      <h2>Stories told again</h2>
+      <p>Later series went back to the original for {retold.length} of their episodes.</p>
+      <ul class="plain tz-retold">
+        {retold.map((x) => (
+          <li><a href={`/episodes/${x.from.id}/`}>{x.from.data.title}</a> <span class="muted small">{x.from.data.series}</span> <span class="small">{x.verb}</span> <a href={`/episodes/${x.to.id}/`}>{x.to.data.title}</a> <span class="muted small">{x.to.data.series}</span></li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <div class="two-col">
+    <section>
+      <h2>Most episodes written</h2>
+      <ol class="rank">{writers.map(([n, c]) => <li><a href={personUrl(n)}>{n}</a> <span class="count-pill">{c}</span></li>)}</ol>
+      <p class="small muted">Across all four series, counting each episode or story once.</p>
+    </section>
+    <section>
+      <h2>Most episodes directed</h2>
+      <ol class="rank">{directors.map(([n, c]) => <li><a href={personUrl(n)}>{n}</a> <span class="count-pill">{c}</span></li>)}</ol>
+    </section>
+  </div>
+
+  <section>
+    <h2>Most common themes</h2>
+    <ul class="plain tz-themes">{themes.map(([t, c]) => <li><a href={themeHref(t)}>{THEME.get(t)!.label}</a> <span class="count-pill">{c}</span></li>)}</ul>
+    <p class="small muted">{THEME_NOTE} <a href="/themes/">All themes</a></p>
+  </section>
+
+  <h2>Browse</h2>
+  <p><a href="/series/episodes/">All {total} episodes</a> · <a href="/finder/">Episode finder</a> · <a href="/themes/">Themes</a> · <a href="/television/homages/">Homages in other shows</a> · <a href="/series/pilots-unmade/">Pilots and unmade projects</a> · <a href="/series/international/">Around the world</a> · <a href="/night-gallery/">Night Gallery</a> · <a href="/rod-serling/">Rod Serling</a></p>
+
+  <aside class="tz-link">
+    <h2>How this connects</h2>
+    <p>These four series are The Twilight Zone itself. Everything else on the site connects back to them, and the sources for every fact on this page are on each series page.</p>
+  </aside>
+</Base>
