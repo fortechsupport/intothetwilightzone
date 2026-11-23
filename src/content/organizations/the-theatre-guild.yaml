@@ -1,0 +1,13 @@
+name: The Theatre Guild
+kind: production-company
+description: The New York theatre society that produced The United States Steel Hour for television, including Rod Serling's Noon on Doomsday in April 1956, after running its radio predecessor, Theatre Guild on the Air.
+sources:
+- title: 'Wikipedia: The United States Steel Hour'
+  url: https://en.wikipedia.org/wiki/The_United_States_Steel_Hour
+  publisher: Wikipedia
+relevance: related
+research_confidence: medium
+tags:
+- research-2026-11-21
+- television-round-2
+last_verified: '2026-11-21'

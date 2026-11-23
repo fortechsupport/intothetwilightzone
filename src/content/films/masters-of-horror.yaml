@@ -1,15 +1,25 @@
 title: Masters of Horror
 kind: tv-series
 summary: Showtime anthology of hour films by well-known horror directors.
-release_date: '2005'
+release_date: '2005-10-28'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Masters of Horror"
+  url: https://en.wikipedia.org/wiki/Masters_of_Horror
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Masters_of_Horror
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: Showtime
+seasons: 2
+episode_count: 26
+country: United States and Canada
+end_date: '2007-02-02'
+created_by:
+- Mick Garris

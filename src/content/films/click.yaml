@@ -1,0 +1,21 @@
+title: Click
+kind: film
+release_date: '2006'
+directors:
+- Frank Coraci
+writers:
+- Steve Koren
+- Mark O'Keefe
+summary: A 2006 fantasy comedy in which Adam Sandler's architect is given a remote that controls his life.
+sources:
+- title: A Kind of a Stopwatch (Wikipedia)
+  url: https://en.wikipedia.org/wiki/A_Kind_of_a_Stopwatch
+  note: The episode article that names the film.
+- title: Click (2006 film) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Click_(2006_film)
+research_confidence: medium
+relevance: tangential
+tags:
+- research-2026-11-23
+- movies-round-2
+last_verified: '2026-11-23'

@@ -13,7 +13,7 @@ export const UTILITY_LINKS: [string, string][] = [
 
 /** Footer columns: heading, then links. */
 export const FOOTER_COLUMNS: { title: string; links: [string, string][] }[] = [
-  { title: 'Explore', links: [['Start here', '/start/'], ['Viewing paths', '/paths/'], ['Episode finder', '/finder/'], ['Episode of the day', '/today/'], ['Map', '/map/'], ['Six degrees', '/degrees/']] },
+  { title: 'Explore', links: [['Start here', '/start/'], ['Viewing paths', '/paths/'], ['Episode finder', '/finder/'], ['Themes', '/themes/'], ['Episode of the day', '/today/'], ['Map', '/map/'], ['Six degrees', '/degrees/']] },
   { title: 'Reference', links: [['Media Library', '/media/'], ['Timeline', '/timeline/'], ['Rod Serling', '/rod-serling/'], ['Night Gallery', '/night-gallery/'], ['Everything A to Z', '/categories/'], ['Search', '/search/']] },
   { title: 'This site', links: [['About', '/about/'], ['Sources and policy', '/sources/'], ['Contribute', '/contribute/'], ['My Zone', '/my-zone/']] },
 ];

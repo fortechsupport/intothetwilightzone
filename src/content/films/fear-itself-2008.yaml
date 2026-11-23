@@ -1,15 +1,24 @@
 title: Fear Itself
 kind: tv-series
 summary: NBC horror anthology.
-release_date: '2008'
+release_date: '2008-06-05'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Fear Itself (TV series)"
+  url: https://en.wikipedia.org/wiki/Fear_Itself_(TV_series)
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Fear_Itself_(TV_series)
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: NBC
+seasons: 1
+country: United States
+end_date: '2008-07-31'
+created_by:
+- Mick Garris

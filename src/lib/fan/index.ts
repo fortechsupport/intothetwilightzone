@@ -6,6 +6,7 @@ import { resolve } from 'node:path';
 import { parse } from 'yaml';
 import { allEpisodes, episodeNumber, type Episode } from '../data';
 import { sortKey } from '../taxonomy.mjs';
+import { themesOfTags, THEME } from '../themes';
 
 const read = (name: string) => parse(readFileSync(resolve(process.cwd(), 'data/fan', name), 'utf8'));
 
@@ -67,7 +68,7 @@ export async function relatedEpisodes(e: Episode, limit = 6) {
     if (sa.length) { score += 2.5; why.push(`based on a story by ${sa.join(' and ')}`); }
     const dir = share(d.directors, od.directors);
     if (dir.length) { score += 1; why.push(`directed by ${dir.join(' and ')}`); }
-    const th = share(d.themes, od.themes);
+    const th = share(themesOfTags(d.themes), themesOfTags(od.themes)).map((t) => THEME.get(t)!.label.toLowerCase());
     if (th.length) { score += 2 * th.length; why.push(`${th.length > 1 ? 'themes' : 'theme'}: ${th.join(', ')}`); }
     const cast = share(d.cast, od.cast);
     if (cast.length) { score += 1.5 * cast.length; why.push(`with ${cast.slice(0, 3).join(', ')}`); }
@@ -75,16 +76,6 @@ export async function relatedEpisodes(e: Episode, limit = 6) {
     if (score >= 2.5 && why.length) scored.push({ e: o, score, why });
   }
   return scored.sort((a, b) => b.score - a.score || (a.e.data.air_date ?? '').localeCompare(b.e.data.air_date ?? '')).slice(0, limit);
-}
-
-/** A per-episode search link on JustWatch, which tracks streaming, free and purchase options by country. */
-export function watchLinks(e: Episode) {
-  const show = e.data.series === '1959' ? 'The Twilight Zone 1959' : `The Twilight Zone ${e.data.series}`;
-  return {
-    justwatch: e.data.links?.justwatch ?? `https://www.justwatch.com/us/search?q=${encodeURIComponent(show)}`,
-    reelgood: `https://reelgood.com/search?q=${encodeURIComponent('The Twilight Zone')}`,
-    homeMedia: `/series/${e.data.series}/#releases`,
-  };
 }
 
 /** Compact rows for the episode finder, episode of the day and on-this-day tools. */
@@ -101,7 +92,7 @@ export async function episodeIndex() {
     sa: e.data.source_authors,
     di: e.data.directors,
     c: e.data.cast,
-    th: e.data.themes,
+    th: themesOfTags(e.data.themes).map((t) => THEME.get(t)!.label),
     sy: e.data.synopsis ?? '',
     rt: e.data.runtime_min,
   }));

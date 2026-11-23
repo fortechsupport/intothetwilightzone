@@ -8,6 +8,17 @@ import { loadDecisions, statusOf, type ReviewStatus } from './review';
 import { slugify } from './slug';
 import { assess } from './assessments';
 import { subRank } from './categories';
+import { buildShowIndex, isEntryOnly } from './tv-shows.mjs';
+
+let showIdx: ReturnType<typeof buildShowIndex> | undefined;
+function filmUrl(id: string, d: any): string {
+  if (!isEntryOnly(id, d)) return `/films/${id}/`;
+  if (!showIdx) {
+    const dir = resolve(process.cwd(), 'src/content/films');
+    showIdx = buildShowIndex(readdirSync(dir).filter((f) => f.endsWith('.yaml')).map((f) => ({ id: f.replace(/\.yaml$/, ''), data: parse(readFileSync(join(dir, f), 'utf8')) ?? {} })));
+  }
+  return showIdx.entryHref(id);
+}
 
 export interface QueueRow {
   key: string;
@@ -82,7 +93,8 @@ function title(collection: string, id: string, d: any): string {
 function pageUrl(collection: string, id: string, d: any): string | undefined {
   switch (collection) {
     case 'episodes': return `/episodes/${id}/`;
-    case 'films': case 'works': case 'series': return `/${collection}/${id}/`;
+    case 'films': return filmUrl(id, d);
+    case 'works': case 'series': return `/${collection}/${id}/`;
     case 'locations': return `/places/${id}/`;
     case 'people': return `/people/${slugify(d.name ?? id)}/`;
     case 'connections': return '/homages/';

@@ -1,0 +1,34 @@
+name: NBC
+aka:
+- National Broadcasting Company
+kind: network
+founded: '1926-05-19'
+location: 30 Rockefeller Plaza, New York City
+website: https://www.nbc.com/
+parent: NBCUniversal
+description: The network that aired Rod Serling's Night Gallery (1970 to 1973) and its 1969 pilot film. In the 1950s it also carried anthologies Serling wrote for, including Kraft Television Theatre, Lux Video Theatre (from 1954), Armstrong Circle Theatre (to 1957) and Hallmark Hall of Fame.
+sources:
+- title: 'Wikipedia: NBC'
+  url: https://en.wikipedia.org/wiki/NBC
+  publisher: Wikipedia
+- title: 'Wikipedia: Night Gallery'
+  url: https://en.wikipedia.org/wiki/Night_Gallery
+  publisher: Wikipedia
+- title: 'Wikipedia: Kraft Television Theatre'
+  url: https://en.wikipedia.org/wiki/Kraft_Television_Theatre
+  publisher: Wikipedia
+- title: 'Wikipedia: Lux Video Theatre'
+  url: https://en.wikipedia.org/wiki/Lux_Video_Theatre
+  publisher: Wikipedia
+- title: 'Wikipedia: Armstrong Circle Theatre'
+  url: https://en.wikipedia.org/wiki/Armstrong_Circle_Theatre
+  publisher: Wikipedia
+- title: 'Wikipedia: Hallmark Hall of Fame'
+  url: https://en.wikipedia.org/wiki/Hallmark_Hall_of_Fame
+  publisher: Wikipedia
+relevance: related
+research_confidence: medium
+tags:
+- research-2026-11-21
+- television-round-2
+last_verified: '2026-11-21'

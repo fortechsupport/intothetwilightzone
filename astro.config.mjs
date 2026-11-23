@@ -1,6 +1,10 @@
 import { defineConfig } from 'astro/config';
 import unlinkHidden from './integrations/unlink-hidden.mjs';
+import externalLinks from './integrations/external-links.mjs';
+import { readFileSync, readdirSync } from 'node:fs';
+import { parse } from 'yaml';
 import { MOVED_PATHS, OLD_GROUPS } from './src/lib/taxonomy.mjs';
+import { buildShowIndex, isEntryOnly } from './src/lib/tv-shows.mjs';
 
 // Old WordPress URLs (2023 site) mapped to their new homes.
 const redirects = {
@@ -76,10 +80,19 @@ const redirects = {
 for (const [g, v] of Object.entries(OLD_GROUPS)) redirects[`/explore/${g}`] = `/${v}/`;
 for (const [from, to] of Object.entries(MOVED_PATHS)) redirects[from.replace(/\/$/, '')] = to;
 for (const [k, t] of Object.entries(redirects)) if (MOVED_PATHS[t]) redirects[k] = MOVED_PATHS[t];
+// Television (Adam, 2026-11-21, decision 0002): Episodes merged into Television, and every episode,
+// segment or sketch of a show other than The Twilight Zone is an entry on its show's page.
+Object.assign(redirects, { '/episodes': '/series/episodes/', '/series/tv': '/series/', '/films/night-gallery': '/night-gallery/' });
+{
+  const dir = './src/content/films';
+  const films = readdirSync(dir).filter((n) => n.endsWith('.yaml')).map((n) => ({ id: n.slice(0, -5), data: parse(readFileSync(`${dir}/${n}`, 'utf8')) ?? {} }));
+  const tv = buildShowIndex(films);
+  for (const f of films) if (isEntryOnly(f.id, f.data)) redirects[`/films/${f.id}`] = tv.entryHref(f.id);
+}
 
 export default defineConfig({
   site: 'https://intothetwilightzone.com',
   trailingSlash: 'ignore',
   redirects,
-  integrations: [unlinkHidden()],
+  integrations: [unlinkHidden(), externalLinks()],
 });

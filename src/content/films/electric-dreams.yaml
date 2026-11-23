@@ -1,15 +1,21 @@
 title: Philip K. Dick's Electric Dreams
 kind: tv-series
 summary: Anthology adapting Philip K. Dick stories.
-release_date: '2017'
+release_date: '2017-09-17'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Philip K. Dick's Electric Dreams"
+  url: https://en.wikipedia.org/wiki/Philip_K._Dick%27s_Electric_Dreams
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Philip_K._Dick%27s_Electric_Dreams
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: Channel 4 (UK), Amazon Prime Video (US)
+episode_count: 10
+country: United Kingdom and United States

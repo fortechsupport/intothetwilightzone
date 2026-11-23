@@ -1,12 +1,18 @@
 from: films/urban-legends-final-cut
 to: 1959/nightmare-at-20-000-feet
 kind: homage
-confidence: documented
-evidence: Wikipedia says the film's opening on a stormy airliner is modelled on the episode.
+confidence: confirmed-by-creator
+evidence: 'Checked 2026-11-23: Wikipedia''s episode article says the film''s opening on a stormy airliner is
+  modelled on the episode, citing director John Ottman''s own DVD audio commentary (at 0:02:08). The commentary
+  itself has not been heard here.'
 sources:
 - title: Nightmare at 20,000 Feet (Wikipedia)
   url: https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet
 - title: 'Urban Legends: Final Cut (Wikipedia)'
   url: https://en.wikipedia.org/wiki/Urban_Legends:_Final_Cut
-last_verified: '2026-11-19'
+- title: 'Urban Legends: Final Cut, audio commentary by John Ottman'
+  author: John Ottman
+  publisher: DVD (Columbia, 2001)
+  note: At 0:02:08; cited by Wikipedia's Nightmare at 20,000 Feet article.
+last_verified: '2026-11-23'
 locked: true

@@ -1,15 +1,24 @@
 title: Love, Death & Robots
 kind: tv-series
 summary: Netflix animated science-fiction anthology.
-release_date: '2019'
+release_date: '2019-03-15'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Love, Death & Robots"
+  url: https://en.wikipedia.org/wiki/Love,_Death_%26_Robots
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Love,_Death_%26_Robots
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: Netflix
+seasons: 4
+episode_count: 45
+end_date: '2025-05-15'
+created_by:
+- Tim Miller

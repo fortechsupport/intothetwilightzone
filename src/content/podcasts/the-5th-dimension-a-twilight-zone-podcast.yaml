@@ -1,8 +1,8 @@
 title: The 5th Dimension (A Twilight Zone Podcast)
 hosts: []
-description: An independent Twilight Zone podcast distributed through Anchor (Spotify for Creators), separate from
-  both "The Fifth Dimension" by Richard Arnold and Trent Urness and the Consequence podcast of that name. Apple
-  lists 164 episodes, the latest on 4 July 2025. Its hosts and episode format were not confirmed in this pass.
+description: Three friends, not named in the directory listings, discuss Rod Serling's Twilight Zone on this Spotify
+  for Creators (Anchor) podcast, which is separate from both "The Fifth Dimension" by Richard Arnold and Trent Urness
+  and the Consequence podcast of that name. Apple lists 164 episodes, the latest on 4 July 2025.
 status: unknown
 episode_count: 164
 episode_count_as_of: '2026-11-21'
@@ -11,6 +11,8 @@ covers:
 links:
   apple: https://podcasts.apple.com/podcast/id1584885220
   rss: https://anchor.fm/s/6ab4278c/podcast/rss
+  spotify: https://open.spotify.com/show/0adxIAWlvaoX3wEsWHZXS6
+  website: https://podcasters.spotify.com/pod/show/5thdimension
 sources:
 - title: Apple Podcasts directory lookup (iTunes API), id 1584885220
   url: https://itunes.apple.com/lookup?id=1584885220&entity=podcast
@@ -18,7 +20,8 @@ sources:
 - title: Podnews - The 5th Dimension (A Twilight Zone Podcast)
   url: https://podnews.net/podcast/ilqsr
 relevance: core
-research_confidence: low
+research_confidence: medium
 tags:
 - research-2026-11-21
+- unconfirmed
 last_verified: '2026-11-21'

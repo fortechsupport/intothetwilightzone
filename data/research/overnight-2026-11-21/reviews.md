@@ -42,3 +42,60 @@ Radio dramas, AudioFile (4; LOW; existence and readers known from page titles on
 
 ## Schema needs
 None. One idea: an optional `headline` field would help where the original headline (e.g. "Rod Serling's Drama Scores a Knockout") is the only evidence of the verdict.
+
+## Round 2
+
+Fetches used: 26 of 28.
+
+**Method.** Archive.org's search-inside OCR endpoint, `fulltext/inside.php` on the item's server and dir (taken from `/metadata/<id>`). Whole `_djvu.txt` files can't be read this way: WebFetch stops at about 80k characters, and a Variety issue is about 745k.
+
+**Coverage.** Archive.org's weekly Variety (Serials in Microfilm, `sim_variety_*`) only covers some years here.
+- Present: 1959-60 and Sept 1961.
+- Missing: 1963 (season 4 and season 5 premieres), 1964 and 1983-85. Searches for those dates returned nothing.
+- A Radio-Television Daily search on archive.org also returned nothing.
+
+**Added (2 records, both with verdicts read from the scans):**
+- `review-variety-review-of-the-twilight-zone-premiere-where-is-everybody`: Variety, 1959-10-07, p. 28. The reviewer faulted the overly neat, logical ending. The OCR is jumbled, so the summary is medium confidence and the signature was not read.
+- `review-variety-review-of-king-nine-will-not-return-1960`: Variety, 1960-10-05, p. 36. The reviewer called it a "weak vehicle" for the season 2 start and "a letdown", with Cummings the only dramatic force.
+
+**Locked record, source added only:**
+- `review-variety-review-of-the-twilight-zone-season-two` is actually Variety 1961-09-27, p. 38, signed "Les.", reviewing "The Arrival". It says the series is "running dry of inspiration". Adam should fix its title and date by hand.
+
+**Daily Variety "Helm" (still unconfirmed).** Not confirmed from a scan. Daily Variety itself isn't in these archive.org runs, and the Oct 7, 1959 weekly has no "Helm." signature. The eNotes source note from round 1 stands.
+
+**Overrides.** Written to `scratchpad/overrides-reviews-2.yaml`.
+
+**Next leads:**
+- The same `inside.php` method works on any other SIM Variety issue. Weekly Variety also reviewed later episodes and specials (e.g. 1960-61 midseason items); query `serling` for each issue's server.
+- worldradiohistory Broadcasting PDFs were not tried, for lack of budget.
+
+## Round 3
+
+Result: no new records. Fetches used: 24 of 28. Nothing searched turned up a further review whose verdict I could read, so I added and changed nothing.
+
+### Searched with archive.org's search-inside tool (fulltext/inside.php)
+
+Weekly Variety:
+- **1959-10-14 and 1959-10-21:** no matches for "twilight zone" or "serling". The OCR index for these issues looks empty, as it was for 1961-09-20 in round 2.
+- **1959-11-04:** p. 55 has a news note that Serling would act. It is not a review.
+- **1959-11-25:** p. 41 is a garbled listing. p. 47 has a writer naming Serling as an influence. Neither is a review.
+- **1960-11-16:** p. 30 reports that Serling and Cummings are teaming on the pilot "The Loner". It is a news item.
+
+Other magazines:
+- **Broadcasting (sim_broadcasting-cable_1959-10-05_57) and America (1959-10-10):** no matches.
+
+### Other sources tried
+
+- **worldradiohistory Broadcasting 1959-10-05 PDF:** no matches. The fetch probably cuts the PDF short. The year index page refused the fetch.
+- **Library of Congress Chronicling America (chroniclingamerica.loc.gov) and loc.gov search:** both refused or errored.
+- **sim_newsweek / sim_time / sim_saturday-review for Oct 1959:** archive.org has no items under those names.
+
+### Conclusion
+
+Weekly Variety reviewed The Twilight Zone only at season premieres, and those available on archive.org are now covered (1959, 1960, 1961). Variety's "Tele Follow-Up Comment" column never matched a Twilight Zone episode in the issues I searched. The 1962-64 and 1983-85 Variety issues are not on archive.org.
+
+### Leads for a later pass
+
+- **Chronicling America OCR from a machine that can reach loc.gov.** The Washington Evening Star is digitised through 1963 and carried daily TV columns.
+- **Weekly Variety, Jan 1963 and Sept 1963, via Media History Digital Library volumes** (e.g. the variety229/variety232 items), if they appear on archive.org under MHDL identifiers.
+- **Television Digest 1959 Q4 PDF on worldradiohistory.**

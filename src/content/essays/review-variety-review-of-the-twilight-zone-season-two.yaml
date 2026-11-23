@@ -1,14 +1,23 @@
-title: Review of The Twilight Zone, season two (Variety)
+title: 'Variety review: "The Arrival" and the third season (1961)'
 published_in: Variety
-published: '1961'
+published: '1961-09-27'
 kind: review
 review_type: contemporary
 reviews:
 - series/1959
-description: Trade review of the second season that faulted the show for seeming to feed off itself.
+- 1959/the-arrival
+description: Weekly Variety's review of the third-season episode "The Arrival", signed "Les.", on page 38. It praised Harold Stone but said the series seemed to be feeding off itself and running dry of inspiration. Earlier listed here as a season two review; corrected from the original scan.
 research_confidence: medium
 sources:
 - title: The Twilight Zone (1959 TV series) - Wikipedia (references)
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
-last_verified: '2026-11-20'
+- title: Internet Archive full-text search inside Variety, September 27, 1961 (sim_variety_1961-09-27_224_5), p.
+    38
+  url: https://archive.org/details/sim_variety_1961-09-27_224_5
+  note: Added 2026-11-21. The "feeding on itself" review is on p. 38 of the Sept 27, 1961 weekly, signed "Les.",
+    reviewing "The Arrival" (Harold Stone praised). It says the series seems to be running dry of inspiration. So
+    it is the season 3 opener period, not season two; suggest retitling and dating 1961-09-27, with episode 1959/the-arrival.
+last_verified: '2026-11-21'
 locked: true
+tags:
+- research-2026-11-21

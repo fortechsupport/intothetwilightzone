@@ -1,9 +1,11 @@
 title: Requiem for a Heavyweight
 kind: film
 summary: The feature remake of the 1956 Playhouse 90 drama, with Serling adapting his own script.
-release_date: '1962'
+release_date: '1962-10-16'
+runtime_min: 95
 writers:
 - Rod Serling
+writing_credit_note: Written by Rod Serling, from his own 1956 Playhouse 90 teleplay.
 directors:
 - Ralph Nelson
 cast:
@@ -11,14 +13,18 @@ cast:
 - Jackie Gleason
 - Mickey Rooney
 - Julie Harris
+organizations:
+- Columbia Pictures
 sources:
+- title: Requiem for a Heavyweight (film) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Requiem_for_a_Heavyweight_(film)
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
 - title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
   url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
-research_confidence: medium
+research_confidence: high
 relevance: related
 ids:
   imdb: tt0056406
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true

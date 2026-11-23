@@ -26,13 +26,13 @@ const human = (s?: string) => s?.replace(/-/g, ' ');
             return (
               <li>
                 <a href={m.href} rel={m.external ? 'noopener' : undefined}>{m.title}</a>
-                <span class="muted small"> · {[human(m.subtype), m.creator && `by ${m.creator}`, m.host, m.date].filter(Boolean).join(' · ')}</span>
+                <span class="muted small"> · {[human(m.subtype), m.creator && `by ${m.creator}`, m.rights_holder && `© ${m.rights_holder}`, m.host, m.date].filter(Boolean).join(' · ')}</span>
                 {m.external && <span class={`tag rights-${m.rights ?? 'link-only'}`}>{RIGHTS[m.rights ?? 'link-only']}</span>}
                 {m.note && <p class="small">{m.note}</p>}
                 {!m.external && m.type === 'audio' && <audio controls preload="none" src={m.href} />}
                 {!m.external && m.type === 'video' && <video controls preload="none" src={m.href} />}
                 {!m.external && m.type === 'image' && <img src={m.href} alt={m.title} loading="lazy" />}
-                <p class="small muted">{others.length > 0 && <>Also on: {others.slice(0, 6).map((o, i) => <>{i > 0 && ', '}{o.href ? <a href={o.href}>{o.title}</a> : o.title}</>)}{others.length > 6 && ` and ${others.length - 6} more`}. </>}<a href={mediaTypeHref(m.type, { id: m.id })}>In the Media Library</a></p>
+                <p class="small muted">{others.length > 0 && <>Also on: {others.slice(0, 6).map((o, i) => <>{i > 0 && ', '}{o.href ? <a href={o.href}>{o.title}</a> : o.title}</>)}{others.length > 6 && ` and ${others.length - 6} more`}. </>}<a href={mediaTypeHref(m.type, { id: m.id })}>Media Library</a></p>
               </li>
             );
           })}

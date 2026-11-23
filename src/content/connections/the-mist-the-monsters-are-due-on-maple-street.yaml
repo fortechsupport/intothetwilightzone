@@ -2,8 +2,11 @@ from: films/the-mist
 to: 1959/the-monsters-are-due-on-maple-street
 kind: inspired-by
 confidence: documented
-summary: Wikipedia's page on the episode, citing a 2007 Frank Darabont interview, says the film drew on the episode
-  for its neighbours-turn-on-each-other theme, and /Film agrees. The interview itself was not read.
+summary: Wikipedia's page on the episode, citing a 2007 Frank Darabont interview, says the film drew on the episode for
+  its neighbours-turn-on-each-other theme, and /Film agrees. The interview itself was not read.
+evidence: 'Checked 2026-11-23: Wikipedia cites a 2007 ComingSoon.net interview with Frank Darabont for the film drawing
+  on the episode; /Film (2024) says Darabont "drew a lot from" it. If the interview has Darabont saying so himself, this
+  becomes confirmed.'
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
@@ -11,5 +14,10 @@ sources:
   url: https://en.wikipedia.org/wiki/The_Monsters_Are_Due_on_Maple_Street
 - title: The 5 Best Movies Inspired By Twilight Zone Episodes, Ranked (/Film)
   url: https://www.slashfilm.com/1722719/best-movies-the-twilight-zone-episodes-inspiration-ranked
-last_verified: '2026-11-19'
+- title: An exclusive interview with Frank Darabont (ComingSoon.net)
+  url: http://www.comingsoon.net/horror/news/708268-an-exclusive-interview-with-mr-frank-darabont
+  author: Edward Douglas
+  publisher: ComingSoon.net
+  note: 16 November 2007; cited by Wikipedia's episode article for the film drawing on the episode, not read directly.
+last_verified: '2026-11-23'
 locked: true

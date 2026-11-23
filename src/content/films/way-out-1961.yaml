@@ -1,15 +1,30 @@
 title: Way Out
 kind: tv-series
 summary: Short-lived CBS fantasy anthology hosted by Roald Dahl.
-release_date: '1961'
+release_date: '1961-03'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Way Out (TV series)"
+  url: https://en.wikipedia.org/wiki/Way_Out_(TV_series)
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Way_Out_(TV_series)
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: CBS
+episode_count: 14
+country: United States
+end_date: '1961-07-14'
+presented_by:
+- Roald Dahl
+ties:
+- text: CBS paired Way Out with The Twilight Zone on Friday evenings from March to July 1961.
+  sources:
+  - title: "Wikipedia: Way Out (TV series)"
+    url: https://en.wikipedia.org/wiki/Way_Out_(TV_series)
+    publisher: Wikipedia

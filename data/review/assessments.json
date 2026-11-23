@@ -2466,7 +2466,7 @@
   "recommendation": "include",
   "reason": "Character pages connect episodes to the actors who played them.",
   "source_title": "Shadow Play (The Twilight Zone) - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Shadow_Play_(The_Twilight_Zon",
+  "source_url": "https://en.wikipedia.org/wiki/Shadow_Play_(The_Twilight_Zone,_1985)",
   "title": "Adam Grant (1985)",
   "subcategory": "1985 revival (1985-1989)",
   "sort": "adam grant 001985"
@@ -5178,7 +5178,7 @@
   "recommendation": "maybe",
   "reason": "Names or casting are medium confidence; check against the episode before including.",
   "source_title": "A Game of Pool (The Twilight Zone) - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/A_Game_of_Pool_(The_Twilight_Zon",
+  "source_url": "https://en.wikipedia.org/wiki/A_Game_of_Pool_(The_Twilight_Zone,_1985)",
   "title": "James Howard \"Fats\" Brown (1985)",
   "subcategory": "1985 revival (1985-1989)",
   "sort": "james howard fats brown 001985"
@@ -5970,7 +5970,7 @@
   "recommendation": "include",
   "reason": "Character pages connect episodes to the actors who played them.",
   "source_title": "Night of the Meek (The Twilight Zone) - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Night_of_the_Meek_(The_Twilight_Zon",
+  "source_url": "https://en.wikipedia.org/wiki/Night_of_the_Meek_(The_Twilight_Zone,_1985)",
   "title": "Henry Corwin (1985)",
   "subcategory": "1985 revival (1985-1989)",
   "sort": "henry corwin 001985"
@@ -6690,7 +6690,7 @@
   "recommendation": "maybe",
   "reason": "Names or casting are medium confidence; check against the episode before including.",
   "source_title": "A Game of Pool (The Twilight Zone) - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/A_Game_of_Pool_(The_Twilight_Zon",
+  "source_url": "https://en.wikipedia.org/wiki/A_Game_of_Pool_(The_Twilight_Zone,_1985)",
   "title": "Jesse Cardiff (1985)",
   "subcategory": "1985 revival (1985-1989)",
   "sort": "jesse cardiff 001985"
@@ -7842,7 +7842,7 @@
   "recommendation": "include",
   "reason": "Character pages connect episodes to the actors who played them.",
   "source_title": "The After Hours (The Twilight Zone) - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/The_After_Hours_(The_Twilight_Zon",
+  "source_url": "https://en.wikipedia.org/wiki/The_After_Hours_(The_Twilight_Zone,_1985)",
   "title": "Marsha Cole",
   "subcategory": "1985 revival (1985-1989)",
   "sort": "marsha cole"
@@ -8646,7 +8646,7 @@
   "recommendation": "maybe",
   "reason": "Names or casting are medium confidence; check against the episode before including.",
   "source_title": "Night of the Meek (The Twilight Zone) - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Night_of_the_Meek_(The_Twilight_Zon",
+  "source_url": "https://en.wikipedia.org/wiki/Night_of_the_Meek_(The_Twilight_Zone,_1985)",
   "title": "Mr. Dundee (1985)",
   "subcategory": "1985 revival (1985-1989)",
   "sort": "mr dundee 001985"
@@ -15935,14 +15935,26 @@
   "subcategory": "Inspired by an episode",
   "sort": "christine  you drive 001959"
  },
+ "connections/click--a-kind-of-a-stopwatch": {
+  "connection": "Wikipedia's episode article lists Click among later works related to the episode, about a stopwatch that stops time, without saying how they are related.",
+  "tier": "tangential",
+  "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "Only a critic's or list-writer's comparison supports it, not the makers. Include as a labelled resemblance if you like the comparison.",
+  "source_title": "A Kind of a Stopwatch (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/A_Kind_of_a_Stopwatch",
+  "title": "Click → “A Kind of a Stopwatch” (1959)",
+  "subcategory": "Inspired by an episode",
+  "sort": "click  a kind of a stopwatch 001959"
+ },
  "connections/clockstoppers-a-kind-of-a-stopwatch": {
   "connection": "Clockstoppers and “A Kind of a Stopwatch” (1959): both turn on a device that freezes time for everyone except its holder.",
   "tier": "tangential",
   "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
   "recommendation": "maybe",
   "reason": "Close premise, but only fans have made the link; show it labelled as unconfirmed or leave it out.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Top 10 Movies That Ripped Off The Twilight Zone (TopTenz)",
+  "source_url": "https://www.toptenz.net/top-10-movies-that-ripped-off-the-twilight-zone.php",
   "title": "Clockstoppers → “A Kind of a Stopwatch” (1959)",
   "subcategory": "Inspired by an episode",
   "sort": "clockstoppers  a kind of a stopwatch 001959"
@@ -15950,9 +15962,9 @@
  "connections/coherence--twilight-zone-1959": {
   "connection": "A dinner party fractures into overlapping realities during a comet's pass, a low-budget puzzle that /Film traces directly to the show's influence.",
   "tier": "related",
-  "tier_reason": "Inspired by link, a published source makes the link.",
+  "tier_reason": "Inspired by link, the makers have said so.",
   "recommendation": "include",
-  "reason": "A published source documents the link.",
+  "reason": "The makers have confirmed the influence.",
   "source_title": "The Twilight Zone Inspired This Cult 2010s Sci-Fi Movie With A Head-Spinning Ending (/Film)",
   "source_url": "https://slashfilm.com/2115017/the-twilight-zone-inspiration-2010s-cult-sci-fi-movie-coherence",
   "title": "Coherence → The Twilight Zone (original series)",
@@ -15997,10 +16009,10 @@
  },
  "connections/cube-five-characters-in-search-of-an-exit": {
   "connection": "Cube and “Five Characters in Search of an Exit” (1959): both trap strangers with no memory of how they arrived in a featureless enclosure they cannot escape.",
-  "tier": "tangential",
-  "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
-  "recommendation": "maybe",
-  "reason": "Close premise, but only fans have made the link; show it labelled as unconfirmed or leave it out.",
+  "tier": "related",
+  "tier_reason": "Inspired by link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
   "source_title": "Cube (1997 film) (Wikipedia)",
   "source_url": "https://en.wikipedia.org/wiki/Cube_(1997_film)",
   "title": "Cube → “Five Characters in Search of an Exit” (1959)",
@@ -16018,6 +16030,18 @@
   "title": "\"To Serve Man\" art prints (Dark Hall Mansion, 2016) → “To Serve Man” (1959)",
   "subcategory": "References",
   "sort": "to serve man art prints dark hall mansion 002016  to serve man 001959"
+ },
+ "connections/day-of-the-evil-gun--come-wander-with-me": {
+  "connection": "Wikipedia's episode article says the film's score reuses the song written for the episode.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Come Wander with Me (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Come_Wander_with_Me",
+  "title": "Day of the Evil Gun → “Come Wander with Me” (1959)",
+  "subcategory": "References",
+  "sort": "day of the evil gun  come wander with me 001959"
  },
  "connections/dead-silence-the-dummy": {
   "connection": "Dead Silence and “The Dummy” (1959): both involve a ventriloquist's dummy, a common horror motif that predates the episode.",
@@ -16198,6 +16222,18 @@
   "title": "Pilot → The Twilight Zone (original series)",
   "subcategory": "References",
   "sort": "pilot  the twilight zone original series"
+ },
+ "connections/everybody-wants-some--a-stop-at-willoughby": {
+  "connection": "Wikipedia's episode article says the film has a character named Willoughby who knows Twilight Zone episodes, a nod to this one.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "A Stop at Willoughby (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/A_Stop_at_Willoughby",
+  "title": "Everybody Wants Some!! → “A Stop at Willoughby” (1959)",
+  "subcategory": "References",
+  "sort": "everybody wants some  a stop at willoughby 001959"
  },
  "connections/extreme-ghostbusters-grease--1959": {
   "connection": "Grease is a reference to The Twilight Zone (original series).",
@@ -17093,8 +17129,8 @@
   "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
   "recommendation": "exclude",
   "reason": "Only fans have made this link and the resemblance is loose; leaving it out keeps the Influence section credible.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Top 10 Movies That Ripped Off The Twilight Zone (TopTenz)",
+  "source_url": "https://www.toptenz.net/top-10-movies-that-ripped-off-the-twilight-zone.php",
   "title": "In The Mouth of Madness → “A World of His Own” (1959)",
   "subcategory": "Inspired by an episode",
   "sort": "in the mouth of madness  a world of his own 001959"
@@ -17573,8 +17609,8 @@
   "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
   "recommendation": "maybe",
   "reason": "Close premise, but only fans have made the link; show it labelled as unconfirmed or leave it out.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "10 Horror Movies That Shamelessly Copied Twilight Zone Episodes (CBR)",
+  "source_url": "https://www.cbr.com/10-horror-movies-that-shamelessly-copied-twilight-zone-episodes/",
   "title": "Liar Liar → “The Whole Truth” (1959)",
   "subcategory": "Inspired by an episode",
   "sort": "liar liar  the whole truth 001959"
@@ -17687,6 +17723,18 @@
   "subcategory": "Homages",
   "sort": "madagascar escape 000002 africa  nightmare at 000020000000 feet 001959"
  },
+ "connections/magic--caesar-and-me": {
+  "connection": "Magic and “Caesar and Me” (1959): both involve a ventriloquist dominated by his dummy, a motif shared with many earlier stories.",
+  "tier": "tangential",
+  "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "exclude",
+  "reason": "Only fans have made this link and the resemblance is loose; leaving it out keeps the Influence section credible.",
+  "source_title": "Top 10 Movies That Ripped Off The Twilight Zone (TopTenz)",
+  "source_url": "https://www.toptenz.net/top-10-movies-that-ripped-off-the-twilight-zone.php",
+  "title": "Magic → “Caesar and Me” (1959)",
+  "subcategory": "Inspired by an episode",
+  "sort": "magic  caesar and me 001959"
+ },
  "connections/magic-the-dummy": {
   "connection": "Magic and “The Dummy” (1959): both involve a ventriloquist dominated by his dummy, a motif shared with many earlier stories.",
   "tier": "tangential",
@@ -17746,6 +17794,18 @@
   "title": "William Tuttle's alien makeups: \"Will the Real Martian Please Stand Up?\" and \"Hocus-Pocus and Frisby\" → “Will the Real Martian Please Stand Up?” (1959)",
   "subcategory": "References",
   "sort": "william tuttles alien makeups will the real martian please stand up and hocuspocus and frisby  will the real martian please stand up 001959"
+ },
+ "connections/marnie--nightmare-as-a-child": {
+  "connection": "Wikipedia's episode article says Marnie was \"almost certainly\" inspired by the episode, whose heroine also confronts a repressed childhood trauma.",
+  "tier": "tangential",
+  "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "Only a critic's or list-writer's comparison supports it, not the makers. Include as a labelled resemblance if you like the comparison.",
+  "source_title": "Nightmare as a Child (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Nightmare_as_a_Child",
+  "title": "Marnie → “Nightmare as a Child” (1959)",
+  "subcategory": "Inspired by an episode",
+  "sort": "marnie  nightmare as a child 001959"
  },
  "connections/martin-landau-shooting-scripts-heritage-lot--mr-denton-on-doomsday": {
   "connection": "An actor's own working scripts from the original series.",
@@ -18238,6 +18298,18 @@
   "title": "The Commuter → The Twilight Zone (original series)",
   "subcategory": "Inspired by an episode",
   "sort": "commuter  the twilight zone original series"
+ },
+ "connections/planet-of-the-apes--i-shot-an-arrow-into-the-air": {
+  "connection": "Rod Serling co-wrote the 1968 screenplay, and Syfy Wire compares its twist, stranded astronauts who learn they never left Earth, to the twist of this episode.",
+  "tier": "related",
+  "tier_reason": "Inspired by link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
+  "source_title": "I Shot an Arrow into the Air (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/I_Shot_an_Arrow_into_the_Air",
+  "title": "Planet of the Apes → “I Shot an Arrow into the Air” (1959)",
+  "subcategory": "Inspired by an episode",
+  "sort": "planet of the apes  i shot an arrow into the air 001959"
  },
  "connections/planet-of-the-apes-people-are-alike-all-over": {
   "connection": "Rod Serling co-wrote the 1968 screenplay, and several articles trace its astronaut-captivity premise and twist back to this and other Serling episodes.",
@@ -19022,11 +19094,11 @@
  "connections/sinners--the-last-rites-of-jeff-myrtlebank": {
   "connection": "Twin brothers open a juke joint in 1930s Mississippi and face a vampiric threat; multiple outlets trace a key inspiration to the episode about a man who rises at his own funeral.",
   "tier": "related",
-  "tier_reason": "Inspired by link, a published source makes the link.",
+  "tier_reason": "Inspired by link, the makers have said so.",
   "recommendation": "include",
-  "reason": "A published source documents the link.",
-  "source_title": "Ryan Coogler's Sinners Was Heavily Inspired By An Underrated Twilight Zone Episode (/Film)",
-  "source_url": "https://www.slashfilm.com/1772810/ryan-coogler-sinners-the-twilight-zone-inspiration",
+  "reason": "The makers have confirmed the influence.",
+  "source_title": "The Last Rites of Jeff Myrtlebank (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Last_Rites_of_Jeff_Myrtlebank",
   "title": "Sinners → “The Last Rites of Jeff Myrtlebank” (1959)",
   "subcategory": "Inspired by an episode",
   "sort": "sinners  the last rites of jeff myrtlebank 001959"
@@ -19061,8 +19133,8 @@
   "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
   "recommendation": "maybe",
   "reason": "Close premise, but only fans have made the link; show it labelled as unconfirmed or leave it out.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "10 Horror Movies That Shamelessly Copied Twilight Zone Episodes (CBR)",
+  "source_url": "https://www.cbr.com/10-horror-movies-that-shamelessly-copied-twilight-zone-episodes/",
   "title": "Stranger Than Fiction → “A World of His Own” (1959)",
   "subcategory": "Inspired by an episode",
   "sort": "stranger than fiction  a world of his own 001959"
@@ -19222,6 +19294,18 @@
   "title": "The Box → “Button, Button” (1985)",
   "subcategory": "Inspired by an episode",
   "sort": "box  button button 001985"
+ },
+ "connections/the-brown-bunny--come-wander-with-me": {
+  "connection": "Wikipedia's episode article says Bonnie Beecher's recording of \"Come Wander with Me\", the song written for the episode, is on the film's soundtrack.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
+  "source_title": "Come Wander with Me (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Come_Wander_with_Me",
+  "title": "The Brown Bunny → “Come Wander with Me” (1959)",
+  "subcategory": "References",
+  "sort": "brown bunny  come wander with me 001959"
  },
  "connections/the-charmings-the-man-who-came-to-dinner--twilight-zone-1959": {
   "connection": "Don sings the Twilight Zone theme, a natural joke for a fairy-tale family stranded in modern suburbia.",
@@ -19703,6 +19787,18 @@
   "subcategory": "Inspired by an episode",
   "sort": "omen  its a good life 001959"
  },
+ "connections/the-rewrite--walking-distance": {
+  "connection": "Wikipedia's episode article says the episode and its commemorative plaque in Binghamton's Recreation Park are \"referenced heavily\" in the film.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Walking Distance (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Walking_Distance",
+  "title": "The Rewrite → “Walking Distance” (1959)",
+  "subcategory": "References",
+  "sort": "rewrite  walking distance 001959"
+ },
  "connections/the-saviors--twilight-zone-1959": {
   "connection": "A couple's paranoia about their new houseguests escalates in a darkly comic thriller whose director cites The Twilight Zone and The X-Files as influences.",
   "tier": "related",
@@ -19727,12 +19823,24 @@
   "subcategory": "Homages",
   "sort": "similars los parecidos  the twilight zone original series"
  },
+ "connections/the-simpsons-barts-comet--the-monsters-are-due-on-maple-street": {
+  "connection": "The townspeople turning on one another over a bomb shelter, which the show's producer traced to this episode as well as \"The Shelter\".",
+  "tier": "tangential",
+  "tier_reason": "Reference link, the makers have said so.",
+  "recommendation": "include",
+  "reason": "The makers have confirmed the influence.",
+  "source_title": "Wikisimpsons – Twilight Zone",
+  "source_url": "https://simpsonswiki.com/wiki/Twilight_Zone",
+  "title": "Bart's Comet → “The Monsters Are Due on Maple Street” (1959)",
+  "subcategory": "References",
+  "sort": "barts comet  the monsters are due on maple street 001959"
+ },
  "connections/the-simpsons-barts-comet--the-shelter": {
   "connection": "As a comet heads for Springfield, the townspeople mob Ned Flanders' fallout shelter demanding to be let in, mirroring the neighbours who turn on the one family with a bomb shelter.",
   "tier": "tangential",
-  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
-  "recommendation": "maybe",
-  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "tier_reason": "Reference link, the makers have said so.",
+  "recommendation": "include",
+  "reason": "The makers have confirmed the influence.",
   "source_title": "Wikisimpsons – Twilight Zone",
   "source_url": "https://simpsonswiki.com/wiki/Twilight_Zone",
   "title": "Bart's Comet → “The Shelter” (1959)",
@@ -19778,9 +19886,9 @@
  "connections/the-simpsons-el-viaje-misterioso-de-nuestro-jomer-the-mysterious-voyage-of-homer--the-old-man-in-the-cave": {
   "connection": "Fan-noted nod in the Wikisimpsons Twilight Zone index: a revered advisor turning out to be a machine recalls the computer behind the 'old man' in the post-apocalyptic Twilight Zone episode.",
   "tier": "tangential",
-  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
-  "recommendation": "maybe",
-  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "tier_reason": "Reference link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
   "source_title": "Wikisimpsons – Twilight Zone",
   "source_url": "https://simpsonswiki.com/wiki/Twilight_Zone",
   "title": "El Viaje Misterioso de Nuestro Jomer (The Mysterious Voyage of Homer) → “The Old Man in the Cave” (1959)",
@@ -20567,6 +20675,18 @@
   "subcategory": "References",
   "sort": "trick or treat studios the twilight zone mask line 002017  the masks 001959"
  },
+ "connections/truth-or-consequences-nm--a-penny-for-your-thoughts": {
+  "connection": "A scene in the film refers to \"A Penny for Your Thoughts\", as Adam noted in his review of the Movies plan.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "VIDEODOME: \"Truth or Consequences, N.M.\" (1997, r: Kiefer Sutherland)",
+  "source_url": "https://zilesinopti.ro/2024/05/28/truth-or-consequences-n-m-1997/",
+  "title": "Truth or Consequences, N.M. → “A Penny for Your Thoughts” (1959)",
+  "subcategory": "References",
+  "sort": "truth or consequences nm  a penny for your thoughts 001959"
+ },
  "connections/twilight-zone-golden-earring--twilight-zone-1959": {
   "connection": "Dick Maas's video for Golden Earring's hit borrows the series' name for its title; included here for curation, as the song's link to the show is in name only.",
   "tier": "tangential",
@@ -20954,9 +21074,9 @@
  "connections/urban-legends-final-cut--nightmare-at-20-000-feet": {
   "connection": "Urban Legends: Final Cut is an homage to “Nightmare at 20,000 Feet” (1959).",
   "tier": "tangential",
-  "tier_reason": "Homage link, a published source makes the link.",
+  "tier_reason": "Homage link, the makers have said so.",
   "recommendation": "include",
-  "reason": "A published source documents the link.",
+  "reason": "The makers have confirmed the influence.",
   "source_title": "Nightmare at 20,000 Feet (Wikipedia)",
   "source_url": "https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet",
   "title": "Urban Legends: Final Cut → “Nightmare at 20,000 Feet” (1959)",
@@ -21058,6 +21178,18 @@
   "title": "What Women Want → “A Penny for Your Thoughts” (1959)",
   "subcategory": "Inspired by an episode",
   "sort": "what women want  a penny for your thoughts 001959"
+ },
+ "connections/wild-tales--twilight-zone-1959": {
+  "connection": "Damián Szifron has named The Twilight Zone, with Alfred Hitchcock Presents, among the influences on his anthology film.",
+  "tier": "related",
+  "tier_reason": "Inspired by link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
+  "source_title": "8 Ways The Twilight Zone Influenced Modern TV and Film (Den of Geek)",
+  "source_url": "https://www.denofgeek.com/tv/8-ways-the-twilight-zone-influenced-modern-tv-and-film/",
+  "title": "Wild Tales → The Twilight Zone (original series)",
+  "subcategory": "Inspired by an episode",
+  "sort": "wild tales  the twilight zone original series"
  },
  "connections/willy-wonka-pinball-2019-homage--time-enough-at-last": {
   "connection": "Unlicensed in-game nod to The Twilight Zone or to its 1993 pinball adaptation.",
@@ -27995,17 +28127,41 @@
   "subcategory": "Contemporary reviews",
   "sort": "tv guide review the twilight zone 001960"
  },
- "essays/review-variety-review-of-the-twilight-zone-season-two": {
-  "connection": "Review of The Twilight Zone (original series) in Variety (1961), written at the time of release. Trade review of the second season that faulted the show for seeming to feed off itself.",
+ "essays/review-variety-review-of-king-nine-will-not-return-1960": {
+  "connection": "A trade-paper review written when the episode first aired.",
   "tier": "core",
-  "tier_reason": "Reception of the show.",
+  "tier_reason": "Contemporary critical reception of the original series.",
   "recommendation": "include",
-  "reason": "Shows how critics received it when it was new; part of the reception history.",
+  "reason": "A primary 1959-60 trade review read from the scanned issue, with a link to the full scan; shows that Variety was cooler on the series than its later reputation suggests.",
+  "source_title": "Internet Archive full-text search inside Variety, October 5, 1960 (sim_variety_1960-10-05_220_6), p. 36",
+  "source_url": "https://archive.org/details/sim_variety_1960-10-05_220_6",
+  "title": "Variety review: The Twilight Zone season 2 premiere, King Nine Will Not Return (1960)",
+  "subcategory": "Contemporary reviews",
+  "sort": "variety review the twilight zone season 000002 premiere king nine will not return 001960"
+ },
+ "essays/review-variety-review-of-the-twilight-zone-premiere-where-is-everybody": {
+  "connection": "A trade-paper review written when the episode first aired.",
+  "tier": "core",
+  "tier_reason": "Contemporary critical reception of the original series.",
+  "recommendation": "include",
+  "reason": "A primary 1959-60 trade review read from the scanned issue, with a link to the full scan; shows that Variety was cooler on the series than its later reputation suggests.",
+  "source_title": "Internet Archive full-text search inside Variety, October 7, 1959 (sim_variety_1959-10-07_216_6), p. 28",
+  "source_url": "https://archive.org/details/sim_variety_1959-10-07_216_6",
+  "title": "Variety review: The Twilight Zone premiere, Where Is Everybody? (1959)",
+  "subcategory": "Contemporary reviews",
+  "sort": "variety review the twilight zone premiere where is everybody 001959"
+ },
+ "essays/review-variety-review-of-the-twilight-zone-season-two": {
+  "connection": "Variety trade review of The Arrival, September 1961.",
+  "tier": "core",
+  "tier_reason": "Contemporary reception of the original series.",
+  "recommendation": "include",
+  "reason": "Locked record; source added confirming the issue (Sept 27, 1961, p. 38), the signature \"Les.\" and the episode. The title says season two and should be corrected by hand.",
   "source_title": "The Twilight Zone (1959 TV series) - Wikipedia (references)",
   "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)",
-  "title": "Review of The Twilight Zone, season two (Variety)",
-  "subcategory": "Reviews: at release",
-  "sort": "review of the twilight zone season two variety"
+  "title": "Variety review: \"The Arrival\" and the third season (1961)",
+  "subcategory": "Contemporary reviews",
+  "sort": "variety review the arrival and the third season 001961"
  },
  "essays/review-variety-the-twilight-zone-rod-serlings-lost-classics-tv-review": {
   "connection": "Review of The Twilight Zone: Rod Serling's Lost Classics in Variety (1994), written at the time of release. A contemporary review of the 1994 TV film Rod Serling's Lost Classics in Variety.",
@@ -29519,6 +29675,42 @@
   "subcategory": "Feature films",
   "sort": "000007 faces of dr lao"
  },
+ "films/a-killing-at-sundial-1963-teleplay": {
+  "connection": "A television play by Rod Serling for Bob Hope Presents the Chrysler Theatre, 1963, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "A Killing at Sundial",
+  "subcategory": "Rod Serling's series",
+  "sort": "killing at sundial"
+ },
+ "films/a-long-time-till-dawn-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Kraft Television Theatre, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "A Long Time Till Dawn",
+  "subcategory": "Rod Serling's series",
+  "sort": "long time till dawn"
+ },
+ "films/a-man-with-a-vengeance-1955-teleplay": {
+  "connection": "A television play by Rod Serling for General Electric Theater, 1955, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "A Man with a Vengeance",
+  "subcategory": "Rod Serling's series",
+  "sort": "man with a vengeance"
+ },
  "films/a-nightmare-on-elm-street": {
   "connection": "Suggested link to “Perchance to Dream” (1959): both make falling asleep deadly; in the episode a man with a weak heart believes that if he dies in his dream he will die for real.",
   "tier": "tangential",
@@ -29555,6 +29747,18 @@
   "subcategory": "Rod Serling's other screen work",
   "sort": "storm in summer 002000"
  },
+ "films/a-time-for-heroes-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Lux Video Theatre, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "A Time for Heroes",
+  "subcategory": "Rod Serling's series",
+  "sort": "time for heroes"
+ },
  "films/a-town-has-turned-to-dust": {
   "connection": "Rod Serling's work beyond The Twilight Zone: Serling's second attempt at the Emmett Till story, about a lynching in a drought-stricken town.",
   "tier": "related",
@@ -29566,6 +29770,18 @@
   "title": "A Town Has Turned to Dust",
   "subcategory": "Rod Serling's other screen work",
   "sort": "town has turned to dust"
+ },
+ "films/a-walk-in-the-night-1954-teleplay": {
+  "connection": "A television play by Rod Serling for Philip Morris Playhouse, 1954, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "A Walk in the Night",
+  "subcategory": "Rod Serling's series",
+  "sort": "walk in the night"
  },
  "films/ace-ventura-when-nature-calls": {
   "connection": "An homage to “Nightmare at 20,000 Feet” (1959) (a published source makes the link).",
@@ -29652,15 +29868,15 @@
   "sort": "amazing stories"
  },
  "films/amazing-stories-2020": {
-  "connection": "Apple TV+'s revival of Spielberg's anthology launched amid constant comparisons to The Twilight Zone and Black Mirror, which its producers addressed in interviews.",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "connection": "A fellow anthology series: Apple TV+'s revival of Spielberg's anthology launched amid constant comparisons to The Twilight Zone and Black Mirror, which its producers addressed in interviews.",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
+  "recommendation": "maybe",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "SYFY Wire: Why Amazing Stories producers aren't worried about Black Mirror, Twilight Zone comparisons",
   "source_url": "https://www.syfy.com/syfy-wire/amazing-stories-producers-not-worried",
   "title": "Amazing Stories (2020)",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "amazing stories 002020"
  },
  "films/american-dad-rabbit-ears": {
@@ -29759,6 +29975,18 @@
   "subcategory": "Rod Serling's other screen work",
   "sort": "assault on a queen"
  },
+ "films/at-ease-1953-teleplay": {
+  "connection": "A television play by Rod Serling for The Motorola Television Hour, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "At Ease",
+  "subcategory": "Rod Serling's series",
+  "sort": "at ease"
+ },
  "films/austin-powers-international-man-of-mystery": {
   "connection": "TV Tropes traces Dr. Evil's pinky-to-the-mouth habit to Dr. Rex's mannerism in the episode.",
   "tier": "tangential",
@@ -29819,6 +30047,18 @@
   "subcategory": "Episodes of other shows",
   "sort": "chromazone"
  },
+ "films/beloved-outcasts-1956-teleplay": {
+  "connection": "A television play by Rod Serling for The Catholic Hour, 1956, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "Beloved Outcasts",
+  "subcategory": "Rod Serling's series",
+  "sort": "beloved outcasts"
+ },
  "films/benders-game": {
   "connection": "The Scary Door anthology makes another appearance in this feature-length Futurama story.",
   "tier": "tangential",
@@ -29844,15 +30084,15 @@
   "sort": "uncaged"
  },
  "films/black-mirror": {
-  "connection": "Inspired by The Twilight Zone (original series) (a published source makes the link).",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "connection": "A fellow anthology series: Charlie Brooker has cited the series as a model and considered a Serling-style host before deciding the show's tone should be the recurring character.",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
+  "recommendation": "maybe",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "Twilight Zone meets Tales of the Unexpected: Charlie Brooker on Black Mirror (Creative Screenwriting)",
   "source_url": "https://www.creativescreenwriting.com/cswcms/twilight-zone-meets-tales-of-the-unexpected-charlie-brooker-on-black-mirror/",
   "title": "Black Mirror",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "black mirror"
  },
  "films/black-mirror-uss-callister": {
@@ -29926,6 +30166,18 @@
   "title": "Bridesmaids",
   "subcategory": "Feature films",
   "sort": "bridesmaids"
+ },
+ "films/buffalo-bill-is-dead-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Studio One, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Wikipedia; it completes his body of work on his page and the series page.",
+  "source_title": "List of Studio One episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Studio_One_episodes",
+  "title": "Buffalo Bill Is Dead",
+  "subcategory": "Rod Serling's series",
+  "sort": "buffalo bill is dead"
  },
  "films/buffy-the-vampire-slayer-older-and-far-away": {
   "connection": "A reference to “It's a Good Life” (1959). Xander jokes about being wished into 'the cornfield', the fate Anthony Fremont dispenses.",
@@ -30011,6 +30263,18 @@
   "subcategory": "Feature films",
   "sort": "christine"
  },
+ "films/click": {
+  "connection": "Wikipedia's episode article lists Click among later works related to the episode, about a stopwatch that stops time, without saying how they are related.",
+  "tier": "tangential",
+  "tier_reason": "A film said to borrow an episode's premise; not made by anyone connected to the show.",
+  "recommendation": "maybe",
+  "reason": "Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source, so it is marked fan-noted; keep it if you want the wider web of references shown.",
+  "source_title": "A Kind of a Stopwatch (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/A_Kind_of_a_Stopwatch",
+  "title": "Click",
+  "subcategory": "Feature films",
+  "sort": "click"
+ },
  "films/clockstoppers": {
   "connection": "Suggested link to “A Kind of a Stopwatch” (1959): both turn on a device that freezes time for everyone except its holder.",
   "tier": "tangential",
@@ -30028,7 +30292,7 @@
   "tier": "related",
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
   "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "reason": "Its makers have said the show influenced it: the strongest kind of influence record.",
   "source_title": "The Twilight Zone Inspired This Cult 2010s Sci-Fi Movie With A Head-Spinning Ending (/Film)",
   "source_url": "https://slashfilm.com/2115017/the-twilight-zone-inspiration-2010s-cult-sci-fi-movie-coherence",
   "title": "Coherence",
@@ -30073,15 +30337,27 @@
  },
  "films/cube": {
   "connection": "Suggested link to “Five Characters in Search of an Exit” (1959): both trap strangers with no memory of how they arrived in a featureless enclosure they cannot escape.",
-  "tier": "tangential",
-  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
-  "recommendation": "maybe",
-  "reason": "The premises are strikingly close, but no maker or critic has confirmed the link. Include as a labelled \"resemblance\" or leave out.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A published source makes the link, so it is a well-founded influence record.",
   "source_title": "",
   "source_url": "",
   "title": "Cube",
   "subcategory": "Feature films",
   "sort": "cube"
+ },
+ "films/day-of-the-evil-gun": {
+  "connection": "Wikipedia's episode article says the film's score reuses the song written for the episode.",
+  "tier": "tangential",
+  "tier_reason": "A reference to one episode in a film otherwise unrelated to the show (plan Q4, marked Reference).",
+  "recommendation": "maybe",
+  "reason": "Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source, so it is marked fan-noted; keep it if you want the wider web of references shown.",
+  "source_title": "Come Wander with Me (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Come_Wander_with_Me",
+  "title": "Day of the Evil Gun",
+  "subcategory": "Feature films",
+  "sort": "day of the evil gun"
  },
  "films/dead-silence": {
   "connection": "Suggested link to “The Dummy” (1959): both involve a ventriloquist's dummy, a common horror motif that predates the episode.",
@@ -30120,15 +30396,15 @@
   "sort": "devil"
  },
  "films/dimension-404": {
-  "connection": "Hulu's Mark Hamill-narrated sci-fi anthology was pitched to viewers and reviewed as a Twilight Zone- and Black Mirror-style series of twisty standalone tales.",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "connection": "A fellow anthology series: Hulu's Mark Hamill-narrated sci-fi anthology was pitched to viewers and reviewed as a Twilight Zone- and Black Mirror-style series of twisty standalone tales.",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
+  "recommendation": "maybe",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "/Film: Mark Hamill's sci-fi anthology series has major The Twilight Zone vibes",
   "source_url": "https://www.slashfilm.com/2122098/mark-hamill-sci-fi-anthology-series-the-twilight-zone-dimension-404-streaming-hulu",
   "title": "Dimension 404",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "dimension 000404"
  },
  "films/disneys-the-kid": {
@@ -30183,8 +30459,8 @@
   "connection": "A motorist is stalked across desert highways by an unseen truck driver; Flicks calls the Richard Matheson-scripted film a feature-length Twilight Zone-style story.",
   "tier": "related",
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "recommendation": "exclude",
+  "reason": "Duplicate of films/duel-1971; the other record is kept. This one stays hidden so the importer does not recreate it.",
   "source_title": "Sight, Sound and Mind: The Twilight Zone on the Big Screen (Flicks)",
   "source_url": "https://www.flicks.com.au/features/sight-sound-and-mind-the-twilight-zone-on-the-big-screen/",
   "title": "Duel",
@@ -30262,6 +30538,30 @@
   "title": "Pilot",
   "subcategory": "Episodes of other shows",
   "sort": "pilot"
+ },
+ "films/everybody-wants-some": {
+  "connection": "Wikipedia's episode article says the film has a character named Willoughby who knows Twilight Zone episodes, a nod to this one.",
+  "tier": "tangential",
+  "tier_reason": "A reference to one episode in a film otherwise unrelated to the show (plan Q4, marked Reference).",
+  "recommendation": "maybe",
+  "reason": "Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source, so it is marked fan-noted; keep it if you want the wider web of references shown.",
+  "source_title": "A Stop at Willoughby (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/A_Stop_at_Willoughby",
+  "title": "Everybody Wants Some!!",
+  "subcategory": "Feature films",
+  "sort": "everybody wants some"
+ },
+ "films/exit-from-a-plane-in-flight-1965-teleplay": {
+  "connection": "A television play by Rod Serling for Bob Hope Presents the Chrysler Theatre, 1965, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "Exit from a Plane in Flight",
+  "subcategory": "Rod Serling's series",
+  "sort": "exit from a plane in flight"
  },
  "films/extreme-ghostbusters-grease": {
   "connection": "A reference to The Twilight Zone (original series) (a published source makes the link).",
@@ -30611,6 +30911,18 @@
   "subcategory": "Segments of other shows",
   "sort": "lasagna zone"
  },
+ "films/garritys-sons-1955-teleplay": {
+  "connection": "A television play by Rod Serling for Ford Theatre, 1955, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "Garrity's Sons",
+  "subcategory": "Rod Serling's series",
+  "sort": "garritys sons"
+ },
  "films/garth-marenghis-darkplace": {
   "connection": "The opening sequence is described as a shot-for-shot spoof of the Twilight Zone titles with deliberately dated effects.",
   "tier": "tangential",
@@ -30767,6 +31079,18 @@
   "subcategory": "Episodes of other shows",
   "sort": "monsters are due on harvey street"
  },
+ "films/herman-came-by-bomber-1954-teleplay": {
+  "connection": "A television play by Rod Serling for Studio One, 1954, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "Herman Came by Bomber",
+  "subcategory": "Rod Serling's series",
+  "sort": "herman came by bomber"
+ },
  "films/hoppity-hooper-the-traffic-zone": {
   "connection": "A multi-part Hoppity Hooper serial spoofs the anthology's eerie format under a traffic-themed title.",
   "tier": "tangential",
@@ -30778,6 +31102,18 @@
   "title": "The Traffic Zone",
   "subcategory": "Segments of other shows",
   "sort": "traffic zone"
+ },
+ "films/horace-manns-miracle-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Hallmark Hall of Fame, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Wikipedia; it completes his body of work on his page and the series page.",
+  "source_title": "List of Hallmark Hall of Fame episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Hallmark_Hall_of_Fame_episodes",
+  "title": "Horace Mann's Miracle",
+  "subcategory": "Rod Serling's series",
+  "sort": "horace manns miracle"
  },
  "films/hot-metal-the-twilight-zone": {
   "connection": "An episode of the British tabloid-newspaper satire borrows the anthology's title.",
@@ -30802,6 +31138,18 @@
   "title": "House of Usher",
   "subcategory": "Feature films",
   "sort": "house of usher"
+ },
+ "films/i-lift-up-my-lamp-1952-teleplay": {
+  "connection": "A television play by Rod Serling for Hallmark Hall of Fame, 1952, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "I Lift Up My Lamp",
+  "subcategory": "Rod Serling's series",
+  "sort": "i lift up my lamp"
  },
  "films/ichabod-and-me-serling": {
   "connection": "Rod Serling's work beyond The Twilight Zone: Serling played a character called Eugene Hollinfield in a 1962 episode of this CBS sitcom.",
@@ -30897,6 +31245,18 @@
   "source_url": "https://en.wikipedia.org/wiki/Rod_Serling",
   "title": "Incident in an Alley",
   "subcategory": "Rod Serling's other screen work",
+  "sort": "incident in an alley"
+ },
+ "films/incident-in-an-alley-1955-teleplay": {
+  "connection": "A television play by Rod Serling for The U.S. Steel Hour, 1955, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "Incident in an Alley",
+  "subcategory": "Rod Serling's series",
   "sort": "incident in an alley"
  },
  "films/inner-sanctum-mystery": {
@@ -31115,6 +31475,18 @@
   "subcategory": "Episodes of other shows",
   "sort": "kid cosmic and the precognitive cat"
  },
+ "films/knife-in-the-dark-1954-teleplay": {
+  "connection": "A television play by Rod Serling for Danger, 1954, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "Knife in the Dark",
+  "subcategory": "Rod Serling's series",
+  "sort": "knife in the dark"
+ },
  "films/knock-at-the-cabin": {
   "connection": "Four strangers take a family hostage and demand an impossible sacrifice to stop the apocalypse; reviewers framed it as Shyamalan's own Twilight Zone episode.",
   "tier": "related",
@@ -31296,7 +31668,7 @@
   "sort": "madagascar escape 000002 africa"
  },
  "films/magic": {
-  "connection": "Suggested link to “The Dummy” (1959): both involve a ventriloquist dominated by his dummy, a motif shared with many earlier stories.",
+  "connection": "Suggested link to “Caesar and Me” (1959): both involve a ventriloquist dominated by his dummy, a motif shared with many earlier stories. Also linked to “The Dummy” (1959).",
   "tier": "tangential",
   "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
   "recommendation": "exclude",
@@ -31306,6 +31678,30 @@
   "title": "Magic",
   "subcategory": "Feature films",
   "sort": "magic"
+ },
+ "films/man-against-pain-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Hallmark Hall of Fame, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Wikipedia; it completes his body of work on his page and the series page.",
+  "source_title": "List of Hallmark Hall of Fame episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Hallmark_Hall_of_Fame_episodes",
+  "title": "Man Against Pain",
+  "subcategory": "Rod Serling's series",
+  "sort": "man against pain"
+ },
+ "films/marnie": {
+  "connection": "Wikipedia's episode article says Marnie was \"almost certainly\" inspired by the episode, whose heroine also confronts a repressed childhood trauma.",
+  "tier": "tangential",
+  "tier_reason": "A film said to borrow an episode's premise; not made by anyone connected to the show.",
+  "recommendation": "maybe",
+  "reason": "Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source, so it is marked fan-noted; keep it if you want the wider web of references shown.",
+  "source_title": "Nightmare as a Child (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Nightmare_as_a_Child",
+  "title": "Marnie",
+  "subcategory": "Feature films",
+  "sort": "marnie"
  },
  "films/masters-of-horror": {
   "connection": "A fellow anthology series: Showtime anthology of hour films by well-known horror directors.",
@@ -31440,23 +31836,23 @@
   "sort": "miracle mile"
  },
  "films/monsters": {
-  "connection": "The syndicated late-1980s horror anthology from the Tales from the Darkside producers, built around a creature in every story, has been described as an anti-Twilight Zone.",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "connection": "A fellow anthology series: The syndicated late-1980s horror anthology from the Tales from the Darkside producers, built around a creature in every story, has been described as an anti-Twilight Zone.",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
+  "recommendation": "maybe",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "ComicBook.com: Forgotten horror anthology Monsters, the anti-Twilight Zone",
   "source_url": "https://comicbook.com/tv-shows/news/forgotten-horror-anthology-monsters-anti-twilight-zone",
   "title": "Monsters",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "monsters"
  },
  "films/monsters-1988": {
   "connection": "A fellow anthology series: Syndicated creature-feature anthology.",
   "tier": "tangential",
   "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
-  "recommendation": "maybe",
-  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
+  "recommendation": "exclude",
+  "reason": "Duplicate of films/monsters; the other record is kept. This one stays hidden so the importer does not recreate it.",
   "source_title": "Wikipedia: Anthology series",
   "source_url": "https://en.wikipedia.org/wiki/Anthology_series",
   "title": "Monsters",
@@ -31486,6 +31882,18 @@
   "title": "Brother, Can You Spare a Blonde?",
   "subcategory": "Episodes of other shows",
   "sort": "brother can you spare a blonde"
+ },
+ "films/mr-finchley-versus-the-bomb-1956-teleplay": {
+  "connection": "A television play by Rod Serling for Kaiser Aluminum Hour, 1956, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "Mr. Finchley Versus the Bomb",
+  "subcategory": "Rod Serling's series",
+  "sort": "mr finchley versus the bomb"
  },
  "films/mulholland-drive": {
   "connection": "Flickering Myth ranks Lynch's dream-logic Hollywood mystery among its ten great Twilight Zone-style movies.",
@@ -31618,6 +32026,18 @@
   "title": "The Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies",
   "subcategory": "Episodes of other shows",
   "sort": "incredibly strange creatures who stopped living and became mixedup zombies"
+ },
+ "films/next-of-kin-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Kraft Television Theatre, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "Next of Kin",
+  "subcategory": "Rod Serling's series",
+  "sort": "next of kin"
  },
  "films/night-court-dans-escort": {
   "connection": "Judge Harry Stone wonders aloud whether a bizarre turn of events means he has landed in a Twilight Zone episode.",
@@ -32207,6 +32627,18 @@
   "subcategory": "Rod Serling's other screen work",
   "sort": "nightmare at ground zero"
  },
+ "films/nightmare-at-ground-zero-1958-teleplay": {
+  "connection": "A television play by Rod Serling for Playhouse 90, 1958, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Wikipedia; it completes his body of work on his page and the series page.",
+  "source_title": "List of Playhouse 90 episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Playhouse_90_episodes",
+  "title": "Nightmare at Ground Zero",
+  "subcategory": "Rod Serling's series",
+  "sort": "nightmare at ground zero"
+ },
  "films/no-christmas-this-year": {
   "connection": "Rod Serling's work beyond The Twilight Zone: An early Serling script from around 1950 that was never produced.",
   "tier": "related",
@@ -32218,6 +32650,18 @@
   "title": "No Christmas This Year",
   "subcategory": "Rod Serling's other screen work",
   "sort": "no christmas this year"
+ },
+ "films/no-gods-to-serve-1952-teleplay": {
+  "connection": "A television play by Rod Serling for The Doctor, 1952, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "No Gods to Serve",
+  "subcategory": "Rod Serling's series",
+  "sort": "no gods to serve"
  },
  "films/noon-on-doomsday": {
   "connection": "Rod Serling's work beyond The Twilight Zone: Written in response to the 1955 murder of Emmett Till, the play was meant to show a Southern town shielding a killer.",
@@ -32279,6 +32723,18 @@
   "subcategory": "Rod Serling's other screen work",
   "sort": "old macdonald had a curve"
  },
+ "films/one-for-the-angels-1954-teleplay": {
+  "connection": "A television play by Rod Serling for Danger, 1954, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "One for the Angels",
+  "subcategory": "Rod Serling's series",
+  "sort": "one for the angels"
+ },
  "films/one-step-beyond": {
   "connection": "A fellow anthology series: ABC paranormal anthology hosted by John Newland, launched the same year as The Twilight Zone.",
   "tier": "tangential",
@@ -32290,6 +32746,18 @@
   "title": "One Step Beyond",
   "subcategory": "Fellow anthology series",
   "sort": "one step beyond"
+ },
+ "films/otoole-from-moscow-1955-teleplay": {
+  "connection": "A television play by Rod Serling for Matinee Theater, 1955, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "O'Toole from Moscow",
+  "subcategory": "Rod Serling's series",
+  "sort": "otoole from moscow"
  },
  "films/out-of-this-world-1962": {
   "connection": "A fellow anthology series: British science-fiction anthology hosted by Boris Karloff.",
@@ -32388,7 +32856,7 @@
   "sort": "commuter"
  },
  "films/planet-of-the-apes": {
-  "connection": "Rod Serling co-wrote the 1968 screenplay, and several articles trace its astronaut-captivity premise and twist back to this and other Serling episodes.",
+  "connection": "Rod Serling co-wrote the 1968 screenplay, and Syfy Wire compares its twist, stranded astronauts who learn they never left Earth, to the twist of this episode. Also linked to “People Are Alike All Over” (1959).",
   "tier": "related",
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
   "recommendation": "include",
@@ -32434,6 +32902,18 @@
   "title": "Poltergeist",
   "subcategory": "Feature films",
   "sort": "poltergeist"
+ },
+ "films/portrait-in-celluloid-1955-teleplay": {
+  "connection": "A television play by Rod Serling for Climax!, 1955, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "Portrait in Celluloid",
+  "subcategory": "Rod Serling's series",
+  "sort": "portrait in celluloid"
  },
  "films/psych-game-set-muuurder": {
   "connection": "Shawn tosses off a Twilight Zone reference in the course of a tennis-world murder case.",
@@ -32759,6 +33239,18 @@
   "subcategory": "Sketches",
   "sort": "vincent prices thanksgiving special"
  },
+ "films/save-me-from-treason-1955-teleplay": {
+  "connection": "A television play by Rod Serling for Armstrong Circle Theatre, 1955, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "Save Me from Treason",
+  "subcategory": "Rod Serling's series",
+  "sort": "save me from treason"
+ },
  "films/science-fiction-theatre": {
   "connection": "A fellow anthology series: Syndicated science-fiction anthology that preceded The Twilight Zone.",
   "tier": "tangential",
@@ -32932,12 +33424,24 @@
   "tier": "related",
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
   "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "reason": "Its makers have said the show influenced it: the strongest kind of influence record.",
   "source_title": "Ryan Coogler's Sinners Was Heavily Inspired By An Underrated Twilight Zone Episode (/Film)",
   "source_url": "https://www.slashfilm.com/1772810/ryan-coogler-sinners-the-twilight-zone-inspiration",
   "title": "Sinners",
   "subcategory": "Feature films",
   "sort": "sinners"
+ },
+ "films/slow-fade-to-black-1964-teleplay": {
+  "connection": "A television play by Rod Serling for Bob Hope Presents the Chrysler Theatre, 1964, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "Slow Fade to Black",
+  "subcategory": "Rod Serling's series",
+  "sort": "slow fade to black"
  },
  "films/somewhere-in-time": {
   "connection": "Matheson adapted his time-travel romance Bid Time Return; directed by Night Gallery veteran Jeannot Szwarc.",
@@ -33010,6 +33514,18 @@
   "title": "Stranger Than Fiction",
   "subcategory": "Feature films",
   "sort": "stranger than fiction"
+ },
+ "films/strength-of-steel-1955-teleplay": {
+  "connection": "A television play by Rod Serling for Star Tonight, 1955, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "Strength of Steel",
+  "subcategory": "Rod Serling's series",
+  "sort": "strength of steel"
  },
  "films/super-8": {
   "connection": "Kids shooting a zombie movie in 1979 witness a train crash that frees something strange; press noted Abrams borrowing from The Twilight Zone, whose 'Walking Distance' he names as a favorite.",
@@ -33084,15 +33600,15 @@
   "sort": "tales of the unexpected"
  },
  "films/tales-of-the-unusual-yo-nimo-kimyo-na-monogatari": {
-  "connection": "Japan's long-running Fuji TV anthology of strange tales, introduced by a sunglasses-wearing host, is widely regarded as the country's answer to The Twilight Zone.",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "connection": "A fellow anthology series: Japan's long-running Fuji TV anthology of strange tales, introduced by a sunglasses-wearing host, is widely regarded as the country's answer to The Twilight Zone.",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
+  "recommendation": "maybe",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "Wikipedia: Tales of the Unusual",
   "source_url": "https://en.wikipedia.org/wiki/Tales_of_the_Unusual",
   "title": "Tales of the Unusual (Yo nimo Kimyō na Monogatari)",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "tales of the unusual yo nimo kimy na monogatari"
  },
  "films/talking-to-myself-the-linda-lindas": {
@@ -33191,6 +33707,18 @@
   "subcategory": "Episodes of other shows",
   "sort": "tryptophantasy"
  },
+ "films/the-blues-for-joey-menotti-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Kraft Television Theatre, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Blues for Joey Menotti",
+  "subcategory": "Rod Serling's series",
+  "sort": "blues for joey menotti"
+ },
  "films/the-bourne-identity": {
   "connection": "The amnesiac Bourne remarks that his situation makes him feel like he's in a Twilight Zone story.",
   "tier": "tangential",
@@ -33214,6 +33742,42 @@
   "title": "The Box",
   "subcategory": "Feature films",
   "sort": "box"
+ },
+ "films/the-brown-bunny": {
+  "connection": "Vincent Gallo's 2003 film uses \"Come Wander with Me\", the song written for the 1964 episode (credited on the soundtrack to Jeff Alexander).",
+  "tier": "tangential",
+  "tier_reason": "A song from one episode reused in a film otherwise unrelated to the show (plan Q4, marked Reference).",
+  "recommendation": "include",
+  "reason": "The film's Wikipedia soundtrack listing names the song as track 1, and the episode article says the same.",
+  "source_title": "Come Wander with Me (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Come_Wander_with_Me",
+  "title": "The Brown Bunny",
+  "subcategory": "Feature films",
+  "sort": "brown bunny"
+ },
+ "films/the-carlson-legend-1952-teleplay": {
+  "connection": "A television play by Rod Serling for Hallmark Hall of Fame, 1952, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Carlson Legend",
+  "subcategory": "Rod Serling's series",
+  "sort": "carlson legend"
+ },
+ "films/the-cause-1958-teleplay": {
+  "connection": "A television play by Rod Serling for Matinee Theater, 1958, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Cause",
+  "subcategory": "Rod Serling's series",
+  "sort": "cause"
  },
  "films/the-champion-climax": {
   "connection": "Rod Serling's work beyond The Twilight Zone: Serling's adaptation of Ring Lardner's boxing story, which earned him an Emmy nomination for best adaptation.",
@@ -33274,6 +33838,18 @@
   "title": "The Comedian",
   "subcategory": "Rod Serling's other screen work",
   "sort": "comedian"
+ },
+ "films/the-command-1964-teleplay": {
+  "connection": "A television play by Rod Serling for Bob Hope Presents the Chrysler Theatre, 1964, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Command",
+  "subcategory": "Rod Serling's series",
+  "sort": "command"
  },
  "films/the-creator": {
   "connection": "/Film reports The Twilight Zone is director Gareth Edwards' favorite TV show, in coverage of his AI-war epic.",
@@ -33348,7 +33924,7 @@
   "sort": "young man with a shoehorn"
  },
  "films/the-director-jane-wyman": {
-  "connection": "Rod Serling's work beyond The Twilight Zone: A half-hour drama for the Jane Wyman anthology.",
+  "connection": "Rod Serling's work beyond The Twilight Zone: A half-hour drama with Jack Carson, aired on NBC in 1955, the year Jane Wyman took over Fireside Theatre as host.",
   "tier": "related",
   "tier_reason": "Serling's wider career is within the site's scope.",
   "recommendation": "include",
@@ -33407,6 +33983,18 @@
   "subcategory": "Feature films",
   "sort": "end of oak street"
  },
+ "films/the-face-of-autumn-1952-teleplay": {
+  "connection": "A television play by Rod Serling for Lux Video Theatre, 1952, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Face of Autumn",
+  "subcategory": "Rod Serling's series",
+  "sort": "face of autumn"
+ },
  "films/the-facts-of-life-seven-little-indians": {
   "connection": "Maurice LaMarche narrates as Rod Serling.",
   "tier": "tangential",
@@ -33418,6 +34006,18 @@
   "title": "Seven Little Indians",
   "subcategory": "Episodes of other shows",
   "sort": "seven little indians"
+ },
+ "films/the-fateful-pilgrimage-1955-teleplay": {
+  "connection": "A television play by Rod Serling for Appointment with Adventure, 1955, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Fateful Pilgrimage",
+  "subcategory": "Rod Serling's series",
+  "sort": "fateful pilgrimage"
  },
  "films/the-flash-double-vision": {
   "connection": "A police officer remarks that a case with supernatural overtones feels like something out of The Twilight Zone.",
@@ -33503,6 +34103,18 @@
   "subcategory": "Segments of other shows",
   "sort": "billy zone"
  },
+ "films/the-happy-headline-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Campbell Soundstage, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Happy Headline",
+  "subcategory": "Rod Serling's series",
+  "sort": "happy headline"
+ },
  "films/the-happy-place": {
   "connection": "Rod Serling's work beyond The Twilight Zone: Serling's first proposed pilot script for The Twilight Zone, about a society that puts its citizens to death when they reach sixty.",
   "tier": "related",
@@ -33515,6 +34127,18 @@
   "subcategory": "Unproduced scripts",
   "sort": "happy place"
  },
+ "films/the-hate-syndrome-1966-teleplay": {
+  "connection": "A television play by Rod Serling for Insight, 1966, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Hate Syndrome",
+  "subcategory": "Rod Serling's series",
+  "sort": "hate syndrome"
+ },
  "films/the-haunted-palace": {
   "connection": "Corman horror film, billed as Poe but drawn from Lovecraft, scripted by Beaumont.",
   "tier": "related",
@@ -33526,6 +34150,18 @@
   "title": "The Haunted Palace",
   "subcategory": "Feature films",
   "sort": "haunted palace"
+ },
+ "films/the-hill-1952-teleplay": {
+  "connection": "A television play by Rod Serling for Lux Video Theatre, 1952, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Hill",
+  "subcategory": "Rod Serling's series",
+  "sort": "hill"
  },
  "films/the-homecoming-a-christmas-story": {
   "connection": "Hamner's TV movie that launched The Waltons.",
@@ -33550,6 +34186,18 @@
   "title": "The Incredible Shrinking Man",
   "subcategory": "Feature films",
   "sort": "incredible shrinking man"
+ },
+ "films/the-inn-of-eagles-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Lux Video Theatre, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Inn of Eagles",
+  "subcategory": "Rod Serling's series",
+  "sort": "inn of eagles"
  },
  "films/the-intruder-1962": {
   "connection": "Roger Corman's film of Beaumont's novel about a racist agitator stirring up a Southern town against school integration; Beaumont wrote the script and acted in it.",
@@ -33611,6 +34259,18 @@
   "subcategory": "Feature films",
   "sort": "last man on earth"
  },
+ "films/the-last-night-of-august-1958-teleplay": {
+  "connection": "A television play by Rod Serling for Pursuit, 1958, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Last Night of August",
+  "subcategory": "Rod Serling's series",
+  "sort": "last night of august"
+ },
  "films/the-legend-of-hell-house": {
   "connection": "Matheson adapted his novel Hell House for this British haunted-house film.",
   "tier": "related",
@@ -33671,6 +34331,18 @@
   "subcategory": "Feature films",
   "sort": "man from earth"
  },
+ "films/the-man-who-caught-the-ball-at-coogans-bluff-1955-teleplay": {
+  "connection": "A television play by Rod Serling for Studio One, 1955, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Man Who Caught the Ball at Coogan's Bluff",
+  "subcategory": "Rod Serling's series",
+  "sort": "man who caught the ball at coogans bluff"
+ },
  "films/the-many-loves-of-dobie-gillis-beethoven-presley-and-me": {
   "connection": "Herbert describes Maynard's sudden transformation as something straight out of The Twilight Zone.",
   "tier": "tangential",
@@ -33718,6 +34390,18 @@
   "title": "The Mist",
   "subcategory": "Feature films",
   "sort": "mist"
+ },
+ "films/the-muldoon-matter-1954-teleplay": {
+  "connection": "A television play by Rod Serling for The Motorola Television Hour, 1954, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Muldoon Matter",
+  "subcategory": "Rod Serling's series",
+  "sort": "muldoon matter"
  },
  "films/the-mysterious-disappearance-of-m-m-bayliss": {
   "connection": "A short film GeekTyrant highlighted as Twilight Zone-inspired.",
@@ -33863,6 +34547,18 @@
   "subcategory": "Rod Serling's other screen work",
   "sort": "outer space connection"
  },
+ "films/the-quiet-village-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Medallion Theatre, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Quiet Village",
+  "subcategory": "Rod Serling's series",
+  "sort": "quiet village"
+ },
  "films/the-rack": {
   "connection": "Rod Serling's work beyond The Twilight Zone: MGM's film of Serling's teleplay about a Korean War prisoner tried for collaboration.",
   "tier": "related",
@@ -33900,16 +34596,40 @@
   "sort": "rank and file"
  },
  "films/the-ray-bradbury-theater": {
-  "connection": "Anthology of Bradbury stories, each introduced by the author (1985–1992).",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "connection": "A fellow anthology series: Anthology of Bradbury stories, each introduced by the author (1985–1992).",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
+  "recommendation": "maybe",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "Wikipedia: The Ray Bradbury Theater",
   "source_url": "https://en.wikipedia.org/wiki/The_Ray_Bradbury_Theater",
   "title": "The Ray Bradbury Theater",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "ray bradbury theater"
+ },
+ "films/the-return-of-socko-renard-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Lux Video Theatre, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Return of Socko Renard",
+  "subcategory": "Rod Serling's series",
+  "sort": "return of socko renard"
+ },
+ "films/the-rewrite": {
+  "connection": "Wikipedia's episode article says the episode and its commemorative plaque in Binghamton's Recreation Park are \"referenced heavily\" in the film.",
+  "tier": "tangential",
+  "tier_reason": "A reference to one episode in a film otherwise unrelated to the show (plan Q4, marked Reference).",
+  "recommendation": "maybe",
+  "reason": "Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source, so it is marked fan-noted; keep it if you want the wider web of references shown.",
+  "source_title": "Walking Distance (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Walking_Distance",
+  "title": "The Rewrite",
+  "subcategory": "Feature films",
+  "sort": "rewrite"
  },
  "films/the-salamander": {
   "connection": "Rod Serling's work beyond The Twilight Zone: A political thriller from Morris West's novel, filmed after Serling's death from his 1975 screenplay.",
@@ -33935,6 +34655,18 @@
   "subcategory": "Feature films",
   "sort": "saviors"
  },
+ "films/the-sergeant-1952-teleplay": {
+  "connection": "A television play by Rod Serling for Armstrong Circle Theatre, 1952, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Sergeant",
+  "subcategory": "Rod Serling's series",
+  "sort": "sergeant"
+ },
  "films/the-similars-los-parecidos": {
   "connection": "Travelers stranded at a 1968 Mexican bus station during a storm begin to change in impossible ways; critics describe the black-and-white-styled film as a tribute to Serling's series.",
   "tier": "tangential",
@@ -33948,11 +34680,11 @@
   "sort": "similars los parecidos"
  },
  "films/the-simpsons-barts-comet": {
-  "connection": "A reference to “The Shelter” (1959). As a comet heads for Springfield, the townspeople mob Ned Flanders' fallout shelter demanding to be let in, mirroring the neighbours who turn on the one family with a bomb shelter.",
+  "connection": "The townspeople turning on one another over a bomb shelter, which the show's producer traced to this episode as well as \"The Shelter\". Also linked to “The Shelter” (1959).",
   "tier": "tangential",
   "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
-  "recommendation": "maybe",
-  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "recommendation": "include",
+  "reason": "Its makers have said the show influenced it: the strongest kind of influence record.",
   "source_title": "Wikisimpsons – Twilight Zone",
   "source_url": "https://simpsonswiki.com/wiki/Twilight_Zone",
   "title": "Bart's Comet",
@@ -34000,7 +34732,7 @@
   "tier": "tangential",
   "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
   "recommendation": "maybe",
-  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "reason": "A documented but passing reference; useful for completeness in the Influence section.",
   "source_title": "Wikisimpsons – Twilight Zone",
   "source_url": "https://simpsonswiki.com/wiki/Twilight_Zone",
   "title": "El Viaje Misterioso de Nuestro Jomer (The Mysterious Voyage of Homer)",
@@ -34224,15 +34956,15 @@
   "sort": "sixth sense"
  },
  "films/the-sixth-sense-1972": {
-  "connection": "Its 25 episodes were cut to half an hour and added to the syndicated Night Gallery with new Rod Serling introductions.",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "connection": "A fellow anthology series: ABC's hour-long paranormal drama starring Gary Collins as Dr. Michael Rhodes, a parapsychologist with ESP who investigates supernatural crimes with his assistant Nancy Murphy (Catherine Ferrar).",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
   "recommendation": "maybe",
-  "reason": "A documented but passing reference; useful for completeness in the Influence section.",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "Wikipedia: The Sixth Sense (American TV series)",
   "source_url": "https://en.wikipedia.org/wiki/The_Sixth_Sense_(American_TV_series)",
   "title": "The Sixth Sense (1972 TV series)",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "sixth sense 001972 tv series"
  },
  "films/the-stepford-wives": {
@@ -34283,6 +35015,18 @@
   "subcategory": "Rod Serling's other screen work",
   "sort": "strike"
  },
+ "films/the-summer-memory-1954-teleplay": {
+  "connection": "A television play by Rod Serling for Ford Theatre, 1954, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Summer Memory",
+  "subcategory": "Rod Serling's series",
+  "sort": "summer memory"
+ },
  "films/the-thirteenth-floor": {
   "connection": "Flicks groups this simulated-reality thriller among films that carry the show's reality-questioning DNA.",
   "tier": "tangential",
@@ -34330,6 +35074,18 @@
   "title": "The Truman Show",
   "subcategory": "Feature films",
   "sort": "truman show"
+ },
+ "films/the-twilight-rounds-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Kraft Television Theatre, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Twilight Rounds",
+  "subcategory": "Rod Serling's series",
+  "sort": "twilight rounds"
  },
  "films/the-twilight-zone-60th-remembering-rod-serling": {
   "connection": "A Twilight Zone production in its own right. A short retrospective documentary made for the series' 60th anniversary about Rod Serling's life, from his Syracuse childhood and World War II service to his use of science fiction to take on race, paranoia and bigotry.",
@@ -34487,6 +35243,18 @@
   "subcategory": "Episodes of other shows",
   "sort": "math class"
  },
+ "films/the-worthy-opponent-1954-teleplay": {
+  "connection": "A television play by Rod Serling for Center Stage, 1954, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "The Worthy Opponent",
+  "subcategory": "Rod Serling's series",
+  "sort": "worthy opponent"
+ },
  "films/the-x-files": {
   "connection": "Mulder's ally Senator Richard Matheson is named after the Twilight Zone writer.",
   "tier": "tangential",
@@ -34522,6 +35290,30 @@
   "title": "The Yellow Canary",
   "subcategory": "Rod Serling's other screen work",
   "sort": "yellow canary"
+ },
+ "films/they-call-them-meek-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Medallion Theatre, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "They Call Them Meek",
+  "subcategory": "Rod Serling's series",
+  "sort": "they call them meek"
+ },
+ "films/those-who-wait-1952-teleplay": {
+  "connection": "A television play by Rod Serling for The Doctor, 1952, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "Those Who Wait",
+  "subcategory": "Rod Serling's series",
+  "sort": "those who wait"
  },
  "films/thriller-1960": {
   "connection": "A fellow anthology series: NBC suspense and horror anthology hosted by Boris Karloff.",
@@ -34595,6 +35387,18 @@
   "subcategory": "Episodes of other shows",
   "sort": "return of the acme acres zone"
  },
+ "films/to-wake-at-midnight-1955-teleplay": {
+  "connection": "A television play by Rod Serling for Climax!, 1955, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "To Wake at Midnight",
+  "subcategory": "Rod Serling's series",
+  "sort": "to wake at midnight"
+ },
  "films/tower-of-terror-1997": {
   "connection": "A TV movie adapting Disney's Twilight Zone-themed Hollywood Tower Hotel ride, starring Steve Guttenberg as a reporter probing a haunted elevator.",
   "tier": "tangential",
@@ -34654,6 +35458,30 @@
   "title": "Trilogy of Terror",
   "subcategory": "Television films",
   "sort": "trilogy of terror"
+ },
+ "films/truth-or-consequences-nm": {
+  "connection": "A 1997 crime film with a scene that refers to the 1959 episode \"A Penny for Your Thoughts\", as Adam noted.",
+  "tier": "tangential",
+  "tier_reason": "A passing reference to one episode in a film otherwise unrelated to the show (plan Q4, marked Reference).",
+  "recommendation": "include",
+  "reason": "Adam named it as an example of a film referencing the show; a 2024 review confirms The Twilight Zone comes up in its dialogue. The episode itself is named only on Adam's word, so the link is marked fan-noted.",
+  "source_title": "Truth or Consequences, N.M. (film) (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Truth_or_Consequences,_N.M._(film)",
+  "title": "Truth or Consequences, N.M.",
+  "subcategory": "Feature films",
+  "sort": "truth or consequences nm"
+ },
+ "films/twenty-four-men-in-a-plane-1953-teleplay": {
+  "connection": "A television play by Rod Serling for Medallion Theatre, 1953, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "Twenty-Four Men in a Plane",
+  "subcategory": "Rod Serling's series",
+  "sort": "twentyfour men in a plane"
  },
  "films/twilight-zone-cbs-revival-2012": {
   "connection": "A fourth television version announced on December 19, 2012, with Bryan Singer signed by CBS Television Studios to develop and executive produce it and possibly direct the pilot.",
@@ -34751,6 +35579,18 @@
   "subcategory": "Unproduced scripts",
   "sort": "twilight zone warner bros feature in development"
  },
+ "films/u-f-o-1954-teleplay": {
+  "connection": "A television play by Rod Serling for Studio One, 1954, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Wikipedia; it completes his body of work on his page and the series page.",
+  "source_title": "List of Studio One episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Studio_One_episodes",
+  "title": "U.F.O.",
+  "subcategory": "Rod Serling's series",
+  "sort": "ufo"
+ },
  "films/ufos-past-present-and-future": {
   "connection": "Rod Serling's work beyond The Twilight Zone: A documentary on the UFO phenomenon narrated by Serling; it was later recut as UFOs: It Has Begun.",
   "tier": "related",
@@ -34788,15 +35628,15 @@
   "sort": "uglydolls"
  },
  "films/ultra-q": {
-  "connection": "Tsuburaya Productions' black-and-white series of strange phenomena and monsters, the precursor to Ultraman, is often recommended as Japan's counterpart to The Twilight Zone.",
-  "tier": "related",
-  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "connection": "A fellow anthology series: Tsuburaya Productions' black-and-white series of strange phenomena and monsters, the precursor to Ultraman, is often recommended as Japan's counterpart to The Twilight Zone.",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
+  "recommendation": "maybe",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "The Portalist: Fans of The Twilight Zone and The X-Files need to watch Ultra Q",
   "source_url": "https://theportalist.com/ultra-q-tv-series",
   "title": "Ultra Q",
-  "subcategory": "Television series",
+  "subcategory": "Fellow anthology series",
   "sort": "ultra q"
  },
  "films/unknown": {
@@ -34812,11 +35652,11 @@
   "sort": "unknown"
  },
  "films/urban-legends-final-cut": {
-  "connection": "An homage to “Nightmare at 20,000 Feet” (1959) (a published source makes the link).",
+  "connection": "An homage to “Nightmare at 20,000 Feet” (1959) (the makers have said so).",
   "tier": "tangential",
   "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
   "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "reason": "Its makers have said the show influenced it: the strongest kind of influence record.",
   "source_title": "Nightmare at 20,000 Feet (Wikipedia)",
   "source_url": "https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet",
   "title": "Urban Legends: Final Cut",
@@ -34919,6 +35759,18 @@
   "subcategory": "Episodes of other shows",
   "sort": "scifi zoned"
  },
+ "films/welcome-home-lefty-1952-teleplay": {
+  "connection": "A television play by Rod Serling for Lux Video Theatre, 1952, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "Welcome Home, Lefty",
+  "subcategory": "Rod Serling's series",
+  "sort": "welcome home lefty"
+ },
  "films/what-women-want": {
   "connection": "Suggested link to “A Penny for Your Thoughts” (1959): both give an ordinary man the sudden power to hear other people's thoughts.",
   "tier": "tangential",
@@ -34930,6 +35782,18 @@
   "title": "What Women Want",
   "subcategory": "Feature films",
   "sort": "what women want"
+ },
+ "films/wild-tales": {
+  "connection": "An Argentine-Spanish anthology film whose director, Damián Szifron, names The Twilight Zone among its influences.",
+  "tier": "tangential",
+  "tier_reason": "A film influenced by the show as a whole; not made by anyone connected to it.",
+  "recommendation": "include",
+  "reason": "The film's Wikipedia article and Den of Geek (2017) both report Szifron's statement; the interview itself has not been read.",
+  "source_title": "8 Ways The Twilight Zone Influenced Modern TV and Film (Den of Geek)",
+  "source_url": "https://www.denofgeek.com/tv/8-ways-the-twilight-zone-influenced-modern-tv-and-film/",
+  "title": "Wild Tales",
+  "subcategory": "Feature films",
+  "sort": "wild tales"
  },
  "films/witches-warlocks-and-werewolves-abc-proposal": {
   "connection": "Rod Serling's work beyond The Twilight Zone: A horror anthology ABC offered Rod Serling as The Twilight Zone ended in 1964.",
@@ -34966,6 +35830,18 @@
   "title": "The High Fright Zone",
   "subcategory": "Segments of other shows",
   "sort": "high fright zone"
+ },
+ "films/you-be-the-bad-guy-1952-teleplay": {
+  "connection": "A television play by Rod Serling for Lux Video Theatre, 1952, from the career that led to The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Serling's own work outside the series; Adam's scope covers all things Rod Serling.",
+  "recommendation": "include",
+  "reason": "Credited to Serling in Rod Serling Memorial Foundation; it completes his body of work on his page and the series page.",
+  "source_title": "Rod Serling's Complete Filmography",
+  "source_url": "https://rodserling.com/rod-serlings-complete-filmography/",
+  "title": "You Be the Bad Guy",
+  "subcategory": "Rod Serling's series",
+  "sort": "you be the bad guy"
  },
  "locations/alabama-hills-lone-pine-hundred-yards": {
   "connection": "Alabama Hills, Lone Pine (Lone Pine, California) was used for “A Hundred Yards Over the Rim” (1959).",
@@ -37247,6 +38123,18 @@
   "subcategory": "TV Guide",
   "sort": "tv guide 001962000006000030"
  },
+ "organizations/abc": {
+  "connection": "The network that carried The United States Steel Hour, including Serling's The Rack, from 1953 to 1955.",
+  "tier": "tangential",
+  "tier_reason": "Its only ties found so far are anthologies that aired Serling plays.",
+  "recommendation": "include",
+  "reason": "Stated on the Wikipedia articles for The United States Steel Hour and Kraft Television Theatre.",
+  "source_title": "Wikipedia: American Broadcasting Company",
+  "source_url": "https://en.wikipedia.org/wiki/American_Broadcasting_Company",
+  "title": "ABC",
+  "subcategory": "Organizations",
+  "sort": "abc"
+ },
  "organizations/academy-of-motion-picture-arts-and-sciences": {
   "connection": "Gives the Oscars.",
   "tier": "related",
@@ -37277,8 +38165,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Al Hirschfeld Foundation: Rod Serling",
+  "source_url": "https://alhirschfeldfoundation.org/piece/rod-serling",
   "title": "Al Hirschfeld Foundation",
   "subcategory": "Organizations",
   "sort": "al hirschfeld foundation"
@@ -37318,6 +38206,18 @@
   "title": "Antioch College",
   "subcategory": "Organizations",
   "sort": "antioch college"
+ },
+ "organizations/armstrong-world-industries": {
+  "connection": "Principal sponsor of Armstrong Circle Theatre, which aired two Serling plays.",
+  "tier": "tangential",
+  "tier_reason": "A sponsor of Serling's pre-Twilight Zone work.",
+  "recommendation": "maybe",
+  "reason": "The sponsorship is on Wikipedia; the Serling plays come from the Rod Serling Memorial Foundation's filmography.",
+  "source_title": "Wikipedia: Armstrong Circle Theatre",
+  "source_url": "https://en.wikipedia.org/wiki/Armstrong_Circle_Theatre",
+  "title": "Armstrong World Industries",
+  "subcategory": "Organizations",
+  "sort": "armstrong world industries"
  },
  "organizations/bantam-books": {
   "connection": "Paperback publisher of Serling's three Twilight Zone story collections, Stories from the Twilight Zone (1960), More Stories (1961) and New Stories (1962), and of his 1957 collection Patterns, whose introduction he wrote.",
@@ -37361,8 +38261,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Bundy Museum: In The Zone, The Rod Serling Archive",
+  "source_url": "https://www.bundymuseum.org/the-rod-serling-archive-1",
   "title": "Bundy Museum of History & Art",
   "subcategory": "Organizations",
   "sort": "bundy museum of history  art"
@@ -37373,8 +38273,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Calisphere: The Interviews (Television Academy Foundation) collection",
+  "source_url": "https://calisphere.org/collections/27305/",
   "title": "Calisphere",
   "subcategory": "Organizations",
   "sort": "calisphere"
@@ -37433,8 +38333,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "CSUF Archives: Twilight Zone Magazine (T Z Publications, New York, N.Y., 1981)",
+  "source_url": "https://archives.fullerton.edu/repositories/5/resources/205",
   "title": "CSU Fullerton University Archives and Special Collections",
   "subcategory": "Organizations",
   "sort": "csu fullerton university archives and special collections"
@@ -37547,6 +38447,18 @@
   "subcategory": "Organizations",
   "sort": "gold key comics"
  },
+ "organizations/hallmark-cards": {
+  "connection": "Sponsor of Hallmark Hall of Fame, which aired Serling plays from 1952 and A Storm in Summer (1970).",
+  "tier": "tangential",
+  "tier_reason": "A sponsor of Serling's work outside The Twilight Zone.",
+  "recommendation": "include",
+  "reason": "Sponsorship on Wikipedia; plays from the Rod Serling Memorial Foundation's filmography.",
+  "source_title": "Wikipedia: Hallmark Hall of Fame",
+  "source_url": "https://en.wikipedia.org/wiki/Hallmark_Hall_of_Fame",
+  "title": "Hallmark Cards",
+  "subcategory": "Organizations",
+  "sort": "hallmark cards"
+ },
  "organizations/idw-publishing": {
   "connection": "Current licensee of The Twilight Zone comic: its 2025 anthology series under the IDW Dark label, the collections Stories from the Fifth Dimension and Tales Between Light and Shadow (listed for 2027).",
   "tier": "related",
@@ -37577,8 +38489,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it. Seed record without a description yet.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "IMDb: Twilight Zone: The Movie, soundtrack",
+  "source_url": "https://www.imdb.com/title/tt0086491/soundtrack",
   "title": "IMDb",
   "subcategory": "Organizations",
   "sort": "imdb"
@@ -37594,6 +38506,18 @@
   "title": "Ithaca College",
   "subcategory": "Organizations",
   "sort": "ithaca college"
+ },
+ "organizations/kraft": {
+  "connection": "Sponsor of Kraft Television Theatre, which aired Serling's Patterns (1955).",
+  "tier": "tangential",
+  "tier_reason": "A sponsor of Serling's pre-Twilight Zone work.",
+  "recommendation": "include",
+  "reason": "Stated on Wikipedia's Kraft Television Theatre article.",
+  "source_title": "Wikipedia: Kraft Television Theatre",
+  "source_url": "https://en.wikipedia.org/wiki/Kraft_Television_Theatre",
+  "title": "Kraft",
+  "subcategory": "Organizations",
+  "sort": "kraft"
  },
  "organizations/library-of-congress": {
   "connection": "The US national library, where Rod Serling gave a lecture on 4 October 1968 on what the mass media demand of a writer; the talk was broadcast on National Educational Radio and its audio survives.",
@@ -37630,6 +38554,18 @@
   "title": "Louisiana State University",
   "subcategory": "Organizations",
   "sort": "louisiana state university"
+ },
+ "organizations/lux": {
+  "connection": "Sponsor of Lux Video Theatre, which aired seven early Serling plays.",
+  "tier": "tangential",
+  "tier_reason": "A sponsor of Serling's pre-Twilight Zone work.",
+  "recommendation": "maybe",
+  "reason": "Sponsorship on Wikipedia; the plays come from the Rod Serling Memorial Foundation's filmography.",
+  "source_title": "Wikipedia: Lux Video Theatre",
+  "source_url": "https://en.wikipedia.org/wiki/Lux_Video_Theatre",
+  "title": "Lux",
+  "subcategory": "Organizations",
+  "sort": "lux"
  },
  "organizations/metacritic": {
   "connection": "Review aggregator whose weighted scores for the 2019 revival and Twilight Zone: The Movie are summarized on the Reviews aggregate-score pages.",
@@ -37673,8 +38609,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod",
+  "source_url": "https://www.museum.tv/tv-encyclopedia-15/serling-rod",
   "title": "Museum of Broadcast Communications",
   "subcategory": "Organizations",
   "sort": "museum of broadcast communications"
@@ -37690,6 +38626,18 @@
   "title": "National Association of Broadcasters",
   "subcategory": "Organizations",
   "sort": "national association of broadcasters"
+ },
+ "organizations/nbc": {
+  "connection": "The network that aired Night Gallery and many of the anthologies Rod Serling wrote for in the 1950s.",
+  "tier": "related",
+  "tier_reason": "It carried Serling's own series and early plays, not The Twilight Zone itself.",
+  "recommendation": "include",
+  "reason": "Its role is stated on the Wikipedia articles for Night Gallery, Kraft Television Theatre, Lux Video Theatre and Hallmark Hall of Fame.",
+  "source_title": "Wikipedia: NBC",
+  "source_url": "https://en.wikipedia.org/wiki/NBC",
+  "title": "NBC",
+  "subcategory": "Organizations",
+  "sort": "nbc"
  },
  "organizations/now-comics": {
   "connection": "Chicago publisher of the licensed Twilight Zone comics of 1990-1993: a 1990 one-shot, an eleven-issue volume 2, a four-issue volume 3, an annual and 3-D, science-fiction and premiere specials.",
@@ -37733,8 +38681,8 @@
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Prime Video: The Twilight Zone (Classic)",
+  "source_url": "https://www.primevideo.com/detail/0KPKZU2H05HF57GYDSKLU80B1S/ref=atv_pp_fi_13",
   "title": "Prime Video",
   "subcategory": "Organizations",
   "sort": "prime video"
@@ -37757,8 +38705,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it. Seed record without a description yet.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Radio Preservation Task Force database: collection 1182",
+  "source_url": "https://database.radiopreservation.org/catalog/collection_1182",
   "title": "Radio Preservation Task Force",
   "subcategory": "Organizations",
   "sort": "radio preservation task force"
@@ -37769,8 +38717,8 @@
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Cardboard Connection: 2020 Rittenhouse Twilight Zone Archives",
+  "source_url": "https://www.cardboardconnection.com/2020-rittenhouse-twilight-zone-archives-trading-cards",
   "title": "Rittenhouse Archives",
   "subcategory": "Organizations",
   "sort": "rittenhouse archives"
@@ -37823,6 +38771,18 @@
   "subcategory": "Organizations",
   "sort": "television academy foundation"
  },
+ "organizations/the-theatre-guild": {
+  "connection": "Producer of The United States Steel Hour, including Serling's Noon on Doomsday (1956).",
+  "tier": "tangential",
+  "tier_reason": "It produced Serling's pre-Twilight Zone plays.",
+  "recommendation": "include",
+  "reason": "Stated on Wikipedia's The United States Steel Hour article.",
+  "source_title": "Wikipedia: The United States Steel Hour",
+  "source_url": "https://en.wikipedia.org/wiki/The_United_States_Steel_Hour",
+  "title": "The Theatre Guild",
+  "subcategory": "Organizations",
+  "sort": "theatre guild"
+ },
  "organizations/tor-books": {
   "connection": "Science-fiction publisher of the licensed Twilight Zone story anthologies edited by Carol Serling, including Twilight Zone: 19 Original Stories on the 50th Anniversary (2009) and More Stories from the Twilight Zone (2010).",
   "tier": "core",
@@ -37853,8 +38813,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Online Archive of California: Herrmann (Bernard) papers, 1927-1977",
+  "source_url": "https://oac.cdlib.org/findaid/ark:/13030/tf438nb3jd",
   "title": "UC Santa Barbara Library",
   "subcategory": "Organizations",
   "sort": "uc santa barbara library"
@@ -37865,11 +38825,35 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Online Archive of California: Serling (Rod) papers, 1945-1969",
+  "source_url": "https://oac.cdlib.org/findaid/ark:/13030/kt5489n8zx",
   "title": "UCLA Library Special Collections",
   "subcategory": "Organizations",
   "sort": "ucla library special collections"
+ },
+ "organizations/united-states-steel": {
+  "connection": "Sponsor of The United States Steel Hour, which aired Serling's The Rack and Noon on Doomsday.",
+  "tier": "tangential",
+  "tier_reason": "A sponsor of Serling's pre-Twilight Zone work.",
+  "recommendation": "include",
+  "reason": "Stated on Wikipedia's The United States Steel Hour article.",
+  "source_title": "Wikipedia: The United States Steel Hour",
+  "source_url": "https://en.wikipedia.org/wiki/The_United_States_Steel_Hour",
+  "title": "United States Steel Corporation",
+  "subcategory": "Organizations",
+  "sort": "united states steel corporation"
+ },
+ "organizations/universal-television": {
+  "connection": "The studio that produced Rod Serling's Night Gallery.",
+  "tier": "related",
+  "tier_reason": "It made Serling's second anthology, the companion series to The Twilight Zone on this site.",
+  "recommendation": "include",
+  "reason": "Named as production company on Wikipedia's Night Gallery article.",
+  "source_title": "Wikipedia: Universal Television",
+  "source_url": "https://en.wikipedia.org/wiki/Universal_Television",
+  "title": "Universal Television",
+  "subcategory": "Organizations",
+  "sort": "universal television"
  },
  "organizations/university-of-kansas": {
   "connection": "James Gunn's science-fiction teaching program at the university filmed an interview with Serling in 1970 for a series on science fiction in literature; the film was never finished, and its audio was later reconstructed.",
@@ -37913,8 +38897,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "USC Archives: Twilight Zone call sheets and production reports, 1985",
+  "source_url": "https://archives.usc.edu/repositories/5/archival_objects/676113",
   "title": "USC Cinematic Arts Library",
   "subcategory": "Organizations",
   "sort": "usc cinematic arts library"
@@ -37937,8 +38921,8 @@
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Visit Binghamton: Rod Serling",
+  "source_url": "https://visitbinghamton.org/things-to-do/rod-serling",
   "title": "Visit Binghamton",
   "subcategory": "Organizations",
   "sort": "visit binghamton"
@@ -37961,8 +38945,8 @@
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "D23: The Twilight Zone Tower of Terror",
+  "source_url": "https://d23.com/a-to-z/twilight-zone-tower-of-terror-the",
   "title": "Walt Disney Parks",
   "subcategory": "Organizations",
   "sort": "walt disney parks"
@@ -38435,6 +39419,18 @@
   "subcategory": "Composers",
   "sort": "alexander courage"
  },
+ "people/alexandra-barreto": {
+  "connection": "Alexandra Barreto is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Alexandra Barreto - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Alexandra_Barreto",
+  "title": "Alexandra Barreto",
+  "subcategory": "Actors",
+  "sort": "alexandra barreto"
+ },
  "people/alf-humphreys": {
   "connection": "Alf Humphreys acted in 2 episodes of the 1985 series (“There Was an Old Woman” and “The Trunk”).",
   "tier": "core",
@@ -38783,6 +39779,18 @@
   "subcategory": "Actors",
   "sort": "andrew divoff"
  },
+ "people/andrew-francis": {
+  "connection": "Andrew Francis is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "maybe",
+  "reason": "Wikipedia lists a Twilight Zone credit but not the episode; identity is very likely.",
+  "source_title": "Andrew Francis - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Andrew_Francis",
+  "title": "Andrew Francis",
+  "subcategory": "Actors",
+  "sort": "andrew francis"
+ },
  "people/andrew-guest": {
   "connection": "Writer of the 2019 episode \"The Wunderkind\".",
   "tier": "core",
@@ -38866,6 +39874,18 @@
   "title": "Angel Tompkins",
   "subcategory": "Actors",
   "sort": "angel tompkins"
+ },
+ "people/angela-featherstone": {
+  "connection": "Angela Featherstone is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Angela Featherstone - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Angela_Featherstone",
+  "title": "Angela Featherstone",
+  "subcategory": "Actors",
+  "sort": "angela featherstone"
  },
  "people/ann-blyth": {
   "connection": "Ann Blyth acted in 1 episode of the 1959 series (“Queen of the Nile”).",
@@ -39755,6 +40775,18 @@
   "subcategory": "Actors",
   "sort": "beau bridges"
  },
+ "people/ben-bass": {
+  "connection": "Ben Bass is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Ben Bass (actor) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Ben_Bass_(actor)",
+  "title": "Ben Bass",
+  "subcategory": "Actors",
+  "sort": "ben bass"
+ },
  "people/ben-bolt": {
   "connection": "Ben Bolt directed 1 episode of the 1985 series (“Devil's Alphabet”).",
   "tier": "core",
@@ -40380,7 +41412,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -43367,7 +44399,7 @@
   "subcategory": "Actors",
   "sort": "e g marshall"
  },
- "people/e-j-andr": {
+ "people/e-j-andre": {
   "connection": "E. J. André worked on 1 Night Gallery production.",
   "tier": "related",
   "tier_reason": "Credits on Night Gallery or Serling's wider work.",
@@ -43824,7 +44856,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -43906,6 +44938,18 @@
   "title": "Eric Darnell",
   "subcategory": "Writers",
   "sort": "eric darnell"
+ },
+ "people/eric-keenleyside": {
+  "connection": "Eric Keenleyside is credited on a Twilight Zone episode (1980s revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Eric Keenleyside - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Eric_Keenleyside",
+  "title": "Eric Keenleyside",
+  "subcategory": "Actors",
+  "sort": "eric keenleyside"
  },
  "people/eric-till": {
   "connection": "Eric Till directed 1 episode of the 1985 series (“Cat and Mouse”).",
@@ -44148,7 +45192,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -44554,6 +45598,18 @@
   "title": "Fritz Weaver",
   "subcategory": "Actors",
   "sort": "fritz weaver"
+ },
+ "people/gabrielle-miller": {
+  "connection": "Gabrielle Miller is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Gabrielle Miller - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Gabrielle_Miller",
+  "title": "Gabrielle Miller",
+  "subcategory": "Actors",
+  "sort": "gabrielle miller"
  },
  "people/gage-clarke": {
   "connection": "Gage Clarke acted in 1 episode of the 1959 series (“One More Pallbearer”).",
@@ -45466,6 +46522,18 @@
   "title": "Greg Mullavey",
   "subcategory": "Actors",
   "sort": "greg mullavey"
+ },
+ "people/greg-serano": {
+  "connection": "Greg Serano is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Greg Serano - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Greg_Serano",
+  "title": "Greg Serano",
+  "subcategory": "Actors",
+  "sort": "greg serano"
  },
  "people/greg-yaitanes": {
   "connection": "Greg Yaitanes directed 1 episode of the 2019 series (“Nightmare at 30,000 Feet”).",
@@ -48875,6 +49943,18 @@
   "subcategory": "Actors",
   "sort": "john franklin"
  },
+ "people/john-furia-jr": {
+  "connection": "John Furia, Jr. is credited on a Twilight Zone episode (original series).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "John Furia Jr. - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/John_Furia_Jr.",
+  "title": "John Furia, Jr.",
+  "subcategory": "Writers",
+  "sort": "john furia jr"
+ },
  "people/john-glover": {
   "connection": "John Glover acted in 1 episode of the 1985 series (“A Small Talent for War”).",
   "tier": "core",
@@ -50279,6 +51359,18 @@
   "subcategory": "Actors",
   "sort": "kim hamilton"
  },
+ "people/kim-hawthorne": {
+  "connection": "Kim Hawthorne is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Kim Hawthorne - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Kim_Hawthorne",
+  "title": "Kim Hawthorne",
+  "subcategory": "Actors",
+  "sort": "kim hawthorne"
+ },
  "people/kim-hunter": {
   "connection": "Kim Hunter worked on 1 Night Gallery production.",
   "tier": "related",
@@ -50374,6 +51466,18 @@
   "title": "Koren Shadmi",
   "subcategory": "Scholars and historians",
   "sort": "koren shadmi"
+ },
+ "people/kristi-angus": {
+  "connection": "Kristi Angus is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Kristi Angus - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Kristi_Angus",
+  "title": "Kristi Angus",
+  "subcategory": "Actors",
+  "sort": "kristi angus"
  },
  "people/kristin-lehman": {
   "connection": "Kristin Lehman acted in 1 episode of the 2002 series (“Dead Man's Eyes”); acted in 1 episode of the 2019 series (“Meet in the Middle”).",
@@ -51094,6 +52198,18 @@
   "title": "Lindsay Wagner",
   "subcategory": "Actors",
   "sort": "lindsay wagner"
+ },
+ "people/lindy-booth": {
+  "connection": "Lindy Booth is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Lindy Booth - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Lindy_Booth",
+  "title": "Lindy Booth",
+  "subcategory": "Actors",
+  "sort": "lindy booth"
  },
  "people/lionel-lindon": {
   "connection": "Lionel Lindon was credited as director of photography on “Night Gallery” (Night Gallery).",
@@ -52271,7 +53387,7 @@
   "subcategory": "Actors",
   "sort": "mel rodriguez"
  },
- "people/mel-torm": {
+ "people/mel-torme": {
   "connection": "Mel Tormé played the browbeaten brother of Mickey Rooney's monstrous TV comic in The Comedian (1957), Rod Serling's Emmy-winning Playhouse 90 adaptation.",
   "tier": "related",
   "tier_reason": "Part of Rod Serling's life or circle.",
@@ -52607,18 +53723,6 @@
   "subcategory": "Writers",
   "sort": "michael ohara"
  },
- "people/michael-pe-a": {
-  "connection": "Michael Peña acted in 1 episode of the 2002 series (“Sunrise”).",
-  "tier": "core",
-  "tier_reason": "Has screen, radio or production credits on the franchise.",
-  "recommendation": "include",
-  "reason": "A credited contributor; their page ties together everything they made for the franchise.",
-  "source_title": "Michael Peña - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Michael_Peña",
-  "title": "Michael Peña",
-  "subcategory": "Actors",
-  "sort": "michael pea"
- },
  "people/michael-pena": {
   "connection": "Michael Peña acted in 1 episode of the 2002 series (“Sunrise”).",
   "tier": "core",
@@ -52739,7 +53843,7 @@
   "subcategory": "Actors",
   "sort": "mickey rooney"
  },
- "people/miguel-a-n-ez-jr": {
+ "people/miguel-a-nunez-jr": {
   "connection": "Miguel A. Núñez Jr. acted in 1 episode of the 1985 series (“Teacher's Aide”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
@@ -53314,6 +54418,18 @@
   "title": "Nick Cravat",
   "subcategory": "Actors",
   "sort": "nick cravat"
+ },
+ "people/nicki-aycox": {
+  "connection": "Nicki Aycox is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Nicki Aycox - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Nicki_Aycox",
+  "title": "Nicki Aycox",
+  "subcategory": "Actors",
+  "sort": "nicki aycox"
  },
  "people/nicky-guadagni": {
   "connection": "Nicky Guadagni acted in 1 episode of the 1985 series (“The Cold Equations”).",
@@ -53926,6 +55042,18 @@
   "title": "Patrick O'Neal",
   "subcategory": "Actors",
   "sort": "patrick oneal"
+ },
+ "people/patrick-r-norris": {
+  "connection": "Patrick R. Norris is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "maybe",
+  "reason": "Wikipedia lists a Twilight Zone credit but not the episode; identity is very likely.",
+  "source_title": "Patrick Norris - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Patrick_Norris",
+  "title": "Patrick R. Norris",
+  "subcategory": "Directors",
+  "sort": "patrick r norris"
  },
  "people/patrick-warburton": {
   "connection": "Patrick Warburton acted in 1 episode of the 2002 series (“Azoth the Avenger Is a Friend of Mine”).",
@@ -55031,7 +56159,7 @@
   "subcategory": "Actors",
   "sort": "rekha sharma"
  },
- "people/ren-auberjonois": {
+ "people/rene-auberjonois": {
   "connection": "René Auberjonois worked on 1 Night Gallery production.",
   "tier": "related",
   "tier_reason": "Credits on Night Gallery or Serling's wider work.",
@@ -55415,7 +56543,7 @@
   "subcategory": "Actors",
   "sort": "richard van vleet"
  },
- "people/richard-y-iguez": {
+ "people/richard-yniguez": {
   "connection": "Richard Yñiguez worked on 1 Night Gallery production.",
   "tier": "related",
   "tier_reason": "Credits on Night Gallery or Serling's wider work.",
@@ -56507,7 +57635,7 @@
   "subcategory": "Directors",
   "sort": "rudy larriva"
  },
- "people/rudy-vall-e": {
+ "people/rudy-vallee": {
   "connection": "Rudy Vallée worked on 1 Night Gallery production.",
   "tier": "related",
   "tier_reason": "Credits on Night Gallery or Serling's wider work.",
@@ -56796,7 +57924,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -56806,6 +57934,18 @@
   "title": "Sara Amini",
   "subcategory": "Writers",
   "sort": "sara amini"
+ },
+ "people/sarah-carter": {
+  "connection": "Sarah Carter is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Sarah Carter - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Sarah_Carter",
+  "title": "Sarah Carter",
+  "subcategory": "Actors",
+  "sort": "sarah carter"
  },
  "people/sarah-marshall": {
   "connection": "Sarah Marshall acted in 1 episode of the 1959 series (“Little Girl Lost”).",
@@ -58451,6 +59591,18 @@
   "subcategory": "Actors",
   "sort": "tod andrews"
  },
+ "people/todd-williams": {
+  "connection": "Todd Williams is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Todd Williams (actor) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Todd_Williams_(actor)",
+  "title": "Todd Williams",
+  "subcategory": "Actors",
+  "sort": "todd williams"
+ },
  "people/tom-bosley": {
   "connection": "Tom Bosley worked on 2 Night Gallery productions.",
   "tier": "related",
@@ -59280,7 +60432,7 @@
   "sort": "werner klemperer"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -59855,6 +61007,18 @@
   "subcategory": "Writers",
   "sort": "zack stentz"
  },
+ "people/zak-santiago": {
+  "connection": "Zak Santiago is credited on a Twilight Zone episode (2002 revival).",
+  "tier": "core",
+  "tier_reason": "Credited cast or crew of a Twilight Zone episode.",
+  "recommendation": "include",
+  "reason": "Wikipedia confirms the Twilight Zone credit, so the episode credit now links to a real person page.",
+  "source_title": "Zak Santiago - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Zak_Santiago",
+  "title": "Zak Santiago",
+  "subcategory": "Actors",
+  "sort": "zak santiago"
+ },
  "people/zalman-king": {
   "connection": "Zalman King guest-starred in \"To the West of Eden\" (1966), an episode of Rod Serling's western The Loner, early in his acting career.",
   "tier": "related",
@@ -60264,11 +61428,11 @@
   "sort": "pop culture happy hour  roaming in the gloaming of the twilight zone"
  },
  "podcasts/pretty-much-pop-52-twilight-zone-morality-tales": {
-  "connection": "A discussion episode on TZ morality tales.",
+  "connection": "A Pretty Much Pop discussion of the original series and the 2019 revival.",
   "tier": "core",
-  "tier_reason": "See connection.",
-  "recommendation": "maybe",
-  "reason": "Only the title and URL were confirmed.",
+  "tier_reason": "An episode devoted to the show.",
+  "recommendation": "include",
+  "reason": "Now confirmed: hosts, guest, date and the episodes discussed.",
   "source_title": "Open Culture - Twilight Zone Morality Tales: A Pretty Much Pop Culture Podcast Discussion (#52)",
   "source_url": "https://openculture.com/2020/07/twilight-zone-morality-tales-a-pretty-much-pop-culture-podcast-discussion-52.html",
   "title": "Pretty Much Pop: A Culture Podcast - #52: Twilight Zone Morality Tales",
@@ -60360,11 +61524,11 @@
   "sort": "thats not fair a queer twilight zone podcast"
  },
  "podcasts/the-5th-dimension-a-twilight-zone-podcast": {
-  "connection": "A TZ podcast on Anchor.",
+  "connection": "A Twilight Zone discussion podcast by three friends.",
   "tier": "core",
-  "tier_reason": "See connection.",
+  "tier_reason": "A podcast devoted to the show.",
   "recommendation": "maybe",
-  "reason": "164 episodes but hosts and format unconfirmed; low confidence.",
+  "reason": "164 episodes, but the hosts are still unnamed and no episode list could be read; tagged unconfirmed.",
   "source_title": "Apple Podcasts directory lookup (iTunes API), id 1584885220",
   "source_url": "https://itunes.apple.com/lookup?id=1584885220&entity=podcast",
   "title": "The 5th Dimension (A Twilight Zone Podcast)",
@@ -64104,27 +65268,27 @@
   "sort": "at the park"
  },
  "songs/gary-portnoy-alien": {
-  "connection": "A song by Gary Portnoy listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Unknown; the song exists (track 9 on Keeper) but no lyric text could be found.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "No confirmed link.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "reason": "The Cheers-theme writer is a fun name for TV fans, but keep it on hold until someone hears the song.",
+  "source_title": "Gary Portnoy official site: CDs",
+  "source_url": "https://www.garyportnoy.com/cds-cheers-theme-2",
   "title": "Alien",
-  "subcategory": "Connection not yet confirmed",
+  "subcategory": "Possible references (unconfirmed)",
   "sort": "alien"
  },
  "songs/george-white-group-thats-when-i-think-of-you": {
-  "connection": "A song by George White Group listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Probably a cover of 1927's 1988 song, whose fourth verse uses \"twilight zone\" as an idiom.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
-  "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "tier_reason": "Idiom only, cover unconfirmed.",
+  "recommendation": "exclude",
+  "reason": "Same as the Thirsty Merc row: obscure cover of an idiom-only lyric.",
+  "source_title": "Letras: 1927, \"That's When I Think of You\" lyrics",
+  "source_url": "https://www.letras.mus.br/1927/thats-when-i-think-of-you/",
   "title": "That's When I Think of You",
-  "subcategory": "Connection not yet confirmed",
+  "subcategory": "Lyric mentions (idiom)",
   "sort": "thats when i think of you"
  },
  "songs/gigolo-tony-smurf-rock": {
@@ -64452,11 +65616,11 @@
   "sort": "killin brain cells"
  },
  "songs/killah-priest-the-seer-the-poet": {
-  "connection": "WhoSampled lists a sample of a Twilight Zone clip it calls \"The Devil's All Around Us\".",
+  "connection": "Track 18 of The Psychic World of Walter Reed (2013); WhoSampled lists a Twilight Zone dialogue sample.",
   "tier": "tangential",
   "tier_reason": "Dialogue sample.",
   "recommendation": "include",
-  "reason": "Wu-Tang affiliate; dialogue sample from the series. Episode still to identify.",
+  "reason": "Wu-Tang affiliate; album and year now confirmed. Episode of the clip still to identify.",
   "source_title": "WhoSampled: Killah Priest's 'The Seer, the Poet' sample of The Devil's All Around Us scene in The Twilight Zone",
   "source_url": "https://www.whosampled.com/sample/385674/Killah-Priest-The-Seer,-the-Poet-The-Twilight-Zone-The-Devil's-All-Around-Us/",
   "title": "The Seer, the Poet",
@@ -64596,15 +65760,15 @@
   "sort": "welcome to the zone"
  },
  "songs/lisa-brokop-when-you-get-to-be-you": {
-  "connection": "A song by Lisa Brokop listed in the original research with no stated Twilight Zone connection.",
+  "connection": "The second verse uses \"twilight zone\" as an idiom for someone in a world of their own.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Idiom only.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "reason": "A real country release, but the phrase is generic and says nothing about the show.",
+  "source_title": "Vagalume: Lisa Brokop, \"When You Get To Be You\" lyrics",
+  "source_url": "https://www.vagalume.com.br/lisa-brokop/when-you-get-to-be-you.html",
   "title": "When You Get To Be You",
-  "subcategory": "Connection not yet confirmed",
+  "subcategory": "Lyric mentions (idiom)",
   "sort": "when you get to be you"
  },
  "songs/loudon-wainwright-living-alone": {
@@ -65736,15 +66900,15 @@
   "sort": "punishment information"
  },
  "songs/thirsty-merc-thats-when-i-think-of-you": {
-  "connection": "A song by Thirsty Merc listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Probably a cover of 1927's 1988 song, whose fourth verse uses \"twilight zone\" as an idiom.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
-  "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "tier_reason": "Idiom only, cover unconfirmed.",
+  "recommendation": "exclude",
+  "reason": "Idiom-only lyric, and this recording could not be found. If Adam wants the song, 1927's original would be the record to keep.",
+  "source_title": "Letras: 1927, \"That's When I Think of You\" lyrics",
+  "source_url": "https://www.letras.mus.br/1927/thats-when-i-think-of-you/",
   "title": "That’s When I Think of You",
-  "subcategory": "Connection not yet confirmed",
+  "subcategory": "Lyric mentions (idiom)",
   "sort": "thats when i think of you"
  },
  "songs/tyler-the-creator-nightmare": {
@@ -65760,11 +66924,11 @@
   "sort": "nightmare"
  },
  "songs/unkle-unkle-main-title-theme": {
-  "connection": "WhoSampled lists it as sampling a Twilight Zone TV promo.",
+  "connection": "Track 2 of Psyence Fiction (1998); WhoSampled lists a sample of a Twilight Zone TV promo.",
   "tier": "tangential",
   "tier_reason": "Sample of promo audio.",
   "recommendation": "include",
-  "reason": "Well-known trip-hop act; a promo sample is an unusual and interesting use.",
+  "reason": "Well-known album; album and year now confirmed from the tracklist.",
   "source_title": "WhoSampled: UNKLE's 'Unkle (Main Title Theme)' sample of TV Promo scene in The Twilight Zone",
   "source_url": "https://www.whosampled.com/sample/348105/UNKLE-Unkle-(Main-Title-Theme)-The-Twilight-Zone-TV-Promo/",
   "title": "Unkle (Main Title Theme)",
@@ -65844,11 +67008,11 @@
   "sort": "new year thngs"
  },
  "songs/world-class-wreckin-cru-planet": {
-  "connection": "WhoSampled lists it as sampling the later-season title-sequence music.",
+  "connection": "Opening track of World Class (1985); WhoSampled lists a sample of the later-season title music.",
   "tier": "tangential",
   "tier_reason": "Theme sample.",
   "recommendation": "include",
-  "reason": "Early Dr. Dre group sampling the theme is a notable piece of hip-hop history.",
+  "reason": "Pre-N.W.A Dr. Dre and DJ Yella group using the theme; album and year now confirmed.",
   "source_title": "WhoSampled: World Class Wreckin' Cru's 'Planet' sample of Title Sequence (Season 4 Onwards) in The Twilight Zone",
   "source_url": "https://www.whosampled.com/sample/476186/World-Class-Wreckin%27-Cru-Planet-The-Twilight-Zone-Title-Sequence-%28Season-4-Onwards%29/",
   "title": "Planet",
@@ -66171,8 +67335,8 @@
   "connection": "A first-person psychological thriller planned as the first episode of an anthology; its creator said the studio wanted to do what Serling did with Twilight Zone, including bringing in outside writers. Linked to The Twilight Zone (original series).",
   "tier": "related",
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "recommendation": "exclude",
+  "reason": "Duplicate of works/asemblance-2016; the other record is kept. This one stays hidden so the importer does not recreate it.",
   "source_title": "Kill Screen – New videogame thriller takes its cues from The Twilight Zone",
   "source_url": "https://www.killscreen.com/new-videogame-thriller-takes-its-cues-from-the-twilight-zone/",
   "title": "Asemblance",
@@ -66226,6 +67390,18 @@
   "title": "The Immigration of the Body Snatchers",
   "subcategory": "Parodies",
   "sort": "immigration of the body snatchers"
+ },
+ "works/bcsd-rod-serling-day-2024": {
+  "connection": "The Binghamton school district's annual Rod Serling Day, with Anne Serling in 2024.",
+  "tier": "related",
+  "tier_reason": "A hometown commemoration of Serling.",
+  "recommendation": "include",
+  "reason": "An annual hometown tradition with a family guest and a \"Walking Distance\" tribute video; from the district's own article.",
+  "source_title": "Binghamton City School District - Dimension of Mind: Celebrating Rod Serling's Legacy (Christopher Whalen, 11 Apr 2024)",
+  "source_url": "https://www.binghamtonschools.org/article/1547312",
+  "title": "Binghamton City School District's Rod Serling Day (2024)",
+  "subcategory": "Anniversaries and festivals",
+  "sort": "binghamton city school districts rod serling day 002024"
  },
  "works/beltrami-tz-theme-2019": {
   "connection": "2019 main title.",
@@ -66742,6 +67918,18 @@
   "title": "Binghamton's Twilight Zone 50th anniversary celebration (2009)",
   "subcategory": "Anniversaries and festivals",
   "sort": "binghamtons twilight zone 000050th anniversary celebration 002009"
+ },
+ "works/binghamton-university-twilight-zone-stage-2014": {
+  "connection": "A university staging of \"The Monsters Are Due on Maple Street\" and \"Dust\" in Serling's hometown.",
+  "tier": "related",
+  "tier_reason": "A stage production of the teleplays.",
+  "recommendation": "include",
+  "reason": "AP national coverage; the director is named. The exact performance dates are not stated.",
+  "source_title": "Washington Times (Associated Press) - NY college bringing 'Twilight Zone' to the stage (6 Mar 2014)",
+  "source_url": "https://m.washingtontimes.com/news/2014/mar/6/ny-college-bringing-twilight-zone-to-the-stage/",
+  "title": "The Twilight Zone onstage at Binghamton University (2014)",
+  "subcategory": "Stage",
+  "sort": "twilight zone onstage at binghamton university 002014"
  },
  "works/blue-room-chico-twilight-zone": {
   "connection": "A community theatre that has repeatedly staged Twilight Zone episodes; local press covered a \"return to the Zone.\"",
@@ -67368,16 +68556,16 @@
   "sort": "twilight zone doorway 000014 oz travel mug ee exclusive"
  },
  "works/everson-museum-rod-serling-before-the-twilight-zone": {
-  "connection": "Syracuse museum programme on Serling's pre-TZ career.",
+  "connection": "A centennial lecture and screening of Serling's \"Patterns\" in Syracuse, his birthplace.",
   "tier": "related",
-  "tier_reason": "See connection.",
-  "recommendation": "maybe",
-  "reason": "Type and date unconfirmed; strong lead for a later pass.",
+  "tier_reason": "About Serling's pre-Twilight Zone work.",
+  "recommendation": "include",
+  "reason": "Confirmed from the museum page and the SUNY Oswego announcement: date, venue, speaker, partners. It was a lecture, not an exhibit, so it moves to Lectures.",
   "source_title": "Everson Museum of Art - Rod Serling: Before the Twilight Zone",
   "source_url": "https://everson.org/connect/rod-serling-before-the-twilight-zone/",
-  "title": "\"Rod Serling: Before the Twilight Zone\" (Everson Museum of Art, Syracuse)",
-  "subcategory": "Exhibitions",
-  "sort": "rod serling before the twilight zone everson museum of art syracuse"
+  "title": "\"Rod Serling: Before The Twilight Zone\" (Everson Museum of Art, 2024)",
+  "subcategory": "Lectures",
+  "sort": "rod serling before the twilight zone everson museum of art 002024"
  },
  "works/eye-of-the-beholder-male-nurse-appliance-propstore-2023": {
   "connection": "Surviving makeup piece from season 2's \"Eye of the Beholder\".",
@@ -68328,16 +69516,16 @@
   "sort": "italy ai confini della realt"
  },
  "works/ithaca-college-friday-night-twilight-zone-marathon-2008": {
-  "connection": "Campus TZ marathon at Serling's college.",
+  "connection": "The opening screening of the 2008 Rod Serling Conference at Ithaca College.",
   "tier": "related",
-  "tier_reason": "See connection.",
-  "recommendation": "maybe",
-  "reason": "Minor event; title-only source.",
+  "tier_reason": "Fills the 2008 gap between the existing 2006 and 2009 conference records.",
+  "recommendation": "include",
+  "reason": "Confirmed: 28 March 2008, 8pm, Park Auditorium; episodes chosen by online vote.",
   "source_title": "Ithaca College Intercom - Friday Night Twilight Zone Marathon",
   "source_url": "https://web2.ithaca.edu/intercom-archive/article.php/20080322095202313.html",
-  "title": "Friday Night Twilight Zone Marathon (Ithaca College, 2008)",
+  "title": "Friday Night Twilight Zone Marathon (Rod Serling Conference, Ithaca College, 2008)",
   "subcategory": "Screenings and marathons",
-  "sort": "friday night twilight zone marathon ithaca college 002008"
+  "sort": "friday night twilight zone marathon rod serling conference ithaca college 002008"
  },
  "works/ithaca-college-rod-serling-archives": {
   "connection": "Research guide to the Serling materials Carol Serling donated to Ithaca College, where Serling taught from 1967 to 1975.",
@@ -70116,15 +71304,15 @@
   "sort": "rod serlings stories from the zone"
  },
  "works/rosendale-theatre-rod-serling-evening-2025": {
-  "connection": "A Serling-themed evening at a Hudson Valley cinema.",
+  "connection": "The Rod Serling Memorial Foundation's illustrated talk for the show's 66th anniversary.",
   "tier": "related",
-  "tier_reason": "See connection.",
-  "recommendation": "maybe",
-  "reason": "Minor event; programme unconfirmed.",
+  "tier_reason": "An event by the foundation about Serling.",
+  "recommendation": "include",
+  "reason": "Two independent sources (WAMC listing, Marist Circle report) confirm the date, speakers and content.",
   "source_title": "WAMC community calendar - A Rod Serling Evening at the Rosendale Theatre",
   "source_url": "https://www.wamc.org/community-calendar/event/a-rod-serling-evening-at-the-rosendale-theatre-29-07-2025-14-16-20",
   "title": "A Rod Serling Evening (Rosendale Theatre, 2025)",
-  "subcategory": "Screenings and marathons",
+  "subcategory": "Lectures",
   "sort": "rod serling evening rosendale theatre 002025"
  },
  "works/rsmf-awards-page": {
@@ -70668,11 +71856,11 @@
   "sort": "rod serling at moorpark college loyalty oaths vietnam and social inequity 001968"
  },
  "works/serling-on-screen-binghamton": {
-  "connection": "Binghamton screening series of Serling work.",
+  "connection": "A Serling screening programme at Binghamton High School's Helen Foley Theatre.",
   "tier": "related",
-  "tier_reason": "See connection.",
+  "tier_reason": "A local Serling event.",
   "recommendation": "maybe",
-  "reason": "Recurring local programme, details unconfirmed.",
+  "reason": "The venue and the 5-7 December times are confirmed, but no year or programme; tagged unconfirmed.",
   "source_title": "Visit Binghamton - Serling on Screen",
   "source_url": "https://visitbinghamton.org/event/serling-on-screen/",
   "title": "Serling on Screen (Binghamton screening series)",
@@ -71280,15 +72468,15 @@
   "sort": "submitted for your approval"
  },
  "works/suny-oswego-serling-100th-lecture-screening-2024": {
-  "connection": "Centennial lecture and screening.",
+  "connection": "The same event as the Everson lecture.",
   "tier": "related",
-  "tier_reason": "See connection.",
-  "recommendation": "maybe",
-  "reason": "Title-only source; speaker unconfirmed.",
+  "tier_reason": "Duplicate.",
+  "recommendation": "exclude",
+  "reason": "Marked duplicate_of the Everson record; kept only so the id does not break.",
   "source_title": "SUNY Oswego - Faculty member to lead lecture, screening for Twilight Zone creator's 100th birthday",
   "source_url": "https://oswego.edu/news/announcements/faculty-member-lead-lecture-screening-twilight-zone-creators-100th-birthday",
   "title": "SUNY Oswego lecture and screening for Rod Serling's 100th birthday (2024)",
-  "subcategory": "Anniversaries and festivals",
+  "subcategory": "Lectures",
   "sort": "suny oswego lecture and screening for rod serlings 000100th birthday 002024"
  },
  "works/super-bowl-liii-spot-for-the-2019-revival": {
@@ -71316,11 +72504,11 @@
   "sort": "iron maiden reaction figure twilight zone single art"
  },
  "works/syfy-65-years-twilight-zone-marathon": {
-  "connection": "Syfy marathon for the 65th anniversary.",
+  "connection": "Syfy's 65th-anniversary marathon of the original series, 5-7 October 2024.",
   "tier": "core",
-  "tier_reason": "See connection.",
-  "recommendation": "maybe",
-  "reason": "Dates unconfirmed; title-only source.",
+  "tier_reason": "A broadcast event of the series itself.",
+  "recommendation": "include",
+  "reason": "Now dated and detailed from the Remind Magazine episode guide (65 episodes, exact days).",
   "source_title": "Remind Magazine - Episode Guide to Syfy's '65 Years of The Twilight Zone' Marathon",
   "source_url": "https://www.remindmagazine.com/article/20216/twilight-zone-65-years-syfy-marathon-episodes-schedule-dates",
   "title": "Syfy's \"65 Years of The Twilight Zone\" marathon (2024)",

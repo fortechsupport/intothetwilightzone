@@ -1,18 +1,29 @@
 title: Planet of the Apes
 kind: film
-summary: Serling wrote the early drafts adapting Pierre Boulle's novel, including the Statue of Liberty ending;
-  Michael Wilson rewrote it and shares the screen credit.
-release_date: '1968'
+summary: Serling wrote the early drafts adapting Pierre Boulle's novel, including the Statue of Liberty ending; Michael
+  Wilson rewrote it and shares the screen credit.
+release_date: '1968-02-08'
+runtime_min: 112
 writers:
-- Rod Serling
 - Michael Wilson
+- Rod Serling
+writing_credit_note: Screenplay by Michael Wilson and Rod Serling, from Pierre Boulle's 1963 novel. Serling's script
+  was rewritten by Wilson; his twist ending was kept.
 directors:
 - Franklin J. Schaffner
 cast:
 - Charlton Heston
 - Roddy McDowall
+- Maurice Evans
 - Kim Hunter
+- James Daly
+- James Whitmore
+organizations:
+- 20th Century-Fox
+- APJAC Productions
 sources:
+- title: Planet of the Apes (1968 film) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Planet_of_the_Apes_(1968_film)
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
 - title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
@@ -25,5 +36,5 @@ ids:
   imdb: tt0063442
 links:
   trailer_youtube: k0-dUM_A-Cg
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true

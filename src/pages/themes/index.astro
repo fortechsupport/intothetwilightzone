@@ -1,0 +1,38 @@
+---
+// Every theme, in its eight families (Adam, 2026-11-21; decision 0004), with how many Twilight Zone episodes,
+// Night Gallery segments and works that point to an episode carry it. Each theme has its own page.
+import Base from '../../layouts/Base.astro';
+import { FAMILIES, THEMES, themeHref, THEME_NOTE } from '../../lib/themes';
+import { themeCounts, themeIndex } from '../../lib/theme-index';
+import { sortKey } from '../../lib/categories';
+
+const families = [...FAMILIES].sort((a, b) => sortKey(a.family).localeCompare(sortKey(b.family)));
+const counts = await themeCounts();
+const ix = await themeIndex();
+const tagged = ix.episodes.filter((e) => e.themes.length).length;
+const plural = (n: number, one: string, many: string) => `${n} ${n === 1 ? one : many}`;
+---
+<Base title="Themes" description={`The ${THEMES.length} themes of The Twilight Zone and Night Gallery, from paranoia to time travel, with every episode, segment and homage filed under each.`}>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/discover/">Discover</a></p>
+  <h1>Themes</h1>
+  <p class="lead">What the stories are about: {THEMES.length} themes in {FAMILIES.length} families, across {tagged} Twilight Zone episodes, {ix.segments.length} Night Gallery segments and {ix.works.length} works that point to an episode.</p>
+  <p class="small muted">{THEME_NOTE} An episode’s themes come from its own keywords; a Night Gallery segment’s from its summary; a homage takes the themes of the episode it points to. Combine themes with series, writers and actors in the <a href="/finder/">episode finder</a>. Think one is wrong? <a href="/contribute/">Tell us</a>.</p>
+  <p class="small letters" data-pagefind-ignore>Jump to: {families.map((f) => <a href={`#${f.slug}`}>{f.family}</a>)}</p>
+  {families.map((f) => (
+    <section id={f.slug}>
+      <h2>{f.family}</h2>
+      <ul class="grid plain theme-grid">
+        {[...f.themes].sort((a, b) => a.label.localeCompare(b.label)).map((t) => {
+          const c = counts.get(t.slug)!;
+          return (
+            <li class="card">
+              <h3><a href={themeHref(t.slug)}>{t.label}</a></h3>
+              <p class="small">{t.desc}</p>
+              <p class="small muted">{[c.episodes && plural(c.episodes, 'episode', 'episodes'), c.segments && plural(c.segments, 'Night Gallery segment', 'Night Gallery segments'), c.works && plural(c.works, 'homage or work', 'homages and works')].filter(Boolean).join(' · ') || 'Nothing filed here yet'}</p>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  ))}
+</Base>

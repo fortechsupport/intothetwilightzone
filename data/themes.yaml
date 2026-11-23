@@ -1,0 +1,200 @@
+# Themes (Adam, 2026-11-21): one fixed list, in eight families, for every series, episode, segment and homage.
+#
+# A theme is our editors' reading of what a story is about, not a fact claimed by its makers, and pages say so.
+# How a record gets its themes (src/lib/themes.ts):
+#   - Twilight Zone episodes: their `themes:` keywords, mapped through `aliases` below. A keyword with no theme
+#     stays a keyword (search still finds it) but is not shown as a theme. Tone and subject keywords such as comedy,
+#     satire, baseball or boxing are deliberately left out of themes.
+#   - Night Gallery segments and other entries: data/themes-assigned.yaml, written from each record's summary.
+#   - Homages: the themes of the Twilight Zone episode they point to ("from the episode it points to").
+#   - Series and shows: the most common themes among their episodes, with counts.
+# To add a theme: add it here with a one-line definition; to fold a keyword in, add it to `aliases`.
+# Slugs are part of the address (/themes/<slug>/): renaming one needs a redirect.
+
+- family: The unknown
+  themes:
+  - slug: paranoia
+    label: Paranoia and suspicion
+    desc: Fear of neighbours, strangers or unseen forces, and what it does to people.
+    aliases: [paranoia, suspicion, conspiracy, menace, primal fear, fear, the hunt, pursuit, stalking, espionage, strangers, secrets]
+  - slug: the-uncanny
+    label: Ghosts and the uncanny
+    desc: Hauntings, possession, curses, witchcraft and the supernatural intruding on ordinary life.
+    aliases: [ghosts, haunting, possession, curse, curses, witchcraft, magic, spirit channeling, folklore, mythology, arthurian legend, vampires, darkness, evil, the unknown, mystery, suspense]
+  - slug: monsters
+    label: Monsters
+    desc: Creatures, gremlins and things in the dark, and who the real monster turns out to be.
+    aliases: [monsters, body horror]
+  - slug: aliens
+    label: Aliens and invasion
+    desc: Visitors from elsewhere, first contact and invasion, often as a mirror held up to humanity.
+    aliases: [aliens, alien contact, alien invasion, invasion, first contact]
+  - slug: other-worlds
+    label: Other worlds and realities
+    desc: Parallel worlds, other dimensions and realities that turn out not to be what they seem.
+    aliases: [other dimensions, parallel world, parallel worlds, reality, perception, perspective, simulation, virtual reality, alternate lives, existence, existentialism, disorientation, disappearance, being lost, metafiction, fiction, curiosity, knowledge, archaeology]
+  - slug: space
+    label: Space and exploration
+    desc: Astronauts, space travel and the frontier, and what explorers find out about themselves.
+    aliases: [space, space exploration, space travel, space race, exploration, aviation, flight, air travel]
+
+- family: Time and memory
+  themes:
+  - slug: time-travel
+    label: Time travel and time slips
+    desc: Journeys to the past or future, loops and slips in time, and the urge to change history.
+    aliases: [time travel, time, time slip, time loop, loops, future, the future, history, cause and effect]
+  - slug: nostalgia
+    label: Nostalgia and the past
+    desc: Longing for an earlier, simpler time or place, and the cost of trying to go home again.
+    aliases: [nostalgia, the past, home, hometown, longing, small town, rural life, 1950s, the old west, western, westerns]
+  - slug: memory
+    label: Memory
+    desc: Remembering, forgetting and the stories people tell themselves about their lives.
+    aliases: [memory, storytelling, legacy, writing, books]
+  - slug: fate
+    label: Fate and prophecy
+    desc: Destiny, predictions and premonitions, and whether anyone can escape what is coming.
+    aliases: [fate, prophecy, precognition, premonition, seeing the future, foresight, luck, cosmic balance, choice, choices, free will, consequences]
+
+- family: Self and identity
+  themes:
+  - slug: identity
+    label: Identity
+    desc: Who a person really is, when name, face, memory or place in the world is taken away.
+    aliases: [identity, self-image, self-knowledge, self-confidence, individuality, character, transformation, gender, beauty, perfection, empowerment]
+  - slug: doubles
+    label: Doubles and replicas
+    desc: Doppelgangers, mannequins, dolls, dummies and bodies that are not what they seem.
+    aliases: [doppelganger, body swap, mannequins, dolls, ventriloquism, toys, artificial life]
+  - slug: sanity
+    label: Sanity and the mind
+    desc: Madness, delusion and the fear that the problem is not the world but one's own mind.
+    aliases: [sanity, madness, mental illness, delusion, the mind, psychology, telepathy, telekinesis, psychic powers, dangerous powers, trauma, war trauma, denial, obsession, addiction, alcoholism]
+  - slug: isolation
+    label: Isolation and loneliness
+    desc: People cut off from others, by circumstance, by choice or by the last man on Earth.
+    aliases: [isolation, loneliness, alienation, captivity, imprisonment, silence, misanthropy, boredom, neglect]
+  - slug: dreams-and-escape
+    label: Dreams and escape
+    desc: Dreams, fantasies and the wish to escape an ordinary life into another one.
+    aliases: [dreams, escapism, escape, imagination, fantasy, fantasy vs reality, paradise, utopia, imaginary friends, art, creativity, music, theater, happiness]
+
+- family: Society
+  themes:
+  - slug: conformity
+    label: Conformity and control
+    desc: The pressure to fit in, and states or systems that watch, judge and erase the individual.
+    aliases: [conformity, totalitarianism, dystopia, fascism, authority, control, surveillance, privacy, censorship, bureaucracy, police, politics, freedom]
+  - slug: prejudice
+    label: Prejudice
+    desc: Bigotry, racism and fear of the outsider, often shown by turning the tables.
+    aliases: [prejudice, racism, xenophobia, civil rights, hatred, immigration, colonialism, disability, blindness, toxic masculinity]
+  - slug: mob-rule
+    label: Mob rule
+    desc: Crowds turning on their own, demagogues and the fragility of a community under pressure.
+    aliases: [mob mentality, demagoguery, populism, fanaticism, revolution, community, manipulation, deception]
+  - slug: war
+    label: War and the bomb
+    desc: Soldiers, battlefields, the Cold War and the shadow of nuclear destruction.
+    aliases: [war, cold war, nuclear war, nuclear fear, soldiers, civil war, vietnam, vietnam war, holocaust, military experiments, soviet union, terrorism, guns, violence, peace, apocalypse, post-apocalypse]
+  - slug: technology
+    label: Technology and machines
+    desc: Robots, computers and inventions that serve, replace or rule the people who made them.
+    aliases: [technology, machines, automation, computers, robots, science, progress, medicine, transplants]
+  - slug: fame-and-media
+    label: Fame and the media
+    desc: Celebrity, Hollywood, television and the hunger to be seen.
+    aliases: [fame, celebrity, media, television, hollywood, reality tv, journalism, radio, photography, art and commerce]
+  - slug: work-and-class
+    label: Work, money and class
+    desc: Jobs, bosses, poverty and the pressures of getting ahead.
+    aliases: [work, labor, workplace, work stress, career, class, privilege, poverty, salesmanship, debt, department store, competition, rivalry]
+
+- family: Morality and judgment
+  themes:
+  - slug: greed
+    label: Greed
+    desc: The hunger for money and more, and what it costs the people who give in to it.
+    aliases: [greed, wealth, money, consumerism, gambling, envy, gluttony, jealousy, exploitation, con artists, fraud, inheritance]
+  - slug: deals-with-the-devil
+    label: Deals with the devil
+    desc: Bargains with the devil or his agents, and the loophole that always comes due.
+    aliases: [deal with the devil, devil, the devil, bargains, deal, demons, temptation, wagers, oaths]
+  - slug: wishes
+    label: Wishes
+    desc: Wishes granted, and the lesson that getting what you want is rarely what you wanted.
+    aliases: [wishes, be careful what you wish for, wish fulfillment]
+  - slug: justice
+    label: Justice and comeuppance
+    desc: Crime, punishment and the poetic justice the Twilight Zone hands out.
+    aliases: [justice, judgment, punishment, retribution, revenge, comeuppance, capital punishment, execution, injustice, crime, murder, hit-and-run, irony, morality, moral dilemma, good and evil, truth, honesty]
+  - slug: redemption
+    label: Guilt and second chances
+    desc: Conscience, regret and the chance to undo a mistake or make amends.
+    aliases: [guilt, redemption, conscience, second chances, regret, self-reckoning, reconciliation, recovery, new beginnings, responsibility, obligation, burden, cowardice, honor, dignity, heroes, self-righteousness]
+  - slug: power
+    label: Pride and power
+    desc: Ambition, vanity and the abuse of power by those who think they are above the rules.
+    aliases: [pride, vanity, hubris, ambition, power, megalomania, leadership, cruelty, abuse, bullying, corruption, consent]
+  - slug: kindness
+    label: Kindness and compassion
+    desc: Small acts of decency, empathy and the humanity that saves people.
+    aliases: [kindness, compassion, empathy, humanity, human nature, hope, acceptance, protection, sacrifice]
+
+- family: Death and beyond
+  themes:
+  - slug: death
+    label: Death
+    desc: Mortality and Death itself, often personified, and how people meet the end.
+    aliases: [death, mortality]
+  - slug: afterlife
+    label: The afterlife
+    desc: Heaven, hell, purgatory, angels and what waits on the other side.
+    aliases: [afterlife, purgatory, angels, guardian angel, resurrection, reincarnation]
+  - slug: immortality
+    label: Immortality
+    desc: Eternal life and eternal youth, and why they turn out to be curses.
+    aliases: [immortality, suspended animation]
+  - slug: faith
+    label: Faith and superstition
+    desc: Belief, religion, superstition and skepticism put to the test.
+    aliases: [faith, belief, religion, faith healing, superstition, skepticism, christmas, holidays, mardi gras]
+  - slug: survival
+    label: Survival
+    desc: Staying alive against nature, disaster or each other.
+    aliases: [survival, epidemic, the sea, nature, heat, climate, desperation, despair, animals]
+
+- family: Love and family
+  themes:
+  - slug: love
+    label: Love and romance
+    desc: Romance, lost love and love that crosses time, death or reason.
+    aliases: [love, romance, lost love, forbidden love, possessive love, fidelity]
+  - slug: marriage
+    label: Marriage
+    desc: Husbands and wives, happy and not, and the marriages that come apart.
+    aliases: [marriage, divorce, adultery, domestic abuse, suburbia]
+  - slug: family
+    label: Family
+    desc: Parents, children and siblings, and the ties that bind or break.
+    aliases: [family, parenthood, fatherhood, fathers and sons, family conflict]
+  - slug: friendship
+    label: Friendship and trust
+    desc: Friends, loyalty and betrayal, and strangers who become allies.
+    aliases: [friendship, loyalty, trust, betrayal, belonging, connection, communication, language]
+  - slug: grief
+    label: Grief and loss
+    desc: Mourning, loss and the struggle to let go.
+    aliases: [grief, loss, lost objects]
+
+- family: Childhood and age
+  themes:
+  - slug: childhood
+    label: Childhood
+    desc: Children, the wonder and terror of being young, and the adults who forget it.
+    aliases: [childhood, children, youth, adolescence, school, teaching, adulthood]
+  - slug: aging
+    label: Aging
+    desc: Growing old, being left behind and wanting youth back.
+    aliases: [aging, old age]

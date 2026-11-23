@@ -1,18 +1,29 @@
 title: The Salamander
 kind: film
 summary: A political thriller from Morris West's novel, filmed after Serling's death from his 1975 screenplay.
-release_date: '1981'
+release_date: '1981-04-25'
+runtime_min: 96
 writers:
+- Robert Katz
 - Rod Serling
+writing_credit_note: Screenplay by Robert Katz; adaptation by Rod Serling; from Morris West's 1973 novel. Released after
+  Serling's death.
 directors:
 - Peter Zinner
 cast:
 - Franco Nero
 - Anthony Quinn
+- Martin Balsam
+- Sybil Danning
+- Christopher Lee
+organizations:
+- ITC Entertainment
 sources:
+- title: The Salamander (1981 film) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Salamander_(1981_film)
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
-research_confidence: medium
+research_confidence: high
 relevance: related
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true

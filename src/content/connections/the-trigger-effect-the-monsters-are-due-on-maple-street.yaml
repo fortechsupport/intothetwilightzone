@@ -2,8 +2,10 @@ from: films/the-trigger-effect
 to: 1959/the-monsters-are-due-on-maple-street
 kind: inspired-by
 confidence: documented
-summary: Wikipedia's page on the episode, citing Janet Maslin's New York Times review, says David Koepp's blackout
-  thriller drew on the episode's study of neighbours turning on each other.
+summary: Wikipedia's page on the episode, citing Janet Maslin's New York Times review, says David Koepp's blackout thriller
+  drew on the episode's study of neighbours turning on each other.
+evidence: 'Checked 2026-11-23: Wikipedia''s episode article names it among films that drew on the episode, citing Janet
+  Maslin''s 1996 New York Times review; Gizmodo (2009) calls it an "explicit tribute".'
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
@@ -11,5 +13,10 @@ sources:
   url: https://en.wikipedia.org/wiki/The_Monsters_Are_Due_on_Maple_Street
 - title: The Trigger Effect (Wikipedia)
   url: https://en.wikipedia.org/wiki/The_Trigger_Effect
-last_verified: '2026-11-19'
+- title: Urban Jitters Going Critical (The New York Times)
+  url: https://www.nytimes.com/1996/08/30/movies/urban-jitters-going-critical.html
+  author: Janet Maslin
+  publisher: The New York Times
+  note: 30 August 1996; cited by Wikipedia's episode article, not read directly.
+last_verified: '2026-11-23'
 locked: true

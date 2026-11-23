@@ -1,0 +1,20 @@
+---
+// The themes of a record, each linking to its theme page (decision 0004). Themes are our editors' reading,
+// and the line says where they come from.
+//   as="fact"   a <dt>/<dd> pair for a page's dl.facts
+//   as="line"   one small line, for explorer entries, segments and lists
+// `counts` shows how many episodes carry each theme (series pages); `from` names the source of inherited themes.
+import { THEME, themeHref } from '../lib/themes';
+interface Props { slugs: string[]; as?: 'fact' | 'line'; label?: string; counts?: Map<string, number>; from?: string }
+const { slugs, as = 'fact', label = 'Themes', counts, from } = Astro.props;
+const list = slugs.filter((s) => THEME.has(s));
+const items = list.map((s) => ({ href: themeHref(s), label: THEME.get(s)!.label, n: counts?.get(s) }));
+---
+{list.length > 0 && (as === 'fact' ? (
+  <>
+    <dt>{label}</dt>
+    <dd class="theme-dd">{items.map((x, i) => <>{i > 0 && ', '}<a href={x.href}>{x.label}</a>{x.n && <span class="muted"> ({x.n})</span>}</>)} <span class="small muted theme-src">{from ? `From ${from}. ` : ''}Our reading, not the makers’. <a href="/themes/">All themes</a></span></dd>
+  </>
+) : (
+  <p class="small theme-line"><span class="muted">{label}:</span> {items.map((x, i) => <>{i > 0 && ', '}<a href={x.href}>{x.label}</a>{x.n && <span class="muted"> ({x.n})</span>}</>)}{from && <span class="muted"> (from {from})</span>}</p>
+))}

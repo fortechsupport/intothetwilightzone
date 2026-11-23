@@ -1,15 +1,23 @@
 title: Into the Dark
 kind: tv-series
 summary: Hulu and Blumhouse anthology of holiday-themed horror films.
-release_date: '2018'
+release_date: '2018-10-05'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Into the Dark (TV series)"
+  url: https://en.wikipedia.org/wiki/Into_the_Dark_(TV_series)
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Into_the_Dark_(TV_series)
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: Hulu
+seasons: 2
+episode_count: 24
+country: United States
+end_date: '2021-03-26'

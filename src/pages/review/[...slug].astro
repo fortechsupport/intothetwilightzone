@@ -160,9 +160,9 @@ rows.forEach((r) => counts[r.status]++);
     const sum = r.summary ? (r.summary.length > 360 ? r.summary.slice(0, 360) + '…' : r.summary) : '';
     const others = r.sources.filter((s) => !r.source_url || s.url !== r.source_url);
     const src = others.length
-      ? others.slice(0, 4).map((s) => s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>` : `<span class="muted">${esc(s.title)}</span>`).join('') + (others.length > 4 ? `<span class="muted">+${others.length - 4} more</span>` : '')
+      ? others.slice(0, 4).map((s) => s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" aria-describedby="ext-note">${esc(s.title)}</a>` : `<span class="muted">${esc(s.title)}</span>`).join('') + (others.length > 4 ? `<span class="muted">+${others.length - 4} more</span>` : '')
       : (r.source_url ? '' : '<span class="muted">No independent source yet</span>');
-    const view = r.url && st !== 'exclude' ? ` <a class="small" href="${esc(r.url)}" target="_blank">View page</a>` : '';
+    const view = r.url && st !== 'exclude' ? ` <a class="small" href="${esc(r.url)}">View page</a>` : '';
     const btn = (v, label) => `<button type="button" data-set="${v}" aria-pressed="${st === v}">${label}</button>`;
     return `<li class="rq-item s-${st}${local[r.key] ? ' changed' : ''}" data-key="${esc(r.key)}">
       <h3>${esc(r.title)}${view}</h3>
@@ -171,7 +171,7 @@ rows.forEach((r) => counts[r.status]++);
       <p class="rq-why"><span class="tag rel-${esc(r.tier)}">${esc(r.tier || 'untiered')}</span> ${esc(r.tier_reason || '')}</p>
       ${r.recommendation ? `<p class="rq-why"><span class="tag rec-${esc(r.recommendation)}">Recommend: ${esc(r.recommendation)}</span> ${esc(r.reason || '')}</p>` : ''}
       ${sum && !String(r.connection || '').startsWith(sum.slice(0, 50)) ? `<p class="rq-sum">${esc(sum)}</p>` : ''}
-      <p class="rq-src">${r.source_url ? `<strong>Best source:</strong> <a href="${esc(r.source_url)}" target="_blank" rel="noopener">${esc(r.source_title || r.source_url)}</a> ` : ''}${src}</p>
+      <p class="rq-src">${r.source_url ? `<strong>Best source:</strong> <a href="${esc(r.source_url)}" target="_blank" rel="noopener noreferrer" aria-describedby="ext-note">${esc(r.source_title || r.source_url)}</a> ` : ''}${src}</p>
       <div class="rq-ctl">${btn('include', 'Include')}${btn('exclude', 'Exclude')}${btn('pending', 'Pending')}
         <textarea rows="1" placeholder="Notes (optional)">${esc(notesOf(r))}</textarea></div>
     </li>`;

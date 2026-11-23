@@ -2,9 +2,9 @@ title: Planet
 artist: World Class Wreckin' Cru
 genre: Electro / hip-hop
 tz_connection: theme
-description: An electro track by World Class Wreckin' Cru, the Los Angeles group that included a young Dr. Dre before
-  N.W.A. WhoSampled lists it as sampling the later-season title-sequence music of The Twilight Zone. Release year
-  and album were not confirmed in this pass.
+description: The opening track of World Class (1985), the debut album of World Class Wreckin' Cru, the Los Angeles
+  electro group whose members included Dr. Dre and DJ Yella before N.W.A. WhoSampled lists it as sampling the later-season
+  title-sequence music of The Twilight Zone.
 relevance: tangential
 research_confidence: medium
 categories:
@@ -20,4 +20,9 @@ sources:
 - title: World Class Wreckin' Cru (Wikipedia)
   url: https://en.wikipedia.org/wiki/World_Class_Wreckin%27_Cru
   note: Group page from search results; not opened.
+- title: World Class (album) tracklist (Wikipedia, opened 2026-11-21)
+  url: https://en.wikipedia.org/wiki/World_Class
+  note: Track 1 "Planet"; released 1985 on Kru-Cut Records.
 last_verified: '2026-11-21'
+album: World Class
+year: 1985

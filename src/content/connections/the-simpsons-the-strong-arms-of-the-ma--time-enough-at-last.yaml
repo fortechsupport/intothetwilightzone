@@ -2,10 +2,14 @@ from: films/the-simpsons-the-strong-arms-of-the-ma
 to: 1959/time-enough-at-last
 kind: reference
 confidence: fan-noted
-summary: A mail carrier settles in to read a Twilight Zone magazine only to find his glasses broken, a quick replay
-  of Henry Bemis's fate.
+summary: A mail carrier settles in to read a Twilight Zone magazine only to find his glasses broken, a quick replay of Henry
+  Bemis's fate.
 sources:
 - title: Wikisimpsons – Twilight Zone
   url: https://simpsonswiki.com/wiki/Twilight_Zone
-last_verified: '2026-11-20'
+- title: 'Wikipedia: The Strong Arms of the Ma'
+  url: https://en.wikipedia.org/wiki/The_Strong_Arms_of_the_Ma
+  publisher: Wikipedia
+  note: Names the episode, without a citation.
+last_verified: '2026-11-21'
 locked: true

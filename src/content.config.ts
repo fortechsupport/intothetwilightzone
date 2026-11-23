@@ -3,9 +3,12 @@ import { glob, type Loader } from 'astro/loaders';
 import { isVisible, loadDecisions, reviewMode, statusOf } from './lib/review';
 import { z } from 'astro/zod';
 
+// Credit where credit is due (Adam, 2026-11-21): a source names its author and its publication when known.
 const source = z.object({
   title: z.string(),
   url: z.string().url().optional(),
+  author: z.string().optional(), // the writer or researcher: "Marc Scott Zicree"
+  publisher: z.string().optional(), // the publication or site: "Bantam Books", "The Twilight Zone Wiki (Fandom)"
   note: z.string().optional(),
 });
 const ids = z.record(z.string(), z.string()).optional();
@@ -50,6 +53,8 @@ const mediaItem = z.preprocess((raw) => {
   // Who made it: the cover artist, photographer, poster designer or speaker. An image with a subtype
   // of cover-art, poster, key-art or illustration is also listed under Artwork.
   creator: z.string().optional(),
+  // Who owns the rights, when it is not the creator: "CBS Studios", "Rod Serling Trust", "Associated Press".
+  rights_holder: z.string().optional(),
   note: z.string().max(400).optional(),
 }));
 const media = z.array(mediaItem).default([]);
@@ -193,6 +198,7 @@ const films = defineCollection({
   loader: yaml('films'),
   schema: z.object({
     title: z.string(),
+    aka: names, // other titles a source gives the work ("Old MacDonald Has a Curve")
     kind: z.enum(['film', 'tv-film', 'tv-episode', 'tv-segment', 'tv-series', 'sketch', 'documentary', 'special', 'pilot', 'stage', 'unproduced', 'short', 'music-video', 'commercial', 'web-series']).default('film'),
     summary: z.string().optional(),
     parent_series: z.string().optional(),
@@ -204,8 +210,19 @@ const films = defineCollection({
     rating: z.string().optional(),
     runtime_min: z.number().optional(),
     writers: names,
+    writing_credit_note: z.string().optional(), // co-writers, adaptation, or how the credit is known
     directors: names,
     cast: names,
+    // A series' run (kind tv-series), from its sourced reference page (decision 0002, plan section 5).
+    network: z.string().optional(),
+    end_date: z.string().optional(), // last first-run broadcast; release_date is the first
+    seasons: z.number().optional(),
+    episode_count: z.number().optional(),
+    created_by: names,
+    presented_by: names, // hosts and narrators
+    country: z.string().optional(),
+    // Sourced statements of how a series connects to The Twilight Zone (own words, one sentence each).
+    ties: z.array(z.object({ text: z.string().max(400), sources: z.array(source).min(1) })).default([]),
     ...common,
   }),
 });

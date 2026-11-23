@@ -1,4 +1,6 @@
 ---
+import ThemeList from '../../components/ThemeList.astro';
+import { inheritedThemes } from '../../lib/themes';
 import TrackButtons from '../../components/fan/TrackButtons.astro';
 import { trackFor } from '../../lib/fan/contribute';
 import Base from '../../layouts/Base.astro';
@@ -20,6 +22,8 @@ interface Props { w: CollectionEntry<'works'> }
 const { w } = Astro.props;
 const d = w.data;
 const conns = (await getCollection('connections')).filter((c) => c.data.from === `works/${w.id}`);
+const epRefs = conns.map((c) => c.data.to).filter((t) => /^\d{4}\//.test(t));
+const themes = await inheritedThemes(epRefs);
 const targets = await Promise.all(conns.map(async (c) => ({ c, t: await resolveRef(c.data.to) })));
 const details = Object.entries(d.details ?? {}).filter(([, v]) => detailText(v) !== '');
 const linkNames: Record<string, string> = { official: 'Official site', home: 'Website' };
@@ -38,6 +42,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'CreativeWork', name
     {d.creator && <><dt>Creator</dt><dd>{d.creator}</dd></>}
     {d.publisher && <><dt>Publisher or maker</dt><dd>{d.publisher}</dd></>}
     {details.map(([k, v]) => <><dt>{humanize(k)}</dt><dd>{detailText(v)}</dd></>)}
+    <ThemeList slugs={themes} from={epRefs.length > 1 ? 'the Twilight Zone episodes it points to' : 'the Twilight Zone episode it points to'} />
   </dl>
   {targets.length > 0 && (
     <section>

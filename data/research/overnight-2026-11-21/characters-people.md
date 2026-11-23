@@ -39,3 +39,63 @@ Andrew Francis, Jennifer Griffin, Jonathan Potts, Todd Williams, Zak Santiago, L
 ## Schema need
 A way to say one character is played by different actors at different ages or versions (Philip / New Philip in
 "Upgrade", young Sean in "Found and Lost").
+
+## Round 2
+
+**16 new people records.** Each one was confirmed by fetching the person's Wikipedia article, and each name matches the episode credit string exactly.
+
+High confidence: the article's filmography names the Twilight Zone episode and the role.
+- angela-featherstone: Kate Graham, "Burned"
+- nicki-aycox: "Sanctuary"
+- greg-serano: Marco Flores, "Last Lap"
+- sarah-carter: Amber, "Sunrise"
+- lindy-booth: Shannon, "The Pharaoh's Curse"
+- gabrielle-miller: Angela Perry, "To Protect and Serve"
+- kristi-angus: Holly, "The Monsters Are on Maple Street"
+- kim-hawthorne: Muriel, "Chosen"
+- alexandra-barreto: Maria Hernandez, "Time Lapse"
+- eric-keenleyside: Bartender, 1989 "Love Is Blind"
+- ben-bass: Trevor Black. The article does not name the episode.
+- zak-santiago: Cheto, "The Pool Guy"
+- todd-williams: Marcus Fisher, "Tagged"
+- john-furia-jr: name "John Furia, Jr."; the article lists The Twilight Zone among his credits.
+
+Medium confidence: the article lists The Twilight Zone among the person's credits, but does not name the episode.
+- patrick-r-norris: name "Patrick R. Norris"; Wikipedia article "Patrick Norris"
+- andrew-francis
+
+Overrides: scratchpad/overrides-people-2.yaml.
+
+**Spelling note.** Nicki Aycox's Wikipedia article spells her Sanctuary character "Ricki". characters/rikki-sanctuary uses "Rikki", following scifi-movies. One source of the two is wrong, and I did not change the record.
+
+**Checked but not written, because the article does not mention The Twilight Zone:**
+- Mackenzie Gray (Canadian actor, b. 1957)
+- Devon Gummersall
+- John Novak (actor)
+- Larry J. Blake (1914-1982)
+- Michael Kopsa (round 1)
+- Robert Hunter (Grateful Dead lyricist): no television writing is mentioned, so whether he wrote "Devil's Alphabet" remains unconfirmed.
+- Robert Walden (Lou Grant actor): no writing credits are mentioned, so whether he wrote "20/20 Vision" remains unconfirmed.
+- John Hancock (actor, 1941-1992, https://en.wikipedia.org/wiki/John_Hancock_(actor)): the article does not list "The Convict's Piano". I did not write john-hancock-actor. The identity is plausible, and he had a long run of authority-figure roles in the 1980s. If it is confirmed later, the credit string "John Hancock" on 1985/the-convicts-piano and on characters/dr-puckett will need to change to match the new record.
+
+**Gordon Mitchell.** The Wikipedia article on "The Purple Testament" does not list him in its cast. I wrote no record. His credit on the 1959 episode record has no source I could find.
+
+**No Wikipedia article found:**
+- Dion Johnstone
+- Laara Sadiq
+
+**Not reached:**
+- Vern Gillum
+- Otta Hanus
+- Kenneth Gilbert
+- Lee Polk
+- Marvin Petal
+- Alonso Alvarez-Barreda
+- Peter Oberth
+- Aaron Pearl (no Wikipedia title in search results)
+- Jennifer Griffin
+- Jonathan Potts
+- Carolyn Kearney
+- Gene Coogan
+
+Budget used: 24 WebFetch calls, about 14 WebSearch calls. The YAML check passes, and `npm run check:data` reports no findings.

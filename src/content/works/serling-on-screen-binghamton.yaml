@@ -1,14 +1,17 @@
 title: Serling on Screen (Binghamton screening series)
 kind: event
 subtype: screening
-description: A screening programme in Binghamton listed by Visit Binghamton under the name "Serling on Screen",
-  with at least three numbered listings. Venue, organiser and dates were not confirmed in this pass.
+description: '"Serling on Screen" was a three-day programme at the Helen Foley Theatre in Binghamton High School,
+  the school auditorium named after Serling''s drama teacher, listed by Visit Binghamton with a link to the Rod
+  Serling Memorial Foundation. The listings give 5 and 6 December (7 to 9pm) and 7 December (2 to 4pm) but no year,
+  and say nothing about what was shown.'
 details:
-  place: Binghamton, New York
+  date: December 5-7 (year not stated on the listings)
+  place: Helen Foley Theatre, Binghamton High School, 31 Main Street, Binghamton, New York
+  venue: Helen Foley Theatre
 sources:
 - title: Visit Binghamton - Serling on Screen
   url: https://visitbinghamton.org/event/serling-on-screen/
-  note: Seen as a search result only.
 - title: Visit Binghamton - Serling on Screen (third listing)
   url: https://visitbinghamton.org/event/serling-on-screen-3
 content_of:
@@ -18,6 +21,9 @@ categories:
 relevance: related
 research_confidence: low
 tags:
-- recurring
 - research-2026-11-21
+- recurring
+- unconfirmed
 last_verified: '2026-11-21'
+organizations:
+- Rod Serling Memorial Foundation

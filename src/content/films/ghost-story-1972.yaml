@@ -1,15 +1,25 @@
 title: Ghost Story / Circle of Fear
 kind: tv-series
 summary: NBC supernatural anthology produced by William Castle.
-release_date: '1972'
+release_date: '1972-09-15'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Ghost Story (TV series)"
+  url: https://en.wikipedia.org/wiki/Ghost_Story_(TV_series)
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Ghost_Story_(TV_series)
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: NBC
+seasons: 1
+episode_count: 22
+country: United States
+end_date: '1973-03-30'
+presented_by:
+- Sebastian Cabot

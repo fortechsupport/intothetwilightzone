@@ -1,7 +1,8 @@
 title: Saddle the Wind
 kind: film
 summary: A western about a reformed gunfighter and his volatile younger brother, from a story by Thomas Thompson.
-release_date: '1958'
+release_date: '1958-03-05'
+runtime_min: 84
 writers:
 - Rod Serling
 directors:
@@ -10,14 +11,19 @@ cast:
 - Robert Taylor
 - John Cassavetes
 - Julie London
+- Donald Crisp
+organizations:
+- Metro-Goldwyn-Mayer
 sources:
+- title: Saddle the Wind (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Saddle_the_Wind
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
 - title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
   url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
-research_confidence: medium
+research_confidence: high
 relevance: related
 ids:
   imdb: tt0050923
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true

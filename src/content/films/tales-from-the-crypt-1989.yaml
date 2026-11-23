@@ -1,15 +1,26 @@
 title: Tales from the Crypt
 kind: tv-series
 summary: HBO horror anthology based on the EC comics, hosted by the Crypt Keeper.
-release_date: '1989'
+release_date: '1989-06-10'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: "Wikipedia: Tales from the Crypt (TV series)"
+  url: https://en.wikipedia.org/wiki/Tales_from_the_Crypt_(TV_series)
+  publisher: Wikipedia
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Tales_from_the_Crypt_(TV_series)
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: HBO
+seasons: 7
+episode_count: 93
+country: United States
+end_date: '1996-07-19'
+created_by:
+- William Gaines
+- Steven Dodd

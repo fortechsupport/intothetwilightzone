@@ -1,17 +1,7 @@
 title: Night Gallery
 kind: tv-series
 release_date: '1970-12-16'
-summary: 'Rod Serling''s second anthology series ran on NBC from December 1970 to May 1973, after a 1969 pilot film.
-  Serling introduced each story from a gallery of eerie paintings, one canvas per tale, and wrote about a third
-  of the scripts. Unlike The Twilight Zone, he did not control the show: producer Jack Laird chose much of the material,
-  leaned toward gothic horror, and added short comic blackout sketches in season two, which Serling disliked. The
-  first season rotated with three other series under the umbrella title Four in One; seasons two and three ran on
-  their own, the last in a half-hour format. Its 43 episodes and pilot hold 98 segments, adapting writers such as
-  H. P. Lovecraft, Fritz Leiber, Richard Matheson, A. E. van Vogt, Algernon Blackwood and August Derleth. Directors
-  included Steven Spielberg, John Badham, Jeannot Szwarc and Leonard Nimoy. The gallery paintings were by Thomas
-  J. Wright and Jaroslav Gebr, and Gil Mellé''s electronic theme opened the first two seasons. For syndication Universal
-  cut the hour episodes into half hours, padded some with stock footage, and folded in 25 episodes of The Sixth
-  Sense with new Serling introductions; the uncut versions were restored on home video.'
+summary: 'Rod Serling''s second anthology series ran on NBC from December 1970 to May 1973, after a 1969 pilot film. Serling introduced each story from a gallery of eerie paintings, one canvas per tale, and wrote about a third of the scripts. Unlike The Twilight Zone, he did not control the show: producer Jack Laird chose much of the material, leaned toward gothic horror, and added short comic blackout sketches in season two, which Serling disliked. The first season rotated with three other series under the umbrella title Four in One; seasons two and three ran on their own, the last in a half-hour format. Its 43 episodes and pilot hold 98 segments, adapting writers such as H. P. Lovecraft, Fritz Leiber, Richard Matheson, A. E. van Vogt, Algernon Blackwood and August Derleth. Directors included Steven Spielberg, John Badham, Jeannot Szwarc and Leonard Nimoy. The gallery paintings were by Thomas J. Wright and Jaroslav Gebr, and Gil Mellé''s electronic theme opened the first two seasons. For syndication Universal cut the hour episodes into half hours, padded some with stock footage, and folded in 25 episodes of The Sixth Sense with new Serling introductions; the uncut versions were restored on home video.'
 runtime_min: 50
 links:
   wikipedia: https://en.wikipedia.org/wiki/Night_Gallery
@@ -22,5 +12,90 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
 research_confidence: high
 relevance: related
-last_verified: '2026-11-19'
+last_verified: '2026-11-21'
 locked: true
+network: NBC
+seasons: 3
+episode_count: 43
+country: United States
+end_date: '1973-05-27'
+created_by:
+- Rod Serling
+presented_by:
+- Rod Serling
+ties:
+- text: Serling saw Night Gallery as a logical extension of The Twilight Zone, and hosted it and wrote many of its scripts.
+  sources:
+  - title: "Wikipedia: Night Gallery"
+    url: https://en.wikipedia.org/wiki/Night_Gallery
+    publisher: Wikipedia
+- text: Serling ranked his segment “They’re Tearing Down Tim Riley’s Bar” above even his Twilight Zone work.
+  sources:
+  - title: "Wikipedia: Night Gallery"
+    url: https://en.wikipedia.org/wiki/Night_Gallery
+    publisher: Wikipedia
+- text: In the third season NBC forbade the philosophical stories The Twilight Zone was known for.
+  sources:
+  - title: "Wikipedia: Night Gallery"
+    url: https://en.wikipedia.org/wiki/Night_Gallery
+    publisher: Wikipedia
+- text: "Steven Spielberg directed a Night Gallery segment and later a segment of Twilight Zone: The Movie (1983)."
+  sources:
+  - title: "Wikipedia: Night Gallery"
+    url: https://en.wikipedia.org/wiki/Night_Gallery
+    publisher: Wikipedia
+releases:
+- date: '2004-08-24'
+  format: DVD
+  title: 'Night Gallery: Season One'
+  publisher: Universal
+  note: 'Three discs: the 1969 pilot and the first season, plus three later episodes as extras; no other bonus features.'
+  sources:
+  - title: 'Night Gallery: Complete First Season (review)'
+    url: https://www.dvdtalk.com/reviews/review/12105
+    publisher: DVD Talk
+  - title: 'Night Gallery: Season One'
+    url: https://www.universalpicturesathome.com/tv/night-gallery-season-one
+    publisher: Universal Pictures Home Entertainment
+- date: 2008-11
+  format: DVD
+  title: 'Night Gallery: Season Two'
+  publisher: Universal
+  note: Adds a 30-minute documentary, a gallery of the paintings and commentaries by Guillermo del Toro and by Scott Skelton
+    and Jim Benson, per a fan site; not yet confirmed elsewhere.
+  sources:
+  - title: Night Gallery on DVD
+    url: https://www.nightgallery.net/night-gallery-on-dvd
+    publisher: nightgallery.net (fan site)
+- date: '2012-04-10'
+  format: DVD
+  title: 'Night Gallery: Season Three'
+  publisher: Universal
+  note: Includes a restored "lost episode" of four segments and commentaries, per a fan site; another review places those
+    segments with Season Two.
+  sources:
+  - title: Night Gallery on DVD
+    url: https://www.nightgallery.net/night-gallery-on-dvd
+    publisher: nightgallery.net (fan site)
+- date: '2021-11-23'
+  format: Blu-ray
+  title: 'Night Gallery: Season One'
+  publisher: Kino Lorber Studio Classics
+  note: 'Two discs from new 2K masters: the pilot and the first season, new commentaries and "The Syndication Conundrum" featurette.'
+  sources:
+  - title: 'Night Gallery: Season One (Blu-ray review)'
+    url: https://www.digitalbits.com/item/night-gallery-s1-klsc-2022-bd
+    author: Tim Salmons
+    publisher: The Digital Bits
+- date: '2026-01-14'
+  format: Blu-ray
+  title: 'Rod Serling''s Night Gallery: The Complete Collection'
+  publisher: Imprint Television (Via Vision Entertainment)
+  region: Australia
+  note: 'Limited edition of 1,500: ten discs with all three seasons, the pilot and the lost Season Two segments, eight new
+    commentaries and a paintings disc.'
+  sources:
+  - title: 'Rod Serling''s Night Gallery: The Complete Collection (Blu-ray review)'
+    url: https://digitalbits.com/reviews/item/rod-serling-s-night-gallery-the-complete-collection-blu-ray-review
+    author: Tim Salmons
+    publisher: The Digital Bits

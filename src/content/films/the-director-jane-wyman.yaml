@@ -1,16 +1,28 @@
 title: The Director
 kind: tv-episode
 parent_series: The Jane Wyman Show
-summary: A half-hour drama for the Jane Wyman anthology.
-release_date: '1955'
+summary: A half-hour drama with Jack Carson, aired on NBC in 1955, the year Jane Wyman took over Fireside Theatre as host.
+  The anthology was billed as Jane Wyman Presents The Fireside Theatre and later became The Jane Wyman Show; the Rod
+  Serling Memorial Foundation lists the play under Fireside Theater.
+release_date: '1955-09-13'
 writers:
 - Rod Serling
+directors:
+- Herschell Daugherty
+cast:
+- Jack Carson
 sources:
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
-research_confidence: medium
+- title: Rod Serling's Complete Filmography
+  url: https://rodserling.com/rod-serlings-complete-filmography/
+  publisher: Rod Serling Memorial Foundation
+- title: Fireside Theatre
+  url: https://en.wikipedia.org/wiki/Fireside_Theatre
+  publisher: Wikipedia
+research_confidence: high
 relevance: related
 tags:
 - teleplay
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true
