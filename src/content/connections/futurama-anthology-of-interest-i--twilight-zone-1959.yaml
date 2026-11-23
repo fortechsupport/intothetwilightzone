@@ -2,13 +2,12 @@ from: films/futurama-anthology-of-interest-i
 to: series/1959
 kind: homage
 confidence: fan-noted
-summary: An anthology-format episode of 'what if' stories; its working title was 'Terror at 500 Feet', echoing the
-  Treehouse and Twilight Zone title pattern.
+summary: An anthology-format episode of 'what if' stories; its working title was 'Terror at 500 Feet', echoing the Treehouse
+  and Twilight Zone title pattern.
+evidence: The Infosphere, a Futurama fan wiki drawing on the DVD commentaries, gives the working title and the Twilight
+  Zone link; no press or creator source was found.
 sources:
 - title: 'The Infosphere: The Twilight Zone'
   url: https://theinfosphere.org/The_Twilight_Zone
 last_verified: '2026-11-20'
 locked: true
-evidence: 'Checked 2026-11-20: The Infosphere (a Futurama fan wiki) gives the working title and The Twilight Zone link; no
-  press or creator source was found for the ''Terror at 500 Feet'' working title. The Infosphere draws on DVD commentaries,
-  which could be cited directly if someone checks them.'

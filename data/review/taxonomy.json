@@ -13916,10 +13916,10 @@
  "connections/all-in-the-family-archie-and-the-computer--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "references",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "References",
    "isNew": false,
    "official": false
   }
@@ -15093,10 +15093,10 @@
  "connections/cold-case-rampage--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "parodies",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "Parodies",
    "isNew": false,
    "official": false
   }
@@ -15225,10 +15225,10 @@
  "connections/dog-city-rocketship-k-9--1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "parodies",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "Parodies",
    "isNew": false,
    "official": false
   }
@@ -15445,10 +15445,10 @@
  "connections/family-guy-wasted-talent--time-enough-at-last": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "references",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "References",
    "isNew": false,
    "official": false
   }
@@ -16479,10 +16479,10 @@
  "connections/johnny-bravo-the-day-the-world-didnt-move-around-very-much--a-kind-of-a-stopwatch": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "parodies",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "Parodies",
    "isNew": false,
    "official": false
   }
@@ -16534,10 +16534,10 @@
  "connections/key-peele-airplane-continental--nightmare-at-20-000-feet": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "parodies",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "Parodies",
    "isNew": false,
    "official": false
   }
@@ -17183,10 +17183,10 @@
  "connections/perfect-strangers-the-horn-blows-at-midnight--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "references",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "References",
    "isNew": false,
    "official": false
   }
@@ -17304,10 +17304,10 @@
  "connections/qi-future--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "references",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "References",
    "isNew": false,
    "official": false
   }
@@ -18228,10 +18228,10 @@
  "connections/the-dick-van-dyke-show-it-may-look-like-a-walnut--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "parodies",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "Parodies",
    "isNew": false,
    "official": false
   }
@@ -18525,10 +18525,10 @@
  "connections/the-nanny-the-honeymoons-overboard--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "references",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "References",
    "isNew": false,
    "official": false
   }
@@ -18855,11 +18855,11 @@
  "connections/the-simpsons-the-terror-of-tiny-toon--twilight-zone-the-movie": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "compared",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
-   "isNew": false,
+   "subTitle": "Compared to the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -19119,10 +19119,10 @@
  "connections/tiny-toon-adventures-the-acme-acres-zone--twilight-zone-1959": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "parodies",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "Parodies",
    "isNew": false,
    "official": false
   }
@@ -19845,10 +19845,10 @@
  "connections/weird-science-sci-fi-zoned--where-is-everybody": [
   {
    "cat": "homages",
-   "sub": "homages",
+   "sub": "parodies",
    "group": null,
    "catTitle": "Legacy",
-   "subTitle": "Homages",
+   "subTitle": "Parodies",
    "isNew": false,
    "official": false
   }

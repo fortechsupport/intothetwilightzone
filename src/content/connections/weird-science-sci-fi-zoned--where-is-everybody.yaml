@@ -1,11 +1,9 @@
 from: films/weird-science-sci-fi-zoned
 to: 1959/where-is-everybody
-kind: homage
+kind: parody
 confidence: fan-noted
-evidence: 'The Twilight Zone Wiki says this Weird Science episode parodies several Twilight Zone classics, including the deserted
-  town of ''Where Is Everybody?''. Checked 2026-11-20: Episode listings confirm ''Sci-Fi Zoned'' (season 3, episode
-  10), but no reliable source says which Twilight Zone episodes it spoofs; the ''Where Is Everybody?'' tie comes from the fandom
-  wiki. The current kind is ''homage'', but the wiki calls it a parody.'
+evidence: Episode listings confirm 'Sci-Fi Zoned' (season 3, episode 10). The fan-run Twilight Zone Wiki says it parodies
+  several Twilight Zone episodes, among them the deserted town of 'Where Is Everybody?'; no published source names the episodes.
 sources:
 - title: Television series with references to The Twilight Zone (Twilight Zone Wiki)
   url: https://twilightzone.fandom.com/wiki/Television_series_with_references_to_The_Twilight_Zone
