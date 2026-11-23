@@ -1,22 +1,28 @@
 title: The Yellow Canary
 kind: film
 summary: A thriller about a self-centered pop singer whose baby is kidnapped.
-release_date: '1963'
+release_date: '1963-05-15'
 writers:
 - Rod Serling
+writing_credit_note: Adapted by Rod Serling from a novel by Whit Masterson.
 directors:
 - Buzz Kulik
 cast:
 - Pat Boone
 - Barbara Eden
+- Steve Forrest
+- Jack Klugman
+- Jesse White
 sources:
+- title: The Yellow Canary (1963 film) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Yellow_Canary_(1963_film)
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
 - title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
   url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
-research_confidence: medium
+research_confidence: high
 relevance: related
 ids:
   imdb: tt0057700
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true

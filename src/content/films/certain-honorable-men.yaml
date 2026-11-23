@@ -4,10 +4,19 @@ summary: A political drama for NBC about a veteran congressman and his idealisti
 release_date: '1968'
 writers:
 - Rod Serling
+writing_credit_note: Written by Rod Serling for On Stage, a series of NBC specials sponsored by Prudential.
+cast:
+- Van Heflin
+- Peter Fonda
+organizations:
+- NBC
+- Prudential
 sources:
+- title: Certain Honorable Men (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Certain_Honorable_Men
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
-research_confidence: medium
+research_confidence: high
 relevance: related
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true

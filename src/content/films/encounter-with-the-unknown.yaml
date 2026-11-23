@@ -1,15 +1,29 @@
 title: Encounter with the Unknown
 kind: documentary
 summary: A low-budget anthology of three supposedly true supernatural stories, narrated by Serling.
-release_date: '1972'
+release_date: '1972-10-29'
+runtime_min: 90
+writers:
+- Jack Anderson
+- Joe Glass
+- Hillman Taylor
+- Harry Thomason
+writing_credit_note: Rod Serling narrates the three stories (credited as narrator, voice); first shown in Hope, Arkansas.
+directors:
+- Harry Thomason
 cast:
 - Rod Serling
+- Rosie Holotik
+- Gary Brockette
+- Gene Ross
 sources:
+- title: Encounter with the Unknown (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Encounter_with_the_Unknown
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
-research_confidence: medium
+research_confidence: high
 relevance: related
 ids:
   imdb: tt0072937
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true

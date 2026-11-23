@@ -3,6 +3,17 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-23 — Rod Serling's films checked one by one
+
+Every film Serling wrote or narrated now shows its exact release date, running time, director, writers, main cast and
+studio, taken from the film's own page and listed first among its sources. All 13 films on the Rod Serling Memorial
+Foundation's filmography are on the site. Two credits were wrong and are fixed: The Rack's screenplay is by Stewart
+Stern, and Incident in an Alley's is by Harry Medford and Orville H. Hampton. Both are from Serling's teleplays, and the
+page now says so.
+
+**Known not to work yet:** The Oath: The Sad and Lonely Sundays and In Search of Ancient Astronauts have no page to check
+against yet. Serling's 1975 interview about an unmade "It's a Good Life" feature is a scan that can't be read here.
+
 ## 2026-11-23 — Movies research: a wide sweep for films that reference the show
 
 Adam asked for a real search for films that reference or pay homage to episodes, with Truth or Consequences, N.M. as his

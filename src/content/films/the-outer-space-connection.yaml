@@ -2,12 +2,22 @@ title: The Outer Space Connection
 kind: documentary
 summary: The third Serling-narrated special in the ancient-astronaut cycle.
 release_date: '1975'
+writers:
+- Fred Warshofsky
+writing_credit_note: Written and directed by Fred Warshofsky; narrated by Rod Serling, one of his last projects.
+directors:
+- Fred Warshofsky
 cast:
 - Rod Serling
+organizations:
+- Alan Landsburg Productions
+- Sunn Classic Pictures
 sources:
+- title: The Outer Space Connection (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Outer_Space_Connection
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
-research_confidence: medium
+research_confidence: high
 relevance: related
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true

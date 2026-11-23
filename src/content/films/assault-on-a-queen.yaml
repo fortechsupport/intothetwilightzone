@@ -1,22 +1,31 @@
 title: Assault on a Queen
 kind: film
 summary: A caper film, from Jack Finney's novel, about a gang that raises a sunken U-boat to rob the Queen Mary.
-release_date: '1966'
+release_date: '1966-06-15'
+runtime_min: 106
 writers:
 - Rod Serling
+writing_credit_note: Screenplay by Rod Serling, from Jack Finney's 1959 novel.
 directors:
 - Jack Donohue
 cast:
 - Frank Sinatra
 - Virna Lisi
+- Tony Franciosa
+- Richard Conte
+organizations:
+- Paramount Pictures
+- Seven Arts Productions
 sources:
+- title: Assault on a Queen (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Assault_on_a_Queen
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
 - title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
   url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
-research_confidence: medium
+research_confidence: high
 relevance: related
 ids:
   imdb: tt0060135
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true

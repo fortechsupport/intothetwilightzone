@@ -1,19 +1,25 @@
 title: A Storm in Summer (1970)
 kind: tv-film
 parent_series: Hallmark Hall of Fame
-summary: A Hallmark Hall of Fame drama about a bitter Jewish delicatessen owner in upstate New York and the Black
-  boy from Harlem who spends a summer with him.
+summary: A Hallmark Hall of Fame drama about a bitter Jewish delicatessen owner in upstate New York and the Black boy
+  from Harlem who spends a summer with him.
 release_date: '1970'
 writers:
 - Rod Serling
+directors:
+- Buzz Kulik
 cast:
 - Peter Ustinov
+- N'Gai Dixon
 sources:
+- title: A Storm in Summer (Wikipedia)
+  url: https://en.wikipedia.org/wiki/A_Storm_in_Summer
+  note: The article on the 2000 remake, which names the 1970 film's director and stars and says both used Serling's script.
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
 - title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'
   url: https://www.museum.tv/tv-encyclopedia-15/serling-rod
-research_confidence: medium
+research_confidence: high
 relevance: related
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true
