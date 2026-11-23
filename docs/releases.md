@@ -3,6 +3,16 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-23 — Lighter series pages; fan decision records renumbered
+
+Series pages load faster: `/series/1959/` is back under the 300 KB target (289 KB, from 327 KB). Homages on a
+series page show their label without thumbs; fans vote on each of those links from the record page it belongs to.
+The episode table sorts and filters by writer and director as before. The fan account and fan vote decision records
+are now numbered 0007 and 0008, so they no longer share numbers with the Television (0002) and "Compared to" (0006)
+records.
+
+**Known not to work yet:** One link that was listed only on a series page can't be voted on.
+
 ## 2026-11-23 — Fuller credits on the documentaries, and two named reviews of the 1983 film
 
 Five documentaries Serling narrated now show their release date, network or distributor, director, writers and makers,

@@ -1,4 +1,4 @@
-# 0002 Fan accounts sign in with passkeys, on Cloudflare
+# 0007 Fan accounts sign in with passkeys, on Cloudflare
 
 **Date:** 2026-11-21. **Decided by:** the fan accounts thread, for Adam to review (he asked for accounts and
 for defaults to be chosen overnight).
