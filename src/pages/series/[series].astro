@@ -1,5 +1,4 @@
 ---
-import LinkVote from '../../components/fan/LinkVote.astro';
 import Base from '../../layouts/Base.astro';
 import InCategories from '../../components/InCategories.astro';
 import Media from '../../components/Media.astro';
@@ -106,11 +105,10 @@ const jsonld = {
         <tbody id="ep-rows">
           {eps.map((e, i) => (
             <tr id={i === 0 || eps[i - 1].data.season !== e.data.season ? `season-${e.data.season}` : undefined}
-              data-season={String(e.data.season)} data-air={String(i).padStart(4, '0')} data-date={e.data.air_date ?? ''}
-              data-writers={`|${e.data.writers.join('|')}|`} data-directors={`|${e.data.directors.join('|')}|`} data-themes={`|${epThemes.get(e.id)!.join('|')}|`} data-more={[...e.data.cast, ...e.data.source_authors].join(' ').toLowerCase()}>
-              <td class="nowrap">{episodeNumber(e.data)}</td>
+              data-season={String(e.data.season)} data-date={e.data.air_date ?? ''} data-themes={`|${epThemes.get(e.id)!.join('|')}|`} data-more={[...e.data.cast, ...e.data.source_authors].join(' ').toLowerCase()}>
+              <td>{episodeNumber(e.data)}</td>
               <td><a href={`/episodes/${e.id}/`}>{e.data.title}</a></td>
-              <td class="nowrap">{formatDate(e.data.air_date)}</td>
+              <td>{formatDate(e.data.air_date)}</td>
               <td>{e.data.writers.map((n, j) => <>{j > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</td>
               <td>{e.data.directors.map((n, j) => <>{j > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</td>
             </tr>
@@ -124,6 +122,9 @@ const jsonld = {
       const form = document.getElementById('ep-tools'), body = document.getElementById('ep-rows');
       if (!form || !body) return;
       const rows = [...body.rows], count = form.querySelector('.lt-count');
+      // Air order is the order rows arrive in; writers and directors are read from their cells (keeps the page light).
+      const names = (td) => `|${[...td.querySelectorAll('a')].map((a) => a.textContent.trim()).join('|')}|`;
+      rows.forEach((r, i) => { r.dataset.air = String(i).padStart(4, '0'); r.dataset.writers = names(r.cells[3]); r.dataset.directors = names(r.cells[4]); });
       for (const r of rows) { r.dataset.text = (r.textContent + ' ' + r.dataset.more).toLowerCase(); r.dataset.sort = r.cells[1].textContent.trim().toLowerCase().replace(/^(the|a|an) /, ''); }
       const v = (k) => { const el = form.querySelector(`[data-f="${k}"]`); return el ? el.value : ''; };
       const keys = ['q', 'season', 'writer', 'director', 'theme', 'sort'];
@@ -179,7 +180,7 @@ const jsonld = {
           <summary><strong>{label}</strong> <span class="muted small">({list.length})</span></summary>
           <ul class="plain homage-compact">
             {list.map(({ c, r, show }) => (
-              <li><a href={r.url}>{show && show !== r.title ? `${show}: ${r.title}` : r.title}</a> <span class="muted small">{CONNECTION_LABELS[c.data.kind] ?? c.data.kind}</span> <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span> <LinkVote id={c.id} /></li>
+              <li><a href={r.url}>{show && show !== r.title ? `${show}: ${r.title}` : r.title}</a> <small>{CONNECTION_LABELS[c.data.kind] ?? c.data.kind}</small> <span class={`tag ${c.data.confidence}`}>{CONFIDENCE_LABELS[c.data.confidence]}</span></li>
             ))}
           </ul>
         </details>

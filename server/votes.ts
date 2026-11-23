@@ -1,4 +1,4 @@
-// Fan votes: a thumbs up or thumbs down on any record page (docs/plans/fan-votes.md, decision 0006).
+// Fan votes: a thumbs up or thumbs down on any record page (docs/plans/fan-votes.md, decision 0008).
 // - One vote per member per record; a member can change or withdraw it. Up and down cancel out.
 // - Counts are public. Only votes from active members count, so suspending a spammer undoes their votes.
 // - When a record's net score falls below zero, Adam gets an alert on the Moderation page (and an email

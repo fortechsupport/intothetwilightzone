@@ -34,7 +34,7 @@ straight to a branch preview rather than screenshots first.
 ## Decided here (Adam reviews later)
 
 - Passkeys are the only sign-in until email links (Resend now, or Cloudflare Email Service after the
-  nameserver move) or Google are configured. See decision 0002.
+  nameserver move) or Google are configured. See decision 0007.
 - A new member's first 2 forum posts are held for review (`FORUM_PREMODERATE`).
 - Accounts are for ages 13 and up.
 - File limits: images 15 MB, audio 50 MB, video 95 MB (Cloudflare's 100 MB request limit), PDF 25 MB;

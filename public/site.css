@@ -461,6 +461,7 @@ select, input, textarea { max-width: 100%; }
 .homage-list > li, .explorer .ex-entry { overflow-wrap: anywhere; }
 .homage-compact { margin: var(--space-2) 0 var(--space-4); }
 .homage-compact > li { padding: 4px 0; border-bottom: 1px solid var(--line); }
+.homage-compact small { font-size: var(--step--1); color: var(--muted); }
 .homage-list .homage-where { font-family: var(--font-ui); font-size: var(--step-0); font-weight: 600; margin: 0 0 4px; line-height: 1.4; }
 .homage-list .homage-where a { color: var(--text); }
 .marks .tag { margin-right: 2px; }
@@ -498,7 +499,7 @@ ol.rank li { padding: 4px 0; border-bottom: 1px solid var(--line); }
 .people-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: var(--space-5); }
 .people-tally { margin: var(--space-2) 0; padding: 0; list-style: none; }
 .people-tally li { padding: 3px 0; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: var(--space-2); }
-.ep-table td.nowrap { white-space: nowrap; }
+.ep-table td:nth-child(1), .ep-table td:nth-child(3) { white-space: nowrap; }
 .ep-table tr[hidden] { display: none; }
 .tz-link .ties { margin: var(--space-2) 0; padding-left: 1.2em; }
 
