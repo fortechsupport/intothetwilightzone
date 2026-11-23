@@ -2,9 +2,14 @@ from: films/the-bourne-identity
 to: series/1959
 kind: reference
 confidence: fan-noted
-summary: The amnesiac Bourne remarks that his situation makes him feel like he's in a Twilight Zone story.
+summary: TV Tropes says the amnesiac Bourne remarks that his situation feels like a Twilight Zone story.
+evidence: Only TV Tropes' list of works referencing the show records the line. The film's Wikipedia article and its TV Tropes
+  page, which quotes many lines, do not include it. Unconfirmed until the line is checked against the film.
 sources:
 - title: 'TV Tropes – Referenced By: The Twilight Zone (1959)'
   url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone1959
-last_verified: '2026-11-20'
+- title: The Bourne Identity (2002 film) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Bourne_Identity_(2002_film)
+  publisher: Wikipedia
+last_verified: '2026-11-23'
 locked: true

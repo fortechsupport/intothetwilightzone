@@ -4,11 +4,14 @@ kind: inspired-by
 confidence: fan-noted
 summary: Aliens mistake washed-up TV actors for real heroes, echoing the episode where visitors take a small-town braggart's
   tall tales at face value; TopTenz lists the parallel.
-evidence: 'Checked 2026-11-20: TopTenz''s ''ripped off'' listicle pairs Galaxy Quest with the episode; no writer statement
-  was found. The film''s own lineage is Star Trek fandom. Weak. Re-read 2026-11-23: TopTenz files Galaxy Quest under
-  a "Hocus Pocus and Frisby" heading but its text never says that is a Twilight Zone episode; still weak.'
+evidence: Aliens take a teller of tall tales at face value in both. TopTenz (2013) pairs the film with the episode. Wikipedia's
+  articles on the film and the episode do not mention each other; the film's article says writer David Howard got the idea
+  at an IMAX presentation. The link is a comparison.
 sources:
 - title: Top 10 Movies That Ripped Off The Twilight Zone (TopTenz)
   url: https://www.toptenz.net/top-10-movies-that-ripped-off-the-twilight-zone.php
+- title: Galaxy Quest (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Galaxy_Quest
+  publisher: Wikipedia
 last_verified: '2026-11-23'
 locked: true

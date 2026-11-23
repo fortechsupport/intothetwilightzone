@@ -3,6 +3,21 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-23 — Fans' film links checked
+
+Adam asked that links fans have noted be verified. Every film link marked "Noted by fans" has now been checked, and 26 of
+them were read again against the makers' own interviews. A visitor now sees, in each film's "Why it's here" box, what the
+makers actually said:
+- Triangle is now **confirmed by its makers**: writer-director Christopher Smith calls it "that classic Twilight Zone
+  thing of running into yourself".
+- Devil is now **documented**: Film Stories reports Shyamalan planned its trilogy "in the vein of The Twilight Zone".
+- The Truman Show's two links say that writer Andrew Niccol denies a Twilight Zone source ("No. Goes to show you can't
+  believe everything you read.").
+- The rest stay "Noted by fans", and each now names the interviews that were read and what the makers named instead.
+
+**Known not to work yet:** Many fan-noted links are still labelled "Inspired by" when the only source is a comparison;
+a "compared to" label is proposed for Adam. About 28 older links still show research shorthand in their evidence.
+
 ## 2026-11-23 — Movies on six shelves
 
 A visitor opening Watch > Movies now finds six shelves, A to Z, each split into official and unofficial items:

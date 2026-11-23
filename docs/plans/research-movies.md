@@ -213,6 +213,12 @@ each with sources; fan-noted links are verified where possible; visitors' thumbs
 - Making-of featurettes and DVD extras are media on the film or series, not records.
 - The Warner Bros. feature stays one record with a dated history of each announcement, not one record per
   attempt.
+- Fan-noted links checked against the makers' interviews (2026-11-23, notes in
+  data/research/movies-2026-11-23/round2-fan-noted-links.md): Triangle is raised to confirmed (Christopher Smith's own
+  words), Devil to documented (Film Stories on Shyamalan's plan). The Truman Show's two links stay as comparisons with
+  writer Andrew Niccol's denial quoted, rather than being removed: the comparison is real and widely made, and the page
+  now says plainly that the writer denies it. Evidence on the 26 links checked is rewritten for visitors, without
+  research shorthand.
 
 ## Waiting on Adam
 - Nothing. Adam approved the plan at 19:35 UTC and asked for a wide sweep of films referencing episodes, with Truth or
@@ -228,3 +234,13 @@ each with sources; fan-noted links are verified where possible; visitors' thumbs
 - The Planet of the Apes franchise record (works) sits on Rod Serling's films in a group of its own, "Franchises".
 - The search and filter bar on list pages never filtered (its script ran before the list loaded). Fixed in the
   structure step; worth a look on other pages that use their own filter scripts.
+- About 28 connection records (Movies and Television) still carry research shorthand in their visitor-facing evidence,
+  such as "consider removing" or "'inspired-by' overstates it". Rewrite them for visitors.
+- Many fan-noted links are filed as "inspired-by" although the only source is a comparison, which the Legacy page says
+  never happens ("A resemblance is never presented as an influence"). A "compared to" kind of link would fix this
+  honestly; it touches the schema, labels and the Legacy shelves, so it is its own step for Adam to approve.
+- Journey to the Far Side of the Sun: Wikipedia's film article reportedly cites Douglas Pratt and the ICA comparing it to
+  "The Parallel" (refs 67-68). Read those before citing them.
+- The Bourne Identity's Twilight Zone line rests on TV Tropes only; check it against the film.
+- Donnie Darko: Gizmodo says Richard Kelly has mentioned "An Occurrence at Owl Creek Bridge" in interviews; finding
+  one would confirm the link.

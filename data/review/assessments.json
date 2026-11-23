@@ -16068,11 +16068,11 @@
   "sort": "pribilof stare  the twilight zone original series"
  },
  "connections/devil--twilight-zone-1959": {
-  "connection": "Strangers trapped in a stalled elevator suspect one of them is the devil; Flicks names it among Twilight Zone-style films.",
-  "tier": "tangential",
-  "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
-  "recommendation": "maybe",
-  "reason": "Only a critic's or list-writer's comparison supports it, not the makers. Include as a labelled resemblance if you like the comparison.",
+  "connection": "Strangers trapped in a stalled elevator suspect one of them is the devil; M. Night Shyamalan planned the films it began in the vein of The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "Inspired by link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
   "source_title": "Sight, Sound and Mind: The Twilight Zone on the Big Screen (Flicks)",
   "source_url": "https://www.flicks.com.au/features/sight-sound-and-mind-the-twilight-zone-on-the-big-screen/",
   "title": "Devil → The Twilight Zone (original series)",
@@ -17657,8 +17657,8 @@
   "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
   "recommendation": "exclude",
   "reason": "Only fans have made this link and the resemblance is loose; leaving it out keeps the Influence section credible.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Rian Johnson on Looper (NPR, Weekend Edition)",
+  "source_url": "https://www.npr.org/transcripts/161951624",
   "title": "Looper → “Back There” (1959)",
   "subcategory": "Inspired by an episode",
   "sort": "looper  back there 001959"
@@ -19272,7 +19272,7 @@
   "sort": "tryptophantasy  the twilight zone original series"
  },
  "connections/the-bourne-identity--1959": {
-  "connection": "The amnesiac Bourne remarks that his situation makes him feel like he's in a Twilight Zone story.",
+  "connection": "TV Tropes says the amnesiac Bourne remarks that his situation feels like a Twilight Zone story.",
   "tier": "tangential",
   "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
   "recommendation": "maybe",
@@ -19337,8 +19337,8 @@
   "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
   "recommendation": "maybe",
   "reason": "Close premise, but only fans have made the link; show it labelled as unconfirmed or leave it out.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Interview: Thomas McCarthy (NOW Toronto)",
+  "source_url": "https://nowtoronto.com/movies/interview-thomas-mccarthy/",
   "title": "The Cobbler → “Dead Man's Shoes” (1959)",
   "subcategory": "Inspired by an episode",
   "sort": "cobbler  dead mans shoes 001959"
@@ -20544,11 +20544,11 @@
   "sort": "trevco cbslicensed twilight zone tshirts  to serve man 001959"
  },
  "connections/triangle--twilight-zone-1959": {
-  "connection": "Yacht passengers board an empty ocean liner and fall into a looping nightmare; Flickering Myth names it a Twilight Zone-style movie.",
-  "tier": "tangential",
-  "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
-  "recommendation": "maybe",
-  "reason": "Only a critic's or list-writer's comparison supports it, not the makers. Include as a labelled resemblance if you like the comparison.",
+  "connection": "Yacht passengers board an empty ocean liner and fall into a looping nightmare; writer-director Christopher Smith calls it \"that classic Twilight Zone thing of running into yourself.\"",
+  "tier": "related",
+  "tier_reason": "Inspired by link, the makers have said so.",
+  "recommendation": "include",
+  "reason": "The makers have confirmed the influence.",
   "source_title": "10 Great Twilight Zone Style Movies (Flickering Myth)",
   "source_url": "https://www.flickeringmyth.com/10-great-twilight-zone-style-movies/",
   "title": "Triangle → The Twilight Zone (original series)",
@@ -30384,11 +30384,11 @@
   "sort": "pribilof stare"
  },
  "films/devil": {
-  "connection": "Strangers trapped in a stalled elevator suspect one of them is the devil; Flicks names it among Twilight Zone-style films.",
-  "tier": "tangential",
-  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
-  "recommendation": "maybe",
-  "reason": "Only a critic's or list-writer's comparison supports it, not the makers. Include as a labelled resemblance if you like the comparison.",
+  "connection": "Strangers trapped in a stalled elevator suspect one of them is the devil; M. Night Shyamalan planned the films it began in the vein of The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A published source makes the link, so it is a well-founded influence record.",
   "source_title": "Sight, Sound and Mind: The Twilight Zone on the Big Screen (Flicks)",
   "source_url": "https://www.flicks.com.au/features/sight-sound-and-mind-the-twilight-zone-on-the-big-screen/",
   "title": "Devil",
@@ -33720,7 +33720,7 @@
   "sort": "blues for joey menotti"
  },
  "films/the-bourne-identity": {
-  "connection": "The amnesiac Bourne remarks that his situation makes him feel like he's in a Twilight Zone story.",
+  "connection": "TV Tropes says the amnesiac Bourne remarks that his situation feels like a Twilight Zone story.",
   "tier": "tangential",
   "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
   "recommendation": "maybe",
@@ -35436,11 +35436,11 @@
   "sort": "toy story 000004"
  },
  "films/triangle": {
-  "connection": "Yacht passengers board an empty ocean liner and fall into a looping nightmare; Flickering Myth names it a Twilight Zone-style movie.",
-  "tier": "tangential",
-  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
-  "recommendation": "maybe",
-  "reason": "Only a critic's or list-writer's comparison supports it, not the makers. Include as a labelled resemblance if you like the comparison.",
+  "connection": "Yacht passengers board an empty ocean liner and fall into a looping nightmare; writer-director Christopher Smith calls it \"that classic Twilight Zone thing of running into yourself.\"",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "Its makers have said the show influenced it: the strongest kind of influence record.",
   "source_title": "10 Great Twilight Zone Style Movies (Flickering Myth)",
   "source_url": "https://www.flickeringmyth.com/10-great-twilight-zone-style-movies/",
   "title": "Triangle",
@@ -41412,7 +41412,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -42132,7 +42132,7 @@
   "sort": "cesare danova"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -44856,7 +44856,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -48492,7 +48492,7 @@
   "sort": "jean carson"
  },
  "people/jean-de-segonzac": {
-  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Night Route” and “Cradle of Darkness”).",
+  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Cradle of Darkness” and “Night Route”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -50556,7 +50556,7 @@
   "sort": "jonathan winters"
  },
  "people/jordan-peele": {
-  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “The Comedian” and “Nightmare at 30,000 Feet”).",
+  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “Nightmare at 30,000 Feet” and “The Comedian”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -55236,7 +55236,7 @@
   "sort": "paul le mat"
  },
  "people/paul-lynch": {
-  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “Examination Day” and “A Message from Charity”).",
+  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “A Message from Charity” and “Examination Day”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -57924,7 +57924,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",

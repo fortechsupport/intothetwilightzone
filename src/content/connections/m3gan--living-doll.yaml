@@ -3,6 +3,9 @@ to: 1959/living-doll
 kind: inspired-by
 confidence: fan-noted
 summary: An AI companion doll grows dangerously protective of an orphaned girl; writers compare it to Talky Tina.
+evidence: RunPee and a Substack compare M3GAN with Talky Tina. Screenwriter Akela Cooper names Magic and Child's Play as
+  her killer-doll influences (SYFY Wire), and director Gerard Johnstone's interviews with Collider and GamesRadar (January
+  2023) name other films and do not mention Talky Tina or the show. The link is a comparison.
 sources:
 - title: Which is more frightening, M3GAN or Talky Tina? (RunPee)
   url: https://runpee.com/which-is-more-frightening-m3gan-or-talky-tina/
@@ -10,8 +13,15 @@ sources:
   url: https://willstape.substack.com/p/m3gan-chucky-and-twilight-zones-talking
 - title: What influenced M3GAN? (SYFY Wire)
   url: https://www.syfy.com/index%2ephp/syfy-wire/m3gan-screenwriter-reveals-killer-doll-influences
-last_verified: '2026-11-20'
+- title: M3GAN director Gerard Johnstone interview (Collider)
+  url: https://collider.com/m3gan-movie-director-gerard-johnstone-interview/
+  author: Alyse Wax
+  publisher: Collider
+  note: 3 January 2023.
+- title: M3GAN director Gerard Johnstone interview (GamesRadar+)
+  url: https://www.gamesradar.com/m3gan-gerard-johnstone-interview-sci-fi-horror-movie
+  author: Amy West
+  publisher: GamesRadar+
+  note: 5 January 2023.
+last_verified: '2026-11-23'
 locked: true
-evidence: 'Checked 2026-11-20: In a SYFY Wire interview, M3GAN screenwriter Akela Cooper names Magic and Child''s
-  Play as her killer-doll influences, and James Wan calls it Annabelle meets The Terminator; Talky Tina is not mentioned.
-  RunPee and a Substack only compare the two. The documented influences point elsewhere; a comparison only.'
