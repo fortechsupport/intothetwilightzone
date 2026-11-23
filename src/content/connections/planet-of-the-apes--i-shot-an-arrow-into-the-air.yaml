@@ -1,0 +1,24 @@
+from: films/planet-of-the-apes
+to: 1959/i-shot-an-arrow-into-the-air
+kind: inspired-by
+confidence: documented
+summary: Rod Serling co-wrote the 1968 screenplay, and Syfy Wire compares its twist, stranded astronauts who learn they
+  never left Earth, to the twist of this episode.
+evidence: 'Checked 2026-11-23: the comparison is a critic''s, made in Syfy Wire and cited by Wikipedia; Serling wrote
+  both, but no statement of his linking the two has been found yet. Checked 2026-11-23: Den of Geek (2017) lists the
+  film among the show''s "borrowed plots", paired with this episode.'
+sources:
+- title: I Shot an Arrow into the Air (Wikipedia)
+  url: https://en.wikipedia.org/wiki/I_Shot_an_Arrow_into_the_Air
+  note: Cites the Syfy Wire article below for the comparison.
+- title: Why the cast and crew of this Twilight Zone episode mostly ate salads during shooting (Syfy Wire)
+  url: https://www.syfy.com/syfy-wire/why-the-cast-and-crew-of-this-twilight-zone-episode-mostly-ate-salads-during-shooting
+  author: Josh Weiss
+  publisher: Syfy Wire
+  note: 8 April 2025.
+- title: 8 Ways The Twilight Zone Influenced Modern TV and Film (Den of Geek)
+  url: https://www.denofgeek.com/tv/8-ways-the-twilight-zone-influenced-modern-tv-and-film/
+  author: Louisa Mellor
+  publisher: Den of Geek
+  note: 13 November 2017; its "borrowed plots" list.
+last_verified: '2026-11-23'

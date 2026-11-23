@@ -3,6 +3,22 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-23 — Movies research: a wide sweep for films that reference the show
+
+Adam asked for a real search for films that reference or pay homage to episodes, with Truth or Consequences, N.M. as his
+example. Every original-series episode article on Wikipedia (156) and ten critics' lists were read. The results wait in the
+review queue (new records start pending), and the research notes are in `data/research/movies-2026-11-23/`.
+- 8 new films linked to an episode or the show: Truth or Consequences, N.M. ("A Penny for Your Thoughts", on Adam's note),
+  Marnie, Everybody Wants Some!!, The Brown Bunny, Day of the Evil Gun, Click, The Rewrite and Wild Tales.
+- 2 new links for films already on file: Planet of the Apes to "I Shot an Arrow into the Air", and Magic to "Caesar and Me".
+- Raised to confirmed by the filmmaker: Urban Legends: Final Cut (John Ottman's DVD commentary), Sinners (Ryan Coogler,
+  The Atlantic) and Coherence (James Ward Byrkit). Cube, The Brown Bunny and Wild Tales are now documented.
+- 18 more links gained the critics' articles that name them, with their marks unchanged: one critic saying a film "copied"
+  an episode keeps it fan-noted.
+
+**Known not to work yet:** IMDb's connection lists refuse automated reads, so they could not be searched. The films are not
+yet on the new Movies shelves, which come in the structure step. "What's in the Box" links to the wrong Wikipedia article.
+
 ## 2026-11-23 — The Twilight Zone on television: one parent page for the four series
 
 A visitor can now open The Twilight Zone (Watch > Television > The Twilight Zone, `/series/twilight-zone/`). It is one page

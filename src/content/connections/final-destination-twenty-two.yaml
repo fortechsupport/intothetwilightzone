@@ -2,12 +2,28 @@ from: films/final-destination
 to: 1959/twenty-two
 kind: inspired-by
 confidence: documented
-summary: Flavorwire pairs the film's 'premonition of a doomed flight' opening with this episode's warning to avoid
-  a fatal plane; this is a critic's comparison, not a creator statement.
+summary: Flavorwire pairs the film's 'premonition of a doomed flight' opening with this episode's warning to avoid a
+  fatal plane; this is a critic's comparison, not a creator statement.
+evidence: 'Checked 2026-11-23: Also named by CBR (2025), Flavorwire (2012), Den of Geek (2017) and Gizmodo (2009).'
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 - title: Movies That Stole Their Plots from 'The Twilight Zone' (Flavorwire)
   url: https://www.flavorwire.com/317756/9-movies-that-stole-their-plots-from-the-twilight-zone
-last_verified: '2026-11-19'
+- title: 10 Horror Movies That Shamelessly Copied Twilight Zone Episodes (CBR)
+  url: https://www.cbr.com/10-horror-movies-that-shamelessly-copied-twilight-zone-episodes/
+  author: Robert Vaux
+  publisher: CBR
+  note: 15 February 2025.
+- title: 8 Ways The Twilight Zone Influenced Modern TV and Film (Den of Geek)
+  url: https://www.denofgeek.com/tv/8-ways-the-twilight-zone-influenced-modern-tv-and-film/
+  author: Louisa Mellor
+  publisher: Den of Geek
+  note: 13 November 2017; its "borrowed plots" list.
+- title: Films That Have Found Their Way Into the Twilight Zone (Gizmodo)
+  url: https://gizmodo.com/films-that-have-found-their-way-into-the-twilight-zone-5122451
+  author: Lauren Davis
+  publisher: Gizmodo (io9)
+  note: 2 January 2009.
+last_verified: '2026-11-23'
 locked: true

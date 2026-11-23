@@ -1,0 +1,12 @@
+from: films/day-of-the-evil-gun
+to: 1959/come-wander-with-me
+kind: reference
+confidence: fan-noted
+summary: Wikipedia's episode article says the film's score reuses the song written for the episode.
+evidence: 'Checked 2026-11-23: the episode article''s statement is uncited, and the film''s own Wikipedia article does
+  not mention the song or The Twilight Zone.'
+sources:
+- title: Come Wander with Me (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Come_Wander_with_Me
+  note: The episode article that names the film.
+last_verified: '2026-11-23'
