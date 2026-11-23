@@ -1,0 +1,18 @@
+from: films/wild-tales
+to: series/1959
+kind: inspired-by
+confidence: documented
+summary: Damián Szifron has named The Twilight Zone, with Alfred Hitchcock Presents, among the influences on his anthology
+  film.
+evidence: 'Checked 2026-11-23: the film''s Wikipedia article says Szifron was influenced by Alfred Hitchcock Presents
+  and The Twilight Zone, and that its first story was often compared to the show; Den of Geek (2017) reports the same.
+  The interview itself has not been read.'
+sources:
+- title: 8 Ways The Twilight Zone Influenced Modern TV and Film (Den of Geek)
+  url: https://www.denofgeek.com/tv/8-ways-the-twilight-zone-influenced-modern-tv-and-film/
+  author: Louisa Mellor
+  publisher: Den of Geek
+  note: 13 November 2017.
+- title: Wild Tales (film) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Wild_Tales_(film)
+last_verified: '2026-11-23'

@@ -141,6 +141,61 @@ Passage_on_the_Lady_Anne, Person_or_Persons_Unknown, Printer's_Devil, Queen_of_t
 
 ## Film candidates still to add (need each film's own page for year, director and cast)
 Marnie (1964) ← Nightmare as a Child; Everybody Wants Some!! (2016) ← A Stop at Willoughby; The Brown Bunny (2003) and
-Day of the Evil Gun (1968) ← Come Wander with Me (the song); Click (2006) ← A Kind of a Stopwatch; The Man from Earth
-(2007) ← Long Live Walter Jameson; The Lego Batman Movie (2017) ← Nightmare at 20,000 Feet; The Electric Grandmother
-(1982 TV film) ← I Sing the Body Electric (same Bradbury story); unmade Serling feature of It's a Good Life (shelf F).
+Day of the Evil Gun (1968) ← Come Wander with Me (the song); Click (2006) ← A Kind of a Stopwatch; The Lego Batman Movie
+(2017) ← Nightmare at 20,000 Feet; unmade Serling feature of It's a Good Life (shelf F).
+Already on file, no change: The Man from Earth, The Electric Grandmother, Ruby Sparks, Terrifier, Poltergeist, Us, Toy Story 4,
+Child's Play, Ace Ventura, Sharknado 2, Madagascar 2, Flight 7500, For All Time, Twilight Zone: The Movie.
+
+## Batch 9 to 15 (read 2026-11-23 20:40 UTC; batches 9, 12 and 14 reported separately below when they arrive)
+What_You_Need, Will_the_Real_Martian_Please_Stand_Up?, You_Drive, Young_Man's_Fancy | NONE
+What%27s_in_the_Box | URL serves The Politician (TV series) article; the episode's article title must differ. Fix the link.
+Where_Is_Everybody? | King Nine Will Not Return | tv | variation on the plot | [citation needed]
+Where_Is_Everybody? | Stories from the Twilight Zone (Bantam, 1960) | book | Serling's own prose adaptation | Bantam 1960 pp. 105–130
+The_Fugitive, The_Gift, The_Grave, The_Howling_Man, The_Hunt, The_Incredible_World_of_Horace_Ford, The_Jungle | NONE
+The_Hitch-Hiker | Twilight Zone Radio Dramas (2002, Kate Jackson) | radio | adaptation | no citation
+The_Invaders | Twilight Zone Radio Dramas (Kathy Garver) | radio | adaptation | hollywood360radio.net store page
+The_Jeopardy_Room | Payback (1999) | film | similar booby trap and twist ending (compared) | no citation
+The_Passersby | "Homecoming" (2002 series) | tv | remake of elements | no citation; radio adaptation with Morgan Brittany
+The_Purple_Testament | "Into the Light" (2002 series, 2003) | tv | similar theme | no citation; "A Quality of Mercy" (Dean Stockwell) compared
+The_Self-Improvement_of_Salvadore_Ross | CBS Radio Mystery Theater "A Bargain in Blood" (10 Jun 1974) | radio | Slesar adapted his story | Payton and Grams, McFarland 2015
+The_Prime_Mover, The_Rip_Van_Winkle_Caper, The_Shelter, The_Silence, The_Sixteen-Millimeter_Shrine, The_Thirty-Fathom_Grave, The_Trade-Ins | NONE
+The_Last_Flight, The_Last_Night_of_a_Jockey, The_Lateness_of_the_Hour, The_Man_in_the_Bottle, The_Masks | NONE
+The_Last_Rites_of_Jeff_Myrtlebank | Sinners (2025) | film | Ryan Coogler named the episode among the film's influences | David Sims, "Ryan Coogler Didn't Want to Hide Anymore", The Atlantic, 23 Apr 2025, https://www.theatlantic.com/culture/archive/2025/04/sinners-movie-ryan-coogler-interview/682556/ [creator]
+The_Little_People | Simpsons "Treehouse of Horror VII" ("The Genesis Tub") | tv | parody | Mike B. Anderson, season 8 DVD commentary (2006) [creator]; South Park "Simpsons Already Did It" | tv | reference | no citation; radio adaptation (Daniel J. Travanti, Dennis Etchison)
+The_Lonely | Twilight Zone Radio Dramas vol. 4 (Mike Starr) | radio; stage production by 4 Letter Entertainment (2007) | no citation
+The_Long_Morrow | Gilmore Girls "The Long Morrow" (season 7) | tv | title and a gift inspired by the episode | no citation
+The_Midnight_Sun | Graphic novel by Mark Kneece and Anthony Spay (Walker, 2009, ISBN 978-0-8027-9721-6) | comic | adaptation; radio version (Kim Fields)
+Sounds_and_Silences, Spur_of_the_Moment, Still_Valley, Stopover_in_a_Quiet_Town, The_7th_Is_Made_Up_of_Phantoms, The_Arrival | NONE
+Static | Robert Shearman, "Static" (2007) | book | modern adaptation; and an untitled short film from Shearman's story | Zicree (paragraph-end footnote only)
+Steel | Real Steel (2011) | film | same Matheson story | no citation; Simpsons "I, (Annoyed Grunt)-Bot" (2004), Futurama "Raging Bender" | tv | similar plot
+The_After_Hours | 1985 series remake (1986); graphic novel by Mark Kneece and Rebekah Isaacs (Walker, 2008, ISBN 0802797172); Severance "The After Hours" (2025) | tv | homage | no citation
+The_After_Hours | The King of the Duplicators (1968 MGM short) | film | William J. Tuttle shows the mannequin head made for the episode | IMDb page footnote
+The_Bard | The Sopranos "Made in America" | tv | part of the episode plays on TV in a scene | Kristen Baldwin, EW, 21 Jul 2020 (David Chase) [creator]; Love, American Style compared (William Bibbiani, /Film, 4 Nov 2023)
+The_Bewitchin'_Pool, The_Changing_of_the_Guard, The_Encounter, The_Fear | NONE
+The_Big_Tall_Wish, The_Dummy, The_Fever | in-series follow-ons and prop reuse only
+The_Brain_Center_at_Whipple's | Melvins song on Hostile Ambient Takeover | music; Futurama "Benderama" | tv | parody | no citation
+The_Chaser | Tales from the Crypt comic (1951) and HBO episode (1991) adapt Collier's story, not the episode
+The_Four_of_Us_Are_Dying | stage production by 4 Letter Entertainment (2005) | stage | Theatermania listing
+The_Mighty_Casey | Stories from the Twilight Zone (1960) | book | Serling's prose version | no citation
+The_Mind_and_the_Matter, The_Mirror, The_New_Exhibit | NONE
+The_Monsters_Are_Due_on_Maple_Street | The Trigger Effect (1996) | film | drew inspiration | Janet Maslin, NYT, 30 Aug 1996, https://www.nytimes.com/1996/08/30/movies/urban-jitters-going-critical.html
+The_Monsters_Are_Due_on_Maple_Street | The Mist (2007) | film | drew inspiration | Edward Douglas, ComingSoon.net, 16 Nov 2007 (interview with Darabont), http://www.comingsoon.net/horror/news/708268-an-exclusive-interview-with-mr-frank-darabont
+The_Monsters_Are_Due_on_Maple_Street | 2002-series remake "The Monsters Are on Maple Street" (2003); radio (Frank John Hughes); SCAD/Walker graphic novel; Stories from the Twilight Zone
+The_Night_of_the_Meek | 1985-series remake; radio (Christopher McDonald)
+The_Obsolete_Man | radio (Jason Alexander); samples: Pendulum "Axle Grinder", Run the Jewels "Thieves! (Screamed the Ghost)" (2016), Toys That Kill "Playdough", Death Therapy "Prodigal" and "Possessed" | music | no citation
+The_Odyssey_of_Flight_33 | graphic novel (Walker) | comic | Amazon listing
+The_Parallel | Journey to the Far Side of the Sun (1969) | film | "bore conceptual similarities" | no citation; Star Trek "Mirror, Mirror", TNG "Parallels", Sliders "Post Traumatic Slide Syndrome" | tv | compared
+The_Trouble_with_Templeton, Twenty_Two, Uncle_Simon, Valley_of_the_Shadow | NONE
+The_Whole_Truth | radio adaptation (emir replaces the Soviet premier) | no citation
+Third_from_the_Sun | Pluribus | tv | similar plot; character named Carol Sturka | no citation
+Time_Enough_at_Last | Twilight Zone: The Movie (1983) | film | opening sequence discusses the episode | no citation
+Time_Enough_at_Last | The Time Machine (1960) | film | library steps footage also appears as an Eloi building | Zicree, Companion
+Time_Enough_at_Last | Futurama "The Scary Door" (Brandon Zachary, CBR, 5 Jun 2021); Fallout Tactics (2001) game librarian (Game Banshee); Family Guy gag; Tower of Terror glasses replica (Metcalf and O'Rourke, archived)
+To_Serve_Man | The Naked Gun 2½: The Smell of Fear (1991) | film | cameo by Lloyd Bochner, who played Chambers | Duffin and Matheis, The 12 O'Clock High Logbook (BearManor, 2005) p. 236
+To_Serve_Man | Madagascar (2005) | film | reference | no citation specific to it
+To_Serve_Man | Futurama, The Simpsons (Booker, Drawn to Television, 2006), Buffy | tv; Mark Trail strip (2018) | comic; Nuclear Assault, Cattle Decapitation, Mono Puff, El-P | music; 509th unofficial emblem (NYT 2008); 2019-series "You Might Also Like" sequel (Noel Murray, A.V. Club, 27 Jun 2020)
+Two | radio (Don Johnson); CBS Radio Mystery Theater theme based on the episode's music | no citation
+Walking_Distance | The Rewrite (2014) | film | the episode and its Binghamton plaque "referenced heavily" | no citation
+Walking_Distance | Binghamton bandstand plaque and carousel art (Parisi, RetroFan 11, 2020); Tom Alexander "Excerpts from Walking Distance" (2016); McNeely and Stromberg score re-recordings
+
+## Sweep part 1 done: all 156 original-series articles read (except What's in the Box, whose link points at the wrong article).

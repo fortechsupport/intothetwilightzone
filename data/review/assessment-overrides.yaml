@@ -5102,3 +5102,69 @@ films/truth-or-consequences-nm:
   tier_reason: A passing reference to one episode in a film otherwise unrelated to the show (plan Q4, marked Reference).
   recommendation: include
   reason: Adam named it as an example of a film referencing the show; a 2024 review confirms The Twilight Zone comes up in its dialogue. The episode itself is named only on Adam's word, so the link is marked fan-noted.
+films/marnie:
+  connection: Wikipedia's episode article says Marnie was "almost certainly" inspired by the episode, whose heroine also
+    confronts a repressed childhood trauma.
+  tier: tangential
+  tier_reason: A film said to borrow an episode's premise; not made by anyone connected to the show.
+  recommendation: maybe
+  reason: Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source,
+    so it is marked fan-noted; keep it if you want the wider web of references shown.
+films/everybody-wants-some:
+  connection: Wikipedia's episode article says the film has a character named Willoughby who knows Twilight Zone episodes,
+    a nod to this one.
+  tier: tangential
+  tier_reason: A reference to one episode in a film otherwise unrelated to the show (plan Q4, marked Reference).
+  recommendation: maybe
+  reason: Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source,
+    so it is marked fan-noted; keep it if you want the wider web of references shown.
+films/the-brown-bunny:
+  connection: Wikipedia's episode article says Bonnie Beecher's recording of "Come Wander with Me", the song written
+    for the episode, is on the film's soundtrack.
+  tier: tangential
+  tier_reason: A reference to one episode in a film otherwise unrelated to the show (plan Q4, marked Reference).
+  recommendation: maybe
+  reason: Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source,
+    so it is marked fan-noted; keep it if you want the wider web of references shown.
+films/day-of-the-evil-gun:
+  connection: Wikipedia's episode article says the film's score reuses the song written for the episode.
+  tier: tangential
+  tier_reason: A reference to one episode in a film otherwise unrelated to the show (plan Q4, marked Reference).
+  recommendation: maybe
+  reason: Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source,
+    so it is marked fan-noted; keep it if you want the wider web of references shown.
+films/click:
+  connection: Wikipedia's episode article lists Click among later works related to the episode, about a stopwatch that
+    stops time, without saying how they are related.
+  tier: tangential
+  tier_reason: A film said to borrow an episode's premise; not made by anyone connected to the show.
+  recommendation: maybe
+  reason: Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source,
+    so it is marked fan-noted; keep it if you want the wider web of references shown.
+films/the-rewrite:
+  connection: Wikipedia's episode article says the episode and its commemorative plaque in Binghamton's Recreation Park
+    are "referenced heavily" in the film.
+  tier: tangential
+  tier_reason: A reference to one episode in a film otherwise unrelated to the show (plan Q4, marked Reference).
+  recommendation: maybe
+  reason: Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source,
+    so it is marked fan-noted; keep it if you want the wider web of references shown.
+films/wild-tales:
+  connection: An Argentine anthology film whose director, Den of Geek reports, cites The Twilight Zone as a key influence.
+  tier: tangential
+  tier_reason: A film said to be influenced by the show as a whole; not made by anyone connected to it.
+  recommendation: maybe
+  reason: Den of Geek (2017) reports Damián Szifron's statement but not where he made it, so the link is fan-noted until the interview is found.
+# 2026-11-23 21:00 UTC: replaces the two entries above after reading each film's own article.
+films/wild-tales:
+  connection: An Argentine-Spanish anthology film whose director, Damián Szifron, names The Twilight Zone among its influences.
+  tier: tangential
+  tier_reason: A film influenced by the show as a whole; not made by anyone connected to it.
+  recommendation: include
+  reason: The film's Wikipedia article and Den of Geek (2017) both report Szifron's statement; the interview itself has not been read.
+films/the-brown-bunny:
+  connection: Vincent Gallo's 2003 film uses "Come Wander with Me", the song written for the 1964 episode (credited on the soundtrack to Jeff Alexander).
+  tier: tangential
+  tier_reason: A song from one episode reused in a film otherwise unrelated to the show (plan Q4, marked Reference).
+  recommendation: include
+  reason: The film's Wikipedia soundtrack listing names the song as track 1, and the episode article says the same.

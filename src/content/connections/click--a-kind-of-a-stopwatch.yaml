@@ -1,0 +1,14 @@
+from: films/click
+to: 1959/a-kind-of-a-stopwatch
+kind: inspired-by
+confidence: fan-noted
+summary: Wikipedia's episode article lists Click among later works related to the episode, about a stopwatch that stops
+  time, without saying how they are related.
+evidence: 'Checked 2026-11-23: Wikipedia''s episode article lists the film with no citation and no stated relation, and
+  the film''s own article does not mention The Twilight Zone; the visible link is the premise of a device that controls
+  time.'
+sources:
+- title: A Kind of a Stopwatch (Wikipedia)
+  url: https://en.wikipedia.org/wiki/A_Kind_of_a_Stopwatch
+  note: The episode article that names the film.
+last_verified: '2026-11-23'

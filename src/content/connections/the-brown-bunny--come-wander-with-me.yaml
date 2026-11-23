@@ -1,0 +1,16 @@
+from: films/the-brown-bunny
+to: 1959/come-wander-with-me
+kind: reference
+confidence: documented
+summary: The film's soundtrack includes "Come Wander with Me", the song written for the episode; Wikipedia's episode
+  article says it is Bonnie Beecher's recording, as sung in the episode.
+evidence: 'Checked 2026-11-23: the soundtrack table in the film''s Wikipedia article lists "Come Wander with Me" (written
+  by Jeff Alexander) as track 1; it does not name the performer, so Bonnie Beecher''s recording is per the episode article
+  only.'
+sources:
+- title: Come Wander with Me (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Come_Wander_with_Me
+  note: The episode article that names the film.
+- title: The Brown Bunny (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Brown_Bunny
+last_verified: '2026-11-23'

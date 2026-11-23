@@ -1,13 +1,16 @@
 from: films/coherence
 to: series/1959
 kind: inspired-by
-confidence: documented
-summary: A dinner party fractures into overlapping realities during a comet's pass, a low-budget puzzle that /Film
-  traces directly to the show's influence.
+confidence: confirmed-by-creator
+summary: A dinner party fractures into overlapping realities during a comet's pass, a low-budget puzzle that /Film traces
+  directly to the show's influence.
+evidence: 'Checked 2026-11-23: /Film quotes writer-director James Ward Byrkit (Spinning Platters, 2014) saying the film
+  was "inspired by ''Twilight Zone'' episodes that had a confined set and characters that were trapped in a bent reality",
+  and his "''Twilight Zone,'' for sure" to The Dissolve.'
 sources:
 - title: The Twilight Zone Inspired This Cult 2010s Sci-Fi Movie With A Head-Spinning Ending (/Film)
   url: https://slashfilm.com/2115017/the-twilight-zone-inspiration-2010s-cult-sci-fi-movie-coherence
 - title: The Twilight Zone Inspired This Cult 2010s Sci-Fi Movie (AOL)
   url: https://www.aol.com/articles/twilight-zone-inspired-cult-2010s-160000579.html
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true

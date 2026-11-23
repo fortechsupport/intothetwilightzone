@@ -1,0 +1,13 @@
+from: films/everybody-wants-some
+to: 1959/a-stop-at-willoughby
+kind: reference
+confidence: fan-noted
+summary: Wikipedia's episode article says the film has a character named Willoughby who knows Twilight Zone episodes,
+  a nod to this one.
+evidence: 'Checked 2026-11-23: the film''s Wikipedia article confirms a character named Charlie Willoughby (Wyatt Russell)
+  but does not mention The Twilight Zone; the episode article''s statement that he knows the show''s episodes is uncited.'
+sources:
+- title: A Stop at Willoughby (Wikipedia)
+  url: https://en.wikipedia.org/wiki/A_Stop_at_Willoughby
+  note: The episode article that names the film.
+last_verified: '2026-11-23'

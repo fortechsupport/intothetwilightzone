@@ -15935,14 +15935,26 @@
   "subcategory": "Inspired by an episode",
   "sort": "christine  you drive 001959"
  },
+ "connections/click--a-kind-of-a-stopwatch": {
+  "connection": "Wikipedia's episode article lists Click among later works related to the episode, about a stopwatch that stops time, without saying how they are related.",
+  "tier": "tangential",
+  "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "Only a critic's or list-writer's comparison supports it, not the makers. Include as a labelled resemblance if you like the comparison.",
+  "source_title": "A Kind of a Stopwatch (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/A_Kind_of_a_Stopwatch",
+  "title": "Click → “A Kind of a Stopwatch” (1959)",
+  "subcategory": "Inspired by an episode",
+  "sort": "click  a kind of a stopwatch 001959"
+ },
  "connections/clockstoppers-a-kind-of-a-stopwatch": {
   "connection": "Clockstoppers and “A Kind of a Stopwatch” (1959): both turn on a device that freezes time for everyone except its holder.",
   "tier": "tangential",
   "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
   "recommendation": "maybe",
   "reason": "Close premise, but only fans have made the link; show it labelled as unconfirmed or leave it out.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Top 10 Movies That Ripped Off The Twilight Zone (TopTenz)",
+  "source_url": "https://www.toptenz.net/top-10-movies-that-ripped-off-the-twilight-zone.php",
   "title": "Clockstoppers → “A Kind of a Stopwatch” (1959)",
   "subcategory": "Inspired by an episode",
   "sort": "clockstoppers  a kind of a stopwatch 001959"
@@ -15950,9 +15962,9 @@
  "connections/coherence--twilight-zone-1959": {
   "connection": "A dinner party fractures into overlapping realities during a comet's pass, a low-budget puzzle that /Film traces directly to the show's influence.",
   "tier": "related",
-  "tier_reason": "Inspired by link, a published source makes the link.",
+  "tier_reason": "Inspired by link, the makers have said so.",
   "recommendation": "include",
-  "reason": "A published source documents the link.",
+  "reason": "The makers have confirmed the influence.",
   "source_title": "The Twilight Zone Inspired This Cult 2010s Sci-Fi Movie With A Head-Spinning Ending (/Film)",
   "source_url": "https://slashfilm.com/2115017/the-twilight-zone-inspiration-2010s-cult-sci-fi-movie-coherence",
   "title": "Coherence → The Twilight Zone (original series)",
@@ -16018,6 +16030,18 @@
   "title": "\"To Serve Man\" art prints (Dark Hall Mansion, 2016) → “To Serve Man” (1959)",
   "subcategory": "References",
   "sort": "to serve man art prints dark hall mansion 002016  to serve man 001959"
+ },
+ "connections/day-of-the-evil-gun--come-wander-with-me": {
+  "connection": "Wikipedia's episode article says the film's score reuses the song written for the episode.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Come Wander with Me (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Come_Wander_with_Me",
+  "title": "Day of the Evil Gun → “Come Wander with Me” (1959)",
+  "subcategory": "References",
+  "sort": "day of the evil gun  come wander with me 001959"
  },
  "connections/dead-silence-the-dummy": {
   "connection": "Dead Silence and “The Dummy” (1959): both involve a ventriloquist's dummy, a common horror motif that predates the episode.",
@@ -16198,6 +16222,18 @@
   "title": "Pilot → The Twilight Zone (original series)",
   "subcategory": "References",
   "sort": "pilot  the twilight zone original series"
+ },
+ "connections/everybody-wants-some--a-stop-at-willoughby": {
+  "connection": "Wikipedia's episode article says the film has a character named Willoughby who knows Twilight Zone episodes, a nod to this one.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "A Stop at Willoughby (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/A_Stop_at_Willoughby",
+  "title": "Everybody Wants Some!! → “A Stop at Willoughby” (1959)",
+  "subcategory": "References",
+  "sort": "everybody wants some  a stop at willoughby 001959"
  },
  "connections/extreme-ghostbusters-grease--1959": {
   "connection": "Grease is a reference to The Twilight Zone (original series).",
@@ -17093,8 +17129,8 @@
   "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
   "recommendation": "exclude",
   "reason": "Only fans have made this link and the resemblance is loose; leaving it out keeps the Influence section credible.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Top 10 Movies That Ripped Off The Twilight Zone (TopTenz)",
+  "source_url": "https://www.toptenz.net/top-10-movies-that-ripped-off-the-twilight-zone.php",
   "title": "In The Mouth of Madness → “A World of His Own” (1959)",
   "subcategory": "Inspired by an episode",
   "sort": "in the mouth of madness  a world of his own 001959"
@@ -17573,8 +17609,8 @@
   "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
   "recommendation": "maybe",
   "reason": "Close premise, but only fans have made the link; show it labelled as unconfirmed or leave it out.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "10 Horror Movies That Shamelessly Copied Twilight Zone Episodes (CBR)",
+  "source_url": "https://www.cbr.com/10-horror-movies-that-shamelessly-copied-twilight-zone-episodes/",
   "title": "Liar Liar → “The Whole Truth” (1959)",
   "subcategory": "Inspired by an episode",
   "sort": "liar liar  the whole truth 001959"
@@ -17687,6 +17723,18 @@
   "subcategory": "Homages",
   "sort": "madagascar escape 000002 africa  nightmare at 000020000000 feet 001959"
  },
+ "connections/magic--caesar-and-me": {
+  "connection": "Magic and “Caesar and Me” (1959): both involve a ventriloquist dominated by his dummy, a motif shared with many earlier stories.",
+  "tier": "tangential",
+  "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "exclude",
+  "reason": "Only fans have made this link and the resemblance is loose; leaving it out keeps the Influence section credible.",
+  "source_title": "Top 10 Movies That Ripped Off The Twilight Zone (TopTenz)",
+  "source_url": "https://www.toptenz.net/top-10-movies-that-ripped-off-the-twilight-zone.php",
+  "title": "Magic → “Caesar and Me” (1959)",
+  "subcategory": "Inspired by an episode",
+  "sort": "magic  caesar and me 001959"
+ },
  "connections/magic-the-dummy": {
   "connection": "Magic and “The Dummy” (1959): both involve a ventriloquist dominated by his dummy, a motif shared with many earlier stories.",
   "tier": "tangential",
@@ -17746,6 +17794,18 @@
   "title": "William Tuttle's alien makeups: \"Will the Real Martian Please Stand Up?\" and \"Hocus-Pocus and Frisby\" → “Will the Real Martian Please Stand Up?” (1959)",
   "subcategory": "References",
   "sort": "william tuttles alien makeups will the real martian please stand up and hocuspocus and frisby  will the real martian please stand up 001959"
+ },
+ "connections/marnie--nightmare-as-a-child": {
+  "connection": "Wikipedia's episode article says Marnie was \"almost certainly\" inspired by the episode, whose heroine also confronts a repressed childhood trauma.",
+  "tier": "tangential",
+  "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "Only a critic's or list-writer's comparison supports it, not the makers. Include as a labelled resemblance if you like the comparison.",
+  "source_title": "Nightmare as a Child (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Nightmare_as_a_Child",
+  "title": "Marnie → “Nightmare as a Child” (1959)",
+  "subcategory": "Inspired by an episode",
+  "sort": "marnie  nightmare as a child 001959"
  },
  "connections/martin-landau-shooting-scripts-heritage-lot--mr-denton-on-doomsday": {
   "connection": "An actor's own working scripts from the original series.",
@@ -19034,11 +19094,11 @@
  "connections/sinners--the-last-rites-of-jeff-myrtlebank": {
   "connection": "Twin brothers open a juke joint in 1930s Mississippi and face a vampiric threat; multiple outlets trace a key inspiration to the episode about a man who rises at his own funeral.",
   "tier": "related",
-  "tier_reason": "Inspired by link, a published source makes the link.",
+  "tier_reason": "Inspired by link, the makers have said so.",
   "recommendation": "include",
-  "reason": "A published source documents the link.",
-  "source_title": "Ryan Coogler's Sinners Was Heavily Inspired By An Underrated Twilight Zone Episode (/Film)",
-  "source_url": "https://www.slashfilm.com/1772810/ryan-coogler-sinners-the-twilight-zone-inspiration",
+  "reason": "The makers have confirmed the influence.",
+  "source_title": "The Last Rites of Jeff Myrtlebank (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Last_Rites_of_Jeff_Myrtlebank",
   "title": "Sinners → “The Last Rites of Jeff Myrtlebank” (1959)",
   "subcategory": "Inspired by an episode",
   "sort": "sinners  the last rites of jeff myrtlebank 001959"
@@ -19073,8 +19133,8 @@
   "tier_reason": "Inspired by link, only fans have pointed it out; no source confirms it.",
   "recommendation": "maybe",
   "reason": "Close premise, but only fans have made the link; show it labelled as unconfirmed or leave it out.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "10 Horror Movies That Shamelessly Copied Twilight Zone Episodes (CBR)",
+  "source_url": "https://www.cbr.com/10-horror-movies-that-shamelessly-copied-twilight-zone-episodes/",
   "title": "Stranger Than Fiction → “A World of His Own” (1959)",
   "subcategory": "Inspired by an episode",
   "sort": "stranger than fiction  a world of his own 001959"
@@ -19234,6 +19294,18 @@
   "title": "The Box → “Button, Button” (1985)",
   "subcategory": "Inspired by an episode",
   "sort": "box  button button 001985"
+ },
+ "connections/the-brown-bunny--come-wander-with-me": {
+  "connection": "Wikipedia's episode article says Bonnie Beecher's recording of \"Come Wander with Me\", the song written for the episode, is on the film's soundtrack.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
+  "source_title": "Come Wander with Me (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Come_Wander_with_Me",
+  "title": "The Brown Bunny → “Come Wander with Me” (1959)",
+  "subcategory": "References",
+  "sort": "brown bunny  come wander with me 001959"
  },
  "connections/the-charmings-the-man-who-came-to-dinner--twilight-zone-1959": {
   "connection": "Don sings the Twilight Zone theme, a natural joke for a fairy-tale family stranded in modern suburbia.",
@@ -19714,6 +19786,18 @@
   "title": "The Omen → “It's a Good Life” (1959)",
   "subcategory": "Inspired by an episode",
   "sort": "omen  its a good life 001959"
+ },
+ "connections/the-rewrite--walking-distance": {
+  "connection": "Wikipedia's episode article says the episode and its commemorative plaque in Binghamton's Recreation Park are \"referenced heavily\" in the film.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Walking Distance (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Walking_Distance",
+  "title": "The Rewrite → “Walking Distance” (1959)",
+  "subcategory": "References",
+  "sort": "rewrite  walking distance 001959"
  },
  "connections/the-saviors--twilight-zone-1959": {
   "connection": "A couple's paranoia about their new houseguests escalates in a darkly comic thriller whose director cites The Twilight Zone and The X-Files as influences.",
@@ -21094,6 +21178,18 @@
   "title": "What Women Want → “A Penny for Your Thoughts” (1959)",
   "subcategory": "Inspired by an episode",
   "sort": "what women want  a penny for your thoughts 001959"
+ },
+ "connections/wild-tales--twilight-zone-1959": {
+  "connection": "Damián Szifron has named The Twilight Zone, with Alfred Hitchcock Presents, among the influences on his anthology film.",
+  "tier": "related",
+  "tier_reason": "Inspired by link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
+  "source_title": "8 Ways The Twilight Zone Influenced Modern TV and Film (Den of Geek)",
+  "source_url": "https://www.denofgeek.com/tv/8-ways-the-twilight-zone-influenced-modern-tv-and-film/",
+  "title": "Wild Tales → The Twilight Zone (original series)",
+  "subcategory": "Inspired by an episode",
+  "sort": "wild tales  the twilight zone original series"
  },
  "connections/willy-wonka-pinball-2019-homage--time-enough-at-last": {
   "connection": "Unlicensed in-game nod to The Twilight Zone or to its 1993 pinball adaptation.",
@@ -30167,6 +30263,18 @@
   "subcategory": "Feature films",
   "sort": "christine"
  },
+ "films/click": {
+  "connection": "Wikipedia's episode article lists Click among later works related to the episode, about a stopwatch that stops time, without saying how they are related.",
+  "tier": "tangential",
+  "tier_reason": "A film said to borrow an episode's premise; not made by anyone connected to the show.",
+  "recommendation": "maybe",
+  "reason": "Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source, so it is marked fan-noted; keep it if you want the wider web of references shown.",
+  "source_title": "A Kind of a Stopwatch (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/A_Kind_of_a_Stopwatch",
+  "title": "Click",
+  "subcategory": "Feature films",
+  "sort": "click"
+ },
  "films/clockstoppers": {
   "connection": "Suggested link to “A Kind of a Stopwatch” (1959): both turn on a device that freezes time for everyone except its holder.",
   "tier": "tangential",
@@ -30184,7 +30292,7 @@
   "tier": "related",
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
   "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "reason": "Its makers have said the show influenced it: the strongest kind of influence record.",
   "source_title": "The Twilight Zone Inspired This Cult 2010s Sci-Fi Movie With A Head-Spinning Ending (/Film)",
   "source_url": "https://slashfilm.com/2115017/the-twilight-zone-inspiration-2010s-cult-sci-fi-movie-coherence",
   "title": "Coherence",
@@ -30238,6 +30346,18 @@
   "title": "Cube",
   "subcategory": "Feature films",
   "sort": "cube"
+ },
+ "films/day-of-the-evil-gun": {
+  "connection": "Wikipedia's episode article says the film's score reuses the song written for the episode.",
+  "tier": "tangential",
+  "tier_reason": "A reference to one episode in a film otherwise unrelated to the show (plan Q4, marked Reference).",
+  "recommendation": "maybe",
+  "reason": "Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source, so it is marked fan-noted; keep it if you want the wider web of references shown.",
+  "source_title": "Come Wander with Me (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Come_Wander_with_Me",
+  "title": "Day of the Evil Gun",
+  "subcategory": "Feature films",
+  "sort": "day of the evil gun"
  },
  "films/dead-silence": {
   "connection": "Suggested link to “The Dummy” (1959): both involve a ventriloquist's dummy, a common horror motif that predates the episode.",
@@ -30418,6 +30538,18 @@
   "title": "Pilot",
   "subcategory": "Episodes of other shows",
   "sort": "pilot"
+ },
+ "films/everybody-wants-some": {
+  "connection": "Wikipedia's episode article says the film has a character named Willoughby who knows Twilight Zone episodes, a nod to this one.",
+  "tier": "tangential",
+  "tier_reason": "A reference to one episode in a film otherwise unrelated to the show (plan Q4, marked Reference).",
+  "recommendation": "maybe",
+  "reason": "Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source, so it is marked fan-noted; keep it if you want the wider web of references shown.",
+  "source_title": "A Stop at Willoughby (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/A_Stop_at_Willoughby",
+  "title": "Everybody Wants Some!!",
+  "subcategory": "Feature films",
+  "sort": "everybody wants some"
  },
  "films/exit-from-a-plane-in-flight-1965-teleplay": {
   "connection": "A television play by Rod Serling for Bob Hope Presents the Chrysler Theatre, 1965, from the career that led to The Twilight Zone.",
@@ -31536,7 +31668,7 @@
   "sort": "madagascar escape 000002 africa"
  },
  "films/magic": {
-  "connection": "Suggested link to “The Dummy” (1959): both involve a ventriloquist dominated by his dummy, a motif shared with many earlier stories.",
+  "connection": "Suggested link to “Caesar and Me” (1959): both involve a ventriloquist dominated by his dummy, a motif shared with many earlier stories. Also linked to “The Dummy” (1959).",
   "tier": "tangential",
   "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
   "recommendation": "exclude",
@@ -31558,6 +31690,18 @@
   "title": "Man Against Pain",
   "subcategory": "Rod Serling's series",
   "sort": "man against pain"
+ },
+ "films/marnie": {
+  "connection": "Wikipedia's episode article says Marnie was \"almost certainly\" inspired by the episode, whose heroine also confronts a repressed childhood trauma.",
+  "tier": "tangential",
+  "tier_reason": "A film said to borrow an episode's premise; not made by anyone connected to the show.",
+  "recommendation": "maybe",
+  "reason": "Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source, so it is marked fan-noted; keep it if you want the wider web of references shown.",
+  "source_title": "Nightmare as a Child (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Nightmare_as_a_Child",
+  "title": "Marnie",
+  "subcategory": "Feature films",
+  "sort": "marnie"
  },
  "films/masters-of-horror": {
   "connection": "A fellow anthology series: Showtime anthology of hour films by well-known horror directors.",
@@ -33280,7 +33424,7 @@
   "tier": "related",
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
   "recommendation": "include",
-  "reason": "A published source makes the link, so it is a well-founded influence record.",
+  "reason": "Its makers have said the show influenced it: the strongest kind of influence record.",
   "source_title": "Ryan Coogler's Sinners Was Heavily Inspired By An Underrated Twilight Zone Episode (/Film)",
   "source_url": "https://www.slashfilm.com/1772810/ryan-coogler-sinners-the-twilight-zone-inspiration",
   "title": "Sinners",
@@ -33598,6 +33742,18 @@
   "title": "The Box",
   "subcategory": "Feature films",
   "sort": "box"
+ },
+ "films/the-brown-bunny": {
+  "connection": "Vincent Gallo's 2003 film uses \"Come Wander with Me\", the song written for the 1964 episode (credited on the soundtrack to Jeff Alexander).",
+  "tier": "tangential",
+  "tier_reason": "A song from one episode reused in a film otherwise unrelated to the show (plan Q4, marked Reference).",
+  "recommendation": "include",
+  "reason": "The film's Wikipedia soundtrack listing names the song as track 1, and the episode article says the same.",
+  "source_title": "Come Wander with Me (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Come_Wander_with_Me",
+  "title": "The Brown Bunny",
+  "subcategory": "Feature films",
+  "sort": "brown bunny"
  },
  "films/the-carlson-legend-1952-teleplay": {
   "connection": "A television play by Rod Serling for Hallmark Hall of Fame, 1952, from the career that led to The Twilight Zone.",
@@ -34462,6 +34618,18 @@
   "title": "The Return of Socko Renard",
   "subcategory": "Rod Serling's series",
   "sort": "return of socko renard"
+ },
+ "films/the-rewrite": {
+  "connection": "Wikipedia's episode article says the episode and its commemorative plaque in Binghamton's Recreation Park are \"referenced heavily\" in the film.",
+  "tier": "tangential",
+  "tier_reason": "A reference to one episode in a film otherwise unrelated to the show (plan Q4, marked Reference).",
+  "recommendation": "maybe",
+  "reason": "Found in the 2026-11-23 sweep of every original-series episode article on Wikipedia. Wikipedia gives no source, so it is marked fan-noted; keep it if you want the wider web of references shown.",
+  "source_title": "Walking Distance (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/Walking_Distance",
+  "title": "The Rewrite",
+  "subcategory": "Feature films",
+  "sort": "rewrite"
  },
  "films/the-salamander": {
   "connection": "Rod Serling's work beyond The Twilight Zone: A political thriller from Morris West's novel, filmed after Serling's death from his 1975 screenplay.",
@@ -35614,6 +35782,18 @@
   "title": "What Women Want",
   "subcategory": "Feature films",
   "sort": "what women want"
+ },
+ "films/wild-tales": {
+  "connection": "An Argentine-Spanish anthology film whose director, Damián Szifron, names The Twilight Zone among its influences.",
+  "tier": "tangential",
+  "tier_reason": "A film influenced by the show as a whole; not made by anyone connected to it.",
+  "recommendation": "include",
+  "reason": "The film's Wikipedia article and Den of Geek (2017) both report Szifron's statement; the interview itself has not been read.",
+  "source_title": "8 Ways The Twilight Zone Influenced Modern TV and Film (Den of Geek)",
+  "source_url": "https://www.denofgeek.com/tv/8-ways-the-twilight-zone-influenced-modern-tv-and-film/",
+  "title": "Wild Tales",
+  "subcategory": "Feature films",
+  "sort": "wild tales"
  },
  "films/witches-warlocks-and-werewolves-abc-proposal": {
   "connection": "Rod Serling's work beyond The Twilight Zone: A horror anthology ABC offered Rod Serling as The Twilight Zone ended in 1964.",
@@ -41232,7 +41412,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -41952,7 +42132,7 @@
   "sort": "cesare danova"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -44676,7 +44856,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -45012,7 +45192,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -50376,7 +50556,7 @@
   "sort": "jonathan winters"
  },
  "people/jordan-peele": {
-  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “The Comedian” and “Nightmare at 30,000 Feet”).",
+  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “Nightmare at 30,000 Feet” and “The Comedian”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -57744,7 +57924,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",

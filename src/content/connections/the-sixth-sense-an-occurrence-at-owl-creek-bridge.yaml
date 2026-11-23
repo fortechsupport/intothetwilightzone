@@ -2,8 +2,9 @@ from: films/the-sixth-sense
 to: 1959/an-occurrence-at-owl-creek-bridge
 kind: inspired-by
 confidence: documented
-summary: Flavorwire compares the film's twist to this episode, and /Film quotes Shyamalan saying he wanted to make
-  feature-length 'Twilight Zones'. He did not name this episode.
+summary: Flavorwire compares the film's twist to this episode, and /Film quotes Shyamalan saying he wanted to make feature-length
+  'Twilight Zones'. He did not name this episode.
+evidence: 'Checked 2026-11-23: Also named by Flavorwire (2012, "mostly resembles") and Den of Geek (2017).'
 sources:
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
@@ -11,5 +12,10 @@ sources:
   url: https://www.flavorwire.com/317756/9-movies-that-stole-their-plots-from-the-twilight-zone
 - title: The 5 Best Movies Inspired By Twilight Zone Episodes, Ranked (/Film)
   url: https://www.slashfilm.com/1722719/best-movies-the-twilight-zone-episodes-inspiration-ranked
-last_verified: '2026-11-19'
+- title: 8 Ways The Twilight Zone Influenced Modern TV and Film (Den of Geek)
+  url: https://www.denofgeek.com/tv/8-ways-the-twilight-zone-influenced-modern-tv-and-film/
+  author: Louisa Mellor
+  publisher: Den of Geek
+  note: 13 November 2017; its "borrowed plots" list.
+last_verified: '2026-11-23'
 locked: true

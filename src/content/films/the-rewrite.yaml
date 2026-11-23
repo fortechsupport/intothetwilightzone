@@ -1,0 +1,21 @@
+title: The Rewrite
+kind: film
+release_date: '2014'
+directors:
+- Marc Lawrence
+writers:
+- Marc Lawrence
+summary: A 2014 romantic comedy starring Hugh Grant as a screenwriter who teaches at Binghamton University in upstate
+  New York.
+sources:
+- title: Walking Distance (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Walking_Distance
+  note: The episode article that names the film.
+- title: The Rewrite (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Rewrite
+research_confidence: medium
+relevance: tangential
+tags:
+- research-2026-11-23
+- movies-round-2
+last_verified: '2026-11-23'
