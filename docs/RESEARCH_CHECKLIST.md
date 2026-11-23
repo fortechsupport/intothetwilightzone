@@ -111,7 +111,7 @@ first because everything else links to it.
 **Likely missing:** Serling's live-TV plays (Kraft Television Theatre, Studio One, Playhouse 90, U.S. Steel Hour and others), his episodes for other series, and pages for each Night Gallery segment so paintings, characters and people can link to them.
 
 ### Movies
-- [x] Content plan approved (2026-11-23, docs/plans/research-movies.md) · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved (2026-11-23, docs/plans/research-movies.md) · [ ] Researched (rounds 1–2 done, PRs #40–#42; round 3, documentaries and media, open) · [x] Records decided (decision 0005: included on Adam's word, 2026-11-23) · [x] Pages built (PRs #42, #44)
 
 | Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|
@@ -142,7 +142,7 @@ first because everything else links to it.
 ## 2. Listen
 
 ### Radio dramas
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [ ] Content plan approved (draft 2026-11-23, docs/plans/research-radio.md) · [ ] Researched · [ ] Records decided · [ ] Pages built
 
 | Subcategory | Records (all official) | Depth |
 |---|---:|---|
