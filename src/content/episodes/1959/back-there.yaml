@@ -37,3 +37,20 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1959_TV_series)_episodes
 last_verified: '2026-11-19'
 locked: true
+music:
+  score: original
+  composers:
+  - Jerry Goldsmith
+  sources:
+  - title: '45worlds: Varèse Sarabande STV 81185, The Original Television Scores, Volume Three'
+    url: https://mail.45worlds.com/vinyl/album/stv81185
+    publisher: 45worlds
+  - title: 'Filmtracks: Twilight Zone 40th Anniversary Collection (Silva Screen, 1999)'
+    url: https://www.filmtracks.com/titles/twilight_zone.html
+    publisher: Filmtracks
+    note: Listed on disc 2 (Goldsmith).
+  - title: The Twilight Zone (score rundowns and cue sheets)
+    author: Bill Wrobel
+    publisher: Film Score Rundowns
+    note: Written 2010, revised 5 May 2018, from the scores in the CBS Collection at UCLA. Copy in the IntoTheTwilightZone.com
+      archive (Essays folder); the author allows non-profit quotation with credit.

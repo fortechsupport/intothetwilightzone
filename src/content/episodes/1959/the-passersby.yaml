@@ -35,3 +35,16 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
 last_verified: '2026-11-19'
 locked: true
+music:
+  score: original
+  composers:
+  - Fred Steiner
+  sources:
+  - title: '45worlds: Varèse Sarabande STV 81205, The Original Television Scores, Volume Five'
+    url: https://mail.45worlds.com/vinyl/album/stv81205
+    publisher: 45worlds
+    note: Track A3.
+  - title: 'Filmtracks: Twilight Zone 40th Anniversary Collection (Silva Screen, 1999)'
+    url: https://www.filmtracks.com/titles/twilight_zone.html
+    publisher: Filmtracks
+    note: Listed on disc 4.

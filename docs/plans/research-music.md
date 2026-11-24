@@ -144,7 +144,7 @@ That is two rounds of under an hour each at the shared 100 an hour.
 ## 9. Steps (one pull request each, merged when checks pass)
 
 1. **Research round 1** *(done 2026-11-24)***:** the 62 unconfirmed songs (63 in the first count), samples (WhoSampled) and covers (SecondHandSongs).
-2. **Research round 2:** the themes, the score releases with where to listen, who scored each episode, Night Gallery's
+2. **Research round 2** *(done 2026-11-24, notes in data/research/music-2026-11-24/round-2-scores.md)***:** the themes, the score releases with where to listen, who scored each episode, Night Gallery's
    music, and Serling on record.
 3. **Structure and pages:** the six shelves, the theme history, music lines on episode pages and music videos on their
    songs. Screenshots at 320 px and 1440 px go to Adam.
@@ -177,3 +177,8 @@ That is two rounds of under an hour each at the shared 100 an hour.
   - "Devil's Tune: Ethnic Music from the Twilight Zone", a library-music compilation, goes to round 2.
   - The 52 songs still unconfirmed (14 found without readable lyrics, 38 not found anywhere) wait for fan votes, or for Adam to recall why each one was listed.
   - The project files hold "The Twilight Zone music score rundowns.pdf" (Essays folder of Adam's site archive), a likely source for round 2's episode composers.
+- Round 2 (2026-11-24):
+  - Episode composers are sourced for 34 episodes (27 original, 7 stock); the rest wait for the cue sheets in Martin Grams Jr.'s book.
+  - Night Gallery's per-episode composers could not be read.
+  - No Serling spoken-word album was found (Discogs refuses automated reading).
+  - Where to listen: only the 1999 Herrmann release has a licensed streaming page.

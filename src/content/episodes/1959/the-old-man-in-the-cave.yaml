@@ -38,3 +38,15 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
 last_verified: '2026-11-19'
 locked: true
+music:
+  score: stock
+  composers: []
+  library_composers: []
+  note: No original score; a music editor chose cues from the CBS library. Wrobel gives its cue sheet in his earlier CBS
+    Collection paper.
+  sources:
+  - title: The Twilight Zone (score rundowns and cue sheets)
+    author: Bill Wrobel
+    publisher: Film Score Rundowns
+    note: Written 2010, revised 5 May 2018, from the scores in the CBS Collection at UCLA. Copy in the IntoTheTwilightZone.com
+      archive (Essays folder); the author allows non-profit quotation with credit.

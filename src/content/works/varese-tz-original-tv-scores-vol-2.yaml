@@ -8,6 +8,13 @@ description: >-
   The second volume is framed by Herrmann's original first-season main and end titles and includes his score for
   "Where Is Everybody?" plus music for "The 100 Yards Over the Rim", "The Big Tall Wish" and "A Stop at Willoughby".
 details:
+  tracks:
+  - A1 Main Title Theme (Bernard Herrmann)
+  - A2 Where Is Everybody? (Bernard Herrmann)
+  - A3 100 Yards Over the Rim (Fred Steiner)
+  - B1 The Big Tall Wish (Jerry Goldsmith)
+  - B2 A Stop at Willoughby (Nathan Scott)
+  - B3 End Title Theme (Bernard Herrmann)
   format: LP
   series: The Twilight Zone (1959-64)
   catalog_no: STV 81178
@@ -24,7 +31,7 @@ sources:
 - title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
   url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
 research_confidence: high
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 relevance: core
 media:
 - type: link

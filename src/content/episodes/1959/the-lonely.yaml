@@ -34,3 +34,19 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
 last_verified: '2026-11-19'
 locked: true
+music:
+  score: original
+  composers:
+  - Bernard Herrmann
+  sources:
+  - title: '45worlds: Varèse Sarabande STV 81185, The Original Television Scores, Volume Three'
+    url: https://mail.45worlds.com/vinyl/album/stv81185
+    publisher: 45worlds
+  - title: 'Filmtracks: Twilight Zone 40th Anniversary Collection (Silva Screen, 1999)'
+    url: https://www.filmtracks.com/titles/twilight_zone.html
+    publisher: Filmtracks
+    note: Listed on disc 1 (Herrmann).
+  - title: 'Qobuz: Bernard Herrmann, The Twilight Zone (Varèse Sarabande, 1999; Joel McNeely)'
+    url: https://www.qobuz.com/ie-en/album/the-twilight-zone-bernard-herrmann-joel-mcneely/0003020660872
+    publisher: Qobuz
+    note: Re-recording of seven Herrmann episode scores.

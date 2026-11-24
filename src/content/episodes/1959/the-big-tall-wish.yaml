@@ -35,3 +35,16 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
 last_verified: '2026-11-19'
 locked: true
+music:
+  score: original
+  composers:
+  - Jerry Goldsmith
+  sources:
+  - title: '45worlds: Varèse Sarabande STV 81178, The Original Television Scores, Volume Two'
+    url: https://mail.45worlds.com/vinyl/album/stv81178
+    publisher: 45worlds
+    note: Track B1.
+  - title: 'Filmtracks: Twilight Zone 40th Anniversary Collection (Silva Screen, 1999)'
+    url: https://www.filmtracks.com/titles/twilight_zone.html
+    publisher: Filmtracks
+    note: Listed on disc 2 (Goldsmith).

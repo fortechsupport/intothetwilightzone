@@ -45,3 +45,16 @@ media:
   date: '2011-02-15'
   rights: licensed
   note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+music:
+  score: original
+  composers:
+  - Nathan Van Cleave
+  sources:
+  - title: '45worlds: Varèse Sarabande STV 81205, The Original Television Scores, Volume Five'
+    url: https://mail.45worlds.com/vinyl/album/stv81205
+    publisher: 45worlds
+    note: Track A2.
+  - title: 'Filmtracks: Twilight Zone 40th Anniversary Collection (Silva Screen, 1999)'
+    url: https://www.filmtracks.com/titles/twilight_zone.html
+    publisher: Filmtracks
+    note: Listed on disc 3.

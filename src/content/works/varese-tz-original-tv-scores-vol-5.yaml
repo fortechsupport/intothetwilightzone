@@ -8,6 +8,13 @@ description: >-
   The final volume of the LP series covers "I Sing the Body Electric", "The Passersby", "The Trouble with Templeton"
   and Goldsmith's "Dust", again framed by alternate Herrmann title music.
 details:
+  tracks:
+  - 'A1 Alternate Main Title #2 (Bernard Herrmann)'
+  - A2 I Sing the Body Electric (Nathan Van Cleave)
+  - A3 The Passerby (Fred Steiner)
+  - B1 The Trouble with Templeton (Jeff Alexander)
+  - B2 Dust (Jerry Goldsmith)
+  - 'B3 Alternate End Title #2 (Bernard Herrmann)'
   format: LP
   series: The Twilight Zone (1959-64)
   catalog_no: STV 81205
@@ -24,7 +31,7 @@ sources:
 - title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
   url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
 research_confidence: high
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 relevance: core
 media:
 - type: link

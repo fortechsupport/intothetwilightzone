@@ -74,3 +74,12 @@ media:
   url: https://interviews.televisionacademy.com/interviews/william-froug
   date: '2011-07-18'
   duration: 0:37
+music:
+  score: original
+  composers:
+  - Bernard Herrmann
+  sources:
+  - title: 'Qobuz: Bernard Herrmann, The Twilight Zone (Varèse Sarabande, 1999; Joel McNeely)'
+    url: https://www.qobuz.com/ie-en/album/the-twilight-zone-bernard-herrmann-joel-mcneely/0003020660872
+    publisher: Qobuz
+    note: Re-recording of seven Herrmann episode scores.

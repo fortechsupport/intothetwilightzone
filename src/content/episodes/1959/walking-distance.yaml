@@ -44,3 +44,20 @@ media:
   date: '2010-09-14'
   rights: licensed
   note: Serling speaking to a screenwriting class at Sherwood Oaks Experimental College, Hollywood, 1975.
+music:
+  score: original
+  composers:
+  - Bernard Herrmann
+  sources:
+  - title: '45worlds: Varèse Sarabande STV 81171, The Original Television Scores, Volume One'
+    url: https://mail.45worlds.com/vinyl/album/stv81171
+    publisher: 45worlds
+    note: Track B1.
+  - title: 'Filmtracks: Twilight Zone 40th Anniversary Collection (Silva Screen, 1999)'
+    url: https://www.filmtracks.com/titles/twilight_zone.html
+    publisher: Filmtracks
+    note: Listed on disc 1 (Herrmann).
+  - title: 'Qobuz: Bernard Herrmann, The Twilight Zone (Varèse Sarabande, 1999; Joel McNeely)'
+    url: https://www.qobuz.com/ie-en/album/the-twilight-zone-bernard-herrmann-joel-mcneely/0003020660872
+    publisher: Qobuz
+    note: Re-recording of seven Herrmann episode scores.
