@@ -1,9 +1,21 @@
 title: The Twilight Zone
 artist: Rise From Your Grave
-tz_connection: unclassified
+album: Tales of Terror
+year: 2024
+tz_connection: reference
+description: Track 8 of Rise From Your Grave's album Tales of Terror, released on Bandcamp on 7 June 2024, with music and
+  lyrics by Tom Gaffron. The refrain names the show again and again, and one verse sets the scene on Maple Street. Another
+  line, about serving man and serving lunch, reads as a nod to "To Serve Man" (our reading; the page does not say so).
+relevance: core
+research_confidence: high
+tags:
+- research-2026-11-24
+- self-published
 sources:
+- title: 'Bandcamp: Rise From Your Grave, Tales of Terror'
+  url: https://risefromyourgrave.bandcamp.com/album/tales-of-terror
+  publisher: Bandcamp
+  note: Track 8; lyrics and credits ("Music and Lyrics by Tom Gaffron") read 2026-11-24.
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-research_confidence: low
-description: A song by Rise From Your Grave whose title borrows the show's name. It has not been checked whether
-  the song itself refers to the series or only uses the phrase.
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-24'

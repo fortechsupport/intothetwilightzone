@@ -143,7 +143,7 @@ That is two rounds of under an hour each at the shared 100 an hour.
 
 ## 9. Steps (one pull request each, merged when checks pass)
 
-1. **Research round 1:** the 63 unconfirmed songs, samples (WhoSampled) and covers (SecondHandSongs).
+1. **Research round 1** *(done 2026-11-24)***:** the 62 unconfirmed songs (63 in the first count), samples (WhoSampled) and covers (SecondHandSongs).
 2. **Research round 2:** the themes, the score releases with where to listen, who scored each episode, Night Gallery's
    music, and Serling on record.
 3. **Structure and pages:** the six shelves, the theme history, music lines on episode pages and music videos on their
@@ -171,4 +171,9 @@ That is two rounds of under an hour each at the shared 100 an hour.
 - (none: plan and Q1 to Q6 approved as suggested, 2026-11-24 02:05 UTC)
 
 ## Found, for later
-- (none yet)
+- Round 1 (2026-11-24, notes in data/research/music-2026-11-24/round-1-songs.md):
+  - Leads seen by title only: Bloody Hammers, Code Chaos, Cornelius, Steven Wilson, Band 88 and Phenomena; Covert Flops' Twilight Zone Vol. 1 and 2; Ivan Campo's album The Twilight Zone.
+  - SecondHandSongs refuses automated reading, so the full list of covers of the theme needs another source.
+  - "Devil's Tune: Ethnic Music from the Twilight Zone", a library-music compilation, goes to round 2.
+  - The 52 songs still unconfirmed (14 found without readable lyrics, 38 not found anywhere) wait for fan votes, or for Adam to recall why each one was listed.
+  - The project files hold "The Twilight Zone music score rundowns.pdf" (Essays folder of Adam's site archive), a likely source for round 2's episode composers.

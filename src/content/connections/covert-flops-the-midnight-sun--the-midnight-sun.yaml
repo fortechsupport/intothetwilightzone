@@ -1,0 +1,11 @@
+from: songs/covert-flops-the-midnight-sun
+to: 1959/the-midnight-sun
+kind: reference
+confidence: confirmed-by-creator
+evidence: The band's Bandcamp page says the song is "Based on the Twilight Zone episode of the same name."
+sources:
+- title: 'Bandcamp: Covert Flops, "The Midnight Sun"'
+  url: https://covertflops.bandcamp.com/track/the-midnight-sun
+  publisher: Bandcamp
+  note: From the 7-inch Twilight Zone Vol. 3; description read 2026-11-24.
+last_verified: '2026-11-24'

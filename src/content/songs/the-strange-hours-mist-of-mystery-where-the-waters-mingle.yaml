@@ -1,9 +1,21 @@
 title: Mist of Mystery (Where the Waters Mingle)
 artist: The Strange Hours
-tz_connection: unclassified
-sources:
-- title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+album: Epoch of Cryptids
+tz_connection: lyric-mention
+description: A track by The Strange Hours, the Columbus, Ohio music project of Jeremy Rubinow, on the album Epoch of Cryptids.
+  The opening track's lyrics, which speak of a "mist of mystery", place the singer "in a twilight zone", the everyday phrase.
+  The page we read did not show that track's title, so matching it to this song is our reading.
+relevance: tangential
 research_confidence: low
-description: A song by The Strange Hours listed in the original research with no stated Twilight Zone connection.
-  The tie is probably a lyric line or sample, but it has not been verified.
+tags:
+- lyric-idiom
+- research-2026-11-24
+- self-published
+sources:
+- title: 'Bandcamp: The Strange Hours, Epoch of Cryptids'
+  url: https://thestrangehours.bandcamp.com/album/epoch-of-cryptids
+  publisher: Bandcamp
+  note: Lyrics read 2026-11-24; the first track's title was blank in the text we received.
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-24'

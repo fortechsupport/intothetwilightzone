@@ -1,9 +1,18 @@
 title: Supernatural
 artist: Huycat
+year: 2024
 tz_connection: unclassified
-sources:
-- title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+description: Huycat released "Supernatural" as a single in 2024. The song exists, but its lyrics were not available to read,
+  so its Twilight Zone tie is not yet confirmed.
 research_confidence: low
-description: A song by Huycat listed in the original research with no stated Twilight Zone connection. The tie is
-  probably a lyric line or sample, but it has not been verified.
+tags:
+- needs-lyric-check
+- research-2026-11-24
+sources:
+- title: 'Apple Music: Huycat, Play Dead'
+  url: https://music.apple.com/ae/album/play-dead/1585850218
+  publisher: Apple Music
+  note: '"More by Huycat" lists "Supernatural - Single" (2024).'
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-24'

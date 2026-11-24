@@ -1,0 +1,11 @@
+from: songs/rise-from-your-grave-the-twilight-zone
+to: 1959/the-monsters-are-due-on-maple-street
+kind: lyric-mention
+confidence: documented
+evidence: A verse of the song is set "on Maple Street", in a song about the show.
+sources:
+- title: 'Bandcamp: Rise From Your Grave, Tales of Terror'
+  url: https://risefromyourgrave.bandcamp.com/album/tales-of-terror
+  publisher: Bandcamp
+  note: Track 8; lyrics and credits ("Music and Lyrics by Tom Gaffron") read 2026-11-24.
+last_verified: '2026-11-24'

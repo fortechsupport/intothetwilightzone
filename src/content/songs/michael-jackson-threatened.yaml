@@ -4,11 +4,24 @@ album: Invincible
 genre: pop / R&B
 year: 2001
 tz_connection: reference
-description: Rod Serling's narration is edited into an intro, outro and mid-song passage, so the late host appears
-  to introduce and even rap on the track.
+description: 'Rod Serling''s narration is edited into an intro, outro and mid-song passage, so the late host appears to
+  introduce and even rap on the track. WhoSampled lists two sources for it: a "Good Life" opening narration (our reading:
+  "It''s a Good Life") and the season 4, episode 1 opening narration.'
 subtype: sample
 sources:
 - title: twilightzone.fandom.com
   url: https://twilightzone.fandom.com/wiki/Audio_recordings_with_references_to_The_Twilight_Zone
+- title: 'WhoSampled: Michael Jackson''s ''Threatened'' sample of The Good Life Opening Narration scene in The Twilight
+    Zone'
+  url: https://www.whosampled.com/sample/409797/Michael-Jackson-Threatened-The-Twilight-Zone-The-Good-Life-Opening-Narration/
+  publisher: WhoSampled
+  note: Seen as a search-result title 2026-11-24; WhoSampled refuses automated reading.
+- title: 'WhoSampled: Michael Jackson''s ''Threatened'' sample of Season 4, Episode 1 Opening Narration scene in The Twilight
+    Zone'
+  url: https://www.whosampled.com/sample/459244/Michael-Jackson-Threatened-The-Twilight-Zone-Season-4,-Episode-1-Opening-Narration/
+  publisher: WhoSampled
+  note: Seen as a search-result title 2026-11-24.
 research_confidence: high
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
+tags:
+- research-2026-11-24

@@ -1,9 +1,18 @@
-title: The Peboop Dance
-artist: Peboop Jimdog
+title: The Peeboop Dance
+artist: Peeboop Jimdog
+year: 2021
 tz_connection: unclassified
-sources:
-- title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+description: Released by Peeboop Jimdog as a single in 2021 (the earlier list spelled it "Peboop"). The song exists, but
+  its lyrics were not available to read, so its Twilight Zone tie is not yet confirmed.
 research_confidence: low
-description: A song by Peboop Jimdog listed in the original research with no stated Twilight Zone connection. The
-  tie is probably a lyric line or sample, but it has not been verified.
+tags:
+- needs-lyric-check
+- research-2026-11-24
+sources:
+- title: 'Apple Music: Peeboop Jimdog'
+  url: https://music.apple.com/us/artist/peeboop-jimdog/1591313039
+  publisher: Apple Music
+  note: Lists "The Peeboop Dance - Single" (2021).
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-24'
