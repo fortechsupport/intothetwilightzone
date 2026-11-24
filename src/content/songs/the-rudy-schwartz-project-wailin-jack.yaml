@@ -1,9 +1,19 @@
 title: Wailin' Jack
 artist: The Rudy Schwartz Project
+album: Bowling for Appliances
+year: 2008
 tz_connection: unclassified
-sources:
-- title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+description: A track on The Rudy Schwartz Project's album Bowling for Appliances (2008). The song exists, but its lyrics
+  were not available to read, so its Twilight Zone tie is not yet confirmed.
 research_confidence: low
-description: A song by The Rudy Schwartz Project listed in the original research with no stated Twilight Zone connection.
-  The tie is probably a lyric line or sample, but it has not been verified.
+tags:
+- needs-lyric-check
+- research-2026-11-24
+sources:
+- title: 'Spotify: The Rudy Schwartz Project, "Wailin'' Jack"'
+  url: https://open.spotify.com/track/0GuPSaRSuQdfsr2SocHxPk
+  publisher: Spotify
+  note: Release date 2008-10-01.
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-24'

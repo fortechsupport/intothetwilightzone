@@ -1,9 +1,14 @@
 title: Inception
 artist: Jona
 tz_connection: unclassified
+description: 'A song listed in the original research under Jona, with no stated Twilight Zone connection. Checked on 2026-11-24
+  through web and streaming-service searches: no trace of the song or its lyrics was found, so its tie to the show is not
+  yet confirmed.'
+research_confidence: low
+tags:
+- not-found-2026-11-24
+- research-2026-11-24
 sources:
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-research_confidence: low
-description: A song by Jona listed in the original research with no stated Twilight Zone connection. The tie is
-  probably a lyric line or sample, but it has not been verified.
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-24'

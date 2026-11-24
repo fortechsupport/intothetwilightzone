@@ -14892,6 +14892,72 @@
    "official": false
   }
  ],
+ "connections/billy-creepshow-in-the-twilight-zone--eye-of-the-beholder": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/billy-creepshow-in-the-twilight-zone--mirror-image": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/billy-creepshow-in-the-twilight-zone--people-are-alike-all-over": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/billy-creepshow-in-the-twilight-zone--the-invaders": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/billy-creepshow-in-the-twilight-zone--the-monsters-are-due-on-maple-street": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/billy-creepshow-in-the-twilight-zone--to-serve-man": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "connections/black-mirror--twilight-zone-1959": [
   {
    "cat": "homages",
@@ -15113,6 +15179,17 @@
   }
  ],
  "connections/countdown-with-keith-olbermann-msnbc-special-comment-september-11-2006--the-monsters-are-due-on-maple-street": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/covert-flops-the-midnight-sun--the-midnight-sun": [
   {
    "cat": "homages",
    "sub": "references",
@@ -16432,6 +16509,17 @@
    "official": false
   }
  ],
+ "connections/ivan-campo-and-when-the-sky-was-opened--and-when-the-sky-was-opened": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "connections/jacobs-ladder-an-occurrence-at-owl-creek-bridge": [
   {
    "cat": "homages",
@@ -17368,6 +17456,17 @@
   }
  ],
  "connections/red-teds-road-show-twilight-zone-invaders--1959": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/rise-from-your-grave-the-twilight-zone--the-monsters-are-due-on-maple-street": [
   {
    "cat": "homages",
    "sub": "references",
@@ -69024,7 +69123,7 @@
   {
    "cat": "music",
    "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "group": "Songs about or titled after the show",
    "catTitle": "Music",
    "subTitle": "Songs",
    "isNew": false,
@@ -69097,6 +69196,17 @@
    "official": true
   }
  ],
+ "songs/carnal-machinery-twilight-zone": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Lyrics that mention the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "songs/cattle-decapitation-to-serve-man": [
   {
    "cat": "music",
@@ -69167,7 +69277,7 @@
   {
    "cat": "music",
    "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "group": "Lyrics that mention the show",
    "catTitle": "Music",
    "subTitle": "Songs",
    "isNew": false,
@@ -69175,6 +69285,17 @@
   }
  ],
  "songs/count-bass-d-feat-mf-doom-make-a-buck": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "songs/covert-flops-the-midnight-sun": [
   {
    "cat": "music",
    "sub": "songs",
@@ -69200,7 +69321,7 @@
   {
    "cat": "music",
    "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "group": "Lyrics that mention the show",
    "catTitle": "Music",
    "subTitle": "Songs",
    "isNew": false,
@@ -69387,7 +69508,7 @@
   {
    "cat": "music",
    "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "group": "Lyrics that mention the show",
    "catTitle": "Music",
    "subTitle": "Songs",
    "isNew": false,
@@ -69410,6 +69531,17 @@
    "cat": "music",
    "sub": "songs",
    "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "songs/echoberyl-twilight-zone": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Lyrics that mention the show",
    "catTitle": "Music",
    "subTitle": "Songs",
    "isNew": false,
@@ -69637,6 +69769,17 @@
   }
  ],
  "songs/iron-maiden-twilight-zone": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "songs/ivan-campo-and-when-the-sky-was-opened": [
   {
    "cat": "music",
    "sub": "songs",
@@ -69982,6 +70125,17 @@
    "cat": "music",
    "sub": "songs",
    "group": "Lyrics that mention the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "songs/luke-ski-the-twilight-zone": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
    "catTitle": "Music",
    "subTitle": "Songs",
    "isNew": false,
@@ -70366,7 +70520,7 @@
   {
    "cat": "music",
    "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "group": "Songs about or titled after the show",
    "catTitle": "Music",
    "subTitle": "Songs",
    "isNew": false,
@@ -70429,6 +70583,17 @@
   }
  ],
  "songs/s-e-s-twilight-zone": [
+  {
+   "cat": "music",
+   "sub": "songs",
+   "group": "Songs about or titled after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "songs/s-g-smitty-the-twilight-zone": [
   {
    "cat": "music",
    "sub": "songs",
@@ -70850,7 +71015,7 @@
   {
    "cat": "music",
    "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "group": "Lyrics that mention the show",
    "catTitle": "Music",
    "subTitle": "Songs",
    "isNew": false,
@@ -70982,7 +71147,7 @@
   {
    "cat": "music",
    "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "group": "Lyrics that mention the show",
    "catTitle": "Music",
    "subTitle": "Songs",
    "isNew": false,
@@ -71079,7 +71244,7 @@
   {
    "cat": "music",
    "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "group": "Songs about or titled after the show",
    "catTitle": "Music",
    "subTitle": "Songs",
    "isNew": false,

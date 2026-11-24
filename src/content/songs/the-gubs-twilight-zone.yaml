@@ -1,9 +1,20 @@
 title: Twilight Zone
 artist: The Gubs
-tz_connection: unclassified
+album: The GUBS
+year: 2019
+tz_connection: lyric-mention
+description: Track 6 of the Gubs' self-titled album, released on Bandcamp on 6 November 2019. The refrain names the Twilight
+  Zone, and the singer describes his life as if he had a bit part in one of its episodes, watching spacemen on his TV set.
+relevance: tangential
+research_confidence: medium
+tags:
+- research-2026-11-24
+- self-published
 sources:
+- title: 'Bandcamp: The Gubs, The GUBS'
+  url: https://thegubs.bandcamp.com/album/the-gubs
+  publisher: Bandcamp
+  note: Track 6 "Twilight Zone" (2:15); lyrics read 2026-11-24.
 - title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
-research_confidence: low
-description: A song by The Gubs whose title borrows the show's name. It has not been checked whether the song itself
-  refers to the series or only uses the phrase.
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-24'

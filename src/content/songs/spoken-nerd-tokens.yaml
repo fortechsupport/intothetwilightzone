@@ -1,9 +1,20 @@
 title: Tokens
-artist: Spoken Nerd
+artist: Spoken Nerd and Juan Cosby
+album: GRAPES
+year: 2021
 tz_connection: unclassified
-sources:
-- title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+description: Track 6 of GRAPES by Spoken Nerd and Juan Cosby, released on Bandcamp on 8 October 2021. The album page mentions
+  Tales from the Crypt and EC Comics, not The Twilight Zone. The song exists, but its lyrics were not available to read,
+  so its Twilight Zone tie is not yet confirmed.
 research_confidence: low
-description: A song by Spoken Nerd listed in the original research with no stated Twilight Zone connection. The
-  tie is probably a lyric line or sample, but it has not been verified.
+tags:
+- needs-lyric-check
+- research-2026-11-24
+sources:
+- title: 'Bandcamp: Spoken Nerd, GRAPES'
+  url: https://spokennerd.bandcamp.com/album/grapes
+  publisher: Bandcamp
+  note: Track 6 "TOKENS"; no lyrics shown.
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-24'

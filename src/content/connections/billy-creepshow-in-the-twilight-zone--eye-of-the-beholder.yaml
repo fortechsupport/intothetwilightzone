@@ -1,0 +1,11 @@
+from: songs/billy-creepshow-in-the-twilight-zone
+to: 1959/eye-of-the-beholder
+kind: lyric-mention
+confidence: documented
+evidence: The song's lyrics name this episode among a run of Twilight Zone titles.
+sources:
+- title: 'Bandcamp: Billy Creepshow, "In The Twilight Zone"'
+  url: https://billycreepshow.bandcamp.com/track/in-the-twilight-zone-2
+  publisher: Bandcamp
+  note: Lyrics and performer credits read 2026-11-24.
+last_verified: '2026-11-24'

@@ -1,9 +1,18 @@
 title: UFOmen
 artist: B.L.A.K, Omen
+year: 2021
 tz_connection: unclassified
-sources:
-- title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+description: Released by Omen on 26 February 2021 as the single "UFOmen / U.W.U.". The song exists, but its lyrics were
+  not available to read, so its Twilight Zone tie is not yet confirmed.
 research_confidence: low
-description: A song by B.L.A.K, Omen listed in the original research with no stated Twilight Zone connection. The
-  tie is probably a lyric line or sample, but it has not been verified.
+tags:
+- needs-lyric-check
+- research-2026-11-24
+sources:
+- title: 'Apple Music: Omen, UFOmen / U.W.U. - Single'
+  url: https://music.apple.com/us/album/ufomen-u-w-u-single/1554676159
+  publisher: Apple Music
+  note: ℗ 2021 OMEN.
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-24'

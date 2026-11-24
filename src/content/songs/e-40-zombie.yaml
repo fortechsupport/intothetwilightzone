@@ -1,9 +1,19 @@
 title: Zombie
 artist: E-40
+album: 'The Block Brochure: Welcome to the Soil 2'
 tz_connection: unclassified
-sources:
-- title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+description: 'E-40''s "Zombie", featuring Tech N9ne and Brotha Lynch Hung, from The Block Brochure: Welcome to the Soil
+  2. Its 2012 video shows a zombie invasion; the page we read does not mention the show. The song exists, but its lyrics
+  were not available to read, so its Twilight Zone tie is not yet confirmed.'
 research_confidence: low
-description: A song by E-40 listed in the original research with no stated Twilight Zone connection. The tie is
-  probably a lyric line or sample, but it has not been verified.
+tags:
+- needs-lyric-check
+- research-2026-11-24
+sources:
+- title: 'Strange Music: E-40 "Zombie" featuring Tech N9ne and Brotha Lynch Hung music video'
+  url: https://www.strangemusicinc.com/2012/05/tech-n9ne/e-40-zombie-tech-n9ne-and-brotha-lynch-hung-music-video
+  publisher: Strange Music
+  note: Posted 11 May 2012.
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-24'

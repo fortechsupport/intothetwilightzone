@@ -5168,3 +5168,282 @@ films/the-brown-bunny:
   tier_reason: A song from one episode reused in a film otherwise unrelated to the show (plan Q4, marked Reference).
   recommendation: include
   reason: The film's Wikipedia soundtrack listing names the song as track 1, and the episode article says the same.
+# Music research round 1, 2026-11-24 (docs/plans/research-music.md)
+songs/billy-creepshow-in-the-twilight-zone:
+  connection: 'A song about the show: the chorus names it and the verses list episode titles (Bandcamp lyrics).'
+  tier: core
+  tier_reason: Written about the series itself.
+  recommendation: include
+  reason: Lyrics on the artist's own Bandcamp page confirm it; links to six episodes.
+songs/rise-from-your-grave-the-twilight-zone:
+  connection: 'A song about the show: the refrain names it and a verse is set on Maple Street (Bandcamp lyrics).'
+  tier: core
+  tier_reason: Written about the series itself.
+  recommendation: include
+  reason: Lyrics and credits on the band's own Bandcamp page confirm it.
+songs/luke-ski-the-twilight-zone:
+  connection: A parody of Golden Earring's "Twilight Zone" rewritten about the 1959 series, naming Serling and characters
+    (Bandcamp).
+  tier: core
+  tier_reason: Written about the series itself.
+  recommendation: include
+  reason: The artist's Bandcamp page says what the song is about and gives full credits.
+songs/s-g-smitty-the-twilight-zone:
+  connection: An instrumental album built from samples of the original series, with tracks named for episodes (Bandcamp).
+  tier: core
+  tier_reason: Made from the series' own sound.
+  recommendation: include
+  reason: The page states the samples come only from the original series; a free fan release, linked not hosted.
+songs/covert-flops-the-midnight-sun:
+  connection: A song the band says is based on the episode "The Midnight Sun" (Bandcamp).
+  tier: core
+  tier_reason: Based on a named episode, per the band.
+  recommendation: include
+  reason: The band's own page states the source episode.
+songs/ivan-campo-and-when-the-sky-was-opened:
+  connection: A single titled after a first-season episode, from an album called The Twilight Zone (Bandcamp).
+  tier: tangential
+  tier_reason: The tie rests on the titles; the page does not mention the series.
+  recommendation: include
+  reason: Both titles point to the show; marked as our reading, and fan votes can flag it.
+songs/warren-haynes-twilight-zone:
+  connection: A cover of Golden Earring's "Twilight Zone" on William Shatner's Seeking Major Tom (2011); Shatner starred
+    in two episodes.
+  tier: related
+  tier_reason: A Twilight Zone actor's recording of a song named after the show.
+  recommendation: include
+  reason: Wikipedia's track list and the MuzText lyric page confirm the recording.
+songs/the-gubs-twilight-zone:
+  connection: The refrain names the Twilight Zone and the singer imagines a bit part in an episode (Bandcamp lyrics).
+  tier: tangential
+  tier_reason: Names the show in passing.
+  recommendation: include
+  reason: Lyrics read on the band's Bandcamp page.
+songs/paleshifter-overthinker:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/cdm-project-twilight-zone:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/lilies-of-megiddo-welcome-to-the-zone:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/james-k-agostino-something-so-strange:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/brian-derba-zwilight-zone:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/clipma-give-to-me-clipma:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/jolaade-the-21st-century-holiday-hotel:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/the-revenants-higher:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/lilace-black-man:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/paul-wilcock-i-heard-a-noise-downstairs:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/brett-sekoya-twilight-zone:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/the-limes-zwilight-zone:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/lacobra-superstition:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/electrik-emblem-is-this-the-twilight-zone:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/z-channel-who-knows:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/wolf-new-year-th-ngs:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/witheren-never-been-easier:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/ky-armani-twilight-zone:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/sci-fi-godfather-twilight-zone:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/polarboy-impact:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/mila-jam-twilight-zone:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/jona-inception:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/king-tune-twilight-zone:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/new-world-revolution-reality:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/sahera-alien-love:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/jim-cooney-in-the-zone:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/the-roots-new-years-eve-polka-5-4-3-2-1:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/j-rock-fake-newz:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/wc-put-on-tha-set:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/larry-zanier-twilight-zone-movie:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/amphabian-the-bermuda-triangle:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/anthony-bieler-man-is-the-monster:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/davey-dips-insane-asylum:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/the-ideals-twilight-zone:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/the-effex-twilight-zone:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/jim-kroft-gravitys-gone:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/nmsxs-lo-fi-sci-fi:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+songs/solo-jones-dimensions-i:
+  connection: Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.
+  tier: tangential
+  tier_reason: Connection unknown.
+  recommendation: maybe
+  reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.

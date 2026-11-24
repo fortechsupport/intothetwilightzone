@@ -15755,6 +15755,78 @@
   "subcategory": "References",
   "sort": "uncaged  the twilight zone original series"
  },
+ "connections/billy-creepshow-in-the-twilight-zone--eye-of-the-beholder": {
+  "connection": "“In The Twilight Zone” is a lyric mention of “Eye of the Beholder” (1959).",
+  "tier": "tangential",
+  "tier_reason": "Lyric mention link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
+  "source_title": "Bandcamp: Billy Creepshow, \"In The Twilight Zone\"",
+  "source_url": "https://billycreepshow.bandcamp.com/track/in-the-twilight-zone-2",
+  "title": "“In The Twilight Zone” → “Eye of the Beholder” (1959)",
+  "subcategory": "Lyric mentions",
+  "sort": "in the twilight zone  eye of the beholder 001959"
+ },
+ "connections/billy-creepshow-in-the-twilight-zone--mirror-image": {
+  "connection": "“In The Twilight Zone” is a lyric mention of “Mirror Image” (1959).",
+  "tier": "tangential",
+  "tier_reason": "Lyric mention link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
+  "source_title": "Bandcamp: Billy Creepshow, \"In The Twilight Zone\"",
+  "source_url": "https://billycreepshow.bandcamp.com/track/in-the-twilight-zone-2",
+  "title": "“In The Twilight Zone” → “Mirror Image” (1959)",
+  "subcategory": "Lyric mentions",
+  "sort": "in the twilight zone  mirror image 001959"
+ },
+ "connections/billy-creepshow-in-the-twilight-zone--people-are-alike-all-over": {
+  "connection": "“In The Twilight Zone” is a lyric mention of “People Are Alike All Over” (1959).",
+  "tier": "tangential",
+  "tier_reason": "Lyric mention link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
+  "source_title": "Bandcamp: Billy Creepshow, \"In The Twilight Zone\"",
+  "source_url": "https://billycreepshow.bandcamp.com/track/in-the-twilight-zone-2",
+  "title": "“In The Twilight Zone” → “People Are Alike All Over” (1959)",
+  "subcategory": "Lyric mentions",
+  "sort": "in the twilight zone  people are alike all over 001959"
+ },
+ "connections/billy-creepshow-in-the-twilight-zone--the-invaders": {
+  "connection": "“In The Twilight Zone” is a lyric mention of “The Invaders” (1959).",
+  "tier": "tangential",
+  "tier_reason": "Lyric mention link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
+  "source_title": "Bandcamp: Billy Creepshow, \"In The Twilight Zone\"",
+  "source_url": "https://billycreepshow.bandcamp.com/track/in-the-twilight-zone-2",
+  "title": "“In The Twilight Zone” → “The Invaders” (1959)",
+  "subcategory": "Lyric mentions",
+  "sort": "in the twilight zone  the invaders 001959"
+ },
+ "connections/billy-creepshow-in-the-twilight-zone--the-monsters-are-due-on-maple-street": {
+  "connection": "“In The Twilight Zone” is a lyric mention of “The Monsters Are Due on Maple Street” (1959).",
+  "tier": "tangential",
+  "tier_reason": "Lyric mention link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
+  "source_title": "Bandcamp: Billy Creepshow, \"In The Twilight Zone\"",
+  "source_url": "https://billycreepshow.bandcamp.com/track/in-the-twilight-zone-2",
+  "title": "“In The Twilight Zone” → “The Monsters Are Due on Maple Street” (1959)",
+  "subcategory": "Lyric mentions",
+  "sort": "in the twilight zone  the monsters are due on maple street 001959"
+ },
+ "connections/billy-creepshow-in-the-twilight-zone--to-serve-man": {
+  "connection": "“In The Twilight Zone” is a lyric mention of “To Serve Man” (1959).",
+  "tier": "tangential",
+  "tier_reason": "Lyric mention link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
+  "source_title": "Bandcamp: Billy Creepshow, \"In The Twilight Zone\"",
+  "source_url": "https://billycreepshow.bandcamp.com/track/in-the-twilight-zone-2",
+  "title": "“In The Twilight Zone” → “To Serve Man” (1959)",
+  "subcategory": "Lyric mentions",
+  "sort": "in the twilight zone  to serve man 001959"
+ },
  "connections/black-mirror--twilight-zone-1959": {
   "connection": "Black Mirror is inspired by The Twilight Zone (original series).",
   "tier": "related",
@@ -16006,6 +16078,18 @@
   "title": "Special Comment, September 11, 2006 → “The Monsters Are Due on Maple Street” (1959)",
   "subcategory": "References",
   "sort": "special comment september 000011 002006  the monsters are due on maple street 001959"
+ },
+ "connections/covert-flops-the-midnight-sun--the-midnight-sun": {
+  "connection": "“The Midnight Sun” is a reference to “The Midnight Sun” (1959).",
+  "tier": "tangential",
+  "tier_reason": "Reference link, the makers have said so.",
+  "recommendation": "include",
+  "reason": "The makers have confirmed the influence.",
+  "source_title": "Bandcamp: Covert Flops, \"The Midnight Sun\"",
+  "source_url": "https://covertflops.bandcamp.com/track/the-midnight-sun",
+  "title": "“The Midnight Sun” → “The Midnight Sun” (1959)",
+  "subcategory": "References",
+  "sort": "midnight sun  the midnight sun 001959"
  },
  "connections/cube-five-characters-in-search-of-an-exit": {
   "connection": "Cube and “Five Characters in Search of an Exit” (1959): both trap strangers with no memory of how they arrived in a featureless enclosure they cannot escape.",
@@ -17435,6 +17519,18 @@
   "subcategory": "References",
   "sort": "twilight zone 000003cd  wongs lost and found emporium 001985"
  },
+ "connections/ivan-campo-and-when-the-sky-was-opened--and-when-the-sky-was-opened": {
+  "connection": "“And When the Sky Was Opened” is a reference to “And When the Sky Was Opened” (1959).",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "Fan sources record it as a deliberate nod to the episode, but nobody has described what the nod is; check the scene before including.",
+  "source_title": "Bandcamp: Ivan Campo, \"And When the Sky Was Opened\"",
+  "source_url": "https://ivancampo.bandcamp.com/track/and-when-the-sky-was-opened",
+  "title": "“And When the Sky Was Opened” → “And When the Sky Was Opened” (1959)",
+  "subcategory": "References",
+  "sort": "and when the sky was opened  and when the sky was opened 001959"
+ },
  "connections/jacobs-ladder-an-occurrence-at-owl-creek-bridge": {
   "connection": "Director Adrian Lyne has named the Twilight Zone version of 'An Occurrence at Owl Creek Bridge' as an inspiration for the film's 'not what you think you're watching' structure.",
   "tier": "related",
@@ -18466,6 +18562,18 @@
   "title": "Red & Ted's Road Show – Twilight Zone invaders → The Twilight Zone (original series)",
   "subcategory": "References",
   "sort": "red  teds road show  twilight zone invaders  the twilight zone original series"
+ },
+ "connections/rise-from-your-grave-the-twilight-zone--the-monsters-are-due-on-maple-street": {
+  "connection": "“The Twilight Zone” is a lyric mention of “The Monsters Are Due on Maple Street” (1959).",
+  "tier": "tangential",
+  "tier_reason": "Lyric mention link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
+  "source_title": "Bandcamp: Rise From Your Grave, Tales of Terror",
+  "source_url": "https://risefromyourgrave.bandcamp.com/album/tales-of-terror",
+  "title": "“The Twilight Zone” → “The Monsters Are Due on Maple Street” (1959)",
+  "subcategory": "Lyric mentions",
+  "sort": "twilight zone  the monsters are due on maple street 001959"
  },
  "connections/robot-chicken--twilight-zone-1959": {
   "connection": "A sketch spoofs Serling's narration.",
@@ -50580,7 +50688,7 @@
   "sort": "jonathan winters"
  },
  "people/jordan-peele": {
-  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “The Comedian” and “Nightmare at 30,000 Feet”).",
+  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “Nightmare at 30,000 Feet” and “The Comedian”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -64728,11 +64836,11 @@
   "sort": "twilight zone"
  },
  "songs/amphabian-the-bermuda-triangle": {
-  "connection": "A song by Amphabian listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "The Bermuda Triangle",
@@ -64740,11 +64848,11 @@
   "sort": "bermuda triangle"
  },
  "songs/anthony-bieler-man-is-the-monster": {
-  "connection": "A song by Anthony Bieler listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Man Is the Monster",
@@ -64764,13 +64872,13 @@
   "sort": "twilight zone"
  },
  "songs/asd-band-s-t-r-a-n-g-e": {
-  "connection": "A song by ASD Band listed in the original research with no stated Twilight Zone connection.",
+  "connection": "A 2025 single by ASD Band, also on their album Almost Flawlss (2025).",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
   "recommendation": "maybe",
   "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Apple Music: ASD Band",
+  "source_url": "https://music.apple.com/us/artist/asd-band/1534957268",
   "title": "S.T.R.A.N.G.E.",
   "subcategory": "Connection not yet confirmed",
   "sort": "strange"
@@ -64788,13 +64896,13 @@
   "sort": "twilight zone"
  },
  "songs/b-l-a-k-omen-ufomen": {
-  "connection": "A song by B.L.A.K, Omen listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Released by Omen on 26 February 2021 as the single \"UFOmen / U.W.U.\". The song exists, but its lyrics were not available to read, so its Twilight Zone tie is not yet confirmed.",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
   "recommendation": "maybe",
   "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Apple Music: Omen, UFOmen / U.W.U. - Single",
+  "source_url": "https://music.apple.com/us/album/ufomen-u-w-u-single/1554676159",
   "title": "UFOmen",
   "subcategory": "Connection not yet confirmed",
   "sort": "ufomen"
@@ -64824,13 +64932,13 @@
   "sort": "infinity"
  },
  "songs/banaroo-be-my-satellite": {
-  "connection": "A song by Banaroo listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Track 4 of Banaroo's album Fly Away (2007).",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
   "recommendation": "maybe",
   "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Apple Music: Banaroo, \"Be My Satellite\"",
+  "source_url": "https://music.apple.com/tr/song/be-my-satellite/250420002",
   "title": "Be My Satellite",
   "subcategory": "Connection not yet confirmed",
   "sort": "be my satellite"
@@ -64884,15 +64992,15 @@
   "sort": "dial a hitman"
  },
  "songs/billy-creepshow-in-the-twilight-zone": {
-  "connection": "A song by Billy Creepshow whose title borrows the show's name.",
-  "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
-  "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
-  "source_title": "",
-  "source_url": "",
-  "title": "In the Twilight Zone",
-  "subcategory": "Connection not yet confirmed",
+  "connection": "A song about the show: the chorus names it and the verses list episode titles (Bandcamp lyrics).",
+  "tier": "core",
+  "tier_reason": "Written about the series itself.",
+  "recommendation": "include",
+  "reason": "Lyrics on the artist's own Bandcamp page confirm it; links to six episodes.",
+  "source_title": "Bandcamp: Billy Creepshow, \"In The Twilight Zone\"",
+  "source_url": "https://billycreepshow.bandcamp.com/track/in-the-twilight-zone-2",
+  "title": "In The Twilight Zone",
+  "subcategory": "Songs about or titled after the show",
   "sort": "in the twilight zone"
  },
  "songs/black-sheep-blunted-10": {
@@ -64932,11 +65040,11 @@
   "sort": "who says you cant go home"
  },
  "songs/brett-sekoya-twilight-zone": {
-  "connection": "A song by Brett Sekoya whose title borrows the show's name.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Twilight Zone",
@@ -64944,11 +65052,11 @@
   "sort": "twilight zone"
  },
  "songs/brian-derba-zwilight-zone": {
-  "connection": "A song by Brian Derba whose title borrows the show's name.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Zwilight Zone",
@@ -64967,6 +65075,18 @@
   "subcategory": "The theme and its uses",
   "sort": "midnight sun"
  },
+ "songs/carnal-machinery-twilight-zone": {
+  "connection": "A track released on Bandcamp on 1 January 2021 by Carnal Machinery, the solo project of Jacques Saph, who wrote, recorded and mastered it in Helsinki.",
+  "tier": "tangential",
+  "tier_reason": "A song that names or borrows from the show.",
+  "recommendation": "include",
+  "reason": "A sourced lyric or title reference; fits a list of songs that name the show.",
+  "source_title": "Bandcamp: Carnal Machinery, \"Twilight Zone\"",
+  "source_url": "https://carnalmachinery.bandcamp.com/track/twilight-zone",
+  "title": "Twilight Zone",
+  "subcategory": "Lyrics that mention the show",
+  "sort": "twilight zone"
+ },
  "songs/cattle-decapitation-to-serve-man": {
   "connection": "The San Diego band borrowed the episode's double-meaning title for its second album, turning the humans-as-food twist into the album's pro-animal, anti-human theme.",
   "tier": "tangential",
@@ -64980,11 +65100,11 @@
   "sort": "to serve man"
  },
  "songs/cdm-project-twilight-zone": {
-  "connection": "A song by CDM Project whose title borrows the show's name.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Twilight Zone",
@@ -65028,11 +65148,11 @@
   "sort": "twilight zone chiller"
  },
  "songs/clipma-give-to-me-clipma": {
-  "connection": "A song by Clipma listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Give to me Clipma",
@@ -65040,15 +65160,15 @@
   "sort": "give to me clipma"
  },
  "songs/cotton-brain-black-hole": {
-  "connection": "A song by Cotton Brain listed in the original research with no stated Twilight Zone connection.",
+  "connection": "The opening track of Cotton Brain's Black Hole EP, released on Bandcamp on 1 August 2021, written and recorded by Alice Fairley.",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
-  "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "recommendation": "include",
+  "reason": "A sourced lyric or title reference; fits a list of songs that name the show.",
+  "source_title": "Bandcamp: Cotton Brain, Black Hole EP",
+  "source_url": "https://cottonbrain.bandcamp.com/album/black-hole-ep",
   "title": "Black Hole",
-  "subcategory": "Connection not yet confirmed",
+  "subcategory": "Lyrics that mention the show",
   "sort": "black hole"
  },
  "songs/count-bass-d-feat-mf-doom-make-a-buck": {
@@ -65063,6 +65183,18 @@
   "subcategory": "Songs about or titled after the show",
   "sort": "make a buck"
  },
+ "songs/covert-flops-the-midnight-sun": {
+  "connection": "A song the band says is based on the episode \"The Midnight Sun\" (Bandcamp).",
+  "tier": "core",
+  "tier_reason": "Based on a named episode, per the band.",
+  "recommendation": "include",
+  "reason": "The band's own page states the source episode.",
+  "source_title": "Bandcamp: Covert Flops, \"The Midnight Sun\"",
+  "source_url": "https://covertflops.bandcamp.com/track/the-midnight-sun",
+  "title": "The Midnight Sun",
+  "subcategory": "Songs about or titled after the show",
+  "sort": "midnight sun"
+ },
  "songs/creedence-clearwater-revival-midnight-special-twilight-zone-the-movie": {
   "connection": "Heard in the prologue of Twilight Zone: The Movie (1983).",
   "tier": "related",
@@ -65076,15 +65208,15 @@
   "sort": "midnight special"
  },
  "songs/da-band-tonight": {
-  "connection": "A song by Da Band listed in the original research with no stated Twilight Zone connection.",
+  "connection": "A song by Da Band (written by R. Hill, per the lyric page).",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
-  "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "recommendation": "include",
+  "reason": "A sourced lyric or title reference; fits a list of songs that name the show.",
+  "source_title": "Letras: DA Band, \"Tonight\" lyrics",
+  "source_url": "https://www.letras.com/da-band/517452/",
   "title": "Tonight",
-  "subcategory": "Connection not yet confirmed",
+  "subcategory": "Lyrics that mention the show",
   "sort": "tonight"
  },
  "songs/damn-yankees-runaway": {
@@ -65100,11 +65232,11 @@
   "sort": "runaway"
  },
  "songs/davey-dips-insane-asylum": {
-  "connection": "A song by Davey Dips listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Insane Asylum",
@@ -65112,13 +65244,13 @@
   "sort": "insane asylum"
  },
  "songs/dennis-deyoung-little-did-we-know": {
-  "connection": "A song by Dennis DeYoung listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Track 9 of 26 East, Vol. 2, Dennis DeYoung's final album, released by Frontiers on 11 June 2021.",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
   "recommendation": "maybe",
   "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Frontiers: Dennis DeYoung, 26East: Volume 2",
+  "source_url": "https://www.frontiers.it/album/5686",
   "title": "Little Did We Know",
   "subcategory": "Connection not yet confirmed",
   "sort": "little did we know"
@@ -65280,25 +65412,25 @@
   "sort": "twilight zone"
  },
  "songs/drew-anton-stuck-in-limbo": {
-  "connection": "A song by Drew Anton listed in the original research with no stated Twilight Zone connection.",
+  "connection": "The title track of Drew Anton's album Stuck in Limbo, released on Bandcamp on 30 July 2021, with lyrics and music by Drew Anton.",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
-  "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "recommendation": "include",
+  "reason": "A sourced lyric or title reference; fits a list of songs that name the show.",
+  "source_title": "Bandcamp: Drew Anton, Stuck in Limbo",
+  "source_url": "https://drewanton.bandcamp.com/album/stuck-in-limbo",
   "title": "Stuck in Limbo",
-  "subcategory": "Connection not yet confirmed",
+  "subcategory": "Lyrics that mention the show",
   "sort": "stuck in limbo"
  },
  "songs/e-40-zombie": {
-  "connection": "A song by E-40 listed in the original research with no stated Twilight Zone connection.",
+  "connection": "E-40's \"Zombie\", featuring Tech N9ne and Brotha Lynch Hung, from The Block Brochure: Welcome to the Soil 2. Its 2012 video shows a zombie invasion; the page we read does not mention the show.",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
   "recommendation": "maybe",
   "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Strange Music: E-40 \"Zombie\" featuring Tech N9ne and Brotha Lynch Hung music video",
+  "source_url": "https://www.strangemusicinc.com/2012/05/tech-n9ne/e-40-zombie-tech-n9ne-and-brotha-lynch-hung-music-video",
   "title": "Zombie",
   "subcategory": "Connection not yet confirmed",
   "sort": "zombie"
@@ -65315,6 +65447,18 @@
   "subcategory": "Songs about or titled after the show",
   "sort": "hotel california"
  },
+ "songs/echoberyl-twilight-zone": {
+  "connection": "A track from Echoberyl's album Through the Chaos, released on 3 May 2024 (the vinyl edition is from Icy Cold Records).",
+  "tier": "tangential",
+  "tier_reason": "A song that names or borrows from the show.",
+  "recommendation": "include",
+  "reason": "A sourced lyric or title reference; fits a list of songs that name the show.",
+  "source_title": "Bandcamp: Echoberyl, \"Twilight Zone\"",
+  "source_url": "https://echoberyl.bandcamp.com/track/twilight-zone",
+  "title": "Twilight Zone",
+  "subcategory": "Lyrics that mention the show",
+  "sort": "twilight zone"
+ },
  "songs/el-p-how-to-serve-man-the-meanest-things-id-never-say": {
   "connection": "The song title twists the episode's infamous cookbook title, in keeping with El-P's habit of mining science-fiction for imagery.",
   "tier": "tangential",
@@ -65328,11 +65472,11 @@
   "sort": "how to serve man the meanest things id never say"
  },
  "songs/electrik-emblem-is-this-the-twilight-zone": {
-  "connection": "A song by Electrik Emblem whose title borrows the show's name.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Is This The Twilight Zone",
@@ -65400,13 +65544,13 @@
   "sort": "i want an alien for christmas"
  },
  "songs/freedom-fry-mr-nobody": {
-  "connection": "A song by Freedom Fry listed in the original research with no stated Twilight Zone connection.",
+  "connection": "A single by Freedom Fry featuring A-F-R-O, released on 18 February 2022.",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
   "recommendation": "maybe",
   "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Bandcamp: Freedom Fry, \"Mr. Nobody\"",
+  "source_url": "https://freedomfry.bandcamp.com/album/mr-nobody",
   "title": "Mr. Nobody",
   "subcategory": "Connection not yet confirmed",
   "sort": "mr nobody"
@@ -65508,13 +65652,13 @@
   "sort": "monsters are due on maple street"
  },
  "songs/huycat-supernatural": {
-  "connection": "A song by Huycat listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Huycat released \"Supernatural\" as a single in 2024.",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
   "recommendation": "maybe",
   "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Apple Music: Huycat, Play Dead",
+  "source_url": "https://music.apple.com/ae/album/play-dead/1585850218",
   "title": "Supernatural",
   "subcategory": "Connection not yet confirmed",
   "sort": "supernatural"
@@ -65567,12 +65711,24 @@
   "subcategory": "Other references and samples",
   "sort": "twilight zone"
  },
- "songs/j-rock-fake-newz": {
-  "connection": "A song by J Rock listed in the original research with no stated Twilight Zone connection.",
+ "songs/ivan-campo-and-when-the-sky-was-opened": {
+  "connection": "A single titled after a first-season episode, from an album called The Twilight Zone (Bandcamp).",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "The tie rests on the titles; the page does not mention the series.",
+  "recommendation": "include",
+  "reason": "Both titles point to the show; marked as our reading, and fan votes can flag it.",
+  "source_title": "Bandcamp: Ivan Campo, \"And When the Sky Was Opened\"",
+  "source_url": "https://ivancampo.bandcamp.com/track/and-when-the-sky-was-opened",
+  "title": "And When the Sky Was Opened",
+  "subcategory": "Songs about or titled after the show",
+  "sort": "and when the sky was opened"
+ },
+ "songs/j-rock-fake-newz": {
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
+  "tier": "tangential",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Fake Newz",
@@ -65616,11 +65772,11 @@
   "sort": "ending"
  },
  "songs/james-k-agostino-something-so-strange": {
-  "connection": "A song by James K. Agostino listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Something so Strange",
@@ -65652,11 +65808,11 @@
   "sort": "if you leave me tonight ill cry"
  },
  "songs/jim-cooney-in-the-zone": {
-  "connection": "A song by Jim Cooney whose title borrows the show's name.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "In The Zone",
@@ -65664,11 +65820,11 @@
   "sort": "in the zone"
  },
  "songs/jim-kroft-gravitys-gone": {
-  "connection": "A song by Jim Kroft listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Gravity's Gone",
@@ -65676,13 +65832,13 @@
   "sort": "gravitys gone"
  },
  "songs/joe-goodson-on-my-own": {
-  "connection": "A song by Joe Goodson listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Joe Goodson released \"On My Own\" as a single in 2023.",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
   "recommendation": "maybe",
   "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Apple Music: Joe Goodson",
+  "source_url": "https://music.apple.com/pl/artist/joe-goodson/1606419038",
   "title": "On My Own",
   "subcategory": "Connection not yet confirmed",
   "sort": "on my own"
@@ -65712,11 +65868,11 @@
   "sort": "sleeping man"
  },
  "songs/jolaade-the-21st-century-holiday-hotel": {
-  "connection": "A song by Jolaade listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "The 21st Century Holiday Hotel",
@@ -65724,11 +65880,11 @@
   "sort": "000021st century holiday hotel"
  },
  "songs/jona-inception": {
-  "connection": "A song by Jona listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Inception",
@@ -65784,11 +65940,11 @@
   "sort": "seer the poet"
  },
  "songs/king-tune-twilight-zone": {
-  "connection": "A song by King Tune whose title borrows the show's name.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Twilight Zone",
@@ -65832,11 +65988,11 @@
   "sort": "twilight zone"
  },
  "songs/ky-armani-twilight-zone": {
-  "connection": "A song by Ky Armani whose title borrows the show's name.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Twilight Zone",
@@ -65856,11 +66012,11 @@
   "sort": "twilight zone"
  },
  "songs/lacobra-superstition": {
-  "connection": "A song by Lacobra listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Superstition",
@@ -65868,11 +66024,11 @@
   "sort": "superstition"
  },
  "songs/larry-zanier-twilight-zone-movie": {
-  "connection": "A song by Larry Zanier whose title borrows the show's name.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Twilight Zone Movie",
@@ -65880,23 +66036,23 @@
   "sort": "twilight zone movie"
  },
  "songs/levana-twilight-zone": {
-  "connection": "A song by Levana whose title borrows the show's name.",
+  "connection": "Levana's \"Twilight Zone\", released as a single in 2024.",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
   "recommendation": "maybe",
   "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Apple Music: Levana",
+  "source_url": "https://music.apple.com/us/artist/levana/1713065564",
   "title": "Twilight Zone",
   "subcategory": "Connection not yet confirmed",
   "sort": "twilight zone"
  },
  "songs/lilace-black-man": {
-  "connection": "A song by LilAce listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Black Man",
@@ -65904,11 +66060,11 @@
   "sort": "black man"
  },
  "songs/lilies-of-megiddo-welcome-to-the-zone": {
-  "connection": "A song by Lilies of Megiddo whose title borrows the show's name.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Welcome to the Zone",
@@ -65938,6 +66094,18 @@
   "title": "Living Alone",
   "subcategory": "Lyric mentions (the show)",
   "sort": "living alone"
+ },
+ "songs/luke-ski-the-twilight-zone": {
+  "connection": "A parody of Golden Earring's \"Twilight Zone\" rewritten about the 1959 series, naming Serling and characters (Bandcamp).",
+  "tier": "core",
+  "tier_reason": "Written about the series itself.",
+  "recommendation": "include",
+  "reason": "The artist's Bandcamp page says what the song is about and gives full credits.",
+  "source_title": "Bandcamp: the great Luke Ski, \"The Twilight Zone\" (Needlessly Meta)",
+  "source_url": "https://lukeski.bandcamp.com/track/the-twilight-zone-2",
+  "title": "The Twilight Zone",
+  "subcategory": "Songs about or titled after the show",
+  "sort": "twilight zone"
  },
  "songs/lupe-fiasco-twilight-zone": {
   "connection": "The Chicago rapper's track takes the series' name for its title; it is catalogued on both WhoSampled and the Lupe Fiasco fan wiki.",
@@ -66012,11 +66180,11 @@
   "sort": "threatened"
  },
  "songs/mila-jam-twilight-zone": {
-  "connection": "A song by Mila Jam whose title borrows the show's name.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Twilight Zone",
@@ -66156,11 +66324,11 @@
   "sort": "time enough at last"
  },
  "songs/new-world-revolution-reality": {
-  "connection": "A song by New World Revolution listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Reality",
@@ -66168,11 +66336,11 @@
   "sort": "reality"
  },
  "songs/nmsxs-lo-fi-sci-fi": {
-  "connection": "A song by NMSXS listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Lo-Fi Sci-Fi",
@@ -66192,11 +66360,11 @@
   "sort": "to serve man"
  },
  "songs/paleshifter-overthinker": {
-  "connection": "A song by Paleshifter listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Overthinker",
@@ -66204,11 +66372,11 @@
   "sort": "overthinker"
  },
  "songs/paul-wilcock-i-heard-a-noise-downstairs": {
-  "connection": "A song by Paul Wilcock listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "I Heard a Noise Downstairs",
@@ -66216,16 +66384,16 @@
   "sort": "i heard a noise downstairs"
  },
  "songs/peboop-jimdog-the-peboop-dance": {
-  "connection": "A song by Peboop Jimdog listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Released by Peeboop Jimdog as a single in 2021 (the earlier list spelled it \"Peboop\").",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
   "recommendation": "maybe",
   "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
-  "title": "The Peboop Dance",
+  "source_title": "Apple Music: Peeboop Jimdog",
+  "source_url": "https://music.apple.com/us/artist/peeboop-jimdog/1591313039",
+  "title": "The Peeboop Dance",
   "subcategory": "Connection not yet confirmed",
-  "sort": "peboop dance"
+  "sort": "peeboop dance"
  },
  "songs/pendulum-axle-grinder": {
   "connection": "The Australian drum and bass act opens the track with audio from a Twilight Zone introduction.",
@@ -66240,11 +66408,11 @@
   "sort": "axle grinder"
  },
  "songs/polarboy-impact": {
-  "connection": "A song by POLARBOY listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "IMPACT",
@@ -66276,13 +66444,13 @@
   "sort": "nightmare at 000020000000 feet"
  },
  "songs/quinston-pugh-the-twilight-zone": {
-  "connection": "A song by Quinston Pugh whose title borrows the show's name.",
+  "connection": "Quinston Pugh's six-song EP The Twilight Zone came out on 15 December 2020.",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
   "recommendation": "maybe",
   "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Apple Music: Quinston Pugh, The Twilight Zone - EP",
+  "source_url": "https://music.apple.com/us/album/the-twilight-zone-ep/1545211832",
   "title": "The Twilight Zone",
   "subcategory": "Connection not yet confirmed",
   "sort": "twilight zone"
@@ -66348,15 +66516,15 @@
   "sort": "twilight zone tower of terror theme"
  },
  "songs/rise-from-your-grave-the-twilight-zone": {
-  "connection": "A song by Rise From Your Grave whose title borrows the show's name.",
-  "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
-  "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
-  "source_title": "",
-  "source_url": "",
+  "connection": "A song about the show: the refrain names it and a verse is set on Maple Street (Bandcamp lyrics).",
+  "tier": "core",
+  "tier_reason": "Written about the series itself.",
+  "recommendation": "include",
+  "reason": "Lyrics and credits on the band's own Bandcamp page confirm it.",
+  "source_title": "Bandcamp: Rise From Your Grave, Tales of Terror",
+  "source_url": "https://risefromyourgrave.bandcamp.com/album/tales-of-terror",
   "title": "The Twilight Zone",
-  "subcategory": "Connection not yet confirmed",
+  "subcategory": "Songs about or titled after the show",
   "sort": "twilight zone"
  },
  "songs/rockwell-somebodys-watching-me": {
@@ -66431,12 +66599,24 @@
   "subcategory": "Songs about or titled after the show",
   "sort": "twilight zone"
  },
+ "songs/s-g-smitty-the-twilight-zone": {
+  "connection": "An instrumental album built from samples of the original series, with tracks named for episodes (Bandcamp).",
+  "tier": "core",
+  "tier_reason": "Made from the series' own sound.",
+  "recommendation": "include",
+  "reason": "The page states the samples come only from the original series; a free fan release, linked not hosted.",
+  "source_title": "Bandcamp: S.G. Smitty / Steven Keith, The Twilight Zone",
+  "source_url": "https://serling.bandcamp.com/album/the-twilight-zone",
+  "title": "The Twilight Zone",
+  "subcategory": "Songs about or titled after the show",
+  "sort": "twilight zone"
+ },
  "songs/sahera-alien-love": {
-  "connection": "A song by Sahera listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Alien Love",
@@ -66444,11 +66624,11 @@
   "sort": "alien love"
  },
  "songs/sci-fi-godfather-twilight-zone": {
-  "connection": "A song by Sci-Fi Godfather whose title borrows the show's name.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Twilight Zone",
@@ -66708,11 +66888,11 @@
   "sort": "action"
  },
  "songs/solo-jones-dimensions-i": {
-  "connection": "A song by Solo Jones listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Dimensions I",
@@ -66720,13 +66900,13 @@
   "sort": "dimensions i"
  },
  "songs/sophie-naglik-twilight-zone": {
-  "connection": "A song by Sophie Naglik whose title borrows the show's name.",
+  "connection": "Sophie Naglik's \"Twilight Zone\", released as a single in 2025.",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
   "recommendation": "maybe",
   "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Apple Music: Sophie Naglik",
+  "source_url": "https://music.apple.com/us/artist/sophie-naglik/1393563049",
   "title": "Twilight Zone",
   "subcategory": "Connection not yet confirmed",
   "sort": "twilight zone"
@@ -66756,13 +66936,13 @@
   "sort": "mystical powerzz"
  },
  "songs/spoken-nerd-tokens": {
-  "connection": "A song by Spoken Nerd listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Track 6 of GRAPES by Spoken Nerd and Juan Cosby, released on Bandcamp on 8 October 2021.",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
   "recommendation": "maybe",
   "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Bandcamp: Spoken Nerd, GRAPES",
+  "source_url": "https://spokennerd.bandcamp.com/album/grapes",
   "title": "Tokens",
   "subcategory": "Connection not yet confirmed",
   "sort": "tokens"
@@ -66852,11 +67032,11 @@
   "sort": "talking tina"
  },
  "songs/the-effex-twilight-zone": {
-  "connection": "A song by The Effex whose title borrows the show's name.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Twilight Zone",
@@ -66876,23 +67056,23 @@
   "sort": "time enough at last"
  },
  "songs/the-gubs-twilight-zone": {
-  "connection": "A song by The Gubs whose title borrows the show's name.",
+  "connection": "The refrain names the Twilight Zone and the singer imagines a bit part in an episode (Bandcamp lyrics).",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
-  "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
-  "source_title": "",
-  "source_url": "",
+  "tier_reason": "Names the show in passing.",
+  "recommendation": "include",
+  "reason": "Lyrics read on the band's Bandcamp page.",
+  "source_title": "Bandcamp: The Gubs, The GUBS",
+  "source_url": "https://thegubs.bandcamp.com/album/the-gubs",
   "title": "Twilight Zone",
-  "subcategory": "Connection not yet confirmed",
+  "subcategory": "Lyrics that mention the show",
   "sort": "twilight zone"
  },
  "songs/the-ideals-twilight-zone": {
-  "connection": "A song by The Ideals whose title borrows the show's name.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Twilight Zone",
@@ -66900,11 +67080,11 @@
   "sort": "twilight zone"
  },
  "songs/the-limes-zwilight-zone": {
-  "connection": "A song by The Limes whose title borrows the show's name.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Zwilight Zone",
@@ -66984,11 +67164,11 @@
   "sort": "document grace budd"
  },
  "songs/the-revenants-higher": {
-  "connection": "A song by The Revenants listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Higher",
@@ -66996,11 +67176,11 @@
   "sort": "higher"
  },
  "songs/the-roots-new-years-eve-polka-5-4-3-2-1": {
-  "connection": "A song by The Roots listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "New Year's Eve Polka (5-4-3-2-1)",
@@ -67008,27 +67188,27 @@
   "sort": "new years eve polka 000005000004000003000002000001"
  },
  "songs/the-rudy-schwartz-project-wailin-jack": {
-  "connection": "A song by The Rudy Schwartz Project listed in the original research with no stated Twilight Zone connection.",
+  "connection": "A track on The Rudy Schwartz Project's album Bowling for Appliances (2008).",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
   "recommendation": "maybe",
   "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Spotify: The Rudy Schwartz Project, \"Wailin' Jack\"",
+  "source_url": "https://open.spotify.com/track/0GuPSaRSuQdfsr2SocHxPk",
   "title": "Wailin' Jack",
   "subcategory": "Connection not yet confirmed",
   "sort": "wailin jack"
  },
  "songs/the-strange-hours-mist-of-mystery-where-the-waters-mingle": {
-  "connection": "A song by The Strange Hours listed in the original research with no stated Twilight Zone connection.",
+  "connection": "A track by The Strange Hours, the Columbus, Ohio music project of Jeremy Rubinow, on the album Epoch of Cryptids.",
   "tier": "tangential",
   "tier_reason": "A song that names or borrows from the show.",
   "recommendation": "maybe",
   "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Bandcamp: The Strange Hours, Epoch of Cryptids",
+  "source_url": "https://thestrangehours.bandcamp.com/album/epoch-of-cryptids",
   "title": "Mist of Mystery (Where the Waters Mingle)",
-  "subcategory": "Connection not yet confirmed",
+  "subcategory": "Lyrics that mention the show",
   "sort": "mist of mystery where the waters mingle"
  },
  "songs/the-ventures-the-twilight-zone": {
@@ -67116,23 +67296,23 @@
   "sort": "get loose"
  },
  "songs/warren-haynes-twilight-zone": {
-  "connection": "A song by Warren Haynes whose title borrows the show's name.",
-  "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
-  "recommendation": "maybe",
-  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
-  "source_title": "",
-  "source_url": "",
+  "connection": "A cover of Golden Earring's \"Twilight Zone\" on William Shatner's Seeking Major Tom (2011); Shatner starred in two episodes.",
+  "tier": "related",
+  "tier_reason": "A Twilight Zone actor's recording of a song named after the show.",
+  "recommendation": "include",
+  "reason": "Wikipedia's track list and the MuzText lyric page confirm the recording.",
+  "source_title": "Wikipedia: Seeking Major Tom",
+  "source_url": "https://en.wikipedia.org/wiki/Seeking_Major_Tom",
   "title": "Twilight Zone",
-  "subcategory": "Connection not yet confirmed",
+  "subcategory": "Songs about or titled after the show",
   "sort": "twilight zone"
  },
  "songs/wc-put-on-tha-set": {
-  "connection": "A song by WC listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Put On Tha Set",
@@ -67140,11 +67320,11 @@
   "sort": "put on tha set"
  },
  "songs/witheren-never-been-easier": {
-  "connection": "A song by Witheren listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Never Been Easier",
@@ -67152,11 +67332,11 @@
   "sort": "never been easier"
  },
  "songs/wolf-new-year-th-ngs": {
-  "connection": "A song by Wolf listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "New Year Th!ngs",
@@ -67200,11 +67380,11 @@
   "sort": "do what you do"
  },
  "songs/z-channel-who-knows": {
-  "connection": "A song by Z Channel listed in the original research with no stated Twilight Zone connection.",
+  "connection": "Listed in the original research with no stated connection; no trace of the song was found on 2026-11-24.",
   "tier": "tangential",
-  "tier_reason": "A song that names or borrows from the show.",
+  "tier_reason": "Connection unknown.",
   "recommendation": "maybe",
-  "reason": "From your original song list, but the reference (probably a passing lyric line) has not been found yet. Include it if you remember why you added it.",
+  "reason": "Kept, marked \"Not yet confirmed\", as agreed in Music plan Q6; fan votes or a later pass may settle it.",
   "source_title": "",
   "source_url": "",
   "title": "Who Knows",

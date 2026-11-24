@@ -1,9 +1,21 @@
 title: Mr. Nobody
-artist: Freedom Fry
+artist: Freedom Fry featuring A-F-R-O
+year: 2022
 tz_connection: unclassified
-sources:
-- title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+description: A single by Freedom Fry featuring A-F-R-O, released on 18 February 2022. The song exists, but its lyrics were
+  not available to read, so its Twilight Zone tie is not yet confirmed.
 research_confidence: low
-description: A song by Freedom Fry listed in the original research with no stated Twilight Zone connection. The
-  tie is probably a lyric line or sample, but it has not been verified.
+tags:
+- needs-lyric-check
+- research-2026-11-24
+sources:
+- title: 'Bandcamp: Freedom Fry, "Mr. Nobody"'
+  url: https://freedomfry.bandcamp.com/album/mr-nobody
+  publisher: Bandcamp
+  note: No lyrics on the page.
+- title: 'Spotify: Freedom Fry, A-F-R-O, "Mr. Nobody"'
+  url: https://open.spotify.com/track/7HhN2G6NQBmGHeCCd6sFL0
+  publisher: Spotify
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-24'

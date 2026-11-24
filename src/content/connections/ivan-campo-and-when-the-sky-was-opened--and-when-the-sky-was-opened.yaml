@@ -1,0 +1,12 @@
+from: songs/ivan-campo-and-when-the-sky-was-opened
+to: 1959/and-when-the-sky-was-opened
+kind: reference
+confidence: fan-noted
+evidence: The single shares the episode's title and comes from an album called The Twilight Zone; the artist's page does
+  not mention the series.
+sources:
+- title: 'Bandcamp: Ivan Campo, "And When the Sky Was Opened"'
+  url: https://ivancampo.bandcamp.com/track/and-when-the-sky-was-opened
+  publisher: Bandcamp
+  note: Page read 2026-11-24; description only, no lyrics.
+last_verified: '2026-11-24'

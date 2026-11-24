@@ -3,6 +3,28 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Music research round 1: the unchecked songs, checked
+
+Of the 62 songs listed as "Connection not yet confirmed", eight now say how they connect to the show, with a link to the page we read:
+- Billy Creepshow's "In The Twilight Zone" and Rise From Your Grave's "The Twilight Zone" are songs about the show. Billy Creepshow's lyrics name six episodes, and those episodes now link back to the song.
+- "Twilight Zone" turns out to be a cover of Golden Earring's song on Seeking Major Tom (2011), the album by William Shatner, who starred in two episodes.
+- The Gubs name the show in their lyrics.
+- Four songs use only the everyday phrase.
+
+Fourteen more songs are confirmed to exist, with their albums and years. The other 38 are marked with what was searched. Six songs found along the way are added:
+- the great Luke Ski's parody about the 1959 series.
+- S.G. Smitty's album built from the series' own sound.
+- Covert Flops' "The Midnight Sun", based on the episode.
+- Ivan Campo's "And When the Sky Was Opened".
+- Two songs that use only the phrase.
+
+The Music plan (six shelves, six questions) is approved and is in docs/plans/research-music.md.
+
+**Known not to work yet:**
+- The songs still sit on the old shelves until the structure step.
+- 52 songs are still unconfirmed.
+- The full list of covers of the theme is still missing, because SecondHandSongs could not be read.
+
 ## 2026-11-24 — Stage: five shelves, a page for Washburn's play, and "On stage" on the episodes
 
 Stage now has the five shelves of its plan. **The Twilight Zone, the play** opens with Anne Washburn's play, whose page

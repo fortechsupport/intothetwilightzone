@@ -1,9 +1,18 @@
 title: S.T.R.A.N.G.E.
 artist: ASD Band
+album: Almost Flawlss
+year: 2025
 tz_connection: unclassified
-sources:
-- title: IntoTheTwilightZone research spreadsheets
-  note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+description: A 2025 single by ASD Band, also on their album Almost Flawlss (2025). The song exists, but its lyrics were
+  not available to read, so its Twilight Zone tie is not yet confirmed.
 research_confidence: low
-description: A song by ASD Band listed in the original research with no stated Twilight Zone connection. The tie
-  is probably a lyric line or sample, but it has not been verified.
+tags:
+- needs-lyric-check
+- research-2026-11-24
+sources:
+- title: 'Apple Music: ASD Band'
+  url: https://music.apple.com/us/artist/asd-band/1534957268
+  publisher: Apple Music
+- title: IntoTheTwilightZone research spreadsheets
+  note: Imported from Adam's research spreadsheets; listed there without a stated connection.
+last_verified: '2026-11-24'
