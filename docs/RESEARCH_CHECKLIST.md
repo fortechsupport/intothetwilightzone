@@ -61,8 +61,8 @@ first because everything else links to it.
 | 8 | Listen: Podcasts | Done 2026-11-24: three shelves (no official podcast found), 3,323 episodes in one searchable table. |
 | 9 | Watch: Stage | Done 2026-11-24: five shelves and the play page. |
 | 10 | Play: Games | Done 2026-11-24: five shelves, one shelf per record, five duplicates merged. |
-| 11 | Collect: Artwork | Thin in prints, cover artists and title design. |
-| 12 | Collect: Merchandise | Home video has only 2 records; "Other merchandise" (33) needs splitting. |
+| 11 | Collect: Artwork | Done 2026-11-24: one shelf per record, every print's licence checked; Night Gallery paintings still thin. |
+| 12 | Collect: Merchandise | Done 2026-11-24: one shelf per record, "Other merchandise" emptied, 60 home video releases by show. |
 | 13 | Attend: Events | "Other events" holds 39 records that are really history milestones. |
 | 14 | Attend: Lectures and talks | Partial; leads listed. |
 | 15 | Discover: History | Rebuilt overnight; needs a date-check and the timeline gaps. |
@@ -250,37 +250,39 @@ FX VR (3 April 2025); no Atari ST version found; Hellbreak has no Twilight Zone 
 ## 5. Collect
 
 ### Artwork
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [x] Researched · [x] Records decided · [x] Pages built (2026-11-24, overnight, plan
+  docs/plans/research-collect.md)
 
-| Subcategory | Records (Off / Unoff) | Depth |
-|---|---:|---|
-| Art and illustration | 15 (1 / 14) | Thin |
-| Cover art *(new)* | 14 (14 / 0) | Thin |
-| Make-up and production design *(new)* | 6 (6 / 0) | Thin |
-| Night Gallery paintings *(new)* | 12 (12 / 0) | Partial |
-| Posters and key art | 19 (18 / 1) | Partial |
-| Props and costumes *(new)* | 9 (9 / 0) | Partial |
-| Title design | 6 (6 / 0) | Partial |
+| Subcategory | Depth |
+|---|---|
+| Posters, key art and prints | Deep: licence checked for every print |
+| Title design | Partial |
+| Cover and comic art *(new)* | Partial |
+| Night Gallery paintings *(new)* | Thin: 8 paintings |
+| Make-up and production design *(new)* | Partial |
+| Props and costumes *(new)* | Partial |
+| Art and illustration | Partial |
 
-**Known gaps:** 1983 poster artist; 2002 and 1983 title designers; Serling statue sculptor; screen prints (Mondo and others) unconfirmed; Rittenhouse sketch-card artists; storyboards.
-**Likely missing:** every Night Gallery painting (each segment was introduced by one, so far more than 12 exist), every Gold Key and magazine cover as artwork, set and costume designs.
+Gallery shows moved to Events > Exhibitions. **Known gaps:** every Night Gallery painting by segment; 1983 poster
+artist; 2002 and 1983 title designers; Serling statue sculptor; Rittenhouse sketch-card artists; storyboards.
 
 ### Merchandise
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [x] Researched · [x] Records decided · [x] Pages built (2026-11-24, overnight, plan
+  docs/plans/research-collect.md)
 
-| Subcategory | Records (all official) | Depth |
-|---|---:|---|
-| Toys and figures | 41 | Partial |
-| Other merchandise | 33 | Partial: needs splitting |
-| Collectibles | 21 | Partial |
-| Household and apparel | 10 | Thin |
-| Prop replicas *(new)* | 7 | Partial |
-| Trading cards | 7 | Partial |
-| Masks and costumes | 5 | Thin |
-| Home video and streaming | 2 | Thin: releases are described inside series records, not listed |
+| Subcategory | Depth |
+|---|---|
+| Toys and figures | Partial |
+| Prop replicas *(new)* | Partial |
+| Trading cards | Partial |
+| Masks and costumes | Partial |
+| Household and apparel | Partial |
+| Collectibles and souvenirs | Partial |
+| Home video | Deep: 60 entries from the series and film pages |
 
-**Known gaps:** Sideshow release years; Rittenhouse signer lists; 1980s VHS (CBS/Fox, Columbia House) and laserdiscs unconfirmed; Hallmark ornaments other than 2009.
-**Likely missing:** every home video release as its own record (VHS, laserdisc, DVD, Blu-ray, by country); merchandise for the 1985 and 2019 series; unlicensed items (Adam to decide whether to include).
+"Other merchandise" emptied: its book, music, radio, podcast, advertising and home video records moved where they
+belong. **Known gaps:** Sideshow release years; Rittenhouse signer lists; 1985 series and 1983 film on VHS and
+laserdisc; merchandise for the 1985 and 2019 series; licences for Middle of Beyond, 80sTees and Phantom City.
 
 ---
 

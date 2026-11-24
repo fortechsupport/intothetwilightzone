@@ -27,6 +27,18 @@ export const MUSIC_GROUPS = ['The Twilight Zone (1959)', 'Night Gallery', 'Twili
 
 // Podcasts (docs/plans/research-podcasts.md, section 2): shelf B is grouped by what a podcast covers, shelf C by
 // the subject of the episode, both in this fixed order.
+/** Home video groups, in the order the shows were made (Collect plan, section 2). */
+export const HOME_VIDEO_GROUPS = ['The Twilight Zone (1959)', 'Night Gallery', 'Twilight Zone: The Movie (1983)', 'The Twilight Zone (1985)', 'The Twilight Zone (2002)', 'The Twilight Zone (2019)'];
+export function homeVideoShow(title) {
+  const t = String(title ?? '');
+  if (/night gallery/i.test(t)) return 'Night Gallery';
+  if (/the movie/i.test(t)) return 'Twilight Zone: The Movie (1983)';
+  if (/2019/.test(t)) return 'The Twilight Zone (2019)';
+  if (/2002/.test(t)) return 'The Twilight Zone (2002)';
+  if (/80s|1985|new twilight zone/i.test(t)) return 'The Twilight Zone (1985)';
+  return 'The Twilight Zone (1959)';
+}
+const TOY_MAKER = (id, pub) => (/^bif-bang-pow|bif bang pow/.test(`${id} ${pub}`) ? 'Bif Bang Pow!' : /sideshow/.test(pub) ? 'Sideshow' : /funko/.test(pub) ? 'Funko' : 'Other makers');
 export const PODCAST_GROUPS = ['The Twilight Zone (1959)', 'More than one Twilight Zone series', 'The Twilight Zone (1985)', 'The Twilight Zone (2019)', 'Night Gallery', 'Recurring segments in other podcasts', 'Coverage not yet recorded'];
 export const PODCAST_SUBJECTS = { show: 'The show', serling: 'Rod Serling', 'film-1983': 'Twilight Zone: The Movie and the accident', 'night-gallery': 'Night Gallery', 'revival-2019': 'The 2019 series' };
 const TZ_SERIES = ['1959', '1985', '2002', '2019'];
@@ -326,15 +338,17 @@ export const TAXONOMY = [
       "The show's look is part of its legend: the drifting eye, window and clock of the opening titles, William Tuttle's make-up, the paintings Serling stood beside in Night Gallery, the key art of the 1983 film, Gold Key's painted comic covers, and decades of posters and gallery work by artists who grew up with it.",
       'Artwork is both a category and content. Every piece is listed here, and a cover also shows on the comic or magazine it covers, a poster on the film it advertised.',
     ],
-    connection: 'Official artwork was made for the franchise: posters, title design, Night Gallery\'s paintings, licensed covers, make-up and props. Unofficial artwork takes the show as its subject. Cover art also appears on the comic, magazine or book it covers.',
+    connection: 'Official artwork was made for the franchise or under its licence: posters, title design, Night Gallery\'s paintings, licensed covers and prints, make-up and props. Unofficial artwork takes the show as its subject; a print is listed as official only where a source says it was licensed. Cover art also appears on the comic, magazine or book it covers.',
+    // Collect plan (docs/plans/research-collect.md, section 2): one shelf per record, chosen by subtype.
+    seeAlso: [['Art exhibitions', '/events/exhibitions/'], ['Licensed replicas and merchandise', '/merchandise/']],
     subs: [
-      { slug: 'art-illustration', title: 'Art and illustration', blurb: 'Paintings, illustration and artists inspired by the show.' },
-      { slug: 'covers', title: 'Cover art', isNew: true, blurb: 'Cover art for comics, magazines, books and records. Each cover also appears on the item it covers.' },
-      { slug: 'night-gallery-paintings', title: 'Night Gallery paintings', isNew: true, blurb: 'The paintings Serling introduced each Night Gallery story with.' },
-      { slug: 'production-design', title: 'Make-up and production design', isNew: true, blurb: 'Make-up, masks, sets and effects design from the productions.' },
-      { slug: 'props-costumes', title: 'Props and costumes', isNew: true, blurb: 'Surviving props and costumes, where they are now, and what they sold for.', intro: 'Some of the original series\' props have survived the decades since MGM cleared its prop rooms, among them the Mystic Seer fortune-telling machine from "Nick of Time", which has sold at auction. Others sit in museums and private collections. Each entry says what is known about a piece and where the claim comes from. Licensed replicas are under Merchandise.' },
+      { slug: 'art-illustration', title: 'Art and illustration', blurb: 'Artists and works inspired by the show, and art made for the revival\'s campaigns.' },
+      { slug: 'covers', title: 'Cover and comic art', isNew: true, groups: ['Comics', 'Magazines'], blurb: 'Covers and interior art for the comics and magazines. Each cover also appears on the item it covers.' },
+      { slug: 'night-gallery-paintings', title: 'Night Gallery paintings', isNew: true, groups: ['The paintings', 'About the paintings'], blurb: 'The paintings Serling introduced each Night Gallery story with, and the book about them.' },
+      { slug: 'production-design', title: 'Make-up and production design', isNew: true, blurb: 'Make-up and effects designs from the productions, above all William Tuttle\'s.' },
+      { slug: 'props-costumes', title: 'Props and costumes', isNew: true, groups: ['Surviving pieces', 'Sold at auction', 'In museums and collections', 'Reused props'], blurb: 'Surviving props, costumes, make-up pieces, paintings and scripts: where they are now and what they sold for.', intro: 'Some of the original series\' props have survived the decades since MGM cleared its prop rooms, among them the Mystic Seer fortune-telling machine from "Nick of Time", which has sold at auction. Others sit in museums and private collections. Each entry says what is known about a piece and where the claim comes from. Licensed replicas are under Merchandise.' },
       { slug: 'other-artwork', title: 'Other artwork', blurb: 'Artwork that fits no other group.' },
-      { slug: 'posters-key-art', title: 'Posters and key art', blurb: 'Official posters, key art and print art.' },
+      { slug: 'posters-key-art', title: 'Posters, key art and prints', groups: ['Posters and key art', 'Art prints'], blurb: 'Studio posters and key art, and art prints of the show. A print is official where a source says it was licensed.' },
       { slug: 'title-design', title: 'Title design', blurb: 'The opening title sequences.' },
     ],
   },
@@ -372,15 +386,17 @@ export const TAXONOMY = [
       'Licensed Twilight Zone products run from 1960s board games to Talky Tina replicas, Bif Bang Pow! bobbleheads, Rittenhouse trading cards, and a long line of home video releases: VHS and laserdisc collections, the Definitive Edition DVDs, and the remastered Blu-ray sets.',
       'This is a reference catalogue: nothing here is for sale, and licensed and unlicensed items are labelled.',
     ],
-    connection: 'Each item is an official Twilight Zone product, a release of the series or films, or an item clearly labelled as unlicensed.',
+    connection: 'Each item is a Twilight Zone product or a release of the series and films. It is official where the rights holders made it or a source states a licence; otherwise it is under "Unofficial and inspired", with what is known.',
+    // Collect plan (docs/plans/research-collect.md, section 2): one shelf per record, chosen by subtype.
+    seeAlso: [['Props, posters and other artwork', '/artwork/'], ['Games', '/games/']],
     subs: [
-      { slug: 'collectibles', title: 'Collectibles', blurb: 'Replicas, stamps and other memorabilia.' },
-      { slug: 'home-media', title: 'Home video and streaming', blurb: 'VHS, laserdisc, DVD, Blu-ray and streaming releases.' },
-      { slug: 'household-apparel', title: 'Household and apparel', blurb: 'Clothing, homewares and everyday goods.' },
-      { slug: 'masks-and-costumes', title: 'Masks and costumes', blurb: 'Licensed masks and costumes to wear.' },
+      { slug: 'collectibles', title: 'Collectibles and souvenirs', groups: ['Tower of Terror souvenirs', 'Sheet music', 'Other collectibles'], blurb: 'Tin totes, wooden figure sets, sheet music and Tower of Terror souvenirs.' },
+      { slug: 'home-media', title: 'Home video', groups: HOME_VIDEO_GROUPS, blurb: 'Every VHS, laserdisc, DVD and Blu-ray release of the series and films.', intro: 'Every VHS, laserdisc, DVD and Blu-ray release recorded on the series and film pages is listed here under its show, with a link to the release table on that page and its sources. A few releases also have a record of their own, with reviews, extras and where copies are held.' },
+      { slug: 'household-apparel', title: 'Household and apparel', groups: ['Clothing', 'Mugs and drinkware', 'Pins, decals and ornaments'], blurb: 'Clothing, mugs, pins, decals and ornaments.' },
+      { slug: 'masks-and-costumes', title: 'Masks and costumes', blurb: 'Masks and costumes to wear.' },
       { slug: 'other-merchandise', title: 'Other merchandise', blurb: 'Products that fit no other group.' },
-      { slug: 'replicas', title: 'Prop replicas', isNew: true, blurb: 'Licensed replicas of props such as Talky Tina and the Mystic Seer.' },
-      { slug: 'toys-figures', title: 'Toys and figures', blurb: 'Action figures, bobbleheads and vinyl figures.' },
+      { slug: 'replicas', title: 'Prop replicas', isNew: true, blurb: 'Replicas of props such as Talky Tina and the Mystic Seer.' },
+      { slug: 'toys-figures', title: 'Toys and figures', groups: ['Bif Bang Pow!', 'Sideshow', 'Funko', 'Other makers'], blurb: 'Action figures, bobbleheads, vinyl figures and building sets.' },
       { slug: 'trading-cards', title: 'Trading cards', blurb: 'Card sets and inserts.' },
     ],
   },
@@ -684,6 +700,14 @@ export function contentOf(col, d) {
   // A page about a record elsewhere (a database entry, an official or streaming page, an archive's or
   // foundation's site) is a link on that record, not a website in its own right.
   if (col === 'works' && d.kind === 'link' && /^(database|official|streaming|archive|foundation|museum)$/.test(lc(d.subtype))) return { kind: 'link', label: 'Link' };
+  // Media are never categories (Collect plan, section 2): a radio segment, podcast episode, interview or reference
+  // list about a record attaches to that record and is gathered in the Media Library.
+  if (col === 'works') {
+    const st = lc(d.subtype);
+    if (/^(radio-segment|podcast-episode)$/.test(st)) return { kind: 'audio', label: 'Audio' };
+    if (/^(artist-interview|interview)$/.test(st)) return { kind: 'interview', label: 'Interview' };
+    if (/^(episode-song-list|reference-index)$/.test(st)) return { kind: 'link', label: 'Link' };
+  }
   for (const s of d.categories ?? []) {
     const [cat] = s.split('/');
     if (cat === 'advertising') return { kind: 'ad', label: 'Advertisement' };
@@ -745,7 +769,7 @@ export function place(col, id, d, ctx = {}) {
   const content = contentOf(col, d);
   if (content) {
     // Artwork is both a category and content: a poster is listed under Artwork as well.
-    if (content.kind === 'ad' && /poster|one-sheet|key-art/.test(subtype)) add('artwork', 'posters-key-art');
+    if (content.kind === 'ad' && /poster|one-sheet|key-art/.test(subtype)) add('artwork', 'posters-key-art', 'Posters and key art');
     return out;
   }
 
@@ -923,22 +947,34 @@ function placeWork(d, st, add, id) {
       else if (/board|card|trivia|puzzle/.test(st)) add('games', 'board-card-games', 'Published');
       else add('games', 'other-games');
       return;
-    case 'collectible':
-      if (/replica-prop|replica/.test(st)) add('merchandise', 'replicas');
-      else if (/trading-card|card/.test(st)) add('merchandise', 'trading-cards');
-      else if (/figure|bobblehead|doll|toy/.test(st)) add('merchandise', 'toys-figures');
-      else if (/home-goods|apparel|shirt|mug/.test(st)) add('merchandise', 'household-apparel');
-      else if (/home-video|dvd|blu/.test(st)) add('merchandise', 'home-media');
-      else add('merchandise', 'collectibles');
+    case 'collectible': {
+      // Collect plan (docs/plans/research-collect.md, section 2): one shelf per record, chosen by subtype.
+      const pub = lc(d.publisher);
+      if (/home-video|dvd|blu|laserdisc|vhs/.test(st)) add('merchandise', 'home-media', homeVideoShow(d.title));
+      else if (/replica/.test(st)) add('merchandise', 'replicas');
+      else if (/trading-card/.test(st)) add('merchandise', 'trading-cards');
+      else if (/mask|costume/.test(st)) add('merchandise', 'masks-and-costumes');
+      else if (/figure|bobblehead|doll|toy|diorama|building-set/.test(st)) add('merchandise', 'toys-figures', TOY_MAKER(id, pub));
+      else if (/apparel|shirt|polo/.test(st)) add('merchandise', 'household-apparel', 'Clothing');
+      else if (/mug|drinkware|home-goods/.test(st)) add('merchandise', 'household-apparel', 'Mugs and drinkware');
+      else if (/\bpin\b|enamel-pin|decal|ornament/.test(st)) add('merchandise', 'household-apparel', 'Pins, decals and ornaments');
+      else if (/theme-park/.test(st) || /tower of terror/i.test(d.title ?? '')) add('merchandise', 'collectibles', 'Tower of Terror souvenirs');
+      else if (/sheet-music/.test(st)) add('merchandise', 'collectibles', 'Sheet music');
+      else add('merchandise', 'collectibles', 'Other collectibles');
       return;
+    }
     case 'home-media':
-      add('merchandise', 'home-media', 'Releases');
+      add('merchandise', 'home-media', homeVideoShow(d.title));
       return;
     case 'artwork':
-      if (/poster|key-art|print/.test(st)) add('artwork', 'posters-key-art');
+      if (/gallery-show|exhibition/.test(st)) add('events', 'exhibitions', 'Art exhibitions');
+      else if (/auction/.test(st)) add('artwork', 'props-costumes', 'Sold at auction');
+      else if (/poster|key-art/.test(st)) add('artwork', 'posters-key-art', 'Posters and key art');
+      else if (/print/.test(st)) add('artwork', 'posters-key-art', 'Art prints');
       else if (/title/.test(st)) add('artwork', 'title-design');
-      else if (/cover/.test(st)) add('artwork', 'covers');
-      else if (/night-gallery|painting/.test(st) && /night gallery/i.test(d.title + ' ' + (d.description ?? ''))) add('artwork', 'night-gallery-paintings');
+      else if (/cover|comic-art|magazine-illustration/.test(st)) add('artwork', 'covers', /magazine/.test(st) || /magazine|tv guide/i.test(d.title ?? '') ? 'Magazines' : 'Comics');
+      else if (/night-gallery-painting/.test(st)) add('artwork', 'night-gallery-paintings', 'The paintings');
+      else if (/art-book/.test(st) && /night gallery/i.test(d.title ?? '')) add('artwork', 'night-gallery-paintings', 'About the paintings');
       else if (/make-?up|mask|design|effects/.test(st)) add('artwork', 'production-design');
       else if (st) add('artwork', 'art-illustration');
       else add('artwork', 'other-artwork');
@@ -1011,7 +1047,7 @@ function placeWork(d, st, add, id) {
     case 'prop':
       if (/collector/.test(st)) add('organizations', 'fan-groups', 'Collectors');
       else if (/make-?up/.test(st)) add('artwork', 'production-design');
-      else add('artwork', 'props-costumes', /auction/.test(st) ? 'Sold at auction' : /museum|collection/.test(st) ? 'In museums and collections' : /reuse/.test(st) ? 'Reused props' : undefined);
+      else add('artwork', 'props-costumes', /auction/.test(st) ? 'Sold at auction' : /museum|collection/.test(st) ? 'In museums and collections' : /reuse/.test(st) ? 'Reused props' : 'Surviving pieces');
       return;
     case 'production':
       add('events', 'production-history');
@@ -1019,7 +1055,13 @@ function placeWork(d, st, add, id) {
     default: // other
       if (/audiobook/.test(st)) add('reading', 'books', 'Audiobooks');
       else if (/language|idiom|phrase/.test(st)) add('homages', 'in-everyday-language', 'Catchphrases and idioms');
-      else if (/prop|costume/.test(st)) add('artwork', 'props-costumes');
+      else if (/prop|costume/.test(st)) add('artwork', 'props-costumes', 'Surviving pieces');
+      // Collect plan, section 2: what used to fall into "Other merchandise" goes where it belongs.
+      else if (/home-video|dvd|blu|laserdisc|vhs/.test(st)) add('merchandise', 'home-media', homeVideoShow(d.title));
+      else if (/script-archive|auction/.test(st)) add('artwork', 'props-costumes', 'Sold at auction');
+      else if (/stock-music-library/.test(st)) add('history', 'production-history');
+      else if (/theme-use/.test(st)) add('homages', 'in-everyday-language', 'The theme as shorthand');
+      else if (st === 'book') add('reading', 'books');
       else if (/dub|international/.test(st)) add('series', 'international');
       else if (/franchise/.test(st)) add('movies', 'rod-serling-films', 'Franchises');
       else add('merchandise', 'other-merchandise');

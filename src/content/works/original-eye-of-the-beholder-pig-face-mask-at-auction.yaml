@@ -10,8 +10,6 @@ details:
   why_it_matters: It is one of the show's most famous makeup effects and is known to survive.
   relates_to:
   - Eye of the Beholder
-categories:
-- props-collecting/auctions
 relevance: core
 sources:
 - title: Gizmodo - Twilight Zone mask from Eye of the Beholder goes up for auction
@@ -23,3 +21,4 @@ sources:
 research_confidence: medium
 last_verified: '2026-11-20'
 locked: true
+duplicate_of: works/eye-of-the-beholder-pig-nose-appliance-prop-store-2018

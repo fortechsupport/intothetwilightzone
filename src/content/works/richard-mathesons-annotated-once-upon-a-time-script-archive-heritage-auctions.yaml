@@ -9,8 +9,6 @@ details:
   why_it_matters: It is an original production document from one of the show's main writers.
   relates_to:
   - Once Upon a Time
-categories:
-- props-collecting/auctions
 relevance: related
 media:
 - type: website
@@ -24,3 +22,4 @@ sources:
 research_confidence: medium
 last_verified: '2026-11-20'
 locked: true
+duplicate_of: works/matheson-once-upon-a-time-script-archive-heritage

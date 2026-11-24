@@ -6,16 +6,16 @@ description: >-
   Zeb Love, an artist from Pittsburgh, made a Twilight Zone print that 1xRUN featured alongside his portrait prints
   of Bob Ross, Kurt Vonnegut and others. In the feature he says he and a friend bought the box sets and watched
   all 156 episodes. The feature does not give the print's release date, size or edition size.
-subtype: print
+official: false
+subtype: art-print
 details:
+  licence_note: No source read states a licence.
   date: not stated
   edition: not stated
   people:
   - Zeb Love
 relevance: core
 research_confidence: medium
-categories:
-- artwork/posters-key-art
 sources:
 - title: '1xRUN News: Zeb Love feature'
   url: https://news.1xrun.com/?p=2823

@@ -13,8 +13,6 @@ details:
   - Scott Skelton
 relevance: related
 research_confidence: medium
-categories:
-- artwork/night-gallery-paintings
 sources:
 - title: 'TV Time Machine - The paintings of Night Gallery: interview with artist Tom Wright'
   url: https://www.tvtimemachine.imdickenshesfenster.com/radio_show_wrightpics.htm
@@ -29,3 +27,5 @@ media:
   host: TV Time Machine (producer's site)
   rights: licensed
 last_verified: '2026-11-20'
+content_of:
+- works/night-gallery-paintings-collection

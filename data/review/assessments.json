@@ -18379,9 +18379,9 @@
   "reason": "A published source documents the link.",
   "source_title": "bottleneckgallery.com",
   "source_url": "https://bottleneckgallery.com/blogs/news/the-twilight-zone-by-phantom-city-creative-on-sale-info",
-  "title": "The Twilight Zone by Phantom City Creative (Bottleneck Gallery) → “Time Enough at Last” (1959)",
+  "title": "\"Time Enough at Last\" by Phantom City Creative (Bottleneck Gallery, 2026) → “Time Enough at Last” (1959)",
   "subcategory": "References",
-  "sort": "twilight zone by phantom city creative bottleneck gallery  time enough at last 001959"
+  "sort": "time enough at last by phantom city creative bottleneck gallery 002026  time enough at last 001959"
  },
  "connections/philip-k-dicks-electric-dreams-the-commuter--twilight-zone-1959": {
   "connection": "A railway clerk follows a passenger to a town that should not exist, in an episode a reviewer framed as Twilight Zone territory.",
@@ -41544,7 +41544,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -45324,7 +45324,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -60552,7 +60552,7 @@
   "sort": "werner klemperer"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -68717,8 +68717,8 @@
   "tier_reason": "About The Twilight Zone itself, or officially licensed.",
   "recommendation": "include",
   "reason": "Licensed-gallery art for one of the most famous episodes.",
-  "source_title": "/Film - Limited Edition Prints For 'The Nice Guys,' 'The Twilight Zone,' and 'Pinocchio'",
-  "source_url": "https://www.slashfilm.com/nice-guys-mondo-poster/",
+  "source_title": "/Film: Cool Stuff: Check Out These Limited Edition Prints For 'The Nice Guys,' 'The Twilight Zone,' And 'Pinocchio' (Jack Giroux, 17 May 2016)",
+  "source_url": "https://www.slashfilm.com/544354/nice-guys-mondo-poster/",
   "title": "\"To Serve Man\" art prints (Dark Hall Mansion, 2016)",
   "subcategory": "Artwork",
   "sort": "to serve man art prints dark hall mansion 002016"
@@ -70452,11 +70452,11 @@
   "sort": "miniature plagiarism suit the thirteenth mannequin"
  },
  "works/mondo-twilight-zone-prints": {
-  "connection": "Mondo, the Austin poster house, released limited Twilight Zone prints. /Film covered the drop in a roundup alongside its The Nice Guys and Pinocchio posters.",
+  "connection": "Merged into Dark Hall Mansion's \"To Serve Man\" prints (2016).",
   "tier": "core",
   "tier_reason": "Part of The Twilight Zone itself, or wholly about it.",
-  "recommendation": "include",
-  "reason": "Core artwork: a complete record of the franchise should have it.",
+  "recommendation": "exclude",
+  "reason": "Duplicate of works/dark-hall-mansion-to-serve-man-prints-2016; the other record is kept. This one stays hidden so the importer does not recreate it.",
   "source_title": "slashfilm.com",
   "source_url": "https://www.slashfilm.com/nice-guys-mondo-poster/",
   "title": "Mondo The Twilight Zone limited-edition prints",
@@ -70839,8 +70839,8 @@
   "connection": "In late 2018 an original prosthetic mask from 'Eye of the Beholder', one of William Tuttle's pig-like faces for the hospital staff, went up for auction.",
   "tier": "core",
   "tier_reason": "Part of The Twilight Zone itself, or wholly about it.",
-  "recommendation": "include",
-  "reason": "Core prop: a complete record of the franchise should have it.",
+  "recommendation": "exclude",
+  "reason": "Duplicate of works/eye-of-the-beholder-pig-nose-appliance-prop-store-2018; the other record is kept. This one stays hidden so the importer does not recreate it.",
   "source_title": "Gizmodo - Twilight Zone mask from Eye of the Beholder goes up for auction",
   "source_url": "https://gizmodo.com/twilight-zone-mask-from-the-eye-of-the-beholder-goes-up-1830157214",
   "title": "Original 'Eye of the Beholder' pig-face mask at auction",
@@ -70987,9 +70987,9 @@
   "reason": "Fills in the existing Bottleneck record with edition sizes, prices and the release date.",
   "source_title": "bottleneckgallery.com",
   "source_url": "https://bottleneckgallery.com/blogs/news/the-twilight-zone-by-phantom-city-creative-on-sale-info",
-  "title": "The Twilight Zone by Phantom City Creative (Bottleneck Gallery)",
+  "title": "\"Time Enough at Last\" by Phantom City Creative (Bottleneck Gallery, 2026)",
   "subcategory": "Artwork",
-  "sort": "twilight zone by phantom city creative bottleneck gallery"
+  "sort": "time enough at last by phantom city creative bottleneck gallery 002026"
  },
  "works/pinball-fx-vr-twilight-zone": {
   "connection": "A VR version of the licensed 1993 Bally Twilight Zone pinball table.",
@@ -71391,8 +71391,8 @@
   "connection": "Heritage Auctions offered Matheson's own typed and hand-annotated script, with related materials, for his third-season comedy 'Once Upon a Time', which starred Buster Keaton.",
   "tier": "related",
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "include",
-  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "recommendation": "exclude",
+  "reason": "Duplicate of works/matheson-once-upon-a-time-script-archive-heritage; the other record is kept. This one stays hidden so the importer does not recreate it.",
   "source_title": "Heritage Auctions - Richard Matheson's The Twilight Zone annotated script archive for Once Upon a Time",
   "source_url": "https://entertainment.ha.com/itm/movie-tv-memorabilia/richard-matheson-s-the-twilight-zone-original-hand-annotated-typed-script-and-materials-archive-for-once-upon-a-time/a/997042-1990.s",
   "title": "Richard Matheson's annotated 'Once Upon a Time' script archive (Heritage Auctions)",
@@ -72635,8 +72635,20 @@
   "subcategory": "Links and resources",
   "sort": "science fiction awards database  hugo awards 001961"
  },
+ "works/shag-dinner-is-on-twilight-zone-print": {
+  "connection": "A small signed and numbered eight-colour serigraph by Shag, about 20 x 25 cm, in an edition of 200, offered by Outré Gallery.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Outré Gallery: Dinner is On (The Twilight Zone)",
+  "source_url": "https://www.outregallery.com/products/dinner-is-on-the-twilight-zone",
+  "title": "\"Dinner is On (The Twilight Zone)\" print by Shag",
+  "subcategory": "Artwork",
+  "sort": "dinner is on the twilight zone print by shag"
+ },
  "works/shag-twilight-zone-print-2015": {
-  "connection": "Josh Agle, the mid-century-modern painter who works as Shag, released a Twilight Zone print in spring 2015.",
+  "connection": "Josh Agle, the mid-century-modern painter who works as Shag, made a signed 22 x 39 inch Twilight Zone screen print as the first guest-artist release in Dark Hall Mansion's officially licensed Twilight Zone series.",
   "tier": "core",
   "tier_reason": "Part of The Twilight Zone itself, or wholly about it.",
   "recommendation": "include",

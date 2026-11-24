@@ -3,6 +3,24 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Collect: Artwork and Merchandise, each item in one place
+
+Visitors can now:
+- Browse Merchandise by kind with each item in one place: toys and figures by maker (Bif Bang Pow!, Sideshow, Funko),
+  prop replicas, trading cards, masks, clothing and homeware, collectibles and Tower of Terror souvenirs.
+- See every VHS, laserdisc, DVD and Blu-ray release of the series, Night Gallery and the 1983 film on one shelf,
+  grouped by show, with a link to each show's release table and its sources (60 entries).
+- Tell licensed products and prints from unlicensed ones: an item is official only where the rights holders made it
+  or a source states a licence, and the others say "No source read states a licence".
+- Find art prints apart from studio posters, surviving props, make-up pieces and scripts on one shelf with their
+  auctions, and art shows under Events > Exhibitions.
+- Hear and read about the theme where it belongs: radio segments, a podcast episode and song lists are now attached
+  to the theme and the series in the Media Library instead of filed as merchandise.
+
+**Known not to work yet:**
+- Only eight Night Gallery paintings have records; the show had one for nearly every story.
+- A few releases appear twice on Home video: once as a record and once from their show's release table.
+
 ## 2026-11-24 — Games: five shelves, each game in one place
 
 Visitors can now:

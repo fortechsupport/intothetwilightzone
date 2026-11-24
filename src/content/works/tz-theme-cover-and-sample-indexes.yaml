@@ -5,7 +5,7 @@ description: >-
   keeps separate work pages for Constant's "Theme from the Twilight Zone" and Herrmann's first-season theme. WhoSampled
   splits its Twilight Zone page by element: Original Theme (Herrmann), Title Sequence (Season 4 Onwards) (Constant),
   Intro, and episode narrations. The fan wiki keeps a broader list of audio recordings that reference the series.
-subtype: theme-use
+subtype: reference-index
 relevance: core
 research_confidence: high
 sources:
@@ -35,3 +35,6 @@ media:
   rights: link-only
   subtype: listing
 last_verified: '2026-11-20'
+content_of:
+- works/constant-etrange-milieu-theme-1960
+- works/herrmann-twilight-zone-theme-1959

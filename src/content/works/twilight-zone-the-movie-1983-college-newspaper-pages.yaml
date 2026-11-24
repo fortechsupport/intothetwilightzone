@@ -1,5 +1,5 @@
 title: 'Twilight Zone: The Movie in 1983 college newspapers (library digital collections)'
-kind: other
+kind: advertisement
 year: 1983
 publisher: The Battalion (Texas A&M); The Michigan Daily
 description: >-
@@ -31,3 +31,5 @@ media:
   host: Bentley Historical Library, University of Michigan
   rights: link-only
 last_verified: '2026-11-20'
+content_of:
+- films/twilight-zone-the-movie

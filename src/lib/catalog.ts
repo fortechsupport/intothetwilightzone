@@ -5,11 +5,15 @@ import { getCollection } from 'astro:content';
 import { allEpisodes, allPeople, episodeNumber, splitCredit, CONNECTION_LABELS, CONFIDENCE_LABELS } from './data';
 import { assess } from './assessments';
 import { slugify } from './slug';
+import { HOME_VIDEO_GROUPS } from './taxonomy.mjs';
 import { TAXONOMY, CATEGORY, place, placePerson, explicitPlacements, mediaArtwork, libraryType, LIBRARY_TYPES, sortKey, subTitleFromSlug, SERIES_LABEL, contentOf, contentParents, isOfficial, orgSub, remap } from './taxonomy.mjs';
 import { filmHref, tv } from './television';
 import { watchFor, watchShort } from './watch';
 
 const FILM_TYPE: Record<string, string> = { film: 'Feature film', 'tv-film': 'Television film', documentary: 'Documentary', special: 'Special', short: 'Short film', pilot: 'Pilot', 'tv-episode': 'TV play', unproduced: 'Unmade', 'music-video': 'Music video' };
+const PHYSICAL_RELEASE = /vhs|laserdisc|dvd|blu-ray|hd dvd|4k|ced|betamax/i;
+const HOME_VIDEO_OF: Record<string, string> = { 'series/1959': HOME_VIDEO_GROUPS[0], 'films/night-gallery': HOME_VIDEO_GROUPS[1], 'films/twilight-zone-the-movie': HOME_VIDEO_GROUPS[2], 'series/1985': HOME_VIDEO_GROUPS[3], 'series/2002': HOME_VIDEO_GROUPS[4], 'series/2019': HOME_VIDEO_GROUPS[5] };
+
 export interface Entry {
   key: string; // "<collection>/<id>" or a derived key
   title: string;
@@ -331,7 +335,9 @@ export async function catalog(): Promise<Map<string, CatInfo>> {
       }
       if (col === 'series' || col === 'films') {
         for (const rel of d.releases ?? []) {
-          put('merchandise', 'home-media', { key: `${key}#release:${rel.title}:${rel.date ?? ''}`, title: rel.title, href: e.href, sort: sortKey(rel.title), meta: meta(rel.format, yearOf(rel.date), rel.publisher, rel.region), desc: rel.note, group: e.title, official: true });
+          // Home video lists physical releases only (Collect plan, section 2); broadcast, syndication and streaming
+          // stay on the show's own page. Grouped by show, in the order the shows were made.
+          if (PHYSICAL_RELEASE.test(rel.format)) put('merchandise', 'home-media', { key: `${key}#release:${rel.title}:${rel.date ?? ''}`, title: rel.title, href: `${e.href}#releases`, sort: sortKey(rel.title), meta: meta(rel.format, yearOf(rel.date), rel.publisher, rel.region), desc: rel.note, group: HOME_VIDEO_OF[key] ?? e.title, official: true });
           for (const n of orgNames(rel.publisher)) linkOrg(n, 'home-video', { key, title: `${rel.title} (${e.title})`, href: e.href, role: 'Released on home video', official: true });
         }
         for (const h of d.history ?? []) {

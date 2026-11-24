@@ -7,7 +7,8 @@ description: >-
   A hand-numbered, limited-edition screen print by Tom Whalen of "It's a Good Life", published by Dark Hall Mansion
   in 2017 as part of Whalen's Twilight Zone series. One copy, numbered 5/8, was sold by Heritage Auctions and is
   described in the lot as near mint.
-subtype: screen-print
+official: true
+subtype: art-print
 details:
   auction: Heritage 42155 lot 8601
   numbering: 5/8
@@ -15,8 +16,6 @@ details:
   - Tom Whalen
 relevance: core
 research_confidence: medium
-categories:
-- artwork/posters-key-art
 sources:
 - title: 'Heritage Auctions lot 8601: The Twilight Zone It''s a Good Life 5/8 by Tom Whalen (DHM, 2017)'
   url: >-

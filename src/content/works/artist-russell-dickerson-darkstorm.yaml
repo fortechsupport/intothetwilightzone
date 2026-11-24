@@ -4,6 +4,7 @@ subtype: artist
 creator: Russell Dickerson
 description: An illustrator who has made a series of mock vintage movie posters for classic episodes such as "Time
   Enough at Last."
+official: false
 details:
   series: The Twilight Zone (1959)
   medium: Digital illustration

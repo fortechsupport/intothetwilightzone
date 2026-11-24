@@ -5,16 +5,16 @@ description: >-
   80sTees, an online retailer of retro pop-culture clothing, sells several Twilight Zone shirt designs, including
   "To Serve Man", "Question the Unknown" (on a Comfort Colors shirt) and "The Fear". "The Fear" is probably a reference
   to the season 5 episode of that name. The product pages that came up in search do not say who holds the license.
+official: false
 subtype: apparel
 details:
+  licence_note: No source read states a licence.
   designs:
   - To Serve Man
   - Question the Unknown
   - The Fear
 relevance: core
 research_confidence: medium
-categories:
-- merchandise/household-apparel
 sources:
 - title: '80sTees: To Serve Man Twilight Zone T-Shirt'
   url: https://www.80stees.com/products/to-serve-man-twilight-zone-t-shirt
