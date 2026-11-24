@@ -165,6 +165,8 @@ listings have them but the BBC site blocks automated reading; no other source li
 ### Music
 - [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
 
+Plan: docs/plans/research-music.md (draft 2026-11-24, waiting on Adam).
+
 | Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|
 | Songs | 169 (1 / 168) | Partial: 63 still "connection not yet confirmed" |
