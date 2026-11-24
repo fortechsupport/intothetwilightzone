@@ -3,6 +3,7 @@ magazine: The Twilight Zone Magazine
 cover_date: Jan 1982
 order: 10
 publisher: TZ Publications, Inc.
+cover_artist: Carl Chaplin
 editor: T.E.D. Klein
 description: January 1982 Christmas issue featuring Rod Serling's memoir 'My Most Memorable Christmas',
   an interview with Frank Belknap Long, a Mike Ashley essay on J. Sheridan Le Fanu with a Le Fanu reprint,
@@ -14,9 +15,12 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60169
 research_confidence: high
 sources:
+- title: 'Internet Archive: scan of the issue (text layer)'
+  url: https://dn721501.ca.archive.org/0/items/Twilight_Zone_v01n10_1982-01_noads/Twilight_Zone_v01n10_1982-01_noads_djvu.txt
+  note: 'Read 2026-11-24 for the cover credit: "Cover art by Carl Chaplin" (contents page).'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 10'
   url: https://twilightzonevortex.blogspot.com/2018/09/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true

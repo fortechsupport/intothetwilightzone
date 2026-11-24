@@ -3,10 +3,14 @@ magazine: The Twilight Zone Magazine
 cover_date: Feb 1989
 order: 58
 publisher: TZ Publications, Inc.
+cover_artist: Hajime Sorayama
 editor: Tappan King
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60149
 sources:
+- title: 'FantLab (Russian science fiction catalogue): edition record for the February 1989 issue'
+  url: https://fantlab.ru/edition518564
+  note: 'Read 2026-11-24 for the cover credit, from the edition description: "Vol 8, No 6." "Cover art by Hajime Sorayama; interior art by Peter Scanlan, James Stonebraker."'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
@@ -23,5 +27,5 @@ description: 'February 1989 issue, edited by Tappan King. Fiction: "At the Summi
 episodes:
 - 1959/the-lateness-of-the-hour
 research_confidence: high
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

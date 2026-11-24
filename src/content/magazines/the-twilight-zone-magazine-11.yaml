@@ -3,6 +3,7 @@ magazine: The Twilight Zone Magazine
 cover_date: Feb 1982
 order: 11
 publisher: TZ Publications, Inc.
+cover_artist: John Oberdorf
 editor: T.E.D. Klein
 description: February 1982 issue with an interview with Wes Craven, a new music column by Jack Sullivan,
   a preview of 'Swamp Thing', and fiction by Gardner Dozois and Jack Dann, Charles L. Grant and George
@@ -17,5 +18,6 @@ sources:
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 11'
   url: https://twilightzonevortex.blogspot.com/2018/12/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+  note: 'Read 2026-11-24 for the cover credit: "Cover art: John Oberdorf".'
+last_verified: '2026-11-24'
 locked: true

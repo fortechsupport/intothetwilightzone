@@ -1,6 +1,8 @@
 title: 'A Tired Nonconformist: Censorship and Citizen Serling'
+authors:
+- 'Molly A. Schneider'
 published_in: Gold Dust on the Air (University of Texas Press)
-published: '2024-12-31'
+published: '2024'
 kind: book-chapter
 description: Chapter 3 of a University of Texas Press book on broadcast history, about Serling's clashes
   with censorship and his public role as a critic of the industry.
@@ -10,5 +12,6 @@ research_confidence: medium
 sources:
 - title: Crossref / DOI record
   url: https://doi.org/10.7560/329276-006
-last_verified: '2026-11-19'
+  note: 'Read 2026-11-24 for the byline and date: the publisher''s chapter page (De Gruyter Brill, reached through the DOI) names Molly A. Schneider and gives "© 2024 University of Texas Press"; the earlier date of 31 December 2024 had no source and is replaced by the year.'
+last_verified: '2026-11-24'
 locked: true

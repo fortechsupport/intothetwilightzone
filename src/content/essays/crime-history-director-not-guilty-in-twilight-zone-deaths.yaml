@@ -1,5 +1,8 @@
 title: 'Crime History: Director Not Guilty in ''Twilight Zone'' Deaths'
+authors:
+- 'Scott McCabe'
 published_in: Washington Examiner
+published: '2012-05-28'
 kind: article
 description: Crime-history column recalling the May 1987 acquittal of John Landis.
 links:
@@ -10,5 +13,6 @@ research_confidence: medium
 sources:
 - title: Washington Examiner
   url: https://www.washingtonexaminer.com/?p=1564662
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: byline Scott McCabe, "Published May 28, 2012".'
+last_verified: '2026-11-24'
 locked: true

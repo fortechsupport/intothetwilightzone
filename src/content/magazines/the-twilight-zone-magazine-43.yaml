@@ -3,10 +3,14 @@ magazine: The Twilight Zone Magazine
 cover_date: Aug 1986
 order: 43
 publisher: TZ Publications, Inc.
+cover_artist: Len de Lessio (photograph)
 editor: Michael Blaine
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60179
 sources:
+- title: 'Internet Archive: scan of the issue (text layer)'
+  url: https://archive.org/stream/Twilight_Zone_v06n03_1986-08_noads/Twilight_Zone_v06n03_1986-08_noads_djvu.txt
+  note: 'Read 2026-11-24 for the cover credit: "Cover photograph by Len de Lessio" (contents page, printed in capitals).'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
@@ -24,5 +28,5 @@ description: 'August 1986 issue, edited by Michael Blaine. Fiction: "Watchdogs" 
   Illuminations (Peter Rondinone); Screen (Gahan Wilson); TZ Video (Welch D. Everman). Vol. 6 No. 3. Teleplay concluded
   in Oct 1986 (#44).'
 research_confidence: high
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

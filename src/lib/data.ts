@@ -229,7 +229,7 @@ export function splitCredit(raw: string): { name: string; roles: string[] } {
   if (!m) return { name: String(raw).trim(), roles: [] };
   return { name: m[1].trim(), roles: m[2].split(/\s*,\s*/).map((r) => r.toLowerCase()).filter(Boolean) };
 }
-export const COMIC_ROLE: Record<string, string> = { writer: 'Comics writer', artist: 'Comics artist', cover: 'Cover artist', inker: 'Inker', editor: 'Editor', colorist: 'Colorist', illustrator: 'Illustrator', art: 'Comics artist', script: 'Comics writer', story: 'Comics writer', pencils: 'Comics artist', inks: 'Inker', creator: 'Comics creator' };
+export const COMIC_ROLE: Record<string, string> = { writer: 'Comics writer', artist: 'Comics artist', cover: 'Cover artist', inker: 'Inker', editor: 'Editor', colorist: 'Colorist', illustrator: 'Illustrator', art: 'Comics artist', script: 'Comics writer', story: 'Comics writer', pencils: 'Comics artist', inks: 'Inker', colors: 'Colorist', letters: 'Letterer', letterer: 'Letterer', creator: 'Comics creator' };
 
 export function personUrl(name: string) {
   return `/people/${slugify(splitCredit(name).name)}/`;

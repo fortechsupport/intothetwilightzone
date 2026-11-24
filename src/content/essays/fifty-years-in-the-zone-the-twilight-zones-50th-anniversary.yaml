@@ -1,6 +1,8 @@
 title: 'Fifty Years in the Zone: The Twilight Zone''s 50th Anniversary'
+authors:
+- 'Ryan Harvey'
 published_in: Black Gate
-published: '2009'
+published: '2009-10-06'
 kind: article
 description: Genre magazine blog piece celebrating the 50th anniversary of the series' October 2, 1959 premiere.
 links:
@@ -11,5 +13,6 @@ research_confidence: medium
 sources:
 - title: Black Gate
   url: https://www.blackgate.com/?p=3555
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: byline Ryan Harvey, dated Tuesday, October 6, 2009.'
+last_verified: '2026-11-24'
 locked: true

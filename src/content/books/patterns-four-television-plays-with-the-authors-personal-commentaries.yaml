@@ -2,10 +2,15 @@ title: 'Patterns: Four Television Plays with the Author''s Personal Commentaries
 authors:
 - Rod Serling
 kind: scripts
+published: '1957'
 relevance: related
 sources:
+- title: 'Open Library: Patterns (work record)'
+  url: https://openlibrary.org/works/OL1674752W/Patterns
+  note: 'Read 2026-11-24: "First published in 1957".'
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+last_verified: '2026-11-24'
 locked: true
 description: Rod Serling's 1957 collection of four of his live-television plays (Patterns, The Rack, Old MacDonald
   Had a Curve and Requiem for a Heavyweight), with his own commentary on writing for television. It predates The

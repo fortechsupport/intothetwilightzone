@@ -3,6 +3,7 @@ magazine: The Twilight Zone Magazine
 cover_date: Oct 1981
 order: 7
 publisher: TZ Publications, Inc.
+cover_artist: Tito Salomoni
 editor: T.E.D. Klein
 description: October 1981 issue concluding James H. Burns's Richard Matheson interview, with fiction by
   Pamela Sargent, Robert Sheckley, Chet Williamson and George Clayton Johnson ('Sea Change'). Zicree's
@@ -18,5 +19,6 @@ sources:
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 7'
   url: https://twilightzonevortex.blogspot.com/2018/02/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+  note: 'Read 2026-11-24 for the cover credit: "Cover Art: Tito Solomoni (for “Offices” by Chet Williamson)"; the issue pages for August 1981 and March 1982 spell the artist Tito Salomoni.'
+last_verified: '2026-11-24'
 locked: true

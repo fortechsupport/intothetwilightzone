@@ -3,6 +3,7 @@ magazine: The Twilight Zone Magazine
 cover_date: Sep 1981
 order: 6
 publisher: TZ Publications, Inc.
+cover_artist: Ralph Mercer
 editor: T.E.D. Klein
 description: 'September 1981 issue built around Richard Matheson: part one of James H. Burns''s interview
   with him plus a profile of his film work, alongside Allan Asherman''s look at the show''s forerunners.
@@ -18,5 +19,6 @@ sources:
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 6'
   url: https://twilightzonevortex.blogspot.com/2018/01/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+  note: 'Read 2026-11-24 for the cover credit: "Cover Art: Ralph Mercer".'
+last_verified: '2026-11-24'
 locked: true

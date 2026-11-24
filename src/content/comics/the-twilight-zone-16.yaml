@@ -2,6 +2,17 @@ title: 'The Twilight Zone # 16'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 20
+creators:
+- Dick Wood (writer)
+- Leo Dorfman (writer)
+- Paul S. Newman (writer)
+- Joe Certa (pencils, inks)
+- Joe Orlando (pencils, inks)
+- Angelo Torres (pencils, inks)
+- Jose Delbo (pencils, inks)
+- Frank Bolle (pencils, inks)
+- Ben Oda (letters)
+- George Wilson (cover)
 cover_date: 1966-07
 ids:
   amazon_asin: B0BDBLPFPF
@@ -9,13 +20,16 @@ links:
   info: https://www.comics.org/issue/20184/
 research_confidence: high
 sources:
+- title: 'Heritage Auctions comic issue index (Grand Comics Database data)'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=20184
+  note: Read 2026-11-24 for the creator credits (cover and story pencils, inks, scripts and letters; Heritage states the data is courtesy of the Grand Comics Database under a Creative Commons licence).
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key), page 1'
   url: https://www.mycomicshop.com/search?TID=193921
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key) issue listing with contents'
   url: https://www.mycomicshop.com/search?TID=193921
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true
 description: 'Issue 16 of Gold Key''s licensed Twilight Zone anthology comic (July 1966), with a painted cover by
   George Wilson. Stories: "Prophecy of Doom" (Joe Certa); "Nightmare for an Astronaut" (Joe Orlando); "The Ghost

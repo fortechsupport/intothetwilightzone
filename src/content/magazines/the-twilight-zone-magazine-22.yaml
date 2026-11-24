@@ -3,6 +3,7 @@ magazine: The Twilight Zone Magazine
 cover_date: Jan-Feb 1983
 order: 22
 publisher: TZ Publications, Inc.
+cover_artist: Walter Velez
 editor: T.E.D. Klein
 description: January-February 1983 issue, the first bimonthly, with Lisa Tuttle's interview with Roald
   Dahl and a reprint of his 'Royal Jelly', Sam Frank's article on Rod Serling's 'lost' Christmas Carol
@@ -19,5 +20,6 @@ sources:
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 22'
   url: https://twilightzonevortex.blogspot.com/2020/05/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+  note: 'Read 2026-11-24 for the cover credit: "Cover art: Walter Velez".'
+last_verified: '2026-11-24'
 locked: true

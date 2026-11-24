@@ -3,10 +3,14 @@ magazine: The Twilight Zone Magazine
 cover_date: Dec 1988
 order: 57
 publisher: TZ Publications, Inc.
+cover_artist: Alan Reingold
 editor: Tappan King
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60164
 sources:
+- title: 'FantLab (Russian science fiction catalogue): edition record for the December 1988 issue'
+  url: https://fantlab.ru/edition518126
+  note: 'Read 2026-11-24 for the cover credit, from the edition description: "Vol 8, No 5." "Cover art by Alan Reingold; interior art by James Stonebraker."'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
@@ -25,5 +29,5 @@ description: 'December 1988 issue, edited by Tappan King. Fiction: "Deadlines" b
 episodes:
 - 1959/king-nine-will-not-return
 research_confidence: high
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

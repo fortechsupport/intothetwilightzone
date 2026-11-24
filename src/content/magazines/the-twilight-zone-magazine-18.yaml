@@ -3,6 +3,7 @@ magazine: The Twilight Zone Magazine
 cover_date: Sep 1982
 order: 18
 publisher: TZ Publications, Inc.
+cover_artist: James Nazz
 editor: T.E.D. Klein
 description: September 1982 issue with an interview with Paul Schrader, Mike Ashley's essay on Arthur
   Machen plus a Machen sampler, previews of 'Creepshow' and 'Something Wicked This Way Comes', and fiction
@@ -16,5 +17,6 @@ sources:
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 18'
   url: https://twilightzonevortex.blogspot.com/2020/01/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+  note: 'Read 2026-11-24 for the cover credit: "Cover Art: James Nazz".'
+last_verified: '2026-11-24'
 locked: true
