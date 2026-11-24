@@ -1,0 +1,21 @@
+name: "Homeville, Indiana, 1881 (No Time Like the Past)"
+kind: in-story
+region: "Indiana"
+country: "United States"
+filmed:
+- ref: 1959/no-time-like-the-past
+  note: "Where Paul settles in the past."
+episodes:
+- 1959/no-time-like-the-past
+notes: >-
+  After failing to change history, Paul goes to "the town of Homeville, Indiana in 1881". He lodges at a boarding
+  house, meets Abigail Sloan, and the schoolhouse burns after he tries to stop a wagon.
+sources:
+- title: "Wikipedia: No Time Like the Past (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/No_Time_Like_the_Past_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

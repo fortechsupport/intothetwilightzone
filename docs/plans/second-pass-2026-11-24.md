@@ -161,6 +161,34 @@ for the review pages (src/lib/tags.ts).
 - **Not yet read:** about 90 of the 1959 series' episodes. Wikipedia reading stopped at the shared limit of 100 page
   reads an hour and continues as it refills; the season list pages carry no plot summaries.
 
+## Part 5: twenty-six more settings
+- **Twenty-six more settings**, each quoted from the episode's Wikipedia article. From the first batch: Joey Crown's New
+  York City (A Passage for Trumpet), the desert near Reno (I Shot an Arrow into the Air), St. Nick's Arena (The Big
+  Tall Wish), the Las Vegas hotel (The Fever), the American airbase in France (The Last Flight), the Philippine
+  Islands, 1945 (The Purple Testament) and the territory of New Mexico (A Hundred Yards Over the Rim). From the second:
+  the Führerbunker (The Man in the Bottle), Las Vegas (The Prime Mover), the Death Valley cave (The Rip Van Winkle
+  Caper), Throckmorton's Curio Shop (A Piano in the House), the 3rd Celestial Division Angel Placement (Cavender Is
+  Coming), Pitchville Flats (Hocus-Pocus and Frisby), Facsimile Ltd. (I Sing the Body Electric), Harmony, New York
+  (Once Upon a Time), Radin's bomb shelter (One More Pallbearer), the New York club and Kansas City (The Dummy),
+  Madeiro, Mexico (The Gift) and Eternity Road (The Hunt). From the third: Coeurville (In His Image), the Blue Ridge
+  Mountains (Jess-Belle), Homeville, Indiana and the three stops in history (No Time Like the Past), The Dansburg
+  Courier (Printer's Devil), Ferguson's Wax Museum (The New Exhibit) and Joe Palucci's bar (A Kind of a Stopwatch).
+- **No named place** in the articles for A World of His Own, Escape Clause, Execution, Long Live Walter Jameson, Mr.
+  Bevis, Mr. Denton on Doomsday, Nightmare as a Child, One for the Angels, Perchance to Dream, The Chaser, The
+  Sixteen-Millimeter Shrine, A Most Unusual Camera, A Thing About Machines, Dust, Eye of the Beholder, Long Distance
+  Call, Nervous Man in a Four Dollar Room, Shadow Play, The Mind and the Matter, Nothing in the Dark, Person or Persons
+  Unknown, The Fugitive, The Little People, The Mirror, The Trade-Ins, Two, Miniature, The Incredible World of Horace
+  Ford, An Occurrence at Owl Creek Bridge and Black Leather Jackets.
+- **Named only in passing, not added:** the North Pole (preview narration of The Night of the Meek), Washington (Four
+  O'Clock, The Whole Truth), Albuquerque (an accusation in The Grave), Africa (The Jungle) and Chavez Ravine (a
+  hypothetical in The Whole Truth's narration), the Midwest (The Last Rites of Jeff Myrtlebank's narration), Fort
+  Sumter and Appomattox (The Passersby's narration), Dachau and the cities of He's Alive's closing narration, Austria
+  (Mute), the Earth of The Parallel, and New York City as a plan in Caesar and Me.
+- **Not read yet:** Young Man's Fancy (Wikipedia has no article under either title tried), A Short Drink from a
+  Certain Fountain, Come Wander with Me, From Agnes – With Love, and the last 23 episodes of season 5.
+- Details were kept to what each article states: where an article gives only a surname or no city, so does the
+  record (the Führerbunker record gives no city, the Death Valley cave no state).
+
 ## Found in the page check, fixed
 - **Organization pages listed no records.** Most organizations added overnight showed only their description,
   because the records naming them used other spellings ("Sideshow Toy") or fields the site does not read for
@@ -183,7 +211,7 @@ for the review pages (src/lib/tags.ts).
 - **Awards filed as reviews:** the WGA and Emmy records above sit under Reviews > Awards and citations; the Read round
   should move honors to History, as the Media Library sweep did for two.
 - **Remarkable Ohio** was read only in part; the number of marker sides is not confirmed.
-- **Settings:** about 140 more 1959 episodes and the later series could be read the same way.
+- **Settings:** about 26 more 1959 episodes and the later series could be read the same way.
 - ~~Foundation media without records~~ linked in part 4.
 - **Possible duplicate:** the essays record for KWBU's Fresh Air page may repeat the Fresh Air podcast record.
 - ~~Batch tags shown to visitors~~ hidden in part 3.

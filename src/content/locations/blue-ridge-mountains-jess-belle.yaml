@@ -1,0 +1,20 @@
+name: "The Blue Ridge Mountains (Jess-Belle)"
+kind: in-story
+country: "United States"
+filmed:
+- ref: 1959/jess-belle
+  note: "Where the story of the witch is told."
+episodes:
+- 1959/jess-belle
+notes: >-
+  The story is "told as if it took place yesterday in the Blue Ridge Mountains": there Jess-Belle, a witch,
+  transforms and haunts Billy-Ben.
+sources:
+- title: "Wikipedia: Jess-Belle (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/Jess-Belle_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

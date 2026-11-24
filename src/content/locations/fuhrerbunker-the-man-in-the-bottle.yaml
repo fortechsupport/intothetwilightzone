@@ -1,0 +1,19 @@
+name: "The Führerbunker (The Man in the Bottle)"
+kind: in-story
+filmed:
+- ref: 1959/the-man-in-the-bottle
+  note: "Where Castle's last wish takes him."
+episodes:
+- 1959/the-man-in-the-bottle
+notes: >-
+  Castle wishes for power and finds himself Adolf Hitler in the last days of the Second World War: "he is hiding
+  in the Führerbunker" as a man brings cyanide, and he wishes himself home.
+sources:
+- title: "Wikipedia: The Man in the Bottle"
+  url: https://en.wikipedia.org/wiki/The_Man_in_the_Bottle
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

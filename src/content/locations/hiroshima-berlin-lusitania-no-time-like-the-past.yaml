@@ -1,0 +1,20 @@
+name: "Hiroshima, Berlin and the Lusitania (No Time Like the Past)"
+kind: in-story
+filmed:
+- ref: 1959/no-time-like-the-past
+  note: "The three moments Paul tries to change."
+episodes:
+- 1959/no-time-like-the-past
+notes: >-
+  "Paul first travels to Hiroshima on August 6, 1945" and warns a police captain, who calls him insane. He goes to
+  "a Berlin hotel room to assassinate Adolf Hitler in August 1939" and is interrupted by a housekeeper. He tries
+  to "change the course of the Lusitania on May 6, 1915", but the captain doubts him.
+sources:
+- title: "Wikipedia: No Time Like the Past (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/No_Time_Like_the_Past_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

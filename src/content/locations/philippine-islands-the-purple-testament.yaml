@@ -1,0 +1,19 @@
+name: "The Philippine Islands, 1945 (The Purple Testament)"
+kind: in-story
+country: "Philippines"
+filmed:
+- ref: 1959/the-purple-testament
+  note: "The opening narration's setting."
+episodes:
+- 1959/the-purple-testament
+notes: >-
+  The opening narration sets the story with an "Infantry platoon, U.S. Army, Philippine Islands, 1945".
+sources:
+- title: "Wikipedia: The Purple Testament"
+  url: https://en.wikipedia.org/wiki/The_Purple_Testament
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

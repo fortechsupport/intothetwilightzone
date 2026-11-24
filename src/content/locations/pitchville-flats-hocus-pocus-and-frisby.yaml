@@ -1,0 +1,18 @@
+name: "Pitchville Flats (Hocus-Pocus and Frisby)"
+kind: in-story
+filmed:
+- ref: 1959/hocus-pocus-and-frisby
+  note: "The town of Frisby's store."
+episodes:
+- 1959/hocus-pocus-and-frisby
+notes: >-
+  The introductory narration says "The place is Pitchville Flats." Frisby keeps a store "in a small town".
+sources:
+- title: "Wikipedia: Hocus-Pocus and Frisby"
+  url: https://en.wikipedia.org/wiki/Hocus-Pocus_and_Frisby
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

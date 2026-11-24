@@ -3,6 +3,16 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Second pass, part 5: twenty-six more story settings
+
+Visitors can now:
+- Visit twenty-six more places in the stories, each from its episode's Wikipedia article, among them the Führerbunker
+  of The Man in the Bottle, Throckmorton's Curio Shop, Pitchville Flats, Facsimile Ltd., Harmony, New York, Coeurville,
+  Homeville, Indiana, Ferguson's Wax Museum and Eternity Road.
+
+**Known not to work yet:**
+- About 26 episodes of the 1959 series are still to be read for the places they name.
+
 ## 2026-11-24 — Second pass, part 4: seven more story settings and nine fan videos
 
 Visitors can now:

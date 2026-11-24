@@ -1,0 +1,22 @@
+name: "Las Vegas (The Prime Mover)"
+kind: in-story
+city: "Las Vegas"
+region: "Nevada"
+country: "United States"
+filmed:
+- ref: 1959/the-prime-mover
+  note: "Where Ace gambles on Jimbo's gift."
+episodes:
+- 1959/the-prime-mover
+notes: >-
+  Ace sets out "to win big in Las Vegas", betting on Jimbo's telekinesis, until a final roll at the craps table
+  that he loses.
+sources:
+- title: "Wikipedia: The Prime Mover"
+  url: https://en.wikipedia.org/wiki/The_Prime_Mover
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

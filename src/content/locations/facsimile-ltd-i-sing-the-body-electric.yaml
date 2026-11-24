@@ -1,0 +1,19 @@
+name: "Facsimile Ltd. (I Sing the Body Electric)"
+kind: in-story
+filmed:
+- ref: 1959/i-sing-the-body-electric
+  note: "The factory that makes the grandmother."
+episodes:
+- 1959/i-sing-the-body-electric
+notes: >-
+  Mr. Rogers takes his children to "a factory, Facsimile Ltd., to select" the robot grandmother; grandmothers are
+  later returned to the factory.
+sources:
+- title: "Wikipedia: I Sing the Body Electric (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/I_Sing_the_Body_Electric_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

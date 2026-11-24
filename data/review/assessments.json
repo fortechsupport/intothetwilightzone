@@ -36275,6 +36275,18 @@
   "subcategory": "Other places",
   "sort": "ambassadors theatre"
  },
+ "locations/american-airbase-in-france-the-last-flight": {
+  "connection": "The American airbase in France (The Last Flight) was used for “The Last Flight” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Last Flight (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Last_Flight_(The_Twilight_Zone)",
+  "title": "The American airbase in France (The Last Flight)",
+  "subcategory": "Other places",
+  "sort": "american airbase in france the last flight"
+ },
  "locations/anthonys-house-granada-hills": {
   "connection": "Anthony's House (It's a Good Life, 1983) (Los Angeles (Granada Hills), California) was used for Twilight Zone: The Movie.",
   "tier": "core",
@@ -36346,6 +36358,18 @@
   "title": "Binghamton High School (Rod Serling School of Fine Arts)",
   "subcategory": "Rod Serling's places",
   "sort": "binghamton high school rod serling school of fine arts"
+ },
+ "locations/blue-ridge-mountains-jess-belle": {
+  "connection": "The Blue Ridge Mountains (Jess-Belle) was used for “Jess-Belle” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Jess-Belle (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Jess-Belle_(The_Twilight_Zone)",
+  "title": "The Blue Ridge Mountains (Jess-Belle)",
+  "subcategory": "Other places",
+  "sort": "blue ridge mountains jessbelle"
  },
  "locations/broome-county-forum-theatre": {
   "connection": "Binghamton's historic downtown performing-arts theatre has a permanent lobby exhibit on Serling's life, \"Day of a Playwright,\" whose prize item is the penmanship certificate he earned as a schoolboy in 1937.",
@@ -36455,6 +36479,18 @@
   "subcategory": "Filming locations",
   "sort": "cecil green park house university of british columbia"
  },
+ "locations/celestial-division-cavender-is-coming": {
+  "connection": "The 3rd Celestial Division Angel Placement (Cavender Is Coming) was used for “Cavender Is Coming” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Cavender Is Coming",
+  "source_url": "https://en.wikipedia.org/wiki/Cavender_Is_Coming",
+  "title": "The 3rd Celestial Division Angel Placement (Cavender Is Coming)",
+  "subcategory": "Other places",
+  "sort": "000003rd celestial division angel placement cavender is coming"
+ },
  "locations/centerville-stopover": {
   "connection": "Setting of a fifth-season episode with a famous final reveal.",
   "tier": "core",
@@ -36478,6 +36514,18 @@
   "title": "Cliffordville, Indiana",
   "subcategory": "In-story places",
   "sort": "cliffordville indiana"
+ },
+ "locations/coeurville-in-his-image": {
+  "connection": "Coeurville (In His Image) was used for “In His Image” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: In His Image (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/In_His_Image_(The_Twilight_Zone)",
+  "title": "Coeurville (In His Image)",
+  "subcategory": "Other places",
+  "sort": "coeurville in his image"
  },
  "locations/corrys-asteroid": {
   "connection": "Setting of a first-season Serling episode; links to the Death Valley filming record.",
@@ -36503,6 +36551,30 @@
   "subcategory": "In-story places",
   "sort": "dachau deathshead revisited"
  },
+ "locations/dansburg-courier-printers-devil": {
+  "connection": "The Dansburg Courier (Printer's Devil) was used for “Printer's Devil” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Printer's Devil (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Printer's_Devil_(The_Twilight_Zone)",
+  "title": "The Dansburg Courier (Printer's Devil)",
+  "subcategory": "Other places",
+  "sort": "dansburg courier printers devil"
+ },
+ "locations/death-valley-cave-the-rip-van-winkle-caper": {
+  "connection": "The cave in Death Valley (The Rip Van Winkle Caper) was used for “The Rip Van Winkle Caper” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Rip Van Winkle Caper",
+  "source_url": "https://en.wikipedia.org/wiki/The_Rip_Van_Winkle_Caper",
+  "title": "The cave in Death Valley (The Rip Van Winkle Caper)",
+  "subcategory": "Other places",
+  "sort": "cave in death valley the rip van winkle caper"
+ },
  "locations/death-valley-national-park": {
   "connection": "Death Valley National Park (Death Valley, California) was used for “The Lonely” (1959) and “I Shot an Arrow into the Air” (1959).",
   "tier": "core",
@@ -36514,6 +36586,18 @@
   "title": "Death Valley National Park",
   "subcategory": "Filming locations",
   "sort": "death valley national park"
+ },
+ "locations/desert-near-reno-i-shot-an-arrow": {
+  "connection": "The desert near Reno, Nevada (I Shot an Arrow into the Air) (Nevada) was used for “I Shot an Arrow into the Air” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: I Shot an Arrow into the Air",
+  "source_url": "https://en.wikipedia.org/wiki/I_Shot_an_Arrow_into_the_Air",
+  "title": "The desert near Reno, Nevada (I Shot an Arrow into the Air)",
+  "subcategory": "Other places",
+  "sort": "desert near reno nevada i shot an arrow into the air"
  },
  "locations/desolation-canyon-death-valley": {
   "connection": "A specific filming spot used by three episodes.",
@@ -36563,6 +36647,30 @@
   "subcategory": "Lecture and event venues",
   "sort": "elmira college"
  },
+ "locations/eternity-road-the-hunt": {
+  "connection": "Eternity Road (The Hunt) was used for “The Hunt” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Hunt (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Hunt_(The_Twilight_Zone)",
+  "title": "Eternity Road (The Hunt)",
+  "subcategory": "Other places",
+  "sort": "eternity road the hunt"
+ },
+ "locations/facsimile-ltd-i-sing-the-body-electric": {
+  "connection": "Facsimile Ltd. (I Sing the Body Electric) was used for “I Sing the Body Electric” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: I Sing the Body Electric (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/I_Sing_the_Body_Electric_(The_Twilight_Zone)",
+  "title": "Facsimile Ltd. (I Sing the Body Electric)",
+  "subcategory": "Other places",
+  "sort": "facsimile ltd i sing the body electric"
+ },
  "locations/fairmont-empress-victoria-downtime": {
   "connection": "Fairmont Empress and Government Street, Victoria (Victoria, British Columbia) was used for “Downtime” (2019).",
   "tier": "core",
@@ -36574,6 +36682,18 @@
   "title": "Fairmont Empress and Government Street, Victoria",
   "subcategory": "Filming locations",
   "sort": "fairmont empress and government street victoria"
+ },
+ "locations/fergusons-wax-museum-the-new-exhibit": {
+  "connection": "Ferguson's Wax Museum (The New Exhibit) was used for “The New Exhibit” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The New Exhibit (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/The_New_Exhibit_(The_Twilight_Zone)",
+  "title": "Ferguson's Wax Museum (The New Exhibit)",
+  "subcategory": "Other places",
+  "sort": "fergusons wax museum the new exhibit"
  },
  "locations/flight-107-trans-east-airlines": {
   "connection": "Flight 107, Trans East Airlines (The Arrival) was used for “The Arrival” (1959).",
@@ -36622,6 +36742,18 @@
   "title": "The Foster mansion, New Orleans (\"The Masks\")",
   "subcategory": "In-story places",
   "sort": "foster mansion new orleans the masks"
+ },
+ "locations/fuhrerbunker-the-man-in-the-bottle": {
+  "connection": "The Führerbunker (The Man in the Bottle) was used for “The Man in the Bottle” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Man in the Bottle",
+  "source_url": "https://en.wikipedia.org/wiki/The_Man_in_the_Bottle",
+  "title": "The Führerbunker (The Man in the Bottle)",
+  "subcategory": "Other places",
+  "sort": "fhrerbunker the man in the bottle"
  },
  "locations/gastown-vancouver-the-who-of-you": {
   "connection": "Gastown, Vancouver (Vancouver, British Columbia) was used for “The Who of You” (2019).",
@@ -36683,6 +36815,18 @@
   "subcategory": "In-story places",
   "sort": "happy glades"
  },
+ "locations/harmony-new-york-once-upon-a-time": {
+  "connection": "Harmony, New York (Once Upon a Time) (New York) was used for “Once Upon a Time” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Once Upon a Time (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_(The_Twilight_Zone)",
+  "title": "Harmony, New York (Once Upon a Time)",
+  "subcategory": "Other places",
+  "sort": "harmony new york once upon a time"
+ },
  "locations/hi-way-cafe": {
   "connection": "Setting of a classic Serling whodunit episode.",
   "tier": "core",
@@ -36694,6 +36838,18 @@
   "title": "Hi-Way Café",
   "subcategory": "In-story places",
   "sort": "hiway caf"
+ },
+ "locations/hiroshima-berlin-lusitania-no-time-like-the-past": {
+  "connection": "Hiroshima, Berlin and the Lusitania (No Time Like the Past) was used for “No Time Like the Past” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: No Time Like the Past (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/No_Time_Like_the_Past_(The_Twilight_Zone)",
+  "title": "Hiroshima, Berlin and the Lusitania (No Time Like the Past)",
+  "subcategory": "Other places",
+  "sort": "hiroshima berlin and the lusitania no time like the past"
  },
  "locations/hoboken-zephyrs-ballpark": {
   "connection": "The Hoboken Zephyrs' ballpark, Hoboken, New Jersey (The Mighty Casey) (Hoboken, New Jersey) was used for “The Mighty Casey” (1959).",
@@ -36718,6 +36874,18 @@
   "title": "The Hollywood Tower Hotel",
   "subcategory": "In-story places",
   "sort": "hollywood tower hotel"
+ },
+ "locations/homeville-indiana-no-time-like-the-past": {
+  "connection": "Homeville, Indiana, 1881 (No Time Like the Past) (Indiana) was used for “No Time Like the Past” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: No Time Like the Past (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/No_Time_Like_the_Past_(The_Twilight_Zone)",
+  "title": "Homeville, Indiana, 1881 (No Time Like the Past)",
+  "subcategory": "Other places",
+  "sort": "homeville indiana 001881 no time like the past"
  },
  "locations/homewood": {
   "connection": "Martin Sloan's hometown, a stand-in for Serling's own Binghamton.",
@@ -36755,6 +36923,18 @@
   "subcategory": "Archives",
   "sort": "rod serling archives ithaca college library"
  },
+ "locations/joe-paluccis-bar-a-kind-of-a-stopwatch": {
+  "connection": "Joe Palucci's bar (A Kind of a Stopwatch) was used for “A Kind of a Stopwatch” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: A Kind of a Stopwatch (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/A_Kind_of_a_Stopwatch_(The_Twilight_Zone)",
+  "title": "Joe Palucci's bar (A Kind of a Stopwatch)",
+  "subcategory": "Other places",
+  "sort": "joe paluccis bar a kind of a stopwatch"
+ },
  "locations/kanamit-ship": {
   "connection": "The Kanamit ship (To Serve Man) was used for “To Serve Man” (1959).",
   "tier": "related",
@@ -36779,6 +36959,30 @@
   "subcategory": "Other places",
   "sort": "king nine crash site africa 001943"
  },
+ "locations/las-vegas-casino-the-prime-mover": {
+  "connection": "Las Vegas (The Prime Mover) (Las Vegas, Nevada) was used for “The Prime Mover” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Prime Mover",
+  "source_url": "https://en.wikipedia.org/wiki/The_Prime_Mover",
+  "title": "Las Vegas (The Prime Mover)",
+  "subcategory": "Other places",
+  "sort": "las vegas the prime mover"
+ },
+ "locations/las-vegas-hotel-the-fever": {
+  "connection": "The Las Vegas hotel and casino (The Fever) (Las Vegas, Nevada) was used for “The Fever” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Fever (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Fever_(The_Twilight_Zone)",
+  "title": "The Las Vegas hotel and casino (The Fever)",
+  "subcategory": "Other places",
+  "sort": "las vegas hotel and casino the fever"
+ },
  "locations/leyte-philippines-serling-wwii": {
   "connection": "Where the war experiences behind many Serling scripts took place.",
   "tier": "related",
@@ -36802,6 +37006,18 @@
   "title": "Lister's Pool Room, Chicago (A Game of Pool)",
   "subcategory": "Other places",
   "sort": "listers pool room chicago a game of pool"
+ },
+ "locations/madeiro-mexico-the-gift": {
+  "connection": "Madeiro, Mexico (The Gift) was used for “The Gift” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Gift (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Gift_(The_Twilight_Zone)",
+  "title": "Madeiro, Mexico (The Gift)",
+  "subcategory": "Other places",
+  "sort": "madeiro mexico the gift"
  },
  "locations/maple-street": {
   "connection": "Setting of the most-taught Twilight Zone episode and its 2002-series remake.",
@@ -36935,6 +37151,42 @@
   "subcategory": "Lecture and event venues",
   "sort": "moorpark college"
  },
+ "locations/new-mexico-territory-a-hundred-yards-over-the-rim": {
+  "connection": "The territory of New Mexico, 1847 and 1961 (A Hundred Yards Over the Rim) (New Mexico) was used for “A Hundred Yards Over the Rim” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: A Hundred Yards Over the Rim",
+  "source_url": "https://en.wikipedia.org/wiki/A_Hundred_Yards_Over_the_Rim",
+  "title": "The territory of New Mexico, 1847 and 1961 (A Hundred Yards Over the Rim)",
+  "subcategory": "Other places",
+  "sort": "territory of new mexico 001847 and 001961 a hundred yards over the rim"
+ },
+ "locations/new-york-city-a-passage-for-trumpet": {
+  "connection": "Joey Crown's New York City (A Passage for Trumpet) (New York City, New York) was used for “A Passage for Trumpet” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: A Passage for Trumpet",
+  "source_url": "https://en.wikipedia.org/wiki/A_Passage_for_Trumpet",
+  "title": "Joey Crown's New York City (A Passage for Trumpet)",
+  "subcategory": "Other places",
+  "sort": "joey crowns new york city a passage for trumpet"
+ },
+ "locations/new-york-club-the-dummy": {
+  "connection": "The New York club and Kansas City (The Dummy) (New York City, New York) was used for “The Dummy” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Dummy (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Dummy_(The_Twilight_Zone)",
+  "title": "The New York club and Kansas City (The Dummy)",
+  "subcategory": "Other places",
+  "sort": "new york club and kansas city the dummy"
+ },
  "locations/night-gallery-the-gallery": {
   "connection": "Serling's framing setting for Night Gallery.",
   "tier": "related",
@@ -37031,6 +37283,18 @@
   "subcategory": "Other places",
   "sort": "philippine islands 001945 and corregidor 001942 a quality of mercy"
  },
+ "locations/philippine-islands-the-purple-testament": {
+  "connection": "The Philippine Islands, 1945 (The Purple Testament) was used for “The Purple Testament” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Purple Testament",
+  "source_url": "https://en.wikipedia.org/wiki/The_Purple_Testament",
+  "title": "The Philippine Islands, 1945 (The Purple Testament)",
+  "subcategory": "Other places",
+  "sort": "philippine islands 001945 the purple testament"
+ },
  "locations/piru-kick-the-can-1983": {
   "connection": "Piru (Sunnyvale Rest Home) (Piru, California) was used for Twilight Zone: The Movie.",
   "tier": "core",
@@ -37043,6 +37307,18 @@
   "subcategory": "Filming locations",
   "sort": "piru sunnyvale rest home"
  },
+ "locations/pitchville-flats-hocus-pocus-and-frisby": {
+  "connection": "Pitchville Flats (Hocus-Pocus and Frisby) was used for “Hocus-Pocus and Frisby” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Hocus-Pocus and Frisby",
+  "source_url": "https://en.wikipedia.org/wiki/Hocus-Pocus_and_Frisby",
+  "title": "Pitchville Flats (Hocus-Pocus and Frisby)",
+  "subcategory": "Other places",
+  "sort": "pitchville flats hocuspocus and frisby"
+ },
  "locations/point-dume-planet-of-the-apes": {
   "connection": "Point Dume (Planet of the Apes ending) (Malibu, California) was used for Planet of the Apes.",
   "tier": "core",
@@ -37054,6 +37330,18 @@
   "title": "Point Dume (Planet of the Apes ending)",
   "subcategory": "Filming locations",
   "sort": "point dume planet of the apes ending"
+ },
+ "locations/radins-bomb-shelter-one-more-pallbearer": {
+  "connection": "Radin's bomb shelter, New York City (One More Pallbearer) (New York City, New York) was used for “One More Pallbearer” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: One More Pallbearer",
+  "source_url": "https://en.wikipedia.org/wiki/One_More_Pallbearer",
+  "title": "Radin's bomb shelter, New York City (One More Pallbearer)",
+  "subcategory": "Other places",
+  "sort": "radins bomb shelter new york city one more pallbearer"
  },
  "locations/recreation-park-carousel-binghamton": {
   "connection": "A 1925 Allan Herschell Company carousel in its original pavilion, one of six carousels industrialist George F. Johnson gave to the Binghamton area; rides are still free.",
@@ -37295,6 +37583,18 @@
   "subcategory": "In-story places",
   "sort": "ss queen of glasgow"
  },
+ "locations/st-nicks-arena-the-big-tall-wish": {
+  "connection": "St. Nick's Arena (The Big Tall Wish) was used for “The Big Tall Wish” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Big Tall Wish",
+  "source_url": "https://en.wikipedia.org/wiki/The_Big_Tall_Wish",
+  "title": "St. Nick's Arena (The Big Tall Wish)",
+  "subcategory": "Other places",
+  "sort": "st nicks arena the big tall wish"
+ },
  "locations/steveston-richmond-not-all-men": {
   "connection": "Steveston Village, Richmond (Richmond, British Columbia) was used for “Not All Men” (2019).",
   "tier": "core",
@@ -37474,6 +37774,18 @@
   "title": "The Twilight Zone (the dimension itself)",
   "subcategory": "In-story places",
   "sort": "twilight zone the dimension itself"
+ },
+ "locations/throckmortons-curio-shop-a-piano-in-the-house": {
+  "connection": "Throckmorton's Curio Shop (A Piano in the House) was used for “A Piano in the House” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: A Piano in the House",
+  "source_url": "https://en.wikipedia.org/wiki/A_Piano_in_the_House",
+  "title": "Throckmorton's Curio Shop (A Piano in the House)",
+  "subcategory": "Other places",
+  "sort": "throckmortons curio shop a piano in the house"
  },
  "locations/tinas-other-dimension": {
   "connection": "Setting of a third-season Matheson episode with a documented film legacy.",
@@ -45780,7 +46092,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -49416,7 +49728,7 @@
   "sort": "jean carson"
  },
  "people/jean-de-segonzac": {
-  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Cradle of Darkness” and “Night Route”).",
+  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Night Route” and “Cradle of Darkness”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -58836,7 +59148,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -61344,7 +61656,7 @@
   "sort": "werner klemperer"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",

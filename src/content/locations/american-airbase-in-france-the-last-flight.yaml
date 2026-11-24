@@ -1,0 +1,20 @@
+name: "The American airbase in France (The Last Flight)"
+kind: in-story
+country: "France"
+filmed:
+- ref: 1959/the-last-flight
+  note: "Where Decker lands his biplane."
+episodes:
+- 1959/the-last-flight
+notes: >-
+  Lost over France, Decker "lands his Nieuport biplane on an American airbase in France", identifying himself as
+  from the UK's Royal Flying Corps.
+sources:
+- title: "Wikipedia: The Last Flight (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/The_Last_Flight_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

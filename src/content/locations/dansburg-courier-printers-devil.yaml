@@ -1,0 +1,19 @@
+name: "The Dansburg Courier (Printer's Devil)"
+kind: in-story
+filmed:
+- ref: 1959/printers-devil
+  note: "Douglas Winter's newspaper."
+episodes:
+- 1959/printers-devil
+notes: >-
+  Douglas Winter's struggling paper, "a newspaper called The Dansburg Courier", is saved by Mr. Smith's scoops.
+  Its rival, The Gazette, owned by Mr. Franklin, burns down after Winter refuses Franklin's offer to buy.
+sources:
+- title: "Wikipedia: Printer's Devil (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/Printer's_Devil_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'
