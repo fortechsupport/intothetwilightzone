@@ -21258,11 +21258,6 @@
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
   "date": "2026-11-20"
  },
- "people/lou-gossett-jr": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
- },
  "people/lou-holz": {
   "status": "include",
   "notes": "Approved by Adam 2026-11-20 (whole sheet)",
@@ -21270,7 +21265,7 @@
  },
  "people/louis-gossett-jr": {
   "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
+  "notes": "Approved by Adam 2026-11-20 (whole sheet). 2026-11-24: merged with people/lou-gossett-jr (same actor, both included by Adam 2026-11-20).",
   "date": "2026-11-20"
  },
  "people/louis-hayward": {

@@ -373,6 +373,7 @@ const people = defineCollection({
   loader: yaml('people'),
   schema: z.object({
     name: z.string(),
+    aka: names, // other names the person is credited under; their credits fold into this page
     born: z.string().optional(),
     died: z.string().optional(),
     bio: z.string().optional(),

@@ -173,9 +173,18 @@ export async function allPeople(): Promise<Map<string, Person>> {
     }
   }
   for (const r of await getCollection('radio')) {
-    const base = { title: r.data.title, url: `/radio/${r.id}/`, detail: 'Radio drama' };
+    // A record about a whole series or its releases names its people on the series page, not as credits.
+    const drama = r.data.series_title === 'The Twilight Zone Radio Dramas';
+    if (drama && r.data.subtype) continue;
+    const st = r.data.series_title;
+    const base = { title: r.data.title, url: `/radio/${r.id}/`, detail: drama ? 'Radio drama' : st && !r.data.title.startsWith(st.replace(/\s*\(.*$/, '')) ? st : 'Radio' };
     (r.data.adapted_by ?? '').split(/,\s*/).forEach((n) => add(n, { ...base, role: 'Radio adaptation' }));
-    r.data.voiced_by.forEach((n) => add(n, { ...base, role: 'Radio cast' }));
+    // The writer of what the radio version adapts: the teleplay for a radio drama, the script for Serling's own work.
+    for (const raw of (r.data.original_writer ?? '').split(/,\s*|\s+and\s+/)) {
+      const n = splitCredit(raw).name;
+      if (n && !/^(others?|other\b)/i.test(n)) add(n, { ...base, role: drama || r.data.serling_role === undefined ? 'Original writer' : r.data.serling_role === 'unproduced' ? 'Radio writer (never produced)' : 'Radio writer' });
+    }
+    r.data.voiced_by.forEach((n) => add(n, { ...base, role: r.data.serling_role === 'hosted' ? 'Radio host' : 'Radio cast' }));
   }
   for (const c of await getCollection('comics')) {
     const base = { title: c.data.title, url: `/comics/${c.id}/`, date: c.data.cover_date, detail: c.data.publisher };
@@ -187,6 +196,11 @@ export async function allPeople(): Promise<Map<string, Person>> {
   for (const p of await getCollection('people')) {
     const slug = p.id;
     if (!map.has(slug)) map.set(slug, { slug, name: p.data.name, credits: [] });
+    // Credits filed under another name the person is credited by ("Lou Gossett Jr.") fold into this page.
+    for (const alt of p.data.aka) {
+      const as = slugify(alt);
+      if (as !== slug && map.has(as)) { map.get(slug)!.credits.push(...map.get(as)!.credits); map.delete(as); }
+    }
     map.get(slug)!.record = p;
     map.get(slug)!.name = p.data.name;
     for (const c of p.data.tz_credits) {

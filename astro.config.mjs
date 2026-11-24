@@ -76,6 +76,8 @@ const redirects = {
   '/reviews/aggregate-scores': '/media/reviews/',
   '/media/ads': '/media/advertisements/',
   '/media/holdings': '/media/archival-holdings/',
+  // The same actor had two People pages (2026-11-24).
+  '/people/lou-gossett-jr': '/people/louis-gossett-jr/',
 };
 // The nine verbs (2026-11-21): group pages became verb pages, and some subcategories moved.
 for (const [g, v] of Object.entries(OLD_GROUPS)) redirects[`/explore/${g}`] = `/${v}/`;

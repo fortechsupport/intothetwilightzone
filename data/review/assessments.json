@@ -41412,7 +41412,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -42132,7 +42132,7 @@
   "sort": "cesare danova"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -45192,7 +45192,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -50556,7 +50556,7 @@
   "sort": "jonathan winters"
  },
  "people/jordan-peele": {
-  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “The Comedian” and “Nightmare at 30,000 Feet”).",
+  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “Nightmare at 30,000 Feet” and “The Comedian”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -52403,18 +52403,6 @@
   "subcategory": "Actors",
   "sort": "lou diamond phillips"
  },
- "people/lou-gossett-jr": {
-  "connection": "Lou Gossett Jr. starred in The Twilight Zone Radio Dramas, the full-cast audio series that remade the original episodes, including \"Steel\" and \"Probe 7, Over and Out.\" He won an Emmy for Roots (1977) and became the first Black man to win the Academy Award…",
-  "tier": "tangential",
-  "tier_reason": "No franchise credit found in the records.",
-  "recommendation": "maybe",
-  "reason": "No credit or quote links this person to the show in the data; check the bio before including.",
-  "source_title": "Louis Gossett Jr. - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Louis_Gossett_Jr.",
-  "title": "Lou Gossett Jr.",
-  "subcategory": "Actors",
-  "sort": "lou gossett jr"
- },
  "people/lou-holz": {
   "connection": "Lou Holz wrote the story behind 1 episode of the 1959 series (“A Short Drink from a Certain Fountain”).",
   "tier": "core",
@@ -52433,8 +52421,8 @@
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
   "reason": "A credited contributor; their page ties together everything they made for the franchise.",
-  "source_title": "The Twilight Zone (radio series) - Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Louis Gossett Jr. - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Louis_Gossett_Jr.",
   "title": "Louis Gossett Jr.",
   "subcategory": "Actors",
   "sort": "louis gossett jr"

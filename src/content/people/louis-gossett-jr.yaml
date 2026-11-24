@@ -1,6 +1,7 @@
 name: Louis Gossett Jr.
 roles:
 - actor
+- voice actor
 tz_credits:
 - series: The Twilight Zone Radio Dramas
   work: Probe 7, Over and Out
@@ -10,11 +11,22 @@ tz_credits:
   role: voice cast
 born: '1936-05-27'
 died: '2024-03-29'
+aka:
+- Lou Gossett Jr.
 bio: >-
-  Louis Gossett Jr. won an Emmy for Roots and became the first Black actor to win the Academy Award for
-  Best Supporting Actor, for An Officer and a Gentleman. He voiced the leads in the radio dramas "Probe
-  7, Over and Out" and "Steel."
+  Louis Gossett Jr., also credited as Lou Gossett Jr., won an Emmy for Roots (1977) and became the first Black man
+  to win the Academy Award for Best Supporting Actor, as the drill sergeant in An Officer and a Gentleman (1982). He
+  also starred in Enemy Mine and the Iron Eagle films. He voiced the leads in the radio dramas "Probe 7, Over and
+  Out" and "Steel."
+relevance: related
 sources:
+- title: Louis Gossett Jr. - Wikipedia
+  url: https://en.wikipedia.org/wiki/Louis_Gossett_Jr.
 - title: The Twilight Zone (radio series) - Wikipedia
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
+tags:
+- radio
+categories:
+- people/actors
+- people/voice-actors
