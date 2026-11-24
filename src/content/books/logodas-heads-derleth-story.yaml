@@ -2,12 +2,14 @@ title: Logoda's Heads
 authors:
 - August Derleth
 kind: short-story
+first_published: '1939'
 episodes:
 - films/night-gallery-s2e14
 description: August Derleth's story, adapted as the Night Gallery segment "Logoda's Heads" (season 2, episode 14). Teleplay
-  by Robert Bloch. No source we read gives where it first appeared.
+  by Robert Bloch. The catalogue dates it to 1939 but names no first venue. No source we read names the magazine or book
+  it first appeared in.
 relevance: related
-research_confidence: medium
+research_confidence: high
 tags:
 - read-2026-11-24
 sources:
@@ -15,4 +17,7 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
 - title: 'Wikipedia: Night Gallery'
   url: https://en.wikipedia.org/wiki/Night_Gallery
+- title: 'AuthorWars (ISFDb-based catalogue): Logoda''s Heads'
+  url: https://authorwars.com/books/logodas-heads-68981.html
+  note: Read 2026-11-24 for where the story first appeared.
 last_verified: '2026-11-24'

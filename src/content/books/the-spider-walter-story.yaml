@@ -2,12 +2,14 @@ title: The Spider
 authors:
 - Elizabeth Walter
 kind: short-story
+first_published: '1967'
 episodes:
 - films/night-gallery-s2e04
 description: Elizabeth Walter's story, adapted as the Night Gallery segment "A Fear of Spiders" (season 2, episode 4).
-  Teleplay by Rod Serling. No source we read gives where it first appeared.
+  Teleplay by Rod Serling. The catalogue dates it to 1967 and lists Walter's collection The Sin-Eater among its printings,
+  without a date. No source we read names the magazine or book it first appeared in.
 relevance: related
-research_confidence: medium
+research_confidence: high
 tags:
 - read-2026-11-24
 sources:
@@ -15,4 +17,7 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
 - title: 'Wikipedia: Night Gallery'
   url: https://en.wikipedia.org/wiki/Night_Gallery
+- title: 'AuthorWars (ISFDb-based catalogue): The Spider'
+  url: https://authorwars.com/books/the-spider-754477.html
+  note: Read 2026-11-24 for where the story first appeared.
 last_verified: '2026-11-24'

@@ -2,12 +2,14 @@ title: Boomerang
 authors:
 - Oscar Cook
 kind: short-story
+first_published: '1931'
 episodes:
 - films/night-gallery-s2e22
 description: Oscar Cook's story, adapted as the Night Gallery segment "The Caterpillar" (season 2, episode 22). Teleplay
-  by Rod Serling. No source we read gives where it first appeared.
+  by Rod Serling. The catalogue dates it to 1931 but names no first venue. No source we read names the magazine or book
+  it first appeared in.
 relevance: related
-research_confidence: medium
+research_confidence: high
 tags:
 - read-2026-11-24
 sources:
@@ -15,4 +17,7 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
 - title: 'Wikipedia: Night Gallery'
   url: https://en.wikipedia.org/wiki/Night_Gallery
+- title: 'AuthorWars (ISFDb-based catalogue): Boomerang'
+  url: https://authorwars.com/books/boomerang-889341.html
+  note: Read 2026-11-24 for where the story first appeared.
 last_verified: '2026-11-24'
