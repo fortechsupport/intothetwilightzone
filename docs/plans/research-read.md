@@ -162,21 +162,34 @@ Foreign-language editions, Rod Serling Memorial Foundation publications, Rod Ser
     Interviews the Foundation reprinted from Cemetery Dance carry the Foundation's posting date and say so.
     *Beyond Peyton Place* now names its co-author Alvin M. Cotlar and its publisher as a bookseller's record gives it.
     One date with no source (31 December 2024 on a book chapter) was replaced by the year the publisher's page gives.
+    The Rod Serling Memorial Foundation's reprints carry the date its page gives; where the page names an earlier
+    first printing (Filmfax, the Binghamton Press & Sun-Bulletin, the Owosso Argus-Press, TV Guide, Simian Scrolls,
+    the anthology *California Sorcery*), the description names that first printing and the date is the first
+    printing's wherever the page gives one. Two reprints
+    were filed as the Foundation's own publications and now name the newspaper they came from. Where a page's visible
+    date is relative ("Posted 4 years ago") the date comes from the page's publication metadata, and the note says so.
 
 ## Waiting on Adam
 - Nothing.
 
 ## Not possible, and why
 Each item below was tried; the reason is what stopped it.
-- **Creators for 66 of the 188 comics (third pass in progress).** The Grand Comics Database refuses automated reading,
-  but Heritage Auctions' issue index carries its credits; it allows about four page reads every ten minutes, so the
-  Gold Key issues are being read in paced rounds (28 of 94 done when this was written). The Dell, Walker, Cayuga and
-  giveaway editions come after.
-- **Authors for 118 of the 379 essays and articles, dates for 63 (third pass in progress).** Each original is being
-  read in paced rounds; 59 read so far. 28 of the gaps are rankings, aggregate scores and unsigned staff reviews with no
-  page of their own to read, which by their nature carry no byline. Pages that block automated reading (Disability Studies Quarterly's site shows
-  an access-denied page) or now redirect elsewhere (the Historic Vehicle Association's article goes to the Drivers
-  Foundation's home page) are listed as such on the record. Newspaper archives behind a login are not tried.
+- **Creators for 60 of the 188 comics (third pass in progress).** The Grand Comics Database refuses automated reading,
+  but Heritage Auctions' issue index carries its credits; it allows about three or four page reads every ten to fifteen
+  minutes, so the Gold Key issues are being read in paced rounds (34 of 94 done when this was written). The Dell,
+  Walker, Cayuga and giveaway editions come after.
+- **Authors for 84 of the 379 essays and articles, dates for 35.** Every article with a page of its own has now been
+  read (111 pages in this pass). What is left, and why:
+  - 28 gaps are rankings, aggregate scores and unsigned staff reviews with no page of their own, which by their
+    nature carry no byline.
+  - 16 pages print no person's byline when read: an event page (Paley Center), unsigned TV Guide and Television
+    Academy items, a Foundation caption, a site account ("BookTrib"), pages whose text arrives without the byline line
+    (NBC News, Bright Lights Film Journal, HuffPost, the Hollywood Reporter, Crime Library), and two that give only a
+    first name ("Felix", "Brian"), which is not recorded as an author.
+  - Sites that refuse automated reading: the New York Times, Taylor & Francis journals, Papers Past (a bot check),
+    plosin.com, IGN, The Spectrum, Reactor, Disability Studies Quarterly (an access-denied page), and pages that now
+    redirect elsewhere (the Historic Vehicle Association's article goes to the Drivers Foundation's home page; three
+    AudioFile reviews). Variety's pages arrive without their byline. Newspaper archives behind a login are not tried.
 - **Cover artists for 8 of the 60 Twilight Zone Magazine issues** (September-October 1984, November-December 1984,
   January-February 1985, October 1986, August 1987, December 1987, April 1988 and June 1988). AuthorWars names no artist
   for them, FantLab has no record of those issues, the Twilight Zone Vortex's issue-by-issue reviews have not reached

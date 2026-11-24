@@ -1,4 +1,6 @@
 title: The Twilight Zone Is 50 Years Old
+authors:
+- 'Branko Brkic'
 published_in: Daily Maverick
 published: '2009-09-30'
 kind: article
@@ -11,5 +13,6 @@ research_confidence: high
 sources:
 - title: Daily Maverick
   url: https://www.dailymaverick.co.za/article/2009-09-30-The-Twilight-Zone-is-50-years-old/
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: "By Branko Brkic", 30 Sep 2009.'
+last_verified: '2026-11-24'
 locked: true

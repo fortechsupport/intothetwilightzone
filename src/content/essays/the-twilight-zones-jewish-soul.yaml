@@ -1,4 +1,6 @@
 title: The Twilight Zone's Jewish Soul
+authors:
+- 'Alan H. Luxenberg'
 published_in: Jewish World Review
 published: 2009-10
 kind: article
@@ -7,7 +9,10 @@ links:
   online: http://www.jewishworldreview.com/1009/twilight_zone.php3
 research_confidence: medium
 sources:
+- title: 'Jewish World Review: the article page'
+  url: http://www.jewishworldreview.com/1009/twilight_zone.php3
+  note: 'Read 2026-11-24 for the byline and date: "By Alan H. Luxenberg"; "© 2009, Alan H. Luxenberg".'
 - title: Articles - Rod Serling Memorial Foundation
   url: https://rodserling.com/articles-2
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

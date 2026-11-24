@@ -1,6 +1,8 @@
 title: Robert Redford in the Twilight Zone
+authors:
+- 'Noel Murray'
 published_in: Rod Serling Memorial Foundation (PDF)
-published: 2025-09
+published: '2025-09-17'
 kind: article
 description: Article on Robert Redford's role as Death in 'Nothing in the Dark'.
 episodes:
@@ -11,9 +13,12 @@ categories:
 - reading/serling-foundation-papers
 research_confidence: medium
 sources:
+- title: 'Rod Serling Memorial Foundation (PDF): the article page'
+  url: https://rodserling.com/wp-content/uploads/2025/09/Redford-TZ-episode.pdf
+  note: 'Read 2026-11-24 for the byline and date: the PDF reads "By Noel Murray" with "Sept. 17, 2025" under the byline; it names no publication.'
 - title: Articles - Rod Serling Memorial Foundation
   url: https://rodserling.com/articles-2
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true
 organizations:
 - Rod Serling Memorial Foundation

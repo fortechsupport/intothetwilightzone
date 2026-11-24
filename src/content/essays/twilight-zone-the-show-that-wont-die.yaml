@@ -1,4 +1,6 @@
 title: '''Twilight Zone'': The Show That Won''t Die'
+authors:
+- 'Douglas Brode'
 published_in: The Vindicator (Youngstown)
 published: '2009-10-02'
 kind: article
@@ -9,5 +11,6 @@ research_confidence: high
 sources:
 - title: The Vindicator (Youngstown)
   url: https://vindyarchives.com/news/2009/oct/02/8216twilight-zone8217-the-show-that
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: "By DOUGLAS BRODE", "Opinion: October 2, 2009"; distributed by McClatchy-Tribune Information Services.'
+last_verified: '2026-11-24'
 locked: true

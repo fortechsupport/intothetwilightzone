@@ -2,6 +2,7 @@ title: The Pain of Rain
 authors:
 - Spencer Lloyd Peet
 published_in: Rod Serling Memorial Foundation
+published: '2010-12-30'
 kind: article
 description: Spencer Lloyd Peet article listed on the Serling Foundation site (contents not checked beyond the title).
 links:
@@ -10,9 +11,12 @@ categories:
 - reading/serling-foundation-papers
 research_confidence: low
 sources:
+- title: 'Rod Serling Memorial Foundation: the article page'
+  url: https://rodserling.com/the-pain-of-rain/
+  note: 'Read 2026-11-24 for the byline and date: the Foundation''s page (posted by Stephen Schlich) dates the post December 30th, 2010 and gives the byline "by Spencer Lloyd Peet".'
 - title: Articles - Rod Serling Memorial Foundation
   url: https://rodserling.com/articles-2
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true
 organizations:
 - Rod Serling Memorial Foundation

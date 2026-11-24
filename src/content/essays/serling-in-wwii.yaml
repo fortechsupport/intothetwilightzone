@@ -1,5 +1,8 @@
 title: Serling in WWII
+authors:
+- 'Ed Lengel'
 published_in: National WWII Museum
+published: '2020-09-15'
 kind: article
 description: Feature on Serling's service as an 11th Airborne paratrooper in the Philippines and how combat trauma
   fed into Twilight Zone stories.
@@ -7,7 +10,10 @@ links:
   online: https://www.nationalww2museum.org/war/articles/rod-serling-twilight
 research_confidence: medium
 sources:
+- title: 'National WWII Museum: the article page'
+  url: https://www.nationalww2museum.org/war/articles/rod-serling-twilight
+  note: 'Read 2026-11-24 for the byline and date: byline "Ed Lengel, PhD" (Edward G. Lengel in the author note), "Published September 15, 2020".'
 - title: Articles - Rod Serling Memorial Foundation
   url: https://rodserling.com/articles-2
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

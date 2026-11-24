@@ -1,8 +1,9 @@
 title: Serling by Alan Sepinwall (Kirkus review)
 published_in: Kirkus Reviews
-published: '2026'
+published: '2026-08-31'
 kind: review
-description: Pre-publication Kirkus review of Alan Sepinwall's 2026 Serling biography.
+description: Pre-publication Kirkus review of Alan Sepinwall's 2026 Serling biography. Kirkus prints no reviewer's
+  name.
 review_type: contemporary
 reviews:
 - books/serling-a-journey-into-the-twilight-zone-with-tvs-first-visionary
@@ -12,5 +13,6 @@ research_confidence: high
 sources:
 - title: Kirkus Reviews
   url: https://www.kirkusreviews.com/book-reviews/alan-sepinwall/serling-2/
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: "Review Posted Online: Aug. 31, 2026", Kirkus Reviews issue of Oct. 1, 2026; no reviewer is named.'
+last_verified: '2026-11-24'
 locked: true

@@ -1,4 +1,6 @@
 title: 'Twilight Zone: The Movie 40-Year Retrospective'
+authors:
+- 'Justin Carter'
 published_in: Gizmodo
 published: '2023'
 kind: article
@@ -12,5 +14,6 @@ research_confidence: medium
 sources:
 - title: Gizmodo
   url: https://gizmodo.com/twilight-zone-movie-40-year-retrospective-1850574881
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: "By Justin Carter Published June 25, 2023, 3:15 pm ET".'
+last_verified: '2026-11-24'
 locked: true

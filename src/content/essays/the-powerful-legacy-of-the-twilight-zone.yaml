@@ -1,4 +1,6 @@
 title: The Powerful Legacy of The Twilight Zone
+authors:
+- 'Leah Schnelbach'
 published_in: Tor.com
 published: '2019-10-30'
 kind: article
@@ -9,5 +11,6 @@ research_confidence: high
 sources:
 - title: Tor.com
   url: https://tor.com/2019/10/30/the-powerful-legacy-of-the-twilight-zone
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: "Published on October 30, 2019"; the byline line prints blank in the page text, and the page''s About the Author block names Leah Schnelbach.'
+last_verified: '2026-11-24'
 locked: true

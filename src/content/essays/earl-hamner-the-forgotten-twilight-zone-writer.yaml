@@ -1,8 +1,12 @@
 title: Earl Hamner, the Forgotten Twilight Zone Writer
+authors:
+- 'Tony Albarella'
 published_in: Rod Serling Memorial Foundation
+published: '2000'
 kind: article
 description: Profile of Earl Hamner Jr., who wrote eight episodes including 'The Hunt' and 'Jess-Belle' before creating
-  The Waltons.
+  The Waltons. Albarella's article first appeared in Filmfax (December 2000 to January 2001 issue); the Foundation
+  reprints it.
 episodes:
 - 1959/the-hunt
 - 1959/jess-belle
@@ -13,9 +17,12 @@ categories:
 - reading/serling-foundation-papers
 research_confidence: medium
 sources:
+- title: 'Rod Serling Memorial Foundation: the article page'
+  url: https://rodserling.com/earl-hamner-the-forgotten-twilight-zone-writer/
+  note: 'Read 2026-11-24 for the byline and date: "by Tony Albarella (copyright 2000)"; the page says it "originally appeared in: FILMFAX magazine, December 2000 – January 2001".'
 - title: Articles - Rod Serling Memorial Foundation
   url: https://rodserling.com/articles-2
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true
 organizations:
 - Rod Serling Memorial Foundation

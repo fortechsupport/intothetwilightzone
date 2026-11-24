@@ -2,6 +2,11 @@ title: 'The Twilight Zone # 29'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 33
+creators:
+- Joe Certa (pencils, inks)
+- Art Saaf (pencils)
+- George Evans (pencils, inks)
+- Ben Oda (letters)
 cover_date: 1969-06
 ids:
   amazon_asin: B0C34G8MVN
@@ -9,13 +14,16 @@ links:
   info: https://www.comics.org/issue/22782/
 research_confidence: high
 sources:
+- title: 'Heritage Auctions comic issue index (Grand Comics Database data)'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=22782
+  note: 'Read 2026-11-24 for the creator credits (cover and story pencils, inks, scripts and letters; Heritage states the data is courtesy of the Grand Comics Database under a Creative Commons licence). Credits the index marks as uncertain, left off the list: Win Mortimer (inks).'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key), page 1'
   url: https://www.mycomicshop.com/search?TID=193921
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key) issue listing with contents'
   url: https://www.mycomicshop.com/search?TID=193921
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true
 description: 'Issue 29 of Gold Key''s licensed Twilight Zone anthology comic (June 1969). Stories: "Captain Clegg''s
   Treasure"; "Past, Present...Eternity" (Joe Certa); "Trapped Between Lives" (Art Saaf); "Journeys Into the Twilight

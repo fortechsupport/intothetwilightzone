@@ -1,4 +1,6 @@
 title: The 60-Year Legacy of The Twilight Zone
+authors:
+- 'Steve Chiotakis'
 published_in: KCRW (Greater LA)
 published: 2019-10
 kind: interview
@@ -12,5 +14,6 @@ content_of:
 sources:
 - title: KCRW (Greater LA)
   url: https://www.kcrw.com/shows/greater-la/stories/the-60-year-legacy-of-the-twilight-zone
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: "By Steve Chiotakis • Oct 31, 2019".'
+last_verified: '2026-11-24'
 locked: true
