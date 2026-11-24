@@ -97,6 +97,20 @@ relevance: related
 last_verified: '2026-11-19'
 locked: true
 media:
+- type: "video"
+  title: "Video Tour of Serling Sites in Binghamton, NY"
+  url: "https://www.youtube.com/watch?v=M_pN3Wpyemo"
+  host: "YouTube"
+  date: "2019-07-28"
+  rights: "link-only"
+  note: "Linked on the Rod Serling Memorial Foundation's Media page (28 July 2019): \"Rod Serling's home town video-logged by a local.\" The maker is not named."
+- type: "video"
+  title: "Blues For Rod Serling (Phil deGruy)"
+  url: "https://www.youtube.com/watch?v=H5o4f77Aels"
+  host: "YouTube"
+  date: "2019-06-30"
+  rights: "link-only"
+  note: "Linked on the Rod Serling Memorial Foundation's Media page (30 June 2019): \"Guitarist Phil deGruy pays musical tribute\"."
 - title: 'Rod Serling: mentions and clips, The Interviews'
   url: https://interviews.televisionacademy.com/people/rod-serling
   host: Television Academy Foundation

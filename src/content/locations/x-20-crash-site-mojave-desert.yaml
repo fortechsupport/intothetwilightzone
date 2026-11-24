@@ -1,0 +1,21 @@
+name: "The X-20 crash site, Mojave Desert (And When the Sky Was Opened)"
+kind: in-story
+region: "California"
+country: "United States"
+filmed:
+- ref: 1959/and-when-the-sky-was-opened
+  note: "Where the X-20 comes down."
+episodes:
+- 1959/and-when-the-sky-was-opened
+notes: >-
+  "Her name: X-20." The experimental craft vanishes from radar on its flight into space and ends in a "crash
+  landing in the Mojave Desert", leaving Major Gart with a broken leg.
+sources:
+- title: "Wikipedia: And When the Sky Was Opened"
+  url: https://en.wikipedia.org/wiki/And_When_the_Sky_Was_Opened
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

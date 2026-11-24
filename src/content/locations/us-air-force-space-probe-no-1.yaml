@@ -1,0 +1,19 @@
+name: "U.S. Air Force Space Probe No. 1 (The Invaders)"
+kind: in-story
+filmed:
+- ref: 1959/the-invaders
+  note: "The small ship that lands on the woman's roof."
+episodes:
+- 1959/the-invaders
+notes: >-
+  The tiny craft that lands at the woman's isolated house. At the end, "The ship is marked U.S. Air Force Space
+  Probe No. 1": "The invaders were astronauts from Earth."
+sources:
+- title: "Wikipedia: The Invaders (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/The_Invaders_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

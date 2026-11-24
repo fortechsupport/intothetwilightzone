@@ -3,6 +3,18 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Second pass, part 4: seven more story settings and nine fan videos
+
+Visitors can now:
+- Visit seven more places in the stories, each from its episode's Wikipedia article: Space Cruiser E-89, the Lady
+  Anne, the sunken submarine off Guadalcanal, the X-20's Mojave crash site, the Philippine Islands of A Quality of
+  Mercy, the Virginia valley of Still Valley and U.S. Air Force Space Probe No. 1.
+- Watch nine tributes and parodies that the Rod Serling Memorial Foundation links, from the 1959 series' page, Rod
+  Serling's page and Planet of the Apes.
+
+**Known not to work yet:**
+- About 90 episodes of the 1959 series are still to be read for the places they name.
+
 ## 2026-11-24 — Second pass, part 3: every overnight fact checked
 
 Visitors can now:

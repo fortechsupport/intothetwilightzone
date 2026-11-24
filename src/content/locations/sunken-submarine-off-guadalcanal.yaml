@@ -1,0 +1,20 @@
+name: "The sunken submarine off Guadalcanal (The Thirty-Fathom Grave)"
+kind: in-story
+region: "Solomon Islands"
+filmed:
+- ref: 1959/the-thirty-fathom-grave
+  note: "Where the destroyer finds the submarine."
+episodes:
+- 1959/the-thirty-fathom-grave
+notes: >-
+  The opening sets an "Incident one hundred miles off the coast of Guadalcanal", where a Navy destroyer finds a
+  submarine on the sea bed, "sunk during the First Battle of the Solomon Sea" in 1942.
+sources:
+- title: "Wikipedia: The Thirty-Fathom Grave"
+  url: https://en.wikipedia.org/wiki/The_Thirty-Fathom_Grave
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

@@ -46,6 +46,13 @@ serling_role: written
 source_authors:
 - Pierre Boulle
 media:
+- type: "video"
+  title: "Dr. Zaius Was Right"
+  url: "https://www.youtube.com/watch?v=3q6V_YtQ0pY"
+  host: "YouTube"
+  date: "2020-08-04"
+  rights: "link-only"
+  note: "Linked on the Rod Serling Memorial Foundation's Media page (4 August 2020): a \"video compilation of Planet of the Apes villains\". Who made it is not stated."
 - type: 'document'
   subtype: 'catalog-entry'
   title: 'AFI Catalog of Feature Films entry'
