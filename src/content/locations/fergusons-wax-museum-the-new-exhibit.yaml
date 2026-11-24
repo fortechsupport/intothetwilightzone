@@ -1,0 +1,20 @@
+name: "Ferguson's Wax Museum (The New Exhibit)"
+kind: in-story
+filmed:
+- ref: 1959/the-new-exhibit
+  note: "Where Martin keeps murderers' row."
+episodes:
+- 1959/the-new-exhibit
+notes: >-
+  Martin is "the dedicated curator of murderers' row in Ferguson's Wax Museum". Ferguson sells the museum, which
+  is to be demolished for a supermarket, and the figures go to Marchand's Wax Museum in Brussels ("sold the
+  figures to Marchand's Wax Museum in Brussels"), where Martin's own wax figure is added.
+sources:
+- title: "Wikipedia: The New Exhibit (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/The_New_Exhibit_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

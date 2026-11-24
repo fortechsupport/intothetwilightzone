@@ -1,0 +1,18 @@
+name: "St. Nick's Arena (The Big Tall Wish)"
+kind: in-story
+filmed:
+- ref: 1959/the-big-tall-wish
+  note: "The boxing arena of Bolie's fight."
+episodes:
+- 1959/the-big-tall-wish
+notes: >-
+  The boxing arena where Bolie Jackson fights and is counted out: "a rosin-spattered canvas at St. Nick's Arena".
+sources:
+- title: "Wikipedia: The Big Tall Wish"
+  url: https://en.wikipedia.org/wiki/The_Big_Tall_Wish
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

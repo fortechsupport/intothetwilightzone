@@ -1,0 +1,20 @@
+name: "Harmony, New York (Once Upon a Time)"
+kind: in-story
+region: "New York"
+country: "United States"
+filmed:
+- ref: 1959/once-upon-a-time
+  note: "Woodrow Mulligan's town, in 1890 and 1961."
+episodes:
+- 1959/once-upon-a-time
+notes: >-
+  The hero's "once-quiet town of Harmony, New York" is quiet in 1890; in 1961 it is a busy city full of cars.
+sources:
+- title: "Wikipedia: Once Upon a Time (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/Once_Upon_a_Time_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

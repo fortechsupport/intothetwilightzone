@@ -1,0 +1,21 @@
+name: "Radin's bomb shelter, New York City (One More Pallbearer)"
+kind: in-story
+city: "New York City"
+region: "New York"
+country: "United States"
+filmed:
+- ref: 1959/one-more-pallbearer
+  note: "The shelter under Radin's skyscraper."
+episodes:
+- 1959/one-more-pallbearer
+notes: >-
+  Radin's bomb shelter lies 300 feet down, "beneath the basement of a New York City skyscraper".
+sources:
+- title: "Wikipedia: One More Pallbearer"
+  url: https://en.wikipedia.org/wiki/One_More_Pallbearer
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

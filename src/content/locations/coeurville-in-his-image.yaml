@@ -1,0 +1,19 @@
+name: "Coeurville (In His Image)"
+kind: in-story
+filmed:
+- ref: 1959/in-his-image
+  note: "Alan's hometown, as he remembers it."
+episodes:
+- 1959/in-his-image
+notes: >-
+  Alan takes Jessica to "his hometown of Coeurville". Almost everything matches his memory, but the university is
+  gone, another man lives in his house, and his parents' tombstone reads "Walter Ryder".
+sources:
+- title: "Wikipedia: In His Image (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/In_His_Image_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

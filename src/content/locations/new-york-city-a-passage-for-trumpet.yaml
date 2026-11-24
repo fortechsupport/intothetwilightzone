@@ -1,0 +1,22 @@
+name: "Joey Crown's New York City (A Passage for Trumpet)"
+kind: in-story
+city: "New York City"
+region: "New York"
+country: "United States"
+filmed:
+- ref: 1959/a-passage-for-trumpet
+  note: "The city where Joey plays, and the apartment roof."
+episodes:
+- 1959/a-passage-for-trumpet
+notes: >-
+  "Joey Crown is a hapless trumpet player in New York City". He sells his trumpet, is hit by a truck, and later
+  plays on his apartment roof.
+sources:
+- title: "Wikipedia: A Passage for Trumpet"
+  url: https://en.wikipedia.org/wiki/A_Passage_for_Trumpet
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

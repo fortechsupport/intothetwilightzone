@@ -1,0 +1,22 @@
+name: "The territory of New Mexico, 1847 and 1961 (A Hundred Yards Over the Rim)"
+kind: in-story
+region: "New Mexico"
+country: "United States"
+filmed:
+- ref: 1959/a-hundred-yards-over-the-rim
+  note: "Where Horn crosses from 1847 to 1961."
+episodes:
+- 1959/a-hundred-yards-over-the-rim
+notes: >-
+  "The place is the territory of New Mexico", 1847, where a wagon party that "started out from Ohio and headed
+  west" for "a place called California" is stranded. Horn walks over the rim into 1961 New Mexico, to a café run
+  by Joe and Mary Lou, where the sheriff comes to check on him; he later leads the party on toward California.
+sources:
+- title: "Wikipedia: A Hundred Yards Over the Rim"
+  url: https://en.wikipedia.org/wiki/A_Hundred_Yards_Over_the_Rim
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

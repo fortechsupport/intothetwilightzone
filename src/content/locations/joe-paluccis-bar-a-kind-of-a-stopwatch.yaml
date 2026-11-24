@@ -1,0 +1,19 @@
+name: "Joe Palucci's bar (A Kind of a Stopwatch)"
+kind: in-story
+filmed:
+- ref: 1959/a-kind-of-a-stopwatch
+  note: "Where McNulty is given the stopwatch."
+episodes:
+- 1959/a-kind-of-a-stopwatch
+notes: >-
+  "McNulty goes to Joe Palucci's bar", where he drives the patrons away, buys Potts a drink, and is given the
+  stopwatch.
+sources:
+- title: "Wikipedia: A Kind of a Stopwatch (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/A_Kind_of_a_Stopwatch_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

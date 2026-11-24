@@ -1,0 +1,22 @@
+name: "The Las Vegas hotel and casino (The Fever)"
+kind: in-story
+city: "Las Vegas"
+region: "Nevada"
+country: "United States"
+filmed:
+- ref: 1959/the-fever
+  note: "Where Franklin gambles."
+episodes:
+- 1959/the-fever
+notes: >-
+  Franklin and Flora win a trip, "all expenses paid at a Las Vegas hotel". There he gambles at the casino, and he
+  dies after falling through a window.
+sources:
+- title: "Wikipedia: The Fever (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/The_Fever_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

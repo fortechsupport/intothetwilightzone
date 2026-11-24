@@ -1,0 +1,20 @@
+name: "Madeiro, Mexico (The Gift)"
+kind: in-story
+country: "Mexico"
+filmed:
+- ref: 1959/the-gift
+  note: "The village where the visitor lands."
+episodes:
+- 1959/the-gift
+notes: >-
+  "The place is Mexico, just across the Texas border." An alien crash-lands near the village and is shot; the
+  closing narration names it: "Madeiro, Mexico, the present."
+sources:
+- title: "Wikipedia: The Gift (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/The_Gift_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

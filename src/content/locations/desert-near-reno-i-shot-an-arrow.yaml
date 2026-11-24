@@ -1,0 +1,21 @@
+name: "The desert near Reno, Nevada (I Shot an Arrow into the Air)"
+kind: in-story
+region: "Nevada"
+country: "United States"
+filmed:
+- ref: 1959/i-shot-an-arrow-into-the-air
+  note: "Where the Arrow One comes down."
+episodes:
+- 1959/i-shot-an-arrow-into-the-air
+notes: >-
+  The crew of the spacecraft ("Her name is the Arrow One") believe they have crashed on an asteroid, until Corey
+  sees a sign and realises they are "ninety-seven miles from Reno, Nevada, U.S.A." and never left Earth.
+sources:
+- title: "Wikipedia: I Shot an Arrow into the Air"
+  url: https://en.wikipedia.org/wiki/I_Shot_an_Arrow_into_the_Air
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

@@ -1,0 +1,22 @@
+name: "The New York club and Kansas City (The Dummy)"
+kind: in-story
+city: "New York City"
+region: "New York"
+country: "United States"
+filmed:
+- ref: 1959/the-dummy
+  note: "Where Jerry and Willy perform."
+episodes:
+- 1959/the-dummy
+notes: >-
+  Jerry performs with the dummy Willy at "a small club in New York City". He says "he is leaving for Kansas City"
+  to get away from Willy, and the ending shows a Kansas City announcer introducing "Jerry and Willy".
+sources:
+- title: "Wikipedia: The Dummy (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/The_Dummy_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

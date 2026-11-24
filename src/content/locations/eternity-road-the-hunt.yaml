@@ -1,0 +1,19 @@
+name: "Eternity Road (The Hunt)"
+kind: in-story
+filmed:
+- ref: 1959/the-hunt
+  note: "The road Hyder walks after death."
+episodes:
+- 1959/the-hunt
+notes: >-
+  Hyder walks "Eternity Road". A gatekeeper offers him entry to "the Elysian Fields of the afterlife" through what
+  is "the entrance to Hell"; he declines, and an angel offers to "take them to Heaven".
+sources:
+- title: "Wikipedia: The Hunt (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/The_Hunt_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

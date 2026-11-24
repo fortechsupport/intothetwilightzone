@@ -1,0 +1,20 @@
+name: "The cave in Death Valley (The Rip Van Winkle Caper)"
+kind: in-story
+country: "United States"
+filmed:
+- ref: 1959/the-rip-van-winkle-caper
+  note: "Where the four men sleep and wake."
+episodes:
+- 1959/the-rip-van-winkle-caper
+notes: >-
+  After stealing gold "from a train bound from Fort Knox to Los Angeles", four men hide in "a mountain cave in
+  Death Valley, U.S.A." and sleep in suspended-animation chambers.
+sources:
+- title: "Wikipedia: The Rip Van Winkle Caper"
+  url: https://en.wikipedia.org/wiki/The_Rip_Van_Winkle_Caper
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'
