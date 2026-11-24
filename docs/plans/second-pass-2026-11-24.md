@@ -20,6 +20,8 @@ sources, fills the gaps the plans admit where a source exists, and checks the pa
    (this pull request).
 2. Part 2: episode settings, the podcast and Foundation-media gaps, and two podcast descriptions (a second pull
    request).
+3. Part 3: every remaining fact added overnight read against its cited page, and internal batch tags hidden (a third
+   pull request).
 
 ## 3. Acceptance checks
 - Every claim read in section 1 is supported by its source, or reworded, or removed.
@@ -100,6 +102,48 @@ Heritage lots; the Xscapes escape room.
 - **Podcast descriptions:** Fresh Air's Serling tribute is dated by its member-station posts (7 October 2025); Night
   Zone's Twilight Zone comparison is in a truncated excerpt, which the description now says.
 
+## Part 3: every remaining overnight fact
+**How:** every record PRs #62 to #70 changed was listed against its state before the night (139 records with new
+facts or sources; 32 already checked in parts 1 and 2). The rest were read against their cited pages: about 90
+claims on about 60 pages, plus the 35 podcast feed notes (episode counts and date ranges), which were checked
+against the feed data itself and all match. Official/licensed flags set overnight were checked too.
+
+**Corrected (14):**
+- *AtGames Legends 4K pack:* "under license from CBS" is not on the page; it carries CBS's trademark notice. Reworded.
+- *Huddy Creative key art:* the studio says it "developed key art concepts" for the reboot, not that CBS commissioned
+  or used them; no longer marked official.
+- *Juan Ortiz's Rittenhouse cards:* no page read states a licence; the official flag set overnight is removed and
+  the record says so.
+- *Holiday marathons:* Den of Geek does not call KTLA's 1980 marathon "the first known"; KTLA's program director
+  says it was KTLA's first, and the article says no one knows which station started them.
+- *The Key of Imagination:* "began in November 2022" and "posted to YouTube" are not on Apple's page (it says active
+  since 2022); reworded.
+- *Imagine if you Will:* "a rotating guest", "one per show" and "about an hour" are not on its page; reworded.
+- *Phantom City Creative:* "Canadian" is not on the gallery's page; removed.
+- *Pinball FX VR add-on:* QuestStoreDB calls 26 August 2024 a release date, not a store-entry date; note reworded.
+- *Night Gallery Blu-rays:* Wikipedia gives the Season Two and Three dates but no distributor; notes say Kino Lorber
+  is from its own product page (Season Three) and inferred (Season Two).
+- *Unity Award:* Wikipedia names the award but no year; the year 1961 is the Rod Serling Memorial Foundation's,
+  now cited. The Wikipedia note no longer mentions an offline mirror.
+- *Series Mania 2019:* an international premiere, not a world premiere; Adam Scott was announced to attend.
+- *Tower of Terror 25th anniversary:* the page quotes no Disney statement; "marked by Disney" removed.
+- *Tower of Terror PC game:* its credits come from a YouTube summary that Tower Secrets cites; now said.
+- *"The Time Element" source:* the Wikipedia address redirects to the franchise article; the source says so.
+
+**Confirmed:** the 1959 and 1985 series' sponsors and production companies; Seven Days in May (12 February 1964);
+Night Gallery's 2017 Complete Series DVD; the Forum Theatre exhibit; Fathom's 60th-anniversary screenings; Drew
+Friedman's print; Alan Wake, Fallout 3, Game Informer, Metacritic, WGA and TV Guide claims; Consequence's Fifth
+Dimension, The Hindsight Zone, TV Terror, The Twilight Gnome, Zoning Out and Zoners; the Foundation's podcast posts;
+Gold Key's licence and artists; Interlude's CBS deal; the Composers Datebook topic (Constant's theme).
+
+**Also found:** PaleyFest's Twilight Zone panel was on 24 March 2019 (now recorded). The Serling statue's line
+"Everybody has to have a hometown, Binghamton's mine" is on a separate park marker (HMdb), not the statue's base;
+corrected (this was older text).
+
+**Batch tags hidden:** tags that track our work (dated batches such as "research-2026-11-21", "-round-N",
+"needs-...", "seed-record", "artist-corrected") no longer show on record pages or book cards; they stay in the data
+for the review pages (src/lib/tags.ts).
+
 ## Found in the page check, fixed
 - **Organization pages listed no records.** Most organizations added overnight showed only their description,
   because the records naming them used other spellings ("Sideshow Toy") or fields the site does not read for
@@ -127,6 +171,7 @@ Heritage lots; the Xscapes escape room.
   (2014), "Dr. Zaius Was Right", "You're in the Twilight Zone", a Serling sites tour, "Star Wars meets TZ" and Phil
   deGruy's "Blues for Rod Serling". Each needs its own source read.
 - **Possible duplicate:** the essays record for KWBU's Fresh Air page may repeat the Fresh Air podcast record.
-- **Batch tags shown to visitors:** tags like "research-2026-11-21" (121 pages) and "second-pass-2026-11-24" show as
-  chips on record pages. Suggest hiding tags that end in a date.
+- ~~Batch tags shown to visitors~~ hidden in part 3.
+- **Rittenhouse's licence:** the trading-card records say licensed, but no page read states it; a Rittenhouse or CBS
+  page would settle it.
 - Curious Matter's page does not mention The Twilight Zone, and the Murmurs review page could not be read; skipped.

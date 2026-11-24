@@ -12,7 +12,7 @@ details:
   licensed: true
   platform: Meta Quest (Pinball FX VR)
   release_date: '2025-04-03'
-  store_listing_date_note: QuestStoreDB shows 2024-08-26 for the store entry, before the game launched; the launch date is Zen Studios' own.
+  store_listing_date_note: QuestStoreDB gives 2024-08-26 as the release date, before Pinball FX VR itself launched; the launch date used here is Zen Studios' own.
   base_price_usd: 14.99
   price_history_low_usd: 5.99
 sources:

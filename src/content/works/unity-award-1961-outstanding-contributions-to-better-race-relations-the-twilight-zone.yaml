@@ -2,8 +2,7 @@ title: Unity Award – Outstanding Contributions to Better Race Relations (1961)
 kind: event
 subtype: honor
 year: 1961
-description: The Twilight Zone won the Unity Award for Outstanding Contributions to Better Race Relations in 1961
-  for the original series.
+description: The original series earned the Unity Award for Outstanding Contributions to Better Race Relations (Wikipedia). The Rod Serling Memorial Foundation dates the award 1961, listing it among Serling's honors.
 details:
   result: won
   recipient: The Twilight Zone
@@ -13,6 +12,9 @@ research_confidence: medium
 sources:
 - title: 'Wikipedia: The Twilight Zone (1959 TV series)'
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
-  note: Read through an offline mirror of the January 2024 article.
+  note: 'Read 2026-11-24: in its second-season section, "It also earned the Unity Award for ''Outstanding Contributions to Better Race Relations''"; it gives no year.'
+- title: 'Rod Serling Memorial Foundation: Awards'
+  url: https://rodserling.com/awards/
+  note: 'Lists "1961 Unity Award for Outstanding Contributions to Better Race Relations" among Serling''s honors, without naming the show (read 2026-11-24).'
 last_verified: '2026-11-20'
 locked: true

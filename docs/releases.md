@@ -3,6 +3,19 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Second pass, part 3: every overnight fact checked
+
+Visitors can now:
+- Rely on the rest of the overnight additions: every remaining fact was read against its cited page, and 14 were
+  corrected (for example, AtGames' table pack carries CBS's trademark notice rather than a stated licence; two art
+  records are no longer marked official because no page states a licence; KTLA's 1980 marathon is its first, not
+  "the first known").
+- See the date of the 2019 PaleyFest panel (24 March 2019).
+- Read record pages without internal research labels such as "research 2026 11 21".
+
+**Known not to work yet:**
+- Rittenhouse's Twilight Zone card sets are recorded as licensed, but no page read says so.
+
 ## 2026-11-24 — Second pass, part 2: settings, audio dramas and Foundation videos
 
 Visitors can now:
@@ -19,7 +32,6 @@ Visitors can now:
 **Known not to work yet:**
 - Settings are added for 9 of 14 episodes checked; the other five name no place. Most of the 1959 series' episodes
   are still to be checked.
-- Batch tags such as "research 2026 11 21" show as chips on record pages.
 
 ## 2026-11-24 — Second pass: overnight work checked against its sources
 
