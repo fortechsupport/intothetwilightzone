@@ -7,6 +7,9 @@ runtime_min: 25
 production_code: 173-3634
 writers:
 - Richard Matheson
+writing_credit_note: 'Written by Richard Matheson, who reworked his earlier short story "And Now I''m Waiting" into the episode; the story was not published until 1983'
+source_authors:
+- Richard Matheson
 directors:
 - Ralph Nelson
 cast:
@@ -25,6 +28,9 @@ ids:
 links:
   wikipedia: https://en.wikipedia.org/wiki/A_World_of_His_Own
 sources:
+- title: 'Wikipedia: A World of His Own'
+  url: https://en.wikipedia.org/wiki/A_World_of_His_Own
+  note: Read 2026-11-24 for the source story.
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 - title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)

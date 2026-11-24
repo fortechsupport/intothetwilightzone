@@ -16,6 +16,7 @@ import { getCollection } from 'astro:content';
 import { allEpisodes, formatDate, episodeNumber, personUrl, resolveRef, mediumOf, CONNECTION_VERBS, MEDIUM_ORDER, CONNECTION_LABELS, CONFIDENCE_LABELS, type Episode } from '../../lib/data';
 import { sortKey } from '../../lib/categories';
 import { podcastsAbout } from '../../lib/podcast-episodes';
+import { SOURCE_KINDS } from '../../lib/taxonomy.mjs';
 
 export async function getStaticPaths() {
   const eps = await allEpisodes();
@@ -46,6 +47,14 @@ const onStage = [...stagePlays, ...stageWorks.sort((a, b) => (a.year ?? '9999').
 const places = (await getCollection('locations')).filter((l) => l.data.filmed.some((f) => f.ref === e.id));
 const quotes = (await getCollection('quotes')).filter((q) => q.data.episodes.includes(e.id));
 const themes = themesOfTags(d.themes);
+// Read plan (2026-11-24): the published story this episode adapts, and the books, comics, magazines and essays that
+// reprint, adapt or discuss it (every print record whose episodes list names it).
+const PRINT = [['books', 'Books'], ['comics', 'Comics'], ['magazines', 'Magazines'], ['essays', 'Articles and essays']] as const;
+const printAll = (await Promise.all(PRINT.map(async ([col, label]) => (await getCollection(col)).filter((r: any) => !r.data.duplicate_of && (r.data.episodes ?? []).includes(e.id)).map((r: any) => ({ col, label, id: r.id as string, d: r.data as any }))))).flat();
+const stories = printAll.filter((x) => x.col === 'books' && SOURCE_KINDS.has(x.d.kind));
+const printYear = (x: { d: any }) => String(x.d.published ?? x.d.cover_date ?? '').slice(0, 4);
+const inPrint = PRINT.map(([col, label]) => [label, printAll.filter((x) => x.col === col && !stories.includes(x)).sort((a, b) => (printYear(a) || '9999').localeCompare(printYear(b) || '9999') || sortKey(a.d.title).localeCompare(sortKey(b.d.title)))] as const).filter(([, l]) => l.length > 0);
+const inPrintN = inPrint.reduce((n, [, l]) => n + l.length, 0);
 // Podcasts plan Q3: podcast episodes whose titles name this episode, from the episode table.
 const pods = await podcastsAbout(e.id);
 const podNames = [...new Map(pods.map((r) => [r.podcast.id, r.podcast])).values()].sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title)));
@@ -76,7 +85,8 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
     {d.runtime_min && <><dt>Runtime</dt><dd>{d.runtime_min} minutes</dd></>}
     {d.production_code && <><dt>Production code</dt><dd>{d.production_code}</dd></>}
     {d.writers.length > 0 && <><dt>Written by</dt><dd>{d.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}{d.writing_credit_note && <div class="small muted">{d.writing_credit_note}</div>}</dd></>}
-    {d.source_authors.length > 0 && <><dt>Based on a story by</dt><dd>{d.source_authors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
+    {d.source_authors.length > 0 && !d.source_authors.every((n) => stories.some((x) => (x.d.authors ?? []).includes(n))) && <><dt>Based on a story by</dt><dd>{d.source_authors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
+    {stories.length > 0 && <><dt>Based on</dt><dd>{stories.map((x, i) => <>{i > 0 && '; '}<a href={`/books/${x.id}/`}>"{x.d.title}"</a>{x.d.authors?.length > 0 && <> by {x.d.authors.join(', ')}</>}{x.d.first_published_in && <span class="muted"> (first published in {x.d.first_published_in}{x.d.first_published && `, ${formatDate(x.d.first_published)}`})</span>}</>)}</dd></>}
     {d.directors.length > 0 && <><dt>Directed by</dt><dd>{d.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
     {d.narrator && <><dt>Narrator</dt><dd><a href={personUrl(d.narrator)}>{d.narrator}</a></dd></>}
     {d.cast.length > 0 && <><dt>Cast</dt><dd>{d.cast.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
@@ -114,6 +124,21 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
           <li>{t.text} <span class="small muted">({t.sources.map((src, i) => <>{i > 0 && ', '}{src.url ? <a href={src.url} rel="noopener">{src.title}</a> : src.title}</>)})</span></li>
         ))}
       </ul>
+    </section>
+  )}
+
+  {inPrintN > 0 && (
+    <section id="in-print">
+      <h2>In print <span class="muted small">({inPrintN})</span></h2>
+      <p class="small muted">Books, comics, magazines and essays that reprint, adapt or discuss this episode.</p>
+      {inPrint.map(([label, list]) => (
+        <>
+          <h3>{label}</h3>
+          <ul class="plain">
+            {list.map((x) => <li><a href={`/${x.col}/${x.id}/`}>{x.d.title}</a>{(() => { const m = [x.d.authors?.slice(0, 2).join(', '), x.d.magazine ?? x.d.published_in ?? x.d.publisher, printYear(x)].filter(Boolean).join(' · '); return m && <span class="muted small"> · {m}</span>; })()}</li>)}
+          </ul>
+        </>
+      ))}
     </section>
   )}
 

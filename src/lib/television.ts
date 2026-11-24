@@ -4,9 +4,11 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { buildShowIndex, isEntryOnly } from './tv-shows.mjs';
 import { segmentThemes, inheritedThemes, ordered } from './themes';
+import { SOURCE_KINDS } from './taxonomy.mjs';
 
 const films = await getCollection('films');
 const byId = new Map(films.map((f) => [f.id, f]));
+const stories = (await getCollection('books')).filter((b) => !b.data.duplicate_of && SOURCE_KINDS.has(b.data.kind ?? ''));
 export const tv = buildShowIndex(films);
 
 /** Address of a film record: its own page, or its entry on its show's page. */
@@ -17,7 +19,7 @@ export function filmHref(id: string): string {
 export { isEntryOnly };
 
 export interface ExPerson { name: string }
-export interface ExSegment { title: string; summary?: string; source_title?: string; source_authors: string[]; writers: string[]; directors: string[]; cast: string[]; adapts?: { title: string; href: string }; themes: string[] }
+export interface ExSegment { title: string; summary?: string; source_title?: string; source_authors: string[]; story?: { href: string; first?: string }; writers: string[]; directors: string[]; cast: string[]; adapts?: { title: string; href: string }; themes: string[] }
 export interface ExLink { id: string; kind: string; certainty: string; title: string; href: string; evidence?: string }
 export interface ExEntry {
   id: string;
@@ -91,9 +93,13 @@ export async function explorerEntries(ids: string[]): Promise<ExEntry[]> {
       if (t) links.push({ id: c.id, kind: c.data.kind, certainty: c.data.confidence, title: t.title, href: t.href, evidence: c.data.evidence ?? c.data.summary });
     }
     const segments: ExSegment[] = [];
+    // Read plan: the story record a segment adapts (same episode, same author), for a link to "The stories behind the episodes".
+    const myStories = stories.filter((b) => b.data.episodes.includes(`films/${id}`));
     for (const sg of d.segments) {
       const adapts = sg.adapts_episode ? await resolveTz(sg.adapts_episode) : undefined;
-      segments.push({ title: sg.title, summary: sg.summary, source_title: sg.source_title, source_authors: sg.source_authors, writers: sg.writers, directors: sg.directors, cast: sg.cast, adapts, themes: segmentThemes(id, segments.length) });
+      const st = sg.source_authors.length ? myStories.find((b) => b.data.authors.includes(sg.source_authors[0])) : undefined;
+      const story = st && { href: `/books/${st.id}/`, first: [st.data.first_published_in, st.data.first_published?.slice(0, 4)].filter(Boolean).join(', ') || undefined };
+      segments.push({ title: sg.title, summary: sg.summary, source_title: sg.source_title, source_authors: sg.source_authors, story, writers: sg.writers, directors: sg.directors, cast: sg.cast, adapts, themes: segmentThemes(id, segments.length) });
     }
     const segThemes = ordered(segments.flatMap((sg) => sg.themes));
     const epThemes = segThemes.length ? [] : await inheritedThemes(mine.map((c) => c.data.to));

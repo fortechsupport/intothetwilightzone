@@ -1,6 +1,7 @@
 title: 'Patterns: Four Television Plays with the Author''s Personal Commentaries'
 authors:
 - Rod Serling
+kind: scripts
 relevance: related
 sources:
 - title: IntoTheTwilightZone research spreadsheets
@@ -9,3 +10,5 @@ locked: true
 description: Rod Serling's 1957 collection of four of his live-television plays (Patterns, The Rack, Old MacDonald
   Had a Curve and Requiem for a Heavyweight), with his own commentary on writing for television. It predates The
   Twilight Zone and shows the dramatist Serling was before it.
+categories:
+- reading/serling-own-writing

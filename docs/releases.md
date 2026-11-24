@@ -3,6 +3,26 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — The stories behind the episodes, and a tidier Read shelf
+
+Visitors can now:
+- Browse **The stories behind the episodes** (Read): a page for each published story, radio play or book an episode
+  of The Twilight Zone or a Night Gallery segment adapts, from Damon Knight's "To Serve Man" to H. P. Lovecraft's
+  "Pickman's Model", grouped by show. Each says who wrote it, who wrote the teleplay and, where a source we read says
+  so, the magazine or book it first appeared in.
+- See on every episode page the story it is **based on**, linked, and an **In print** list of the books, comics,
+  magazines and essays that reprint, adapt or discuss that episode. Night Gallery segments link their stories too.
+- Find every book on one shelf only: script books now sit on Scripts and teleplays alone, every book has a group, and
+  Matheson's and Bradbury's novels sit under "Books by the show's writers" instead of under Night Gallery.
+- Find Rod Serling's own books (his story collections, the Night Gallery books, Patterns and the Gauntlet script
+  volumes) in "Rod Serling's own writing", beside his articles and talks.
+- Read twenty more reviews, from the New York Times on Patterns (1955) to AudioFile on the radio dramas (2005).
+
+**Known not to work yet:**
+- Some stories have no first publication yet: each page says so. Ten episodes credited only "from a story by" someone
+  have no story page, because no source names the story.
+- Three AudioFile reviews now redirect to another site, so their verdicts could not be read.
+
 ## 2026-11-24 — Every show's discs beside Where to watch
 
 Visitors can now:
