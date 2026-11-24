@@ -9,6 +9,7 @@ details:
   venue: Disney's Hollywood Studios, Walt Disney World Resort
   location: Bay Lake, Florida, USA
   opened: '1994-07-22'
+duplicate_of: locations/tower-of-terror-disneys-hollywood-studios
 sources:
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_Tower_of_Terror

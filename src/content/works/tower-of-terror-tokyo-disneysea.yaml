@@ -9,6 +9,7 @@ details:
   venue: Tokyo DisneySea, Tokyo Disney Resort
   location: Urayasu, Chiba, Japan
   opened: '2006'
+duplicate_of: locations/tower-of-terror-tokyo-disneysea
 sources:
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_Tower_of_Terror

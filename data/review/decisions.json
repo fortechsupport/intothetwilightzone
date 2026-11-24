@@ -31302,5 +31302,25 @@
   "status": "include",
   "notes": "Meet overnight pass: organization named in the site's sourced records (sponsors, makers, licensees, producers); included under Adam's rule of 2026-11-23.",
   "date": "2026-11-24"
+ },
+ "locations/vancouver-aquarium-2002-series": {
+  "status": "include",
+  "notes": "Visit overnight pass: one listing site only, labelled unconfirmed; included under Adam's rule of 2026-11-23 so fans can confirm or vote it down.",
+  "date": "2026-11-24"
+ },
+ "organizations/persistence-of-vision": {
+  "status": "include",
+  "notes": "Visit overnight pass: production company of the 1985 revival (Wikipedia); included.",
+  "date": "2026-11-24"
+ },
+ "organizations/london-films": {
+  "status": "include",
+  "notes": "Visit overnight pass: production company of the 1985 revival's third season (Wikipedia); included.",
+  "date": "2026-11-24"
+ },
+ "organizations/atlantis-films": {
+  "status": "include",
+  "notes": "Visit overnight pass: Canadian co-producer of the 1985 revival's third season (Wikipedia, U of T Media Archives); included.",
+  "date": "2026-11-24"
  }
 }

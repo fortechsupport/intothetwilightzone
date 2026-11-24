@@ -70,8 +70,8 @@ first because everything else links to it.
 | 17 | Meet: People | Done 2026-11-24: every record decided; new Game makers shelf; 3 identities likely, not confirmed. |
 | 18 | Meet: Characters | Done 2026-11-24 for the four series (69 shown); Night Gallery and the radio dramas still have none. |
 | 19 | Meet: Organizations | Done 2026-11-24: 93 records; sponsors, producers and licensed makers added. Fictional ones still none. |
-| 20 | Visit: Real places | Partial. |
-| 21 | Visit: Settings | Thin: 35 settings across 394 episodes. |
+| 20 | Visit: Real places | Done 2026-11-24: eleven duplicates merged, filming locations by show; 1985 locations undocumented. |
+| 21 | Visit: Settings | Reviewed 2026-11-24, unchanged: 35 settings; a pass over the episode records would add more. |
 | 22 | Media Library content | Quotes (34) and archive holdings (10) are thin; reviews are partial. Content is gathered while doing 1–21, so this pass only closes what is left. |
 
 ---
@@ -419,7 +419,7 @@ Prentice Hall, StudySync, EDSITEment or CommonLit lessons; Serling's college spe
 ## 9. Visit (directory)
 
 ### Real places
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [x] Researched · [x] Records decided · [x] Pages built (docs/plans/research-visit.md, 2026-11-24)
 
 | Subcategory | Records | Depth |
 |---|---:|---|
@@ -434,7 +434,7 @@ Prentice Hall, StudySync, EDSITEment or CommonLit lessons; Serling's college spe
 **Likely missing:** filming locations for the 1985, 2002 and 2019 series (Vancouver and elsewhere) and for the films; a Binghamton and Syracuse walking map.
 
 ### Settings
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [x] Researched · [x] Records decided · [x] Pages built (docs/plans/research-visit.md, 2026-11-24)
 
 | Group | Records | Depth |
 |---|---:|---|

@@ -7,6 +7,7 @@ description: A two-sided state historical marker at the college Serling attended
 details:
   location: Antioch College campus, Yellow Springs, Greene County, Ohio
   dedicated: 2025-10-02
+duplicate_of: locations/antioch-college-rod-serling-markers
 sources:
 - title: remarkableohio.org
   url: https://remarkableohio.org/?p=78969

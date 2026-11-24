@@ -7,6 +7,7 @@ description: A memorial plaque in the restored bandstand that refers to "Walking
 details:
   venue: Recreation Park bandstand (gazebo)
   location: Binghamton, New York, USA
+duplicate_of: locations/rod-serling-gazebo-recreation-park
 sources:
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/Recreation_Park_(Binghamton)
