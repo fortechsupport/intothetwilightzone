@@ -3,6 +3,15 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Gold Key #65-77 credited
+
+Visitors can now:
+- See the creators of Gold Key's Twilight Zone #65-77 (1975-1977), among them Jose Luis Garcia-Lopez, Alex Niño,
+  Don Glut, Bob McLeod, Steve Skeates and Jesse Santos, from the Grand Comics Database's credits.
+
+**Known not to work yet:**
+- 11 Gold Key issues (#78-88) are still being read in paced rounds.
+
 ## 2026-11-24 — Twelve more Gold Key issues credited
 
 Visitors can now:
