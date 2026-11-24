@@ -8,3 +8,14 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: Northern Exposure
+releases:
+- date: '2004-05-25'
+  format: DVD
+  title: 'Northern Exposure: The Complete First Season'
+  publisher: Universal Studios Home Entertainment
+  region: Region 1
+  note: Season 1 ran from 12 July to 30 August 1990, so it holds this 1990 episode (worked out from the air date).
+    Region 2 on 21 May 2001.
+  sources:
+  - title: 'Wikipedia: Northern Exposure'
+    url: https://en.wikipedia.org/wiki/Northern_Exposure

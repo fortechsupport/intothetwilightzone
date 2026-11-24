@@ -8,3 +8,13 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: Girls on Top
+releases:
+- date: '2007'
+  format: DVD
+  title: 'Girls on Top: The Complete Series'
+  publisher: Network
+  region: Region 2
+  note: Episode 6 of series 1 (27 November 1985).
+  sources:
+  - title: 'Wikipedia: Girls on Top (British TV series)'
+    url: https://en.wikipedia.org/wiki/Girls_on_Top_(British_TV_series)

@@ -14,3 +14,13 @@ research_confidence: high
 relevance: related
 last_verified: '2026-11-19'
 locked: true
+releases:
+- date: '2007-11-20'
+  format: HD DVD/DVD
+  title: 'Star Trek: The Original Series, Season 1 (remastered)'
+  publisher: CBS Home Entertainment
+  note: Wikipedia's production list puts this episode under Season 1. A hybrid HD DVD/DVD set, distributed by Paramount
+    Home Entertainment.
+  sources:
+  - title: 'Wikipedia: Star Trek: The Original Series'
+    url: https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series

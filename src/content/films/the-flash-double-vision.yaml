@@ -9,3 +9,12 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: The Flash (1990)
+releases:
+- date: 2006-01
+  format: DVD
+  title: 'The Flash: the complete series'
+  note: The series ran one season, and Wikipedia says "the entire series was released on DVD in January 2006" (title
+    and label not given). On Blu-ray in June 2024.
+  sources:
+  - title: 'Wikipedia: The Flash (1990 TV series)'
+    url: https://en.wikipedia.org/wiki/The_Flash_(1990_TV_series)

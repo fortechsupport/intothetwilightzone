@@ -8,3 +8,13 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: The Many Loves of Dobie Gillis
+releases:
+- date: '2014-12-16'
+  format: DVD
+  title: 'The Many Loves of Dobie Gillis: The Fourth Season'
+  publisher: Shout! Factory
+  note: Season 4 ran from 26 September 1962 to 5 June 1963, so it holds this 1963 episode (worked out from the air
+    date). Also in The Complete Series (2 July 2013).
+  sources:
+  - title: 'Wikipedia: The Many Loves of Dobie Gillis'
+    url: https://en.wikipedia.org/wiki/The_Many_Loves_of_Dobie_Gillis

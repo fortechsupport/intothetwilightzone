@@ -8,3 +8,13 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: Red Dwarf
+releases:
+- date: '1999-10-04'
+  format: VHS
+  title: 'Red Dwarf VIII: Byte One, "Back in the Red"'
+  publisher: CBS/Fox
+  note: Wikipedia lists this Series VIII tape under the episode's title. The Series VIII DVD followed in 2006 (Region
+    2 on 27 March 2006).
+  sources:
+  - title: 'Wikipedia: Red Dwarf'
+    url: https://en.wikipedia.org/wiki/Red_Dwarf

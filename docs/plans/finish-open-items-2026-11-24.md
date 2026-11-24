@@ -47,8 +47,10 @@ second-pass-2026-11-24.md, and every "Known not to work yet" line in docs/releas
   Mystery Science Theater 3000, Star Trek, The Nanny), each from its Wikipedia infobox and lead. 89 shows with one or
   two entries keep their show page, which says no show record is held (the rule in research-television.md).
 - **Done (PR B):** home video rows on series and film pages link to their full records where one exists (21 rows).
-- **Not finished:** home video and streaming links for each of the other shows. Where to watch is on every show page
-  (decision 0003); per-show disc releases are a research round of their own (about 110 shows).
+- **Done (three-rounds plan, PR 2):** "Home video" beside Where to watch for 149 of the 155 shows (data/fan/discs.yaml,
+  each line sourced to the show's Wikipedia article), and release rows on 28 episode records. The five left (The
+  Simpsons, Futurama, WandaVision, The Catholic Hour, Tales of the Unusual) are listed in
+  docs/plans/three-research-rounds-2026-11-24.md.
 
 ### Movies
 - **Done (earlier):** Duel's second record is a duplicate of the first and hidden.

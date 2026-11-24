@@ -11,3 +11,13 @@ sources:
 research_confidence: medium
 last_verified: '2026-11-20'
 locked: true
+releases:
+- date: '2024-03-19'
+  format: DVD
+  title: 'Extreme Ghostbusters: The Complete Series'
+  publisher: Sony Pictures Home Entertainment
+  note: Episode 14 of the only season. The 2009 two-disc DVD of the first thirteen episodes and the 1999 VHS volumes
+    do not include it.
+  sources:
+  - title: 'Wikipedia: Extreme Ghostbusters'
+    url: https://en.wikipedia.org/wiki/Extreme_Ghostbusters

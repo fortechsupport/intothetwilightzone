@@ -15,3 +15,14 @@ sources:
 research_confidence: low
 last_verified: '2026-11-20'
 locked: true
+releases:
+- date: '2006-03-28'
+  format: DVD
+  title: 'Robot Chicken: The Complete First Season'
+  region: Region 1
+  note: Season 1 ran from 20 February to 17 July 2005, so it holds this 2005 episode (worked out from the air date).
+    Wikipedia says the set has sketches edited from the TV airings. Region 2 on 29 September 2008, Region 4 on 4
+    April 2007.
+  sources:
+  - title: 'Wikipedia: Robot Chicken'
+    url: https://en.wikipedia.org/wiki/Robot_Chicken

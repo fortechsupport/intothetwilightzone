@@ -12,3 +12,12 @@ research_confidence: high
 relevance: related
 last_verified: '2026-11-19'
 locked: true
+releases:
+- date: '2008-08-05'
+  format: DVD
+  title: 'Star Trek: The Original Series, Season 2 (remastered)'
+  publisher: CBS Home Entertainment
+  note: Wikipedia's production list puts this episode under Season 2. Distributed by Paramount Home Entertainment.
+  sources:
+  - title: 'Wikipedia: Star Trek: The Original Series'
+    url: https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series

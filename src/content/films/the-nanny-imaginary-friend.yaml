@@ -8,3 +8,14 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: The Nanny
+releases:
+- date: '2005-07-12'
+  format: DVD
+  title: 'The Nanny: The Complete First Season'
+  publisher: Sony Pictures Home Entertainment
+  region: Region 1
+  note: Season 1 ran from 3 November 1993 to 16 May 1994, so it holds this 1993 episode (worked out from the air
+    date). Mill Creek re-released it on 5 August 2014.
+  sources:
+  - title: 'Wikipedia: The Nanny'
+    url: https://en.wikipedia.org/wiki/The_Nanny

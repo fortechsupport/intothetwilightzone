@@ -38,6 +38,7 @@ export interface ExEntry {
   themesFrom?: 'segments' | 'episodes';
   sources: CollectionEntry<'films'>['data']['sources'];
   media: CollectionEntry<'films'>['data']['media'];
+  releases: CollectionEntry<'films'>['data']['releases']; // the disc that holds this entry (three-rounds plan, 2026-11-24)
   verified?: string;
 }
 
@@ -101,7 +102,7 @@ export async function explorerEntries(ids: string[]): Promise<ExEntry[]> {
       id, title: shortTitle(id, d.title), date: d.release_date, ...groupOf(id, d), kindLabel: KIND_LABEL[d.kind],
       summary: d.summary, aka: d.aka, segments, writers: d.writers, creditNote: d.writing_credit_note, directors: d.directors, cast: d.cast, links,
       themes, themesFrom: segThemes.length ? 'segments' : epThemes.length ? 'episodes' : undefined,
-      sources: d.sources, media: d.media, verified: d.last_verified,
+      sources: d.sources, media: d.media, releases: d.releases, verified: d.last_verified,
     });
   }
   const groupRank = (g: string) => (/^Season (\d+)/.exec(g) ? Number(/^Season (\d+)/.exec(g)![1]) : g === 'Episodes' ? 0 : g === 'More about the series' ? 999 : 500);

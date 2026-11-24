@@ -8,3 +8,13 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: Freaks and Geeks
+releases:
+- date: '2004-04-06'
+  format: DVD
+  title: 'Freaks and Geeks: The Complete Series'
+  publisher: Shout! Factory and Sony BMG Music
+  note: Episode 4 of the only season. NBC did not air it; it was first shown on Fox Family on 5 September 2000.
+    Wikipedia says all US discs have been out of print since July 2021.
+  sources:
+  - title: 'Wikipedia: Freaks and Geeks'
+    url: https://en.wikipedia.org/wiki/Freaks_and_Geeks

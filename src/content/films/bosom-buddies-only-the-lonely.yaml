@@ -8,3 +8,13 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: Bosom Buddies
+releases:
+- date: '2007-03-13'
+  format: DVD
+  title: 'Bosom Buddies: The First Season'
+  publisher: CBS DVD (Paramount)
+  region: Region 1
+  note: Episode 14 of season 1. Wikipedia says the DVDs replace the opening theme and edit or drop many songs.
+  sources:
+  - title: 'Wikipedia: Bosom Buddies'
+    url: https://en.wikipedia.org/wiki/Bosom_Buddies

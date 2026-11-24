@@ -8,3 +8,12 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: Blood Ties
+releases:
+- date: '2009-06-02'
+  format: DVD
+  title: 'Blood Ties: The Complete First Season'
+  region: Region 1
+  note: Episode 4 of season 1. Also in the complete series on DVD and Blu-ray (6 April 2010).
+  sources:
+  - title: 'Wikipedia: Blood Ties (TV series)'
+    url: https://en.wikipedia.org/wiki/Blood_Ties_(TV_series)

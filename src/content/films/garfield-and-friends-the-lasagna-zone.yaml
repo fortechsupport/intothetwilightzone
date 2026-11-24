@@ -15,3 +15,14 @@ sources:
 research_confidence: low
 last_verified: '2026-11-20'
 locked: true
+releases:
+- date: '2019-11-05'
+  format: DVD
+  title: 'Garfield and Friends: Season 2'
+  publisher: 9 Story Media Group
+  region: Region 1
+  note: Season 2 aired from 16 September to 16 December 1989, so it holds this 1989 episode (worked out from the
+    air date). Also in 20th Century Fox's five-volume set.
+  sources:
+  - title: 'Wikipedia: Garfield and Friends'
+    url: https://en.wikipedia.org/wiki/Garfield_and_Friends
