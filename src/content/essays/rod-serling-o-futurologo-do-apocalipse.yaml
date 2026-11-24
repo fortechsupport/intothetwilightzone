@@ -1,5 +1,8 @@
 title: Rod Serling, o futurólogo do apocalipse
+authors:
+- 'Márcio Pinheiro'
 published_in: Brazil Journal
+published: '2025-06-29'
 kind: article
 description: Portuguese-language essay presenting Serling as a forecaster of modern catastrophe.
 links:
@@ -8,5 +11,6 @@ research_confidence: medium
 sources:
 - title: Brazil Journal
   url: https://braziljournal.com/rod-serling-o-futurologo-do-apocalipse/
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: byline Márcio Pinheiro, dated "29 de junho de 2025".'
+last_verified: '2026-11-24'
 locked: true

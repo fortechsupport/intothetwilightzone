@@ -3,6 +3,20 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — More Gold Key credits and article bylines
+
+Visitors can now:
+- See the creators of 10 more Gold Key Twilight Zone issues (28 in all), including stories inked by Frank Frazetta
+  and Al Williamson's layouts for Reed Crandall.
+- Read the author and date of 32 more articles and interviews (59 in this pass), from Grantland's "Requiem for Rod
+  Serling" to the Village Voice's review of Arlen Schumer's book.
+- Find "Congress Remains in the Twilight Zone" credited correctly to columnist David Rossie (2000), not to Serling.
+- See publication years for Sci Fi TV (1995), The Gospel According to Science Fiction (2007) and Beyond Peyton Place
+  (2008).
+
+**Known not to work yet:**
+- 66 comics, 118 essays (author), 63 essays (date) and 31 books (date) are still being filled in, in paced rounds.
+
 ## 2026-11-24 — More cover artists, Gold Key comic credits, essay bylines
 
 Visitors can now:

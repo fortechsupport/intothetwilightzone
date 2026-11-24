@@ -2,6 +2,16 @@ title: 'The Twilight Zone # 26'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 30
+creators:
+- Leo Dorfman (writer)
+- Paul S. Newman (writer)
+- George Evans (pencils, inks)
+- Joe Certa (pencils, inks)
+- Reed Crandall (pencils)
+- Rex Maxon (pencils, inks)
+- Ben Oda (letters)
+- Jon D'Agostino (letters)
+- George Wilson (cover)
 cover_date: 1968-07
 ids:
   amazon_asin: B0C34J3P7T
@@ -9,13 +19,16 @@ links:
   info: https://www.comics.org/issue/22008/
 research_confidence: high
 sources:
+- title: 'Heritage Auctions comic issue index (Grand Comics Database data)'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=22008
+  note: 'Read 2026-11-24 for the creator credits (cover and story pencils, inks, scripts and letters; Heritage states the data is courtesy of the Grand Comics Database under a Creative Commons licence). Credits the index marks as uncertain, left off the list: Reed Crandall (inks).'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key), page 1'
   url: https://www.mycomicshop.com/search?TID=193921
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key) issue listing with contents'
   url: https://www.mycomicshop.com/search?TID=193921
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true
 description: 'Issue 26 of Gold Key''s licensed Twilight Zone anthology comic (July 1968). Stories: "The Bridegroom"
   (George Evans); "Travelers in the Twilight Zone" (George Evans); "The Joiner" (Reed Crandall and George Evans).

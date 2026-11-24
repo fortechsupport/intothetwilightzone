@@ -3,9 +3,17 @@ authors:
 - Gabriel McKee
 kind: scholarly
 relevance: related
+published: '2007'
 sources:
+- title: 'Texas A&M University Libraries catalogue record'
+  url: https://libcat.library.tamu.edu/Record/in00002230576
+  note: 'Read 2026-11-24: "Louisville : Westminster John Knox Press, [2007]", 1st ed.'
+- title: 'Publishers Weekly: review listing'
+  url: https://www.publishersweekly.com/978-0-664-22901-6
+  note: 'Read 2026-11-24: Westminster John Knox, 291 pages, ISBN 978-0-664-22901-6.'
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+last_verified: '2026-11-24'
 locked: true
 description: Gabriel McKee's study of religious ideas in science fiction, which uses The Twilight Zone as one of
   its main examples. Only part of the book is about the show.

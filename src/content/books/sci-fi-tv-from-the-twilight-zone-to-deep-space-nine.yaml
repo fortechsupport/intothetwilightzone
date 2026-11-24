@@ -3,9 +3,17 @@ authors:
 - James Van Hise
 kind: scholarly
 relevance: related
+published: '1995'
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): publication record'
+  url: https://authorwars.com/publications/sci-fi-tv-from-the-twilight-zone-to-deep-space-nine-359167.html
+  note: 'Read 2026-11-24: HarperPrism, 1995, paperback, 258 pages, ISBN 0061054364.'
+- title: 'Open Library: Sci Fi TV (work record)'
+  url: https://openlibrary.org/works/OL2699125W
+  note: 'Read 2026-11-24: "Publish Date July 1995".'
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
+last_verified: '2026-11-24'
 locked: true
 description: James Van Hise's survey of American science-fiction television from the late 1950s to the early 1990s,
   which opens with The Twilight Zone.

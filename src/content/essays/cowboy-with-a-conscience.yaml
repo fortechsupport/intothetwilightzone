@@ -2,6 +2,7 @@ title: Cowboy with a Conscience
 authors:
 - Tony Albarella
 published_in: Rod Serling Memorial Foundation
+published: '2003-12-10'
 kind: article
 description: Tony Albarella article on the Serling Foundation site, apparently about Serling's western writing (contents
   not checked beyond the title).
@@ -11,9 +12,12 @@ categories:
 - reading/serling-foundation-papers
 research_confidence: medium
 sources:
+- title: 'Rod Serling Memorial Foundation: the article page'
+  url: https://rodserling.com/cowboy-with-a-conscience-2/
+  note: 'Read 2026-11-24 for the byline and date: "By Tony Albarella", dated December 10th, 2003 in the post header.'
 - title: Articles - Rod Serling Memorial Foundation
   url: https://rodserling.com/articles-2
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true
 organizations:
 - Rod Serling Memorial Foundation

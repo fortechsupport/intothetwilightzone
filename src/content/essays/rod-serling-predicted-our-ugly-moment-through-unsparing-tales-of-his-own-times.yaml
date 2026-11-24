@@ -1,5 +1,8 @@
 title: Rod Serling Predicted Our Ugly Moment Through Unsparing Tales of His Own Times
+authors:
+- 'Robert Shuster'
 published_in: The Village Voice
+published: '2024-10-31'
 kind: article
 description: Village Voice essay arguing that Serling's hard-edged stories about his own era foresaw today's political
   climate.
@@ -9,5 +12,6 @@ research_confidence: medium
 sources:
 - title: The Village Voice
   url: https://villagevoice.com/?p=787046
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: byline Robert Shuster, dated October 31, 2024; a review of Arlen Schumer''s book The Five Themes of the Twilight Zone.'
+last_verified: '2026-11-24'
 locked: true

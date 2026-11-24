@@ -1,4 +1,6 @@
 title: Rod Serling Reveals His Favorite Twilight Zone Episodes
+authors:
+- 'Joey Paur'
 published_in: GeekTyrant
 published: '2010-09-07'
 kind: article
@@ -11,7 +13,10 @@ links:
   online: http://geektyrant.com/news/2010/9/7/rod-serling-revels-his-favorite-twilight-zone-episodes.html
 research_confidence: high
 sources:
+- title: 'GeekTyrant: the article page'
+  url: http://geektyrant.com/news/2010/9/7/rod-serling-revels-his-favorite-twilight-zone-episodes.html
+  note: 'Read 2026-11-24 for the byline and date: "by Joey Paur"; the page prints only a relative date ("about 16 years ago").'
 - title: The Twilight Zone (1959 TV series) - Wikipedia (references)
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

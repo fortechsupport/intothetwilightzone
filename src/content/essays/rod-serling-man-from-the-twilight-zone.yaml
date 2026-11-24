@@ -1,6 +1,8 @@
 title: 'Rod Serling: Man From the Twilight Zone'
+authors:
+- 'Todd F. Eklof'
 published_in: Unitarian Universalist Church of Spokane (sermon/talk PDF)
-published: 2025-01
+published: '2024-11-24'
 kind: speech
 description: Talk delivered at a Unitarian Universalist congregation on Serling, a UU member, and the values in
   his work.
@@ -10,5 +12,6 @@ research_confidence: medium
 sources:
 - title: Unitarian Universalist Church of Spokane (sermon/talk PDF)
   url: https://uuspokane.org/wp-content/uploads/2025/01/Rod-Serling-Man-From-the-Twilight-Zone.pdf
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: sermon text by "Rev. Dr. Todd F. Eklof", dated November 24, 2024 (the record had January 2025, the month of the PDF''s upload address).'
+last_verified: '2026-11-24'
 locked: true
