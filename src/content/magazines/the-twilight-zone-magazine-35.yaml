@@ -3,6 +3,7 @@ magazine: The Twilight Zone Magazine
 cover_date: Mar-Apr 1985
 order: 35
 publisher: TZ Publications, Inc.
+cover_artist: Luke Ryan
 editor: T.E.D. Klein
 description: 'April 1985 issue, edited by T.E.D. Klein. Fiction: "Wiley''s Hunger" by David B. Schock; "In the Shadow
   of the Castle" by Randolph Cirilo; "Does It Make a Sound?" by Joseph Calabro; "Airmail" by Ken McCormack; "Bloodfall"
@@ -21,6 +22,9 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60187
 research_confidence: high
 sources:
+- title: 'FantLab (Russian science fiction catalogue): edition record for the March/April 1985 issue'
+  url: https://fantlab.ru/edition517383
+  note: 'Read 2026-11-24 for the cover credit, from the edition description: "Vol 5, No 1." "Cover art by Luke Ryan; interior art by Brad Hamann."'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Wikipedia: The Twilight Zone (1985 TV series) (references)'
@@ -29,7 +33,7 @@ sources:
     is in copyright.
 - title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
   url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true
 episodes:
 - 1959/where-is-everybody

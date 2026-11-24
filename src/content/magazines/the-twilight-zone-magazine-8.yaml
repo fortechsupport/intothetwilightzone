@@ -3,6 +3,7 @@ magazine: The Twilight Zone Magazine
 cover_date: Nov 1981
 order: 8
 publisher: TZ Publications, Inc.
+cover_artist: Clayton Campbell
 editor: T.E.D. Klein
 description: November 1981 special Halloween issue with fiction by Tanith Lee, Thomas M. Disch, Ramsey
   Campbell and Melissa Mia Hall and an interview with John Saul. It carried part eight of Zicree's episode
@@ -17,5 +18,6 @@ sources:
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 8'
   url: https://twilightzonevortex.blogspot.com/2018/05/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+  note: 'Read 2026-11-24 for the cover credit: "Cover Art: Clayton Campbell".'
+last_verified: '2026-11-24'
 locked: true

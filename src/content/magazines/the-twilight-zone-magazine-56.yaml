@@ -3,10 +3,14 @@ magazine: The Twilight Zone Magazine
 cover_date: Oct 1988
 order: 56
 publisher: TZ Publications, Inc.
+cover_artist: Richard Newton
 editor: Tappan King
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60204
 sources:
+- title: 'FantLab (Russian science fiction catalogue): edition record for the October 1988 issue'
+  url: https://fantlab.ru/edition518115
+  note: 'Read 2026-11-24 for the cover credit: "Cover art by Richard Newton; interior art by Brad Hamann, Scott Hunt" (edition description, Vol 8, No 4).'
 - title: 'AuthorWars (ISFDb-based catalogue): issue page'
   url: https://authorwars.com/publications/rod-serlings-the-twilight-zone-magazine-october-1988-60204.html
   note: Read 2026-11-24 for the cover credit.

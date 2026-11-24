@@ -3,6 +3,7 @@ magazine: The Twilight Zone Magazine
 cover_date: May-Jun 1984
 order: 30
 publisher: TZ Publications, Inc.
+cover_artist: Carl Wesley
 editor: T.E.D. Klein
 description: May-June 1984 issue whose Carl Wesley cover shows William Shatner and the gremlin from 'Nightmare
   at 20,000 Feet'; it reprinted Richard Matheson's teleplay for that episode with his essay 'Matheson
@@ -12,9 +13,12 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60192
 research_confidence: high
 sources:
+- title: 'Internet Archive: scan of the issue (text layer)'
+  url: https://archive.org/stream/Twilight_Zone_v04n02_1984-06_noads/Twilight_Zone_v04n02_1984-06_noads_djvu.txt
+  note: 'Read 2026-11-24 for the cover credit: "Cover art by Carl Wesley" (contents page).'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 30'
   url: https://twilightzonevortex.blogspot.com/2026/01/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true

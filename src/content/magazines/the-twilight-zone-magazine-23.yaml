@@ -3,6 +3,7 @@ magazine: The Twilight Zone Magazine
 cover_date: Mar-Apr 1983
 order: 23
 publisher: TZ Publications, Inc.
+cover_artist: Kari Brayman
 editor: T.E.D. Klein
 description: 'Second-anniversary issue (March-April 1983) printing Rod Serling''s unproduced ''Notes for
   a Twilight Zone Movie'' treatment and news on the upcoming Twilight Zone: The Movie segments by Joe
@@ -15,9 +16,13 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60152
 research_confidence: high
 sources:
+- title: 'Internet Archive: scan of the issue (text layer)'
+  url: https://dn720704.ca.archive.org/0/items/Twilight_Zone_v03n01_1983-04_noads/Twilight_Zone_v03n01_1983-04_noads_djvu.txt
+  note: 'Read 2026-11-24 for the cover credit: "Covef art by Kari Broymon" (OCR text of the contents page).'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 23'
   url: https://twilightzonevortex.blogspot.com/2021/04/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+  note: 'Read 2026-11-24 for the cover credit: "Cover Art: Kari Brayman"; the Internet Archive scan''s text layer reads the contents-page line as "Covef art by Kari Broymon", an OCR misreading.'
+last_verified: '2026-11-24'
 locked: true

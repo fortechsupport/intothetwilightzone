@@ -3,6 +3,23 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — More cover artists, Gold Key comic credits, essay bylines
+
+Visitors can now:
+- See who made the cover of 40 of the 60 issues of The Twilight Zone Magazine (23 more than before), among them Ralph
+  Mercer, Clayton Campbell, Malcolm McNeill, Walter Velez, Carl Wesley, Richard Newton and Hajime Sorayama, each read
+  from the issue's own contents page, a review of the issue or a catalogue record, and linked to the artist's page.
+- See who wrote, drew, inked and lettered 18 issues of Gold Key's Twilight Zone comic (1962-1974), such as Dick Wood,
+  Leo Dorfman, Frank Thorne, Reed Crandall, Alex Toth and the painted covers of George Wilson, from the Grand Comics
+  Database's credits.
+- Read the author and date of 27 more articles, essays and interviews, from each article's own page.
+- Learn that Rod Serling wrote the foreword to Johnny Hart's B.C. Strikes Back, and when Patterns (1957) and the Night
+  Gallery Reader (1987) were published.
+
+**Known not to work yet:**
+- 8 magazine covers have no credit in any source we can read.
+- 76 comics, 135 essays (author) and 77 essays (date), and 34 books (date) are still being filled in, in paced rounds.
+
 ## 2026-11-24 — Magazine cover artists, more first printings, three reference sites
 
 Visitors can now:

@@ -3,6 +3,7 @@ magazine: The Twilight Zone Magazine
 cover_date: Dec 1982
 order: 21
 publisher: TZ Publications, Inc.
+cover_artist: David Christiana
 editor: T.E.D. Klein
 description: December 1982 issue (numbered Vol. 2, No. 10 because No. 9 went to the annual) with an interview
   with Ridley Scott, Jack Sullivan's essay on L.P. Hartley with a Hartley reprint, and fiction by Pamela
@@ -14,9 +15,12 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60162
 research_confidence: high
 sources:
+- title: 'Internet Archive: scan of the issue (text layer)'
+  url: https://ia800805.us.archive.org/24/items/Twilight_Zone_v02n10_1982-12_noads/Twilight_Zone_v02n10_1982-12_noads.pdf
+  note: 'Read 2026-11-24 for the cover credit: "Cover art by David Christiana" (contents page).'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 21'
   url: https://twilightzonevortex.blogspot.com/2020/04/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true

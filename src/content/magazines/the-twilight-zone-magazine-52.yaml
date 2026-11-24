@@ -3,10 +3,14 @@ magazine: The Twilight Zone Magazine
 cover_date: Feb 1988
 order: 52
 publisher: TZ Publications, Inc.
+cover_artist: Jim Warren
 editor: Tappan King
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60168
 sources:
+- title: 'FantLab (Russian science fiction catalogue): edition record for the February 1988 issue'
+  url: https://fantlab.ru/edition196203
+  note: 'Read 2026-11-24 for the cover credit, from the edition description: "Cover art by Jim Warren."'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
@@ -24,5 +28,5 @@ description: 'February 1988 issue, edited by Tappan King. Fiction: "Call 666" by
   Grapevine; The Other Side. Vol. 7 No. 6. #52 = Feb 1988 matches counting back from #60 (June 1989). Elizabeth
   Hand''s ''Prince of Flowers'' was an early published story. No teleplay listed.'
 research_confidence: high
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

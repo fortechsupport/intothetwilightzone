@@ -1,5 +1,8 @@
 title: A Stop at Yellow Springs
+authors:
+- 'Jesse Bethea'
 published_in: Rod Serling Memorial Foundation (PDF)
+published: '2025-10-04'
 kind: article
 description: Serling Foundation paper (PDF) about Yellow Springs, Ohio, home of Serling's alma mater Antioch College
   (contents not checked beyond the title).
@@ -9,9 +12,12 @@ categories:
 - reading/serling-foundation-papers
 research_confidence: low
 sources:
+- title: 'Rod Serling Memorial Foundation (PDF): the article page'
+  url: https://rodserling.com/wp-content/uploads/2025/12/A-Stop-At-Yellow-Springs.pdf
+  note: 'Read 2026-11-24 for the byline and date: byline Jesse Bethea, dated "October 4, 2025" (PDF of the article).'
 - title: Articles - Rod Serling Memorial Foundation
   url: https://rodserling.com/articles-2
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true
 organizations:
 - Rod Serling Memorial Foundation

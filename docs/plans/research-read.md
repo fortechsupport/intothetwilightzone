@@ -139,23 +139,45 @@ Foreign-language editions, Rod Serling Memorial Foundation publications, Rod Ser
   pages (five cover credits, four story printings, CTVA, NightGallery.net and a Bunshun date): all twelve confirmed
   word for word. "Helnweinn" is confirmed as the catalogue's own spelling; the record uses the artist's usual spelling,
   Gottfried Helnwein, and says so.
+- **Third pass: other sources (24 November, 17:20 UTC onward, Adam: "continue working").** The gaps were reopened
+  with sources that do not refuse automated reading:
+  - *Magazine covers:* the Internet Archive's scans of the issues (their text layer prints the contents-page credit, such
+    as "Cover art by Carl Chaplin"), the Twilight Zone Vortex blog's issue-by-issue reviews ("Cover Art: Ralph Mercer")
+    and FantLab's edition records ("Cover art by Richard Newton"). Each credit cites the page it was read on. Where two
+    sources spell a name differently the record uses the issue's own spelling and says so (Tito Salomoni, written
+    "Solomoni" by the blog; Kari Brayman, read by the scan's OCR as "Kari Broymon"). A cover the blog credits to
+    "Artifact" and one it describes as a film still from *Iceman* are noted in the description, not as people.
+  - *Comic credits:* Heritage Auctions' comic issue index, which reproduces the Grand Comics Database's credits under its
+    Creative Commons licence and says so on every page. Its issue ids match the GCD ids already on our records, which
+    was checked for each issue before writing. Story pencils, inks, scripts and letters, and the cover painter, go into
+    the issue's *Creators*; a credit the index marks "?" is left off the list and named in the source note instead. The
+    back-cover pin-up, a reprint of the front cover, counts as cover art. "Paul Newman" in one issue is written Paul S.
+    Newman, as the same index names him elsewhere in the series. Two new role labels (letters, colors) were added.
+  - *Book dates:* Open Library's records. *B.C. Strikes Back* was wrongly described as a 1970s book: Open Library lists
+    1961 (Fawcett Gold Medal) and 1962 (Putnam) editions, and the Rod Serling Memorial Foundation confirms that Serling
+    wrote its foreword (quoting it), so his credit now reads "foreword" instead of co-author.
+  - *Essay bylines:* each article's own page, read in paced rounds. A sponsored HuffPost piece is labelled as such.
+    One date with no source (31 December 2024 on a book chapter) was replaced by the year the publisher's page gives.
 
 ## Waiting on Adam
 - Nothing.
 
 ## Not possible, and why
 Each item below was tried; the reason is what stopped it.
-- **Creators for 94 of the 188 comics.** The Grand Comics Database, the only full credit index for Gold Key and the
-  other series, refuses automated reading (comics.org returns 403 to our fetcher and to the shell). Comic Vine and
-  dealer listings carry credits only as page images or without sources. Adam (or a fan) could paste credits from GCD.
-- **Authors for 152 of the 379 essays and articles, dates for 89.** These came from Adam's spreadsheets and newspaper
-  indexes without bylines. Reading each original would take one fetch per item (about 240), which is more than two
-  hours of the shared limit of 100 pages an hour; most newspaper archives (Newspapers.com, ProQuest) also need a login.
-- **Cover artists for 41 of the 60 Twilight Zone Magazine issues.** Every issue's AuthorWars page was read (or, for
-  November 1982, November-December 1983, September-October 1984, November-December 1984 and January-February 1985, no
-  issue page could be found by search, and the year pages list those issues without links). The pages for the other
-  issues name no cover artist; ISFDb itself refuses automated reading, so its fuller records could not be checked.
-  Eleven of those covers are described instead (film stills, photographs, a firm, a reused book cover).
+- **Creators for 76 of the 188 comics (third pass in progress).** The Grand Comics Database refuses automated reading,
+  but Heritage Auctions' issue index carries its credits; it allows about four page reads every ten minutes, so the
+  Gold Key issues are being read in paced rounds (18 of 94 done when this was written). The Dell, Walker, Cayuga and
+  giveaway editions come after.
+- **Authors for 135 of the 379 essays and articles, dates for 77 (third pass in progress).** Each original is being
+  read in paced rounds; 27 read so far. Pages that block automated reading (Disability Studies Quarterly's site shows
+  an access-denied page) or now redirect elsewhere (the Historic Vehicle Association's article goes to the Drivers
+  Foundation's home page) are listed as such on the record. Newspaper archives behind a login are not tried.
+- **Cover artists for 8 of the 60 Twilight Zone Magazine issues** (September-October 1984, November-December 1984,
+  January-February 1985, October 1986, August 1987, December 1987, April 1988 and June 1988). AuthorWars names no artist
+  for them, FantLab has no record of those issues, the Twilight Zone Vortex's issue-by-issue reviews have not reached
+  them, and no Internet Archive scan of them turned up in search (the archive's collection page needs JavaScript).
+  Twelve more covers are described instead of credited (film stills, photographs, a firm, a reused book cover, and
+  one credited only to "Artifact").
 - **A first venue for 39 of the 99 stories** (14 have a year only, 25 nothing; 20 more give the earliest dated
   printing rather than a marked first). For these the catalogues we can read (AuthorWars, FantLab) give a year only or
   nothing, and ISFDb, philsp.com's FictionMags Index and Galactic Central refuse or do not resolve. Each page says
@@ -168,9 +190,10 @@ Each item below was tried; the reason is what stopped it.
   online, so the 1960s and 1980s Twilight Zone spoofs remain unverified and get no record.
 - **The Twilight Zone Museum** now redirects to tz-museum.com, a different address; the record keeps the old link
   until the new site can be read and checked.
-- **Dates for 38 books.** Of the 44 books without a date, the 12 with a source page were read on 24 November: the
-  four Japanese *Mysteri Zone* volumes (Bunshun, 1983-1994) and the two Italian collections (Fanucci, 2001) now have
-  dates. McFarland's site refuses automated reading; the Silman-James, Celeste review, TV Time Machine shop and
+- **Dates for 34 books (third pass in progress).** Of the 44 books without a date, the 12 with a source page were read
+  on 24 November: the four Japanese *Mysteri Zone* volumes (Bunshun, 1983-1994) and the two Italian collections
+  (Fanucci, 2001) now have dates. Open Library then dated *Patterns* (1957), *Rod Serling's Night Gallery Reader* (1987)
+  and *B.C. Strikes Back* (1961). McFarland's site refuses automated reading; the Silman-James, Celeste review, TV Time Machine shop and
   rodserling.com pages give no date. The rest came from Adam's spreadsheets with no source to read; a date found only
   in a search-result title is not used.
 

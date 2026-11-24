@@ -2,6 +2,15 @@ title: 'The Twilight Zone # 13'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 17
+creators:
+- Dick Wood (writer)
+- Frank Bolle (pencils, inks)
+- Joe Certa (pencils, inks)
+- Al McWilliams (pencils, inks)
+- Al Williamson (pencils)
+- Reed Crandall (pencils, inks)
+- Ben Oda (letters)
+- George Wilson (cover)
 cover_date: 1965-11
 ids:
   amazon_asin: B009WQV4YE
@@ -9,13 +18,16 @@ links:
   info: https://www.comics.org/issue/19604/
 research_confidence: high
 sources:
+- title: 'Heritage Auctions comic issue index (Grand Comics Database data)'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=19604
+  note: Read 2026-11-24 for the creator credits (cover and story pencils, inks, scripts and letters; Heritage states the data is courtesy of the Grand Comics Database under a Creative Commons licence).
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key), page 1'
   url: https://www.mycomicshop.com/search?TID=193921
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key) issue listing with contents'
   url: https://www.mycomicshop.com/search?TID=193921
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true
 description: 'Issue 13 of Gold Key''s licensed Twilight Zone anthology comic (November 1965). Stories: "The Man
   Who Could Read The Future" (Frank Bolle); "The Man With My Face" (Al McWilliams); "Way Out West- On Mars!" (Reed

@@ -3,6 +3,7 @@ magazine: The Twilight Zone Magazine
 cover_date: Oct 1982
 order: 19
 publisher: TZ Publications, Inc.
+cover_artist: Rob Sauber
 editor: T.E.D. Klein
 description: October 1982 issue with an interview with 'Star Trek II' director Nicholas Meyer, an essay
   on Star Trek's enduring appeal, a Simon Marsden photo feature, and fiction by Avram Davidson, Robert
@@ -18,5 +19,6 @@ sources:
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 19'
   url: https://twilightzonevortex.blogspot.com/2020/02/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+  note: 'Read 2026-11-24 for the cover credit: "Cover art: Rob Sauber (for “Summer of Monsters” by Dale Hammell)".'
+last_verified: '2026-11-24'
 locked: true

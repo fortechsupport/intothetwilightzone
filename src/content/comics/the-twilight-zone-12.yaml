@@ -2,6 +2,16 @@ title: 'The Twilight Zone # 12'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 16
+creators:
+- Leo Dorfman (writer)
+- Joe Certa (pencils, inks)
+- Joe Orlando (pencils)
+- Al Williamson (pencils, inks)
+- Don Heck (pencils)
+- Angelo Torres (inks)
+- Mike Peppe (inks)
+- Ben Oda (letters)
+- George Wilson (cover)
 cover_date: 1965-08
 ids:
   amazon_asin: B00PE110YU
@@ -9,13 +19,16 @@ links:
   info: https://www.comics.org/issue/19374/
 research_confidence: high
 sources:
+- title: 'Heritage Auctions comic issue index (Grand Comics Database data)'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=19374
+  note: Read 2026-11-24 for the creator credits (cover and story pencils, inks, scripts and letters; Heritage states the data is courtesy of the Grand Comics Database under a Creative Commons licence).
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key), page 1'
   url: https://www.mycomicshop.com/search?TID=193921
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key) issue listing with contents'
   url: https://www.mycomicshop.com/search?TID=193921
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true
 description: 'Issue 12 of Gold Key''s licensed Twilight Zone anthology comic (August 1965), with a painted cover
   by George Wilson. Stories: "The Shadow With Claws" (Joe Orlando); "The Revolt of the Machines" (Al Williamson);
