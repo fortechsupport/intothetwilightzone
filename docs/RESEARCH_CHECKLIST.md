@@ -163,7 +163,9 @@ listings have them but the BBC site blocks automated reading; no other source li
 `volume` numbering is right; OTRR's 2003–04 broadcast log not yet applied.
 
 ### Music
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+
+Plan: docs/plans/research-music.md (approved by Adam 2026-11-24, Q1 to Q6 as suggested).
 
 | Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|
