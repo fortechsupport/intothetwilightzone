@@ -1,6 +1,13 @@
 name: John Krutsch
-bio: Williams/Midway pinball mechanical engineer.
-roles: []
+bio: >-
+  John Krutsch was the mechanical engineer on Midway's Twilight Zone pinball machine (1993), sold under the Bally name. He worked on Williams and Midway pinball machines.
+roles:
+- pinball engineer
+tz_credits:
+- series: Twilight Zone (pinball, 1993)
+  work: Twilight Zone (pinball)
+  ref: works/twilight-zone-pinball-1993
+  role: mechanical engineer
 relevance: related
 research_confidence: high
 sources:

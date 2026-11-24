@@ -2,7 +2,13 @@ name: Pat Lawlor
 bio: >-
   American pinball designer known for FunHouse, The Addams Family, Twilight Zone, Red & Ted's Road Show and later
   Jersey Jack Pinball tables.
-roles: []
+roles:
+- pinball designer
+tz_credits:
+- series: Twilight Zone (pinball, 1993)
+  work: Twilight Zone (pinball)
+  ref: works/twilight-zone-pinball-1993
+  role: lead designer
 relevance: related
 research_confidence: high
 sources:

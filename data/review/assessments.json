@@ -38447,6 +38447,30 @@
   "subcategory": "Organizations",
   "sort": "cbs all access"
  },
+ "organizations/cbs-television-studios": {
+  "connection": "The CBS studio that made the 2019 revival with Monkeypaw Productions and Genre Films, for CBS All Access.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Wikipedia: The Twilight Zone (2019 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)",
+  "title": "CBS Television Studios",
+  "subcategory": "Organizations",
+  "sort": "cbs television studios"
+ },
+ "organizations/colgate-palmolive": {
+  "connection": "Replaced Kimberly-Clark as a sponsor of the original series during its first season (1959-60).",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Wikipedia: The Twilight Zone (1959 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)",
+  "title": "Colgate-Palmolive",
+  "subcategory": "Organizations",
+  "sort": "colgatepalmolive"
+ },
  "organizations/comic-book-roundup": {
   "connection": "Comic review aggregator; its scores for Dynamite's 2014 Twilight Zone #1 appear on the Reviews aggregate-score pages.",
   "tier": "related",
@@ -38470,6 +38494,18 @@
   "title": "CSU Fullerton University Archives and Special Collections",
   "subcategory": "Organizations",
   "sort": "csu fullerton university archives and special collections"
+ },
+ "organizations/dark-hall-mansion": {
+  "connection": "Publisher of an officially licensed series of Twilight Zone screen prints from 2014, by Tom Whalen, Shag and others.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "/Film: Cool Stuff: Check Out These Limited Edition Prints For 'The Nice Guys,' 'The Twilight Zone,' And 'Pinocchio' (Jack Giroux, 17 May 2016)",
+  "source_url": "https://www.slashfilm.com/544354/nice-guys-mondo-poster/",
+  "title": "Dark Hall Mansion",
+  "subcategory": "Organizations",
+  "sort": "dark hall mansion"
  },
  "organizations/daw-books": {
   "connection": "Paperback science-fiction publisher of the 1990s licensed anthologies edited by Carol Serling with Martin H. Greenberg, including Journeys to the Twilight Zone and Return to The Twilight Zone.",
@@ -38543,6 +38579,18 @@
   "subcategory": "Organizations",
   "sort": "elmira college"
  },
+ "organizations/falcon-picture-group": {
+  "connection": "Made The Twilight Zone Radio Dramas (2002 to 2012), narrated by Stacy Keach, under license from CBS and the Serling estate.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Wikipedia: The Twilight Zone (radio series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "title": "Falcon Picture Group",
+  "subcategory": "Organizations",
+  "sort": "falcon picture group"
+ },
  "organizations/federal-communications-commission": {
   "connection": "US broadcast regulator.",
   "tier": "related",
@@ -38555,6 +38603,18 @@
   "subcategory": "Organizations",
   "sort": "federal communications commission"
  },
+ "organizations/funko": {
+  "connection": "Maker of licensed Funko Pop! figures of the original series (2024), among them Rod Serling as the Narrator, the Gremlin and Mr. Robert Wilson, and a Hollywood Tower Hotel Pop!",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "funko.com",
+  "source_url": "https://funko.com/pop-deluxe-robert-wilson/80197.html",
+  "title": "Funko",
+  "subcategory": "Organizations",
+  "sort": "funko"
+ },
  "organizations/gauntlet-press": {
   "connection": "Colorado small press that published the definitive annotated Twilight Zone scripts: Rod Serling's complete teleplays in ten As Timeless as Infinity volumes edited by Tony Albarella (2004-2013) plus a best-of volume, and script collections by Richard Matheson, Charles Beaumont, Earl Hamner and…",
   "tier": "core",
@@ -38566,6 +38626,30 @@
   "title": "Gauntlet Press",
   "subcategory": "Organizations",
   "sort": "gauntlet press"
+ },
+ "organizations/general-foods": {
+  "connection": "A sponsor of the original series' first season (1959-60), with Kimberly-Clark.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Wikipedia: The Twilight Zone (1959 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)",
+  "title": "General Foods",
+  "subcategory": "Organizations",
+  "sort": "general foods"
+ },
+ "organizations/genre-films": {
+  "connection": "Simon Kinberg's production company, which made the 2019 revival with Jordan Peele's Monkeypaw Productions and CBS Television Studios.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Wikipedia: The Twilight Zone (2019 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)",
+  "title": "Genre Films",
+  "subcategory": "Organizations",
+  "sort": "genre films"
  },
  "organizations/gold-key-comics": {
   "connection": "Western Publishing's comics imprint, which held the Twilight Zone comic license from 1962 to 1982: 92 issues of new anthology stories introduced by a drawn Rod Serling, with art by Alex Toth, Reed Crandall, Al Williamson, Joe Orlando, Frank Miller and others, plus Mystery Comics Digest reprints.",
@@ -38590,6 +38674,18 @@
   "title": "Hallmark Cards",
   "subcategory": "Organizations",
   "sort": "hallmark cards"
+ },
+ "organizations/heritage-auctions": {
+  "connection": "Dallas auction house that has sold Twilight Zone scripts, among them Richard Matheson's annotated \"Once Upon a Time\" archive and Martin Landau's shooting scripts.",
+  "tier": "related",
+  "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Heritage lot 1990: Richard Matheson's The Twilight Zone original hand-annotated typed script and materials archive for Once Upon a Time",
+  "source_url": "https://entertainment.ha.com/itm/movie-tv-memorabilia/richard-matheson-s-the-twilight-zone-original-hand-annotated-typed-script-and-materials-archive-for-once-upon-a-time/a/997042-1990.s",
+  "title": "Heritage Auctions",
+  "subcategory": "Organizations",
+  "sort": "heritage auctions"
  },
  "organizations/idw-publishing": {
   "connection": "Current licensee of The Twilight Zone comic: its 2025 anthology series under the IDW Dark label, the collections Stories from the Fifth Dimension and Tales Between Light and Shadow (listed for 2027).",
@@ -38638,6 +38734,42 @@
   "title": "Ithaca College",
   "subcategory": "Organizations",
   "sort": "ithaca college"
+ },
+ "organizations/johnson-and-johnson": {
+  "connection": "Among the sponsors of the original series' fourth season (1963), the hour-long season.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Wikipedia: The Twilight Zone (1959 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)",
+  "title": "Johnson & Johnson",
+  "subcategory": "Organizations",
+  "sort": "johnson  johnson"
+ },
+ "organizations/kimberly-clark": {
+  "connection": "A sponsor of the original series' first season (1959-60); it dropped out during the season and Colgate-Palmolive replaced it.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Wikipedia: The Twilight Zone (1959 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)",
+  "title": "Kimberly-Clark",
+  "subcategory": "Organizations",
+  "sort": "kimberlyclark"
+ },
+ "organizations/kino-lorber": {
+  "connection": "Released Rod Serling's Night Gallery on Blu-ray under its Kino Lorber Studio Classics label.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Bloody Disgusting: Rod Serling's Night Gallery coming to Blu-ray for first time (Kino Lorber)",
+  "source_url": "https://bloody-disgusting.com/home-video/3679218/rod-serlings-night-gallery-coming-blu-ray-first-time-kino-lorber-studio-classics/",
+  "title": "Kino Lorber",
+  "subcategory": "Organizations",
+  "sort": "kino lorber"
  },
  "organizations/kraft": {
   "connection": "Sponsor of Kraft Television Theatre, which aired Serling's Patterns (1955).",
@@ -38723,6 +38855,18 @@
   "subcategory": "Organizations",
   "sort": "metrogoldwynmayer"
  },
+ "organizations/midway-manufacturing": {
+  "connection": "Made the Twilight Zone pinball machine (1993), designed by Pat Lawlor and sold under the Bally name.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Twilight_Zone_(pinball)",
+  "title": "Midway Manufacturing",
+  "subcategory": "Organizations",
+  "sort": "midway manufacturing"
+ },
  "organizations/monkeypaw-productions": {
   "connection": "Jordan Peele's production company, one of the producers of the 2019 revival.",
   "tier": "core",
@@ -38807,6 +38951,18 @@
   "subcategory": "Organizations",
   "sort": "paramount"
  },
+ "organizations/pioneer-ldc": {
+  "connection": "Released The Twilight Zone and the 1985 revival on laserdisc in Japan.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "LDDb: Twilight Zone The: Special Edition vol.7 (PILF-2670)",
+  "source_url": "https://www.lddb.com/laserdisc/00074/PILF-2670/Twilight-Zone-The:-Special-Edition-vol.7",
+  "title": "Pioneer LDC",
+  "subcategory": "Organizations",
+  "sort": "pioneer ldc"
+ },
  "organizations/prime-video": {
   "connection": "Streams the original series.",
   "tier": "core",
@@ -38819,6 +38975,18 @@
   "subcategory": "Organizations",
   "sort": "prime video"
  },
+ "organizations/procter-and-gamble": {
+  "connection": "Among the sponsors of the original series' fifth and last season (1963-64), with American Tobacco.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Wikipedia: The Twilight Zone (1959 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)",
+  "title": "Procter & Gamble",
+  "subcategory": "Organizations",
+  "sort": "procter  gamble"
+ },
  "organizations/producers-guild-of-america": {
   "connection": "Producers' trade body whose early award for a produced series went to Buck Houghton for the original Twilight Zone.",
   "tier": "related",
@@ -38830,6 +38998,18 @@
   "title": "Producers Guild of America",
   "subcategory": "Organizations",
   "sort": "producers guild of america"
+ },
+ "organizations/prop-store": {
+  "connection": "Film memorabilia auction house that sold the \"Eye of the Beholder\" pig-nose make-up appliance in 2018.",
+  "tier": "related",
+  "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Gizmodo - Twilight Zone mask from 'The Eye of the Beholder' goes up for auction",
+  "source_url": "https://gizmodo.com/twilight-zone-mask-from-the-eye-of-the-beholder-goes-up-1830157214",
+  "title": "Prop Store",
+  "subcategory": "Organizations",
+  "sort": "prop store"
  },
  "organizations/radio-preservation-task-force": {
   "connection": "Radio Preservation Task Force: an organization named in records on this site.",
@@ -38879,6 +39059,18 @@
   "subcategory": "Organizations",
   "sort": "rotten tomatoes"
  },
+ "organizations/sideshow": {
+  "connection": "Sideshow Toy made licensed 12-inch Twilight Zone figures in 2002 and 2003: the Gremlin, the Kanamit, the Invader, and the \"Eye of the Beholder\" doctor and nurse.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "toymania.com",
+  "source_url": "https://www.toymania.com/columns/spotlight/tzinvader.shtml",
+  "title": "Sideshow",
+  "subcategory": "Organizations",
+  "sort": "sideshow"
+ },
  "organizations/television-academy": {
   "connection": "Gives the Primetime Emmy Awards.",
   "tier": "related",
@@ -38926,6 +39118,30 @@
   "title": "Tor Books",
   "subcategory": "Organizations",
   "sort": "tor books"
+ },
+ "organizations/trick-or-treat-studios": {
+  "connection": "Maker of licensed Twilight Zone masks from 2017 (the Gremlin, the Mystic Seer, the \"Eye of the Beholder\" doctor, the \"Masks\" vacuform faces) and a full-size Talky Tina replica.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Halloween Daily News: Trick or Treat Studios Enters The Twilight Zone with New Masks (Jan 2017)",
+  "source_url": "https://halloweendailynews.com/2017/01/trick-treat-studios-twilight-zone-masks/",
+  "title": "Trick or Treat Studios",
+  "subcategory": "Organizations",
+  "sort": "trick or treat studios"
+ },
+ "organizations/trilogy-entertainment": {
+  "connection": "Its producers Pen Densham, Mark Stern and John Watson made the 2002 revival for UPN.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Wikipedia: The Twilight Zone (2002 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)",
+  "title": "Trilogy Entertainment",
+  "subcategory": "Organizations",
+  "sort": "trilogy entertainment"
  },
  "organizations/tz-publications": {
   "connection": "Publisher of Rod Serling's The Twilight Zone Magazine, which ran 60 issues from April 1981 to June 1989 under license from Carol Serling, and its horror digest Night Cry (11 issues, 1984-1987), plus the 1982 Great Stories annual.",
@@ -39142,6 +39358,18 @@
   "title": "Writers Guild of America",
   "subcategory": "Organizations",
   "sort": "writers guild of america"
+ },
+ "organizations/zen-studios": {
+  "connection": "Maker of Pinball FX, whose licensed digital recreation of the 1993 Twilight Zone pinball machine came out in 2023, with a VR version in 2025.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "store.playstation.com",
+  "source_url": "https://store.playstation.com/en-us/product/UP4042-PPSA08755_00-PINBALLFXTWLGHTK",
+  "title": "Zen Studios",
+  "subcategory": "Organizations",
+  "sort": "zen studios"
  },
  "people/aaron-moorhead": {
   "connection": "Aaron Moorhead directed 1 episode of the 2019 series (“8”).",
@@ -42264,7 +42492,7 @@
   "sort": "cesare danova"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -44988,7 +45216,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -58044,7 +58272,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -60552,7 +60780,7 @@
   "sort": "werner klemperer"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",

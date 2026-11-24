@@ -3,6 +3,20 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Meet: 90 hidden people and characters shown, 19 organizations added
+
+Visitors can now:
+- Open the pages of 21 more people credited on episodes and 69 characters from 2002 and 1985 episodes that had none,
+  so those episodes' casts link through.
+- Meet the team that made the 1993 Twilight Zone pinball machine on a new Game makers shelf, each linked to the game.
+- Find the original series' sponsors (General Foods, Kimberly-Clark, Colgate-Palmolive, Johnson & Johnson, Procter &
+  Gamble), the companies that made the 2002 and 2019 series and the radio dramas, and the makers of licensed masks,
+  figures, prints, pinball and home video, each listing the records that name it.
+
+**Known not to work yet:**
+- Night Gallery and the radio dramas' original stories have no characters yet.
+- Three people are linked to credits with an identity that is likely but not fully confirmed; their pages say so.
+
 ## 2026-11-24 — Discover: History grouped, Legacy cleaned up
 
 Visitors can now:

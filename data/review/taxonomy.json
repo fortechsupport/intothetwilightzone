@@ -38382,6 +38382,17 @@
    "official": true
   }
  ],
+ "organizations/cbs-television-studios": [
+  {
+   "cat": "organizations",
+   "sub": "networks-studios",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Networks, studios and streamers",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "organizations/cbs": [
   {
    "cat": "organizations",
@@ -38389,6 +38400,17 @@
    "group": null,
    "catTitle": "Organizations",
    "subTitle": "Networks, studios and streamers",
+   "isNew": false,
+   "official": true
+  }
+ ],
+ "organizations/colgate-palmolive": [
+  {
+   "cat": "organizations",
+   "sub": "sponsors",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Sponsors and advertisers",
    "isNew": false,
    "official": true
   }
@@ -38413,6 +38435,17 @@
    "subTitle": "Archives and libraries",
    "isNew": false,
    "official": false
+  }
+ ],
+ "organizations/dark-hall-mansion": [
+  {
+   "cat": "organizations",
+   "sub": "licensees",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Product licensees",
+   "isNew": false,
+   "official": true
   }
  ],
  "organizations/daw-books": [
@@ -38481,6 +38514,17 @@
    "official": false
   }
  ],
+ "organizations/falcon-picture-group": [
+  {
+   "cat": "organizations",
+   "sub": "production-companies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Production companies",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "organizations/federal-communications-commission": [
   {
    "cat": "organizations",
@@ -38492,6 +38536,17 @@
    "official": null
   }
  ],
+ "organizations/funko": [
+  {
+   "cat": "organizations",
+   "sub": "licensees",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Product licensees",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "organizations/gauntlet-press": [
   {
    "cat": "organizations",
@@ -38499,6 +38554,28 @@
    "group": null,
    "catTitle": "Organizations",
    "subTitle": "Publishers",
+   "isNew": false,
+   "official": true
+  }
+ ],
+ "organizations/general-foods": [
+  {
+   "cat": "organizations",
+   "sub": "sponsors",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Sponsors and advertisers",
+   "isNew": false,
+   "official": true
+  }
+ ],
+ "organizations/genre-films": [
+  {
+   "cat": "organizations",
+   "sub": "production-companies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Production companies",
    "isNew": false,
    "official": true
   }
@@ -38523,6 +38600,17 @@
    "subTitle": "Sponsors and advertisers",
    "isNew": false,
    "official": null
+  }
+ ],
+ "organizations/heritage-auctions": [
+  {
+   "cat": "organizations",
+   "sub": "other-organizations",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Other organizations",
+   "isNew": false,
+   "official": false
   }
  ],
  "organizations/idw-publishing": [
@@ -38567,6 +38655,39 @@
    "subTitle": "Schools and universities",
    "isNew": false,
    "official": false
+  }
+ ],
+ "organizations/johnson-and-johnson": [
+  {
+   "cat": "organizations",
+   "sub": "sponsors",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Sponsors and advertisers",
+   "isNew": false,
+   "official": true
+  }
+ ],
+ "organizations/kimberly-clark": [
+  {
+   "cat": "organizations",
+   "sub": "sponsors",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Sponsors and advertisers",
+   "isNew": false,
+   "official": true
+  }
+ ],
+ "organizations/kino-lorber": [
+  {
+   "cat": "organizations",
+   "sub": "licensees",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Product licensees",
+   "isNew": false,
+   "official": true
   }
  ],
  "organizations/kraft": [
@@ -38642,6 +38763,17 @@
    "group": null,
    "catTitle": "Organizations",
    "subTitle": "Networks, studios and streamers",
+   "isNew": false,
+   "official": true
+  }
+ ],
+ "organizations/midway-manufacturing": [
+  {
+   "cat": "organizations",
+   "sub": "licensees",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Product licensees",
    "isNew": false,
    "official": true
   }
@@ -38723,6 +38855,17 @@
    "official": true
   }
  ],
+ "organizations/pioneer-ldc": [
+  {
+   "cat": "organizations",
+   "sub": "licensees",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Product licensees",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "organizations/prime-video": [
   {
    "cat": "organizations",
@@ -38734,6 +38877,17 @@
    "official": true
   }
  ],
+ "organizations/procter-and-gamble": [
+  {
+   "cat": "organizations",
+   "sub": "sponsors",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Sponsors and advertisers",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "organizations/producers-guild-of-america": [
   {
    "cat": "organizations",
@@ -38741,6 +38895,17 @@
    "group": null,
    "catTitle": "Organizations",
    "subTitle": "Award bodies",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "organizations/prop-store": [
+  {
+   "cat": "organizations",
+   "sub": "other-organizations",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Other organizations",
    "isNew": false,
    "official": false
   }
@@ -38789,6 +38954,17 @@
    "official": null
   }
  ],
+ "organizations/sideshow": [
+  {
+   "cat": "organizations",
+   "sub": "licensees",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Product licensees",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "organizations/television-academy-foundation": [
   {
    "cat": "organizations",
@@ -38829,6 +39005,28 @@
    "group": null,
    "catTitle": "Organizations",
    "subTitle": "Publishers",
+   "isNew": false,
+   "official": true
+  }
+ ],
+ "organizations/trick-or-treat-studios": [
+  {
+   "cat": "organizations",
+   "sub": "licensees",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Product licensees",
+   "isNew": false,
+   "official": true
+  }
+ ],
+ "organizations/trilogy-entertainment": [
+  {
+   "cat": "organizations",
+   "sub": "production-companies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Production companies",
    "isNew": false,
    "official": true
   }
@@ -39029,6 +39227,17 @@
    "subTitle": "Award bodies",
    "isNew": false,
    "official": false
+  }
+ ],
+ "organizations/zen-studios": [
+  {
+   "cat": "organizations",
+   "sub": "licensees",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Product licensees",
+   "isNew": false,
+   "official": true
   }
  ],
  "people/aaron-moorhead": [
@@ -40631,12 +40840,21 @@
  "people/arthur-morton": [
   {
    "cat": "people",
-   "sub": "other-people",
+   "sub": "composers",
    "group": null,
    "catTitle": "People",
-   "subTitle": "Other people",
+   "subTitle": "Composers",
    "isNew": false,
    "official": null
+  },
+  {
+   "cat": "music",
+   "sub": "composers",
+   "group": null,
+   "catTitle": "Music",
+   "subTitle": "Composers",
+   "isNew": true,
+   "official": false
   }
  ],
  "people/arthur-oconnell": [
@@ -42993,6 +43211,15 @@
    "catTitle": "People",
    "subTitle": "Composers",
    "isNew": false,
+   "official": null
+  },
+  {
+   "cat": "people",
+   "sub": "game-makers",
+   "group": null,
+   "catTitle": "People",
+   "subTitle": "Game makers",
+   "isNew": true,
    "official": null
   },
   {
@@ -46311,15 +46538,6 @@
  "people/f-keogh-gleason": [
   {
    "cat": "people",
-   "sub": "other-people",
-   "group": null,
-   "catTitle": "People",
-   "subTitle": "Other people",
-   "isNew": false,
-   "official": null
-  },
-  {
-   "cat": "people",
    "sub": "crew",
    "group": null,
    "catTitle": "People",
@@ -48603,15 +48821,6 @@
   }
  ],
  "people/henry-grace": [
-  {
-   "cat": "people",
-   "sub": "other-people",
-   "group": null,
-   "catTitle": "People",
-   "subTitle": "Other people",
-   "isNew": false,
-   "official": null
-  },
   {
    "cat": "people",
    "sub": "crew",
@@ -51003,15 +51212,6 @@
  "people/jerry-wunderlich": [
   {
    "cat": "people",
-   "sub": "other-people",
-   "group": null,
-   "catTitle": "People",
-   "subTitle": "Other people",
-   "isNew": false,
-   "official": null
-  },
-  {
-   "cat": "people",
    "sub": "crew",
    "group": null,
    "catTitle": "People",
@@ -52291,11 +52491,11 @@
  "people/john-krutsch": [
   {
    "cat": "people",
-   "sub": "other-people",
+   "sub": "game-makers",
    "group": null,
    "catTitle": "People",
-   "subTitle": "Other people",
-   "isNew": false,
+   "subTitle": "Game makers",
+   "isNew": true,
    "official": null
   }
  ],
@@ -52774,11 +52974,20 @@
  "people/john-youssi": [
   {
    "cat": "people",
-   "sub": "other-people",
+   "sub": "crew",
    "group": null,
    "catTitle": "People",
-   "subTitle": "Other people",
+   "subTitle": "Crew",
    "isNew": false,
+   "official": null
+  },
+  {
+   "cat": "people",
+   "sub": "game-makers",
+   "group": null,
+   "catTitle": "People",
+   "subTitle": "Game makers",
+   "isNew": true,
    "official": null
   }
  ],
@@ -54322,11 +54531,20 @@
  "people/larry-demar": [
   {
    "cat": "people",
-   "sub": "other-people",
+   "sub": "crew",
    "group": null,
    "catTitle": "People",
-   "subTitle": "Other people",
+   "subTitle": "Crew",
    "isNew": false,
+   "official": null
+  },
+  {
+   "cat": "people",
+   "sub": "game-makers",
+   "group": null,
+   "catTitle": "People",
+   "subTitle": "Game makers",
+   "isNew": true,
    "official": null
   }
  ],
@@ -58130,11 +58348,20 @@
  "people/pat-lawlor": [
   {
    "cat": "people",
-   "sub": "other-people",
+   "sub": "crew",
    "group": null,
    "catTitle": "People",
-   "subTitle": "Other people",
+   "subTitle": "Crew",
    "isNew": false,
+   "official": null
+  },
+  {
+   "cat": "people",
+   "sub": "game-makers",
+   "group": null,
+   "catTitle": "People",
+   "subTitle": "Game makers",
+   "isNew": true,
    "official": null
   }
  ],
@@ -59736,11 +59963,11 @@
  "people/rich-karstens": [
   {
    "cat": "people",
-   "sub": "other-people",
+   "sub": "game-makers",
    "group": null,
    "catTitle": "People",
-   "subTitle": "Other people",
-   "isNew": false,
+   "subTitle": "Game makers",
+   "isNew": true,
    "official": null
   }
  ],
@@ -63438,11 +63665,20 @@
  "people/ted-estes": [
   {
    "cat": "people",
-   "sub": "other-people",
+   "sub": "crew",
    "group": null,
    "catTitle": "People",
-   "subTitle": "Other people",
+   "subTitle": "Crew",
    "isNew": false,
+   "official": null
+  },
+  {
+   "cat": "people",
+   "sub": "game-makers",
+   "group": null,
+   "catTitle": "People",
+   "subTitle": "Game makers",
+   "isNew": true,
    "official": null
   }
  ],
@@ -63723,10 +63959,10 @@
  "people/tim-kitzrow": [
   {
    "cat": "people",
-   "sub": "other-people",
+   "sub": "voice-actors",
    "group": null,
    "catTitle": "People",
-   "subTitle": "Other people",
+   "subTitle": "Voice actors",
    "isNew": false,
    "official": null
   }

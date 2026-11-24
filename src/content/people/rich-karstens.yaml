@@ -1,6 +1,13 @@
 name: Rich Karstens
-bio: Williams/Midway pinball sound engineer.
-roles: []
+bio: >-
+  Rich Karstens worked on the sound of Midway's Twilight Zone pinball machine (1993) with Chris Granner. He was a Williams and Midway pinball sound engineer.
+roles:
+- pinball sound engineer
+tz_credits:
+- series: Twilight Zone (pinball, 1993)
+  work: Twilight Zone (pinball)
+  ref: works/twilight-zone-pinball-1993
+  role: sound
 relevance: related
 research_confidence: high
 sources:

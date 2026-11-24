@@ -1,0 +1,13 @@
+name: Genre Films
+kind: production-company
+description: Simon Kinberg's production company, which made the 2019 revival with Jordan Peele's Monkeypaw Productions and
+  CBS Television Studios.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: The Twilight Zone (2019 TV series)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
+research_confidence: medium
+last_verified: '2026-11-24'
+tags:
+- meet-2026-11-24

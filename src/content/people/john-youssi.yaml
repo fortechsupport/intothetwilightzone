@@ -1,6 +1,13 @@
 name: John Youssi
-bio: Prolific pinball artist for Williams, Bally and Midway.
-roles: []
+bio: >-
+  John Youssi painted the artwork for Midway's Twilight Zone pinball machine (1993), sold under the Bally name. He was a prolific pinball artist for Williams, Bally and Midway.
+roles:
+- pinball artist
+tz_credits:
+- series: Twilight Zone (pinball, 1993)
+  work: Twilight Zone (pinball)
+  ref: works/twilight-zone-pinball-1993
+  role: artist
 relevance: related
 research_confidence: high
 sources:

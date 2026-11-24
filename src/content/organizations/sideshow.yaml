@@ -1,0 +1,13 @@
+name: Sideshow
+kind: toy-company
+description: 'Sideshow Toy made licensed 12-inch Twilight Zone figures in 2002 and 2003: the Gremlin, the Kanamit, the Invader,
+  and the "Eye of the Beholder" doctor and nurse.'
+official: true
+relevance: related
+sources:
+- title: toymania.com
+  url: https://www.toymania.com/columns/spotlight/tzinvader.shtml
+research_confidence: medium
+last_verified: '2026-11-24'
+tags:
+- meet-2026-11-24

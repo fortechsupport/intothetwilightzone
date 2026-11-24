@@ -67,9 +67,9 @@ first because everything else links to it.
 | 14 | Attend: Lectures and talks | Done 2026-11-24: Serling's own talks and teaching apart from talks about him. |
 | 15 | Discover: History | Done 2026-11-24: production history by show, honors by kind, premieres in date order, four duplicates merged. |
 | 16 | Discover: Legacy | Done 2026-11-24: later series' remakes official, one shelf per record, Fan-made grouped. About 200 links fan-noted only. |
-| 17 | Meet: People | Deep for credits; about 100 named people still unidentified, no showrunners. |
-| 18 | Meet: Characters | Deep for the four TZ series; Night Gallery and the radio dramas have none. |
-| 19 | Meet: Organizations | Thin (65), and fictional organizations have none. |
+| 17 | Meet: People | Done 2026-11-24: every record decided; new Game makers shelf; 3 identities likely, not confirmed. |
+| 18 | Meet: Characters | Done 2026-11-24 for the four series (69 shown); Night Gallery and the radio dramas still have none. |
+| 19 | Meet: Organizations | Done 2026-11-24: 93 records; sponsors, producers and licensed makers added. Fictional ones still none. |
 | 20 | Visit: Real places | Partial. |
 | 21 | Visit: Settings | Thin: 35 settings across 394 episodes. |
 | 22 | Media Library content | Quotes (34) and archive holdings (10) are thin; reviews are partial. Content is gathered while doing 1–21, so this pass only closes what is left. |
@@ -354,7 +354,7 @@ Prentice Hall, StudySync, EDSITEment or CommonLit lessons; Serling's college spe
 ## 8. Meet (directory)
 
 ### People
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [x] Researched · [x] Records decided · [x] Pages built (docs/plans/research-meet.md, 2026-11-24)
 
 | Subcategory | Records | Depth |
 |---|---:|---|
@@ -378,7 +378,7 @@ Prentice Hall, StudySync, EDSITEment or CommonLit lessons; Serling's college spe
 **Likely missing:** casts and crews of Night Gallery and Serling's other TV, Night Gallery painters, and creators who have said in public that the show shaped them.
 
 ### Characters
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [x] Researched · [x] Records decided · [x] Pages built (docs/plans/research-meet.md, 2026-11-24)
 
 | Group | Records | Depth |
 |---|---:|---|
@@ -393,7 +393,7 @@ Prentice Hall, StudySync, EDSITEment or CommonLit lessons; Serling's college spe
 **Known gaps:** no way to show one character played by different actors (Philip and New Philip in "Upgrade"); 69 records pending.
 
 ### Organizations
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [x] Researched · [x] Records decided · [x] Pages built (docs/plans/research-meet.md, 2026-11-24)
 
 | Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|

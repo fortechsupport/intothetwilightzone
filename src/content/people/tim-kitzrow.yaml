@@ -1,6 +1,13 @@
 name: Tim Kitzrow
-bio: Voice actor best known as the announcer of NBA Jam.
-roles: []
+bio: >-
+  Tim Kitzrow voiced the Rod Serling-style narration on Midway's Twilight Zone pinball machine (1993). He is best known as the announcer of NBA Jam.
+roles:
+- voice actor
+tz_credits:
+- series: Twilight Zone (pinball, 1993)
+  work: Twilight Zone (pinball)
+  ref: works/twilight-zone-pinball-1993
+  role: voice (Rod Serling-style narration)
 relevance: related
 research_confidence: high
 sources:

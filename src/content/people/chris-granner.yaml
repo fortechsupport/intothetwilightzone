@@ -1,7 +1,15 @@
 name: Chris Granner
-bio: Composer and sound designer for Williams/Bally pinball in the early 1990s.
+bio: >-
+  Chris Granner composed the music and worked on the sound for Midway's Twilight Zone pinball machine (1993). He
+  was a composer and sound designer for Williams and Bally pinball in the early 1990s.
 roles:
 - composer
+- pinball sound designer
+tz_credits:
+- series: Twilight Zone (pinball, 1993)
+  work: Twilight Zone (pinball)
+  ref: works/twilight-zone-pinball-1993
+  role: music and sound
 relevance: related
 research_confidence: high
 sources:
