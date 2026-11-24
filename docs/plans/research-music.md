@@ -1,6 +1,6 @@
 # Content plan: Music
 
-**Date:** 2026-11-24 · **Status:** draft, waiting on Adam (checklist box 1 of 4) · **Checklist:** docs/RESEARCH_CHECKLIST.md, Listen > Music
+**Date:** 2026-11-24 · **Status:** approved by Adam 2026-11-24 02:05 UTC ("approved"), with Q1 to Q6 as suggested (checklist box 1 of 4 done) · **Checklist:** docs/RESEARCH_CHECKLIST.md, Listen > Music
 **Order:** Adam, 2026-11-24 01:07 UTC: finish Watch (Stage, done in PRs #55 and #56), then Listen: Music, then Podcasts.
 **Follows:** decision 0005 (records are included without item-by-item review; visitors' votes flag doubtful ones),
 decision 0006 (a likeness is "Compared to", never "Inspired by"), the Serling rule, and Adam's Movies answer Q3
@@ -168,7 +168,7 @@ That is two rounds of under an hour each at the shared 100 an hour.
 - The radio dramas' music and sound record moves to Radio's series page, as part of the radio dramas.
 
 ## Waiting on Adam
-- Approval of this plan, and Q1 to Q6.
+- (none: plan and Q1 to Q6 approved as suggested, 2026-11-24 02:05 UTC)
 
 ## Found, for later
 - (none yet)
