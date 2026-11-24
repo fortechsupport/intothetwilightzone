@@ -1,0 +1,20 @@
+name: "Alaska (A Traveler, 2019)"
+kind: in-story
+region: "Alaska"
+country: "United States"
+filmed:
+- ref: 2019/a-traveler
+  note: "Where the story is set."
+episodes:
+- 2019/a-traveler
+notes: >-
+  The story centres on an "Alaska police sergeant Yuka Mongoyak".
+sources:
+- title: "Wikipedia: List of The Twilight Zone (2019 TV series) episodes"
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+  note: Plot summary quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'

@@ -1,0 +1,19 @@
+name: "The Bradbury spacecraft (Six Degrees of Freedom, 2019)"
+kind: in-story
+filmed:
+- ref: 2019/six-degrees-of-freedom
+  note: "The crew's spacecraft."
+episodes:
+- 2019/six-degrees-of-freedom
+notes: >-
+  The story follows "the crew of the Bradbury spacecraft": "nuclear war breaks out on Earth", and they "decide to
+  head for the planet Mars".
+sources:
+- title: "Wikipedia: List of The Twilight Zone (2019 TV series) episodes"
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+  note: Plot summary quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'

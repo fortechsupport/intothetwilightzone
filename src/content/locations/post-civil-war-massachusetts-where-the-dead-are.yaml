@@ -1,0 +1,21 @@
+name: "Post-Civil War Massachusetts (Where the Dead Are, Lost Classics)"
+kind: in-story
+region: "Massachusetts"
+country: "United States"
+filmed:
+- ref: films/the-twilight-zone-rod-serlings-lost-classics
+  note: "The setting the host names."
+episodes:
+- films/the-twilight-zone-rod-serlings-lost-classics
+notes: >-
+  The plot summary names only an island; the host's introduction, quoted on the page, says "We then travel to
+  post-Civil War Massachusetts".
+sources:
+- title: "Wikipedia: Twilight Zone: Rod Serling's Lost Classics"
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_Rod_Serling%27s_Lost_Classics
+  note: Plot summary quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'

@@ -1,0 +1,19 @@
+name: "Modern-day England (The Last Defender of Camelot, 1985)"
+kind: in-story
+country: "United Kingdom"
+filmed:
+- ref: 1985/the-last-defender-of-camelot
+  note: "Where the last knight lives."
+episodes:
+- 1985/the-last-defender-of-camelot
+notes: >-
+  The story opens "In modern-day England, the last of King Arthur's knights".
+sources:
+- title: "Wikipedia: List of The Twilight Zone (1985 TV series) episodes"
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+  note: Plot summary quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'

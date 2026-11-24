@@ -87,6 +87,6 @@ One pull request: duplicates merged, groups, venues and festivals re-placed, the
 - **1985 series locations:** Wikipedia names no studio or town for the CBS seasons; the third season was
   "Canadian-produced" with no city. Paul Chavez's 1985 call sheets at USC (already an archive record) would answer it.
 - **2002 series locations:** only the Vancouver Aquarium claim was found.
-- **Settings:** 35 in-story places for 394 episodes; many episodes name a town, planet or building. A pass over the
-  episode records would add them.
+- ~~**Settings:**~~ Done: every episode of the four series, Night Gallery and the two films read (second pass and
+  docs/plans/finish-open-items-2026-11-24.md).
 - **A Binghamton and Syracuse walking map** of Serling's places (the records have coordinates for most).

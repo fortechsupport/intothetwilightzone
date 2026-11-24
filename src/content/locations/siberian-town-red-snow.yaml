@@ -1,0 +1,19 @@
+name: "The Siberian town (Red Snow, 1985)"
+kind: in-story
+region: "Siberia"
+filmed:
+- ref: 1985/red-snow
+  note: "The town under investigation."
+episodes:
+- 1985/red-snow
+notes: >-
+  The main character "is sent to a Siberian town to investigate the deaths"; the town is not named.
+sources:
+- title: "Wikipedia: List of The Twilight Zone (1985 TV series) episodes"
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+  note: Plot summary quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'

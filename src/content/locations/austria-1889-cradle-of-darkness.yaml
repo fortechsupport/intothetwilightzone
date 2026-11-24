@@ -1,0 +1,19 @@
+name: "Austria, 1889 (Cradle of Darkness, 2002)"
+kind: in-story
+country: "Austria"
+filmed:
+- ref: 2002/cradle-of-darkness
+  note: "Where the mission travels in time."
+episodes:
+- 2002/cradle-of-darkness
+notes: >-
+  The main character "goes back in time to Austria, 1889".
+sources:
+- title: "Wikipedia: List of The Twilight Zone (2002 TV series) episodes"
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2002_TV_series)_episodes
+  note: Plot summary quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'

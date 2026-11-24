@@ -1,0 +1,19 @@
+name: "The Lusitania and the Andrea Doria (Lone Survivor, Night Gallery)"
+kind: in-story
+filmed:
+- ref: films/night-gallery-s1e05
+  note: "The ships that pick up the survivor."
+episodes:
+- films/night-gallery-s1e05
+notes: >-
+  A survivor found "adrift in a lifeboat labeled Titanic" "is picked up by the RMS Lusitania", and later "is
+  picked up by the SS Andrea Doria".
+sources:
+- title: "Wikipedia: List of Night Gallery episodes"
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Plot summary quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'

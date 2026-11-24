@@ -1,0 +1,18 @@
+name: "The Lost and Found Emporium (Wong's Lost and Found Emporium, 1985)"
+kind: in-story
+filmed:
+- ref: 1985/wongs-lost-and-found-emporium
+  note: "The warehouse where the story is set."
+episodes:
+- 1985/wongs-lost-and-found-emporium
+notes: >-
+  The story is set in "a supernatural warehouse called 'The Lost and Found Emporium'".
+sources:
+- title: "Wikipedia: List of The Twilight Zone (1985 TV series) episodes"
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+  note: Plot summary quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'

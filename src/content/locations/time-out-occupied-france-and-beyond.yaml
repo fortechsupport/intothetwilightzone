@@ -1,0 +1,20 @@
+name: "Occupied France, the rural South and Vietnam (Time Out, Twilight Zone: The Movie)"
+kind: in-story
+filmed:
+- ref: films/twilight-zone-the-movie
+  note: "The places the main character is thrown into."
+episodes:
+- films/twilight-zone-the-movie
+notes: >-
+  The main character "finds himself in Nazi-occupied France during World War II", is "now in the rural South
+  during the Jim Crow era", "resurfaces in a jungle of Vietnam during the Vietnam War", and is launched "into
+  occupied Europe again".
+sources:
+- title: "Wikipedia: Twilight Zone: The Movie"
+  url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+  note: Plot summary quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'
