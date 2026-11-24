@@ -1,0 +1,23 @@
+name: Dr. Francis Deeking
+kind: human
+played_by:
+- Rudy Vallée
+appears_in:
+- films/night-gallery-s2e04
+description: In "Marmalade Wine", a reclusive surgeon who meets a careless braggart.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "Marmalade Wine", which names Rudy Vallée in the role.
+- title: Night Gallery episode guide, season two
+  url: https://www.nightgallery.net/episode-guide-season-two
+  publisher: nightgallery.net
+  note: 'Cast list: Dr. Francis Deeking (Rudy Vallée). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

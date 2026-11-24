@@ -65,3 +65,34 @@ media:
   date: '2016-10-01'
   rights: 'link-only'
   note: 'The Film Detective Blu-ray (a BD-R), released 27 September 2016; "The disc has no extras."'
+releases:
+- date: '2016-09-27'
+  format: Blu-ray
+  title: Patterns
+  publisher: The Film Detective
+  region: Region A
+  note: A made-to-order BD-R; Blu-ray.com's reviewer says the disc has no extras.
+  sources:
+  - title: Patterns Blu-ray (The Film Detective)
+    url: https://m.blu-ray.com/movies/Patterns-Blu-ray/133943
+    publisher: Blu-ray.com
+    author: Michael Reuben
+  - title: 'Blu-ray Release: Patterns'
+    url: https://www.discdish.com/2016/09/12/blu-ray-release-patterns
+    publisher: DiscDish
+    note: 12 September 2016; gives the studio as The Film Detective/Allied Vaughn.
+- date: '2025-08-19'
+  format: Blu-ray
+  title: Patterns (2K restoration)
+  publisher: Film Masters
+  region: Region A
+  note: A new 2K restoration on BD-R. Both reviews say it has no supplements.
+  sources:
+  - title: Patterns Blu-ray (Film Masters)
+    url: https://m.blu-ray.com/movies/Patterns-Blu-ray/392216
+    publisher: Blu-ray.com
+  - title: 'CineSavant: Patterns'
+    url: https://trailersfromhell.com/patterns-of-power/
+    publisher: CineSavant (Trailers From Hell)
+    author: Glenn Erickson
+    note: 6 September 2025; street date 19 August 2025.

@@ -1,0 +1,23 @@
+name: John Warwick
+kind: human
+played_by:
+- Tom Helmore
+appears_in:
+- films/night-gallery-s2e22
+description: In "The Caterpillar", the romantic rival of a British expatriate in Borneo.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "The Caterpillar", which names Tom Helmore in the role.
+- title: Night Gallery episode guide, season two
+  url: https://www.nightgallery.net/episode-guide-season-two
+  publisher: nightgallery.net
+  note: 'Cast list: John Warwick (Tom Helmore). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

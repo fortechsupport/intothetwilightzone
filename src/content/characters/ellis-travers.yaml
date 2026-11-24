@@ -1,0 +1,23 @@
+name: Ellis Travers
+kind: human
+played_by:
+- Bob Crane
+appears_in:
+- films/night-gallery-s2e09
+description: In "House – with Ghost", a philandering husband.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "House – with Ghost", which names Bob Crane in the role.
+- title: Night Gallery episode guide, season two
+  url: https://www.nightgallery.net/episode-guide-season-two
+  publisher: nightgallery.net
+  note: 'Cast list: Ellis Travers (Bob Crane). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

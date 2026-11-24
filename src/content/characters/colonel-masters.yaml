@@ -1,0 +1,23 @@
+name: Colonel Masters
+kind: human
+played_by:
+- John Williams
+appears_in:
+- films/night-gallery-s1e05
+description: In "The Doll", an officer in Queen Victoria's colonial forces against whom a doll is used for revenge.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "The Doll", which names John Williams in the role.
+- title: Night Gallery episode guide, season one
+  url: https://www.nightgallery.net/season-one
+  publisher: nightgallery.net
+  note: 'Cast list: Colonel Masters (John Williams). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

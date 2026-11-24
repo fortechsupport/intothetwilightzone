@@ -62,3 +62,36 @@ relevance: related
 last_verified: '2026-11-19'
 locked: true
 serling_role: written
+releases:
+- date: '1985'
+  format: VHS
+  title: Night Gallery
+  publisher: MCA Home Video
+  sources:
+  - title: 'Wikipedia: Night Gallery (film)'
+    url: https://en.wikipedia.org/wiki/Night_Gallery_(film)
+- date: '1992'
+  format: VHS
+  title: Night Gallery (The Premiere Collection)
+  publisher: Universal
+  note: Reissued in Universal's Premiere Collection line.
+  sources:
+  - title: 'Wikipedia: Night Gallery (film)'
+    url: https://en.wikipedia.org/wiki/Night_Gallery_(film)
+- date: '2004-08-24'
+  format: DVD
+  title: 'Night Gallery: The Complete First Season'
+  publisher: Universal
+  region: Region 1
+  note: The pilot opens the first-season set.
+  sources:
+  - title: 'Wikipedia: Night Gallery (film)'
+    url: https://en.wikipedia.org/wiki/Night_Gallery_(film)
+- date: '2021-11-23'
+  format: Blu-ray
+  title: 'Night Gallery: Season One'
+  publisher: KL Studio Classics (Kino Lorber), under licence from Universal
+  note: The pilot is included with the first season.
+  sources:
+  - title: 'Wikipedia: Night Gallery (film)'
+    url: https://en.wikipedia.org/wiki/Night_Gallery_(film)

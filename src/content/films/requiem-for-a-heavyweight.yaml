@@ -40,3 +40,18 @@ media:
   host: 'Turner Classic Movies'
   rights: 'link-only'
   note: 'TCM lists it as the original trailer, 2 minutes 31 seconds. Read 2026-11-24.'
+releases:
+- date: '2023-02-21'
+  format: Blu-ray
+  title: Requiem for a Heavyweight
+  publisher: Mill Creek Entertainment
+  region: Region A
+  note: Blu-ray.com lists no supplements.
+  sources:
+  - title: Requiem for a Heavyweight Blu-ray (Mill Creek)
+    url: https://m.blu-ray.com/movies/Requiem-for-a-Heavyweight-Blu-ray/70459
+    publisher: Blu-ray.com
+  - title: 'Mill Creek Blu-ray release: Requiem for a Heavyweight (1962)'
+    url: https://bandsaboutmovies.com/2023/02/22/mill-creek-blu-ray-release-requiem-for-a-heavyweight-1962/
+    publisher: B&S About Movies
+    note: Review, 22 February 2023.

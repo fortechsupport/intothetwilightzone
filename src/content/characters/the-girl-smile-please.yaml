@@ -1,0 +1,23 @@
+name: The Girl (Smile, Please)
+kind: human
+played_by:
+- Lindsay Wagner
+appears_in:
+- films/night-gallery-s3e05
+description: In "Smile, Please", a woman who tries to photograph a vampire.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "Smile, Please", which names Lindsay Wagner in the role.
+- title: Night Gallery episode guide, season three
+  url: https://www.nightgallery.net/season-three
+  publisher: nightgallery.net
+  note: 'Cast list: The Girl (Lindsay Wagner). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

@@ -2708,6 +2708,17 @@
    "official": null
   }
  ],
+ "characters/agatha-howard": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/agnes-fremont-2002": [
   {
    "cat": "people",
@@ -2812,6 +2823,17 @@
    "cat": "people",
    "sub": "characters",
    "group": "Robots and machines",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/alec-brandon": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
    "catTitle": "People",
    "subTitle": "Characters",
    "isNew": false,
@@ -3016,6 +3038,17 @@
    "official": null
   }
  ],
+ "characters/andrew-macbane": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/andy-marshak": [
   {
    "cat": "people",
@@ -3038,7 +3071,40 @@
    "official": null
   }
  ],
+ "characters/angela-casey": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/ann-bolt": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/ann-lawson": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/ann-loring": [
   {
    "cat": "people",
    "sub": "characters",
@@ -3247,6 +3313,28 @@
    "official": null
   }
  ],
+ "characters/augie-kolodney": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/aunt-ada-quigley": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": null,
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/aunt-amy-its-a-good-life": [
   {
    "cat": "people",
@@ -3391,6 +3479,17 @@
   }
  ],
  "characters/ben-conroy": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/betsy-miss-lovecraft-sent-me": [
   {
    "cat": "people",
    "sub": "characters",
@@ -3577,6 +3676,17 @@
    "official": null
   }
  ],
+ "characters/bradley-meredith": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/brenda-night-gallery": [
   {
    "cat": "people",
@@ -3632,11 +3742,33 @@
    "official": null
   }
  ],
+ "characters/bruce-tarraday": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/buckner-messiah-on-mott-street": [
   {
    "cat": "people",
    "sub": "characters",
    "group": "Supernatural beings",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/bullivant-dead-weight": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
    "catTitle": "People",
    "subTitle": "Characters",
    "isNew": false,
@@ -3764,6 +3896,17 @@
    "official": null
   }
  ],
+ "characters/carlotta-acton": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/carol-shelton": [
   {
    "cat": "people",
@@ -3830,7 +3973,51 @@
    "official": null
   }
  ],
+ "characters/charlie-evans": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/charlie-farnsworth": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/charlie-finnegan": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/charlie-rogan": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/charlie-wheatland": [
   {
    "cat": "people",
    "sub": "characters",
@@ -3919,6 +4106,17 @@
   }
  ],
  "characters/christine-aqua-vita": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/claire-foster": [
   {
    "cat": "people",
    "sub": "characters",
@@ -4028,6 +4226,28 @@
    "official": null
   }
  ],
+ "characters/colonel-archie-dittman": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/colonel-denny-malloy": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/colonel-hawthorne": [
   {
    "cat": "people",
@@ -4040,6 +4260,17 @@
   }
  ],
  "characters/colonel-ilyanov": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/colonel-masters": [
   {
    "cat": "people",
    "sub": "characters",
@@ -4094,6 +4325,17 @@
    "official": null
   }
  ],
+ "characters/cora-peddington": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/cora-wheeler": [
   {
    "cat": "people",
@@ -4127,7 +4369,29 @@
    "official": null
   }
  ],
+ "characters/count-dracula-a-matter-of-semantics": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "Supernatural beings",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/cpl-richard-langsford": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/craig-lowell": [
   {
    "cat": "people",
    "sub": "characters",
@@ -4655,7 +4919,73 @@
    "official": null
   }
  ],
+ "characters/dr-ernest-stringfellow": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/dr-eugene-murrick": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/dr-francis-deeking": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/dr-glendon": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/dr-jekyll-with-apologies-to-mr-hyde": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/dr-joel-winter": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/dr-john-fletcher": [
   {
    "cat": "people",
    "sub": "characters",
@@ -4842,6 +5172,17 @@
    "official": null
   }
  ],
+ "characters/edgar-allan-poe-quoth-the-raven": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/edgar-witherspoon": [
   {
    "cat": "people",
@@ -4919,6 +5260,17 @@
    "official": null
   }
  ],
+ "characters/elaine-latimer": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/elizabeth-wicker": [
   {
    "cat": "people",
@@ -4964,6 +5316,17 @@
   }
  ],
  "characters/ellis-fowler": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/ellis-travers": [
   {
    "cat": "people",
    "sub": "characters",
@@ -5041,6 +5404,17 @@
   }
  ],
  "characters/erich-streator": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/erik-sutton": [
   {
    "cat": "people",
    "sub": "characters",
@@ -5249,7 +5623,29 @@
    "official": null
   }
  ],
+ "characters/frances-nevins": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/frances-temple": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/frances-turchin": [
   {
    "cat": "people",
    "sub": "characters",
@@ -5272,6 +5668,17 @@
   }
  ],
  "characters/frank-henderson": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/frank-standish": [
   {
    "cat": "people",
    "sub": "characters",
@@ -5425,6 +5832,17 @@
    "official": null
   }
  ],
+ "characters/general-von-grunn": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/george-nervous-man-in-a-four-dollar-room": [
   {
    "cat": "people",
@@ -5459,6 +5877,17 @@
   }
  ],
  "characters/georgie-gramma": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/gideon-the-phantom-farmhouse": [
   {
    "cat": "people",
    "sub": "characters",
@@ -5558,6 +5987,17 @@
   }
  ],
  "characters/grant-sheckly": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/grant-wilson": [
   {
    "cat": "people",
    "sub": "characters",
@@ -5854,6 +6294,17 @@
    "official": null
   }
  ],
+ "characters/helena-millikan": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/hendrick-lindemann": [
   {
    "cat": "people",
@@ -5870,6 +6321,17 @@
    "cat": "people",
    "sub": "characters",
    "group": "Supernatural beings",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/henry-auden": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
    "catTitle": "People",
    "subTitle": "Characters",
    "isNew": false,
@@ -5931,6 +6393,28 @@
    "official": null
   }
  ],
+ "characters/henry-mallory": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/henry-millikan": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/henry-ritchie": [
   {
    "cat": "people",
@@ -5943,6 +6427,17 @@
   }
  ],
  "characters/henry-temple": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/herbie-bittman": [
   {
    "cat": "people",
    "sub": "characters",
@@ -5969,6 +6464,17 @@
    "cat": "people",
    "sub": "characters",
    "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/hyacinth-death-on-a-barge": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "Supernatural beings",
    "catTitle": "People",
    "subTitle": "Characters",
    "isNew": false,
@@ -6052,6 +6558,28 @@
    "official": null
   }
  ],
+ "characters/irene-evans": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/iris-travers": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/ivan-kuchenko": [
   {
    "cat": "people",
@@ -6068,6 +6596,17 @@
    "cat": "people",
    "sub": "characters",
    "group": "Supernatural beings",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/j-j-wilson": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
    "catTitle": "People",
    "subTitle": "Characters",
    "isNew": false,
@@ -6152,6 +6691,17 @@
   }
  ],
  "characters/jackie-thompson": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/jacob-bauman": [
   {
    "cat": "people",
    "sub": "characters",
@@ -6437,6 +6987,17 @@
    "official": null
   }
  ],
+ "characters/jenny-tarraday": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/jenny-templeton": [
   {
    "cat": "people",
@@ -6591,7 +7152,29 @@
    "official": null
   }
  ],
+ "characters/jim-figg": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/jimbo-cobb": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/joanna-lowell": [
   {
    "cat": "people",
    "sub": "characters",
@@ -6658,6 +7241,17 @@
   }
  ],
  "characters/joe-caswell": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/joe-melcor": [
   {
    "cat": "people",
    "sub": "characters",
@@ -6767,6 +7361,17 @@
    "official": null
   }
  ],
+ "characters/john-warwick": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/john-woodrell": [
   {
    "cat": "people",
@@ -6812,6 +7417,17 @@
   }
  ],
  "characters/jonah-beech": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/jonathan-pamelas-voice": [
   {
    "cat": "people",
    "sub": "characters",
@@ -6878,6 +7494,17 @@
   }
  ],
  "characters/joseph-paradine": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/judith-timm": [
   {
    "cat": "people",
    "sub": "characters",
@@ -7097,6 +7724,17 @@
    "official": null
   }
  ],
+ "characters/landau-dead-weight": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/lane-pendleton": [
   {
    "cat": "people",
@@ -7207,6 +7845,17 @@
    "official": null
   }
  ],
+ "characters/leona-ogilvy": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/les-goodman": [
   {
    "cat": "people",
@@ -7274,6 +7923,17 @@
   }
  ],
  "characters/liz-powell": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/logoda-logodas-heads": [
   {
    "cat": "people",
    "sub": "characters",
@@ -7460,6 +8120,17 @@
    "official": null
   }
  ],
+ "characters/major-crosby": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/major-french": [
   {
    "cat": "people",
@@ -7582,6 +8253,17 @@
   }
  ],
  "characters/marius-davis": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/mark-bennett": [
   {
    "cat": "people",
    "sub": "characters",
@@ -7867,6 +8549,17 @@
    "official": null
   }
  ],
+ "characters/mavis-goldsmith": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/max-phillips": [
   {
    "cat": "people",
@@ -7949,6 +8642,17 @@
    "cat": "people",
    "sub": "characters",
    "group": "Supernatural beings",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/michael-j-saunders": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
    "catTitle": "People",
    "subTitle": "Characters",
    "isNew": false,
@@ -8054,11 +8758,33 @@
    "official": null
   }
  ],
+ "characters/mildred-squire": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": null,
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/miley-judson": [
   {
    "cat": "people",
    "sub": "characters",
    "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/millicent-and-marion-hardy": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": null,
    "catTitle": "People",
    "subTitle": "Characters",
    "isNew": false,
@@ -8219,7 +8945,29 @@
    "official": null
   }
  ],
+ "characters/molly-wheatland": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/monsignor-perrault": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/moragh-ill-never-leave-you-ever": [
   {
    "cat": "people",
    "sub": "characters",
@@ -8417,6 +9165,28 @@
    "official": null
   }
  ],
+ "characters/mr-hawkins": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/mr-holston": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/mr-hunt-the-pool-guy": [
   {
    "cat": "people",
@@ -8527,6 +9297,17 @@
    "official": null
   }
  ],
+ "characters/mrs-evans": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/mrs-feeny": [
   {
    "cat": "people",
@@ -8572,6 +9353,17 @@
   }
  ],
  "characters/mrs-loren": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/mrs-moore": [
   {
    "cat": "people",
    "sub": "characters",
@@ -8736,6 +9528,17 @@
    "official": null
   }
  ],
+ "characters/noel-evans": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/nola-granville": [
   {
    "cat": "people",
@@ -8813,6 +9616,17 @@
    "official": null
   }
  ],
+ "characters/old-man-doubleday": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/old-man-the-self-improvement-of-salvadore-ross": [
   {
    "cat": "people",
@@ -8879,11 +9693,33 @@
    "official": null
   }
  ],
+ "characters/owen-ill-never-leave-you-ever": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/pamela-morris": [
   {
    "cat": "people",
    "sub": "characters",
    "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/pamela-pamelas-voice": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "Supernatural beings",
    "catTitle": "People",
    "subTitle": "Characters",
    "isNew": false,
@@ -9132,6 +9968,17 @@
    "official": null
   }
  ],
+ "characters/pete-tuttle": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/pete-van-horn": [
   {
    "cat": "people",
@@ -9177,6 +10024,17 @@
   }
  ],
  "characters/peter-kirby": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/peter-lacland": [
   {
    "cat": "people",
    "sub": "characters",
@@ -9418,6 +10276,17 @@
    "official": null
   }
  ],
+ "characters/ralph-burke": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/ramos-clemente": [
   {
    "cat": "people",
@@ -9441,6 +10310,28 @@
   }
  ],
  "characters/randy-lane": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/randy-miller": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/raphael-the-doll-of-death": [
   {
    "cat": "people",
    "sub": "characters",
@@ -9682,6 +10573,17 @@
    "official": null
   }
  ],
+ "characters/roger-blacker": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/roger-shackleforth": [
   {
    "cat": "people",
@@ -9770,7 +10672,29 @@
    "official": null
   }
  ],
+ "characters/ruth-asquith": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/ruth-miller": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/ruth-wilson": [
   {
    "cat": "people",
    "sub": "characters",
@@ -9804,6 +10728,17 @@
   }
  ],
  "characters/sam-conrad": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/sam-dichter": [
   {
    "cat": "people",
    "sub": "characters",
@@ -9935,6 +10870,17 @@
    "official": null
   }
  ],
+ "characters/sergeant-stanley-bevelow": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/sgt-causarano": [
   {
    "cat": "people",
@@ -10024,6 +10970,17 @@
   }
  ],
  "characters/sheriff-roy": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/simms-the-nature-of-the-enemy": [
   {
    "cat": "people",
    "sub": "characters",
@@ -10342,6 +11299,17 @@
    "official": null
   }
  ],
+ "characters/the-beautiful-prisoner": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/the-blind-singer": [
   {
    "cat": "people",
@@ -10496,6 +11464,17 @@
    "official": null
   }
  ],
+ "characters/the-father-junior": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/the-gargoyle-teachers-aide": [
   {
    "cat": "people",
@@ -10556,6 +11535,17 @@
    "cat": "people",
    "sub": "characters",
    "group": "Supernatural beings",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/the-girl-smile-please": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
    "catTitle": "People",
    "subTitle": "Characters",
    "isNew": false,
@@ -10633,6 +11623,17 @@
    "cat": "people",
    "sub": "characters",
    "group": "Supernatural beings",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/the-husband-the-merciful": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
    "catTitle": "People",
    "subTitle": "Characters",
    "isNew": false,
@@ -10738,6 +11739,17 @@
    "official": null
   }
  ],
+ "characters/the-man-smile-please": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "Supernatural beings",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/the-man-the-burning-man": [
   {
    "cat": "people",
@@ -10760,11 +11772,44 @@
    "official": null
   }
  ],
+ "characters/the-man-with-the-mallet": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/the-man-with-the-stake": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/the-martian-visitors-mr-dingle-the-strong": [
   {
    "cat": "people",
    "sub": "characters",
    "group": "Aliens",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/the-master-of-the-castle": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "Supernatural beings",
    "catTitle": "People",
    "subTitle": "Characters",
    "isNew": false,
@@ -10816,6 +11861,17 @@
   }
  ],
  "characters/the-passenger-twilight-zone-the-movie": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "Supernatural beings",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/the-phantom-phantom-of-what-opera": [
   {
    "cat": "people",
    "sub": "characters",
@@ -10914,6 +11970,17 @@
    "official": null
   }
  ],
+ "characters/the-survivor-lone-survivor": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/the-tiny-aliens-the-fear": [
   {
    "cat": "people",
@@ -10936,11 +12003,55 @@
    "official": null
   }
  ],
+ "characters/the-vampire-a-midnight-visit-to-the-neighborhood-blood-bank": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "Supernatural beings",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/the-vampire-miss-lovecraft-sent-me": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "Supernatural beings",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/the-victim-a-midnight-visit-to-the-neighborhood-blood-bank": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/the-wax-murderers-the-new-exhibit": [
   {
    "cat": "people",
    "sub": "characters",
    "group": "Objects",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/the-wife-the-merciful": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
    "catTitle": "People",
    "subTitle": "Characters",
    "isNew": false,
@@ -11057,6 +12168,17 @@
    "official": null
   }
  ],
+ "characters/tom-ogilvy": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/tommy-the-monsters-are-due-on-maple-street": [
   {
    "cat": "people",
@@ -11113,6 +12235,17 @@
   }
  ],
  "characters/tyler-andrew-ward": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/uncle-arthur-porter": [
   {
    "cat": "people",
    "sub": "characters",
@@ -11189,6 +12322,17 @@
    "official": null
   }
  ],
+ "characters/vincent-riley": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "characters/vinnie-broun": [
   {
    "cat": "people",
@@ -11234,6 +12378,17 @@
   }
  ],
  "characters/wallace-v-whipple": [
+  {
+   "cat": "people",
+   "sub": "characters",
+   "group": "People",
+   "catTitle": "People",
+   "subTitle": "Characters",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "characters/walt-peckinpah": [
   {
    "cat": "people",
    "sub": "characters",
@@ -13829,7 +14984,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -13840,7 +14995,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -13862,7 +15017,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -13917,7 +15072,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -13928,7 +15083,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -13961,7 +15116,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -13972,7 +15127,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14038,7 +15193,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14049,7 +15204,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14060,7 +15215,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14071,7 +15226,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14126,7 +15281,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14137,7 +15292,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14148,7 +15303,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14159,7 +15314,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14170,7 +15325,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14181,7 +15336,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14192,7 +15347,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14203,7 +15358,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14214,7 +15369,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14225,7 +15380,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14236,7 +15391,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14247,7 +15402,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14258,7 +15413,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14269,7 +15424,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14280,7 +15435,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14291,7 +15446,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14302,7 +15457,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14313,7 +15468,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14324,7 +15479,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14335,7 +15490,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14346,7 +15501,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14357,7 +15512,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14368,7 +15523,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14379,7 +15534,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14390,7 +15545,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14401,7 +15556,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14412,7 +15567,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14423,7 +15578,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14434,7 +15589,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14445,7 +15600,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14456,7 +15611,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14467,7 +15622,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14478,7 +15633,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14489,7 +15644,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14500,7 +15655,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14511,7 +15666,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14522,7 +15677,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14533,7 +15688,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14544,7 +15699,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14555,7 +15710,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14566,7 +15721,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14577,7 +15732,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14588,7 +15743,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14599,7 +15754,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14610,7 +15765,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14621,7 +15776,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14632,7 +15787,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14643,7 +15798,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14654,7 +15809,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14665,7 +15820,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14676,7 +15831,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14687,7 +15842,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14698,7 +15853,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14709,7 +15864,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14720,7 +15875,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14731,7 +15886,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14742,7 +15897,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14753,7 +15908,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14764,7 +15919,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14775,7 +15930,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14786,7 +15941,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14797,7 +15952,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14808,7 +15963,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14819,7 +15974,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14830,7 +15985,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14841,7 +15996,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14852,7 +16007,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14863,7 +16018,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14874,7 +16029,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14885,7 +16040,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14896,7 +16051,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14907,7 +16062,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14918,7 +16073,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14929,7 +16084,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14940,7 +16095,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14951,7 +16106,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -14962,7 +16117,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15006,7 +16161,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15017,7 +16172,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15050,7 +16205,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15072,7 +16227,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15083,7 +16238,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15094,7 +16249,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15105,7 +16260,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15182,7 +16337,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15193,7 +16348,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15204,7 +16359,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Confirmed by its makers",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15226,7 +16381,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15237,7 +16392,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15259,7 +16414,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15281,7 +16436,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15336,7 +16491,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15358,7 +16513,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15380,7 +16535,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15391,7 +16546,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15402,7 +16557,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15413,7 +16568,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15424,7 +16579,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15435,7 +16590,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15446,7 +16601,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15479,7 +16634,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15490,7 +16645,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15501,7 +16656,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15534,7 +16689,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15578,7 +16733,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15589,7 +16744,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15611,7 +16766,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15622,7 +16777,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15633,7 +16788,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15644,7 +16799,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15655,7 +16810,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15666,7 +16821,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15677,7 +16832,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15688,7 +16843,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15754,7 +16909,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15765,7 +16920,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15798,7 +16953,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15853,7 +17008,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15875,7 +17030,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15886,7 +17041,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15908,7 +17063,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15919,7 +17074,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15930,7 +17085,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15941,7 +17096,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15952,7 +17107,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15963,7 +17118,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15974,7 +17129,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -15985,7 +17140,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16040,7 +17195,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16051,7 +17206,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16062,7 +17217,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16073,7 +17228,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16084,7 +17239,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16095,7 +17250,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16106,7 +17261,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16117,7 +17272,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16128,7 +17283,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16139,7 +17294,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16150,7 +17305,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16161,7 +17316,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16172,7 +17327,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16183,7 +17338,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16205,7 +17360,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16249,7 +17404,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16260,7 +17415,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16282,7 +17437,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16293,7 +17448,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16304,7 +17459,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16315,7 +17470,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16326,7 +17481,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16337,7 +17492,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16348,7 +17503,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16359,7 +17514,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16370,7 +17525,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16381,7 +17536,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16392,7 +17547,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16403,7 +17558,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16414,7 +17569,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16425,7 +17580,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16436,7 +17591,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16447,7 +17602,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16458,7 +17613,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16469,7 +17624,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16480,7 +17635,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16491,7 +17646,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16502,7 +17657,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16513,7 +17668,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16524,7 +17679,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16546,7 +17701,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16612,7 +17767,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16645,7 +17800,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16667,7 +17822,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16722,7 +17877,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16744,7 +17899,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16755,7 +17910,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16777,7 +17932,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16821,7 +17976,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16832,7 +17987,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16843,7 +17998,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16854,7 +18009,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16876,7 +18031,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16887,7 +18042,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16898,7 +18053,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16909,7 +18064,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16920,7 +18075,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16931,7 +18086,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16942,7 +18097,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -16953,7 +18108,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17008,7 +18163,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17041,7 +18196,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17052,7 +18207,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17074,7 +18229,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17085,7 +18240,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17129,7 +18284,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17140,7 +18295,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17151,7 +18306,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17195,7 +18350,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17206,7 +18361,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17217,7 +18372,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17239,7 +18394,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17250,7 +18405,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17261,7 +18416,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17272,7 +18427,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17283,7 +18438,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17316,7 +18471,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17327,7 +18482,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17338,7 +18493,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17415,7 +18570,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17426,7 +18581,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17437,7 +18592,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17448,7 +18603,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17492,7 +18647,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17503,7 +18658,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17514,7 +18669,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17558,7 +18713,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17580,7 +18735,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17701,7 +18856,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17723,7 +18878,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17745,7 +18900,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17756,7 +18911,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17767,7 +18922,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17778,7 +18933,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17789,7 +18944,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17800,7 +18955,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17811,7 +18966,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17822,7 +18977,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17833,7 +18988,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17844,7 +18999,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17855,7 +19010,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17866,7 +19021,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17877,7 +19032,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17888,7 +19043,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17899,7 +19054,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17910,7 +19065,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -17921,7 +19076,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18020,7 +19175,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18031,7 +19186,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18042,7 +19197,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18053,7 +19208,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18064,7 +19219,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18075,7 +19230,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18086,7 +19241,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18097,7 +19252,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18130,7 +19285,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18152,7 +19307,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18251,7 +19406,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18262,7 +19417,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18273,7 +19428,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18284,7 +19439,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18306,7 +19461,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18328,7 +19483,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18339,7 +19494,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18394,7 +19549,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18405,7 +19560,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18427,7 +19582,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18438,7 +19593,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18482,7 +19637,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18493,7 +19648,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18526,7 +19681,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18548,7 +19703,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18614,7 +19769,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18636,7 +19791,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18713,7 +19868,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18724,7 +19879,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18746,7 +19901,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18757,7 +19912,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18779,7 +19934,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18812,7 +19967,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Confirmed by its makers",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18823,7 +19978,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Confirmed by its makers",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18856,7 +20011,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18867,7 +20022,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18889,7 +20044,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18922,7 +20077,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18933,7 +20088,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18944,7 +20099,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -18966,7 +20121,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19032,7 +20187,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19054,7 +20209,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19087,7 +20242,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19109,7 +20264,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19208,7 +20363,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19252,7 +20407,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19263,7 +20418,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19329,7 +20484,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19340,7 +20495,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19351,7 +20506,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19362,7 +20517,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19373,7 +20528,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19384,7 +20539,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19395,7 +20550,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19406,7 +20561,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19439,7 +20594,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19450,7 +20605,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19461,7 +20616,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19483,7 +20638,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19494,7 +20649,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19505,7 +20660,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19516,7 +20671,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19527,7 +20682,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19538,7 +20693,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19549,7 +20704,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19560,7 +20715,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19571,7 +20726,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19582,7 +20737,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19593,7 +20748,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19604,7 +20759,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19626,7 +20781,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19637,7 +20792,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19648,7 +20803,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19659,7 +20814,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19670,7 +20825,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19681,7 +20836,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19692,7 +20847,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19703,7 +20858,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19714,7 +20869,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19725,7 +20880,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19736,7 +20891,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19747,7 +20902,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19758,7 +20913,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19769,7 +20924,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19780,7 +20935,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19791,7 +20946,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19802,7 +20957,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19813,7 +20968,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19824,7 +20979,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19835,7 +20990,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Documented",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19901,7 +21056,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19923,7 +21078,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19978,7 +21133,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -19989,7 +21144,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -20077,7 +21232,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
@@ -20088,7 +21243,7 @@
   {
    "cat": "homages",
    "sub": "references",
-   "group": null,
+   "group": "Noted by fans",
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,

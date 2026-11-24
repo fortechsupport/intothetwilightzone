@@ -1,0 +1,23 @@
+name: The Husband (The Merciful)
+kind: human
+played_by:
+- King Donovan
+appears_in:
+- films/night-gallery-s2e02
+description: In "The Merciful", a miserable husband whose wife sets out to end his misery.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "The Merciful", which names King Donovan in the role.
+- title: Night Gallery episode guide, season two
+  url: https://www.nightgallery.net/episode-guide-season-two
+  publisher: nightgallery.net
+  note: 'Cast list: The Husband (King Donovan). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

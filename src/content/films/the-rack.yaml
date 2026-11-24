@@ -56,3 +56,14 @@ media:
   date: '2011-07-13'
   rights: 'link-only'
   note: 'Warner Archive DVD, released 1 July 2011. "The film''s trailer is the lone extra."'
+releases:
+- date: '2011-07-01'
+  format: DVD
+  title: The Rack
+  publisher: Warner Archive
+  note: Made-to-order DVD. The review says the film's trailer is the only extra.
+  sources:
+  - title: The Rack (DVD review)
+    url: https://www.dvdtalk.com/reviews/51017/rack-the/
+    publisher: DVD Talk
+    note: Posted 13 July 2011.

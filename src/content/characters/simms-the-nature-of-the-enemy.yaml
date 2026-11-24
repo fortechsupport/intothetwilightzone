@@ -1,0 +1,23 @@
+name: Simms
+kind: human
+played_by:
+- Joseph Campanella
+appears_in:
+- films/night-gallery-s1e02
+description: In "The Nature of the Enemy", a scientist at NASA Mission Control who watches a disaster unfold on the Moon.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "The Nature of the Enemy", which names Joseph Campanella in the role.
+- title: Night Gallery episode guide, season one
+  url: https://www.nightgallery.net/season-one
+  publisher: nightgallery.net
+  note: 'Cast list: Simms (Joseph Campanella). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

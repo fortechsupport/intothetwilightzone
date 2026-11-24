@@ -61,7 +61,9 @@ second-pass-2026-11-24.md, and every "Known not to work yet" line in docs/releas
   The Man has no AFI entry found. Lost Classics' composer is not in Wikipedia or TCM. Journey to the Far Side of the
   Sun's comparisons are only in a summary of Wikipedia's citations (Douglas Pratt, the ICA), not read; Donnie Darko's
   Owl Creek tie and The Bourne Identity's line rest on Gizmodo and TV Tropes only, and stay marked as fan-noted.
-- **Not finished:** posters (with designers), official trailers and home video for Serling's other films (round 3).
+- **Done (three-rounds plan, PR 1):** disc releases on ten of Serling's films, posters linked on three (John Alvin named
+  for Phantom of the Paradise), The Yellow Canary's trailer print; what was not found is listed in
+  docs/plans/three-research-rounds-2026-11-24.md.
 
 ### Radio (casts deferred by Adam)
 - **Done (earlier):** Tony Mockus Sr. and Jr. are father and son (Chicago Sun-Times obituary), two people; the five
@@ -135,7 +137,7 @@ second-pass-2026-11-24.md, and every "Known not to work yet" line in docs/releas
   index).
 - **Can't:** Emmy nominations for the 1985 revival (Wikipedia lists none; its one award, the 1987 WGA, has a record);
   ratings history (no source found); the Rugrats episode (unnamed by TV Tropes); a MAD or MADtv parody (not confirmed).
-- **Adam:** evidence groups on References, if he prefers them to the filter.
+- **Done (three-rounds plan, PR 1), decided here:** References are grouped by evidence.
 
 ### Meet
 - **Done (PR B):** 19 organizations link to Wikipedia; Entertainment Earth has a record (retailer and wholesaler, the
@@ -144,8 +146,9 @@ second-pass-2026-11-24.md, and every "Known not to work yet" line in docs/releas
   episodes the radio dramas remade now list that radio episode.
 - **Done (earlier):** one character played by two actors (Philip in "Upgrade").
 - **Done (PR B):** Stern Pinball has a record, as publisher of the two pinball tables with Twilight Zone homages.
-- **Not finished:** Night Gallery characters (a research round of about 100 segments), and characters of the 16
-  original radio stories.
+- **Done (three-rounds plan, PR 1):** 105 more Night Gallery characters; every episode now has its characters (140 in
+  all). Eleven segments with no actor paired to a role are listed there.
+- **Not finished:** characters of the 16 original radio stories (their casts are deferred with the radio casts).
 
 ### Visit
 - **Done (PR A):** settings for every series. **Done (PR B):** filming cities for the 2002 series (Vancouver) and the
@@ -169,7 +172,7 @@ second-pass-2026-11-24.md, and every "Known not to work yet" line in docs/releas
 
 ## Waiting on Adam
 - Q8: let the weekly podcast refresh open pull requests (a GitHub setting), or choose another way.
-- The 52 unconfirmed songs; evidence groups on References; full radio casts (deferred).
+- The 52 unconfirmed songs; full radio casts (deferred).
 
 ## Found, for later
 - Nothing goes here: each item found is added to the ledger above with a mark.

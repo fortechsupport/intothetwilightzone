@@ -61,3 +61,24 @@ media:
   date: '2012-03-31'
   rights: 'link-only'
   note: 'Olive Films Blu-ray released 27 March 2012; "there are no supplements of any kind included on the disc."'
+releases:
+- date: '2012-03-27'
+  format: Blu-ray and DVD
+  title: Assault on a Queen
+  publisher: Olive Films
+  region: Blu-ray region free; DVD Region 1
+  note: Widescreen. Both reviews say there are no extras.
+  sources:
+  - title: 'Wikipedia: Assault on a Queen'
+    url: https://en.wikipedia.org/wiki/Assault_on_a_Queen
+    note: Olive Films DVD and Blu-ray, 27 March 2012, Region 1.
+  - title: Assault on a Queen Blu-ray
+    url: https://m.blu-ray.com/movies/Assault-on-a-Queen-Blu-ray/36654
+    publisher: Blu-ray.com
+    author: Jeffrey Kauffman
+    note: 31 March 2012; region free; no supplements.
+  - title: Assault on a Queen (DVD review)
+    url: https://www.dvdtalk.com/reviews/review/54201
+    publisher: DVD Talk
+    author: Jeremy Biltz
+    note: 7 April 2012; no extras.

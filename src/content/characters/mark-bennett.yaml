@@ -1,0 +1,23 @@
+name: Mark Bennett
+kind: human
+played_by:
+- Steve Lawrence
+appears_in:
+- films/night-gallery-s2e11
+description: In "The Dear Departed", a fake medium.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "The Dear Departed", which names Steve Lawrence in the role.
+- title: Night Gallery episode guide, season two
+  url: https://www.nightgallery.net/episode-guide-season-two
+  publisher: nightgallery.net
+  note: 'Cast list: Mark Bennett (Steve Lawrence). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

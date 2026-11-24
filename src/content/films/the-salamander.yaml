@@ -30,3 +30,31 @@ locked: true
 serling_role: from-his-work
 source_authors:
 - Morris West
+releases:
+- date: '2004'
+  format: DVD
+  title: The Salamander
+  publisher: Pathfinder
+  region: Region 0 (US)
+  note: The first DVD release, per Mondo Digital.
+  sources:
+  - title: The Salamander
+    url: https://mondo-digital.com/salamander.html
+    publisher: Mondo Digital
+    note: Reviewed 19 November 2017.
+- date: '2017'
+  format: Blu-ray
+  title: The Salamander
+  publisher: Scorpion Releasing (distributed by Kino Lorber)
+  region: Region 0 (US)
+  note: A new 2K remaster with a commentary by producer Paul Maslansky, an interview with John Steiner and the theatrical
+    trailer.
+  sources:
+  - title: The Salamander
+    url: https://mondo-digital.com/salamander.html
+    publisher: Mondo Digital
+    note: Names the trailer, commentary and interview.
+  - title: The Salamander (1981) Blu-ray
+    url: https://m.blu-ray.com/news/newsitem.php?id=19885
+    publisher: Blu-ray.com
+    note: 'Announcement, 21 September 2016: due March 2017, distributed by Kino Lorber.'

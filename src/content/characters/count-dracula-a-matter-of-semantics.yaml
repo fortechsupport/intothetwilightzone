@@ -1,0 +1,23 @@
+name: Count Dracula (A Matter of Semantics)
+kind: supernatural
+played_by:
+- Cesar Romero
+appears_in:
+- films/night-gallery-s2e08
+description: In "A Matter of Semantics", Count Dracula, who comes to a blood bank.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "A Matter of Semantics", which names Cesar Romero in the role.
+- title: Night Gallery episode guide, season two
+  url: https://www.nightgallery.net/episode-guide-season-two
+  publisher: nightgallery.net
+  note: 'Cast list: Count Dracula (Cesar Romero). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24
