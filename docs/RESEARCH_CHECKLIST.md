@@ -196,20 +196,21 @@ Plan: docs/plans/research-podcasts.md (approved by Adam 2026-11-24, Q1 to Q9 as 
 
 Read is one category ("Reading") with format subcategories plus six topic collections.
 
-- [ ] **Books and Scripts:** Content plan · Researched · Records decided · Pages built
-- [ ] **Comics:** Content plan · Researched · Records decided · Pages built
-- [ ] **Magazines:** Content plan · Researched · Records decided · Pages built
-- [ ] **Articles, Essays and scholarship, Websites:** Content plan · Researched · Records decided · Pages built
+- [x] **Books and Scripts:** Content plan · Researched · Records decided · Pages built (docs/plans/research-read.md, PRs #81 and the cover/stories round)
+- [x] **Comics:** Content plan · Researched · Records decided · Pages built (creators missing on 94 issues: GCD refuses automated reading)
+- [x] **Magazines:** Content plan · Researched · Records decided · Pages built (cover art on 17 Twilight Zone Magazine issues, described on 11 more)
+- [x] **Articles, Essays and scholarship, Websites:** Content plan · Researched · Records decided · Pages built (20 reviews published; 3 websites added)
 
 | Format | Records (Off / Unoff) | Depth |
 |---|---:|---|
-| Books | 195 (47 / 148) | Partial |
-| Scripts and teleplays *(new)* | 27 (27 / 0) | Partial |
+| Books | 157 (22 / 135) | Deep (every book grouped by kind; Serling's own books also under his own writing) |
+| Scripts and teleplays *(new)* | 29 | Partial |
+| The stories behind the episodes *(new)* | 99 (no split) | Deep (75 dated, 41 with a first venue) |
 | Comics | 188 (187 / 1) | Deep (Gold Key 100, Dynamite 28, Now 24, IDW 13, Walker 8, Dell 4, others) |
-| Magazines | 81 (72 / 9) | Deep (Twilight Zone Magazine and Night Cry) |
+| Magazines | 81 (72 / 9) | Deep (Twilight Zone Magazine and Night Cry; cover art where the catalogue credits it) |
 | Articles and interviews | 125 (5 / 120) | Partial |
 | Essays and scholarship | 51 (3 / 48) | Partial |
-| Websites and databases *(new)* | 14 (0 / 14) | Thin |
+| Websites and databases *(new)* | 15 on the shelf, plus database pages shown on the records they describe | Partial |
 
 | Collection | Records |
 |---|---:|

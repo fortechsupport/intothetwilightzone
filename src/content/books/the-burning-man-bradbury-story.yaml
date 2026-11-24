@@ -4,8 +4,9 @@ authors:
 kind: short-story
 episodes:
 - 1985/the-burning-man
-description: Ray Bradbury's short story, adapted as the Twilight Zone episode "The Burning Man" (1985 series). J.D. Feigelson
-  wrote the teleplay. No source we read gives where it first appeared.
+description: 'Ray Bradbury''s short story, adapted as the Twilight Zone episode "The Burning Man" (1985 series). J.D.
+  Feigelson wrote the teleplay. The earliest dated printing we found is in the collection Long After Midnight (Knopf),
+  September 1976: the catalogue dates the story to that year but does not mark that printing as the first.'
 relevance: related
 research_confidence: medium
 tags:
@@ -15,4 +16,7 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
 - title: The Twilight Zone (1985) Season 1 - TheTVDB
   url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+- title: 'AuthorWars (ISFDb-based catalogue): The Burning Man'
+  url: https://authorwars.com/books/titles/64913/the-burning-man
+  note: Read 2026-11-24 for where the story first appeared.
 last_verified: '2026-11-24'

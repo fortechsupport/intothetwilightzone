@@ -193,6 +193,10 @@ export async function allPeople(): Promise<Map<string, Person>> {
       for (const r of roles.length ? roles : ['creator']) add(name, { ...base, role: COMIC_ROLE[r] ?? 'Comics creator' });
     }
   }
+  // A magazine's cover painter, where the issue's catalogue entry credits one (Read plan, cover artists).
+  for (const m of await getCollection('magazines')) {
+    if (m.data.cover_artist) add(splitCredit(m.data.cover_artist).name, { title: m.data.title, url: `/magazines/${m.id}/`, date: m.data.cover_date, detail: m.data.publisher, role: 'Cover artist' });
+  }
   for (const p of await getCollection('people')) {
     const slug = p.id;
     if (!map.has(slug)) map.set(slug, { slug, name: p.data.name, credits: [] });

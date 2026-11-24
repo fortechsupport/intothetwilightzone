@@ -2,12 +2,14 @@ title: A Saucer of Loneliness
 authors:
 - Theodore Sturgeon
 kind: short-story
+first_published: '1953'
 episodes:
 - 1985/a-saucer-of-loneliness
 description: Theodore Sturgeon's short story, adapted as the Twilight Zone episode "A Saucer of Loneliness" (1985 series).
-  David Gerrold wrote the teleplay. No source we read gives where it first appeared.
+  David Gerrold wrote the teleplay. The catalogue dates it to 1953 but lists no magazine printing. No source we read
+  names the magazine or book it first appeared in.
 relevance: related
-research_confidence: medium
+research_confidence: high
 tags:
 - read-2026-11-24
 sources:
@@ -15,4 +17,7 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
 - title: A Saucer of Loneliness - Wikipedia
   url: https://wikipedia.com/wiki/A_Saucer_of_Loneliness
+- title: 'AuthorWars (ISFDb-based catalogue): A Saucer of Loneliness'
+  url: https://authorwars.com/books/titles/37301/a-saucer-of-loneliness
+  note: Read 2026-11-24 for where the story first appeared.
 last_verified: '2026-11-24'

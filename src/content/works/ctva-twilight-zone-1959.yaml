@@ -1,0 +1,21 @@
+title: The Classic TV Archive (CTVA) – The Twilight Zone (1959–1964)
+kind: link
+subtype: database
+publisher: The Classic TV Archive (CTVA)
+description: An episode guide to the original series "compiled by The Classic TV Archive", with contributions credited
+  to Rina Fox. The overview page gives the series facts (CBS, 1959 to 1964, 156 episodes, Rod Serling as host) and
+  links to a guide for each of the five seasons.
+details:
+  status: active
+links:
+  official: https://ctva.biz/US/Anthology/TwilightZone1959-64.htm
+sources:
+- title: ctva.biz, "The Twilight Zone (1959-64)" (read 24 November 2026)
+  url: https://ctva.biz/US/Anthology/TwilightZone1959-64.htm
+research_confidence: high
+relevance: related
+tags:
+- read-2026-11-24
+last_verified: '2026-11-24'
+content_of:
+- series/1959

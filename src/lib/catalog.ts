@@ -354,6 +354,7 @@ export async function catalog(): Promise<Map<string, CatInfo>> {
         const artists = (d.creators ?? []).map(splitCredit).filter((c: any) => c.roles.includes('cover')).map((c: any) => c.name);
         if (artists.length) put('artwork', 'covers', { key: `${key}#cover`, title: `Cover: ${e.title}`, href: e.href, sort: sortKey(e.title), meta: meta(`cover by ${artists.join(', ')}`, d.publisher, yearOf(d.cover_date)), group: 'Comics', official: first });
       }
+      if (col === 'magazines' && d.cover_artist) put('artwork', 'covers', { key: `${key}#cover`, title: `Cover: ${e.title}`, href: e.href, sort: sortKey(e.title), meta: meta(`cover by ${d.cover_artist}`, d.publisher, yearOf(d.cover_date)), group: 'Magazines', official: first });
       // A podcast's listed episodes are rows in the episode table (/podcasts/episodes/), not shelf entries.
     }
   }

@@ -4,8 +4,9 @@ authors:
 kind: short-story
 episodes:
 - 1959/still-valley
-description: Manly Wade Wellman's short story, adapted as the Twilight Zone episode "Still Valley" (1959 series). Rod
-  Serling wrote the teleplay. No source we read gives where it first appeared.
+description: 'Manly Wade Wellman''s short story, adapted as the Twilight Zone episode "Still Valley" (1959 series). Rod
+  Serling wrote the teleplay. The earliest dated printing we found is in Weird Tales, August 1939: the catalogue dates
+  the story to that year but does not mark that printing as the first.'
 relevance: related
 research_confidence: medium
 tags:
@@ -19,4 +20,7 @@ sources:
   url: https://en.wikipedia.org/wiki/Still_Valley
 - title: SYFY Wire - Still Valley's original story
   url: https://www.syfy.com/index%2ephp/syfy-wire/classic-twilight-zone-episode-still-valley-had-more-violent-ending-in-original-story
+- title: 'AuthorWars (ISFDb-based catalogue): The Valley Was Still'
+  url: https://authorwars.com/books/the-valley-was-still-65409.html
+  note: Read 2026-11-24 for where the story first appeared.
 last_verified: '2026-11-24'

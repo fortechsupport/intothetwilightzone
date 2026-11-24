@@ -7,6 +7,9 @@ editor: Michael Blaine (first issue as editor-in-chief, per SF Encyclopedia date
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60209
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/publications/rod-serlings-the-twilight-zone-magazine-october-1985-60209.html
+  note: Read 2026-11-24 for the cover credit.
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
@@ -22,9 +25,10 @@ description: 'October 1985 issue, edited by Michael Blaine (first issue as edito
   M. Drennan; Show-by-Show Guide to ''Night Gallery'', Part Four. Teleplay: "The Purple Testament" by Rod Serling
   (The Purple Testament (original series, Season 1, 1960)). Regular columns: In the Twilight Zone; Letters; Books
   (D.W. ''Doc'' Kennedy); TZ Tech; Illuminations; Screen; TZ Video (bylines partly uncertain). Vol. 5 No. 4. OCR
-  layout of contents page is garbled; column bylines uncertain.'
+  layout of contents page is garbled; column bylines uncertain. The catalogue describes the cover as the "Cover
+  painting for The Vampire Lestat by Anne Rice"; Anne Rice wrote the novel, and the painter is not named.'
 episodes:
 - 1959/the-purple-testament
 research_confidence: medium
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

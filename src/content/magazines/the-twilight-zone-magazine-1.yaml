@@ -4,6 +4,7 @@ cover_date: Apr 1981
 order: 1
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+cover_artist: Jim Warren
 description: Premiere issue with a message from Carol Serling, a profile of Rod Serling by Klein and Marc
   Scott Zicree, Charles L. Grant's interview with Stephen King, and fiction by Harlan Ellison ('Grail'),
   George R.R. Martin, Joyce Carol Oates, Ramsey Campbell and Robert Sheckley. It began Zicree's show-by-show
@@ -14,6 +15,9 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60153
 research_confidence: high
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/publications/rod-serlings-the-twilight-zone-magazine-april-1981-60153.html
+  note: 'Read 2026-11-24 for the cover credit: "Cover art by Jim Warren" stated on the contents page.'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 1'
@@ -22,5 +26,5 @@ sources:
   url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
 - title: 'AuthorWars (ISFDB data): The Twilight Zone Magazine 1981 issues'
   url: https://authorwars.com/books/the-twilight-zone-magazine---1981-1005996.html
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true

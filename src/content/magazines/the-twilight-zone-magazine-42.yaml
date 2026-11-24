@@ -4,9 +4,13 @@ cover_date: Jun 1986
 order: 42
 publisher: TZ Publications, Inc.
 editor: Michael Blaine
+cover_artist: J. Stephen Hicks (photograph)
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60194
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/publications/rod-serlings-the-twilight-zone-magazine-june-1986-60194.html
+  note: 'Read 2026-11-24 for the cover credit: "Cover photograph of Richard Matheson and Richard Christian Matheson by J. Stephen Hicks".'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
@@ -27,5 +31,5 @@ description: 'June 1986 issue, edited by Michael Blaine. Fiction: "Getting Toget
 episodes:
 - 1959/the-rip-van-winkle-caper
 research_confidence: high
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

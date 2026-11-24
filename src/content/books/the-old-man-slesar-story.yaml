@@ -2,12 +2,14 @@ title: The Old Man
 authors:
 - Henry Slesar
 kind: short-story
+first_published: '1962'
 episodes:
 - 1959/the-old-man-in-the-cave
 description: Henry Slesar's short story, adapted as the Twilight Zone episode "The Old Man in the Cave" (1959 series).
-  Rod Serling wrote the teleplay. No source we read gives where it first appeared.
+  Rod Serling wrote the teleplay. The catalogue dates it to 1962 and lists only undated book printings, among them the
+  collection Microcosmic Tales. No source we read names the magazine or book it first appeared in.
 relevance: related
-research_confidence: medium
+research_confidence: high
 tags:
 - read-2026-11-24
 sources:
@@ -15,4 +17,7 @@ sources:
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)
 - title: CTVA US Anthology - The Twilight Zone Season 5 (1963-64)
   url: https://ctva.biz/US/Anthology/TwilightZone_05_(1963-64).htm
+- title: 'AuthorWars (ISFDb-based catalogue): The Old Man'
+  url: https://authorwars.com/books/titles/93638/the-old-man
+  note: Read 2026-11-24 for where the story first appeared.
 last_verified: '2026-11-24'

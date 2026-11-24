@@ -4,9 +4,13 @@ cover_date: Apr 1986
 order: 41
 publisher: TZ Publications, Inc.
 editor: Michael Blaine
+cover_artist: Len de Lessio
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60188
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/books/rod-serlings-the-twilight-zone-magazine-april-1986-1272450.html
+  note: 'Read 2026-11-24 for the cover credit: the cover-art record for the April 1986 issue names "Author: Len de Lessio".'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
@@ -28,5 +32,5 @@ description: 'April 1986 issue, edited by Michael Blaine. Fiction: "The Planting
 episodes:
 - 1959/showdown-with-rance-mcgrew
 research_confidence: high
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

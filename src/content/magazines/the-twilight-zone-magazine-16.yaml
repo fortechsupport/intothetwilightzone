@@ -4,6 +4,7 @@ cover_date: Jul 1982
 order: 16
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+cover_artist: David White
 description: July 1982 issue with Stephen King's film essay 'Digging The Boogens', an interview with Robertson
   Davies alongside his story 'Offer of Immortality', and fiction by Robert Silverberg, Joe R. Lansdale
   ('Chompers'), Lewis Shiner and Joan Aiken. It ran part sixteen of Zicree's guide and Serling's teleplay
@@ -14,9 +15,12 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60175
 research_confidence: high
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/books/titles/149961/cover-rod-serlings-the-twilight-zone-magazine-july-1982
+  note: 'Read 2026-11-24 for the cover credit: the cover-art record for the July 1982 issue names "Author: David White".'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 16'
   url: https://twilightzonevortex.blogspot.com/2019/10/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true

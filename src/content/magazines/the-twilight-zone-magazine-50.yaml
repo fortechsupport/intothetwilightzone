@@ -4,6 +4,7 @@ cover_date: Oct 1987
 order: 50
 publisher: TZ Publications, Inc.
 editor: Tappan King
+cover_artist: Peter Goodfellow
 description: 'October 1987 issue, edited by Tappan King. Fiction: "The Forge of God (excerpt)" by Greg Bear; "Voices
   in the Earth" by Alan Brennert; "Ambition" by Barry N. Malzberg; "Alien Mail to the White House" by Jay Sheckley;
   "Davi Leiko Till Midnight" by William F. Wu; "Mad City Beneath the Sands" by Richard Paul Russo; "Delta Sly Honey"
@@ -17,11 +18,14 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60203
 research_confidence: high
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/publications/rod-serlings-the-twilight-zone-magazine-october-1987-60203.html
+  note: 'Read 2026-11-24 for the cover credit: "Cover art by Peter Goodfellow/Quantum Artists Limited/courtesy of Avon Books" (contents page).'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
   url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
 - title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
     is in copyright.
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true
