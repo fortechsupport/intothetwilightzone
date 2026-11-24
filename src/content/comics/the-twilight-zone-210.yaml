@@ -1,6 +1,10 @@
 title: The Twilight Zone 210
 series_name: The Twilight Zone
 publisher: Dell Comics
+creators:
+- 'Leo Dorfman (writer)'
+- 'George Evans (artist, pencils)'
+- 'Frank Frazetta (inks)'
 cover_date: August-October 1962
 order: 4
 links:
@@ -8,8 +12,12 @@ links:
 ids:
   amazon_asin: B002BYTJ0U
 sources:
+- title: "Martin O'Hearn: Twilight Zone (Dell) Writer (9 January 2012)"
+  url: https://martinohearn.blogspot.com/2012/01/twilight-zone-dell-writer.html
+  note: 'Read 2026-11-24. O''Hearn lists this issue as 12-860-210 (Aug-Oct 1962; misnumbered 01-860-210 in the indicia), credits its stories to Leo Dorfman, and identifies the art: "The Ring" and "The Collector" (p: Evans, i: Frank Frazetta), "The Time Machine" and the filler (Evans). The Frazetta credit rests on a report: "Hearing that Frank Frazetta inked Evans on the fourth issue, I give him the credit on the stories that look least like Evans'' own inks." He names no cover artist.'
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 description: One of the four Twilight Zone comics Dell published in 1961-1962 (this one dated August-October 1962),
   before the packager Western Publishing moved the license to its own new Gold Key imprint. Like the later Gold
-  Key run, it carries new stories rather than adaptations of episodes.
+  Key run, it carries new stories rather than adaptations of episodes. Its creators are identifications by comics historian Martin O'Hearn (the comic printed no credits).
+last_verified: '2026-11-24'

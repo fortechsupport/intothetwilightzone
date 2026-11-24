@@ -153,6 +153,15 @@ Foreign-language editions, Rod Serling Memorial Foundation publications, Rod Ser
     the issue's *Creators*; a credit the index marks "?" is left off the list and named in the source note instead. The
     back-cover pin-up, a reprint of the front cover, counts as cover art. "Paul Newman" in one issue is written Paul S.
     Newman, as the same index names him elsewhere in the series. Two new role labels (letters, colors) were added.
+  - *Other comics:* the eight Walker & Company graphic novels (2008-2009) take their adapter and illustrator from
+    Kirkus Reviews, ICv2, ComicMix, PREVIEWSworld, Open Library, Junior Library Guild and bookseller pages, each quoted
+    in the source note; Serling is credited for the teleplay each adapts. Dell's four issues (1961-1962) printed no
+    credits; their creators are comics historian Martin O'Hearn's identifications (Leo Dorfman as writer; Reed
+    Crandall, George Evans, Mike Sekowsky and Frank Giacoia from the art; George Wilson's second cover; Frank Frazetta's
+    inks on the fourth, which he credits from a report), and the description says so. The one credit he calls "a wild
+    guess" (Joe Giella) and one he marks "?" are left off. *Planet
+    of the Apes: Visionaries* takes its team from BOOM! Studios' announcement and Wikipedia's infobox; one colorist's
+    name is left off because it could not be checked against a second source.
   - *Book dates:* Open Library's records. *B.C. Strikes Back* was wrongly described as a 1970s book: Open Library lists
     1961 (Fawcett Gold Medal) and 1962 (Putnam) editions, and the Rod Serling Memorial Foundation confirms that Serling
     wrote its foreword (quoting it), so his credit now reads "foreword" instead of co-author.
@@ -174,10 +183,16 @@ Foreign-language editions, Rod Serling Memorial Foundation publications, Rod Ser
 
 ## Not possible, and why
 Each item below was tried; the reason is what stopped it.
-- **Creators for 60 of the 188 comics (third pass in progress).** The Grand Comics Database refuses automated reading,
-  but Heritage Auctions' issue index carries its credits; it allows about three or four page reads every ten to fifteen
-  minutes, so the Gold Key issues are being read in paced rounds (34 of 94 done when this was written). The Dell,
-  Walker, Cayuga and giveaway editions come after.
+- **Creators for 41 of the 188 comics (third pass in progress).** The Grand Comics Database refuses automated
+  reading, but Heritage Auctions' issue index carries its credits; it allows about three page reads every ten to
+  fifteen minutes, so the Gold Key issues are being read in paced rounds (40 of 94 done when this was written).
+  The rest, and why:
+  - *The Midnight Sun* (Walker, 2009) has its adapter but no illustrator: no catalogue or review page read names one.
+  - *Dan Curtis Giveaways #3* and the three Cayuga mini-comics: no page read lists their contents or credits (VCU
+    Libraries' catalogue pages give only issue numbers and years).
+  - The Whitman-logo printings (#51-92) are cover variants of Gold Key issues, so their credits are those issues'.
+  - The fan wiki pages linked from two of the Dell records refuse automated reading, so which wiki page belongs to which
+    issue was not re-checked.
 - **Authors for 84 of the 379 essays and articles, dates for 35.** Every article with a page of its own has now been
   read (111 pages in this pass). What is left, and why:
   - 28 gaps are rankings, aggregate scores and unsigned staff reviews with no page of their own, which by their
