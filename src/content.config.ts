@@ -180,6 +180,18 @@ const episodes = defineCollection({
     synopsis: z.string().optional(),
     themes: names,
     trivia: z.array(z.object({ text: z.string().max(400), sources: z.array(source).min(1) })).default([]),
+    // Who wrote the episode's music (Music plan Q4). score: original (written for the episode), stock (CBS library
+    // cues chosen by a music editor) or both. composers: the original score's composers; library_composers: the
+    // library cues' composers, only where a cue sheet is sourced.
+    music: z
+      .object({
+        score: z.enum(['original', 'stock', 'original-and-stock']),
+        composers: names,
+        library_composers: names,
+        note: z.string().max(400).optional(),
+        sources: z.array(source).min(1),
+      })
+      .optional(),
     ...common,
   }),
 });

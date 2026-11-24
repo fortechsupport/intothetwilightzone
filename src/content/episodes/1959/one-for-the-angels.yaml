@@ -41,3 +41,15 @@ media:
   host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
   date: '2010-09-14'
   rights: licensed
+music:
+  score: stock
+  composers: []
+  library_composers: []
+  note: No original score; a music editor chose cues from the CBS library. Wrobel gives its cue sheet in his earlier CBS
+    Collection paper.
+  sources:
+  - title: The Twilight Zone (score rundowns and cue sheets)
+    author: Bill Wrobel
+    publisher: Film Score Rundowns
+    note: Written 2010, revised 5 May 2018, from the scores in the CBS Collection at UCLA. Copy in the IntoTheTwilightZone.com
+      archive (Essays folder); the author allows non-profit quotation with credit.

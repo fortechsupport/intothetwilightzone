@@ -71,3 +71,23 @@ media:
   host: 'The Twilight Zone: The Complete Definitive Collection on Blu-ray, Image Entertainment (listing via TMDB)'
   date: '2010-09-14'
   rights: licensed
+music:
+  score: original
+  composers:
+  - Bernard Herrmann
+  note: Only Herrmann's two title cues survive as full scores in the CBS Collection; the rest exists as a two-stave sketch
+    dated 16 January 1959 (Wrobel).
+  sources:
+  - title: '45worlds: Varèse Sarabande STV 81178, The Original Television Scores, Volume Two'
+    url: https://mail.45worlds.com/vinyl/album/stv81178
+    publisher: 45worlds
+    note: Track A2.
+  - title: 'Filmtracks: Twilight Zone 40th Anniversary Collection (Silva Screen, 1999)'
+    url: https://www.filmtracks.com/titles/twilight_zone.html
+    publisher: Filmtracks
+    note: Listed on disc 1 (Herrmann).
+  - title: The Twilight Zone (score rundowns and cue sheets)
+    author: Bill Wrobel
+    publisher: Film Score Rundowns
+    note: Written 2010, revised 5 May 2018, from the scores in the CBS Collection at UCLA. Copy in the IntoTheTwilightZone.com
+      archive (Essays folder); the author allows non-profit quotation with credit.

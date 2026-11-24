@@ -163,9 +163,9 @@ listings have them but the BBC site blocks automated reading; no other source li
 `volume` numbering is right; OTRR's 2003–04 broadcast log not yet applied.
 
 ### Music
-- [x] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [x] Researched (rounds 1 and 2, 2026-11-24) · [ ] Records decided · [ ] Pages built
 
-Plan: docs/plans/research-music.md (approved by Adam 2026-11-24, Q1 to Q6 as suggested). Research round 1 (songs, samples, covers) done 2026-11-24; round 2 (themes, scores, episode music) next.
+Plan: docs/plans/research-music.md (approved by Adam 2026-11-24, Q1 to Q6 as suggested). Research round 1 (songs, samples, covers) and round 2 (episode music, score releases, Night Gallery, Serling on record) done 2026-11-24.
 
 | Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|

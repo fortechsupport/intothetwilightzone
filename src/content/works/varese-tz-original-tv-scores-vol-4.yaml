@@ -8,6 +8,15 @@ description: >-
   The fourth LP collects two jazz-flavoured theme cues alongside music for "Nervous Man in a Four Dollar Room",
   "Elegy", "King Nine Will Not Return" and "Two", bookended by alternate Herrmann titles.
 details:
+  tracks:
+  - A1 Alternate Main Title (Bernard Herrmann)
+  - A2 Jazz Theme (Jerry Goldsmith)
+  - A3 Jazz Theme (René Garriguenc)
+  - A4 Nervous Man in a Four Dollar Room (Jerry Goldsmith)
+  - A5 Elegy (Nathan Van Cleave)
+  - B1 King Nine Will Not Return (Fred Steiner)
+  - B2 Two (Nathan Van Cleave)
+  - B3 Alternate End Title (Bernard Herrmann)
   format: LP
   series: The Twilight Zone (1959-64)
   catalog_no: STV 81192
@@ -23,7 +32,7 @@ sources:
 - title: American Music Preservation – review of The Twilight Zone 40th Anniversary Collection
   url: https://americanmusicpreservation.com/TheTwilightZoneAnniversaryCollection.htm
 research_confidence: medium
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 relevance: core
 media:
 - type: link

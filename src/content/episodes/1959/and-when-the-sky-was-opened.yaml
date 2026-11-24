@@ -56,3 +56,15 @@ media:
   date: '2010-09-14'
   rights: licensed
   note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+music:
+  score: original
+  composers:
+  - Leonard Rosenman
+  sources:
+  - title: '45worlds: Varèse Sarabande STV 81185, The Original Television Scores, Volume Three'
+    url: https://mail.45worlds.com/vinyl/album/stv81185
+    publisher: 45worlds
+  - title: 'Filmtracks: Twilight Zone 40th Anniversary Collection (Silva Screen, 1999)'
+    url: https://www.filmtracks.com/titles/twilight_zone.html
+    publisher: Filmtracks
+    note: Listed on disc 4.

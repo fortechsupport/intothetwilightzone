@@ -32,3 +32,16 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
 last_verified: '2026-11-19'
 locked: true
+music:
+  score: original
+  composers:
+  - Nathan Van Cleave
+  sources:
+  - title: '45worlds: Varèse Sarabande STV 81192, The Original Television Scores, Volume Four'
+    url: https://mail.45worlds.com/vinyl/album/stv81192
+    publisher: 45worlds
+    note: Track A5.
+  - title: 'Filmtracks: Twilight Zone 40th Anniversary Collection (Silva Screen, 1999)'
+    url: https://www.filmtracks.com/titles/twilight_zone.html
+    publisher: Filmtracks
+    note: Listed on disc 3.

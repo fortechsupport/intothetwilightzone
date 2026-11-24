@@ -50,3 +50,21 @@ media:
   url: https://interviews.televisionacademy.com/interviews/richard-matheson
   date: '2002-04-16'
   duration: '1:11'
+music:
+  score: stock
+  composers: []
+  library_composers:
+  - Bernard Herrmann
+  - René Garriguenc
+  - Lucien Moraweck
+  - Bruce Campbell
+  - R. Challan
+  - Wilbur Hatch
+  note: Music chosen from the CBS library. Herrmann's "Monday Morning", from a 1939 CBS radio score, is heard three times
+    (cue sheet, Wrobel).
+  sources:
+  - title: The Twilight Zone (score rundowns and cue sheets)
+    author: Bill Wrobel
+    publisher: Film Score Rundowns
+    note: Written 2010, revised 5 May 2018, from the scores in the CBS Collection at UCLA. Copy in the IntoTheTwilightZone.com
+      archive (Essays folder); the author allows non-profit quotation with credit.

@@ -3,6 +3,19 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Music research round 2: who scored the episodes
+
+Episodes can now say who wrote their music:
+- 27 episodes have an original score with its composer and sources, among them Herrmann's "Walking Distance", Goldsmith's "The Invaders", Van Cleave's "Perchance to Dream" and Waxman's "The Sixteen-Millimeter Shrine". The sources are Varèse Sarabande's LPs, Silva Screen's 40th Anniversary set and Bill Wrobel's rundowns of the scores held at UCLA.
+- Seven episodes are marked as stock music from the CBS library. Three of them list the library composers from their cue sheets.
+
+Four of Varèse Sarabande's original-score LPs now list their tracks. The Night Gallery themes have a second source, and the record of the pilot's theme now says its score was never released.
+
+**Known not to work yet:**
+- The music line doesn't show on episode pages until the structure step.
+- About 120 original-series episodes still have no music information.
+- No record by Rod Serling himself has been found.
+
 ## 2026-11-24 — Music research round 1: the unchecked songs, checked
 
 Of the 62 songs listed as "Connection not yet confirmed", eight now say how they connect to the show, with a link to the page we read:

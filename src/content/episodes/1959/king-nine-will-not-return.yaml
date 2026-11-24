@@ -45,3 +45,16 @@ media:
   date: '2010-11-16'
   rights: licensed
   note: Audio interview recorded in 1978 by Marc Scott Zicree for The Twilight Zone Companion.
+music:
+  score: original
+  composers:
+  - Fred Steiner
+  sources:
+  - title: '45worlds: Varèse Sarabande STV 81192, The Original Television Scores, Volume Four'
+    url: https://mail.45worlds.com/vinyl/album/stv81192
+    publisher: 45worlds
+    note: Track B1.
+  - title: 'Filmtracks: Twilight Zone 40th Anniversary Collection (Silva Screen, 1999)'
+    url: https://www.filmtracks.com/titles/twilight_zone.html
+    publisher: Filmtracks
+    note: Listed on disc 4.

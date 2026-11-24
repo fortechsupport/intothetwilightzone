@@ -43,3 +43,15 @@ media:
   url: https://interviews.televisionacademy.com/interviews/richard-matheson
   date: '2002-04-16'
   duration: '5:32'
+music:
+  score: original
+  composers:
+  - Nathan Van Cleave
+  sources:
+  - title: '45worlds: Varèse Sarabande STV 81185, The Original Television Scores, Volume Three'
+    url: https://mail.45worlds.com/vinyl/album/stv81185
+    publisher: 45worlds
+  - title: 'Filmtracks: Twilight Zone 40th Anniversary Collection (Silva Screen, 1999)'
+    url: https://www.filmtracks.com/titles/twilight_zone.html
+    publisher: Filmtracks
+    note: Listed on disc 3.
