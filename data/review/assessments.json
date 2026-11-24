@@ -37019,6 +37019,18 @@
   "subcategory": "In-story places",
   "sort": "peaksville ohio"
  },
+ "locations/philippine-islands-a-quality-of-mercy": {
+  "connection": "The Philippine Islands, 1945 and Corregidor, 1942 (A Quality of Mercy) was used for “A Quality of Mercy” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: A Quality of Mercy",
+  "source_url": "https://en.wikipedia.org/wiki/A_Quality_of_Mercy",
+  "title": "The Philippine Islands, 1945 and Corregidor, 1942 (A Quality of Mercy)",
+  "subcategory": "Other places",
+  "sort": "philippine islands 001945 and corregidor 001942 a quality of mercy"
+ },
  "locations/piru-kick-the-can-1983": {
   "connection": "Piru (Sunnyvale Rest Home) (Piru, California) was used for Twilight Zone: The Movie.",
   "tier": "core",
@@ -37259,6 +37271,18 @@
   "subcategory": "Other places",
   "sort": "serlingfest"
  },
+ "locations/space-cruiser-e-89": {
+  "connection": "Space Cruiser E-89 (Death Ship) was used for “Death Ship” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Death Ship (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Death_Ship_(The_Twilight_Zone)",
+  "title": "Space Cruiser E-89 (Death Ship)",
+  "subcategory": "Other places",
+  "sort": "space cruiser e000089 death ship"
+ },
  "locations/ss-queen-of-glasgow": {
   "connection": "Setting of a first-season Serling episode.",
   "tier": "core",
@@ -37283,6 +37307,18 @@
   "subcategory": "Filming locations",
   "sort": "steveston village richmond"
  },
+ "locations/still-valley-virginia-1863": {
+  "connection": "The valley in Virginia, 1863 (Still Valley) (Virginia) was used for “Still Valley” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Still Valley",
+  "source_url": "https://en.wikipedia.org/wiki/Still_Valley",
+  "title": "The valley in Virginia, 1863 (Still Valley)",
+  "subcategory": "Other places",
+  "sort": "valley in virginia 001863 still valley"
+ },
  "locations/stockton-fallout-shelter": {
   "connection": "Setting of a Serling Cold War episode.",
   "tier": "core",
@@ -37306,6 +37342,18 @@
   "title": "Strong Memorial Hospital",
   "subcategory": "Rod Serling's places",
   "sort": "strong memorial hospital"
+ },
+ "locations/sunken-submarine-off-guadalcanal": {
+  "connection": "The sunken submarine off Guadalcanal (The Thirty-Fathom Grave) (Solomon Islands) was used for “The Thirty-Fathom Grave” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Thirty-Fathom Grave",
+  "source_url": "https://en.wikipedia.org/wiki/The_Thirty-Fathom_Grave",
+  "title": "The sunken submarine off Guadalcanal (The Thirty-Fathom Grave)",
+  "subcategory": "Other places",
+  "sort": "sunken submarine off guadalcanal the thirtyfathom grave"
  },
  "locations/sunnyvale-rest": {
   "connection": "Setting of George Clayton Johnson's episode and its 1983 film remake.",
@@ -37366,6 +37414,18 @@
   "title": "The cross-country highway (\"The Hitch-Hiker\")",
   "subcategory": "In-story places",
   "sort": "crosscountry highway the hitchhiker"
+ },
+ "locations/the-lady-anne": {
+  "connection": "The Lady Anne (Passage on the Lady Anne) was used for “Passage on the Lady Anne” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Passage on the Lady Anne",
+  "source_url": "https://en.wikipedia.org/wiki/Passage_on_the_Lady_Anne",
+  "title": "The Lady Anne (Passage on the Lady Anne)",
+  "subcategory": "Other places",
+  "sort": "lady anne passage on the lady anne"
  },
  "locations/the-nice-place": {
   "connection": "Setting of one of the series' most-quoted twists.",
@@ -37535,6 +37595,18 @@
   "subcategory": "In-story places",
   "sort": "bus depot in upstate new york"
  },
+ "locations/us-air-force-space-probe-no-1": {
+  "connection": "U.S. Air Force Space Probe No. 1 (The Invaders) was used for “The Invaders” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Invaders (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Invaders_(The_Twilight_Zone)",
+  "title": "U.S. Air Force Space Probe No. 1 (The Invaders)",
+  "subcategory": "Other places",
+  "sort": "us air force space probe no 000001 the invaders"
+ },
  "locations/v9-gamma": {
   "connection": "Setting of a fourth-season Serling hour episode.",
   "tier": "core",
@@ -37654,6 +37726,18 @@
   "title": "WLW Radio and WKRC-TV, Cincinnati",
   "subcategory": "Rod Serling's places",
   "sort": "wlw radio and wkrctv cincinnati"
+ },
+ "locations/x-20-crash-site-mojave-desert": {
+  "connection": "The X-20 crash site, Mojave Desert (And When the Sky Was Opened) (California) was used for “And When the Sky Was Opened” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: And When the Sky Was Opened",
+  "source_url": "https://en.wikipedia.org/wiki/And_When_the_Sky_Was_Opened",
+  "title": "The X-20 crash site, Mojave Desert (And When the Sky Was Opened)",
+  "subcategory": "Other places",
+  "sort": "x000020 crash site mojave desert and when the sky was opened"
  },
  "locations/zabriskie-point-death-valley": {
   "connection": "A specific, visitable filming spot inside the Death Valley location.",
@@ -42252,7 +42336,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -42972,7 +43056,7 @@
   "sort": "cesare danova"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -45696,7 +45780,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -46032,7 +46116,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -58752,7 +58836,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",

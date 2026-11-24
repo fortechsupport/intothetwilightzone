@@ -22,6 +22,8 @@ sources, fills the gaps the plans admit where a source exists, and checks the pa
    request).
 3. Part 3: every remaining fact added overnight read against its cited page, and internal batch tags hidden (a third
    pull request).
+4. Part 4: more episode settings and the Foundation's other nine videos (a fourth pull request, and more as the
+   episode reading continues).
 
 ## 3. Acceptance checks
 - Every claim read in section 1 is supported by its source, or reworded, or removed.
@@ -144,6 +146,21 @@ corrected (this was older text).
 "needs-...", "seed-record", "artist-corrected") no longer show on record pages or book cards; they stay in the data
 for the review pages (src/lib/tags.ts).
 
+## Part 4: more settings and the Foundation's videos
+- **Seven more settings**, each quoted from the episode's Wikipedia article: Space Cruiser E-89 (Death Ship), the Lady
+  Anne (Passage on the Lady Anne), the sunken submarine off Guadalcanal (The Thirty-Fathom Grave), the X-20 crash
+  site in the Mojave Desert (And When the Sky Was Opened), the Philippine Islands and Corregidor (A Quality of Mercy),
+  the valley in Virginia, 1863 (Still Valley), and U.S. Air Force Space Probe No. 1 (The Invaders). Eight more
+  articles name no place (The Four of Us Are Dying, The Bewitchin' Pool, Static, The Lateness of the Hour, and the
+  four from part 2). What You Need (Scranton), Dead Man's Shoes (the Bowery) and Showdown with Rance McGrew name
+  places only in passing; not added.
+- **The Foundation's nine other videos** are linked as media (link only, makers as the Foundation names them): six on
+  the 1959 series (Stephen Colbert's tribute volume 2, Atomic Abe's list, Tone Travelers, The Hitchhiker parody,
+  "You're in the Twilight Zone", "The Star Wars Zone"), two on Rod Serling (Phil deGruy's "Blues For Rod Serling", a
+  video tour of his Binghamton sites) and "Dr. Zaius Was Right" on Planet of the Apes.
+- **Not yet read:** about 90 of the 1959 series' episodes. Wikipedia reading stopped at the shared limit of 100 page
+  reads an hour and continues as it refills; the season list pages carry no plot summaries.
+
 ## Found in the page check, fixed
 - **Organization pages listed no records.** Most organizations added overnight showed only their description,
   because the records naming them used other spellings ("Sideshow Toy") or fields the site does not read for
@@ -167,9 +184,7 @@ for the review pages (src/lib/tags.ts).
   should move honors to History, as the Media Library sweep did for two.
 - **Remarkable Ohio** was read only in part; the number of marker sides is not confirmed.
 - **Settings:** about 140 more 1959 episodes and the later series could be read the same way.
-- **Foundation media without records:** the Colbert tribute (vol. 2), Atomic Abe, Tone Travelers, The Hitchhiker
-  (2014), "Dr. Zaius Was Right", "You're in the Twilight Zone", a Serling sites tour, "Star Wars meets TZ" and Phil
-  deGruy's "Blues for Rod Serling". Each needs its own source read.
+- ~~Foundation media without records~~ linked in part 4.
 - **Possible duplicate:** the essays record for KWBU's Fresh Air page may repeat the Fresh Air podcast record.
 - ~~Batch tags shown to visitors~~ hidden in part 3.
 - **Rittenhouse's licence:** the trading-card records say licensed, but no page read states it; a Rittenhouse or CBS

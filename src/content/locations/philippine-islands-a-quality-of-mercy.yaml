@@ -1,0 +1,21 @@
+name: "The Philippine Islands, 1945 and Corregidor, 1942 (A Quality of Mercy)"
+kind: in-story
+country: "Philippines"
+filmed:
+- ref: 1959/a-quality-of-mercy
+  note: "The battlefield of both halves of the story."
+episodes:
+- 1959/a-quality-of-mercy
+notes: >-
+  "The place is the Philippine Islands", August 1945, where Lieutenant Katell takes command of a platoon. His mind
+  is sent back until "he is Lieutenant Yamuri, on Corregidor on May 4, 1942", the Japanese officer ordering the
+  assault.
+sources:
+- title: "Wikipedia: A Quality of Mercy"
+  url: https://en.wikipedia.org/wiki/A_Quality_of_Mercy
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

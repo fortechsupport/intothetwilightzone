@@ -1,0 +1,21 @@
+name: "The valley in Virginia, 1863 (Still Valley)"
+kind: in-story
+region: "Virginia"
+country: "United States"
+filmed:
+- ref: 1959/still-valley
+  note: "The valley Sergeant Paradine goes down into."
+episodes:
+- 1959/still-valley
+notes: >-
+  The opening puts "the place the state of Virginia" in 1863, as Confederate Sergeant Paradine goes down into a
+  valley. His unit is then sent north to "a little town in Pennsylvania", "a town called Gettysburg".
+sources:
+- title: "Wikipedia: Still Valley"
+  url: https://en.wikipedia.org/wiki/Still_Valley
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

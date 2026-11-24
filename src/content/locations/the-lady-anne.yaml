@@ -1,0 +1,19 @@
+name: "The Lady Anne (Passage on the Lady Anne)"
+kind: in-story
+filmed:
+- ref: 1959/passage-on-the-lady-anne
+  note: "The old liner that sails into the afterlife."
+episodes:
+- 1959/passage-on-the-lady-anne
+notes: >-
+  "The slowest passenger ship available, the Lady Anne", booked for "the estimated 13-day voyage from New York
+  City"; the tickets read "New York to Southampton", but the old liner is not really bound there.
+sources:
+- title: "Wikipedia: Passage on the Lady Anne"
+  url: https://en.wikipedia.org/wiki/Passage_on_the_Lady_Anne
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

@@ -1,0 +1,19 @@
+name: "Space Cruiser E-89 (Death Ship)"
+kind: in-story
+filmed:
+- ref: 1959/death-ship
+  note: "The crew's ship, and its wreck on the planet."
+episodes:
+- 1959/death-ship
+notes: >-
+  "The Space Cruiser E-89, crewed by Captain Paul Ross", lands on a planet and the crew find a wreck of their own
+  ship there. The opening narration places the planet in star system 51 and mentions "overpopulated Earth".
+sources:
+- title: "Wikipedia: Death Ship (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/Death_Ship_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'
