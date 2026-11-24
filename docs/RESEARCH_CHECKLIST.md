@@ -59,7 +59,7 @@ first because everything else links to it.
 | 6 | Read: Articles, Essays and Websites | Articles and websites are partial to thin. |
 | 7 | Listen: Music | 63 songs are still "connection not yet confirmed"; 2002 and 2019 scores are unknown. |
 | 8 | Listen: Podcasts | No official shelf yet; episode lists are samples. |
-| 9 | Watch: Stage | Researched 2026-11-24; the five shelves and the play page come next. |
+| 9 | Watch: Stage | Done 2026-11-24: five shelves and the play page. |
 | 10 | Play: Games | Much already searched with no result; a short confirming pass. |
 | 11 | Collect: Artwork | Thin in prints, cover artists and title design. |
 | 12 | Collect: Merchandise | Home video has only 2 records; "Other merchandise" (33) needs splitting. |
@@ -127,12 +127,15 @@ first because everything else links to it.
 **Likely missing:** the full history of announced Twilight Zone films; making-of featurettes and Blu-ray extras as content; documentaries and TV specials about Serling.
 
 ### Stage
-- [x] Content plan approved (2026-11-24, docs/plans/research-stage.md) · [x] Researched (2026-11-24, data/research/stage-2026-11-24/) · [x] Records decided (decision 0005 and the Serling rule) · [ ] Pages built
+- [x] Content plan approved (2026-11-24, docs/plans/research-stage.md) · [x] Researched (2026-11-24, data/research/stage-2026-11-24/) · [x] Records decided (decision 0005 and the Serling rule) · [x] Pages built (2026-11-24, five shelves)
 
 | Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|
-| Theatre | 26 (6 / 20) | Good: Washburn's three productions; Serling's plays on stage; 14 stagings and parodies with press sources |
-| Live readings | 6 (3 / 3) | Good for what the press and the Foundation record |
+| The Twilight Zone, the play | 2 (2 / 0) | Deep: the play page lists three productions with sources |
+| Stagings of the episodes | 13 (0 / 13) | Good: each with a press source |
+| Rod Serling's work on stage *(new)* | 4 (4 / 0) | Good: Broadway (IBDB) and three reviewed productions |
+| Live readings and radio-style shows | 6 (3 / 3) | Good for what the press and the Foundation record |
+| Parodies and tributes on stage | 7 (0 / 7) | Good |
 
 **Known gaps:** five productions known only from listings (plan, Decided here); the Citadel production's cast and reviews; who licenses Washburn's play for performance; Night Gallery and the revivals on stage (none found).
 **Likely missing:** school and community stagings with no press coverage (Q1 leaves them out).

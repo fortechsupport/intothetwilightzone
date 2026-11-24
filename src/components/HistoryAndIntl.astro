@@ -5,15 +5,16 @@ interface Props {
   history?: { date: string; title: string; text: string; sources: Src[] }[];
   releases?: { date?: string; format: string; title: string; publisher?: string; region?: string; note?: string; sources: Src[] }[];
   intl?: { country: string; language?: string; title: string; broadcaster?: string; year?: number; note?: string; sources: Src[] }[];
+  historyTitle?: string; // a play's history is its productions (Stage plan, 2026-11-24)
 }
-const { history = [], intl = [], releases = [] } = Astro.props;
+const { history = [], intl = [], releases = [], historyTitle = 'History and legal record' } = Astro.props;
 const sortedReleases = [...releases].sort((a, b) => (a.date ?? '9999').localeCompare(b.date ?? '9999'));
 const sortedHistory = [...history].sort((a, b) => a.date.localeCompare(b.date));
 const sortedIntl = [...intl].sort((a, b) => a.country.localeCompare(b.country));
 ---
 {sortedHistory.length > 0 && (
   <section>
-    <h2>History and legal record</h2>
+    <h2>{historyTitle}</h2>
     <ul>
       {sortedHistory.map((h) => (
         <li><strong>{formatDate(h.date)}: {h.title}.</strong> {h.text} <span class="small muted">({h.sources.map((s, i) => <>{i > 0 && ', '}{s.url ? <a href={s.url} rel="noopener" title={s.title}>{shortSource(s)}</a> : <span title={s.title}>{shortSource(s)}</span>}</>)})</span></li>

@@ -39,7 +39,7 @@ Five rules hold the structure together:
 | Draft | Proposal | Why |
 |---|---|---|
 | Scripts under Television, Movies and Read | **Read > Scripts** only. Episode and movie pages link to it. | One home per record. A script is something you read, not watch. Two homes would mean three copies to keep in sync. |
-| Theater under Watch | **Watch > Stage** (theatre and live readings). Theme-park attractions move to **Visit**. | A play is watched. The Tower of Terror is a place you go. |
+| Theater under Watch | **Watch > Stage** (five shelves: the play, stagings of the episodes, Serling's work on stage, live readings, parodies). Theme-park attractions move to **Visit**. | A play is watched. The Tower of Terror is a place you go. |
 | Music under Listen with Scores and Lyrics | **Listen > Music**: Songs, Soundtracks and scores, The theme. | Lyrics are text about a song. They are content on the song page, and only ever linked, never reproduced. Composers are people, so they live in Meet. |
 | Read > Documents | **Removed as a category.** Documents (production memos, letters, script drafts, press kits) are content in the **Media Library**, attached to their records. | Adam's rule: archives and documents are content. |
 | Articles (Newspapers, Blogs) | **Read > Articles** (newspapers, magazines, web articles) and **Read > Websites** (whole sites and databases). | "Blogs" is too narrow. Fan wikis, the Rod Serling Memorial Foundation site and IMDb-style databases also need a home. |
@@ -71,8 +71,11 @@ Each verb lists its purpose, what belongs in it, what does not, and its categori
 | | Rod Serling's films | Everything Serling wrote, that was made from his work, or that he narrated, grouped by his part; his TV plays of 70 minutes or more (Playhouse 90) are listed here too (Adam, Q1) | *Planet of the Apes* (1968), *Seven Days in May* (1964), the Night Gallery pilot (1969) | 40 |
 | | Twilight Zone films | Films and specials made under the Twilight Zone name | *Twilight Zone: The Movie* (1983) | 4 |
 | | Unmade and lost projects **(new)** | Announced Twilight Zone films never made, and Serling's unproduced screen scripts | The Warner Bros. feature; *Jeopardy Run* | 5 |
-| **Stage** | Live readings | Staged readings and radio-style live shows | Live readings of classic scripts | 4 |
-| | Theatre | Stage plays and adaptations | *The Twilight Zone* stage adaptation (Almeida Theatre, 2017) | 15 |
+| **Stage** | The Twilight Zone, the play | Anne Washburn's licensed adaptation: the play page and its productions | Almeida Theatre (2017), Ambassadors (2019), Citadel (2025) | 2 |
+| | Stagings of the episodes | Productions of the original teleplays, each with a press source (plan Q1); unofficial unless a source says licensed (Q2) | Gold Dust Orphans, Boston (2006); Binghamton University (2014) | 13 |
+| | Rod Serling's work on stage *(new)* | Stage versions of Serling's other teleplays | Requiem for a Heavyweight, Broadway (1985) | 4 |
+| | Live readings and radio-style shows | Staged readings and live radio-style performances | "The Masks", Paley Center (2009); "Maple Street", Larchmont (2023) | 6 |
+| | Parodies and tributes on stage | Original shows in the show's style; parodies also list in Legacy > Parodies | The Gaslight Zone (2026); Twilight Zone Unscripted | 7 |
 | **Television** (`/series/`) | The Twilight Zone | The four official series and revivals. A parent page (`/series/twilight-zone/`, Adam 2026-11-23) links to each series page, and each series page links to a page per episode | *The Twilight Zone* (1959, 1985, 2002, 2019) | 4 |
 | | All Twilight Zone episodes | Every episode of the four series, by series and season | "Time Enough at Last", "The Monsters Are Due on Maple Street" | 329 |
 | | Rod Serling's series | Night Gallery, Serling's other series, and the plays he wrote for other anthologies, each show on one page with an episode explorer | *Night Gallery* (`/night-gallery/`), *The Loner*, *Playhouse 90* | 73 |
@@ -370,7 +373,7 @@ Counts are distinct records with a label. Some records, such as directory entrie
 | Verb | Category | Official | Unofficial | How the split works |
 |---|---|---:|---:|---|
 | Watch | Movies | 42 | 159 | Official = franchise films and Serling's own films. Unofficial = films linked to or echoing episodes. |
-| | Stage | 1 | 18 | Most stage productions are unlicensed or inspired. |
+| | Stage | 9 | 23 | Washburn's play, Serling's own plays and productions with a sourced CBS permission are official (Stage plan, 2026-11-24). |
 | | TV episodes | 394 | 0 | All official. Other shows' tribute episodes would join as unofficial. |
 | | TV series | 16 | 45 | Official = the five TZ series, Night Gallery and Serling series. Unofficial = imitators and dubs. |
 | Listen | Music | 89 | 169 | Official = scores and the theme. Unofficial = songs referencing TZ. |

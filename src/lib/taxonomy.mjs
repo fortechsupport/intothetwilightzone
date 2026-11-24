@@ -373,14 +373,18 @@ export const TAXONOMY = [
     group: 'watch',
     isNew: true,
     split: true,
-    description: 'Twilight Zone stage adaptations and live readings.',
+    description: 'The Twilight Zone on stage: Anne Washburn\'s play, stagings of the episodes, Rod Serling\'s own plays, live readings and parodies.',
     intro: [
-      'The stories work on stage: Anne Washburn\'s adaptation played at London\'s Almeida Theatre in 2017 and the West End after, and theatre companies across America stage episodes from the published scripts.',
+      'Anne Washburn\'s adaptation, licensed from CBS, wove eight episodes into one evening at London\'s Almeida Theatre in 2017, moved to the West End in 2019 and reached Edmonton in 2025. Companies across America stage the episodes themselves, perform them as live radio drama or send them up, and Serling\'s own Requiem for a Heavyweight and Patterns are still played.',
+      'The Rod Serling Memorial Foundation says CBS holds the rights to stage any episode, and that the Serling family can allow only readings, usually free to the public. So a staging here is marked official only where a source says it was licensed or permitted; every page says what its source says.',
     ],
-    connection: 'Official entries are licensed productions; unofficial ones are stagings built on the show without a license. Theme-park attractions are under Places.',
+    connection: 'Official entries are Washburn\'s licensed play, productions with a sourced permission from CBS, and Serling\'s own work; the rest were staged by others without a stated licence. Theme-park attractions are under Places.',
     subs: [
-      { slug: 'live-readings', title: 'Live readings', blurb: 'Staged readings and live audio performances.' },
-      { slug: 'theatre', title: 'Theatre', blurb: 'Stage plays and productions.' },
+      { slug: 'the-play', title: 'The Twilight Zone, the play', side: 'official', blurb: 'Anne Washburn\'s adaptation of eight episodes: the play page, with every production found.', connection: 'The stage play licensed from CBS, with the blessing of the Serling, Beaumont and Matheson estates (Den of Geek, 2019).' },
+      { slug: 'episode-stagings', title: 'Stagings of the episodes', blurb: 'Professional, community, college and public-broadcaster productions of the original teleplays, each with its press source.', connection: 'Each performs one or more original episodes. Licensed only where a source says so; most sources do not say.' },
+      { slug: 'serling-on-stage', title: "Rod Serling's work on stage", isNew: true, side: 'official', blurb: 'Stage versions of Serling\'s other teleplays: Requiem for a Heavyweight on Broadway and beyond, and Patterns.', connection: 'Serling\'s own plays. The Foundation names Concord Theatricals for the stage rights to Requiem for a Heavyweight and Patterns; each page says whether its source states a licence.' },
+      { slug: 'live-readings', title: 'Live readings and radio-style shows', blurb: 'Staged readings with scripts in hand, and live performances in the style of radio drama.' },
+      { slug: 'parodies', title: 'Parodies and tributes on stage', side: 'unofficial', blurb: 'Original comic, improvised and themed shows built on the show\'s format. Also listed with Parodies in Legacy.', connection: 'Original material in the show\'s style, not stagings of the episodes. None is licensed.' },
     ],
   },
 ];
@@ -552,6 +556,8 @@ const MOVES = {
   // Radio (2026-11-24): the five shelves of docs/plans/research-radio.md replace Radio series and Radio episodes.
   'radio/series': ['radio', 'radio-dramas'],
   'radio/episodes': ['radio', 'radio-dramas'],
+  // Stage (2026-11-24): the five shelves of docs/plans/research-stage.md replace Theatre.
+  'stage/theatre': ['stage', 'episode-stagings'],
 };
 export function remap(cat, sub) {
   const m = MOVES[`${cat}/${sub}`];
@@ -675,7 +681,7 @@ export function place(col, id, d, ctx = {}) {
         }
         break;
       }
-      if (k === 'stage') { add('stage', 'theatre'); break; }
+      if (k === 'stage') { add('stage', 'the-play', 'The play'); break; } // Stage plan, shelf A
       // Movies: six shelves (docs/plans/research-movies.md, section 2).
       // A record placed by hand somewhere else and nowhere in Movies (pilots in Television, the holiday
       // marathons in broadcast history) is not a film.
@@ -820,9 +826,14 @@ function placeWork(d, st, add) {
       else add('artwork', 'other-artwork');
       return;
     case 'stage':
-      // Stage plan (2026-11-24): readings and radio-style shows on one shelf; the five shelves come in the structure step.
-      if (/reading|audio|radio/.test(st)) add('stage', 'live-readings');
-      else add('stage', 'theatre');
+      // Five shelves (docs/plans/research-stage.md, section 2), chosen by the record's subtype.
+      if (st === 'washburn-production') add('stage', 'the-play', 'Productions');
+      else if (st === 'serling-play') add('stage', 'serling-on-stage', String(d.title ?? '').replace(/\s*\(.*$/, ''));
+      else if (/reading|audio|radio/.test(st)) add('stage', 'live-readings', /radio|audio/.test(st) ? 'Radio-style shows' : 'Readings');
+      else if (st === 'parody' || st === 'tribute-show') {
+        add('stage', 'parodies', st === 'parody' ? 'Parodies' : 'Tributes and themed shows');
+        if (st === 'parody') add('homages', 'parodies');
+      } else add('stage', 'episode-stagings');
       return;
     case 'attraction':
       add('places', 'attractions', /ride/.test(st) ? 'Rides' : /museum|exhibit/.test(st) ? 'Exhibits' : 'Attractions');
@@ -959,6 +970,7 @@ export function isOfficial(col, d, p, ctx = {}) {
     case 'series/pilots-unmade': return serling || !unoff;
     case 'radio/original-stories': case 'radio/unmade-scripts': return true;
     case 'radio/adaptations': return false;
+    case 'stage/episode-stagings': case 'stage/live-readings': return false; // Stage plan Q2: unofficial unless a source says licensed
     case 'series/international':
       return p.group ? !/^(Episodes|Segments|Sketches|Web series)$/.test(p.group) : true;
     case 'movies/twilight-zone-films': case 'movies/rod-serling-films': case 'movies/unmade-projects': return !unoff;
