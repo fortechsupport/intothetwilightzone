@@ -1,9 +1,10 @@
 title: The Twilight Zone Live (Theater Schmeater)
 kind: stage
-subtype: live-reading
+subtype: episode-staging
 creator: Rod Serling and series writers (original teleplays)
-description: A long-running Seattle staple that stages original teleplays as live theatre. Press in 2016 described
-  it as turning twenty-four, which dates it to the early 1990s.
+description: A long-running Seattle staple that stages three original teleplays each edition as live theatre. Press in 2016
+  described it as turning twenty-four, which dates it to the early 1990s. In April 2012 it played at A Contemporary Theatre
+  (ACT) as part of ACT's Central Heating Lab, directed by co-founder Tim Moore. Licence not stated.
 details:
   venue: Theater Schmeater, Seattle
 sources:
@@ -15,7 +16,14 @@ sources:
   url: https://broadwayworld.com/seattle/article/BWW-Review-Theatre-Schmeaters-Toast-TWILIGHT-ZONE-LIVE-Turns-Twenty-Four-Still-Got-It-20161125
 - title: BroadwayWorld - FIRST DATE, TWILIGHT ZONE LIVE & More Set for A Contemporary Theatre's March Season (2012)
   url: https://www.broadwayworld.com/seattle/article/FIRST-DATE-TWILIGHT-ZONE-LIVE-More-Set-for-A-Contemporary-Theatres-March-Season-20120216
-  note: 'Added 2026-11-21: suggests Twilight Zone Live was programmed at A Contemporary Theatre (ACT), Seattle,
-    in March 2012; not confirmed that it is the Theater Schmeater production.'
+  note: Twilight Zone Live at ACT, March 2012 season announcement; TheaterMania confirms it was the Theater Schmeater production
+    (6 to 28 April 2012).
+- title: 'The Twilight Zone: Live!'
+  url: https://www.theatermania.com/shows/washington-theater/seattle-theater/the-twilight-zone-live_190439
+  publisher: TheaterMania
+  note: 'Listing: ACT, 700 Union Street, Seattle, 6 to 28 April 2012, "part of ACT''s Central Heating Lab".'
 research_confidence: high
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
+official: false
+tags:
+- research-2026-11-24

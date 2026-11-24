@@ -19,9 +19,11 @@ cast:
 - John Marquez
 - Matthew Needham
 - Sam Swainsbury
-summary: Anne Washburn's world-premiere stage adaptation weaves several original-series stories by Serling, Beaumont
-  and Matheson into one interlocking evening, staged by Richard Jones. It opened at London's Almeida Theatre and
-  ran to January 27, 2018, then transferred to the West End's Ambassadors Theatre from March 4, 2019.
+summary: Anne Washburn's stage adaptation weaves eight original-series stories by Serling, Charles Beaumont and Richard
+  Matheson into one interlocking evening, directed by Richard Jones and produced with Ron Fogelman, who spent nearly three
+  years winning the rights from CBS. It premiered at London's Almeida Theatre (5 December 2017 to 27 January 2018), transferred
+  to the West End's Ambassadors Theatre (4 March to 1 June 2019), and had its North American premiere at Edmonton's Citadel
+  Theatre in May 2025, again directed by Jones.
 links:
   almeida: https://almeida.co.uk/whats-on/the-twilight-zone/
 sources:
@@ -29,5 +31,97 @@ sources:
   url: https://www.broadway.com/buzz/190041/the-twilight-zone-world-premiere-stage-adaptation-announces-full-casting/
 - title: Official London Theatre - West End to welcome The Twilight Zone
   url: https://officiallondontheatre.com/news/west-end-welcome-twilight-zone/
-last_verified: '2026-11-19'
+- &id001
+  title: The Twilight Zone
+  url: https://almeida.co.uk/whats-on/the-twilight-zone/
+  publisher: Almeida Theatre
+  note: 'Read 2026-11-24: "5 Dec 2017 — 27 Jan 2018"; creative team and cast; the West End run "from 4th March to 1st June
+    2019".'
+- title: 'The Twilight Zone Play: How The Stories Were Selected'
+  url: https://www.denofgeek.com/tv/the-twilight-zone-play-how-the-stories-were-selected/
+  author: Chris Longo
+  publisher: Den of Geek
+  note: 17 March 2019. Names the eight stories.
+- title: 'The Twilight Zone: On Stage, A Classic Enters A New Dimension'
+  url: https://www.denofgeek.com/tv/the-twilight-zone-on-stage-a-classic-enters-a-new-dimension/
+  publisher: Den of Geek
+  note: 29 April 2019. Producer Ron Fogelman on winning the rights from CBS; the producers "courted the blessing of the
+    estates of Serling" and of Beaumont and Matheson.
+- &id002
+  title: Cast Set for West End Bow of The Twilight Zone Stage Adaptation
+  url: https://playbill.com/article/cast-set-for-west-end-bow-of-the-twilight-zone-stage-adaptation
+  author: Ryan McPhee
+  publisher: Playbill
+  note: 9 January 2019.
+last_verified: '2026-11-24'
 locked: true
+segments:
+- title: And When the Sky Was Opened
+  adapts_episode: 1959/and-when-the-sky-was-opened
+- title: Eye of the Beholder
+  adapts_episode: 1959/eye-of-the-beholder
+- title: Little Girl Lost
+  adapts_episode: 1959/little-girl-lost
+- title: The Long Morrow
+  adapts_episode: 1959/the-long-morrow
+- title: Nightmare as a Child
+  adapts_episode: 1959/nightmare-as-a-child
+- title: Perchance to Dream
+  adapts_episode: 1959/perchance-to-dream
+- title: The Shelter
+  adapts_episode: 1959/the-shelter
+- title: Will the Real Martian Please Stand Up?
+  adapts_episode: 1959/will-the-real-martian-please-stand-up
+history:
+- date: '2017-12-05'
+  title: World premiere, Almeida Theatre, London
+  text: Ran 5 December 2017 to 27 January 2018 (press night 12 December), directed by Richard Jones. Set Paul Steinberg,
+    costumes Nicky Gillibrand, choreography Aletta Collins, lighting Mimi Jordan Sherin, composition and sound Sarah Angliss,
+    sound Christopher Shutt, illusions Richard Wiseman and Will Houstoun. Presented in association with Ron Fogelman.
+  sources:
+  - *id001
+  - title: What Did Critics Think of The Twilight Zone London World Premiere?
+    url: https://playbill.com/article/what-did-critics-think-of-the-twilight-zone-london-world-premiere
+    author: Adam Hetrick
+    publisher: Playbill
+  - title: '''The Twilight Zone'': Theater Review'
+    url: https://www.hollywoodreporter.com/review/twilight-zone-theater-1067132
+    author: Stephen Dalton
+    publisher: The Hollywood Reporter
+- date: '2019-03-04'
+  title: West End transfer, Ambassadors Theatre, London
+  text: Ran 4 March to 1 June 2019, directed by Richard Jones. Oliver Alvin-Wilson, Adrianna Bertola and Neil Haigh returned
+    from the Almeida; new to the cast were Alisha Bailey, Natasha J Barnes, Nicholas Karimi, Dan Crossley, Dyfan Dwyfor,
+    Lauren O'Neill and Matthew Steer.
+  sources:
+  - *id001
+  - *id002
+  - title: Casting Set for West End Transfer of Anne Washburn's The Twilight Zone
+    url: https://broadway.com/buzz/194554/casting-set-for-west-end-transfer-of-anne-washburns-the-twilight-zone
+    author: Andy Lefkowitz
+    publisher: Broadway.com
+- date: '2025-05-03'
+  title: North American premiere, Citadel Theatre, Edmonton
+  text: Ran 3 to 25 May 2025 in the Citadel's 2024-25 season, directed by Richard Jones. The Citadel's page names no cast.
+  sources:
+  - title: The Twilight Zone (2024-25 season)
+    url: https://citadeltheatre.com/shows/24-25-twilight-zone/
+    publisher: Citadel Theatre
+    note: 'Read 2026-11-24: "May 3 - May 25, 2025", "the highly anticipated North American premiere", directed by Richard
+      Jones.'
+writing_credit_note: Adapted by Anne Washburn from stories by Rod Serling, Charles Beaumont and Richard Matheson.
+organizations:
+- Almeida Theatre
+- Citadel Theatre
+official: true
+relevance: core
+media:
+- type: link
+  subtype: published-script
+  title: The Twilight Zone (Oberon Modern Plays), the published script
+  url: https://mitpressbookstore.mit.edu/book/9781786824004
+  host: MIT Press Bookstore (listing)
+  rights: link-only
+  note: Oberon Books, ISBN 9781786824004, 18 March 2018, 128 pages. No page read names who licenses the play for performance.
+tags:
+- research-2026-11-24

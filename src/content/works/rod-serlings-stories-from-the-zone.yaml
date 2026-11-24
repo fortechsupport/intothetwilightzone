@@ -1,12 +1,46 @@
 title: Rod Serling's Stories from the Zone
 kind: stage
-subtype: play
-description: A stage collection drawn from Serling's Twilight Zone teleplays and licensed for school and community
-  performance. The adapter and publisher still need to be confirmed.
+subtype: episode-staging
+description: Jeff G. Rack's stage adaptation of two original-series episodes, "Mr. Garrity and the Graves" and "Will the
+  Real Martian Please Stand Up?", produced by Theatre 40 with Arcane Theatreworks at the Reuben Cordova Theatre in Beverly
+  Hills until 17 February 2019, directed by Rack and Charlie Mount. BroadwayWorld praised the cast. Licence not stated.
+  An earlier listing on allaboutthestage.com describes a script collection of this name for school and amateur production;
+  that has not been checked against a licensing house.
 details:
-  venue: Licensed for school and amateur production
+  venue: Reuben Cordova Theatre, 241 S. Moreno Drive, Beverly Hills, California
+  closed: '2019-02-17'
+  adapter: Jeff G. Rack
+  directors: Jeff G. Rack and Charlie Mount
+  producer: David Hunt Stafford (Theatre 40), with Arcane Theatreworks
+  cast: Mark Bate, John W. Combs, Yancey Dunham, Henry Herman, Richard Large, Meghan Lloyd, Brianna Parcel, Brian Pope,
+    Jeff G. Rack, Philip Sokoloff, Toni Trenton, Jeffrey Winner
+  licence: not stated
 sources:
 - title: allaboutthestage.com
   url: https://allaboutthestage.com/?p=1157
-research_confidence: medium
-last_verified: '2026-11-19'
+- title: 'Review: Rod Serling''s Stories from the Zone'
+  url: https://www.broadwayworld.com/los-angeles/article/Review-ROD-SERLINGS-STORIES-FROM-THE-ZONE-Journeys-into-a-Wondrous-Land-Whose-Boundaries-are-that-of-the-Imagination-20190124
+  author: Shari Barrett
+  publisher: BroadwayWorld
+  note: Review, 24 January 2019.
+research_confidence: high
+last_verified: '2026-11-24'
+year: 2019
+creator: Jeff G. Rack (adapter)
+content_of:
+- 1959/mr-garrity-and-the-graves
+- 1959/will-the-real-martian-please-stand-up
+organizations:
+- Theatre 40
+- Arcane Theatreworks
+official: false
+media:
+- type: review
+  title: 'Review: Rod Serling''s Stories from the Zone'
+  url: https://www.broadwayworld.com/los-angeles/article/Review-ROD-SERLINGS-STORIES-FROM-THE-ZONE-Journeys-into-a-Wondrous-Land-Whose-Boundaries-are-that-of-the-Imagination-20190124
+  creator: Shari Barrett
+  host: BroadwayWorld
+  date: '2019-01-24'
+  rights: link-only
+tags:
+- research-2026-11-24

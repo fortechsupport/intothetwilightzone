@@ -26146,6 +26146,17 @@
    "official": null
   }
  ],
+ "essays/review-rachel-halliburton-the-arts-desk-the-twilight-zone-ambassadors-theatre": [
+  {
+   "cat": "content",
+   "sub": "Review",
+   "group": "On: The Twilight Zone (stage play)",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Review",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "essays/review-richard-corliss-time-cinema-bad-dreams": [
   {
    "cat": "content",
@@ -26316,6 +26327,17 @@
    "cat": "content",
    "sub": "Review",
    "group": "Not yet attached",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Review",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "essays/review-stephen-dalton-hollywood-reporter-the-twilight-zone-almeida-theatre": [
+  {
+   "cat": "content",
+   "sub": "Review",
+   "group": "On: The Twilight Zone (stage play)",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Review",
    "isNew": false,
@@ -35147,7 +35169,7 @@
    "catTitle": "Stage",
    "subTitle": "Theatre",
    "isNew": true,
-   "official": false
+   "official": true
   }
  ],
  "films/the-twilight-zone-super-bowl-liii-spot": [
@@ -72067,10 +72089,10 @@
  "works/binghamton-philharmonic-walking-distance-2022": [
   {
    "cat": "stage",
-   "sub": "theatre",
+   "sub": "live-readings",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Live readings",
    "isNew": true,
    "official": false
   }
@@ -72100,10 +72122,10 @@
  "works/blue-room-chico-twilight-zone": [
   {
    "cat": "stage",
-   "sub": "live-readings",
+   "sub": "theatre",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Live readings",
+   "subTitle": "Theatre",
    "isNew": true,
    "official": false
   }
@@ -72157,6 +72179,17 @@
    "subTitle": "Around the world",
    "isNew": true,
    "official": true
+  }
+ ],
+ "works/breakthrough-theatre-live-radio-play-2012": [
+  {
+   "cat": "stage",
+   "sub": "live-readings",
+   "group": null,
+   "catTitle": "Stage",
+   "subTitle": "Live readings",
+   "isNew": true,
+   "official": false
   }
  ],
  "works/bridgewater-state-anthropology-twilight-zone": [
@@ -73246,6 +73279,17 @@
    "official": true
   }
  ],
+ "works/gold-dust-orphans-live-onstage-twilight-zone-2006": [
+  {
+   "cat": "stage",
+   "sub": "theatre",
+   "group": null,
+   "catTitle": "Stage",
+   "subTitle": "Theatre",
+   "isNew": true,
+   "official": false
+  }
+ ],
  "works/gold-key-twilight-zone-1-1962-george-wilson-cover": [
   {
    "cat": "artwork",
@@ -73562,10 +73606,10 @@
  "works/hopewell-theatre-twilight-zone": [
   {
    "cat": "stage",
-   "sub": "live-readings",
+   "sub": "theatre",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Live readings",
+   "subTitle": "Theatre",
    "isNew": true,
    "official": false
   }
@@ -74822,10 +74866,10 @@
  "works/paley-center-the-masks-reading-2009": [
   {
    "cat": "stage",
-   "sub": "theatre",
+   "sub": "live-readings",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Live readings",
    "isNew": true,
    "official": false
   }
@@ -74868,6 +74912,17 @@
    "group": null,
    "catTitle": "History",
    "subTitle": "Rod Serling's life",
+   "isNew": true,
+   "official": true
+  }
+ ],
+ "works/patterns-theatre-40-2015": [
+  {
+   "cat": "stage",
+   "sub": "theatre",
+   "group": null,
+   "catTitle": "Stage",
+   "subTitle": "Theatre",
    "isNew": true,
    "official": true
   }
@@ -75340,6 +75395,39 @@
    "official": true
   }
  ],
+ "works/requiem-for-a-heavyweight-broadway-1985": [
+  {
+   "cat": "stage",
+   "sub": "theatre",
+   "group": null,
+   "catTitle": "Stage",
+   "subTitle": "Theatre",
+   "isNew": true,
+   "official": true
+  }
+ ],
+ "works/requiem-for-a-heavyweight-crystal-theatre-2025": [
+  {
+   "cat": "stage",
+   "sub": "theatre",
+   "group": null,
+   "catTitle": "Stage",
+   "subTitle": "Theatre",
+   "isNew": true,
+   "official": true
+  }
+ ],
+ "works/requiem-for-a-heavyweight-shattered-globe-2008": [
+  {
+   "cat": "stage",
+   "sub": "theatre",
+   "group": null,
+   "catTitle": "Stage",
+   "subTitle": "Theatre",
+   "isNew": true,
+   "official": true
+  }
+ ],
  "works/richard-mathesons-annotated-once-upon-a-time-script-archive-heritage-auctions": [
   {
    "cat": "artwork",
@@ -75770,7 +75858,7 @@
    "catTitle": "Stage",
    "subTitle": "Theatre",
    "isNew": true,
-   "official": true
+   "official": false
   }
  ],
  "works/rosendale-theatre-rod-serling-evening-2025": [
@@ -75812,6 +75900,17 @@
    "catTitle": "Lectures",
    "subTitle": "In the classroom",
    "isNew": false,
+   "official": true
+  }
+ ],
+ "works/sandbox-theater-maple-street-larchmont-2023": [
+  {
+   "cat": "stage",
+   "sub": "live-readings",
+   "group": null,
+   "catTitle": "Stage",
+   "subTitle": "Live readings",
+   "isNew": true,
    "official": true
   }
  ],
@@ -76667,7 +76766,7 @@
    "catTitle": "Stage",
    "subTitle": "Live readings",
    "isNew": true,
-   "official": false
+   "official": true
   }
  ],
  "works/serlingfest-2019-tz-at-60": [
@@ -77109,6 +77208,17 @@
    "official": false
   }
  ],
+ "works/stages-theatre-twilight-zone-2012": [
+  {
+   "cat": "stage",
+   "sub": "theatre",
+   "group": null,
+   "catTitle": "Stage",
+   "subTitle": "Theatre",
+   "isNew": true,
+   "official": false
+  }
+ ],
  "works/stars-of-the-zone-convention-2002": [
   {
    "cat": "events",
@@ -77332,6 +77442,17 @@
    "official": true
   }
  ],
+ "works/th3rd-power-twilight-zone-carrboro-2014": [
+  {
+   "cat": "stage",
+   "sub": "theatre",
+   "group": null,
+   "catTitle": "Stage",
+   "subTitle": "Theatre",
+   "isNew": true,
+   "official": false
+  }
+ ],
  "works/the-adventures-of-willy-beamish": [
   {
    "cat": "games",
@@ -77430,6 +77551,28 @@
    "group": "Reused props",
    "catTitle": "Artwork",
    "subTitle": "Props and costumes",
+   "isNew": true,
+   "official": true
+  }
+ ],
+ "works/the-gaslight-zone-salt-lake-acting-company-2026": [
+  {
+   "cat": "stage",
+   "sub": "theatre",
+   "group": null,
+   "catTitle": "Stage",
+   "subTitle": "Theatre",
+   "isNew": true,
+   "official": false
+  }
+ ],
+ "works/the-happy-place-reading-cider-mill-2025": [
+  {
+   "cat": "stage",
+   "sub": "live-readings",
+   "group": null,
+   "catTitle": "Stage",
+   "subTitle": "Live readings",
    "isNew": true,
    "official": true
   }
@@ -77636,10 +77779,10 @@
  "works/theater-schmeater-twilight-zone-live": [
   {
    "cat": "stage",
-   "sub": "live-readings",
+   "sub": "theatre",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Live readings",
+   "subTitle": "Theatre",
    "isNew": true,
    "official": false
   }
@@ -79292,7 +79435,7 @@
    "catTitle": "Stage",
    "subTitle": "Theatre",
    "isNew": true,
-   "official": false
+   "official": true
   }
  ],
  "works/wcftr-rod-serling-papers": [

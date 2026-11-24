@@ -1,6 +1,6 @@
 # Content plan: Stage
 
-**Date:** 2026-11-24 · **Status:** draft, waiting on Adam (checklist box 1 of 4) · **Checklist:** docs/RESEARCH_CHECKLIST.md, Watch > Stage
+**Date:** 2026-11-24 · **Status:** approved by Adam 2026-11-24 01:14 UTC ("good job", then "yeah" when asked whether that approves the plan with the suggested answers); Q1 to Q6 as suggested · **Checklist:** docs/RESEARCH_CHECKLIST.md, Watch > Stage
 **Order:** Adam, 2026-11-24 01:07 UTC: finish the Watch group (Stage), then Listen (Music, then Podcasts).
 **Follows:** decision 0005 (records are included without item-by-item review; visitors' votes flag doubtful ones),
 decision 0006 (a likeness is "Compared to", never "Inspired by") and the Serling rule (anything Serling touched is
@@ -153,9 +153,47 @@ Theme-park shows stay in Visit > Places > Attractions; Stage links to them.
 - Live readings that are really full stagings move to shelf B (Hopewell Theatre, Blue Room Theatre, Theater
   Schmeater).
 - Theme-park shows stay in Places > Attractions.
+- **Research round (2026-11-24), what the rights holders say:** the Rod Serling Memorial Foundation's own answers
+  (rodserling.com FAQ) say "CBS owns all Twilight Zone rights. Not the Serlings, not the Foundation", that staging an
+  episode needs CBS's permission, that "The Serling family can grant permission for a reading only, but it usually
+  must be free to the public", and that Concord Theatricals handles Requiem for a Heavyweight and Patterns. So, under
+  Q2, a staging of an episode is official only where a source says CBS gave permission (the 2023 Larchmont audio
+  reading, "special permission from CBS/Paramount"). Hopewell Theatre's 2025 "permission from the estate" is recorded
+  in those words and stays unofficial. Washburn's play is official: Den of Geek reports the producers won the rights
+  from CBS and "courted the blessing" of the Serling, Beaumont and Matheson estates.
+- Shelf C productions are marked official as Serling's own work (section 2), and each one says "licence not stated"
+  unless a source says more. The Broadway Requiem rests on IBDB's "Written by Rod Serling". The same rule makes
+  both readings of Serling's unmade pilot script "The Happy Place" (2019 and 2025) official; the Paley Center's 2009
+  reading of "The Masks", a CBS episode, stays unofficial because no source states a licence.
+- Records with only a listing (TheaterMania, a ticket page or the producer's own news page) wait for a second source
+  under Q1 and are listed below, not recorded: Theatre West's 2005 "The Twilight Zone: Live on Stage" (Los Angeles,
+  "Will the Real Martian Please Stand Up?" and "The Four of Us Are Dying"; it mentions a 2002 version directed by
+  Walter Koenig), "A Fifth Dimension: An Unauthorized Twilight Zone Parody" (Kraine Theater, New York, 2017), Adams
+  State University's 2020 student staging, the RiverTree Theatre Requiem (Westword gives no date or city) and the
+  Southern Tier Actors Read Patterns reading (no year on the page).
+- Subtypes set for the structure step: washburn-production, episode-staging, serling-play, live-reading,
+  radio-style, parody and tribute-show. Until then Stage keeps its two current shelves, with readings and radio-style
+  shows on Live readings.
 
 ## Waiting on Adam
-- Approval of this plan, and Q1 to Q6.
+- ~~Approval of this plan, and Q1 to Q6.~~ Approved 2026-11-24 with every suggested answer.
 
 ## Found, for later
 - Each staged episode's Television page could show its stagings ("On stage"), as it shows its radio drama.
+- Step 1 research is in data/research/stage-2026-11-24/ (shelf-a-washburn.md, shelves-b-to-e.md,
+  movies-leftovers.md). About 80 pages read.
+- The Citadel production has only the theatre's own page; no review found yet. Its credit line names "Keith Reddin and
+  Anne Washburn", which no other source supports.
+- Washburn's play: no page read names who licenses it for performance. The 2023 Methuen Drama edition (ISBN
+  9781350374300, from a search result) is not yet read.
+- The Stage landing text says companies "stage episodes from the published scripts"; no source supports "published".
+  Rewrite it in the structure step.
+- Film pages show a segment's episode as its address in lower case ("adapts and when the sky was opened") instead of
+  its title (src/components/FilmRecord.astro). Fix with the play page.
+- The play page's history heading reads "History and legal record"; a play needs "Productions".
+- Night Gallery and the 1985, 2002 and 2019 series: nothing staged found. The Foundation says "Night of the Meek" has
+  never been staged, to its knowledge.
+- A 2025 Rod Serling Evening at the Rosendale Theater (a talk with clips) and the CRAGG LIVE Twilight Zone Show (a 2024
+  talk-radio tribute on archive.org) are not stage shows: Events and Podcasts leads.
+- Movies leftovers still open: no home video found for The Yellow Canary, The Man (a forum asks for a DVD), The
+  Salamander, Incident in an Alley or the TV films; no trailer pages yet for most.

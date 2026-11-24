@@ -1,15 +1,40 @@
 title: Twilight Zone episodes onstage (Hopewell Theatre)
 kind: stage
-subtype: live-reading
+subtype: episode-staging
 creator: Rod Serling (original teleplays)
-description: A recurring program that turns several Serling episodes into one-act stage plays; it was staged again
-  in October 2025.
+description: A recurring Hopewell Theatre program that turns Serling episodes into one-act stage plays. The 2025 edition,
+  "In the Zone with Rod Serling", staged five episodes (not announced in advance), directed by Christopher Fidram, with
+  Mario Ricciardi as Serling. The Tribune Chronicle reported that "Hopewell received permission from the estate of 'Twilight
+  Zone' creator and host Serling to use any of the 92 episodes he wrote or co-wrote"; the Rod Serling Memorial Foundation
+  says CBS holds the stage rights to the episodes.
 details:
-  venue: Hopewell Theatre, Youngstown, Ohio
+  venue: Hopewell Theatre, 702 Mahoning Avenue, Youngstown, Ohio
+  opened: 2025-10
+  director: Christopher Fidram (2025)
+  licence: permission from the Serling estate (Tribune Chronicle); not a CBS licence
 sources:
 - title: businessjournaldaily.com
   url: https://businessjournaldaily.com/hopewell-again-turns-twilight-zone-episodes-into-stage-plays/
 - title: vindy.com
   url: https://www.vindy.com/life/ticket/2025/10/hopewell-zones-out-with-serling-stories
+- title: '''In the Zone'' is a lively place to be'
+  url: https://www.tribtoday.com/life/ticket/2025/11/in-the-zone-is-a-lively-place-to-be/
+  author: Andy Gray
+  publisher: Tribune Chronicle
+  note: Review, 3 November 2025.
+- title: Who controls the rights to Rod Serling's work?
+  url: https://rodserling.com/faq-items/who-controls-the-rights-to-rod-serlings-work/
+  publisher: Rod Serling Memorial Foundation
 research_confidence: medium
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
+media:
+- type: review
+  title: '''In the Zone'' is a lively place to be'
+  url: https://www.tribtoday.com/life/ticket/2025/11/in-the-zone-is-a-lively-place-to-be/
+  creator: Andy Gray
+  host: Tribune Chronicle
+  date: '2025-11-03'
+  rights: link-only
+official: false
+tags:
+- research-2026-11-24

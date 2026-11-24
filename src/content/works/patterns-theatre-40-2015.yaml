@@ -1,0 +1,57 @@
+title: Patterns (Theatre 40, Beverly Hills, 2015)
+kind: stage
+subtype: serling-play
+year: 2015
+creator: Rod Serling (adapted for the stage by James Reach)
+description: Theatre 40 staged James Reach's stage adaptation of Serling's 1955 teleplay Patterns at the Reuben Cordova
+  Theatre in Beverly Hills in August 2015, directed by Jules Aaron, with Daniel Kaemon as Fred Staples, James Schendel as
+  Andy Sloane and Richard Hoyt Miller as Mr. Ramsey. StageSceneLA recommended it, with reservations about its length; People's
+  World found it well acted but "a bit stagey".
+details:
+  venue: Reuben Cordova Theatre, 241 S. Moreno Drive, Beverly Hills, California
+  closed: '2015-08-23'
+  adapter: James Reach
+  director: Jules Aaron
+  producer: David Hunt Stafford
+  cast: Daniel Kaemon, James Schendel, Savannah Schoenecker, Richard Hoyt Miller, Elain Rinehart, Sharron Shayne, Louis
+    Schneider
+  licence: not stated; the Rod Serling Memorial Foundation names Concord Theatricals for stage rights to Patterns
+content_of:
+- films/patterns-1955-teleplay
+organizations:
+- Theatre 40
+sources:
+- title: Patterns
+  url: https://stagescenela.com/2015/08/patterns/
+  author: Steven Stanley
+  publisher: StageSceneLA
+  note: Review, 13 August 2015.
+- title: Patterns at Theatre 40
+  url: https://peoplesworld.org/?p=15115
+  author: Ed Rampell
+  publisher: People's World
+  note: Review, 14 August 2015.
+- title: Who controls the rights to Rod Serling's work?
+  url: https://rodserling.com/faq-items/who-controls-the-rights-to-rod-serlings-work/
+  publisher: Rod Serling Memorial Foundation
+media:
+- type: review
+  title: Patterns
+  url: https://stagescenela.com/2015/08/patterns/
+  creator: Steven Stanley
+  host: StageSceneLA
+  date: '2015-08-13'
+  rights: link-only
+- type: review
+  title: Patterns at Theatre 40
+  url: https://peoplesworld.org/?p=15115
+  creator: Ed Rampell
+  host: People's World
+  date: '2015-08-14'
+  rights: link-only
+official: true
+relevance: related
+research_confidence: high
+tags:
+- research-2026-11-24
+last_verified: '2026-11-24'

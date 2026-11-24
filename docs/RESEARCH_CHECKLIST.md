@@ -59,7 +59,7 @@ first because everything else links to it.
 | 6 | Read: Articles, Essays and Websites | Articles and websites are partial to thin. |
 | 7 | Listen: Music | 63 songs are still "connection not yet confirmed"; 2002 and 2019 scores are unknown. |
 | 8 | Listen: Podcasts | No official shelf yet; episode lists are samples. |
-| 9 | Watch: Stage | Thin: several known productions are leads only. |
+| 9 | Watch: Stage | Researched 2026-11-24; the five shelves and the play page come next. |
 | 10 | Play: Games | Much already searched with no result; a short confirming pass. |
 | 11 | Collect: Artwork | Thin in prints, cover artists and title design. |
 | 12 | Collect: Merchandise | Home video has only 2 records; "Other merchandise" (33) needs splitting. |
@@ -127,15 +127,15 @@ first because everything else links to it.
 **Likely missing:** the full history of announced Twilight Zone films; making-of featurettes and Blu-ray extras as content; documentaries and TV specials about Serling.
 
 ### Stage
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved (2026-11-24, docs/plans/research-stage.md) · [x] Researched (2026-11-24, data/research/stage-2026-11-24/) · [x] Records decided (decision 0005 and the Serling rule) · [ ] Pages built
 
 | Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|
-| Theatre | 17 (1 / 16) | Thin |
-| Live readings | 4 (0 / 4) | Thin |
+| Theatre | 26 (6 / 20) | Good: Washburn's three productions; Serling's plays on stage; 14 stagings and parodies with press sources |
+| Live readings | 6 (3 / 3) | Good for what the press and the Foundation record |
 
-**Known gaps (leads):** CNY Playhouse, ARC Theatre and Boston "Live Onstage: The Twilight Zone" productions; the 2014 New York college staging (AP); which episodes Anne Washburn's play adapts and its North American premiere (Citadel Theatre, Edmonton, 2024–25?).
-**Likely missing:** licensed stage scripts used by schools and community theatres, and Serling's own plays on stage.
+**Known gaps:** five productions known only from listings (plan, Decided here); the Citadel production's cast and reviews; who licenses Washburn's play for performance; Night Gallery and the revivals on stage (none found).
+**Likely missing:** school and community stagings with no press coverage (Q1 leaves them out).
 
 ---
 

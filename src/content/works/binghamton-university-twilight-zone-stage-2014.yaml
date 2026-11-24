@@ -1,15 +1,17 @@
 title: The Twilight Zone onstage at Binghamton University (2014)
 kind: stage
-subtype: stage
+subtype: episode-staging
 year: 2014
 creator: Rod Serling (original teleplays)
-description: Binghamton University's theatre department staged two of Serling's original teleplays, "The Monsters
-  Are Due on Maple Street" and "Dust", in his hometown over two weekends in March 2014. Faculty member Elizabeth
-  Mozer conceived and directed the production; the Associated Press covered it nationally.
+description: Binghamton University's theatre department staged two of Serling's teleplays, "The Monsters Are Due on Maple
+  Street" and "Dust", as a two-act play in his hometown in March 2014. Faculty member Elizabeth Mozer adapted and directed
+  it; the university says she sought the approval of Serling's daughter Anne, who took part in a talk-back on 16 March with
+  Lawrence Kassan of the Rod Serling Video Festival. The Associated Press covered it nationally.
 details:
-  date: two weekends from about 2014-03-07 (per the AP story of 6 March 2014; exact dates not stated)
-  place: Binghamton University, Vestal, New York
-  director: Elizabeth Mozer
+  dates: 2014-03-07 and 08, 14 and 15 (8 p.m.), 16 (2 p.m.)
+  place: Watters Theater, Fine Arts Building, Binghamton University, Vestal, New York
+  director: Elizabeth Mozer (also adapter)
+  licence: not stated; approval of Anne Serling (university release)
 organizations:
 - Binghamton University
 content_of:
@@ -18,10 +20,27 @@ content_of:
 sources:
 - title: Washington Times (Associated Press) - NY college bringing 'Twilight Zone' to the stage (6 Mar 2014)
   url: https://m.washingtontimes.com/news/2014/mar/6/ny-college-bringing-twilight-zone-to-the-stage/
+- title: Rod Serling's The Twilight Zone
+  url: https://www.binghamton.edu/communications-and-marketing/media-public-relations/pr-archives/index.html?id=2118
+  publisher: Binghamton University
+  note: 'Press release, 6 March 2014: "Serling gave Mozer her stamp of approval".'
+- title: 'Review: The Twilight Zone at Binghamton University'
+  url: https://broomearts.org/?p=13727
+  author: Nancy Oliveri
+  publisher: Broome Arts
 categories:
 - stage/theatre
 relevance: related
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
+media:
+- type: review
+  title: 'Review: The Twilight Zone at Binghamton University'
+  url: https://broomearts.org/?p=13727
+  creator: Nancy Oliveri
+  host: Broome Arts
+  rights: link-only
+official: false
