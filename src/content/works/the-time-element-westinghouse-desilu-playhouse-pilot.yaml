@@ -17,8 +17,9 @@ duplicate_of: films/the-time-element
 sources:
 - title: Wikipedia - The Twilight Zone (1959 TV series)
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
-- title: Wikipedia - The Time Element
+- title: Wikipedia - The Twilight Zone (franchise), where "The Time Element" redirects
   url: https://en.wikipedia.org/wiki/The_Time_Element
+  note: Says the script was "purchased immediately but shelved indefinitely" until Bert Granet found it (read 2026-11-24).
 research_confidence: high
 last_verified: '2026-11-20'
 locked: true

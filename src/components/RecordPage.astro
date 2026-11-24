@@ -1,5 +1,6 @@
 ---
 import LinkVote from './fan/LinkVote.astro';
+import { publicTags } from '../lib/tags';
 // A record page for collections without a hand-built template (books, comics, magazines, songs,
 // radio, podcasts, essays, archives, quotes, characters): its description, every recorded fact,
 // the episodes and works it refers to, its Twilight Zone connection, media and sources.
@@ -94,7 +95,7 @@ const docTitle = recordDocTitle(col, d, title, { firstRef });
       <ul class="plain">{d.featured_episodes.map((fe: any) => <li>{fe.url ? <a href={fe.url} rel="noopener">{fe.title}</a> : fe.title}{fe.date && <span class="muted small"> · {formatDate(fe.date)}</span>}</li>)}</ul>
     </section>
   )}
-  {d.tags?.length > 0 && <p class="small">{d.tags.map((t: string) => <span class="tag">{t.replace(/-/g, ' ')}</span>)}</p>}
+  {publicTags(d.tags).length > 0 && <p class="small">{publicTags(d.tags).map((t) => <span class="tag">{t.replace(/-/g, ' ')}</span>)}</p>}
   {(d.ids || d.links || d.url) && <p class="small">{d.url && <><a href={d.url} rel="noopener">Collection page</a>{(d.ids || d.links) && ' · '}</>}<ExtLinks ids={d.ids} links={d.links} /></p>}
   <Related recKey={key} />
   <Media media={d.media} recKey={key} />

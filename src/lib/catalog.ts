@@ -5,6 +5,7 @@ import { getCollection } from 'astro:content';
 import { allEpisodes, allPeople, episodeNumber, splitCredit, CONNECTION_LABELS, CONFIDENCE_LABELS } from './data';
 import { assess } from './assessments';
 import { slugify } from './slug';
+import { publicTags } from './tags';
 import { HOME_VIDEO_GROUPS } from './taxonomy.mjs';
 import { TAXONOMY, CATEGORY, place, placePerson, explicitPlacements, mediaArtwork, libraryType, LIBRARY_TYPES, sortKey, subTitleFromSlug, SERIES_LABEL, contentOf, contentParents, isOfficial, orgSub, remap } from './taxonomy.mjs';
 import { filmHref, tv } from './television';
@@ -169,7 +170,7 @@ export async function catalog(): Promise<Map<string, CatInfo>> {
         return base(col, r.id, t, { sort: sortKey(titleOf(d.from)), href: hrefOf(d.from), meta: meta(CONNECTION_LABELS[d.kind], CONFIDENCE_LABELS[d.confidence]), desc: d.summary ?? d.evidence });
       }
       case 'songs': return base(col, r.id, d.artist ? `${d.title} (${d.artist})` : d.title, { sort: sortKey(d.title), meta: meta(d.album, d.year && String(d.year), d.genre), desc: d.description });
-      case 'books': return base(col, r.id, d.title, { meta: meta(d.authors.join(', '), d.publisher, yearOf(d.published), ...(d.tags ?? [])), desc: d.description });
+      case 'books': return base(col, r.id, d.title, { meta: meta(d.authors.join(', '), d.publisher, yearOf(d.published), ...publicTags(d.tags)), desc: d.description });
       case 'comics': return base(col, r.id, d.title, { meta: meta(d.publisher, yearOf(d.cover_date), d.creators.slice(0, 3).join(', ')), desc: d.description });
       case 'magazines': return base(col, r.id, d.title, { meta: meta(d.magazine, yearOf(d.cover_date), d.publisher), desc: d.description });
       case 'radio': return base(col, r.id, d.title, { meta: meta(d.series_title !== 'The Twilight Zone Radio Dramas' && d.series_title, d.volume && `volume ${d.volume}`, d.original_writer && `by ${d.original_writer}`), desc: d.description });
