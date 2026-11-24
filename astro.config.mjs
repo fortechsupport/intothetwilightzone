@@ -91,6 +91,8 @@ Object.assign(redirects, { '/episodes': '/series/episodes/', '/series/tv': '/ser
   const films = readdirSync(dir).filter((n) => n.endsWith('.yaml')).map((n) => ({ id: n.slice(0, -5), data: parse(readFileSync(`${dir}/${n}`, 'utf8')) ?? {} }));
   const tv = buildShowIndex(films);
   for (const f of films) if (isEntryOnly(f.id, f.data)) redirects[`/films/${f.id}`] = tv.entryHref(f.id);
+  // A show that gained a record of its own moves from /television/<show>/ to its record's page.
+  for (const s of tv.shows.values()) if (s.recordId && s.slug !== 'night-gallery') redirects[`/television/${s.slug}`] = s.href;
   // Films kept only for a writer's filmography (Movies Q2) send their old address to that writer's page.
   const slug = (n) => String(n).replace(/['’‘]/g, '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
   for (const f of films) {

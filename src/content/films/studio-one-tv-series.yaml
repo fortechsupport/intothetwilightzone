@@ -1,0 +1,25 @@
+title: "Studio One"
+kind: tv-series
+release_date: '1948-11-07'
+end_date: '1958-09-29'
+network: "CBS"
+country: United States
+seasons: 10
+episode_count: 467
+created_by:
+- "Fletcher Markle"
+summary: "A CBS anthology drama adapted from a radio series created in 1947 by Fletcher Markle. Wikipedia's article names no Serling play; the ones listed here come from its episode list and the Rod Serling Memorial Foundation's filmography."
+sources:
+- title: 'Wikipedia: Studio One (American TV series)'
+  url: https://en.wikipedia.org/wiki/Studio_One_(American_TV_series)
+  publisher: Wikipedia
+  note: Infobox and lead read on 2026-11-24.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Studio_One_(American_TV_series)
+research_confidence: high
+relevance: related
+tags:
+- host-show
+- serling-plays
+- open-items-2026-11-24
+last_verified: '2026-11-24'

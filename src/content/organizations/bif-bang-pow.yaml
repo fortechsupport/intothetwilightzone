@@ -2,12 +2,19 @@ name: Bif Bang Pow!
 aka:
 - Bif Bang Pow
 kind: toy-company
-description: Maker of licensed Twilight Zone bobbleheads, figures and other collectibles.
+description: >-
+  Maker of licensed Twilight Zone bobbleheads, figures and other collectibles, founded in 2005 by Jason Labowitz and
+  Jason Lenzi and based in Simi Valley, California; Wikipedia lists The Twilight Zone among its licences. Its toys are
+  distributed exclusively by Entertainment Earth.
 official: true
 relevance: core
 sources:
 - title: 'Wikipedia: Bif Bang Pow!'
   url: https://en.wikipedia.org/wiki/Bif_Bang_Pow!
-research_confidence: medium
+  note: Read 2026-11-24 (founders, year, headquarters, licences).
+- title: 'Wikipedia (via Wikiwand): Entertainment Earth'
+  url: https://www.wikiwand.com/en/articles/Entertainment_Earth
+  note: '"the exclusive distributor of toys manufactured by Bif Bang Pow!" (read 2026-11-24).'
+research_confidence: high
 tags:
 - seed-record

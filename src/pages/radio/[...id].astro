@@ -5,7 +5,7 @@
 // own radio work names his part in it.
 import RecordPage from '../../components/RecordPage.astro';
 import WhereToListen from '../../components/WhereToListen.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 import { resolveRef, personUrl } from '../../lib/data';
 import { listenFor, RADIO_DRAMAS } from '../../lib/listen';
 import { sortKey } from '../../lib/categories';
@@ -42,14 +42,17 @@ const counts = { adapted: eps.filter((e) => kindOf(e.data) === 'adapted').length
 const otherSources = eps.filter((e) => kindOf(e.data) === 'based');
 const fullCast = eps.filter((e) => e.data.voiced_by.length > 1).length;
 const first = (t?: string) => (t ?? '').split(/(?<=\.)\s/)[0];
+// The series' music and sound record lives in Music (works); the series page links it too (Music plan, step 3).
+const music = isSeriesPage ? await getEntry('works', 'tz-radio-dramas-music-and-sound') : undefined;
 ---
-<RecordPage col="radio" entry={entry} skip={inSeries ? ['season', 'series_title', 'subtype', 'based_on', 'based_on_ref'] : ['subtype', 'serling_role']}>
+<RecordPage col="radio" entry={entry} skip={inSeries ? ['season', 'series_title', 'subtype', 'based_on', 'based_on_ref', 'broadcast_date'] : ['subtype', 'serling_role']}>
   <Fragment slot="facts">
     {isEpisode && (
       <>
         <dt>Series</dt><dd><a href={SERIES_URL}>{RADIO_DRAMAS}</a>{d.season && <>, season {d.season}{d.season_order && <>, episode {d.season_order}</>}</>}</dd>
         <dt>Adapts</dt><dd>{d.based_on ? (adapts ? <a href={adapts.url}>{d.based_on}</a> : d.based_on) : adapts ? <><a href={adapts.url}>{adapts.title}</a> (television)</> : KIND_TEXT[kind!]}</dd>
         <dt>Narrator</dt><dd><a href={personUrl('Stacy Keach')}>Stacy Keach</a>, in Rod Serling’s role</dd>
+        {d.broadcast_date && <><dt>Broadcast</dt><dd>{new Date(`${d.broadcast_date}T12:00:00Z`).toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })}, in the 2003-04 syndicated run (Old Time Radio Researchers' log)</dd></>}
         {d.voiced_by.length <= 1 && <><dt>Full cast</dt><dd class="muted">Not yet sourced. The star is listed under Voices.</dd></>}
         <WhereToListen listen={listen} asin={d.ids?.audible_asin} />
       </>
@@ -96,6 +99,7 @@ const first = (t?: string) => (t ?? '').split(/(?<=\.)\s/)[0];
         <ul class="plain">
           {history.map((h) => <li><a href={`/radio/${h.id}/`}>{h.data.title}</a>{h.data.description && <span class="small"> {first(h.data.description)}</span>}</li>)}
         </ul>
+        {music && <p class="small">Music and sound: <a href={`/works/${music.id}/`}>{music.data.title}</a>.</p>}
       </section>
       <WhereToListen listen={listen} as="section" />
     </>

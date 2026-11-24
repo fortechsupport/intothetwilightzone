@@ -9,9 +9,12 @@ import { sortKey } from '../lib/categories';
 import type { ExEntry } from '../lib/television';
 import ThemeList from './ThemeList.astro';
 import { THEMES, topThemes } from '../lib/themes';
+import { segmentPodcastCounts } from '../lib/podcast-episodes';
 
 interface Props { entries: ExEntry[]; id?: string; noun?: string; groupLabel?: string }
 const { entries, id = 'ex', noun = 'episodes', groupLabel = 'Season' } = Astro.props;
+// Podcasts plan, found for later (done 2026-11-24): podcast episodes whose titles name a Night Gallery segment.
+const podCount = entries.some((e) => e.segments.length) ? await segmentPodcastCounts() : new Map<string, number>();
 
 const peopleOf = (e: ExEntry) => [...new Set([...e.writers, ...e.directors, ...e.cast, ...e.segments.flatMap((s) => [...s.writers, ...s.directors, ...s.cast, ...s.source_authors])])];
 const people = [...new Set(entries.flatMap(peopleOf))].sort((a, b) => sortKey(a).localeCompare(sortKey(b)));
@@ -78,6 +81,7 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
                     {!sg.source_title && sg.source_authors.length > 0 && <p class="small">From a story by {sg.source_authors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</p>}
                     {(sg.writers.length > 0 || sg.directors.length > 0) && <p class="small">{sg.writers.length > 0 && <>Written by {sg.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}{sg.writers.length > 0 && sg.directors.length > 0 && ' · '}{sg.directors.length > 0 && <>Directed by {sg.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}</p>}
                     {sg.cast.length > 0 && <p class="small">Cast: {sg.cast.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</p>}
+                    {podCount.get(`${e.id}#${sg.title}`) && <p class="small">Podcasts: <a href={`/podcasts/episodes/?ep=${encodeURIComponent(`${e.id}#${sg.title}`)}`}>{podCount.get(`${e.id}#${sg.title}`)} podcast {podCount.get(`${e.id}#${sg.title}`) === 1 ? 'episode' : 'episodes'}</a> <span class="muted">(matched by title)</span></p>}
                   </li>
                 ))}
               </ul>

@@ -81,6 +81,8 @@ One pull request: decide the hidden records, roles for the unplaced people, the 
 - Nothing blocking.
 
 ## Found, for later
+- **2026-11-24:** every item below now carries a mark (Done, Can't with the reason, Read round, or Adam) in
+  docs/plans/finish-open-items-2026-11-24.md, which is the current list.
 - **Night Gallery characters and casts:** none recorded; a research round of its own.
 - **Radio drama characters** (the original stories): none recorded.
 - **One character, several actors** (Philip and the new Philip in "Upgrade") still cannot be shown as one.

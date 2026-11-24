@@ -1,0 +1,26 @@
+title: "Star Trek"
+kind: tv-series
+release_date: '1966-09-06'
+end_date: '1969-06-03'
+network: "NBC (first shown on CTV in Canada)"
+country: United States
+seasons: 3
+episode_count: 79
+created_by:
+- "Gene Roddenberry"
+aka:
+- "Star Trek: The Original Series"
+summary: "Gene Roddenberry's science-fiction series about the starship USS Enterprise and its crew, made by Desilu and Paramount Television. The entries here are its episodes with Twilight Zone ties."
+sources:
+- title: 'Wikipedia: Star Trek: The Original Series'
+  url: https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series
+  publisher: Wikipedia
+  note: Infobox and lead read on 2026-11-24.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series
+research_confidence: high
+relevance: tangential
+tags:
+- host-show
+- open-items-2026-11-24
+last_verified: '2026-11-24'

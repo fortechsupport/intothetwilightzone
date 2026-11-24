@@ -12,9 +12,10 @@ import { movieFacets } from '../../lib/facets';
 
 export async function getStaticPaths() {
   const cats = await catalog();
+  // An empty shelf gets no page (the category page already hides it), so no visitor lands on an empty list.
   // Pages with their own design at a shelf's address: /series/twilight-zone/ (src/pages/series/twilight-zone.astro).
   const OWN = new Set(['series/twilight-zone']);
-  return [...cats.values()].flatMap((c) => c.subs.filter((s) => !OWN.has(`${c.slug}/${s.slug}`)).map((s) => ({ params: { cat: c.slug, sub: s.slug }, props: { c, s } })));
+  return [...cats.values()].flatMap((c) => c.subs.filter((s) => s.entries.length > 0 && !OWN.has(`${c.slug}/${s.slug}`)).map((s) => ({ params: { cat: c.slug, sub: s.slug }, props: { c, s } })));
 }
 interface Props { c: CatInfo; s: SubInfo }
 const { c, s } = Astro.props;
@@ -48,7 +49,7 @@ const off = s.entries.filter((e) => e.official === true);
 const unoff = s.entries.filter((e) => e.official !== true);
 const split = canSplit && off.length > 0 && unoff.length > 0;
 const parts: { id: string; label: string; entries: Entry[] }[] = split
-  ? [{ id: 'official', label: OFFICIAL_LABEL, entries: off }, { id: 'unofficial', label: UNOFFICIAL_LABEL, entries: unoff }]
+  ? [{ id: 'official', label: s.splitLabels?.[0] ?? OFFICIAL_LABEL, entries: off }, { id: 'unofficial', label: s.splitLabels?.[1] ?? UNOFFICIAL_LABEL, entries: unoff }]
   : [{ id: '', label: '', entries: s.entries }];
 const sideNote = canSplit && !split && s.entries.length ? (off.length ? `Everything here is official.` : `Everything here is unofficial or inspired by the show.`) : '';
 const showWatch = c.slug === 'series' && s.slug === 'homages';

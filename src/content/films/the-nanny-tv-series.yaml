@@ -1,0 +1,25 @@
+title: "The Nanny"
+kind: tv-series
+release_date: '1993-11-03'
+end_date: '1999-06-23'
+network: "CBS"
+country: United States
+seasons: 6
+episode_count: 146
+created_by:
+- "Peter Marc Jacobson"
+- "Fran Drescher"
+summary: "CBS sitcom starring Fran Drescher as a woman from Flushing, Queens, who becomes nanny to a Broadway producer's three children. The entries here are its episodes with Twilight Zone references."
+sources:
+- title: 'Wikipedia: The Nanny'
+  url: https://en.wikipedia.org/wiki/The_Nanny
+  publisher: Wikipedia
+  note: Infobox and lead read on 2026-11-24.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Nanny
+research_confidence: high
+relevance: tangential
+tags:
+- host-show
+- open-items-2026-11-24
+last_verified: '2026-11-24'

@@ -227,6 +227,8 @@ each with sources; fan-noted links are verified where possible; visitors' thumbs
   Consequences, N.M. (1997) and "A Penny for Your Thoughts" as his example.
 
 ## Found, for later
+- **2026-11-24:** every item below now carries a mark (Done, Can't with the reason, Read round, or Adam) in
+  docs/plans/finish-open-items-2026-11-24.md, which is the current list.
 - Round 3 still open: posters (credited to their designers) for every film; trailers and home video for Serling's
   films other than Planet of the Apes, Seven Days in May and Duel; the AFI entries for Requiem for a Heavyweight, The
   Yellow Canary and The Salamander (fetch refused) and The Man (not found). Lost Classics' composer is not in Wikipedia

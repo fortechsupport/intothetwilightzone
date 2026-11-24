@@ -225,6 +225,8 @@ The questions as they were put:
 - Nothing. The plan was approved on 2026-11-23, with Q2 to Q7 delegated.
 
 ## Found, for later
+- **2026-11-24:** every item below now carries a mark (Done, Can't with the reason, Read round, or Adam) in
+  docs/plans/finish-open-items-2026-11-24.md, which is the current list.
 - **Round 1 findings (2026-11-23, notes in data/research/radio-2026-11-23/):**
   - Done: Wikipedia read directly for all 176 episodes (all match); 16 original radio stories confirmed (Free Dirt and
     The Time Element taken off the new shelves); two adapters corrected; six full casts from BBC listings; series and

@@ -89,6 +89,8 @@ One pull request: dedupe, re-shelve, verify the contradictions, add what researc
 - Nothing blocking.
 
 ## Found, for later
+- **2026-11-24:** every item below now carries a mark (Done, Can't with the reason, Read round, or Adam) in
+  docs/plans/finish-open-items-2026-11-24.md, which is the current list.
 - **Clue: The Twilight Zone Tower of Terror (2007):** the licence holder (Disney alone, or Disney and CBS) is not
   stated by any source read; the record says only what the sources say.
 - **The home ROM (L-9H):** kept as unofficial software by the original programmer; it is described, never linked for

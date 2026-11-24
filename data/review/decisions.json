@@ -14884,8 +14884,8 @@
  },
  "locations/toronto-1985-series-season-3": {
   "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "notes": "Included 2026-11-24 while finishing the non-Read categories (Adam asked for them finished).",
+  "date": "2026-11-24"
  },
  "locations/tower-of-terror-disney-california-adventure": {
   "status": "include",
@@ -14934,8 +14934,8 @@
  },
  "locations/vancouver-2002-series": {
   "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "notes": "Included 2026-11-24 while finishing the non-Read categories (Adam asked for them finished).",
+  "date": "2026-11-24"
  },
  "locations/vancouver-2019-series": {
   "status": "include",
@@ -31891,6 +31891,171 @@
  "locations/sorworth-place-night-gallery": {
   "status": "include",
   "notes": "Included 2026-11-24 while finishing the non-Read categories (Adam asked for them finished): a setting named in the cited plot summary.",
+  "date": "2026-11-24"
+ },
+ "films/suspense-cbs-television": {
+  "status": "include",
+  "notes": "Included 2026-11-24: the television half of the old Suspense record, split from the radio record (Television plan, found for later).",
+  "date": "2026-11-24"
+ },
+ "films/bob-hope-presents-the-chrysler-theatre": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/kraft-television-theatre": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/lux-video-theatre": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/playhouse-90": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/studio-one-tv-series": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/hallmark-hall-of-fame": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/the-us-steel-hour": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/climax-tv-series": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/medallion-theatre": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/the-simpsons-tv-series": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/futurama-tv-series": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/family-guy-tv-series": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/saturday-night-live-tv-series": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/sesame-street-tv-series": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/gilmore-girls-tv-series": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/johnny-bravo-tv-series": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/muppet-babies-1984-tv-series": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/mystery-science-theater-3000-tv-series": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/star-trek-the-original-series": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/the-nanny-tv-series": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "films/tiny-toon-adventures-tv-series": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories: a show record for a show whose entries were already listed.",
+  "date": "2026-11-24"
+ },
+ "podcasts/coast-to-coast-am-twilight-zone-memories-2004": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories (the Foundation's Coast to Coast AM lead).",
+  "date": "2026-11-24"
+ },
+ "podcasts/coast-to-coast-am-sci-fi-projects-2004": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories (the Foundation's Coast to Coast AM lead).",
+  "date": "2026-11-24"
+ },
+ "podcasts/coast-to-coast-am-twilight-zone-special-2009": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories (the Foundation's Coast to Coast AM lead).",
+  "date": "2026-11-24"
+ },
+ "podcasts/coast-to-coast-am-twilight-zone-and-sci-fi-2014": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories (the Foundation's Coast to Coast AM lead).",
+  "date": "2026-11-24"
+ },
+ "podcasts/coast-to-coast-am-marc-zicree-2019": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories (the Foundation's Coast to Coast AM lead).",
+  "date": "2026-11-24"
+ },
+ "podcasts/coast-to-coast-am-rod-serling-and-the-twilight-zone-2024": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories (the Foundation's Coast to Coast AM lead).",
+  "date": "2026-11-24"
+ },
+ "podcasts/coast-to-coast-am-rod-serlings-legacy-2025": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories (the Foundation's Coast to Coast AM lead).",
+  "date": "2026-11-24"
+ },
+ "organizations/entertainment-earth": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories (Meet plan lead).",
+  "date": "2026-11-24"
+ },
+ "songs/twilight-zone-vol-1-dan-vapid-the-cheats-horror-section": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories (Music round 1 title-only lead).",
+  "date": "2026-11-24"
+ },
+ "songs/tone-twilight-zone-cornelius": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories (Music round 1 title-only lead).",
+  "date": "2026-11-24"
+ },
+ "organizations/stern-pinball": {
+  "status": "include",
+  "notes": "Included 2026-11-24 while finishing the non-Read categories (Meet plan lead).",
   "date": "2026-11-24"
  }
 }

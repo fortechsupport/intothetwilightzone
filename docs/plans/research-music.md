@@ -185,6 +185,8 @@ That is two rounds of under an hour each at the shared 100 an hour.
 - (none: plan and Q1 to Q6 approved as suggested, 2026-11-24 02:05 UTC)
 
 ## Found, for later
+- **2026-11-24:** every item below now carries a mark (Done, Can't with the reason, Read round, or Adam) in
+  docs/plans/finish-open-items-2026-11-24.md, which is the current list.
 - Round 1 (2026-11-24, notes in data/research/music-2026-11-24/round-1-songs.md):
   - Leads seen by title only: Bloody Hammers, Code Chaos, Cornelius, Steven Wilson, Band 88 and Phenomena; Covert Flops' Twilight Zone Vol. 1 and 2; Ivan Campo's album The Twilight Zone.
   - SecondHandSongs refuses automated reading, so the full list of covers of the theme needs another source.

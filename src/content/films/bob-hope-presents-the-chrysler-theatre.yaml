@@ -1,0 +1,25 @@
+title: "Bob Hope Presents the Chrysler Theatre"
+kind: tv-series
+release_date: '1963-10-04'
+end_date: '1967-05-17'
+network: "NBC"
+country: United States
+seasons: 4
+episode_count: 107
+presented_by:
+- "Bob Hope"
+summary: "A Chrysler-sponsored NBC anthology hosted by Bob Hope, with musical, dramatic and comedy episodes. Wikipedia names Serling's episodes \"Exit from a Plane in Flight\" and \"It's Mental Work\", for which he won an award in 1964."
+sources:
+- title: 'Wikipedia: Bob Hope Presents the Chrysler Theatre'
+  url: https://en.wikipedia.org/wiki/Bob_Hope_Presents_the_Chrysler_Theatre
+  publisher: Wikipedia
+  note: Infobox and lead read on 2026-11-24.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Bob_Hope_Presents_the_Chrysler_Theatre
+research_confidence: high
+relevance: related
+tags:
+- host-show
+- serling-plays
+- open-items-2026-11-24
+last_verified: '2026-11-24'

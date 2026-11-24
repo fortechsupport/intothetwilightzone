@@ -30455,6 +30455,18 @@
   "subcategory": "Episodes of other shows",
   "sort": "gifted"
  },
+ "films/bob-hope-presents-the-chrysler-theatre": {
+  "connection": "Rod Serling's work beyond The Twilight Zone: A Chrysler-sponsored NBC anthology hosted by Bob Hope, with musical, dramatic and comedy episodes.",
+  "tier": "related",
+  "tier_reason": "Serling's wider career is within the site's scope.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "Wikipedia: Bob Hope Presents the Chrysler Theatre",
+  "source_url": "https://en.wikipedia.org/wiki/Bob_Hope_Presents_the_Chrysler_Theatre",
+  "title": "Bob Hope Presents the Chrysler Theatre",
+  "subcategory": "Rod Serling's other screen work",
+  "sort": "bob hope presents the chrysler theatre"
+ },
  "films/bombers-moon": {
   "connection": "Rod Serling's work beyond The Twilight Zone: A World War II drama for Playhouse 90.",
   "tier": "related",
@@ -30598,6 +30610,18 @@
   "title": "Click",
   "subcategory": "Feature films",
   "sort": "click"
+ },
+ "films/climax-tv-series": {
+  "connection": "Rod Serling's work beyond The Twilight Zone: A CBS anthology hosted by William Lundigan, later with Mary Costa; one of the few CBS shows of its time broadcast in colour, though only black-and-white kinescopes of some episodes survive.",
+  "tier": "related",
+  "tier_reason": "Serling's wider career is within the site's scope.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "Wikipedia: Climax!",
+  "source_url": "https://en.wikipedia.org/wiki/Climax!",
+  "title": "Climax!",
+  "subcategory": "Rod Serling's other screen work",
+  "sort": "climax"
  },
  "films/clockstoppers": {
   "connection": "Suggested link to “A Kind of a Stopwatch” (1959): both turn on a device that freezes time for everyone except its holder.",
@@ -30947,6 +30971,18 @@
   "subcategory": "Episodes of other shows",
   "sort": "love thy trophy"
  },
+ "films/family-guy-tv-series": {
+  "connection": "Seth MacFarlane's animated sitcom for Fox about the Griffin family of Quahog, Rhode Island, known for its cutaway gags.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A light, sourced tie: worth keeping if you want the site to map the show's wider footprint.",
+  "source_title": "Wikipedia: Family Guy",
+  "source_url": "https://en.wikipedia.org/wiki/Family_Guy",
+  "title": "Family Guy",
+  "subcategory": "Television series",
+  "sort": "family guy"
+ },
  "films/family-guy-wasted-talent": {
   "connection": "A reference to “Time Enough at Last” (1959) (only fans have pointed it out; no source confirms it).",
   "tier": "tangential",
@@ -31199,6 +31235,18 @@
   "subcategory": "Segments of other shows",
   "sort": "scary door"
  },
+ "films/futurama-tv-series": {
+  "connection": "Matt Groening's animated science-fiction sitcom about Philip J. Fry, frozen for 1,000 years, and the Planet Express crew.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A light, sourced tie: worth keeping if you want the site to map the show's wider footprint.",
+  "source_title": "Wikipedia: Futurama",
+  "source_url": "https://en.wikipedia.org/wiki/Futurama",
+  "title": "Futurama",
+  "subcategory": "Television series",
+  "sort": "futurama"
+ },
  "films/futurama-zapp-dingbat": {
   "connection": "A reference to “Nightmare at 20,000 Feet” (1959). Zapp Brannigan has Kif pretend to be a gremlin on the wing, a joke tied to William Shatner, the model for Zapp.",
   "tier": "tangential",
@@ -31319,6 +31367,18 @@
   "subcategory": "Episodes of other shows",
   "sort": "perfect dress"
  },
+ "films/gilmore-girls-tv-series": {
+  "connection": "Amy Sherman-Palladino's comedy-drama about a single mother and her daughter in Stars Hollow, Connecticut.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A light, sourced tie: worth keeping if you want the site to map the show's wider footprint.",
+  "source_title": "Wikipedia: Gilmore Girls",
+  "source_url": "https://en.wikipedia.org/wiki/Gilmore_Girls",
+  "title": "Gilmore Girls",
+  "subcategory": "Television series",
+  "sort": "gilmore girls"
+ },
  "films/girls-on-top-skankin": {
   "connection": "Shelley announces that the flatmates are \"entering The Twilight Zone,\" borrowing the show's famous phrase.",
   "tier": "tangential",
@@ -31390,6 +31450,18 @@
   "title": "Guillermo del Toro's Cabinet of Curiosities",
   "subcategory": "Fellow anthology series",
   "sort": "guillermo del toros cabinet of curiosities"
+ },
+ "films/hallmark-hall-of-fame": {
+  "connection": "Rod Serling's work beyond The Twilight Zone: An anthology sponsored by Hallmark Cards, begun in 1951 as Hallmark Television Playhouse, which Wikipedia calls the longest-running prime-time series in television history.",
+  "tier": "related",
+  "tier_reason": "Serling's wider career is within the site's scope.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "Wikipedia: Hallmark Hall of Fame",
+  "source_url": "https://en.wikipedia.org/wiki/Hallmark_Hall_of_Fame",
+  "title": "Hallmark Hall of Fame",
+  "subcategory": "Rod Serling's other screen work",
+  "sort": "hallmark hall of fame"
  },
  "films/harvey-street-kids-netflix-the-monsters-are-due-on-harvey-street": {
   "connection": "Inspired by “The Monsters Are Due on Maple Street” (1959). The title and premise of neighbors turning suspicious of each other borrow from Serling's Maple Street parable.",
@@ -31751,6 +31823,18 @@
   "subcategory": "Segments of other shows",
   "sort": "zone where normal things dont happen very often"
  },
+ "films/johnny-bravo-tv-series": {
+  "connection": "Van Partible's animated sitcom for Cartoon Network about a vain, muscle-bound young man whose attempts to get dates usually fail.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A light, sourced tie: worth keeping if you want the site to map the show's wider footprint.",
+  "source_title": "Wikipedia: Johnny Bravo",
+  "source_url": "https://en.wikipedia.org/wiki/Johnny_Bravo",
+  "title": "Johnny Bravo",
+  "subcategory": "Television series",
+  "sort": "johnny bravo"
+ },
  "films/journey-to-the-far-side-of-the-sun-doppelganger": {
   "connection": "An astronaut returns from a mission to a mirror-reversed Earth, a premise Gizmodo likens to the season-four episode about a pilot who comes home to a subtly altered world.",
   "tier": "tangential",
@@ -31822,6 +31906,18 @@
   "title": "Knock at the Cabin",
   "subcategory": "Feature films",
   "sort": "knock at the cabin"
+ },
+ "films/kraft-television-theatre": {
+  "connection": "Rod Serling's work beyond The Twilight Zone: A live, hour-long NBC anthology that presented a new television play every week.",
+  "tier": "related",
+  "tier_reason": "Serling's wider career is within the site's scope.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "Wikipedia: Kraft Television Theatre",
+  "source_url": "https://en.wikipedia.org/wiki/Kraft_Television_Theatre",
+  "title": "Kraft Television Theatre",
+  "subcategory": "Rod Serling's other screen work",
+  "sort": "kraft television theatre"
  },
  "films/leave-it-to-beaver-beaver-on-tv": {
   "connection": "Gilbert compares the strange turn of events around Beaver's TV appearance to Rod Serling's show, a reference made while the series was still airing.",
@@ -31955,6 +32051,18 @@
   "subcategory": "Episodes of other shows",
   "sort": "love and the modern wife  love and the phonies  love and the single couple"
  },
+ "films/lux-video-theatre": {
+  "connection": "Rod Serling's work beyond The Twilight Zone: A television spin-off of Lux Radio Theater with comedy and drama teleplays and abridged adaptations of films and plays.",
+  "tier": "related",
+  "tier_reason": "Serling's wider career is within the site's scope.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "Wikipedia: Lux Video Theatre",
+  "source_url": "https://en.wikipedia.org/wiki/Lux_Video_Theatre",
+  "title": "Lux Video Theatre",
+  "subcategory": "Rod Serling's other screen work",
+  "sort": "lux video theatre"
+ },
  "films/m3gan": {
   "connection": "Often compared with “Living Doll” (1959). An AI companion doll grows dangerously protective of an orphaned girl; writers compare it to Talky Tina.",
   "tier": "tangential",
@@ -32074,6 +32182,18 @@
   "title": "Meadowland",
   "subcategory": "Feature films",
   "sort": "meadowland"
+ },
+ "films/medallion-theatre": {
+  "connection": "Rod Serling's work beyond The Twilight Zone: A 30-minute CBS anthology produced by William Spier.",
+  "tier": "related",
+  "tier_reason": "Serling's wider career is within the site's scope.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "Wikipedia: Medallion Theatre",
+  "source_url": "https://en.wikipedia.org/wiki/Medallion_Theatre",
+  "title": "Medallion Theatre",
+  "subcategory": "Rod Serling's other screen work",
+  "sort": "medallion theatre"
  },
  "films/medium-still-life": {
   "connection": "An homage to “The Midnight Sun” (1959) (a published source makes the link).",
@@ -32255,6 +32375,18 @@
   "subcategory": "Episodes of other shows",
   "sort": "weirdo zone"
  },
+ "films/muppet-babies-1984-tv-series": {
+  "connection": "Jim Henson's Muppet Babies, an animated series for CBS in which the Muppets are toddlers in a nursery cared for by Nanny, made by Marvel Productions with Henson.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A light, sourced tie: worth keeping if you want the site to map the show's wider footprint.",
+  "source_title": "Wikipedia: Muppet Babies (1984 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/Muppet_Babies_(1984_TV_series)",
+  "title": "Muppet Babies",
+  "subcategory": "Television series",
+  "sort": "muppet babies"
+ },
  "films/muppet-babies-back-to-the-nursery": {
   "connection": "A time-station attendant warns the babies not to park in a Twilight Zone.",
   "tier": "tangential",
@@ -32374,6 +32506,18 @@
   "title": "The Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies",
   "subcategory": "Episodes of other shows",
   "sort": "incredibly strange creatures who stopped living and became mixedup zombies"
+ },
+ "films/mystery-science-theater-3000-tv-series": {
+  "connection": "Joel Hodgson's comedy in which a man trapped on a satellite and his robot companions riff on bad films.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A light, sourced tie: worth keeping if you want the site to map the show's wider footprint.",
+  "source_title": "Wikipedia: Mystery Science Theater 3000",
+  "source_url": "https://en.wikipedia.org/wiki/Mystery_Science_Theater_3000",
+  "title": "Mystery Science Theater 3000",
+  "subcategory": "Television series",
+  "sort": "mystery science theater 003000"
  },
  "films/next-of-kin-1953-teleplay": {
   "connection": "A television play by Rod Serling for Kraft Television Theatre, 1953, from the career that led to The Twilight Zone.",
@@ -33215,6 +33359,18 @@
   "subcategory": "Feature films",
   "sort": "planet of the apes"
  },
+ "films/playhouse-90": {
+  "connection": "Rod Serling's work beyond The Twilight Zone: CBS's anthology of 90-minute dramas, made at CBS Television City in Los Angeles.",
+  "tier": "related",
+  "tier_reason": "Serling's wider career is within the site's scope.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "Wikipedia: Playhouse 90",
+  "source_url": "https://en.wikipedia.org/wiki/Playhouse_90",
+  "title": "Playhouse 90",
+  "subcategory": "Rod Serling's other screen work",
+  "sort": "playhouse 000090"
+ },
  "films/pluribus": {
   "connection": "An homage to “Third from the Sun” (1959) (the makers have said so).",
   "tier": "related",
@@ -33539,6 +33695,18 @@
   "subcategory": "Sketches",
   "sort": "dating zone"
  },
+ "films/saturday-night-live-tv-series": {
+  "connection": "NBC's live late-night sketch comedy show, with a celebrity host and musical guest each week.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A light, sourced tie: worth keeping if you want the site to map the show's wider footprint.",
+  "source_title": "Wikipedia: Saturday Night Live",
+  "source_url": "https://en.wikipedia.org/wiki/Saturday_Night_Live",
+  "title": "Saturday Night Live",
+  "subcategory": "Television series",
+  "sort": "saturday night live"
+ },
  "films/saturday-night-live-twilight-zone-sketch-ariana-grande-episode": {
   "connection": "A sketch that drops a tongue-twister routine into a Twilight Zone-style setup, reviewed by Slashfilm as one of the episode's highlights.",
   "tier": "tangential",
@@ -33731,6 +33899,18 @@
   "subcategory": "Sketches",
   "sort": "crossing zone"
  },
+ "films/sesame-street-tv-series": {
+  "connection": "Joan Ganz Cooney and Lloyd Morrisett's educational children's series of live action, animation and Jim Henson's Muppets, made by Sesame Workshop (the Children's Television Workshop until 2000).",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A light, sourced tie: worth keeping if you want the site to map the show's wider footprint.",
+  "source_title": "Wikipedia: Sesame Street",
+  "source_url": "https://en.wikipedia.org/wiki/Sesame_Street",
+  "title": "Sesame Street",
+  "subcategory": "Television series",
+  "sort": "sesame street"
+ },
  "films/seven-days-in-may": {
   "connection": "Rod Serling's work beyond The Twilight Zone: Serling's adaptation of the Fletcher Knebel and Charles W. Bailey II novel about a planned military coup against a U.S. president who signs a nuclear disarmament treaty.",
   "tier": "related",
@@ -33899,6 +34079,18 @@
   "subcategory": "Episodes of other shows",
   "sort": "star trek the man trap"
  },
+ "films/star-trek-the-original-series": {
+  "connection": "Gene Roddenberry's science-fiction series about the starship USS Enterprise and its crew, made by Desilu and Paramount Television.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A light, sourced tie: worth keeping if you want the site to map the show's wider footprint.",
+  "source_title": "Wikipedia: Star Trek: The Original Series",
+  "source_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series",
+  "title": "Star Trek",
+  "subcategory": "Television series",
+  "sort": "star trek"
+ },
  "films/stranger-than-fiction": {
   "connection": "Suggested link to “A World of His Own” (1959): both explore a writer's power over a character's life, with the character discovering it.",
   "tier": "tangential",
@@ -33923,6 +34115,18 @@
   "subcategory": "Rod Serling's series",
   "sort": "strength of steel"
  },
+ "films/studio-one-tv-series": {
+  "connection": "Rod Serling's work beyond The Twilight Zone: A CBS anthology drama adapted from a radio series created in 1947 by Fletcher Markle.",
+  "tier": "related",
+  "tier_reason": "Serling's wider career is within the site's scope.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "Wikipedia: Studio One (American TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/Studio_One_(American_TV_series)",
+  "title": "Studio One",
+  "subcategory": "Rod Serling's other screen work",
+  "sort": "studio one"
+ },
  "films/super-8": {
   "connection": "Kids shooting a zombie movie in 1979 witness a train crash that frees something strange; press noted Abrams borrowing from The Twilight Zone, whose 'Walking Distance' he names as a favorite.",
   "tier": "related",
@@ -33935,17 +34139,29 @@
   "subcategory": "Feature films",
   "sort": "super 000008"
  },
+ "films/suspense-cbs-television": {
+  "connection": "A fellow anthology series: CBS Television's live anthology of thrillers, 1949 to 1954, broadcast live from New York to CBS's eastern and midwestern stations, with kinescopes made for the West Coast.",
+  "tier": "tangential",
+  "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
+  "recommendation": "maybe",
+  "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
+  "source_title": "Wikipedia: Suspense (American TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/Suspense_(American_TV_series)",
+  "title": "Suspense",
+  "subcategory": "Fellow anthology series",
+  "sort": "suspense"
+ },
  "films/suspense-radio": {
-  "connection": "A fellow anthology series: Long-running CBS radio thriller anthology (to 1962), also a TV series; Serling wrote for the TV version.",
+  "connection": "A fellow anthology series: Long-running CBS radio thriller anthology (to 1962).",
   "tier": "tangential",
   "tier_reason": "A genre cousin rather than a work that draws on the show itself.",
   "recommendation": "maybe",
   "reason": "Useful to map the anthology genre around the show, but it has no direct Twilight Zone tie.",
   "source_title": "Wikipedia: Anthology series",
   "source_url": "https://en.wikipedia.org/wiki/Anthology_series",
-  "title": "Suspense",
+  "title": "Suspense (radio)",
   "subcategory": "Fellow anthology series",
-  "sort": "suspense"
+  "sort": "suspense radio"
  },
  "films/svengoolie-zoned-out-back-in-the-zone": {
   "connection": "Two horror-host broadcasts themed around the show, one built on a Twilight Zone-related film and one presenting Twilight Zone episodes with Svengoolie's comic wraparounds.",
@@ -34859,6 +35075,18 @@
   "subcategory": "Episodes of other shows",
   "sort": "nose knows"
  },
+ "films/the-nanny-tv-series": {
+  "connection": "CBS sitcom starring Fran Drescher as a woman from Flushing, Queens, who becomes nanny to a Broadway producer's three children.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A light, sourced tie: worth keeping if you want the site to map the show's wider footprint.",
+  "source_title": "Wikipedia: The Nanny",
+  "source_url": "https://en.wikipedia.org/wiki/The_Nanny",
+  "title": "The Nanny",
+  "subcategory": "Television series",
+  "sort": "nanny"
+ },
  "films/the-new-people": {
   "connection": "Rod Serling's work beyond The Twilight Zone: ABC series about young Americans stranded on a Pacific island after a plane crash, trying to build a new society.",
   "tier": "related",
@@ -35327,6 +35555,18 @@
   "subcategory": "Segments of other shows",
   "sort": "treehouse of horror xxiv  opening sequence guillermo del toro"
  },
+ "films/the-simpsons-tv-series": {
+  "connection": "Matt Groening's animated sitcom for Fox about the Simpson family of Springfield.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A light, sourced tie: worth keeping if you want the site to map the show's wider footprint.",
+  "source_title": "Wikipedia: The Simpsons",
+  "source_url": "https://en.wikipedia.org/wiki/The_Simpsons",
+  "title": "The Simpsons",
+  "subcategory": "Television series",
+  "sort": "simpsons"
+ },
  "films/the-simpsons-wild-barts-cant-be-broken": {
   "connection": "A reference to “Kick the Can” (1959). The closing image of Springfield's elderly frolicking in the street like children echoes the rest-home residents who regain youth through a game of kick the can.",
   "tier": "tangential",
@@ -35555,6 +35795,18 @@
   "subcategory": "Rod Serling's other screen work",
   "sort": "undersea world of jacques cousteau"
  },
+ "films/the-us-steel-hour": {
+  "connection": "Rod Serling's work beyond The Twilight Zone: U.S. Steel's anthology of hour-long dramas, which began on radio as Theater Guild on the Air and was produced by the Theatre Guild.",
+  "tier": "related",
+  "tier_reason": "Serling's wider career is within the site's scope.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "Wikipedia: The United States Steel Hour",
+  "source_url": "https://en.wikipedia.org/wiki/The_United_States_Steel_Hour",
+  "title": "The U.S. Steel Hour",
+  "subcategory": "Rod Serling's other screen work",
+  "sort": "us steel hour"
+ },
  "films/the-vast-of-night": {
   "connection": "Two teens in 1950s New Mexico chase a strange radio frequency; the film is framed as an episode of a fictional TV anthology, Paradox Theater, in open tribute to the show.",
   "tier": "tangential",
@@ -35782,6 +36034,18 @@
   "title": "The Return of the Acme Acres Zone",
   "subcategory": "Episodes of other shows",
   "sort": "return of the acme acres zone"
+ },
+ "films/tiny-toon-adventures-tv-series": {
+  "connection": "Tom Ruegger's animated comedy from Warner Bros.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A light, sourced tie: worth keeping if you want the site to map the show's wider footprint.",
+  "source_title": "Wikipedia: Tiny Toon Adventures",
+  "source_url": "https://en.wikipedia.org/wiki/Tiny_Toon_Adventures",
+  "title": "Tiny Toon Adventures",
+  "subcategory": "Television series",
+  "sort": "tiny toon adventures"
  },
  "films/to-wake-at-midnight-1955-teleplay": {
   "connection": "A television play by Rod Serling for Climax!, 1955, from the career that led to The Twilight Zone.",
@@ -38232,16 +38496,16 @@
   "sort": "fourth dimension behind the wall little girl lost"
  },
  "locations/toronto-1985-series-season-3": {
-  "connection": "A Cinema Canada production listing from 1988 reported that the new syndicated Twilight Zone episodes were shooting on location in Toronto, from Atlantis Films working with London Films and CBS Broadcast International.",
+  "connection": "Toronto (1985 series, third season) (Toronto, Ontario) was used for The Twilight Zone (1985 revival).",
   "tier": "core",
   "tier_reason": "A real place where episodes were filmed.",
   "recommendation": "include",
   "reason": "Core place: a complete record of the franchise should have it.",
-  "source_title": "Cinema Canada production listings (1988) - Athabasca University archive",
-  "source_url": "https://cinemacanada.athabascau.ca/index.php/cinema/article/download/4196/4231.pdf",
-  "title": "Toronto (1988-89 season)",
+  "source_title": "Wikipedia: The Twilight Zone (1985 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)",
+  "title": "Toronto (1985 series, third season)",
   "subcategory": "Filming locations",
-  "sort": "toronto 001988000089 season"
+  "sort": "toronto 001985 series third season"
  },
  "locations/tower-of-terror-disney-california-adventure": {
   "connection": "A shorter, 183-foot Californian version opened on May 5, 2004, with a more compact queue.",
@@ -38364,16 +38628,16 @@
   "sort": "v000009gamma"
  },
  "locations/vancouver-2002-series": {
-  "connection": "The UPN revival hosted by Forest Whitaker was produced in and around Vancouver for its single 2002-03 season, part of the city's boom as a television production center.",
+  "connection": "Vancouver, British Columbia (2002 series) (Vancouver, British Columbia) was used for The Twilight Zone (2002 revival).",
   "tier": "core",
   "tier_reason": "A real place where episodes were filmed.",
   "recommendation": "include",
   "reason": "Core place: a complete record of the franchise should have it.",
-  "source_title": "The Twilight Zone revival series, shot in Vancouver - Georgia Straight",
-  "source_url": "https://www.straight.com/movies/1222011/twilight-zone-revival-series-shot-vancouver-have-tv-season-premiere-april-4",
-  "title": "Vancouver, British Columbia (2002 series production base)",
+  "source_title": "Wikipedia: The Twilight Zone (2002 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)",
+  "title": "Vancouver, British Columbia (2002 series)",
   "subcategory": "Filming locations",
-  "sort": "vancouver british columbia 002002 series production base"
+  "sort": "vancouver british columbia 002002 series"
  },
  "locations/vancouver-2019-series": {
   "connection": "Jordan Peele and Simon Kinberg's revival for CBS All Access began production in Vancouver in autumn 2018 (principal photography ran from October 1, 2018, to March 20, 2019), and returned for a second season, filmed from October 6, 2019, to March 16, 2020.",
@@ -39624,7 +39888,7 @@
   "sort": "bantam books"
  },
  "organizations/bif-bang-pow": {
-  "connection": "Maker of licensed Twilight Zone bobbleheads, figures and other collectibles.",
+  "connection": "Maker of licensed Twilight Zone bobbleheads, figures and other collectibles, founded in 2005 by Jason Labowitz and Jason Lenzi and based in Simi Valley, California; Wikipedia lists The Twilight Zone among its licences.",
   "tier": "core",
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
@@ -39838,6 +40102,18 @@
   "title": "Elmira College",
   "subcategory": "Organizations",
   "sort": "elmira college"
+ },
+ "organizations/entertainment-earth": {
+  "connection": "An online retailer and wholesaler of licensed collectibles, founded in 1995 in the San Fernando Valley of Los Angeles by the brothers Aaron and Jason Labowitz, which also designs and makes its own lines.",
+  "tier": "related",
+  "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Wikipedia (via Wikiwand): Entertainment Earth",
+  "source_url": "https://www.wikiwand.com/en/articles/Entertainment_Earth",
+  "title": "Entertainment Earth",
+  "subcategory": "Organizations",
+  "sort": "entertainment earth"
  },
  "organizations/falcon-picture-group": {
   "connection": "Carl Amari's company, which produced The Twilight Zone Radio Dramas (176 episodes, October 2002 to 2012), with Stacy Keach in Serling's role as narrator, under licence from CBS Enterprises and the Rod Serling Estate.",
@@ -40414,6 +40690,18 @@
   "title": "Spirit Dance Entertainment",
   "subcategory": "Organizations",
   "sort": "spirit dance entertainment"
+ },
+ "organizations/stern-pinball": {
+  "connection": "A pinball maker, named here as the publisher of two tables with Twilight Zone homages: The Simpsons Pinball Party (2003) and Ripley's Believe It or Not!",
+  "tier": "related",
+  "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "TV Tropes: The Twilight Zone, Referenced By",
+  "source_url": "https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone",
+  "title": "Stern Pinball",
+  "subcategory": "Organizations",
+  "sort": "stern pinball"
  },
  "organizations/television-academy": {
   "connection": "Gives the Primetime Emmy Awards.",
@@ -43836,7 +44124,7 @@
   "sort": "cesare danova"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -46896,7 +47184,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -50196,7 +50484,7 @@
   "sort": "jean carson"
  },
  "people/jean-de-segonzac": {
-  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Night Route” and “Cradle of Darkness”).",
+  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Cradle of Darkness” and “Night Route”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -52260,7 +52548,7 @@
   "sort": "jonathan winters"
  },
  "people/jordan-peele": {
-  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “The Comedian” and “Nightmare at 30,000 Feet”).",
+  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “Nightmare at 30,000 Feet” and “The Comedian”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -56928,7 +57216,7 @@
   "sort": "paul le mat"
  },
  "people/paul-lynch": {
-  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “Examination Day” and “A Message from Charity”).",
+  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “A Message from Charity” and “Examination Day”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -62855,6 +63143,90 @@
   "subcategory": "Single episodes of other podcasts",
   "sort": "city of man  episode 000021 the twilight zone christian humanist profiles"
  },
+ "podcasts/coast-to-coast-am-marc-zicree-2019": {
+  "connection": "Marc Zicree on why the original series lasted: it \"dealt with universal themes\" and \"was made by people who were geniuses\".",
+  "tier": "core",
+  "tier_reason": "A podcast wholly about The Twilight Zone.",
+  "recommendation": "include",
+  "reason": "A dedicated companion podcast; fans looking for discussion of an episode will want these.",
+  "source_title": "Coast to Coast AM: Marc Zicree on The Twilight Zone (2019) (show page)",
+  "source_url": "https://www.coasttocoastam.com/show/2019/04/12",
+  "title": "Coast to Coast AM: Marc Zicree on The Twilight Zone (2019)",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "coast to coast am marc zicree on the twilight zone 002019"
+ },
+ "podcasts/coast-to-coast-am-rod-serling-and-the-twilight-zone-2024": {
+  "connection": "A live Christmas-night show in the year Serling would have turned 100.",
+  "tier": "core",
+  "tier_reason": "A podcast wholly about The Twilight Zone.",
+  "recommendation": "include",
+  "reason": "A dedicated companion podcast; fans looking for discussion of an episode will want these.",
+  "source_title": "Coast to Coast AM: Rod Serling & the Twilight Zone (show page)",
+  "source_url": "https://coasttocoastam.com/show/2024/12/25",
+  "title": "Coast to Coast AM: Rod Serling & the Twilight Zone",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "coast to coast am rod serling  the twilight zone"
+ },
+ "podcasts/coast-to-coast-am-rod-serlings-legacy-2025": {
+  "connection": "Marc Zicree, in the first half of the show, on Serling's legacy: \"Rod wrote 92 of the 156 episodes himself\", and the series is \"the most beautiful black and white show ever shot for television\".",
+  "tier": "tangential",
+  "tier_reason": "Mentions the show in passing.",
+  "recommendation": "maybe",
+  "reason": "Only partly about the show.",
+  "source_title": "Coast to Coast AM: Rod Serling's Legacy (show page)",
+  "source_url": "https://www.coasttocoastam.com/show/2025-12-22-show/",
+  "title": "Coast to Coast AM: Rod Serling's Legacy",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "coast to coast am rod serlings legacy"
+ },
+ "podcasts/coast-to-coast-am-sci-fi-projects-2004": {
+  "connection": "Marc Zicree talks about Serling's influence as writer and producer of The Twilight Zone and the DVD extras drawn from Serling's scripts, as well as his own novel and television projects.",
+  "tier": "tangential",
+  "tier_reason": "Mentions the show in passing.",
+  "recommendation": "maybe",
+  "reason": "Only partly about the show.",
+  "source_title": "Coast to Coast AM: Sci-Fi Projects (show page)",
+  "source_url": "https://www.coasttocoastam.com/show/2004-12-02-show",
+  "title": "Coast to Coast AM: Sci-Fi Projects",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "coast to coast am scifi projects"
+ },
+ "podcasts/coast-to-coast-am-twilight-zone-and-sci-fi-2014": {
+  "connection": "Marc Zicree on the \"hopeful tone\" of The Twilight Zone and The Outer Limits and the optimism of Serling and Gene Roddenberry.",
+  "tier": "core",
+  "tier_reason": "A podcast wholly about The Twilight Zone.",
+  "recommendation": "include",
+  "reason": "A dedicated companion podcast; fans looking for discussion of an episode will want these.",
+  "source_title": "Coast to Coast AM: Twilight Zone & Sci-Fi (show page)",
+  "source_url": "https://coasttocoastam.com/show/2014-05-09-show",
+  "title": "Coast to Coast AM: Twilight Zone & Sci-Fi",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "coast to coast am twilight zone  scifi"
+ },
+ "podcasts/coast-to-coast-am-twilight-zone-memories-2004": {
+  "connection": "Marc Zicree, author of The Twilight Zone Companion, returns to discuss episodes of the original series.",
+  "tier": "core",
+  "tier_reason": "A podcast wholly about The Twilight Zone.",
+  "recommendation": "include",
+  "reason": "A dedicated companion podcast; fans looking for discussion of an episode will want these.",
+  "source_title": "Coast to Coast AM: Twilight Zone Memories (show page)",
+  "source_url": "https://www.coasttocoastam.com/show/2004-04-16-show/",
+  "title": "Coast to Coast AM: Twilight Zone Memories",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "coast to coast am twilight zone memories"
+ },
+ "podcasts/coast-to-coast-am-twilight-zone-special-2009": {
+  "connection": "A 50th-anniversary show.",
+  "tier": "core",
+  "tier_reason": "A podcast wholly about The Twilight Zone.",
+  "recommendation": "include",
+  "reason": "A dedicated companion podcast; fans looking for discussion of an episode will want these.",
+  "source_title": "Coast to Coast AM: Twilight Zone Special (show page)",
+  "source_url": "https://www.coasttocoastam.com/show/2009-10-02-show",
+  "title": "Coast to Coast AM: Twilight Zone Special",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "coast to coast am twilight zone special"
+ },
  "podcasts/decades-of-horror-1980s-twilight-zone-movie": {
   "connection": "An episode of the Doc Rotten / Decades of Horror network's 1980s horror review show dedicated to the 1983 anthology film.",
   "tier": "related",
@@ -63977,8 +64349,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "A Hundred Yards over the Rim",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "hundred yards over the rim"
@@ -63989,8 +64361,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "A Kind of Stopwatch",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "kind of stopwatch"
@@ -64001,8 +64373,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "A Most Unusual Camera",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "most unusual camera"
@@ -64025,8 +64397,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "A Passage for Trumpet",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "passage for trumpet"
@@ -64073,8 +64445,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "A Short Drink from a Certain Fountain",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "short drink from a certain fountain"
@@ -64085,8 +64457,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "A Stop at Willoughby",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "stop at willoughby"
@@ -64097,8 +64469,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "A Thing About Machines",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "thing about machines"
@@ -64229,8 +64601,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Big Tall Wish",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "big tall wish"
@@ -64265,8 +64637,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Cavender Is Coming",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "cavender is coming"
@@ -64301,8 +64673,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Death's Head Revisited",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "deaths head revisited"
@@ -64337,8 +64709,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Escape Clause",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "escape clause"
@@ -64409,8 +64781,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Four O'Clock",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "four oclock"
@@ -64469,8 +64841,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Hocus-Pocus and Frisby",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "hocuspocus and frisby"
@@ -64493,8 +64865,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "I Am the Night, Color Me Black",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "i am the night color me black"
@@ -64517,8 +64889,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "I Shot an Arrow into the Air",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "i shot an arrow into the air"
@@ -64613,8 +64985,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "King Nine Will Not Return",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "king nine will not return"
@@ -64685,8 +65057,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Mirror Image",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "mirror image"
@@ -64721,8 +65093,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Mr. Denton on Doomsday",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "mr denton on doomsday"
@@ -64733,8 +65105,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Mr. Dingle, the Strong",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "mr dingle the strong"
@@ -64745,8 +65117,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Mr. Garrity and the Graves",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "mr garrity and the graves"
@@ -64793,8 +65165,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Nervous Man in a Four-Dollar Room",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "nervous man in a fourdollar room"
@@ -64865,8 +65237,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "No Time Like the Past",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "no time like the past"
@@ -64913,8 +65285,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Of Late I Think of Cliffordville",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "of late i think of cliffordville"
@@ -64949,8 +65321,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "One for the Angels",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "one for the angels"
@@ -64961,8 +65333,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "One More Pallbearer",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "one more pallbearer"
@@ -65189,8 +65561,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Sounds and Silences",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "sounds and silences"
@@ -65237,8 +65609,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Still Valley",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "still valley"
@@ -65285,8 +65657,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The 7th Is Made Up of Phantoms",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "000007th is made up of phantoms"
@@ -65297,8 +65669,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The After Hours",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "after hours"
@@ -65333,8 +65705,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Bard",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "bard"
@@ -65357,8 +65729,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Brain Center at Whipples",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "brain center at whipples"
@@ -65369,8 +65741,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Changing of the Guard",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "changing of the guard"
@@ -65393,8 +65765,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Dummy",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "dummy"
@@ -65417,8 +65789,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Fear",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "fear"
@@ -65429,8 +65801,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Fever",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "fever"
@@ -65525,8 +65897,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Incredible World of Horace Ford",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "incredible world of horace ford"
@@ -65609,8 +65981,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Last Night of a Jockey",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "last night of a jockey"
@@ -65633,8 +66005,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Lateness of the Hour",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "lateness of the hour"
@@ -65645,8 +66017,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Little People",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "little people"
@@ -65657,8 +66029,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Living Doll",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "living doll"
@@ -65669,8 +66041,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Lonely",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "lonely"
@@ -65693,8 +66065,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Long Morrow",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "long morrow"
@@ -65705,8 +66077,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Man in the Bottle",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "man in the bottle"
@@ -65729,8 +66101,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Midnight Sun",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "midnight sun"
@@ -65777,8 +66149,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Monsters Are Due on Maple Street",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "monsters are due on maple street"
@@ -65813,8 +66185,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Obsolete Man",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "obsolete man"
@@ -65825,8 +66197,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Odyssey of Flight 33",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "odyssey of flight 000033"
@@ -65837,8 +66209,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Old Man in the Cave",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "old man in the cave"
@@ -65849,8 +66221,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Parallel",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "parallel"
@@ -65861,8 +66233,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Passersby",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "passersby"
@@ -65957,8 +66329,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Thirty-Fathom Grave",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "thirtyfathom grave"
@@ -65993,8 +66365,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "The Trade-Ins",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "tradeins"
@@ -66125,8 +66497,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Twenty-Two",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "twentytwo"
@@ -66221,8 +66593,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Uncle Simon",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "uncle simon"
@@ -66245,8 +66617,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Walking Distance",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "walking distance"
@@ -66305,8 +66677,8 @@
   "tier_reason": "Part of the officially licensed radio series.",
   "recommendation": "include",
   "reason": "The licensed radio series is part of the franchise; the full run is listed.",
-  "source_title": "The Twilight Zone (radio series), episode list (Wikipedia)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
+  "source_title": "Old Time Radio Researchers: The Twilight Zone, broadcast log",
+  "source_url": "https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm",
   "title": "Will the Real Martian Please Stand Up",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "will the real martian please stand up"
@@ -68914,6 +69286,30 @@
   "title": "That’s When I Think of You",
   "subcategory": "Lyric mentions (idiom)",
   "sort": "thats when i think of you"
+ },
+ "songs/tone-twilight-zone-cornelius": {
+  "connection": "Track 6 of Cornelius's album Point (Trattoria, Japan, 24 October 2001; Matador, US, 2002), written by Keigo Oyamada.",
+  "tier": "tangential",
+  "tier_reason": "A song that names or borrows from the show.",
+  "recommendation": "maybe",
+  "reason": "Its title uses the show's name, but nobody has checked whether it means the series; worth a quick listen.",
+  "source_title": "Wikipedia: Point (Cornelius album)",
+  "source_url": "https://en.wikipedia.org/wiki/Point_(Cornelius_album)",
+  "title": "Tone Twilight Zone",
+  "subcategory": "Other references and samples",
+  "sort": "tone twilight zone"
+ },
+ "songs/twilight-zone-vol-1-dan-vapid-the-cheats-horror-section": {
+  "connection": "A shared record on Eccentric Pop (catalogue ECP2610, coloured 10-inch vinyl with a CD) whose six songs take their titles from Twilight Zone episodes: \"Twenty Two\", \"Where Is Everybody\", \"Come Wander With Me\", \"The Obsolete Man\", \"The Howling Man\" and \"Terror At 20 000 Feet\".",
+  "tier": "tangential",
+  "tier_reason": "A song that names or borrows from the show.",
+  "recommendation": "include",
+  "reason": "A sourced lyric or title reference; fits a list of songs that name the show.",
+  "source_title": "Sound Shelter: Dan Vapid / The Cheats / Horror Section, Twilight Zone Vol 1 [ECP2610]",
+  "source_url": "https://www.soundshelter.net/vinyl/dan-vapid-the-cheats-horror-section-twilight-zone-vol-1",
+  "title": "Twilight Zone Vol 1",
+  "subcategory": "Songs about or titled after the show",
+  "sort": "twilight zone vol 000001"
  },
  "songs/tyler-the-creator-nightmare": {
   "connection": "Verse 3 compares someone's unsettling appearance to the Twilight Zone (confirmed on the letras.mus.br lyric page); a figure of speech that leans on the show's eerie reputation, not a specific episode.",
@@ -75780,7 +76176,7 @@
   "sort": "twilight zone convention 002004"
  },
  "works/twilight-zone-convention-2006": {
-  "connection": "The third Twilight Zone Museum convention.",
+  "connection": "The third Twilight Zone Museum convention, after 2002 and 2004.",
   "tier": "related",
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
   "recommendation": "include",

@@ -1,0 +1,26 @@
+title: "Muppet Babies"
+kind: tv-series
+release_date: '1984-09-15'
+end_date: '1991-11-02'
+network: "CBS"
+country: United States
+seasons: 8
+episode_count: 107
+created_by:
+- "Jim Henson"
+aka:
+- "Jim Henson's Muppet Babies"
+summary: "Jim Henson's Muppet Babies, an animated series for CBS in which the Muppets are toddlers in a nursery cared for by Nanny, made by Marvel Productions with Henson. The entries here are its episodes with Twilight Zone homages."
+sources:
+- title: 'Wikipedia: Muppet Babies (1984 TV series)'
+  url: https://en.wikipedia.org/wiki/Muppet_Babies_(1984_TV_series)
+  publisher: Wikipedia
+  note: Infobox and lead read on 2026-11-24.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Muppet_Babies_(1984_TV_series)
+research_confidence: high
+relevance: tangential
+tags:
+- host-show
+- open-items-2026-11-24
+last_verified: '2026-11-24'

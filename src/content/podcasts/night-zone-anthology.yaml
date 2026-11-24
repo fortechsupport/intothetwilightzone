@@ -3,16 +3,22 @@ kind: fiction
 hosts:
 - Gary Clevenger
 description: >-
-  A podcast of short stories by Gary Clevenger. The Rod Serling Memorial Foundation lists it on its Podcast page
-  (6 March 2026) as "Longtime RSMF member Gary Clevenger's podcast of short stories reminiscent [...]"; the
-  excerpt read is cut off there, so what the stories are compared to is not confirmed.
+  A podcast of short stories by Gary Clevenger, a longtime member of the Rod Serling Memorial Foundation. The
+  Foundation's Media page describes it as short stories "reminiscent of Twilight Zone, Night Gallery, Black Mirror,
+  Creepshow, 1970 DC Horror" and links it on Spotify. No RSS feed is published, so its episodes are not in the
+  episode table.
 covers: []
-links: {}
+links:
+  website: https://open.spotify.com/show/29rJXwaTNsUVuFwmJcLO3G
 sources:
 - title: 'Rod Serling Memorial Foundation: Night Zone Anthology'
   url: https://rodserling.com/category/podcast/
   publisher: The Rod Serling Memorial Foundation
   note: Post of 6 March 2026, linking the podcast on Spotify; read 2026-11-24.
+- title: 'Rod Serling Memorial Foundation: Media: Podcasts & Video'
+  url: https://rodserling.com/media-video/
+  publisher: The Rod Serling Memorial Foundation
+  note: Read 2026-11-24; gives the full description and the Spotify link.
 tags:
 - fiction
 - research-2026-11-24

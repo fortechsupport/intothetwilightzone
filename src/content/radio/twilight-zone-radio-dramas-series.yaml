@@ -24,7 +24,9 @@ description: 'Full-cast audio remakes of the original 1959-64 teleplays, produce
   World reported that Falcon had licensed it from CBS Enterprises, that Dick Brescia Associates syndicated it to
   commercial stations and the American Forces Radio and Television Service, that it used the original Twilight Zone
   scores for its theme and background music with sound effects from The Hollywood Edge, and that Richard Wolski was
-  series producer. In February 2016 io9 reported that BBC Radio 4 Extra would begin broadcasting it that March.'
+  series producer. In February 2016 io9 reported that BBC Radio 4 Extra would begin broadcasting it that March. The publisher''s
+  OverDrive listing names a "Gold Marcum Award for Best Radio Drama Series of 2006" and an "XM Radio Nation Award", and
+  a June 2008 post on the series'' blog announced an Audie Award for "the best audio adapted from another medium".'
 subtype: audio-series
 sources:
 - title: Wikipedia
@@ -46,6 +48,13 @@ sources:
   note: 22 February 2016; ten 40-minute episodes on BBC Radio 4 Extra from March 2016.
 - title: 'The Twilight Zone Vortex: A Dimension of Sound (2017)'
   url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
+  note: 'Credits "Producer/Director: Carl Amari (with JoBe Cerny)" (read 2026-11-24); settles the director credit, which Wikipedia''s infobox gives to Roger Wolski.'
+- title: 'OverDrive: The Twilight Zone Radio Dramas, Collection 1'
+  url: https://mlc.overdrive.com/media/114266
+  note: 'Publisher''s description lists the Gold Marcum Award (2006) and the XM Radio Nation Award (read 2026-11-24).'
+- title: 'Twilight Zone Radio blog: well im proud to announce that tz won (6 June 2008)'
+  url: https://twilightzoneradio.blogspot.com/2008/06/well-im-proud-to-announce-that-tz-won.html
+  note: Announces the Audie Award; also says the series won "8 radio awards of excellence" the year before (read 2026-11-24).
 - title: Moviefone (TMDB data) - The Twilight Zone specials list
   url: https://www.moviefone.com/tv-shows/the-twilight-zone/nnUg8MxfZnesGDhxVstb21/seasons/0/
 research_confidence: high

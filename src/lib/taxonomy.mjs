@@ -15,7 +15,7 @@ import { hostShow, ENTRY_KINDS } from './tv-shows.mjs';
 // (contentOf below, and every record's media[]) and show on those records' pages, on the category and
 // subcategory pages that list those records, and in the Media Library (/media/), which says where each
 // item appears.
-/** @typedef {{ slug: string, title: string, blurb: string, intro?: string, isNew?: boolean, order?: 'az' | 'chrono', side?: 'official' | 'unofficial', groups?: string[], orderNote?: string, connection?: string }} Sub */
+/** @typedef {{ slug: string, title: string, blurb: string, intro?: string, isNew?: boolean, order?: 'az' | 'chrono', side?: 'official' | 'unofficial', groups?: string[], orderNote?: string, connection?: string, splitLabels?: [string, string] }} Sub */
 /** @typedef {{ slug: string, title: string, kind?: 'section' | 'category', group?: string, split?: boolean, isNew?: boolean, description: string, intro: string[], connection: string, subs: Sub[], seeAlso?: [string, string][] }} Category */
 
 /** @type {Category[]} */
@@ -154,7 +154,7 @@ export const TAXONOMY = [
       { slug: 'production-companies', title: 'Production companies', blurb: 'Cayuga Productions and the companies that produced the revivals, radio dramas and films.', side: 'official' },
       { slug: 'publishers', title: 'Publishers', blurb: 'Publishers of Twilight Zone books, comics and magazines, and of books about the show.' },
       { slug: 'licensees', title: 'Product licensees', blurb: 'The makers of Twilight Zone toys, games, cards, home video and recordings.' },
-      { slug: 'sponsors', title: 'Sponsors and advertisers', blurb: 'The companies that sponsored the series (official), and the brands Rod Serling advertised.' },
+      { slug: 'sponsors', title: 'Sponsors and advertisers', blurb: 'The companies that sponsored the series (official), and the brands Rod Serling advertised.', splitLabels: ['Sponsors of the Twilight Zone', "Sponsors of Serling's other work, and brands he advertised"] },
       { slug: 'archives-libraries', title: 'Archives and libraries', blurb: 'Where Twilight Zone scripts, papers and recordings are kept, with their holdings.', side: 'unofficial' },
       { slug: 'museums', title: 'Museums', blurb: 'Museums with Serling or Twilight Zone collections and exhibits.', side: 'unofficial' },
       { slug: 'foundations-societies', title: 'Foundations and societies', blurb: 'The Rod Serling Memorial Foundation and other societies.', side: 'unofficial' },
@@ -176,6 +176,7 @@ export const TAXONOMY = [
     connection: 'Every event here is part of the franchise\'s own history, honors Rod Serling or the show, or is a gathering devoted to it.',
     seeAlso: [['History', '/history/'], ['Timeline', '/timeline/']],
     subs: [
+      { slug: 'upcoming', title: 'Coming up', isNew: true, order: 'chrono', blurb: 'Events whose dates are still ahead, worked out from each record\'s dates each time the site is built. Once an event\'s last day passes, it leaves this shelf and stays on its own.' },
       { slug: 'anniversaries-festivals', title: 'Anniversaries and festivals', groups: ['SerlingFest', 'Film festivals', 'Anniversaries and days'], blurb: 'Anniversary celebrations and festivals, including SerlingFest in Binghamton.' },
       { slug: 'broadcasts-marathons', title: 'Screenings and marathons', groups: ['TV marathons', 'Screenings'], blurb: 'The holiday marathons on television, and screenings in cinemas, schools and theatres.' },
       { slug: 'conventions', title: 'Conventions and conferences', groups: ['Twilight Zone conventions', 'Conferences and symposia', 'Panels and salutes'], blurb: 'Twilight Zone conventions, Rod Serling conferences, and panels about the show at other gatherings.' },
@@ -835,6 +836,13 @@ export function place(col, id, d, ctx = {}) {
       if (host === 'Night Gallery' || id === 'night-gallery') { add('series', 'serling-series', 'Night Gallery'); break; }
       if (k === 'tv-series') {
         if (tags.includes('radio-only')) { add('radio', 'anthologies'); break; }
+        // A record for a show whose entries are already on shelves (finish-open-items plan, 2026-11-24): it sits in its
+        // show's own group, beside its episodes, rather than being counted as a homage or an anthology of its own.
+        if (tags.includes('host-show')) {
+          if (tags.includes('serling-plays')) add('series', 'serling-series', 'Anthologies he wrote plays for');
+          else add('series', 'homages', d.title);
+          break;
+        }
         if (asub === "Rod Serling's other screen work") add('series', 'serling-series', "Rod Serling's series");
         else if (tags.includes('tz-writers')) add('series', 'anthologies', 'Series by Twilight Zone writers');
         else if (tags.includes('anthology-family') || asub === 'Fellow anthology series') add('series', 'anthologies', 'Anthology series');
@@ -962,6 +970,15 @@ function ad_group(st, d) {
   return 'Commercials';
 }
 
+/** True when an event's last known day is today or later (dates in details.date or details.dates, else the year). */
+export function isUpcoming(d, today = new Date().toISOString().slice(0, 10)) {
+  const txt = [d.details?.date, d.details?.dates, d.date].filter(Boolean).join(' ');
+  const days = String(txt).match(/\b(19|20)\d\d-\d\d-\d\d\b/g);
+  if (days?.length) return days.sort().at(-1) >= today;
+  const y = Number(String(d.year ?? '').match(/(19|20)\d\d/)?.[0]);
+  return Boolean(y) && y > Number(today.slice(0, 4));
+}
+
 /** organizations.kind -> subcategory */
 export const ORG_KINDS = ['network', 'studio', 'streamer', 'production-company', 'publisher', 'licensee', 'record-label', 'game-company', 'toy-company', 'home-video', 'sponsor', 'advertiser', 'archive', 'library', 'museum', 'foundation', 'society', 'award-body', 'school', 'fan-group', 'website', 'auction-house', 'other'];
 const ORG_SUB = {
@@ -1052,6 +1069,8 @@ function placeWork(d, st, add, id) {
       return;
     case 'event':
       // Attend plan (docs/plans/research-attend.md, section 2): Events lists gatherings; milestones go to History.
+      // Finish-open-items plan (2026-11-24): an event still to come is also listed under Coming up.
+      if (st !== 'history' && isUpcoming(d)) add('events', 'upcoming');
       if (st === 'history') {
         if (/accident/.test(lc(d.title))) add('events', 'legal', 'The 1982 accident and trial');
         else if (!(d.categories ?? []).length) add('history', /serling/i.test(d.title ?? '') ? 'serling-life' : 'production-history');

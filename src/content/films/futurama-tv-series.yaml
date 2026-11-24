@@ -1,0 +1,21 @@
+title: "Futurama"
+kind: tv-series
+release_date: '1999-03-28'
+network: "Fox, Comedy Central, Hulu"
+country: United States
+created_by:
+- "Matt Groening"
+summary: "Matt Groening's animated science-fiction sitcom about Philip J. Fry, frozen for 1,000 years, and the Planet Express crew. The entries here are its episodes with Twilight Zone homages, among them its parody show-within-the-show The Scary Door."
+sources:
+- title: 'Wikipedia: Futurama'
+  url: https://en.wikipedia.org/wiki/Futurama
+  publisher: Wikipedia
+  note: Infobox and lead read on 2026-11-24.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Futurama
+research_confidence: high
+relevance: tangential
+tags:
+- host-show
+- open-items-2026-11-24
+last_verified: '2026-11-24'

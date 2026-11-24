@@ -105,6 +105,8 @@ screenshots.
 - Nothing blocking.
 
 ## Found, for later
+- **2026-11-24:** every item below now carries a mark (Done, Can't with the reason, Read round, or Adam) in
+  docs/plans/finish-open-items-2026-11-24.md, which is the current list.
 - **Walk of Fame year:** the record says 1988; some sources say 1985. Needs the Walk of Fame's own listing.
 - **Award nominations:** only some nominations are recorded; the 1985-89 revival's Emmy nominations are not.
 - **Ratings history** for each season is not recorded.

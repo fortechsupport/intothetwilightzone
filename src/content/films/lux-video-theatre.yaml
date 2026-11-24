@@ -1,0 +1,27 @@
+title: "Lux Video Theatre"
+kind: tv-series
+release_date: '1950-10-02'
+end_date: '1957-09-12'
+network: "CBS, then NBC (from 1954)"
+country: United States
+seasons: 7
+episode_count: 336
+presented_by:
+- "James Mason"
+- "Otto Kruger"
+- "Gordon MacRae"
+summary: "A television spin-off of Lux Radio Theater with comedy and drama teleplays and abridged adaptations of films and plays. Wikipedia names no Serling play; the ones listed here come from the Rod Serling Memorial Foundation's filmography."
+sources:
+- title: 'Wikipedia: Lux Video Theatre'
+  url: https://en.wikipedia.org/wiki/Lux_Video_Theatre
+  publisher: Wikipedia
+  note: Infobox and lead read on 2026-11-24.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Lux_Video_Theatre
+research_confidence: high
+relevance: related
+tags:
+- host-show
+- serling-plays
+- open-items-2026-11-24
+last_verified: '2026-11-24'

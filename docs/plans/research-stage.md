@@ -187,6 +187,8 @@ Theme-park shows stay in Visit > Places > Attractions; Stage links to them.
 - ~~Approval of this plan, and Q1 to Q6.~~ Approved 2026-11-24 with every suggested answer.
 
 ## Found, for later
+- **2026-11-24:** every item below now carries a mark (Done, Can't with the reason, Read round, or Adam) in
+  docs/plans/finish-open-items-2026-11-24.md, which is the current list.
 - ~~Each staged episode's Television page could show its stagings ("On stage")~~ Done in step 2: an "On stage" line in the episode's Legacy section.
 - Step 1 research is in data/research/stage-2026-11-24/ (shelf-a-washburn.md, shelves-b-to-e.md,
   movies-leftovers.md). About 80 pages read.

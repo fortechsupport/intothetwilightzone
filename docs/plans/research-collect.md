@@ -145,6 +145,8 @@ merged, home video researched, and screenshots.
 - Nothing blocking.
 
 ## Found, for later
+- **2026-11-24:** every item below now carries a mark (Done, Can't with the reason, Read round, or Adam) in
+  docs/plans/finish-open-items-2026-11-24.md, which is the current list.
 - **Night Gallery paintings:** only eight of the show's paintings have records. Each segment was introduced by one,
   most by Tom Wright, the pilot's by Jaroslav Gebr. A painting-by-segment list needs a source that names each one (the
   2020 book *The Art of Darkness*, nightgallery.net); a research round of its own.

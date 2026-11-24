@@ -84,6 +84,8 @@ One pull request: duplicates merged, groups, venues and festivals re-placed, the
 - Nothing blocking.
 
 ## Found, for later
+- **2026-11-24:** every item below now carries a mark (Done, Can't with the reason, Read round, or Adam) in
+  docs/plans/finish-open-items-2026-11-24.md, which is the current list.
 - **1985 series locations:** Wikipedia names no studio or town for the CBS seasons; the third season was
   "Canadian-produced" with no city. Paul Chavez's 1985 call sheets at USC (already an archive record) would answer it.
 - **2002 series locations:** only the Vancouver Aquarium claim was found.

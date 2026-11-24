@@ -12,7 +12,12 @@ voiced_by:
 adapts_episode: 1959/king-nine-will-not-return
 ids:
   imdb: tt30626173
+broadcast_date: '2004-04-24'
 sources:
+- title: 'Old Time Radio Researchers: The Twilight Zone, broadcast log'
+  url: https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm
+  publisher: Old Time Radio Researchers
+  note: 'Dated log of the 2003-04 syndicated broadcasts (read 2026-11-23, data/research/radio-2026-11-23/otrr-episode-log.tsv); gives this episode as broadcast on 24 April 2004.'
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 - title: The Twilight Zone (radio series), episode list (Wikipedia)

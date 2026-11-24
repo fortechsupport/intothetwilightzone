@@ -80,6 +80,7 @@ releases:
 - date: '2021-11-23'
   format: Blu-ray
   title: 'Night Gallery: Season One'
+  record: works/night-gallery-blu-ray-kino-imprint
   publisher: Kino Lorber Studio Classics
   note: 'Two discs from new 2K masters: the pilot and the first season, new commentaries and "The Syndication Conundrum" featurette.'
   sources:
@@ -100,6 +101,7 @@ releases:
 - date: '2022-07-26'
   format: Blu-ray
   title: 'Night Gallery: Season Two'
+  record: works/night-gallery-blu-ray-kino-imprint
   publisher: Kino Lorber Studio Classics
   note: Wikipedia gives the date but names no distributor; Kino Lorber is inferred from its Season One and Three releases.
   sources:
@@ -108,6 +110,7 @@ releases:
 - date: '2022-11-22'
   format: Blu-ray
   title: 'Night Gallery: Season Three'
+  record: works/night-gallery-blu-ray-kino-imprint
   publisher: Kino Lorber Studio Classics
   note: Wikipedia gives the date; its reference is Kino Lorber's own product page.
   sources:
@@ -116,6 +119,7 @@ releases:
 - date: '2026-01-14'
   format: Blu-ray
   title: 'Rod Serling''s Night Gallery: The Complete Collection'
+  record: works/night-gallery-blu-ray-kino-imprint
   publisher: Imprint Television (Via Vision Entertainment)
   region: Australia
   note: 'Limited edition of 1,500: ten discs with all three seasons, the pilot and the lost Season Two segments, eight new

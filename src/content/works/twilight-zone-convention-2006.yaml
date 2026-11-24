@@ -3,14 +3,18 @@ kind: convention
 subtype: convention
 year: 2006
 creator: Twilight Zone Museum
-description: The third Twilight Zone Museum convention. The museum's archived site gives it its own section, continuing
-  the run of cast-and-crew reunions that started in 2002.
+description: 'The third Twilight Zone Museum convention, after 2002 and 2004. The
+  museum''s archived page dates it 12 and 13 August 2006 in Hasbrouck Heights, New Jersey, calls it the "first-ever"
+  Twilight Zone convention on the East Coast, and names Herman Darvick as its coordinator.'
 details:
-  location: Los Angeles area, California
+  location: Hasbrouck Heights, New Jersey
+  dates: 2006-08-12 to 2006-08-13
+  coordinator: Herman Darvick
 sources:
 - title: twilightzonemuseum.com
   url: https://twilightzonemuseum.com/conventions/2006/index.php
+  note: 'Read 2026-11-24: August 12-13, 2006, Hasbrouck Heights, NJ, "first-ever" on the East Coast, coordinated by Herman Darvick.'
 - title: tz-museum.com
   url: https://tz-museum.com/conventions-home/
 research_confidence: medium
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'

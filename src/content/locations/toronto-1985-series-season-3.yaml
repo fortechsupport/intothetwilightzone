@@ -1,17 +1,27 @@
-name: Toronto (1988-89 season)
+name: Toronto (1985 series, third season)
 kind: filming-location
 city: Toronto
 region: Ontario
 country: CA
-lat: 43.6532
-lng: -79.3832
 status: extant
+filmed:
+- ref: series/1985
+  note: Where the syndicated third season was filmed, according to TV Tropes.
 notes: >-
-  A Cinema Canada production listing from 1988 reported that the new syndicated Twilight Zone episodes
-  were shooting on location in Toronto, from Atlantis Films working with London Films and CBS Broadcast
-  International. This gives a city for the Canadian third season, though the listing does not name particular
-  studios or streets.
+  Wikipedia calls the third, syndicated season "Canadian-produced" and lists Atlantis Films among its production
+  companies, without naming a city. TV Tropes, a fan wiki, says "Season Three was filmed in Toronto, many American
+  characters are played by Canadian actors." No studio is named. Where the two CBS seasons were filmed is not stated
+  in either source.
 sources:
-- title: Cinema Canada production listings (1988) - Athabasca University archive
-  url: https://cinemacanada.athabascau.ca/index.php/cinema/article/download/4196/4231.pdf
-last_verified: '2026-11-19'
+- title: 'Wikipedia: The Twilight Zone (1985 TV series)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
+  note: Read 2026-11-24.
+- title: 'TV Tropes: Trivia / The Twilight Zone (1985)'
+  url: https://www.tvtropes.org/pmwiki/pmwiki.php/Trivia/TheTwilightZone1985
+  note: Fan wiki, read 2026-11-24.
+research_confidence: medium
+relevance: core
+tags:
+- open-items-2026-11-24
+- fan-noted
+last_verified: '2026-11-24'
