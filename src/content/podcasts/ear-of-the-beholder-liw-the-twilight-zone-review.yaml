@@ -22,6 +22,9 @@ sources:
   url: https://podcast.feedspot.com/the_twilight_zone_podcasts
 - title: Million Podcasts - Best The Twilight Zone Podcasts
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
+- title: 'RSS feed: Ear Of The Beholder: LIW The Twilight Zone Review'
+  url: https://www.loiteringinwonderland.com/ttzerwpw?format=rss
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 300 episodes, dated 2021-08-11 to 2026-11-14.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 description: A comedy review show from Loitering In Wonderland Studios in which comedians Phoenix West, Dick Dickette and
   Frank Linkz review episodes of every version of The Twilight Zone and of Night Gallery in a mix of stand-up and review.
   Episodes are short (about 20 minutes). Apple lists 304 episodes, the latest on 14 November 2026, making it one of the
@@ -40,5 +43,6 @@ organizations:
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
 relevance: core

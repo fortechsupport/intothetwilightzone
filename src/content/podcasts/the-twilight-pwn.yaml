@@ -25,11 +25,14 @@ sources:
   publisher: The Rod Serling Memorial Foundation
   note: The Foundation lists this podcast on its Podcast page (post of 12 April 2022; read 2026-11-24). A listing, not a
     licence.
+- title: 'RSS feed: Twilight Pwn: A Twilight Zone Podcast'
+  url: https://twilightpwn.libsyn.com/rss
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 191 episodes, dated 2013-02-13 to 2024-08-21.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 description: A weekly fan podcast by John and Fred that worked through the original series episode by episode, then branched
   into Night Gallery, the 1980s revival and the 2019 series, with author interviews such as Steven Jay Rubin on his Twilight
   Zone Encyclopedia. About 191 episodes; the newest listed is an August 2024 Serlingfest announcement.
 episode_count: 191
-status: unknown
+status: ended
 covers:
 - '1959'
 - '1985'
@@ -50,8 +53,9 @@ featured_episodes:
   date: '2017-06-22'
   covers_episode: 1985/wordplay
 research_confidence: medium
-last_verified: '2026-11-21'
+last_verified: '2026-11-24'
 tags:
 - research-2026-11-21
 - research-2026-11-24
 relevance: core
+episode_count_as_of: '2026-11-24'

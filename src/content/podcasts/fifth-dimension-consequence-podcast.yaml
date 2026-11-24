@@ -13,6 +13,7 @@ subtype: episode-review
 status: ended
 links:
   apple: https://podcasts.apple.com/us/podcast/the-fifth-dimension-a-twilight-zone-podcast/id1457994474
+  rss: https://feeds.redcircle.com/d8a63c1b-a0df-4be5-9575-6fabccdefe16
 sources:
 - title: consequence.net
   url: https://consequence.net/2019/03/fifth-dimension-twilight-zone/
@@ -23,6 +24,9 @@ sources:
   publisher: Apple Podcasts
   note: 'Read 2026-11-24: 11 episodes, "Welcome to The Fifth Dimension" (28 March 2019) to "Blurryman" (31 May 2019); ©
     Consequence Podcast Network.'
+- title: 'RSS feed: The Fifth Dimension: A Twilight Zone Podcast'
+  url: https://feeds.redcircle.com/d8a63c1b-a0df-4be5-9575-6fabccdefe16
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 11 episodes, dated 2019-03-28 to 2019-05-31.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 research_confidence: high
 last_verified: '2026-11-24'
 episode_count: 11

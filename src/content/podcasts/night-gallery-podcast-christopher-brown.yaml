@@ -21,9 +21,15 @@ featured_episodes:
   url: https://podcasts.apple.com/us/podcast/special-a-carol-for-another-christmas/id400018647?i=1000327365643
 links:
   apple: https://podcasts.apple.com/us/podcast/night-gallery-podcast/id400018647
+  rss: http://thelasthorrorpodcast.com/feed/nightgallerypodcast/
 sources:
 - title: Apple Podcasts - Night Gallery Podcast
   url: https://podcasts.apple.com/us/podcast/night-gallery-podcast/id400018647
+- title: 'RSS feed: Night Gallery Podcast'
+  url: http://thelasthorrorpodcast.com/feed/nightgallerypodcast/
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 102 episodes, dated 2012-05-01 to 2021-11-06.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: related
 research_confidence: high
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
+episode_count_as_of: '2026-11-24'
+first_episode: '2012-05-01'

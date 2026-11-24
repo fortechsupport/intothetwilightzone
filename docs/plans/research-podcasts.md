@@ -190,6 +190,11 @@ B and D, read from each podcast's own RSS feed, plus each single episode on shel
 ---
 
 ## Decided here (Adam reviews later)
+- Round 1 (2026-11-24): status "ended" means no episode in the six months before the feed was read; it is an
+  inference and each source note says so. A higher earlier count or earlier first date is kept when a feed lists
+  fewer episodes than an earlier source.
+- Round 1: when a record's feed answers 404, the reader tries the feed Apple lists now and the record is updated to
+  it (Imagine if you Will, The Fifth Dimension), with the old address kept in the source note.
 - The Radio Dramas' podcast feed stays in Radio and is linked from Podcasts.
 - Fan recordings of the episodes stay in Radio > Fan and independent audio; only original fiction goes on shelf D.
 - The episode table sits on the Podcasts page below the shelves, with its own address (/podcasts/episodes/) for sharing filtered lists; the old "Podcast episodes" shelf becomes shelf C, "Single episodes".
@@ -199,4 +204,9 @@ B and D, read from each podcast's own RSS feed, plus each single episode on shel
 - (none: plan and Q1 to Q9 approved as suggested, 2026-11-24 03:12 UTC)
 
 ## Found, for later
+- Feeds cap what they list (Strange Highways 400, Ear of the Beholder 300), so the episode table cannot hold the
+  oldest episodes of those two from the feed alone. Round 2 looks for an archive page or a full listing.
+- Leads not yet recorded: the Foundation's "Talking Rod's Legacy on 50th Anniversary" (28 June 2025), its Audio
+  page items (Carol Serling and Marc Scott Zicree on Coast to Coast AM), and five fiction podcasts seen as titles
+  only (Murmurs, Earbud Theater, Curious Matter, The Other Stories, The Veil). Round 2.
 - Five Radio records are not placed on any shelf, including the radio show's podcast feed and the BBC and syndication runs (taxonomy export, 2026-11-24). They belong to Radio's series page.

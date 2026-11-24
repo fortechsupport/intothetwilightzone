@@ -16,15 +16,19 @@ sources:
   note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
 - title: Podstatus - The Twilight Zone Zone
   url: https://podstatus.com/podcasts/the-twilight-zone-zone-166291
+- title: 'RSS feed: The Twilight Zone Zone'
+  url: https://feeds.soundcloud.com/users/soundcloud:users:240918726/sounds.rss
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 2 episodes, dated 2017-11-10 to 2017-12-02.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 description: A short-lived podcast by Jeremy Schmidt and Ron Lechler on SoundCloud, begun in July 2016. Apple currently
   lists only 2 episodes in its feed, the last from December 2017.
 status: ended
 episode_count: 2
-episode_count_as_of: '2026-11-21'
+episode_count_as_of: '2026-11-24'
 covers:
 - '1959'
 research_confidence: low
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
 relevance: core

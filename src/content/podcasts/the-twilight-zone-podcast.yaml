@@ -2,7 +2,7 @@ title: The Twilight Zone Podcast
 kind: podcast
 hosts:
 - Tom Elliot
-first_episode: '2011-06-01'
+first_episode: '2011-06-03'
 links:
   podchaser: https://www.podchaser.com/podcasts/the-twilight-zone-podcast-11686
   rss: https://www.spreaker.com/show/5856481/episodes/feed
@@ -22,6 +22,9 @@ sources:
   url: https://rodserling.com/category/podcast/
   publisher: The Rod Serling Memorial Foundation
   note: The Foundation lists this podcast on its Podcast page (post of 1 May 2026; read 2026-11-24). A listing, not a licence.
+- title: 'RSS feed: The Twilight Zone Podcast'
+  url: https://www.spreaker.com/show/5856481/episodes/feed
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 401 episodes, dated 2011-06-03 to 2026-11-11.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 description: Tom Elliot's long-running independent podcast about The Twilight Zone, started in 2010 and billed as the longest-running
   show about the series. Alongside reviews of episodes across every season it runs readings of the short stories behind
   episodes, book reviews, interviews with authors and Serling family members, and live coverage of Serlingfest in Binghamton.
@@ -57,10 +60,12 @@ featured_episodes:
   url: https://www.thetwilightzonepodcast.com/episodes
   covers_episode: 1959/whats-in-the-box
 research_confidence: high
-last_verified: '2026-11-21'
+last_verified: '2026-11-24'
 organizations:
 - The After Hours Club
 tags:
 - research-2026-11-21
 - research-2026-11-24
 relevance: core
+episode_count: 401
+episode_count_as_of: '2026-11-24'

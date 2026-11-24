@@ -3,6 +3,20 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Podcasts research round 1: every podcast re-checked
+
+Visitors can now:
+- Find 17 more podcasts and episodes: the 12 that never showed, two fiction podcasts inspired by the show (Night Zone
+  Anthology, Strange Little Realms), and three episodes about Rod Serling (Nation of Writers, Jace Sits with the
+  Rod Serling Memorial Foundation, NPR's Fresh Air).
+- See, on 33 podcasts, an episode count, first-episode date and status read from the podcast's own feed on
+  24 November 2026, with the feed linked as the source.
+
+**Known not to work yet:**
+- The shelves are still the old two; the four new shelves and the searchable episode table come in step 3.
+- Eight podcasts have no feed address yet.
+- No official podcast exists that we could find, so there is no Official shelf.
+
 ## 2026-11-24 — Music: six shelves, episode music and music videos
 
 Music now has six shelves:

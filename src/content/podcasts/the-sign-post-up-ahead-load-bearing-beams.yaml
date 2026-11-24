@@ -8,7 +8,7 @@ description: A monthly spin-off of the 1-Week Rental movie podcast in which Matt
   confused with Eric Silver and Joe Stanton's "The Signpost Up Ahead".
 status: active
 episode_count: 13
-episode_count_as_of: '2026-11-21'
+episode_count_as_of: '2026-11-24'
 covers:
 - '1959'
 organizations:
@@ -25,8 +25,13 @@ sources:
   url: https://podcast.feedspot.com/the_twilight_zone_podcasts
 - title: Million Podcasts - Best The Twilight Zone Podcasts
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
+- title: 'RSS feed: The Sign Post Up Ahead: A Twilight Zone Podcast'
+  url: https://rss.libsyn.com/shows/565665/destinations/4890570.xml
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 13 episodes, dated 2025-01-28 to 2026-10-21.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: core
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
+first_episode: '2025-01-28'

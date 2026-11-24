@@ -20,12 +20,15 @@ sources:
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
 - title: 'Game Informer - The Twilight Highlight Zone Reboot: A Traveler'
   url: https://www.gameinformer.com/twilight-highlight-zone/2019/04/18/the-twilight-highlight-zone-reboot-a-traveler
+- title: 'RSS feed: The Twilight Highlight Zone'
+  url: https://pinecast.com/feed/the-twilight-highlight-zone
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 55 episodes, dated 2013-04-08 to 2020-02-14.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 description: Game Informer editors Ben Hanson and Jeff Cork began this side podcast in April 2013, reviewing episodes of
   the original series; it later moved with Hanson to MinnMax. In 2019 they reviewed the Jordan Peele revival week by week
   on gameinformer.com ("A Traveler", "Point of Origin"). Apple lists 55 episodes, the last in February 2020.
 status: ended
 episode_count: 55
-episode_count_as_of: '2026-11-21'
+episode_count_as_of: '2026-11-24'
 covers:
 - '1959'
 - '2019'
@@ -44,5 +47,6 @@ featured_episodes:
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
 relevance: core

@@ -4,10 +4,10 @@ hosts:
 - Olivia Sterne
 - Suzy Beller
 description: An irreverent episode-by-episode look at The Twilight Zone by Olivia Sterne and Suzy Beller, in episodes of
-  about an hour. Apple lists 37 episodes, the latest on 16 November 2026.
+  about an hour. Its feed lists 38 episodes, the latest on 23 November 2026.
 status: active
-episode_count: 37
-episode_count_as_of: '2026-11-21'
+episode_count: 38
+episode_count_as_of: '2026-11-24'
 covers:
 - '1959'
 links:
@@ -21,8 +21,13 @@ sources:
   url: https://podcast.feedspot.com/the_twilight_zone_podcasts
 - title: Million Podcasts - Best The Twilight Zone Podcasts
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
+- title: 'RSS feed: The Hindsight Zone'
+  url: https://media.rss.com/thehindsightzone/feed.xml
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 38 episodes, dated 2025-08-26 to 2026-11-23.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: core
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
+first_episode: '2025-08-26'

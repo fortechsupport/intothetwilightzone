@@ -6,7 +6,7 @@ hosts:
 first_episode: '2014-08-07'
 links:
   podchaser: https://www.podchaser.com/podcasts/the-fifth-dimension-36850
-  rss: https://fifthdimension.libsyn.com/rss
+  rss: https://rss.libsyn.com/shows/56978/destinations/213682.xml
   apple: https://podcasts.apple.com/us/podcast/the-fifth-dimension/id906935586
   website: https://fifthdimension.libsyn.com/
 sources:
@@ -17,16 +17,20 @@ sources:
   note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
 - title: Feedspot - 19 Best The Twilight Zone Podcasts
   url: https://podcast.feedspot.com/the_twilight_zone_podcasts
+- title: 'RSS feed: The Fifth Dimension'
+  url: https://rss.libsyn.com/shows/56978/destinations/213682.xml
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 79 episodes, dated 2014-08-07 to 2020-10-26. The feed listed before (https://fifthdimension.libsyn.com/rss) now answers HTTP 404; Apple lists this one. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 description: Richard Arnold and Trent Urness pick out the best and the worst episodes of the original series and discuss
   their themes and trivia. It started in August 2014; Apple lists 79 episodes, the last in October 2020. Not to be confused
   with the 2019 Consequence podcast of the same name.
 status: ended
 episode_count: 79
-episode_count_as_of: '2026-11-21'
+episode_count_as_of: '2026-11-24'
 covers:
 - '1959'
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
 relevance: core

@@ -5,20 +5,25 @@ network: IASoftware
 description: An audio-fiction podcast of short mystery stories that names the show in its title and describes itself as
   "The Twilight Zone meets Black Mirror with a touch of The Outer Limits". Apple listed 30 episodes, all from 2026, when
   it was read.
-status: active
+status: ended
 episode_count: 30
 episode_count_as_of: '2026-11-24'
 covers: []
 links:
   apple: https://podcasts.apple.com/us/podcast/id1894552110
+  rss: https://media.rss.com/strangelittlerealms/feed.xml
 sources:
 - title: 'Apple Podcasts: Strange Little Realms: Twilight Zone Style Short Mystery Stories'
   url: https://podcasts.apple.com/us/podcast/id1894552110
   publisher: Apple Podcasts
   note: 'Read 2026-11-24: 30 episodes, years active 2026; © IASoftware.'
+- title: 'RSS feed: Strange Little Realms: Twilight Zone Style Short Mystery Stories'
+  url: https://media.rss.com/strangelittlerealms/feed.xml
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 30 episodes, dated 2026-04-18 to 2026-04-26.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 tags:
 - fiction
 - research-2026-11-24
 relevance: tangential
 research_confidence: medium
 last_verified: '2026-11-24'
+first_episode: '2026-04-18'

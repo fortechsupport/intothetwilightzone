@@ -13,6 +13,9 @@ sources:
   note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
 - title: Apple Podcasts - Zone-i-Sodes
   url: https://podcasts.apple.com/us/podcast/id1630502455
+- title: 'RSS feed: Zone-i-Sodes - A Twilight Zone Podcast'
+  url: https://anchor.fm/s/a05b5374/podcast/rss
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 23 episodes, dated 2022-06-18 to 2022-09-16.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 description: A review podcast by Scott McFarland and Brandon Davis on the Front Row Network (NPR Illinois), going through
   the original series in order, sometimes joined by Katharine Roberts. Apple lists 23 episodes, all from 2022, ending with
   "The Monsters Are Due on Maple Street".
@@ -42,10 +45,12 @@ featured_episodes:
   url: https://podcasts.apple.com/us/podcast/episode-16-the-hitch-hiker/id1630502455?i=1000575092373
   covers_episode: 1959/the-hitch-hiker
 research_confidence: high
-last_verified: '2026-11-21'
+last_verified: '2026-11-24'
 organizations:
 - Front Row Network
 - NPR Illinois
 tags:
 - research-2026-11-21
+- research-2026-11-24
 relevance: core
+episode_count_as_of: '2026-11-24'

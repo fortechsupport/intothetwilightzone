@@ -5,9 +5,9 @@ hosts:
 - Alisha
 description: 'Diana and Alisha work through The Twilight Zone, The Outer Limits and Night Gallery. A young show: Apple lists
   8 episodes, the latest in July 2026.'
-status: unknown
+status: active
 episode_count: 8
-episode_count_as_of: '2026-11-21'
+episode_count_as_of: '2026-11-24'
 covers:
 - '1959'
 - films/night-gallery
@@ -20,8 +20,13 @@ sources:
   note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
 - title: Million Podcasts - Best The Twilight Zone Podcasts
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
+- title: 'RSS feed: The Sci-Fright Zone'
+  url: https://media.rss.com/the-sci-fright-zone/feed.xml
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 8 episodes, dated 2026-01-01 to 2026-07-02.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: core
 research_confidence: low
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
+first_episode: '2026-01-01'
