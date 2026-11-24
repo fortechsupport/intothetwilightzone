@@ -142,17 +142,22 @@ first because everything else links to it.
 ## 2. Listen
 
 ### Radio
-- [x] Content plan approved (2026-11-23, docs/plans/research-radio.md; category renamed Radio) · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved (2026-11-23, docs/plans/research-radio.md; category renamed Radio) · [x] Researched (rounds 1–2, PRs #50, #51) · [x] Records decided (decision 0005 and the Serling rule) · [x] Pages built (PRs #52, #53)
 
-| Subcategory | Records (all official) | Depth |
+| Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|
-| Radio episodes: The Twilight Zone Radio Dramas | 182 | Deep (checked against Wikipedia and OTRR) |
-| Radio episodes: Rod Serling's radio work | 5 | Thin |
-| Original radio stories *(new)* | 17 | Deep |
-| Radio versions of unmade scripts *(new)* | 4 | Deep |
+| Radio dramas (series page and episodes) | 177 (177 / 0) | Deep: every episode checked against Wikipedia; full casts for 24 of 176 |
+| Rod Serling's radio work | 15 (15 / 0) | Deep for what Martin Grams Jr. and WNYC record |
+| Original radio stories *(new)* | 16 (16 / 0) | Deep |
+| Radio versions of unmade scripts *(new)* | 3 (3 / 0) | Deep |
+| Other radio and audio adaptations *(new)* | 1 (0 / 1) | Partial |
+| Fellow radio anthologies | 2 (0 / 2) | Deep (sourced ties only) |
+| Fan and independent audio *(new)* | 1 (0 / 1) | Thin |
 
-**Known gaps:** music credits for the radio dramas.
-**Likely missing:** Serling's radio career (WNYC 1946, WLW and WKRC scripts, his network radio scripts), the Pacifica Radio Archives interviews, other radio adaptations of the episodes.
+**Set aside (Adam, 2026-11-24, "We can worry about that later"):** full casts for the other 152 episodes. The BBC's
+listings have them but the BBC site blocks automated reading; no other source lists them.
+**Known gaps:** which episodes each outlet in "Where to listen" carries; the 2023 podcast feed's licence; whether our
+`volume` numbering is right; OTRR's 2003–04 broadcast log not yet applied.
 
 ### Music
 - [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
