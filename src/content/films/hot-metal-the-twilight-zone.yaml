@@ -8,3 +8,12 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: Hot Metal
+releases:
+- date: '2010-04-19'
+  format: DVD
+  title: 'Hot Metal: The Complete Series 2'
+  note: Series 2 ran from 6 March to 17 April 1988, so it holds this episode of 27 March 1988 (worked out from the
+    air date). Also in The Complete Series 1 to 2 Box Set, 18 October 2010. Wikipedia names no label or region.
+  sources:
+  - title: 'Wikipedia: Hot Metal'
+    url: https://en.wikipedia.org/wiki/Hot_Metal
