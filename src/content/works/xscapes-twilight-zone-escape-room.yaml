@@ -4,7 +4,9 @@ subtype: experience
 year: 2018
 creator: Southern Tier Independence Center (STIC)
 description: A 90-minute accessible escape room themed on the series, run to raise money for a disability-services
-  nonprofit. Local press covered its opening in June 2018.
+  nonprofit. Local press covered its opening in June 2018. The puzzle uses the voice of actor Stephen Dexter, who plays Rod Serling for the
+  Rod Serling Memorial Foundation, which called it "the only one of its kind in the world"
+  (October 2019). No source says it is licensed by CBS.
 details:
   venue: Xscapes at the Southern Tier Independence Center
   location: Binghamton, New York, USA
@@ -14,5 +16,7 @@ sources:
   url: https://stic-cil.org/xscapes
 - title: kissbinghamton.com
   url: https://kissbinghamton.com/stics-latest-escape-room-featured-on-southern-tier-close-up/
+- title: 'Rod Serling Memorial Foundation: Binghamton Twilight Zone Escape Room is Unique (Stephen Schlich, 17 October 2019)'
+  url: https://rodserling.com/binghamton-twilight-zone-escape-room-is-unique/
 research_confidence: medium
 last_verified: '2026-11-19'

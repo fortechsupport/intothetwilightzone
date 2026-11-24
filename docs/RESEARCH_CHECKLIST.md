@@ -60,7 +60,7 @@ first because everything else links to it.
 | 7 | Listen: Music | Done 2026-11-24: six shelves, music on 34 episode pages. 54 songs still "not yet confirmed". |
 | 8 | Listen: Podcasts | Done 2026-11-24: three shelves (no official podcast found), 3,323 episodes in one searchable table. |
 | 9 | Watch: Stage | Done 2026-11-24: five shelves and the play page. |
-| 10 | Play: Games | Much already searched with no result; a short confirming pass. |
+| 10 | Play: Games | Done 2026-11-24: five shelves, one shelf per record, five duplicates merged. |
 | 11 | Collect: Artwork | Thin in prints, cover artists and title design. |
 | 12 | Collect: Merchandise | Home video has only 2 records; "Other merchandise" (33) needs splitting. |
 | 13 | Attend: Events | "Other events" holds 39 records that are really history milestones. |
@@ -228,17 +228,20 @@ Read is one category ("Reading") with format subcategories plus six topic collec
 ## 4. Play
 
 ### Games
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [x] Researched · [x] Records decided · [x] Pages built (2026-11-24, overnight, plan
+  docs/plans/research-games.md)
 
-| Subcategory | Records (Off / Unoff) | Depth |
+| Subcategory | Records | Depth |
 |---|---:|---|
-| Video games | 33 (6 / 27) | Partial |
-| Nods in other games *(new)* | 21 (0 / 21) | Partial |
-| Pinball, arcade and slots | 12 (5 / 7) | Deep |
-| Board and card games | 4 (1 / 3) | Partial |
-| Other games | 6 (2 / 4) | Partial |
+| Pinball and slot machines | 8 | Deep |
+| Video games | 6 | Deep |
+| Board, card and party games | 4 | Partial |
+| Other games and play | 1 | Partial |
+| Nods in other games *(new)* | 25 | Partial |
 
-**Known gaps:** Legacy Interactive 2014 game credits; Pinball FX VR date; Atari ST version of the 1988 game; Hellbreak TCG.
+Five duplicate records now point to the fuller one. **Closed:** the 2014 game's developer (Spark Plug Games); Pinball
+FX VR (3 April 2025); no Atari ST version found; Hellbreak has no Twilight Zone property.
+**Known gaps:** who licensed Clue: Tower of Terror; the Bloody Disgusting lead on a new game.
 **Already searched, nothing found:** tabletop RPG, Monopoly or Trivial Pursuit editions, Magic Secret Lair, other slot makers, handheld LCD games, licensed mobile apps.
 **Likely missing:** escape rooms and immersive experiences, tabletop games built on the show's format.
 

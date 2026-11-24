@@ -1,13 +1,12 @@
 title: 'Persona 2: Eternal Punishment'
 kind: game
-subtype: video-game
+subtype: video-game-homage
 year: '1999'
 creator: Atlus
 description: Detective Katsuya grumbles that events are not supposed to be like the Twilight Zone as rumors start
   coming true.
 categories:
 - homages/references
-- games/game-homages
 relevance: tangential
 sources:
 - title: 'TV Tropes – Referenced By: The Twilight Zone'

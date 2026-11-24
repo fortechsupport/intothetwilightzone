@@ -16,8 +16,6 @@ details:
   - Ken Levine
 relevance: core
 research_confidence: high
-categories:
-- games/other-games
 sources:
 - title: 'Game Informer: Ken Levine is working on an interactive Twilight Zone series'
   url: >-
@@ -32,3 +30,4 @@ sources:
 - title: 'Wikipedia: Ken Levine'
   url: https://en.wikipedia.org/wiki/Ken_Levine_(game_developer)
 last_verified: '2026-11-20'
+official: true

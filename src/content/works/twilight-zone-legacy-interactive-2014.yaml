@@ -23,8 +23,19 @@ sources:
   url: https://www.gamepressure.com/games/twilight-zone/zc2d06
 - title: LaunchBox Games DB
   url: https://gamesdb.launchbox-app.com/games/details/82520-the-twilight-zone
-research_confidence: low
-last_verified: '2026-11-20'
+- title: 'Metacritic: Twilight Zone (PC) details'
+  url: https://legacy.prod.metacritic.com/game/pc/twilight-zone/details
+  note: Gives the developer as Spark Plug Games (read 2026-11-24).
+research_confidence: medium
+last_verified: '2026-11-24'
 relevance: core
-categories:
-- games/video-games
+media:
+- type: article
+  title: Where's My Twilight Zone Game?
+  url: https://www.gameinformer.com/b/features/archive/2013/12/28/where-s-my-twilight-zone-game.aspx
+  creator: Jeff Cork
+  host: Game Informer
+  date: '2013-12-28'
+  rights: link-only
+  note: An opinion piece wishing for an episodic Twilight Zone game; it mentions this Legacy Interactive game as in the works
+    but apparently stalled.

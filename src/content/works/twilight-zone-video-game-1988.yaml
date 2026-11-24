@@ -4,10 +4,10 @@ subtype: video-game
 year: 1988
 creator: Covenant Technologies (developer)
 publisher: First Row Software Publishing, Inc. (King of Prussia, PA)
-description: >-
-  A licensed text-and-graphics adventure built like a self-contained episode of Serling's series, with the player
-  typing verb-noun commands and stepping between first-person illustrated locations. Developed by Gigabit Systems
-  and published by First Row Software in December 1988.
+description: 'A licensed text-and-graphics adventure built like a self-contained episode of Serling''s series, with the player typing
+    verb-noun commands and stepping between first-person illustrated locations. First Row Software published it in 1988
+    for the Amiga and MS-DOS. Sources disagree about the developer: this record''s credits name Covenant Technologies, while
+    Entertainment Earth''s history of Twilight Zone collectibles names Gigabit Systems. No Atari ST version has been found.'
 details:
   platforms: Amiga, IBM PC/DOS (Atari ST not confirmed in sources seen); C64 announced but unreleased
   licensed: true
@@ -53,8 +53,11 @@ sources:
 - title: 'Elisoftware: Prime Time (Atari ST) First Row Software 1988 (First Row did publish other ST titles)'
   url: >-
     https://elisoftware.org/wiki/Prime_Time_(Atari_ST,_3_1/2%22_Disk)_First_Row_Software_-_1988_USA,_Canada_Release
+- title: 'Entertainment Earth: Twilight Zone collectibles'
+  url: https://www.entertainmentearth.com/news/twilight-zone-collectibles/
+  note: Names the 1988 PC text adventure as by Gigabit Systems (read 2026-11-24).
 research_confidence: medium
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 relevance: core
 media:
 - type: document
@@ -67,5 +70,3 @@ media:
   url: https://mocagh.org/questbusters/qbustersV5.pdf
   host: mocagh.org
   rights: link-only
-categories:
-- games/video-games
