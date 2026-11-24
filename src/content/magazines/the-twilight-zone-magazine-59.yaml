@@ -4,9 +4,13 @@ cover_date: Apr 1989
 order: 59
 publisher: TZ Publications, Inc.
 editor: Tappan King
+cover_artist: Marvin Mattelson
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60150
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/books/titles/149946/cover-rod-serlings-the-twilight-zone-magazine
+  note: 'Read 2026-11-24 for the cover credit: the catalogue''s 1989 cover-art record names "Author: Marvin Mattelson"; its page address on the same site names the April 1989 issue.'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
@@ -25,5 +29,5 @@ description: 'April 1989 issue, edited by Tappan King. Fiction: "Person to Perso
 episodes:
 - 1959/the-obsolete-man
 research_confidence: high
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

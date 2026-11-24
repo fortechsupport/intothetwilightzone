@@ -4,6 +4,7 @@ cover_date: May 1982
 order: 14
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+cover_artist: William Stoneham
 description: May 1982 issue with Peter Straub's first short story 'The General's Wife', an interview with
   Terry Gilliam, a set visit to 'Creepshow', and fiction by Connie Willis, Kit Reed, Robert Crais and
   Chet Williamson. It paired George Clayton Johnson's story 'All of Us Are Dying' with Rod Serling's teleplay
@@ -14,11 +15,14 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60190
 research_confidence: high
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/books/titles/149970/cover-rod-serlings-the-twilight-zone-magazine-may-1982
+  note: 'Read 2026-11-24 for the cover credit: the cover-art record for the May 1982 issue names "Author: William Stoneham".'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
   url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 14'
   url: https://twilightzonevortex.blogspot.com/2019/07/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true

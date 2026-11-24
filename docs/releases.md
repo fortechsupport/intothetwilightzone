@@ -3,6 +3,24 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Magazine cover artists, more first printings, three reference sites
+
+Visitors can now:
+- See who painted or photographed the cover of 17 issues of The Twilight Zone Magazine, from Jim Warren's first issue
+  (April 1981) and Magritte's "The Pleasure Principle" (May 1981) to Gahan Wilson, J. K. Potter and Gottfried Helnwein,
+  each linked to the artist's page and listed under Artwork, Cover and comic art. Eleven more issues say what their
+  cover shows (a film still, a photograph of Stephen King, a book cover reused).
+- Read where sixteen more source stories first appeared or the earliest printing we found, such as "Button, Button" in
+  Playboy (June 1970) and "The Valley Was Still" in Weird Tales (August 1939).
+- Find three more reference sites: The Classic TV Archive's episode guide and TVmaze's guide (on the 1959 series page)
+  and NightGallery.net (Read, Websites).
+- See the publication dates of the four Japanese "Mysteri Zone" volumes and the two Italian story collections.
+
+**Known not to work yet:**
+- 41 Twilight Zone Magazine issues have no cover credit: their catalogue pages name no artist.
+- 25 source stories have no date and 14 a year only; 38 books still have no publication date.
+- Comic creators are missing on 94 issues, because the Grand Comics Database cannot be read automatically.
+
 ## 2026-11-24 — The stories behind the episodes, and a tidier Read shelf
 
 Visitors can now:

@@ -13,11 +13,15 @@ description: 'February 1987 issue, edited by Tappan King. Fiction: "Nackles" by 
   for the 1985-89 CBS revival but never produced). Regular columns: In the Twilight Zone and Illuminations (Tappan
   King); Books (E. F. Bleiler); Book Notes (Jonathan White); The Other Side (Welch D. Everman); The Goulart Archipelago
   (Ron Goulart); Screen (Gahan Wilson); Video. Vol. 6 No. 6; Christmas issue printing Westlake''s original story
-  alongside Ellison''s unproduced revival teleplay.'
+  alongside Ellison''s unproduced revival teleplay. The catalogue notes that the cover art is titled "Winter Dreams";
+  the artist is not named.'
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60167
 research_confidence: high
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/publications/rod-serlings-the-twilight-zone-magazine-february-1987-60167.html
+  note: Read 2026-11-24 for the cover credit.
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Wikipedia: The Twilight Zone (1985 TV series) (references)'
@@ -26,5 +30,5 @@ sources:
     is in copyright.
 - title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
   url: https://sf-encyclopedia.com/entry/rod_serlings_the_twilight_zone_magazine
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

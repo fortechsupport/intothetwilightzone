@@ -7,6 +7,9 @@ editor: Tappan King
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60155
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/publications/rod-serlings-the-twilight-zone-magazine-april-1987-60155.html
+  note: Read 2026-11-24 for the cover credit.
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
@@ -21,7 +24,7 @@ description: 'April 1987 issue, edited by Tappan King. Fiction: "Sixth Annual TZ
   Serling by Bob Rosenbaum; Interviews with Ramsey Campbell and Charles L. Grant by Stanley Wiater and Douglas E.
   Winter. Regular columns: In the Twilight Zone (Tappan King); Books (E. F. Bleiler); Illuminations. Vol. 7 No.
   1. Contents page is cut off in OCR; last four fiction entries were found elsewhere in the issue text and may include
-  contest entries.'
+  contest entries. The catalogue notes that the cover art is titled "Devil Doll"; the artist is not named.'
 research_confidence: medium
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

@@ -4,6 +4,7 @@ cover_date: May 1981
 order: 2
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+cover_artist: René Magritte
 description: May 1981 issue with an interview with Peter Straub and fiction by Roger Zelazny, Robert Silverberg,
   Tanith Lee, Joe Haldeman, Spider Robinson, Lewis Shiner and George Clayton Johnson. It carried part
   two of Marc Scott Zicree's episode guide and reprinted Rod Serling's teleplay 'The Monsters Are Due
@@ -14,11 +15,14 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60189
 research_confidence: high
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/publications/rod-serlings-the-twilight-zone-magazine-may-1981-60189.html
+  note: 'Read 2026-11-24 for the cover credit: "Cover art, The Pleasure Principle by René Magritte" (contents page).'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 2'
   url: https://twilightzonevortex.blogspot.com/2017/07/reading-rod-serlings-twilight-zone.html
 - title: 'AuthorWars (ISFDB data): The Twilight Zone Magazine 1981 issues'
   url: https://authorwars.com/books/the-twilight-zone-magazine---1981-1005996.html
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true

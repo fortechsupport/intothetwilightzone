@@ -2,14 +2,16 @@ title: Nightmare at 20,000 Feet
 authors:
 - Richard Matheson
 kind: short-story
+first_published: '1962'
 episodes:
 - 1959/nightmare-at-20-000-feet
 - 2019/nightmare-at-30-000-feet
 description: Richard Matheson's short story, adapted as the Twilight Zone episode "Nightmare at 20,000 Feet" (1959 series)
   and "Nightmare at 30,000 Feet" (2019 series). Richard Matheson wrote the teleplay. The 2019 series remade it as "Nightmare
-  at 30,000 Feet". No source we read gives where it first appeared.
+  at 30,000 Feet". The catalogue dates it to 1962, under the title "Nightmare at Twenty Thousand Feet", but names no
+  venue for that printing. No source we read names the magazine or book it first appeared in.
 relevance: related
-research_confidence: medium
+research_confidence: high
 tags:
 - read-2026-11-24
 sources:
@@ -23,4 +25,7 @@ sources:
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2019_TV_series)
 - title: List of The Twilight Zone (2019 TV series) episodes - Wikipedia
   url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes
+- title: 'AuthorWars (ISFDb-based catalogue): Nightmare at 20,000 Feet'
+  url: https://authorwars.com/books/nightmare-at-20000-feet-64462.html
+  note: Read 2026-11-24 for where the story first appeared.
 last_verified: '2026-11-24'

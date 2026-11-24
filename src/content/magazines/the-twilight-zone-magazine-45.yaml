@@ -4,6 +4,7 @@ cover_date: Dec 1986
 order: 45
 publisher: TZ Publications, Inc.
 editor: Tappan King (editor-in-chief
+cover_artist: J. K. Potter
 description: 'December 1986 issue, edited by Tappan King (editor-in-chief. Fiction: "The Black Pumpkin" by Dean
   R. Koontz; "A Perfect Halloween Night" by Rose Rinaldi; "The Spirit of Things" by John Skipp; "Red Light" by David
   J. Schow; "Fractures" by Kim Antieau; "The Cryptogram" by Donald R. Burleson; "Hotel Hunting" by Charles Sheffield;
@@ -17,6 +18,9 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60200
 research_confidence: high
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/books/rod-serlings-the-twilight-zone-magazine-december-1986-1236509.html
+  note: 'Read 2026-11-24 for the cover credit: the cover-art record for the December 1986 issue names "Author: J. K. Potter".'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
@@ -25,7 +29,7 @@ sources:
   url: http://twilightzonevortex.blogspot.com/2012/01/rod-serlings-twilight-zone-magazine.html
 - title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
     is in copyright.
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true
 episodes:
 - 1985/her-pilgrim-soul

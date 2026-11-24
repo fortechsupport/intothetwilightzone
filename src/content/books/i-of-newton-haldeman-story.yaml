@@ -2,12 +2,14 @@ title: I of Newton
 authors:
 - Joe Haldeman
 kind: short-story
+first_published: '1970'
 episodes:
 - 1985/i-of-newton
 description: Joe Haldeman's short story, adapted as the Twilight Zone episode "I of Newton" (1985 series). Alan Brennert
-  wrote the teleplay. No source we read gives where it first appeared.
+  wrote the teleplay. The catalogue dates it to 1970 and lists the anthology Cosmic Laughter (Holt, Rinehart and Winston)
+  among its printings, without a date. No source we read names the magazine or book it first appeared in.
 relevance: related
-research_confidence: medium
+research_confidence: high
 tags:
 - read-2026-11-24
 sources:
@@ -15,4 +17,7 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
 - title: The Twilight Zone (1985) Season 1 - TheTVDB
   url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+- title: 'AuthorWars (ISFDb-based catalogue): I of Newton'
+  url: https://authorwars.com/books/i-of-newton-81295.html
+  note: Read 2026-11-24 for where the story first appeared.
 last_verified: '2026-11-24'

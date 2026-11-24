@@ -7,6 +7,9 @@ editor: Tappan King
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60204
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/publications/rod-serlings-the-twilight-zone-magazine-october-1988-60204.html
+  note: Read 2026-11-24 for the cover credit.
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
@@ -19,7 +22,8 @@ description: 'October 1988 issue, edited by Tappan King. Fiction: "The Falling M
   Features: Inside The New Horror by Philip Nutman; TZ Interview: David Lynch, by James Verniere; Reader''s Survey
   Results; Illuminations: Marina Sirtis piece by Robert Simpson. Regular columns: Editor''s Notes (Tappan King);
   Books (Edward Bryant); Video - Confessions of a Video Junkie (David W. Dow); Screen (Gahan Wilson); In the Twilight
-  Zone; Letters; TZ Screening Room. Vol. 8 No. 4. No teleplay listed. Schow serial continues next issue.'
+  Zone; Letters; TZ Screening Room. Vol. 8 No. 4. No teleplay listed. Schow serial continues next issue. The catalogue
+  notes that the cover art "first appeared on Cat in a Cradle, published by Zebra Books".'
 research_confidence: high
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

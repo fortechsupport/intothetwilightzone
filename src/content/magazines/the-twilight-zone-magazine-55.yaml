@@ -4,9 +4,13 @@ cover_date: Aug 1988
 order: 55
 publisher: TZ Publications, Inc.
 editor: Tappan King
+cover_artist: Marvin Mattelson
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60160
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/books/rod-serlings-the-twilight-zone-magazine-august-1988-1273651.html
+  note: 'Read 2026-11-24 for the cover credit: the cover-art record for the August 1988 issue names "Author: Marvin Mattleson", a misspelling of the name the catalogue gives as Marvin Mattelson elsewhere.'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
@@ -21,5 +25,5 @@ description: 'August 1988 issue, edited by Tappan King. Fiction: "Dinner with an
   Wilson); Hollywood Grapevine (Craig Miller); The Goulart Archipelago (Ron Goulart); People (James H. Burns). Vol.
   8 No. 3. No teleplay listed.'
 research_confidence: high
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

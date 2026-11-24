@@ -4,8 +4,9 @@ authors:
 kind: short-story
 episodes:
 - 1985/time-and-teresa-golowitz
-description: Parke Godwin's short story, adapted as the Twilight Zone episode "Time and Teresa Golowitz" (1985 series).
-  Alan Brennert wrote the teleplay. No source we read gives where it first appeared.
+description: 'Parke Godwin''s short story, adapted as the Twilight Zone episode "Time and Teresa Golowitz" (1985 series).
+  Alan Brennert wrote the teleplay. The earliest dated printing we found is in Rod Serling''s The Twilight Zone Magazine,
+  January 1982: the catalogue dates the story to that year but does not mark that printing as the first.'
 relevance: related
 research_confidence: medium
 tags:
@@ -15,4 +16,7 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
 - title: Influencing the Hell Out of Time and Teresa Golowitz - AuthorWars
   url: https://authorwars.com/books/titles/330491/influencing-the-hell-out-of-time-and-teresa-golowitz
+- title: 'AuthorWars (ISFDb-based catalogue): Influencing the Hell Out of Time and Teresa Golowitz'
+  url: https://authorwars.com/books/titles/64368/influencing-the-hell-out-of-time-and-teresa-golowitz
+  note: Read 2026-11-24 for where the story first appeared.
 last_verified: '2026-11-24'

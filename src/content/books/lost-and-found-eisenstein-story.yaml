@@ -4,8 +4,9 @@ authors:
 kind: short-story
 episodes:
 - 1985/lost-and-found
-description: Phyllis Eisenstein's short story, adapted as the Twilight Zone episode "Lost and Found" (1985 series). George
-  R. R. Martin wrote the teleplay. No source we read gives where it first appeared.
+description: 'Phyllis Eisenstein''s short story, adapted as the Twilight Zone episode "Lost and Found" (1985 series).
+  George R. R. Martin wrote the teleplay. The earliest dated printing we found is in Analog Science Fiction/Science Fact,
+  October 1978: the catalogue dates the story to that year but does not mark that printing as the first.'
 relevance: related
 research_confidence: medium
 tags:
@@ -15,4 +16,7 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
 - title: Phyllis Eisenstein Titles - SFADB
   url: https://sfadb.com/Phyllis_Eisenstein_Titles
+- title: 'AuthorWars (ISFDb-based catalogue): Lost and Found'
+  url: https://authorwars.com/books/lost-and-found-50070.html
+  note: Read 2026-11-24 for where the story first appeared.
 last_verified: '2026-11-24'

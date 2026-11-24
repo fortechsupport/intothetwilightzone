@@ -1,0 +1,19 @@
+title: TVmaze – The Twilight Zone (1959)
+kind: link
+subtype: database
+publisher: TVmaze
+description: Episode guide to the original series, with air dates and a synopsis for each episode.
+details:
+  status: active
+links:
+  official: https://www.tvmaze.com/shows/787/the-twilight-zone/episodeguide
+sources:
+- title: tvmaze.com, "The Twilight Zone" episode guide (read 24 November 2026)
+  url: https://www.tvmaze.com/shows/787/the-twilight-zone/episodeguide
+research_confidence: high
+relevance: related
+tags:
+- read-2026-11-24
+last_verified: '2026-11-24'
+content_of:
+- series/1959

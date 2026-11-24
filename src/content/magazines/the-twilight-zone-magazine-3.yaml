@@ -4,6 +4,7 @@ cover_date: Jun 1981
 order: 3
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+cover_artist: Darrelyn Wood
 description: June 1981 issue featuring the first appearance of Stephen King's 'The Jaunt', an interview
   with Robert Bloch, and fiction by Anthony Boucher, Phyllis Eisenstein and Alan Ryan. It ran part three
   of Marc Scott Zicree's episode guide and reprinted Rod Serling's teleplay 'The After Hours'.
@@ -13,6 +14,9 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60180
 research_confidence: high
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/publications/rod-serlings-the-twilight-zone-magazine-june-1981-60180.html
+  note: 'Read 2026-11-24 for the cover credit: "Cover by Darrelyn Wood" (contents page).'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'SFE: Rod Serling''s The Twilight Zone Magazine'
@@ -21,5 +25,5 @@ sources:
   url: https://authorwars.com/books/the-twilight-zone-magazine---1981-1005996.html
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 3'
   url: https://twilightzonevortex.blogspot.com/2017/08/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true

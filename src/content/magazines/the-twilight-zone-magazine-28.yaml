@@ -4,19 +4,22 @@ cover_date: Jan-Feb 1984
 order: 28
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
-description: January-February 1984 issue with a short story by John Carpenter ('Harlequin'), an interview
-  with Stephen King about 'Christine', an Isaac Bashevis Singer interview and reprint, and the first part
-  of David J. Schow's show-by-show guide to The Outer Limits. It reprinted Serling's teleplay 'Mirror
-  Image' and included a 1984 pull-out calendar.
+description: January-February 1984 issue with a short story by John Carpenter ('Harlequin'), an interview with Stephen
+  King about 'Christine', an Isaac Bashevis Singer interview and reprint, and the first part of David J. Schow's
+  show-by-show guide to The Outer Limits. It reprinted Serling's teleplay 'Mirror Image' and included a 1984 pull-out
+  calendar. The catalogue notes that the cover "is a still from the motion picture Stephen King's Christine".
 episodes:
 - 1959/mirror-image
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60171
 research_confidence: high
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/publications/rod-serlings-the-twilight-zone-magazine-january-february-1984-60171.html
+  note: Read 2026-11-24 for the cover credit.
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 28'
   url: https://twilightzonevortex.blogspot.com/2025/01/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true

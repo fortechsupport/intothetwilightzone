@@ -333,6 +333,8 @@ const magazines = defineCollection({
     order: z.number().optional(),
     publisher: z.string().optional(),
     editor: z.string().optional(),
+    // Who painted or drew the cover (Read plan, 2026-11-24), only as a source names them.
+    cover_artist: z.string().optional(),
     description: z.string().optional(),
     kind: z.string().optional(),
     isbn: z.string().optional(),

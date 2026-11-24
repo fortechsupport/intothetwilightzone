@@ -4,8 +4,9 @@ authors:
 kind: short-story
 episodes:
 - 1985/the-misfortune-cookie
-description: Charles E. Fritch's short story, adapted as the Twilight Zone episode "The Misfortune Cookie" (1985 series).
-  Rockne S. O'Bannon wrote the teleplay. No source we read gives where it first appeared.
+description: 'Charles E. Fritch''s short story, adapted as the Twilight Zone episode "The Misfortune Cookie" (1985 series).
+  Rockne S. O''Bannon wrote the teleplay. The earliest dated printing we found is in The Magazine of Fantasy and Science
+  Fiction, November 1970: the catalogue dates the story to that year but does not mark that printing as the first.'
 relevance: related
 research_confidence: medium
 tags:
@@ -15,4 +16,7 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
 - title: The Twilight Zone (1985) Season 1 - TheTVDB
   url: https://www.thetvdb.com/series/the-twilight-zone-1985/seasons/official/1
+- title: 'AuthorWars (ISFDb-based catalogue): The Misfortune Cookie'
+  url: https://authorwars.com/books/the-misfortune-cookie-46190.html
+  note: Read 2026-11-24 for where the story first appeared.
 last_verified: '2026-11-24'

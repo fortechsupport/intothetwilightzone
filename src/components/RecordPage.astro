@@ -31,10 +31,10 @@ const text: string | undefined = d.description ?? d.bio ?? d.notes ?? d.summary;
 const a = assess(key);
 
 const SKIP = new Set(['title', 'name', 'description', 'summary', 'notes', 'sources', 'ids', 'links', 'locked', 'tags', 'media', 'categories', 'duplicate_of', 'relevance', 'research_confidence', 'last_verified', 'details', 'episodes', 'appears_in', 'reviews', 'covers', 'featured_episodes', 'adapts_episode', 'text', 'person', 'order', 'season_order', 'volume_order', 'url']);
-const PEOPLE = new Set(['authors', 'creators', 'hosts', 'voiced_by', 'played_by', 'editor', 'artist', 'original_writer', 'adapted_by']);
+const PEOPLE = new Set(['authors', 'creators', 'hosts', 'voiced_by', 'played_by', 'editor', 'artist', 'original_writer', 'adapted_by', 'cover_artist']);
 const LABEL: Record<string, string> = {
   episode_count_as_of: 'Episode count as of',
-  series_name: 'Series', series_title: 'Series', cover_date: 'Cover date', voiced_by: 'Voices', played_by: 'Played by', original_writer: 'Original writer',
+  series_name: 'Series', series_title: 'Series', cover_date: 'Cover date', cover_artist: 'Cover art', voiced_by: 'Voices', played_by: 'Played by', original_writer: 'Original writer',
   adapted_by: 'Adapted by', volume: 'Volume (unconfirmed)', volume_released: 'Volume released', first_episode: 'First episode', episode_count: 'Episodes', published_in: 'Published in',
   review_type: 'Review type', outlet_rating: 'Rating given', tz_connection: 'Connection', isbn: 'ISBN', aka: 'Also known as',
 };

@@ -4,6 +4,7 @@ cover_date: Jul-Aug 1983
 order: 25
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+cover_artist: Joe Burleson
 description: 'July-August 1983 ''Supernatural Cats'' theme issue with H.P. Lovecraft''s essay ''Something
   About Cats'', Peter Cannon''s ''interview'' assembled from Lovecraft''s letters, a photo preview of
   Twilight Zone: The Movie, and fiction by Gahan Wilson and S. Fowler Wright. It ran part twenty-five
@@ -14,9 +15,12 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60176
 research_confidence: high
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/books/titles/149962/cover-rod-serlings-the-twilight-zone-magazine-julyaugust-1983
+  note: 'Read 2026-11-24 for the cover credit: the cover-art record for the July/August 1983 issue names "Author: Joe Burleson".'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 25'
   url: https://twilightzonevortex.blogspot.com/2021/09/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true

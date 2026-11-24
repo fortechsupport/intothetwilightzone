@@ -4,6 +4,7 @@ cover_date: Jul 1981
 order: 4
 publisher: TZ Publications, Inc.
 editor: T.E.D. Klein
+cover_artist: Linda Lippa
 description: July 1981 issue with a two-part profile of director Richard Donner and fiction by Robert
   Silverberg, Joe R. Lansdale ('The Dump'), Charles L. Grant, Stanley Schmidt, Ron Goulart and Robert
   Sheckley. Marc Scott Zicree's episode guide reached the second season (part four), and the reprinted
@@ -14,9 +15,12 @@ links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60174
 research_confidence: high
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/publications/rod-serlings-the-twilight-zone-magazine-july-1981-60174.html
+  note: 'Read 2026-11-24 for the cover credit: "Cover art by Linda Lippa" (contents page).'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'Twilight Zone Vortex: Reading Rod Serling''s The Twilight Zone Magazine, Part 4'
   url: https://twilightzonevortex.blogspot.com/2017/10/reading-rod-serlings-twilight-zone.html
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true

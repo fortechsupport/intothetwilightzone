@@ -7,6 +7,9 @@ editor: Michael Blaine
 links:
   isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60173
 sources:
+- title: 'AuthorWars (ISFDb-based catalogue): issue page'
+  url: https://authorwars.com/publications/rod-serlings-the-twilight-zone-magazine-february-1986-60173.html
+  note: Read 2026-11-24 for the cover credit.
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: Contents checked against a scanned copy of the issue (Internet Archive); not linked because the magazine
@@ -22,9 +25,10 @@ description: 'February 1986 issue, edited by Michael Blaine. Fiction: "The Fifth
   "Will the Real Martian Please Stand Up?" by Rod Serling (Will the Real Martian Please Stand Up? (original series,
   Season 2, 1961)). Regular columns: Illuminations (Peter Rondinone?); TZ Tech (Robert Edelstein); Books (Doc Kennedy);
   Screen (Gahan Wilson?); TZ Video (Welch Everman?). Vol. 5 No. 6; Stephen King issue. Contents page sets titles
-  and bylines in separate columns, so several feature/column bylines are inferred and uncertain.'
+  and bylines in separate columns, so several feature/column bylines are inferred and uncertain. The catalogue notes
+  that the cover "is a photograph of Stephen King".'
 episodes:
 - 1959/will-the-real-martian-please-stand-up
 research_confidence: medium
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true
