@@ -2,6 +2,13 @@ title: 'The Twilight Zone # 36'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 40
+creators:
+- Len Wein (writer)
+- John Celardo (pencils, inks)
+- Jack Sparling (pencils, inks)
+- Ed Robbins (pencils, inks)
+- Frank Bolle (pencils, inks, letters)
+- George Wilson (cover)
 cover_date: 1971-03
 ids:
   amazon_asin: B08SJGLV8Z
@@ -9,13 +16,16 @@ links:
   info: https://www.comics.org/issue/24091/
 research_confidence: high
 sources:
+- title: 'Heritage Auctions comic issue index (Grand Comics Database data)'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=24091
+  note: 'Read 2026-11-24 for the creator credits (cover and story pencils, inks, scripts and letters; Heritage states the data is courtesy of the Grand Comics Database under a Creative Commons licence). Credits the index marks as uncertain, left off the list: John Celardo (letters); Ed Robbins (letters).'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key), page 1'
   url: https://www.mycomicshop.com/search?TID=193921
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key) issue listing with contents'
   url: https://www.mycomicshop.com/search?TID=193921
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true
 description: 'Issue 36 of Gold Key''s licensed Twilight Zone anthology comic (March 1971). Stories: "All''s Quiet
   on the Eastern Front" (Len Wein and John Celardo); "For Love of Money" (Len Wein and Jack Sparling); "Cemetery

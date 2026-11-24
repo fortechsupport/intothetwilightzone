@@ -3,6 +3,21 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Credits for the Walker graphic novels, the Dell comics and more Gold Key issues
+
+Visitors can now:
+- See who adapted and drew each of Walker & Company's eight Twilight Zone graphic novels (2008-2009): Mark Kneece with
+  Dove McHargue, Rebekah Isaacs, Robert Grabe, Rich Ellis and Chris Lie.
+- See who wrote and drew Dell's four Twilight Zone comics (1961-1962), as identified by comics historian Martin
+  O'Hearn: Leo Dorfman's stories with art by Reed Crandall, George Evans, Mike Sekowsky and Frank Frazetta.
+- See the team behind BOOM! Studios' *Planet of the Apes: Visionaries*, drawn from Serling's unfilmed screenplay.
+- See the creators of six more Gold Key issues (#34-38 and #51), including Len Wein's scripts and Al Williamson's art.
+
+**Known not to work yet:**
+- 36 Gold Key issues (#52-56, #58-88) are still being read in paced rounds.
+- *The Midnight Sun* has no illustrator yet, and the Dan Curtis giveaway and the three Cayuga mini-comics have no
+  credits: no page read names them.
+
 ## 2026-11-24 — Article bylines finished, more Gold Key credits
 
 Visitors can now:

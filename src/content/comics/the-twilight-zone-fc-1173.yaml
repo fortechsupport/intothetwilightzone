@@ -1,6 +1,10 @@
 title: The Twilight Zone FC 1173
 series_name: The Twilight Zone
 publisher: Dell Comics
+creators:
+- 'Leo Dorfman (writer)'
+- 'Reed Crandall (artist, pencils)'
+- 'George Evans (artist, inks)'
 cover_date: May 1961
 order: 2
 links:
@@ -8,8 +12,12 @@ links:
 ids:
   amazon_asin: B004GGQKO4
 sources:
+- title: "Martin O'Hearn: Twilight Zone (Dell) Writer (9 January 2012)"
+  url: https://martinohearn.blogspot.com/2012/01/twilight-zone-dell-writer.html
+  note: 'Read 2026-11-24. Comics historian Martin O''Hearn credits the Dell issues'' stories to Leo Dorfman ("The Twilight Zone at Dell—Written by Leo Dorfman"; the one-page fillers "By an Unknown Writer") and names "the artist I see doing the most on pencils or inks" for each story: "Specter of Youth" (p: Reed Crandall, i: George Evans), "The Phantom Lighthouse" and "Doom by Prediction" (Crandall), the filler (Evans). These are identifications from the art, not printed credits. He names no artist for this cover.'
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 description: One of the four Twilight Zone comics Dell published in 1961-1962 (this one dated May 1961), before
   the packager Western Publishing moved the license to its own new Gold Key imprint. Like the later Gold Key run,
-  it carries new stories rather than adaptations of episodes.
+  it carries new stories rather than adaptations of episodes. Its creators are identifications by comics historian Martin O'Hearn (the comic printed no credits).
+last_verified: '2026-11-24'

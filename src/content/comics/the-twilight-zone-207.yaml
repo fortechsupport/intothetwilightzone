@@ -1,6 +1,10 @@
 title: The Twilight Zone 207
 series_name: The Twilight Zone
 publisher: Dell Comics
+creators:
+- 'Leo Dorfman (writer)'
+- 'Mike Sekowsky (pencils)'
+- 'Frank Giacoia (inks)'
 cover_date: May-July 1962
 order: 3
 links:
@@ -8,8 +12,12 @@ links:
 ids:
   amazon_asin: B006TM1GQU
 sources:
+- title: "Martin O'Hearn: Twilight Zone (Dell) Writer (9 January 2012)"
+  url: https://martinohearn.blogspot.com/2012/01/twilight-zone-dell-writer.html
+  note: 'Read 2026-11-24. O''Hearn lists this issue as 01-860-207 (May-July 1962), credits its stories to Leo Dorfman, and identifies the art from the page: "The Man from Nowhere" and "Beyond the Window" (p: Mike Sekowsky, i: Frank Giacoia). Left off the list: Joe Giella on "Hard-Luck Harvey", which he calls "a wild guess on my part", and the fillers'' inker ("Giacoia?"). He names no cover artist. These are identifications, not printed credits.'
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 description: One of the four Twilight Zone comics Dell published in 1961-1962 (this one dated May-July 1962), before
   the packager Western Publishing moved the license to its own new Gold Key imprint. Like the later Gold Key run,
-  it carries new stories rather than adaptations of episodes.
+  it carries new stories rather than adaptations of episodes. Its creators are identifications by comics historian Martin O'Hearn (the comic printed no credits).
+last_verified: '2026-11-24'
