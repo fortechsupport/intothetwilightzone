@@ -135,6 +135,10 @@ Foreign-language editions, Rod Serling Memorial Foundation publications, Rod Ser
   ("Helnweinn" is Gottfried Helnwein; "Mattleson" is Marvin Mattelson, as the catalogue spells him elsewhere). A cover
   credited to a firm (Zuprik-Curtis Enterprises, March/April 1984) or to film stills and studio photographs is noted in
   the issue's description, not as a person.
+- **Second pass of this round (24 November, 16:40 UTC):** an independent check re-read twelve of the new facts'
+  pages (five cover credits, four story printings, CTVA, NightGallery.net and a Bunshun date): all twelve confirmed
+  word for word. "Helnweinn" is confirmed as the catalogue's own spelling; the record uses the artist's usual spelling,
+  Gottfried Helnwein, and says so.
 
 ## Waiting on Adam
 - Nothing.
