@@ -1,13 +1,22 @@
 name: Podcast feeds
 
-# Reads every podcast's RSS feed (scripts/podcast-feeds.mjs; docs/plans/research-podcasts.md, Q3 and Q8).
-# On a pull request that touches podcasts it only reports what each feed holds, so changes can be checked.
+# Reads every podcast's RSS feed into data/podcasts/episodes.json (scripts/podcast-feeds.mjs;
+# docs/plans/research-podcasts.md, Q3 and Q8). Only facts are kept: title, date, length and link (Q9).
+#
+# - On a pull request from this repository that touches podcasts, the refreshed file is committed back to that
+#   pull request's own branch, so it is reviewed and checked with the change. (A commit made by this job does not
+#   start the job again.)
+# - Every Monday (and on demand) it reads the feeds and keeps the refreshed file as a run artifact. Publishing that
+#   weekly refresh to the site needs Adam's choice of how it reaches main (plan, "Waiting on Adam"); until then a
+#   podcast pull request picks up the new episodes.
 on:
   pull_request:
     paths:
       - 'scripts/podcast-feeds.mjs'
       - 'src/content/podcasts/**'
       - '.github/workflows/podcast-feeds.yml'
+  schedule:
+    - cron: '17 6 * * 1'
   workflow_dispatch:
 
 permissions:
@@ -17,17 +26,32 @@ jobs:
   feeds:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - run: npm ci
-      - name: Read the feeds (report only)
+      - name: Read the feeds
         run: node scripts/podcast-feeds.mjs --write
-      - name: Keep the episode list for review
+      - name: Keep the episode list as an artifact
         uses: actions/upload-artifact@v4
         with:
           name: podcast-episodes
           path: data/podcasts/episodes.json
+      - name: Commit the episode list to this pull request's branch
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          BRANCH: ${{ github.head_ref }}
+        run: |
+          git add data/podcasts/episodes.json
+          if git diff --cached --quiet; then echo "No new episodes."; exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Podcast episodes: feeds read $(date -u +%F)"
+          git push origin "HEAD:refs/heads/$BRANCH"
