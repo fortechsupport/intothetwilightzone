@@ -2,6 +2,12 @@ title: 'The Twilight Zone # 66'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 70
+creators:
+- Freff (writer)
+- Frank Bolle (pencils, inks)
+- Jose Delbo (pencils, inks)
+- Amador Garcia (pencils, inks, cover)
+- Ricardo Villamonte (pencils, inks)
 cover_date: 1975-09
 ids:
   amazon_asin: B0CGY2HWX8
@@ -9,13 +15,16 @@ links:
   info: https://www.comics.org/issue/28992/
 research_confidence: high
 sources:
+- title: 'Heritage Auctions comic issue index (Grand Comics Database data)'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=28992
+  note: Read 2026-11-24 for the creator credits (cover and story pencils, inks, scripts and letters; Heritage states the data is courtesy of the Grand Comics Database under a Creative Commons licence).
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key), page 2'
   url: https://www.mycomicshop.com/search?TID=193921&pgi=51
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key) issue listing with contents'
   url: https://www.mycomicshop.com/search?TID=193921
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true
 description: 'Issue 66 of Gold Key''s licensed Twilight Zone anthology comic (September 1975), with a painted cover
   by Amador Garcia. Stories: "Photographic Memory" (Frank Bolle); "Perchance To Dream" (Freff and Jose Delbo); "The

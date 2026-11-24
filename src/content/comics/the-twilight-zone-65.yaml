@@ -2,6 +2,14 @@ title: 'The Twilight Zone # 65'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 69
+creators:
+- Jose Luis Garcia-Lopez (pencils, inks)
+- Fred Carrillo (pencils, inks)
+- Alex Niño (pencils, inks)
+- Jose Delbo (pencils, inks)
+- Joe Certa (pencils, inks)
+- Esphid Mahilum (letters)
+- Luis Dominguez (cover)
 cover_date: 1975-08
 ids:
   amazon_asin: B0C34H9KWN
@@ -9,13 +17,16 @@ links:
   info: https://www.comics.org/issue/28881/
 research_confidence: high
 sources:
+- title: 'Heritage Auctions comic issue index (Grand Comics Database data)'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=28881
+  note: Read 2026-11-24 for the creator credits (cover and story pencils, inks, scripts and letters; Heritage states the data is courtesy of the Grand Comics Database under a Creative Commons licence).
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key), page 2'
   url: https://www.mycomicshop.com/search?TID=193921&pgi=51
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key) issue listing with contents'
   url: https://www.mycomicshop.com/search?TID=193921
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true
 description: 'Issue 65 of Gold Key''s licensed Twilight Zone anthology comic (August 1975), with a cover painted
   over a Luis Dominguez drawing. Stories: "The Unseen" (Jose Luis Garcia-Lopez); "Over My Dead Body" (Fred Carrillo);

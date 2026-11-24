@@ -2,6 +2,11 @@ title: 'The Twilight Zone # 72'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 76
+creators:
+- Bill Ziegler (pencils, inks)
+- Jack Sparling (pencils, inks)
+- Bill Spicer (letters)
+- George Wilson (cover)
 cover_date: 1976-08
 ids:
   amazon_asin: B077X1B2R8
@@ -9,13 +14,16 @@ links:
   info: https://www.comics.org/issue/30100/
 research_confidence: high
 sources:
+- title: 'Heritage Auctions comic issue index (Grand Comics Database data)'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=30100
+  note: Read 2026-11-24 for the creator credits (cover and story pencils, inks, scripts and letters; Heritage states the data is courtesy of the Grand Comics Database under a Creative Commons licence).
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key), page 2'
   url: https://www.mycomicshop.com/search?TID=193921&pgi=51
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key) issue listing with contents'
   url: https://www.mycomicshop.com/search?TID=193921
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true
 description: 'Issue 72 of Gold Key''s licensed Twilight Zone anthology comic (August 1976). Stories: "Cave of the
   Time-Mists" (Bill Ziegler); "Your Daily Horror-Scope" (Jack Sparling); "Sorry, The President Cannot See You Today"
