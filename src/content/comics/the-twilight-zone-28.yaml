@@ -2,6 +2,14 @@ title: 'The Twilight Zone # 28'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 32
+creators:
+- Giovanni Ticci (pencils)
+- Mel Crawford (pencils, inks)
+- Sal Trapani (pencils, inks)
+- Luis Dominguez (pencils, inks)
+- Alberto Giolitti (inks)
+- Ben Oda (letters)
+- George Wilson (cover)
 cover_date: 1969-03
 ids:
   amazon_asin: B005YD9LHQ
@@ -9,13 +17,16 @@ links:
   info: https://www.comics.org/issue/22586/
 research_confidence: high
 sources:
+- title: 'Heritage Auctions comic issue index (Grand Comics Database data)'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=22586
+  note: Read 2026-11-24 for the creator credits (cover and story pencils, inks, scripts and letters; Heritage states the data is courtesy of the Grand Comics Database under a Creative Commons licence).
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key), page 1'
   url: https://www.mycomicshop.com/search?TID=193921
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key) issue listing with contents'
   url: https://www.mycomicshop.com/search?TID=193921
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true
 description: 'Issue 28 of Gold Key''s licensed Twilight Zone anthology comic (March 1969), with a painted cover
   by George Wilson. Stories: "The Lost Colonie" (Giovanni Ticci and Alberto Giolitti); "Strange Visit At Sea" (Sal

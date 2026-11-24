@@ -1,5 +1,8 @@
 title: '''The Twilight Zone'' host and creator plagued by PTSD from WWII but not a broken man, authors say'
+authors:
+- 'Stephanie Nolasco'
 published_in: Fox News
+published: '2024-12-25'
 kind: article
 description: Interview-based article with Serling biographers on how his war trauma shaped his work without defining
   him.
@@ -9,5 +12,6 @@ research_confidence: medium
 sources:
 - title: Fox News
   url: https://foxnews.com/entertainment/the-twilight-zone-host-creator-plagued-ptsd-wwii-not-broken-man-authors.print
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: "By Stephanie Nolasco", "Published December 25, 2024".'
+last_verified: '2026-11-24'
 locked: true

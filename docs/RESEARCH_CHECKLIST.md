@@ -197,7 +197,7 @@ Plan: docs/plans/research-podcasts.md (approved by Adam 2026-11-24, Q1 to Q9 as 
 Read is one category ("Reading") with format subcategories plus six topic collections.
 
 - [x] **Books and Scripts:** Content plan · Researched · Records decided · Pages built (docs/plans/research-read.md, PRs #81 and the cover/stories round)
-- [x] **Comics:** Content plan · Researched · Records decided · Pages built (creators on 122 issues; the rest being read from Heritage's copy of the GCD credits)
+- [x] **Comics:** Content plan · Researched · Records decided · Pages built (creators on 128 issues; the rest being read from Heritage's copy of the GCD credits)
 - [x] **Magazines:** Content plan · Researched · Records decided · Pages built (cover art on 40 Twilight Zone Magazine issues, described on 12 more)
 - [x] **Articles, Essays and scholarship, Websites:** Content plan · Researched · Records decided · Pages built (20 reviews published; 3 websites added)
 

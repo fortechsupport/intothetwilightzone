@@ -1,4 +1,6 @@
 title: 'Rod Serling''s Night Gallery: The Art of Darkness (book review)'
+authors:
+- 'Thomas Parker'
 published_in: Black Gate
 published: '2021-04-11'
 kind: review
@@ -12,5 +14,6 @@ research_confidence: high
 sources:
 - title: Black Gate
   url: https://www.blackgate.com/2021/04/11/rod-serlings-night-gallery-the-art-of-darkness/
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: byline Thomas Parker, dated Sunday, April 11, 2021.'
+last_verified: '2026-11-24'
 locked: true

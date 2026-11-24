@@ -1,4 +1,6 @@
 title: The Twilight Zone from A to Z
+authors:
+- 'J. W. McCormack'
 published_in: The New York Review of Books (NYR Daily)
 published: '2018-02-18'
 kind: article
@@ -9,5 +11,6 @@ research_confidence: medium
 sources:
 - title: The New York Review of Books
   url: https://www.nybooks.com/daily/2018/02/18/the-twilight-zone-from-a-to-z/
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: byline J. W. McCormack, dated February 18, 2018.'
+last_verified: '2026-11-24'
 locked: true

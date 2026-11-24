@@ -3,6 +3,23 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Article bylines finished, more Gold Key credits
+
+Visitors can now:
+- Read the author and date of 52 more articles, essays and interviews (111 in this pass, every article with a page of
+  its own), from J. W. McCormack's "The Twilight Zone from A to Z" (New York Review of Books) to Arlen Schumer's essay
+  on "Where Is Everybody?" (Den of Geek).
+- See where the Rod Serling Memorial Foundation's reprints first appeared, such as Christopher Conlon's essays in
+  Filmfax and Simian Scrolls and Gene Grey's 1994 Binghamton Press & Sun-Bulletin article.
+- See the creators of six more Gold Key Twilight Zone issues (#28-33, 34 in all), including George Evans, Jose Delbo,
+  Mike Sekowsky and Frank Bolle.
+
+**Known not to work yet:**
+- 60 comics have no creators yet; the Gold Key issues are still being read in paced rounds.
+- 84 articles have no author and 35 no date: their pages name none, or the site refuses automated reading (the plan
+  lists each reason).
+- 31 books still have no date.
+
 ## 2026-11-24 — More Gold Key credits and article bylines
 
 Visitors can now:

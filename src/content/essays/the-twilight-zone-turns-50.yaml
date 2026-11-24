@@ -1,4 +1,6 @@
 title: The Twilight Zone Turns 50
+authors:
+- 'Matt Blum'
 published_in: GeekDad (Wired)
 published: 2009-10
 kind: article
@@ -11,5 +13,6 @@ research_confidence: medium
 sources:
 - title: GeekDad (Wired)
   url: https://geekdad.com/2009/10/the-twilight-zone-turns-50/
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: byline Matt Blum, dated October 2, 2009.'
+last_verified: '2026-11-24'
 locked: true

@@ -11,9 +11,12 @@ categories:
 - reading/serling-foundation-papers
 research_confidence: medium
 sources:
+- title: 'Filmfax: the article page'
+  url: https://rodserling.com/del-reisman-article-in-filmfax/
+  note: 'Read 2026-11-24 for the byline and date: the Foundation''s page, posted August 27th, 2008 and introduced "by Tony Albarella", shows the Filmfax article as scanned page images, so the magazine issue and date could not be read as text.'
 - title: Articles - Rod Serling Memorial Foundation
   url: https://rodserling.com/articles-2
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true
 organizations:
 - Rod Serling Memorial Foundation
