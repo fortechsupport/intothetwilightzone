@@ -7,6 +7,9 @@ runtime_min: 25
 production_code: '4806'
 writers:
 - Charles Beaumont
+writing_credit_note: 'Teleplay by Charles Beaumont; based on his short story "The Jungle"'
+source_authors:
+- Charles Beaumont
 directors:
 - William F. Claxton
 cast:
@@ -27,6 +30,9 @@ ids:
 links:
   wikipedia: https://en.wikipedia.org/wiki/The_Jungle_(The_Twilight_Zone)
 sources:
+- title: 'Wikipedia: The Jungle (The Twilight Zone)'
+  url: https://en.wikipedia.org/wiki/The_Jungle_(The_Twilight_Zone)
+  note: Read 2026-11-24 for the source story.
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 - title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror

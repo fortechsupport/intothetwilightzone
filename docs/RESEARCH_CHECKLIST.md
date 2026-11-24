@@ -54,9 +54,9 @@ first because everything else links to it.
 | 1 | **Watch: TV series and episodes** (incl. Night Gallery and Serling's other TV) | The core every other page links to. The Twilight Zone series are complete, but Serling's other television is thin (22 of the 200+ teleplays he sold), and Night Gallery segments have no pages of their own. |
 | 2 | Watch: Movies | 200 of the 555 work-to-episode links are "fan-noted" only, and most sit here. Documentaries and unmade projects are small. |
 | 3 | Listen: Radio | Already deep; a short pass that adds Serling's own radio career (5 records today). |
-| 4 | Read: Books and Scripts | The stories the episodes adapt have no records of their own; novelizations, editions and translations are partial. |
-| 5 | Read: Comics and Magazines | Already deep; a quick verification pass and cover-art links. |
-| 6 | Read: Articles, Essays and Websites | Articles and websites are partial to thin. |
+| 4 | Read: Books and Scripts | Done 2026-11-24 (docs/plans/research-read.md): 99 stories behind the episodes, every book on one shelf with a group, Serling's own books in his collection. |
+| 5 | Read: Comics and Magazines | Checked 2026-11-24 (docs/plans/research-read.md); see its "Not possible, and why" for cover artists and comic credits. |
+| 6 | Read: Articles, Essays and Websites | Done 2026-11-24 (docs/plans/research-read.md): 20 reviews decided; websites expanded. |
 | 7 | Listen: Music | Done 2026-11-24: six shelves, music on 34 episode pages. 54 songs still "not yet confirmed". |
 | 8 | Listen: Podcasts | Done 2026-11-24: three shelves (no official podcast found), 3,323 episodes in one searchable table. |
 | 9 | Watch: Stage | Done 2026-11-24: five shelves and the play page. |

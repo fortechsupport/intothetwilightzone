@@ -155,6 +155,42 @@
   "subcategory": "Biography and memoir",
   "sort": "heart at fires center the life and music of bernard herrmann"
  },
+ "books/a-message-from-charity-lee-story": {
+  "connection": "William M. Lee's short story, adapted as the Twilight Zone episode \"A Message from Charity\" (1985 series). Covers “A Message from Charity” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "A Message from Charity",
+  "subcategory": "Other books",
+  "sort": "message from charity"
+ },
+ "books/a-question-of-fear-lewis-story": {
+  "connection": "Bryan Lewis's story, adapted as the Night Gallery segment \"A Question of Fear\" (season 2, episode 6). Teleplay by Theodore J. Flicker. Covers films/night-gallery-s2e06.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "A Question of Fear",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "question of fear"
+ },
+ "books/a-saucer-of-loneliness-sturgeon-story": {
+  "connection": "Theodore Sturgeon's short story, adapted as the Twilight Zone episode \"A Saucer of Loneliness\" (1985 series). Covers “A Saucer of Loneliness” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "A Saucer of Loneliness",
+  "subcategory": "Other books",
+  "sort": "saucer of loneliness"
+ },
  "books/a-stir-of-echoes": {
   "connection": "A man hypnotized at a party starts sensing the thoughts and ghosts around him; filmed in 1999.",
   "tier": "related",
@@ -212,7 +248,7 @@
   "source_title": "AuthorWars",
   "source_url": "https://authorwars.com/publications/ai-confini-della-realta-i-racconti-originali-primo-volume-932706.html",
   "title": "Ai confini della realtà: I racconti originali - Primo volume",
-  "subcategory": "Other books",
+  "subcategory": "Story anthologies",
   "sort": "ai confini della realt i racconti originali  primo volume"
  },
  "books/ai-confini-della-realta-i-racconti-originali-secondo-volume": {
@@ -224,7 +260,7 @@
   "source_title": "AuthorWars",
   "source_url": "https://authorwars.com/publications/ai-confini-della-realta-i-racconti-originali-secondo-volume-1015055.html",
   "title": "Ai confini della realtà: I racconti originali - Secondo volume",
-  "subcategory": "Other books",
+  "subcategory": "Story anthologies",
   "sort": "ai confini della realt i racconti originali  secondo volume"
  },
  "books/all-of-us-are-dying-and-other-stories": {
@@ -238,6 +274,42 @@
   "title": "All of Us Are Dying and Other Stories",
   "subcategory": "Story anthologies",
   "sort": "all of us are dying and other stories"
+ },
+ "books/all-of-us-are-dying-johnson-story": {
+  "connection": "George Clayton Johnson's short story, adapted as the Twilight Zone episode \"The Four of Us Are Dying\" (1959 series). Covers “The Four of Us Are Dying” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)",
+  "title": "All of Us Are Dying",
+  "subcategory": "Other books",
+  "sort": "all of us are dying"
+ },
+ "books/an-occurrence-at-owl-creek-bridge-bierce-story": {
+  "connection": "Ambrose Bierce's short story, adapted as the Twilight Zone episode \"An Occurrence at Owl Creek Bridge\" (1959 series). Covers “An Occurrence at Owl Creek Bridge” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 5) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)",
+  "title": "An Occurrence at Owl Creek Bridge",
+  "subcategory": "Other books",
+  "sort": "occurrence at owl creek bridge"
+ },
+ "books/and-now-im-waiting-matheson-story": {
+  "connection": "Richard Matheson's short story, adapted as the Twilight Zone episode \"A World of His Own\" (1959 series). Covers “A World of His Own” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)",
+  "title": "And Now I'm Waiting",
+  "subcategory": "Other books",
+  "sort": "and now im waiting"
  },
  "books/as-i-knew-him-my-dad-rod-serling": {
   "connection": "Anne Serling's memoir of growing up with her father, mixing family recollections with her grief after his death in 1975 and an account of his career.",
@@ -431,6 +503,18 @@
   "subcategory": "Rod Serling and Night Gallery",
   "sort": "bid time return"
  },
+ "books/big-surprise-matheson-story": {
+  "connection": "Richard Matheson's story, adapted as the Night Gallery segment \"Big Surprise\" (season 2, episode 8). Teleplay by Richard Matheson. Covers films/night-gallery-s2e08.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Big Surprise",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "big surprise"
+ },
  "books/bill-idelsons-writing-class": {
   "connection": "TV-writing guide by Bill Idelson, who co-wrote the original-series episode \"Long Distance Call\" with Charles Beaumont; listed by the Twilight Zone Museum.",
   "tier": "tangential",
@@ -442,6 +526,90 @@
   "title": "Bill Idelson's Writing Class",
   "subcategory": "Guides and reference",
   "sort": "bill idelsons writing class"
+ },
+ "books/blind-alley-jameson-story": {
+  "connection": "Malcolm Jameson's short story, adapted as the Twilight Zone episode \"Of Late I Think of Cliffordville\" (1959 series). Covers “Of Late I Think of Cliffordville” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 4) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_4)",
+  "title": "Blind Alley",
+  "subcategory": "Other books",
+  "sort": "blind alley"
+ },
+ "books/boomerang-cook-story": {
+  "connection": "Oscar Cook's story, adapted as the Night Gallery segment \"The Caterpillar\" (season 2, episode 22). Covers films/night-gallery-s2e22.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Boomerang",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "boomerang"
+ },
+ "books/brenda-st-clair-story": {
+  "connection": "Margaret St. Clair's story, adapted as the Night Gallery segment \"Brenda\" (season 2, episode 7). Teleplay by Douglas Heyes. Covers films/night-gallery-s2e07.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Brenda",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "brenda"
+ },
+ "books/brothers-beyond-the-void-fairman-story": {
+  "connection": "Paul W. Fairman's short story, adapted as the Twilight Zone episode \"People Are Alike All Over\" (1959 series). Covers “People Are Alike All Over” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)",
+  "title": "Brothers Beyond the Void",
+  "subcategory": "Other books",
+  "sort": "brothers beyond the void"
+ },
+ "books/button-button-matheson-story": {
+  "connection": "Richard Matheson's short story, adapted as the Twilight Zone episode \"Button, Button\" (1985 series). Covers “Button, Button” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Button, Button",
+  "subcategory": "Other books",
+  "sort": "button button"
+ },
+ "books/by-one-by-two-and-by-three-hall-story": {
+  "connection": "Stephen Hall's story, adapted as the Night Gallery segment \"There Aren't Any More MacBanes\" (season 2, episode 20). Covers films/night-gallery-s2e20.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "By One, By Two and By Three",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "by one by two and by three"
+ },
+ "books/camera-obscura-copper-story": {
+  "connection": "Basil Copper's story, adapted as the Night Gallery segment \"Camera Obscura\" (season 2, episode 12). Covers films/night-gallery-s2e12.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Camera Obscura",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "camera obscura"
  },
  "books/charles-beaumont-selected-stories-the-howling-man": {
   "connection": "Large retrospective of Beaumont's stories edited by Roger Anker, each introduced by a friend or colleague such as Ray Bradbury, Richard Matheson, Harlan Ellison and Robert Bloch. Covers “The Howling Man” (1959), “Perchance to Dream” (1959) and “The Jungle” (1959).",
@@ -479,6 +647,42 @@
   "subcategory": "Biography and memoir",
   "sort": "cloris my autobiography"
  },
+ "books/cool-air-lovecraft-story": {
+  "connection": "H. P. Lovecraft's story, adapted as the Night Gallery segment \"Cool Air\" (season 2, episode 12). Covers films/night-gallery-s2e12.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Cool Air",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "cool air"
+ },
+ "books/dead-run-bear-story": {
+  "connection": "Greg Bear's short story, adapted as the Twilight Zone episode \"Dead Run\" (1985 series). Covers “Dead Run” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Dead Run",
+  "subcategory": "Other books",
+  "sort": "dead run"
+ },
+ "books/death-ship-matheson-story": {
+  "connection": "Richard Matheson's short story, adapted as the Twilight Zone episode \"Death Ship\" (1959 series). Covers “Death Ship” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 4) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_4)",
+  "title": "Death Ship",
+  "subcategory": "Other books",
+  "sort": "death ship"
+ },
  "books/diary-of-a-nerd-volume-3-diary-of-super-hero-the-twilight-zone": {
   "connection": "A children's book in Philip Osbourne's Diary of a Nerd series whose subtitle borrows the phrase \"The Twilight Zone\".",
   "tier": "tangential",
@@ -488,7 +692,7 @@
   "source_title": "",
   "source_url": "",
   "title": "Diary of a Nerd(Volume 3):Diary of Super Hero:The Twilight Zone",
-  "subcategory": "Other books",
+  "subcategory": "Young readers",
   "sort": "diary of a nerdvolume 000003diary of super herothe twilight zone"
  },
  "books/did-you-grow-up-with-me-too-the-autobiography-of-june-foray": {
@@ -527,6 +731,18 @@
   "subcategory": "Biography and memoir",
   "sort": "directing television"
  },
+ "books/disappearing-act-matheson-story": {
+  "connection": "Richard Matheson's short story, adapted as the Twilight Zone episode \"And When the Sky Was Opened\" (1959 series). Covers “And When the Sky Was Opened” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)",
+  "title": "Disappearing Act",
+  "subcategory": "Other books",
+  "sort": "disappearing act"
+ },
  "books/earl-hamner-from-waltons-mountain-to-tomorrow": {
   "connection": "Biography of Earl Hamner Jr., author of eight Twilight Zone episodes before he created The Waltons.",
   "tier": "related",
@@ -538,6 +754,18 @@
   "title": "Earl Hamner: From Walton's Mountain to Tomorrow",
   "subcategory": "Biography and memoir",
   "sort": "earl hamner from waltons mountain to tomorrow"
+ },
+ "books/elegy-beaumont-story": {
+  "connection": "Charles Beaumont's short story, adapted as the Twilight Zone episode \"Elegy\" (1959 series). Covers “Elegy” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)",
+  "title": "Elegy",
+  "subcategory": "Other books",
+  "sort": "elegy"
  },
  "books/everything-i-need-to-know-i-learned-in-the-twilight-zone": {
   "connection": "A light, essay-style book by the TV critic Mark Dawidziak that draws life lessons from individual episodes of the original series.",
@@ -551,6 +779,18 @@
   "subcategory": "Other books",
   "sort": "everything i need to know i learned in the twilight zone"
  },
+ "books/examination-day-slesar-story": {
+  "connection": "Henry Slesar's short story, adapted as the Twilight Zone episode \"Examination Day\" (1985 series). Covers “Examination Day” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Examination Day",
+  "subcategory": "Other books",
+  "sort": "examination day"
+ },
  "books/fahrenheit-451": {
   "connection": "Dystopian novel about a fireman who burns books; filmed by François Truffaut (1966) and HBO (2018).",
   "tier": "related",
@@ -562,6 +802,18 @@
   "title": "Fahrenheit 451",
   "subcategory": "Rod Serling and Night Gallery",
   "sort": "fahrenheit 000451"
+ },
+ "books/famous-ghost-stories-cerf-story": {
+  "connection": "The book by Bennett Cerf that holds the anecdote Rod Serling adapted as the Twilight Zone episode \"Twenty-Two\" (1959 series), as the episode's credit records. Covers “Twenty-Two” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 2) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_2)",
+  "title": "Famous Ghost Stories",
+  "subcategory": "Other books",
+  "sort": "famous ghost stories"
  },
  "books/fly-by-night-the-secret-story-of-steven-spielberg-warner-bros-and-the-twilight-zone-deaths": {
   "connection": "An investigative account of the 1982 helicopter accident on the set of Twilight Zone: The Movie that killed Vic Morrow and two children, focusing on the roles of the studio and producers and on the trial that followed.",
@@ -598,6 +850,18 @@
   "title": "Forgotten Gems from The Twilight Zone Volume 2",
   "subcategory": "Scripts and teleplays",
   "sort": "forgotten gems from the twilight zone volume 000002"
+ },
+ "books/four-oclock-day-story": {
+  "connection": "Price Day's short story, adapted as the Twilight Zone episode \"Four O'Clock\" (1959 series). Covers “Four O'Clock” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)",
+  "title": "Four O'Clock",
+  "subcategory": "Other books",
+  "sort": "four oclock"
  },
  "books/from-the-twilight-zone": {
   "connection": "A hardcover book-club omnibus drawing together the stories from Serling's three Bantam paperbacks.",
@@ -647,6 +911,18 @@
   "subcategory": "Other books",
   "sort": "god in the twilight zone spiritual lessons from the fifth dimension"
  },
+ "books/gramma-king-story": {
+  "connection": "Stephen King's short story, adapted as the Twilight Zone episode \"Gramma\" (1985 series). Covers “Gramma” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Gramma",
+  "subcategory": "Other books",
+  "sort": "gramma"
+ },
  "books/great-stories-from-rod-serlings-the-twilight-zone-magazine": {
   "connection": "Large-format paperback anthology collecting fiction first printed in Rod Serling's The Twilight Zone Magazine, assembled under editor T. E. D. Klein.",
   "tier": "core",
@@ -671,6 +947,18 @@
   "subcategory": "Rod Serling and Night Gallery",
   "sort": "hell house"
  },
+ "books/housebound-chetwynd-hayes-story": {
+  "connection": "R. Chetwynd-Hayes's story, adapted as the Night Gallery segment \"Something in the Woodwork\" (season 3, episode 11). Covers films/night-gallery-s3e11.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Housebound",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "housebound"
+ },
  "books/i-am-legend-novel": {
   "connection": "Matheson's novel about the last man alive in a world of vampires, filmed as The Last Man on Earth (1964), The Omega Man (1971) and I Am Legend (2007).",
   "tier": "related",
@@ -683,6 +971,30 @@
   "subcategory": "Rod Serling and Night Gallery",
   "sort": "i am legend"
  },
+ "books/i-of-newton-haldeman-story": {
+  "connection": "Joe Haldeman's short story, adapted as the Twilight Zone episode \"I of Newton\" (1985 series). Covers “I of Newton” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "I of Newton",
+  "subcategory": "Other books",
+  "sort": "i of newton"
+ },
+ "books/ill-never-leave-you-ever-morris-story": {
+  "connection": "Rene Morris's story, adapted as the Night Gallery segment \"I'll Never Leave You – Ever\" (season 2, episode 20). Covers films/night-gallery-s2e20.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "I'll Never Leave You – Ever",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "ill never leave you  ever"
+ },
  "books/in-the-zone-the-twilight-world-of-rod-serling": {
   "connection": "A critical study of Serling's writing for television, centered on The Twilight Zone and its recurring themes.",
   "tier": "core",
@@ -694,6 +1006,18 @@
   "title": "In the Zone: The Twilight World of Rod Serling",
   "subcategory": "Scholarship and criticism",
   "sort": "in the zone the twilight world of rod serling"
+ },
+ "books/influencing-the-hell-out-of-time-and-teresa-golowitz-godwin-story": {
+  "connection": "Parke Godwin's short story, adapted as the Twilight Zone episode \"Time and Teresa Golowitz\" (1985 series). Covers “Time and Teresa Golowitz” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Influencing the Hell Out of Time and Teresa Golowitz",
+  "subcategory": "Other books",
+  "sort": "influencing the hell out of time and teresa golowitz"
  },
  "books/into-the-twilight-zone": {
   "connection": "Into the Twilight Zone, by Rod Serling.",
@@ -730,6 +1054,18 @@
   "title": "Irony in the Twilight Zone: How the Series Critiqued Postwar American Culture",
   "subcategory": "Scholarship and criticism",
   "sort": "irony in the twilight zone how the series critiqued postwar american culture"
+ },
+ "books/its-a-good-life-bixby-story": {
+  "connection": "Jerome Bixby's short story, adapted as the Twilight Zone episode \"It's a Good Life\" (1959 series) and \"It's Still a Good Life\" (2002 series). Covers “It's a Good Life” (1959) and “It's Still a Good Life” (2002).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)",
+  "title": "It's a Good Life",
+  "subcategory": "Other books",
+  "sort": "its a good life"
  },
  "books/ive-met-all-my-heroes-from-a-to-z": {
   "connection": "Memoir by actor Ron Masak, included in the Twilight Zone Museum's list of books by people connected to the series.",
@@ -791,6 +1127,30 @@
   "subcategory": "Biography and memoir",
   "sort": "last stop the twilight zone the biography of rod serling"
  },
+ "books/little-girl-lost-matheson-story": {
+  "connection": "Richard Matheson's short story, adapted as the Twilight Zone episode \"Little Girl Lost\" (1959 series). Covers “Little Girl Lost” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Little Girl Lost (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Little_Girl_Lost_(The_Twilight_Zone)",
+  "title": "Little Girl Lost",
+  "subcategory": "Other books",
+  "sort": "little girl lost"
+ },
+ "books/little-girl-lost-tubb-story": {
+  "connection": "E. C. Tubb's story, adapted as the Night Gallery segment \"Little Girl Lost\" (season 2, episode 22). Covers films/night-gallery-s2e22.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Little Girl Lost",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "little girl lost"
+ },
  "books/logans-run-novel": {
   "connection": "A dystopia where no one may live past 21 (30 in the 1976 film); co-written by Twilight Zone writer George Clayton Johnson.",
   "tier": "related",
@@ -802,6 +1162,42 @@
   "title": "Logan's Run",
   "subcategory": "Novels",
   "sort": "logans run"
+ },
+ "books/logodas-heads-derleth-story": {
+  "connection": "August Derleth's story, adapted as the Night Gallery segment \"Logoda's Heads\" (season 2, episode 14). Covers films/night-gallery-s2e14.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Logoda's Heads",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "logodas heads"
+ },
+ "books/lost-and-found-eisenstein-story": {
+  "connection": "Phyllis Eisenstein's short story, adapted as the Twilight Zone episode \"Lost and Found\" (1985 series). Covers “Lost and Found” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Lost and Found",
+  "subcategory": "Other books",
+  "sort": "lost and found"
+ },
+ "books/marmalade-wine-aiken-story": {
+  "connection": "Joan Aiken's story, adapted as the Night Gallery segment \"Marmalade Wine\" (season 2, episode 4). Teleplay by Jerrold Freedman. Covers films/night-gallery-s2e04.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Marmalade Wine",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "marmalade wine"
  },
  "books/memo-to-the-twilight-zone-personal-reflections-on-all-five-seasons": {
   "connection": "Ken Ardizzone's personal essays on every season of the original series.",
@@ -851,6 +1247,18 @@
   "subcategory": "Story anthologies",
   "sort": "more stories from the twilight zone"
  },
+ "books/mute-matheson-story": {
+  "connection": "Richard Matheson's short story, adapted as the Twilight Zone episode \"Mute\" (1959 series). Covers “Mute” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 4) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_4)",
+  "title": "Mute",
+  "subcategory": "Other books",
+  "sort": "mute"
+ },
  "books/my-life-in-outer-space": {
   "connection": "Memoir by actress Gloria Pall, a minor Twilight Zone performer, from the Twilight Zone Museum's list of related books.",
   "tier": "tangential",
@@ -884,7 +1292,7 @@
   "source_title": "Bunshun book page",
   "source_url": "https://books.bunshun.jp/ud/book/num/9784167275235",
   "title": "ミステリーゾーン (Mysterī Zōn) 1",
-  "subcategory": "Other books",
+  "subcategory": "Story anthologies",
   "sort": "myster zn 000001"
  },
  "books/mysteri-zon-2": {
@@ -896,7 +1304,7 @@
   "source_title": "Bunshun book page",
   "source_url": "https://books.bunshun.jp/ud/book/num/9784167275617",
   "title": "ミステリーゾーン (Mysterī Zōn) 2",
-  "subcategory": "Other books",
+  "subcategory": "Story anthologies",
   "sort": "myster zn 000002"
  },
  "books/mysteri-zon-3": {
@@ -908,7 +1316,7 @@
   "source_title": "Bunshun book page",
   "source_url": "https://books.bunshun.jp/ud/book/num/9784167275952",
   "title": "ミステリーゾーン (Mysterī Zōn) 3",
-  "subcategory": "Other books",
+  "subcategory": "Story anthologies",
   "sort": "myster zn 000003"
  },
  "books/mysteri-zon-4": {
@@ -920,7 +1328,7 @@
   "source_title": "Bunshun book page",
   "source_url": "https://books.bunshun.jp/ud/book/num/9784167309350",
   "title": "ミステリーゾーン (Mysterī Zōn) 4",
-  "subcategory": "Other books",
+  "subcategory": "Story anthologies",
   "sort": "myster zn 000004"
  },
  "books/new-stories-from-the-twilight-zone": {
@@ -959,6 +1367,18 @@
   "subcategory": "Rod Serling and Night Gallery",
   "sort": "night gallery the series"
  },
+ "books/nightcrawlers-mccammon-story": {
+  "connection": "Robert R. McCammon's short story, adapted as the Twilight Zone episode \"Nightcrawlers\" (1985 series). Covers “Nightcrawlers” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Nightcrawlers",
+  "subcategory": "Other books",
+  "sort": "nightcrawlers"
+ },
  "books/nightmare-at-20-000-feet-horror-stories-by-richard-matheson": {
   "connection": "Matheson's own selection of more than twenty of his horror stories, titled after the tale he adapted into the famous Twilight Zone episode about a gremlin on an airliner wing; also includes \"Duel\" and \"Prey\".",
   "tier": "related",
@@ -970,6 +1390,18 @@
   "title": "Nightmare at 20,000 Feet: Horror Stories by Richard Matheson",
   "subcategory": "Story anthologies",
   "sort": "nightmare at 000020000000 feet horror stories by richard matheson"
+ },
+ "books/nightmare-at-20-000-feet-matheson-story": {
+  "connection": "Richard Matheson's short story, adapted as the Twilight Zone episode \"Nightmare at 20,000 Feet\" (1959 series) and \"Nightmare at 30,000 Feet\" (2019 series). Covers “Nightmare at 20,000 Feet” (1959) and “Nightmare at 30,000 Feet” (2019).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 5) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)",
+  "title": "Nightmare at 20,000 Feet",
+  "subcategory": "Other books",
+  "sort": "nightmare at 000020000000 feet"
  },
  "books/no-retakes": {
   "connection": "Memoir of live-television acting by Wright King, who appeared in Twilight Zone episodes; included in the Twilight Zone Museum's books list.",
@@ -1007,6 +1439,30 @@
   "subcategory": "Biography and memoir",
   "sort": "once around the bloch an unauthorized autobiography"
  },
+ "books/one-life-furnished-in-early-poverty-ellison-story": {
+  "connection": "Harlan Ellison's short story, adapted as the Twilight Zone episode \"One Life, Furnished in Early Poverty\" (1985 series). Covers “One Life, Furnished in Early Poverty” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "One Life, Furnished in Early Poverty",
+  "subcategory": "Other books",
+  "sort": "one life furnished in early poverty"
+ },
+ "books/out-of-the-country-scott-story": {
+  "connection": "Jeffry Scott's story, adapted as the Night Gallery segment \"Dead Weight\" (season 2, episode 19). Covers films/night-gallery-s2e19.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Out of the Country",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "out of the country"
+ },
  "books/outrageous-conduct-art-ego-and-the-twilight-zone-case": {
   "connection": "Investigative account of the 1982 helicopter accident on the set of Twilight Zone: The Movie that killed Vic Morrow and two child actors, and of the manslaughter trial of director John Landis and others.",
   "tier": "core",
@@ -1019,6 +1475,18 @@
   "subcategory": "Other books",
   "sort": "outrageous conduct art ego and the twilight zone case"
  },
+ "books/paladin-of-the-lost-hour-ellison-story": {
+  "connection": "Harlan Ellison's short story, adapted as the Twilight Zone episode \"Paladin of the Lost Hour\" (1985 series). Covers “Paladin of the Lost Hour” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Paladin of the Lost Hour",
+  "subcategory": "Other books",
+  "sort": "paladin of the lost hour"
+ },
  "books/patterns-four-television-plays-with-the-authors-personal-commentaries": {
   "connection": "Rod Serling's 1957 collection of four of his live-television plays (Patterns, The Rack, Old MacDonald Had a Curve and Requiem for a Heavyweight), with his own commentary on writing for television.",
   "tier": "related",
@@ -1028,8 +1496,20 @@
   "source_title": "",
   "source_url": "",
   "title": "Patterns: Four Television Plays with the Author's Personal Commentaries",
-  "subcategory": "Scholarship and criticism",
+  "subcategory": "Scripts and teleplays",
   "sort": "patterns four television plays with the authors personal commentaries"
+ },
+ "books/perchance-to-dream-beaumont-story": {
+  "connection": "Charles Beaumont's short story, adapted as the Twilight Zone episode \"Perchance to Dream\" (1959 series). Covers “Perchance to Dream” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)",
+  "title": "Perchance to Dream",
+  "subcategory": "Other books",
+  "sort": "perchance to dream"
  },
  "books/perchance-to-dream-selected-stories": {
   "connection": "Penguin Classics selection of Charles Beaumont's short fiction with a foreword by Ray Bradbury and an afterword by William Shatner. Covers “Perchance to Dream” (1959), “The Jungle” (1959), “Shadow Play” (1959) and others.",
@@ -1054,6 +1534,18 @@
   "title": "Philosophy in The Twilight Zone",
   "subcategory": "Scholarship and criticism",
   "sort": "philosophy in the twilight zone"
+ },
+ "books/pickmans-model-lovecraft-story": {
+  "connection": "H. P. Lovecraft's story, adapted as the Night Gallery segment \"Pickman's Model\" (season 2, episode 11). Covers films/night-gallery-s2e11.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Pickman's Model",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "pickmans model"
  },
  "books/pulling-faces-making-noises-a-life-on-stage-screen-radio": {
   "connection": "Memoir of actor Barry Morse, who starred in \"A Piano in the House\"; listed by the Twilight Zone Museum.",
@@ -1088,7 +1580,7 @@
   "source_title": "",
   "source_url": "",
   "title": "Requiem for a Heavyweight and Other Plays - Tragedy in a Temporary Town, The White Cane and The Elevator",
-  "subcategory": "Other books",
+  "subcategory": "Scripts and teleplays",
   "sort": "requiem for a heavyweight and other plays  tragedy in a temporary town the white cane and the elevator"
  },
  "books/return-to-the-twilight-zone": {
@@ -1280,7 +1772,7 @@
   "source_title": "Rod Serling's Night Gallery: The Art of Darkness (Kitley's Krypt)",
   "source_url": "https://kitleyskrypt.com/2020/08/26/rod-serlings-night-gallery-the-art-of-darkness",
   "title": "Rod Serling's Night Gallery: The Art of Darkness",
-  "subcategory": "Other books",
+  "subcategory": "Art and puzzle books",
   "sort": "rod serlings night gallery the art of darkness"
  },
  "books/rod-serlings-other-worlds": {
@@ -1355,6 +1847,18 @@
   "subcategory": "Biography and memoir",
   "sort": "rod taylor an aussie in hollywood"
  },
+ "books/room-with-a-view-dresner-story": {
+  "connection": "Hal Dresner's story, adapted as the Night Gallery segment \"Room with a View\" (season 1, episode 2). Teleplay by Hal Dresner. Covers films/night-gallery-s1e02.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Room with a View",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "room with a view"
+ },
  "books/sci-fi-tv-from-the-twilight-zone-to-deep-space-nine": {
   "connection": "James Van Hise's survey of American science-fiction television from the late 1950s to the early 1990s, which opens with The Twilight Zone.",
   "tier": "related",
@@ -1403,6 +1907,54 @@
   "subcategory": "Biography and memoir",
   "sort": "serling the rise and twilight of televisions last angry man"
  },
+ "books/shatterday-ellison-story": {
+  "connection": "Harlan Ellison's short story, adapted as the Twilight Zone episode \"Shatterday\" (1985 series). Covers “Shatterday” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Shatterday",
+  "subcategory": "Other books",
+  "sort": "shatterday"
+ },
+ "books/shell-be-company-for-you-newman-story": {
+  "connection": "Andrea Newman's story, adapted as the Night Gallery segment \"She'll Be Company for You\" (season 3, episode 9). Teleplay by David Rayfiel. Covers films/night-gallery-s3e09.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "She'll Be Company for You",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "shell be company for you"
+ },
+ "books/silent-snow-secret-snow-aiken-story": {
+  "connection": "Conrad Aiken's story, adapted as the Night Gallery segment \"Silent Snow, Secret Snow\" (season 2, episode 5). Teleplay by Gene Kearney. Covers films/night-gallery-s2e05.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Silent Snow, Secret Snow",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "silent snow secret snow"
+ },
+ "books/soft-sweet-sleep-sweeney-story": {
+  "connection": "Charles L. Sweeney Jr.'s story, adapted as the Night Gallery segment \"The Merciful\" (season 2, episode 2). Teleplay by Jack Laird. Covers films/night-gallery-s2e02.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Soft, Sweet Sleep",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "soft sweet sleep"
+ },
  "books/something-wicked-this-way-comes": {
   "connection": "A sinister carnival comes to a small town; filmed in 1983.",
   "tier": "related",
@@ -1414,6 +1966,42 @@
   "title": "Something Wicked This Way Comes",
   "subcategory": "Rod Serling and Night Gallery",
   "sort": "something wicked this way comes"
+ },
+ "books/song-for-a-lady-beaumont-story": {
+  "connection": "Charles Beaumont's short story, adapted as the Twilight Zone episode \"Passage on the Lady Anne\" (1959 series). Covers “Passage on the Lady Anne” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 4) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_4)",
+  "title": "Song for a Lady",
+  "subcategory": "Other books",
+  "sort": "song for a lady"
+ },
+ "books/sorry-right-number-matheson-story": {
+  "connection": "Richard Matheson's short story, adapted as the Twilight Zone episode \"Night Call\" (1959 series). Covers “Night Call” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 5) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)",
+  "title": "Sorry, Right Number",
+  "subcategory": "Other books",
+  "sort": "sorry right number"
+ },
+ "books/sorworth-place-kirk-story": {
+  "connection": "Russell Kirk's story, adapted as the Night Gallery segment \"The Ghost of Sorworth Place\" (season 2, episode 17). Covers films/night-gallery-s2e17.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Sorworth Place",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "sorworth place"
  },
  "books/spaceships-and-politics-the-political-theory-of-rod-serling": {
   "connection": "A political-science study by Hofstra professor Leslie Dale Feldman reading Serling's Twilight Zone and other scripts as political theory, on topics such as conformity, totalitarianism, war and prejudice.",
@@ -1463,6 +2051,30 @@
   "subcategory": "Biography and memoir",
   "sort": "spotlights and shadows the albert salmi story"
  },
+ "books/steel-matheson-story": {
+  "connection": "Richard Matheson's short story, adapted as the Twilight Zone episode \"Steel\" (1959 series). Covers “Steel” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 5) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)",
+  "title": "Steel",
+  "subcategory": "Other books",
+  "sort": "steel"
+ },
+ "books/stop-killing-me-dresner-story": {
+  "connection": "Hal Dresner's story, adapted as the Night Gallery segment \"Stop Killing Me\" (season 2, episode 19). Covers films/night-gallery-s2e19.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Stop Killing Me",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "stop killing me"
+ },
  "books/stories-from-the-twilight-zone": {
   "connection": "Rod Serling's first paperback of prose adaptations of his own Twilight Zone teleplays, six stories in all. Covers “The Mighty Casey” (1959), “Escape Clause” (1959), “Walking Distance” (1959) and others.",
   "tier": "core",
@@ -1484,7 +2096,7 @@
   "source_title": "",
   "source_url": "",
   "title": "Submitted For Your Approval, Volume 1",
-  "subcategory": "Other books",
+  "subcategory": "Story anthologies",
   "sort": "submitted for your approval volume 000001"
  },
  "books/tales-from-the-new-twilight-zone": {
@@ -1498,6 +2110,18 @@
   "title": "Tales from the New Twilight Zone",
   "subcategory": "Story anthologies",
   "sort": "tales from the new twilight zone"
+ },
+ "books/tell-david-wallace-story": {
+  "connection": "Penelope Wallace's story, adapted as the Night Gallery segment \"Tell David…\" (season 2, episode 14). Covers films/night-gallery-s2e14.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Tell David",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "tell david"
  },
  "books/terror-television-american-series-1970-1999": {
   "connection": "Reference history of American horror TV series, a period that takes in Night Gallery and the 1985 Twilight Zone revival.",
@@ -1522,6 +2146,30 @@
   "title": "The 80s Twilight Zone: Discovering the TV Series",
   "subcategory": "Guides and reference",
   "sort": "000080s twilight zone discovering the tv series"
+ },
+ "books/the-academy-ely-story": {
+  "connection": "David Ely's story, adapted as the Night Gallery segment \"The Academy\" (season 2, episode 4). Teleplay by Rod Serling. Covers films/night-gallery-s2e04.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Academy",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "academy"
+ },
+ "books/the-beautiful-people-beaumont-story": {
+  "connection": "Charles Beaumont's short story, adapted as the Twilight Zone episode \"Number 12 Looks Just Like You\" (1959 series). Covers “Number 12 Looks Just Like You” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 5) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)",
+  "title": "The Beautiful People",
+  "subcategory": "Other books",
+  "sort": "beautiful people"
  },
  "books/the-best-of-richard-matheson": {
   "connection": "Penguin Classics selection of Matheson's short fiction edited by Victor LaValle, gathering stories by the writer behind 'Nightmare at 20,000 Feet' and other Twilight Zone episodes.",
@@ -1559,6 +2207,42 @@
   "subcategory": "Guides and reference",
   "sort": "binge watchers guide to the twilight zone an unofficial journey"
  },
+ "books/the-boy-who-predicted-earthquakes-st-clair-story": {
+  "connection": "Margaret St. Clair's story, adapted as the Night Gallery segment \"The Boy Who Predicted Earthquakes\" (season 2, episode 1). Teleplay by Rod Serling. Covers films/night-gallery-s2e01.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Boy Who Predicted Earthquakes",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "boy who predicted earthquakes"
+ },
+ "books/the-burning-man-bradbury-story": {
+  "connection": "Ray Bradbury's short story, adapted as the Twilight Zone episode \"The Burning Man\" (1985 series). Covers “The Burning Man” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "The Burning Man",
+  "subcategory": "Other books",
+  "sort": "burning man"
+ },
+ "books/the-canal-worrell-story": {
+  "connection": "Everil Worrell's story, adapted as the Night Gallery segment \"Death on a Barge\" (season 3, episode 12). Covers films/night-gallery-s3e12.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Canal",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "canal"
+ },
  "books/the-chai-light-zone-rod-serling-secular-jew": {
   "connection": "Gettysburg College scholars examine how Serling's secular Jewish identity and ethics shaped The Twilight Zone's moral outlook.",
   "tier": "core",
@@ -1570,6 +2254,114 @@
   "title": "The Chai-Light Zone: Rod Serling, Secular Jew",
   "subcategory": "Scholarship and criticism",
   "sort": "chailight zone rod serling secular jew"
+ },
+ "books/the-chaser-collier-story": {
+  "connection": "John Collier's short story, adapted as the Twilight Zone episode \"The Chaser\" (1959 series). Covers “The Chaser” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)",
+  "title": "The Chaser",
+  "subcategory": "Other books",
+  "sort": "chaser"
+ },
+ "books/the-cold-equations-godwin-story": {
+  "connection": "Tom Godwin's short story, adapted as the Twilight Zone episode \"The Cold Equations\" (1985 series). Covers “The Cold Equations” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "The Cold Equations",
+  "subcategory": "Other books",
+  "sort": "cold equations"
+ },
+ "books/the-dark-boy-derleth-story": {
+  "connection": "August Derleth's story, adapted as the Night Gallery segment \"The Dark Boy\" (season 2, episode 10). Covers films/night-gallery-s2e10.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Dark Boy",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "dark boy"
+ },
+ "books/the-dead-man-leiber-story": {
+  "connection": "Fritz Leiber's story, adapted as the Night Gallery segment \"The Dead Man\" (season 1, episode 1). Teleplay by Douglas Heyes. Covers films/night-gallery-s1e01.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Dead Man",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "dead man"
+ },
+ "books/the-dear-departed-schnirring-story": {
+  "connection": "Alice-Mary Schnirring's story, adapted as the Night Gallery segment \"The Dear Departed\" (season 2, episode 11). Covers films/night-gallery-s2e11.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Dear Departed",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "dear departed"
+ },
+ "books/the-depository-petal-story": {
+  "connection": "Marvin Petal's short story, adapted as the Twilight Zone episode \"Five Characters in Search of an Exit\" (1959 series). Covers “Five Characters in Search of an Exit” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)",
+  "title": "The Depository",
+  "subcategory": "Other books",
+  "sort": "depository"
+ },
+ "books/the-devil-is-not-mocked-wellman-story": {
+  "connection": "Manly Wade Wellman's story, adapted as the Night Gallery segment \"The Devil Is Not Mocked\" (season 2, episode 6). Teleplay by Gene Kearney. Covers films/night-gallery-s2e06.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Devil Is Not Mocked",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "devil is not mocked"
+ },
+ "books/the-devil-you-say-beaumont-story": {
+  "connection": "Charles Beaumont's short story, adapted as the Twilight Zone episode \"Printer's Devil\" (1959 series). Covers “Printer's Devil” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 4) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_4)",
+  "title": "The Devil, You Say?",
+  "subcategory": "Other books",
+  "sort": "devil you say"
+ },
+ "books/the-doll-blackwood-story": {
+  "connection": "Algernon Blackwood's story, adapted as the Night Gallery segment \"The Doll\" (season 1, episode 5). Teleplay by Rod Serling. Covers films/night-gallery-s1e05.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Doll",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "doll"
  },
  "books/the-five-themes-of-the-twilight-zone": {
   "connection": "Arlen Schumer's book, developed from his multimedia lecture, sorting the original series into five recurring themes and illustrated with frame grabs.",
@@ -1583,6 +2375,54 @@
   "subcategory": "Guides and reference",
   "sort": "five themes of the twilight zone"
  },
+ "books/the-flat-male-sisk-story": {
+  "connection": "Frank Sisk's story, adapted as the Night Gallery segment \"The Late Mr. Peddington\" (season 2, episode 16). Covers films/night-gallery-s2e16.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Flat Male",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "flat male"
+ },
+ "books/the-funeral-matheson-story": {
+  "connection": "Richard Matheson's story, adapted as the Night Gallery segment \"The Funeral\" (season 2, episode 15). Covers films/night-gallery-s2e15.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Funeral",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "funeral"
+ },
+ "books/the-fur-brooch-gray-story": {
+  "connection": "Dulcie Gray's story, adapted as the Night Gallery segment \"A Feast of Blood\" (season 2, episode 16). Covers films/night-gallery-s2e16.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Fur Brooch",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "fur brooch"
+ },
+ "books/the-girl-with-the-hungry-eyes-leiber-story": {
+  "connection": "Fritz Leiber's story, adapted as the Night Gallery segment \"The Girl with the Hungry Eyes\" (season 3, episode 2). Teleplay by Robert Malcolm Young. Covers films/night-gallery-s3e02.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Girl with the Hungry Eyes",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "girl with the hungry eyes"
+ },
  "books/the-gospel-according-to-science-fiction-from-the-twilight-zone-to-the-final-frontier": {
   "connection": "Gabriel McKee's study of religious ideas in science fiction, which uses The Twilight Zone as one of its main examples.",
   "tier": "related",
@@ -1595,6 +2435,66 @@
   "subcategory": "Scholarship and criticism",
   "sort": "gospel according to science fiction from the twilight zone to the final frontier"
  },
+ "books/the-hitch-hiker-fletcher-story": {
+  "connection": "Lucille Fletcher's radio play, adapted as the Twilight Zone episode \"The Hitch-Hiker\" (1959 series). Covers “The Hitch-Hiker” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)",
+  "title": "The Hitch-Hiker",
+  "subcategory": "Other books",
+  "sort": "hitchhiker"
+ },
+ "books/the-horsehair-trunk-grubb-story": {
+  "connection": "Davis Grubb's story, adapted as the Night Gallery segment \"The Last Laurel\" (season 1, episode 6). Teleplay by Rod Serling. Covers films/night-gallery-s1e06.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Horsehair Trunk",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "horsehair trunk"
+ },
+ "books/the-howling-man-beaumont-story": {
+  "connection": "Charles Beaumont's short story, adapted as the Twilight Zone episode \"The Howling Man\" (1959 series). Covers “The Howling Man” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 2) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_2)",
+  "title": "The Howling Man",
+  "subcategory": "Other books",
+  "sort": "howling man"
+ },
+ "books/the-jungle-beaumont-story": {
+  "connection": "Charles Beaumont's short story, adapted as the Twilight Zone episode \"The Jungle\" (1959 series). Covers “The Jungle” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Jungle (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Jungle_(The_Twilight_Zone)",
+  "title": "The Jungle",
+  "subcategory": "Other books",
+  "sort": "jungle"
+ },
+ "books/the-last-defender-of-camelot-zelazny-story": {
+  "connection": "Roger Zelazny's short story, adapted as the Twilight Zone episode \"The Last Defender of Camelot\" (1985 series). Covers “The Last Defender of Camelot” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "The Last Defender of Camelot",
+  "subcategory": "Other books",
+  "sort": "last defender of camelot"
+ },
  "books/the-life-and-career-of-agnes-moorehead": {
   "connection": "Biography of Agnes Moorehead, the wordless star of \"The Invaders\".",
   "tier": "tangential",
@@ -1606,6 +2506,18 @@
   "title": "The Life and Career of Agnes Moorehead",
   "subcategory": "Biography and memoir",
   "sort": "life and career of agnes moorehead"
+ },
+ "books/the-little-black-bag-kornbluth-story": {
+  "connection": "C. M. Kornbluth's story, adapted as the Night Gallery segment \"The Little Black Bag\" (season 1, episode 2). Teleplay by Rod Serling. Covers films/night-gallery-s1e02.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Little Black Bag",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "little black bag"
  },
  "books/the-many-lives-of-the-twilight-zone-essays-on-the-television-and-film-franchise": {
   "connection": "A collection of academic essays on every incarnation of the franchise, from the 1959 series through the 1983 film to the 1985, 2002 and 2019 revivals.",
@@ -1631,6 +2543,18 @@
   "subcategory": "Rod Serling and Night Gallery",
   "sort": "martian chronicles"
  },
+ "books/the-misfortune-cookie-fritch-story": {
+  "connection": "Charles E. Fritch's short story, adapted as the Twilight Zone episode \"The Misfortune Cookie\" (1985 series). Covers “The Misfortune Cookie” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "The Misfortune Cookie",
+  "subcategory": "Other books",
+  "sort": "misfortune cookie"
+ },
  "books/the-new-twilight-zone-21-tales-by-the-greatest-sci-fi-and-dark-fantasy-writers-of-our-time": {
   "connection": "An anthology edited by Martin H. Greenberg of new stories in the Twilight Zone tradition, published under license from Carol Serling.",
   "tier": "core",
@@ -1642,6 +2566,66 @@
   "title": "The New Twilight Zone: 21 Tales By the Greatest Sci-Fi and Dark Fantasy Writers of Our Time",
   "subcategory": "Story anthologies",
   "sort": "new twilight zone 000021 tales by the greatest scifi and dark fantasy writers of our time"
+ },
+ "books/the-old-man-slesar-story": {
+  "connection": "Henry Slesar's short story, adapted as the Twilight Zone episode \"The Old Man in the Cave\" (1959 series). Covers “The Old Man in the Cave” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 5) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)",
+  "title": "The Old Man",
+  "subcategory": "Other books",
+  "sort": "old man"
+ },
+ "books/the-other-hand-langelaan-story": {
+  "connection": "George Langelaan's story, adapted as the Night Gallery segment \"The Hand of Borgus Weems\" (season 2, episode 1). Teleplay by Alvin Sapinsley. Covers films/night-gallery-s2e01.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Other Hand",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "other hand"
+ },
+ "books/the-painted-mirror-wandrei-story": {
+  "connection": "Donald Wandrei's story, adapted as the Night Gallery segment \"The Painted Mirror\" (season 2, episode 13). Covers films/night-gallery-s2e13.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Painted Mirror",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "painted mirror"
+ },
+ "books/the-phantom-farmhouse-quinn-story": {
+  "connection": "Seabury Quinn's story, adapted as the Night Gallery segment \"The Phantom Farmhouse\" (season 2, episode 5). Teleplay by Halsted Welles. Covers films/night-gallery-s2e05.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Phantom Farmhouse",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "phantom farmhouse"
+ },
+ "books/the-return-of-the-sorcerer-smith-story": {
+  "connection": "Clark Ashton Smith's story, adapted as the Night Gallery segment \"The Return of the Sorcerer\" (season 3, episode 1). Teleplay by Halsted Welles. Covers films/night-gallery-s3e01.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Return of the Sorcerer",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "return of the sorcerer"
  },
  "books/the-richard-matheson-companion": {
   "connection": "Reference guide to Matheson's whole career, including his Twilight Zone teleplays and stories, with essays and a bibliography/filmography.",
@@ -1655,6 +2639,18 @@
   "subcategory": "Guides and reference",
   "sort": "richard matheson companion"
  },
+ "books/the-ring-with-the-red-velvet-ropes-hoch-story": {
+  "connection": "Edward D. Hoch's story, adapted as the Night Gallery segment \"The Ring with the Red Velvet Ropes\" (season 3, episode 10). Covers films/night-gallery-s3e10.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Ring with the Red Velvet Ropes",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "ring with the red velvet ropes"
+ },
  "books/the-season-to-be-wary": {
   "connection": "Serling's hardcover of three original novellas; one, 'Eyes', was later adapted for the Night Gallery pilot.",
   "tier": "related",
@@ -1666,6 +2662,18 @@
   "title": "The Season to Be Wary",
   "subcategory": "Rod Serling and Night Gallery",
   "sort": "season to be wary"
+ },
+ "books/the-secret-of-the-vault-rosenquist-story": {
+  "connection": "J. Wesley Rosenquist's story, adapted as the Night Gallery segment \"You Can Come Up Now, Mrs. Millikan\" (season 3, episode 5). Teleplay by Rod Serling. Covers films/night-gallery-s3e05.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Secret of the Vault",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "secret of the vault"
  },
  "books/the-seesaw-girl-and-me": {
   "connection": "Memoir assembled from Dick York's 1980s tape recordings; York starred in \"A Penny for Your Thoughts\" and \"The Purple Testament\".",
@@ -1679,6 +2687,30 @@
   "subcategory": "Biography and memoir",
   "sort": "seesaw girl and me"
  },
+ "books/the-self-improvement-of-salvadore-ross-slesar-story": {
+  "connection": "Henry Slesar's short story, adapted as the Twilight Zone episode \"The Self-Improvement of Salvadore Ross\" (1959 series). Covers “The Self-Improvement of Salvadore Ross” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 5) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)",
+  "title": "The Self-Improvement of Salvadore Ross",
+  "subcategory": "Other books",
+  "sort": "selfimprovement of salvadore ross"
+ },
+ "books/the-shadows-on-the-wall-freeman-story": {
+  "connection": "Mary E. Wilkins Freeman's story, adapted as the Night Gallery segment \"Certain Shadows on the Wall\" (season 1, episode 3). Teleplay by Rod Serling. Covers films/night-gallery-s1e03.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Shadows on the Wall",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "shadows on the wall"
+ },
  "books/the-shrinking-man": {
   "connection": "A man exposed to a strange mist begins to shrink; Matheson adapted it himself as The Incredible Shrinking Man (1957).",
   "tier": "related",
@@ -1690,6 +2722,42 @@
   "title": "The Shrinking Man",
   "subcategory": "Rod Serling and Night Gallery",
   "sort": "shrinking man"
+ },
+ "books/the-sins-of-the-fathers-brand-story": {
+  "connection": "Christianna Brand's story, adapted as the Night Gallery segment \"The Sins of the Fathers\" (season 2, episode 21). Covers films/night-gallery-s2e21.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Sins of the Fathers",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "sins of the fathers"
+ },
+ "books/the-spider-walter-story": {
+  "connection": "Elizabeth Walter's story, adapted as the Night Gallery segment \"A Fear of Spiders\" (season 2, episode 4). Teleplay by Rod Serling. Covers films/night-gallery-s2e04.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Spider",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "spider"
+ },
+ "books/the-star-clarke-story": {
+  "connection": "Arthur C. Clarke's short story, adapted as the Twilight Zone episode \"The Star\" (1985 series). Covers “The Star” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "The Star",
+  "subcategory": "Other books",
+  "sort": "star"
  },
  "books/the-truth-is-out-there-christian-faith-and-the-classics-of-tv-science-fiction": {
   "connection": "Study of religious themes in classic TV science fiction that devotes discussion to The Twilight Zone among other series.",
@@ -1748,7 +2816,7 @@
   "source_title": "The Twilight Zone by Nona Fernández (Kirkus Reviews)",
   "source_url": "https://kirkusreviews.com/book-reviews/nona-fernandez/the-twilight-zone-fernandez",
   "title": "The Twilight Zone: A Novel",
-  "subcategory": "Other books",
+  "subcategory": "Novels",
   "sort": "twilight zone a novel"
  },
  "books/the-twilight-zone-and-philosophy-a-dangerous-dimension-to-visit": {
@@ -1916,7 +2984,7 @@
   "source_title": "",
   "source_url": "",
   "title": "The Twilight Zone Haiku",
-  "subcategory": "Art and puzzle books",
+  "subcategory": "Other books",
   "sort": "twilight zone haiku"
  },
  "books/the-twilight-zone-los-mejores-relatos-volumen-i": {
@@ -2219,6 +3287,30 @@
   "subcategory": "Art and puzzle books",
   "sort": "ultimate twilight zone word search puzzle book"
  },
+ "books/the-valley-was-still-wellman-story": {
+  "connection": "Manly Wade Wellman's short story, adapted as the Twilight Zone episode \"Still Valley\" (1959 series). Covers “Still Valley” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)",
+  "title": "The Valley Was Still",
+  "subcategory": "Other books",
+  "sort": "valley was still"
+ },
+ "books/the-witch-van-vogt-story": {
+  "connection": "A. E. van Vogt's story, adapted as the Night Gallery segment \"Since Aunt Ada Came to Stay\" (season 2, episode 3). Teleplay by Alvin Sapinsley. Covers films/night-gallery-s2e03.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Witch",
+  "subcategory": "Rod Serling and Night Gallery",
+  "sort": "witch"
+ },
  "books/the-work-of-charles-beaumont-an-annotated-bibliography-guide": {
   "connection": "Annotated bibliography of Charles Beaumont's fiction and scripts, including his Twilight Zone work, compiled by fellow Southern California writer William F. Nolan.",
   "tier": "related",
@@ -2230,6 +3322,66 @@
   "title": "The Work of Charles Beaumont: An Annotated Bibliography & Guide",
   "subcategory": "Guides and reference",
   "sort": "work of charles beaumont an annotated bibliography  guide"
+ },
+ "books/third-from-the-sun-matheson-story": {
+  "connection": "Richard Matheson's short story, adapted as the Twilight Zone episode \"Third from the Sun\" (1959 series). Covers “Third from the Sun” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)",
+  "title": "Third from the Sun",
+  "subcategory": "Other books",
+  "sort": "third from the sun"
+ },
+ "books/tick-of-time-johnson-story": {
+  "connection": "George Clayton Johnson's short story, adapted as the Twilight Zone episode \"Ninety Years Without Slumbering\" (1959 series). Covers “Ninety Years Without Slumbering” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 5) - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_5)",
+  "title": "Tick of Time",
+  "subcategory": "Other books",
+  "sort": "tick of time"
+ },
+ "books/time-enough-at-last-venable-story": {
+  "connection": "Lynn Venable's short story, adapted as the Twilight Zone episode \"Time Enough at Last\" (1959 series). Covers “Time Enough at Last” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)",
+  "title": "Time Enough at Last",
+  "subcategory": "Other books",
+  "sort": "time enough at last"
+ },
+ "books/to-see-the-invisible-man-silverberg-story": {
+  "connection": "Robert Silverberg's short story, adapted as the Twilight Zone episode \"To See the Invisible Man\" (1985 series). Covers “To See the Invisible Man” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "To See the Invisible Man",
+  "subcategory": "Other books",
+  "sort": "to see the invisible man"
+ },
+ "books/to-serve-man-knight-story": {
+  "connection": "Damon Knight's short story, adapted as the Twilight Zone episode \"To Serve Man\" (1959 series). Covers “To Serve Man” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)",
+  "title": "To Serve Man",
+  "subcategory": "Other books",
+  "sort": "to serve man"
  },
  "books/trivia-from-the-twilight-zone": {
   "connection": "Bill DeVoe's trivia and puzzle book on the original series, with quizzes, word searches, photo matches and a jumbo crossword built around props, characters and quotes from the episodes.",
@@ -2264,7 +3416,7 @@
   "source_title": "Wikipedia: Twilight Zone (pinball)",
   "source_url": "https://en.wikipedia.org/wiki/Twilight_Zone_(pinball)",
   "title": "Twilight Zone Pinball Service & Repair Manual",
-  "subcategory": "Other books",
+  "subcategory": "Guides and reference",
   "sort": "twilight zone pinball service  repair manual"
  },
  "books/twilight-zone-reflections-an-introduction-to-the-philosophical-imagination": {
@@ -2375,6 +3527,30 @@
   "subcategory": "Rod Serling and Night Gallery",
   "sort": "what dreams may come"
  },
+ "books/what-you-need-padgett-story": {
+  "connection": "Lewis Padgett's short story, adapted as the Twilight Zone episode \"What You Need\" (1959 series). Covers “What You Need” (1959).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)",
+  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)",
+  "title": "What You Need",
+  "subcategory": "Other books",
+  "sort": "what you need"
+ },
+ "books/wongs-lost-and-found-emporium-wu-story": {
+  "connection": "William F. Wu's short story, adapted as the Twilight Zone episode \"Wong's Lost and Found Emporium\" (1985 series). Covers “Wong's Lost and Found Emporium” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Wong's Lost and Found Emporium",
+  "subcategory": "Other books",
+  "sort": "wongs lost and found emporium"
+ },
  "books/writing-for-the-twilight-zone": {
   "connection": "George Clayton Johnson's 1980 Outré House volume of his Twilight Zone scripts, with his own account of writing for the series.",
   "tier": "core",
@@ -2386,6 +3562,18 @@
   "title": "Writing for the Twilight Zone",
   "subcategory": "Scripts and teleplays",
   "sort": "writing for the twilight zone"
+ },
+ "books/yesterday-was-monday-sturgeon-story": {
+  "connection": "Theodore Sturgeon's short story, adapted as the Twilight Zone episode \"A Matter of Minutes\" (1985 series). Covers “A Matter of Minutes” (1985).",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "List of The Twilight Zone (1985 TV series) episodes - Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Yesterday Was Monday",
+  "subcategory": "Other books",
+  "sort": "yesterday was monday"
  },
  "characters/a-traveler": {
   "connection": "A character in “A Traveler”, played by Steven Yeun. A mysterious stranger who appears in a locked cell at a remote Alaskan police station on Christmas Eve and asks for the annual holiday pardon.",
@@ -22865,8 +24053,8 @@
   "tier_reason": "An episode of an official Twilight Zone series.",
   "recommendation": "include",
   "reason": "Every episode of the four official series belongs in a complete episode guide.",
-  "source_title": "The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)",
-  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)",
+  "source_title": "Wikipedia: A World of His Own",
+  "source_url": "https://en.wikipedia.org/wiki/A_World_of_His_Own",
   "title": "A World of His Own (1959, S1E36)",
   "subcategory": "Original series (1959-1964)",
   "sort": "world of his own"
@@ -23009,8 +24197,8 @@
   "tier_reason": "An episode of an official Twilight Zone series.",
   "recommendation": "include",
   "reason": "Every episode of the four official series belongs in a complete episode guide.",
-  "source_title": "The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)",
-  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_1)",
+  "source_title": "Wikipedia: Elegy (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Elegy_(The_Twilight_Zone)",
   "title": "Elegy (1959, S1E20)",
   "subcategory": "Original series (1959-1964)",
   "sort": "elegy"
@@ -23249,8 +24437,8 @@
   "tier_reason": "An episode of an official Twilight Zone series.",
   "recommendation": "include",
   "reason": "Every episode of the four official series belongs in a complete episode guide.",
-  "source_title": "The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror",
-  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)",
+  "source_title": "Wikipedia: Little Girl Lost (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Little_Girl_Lost_(The_Twilight_Zone)",
   "title": "Little Girl Lost (1959, S3E26)",
   "subcategory": "Original series (1959-1964)",
   "sort": "little girl lost"
@@ -24017,8 +25205,8 @@
   "tier_reason": "An episode of an official Twilight Zone series.",
   "recommendation": "include",
   "reason": "Every episode of the four official series belongs in a complete episode guide.",
-  "source_title": "The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror",
-  "source_url": "https://www.goodoldtv.com/The_Twilight_Zone_(1959_TV_series,_season_3)",
+  "source_title": "Wikipedia: The Jungle (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Jungle_(The_Twilight_Zone)",
   "title": "The Jungle (1959, S3E12)",
   "subcategory": "Original series (1959-1964)",
   "sort": "jungle"
@@ -28325,7 +29513,7 @@
   "tier_reason": "Contemporary critical reception of the franchise itself.",
   "recommendation": "maybe",
   "reason": "Confirmed to exist but the verdict is not yet summarized; keep as a lead or hide until read.",
-  "source_title": "AudioFile review no. 22337 (search result)",
+  "source_title": "AudioFile review no. 22337",
   "source_url": "https://www.audiofilemagazine.com/reviews/read/22337/the-twilight-zone-radio-dramas-by-rod-serling-read-by-jim-caviezel-lou-diamond-phillips",
   "title": "AudioFile review: The Twilight Zone Radio Dramas (read by Jim Caviezel)",
   "subcategory": "Contemporary reviews",
@@ -44664,7 +45852,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -51744,7 +52932,7 @@
   "sort": "jean carson"
  },
  "people/jean-de-segonzac": {
-  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Night Route” and “Cradle of Darkness”).",
+  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Cradle of Darkness” and “Night Route”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -58476,7 +59664,7 @@
   "sort": "paul le mat"
  },
  "people/paul-lynch": {
-  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “Examination Day” and “A Message from Charity”).",
+  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “A Message from Charity” and “Examination Day”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -63672,7 +64860,7 @@
   "sort": "werner klemperer"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",

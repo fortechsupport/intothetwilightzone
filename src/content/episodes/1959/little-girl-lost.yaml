@@ -7,6 +7,9 @@ runtime_min: 25
 production_code: '4828'
 writers:
 - Richard Matheson
+writing_credit_note: 'Teleplay by Richard Matheson; based on his short story "Little Girl Lost" (1953)'
+source_authors:
+- Richard Matheson
 directors:
 - Paul Stewart
 cast:
@@ -27,6 +30,9 @@ ids:
 links:
   wikipedia: https://en.wikipedia.org/wiki/Little_Girl_Lost_(The_Twilight_Zone)
 sources:
+- title: 'Wikipedia: Little Girl Lost (The Twilight Zone)'
+  url: https://en.wikipedia.org/wiki/Little_Girl_Lost_(The_Twilight_Zone)
+  note: Read 2026-11-24 for the source story.
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 - title: The Twilight Zone (1959 TV series, season 3) - Wikipedia mirror

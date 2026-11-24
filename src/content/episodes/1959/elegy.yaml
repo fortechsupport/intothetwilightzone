@@ -7,6 +7,9 @@ runtime_min: 25
 production_code: 173-3625
 writers:
 - Charles Beaumont
+writing_credit_note: 'Written by Charles Beaumont; based on his short story "Elegy" (Imagination, February 1953)'
+source_authors:
+- Charles Beaumont
 directors:
 - Douglas Heyes
 cast:
@@ -24,6 +27,9 @@ ids:
 links:
   wikipedia: https://en.wikipedia.org/wiki/Elegy_(The_Twilight_Zone)
 sources:
+- title: 'Wikipedia: Elegy (The Twilight Zone)'
+  url: https://en.wikipedia.org/wiki/Elegy_(The_Twilight_Zone)
+  note: Read 2026-11-24 for the source story.
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 - title: The Twilight Zone (1959 TV series, season 1) - episode table (Wikipedia mirror)

@@ -44,7 +44,8 @@ const byLetter = (list: Entry[]) => {
   }
   return [...m.entries()].sort((a, b) => a[0].localeCompare(b[0]));
 };
-const canSplit = c.split || c.slug === 'organizations';
+// A shelf marked side 'neither' (Read: the stories behind the episodes) shows no official split.
+const canSplit = (c.split || c.slug === 'organizations') && s.side !== 'neither';
 const off = s.entries.filter((e) => e.official === true);
 const unoff = s.entries.filter((e) => e.official !== true);
 const split = canSplit && off.length > 0 && unoff.length > 0;

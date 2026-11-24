@@ -339,6 +339,9 @@ export const TAXONOMY = [
       { slug: 'serling-own-writing', title: "Rod Serling's own writing", isNew: true, blurb: 'Articles, essays and fiction Serling wrote himself.' },
       { slug: 'websites', title: 'Websites and databases', isNew: true, blurb: 'Official sites, reference sites, databases and fan sites about the show.' },
       { slug: 'scripts', title: 'Scripts and teleplays', blurb: 'Published scripts, including Gauntlet Press\'s Serling volumes.', isNew: true },
+      // Read plan (docs/plans/research-read.md, section 2): one record per published story, play or radio play an
+      // episode or segment adapts. The stories belong to their authors, so the shelf shows no official split.
+      { slug: 'source-stories', title: 'The stories behind the episodes', isNew: true, side: 'neither', groups: ['The Twilight Zone (1959)', 'The Twilight Zone (1985)', 'The Twilight Zone (2019)', 'Night Gallery'], blurb: 'The short stories, radio plays and anecdotes the episodes and Night Gallery segments adapt: who wrote them and where they first appeared.', connection: 'Each story was adapted as an episode of The Twilight Zone or a segment of Night Gallery; the page links to it. Where it first appeared is given only where a source we read says so.' },
     ],
   },
   {
@@ -641,10 +644,13 @@ export function musicSeries(id, d) {
 }
 /** Date order inside a group: the year, then the title. */
 const chronoSort = (d) => `${String(d.year ?? '9999').slice(0, 4)} ${sortKey(d.title ?? '')}`;
+/** Kinds of book record that are a story an episode adapts (Read plan, section 2). */
+export const SOURCE_KINDS = new Set(['short-story', 'radio-play', 'source-book']);
 const BOOK_GROUP = {
   anthology: 'Story anthologies', scripts: 'Scripts and teleplays', scholarly: 'Scholarship and criticism', novel: 'Novels', reference: 'Guides and reference',
-  novelization: 'Novelizations', biography: 'Biography and memoir', memoir: 'Biography and memoir', juvenile: 'Young readers', 'puzzle-trivia': 'Art and puzzle books',
-  'art-book': 'Art and puzzle books', 'graphic-novel': 'Graphic novels', play: 'Scripts and teleplays', other: 'Other books',
+  novelization: 'Novelizations', biography: 'Biography and memoir', memoir: 'Biography and memoir', juvenile: 'Young readers', 'puzzle-trivia': 'Art, poetry and puzzle books',
+  'art-book': 'Art, poetry and puzzle books', 'graphic-novel': 'Graphic novels', play: 'Scripts and teleplays', other: 'Other books',
+  poetry: 'Art, poetry and puzzle books', accident: 'The 1982 accident and the trial', lessons: 'Lessons, faith and self-help',
 };
 const LEGAL_GROUP = (st) => (/trial|investigation|safety|child|regulat/.test(st) ? 'The 1982 accident and trial'
   : /censor|sponsor/.test(st) ? 'Censorship'
@@ -898,9 +904,20 @@ export function place(col, id, d, ctx = {}) {
       break;
     }
     case 'books': {
-      const g = asub && asub !== 'Other books' ? asub : BOOK_GROUP[d.kind] ?? 'Other books';
+      // Read plan (2026-11-24): a script book sits on Scripts and teleplays only; every other book takes its
+      // group from its kind. Books with no Twilight Zone in them ("related") are grouped by who made them.
+      if (d.kind === 'scripts' || d.kind === 'play') { add('reading', 'scripts', 'Books'); break; }
+      if (SOURCE_KINDS.has(d.kind)) {
+        const first = String((d.episodes ?? [])[0] ?? '');
+        add('reading', 'source-stories', /^films\/night-gallery/.test(first) ? 'Night Gallery' : /^(1985|2019)\//.test(first) ? `The Twilight Zone (${first.slice(0, 4)})` : 'The Twilight Zone (1959)');
+        break;
+      }
+      const authors = (d.authors ?? []).join(' ');
+      const g = asub === 'Audiobooks' ? 'Audiobooks'
+        : /night gallery/i.test(d.title ?? '') ? 'Night Gallery'
+        : asub === 'Rod Serling and Night Gallery' ? (/\bRod Serling\b/.test(authors) ? "Rod Serling's other books" : "Books by the show's writers")
+        : BOOK_GROUP[d.kind] ?? 'Other books';
       add('reading', 'books', g);
-      if (d.kind === 'scripts' || d.kind === 'play' || g === 'Scripts and teleplays') add('reading', 'scripts', 'Books');
       break;
     }
     case 'comics':
@@ -1157,7 +1174,7 @@ function placeWork(d, st, add, id) {
       else if (/script-archive|auction/.test(st)) add('artwork', 'props-costumes', 'Sold at auction');
       else if (/stock-music-library/.test(st)) add('history', 'production-history');
       else if (/theme-use/.test(st)) add('homages', 'in-everyday-language', 'The theme as shorthand');
-      else if (st === 'book') add('reading', 'books');
+      else if (st === 'book') add('reading', 'books', 'Scholarship and criticism');
       else if (/dub|international/.test(st)) add('series', 'international');
       else if (/franchise/.test(st)) add('movies', 'rod-serling-films', 'Franchises');
       else add('merchandise', 'other-merchandise');
@@ -1217,6 +1234,7 @@ export function isOfficial(col, d, p, ctx = {}) {
   const cat = CATEGORY[p.cat];
   if (!cat?.split && p.cat !== 'organizations') return undefined;
   const sub = cat?.subs.find((s) => s.slug === p.sub);
+  if (sub?.side === 'neither') return undefined;
   if (sub?.side) return sub.side === 'official';
   const text = lc([d.title, d.name, d.description, d.summary, d.notes, d.details?.why_it_matters, ctx.why, (d.tags ?? []).join(' ')].filter(Boolean).join(' '));
   const unoff = UNOFF_RE.test(text) || (d.tags ?? []).some((t) => /unlicensed|unofficial|fan/.test(lc(t)));

@@ -44,7 +44,7 @@ export interface LibItem {
   recordKey?: string; // for content records, the record itself
 }
 export interface Org { slug: string; name: string; aka: string[]; kind: string; official: boolean; record?: any; links: OrgLink[]; href: string }
-export interface SubInfo { slug: string; title: string; blurb: string; intro?: string; connection?: string; isNew?: boolean; order?: 'az' | 'chrono'; side?: 'official' | 'unofficial'; groups?: string[]; orderNote?: string; splitLabels?: [string, string]; entries: Entry[] }
+export interface SubInfo { slug: string; title: string; blurb: string; intro?: string; connection?: string; isNew?: boolean; order?: 'az' | 'chrono'; side?: 'official' | 'unofficial' | 'neither'; groups?: string[]; orderNote?: string; splitLabels?: [string, string]; entries: Entry[] }
 export interface CatInfo { slug: string; title: string; kind?: 'section' | 'category' | 'library'; split?: boolean; isNew?: boolean; description: string; intro: string[]; connection: string; seeAlso?: [string, string][]; subs: SubInfo[] }
 
 const clamp = (s: string | undefined, n = 360) => {
@@ -170,7 +170,7 @@ export async function catalog(): Promise<Map<string, CatInfo>> {
         return base(col, r.id, t, { sort: sortKey(titleOf(d.from)), href: hrefOf(d.from), meta: meta(CONNECTION_LABELS[d.kind], CONFIDENCE_LABELS[d.confidence]), desc: d.summary ?? d.evidence });
       }
       case 'songs': return base(col, r.id, d.artist ? `${d.title} (${d.artist})` : d.title, { sort: sortKey(d.title), meta: meta(d.album, d.year && String(d.year), d.genre), desc: d.description });
-      case 'books': return base(col, r.id, d.title, { meta: meta(d.authors.join(', '), d.publisher, yearOf(d.published), ...publicTags(d.tags)), desc: d.description });
+      case 'books': return base(col, r.id, d.title, { meta: meta(d.authors.join(', '), d.first_published_in ?? d.publisher, yearOf(d.first_published ?? d.published), ...publicTags(d.tags)), desc: d.description });
       case 'comics': return base(col, r.id, d.title, { meta: meta(d.publisher, yearOf(d.cover_date), d.creators.slice(0, 3).join(', ')), desc: d.description });
       case 'magazines': return base(col, r.id, d.title, { meta: meta(d.magazine, yearOf(d.cover_date), d.publisher), desc: d.description });
       case 'radio': return base(col, r.id, d.title, { meta: meta(d.series_title !== 'The Twilight Zone Radio Dramas' && d.series_title, d.volume && `volume ${d.volume}`, d.original_writer && `by ${d.original_writer}`), desc: d.description });

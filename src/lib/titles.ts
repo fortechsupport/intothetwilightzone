@@ -31,7 +31,7 @@ const PLACE_KIND: Record<string, string> = {
   'filming-location': 'Filming location', 'in-story': 'Place in the stories', memorial: 'Memorial',
   'museum-exhibit': 'Museum or exhibit', 'serling-place': "Place in Rod Serling's life",
 };
-const BOOK_KIND: Record<string, string> = { anthology: 'Anthology', novel: 'Novel', novelization: 'Novelization', reference: 'Reference book' };
+const BOOK_KIND: Record<string, string> = { anthology: 'Anthology', novel: 'Novel', novelization: 'Novelization', reference: 'Reference book', 'short-story': 'Short story', 'radio-play': 'Radio play', 'source-novel': 'Novel', 'source-book': 'Book', scripts: 'Script book', play: 'Published play' };
 
 const lcFirst = (t: string) => (/^[A-Z]{2}/.test(t) ? t : t.charAt(0).toLowerCase() + t.slice(1));
 const humanize = (s: string) => (s.charAt(0).toUpperCase() + s.slice(1)).replace(/[-_]+/g, ' ');
@@ -78,7 +78,7 @@ export function recordContext(col: string, d: any, extra: { firstRef?: string } 
     case 'radio': parts.push(d.series_title, d.series_title === 'The Twilight Zone Radio Dramas' && d.season ? `season ${d.season}${d.season_order ? `, episode ${d.season_order}` : ''}` : undefined); break;
     case 'comics': parts.push(d.publisher, year(d.cover_date)); break;
     case 'magazines': parts.push(d.magazine, year(d.cover_date)); break;
-    case 'books': parts.push(d.authors?.[0] ? `by ${String(d.authors[0]).replace(/\s*\(.*\)$/, '')}` : undefined, year(d.published)); break;
+    case 'books': parts.push(d.authors?.[0] ? `by ${String(d.authors[0]).replace(/\s*\(.*\)$/, '')}` : undefined, year(d.published ?? d.first_published)); break;
     case 'essays': parts.push(d.authors?.[0] ? `by ${String(d.authors[0]).replace(/\s*\(.*\)$/, '')}` : undefined, d.published_in, year(d.published)); break;
     case 'films': parts.push(year(d.release_date)); break;
     case 'works': parts.push(d.creator && String(d.creator).length < 40 ? String(d.creator) : undefined, year(d.year)); break;

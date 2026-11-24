@@ -299,6 +299,9 @@ const books = defineCollection({
     description: z.string().optional(),
     kind: z.string().optional(),
     isbn: z.string().optional(),
+    // A story an episode adapts (Read plan, 2026-11-24): where and when it first appeared, only as a source states it.
+    first_published_in: z.string().optional(),
+    first_published: z.string().optional(),
     episodes: names,
     ...common,
   }),

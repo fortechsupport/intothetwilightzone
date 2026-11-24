@@ -58,7 +58,7 @@ const NOUN: Record<string, string> = { people: 'people', places: 'places', organ
         <span class="count">{s.entries.length.toLocaleString('en-US')}</span>
         <h3>{s.title} {s.isNew && <span class="tag new">new</span>}</h3>
         <p>{s.blurb}</p>
-        {canSplit && (() => { const o = offN(s.entries); const u = s.entries.length - o; return <p class="small muted">{o > 0 && u > 0 ? `${o} official · ${u} unofficial` : o > 0 ? 'All official' : 'Unofficial and inspired'}</p>; })()}
+        {canSplit && s.side !== 'neither' && (() => { const o = offN(s.entries); const u = s.entries.length - o; return <p class="small muted">{o > 0 && u > 0 ? `${o} official · ${u} unofficial` : o > 0 ? 'All official' : 'Unofficial and inspired'}</p>; })()}
       </a>
     ))}
   </div>

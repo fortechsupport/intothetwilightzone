@@ -77,7 +77,7 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
                     {sg.adapts && <span class="small"> · adapts <a href={sg.adapts.href}>{sg.adapts.title}</a></span>}
                     {sg.summary && <p class="small">{sg.summary}</p>}
                     <ThemeList slugs={sg.themes} as="line" />
-                    {sg.source_title && <p class="small">Based on “{sg.source_title}”{sg.source_authors.length > 0 && <> by {sg.source_authors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}</p>}
+                    {sg.source_title && <p class="small">Based on {sg.story ? <a href={sg.story.href}>“{sg.source_title}”</a> : <>“{sg.source_title}”</>}{sg.source_authors.length > 0 && <> by {sg.source_authors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}{sg.story?.first && <span class="muted"> (first published in {sg.story.first})</span>}</p>}
                     {!sg.source_title && sg.source_authors.length > 0 && <p class="small">From a story by {sg.source_authors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</p>}
                     {(sg.writers.length > 0 || sg.directors.length > 0) && <p class="small">{sg.writers.length > 0 && <>Written by {sg.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}{sg.writers.length > 0 && sg.directors.length > 0 && ' · '}{sg.directors.length > 0 && <>Directed by {sg.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}</p>}
                     {sg.cast.length > 0 && <p class="small">Cast: {sg.cast.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</p>}
