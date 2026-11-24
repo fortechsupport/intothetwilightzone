@@ -81,7 +81,7 @@ const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
           </>
         );
       })}
-      <p class="small muted">{split && 'Official items were made, broadcast, licensed or published by the franchise or by Rod Serling; the rest were made by others about, after or inspired by the show. '}{chrono ? (s.orderNote ?? 'Seasons and episodes are in series order.') : <>Groups are alphabetical, with catch-all and unconfirmed groups last. Entries are alphabetical, ignoring a leading "The", "A" or "An".</>}</p>
+      <p class="small muted">{split && 'Official items were made, broadcast, licensed or published by the franchise or by Rod Serling; the rest were made by others about, after or inspired by the show. '}{chrono ? (s.orderNote ?? 'Seasons and episodes are in series order.') : <>{s.groups ? 'Groups are in the order shown, with catch-all groups last.' : 'Groups are alphabetical, with catch-all and unconfirmed groups last.'} Entries are alphabetical, ignoring a leading "The", "A" or "An".</>}</p>
     </nav>
   )}
   {!s.entries.length && <p class="muted">No entries yet. Research is under way.</p>}

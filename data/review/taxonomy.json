@@ -36131,7 +36131,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36141,10 +36141,10 @@
  "locations/almeida-theatre-twilight-zone-play": [
   {
    "cat": "places",
-   "sub": "real-life",
+   "sub": "venues",
    "group": null,
    "catTitle": "Places",
-   "subTitle": "Other real places",
+   "subTitle": "Venues and archives",
    "isNew": false,
    "official": null
   }
@@ -36152,10 +36152,10 @@
  "locations/ambassadors-theatre-twilight-zone-play": [
   {
    "cat": "places",
-   "sub": "real-life",
+   "sub": "venues",
    "group": null,
    "catTitle": "Places",
-   "subTitle": "Other real places",
+   "subTitle": "Venues and archives",
    "isNew": false,
    "official": null
   }
@@ -36164,7 +36164,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "Twilight Zone: The Movie (1983)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36180,13 +36180,22 @@
    "subTitle": "Memorials and exhibits",
    "isNew": true,
    "official": null
+  },
+  {
+   "cat": "history",
+   "sub": "honors-awards",
+   "group": "Memorials",
+   "catTitle": "History",
+   "subTitle": "Honors and awards",
+   "isNew": true,
+   "official": true
   }
  ],
  "locations/arch-alley-vancouver-eddies-comedy-club": [
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (2019)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36197,7 +36206,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (2019)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36208,7 +36217,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (2019)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36235,6 +36244,15 @@
    "subTitle": "Memorials and exhibits",
    "isNew": true,
    "official": null
+  },
+  {
+   "cat": "events",
+   "sub": "exhibitions",
+   "group": "Museum exhibits",
+   "catTitle": "Events",
+   "subTitle": "Exhibitions",
+   "isNew": false,
+   "official": false
   }
  ],
  "locations/bundy-museum-rod-serling-archive": [
@@ -36246,6 +36264,15 @@
    "subTitle": "Memorials and exhibits",
    "isNew": true,
    "official": null
+  },
+  {
+   "cat": "events",
+   "sub": "exhibitions",
+   "group": "Museum exhibits",
+   "catTitle": "Events",
+   "subTitle": "Exhibitions",
+   "isNew": false,
+   "official": false
   }
  ],
  "locations/busy-bee-cafe-ridgeview-ohio": [
@@ -36274,7 +36301,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (1985)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36285,7 +36312,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36318,7 +36345,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (2019)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36373,7 +36400,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36384,7 +36411,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36395,7 +36422,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (2019)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36406,7 +36433,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (2019)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36428,7 +36455,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (2019)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36450,7 +36477,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36472,7 +36499,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (2019)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36494,7 +36521,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "Twilight Zone: The Movie (1983)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36560,7 +36587,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "Twilight Zone: The Movie (1983)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36669,10 +36696,10 @@
  "locations/mirabito-stadium-binghamton-creatures": [
   {
    "cat": "places",
-   "sub": "real-life",
+   "sub": "venues",
    "group": null,
    "catTitle": "Places",
-   "subTitle": "Other real places",
+   "subTitle": "Venues and archives",
    "isNew": false,
    "official": null
   }
@@ -36703,7 +36730,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36714,7 +36741,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36725,7 +36752,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36758,7 +36785,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "Twilight Zone: The Movie (1983)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36769,7 +36796,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "Other films",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36822,13 +36849,13 @@
  ],
  "locations/rod-serling-film-festival-binghamton": [
   {
-   "cat": "places",
-   "sub": "real-life",
-   "group": null,
-   "catTitle": "Places",
-   "subTitle": "Other real places",
+   "cat": "events",
+   "sub": "anniversaries-festivals",
+   "group": "Film festivals",
+   "catTitle": "Events",
+   "subTitle": "Anniversaries and festivals",
    "isNew": false,
-   "official": null
+   "official": false
   }
  ],
  "locations/rod-serling-gazebo-recreation-park": [
@@ -36840,6 +36867,15 @@
    "subTitle": "Memorials and exhibits",
    "isNew": true,
    "official": null
+  },
+  {
+   "cat": "history",
+   "sub": "honors-awards",
+   "group": "Memorials",
+   "catTitle": "History",
+   "subTitle": "Honors and awards",
+   "isNew": true,
+   "official": true
   }
  ],
  "locations/rod-serling-grave-lake-view-cemetery": [
@@ -36851,6 +36887,15 @@
    "subTitle": "Memorials and exhibits",
    "isNew": true,
    "official": null
+  },
+  {
+   "cat": "history",
+   "sub": "honors-awards",
+   "group": "Memorials",
+   "catTitle": "History",
+   "subTitle": "Honors and awards",
+   "isNew": true,
+   "official": true
   }
  ],
  "locations/rod-serling-hollywood-walk-of-fame-star": [
@@ -36862,6 +36907,15 @@
    "subTitle": "Memorials and exhibits",
    "isNew": true,
    "official": null
+  },
+  {
+   "cat": "history",
+   "sub": "honors-awards",
+   "group": "Memorials",
+   "catTitle": "History",
+   "subTitle": "Honors and awards",
+   "isNew": true,
+   "official": true
   }
  ],
  "locations/rod-serling-statue-recreation-park": [
@@ -36873,13 +36927,22 @@
    "subTitle": "Memorials and exhibits",
    "isNew": true,
    "official": null
+  },
+  {
+   "cat": "history",
+   "sub": "honors-awards",
+   "group": "Memorials",
+   "catTitle": "History",
+   "subTitle": "Honors and awards",
+   "isNew": true,
+   "official": true
   }
  ],
  "locations/rogers-arena-vancouver-the-wunderkind": [
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (2019)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36906,13 +36969,22 @@
    "subTitle": "Memorials and exhibits",
    "isNew": true,
    "official": null
+  },
+  {
+   "cat": "history",
+   "sub": "honors-awards",
+   "group": "Memorials",
+   "catTitle": "History",
+   "subTitle": "Honors and awards",
+   "isNew": true,
+   "official": true
   }
  ],
  "locations/save-on-meats-vancouver-the-comedian": [
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (2019)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -36954,13 +37026,13 @@
  ],
  "locations/serlingfest-binghamton": [
   {
-   "cat": "places",
-   "sub": "real-life",
-   "group": null,
-   "catTitle": "Places",
-   "subTitle": "Other real places",
+   "cat": "events",
+   "sub": "anniversaries-festivals",
+   "group": "SerlingFest",
+   "catTitle": "Events",
+   "subTitle": "Anniversaries and festivals",
    "isNew": false,
-   "official": null
+   "official": false
   }
  ],
  "locations/ss-queen-of-glasgow": [
@@ -36978,7 +37050,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (2019)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -37121,7 +37193,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (1985)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -37132,7 +37204,7 @@
   {
    "cat": "places",
    "sub": "attractions",
-   "group": null,
+   "group": "The Tower of Terror",
    "catTitle": "Places",
    "subTitle": "Attractions",
    "isNew": false,
@@ -37143,7 +37215,7 @@
   {
    "cat": "places",
    "sub": "attractions",
-   "group": null,
+   "group": "The Tower of Terror",
    "catTitle": "Places",
    "subTitle": "Attractions",
    "isNew": false,
@@ -37154,7 +37226,7 @@
   {
    "cat": "places",
    "sub": "attractions",
-   "group": null,
+   "group": "The Tower of Terror",
    "catTitle": "Places",
    "subTitle": "Attractions",
    "isNew": false,
@@ -37165,7 +37237,7 @@
   {
    "cat": "places",
    "sub": "attractions",
-   "group": null,
+   "group": "The Tower of Terror",
    "catTitle": "Places",
    "subTitle": "Attractions",
    "isNew": false,
@@ -37231,7 +37303,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (2002)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -37242,7 +37314,18 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (2019)",
+   "catTitle": "Places",
+   "subTitle": "Filming locations",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "locations/vancouver-aquarium-2002-series": [
+  {
+   "cat": "places",
+   "sub": "filming-locations",
+   "group": "The Twilight Zone (2002)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -37253,7 +37336,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -37319,7 +37402,7 @@
   {
    "cat": "places",
    "sub": "filming-locations",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Places",
    "subTitle": "Filming locations",
    "isNew": false,
@@ -38305,6 +38388,17 @@
    "official": null
   }
  ],
+ "organizations/atlantis-films": [
+  {
+   "cat": "organizations",
+   "sub": "production-companies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Production companies",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "organizations/bantam-books": [
   {
    "cat": "organizations",
@@ -38723,6 +38817,17 @@
    "official": true
   }
  ],
+ "organizations/london-films": [
+  {
+   "cat": "organizations",
+   "sub": "production-companies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Production companies",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "organizations/louisiana-state-university": [
   {
    "cat": "organizations",
@@ -38851,6 +38956,17 @@
    "group": null,
    "catTitle": "Organizations",
    "subTitle": "Networks, studios and streamers",
+   "isNew": false,
+   "official": true
+  }
+ ],
+ "organizations/persistence-of-vision": [
+  {
+   "cat": "organizations",
+   "sub": "production-companies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Production companies",
    "isNew": false,
    "official": true
   }
@@ -72529,11 +72645,11 @@
  "works/bundy-museum-in-the-zone": [
   {
    "cat": "places",
-   "sub": "attractions",
-   "group": "Exhibits",
+   "sub": "memorials-exhibits",
+   "group": null,
    "catTitle": "Places",
-   "subTitle": "Attractions",
-   "isNew": false,
+   "subTitle": "Memorials and exhibits",
+   "isNew": true,
    "official": null
   },
   {
@@ -73331,11 +73447,11 @@
  "works/forum-theatre-day-of-a-playwright": [
   {
    "cat": "places",
-   "sub": "attractions",
-   "group": "Exhibits",
+   "sub": "memorials-exhibits",
+   "group": null,
    "catTitle": "Places",
-   "subTitle": "Attractions",
-   "isNew": false,
+   "subTitle": "Memorials and exhibits",
+   "isNew": true,
    "official": null
   },
   {
@@ -73908,11 +74024,11 @@
  "works/in-honor-of-rod-serling-marker": [
   {
    "cat": "places",
-   "sub": "attractions",
-   "group": "Attractions",
+   "sub": "memorials-exhibits",
+   "group": null,
    "catTitle": "Places",
-   "subTitle": "Attractions",
-   "isNew": false,
+   "subTitle": "Memorials and exhibits",
+   "isNew": true,
    "official": null
   }
  ],
@@ -75284,11 +75400,11 @@
  "works/recreation-park-bandstand-serling-plaque": [
   {
    "cat": "places",
-   "sub": "attractions",
-   "group": "Attractions",
+   "sub": "memorials-exhibits",
+   "group": null,
    "catTitle": "Places",
-   "subTitle": "Attractions",
-   "isNew": false,
+   "subTitle": "Memorials and exhibits",
+   "isNew": true,
    "official": null
   }
  ],
@@ -75296,7 +75412,7 @@
   {
    "cat": "places",
    "sub": "attractions",
-   "group": "Attractions",
+   "group": "Experiences",
    "catTitle": "Places",
    "subTitle": "Attractions",
    "isNew": false,
@@ -75738,11 +75854,11 @@
  "works/rod-serling-statue-recreation-park": [
   {
    "cat": "places",
-   "sub": "attractions",
-   "group": "Attractions",
+   "sub": "memorials-exhibits",
+   "group": null,
    "catTitle": "Places",
-   "subTitle": "Attractions",
-   "isNew": false,
+   "subTitle": "Memorials and exhibits",
+   "isNew": true,
    "official": null
   }
  ],
@@ -77456,7 +77572,7 @@
   {
    "cat": "places",
    "sub": "attractions",
-   "group": "Rides",
+   "group": "The Tower of Terror",
    "catTitle": "Places",
    "subTitle": "Attractions",
    "isNew": false,
@@ -77489,7 +77605,7 @@
   {
    "cat": "places",
    "sub": "attractions",
-   "group": "Rides",
+   "group": "The Tower of Terror",
    "catTitle": "Places",
    "subTitle": "Attractions",
    "isNew": false,
@@ -77500,7 +77616,7 @@
   {
    "cat": "places",
    "sub": "attractions",
-   "group": "Rides",
+   "group": "The Tower of Terror",
    "catTitle": "Places",
    "subTitle": "Attractions",
    "isNew": false,
@@ -77564,7 +77680,7 @@
   {
    "cat": "places",
    "sub": "attractions",
-   "group": "Rides",
+   "group": "The Tower of Terror",
    "catTitle": "Places",
    "subTitle": "Attractions",
    "isNew": false,
@@ -77575,7 +77691,7 @@
   {
    "cat": "places",
    "sub": "attractions",
-   "group": "Rides",
+   "group": "The Tower of Terror",
    "catTitle": "Places",
    "subTitle": "Attractions",
    "isNew": false,
@@ -77817,7 +77933,7 @@
   {
    "cat": "places",
    "sub": "attractions",
-   "group": "Attractions",
+   "group": "Experiences",
    "catTitle": "Places",
    "subTitle": "Attractions",
    "isNew": false,
@@ -79125,7 +79241,7 @@
   {
    "cat": "places",
    "sub": "attractions",
-   "group": "Attractions",
+   "group": "Experiences",
    "catTitle": "Places",
    "subTitle": "Attractions",
    "isNew": false,

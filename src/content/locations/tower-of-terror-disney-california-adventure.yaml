@@ -6,10 +6,10 @@ region: California
 country: US
 status: replaced
 opened: '2004-05-05'
-closed: 2017-01
+closed: '2017-01-02'
 notes: >-
-  A shorter, 183-foot Californian version opened on May 5, 2004, with a more compact queue. It closed
-  in early January 2017. Disney then rethemed the building as Guardians of the Galaxy - Mission: Breakout!,
+  A shorter, 183-foot Californian version opened on May 5, 2004, with a more compact queue. Its last day of
+  operation was January 2, 2017 (Yesterland; Duchess of Disneyland). Disney then rethemed the building as Guardians of the Galaxy - Mission: Breakout!,
   which opened in May 2017 and is now part of Avengers Campus.
 
 
@@ -23,4 +23,8 @@ sources:
 - title: >-
     One Last Fall: A Final Ride on Disney California Adventure's Tower of Terror - Endless Mode
   url: https://www.endlessmode.com/theme-parks/disney/tower-of-terror
+- title: yesterland.com
+  url: https://www.yesterland.com/towerofterror.html
+- title: duchessofdisneyland.com
+  url: https://duchessofdisneyland.com/park-history/the-twilight-zone-tower-of-terror/
 last_verified: '2026-11-19'

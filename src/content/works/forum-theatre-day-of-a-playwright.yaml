@@ -6,6 +6,7 @@ description: A display about Serling at the Forum, including his school "Good Pe
 details:
   venue: Broome County Forum Theatre
   location: 236 State Street, Binghamton, New York, USA
+duplicate_of: locations/broome-county-forum-theatre
 sources:
 - title: visitbinghamton.org
   url: https://visitbinghamton.org/things-to-do/rod-serling

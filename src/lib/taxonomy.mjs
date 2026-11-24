@@ -83,6 +83,7 @@ export function podcastGroup(d) {
   return 'Coverage not yet recorded';
 }
 
+export const FILMING_GROUPS = ['The Twilight Zone (1959)', 'Twilight Zone: The Movie (1983)', 'The Twilight Zone (1985)', 'The Twilight Zone (2002)', 'The Twilight Zone (2019)', 'Other films'];
 export const TAXONOMY = [
   {
     slug: 'people',
@@ -127,8 +128,8 @@ export const TAXONOMY = [
     ],
     connection: 'Real places are where episodes were made, where Serling lived and is remembered, or where the franchise can be visited today. In-story places are settings named in the episodes, each linked to where it appears.',
     subs: [
-      { slug: 'attractions', title: 'Attractions', blurb: 'Theme-park rides such as the Tower of Terror, and other Twilight Zone experiences you can visit.' },
-      { slug: 'filming-locations', title: 'Filming locations', blurb: 'Where episodes and films were shot, from Death Valley to Vancouver.' },
+      { slug: 'attractions', title: 'Attractions', groups: ['The Tower of Terror', 'Experiences'], blurb: 'Theme-park rides such as the Tower of Terror, and other Twilight Zone experiences you can visit.' },
+      { slug: 'filming-locations', title: 'Filming locations', groups: FILMING_GROUPS, blurb: 'Where episodes and films were shot, from Death Valley to Vancouver.' },
       { slug: 'memorials-exhibits', title: 'Memorials and exhibits', isNew: true, blurb: 'Memorials, plaques, statues, museum exhibits and Serling\'s grave.' },
       { slug: 'serling-places', title: "Rod Serling's places", isNew: true, blurb: 'Where Serling was born, grew up, studied, lived and worked.' },
       { slug: 'sets-backlots', title: 'Sets and backlots', isNew: true, blurb: 'Studio lots and standing sets, such as MGM\'s Lot 2 and CBS Television City.' },
@@ -579,6 +580,20 @@ const LOC_SUB = {
   attraction: 'attractions', 'filming-location': 'filming-locations', memorial: 'memorials-exhibits', 'museum-exhibit': 'memorials-exhibits',
   'serling-place': 'serling-places', 'backlot-set': 'sets-backlots', 'event-venue': 'venues', archive: 'venues',
 };
+/** Which show a filming location was used for: its first `filmed` reference, else its name. */
+function filmingShow(d) {
+  const ref = (d.filmed ?? [])[0]?.ref ?? '';
+  const t = `${ref} ${d.name ?? ''}`;
+  if (/^1959\//.test(ref)) return FILMING_GROUPS[0];
+  if (/twilight-zone-the-movie/.test(ref)) return FILMING_GROUPS[1];
+  if (/^films\//.test(ref)) return FILMING_GROUPS[5];
+  for (const text of [t, String(d.notes ?? '')]) {
+    if (/^2019\/|2019/.test(text)) return FILMING_GROUPS[4];
+    if (/^2002\/|2002/.test(text)) return FILMING_GROUPS[3];
+    if (/^1985\/|1985|1988/.test(text)) return FILMING_GROUPS[2];
+  }
+  return undefined;
+}
 const LOC_GROUP = {
   'backlot-set': 'Studio backlots and sets', 'filming-location': 'Filming locations', 'serling-place': "Rod Serling's places",
   attraction: 'Attractions', 'museum-exhibit': 'Museums and exhibits', memorial: 'Memorials', archive: 'Archives', 'event-venue': 'Event venues',
@@ -918,8 +933,14 @@ export function place(col, id, d, ctx = {}) {
       add('people', 'characters', { human: 'People', alien: 'Aliens', robot: 'Robots and machines', supernatural: 'Supernatural beings', animal: 'Animals', object: 'Objects' }[d.kind] ?? undefined);
       break;
     case 'locations':
+      // Visit plan (docs/plans/research-visit.md, section 2).
       if (d.kind === 'in-story') add('places', 'in-story');
-      else add('places', LOC_SUB[d.kind] ?? 'real-life');
+      else if (!d.kind && /\bfest\b|festival|serlingfest/i.test(d.name ?? '')) add('events', 'anniversaries-festivals', /serlingfest/i.test(d.name ?? '') ? 'SerlingFest' : 'Film festivals');
+      else {
+        add('places', LOC_SUB[d.kind] ?? 'real-life', d.kind === 'filming-location' ? filmingShow(d) : d.kind === 'attraction' ? (/tower of terror/i.test(d.name ?? '') ? 'The Tower of Terror' : 'Experiences') : undefined);
+        if (d.kind === 'memorial') add('history', 'honors-awards', 'Memorials');
+        if (d.kind === 'museum-exhibit') add('events', 'exhibitions', 'Museum exhibits');
+      }
       break;
     case 'organizations':
       add('organizations', ORG_SUB[d.kind] ?? 'other-organizations');
@@ -1025,7 +1046,9 @@ function placeWork(d, st, add, id) {
       } else add('stage', 'episode-stagings');
       return;
     case 'attraction':
-      add('places', 'attractions', /ride/.test(st) ? 'Rides' : /museum|exhibit/.test(st) ? 'Exhibits' : 'Attractions');
+      // Visit plan: a marker or plaque is a memorial; museum exhibits are memorials and exhibits, and Events.
+      if (/museum|exhibit/.test(st) || /marker|plaque|statue|memorial/i.test(d.title ?? '')) add('places', 'memorials-exhibits');
+      else add('places', 'attractions', /tower of terror/i.test(d.title ?? '') ? 'The Tower of Terror' : 'Experiences');
       if (/museum|exhibit/.test(st)) add('events', 'exhibitions', 'Museum exhibits');
       return;
     case 'event':

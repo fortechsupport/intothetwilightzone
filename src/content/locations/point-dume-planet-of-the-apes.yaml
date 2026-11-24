@@ -6,6 +6,9 @@ country: US
 lat: 34.0011
 lng: -118.8065
 status: open
+filmed:
+- ref: films/planet-of-the-apes
+  note: The final scene.
 notes: >-
   The final scene of Planet of the Apes (1968), with Charlton Heston finding the ruined Statue of Liberty
   on a beach, was filmed at the coves below Point Dume. Rod Serling co-wrote the screenplay, and the twist

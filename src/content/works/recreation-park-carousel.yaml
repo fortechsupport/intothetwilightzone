@@ -9,6 +9,7 @@ details:
   venue: Recreation Park
   location: Binghamton, New York, USA
   opened: '1925'
+duplicate_of: locations/recreation-park-carousel-binghamton
 sources:
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/George_F._Johnson_Recreation_Park_Carousel

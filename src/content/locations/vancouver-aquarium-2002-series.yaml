@@ -1,0 +1,21 @@
+name: Vancouver Aquarium, Stanley Park (2002 series)
+kind: filming-location
+address: Stanley Park
+city: Vancouver
+region: British Columbia
+country: CA
+status: extant
+notes: 'One listing site says a scene of the 2002 revival was shot at the Vancouver Aquarium in Stanley Park. It names no
+  episode, and no second source was found, so the claim is unconfirmed.
+
+
+  Twilight Zone connections: A reported location of the 2002-03 UPN series.'
+sources:
+- title: 'WhereFilmed: The Twilight Zone (2002)'
+  url: https://wherefilmed.org/en/The-Twilight-Zone2002
+  note: Single listing; no episode named.
+research_confidence: low
+last_verified: '2026-11-24'
+tags:
+- visit-2026-11-24
+- unconfirmed

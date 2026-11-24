@@ -1,0 +1,13 @@
+name: London Films
+kind: production-company
+description: A production company of the 1985 revival's third, syndicated season (1988-89), with CBS Broadcast International
+  and Atlantis Films.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: The Twilight Zone (1985 TV series)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1985_TV_series)
+research_confidence: medium
+last_verified: '2026-11-24'
+tags:
+- meet-2026-11-24

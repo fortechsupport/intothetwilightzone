@@ -3,6 +3,20 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Visit: each place once, filming locations by show
+
+Visitors can now:
+- Find each place once: the Tower of Terror rides, the Serling statue, the carousel and bandstand, his grave, the
+  Bundy Museum and Forum Theatre exhibits and the Antioch markers were listed twice and are now one page each.
+- Browse filming locations by show (the 1959 series, the 1983 film, the 1985, 2002 and 2019 series, other films) and
+  attractions as the Tower of Terror and other experiences.
+- See a newly reported 2002 location (the Vancouver Aquarium, marked unconfirmed) and the 1985 revival's production
+  companies (Persistence of Vision, London Films, Atlantis Films).
+
+**Known not to work yet:**
+- The 1985 series' CBS-era filming locations are not documented yet.
+- Settings (places inside the stories) cover 35 places; many episodes' towns and planets are not yet listed.
+
 ## 2026-11-24 — Meet: 90 hidden people and characters shown, 19 organizations added
 
 Visitors can now:
