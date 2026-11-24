@@ -100,8 +100,13 @@ const byKey = new Map(prev.episodes.map((e) => [`${e.p}|${e.g}`, e]));
 const report = [];
 
 for (const { id, d } of records) {
-  // A single episode of another podcast (shelf C) is never read whole: its feed is about other things.
-  if (d.feed === false) continue;
+  // A single episode of another podcast (shelf C) is never read whole: its feed is about other things. A record
+  // marked feed: false also loses any episodes read before (they came from a feed that is not this podcast's).
+  if (d.feed === false) {
+    delete feeds[id];
+    for (const k of [...byKey.keys()]) if (k.startsWith(`${id}|`)) byKey.delete(k);
+    continue;
+  }
   let f;
   try { f = await feedOf(d); } catch (e) { report.push([id, 'lookup failed', String(e.message)]); continue; }
   if (!f) { report.push([id, 'no feed', '']); continue; }

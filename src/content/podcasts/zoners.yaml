@@ -19,6 +19,9 @@ sources:
   note: 'Read 2026-11-24: Fandom Limb Media''s show page, "Zoners: A Podcast For Fans of The Twilight Zone, hosted by Matt
     McGregor, Colin Shaw, and Harris McCabe"; it lists no episodes now. The feed address follows Spreaker''s pattern for show
     5859407 and is checked by the feed reader.'
+- title: 'RSS feed: Zoners'
+  url: https://www.spreaker.com/show/5859407/episodes/feed
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 2 episodes, dated 2023-05-11 to 2023-06-08. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: core
 research_confidence: medium
 last_verified: '2026-11-24'
@@ -28,3 +31,4 @@ links:
 network: Fandom Limb Media
 tags:
 - research-2026-11-24
+episode_count_as_of: '2026-11-24'

@@ -30,11 +30,13 @@ links:
 sources:
 - title: Podbean - The Twilight Gnome
   url: https://ajrockstar3.podbean.com
-- title: Podbean feed - The Twilight Gnome
+- title: 'RSS feed: The Twilight Gnome'
   url: https://feed.podbean.com/ajrockstar3/feed.xml
-  note: Podbean's feed address for the show at ajrockstar3.podbean.com, checked by the feed reader (2026-11-24).
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 152 episodes, dated 2025-01-13 to 2026-11-22. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: core
 research_confidence: medium
 last_verified: '2026-11-24'
 tags:
 - research-2026-11-24
+episode_count: 152
+episode_count_as_of: '2026-11-24'
