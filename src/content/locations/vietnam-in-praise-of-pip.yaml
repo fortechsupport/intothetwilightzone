@@ -1,0 +1,20 @@
+name: "Vietnam and home (In Praise of Pip)"
+kind: in-story
+country: "Vietnam"
+filmed:
+- ref: 1959/in-praise-of-pip
+  note: "Where Pip is, and his father's home."
+episodes:
+- 1959/in-praise-of-pip
+notes: >-
+  "In Vietnam, medics are examining Pip Phillips." The rest of the story is set at home: "In the United States,
+  Pip's father Max".
+sources:
+- title: "Wikipedia: In Praise of Pip (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/In_Praise_of_Pip_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

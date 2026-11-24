@@ -184,10 +184,24 @@ for the review pages (src/lib/tags.ts).
   hypothetical in The Whole Truth's narration), the Midwest (The Last Rites of Jeff Myrtlebank's narration), Fort
   Sumter and Appomattox (The Passersby's narration), Dachau and the cities of He's Alive's closing narration, Austria
   (Mute), the Earth of The Parallel, and New York City as a plan in Caesar and Me.
-- **Not read yet:** Young Man's Fancy (Wikipedia has no article under either title tried), A Short Drink from a
-  Certain Fountain, Come Wander with Me, From Agnes – With Love, and the last 23 episodes of season 5.
+- **Read in part 6:** A Short Drink from a Certain Fountain, Come Wander with Me, From Agnes – With Love and the last
+  episodes of season 5.
 - Details were kept to what each article states: where an article gives only a surname or no city, so does the
   record (the Führerbunker record gives no city, the Death Valley cave no state).
+
+## Part 6: the last of the 1959 series
+- **Six more settings**, each quoted from the episode's Wikipedia article: London Flats, Maine (Night Call),
+  Howardsville, Virginia (Ring-a-Ding Girl), Maynard, Kansas (Steel), the Little Bighorn battlefield (The 7th Is Made
+  Up of Phantoms), Vietnam and home (In Praise of Pip) and the New York City apartment (What's in the Box).
+- **No named place:** A Short Drink from a Certain Fountain, Come Wander with Me, Living Doll, Nightmare at 20,000 Feet
+  (the article's place names belong to the 2019 remake), Ninety Years Without Slumbering, Number 12 Looks Just Like
+  You, Sounds and Silences, Spur of the Moment, The Brain Center at Whipple's, The Self-Improvement of Salvadore Ross,
+  Uncle Simon and You Drive (filming places only).
+- **Named only in passing, not added:** Cape Kennedy (From Agnes – With Love), the radio report's places in I Am the
+  Night—Color Me Black, Eden and Earth (Probe 7, Over and Out; The Long Morrow), Chicago (Queen of the Nile), Pearl
+  Harbor (The Encounter), New York City (The Fear, The Jeopardy Room) and the racetracks of The Last Night of a Jockey.
+- **Not read:** Young Man's Fancy (no Wikipedia article under either title tried). Every other 1959 episode article
+  has now been read for its settings.
 
 ## Found in the page check, fixed
 - **Organization pages listed no records.** Most organizations added overnight showed only their description,
@@ -211,7 +225,7 @@ for the review pages (src/lib/tags.ts).
 - **Awards filed as reviews:** the WGA and Emmy records above sit under Reviews > Awards and citations; the Read round
   should move honors to History, as the Media Library sweep did for two.
 - **Remarkable Ohio** was read only in part; the number of marker sides is not confirmed.
-- **Settings:** about 26 more 1959 episodes and the later series could be read the same way.
+- **Settings:** the 1959 series is done except Young Man's Fancy; the 1985, 2002 and 2019 series could be read the same way.
 - ~~Foundation media without records~~ linked in part 4.
 - **Possible duplicate:** the essays record for KWBU's Fresh Air page may repeat the Fresh Air podcast record.
 - ~~Batch tags shown to visitors~~ hidden in part 3.

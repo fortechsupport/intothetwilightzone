@@ -1,0 +1,21 @@
+name: "The New York City apartment (What's in the Box)"
+kind: in-story
+city: "New York City"
+region: "New York"
+country: "United States"
+filmed:
+- ref: 1959/whats-in-the-box
+  note: "The couple's home."
+episodes:
+- 1959/whats-in-the-box
+notes: >-
+  The story follows "an old married couple in New York City" at home.
+sources:
+- title: "Wikipedia: What's in the Box (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/What's_in_the_Box_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

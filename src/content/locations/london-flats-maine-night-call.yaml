@@ -1,0 +1,20 @@
+name: "London Flats, Maine (Night Call)"
+kind: in-story
+region: "Maine"
+country: "United States"
+filmed:
+- ref: 1959/night-call
+  note: "The town where the story is set."
+episodes:
+- 1959/night-call
+notes: >-
+  The story's main character "lives alone on the outskirts of London Flats, a tiny rural community in Maine".
+sources:
+- title: "Wikipedia: Night Call (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/Night_Call_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

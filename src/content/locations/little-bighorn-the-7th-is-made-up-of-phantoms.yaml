@@ -1,0 +1,20 @@
+name: "The Little Bighorn battlefield (The 7th Is Made Up of Phantoms)"
+kind: in-story
+country: "United States"
+filmed:
+- ref: 1959/the-7th-is-made-up-of-phantoms
+  note: "Where the story is set."
+episodes:
+- 1959/the-7th-is-made-up-of-phantoms
+notes: >-
+  The story is set "near the site of the Battle of the Little Bighorn"; Captain Dennet later enters the "Custer
+  Battlefield National Monument".
+sources:
+- title: "Wikipedia: The 7th Is Made Up of Phantoms (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/The_7th_Is_Made_Up_of_Phantoms_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'
