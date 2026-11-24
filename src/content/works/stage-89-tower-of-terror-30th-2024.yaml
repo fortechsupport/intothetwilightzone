@@ -6,6 +6,7 @@ description: A fan event near Walt Disney World marking the 35th anniversary of 
   30th of the Twilight Zone Tower of Terror, billed as the largest in-person gathering of former Imagineers, with
   panels on the ride. Mark Silverman, who voices the Rod Serling narration in the attraction, recorded a promo in
   character and met fans.
+official: false
 details:
   date: '2024'
   location: Near Walt Disney World, Florida
@@ -21,8 +22,6 @@ media:
   host: YouTube
   date: '2024'
   rights: link-only
-categories:
-- events/anniversaries-festivals
 research_confidence: medium
 relevance: related
 last_verified: '2026-11-20'

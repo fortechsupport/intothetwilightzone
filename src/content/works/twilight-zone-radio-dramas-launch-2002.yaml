@@ -11,8 +11,6 @@ sources:
 - title: 'Wikipedia: The Twilight Zone (radio series)'
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
   note: Cited on the site's radio series record; not re-fetched in this pass.
-categories:
-- events/premieres
 research_confidence: medium
 relevance: core
 last_verified: '2026-11-21'

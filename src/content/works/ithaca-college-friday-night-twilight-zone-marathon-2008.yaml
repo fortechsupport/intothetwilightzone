@@ -5,6 +5,7 @@ year: 2008
 description: An evening screening of original-series episodes that opened the 2008 Rod Serling Conference at Ithaca
   College, where Serling taught. The episodes were picked by an online popular vote and introduced by scholars of
   Serling's work; the conference ran on 28 and 29 March.
+official: false
 details:
   date: 2008-03-28, 8pm
   place: Park Auditorium, Park School, Ithaca College, Ithaca, New York
@@ -16,8 +17,6 @@ sources:
   url: https://web2.ithaca.edu/intercom-archive/article.php/20080322095202313.html
 content_of:
 - series/1959
-categories:
-- events/broadcasts-marathons
 relevance: related
 research_confidence: high
 tags:

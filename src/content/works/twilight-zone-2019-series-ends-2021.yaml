@@ -12,8 +12,6 @@ sources:
 - title: 'The Hollywood Reporter: The Twilight Zone canceled at CBS All Access'
   url: https://www.hollywoodreporter.com/live-feed/the-twilight-zone-canceled-at-cbs-all-access-exclusive
   note: Found by search; not fetched.
-categories:
-- events/production-history
 research_confidence: medium
 relevance: core
 last_verified: '2026-11-21'

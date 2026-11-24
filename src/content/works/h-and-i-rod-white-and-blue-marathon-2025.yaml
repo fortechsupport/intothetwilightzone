@@ -17,8 +17,6 @@ sources:
   note: Seen as a search result (title and URL); the article body was not fetched.
 content_of:
 - series/1959
-categories:
-- events/broadcasts-marathons
 relevance: core
 research_confidence: medium
 tags:

@@ -20,9 +20,9 @@ media:
   date: '1970-03-13'
   rights: link-only
   note: Catalogue entry; copies by request.
-categories:
-- lectures/interviews-conversations
 research_confidence: medium
 relevance: related
 last_verified: '2026-11-20'
 locked: true
+content_of:
+- people/rod-serling

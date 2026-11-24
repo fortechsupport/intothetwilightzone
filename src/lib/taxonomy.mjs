@@ -27,6 +27,8 @@ export const MUSIC_GROUPS = ['The Twilight Zone (1959)', 'Night Gallery', 'Twili
 
 // Podcasts (docs/plans/research-podcasts.md, section 2): shelf B is grouped by what a podcast covers, shelf C by
 // the subject of the episode, both in this fixed order.
+/** Conventions and conferences (Attend plan, section 2). */
+const CONVENTION_GROUP = (id, d) => (/conference|symposium|serling-at-100|st-john-fisher/.test(id) ? 'Conferences and symposia' : /twilight-zone-convention|stars-of-the-zone|mausoleum/.test(id) ? 'Twilight Zone conventions' : 'Panels and salutes');
 /** Home video groups, in the order the shows were made (Collect plan, section 2). */
 export const HOME_VIDEO_GROUPS = ['The Twilight Zone (1959)', 'Night Gallery', 'Twilight Zone: The Movie (1983)', 'The Twilight Zone (1985)', 'The Twilight Zone (2002)', 'The Twilight Zone (2019)'];
 export function homeVideoShow(title) {
@@ -143,10 +145,10 @@ export const TAXONOMY = [
     connection: 'Every event here is part of the franchise\'s own history, honors Rod Serling or the show, or is a gathering devoted to it.',
     seeAlso: [['History', '/history/'], ['Timeline', '/timeline/']],
     subs: [
-      { slug: 'anniversaries-festivals', title: 'Anniversaries and festivals', blurb: 'Anniversary celebrations and festivals, including Binghamton\'s Rod Serling festivals.' },
-      { slug: 'broadcasts-marathons', title: 'Screenings and marathons', blurb: 'Notable airings, from the premiere to the holiday marathons.' },
-      { slug: 'conventions', title: 'Conventions', blurb: 'Fan conventions and gatherings devoted to the show.' },
-      { slug: 'exhibitions', title: 'Exhibitions', blurb: 'Museum shows and exhibits about Serling and the series.' },
+      { slug: 'anniversaries-festivals', title: 'Anniversaries and festivals', groups: ['SerlingFest', 'Film festivals', 'Anniversaries and days'], blurb: 'Anniversary celebrations and festivals, including SerlingFest in Binghamton.' },
+      { slug: 'broadcasts-marathons', title: 'Screenings and marathons', groups: ['TV marathons', 'Screenings'], blurb: 'The holiday marathons on television, and screenings in cinemas, schools and theatres.' },
+      { slug: 'conventions', title: 'Conventions and conferences', groups: ['Twilight Zone conventions', 'Conferences and symposia', 'Panels and salutes'], blurb: 'Twilight Zone conventions, Rod Serling conferences, and panels about the show at other gatherings.' },
+      { slug: 'exhibitions', title: 'Exhibitions', groups: ['Museum exhibits', 'Art exhibitions'], blurb: 'Museum shows and exhibits about Serling and the series, and art shows inspired by it.' },
       { slug: 'other-events', title: 'Other events', blurb: 'Events that fit no other group.' },
     ],
   },
@@ -411,10 +413,9 @@ export const TAXONOMY = [
     ],
     connection: 'Each entry is a talk by Rod Serling, a lecture or course about the show, or classroom material built on it.',
     subs: [
-      { slug: 'academic', title: 'Academic lectures and courses', blurb: 'University lectures, conference talks and courses about the show.' },
-      { slug: 'classroom', title: 'In the classroom', blurb: 'Teleplays in school anthologies and lesson plans.' },
-      { slug: 'readings-panels', title: 'Readings and panels', blurb: 'Panel discussions and public readings.' },
-      { slug: 'serling-lectures', title: "Rod Serling's lectures and speeches", blurb: 'Serling speaking at colleges, award dinners and conferences.' },
+      { slug: 'academic', title: 'Talks about the show', blurb: 'Lectures, keynotes, readings and panels about Serling and the show, by scholars, family and fans.' },
+      { slug: 'classroom', title: 'In the classroom', groups: ['School lessons and resources', 'University and adult courses'], blurb: 'Teleplays in school anthologies, lesson plans, and university and adult-education courses.' },
+      { slug: 'serling-lectures', title: "Rod Serling's lectures and teaching", groups: ['Speeches and lectures', 'Teaching'], blurb: 'Serling speaking at colleges and conferences, and the classes he taught at Antioch and Ithaca.' },
     ],
   },
   // ---- Categories added during research (flagged new) ----
@@ -646,6 +647,7 @@ const ALIASES = {
   'artwork/comic-and-magazine-covers': ['artwork', 'covers'],
   'artwork/makeup-and-production-design': ['artwork', 'production-design'],
   'artwork/exhibitions': ['events', 'exhibitions', 'Art exhibitions'],
+  'events/broadcasts-marathons': ['events', 'broadcasts-marathons', 'TV marathons'],
 };
 /**
  * The nine-verb structure (Adam, 2026-11-21) moved some subcategories. Every placement, however it was
@@ -673,6 +675,8 @@ const MOVES = {
   // Music (2026-11-24): docs/plans/research-music.md splits Songs into three shelves; the old address goes to the
   // largest of them.
   'music/songs': ['music', 'songs-mention'],
+  // Attend (2026-11-24): docs/plans/research-attend.md folds Readings and panels into Talks about the show.
+  'lectures/readings-panels': ['lectures', 'academic'],
 };
 export function remap(cat, sub) {
   const m = MOVES[`${cat}/${sub}`];
@@ -855,7 +859,7 @@ export function place(col, id, d, ctx = {}) {
         const rt = d.review_type ?? (yr && yr <= 1965 ? 'contemporary' : 'retrospective');
         add('reviews', { contemporary: 'contemporary', retrospective: 'retrospective', ranking: 'rankings', 'awards-citation': 'awards-citations' }[rt]);
       } else if (k === 'speech' || k === 'lecture') {
-        add('lectures', (d.authors ?? []).some(isSerlingName) ? 'serling-lectures' : 'academic');
+        add('lectures', (d.authors ?? []).some(isSerlingName) ? 'serling-lectures' : 'academic', (d.authors ?? []).some(isSerlingName) ? 'Speeches and lectures' : undefined);
       } else if (k === 'script') add('reading', 'scripts', 'Single scripts');
       else if (k === 'interview' || k === 'article') add('reading', 'articles', k === 'interview' ? 'Interviews' : 'Articles');
       else add('reading', 'essays', { 'journal-article': 'Journal articles', 'book-chapter': 'Book chapters', essay: 'Essays', 'academic-thesis': 'Theses and dissertations' }[k] ?? 'Essays');
@@ -991,22 +995,31 @@ function placeWork(d, st, add, id) {
       return;
     case 'attraction':
       add('places', 'attractions', /ride/.test(st) ? 'Rides' : /museum|exhibit/.test(st) ? 'Exhibits' : 'Attractions');
-      if (/museum|exhibit/.test(st)) add('events', 'exhibitions');
+      if (/museum|exhibit/.test(st)) add('events', 'exhibitions', 'Museum exhibits');
       return;
     case 'event':
-      if (/honor|award/.test(st)) add('events', 'honors-awards');
-      else if (/festival|anniversary/.test(st)) add('events', 'anniversaries-festivals');
-      else if (/marathon|broadcast/.test(st)) add('events', 'broadcasts-marathons');
+      // Attend plan (docs/plans/research-attend.md, section 2): Events lists gatherings; milestones go to History.
+      if (st === 'history') {
+        if (/accident/.test(lc(d.title))) add('events', 'legal', 'The 1982 accident and trial');
+        else if (!(d.categories ?? []).length) add('history', /serling/i.test(d.title ?? '') ? 'serling-life' : 'production-history');
+        return;
+      }
+      if (/honor|award|stamp/.test(st)) add('events', 'honors-awards');
+      else if (/festival|anniversary/.test(st)) add('events', 'anniversaries-festivals', /serlingfest/.test(id) ? 'SerlingFest' : /festival/.test(st) ? 'Film festivals' : 'Anniversaries and days');
+      else if (/marathon/.test(st)) add('events', 'broadcasts-marathons', 'TV marathons');
+      else if (/screening/.test(st)) add('events', 'broadcasts-marathons', 'Screenings');
+      else if (/broadcast/.test(st)) add('events', 'production-history');
       else if (/premiere/.test(st)) add('events', 'premieres');
-      else if (/exhibit/.test(st)) add('events', 'exhibitions');
-      else if (/convention/.test(st)) add('events', 'conventions');
+      else if (/exhibit/.test(st)) add('events', 'exhibitions', 'Museum exhibits');
+      else if (/concert/.test(st)) add('music', 'covers-samples', 'Covers and arrangements of the theme');
+      else if (/convention/.test(st)) add('events', 'conventions', CONVENTION_GROUP(id, d));
       else if (/trial|lawsuit|suit/.test(st)) add('events', 'legal', LEGAL_GROUP(st));
       else if (/production|accident/.test(st)) add('events', 'production-history');
       else add('events', 'other-events');
       if (/accident/.test(lc(d.title)) && !/trial/.test(st)) add('events', 'legal', 'The 1982 accident and trial');
       return;
     case 'convention':
-      add('events', 'conventions');
+      add('events', 'conventions', CONVENTION_GROUP(id, d));
       return;
     case 'memorial':
       add('places', 'memorials-exhibits');
@@ -1031,11 +1044,13 @@ function placeWork(d, st, add, id) {
       add('organizations', 'fan-groups', /contest/.test(st) ? 'Contests' : undefined);
       return;
     case 'education':
-      add('lectures', 'classroom');
+      add('lectures', 'classroom', /course|university|college|seminar|olli|themester|lifelong/i.test(`${st} ${d.title} ${d.publisher ?? ''}`) ? 'University and adult courses' : 'School lessons and resources');
       return;
     case 'lecture':
-      if (/panel|reading/.test(st)) add('lectures', 'readings-panels');
-      else add('lectures', isSerling ? 'serling-lectures' : 'academic');
+      // Attend plan, section 2: a talk is Serling's only when he gave it (the record's creator), not when its title
+      // names him. His seminars and classes are "Teaching".
+      if (isSerlingName(d.creator)) add('lectures', 'serling-lectures', /seminar|class/.test(st) ? 'Teaching' : 'Speeches and lectures');
+      else add('lectures', 'academic');
       return;
     case 'legal':
       add('events', 'legal', LEGAL_GROUP(st));

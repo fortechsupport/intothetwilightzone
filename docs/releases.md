@@ -3,6 +3,21 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Attend: Events and Lectures sorted, 66 hidden records shown
+
+Visitors can now:
+- Find gatherings on four Events shelves: anniversaries and festivals (SerlingFest, film festivals), screenings and
+  marathons, conventions and conferences, and exhibitions, each grouped, with official events (CBS's 2019 panels,
+  Fathom's 60th-anniversary screenings, Disney's Tower of Terror anniversaries, network marathons) apart from fan ones.
+- Read Rod Serling's own lectures and his teaching at Antioch and Ithaca on one shelf, apart from talks about him.
+- See 64 records that were hidden for lack of a decision, most of them dated events in Serling's life, now under
+  History > Rod Serling's life, and two new events: Alan Sepinwall's Serling talk at the ATX TV Festival (2026) and
+  UCLA's screening of The Loner (January 2026).
+
+**Known not to work yet:**
+- Upcoming events are listed only when someone adds them; there is no yearly calendar yet.
+- Serling's Elmira and Library of Congress lectures each appear twice, as an event and as a text.
+
 ## 2026-11-24 — Collect: Artwork and Merchandise, each item in one place
 
 Visitors can now:
