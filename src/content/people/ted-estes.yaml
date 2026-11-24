@@ -1,6 +1,14 @@
 name: Ted Estes
-bio: Pinball software engineer at Williams/Midway.
-roles: []
+bio: >-
+  Ted Estes co-designed and programmed Midway's Twilight Zone pinball machine (1993) with Pat Lawlor and Larry DeMar. He was a pinball software engineer at Williams and Midway.
+roles:
+- pinball designer
+- game programmer
+tz_credits:
+- series: Twilight Zone (pinball, 1993)
+  work: Twilight Zone (pinball)
+  ref: works/twilight-zone-pinball-1993
+  role: designer and software
 relevance: related
 research_confidence: high
 sources:

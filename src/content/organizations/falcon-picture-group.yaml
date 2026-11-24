@@ -1,0 +1,13 @@
+name: Falcon Picture Group
+kind: production-company
+description: Made The Twilight Zone Radio Dramas (2002 to 2012), narrated by Stacy Keach, under license from CBS and the
+  Serling estate.
+official: true
+relevance: core
+sources:
+- title: 'Wikipedia: The Twilight Zone (radio series)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
+research_confidence: medium
+last_verified: '2026-11-24'
+tags:
+- meet-2026-11-24

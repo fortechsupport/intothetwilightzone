@@ -1,0 +1,13 @@
+name: Funko
+kind: toy-company
+description: Maker of licensed Funko Pop! figures of the original series (2024), among them Rod Serling as the Narrator,
+  the Gremlin and Mr. Robert Wilson, and a Hollywood Tower Hotel Pop! Town set (2022).
+official: true
+relevance: related
+sources:
+- title: funko.com
+  url: https://funko.com/pop-deluxe-robert-wilson/80197.html
+research_confidence: medium
+last_verified: '2026-11-24'
+tags:
+- meet-2026-11-24

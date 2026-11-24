@@ -103,6 +103,7 @@ export const TAXONOMY = [
       { slug: 'composers', title: 'Composers', blurb: 'The composers behind the themes and scores.', intro: 'CBS commissioned original scores for many episodes and drew the rest from its music library, so the show carries work by Bernard Herrmann, Jerry Goldsmith, Fred Steiner, Nathan Van Cleave and Marius Constant, whose library cues became the famous theme.' },
       { slug: 'crew', title: 'Crew', blurb: 'Cinematographers, editors, make-up and effects artists, story editors and other crew.', intro: "The look of the show came from people who rarely get named: cinematographer George T. Clemens, make-up artist William Tuttle, and the MGM art department that turned backlot streets into Maple Street and Willoughby." },
       { slug: 'directors', title: 'Directors', blurb: 'Everyone who directed an episode, segment or film.', intro: 'The original series used many directors from film and live television, among them John Brahm, Douglas Heyes, Buzz Kulik, Richard Donner, Lamont Johnson and Don Siegel. The film brought in John Landis, Steven Spielberg, Joe Dante and George Miller.' },
+      { slug: 'game-makers', title: 'Game makers', isNew: true, blurb: 'Designers, programmers, artists and sound makers of the licensed games, above all the 1993 pinball machine.', intro: 'Pat Lawlor\'s team at Midway built the Twilight Zone pinball machine (1993), widely ranked among the most complex ever made. Each name links to the game they worked on.' },
       { slug: 'family', title: 'Family', blurb: "Rod Serling's family, who have kept his work alive.", intro: "Carol Serling licensed and championed the franchise for decades after her husband's death; their daughters Jodi and Anne have written and spoken about him." },
       { slug: 'fans', title: 'Fans and admirers', blurb: 'Writers, filmmakers and performers who have said in public what the show means to them.', intro: 'Stephen King, Steven Spielberg, Jordan Peele, Guillermo del Toro, Vince Gilligan and many others have said the show shaped how they tell stories. Each name links to their sourced quotes.' },
       { slug: 'inspired-creators', title: 'Creators it inspired', blurb: 'Artists whose work credits The Twilight Zone as an influence.', isNew: true, intro: 'Creators with a documented link between their own work and the show, beyond a single quote.' },
@@ -1126,10 +1127,11 @@ export function placePerson({ roles = [], creditRoles = [], quoted = false, play
   if (r.some((x) => /^actor|actress|performer/.test(x)) || c.includes('cast')) out.add('actors');
   if (c.includes('radio cast') || r.some((x) => /voice/.test(x))) out.add('voice-actors');
   if (any(/narrator|host/)) out.add('narrators-hosts');
-  if (any(/composer|theme music|music|musician|conductor/)) out.add('composers');
-  if (r.some((x) => /cinematograph|editor|make-?up|effects|crew|art director|designer|artist|costume|photograph|casting/.test(x)) && !r.some((x) => /story editor/.test(x) && r.length === 1)) out.add('crew');
+  if (any(/composer|theme music|music|musician|conductor|orchestrat/)) out.add('composers');
+  if (r.some((x) => /cinematograph|editor|make-?up|effects|crew|art director|set decorat|designer|artist|costume|photograph|casting/.test(x) && !/pinball|game/.test(x)) && !r.some((x) => /story editor/.test(x) && r.length === 1)) out.add('crew');
   if (r.some((x) => /story editor/.test(x))) out.add('writers');
   if (c.some((x) => /comics artist|cover artist|inker|colorist/.test(x)) || r.some((x) => /illustrat|painter|comic artist|cover artist/.test(x))) out.add('artists');
+  if (r.some((x) => /pinball|game (designer|programmer|artist)/.test(x))) out.add('game-makers'); // Meet plan: the pinball and game teams
   if (r.some((x) => /historian|scholar|biographer|critic|teacher|professor|archivist/.test(x))) out.add('scholars-historians');
   if (r.some((x) => /family|wife|daughter|son|brother|widow/.test(x))) out.add('family');
   if (r.some((x) => /inspired/.test(x))) out.add('inspired-creators');

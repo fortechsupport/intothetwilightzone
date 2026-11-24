@@ -1,6 +1,14 @@
 name: Larry DeMar
-bio: 'Williams/Midway pinball and video game programmer, a co-creator of Defender and Robotron: 2084.'
-roles: []
+bio: >-
+  Larry DeMar co-designed and programmed Midway's Twilight Zone pinball machine (1993) with Pat Lawlor and Ted Estes. A Williams and Midway programmer, he co-created the video games Defender and Robotron: 2084.
+roles:
+- pinball designer
+- game programmer
+tz_credits:
+- series: Twilight Zone (pinball, 1993)
+  work: Twilight Zone (pinball)
+  ref: works/twilight-zone-pinball-1993
+  role: designer and software
 relevance: related
 research_confidence: high
 sources:
