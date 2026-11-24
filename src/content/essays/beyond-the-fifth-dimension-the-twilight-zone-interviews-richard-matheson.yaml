@@ -3,8 +3,10 @@ authors:
 - William P. Simmons
 - Richard Matheson
 published_in: Cemetery Dance (reprinted by Rod Serling Memorial Foundation)
+published: '2006-02-04'
 kind: interview
-description: Matheson discusses writing for Serling's series and adapting his own stories for it.
+description: Matheson discusses writing for Serling's series and adapting his own stories for it. The date is that
+  of the Rod Serling Memorial Foundation's reprint; the Cemetery Dance issue it first appeared in is not named there.
 episodes:
 - 1959/nightmare-at-20-000-feet
 links:
@@ -13,9 +15,12 @@ categories:
 - reading/serling-foundation-papers
 research_confidence: medium
 sources:
+- title: 'Cemetery Dance (reprinted by Rod Serling Memorial Foundation): the article page'
+  url: https://rodserling.com/the-cemetery-dace-interviews-richard-matheson/
+  note: 'Read 2026-11-24 for the byline and date: "By William P. Simmons" (interviewer; Richard Matheson interviewed), posted on the Foundation''s site February 4th, 2006, "Previously published in Cemetery Dance magazine, reprinted by author''s permission"; the magazine issue is not named.'
 - title: Articles - Rod Serling Memorial Foundation
   url: https://rodserling.com/articles-2
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true
 organizations:
 - Rod Serling Memorial Foundation

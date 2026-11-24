@@ -1,6 +1,8 @@
 title: Chatbots in the Twilight Zone
+authors:
+- 'Stephen Schlich'
 published_in: Rod Serling Memorial Foundation
-published: 2024-11
+published: '2023-03-31'
 kind: article
 description: Serling Foundation article connecting AI chatbots to The Twilight Zone (contents not checked beyond
   the title).
@@ -10,9 +12,12 @@ categories:
 - reading/serling-foundation-papers
 research_confidence: low
 sources:
+- title: 'Rod Serling Memorial Foundation: the article page'
+  url: https://rodserling.com/chatbots-in-the-twilight-zone/
+  note: 'Read 2026-11-24 for the byline and date: byline Stephen Schlich, posted March 31st, 2023 (the record had said November 2024, which is the page''s modified time).'
 - title: Articles - Rod Serling Memorial Foundation
   url: https://rodserling.com/articles-2
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true
 organizations:
 - Rod Serling Memorial Foundation

@@ -1,4 +1,6 @@
 title: NPR feature on Rod Serling (transcript)
+authors:
+- 'Elizabeth Blair'
 published_in: NPR
 published: '2024'
 kind: article
@@ -9,5 +11,6 @@ research_confidence: low
 sources:
 - title: NPR
   url: https://www.npr.org/transcripts/1248501666
-last_verified: '2026-11-20'
+  note: 'Read 2026-11-24 for the byline and date: the transcript credits "ELIZABETH BLAIR, BYLINE" (host Ari Shapiro); the page prints "Copyright © 2024 NPR" and no fuller date.'
+last_verified: '2026-11-24'
 locked: true

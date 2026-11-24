@@ -26595,16 +26595,16 @@
    "catTitle": "Reading",
    "subTitle": "Articles and interviews",
    "isNew": false,
-   "official": true
+   "official": false
   },
   {
    "cat": "reading",
-   "sub": "serling-own-writing",
+   "sub": "serling-foundation-papers",
    "group": null,
    "catTitle": "Reading",
-   "subTitle": "Rod Serling's own writing",
+   "subTitle": "Rod Serling Memorial Foundation publications",
    "isNew": true,
-   "official": true
+   "official": false
   }
  ],
  "essays/contagios-del-futuro-en-the-twilight-zone": [

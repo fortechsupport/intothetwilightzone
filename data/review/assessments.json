@@ -485,8 +485,8 @@
   "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
   "recommendation": "maybe",
   "reason": "A light, sourced tie: worth keeping if you want the site to map the show's wider footprint.",
-  "source_title": "Books On Twilight Zone or By Twilight Zone-linked People (Twilight Zone Museum)",
-  "source_url": "https://twilightzonemuseum.com/media/books/index.php",
+  "source_title": "ZVAB: bookseller listing (ISBN 9781595712929)",
+  "source_url": "https://www.zvab.com/9781595712929/Beyond-Peyton-Place-Fifty-Years-1595712925/plp",
   "title": "Beyond Peyton Place: My Fifty Years on Stage, Screen, and Television",
   "subcategory": "Biography and memoir",
   "sort": "beyond peyton place my fifty years on stage screen and television"
@@ -1863,10 +1863,10 @@
   "connection": "James Van Hise's survey of American science-fiction television from the late 1950s to the early 1990s, which opens with The Twilight Zone.",
   "tier": "related",
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
-  "recommendation": "maybe",
-  "reason": "Related to the show, but nothing beyond the original spreadsheet backs it up yet.",
-  "source_title": "",
-  "source_url": "",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "AuthorWars (ISFDb-based catalogue): publication record",
+  "source_url": "https://authorwars.com/publications/sci-fi-tv-from-the-twilight-zone-to-deep-space-nine-359167.html",
   "title": "Sci Fi TV: From The Twilight Zone to Deep Space Nine",
   "subcategory": "Scholarship and criticism",
   "sort": "sci fi tv from the twilight zone to deep space nine"
@@ -2429,8 +2429,8 @@
   "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
   "recommendation": "maybe",
   "reason": "Print research flag: Only partly about The Twilight Zone. Publisher and date are from memory; no source opened.",
-  "source_title": "",
-  "source_url": "",
+  "source_title": "Texas A&M University Libraries catalogue record",
+  "source_url": "https://libcat.library.tamu.edu/Record/in00002230576",
   "title": "The Gospel According to Science Fiction: From The Twilight Zone to The Final Frontier",
   "subcategory": "Scholarship and criticism",
   "sort": "gospel according to science fiction from the twilight zone to the final frontier"
@@ -15077,8 +15077,8 @@
   "tier_reason": "A Twilight Zone comic.",
   "recommendation": "include",
   "reason": "A licensed Twilight Zone comic from Gold Key Comics; part of the complete print history.",
-  "source_title": "MyComicShop: Twilight Zone (1962 Gold Key), page 1",
-  "source_url": "https://www.mycomicshop.com/search?TID=193921",
+  "source_title": "Heritage Auctions comic issue index (Grand Comics Database data)",
+  "source_url": "https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=20424",
   "title": "The Twilight Zone # 18",
   "subcategory": "Gold Key (1962-1982)",
   "sort": "twilight zone  000018"
@@ -15089,8 +15089,8 @@
   "tier_reason": "A Twilight Zone comic.",
   "recommendation": "include",
   "reason": "A licensed Twilight Zone comic from Gold Key Comics; part of the complete print history.",
-  "source_title": "MyComicShop: Twilight Zone (1962 Gold Key), page 1",
-  "source_url": "https://www.mycomicshop.com/search?TID=193921",
+  "source_title": "Heritage Auctions comic issue index (Grand Comics Database data)",
+  "source_url": "https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=20675",
   "title": "The Twilight Zone # 19",
   "subcategory": "Gold Key (1962-1982)",
   "sort": "twilight zone  000019"
@@ -15149,8 +15149,8 @@
   "tier_reason": "A Twilight Zone comic.",
   "recommendation": "include",
   "reason": "A licensed Twilight Zone comic from Gold Key Comics; part of the complete print history.",
-  "source_title": "MyComicShop: Twilight Zone (1962 Gold Key), page 1",
-  "source_url": "https://www.mycomicshop.com/search?TID=193921",
+  "source_title": "Heritage Auctions comic issue index (Grand Comics Database data)",
+  "source_url": "https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=20823",
   "title": "The Twilight Zone # 20",
   "subcategory": "Gold Key (1962-1982)",
   "sort": "twilight zone  000020"
@@ -15173,8 +15173,8 @@
   "tier_reason": "A Twilight Zone comic.",
   "recommendation": "include",
   "reason": "A licensed Twilight Zone comic from Gold Key Comics; part of the complete print history.",
-  "source_title": "MyComicShop: Twilight Zone (1962 Gold Key), page 1",
-  "source_url": "https://www.mycomicshop.com/search?TID=193921",
+  "source_title": "Heritage Auctions comic issue index (Grand Comics Database data)",
+  "source_url": "https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=20975",
   "title": "The Twilight Zone # 21",
   "subcategory": "Gold Key (1962-1982)",
   "sort": "twilight zone  000021"
@@ -15197,8 +15197,8 @@
   "tier_reason": "A Twilight Zone comic.",
   "recommendation": "include",
   "reason": "A licensed Twilight Zone comic from Gold Key Comics; part of the complete print history.",
-  "source_title": "MyComicShop: Twilight Zone (1962 Gold Key), page 1",
-  "source_url": "https://www.mycomicshop.com/search?TID=193921",
+  "source_title": "Heritage Auctions comic issue index (Grand Comics Database data)",
+  "source_url": "https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=21123",
   "title": "The Twilight Zone # 22",
   "subcategory": "Gold Key (1962-1982)",
   "sort": "twilight zone  000022"
@@ -15209,8 +15209,8 @@
   "tier_reason": "A Twilight Zone comic.",
   "recommendation": "include",
   "reason": "A licensed Twilight Zone comic from Gold Key Comics; part of the complete print history.",
-  "source_title": "MyComicShop: Twilight Zone (1962 Gold Key), page 1",
-  "source_url": "https://www.mycomicshop.com/search?TID=193921",
+  "source_title": "Heritage Auctions comic issue index (Grand Comics Database data)",
+  "source_url": "https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=21356",
   "title": "The Twilight Zone # 23",
   "subcategory": "Gold Key (1962-1982)",
   "sort": "twilight zone  000023"
@@ -15221,8 +15221,8 @@
   "tier_reason": "A Twilight Zone comic.",
   "recommendation": "include",
   "reason": "A licensed Twilight Zone comic from Gold Key Comics; part of the complete print history.",
-  "source_title": "MyComicShop: Twilight Zone (1962 Gold Key), page 1",
-  "source_url": "https://www.mycomicshop.com/search?TID=193921",
+  "source_title": "Heritage Auctions comic issue index (Grand Comics Database data)",
+  "source_url": "https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=21588",
   "title": "The Twilight Zone # 24",
   "subcategory": "Gold Key (1962-1982)",
   "sort": "twilight zone  000024"
@@ -15233,8 +15233,8 @@
   "tier_reason": "A Twilight Zone comic.",
   "recommendation": "include",
   "reason": "A licensed Twilight Zone comic from Gold Key Comics; part of the complete print history.",
-  "source_title": "MyComicShop: Twilight Zone (1962 Gold Key), page 1",
-  "source_url": "https://www.mycomicshop.com/search?TID=193921",
+  "source_title": "Heritage Auctions comic issue index (Grand Comics Database data)",
+  "source_url": "https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=21790",
   "title": "The Twilight Zone # 25",
   "subcategory": "Gold Key (1962-1982)",
   "sort": "twilight zone  000025"
@@ -15245,8 +15245,8 @@
   "tier_reason": "A Twilight Zone comic.",
   "recommendation": "include",
   "reason": "A licensed Twilight Zone comic from Gold Key Comics; part of the complete print history.",
-  "source_title": "MyComicShop: Twilight Zone (1962 Gold Key), page 1",
-  "source_url": "https://www.mycomicshop.com/search?TID=193921",
+  "source_title": "Heritage Auctions comic issue index (Grand Comics Database data)",
+  "source_url": "https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=22008",
   "title": "The Twilight Zone # 26",
   "subcategory": "Gold Key (1962-1982)",
   "sort": "twilight zone  000026"
@@ -15257,8 +15257,8 @@
   "tier_reason": "A Twilight Zone comic.",
   "recommendation": "include",
   "reason": "A licensed Twilight Zone comic from Gold Key Comics; part of the complete print history.",
-  "source_title": "MyComicShop: Twilight Zone (1962 Gold Key), page 1",
-  "source_url": "https://www.mycomicshop.com/search?TID=193921",
+  "source_title": "Heritage Auctions comic issue index (Grand Comics Database data)",
+  "source_url": "https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=22391",
   "title": "The Twilight Zone # 27",
   "subcategory": "Gold Key (1962-1982)",
   "sort": "twilight zone  000027"
@@ -28272,13 +28272,13 @@
   "sort": "beyond the fifth dimension the twilight zone interviews  chris beaumont"
  },
  "essays/beyond-the-fifth-dimension-the-twilight-zone-interviews-richard-matheson": {
-  "connection": "Matheson discusses writing for Serling's series and adapting his own stories for it.",
+  "connection": "Matheson discusses writing for Serling's series and adapting his own stories for it. The date is that of the Rod Serling Memorial Foundation's reprint; the Cemetery Dance issue it first appeared in is not named there.",
   "tier": "core",
   "tier_reason": "Writing about the show.",
   "recommendation": "include",
   "reason": "Core piece of writing: a complete record of the franchise should have it.",
-  "source_title": "Articles - Rod Serling Memorial Foundation",
-  "source_url": "https://rodserling.com/articles-2",
+  "source_title": "Cemetery Dance (reprinted by Rod Serling Memorial Foundation): the article page",
+  "source_url": "https://rodserling.com/the-cemetery-dace-interviews-richard-matheson/",
   "title": "Beyond the Fifth Dimension: The Twilight Zone Interviews - Richard Matheson",
   "subcategory": "Interviews",
   "sort": "beyond the fifth dimension the twilight zone interviews  richard matheson"
@@ -28289,8 +28289,8 @@
   "tier_reason": "Writing about the show.",
   "recommendation": "include",
   "reason": "Core piece of writing: a complete record of the franchise should have it.",
-  "source_title": "Articles - Rod Serling Memorial Foundation",
-  "source_url": "https://rodserling.com/articles-2",
+  "source_title": "Cemetery Dance (reprinted by Rod Serling Memorial Foundation): the article page",
+  "source_url": "https://rodserling.com/the-twilight-zone-interviews-roger-anker/",
   "title": "Beyond the Fifth Dimension: The Twilight Zone Interviews - Roger Anker",
   "subcategory": "Interviews",
   "sort": "beyond the fifth dimension the twilight zone interviews  roger anker"
@@ -28301,8 +28301,8 @@
   "tier_reason": "Writing about the show.",
   "recommendation": "include",
   "reason": "Core piece of writing: a complete record of the franchise should have it.",
-  "source_title": "Articles - Rod Serling Memorial Foundation",
-  "source_url": "https://rodserling.com/articles-2",
+  "source_title": "Rod Serling Memorial Foundation (from Cemetery Dance interview series): the article page",
+  "source_url": "https://rodserling.com/a-discussion-with-tony-albarella-about-rod-serling-and-the-twilight-zone/",
   "title": "Beyond the Fifth Dimension: The Twilight Zone Interviews - Tony Albarella",
   "subcategory": "Interviews",
   "sort": "beyond the fifth dimension the twilight zone interviews  tony albarella"
@@ -28385,8 +28385,8 @@
   "tier_reason": "Writing about the show.",
   "recommendation": "maybe",
   "reason": "Only the title and a listing were checked; keep if you want the fullest bibliography.",
-  "source_title": "Articles - Rod Serling Memorial Foundation",
-  "source_url": "https://rodserling.com/articles-2",
+  "source_title": "Rod Serling Memorial Foundation: the article page",
+  "source_url": "https://rodserling.com/chatbots-in-the-twilight-zone/",
   "title": "Chatbots in the Twilight Zone",
   "subcategory": "Articles",
   "sort": "chatbots in the twilight zone"
@@ -28416,11 +28416,11 @@
   "sort": "commencement speech at ithaca college 001972"
  },
  "essays/congress-remains-in-the-twilight-zone": {
-  "connection": "Opinion piece reproduced by the Rod Serling Memorial Foundation in which Serling borrows his series' name to criticize Congress.",
+  "connection": "A 2000 newspaper column by David Rossie, reproduced by the Rod Serling Memorial Foundation, that borrows the series' name to criticize Congress.",
   "tier": "core",
   "tier_reason": "Writing about the show.",
-  "recommendation": "maybe",
-  "reason": "Only the title and a listing were checked; keep if you want the fullest bibliography.",
+  "recommendation": "include",
+  "reason": "Core piece of writing: a complete record of the franchise should have it.",
   "source_title": "Articles (Rod Speaks Out) - Rod Serling Memorial Foundation",
   "source_url": "https://rodserling.com/rod-speaks-out/",
   "title": "Congress Remains in the Twilight Zone",
@@ -28469,8 +28469,8 @@
   "tier_reason": "Writing by or about Rod Serling.",
   "recommendation": "include",
   "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
-  "source_title": "Articles - Rod Serling Memorial Foundation",
-  "source_url": "https://rodserling.com/articles-2",
+  "source_title": "Rod Serling Memorial Foundation: the article page",
+  "source_url": "https://rodserling.com/cowboy-with-a-conscience-2/",
   "title": "Cowboy with a Conscience",
   "subcategory": "Articles",
   "sort": "cowboy with a conscience"
@@ -28817,8 +28817,8 @@
   "tier_reason": "Writing by or about Rod Serling.",
   "recommendation": "include",
   "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
-  "source_title": "Articles - Rod Serling Memorial Foundation",
-  "source_url": "https://rodserling.com/articles-2",
+  "source_title": "Letters of Note: the article page",
+  "source_url": "https://news.lettersofnote.com/p/he-asked-only-for-equality",
   "title": "He Asked Only for Equality",
   "subcategory": "Articles",
   "sort": "he asked only for equality"
@@ -28853,8 +28853,8 @@
   "tier_reason": "Writing by or about Rod Serling.",
   "recommendation": "include",
   "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
-  "source_title": "Articles - Rod Serling Memorial Foundation",
-  "source_url": "https://rodserling.com/articles-2",
+  "source_title": "25 Years Later: the article page",
+  "source_url": "https://25yearslatersite.com/2019/08/16/the-twilight-zone-the-monsters-are-due-on-maple-street/",
   "title": "How 'The Monsters Are Due on Maple Street' Anticipated the USA of 2019",
   "subcategory": "Articles",
   "sort": "how the monsters are due on maple street anticipated the usa of 002019"
@@ -30749,8 +30749,8 @@
   "tier_reason": "Reception of the show.",
   "recommendation": "include",
   "reason": "Shows how its reputation has held up; useful context for readers.",
-  "source_title": "Twilight Zone: The Movie - Wikipedia (references)",
-  "source_url": "https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie",
+  "source_title": "thetwizard.com: the article page",
+  "source_url": "https://thetwizard.com/2019/11/20/twilight-zone-the-movie-1983-movie-review/",
   "title": "Twilight Zone: The Movie (1983) | Movie Review (thetwizard.com)",
   "subcategory": "Reviews: retrospective",
   "sort": "twilight zone the movie 001983  movie review thetwizardcom"
@@ -31037,8 +31037,8 @@
   "tier_reason": "Writing by or about Rod Serling.",
   "recommendation": "include",
   "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
-  "source_title": "Articles - Rod Serling Memorial Foundation",
-  "source_url": "https://rodserling.com/articles-2",
+  "source_title": "Jewish Currents: the article page",
+  "source_url": "https://jewishcurrents.org/rod-serling-and-the-conscience-of-a-generation/",
   "title": "Rod Serling and the Conscience of a Generation",
   "subcategory": "Articles",
   "sort": "rod serling and the conscience of a generation"
@@ -31181,8 +31181,8 @@
   "tier_reason": "Writing about the show.",
   "recommendation": "include",
   "reason": "Core piece of writing: a complete record of the franchise should have it.",
-  "source_title": "The Twilight Zone (1959 TV series) - Wikipedia (references)",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)",
+  "source_title": "GeekTyrant: the article page",
+  "source_url": "http://geektyrant.com/news/2010/9/7/rod-serling-revels-his-favorite-twilight-zone-episodes.html",
   "title": "Rod Serling Reveals His Favorite Twilight Zone Episodes",
   "subcategory": "Articles",
   "sort": "rod serling reveals his favorite twilight zone episodes"
@@ -46572,7 +46572,7 @@
   "sort": "cesare danova"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -49296,7 +49296,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -52932,7 +52932,7 @@
   "sort": "jean carson"
  },
  "people/jean-de-segonzac": {
-  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Night Route” and “Cradle of Darkness”).",
+  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Cradle of Darkness” and “Night Route”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -59664,7 +59664,7 @@
   "sort": "paul le mat"
  },
  "people/paul-lynch": {
-  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “A Message from Charity” and “Examination Day”).",
+  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “Examination Day” and “A Message from Charity”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -62352,7 +62352,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",

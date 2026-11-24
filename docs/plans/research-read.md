@@ -157,6 +157,10 @@ Foreign-language editions, Rod Serling Memorial Foundation publications, Rod Ser
     1961 (Fawcett Gold Medal) and 1962 (Putnam) editions, and the Rod Serling Memorial Foundation confirms that Serling
     wrote its foreword (quoting it), so his credit now reads "foreword" instead of co-author.
   - *Essay bylines:* each article's own page, read in paced rounds. A sponsored HuffPost piece is labelled as such.
+    "Congress Remains in the Twilight Zone" was filed as Serling's own writing; the page is a 2000 column signed by
+    David Rossie (Binghamton Press & Sun-Bulletin), so it now credits him and sits with the Foundation's papers.
+    Interviews the Foundation reprinted from Cemetery Dance carry the Foundation's posting date and say so.
+    *Beyond Peyton Place* now names its co-author Alvin M. Cotlar and its publisher as a bookseller's record gives it.
     One date with no source (31 December 2024 on a book chapter) was replaced by the year the publisher's page gives.
 
 ## Waiting on Adam
@@ -164,12 +168,13 @@ Foreign-language editions, Rod Serling Memorial Foundation publications, Rod Ser
 
 ## Not possible, and why
 Each item below was tried; the reason is what stopped it.
-- **Creators for 76 of the 188 comics (third pass in progress).** The Grand Comics Database refuses automated reading,
+- **Creators for 66 of the 188 comics (third pass in progress).** The Grand Comics Database refuses automated reading,
   but Heritage Auctions' issue index carries its credits; it allows about four page reads every ten minutes, so the
-  Gold Key issues are being read in paced rounds (18 of 94 done when this was written). The Dell, Walker, Cayuga and
+  Gold Key issues are being read in paced rounds (28 of 94 done when this was written). The Dell, Walker, Cayuga and
   giveaway editions come after.
-- **Authors for 135 of the 379 essays and articles, dates for 77 (third pass in progress).** Each original is being
-  read in paced rounds; 27 read so far. Pages that block automated reading (Disability Studies Quarterly's site shows
+- **Authors for 118 of the 379 essays and articles, dates for 63 (third pass in progress).** Each original is being
+  read in paced rounds; 59 read so far. 28 of the gaps are rankings, aggregate scores and unsigned staff reviews with no
+  page of their own to read, which by their nature carry no byline. Pages that block automated reading (Disability Studies Quarterly's site shows
   an access-denied page) or now redirect elsewhere (the Historic Vehicle Association's article goes to the Drivers
   Foundation's home page) are listed as such on the record. Newspaper archives behind a login are not tried.
 - **Cover artists for 8 of the 60 Twilight Zone Magazine issues** (September-October 1984, November-December 1984,
@@ -190,10 +195,11 @@ Each item below was tried; the reason is what stopped it.
   online, so the 1960s and 1980s Twilight Zone spoofs remain unverified and get no record.
 - **The Twilight Zone Museum** now redirects to tz-museum.com, a different address; the record keeps the old link
   until the new site can be read and checked.
-- **Dates for 34 books (third pass in progress).** Of the 44 books without a date, the 12 with a source page were read
+- **Dates for 31 books (third pass in progress).** Of the 44 books without a date, the 12 with a source page were read
   on 24 November: the four Japanese *Mysteri Zone* volumes (Bunshun, 1983-1994) and the two Italian collections
   (Fanucci, 2001) now have dates. Open Library then dated *Patterns* (1957), *Rod Serling's Night Gallery Reader* (1987)
-  and *B.C. Strikes Back* (1961). McFarland's site refuses automated reading; the Silman-James, Celeste review, TV Time Machine shop and
+  and *B.C. Strikes Back* (1961); library and bookseller records then dated *Sci Fi TV* (1995), *The Gospel According
+  to Science Fiction* (2007) and Ed Nelson's *Beyond Peyton Place* (2008). McFarland's site refuses automated reading; the Silman-James, Celeste review, TV Time Machine shop and
   rodserling.com pages give no date. The rest came from Adam's spreadsheets with no source to read; a date found only
   in a search-result title is not used.
 
