@@ -1,4 +1,5 @@
 title: Anthology - The Twilight Zone, Science Fiction Theatre, and Sci-Fi Podcast
+kind: podcast
 hosts:
 - Matt Hurt
 first_episode: '2015-08-02'
@@ -19,11 +20,10 @@ sources:
   note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
 - title: Million Podcasts - Best The Twilight Zone Podcasts
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
-description: Matt Hurt, a science-fiction fan who had never watched The Twilight Zone, reviews the original series
-  in broadcast order, giving first impressions of each episode. Each review is paired with a spoiler-free look at
-  an episode of Science Fiction Theatre (1955), and bonus shows cover Black Mirror, Electric Dreams and the 2019
-  revival. Published by Obsessive Viewer Podcasts; Apple lists 168 episodes, the latest in April 2024, when it had
-  reached season 4.
+description: Matt Hurt, a science-fiction fan who had never watched The Twilight Zone, reviews the original series in broadcast
+  order, giving first impressions of each episode. Each review is paired with a spoiler-free look at an episode of Science
+  Fiction Theatre (1955), and bonus shows cover Black Mirror, Electric Dreams and the 2019 revival. Published by Obsessive
+  Viewer Podcasts; Apple lists 168 episodes, the latest in April 2024, when it had reached season 4.
 status: unknown
 episode_count: 168
 episode_count_as_of: '2026-11-21'

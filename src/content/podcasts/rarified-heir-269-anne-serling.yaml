@@ -1,10 +1,10 @@
 title: 'Rarified Heir - Episode #269: Anne Serling (Rod Serling)'
+kind: single-episode
 hosts:
 - Joshua Mills
-description: 'Joshua Mills''s interview podcast with the children of famous people talks with Anne Serling about
-  her father: his humour and kindness, his upstate New York childhood, his religious background, his radio years
-  and films, and home life with him, as told in her memoir "As I Knew Him: My Dad, Rod Serling". The episode page
-  gives no date.'
+description: 'Joshua Mills''s interview podcast with the children of famous people talks with Anne Serling about her father:
+  his humour and kindness, his upstate New York childhood, his religious background, his radio years and films, and home
+  life with him, as told in her memoir "As I Knew Him: My Dad, Rod Serling". The episode page gives no date.'
 covers:
 - '1959'
 featured_episodes:
@@ -24,3 +24,4 @@ tags:
 relevance: related
 research_confidence: high
 last_verified: '2026-11-21'
+feed: false

@@ -1,6 +1,7 @@
 title: On the Media - Shadow and Substance
-description: A segment of WNYC's media-criticism programme and podcast whose title borrows The Twilight Zone's opening
-  narration; it surfaced in TZ-specific searches but its full content was not reviewed here.
+kind: single-episode
+description: A segment of WNYC's media-criticism programme and podcast whose title borrows The Twilight Zone's opening narration;
+  it surfaced in TZ-specific searches but its full content was not reviewed here.
 subtype: network-series
 status: active
 links:
@@ -10,3 +11,4 @@ sources:
   url: https://www.wnycstudios.org/podcasts/otm/segments/132517-shadow-and-substance
 research_confidence: medium
 last_verified: '2026-11-19'
+feed: false

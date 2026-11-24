@@ -1,14 +1,14 @@
 title: 'Pretty Much Pop: A Culture Podcast - #52: Twilight Zone Morality Tales'
+kind: single-episode
 hosts:
 - Mark Linsenmayer
 - Erica Spyres
 - Brian Hirt
 first_episode: '2020-07-15'
-description: Open Culture's Pretty Much Pop hosts Mark Linsenmayer, Erica Spyres and Brian Hirt, with guest Ken
-  Gerber, ask whether the original series still holds up and what makes a good Twilight Zone episode, using "It's
-  a Good Life", "The Howling Man", "Nick of Time" and others. They also weigh Jordan Peele's revival ("Replay",
-  "Blurryman", "Try, Try", "Ovation") against the original and compare the show to Black Mirror. Posted 15 July
-  2020.
+description: Open Culture's Pretty Much Pop hosts Mark Linsenmayer, Erica Spyres and Brian Hirt, with guest Ken Gerber,
+  ask whether the original series still holds up and what makes a good Twilight Zone episode, using "It's a Good Life",
+  "The Howling Man", "Nick of Time" and others. They also weigh Jordan Peele's revival ("Replay", "Blurryman", "Try, Try",
+  "Ovation") against the original and compare the show to Black Mirror. Posted 15 July 2020.
 covers:
 - '1959'
 - '2019'
@@ -29,3 +29,4 @@ tags:
 relevance: core
 research_confidence: high
 last_verified: '2026-11-21'
+feed: false

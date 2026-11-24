@@ -1,0 +1,33 @@
+name: Podcast feeds
+
+# Reads every podcast's RSS feed (scripts/podcast-feeds.mjs; docs/plans/research-podcasts.md, Q3 and Q8).
+# On a pull request that touches podcasts it only reports what each feed holds, so changes can be checked.
+on:
+  pull_request:
+    paths:
+      - 'scripts/podcast-feeds.mjs'
+      - 'src/content/podcasts/**'
+      - '.github/workflows/podcast-feeds.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  feeds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Read the feeds (report only)
+        run: node scripts/podcast-feeds.mjs --write
+      - name: Keep the episode list for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: podcast-episodes
+          path: data/podcasts/episodes.json

@@ -1,4 +1,5 @@
 title: Stuff You Should Know - The Twilight Zone Episode
+kind: single-episode
 hosts:
 - Josh Clark
 - Chuck Bryant
@@ -16,3 +17,4 @@ sources:
   url: https://www.shortform.com/podcast/episode/stuff-you-should-know-2026-10-22-episode-summary-the-twilight-zone-episode
 research_confidence: high
 last_verified: '2026-11-19'
+feed: false

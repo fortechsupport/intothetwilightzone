@@ -1,10 +1,11 @@
 title: 'The Sign Post Up Ahead: A Twilight Zone Podcast'
+kind: podcast
 hosts:
 - Matt Stokes
 - Patrick Perot
-description: A monthly spin-off of the 1-Week Rental movie podcast in which Matt Stokes and Patrick Perot go through
-  the original series in broadcast order, one episode per show. Apple lists 13 episodes, the latest in June 2026.
-  Not to be confused with Eric Silver and Joe Stanton's "The Signpost Up Ahead".
+description: A monthly spin-off of the 1-Week Rental movie podcast in which Matt Stokes and Patrick Perot go through the
+  original series in broadcast order, one episode per show. Apple lists 13 episodes, the latest in June 2026. Not to be
+  confused with Eric Silver and Joe Stanton's "The Signpost Up Ahead".
 status: active
 episode_count: 13
 episode_count_as_of: '2026-11-21'

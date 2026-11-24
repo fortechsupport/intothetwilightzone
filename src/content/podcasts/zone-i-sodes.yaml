@@ -1,4 +1,5 @@
 title: Zone-i-Sodes
+kind: podcast
 hosts:
 - Brandon Davis
 - Scott McFarland
@@ -12,9 +13,9 @@ sources:
   note: Imported from Adam's research spreadsheets; checked against the sources below on 2026-11-21.
 - title: Apple Podcasts - Zone-i-Sodes
   url: https://podcasts.apple.com/us/podcast/id1630502455
-description: A review podcast by Scott McFarland and Brandon Davis on the Front Row Network (NPR Illinois), going
-  through the original series in order, sometimes joined by Katharine Roberts. Apple lists 23 episodes, all from
-  2022, ending with "The Monsters Are Due on Maple Street".
+description: A review podcast by Scott McFarland and Brandon Davis on the Front Row Network (NPR Illinois), going through
+  the original series in order, sometimes joined by Katharine Roberts. Apple lists 23 episodes, all from 2022, ending with
+  "The Monsters Are Due on Maple Street".
 episode_count: 23
 status: ended
 covers:

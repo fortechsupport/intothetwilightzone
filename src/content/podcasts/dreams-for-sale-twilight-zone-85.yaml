@@ -1,4 +1,5 @@
 title: 'Dreams for Sale: Twilight Zone ''85'
+kind: podcast
 hosts:
 - Chris Stachiw
 - Mike White
@@ -20,10 +21,9 @@ sources:
   note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
 - title: Million Podcasts - Best The Twilight Zone Podcasts
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
-description: A Weirding Way Media podcast in which Chris Stachiw, Mike White and Father Malone cover the 1985 CBS
-  revival, usually two or three segments per episode (for example "Shadow Play / Grace Note"), with attention to
-  contributors such as Harlan Ellison, Wes Craven and William Friedkin. Apple lists 49 episodes, the latest in September
-  2023.
+description: A Weirding Way Media podcast in which Chris Stachiw, Mike White and Father Malone cover the 1985 CBS revival,
+  usually two or three segments per episode (for example "Shadow Play / Grace Note"), with attention to contributors such
+  as Harlan Ellison, Wes Craven and William Friedkin. Apple lists 49 episodes, the latest in September 2023.
 status: unknown
 episode_count: 49
 episode_count_as_of: '2026-11-21'

@@ -41544,7 +41544,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -44988,7 +44988,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -45324,7 +45324,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -58044,7 +58044,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -61355,6 +61355,18 @@
   "subcategory": "Twilight Zone podcasts",
   "sort": "fifth dimension a twilight zone podcast consequence"
  },
+ "podcasts/fresh-air-remembering-rod-serling": {
+  "connection": "NPR Fresh Air's look back at Rod Serling and The Twilight Zone.",
+  "tier": "related",
+  "tier_reason": "About Serling and the show as a whole.",
+  "recommendation": "include",
+  "reason": "A national public-radio retrospective by its TV critic.",
+  "source_title": "NPR transcript: Remembering 'The Twilight Zone' creator Rod Serling (Fresh Air)",
+  "source_url": "https://www.npr.org/transcripts/nx-s1-5564730",
+  "title": "Fresh Air: Remembering 'The Twilight Zone' creator Rod Serling",
+  "subcategory": "Single episodes of other podcasts",
+  "sort": "fresh air remembering the twilight zone creator rod serling"
+ },
  "podcasts/generation-in-between-twilight-zone-movie": {
   "connection": "A nostalgia podcast about growing up between Gen X and millennials rewatches the 1983 Twilight Zone film.",
   "tier": "core",
@@ -61402,6 +61414,18 @@
   "title": "Imagine if you Will",
   "subcategory": "Podcasts",
   "sort": "imagine if you will"
+ },
+ "podcasts/jace-sits-rod-serling-memorial-foundation": {
+  "connection": "An interview podcast episode with the Rod Serling Memorial Foundation about Serling's legacy.",
+  "tier": "related",
+  "tier_reason": "About Serling, not one episode.",
+  "recommendation": "include",
+  "reason": "The Foundation speaking about Serling.",
+  "source_title": "Audible: with The Rod Serling Memorial Foundation (Jace Sits)",
+  "source_url": "https://www.audible.in/podcast/with-The-Rod-Serling-Memorial-Foundation/B0F1Z2QXP9",
+  "title": "Jace Sits with The Rod Serling Memorial Foundation",
+  "subcategory": "Single episodes of other podcasts",
+  "sort": "jace sits with the rod serling memorial foundation"
  },
  "podcasts/jordan-peele-twilight-zone-podcast": {
   "connection": "A fan review podcast devoted to the 2019 CBS All Access revival, with per-episode reviews such as \"Replay\" and \"The Wunderkind\" from season one.",
@@ -61451,6 +61475,18 @@
   "subcategory": "Single episodes of other podcasts",
   "sort": "movie defenders  ep 000220 twilight zone the movie"
  },
+ "podcasts/nation-of-writers-48-rod-serling": {
+  "connection": "A museum podcast episode about Rod Serling's life and work.",
+  "tier": "related",
+  "tier_reason": "About Serling, not one episode.",
+  "recommendation": "include",
+  "reason": "A sourced interview about Serling with a biographer and an Ithaca College professor.",
+  "source_title": "American Writers Museum: Nation of Writers, Episode 48: Rod Serling",
+  "source_url": "https://americanwritersmuseum.org/podcast/episode-48-rod-serling/",
+  "title": "Nation of Writers, Episode 48: Rod Serling",
+  "subcategory": "Single episodes of other podcasts",
+  "sort": "nation of writers episode 000048 rod serling"
+ },
  "podcasts/night-gallery-podcast-christopher-brown": {
   "connection": "Christopher Brown's episode-by-episode podcast on Rod Serling's Night Gallery, active from 2010 to 2021 with 102 episodes, including the syndication-only stories, a \"lost episode\" and a special on Serling's 1964 television film \"A Carol for Another Christmas\".",
   "tier": "related",
@@ -61474,6 +61510,18 @@
   "title": "The Night Gallery Podcast (The Twilight Zone Podcast)",
   "subcategory": "Twilight Zone podcasts",
   "sort": "night gallery podcast the twilight zone podcast"
+ },
+ "podcasts/night-zone-anthology": {
+  "connection": "A short-story podcast by a longtime member of the Rod Serling Memorial Foundation, listed by the Foundation as reminiscent of the show.",
+  "tier": "tangential",
+  "tier_reason": "Original fiction in the show's spirit.",
+  "recommendation": "include",
+  "reason": "Listed by the Foundation itself; Podcasts plan Q5.",
+  "source_title": "Rod Serling Memorial Foundation: Night Zone Anthology",
+  "source_url": "https://rodserling.com/category/podcast/",
+  "title": "Night Zone Anthology",
+  "subcategory": "Fiction inspired by the show",
+  "sort": "night zone anthology"
  },
  "podcasts/no-bodies-episode-65-twilight-zone": {
   "connection": "An episode of the iHeart true-crime podcast No Bodies titled for The Twilight Zone; most likely concerning the 1982 Twilight Zone: The Movie set accident, though the subject was not confirmed from the episode page.",
@@ -61606,6 +61654,18 @@
   "title": "Strange Highways",
   "subcategory": "Podcasts",
   "sort": "strange highways"
+ },
+ "podcasts/strange-little-realms": {
+  "connection": "An audio-fiction podcast that names the show in its title and compares itself to it.",
+  "tier": "tangential",
+  "tier_reason": "Original fiction in the show's spirit.",
+  "recommendation": "include",
+  "reason": "The makers state the tie themselves; Podcasts plan Q5.",
+  "source_title": "Apple Podcasts: Strange Little Realms: Twilight Zone Style Short Mystery Stories",
+  "source_url": "https://podcasts.apple.com/us/podcast/id1894552110",
+  "title": "Strange Little Realms: Twilight Zone Style Short Mystery Stories",
+  "subcategory": "Fiction inspired by the show",
+  "sort": "strange little realms twilight zone style short mystery stories"
  },
  "podcasts/stuff-you-should-know-twilight-zone": {
   "connection": "The long-running iHeart explainer podcast devotes a full episode to the history and making of The Twilight Zone.",

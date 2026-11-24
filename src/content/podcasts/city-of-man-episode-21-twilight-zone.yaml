@@ -1,7 +1,8 @@
 title: 'City of Man - Episode 21: The Twilight Zone (Christian Humanist Profiles)'
+kind: single-episode
 first_episode: 2016-10
-description: An episode of the Christian Humanist network's culture show City of Man discussing The Twilight Zone
-  and its moral themes, posted October 2016.
+description: An episode of the Christian Humanist network's culture show City of Man discussing The Twilight Zone and its
+  moral themes, posted October 2016.
 subtype: network-series
 status: unknown
 links:
@@ -11,3 +12,4 @@ sources:
   url: https://www.christianhumanist.org/2016/10/city-of-man-episode-21-the-twilight-zone/
 research_confidence: medium
 last_verified: '2026-11-19'
+feed: false

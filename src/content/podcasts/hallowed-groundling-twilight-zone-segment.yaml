@@ -1,9 +1,10 @@
 title: Hallowed Groundling - The Twilight Zone Segment
+kind: segment
 hosts:
 - Erin Haas
-description: A horror podcast by Erin Haas that runs a monthly segment reviewing the original series in broadcast
-  order, with a guest each time; segment episode 2 covered "One for the Angels" with Kate Powers. Apple lists 37
-  episodes of the whole show, the latest in November 2026.
+description: A horror podcast by Erin Haas that runs a monthly segment reviewing the original series in broadcast order,
+  with a guest each time; segment episode 2 covered "One for the Angels" with Kate Powers. Apple lists 37 episodes of the
+  whole show, the latest in November 2026.
 status: active
 covers:
 - '1959'
@@ -27,3 +28,4 @@ research_confidence: medium
 tags:
 - research-2026-11-21
 last_verified: '2026-11-21'
+feed_filter: twilight zone

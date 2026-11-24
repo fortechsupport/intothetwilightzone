@@ -1,4 +1,5 @@
 title: The Twilight Zone Podcast
+kind: podcast
 hosts:
 - Tom Elliot
 first_episode: '2011-06-01'
@@ -17,11 +18,14 @@ sources:
   url: https://www.thetwilightzonepodcast.com/episodes
 - title: Feedspot - 19 Best The Twilight Zone Podcasts
   url: https://podcast.feedspot.com/the_twilight_zone_podcasts
-description: Tom Elliot's long-running independent podcast about The Twilight Zone, started in 2010 and billed as
-  the longest-running show about the series. Alongside reviews of episodes across every season it runs readings
-  of the short stories behind episodes, book reviews, interviews with authors and Serling family members, and live
-  coverage of Serlingfest in Binghamton. In 2026 it covered the Serling documentary's SXSW premiere and talked with
-  Alan Sepinwall about his Serling biography.
+- title: 'Rod Serling Memorial Foundation: Podcast'
+  url: https://rodserling.com/category/podcast/
+  publisher: The Rod Serling Memorial Foundation
+  note: The Foundation lists this podcast on its Podcast page (post of 1 May 2026; read 2026-11-24). A listing, not a licence.
+description: Tom Elliot's long-running independent podcast about The Twilight Zone, started in 2010 and billed as the longest-running
+  show about the series. Alongside reviews of episodes across every season it runs readings of the short stories behind
+  episodes, book reviews, interviews with authors and Serling family members, and live coverage of Serlingfest in Binghamton.
+  In 2026 it covered the Serling documentary's SXSW premiere and talked with Alan Sepinwall about his Serling biography.
 status: active
 covers:
 - '1959'
@@ -58,4 +62,5 @@ organizations:
 - The After Hours Club
 tags:
 - research-2026-11-21
+- research-2026-11-24
 relevance: core

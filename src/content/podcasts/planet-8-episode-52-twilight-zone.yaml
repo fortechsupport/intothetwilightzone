@@ -1,7 +1,8 @@
 title: 'Planet 8 - Episode 52: Submitted for Your Approval - The Twilight Zone'
+kind: single-episode
 first_episode: '2020-06-08'
-description: An episode of the Planet 8 podcast given over to The Twilight Zone, archived on the Internet Archive
-  with a June 2020 date in its identifier.
+description: An episode of the Planet 8 podcast given over to The Twilight Zone, archived on the Internet Archive with a
+  June 2020 date in its identifier.
 subtype: network-series
 status: unknown
 links:
@@ -11,3 +12,4 @@ sources:
   url: https://archive.org/details/ep-52-6-8-20-twilight-zone
 research_confidence: medium
 last_verified: '2026-11-19'
+feed: false

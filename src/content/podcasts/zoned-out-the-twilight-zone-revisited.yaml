@@ -1,4 +1,5 @@
 title: 'Zoned Out: The Twilight Zone Revisited (Night of the Living Podcast)'
+kind: segment
 hosts:
 - Joe Juvland
 - Freddy Morris
@@ -19,3 +20,4 @@ sources:
 relevance: core
 research_confidence: medium
 last_verified: '2026-11-20'
+feed_filter: zoned out|twilight zone

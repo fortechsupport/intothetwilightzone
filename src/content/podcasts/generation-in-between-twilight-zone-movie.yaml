@@ -1,6 +1,6 @@
 title: 'Generation In-Between: A Xennial Podcast - The Twilight Zone Movie (1983) Rewatch'
-description: A nostalgia podcast about growing up between Gen X and millennials rewatches the 1983 Twilight Zone
-  film.
+kind: single-episode
+description: A nostalgia podcast about growing up between Gen X and millennials rewatches the 1983 Twilight Zone film.
 subtype: network-series
 status: unknown
 links:
@@ -10,3 +10,4 @@ sources:
   url: https://www.buzzsprout.com/2277603/episodes/17957892-the-twilight-zone-movie-1983-rewatch?t=0
 research_confidence: medium
 last_verified: '2026-11-19'
+feed: false
