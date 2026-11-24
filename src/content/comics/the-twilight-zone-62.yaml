@@ -2,6 +2,11 @@ title: 'The Twilight Zone # 62'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 66
+creators:
+- Adolpho Buylla (pencils, inks)
+- Ricardo Villamonte (pencils, inks, cover)
+- Jack Sparling (pencils, inks)
+- Esphid Mahilum (letters)
 cover_date: 1975-03
 ids:
   amazon_asin: B0C34G6LYT
@@ -9,13 +14,16 @@ links:
   info: https://www.comics.org/issue/28337/
 research_confidence: high
 sources:
+- title: 'Heritage Auctions comic issue index (Grand Comics Database data)'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=28337
+  note: 'Read 2026-11-24 for the creator credits (cover and story pencils, inks, scripts and letters; Heritage states the data is courtesy of the Grand Comics Database under a Creative Commons licence). Credits the index marks as uncertain, left off the list: Nestor Redondo (pencils, inks).'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key), page 2'
   url: https://www.mycomicshop.com/search?TID=193921&pgi=51
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key) issue listing with contents'
   url: https://www.mycomicshop.com/search?TID=193921
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true
 description: 'Issue 62 of Gold Key''s licensed Twilight Zone anthology comic (March 1975), with a painted cover
   by Ricardo Villamonte. Stories: "An Expensive Date" (Adolpho Buylla); "The Bounty Hunter" (Ricardo Villamonte);
