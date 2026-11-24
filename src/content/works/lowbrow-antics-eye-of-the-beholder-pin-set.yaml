@@ -4,13 +4,12 @@ creator: Lowbrow Antics
 description: >-
   An independent artist's enamel pin set inspired by 'The Eye of the Beholder', marketed as a 'Twilight Zone inspired
   collection' rather than as licensed merchandise.
+official: false
 subtype: enamel-pin
 details:
   licensed: false
 relevance: tangential
 research_confidence: medium
-categories:
-- merchandise/household-apparel
 sources:
 - title: 'Lowbrow Antics: Eye of the Beholder Pin Set'
   url: >-

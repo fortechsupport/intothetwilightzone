@@ -7,7 +7,8 @@ description: >-
   Twilight Zone' from the genius that is...Craig Darrell Brewer," from his 'Series of Eight' printed-and-pinned
   works. The RISD Museum holds it (accession 2005.76.13.5), a museum purchase funded by the Rhode Island Foundation's
   Artists' Development Fund.
-subtype: screen-print
+official: false
+subtype: art-print
 details:
   accession: 2005.76.13.5
   size: 34.3 x 26.7 cm
@@ -16,8 +17,6 @@ details:
   - James H. Draper
 relevance: tangential
 research_confidence: high
-categories:
-- artwork/posters-key-art
 sources:
 - title: RISD Museum - remember..."The Twilight Zone"...Craig Darrell Brewer
   url: >-

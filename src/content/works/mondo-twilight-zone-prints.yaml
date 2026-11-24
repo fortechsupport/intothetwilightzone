@@ -1,8 +1,10 @@
 title: Mondo The Twilight Zone limited-edition prints
 kind: artwork
 subtype: poster
-description: Mondo, the Austin poster house, released limited Twilight Zone prints. /Film covered the drop in a
-  roundup alongside its The Nice Guys and Pinocchio posters.
+description: >-
+  Merged into Dark Hall Mansion's "To Serve Man" prints (2016). The /Film roundup this record cited names Mondo only
+  for its The Nice Guys poster; the Twilight Zone prints in it were Dark Hall Mansion's. No Mondo Twilight Zone print
+  was found.
 details:
   series: The Twilight Zone (1959)
   medium: Limited-edition screen prints
@@ -11,3 +13,4 @@ sources:
   url: https://www.slashfilm.com/nice-guys-mondo-poster/
 research_confidence: medium
 last_verified: '2026-11-19'
+duplicate_of: works/dark-hall-mansion-to-serve-man-prints-2016

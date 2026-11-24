@@ -3,21 +3,21 @@ kind: artwork
 year: 2016
 publisher: Dark Hall Mansion
 description: >-
-  A May 2016 Dark Hall Mansion release of Twilight Zone prints based on "To Serve Man" by three artists: 18 x 24
-  inch giclée prints by Patrick Connan and Orlando Arocena ($65 each), plus a piece by Kaz Oomori.
-subtype: screen-print
+  A May 2016 Dark Hall Mansion release of officially licensed Twilight Zone prints based on "To Serve Man" by three
+  artists: 18 x 24 inch giclée prints by Patrick Connan and Orlando Arocena ($65 each), plus a piece by Kaz Oomori.
+official: true
+subtype: art-print
 details:
   format: giclée, 18 x 24 in (Connan, Arocena)
   price: $65
+  licensed: true
   people:
   - Patrick Connan
   - Orlando Arocena
   - Kaz Oomori
 relevance: core
 research_confidence: medium
-categories:
-- artwork/posters-key-art
 sources:
-- title: /Film - Limited Edition Prints For 'The Nice Guys,' 'The Twilight Zone,' and 'Pinocchio'
-  url: https://www.slashfilm.com/nice-guys-mondo-poster/
+- title: "/Film: Cool Stuff: Check Out These Limited Edition Prints For 'The Nice Guys,' 'The Twilight Zone,' And 'Pinocchio' (Jack Giroux, 17 May 2016)"
+  url: https://www.slashfilm.com/544354/nice-guys-mondo-poster/
 last_verified: '2026-11-20'

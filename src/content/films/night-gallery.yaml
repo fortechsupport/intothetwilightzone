@@ -87,6 +87,30 @@ releases:
     url: https://www.digitalbits.com/item/night-gallery-s1-klsc-2022-bd
     author: Tim Salmons
     publisher: The Digital Bits
+- date: '2017-09-12'
+  format: DVD
+  title: 'Night Gallery: The Complete Series'
+  publisher: Universal
+  sources:
+  - title: 'Wikipedia: Night Gallery'
+    url: https://en.wikipedia.org/wiki/Night_Gallery
+  - title: Night Gallery on DVD
+    url: https://www.nightgallery.net/night-gallery-on-dvd
+    publisher: nightgallery.net (fan site)
+- date: '2022-07-26'
+  format: Blu-ray
+  title: 'Night Gallery: Season Two'
+  publisher: Kino Lorber Studio Classics
+  sources:
+  - title: 'Wikipedia: Night Gallery'
+    url: https://en.wikipedia.org/wiki/Night_Gallery
+- date: '2022-11-22'
+  format: Blu-ray
+  title: 'Night Gallery: Season Three'
+  publisher: Kino Lorber Studio Classics
+  sources:
+  - title: 'Wikipedia: Night Gallery'
+    url: https://en.wikipedia.org/wiki/Night_Gallery
 - date: '2026-01-14'
   format: Blu-ray
   title: 'Rod Serling''s Night Gallery: The Complete Collection'

@@ -5,11 +5,12 @@ publisher: Middle of Beyond
 description: >-
   A ceramic tiki-style mug shaped like the pig-faced nurse, produced by Middle of Beyond in at least three glaze
   variants: Bandage, Beholder and Twilight.
+details:
+  licence_note: No source read states a licence.
+official: false
 subtype: tiki-mug
 relevance: core
 research_confidence: medium
-categories:
-- merchandise/household-apparel
 sources:
 - title: 'The Search for Tiki: Twilight Zone Nurse Mug - Bandage Variant'
   url: https://thesearchfortiki.com/tiki-mug/twilight-zone-nurse-mug-middle-of-beyond-bandage-variant/

@@ -7,6 +7,7 @@ description: >-
   A line caricature by Al Hirschfeld showing Rod Serling in The Twilight Zone, cataloged by the Al Hirschfeld Foundation
   as published in 1983 by the Museum of Television & Radio. It is a rare tribute by the great Broadway caricaturist
   to the then-late Serling.
+official: false
 subtype: caricature
 details:
   related_record: al-hirschfeld-foundation-serling (link)
@@ -15,8 +16,6 @@ details:
   - Rod Serling
 relevance: core
 research_confidence: high
-categories:
-- artwork/art-illustration
 sources:
 - title: Al Hirschfeld Foundation - rod serling
   url: https://alhirschfeldfoundation.org/piece/rod-serling

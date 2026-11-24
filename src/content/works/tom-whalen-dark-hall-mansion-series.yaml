@@ -1,11 +1,12 @@
 title: Tom Whalen's The Twilight Zone screen print series (Dark Hall Mansion)
 kind: artwork
-subtype: poster
+subtype: art-print
 year: 2014
 creator: Tom Whalen
 description: >-
   Starting in 2014, Dark Hall Mansion sold a subscription series of hand-numbered screen prints by Tom Whalen, one
   per classic episode. The prints include "Eye of the Beholder" and, in 2017, "It's a Good Life."
+official: true
 details:
   series: The Twilight Zone (1959)
   medium: Limited-edition screen prints
@@ -29,5 +30,3 @@ sources:
 research_confidence: high
 last_verified: '2026-11-20'
 relevance: core
-categories:
-- artwork/posters-key-art

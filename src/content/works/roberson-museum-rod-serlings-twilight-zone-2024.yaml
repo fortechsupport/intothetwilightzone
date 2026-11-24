@@ -9,8 +9,6 @@ description: >-
 subtype: gallery-show
 relevance: core
 research_confidence: high
-categories:
-- artwork/exhibitions
 sources:
 - title: Roberson Museum - Rod Serling's Twilight Zone
   url: https://roberson.org/project/twilight-zone/

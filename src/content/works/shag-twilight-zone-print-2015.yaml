@@ -1,18 +1,26 @@
 title: '"The Twilight Zone" print by Shag'
 kind: artwork
-subtype: poster
+subtype: art-print
 year: 2015
 creator: Shag (Josh Agle)
-description: Josh Agle, the mid-century-modern painter who works as Shag, released a Twilight Zone print in spring
-  2015. He also lists it among his limited editions for that year.
+description: >-
+  Josh Agle, the mid-century-modern painter who works as Shag, made a signed 22 x 39 inch Twilight Zone screen print
+  as the first guest-artist release in Dark Hall Mansion's officially licensed Twilight Zone series. It went on sale
+  on 29 April 2015 in a standard edition of 150, a variant of 50 and foil editions of 15. He lists it among his
+  limited editions for that year.
+official: true
+publisher: Dark Hall Mansion
 details:
   series: The Twilight Zone (1959)
-  medium: Limited-edition print
+  medium: Signed screen print, 22 x 39 in
+  editions: standard 150 ($325), variant 50 ($450), foil 15 per colour ($575)
+  on_sale: '2015-04-29'
+  licensed: true
 sources:
 - title: 411posters.com
   url: https://411posters.com/tag/the-twilight-zone
-- title: insidetherockposterframe.blogspot.de
-  url: https://insidetherockposterframe.blogspot.de/2015/04/shag-twilight-zone-print-release.html
+- title: 'Inside the Rock Poster Frame: Shag Twilight Zone Print Release Details from Dark Hall Mansion (23 April 2015)'
+  url: https://insidetherockposterframe.blogspot.com/2015/04/shag-twilight-zone-print-release.html
 - title: joshagle.com
   url: https://www.joshagle.com/prints/limited-edition-prints-in-2015/
 research_confidence: high

@@ -8,8 +8,10 @@ description: >-
   portrait print of Rod Serling. The 2024 edition is limited to 20 copies, each signed, titled and numbered by hand.
   The image is about 19 x 15 inches on a 22 x 17 inch sheet, and it was listed at $185. The listing does not say
   where the drawing was first published.
-subtype: print
+official: false
+subtype: art-print
 details:
+  licence_note: No source read states a licence.
   edition: 20
   image_size: approx. 19 x 15 in
   sheet: 22 x 17 in untrimmed
@@ -19,8 +21,6 @@ details:
   - Drew Friedman
 relevance: related
 research_confidence: high
-categories:
-- artwork/posters-key-art
 sources:
 - title: 'Drew Friedman: Fine Art Prints - Rod Serling'
   url: https://drewfriedman.net/fine-art-prints/rod-serling/

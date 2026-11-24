@@ -71440,11 +71440,11 @@
   {
    "cat": "merchandise",
    "sub": "household-apparel",
-   "group": null,
+   "group": "Clothing",
    "catTitle": "Merchandise",
    "subTitle": "Household and apparel",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "works/a-hat-in-time-twilight-bell-reference": [
@@ -71481,15 +71481,6 @@
   }
  ],
  "works/adg-gallery-800-tribute-to-jaroslav-gebr-2017": [
-  {
-   "cat": "artwork",
-   "sub": "art-illustration",
-   "group": null,
-   "catTitle": "Artwork",
-   "subTitle": "Art and illustration",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "events",
    "sub": "exhibitions",
@@ -71627,7 +71618,7 @@
    "catTitle": "Artwork",
    "subTitle": "Art and illustration",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "works/artist-juan-ortiz-tz-archives-cards": [
@@ -71638,7 +71629,7 @@
    "catTitle": "Artwork",
    "subTitle": "Art and illustration",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "works/artist-nate-lewis-season-2-art": [
@@ -71649,7 +71640,7 @@
    "catTitle": "Artwork",
    "subTitle": "Art and illustration",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "works/artist-russell-dickerson-darkstorm": [
@@ -71762,7 +71753,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71773,7 +71764,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71784,7 +71775,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71795,7 +71786,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71805,19 +71796,10 @@
  "works/bif-bang-pow-3-75-series-5-diorama-exclusives": [
   {
    "cat": "merchandise",
-   "sub": "collectibles",
-   "group": null,
+   "sub": "toys-figures",
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Toys and figures",
    "isNew": false,
    "official": true
   }
@@ -71826,7 +71808,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71837,7 +71819,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71848,7 +71830,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71859,7 +71841,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71870,7 +71852,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71881,7 +71863,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71892,7 +71874,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71903,7 +71885,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71914,7 +71896,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71925,7 +71907,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71936,7 +71918,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71947,7 +71929,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71958,7 +71940,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71969,7 +71951,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71980,7 +71962,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -71991,7 +71973,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -72002,7 +71984,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -72013,18 +71995,9 @@
   {
    "cat": "merchandise",
    "sub": "collectibles",
-   "group": null,
+   "group": "Other collectibles",
    "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Collectibles and souvenirs",
    "isNew": false,
    "official": true
   }
@@ -72044,7 +72017,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -72055,7 +72028,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -72077,18 +72050,9 @@
   {
    "cat": "merchandise",
    "sub": "collectibles",
-   "group": null,
+   "group": "Other collectibles",
    "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Collectibles and souvenirs",
    "isNew": false,
    "official": true
   }
@@ -72097,7 +72061,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -72108,7 +72072,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -72141,18 +72105,9 @@
   {
    "cat": "merchandise",
    "sub": "collectibles",
-   "group": null,
+   "group": "Other collectibles",
    "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
-   "sub": "toys-figures",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Toys and figures",
+   "subTitle": "Collectibles and souvenirs",
    "isNew": false,
    "official": true
   }
@@ -72161,18 +72116,9 @@
   {
    "cat": "merchandise",
    "sub": "collectibles",
-   "group": null,
+   "group": "Other collectibles",
    "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Collectibles and souvenirs",
    "isNew": false,
    "official": true
   }
@@ -72181,7 +72127,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -72203,7 +72149,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -72214,7 +72160,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -72225,7 +72171,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Bif Bang Pow!",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -72437,13 +72383,13 @@
  ],
  "works/cbs-all-access-super-bowl-2019-twilight-zone-spot": [
   {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
-   "isNew": false,
-   "official": true
+   "cat": "homages",
+   "sub": "in-everyday-language",
+   "group": "The theme as shorthand",
+   "catTitle": "Legacy",
+   "subTitle": "In everyday language",
+   "isNew": true,
+   "official": false
   }
  ],
  "works/cbs-develops-1985-revival-1984": [
@@ -72459,12 +72405,12 @@
  ],
  "works/cbs-music-library-twilight-zone": [
   {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
+   "cat": "history",
+   "sub": "production-history",
    "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
-   "isNew": false,
+   "catTitle": "History",
+   "subTitle": "Production and broadcast history",
+   "isNew": true,
    "official": true
   }
  ],
@@ -72569,13 +72515,13 @@
  ],
  "works/composers-datebook-twilight-zone": [
   {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "cat": "content",
+   "sub": "Audio",
+   "group": "On: The Twilight Zone theme (\"Etrange No. 3\" / \"Milieu No. 2\")",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Audio",
    "isNew": false,
-   "official": true
+   "official": null
   }
  ],
  "works/constant-etrange-milieu-theme-1960": [
@@ -72604,49 +72550,31 @@
   {
    "cat": "merchandise",
    "sub": "collectibles",
-   "group": null,
+   "group": "Sheet music",
    "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Collectibles and souvenirs",
    "isNew": false,
    "official": true
   }
  ],
  "works/constant-theme-uses-film-tv": [
   {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
-   "isNew": false,
-   "official": true
+   "cat": "homages",
+   "sub": "in-everyday-language",
+   "group": "The theme as shorthand",
+   "catTitle": "Legacy",
+   "subTitle": "In everyday language",
+   "isNew": true,
+   "official": false
   }
  ],
  "works/constant-theme-wolk-orchestra-arrangement": [
   {
    "cat": "merchandise",
    "sub": "collectibles",
-   "group": null,
+   "group": "Sheet music",
    "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Collectibles and souvenirs",
    "isNew": false,
    "official": true
   }
@@ -72677,9 +72605,9 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Art prints",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
    "official": true
   }
@@ -72739,9 +72667,9 @@
   {
    "cat": "artwork",
    "sub": "covers",
-   "group": null,
+   "group": "Comics",
    "catTitle": "Artwork",
-   "subTitle": "Cover art",
+   "subTitle": "Cover and comic art",
    "isNew": true,
    "official": true
   }
@@ -72760,17 +72688,8 @@
  "works/disney-tower-of-terror-collectors-lanyard-pin-set": [
   {
    "cat": "merchandise",
-   "sub": "collectibles",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
    "sub": "household-apparel",
-   "group": null,
+   "group": "Pins, decals and ornaments",
    "catTitle": "Merchandise",
    "subTitle": "Household and apparel",
    "isNew": false,
@@ -72781,18 +72700,9 @@
   {
    "cat": "merchandise",
    "sub": "collectibles",
-   "group": null,
+   "group": "Tower of Terror souvenirs",
    "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Collectibles and souvenirs",
    "isNew": false,
    "official": true
   }
@@ -72801,20 +72711,20 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Art prints",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "works/dynamite-twilight-zone-1-2013-francavilla-cover": [
   {
    "cat": "artwork",
    "sub": "covers",
-   "group": null,
+   "group": "Comics",
    "catTitle": "Artwork",
-   "subTitle": "Cover art",
+   "subTitle": "Cover and comic art",
    "isNew": true,
    "official": true
   }
@@ -72932,17 +72842,8 @@
  "works/entertainment-earth-twilight-zone-doorway-travel-mug": [
   {
    "cat": "merchandise",
-   "sub": "collectibles",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
    "sub": "household-apparel",
-   "group": null,
+   "group": "Mugs and drinkware",
    "catTitle": "Merchandise",
    "subTitle": "Household and apparel",
    "isNew": false,
@@ -72972,10 +72873,10 @@
  "works/eye-of-the-beholder-male-nurse-appliance-propstore-2023": [
   {
    "cat": "artwork",
-   "sub": "production-design",
-   "group": null,
+   "sub": "props-costumes",
+   "group": "Sold at auction",
    "catTitle": "Artwork",
-   "subTitle": "Make-up and production design",
+   "subTitle": "Props and costumes",
    "isNew": true,
    "official": true
   }
@@ -72983,10 +72884,10 @@
  "works/eye-of-the-beholder-pig-nose-appliance-prop-store-2018": [
   {
    "cat": "artwork",
-   "sub": "production-design",
-   "group": null,
+   "sub": "props-costumes",
+   "group": "Sold at auction",
    "catTitle": "Artwork",
-   "subTitle": "Make-up and production design",
+   "subTitle": "Props and costumes",
    "isNew": true,
    "official": true
   }
@@ -73071,15 +72972,6 @@
    "subTitle": "Fan clubs and communities",
    "isNew": false,
    "official": false
-  },
-  {
-   "cat": "artwork",
-   "sub": "props-costumes",
-   "group": null,
-   "catTitle": "Artwork",
-   "subTitle": "Props and costumes",
-   "isNew": true,
-   "official": true
   }
  ],
  "works/fancyclopedia-rod-serling": [
@@ -73307,7 +73199,7 @@
   {
    "cat": "merchandise",
    "sub": "household-apparel",
-   "group": null,
+   "group": "Clothing",
    "catTitle": "Merchandise",
    "subTitle": "Household and apparel",
    "isNew": false,
@@ -73318,7 +73210,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Funko",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -73329,7 +73221,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Funko",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -73340,7 +73232,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Funko",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -73351,18 +73243,9 @@
   {
    "cat": "merchandise",
    "sub": "collectibles",
-   "group": null,
+   "group": "Tower of Terror souvenirs",
    "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
-   "sub": "toys-figures",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Toys and figures",
+   "subTitle": "Collectibles and souvenirs",
    "isNew": false,
    "official": true
   }
@@ -73371,7 +73254,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Funko",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -73380,11 +73263,11 @@
  ],
  "works/gallery-1988-another-dimension-2010": [
   {
-   "cat": "artwork",
-   "sub": "art-illustration",
-   "group": null,
-   "catTitle": "Artwork",
-   "subTitle": "Art and illustration",
+   "cat": "events",
+   "sub": "exhibitions",
+   "group": "Art exhibitions",
+   "catTitle": "Events",
+   "subTitle": "Exhibitions",
    "isNew": false,
    "official": false
   }
@@ -73424,9 +73307,9 @@
   {
    "cat": "artwork",
    "sub": "covers",
-   "group": null,
+   "group": "Comics",
    "catTitle": "Artwork",
-   "subTitle": "Cover art",
+   "subTitle": "Cover and comic art",
    "isNew": true,
    "official": true
   }
@@ -73435,9 +73318,9 @@
   {
    "cat": "artwork",
    "sub": "covers",
-   "group": null,
+   "group": "Comics",
    "catTitle": "Artwork",
-   "subTitle": "Cover art",
+   "subTitle": "Cover and comic art",
    "isNew": true,
    "official": true
   }
@@ -73446,9 +73329,9 @@
   {
    "cat": "artwork",
    "sub": "covers",
-   "group": null,
+   "group": "Comics",
    "catTitle": "Artwork",
-   "subTitle": "Cover art",
+   "subTitle": "Cover and comic art",
    "isNew": true,
    "official": true
   }
@@ -73457,9 +73340,9 @@
   {
    "cat": "artwork",
    "sub": "covers",
-   "group": null,
+   "group": "Comics",
    "catTitle": "Artwork",
-   "subTitle": "Cover art",
+   "subTitle": "Cover and comic art",
    "isNew": true,
    "official": true
   }
@@ -73467,19 +73350,10 @@
  "works/gold-key-twilight-zone-interior-artists": [
   {
    "cat": "artwork",
-   "sub": "art-illustration",
-   "group": null,
-   "catTitle": "Artwork",
-   "subTitle": "Art and illustration",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "artwork",
    "sub": "covers",
-   "group": null,
+   "group": "Comics",
    "catTitle": "Artwork",
-   "subTitle": "Cover art",
+   "subTitle": "Cover and comic art",
    "isNew": true,
    "official": true
   }
@@ -73519,13 +73393,13 @@
  ],
  "works/goldsmith-odyssey-cbs-music-library-spectacular": [
   {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "cat": "content",
+   "sub": "Audio",
+   "group": "On: CBS Music Library and the Twilight Zone stock-music practice",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Audio",
    "isNew": false,
-   "official": true
+   "official": null
   }
  ],
  "works/gordon-sander-serling": [
@@ -73597,17 +73471,8 @@
  "works/hallmark-next-stop-the-twilight-zone-ornament": [
   {
    "cat": "merchandise",
-   "sub": "collectibles",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
    "sub": "household-apparel",
-   "group": null,
+   "group": "Pins, decals and ornaments",
    "catTitle": "Merchandise",
    "subTitle": "Household and apparel",
    "isNew": false,
@@ -73794,9 +73659,9 @@
   {
    "cat": "merchandise",
    "sub": "home-media",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Merchandise",
-   "subTitle": "Home video and streaming",
+   "subTitle": "Home video",
    "isNew": false,
    "official": true
   }
@@ -73805,9 +73670,9 @@
   {
    "cat": "merchandise",
    "sub": "home-media",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Merchandise",
-   "subTitle": "Home video and streaming",
+   "subTitle": "Home video",
    "isNew": false,
    "official": true
   }
@@ -73815,10 +73680,10 @@
  "works/image-twilight-zone-dvd-volumes": [
   {
    "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
+   "sub": "home-media",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Home video",
    "isNew": false,
    "official": true
   }
@@ -74103,9 +73968,9 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Art prints",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
    "official": false
   }
@@ -74136,9 +74001,9 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Posters and key art",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
    "official": true
   }
@@ -74188,21 +74053,12 @@
  "works/lego-ideas-twilight-zone-tower-of-terror-2025": [
   {
    "cat": "merchandise",
-   "sub": "collectibles",
-   "group": null,
+   "sub": "toys-figures",
+   "group": "Other makers",
    "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
+   "subTitle": "Toys and figures",
    "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
-   "sub": "replicas",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Prop replicas",
-   "isNew": true,
-   "official": true
+   "official": false
   }
  ],
  "works/licensing-an-occurrence-at-owl-creek-bridge-la-riviere-du-hibou": [
@@ -74261,21 +74117,12 @@
  "works/lowbrow-antics-eye-of-the-beholder-pin-set": [
   {
    "cat": "merchandise",
-   "sub": "collectibles",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
    "sub": "household-apparel",
-   "group": null,
+   "group": "Pins, decals and ornaments",
    "catTitle": "Merchandise",
    "subTitle": "Household and apparel",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "works/madigan-serling-100th-birthday-2024": [
@@ -74399,12 +74246,12 @@
  ],
  "works/martin-landau-shooting-scripts-heritage-lot": [
   {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
-   "isNew": false,
+   "cat": "artwork",
+   "sub": "props-costumes",
+   "group": "Sold at auction",
+   "catTitle": "Artwork",
+   "subTitle": "Props and costumes",
+   "isNew": true,
    "official": true
   }
  ],
@@ -74441,12 +74288,12 @@
  ],
  "works/matheson-once-upon-a-time-script-archive-heritage": [
   {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
-   "isNew": false,
+   "cat": "artwork",
+   "sub": "props-costumes",
+   "group": "Sold at auction",
+   "catTitle": "Artwork",
+   "subTitle": "Props and costumes",
+   "isNew": true,
    "official": true
   }
  ],
@@ -74487,11 +74334,11 @@
   {
    "cat": "merchandise",
    "sub": "household-apparel",
-   "group": null,
+   "group": "Mugs and drinkware",
    "catTitle": "Merchandise",
    "subTitle": "Household and apparel",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "works/midnight-scenes-the-highway-2017": [
@@ -74542,9 +74389,9 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Posters and key art",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
    "official": true
   }
@@ -74652,9 +74499,9 @@
   {
    "cat": "artwork",
    "sub": "covers",
-   "group": null,
+   "group": "Magazines",
    "catTitle": "Artwork",
-   "subTitle": "Cover art",
+   "subTitle": "Cover and comic art",
    "isNew": true,
    "official": true
   }
@@ -74662,10 +74509,10 @@
  "works/night-gallery-blu-ray-kino-imprint": [
   {
    "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
+   "sub": "home-media",
+   "group": "Night Gallery",
    "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Home video",
    "isNew": false,
    "official": true
   }
@@ -74696,7 +74543,7 @@
   {
    "cat": "artwork",
    "sub": "night-gallery-paintings",
-   "group": null,
+   "group": "The paintings",
    "catTitle": "Artwork",
    "subTitle": "Night Gallery paintings",
    "isNew": true,
@@ -74707,7 +74554,7 @@
   {
    "cat": "artwork",
    "sub": "night-gallery-paintings",
-   "group": null,
+   "group": "The paintings",
    "catTitle": "Artwork",
    "subTitle": "Night Gallery paintings",
    "isNew": true,
@@ -74718,7 +74565,7 @@
   {
    "cat": "artwork",
    "sub": "night-gallery-paintings",
-   "group": null,
+   "group": "The paintings",
    "catTitle": "Artwork",
    "subTitle": "Night Gallery paintings",
    "isNew": true,
@@ -74729,7 +74576,7 @@
   {
    "cat": "artwork",
    "sub": "night-gallery-paintings",
-   "group": null,
+   "group": "The paintings",
    "catTitle": "Artwork",
    "subTitle": "Night Gallery paintings",
    "isNew": true,
@@ -74740,7 +74587,7 @@
   {
    "cat": "artwork",
    "sub": "night-gallery-paintings",
-   "group": null,
+   "group": "The paintings",
    "catTitle": "Artwork",
    "subTitle": "Night Gallery paintings",
    "isNew": true,
@@ -74751,7 +74598,7 @@
   {
    "cat": "artwork",
    "sub": "night-gallery-paintings",
-   "group": null,
+   "group": "The paintings",
    "catTitle": "Artwork",
    "subTitle": "Night Gallery paintings",
    "isNew": true,
@@ -74762,7 +74609,7 @@
   {
    "cat": "artwork",
    "sub": "night-gallery-paintings",
-   "group": null,
+   "group": "The paintings",
    "catTitle": "Artwork",
    "subTitle": "Night Gallery paintings",
    "isNew": true,
@@ -74773,7 +74620,7 @@
   {
    "cat": "artwork",
    "sub": "night-gallery-paintings",
-   "group": null,
+   "group": "The paintings",
    "catTitle": "Artwork",
    "subTitle": "Night Gallery paintings",
    "isNew": true,
@@ -74822,15 +74669,6 @@
    "subTitle": "Title design",
    "isNew": false,
    "official": true
-  },
-  {
-   "cat": "artwork",
-   "sub": "night-gallery-paintings",
-   "group": null,
-   "catTitle": "Artwork",
-   "subTitle": "Night Gallery paintings",
-   "isNew": true,
-   "official": true
   }
  ],
  "works/nikes-offer-to-license-the-twilight-zone-theme": [
@@ -74859,9 +74697,9 @@
   {
    "cat": "artwork",
    "sub": "covers",
-   "group": null,
+   "group": "Comics",
    "catTitle": "Artwork",
-   "subTitle": "Cover art",
+   "subTitle": "Cover and comic art",
    "isNew": true,
    "official": true
   }
@@ -74870,19 +74708,10 @@
   {
    "cat": "artwork",
    "sub": "covers",
-   "group": null,
+   "group": "Comics",
    "catTitle": "Artwork",
-   "subTitle": "Cover art",
+   "subTitle": "Cover and comic art",
    "isNew": true,
-   "official": true
-  },
-  {
-   "cat": "artwork",
-   "sub": "posters-key-art",
-   "group": null,
-   "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
-   "isNew": false,
    "official": true
   }
  ],
@@ -75062,11 +74891,11 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Art prints",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "works/pinball-fx-vr-twilight-zone": [
@@ -75094,10 +74923,10 @@
  "works/pioneer-japan-new-twilight-zone-laserdiscs": [
   {
    "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
+   "sub": "home-media",
+   "group": "The Twilight Zone (1985)",
    "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Home video",
    "isNew": false,
    "official": true
   }
@@ -75105,10 +74934,10 @@
  "works/pioneer-japan-twilight-zone-special-edition-laserdiscs": [
   {
    "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
+   "sub": "home-media",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Home video",
    "isNew": false,
    "official": true
   }
@@ -75159,9 +74988,9 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Posters and key art",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
    "official": true
   }
@@ -75170,9 +74999,9 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Posters and key art",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
    "official": true
   }
@@ -75181,9 +75010,9 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Posters and key art",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
    "official": true
   }
@@ -75192,9 +75021,9 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Posters and key art",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
    "official": true
   }
@@ -75496,11 +75325,11 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Art prints",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "works/rittenhouse-complete-twilight-zone-50th-anniversary": [
@@ -75592,15 +75421,6 @@
   }
  ],
  "works/roberson-museum-rod-serlings-twilight-zone-2024": [
-  {
-   "cat": "artwork",
-   "sub": "art-illustration",
-   "group": null,
-   "catTitle": "Artwork",
-   "subTitle": "Art and illustration",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "events",
    "sub": "exhibitions",
@@ -75846,17 +75666,8 @@
  "works/rod-serlings-night-gallery-the-art-of-darkness-2020": [
   {
    "cat": "artwork",
-   "sub": "art-illustration",
-   "group": null,
-   "catTitle": "Artwork",
-   "subTitle": "Art and illustration",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "artwork",
    "sub": "night-gallery-paintings",
-   "group": null,
+   "group": "About the paintings",
    "catTitle": "Artwork",
    "subTitle": "Night Gallery paintings",
    "isNew": true,
@@ -76496,11 +76307,11 @@
  ],
  "works/serling-kpfk-interview-1970": [
   {
-   "cat": "lectures",
-   "sub": "serling-lectures",
-   "group": null,
-   "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "cat": "content",
+   "sub": "Interview",
+   "group": "Not yet attached",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Interview",
    "isNew": false,
    "official": true
   },
@@ -76795,15 +76606,6 @@
  ],
  "works/serlingfest-2024-art-show": [
   {
-   "cat": "artwork",
-   "sub": "art-illustration",
-   "group": null,
-   "catTitle": "Artwork",
-   "subTitle": "Art and illustration",
-   "isNew": false,
-   "official": false
-  },
-  {
    "cat": "events",
    "sub": "exhibitions",
    "group": "Art exhibitions",
@@ -76954,13 +76756,24 @@
    "official": null
   }
  ],
+ "works/shag-dinner-is-on-twilight-zone-print": [
+  {
+   "cat": "artwork",
+   "sub": "posters-key-art",
+   "group": "Art prints",
+   "catTitle": "Artwork",
+   "subTitle": "Posters, key art and prints",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "works/shag-twilight-zone-print-2015": [
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Art prints",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
    "official": true
   }
@@ -76980,7 +76793,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Sideshow",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -76991,7 +76804,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Sideshow",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -77002,7 +76815,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Sideshow",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -77013,7 +76826,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Sideshow",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -77024,7 +76837,7 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Sideshow",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
@@ -77260,18 +77073,9 @@
   {
    "cat": "merchandise",
    "sub": "collectibles",
-   "group": null,
+   "group": "Other collectibles",
    "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
-   "sub": "household-apparel",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Household and apparel",
+   "subTitle": "Collectibles and souvenirs",
    "isNew": false,
    "official": true
   }
@@ -77322,11 +77126,11 @@
   {
    "cat": "merchandise",
    "sub": "toys-figures",
-   "group": null,
+   "group": "Other makers",
    "catTitle": "Merchandise",
    "subTitle": "Toys and figures",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "works/syfy-65-years-twilight-zone-marathon": [
@@ -77638,7 +77442,7 @@
   {
    "cat": "artwork",
    "sub": "props-costumes",
-   "group": null,
+   "group": "Surviving pieces",
    "catTitle": "Artwork",
    "subTitle": "Props and costumes",
    "isNew": true,
@@ -77647,13 +77451,13 @@
  ],
  "works/the-score-906-next-stop-the-twilight-zone": [
   {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "cat": "content",
+   "sub": "Audio",
+   "group": "On: The Twilight Zone (1959-1964)",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Audio",
    "isNew": false,
-   "official": true
+   "official": null
   }
  ],
  "works/the-simpsons-pinball-party-professor-frink-callout": [
@@ -77874,9 +77678,9 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Art prints",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
    "official": true
   }
@@ -77885,9 +77689,9 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Art prints",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
    "official": true
   }
@@ -77896,9 +77700,9 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Art prints",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
    "official": true
   }
@@ -78049,10 +77853,10 @@
  "works/treasures-of-the-twilight-zone": [
   {
    "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
+   "sub": "home-media",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Home video",
    "isNew": false,
    "official": true
   }
@@ -78061,7 +77865,7 @@
   {
    "cat": "merchandise",
    "sub": "household-apparel",
-   "group": null,
+   "group": "Clothing",
    "catTitle": "Merchandise",
    "subTitle": "Household and apparel",
    "isNew": false,
@@ -78072,7 +77876,7 @@
   {
    "cat": "merchandise",
    "sub": "household-apparel",
-   "group": null,
+   "group": "Clothing",
    "catTitle": "Merchandise",
    "subTitle": "Household and apparel",
    "isNew": false,
@@ -78093,15 +77897,6 @@
  "works/trick-or-treat-studios-eye-of-the-beholder-doctor-mask": [
   {
    "cat": "merchandise",
-   "sub": "collectibles",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
    "sub": "masks-and-costumes",
    "group": null,
    "catTitle": "Merchandise",
@@ -78113,15 +77908,6 @@
  "works/trick-or-treat-studios-gremlin-mask": [
   {
    "cat": "merchandise",
-   "sub": "collectibles",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
    "sub": "masks-and-costumes",
    "group": null,
    "catTitle": "Merchandise",
@@ -78131,15 +77917,6 @@
   }
  ],
  "works/trick-or-treat-studios-mystic-seer-latex-mask": [
-  {
-   "cat": "merchandise",
-   "sub": "collectibles",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
   {
    "cat": "merchandise",
    "sub": "masks-and-costumes",
@@ -78164,15 +77941,6 @@
  "works/trick-or-treat-studios-the-masks-vacuform-masks": [
   {
    "cat": "merchandise",
-   "sub": "collectibles",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
    "sub": "masks-and-costumes",
    "group": null,
    "catTitle": "Merchandise",
@@ -78182,15 +77950,6 @@
   }
  ],
  "works/trick-or-treat-studios-twilight-zone-masks-2017": [
-  {
-   "cat": "merchandise",
-   "sub": "collectibles",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
   {
    "cat": "merchandise",
    "sub": "masks-and-costumes",
@@ -78238,18 +77997,9 @@
   {
    "cat": "artwork",
    "sub": "covers",
-   "group": null,
+   "group": "Magazines",
    "catTitle": "Artwork",
-   "subTitle": "Cover art",
-   "isNew": true,
-   "official": true
-  },
-  {
-   "cat": "artwork",
-   "sub": "night-gallery-paintings",
-   "group": null,
-   "catTitle": "Artwork",
-   "subTitle": "Night Gallery paintings",
+   "subTitle": "Cover and comic art",
    "isNew": true,
    "official": true
   }
@@ -78289,22 +78039,13 @@
  ],
  "works/tv-time-machine-tom-wright-night-gallery-interview": [
   {
-   "cat": "artwork",
-   "sub": "art-illustration",
-   "group": null,
-   "catTitle": "Artwork",
-   "subTitle": "Art and illustration",
+   "cat": "content",
+   "sub": "Interview",
+   "group": "On: The Night Gallery paintings (1969-1973)",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Interview",
    "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "artwork",
-   "sub": "night-gallery-paintings",
-   "group": null,
-   "catTitle": "Artwork",
-   "subTitle": "Night Gallery paintings",
-   "isNew": true,
-   "official": true
+   "official": null
   }
  ],
  "works/tvmaze-twilight-zone-2019": [
@@ -78442,10 +78183,10 @@
  "works/twilight-zone-2019-season-one-dvd": [
   {
    "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
+   "sub": "home-media",
+   "group": "The Twilight Zone (2019)",
    "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Home video",
    "isNew": false,
    "official": true
   }
@@ -78517,10 +78258,10 @@
  "works/twilight-zone-complete-80s-series-dvd": [
   {
    "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
+   "sub": "home-media",
+   "group": "The Twilight Zone (1985)",
    "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Home video",
    "isNew": false,
    "official": true
   }
@@ -78528,10 +78269,10 @@
  "works/twilight-zone-complete-series-blu-ray-2012": [
   {
    "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
+   "sub": "home-media",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Home video",
    "isNew": false,
    "official": true
   }
@@ -78572,19 +78313,10 @@
  "works/twilight-zone-door-decal-entertainment-earth": [
   {
    "cat": "merchandise",
-   "sub": "collectibles",
-   "group": null,
+   "sub": "household-apparel",
+   "group": "Pins, decals and ornaments",
    "catTitle": "Merchandise",
-   "subTitle": "Collectibles",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Household and apparel",
    "isNew": false,
    "official": true
   }
@@ -78592,10 +78324,10 @@
  "works/twilight-zone-essential-episodes-55th-anniversary": [
   {
    "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
+   "sub": "home-media",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Home video",
    "isNew": false,
    "official": true
   }
@@ -78603,10 +78335,10 @@
  "works/twilight-zone-fan-favorites-2012": [
   {
    "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
+   "sub": "home-media",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Home video",
    "isNew": false,
    "official": true
   }
@@ -78669,12 +78401,12 @@
  "works/twilight-zone-matte-painting-nate-d-sanders-2024": [
   {
    "cat": "artwork",
-   "sub": "art-illustration",
-   "group": null,
+   "sub": "props-costumes",
+   "group": "Sold at auction",
    "catTitle": "Artwork",
-   "subTitle": "Art and illustration",
-   "isNew": false,
-   "official": false
+   "subTitle": "Props and costumes",
+   "isNew": true,
+   "official": true
   }
  ],
  "works/twilight-zone-monster-mini-golf-las-vegas": [
@@ -78692,9 +78424,9 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Posters and key art",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
    "official": true
   }
@@ -78702,10 +78434,10 @@
  "works/twilight-zone-movie-blu-ray-hd-dvd-2007": [
   {
    "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
+   "sub": "home-media",
+   "group": "Twilight Zone: The Movie (1983)",
    "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Home video",
    "isNew": false,
    "official": true
   }
@@ -78713,10 +78445,10 @@
  "works/twilight-zone-movie-new-blu-ray-2025": [
   {
    "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
+   "sub": "home-media",
+   "group": "Twilight Zone: The Movie (1983)",
    "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "subTitle": "Home video",
    "isNew": false,
    "official": true
   }
@@ -78855,13 +78587,13 @@
  ],
  "works/twilight-zone-sponsor-trade-press-1959-1960": [
   {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "cat": "content",
+   "sub": "Advertisement",
+   "group": "On: The Twilight Zone (1959-1964)",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Advertisement",
    "isNew": false,
-   "official": true
+   "official": null
   }
  ],
  "works/twilight-zone-stage-play-west-end-2019": [
@@ -78888,13 +78620,13 @@
  ],
  "works/twilight-zone-the-movie-1983-college-newspaper-pages": [
   {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "cat": "content",
+   "sub": "Advertisement",
+   "group": "On: Twilight Zone: The Movie",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Advertisement",
    "isNew": false,
-   "official": true
+   "official": null
   }
  ],
  "works/twilight-zone-the-movie-1983-print-ad": [
@@ -78921,9 +78653,9 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Posters and key art",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
    "official": true
   }
@@ -79144,22 +78876,22 @@
  ],
  "works/tz-2019-licensed-songs-tunefind": [
   {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "cat": "content",
+   "sub": "Link",
+   "group": "On: The Twilight Zone (2019-2020)",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Link",
    "isNew": false,
-   "official": true
+   "official": null
   }
  ],
  "works/tz-magazine-april-1981-jim-warren-cover": [
   {
    "cat": "artwork",
    "sub": "covers",
-   "group": null,
+   "group": "Magazines",
    "catTitle": "Artwork",
-   "subTitle": "Cover art",
+   "subTitle": "Cover and comic art",
    "isNew": true,
    "official": true
   }
@@ -79167,19 +78899,10 @@
  "works/tz-magazine-april-1981-story-illustrations": [
   {
    "cat": "artwork",
-   "sub": "art-illustration",
-   "group": null,
-   "catTitle": "Artwork",
-   "subTitle": "Art and illustration",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "artwork",
    "sub": "covers",
-   "group": null,
+   "group": "Magazines",
    "catTitle": "Artwork",
-   "subTitle": "Cover art",
+   "subTitle": "Cover and comic art",
    "isNew": true,
    "official": true
   }
@@ -79188,9 +78911,9 @@
   {
    "cat": "artwork",
    "sub": "covers",
-   "group": null,
+   "group": "Magazines",
    "catTitle": "Artwork",
-   "subTitle": "Cover art",
+   "subTitle": "Cover and comic art",
    "isNew": true,
    "official": true
   }
@@ -79219,13 +78942,13 @@
  ],
  "works/tz-theme-cover-and-sample-indexes": [
   {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
-   "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "cat": "content",
+   "sub": "Link",
+   "group": "On: The Twilight Zone theme (\"Etrange No. 3\" / \"Milieu No. 2\"); Twilight Zone Theme (first-season main title)",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Link",
    "isNew": false,
-   "official": true
+   "official": null
   }
  ],
  "works/ucla-rod-serling-dictabelt-collection": [
@@ -79541,15 +79264,6 @@
    "subTitle": "Make-up and production design",
    "isNew": true,
    "official": true
-  },
-  {
-   "cat": "artwork",
-   "sub": "props-costumes",
-   "group": null,
-   "catTitle": "Artwork",
-   "subTitle": "Props and costumes",
-   "isNew": true,
-   "official": true
   }
  ],
  "works/willy-wonka-pinball-2019-homage": [
@@ -79596,13 +79310,13 @@
  ],
  "works/wissner-a-dimension-of-sound-2013": [
   {
-   "cat": "merchandise",
-   "sub": "other-merchandise",
+   "cat": "reading",
+   "sub": "books",
    "group": null,
-   "catTitle": "Merchandise",
-   "subTitle": "Other merchandise",
+   "catTitle": "Reading",
+   "subTitle": "Books",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "works/wissner-music-in-the-twilight-zone-2017": [
@@ -79706,11 +79420,11 @@
   {
    "cat": "artwork",
    "sub": "posters-key-art",
-   "group": null,
+   "group": "Art prints",
    "catTitle": "Artwork",
-   "subTitle": "Posters and key art",
+   "subTitle": "Posters, key art and prints",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ]
 }

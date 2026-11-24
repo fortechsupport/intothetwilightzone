@@ -4,11 +4,12 @@ creator: Super7
 publisher: Super7
 description: >-
   A Super7 ReAction figure of Eddie based on the cover art for Iron Maiden's 1981 single 'Twilight Zone'.
+details:
+  licence_note: No source read states a licence.
+official: false
 subtype: action-figure
 relevance: tangential
 research_confidence: high
-categories:
-- merchandise/toys-figures
 sources:
 - title: 'Super7: Iron Maiden ReAction Figure - Twilight Zone (Single Art)'
   url: https://www.super7store.com/products/iron-maiden-reaction-figure-twilight-zone-single-art
