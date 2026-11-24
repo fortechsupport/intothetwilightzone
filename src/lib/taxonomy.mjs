@@ -25,6 +25,21 @@ import { hostShow, ENTRY_KINDS } from './tv-shows.mjs';
  */
 export const MUSIC_GROUPS = ['The Twilight Zone (1959)', 'Night Gallery', 'Twilight Zone: The Movie (1983)', 'The Twilight Zone (1985)', "Rod Serling's Lost Classics (1994)", 'The Tower of Terror', 'The Twilight Zone (2002)', 'The Twilight Zone (2019)', 'The radio dramas', 'Compilations', 'Rod Serling on record'];
 
+// Podcasts (docs/plans/research-podcasts.md, section 2): shelf B is grouped by what a podcast covers, shelf C by
+// the subject of the episode, both in this fixed order.
+export const PODCAST_GROUPS = ['The Twilight Zone (1959)', 'More than one Twilight Zone series', 'The Twilight Zone (1985)', 'The Twilight Zone (2019)', 'Night Gallery', 'Recurring segments in other podcasts', 'Coverage not yet recorded'];
+export const PODCAST_SUBJECTS = { show: 'The show', serling: 'Rod Serling', 'film-1983': 'Twilight Zone: The Movie and the accident', 'night-gallery': 'Night Gallery', 'revival-2019': 'The 2019 series' };
+const TZ_SERIES = ['1959', '1985', '2002', '2019'];
+export function podcastGroup(d) {
+  if (d.kind === 'segment') return 'Recurring segments in other podcasts';
+  const c = d.covers ?? [];
+  const tz = c.filter((x) => TZ_SERIES.includes(x));
+  if (tz.length > 1) return 'More than one Twilight Zone series';
+  if (tz.length === 1) return `The Twilight Zone (${tz[0]})`;
+  if (c.includes('films/night-gallery')) return 'Night Gallery';
+  return 'Coverage not yet recorded';
+}
+
 export const TAXONOMY = [
   {
     slug: 'people',
@@ -171,14 +186,33 @@ export const TAXONOMY = [
     title: 'Podcasts',
     group: 'listen',
     split: true,
-    description: 'Podcasts devoted to The Twilight Zone, and notable single episodes of other podcasts.',
+    description: 'Podcasts devoted to The Twilight Zone, single episodes of other podcasts, fiction it inspired, and every episode in one searchable table.',
     intro: [
       'The show is one of the most podcasted series in television history: whole shows work through it episode by episode, and many others have devoted an episode to a favorite story or to the 1983 film.',
+      'Every episode of every podcast here is also in one searchable table, read from the podcasts\' own feeds, and each episode of the show lists the podcast episodes about it.',
     ],
-    connection: 'Each podcast or episode is about The Twilight Zone, Night Gallery or Rod Serling.',
+    connection: 'Each podcast or episode is about The Twilight Zone, Night Gallery or Rod Serling, or is fiction that names the show as its model. None is official: no podcast made or licensed by CBS, Paramount or the Serling family was found (2026-11-24).',
+    // Four shelves (plan section 2). Shelf A, official podcasts, appears only once one is found: none was in
+    // round 1 (2026-11-24). Every episode of every podcast is in one table at /podcasts/episodes/.
+    seeAlso: [['Every podcast episode, searchable', '/podcasts/episodes/'], ['The radio dramas', '/radio/radio-dramas/']],
     subs: [
-      { slug: 'shows', title: 'Podcast series', blurb: 'Podcasts devoted to the show, most working through it episode by episode.' },
-      { slug: 'episodes', title: 'Podcast episodes', blurb: 'Single podcast episodes about the show or the 1983 film.' },
+      {
+        slug: 'shows', title: 'Podcasts about the show', side: 'unofficial', groups: PODCAST_GROUPS,
+        orderNote: 'Groups go from the original series to Night Gallery, then segments inside other podcasts; within each, podcasts are A to Z.',
+        blurb: 'Podcasts devoted to The Twilight Zone, Night Gallery or Rod Serling, most working through the episodes one by one, grouped by what they cover.',
+        connection: 'Fans and critics talking about the show, episode by episode. None is made or licensed by CBS, Paramount or the Serling family.',
+      },
+      {
+        slug: 'single-episodes', title: 'Single episodes', side: 'unofficial', groups: Object.values(PODCAST_SUBJECTS),
+        orderNote: 'Groups follow the subject; within each, episodes are A to Z.',
+        blurb: 'Episodes of other podcasts given over to the show, Rod Serling, the 1983 film or Night Gallery.',
+        connection: 'Podcasts about other things that spent an episode on the show or its creator.',
+      },
+      {
+        slug: 'fiction', title: 'Fiction inspired by the show', isNew: true, side: 'unofficial',
+        blurb: 'Audio-fiction podcasts that say they were inspired by The Twilight Zone.',
+        connection: 'New stories, not the show: each is here because the podcast names The Twilight Zone as its model, or is marked where that has not yet been confirmed.',
+      },
     ],
   },
   {
@@ -572,7 +606,7 @@ const ALIASES = {
   'episodes/radio': ['radio', 'radio-dramas'],
   'episodes/radio-original-stories': ['radio', 'original-stories'],
   'episodes/radio-unmade-tv-scripts': ['radio', 'unmade-scripts'],
-  'episodes/podcast': ['podcasts', 'episodes'],
+  'episodes/podcast': ['podcasts', 'single-episodes'],
   'media/*': 'content',
   'community/fan-communities': ['organizations', 'fan-groups'],
   'community/organizations': ['organizations', 'foundations-societies'],
@@ -815,8 +849,10 @@ export function place(col, id, d, ctx = {}) {
       break;
     case 'podcasts':
       // Podcasts plan round 1: the record's kind says what it is; the assessment label is the fallback.
-      if (d.kind === 'single-episode' || (!d.kind && asub === 'Single episodes of other podcasts')) add('podcasts', 'episodes');
-      else add('podcasts', 'shows', d.status === 'active' ? 'Active' : d.status === 'ended' ? 'Ended' : undefined);
+      // Podcasts step 3: four shelves by kind; shows grouped by coverage, single episodes by subject.
+      if (d.kind === 'single-episode' || (!d.kind && asub === 'Single episodes of other podcasts')) add('podcasts', 'single-episodes', PODCAST_SUBJECTS[d.subject] ?? 'The show');
+      else if (d.kind === 'fiction') add('podcasts', 'fiction', (d.tags ?? []).includes('needs-tie-check') ? 'Tie not yet confirmed' : 'Inspired by the show, in their own words');
+      else add('podcasts', 'shows', podcastGroup(d));
       break;
     case 'characters':
       add('people', 'characters', { human: 'People', alien: 'Aliens', robot: 'Robots and machines', supernatural: 'Supernatural beings', animal: 'Animals', object: 'Objects' }[d.kind] ?? undefined);

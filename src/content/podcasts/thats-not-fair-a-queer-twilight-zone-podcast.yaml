@@ -15,7 +15,7 @@ sources:
   url: https://thatsnotfairpod.podbean.com/
 - title: 'RSS feed: That’s Not Fair: A Queer Twilight Zone Podcast'
   url: https://feed.podbean.com/thatsnotfairpod/feed.xml
-  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 24 episodes, dated 2024-02-08 to 2024-08-29.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 24 episodes, dated 2024-02-08 to 2024-08-29. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 description: A fortnightly podcast in which Vieno Savo and Eeri Hietala, both with English degrees, work through the original
   series in order and read it from a queer perspective. They covered season 1 (with a top-three episode and a "perfect episode"
   special in June 2024) and moved into season 2; the latest episode on the show page is number 24, "Lateness of the Nick",

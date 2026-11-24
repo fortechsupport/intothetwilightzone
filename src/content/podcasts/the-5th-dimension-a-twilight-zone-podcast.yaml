@@ -22,7 +22,7 @@ sources:
   url: https://podnews.net/podcast/ilqsr
 - title: 'RSS feed: The 5th Dimension (A Twilight Zone Podcast)'
   url: https://anchor.fm/s/6ab4278c/podcast/rss
-  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 164 episodes, dated 2021-09-07 to 2025-07-04.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 164 episodes, dated 2021-09-07 to 2025-07-04. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: core
 research_confidence: medium
 tags:

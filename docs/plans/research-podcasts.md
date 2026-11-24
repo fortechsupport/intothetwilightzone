@@ -190,6 +190,20 @@ B and D, read from each podcast's own RSS feed, plus each single episode on shel
 ---
 
 ## Decided here (Adam reviews later)
+- Overnight 2026-11-24 (Adam asleep, asked us to decide by best judgement): round 2 and step 3 ship as one pull
+  request, since the matching rule is tested against the table it feeds.
+- Shelf A (official) is not shown at all, rather than as an empty "planned" shelf; the landing page says no official
+  podcast was found.
+- Shelf B groups: The Twilight Zone (1959), More than one Twilight Zone series, (1985), (2019), Night Gallery,
+  Recurring segments in other podcasts, Coverage not yet recorded. Shelf C groups by subject: the show, Rod
+  Serling, the 1983 film and the accident, Night Gallery, the 2019 series. No Bodies stays under "The show" because
+  its subject (probably the 1982 accident) is unconfirmed.
+- Shelf D shows The Familiar under "Tie not yet confirmed" until its own statement of the tie is found.
+- Episode lists kept on podcast records (featured_episodes) are no longer a shelf; they are rows in the table, used
+  only where the feed does not already list the episode.
+- The table's matching rule is in data/research/podcasts-2026-11-24/round-2.md. Night Gallery matches link to the
+  episode's entry on the Night Gallery page.
+- The weekly job does not push to main by itself (see Waiting on Adam).
 - Round 1 (2026-11-24): status "ended" means no episode in the six months before the feed was read; it is an
   inference and each source note says so. A higher earlier count or earlier first date is kept when a feed lists
   fewer episodes than an earlier source.
@@ -201,9 +215,22 @@ B and D, read from each podcast's own RSS feed, plus each single episode on shel
 - Podcast interviews with the show's makers attach to their People pages as interviews (the "media are never categories" rule) and also stay on shelf C.
 
 ## Waiting on Adam
-- (none: plan and Q1 to Q9 approved as suggested, 2026-11-24 03:12 UTC)
+- (plan and Q1 to Q9 approved as suggested, 2026-11-24 03:12 UTC)
+- **How the weekly refresh reaches the site (Q8).** The weekly job reads every feed each Monday and keeps the result
+  as a run artifact; a podcast pull request commits the refreshed list to its own branch. Publishing the weekly
+  refresh on its own needs one of: (a) let the job commit the list straight to main after it passes the data check
+  and the build (suggested: it only ever touches data/podcasts/episodes.json); (b) turn on "Allow GitHub Actions to
+  create and approve pull requests" in the repository's Actions settings so it opens a pull request instead; or
+  (c) a Claude thread refreshes it weekly. Until then a podcast change picks up new episodes.
+- A commit made by the feed job starts the Checks workflow in "action required" state (GitHub asks the owner to
+  approve runs triggered by the Actions bot). Nothing is blocked: the next commit by a person runs the checks.
 
 ## Found, for later
+- The Night Gallery page could show, per episode, the podcast episodes about its segments (162 rows match a segment).
+- Podcasts that review several series could be matched more precisely with season and episode numbers ("S2E29",
+  "TZ1985 - 329"); today a shared title goes to the original series unless a series word is in the title.
+- The table could take fan corrections ("wrong match") through the contribute form.
+- Night Zone Anthology still has no feed; Of Shadow and Substance's iHeart page lists five episodes but no feed.
 - Feeds cap what they list (Strange Highways 400, Ear of the Beholder 300), so the episode table cannot hold the
   oldest episodes of those two from the feed alone. Round 2 looks for an archive page or a full listing.
 - Leads not yet recorded: the Foundation's "Talking Rod's Legacy on 50th Anniversary" (28 June 2025), its Audio

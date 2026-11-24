@@ -6,8 +6,8 @@ hosts:
 status: active
 covers:
 - '1959'
-description: A weekly fan podcast in which hosts Alex and Tyler watch the original series one episode at a time and give
-  their takes; it passed 139 episodes in November 2026 and runs an annual Halloween special.
+description: A weekly fan podcast in which hosts Alex and Tyler watch the original series one episode at a time and give their
+  takes; it passed 139 episodes in November 2026 and runs an annual Halloween special.
 featured_episodes:
 - title: 'Episode 139: An Occurrence at Owl Creek Bridge'
   url: https://ajrockstar3.podbean.com/e/episode-139-an-occurrence-at-owl-creek-bridge/
@@ -26,9 +26,17 @@ featured_episodes:
   covers_episode: 1959/the-dummy
 links:
   home: https://ajrockstar3.podbean.com
+  rss: https://feed.podbean.com/ajrockstar3/feed.xml
 sources:
 - title: Podbean - The Twilight Gnome
   url: https://ajrockstar3.podbean.com
+- title: 'RSS feed: The Twilight Gnome'
+  url: https://feed.podbean.com/ajrockstar3/feed.xml
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 152 episodes, dated 2025-01-13 to 2026-11-22. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: core
 research_confidence: medium
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
+tags:
+- research-2026-11-24
+episode_count: 152
+episode_count_as_of: '2026-11-24'

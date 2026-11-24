@@ -58,7 +58,7 @@ first because everything else links to it.
 | 5 | Read: Comics and Magazines | Already deep; a quick verification pass and cover-art links. |
 | 6 | Read: Articles, Essays and Websites | Articles and websites are partial to thin. |
 | 7 | Listen: Music | Done 2026-11-24: six shelves, music on 34 episode pages. 54 songs still "not yet confirmed". |
-| 8 | Listen: Podcasts | No official shelf yet; episode lists are samples. |
+| 8 | Listen: Podcasts | Done 2026-11-24: three shelves (no official podcast found), 3,323 episodes in one searchable table. |
 | 9 | Watch: Stage | Done 2026-11-24: five shelves and the play page. |
 | 10 | Play: Games | Much already searched with no result; a short confirming pass. |
 | 11 | Collect: Artwork | Thin in prints, cover artists and title design. |
@@ -178,7 +178,7 @@ Plan: docs/plans/research-music.md (approved by Adam 2026-11-24, Q1 to Q6 as sug
 **Likely missing:** the full cover list of the theme (SecondHandSongs), samples (WhoSampled), per-episode stock-music cues, bands named after episodes.
 
 ### Podcasts
-- [x] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [x] Researched (rounds 1–2, PRs #62–#63) · [x] Records decided (decision 0005) · [x] Pages built (PR #63)
 
 Plan: docs/plans/research-podcasts.md (approved by Adam 2026-11-24, Q1 to Q9 as suggested, including the RSS episode table).
 

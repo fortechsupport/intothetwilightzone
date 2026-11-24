@@ -9,11 +9,26 @@ episode_count: 2
 status: ended
 covers:
 - '1959'
-description: A Fandom Limb Media podcast that set out to cover the original series from the beginning; only two episodes
-  appeared, in May and June 2023.
+description: A Fandom Limb Media podcast that set out to cover the original series from the beginning; only two episodes appeared,
+  in May and June 2023.
 sources:
 - title: Pod Engine - Zoners
   url: https://www.podengine.ai/podcasts/zoners
+- title: Spreaker - Zoners
+  url: https://www.spreaker.com/podcast/zoners--5859407
+  note: 'Read 2026-11-24: Fandom Limb Media''s show page, "Zoners: A Podcast For Fans of The Twilight Zone, hosted by Matt
+    McGregor, Colin Shaw, and Harris McCabe"; it lists no episodes now. The feed address follows Spreaker''s pattern for show
+    5859407 and is checked by the feed reader.'
+- title: 'RSS feed: Zoners'
+  url: https://www.spreaker.com/show/5859407/episodes/feed
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 2 episodes, dated 2023-05-11 to 2023-06-08. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: core
 research_confidence: medium
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
+links:
+  rss: https://www.spreaker.com/show/5859407/episodes/feed
+  spreaker: https://www.spreaker.com/podcast/zoners--5859407
+network: Fandom Limb Media
+tags:
+- research-2026-11-24
+episode_count_as_of: '2026-11-24'

@@ -25,7 +25,7 @@ sources:
   url: https://www.buzzsprout.com/182090/episodes/18438613-the-twilight-zone-segment-episode-2-one-for-the-angels-with-special-guest-kate-powers
 - title: 'RSS feed: Hallowed Groundling'
   url: https://rss.buzzsprout.com/182090.rss
-  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 10 episodes whose titles name the show (of 37 in the feed), dated 2025-11-29 to 2026-11-11.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 10 episodes whose titles name the show (of 37 in the feed), dated 2025-11-29 to 2026-11-11. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: related
 research_confidence: medium
 tags:

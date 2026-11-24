@@ -1,0 +1,120 @@
+---
+// Every podcast episode in one table (docs/plans/research-podcasts.md, Q3, Q8 and Q9): searchable, filterable by
+// podcast, series, episode of the show and year, sortable, with every choice kept in the address. The first page of
+// rows is in the HTML so it reads without JavaScript; the rest load from /podcasts/episodes.json.
+import Base from '../../layouts/Base.astro';
+import { podcastIndex, SERIES_NAMES } from '../../lib/podcast-episodes';
+import { formatDate } from '../../lib/data';
+import { sortKey } from '../../lib/taxonomy.mjs';
+
+const ix = await podcastIndex();
+const PAGE = 50;
+const used = new Set(ix.rows.map((r) => r.p));
+const podcasts = ix.podcasts.map((p, i) => ({ ...p, i })).filter((p) => used.has(p.i)).sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title)));
+const matchedTargets = new Set(ix.rows.flatMap((r) => r.m));
+const shows = Object.keys(SERIES_NAMES).map((s) => ({ s, name: SERIES_NAMES[s], eps: ix.targets.map((t, i) => ({ ...t, i })).filter((t) => t.series === s && matchedTargets.has(t.i)) })).filter((g) => g.eps.length);
+for (const g of shows) g.eps.sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title)));
+const years = [...new Set(ix.rows.map((r) => r.d?.slice(0, 4)).filter(Boolean))].sort().reverse();
+const matched = ix.rows.filter((r) => r.m.length).length;
+const feeds = ix.podcasts.filter((p) => p.feed?.status === 'ok').length;
+const gone = ix.podcasts.filter((p) => p.feed && p.feed.status !== 'ok');
+const len = (s?: number) => (s ? (s >= 3600 ? `${Math.floor(s / 3600)} h ${Math.round((s % 3600) / 60)} min` : `${Math.max(1, Math.round(s / 60))} min`) : '');
+const first = ix.rows.slice(0, PAGE);
+const n = (x: number) => x.toLocaleString('en-US');
+---
+<Base title="Podcast episodes: Podcasts" description={`Every episode of ${podcasts.length} podcasts about The Twilight Zone, Night Gallery and Rod Serling, in one searchable table: ${n(ix.rows.length)} episodes, each linked to the podcast's own page.`}>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/listen/">Listen</a> / <a href="/podcasts/">Podcasts</a></p>
+  <h1>Podcast episodes</h1>
+  <p class="lead">{n(ix.rows.length)} episodes from {podcasts.length} podcasts about the show, newest first.</p>
+  <aside class="tz-link">
+    <h2>Where these come from</h2>
+    <p>Search, filter and sort below; the address keeps your choices, so a filtered list can be shared. Each podcast's own feed lists its episodes; {feeds} feeds were read{ix.generated && <> on {formatDate(ix.generated)}</>}, and the list grows as they publish. Only facts are kept: the title, date, length and a link to the episode's own page. Show notes, audio and artwork stay with the podcasters, so every row links to them. Podcasts with no readable feed add the episodes their records list.</p>
+    <p class="small"><strong>Matched by title:</strong> the "About" column names the episode of the show a podcast episode's title names. It is read from the title alone, so a pun or a missing title is not caught, and a match can be wrong. <a href="/contribute/">Tell us</a> about one that is.</p>
+    {gone.length > 0 && <p class="small">Feeds no longer available, kept with the episodes they listed: {gone.map((p, i) => <>{i > 0 && ', '}<a href={p.href}>{p.title}</a></>)}.</p>}
+  </aside>
+
+  <form class="lib-filters" id="pe-form" data-pagefind-ignore onsubmit="return false" hidden>
+    <label>Search <input id="pe-q" type="search" placeholder="Episode title or story" /></label>
+    <label>Podcast <select id="pe-p"><option value="">All podcasts</option>{podcasts.map((p) => <option value={p.id}>{p.title}</option>)}</select></label>
+    <label>Series <select id="pe-s"><option value="">Any series</option>{shows.map((g) => <option value={g.s}>{g.name}</option>)}<option value="none">Not matched to an episode</option></select></label>
+    <label>Episode of the show <select id="pe-e"><option value="">Any episode</option>{shows.map((g) => <optgroup label={g.name}>{g.eps.map((t) => <option value={t.key}>{t.title}</option>)}</optgroup>)}</select></label>
+    <label>Year <select id="pe-y"><option value="">Any year</option>{years.map((y) => <option value={y}>{y}</option>)}</select></label>
+    <label>Sort <select id="pe-o"><option value="new">Newest first</option><option value="old">Oldest first</option><option value="podcast">Podcast, A to Z</option><option value="title">Title, A to Z</option><option value="show">Episode of the show, A to Z</option><option value="long">Longest first</option></select></label>
+    <span id="pe-count" class="small muted" role="status" aria-live="polite"></span>
+  </form>
+  <p class="small muted">{n(matched)} of {n(ix.rows.length)} episodes are matched by title to an episode of the show.</p>
+
+  <div class="table-wrap">
+    <table class="lib" id="pe">
+      <caption class="visually-hidden">Podcast episodes</caption>
+      <thead><tr><th scope="col">Episode</th><th scope="col">Podcast</th><th scope="col">Date</th><th scope="col">Length</th><th scope="col">About (matched by title)</th></tr></thead>
+      <tbody>
+        {first.map((r) => {
+          const p = ix.podcasts[r.p];
+          return (
+            <tr>
+              <td><a href={r.u}>{r.t}</a></td>
+              <td class="small"><a href={p.href}>{p.title}</a></td>
+              <td class="small nowrap">{r.d && formatDate(r.d)}</td>
+              <td class="small nowrap">{len(r.s)}</td>
+              <td class="small">{r.m.map((t, i) => <>{i > 0 && ' · '}<a href={ix.targets[t].href}>{ix.targets[t].title}</a></>)}</td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+  <nav class="pager" id="pe-pager" aria-label="Pages of episodes" data-pagefind-ignore>
+    <span class="small muted">Showing the newest {PAGE}. <a href="/podcasts/">Back to Podcasts</a></span>
+  </nav>
+
+  <script is:inline define:vars={{ PAGE }}>
+    (() => {
+      const $ = (id) => document.getElementById(id);
+      const form = $('pe-form'), tbody = document.querySelector('#pe tbody'), pager = $('pe-pager');
+      const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+      const M = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+      const date = (d) => (d ? `${M[+d.slice(5, 7) - 1]} ${+d.slice(8, 10)}, ${d.slice(0, 4)}` : '');
+      const len = (s) => (s ? (s >= 3600 ? `${Math.floor(s / 3600)} h ${Math.round((s % 3600) / 60)} min` : `${Math.max(1, Math.round(s / 60))} min`) : '');
+      const key = (s) => s.toLowerCase().replace(/^(the|a|an)\s+/, '').replace(/[^a-z0-9 ]/g, '');
+      fetch('/podcasts/episodes.json').then((r) => r.json()).then((data) => {
+        const P = data.podcasts, S = data.shows;
+        const pid = P.map((p) => p[1].split('/').filter(Boolean).pop());
+        const showKey = S.map((s) => s[3]);
+        const rows = data.rows.map(([p, t, d, s, u, x, m]) => ({ p, t, d, s, u, x, m, text: `${t} ${m.map((i) => S[i][0]).join(' ')}`.toLowerCase(), pk: key(P[p][0]), tk: key(t), sk: m.length ? key(S[m[0]][0]) : '~' }));
+        const ctl = { q: $('pe-q'), podcast: $('pe-p'), series: $('pe-s'), ep: $('pe-e'), year: $('pe-y'), sort: $('pe-o') };
+        const qs = new URLSearchParams(location.search);
+        for (const [k, el] of Object.entries(ctl)) if (qs.get(k)) el.value = qs.get(k);
+        let page = Math.max(1, +qs.get('page') || 1);
+        form.hidden = false;
+        const SORTS = {
+          new: (a, b) => b.d.localeCompare(a.d), old: (a, b) => (a.d || '9').localeCompare(b.d || '9'),
+          podcast: (a, b) => a.pk.localeCompare(b.pk) || b.d.localeCompare(a.d), title: (a, b) => a.tk.localeCompare(b.tk),
+          show: (a, b) => a.sk.localeCompare(b.sk) || b.d.localeCompare(a.d), long: (a, b) => b.s - a.s,
+        };
+        const render = (push) => {
+          const q = ctl.q.value.trim().toLowerCase(), pod = ctl.podcast.value, ser = ctl.series.value, ep = ctl.ep.value, yr = ctl.year.value;
+          const pi = pod ? pid.indexOf(pod) : -1, ei = ep ? showKey.indexOf(ep) : -1;
+          const list = rows.filter((r) => (!q || q.split(/\s+/).every((w) => r.text.includes(w))) && (!pod || r.p === pi) && (!ep || r.m.includes(ei))
+            && (!ser || (ser === 'none' ? !r.m.length : r.m.some((i) => S[i][1] === ser))) && (!yr || r.d.startsWith(yr)));
+          list.sort(SORTS[ctl.sort.value] || SORTS.new);
+          const pages = Math.max(1, Math.ceil(list.length / PAGE));
+          page = Math.min(page, pages);
+          tbody.innerHTML = list.slice((page - 1) * PAGE, page * PAGE).map((r) => `<tr><td><a href="${esc(r.u)}"${r.x ? ' target="_blank" rel="noopener"' : ''}>${esc(r.t)}</a></td><td class="small"><a href="${esc(P[r.p][1])}">${esc(P[r.p][0])}</a>${P[r.p][3] === 'unavailable' ? ' <span class="muted">(feed no longer available)</span>' : ''}</td><td class="small nowrap">${date(r.d)}</td><td class="small nowrap">${len(r.s)}</td><td class="small">${r.m.map((i) => `<a href="${esc(S[i][2])}">${esc(S[i][0])}</a>`).join(' · ')}</td></tr>`).join('')
+            || '<tr><td colspan="5" class="muted">No episodes match. Try fewer words or another filter.</td></tr>';
+          $('pe-count').textContent = `${list.length.toLocaleString('en-US')} of ${rows.length.toLocaleString('en-US')} episodes${pages > 1 ? `, page ${page} of ${pages}` : ''}`;
+          pager.innerHTML = pages > 1 ? `<button type="button" data-go="${page - 1}"${page === 1 ? ' disabled' : ''}>Previous page</button><span class="small muted">Page ${page} of ${pages}</span><button type="button" data-go="${page + 1}"${page === pages ? ' disabled' : ''}>Next page</button>` : '';
+          const u = new URLSearchParams();
+          for (const [k, el] of Object.entries(ctl)) if (el.value && !(k === 'sort' && el.value === 'new')) u.set(k, el.value.trim());
+          if (page > 1) u.set('page', page);
+          history[push ? 'pushState' : 'replaceState'](null, '', `${location.pathname}${u.toString() ? '?' + u : ''}`);
+        };
+        for (const k of ['podcast', 'series', 'ep', 'year', 'sort']) ctl[k].addEventListener('change', () => { page = 1; render(); });
+        ctl.q.addEventListener('input', () => { page = 1; render(); });
+        pager.addEventListener('click', (e) => { const b = e.target.closest('[data-go]'); if (b && !b.disabled) { page = +b.dataset.go; render(true); document.getElementById('pe').scrollIntoView({ block: 'start' }); } });
+        window.addEventListener('popstate', () => { const p = new URLSearchParams(location.search); for (const [k, el] of Object.entries(ctl)) el.value = p.get(k) || (k === 'sort' ? 'new' : ''); page = +p.get('page') || 1; render(); });
+        render();
+      }).catch(() => { pager.insertAdjacentHTML('beforeend', '<p class="small">The full list could not load; the newest episodes are shown.</p>'); });
+    })();
+  </script>
+</Base>

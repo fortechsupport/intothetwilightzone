@@ -1,7 +1,7 @@
 title: The Familiar Podcast
 kind: fiction
-description: FICTION, inspired by TZ. An independent audio-fiction anthology that describes itself in terms of The Twilight
-  Zone (it surfaced on an exact search for "inspired by The Twilight Zone").
+description: An independent audio-fiction anthology that surfaced on an exact search for "inspired by The Twilight Zone".
+  Its own statement of that tie has not yet been found, so it is listed as not yet confirmed.
 subtype: fiction
 status: unknown
 links:
@@ -9,5 +9,14 @@ links:
 sources:
 - title: thefamiliarpod.com
   url: http://www.thefamiliarpod.com/
+- title: Apple Podcasts - The Familiar (possible match, not confirmed)
+  url: https://podcasts.apple.com/podcast/id1493724623
+  note: 'Read 2026-11-24: an anthology audio-fiction podcast, "A Fox and Wolf Production created by Maggie Sulc and Sadie
+    Johnston", eight episodes from January to March 2020. Its page does not mention The Twilight Zone, and it is not confirmed
+    to be the show at thefamiliarpod.com. The tie to the show is not yet confirmed (plan Q5).'
 research_confidence: medium
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
+tags:
+- needs-tie-check
+- research-2026-11-24
+feed: false

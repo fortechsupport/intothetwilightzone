@@ -11,9 +11,24 @@ description: A roundtable podcast of writers, directors and guest actors that wo
   original to the 2020 season of the Peele revival. Everand lists 87 episodes, the newest from May 2024.
 links:
   everand: https://www.everand.com/podcast-show/684902679/Zoning-Out
+  apple: https://podcasts.apple.com/us/podcast/zoning-out/id1643753831
+  megaphone: https://cms.megaphone.fm/channel/BDA6251398689
+  rss: https://feeds.megaphone.fm/BDA6251398689
 sources:
 - title: Everand - Zoning Out
   url: https://www.everand.com/podcast-show/684902679/Zoning-Out
+- title: Apple Podcasts - Zoning Out
+  url: https://podcasts.apple.com/us/podcast/zoning-out/id1643753831
+  note: 'Read 2026-11-24: names the four hosts and describes "A show dedicated to arguably the most influential TV show of
+    all time, "The Twilight Zone."" Taken to be the same show as the Everand listing (same title, subject and season numbering);
+    that is an inference.'
 relevance: core
 research_confidence: low
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
+hosts:
+- Christopher Feinstein
+- Frank Bonacci
+- Jon Saks
+- Justin Feinstein
+tags:
+- research-2026-11-24

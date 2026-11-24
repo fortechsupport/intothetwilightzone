@@ -21,7 +21,7 @@ sources:
   url: https://pro.imdb.com/title/tt39303998
 - title: 'RSS feed: Time Enough Podcast: A Twilight Zone Podcast'
   url: https://feeds.transistor.fm/time-enough-podcast
-  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 219 episodes, dated 2021-12-05 to 2026-11-16.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 219 episodes, dated 2021-12-05 to 2026-11-16. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 description: 'Matt Comegys and rotating guests explore the philosophical and metaphysical ideas in anthology television,
   chiefly The Twilight Zone and Night Gallery, at about an hour per episode. It began in December 2021 and is one of the
   more prolific current shows: Apple lists 219 episodes, the latest on 9 November 2026.'

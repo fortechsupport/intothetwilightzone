@@ -5,6 +5,8 @@ description: A fan review podcast devoted to the 2019 CBS All Access revival, wi
   and "The Wunderkind" from season one.
 subtype: episode-review
 status: ended
+covers:
+- '2019'
 links:
   home: https://podcasts.apple.com/us/podcast/the-jordan-peele-the-twilight-zone-podcast/id1458799408
   rss: https://feeds.megaphone.fm/BUZZ6847827495
@@ -15,7 +17,7 @@ sources:
   url: https://www.iheart.com/podcast/256-jordan-peeles-the-twilight-43050330/
 - title: 'RSS feed: The Jordan Peele The Twilight Zone Podcast'
   url: https://feeds.megaphone.fm/BUZZ6847827495
-  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 10 episodes, dated 2019-04-02 to 2019-05-31.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 10 episodes, dated 2019-04-02 to 2019-05-31. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 research_confidence: medium
 last_verified: '2026-11-24'
 episode_count: 10

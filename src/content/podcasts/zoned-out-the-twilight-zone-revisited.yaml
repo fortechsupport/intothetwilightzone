@@ -17,7 +17,16 @@ featured_episodes:
 sources:
 - title: Blubrry - Night of the Living Podcast
   url: https://blubrry.com/notlp/139715201/zoned-out-the-twilight-zone-revisited-where-is-everybody
+- title: Blubrry feed - Night of the Living Podcast
+  url: https://feeds.blubrry.com/feeds/notlp.xml
+  note: Blubrry's feed address for the notlp show; the reader keeps only episodes whose titles name the segment or the show
+    (2026-11-24).
 relevance: core
 research_confidence: medium
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 feed_filter: zoned out|twilight zone
+links:
+  rss: https://feeds.blubrry.com/feeds/notlp.xml
+  home: https://blubrry.com/notlp/
+tags:
+- research-2026-11-24

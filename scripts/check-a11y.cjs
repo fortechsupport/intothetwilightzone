@@ -16,7 +16,7 @@ const PAGES = [
   '/series/', '/series/twilight-zone/', '/series/episodes/', '/series/homages/', '/series/anthologies/', '/films/the-outer-limits-1963/', '/television/the-simpsons/', '/television/homages/', '/films/robot-chicken/', '/series/1959/', '/episodes/1959/time-enough-at-last/', '/people/', '/people/rod-serling/',
   '/films/duel-1971/', '/songs/iron-maiden-twilight-zone/', '/radio/a-stop-at-willoughby/', '/radio/twilight-zone-radio-dramas-series/', '/radio/radio-dramas/', '/radio/serling-radio/', '/stage/serling-on-stage/', '/films/the-twilight-zone-stage-play/', '/books/more-stories-from-the-twilight-zone/',
   '/places/willoughby/', '/organizations/cayuga-productions/', '/characters/the-gremlin-nightmare-at-20-000-feet/',
-  '/media/', '/media/reviews/', '/search/', '/timeline/', '/timeline/1960s/', '/people/a-z/s/', '/rod-serling/', '/night-gallery/', '/categories/', '/about/', '/my-zone/', '/map/', '/finder/', '/themes/', '/themes/the-uncanny/', '/404.html',
+  '/media/', '/media/reviews/', '/podcasts/episodes/', '/podcasts/shows/', '/search/', '/timeline/', '/timeline/1960s/', '/people/a-z/s/', '/rod-serling/', '/night-gallery/', '/categories/', '/about/', '/my-zone/', '/map/', '/finder/', '/themes/', '/themes/the-uncanny/', '/404.html',
   '/account/', '/community/', '/community/guidelines/', '/community/uploads/', '/contribute/suggest/', '/contribute/share/', '/moderation/', '/privacy/', '/terms/', '/copyright/',
 ];
 const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');
