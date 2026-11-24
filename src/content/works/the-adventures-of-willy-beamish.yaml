@@ -1,13 +1,12 @@
 title: The Adventures of Willy Beamish
 kind: game
-subtype: video-game
+subtype: video-game-homage
 year: '1991'
 creator: Dynamix
 description: The point-and-click adventure uses a Twilight Zone-style tunnel as the route to one of its joke game-over
   screens.
 categories:
 - homages/references
-- games/game-homages
 relevance: tangential
 sources:
 - title: 'TV Tropes – Referenced By: The Twilight Zone'

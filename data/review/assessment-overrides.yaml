@@ -2682,7 +2682,7 @@ works/twilight-zone-pinball-cgc-remake-rumor:
   recommendation: maybe
   reason: Worth tracking; update when CGC confirms it.
 works/twilight-zone-pinball-home-rom-l94h:
-  connection: Official software revision for the 1993 Twilight Zone pinball.
+  connection: Unofficial home software for the 1993 table, written by its original programmer Ted Estes for free-play machines.
   tier: core
   tier_reason: About The Twilight Zone itself, or officially licensed.
   recommendation: include

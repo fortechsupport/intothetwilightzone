@@ -71450,17 +71450,8 @@
  "works/a-hat-in-time-twilight-bell-reference": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Video games",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -71512,17 +71503,8 @@
  "works/adventures-of-willy-beamish-homage": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Video games",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -71543,17 +71525,8 @@
  "works/alan-wake-2-night-springs-dlc-2024": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Video games",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -71563,17 +71536,8 @@
  "works/alan-wake-night-springs-homage": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Video games",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -71584,7 +71548,7 @@
   {
    "cat": "games",
    "sub": "video-games",
-   "group": null,
+   "group": "Released",
    "catTitle": "Games",
    "subTitle": "Video games",
    "isNew": false,
@@ -71702,17 +71666,8 @@
  "works/asemblance-2016": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Video games",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -71732,7 +71687,7 @@
   {
    "cat": "games",
    "sub": "video-games",
-   "group": null,
+   "group": "Released",
    "catTitle": "Games",
    "subTitle": "Video games",
    "isNew": false,
@@ -71751,12 +71706,12 @@
  "works/atgames-legends-4k-twilight-zone-pack": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": "Appearances in other games",
+   "sub": "pinball-arcade",
+   "group": "Digital versions of the table",
    "catTitle": "Games",
-   "subTitle": "Video games",
+   "subTitle": "Pinball and slot machines",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "works/atlas-obscura-rod-serling-gazebo": [
@@ -72583,9 +72538,9 @@
   {
    "cat": "games",
    "sub": "board-card-games",
-   "group": null,
+   "group": "Published",
    "catTitle": "Games",
-   "subTitle": "Board and card games",
+   "subTitle": "Board, card and party games",
    "isNew": false,
    "official": false
   }
@@ -72593,17 +72548,8 @@
  "works/cold-fusion-indie-horror-tz-inspired": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Video games",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -72741,17 +72687,8 @@
  "works/dark-pictures-anthology-curator-homage": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Video games",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -73058,7 +72995,7 @@
   {
    "cat": "games",
    "sub": "video-games",
-   "group": null,
+   "group": "Released",
    "catTitle": "Games",
    "subTitle": "Video games",
    "isNew": false,
@@ -73077,17 +73014,8 @@
  "works/fallout-3-tranquility-lane-homage": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Video games",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -73097,11 +73025,11 @@
  "works/fallout-76-bethesda-time-enough-at-last-note-expeditions-the-pitt": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
+   "sub": "game-homages",
+   "group": "Video games",
    "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
+   "subTitle": "Nods in other games",
+   "isNew": true,
    "official": false
   },
   {
@@ -73117,11 +73045,11 @@
  "works/fallout-tactics-brotherhood-of-steel-spectacles-librarians-glasses-quest": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
+   "sub": "game-homages",
+   "group": "Video games",
    "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
+   "subTitle": "Nods in other games",
+   "isNew": true,
    "official": false
   },
   {
@@ -74132,17 +74060,8 @@
  "works/jack-bot-pinball-1995-homage": [
   {
    "cat": "games",
-   "sub": "pinball-arcade",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Pinball, arcade and slots",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Pinball tables",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -74578,17 +74497,8 @@
  "works/midnight-scenes-the-highway-2017": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Video games",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -74598,17 +74508,8 @@
  "works/midnight-scenes-the-nanny": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Video games",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -74651,17 +74552,8 @@
  "works/monster-hunter-pc-twilight-zone-stage": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Video games",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -75138,17 +75030,8 @@
  "works/persona-2-eternal-punishment-tz-reference": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Video games",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -75158,11 +75041,11 @@
  "works/persona-2-eternal-punishment": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
+   "sub": "game-homages",
+   "group": "Video games",
    "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
+   "subTitle": "Nods in other games",
+   "isNew": true,
    "official": false
   },
   {
@@ -75172,15 +75055,6 @@
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
-   "sub": "game-homages",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Nods in other games",
-   "isNew": true,
    "official": false
   }
  ],
@@ -75198,10 +75072,10 @@
  "works/pinball-fx-vr-twilight-zone": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": "Appearances in other games",
+   "sub": "pinball-arcade",
+   "group": "Digital versions of the table",
    "catTitle": "Games",
-   "subTitle": "Video games",
+   "subTitle": "Pinball and slot machines",
    "isNew": false,
    "official": true
   }
@@ -75209,19 +75083,10 @@
  "works/pinball-fx-williams-pinball-twilight-zone-2023": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": "Appearances in other games",
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "games",
    "sub": "pinball-arcade",
-   "group": null,
+   "group": "Digital versions of the table",
    "catTitle": "Games",
-   "subTitle": "Pinball, arcade and slots",
+   "subTitle": "Pinball and slot machines",
    "isNew": false,
    "official": true
   }
@@ -75491,17 +75356,8 @@
  "works/red-and-teds-road-show-pinball-1994-homage": [
   {
    "cat": "games",
-   "sub": "pinball-arcade",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Pinball, arcade and slots",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Pinball tables",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -75523,7 +75379,7 @@
   {
    "cat": "games",
    "sub": "video-games",
-   "group": null,
+   "group": "Released",
    "catTitle": "Games",
    "subTitle": "Video games",
    "isNew": false,
@@ -75617,17 +75473,8 @@
  "works/rick-and-morty-pinball-spooky-homage": [
   {
    "cat": "games",
-   "sub": "pinball-arcade",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Pinball, arcade and slots",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Pinball tables",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -75637,17 +75484,8 @@
  "works/ripleys-believe-it-or-not-pinball-2004-homage": [
   {
    "cat": "games",
-   "sub": "pinball-arcade",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Pinball, arcade and slots",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Pinball tables",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -77249,17 +77087,8 @@
  "works/simpsons-pinball-party-2003-homage": [
   {
    "cat": "games",
-   "sub": "pinball-arcade",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Pinball, arcade and slots",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Pinball tables",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -77419,17 +77248,8 @@
  "works/stories-untold-2017": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Video games",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -77631,11 +77451,11 @@
  "works/the-adventures-of-willy-beamish": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
+   "sub": "game-homages",
+   "group": "Video games",
    "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
+   "subTitle": "Nods in other games",
+   "isNew": true,
    "official": false
   },
   {
@@ -77645,15 +77465,6 @@
    "catTitle": "Legacy",
    "subTitle": "References",
    "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
-   "sub": "game-homages",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Nods in other games",
-   "isNew": true,
    "official": false
   }
  ],
@@ -77849,7 +77660,7 @@
   {
    "cat": "games",
    "sub": "video-games",
-   "group": null,
+   "group": "Released",
    "catTitle": "Games",
    "subTitle": "Video games",
    "isNew": false,
@@ -77868,11 +77679,11 @@
  "works/the-simpsons-tapped-out-kangs-how-to-cook-humans": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
+   "sub": "game-homages",
+   "group": "Video games",
    "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
+   "subTitle": "Nods in other games",
+   "isNew": true,
    "official": false
   },
   {
@@ -78128,12 +77939,12 @@
  "works/tower-of-terror-dca-promotional-pc-game": [
   {
    "cat": "games",
-   "sub": "other-games",
-   "group": null,
+   "sub": "video-games",
+   "group": "Tower of Terror tie-ins",
    "catTitle": "Games",
-   "subTitle": "Other games",
+   "subTitle": "Video games",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "works/tower-of-terror-disney-california-adventure": [
@@ -78194,11 +78005,11 @@
  "works/tower-of-terror-simulation-flash-fan-game": [
   {
    "cat": "games",
-   "sub": "other-games",
-   "group": null,
+   "sub": "game-homages",
+   "group": "Fan-made games",
    "catTitle": "Games",
-   "subTitle": "Other games",
-   "isNew": false,
+   "subTitle": "Nods in other games",
+   "isNew": true,
    "official": false
   }
  ],
@@ -78684,19 +78495,10 @@
  "works/twilight-zone-board-game-boyd-1958-proposal": [
   {
    "cat": "games",
-   "sub": "other-games",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Other games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "board-card-games",
-   "group": null,
+   "group": "Proposed, never made",
    "catTitle": "Games",
-   "subTitle": "Board and card games",
+   "subTitle": "Board, card and party games",
    "isNew": false,
    "official": false
   }
@@ -78813,9 +78615,9 @@
   {
    "cat": "games",
    "sub": "board-card-games",
-   "group": null,
+   "group": "Published",
    "catTitle": "Games",
-   "subTitle": "Board and card games",
+   "subTitle": "Board, card and party games",
    "isNew": false,
    "official": true
   }
@@ -78823,12 +78625,12 @@
  "works/twilight-zone-interactive-ken-levine-interlude-2016": [
   {
    "cat": "games",
-   "sub": "other-games",
-   "group": null,
+   "sub": "video-games",
+   "group": "Unreleased and unmade",
    "catTitle": "Games",
-   "subTitle": "Other games",
+   "subTitle": "Video games",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "works/twilight-zone-japan-5cd-set": [
@@ -78846,7 +78648,7 @@
   {
    "cat": "games",
    "sub": "video-games",
-   "group": null,
+   "group": "Released",
    "catTitle": "Games",
    "subTitle": "Video games",
    "isNew": false,
@@ -78881,7 +78683,7 @@
    "sub": "other-games",
    "group": null,
    "catTitle": "Games",
-   "subTitle": "Other games",
+   "subTitle": "Other games and play",
    "isNew": false,
    "official": true
   }
@@ -78934,9 +78736,9 @@
   {
    "cat": "games",
    "sub": "pinball-arcade",
-   "group": null,
+   "group": "The 1993 table",
    "catTitle": "Games",
-   "subTitle": "Pinball, arcade and slots",
+   "subTitle": "Pinball and slot machines",
    "isNew": false,
    "official": true
   }
@@ -78944,19 +78746,10 @@
  "works/twilight-zone-pinball-arcade-2013": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": "Appearances in other games",
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "games",
    "sub": "pinball-arcade",
-   "group": null,
+   "group": "Digital versions of the table",
    "catTitle": "Games",
-   "subTitle": "Pinball, arcade and slots",
+   "subTitle": "Pinball and slot machines",
    "isNew": false,
    "official": true
   }
@@ -78965,9 +78758,9 @@
   {
    "cat": "games",
    "sub": "pinball-arcade",
-   "group": null,
+   "group": "Home software and the rumored remake",
    "catTitle": "Games",
-   "subTitle": "Pinball, arcade and slots",
+   "subTitle": "Pinball and slot machines",
    "isNew": false,
    "official": true
   }
@@ -78976,9 +78769,9 @@
   {
    "cat": "games",
    "sub": "pinball-arcade",
-   "group": null,
+   "group": "Home software and the rumored remake",
    "catTitle": "Games",
-   "subTitle": "Pinball, arcade and slots",
+   "subTitle": "Pinball and slot machines",
    "isNew": false,
    "official": false
   }
@@ -79042,9 +78835,9 @@
   {
    "cat": "games",
    "sub": "pinball-arcade",
-   "group": null,
+   "group": "Slot machines",
    "catTitle": "Games",
-   "subTitle": "Pinball, arcade and slots",
+   "subTitle": "Pinball and slot machines",
    "isNew": false,
    "official": true
   }
@@ -79214,9 +79007,9 @@
   {
    "cat": "games",
    "sub": "board-card-games",
-   "group": null,
+   "group": "Published",
    "catTitle": "Games",
-   "subTitle": "Board and card games",
+   "subTitle": "Board, card and party games",
    "isNew": false,
    "official": false
   }
@@ -79235,10 +79028,10 @@
  "works/twilight-zone-video-game-1988-c64-unreleased": [
   {
    "cat": "games",
-   "sub": "other-games",
-   "group": null,
+   "sub": "video-games",
+   "group": "Unreleased and unmade",
    "catTitle": "Games",
-   "subTitle": "Other games",
+   "subTitle": "Video games",
    "isNew": false,
    "official": true
   }
@@ -79247,7 +79040,7 @@
   {
    "cat": "games",
    "sub": "video-games",
-   "group": null,
+   "group": "Released",
    "catTitle": "Games",
    "subTitle": "Video games",
    "isNew": false,
@@ -79269,7 +79062,7 @@
   {
    "cat": "games",
    "sub": "video-games",
-   "group": null,
+   "group": "Released",
    "catTitle": "Games",
    "subTitle": "Video games",
    "isNew": false,
@@ -79290,22 +79083,22 @@
  "works/twilight-zone-zx-spectrum-name-only": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
+   "sub": "game-homages",
+   "group": "Name only, link not confirmed",
    "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
+   "subTitle": "Nods in other games",
+   "isNew": true,
    "official": false
   }
  ],
  "works/twisted-metal-2-calypsos-ending-shadow": [
   {
    "cat": "games",
-   "sub": "video-games",
-   "group": null,
+   "sub": "game-homages",
+   "group": "Video games",
    "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
+   "subTitle": "Nods in other games",
+   "isNew": true,
    "official": false
   },
   {
@@ -79762,17 +79555,8 @@
  "works/willy-wonka-pinball-2019-homage": [
   {
    "cat": "games",
-   "sub": "pinball-arcade",
-   "group": null,
-   "catTitle": "Games",
-   "subTitle": "Pinball, arcade and slots",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "games",
    "sub": "game-homages",
-   "group": null,
+   "group": "Pinball tables",
    "catTitle": "Games",
    "subTitle": "Nods in other games",
    "isNew": true,
@@ -79783,7 +79567,7 @@
   {
    "cat": "games",
    "sub": "video-games",
-   "group": null,
+   "group": "Released",
    "catTitle": "Games",
    "subTitle": "Video games",
    "isNew": false,

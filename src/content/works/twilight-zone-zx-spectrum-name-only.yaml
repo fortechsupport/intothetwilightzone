@@ -3,11 +3,9 @@ kind: game
 description: >-
   A ZX Spectrum title called 'Twilight Zone' catalogued on Spectrum Computing and covered in Popular Computing Weekly.
   Its link to the TV series is unverified and probably name-only.
-subtype: video-game
+subtype: name-only
 relevance: tangential
 research_confidence: low
-categories:
-- games/video-games
 sources:
 - title: Spectrum Computing entry 5483
   url: https://spectrumcomputing.co.uk/entry/5483

@@ -303,15 +303,17 @@ export const TAXONOMY = [
     split: true,
     description: 'Twilight Zone pinball, video games, board and card games.',
     intro: [
-      "Bally's The Twilight Zone pinball machine (1993), designed by Pat Lawlor, is one of the best-selling and most complex pinball tables ever made. The show has also been a board game, trivia games, computer adventures from the 1980s onward, slot machines and a virtual-reality game.",
+      "Bally's The Twilight Zone pinball machine (1993), designed by Pat Lawlor, is one of the best-selling and most complex pinball tables ever made, and it lives on in licensed digital versions. The show has also been a board game (Ideal, 1964), a computer adventure (1988), a hidden-object game (2014), a slot machine and a virtual-reality game (2022).",
+      'Many other games nod to it: a quest in Fallout 3, the Night Springs show inside Alan Wake, callouts on later Lawlor tables. Those are kept on their own shelf, so the licensed games are easy to find.',
     ],
-    connection: 'Each game is either a licensed Twilight Zone product or a game that adapts or references the show, as stated on its entry.',
+    connection: 'Licensed games are made under license from CBS (or Disney, for the Tower of Terror). Nods in other games are unlicensed references, each explained on its entry.',
     subs: [
-      { slug: 'board-card-games', title: 'Board and card games', blurb: 'Board, card and trivia games.' },
-      { slug: 'game-homages', title: 'Nods in other games', isNew: true, blurb: 'Games that reference or borrow from the show without a license.', side: 'unofficial' },
-      { slug: 'other-games', title: 'Other games', blurb: 'Games that fit no other group.' },
-      { slug: 'pinball-arcade', title: 'Pinball, arcade and slots', blurb: 'Pinball tables, arcade cabinets and slot machines.' },
-      { slug: 'video-games', title: 'Video games', blurb: 'Computer, console, mobile and VR games, and appearances in other games.' },
+      // Five shelves (docs/plans/research-games.md, section 2). Each record sits on one; nods are only on their own.
+      { slug: 'board-card-games', title: 'Board, card and party games', groups: ['Published', 'Proposed, never made'], blurb: "Ideal's 1964 board game, Clue's Tower of Terror edition, trivia games, and a board game proposed before the pilot was made." },
+      { slug: 'game-homages', title: 'Nods in other games', isNew: true, side: 'unofficial', groups: ['Video games', 'Pinball tables', 'Fan-made games', 'Name only, link not confirmed'], blurb: 'Games that reference or borrow from the show without a license: a quest, a callout, a host in the Serling mold.', connection: 'Each entry says what the nod is and who noticed it. None of these games is licensed from the show.' },
+      { slug: 'other-games', title: 'Other games and play', blurb: 'Licensed play that is not a board, video or pinball game, such as mini golf.' },
+      { slug: 'pinball-arcade', title: 'Pinball and slot machines', groups: ['The 1993 table', 'Digital versions of the table', 'Slot machines', 'Home software and the rumored remake'], blurb: "Bally's 1993 Twilight Zone pinball machine and its licensed digital versions, the IGT slot machine, and the table's unofficial home software." },
+      { slug: 'video-games', title: 'Video games', groups: ['Released', 'Unreleased and unmade', 'Tower of Terror tie-ins'], blurb: 'Licensed computer, console and VR games, from the 1988 adventure to The Twilight Zone VR, and the ones never finished.' },
     ],
   },
   {
@@ -908,9 +910,17 @@ function placeWork(d, st, add, id) {
       return;
     }
     case 'game':
-      if (/pinball|slot|arcade/.test(st)) add('games', 'pinball-arcade');
-      else if (/video|vr|mobile|game-appearance|computer/.test(st)) add('games', 'video-games', st === 'game-appearance' ? 'Appearances in other games' : undefined);
-      else if (/board|card|trivia|puzzle/.test(st)) add('games', 'board-card-games');
+      // Games plan (docs/plans/research-games.md, section 2): one shelf per record, nods kept apart.
+      if (/homage|reference|fan-game|name-only/.test(st)) add('games', 'game-homages', st === 'fan-game' ? 'Fan-made games' : st === 'name-only' ? 'Name only, link not confirmed' : /pinball/.test(st) ? 'Pinball tables' : 'Video games');
+      else if (st === 'pinball') add('games', 'pinball-arcade', 'The 1993 table');
+      else if (st === 'game-appearance') add('games', 'pinball-arcade', 'Digital versions of the table');
+      else if (/slot/.test(st)) add('games', 'pinball-arcade', 'Slot machines');
+      else if (/pinball/.test(st)) add('games', 'pinball-arcade', 'Home software and the rumored remake');
+      else if (/unreleased|interactive-film/.test(st)) add('games', 'video-games', 'Unreleased and unmade');
+      else if (/promotional/.test(st)) add('games', 'video-games', 'Tower of Terror tie-ins');
+      else if (/video|vr|mobile|computer/.test(st)) add('games', 'video-games', 'Released');
+      else if (/unrealized/.test(st)) add('games', 'board-card-games', 'Proposed, never made');
+      else if (/board|card|trivia|puzzle/.test(st)) add('games', 'board-card-games', 'Published');
       else add('games', 'other-games');
       return;
     case 'collectible':

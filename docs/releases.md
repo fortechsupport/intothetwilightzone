@@ -3,6 +3,22 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Games: five shelves, each game in one place
+
+Visitors can now:
+- Find the licensed games first: the 1993 pinball table with its four licensed digital versions and the slot machine,
+  six computer, console and VR games (released, unreleased and unmade, and the Tower of Terror tie-in), and the board,
+  card and party games.
+- Browse 25 nods in other games (Fallout 3's Tranquility Lane, Alan Wake's Night Springs, the callouts on other pinball
+  tables, fan-made games) on one unofficial shelf, instead of seeing them mixed into the licensed games.
+- See one page per game: five duplicates now lead to the fuller record.
+- Read corrected facts: Pinball FX VR's table came out on 3 April 2025; the 2014 game was developed by Spark Plug Games;
+  the 1988 game's two credited developers are both shown, with the disagreement stated.
+
+**Known not to work yet:**
+- Who licensed Clue: The Twilight Zone Tower of Terror is not stated.
+- Game pages do not yet say where to play each game now.
+
 ## 2026-11-24 — Podcasts: four shelves and every episode in one searchable table
 
 Visitors can now:
