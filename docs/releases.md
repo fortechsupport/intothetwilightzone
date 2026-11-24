@@ -3,6 +3,22 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Discover: History grouped, Legacy cleaned up
+
+Visitors can now:
+- Browse History's production and broadcast milestones by show (1959, 1985, 2019, around the world, the Tower of
+  Terror), honors by kind (Emmys, Hugos, other awards, halls of fame and rankings, memorials), and premieres in the
+  order they happened.
+- See exact dates for Seven Days in May (1964), Planet of the Apes (1968) and the Mike Wallace interview (1959).
+- Find the remakes the 1985, 2002 and 2019 series made of original episodes on the official side of Adaptations and
+  remakes, and fan films, edits, audio dramas and games together under Fan-made.
+- See each Legacy item once: duplicates of the Time Element, the holiday marathons, Cayuga Productions and the 2013
+  TV Guide and WGA rankings were merged.
+
+**Known not to work yet:**
+- About 200 Legacy links rest on fan wikis alone; they are labelled and can be filtered, not yet confirmed.
+- Award nominations and season ratings are incomplete.
+
 ## 2026-11-24 — Attend: Events and Lectures sorted, 66 hidden records shown
 
 Visitors can now:

@@ -13,11 +13,12 @@ details:
   - The Time Element
   - series 1959
 relevance: core
+duplicate_of: films/the-time-element
 sources:
 - title: Wikipedia - The Twilight Zone (1959 TV series)
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
 - title: Wikipedia - The Time Element
-  url: https://en.Wikipedia.com/wiki/The_Time_Element
+  url: https://en.wikipedia.org/wiki/The_Time_Element
 research_confidence: high
 last_verified: '2026-11-20'
 locked: true

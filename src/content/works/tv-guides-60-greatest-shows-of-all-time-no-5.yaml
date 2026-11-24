@@ -1,6 +1,6 @@
 title: 'TV Guide''s 60 Greatest Shows of All Time: No. 5'
-kind: cultural-impact
-subtype: ranking
+kind: event
+subtype: honor (ranking)
 year: '2013-12-27'
 creator: TV Guide Magazine
 description: TV Guide's 2013 list of the 60 greatest series placed The Twilight Zone fifth, after The Sopranos,
@@ -10,10 +10,10 @@ details:
   why_it_matters: It is a major ranking that confirms the show's standing.
   relates_to:
   - series 1959
-categories:
-- cultural-impact/dictionary-rankings
 relevance: core
 sources:
+- title: tvguide.com
+  url: https://www.tvguide.com/news/tv-guide-magazine-60-best-series-1074962
 - title: Fox News - TV Guide Magazine names the top 60 series of all time
   url: https://www.foxnews.com/entertainment/tv-guide-magazine-names-the-top-60-series-of-all-time.amp
 - title: Doux Reviews - TV Guide's 60 best sci-fi shows

@@ -65,8 +65,8 @@ first because everything else links to it.
 | 12 | Collect: Merchandise | Done 2026-11-24: one shelf per record, "Other merchandise" emptied, 60 home video releases by show. |
 | 13 | Attend: Events | Done 2026-11-24: four shelves of gatherings; life events and broadcast milestones moved to History. |
 | 14 | Attend: Lectures and talks | Done 2026-11-24: Serling's own talks and teaching apart from talks about him. |
-| 15 | Discover: History | Rebuilt overnight; needs a date-check and the timeline gaps. |
-| 16 | Discover: Legacy | The largest (758). 135 links are still unconfirmed, and the fan-made shelf is empty. |
+| 15 | Discover: History | Done 2026-11-24: production history by show, honors by kind, premieres in date order, four duplicates merged. |
+| 16 | Discover: Legacy | Done 2026-11-24: later series' remakes official, one shelf per record, Fan-made grouped. About 200 links fan-noted only. |
 | 17 | Meet: People | Deep for credits; about 100 named people still unidentified, no showrunners. |
 | 18 | Meet: Characters | Deep for the four TZ series; Night Gallery and the radio dramas have none. |
 | 19 | Meet: Organizations | Thin (65), and fictional organizations have none. |
@@ -319,7 +319,7 @@ Prentice Hall, StudySync, EDSITEment or CommonLit lessons; Serling's college spe
 ## 7. Discover
 
 ### History
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [x] Researched · [x] Records decided · [x] Pages built (docs/plans/research-discover.md, 2026-11-24)
 
 | Subcategory | Records (all official) | Depth |
 |---|---:|---|
@@ -329,11 +329,11 @@ Prentice Hall, StudySync, EDSITEment or CommonLit lessons; Serling's college spe
 | Premieres | 20 | Partial |
 | Trials, lawsuits and rights *(new)* | 18 | Partial |
 
-**Known gaps:** 1985–89 Emmy nominations (none found); exact dates missing for Seven Days in May, Planet of the Apes, the Mike Wallace interview, the radio dramas' launch; Walk of Fame star 1985 or 1988; Ithaca teaching start; burial place naming; two overlapping "The Time Element" records.
+**Known gaps:** 1985–89 Emmy nominations (none found); the radio dramas' launch date; Walk of Fame star 1985 or 1988; Ithaca teaching start; burial place naming. (Fixed 2026-11-24: dates for Seven Days in May, Planet of the Apes and the Mike Wallace interview; the Time Element, marathon, Cayuga and ranking duplicates.)
 **Likely missing:** a dated milestone for every series' renewal, cancellation and format change; ratings history; every award nomination, not only wins.
 
 ### Legacy
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [x] Researched · [x] Records decided · [x] Pages built (docs/plans/research-discover.md, 2026-11-24)
 
 | Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|
@@ -342,9 +342,9 @@ Prentice Hall, StudySync, EDSITEment or CommonLit lessons; Serling's college spe
 | Inspired by | 107 (0 / 107) | Partial |
 | Homages | 73 (0 / 73) | Partial |
 | Parodies | 67 (0 / 67) | Partial |
-| Adaptations and remakes | 12 (4 / 8) | Partial |
+| Adaptations and remakes | 12 (12 / 0) | Partial |
 | In everyday language *(new)* | 11 (0 / 11) | Thin |
-| Fan-made *(new)* | 0 | Empty: 7 fan-community records to review |
+| Fan-made *(new)* | 5 | Fan films, edits, audio, games (2026-11-24) |
 
 **Known gaps:** 135 links still unconfirmed and 200 of 555 links are fan-noted only; four kept with a known different origin (The Good Place, Shadow in the Cloud, M3GAN, Dead Silence).
 **Likely missing:** SNL, MADtv, Family Guy, Robot Chicken, Rugrats, Animaniacs and Key & Peele parodies; each Futurama "Scary Door"; Black Mirror; MAD Magazine and comic strips; TV commercial parodies; foreign remakes and imitations of the format; fan films and fan audio.
