@@ -3,6 +3,23 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Stage research: Washburn's play in full, Serling's plays, and who holds the rights
+
+Anne Washburn's The Twilight Zone now names the eight episodes it adapts, each linked, and lists its three productions
+with dates and creative teams: the Almeida premiere (2017-18), the West End run (2019) and the North American premiere
+at Edmonton's Citadel Theatre (May 2025). It links the published script and two more named reviews. Stage gains 11
+records: four productions of Serling's own plays (Requiem for a Heavyweight on Broadway in 1985 with John Lithgow, and in
+Chicago and Norwalk; Patterns in Beverly Hills), three more stagings of the episodes (Boston 2006, Carrboro 2014, Orange
+County 2012), a 2023 audio performance of "The Monsters Are Due on Maple Street" given with CBS/Paramount's permission,
+a 2012 live radio play, a 2025 reading of Serling's unmade pilot "The Happy Place", and Salt Lake Acting Company's 2026
+parody The Gaslight Zone. Seven existing stagings gain their episodes, directors, reviews and the words their sources use
+about permission. Seven of Serling's films gain their DVD and Blu-ray releases and, for Requiem for a Heavyweight, TCM's
+trailer.
+
+**Known not to work yet:** Stage still has its two old shelves; the five shelves of the plan come in the next step.
+Five productions found only in listings wait for a second source. Nothing staged was found for Night Gallery or the
+revival series.
+
 ## 2026-11-24 — Writers' pages list the radio versions of their episodes
 
 Every writer's page in People now lists the radio dramas made from the episodes they wrote, as "Original writer":

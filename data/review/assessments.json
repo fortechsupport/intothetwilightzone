@@ -27659,6 +27659,18 @@
   "subcategory": "Reviews: retrospective",
   "sort": "starburst review twilight zone the movie"
  },
+ "essays/review-rachel-halliburton-the-arts-desk-the-twilight-zone-ambassadors-theatre": {
+  "connection": "Review of The Twilight Zone (stage play) in The Arts Desk by Rachel Halliburton (2019), written at the time of release. Rating: 4/5. Praises the wit, design and illusions of the West End transfer, though the nuclear-shelter segment feels too obvious.",
+  "tier": "core",
+  "tier_reason": "Reception of the show.",
+  "recommendation": "include",
+  "reason": "Shows how critics received it when it was new; part of the reception history.",
+  "source_title": "The Twilight Zone, Ambassadors Theatre review - retro wit for our new space age",
+  "source_url": "https://theartsdesk.com/theatre/twilight-zone-ambassadors-theatre-review-retro-wit-our-new-space-age-0",
+  "title": "The Twilight Zone, Ambassadors Theatre review: retro wit for our new space age (The Arts Desk)",
+  "subcategory": "Reviews: at release",
+  "sort": "twilight zone ambassadors theatre review retro wit for our new space age the arts desk"
+ },
  "essays/review-richard-corliss-time-cinema-bad-dreams": {
   "connection": "Review of Twilight Zone: The Movie in Time by Richard Corliss (1983), written at the time of release. Uneven anthology whose Dante and Miller segments are standouts, while Landis's hardly seems worth making and Spielberg's magic fails.",
   "tier": "related",
@@ -27850,6 +27862,18 @@
   "title": "TV preview: Twilight Zone: Rod Serling's Lost Classics (The Christian Science Monitor)",
   "subcategory": "Reviews: at release",
   "sort": "tv preview twilight zone rod serlings lost classics the christian science monitor"
+ },
+ "essays/review-stephen-dalton-hollywood-reporter-the-twilight-zone-almeida-theatre": {
+  "connection": "Review of The Twilight Zone (stage play) in The Hollywood Reporter by Stephen Dalton (2017), written at the time of release. Finds the Almeida premiere \"More spoofy than spooky\", its retro irony undercutting the stories, while praising the design and the later Nightmare as a Child, The Long Morrow and The Shelter sections.",
+  "tier": "core",
+  "tier_reason": "Reception of the show.",
+  "recommendation": "include",
+  "reason": "Shows how critics received it when it was new; part of the reception history.",
+  "source_title": "'The Twilight Zone': Theater Review",
+  "source_url": "https://www.hollywoodreporter.com/review/twilight-zone-theater-1067132",
+  "title": "'The Twilight Zone': Theater Review (The Hollywood Reporter, Almeida Theatre)",
+  "subcategory": "Reviews: at release",
+  "sort": "twilight zone theater review the hollywood reporter almeida theatre"
  },
  "essays/review-stephen-schiff-vanity-fair-movies-august-1983": {
   "connection": "Review of Twilight Zone: The Movie in Vanity Fair by Stephen Schiff (1983), written at the time of release. A grand but craftsmanly folly: the Morrow segment is inept, Spielberg's oversentimental, and only Dante's feels fresh.",
@@ -28236,7 +28260,7 @@
   "sort": "collider review the twilight zone 002019"
  },
  "essays/review-whatsonstage-review-of-the-twilight-zone-ambassadors-theatre-west-end-tra": {
-  "connection": "Review of The Twilight Zone (stage play) in WhatsOnStage (2019), written at the time of release. Rating: 4/5. Atmospheric, stylish transfer that should satisfy TV fans and theatregoers alike.",
+  "connection": "Review of The Twilight Zone (stage play) in WhatsOnStage by Alun Hood (2019), written at the time of release. Rating: 4/5. Atmospheric, stylish transfer that should satisfy TV fans and theatregoers alike.",
   "tier": "core",
   "tier_reason": "Reception of the show.",
   "recommendation": "include",
@@ -35124,11 +35148,11 @@
   "sort": "twilight zone rod serlings lost classics"
  },
  "films/the-twilight-zone-stage-play": {
-  "connection": "Rod Serling's work beyond The Twilight Zone: Anne Washburn's world-premiere stage adaptation weaves several original-series stories by Serling, Beaumont and Matheson into one interlocking evening, staged by Richard Jones.",
-  "tier": "related",
-  "tier_reason": "Serling's wider career is within the site's scope.",
+  "connection": "Anne Washburn's stage adaptation weaves eight original-series stories by Serling, Charles Beaumont and Richard Matheson into one interlocking evening, directed by Richard Jones and produced with Ron Fogelman, who spent nearly three years winning the rights…",
+  "tier": "core",
+  "tier_reason": "Part of The Twilight Zone itself, or wholly about it.",
   "recommendation": "include",
-  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "reason": "Core screen work: a complete record of the franchise should have it.",
   "source_title": "Broadway.com - world premiere stage adaptation full casting",
   "source_url": "https://www.broadway.com/buzz/190041/the-twilight-zone-world-premiere-stage-adaptation-announces-full-casting/",
   "title": "The Twilight Zone (stage play)",
@@ -41412,7 +41436,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -42132,7 +42156,7 @@
   "sort": "cesare danova"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -45192,7 +45216,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -48492,7 +48516,7 @@
   "sort": "jean carson"
  },
  "people/jean-de-segonzac": {
-  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Cradle of Darkness” and “Night Route”).",
+  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Night Route” and “Cradle of Darkness”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -55224,7 +55248,7 @@
   "sort": "paul le mat"
  },
  "people/paul-lynch": {
-  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “A Message from Charity” and “Examination Day”).",
+  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “Examination Day” and “A Message from Charity”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -60420,7 +60444,7 @@
   "sort": "werner klemperer"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -68064,7 +68088,7 @@
   "sort": "twilight zone onstage at binghamton university 002014"
  },
  "works/blue-room-chico-twilight-zone": {
-  "connection": "A community theatre that has repeatedly staged Twilight Zone episodes; local press covered a \"return to the Zone.\"",
+  "connection": "A Chico community theatre with a \"twice-annual Twilight Zone revival\".",
   "tier": "core",
   "tier_reason": "Part of The Twilight Zone itself, or wholly about it.",
   "recommendation": "include",
@@ -68110,6 +68134,18 @@
   "title": "Brazil: 'Além da Imaginação'",
   "subcategory": "Other",
   "sort": "brazil alm da imaginao"
+ },
+ "works/breakthrough-theatre-live-radio-play-2012": {
+  "connection": "Breakthrough Theatre of Winter Park, Florida, performed four original-series episodes as a live radio play from 26 October to 5 November 2012.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Breakthrough Theatre stages The Twilight Zone: A Live Radio Play",
+  "source_url": "https://www.orlandoweekly.com/arts/breakthrough-theatre-stages-the-twilight-zone-a-live-radio-play-2269613/",
+  "title": "The Twilight Zone: A Live Radio Play (Breakthrough Theatre, Winter Park, 2012)",
+  "subcategory": "Stage",
+  "sort": "twilight zone a live radio play breakthrough theatre winter park 002012"
  },
  "works/bridgewater-state-anthropology-twilight-zone": {
   "connection": "A university course built on the show.",
@@ -69071,6 +69107,18 @@
   "subcategory": "Other",
   "sort": "germany unwahrscheinliche geschichten and five dubbing waves"
  },
+ "works/gold-dust-orphans-live-onstage-twilight-zone-2006": {
+  "connection": "Ryan Landry's drag comedy company played three original-series episodes, \"The Invaders\", \"Living Doll\" and \"Eye of the Beholder\", in the basement of Machine in Boston in autumn 2006, with Landry in the role Agnes Moorehead created and Billy Hough as Serling.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Zone clone: Ryan Landry channels Rod Serling",
+  "source_url": "https://portland.thephoenix.com/article_ektid25203.aspx",
+  "title": "Live Onstage! The Twilight Zone (Gold Dust Orphans, Boston, 2006)",
+  "subcategory": "Stage",
+  "sort": "live onstage the twilight zone gold dust orphans boston 002006"
+ },
  "works/gold-key-twilight-zone-1-1962-george-wilson-cover": {
   "connection": "Licensed comic based on the CBS series; covers often featured Rod Serling as host.",
   "tier": "core",
@@ -69384,7 +69432,7 @@
   "sort": "hollywood walk of fame star television"
  },
  "works/hopewell-theatre-twilight-zone": {
-  "connection": "A recurring program that turns several Serling episodes into one-act stage plays; it was staged again in October 2025.",
+  "connection": "A recurring Hopewell Theatre program that turns Serling episodes into one-act stage plays.",
   "tier": "core",
   "tier_reason": "Part of The Twilight Zone itself, or wholly about it.",
   "recommendation": "include",
@@ -70572,7 +70620,7 @@
   "sort": "original series leaves netflix in the us 002021"
  },
  "works/paley-center-the-masks-reading-2009": {
-  "connection": "A 50th-anniversary staged reading of the season five episode, with Lucie Arnaz, Laurence Luckinbill and Fritz Weaver in the cast.",
+  "connection": "A 50th-anniversary celebrity staged reading of the season five episode at the Paley Center for Media, directed by Antony Marsellis, with Lucie Arnaz, Fritz Weaver, Robert Walden, Laurence Luckinbill, Katharine Luckinbill and Jeremy Hollingworth and Michael Citriniti as narrator.",
   "tier": "tangential",
   "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
   "recommendation": "maybe",
@@ -70618,6 +70666,18 @@
   "title": "\"Patterns\" airs live on Kraft Television Theatre (1955)",
   "subcategory": "Rod Serling's life",
   "sort": "patterns airs live on kraft television theatre 001955"
+ },
+ "works/patterns-theatre-40-2015": {
+  "connection": "Theatre 40 staged James Reach's stage adaptation of Serling's 1955 teleplay Patterns at the Reuben Cordova Theatre in Beverly Hills in August 2015, directed by Jules Aaron, with Daniel Kaemon as Fred Staples, James Schendel as Andy Sloane and Richard Hoyt Miller as Mr. Ramsey.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Patterns",
+  "source_url": "https://stagescenela.com/2015/08/patterns/",
+  "title": "Patterns (Theatre 40, Beverly Hills, 2015)",
+  "subcategory": "Stage",
+  "sort": "patterns theatre 000040 beverly hills 002015"
  },
  "works/peabody-1956-serling": {
   "connection": "A personal award to Serling for writing, the first Peabody given for television writing, chiefly for Requiem for a Heavyweight.",
@@ -71051,6 +71111,42 @@
   "subcategory": "Rod Serling's life",
   "sort": "requiem for a heavyweight airs on playhouse 000090 001956"
  },
+ "works/requiem-for-a-heavyweight-broadway-1985": {
+  "connection": "The stage version of Serling's 1956 Playhouse 90 teleplay, brought to Broadway from the Long Wharf Theatre and directed by Arvin Brown, with John Lithgow as the fighter Harlan \"Mountain\" McClintock and George Segal as his manager Maish Resnick.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Requiem for a Heavyweight (Broadway, 1985)",
+  "source_url": "https://www.ibdb.com/broadway-production/requiem-for-a-heavyweight-4364",
+  "title": "Requiem for a Heavyweight (Broadway, 1985)",
+  "subcategory": "Stage",
+  "sort": "requiem for a heavyweight broadway 001985"
+ },
+ "works/requiem-for-a-heavyweight-crystal-theatre-2025": {
+  "connection": "A Connecticut staging of Serling's Requiem for a Heavyweight at the Crystal Theatre in Norwalk in October 2025, directed by Mark Ferguson.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Review: Requiem for a Heavyweight at Crystal Theatre",
+  "source_url": "https://www.broadwayworld.com/article/Review-REQUIEM-FOR-A-HEAVYWEIGHT-at-Crystal-Theatre-20251013",
+  "title": "Requiem for a Heavyweight (Crystal Theatre, Norwalk, 2025)",
+  "subcategory": "Stage",
+  "sort": "requiem for a heavyweight crystal theatre norwalk 002025"
+ },
+ "works/requiem-for-a-heavyweight-shattered-globe-2008": {
+  "connection": "Shattered Globe Theatre staged Serling's Requiem for a Heavyweight at the Victory Gardens Greenhouse in Chicago in early 2008, directed by Lou Contey, with Sean Sullivan as the broken boxer.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Theater: Requiem for a Heavyweight",
+  "source_url": "https://www.windycitytimes.com/lgbt/Theater-Requiem-for-a-Heavyweight/17314.html",
+  "title": "Requiem for a Heavyweight (Shattered Globe Theatre, Chicago, 2008)",
+  "subcategory": "Stage",
+  "sort": "requiem for a heavyweight shattered globe theatre chicago 002008"
+ },
  "works/richard-mathesons-annotated-once-upon-a-time-script-archive-heritage-auctions": {
   "connection": "Heritage Auctions offered Matheson's own typed and hand-annotated script, with related materials, for his third-season comedy 'Once Upon a Time', which starred Buster Keaton.",
   "tier": "related",
@@ -71424,11 +71520,11 @@
   "sort": "rod serlings night gallery the art of darkness book"
  },
  "works/rod-serlings-stories-from-the-zone": {
-  "connection": "A stage collection drawn from Serling's Twilight Zone teleplays and licensed for school and community performance.",
-  "tier": "core",
-  "tier_reason": "Part of The Twilight Zone itself, or wholly about it.",
-  "recommendation": "include",
-  "reason": "Core stage: a complete record of the franchise should have it.",
+  "connection": "Jeff G. Rack's stage adaptation of two original-series episodes, \"Mr. Garrity and the Graves\" and \"Will the Real Martian Please Stand Up?\", produced by Theatre 40 with Arcane Theatreworks at the Reuben Cordova Theatre in Beverly Hills until 17 February 2019, directed by Rack and Charlie Mount.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A light, sourced tie: worth keeping if you want the site to map the show's wider footprint.",
   "source_title": "allaboutthestage.com",
   "source_url": "https://allaboutthestage.com/?p=1157",
   "title": "Rod Serling's Stories from the Zone",
@@ -71470,6 +71566,18 @@
   "title": "Teaching in the Twilight Zone (Rod Serling Memorial Foundation)",
   "subcategory": "In the classroom",
   "sort": "teaching in the twilight zone rod serling memorial foundation"
+ },
+ "works/sandbox-theater-maple-street-larchmont-2023": {
+  "connection": "Sandbox Theater players performed \"The Monsters Are Due on Maple Street\" in the style of an old-time radio drama at the Larchmont Library in New York on 28 October 2023, for Twilight Zone fans and for blind and visually impaired listeners.",
+  "tier": "core",
+  "tier_reason": "Part of The Twilight Zone itself, or wholly about it.",
+  "recommendation": "include",
+  "reason": "Core stage: a complete record of the franchise should have it.",
+  "source_title": "Live 'Radio' Performance Of Classic Twilight Zone Comes To Larchmont",
+  "source_url": "https://new.patch.com/new-york/larchmont/live-radio-performance-classic-twilight-zone-comes-larchmont",
+  "title": "\"The Monsters Are Due on Maple Street\" as live audio theatre (Larchmont, 2023)",
+  "subcategory": "Stage",
+  "sort": "monsters are due on maple street as live audio theatre larchmont 002023"
  },
  "works/saturn-award-1984-best-horror-film-twilight-zone-the-movie": {
   "connection": "Twilight Zone: The Movie was nominated for the Saturn Award for Best Horror Film in 1984 for Twilight Zone: The Movie.",
@@ -72539,6 +72647,18 @@
   "subcategory": "Stage",
   "sort": "twilight zone stagestheatre fullerton"
  },
+ "works/stages-theatre-twilight-zone-2012": {
+  "connection": "An earlier STAGEStheatre evening of four original-series episodes, \"The Obsolete Man\", \"People Are Alike All Over\", \"A Kind of Stopwatch\" and \"The Living Doll\", with the acts directed in turn by Darri Kristin and David Campos.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "STAGEStheatre Zones Out",
+  "source_url": "https://www.ocweekly.com/stagestheatre-zones-out-6424442/",
+  "title": "The Twilight Zone (STAGEStheatre, 2012)",
+  "subcategory": "Stage",
+  "sort": "twilight zone stagestheatre 002012"
+ },
  "works/stars-of-the-zone-convention-2002": {
   "connection": "Billed as the first convention of its kind, this weekend gathering brought together close to sixty actors from the original series.",
   "tier": "tangential",
@@ -72743,6 +72863,18 @@
   "subcategory": "Honors and awards",
   "sort": "television academy hall of fame induction"
  },
+ "works/th3rd-power-twilight-zone-carrboro-2014": {
+  "connection": "Th3rd Power Productions staged original-series episodes at the ArtsCenter in Carrboro, North Carolina, in May 2014, including \"Nothing in the Dark\", \"Nick of Time\" and \"Shadow Play\".",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "ArtsCenter play takes a step into Twilight zone",
+  "source_url": "https://dailytarheel.com/article/2014/05/artscenter-playtakes-a-step-into-twilight-zone",
+  "title": "The Twilight Zone (Th3rd Power Productions, Carrboro, 2014)",
+  "subcategory": "Stage",
+  "sort": "twilight zone th000003rd power productions carrboro 002014"
+ },
  "works/the-adventures-of-willy-beamish": {
   "connection": "The point-and-click adventure uses a Twilight Zone-style tunnel as the route to one of its joke game-over screens. Linked to The Twilight Zone (original series).",
   "tier": "tangential",
@@ -72814,6 +72946,30 @@
   "title": "The Forbidden Planet C-57D saucer reused in Twilight Zone episodes",
   "subcategory": "Other",
   "sort": "forbidden planet c000057d saucer reused in twilight zone episodes"
+ },
+ "works/the-gaslight-zone-salt-lake-acting-company-2026": {
+  "connection": "Salt Lake Acting Company's 2026 summer show, a satire of Utah news framed as a Twilight Zone parody, with sketches on \"Eye of the Beholder\", \"It's a Good Life\" and \"The Monsters Are Due on Maple Street\" and Scotty Fletcher as host \"Broad Sterling\".",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A light, sourced tie: worth keeping if you want the site to map the show's wider footprint.",
+  "source_title": "Salt Lake Acting Company Unveils Cast for THE GASLIGHT ZONE Summer Show",
+  "source_url": "https://www.broadwayworld.com/article/Salt-Lake-Acting-Company-Unveils-Cast-for-THE-GASLIGHT-ZONE-Summer-Show-20260318",
+  "title": "The Gaslight Zone (Salt Lake Acting Company, 2026)",
+  "subcategory": "Stage",
+  "sort": "gaslight zone salt lake acting company 002026"
+ },
+ "works/the-happy-place-reading-cider-mill-2025": {
+  "connection": "Bold Local Artists of the Southern Tier (BLAST) and the Rod Serling Memorial Foundation gave two fundraising readings of Serling's unproduced 1958 pilot script \"The Happy Place\" at the Cider Mill Playhouse in Endicott, New York, on the second weekend of July 2025, directed by Kate Murray, with…",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Rod Serling Memorial Foundation newsletter, summer 2025",
+  "source_url": "https://rodserling.com/wp-content/uploads/2025/09/Serling_Newsletter_summer_2025_Final.pdf",
+  "title": "\"The Happy Place\" dramatic reading (Cider Mill Playhouse, 2025)",
+  "subcategory": "Stage",
+  "sort": "happy place dramatic reading cider mill playhouse 002025"
  },
  "works/the-loner-premieres-1965": {
   "connection": "A dated milestone in the life of Rod Serling, who created, hosted and largely wrote The Twilight Zone.",
@@ -74628,12 +74784,12 @@
   "sort": "visit binghamton  rod serling"
  },
  "works/washburn-twilight-zone-citadel": {
-  "connection": "A Canadian production programmed in the Citadel's 2024-25 season.",
+  "connection": "The North American premiere of Anne Washburn's adaptation, at the Citadel Theatre in Edmonton, Alberta, from 3 to 25 May 2025, directed by Richard Jones as in London.",
   "tier": "core",
   "tier_reason": "Part of The Twilight Zone itself, or wholly about it.",
   "recommendation": "include",
   "reason": "Core stage: a complete record of the franchise should have it.",
-  "source_title": "citadeltheatre.com",
+  "source_title": "The Twilight Zone (2024-25 season)",
   "source_url": "https://citadeltheatre.com/shows/24-25-twilight-zone/",
   "title": "The Twilight Zone, Citadel Theatre (2024-25 season)",
   "subcategory": "Stage",

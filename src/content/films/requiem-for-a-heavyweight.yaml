@@ -32,3 +32,11 @@ serling_role: written
 source_title: "Requiem for a Heavyweight"
 source_authors:
 - Rod Serling
+media:
+- type: 'video'
+  subtype: 'trailer'
+  title: 'Requiem for a Heavyweight - (Original Trailer)'
+  url: 'https://tcm.com/video/136705/requiem-for-a-heavyweight-original-trailer'
+  host: 'Turner Classic Movies'
+  rights: 'link-only'
+  note: 'TCM lists it as the original trailer, 2 minutes 31 seconds. Read 2026-11-24.'

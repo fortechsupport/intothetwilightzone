@@ -1,12 +1,26 @@
 title: The Twilight Zone, Citadel Theatre (2024-25 season)
 kind: stage
-subtype: play
+subtype: washburn-production
 creator: Anne Washburn
-description: A Canadian production programmed in the Citadel's 2024-25 season.
+description: The North American premiere of Anne Washburn's adaptation, at the Citadel Theatre in Edmonton, Alberta, from
+  3 to 25 May 2025, directed by Richard Jones as in London. The Citadel's page names no cast, and no review has been found
+  yet. The page's credit line names "Keith Reddin and Anne Washburn"; no other source read says Reddin worked on the play.
 details:
   venue: Citadel Theatre, Edmonton, Alberta
+  opened: '2025-05-03'
+  closed: '2025-05-25'
+  director: Richard Jones
 sources:
-- title: citadeltheatre.com
+- title: The Twilight Zone (2024-25 season)
   url: https://citadeltheatre.com/shows/24-25-twilight-zone/
+  publisher: Citadel Theatre
+  note: 'Read 2026-11-24: "May 3 - May 25, 2025", "the highly anticipated North American premiere", directed by Richard
+    Jones.'
 research_confidence: medium
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
+year: 2025
+content_of:
+- films/the-twilight-zone-stage-play
+official: true
+tags:
+- research-2026-11-24

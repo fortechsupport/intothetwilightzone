@@ -820,7 +820,8 @@ function placeWork(d, st, add) {
       else add('artwork', 'other-artwork');
       return;
     case 'stage':
-      if (/reading|audio/.test(st)) add('stage', 'live-readings');
+      // Stage plan (2026-11-24): readings and radio-style shows on one shelf; the five shelves come in the structure step.
+      if (/reading|audio|radio/.test(st)) add('stage', 'live-readings');
       else add('stage', 'theatre');
       return;
     case 'attraction':

@@ -15,3 +15,13 @@ research_confidence: medium
 relevance: related
 last_verified: '2026-11-19'
 locked: true
+media:
+- type: 'review'
+  subtype: 'home-video'
+  title: 'Night Gallery: Season 1 (Kino Lorber Blu-ray)'
+  url: 'https://trailersfromhell.com/night-gallery-season-1/'
+  creator: 'Charlie Largent'
+  host: 'Trailers From Hell'
+  date: '2022-01-25'
+  rights: 'link-only'
+  note: 'Commentaries on every episode by Tim Lucas, Amanda Reyes, Jim Benson, Scott Skelton and Kim Newman, and a featurette by Craig Beam, "The Syndication Conundrum".'

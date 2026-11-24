@@ -1,15 +1,27 @@
 title: The Twilight Zone (Blue Room Theatre, Chico)
 kind: stage
-subtype: live-reading
+subtype: episode-staging
 creator: Rod Serling and series writers (original teleplays)
-description: A community theatre that has repeatedly staged Twilight Zone episodes; local press covered a "return
-  to the Zone."
+description: A Chico community theatre with a "twice-annual Twilight Zone revival". One edition, a late-night pre-Halloween
+  "The Monsters Are Due on Maple Street" directed by Craig Blamer with Dan Tomassini as Serling, updated the story with
+  a punk teenager and talk-radio references (Chico News & Review; the page gives no year). Licence not stated.
 details:
   venue: Blue Room Theatre, Chico, California
+  director: Craig Blamer (Maple Street edition)
+  licence: not stated
 sources:
 - title: newsreview.com
   url: https://www.newsreview.com/chico/content/return-to-the-zone/3498
 - title: chico.newsreview.com
   url: https://chico.newsreview.com/?p=45319
+- title: In the zone
+  url: https://www.newsreview.com/chico/content/in-the-zone/6460
+  publisher: Chico News & Review
+  note: No byline or year on the page.
 research_confidence: medium
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
+content_of:
+- 1959/the-monsters-are-due-on-maple-street
+official: false
+tags:
+- research-2026-11-24

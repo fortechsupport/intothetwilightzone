@@ -1,13 +1,16 @@
 title: Celebrity staged reading of "The Masks" (Paley Center, 2009)
 kind: stage
-subtype: stage
+subtype: live-reading
 year: 2009
 creator: Rod Serling
-description: A 50th-anniversary staged reading of the season five episode, with Lucie Arnaz, Laurence Luckinbill
-  and Fritz Weaver in the cast.
+description: A 50th-anniversary celebrity staged reading of the season five episode at the Paley Center for Media, directed
+  by Antony Marsellis, with Lucie Arnaz, Fritz Weaver, Robert Walden, Laurence Luckinbill, Katharine Luckinbill and Jeremy
+  Hollingworth and Michael Citriniti as narrator. A recording of Serling gave the opening and closing narration, and Anne
+  Serling-Sutton read from her memoir.
 details:
-  venue: The Paley Center for Media, New York City
-  opened: 2009-10-28
+  venue: The Paley Center for Media, 25 West 52nd Street, New York City
+  opened: '2009-10-28'
+  director: Antony Marsellis
 sources:
 - title: theatermania.com
   url: https://www.theatermania.com/new-york-city-theater/news/10-2009/lucie-arnaz-laurence-luckinbill-fritz-weaver-etal-_22163.html/
@@ -15,5 +18,13 @@ sources:
   url: https://broadwayworld.com/article/Lucie-Arnaz-Luckinbill-Walden-and-More-Set-for-Paley-Centers-THE-TWILIGHT-ZONE-Reading-1028-20091027
 - title: paleycenter.org
   url: https://paleycenter.org/events/fall-2009-a-celebrity-staged-reading-of-the-twilight-zone-the-masks
+- title: An Evening at the Paley Center
+  url: https://rodserling.com/an-evening-at-the-paley-center
+  author: Andrew M. Polak
+  publisher: Rod Serling Memorial Foundation
 research_confidence: high
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
+content_of:
+- 1959/the-masks
+tags:
+- research-2026-11-24
