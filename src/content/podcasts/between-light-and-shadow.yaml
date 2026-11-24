@@ -1,4 +1,5 @@
 title: 'Between Light and Shadow: A Twilight Zone Podcast'
+kind: podcast
 hosts:
 - Craig Beam
 first_episode: '2016-09-01'
@@ -18,16 +19,20 @@ sources:
   note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
 - title: Libsyn directory - Between Light and Shadow
   url: https://directory.libsyn.com/shows/view/id/zonepod
-description: Craig Beam's independent podcast on The Twilight Zone, hosted on Libsyn, running in numbered seasons
-  from September 2016 (episode titles such as "2x08 Put Up Yer Nukes"). Apple lists 69 episodes, the last posted
-  on 24 December 2021, so it appears to have stopped.
+- title: 'RSS feed: Between Light and Shadow: A Twilight Zone Podcast'
+  url: https://zonepod.libsyn.com/rss
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 69 episodes, dated 2016-10-02 to 2021-12-24.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+description: Craig Beam's independent podcast on The Twilight Zone, hosted on Libsyn, running in numbered seasons from September
+  2016 (episode titles such as "2x08 Put Up Yer Nukes"). Apple lists 69 episodes, the last posted on 24 December 2021, so
+  it appears to have stopped.
 status: ended
 episode_count: 69
-episode_count_as_of: '2026-11-21'
+episode_count_as_of: '2026-11-24'
 covers:
 - '1959'
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
 relevance: core

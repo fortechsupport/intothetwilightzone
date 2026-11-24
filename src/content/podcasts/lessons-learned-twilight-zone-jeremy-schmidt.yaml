@@ -1,6 +1,7 @@
 title: 67. Lessons Learned from "The Twilight Zone" with Jeremy Schmidt
-description: A guest interview with Jeremy Schmidt, co-host of The Twilight Zone Zone, on what the series can teach;
-  the host programme's name was not confirmed.
+kind: single-episode
+description: A guest interview with Jeremy Schmidt, co-host of The Twilight Zone Zone, on what the series can teach; the
+  host programme's name was not confirmed.
 subtype: interview
 status: unknown
 links:
@@ -10,3 +11,4 @@ sources:
   url: https://www.audible.in/podcast/67-Lessons-Learned-from-The-Twilight-Zone-with-Jeremy-Schmidt/B0CHQBX85H
 research_confidence: medium
 last_verified: '2026-11-19'
+feed: false

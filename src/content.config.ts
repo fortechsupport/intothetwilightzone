@@ -374,6 +374,15 @@ const podcasts = defineCollection({
     // The date episode_count was read from the feed (feeds can drop old episodes).
     episode_count_as_of: z.string().optional(),
     covers: names, // series ids or films/<id> the podcast covers
+    // What the record is (docs/plans/research-podcasts.md, shelves B to D): a podcast devoted to the show, a
+    // recurring segment inside another podcast, one episode (or a short run) of another podcast, or audio fiction.
+    kind: z.enum(['podcast', 'segment', 'single-episode', 'fiction']).optional(),
+    network: z.string().optional(),
+    guests: names,
+    // The episode table (Q3): feed false = never read this record's feed (a single episode of another podcast);
+    // feed_filter = keep only feed episodes whose titles match this pattern (a segment inside another podcast).
+    feed: z.boolean().optional(),
+    feed_filter: z.string().optional(),
     featured_episodes: z.array(z.object({
       title: z.string(),
       date: z.string().optional(),

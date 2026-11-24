@@ -1,10 +1,11 @@
 title: Imagine if you Will
+kind: podcast
 hosts:
 - Daniel Gentz
 first_episode: '2017-04-30'
 links:
   podchaser: https://www.podchaser.com/podcasts/imagine-if-you-will-520300
-  rss: https://twilightzonepod.libsyn.com/Rss
+  rss: https://rss.libsyn.com/shows/97979/destinations/509027.xml
   apple: https://podcasts.apple.com/us/podcast/imagine-if-you-will/id1231816890
   spotify: https://open.spotify.com/show/4uCwohPXfCcJMJBvWs66Io
 sources:
@@ -17,15 +18,24 @@ sources:
   url: https://podcast.feedspot.com/the_twilight_zone_podcasts
 - title: Million Podcasts - Best The Twilight Zone Podcasts
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
-description: Daniel Gentz and a rotating guest analyse episodes of The Twilight Zone in depth, one per show, at
-  about an hour each. It began in April 2017; Apple lists 181 episodes, the latest in August 2026.
+- title: 'Rod Serling Memorial Foundation: Podcast'
+  url: https://rodserling.com/category/podcast/
+  publisher: The Rod Serling Memorial Foundation
+  note: The Foundation lists this podcast on its Podcast page (post of 13 October 2021; read 2026-11-24). A listing, not
+    a licence.
+- title: 'RSS feed: Imagine if you Will'
+  url: https://rss.libsyn.com/shows/97979/destinations/509027.xml
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 186 episodes, dated 2017-04-30 to 2026-08-10. The feed listed before (https://twilightzonepod.libsyn.com/Rss) now answers HTTP 404; Apple lists this one. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+description: Daniel Gentz and a rotating guest analyse episodes of The Twilight Zone in depth, one per show, at about an
+  hour each. It began in April 2017; its feed lists 186 episodes, the latest in August 2026.
 status: active
-episode_count: 181
-episode_count_as_of: '2026-11-21'
+episode_count: 186
+episode_count_as_of: '2026-11-24'
 covers:
 - '1959'
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
 relevance: core

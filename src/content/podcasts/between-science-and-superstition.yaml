@@ -1,4 +1,5 @@
 title: Between Science and Superstition - A Twilight Zone Podcast!
+kind: podcast
 hosts:
 - Daniel Rennie
 - Ana
@@ -20,13 +21,16 @@ sources:
   url: https://podcast.feedspot.com/the_twilight_zone_podcasts
 - title: Libsyn - Between Science and Superstition episode pages
   url: https://betweenscienceandsuperstition.libsyn.com/2019/09
-description: Dan and Ana discussed each episode's themes, philosophy and behind-the-scenes history, starting with
-  "Where Is Everybody?" in February 2019 and working through the first season of the original series. In spring
-  2019 they also reviewed the Jordan Peele revival as it aired, through its finale "Blurryman". Apple lists 57 episodes,
-  the last in June 2020.
+- title: 'RSS feed: Between Science and Superstition - A Twilight Zone Podcast!'
+  url: https://betweenscienceandsuperstition.libsyn.com/rss
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 57 episodes, dated 2019-02-26 to 2020-06-26.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+description: Dan and Ana discussed each episode's themes, philosophy and behind-the-scenes history, starting with "Where
+  Is Everybody?" in February 2019 and working through the first season of the original series. In spring 2019 they also
+  reviewed the Jordan Peele revival as it aired, through its finale "Blurryman". Apple lists 57 episodes, the last in June
+  2020.
 status: ended
 episode_count: 57
-episode_count_as_of: '2026-11-21'
+episode_count_as_of: '2026-11-24'
 covers:
 - '1959'
 - '2019'
@@ -43,5 +47,6 @@ featured_episodes:
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
 relevance: core

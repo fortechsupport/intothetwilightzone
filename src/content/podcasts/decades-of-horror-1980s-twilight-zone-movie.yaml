@@ -1,6 +1,7 @@
 title: 'Decades of Horror 1980s - Episode 104: Twilight Zone: The Movie (1983)'
-description: An episode of the Doc Rotten / Decades of Horror network's 1980s horror review show dedicated to the
-  1983 anthology film.
+kind: single-episode
+description: An episode of the Doc Rotten / Decades of Horror network's 1980s horror review show dedicated to the 1983 anthology
+  film.
 subtype: network-series
 status: active
 links:
@@ -10,3 +11,4 @@ sources:
   url: https://docrotten.libsyn.com/twilight-zone-the-movie-1983-episode-104-decades-of-horror-1980s
 research_confidence: high
 last_verified: '2026-11-19'
+feed: false

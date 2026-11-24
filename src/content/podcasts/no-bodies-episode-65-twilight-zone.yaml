@@ -1,4 +1,5 @@
 title: 'No Bodies - Episode 65: The Twilight Zone'
+kind: single-episode
 description: 'An episode of the iHeart true-crime podcast No Bodies titled for The Twilight Zone; most likely concerning
   the 1982 Twilight Zone: The Movie set accident, though the subject was not confirmed from the episode page.'
 subtype: network-series
@@ -12,3 +13,4 @@ sources:
   url: https://metacast.app/podcast/no-bodies/ULKeW8mm/episode-65-the-twilight-zone/6jXLGqNf
 research_confidence: medium
 last_verified: '2026-11-19'
+feed: false

@@ -1,9 +1,10 @@
 title: Hallowed Groundling - The Twilight Zone Segment
+kind: segment
 hosts:
 - Erin Haas
-description: A horror podcast by Erin Haas that runs a monthly segment reviewing the original series in broadcast
-  order, with a guest each time; segment episode 2 covered "One for the Angels" with Kate Powers. Apple lists 37
-  episodes of the whole show, the latest in November 2026.
+description: A horror podcast by Erin Haas that runs a monthly segment reviewing the original series in broadcast order,
+  with a guest each time; segment episode 2 covered "One for the Angels" with Kate Powers. Apple lists 37 episodes of the
+  whole show, the latest in November 2026.
 status: active
 covers:
 - '1959'
@@ -22,8 +23,14 @@ sources:
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
 - title: Buzzsprout - Hallowed Groundling, Twilight Zone segment episode 2
   url: https://www.buzzsprout.com/182090/episodes/18438613-the-twilight-zone-segment-episode-2-one-for-the-angels-with-special-guest-kate-powers
+- title: 'RSS feed: Hallowed Groundling'
+  url: https://rss.buzzsprout.com/182090.rss
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 10 episodes whose titles name the show (of 37 in the feed), dated 2025-11-29 to 2026-11-11.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: related
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
+feed_filter: twilight zone
+first_episode: '2025-11-29'

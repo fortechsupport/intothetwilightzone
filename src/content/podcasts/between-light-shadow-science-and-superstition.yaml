@@ -1,4 +1,5 @@
 title: Between Light, Shadow, Science & Superstition
+kind: podcast
 hosts:
 - Tony
 first_episode: '2020-01-04'
@@ -15,12 +16,15 @@ sources:
   note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
 - title: Feedspot - 19 Best The Twilight Zone Podcasts
   url: https://podcast.feedspot.com/the_twilight_zone_podcasts
-description: A weekly show from Brown Green Blog Productions, hosted by Tony, that mixes episode reviews of the
-  original series with background on Rod Serling and trivia, presented in the style of old-time radio. It began
-  in January 2020; Apple lists 58 episodes, the last in December 2022.
+- title: 'RSS feed: Between Light, Shadow, Science & Superstition'
+  url: https://anchor.fm/s/112300a8/podcast/rss
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 58 episodes, dated 2020-01-04 to 2022-12-06.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+description: A weekly show from Brown Green Blog Productions, hosted by Tony, that mixes episode reviews of the original
+  series with background on Rod Serling and trivia, presented in the style of old-time radio. It began in January 2020;
+  Apple lists 58 episodes, the last in December 2022.
 status: ended
 episode_count: 58
-episode_count_as_of: '2026-11-21'
+episode_count_as_of: '2026-11-24'
 covers:
 - '1959'
 organizations:
@@ -28,5 +32,6 @@ organizations:
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
 relevance: core

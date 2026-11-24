@@ -5447,3 +5447,39 @@ songs/solo-jones-dimensions-i:
   tier_reason: Connection unknown.
   recommendation: maybe
   reason: Kept, marked "Not yet confirmed", as agreed in Music plan Q6; fan votes or a later pass may settle it.
+podcasts/night-zone-anthology:
+  connection: A short-story podcast by a longtime member of the Rod Serling Memorial Foundation, listed by the Foundation
+    as reminiscent of the show.
+  tier: tangential
+  tier_reason: Original fiction in the show's spirit.
+  recommendation: include
+  reason: Listed by the Foundation itself; Podcasts plan Q5.
+  subcategory: Fiction inspired by the show
+podcasts/strange-little-realms:
+  connection: An audio-fiction podcast that names the show in its title and compares itself to it.
+  tier: tangential
+  tier_reason: Original fiction in the show's spirit.
+  recommendation: include
+  reason: The makers state the tie themselves; Podcasts plan Q5.
+  subcategory: Fiction inspired by the show
+podcasts/nation-of-writers-48-rod-serling:
+  connection: A museum podcast episode about Rod Serling's life and work.
+  tier: related
+  tier_reason: About Serling, not one episode.
+  recommendation: include
+  reason: A sourced interview about Serling with a biographer and an Ithaca College professor.
+  subcategory: Single episodes of other podcasts
+podcasts/jace-sits-rod-serling-memorial-foundation:
+  connection: An interview podcast episode with the Rod Serling Memorial Foundation about Serling's legacy.
+  tier: related
+  tier_reason: About Serling, not one episode.
+  recommendation: include
+  reason: The Foundation speaking about Serling.
+  subcategory: Single episodes of other podcasts
+podcasts/fresh-air-remembering-rod-serling:
+  connection: NPR Fresh Air's look back at Rod Serling and The Twilight Zone.
+  tier: related
+  tier_reason: About Serling and the show as a whole.
+  recommendation: include
+  reason: A national public-radio retrospective by its TV critic.
+  subcategory: Single episodes of other podcasts

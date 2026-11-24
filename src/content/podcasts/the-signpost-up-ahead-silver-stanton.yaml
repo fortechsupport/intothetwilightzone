@@ -1,13 +1,14 @@
 title: The Signpost Up Ahead
+kind: podcast
 hosts:
 - Eric Silver
 - Joe Stanton
-description: Eric Silver and Joe Stanton watch every episode of The Twilight Zone and talk each one through, at
-  a little over an hour per show. Apple lists 37 episodes, the latest in June 2026. A different show from the Load
-  Bearing Beams podcast with a near-identical name.
+description: Eric Silver and Joe Stanton watch every episode of The Twilight Zone and talk each one through, at a little
+  over an hour per show. Apple lists 37 episodes, the latest in June 2026. A different show from the Load Bearing Beams
+  podcast with a near-identical name.
 status: active
 episode_count: 37
-episode_count_as_of: '2026-11-21'
+episode_count_as_of: '2026-11-24'
 covers:
 - '1959'
 links:
@@ -21,8 +22,13 @@ sources:
   url: https://podcast.feedspot.com/the_twilight_zone_podcasts
 - title: Million Podcasts - Best The Twilight Zone Podcasts
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
+- title: 'RSS feed: The Signpost Up Ahead'
+  url: https://eric-silver-zzbd.squarespace.com/episodes?format=rss
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 37 episodes, dated 2026-01-01 to 2026-06-01.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: core
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
+first_episode: '2026-01-01'

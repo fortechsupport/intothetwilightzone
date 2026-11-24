@@ -1,4 +1,5 @@
 title: Strange Highways
+kind: podcast
 hosts:
 - Paul Steadman
 - Terry
@@ -19,11 +20,13 @@ sources:
   note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
 - title: Feedspot - 19 Best The Twilight Zone Podcasts
   url: https://podcast.feedspot.com/the_twilight_zone_podcasts
-description: Paul Steadman and Terry watched The Twilight Zone in order and discussed each episode, then carried
-  on through the later series, posting a wrap-up of the 2002 UPN series and of their whole Twilight Zone run on
-  18 September 2026. Since October 2026 the feed has moved on to other anthology shows (Eerie, Indiana, Goosebumps,
-  Are You Afraid of the Dark?) and began Night Gallery in order in November 2026. Apple lists 400 episodes and the
-  show page 421.
+- title: 'RSS feed: Strange Highways'
+  url: https://feed.podbean.com/strangehighways/feed.xml
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 400 episodes, dated 2017-01-15 to 2026-11-23.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+description: Paul Steadman and Terry watched The Twilight Zone in order and discussed each episode, then carried on through
+  the later series, posting a wrap-up of the 2002 UPN series and of their whole Twilight Zone run on 18 September 2026.
+  Since October 2026 the feed has moved on to other anthology shows (Eerie, Indiana, Goosebumps, Are You Afraid of the Dark?)
+  and began Night Gallery in order in November 2026. Apple lists 400 episodes and the show page 421.
 status: active
 episode_count: 421
 episode_count_as_of: '2026-11-21'
@@ -41,5 +44,6 @@ featured_episodes:
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
 relevance: core

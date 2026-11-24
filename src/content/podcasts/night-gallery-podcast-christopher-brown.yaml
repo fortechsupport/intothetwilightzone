@@ -1,13 +1,14 @@
 title: Night Gallery Podcast
+kind: podcast
 hosts:
 - Christopher Brown
 status: ended
 episode_count: 102
 covers:
 - films/night-gallery
-description: Christopher Brown's episode-by-episode podcast on Rod Serling's Night Gallery, active from 2010 to 2021
-  with 102 episodes, including the syndication-only stories, a "lost episode" and a special on Serling's 1964 television
-  film "A Carol for Another Christmas".
+description: Christopher Brown's episode-by-episode podcast on Rod Serling's Night Gallery, active from 2010 to 2021 with
+  102 episodes, including the syndication-only stories, a "lost episode" and a special on Serling's 1964 television film
+  "A Carol for Another Christmas".
 featured_episodes:
 - title: Hatred Unto Death
   date: '2012-12-16'
@@ -20,9 +21,15 @@ featured_episodes:
   url: https://podcasts.apple.com/us/podcast/special-a-carol-for-another-christmas/id400018647?i=1000327365643
 links:
   apple: https://podcasts.apple.com/us/podcast/night-gallery-podcast/id400018647
+  rss: http://thelasthorrorpodcast.com/feed/nightgallerypodcast/
 sources:
 - title: Apple Podcasts - Night Gallery Podcast
   url: https://podcasts.apple.com/us/podcast/night-gallery-podcast/id400018647
+- title: 'RSS feed: Night Gallery Podcast'
+  url: http://thelasthorrorpodcast.com/feed/nightgallerypodcast/
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 102 episodes, dated 2012-05-01 to 2021-11-06.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: related
 research_confidence: high
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
+episode_count_as_of: '2026-11-24'
+first_episode: '2012-05-01'

@@ -1,25 +1,32 @@
 title: TV Terror
+kind: podcast
 hosts:
 - Anthony Rotolo
-description: Anthony Rotolo's podcast about the darker side of television, covering The Twilight Zone, Night Gallery
-  and 1970s made-for-TV horror films. It began in December 2016; Apple lists 113 episodes, the last in June 2022.
+description: Anthony Rotolo's podcast about the darker side of television, covering The Twilight Zone, Night Gallery and
+  1970s made-for-TV horror films. It began in December 2016; its feed lists 117 episodes, the last in June 2022.
 status: ended
-episode_count: 113
-episode_count_as_of: '2026-11-21'
+episode_count: 117
+episode_count_as_of: '2026-11-24'
 covers:
 - '1959'
 - films/night-gallery
 links:
   apple: https://podcasts.apple.com/us/podcast/tv-terror/id1189427431
   website: https://tvterror.libsyn.com/
+  rss: https://rss.libsyn.com/shows/91429/destinations/456837.xml
 sources:
 - title: Apple Podcasts directory lookup (iTunes API), id 1189427431
   url: https://itunes.apple.com/lookup?id=1189427431&entity=podcast
   note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
 - title: Feedspot - 19 Best The Twilight Zone Podcasts
   url: https://podcast.feedspot.com/the_twilight_zone_podcasts
+- title: 'RSS feed: TV TERROR'
+  url: https://rss.libsyn.com/shows/91429/destinations/456837.xml
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 117 episodes, dated 2016-12-23 to 2022-06-22.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: related
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
+first_episode: '2016-12-23'

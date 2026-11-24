@@ -1,4 +1,5 @@
 title: 'Time Enough Podcast: A Twilight Zone Podcast'
+kind: podcast
 hosts:
 - Matt Comegys
 first_episode: '2021-12-05'
@@ -18,12 +19,15 @@ sources:
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
 - title: IMDb Pro listing - Time Enough Podcast episode "Replay (w/Charlynn Schmiedt)"
   url: https://pro.imdb.com/title/tt39303998
+- title: 'RSS feed: Time Enough Podcast: A Twilight Zone Podcast'
+  url: https://feeds.transistor.fm/time-enough-podcast
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 219 episodes, dated 2021-12-05 to 2026-11-16.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 description: 'Matt Comegys and rotating guests explore the philosophical and metaphysical ideas in anthology television,
-  chiefly The Twilight Zone and Night Gallery, at about an hour per episode. It began in December 2021 and is one
-  of the more prolific current shows: Apple lists 219 episodes, the latest on 9 November 2026.'
+  chiefly The Twilight Zone and Night Gallery, at about an hour per episode. It began in December 2021 and is one of the
+  more prolific current shows: Apple lists 219 episodes, the latest on 9 November 2026.'
 status: active
 episode_count: 219
-episode_count_as_of: '2026-11-21'
+episode_count_as_of: '2026-11-24'
 covers:
 - '1959'
 - '2019'
@@ -34,5 +38,6 @@ featured_episodes:
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
 relevance: core

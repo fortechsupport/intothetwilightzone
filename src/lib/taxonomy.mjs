@@ -814,7 +814,8 @@ export function place(col, id, d, ctx = {}) {
       else add('radio', 'serling-radio', SERLING_RADIO_ROLE[d.serling_role] ?? "Rod Serling's radio work");
       break;
     case 'podcasts':
-      if (asub === 'Single episodes of other podcasts') add('podcasts', 'episodes');
+      // Podcasts plan round 1: the record's kind says what it is; the assessment label is the fallback.
+      if (d.kind === 'single-episode' || (!d.kind && asub === 'Single episodes of other podcasts')) add('podcasts', 'episodes');
       else add('podcasts', 'shows', d.status === 'active' ? 'Active' : d.status === 'ended' ? 'Ended' : undefined);
       break;
     case 'characters':

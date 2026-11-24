@@ -1,21 +1,38 @@
 title: 'The Fifth Dimension: A Twilight Zone Podcast (Consequence)'
+kind: podcast
 hosts:
 - Michael Roffman
 - Matt Melis
 - Eleanor Edwards
 - Samantha Kuykendall
-first_episode: '2019-04-01'
-description: A weekly Consequence Podcast Network show launched alongside Jordan Peele's 2019 revival, recapping
-  each new episode and also looking back at Serling's originals. Not the same show as the 2014 "The Fifth Dimension"
-  by Richard Arnold and Trent Urness.
+first_episode: '2019-03-28'
+description: A weekly Consequence Podcast Network show launched alongside Jordan Peele's 2019 revival, recapping each new
+  episode and also looking back at Serling's originals. Not the same show as the 2014 "The Fifth Dimension" by Richard Arnold
+  and Trent Urness.
 subtype: episode-review
 status: ended
 links:
-  home: https://podcasts.apple.com/us/podcast/the-fifth-dimension-a-twilight-zone-podcast/id1457994474
+  apple: https://podcasts.apple.com/us/podcast/the-fifth-dimension-a-twilight-zone-podcast/id1457994474
+  rss: https://feeds.redcircle.com/d8a63c1b-a0df-4be5-9575-6fabccdefe16
 sources:
 - title: consequence.net
   url: https://consequence.net/2019/03/fifth-dimension-twilight-zone/
 - title: redcircle.com
   url: https://redcircle.com/shows/the-fifth-dimension-a-twilight-zone-podcast
+- title: 'Apple Podcasts: The Fifth Dimension: A Twilight Zone Podcast'
+  url: https://podcasts.apple.com/us/podcast/the-fifth-dimension-a-twilight-zone-podcast/id1457994474?uo=4
+  publisher: Apple Podcasts
+  note: 'Read 2026-11-24: 11 episodes, "Welcome to The Fifth Dimension" (28 March 2019) to "Blurryman" (31 May 2019); ©
+    Consequence Podcast Network.'
+- title: 'RSS feed: The Fifth Dimension: A Twilight Zone Podcast'
+  url: https://feeds.redcircle.com/d8a63c1b-a0df-4be5-9575-6fabccdefe16
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 11 episodes, dated 2019-03-28 to 2019-05-31.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 research_confidence: high
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
+episode_count: 11
+episode_count_as_of: '2026-11-24'
+network: Consequence Podcast Network
+covers:
+- '2019'
+tags:
+- research-2026-11-24

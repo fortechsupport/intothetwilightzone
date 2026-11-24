@@ -1,10 +1,11 @@
 title: TV Confidential - Rod Serling centennial tribute (Shows 680 and 681)
+kind: single-episode
 hosts:
 - Ed Robertson
 first_episode: '2025-02-28'
-description: A two-part tribute on Ed Robertson's TV Confidential radio show and podcast, marking Serling's centennial
-  and the 65th anniversary of The Twilight Zone, with Anne Serling, Jodi Serling and Marc Scott Zicree as guests.
-  It aired in four segments between 28 February and 10 March 2025.
+description: A two-part tribute on Ed Robertson's TV Confidential radio show and podcast, marking Serling's centennial and
+  the 65th anniversary of The Twilight Zone, with Anne Serling, Jodi Serling and Marc Scott Zicree as guests. It aired in
+  four segments between 28 February and 10 March 2025.
 status: ended
 episode_count: 2
 covers:
@@ -32,3 +33,4 @@ tags:
 relevance: related
 research_confidence: high
 last_verified: '2026-11-21'
+feed: false

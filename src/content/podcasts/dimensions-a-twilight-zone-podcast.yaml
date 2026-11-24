@@ -1,11 +1,12 @@
 title: 'Dimensions: A Twilight Zone Podcast'
+kind: podcast
 hosts:
 - Bill Couch
 description: Bill Couch, sometimes with guest co-hosts, covers the 1959 series episode by episode with cast biographies,
   trivia and listener feedback. Apple lists 76 episodes, the latest in March 2025.
-status: unknown
+status: ended
 episode_count: 76
-episode_count_as_of: '2026-11-21'
+episode_count_as_of: '2026-11-24'
 covers:
 - '1959'
 links:
@@ -18,8 +19,13 @@ sources:
   note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
 - title: Million Podcasts - Best The Twilight Zone Podcasts
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
+- title: 'RSS feed: Dimensions: A Twilight Zone Podcast'
+  url: https://feed.podbean.com/dimensionstzpodcast/feed.xml
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 76 episodes, dated 2020-08-06 to 2025-03-01.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: core
 research_confidence: medium
 tags:
 - research-2026-11-21
-last_verified: '2026-11-21'
+- research-2026-11-24
+last_verified: '2026-11-24'
+first_episode: '2020-08-06'
