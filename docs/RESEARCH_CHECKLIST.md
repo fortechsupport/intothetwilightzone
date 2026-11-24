@@ -63,8 +63,8 @@ first because everything else links to it.
 | 10 | Play: Games | Done 2026-11-24: five shelves, one shelf per record, five duplicates merged. |
 | 11 | Collect: Artwork | Done 2026-11-24: one shelf per record, every print's licence checked; Night Gallery paintings still thin. |
 | 12 | Collect: Merchandise | Done 2026-11-24: one shelf per record, "Other merchandise" emptied, 60 home video releases by show. |
-| 13 | Attend: Events | "Other events" holds 39 records that are really history milestones. |
-| 14 | Attend: Lectures and talks | Partial; leads listed. |
+| 13 | Attend: Events | Done 2026-11-24: four shelves of gatherings; life events and broadcast milestones moved to History. |
+| 14 | Attend: Lectures and talks | Done 2026-11-24: Serling's own talks and teaching apart from talks about him. |
 | 15 | Discover: History | Rebuilt overnight; needs a date-check and the timeline gaps. |
 | 16 | Discover: Legacy | The largest (758). 135 links are still unconfirmed, and the fan-made shelf is empty. |
 | 17 | Meet: People | Deep for credits; about 100 named people still unidentified, no showrunners. |
@@ -289,32 +289,30 @@ laserdisc; merchandise for the 1985 and 2019 series; licences for Middle of Beyo
 ## 6. Attend
 
 ### Events
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [x] Researched · [x] Records decided · [x] Pages built (2026-11-24, overnight, plan
+  docs/plans/research-attend.md)
 
 | Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|
-| Anniversaries and festivals | 18 (0 / 18) | Partial |
-| Conventions | 18 (0 / 18) | Partial |
-| Exhibitions | 6 (0 / 6) | Thin |
-| Screenings and marathons | 14 (14 / 0) | Partial |
-| Other events | 39 (0 / 39) | Misfiled: mostly Serling-life milestones that also show in History |
+| Anniversaries and festivals | 18 (3 / 15) | Partial |
+| Conventions and conferences | 18 (2 / 16) | Partial |
+| Exhibitions | 7 (0 / 7) | Partial |
+| Screenings and marathons | 10 (7 / 3) | Partial |
 
-**Known gaps (leads):** Everson Museum, Visit Binghamton "Serling on Screen", Marist "66 Years in the Twilight Zone" (Oct 2025), Bear Manor Media events; 2004–07 convention dates.
-**Likely missing:** every SyFy marathon year, the yearly Rod Serling festivals, upcoming events (with dates kept current).
+Serling's life events and broadcast milestones moved to History, where 64 hidden records are now included.
+**Known gaps:** each year's Syfy marathon; Twilight Zone conventions in 2003 and 2005 (if held); upcoming events.
 
 ### Lectures and talks
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [x] Researched · [x] Records decided · [x] Pages built (2026-11-24, overnight)
 
 | Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|
-| Rod Serling's lectures and speeches | 26 (26 / 0) | Partial |
-| In the classroom | 16 (5 / 11) | Partial |
-| Academic lectures and courses | 10 (0 / 10) | Thin |
-| Readings and panels | 1 (0 / 1) | Thin |
-| Interviews and conversations | 1 | Moves to the Media Library |
+| Rod Serling's lectures and teaching | 20 (20 / 0) | Partial |
+| Talks about the show | 9 (0 / 9) | Partial |
+| In the classroom | 12 (2 / 10) | Partial |
 
-**Known gaps:** SUNY Oswego speaker and date; no confirmed Prentice Hall, StudySync, EDSITEment or CommonLit lessons.
-**Likely missing:** Serling's Ithaca College classes, his college speaking tours, textbook anthologies that print the teleplays.
+The KPFK interview is now media on Serling's page. **Known gaps:** SUNY Oswego speaker and date; no confirmed
+Prentice Hall, StudySync, EDSITEment or CommonLit lessons; Serling's college speaking tours; textbook anthologies.
 
 ---
 

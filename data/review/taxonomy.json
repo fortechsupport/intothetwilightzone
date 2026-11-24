@@ -23734,9 +23734,9 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
@@ -23809,9 +23809,9 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
@@ -24211,9 +24211,9 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
@@ -26936,9 +26936,9 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   },
@@ -26989,7 +26989,7 @@
    "sub": "academic",
    "group": null,
    "catTitle": "Lectures",
-   "subTitle": "Academic lectures and courses",
+   "subTitle": "Talks about the show",
    "isNew": false,
    "official": false
   }
@@ -27031,9 +27031,9 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   },
@@ -27082,9 +27082,9 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
@@ -27539,9 +27539,9 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
@@ -28334,9 +28334,9 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   },
@@ -35733,7 +35733,7 @@
   {
    "cat": "events",
    "sub": "broadcasts-marathons",
-   "group": null,
+   "group": "TV marathons",
    "catTitle": "Events",
    "subTitle": "Screenings and marathons",
    "isNew": false,
@@ -71394,15 +71394,6 @@
    "subTitle": "Production and broadcast history",
    "isNew": true,
    "official": true
-  },
-  {
-   "cat": "events",
-   "sub": "broadcasts-marathons",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Screenings and marathons",
-   "isNew": false,
-   "official": true
   }
  ],
  "works/1988-89-syndicated-third-season-of-the-revival-canada": [
@@ -71413,15 +71404,6 @@
    "catTitle": "History",
    "subTitle": "Production and broadcast history",
    "isNew": true,
-   "official": true
-  },
-  {
-   "cat": "events",
-   "sub": "broadcasts-marathons",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Screenings and marathons",
-   "isNew": false,
    "official": true
   }
  ],
@@ -71572,7 +71554,7 @@
    "sub": "academic",
    "group": null,
    "catTitle": "Lectures",
-   "subTitle": "Academic lectures and courses",
+   "subTitle": "Talks about the show",
    "isNew": false,
    "official": false
   }
@@ -71581,7 +71563,7 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "Anniversaries and days",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
@@ -71592,7 +71574,7 @@
   {
    "cat": "lectures",
    "sub": "classroom",
-   "group": null,
+   "group": "University and adult courses",
    "catTitle": "Lectures",
    "subTitle": "In the classroom",
    "isNew": false,
@@ -71716,6 +71698,17 @@
    "official": false
   }
  ],
+ "works/atx-tv-festival-2026-sepinwall-serling": [
+  {
+   "cat": "lectures",
+   "sub": "academic",
+   "group": null,
+   "catTitle": "Lectures",
+   "subTitle": "Talks about the show",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "works/bart-simpsons-treehouse-of-horror-3-bongo-comics-the-immigration-of-the-body-snatchers": [
   {
    "cat": "homages",
@@ -71731,7 +71724,7 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "Anniversaries and days",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
@@ -72182,7 +72175,7 @@
   {
    "cat": "lectures",
    "sub": "classroom",
-   "group": null,
+   "group": "School lessons and resources",
    "catTitle": "Lectures",
    "subTitle": "In the classroom",
    "isNew": false,
@@ -72204,7 +72197,7 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "Anniversaries and days",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
@@ -72247,19 +72240,10 @@
  "works/boulton-take-this-stand-2010": [
   {
    "cat": "lectures",
-   "sub": "serling-lectures",
-   "group": null,
-   "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "lectures",
    "sub": "academic",
    "group": null,
    "catTitle": "Lectures",
-   "subTitle": "Academic lectures and courses",
+   "subTitle": "Talks about the show",
    "isNew": false,
    "official": false
   }
@@ -72299,7 +72283,7 @@
   {
    "cat": "lectures",
    "sub": "classroom",
-   "group": null,
+   "group": "University and adult courses",
    "catTitle": "Lectures",
    "subTitle": "In the classroom",
    "isNew": false,
@@ -72319,7 +72303,7 @@
   {
    "cat": "events",
    "sub": "exhibitions",
-   "group": null,
+   "group": "Museum exhibits",
    "catTitle": "Events",
    "subTitle": "Exhibitions",
    "isNew": false,
@@ -72330,7 +72314,7 @@
   {
    "cat": "events",
    "sub": "exhibitions",
-   "group": null,
+   "group": "Museum exhibits",
    "catTitle": "Events",
    "subTitle": "Exhibitions",
    "isNew": false,
@@ -72341,9 +72325,9 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Conferences and symposia",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
@@ -72429,7 +72413,7 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "Film festivals",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
@@ -72453,7 +72437,7 @@
    "sub": "academic",
    "group": null,
    "catTitle": "Lectures",
-   "subTitle": "Academic lectures and courses",
+   "subTitle": "Talks about the show",
    "isNew": false,
    "official": false
   }
@@ -72644,15 +72628,6 @@
   }
  ],
  "works/death-of-samuel-serling-1945": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -72853,19 +72828,10 @@
  "works/everson-museum-rod-serling-before-the-twilight-zone": [
   {
    "cat": "lectures",
-   "sub": "serling-lectures",
-   "group": null,
-   "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "lectures",
    "sub": "academic",
    "group": null,
    "catTitle": "Lectures",
-   "subTitle": "Academic lectures and courses",
+   "subTitle": "Talks about the show",
    "isNew": false,
    "official": false
   }
@@ -73011,11 +72977,11 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "Anniversaries and days",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "works/filming-on-the-mgm-backlot-culver-city": [
@@ -73042,12 +73008,12 @@
  ],
  "works/final-original-broadcast-1964": [
   {
-   "cat": "events",
-   "sub": "broadcasts-marathons",
+   "cat": "history",
+   "sub": "production-history",
    "group": null,
-   "catTitle": "Events",
-   "subTitle": "Screenings and marathons",
-   "isNew": false,
+   "catTitle": "History",
+   "subTitle": "Production and broadcast history",
+   "isNew": true,
    "official": true
   }
  ],
@@ -73074,15 +73040,6 @@
   }
  ],
  "works/first-squad-first-platoon-published-2024": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -73148,7 +73105,7 @@
   {
    "cat": "events",
    "sub": "exhibitions",
-   "group": null,
+   "group": "Museum exhibits",
    "catTitle": "Events",
    "subTitle": "Exhibitions",
    "isNew": false,
@@ -73415,11 +73372,11 @@
  ],
  "works/grateful-dead-berkeley-1985-03-09-tz-theme": [
   {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
+   "cat": "music",
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
+   "catTitle": "Music",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -73461,7 +73418,7 @@
   {
    "cat": "events",
    "sub": "broadcasts-marathons",
-   "group": null,
+   "group": "TV marathons",
    "catTitle": "Events",
    "subTitle": "Screenings and marathons",
    "isNew": false,
@@ -73602,12 +73559,12 @@
  ],
  "works/hour-long-season-premiere-1963": [
   {
-   "cat": "events",
-   "sub": "broadcasts-marathons",
+   "cat": "history",
+   "sub": "production-history",
    "group": null,
-   "catTitle": "Events",
-   "subTitle": "Screenings and marathons",
-   "isNew": false,
+   "catTitle": "History",
+   "subTitle": "Production and broadcast history",
+   "isNew": true,
    "official": true
   }
  ],
@@ -73765,7 +73722,7 @@
   {
    "cat": "lectures",
    "sub": "classroom",
-   "group": null,
+   "group": "University and adult courses",
    "catTitle": "Lectures",
    "subTitle": "In the classroom",
    "isNew": false,
@@ -73871,11 +73828,11 @@
   {
    "cat": "events",
    "sub": "broadcasts-marathons",
-   "group": null,
+   "group": "TV marathons",
    "catTitle": "Events",
    "subTitle": "Screenings and marathons",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "works/ithaca-college-rod-serling-archives": [
@@ -73892,12 +73849,12 @@
  "works/ithaca-college-writing-for-television-videos": [
   {
    "cat": "lectures",
-   "sub": "classroom",
-   "group": null,
+   "sub": "serling-lectures",
+   "group": "Teaching",
    "catTitle": "Lectures",
-   "subTitle": "In the classroom",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "works/ithaca-rod-serling-award": [
@@ -74012,7 +73969,7 @@
   {
    "cat": "events",
    "sub": "broadcasts-marathons",
-   "group": null,
+   "group": "TV marathons",
    "catTitle": "Events",
    "subTitle": "Screenings and marathons",
    "isNew": false,
@@ -74023,7 +73980,7 @@
   {
    "cat": "events",
    "sub": "broadcasts-marathons",
-   "group": null,
+   "group": "TV marathons",
    "catTitle": "Events",
    "subTitle": "Screenings and marathons",
    "isNew": false,
@@ -74128,19 +74085,10 @@
  "works/madigan-serling-100th-birthday-2024": [
   {
    "cat": "lectures",
-   "sub": "serling-lectures",
-   "group": null,
-   "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "lectures",
    "sub": "academic",
    "group": null,
    "catTitle": "Lectures",
-   "subTitle": "Academic lectures and courses",
+   "subTitle": "Talks about the show",
    "isNew": false,
    "official": false
   }
@@ -74193,7 +74141,7 @@
   {
    "cat": "lectures",
    "sub": "classroom",
-   "group": null,
+   "group": "School lessons and resources",
    "catTitle": "Lectures",
    "subTitle": "In the classroom",
    "isNew": false,
@@ -74204,7 +74152,7 @@
   {
    "cat": "lectures",
    "sub": "classroom",
-   "group": null,
+   "group": "School lessons and resources",
    "catTitle": "Lectures",
    "subTitle": "In the classroom",
    "isNew": false,
@@ -74215,7 +74163,7 @@
   {
    "cat": "lectures",
    "sub": "classroom",
-   "group": null,
+   "group": "School lessons and resources",
    "catTitle": "Lectures",
    "subTitle": "In the classroom",
    "isNew": false,
@@ -74411,9 +74359,9 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Panels and salutes",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
@@ -74466,7 +74414,7 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "Anniversaries and days",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
@@ -74488,9 +74436,9 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Twilight Zone conventions",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
@@ -74774,11 +74722,11 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Panels and salutes",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "works/paramount-global-content-twilight-zone-2019": [
@@ -74793,15 +74741,6 @@
   }
  ],
  "works/patterns-airs-on-kraft-television-theatre-1955": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -74965,15 +74904,6 @@
   }
  ],
  "works/planet-of-the-apes-released-1968": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -75237,15 +75167,6 @@
  ],
  "works/requiem-for-a-heavyweight-airs-1956": [
   {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
-  {
    "cat": "history",
    "sub": "serling-life",
    "group": null,
@@ -75453,15 +75374,6 @@
  ],
  "works/rod-serling-archives-move-to-ithaca-college-archives-1997": [
   {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
-  {
    "cat": "history",
    "sub": "serling-life",
    "group": null,
@@ -75472,15 +75384,6 @@
   }
  ],
  "works/rod-serling-born-1924": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -75495,7 +75398,7 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "Anniversaries and days",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
@@ -75506,9 +75409,9 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Conferences and symposia",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
@@ -75517,9 +75420,9 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Conferences and symposia",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
@@ -75528,9 +75431,9 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Conferences and symposia",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
@@ -75539,9 +75442,9 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Conferences and symposia",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
@@ -75561,7 +75464,7 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "Film festivals",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
@@ -75603,9 +75506,9 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Conferences and symposia",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
@@ -75688,19 +75591,10 @@
  "works/rosendale-theatre-rod-serling-evening-2025": [
   {
    "cat": "lectures",
-   "sub": "serling-lectures",
-   "group": null,
-   "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "lectures",
    "sub": "academic",
    "group": null,
    "catTitle": "Lectures",
-   "subTitle": "Academic lectures and courses",
+   "subTitle": "Talks about the show",
    "isNew": false,
    "official": false
   }
@@ -75720,7 +75614,7 @@
   {
    "cat": "lectures",
    "sub": "classroom",
-   "group": null,
+   "group": "School lessons and resources",
    "catTitle": "Lectures",
    "subTitle": "In the classroom",
    "isNew": false,
@@ -75830,23 +75724,14 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "Film festivals",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "works/serling-11th-airborne-ships-to-the-pacific-1944": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -75861,18 +75746,9 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Teaching",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "lectures",
-   "sub": "classroom",
-   "group": null,
-   "catTitle": "Lectures",
-   "subTitle": "In the classroom",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
@@ -75881,23 +75757,14 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Conferences and symposia",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
  ],
  "works/serling-begins-teaching-at-ithaca-college-1967": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -75912,9 +75779,9 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
@@ -75923,9 +75790,9 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
@@ -75934,23 +75801,14 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
  ],
  "works/serling-campaigns-for-eugene-mccarthy-1968": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -75963,15 +75821,6 @@
  ],
  "works/serling-combat-on-leyte-1944": [
   {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
-  {
    "cat": "history",
    "sub": "serling-life",
    "group": null,
@@ -75983,15 +75832,6 @@
  ],
  "works/serling-death-1975": [
   {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
-  {
    "cat": "history",
    "sub": "serling-life",
    "group": null,
@@ -76002,15 +75842,6 @@
   }
  ],
  "works/serling-discharged-and-enters-antioch-1946": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -76025,23 +75856,14 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
  ],
  "works/serling-family-moves-to-binghamton-1926": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -76054,15 +75876,6 @@
  ],
  "works/serling-first-heart-attack-1975": [
   {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
-  {
    "cat": "history",
    "sub": "serling-life",
    "group": null,
@@ -76073,15 +75886,6 @@
   }
  ],
  "works/serling-first-network-radio-script-1949": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -76105,15 +75909,6 @@
  ],
  "works/serling-funeral-and-burial-1975": [
   {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
-  {
    "cat": "history",
    "sub": "serling-life",
    "group": null,
@@ -76124,15 +75919,6 @@
   }
  ],
  "works/serling-graduates-antioch-joins-wlw-1950": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -76145,15 +75931,6 @@
  ],
  "works/serling-graduates-high-school-and-enlists-1943": [
   {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
-  {
    "cat": "history",
    "sub": "serling-life",
    "group": null,
@@ -76164,15 +75941,6 @@
   }
  ],
  "works/serling-heart-surgery-rochester-1975": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -76196,15 +75964,6 @@
  ],
  "works/serling-hosts-fantasy-park-1974": [
   {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
-  {
    "cat": "history",
    "sub": "serling-life",
    "group": null,
@@ -76216,15 +75975,6 @@
  ],
  "works/serling-hosts-liars-club-1969": [
   {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
-  {
    "cat": "history",
    "sub": "serling-life",
    "group": null,
@@ -76235,15 +75985,6 @@
   }
  ],
  "works/serling-interviewed-by-mike-wallace-1959": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -76269,18 +76010,9 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Teaching",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "lectures",
-   "sub": "classroom",
-   "group": null,
-   "catTitle": "Lectures",
-   "subTitle": "In the classroom",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
@@ -76289,18 +76021,9 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Teaching",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "lectures",
-   "sub": "classroom",
-   "group": null,
-   "catTitle": "Lectures",
-   "subTitle": "In the classroom",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
@@ -76309,32 +76032,14 @@
   {
    "cat": "content",
    "sub": "Interview",
-   "group": "Not yet attached",
+   "group": "On: Rod Serling",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Interview",
    "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "lectures",
-   "sub": "interviews-conversations",
-   "group": null,
-   "catTitle": "Lectures",
-   "subTitle": "Interviews conversations",
-   "isNew": true,
-   "official": true
+   "official": null
   }
  ],
  "works/serling-leaves-wkrc-to-freelance-1952": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -76349,23 +76054,14 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
  ],
  "works/serling-luzon-and-manila-1945": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -76378,15 +76074,6 @@
  ],
  "works/serling-marries-carol-kramer-1948": [
   {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
-  {
    "cat": "history",
    "sub": "serling-life",
    "group": null,
@@ -76397,15 +76084,6 @@
   }
  ],
  "works/serling-memorial-service-cornell-1975": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -76420,9 +76098,9 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
@@ -76430,33 +76108,15 @@
  "works/serling-on-screen-binghamton": [
   {
    "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "events",
    "sub": "broadcasts-marathons",
-   "group": null,
+   "group": "Screenings",
    "catTitle": "Events",
    "subTitle": "Screenings and marathons",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "works/serling-paratrooper-training-camp-toccoa-1943": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -76504,9 +76164,9 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
@@ -76515,23 +76175,14 @@
   {
    "cat": "lectures",
    "sub": "serling-lectures",
-   "group": null,
+   "group": "Speeches and lectures",
    "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
+   "subTitle": "Rod Serling's lectures and teaching",
    "isNew": false,
    "official": true
   }
  ],
  "works/serling-volunteers-at-wnyc-1946": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -76544,15 +76195,6 @@
  ],
  "works/serling-writer-in-residence-at-antioch-1962": [
   {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
-  {
    "cat": "history",
    "sub": "serling-life",
    "group": null,
@@ -76563,15 +76205,6 @@
   }
  ],
  "works/serling-writes-the-new-people-pilot-1969": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -76597,7 +76230,7 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "SerlingFest",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
@@ -76619,7 +76252,7 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "SerlingFest",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
@@ -76630,7 +76263,7 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "SerlingFest",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
@@ -76641,7 +76274,7 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "SerlingFest",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
@@ -76652,7 +76285,7 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "SerlingFest",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
@@ -76704,15 +76337,6 @@
   }
  ],
  "works/seven-days-in-may-released-1964": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -76978,16 +76602,7 @@
    "sub": "academic",
    "group": null,
    "catTitle": "Lectures",
-   "subTitle": "Academic lectures and courses",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "lectures",
-   "sub": "readings-panels",
-   "group": null,
-   "catTitle": "Lectures",
-   "subTitle": "Readings and panels",
+   "subTitle": "Talks about the show",
    "isNew": false,
    "official": false
   }
@@ -76996,9 +76611,9 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Conferences and symposia",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
@@ -77007,7 +76622,7 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "Anniversaries and days",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
@@ -77040,9 +76655,9 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Twilight Zone conventions",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
@@ -77051,7 +76666,7 @@
   {
    "cat": "lectures",
    "sub": "classroom",
-   "group": null,
+   "group": "University and adult courses",
    "catTitle": "Lectures",
    "subTitle": "In the classroom",
    "isNew": false,
@@ -77094,19 +76709,10 @@
  "works/suny-oswego-serling-100th-lecture-screening-2024": [
   {
    "cat": "lectures",
-   "sub": "serling-lectures",
-   "group": null,
-   "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "lectures",
    "sub": "academic",
    "group": null,
    "catTitle": "Lectures",
-   "subTitle": "Academic lectures and courses",
+   "subTitle": "Talks about the show",
    "isNew": false,
    "official": false
   }
@@ -77137,7 +76743,7 @@
   {
    "cat": "events",
    "sub": "broadcasts-marathons",
-   "group": null,
+   "group": "TV marathons",
    "catTitle": "Events",
    "subTitle": "Screenings and marathons",
    "isNew": false,
@@ -77148,7 +76754,7 @@
   {
    "cat": "events",
    "sub": "broadcasts-marathons",
-   "group": null,
+   "group": "TV marathons",
    "catTitle": "Events",
    "subTitle": "Screenings and marathons",
    "isNew": false,
@@ -77159,7 +76765,7 @@
   {
    "cat": "events",
    "sub": "broadcasts-marathons",
-   "group": null,
+   "group": "TV marathons",
    "catTitle": "Events",
    "subTitle": "Screenings and marathons",
    "isNew": false,
@@ -77186,15 +76792,6 @@
    "subTitle": "Production and broadcast history",
    "isNew": true,
    "official": true
-  },
-  {
-   "cat": "events",
-   "sub": "broadcasts-marathons",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Screenings and marathons",
-   "isNew": false,
-   "official": true
   }
  ],
  "works/television-academy-serling-bio": [
@@ -77212,9 +76809,9 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Panels and salutes",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
@@ -77284,15 +76881,6 @@
   }
  ],
  "works/the-comedian-airs-on-playhouse-90-1957": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -77377,15 +76965,6 @@
   }
  ],
  "works/the-loner-premieres-1965": [
-  {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
   {
    "cat": "history",
    "sub": "serling-life",
@@ -77711,11 +77290,11 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "Anniversaries and days",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "works/tower-of-terror-a-new-dimension-of-chills": [
@@ -77731,13 +77310,13 @@
  ],
  "works/tower-of-terror-california-closing-2017": [
   {
-   "cat": "events",
-   "sub": "other-events",
+   "cat": "history",
+   "sub": "production-history",
    "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
+   "catTitle": "History",
+   "subTitle": "Production and broadcast history",
+   "isNew": true,
+   "official": true
   }
  ],
  "works/tower-of-terror-dca-promotional-pc-game": [
@@ -78204,15 +77783,6 @@
  ],
  "works/twilight-zone-accident-1982": [
   {
-   "cat": "events",
-   "sub": "other-events",
-   "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
-  },
-  {
    "cat": "history",
    "sub": "legal",
    "group": "The 1982 accident and trial",
@@ -78281,9 +77851,9 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Twilight Zone conventions",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
@@ -78292,9 +77862,9 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Twilight Zone conventions",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
@@ -78303,9 +77873,9 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Twilight Zone conventions",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
@@ -78724,15 +78294,6 @@
    "subTitle": "Trials, lawsuits and rights",
    "isNew": true,
    "official": true
-  },
-  {
-   "cat": "history",
-   "sub": "production-history",
-   "group": null,
-   "catTitle": "History",
-   "subTitle": "Production and broadcast history",
-   "isNew": true,
-   "official": true
   }
  ],
  "works/twilight-zone-trivia-crowdpurr": [
@@ -78966,9 +78527,20 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "Film festivals",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "works/ucla-the-loner-screening-2026": [
+  {
+   "cat": "events",
+   "sub": "broadcasts-marathons",
+   "group": "Screenings",
+   "catTitle": "Events",
+   "subTitle": "Screenings and marathons",
    "isNew": false,
    "official": false
   }
@@ -78977,7 +78549,7 @@
   {
    "cat": "lectures",
    "sub": "classroom",
-   "group": null,
+   "group": "University and adult courses",
    "catTitle": "Lectures",
    "subTitle": "In the classroom",
    "isNew": false,
@@ -78999,7 +78571,7 @@
   {
    "cat": "lectures",
    "sub": "classroom",
-   "group": null,
+   "group": "University and adult courses",
    "catTitle": "Lectures",
    "subTitle": "In the classroom",
    "isNew": false,
@@ -79008,13 +78580,13 @@
  ],
  "works/usps-early-tv-memories-twilight-zone-stamp": [
   {
-   "cat": "events",
-   "sub": "other-events",
+   "cat": "history",
+   "sub": "honors-awards",
    "group": null,
-   "catTitle": "Events",
-   "subTitle": "Other events",
-   "isNew": false,
-   "official": false
+   "catTitle": "History",
+   "subTitle": "Honors and awards",
+   "isNew": true,
+   "official": true
   }
  ],
  "works/varese-best-of-twilight-zone-vol-1": [
@@ -79153,9 +78725,9 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Conferences and symposia",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
    "official": false
   }
@@ -79301,7 +78873,7 @@
   {
    "cat": "lectures",
    "sub": "classroom",
-   "group": null,
+   "group": "University and adult courses",
    "catTitle": "Lectures",
    "subTitle": "In the classroom",
    "isNew": false,
@@ -79322,19 +78894,10 @@
  "works/wissner-music-in-the-twilight-zone-2017": [
   {
    "cat": "lectures",
-   "sub": "serling-lectures",
-   "group": null,
-   "catTitle": "Lectures",
-   "subTitle": "Rod Serling's lectures and speeches",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "lectures",
    "sub": "academic",
    "group": null,
    "catTitle": "Lectures",
-   "subTitle": "Academic lectures and courses",
+   "subTitle": "Talks about the show",
    "isNew": false,
    "official": false
   }
@@ -79343,18 +78906,18 @@
   {
    "cat": "events",
    "sub": "conventions",
-   "group": null,
+   "group": "Panels and salutes",
    "catTitle": "Events",
-   "subTitle": "Conventions",
+   "subTitle": "Conventions and conferences",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "works/wpix-new-years-marathon": [
   {
    "cat": "events",
    "sub": "broadcasts-marathons",
-   "group": null,
+   "group": "TV marathons",
    "catTitle": "Events",
    "subTitle": "Screenings and marathons",
    "isNew": false,
@@ -79409,7 +78972,7 @@
   {
    "cat": "events",
    "sub": "anniversaries-festivals",
-   "group": null,
+   "group": "Film festivals",
    "catTitle": "Events",
    "subTitle": "Anniversaries and festivals",
    "isNew": false,

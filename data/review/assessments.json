@@ -44988,7 +44988,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -45324,7 +45324,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -48624,7 +48624,7 @@
   "sort": "jean carson"
  },
  "people/jean-de-segonzac": {
-  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Cradle of Darkness” and “Night Route”).",
+  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Night Route” and “Cradle of Darkness”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -58044,7 +58044,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -67775,6 +67775,18 @@
   "subcategory": "Links and resources",
   "sort": "atlas obscura  rod serling gazebo"
  },
+ "works/atx-tv-festival-2026-sepinwall-serling": {
+  "connection": "At the ATX TV Festival in Austin (28 to 31 May 2026), TV critic Alan Sepinwall previewed his biography Serling: A Journey Into The Twilight Zone with TV's First Visionary, due that October, in conversation with Daniel Fienberg, chief TV critic of The Hollywood Reporter.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Blogcritics: ATX TV Event: Classic 'Twilight Zone' Moments with a Rod Serling Biographer (Leo Sopicki, 8 June 2026)",
+  "source_url": "https://blogcritics.org/atx-tv-event-classic-twilight-zone-moments-with-a-rod-serling-biographer",
+  "title": "Alan Sepinwall on Rod Serling, ATX TV Festival (2026)",
+  "subcategory": "Other",
+  "sort": "alan sepinwall on rod serling atx tv festival 002026"
+ },
  "works/bart-simpsons-treehouse-of-horror-3-bongo-comics-the-immigration-of-the-body-snatchers": {
   "connection": "A Bongo Halloween comic story in which a character's alien reveal mirrors the diner twist of 'Will the Real Martian...', and an ape shouts the 'cookbook' punchline. Linked to “To Serve Man” (1959).",
   "tier": "tangential",
@@ -69961,14 +69973,14 @@
  },
  "works/ithaca-college-writing-for-television-videos": {
   "connection": "Recordings of Serling talking with Ithaca College students about television writing.",
-  "tier": "core",
-  "tier_reason": "Part of The Twilight Zone itself, or wholly about it.",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
   "recommendation": "include",
-  "reason": "Core education: a complete record of the franchise should have it.",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
   "source_title": "libguides.ithaca.edu",
   "source_url": "https://libguides.ithaca.edu/serling/updates/writing-for-television-video-series",
   "title": "Rod Serling \"Writing for Television\" video series (Ithaca College)",
-  "subcategory": "In the classroom",
+  "subcategory": "Other",
   "sort": "rod serling writing for television video series ithaca college"
  },
  "works/ithaca-rod-serling-award": {
@@ -74866,6 +74878,18 @@
   "title": "Rod Serling: Other Dimensions (UCLA Film & Television Archive series)",
   "subcategory": "Events and honors",
   "sort": "rod serling other dimensions ucla film  television archive series"
+ },
+ "works/ucla-the-loner-screening-2026": {
+  "connection": "A free screening at the Billy Wilder Theater on 24 January 2026 of three episodes of The Loner (CBS, 1965-66), all written by Serling: \"An Echo of Bugles\", \"The Homecoming of Lemuel Stove\" and \"A Little Stroll to the End of the Line\".",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "UCLA Library Film & Television Archive: Rod Serling's Existential TV Western: The Loner",
+  "source_url": "https://community.ucla.edu/event/38ac7ed7-f248-485c-a8e4-b1bad0b02061",
+  "title": "Rod Serling's Existential TV Western: The Loner (UCLA Film & Television Archive, 2026)",
+  "subcategory": "Events and honors",
+  "sort": "rod serlings existential tv western the loner ucla film  television archive 002026"
  },
  "works/umass-amherst-fys-twilight-zone-2025": {
   "connection": "A fall 2025 first-year seminar on the series, listed in the Five College course catalog.",

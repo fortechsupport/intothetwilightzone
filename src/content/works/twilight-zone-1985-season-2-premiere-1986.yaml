@@ -15,8 +15,6 @@ sources:
 - title: 'Wikipedia: List of The Twilight Zone (1985 TV series) episodes'
   url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
   note: Cited on the site's episode record for the date; not re-fetched in this pass.
-categories:
-- events/premieres
 research_confidence: medium
 relevance: core
 last_verified: '2026-11-21'
