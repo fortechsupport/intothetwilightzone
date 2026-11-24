@@ -248,9 +248,11 @@ The questions as they were put:
   - Not applied yet: OTRR's log of 56 dated 2003-04 broadcasts with "special guest stars"
     (otrr-episode-log.tsv); OverDrive's claim of an "XM Radio Nation Award"; the running time of the O'Toole play.
 - **Structure step findings (2026-11-24):**
-  - The cast list on the series page shows the same actor under two names: "Lou Gossett Jr." and "Louis Gossett
-    Jr.", and "Tony Mockus Jr." and "Tony Mockus Sr." need checking as two people. Merge the name where a source
-    confirms it.
+  - Done 2026-11-24: "Lou Gossett Jr." and "Louis Gossett Jr." were one actor with two People pages (same dates, same
+    Wikipedia article); now one page, Louis Gossett Jr., with the other name as `aka`. Still to check: whether "Tony
+    Mockus Jr." and "Tony Mockus Sr." are two people, as the names suggest.
+  - Done 2026-11-24: People pages list the radio dramas made from each writer's teleplays ("Original writer"), and
+    Serling's own radio work by his part (Radio writer, Radio cast, Radio host).
   - Which episodes are in the Hollywood 360 Radio bundle, on OverDrive, and among the 81 Blu-ray extras is not yet
     recorded per episode.
   - Audible numbers (`ids.audible_asin`) are held for 121 of 176 episodes.

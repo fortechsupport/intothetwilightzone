@@ -3,6 +3,16 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Writers' pages list the radio versions of their episodes
+
+Every writer's page in People now lists the radio dramas made from the episodes they wrote, as "Original writer":
+Richard Matheson's page shows 14, Charles Beaumont's 21 and Rod Serling's 95. Serling's page also lists his
+own radio work by his part in it: radio writer, cast, host, and scripts never produced. Louis Gossett Jr., who also
+had a second page as "Lou Gossett Jr.", now has one page with both radio dramas; the old address leads to it.
+
+**Known not to work yet:** Most radio drama episodes still name only their star, so most actors' pages show one radio
+credit.
+
 ## 2026-11-24 — Radio: five shelves, a series page for the radio dramas, and where to listen
 
 Radio now has the shelves of its approved plan. **Radio dramas** opens with a series page for The Twilight Zone Radio
