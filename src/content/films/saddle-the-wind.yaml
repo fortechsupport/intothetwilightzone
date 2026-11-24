@@ -49,3 +49,14 @@ media:
   date: '2008-09-18'
   rights: 'link-only'
   note: 'Warner Home Entertainment DVD, street date 26 August 2008, also in the Western Classics Collection set. The review says "The only extra is a trailer."'
+releases:
+- date: '2008-08-26'
+  format: DVD
+  title: Saddle the Wind
+  publisher: Warner Home Video
+  note: Also in Warner's Western Classics Collection set. DVD Savant says the only extra is a trailer.
+  sources:
+  - title: 'DVD Savant: Saddle the Wind'
+    url: https://dvdtalk.com/dvdsavant/s2674wind.html
+    publisher: DVD Talk
+    author: Glenn Erickson

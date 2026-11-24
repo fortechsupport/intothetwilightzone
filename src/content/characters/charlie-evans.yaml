@@ -1,0 +1,23 @@
+name: Charlie Evans
+kind: human
+played_by:
+- Dean Stockwell
+appears_in:
+- films/night-gallery-s3e13
+description: In "Whisper", Irene Evans's husband and caretaker.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "Whisper", which names Dean Stockwell in the role.
+- title: Night Gallery episode guide, season three
+  url: https://www.nightgallery.net/season-three
+  publisher: nightgallery.net
+  note: 'Cast list: Charlie Evans (Dean Stockwell). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

@@ -1,0 +1,23 @@
+name: Jenny Tarraday
+kind: human
+played_by:
+- Carol Lynley
+appears_in:
+- films/night-gallery-s2e18
+description: In "Last Rites for a Dead Druid", a woman tempted to buy a statue that looks like her husband.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "Last Rites for a Dead Druid", which names Carol Lynley in the role.
+- title: Night Gallery episode guide, season two
+  url: https://www.nightgallery.net/episode-guide-season-two
+  publisher: nightgallery.net
+  note: 'Cast list: Jenny Tarraday (Carol Lynley). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

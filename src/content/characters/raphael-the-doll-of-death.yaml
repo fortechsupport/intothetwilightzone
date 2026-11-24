@@ -1,0 +1,23 @@
+name: Raphael
+kind: human
+played_by:
+- Alejandro Rey
+appears_in:
+- films/night-gallery-s3e14
+description: In "The Doll of Death", the romantic rival an Englishman takes revenge on through voodoo.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "The Doll of Death", which names Alejandro Rey in the role.
+- title: Night Gallery episode guide, season three
+  url: https://www.nightgallery.net/season-three
+  publisher: nightgallery.net
+  note: 'Cast list: Raphael (Alejandro Rey). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

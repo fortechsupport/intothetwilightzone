@@ -406,7 +406,7 @@ export const TAXONOMY = [
       { slug: 'inspired-by', title: 'Inspired by', blurb: 'Works whose makers, or published sources, say an episode inspired them.' },
       { slug: 'in-everyday-language', title: 'In everyday language', isNew: true, blurb: 'Catchphrases, the theme as shorthand, dictionary entries and public figures invoking the show. Rankings of the show are under History > Honors.', intro: 'Few television shows have changed the language. "Twilight zone" is now an ordinary phrase for anything uncanny, the theme is hummed to mean "something strange is going on", and lines such as "It\'s a cookbook!" are quoted by people who have never seen the episodes.' },
       { slug: 'parodies', title: 'Parodies', blurb: 'Spoofs and send-ups.' },
-      { slug: 'references', title: 'References', blurb: 'Passing references, quotations and lyric mentions.' },
+      { slug: 'references', title: 'References', groups: ['Confirmed by its makers', 'Documented', 'Noted by fans'], blurb: 'Passing references, quotations and lyric mentions, grouped by how well each is documented.' },
     ],
   },
   {
@@ -883,9 +883,14 @@ export function place(col, id, d, ctx = {}) {
       else if (!tzFilm && !d.serling_role && k !== 'documentary') add('movies', 'linked-films');
       break;
     }
-    case 'connections':
-      add('homages', CONN_SUB[d.kind] ?? 'references');
+    case 'connections': {
+      // References are grouped by their evidence (finish-open-items plan, 2026-11-24, decided for Adam): a reader can
+      // see at once which passing references the makers confirmed and which only fans have noted.
+      const sub = CONN_SUB[d.kind] ?? 'references';
+      if (sub === 'references') add('homages', sub, EVIDENCE_GROUP[d.confidence] ?? 'Documented');
+      else add('homages', sub);
       break;
+    }
     case 'songs': {
       const c = songConnection(d);
       if (c.shelf === 'theme') add('music', 'theme', musicSeries(id, d), chronoSort(d));
@@ -969,6 +974,9 @@ function ad_group(st, d) {
   if (/licens/.test(st)) return 'Licensing offers';
   return 'Commercials';
 }
+
+/** The three evidence marks (src/lib/data.ts CONFIDENCE_LABELS), as group names on the References shelf. */
+const EVIDENCE_GROUP = { 'confirmed-by-creator': 'Confirmed by its makers', documented: 'Documented', 'fan-noted': 'Noted by fans' };
 
 /** True when an event's last known day is today or later (dates in details.date or details.dates, else the year). */
 export function isUpcoming(d, today = new Date().toISOString().slice(0, 10)) {

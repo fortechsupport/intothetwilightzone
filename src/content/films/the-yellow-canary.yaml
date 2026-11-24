@@ -29,3 +29,12 @@ locked: true
 serling_role: written
 source_authors:
 - Whit Masterson
+media:
+- type: video
+  subtype: trailer
+  title: Trailer for The Yellow Canary (1963), 35mm
+  url: https://www.cinema.ucla.edu/screenings/trailer-yellow-canary-1963
+  host: UCLA Film & Television Archive
+  rights: link-only
+  note: A screening listing for a 35mm print of the trailer (about 3 minutes), courtesy of the Packard Humanities
+    Institute Collection at the Academy Film Archive. Not viewable online.

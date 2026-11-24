@@ -1,0 +1,23 @@
+name: General von Grunn
+kind: human
+played_by:
+- Helmut Dantine
+appears_in:
+- films/night-gallery-s2e06
+description: In "The Devil Is Not Mocked", a Nazi general who gets an unexpectedly warm welcome at a castle in the Balkans.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "The Devil Is Not Mocked", which names Helmut Dantine in the role.
+- title: Night Gallery episode guide, season two
+  url: https://www.nightgallery.net/episode-guide-season-two
+  publisher: nightgallery.net
+  note: 'Cast list: General von Grunn (Helmut Dantine). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

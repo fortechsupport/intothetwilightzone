@@ -28,3 +28,12 @@ ids:
 last_verified: '2026-11-23'
 locked: true
 serling_role: narrated
+media:
+- type: image
+  subtype: poster
+  title: Theatrical release poster
+  url: https://en.wikipedia.org/wiki/Encounter_with_the_Unknown
+  host: Wikipedia
+  rights: link-only
+  note: Shown in Wikipedia's infobox; no artist is named. Distributed by American National Enterprises and Rainbow
+    Adventure Films. Linked, not copied.

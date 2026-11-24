@@ -1,0 +1,25 @@
+name: Dr. Jekyll (With Apologies to Mr. Hyde)
+aka:
+- Mr. Hyde
+kind: human
+played_by:
+- Adam West
+appears_in:
+- films/night-gallery-s2e03
+description: In "With Apologies to Mr. Hyde", a comic Dr. Jekyll who tests a new potion.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "With Apologies to Mr. Hyde", which names Adam West in the role.
+- title: Night Gallery episode guide, season two
+  url: https://www.nightgallery.net/episode-guide-season-two
+  publisher: nightgallery.net
+  note: 'Cast list: Dr. Jekyll (Adam West). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

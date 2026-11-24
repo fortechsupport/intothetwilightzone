@@ -1,0 +1,23 @@
+name: Bullivant
+kind: human
+played_by:
+- Jack Albertson
+appears_in:
+- films/night-gallery-s2e19
+description: In "Dead Weight", an exporter who helps gangsters on the run leave the country.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "Dead Weight", which names Jack Albertson in the role.
+- title: Night Gallery episode guide, season two
+  url: https://www.nightgallery.net/episode-guide-season-two
+  publisher: nightgallery.net
+  note: 'Cast list: Bullivant (Jack Albertson). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

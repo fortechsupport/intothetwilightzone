@@ -71,3 +71,20 @@ media:
   host: 'Warner Bros.'
   rights: 'licensed'
   note: 'The rights holder''s page for the film, which says it is available on Blu-ray, DVD and digital.'
+releases:
+- date: '2017-05-02'
+  format: Blu-ray
+  title: Seven Days in May
+  publisher: Warner Archive Collection
+  region: Region free
+  note: Carries the theatrical trailer and John Frankenheimer's commentary from Warner's earlier DVD.
+  sources:
+  - title: Seven Days in May Blu-ray
+    url: https://m.blu-ray.com/movies/Seven-Days-in-May-Blu-ray/42428
+    publisher: Blu-ray.com
+    author: Michael Reuben
+    note: 7 May 2017; theatrical trailer, 3:45.
+  - title: Seven Days in May (Warner Archive Collection)
+    url: https://bluray.highdefdigest.com/46230/sevendaysinmay.html
+    publisher: High-Def Digest
+    note: Lists the theatrical trailer and the Frankenheimer commentary.

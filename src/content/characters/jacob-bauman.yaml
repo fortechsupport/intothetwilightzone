@@ -1,0 +1,23 @@
+name: Jacob Bauman
+kind: human
+played_by:
+- Joseph Wiseman
+appears_in:
+- films/night-gallery-s1e02
+description: In "Room with a View", a wealthy invalid who uses his unwitting nurse to take revenge on his unfaithful wife.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "Room with a View", which names Joseph Wiseman in the role.
+- title: Night Gallery episode guide, season one
+  url: https://www.nightgallery.net/season-one
+  publisher: nightgallery.net
+  note: 'Cast list: Jacob Bauman (Joseph Wiseman). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

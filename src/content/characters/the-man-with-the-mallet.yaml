@@ -1,0 +1,23 @@
+name: The Man with the Mallet
+kind: human
+played_by:
+- Richard Deacon
+appears_in:
+- films/night-gallery-s3e15
+description: In "How to Cure the Common Vampire", one of two men debating the best way to kill vampires.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "How to Cure the Common Vampire", which names Richard Deacon in the role.
+- title: Night Gallery episode guide, season three
+  url: https://www.nightgallery.net/season-three
+  publisher: nightgallery.net
+  note: 'Cast list: The Man with the Mallet (Richard Deacon). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

@@ -1,0 +1,23 @@
+name: Vincent Riley
+kind: human
+played_by:
+- Robert F. Lyons
+appears_in:
+- films/night-gallery-s2e07
+description: In "Midnight Never Ends", a Marine hitchhiker caught with Ruth Asquith in a loop of déjà vu.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "Midnight Never Ends", which names Robert F. Lyons in the role.
+- title: Night Gallery episode guide, season two
+  url: https://www.nightgallery.net/episode-guide-season-two
+  publisher: nightgallery.net
+  note: 'Cast list: Vincent Riley (Robert F. Lyons). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

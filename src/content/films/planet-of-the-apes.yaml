@@ -67,3 +67,11 @@ media:
   creator: 'John Landis (commentary)'
   host: 'Trailers From Hell'
   rights: 'link-only'
+- type: image
+  subtype: poster
+  title: Theatrical release poster
+  url: https://en.wikipedia.org/wiki/Planet_of_the_Apes_(1968_film)
+  rights_holder: 20th Century Fox
+  host: Wikipedia
+  rights: link-only
+  note: Shown in Wikipedia's infobox; no artist is named. Linked, not copied.

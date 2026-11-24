@@ -45,3 +45,29 @@ media:
   host: 'Shout! Factory'
   rights: 'link-only'
   note: 'Blu-ray with a DVD of extras (2014), including the "Original Theatrical Trailer, TV And Radio Spots" and a new commentary. The page does not mention Serling''s narration.'
+- type: image
+  subtype: poster
+  title: Theatrical release poster
+  url: https://en.wikipedia.org/wiki/Phantom_of_the_Paradise
+  creator: John Alvin
+  rights_holder: 20th Century Fox
+  host: Wikipedia
+  rights: link-only
+  note: Wikipedia shows the poster in its infobox and credits it to John Alvin. Linked, not copied.
+releases:
+- date: '2001-09-04'
+  format: DVD
+  title: Phantom of the Paradise
+  publisher: 20th Century Fox Home Entertainment
+  sources:
+  - title: 'Wikipedia: Phantom of the Paradise'
+    url: https://en.wikipedia.org/wiki/Phantom_of_the_Paradise
+- date: '2014-08-04'
+  format: Blu-ray
+  title: Phantom of the Paradise (Collector's Edition)
+  publisher: Shout! Factory (Scream Factory)
+  note: Extras include an audio commentary, interviews, alternate takes, the original Swan Song footage, original
+    trailers and TV and radio spots.
+  sources:
+  - title: 'Wikipedia: Phantom of the Paradise'
+    url: https://en.wikipedia.org/wiki/Phantom_of_the_Paradise

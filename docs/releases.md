@@ -3,6 +3,23 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Night Gallery's characters and Serling's films on disc
+
+Visitors can now:
+- Meet 105 more Night Gallery characters, from Jacob Bauman in "Room with a View" to Irene Evans in "Whisper": every
+  episode, the pilot and the unaired segments now list who is in them and who played them (140 characters in all).
+- See where ten of Serling's films came out on DVD, Blu-ray or VHS (Patterns, Requiem for a Heavyweight, The Rack,
+  Saddle the Wind, Seven Days in May, Assault on a Queen, The Doomsday Flight, the Night Gallery pilot, Phantom of the
+  Paradise and The Salamander), with the label, date, region and extras.
+- Follow links to the posters of Phantom of the Paradise (by John Alvin), Planet of the Apes and Encounter with the
+  Unknown, and to a 35mm print of The Yellow Canary's trailer.
+- Browse References in three groups: confirmed by the makers, documented, and noted by fans.
+
+**Known not to work yet:**
+- Disc releases for each of the 155 shows are being read now (next release).
+- Eleven Night Gallery segments have no characters yet, and no official trailer or home video was found online for
+  several of Serling's films (listed in docs/plans/three-research-rounds-2026-11-24.md).
+
 ## 2026-11-24 — The open items of every category but Read, finished or explained
 
 Visitors can now:

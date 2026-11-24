@@ -1,0 +1,23 @@
+name: Randy Miller
+kind: human
+played_by:
+- John Astin
+appears_in:
+- films/night-gallery-s2e09
+description: In "Hell's Bells", a newly dead man who goes to hell.
+recurring: false
+relevance: related
+sources:
+- title: 'Wikipedia: List of Night Gallery episodes'
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment summary for "Hell's Bells", which names John Astin in the role.
+- title: Night Gallery episode guide, season two
+  url: https://www.nightgallery.net/episode-guide-season-two
+  publisher: nightgallery.net
+  note: 'Cast list: Randy Miller (John Astin). Read 2026-11-24.'
+research_confidence: high
+last_verified: '2026-11-24'
+categories:
+- people/characters
+tags:
+- open-items-2026-11-24

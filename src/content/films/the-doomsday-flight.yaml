@@ -31,3 +31,11 @@ ids:
 last_verified: '2026-11-23'
 locked: true
 serling_role: written
+releases:
+- date: '1986'
+  format: VHS
+  title: The Doomsday Flight
+  publisher: MCA Home Video
+  sources:
+  - title: 'Wikipedia: The Doomsday Flight'
+    url: https://en.wikipedia.org/wiki/The_Doomsday_Flight
