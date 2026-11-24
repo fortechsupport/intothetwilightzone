@@ -1,9 +1,40 @@
 ---
 import RecordPage from '../../components/RecordPage.astro';
 import { getCollection } from 'astro:content';
+import { podcastIndex } from '../../lib/podcast-episodes';
+import { formatDate } from '../../lib/data';
 export async function getStaticPaths() {
   return (await getCollection('podcasts')).filter((r) => !r.data.duplicate_of).map((r) => ({ params: { id: r.id }, props: { entry: r } }));
 }
 const { entry } = Astro.props;
+// The podcast's episodes, from the episode table (docs/plans/research-podcasts.md, Q3 and Q8).
+const ix = await podcastIndex();
+const pi = ix.podcasts.findIndex((p) => p.id === entry.id);
+const rows = ix.rows.filter((r) => r.p === pi);
+const feed = ix.podcasts[pi]?.feed;
+const own = entry.data.kind === 'single-episode';
+const KIND: Record<string, string> = { podcast: 'A podcast about the show', segment: 'A recurring segment in another podcast', 'single-episode': 'An episode of another podcast', fiction: 'Audio fiction inspired by the show' };
 ---
-<RecordPage col="podcasts" entry={entry} />
+<RecordPage col="podcasts" entry={entry} skip={['kind', 'feed', 'feed_filter', 'subject', 'featured_episodes']}>
+  {entry.data.kind && <p class="small muted">{KIND[entry.data.kind]}.</p>}
+  {!own && rows.length > 0 && (
+    <section>
+      <h2>Episodes</h2>
+      <p>
+        <a href={`/podcasts/episodes/?podcast=${entry.id}`}>All {rows.length.toLocaleString('en-US')} {rows.length === 1 ? 'episode' : 'episodes'} in the episode table</a>, searchable and sortable.
+        {feed?.status === 'ok' && <span class="small muted"> Read from the podcast's own feed on {formatDate(feed.last_read)}{entry.data.feed_filter && ', keeping only the episodes whose titles name the show'}.</span>}
+        {feed && feed.status !== 'ok' && <span class="small muted"> The feed is no longer available (last tried {formatDate(feed.last_tried)}); the episodes it listed are kept.</span>}
+        {!feed && <span class="small muted"> No feed could be read; these are the episodes the record lists.</span>}
+      </p>
+      <ul class="plain">
+        {rows.slice(0, 5).map((r) => <li><a href={r.u}>{r.t}</a>{r.d && <span class="muted small"> · {formatDate(r.d)}</span>}{r.m.length > 0 && <span class="small"> · about {r.m.map((t, i) => <>{i > 0 && ', '}<a href={ix.targets[t].href}>{ix.targets[t].title}</a></>)}</span>}</li>)}
+      </ul>
+    </section>
+  )}
+  {own && entry.data.featured_episodes.length > 0 && (
+    <section>
+      <h2>The episode</h2>
+      <ul class="plain">{entry.data.featured_episodes.map((fe) => <li>{fe.url ? <a href={fe.url}>{fe.title}</a> : fe.title}{fe.date && <span class="muted small"> · {formatDate(fe.date)}</span>}</li>)}</ul>
+    </section>
+  )}
+</RecordPage>

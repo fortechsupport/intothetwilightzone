@@ -383,6 +383,8 @@ const podcasts = defineCollection({
     // feed_filter = keep only feed episodes whose titles match this pattern (a segment inside another podcast).
     feed: z.boolean().optional(),
     feed_filter: z.string().optional(),
+    // Shelf C's groups (a single episode's main subject); the show is the default.
+    subject: z.enum(['show', 'serling', 'film-1983', 'night-gallery', 'revival-2019']).optional(),
     featured_episodes: z.array(z.object({
       title: z.string(),
       date: z.string().optional(),

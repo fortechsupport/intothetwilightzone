@@ -88,7 +88,7 @@ const docTitle = recordDocTitle(col, d, title, { firstRef });
     </section>
   )}
   <slot />
-  {d.featured_episodes?.length > 0 && (
+  {!skip.includes('featured_episodes') && d.featured_episodes?.length > 0 && (
     <section>
       <h2>Featured episodes</h2>
       <ul class="plain">{d.featured_episodes.map((fe: any) => <li>{fe.url ? <a href={fe.url} rel="noopener">{fe.title}</a> : fe.title}{fe.date && <span class="muted small"> · {formatDate(fe.date)}</span>}</li>)}</ul>

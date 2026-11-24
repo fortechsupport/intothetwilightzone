@@ -5,6 +5,8 @@ description: A fan review podcast devoted to the 2019 CBS All Access revival, wi
   and "The Wunderkind" from season one.
 subtype: episode-review
 status: ended
+covers:
+- '2019'
 links:
   home: https://podcasts.apple.com/us/podcast/the-jordan-peele-the-twilight-zone-podcast/id1458799408
   rss: https://feeds.megaphone.fm/BUZZ6847827495

@@ -3,6 +3,23 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Podcasts: four shelves and every episode in one searchable table
+
+Visitors can now:
+- Browse podcasts on three shelves: podcasts about the show (grouped by what they cover), single episodes of other
+  podcasts (grouped by subject), and fiction inspired by the show (new).
+- Search 3,323 podcast episodes from 56 podcasts at /podcasts/episodes/, filter them by podcast, series, episode of
+  the show and year, sort them, and share a filtered list by its address. Every row links to the podcaster's page.
+- See, on an episode's page, the podcast episodes about it (Walking Distance has 16), matched by title.
+- See each podcast's newest episodes on its page, with when its feed was read.
+
+**Known not to work yet:**
+- New episodes reach the site only with a podcast change until Adam picks how the weekly refresh is published.
+- Matches come from titles only: puns and episodes with other titles are missed, and a shared title such as
+  "Shadow Play" goes to the original series unless the podcast says otherwise.
+- The Night Gallery page does not list podcast episodes yet; the table does.
+- On a phone the table scrolls sideways inside its frame.
+
 ## 2026-11-24 — Podcasts research round 1: every podcast re-checked
 
 Visitors can now:

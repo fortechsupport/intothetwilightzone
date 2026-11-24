@@ -1,12 +1,25 @@
 title: 'Of Shadow and Substance: A Twilight Zone Podcast'
 kind: podcast
-description: A fan podcast dedicated to The Twilight Zone, named after the phrase in Serling's season-one opening narration.
+description: A fan podcast on the themes and morals of the original series, named after the phrase in Serling's season-one
+  opening narration. iHeart lists five episodes, from 29 March to 27 May 2019 ("Walking Distance").
 subtype: episode-review
-status: unknown
+status: ended
 links:
   home: https://www.iheart.com/podcast/256-of-shadow-and-substance-a-43099118/
 sources:
 - title: iheart.com
   url: https://www.iheart.com/podcast/256-of-shadow-and-substance-a-43099118/
+- title: 'iHeart - Of Shadow And Substance: A Twilight Zone Podcast'
+  url: https://www.iheart.com/podcast/256-of-shadow-and-substance-a-43099118/
+  note: 'Read 2026-11-24: "A deep dive in to the themes and morals of the classic Twilight Zone series"; five episodes, 2019-03-29
+    to 2019-05-27. Status ended is an inference from no episode since.'
 research_confidence: medium
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
+first_episode: '2019-03-29'
+episode_count: 5
+episode_count_as_of: '2026-11-24'
+covers:
+- '1959'
+relevance: core
+tags:
+- research-2026-11-24

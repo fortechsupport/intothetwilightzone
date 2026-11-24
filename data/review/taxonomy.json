@@ -65517,9 +65517,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "More than one Twilight Zone series",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65527,10 +65527,10 @@
  "podcasts/art-of-manliness-844-life-lessons-twilight-zone": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "The show",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65538,10 +65538,10 @@
  "podcasts/behind-the-bastards-twilight-zone-movie": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "Twilight Zone: The Movie and the accident",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65550,9 +65550,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65561,9 +65561,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65572,9 +65572,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "More than one Twilight Zone series",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65582,10 +65582,10 @@
  "podcasts/city-of-man-episode-21-twilight-zone": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "The show",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65593,10 +65593,10 @@
  "podcasts/decades-of-horror-1980s-twilight-zone-movie": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "Twilight Zone: The Movie and the accident",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65605,9 +65605,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65616,9 +65616,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "The Twilight Zone (1985)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65627,9 +65627,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Active",
+   "group": "More than one Twilight Zone series",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65638,9 +65638,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Active",
+   "group": "More than one Twilight Zone series",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65649,9 +65649,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "The Twilight Zone (2019)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65659,10 +65659,10 @@
  "podcasts/fresh-air-remembering-rod-serling": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "Rod Serling",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65670,10 +65670,10 @@
  "podcasts/generation-in-between-twilight-zone-movie": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "Twilight Zone: The Movie and the accident",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65682,9 +65682,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Active",
+   "group": "Recurring segments in other podcasts",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65692,10 +65692,10 @@
  "podcasts/imaginary-worlds-key-of-imagination": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "Rod Serling",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65704,9 +65704,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Active",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65714,10 +65714,10 @@
  "podcasts/jace-sits-rod-serling-memorial-foundation": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "Rod Serling",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65726,9 +65726,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "The Twilight Zone (2019)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65736,10 +65736,10 @@
  "podcasts/lessons-learned-twilight-zone-jeremy-schmidt": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "The show",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65748,9 +65748,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Active",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65758,10 +65758,10 @@
  "podcasts/movie-defenders-ep-220-twilight-zone-movie": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "Twilight Zone: The Movie and the accident",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65769,10 +65769,10 @@
  "podcasts/nation-of-writers-48-rod-serling": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "Rod Serling",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65781,9 +65781,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "Night Gallery",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65792,9 +65792,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": null,
+   "group": "Night Gallery",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65802,21 +65802,21 @@
  "podcasts/night-zone-anthology": [
   {
    "cat": "podcasts",
-   "sub": "shows",
-   "group": null,
+   "sub": "fiction",
+   "group": "Inspired by the show, in their own words",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
-   "isNew": false,
+   "subTitle": "Fiction inspired by the show",
+   "isNew": true,
    "official": false
   }
  ],
  "podcasts/no-bodies-episode-65-twilight-zone": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "The show",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65825,9 +65825,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65835,10 +65835,10 @@
  "podcasts/on-the-media-shadow-and-substance": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "The show",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65846,10 +65846,10 @@
  "podcasts/planet-8-episode-52-twilight-zone": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "The show",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65857,10 +65857,10 @@
  "podcasts/podcasters-of-horror-episode-26-twilight-zone": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "The show",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65868,10 +65868,10 @@
  "podcasts/pop-culture-happy-hour-twilight-zone-2019": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "The 2019 series",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65879,10 +65879,10 @@
  "podcasts/pretty-much-pop-52-twilight-zone-morality-tales": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "The show",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65890,10 +65890,10 @@
  "podcasts/rarified-heir-269-anne-serling": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "Rod Serling",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65901,10 +65901,10 @@
  "podcasts/retroist-night-gallery-episode": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "Night Gallery",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65913,9 +65913,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65924,9 +65924,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Active",
+   "group": "More than one Twilight Zone series",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65934,21 +65934,21 @@
  "podcasts/strange-little-realms": [
   {
    "cat": "podcasts",
-   "sub": "shows",
-   "group": "Ended",
+   "sub": "fiction",
+   "group": "Inspired by the show, in their own words",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
-   "isNew": false,
+   "subTitle": "Fiction inspired by the show",
+   "isNew": true,
    "official": false
   }
  ],
  "podcasts/stuff-you-should-know-twilight-zone": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "The show",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -65957,9 +65957,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65968,9 +65968,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65979,9 +65979,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -65989,11 +65989,11 @@
  "podcasts/the-familiar-podcast": [
   {
    "cat": "podcasts",
-   "sub": "shows",
-   "group": null,
+   "sub": "fiction",
+   "group": "Tie not yet confirmed",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
-   "isNew": false,
+   "subTitle": "Fiction inspired by the show",
+   "isNew": true,
    "official": false
   }
  ],
@@ -66001,9 +66001,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66012,9 +66012,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Active",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66023,9 +66023,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Active",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66034,9 +66034,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Active",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66045,9 +66045,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Active",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66056,9 +66056,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Active",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66067,9 +66067,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Active",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66078,9 +66078,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "More than one Twilight Zone series",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66089,9 +66089,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "More than one Twilight Zone series",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66100,9 +66100,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Active",
+   "group": "More than one Twilight Zone series",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66111,9 +66111,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66122,9 +66122,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Active",
+   "group": "More than one Twilight Zone series",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66132,10 +66132,10 @@
  "podcasts/tv-confidential-serling-centennial-tribute": [
   {
    "cat": "podcasts",
-   "sub": "episodes",
-   "group": null,
+   "sub": "single-episodes",
+   "group": "Rod Serling",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast episodes",
+   "subTitle": "Single episodes",
    "isNew": false,
    "official": false
   }
@@ -66144,9 +66144,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66155,9 +66155,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66166,9 +66166,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": null,
+   "group": "Recurring segments in other podcasts",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66177,9 +66177,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": "Ended",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
@@ -66188,9 +66188,9 @@
   {
    "cat": "podcasts",
    "sub": "shows",
-   "group": null,
+   "group": "More than one Twilight Zone series",
    "catTitle": "Podcasts",
-   "subTitle": "Podcast series",
+   "subTitle": "Podcasts about the show",
    "isNew": false,
    "official": false
   }
