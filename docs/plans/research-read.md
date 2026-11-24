@@ -152,7 +152,8 @@ Foreign-language editions, Rod Serling Memorial Foundation publications, Rod Ser
     was checked for each issue before writing. Story pencils, inks, scripts and letters, and the cover painter, go into
     the issue's *Creators*; a credit the index marks "?" is left off the list and named in the source note instead. The
     back-cover pin-up, a reprint of the front cover, counts as cover art. "Paul Newman" in one issue is written Paul S.
-    Newman, as the same index names him elsewhere in the series. Two new role labels (letters, colors) were added.
+    Newman, as the same index names him elsewhere in the series. Likewise "Walt Simonson" is written Walter Simonson, and "Esphidy
+    Menhalim" Esphid Mahilum, the index's own note on another issue ("Esphid Mahilum [as Esphidy Menhalim]"). Two new role labels (letters, colors) were added.
   - *Other comics:* the eight Walker & Company graphic novels (2008-2009) take their adapter and illustrator from
     Kirkus Reviews, ICv2, ComicMix, PREVIEWSworld, Open Library, Junior Library Guild and bookseller pages, each quoted
     in the source note; Serling is credited for the teleplay each adapts. Dell's four issues (1961-1962) printed no
@@ -183,9 +184,9 @@ Foreign-language editions, Rod Serling Memorial Foundation publications, Rod Ser
 
 ## Not possible, and why
 Each item below was tried; the reason is what stopped it.
-- **Creators for 41 of the 188 comics (third pass in progress).** The Grand Comics Database refuses automated
+- **Creators for 29 of the 188 comics (third pass in progress).** The Grand Comics Database refuses automated
   reading, but Heritage Auctions' issue index carries its credits; it allows about three page reads every ten to
-  fifteen minutes, so the Gold Key issues are being read in paced rounds (40 of 94 done when this was written).
+  fifteen minutes, so the Gold Key issues are being read in paced rounds (52 of 94 done when this was written).
   The rest, and why:
   - *The Midnight Sun* (Walker, 2009) has its adapter but no illustrator: no catalogue or review page read names one.
   - *Dan Curtis Giveaways #3* and the three Cayuga mini-comics: no page read lists their contents or credits (VCU

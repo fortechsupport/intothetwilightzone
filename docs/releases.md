@@ -3,6 +3,15 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Twelve more Gold Key issues credited
+
+Visitors can now:
+- See the creators of Gold Key's Twilight Zone #52-56 and #58-64 (1973-1975), including Walter Simonson, Arnold Drake,
+  Himilce Novas, Ricardo Villamonte and Adolpho Buylla, from the Grand Comics Database's credits.
+
+**Known not to work yet:**
+- 24 Gold Key issues (#65-88) are still being read in paced rounds.
+
 ## 2026-11-24 — Credits for the Walker graphic novels, the Dell comics and more Gold Key issues
 
 Visitors can now:

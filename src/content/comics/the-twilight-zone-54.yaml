@@ -2,6 +2,15 @@ title: 'The Twilight Zone # 54'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 58
+creators:
+- John Warner (writer)
+- John Celardo (pencils, inks)
+- Joe Certa (pencils, inks)
+- Walter Simonson (pencils, inks)
+- Luis Dominguez (pencils, inks)
+- Jack Sparling (pencils, inks)
+- Gaspar Saladino (letters)
+- George Wilson (cover)
 cover_date: 1974-01
 ids:
   amazon_asin: B003NQZL9S
@@ -9,13 +18,16 @@ links:
   info: https://www.comics.org/issue/27080/
 research_confidence: high
 sources:
+- title: 'Heritage Auctions comic issue index (Grand Comics Database data)'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=27080
+  note: 'Read 2026-11-24 for the creator credits (cover and story pencils, inks, scripts and letters; Heritage states the data is courtesy of the Grand Comics Database under a Creative Commons licence). Credits the index marks as uncertain, left off the list: John Celardo (letters).'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key), page 2'
   url: https://www.mycomicshop.com/search?TID=193921&pgi=51
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key) issue listing with contents'
   url: https://www.mycomicshop.com/search?TID=193921
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true
 description: 'Issue 54 of Gold Key''s licensed Twilight Zone anthology comic (January 1974). Stories: "Why so Pale,
   Henry Lad?" (John Celardo); "The Prisoner" (Walter Simonson); "Caldwell''s Last Stand" (Luis Dominguez); "The
