@@ -3,6 +3,20 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Every Gold Key issue credited
+
+Visitors can now:
+- See the creators of Gold Key's Twilight Zone #78-88 (1977-1978), among them Frank Bolle, Mike Roy, Luis Dominguez,
+  Jack Sparling, Stanley and Reginald Pitt and Frank Miller, from the Grand Comics Database's credits. Every
+  regular Gold Key issue now lists its creators.
+- See, on Dan Curtis Giveaways #3, the Star Trek Comics Checklist's account of the 1974 set of nine vending-machine
+  mini-comics it belongs to.
+
+**Known not to work yet:**
+- Five comics still have no creators because no page read names them: Dan Curtis Giveaways #3, the three Cayuga
+  mini-comics and the Whitman-logo editions (which share the Gold Key issues' credits). The Midnight Sun has no
+  illustrator named.
+
 ## 2026-11-24 — Gold Key #65-77 credited
 
 Visitors can now:
