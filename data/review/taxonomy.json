@@ -23723,7 +23723,7 @@
   {
    "cat": "content",
    "sub": "Interview",
-   "group": "Not yet attached",
+   "group": "On: Rod Serling",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Interview",
    "isNew": false,
@@ -24105,7 +24105,7 @@
   {
    "cat": "content",
    "sub": "Interview",
-   "group": "Not yet attached",
+   "group": "On: Rod Serling; The Twilight Zone (1959-1964)",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Interview",
    "isNew": false,
@@ -24169,7 +24169,7 @@
   {
    "cat": "content",
    "sub": "Interview",
-   "group": "Not yet attached",
+   "group": "On: Carol Serling; Rod Serling",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Interview",
    "isNew": false,
@@ -24377,7 +24377,7 @@
   {
    "cat": "content",
    "sub": "Interview",
-   "group": "Not yet attached",
+   "group": "On: Night Gallery; Guillermo del Toro; Jeannot Szwarc",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Interview",
    "isNew": false,
@@ -24609,7 +24609,7 @@
   {
    "cat": "content",
    "sub": "Interview",
-   "group": "Not yet attached",
+   "group": "On: Rod Serling; The Twilight Zone (1959-1964)",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Interview",
    "isNew": false,
@@ -24631,7 +24631,7 @@
   {
    "cat": "content",
    "sub": "Interview",
-   "group": "Not yet attached",
+   "group": "On: Rod Serling; Anne Serling; Jodi Serling",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Interview",
    "isNew": false,
@@ -24906,7 +24906,7 @@
   {
    "cat": "content",
    "sub": "Interview",
-   "group": "On: University of Kansas",
+   "group": "On: Rod Serling",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Interview",
    "isNew": false,
@@ -24917,7 +24917,7 @@
   {
    "cat": "content",
    "sub": "Interview",
-   "group": "Not yet attached",
+   "group": "On: Carol Serling; Rod Serling",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Interview",
    "isNew": false,
@@ -26425,7 +26425,7 @@
   {
    "cat": "content",
    "sub": "Review",
-   "group": "Not yet attached",
+   "group": "On: The Twilight Zone: Rod Serling's Lost Classics",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Review",
    "isNew": false,
@@ -26821,7 +26821,7 @@
   {
    "cat": "content",
    "sub": "Review",
-   "group": "Not yet attached",
+   "group": "On: The Twilight Zone: Rod Serling's Lost Classics",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Review",
    "isNew": false,
@@ -26832,7 +26832,7 @@
   {
    "cat": "content",
    "sub": "Review",
-   "group": "Not yet attached",
+   "group": "On: The Twilight Zone Radio Dramas",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Review",
    "isNew": false,
@@ -27005,6 +27005,17 @@
    "official": false
   }
  ],
+ "essays/rod-serling-on-the-dick-cavett-show-1972": [
+  {
+   "cat": "content",
+   "sub": "Interview",
+   "group": "On: Rod Serling; Night Gallery; Arthur C. Clarke",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Interview",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "essays/rod-serling-predicted-our-ugly-moment-through-unsparing-tales-of-his-own-times": [
   {
    "cat": "reading",
@@ -27093,7 +27104,7 @@
   {
    "cat": "content",
    "sub": "Interview",
-   "group": "Not yet attached",
+   "group": "On: Anne Serling; Jodi Serling; The Twilight Zone (1959-1964)",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Interview",
    "isNew": false,
@@ -27444,7 +27455,7 @@
   {
    "cat": "content",
    "sub": "Review",
-   "group": "Not yet attached",
+   "group": "On: Rod Serling",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Review",
    "isNew": false,
@@ -27517,7 +27528,7 @@
   {
    "cat": "content",
    "sub": "Interview",
-   "group": "Not yet attached",
+   "group": "On: The Twilight Zone (1959-1964)",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Interview",
    "isNew": false,
@@ -27625,7 +27636,7 @@
   {
    "cat": "content",
    "sub": "Interview",
-   "group": "Not yet attached",
+   "group": "On: Rod Serling; The Twilight Zone (1959-1964)",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Interview",
    "isNew": false,
@@ -27773,7 +27784,7 @@
   {
    "cat": "content",
    "sub": "Interview",
-   "group": "Not yet attached",
+   "group": "On: The Twilight Zone (2002-2003)",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Interview",
    "isNew": false,
@@ -27879,7 +27890,7 @@
   {
    "cat": "content",
    "sub": "Interview",
-   "group": "Not yet attached",
+   "group": "On: The Twilight Zone (2002-2003); Ira Steven Behr",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Interview",
    "isNew": false,
@@ -73660,13 +73671,13 @@
  ],
  "works/gold-marcum-award-2006-best-radio-drama-series-the-twilight-zone-radio-dramas-falcon-pictu": [
   {
-   "cat": "content",
-   "sub": "Review",
-   "group": "Not yet attached",
-   "catTitle": "Content (shown on other records)",
-   "subTitle": "Review",
-   "isNew": false,
-   "official": null
+   "cat": "history",
+   "sub": "honors-awards",
+   "group": "Other awards and honors",
+   "catTitle": "History",
+   "subTitle": "Honors and awards",
+   "isNew": true,
+   "official": true
   }
  ],
  "works/golden-globe-1963-serling": [
@@ -78838,13 +78849,13 @@
  ],
  "works/unity-award-1961-outstanding-contributions-to-better-race-relations-the-twilight-zone": [
   {
-   "cat": "content",
-   "sub": "Review",
-   "group": "Not yet attached",
-   "catTitle": "Content (shown on other records)",
-   "subTitle": "Review",
-   "isNew": false,
-   "official": null
+   "cat": "history",
+   "sub": "honors-awards",
+   "group": "Other awards and honors",
+   "catTitle": "History",
+   "subTitle": "Honors and awards",
+   "isNew": true,
+   "official": true
   }
  ],
  "works/unlv-olli-mind-of-rod-serling": [

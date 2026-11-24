@@ -9,6 +9,8 @@ description: A 1968 filmed conversation with Serling held by the Library of Cong
 links:
   online: https://www.loc.gov/item/mbrs00829947/
 research_confidence: medium
+content_of:
+- people/rod-serling
 sources:
 - title: RSMF article list (links LoC item)
   url: https://rodserling.com/articles-2

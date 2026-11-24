@@ -3,6 +3,19 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Media Library: every interview attached
+
+Visitors can now:
+- Find 16 more interviews and reviews on the pages they are about: Serling's own interviews on his page, Carol,
+  Anne and Jodi Serling's interviews on theirs, the 2002 producers' interviews on the 2002 series, and reviews of
+  Rod Serling's Lost Classics on that film.
+- Watch for two more Serling interviews (The Dick Cavett Show, 1972; James Gunn's unfinished 1970 film), linked.
+- See the 1961 Unity Award and the 2006 Gold Marcum Award with the other honors in History.
+
+**Known not to work yet:**
+- 20 reviews still wait for a decision; they are part of the Read round.
+- Quotes and archival holdings are still thin.
+
 ## 2026-11-24 — Visit: each place once, filming locations by show
 
 Visitors can now:

@@ -6,6 +6,10 @@ description: Interview feature in which del Toro and Night Gallery director Jean
 links:
   online: http://www.tvtimemachine.com/186/directors-guillermo-del-toro-and-jeannot-szwarc-honor-rod-serlings-night-gallery-part-one
 research_confidence: medium
+content_of:
+- films/night-gallery
+- people/guillermo-del-toro
+- people/jeannot-szwarc
 sources:
 - title: Articles - Rod Serling Memorial Foundation
   url: https://rodserling.com/articles-2

@@ -26352,16 +26352,16 @@
   "sort": "jack klugmans twilight times"
  },
  "essays/james-gunn-interviews-rod-serling-1970": {
-  "connection": "An interview the science-fiction writer and scholar James Gunn filmed with Serling in 1970 for a University of Kansas teaching series on science fiction in literature; the film was never finished, and its original audio was later reconstructed and released.",
+  "connection": "University of Kansas professor James Gunn filmed interviews with science-fiction writers in 1970 for his Centron film series \"Science Fiction in Literature\".",
   "tier": "related",
   "tier_reason": "Writing by or about Rod Serling.",
   "recommendation": "include",
   "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
-  "source_title": "Internet Archive",
-  "source_url": "https://archive.org/details/gunn-serling-original-audio-track-unedited",
-  "title": "James Gunn interviews Rod Serling (1970)",
+  "source_title": "Dangerous Minds: Lost Rod Serling video interview, 1970",
+  "source_url": "https://dangerousminds.net/comments/lost_rod_serling_video_interview_1970/",
+  "title": "James Gunn interviews Rod Serling (1970, unfinished film)",
   "subcategory": "Interviews",
-  "sort": "james gunn interviews rod serling 001970"
+  "sort": "james gunn interviews rod serling 001970 unfinished film"
  },
  "essays/life-with-rod-a-conversation-with-carol-serling": {
   "connection": "Twilight Zone Magazine interview with Carol Serling about home life with Rod and his working habits.",
@@ -28546,6 +28546,18 @@
   "title": "Rod Serling, o futurólogo do apocalipse",
   "subcategory": "Articles",
   "sort": "rod serling o futurlogo do apocalipse"
+ },
+ "essays/rod-serling-on-the-dick-cavett-show-1972": {
+  "connection": "Serling, appearing alongside Arthur C. Clarke, tells Dick Cavett that he has no real control over Night Gallery: \"They say it's 'Rod Serling's Night Gallery' and it really isn't.\" A clip was highlighted by Boing Boing in March 2021.",
+  "tier": "related",
+  "tier_reason": "Writing by or about Rod Serling.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Boing Boing: On Dick Cavett Show, Rod Serling discusses his lack of creative control on Night Gallery (1972)",
+  "source_url": "https://boingboing.net/2021/03/18/on-dick-cavett-show-rod-serling-discusses-his-lack-of-creative-control-on-night-gallery-1972.html",
+  "title": "Rod Serling on The Dick Cavett Show (1972)",
+  "subcategory": "Interviews",
+  "sort": "rod serling on the dick cavett show 001972"
  },
  "essays/rod-serling-predicted-our-ugly-moment-through-unsparing-tales-of-his-own-times": {
   "connection": "Village Voice essay arguing that Serling's hard-edged stories about his own era foresaw today's political climate.",
@@ -45600,7 +45612,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -55632,7 +55644,7 @@
   "sort": "paul le mat"
  },
  "people/paul-lynch": {
-  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “A Message from Charity” and “Examination Day”).",
+  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “Examination Day” and “A Message from Charity”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -60828,7 +60840,7 @@
   "sort": "werner klemperer"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -75185,8 +75197,8 @@
   "tier_reason": "An honor given to Rod Serling or the show.",
   "recommendation": "include",
   "reason": "Part of Serling's career record on his hub page.",
-  "source_title": "Wikipedia (mirror): The Twilight Zone (1959 TV series)",
-  "source_url": "https://troywiki.duckdns.org/content/wikipedia_en_all_maxi_2024-01/A/Twilight_Zone%2C_The_(1959)",
+  "source_title": "Wikipedia: The Twilight Zone (1959 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)",
   "title": "Unity Award – Outstanding Contributions to Better Race Relations (1961)",
   "subcategory": "Honors and awards",
   "sort": "unity award  outstanding contributions to better race relations 001961"

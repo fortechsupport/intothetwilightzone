@@ -10,6 +10,8 @@ description: 'A good, well-produced collection with mixed story quality: ''Long 
 links:
   online: https://www.greatdetectives.net/detectives/audio-dramas-twilight-zone-radio-dramas-volume-1/
 research_confidence: medium
+content_of:
+- radio/twilight-zone-radio-dramas-series
 sources:
 - title: greatdetectives.net
   url: https://www.greatdetectives.net/detectives/audio-dramas-twilight-zone-radio-dramas-volume-1/
