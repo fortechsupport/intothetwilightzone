@@ -19,8 +19,10 @@ import { assess, TIER_LABEL } from '../lib/assessments';
 import ThemeList from './ThemeList.astro';
 import { inheritedThemes } from '../lib/themes';
 
-interface Props { col: string; entry: any }
-const { col, entry } = Astro.props;
+// `skip` hides more recorded fields from the facts list (a page that shows them its own way); the `facts` slot adds
+// dt/dd pairs to it, and the default slot adds sections after the connection panel.
+interface Props { col: string; entry: any; skip?: string[]; type?: string; context?: string }
+const { col, entry, skip = [], type, context } = Astro.props;
 const d = entry.data;
 const key = `${col}/${entry.id}`;
 const title: string = col === 'quotes' ? `${d.person} on ${d.episodes?.length ? 'an episode' : 'The Twilight Zone'}` : d.title ?? d.name ?? entry.id;
@@ -32,12 +34,12 @@ const PEOPLE = new Set(['authors', 'creators', 'hosts', 'voiced_by', 'played_by'
 const LABEL: Record<string, string> = {
   episode_count_as_of: 'Episode count as of',
   series_name: 'Series', series_title: 'Series', cover_date: 'Cover date', voiced_by: 'Voices', played_by: 'Played by', original_writer: 'Original writer',
-  adapted_by: 'Adapted by', volume_released: 'Volume released', first_episode: 'First episode', episode_count: 'Episodes', published_in: 'Published in',
+  adapted_by: 'Adapted by', volume: 'Volume (unconfirmed)', volume_released: 'Volume released', first_episode: 'First episode', episode_count: 'Episodes', published_in: 'Published in',
   review_type: 'Review type', outlet_rating: 'Rating given', tz_connection: 'Connection', isbn: 'ISBN', aka: 'Also known as',
 };
 const label = (k: string) => LABEL[k] ?? (k.charAt(0).toUpperCase() + k.slice(1)).replace(/_/g, ' ');
 const isDate = (k: string) => /date|published|released|first_episode|born|died/.test(k);
-const facts = Object.entries(d).filter(([k, v]) => !SKIP.has(k) && v !== undefined && v !== null && v !== '' && !(Array.isArray(v) && v.length === 0) && (typeof v !== 'object' || Array.isArray(v)));
+const facts = Object.entries(d).filter(([k, v]) => !SKIP.has(k) && !skip.includes(k) && v !== undefined && v !== null && v !== '' && !(Array.isArray(v) && v.length === 0) && (typeof v !== 'object' || Array.isArray(v)));
 
 const refList: string[] = [...(d.episodes ?? []), ...(d.appears_in ?? []), ...(d.reviews ?? []), ...(d.covers ?? []), ...(d.adapts_episode ? [d.adapts_episode] : [])];
 const refs = (await Promise.all([...new Set(refList)].map(async (r) => ({ r, t: await resolveRef(r) }))));
@@ -50,7 +52,7 @@ const docTitle = recordDocTitle(col, d, title, { firstRef });
 ---
 <Base title={docTitle} description={text ? text.slice(0, 155) : `${title}: its connection to The Twilight Zone.`}>
   <InCategories recKey={key} />
-  <RecordHeader type={recordType(col, d)} context={recordContext(col, d, { firstRef })} title={title} recKey={key} />
+  <RecordHeader type={type ?? recordType(col, d)} context={context ?? recordContext(col, d, { firstRef })} title={title} recKey={key} />
   {(() => { const t = trackFor(col, d.kind); return (t.seen || t.own) && <TrackButtons recKey={key} seen={t.seen} own={t.own} />; })()}
   {col === 'quotes' ? (
     <figure class="quote">
@@ -58,8 +60,9 @@ const docTitle = recordDocTitle(col, d, title, { firstRef });
       <figcaption>{d.person}{d.date && `, ${formatDate(d.date)}`}{d.context && <span class="muted"> · {d.context}</span>}</figcaption>
     </figure>
   ) : text && text.split(/\n\s*\n/).map((p: string, i: number) => <p class={i === 0 ? 'lead' : undefined}>{p}</p>)}
-  {facts.length > 0 && (
+  {(facts.length > 0 || Astro.slots.has('facts')) && (
     <dl class="facts">
+      <slot name="facts" />
       {facts.map(([k, v]) => (
         <><dt>{label(k)}</dt><dd>{
           Array.isArray(v)
@@ -84,6 +87,7 @@ const docTitle = recordDocTitle(col, d, title, { firstRef });
       {a?.tier && <p class="small muted">Relevance: {TIER_LABEL[a.tier]}. {a.tier_reason}</p>}
     </section>
   )}
+  <slot />
   {d.featured_episodes?.length > 0 && (
     <section>
       <h2>Featured episodes</h2>

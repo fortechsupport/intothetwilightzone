@@ -6,8 +6,9 @@
 // Without JavaScript the full list shows.
 // `facets` adds one select per extra filter, matched against each item's data-x-<key> ("a|b" lists).
 interface Facet { key: string; label: string; options: string[] }
-interface Props { scope: string; noun?: string; groups?: string[]; sides?: boolean; tiers?: boolean; years?: boolean; groupLabel?: string; facets?: Facet[] }
-const { scope, noun = 'entries', groups = [], sides = false, tiers = false, years = true, groupLabel = 'Group', facets = [] } = Astro.props;
+// `orderLabels` renames the first two sort choices on a list kept in its own order (a series in season order).
+interface Props { scope: string; noun?: string; groups?: string[]; sides?: boolean; tiers?: boolean; years?: boolean; groupLabel?: string; facets?: Facet[]; orderLabels?: [string, string] }
+const { scope, noun = 'entries', groups = [], sides = false, tiers = false, years = true, groupLabel = 'Group', facets = [], orderLabels = ['A to Z', 'Z to A'] } = Astro.props;
 const shown = facets.filter((f) => f.options.length > 1);
 const fkeys = shown.map((f) => `x-${f.key}`);
 const id = `lt-${scope}`;
@@ -18,7 +19,7 @@ const id = `lt-${scope}`;
   {groups.length > 1 && <label>{groupLabel} <select data-f="group"><option value="">All</option>{groups.map((g) => <option value={g}>{g}</option>)}</select></label>}
   {shown.map((f) => <label>{f.label} <select data-f={`x-${f.key}`}><option value="">All</option>{f.options.map((o) => <option value={o}>{o}</option>)}</select></label>)}
   {tiers && <label>Relevance <select data-f="tier"><option value="">Any</option><option value="core">Core</option><option value="related">Related</option><option value="tangential">Tangential</option></select></label>}
-  <label>Sort <select data-f="sort"><option value="az">A to Z</option><option value="za">Z to A</option>{years && <><option value="new">Newest first</option><option value="old">Oldest first</option></>}</select></label>
+  <label>Sort <select data-f="sort"><option value="az">{orderLabels[0]}</option><option value="za">{orderLabels[1]}</option>{years && <><option value="new">Newest first</option><option value="old">Oldest first</option></>}</select></label>
   <span class="small muted lt-count" role="status"></span>
 </form>
 <script is:inline define:vars={{ formId: id, fkeys }}>
