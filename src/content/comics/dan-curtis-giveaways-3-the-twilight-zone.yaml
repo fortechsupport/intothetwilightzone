@@ -8,7 +8,10 @@ description: A small vending-machine premium comic, one of a nine-book set, that
 relevance: core
 research_confidence: medium
 sources:
+- title: 'Star Trek Comics Checklist: Dan Curtis Giveaway reprints of Gold Key Star Trek comics'
+  url: https://startrekcomics.info/dancurtisgiveaway.html
+  note: 'Read 2026-11-24: "A set of nine 6" x 3" mini-comics intended for use as vending machine premiums was printed around 1974", reprinting stories from titles including the Twilight Zone. It names no stories or creators for the Twilight Zone book.'
 - title: 'Wixiban: Dan Curtis Giveaways checklist'
   url: http://www.wixiban.com/comics/dancurtis.htm
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
 locked: true

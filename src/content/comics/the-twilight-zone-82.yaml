@@ -2,11 +2,20 @@ title: 'The Twilight Zone # 82'
 series_name: The Twilight Zone
 publisher: Gold Key Comics
 order: 86
+creators:
+- Gary Poole (writer)
+- Jack Sparling (pencils, inks, cover)
+- Al McWilliams (pencils, inks, letters)
+- Jose Delbo (pencils, inks)
+- Juan Ortiz (pencils, inks)
 cover_date: 1978-01
 links:
   info: https://www.comics.org/issue/31856/
 research_confidence: high
 sources:
+- title: 'Heritage Auctions comic issue index (Grand Comics Database data)'
+  url: https://comics.ha.com/comic-issue-index/the-twilight-zone.s?id=31856
+  note: Read 2026-11-24 for the creator credits (cover and story pencils, inks, scripts and letters; Heritage states the data is courtesy of the Grand Comics Database under a Creative Commons licence).
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key), page 2'
@@ -15,7 +24,7 @@ sources:
   url: https://www.comiccollectorlive.com/issues/comic-books/Twilight-Zone-1962/page-2/8ebd1f9c-ba05-48ed-9391-5442a75185e7?find=50
 - title: 'MyComicShop: Twilight Zone (1962 Gold Key) issue listing with contents'
   url: https://www.mycomicshop.com/search?TID=193921
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'
 locked: true
 description: 'Issue 82 of Gold Key''s licensed Twilight Zone anthology comic (January 1978), with a cover painted
   over a Jack Sparling drawing. Stories: "Every Dog Has His Day" (Jack Sparling); "The Fate Changer" (Al McWilliams);

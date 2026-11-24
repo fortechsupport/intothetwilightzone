@@ -185,13 +185,14 @@ Foreign-language editions, Rod Serling Memorial Foundation publications, Rod Ser
 
 ## Not possible, and why
 Each item below was tried; the reason is what stopped it.
-- **Creators for 16 of the 188 comics (third pass in progress).** The Grand Comics Database refuses automated
-  reading, but Heritage Auctions' issue index carries its credits; it allows about three page reads every fifteen
-  to twenty minutes, so the Gold Key issues are being read in paced rounds (65 of 94 done when this was written).
-  The rest, and why:
+- **Creators for 5 of the 188 comics, an illustrator for a sixth.** The Grand Comics Database refuses automated
+  reading, but Heritage Auctions' issue index carries its credits (about three page reads every fifteen to twenty
+  minutes), so every Gold Key issue was read there in paced rounds; credits the index marks with "?" are left off
+  each list and named in its source note. The rest, and why:
   - *The Midnight Sun* (Walker, 2009) has its adapter but no illustrator: no catalogue or review page read names one.
-  - *Dan Curtis Giveaways #3* and the three Cayuga mini-comics: no page read lists their contents or credits (VCU
-    Libraries' catalogue pages give only issue numbers and years).
+  - *Dan Curtis Giveaways #3* and the three Cayuga mini-comics: no page read lists their contents or credits. The Star
+    Trek Comics Checklist confirms the 1974 Western set of nine mini-comics included a Twilight Zone reprint, but names
+    no stories or creators; VCU Libraries' catalogue lists only regular Gold Key issues.
   - The Whitman-logo printings (#51-92) are cover variants of Gold Key issues, so their credits are those issues'.
   - The fan wiki pages linked from two of the Dell records refuse automated reading, so which wiki page belongs to which
     issue was not re-checked.
