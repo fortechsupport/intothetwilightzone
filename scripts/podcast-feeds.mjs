@@ -76,15 +76,21 @@ async function get(url) {
   return res.text();
 }
 
-/** The feed address: links.rss, else Apple's lookup for the podcast's Apple id. */
-async function feedOf(d) {
-  if (d.links?.rss) return { url: d.links.rss, via: 'record' };
-  const urls = [d.links?.apple, ...(d.sources ?? []).map((s) => s.url)].filter(Boolean);
-  const id = urls.map((u) => String(u).match(/(?:\bid=?|\/id)(\d{6,})/)?.[1]).find(Boolean);
+/** The podcast's Apple id, from links.apple or an Apple source URL. */
+const appleId = (d) => [d.links?.apple, ...(d.sources ?? []).map((s) => s.url)].filter(Boolean)
+  .map((u) => String(u).match(/(?:\bid=?|\/id)(\d{6,})/)?.[1]).find(Boolean);
+/** Apple's public lookup gives the feed a podcast currently registers (it moves when a show changes host). */
+async function appleFeed(d) {
+  const id = appleId(d);
   if (!id) return undefined;
   const j = JSON.parse(await get(`https://itunes.apple.com/lookup?id=${id}&entity=podcast`));
   const f = j.results?.[0]?.feedUrl;
   return f ? { url: f, via: `apple ${id}` } : undefined;
+}
+/** The feed address: links.rss, else Apple's lookup for the podcast's Apple id. */
+async function feedOf(d) {
+  if (d.links?.rss) return { url: d.links.rss, via: 'record' };
+  return appleFeed(d);
 }
 
 const records = fs.readdirSync(dir).filter((f) => f.endsWith('.yaml')).sort().map((f) => ({ id: f.slice(0, -5), d: YAML.parse(fs.readFileSync(path.join(dir, f), 'utf8')) })).filter((r) => !r.d.duplicate_of);
@@ -99,17 +105,28 @@ for (const { id, d } of records) {
   let f;
   try { f = await feedOf(d); } catch (e) { report.push([id, 'lookup failed', String(e.message)]); continue; }
   if (!f) { report.push([id, 'no feed', '']); continue; }
+  let xml;
+  try { xml = await get(f.url); } catch (e) {
+    // The record's feed failed: try the one Apple lists now, in case the show moved host.
+    const alt = f.via === 'record' ? await appleFeed(d).catch(() => undefined) : undefined;
+    if (alt && alt.url !== f.url) { try { xml = await get(alt.url); f = { ...alt, via: `${alt.via} (record feed ${e.message})` }; } catch {} }
+    if (!xml) {
+      feeds[id] = { ...(feeds[id] ?? {}), url: f.url, via: f.via, status: 'unavailable', last_tried: today };
+      report.push([id, 'feed failed', `${e.message} · ${f.url}${alt ? ` · Apple lists ${alt.url}` : ''}`]);
+      continue;
+    }
+  }
   try {
-    const parsed = parseFeed(await get(f.url));
+    const parsed = parseFeed(xml);
     const keep = d.feed_filter ? new RegExp(d.feed_filter, 'i') : null;
     const eps = parsed.episodes.filter((e) => !keep || keep.test(e.title));
     const dates = eps.map((e) => e.date).filter(Boolean).sort();
     feeds[id] = { url: f.url, via: f.via, status: 'ok', last_read: today, title: parsed.title, count: eps.length, first: dates[0], latest: dates.at(-1) };
     for (const e of eps) byKey.set(`${id}|${e.guid}`, { p: id, t: e.title, d: e.date, s: e.seconds, n: e.number, se: e.season, u: e.url, g: e.guid });
-    report.push([id, 'ok', `${eps.length} episodes${keep ? ` (of ${parsed.episodes.length}, filter /${d.feed_filter}/)` : ''}, ${dates[0] ?? '?'} to ${dates.at(-1) ?? '?'} · "${parsed.title}" · ${f.via}`]);
+    report.push([id, 'ok', `${eps.length} episodes${keep ? ` (of ${parsed.episodes.length}, filter /${d.feed_filter}/)` : ''}, ${dates[0] ?? '?'} to ${dates.at(-1) ?? '?'} · "${parsed.title}" · ${f.via} · ${f.url}`]);
   } catch (e) {
-    feeds[id] = { ...(feeds[id] ?? {}), url: f.url, via: f.via, status: 'unavailable', last_tried: today };
-    report.push([id, 'feed failed', `${e.message} · ${f.url}`]);
+    feeds[id] = { ...(feeds[id] ?? {}), url: f.url, via: f.via, status: 'unreadable', last_tried: today };
+    report.push([id, 'feed unreadable', `${e.message} · ${f.url}`]);
   }
 }
 
