@@ -14,7 +14,6 @@ details:
   format: CD (3-disc)
   series: The Twilight Zone (1985-89)
   catalog_no: ISC 348
-  catalog: ISC 348
   tracks: 27
   runtime: '232:11'
 sources:
@@ -34,5 +33,3 @@ media:
   host: Intrada (label)
   rights: link-only
   subtype: listing
-categories:
-- music/soundtracks

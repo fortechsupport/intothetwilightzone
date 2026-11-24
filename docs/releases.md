@@ -3,6 +3,28 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Music: six shelves, episode music and music videos
+
+Music now has six shelves:
+- **The themes:** every main title in date order, grouped by show, with a short history at the top.
+- **Scores and soundtrack albums:** grouped by series or film, with compilations last.
+- **Covers and samples:** each sample is marked by how it is known.
+- **Songs about the show.**
+- **Songs that mention it:** "Names the show", "Uses the phrase" and "Not yet confirmed".
+- **Music videos.**
+
+Visitors can now also:
+- See who wrote the music on 34 episode pages, with sources.
+- Read the track lists of Varèse's score LPs.
+- Go between a song and its music video.
+
+Each song page says in plain words how the song connects. Six song records that repeated a theme record now point to it.
+
+**Known not to work yet:**
+- Most episodes have no music line yet.
+- Five music videos have no separate song page.
+- No "Rod Serling on record" group yet.
+
 ## 2026-11-24 — Music research round 2: who scored the episodes
 
 Episodes can now say who wrote their music:

@@ -12,7 +12,6 @@ details:
   series: The Twilight Zone (1959-64)
   catalog_no: STV 81185
   label: Varèse Sarabande
-  catalog: STV 81185
 sources:
 - title: mail.45worlds.com
   url: https://mail.45worlds.com/vinyl/album/stv81185
@@ -32,5 +31,3 @@ media:
   host: 45worlds
   rights: link-only
   subtype: listing
-categories:
-- music/soundtracks

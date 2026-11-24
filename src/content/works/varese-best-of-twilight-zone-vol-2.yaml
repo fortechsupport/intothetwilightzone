@@ -11,7 +11,6 @@ details:
   series: The Twilight Zone (1959-64)
   catalog_no: VCD-47247
   label: Varèse Sarabande
-  catalog: VCD 47247
 sources:
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/Var%C3%A8se_Sarabande_albums_discography
@@ -29,5 +28,3 @@ media:
   host: 45worlds
   rights: link-only
   subtype: listing
-categories:
-- music/soundtracks

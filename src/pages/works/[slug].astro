@@ -42,7 +42,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'CreativeWork', name
     {d.year && <><dt>Year</dt><dd>{d.year}</dd></>}
     {d.creator && <><dt>Creator</dt><dd>{d.creator}</dd></>}
     {d.publisher && <><dt>Publisher or maker</dt><dd>{d.publisher}</dd></>}
-    {details.map(([k, v]) => <><dt>{humanize(k)}</dt><dd>{detailText(v)}</dd></>)}
+    {details.map(([k, v]) => <><dt>{humanize(k)}</dt><dd>{k === 'tracks' && Array.isArray(v) ? <ul class="plain">{v.map((t) => <li>{detailText(t)}</li>)}</ul> : detailText(v)}</dd></>)}
     <ThemeList slugs={themes} from={epRefs.length > 1 ? 'the Twilight Zone episodes it points to' : 'the Twilight Zone episode it points to'} />
   </dl>
   {targets.length > 0 && (

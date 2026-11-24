@@ -4,8 +4,7 @@ subtype: theme-single
 year: 2019
 creator: Marco Beltrami (with Brandon Roberts)
 publisher: CBS All Access
-description: >-
-  Beltrami and Brandon Roberts scored the Jordan Peele-hosted revival, whose opening reworks the familiar Constant
+description: Beltrami and Brandon Roberts scored the Jordan Peele-hosted revival, whose opening reworks the familiar Constant
   motif into a new orchestral-electronic title.
 details:
   format: broadcast / streaming main title
@@ -13,6 +12,7 @@ details:
   people:
   - Marco Beltrami
   - Brandon Roberts
+  length: 0:30
 sources:
 - title: brandonrobertsmusic.com
   url: https://brandonrobertsmusic.com/2024/11/19/twilight-zone/
@@ -27,5 +27,5 @@ sources:
 research_confidence: medium
 last_verified: '2026-11-20'
 relevance: core
-categories:
-- music/soundtracks
+links:
+  youtube: pK7REOC_vko

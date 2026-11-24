@@ -1,6 +1,6 @@
 # Content plan: Music
 
-**Date:** 2026-11-24 · **Status:** approved by Adam 2026-11-24 02:05 UTC ("approved"), with Q1 to Q6 as suggested (checklist box 1 of 4 done) · **Checklist:** docs/RESEARCH_CHECKLIST.md, Listen > Music
+**Date:** 2026-11-24 · **Status:** approved by Adam 2026-11-24 02:05 UTC ("approved"), with Q1 to Q6 as suggested (checklist complete) · **Checklist:** docs/RESEARCH_CHECKLIST.md, Listen > Music
 **Order:** Adam, 2026-11-24 01:07 UTC: finish Watch (Stage, done in PRs #55 and #56), then Listen: Music, then Podcasts.
 **Follows:** decision 0005 (records are included without item-by-item review; visitors' votes flag doubtful ones),
 decision 0006 (a likeness is "Compared to", never "Inspired by"), the Serling rule, and Adam's Movies answer Q3
@@ -146,7 +146,7 @@ That is two rounds of under an hour each at the shared 100 an hour.
 1. **Research round 1** *(done 2026-11-24)***:** the 62 unconfirmed songs (63 in the first count), samples (WhoSampled) and covers (SecondHandSongs).
 2. **Research round 2** *(done 2026-11-24, notes in data/research/music-2026-11-24/round-2-scores.md)***:** the themes, the score releases with where to listen, who scored each episode, Night Gallery's
    music, and Serling on record.
-3. **Structure and pages:** the six shelves, the theme history, music lines on episode pages and music videos on their
+3. **Structure and pages** *(done 2026-11-24, screenshots in /mnt/project-files/screenshots/music-structure-2026-11-24/)***:** the six shelves, the theme history, music lines on episode pages and music videos on their
    songs. Screenshots at 320 px and 1440 px go to Adam.
 
 ## 10. Acceptance checks (pass or fail)
@@ -165,7 +165,21 @@ That is two rounds of under an hour each at the shared 100 an hour.
 ## Decided here (Adam reviews later)
 - Composers stay in People, listed from Music (the nine-verb structure already does this).
 - The Tower of Terror's ride music sits with the themes, and the ride itself stays in Visit > Places > Attractions.
-- The radio dramas' music and sound record moves to Radio's series page, as part of the radio dramas.
+- The radio dramas' music and sound record moves to Radio's series page, as part of the radio dramas. *(Step 3: for now it
+  sits on shelf B in a group "The radio dramas"; moving it is on the Found list.)*
+- Step 3 (2026-11-24):
+  - Shelf addresses: /music/theme/, /music/soundtracks/, /music/covers-samples/, /music/songs-about/, /music/songs-mention/
+    and /music/music-videos/. The old /music/songs/ redirects to /music/songs-mention/.
+  - Six song records duplicated better-sourced theme records in Works (Herrmann 1959, Constant 1960, the Grateful
+    Dead 1985, Jonathan Davis 2002, Beltrami 2019, The Manhattan Transfer). Each is now `duplicate_of` the Works record,
+    which took over its YouTube link, catalogue ids and extra sources. Their old addresses redirect.
+  - A sample is "listed by WhoSampled or the artist" when one of its sources is WhoSampled or the artist's credits;
+    otherwise "noted by fans".
+  - Songs gain a `subtype` field (main-title, sample, tribute, title-reference). The Goldsmith 1983 and Bellis Tower of
+    Terror main titles are `main-title` and sit on The themes.
+  - Five sample records from 2026-11-21 had no decision, so they never showed. They are now included under decision
+    0005: Shanti and Deedrah, Killah Priest, World Class Wreckin' Cru, The Buggers and UNKLE.
+  - Nine release records showed their catalogue number twice. The duplicate `catalog` detail is removed; `catalog_no` stays.
 
 ## Waiting on Adam
 - (none: plan and Q1 to Q6 approved as suggested, 2026-11-24 02:05 UTC)
@@ -182,3 +196,9 @@ That is two rounds of under an hour each at the shared 100 an hour.
   - Night Gallery's per-episode composers could not be read.
   - No Serling spoken-word album was found (Discogs refuses automated reading).
   - Where to listen: only the 1999 Herrmann release has a licensed streaming page.
+- Step 3 (2026-11-24):
+  - Five of the seven music videos have no song record (Young MC, Psychic Ills, Anthrax, Summer Cannibals, SNOT), so
+    the video page is the only page for the song. Golden Earring and The Linda Lindas link both ways.
+  - The radio dramas' music record still sits on shelf B; it should attach to the Radio series page.
+  - src/lib/categories.ts still holds the old song group descriptions used by the review tools.
+  - "Rod Serling on record" stays hidden until a record is found.

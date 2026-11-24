@@ -277,6 +277,9 @@ const songs = defineCollection({
     length: z.string().optional(),
     year: z.number().optional(),
     tz_connection: z.enum(['theme', 'lyric-mention', 'reference', 'unclassified']),
+    // How the song uses the show, where tz_connection is not enough (Music plan, shelves A to D): main-title (a
+    // show's own theme), sample, tribute or title-reference. songConnection() in src/lib/taxonomy.mjs reads it.
+    subtype: z.enum(['main-title', 'sample', 'tribute', 'title-reference']).optional(),
     lyric_excerpt: z.string().max(200).optional(),
     description: z.string().optional(),
     ...common,

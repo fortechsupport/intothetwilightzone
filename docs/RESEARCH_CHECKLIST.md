@@ -57,7 +57,7 @@ first because everything else links to it.
 | 4 | Read: Books and Scripts | The stories the episodes adapt have no records of their own; novelizations, editions and translations are partial. |
 | 5 | Read: Comics and Magazines | Already deep; a quick verification pass and cover-art links. |
 | 6 | Read: Articles, Essays and Websites | Articles and websites are partial to thin. |
-| 7 | Listen: Music | 63 songs are still "connection not yet confirmed"; 2002 and 2019 scores are unknown. |
+| 7 | Listen: Music | Done 2026-11-24: six shelves, music on 34 episode pages. 54 songs still "not yet confirmed". |
 | 8 | Listen: Podcasts | No official shelf yet; episode lists are samples. |
 | 9 | Watch: Stage | Done 2026-11-24: five shelves and the play page. |
 | 10 | Play: Games | Much already searched with no result; a short confirming pass. |
@@ -163,9 +163,9 @@ listings have them but the BBC site blocks automated reading; no other source li
 `volume` numbering is right; OTRR's 2003–04 broadcast log not yet applied.
 
 ### Music
-- [x] Content plan approved · [x] Researched (rounds 1 and 2, 2026-11-24) · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [x] Researched (rounds 1 and 2, 2026-11-24) · [x] Records decided (decision 0005 and the Serling rule) · [x] Pages built (2026-11-24, six shelves)
 
-Plan: docs/plans/research-music.md (approved by Adam 2026-11-24, Q1 to Q6 as suggested). Research round 1 (songs, samples, covers) and round 2 (episode music, score releases, Night Gallery, Serling on record) done 2026-11-24.
+Plan: docs/plans/research-music.md (approved by Adam 2026-11-24, Q1 to Q6 as suggested). Research round 1 (songs, samples, covers) and round 2 (episode music, score releases, Night Gallery, Serling on record) done 2026-11-24. Structure (six shelves, episode music lines, music videos on songs) done 2026-11-24.
 
 | Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|
