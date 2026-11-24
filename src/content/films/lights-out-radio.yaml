@@ -1,11 +1,16 @@
 title: Lights Out
 kind: tv-series
 summary: Radio horror anthology created by Wyllis Cooper and later written by Arch Oboler, one of the radio writers
-  the young Serling admired.
+  the young Serling admired. Serling adapted his radio play "The Keeper of the Chair" for Lights Out!, which turned it
+  down, after Suspense and Escape had done the same (Martin Grams Jr.).
 release_date: '1934'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: The Radio Career of Rod Serling
+  url: https://otrr.org/FILES/Articles/Martin_Grams_Jr_Articles/The_Radio_Career_Of_Rod_Serling.html
+  author: Martin Grams Jr.
+  publisher: Old Time Radio Researchers (first published in Old Radio Times, December 2008)
 research_confidence: medium
 relevance: tangential
 tags:
@@ -13,5 +18,5 @@ tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Lights_Out_(radio_show)
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true

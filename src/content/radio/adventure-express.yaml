@@ -1,12 +1,17 @@
 title: Adventure Express
 original_writer: Rod Serling
 series_title: Adventure Express
-description: A WLW radio series in Cincinnati, October 1950 to February 1951, based on an idea by Serling during
-  his time as a staff writer there.
+description: A weekly radio series of train-journey stories about Billy, Betty and their Uncle Jim, broadcast from
+  14 October 1950 to 17 February 1951 during Serling's time as a staff writer at WLW in Cincinnati. Serling wrote it,
+  and first proposed it as "Conducted Tour Through America". He joined WLW in spring 1950 at $75 a week.
 sources:
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
-research_confidence: medium
+- title: The Radio Career of Rod Serling
+  url: https://otrr.org/FILES/Articles/Martin_Grams_Jr_Articles/The_Radio_Career_Of_Rod_Serling.html
+  author: Martin Grams Jr.
+  publisher: Old Time Radio Researchers (first published in Old Radio Times, December 2008)
+research_confidence: high
 relevance: related
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true

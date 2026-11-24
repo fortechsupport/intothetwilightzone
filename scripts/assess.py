@@ -536,6 +536,13 @@ def a_radio(rid, d):
         conn = (f"An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling) adapting {ep_label(ep)}." if ep in EP
                 else "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling): " + desc)
         return result(conn, "core", "Part of the officially licensed radio series.", "include", "The licensed radio series is part of the franchise; the full run is listed.", d)
+    tags = d.get("tags") or []
+    if "fan-made" in tags:
+        return result(f"Fan-made audio of {ep_label(d.get('adapts_episode'))}: {desc}" if d.get("adapts_episode") in EP else f"Fan-made audio: {desc}", "related",
+                      "Unofficial fan work adapting the show.", "include", "Decision 0005: included with its source and credited to its maker; fans' votes flag it if doubtful.", d)
+    if "audio-adaptation" in tags:
+        return result(f"A radio or audio adaptation of Rod Serling's work by others: {desc}", "related",
+                      "Serling's writing, adapted for audio by another producer.", "include", "You asked for all of Rod Serling's work to be documented.", d)
     return result(f"Rod Serling's radio work: {desc}" if desc else f"Rod Serling's radio work ({d.get('series_title')}).", "related",
                   "Serling's radio work outside the show.", "include", "You asked for all of Rod Serling's work to be documented.", d)
 

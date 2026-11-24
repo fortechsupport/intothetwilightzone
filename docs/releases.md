@@ -3,6 +3,22 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Radio: Rod Serling's radio years, and the first fan audio drama
+
+Radio now holds Rod Serling's whole radio career as far as sources record it, each with its source. A visitor can
+hear the young Serling acting in WNYC's "Toward Return to Society" (11 December 1946), streamed by WNYC from the
+New York City Municipal Archives, and read about his student station at Antioch College, his scripts for Party Line,
+Grand Central Station, Dr. Christian, Leave It to Kathy, Our America and Builders of Destiny, and the plays he
+could not sell. "To Live a Dream", "Hop Off the Express and Grab a Local", Adventure Express and The Zero Hour have
+fuller, sourced pages. Lights Out and Suspense now say how they connect: both turned down Serling's "The Keeper of
+the Chair", and Suspense's former director Elliott Lewis directed The Zero Hour. Two new kinds of radio record
+appear: the 2020 WVXU radio play of Serling's "O'Toole from Moscow", narrated by his daughter Anne Serling, and
+Dylan Vance's fan-made audio drama of "Escape Clause", which is marked unofficial and also listed under Fan-made.
+
+**Known not to work yet:** These still sit on the old radio shelves under group headings; the five shelves come in
+the structure step. No Night Gallery or revival story on audio was found. The radio drama episodes still list only
+their star except six.
+
 ## 2026-11-23 — Radio: the category's new name, and every radio drama checked against Wikipedia
 
 The Listen category is now called **Radio** (Adam's choice); "Radio dramas" will be the name of the shelf for The

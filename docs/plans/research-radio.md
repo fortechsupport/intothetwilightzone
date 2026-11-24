@@ -218,6 +218,19 @@ The questions as they were put:
     Group"); whether the 2023 "Twilight Zone Radio Show!" podcast feed is Falcon's own; release dates per episode
     (Wikipedia has none); the director credit (Wikipedia's infobox says Roger Wolski, its text says Carl Amari).
   - Our `volume` and `volume_order` fields follow a release numbering that no source read so far confirms.
+- **Round 2 findings (2026-11-23 and 24, notes in data/research/radio-2026-11-23/round2-notes.md):**
+  - Done: ten new records of Serling's radio years (WNYC 1946, where he acted; Antioch's WJEM; Party Line; Grand
+    Central Station; Dr. Christian; Leave It to Kathy; Our America and Builders of Destiny; The Keeper of the Chair;
+    The Jenkins Clan and It Happens to You; his unsold scripts), from Martin Grams Jr.'s "The Radio Career of Rod
+    Serling" and WNYC's archive. Four older records corrected and filled in. Lights Out and Suspense now state their
+    sourced tie (both rejected "The Keeper of the Chair"; Suspense's former director Elliott Lewis directed The Zero
+    Hour). Inner Sanctum still has no sourced tie: it moves to Legacy as context in the structure step (Q4).
+  - Shelf C: the WVXU and CCM radio play of "O'Toole from Moscow" (2020, narrated by Anne Serling). Night Gallery and
+    the revivals: nothing found on audio.
+  - Shelf E: Dylan Vance's fan audio drama of "Escape Clause" (2021). Moonlight Audio's "OTR Remake" page listed
+    nothing to check.
+  - Not applied yet: OTRR's log of 56 dated 2003-04 broadcasts with "special guest stars"
+    (otrr-episode-log.tsv); OverDrive's claim of an "XM Radio Nation Award"; the running time of the O'Toole play.
 - The Movies plan's round 3 (documentaries and media attachments) is still open and runs alongside this plan.
 - Audiobooks of Twilight Zone books (`works/*-audiobook`) belong with their books in Read, not in Radio. Check them
   when Read is worked.

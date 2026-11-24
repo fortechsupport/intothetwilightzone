@@ -41412,7 +41412,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -42132,7 +42132,7 @@
   "sort": "cesare danova"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -44856,7 +44856,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -45192,7 +45192,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -55236,7 +55236,7 @@
   "sort": "paul le mat"
  },
  "people/paul-lynch": {
-  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “Examination Day” and “A Message from Charity”).",
+  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “A Message from Charity” and “Examination Day”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -57924,7 +57924,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -60432,7 +60432,7 @@
   "sort": "werner klemperer"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -62340,7 +62340,7 @@
   "sort": "world of his own"
  },
  "radio/adventure-express": {
-  "connection": "Rod Serling's radio work: A WLW radio series in Cincinnati, October 1950 to February 1951, based on an idea by Serling during his time as a staff writer there.",
+  "connection": "Rod Serling's radio work: A weekly radio series of train-journey stories about Billy, Betty and their Uncle Jim, broadcast from 14 October 1950 to 17 February 1951 during Serling's time as a staff writer at WLW in Cincinnati.",
   "tier": "related",
   "tier_reason": "Serling's radio work outside the show.",
   "recommendation": "include",
@@ -62398,6 +62398,18 @@
   "title": "Another Place in Time",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "another place in time"
+ },
+ "radio/antioch-radio-workshop-wjem": {
+  "connection": "Rod Serling's radio work: In the 1948-49 school year Serling ran Antioch College's radio workshop, and wrote, directed and acted in weekly full-scale radio productions broadcast over WJEM in Springfield, Ohio, nearly all of them his own originals.",
+  "tier": "related",
+  "tier_reason": "Serling's radio work outside the show.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "The Radio Career of Rod Serling",
+  "source_url": "https://otrr.org/FILES/Articles/Martin_Grams_Jr_Articles/The_Radio_Career_Of_Rod_Serling.html",
+  "title": "Antioch Broadcasting System radio workshop (WJEM, 1948-49)",
+  "subcategory": "Rod Serling on radio",
+  "sort": "antioch broadcasting system radio workshop wjem 001948000049"
  },
  "radio/back-there": {
   "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling) adapting “Back There” (1959).",
@@ -62543,6 +62555,18 @@
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "escape clause"
  },
+ "radio/escape-clause-dylan-vance-fan-audio-drama": {
+  "connection": "Fan-made audio of “Escape Clause” (1959): A fan-made audio drama adaptation of Rod Serling's \"Escape Clause\" (1959) by listener Dylan Vance, presented as season 2, episode 16 of Between Light and Shadow, a nonprofit Twilight Zone podcast hosted by Craig.",
+  "tier": "related",
+  "tier_reason": "Unofficial fan work adapting the show.",
+  "recommendation": "include",
+  "reason": "Decision 0005: included with its source and credited to its maker; fans' votes flag it if doubtful.",
+  "source_title": "2x16: Dylan Vance Presents \"Escape Clause\": A Radio Drama",
+  "source_url": "https://chartable.com/podcasts/between-light-and-shadow-a-twilight-zone-podcast/episodes/6685737-2x16-dylan-vance-presents-escape-clause-a-radio-drama",
+  "title": "Escape Clause (Dylan Vance audio drama)",
+  "subcategory": "Rod Serling on radio",
+  "sort": "escape clause dylan vance audio drama"
+ },
  "radio/execution": {
   "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling) adapting “Execution” (1959).",
   "tier": "core",
@@ -62664,7 +62688,7 @@
   "sort": "hocuspocus and frisby"
  },
  "radio/hop-off-the-express-and-grab-a-local": {
-  "connection": "Rod Serling's radio work: Serling's first script heard on a national network, broadcast September 10, 1949, while he was still a student at Antioch.",
+  "connection": "Rod Serling's radio work: Serling's first script heard on a national network, broadcast on CBS's Grand Central Station on 10 September 1949, while he was still a student at Antioch.",
   "tier": "related",
   "tier_reason": "Serling's radio work outside the show.",
   "recommendation": "include",
@@ -62806,6 +62830,18 @@
   "title": "King Nine Will Not Return",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "king nine will not return"
+ },
+ "radio/leave-it-to-kathy-1951": {
+  "connection": "Rod Serling's radio work: A weekly radio program for which Serling wrote a number of scripts between 23 July and 23 August 1951, during his years as a staff writer in Cincinnati.",
+  "tier": "related",
+  "tier_reason": "Serling's radio work outside the show.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "The Radio Career of Rod Serling",
+  "source_url": "https://otrr.org/FILES/Articles/Martin_Grams_Jr_Articles/The_Radio_Career_Of_Rod_Serling.html",
+  "title": "Leave It to Kathy (1951)",
+  "subcategory": "Rod Serling on radio",
+  "sort": "leave it to kathy 001951"
  },
  "radio/little-girl-lost": {
   "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling) adapting “Little Girl Lost” (1959).",
@@ -63143,6 +63179,42 @@
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "one more pallbearer"
  },
+ "radio/otoole-from-moscow-wvxu-radio-2020": {
+  "connection": "A radio or audio adaptation of Rod Serling's work by others: A radio version of Rod Serling's 1955 NBC Matinee Theater play \"O'Toole from Moscow\", which was broadcast only once and is set around the Cincinnati Reds.",
+  "tier": "related",
+  "tier_reason": "Serling's writing, adapted for audio by another producer.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "WVXU Debuts Rod Serling's 'O'Toole From Moscow' Cincinnati Reds Show March 25",
+  "source_url": "https://www.wvxu.org/media/2020-02-19/wvxu-debuts-rod-serlings-otoole-from-moscow-cincinnati-reds-show-march-25",
+  "title": "O'Toole from Moscow (WVXU radio play, 2020)",
+  "subcategory": "Rod Serling on radio",
+  "sort": "otoole from moscow wvxu radio play 002020"
+ },
+ "radio/our-america-and-builders-of-destiny-1951": {
+  "connection": "Rod Serling's radio work: Two short runs of historical radio dramas from Serling's Cincinnati years.",
+  "tier": "related",
+  "tier_reason": "Serling's radio work outside the show.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "The Radio Career of Rod Serling",
+  "source_url": "https://otrr.org/FILES/Articles/Martin_Grams_Jr_Articles/The_Radio_Career_Of_Rod_Serling.html",
+  "title": "Our America and Builders of Destiny (1951)",
+  "subcategory": "Rod Serling on radio",
+  "sort": "our america and builders of destiny 001951"
+ },
+ "radio/party-line-1948": {
+  "connection": "Rod Serling's radio work: A short-run 1948 radio program sponsored by the Army Recruiting Headquarters, which Serling scripted and acted in, playing himself and the lead character, Cooper.",
+  "tier": "related",
+  "tier_reason": "Serling's radio work outside the show.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "The Radio Career of Rod Serling",
+  "source_url": "https://otrr.org/FILES/Articles/Martin_Grams_Jr_Articles/The_Radio_Career_Of_Rod_Serling.html",
+  "title": "Party Line (1948)",
+  "subcategory": "Rod Serling on radio",
+  "sort": "party line 001948"
+ },
  "radio/passage-on-the-lady-anne": {
   "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling) adapting “Passage on the Lady Anne” (1959).",
   "tier": "core",
@@ -63274,6 +63346,18 @@
   "title": "Ring-a-Ding Girl",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "ringading girl"
+ },
+ "radio/serling-unsold-radio-scripts-1947-1951": {
+  "connection": "Rod Serling's radio work: Scripts Serling sent to network radio that did not sell, as Martin Grams Jr. lists them: \"The Most Dangerous Game\" (an adaptation of Richard Connell, 22 June 1947) and \"Look to the Sky\" (13 July 1947); \"Winner Take Nothing\" (Grand Central Station, 10 August 1949); \"Potter's Paradise\" (The First…",
+  "tier": "related",
+  "tier_reason": "Serling's radio work outside the show.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "The Radio Career of Rod Serling",
+  "source_url": "https://otrr.org/FILES/Articles/Martin_Grams_Jr_Articles/The_Radio_Career_Of_Rod_Serling.html",
+  "title": "Rod Serling's unsold radio scripts (1947-1951)",
+  "subcategory": "Rod Serling on radio",
+  "sort": "rod serlings unsold radio scripts 001947001951"
  },
  "radio/shadow-play": {
   "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling) adapting “Shadow Play” (1959).",
@@ -63671,6 +63755,18 @@
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "invaders"
  },
+ "radio/the-jenkins-clan-and-it-happens-to-you": {
+  "connection": "Rod Serling's radio work: Two radio series Serling proposed in Cincinnati.",
+  "tier": "related",
+  "tier_reason": "Serling's radio work outside the show.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "The Radio Career of Rod Serling",
+  "source_url": "https://otrr.org/FILES/Articles/Martin_Grams_Jr_Articles/The_Radio_Career_Of_Rod_Serling.html",
+  "title": "The Jenkins Clan and It Happens to You (proposed radio series)",
+  "subcategory": "Rod Serling on radio",
+  "sort": "jenkins clan and it happens to you proposed radio series"
+ },
  "radio/the-jeopardy-room": {
   "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling) adapting “The Jeopardy Room” (1959).",
   "tier": "core",
@@ -63694,6 +63790,18 @@
   "title": "The Jungle",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "jungle"
+ },
+ "radio/the-keeper-of-the-chair-radio-play": {
+  "connection": "Rod Serling's radio work: A radio play Serling wrote around 1949 and submitted to Suspense, which turned it down on 1 December 1949, then to Escape, which turned it down on 27 April 1950.",
+  "tier": "related",
+  "tier_reason": "Serling's radio work outside the show.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "The Radio Career of Rod Serling",
+  "source_url": "https://otrr.org/FILES/Articles/Martin_Grams_Jr_Articles/The_Radio_Career_Of_Rod_Serling.html",
+  "title": "The Keeper of the Chair (radio play)",
+  "subcategory": "Rod Serling on radio",
+  "sort": "keeper of the chair radio play"
  },
  "radio/the-last-flight": {
   "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling) adapting “The Last Flight” (1959).",
@@ -63778,6 +63886,18 @@
   "title": "The Lonely",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "lonely"
+ },
+ "radio/the-long-black-night-dr-christian": {
+  "connection": "Rod Serling's radio work: A Dr. Christian broadcast of 2 January 1952 that Martin Grams Jr. describes as a major rewrite of Serling's prize-winning 1949 script \"To Live a Dream\".",
+  "tier": "related",
+  "tier_reason": "Serling's radio work outside the show.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "The Radio Career of Rod Serling",
+  "source_url": "https://otrr.org/FILES/Articles/Martin_Grams_Jr_Articles/The_Radio_Career_Of_Rod_Serling.html",
+  "title": "The Long Black Night",
+  "subcategory": "Rod Serling on radio",
+  "sort": "long black night"
  },
  "radio/the-long-morrow": {
   "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling) adapting “The Long Morrow” (1959).",
@@ -64115,6 +64235,18 @@
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "walkabouts"
  },
+ "radio/the-welcome-home-grand-central-station": {
+  "connection": "Rod Serling's radio work: Serling's second script sold to network radio, broadcast on CBS's Grand Central Station on 31 December 1949, about Bill Grant, a reporter for the fictional New York Globe.",
+  "tier": "related",
+  "tier_reason": "Serling's radio work outside the show.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "The Radio Career of Rod Serling",
+  "source_url": "https://otrr.org/FILES/Articles/Martin_Grams_Jr_Articles/The_Radio_Career_Of_Rod_Serling.html",
+  "title": "The Welcome Home",
+  "subcategory": "Rod Serling on radio",
+  "sort": "welcome home"
+ },
  "radio/the-whole-truth": {
   "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling) adapting “The Whole Truth” (1959).",
   "tier": "core",
@@ -64164,7 +64296,7 @@
   "sort": "time enough at last"
  },
  "radio/to-live-a-dream-dr-christian": {
-  "connection": "Rod Serling's radio work: Serling's prize-winning entry in the Dr. Christian program's script contest, broadcast November 30, 1949.",
+  "connection": "Rod Serling's radio work: Serling's prize-winning entry in the Dr. Christian program's eighth annual script contest.",
   "tier": "related",
   "tier_reason": "Serling's radio work outside the show.",
   "recommendation": "include",
@@ -64186,6 +64318,18 @@
   "title": "To Serve Man",
   "subcategory": "The Twilight Zone Radio Dramas",
   "sort": "to serve man"
+ },
+ "radio/toward-return-to-society-wnyc-1946": {
+  "connection": "Rod Serling's radio work: A WNYC public-service program made with the New York City Department of Correction, broadcast on 11 December 1946, in which the young Rod Serling acts the part of a boy who thinks stealing a radio is his ticket to the future.",
+  "tier": "related",
+  "tier_reason": "Serling's radio work outside the show.",
+  "recommendation": "include",
+  "reason": "You asked for all of Rod Serling's work to be documented.",
+  "source_title": "Radio from 'The Twilight Zone'",
+  "source_url": "https://www.wnyc.org/story/227277-radio-twilight-zone",
+  "title": "Toward Return to Society (WNYC, 1946)",
+  "subcategory": "Rod Serling on radio",
+  "sort": "toward return to society wnyc 001946"
  },
  "radio/twenty-two": {
   "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling) adapting “Twenty-Two” (1959).",
@@ -64404,13 +64548,13 @@
   "sort": "young mans fancy"
  },
  "radio/zero-hour-radio-rod-serling": {
-  "connection": "Rod Serling's radio work: A 1970s American radio suspense anthology on which Rod Serling served as host and narrator, his main post-Twilight Zone radio credit.",
+  "connection": "Rod Serling's radio work: A radio suspense anthology hosted by Rod Serling, who did not write its stories.",
   "tier": "related",
   "tier_reason": "Serling's radio work outside the show.",
   "recommendation": "include",
   "reason": "You asked for all of Rod Serling's work to be documented.",
-  "source_title": "wikipedia.com",
-  "source_url": "https://wikipedia.com/wiki/The_Zero_Hour_(U.S._radio_series)",
+  "source_title": "The Zero Hour (American radio series) (Wikipedia)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Zero_Hour_(American_radio_series)",
   "title": "The Zero Hour",
   "subcategory": "Rod Serling on radio",
   "sort": "zero hour"
