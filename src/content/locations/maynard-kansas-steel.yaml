@@ -1,0 +1,21 @@
+name: "Maynard, Kansas (Steel)"
+kind: in-story
+region: "Kansas"
+country: "United States"
+filmed:
+- ref: 1959/steel
+  note: "Where the bout is held."
+episodes:
+- 1959/steel
+notes: >-
+  The plot summary sets the story in Maynard, where a boxer "arrives in Maynard, Kansas, for a scheduled six-round
+  bout".
+sources:
+- title: "Wikipedia: Steel (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/Steel_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

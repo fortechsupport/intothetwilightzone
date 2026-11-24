@@ -36899,6 +36899,18 @@
   "subcategory": "In-story places",
   "sort": "homewood"
  },
+ "locations/howardsville-virginia-ring-a-ding-girl": {
+  "connection": "Howardsville, Virginia (Ring-a-Ding Girl) (Virginia) was used for “Ring-a-Ding Girl” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Ring-a-Ding Girl (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Ring-a-Ding_Girl_(The_Twilight_Zone)",
+  "title": "Howardsville, Virginia (Ring-a-Ding Girl)",
+  "subcategory": "Other places",
+  "sort": "howardsville virginia ringading girl"
+ },
  "locations/indian-dunes-twilight-zone-accident-site": {
   "connection": "Indian Dunes (site of the Twilight Zone accident) (Santa Clarita (Valencia), California) was used for Twilight Zone: The Movie.",
   "tier": "core",
@@ -37007,6 +37019,30 @@
   "subcategory": "Other places",
   "sort": "listers pool room chicago a game of pool"
  },
+ "locations/little-bighorn-the-7th-is-made-up-of-phantoms": {
+  "connection": "The Little Bighorn battlefield (The 7th Is Made Up of Phantoms) was used for “The 7th Is Made Up of Phantoms” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The 7th Is Made Up of Phantoms (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/The_7th_Is_Made_Up_of_Phantoms_(The_Twilight_Zone)",
+  "title": "The Little Bighorn battlefield (The 7th Is Made Up of Phantoms)",
+  "subcategory": "Other places",
+  "sort": "little bighorn battlefield the 000007th is made up of phantoms"
+ },
+ "locations/london-flats-maine-night-call": {
+  "connection": "London Flats, Maine (Night Call) (Maine) was used for “Night Call” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Night Call (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Night_Call_(The_Twilight_Zone)",
+  "title": "London Flats, Maine (Night Call)",
+  "subcategory": "Other places",
+  "sort": "london flats maine night call"
+ },
  "locations/madeiro-mexico-the-gift": {
   "connection": "Madeiro, Mexico (The Gift) was used for “The Gift” (1959).",
   "tier": "related",
@@ -37054,6 +37090,18 @@
   "title": "Mason's Pool Hall, Sandusky, Ohio (A Game of Pool)",
   "subcategory": "Other places",
   "sort": "masons pool hall sandusky ohio a game of pool"
+ },
+ "locations/maynard-kansas-steel": {
+  "connection": "Maynard, Kansas (Steel) (Kansas) was used for “Steel” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Steel (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/Steel_(The_Twilight_Zone)",
+  "title": "Maynard, Kansas (Steel)",
+  "subcategory": "Other places",
+  "sort": "maynard kansas steel"
  },
  "locations/mgm-lot-1-culver-city-stages": {
   "connection": "MGM Studios Lot 1 (now Sony Pictures Studios) (Culver City, California) was used for “The Lonely” (1959) and “Person or Persons Unknown” (1959).",
@@ -37162,6 +37210,18 @@
   "title": "The territory of New Mexico, 1847 and 1961 (A Hundred Yards Over the Rim)",
   "subcategory": "Other places",
   "sort": "territory of new mexico 001847 and 001961 a hundred yards over the rim"
+ },
+ "locations/new-york-apartment-whats-in-the-box": {
+  "connection": "The New York City apartment (What's in the Box) (New York City, New York) was used for “What's in the Box” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: What's in the Box (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/What's_in_the_Box_(The_Twilight_Zone)",
+  "title": "The New York City apartment (What's in the Box)",
+  "subcategory": "Other places",
+  "sort": "new york city apartment whats in the box"
  },
  "locations/new-york-city-a-passage-for-trumpet": {
   "connection": "Joey Crown's New York City (A Passage for Trumpet) (New York City, New York) was used for “A Passage for Trumpet” (1959).",
@@ -37978,6 +38038,18 @@
   "title": "Veterans Memorial Park, Culver City",
   "subcategory": "Filming locations",
   "sort": "veterans memorial park culver city"
+ },
+ "locations/vietnam-in-praise-of-pip": {
+  "connection": "Vietnam and home (In Praise of Pip) was used for “In Praise of Pip” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: In Praise of Pip (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/In_Praise_of_Pip_(The_Twilight_Zone)",
+  "title": "Vietnam and home (In Praise of Pip)",
+  "subcategory": "Other places",
+  "sort": "vietnam and home in praise of pip"
  },
  "locations/westport-library": {
   "connection": "Venue of the 2024 centennial symposium in Serling's former hometown.",
@@ -42648,7 +42720,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -46428,7 +46500,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -49728,7 +49800,7 @@
   "sort": "jean carson"
  },
  "people/jean-de-segonzac": {
-  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Night Route” and “Cradle of Darkness”).",
+  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Cradle of Darkness” and “Night Route”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -56460,7 +56532,7 @@
   "sort": "paul le mat"
  },
  "people/paul-lynch": {
-  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “A Message from Charity” and “Examination Day”).",
+  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “Examination Day” and “A Message from Charity”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -61656,7 +61728,7 @@
   "sort": "werner klemperer"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",

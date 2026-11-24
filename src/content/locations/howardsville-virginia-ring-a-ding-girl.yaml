@@ -1,0 +1,21 @@
+name: "Howardsville, Virginia (Ring-a-Ding Girl)"
+kind: in-story
+region: "Virginia"
+country: "United States"
+filmed:
+- ref: 1959/ring-a-ding-girl
+  note: "The star's hometown, where the story is set."
+episodes:
+- 1959/ring-a-ding-girl
+notes: >-
+  The film star's "hometown fan club in Howardsville, Virginia" is at the centre of the story; she is shown first
+  "in her house in Hollywood, California".
+sources:
+- title: "Wikipedia: Ring-a-Ding Girl (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/Ring-a-Ding_Girl_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

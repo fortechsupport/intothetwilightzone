@@ -3,6 +3,16 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Second pass, part 6: the last story settings of the 1959 series
+
+Visitors can now:
+- Visit six more places in the stories: London Flats, Maine; Howardsville, Virginia; Maynard, Kansas; the Little
+  Bighorn battlefield; Pip's Vietnam; and the New York apartment of What's in the Box. Every 1959 episode's Wikipedia
+  article has now been read for the places it names; Young Man's Fancy has no article to read.
+
+**Known not to work yet:**
+- The 1985, 2002 and 2019 series have not been read for their settings.
+
 ## 2026-11-24 — Second pass, part 5: twenty-six more story settings
 
 Visitors can now:
