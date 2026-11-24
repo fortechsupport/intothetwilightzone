@@ -1,0 +1,22 @@
+name: "Mason's Pool Hall, Sandusky, Ohio (A Game of Pool)"
+kind: in-story
+city: "Sandusky"
+region: "Ohio"
+country: "United States"
+filmed:
+- ref: 1959/a-game-of-pool
+  note: "Mentioned: where the new champion is summoned to play."
+episodes:
+- 1959/a-game-of-pool
+notes: >-
+  The pool hall Jesse, now champion in the afterlife, is summoned "to travel to Mason's Pool Hall in Sandusky,
+  Ohio" to face challengers. It is mentioned at the end rather than shown.
+sources:
+- title: "Wikipedia: A Game of Pool (The Twilight Zone, 1959)"
+  url: https://en.wikipedia.org/wiki/A_Game_of_Pool_(The_Twilight_Zone,_1959)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

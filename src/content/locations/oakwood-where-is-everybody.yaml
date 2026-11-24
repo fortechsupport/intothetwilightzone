@@ -1,0 +1,21 @@
+name: "Oakwood (Where Is Everybody?)"
+kind: in-story
+filmed:
+- ref: 1959/where-is-everybody
+  note: "The deserted town Mike Ferris wanders through."
+episodes:
+- 1959/where-is-everybody
+notes: >-
+  The empty town that Mike Ferris wanders through, finding a diner, a police station, a soda shop and a movie
+  theater but nobody in them, while in fact he is in an isolation booth, in a test for "a prolonged trip to the
+  Moon alone". The name Oakwood is from Wikipedia's production note, which says Universal's backlot "Courthouse
+  Square" was used "as the episode's Oakwood town"; Wikipedia's plot summary does not name it.
+sources:
+- title: "Wikipedia: Where Is Everybody?"
+  url: https://en.wikipedia.org/wiki/Where_Is_Everybody%3F
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: medium
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

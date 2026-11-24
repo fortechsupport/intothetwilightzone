@@ -1,0 +1,22 @@
+name: "Lister's Pool Room, Chicago (A Game of Pool)"
+kind: in-story
+city: "Chicago"
+region: "Illinois"
+country: "United States"
+filmed:
+- ref: 1959/a-game-of-pool
+  note: "Where Jesse practises after hours."
+episodes:
+- 1959/a-game-of-pool
+notes: >-
+  Jesse, "the best on Randolph Street", "stays after hours practicing at Lister's Pool Room in Chicago". Wikipedia
+  does not say in so many words that his game with Fats is played there.
+sources:
+- title: "Wikipedia: A Game of Pool (The Twilight Zone, 1959)"
+  url: https://en.wikipedia.org/wiki/A_Game_of_Pool_(The_Twilight_Zone,_1959)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

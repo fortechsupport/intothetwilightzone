@@ -18,7 +18,8 @@ sources, fills the gaps the plans admit where a source exists, and checks the pa
 ## 2. Steps
 1. Corrections, the "Where to watch now" decision, the gaps filled from sources, and the fixes from the page check
    (this pull request).
-2. Anything the page check of the merged build finds (a second pull request, if needed).
+2. Part 2: episode settings, the podcast and Foundation-media gaps, and two podcast descriptions (a second pull
+   request).
 
 ## 3. Acceptance checks
 - Every claim read in section 1 is supported by its source, or reworded, or removed.
@@ -82,6 +83,23 @@ Heritage lots; the Xscapes escape room.
   Middle of Beyond's nurse mug "an officially licensed depiction"; both now official (licensor not named). Phantom City
   Creative, Fright-Rags and The Strand's gift set state no licence; unchanged.
 
+## Gaps filled, part 2
+- **Episode settings:** 14 of the 1959 series' best-known episodes were read on Wikipedia for places they name. Nine
+  new settings: Oakwood (Where Is Everybody?; named only in the production note, which the record says), the King Nine
+  crash site, the Kanamit ship, Norma's apartment building in New York, Flight 107, the Hoboken Zephyrs' ballpark,
+  Lister's Pool Room (Chicago) and Mason's Pool Hall (Sandusky, mentioned, not shown), and the ruined public library
+  in Time Enough at Last. The Masks' Foster mansion and The After Hours' ninth floor already had records. Five
+  articles name no place (The Silence, The Trouble with Templeton, The Obsolete Man, Third from the Sun's home
+  planet, The After Hours' store).
+- **Audio dramas:** Earbud Theater and The Veil describe themselves as in the vein of The Twilight Zone; The Other
+  Stories' page quotes Lifewire comparing it. Tangential.
+- **Foundation media:** the Rod Serling Memorial Foundation's Media page links Jonathan Napolitano's film of the
+  Binghamton carousel, Paul Giammarco's Death Valley video essay and "Conversations with Rod Serling (Ithaca College,
+  1974)" (rights unknown, link only); all three attached to their place or record. Its 2025 legacy talk (Parisi,
+  Olshaker, Dawidziak) is a new interview on Serling's page.
+- **Podcast descriptions:** Fresh Air's Serling tribute is dated by its member-station posts (7 October 2025); Night
+  Zone's Twilight Zone comparison is in a truncated excerpt, which the description now says.
+
 ## Found in the page check, fixed
 - **Organization pages listed no records.** Most organizations added overnight showed only their description,
   because the records naming them used other spellings ("Sideshow Toy") or fields the site does not read for
@@ -104,3 +122,11 @@ Heritage lots; the Xscapes escape room.
 - **Awards filed as reviews:** the WGA and Emmy records above sit under Reviews > Awards and citations; the Read round
   should move honors to History, as the Media Library sweep did for two.
 - **Remarkable Ohio** was read only in part; the number of marker sides is not confirmed.
+- **Settings:** about 140 more 1959 episodes and the later series could be read the same way.
+- **Foundation media without records:** the Colbert tribute (vol. 2), Atomic Abe, Tone Travelers, The Hitchhiker
+  (2014), "Dr. Zaius Was Right", "You're in the Twilight Zone", a Serling sites tour, "Star Wars meets TZ" and Phil
+  deGruy's "Blues for Rod Serling". Each needs its own source read.
+- **Possible duplicate:** the essays record for KWBU's Fresh Air page may repeat the Fresh Air podcast record.
+- **Batch tags shown to visitors:** tags like "research-2026-11-21" (121 pages) and "second-pass-2026-11-24" show as
+  chips on record pages. Suggest hiding tags that end in a date.
+- Curious Matter's page does not mention The Twilight Zone, and the Murmurs review page could not be read; skipped.

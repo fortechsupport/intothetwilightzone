@@ -3,6 +3,24 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Second pass, part 2: settings, audio dramas and Foundation videos
+
+Visitors can now:
+- Visit nine more places in the stories, from the 1959 series' own Wikipedia articles: Oakwood, the King Nine's crash
+  site, the Kanamit ship, Norma's New York building, Flight 107, the Hoboken Zephyrs' ballpark, Lister's Pool Room,
+  Mason's Pool Hall and Henry Bemis's ruined library. Each is linked from its episode.
+- Find three audio dramas that compare themselves (or are compared) to the show: Earbud Theater, The Veil and The
+  Other Stories.
+- Watch three videos the Rod Serling Memorial Foundation links, on the places they are about (the Binghamton
+  carousel, Death Valley, Ithaca College), and its 2025 talk on Serling's legacy with Nick Parisi, Mark Olshaker and
+  Mark Dawidziak.
+- Read the Fresh Air tribute's date (member stations, 7 October 2025) and why Night Zone is listed.
+
+**Known not to work yet:**
+- Settings are added for 9 of 14 episodes checked; the other five name no place. Most of the 1959 series' episodes
+  are still to be checked.
+- Batch tags such as "research 2026 11 21" show as chips on record pages.
+
 ## 2026-11-24 — Second pass: overnight work checked against its sources
 
 Visitors can now:

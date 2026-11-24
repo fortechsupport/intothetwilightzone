@@ -1,0 +1,22 @@
+name: "Norma's apartment building, New York City (The Midnight Sun)"
+kind: in-story
+city: "New York City"
+region: "New York"
+country: "United States"
+filmed:
+- ref: 1959/the-midnight-sun
+  note: "The building Norma and Mrs. Bronson are the last to leave."
+episodes:
+- 1959/the-midnight-sun
+notes: >-
+  The New York City apartment building where Norma and Mrs. Bronson are the last residents as the Earth falls
+  toward the Sun. Opening narration: "The place is New York City."
+sources:
+- title: "Wikipedia: The Midnight Sun (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/The_Midnight_Sun_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

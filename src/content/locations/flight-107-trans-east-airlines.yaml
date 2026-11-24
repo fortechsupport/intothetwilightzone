@@ -1,0 +1,20 @@
+name: "Flight 107, Trans East Airlines (The Arrival)"
+kind: in-story
+filmed:
+- ref: 1959/the-arrival
+  note: "The airliner that lands with nobody aboard."
+episodes:
+- 1959/the-arrival
+notes: >-
+  "Flight 107, a propeller-driven Douglas DC-3 from Buffalo operated by Trans East Airlines", which lands with no
+  crew or passengers. Sheckly investigates it, and in the Operations room Bengston and Malloy have no memory of
+  the empty plane.
+sources:
+- title: "Wikipedia: The Arrival (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/The_Arrival_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'
