@@ -175,22 +175,30 @@ Theme-park shows stay in Visit > Places > Attractions; Stage links to them.
   radio-style, parody and tribute-show. Until then Stage keeps its two current shelves, with readings and radio-style
   shows on Live readings.
 
+- **Structure step (2026-11-24):** the five shelves are the-play, episode-stagings, serling-on-stage (new),
+  live-readings and parodies, placed by subtype; the old Theatre address redirects to Stagings of the episodes.
+  Shelf C groups by play; Live readings groups Readings and Radio-style shows; parodies also list in Legacy >
+  Parodies, tributes (Twilight Zone Unscripted, Red Barn) only in Stage. Shelves list A to Z like every other
+  shelf; on the landing they show in alphabetical order.
+- The play page keeps its address (/films/the-twilight-zone-stage-play/): its stories, its productions in date order
+  and links to production pages (the Citadel record).
+
 ## Waiting on Adam
 - ~~Approval of this plan, and Q1 to Q6.~~ Approved 2026-11-24 with every suggested answer.
 
 ## Found, for later
-- Each staged episode's Television page could show its stagings ("On stage"), as it shows its radio drama.
+- ~~Each staged episode's Television page could show its stagings ("On stage")~~ Done in step 2: an "On stage" line in the episode's Legacy section.
 - Step 1 research is in data/research/stage-2026-11-24/ (shelf-a-washburn.md, shelves-b-to-e.md,
   movies-leftovers.md). About 80 pages read.
 - The Citadel production has only the theatre's own page; no review found yet. Its credit line names "Keith Reddin and
   Anne Washburn", which no other source supports.
 - Washburn's play: no page read names who licenses it for performance. The 2023 Methuen Drama edition (ISBN
   9781350374300, from a search result) is not yet read.
-- The Stage landing text says companies "stage episodes from the published scripts"; no source supports "published".
-  Rewrite it in the structure step.
-- Film pages show a segment's episode as its address in lower case ("adapts and when the sky was opened") instead of
-  its title (src/components/FilmRecord.astro). Fix with the play page.
-- The play page's history heading reads "History and legal record"; a play needs "Productions".
+- ~~The Stage landing text says companies "stage episodes from the published scripts"~~ Rewritten in step 2 from the
+  sources read.
+- ~~Film pages show a segment's episode as its address in lower case~~ Fixed in step 2: segments link the episode by
+  its title (every film with segments).
+- ~~The play page's history heading reads "History and legal record"~~ A play's history is headed "Productions".
 - Night Gallery and the 1985, 2002 and 2019 series: nothing staged found. The Foundation says "Night of the Meek" has
   never been staged, to its knowledge.
 - A 2025 Rod Serling Evening at the Rosendale Theater (a talk with clips) and the CRAGG LIVE Twilight Zone Show (a 2024

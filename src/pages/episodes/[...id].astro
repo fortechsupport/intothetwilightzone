@@ -35,6 +35,10 @@ const drawsOn = await Promise.all(allConnections.filter((c) => c.data.from === e
 const legacy = await Promise.all(connections.map(async (c) => ({ c, work: await resolveRef(c.data.from) })));
 const legacyGroups = MEDIUM_ORDER.map((m) => [m, legacy.filter(({ work }) => mediumOf(work?.kind ?? '') === m).sort((a, b) => sortKey(a.work?.title ?? '').localeCompare(sortKey(b.work?.title ?? '')))] as const).filter(([, l]) => l.length > 0);
 const radio = (await getCollection('radio')).filter((r) => r.data.adapts_episode === e.id);
+// On stage (Stage plan, section 5): productions that perform this episode, and plays that adapt it.
+const stagePlays = (await getCollection('films')).filter((f) => !f.data.duplicate_of && f.data.kind === 'stage' && f.data.segments.some((sg) => sg.adapts_episode === e.id)).map((f) => ({ title: f.data.title, url: `/films/${f.id}/`, year: f.data.release_date?.slice(0, 4) }));
+const stageWorks = (await getCollection('works')).filter((w) => !w.data.duplicate_of && w.data.kind === 'stage' && w.data.content_of.includes(e.id)).map((w) => ({ title: w.data.title, url: `/works/${w.id}/`, year: w.data.year ? String(w.data.year) : undefined }));
+const onStage = [...stagePlays, ...stageWorks.sort((a, b) => (a.year ?? '9999').localeCompare(b.year ?? '9999') || sortKey(a.title).localeCompare(sortKey(b.title)))];
 const places = (await getCollection('locations')).filter((l) => l.data.filmed.some((f) => f.ref === e.id));
 const quotes = (await getCollection('quotes')).filter((q) => q.data.episodes.includes(e.id));
 const themes = themesOfTags(d.themes);
@@ -102,9 +106,9 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
     </section>
   )}
 
-  {(legacy.length > 0 || radio.length > 0) && (
+  {(legacy.length > 0 || radio.length > 0 || onStage.length > 0) && (
     <section id="legacy">
-      <h2>Legacy <span class="muted small">({legacy.length + radio.length})</span></h2>
+      <h2>Legacy <span class="muted small">({legacy.length + radio.length + onStage.length})</span></h2>
       <p class="small muted">Works that adapt, parody, honor or refer to this episode.</p>
       {legacy.length > 6 && (
         <form class="lib-filters" id="lg-tools" data-pagefind-ignore onsubmit="return false" aria-label="Filter the legacy list">
@@ -131,6 +135,9 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
       </div>
       {radio.length > 0 && (
         <p>Radio drama: {radio.map((r, i) => <>{i > 0 && ', '}<a href={`/radio/${r.id}/`}>{r.data.title}</a>{r.data.volume && ` (Volume ${r.data.volume})`}</>)}</p>
+      )}
+      {onStage.length > 0 && (
+        <p>On stage: {onStage.map((w, i) => <>{i > 0 && '; '}<a href={w.url}>{w.title}</a></>)}</p>
       )}
       <script is:inline>
         (() => {

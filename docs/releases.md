@@ -3,6 +3,20 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Stage: five shelves, a page for Washburn's play, and "On stage" on the episodes
+
+Stage now has the five shelves of its plan. **The Twilight Zone, the play** opens with Anne Washburn's play, whose page
+now lists the eight episodes it adapts (each linked by its title) and its productions in date order, then links the
+Citadel production's own page. **Stagings of the episodes** holds 13 productions, **Rod Serling's work on stage** (new)
+groups Requiem for a Heavyweight and Patterns, **Live readings and radio-style shows** separates readings from
+radio-style shows, and **Parodies and tributes on stage** gathers the comic and improvised shows (the parodies are also
+in Legacy). The Stage page now explains who holds the rights, from the Rod Serling Memorial Foundation's own answers.
+Every episode that has been staged now says so in its Legacy section, under "On stage". The old Theatre address leads
+to Stagings of the episodes.
+
+**Known not to work yet:** Five productions found only in listings still wait for a second source. The Citadel
+production has no cast or review yet.
+
 ## 2026-11-24 — Stage research: Washburn's play in full, Serling's plays, and who holds the rights
 
 Anne Washburn's The Twilight Zone now names the eight episodes it adapts, each linked, and lists its three productions

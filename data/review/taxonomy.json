@@ -35164,10 +35164,10 @@
  "films/the-twilight-zone-stage-play": [
   {
    "cat": "stage",
-   "sub": "theatre",
-   "group": null,
+   "sub": "the-play",
+   "group": "The play",
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "The Twilight Zone, the play",
    "isNew": true,
    "official": true
   }
@@ -72090,9 +72090,9 @@
   {
    "cat": "stage",
    "sub": "live-readings",
-   "group": null,
+   "group": "Readings",
    "catTitle": "Stage",
-   "subTitle": "Live readings",
+   "subTitle": "Live readings and radio-style shows",
    "isNew": true,
    "official": false
   }
@@ -72111,10 +72111,10 @@
  "works/binghamton-university-twilight-zone-stage-2014": [
   {
    "cat": "stage",
-   "sub": "theatre",
+   "sub": "episode-stagings",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Stagings of the episodes",
    "isNew": true,
    "official": false
   }
@@ -72122,10 +72122,10 @@
  "works/blue-room-chico-twilight-zone": [
   {
    "cat": "stage",
-   "sub": "theatre",
+   "sub": "episode-stagings",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Stagings of the episodes",
    "isNew": true,
    "official": false
   }
@@ -72185,9 +72185,9 @@
   {
    "cat": "stage",
    "sub": "live-readings",
-   "group": null,
+   "group": "Radio-style shows",
    "catTitle": "Stage",
-   "subTitle": "Live readings",
+   "subTitle": "Live readings and radio-style shows",
    "isNew": true,
    "official": false
   }
@@ -72577,11 +72577,20 @@
  "works/dark-room-twilight-zone-parody-series": [
   {
    "cat": "stage",
-   "sub": "theatre",
-   "group": null,
+   "sub": "parodies",
+   "group": "Parodies",
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Parodies and tributes on stage",
    "isNew": true,
+   "official": false
+  },
+  {
+   "cat": "homages",
+   "sub": "parodies",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "Parodies",
+   "isNew": false,
    "official": false
   }
  ],
@@ -73094,11 +73103,20 @@
  "works/flint-dark-room-productions-twilight-zone-parody": [
   {
    "cat": "stage",
-   "sub": "theatre",
-   "group": null,
+   "sub": "parodies",
+   "group": "Parodies",
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Parodies and tributes on stage",
    "isNew": true,
+   "official": false
+  },
+  {
+   "cat": "homages",
+   "sub": "parodies",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "Parodies",
+   "isNew": false,
    "official": false
   }
  ],
@@ -73282,10 +73300,10 @@
  "works/gold-dust-orphans-live-onstage-twilight-zone-2006": [
   {
    "cat": "stage",
-   "sub": "theatre",
+   "sub": "episode-stagings",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Stagings of the episodes",
    "isNew": true,
    "official": false
   }
@@ -73573,10 +73591,10 @@
  "works/hole-in-the-wall-of-shadows-and-substance-2008": [
   {
    "cat": "stage",
-   "sub": "theatre",
+   "sub": "episode-stagings",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Stagings of the episodes",
    "isNew": true,
    "official": false
   }
@@ -73606,10 +73624,10 @@
  "works/hopewell-theatre-twilight-zone": [
   {
    "cat": "stage",
-   "sub": "theatre",
+   "sub": "episode-stagings",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Stagings of the episodes",
    "isNew": true,
    "official": false
   }
@@ -73789,10 +73807,10 @@
  "works/indiana-university-twilight-zone-production-2017": [
   {
    "cat": "stage",
-   "sub": "theatre",
+   "sub": "episode-stagings",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Stagings of the episodes",
    "isNew": true,
    "official": false
   }
@@ -74056,11 +74074,20 @@
  "works/lafayette-return-to-the-twilight-zone": [
   {
    "cat": "stage",
-   "sub": "theatre",
-   "group": null,
+   "sub": "parodies",
+   "group": "Parodies",
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Parodies and tributes on stage",
    "isNew": true,
+   "official": false
+  },
+  {
+   "cat": "homages",
+   "sub": "parodies",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "Parodies",
+   "isNew": false,
    "official": false
   }
  ],
@@ -74867,9 +74894,9 @@
   {
    "cat": "stage",
    "sub": "live-readings",
-   "group": null,
+   "group": "Readings",
    "catTitle": "Stage",
-   "subTitle": "Live readings",
+   "subTitle": "Live readings and radio-style shows",
    "isNew": true,
    "official": false
   }
@@ -74919,10 +74946,10 @@
  "works/patterns-theatre-40-2015": [
   {
    "cat": "stage",
-   "sub": "theatre",
-   "group": null,
+   "sub": "serling-on-stage",
+   "group": "Patterns",
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Rod Serling's work on stage",
    "isNew": true,
    "official": true
   }
@@ -75336,10 +75363,10 @@
  "works/red-barn-short-attention-span-twilight-zone": [
   {
    "cat": "stage",
-   "sub": "theatre",
-   "group": null,
+   "sub": "parodies",
+   "group": "Tributes and themed shows",
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Parodies and tributes on stage",
    "isNew": true,
    "official": false
   }
@@ -75398,10 +75425,10 @@
  "works/requiem-for-a-heavyweight-broadway-1985": [
   {
    "cat": "stage",
-   "sub": "theatre",
-   "group": null,
+   "sub": "serling-on-stage",
+   "group": "Requiem for a Heavyweight",
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Rod Serling's work on stage",
    "isNew": true,
    "official": true
   }
@@ -75409,10 +75436,10 @@
  "works/requiem-for-a-heavyweight-crystal-theatre-2025": [
   {
    "cat": "stage",
-   "sub": "theatre",
-   "group": null,
+   "sub": "serling-on-stage",
+   "group": "Requiem for a Heavyweight",
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Rod Serling's work on stage",
    "isNew": true,
    "official": true
   }
@@ -75420,10 +75447,10 @@
  "works/requiem-for-a-heavyweight-shattered-globe-2008": [
   {
    "cat": "stage",
-   "sub": "theatre",
-   "group": null,
+   "sub": "serling-on-stage",
+   "group": "Requiem for a Heavyweight",
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Rod Serling's work on stage",
    "isNew": true,
    "official": true
   }
@@ -75853,10 +75880,10 @@
  "works/rod-serlings-stories-from-the-zone": [
   {
    "cat": "stage",
-   "sub": "theatre",
+   "sub": "episode-stagings",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Stagings of the episodes",
    "isNew": true,
    "official": false
   }
@@ -75907,9 +75934,9 @@
   {
    "cat": "stage",
    "sub": "live-readings",
-   "group": null,
+   "group": "Radio-style shows",
    "catTitle": "Stage",
-   "subTitle": "Live readings",
+   "subTitle": "Live readings and radio-style shows",
    "isNew": true,
    "official": true
   }
@@ -76762,9 +76789,9 @@
   {
    "cat": "stage",
    "sub": "live-readings",
-   "group": null,
+   "group": "Readings",
    "catTitle": "Stage",
-   "subTitle": "Live readings",
+   "subTitle": "Live readings and radio-style shows",
    "isNew": true,
    "official": true
   }
@@ -77200,10 +77227,10 @@
  "works/stages-theater-fullerton-twilight-zone": [
   {
    "cat": "stage",
-   "sub": "theatre",
+   "sub": "episode-stagings",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Stagings of the episodes",
    "isNew": true,
    "official": false
   }
@@ -77211,10 +77238,10 @@
  "works/stages-theatre-twilight-zone-2012": [
   {
    "cat": "stage",
-   "sub": "theatre",
+   "sub": "episode-stagings",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Stagings of the episodes",
    "isNew": true,
    "official": false
   }
@@ -77445,10 +77472,10 @@
  "works/th3rd-power-twilight-zone-carrboro-2014": [
   {
    "cat": "stage",
-   "sub": "theatre",
+   "sub": "episode-stagings",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Stagings of the episodes",
    "isNew": true,
    "official": false
   }
@@ -77558,11 +77585,20 @@
  "works/the-gaslight-zone-salt-lake-acting-company-2026": [
   {
    "cat": "stage",
-   "sub": "theatre",
-   "group": null,
+   "sub": "parodies",
+   "group": "Parodies",
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Parodies and tributes on stage",
    "isNew": true,
+   "official": false
+  },
+  {
+   "cat": "homages",
+   "sub": "parodies",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "Parodies",
+   "isNew": false,
    "official": false
   }
  ],
@@ -77570,9 +77606,9 @@
   {
    "cat": "stage",
    "sub": "live-readings",
-   "group": null,
+   "group": "Readings",
    "catTitle": "Stage",
-   "subTitle": "Live readings",
+   "subTitle": "Live readings and radio-style shows",
    "isNew": true,
    "official": true
   }
@@ -77779,10 +77815,10 @@
  "works/theater-schmeater-twilight-zone-live": [
   {
    "cat": "stage",
-   "sub": "theatre",
+   "sub": "episode-stagings",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Stagings of the episodes",
    "isNew": true,
    "official": false
   }
@@ -77790,10 +77826,10 @@
  "works/theatre-on-king-twilight-zone": [
   {
    "cat": "stage",
-   "sub": "theatre",
+   "sub": "episode-stagings",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Stagings of the episodes",
    "isNew": true,
    "official": false
   }
@@ -79040,10 +79076,10 @@
  "works/twilight-zone-unscripted": [
   {
    "cat": "stage",
-   "sub": "theatre",
-   "group": null,
+   "sub": "parodies",
+   "group": "Tributes and themed shows",
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Parodies and tributes on stage",
    "isNew": true,
    "official": false
   }
@@ -79137,11 +79173,20 @@
  "works/twylight-zone-6th-dimension": [
   {
    "cat": "stage",
-   "sub": "theatre",
-   "group": null,
+   "sub": "parodies",
+   "group": "Parodies",
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Parodies and tributes on stage",
    "isNew": true,
+   "official": false
+  },
+  {
+   "cat": "homages",
+   "sub": "parodies",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "Parodies",
+   "isNew": false,
    "official": false
   }
  ],
@@ -79430,10 +79475,10 @@
  "works/washburn-twilight-zone-citadel": [
   {
    "cat": "stage",
-   "sub": "theatre",
-   "group": null,
+   "sub": "the-play",
+   "group": "Productions",
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "The Twilight Zone, the play",
    "isNew": true,
    "official": true
   }
@@ -79704,10 +79749,10 @@
  "works/wskg-twilight-zone-live-2009": [
   {
    "cat": "stage",
-   "sub": "theatre",
+   "sub": "episode-stagings",
    "group": null,
    "catTitle": "Stage",
-   "subTitle": "Theatre",
+   "subTitle": "Stagings of the episodes",
    "isNew": true,
    "official": false
   }

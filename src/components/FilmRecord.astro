@@ -56,7 +56,11 @@ const SERLING_PART: Record<string, string> = {
   appeared: 'Rod Serling appears in it.',
 };
 const serlingRole = d.serling_role ? SERLING_PART[d.serling_role] : undefined;
-const firstLabel = d.kind === 'tv-series' ? 'First aired' : 'Released';
+const firstLabel = d.kind === 'tv-series' ? 'First aired' : d.kind === 'stage' ? 'First performed' : 'Released';
+// A segment's episode by its title, not its address.
+const segEps = await Promise.all(d.segments.map((sg) => (sg.adapts_episode ? resolveRef(sg.adapts_episode) : Promise.resolve(undefined))));
+// A play (kind stage): the production records that belong to it (Stage plan, shelf A).
+const productions = d.kind === 'stage' ? (await getCollection('works')).filter((w) => !w.data.duplicate_of && w.data.kind === 'stage' && w.data.content_of.includes(`films/${f.id}`)) : [];
 // Where to watch, for anything made for the screen that still exists (not radio, pilots never aired or unmade work).
 const WATCHABLE = new Set(['tv-series', 'film', 'documentary', 'tv-film', 'special', 'short']);
 const jw = d.links?.justwatch ? (d.links.justwatch.startsWith('http') ? d.links.justwatch : `https://www.justwatch.com/us/movie/${d.links.justwatch}`) : undefined;
@@ -91,12 +95,13 @@ const watch = WATCHABLE.has(d.kind) && !(d.tags ?? []).includes('radio-only') &&
   </dl>
   {d.segments.length > 0 && (
     <section>
-      <h2>Segments</h2>
+      <h2>{d.kind === 'stage' ? 'Stories it adapts' : 'Segments'}</h2>
       <ul class="plain">
         {d.segments.map((sg, si) => (
           <li>
-            <strong>{sg.title}</strong>
-            {sg.adapts_episode && <> · adapts <a href={`/episodes/${sg.adapts_episode}/`}>{sg.adapts_episode.split('/')[1].replace(/-/g, ' ')}</a></>}
+            {sg.adapts_episode && segEps[si] && segEps[si]!.title === sg.title
+              ? <strong><a href={segEps[si]!.url}>{sg.title}</a></strong>
+              : <><strong>{sg.title}</strong>{sg.adapts_episode && <> · adapts <a href={segEps[si]?.url ?? `/episodes/${sg.adapts_episode}/`}>{segEps[si]?.title ?? sg.adapts_episode.split('/')[1].replace(/-/g, ' ')}</a></>}</>}
             {sg.summary && <p class="small">{sg.summary}</p>}
             <ThemeList slugs={segThemes[si]} as="line" />
             {sg.source_title && <div class="small">Based on “{sg.source_title}”{sg.source_authors.length > 0 && <> by {sg.source_authors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</>}</div>}
@@ -137,7 +142,13 @@ const watch = WATCHABLE.has(d.kind) && !(d.tags ?? []).includes('radio-only') &&
     </section>
   )}
   <slot name="after" />
-  <HistoryAndIntl history={d.history} intl={d.international_titles} releases={d.releases} />
+  <HistoryAndIntl history={d.history} intl={d.international_titles} releases={d.releases} historyTitle={d.kind === 'stage' ? 'Productions' : undefined} />
+  {productions.length > 0 && (
+    <section>
+      <h2>Production pages</h2>
+      <ul class="plain">{productions.map((w) => <li><a href={`/works/${w.id}/`}>{w.data.title}</a>{w.data.description && <span class="small"> {w.data.description.split(/(?<=\.)\s/)[0]}</span>}</li>)}</ul>
+    </section>
+  )}
   {(d.ids?.imdb || d.links?.wikipedia || d.links?.trailer_youtube || d.links?.justwatch) && <section>
     <h2>Links</h2>
     <ul>
