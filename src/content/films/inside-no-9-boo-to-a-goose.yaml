@@ -8,3 +8,12 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: Inside No. 9
+releases:
+- date: '2024-06-24'
+  format: DVD
+  title: 'Inside No. 9: Series 1-9 box set'
+  note: Wikipedia says "a collection of all nine series of the show was released on 24 June 2024 as a DVD boxset";
+    this episode opened Series 9 on 8 May 2024. Wikipedia names no label or region.
+  sources:
+  - title: 'Wikipedia: Inside No. 9'
+    url: https://en.wikipedia.org/wiki/Inside_No._9

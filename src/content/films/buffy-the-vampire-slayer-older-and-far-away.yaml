@@ -8,3 +8,12 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: Buffy the Vampire Slayer, season 6
+releases:
+- format: DVD
+  title: 'Buffy the Vampire Slayer: Season 6 box set'
+  region: Regions 1, 2 and 4
+  note: This episode aired on 12 February 2002 as season 6, episode 14, and Wikipedia says all seven seasons are
+    on individual DVD box sets. It gives no release date or label.
+  sources:
+  - title: 'Wikipedia: List of Buffy the Vampire Slayer episodes'
+    url: https://en.wikipedia.org/wiki/List_of_Buffy_the_Vampire_Slayer_episodes

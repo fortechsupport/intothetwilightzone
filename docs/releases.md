@@ -3,6 +3,20 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Every show's discs beside Where to watch
+
+Visitors can now:
+- See, beside "Where to watch" on 149 of the 155 show pages, which DVD, Blu-ray, VHS or LaserDisc sets hold the show,
+  with the label, region and date, or a plain line saying Wikipedia lists none, or that the episodes were lost or
+  wiped. Each line links to the Wikipedia article it came from and says when it was read.
+- Find, on 28 episode pages, the set that holds that very episode (for example Star Trek's "The Man Trap" on the
+  remastered Season 1 set, or Northern Exposure's episode on The Complete First Season).
+
+**Known not to work yet:**
+- The Simpsons, Futurama, WandaVision, The Catholic Hour and Tales of the Unusual have no disc line yet, and Lights
+  Out's page is the radio series, which has no Where to watch box.
+- Where an episode's air year spans two seasons, its page has no release row; the show's line gives the complete set.
+
 ## 2026-11-24 — Night Gallery's characters and Serling's films on disc
 
 Visitors can now:

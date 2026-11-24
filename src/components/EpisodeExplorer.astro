@@ -86,6 +86,7 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
                 ))}
               </ul>
             )}
+            {e.releases.map((r) => <p class="small"><strong>Home video:</strong> {r.title} <span class="muted">({[r.format, r.region, r.publisher, formatDate(r.date)].filter(Boolean).join(', ')})</span>{r.note && <> {r.note}</>} <span class="muted">({r.sources.map((x, i) => <>{i > 0 && ', '}{x.url ? <a href={x.url} rel="noopener">{x.title}</a> : x.title}</>)})</span></p>)}
             {e.media.length > 0 && <p class="small">Media: {e.media.map((m, i) => <>{i > 0 && ' · '}<a href={m.url} rel="noopener">{m.title}</a>{m.creator && <span class="muted"> ({m.creator})</span>}</>)}</p>}
             {e.sources.length > 0 && <details class="small ex-sources" data-pagefind-ignore><summary>Sources{e.verified && <span class="muted"> · last verified {e.verified}</span>}</summary><ul>{e.sources.map((s) => <li>{s.author && <>{s.author}, </>}{s.url ? <a href={s.url} rel="noopener">{s.title}</a> : s.title}{s.publisher && !s.title.includes(s.publisher) && <span class="muted"> ({s.publisher})</span>}{s.note && <span class="muted"> · {s.note}</span>}</li>)}</ul></details>}
           </li>
