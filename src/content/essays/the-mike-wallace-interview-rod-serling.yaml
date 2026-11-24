@@ -11,6 +11,9 @@ description: A televised interview ten days before the series premiered, in whic
 links:
   online: https://en.wikipedia.org/wiki/The_Mike_Wallace_Interview
 research_confidence: medium
+content_of:
+- people/rod-serling
+- series/1959
 sources:
 - title: 'Wikipedia: The Mike Wallace Interview'
   url: https://en.wikipedia.org/wiki/The_Mike_Wallace_Interview

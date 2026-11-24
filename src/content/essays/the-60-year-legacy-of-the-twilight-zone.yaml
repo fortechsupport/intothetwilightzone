@@ -7,6 +7,8 @@ description: Public-radio segment marking the 60th anniversary with guests discu
 links:
   online: https://www.kcrw.com/shows/greater-la/stories/the-60-year-legacy-of-the-twilight-zone
 research_confidence: medium
+content_of:
+- series/1959
 sources:
 - title: KCRW (Greater LA)
   url: https://www.kcrw.com/shows/greater-la/stories/the-60-year-legacy-of-the-twilight-zone

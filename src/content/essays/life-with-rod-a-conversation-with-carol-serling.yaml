@@ -9,6 +9,9 @@ description: Twilight Zone Magazine interview with Carol Serling about home life
 links:
   online: https://www.bobrosenbaum.com/transcripts/LifeWithRod_TZMagazine_Apr-87_lite.pdf
 research_confidence: high
+content_of:
+- people/carol-serling
+- people/rod-serling
 sources:
 - title: Articles - Rod Serling Memorial Foundation
   url: https://rodserling.com/articles-2
