@@ -36,6 +36,8 @@ the visitor's place here.
 ## Decided here (Adam reviews later)
 
 - US first: other countries are one click away on JustWatch. Disc-only sellers are left out (Home video covers them).
-- Where-to-watch facts live in a data file, not as review records, because they change month to month; the two older
-  where-to-watch records stay on their shelf.
+- Where-to-watch facts live in a data file, not as review records, because they change month to month. The two older
+  where-to-watch records (1959 and 2019 series) were excluded on 24 November 2026, on Adam's behalf during his overnight
+  autonomy window, and their *Where to watch* shelf removed: the panels show the same services, and the records quoted
+  prices that go stale. The records are kept; Adam can include them again.
 - Radio series, unaired pilots and unmade projects get no where-to-watch row.

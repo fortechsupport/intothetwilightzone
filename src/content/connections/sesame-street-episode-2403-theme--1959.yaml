@@ -1,0 +1,10 @@
+from: films/sesame-street-episode-2403-theme
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: >-
+  Big Bird hums The Twilight Zone theme while pretending to be on the planet Zingo with Snuffy.
+sources:
+- title: Muppet Wiki – The Twilight Zone
+  url: https://muppet.fandom.com/wiki/The_Twilight_Zone
+last_verified: '2026-11-24'

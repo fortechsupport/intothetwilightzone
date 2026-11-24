@@ -6,8 +6,9 @@ description: >-
   A ceramic tiki-style mug shaped like the pig-faced nurse, produced by Middle of Beyond in at least three glaze
   variants: Bandage, Beholder and Twilight.
 details:
-  licence_note: No source read states a licence.
-official: false
+  licensed: true
+  licence_note: 'The Search for Tiki: "an officially licensed depiction of the nurse" from "Eye of the Beholder"; licensor not named (read 2026-11-24).'
+official: true
 subtype: tiki-mug
 relevance: core
 research_confidence: medium

@@ -9,8 +9,12 @@ details:
   date: '1959-09-22'
   interview: essays/the-mike-wallace-interview-rod-serling
 sources:
+- title: 'Rod Serling Memorial Foundation: Roasting Rod Serling (Stephen Schlich, 28 June 2019)'
+  url: https://rodserling.com/roasting-rod-serling/
+  note: 'Gives the date: "conducted on September 22, 1959". Interview text credited to The Fifth Dimension.'
 - title: 'Wikipedia: The Mike Wallace Interview'
   url: https://en.wikipedia.org/wiki/The_Mike_Wallace_Interview
+  note: Lists Serling as a guest; gives no date for his episode.
 - title: 'Rod Serling Memorial Foundation: Meet Rod Serling'
   url: https://rodserling.com/meet-rod-serling/
 categories:

@@ -1,0 +1,20 @@
+name: Profiles in History
+kind: auction-house
+description: >-
+  Hollywood memorabilia auction house. Its Hollywood Auction 89 sold Richard Matheson's annotated "Once Upon a
+  Time" script archive on 26 June 2017, and its Icons & Legends of Hollywood auction sold Martin Landau's scripts,
+  among them "The Beacon" from the 1985 revival, on 25 September 2019. Both catalogues are hosted on Heritage
+  Auctions' site.
+official: false
+relevance: related
+sources:
+- title: "Lot 1990: Richard Matheson's The Twilight Zone hand-annotated script archive for Once Upon a Time"
+  url: https://entertainment.ha.com/itm/movie-tv-memorabilia/richard-matheson-s-the-twilight-zone-original-hand-annotated-typed-script-and-materials-archive-for-once-upon-a-time/a/997042-1990.s
+  note: "Breadcrumb: \"Profiles in History: Hollywood Auction 89 Auction #997042\"; sold 26 June 2017."
+- title: "Lot 1183: Martin Landau (7) personal shooting scripts"
+  url: https://entertainment.ha.com/itm/movie-tv-memorabilia/martin-landau-7-personal-shooting-scripts-for-tv-series-and-tv-films-including-the-twilight-zone-and-alfred-hitchcock-presen/a/997059-1183.s
+  note: "Breadcrumb: \"Profiles in History: Icons & Legends of Hollywood Auction #997059\"; sold 25 September 2019."
+research_confidence: high
+last_verified: '2026-11-24'
+tags:
+- second-pass-2026-11-24

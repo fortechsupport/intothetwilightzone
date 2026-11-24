@@ -1,7 +1,8 @@
 name: Heritage Auctions
 kind: auction-house
-description: Dallas auction house that has sold Twilight Zone scripts, among them Richard Matheson's annotated "Once Upon
-  a Time" archive and Martin Landau's shooting scripts.
+description: >-
+  Dallas auction house. Its site lists Twilight Zone comics, trading cards and prints sold at auction, and it also
+  hosts the catalogues of Profiles in History, whose sales of Twilight Zone scripts appear there.
 official: false
 relevance: related
 sources:

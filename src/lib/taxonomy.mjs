@@ -202,7 +202,6 @@ export const TAXONOMY = [
       { slug: 'anthologies', title: 'Fellow anthologies', blurb: 'Anthology series in the same tradition, each tagged with how it connects.', side: 'unofficial' },
       { slug: 'homages', title: 'Homages in other shows', blurb: 'Episodes and sketches of other shows that parody, honor or reference it, by show.', side: 'unofficial' },
       { slug: 'pilots-unmade', title: 'Pilots and unmade projects', isNew: true, blurb: 'Pilots, unaired material and announced projects tied to the series and their episodes.' },
-      { slug: 'where-to-watch', title: 'Where to watch', isNew: true, blurb: 'Where each series can be watched now, with the date it was checked.' },
       { slug: 'international', title: 'Around the world', blurb: 'The titles and dubs the series went by abroad.', isNew: true, intro: 'The show was dubbed and retitled in many countries: La Dimensión Desconocida, La Quatrième Dimension, Ai confini della realtà, Unglaubliche Geschichten. Each title is sourced.' },
     ],
   },

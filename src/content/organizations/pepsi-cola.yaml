@@ -1,0 +1,15 @@
+name: Pepsi-Cola
+kind: sponsor
+description: >-
+  Among the sponsors of the original series' third season (1961-62), with Chesterfield (Liggett & Myers) and
+  Bufferin (Bristol-Myers).
+official: true
+relevance: core
+sources:
+- title: "Wikipedia: The Twilight Zone (1959 TV series)"
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
+  note: "\"Sponsors for this season included Chesterfield, Bufferin tablets, and Pepsi-Cola.\" (read 2026-11-24)"
+research_confidence: high
+last_verified: '2026-11-24'
+tags:
+- second-pass-2026-11-24

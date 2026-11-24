@@ -2,20 +2,23 @@ title: >-
   Richard Matheson's hand-annotated "Once Upon a Time" script and materials archive (Heritage lot 1990)
 kind: other
 creator: Richard Matheson
-publisher: Heritage Auctions
+publisher: Profiles in History
 description: >-
-  Heritage Auctions offered Richard Matheson's own typed script for the Twilight Zone episode "Once Upon a Time",
-  with his handwritten notes and related materials, as lot 1990 of sale 997042. A companion lot, 1989, offered his
-  hand-annotated first-draft teleplay and shooting script for another of his episodes. Fine Books Magazine reported
-  in June 2017 that Matheson's annotated Twilight Zone short-story and script collection was coming to auction.
+  Profiles in History sold Richard Matheson's own typed script for the Twilight Zone episode "Once Upon a Time",
+  with his handwritten notes, 14 revision carbon pages and a 23-page shooting script dated 4 August 1961, as lot
+  1990 of its Hollywood Auction 89 (sale 997042) on 26 June 2017; the catalogue is hosted on Heritage Auctions'
+  site. The lot came from the Matheson estate and was sold without copyright. A companion lot, 1989, offered his
+  hand-annotated first-draft teleplay and shooting script for another of his episodes. Fine Books Magazine
+  reported in June 2017 that Matheson's annotated Twilight Zone short-story and script collection was coming to
+  auction.
 subtype: auction
 details:
-  sale: Heritage 997042
+  sale: 'Profiles in History: Hollywood Auction 89 (#997042), 26 June 2017'
   lots:
   - 1989
   - 1990
   note: >-
-    Lot 1989's episode title is cut off in the URL; confirm it before publishing. The 2017 sale house was not confirmed.
+    Lot 1989's episode title is cut off in the URL; confirm it before publishing. The sale house is Profiles in History (lot page breadcrumb, read 2026-11-24).
   people:
   - Richard Matheson
 relevance: core
@@ -51,3 +54,5 @@ media:
   rights: link-only
   subtype: listing
 last_verified: '2026-11-20'
+organizations:
+- Profiles in History

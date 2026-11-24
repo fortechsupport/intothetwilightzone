@@ -3,17 +3,21 @@ kind: event
 subtype: honor
 year: 1988
 creator: Hollywood Chamber of Commerce
-description: Serling's television star on the Walk of Fame, celebrated at the time in Rod Serling's The Twilight
-  Zone Magazine.
+description: Serling's star on the Hollywood Walk of Fame, in the Television category, dedicated in October 1988 and
+  celebrated at the time in Rod Serling's The Twilight Zone Magazine.
 details:
   location: 6840 Hollywood Boulevard, Los Angeles
-  dates: 1988
+  category: Television
+  date: '1988-10-07'
+  date_note: The 1988 magazine article reprinted by the Rod Serling Memorial Foundation gives the afternoon of 7 October 1988; the Walk of Fame's own page gives the ceremony date as 10/06/1988.
 links:
   official: https://walkoffame.com/rod-serling/
 sources:
-- title: walkoffame.com
+- title: 'Hollywood Walk of Fame: Rod Serling'
   url: https://walkoffame.com/rod-serling/
-- title: rodserling.com
+  note: 'Star Facts: Category Television; Address 6840 Hollywood Blvd.; Ceremony date 10/06/1988 (read 2026-11-24).'
+- title: "Rod Serling Memorial Foundation: Celebrating Rod Serling's Star in the Hollywood Walk of Fame (Stephen Schlich)"
   url: https://rodserling.com/celebrating-rod-serlings-star-in-the-hollywood-walk-of-fame/
+  note: 'Reprints a 1988 article from Rod Serling''s The Twilight Zone Magazine: "IN THE AFTERNOON OF October 7, 1988, a new star will join the firmament".'
 research_confidence: high
-last_verified: '2026-11-19'
+last_verified: '2026-11-24'

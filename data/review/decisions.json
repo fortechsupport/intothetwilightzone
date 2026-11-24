@@ -7075,14 +7075,14 @@
   "date": "2026-11-23"
  },
  "connections/martin-landau-shooting-scripts-heritage-lot--mr-denton-on-doomsday": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded 2026-11-24 (second pass): the lot page lists one Twilight Zone script, \"The Beacon\" (1985 revival), not this episode. Replaced by the connection to 1985/the-beacon.",
+  "date": "2026-11-24"
  },
  "connections/martin-landau-shooting-scripts-heritage-lot--the-jeopardy-room": {
-  "status": "include",
-  "notes": "Approved by Adam 2026-11-20 (whole sheet)",
-  "date": "2026-11-20"
+  "status": "exclude",
+  "notes": "Excluded 2026-11-24 (second pass): the lot page lists one Twilight Zone script, \"The Beacon\" (1985 revival), not this episode. Replaced by the connection to 1985/the-beacon.",
+  "date": "2026-11-24"
  },
  "connections/marvel-2099-marvel-comics-ghost-rider-2099-one-shot--1959": {
   "status": "include",
@@ -31326,6 +31326,146 @@
  "essays/rod-serling-on-the-dick-cavett-show-1972": {
   "status": "include",
   "notes": "Media Library overnight pass: interview with Serling, sourced, link-only; included under Adam's rule of 2026-11-23.",
+  "date": "2026-11-24"
+ },
+ "works/where-to-watch-twilight-zone-1959-us": {
+  "status": "exclude",
+  "notes": "Excluded 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): repeats the Where to watch panel on the series page (data/fan/watch.yaml, decision 0003) and quotes purchase prices that go stale. Kept as a record; Adam can include it again.",
+  "date": "2026-11-24"
+ },
+ "works/where-to-watch-twilight-zone-2019-us": {
+  "status": "exclude",
+  "notes": "Excluded 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): repeats the Where to watch panel on the series page (data/fan/watch.yaml, decision 0003) and quotes purchase prices that go stale. Kept as a record; Adam can include it again.",
+  "date": "2026-11-24"
+ },
+ "organizations/pepsi-cola": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): named by the cited source.",
+  "date": "2026-11-24"
+ },
+ "organizations/spirit-dance-entertainment": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): named by the cited source.",
+  "date": "2026-11-24"
+ },
+ "organizations/joshmax-productions-services": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): named by the cited source.",
+  "date": "2026-11-24"
+ },
+ "organizations/new-line-television": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): named by the cited source.",
+  "date": "2026-11-24"
+ },
+ "organizations/profiles-in-history": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): named by the cited source.",
+  "date": "2026-11-24"
+ },
+ "connections/martin-landau-shooting-scripts-heritage-lot--the-beacon": {
+  "status": "include",
+  "notes": "Included 2026-11-24 (second pass): the lot page names this script.",
+  "date": "2026-11-24"
+ },
+ "films/sesame-street-episode-1800-theme": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): a fan-wiki-noted reference, labelled as such.",
+  "date": "2026-11-24"
+ },
+ "connections/sesame-street-episode-1800-theme--1959": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): a fan-wiki-noted reference, labelled as such.",
+  "date": "2026-11-24"
+ },
+ "films/sesame-street-episode-2403-theme": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): a fan-wiki-noted reference, labelled as such.",
+  "date": "2026-11-24"
+ },
+ "connections/sesame-street-episode-2403-theme--1959": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): a fan-wiki-noted reference, labelled as such.",
+  "date": "2026-11-24"
+ },
+ "films/sesame-street-episode-2441-theme": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): a fan-wiki-noted reference, labelled as such.",
+  "date": "2026-11-24"
+ },
+ "connections/sesame-street-episode-2441-theme--1959": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): a fan-wiki-noted reference, labelled as such.",
+  "date": "2026-11-24"
+ },
+ "films/sesame-street-episode-3055-theme": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): a fan-wiki-noted reference, labelled as such.",
+  "date": "2026-11-24"
+ },
+ "connections/sesame-street-episode-3055-theme--1959": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): a fan-wiki-noted reference, labelled as such.",
+  "date": "2026-11-24"
+ },
+ "films/abbys-amazing-adventures-5017-theme": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): a fan-wiki-noted reference, labelled as such.",
+  "date": "2026-11-24"
+ },
+ "connections/abbys-amazing-adventures-5017-theme--1959": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): a fan-wiki-noted reference, labelled as such.",
+  "date": "2026-11-24"
+ },
+ "films/muppet-babies-elm-street-babies": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): a fan-wiki-noted reference, labelled as such.",
+  "date": "2026-11-24"
+ },
+ "connections/muppet-babies-elm-street-babies--1959": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): a fan-wiki-noted reference, labelled as such.",
+  "date": "2026-11-24"
+ },
+ "films/muppet-babies-back-to-the-nursery": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): a fan-wiki-noted reference, labelled as such.",
+  "date": "2026-11-24"
+ },
+ "connections/muppet-babies-back-to-the-nursery--1959": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): a fan-wiki-noted reference, labelled as such.",
+  "date": "2026-11-24"
+ },
+ "works/twilight-zone-pop-up-the-grove-2019": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): a promotional event for the 2019 series, sourced to CBS Los Angeles.",
+  "date": "2026-11-24"
+ },
+ "essays/anne-serling-wuwf-2026": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): an interview with Anne Serling, link-only.",
+  "date": "2026-11-24"
+ },
+ "essays/anne-serling-wyso-book-nook-2024": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): an interview with Anne Serling, link-only.",
+  "date": "2026-11-24"
+ },
+ "essays/anne-serling-wvxu-otoole-from-moscow-2020": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): an interview with Anne Serling, link-only.",
+  "date": "2026-11-24"
+ },
+ "essays/anne-serling-huffpost-interview-dan-lybarger": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): an interview with Anne Serling, link-only.",
+  "date": "2026-11-24"
+ },
+ "essays/anne-serling-mark-dawidziak-wbur-here-and-now-2024": {
+  "status": "include",
+  "notes": "Included 2026-11-24 in the overnight second pass, on Adam's behalf (autonomy window): an interview with Anne Serling, link-only.",
   "date": "2026-11-24"
  }
 }

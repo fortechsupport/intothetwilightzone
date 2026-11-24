@@ -39,8 +39,10 @@ One pull request: attach the unattached, move the two awards to History, add the
 - **Two awards are History, not reviews:** the 1961 Unity Award and the 2006 Gold Marcum Award now sit under
   History > Honors > Other awards and honors. The Unity Award's source now points to Wikipedia itself (it had been
   read through an offline mirror, which the note says).
-- **Two interviews added:** Serling on The Dick Cavett Show (1972, with Arthur C. Clarke; Boing Boing) and James
-  Gunn's unfinished 1970 filmed interview for his Centron series (Dangerous Minds, quoting the uploader).
+- **One interview added, one enriched:** Serling on The Dick Cavett Show (1972, with Arthur C. Clarke; Boing Boing);
+  James Gunn's unfinished 1970 filmed interview for his Centron series gained the Dangerous Minds account. (The
+  second pass found this record had been rewritten as new, dropping its audio; restored, see
+  docs/plans/second-pass-2026-11-24.md.)
 
 ## Waiting on Adam
 - **The two "Where to watch now" records** (1959 and 2019 series, US) repeat what the Where to watch panels show
@@ -52,5 +54,5 @@ One pull request: attach the unattached, move the two awards to History, add the
 - *Book Review: Twilight Zone* (Critical Studies in Television, 2021) does not name the book it reviews in our
   record; attach it in the Read round.
 - Other reviews filed under *Awards and citations* may also be honors; check in the Read round.
-- Anne Serling's WUWF interview (18 February 2026), found during Attend, has no record yet.
+- ~~Anne Serling's WUWF interview (18 February 2026)~~ added in the second pass, with four more of her interviews.
 - Quotes (34) and archival holdings (10) are still thin.

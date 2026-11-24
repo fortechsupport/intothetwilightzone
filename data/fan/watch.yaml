@@ -719,6 +719,8 @@ tiny-toon-adventures:
   stream: []
   free: []
   buy: ['Apple TV', 'Amazon']
+# twilight-zone-1959: Cancelled Sci Fi (29 December 2025) reported the series was leaving Pluto TV; JustWatch still
+# listed it there on 17 November 2026. Re-check Pluto TV first.
 twilight-zone-1959:
   justwatch: https://www.justwatch.com/us/tv-show/the-twilight-zone-1959
   checked: '2026-11-17'
