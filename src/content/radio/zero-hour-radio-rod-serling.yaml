@@ -2,16 +2,31 @@ title: The Zero Hour
 series_title: The Zero Hour (Hollywood Radio Theater)
 voiced_by:
 - Rod Serling
-description: A 1970s American radio suspense anthology on which Rod Serling served as host and narrator, his main
-  post-Twilight Zone radio credit. Episodes circulate widely among old-time-radio collectors and in rebroadcast
-  podcast feeds, some of which are labelled with the Twilight Zone name.
+description: A radio suspense anthology hosted by Rod Serling, who did not write its stories. It began in
+  syndication on 3 September 1973, was picked up by the Mutual Broadcasting System that December, and ended on 26
+  July 1974. The first season told one story in five parts each week, Monday to Friday; in 1974 each half-hour told a
+  whole story, with stars including Mel Torme, Jackie Cooper, Dick Sargent and William Shatner. Elliott Lewis, the
+  former Suspense director, directed, and J. M. Kholos produced; counting each part, there were 130 episodes.
+  Highbridge Audio later released six of the five-part stories on cassette. Episodes also circulate in rebroadcast
+  podcast feeds, some of them labelled with the Twilight Zone name.
 subtype: radio-broadcast
 sources:
-- title: wikipedia.com
-  url: https://wikipedia.com/wiki/The_Zero_Hour_(U.S._radio_series)
+- title: The Zero Hour (American radio series) (Wikipedia)
+  url: https://en.wikipedia.org/wiki/The_Zero_Hour_(American_radio_series)
+  publisher: Wikipedia
+- title: 'Back to His Radio Roots: Rod Serling & "The Zero Hour"'
+  url: https://www.flapperpress.com/amp/back-to-his-radio-roots-rod-serling-the-zero-hour
+  author: John C. Alsedek
+  publisher: Flapper Press
+  note: 17 June 2019.
+- title: Keith Roysdon on the Genius of Rod Serling's Forgotten Suspense Radio Show
+  url: https://crimereads.com/keith-roysdon-on-the-genius-of-rod-serlings-forgotten-suspense-radio-show/
+  author: Keith Roysdon
+  publisher: CrimeReads
+  note: 25 June 2026. Calls Elliott Lewis the producer; Wikipedia and Flapper Press say director.
 - title: otrr.org
   url: https://www.otrr.org/FILES/Synopsis_txt/Z_Series/__Zero_Hour.txt
 - title: audible.com.au
   url: https://www.audible.com.au/podcast/ZERO-HOUR-Twilight-Zone/B0CR8C7GW3
-research_confidence: medium
-last_verified: '2026-11-19'
+research_confidence: high
+last_verified: '2026-11-23'

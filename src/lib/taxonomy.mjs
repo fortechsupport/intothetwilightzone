@@ -723,6 +723,8 @@ export function place(col, id, d, ctx = {}) {
     }
     case 'radio':
       if (d.series_title === 'The Twilight Zone Radio Dramas') add('radio', 'episodes', 'The Twilight Zone Radio Dramas');
+      else if (tags.includes('fan-made')) { add('radio', 'episodes', 'Fan and independent audio'); add('homages', 'fan-made', 'Fan audio dramas'); }
+      else if (tags.includes('audio-adaptation')) add('radio', 'episodes', 'Other radio and audio adaptations');
       else add('radio', 'episodes', "Rod Serling's radio work");
       break;
     case 'podcasts':

@@ -81,3 +81,10 @@ URL: https://catalog.schaumburglibrary.org/Record/1338548
 - "The Twilight Zone Radio Show!" podcast (Audible podcasts, iHeart; episodes dated 21 November 2023): no publisher
   shown, but the episode audio credits Falcon Picture Group and points to twilightzoneradio.com. Not yet confirmed as
   licensed; not listed.
+
+## Old Time Radio Researchers episode log (otrr.org, "Last Update - 05/14/04", page metadata names Jean Layette)
+- 56 entries with a date (7-5-03 to 9-11-04), the star, "special guest stars" and a plot; saved as
+  otrr-episode-log.tsv. The dates are not labelled; they run weekly from July 2003 and look like the order of the
+  US syndicated broadcasts (an inference, not stated). No full casts, writers or directors.
+- Its "special guest stars" are mostly names that look like Chicago radio and TV personalities (e.g. Spike O'Dell,
+  Orion Samuelson, Rick Kogan); the page does not say who they are. Not yet applied to the records.

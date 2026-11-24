@@ -1,15 +1,25 @@
 title: Suspense
 kind: tv-series
-summary: Long-running CBS radio thriller anthology (to 1962), also a TV series; Serling wrote for the TV version.
+summary: Long-running CBS radio thriller anthology (to 1962), also a TV series; Serling wrote for the TV version. On
+  radio, Suspense turned down Serling's play "The Keeper of the Chair" on 1 December 1949 (Martin Grams Jr.), and its
+  former director Elliott Lewis later directed The Zero Hour, which Serling hosted (Flapper Press; Wikipedia).
 release_date: '1942'
 sources:
 - title: 'Wikipedia: Anthology series'
   url: https://en.wikipedia.org/wiki/Anthology_series
+- title: The Radio Career of Rod Serling
+  url: https://otrr.org/FILES/Articles/Martin_Grams_Jr_Articles/The_Radio_Career_Of_Rod_Serling.html
+  author: Martin Grams Jr.
+  publisher: Old Time Radio Researchers (first published in Old Radio Times, December 2008)
+- title: 'Back to His Radio Roots: Rod Serling & "The Zero Hour"'
+  url: https://www.flapperpress.com/amp/back-to-his-radio-roots-rod-serling-the-zero-hour
+  author: John C. Alsedek
+  publisher: Flapper Press
 research_confidence: medium
 relevance: tangential
 tags:
 - anthology-family
 links:
   wikipedia: https://en.wikipedia.org/wiki/Suspense_(radio_drama)
-last_verified: '2026-11-19'
+last_verified: '2026-11-23'
 locked: true
