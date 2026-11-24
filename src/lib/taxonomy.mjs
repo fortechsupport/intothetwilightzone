@@ -30,6 +30,35 @@ export const MUSIC_GROUPS = ['The Twilight Zone (1959)', 'Night Gallery', 'Twili
 /** Conventions and conferences (Attend plan, section 2). */
 const CONVENTION_GROUP = (id, d) => (/conference|symposium|serling-at-100|st-john-fisher/.test(id) ? 'Conferences and symposia' : /twilight-zone-convention|stars-of-the-zone|mausoleum/.test(id) ? 'Twilight Zone conventions' : 'Panels and salutes');
 /** Home video groups, in the order the shows were made (Collect plan, section 2). */
+// Discover plan (docs/plans/research-discover.md, section 2): History shelves grouped by show or kind of honor.
+export const PRODUCTION_GROUPS = ['The Twilight Zone (1959)', 'The Twilight Zone (1985)', 'The Twilight Zone (2019)', 'Around the world', 'The Tower of Terror'];
+export const HONOR_GROUPS = ['Emmy Awards', 'Hugo Awards', 'Other awards and honors', 'Halls of fame and rankings', 'Memorials'];
+function historyGroup(sub, d) {
+  const t = lc(`${d.title ?? ''} ${d.subtype ?? ''}`);
+  if (sub === 'production-history') {
+    if (/\bdub\b/.test(lc(d.subtype))) return 'Around the world';
+    if (/tower of terror/.test(t)) return 'The Tower of Terror';
+    if (/2019|peele|blurryman/.test(t)) return 'The Twilight Zone (2019)';
+    if (/1985|1988|revival \(1984\)/.test(t)) return 'The Twilight Zone (1985)';
+    return 'The Twilight Zone (1959)';
+  }
+  if (sub === 'honors-awards') {
+    if (/memorial|grave|marker|school of fine arts|tribute/.test(t)) return 'Memorials';
+    if (/\bemmy\b/.test(t)) return 'Emmy Awards';
+    if (/\bhugo\b/.test(t)) return 'Hugo Awards';
+    if (/hall of fame|walk of fame|ranking|greatest|best series|best-written|legends/.test(t)) return 'Halls of fame and rankings';
+    return 'Other awards and honors';
+  }
+  return undefined;
+}
+/** Fill a History placement's group (and date order for premieres) when the rule that placed it gave none. */
+function historyDefaults(p, d) {
+  if (p.cat !== 'history') return p;
+  const q = { ...p };
+  if (!q.group) q.group = historyGroup(q.sub, d);
+  if (q.sub === 'premieres' && !q.sort) q.sort = chronoSort(d);
+  return q;
+}
 export const HOME_VIDEO_GROUPS = ['The Twilight Zone (1959)', 'Night Gallery', 'Twilight Zone: The Movie (1983)', 'The Twilight Zone (1985)', 'The Twilight Zone (2002)', 'The Twilight Zone (2019)'];
 export function homeVideoShow(title) {
   const t = String(title ?? '');
@@ -369,11 +398,11 @@ export const TAXONOMY = [
     subs: [
       { slug: 'adaptations-remakes', title: 'Adaptations and remakes', blurb: 'Official adaptations and remakes of episodes.' },
       { slug: 'compared', title: 'Compared to the show', isNew: true, blurb: 'Works that critics or fans compare with an episode or the show, where neither the makers nor a published source say the show inspired them.', connection: 'Each entry names the later work, the episode or series it is compared with, who makes the comparison, and what the makers themselves named instead, where they have said.' },
-      { slug: 'fan-made', title: 'Fan-made', isNew: true, side: 'unofficial', blurb: 'Fan edits, supercuts and other work fans made from the show.' },
+      { slug: 'fan-made', title: 'Fan-made', isNew: true, side: 'unofficial', groups: ['Fan films', 'Fan edits and supercuts', 'Fan audio dramas', 'Fan games'], blurb: 'Fan films, edits, supercuts, audio dramas and games made by fans, credited to their makers and linked, never copied.' },
       { slug: 'homages', title: 'Homages', blurb: 'Deliberate tributes to an episode or the show.' },
       { slug: 'in-other-shows', title: 'In other shows', blurb: 'Episodes, segments and sketches of other series that adapt, spoof or reference the show.' },
       { slug: 'inspired-by', title: 'Inspired by', blurb: 'Works whose makers, or published sources, say an episode inspired them.' },
-      { slug: 'in-everyday-language', title: 'In everyday language', isNew: true, blurb: 'Catchphrases, the theme as shorthand, dictionary entries and public figures invoking the show.', intro: 'Few television shows have changed the language. "Twilight zone" is now an ordinary phrase for anything uncanny, the theme is hummed to mean "something strange is going on", and lines such as "It\'s a cookbook!" are quoted by people who have never seen the episodes.' },
+      { slug: 'in-everyday-language', title: 'In everyday language', isNew: true, blurb: 'Catchphrases, the theme as shorthand, dictionary entries and public figures invoking the show. Rankings of the show are under History > Honors.', intro: 'Few television shows have changed the language. "Twilight zone" is now an ordinary phrase for anything uncanny, the theme is hummed to mean "something strange is going on", and lines such as "It\'s a cookbook!" are quoted by people who have never seen the episodes.' },
       { slug: 'parodies', title: 'Parodies', blurb: 'Spoofs and send-ups.' },
       { slug: 'references', title: 'References', blurb: 'Passing references, quotations and lyric mentions.' },
     ],
@@ -433,9 +462,9 @@ export const TAXONOMY = [
     connection: 'Every milestone is part of the franchise\'s own history or Rod Serling\'s life.',
     seeAlso: [['Timeline', '/timeline/'], ['Events', '/events/']],
     subs: [
-      { slug: 'honors-awards', title: 'Honors and awards', blurb: 'Emmys, Hugos, halls of fame, stamps and other honors to Serling and the show.', intro: 'Serling won six Emmys, three of them before The Twilight Zone, and the show won Hugo Awards in 1960, 1961 and 1962. Later honors include the Television Academy Hall of Fame and a star on the Hollywood Walk of Fame.' },
-      { slug: 'premieres', title: 'Premieres', blurb: 'Premieres of the series, revivals and films.' },
-      { slug: 'production-history', title: 'Production and broadcast history', blurb: 'Dated milestones in how each series was made, scheduled and syndicated.', intro: 'From the history notes on each series and film: pilots, renewals, format changes, cancellations and syndication.' },
+      { slug: 'honors-awards', title: 'Honors and awards', groups: HONOR_GROUPS, blurb: 'Emmys, Hugos, halls of fame, stamps and other honors to Serling and the show.', intro: 'Serling won six Emmys, three of them before The Twilight Zone, and the show won Hugo Awards in 1960, 1961 and 1962. Later honors include the Television Academy Hall of Fame and a star on the Hollywood Walk of Fame.' },
+      { slug: 'premieres', title: 'Premieres', order: 'chrono', orderNote: 'In date order, from the 1958 pilot play on.', blurb: 'Premieres of the series, revivals, films, the play and the Tower of Terror.' },
+      { slug: 'production-history', title: 'Production and broadcast history', groups: PRODUCTION_GROUPS, blurb: 'Dated milestones in how each series was made, scheduled and syndicated.', intro: 'From the history notes on each series and film: pilots, renewals, format changes, cancellations and syndication.' },
       { slug: 'serling-life', title: "Rod Serling's life", isNew: true, blurb: 'Dated events in Serling\'s life, from his birth in 1924 to his death in 1975.' },
       { slug: 'legal', title: 'Trials, lawsuits and rights', isNew: true, blurb: 'The 1982 accident trial, lawsuits and credit disputes, sponsor censorship, and who has owned the franchise.', intro: 'The 1982 helicopter accident on the set of Twilight Zone: The Movie killed Vic Morrow and two child actors and led to a manslaughter trial that ended in acquittals in 1987. Rights to the series passed from Cayuga Productions to CBS; writers disputed credits; and Serling fought sponsors over what he could say.' },
     ],
@@ -606,7 +635,7 @@ const LEGAL_GROUP = (st) => (/trial|investigation|safety|child|regulat/.test(st)
   : /suit|plagiar|dispute|credit/.test(st) ? 'Lawsuits and credit disputes'
   : 'Rights and ownership');
 const LANGUAGE_GROUP = (st) => (/theme|sound/.test(st) ? 'The theme as shorthand'
-  : /dictionar|ranking/.test(st) ? 'Dictionaries and rankings'
+  : /dictionar|ranking/.test(st) ? 'Dictionaries'
   : /public|politic/.test(st) ? 'Public uses'
   : 'Catchphrases and idioms');
 
@@ -633,7 +662,7 @@ const ALIASES = {
   'cultural-impact/catchphrases': ['homages', 'in-everyday-language', 'Catchphrases and idioms'],
   'cultural-impact/theme-shorthand': ['homages', 'in-everyday-language', 'The theme as shorthand'],
   'cultural-impact/public-uses': ['homages', 'in-everyday-language', 'Public uses'],
-  'cultural-impact/dictionary-rankings': ['homages', 'in-everyday-language', 'Dictionaries and rankings'],
+  'cultural-impact/dictionary-rankings': ['homages', 'in-everyday-language', 'Dictionaries'],
   'legal-history/trials': ['events', 'legal', 'The 1982 accident and trial'],
   'legal-history/accident-trial': ['events', 'legal', 'The 1982 accident and trial'],
   'legal-history/lawsuits': ['events', 'legal', 'Lawsuits and credit disputes'],
@@ -766,7 +795,7 @@ const SERLING_RADIO_ROLE = { wrote: 'Written by Serling', acted: 'Serling as an 
 export function place(col, id, d, ctx = {}) {
   /** @type {{cat: string, sub: string, group?: string}[]} */
   const out = [];
-  const add = (cat, sub, group, sort) => out.push({ ...remap(cat, sub), group, ...(sort ? { sort } : {}) });
+  const add = (cat, sub, group, sort) => out.push(historyDefaults({ ...remap(cat, sub), group, ...(sort ? { sort } : {}) }, d));
   const asub = ctx.assessSub?.(`${col}/${id}`);
   const tags = d.tags ?? [];
   const subtype = lc(d.subtype);
@@ -814,7 +843,7 @@ export function place(col, id, d, ctx = {}) {
       // marathons in broadcast history) is not a film.
       if ((d.categories ?? []).length && !(d.categories ?? []).some((c) => c.startsWith('movies/'))) break;
       if (k === 'music-video') { add('music', 'music-videos'); break; } // Adam, Q3: music videos are Music
-      if (tags.includes('fan-made')) { add('homages', 'fan-made', 'Fan edits and supercuts'); break; }
+      if (tags.includes('fan-made') || /\bfan film\b/i.test(d.summary ?? '')) { add('homages', 'fan-made', /\bfan film\b/i.test(d.summary ?? '') ? 'Fan films' : 'Fan edits and supercuts'); break; }
       if (k === 'unproduced') {
         add('movies', 'unmade-projects', (d.writers ?? []).some(isSerlingName) ? "Rod Serling's unproduced scripts" : 'Twilight Zone films');
         break;
@@ -939,6 +968,7 @@ function placeWork(d, st, add, id) {
     }
     case 'game':
       // Games plan (docs/plans/research-games.md, section 2): one shelf per record, nods kept apart.
+      if (st === 'fan-game') add('homages', 'fan-made', 'Fan games'); // Discover plan: fan work is also listed in Legacy
       if (/homage|reference|fan-game|name-only/.test(st)) add('games', 'game-homages', st === 'fan-game' ? 'Fan-made games' : st === 'name-only' ? 'Name only, link not confirmed' : /pinball/.test(st) ? 'Pinball tables' : 'Video games');
       else if (st === 'pinball') add('games', 'pinball-arcade', 'The 1993 table');
       else if (st === 'game-appearance') add('games', 'pinball-arcade', 'Digital versions of the table');
@@ -1026,7 +1056,8 @@ function placeWork(d, st, add, id) {
       add('events', 'honors-awards', 'Memorials');
       return;
     case 'parody':
-      add('homages', 'parodies');
+      // Discover plan: a record placed by hand on a Legacy shelf (a gag, a passing reference) sits there only.
+      if (!(d.categories ?? []).some((c) => c.startsWith('homages/'))) add('homages', 'parodies');
       return;
     case 'television':
       if (/around the world|international|local titles/i.test(d.title ?? '')) add('series', 'international');
@@ -1115,7 +1146,7 @@ export function explicitPlacements(d) {
     const [cat, sub] = s.split('/');
     const a = alias(cat, sub);
     if (a.content) continue;
-    out.push({ ...remap(a.cat, a.sub), group: a.group, explicit: true });
+    out.push(historyDefaults({ ...remap(a.cat, a.sub), group: a.group, explicit: true }, d));
   }
   return out;
 }
@@ -1157,7 +1188,8 @@ export function isOfficial(col, d, p, ctx = {}) {
     case 'reading/books': case 'reading/foreign-language':
       return !unoff && (serling || ['scripts', 'novelization', 'play'].includes(d.kind) || /gauntlet|cbs/.test(pub) || off);
     case 'artwork/art-illustration': return off;
-    case 'homages/adaptations-remakes': return d.kind === 'official-adaptation' || off;
+    // Discover plan: a remake made for a later Twilight Zone series is the franchise remaking itself.
+    case 'homages/adaptations-remakes': return d.kind === 'official-adaptation' || (d.kind === 'remake' && /^(1959|1985|2002|2019)\//.test(d.from ?? '')) || off;
     case 'lectures/serling-lectures': return true;
     case 'history/premieres': case 'history/production-history': case 'history/honors-awards': case 'history/serling-life':
     case 'history/legal': case 'events/broadcasts-marathons': return true;

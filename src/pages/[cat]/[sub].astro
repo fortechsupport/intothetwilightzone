@@ -86,7 +86,7 @@ const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
   )}
   {!s.entries.length && <p class="muted">No entries yet. Research is under way.</p>}
   {s.entries.length > 5 && (
-    <ListTools scope="list" noun={s.title.toLowerCase()} groups={[...new Set(s.entries.map((e) => e.group).filter(Boolean) as string[])].sort((a, b) => rank(a).localeCompare(rank(b), undefined, { numeric: true }))} sides={split} tiers={new Set(s.entries.map((e) => e.tier ?? 'core')).size > 1} years={s.entries.some((e) => /\b(1[89]\d\d|20\d\d)\b/.test(e.meta ?? ''))} groupLabel={c.slug === 'series' && s.slug === 'homages' ? 'Show' : s.slug === 'rod-serling-films' ? "Serling's part" : s.groups ? 'Show or film' : 'Group'} facets={facetDefs} orderLabels={chrono ? [s.orderNote ? 'Date order' : 'Series order', 'Reverse order'] : undefined} />
+    <ListTools scope="list" noun={s.title.toLowerCase()} groups={[...new Set(s.entries.map((e) => e.group).filter(Boolean) as string[])].sort((a, b) => rank(a).localeCompare(rank(b), undefined, { numeric: true }))} sides={split} tiers={new Set(s.entries.map((e) => e.tier ?? 'core')).size > 1} years={s.entries.some((e) => /\b(1[89]\d\d|20\d\d)\b/.test(e.meta ?? ''))} groupLabel={c.slug === 'series' && s.slug === 'homages' ? 'Show' : s.slug === 'rod-serling-films' ? "Serling's part" : s.groups?.some((g) => /Twilight Zone|Night Gallery/.test(g)) ? 'Show or film' : 'Group'} facets={facetDefs} orderLabels={chrono ? [s.orderNote ? 'Date order' : 'Series order', 'Reverse order'] : undefined} />
   )}
   <div id="list">
   {parts.map((p) => {

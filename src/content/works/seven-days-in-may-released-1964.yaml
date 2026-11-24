@@ -6,8 +6,11 @@ description: John Frankenheimer's film of Fletcher Knebel and Charles W. Bailey 
   coup against the US president opened in 1964, with a screenplay by Serling. It was his most prestigious film credit
   to that point.
 details:
+  date: '1964-02-12'
   film: films/seven-days-in-may
 sources:
+- title: 'Wikipedia: Seven Days in May'
+  url: https://en.wikipedia.org/wiki/Seven_Days_in_May
 - title: 'Wikipedia: Rod Serling'
   url: https://en.wikipedia.org/wiki/Rod_Serling
 - title: 'Museum of Broadcast Communications, Encyclopedia of Television: Serling, Rod'

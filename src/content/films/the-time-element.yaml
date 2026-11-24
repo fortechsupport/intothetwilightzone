@@ -19,13 +19,21 @@ cast:
 - Bartlett Robinson
 summary: Serling's hour-long teleplay for Westinghouse Desilu Playhouse on CBS, widely treated as the series' unofficial
   pilot. A bartender tells his psychiatrist about a recurring dream in which he wakes up in Honolulu the day before
-  the Pearl Harbor attack and cannot get anyone to heed his warnings. Its success helped persuade CBS to buy The
-  Twilight Zone.
+  the Pearl Harbor attack and cannot get anyone to heed his warnings. CBS had turned the script down as a series
+  pitch; producer Bert Granet made it for the Playhouse, and its success helped persuade CBS to buy The Twilight
+  Zone. It is included as a bonus on the Season 1 Blu-ray.
+details:
+  producer: Bert Granet
+  on_home_video: Bonus on The Twilight Zone Season 1 Blu-ray
 ids:
   imdb: tt0745802
 links:
-  wikipedia: https://en.wikipedia.org/wiki/The_Twilight_Zone
+  wikipedia: https://en.wikipedia.org/wiki/The_Time_Element
 sources:
+- title: 'Wikipedia: The Time Element'
+  url: https://en.wikipedia.org/wiki/The_Time_Element
+- title: 'Wikipedia: The Twilight Zone (1959 TV series)'
+  url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)
 - title: CTVA - Westinghouse Desilu Playhouse Season 1
   url: https://ctva.biz/US/Anthology/DesiluPlayhouse_01_(1958-59).htm
 - title: /Film - The pilot episode of The Twilight Zone wasn't an episode

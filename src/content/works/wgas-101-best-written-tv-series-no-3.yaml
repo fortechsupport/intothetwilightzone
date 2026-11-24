@@ -1,6 +1,6 @@
 title: 'WGA''s 101 Best-Written TV Series: No. 3'
-kind: cultural-impact
-subtype: ranking
+kind: event
+subtype: honor (ranking)
 year: '2013-06-02'
 creator: Writers Guild of America East and West
 description: In the Writers Guild's 2013 poll of its members, The Twilight Zone ranked third among the best-written
@@ -9,8 +9,8 @@ details:
   why_it_matters: It is a peer judgment from professional writers on Serling's work.
   relates_to:
   - series 1959
-categories:
-- cultural-impact/dictionary-rankings
+links:
+  official: https://www.wgaeast.org/101-lists/101-best-written-tv-shows/list
 relevance: core
 sources:
 - title: 'WGA East - 101 Best-Written TV Series: Full List'
