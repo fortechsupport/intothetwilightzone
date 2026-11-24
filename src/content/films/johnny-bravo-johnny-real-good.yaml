@@ -8,3 +8,13 @@ last_verified: '2026-11-19'
 locked: true
 parent_series: Johnny Bravo
 summary: A Johnny Bravo cartoon episode with a spoof of the all-powerful boy from "It's a Good Life".
+releases:
+- date: '2010-06-15'
+  format: DVD
+  title: 'Johnny Bravo: The Complete First Season'
+  publisher: Warner Home Video
+  region: Region 1
+  note: Wikipedia names this episode among the first-season DVD's commentaries.
+  sources:
+  - title: 'Wikipedia: Johnny Bravo'
+    url: https://en.wikipedia.org/wiki/Johnny_Bravo

@@ -9,3 +9,14 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: The Greatest American Hero
+releases:
+- date: '2005-02-15'
+  format: DVD
+  title: 'The Greatest American Hero: Season One'
+  publisher: Anchor Bay Entertainment
+  region: Region 1
+  note: Season 1 began on 18 March 1981 with this episode (worked out from the air date). Mill Creek re-released
+    it on 18 May 2010. Wikipedia names the set only as the Season 1 release.
+  sources:
+  - title: 'Wikipedia: The Greatest American Hero'
+    url: https://en.wikipedia.org/wiki/The_Greatest_American_Hero

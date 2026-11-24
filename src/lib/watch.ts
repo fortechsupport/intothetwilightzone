@@ -7,10 +7,14 @@ import { parse } from 'yaml';
 import { normShow, showSlug } from './tv-shows.mjs';
 
 export interface Watch { justwatch: string; checked: string | null; fetched: string; stream: string[]; free: string[]; buy: string[] }
-export interface WatchInfo { name: string; w?: Watch; search: { justwatch: string; reelgood: string } }
+// Home video for a show (three-rounds plan, 2026-11-24): data/fan/discs.yaml, read from each show's Wikipedia article.
+export interface Disc { source: string; read: string; sets?: string[]; none?: string }
+export interface WatchInfo { name: string; w?: Watch; disc?: Disc; search: { justwatch: string; reelgood: string } }
 
 let cache: Record<string, Watch> | undefined;
 const all = () => (cache ??= parse(readFileSync(resolve(process.cwd(), 'data/fan/watch.yaml'), 'utf8')) as Record<string, Watch>);
+let discCache: Record<string, Disc> | undefined;
+const discs = () => (discCache ??= (parse(readFileSync(resolve(process.cwd(), 'data/fan/discs.yaml'), 'utf8')) ?? {}) as Record<string, Disc>);
 
 const TZ_NAMES: Record<string, string> = { '1959': 'The Twilight Zone (1959)', '1985': 'The Twilight Zone (1985)', '2002': 'The Twilight Zone (2002)', '2019': 'The Twilight Zone (2019)' };
 
@@ -19,7 +23,7 @@ export function watchFor(opts: { series?: string; show?: string; slug?: string; 
   const key = opts.series ? `twilight-zone-${opts.series}` : opts.slug ?? showSlug(normShow(opts.show ?? opts.name ?? ''));
   const name = opts.name ?? (opts.series ? TZ_NAMES[opts.series] ?? `The Twilight Zone (${opts.series})` : normShow(opts.show ?? ''));
   const q = encodeURIComponent(name.replace(/\s*\(\d{4}\)$/, ''));
-  return { name, w: all()[key], search: { justwatch: opts.justwatch ?? `https://www.justwatch.com/us/search?q=${q}`, reelgood: `https://reelgood.com/search?q=${q}` } };
+  return { name, w: all()[key], disc: discs()[key], search: { justwatch: opts.justwatch ?? `https://www.justwatch.com/us/search?q=${q}`, reelgood: `https://reelgood.com/search?q=${q}` } };
 }
 
 /** "21 November 2026" */

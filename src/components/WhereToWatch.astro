@@ -1,5 +1,6 @@
 ---
 // "Where to watch" for a series or show (Adam, 2026-11-21): on every series, show, film and episode page.
+// "On disc" (2026-11-24): the show's home video releases from data/fan/discs.yaml, or a line saying none is listed.
 // US offers from data/fan/watch.yaml with the date JustWatch checked them; a show we haven't checked gets
 // search links instead. Service names only, plain links, no affiliate codes.
 //   as="fact"    a <dt>/<dd> pair for a page's dl.facts, near the top (series, film and episode pages)
@@ -11,6 +12,8 @@ const { info, note, as = 'fact' } = Astro.props;
 const w = info.w;
 const none = w && !w.stream.length && !w.free.length && !w.buy.length;
 const when = w ? longDate(w.checked ?? w.fetched) : '';
+const disc = info.disc;
+const discText = disc ? (disc.sets?.length ? disc.sets.join(' · ') : disc.none ?? 'No home video release is listed.') : '';
 const groups: [string, string[]][] = w ? ([['Stream', w.stream], ['Free with ads', w.free], ['Buy or rent', w.buy]] as [string, string[]][]).filter(([, l]) => l.length) : [];
 ---
 {as === 'fact' ? (
@@ -25,6 +28,7 @@ const groups: [string, string[]][] = w ? ([['Stream', w.stream], ['Free with ads
         {w ? <> US, as of {when} · <a href={w.justwatch}>JustWatch</a> · <a href={info.search.reelgood}>Reelgood</a></> : <> Search <a href={info.search.justwatch}>JustWatch</a> or <a href={info.search.reelgood}>Reelgood</a></>}
       </span>
     </dd>
+    {disc && <><dt>On disc</dt><dd data-pagefind-ignore>{discText} <span class="small muted">(<a href={disc.source}>Wikipedia</a>, read {longDate(disc.read)})</span></dd></>}
   </>
 ) : (
   <section class="where-to-watch" id="watch" data-pagefind-ignore>
@@ -36,6 +40,7 @@ const groups: [string, string[]][] = w ? ([['Stream', w.stream], ['Free with ads
     <p class="small">
       {w ? <>In the US, as of {when}. Today’s options: <a href={w.justwatch}>JustWatch</a> · <a href={info.search.reelgood}>Reelgood</a></> : <>Search <a href={info.search.justwatch}>JustWatch</a> or <a href={info.search.reelgood}>Reelgood</a></>}
     </p>
+    {disc && <p><strong>On disc:</strong> {discText} <span class="small muted">(<a href={disc.source}>Wikipedia</a>, read {longDate(disc.read)})</span></p>}
     <p class="small muted">Plain links, no affiliate codes: this site earns nothing from them.</p>
   </section>
 )}

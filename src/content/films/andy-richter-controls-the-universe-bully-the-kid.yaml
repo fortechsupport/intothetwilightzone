@@ -8,3 +8,13 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: Andy Richter Controls the Universe
+releases:
+- date: '2009-03-24'
+  format: DVD
+  title: 'Andy Richter Controls the Universe: The Complete Series'
+  publisher: CBS DVD (Paramount)
+  region: Region 1
+  note: Wikipedia lists it in season 2. Fox never aired it; it was first shown on HDNet on 14 June 2004.
+  sources:
+  - title: 'Wikipedia: Andy Richter Controls the Universe'
+    url: https://en.wikipedia.org/wiki/Andy_Richter_Controls_the_Universe

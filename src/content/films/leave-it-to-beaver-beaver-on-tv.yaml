@@ -9,3 +9,13 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: Leave It to Beaver
+releases:
+- date: '2011-03-01'
+  format: DVD
+  title: 'Leave It to Beaver: Season Six'
+  publisher: Shout! Factory
+  note: Season six aired from 27 September 1962 to 20 June 1963, so it holds this 1963 episode (worked out from
+    the air date). Also in the complete series sets.
+  sources:
+  - title: 'Wikipedia: Leave It to Beaver'
+    url: https://en.wikipedia.org/wiki/Leave_It_to_Beaver

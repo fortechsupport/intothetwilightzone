@@ -8,3 +8,14 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: Good Times
+releases:
+- date: '2006-08-01'
+  format: DVD
+  title: 'Good Times: The Complete Sixth and Final Season'
+  publisher: Sony Pictures Home Entertainment
+  region: Region 1
+  note: Season six is the only season that aired in 1979 (16 September 1978 to 1 August 1979), so it holds this
+    episode (worked out from the air date). Also in the complete series.
+  sources:
+  - title: 'Wikipedia: Good Times'
+    url: https://en.wikipedia.org/wiki/Good_Times

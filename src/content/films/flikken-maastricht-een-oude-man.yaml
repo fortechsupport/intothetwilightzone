@@ -8,3 +8,12 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: Flikken Maastricht
+releases:
+- date: '2008-03-20'
+  format: DVD
+  title: 'Flikken Maastricht: Season 1'
+  note: Season 1 aired from 3 September to 26 November 2007, so it holds this 2007 episode (worked out from the
+    air date). Wikipedia gives no title or label for the DVD.
+  sources:
+  - title: 'Wikipedia: Flikken Maastricht'
+    url: https://en.wikipedia.org/wiki/Flikken_Maastricht

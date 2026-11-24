@@ -8,3 +8,14 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: ALF
+releases:
+- date: '2004-08-10'
+  format: DVD
+  title: 'ALF: Season One'
+  publisher: Lionsgate Home Entertainment
+  region: Region 1
+  note: Season one aired from 22 September 1986 to 11 May 1987, so it holds this 1986 episode (worked out from the
+    air date). Syndicated versions, about 21 minutes each.
+  sources:
+  - title: 'Wikipedia: ALF (TV series)'
+    url: https://en.wikipedia.org/wiki/ALF_(TV_series)

@@ -1,0 +1,439 @@
+# Home video for each show (three-rounds plan, docs/plans/three-research-rounds-2026-11-24.md): shown as "On disc"
+# beside Where to watch on every show page. Keyed like data/fan/watch.yaml (show slug). Read from each show's
+# Wikipedia article on `read`; `sets` are its main releases, `none` says the article lists none. Where the article
+# says which set holds a particular episode, that episode's record carries it as a `releases:` row.
+
+3rd-rock-from-the-sun:
+  source: https://en.wikipedia.org/wiki/3rd_Rock_from_the_Sun
+  read: '2026-11-24'
+  sets:
+  - The Complete Series, DVD, Region 1, Mill Creek, 14 May 2013
+  - Seasons 1-6, DVD, Region 2, Network, 25 October 2004
+alf:
+  source: https://en.wikipedia.org/wiki/ALF_(TV_series)
+  read: '2026-11-24'
+  sets:
+  - 'ALF: The Complete Series (Deluxe Edition), DVD, Shout! Factory, 17 October 2023'
+  - Seasons 1-4, DVD, Region 1, Lionsgate, 2004-2006 (syndicated versions)
+  - Seasons 1-4, DVD, Region 2, Warner Home Video, 2009-2010
+alfred-hitchcock-presents:
+  source: https://en.wikipedia.org/wiki/Alfred_Hitchcock_Presents
+  read: '2026-11-24'
+  sets:
+  - Seasons 1-5, DVD, Region 1, Universal, 2005-2012; Season 6 (DVD-R on demand) 2013; Season 7, 24 October 2025
+  - All seven seasons, DVD, Region 2, Fabulous Films (Seasons 4-7 on 26 October 2015); Region 4, Madman, 2009-2013
+andy-richter-controls-the-universe:
+  source: https://en.wikipedia.org/wiki/Andy_Richter_Controls_the_Universe
+  read: '2026-11-24'
+  sets:
+  - The Complete Series, DVD, Region 1, CBS DVD (Paramount), 24 March 2009 (some music replaced)
+appointment-with-adventure:
+  source: https://en.wikipedia.org/wiki/Appointment_with_Adventure
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+armstrong-circle-theatre:
+  source: https://en.wikipedia.org/wiki/Armstrong_Circle_Theatre
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+b-j-and-the-bear:
+  source: https://en.wikipedia.org/wiki/B.J._and_the_Bear
+  read: '2026-11-24'
+  none: 'Never released: Wikipedia says "Universal has never released B. J. and the Bear on home video".'
+ballykissangel:
+  source: https://en.wikipedia.org/wiki/Ballykissangel
+  read: '2026-11-24'
+  sets:
+  - Series 1-6, DVD, Region 1, 18 September 2007 (Region 2 in 2010, Region 4 in 2011)
+beetlejuice:
+  source: https://en.wikipedia.org/wiki/Beetlejuice_(TV_series)
+  read: '2026-11-24'
+  sets:
+  - 'Beetlejuice: The Complete Series, DVD, Region 1, Shout! Factory, 20 August 2013 (first an Amazon exclusive, 28 May
+    2013)'
+  - The Complete Series, DVD, Region 1, Warner Bros. Home Entertainment, 25 June 2024
+black-mirror:
+  source: https://en.wikipedia.org/wiki/Black_Mirror
+  read: '2026-11-24'
+  sets:
+  - Series 1-4 and the special "White Christmas", DVD (no dates or labels given)
+blood-ties:
+  source: https://en.wikipedia.org/wiki/Blood_Ties_(TV_series)
+  read: '2026-11-24'
+  sets:
+  - The Complete Series, DVD and Blu-ray, Region 1, 6 April 2010
+bob-hope-presents-the-chrysler-theatre:
+  source: https://en.wikipedia.org/wiki/Bob_Hope_Presents_the_Chrysler_Theatre
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+bosom-buddies:
+  source: https://en.wikipedia.org/wiki/Bosom_Buddies
+  read: '2026-11-24'
+  sets:
+  - The Complete Series, DVD, Region 1, CBS Home Entertainment, 6 February 2018
+campbell-soundstage:
+  source: https://en.wikipedia.org/wiki/Campbell_Soundstage
+  read: '2026-11-24'
+  none: Wikipedia's article (served as "The Campbell Playhouse", also known as Campbell Soundstage) lists no home video
+    release.
+center-stage:
+  source: https://en.wikipedia.org/wiki/Center_Stage_(TV_series)
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+climax:
+  source: https://en.wikipedia.org/wiki/Climax!
+  read: '2026-11-24'
+  none: Wikipedia names only two episodes on DVD ("Dr. Jekyll and Mr. Hyde" and "Casino Royale") and says "only black-and-white
+    kinescope copies of some episodes survive".
+cold-case:
+  source: https://en.wikipedia.org/wiki/Cold_Case_(TV_series)
+  read: '2026-11-24'
+  none: 'Never released: Wikipedia says the series "was not released on DVD or Blu-ray due to licensing issues" over
+    the music in each episode.'
+danger:
+  source: https://en.wikipedia.org/wiki/Danger_(TV_series)
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+dog-city:
+  source: https://en.wikipedia.org/wiki/Dog_City
+  read: '2026-11-24'
+  none: Wikipedia says "the series has not had any DVD release". Two Sony Wonder VHS tapes and a Channel 4 tape in the
+    UK hold other episodes.
+eureka:
+  source: https://en.wikipedia.org/wiki/Eureka_(2006_TV_series)
+  read: '2026-11-24'
+  sets:
+  - All five seasons, DVD, Regions 1 and 2 (no dates or labels given)
+  - The Complete Series, Blu-ray, Mill Creek Entertainment, 2020 (US)
+  - 'Eureka: Die komplette Serie, Blu-ray, Universal, 2014 (Germany)'
+extreme-ghostbusters:
+  source: https://en.wikipedia.org/wiki/Extreme_Ghostbusters
+  read: '2026-11-24'
+  sets:
+  - 'Extreme Ghostbusters: The Complete Series, DVD, Sony Pictures Home Entertainment, 19 March 2024'
+falcon-crest:
+  source: https://en.wikipedia.org/wiki/Falcon_Crest
+  read: '2026-11-24'
+  sets:
+  - Seasons 1-3, DVD, Region 1, Warner Bros., 20 April 2010 to 28 May 2013 (Seasons 2 and 3 from the Warner Archive Collection)
+fear-itself:
+  source: https://en.wikipedia.org/wiki/Fear_Itself_(TV_series)
+  read: '2026-11-24'
+  sets:
+  - 'The complete series, DVD, 15 September 2009 (Wikipedia: "in a different order" from broadcast)'
+felicity:
+  source: https://en.wikipedia.org/wiki/Felicity_(TV_series)
+  read: '2026-11-24'
+  sets:
+  - Four year collections (Freshman to Senior Year), DVD, US, 2002-2005; re-released by ABC Studios, 7 April 2009
+flikken-maastricht:
+  source: https://en.wikipedia.org/wiki/Flikken_Maastricht
+  read: '2026-11-24'
+  sets:
+  - Season 1, DVD, 20 March 2008 (no title or label given)
+ford-theatre:
+  source: https://en.wikipedia.org/wiki/Ford_Theatre
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+freaks-and-geeks:
+  source: https://en.wikipedia.org/wiki/Freaks_and_Geeks
+  read: '2026-11-24'
+  sets:
+  - The complete series, six DVDs, Shout! Factory and Sony BMG Music, 6 April 2004
+  - Yearbook Edition, DVD, Vivendi Entertainment, 25 November 2008
+  - The complete series, Blu-ray, Shout! Factory, 2016 (all US discs out of print since July 2021, per Wikipedia)
+garfield-and-friends:
+  source: https://en.wikipedia.org/wiki/Garfield_and_Friends
+  read: '2026-11-24'
+  sets:
+  - Every episode in five volumes, DVD, Region 1, 20th Century Fox Home Entertainment
+  - Season sets re-released by 9 Story Media Group, DVD, Region 1
+general-electric-theater:
+  source: https://en.wikipedia.org/wiki/General_Electric_Theater
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+ghost-story-circle-of-fear:
+  source: https://en.wikipedia.org/wiki/Ghost_Story_(TV_series)
+  read: '2026-11-24'
+  sets:
+  - The complete series, Sony, 1 May 2012
+  - The complete series, DVD and Blu-ray, Australia, Via Vision Entertainment, 22 July 2020
+girls-on-top:
+  source: https://en.wikipedia.org/wiki/Girls_on_Top_(British_TV_series)
+  read: '2026-11-24'
+  sets:
+  - 'Girls on Top: The Complete Series, DVD, Region 2, Network, 2007'
+  - 'Girls on Top: Complete Series 1 and 2, DVD, Australia, Time Life, 2007'
+good-times:
+  source: https://en.wikipedia.org/wiki/Good_Times
+  read: '2026-11-24'
+  sets:
+  - The Complete Series, DVD, Region 1, Sony Pictures Home Entertainment, 28 October 2008; Mill Creek, 1 September 2015
+  - Six season sets, DVD, Region 1, 2003-2006
+guillermo-del-toros-cabinet-of-curiosities:
+  source: https://en.wikipedia.org/wiki/Guillermo_del_Toro%27s_Cabinet_of_Curiosities
+  read: '2026-11-24'
+  none: 'No disc release is named: Wikipedia gives only its Netflix premiere (25 to 28 October 2022).'
+hallmark-hall-of-fame:
+  source: https://en.wikipedia.org/wiki/Hallmark_Hall_of_Fame
+  read: '2026-11-24'
+  none: Wikipedia says only a small number of episodes have come out on VHS and DVD, and names none from the 1950s.
+harvey-street-kids:
+  source: https://en.wikipedia.org/wiki/Harvey_Street_Kids
+  read: '2026-11-24'
+  none: 'No disc release: Wikipedia says the seasons are sold digitally (Apple TV and other stores).'
+hoppity-hooper:
+  source: https://en.wikipedia.org/wiki/Hoppity_Hooper
+  read: '2026-11-24'
+  sets:
+  - Three VHS volumes, early 1990s; Volume One later on DVD
+  - Mill Creek compilations, DVD, 2008-2009 (episodes 1-6 and 8-11 only)
+ichabod-and-me:
+  source: https://en.wikipedia.org/wiki/Ichabod_and_Me
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+in-living-color:
+  source: https://en.wikipedia.org/wiki/In_Living_Color
+  read: '2026-11-24'
+  sets:
+  - Seasons 1-5, DVD, Region 1, 20th Century Fox Home Entertainment, 2004-2006 (some sketches edited to remove licensed
+    songs)
+inner-sanctum-mystery:
+  source: https://en.wikipedia.org/wiki/Inner_Sanctum_Mystery
+  read: '2026-11-24'
+  none: Wikipedia lists no home video release; it says "Of more than 500 programs broadcast, only about 200 remain in
+    circulation."
+insight:
+  source: https://en.wikipedia.org/wiki/Insight_(American_TV_series)
+  read: '2026-11-24'
+  none: Wikipedia lists no disc release; it says "Episodes are available for purchase from the Paulist Press", and names
+    the UCLA Film and Television Archive as holding the physical inventory.
+into-the-dark:
+  source: https://en.wikipedia.org/wiki/Into_the_Dark_(TV_series)
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+ironside:
+  source: https://en.wikipedia.org/wiki/Ironside_(1967_TV_series)
+  read: '2026-11-24'
+  sets:
+  - Seasons 1-4, DVD, Region 1, Shout! Factory, 2007-2010
+  - Seasons 5-8, DVD, Region 4, Madman, 2010-2011
+  - Series 1, DVD, Region 2, Anchor Bay UK, 25 August 2008
+johnny-bravo:
+  source: https://en.wikipedia.org/wiki/Johnny_Bravo
+  read: '2026-11-24'
+  sets:
+  - The Complete First Season, DVD, Region 1, Warner Home Video, 15 June 2010 (Cartoon Network Hall of Fame)
+  - Seasons 1 and 2, DVD, Region 4, Madman, 2007 and 2009
+kaiser-aluminum-hour:
+  source: https://en.wikipedia.org/wiki/Kaiser_Aluminum_Hour
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+key-and-peele:
+  source: https://en.wikipedia.org/wiki/Key_%26_Peele
+  read: '2026-11-24'
+  sets:
+  - Season 1, DVD and Blu-ray, Comedy Central and Paramount Home Entertainment, 25 September 2012 (no later season is
+    named)
+kraft-television-theatre:
+  source: https://en.wikipedia.org/wiki/Kraft_Television_Theatre
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release. It says the Library of Congress holds a large number of complete
+    episodes.
+leave-it-to-beaver:
+  source: https://en.wikipedia.org/wiki/Leave_It_to_Beaver
+  read: '2026-11-24'
+  sets:
+  - The Complete Series, DVD, Shout! Factory, 29 June 2010
+  - The Complete Series, Blu-ray, Universal Pictures Home Entertainment, 14 November 2023
+love-american-style:
+  source: https://en.wikipedia.org/wiki/Love,_American_Style
+  read: '2026-11-24'
+  sets:
+  - Season 1, Volumes 1 and 2, DVD, Region 1, CBS DVD (Paramount), 20 November 2007 and 11 March 2008 (the 1969 episodes
+    are in season 1; the volume is not stated)
+lux-video-theatre:
+  source: https://en.wikipedia.org/wiki/Lux_Video_Theatre
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+masters-of-horror:
+  source: https://en.wikipedia.org/wiki/Masters_of_Horror
+  read: '2026-11-24'
+  sets:
+  - Season 1, DVD and Blu-ray, Anchor Bay Entertainment (no season 2 release is named; "Valerie on the Stairs" is in
+    season 2)
+medallion-theatre:
+  source: https://en.wikipedia.org/wiki/Medallion_Theatre
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release; it says "All thirty episodes aired live from New York."
+medium:
+  source: https://en.wikipedia.org/wiki/Medium_(TV_series)
+  read: '2026-11-24'
+  sets:
+  - Seasons 1-7, DVD, Region 1, CBS DVD (Paramount), 5 May 2020
+  - Seven season sets, DVD, Region 1, 2006-2011
+muppets-tonight:
+  source: https://en.wikipedia.org/wiki/Muppets_Tonight
+  read: '2026-11-24'
+  none: 'Never released: Wikipedia says it "has never been released on home media or made available on any streaming
+    or digital platforms".'
+night-court:
+  source: https://en.wikipedia.org/wiki/Night_Court
+  read: '2026-11-24'
+  sets:
+  - 'Night Court: The Complete Series, DVD, Region 1, Warner Bros., 13 June 2023'
+  - Nine season sets, DVD, Region 1, Warner Home Video and Warner Archive, 2005-2013
+northern-exposure:
+  source: https://en.wikipedia.org/wiki/Northern_Exposure
+  read: '2026-11-24'
+  sets:
+  - The Complete Series, DVD, Region 1, Universal, 13 November 2007; Shout! Factory, 21 July 2020 (not all the original
+    music)
+  - The Complete Series, Blu-ray, Universal (US), 5 December 2023; Fabulous Films (UK), 19 March 2018
+perfect-strangers:
+  source: https://en.wikipedia.org/wiki/Perfect_Strangers_(TV_series)
+  read: '2026-11-24'
+  sets:
+  - The Complete First and Second Seasons, DVD, Region 1, Warner Home Video, 5 February 2008
+philip-k-dicks-electric-dreams:
+  source: https://en.wikipedia.org/wiki/Philip_K._Dick%27s_Electric_Dreams
+  read: '2026-11-24'
+  none: 'No disc release is named: Wikipedia says the season was released on Amazon''s streaming service worldwide.'
+philip-morris-playhouse:
+  source: https://en.wikipedia.org/wiki/Philip_Morris_Playhouse
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+playhouse-90:
+  source: https://en.wikipedia.org/wiki/Playhouse_90
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release. It notes that "The Comedian" survives as a kinescope at the
+    Paley Center.
+psych:
+  source: https://en.wikipedia.org/wiki/Psych
+  read: '2026-11-24'
+  sets:
+  - The Complete Series, DVD, Region 1, 7 October 2014 (not the musical)
+  - The Complete Collection, Blu-ray, 17 October 2023 (120 episodes and three films)
+pursuit:
+  source: https://en.wikipedia.org/wiki/Pursuit_(TV_series)
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+quantum-leap:
+  source: https://en.wikipedia.org/wiki/Quantum_Leap_(1989_TV_series)
+  read: '2026-11-24'
+  sets:
+  - 'Seasons 1-5: The Complete Series, DVD, Region 1, Universal, 4 November 2014'
+  - The Complete Series, DVD and Blu-ray, Mill Creek, 7 February 2017 (most original music restored)
+robot-chicken:
+  source: https://en.wikipedia.org/wiki/Robot_Chicken
+  read: '2026-11-24'
+  sets:
+  - 'Robot Chicken: The Complete Series, DVD, Region 1, 21 October 2025 (episodes 1-228)'
+  - Season sets on DVD, from The Complete First Season (Region 1, 28 March 2006)
+sabrina-the-teenage-witch:
+  source: https://en.wikipedia.org/wiki/Sabrina_the_Teenage_Witch_(1996_TV_series)
+  read: '2026-11-24'
+  sets:
+  - The Complete Series, DVD, Region 1, Paramount Home Entertainment, 27 July 2010
+  - The Complete Enchanted Series, DVD, Region 2, Universal Pictures, 15 August 2016
+  - The Complete Collection, DVD, Region 0, Via Vision (Australia), 21 June 2023 (with the TV films Sabrina Goes to Rome
+    and Sabrina Down Under)
+studio-one:
+  source: https://en.wikipedia.org/wiki/Studio_One_(American_TV_series)
+  read: '2026-11-24'
+  sets:
+  - 'Studio One Anthology, DVD, Koch Vision, 2008: 17 episodes with their original Westinghouse commercials (Wikipedia
+    does not list which)'
+suspense:
+  source: https://en.wikipedia.org/wiki/Suspense_(American_TV_series)
+  read: '2026-11-24'
+  sets:
+  - The 90 surviving episodes on three DVD box sets (Wikipedia does not name them)
+svengoolie:
+  source: https://en.wikipedia.org/wiki/Svengoolie
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+the-a-team:
+  source: https://en.wikipedia.org/wiki/The_A-Team
+  read: '2026-11-24'
+  sets:
+  - 'The A-Team: The Ultimate Collection, DVD, Region 2, Universal, 8 October 2007'
+  - The complete series, DVD, Region 1, Universal, 8 June 2010 (25 discs); Region 4, 3 November 2010
+the-andy-griffith-show:
+  source: https://en.wikipedia.org/wiki/The_Andy_Griffith_Show
+  read: '2026-11-24'
+  sets:
+  - The Complete Series, DVD, Region 1, Paramount (CBS Home Entertainment), 29 May 2007; repackaged 16 February 2016
+  - Eight single-season sets, DVD, Region 1, 2004-2006
+the-bernie-mac-show:
+  source: https://en.wikipedia.org/wiki/The_Bernie_Mac_Show
+  read: '2026-11-24'
+  sets:
+  - Season 1, DVD, 4 May 2004 (22 episodes); Wikipedia names no release of seasons 2 to 5
+the-dead-zone:
+  source: https://en.wikipedia.org/wiki/The_Dead_Zone_(TV_series)
+  read: '2026-11-24'
+  sets:
+  - The complete series, DVD, Region 1 (Canada), Lionsgate Home Entertainment, 26 June 2012; Region 4, Madman/Via Vision,
+    6 January 2021
+  - Six season sets, DVD, Region 1 (Lionsgate) 2003-2008, Region 2 (CBS Home Entertainment) 2006-2010
+the-dick-van-dyke-show:
+  source: https://en.wikipedia.org/wiki/The_Dick_Van_Dyke_Show
+  read: '2026-11-24'
+  sets:
+  - The complete series, DVD, Region 1, Image Entertainment, 24 May 2005 (158 episodes); remastered DVD 10 November 2015
+  - The complete series, Blu-ray, 13 November 2012 (remastered)
+  - Five season sets, DVD, Region 1, Image Entertainment, 2003-2004
+the-doctor:
+  source: https://en.wikipedia.org/wiki/The_Doctor_(1952_TV_series)
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+the-facts-of-life:
+  source: https://en.wikipedia.org/wiki/The_Facts_of_Life_(TV_series)
+  read: '2026-11-24'
+  sets:
+  - 'The Facts of Life: The Complete Series, DVD, Region 1, Shout! Factory, 13 January 2015 (all 201 episodes and two
+    TV films)'
+the-greatest-american-hero:
+  source: https://en.wikipedia.org/wiki/The_Greatest_American_Hero
+  read: '2026-11-24'
+  sets:
+  - The complete series, DVD, Region 1, Anchor Bay, 3 October 2006 (13 discs, "all 43 episodes"); later sets from Mill
+    Creek (2010), Cinedigm (2017) and Visual Entertainment (2022)
+  - Season sets, DVD, Region 1, from Season 1 (Anchor Bay, 15 February 2005)
+the-jane-wyman-show:
+  source: https://en.wikipedia.org/wiki/Fireside_Theatre
+  read: '2026-11-24'
+  none: Wikipedia's article on Fireside Theatre (later The Jane Wyman Show) lists no home video release.
+the-motorola-television-hour:
+  source: https://en.wikipedia.org/wiki/The_Motorola_Television_Hour
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release.
+the-u-s-steel-hour:
+  source: https://en.wikipedia.org/wiki/The_United_States_Steel_Hour
+  read: '2026-11-24'
+  none: Wikipedia's article lists no home video release. It says episodes went out live to 76 stations and by kinescope
+    to 31 more.
+tiny-toon-adventures:
+  source: https://en.wikipedia.org/wiki/Tiny_Toon_Adventures
+  read: '2026-11-24'
+  sets:
+  - Season 1, Volumes 1 to 4, DVD, 29 July 2008 to 28 May 2013 (Wikipedia gives no episode lists)
+  - Three VHS volumes, Warner Home Video, 1994 (two episodes each)
+weird-science:
+  source: https://en.wikipedia.org/wiki/Weird_Science_(TV_series)
+  read: '2026-11-24'
+  sets:
+  - The complete series, DVD, Australia, 16 August 2017
+  - The Complete Seasons 1 & 2, DVD, Region 1, A&E Home Video, 1 January 2008 (26 episodes)
+x-men-evolution:
+  source: https://en.wikipedia.org/wiki/X-Men:_Evolution
+  read: '2026-11-24'
+  sets:
+  - Season 1 and 2 volumes, DVD, Region 1, 23 September 2003 to 23 November 2004
+  - The Complete Third Season, DVD, Region 1, 23 May 2006 (Wikipedia lists the fourth season and a complete set as TBA)
+yo-kai-watch:
+  source: https://en.wikipedia.org/wiki/Yo-kai_Watch
+  read: '2026-11-24'
+  sets:
+  - First season, Volume 1, DVD, NCircle Entertainment, 26 February 2019; Volume 2, 3 September 2019
+  - 'Japan: DVD box sets and rental DVDs, Kadokawa Media Factory (no dates given)'

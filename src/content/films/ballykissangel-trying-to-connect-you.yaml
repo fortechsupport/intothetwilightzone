@@ -8,3 +8,12 @@ sources:
 last_verified: '2026-11-19'
 locked: true
 parent_series: Ballykissangel
+releases:
+- date: '2004-01-20'
+  format: DVD
+  title: 'Ballykissangel: Series 1'
+  region: Region 1
+  note: Episode 1 of series 1. Region 2 on 15 August 2005, Region 4 on 2 February 2006.
+  sources:
+  - title: 'Wikipedia: Ballykissangel'
+    url: https://en.wikipedia.org/wiki/Ballykissangel
