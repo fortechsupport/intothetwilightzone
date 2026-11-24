@@ -27625,6 +27625,17 @@
    "official": false
   }
  ],
+ "essays/talking-rods-legacy-on-50th-anniversary-2025": [
+  {
+   "cat": "content",
+   "sub": "Interview",
+   "group": "On: Rod Serling; Mark Dawidziak",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Interview",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "essays/televising-the-american-nightmare-the-twilight-zone-and-postwar-social-criticism": [
   {
    "cat": "reading",
@@ -36756,6 +36767,17 @@
    "official": null
   }
  ],
+ "locations/flight-107-trans-east-airlines": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Settings",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "locations/fords-theatre-back-there": [
   {
    "cat": "places",
@@ -36855,6 +36877,17 @@
    "official": null
   }
  ],
+ "locations/hoboken-zephyrs-ballpark": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Settings",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "locations/hollywood-tower-hotel": [
   {
    "cat": "places",
@@ -36899,6 +36932,28 @@
    "official": null
   }
  ],
+ "locations/kanamit-ship": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Settings",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "locations/king-nine-crash-site-africa-1943": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Settings",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "locations/leyte-philippines-serling-wwii": [
   {
    "cat": "places",
@@ -36907,6 +36962,17 @@
    "catTitle": "Places",
    "subTitle": "Rod Serling's places",
    "isNew": true,
+   "official": null
+  }
+ ],
+ "locations/listers-pool-room-chicago": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Settings",
+   "isNew": false,
    "official": null
   }
  ],
@@ -36922,6 +36988,17 @@
   }
  ],
  "locations/mars-zoo-people-are-alike": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Settings",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "locations/masons-pool-hall-sandusky": [
   {
    "cat": "places",
    "sub": "in-story",
@@ -36987,6 +37064,17 @@
    "official": null
   }
  ],
+ "locations/midnight-sun-apartment-building-new-york": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Settings",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "locations/mirabito-stadium-binghamton-creatures": [
   {
    "cat": "places",
@@ -37010,6 +37098,17 @@
   }
  ],
  "locations/night-gallery-the-gallery": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Settings",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "locations/oakwood-where-is-everybody": [
   {
    "cat": "places",
    "sub": "in-story",
@@ -37244,6 +37343,17 @@
   }
  ],
  "locations/room-22-morgue": [
+  {
+   "cat": "places",
+   "sub": "in-story",
+   "group": null,
+   "catTitle": "Places",
+   "subTitle": "Settings",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "locations/ruined-public-library-time-enough-at-last": [
   {
    "cat": "places",
    "sub": "in-story",
@@ -66335,6 +66445,17 @@
    "official": false
   }
  ],
+ "podcasts/earbud-theater": [
+  {
+   "cat": "podcasts",
+   "sub": "fiction",
+   "group": "Inspired by the show, in their own words",
+   "catTitle": "Podcasts",
+   "subTitle": "Fiction inspired by the show",
+   "isNew": true,
+   "official": false
+  }
+ ],
  "podcasts/entering-the-fifth-dimension": [
   {
    "cat": "podcasts",
@@ -66731,6 +66852,17 @@
    "official": false
   }
  ],
+ "podcasts/the-other-stories": [
+  {
+   "cat": "podcasts",
+   "sub": "fiction",
+   "group": "Inspired by the show, in their own words",
+   "catTitle": "Podcasts",
+   "subTitle": "Fiction inspired by the show",
+   "isNew": true,
+   "official": false
+  }
+ ],
  "podcasts/the-sci-fright-zone": [
   {
    "cat": "podcasts",
@@ -66816,6 +66948,17 @@
    "catTitle": "Podcasts",
    "subTitle": "Podcasts about the show",
    "isNew": false,
+   "official": false
+  }
+ ],
+ "podcasts/the-veil-audio-drama": [
+  {
+   "cat": "podcasts",
+   "sub": "fiction",
+   "group": "Inspired by the show, in their own words",
+   "catTitle": "Podcasts",
+   "subTitle": "Fiction inspired by the show",
+   "isNew": true,
    "official": false
   }
  ],

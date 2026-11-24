@@ -15,6 +15,13 @@ sources:
 research_confidence: medium
 last_verified: '2026-11-19'
 media:
+- type: "video"
+  title: "Conversations with Rod Serling (Ithaca College, 1974)"
+  url: "https://www.youtube.com/watch?v=UaiO8GVm2do"
+  host: "YouTube (linked by the Rod Serling Memorial Foundation)"
+  date: "1974"
+  rights: "unknown"
+  note: "Title and year as linked by the Rod Serling Memorial Foundation's Media page gives them (28 July 2019); the uploader's right to post it is not confirmed."
 - type: video
   title: 'Rod Serling: Writing for Television discussion, Ithaca College (c. 1972)'
   url: https://www.youtube.com/watch?v=evnNy541L9Q

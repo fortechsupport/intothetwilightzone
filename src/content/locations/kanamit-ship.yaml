@@ -1,0 +1,19 @@
+name: "The Kanamit ship (To Serve Man)"
+kind: in-story
+filmed:
+- ref: 1959/to-serve-man
+  note: "The ship Chambers is forced aboard."
+episodes:
+- 1959/to-serve-man
+notes: >-
+  The Kanamits' spaceship. After the Kanamit addresses the United Nations, Chambers is taken aboard one bound for
+  the Kanamits' home planet, and tells the story from an "otherwise empty, locked room".
+sources:
+- title: "Wikipedia: To Serve Man (The Twilight Zone)"
+  url: https://en.wikipedia.org/wiki/To_Serve_Man_(The_Twilight_Zone)
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

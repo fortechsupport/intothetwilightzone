@@ -7,14 +7,19 @@ hosts:
 guests:
 - David Bianculli
 network: NPR
-description: 'A Fresh Air segment, introduced by Dave Davies, in which the programme''s TV critic David Bianculli looks
-  back at Rod Serling and The Twilight Zone. The transcript page carries no date; it mentions the 50th anniversary of Serling''s
-  death (our reading: 2025).'
+description: >-
+  A Fresh Air segment, introduced by Dave Davies, in which the programme's TV critic David Bianculli looks back at
+  Rod Serling and The Twilight Zone, including the Rod Serling Memorial Foundation's commemoration of the 50th
+  anniversary of his death. The transcript page carries no date (copyright 2025); NPR member stations posted a
+  segment of the same title on 7 October 2025.
 covers:
 - '1959'
 links:
   website: https://www.npr.org/transcripts/nx-s1-5564730
 sources:
+- title: 'KWBU: Remembering The Twilight Zone Creator Rod Serling (7 October 2025)'
+  url: https://www.kwbu.org/2025-10-07/remembering-the-twilight-zone-creator-rod-serling
+  note: A member-station page of the same title; its address gives the date.
 - title: 'NPR transcript: Remembering ''The Twilight Zone'' creator Rod Serling (Fresh Air)'
   url: https://www.npr.org/transcripts/nx-s1-5564730
   publisher: NPR

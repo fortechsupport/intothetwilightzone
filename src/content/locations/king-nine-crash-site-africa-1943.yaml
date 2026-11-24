@@ -1,0 +1,21 @@
+name: "King Nine crash site, Africa (1943)"
+kind: in-story
+region: "North Africa"
+filmed:
+- ref: 1959/king-nine-will-not-return
+  note: "Where Captain Embry wakes beside the wreck."
+episodes:
+- 1959/king-nine-will-not-return
+notes: >-
+  The desert wreck of the King Nine, "B-25, medium bomber, Twelfth Air Force", which "took off from Tunisia to
+  bomb the southern tip of Italy"; Captain Embry finds himself alone among the wreckage. The opening narration
+  sets it: "This is Africa, 1943."
+sources:
+- title: "Wikipedia: King Nine Will Not Return"
+  url: https://en.wikipedia.org/wiki/King_Nine_Will_Not_Return
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

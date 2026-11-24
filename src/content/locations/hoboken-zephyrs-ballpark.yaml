@@ -1,0 +1,23 @@
+name: "The Hoboken Zephyrs' ballpark, Hoboken, New Jersey (The Mighty Casey)"
+kind: in-story
+city: "Hoboken"
+region: "New Jersey"
+country: "United States"
+filmed:
+- ref: 1959/the-mighty-casey
+  note: "The ballpark where Casey tries out and pitches."
+episodes:
+- 1959/the-mighty-casey
+notes: >-
+  "A baseball stadium that housed a major league ball club known as the Hoboken Zephyrs", where, "in Hoboken, New
+  Jersey, it was tryout day" and the pitcher Casey joins the team, which folds at the end. The aired episode gives
+  the stadium no name; Wikipedia says that in Serling's original story it was "Tebbet's Field".
+sources:
+- title: "Wikipedia: The Mighty Casey"
+  url: https://en.wikipedia.org/wiki/The_Mighty_Casey
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

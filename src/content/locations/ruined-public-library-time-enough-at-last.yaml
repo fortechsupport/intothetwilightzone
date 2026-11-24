@@ -1,0 +1,19 @@
+name: "The ruined public library (Time Enough at Last)"
+kind: in-story
+filmed:
+- ref: 1959/time-enough-at-last
+  note: "Where Henry Bemis finds the books."
+episodes:
+- 1959/time-enough-at-last
+notes: >-
+  After a nuclear war, Henry Bemis, who survived in a bank vault, "sees the ruins of a public library in the
+  distance" and finds its books intact. The episode does not name the city or library.
+sources:
+- title: "Wikipedia: Time Enough at Last"
+  url: https://en.wikipedia.org/wiki/Time_Enough_at_Last
+  note: Plot summary and narration quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- second-pass-2026-11-24
+last_verified: '2026-11-24'

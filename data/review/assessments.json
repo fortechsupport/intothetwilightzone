@@ -29135,6 +29135,18 @@
   "subcategory": "Book chapters",
   "sort": "tales of dread in the twilight zone"
  },
+ "essays/talking-rods-legacy-on-50th-anniversary-2025": {
+  "connection": "Three writers on the Rod Serling Memorial Foundation's board, Nick Parisi, Mark Olshaker and Mark Dawidziak, \"discuss Rod's legacy on the 50th Anniversary of his death\", in a recording the Foundation posted on its Media page on 28 June 2025.",
+  "tier": "related",
+  "tier_reason": "Writing by or about Rod Serling.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Rod Serling Memorial Foundation: Media, Podcasts & Video",
+  "source_url": "https://rodserling.com/media-video/",
+  "title": "Talking Rod's Legacy on 50th Anniversary (2025)",
+  "subcategory": "Interviews",
+  "sort": "talking rods legacy on 000050th anniversary 002025"
+ },
  "essays/televising-the-american-nightmare-the-twilight-zone-and-postwar-social-criticism": {
   "connection": "Argues that Serling's anthology used fantasy to expose the pressures of Cold War consumerism, advertising and white-dominated social norms, urging viewers to question the ideals sold to them.",
   "tier": "core",
@@ -36563,6 +36575,18 @@
   "subcategory": "Filming locations",
   "sort": "fairmont empress and government street victoria"
  },
+ "locations/flight-107-trans-east-airlines": {
+  "connection": "Flight 107, Trans East Airlines (The Arrival) was used for “The Arrival” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Arrival (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Arrival_(The_Twilight_Zone)",
+  "title": "Flight 107, Trans East Airlines (The Arrival)",
+  "subcategory": "Other places",
+  "sort": "flight 000107 trans east airlines the arrival"
+ },
  "locations/fords-theatre-back-there": {
   "connection": "A real historic place as Serling imagined it in an episode.",
   "tier": "core",
@@ -36671,6 +36695,18 @@
   "subcategory": "In-story places",
   "sort": "hiway caf"
  },
+ "locations/hoboken-zephyrs-ballpark": {
+  "connection": "The Hoboken Zephyrs' ballpark, Hoboken, New Jersey (The Mighty Casey) (Hoboken, New Jersey) was used for “The Mighty Casey” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Mighty Casey",
+  "source_url": "https://en.wikipedia.org/wiki/The_Mighty_Casey",
+  "title": "The Hoboken Zephyrs' ballpark, Hoboken, New Jersey (The Mighty Casey)",
+  "subcategory": "Other places",
+  "sort": "hoboken zephyrs ballpark hoboken new jersey the mighty casey"
+ },
  "locations/hollywood-tower-hotel": {
   "connection": "The fictional hotel behind the franchise's theme-park attractions.",
   "tier": "related",
@@ -36719,6 +36755,30 @@
   "subcategory": "Archives",
   "sort": "rod serling archives ithaca college library"
  },
+ "locations/kanamit-ship": {
+  "connection": "The Kanamit ship (To Serve Man) was used for “To Serve Man” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: To Serve Man (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/To_Serve_Man_(The_Twilight_Zone)",
+  "title": "The Kanamit ship (To Serve Man)",
+  "subcategory": "Other places",
+  "sort": "kanamit ship to serve man"
+ },
+ "locations/king-nine-crash-site-africa-1943": {
+  "connection": "King Nine crash site, Africa (1943) (North Africa) was used for “King Nine Will Not Return” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: King Nine Will Not Return",
+  "source_url": "https://en.wikipedia.org/wiki/King_Nine_Will_Not_Return",
+  "title": "King Nine crash site, Africa (1943)",
+  "subcategory": "Other places",
+  "sort": "king nine crash site africa 001943"
+ },
  "locations/leyte-philippines-serling-wwii": {
   "connection": "Where the war experiences behind many Serling scripts took place.",
   "tier": "related",
@@ -36730,6 +36790,18 @@
   "title": "Leyte, Philippines (Serling's war)",
   "subcategory": "Rod Serling's places",
   "sort": "leyte philippines serlings war"
+ },
+ "locations/listers-pool-room-chicago": {
+  "connection": "Lister's Pool Room, Chicago (A Game of Pool) (Chicago, Illinois) was used for “A Game of Pool” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: A Game of Pool (The Twilight Zone, 1959)",
+  "source_url": "https://en.wikipedia.org/wiki/A_Game_of_Pool_(The_Twilight_Zone,_1959)",
+  "title": "Lister's Pool Room, Chicago (A Game of Pool)",
+  "subcategory": "Other places",
+  "sort": "listers pool room chicago a game of pool"
  },
  "locations/maple-street": {
   "connection": "Setting of the most-taught Twilight Zone episode and its 2002-series remake.",
@@ -36754,6 +36826,18 @@
   "title": "The Martian zoo (\"People Are Alike All Over\")",
   "subcategory": "In-story places",
   "sort": "martian zoo people are alike all over"
+ },
+ "locations/masons-pool-hall-sandusky": {
+  "connection": "Mason's Pool Hall, Sandusky, Ohio (A Game of Pool) (Sandusky, Ohio) was used for “A Game of Pool” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: A Game of Pool (The Twilight Zone, 1959)",
+  "source_url": "https://en.wikipedia.org/wiki/A_Game_of_Pool_(The_Twilight_Zone,_1959)",
+  "title": "Mason's Pool Hall, Sandusky, Ohio (A Game of Pool)",
+  "subcategory": "Other places",
+  "sort": "masons pool hall sandusky ohio a game of pool"
  },
  "locations/mgm-lot-1-culver-city-stages": {
   "connection": "MGM Studios Lot 1 (now Sony Pictures Studios) (Culver City, California) was used for “The Lonely” (1959) and “Person or Persons Unknown” (1959).",
@@ -36815,6 +36899,18 @@
   "subcategory": "Studio backlots and sets",
   "sort": "mgm new york street"
  },
+ "locations/midnight-sun-apartment-building-new-york": {
+  "connection": "Norma's apartment building, New York City (The Midnight Sun) (New York City, New York) was used for “The Midnight Sun” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: The Midnight Sun (The Twilight Zone)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Midnight_Sun_(The_Twilight_Zone)",
+  "title": "Norma's apartment building, New York City (The Midnight Sun)",
+  "subcategory": "Other places",
+  "sort": "normas apartment building new york city the midnight sun"
+ },
  "locations/mirabito-stadium-binghamton-creatures": {
   "connection": "Binghamton's minor-league ballpark, home of the Double-A Binghamton Rumble Ponies, hosts the team's annual \"Binghamton Creatures\" games, an alternate identity the club adopts in honor of hometown son Rod Serling and his tales of the strange.",
   "tier": "related",
@@ -36850,6 +36946,18 @@
   "title": "The Night Gallery",
   "subcategory": "In-story places",
   "sort": "night gallery"
+ },
+ "locations/oakwood-where-is-everybody": {
+  "connection": "Oakwood (Where Is Everybody?) was used for “Where Is Everybody?” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Where Is Everybody?",
+  "source_url": "https://en.wikipedia.org/wiki/Where_Is_Everybody%3F",
+  "title": "Oakwood (Where Is Everybody?)",
+  "subcategory": "Other places",
+  "sort": "oakwood where is everybody"
  },
  "locations/olancha-dunes-hundred-yards-over-the-rim": {
   "connection": "Olancha and the Olancha Sand Dunes (Olancha, California) was used for “A Hundred Yards Over the Rim” (1959).",
@@ -37066,6 +37174,18 @@
   "title": "Room 22 (\"Twenty Two\")",
   "subcategory": "In-story places",
   "sort": "room 000022 twenty two"
+ },
+ "locations/ruined-public-library-time-enough-at-last": {
+  "connection": "The ruined public library (Time Enough at Last) was used for “Time Enough at Last” (1959).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Time Enough at Last",
+  "source_url": "https://en.wikipedia.org/wiki/Time_Enough_at_Last",
+  "title": "The ruined public library (Time Enough at Last)",
+  "subcategory": "Other places",
+  "sort": "ruined public library time enough at last"
  },
  "locations/sage-chapel-cornell-serling-memorial": {
   "connection": "A public memorial service for Serling was held in Cornell University's Sage Chapel on July 7, 1975, a few days after his private funeral in Interlaken.",
@@ -42132,7 +42252,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -42852,7 +42972,7 @@
   "sort": "cesare danova"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -45912,7 +46032,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -51276,7 +51396,7 @@
   "sort": "jonathan winters"
  },
  "people/jordan-peele": {
-  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “The Comedian” and “Nightmare at 30,000 Feet”).",
+  "connection": "Jordan Peele wrote 1 episode of the 2019 series (“Downtime”); narrated 20 episodes of the 2019 series (including “Nightmare at 30,000 Feet” and “The Comedian”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -55944,7 +56064,7 @@
   "sort": "paul le mat"
  },
  "people/paul-lynch": {
-  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “A Message from Charity” and “Examination Day”).",
+  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “Examination Day” and “A Message from Charity”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -61140,7 +61260,7 @@
   "sort": "werner klemperer"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -61919,6 +62039,18 @@
   "subcategory": "Podcasts",
   "sort": "ear of the beholder liw the twilight zone review"
  },
+ "podcasts/earbud-theater": {
+  "connection": "An anthology of original audio dramas created by Casey Wolfe, which describes itself as \"in the vein of classic series like THE TWILIGHT ZONE and OUTER LIMITS\".",
+  "tier": "tangential",
+  "tier_reason": "Mentions the show in passing.",
+  "recommendation": "maybe",
+  "reason": "Only partly about the show.",
+  "source_title": "Apple Podcasts: Earbud Theater",
+  "source_url": "https://podcasts.apple.com/us/podcast/earbud-theater/id894353107",
+  "title": "Earbud Theater",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "earbud theater"
+ },
  "podcasts/entering-the-fifth-dimension": {
   "connection": "A podcast devoted to the show.",
   "tier": "core",
@@ -61949,8 +62081,8 @@
   "tier_reason": "About Serling and the show as a whole.",
   "recommendation": "include",
   "reason": "A national public-radio retrospective by its TV critic.",
-  "source_title": "NPR transcript: Remembering 'The Twilight Zone' creator Rod Serling (Fresh Air)",
-  "source_url": "https://www.npr.org/transcripts/nx-s1-5564730",
+  "source_title": "KWBU: Remembering The Twilight Zone Creator Rod Serling (7 October 2025)",
+  "source_url": "https://www.kwbu.org/2025-10-07/remembering-the-twilight-zone-creator-rod-serling",
   "title": "Fresh Air: Remembering 'The Twilight Zone' creator Rod Serling",
   "subcategory": "Single episodes of other podcasts",
   "sort": "fresh air remembering the twilight zone creator rod serling"
@@ -62351,6 +62483,18 @@
   "subcategory": "Podcasts",
   "sort": "key of imagination a twilight zone show with joe meyer"
  },
+ "podcasts/the-other-stories": {
+  "connection": "A horror and sci-fi short-story podcast created by the team at Hawk and Cleaver (Luke Kondor, Daniel Willcocks, Ben Errington and Karl Hughes), with more than 600 episodes, published by Rusty Quill.",
+  "tier": "tangential",
+  "tier_reason": "Mentions the show in passing.",
+  "recommendation": "maybe",
+  "reason": "Only partly about the show.",
+  "source_title": "Rusty Quill: The Other Stories",
+  "source_url": "https://rustyquill.com/show/the-other-stories",
+  "title": "The Other Stories",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "other stories"
+ },
  "podcasts/the-sci-fright-zone": {
   "connection": "Covers TZ, Outer Limits and Night Gallery.",
   "tier": "core",
@@ -62446,6 +62590,18 @@
   "title": "The Twilight Zone Zone",
   "subcategory": "Podcasts",
   "sort": "twilight zone zone"
+ },
+ "podcasts/the-veil-audio-drama": {
+  "connection": "A sci-fi audio drama created by Matt Fowler, which describes itself as \"along the vein of beloved, dark, cutting-edge sci-fi series like The Twilight Zone and Black Mirror\".",
+  "tier": "tangential",
+  "tier_reason": "Mentions the show in passing.",
+  "recommendation": "maybe",
+  "reason": "Only partly about the show.",
+  "source_title": "Chartable: The Veil Audio Drama",
+  "source_url": "https://chartable.com/podcasts/the-veil-audio-drama",
+  "title": "The Veil (audio drama)",
+  "subcategory": "Twilight Zone podcasts",
+  "sort": "veil audio drama"
  },
  "podcasts/time-enough-podcast": {
   "connection": "A podcast devoted to the show.",
