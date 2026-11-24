@@ -178,7 +178,9 @@ Plan: docs/plans/research-music.md (approved by Adam 2026-11-24, Q1 to Q6 as sug
 **Likely missing:** the full cover list of the theme (SecondHandSongs), samples (WhoSampled), per-episode stock-music cues, bands named after episodes.
 
 ### Podcasts
-- [ ] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+- [x] Content plan approved · [ ] Researched · [ ] Records decided · [ ] Pages built
+
+Plan: docs/plans/research-podcasts.md (approved by Adam 2026-11-24, Q1 to Q9 as suggested, including the RSS episode table).
 
 | Subcategory | Records (Off / Unoff) | Depth |
 |---|---:|---|
