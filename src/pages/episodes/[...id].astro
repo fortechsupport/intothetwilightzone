@@ -35,6 +35,9 @@ const drawsOn = await Promise.all(allConnections.filter((c) => c.data.from === e
 const legacy = await Promise.all(connections.map(async (c) => ({ c, work: await resolveRef(c.data.from) })));
 const legacyGroups = MEDIUM_ORDER.map((m) => [m, legacy.filter(({ work }) => mediumOf(work?.kind ?? '') === m).sort((a, b) => sortKey(a.work?.title ?? '').localeCompare(sortKey(b.work?.title ?? '')))] as const).filter(([, l]) => l.length > 0);
 const radio = (await getCollection('radio')).filter((r) => r.data.adapts_episode === e.id);
+// Music (Music plan Q4): who wrote the episode's score, or the CBS library music it used, with the sources.
+const m = d.music;
+const sep = (i: number, n: number) => (i === 0 ? '' : i === n - 1 ? ' and ' : ', ');
 // On stage (Stage plan, section 5): productions that perform this episode, and plays that adapt it.
 const stagePlays = (await getCollection('films')).filter((f) => !f.data.duplicate_of && f.data.kind === 'stage' && f.data.segments.some((sg) => sg.adapts_episode === e.id)).map((f) => ({ title: f.data.title, url: `/films/${f.id}/`, year: f.data.release_date?.slice(0, 4) }));
 const stageWorks = (await getCollection('works')).filter((w) => !w.data.duplicate_of && w.data.kind === 'stage' && w.data.content_of.includes(e.id)).map((w) => ({ title: w.data.title, url: `/works/${w.id}/`, year: w.data.year ? String(w.data.year) : undefined }));
@@ -73,6 +76,15 @@ const description = `"${d.title}" (${d.series} series, ${episodeNumber(d)}), fir
     {d.directors.length > 0 && <><dt>Directed by</dt><dd>{d.directors.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
     {d.narrator && <><dt>Narrator</dt><dd><a href={personUrl(d.narrator)}>{d.narrator}</a></dd></>}
     {d.cast.length > 0 && <><dt>Cast</dt><dd>{d.cast.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
+    {m && (
+      <><dt>Music</dt><dd>
+        {m.score === 'stock' ? 'Stock music from the CBS library' : m.composers.length ? <>Original score by {m.composers.map((n, i) => <>{sep(i, m.composers.length)}<a href={personUrl(n)}>{n}</a></>)}</> : 'Original score'}
+        {m.score === 'original-and-stock' && ', with music from the CBS library'}
+        {m.library_composers.length > 0 && <div class="small">Library music by {m.library_composers.map((n, i) => <>{sep(i, m.library_composers.length)}<a href={personUrl(n)}>{n}</a></>)}</div>}
+        {m.note && <div class="small muted">{m.note}</div>}
+        <div class="small muted">Sources: {m.sources.map((src, i) => <>{i > 0 && '; '}{src.url ? <a href={src.url} rel="noopener">{src.title}</a> : src.author ? `${src.author}, ${src.title}` : src.title}</>)}</div>
+      </dd></>
+    )}
     <ThemeList slugs={themes} />
     <WhereToWatch info={watchFor({ series: d.series, justwatch: d.links?.justwatch })} note={`Season ${d.season} of the ${d.series} series.`} />
   </dl>

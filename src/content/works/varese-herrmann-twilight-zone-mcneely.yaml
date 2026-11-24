@@ -11,7 +11,6 @@ details:
   format: CD (2-disc)
   series: The Twilight Zone (1959-64)
   catalog_no: 302 066 087
-  catalog: 302 066 087
   recorded: Abbey Road Studios, September 1999
   conductor: Joel McNeely
   people:
@@ -38,5 +37,3 @@ media:
   host: Qobuz
   rights: link-only
   subtype: listing
-categories:
-- music/soundtracks

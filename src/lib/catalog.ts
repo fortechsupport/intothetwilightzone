@@ -39,7 +39,7 @@ export interface LibItem {
   recordKey?: string; // for content records, the record itself
 }
 export interface Org { slug: string; name: string; aka: string[]; kind: string; official: boolean; record?: any; links: OrgLink[]; href: string }
-export interface SubInfo { slug: string; title: string; blurb: string; intro?: string; connection?: string; isNew?: boolean; order?: 'az' | 'chrono'; side?: 'official' | 'unofficial'; entries: Entry[] }
+export interface SubInfo { slug: string; title: string; blurb: string; intro?: string; connection?: string; isNew?: boolean; order?: 'az' | 'chrono'; side?: 'official' | 'unofficial'; groups?: string[]; orderNote?: string; entries: Entry[] }
 export interface CatInfo { slug: string; title: string; kind?: 'section' | 'category' | 'library'; split?: boolean; isNew?: boolean; description: string; intro: string[]; connection: string; seeAlso?: [string, string][]; subs: SubInfo[] }
 
 const clamp = (s: string | undefined, n = 360) => {

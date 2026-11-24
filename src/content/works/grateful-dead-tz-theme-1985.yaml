@@ -4,12 +4,13 @@ subtype: theme-single
 year: 1985
 creator: Grateful Dead with Merl Saunders
 publisher: CBS
-description: For the CBS revival, Merl Saunders and the Grateful Dead built a new, effects-laden opening around
-  Constant's four-note guitar riff. Mickey Hart handled much of the sound design, and synthesist Bob Bralove helped
-  record the sessions; the band also debuted the theme live during a March 1985 Berkeley show with Saunders.
+description: For the CBS revival, Merl Saunders and the Grateful Dead built a new, effects-laden opening around Constant's
+  four-note guitar riff. Mickey Hart handled much of the sound design, and synthesist Bob Bralove helped record the sessions;
+  the band also debuted the theme live during a March 1985 Berkeley show with Saunders.
 details:
   format: broadcast (TV main and end title)
   series: The Twilight Zone (1985-89)
+  length: 0:50
 sources:
 - title: jambase.com
   url: https://www.jambase.com/article/grateful-dead-merl-saunders-twilight-zone-soundtrack
@@ -17,3 +18,7 @@ sources:
   url: https://classicthemes.com/50sTVThemes/themePages/twilightZone.html
 research_confidence: high
 last_verified: '2026-11-19'
+links:
+  youtube: KF-yh4mU6ps
+ids:
+  amazon_asin: B00000AFQF

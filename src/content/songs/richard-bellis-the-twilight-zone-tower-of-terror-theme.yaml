@@ -3,14 +3,13 @@ artist: Richard Bellis
 genre: Attraction score
 year: 1994
 tz_connection: theme
+subtype: main-title
 description: >-
   Richard Bellis's music for the pre-show "episode" of the Disney attraction, in which Rod Serling introduces the
   Hollywood Tower Hotel story. Bellis re-recorded the series' original instrumentation for the theme and wrote the
   rest of the music himself. WhoSampled also connects the piece to Herrmann's first-season opening.
 relevance: core
 research_confidence: medium
-categories:
-- music/theme
 sources:
 - title: WhoSampled – Richard Bellis 'The Twilight Zone Tower of Terror Theme'
   url: >-

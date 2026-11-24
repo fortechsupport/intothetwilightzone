@@ -68880,10 +68880,10 @@
  "songs/2-unlimited-twilight-zone-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -68891,10 +68891,10 @@
  "songs/2-unlimited-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -68902,10 +68902,10 @@
  "songs/311-prisoner-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -68913,10 +68913,10 @@
  "songs/311-prisoner": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -68924,32 +68924,32 @@
  "songs/69-boyz-buddy-buddy": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/8-bit-arcade-the-twilight-zone": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/a-tribe-called-quest-description-of-a-fool": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -68957,10 +68957,10 @@
  "songs/aimee-allen-cooties": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -68968,10 +68968,10 @@
  "songs/alienfaktor-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -68979,10 +68979,10 @@
  "songs/amphabian-the-bermuda-triangle": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -68990,10 +68990,10 @@
  "songs/anthony-bieler-man-is-the-monster": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69001,10 +69001,10 @@
  "songs/ariana-grande-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69012,10 +69012,10 @@
  "songs/asd-band-s-t-r-a-n-g-e": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69023,10 +69023,10 @@
  "songs/average-white-band-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69034,10 +69034,10 @@
  "songs/b-l-a-k-omen-ufomen": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69045,10 +69045,10 @@
  "songs/babytron-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69056,21 +69056,21 @@
  "songs/bad-company-uk-infinity": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/banaroo-be-my-satellite": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69078,10 +69078,10 @@
  "songs/bazooka-lethal-breaks": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -69089,21 +69089,21 @@
  "songs/bernard-herrmann-the-twilight-zone-1959": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/big-audio-dynamite-dial-a-hitman-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69111,10 +69111,10 @@
  "songs/big-audio-dynamite-dial-a-hitman": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69122,10 +69122,10 @@
  "songs/billy-creepshow-in-the-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69133,21 +69133,21 @@
  "songs/black-sheep-blunted-10": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/bobsquared-time-enough-at-last": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69155,10 +69155,10 @@
  "songs/bon-jovi-who-says-you-cant-go-home": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69166,10 +69166,10 @@
  "songs/brett-sekoya-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69177,10 +69177,10 @@
  "songs/brian-derba-zwilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69188,21 +69188,21 @@
  "songs/c-duncan-the-midnight-sun": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/carnal-machinery-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Uses the phrase \"twilight zone\"",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69210,10 +69210,10 @@
  "songs/cattle-decapitation-to-serve-man": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69221,10 +69221,10 @@
  "songs/cdm-project-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69232,21 +69232,21 @@
  "songs/cha-os-this-is-too-much-bass": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/chamillionaire-go-hard": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69254,21 +69254,21 @@
  "songs/cincinnati-pops-kunzel-twilight-zone-chiller": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/clipma-give-to-me-clipma": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69276,10 +69276,10 @@
  "songs/cotton-brain-black-hole": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Uses the phrase \"twilight zone\"",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69287,10 +69287,10 @@
  "songs/count-bass-d-feat-mf-doom-make-a-buck": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -69298,10 +69298,10 @@
  "songs/covert-flops-the-midnight-sun": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69309,10 +69309,10 @@
  "songs/creedence-clearwater-revival-midnight-special-twilight-zone-the-movie": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69320,10 +69320,10 @@
  "songs/da-band-tonight": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Uses the phrase \"twilight zone\"",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69331,10 +69331,10 @@
  "songs/damn-yankees-runaway": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69342,10 +69342,10 @@
  "songs/davey-dips-insane-asylum": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69353,10 +69353,10 @@
  "songs/dennis-deyoung-little-did-we-know": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69364,10 +69364,10 @@
  "songs/dillinja-hard-noize": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -69375,43 +69375,43 @@
  "songs/dj-bountyhunter-demilitarized-zone": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/dj-cam-twilight-zone": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/dj-coone-twilight-zone": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/dj-jazzy-jeff-and-the-fresh-prince-then-she-bit-me-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69419,10 +69419,10 @@
  "songs/dj-jazzy-jeff-and-the-fresh-prince-then-she-bit-me": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69430,43 +69430,43 @@
  "songs/dj-premier-tiimmy-turner-preemix": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/dj-roc-lets-get-it-started": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/dj-sly-twilight-zone": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/dj-smokey-face-down-ass-up": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -69474,21 +69474,21 @@
  "songs/dj-spanish-fly-smoking-onion": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/doom-service-monsters-are-due": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69496,10 +69496,10 @@
  "songs/dr-john-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69507,10 +69507,10 @@
  "songs/drew-anton-stuck-in-limbo": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Uses the phrase \"twilight zone\"",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69518,10 +69518,10 @@
  "songs/e-40-zombie": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69529,10 +69529,10 @@
  "songs/eagles-hotel-california": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "Tributes",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69540,10 +69540,10 @@
  "songs/echoberyl-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Uses the phrase \"twilight zone\"",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69551,10 +69551,10 @@
  "songs/el-p-how-to-serve-man-the-meanest-things-id-never-say": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69562,10 +69562,10 @@
  "songs/electrik-emblem-is-this-the-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69573,10 +69573,10 @@
  "songs/electromud-time-enough-at-last": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69584,10 +69584,10 @@
  "songs/epmd-strictly-business": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69595,21 +69595,21 @@
  "songs/family-quest-sleepwalking-wake-up-mix": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/fountains-of-wayne-i-want-an-alien-for-christmas-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69617,10 +69617,10 @@
  "songs/fountains-of-wayne-i-want-an-alien-for-christmas": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69628,10 +69628,10 @@
  "songs/freedom-fry-mr-nobody": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69639,10 +69639,10 @@
  "songs/furozh-at-the-park": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -69650,21 +69650,21 @@
  "songs/gary-portnoy-alien": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/george-white-group-thats-when-i-think-of-you": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Uses the phrase \"twilight zone\"",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69672,21 +69672,21 @@
  "songs/gigolo-tony-smurf-rock": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/golden-earring-twilight-zone-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69694,10 +69694,10 @@
  "songs/golden-earring-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69705,21 +69705,21 @@
  "songs/grateful-dead-the-twilight-zone-1985": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/hassle-hound-monsters-are-due-on-maple-street": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69727,10 +69727,10 @@
  "songs/huycat-supernatural": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69738,10 +69738,10 @@
  "songs/ice-cube-ghetto-horror-show": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Uses the phrase \"twilight zone\"",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69749,10 +69749,10 @@
  "songs/ice-cube-robbin-hood-cause-it-aint-all-good": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69760,10 +69760,10 @@
  "songs/iron-maiden-twilight-zone-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69771,10 +69771,10 @@
  "songs/iron-maiden-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69782,10 +69782,10 @@
  "songs/ivan-campo-and-when-the-sky-was-opened": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69793,10 +69793,10 @@
  "songs/j-rock-fake-newz": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69804,21 +69804,21 @@
  "songs/jacky-terrasson-take-five-take-1": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/jaimie-vernon-time-enough-at-last": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69826,21 +69826,21 @@
  "songs/james-andreasen-ending": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/james-k-agostino-something-so-strange": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69849,9 +69849,9 @@
   {
    "cat": "music",
    "sub": "theme",
-   "group": null,
+   "group": "Twilight Zone: The Movie (1983)",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "The themes",
    "isNew": false,
    "official": true
   }
@@ -69859,10 +69859,10 @@
  "songs/jerry-wallace-if-you-leave-me-tonight-ill-cry": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -69870,10 +69870,10 @@
  "songs/jim-cooney-in-the-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69881,10 +69881,10 @@
  "songs/jim-kroft-gravitys-gone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69892,10 +69892,10 @@
  "songs/joe-goodson-on-my-own": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69903,10 +69903,10 @@
  "songs/john-cale-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69914,10 +69914,10 @@
  "songs/john-entwistle-sleeping-man": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Uses the phrase \"twilight zone\"",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69925,10 +69925,10 @@
  "songs/jolaade-the-21st-century-holiday-hotel": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69936,10 +69936,10 @@
  "songs/jona-inception": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69947,21 +69947,21 @@
  "songs/jonathan-davis-the-twilight-zone-2002": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/kid-cudi-m3tamorphosis": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Uses the phrase \"twilight zone\"",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69969,10 +69969,10 @@
  "songs/kid-rock-killin-brain-cells": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -69980,21 +69980,21 @@
  "songs/killah-priest-the-seer-the-poet": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/king-tune-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70002,10 +70002,10 @@
  "songs/klone-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70013,32 +70013,32 @@
  "songs/koji-kondo-castle-theme-super-mario-bros-3": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/kokane-twilight-zone": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/ky-armani-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70046,10 +70046,10 @@
  "songs/l-a-style-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70057,10 +70057,10 @@
  "songs/lacobra-superstition": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70068,10 +70068,10 @@
  "songs/larry-zanier-twilight-zone-movie": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70079,10 +70079,10 @@
  "songs/levana-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70090,10 +70090,10 @@
  "songs/lilace-black-man": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70101,10 +70101,10 @@
  "songs/lilies-of-megiddo-welcome-to-the-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70112,10 +70112,10 @@
  "songs/lisa-brokop-when-you-get-to-be-you": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Uses the phrase \"twilight zone\"",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70123,10 +70123,10 @@
  "songs/loudon-wainwright-living-alone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70134,10 +70134,10 @@
  "songs/luke-ski-the-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70145,10 +70145,10 @@
  "songs/lupe-fiasco-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70156,32 +70156,32 @@
  "songs/marco-beltrami-the-twilight-zone-2019": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/marius-constant-the-twilight-zone-1959": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/megamind-taub-picotto-mix": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -70189,10 +70189,10 @@
  "songs/mf-doom-go-with-the-flow": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70200,10 +70200,10 @@
  "songs/michael-jackson-threatened": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -70211,10 +70211,10 @@
  "songs/mila-jam-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70222,10 +70222,10 @@
  "songs/ministry-twilight-zone-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70233,10 +70233,10 @@
  "songs/ministry-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70244,10 +70244,10 @@
  "songs/mono-puff-to-serve-mankind": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70255,10 +70255,10 @@
  "songs/morose-code-willoughby": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70266,10 +70266,10 @@
  "songs/moses-p-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70277,10 +70277,10 @@
  "songs/moses-pelham-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70288,54 +70288,54 @@
  "songs/nayutalien-feat-hatsune-miku-alien-alien": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/nebula-h-twilight-zone": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/neil-cicierega-mouth-dreams-intro": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/neil-norman-and-his-cosmic-orchestra-twilight-zone": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/neroche-time-enough-at-last": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -70343,10 +70343,10 @@
  "songs/new-world-revolution-reality": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70354,10 +70354,10 @@
  "songs/nmsxs-lo-fi-sci-fi": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70365,10 +70365,10 @@
  "songs/nuclear-assault-to-serve-man": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70376,10 +70376,10 @@
  "songs/paleshifter-overthinker": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70387,10 +70387,10 @@
  "songs/paul-wilcock-i-heard-a-noise-downstairs": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70398,10 +70398,10 @@
  "songs/peboop-jimdog-the-peboop-dance": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70409,10 +70409,10 @@
  "songs/pendulum-axle-grinder": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -70420,10 +70420,10 @@
  "songs/polarboy-impact": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70431,21 +70431,21 @@
  "songs/pop-will-eat-itself-def-con-one": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/pop-will-eat-itself-nightmare-at-20-000-feet": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "covers-samples",
+   "group": "Samples noted by fans",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -70453,10 +70453,10 @@
  "songs/quinston-pugh-the-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70464,10 +70464,10 @@
  "songs/rage-chasing-the-twilight-zone-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70475,10 +70475,10 @@
  "songs/rage-chasing-the-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70486,10 +70486,10 @@
  "songs/red-hot-chili-peppers-nobody-weird-like-me-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70497,10 +70497,10 @@
  "songs/red-hot-chili-peppers-nobody-weird-like-me": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70509,9 +70509,9 @@
   {
    "cat": "music",
    "sub": "theme",
-   "group": null,
+   "group": "The Tower of Terror",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "The themes",
    "isNew": false,
    "official": true
   }
@@ -70519,10 +70519,10 @@
  "songs/rise-from-your-grave-the-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70530,10 +70530,10 @@
  "songs/rockwell-somebodys-watching-me-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70541,10 +70541,10 @@
  "songs/rockwell-somebodys-watching-me": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70552,10 +70552,10 @@
  "songs/rorschach-lightning-strikes-twice": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -70563,10 +70563,10 @@
  "songs/rush-the-twilight-zone-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70574,10 +70574,10 @@
  "songs/rush-the-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70585,10 +70585,10 @@
  "songs/s-e-s-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70596,10 +70596,10 @@
  "songs/s-g-smitty-the-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "covers-samples",
+   "group": "Samples noted by fans",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -70607,10 +70607,10 @@
  "songs/sahera-alien-love": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70618,10 +70618,10 @@
  "songs/sci-fi-godfather-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70629,21 +70629,21 @@
  "songs/sean-garrett-feat-trey-songz-and-future-twilight-zone": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/serling-41-6398-n-81-4065-w": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70651,21 +70651,21 @@
  "songs/serling-a-passage-for-trumpet": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/serling-a-penny-for-your-thoughts": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70673,10 +70673,10 @@
  "songs/serling-a-stop-at-willoughby": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70684,10 +70684,10 @@
  "songs/serling-and-when-the-sky-was-opened": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70695,10 +70695,10 @@
  "songs/serling-its-a-good-life": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70706,10 +70706,10 @@
  "songs/serling-living-doll": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70717,10 +70717,10 @@
  "songs/serling-mr-garrity-and-the-graves": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70728,10 +70728,10 @@
  "songs/serling-the-changing-of-the-guard": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70739,10 +70739,10 @@
  "songs/serling-the-james-bevis-chronicles-the-hempstead-assignments": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70750,10 +70750,10 @@
  "songs/serling-the-new-exhibit": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70761,10 +70761,10 @@
  "songs/serling-the-silence": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70772,10 +70772,10 @@
  "songs/serling-valley-of-the-shadow": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70783,10 +70783,10 @@
  "songs/serling-where-is-everybody": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70794,21 +70794,21 @@
  "songs/shanti-and-deedrah-twilight-zone": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/sheena-easton-i-like-the-fright-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70816,10 +70816,10 @@
  "songs/sheena-easton-i-like-the-fright": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70827,43 +70827,43 @@
  "songs/shitmat-badman-ballad": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/silver-bullet-undercover-anarchist": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/smokepurpp-action": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/solo-jones-dimensions-i": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70871,10 +70871,10 @@
  "songs/sophie-naglik-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70882,21 +70882,21 @@
  "songs/space-tribe-the-ultraviolet-catastrophe": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/spass-mystical-powerzz": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -70904,10 +70904,10 @@
  "songs/spoken-nerd-tokens": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70915,10 +70915,10 @@
  "songs/swollen-members-the-reflection": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -70926,10 +70926,10 @@
  "songs/tech-n9ne-strangeland": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70937,10 +70937,10 @@
  "songs/ted-sink-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70948,10 +70948,10 @@
  "songs/the-bouncing-souls-digital-twilight-zone-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70959,10 +70959,10 @@
  "songs/the-bouncing-souls-digital-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -70970,21 +70970,21 @@
  "songs/the-buggers-the-bugger-groove": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/the-dockers-talking-tina": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -70992,10 +70992,10 @@
  "songs/the-effex-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71003,10 +71003,10 @@
  "songs/the-fall-time-enough-at-last": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "Tributes",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -71014,10 +71014,10 @@
  "songs/the-gubs-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71025,10 +71025,10 @@
  "songs/the-ideals-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71036,10 +71036,10 @@
  "songs/the-limes-zwilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71047,10 +71047,10 @@
  "songs/the-linda-lindas-talking-to-myself": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "Tributes",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -71058,10 +71058,10 @@
  "songs/the-manhattan-transfer-twilight-zone-twilight-tone-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71069,43 +71069,43 @@
  "songs/the-manhattan-transfer-twilight-zone-twilight-tone": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/the-manhattan-transfer-wdr-funkhausorchester-twilight-zone-twilight-tone": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/the-marketts-out-of-limits": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/the-number-twelve-looks-like-you-document-grace-budd": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "covers-samples",
+   "group": "Samples noted by fans",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Covers and samples",
    "isNew": false,
    "official": false
   }
@@ -71113,10 +71113,10 @@
  "songs/the-revenants-higher": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71124,10 +71124,10 @@
  "songs/the-roots-new-years-eve-polka-5-4-3-2-1": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71135,10 +71135,10 @@
  "songs/the-rudy-schwartz-project-wailin-jack": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71146,10 +71146,10 @@
  "songs/the-strange-hours-mist-of-mystery-where-the-waters-mingle": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Uses the phrase \"twilight zone\"",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71157,41 +71157,32 @@
  "songs/the-ventures-the-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "Tributes",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
-  },
-  {
-   "cat": "music",
-   "sub": "theme",
-   "group": null,
-   "catTitle": "Music",
-   "subTitle": "The theme",
-   "isNew": false,
-   "official": true
   }
  ],
  "songs/the-x-files-punishment-information": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/thirsty-merc-thats-when-i-think-of-you": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Uses the phrase \"twilight zone\"",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71199,10 +71190,10 @@
  "songs/tyler-the-creator-nightmare": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71210,21 +71201,21 @@
  "songs/unkle-unkle-main-title-theme": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/van-morrison-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -71232,10 +71223,10 @@
  "songs/vanilla-ice-get-loose": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71243,10 +71234,10 @@
  "songs/warren-haynes-twilight-zone": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Songs about or titled after the show",
+   "sub": "songs-about",
+   "group": "About or named after the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs about the show",
    "isNew": false,
    "official": false
   }
@@ -71254,10 +71245,10 @@
  "songs/wc-put-on-tha-set": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71265,10 +71256,10 @@
  "songs/witheren-never-been-easier": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71276,10 +71267,10 @@
  "songs/wolf-new-year-th-ngs": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71287,21 +71278,21 @@
  "songs/world-class-wreckin-cru-planet": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": null,
+   "sub": "covers-samples",
+   "group": "Samples listed by WhoSampled or the artist",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "songs/xtc-do-what-you-do-2": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Other references and samples",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71309,10 +71300,10 @@
  "songs/xtc-do-what-you-do": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Lyrics that mention the show",
+   "sub": "songs-mention",
+   "group": "Names the show",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71320,10 +71311,10 @@
  "songs/z-channel-who-knows": [
   {
    "cat": "music",
-   "sub": "songs",
-   "group": "Connection not yet confirmed",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
    "catTitle": "Music",
-   "subTitle": "Songs",
+   "subTitle": "Songs that mention it",
    "isNew": false,
    "official": false
   }
@@ -71750,18 +71741,9 @@
   {
    "cat": "music",
    "sub": "theme",
-   "group": "Releases of the theme",
+   "group": "The Twilight Zone (2019)",
    "catTitle": "Music",
-   "subTitle": "The theme",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "music",
-   "sub": "soundtracks",
-   "group": null,
-   "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "The themes",
    "isNew": false,
    "official": true
   }
@@ -72298,12 +72280,12 @@
  "works/boston-pops-out-of-this-world-1983": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": "Releases of the theme",
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "works/boulton-take-this-stand-2010": [
@@ -72577,9 +72559,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Songs from episodes",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -72599,18 +72581,9 @@
   {
    "cat": "music",
    "sub": "theme",
-   "group": "Releases of the theme",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "The theme",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "music",
-   "sub": "soundtracks",
-   "group": null,
-   "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "The themes",
    "isNew": false,
    "official": true
   }
@@ -72618,19 +72591,10 @@
  "works/constant-lubin-twilight-zone-outer-limits-release": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": "Releases of the theme",
-   "catTitle": "Music",
-   "subTitle": "The theme",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "music",
    "sub": "soundtracks",
-   "group": null,
+   "group": "Compilations",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -73563,9 +73527,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -73607,9 +73571,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": null,
+   "group": "The Twilight Zone (1985)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -73618,9 +73582,9 @@
   {
    "cat": "music",
    "sub": "theme",
-   "group": "Releases of the theme",
+   "group": "The Twilight Zone (1985)",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "The themes",
    "isNew": false,
    "official": true
   }
@@ -73671,9 +73635,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -73682,9 +73646,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -73693,9 +73657,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -73704,9 +73668,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": null,
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -73715,9 +73679,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Score releases",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -73726,18 +73690,9 @@
   {
    "cat": "music",
    "sub": "theme",
-   "group": "Releases of the theme",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "The theme",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "music",
-   "sub": "soundtracks",
-   "group": null,
-   "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "The themes",
    "isNew": false,
    "official": true
   }
@@ -74037,9 +73992,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Score releases",
+   "group": "The Twilight Zone (1985)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -74163,9 +74118,9 @@
   {
    "cat": "music",
    "sub": "theme",
-   "group": "Releases of the theme",
+   "group": "The Twilight Zone (2002)",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "The themes",
    "isNew": false,
    "official": true
   }
@@ -74311,9 +74266,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": null,
+   "group": "Rod Serling's Lost Classics (1994)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -74405,12 +74360,12 @@
  "works/manhattan-transfer-twilight-zone-twilight-tone": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": "Releases of the theme",
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "works/maple-street-holt-elements-of-literature-grade7": [
@@ -74482,12 +74437,12 @@
  "works/marty-manning-twilight-zone-lp": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": "Releases of the theme",
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "works/marvel-2099-marvel-comics-ghost-rider-2099-one-shot": [
@@ -74525,9 +74480,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Soundtrack albums",
+   "group": "The Twilight Zone (1985)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -74727,12 +74682,12 @@
  "works/neil-norman-greatest-science-fiction-hits": [
   {
    "cat": "music",
-   "sub": "theme",
-   "group": "Releases of the theme",
+   "sub": "covers-samples",
+   "group": "Covers and arrangements of the theme",
    "catTitle": "Music",
-   "subTitle": "The theme",
+   "subTitle": "Covers and samples",
    "isNew": false,
-   "official": true
+   "official": false
   }
  ],
  "works/night-at-the-mausoleum-ii-2014": [
@@ -74772,18 +74727,9 @@
   {
    "cat": "music",
    "sub": "theme",
-   "group": "Releases of the theme",
+   "group": "Night Gallery",
    "catTitle": "Music",
-   "subTitle": "The theme",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "music",
-   "sub": "soundtracks",
-   "group": null,
-   "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "The themes",
    "isNew": false,
    "official": true
   }
@@ -74792,18 +74738,9 @@
   {
    "cat": "music",
    "sub": "theme",
-   "group": "Releases of the theme",
+   "group": "Night Gallery",
    "catTitle": "Music",
-   "subTitle": "The theme",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "music",
-   "sub": "soundtracks",
-   "group": null,
-   "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "The themes",
    "isNew": false,
    "official": true
   }
@@ -74911,18 +74848,9 @@
   {
    "cat": "music",
    "sub": "theme",
-   "group": "Releases of the theme",
+   "group": "Night Gallery",
    "catTitle": "Music",
-   "subTitle": "The theme",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "music",
-   "sub": "soundtracks",
-   "group": null,
-   "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "The themes",
    "isNew": false,
    "official": true
   }
@@ -77106,7 +77034,7 @@
    "sub": "soundtracks",
    "group": "Compilations",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -77214,9 +77142,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Soundtrack albums",
+   "group": "The Twilight Zone (1985)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -77225,9 +77153,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Compilations",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -77618,7 +77546,7 @@
    "sub": "soundtracks",
    "group": "Compilations",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -78189,10 +78117,10 @@
  "works/tower-of-terror-music": [
   {
    "cat": "music",
-   "sub": "soundtracks",
-   "group": null,
+   "sub": "theme",
+   "group": "The Tower of Terror",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "The themes",
    "isNew": false,
    "official": true
   }
@@ -78289,9 +78217,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Score releases",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -78852,9 +78780,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Score releases",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -79156,9 +79084,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Score releases",
+   "group": "Twilight Zone: The Movie (1983)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -79167,9 +79095,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Score releases",
+   "group": "Twilight Zone: The Movie (1983)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -79189,9 +79117,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Soundtrack albums",
+   "group": "Twilight Zone: The Movie (1983)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -79359,9 +79287,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": null,
+   "group": "The Twilight Zone (2002)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -79423,9 +79351,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": null,
+   "group": "The radio dramas",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -79434,18 +79362,9 @@
   {
    "cat": "music",
    "sub": "theme",
-   "group": "Releases of the theme",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "The theme",
-   "isNew": false,
-   "official": true
-  },
-  {
-   "cat": "music",
-   "sub": "soundtracks",
-   "group": null,
-   "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "The themes",
    "isNew": false,
    "official": true
   }
@@ -79531,9 +79450,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Compilations",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -79542,9 +79461,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Compilations",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -79553,9 +79472,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Score releases",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -79564,9 +79483,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Score releases",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -79575,9 +79494,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Score releases",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -79586,9 +79505,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Score releases",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -79597,9 +79516,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Score releases",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -79608,9 +79527,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Score releases",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }
@@ -79619,9 +79538,9 @@
   {
    "cat": "music",
    "sub": "soundtracks",
-   "group": "Score releases",
+   "group": "The Twilight Zone (1959)",
    "catTitle": "Music",
-   "subTitle": "Soundtracks and score releases",
+   "subTitle": "Scores and soundtrack albums",
    "isNew": false,
    "official": true
   }

@@ -61,6 +61,9 @@ const firstLabel = d.kind === 'tv-series' ? 'First aired' : d.kind === 'stage' ?
 const segEps = await Promise.all(d.segments.map((sg) => (sg.adapts_episode ? resolveRef(sg.adapts_episode) : Promise.resolve(undefined))));
 // A play (kind stage): the production records that belong to it (Stage plan, shelf A).
 const productions = d.kind === 'stage' ? (await getCollection('works')).filter((w) => !w.data.duplicate_of && w.data.kind === 'stage' && w.data.content_of.includes(`films/${f.id}`)) : [];
+// A music video: the song's own page, when the song is recorded (Music plan: each video shows on its song's page).
+const normT = (x: string) => x.toLowerCase().replace(/[^a-z0-9]+/g, '');
+const songs = d.kind === 'music-video' ? (await getCollection('songs')).filter((s) => !s.data.duplicate_of && normT(`${s.data.title} (${s.data.artist ?? ''})`) === normT(d.title)) : [];
 // Where to watch, for anything made for the screen that still exists (not radio, pilots never aired or unmade work).
 const WATCHABLE = new Set(['tv-series', 'film', 'documentary', 'tv-film', 'special', 'short']);
 const jw = d.links?.justwatch ? (d.links.justwatch.startsWith('http') ? d.links.justwatch : `https://www.justwatch.com/us/movie/${d.links.justwatch}`) : undefined;
@@ -92,6 +95,7 @@ const watch = WATCHABLE.has(d.kind) && !(d.tags ?? []).includes('radio-only') &&
     {d.writers.length > 0 && <><dt>Written by</dt><dd>{d.writers.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}{d.writing_credit_note && <div class="small muted">{d.writing_credit_note}</div>}</dd></>}
     {(d.source_title || d.source_authors.length > 0) && <><dt>Based on</dt><dd>{d.source_title ? `“${d.source_title}”` : 'A story'}{d.source_authors.length > 0 && <> by {d.source_authors.map((n, i) => <>{i > 0 && (i === d.source_authors.length - 1 ? ' and ' : ', ')}<a href={personUrl(n)}>{n}</a></>)}</>}</dd></>}
     {d.composer.length > 0 && <><dt>Music by</dt><dd>{d.composer.map((n, i) => <>{i > 0 && ', '}<a href={personUrl(n)}>{n}</a></>)}</dd></>}
+    {songs.length > 0 && <><dt>Song</dt><dd>{songs.map((s, i) => <>{i > 0 && ', '}<a href={`/songs/${s.id}/`}>{s.data.title}</a>{s.data.artist && ` by ${s.data.artist}`}</>)}</dd></>}
   </dl>
   {d.segments.length > 0 && (
     <section>

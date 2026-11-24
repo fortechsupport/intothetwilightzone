@@ -15,10 +15,16 @@ import { hostShow, ENTRY_KINDS } from './tv-shows.mjs';
 // (contentOf below, and every record's media[]) and show on those records' pages, on the category and
 // subcategory pages that list those records, and in the Media Library (/media/), which says where each
 // item appears.
-/** @typedef {{ slug: string, title: string, blurb: string, intro?: string, isNew?: boolean, order?: 'az' | 'chrono', side?: 'official' | 'unofficial' }} Sub */
+/** @typedef {{ slug: string, title: string, blurb: string, intro?: string, isNew?: boolean, order?: 'az' | 'chrono', side?: 'official' | 'unofficial', groups?: string[], orderNote?: string, connection?: string }} Sub */
 /** @typedef {{ slug: string, title: string, kind?: 'section' | 'category', group?: string, split?: boolean, isNew?: boolean, description: string, intro: string[], connection: string, subs: Sub[], seeAlso?: [string, string][] }} Category */
 
 /** @type {Category[]} */
+/**
+ * Music: the shows and films a theme or release belongs to, in the order they were made (Music plan, shelves A
+ * and B). The last two hold releases that span several shows and any record Serling himself made.
+ */
+export const MUSIC_GROUPS = ['The Twilight Zone (1959)', 'Night Gallery', 'Twilight Zone: The Movie (1983)', 'The Twilight Zone (1985)', "Rod Serling's Lost Classics (1994)", 'The Tower of Terror', 'The Twilight Zone (2002)', 'The Twilight Zone (2019)', 'The radio dramas', 'Compilations', 'Rod Serling on record'];
+
 export const TAXONOMY = [
   {
     slug: 'people',
@@ -209,9 +215,23 @@ export const TAXONOMY = [
     ],
     connection: 'Themes and scores are part of the show itself. Songs written about it are one step away. Songs that only use the phrase "twilight zone" are tangential, and where nobody has yet checked a reference, the entry says so.',
     subs: [
-      { slug: 'songs', title: 'Songs', blurb: 'Songs about, titled after, or mentioning the show.' },
-      { slug: 'soundtracks', title: 'Soundtracks and score releases', blurb: 'Albums and releases of the scores and themes.' },
-      { slug: 'theme', title: 'The theme', blurb: 'The theme music, its covers and samples.' },
+      // The six shelves of docs/plans/research-music.md (section 2). Songs and releases are placed by placeSong and
+      // placeWork below; groups on the first two shelves follow MUSIC_GROUPS, the order the shows were made in.
+      {
+        slug: 'theme', title: 'The themes', order: 'chrono', side: 'official', groups: MUSIC_GROUPS,
+        orderNote: 'Groups follow the order the shows were made in; within each, themes are in date order.',
+        blurb: 'Every main title of the series, the film, Night Gallery and the Tower of Terror, in date order, with its composer.',
+        intro: "Bernard Herrmann wrote the first season's main title. In 1960 CBS wanted something less gloomy and commissioned replacements from Herrmann, Jerry Goldsmith and Leith Stevens, none of which was used on screen. Instead music director Lud Gluskin joined two short library cues by Marius Constant, “Etrange No. 3” and “Milieu No. 2”, and that guitar figure became the theme. Each revival reworked it: the Grateful Dead with Merl Saunders in 1985, Jonathan Davis in 2002 and Marco Beltrami in 2019. Night Gallery had three themes of its own, by Billy Goldenberg, Gil Mellé and Eddie Sauter. Each entry gives its sources.",
+        connection: 'The music that opened the shows themselves, made by or for their producers.',
+      },
+      {
+        slug: 'soundtracks', title: 'Scores and soundtrack albums', side: 'official', groups: MUSIC_GROUPS,
+        blurb: "Releases of the shows' and films' music, grouped by series or film: score LPs and CDs, soundtrack albums, library cues and compilations.",
+        connection: 'Recordings of the music written for, or chosen for, the series and films.',
+      },
+      { slug: 'covers-samples', title: 'Covers and samples', side: 'unofficial', blurb: "Recordings of the theme by other artists, and tracks that sample the show's music or narration, each marked by how the sample is known.", connection: 'Other artists using the show\'s own music and voices. A sample counts as confirmed when WhoSampled or the artist\'s credits list it; otherwise it is marked as noted by fans.' },
+      { slug: 'songs-about', title: 'Songs about the show', side: 'unofficial', blurb: 'Songs written about the show, an episode or Rod Serling, or named after them, and tributes.', connection: 'Songs one step away from the show: about it, or named after it.' },
+      { slug: 'songs-mention', title: 'Songs that mention it', side: 'unofficial', blurb: 'Songs whose lyrics name the show, songs that only use the phrase "twilight zone", and songs not yet checked.', connection: 'Lyrics that name the show are a passing reference. Songs that only use the everyday phrase are tangential (Adam, Music Q1). Where nobody has confirmed the lyric yet, the entry says so and what was tried.' },
       { slug: 'music-videos', title: 'Music videos', isNew: true, side: 'unofficial', blurb: 'Music videos that borrow from, honor or reference the show.' },
     ],
   },
@@ -480,9 +500,49 @@ const LOC_GROUP = {
   'backlot-set': 'Studio backlots and sets', 'filming-location': 'Filming locations', 'serling-place': "Rod Serling's places",
   attraction: 'Attractions', 'museum-exhibit': 'Museums and exhibits', memorial: 'Memorials', archive: 'Archives', 'event-venue': 'Event venues',
 };
-const SONG_GROUP = {
-  theme: 'The theme and its uses', 'lyric-mention': 'Lyrics that mention the show', reference: 'Songs about or titled after the show', unclassified: 'Connection not yet confirmed',
-};
+/**
+ * How a song connects, and so which Music shelf and group it sits on (Music plan, sections 2 and 3, Q1 and Q3).
+ * A main title (subtype main-title) goes on The themes. A sample is "confirmed" when WhoSampled or the
+ * artist's credits list it (a source says so), otherwise "noted by fans". The label shows on the song's page.
+ */
+export function songConnection(d) {
+  const tags = d.tags ?? [];
+  const st = lc(d.subtype);
+  const srcs = d.sources ?? [];
+  if (st === 'main-title') return { shelf: 'theme', label: 'Main title' };
+  const sample = st === 'sample' || tags.includes('sample') || srcs.some((x) => /\bsample of\b/i.test(x.title ?? ''));
+  if (sample) {
+    const sure = srcs.some((x) => /whosampled\.com/.test(x.url ?? '') || /artist'?s? credits|liner notes|album credits/i.test(x.note ?? ''));
+    return { shelf: 'covers-samples', group: sure ? 'Samples listed by WhoSampled or the artist' : 'Samples noted by fans', label: d.tz_connection === 'theme' ? 'Samples the theme' : 'Samples the show' };
+  }
+  switch (d.tz_connection) {
+    case 'theme': return { shelf: 'covers-samples', group: 'Covers and arrangements of the theme', label: 'Covers or arranges the theme' };
+    case 'reference': return st === 'tribute'
+      ? { shelf: 'songs-about', group: 'Tributes', label: 'A tribute to the show' }
+      : { shelf: 'songs-about', group: 'About or named after the show', label: 'About or named after the show' };
+    case 'lyric-mention': return tags.includes('lyric-idiom')
+      ? { shelf: 'songs-mention', group: 'Uses the phrase "twilight zone"', label: 'Uses the phrase "twilight zone"' }
+      : { shelf: 'songs-mention', group: 'Names the show', label: 'Names the show' };
+    default: return { shelf: 'songs-mention', group: 'Not yet confirmed', label: 'Not yet confirmed' };
+  }
+}
+/** The show or film a theme or music release belongs to (MUSIC_GROUPS), from its id, title and credits. */
+const MUSIC_SERIES = [
+  [/night gallery/, 'Night Gallery'],
+  [/lost classics/, "Rod Serling's Lost Classics (1994)"],
+  [/tower of terror/, 'The Tower of Terror'],
+  [/radio drama/, 'The radio dramas'],
+  [/the movie/, 'Twilight Zone: The Movie (1983)'],
+  [/1985|grateful dead|merl saunders/, 'The Twilight Zone (1985)'],
+  [/2002|jonathan davis/, 'The Twilight Zone (2002)'],
+  [/2019|beltrami/, 'The Twilight Zone (2019)'],
+];
+export function musicSeries(id, d) {
+  const t = lc(`${id} ${d.title ?? ''} ${d.creator ?? ''} ${d.artist ?? ''}`).replace(/-/g, ' ');
+  return MUSIC_SERIES.find(([re]) => re.test(t))?.[1] ?? 'The Twilight Zone (1959)';
+}
+/** Date order inside a group: the year, then the title. */
+const chronoSort = (d) => `${String(d.year ?? '9999').slice(0, 4)} ${sortKey(d.title ?? '')}`;
 const BOOK_GROUP = {
   anthology: 'Story anthologies', scripts: 'Scripts and teleplays', scholarly: 'Scholarship and criticism', novel: 'Novels', reference: 'Guides and reference',
   novelization: 'Novelizations', biography: 'Biography and memoir', memoir: 'Biography and memoir', juvenile: 'Young readers', 'puzzle-trivia': 'Art and puzzle books',
@@ -558,6 +618,9 @@ const MOVES = {
   'radio/episodes': ['radio', 'radio-dramas'],
   // Stage (2026-11-24): the five shelves of docs/plans/research-stage.md replace Theatre.
   'stage/theatre': ['stage', 'episode-stagings'],
+  // Music (2026-11-24): docs/plans/research-music.md splits Songs into three shelves; the old address goes to the
+  // largest of them.
+  'music/songs': ['music', 'songs-mention'],
 };
 export function remap(cat, sub) {
   const m = MOVES[`${cat}/${sub}`];
@@ -707,10 +770,12 @@ export function place(col, id, d, ctx = {}) {
     case 'connections':
       add('homages', CONN_SUB[d.kind] ?? 'references');
       break;
-    case 'songs':
-      if (d.tz_connection === 'theme') add('music', 'theme');
-      else add('music', 'songs', asub === 'Other references and samples' ? 'Other references and samples' : SONG_GROUP[d.tz_connection]);
+    case 'songs': {
+      const c = songConnection(d);
+      if (c.shelf === 'theme') add('music', 'theme', musicSeries(id, d), chronoSort(d));
+      else add('music', c.shelf, c.group);
       break;
+    }
     case 'books': {
       const g = asub && asub !== 'Other books' ? asub : BOOK_GROUP[d.kind] ?? 'Other books';
       add('reading', 'books', g);
@@ -763,7 +828,7 @@ export function place(col, id, d, ctx = {}) {
       add('organizations', ORG_SUB[d.kind] ?? 'other-organizations');
       break;
     case 'works':
-      placeWork(d, subtype, add);
+      placeWork(d, subtype, add, id);
       break;
     default:
       break;
@@ -791,14 +856,20 @@ const ORG_SUB = {
 };
 export const orgSub = (kind) => ORG_SUB[kind] ?? 'other-organizations';
 
-function placeWork(d, st, add) {
+function placeWork(d, st, add, id) {
   const k = d.kind;
   const isSerling = isSerlingName(d.creator) || /rod serling/i.test(d.title);
   switch (k) {
-    case 'soundtrack':
-      if (/theme/.test(st)) add('music', 'theme', 'Releases of the theme');
-      else add('music', 'soundtracks', { 'score-release': 'Score releases', 'soundtrack-album': 'Soundtrack albums', compilation: 'Compilations', 'episode-song': 'Songs from episodes' }[st]);
+    case 'soundtrack': {
+      // Music plan, shelves A to C: a recording of the theme by others is a cover; a main title, an unused
+      // theme or an attraction's music is a theme; everything else is a release, grouped by show or film.
+      // A compilation that mixes other shows' music, or pairs the theme with another show's, is a compilation.
+      if (st === 'theme-cover') { add('music', 'covers-samples', 'Covers and arrangements of the theme'); return; }
+      const mixed = (st === 'compilation' && !/twilight zone/i.test(d.title ?? '')) || /outer limits/i.test(d.title ?? '');
+      if (!mixed && /^theme|unused-theme|attraction-music/.test(st)) { add('music', 'theme', musicSeries(id, d), chronoSort(d)); return; }
+      add('music', 'soundtracks', mixed ? 'Compilations' : musicSeries(id, d));
       return;
+    }
     case 'game':
       if (/pinball|slot|arcade/.test(st)) add('games', 'pinball-arcade');
       else if (/video|vr|mobile|game-appearance|computer/.test(st)) add('games', 'video-games', st === 'game-appearance' ? 'Appearances in other games' : undefined);

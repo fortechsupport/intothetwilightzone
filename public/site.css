@@ -229,6 +229,9 @@ dl.facts { display: grid; grid-template-columns: minmax(8rem, max-content) 1fr; 
 dl.facts dt, dl.facts dd { padding: 9px 0; border-bottom: 1px solid var(--line); margin: 0; }
 dl.facts dt { color: var(--muted); font-size: var(--step--1); text-transform: uppercase; letter-spacing: .08em; font-weight: 500; padding-right: var(--space-5); padding-top: 11px; }
 dl.facts dd .small { margin-top: 2px; }
+dl.facts dd ul.plain { margin: 0; }
+dl.facts dd ul.plain li { padding: 5px 0; }
+dl.facts dd ul.plain li:last-child { border-bottom: 0; }
 
 .sources { font-size: var(--step--1); color: var(--muted); margin-top: var(--space-7); padding-top: var(--space-4); border-top: 1px solid var(--line); }
 .sources h2 { font-size: var(--step-1); margin-top: 0; }

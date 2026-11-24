@@ -97,9 +97,11 @@ points to no single episode. Television films go to Movies; radio-only anthologi
 
 | Category | Subcategory | Definition | Examples | Count |
 |---|---|---|---|---:|
-| **Music** | Songs | Songs that name, quote or are about the Twilight Zone | Rush, "The Twilight Zone" (1976); Golden Earring, "Twilight Zone" (1982) | 169 |
-| | Soundtracks and scores | Score and soundtrack releases | Varèse Sarabande score collections | 40 |
-| | The theme | Every recording and cover of the theme | Marius Constant's theme (1959); the Grateful Dead's 1985 version | 57 |
+| **Music** | The themes | Every main title, in date order and grouped by show: the series, Night Gallery, the 1983 film, the revivals and the Tower of Terror (Music plan, shelf A) | Herrmann's first-season title (1959); Constant's theme (1960); the Grateful Dead's (1985) | 12 |
+| | Scores and soundtrack albums | Releases of the shows' and films' music, grouped by show or film (shelf B) | Varèse Sarabande's Original Television Scores LPs | 32 |
+| | Covers and samples | Recordings of the theme by others, and tracks that sample the show's music or narration, by how the sample is known (shelf C) | The Manhattan Transfer, "Twilight Zone/Twilight Tone"; Michael Jackson, "Threatened" | 58 |
+| | Songs about the show | Songs about the show, an episode or Serling, or named after them, and tributes (shelf D) | Rush, "The Twilight Zone" (1976); Golden Earring, "Twilight Zone" (1982) | 48 |
+| | Songs that mention it | "Names the show", "Uses the phrase 'twilight zone'" and "Not yet confirmed" (shelf E) | Songs whose lyrics name the show | 94 |
 | | Music videos **(new)** | Music videos that borrow from, honor or reference the show (Adam, Movies Q3: music videos are Music) | Young MC, "Bust a Move" | 7 |
 | **Podcasts** | Podcast episodes | Single episodes about TZ in other podcasts | Episodes of film and horror podcasts | 9 |
 | | Podcast series | Podcasts devoted to TZ | Episode-by-episode rewatch shows | 36 |

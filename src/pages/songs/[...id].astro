@@ -1,9 +1,26 @@
 ---
 import RecordPage from '../../components/RecordPage.astro';
 import { getCollection } from 'astro:content';
+import { songConnection } from '../../lib/taxonomy.mjs';
+import { formatDate } from '../../lib/data';
 export async function getStaticPaths() {
   return (await getCollection('songs')).filter((r) => !r.data.duplicate_of).map((r) => ({ params: { id: r.id }, props: { entry: r } }));
 }
 const { entry } = Astro.props;
+const d = entry.data;
+// How the song connects, in the words of its Music shelf (Music plan, section 3), instead of the raw field.
+const how = songConnection(d);
+// Its music video, if one is recorded: a film record of kind music-video titled "<song> (<artist>)".
+const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '');
+const want = norm(`${d.title} (${d.artist ?? ''})`);
+const videos = (await getCollection('films')).filter((f) => !f.data.duplicate_of && f.data.kind === 'music-video' && norm(f.data.title) === want);
 ---
-<RecordPage col="songs" entry={entry} />
+<RecordPage col="songs" entry={entry} skip={['tz_connection', 'subtype']}>
+  <Fragment slot="facts"><dt>Connection</dt><dd>{how.label}</dd></Fragment>
+  {videos.length > 0 && (
+    <section>
+      <h2>Music video</h2>
+      <ul class="plain">{videos.map((v) => <li><a href={`/films/${v.id}/`}>{v.data.title}</a>{v.data.release_date && <span class="muted small"> · {formatDate(v.data.release_date)}</span>}{v.data.directors.length > 0 && <span class="muted small"> · dir. {v.data.directors.join(', ')}</span>}</li>)}</ul>
+    </section>
+  )}
+</RecordPage>
