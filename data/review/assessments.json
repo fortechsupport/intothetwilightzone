@@ -36251,6 +36251,18 @@
   "subcategory": "Filming locations",
   "sort": "alabama hills lone pine"
  },
+ "locations/alaska-a-traveler": {
+  "connection": "Alaska (A Traveler, 2019) (Alaska) was used for “A Traveler” (2019).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (2019 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes",
+  "title": "Alaska (A Traveler, 2019)",
+  "subcategory": "Other places",
+  "sort": "alaska a traveler 002019"
+ },
  "locations/almeida-theatre-twilight-zone-play": {
   "connection": "The Islington playhouse staged the world premiere of Anne Washburn's stage adaptation of The Twilight Zone in December 2017, directed by Richard Jones.",
   "tier": "related",
@@ -36335,6 +36347,42 @@
   "subcategory": "Filming locations",
   "sort": "000004th street ashcroft"
  },
+ "locations/austria-1889-cradle-of-darkness": {
+  "connection": "Austria, 1889 (Cradle of Darkness, 2002) was used for “Cradle of Darkness” (2002).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (2002 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2002_TV_series)_episodes",
+  "title": "Austria, 1889 (Cradle of Darkness, 2002)",
+  "subcategory": "Other places",
+  "sort": "austria 001889 cradle of darkness 002002"
+ },
+ "locations/balkan-castle-the-devil-is-not-mocked": {
+  "connection": "The Balkan castle (The Devil Is Not Mocked, Night Gallery) was used for Night Gallery: A Question of Fear / The Devil Is Not Mocked.",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Balkan castle (The Devil Is Not Mocked, Night Gallery)",
+  "subcategory": "Other places",
+  "sort": "balkan castle the devil is not mocked night gallery"
+ },
+ "locations/barren-earth-voices-in-the-earth": {
+  "connection": "The barren Earth (Voices in the Earth, 1985) was used for “Voices in the Earth” (1985).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (1985 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "The barren Earth (Voices in the Earth, 1985)",
+  "subcategory": "Other places",
+  "sort": "barren earth voices in the earth 001985"
+ },
  "locations/bastion-square-victoria-2019-series": {
   "connection": "Bastion Square, Victoria (Victoria, British Columbia) was used for “Downtime” (2019).",
   "tier": "core",
@@ -36346,6 +36394,18 @@
   "title": "Bastion Square, Victoria",
   "subcategory": "Filming locations",
   "sort": "bastion square victoria"
+ },
+ "locations/beaumont-a-day-in-beaumont": {
+  "connection": "Beaumont (A Day in Beaumont, 1985) was used for “A Day in Beaumont” (1985).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: A Day in Beaumont",
+  "source_url": "https://en.wikipedia.org/wiki/A_Day_in_Beaumont",
+  "title": "Beaumont (A Day in Beaumont, 1985)",
+  "subcategory": "Other places",
+  "sort": "beaumont a day in beaumont 001985"
  },
  "locations/binghamton-high-school-rod-serling": {
   "connection": "Serling graduated from what was then Binghamton Central High School in 1943, and a marker on the front lawn notes his class year.",
@@ -36370,6 +36430,30 @@
   "title": "The Blue Ridge Mountains (Jess-Belle)",
   "subcategory": "Other places",
   "sort": "blue ridge mountains jessbelle"
+ },
+ "locations/borneo-the-caterpillar": {
+  "connection": "Borneo (The Caterpillar, Night Gallery) was used for Night Gallery: The Caterpillar / Little Girl Lost / Satisfaction Guaranteed.",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Borneo (The Caterpillar, Night Gallery)",
+  "subcategory": "Other places",
+  "sort": "borneo the caterpillar night gallery"
+ },
+ "locations/bradbury-spacecraft-six-degrees-of-freedom": {
+  "connection": "The Bradbury spacecraft (Six Degrees of Freedom, 2019) was used for “Six Degrees of Freedom” (2019).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (2019 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes",
+  "title": "The Bradbury spacecraft (Six Degrees of Freedom, 2019)",
+  "subcategory": "Other places",
+  "sort": "bradbury spacecraft six degrees of freedom 002019"
  },
  "locations/broome-county-forum-theatre": {
   "connection": "Binghamton's historic downtown performing-arts theatre has a permanent lobby exhibit on Serling's life, \"Day of a Playwright,\" whose prize item is the penmanship certificate he earned as a schoolboy in 1937.",
@@ -36503,6 +36587,18 @@
   "subcategory": "In-story places",
   "sort": "centerville the toy town"
  },
+ "locations/childrens-zoo-1985": {
+  "connection": "The Children's Zoo (Children's Zoo, 1985) was used for “Children's Zoo” (1985).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (1985 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "The Children's Zoo (Children's Zoo, 1985)",
+  "subcategory": "Other places",
+  "sort": "childrens zoo childrens zoo 001985"
+ },
  "locations/cliffordville-indiana": {
   "connection": "Setting of a fourth-season Serling script.",
   "tier": "core",
@@ -36527,6 +36623,18 @@
   "subcategory": "Other places",
   "sort": "coeurville in his image"
  },
+ "locations/colonial-new-england-a-message-from-charity": {
+  "connection": "Colonial New England (A Message from Charity, 1985) was used for “A Message from Charity” (1985).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (1985 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Colonial New England (A Message from Charity, 1985)",
+  "subcategory": "Other places",
+  "sort": "colonial new england a message from charity 001985"
+ },
  "locations/corrys-asteroid": {
   "connection": "Setting of a first-season Serling episode; links to the Death Valley filming record.",
   "tier": "core",
@@ -36550,6 +36658,18 @@
   "title": "Dachau (\"Deaths-Head Revisited\")",
   "subcategory": "In-story places",
   "sort": "dachau deathshead revisited"
+ },
+ "locations/dans-cafe-night-gallery": {
+  "connection": "Dan's Café (The Tune in Dan's Café, Night Gallery) was used for Night Gallery: Green Fingers / The Funeral / The Tune in Dan's Café.",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Dan's Café (The Tune in Dan's Café, Night Gallery)",
+  "subcategory": "Other places",
+  "sort": "dans caf the tune in dans caf night gallery"
  },
  "locations/dansburg-courier-printers-devil": {
   "connection": "The Dansburg Courier (Printer's Devil) was used for “Printer's Devil” (1959).",
@@ -36767,6 +36887,18 @@
   "subcategory": "Filming locations",
   "sort": "gastown vancouver"
  },
+ "locations/glendalough-military-academy-the-academy": {
+  "connection": "Glendalough Military Academy (The Academy, Night Gallery) was used for Night Gallery: A Fear of Spiders / Junior / Marmalade Wine / The Academy.",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Glendalough Military Academy (The Academy, Night Gallery)",
+  "subcategory": "Other places",
+  "sort": "glendalough military academy the academy night gallery"
+ },
  "locations/global-airlines-flight-33": {
   "connection": "Setting of a second-season Serling episode.",
   "tier": "core",
@@ -36959,6 +37091,30 @@
   "subcategory": "Other places",
   "sort": "kanamit ship to serve man"
  },
+ "locations/kentucky-rye-inn-1985": {
+  "connection": "The Kentucky Rye (Kentucky Rye, 1985) was used for “Kentucky Rye” (1985).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (1985 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "The Kentucky Rye (Kentucky Rye, 1985)",
+  "subcategory": "Other places",
+  "sort": "kentucky rye kentucky rye 001985"
+ },
+ "locations/killany-woods-1985": {
+  "connection": "Killany Woods (The Little People of Killany Woods, 1985) was used for “The Little People of Killany Woods” (1985).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (1985 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Killany Woods (The Little People of Killany Woods, 1985)",
+  "subcategory": "Other places",
+  "sort": "killany woods the little people of killany woods 001985"
+ },
  "locations/king-nine-crash-site-africa-1943": {
   "connection": "King Nine crash site, Africa (1943) (North Africa) was used for “King Nine Will Not Return” (1959).",
   "tier": "related",
@@ -37031,6 +37187,18 @@
   "subcategory": "Other places",
   "sort": "little bighorn battlefield the 000007th is made up of phantoms"
  },
+ "locations/littleton-a-small-town": {
+  "connection": "Littleton (A Small Town, 2019) was used for “A Small Town” (2019).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (2019 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes",
+  "title": "Littleton (A Small Town, 2019)",
+  "subcategory": "Other places",
+  "sort": "littleton a small town 002019"
+ },
  "locations/london-flats-maine-night-call": {
   "connection": "London Flats, Maine (Night Call) (Maine) was used for “Night Call” (1959).",
   "tier": "related",
@@ -37042,6 +37210,30 @@
   "title": "London Flats, Maine (Night Call)",
   "subcategory": "Other places",
   "sort": "london flats maine night call"
+ },
+ "locations/lost-and-found-emporium-1985": {
+  "connection": "The Lost and Found Emporium (Wong's Lost and Found Emporium, 1985) was used for “Wong's Lost and Found Emporium” (1985).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (1985 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "The Lost and Found Emporium (Wong's Lost and Found Emporium, 1985)",
+  "subcategory": "Other places",
+  "sort": "lost and found emporium wongs lost and found emporium 001985"
+ },
+ "locations/lusitania-andrea-doria-lone-survivor": {
+  "connection": "The Lusitania and the Andrea Doria (Lone Survivor, Night Gallery) was used for Night Gallery: Pamela's Voice / Lone Survivor / The Doll.",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Lusitania and the Andrea Doria (Lone Survivor, Night Gallery)",
+  "subcategory": "Other places",
+  "sort": "lusitania and the andrea doria lone survivor night gallery"
  },
  "locations/madeiro-mexico-the-gift": {
   "connection": "Madeiro, Mexico (The Gift) was used for “The Gift” (1959).",
@@ -37102,6 +37294,30 @@
   "title": "Maynard, Kansas (Steel)",
   "subcategory": "Other places",
   "sort": "maynard kansas steel"
+ },
+ "locations/memphis-tennessee-memphis-2002": {
+  "connection": "Memphis, Tennessee (Memphis, 2002) (Memphis, Tennessee) was used for “Memphis” (2002).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (2002 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2002_TV_series)_episodes",
+  "title": "Memphis, Tennessee (Memphis, 2002)",
+  "subcategory": "Other places",
+  "sort": "memphis tennessee memphis 002002"
+ },
+ "locations/mexican-shrine-the-miracle-at-camafeo": {
+  "connection": "The Mexican shrine (The Miracle at Camafeo, Night Gallery) was used for Night Gallery: The Miracle at Camafeo / The Ghost of Sorworth Place.",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "The Mexican shrine (The Miracle at Camafeo, Night Gallery)",
+  "subcategory": "Other places",
+  "sort": "mexican shrine the miracle at camafeo night gallery"
  },
  "locations/mgm-lot-1-culver-city-stages": {
   "connection": "MGM Studios Lot 1 (now Sony Pictures Studios) (Culver City, California) was used for “The Lonely” (1959) and “Person or Persons Unknown” (1959).",
@@ -37187,6 +37403,18 @@
   "subcategory": "Other places",
   "sort": "mirabito stadium binghamton creatures nights"
  },
+ "locations/modern-day-england-the-last-defender-of-camelot": {
+  "connection": "Modern-day England (The Last Defender of Camelot, 1985) was used for “The Last Defender of Camelot” (1985).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (1985 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Modern-day England (The Last Defender of Camelot, 1985)",
+  "subcategory": "Other places",
+  "sort": "modernday england the last defender of camelot 001985"
+ },
  "locations/moorpark-college": {
   "connection": "Venue of Serling's 1968 loyalty-oath speech.",
   "tier": "related",
@@ -37198,6 +37426,30 @@
   "title": "Moorpark College",
   "subcategory": "Lecture and event venues",
   "sort": "moorpark college"
+ },
+ "locations/mott-street-night-gallery": {
+  "connection": "Mott Street (The Messiah on Mott Street, Night Gallery) was used for Night Gallery: The Messiah on Mott Street / The Painted Mirror.",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Mott Street (The Messiah on Mott Street, Night Gallery)",
+  "subcategory": "Other places",
+  "sort": "mott street the messiah on mott street night gallery"
+ },
+ "locations/nasa-mission-control-the-nature-of-the-enemy": {
+  "connection": "NASA Mission Control and the Moon (The Nature of the Enemy, Night Gallery) was used for Night Gallery: Room with a View / The Little Black Bag / The Nature of the Enemy.",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "NASA Mission Control and the Moon (The Nature of the Enemy, Night Gallery)",
+  "subcategory": "Other places",
+  "sort": "nasa mission control and the moon the nature of the enemy night gallery"
  },
  "locations/new-mexico-territory-a-hundred-yards-over-the-rim": {
   "connection": "The territory of New Mexico, 1847 and 1961 (A Hundred Yards Over the Rim) (New Mexico) was used for “A Hundred Yards Over the Rim” (1959).",
@@ -37258,6 +37510,18 @@
   "title": "The Night Gallery",
   "subcategory": "In-story places",
   "sort": "night gallery"
+ },
+ "locations/northern-goldstar-flight-1015": {
+  "connection": "Northern Goldstar Airlines Flight 1015 (Nightmare at 30,000 Feet, 2019) was used for “Nightmare at 30,000 Feet” (2019).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (2019 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes",
+  "title": "Northern Goldstar Airlines Flight 1015 (Nightmare at 30,000 Feet, 2019)",
+  "subcategory": "Other places",
+  "sort": "northern goldstar airlines flight 001015 nightmare at 000030000000 feet 002019"
  },
  "locations/oakwood-where-is-everybody": {
   "connection": "Oakwood (Where Is Everybody?) was used for “Where Is Everybody?” (1959).",
@@ -37390,6 +37654,30 @@
   "title": "Point Dume (Planet of the Apes ending)",
   "subcategory": "Filming locations",
   "sort": "point dume planet of the apes ending"
+ },
+ "locations/possum-meadows-1985": {
+  "connection": "Possum Meadows (Stranger in Possum Meadows, 1985) was used for “Stranger in Possum Meadows” (1985).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (1985 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Possum Meadows (Stranger in Possum Meadows, 1985)",
+  "subcategory": "Other places",
+  "sort": "possum meadows stranger in possum meadows 001985"
+ },
+ "locations/post-civil-war-massachusetts-where-the-dead-are": {
+  "connection": "Post-Civil War Massachusetts (Where the Dead Are, Lost Classics) (Massachusetts) was used for The Twilight Zone: Rod Serling's Lost Classics.",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Twilight Zone: Rod Serling's Lost Classics",
+  "source_url": "https://en.wikipedia.org/wiki/Twilight_Zone:_Rod_Serling%27s_Lost_Classics",
+  "title": "Post-Civil War Massachusetts (Where the Dead Are, Lost Classics)",
+  "subcategory": "Other places",
+  "sort": "postcivil war massachusetts where the dead are lost classics"
  },
  "locations/radins-bomb-shelter-one-more-pallbearer": {
   "connection": "Radin's bomb shelter, New York City (One More Pallbearer) (New York City, New York) was used for “One More Pallbearer” (1959).",
@@ -37535,6 +37823,30 @@
   "subcategory": "In-story places",
   "sort": "room 000022 twenty two"
  },
+ "locations/room-2426-1985": {
+  "connection": "Room 2426 (Room 2426, 1985) was used for “Room 2426” (1985).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (1985 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Room 2426 (Room 2426, 1985)",
+  "subcategory": "Other places",
+  "sort": "room 002426 room 002426 001985"
+ },
+ "locations/route-17-appointment-on-route-17": {
+  "connection": "Route 17 (Appointment on Route 17, 1985) was used for “Appointment on Route 17” (1985).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (1985 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Route 17 (Appointment on Route 17, 1985)",
+  "subcategory": "Other places",
+  "sort": "route 000017 appointment on route 000017 001985"
+ },
  "locations/ruined-public-library-time-enough-at-last": {
   "connection": "The ruined public library (Time Enough at Last) was used for “Time Enough at Last” (1959).",
   "tier": "related",
@@ -37558,6 +37870,18 @@
   "title": "Sage Chapel, Cornell University",
   "subcategory": "Memorials",
   "sort": "sage chapel cornell university"
+ },
+ "locations/saint-marys-boarding-school-among-the-untrodden": {
+  "connection": "Saint Mary's Boarding School (Among the Untrodden, 2019) was used for “Among the Untrodden” (2019).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (2019 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2019_TV_series)_episodes",
+  "title": "Saint Mary's Boarding School (Among the Untrodden, 2019)",
+  "subcategory": "Other places",
+  "sort": "saint marys boarding school among the untrodden 002019"
  },
  "locations/save-on-meats-vancouver-the-comedian": {
   "connection": "Save-On Meats, Vancouver (Vancouver, British Columbia) was used for “The Comedian” (2019).",
@@ -37618,6 +37942,30 @@
   "title": "SerlingFest",
   "subcategory": "Other places",
   "sort": "serlingfest"
+ },
+ "locations/siberian-town-red-snow": {
+  "connection": "The Siberian town (Red Snow, 1985) (Siberia) was used for “Red Snow” (1985).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (1985 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "The Siberian town (Red Snow, 1985)",
+  "subcategory": "Other places",
+  "sort": "siberian town red snow 001985"
+ },
+ "locations/sorworth-place-night-gallery": {
+  "connection": "Sorworth Place (The Ghost of Sorworth Place, Night Gallery) was used for Night Gallery: The Miracle at Camafeo / The Ghost of Sorworth Place.",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Sorworth Place (The Ghost of Sorworth Place, Night Gallery)",
+  "subcategory": "Other places",
+  "sort": "sorworth place the ghost of sorworth place night gallery"
  },
  "locations/space-cruiser-e-89": {
   "connection": "Space Cruiser E-89 (Death Ship) was used for “Death Ship” (1959).",
@@ -37847,6 +38195,30 @@
   "subcategory": "Other places",
   "sort": "throckmortons curio shop a piano in the house"
  },
+ "locations/tim-rileys-bar-night-gallery": {
+  "connection": "Tim Riley's Bar (They're Tearing Down Tim Riley's Bar, Night Gallery) was used for Night Gallery: They're Tearing Down Tim Riley's Bar / The Last Laurel.",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Tim Riley's Bar (They're Tearing Down Tim Riley's Bar, Night Gallery)",
+  "subcategory": "Other places",
+  "sort": "tim rileys bar theyre tearing down tim rileys bar night gallery"
+ },
+ "locations/time-out-occupied-france-and-beyond": {
+  "connection": "Occupied France, the rural South and Vietnam (Time Out, Twilight Zone: The Movie) was used for Twilight Zone: The Movie.",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: Twilight Zone: The Movie",
+  "source_url": "https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie",
+  "title": "Occupied France, the rural South and Vietnam (Time Out, Twilight Zone: The Movie)",
+  "subcategory": "Other places",
+  "sort": "occupied france the rural south and vietnam time out twilight zone the movie"
+ },
  "locations/tinas-other-dimension": {
   "connection": "Setting of a third-season Matheson episode with a documented film legacy.",
   "tier": "core",
@@ -38039,6 +38411,18 @@
   "subcategory": "Filming locations",
   "sort": "veterans memorial park culver city"
  },
+ "locations/victorian-boston-pickmans-model": {
+  "connection": "Victorian Boston (Pickman's Model, Night Gallery) (Boston, Massachusetts) was used for Night Gallery: Pickman's Model / The Dear Departed / An Act of Chivalry.",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of Night Gallery episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes",
+  "title": "Victorian Boston (Pickman's Model, Night Gallery)",
+  "subcategory": "Other places",
+  "sort": "victorian boston pickmans model night gallery"
+ },
  "locations/vietnam-in-praise-of-pip": {
   "connection": "Vietnam and home (In Praise of Pip) was used for “In Praise of Pip” (1959).",
   "tier": "related",
@@ -38074,6 +38458,18 @@
   "title": "Willoughby",
   "subcategory": "In-story places",
   "sort": "willoughby"
+ },
+ "locations/winfield-welcome-to-winfield": {
+  "connection": "Winfield (Welcome to Winfield, 1985) was used for “Welcome to Winfield” (1985).",
+  "tier": "related",
+  "tier_reason": "A place connected to the show.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "Wikipedia: List of The Twilight Zone (1985 TV series) episodes",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes",
+  "title": "Winfield (Welcome to Winfield, 1985)",
+  "subcategory": "Other places",
+  "sort": "winfield welcome to winfield 001985"
  },
  "locations/wisconsin-center-film-theater-research-serling": {
   "connection": "The WCFTR at the University of Wisconsin-Madison holds Serling papers including printed script drafts and 1,152 Dictabelt recordings on which he dictated scripts early in his television career.",
@@ -42720,7 +43116,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -43440,7 +43836,7 @@
   "sort": "cesare danova"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -46164,7 +46560,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -49800,7 +50196,7 @@
   "sort": "jean carson"
  },
  "people/jean-de-segonzac": {
-  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Cradle of Darkness” and “Night Route”).",
+  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Night Route” and “Cradle of Darkness”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -59220,7 +59616,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -61728,7 +62124,7 @@
   "sort": "werner klemperer"
  },
  "people/wes-craven": {
-  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
+  "connection": "Wes Craven directed 7 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”); acted in 1 episode of the 1985 series (“Children's Zoo”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",

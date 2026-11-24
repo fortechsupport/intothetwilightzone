@@ -1,0 +1,21 @@
+name: "Memphis, Tennessee (Memphis, 2002)"
+kind: in-story
+city: "Memphis"
+region: "Tennessee"
+country: "United States"
+filmed:
+- ref: 2002/memphis
+  note: "Where the main character arrives in the past."
+episodes:
+- 2002/memphis
+notes: >-
+  The main character is "transported back in time to Memphis, Tennessee".
+sources:
+- title: "Wikipedia: List of The Twilight Zone (2002 TV series) episodes"
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(2002_TV_series)_episodes
+  note: Plot summary quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'

@@ -1,0 +1,19 @@
+name: "Possum Meadows (Stranger in Possum Meadows, 1985)"
+kind: in-story
+filmed:
+- ref: 1985/stranger-in-possum-meadows
+  note: "The place the title names."
+episodes:
+- 1985/stranger-in-possum-meadows
+notes: >-
+  Named in the episode's title. The plot summary read on Wikipedia's episode list does not describe the place, and
+  Wikipedia has no article for the segment.
+sources:
+- title: "Wikipedia: List of The Twilight Zone (1985 TV series) episodes"
+  url: https://en.wikipedia.org/wiki/List_of_The_Twilight_Zone_(1985_TV_series)_episodes
+  note: Episode title and plot summary read 2026-11-24.
+research_confidence: medium
+relevance: core
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'

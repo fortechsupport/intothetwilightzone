@@ -1,0 +1,18 @@
+name: "Borneo (The Caterpillar, Night Gallery)"
+kind: in-story
+filmed:
+- ref: films/night-gallery-s2e22
+  note: "Where the story is set."
+episodes:
+- films/night-gallery-s2e22
+notes: >-
+  "A British expatriate (Laurence Harvey) in Borneo" is the main character.
+sources:
+- title: "Wikipedia: List of Night Gallery episodes"
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Plot summary quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'

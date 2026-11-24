@@ -1,0 +1,21 @@
+name: "Beaumont (A Day in Beaumont, 1985)"
+kind: in-story
+filmed:
+- ref: 1985/a-day-in-beaumont
+  note: "The hamlet the couple tries to warn."
+episodes:
+- 1985/a-day-in-beaumont
+notes: >-
+  The couple are "fixing their car in the desert outside the hamlet of Beaumont" when a spacecraft comes down
+  behind a nearby hill. They try to convince the town that aliens have landed, and find the townspeople replaced;
+  the last scene is in Pops' Diner, where Faith "runs inside Pops' Diner to warn the sheriff". The article's
+  production notes add that the setting, Altair IV, "was named after the setting of Forbidden Planet".
+sources:
+- title: "Wikipedia: A Day in Beaumont"
+  url: https://en.wikipedia.org/wiki/A_Day_in_Beaumont
+  note: Plot summary quoted, read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'

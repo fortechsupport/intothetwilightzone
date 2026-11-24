@@ -1,0 +1,18 @@
+name: "Mott Street (The Messiah on Mott Street, Night Gallery)"
+kind: in-story
+filmed:
+- ref: films/night-gallery-s2e13
+  note: "The place the title names."
+episodes:
+- films/night-gallery-s2e13
+notes: >-
+  Named in the segment's title. The plot summary on Wikipedia's episode list does not describe the place.
+sources:
+- title: "Wikipedia: List of Night Gallery episodes"
+  url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
+  note: Segment title and plot summary read 2026-11-24.
+research_confidence: medium
+relevance: core
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'

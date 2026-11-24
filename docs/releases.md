@@ -3,6 +3,17 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Places in the stories of every series
+
+Visitors can now:
+- Visit 33 more places from the stories of the 1985, 2002 and 2019 series, Night Gallery, Twilight Zone: The Movie
+  and Lost Classics, among them the Kentucky Rye, Beaumont, Memphis in 2002's "Memphis", Northern Goldstar Airlines
+  Flight 1015, Saint Mary's Boarding School, Glendalough Military Academy and Pickman's Victorian Boston. Each cites
+  the Wikipedia page it was read from; places known only from an episode's title say so.
+
+**Known not to work yet:**
+- The open items of the other categories are being finished; docs/plans/finish-open-items-2026-11-24.md lists each.
+
 ## 2026-11-24 — Second pass, part 6: the last story settings of the 1959 series
 
 Visitors can now:
