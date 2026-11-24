@@ -1,0 +1,21 @@
+title: "The Simpsons"
+kind: tv-series
+release_date: '1989-12-17'
+network: "Fox"
+country: United States
+created_by:
+- "Matt Groening"
+summary: "Matt Groening's animated sitcom for Fox about the Simpson family of Springfield. The entries here are its episodes and segments with Twilight Zone homages, many of them in the Treehouse of Horror Halloween specials."
+sources:
+- title: 'Wikipedia: The Simpsons'
+  url: https://en.wikipedia.org/wiki/The_Simpsons
+  publisher: Wikipedia
+  note: Infobox and lead read on 2026-11-24.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/The_Simpsons
+research_confidence: high
+relevance: tangential
+tags:
+- host-show
+- open-items-2026-11-24
+last_verified: '2026-11-24'

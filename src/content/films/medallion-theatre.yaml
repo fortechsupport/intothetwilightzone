@@ -1,0 +1,24 @@
+title: "Medallion Theatre"
+kind: tv-series
+release_date: '1953-07-11'
+end_date: '1954-04-03'
+network: "CBS"
+country: United States
+episode_count: 30
+aka:
+- "Chrysler Medallion Theatre"
+summary: "A 30-minute CBS anthology produced by William Spier. Wikipedia says \"Among its writers were Rod Serling and Robert Anderson\"."
+sources:
+- title: 'Wikipedia: Medallion Theatre'
+  url: https://en.wikipedia.org/wiki/Medallion_Theatre
+  publisher: Wikipedia
+  note: Infobox and lead read on 2026-11-24.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Medallion_Theatre
+research_confidence: high
+relevance: related
+tags:
+- host-show
+- serling-plays
+- open-items-2026-11-24
+last_verified: '2026-11-24'

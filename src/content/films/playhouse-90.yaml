@@ -1,0 +1,23 @@
+title: "Playhouse 90"
+kind: tv-series
+release_date: '1956-10-04'
+end_date: '1960-05-18'
+network: "CBS"
+country: United States
+seasons: 4
+episode_count: 133
+summary: "CBS's anthology of 90-minute dramas, made at CBS Television City in Los Angeles. It opened on 4 October 1956 with Rod Serling's adaptation of Pat Frank's novel Forbidden Area, and Wikipedia says Serling was given the first Peabody Award for television writing."
+sources:
+- title: 'Wikipedia: Playhouse 90'
+  url: https://en.wikipedia.org/wiki/Playhouse_90
+  publisher: Wikipedia
+  note: Infobox and lead read on 2026-11-24.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Playhouse_90
+research_confidence: high
+relevance: related
+tags:
+- host-show
+- serling-plays
+- open-items-2026-11-24
+last_verified: '2026-11-24'

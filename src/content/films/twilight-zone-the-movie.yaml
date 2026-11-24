@@ -254,9 +254,19 @@ international_titles:
   - title: 'Jorudan: トワイライトゾーン 超次元の体験 作品情報'
     url: https://movie.jorudan.co.jp/film/06422/
 releases:
+- date: 1980s
+  format: VHS, Betamax and LaserDisc
+  title: 'Twilight Zone: The Movie (home video)'
+  publisher: Warner Home Video
+  note: Wikipedia says the film "was issued on VHS, Betamax and LaserDisc by Warner Home Video in the 1980s"; it gives no exact dates or catalogue numbers.
+  sources:
+  - title: 'Wikipedia: Twilight Zone: The Movie'
+    url: https://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie
+    note: Read 2026-11-24.
 - date: '2007-10-09'
   format: Blu-ray
   title: 'Twilight Zone: The Movie (Blu-ray and HD DVD)'
+  record: works/twilight-zone-movie-blu-ray-hd-dvd-2007
   publisher: Warner Home Video
   region: US
   note: Film's high-definition debut, issued on both Blu-ray and HD DVD the same week alongside a DVD reissue.
@@ -270,6 +280,7 @@ releases:
 - date: '2025-12'
   format: Blu-ray
   title: 'Twilight Zone: The Movie (new Blu-ray)'
+  record: works/twilight-zone-movie-new-blu-ray-2025
   region: US
   note: New Blu-ray edition reviewed late December 2025 to January 2026. Label (possibly Warner Archive) and transfer
     details not verified.

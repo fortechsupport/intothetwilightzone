@@ -137,6 +137,8 @@ const release = z.object({
   publisher: z.string().optional(),
   region: z.string().optional(),
   note: z.string().max(400).optional(),
+  // The record that describes this release in full ("works/<id>"), when there is one: the row links to it.
+  record: z.string().optional(),
   sources: z.array(source).min(1),
 });
 const releases = z.array(release).default([]);
@@ -346,6 +348,8 @@ const radio = defineCollection({
     volume: z.number().optional(),
     volume_order: z.number().optional(),
     volume_released: z.string().optional(),
+    // A dated broadcast in the 2003-04 syndicated run (Old Time Radio Researchers' log); not necessarily the first airing.
+    broadcast_date: z.string().optional(),
     original_writer: z.string().optional(),
     adapted_by: z.string().optional(),
     voiced_by: names,

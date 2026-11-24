@@ -1,0 +1,16 @@
+name: Stern Pinball
+kind: game-company
+description: >-
+  A pinball maker, named here as the publisher of two tables with Twilight Zone homages: The Simpsons Pinball Party
+  (2003) and Ripley's Believe It or Not! (2004). No Twilight Zone table by Stern is recorded here; the 1993
+  Twilight Zone table was Midway's, sold under the Bally name.
+official: false
+relevance: tangential
+sources:
+- title: 'TV Tropes: The Twilight Zone, Referenced By'
+  url: https://tvtropes.org/pmwiki/pmwiki.php/ReferencedBy/TheTwilightZone
+  note: The source of both pinball records that name Stern as publisher.
+research_confidence: medium
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'

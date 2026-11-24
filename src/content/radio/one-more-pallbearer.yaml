@@ -13,7 +13,12 @@ adapts_episode: 1959/one-more-pallbearer
 ids:
   imdb: tt28472211
   audible_asin: B0046FLXF6
+broadcast_date: '2003-11-01'
 sources:
+- title: 'Old Time Radio Researchers: The Twilight Zone, broadcast log'
+  url: https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm
+  publisher: Old Time Radio Researchers
+  note: 'Dated log of the 2003-04 syndicated broadcasts (read 2026-11-23, data/research/radio-2026-11-23/otrr-episode-log.tsv); gives this episode as broadcast on 1 November 2003.'
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 - title: The Twilight Zone (radio series), episode list (Wikipedia)

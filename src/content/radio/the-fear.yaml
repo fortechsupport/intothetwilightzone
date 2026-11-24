@@ -14,7 +14,12 @@ adapts_episode: 1959/the-fear
 ids:
   imdb: tt30589339
   audible_asin: B004FU6DAM
+broadcast_date: '2004-08-21'
 sources:
+- title: 'Old Time Radio Researchers: The Twilight Zone, broadcast log'
+  url: https://otrr.org/FILES/Synopsis_txt/T_Series/Twilight_Zone.htm
+  publisher: Old Time Radio Researchers
+  note: 'Dated log of the 2003-04 syndicated broadcasts (read 2026-11-23, data/research/radio-2026-11-23/otrr-episode-log.tsv); gives this episode as broadcast on 21 August 2004.'
 - title: IntoTheTwilightZone research spreadsheets
   note: Imported from Adam's research spreadsheets; not yet verified against a primary source.
 - title: The Twilight Zone (radio series), episode list (Wikipedia)

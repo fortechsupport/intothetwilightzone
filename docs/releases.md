@@ -3,6 +3,27 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — The open items of every category but Read, finished or explained
+
+Visitors can now:
+- Open a page for 21 more shows (Playhouse 90, Studio One, Kraft, The U.S. Steel Hour, The Simpsons, Futurama,
+  Saturday Night Live, Sesame Street and others) with network, years and creators beside their episodes.
+- Find "Suspense" as two shows, the radio series and the CBS television series where Serling's play aired.
+- See when 56 radio dramas were broadcast in 2003-04, the series' awards and its director, and, on 465 character
+  pages, the radio drama that remade the character's episode.
+- Hear seven Coast to Coast AM shows with Marc Zicree (one with Anne Serling, Bill Mumy and Earl Hamner Jr.).
+- Plan a walk through Serling's Binghamton and Syracuse from the map, with street addresses and a zoom to each city.
+- Read the 2004 and 2006 conventions' dates and places, the Citadel production's dates and director, the 1980s home
+  video of Twilight Zone: The Movie, filming cities for the 2002 and 1985 series, and new records for Entertainment
+  Earth, Stern Pinball and two Twilight Zone records in Music.
+- Follow home video rows to their full records; see a "Coming up" shelf in Events whenever a dated event lies ahead;
+  never land on an empty shelf.
+
+**Known not to work yet:**
+- Night Gallery's characters, Serling's film posters and trailers, and disc releases for each show are not
+  researched yet. Each item that cannot be done (a source that refuses automated reading, a book in print only) is
+  listed with its reason in docs/plans/finish-open-items-2026-11-24.md.
+
 ## 2026-11-24 — Places in the stories of every series
 
 Visitors can now:

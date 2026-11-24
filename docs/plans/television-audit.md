@@ -50,6 +50,8 @@ fixed in this pass unless it is marked *research*: that needs new sourced facts,
 | Count mismatch | Landing said 166 homages, homages page 170 | One count from the same data |
 
 ## Found, for later
+- **2026-11-24:** every item below now carries a mark (Done, Can't with the reason, Read round, or Adam) in
+  docs/plans/finish-open-items-2026-11-24.md, which is the current list.
 - Network and studio records for NBC, Universal, ABC and the anthologies' networks (plan section 6): *research*.
 - Serling's 200+ teleplays: *research*, round 1.
 - Home video and streaming links per show: *research*, round 4.

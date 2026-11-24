@@ -1,0 +1,23 @@
+title: "Kraft Television Theatre"
+kind: tv-series
+release_date: '1947-05-07'
+end_date: '1958-10-01'
+network: "NBC (a separate ABC series ran 1953-55)"
+country: United States
+seasons: 11
+episode_count: 650
+summary: "A live, hour-long NBC anthology that presented a new television play every week. Wikipedia counts Rod Serling among its many writers and says he won an Emmy for scripting Patterns (12 January 1955), its best-remembered episode."
+sources:
+- title: 'Wikipedia: Kraft Television Theatre'
+  url: https://en.wikipedia.org/wiki/Kraft_Television_Theatre
+  publisher: Wikipedia
+  note: Infobox and lead read on 2026-11-24.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Kraft_Television_Theatre
+research_confidence: high
+relevance: related
+tags:
+- host-show
+- serling-plays
+- open-items-2026-11-24
+last_verified: '2026-11-24'

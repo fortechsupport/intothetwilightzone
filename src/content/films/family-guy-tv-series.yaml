@@ -1,0 +1,21 @@
+title: "Family Guy"
+kind: tv-series
+release_date: '1999-01-31'
+network: "Fox"
+country: United States
+created_by:
+- "Seth MacFarlane"
+summary: "Seth MacFarlane's animated sitcom for Fox about the Griffin family of Quahog, Rhode Island, known for its cutaway gags. The entries here are its episodes with Twilight Zone homages."
+sources:
+- title: 'Wikipedia: Family Guy'
+  url: https://en.wikipedia.org/wiki/Family_Guy
+  publisher: Wikipedia
+  note: Infobox and lead read on 2026-11-24.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Family_Guy
+research_confidence: high
+relevance: tangential
+tags:
+- host-show
+- open-items-2026-11-24
+last_verified: '2026-11-24'

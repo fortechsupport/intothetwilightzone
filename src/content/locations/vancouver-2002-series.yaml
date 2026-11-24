@@ -1,23 +1,25 @@
-name: Vancouver, British Columbia (2002 series production base)
+name: Vancouver, British Columbia (2002 series)
 kind: filming-location
 city: Vancouver
 region: British Columbia
 country: CA
 status: extant
-opened: '2002'
+filmed:
+- ref: series/2002
+  note: Where the series was made.
 notes: >-
-  The UPN revival hosted by Forest Whitaker was produced in and around Vancouver for its single 2002-03
-  season, part of the city's boom as a television production center.
-
-
-  Twilight Zone connections: Production base for the UPN season.
+  Wikipedia gives the 2002 revival's production locations as "Vancouver, British Columbia", and the Georgia Straight
+  says the revival of 2002 to 2003 "was shot in Vancouver". Neither names a studio or a street; the Vancouver Aquarium
+  is the only named location found.
 sources:
-- title: The Twilight Zone revival series, shot in Vancouver - Georgia Straight
-  author: Craig Takeuchi
-  note: About the 2019 series (1 April 2019); it says the 2002-03 revival "was shot in Vancouver".
-  url: >-
-    https://www.straight.com/movies/1222011/twilight-zone-revival-series-shot-vancouver-have-tv-season-premiere-april-4
-- title: The Twilight Zone (2002 TV series) - Wikipedia
+- title: 'Wikipedia: The Twilight Zone (2002 TV series)'
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)
-  note: 'Infobox: "Production locations: Vancouver, British Columbia" (read 2026-11-24).'
-last_verified: '2026-11-19'
+  note: Infobox, "Production locations" (read 2026-11-24).
+- title: The Twilight Zone revival series, shot in Vancouver, to have TV season premiere on April 4 (Georgia Straight)
+  url: https://www.straight.com/movies/1222011/twilight-zone-revival-series-shot-vancouver-have-tv-season-premiere-april-4
+  note: Read 2026-11-24.
+research_confidence: high
+relevance: core
+tags:
+- open-items-2026-11-24
+last_verified: '2026-11-24'

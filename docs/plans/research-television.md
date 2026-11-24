@@ -307,6 +307,8 @@ Television, that means:
 - Screenshots of step 1 before merge.
 
 ## Found, for later
+- **2026-11-24:** every item below now carries a mark (Done, Can't with the reason, Read round, or Adam) in
+  docs/plans/finish-open-items-2026-11-24.md, which is the current list.
 - 39 Serling-life milestones also show under Attend > Other events (see the checklist).
 - Five web series have no parent show (Sandwich of Terror, Weird City and others), so each is its own entry; the
   Movies or a later web-series pass should decide their home.

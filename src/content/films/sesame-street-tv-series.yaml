@@ -1,0 +1,22 @@
+title: "Sesame Street"
+kind: tv-series
+release_date: '1969-11-10'
+network: "NET, then PBS, HBO, HBO Max and Netflix"
+country: United States
+created_by:
+- "Joan Ganz Cooney"
+- "Lloyd Morrisett"
+summary: "Joan Ganz Cooney and Lloyd Morrisett's educational children's series of live action, animation and Jim Henson's Muppets, made by Sesame Workshop (the Children's Television Workshop until 2000). The entries here are its Twilight Zone theme hums and parodies."
+sources:
+- title: 'Wikipedia: Sesame Street'
+  url: https://en.wikipedia.org/wiki/Sesame_Street
+  publisher: Wikipedia
+  note: Infobox and lead read on 2026-11-24.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Sesame_Street
+research_confidence: high
+relevance: tangential
+tags:
+- host-show
+- open-items-2026-11-24
+last_verified: '2026-11-24'

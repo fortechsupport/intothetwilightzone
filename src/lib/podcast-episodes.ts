@@ -93,3 +93,13 @@ export async function podcastsAbout(key: string) {
   return ix.rows.filter((r) => r.m.includes(t)).map((r) => ({ ...r, podcast: ix.podcasts[r.p] }));
 }
 
+
+// How many podcast episodes name each Night Gallery segment (key "<film id>#<segment title>"), worked out once.
+let segCounts: Promise<Map<string, number>> | undefined;
+export function segmentPodcastCounts(): Promise<Map<string, number>> {
+  return (segCounts ??= podcastIndex().then((ix) => {
+    const m = new Map<string, number>();
+    for (const r of ix.rows) for (const t of r.m) if (ix.targets[t].series === 'night-gallery') m.set(ix.targets[t].key, (m.get(ix.targets[t].key) ?? 0) + 1);
+    return m;
+  }));
+}

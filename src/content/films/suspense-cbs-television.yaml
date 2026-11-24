@@ -1,0 +1,20 @@
+title: Suspense
+kind: tv-series
+summary: CBS Television's live anthology of thrillers, 1949 to 1954, broadcast live from New York to CBS's eastern
+  and midwestern stations, with kinescopes made for the West Coast. It aired Rod Serling's "Nightmare at Ground Zero"
+  on 18 August 1953. A revival hosted by Sebastian Cabot followed in 1964. The radio series of the same name has its
+  own record, Suspense (radio).
+release_date: '1949-01-06'
+network: CBS
+sources:
+- title: 'Wikipedia: Suspense (American TV series)'
+  url: https://en.wikipedia.org/wiki/Suspense_(American_TV_series)
+  note: 'Gives "ran on CBS Television from 1949 to 1954", the live broadcasts from New York, and Serling''s episode (read 2026-11-24).'
+research_confidence: high
+relevance: related
+tags:
+- anthology-family
+- open-items-2026-11-24
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Suspense_(American_TV_series)
+last_verified: '2026-11-24'

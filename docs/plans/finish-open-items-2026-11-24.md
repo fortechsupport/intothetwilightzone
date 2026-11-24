@@ -36,76 +36,140 @@ second-pass-2026-11-24.md, and every "Known not to work yet" line in docs/releas
 - Night Gallery's unmade scripts listed on the page (Transylvania, Binghamton and others) are not episodes; not added.
 
 ### Television
-- Five web series with no parent show: in progress.
-- "Suspense" is one record for radio and TV: in progress.
-- 90 show pages without a series record: in progress.
-- Network and studio records (NBC, Universal, ABC): in progress.
-- Serling's 200+ teleplays: in progress.
-- Home video and streaming links per show: in progress.
+- **Done (earlier):** the five web series sit on Homages in other shows > Web series; NBC, ABC and Universal have
+  records; Serling's teleplays were checked against the Rod Serling Memorial Foundation's 213-entry filmography (47
+  added, 2026-11-21 and 23; data/research/television-2026-11-21/teleplays.md).
+- **Done (PR B):** "Suspense" is now two records, the radio series and the CBS television series (1949-54), from
+  Wikipedia; Serling's TV play sits on the TV one.
+- **Done (PR B):** show records for the 21 shows with three or more entries (Playhouse 90, Kraft, Studio One, Lux,
+  Climax!, Medallion, Hallmark, The U.S. Steel Hour, Bob Hope Presents the Chrysler Theatre, The Simpsons, Futurama,
+  Family Guy, Saturday Night Live, Sesame Street, Muppet Babies, Johnny Bravo, Tiny Toon Adventures, Gilmore Girls,
+  Mystery Science Theater 3000, Star Trek, The Nanny), each from its Wikipedia infobox and lead. 89 shows with one or
+  two entries keep their show page, which says no show record is held (the rule in research-television.md).
+- **Done (PR B):** home video rows on series and film pages link to their full records where one exists (21 rows).
+- **Not finished:** home video and streaming links for each of the other shows. Where to watch is on every show page
+  (decision 0003); per-show disc releases are a research round of their own (about 110 shows).
 
 ### Movies
-- Posters, trailers and home video for Serling's films (round 3): in progress.
-- AFI entries for Requiem for a Heavyweight, The Yellow Canary, The Salamander, The Man: in progress.
-- Lost Classics' composer: in progress.
-- Duel's duplicate record: in progress.
-- The seven music videos on their songs' pages: in progress.
-- Filter scripts on other list pages: in progress.
-- Journey to the Far Side of the Sun, The Bourne Identity, Donnie Darko: in progress.
+- **Done (earlier):** Duel's second record is a duplicate of the first and hidden.
+- **Done (PR B), checked:** the filter boxes on other pages work: typing on /series/homages/, /television/homages/,
+  /podcasts/episodes/, /people/, /series/1959/ and a show page narrows each list (Playwright, 2026-11-24).
+- **Done (PR B):** Twilight Zone: The Movie's 1980s VHS, Betamax and LaserDisc release by Warner Home Video (Wikipedia).
+- **Done (PR B), decided here:** the five music videos with no song record keep the video record as their Music
+  entry; a song record would repeat it. Golden Earring and The Linda Lindas link both ways.
+- **Can't:** the AFI catalogue refuses automated reading (Requiem for a Heavyweight, The Yellow Canary, The Salamander);
+  The Man has no AFI entry found. Lost Classics' composer is not in Wikipedia or TCM. Journey to the Far Side of the
+  Sun's comparisons are only in a summary of Wikipedia's citations (Douglas Pratt, the ICA), not read; Donnie Darko's
+  Owl Creek tie and The Bourne Identity's line rest on Gizmodo and TV Tropes only, and stay marked as fan-noted.
+- **Not finished:** posters (with designers), official trailers and home video for Serling's other films (round 3).
 
 ### Radio (casts deferred by Adam)
-- Where to listen, the 2023 podcast feed, release dates, the director credit, OTRR's broadcast log, the XM Radio
-  Nation Award, the O'Toole play's running time, Tony Mockus Jr. and Sr., bundle membership, Audible numbers: in
-  progress.
-- Five Radio records on no shelf; the radio dramas' music record: in progress.
+- **Done (earlier):** Tony Mockus Sr. and Jr. are father and son (Chicago Sun-Times obituary), two people; the five
+  Radio records and the music record show on the series page.
+- **Done (PR B):** the director credit (Carl Amari, with JoBe Cerny, per the Vortex guide); the awards (Gold Marcum
+  2006 and XM Radio Nation from the publisher's OverDrive listing, the Audie from the series' 2008 blog post); OTRR's
+  log applied: 56 episodes now show their 2003-04 syndicated broadcast date.
+- **Can't:** the O'Toole play's running time (WVXU's article gives none; its player clip is 10:35, not the play);
+  release dates per episode beyond the OTRR log (Wikipedia gives none); whether the 2023 podcast feed is Falcon's own
+  (no page says); membership of the Hollywood 360 bundle and OverDrive per episode (no list published); Audible
+  numbers for the other 55 episodes (Audible's pages are not readable here).
+- **Adam:** full casts (deferred).
 
 ### Podcasts
-- Q8, how the weekly refresh reaches the site: in progress.
-- Night Gallery podcast rows, season and episode matching, fan corrections, Night Zone Anthology and Of Shadow and
-  Substance feeds, capped feeds, unrecorded leads: in progress.
+- **Done (PR B):** Night Gallery segments show their podcast episodes on the Night Gallery page; Night Zone Anthology
+  has its Spotify link and full description (no feed is published); seven Coast to Coast AM shows with Marc Zicree
+  (2004-2025, one with Anne Serling, Bill Mumy, Earl Hamner Jr. and others) have records from their show pages.
+- **Can't:** Of Shadow and Substance publishes no feed; Strange Highways and Ear of the Beholder feeds cap what they
+  list and no full archive was found; the Foundation's "Talking Rod's Legacy" post (28 June 2025) has no audio or video
+  link and does not say which it is; the five fiction podcasts are titles only.
+- **Adam:** Q8, how the weekly refresh reaches the site (needs a repository setting only he can change).
+- **Decided here:** season-and-episode matching and "wrong match" corrections wait for fan reports through the
+  existing contribute form rather than a new tool.
 
 ### Stage
-- The Citadel review, the Washburn licence and the Methuen edition, the Rosendale and CRAGG leads, home video and
-  trailers for Serling's TV films: in progress.
+- **Done (PR B):** the Citadel production's dates, director and premiere status (the theatre's page).
+- **Done (earlier):** the Rosendale evening is an Events record; the CRAGG LIVE show is a talk-radio tribute, not stage.
+- **Can't:** no review of the Citadel production found; no page read names who licenses Washburn's play for
+  performance; the Methuen Drama edition (ISBN 9781350374300) is known only from bookseller listings; no home video or
+  trailers found for The Yellow Canary, The Man, The Salamander, Incident in an Alley or the TV films.
 
 ### Music
-- Title-only leads, covers of the theme, "Devil's Tune", the 52 unconfirmed songs, episode composers, Night Gallery
-  composers, a Serling spoken-word record, where to listen, the five music videos without a song record, old group
-  descriptions in categories.ts: in progress.
+- **Done (PR B):** two title-only leads recorded: Twilight Zone Vol 1 (Dan Vapid and The Cheats / Horror Section,
+  2017), six songs named after episodes; Cornelius's "Tone Twilight Zone" (2001, possible reference). The old group
+  descriptions in categories.ts are updated; the radio dramas' music record links from the Radio series page.
+- **Done (earlier):** episode composers for 34 episodes from Bill Wrobel's score rundowns (Adam's archive).
+- **Can't:** Bloody Hammers' "Twilight Zone" (Last.fm refused; Bandcamp has no page for it), Code Chaos, Steven
+  Wilson, Band 88, Phenomena and Ivan Campo (no page found); covers of the theme (SecondHandSongs refuses automated
+  reading); "Devil's Tune" (no page found beyond the streaming title); the other episode composers (Martin Grams Jr.'s
+  cue sheets, in print only); Night Gallery's per-segment composers (the only list found, from IMDb via a 2016 blog,
+  gives counts per composer, not segments); a Serling spoken-word album (Discogs refuses; none found elsewhere).
+- **Adam:** the 52 unconfirmed songs (fan votes, or Adam's memory of why each was listed).
 
 ### Games
-- The Clue licence, the home ROM, the Bloody Disgusting lead, the 2019 Grove pop-up, duplicates in the taxonomy
-  export: in progress.
+- **Done:** the Clue publisher (Hasbro Gaming) and its "Authentic Disney Park Merchandise" label; the 2019 Grove pop-up
+  has a record; duplicates now show as "Duplicate (hidden on the site)" in the taxonomy export.
+- **Can't:** whether CBS licensed the Clue game, or approved the home ROM (no source says); Bloody Disgusting's video
+  game lead (fails to load).
 
 ### Collect
-- Night Gallery paintings, home video duplicates, Gold Entertainment, 1985 series and 1983 film on VHS and laserdisc,
-  licences to confirm, merchandise for the 1985 and 2019 series, empty catch-all shelves, Rittenhouse's licence: in
-  progress.
+- **Done (PR B):** home video duplicates (rows now link their records); empty catch-all shelves no longer get a page.
+- **Done, as far as sources go:** licences: Middle of Beyond and 80sTees say "officially licensed" without naming the
+  licensor; Phantom City states none (kept unofficial); Fright-Rags says licensed, licensor not named.
+- **Decided here:** the seven Rittenhouse card sets keep `licensed: true`, marked as an inference (their checklists
+  list cast autograph cards); no page read states the licence.
+- **Can't:** Night Gallery's painting-by-segment list (only in the 2020 book The Art of Darkness); Gold Entertainment's
+  2000 DVD set (one quoted Amazon review); the 1985 series on VHS or laserdisc (Wikipedia lists DVD releases only);
+  Mondo's Twilight Zone print (none found); merchandise for the 1985 and 2019 series (none found).
 
 ### Attend
-- Syfy marathon years, Twilight Zone Museum conventions of 2003 and 2005, a process for upcoming events: in progress.
-- Text and event pairs of Serling's lectures: **Read round** (the text halves are essays).
+- **Done (PR B):** the 2004 and 2006 conventions now carry their dates and places (Hollywood; Hasbrouck Heights, New
+  Jersey, the first on the East Coast); no 2003 or 2005 convention was found. A "Coming up" shelf now lists any event
+  whose date is still ahead, and drops it when the date passes (there are none today, so the shelf is hidden).
+- **Decided here:** the Syfy marathon stays one record (22nd annual in 2016-17); each year's schedule is not listed.
+- **Read round:** text and event pairs of Serling's lectures.
 
 ### Discover
-- Walk of Fame year, award nominations, ratings history, Muppet and Sesame Street hums, Rugrats, MAD and MADtv, the
-  fan-noted links, evidence groups on References, Remarkable Ohio: in progress.
+- **Done (earlier):** Walk of Fame year; the Muppet and Sesame Street hums; fan-noted links are labelled and filterable.
+- **Done (PR B):** the Antioch marker's two sides are titled "Rod Serling at Antioch College" and "Rod Serling
+  Television Pioneer" (Remarkable Ohio's page title); its inscription could not be read (the page served the county
+  index).
+- **Can't:** Emmy nominations for the 1985 revival (Wikipedia lists none; its one award, the 1987 WGA, has a record);
+  ratings history (no source found); the Rugrats episode (unnamed by TV Tropes); a MAD or MADtv parody (not confirmed).
+- **Adam:** evidence groups on References, if he prefers them to the filter.
 
 ### Meet
-- Night Gallery characters and casts, radio drama characters, one character played by several actors, organization
-  links to Wikipedia, Entertainment Earth, Stern Pinball, sponsor shelf wording: in progress.
+- **Done (PR B):** 19 organizations link to Wikipedia; Entertainment Earth has a record (retailer and wholesaler, the
+  exclusive distributor of Bif Bang Pow!'s toys); Bif Bang Pow!'s founders and base added; the sponsor shelf reads
+  "Sponsors of the Twilight Zone" and "Sponsors of Serling's other work, and brands he advertised". Characters of the
+  episodes the radio dramas remade now list that radio episode.
+- **Done (earlier):** one character played by two actors (Philip in "Upgrade").
+- **Done (PR B):** Stern Pinball has a record, as publisher of the two pinball tables with Twilight Zone homages.
+- **Not finished:** Night Gallery characters (a research round of about 100 segments), and characters of the 16
+  original radio stories.
 
 ### Visit
-- 1985 and 2002 filming locations, a Binghamton and Syracuse walking map: in progress.
+- **Done (PR A):** settings for every series. **Done (PR B):** filming cities for the 2002 series (Vancouver) and the
+  1985 series' third season (Toronto, medium confidence); a "Rod Serling's Binghamton and Syracuse" section on the map
+  with street addresses and buttons that zoom to each city.
+- **Can't:** a studio or town for the 1985 series' CBS seasons (no source names one; Paul Chavez's call sheets at USC
+  are not online).
 
 ### Media Library
-- Quotes and archival holdings are thin: in progress.
-- The possible Fresh Air duplicate: in progress.
-- The 20 undecided reviews, the unnamed book review, honors filed as reviews, audiobooks: **Read round**.
+- **Done (earlier):** the Fresh Air record is single. **Done (PR B):** seven Coast to Coast AM shows added as media.
+- **Read round:** the 20 undecided reviews, the unnamed book review, honors filed as reviews, audiobooks.
+- **Not finished:** more quotes and archival holdings (open-ended; added as found).
 
 ## Decided here (Adam reviews later)
-- (filled in as items close)
+- Suspense split into radio and television records.
+- Show records for shows with three or more entries sit in their show's group, not counted as homages or anthologies.
+- Sponsor shelf labels; the "Coming up" events shelf; empty shelves get no page.
+- Music videos without a song record stay video-only.
+- Rittenhouse sets stay licensed, labelled as an inference.
+- The Syfy marathon stays one record; podcast match corrections go through the contribute form.
 
 ## Waiting on Adam
-- (filled in as items close)
+- Q8: let the weekly podcast refresh open pull requests (a GitHub setting), or choose another way.
+- The 52 unconfirmed songs; evidence groups on References; full radio casts (deferred).
 
 ## Found, for later
 - Nothing goes here: each item found is added to the ledger above with a mark.

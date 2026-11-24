@@ -812,13 +812,13 @@
  ],
  "books/into-the-twilight-zone": [
   {
-   "cat": "reading",
-   "sub": "books",
-   "group": "Other books",
-   "catTitle": "Reading",
-   "subTitle": "Books",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of books/into-the-twilight-zone-the-rod-serling-programme-guide",
+   "group": null,
    "isNew": false,
-   "official": true
+   "official": null
   }
  ],
  "books/irony-in-the-twilight-zone-how-the-series-critiqued-postwar-american-culture": [
@@ -887,13 +887,13 @@
  ],
  "books/last-stop-the-twilight-zone-the-biography-of-rod-serling": [
   {
-   "cat": "reading",
-   "sub": "books",
-   "group": "Biography and memoir",
-   "catTitle": "Reading",
-   "subTitle": "Books",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of books/rod-serling-the-dreams-and-nightmares-of-life-in-the-twilight-zone",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "books/logans-run-novel": [
@@ -1064,13 +1064,13 @@
  ],
  "books/new-stories-from-the-twilight-zone-2": [
   {
-   "cat": "reading",
-   "sub": "books",
-   "group": "Story anthologies",
-   "catTitle": "Reading",
-   "subTitle": "Books",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of books/new-stories-from-the-twilight-zone",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "books/new-stories-from-the-twilight-zone": [
@@ -29213,6 +29213,17 @@
    "official": false
   }
  ],
+ "films/bob-hope-presents-the-chrysler-theatre": [
+  {
+   "cat": "series",
+   "sub": "serling-series",
+   "group": "Anthologies he wrote plays for",
+   "catTitle": "Television",
+   "subTitle": "Rod Serling's series",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "films/bombers-moon": [
   {
    "cat": "series",
@@ -29379,6 +29390,17 @@
    "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
+  }
+ ],
+ "films/climax-tv-series": [
+  {
+   "cat": "series",
+   "sub": "serling-series",
+   "group": "Anthologies he wrote plays for",
+   "catTitle": "Television",
+   "subTitle": "Rod Serling's series",
+   "isNew": false,
+   "official": true
   }
  ],
  "films/clockstoppers": [
@@ -29595,13 +29617,13 @@
  ],
  "films/duel": [
   {
-   "cat": "movies",
-   "sub": "linked-films",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of films/duel-1971",
    "group": null,
-   "catTitle": "Movies",
-   "subTitle": "Films linked to the show",
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "films/eastenders-episode-of-27-september-2005": [
@@ -29798,6 +29820,17 @@
    "isNew": false,
    "official": false
   },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Family Guy",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/family-guy-tv-series": [
   {
    "cat": "series",
    "sub": "homages",
@@ -30183,6 +30216,17 @@
    "official": false
   }
  ],
+ "films/futurama-tv-series": [
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Futurama",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/futurama-zapp-dingbat": [
   {
    "cat": "homages",
@@ -30347,6 +30391,17 @@
    "official": false
   }
  ],
+ "films/gilmore-girls-tv-series": [
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Gilmore Girls",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/girls-on-top-skankin": [
   {
    "cat": "homages",
@@ -30438,6 +30493,17 @@
    "subTitle": "Fellow anthologies",
    "isNew": false,
    "official": false
+  }
+ ],
+ "films/hallmark-hall-of-fame": [
+  {
+   "cat": "series",
+   "sub": "serling-series",
+   "group": "Anthologies he wrote plays for",
+   "catTitle": "Television",
+   "subTitle": "Rod Serling's series",
+   "isNew": false,
+   "official": true
   }
  ],
  "films/harvey-street-kids-netflix-the-monsters-are-due-on-harvey-street": [
@@ -30923,6 +30989,17 @@
    "official": false
   }
  ],
+ "films/johnny-bravo-tv-series": [
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Johnny Bravo",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/journey-to-the-far-side-of-the-sun-doppelganger": [
   {
    "cat": "movies",
@@ -31014,6 +31091,17 @@
    "subTitle": "Films linked to the show",
    "isNew": false,
    "official": false
+  }
+ ],
+ "films/kraft-television-theatre": [
+  {
+   "cat": "series",
+   "sub": "serling-series",
+   "group": "Anthologies he wrote plays for",
+   "catTitle": "Television",
+   "subTitle": "Rod Serling's series",
+   "isNew": false,
+   "official": true
   }
  ],
  "films/leave-it-to-beaver-beaver-on-tv": [
@@ -31155,6 +31243,17 @@
    "official": false
   }
  ],
+ "films/lux-video-theatre": [
+  {
+   "cat": "series",
+   "sub": "serling-series",
+   "group": "Anthologies he wrote plays for",
+   "catTitle": "Television",
+   "subTitle": "Rod Serling's series",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "films/m3gan": [
   {
    "cat": "movies",
@@ -31283,6 +31382,17 @@
    "official": false
   }
  ],
+ "films/medallion-theatre": [
+  {
+   "cat": "series",
+   "sub": "serling-series",
+   "group": "Anthologies he wrote plays for",
+   "catTitle": "Television",
+   "subTitle": "Rod Serling's series",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "films/medium-still-life": [
   {
    "cat": "homages",
@@ -31371,13 +31481,13 @@
  ],
  "films/monsters-1988": [
   {
-   "cat": "series",
-   "sub": "anthologies",
-   "group": "Anthology series",
-   "catTitle": "Television",
-   "subTitle": "Fellow anthologies",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of films/monsters",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "films/monsters-mysteries-or-myths": [
@@ -31492,6 +31602,17 @@
    "isNew": false,
    "official": false
   },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Muppet Babies",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/muppet-babies-1984-tv-series": [
   {
    "cat": "series",
    "sub": "homages",
@@ -31683,6 +31804,17 @@
    "isNew": false,
    "official": false
   },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Mystery Science Theater 3000",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/mystery-science-theater-3000-tv-series": [
   {
    "cat": "series",
    "sub": "homages",
@@ -32553,6 +32685,17 @@
    "official": true
   }
  ],
+ "films/playhouse-90": [
+  {
+   "cat": "series",
+   "sub": "serling-series",
+   "group": "Anthologies he wrote plays for",
+   "catTitle": "Television",
+   "subTitle": "Rod Serling's series",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "films/pluribus": [
   {
    "cat": "series",
@@ -32985,6 +33128,17 @@
    "official": false
   }
  ],
+ "films/saturday-night-live-tv-series": [
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Saturday Night Live",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/saturday-night-live-twilight-zone-sketch-ariana-grande-episode": [
   {
    "cat": "homages",
@@ -33278,6 +33432,17 @@
    "official": false
   }
  ],
+ "films/sesame-street-tv-series": [
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Sesame Street",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/seven-days-in-may": [
   {
    "cat": "movies",
@@ -33486,6 +33651,17 @@
    "official": false
   }
  ],
+ "films/star-trek-the-original-series": [
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Star Trek",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/stranger-than-fiction": [
   {
    "cat": "movies",
@@ -33517,6 +33693,17 @@
    "official": false
   }
  ],
+ "films/studio-one-tv-series": [
+  {
+   "cat": "series",
+   "sub": "serling-series",
+   "group": "Anthologies he wrote plays for",
+   "catTitle": "Television",
+   "subTitle": "Rod Serling's series",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "films/super-8": [
   {
    "cat": "movies",
@@ -33524,6 +33711,17 @@
    "group": null,
    "catTitle": "Movies",
    "subTitle": "Films linked to the show",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/suspense-cbs-television": [
+  {
+   "cat": "series",
+   "sub": "anthologies",
+   "group": "Anthology series",
+   "catTitle": "Television",
+   "subTitle": "Fellow anthologies",
    "isNew": false,
    "official": false
   }
@@ -34681,6 +34879,17 @@
    "official": false
   }
  ],
+ "films/the-nanny-tv-series": [
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "The Nanny",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/the-new-people": [
   {
    "cat": "series",
@@ -35344,6 +35553,17 @@
    "official": false
   }
  ],
+ "films/the-simpsons-tv-series": [
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "The Simpsons",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/the-simpsons-wild-barts-cant-be-broken": [
   {
    "cat": "homages",
@@ -35605,6 +35825,17 @@
    "subTitle": "Documentaries",
    "isNew": false,
    "official": false
+  }
+ ],
+ "films/the-us-steel-hour": [
+  {
+   "cat": "series",
+   "sub": "serling-series",
+   "group": "Anthologies he wrote plays for",
+   "catTitle": "Television",
+   "subTitle": "Rod Serling's series",
+   "isNew": false,
+   "official": true
   }
  ],
  "films/the-vast-of-night": [
@@ -35896,6 +36127,17 @@
    "isNew": false,
    "official": false
   },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Tiny Toon Adventures",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/tiny-toon-adventures-tv-series": [
   {
    "cat": "series",
    "sub": "homages",
@@ -39804,6 +40046,17 @@
    "official": false
   }
  ],
+ "organizations/entertainment-earth": [
+  {
+   "cat": "organizations",
+   "sub": "other-organizations",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Other organizations",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "organizations/falcon-picture-group": [
   {
    "cat": "organizations",
@@ -40330,6 +40583,17 @@
    "subTitle": "Production companies",
    "isNew": false,
    "official": true
+  }
+ ],
+ "organizations/stern-pinball": [
+  {
+   "cat": "organizations",
+   "sub": "licensees",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Product licensees",
+   "isNew": false,
+   "official": false
   }
  ],
  "organizations/television-academy-foundation": [
@@ -67193,6 +67457,83 @@
    "official": false
   }
  ],
+ "podcasts/coast-to-coast-am-marc-zicree-2019": [
+  {
+   "cat": "podcasts",
+   "sub": "single-episodes",
+   "group": "The show",
+   "catTitle": "Podcasts",
+   "subTitle": "Single episodes",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "podcasts/coast-to-coast-am-rod-serling-and-the-twilight-zone-2024": [
+  {
+   "cat": "podcasts",
+   "sub": "single-episodes",
+   "group": "Rod Serling",
+   "catTitle": "Podcasts",
+   "subTitle": "Single episodes",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "podcasts/coast-to-coast-am-rod-serlings-legacy-2025": [
+  {
+   "cat": "podcasts",
+   "sub": "single-episodes",
+   "group": "Rod Serling",
+   "catTitle": "Podcasts",
+   "subTitle": "Single episodes",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "podcasts/coast-to-coast-am-sci-fi-projects-2004": [
+  {
+   "cat": "podcasts",
+   "sub": "single-episodes",
+   "group": "The show",
+   "catTitle": "Podcasts",
+   "subTitle": "Single episodes",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "podcasts/coast-to-coast-am-twilight-zone-and-sci-fi-2014": [
+  {
+   "cat": "podcasts",
+   "sub": "single-episodes",
+   "group": "The show",
+   "catTitle": "Podcasts",
+   "subTitle": "Single episodes",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "podcasts/coast-to-coast-am-twilight-zone-memories-2004": [
+  {
+   "cat": "podcasts",
+   "sub": "single-episodes",
+   "group": "The show",
+   "catTitle": "Podcasts",
+   "subTitle": "Single episodes",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "podcasts/coast-to-coast-am-twilight-zone-special-2009": [
+  {
+   "cat": "podcasts",
+   "sub": "single-episodes",
+   "group": "The show",
+   "catTitle": "Podcasts",
+   "subTitle": "Single episodes",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "podcasts/decades-of-horror-1980s-twilight-zone-movie": [
   {
    "cat": "podcasts",
@@ -69340,7 +69681,17 @@
    "official": true
   }
  ],
- "radio/radio-drama-podcasts-archive-twilight-zone": [],
+ "radio/radio-drama-podcasts-archive-twilight-zone": [
+  {
+   "cat": "radio",
+   "sub": "series-page",
+   "catTitle": "Radio",
+   "subTitle": "The Twilight Zone Radio Dramas: series page, broadcast and release history",
+   "group": null,
+   "isNew": false,
+   "official": true
+  }
+ ],
  "radio/rest-stop": [
   {
    "cat": "radio",
@@ -70348,8 +70699,28 @@
    "official": true
   }
  ],
- "radio/twilight-zone-radio-dramas-bbc": [],
- "radio/twilight-zone-radio-dramas-cd-digital-collections": [],
+ "radio/twilight-zone-radio-dramas-bbc": [
+  {
+   "cat": "radio",
+   "sub": "series-page",
+   "catTitle": "Radio",
+   "subTitle": "The Twilight Zone Radio Dramas: series page, broadcast and release history",
+   "group": null,
+   "isNew": false,
+   "official": true
+  }
+ ],
+ "radio/twilight-zone-radio-dramas-cd-digital-collections": [
+  {
+   "cat": "radio",
+   "sub": "series-page",
+   "catTitle": "Radio",
+   "subTitle": "The Twilight Zone Radio Dramas: series page, broadcast and release history",
+   "group": null,
+   "isNew": false,
+   "official": true
+  }
+ ],
  "radio/twilight-zone-radio-dramas-series": [
   {
    "cat": "radio",
@@ -70361,8 +70732,28 @@
    "official": true
   }
  ],
- "radio/twilight-zone-radio-dramas-us-syndication": [],
- "radio/twilight-zone-radio-show-podcast-feed": [],
+ "radio/twilight-zone-radio-dramas-us-syndication": [
+  {
+   "cat": "radio",
+   "sub": "series-page",
+   "catTitle": "Radio",
+   "subTitle": "The Twilight Zone Radio Dramas: series page, broadcast and release history",
+   "group": null,
+   "isNew": false,
+   "official": true
+  }
+ ],
+ "radio/twilight-zone-radio-show-podcast-feed": [
+  {
+   "cat": "radio",
+   "sub": "series-page",
+   "catTitle": "Radio",
+   "subTitle": "The Twilight Zone Radio Dramas: series page, broadcast and release history",
+   "group": null,
+   "isNew": false,
+   "official": true
+  }
+ ],
  "radio/two-thousand-twelve": [
   {
    "cat": "radio",
@@ -70570,13 +70961,13 @@
  ],
  "songs/2-unlimited-twilight-zone-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/2-unlimited-twilight-zone",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/2-unlimited-twilight-zone": [
@@ -70592,13 +70983,13 @@
  ],
  "songs/311-prisoner-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/311-prisoner",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/311-prisoner": [
@@ -70779,24 +71170,24 @@
  ],
  "songs/bernard-herrmann-the-twilight-zone-1959": [
   {
-   "cat": "music",
-   "sub": "covers-samples",
-   "group": "Covers and arrangements of the theme",
-   "catTitle": "Music",
-   "subTitle": "Covers and samples",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/herrmann-twilight-zone-theme-1959",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/big-audio-dynamite-dial-a-hitman-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/big-audio-dynamite-dial-a-hitman",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/big-audio-dynamite-dial-a-hitman": [
@@ -71098,13 +71489,13 @@
  ],
  "songs/dj-jazzy-jeff-and-the-fresh-prince-then-she-bit-me-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/dj-jazzy-jeff-and-the-fresh-prince-then-she-bit-me",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/dj-jazzy-jeff-and-the-fresh-prince-then-she-bit-me": [
@@ -71296,13 +71687,13 @@
  ],
  "songs/fountains-of-wayne-i-want-an-alien-for-christmas-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/fountains-of-wayne-i-want-an-alien-for-christmas",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/fountains-of-wayne-i-want-an-alien-for-christmas": [
@@ -71373,13 +71764,13 @@
  ],
  "songs/golden-earring-twilight-zone-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/golden-earring-twilight-zone",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/golden-earring-twilight-zone": [
@@ -71395,13 +71786,13 @@
  ],
  "songs/grateful-dead-the-twilight-zone-1985": [
   {
-   "cat": "music",
-   "sub": "covers-samples",
-   "group": "Covers and arrangements of the theme",
-   "catTitle": "Music",
-   "subTitle": "Covers and samples",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/grateful-dead-tz-theme-1985",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/hassle-hound-monsters-are-due-on-maple-street": [
@@ -71450,13 +71841,13 @@
  ],
  "songs/iron-maiden-twilight-zone-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/iron-maiden-twilight-zone",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/iron-maiden-twilight-zone": [
@@ -71637,13 +72028,13 @@
  ],
  "songs/jonathan-davis-the-twilight-zone-2002": [
   {
-   "cat": "music",
-   "sub": "covers-samples",
-   "group": "Covers and arrangements of the theme",
-   "catTitle": "Music",
-   "subTitle": "Covers and samples",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/jonathan-davis-tz-theme-2002",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/kid-cudi-m3tamorphosis": [
@@ -71846,24 +72237,24 @@
  ],
  "songs/marco-beltrami-the-twilight-zone-2019": [
   {
-   "cat": "music",
-   "sub": "covers-samples",
-   "group": "Covers and arrangements of the theme",
-   "catTitle": "Music",
-   "subTitle": "Covers and samples",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/beltrami-tz-theme-2019",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/marius-constant-the-twilight-zone-1959": [
   {
-   "cat": "music",
-   "sub": "covers-samples",
-   "group": "Covers and arrangements of the theme",
-   "catTitle": "Music",
-   "subTitle": "Covers and samples",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/constant-etrange-milieu-theme-1960",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/megamind-taub-picotto-mix": [
@@ -71912,13 +72303,13 @@
  ],
  "songs/ministry-twilight-zone-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/ministry-twilight-zone",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/ministry-twilight-zone": [
@@ -71967,13 +72358,13 @@
  ],
  "songs/moses-pelham-twilight-zone": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/moses-p-twilight-zone",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/nayutalien-feat-hatsune-miku-alien-alien": [
@@ -72154,13 +72545,13 @@
  ],
  "songs/rage-chasing-the-twilight-zone-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/rage-chasing-the-twilight-zone",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/rage-chasing-the-twilight-zone": [
@@ -72176,13 +72567,13 @@
  ],
  "songs/red-hot-chili-peppers-nobody-weird-like-me-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/red-hot-chili-peppers-nobody-weird-like-me",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/red-hot-chili-peppers-nobody-weird-like-me": [
@@ -72220,13 +72611,13 @@
  ],
  "songs/rockwell-somebodys-watching-me-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/rockwell-somebodys-watching-me",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/rockwell-somebodys-watching-me": [
@@ -72253,13 +72644,13 @@
  ],
  "songs/rush-the-twilight-zone-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/rush-the-twilight-zone",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/rush-the-twilight-zone": [
@@ -72495,13 +72886,13 @@
  ],
  "songs/sheena-easton-i-like-the-fright-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/sheena-easton-i-like-the-fright",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/sheena-easton-i-like-the-fright": [
@@ -72638,13 +73029,13 @@
  ],
  "songs/the-bouncing-souls-digital-twilight-zone-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/the-bouncing-souls-digital-twilight-zone",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/the-bouncing-souls-digital-twilight-zone": [
@@ -72748,24 +73139,24 @@
  ],
  "songs/the-manhattan-transfer-twilight-zone-twilight-tone-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/manhattan-transfer-twilight-zone-twilight-tone",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/the-manhattan-transfer-twilight-zone-twilight-tone": [
   {
-   "cat": "music",
-   "sub": "covers-samples",
-   "group": "Covers and arrangements of the theme",
-   "catTitle": "Music",
-   "subTitle": "Covers and samples",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/manhattan-transfer-twilight-zone-twilight-tone",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/the-manhattan-transfer-wdr-funkhausorchester-twilight-zone-twilight-tone": [
@@ -72878,6 +73269,28 @@
    "official": false
   }
  ],
+ "songs/tone-twilight-zone-cornelius": [
+  {
+   "cat": "music",
+   "sub": "songs-mention",
+   "group": "Not yet confirmed",
+   "catTitle": "Music",
+   "subTitle": "Songs that mention it",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "songs/twilight-zone-vol-1-dan-vapid-the-cheats-horror-section": [
+  {
+   "cat": "music",
+   "sub": "songs-about",
+   "group": "About or named after the show",
+   "catTitle": "Music",
+   "subTitle": "Songs about the show",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "songs/tyler-the-creator-nightmare": [
   {
    "cat": "music",
@@ -72979,13 +73392,13 @@
  ],
  "songs/xtc-do-what-you-do-2": [
   {
-   "cat": "music",
-   "sub": "songs-mention",
-   "group": "Not yet confirmed",
-   "catTitle": "Music",
-   "subTitle": "Songs that mention it",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of songs/xtc-do-what-you-do",
+   "group": null,
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "songs/xtc-do-what-you-do": [
@@ -73111,13 +73524,13 @@
  ],
  "works/adventures-of-willy-beamish-homage": [
   {
-   "cat": "games",
-   "sub": "game-homages",
-   "group": "Video games",
-   "catTitle": "Games",
-   "subTitle": "Nods in other games",
-   "isNew": true,
-   "official": false
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/the-adventures-of-willy-beamish",
+   "group": null,
+   "isNew": false,
+   "official": null
   }
  ],
  "works/al-hirschfeld-foundation-serling": [
@@ -73155,22 +73568,13 @@
  ],
  "works/alan-wake-series-remedy-entertainment-night-springs-show-within-a-game-alan-wake-ii-night-": [
   {
-   "cat": "games",
-   "sub": "video-games",
-   "group": "Released",
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "homages",
-   "sub": "homages",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/alan-wake-night-springs-homage",
    "group": null,
-   "catTitle": "Legacy",
-   "subTitle": "Homages",
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "works/american-legends-life-of-rod-serling-audiobook": [
@@ -73294,22 +73698,13 @@
  ],
  "works/asemblance": [
   {
-   "cat": "games",
-   "sub": "video-games",
-   "group": "Released",
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "homages",
-   "sub": "homages",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/asemblance-2016",
    "group": null,
-   "catTitle": "Legacy",
-   "subTitle": "Homages",
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "works/atgames-legends-4k-twilight-zone-pack": [
@@ -73928,22 +74323,13 @@
  ],
  "works/bundy-museum-in-the-zone": [
   {
-   "cat": "places",
-   "sub": "memorials-exhibits",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of locations/bundy-museum-rod-serling-archive",
    "group": null,
-   "catTitle": "Places",
-   "subTitle": "Memorials and exhibits",
-   "isNew": true,
-   "official": null
-  },
-  {
-   "cat": "events",
-   "sub": "exhibitions",
-   "group": "Museum exhibits",
-   "catTitle": "Events",
-   "subTitle": "Exhibitions",
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "works/bundy-rod-serling-archive-opening-2015": [
@@ -73992,24 +74378,24 @@
  ],
  "works/cayuga-productions": [
   {
-   "cat": "history",
-   "sub": "production-history",
-   "group": "The Twilight Zone (1959)",
-   "catTitle": "History",
-   "subTitle": "Production and broadcast history",
-   "isNew": true,
-   "official": true
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of organizations/cayuga-productions",
+   "group": null,
+   "isNew": false,
+   "official": null
   }
  ],
  "works/cbs-all-access-super-bowl-2019-twilight-zone-spot": [
   {
-   "cat": "homages",
-   "sub": "in-everyday-language",
-   "group": "The theme as shorthand",
-   "catTitle": "Legacy",
-   "subTitle": "In everyday language",
-   "isNew": true,
-   "official": false
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of films/the-twilight-zone-super-bowl-liii-spot",
+   "group": null,
+   "isNew": false,
+   "official": null
   }
  ],
  "works/cbs-develops-1985-revival-1984": [
@@ -74496,22 +74882,13 @@
  ],
  "works/fallout-3-bethesda-tranquility-lane": [
   {
-   "cat": "games",
-   "sub": "video-games",
-   "group": "Released",
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "homages",
-   "sub": "homages",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/fallout-3-tranquility-lane-homage",
    "group": null,
-   "catTitle": "Legacy",
-   "subTitle": "Homages",
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "works/fallout-3-tranquility-lane-homage": [
@@ -74730,22 +75107,13 @@
  ],
  "works/forum-theatre-day-of-a-playwright": [
   {
-   "cat": "places",
-   "sub": "memorials-exhibits",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of locations/broome-county-forum-theatre",
    "group": null,
-   "catTitle": "Places",
-   "subTitle": "Memorials and exhibits",
-   "isNew": true,
-   "official": null
-  },
-  {
-   "cat": "events",
-   "sub": "exhibitions",
-   "group": "Museum exhibits",
-   "catTitle": "Events",
-   "subTitle": "Exhibitions",
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "works/france-la-quatrieme-dimension": [
@@ -75153,13 +75521,13 @@
  ],
  "works/holiday-twilight-zone-marathons-ktla-wpix-sci-fi-syfy": [
   {
-   "cat": "history",
-   "sub": "production-history",
-   "group": "The Twilight Zone (1959)",
-   "catTitle": "History",
-   "subTitle": "Production and broadcast history",
-   "isNew": true,
-   "official": true
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of films/twilight-zone-holiday-marathons",
+   "group": null,
+   "isNew": false,
+   "official": null
   }
  ],
  "works/hollywood-walk-of-fame-star-1988": [
@@ -75926,13 +76294,13 @@
  ],
  "works/mondo-twilight-zone-prints": [
   {
-   "cat": "artwork",
-   "sub": "posters-key-art",
-   "group": "Posters and key art",
-   "catTitle": "Artwork",
-   "subTitle": "Posters, key art and prints",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/dark-hall-mansion-to-serve-man-prints-2016",
+   "group": null,
    "isNew": false,
-   "official": true
+   "official": null
   }
  ],
  "works/monster-hunter-pc-twilight-zone-stage": [
@@ -76278,13 +76646,13 @@
  ],
  "works/original-eye-of-the-beholder-pig-face-mask-at-auction": [
   {
-   "cat": "artwork",
-   "sub": "props-costumes",
-   "group": "Sold at auction",
-   "catTitle": "Artwork",
-   "subTitle": "Props and costumes",
-   "isNew": true,
-   "official": true
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/eye-of-the-beholder-pig-nose-appliance-prop-store-2018",
+   "group": null,
+   "isNew": false,
+   "official": null
   }
  ],
  "works/original-series-leaves-netflix-2021": [
@@ -76388,13 +76756,13 @@
  ],
  "works/persona-2-eternal-punishment-tz-reference": [
   {
-   "cat": "games",
-   "sub": "game-homages",
-   "group": "Video games",
-   "catTitle": "Games",
-   "subTitle": "Nods in other games",
-   "isNew": true,
-   "official": false
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/persona-2-eternal-punishment",
+   "group": null,
+   "isNew": false,
+   "official": null
   }
  ],
  "works/persona-2-eternal-punishment": [
@@ -76683,22 +77051,22 @@
  ],
  "works/recreation-park-bandstand-serling-plaque": [
   {
-   "cat": "places",
-   "sub": "memorials-exhibits",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of locations/rod-serling-gazebo-recreation-park",
    "group": null,
-   "catTitle": "Places",
-   "subTitle": "Memorials and exhibits",
-   "isNew": true,
+   "isNew": false,
    "official": null
   }
  ],
  "works/recreation-park-carousel": [
   {
-   "cat": "places",
-   "sub": "attractions",
-   "group": "Experiences",
-   "catTitle": "Places",
-   "subTitle": "Attractions",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of locations/recreation-park-carousel-binghamton",
+   "group": null,
    "isNew": false,
    "official": null
   }
@@ -76727,22 +77095,13 @@
  ],
  "works/red-teds-road-show-twilight-zone-invaders": [
   {
-   "cat": "games",
-   "sub": "video-games",
-   "group": "Released",
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "homages",
-   "sub": "references",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/red-and-teds-road-show-pinball-1994-homage",
    "group": null,
-   "catTitle": "Legacy",
-   "subTitle": "References",
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "works/reddit-r-twilightzone": [
@@ -76802,13 +77161,13 @@
  ],
  "works/richard-mathesons-annotated-once-upon-a-time-script-archive-heritage-auctions": [
   {
-   "cat": "artwork",
-   "sub": "props-costumes",
-   "group": "Sold at auction",
-   "catTitle": "Artwork",
-   "subTitle": "Props and costumes",
-   "isNew": true,
-   "official": true
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/matheson-once-upon-a-time-script-archive-heritage",
+   "group": null,
+   "isNew": false,
+   "official": null
   }
  ],
  "works/rick-and-morty-pinball-spooky-homage": [
@@ -76945,22 +77304,13 @@
  ],
  "works/rod-serling-antioch-college-ohio-marker": [
   {
-   "cat": "places",
-   "sub": "memorials-exhibits",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of locations/antioch-college-rod-serling-markers",
    "group": null,
-   "catTitle": "Places",
-   "subTitle": "Memorials and exhibits",
-   "isNew": true,
+   "isNew": false,
    "official": null
-  },
-  {
-   "cat": "history",
-   "sub": "honors-awards",
-   "group": "Memorials",
-   "catTitle": "History",
-   "subTitle": "Honors and awards",
-   "isNew": true,
-   "official": true
   }
  ],
  "works/rod-serling-archives-move-to-ithaca-college-archives-1997": [
@@ -77075,22 +77425,13 @@
  ],
  "works/rod-serling-grave-lake-view-cemetery": [
   {
-   "cat": "places",
-   "sub": "memorials-exhibits",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of locations/rod-serling-grave-lake-view-cemetery",
    "group": null,
-   "catTitle": "Places",
-   "subTitle": "Memorials and exhibits",
-   "isNew": true,
+   "isNew": false,
    "official": null
-  },
-  {
-   "cat": "history",
-   "sub": "honors-awards",
-   "group": "Memorials",
-   "catTitle": "History",
-   "subTitle": "Honors and awards",
-   "isNew": true,
-   "official": true
   }
  ],
  "works/rod-serling-legacy-conference-2023-bundy": [
@@ -77137,12 +77478,12 @@
  ],
  "works/rod-serling-statue-recreation-park": [
   {
-   "cat": "places",
-   "sub": "memorials-exhibits",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of locations/rod-serling-statue-recreation-park",
    "group": null,
-   "catTitle": "Places",
-   "subTitle": "Memorials and exhibits",
-   "isNew": true,
+   "isNew": false,
    "official": null
   }
  ],
@@ -78290,13 +78631,13 @@
  ],
  "works/suny-oswego-serling-100th-lecture-screening-2024": [
   {
-   "cat": "lectures",
-   "sub": "academic",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/everson-museum-rod-serling-before-the-twilight-zone",
    "group": null,
-   "catTitle": "Lectures",
-   "subTitle": "Talks about the show",
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "works/super-bowl-liii-spot-for-the-2019-revival": [
@@ -78605,22 +78946,13 @@
  ],
  "works/the-simpsons-pinball-party-professor-frink-callout": [
   {
-   "cat": "games",
-   "sub": "video-games",
-   "group": "Released",
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "homages",
-   "sub": "references",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/simpsons-pinball-party-2003-homage",
    "group": null,
-   "catTitle": "Legacy",
-   "subTitle": "References",
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "works/the-simpsons-tapped-out-kangs-how-to-cook-humans": [
@@ -78700,13 +79032,13 @@
  ],
  "works/the-time-element-westinghouse-desilu-playhouse-pilot": [
   {
-   "cat": "history",
-   "sub": "production-history",
-   "group": "The Twilight Zone (1959)",
-   "catTitle": "History",
-   "subTitle": "Production and broadcast history",
-   "isNew": true,
-   "official": true
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of films/the-time-element",
+   "group": null,
+   "isNew": false,
+   "official": null
   }
  ],
  "works/theater-schmeater-twilight-zone-live": [
@@ -78887,22 +79219,22 @@
  ],
  "works/tower-of-terror-disney-california-adventure": [
   {
-   "cat": "places",
-   "sub": "attractions",
-   "group": "The Tower of Terror",
-   "catTitle": "Places",
-   "subTitle": "Attractions",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of locations/tower-of-terror-disney-california-adventure",
+   "group": null,
    "isNew": false,
    "official": null
   }
  ],
  "works/tower-of-terror-disneys-hollywood-studios": [
   {
-   "cat": "places",
-   "sub": "attractions",
-   "group": "The Tower of Terror",
-   "catTitle": "Places",
-   "subTitle": "Attractions",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of locations/tower-of-terror-disneys-hollywood-studios",
+   "group": null,
    "isNew": false,
    "official": null
   }
@@ -78962,22 +79294,22 @@
  ],
  "works/tower-of-terror-tokyo-disneysea": [
   {
-   "cat": "places",
-   "sub": "attractions",
-   "group": "The Tower of Terror",
-   "catTitle": "Places",
-   "subTitle": "Attractions",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of locations/tower-of-terror-tokyo-disneysea",
+   "group": null,
    "isNew": false,
    "official": null
   }
  ],
  "works/tower-of-terror-walt-disney-studios-park": [
   {
-   "cat": "places",
-   "sub": "attractions",
-   "group": "The Tower of Terror",
-   "catTitle": "Places",
-   "subTitle": "Attractions",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of locations/tower-of-terror-paris",
+   "group": null,
    "isNew": false,
    "official": null
   }
@@ -79127,13 +79459,13 @@
  ],
  "works/tv-guide-60-best-series-2013": [
   {
-   "cat": "history",
-   "sub": "honors-awards",
-   "group": "Halls of fame and rankings",
-   "catTitle": "History",
-   "subTitle": "Honors and awards",
-   "isNew": true,
-   "official": true
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/tv-guides-60-greatest-shows-of-all-time-no-5",
+   "group": null,
+   "isNew": false,
+   "official": null
   }
  ],
  "works/tv-guide-cover-1972-06-03-rod-serling-night-gallery": [
@@ -79556,13 +79888,13 @@
  ],
  "works/twilight-zone-movie-1983-theatrical-posters": [
   {
-   "cat": "artwork",
-   "sub": "posters-key-art",
-   "group": "Posters and key art",
-   "catTitle": "Artwork",
-   "subTitle": "Posters, key art and prints",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/poster-twilight-zone-the-movie-1983",
+   "group": null,
    "isNew": false,
-   "official": true
+   "official": null
   }
  ],
  "works/twilight-zone-movie-blu-ray-hd-dvd-2007": [
@@ -80309,13 +80641,13 @@
  ],
  "works/wga-101-best-written-2013": [
   {
-   "cat": "history",
-   "sub": "honors-awards",
-   "group": "Halls of fame and rankings",
-   "catTitle": "History",
-   "subTitle": "Honors and awards",
-   "isNew": true,
-   "official": true
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/wgas-101-best-written-tv-series-no-3",
+   "group": null,
+   "isNew": false,
+   "official": null
   }
  ],
  "works/wga-award-2001-a-storm-in-summer": [
@@ -80408,22 +80740,13 @@
  ],
  "works/willy-wonka-the-chocolate-factory-pinball-time-enough-at-last-achievement": [
   {
-   "cat": "games",
-   "sub": "video-games",
-   "group": "Released",
-   "catTitle": "Games",
-   "subTitle": "Video games",
-   "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "homages",
-   "sub": "references",
+   "cat": "duplicate",
+   "sub": "duplicate",
+   "catTitle": "Duplicate (hidden on the site)",
+   "subTitle": "Duplicate of works/willy-wonka-pinball-2019-homage",
    "group": null,
-   "catTitle": "Legacy",
-   "subTitle": "References",
    "isNew": false,
-   "official": false
+   "official": null
   }
  ],
  "works/wilmington-college-will-twilight-zone": [

@@ -128,6 +128,9 @@ for (const [col, recs] of Object.entries(db)) {
     }
     const seen = new Set();
     out[key] = placed.filter((p) => !seen.has(`${p.cat}/${p.sub}`) && seen.add(`${p.cat}/${p.sub}`)).map(label);
+    // Records the site shows nowhere on a shelf, by design, say where they are instead of looking unplaced.
+    if (r.data.duplicate_of) out[key] = [{ cat: 'duplicate', sub: 'duplicate', catTitle: 'Duplicate (hidden on the site)', subTitle: `Duplicate of ${r.data.duplicate_of}`, group: null, isNew: false, official: null }];
+    else if (!out[key].length && col === 'radio' && r.data.series_title) out[key] = [{ cat: 'radio', sub: 'series-page', catTitle: 'Radio', subTitle: `${r.data.series_title}: series page, broadcast and release history`, group: null, isNew: false, official: true }];
   }
 }
 writeFileSync(join(ROOT, 'data/review/taxonomy.json'), JSON.stringify(out, null, 1) + '\n');

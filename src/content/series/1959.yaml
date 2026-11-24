@@ -268,6 +268,7 @@ releases:
 - date: '1998-12-29'
   format: DVD
   title: The Twilight Zone, Vols. 1-43 (single-disc volumes)
+  record: works/image-twilight-zone-dvd-volumes
   publisher: Image Entertainment
   region: Region 1
   note: 'First Region 1 DVD release: 43 single discs of three or four uncut episodes each, issued Dec 29, 1998 through
@@ -328,6 +329,7 @@ releases:
 - date: '2004-12-28'
   format: DVD
   title: 'The Twilight Zone: The Definitive Edition - Season 1'
+  record: works/image-twilight-zone-definitive-edition-dvd
   publisher: Image Entertainment
   region: Region 1
   note: '6-disc set, new transfers. Extras: commentaries (Rod Taylor, Earl Holliman, Martin Landau, Kevin McCarthy, William
@@ -343,6 +345,7 @@ releases:
 - date: '2005-03-29'
   format: DVD
   title: 'The Twilight Zone: The Definitive Edition - Season 2'
+  record: works/image-twilight-zone-definitive-edition-dvd
   publisher: Image Entertainment
   region: Region 1
   note: Second Definitive Edition season box, following the Season 1 format with commentaries, radio dramas, isolated
@@ -357,6 +360,7 @@ releases:
 - date: '2005-06-28'
   format: DVD
   title: 'The Twilight Zone: The Definitive Edition - Season 3'
+  record: works/image-twilight-zone-definitive-edition-dvd
   publisher: Image Entertainment
   region: Region 1
   note: Third Definitive Edition season box. Date is from a pre-release forum list and should be confirmed.
@@ -366,6 +370,7 @@ releases:
 - date: '2005-10-18'
   format: DVD
   title: 'The Twilight Zone: The Definitive Edition - Season 4'
+  record: works/image-twilight-zone-definitive-edition-dvd
   publisher: Image Entertainment
   region: Region 1
   note: Box set of the hour-long fourth season; includes new Dennis Etchison-conducted interviews (e.g. Anne Francis,
@@ -378,6 +383,7 @@ releases:
 - date: '2005-12'
   format: DVD
   title: 'The Twilight Zone: The Definitive Edition - Season 5'
+  record: works/image-twilight-zone-definitive-edition-dvd
   publisher: Image Entertainment
   region: Region 1
   note: Final season box; interviews include Earl Hamner and June Foray. Forum list gives Dec 27, 2005, Wikipedia's range
@@ -392,6 +398,7 @@ releases:
 - date: '2006-10-03'
   format: DVD
   title: 'The Twilight Zone: The Complete Definitive Collection'
+  record: works/image-twilight-zone-definitive-edition-dvd
   publisher: Image Entertainment
   region: Region 1
   note: 28-disc box gathering all five Definitive Edition seasons and their extras in one package.
@@ -403,6 +410,7 @@ releases:
 - date: '2010-09-14'
   format: Blu-ray
   title: 'The Twilight Zone: Season 1'
+  record: works/image-twilight-zone-blu-ray-seasons
   publisher: Image Entertainment / CBS
   region: Region A
   note: 'HD transfers from original negatives. New: "The Time Element" (1958 Desilu pilot, this set only), unaired "Where
@@ -429,6 +437,7 @@ releases:
 - date: '2010-11-16'
   format: Blu-ray
   title: 'The Twilight Zone: Season 2'
+  record: works/image-twilight-zone-blu-ray-seasons
   publisher: Image Entertainment
   region: Region A
   note: Second HD season set, carrying over DVD extras and adding new commentaries, radio dramas and isolated scores
@@ -455,6 +464,7 @@ releases:
 - date: '2011-02-15'
   format: Blu-ray
   title: 'The Twilight Zone: Season 3'
+  record: works/image-twilight-zone-blu-ray-seasons
   publisher: Image Entertainment
   region: Region A
   note: Third HD season set.
@@ -478,6 +488,7 @@ releases:
 - date: '2011-05-17'
   format: Blu-ray
   title: 'The Twilight Zone: Season 4'
+  record: works/image-twilight-zone-blu-ray-seasons
   publisher: Image Entertainment
   region: Region A
   note: HD set of the hour-long season.
@@ -491,6 +502,7 @@ releases:
 - date: '2011-08-30'
   format: Blu-ray
   title: 'The Twilight Zone: Season 5'
+  record: works/image-twilight-zone-blu-ray-seasons
   publisher: Image Entertainment
   region: Region A
   note: Final HD season set, completing the Blu-ray run.
@@ -511,6 +523,7 @@ releases:
 - date: '2012-06-05'
   format: Blu-ray
   title: 'The Twilight Zone: The Complete Series'
+  record: works/twilight-zone-complete-series-blu-ray-2012
   publisher: Image Entertainment
   region: Region A
   note: 24-disc box of all 156 episodes with the season-set extras, no new features; SRP $399.98. Reissued Dec 13, 2016.

@@ -226,6 +226,8 @@ B and D, read from each podcast's own RSS feed, plus each single episode on shel
   approve runs triggered by the Actions bot). Nothing is blocked: the next commit by a person runs the checks.
 
 ## Found, for later
+- **2026-11-24:** every item below now carries a mark (Done, Can't with the reason, Read round, or Adam) in
+  docs/plans/finish-open-items-2026-11-24.md, which is the current list.
 - The Night Gallery page could show, per episode, the podcast episodes about its segments (162 rows match a segment).
 - Podcasts that review several series could be matched more precisely with season and episode numbers ("S2E29",
   "TZ1985 - 329"); today a shared title goes to the original series unless a series word is in the title.

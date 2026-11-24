@@ -5,5 +5,16 @@ export async function getStaticPaths() {
   return (await getCollection('characters')).filter((r) => !r.data.duplicate_of).map((r) => ({ params: { id: r.id }, props: { entry: r } }));
 }
 const { entry } = Astro.props;
+// A character of an episode that the radio dramas remade is in that radio drama too (Meet plan, finish-open-items
+// 2026-11-24): the radio episode adapts the same teleplay, so its page is listed here.
+const eps = new Set((entry.data.appears_in ?? []) as string[]);
+const radio = eps.size ? (await getCollection('radio')).filter((r) => !r.data.duplicate_of && r.data.adapts_episode && eps.has(r.data.adapts_episode)) : [];
 ---
-<RecordPage col="characters" entry={entry} />
+<RecordPage col="characters" entry={entry}>
+  {radio.length > 0 && (
+    <Fragment slot="facts">
+      <dt>On radio</dt>
+      <dd>{radio.map((r, i) => <>{i > 0 && ', '}<a href={`/radio/${r.id}/`}>{r.data.title}</a></>)} <span class="muted small">(The Twilight Zone Radio Dramas remake of the episode)</span></dd>
+    </Fragment>
+  )}
+</RecordPage>

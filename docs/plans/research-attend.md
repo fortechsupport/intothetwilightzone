@@ -102,6 +102,8 @@ One pull request: re-shelve, correct the split, decide the hidden records, and s
 - Nothing blocking.
 
 ## Found, for later
+- **2026-11-24:** every item below now carries a mark (Done, Can't with the reason, Read round, or Adam) in
+  docs/plans/finish-open-items-2026-11-24.md, which is the current list.
 - **The Marist lead** in the checklist ("66 Years in the Twilight Zone", October 2025) is the Marist Circle's report
   of the Rosendale Theatre talk, already a source on that record. Closed.
 - **Text and event pairs:** Serling's Elmira College (1975) and Library of Congress (1968) lectures, and the Ithaca

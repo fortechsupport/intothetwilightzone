@@ -1,0 +1,24 @@
+title: "Johnny Bravo"
+kind: tv-series
+release_date: '1997-07-14'
+end_date: '2004-08-27'
+network: "Cartoon Network"
+country: United States
+seasons: 4
+episode_count: 65
+created_by:
+- "Van Partible"
+summary: "Van Partible's animated sitcom for Cartoon Network about a vain, muscle-bound young man whose attempts to get dates usually fail. Wikipedia notes \"an episode in season 1 is based around homages to The Twilight Zone\"."
+sources:
+- title: 'Wikipedia: Johnny Bravo'
+  url: https://en.wikipedia.org/wiki/Johnny_Bravo
+  publisher: Wikipedia
+  note: Infobox and lead read on 2026-11-24.
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Johnny_Bravo
+research_confidence: high
+relevance: tangential
+tags:
+- host-show
+- open-items-2026-11-24
+last_verified: '2026-11-24'

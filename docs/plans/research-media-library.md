@@ -51,6 +51,8 @@ One pull request: attach the unattached, move the two awards to History, add the
 - **20 reviews without a decision** are part of the Read round.
 
 ## Found, for later
+- **2026-11-24:** every item below now carries a mark (Done, Can't with the reason, Read round, or Adam) in
+  docs/plans/finish-open-items-2026-11-24.md, which is the current list.
 - *Book Review: Twilight Zone* (Critical Studies in Television, 2021) does not name the book it reviews in our
   record; attach it in the Read round.
 - Other reviews filed under *Awards and citations* may also be honors; check in the Read round.

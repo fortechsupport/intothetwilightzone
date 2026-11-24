@@ -30,6 +30,9 @@ const points = real.map((l) => {
 }).filter(Boolean) as { id: string; n: string; k: string; lat: number; lng: number; p: string; w: string; f: number }[];
 const unmapped = real.filter((l) => !points.some((p) => p.id === l.id));
 const usedKinds = Object.entries(KIND).filter(([k]) => points.some((p) => p.k === k));
+// Serling's home towns, for a walk (Visit plan): every real place in Binghamton or Syracuse with its street address.
+const WALK_CITIES = ['Binghamton', 'Syracuse'];
+const walk = WALK_CITIES.map((city) => ({ city, places: real.filter((l) => l.data.city === city && l.data.address).map((l) => ({ l, exact: (points.find((p) => p.id === l.id)?.p ?? 'city') !== 'city' })) }));
 const stories = await Promise.all(inStory.map(async (l) => ({ l, refs: (await Promise.all(l.data.filmed.map((f) => resolveRef(f.ref)))).filter(Boolean) as { title: string; url: string }[] })));
 ---
 <Base title="Map" description="An interactive map of Twilight Zone places: filming locations, MGM backlots, Rod Serling's homes and memorials, attractions, museums and archives, plus the towns that exist only in the stories.">
@@ -45,6 +48,18 @@ const stories = await Promise.all(inStory.map(async (l) => ({ l, refs: (await Pr
   </fieldset>
   <div id="tzmap" class="tzmap" role="region" aria-label="Map of Twilight Zone places"></div>
   <p class="small muted">Map data © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> contributors. Many filming locations are private property; please be respectful.</p>
+
+  <h2 id="walk">Rod Serling's Binghamton and Syracuse</h2>
+  <p>For a walk through Serling's home towns: every place with a street address in each city, A to Z, as its record gives it. Many are private homes or working schools; please be respectful.</p>
+  <p class="view-toggle" data-pagefind-ignore>{walk.map(({ city }) => <button type="button" data-zoom={city}>Show {city} on the map</button>)}</p>
+  {walk.map(({ city, places }) => (
+    <>
+      <h3>{city} <span class="muted small">({places.length})</span></h3>
+      <ul class="small">
+        {places.map(({ l, exact }) => <li><a href={`/places/${l.id}/`}>{l.data.name}</a>{l.data.address && <span> · {l.data.address}</span>}{!exact && <span class="muted"> (on the map at the town, not the exact spot)</span>}</li>)}
+      </ul>
+    </>
+  ))}
 
   <h2>Every mapped place, A to Z</h2>
   <ul class="columns small">
@@ -82,6 +97,12 @@ const stories = await Promise.all(inStory.map(async (l) => ({ l, refs: (await Pr
     }
     // Start on North America, where most places are; zoom out to see the rest.
     map.fitBounds(points.filter((p) => p.lng < -60 && p.lng > -130).map((p) => [p.lat, p.lng] as [number, number]), { padding: [20, 20] });
+    // "Show Binghamton" and "Show Syracuse": zoom to the places in that city.
+    const CITY: Record<string, [number, number]> = { Binghamton: [42.0987, -75.918], Syracuse: [43.0481, -76.1474] };
+    document.querySelectorAll<HTMLButtonElement>('[data-zoom]').forEach((b) => b.addEventListener('click', () => {
+      const c = CITY[b.dataset.zoom!];
+      if (c) { map.setView(c, 14); document.getElementById('tzmap')!.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+    }));
     document.querySelectorAll<HTMLInputElement>('.map-filter input').forEach((cb) => cb.addEventListener('change', () => {
       const g = layers[cb.dataset.kind!];
       if (g) { if (cb.checked) g.addTo(map); else map.removeLayer(g); }
