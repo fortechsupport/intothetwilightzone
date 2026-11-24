@@ -19,7 +19,7 @@ sources:
   note: 'Read 2026-11-24: 30 episodes, years active 2026; © IASoftware.'
 - title: 'RSS feed: Strange Little Realms: Twilight Zone Style Short Mystery Stories'
   url: https://media.rss.com/strangelittlerealms/feed.xml
-  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 30 episodes, dated 2026-04-18 to 2026-04-26.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 30 episodes, dated 2026-04-18 to 2026-04-26. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 tags:
 - fiction
 - research-2026-11-24

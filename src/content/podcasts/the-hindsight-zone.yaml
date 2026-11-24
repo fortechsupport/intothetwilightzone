@@ -23,7 +23,7 @@ sources:
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
 - title: 'RSS feed: The Hindsight Zone'
   url: https://media.rss.com/thehindsightzone/feed.xml
-  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 38 episodes, dated 2025-08-26 to 2026-11-23.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 38 episodes, dated 2025-08-26 to 2026-11-23. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: core
 research_confidence: medium
 tags:

@@ -20,7 +20,7 @@ sources:
   url: https://www.podengine.ai/podcasts/the-monsters-are-due-a-twilight-zone-podcast
 - title: 'RSS feed: The Monsters Are Due - A Twilight Zone Podcast'
   url: https://www.themonstersareduepodcast.com/feed.xml
-  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 98 episodes, dated 2025-02-18 to 2026-11-17.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 98 episodes, dated 2025-02-18 to 2026-11-17. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 research_confidence: high
 last_verified: '2026-11-24'
 hosts:

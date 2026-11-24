@@ -24,7 +24,7 @@ sources:
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
 - title: 'RSS feed: The Signpost Up Ahead'
   url: https://eric-silver-zzbd.squarespace.com/episodes?format=rss
-  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 37 episodes, dated 2026-01-01 to 2026-06-01.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 37 episodes, dated 2026-01-01 to 2026-06-01. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: core
 research_confidence: medium
 tags:

@@ -27,7 +27,7 @@ sources:
     licence.
 - title: 'RSS feed: Twilight Pwn: A Twilight Zone Podcast'
   url: https://twilightpwn.libsyn.com/rss
-  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 191 episodes, dated 2013-02-13 to 2024-08-21.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 191 episodes, dated 2013-02-13 to 2024-08-21. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 description: A weekly fan podcast by John and Fred that worked through the original series episode by episode, then branched
   into Night Gallery, the 1980s revival and the 2019 series, with author interviews such as Steven Jay Rubin on his Twilight
   Zone Encyclopedia. About 191 episodes; the newest listed is an August 2024 Serlingfest announcement.

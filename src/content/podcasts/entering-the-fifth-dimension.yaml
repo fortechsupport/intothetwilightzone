@@ -23,7 +23,7 @@ sources:
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
 - title: 'RSS feed: Entering the Fifth Dimension: A Twilight Zone Podcast'
   url: https://twilightzone.libsyn.com/rss
-  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 95 episodes, dated 2019-03-15 to 2026-10-30.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 95 episodes, dated 2019-03-15 to 2026-10-30. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 description: A monthly Golden Spiral Media podcast by Darrell Darnell and Robert Beury, started in 2019, that groups episodes
   of the original series and the 2019 revival around shared themes such as time travel or mistaken identity. Guests have
   included Ali Matheson, Richard Matheson's daughter. About 95 episodes by October 2026.

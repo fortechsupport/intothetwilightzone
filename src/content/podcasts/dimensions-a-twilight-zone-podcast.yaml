@@ -21,7 +21,7 @@ sources:
   url: https://www.millionpodcasts.com/the-twilight-zone-podcasts/
 - title: 'RSS feed: Dimensions: A Twilight Zone Podcast'
   url: https://feed.podbean.com/dimensionstzpodcast/feed.xml
-  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 76 episodes, dated 2020-08-06 to 2025-03-01.  Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
+  note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 76 episodes, dated 2020-08-06 to 2025-03-01. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'
 relevance: core
 research_confidence: medium
 tags:
