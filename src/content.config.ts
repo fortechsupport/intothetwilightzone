@@ -335,6 +335,13 @@ const radio = defineCollection({
     adapted_by: z.string().optional(),
     voiced_by: names,
     adapts_episode: z.string().optional(),
+    // What a radio drama adapts when it is not a Twilight Zone episode (a play, a short story).
+    based_on: z.string().optional(),
+    based_on_ref: z.string().optional(), // its record, as films/<id>
+    // A record about a whole radio series or about how it was broadcast and released, rather than one episode.
+    subtype: z.enum(['audio-series', 'radio-broadcast']).optional(),
+    // Rod Serling's part in a radio work outside the radio dramas (Radio > Rod Serling's radio work, grouped by it).
+    serling_role: z.enum(['wrote', 'acted', 'hosted', 'unproduced']).optional(),
     description: z.string().optional(),
     ...common,
   }),

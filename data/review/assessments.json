@@ -41412,7 +41412,7 @@
   "sort": "brad davis"
  },
  "people/brad-turner": {
-  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “Azoth the Avenger Is a Friend of Mine” and “The Pool Guy”).",
+  "connection": "Brad Turner directed 1 episode of the 1985 series (“Acts of Terror”); directed 4 episodes of the 2002 series (including “The Pool Guy” and “Azoth the Avenger Is a Friend of Mine”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -45192,7 +45192,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -64368,11 +64368,11 @@
   "sort": "twilight zone radio dramas  cd cassette and download collections"
  },
  "radio/twilight-zone-radio-dramas-series": {
-  "connection": "An episode of The Twilight Zone Radio Dramas (Falcon Picture Group, licensed from Carol Serling): Full-cast audio remakes of the original 1959-64 teleplays, produced and directed by Carl Amari for Falcon Picture Group under license from CBS and the Rod Serling estate, with sound work by JoBe Cerny in Chicago.",
+  "connection": "The Twilight Zone Radio Dramas (Falcon Picture Group, 2002-2012): the officially licensed radio version of the show, narrated by Stacy Keach.",
   "tier": "core",
-  "tier_reason": "Part of the officially licensed radio series.",
+  "tier_reason": "The officially licensed radio series.",
   "recommendation": "include",
-  "reason": "The licensed radio series is part of the franchise; the full run is listed.",
+  "reason": "The licensed radio series is part of the franchise; its page lists every episode.",
   "source_title": "Wikipedia",
   "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)",
   "title": "The Twilight Zone Radio Dramas",

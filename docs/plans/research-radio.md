@@ -205,6 +205,22 @@ The questions as they were put:
 - Q1 follow-on: audio-only and foreign-language audio productions belong in Radio (shelf C), since Adam chose the
   plain name "Radio" over "Radio and audio dramas".
 
+- Structure step (2026-11-24, step 3):
+  - Shelf A, **Radio dramas**, lists the series page first, then the 176 episodes in season order (Wikipedia's
+    numbering); the series record's page is the series page (seasons, cast, broadcast and release history, where to
+    listen). The six broadcast and release records are linked from it, not shelved (Q2).
+  - Shelf B groups Serling's radio work by a new field, `serling_role`: written, acted, hosted or narrated, never
+    produced. Shelf C (other producers' adaptations) is marked unofficial: none was made under a license we have
+    seen; the WVXU play had Anne Serling's blessing.
+  - Inner Sanctum (Q4, no sourced tie): moved out of Radio to Watch > Television > Fellow anthologies, where the other
+    anthologies listed for context sit. Legacy's shelves are for works that draw on the show, and Inner Sanctum
+    predates it. Suspense, which has a sourced tie, moved from Television to Radio.
+  - Where to listen (`data/fan/listen.yaml`): Audible (single episodes), Hollywood 360 Radio (producer Carl Amari's
+    store, a 12-CD bundle), public libraries through OverDrive, and the Blu-ray and DVD extras. Every outlet carries
+    only some episodes, so an episode page names Audible only where we hold the episode's Audible number and lists
+    the others as "some episodes". The 2023 podcast feed and archive.org uploads are left out (licence unconfirmed).
+  - Old addresses `/radio/series/` and `/radio/episodes/` redirect to `/radio/radio-dramas/`.
+
 ## Waiting on Adam
 - Nothing. The plan was approved on 2026-11-23, with Q2 to Q7 delegated.
 
@@ -231,6 +247,13 @@ The questions as they were put:
     nothing to check.
   - Not applied yet: OTRR's log of 56 dated 2003-04 broadcasts with "special guest stars"
     (otrr-episode-log.tsv); OverDrive's claim of an "XM Radio Nation Award"; the running time of the O'Toole play.
+- **Structure step findings (2026-11-24):**
+  - The cast list on the series page shows the same actor under two names: "Lou Gossett Jr." and "Louis Gossett
+    Jr.", and "Tony Mockus Jr." and "Tony Mockus Sr." need checking as two people. Merge the name where a source
+    confirms it.
+  - Which episodes are in the Hollywood 360 Radio bundle, on OverDrive, and among the 81 Blu-ray extras is not yet
+    recorded per episode.
+  - Audible numbers (`ids.audible_asin`) are held for 121 of 176 episodes.
 - The Movies plan's round 3 (documentaries and media attachments) is still open and runs alongside this plan.
 - Audiobooks of Twilight Zone books (`works/*-audiobook`) belong with their books in Read, not in Radio. Check them
   when Read is worked.

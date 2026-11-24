@@ -530,6 +530,8 @@ def a_song(rid, d):
 def a_radio(rid, d):
     desc = first_sentence(d.get("description"), 300)
     if d.get("series_title") == "The Twilight Zone Radio Dramas":
+        if d.get("subtype") == "audio-series" and rid == "twilight-zone-radio-dramas-series":
+            return result("The Twilight Zone Radio Dramas (Falcon Picture Group, 2002-2012): the officially licensed radio version of the show, narrated by Stacy Keach.", "core", "The officially licensed radio series.", "include", "The licensed radio series is part of the franchise; its page lists every episode.", d)
         if d.get("subtype") == "radio-broadcast":
             return result(desc, "related", "A rebroadcast of the official radio series rather than the series itself.", "maybe", "A secondary listing; the dramas themselves are already covered.", d)
         ep = d.get("adapts_episode")

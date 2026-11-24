@@ -1,0 +1,36 @@
+# Where to listen to a radio series (Radio plan, docs/plans/research-radio.md, approved 2026-11-23): shown on the
+# series page and on every episode page. Licensed releases only, and only where a source we read says so. Service
+# names only, never an affiliate code. `scope: some` means the outlet has some episodes, not necessarily every one.
+# Each offer names the page we read and when (`read`). Releases and stores change: re-read the page and update `read`.
+# Unconfirmed outlets (the 2023 "Twilight Zone Radio Show!" podcast feed, archive.org uploads) are left out until a
+# source shows they are licensed.
+
+twilight-zone-radio-dramas:
+  offers:
+  - service: Audible
+    how: buy
+    scope: some
+    what: Single episodes, credited to Falcon Picture Group ("©2002 CBS and Falcon Picture Group" on the listings read).
+    source: Audible listings for single episodes, such as "Mr. Bevis" (ASIN B004GLIZUQ)
+    read: '2026-11-23'
+  - service: Hollywood 360 Radio
+    how: buy
+    scope: some
+    what: 'Producer Carl Amari''s own store: the "Twilight Zone Radio Dramas Bundle" of 12 episodes on 12 CDs.'
+    source: Twilight Zone Radio Dramas Bundle (Hollywood 360 Radio)
+    url: https://www.hollywood360radio.com/product/twilight-zone-bundle/
+    read: '2026-11-24'
+  - service: Public libraries, through OverDrive
+    how: free
+    scope: some
+    what: Libraries that subscribe to OverDrive lend single episodes and collections as digital audiobooks; OverDrive names Falcon Picture Group as the publisher of Collection 1.
+    source: '"Twilight Zone Radio Dramas" series listing (OverDrive)'
+    url: https://www.overdrive.com/series/twilight-zone-radio-dramas?page=3
+    read: '2026-11-24'
+  - service: The original series on Blu-ray and DVD
+    how: extra
+    scope: some
+    what: Wikipedia lists 81 of the radio dramas as extras on the 2010-11 Blu-ray sets of the original series, and 30 on the DVD sets.
+    source: The Twilight Zone (radio series) (Wikipedia)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
+    read: '2026-11-23'

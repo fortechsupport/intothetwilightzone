@@ -1,0 +1,43 @@
+---
+// "Where to listen" for a radio series and its episodes (Radio plan, approved 2026-11-23): licensed releases only,
+// from data/fan/listen.yaml, each with the page it was read from. Service names only, no affiliate codes.
+//   as="fact"     a <dt>/<dd> pair for an episode page's dl.facts
+//   as="section"  its own section with a heading (the series page)
+import { HOW_LABEL, SHORT, type Listen } from '../lib/listen';
+import { longDate } from '../lib/watch';
+interface Props { listen?: Listen; asin?: string; as?: 'fact' | 'section' }
+const { listen, asin, as = 'fact' } = Astro.props;
+const offers = listen?.offers ?? [];
+// On an episode page: what is known to include this episode, then the outlets that have only some episodes.
+const thisOne = offers.filter((o) => o.scope === 'all' || (o.service === 'Audible' && asin)).map((o) => (o.service === 'Audible' ? 'Audible, as a single episode' : o.service));
+const some = offers.filter((o) => o.scope !== 'all' && !(o.service === 'Audible' && asin)).map((o) => `${o.service.replace(/^The original series on /, '')} (${SHORT[o.how]})`);
+---
+{as === 'fact' ? (
+  <>
+    <dt>Where to listen</dt>
+    <dd data-pagefind-ignore>
+      {thisOne.length > 0 && <>{thisOne.join(' · ')}{some.length > 0 && '. '}</>}
+      {some.length > 0 && <>{thisOne.length ? 'Some episodes' : 'Some episodes, not confirmed for this one'}: {some.join(', ')}</>}
+      {!offers.length && 'Not checked yet.'}
+      {offers.length > 0 && <span class="small muted"> · <a href="/radio/twilight-zone-radio-dramas-series/#listen">Details and sources</a></span>}
+    </dd>
+  </>
+) : (
+  <section id="listen" data-pagefind-ignore>
+    <h2>Where to listen</h2>
+    {offers.length ? (
+      <dl class="facts">
+        {offers.map((o) => (
+          <>
+            <dt>{o.service}</dt>
+            <dd>
+              <strong>{HOW_LABEL[o.how]}.</strong> {o.what}
+              <span class="small muted"> Source: {o.url ? <a href={o.url}>{o.source}</a> : o.source}, read {longDate(o.read)}.</span>
+            </dd>
+          </>
+        ))}
+      </dl>
+    ) : <p>We haven’t checked this one yet.</p>}
+    <p class="small muted">Licensed releases only. Plain links, no affiliate codes: this site earns nothing from them.</p>
+  </section>
+)}

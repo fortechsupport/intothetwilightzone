@@ -3,6 +3,24 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Radio: five shelves, a series page for the radio dramas, and where to listen
+
+Radio now has the shelves of its approved plan. **Radio dramas** opens with a series page for The Twilight Zone Radio
+Dramas: all 176 episodes season by season, each with its star and a link to the television episode it adapts, the
+whole cast with their number of episodes, the broadcast and release history, and where to listen. **Rod Serling's
+radio work** groups his radio years by his part: written, acted, hosted or narrated, and never produced. **Other radio
+and audio adaptations**, **Fellow radio anthologies** (Lights Out and Suspense, each with its sourced tie) and **Fan
+and independent audio** sit beside them, the last three marked unofficial. Every radio drama episode page now names its
+season and episode, links the series and the episode it adapts, credits Stacy Keach as narrator, says where the full
+cast is not yet sourced, and says where to listen: Audible (single episodes), producer Carl Amari's Hollywood 360 Radio
+store, public libraries through OverDrive, and the Blu-ray and DVD sets of the original series, each with the page we
+read. The old Radio series and Radio episodes addresses lead to Radio dramas. Inner Sanctum, which has no sourced tie
+to Serling, is now with the fellow anthologies in Television.
+
+**Known not to work yet:** Each outlet carries only some episodes, and which ones is not yet recorded per episode, so
+most episode pages list them as "some episodes". 152 episodes still list only their star. Two actors appear twice in
+the cast list under slightly different names.
+
 ## 2026-11-24 — Radio: Rod Serling's radio years, and the first fan audio drama
 
 Radio now holds Rod Serling's whole radio career as far as sources record it, each with its source. A visitor can

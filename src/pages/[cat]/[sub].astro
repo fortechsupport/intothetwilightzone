@@ -28,7 +28,7 @@ const groupsOf = (list: Entry[]) => {
     if (!groups.has(g)) groups.set(g, []);
     groups.get(g)!.push(e);
   }
-  const ordered = [...groups.entries()].sort((a, b) => rank(a[0]).localeCompare(rank(b[0])));
+  const ordered = [...groups.entries()].sort((a, b) => rank(a[0]).localeCompare(rank(b[0]), undefined, { numeric: true }));
   if (ordered.length > 1 && ordered.some(([g]) => g === '')) ordered.find(([g]) => g === '')![0] = 'Other';
   return ordered;
 };
@@ -79,12 +79,12 @@ const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
           </>
         );
       })}
-      <p class="small muted">{split && 'Official items were made, broadcast, licensed or published by the franchise or by Rod Serling; the rest were made by others about, after or inspired by the show. '}{chrono ? 'Series are in broadcast order.' : 'Groups are alphabetical, with catch-all and unconfirmed groups last.'} Entries are alphabetical, ignoring a leading "The", "A" or "An".</p>
+      <p class="small muted">{split && 'Official items were made, broadcast, licensed or published by the franchise or by Rod Serling; the rest were made by others about, after or inspired by the show. '}{chrono ? 'Seasons and episodes are in series order.' : <>Groups are alphabetical, with catch-all and unconfirmed groups last. Entries are alphabetical, ignoring a leading "The", "A" or "An".</>}</p>
     </nav>
   )}
   {!s.entries.length && <p class="muted">No entries yet. Research is under way.</p>}
   {s.entries.length > 5 && (
-    <ListTools scope="list" noun={s.title.toLowerCase()} groups={[...new Set(s.entries.map((e) => e.group).filter(Boolean) as string[])].sort((a, b) => rank(a).localeCompare(rank(b)))} sides={split} tiers={new Set(s.entries.map((e) => e.tier ?? 'core')).size > 1} years={s.entries.some((e) => /\b(1[89]\d\d|20\d\d)\b/.test(e.meta ?? ''))} groupLabel={c.slug === 'series' && s.slug === 'homages' ? 'Show' : s.slug === 'rod-serling-films' ? "Serling's part" : 'Group'} facets={facetDefs} />
+    <ListTools scope="list" noun={s.title.toLowerCase()} groups={[...new Set(s.entries.map((e) => e.group).filter(Boolean) as string[])].sort((a, b) => rank(a).localeCompare(rank(b), undefined, { numeric: true }))} sides={split} tiers={new Set(s.entries.map((e) => e.tier ?? 'core')).size > 1} years={s.entries.some((e) => /\b(1[89]\d\d|20\d\d)\b/.test(e.meta ?? ''))} groupLabel={c.slug === 'series' && s.slug === 'homages' ? 'Show' : s.slug === 'rod-serling-films' ? "Serling's part" : 'Group'} facets={facetDefs} orderLabels={chrono ? ['Series order', 'Reverse order'] : undefined} />
   )}
   <div id="list">
   {parts.map((p) => {

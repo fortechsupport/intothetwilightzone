@@ -30411,11 +30411,11 @@
  ],
  "films/inner-sanctum-mystery": [
   {
-   "cat": "radio",
-   "sub": "series",
-   "group": "Fellow radio anthologies",
-   "catTitle": "Radio",
-   "subTitle": "Radio series",
+   "cat": "series",
+   "sub": "anthologies",
+   "group": "Anthology series",
+   "catTitle": "Television",
+   "subTitle": "Fellow anthologies",
    "isNew": false,
    "official": false
   }
@@ -30788,10 +30788,10 @@
  "films/lights-out-radio": [
   {
    "cat": "radio",
-   "sub": "series",
-   "group": "Fellow radio anthologies",
+   "sub": "anthologies",
+   "group": null,
    "catTitle": "Radio",
-   "subTitle": "Radio series",
+   "subTitle": "Fellow radio anthologies",
    "isNew": false,
    "official": false
   }
@@ -33104,11 +33104,11 @@
  ],
  "films/suspense-radio": [
   {
-   "cat": "series",
+   "cat": "radio",
    "sub": "anthologies",
-   "group": "Anthology series",
-   "catTitle": "Television",
-   "subTitle": "Fellow anthologies",
+   "group": null,
+   "catTitle": "Radio",
+   "subTitle": "Fellow radio anthologies",
    "isNew": false,
    "official": false
   }
@@ -66416,10 +66416,10 @@
  "radio/a-game-of-pool": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 14",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66427,10 +66427,10 @@
  "radio/a-hundred-yards-over-the-rim": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 3",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66438,10 +66438,10 @@
  "radio/a-kind-of-stopwatch": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 1",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66449,10 +66449,10 @@
  "radio/a-most-unusual-camera": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 3",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66460,10 +66460,10 @@
  "radio/a-nice-place-to-visit": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 10",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66471,10 +66471,10 @@
  "radio/a-passage-for-trumpet": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 6",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66482,10 +66482,10 @@
  "radio/a-penny-for-your-thoughts": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 14",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66493,10 +66493,10 @@
  "radio/a-piano-in-the-house": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 15",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66504,10 +66504,10 @@
  "radio/a-quality-of-mercy": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 10",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66515,10 +66515,10 @@
  "radio/a-short-drink-from-a-certain-fountain": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 2",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66526,10 +66526,10 @@
  "radio/a-stop-at-willoughby": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 1",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66537,10 +66537,10 @@
  "radio/a-thing-about-machines": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 5",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66548,10 +66548,10 @@
  "radio/a-world-of-difference": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 9",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66559,10 +66559,10 @@
  "radio/a-world-of-his-own": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 13",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66570,10 +66570,10 @@
  "radio/adventure-express": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Rod Serling's radio work",
+   "sub": "serling-radio",
+   "group": "Written by Serling",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Rod Serling's radio work",
    "isNew": false,
    "official": true
   }
@@ -66581,10 +66581,10 @@
  "radio/an-occurrence-at-owl-creek-bridge": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 16",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66592,10 +66592,10 @@
  "radio/and-cauldron-bubble": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 18",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -66612,10 +66612,10 @@
  "radio/and-when-the-sky-was-opened": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 13",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66623,10 +66623,10 @@
  "radio/another-place-in-time": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 18",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -66643,10 +66643,10 @@
  "radio/antioch-radio-workshop-wjem": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Rod Serling's radio work",
+   "sub": "serling-radio",
+   "group": "Written by Serling",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Rod Serling's radio work",
    "isNew": false,
    "official": true
   }
@@ -66654,10 +66654,10 @@
  "radio/back-there": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 2",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66665,10 +66665,10 @@
  "radio/beewinjapeedee": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 17",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -66685,10 +66685,10 @@
  "radio/big-tall-wish": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 5",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66696,10 +66696,10 @@
  "radio/black-leather-jackets": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 10",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66707,10 +66707,10 @@
  "radio/caesar-and-me": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 8",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66718,10 +66718,10 @@
  "radio/cavender-is-coming": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 4",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66729,10 +66729,10 @@
  "radio/dead-mans-shoes": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 8",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66740,10 +66740,10 @@
  "radio/death-ship": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 13",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66751,10 +66751,10 @@
  "radio/deaths-head-revisited": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 8",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66762,10 +66762,10 @@
  "radio/dust": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 9",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66773,10 +66773,10 @@
  "radio/elegy": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 11",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66784,11 +66784,11 @@
  "radio/escape-clause-dylan-vance-fan-audio-drama": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Fan and independent audio",
+   "sub": "fan-audio",
+   "group": null,
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
-   "isNew": false,
+   "subTitle": "Fan and independent audio",
+   "isNew": true,
    "official": false
   },
   {
@@ -66804,10 +66804,10 @@
  "radio/escape-clause": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 2",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66815,10 +66815,10 @@
  "radio/execution": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 16",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66826,10 +66826,10 @@
  "radio/eye-of-the-beholder": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 17",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66837,10 +66837,10 @@
  "radio/fantasy-park": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Rod Serling's radio work",
+   "sub": "serling-radio",
+   "group": "Hosted or narrated by Serling",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Rod Serling's radio work",
    "isNew": false,
    "official": true
   }
@@ -66848,10 +66848,10 @@
  "radio/five-characters-in-search-of-an-exit": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 7",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66859,10 +66859,10 @@
  "radio/four-o-clock": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 2",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66870,10 +66870,10 @@
  "radio/free-dirt": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 14",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66881,10 +66881,10 @@
  "radio/from-agnes-with-love": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 9",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66892,10 +66892,10 @@
  "radio/gentlemen-be-seated": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 11",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -66912,10 +66912,10 @@
  "radio/hes-alive": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 11",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66923,10 +66923,10 @@
  "radio/hocus-pocus-and-frisby": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 4",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66934,10 +66934,10 @@
  "radio/hop-off-the-express-and-grab-a-local": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Rod Serling's radio work",
+   "sub": "serling-radio",
+   "group": "Written by Serling",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Rod Serling's radio work",
    "isNew": false,
    "official": true
   }
@@ -66945,10 +66945,10 @@
  "radio/i-am-the-night-color-me-black": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 4",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66956,10 +66956,10 @@
  "radio/i-dream-of-genie": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 7",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66967,10 +66967,10 @@
  "radio/i-shot-an-arrow-into-the-air": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 6",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66978,10 +66978,10 @@
  "radio/i-sing-the-body-electric": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 17",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -66989,10 +66989,10 @@
  "radio/in-his-image": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 10",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67000,10 +67000,10 @@
  "radio/in-praise-of-pip": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 11",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67011,10 +67011,10 @@
  "radio/its-a-good-life": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 7",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67022,10 +67022,10 @@
  "radio/jess-belle": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 13",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67033,10 +67033,10 @@
  "radio/judgment-night": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 12",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67044,10 +67044,10 @@
  "radio/kick-the-can": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 14",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67055,10 +67055,10 @@
  "radio/king-nine-will-not-return": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 4",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67066,10 +67066,10 @@
  "radio/leave-it-to-kathy-1951": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Rod Serling's radio work",
+   "sub": "serling-radio",
+   "group": "Written by Serling",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Rod Serling's radio work",
    "isNew": false,
    "official": true
   }
@@ -67077,10 +67077,10 @@
  "radio/little-girl-lost": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 13",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67088,10 +67088,10 @@
  "radio/long-distance-call": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 11",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67099,10 +67099,10 @@
  "radio/long-live-walter-jameson": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 12",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67110,10 +67110,10 @@
  "radio/miniature": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 10",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67121,10 +67121,10 @@
  "radio/mirror-image": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 5",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67132,10 +67132,10 @@
  "radio/missing-presumed-dead": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 18",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -67152,10 +67152,10 @@
  "radio/mr-bevis": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 7",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67163,10 +67163,10 @@
  "radio/mr-denton-on-doomsday": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 6",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67174,10 +67174,10 @@
  "radio/mr-dingle-the-strong": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 1",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67185,10 +67185,10 @@
  "radio/mr-garrity-and-the-graves": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 2",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67196,10 +67196,10 @@
  "radio/mrs-pierce-is-praying-for-me": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 17",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -67216,10 +67216,10 @@
  "radio/mute": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 10",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67227,10 +67227,10 @@
  "radio/nanobots": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 17",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -67247,10 +67247,10 @@
  "radio/nervous-man-in-a-four-dollar-room": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 2",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67258,10 +67258,10 @@
  "radio/nick-of-time": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 12",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67269,10 +67269,10 @@
  "radio/night-call": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 14",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67280,10 +67280,10 @@
  "radio/nightmare-as-a-child": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 13",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67291,10 +67291,10 @@
  "radio/nightmare-at-20-000-feet": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 11",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67302,10 +67302,10 @@
  "radio/ninety-years-without-slumbering": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 7",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67313,10 +67313,10 @@
  "radio/no-time-like-the-past": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 4",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67324,10 +67324,10 @@
  "radio/nothing-in-the-dark": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 16",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67335,10 +67335,10 @@
  "radio/now-you-hear-it-now-you-dont": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 16",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -67355,10 +67355,10 @@
  "radio/number-12-looks-just-like-you": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 14",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67366,10 +67366,10 @@
  "radio/of-late-i-think-of-cliffordville": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 1",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67377,10 +67377,10 @@
  "radio/on-thursday-we-leave-for-home": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 14",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67388,10 +67388,10 @@
  "radio/once-upon-a-time": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 17",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67399,10 +67399,10 @@
  "radio/one-for-the-angels": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 3",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67410,10 +67410,10 @@
  "radio/one-more-pallbearer": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 4",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67421,21 +67421,21 @@
  "radio/otoole-from-moscow-wvxu-radio-2020": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Other radio and audio adaptations",
+   "sub": "adaptations",
+   "group": null,
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
-   "isNew": false,
-   "official": true
+   "subTitle": "Other radio and audio adaptations",
+   "isNew": true,
+   "official": false
   }
  ],
  "radio/our-america-and-builders-of-destiny-1951": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Rod Serling's radio work",
+   "sub": "serling-radio",
+   "group": "Written by Serling",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Rod Serling's radio work",
    "isNew": false,
    "official": true
   }
@@ -67443,10 +67443,10 @@
  "radio/party-line-1948": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Rod Serling's radio work",
+   "sub": "serling-radio",
+   "group": "Written by Serling",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Rod Serling's radio work",
    "isNew": false,
    "official": true
   }
@@ -67454,10 +67454,10 @@
  "radio/passage-on-the-lady-anne": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 16",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67465,10 +67465,10 @@
  "radio/pattern-for-doomsday": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 13",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -67485,10 +67485,10 @@
  "radio/people-are-alike-all-over": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 8",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67496,10 +67496,10 @@
  "radio/perchance-to-dream": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 9",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67507,10 +67507,10 @@
  "radio/person-or-persons-unknown": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 12",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67518,10 +67518,10 @@
  "radio/printers-devil": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 9",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67529,10 +67529,10 @@
  "radio/probe-7-over-and-out": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 15",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67540,32 +67540,22 @@
  "radio/queen-of-the-nile": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 7",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
  ],
- "radio/radio-drama-podcasts-archive-twilight-zone": [
-  {
-   "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
-   "catTitle": "Radio",
-   "subTitle": "Radio episodes",
-   "isNew": false,
-   "official": true
-  }
- ],
+ "radio/radio-drama-podcasts-archive-twilight-zone": [],
  "radio/rest-stop": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 18",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -67582,10 +67572,10 @@
  "radio/ring-a-ding-girl": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 10",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67593,10 +67583,10 @@
  "radio/serling-unsold-radio-scripts-1947-1951": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Rod Serling's radio work",
+   "sub": "serling-radio",
+   "group": "Scripts and series never produced",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Rod Serling's radio work",
    "isNew": false,
    "official": true
   }
@@ -67604,10 +67594,10 @@
  "radio/shadow-play": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 12",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67615,10 +67605,10 @@
  "radio/showdown-with-rance-mcgrew": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 7",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67626,10 +67616,10 @@
  "radio/snow-angel": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 17",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -67646,10 +67636,10 @@
  "radio/sounds-and-silences": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 6",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67657,10 +67647,10 @@
  "radio/spur-of-the-moment": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 11",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67668,10 +67658,10 @@
  "radio/static": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 12",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67679,10 +67669,10 @@
  "radio/steel": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 16",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67690,10 +67680,10 @@
  "radio/still-valley": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 4",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67701,10 +67691,10 @@
  "radio/stopover-in-a-quiet-town": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 12",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67712,10 +67702,10 @@
  "radio/ten-days": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 17",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -67732,10 +67722,10 @@
  "radio/the-25th-hour": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 18",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -67752,10 +67742,10 @@
  "radio/the-7th-is-made-up-of-phantoms": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 5",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67763,10 +67753,10 @@
  "radio/the-after-hours": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 1",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67774,10 +67764,10 @@
  "radio/the-amazing-dr-kyle-powers": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 16",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -67794,10 +67784,10 @@
  "radio/the-arrival": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 7",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67805,10 +67795,10 @@
  "radio/the-bard": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 2",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67816,10 +67806,10 @@
  "radio/the-bewitchin-pool": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 15",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67827,10 +67817,10 @@
  "radio/the-brain-center-at-whipples": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 6",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67838,10 +67828,10 @@
  "radio/the-changing-of-the-guard": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 6",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67849,10 +67839,10 @@
  "radio/the-chaser": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 12",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67860,10 +67850,10 @@
  "radio/the-dummy": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 4",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67871,10 +67861,10 @@
  "radio/the-encounter": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 13",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67882,10 +67872,10 @@
  "radio/the-fear": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 3",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67893,10 +67883,10 @@
  "radio/the-fever": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 5",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67904,10 +67894,10 @@
  "radio/the-four-of-us-are-dying": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 15",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67915,10 +67905,10 @@
  "radio/the-fugitive": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 9",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67926,10 +67916,10 @@
  "radio/the-gift": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 11",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67937,10 +67927,10 @@
  "radio/the-grave": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 6",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67948,10 +67938,10 @@
  "radio/the-hitchhiker": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 6",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67959,10 +67949,10 @@
  "radio/the-howling-man": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 8",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67970,10 +67960,10 @@
  "radio/the-hunt": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 16",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67981,10 +67971,10 @@
  "radio/the-incredible-world-of-horace-ford": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 4",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -67992,10 +67982,10 @@
  "radio/the-invaders": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 17",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68003,10 +67993,10 @@
  "radio/the-jenkins-clan-and-it-happens-to-you": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Rod Serling's radio work",
+   "sub": "serling-radio",
+   "group": "Scripts and series never produced",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Rod Serling's radio work",
    "isNew": false,
    "official": true
   }
@@ -68014,10 +68004,10 @@
  "radio/the-jeopardy-room": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 9",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68025,10 +68015,10 @@
  "radio/the-jungle": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 10",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68036,10 +68026,10 @@
  "radio/the-keeper-of-the-chair-radio-play": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Rod Serling's radio work",
+   "sub": "serling-radio",
+   "group": "Scripts and series never produced",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Rod Serling's radio work",
    "isNew": false,
    "official": true
   }
@@ -68047,10 +68037,10 @@
  "radio/the-last-flight": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 12",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68058,10 +68048,10 @@
  "radio/the-last-night-of-a-jockey": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 5",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68069,10 +68059,10 @@
  "radio/the-last-rites-of-jeff-myrtlebank": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 11",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68080,10 +68070,10 @@
  "radio/the-lateness-of-the-hour": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 1",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68091,10 +68081,10 @@
  "radio/the-little-people": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 4",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68102,10 +68092,10 @@
  "radio/the-living-doll": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 5",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68113,10 +68103,10 @@
  "radio/the-lonely": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 1",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68124,10 +68114,10 @@
  "radio/the-long-black-night-dr-christian": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Rod Serling's radio work",
+   "sub": "serling-radio",
+   "group": "Written by Serling",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Rod Serling's radio work",
    "isNew": false,
    "official": true
   }
@@ -68135,10 +68125,10 @@
  "radio/the-long-morrow": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 5",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68146,10 +68136,10 @@
  "radio/the-man-in-the-bottle": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 1",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68157,10 +68147,10 @@
  "radio/the-masks": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 7",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68168,10 +68158,10 @@
  "radio/the-midnight-sun": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 3",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68179,10 +68169,10 @@
  "radio/the-mighty-casey": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 10",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68190,10 +68180,10 @@
  "radio/the-mind-and-the-matter": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 8",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68201,10 +68191,10 @@
  "radio/the-mirror": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 14",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68212,10 +68202,10 @@
  "radio/the-monsters-are-due-on-maple-street": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 2",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68223,10 +68213,10 @@
  "radio/the-new-exhibit": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 13",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68234,10 +68224,10 @@
  "radio/the-night-of-the-meek": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 1",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68245,10 +68235,10 @@
  "radio/the-obsolete-man": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 2",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68256,10 +68246,10 @@
  "radio/the-odyssey-of-flight-33": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 6",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68267,10 +68257,10 @@
  "radio/the-old-man-in-the-cave": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 7",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68278,10 +68268,10 @@
  "radio/the-parallel": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 3",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68289,10 +68279,10 @@
  "radio/the-passerby": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 3",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68300,10 +68290,10 @@
  "radio/the-prime-mover": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 15",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68311,10 +68301,10 @@
  "radio/the-purple-testament": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 9",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68322,10 +68312,10 @@
  "radio/the-rip-van-winkle-caper": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 3",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68333,10 +68323,10 @@
  "radio/the-self-improvement-of-salvadore-ross": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 8",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68344,10 +68334,10 @@
  "radio/the-shelter": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 15",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68355,10 +68345,10 @@
  "radio/the-silence": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 9",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68366,10 +68356,10 @@
  "radio/the-sixteen-millimeter-shrine": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 15",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68377,10 +68367,10 @@
  "radio/the-thirty-fathom-grave": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 1",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68388,10 +68378,10 @@
  "radio/the-time-element": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 8",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68399,10 +68389,10 @@
  "radio/the-time-of-your-life": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 17",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -68419,10 +68409,10 @@
  "radio/the-trade-ins": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 5",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68430,10 +68420,10 @@
  "radio/the-trouble-with-templeton": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 14",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68441,10 +68431,10 @@
  "radio/the-walkabouts": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 16",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -68461,10 +68451,10 @@
  "radio/the-welcome-home-grand-central-station": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Rod Serling's radio work",
+   "sub": "serling-radio",
+   "group": "Written by Serling",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Rod Serling's radio work",
    "isNew": false,
    "official": true
   }
@@ -68472,10 +68462,10 @@
  "radio/the-whole-truth": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 12",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68483,10 +68473,10 @@
  "radio/there-goes-the-neighborhood": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 16",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -68503,10 +68493,10 @@
  "radio/third-from-the-sun": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 14",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68514,10 +68504,10 @@
  "radio/time-enough-at-last": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 6",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68525,10 +68515,10 @@
  "radio/to-live-a-dream-dr-christian": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Rod Serling's radio work",
+   "sub": "serling-radio",
+   "group": "Written by Serling",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Rod Serling's radio work",
    "isNew": false,
    "official": true
   }
@@ -68536,10 +68526,10 @@
  "radio/to-serve-man": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 9",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68547,10 +68537,10 @@
  "radio/toward-return-to-society-wnyc-1946": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Rod Serling's radio work",
+   "sub": "serling-radio",
+   "group": "Serling as an actor",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Rod Serling's radio work",
    "isNew": false,
    "official": true
   }
@@ -68558,76 +68548,36 @@
  "radio/twenty-two": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 3",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
  ],
- "radio/twilight-zone-radio-dramas-bbc": [
-  {
-   "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
-   "catTitle": "Radio",
-   "subTitle": "Radio episodes",
-   "isNew": false,
-   "official": true
-  }
- ],
- "radio/twilight-zone-radio-dramas-cd-digital-collections": [
-  {
-   "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
-   "catTitle": "Radio",
-   "subTitle": "Radio episodes",
-   "isNew": false,
-   "official": true
-  }
- ],
+ "radio/twilight-zone-radio-dramas-bbc": [],
+ "radio/twilight-zone-radio-dramas-cd-digital-collections": [],
  "radio/twilight-zone-radio-dramas-series": [
   {
    "cat": "radio",
-   "sub": "episodes",
+   "sub": "radio-dramas",
    "group": "The Twilight Zone Radio Dramas",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
  ],
- "radio/twilight-zone-radio-dramas-us-syndication": [
-  {
-   "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
-   "catTitle": "Radio",
-   "subTitle": "Radio episodes",
-   "isNew": false,
-   "official": true
-  }
- ],
- "radio/twilight-zone-radio-show-podcast-feed": [
-  {
-   "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
-   "catTitle": "Radio",
-   "subTitle": "Radio episodes",
-   "isNew": false,
-   "official": true
-  }
- ],
+ "radio/twilight-zone-radio-dramas-us-syndication": [],
+ "radio/twilight-zone-radio-show-podcast-feed": [],
  "radio/two-thousand-twelve": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 18",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -68644,10 +68594,10 @@
  "radio/two": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 15",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68655,10 +68605,10 @@
  "radio/uncle-simon": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 2",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68666,10 +68616,10 @@
  "radio/valley-of-the-shadow": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 13",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68677,10 +68627,10 @@
  "radio/walking-distance": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 3",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68688,10 +68638,10 @@
  "radio/what-you-need": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 8",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68699,10 +68649,10 @@
  "radio/whats-in-the-box": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 8",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68710,10 +68660,10 @@
  "radio/where-is-everybody": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 10",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68721,10 +68671,10 @@
  "radio/who-am-i": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 15",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   },
@@ -68741,10 +68691,10 @@
  "radio/will-the-real-martian-please-stand-up": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 5",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68752,10 +68702,10 @@
  "radio/you-drive": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 11",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68763,10 +68713,10 @@
  "radio/young-mans-fancy": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "The Twilight Zone Radio Dramas",
+   "sub": "radio-dramas",
+   "group": "Season 15",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Radio dramas",
    "isNew": false,
    "official": true
   }
@@ -68774,10 +68724,10 @@
  "radio/zero-hour-radio-rod-serling": [
   {
    "cat": "radio",
-   "sub": "episodes",
-   "group": "Rod Serling's radio work",
+   "sub": "serling-radio",
+   "group": "Hosted or narrated by Serling",
    "catTitle": "Radio",
-   "subTitle": "Radio episodes",
+   "subTitle": "Rod Serling's radio work",
    "isNew": false,
    "official": true
   }

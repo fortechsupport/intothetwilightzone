@@ -1,9 +1,103 @@
 ---
+// Radio record pages (Radio plan, docs/plans/research-radio.md, approved 2026-11-23). The Twilight Zone Radio Dramas
+// series record is the series page: its seasons in order, cast, broadcast and release history and where to listen.
+// Each radio drama episode adds its place in the series, what it adapts, the narrator and where to listen; Serling's
+// own radio work names his part in it.
 import RecordPage from '../../components/RecordPage.astro';
+import WhereToListen from '../../components/WhereToListen.astro';
 import { getCollection } from 'astro:content';
+import { resolveRef, personUrl } from '../../lib/data';
+import { listenFor, RADIO_DRAMAS } from '../../lib/listen';
+import { sortKey } from '../../lib/categories';
 export async function getStaticPaths() {
   return (await getCollection('radio')).filter((r) => !r.data.duplicate_of).map((r) => ({ params: { id: r.id }, props: { entry: r } }));
 }
 const { entry } = Astro.props;
+const d = entry.data;
+const SERIES_ID = 'twilight-zone-radio-dramas-series';
+const SERIES_URL = `/radio/${SERIES_ID}/`;
+const inSeries = d.series_title === RADIO_DRAMAS;
+const isSeriesPage = entry.id === SERIES_ID;
+const isEpisode = inSeries && !d.subtype;
+const listen = listenFor(d.series_title);
+const kindOf = (x: any) => (x.categories ?? []).includes('episodes/radio-original-stories') ? 'original' : (x.categories ?? []).includes('episodes/radio-unmade-tv-scripts') ? 'unmade' : x.adapts_episode ? 'adapted' : x.based_on ? 'based' : 'other';
+const KIND_TEXT: Record<string, string> = { original: 'Original radio story', unmade: 'Radio version of an unmade TV script', other: 'Not yet sourced' };
+const ROLE: Record<string, string> = { wrote: 'Writer', acted: 'Actor', hosted: 'Host or narrator', unproduced: 'Writer (never produced)' };
+
+// An episode page: what it adapts.
+const adapts = isEpisode && (d.adapts_episode || d.based_on_ref) ? await resolveRef((d.adapts_episode ?? d.based_on_ref)!) : undefined;
+const kind = isEpisode ? kindOf(d) : undefined;
+
+// The series page.
+const all = isSeriesPage ? (await getCollection('radio')).filter((r) => !r.data.duplicate_of && r.data.series_title === RADIO_DRAMAS) : [];
+const eps = all.filter((r) => !r.data.subtype).sort((a, b) => (a.data.season ?? 99) - (b.data.season ?? 99) || (a.data.season_order ?? 99) - (b.data.season_order ?? 99));
+const history = all.filter((r) => r.data.subtype && r.id !== SERIES_ID).sort((a, b) => sortKey(a.data.title).localeCompare(sortKey(b.data.title)));
+const seasons = [...new Set(eps.map((e) => e.data.season ?? 0))].sort((a, b) => a - b);
+const epTitles = new Map(await Promise.all(eps.filter((e) => e.data.adapts_episode).map(async (e) => [e.id, await resolveRef(e.data.adapts_episode!)] as const)));
+const castCount = new Map<string, number>();
+for (const e of eps) for (const n of new Set(e.data.voiced_by)) if (n !== 'Stacy Keach') castCount.set(n, (castCount.get(n) ?? 0) + 1);
+const surname = (n: string) => n.replace(/,?\s+(Jr\.|Sr\.|II|III)$/, '').split(' ').slice(-1)[0] ?? n;
+const cast = [...castCount.entries()].sort((a, b) => sortKey(surname(a[0])).localeCompare(sortKey(surname(b[0]))) || a[0].localeCompare(b[0]));
+const counts = { adapted: eps.filter((e) => kindOf(e.data) === 'adapted').length, original: eps.filter((e) => kindOf(e.data) === 'original').length, unmade: eps.filter((e) => kindOf(e.data) === 'unmade').length };
+const otherSources = eps.filter((e) => kindOf(e.data) === 'based');
+const fullCast = eps.filter((e) => e.data.voiced_by.length > 1).length;
+const first = (t?: string) => (t ?? '').split(/(?<=\.)\s/)[0];
 ---
-<RecordPage col="radio" entry={entry} />
+<RecordPage col="radio" entry={entry} skip={inSeries ? ['season', 'series_title', 'subtype', 'based_on', 'based_on_ref'] : ['subtype', 'serling_role']}>
+  <Fragment slot="facts">
+    {isEpisode && (
+      <>
+        <dt>Series</dt><dd><a href={SERIES_URL}>{RADIO_DRAMAS}</a>{d.season && <>, season {d.season}{d.season_order && <>, episode {d.season_order}</>}</>}</dd>
+        <dt>Adapts</dt><dd>{d.based_on ? (adapts ? <a href={adapts.url}>{d.based_on}</a> : d.based_on) : adapts ? <><a href={adapts.url}>{adapts.title}</a> (television)</> : KIND_TEXT[kind!]}</dd>
+        <dt>Narrator</dt><dd><a href={personUrl('Stacy Keach')}>Stacy Keach</a>, in Rod Serling’s role</dd>
+        {d.voiced_by.length <= 1 && <><dt>Full cast</dt><dd class="muted">Not yet sourced. The star is listed under Voices.</dd></>}
+        <WhereToListen listen={listen} asin={d.ids?.audible_asin} />
+      </>
+    )}
+    {isSeriesPage && (
+      <>
+        <dt>Episodes</dt><dd>{eps.length} in {seasons.length} seasons: {counts.adapted} adapted from Twilight Zone episodes, <a href="/radio/original-stories/">{counts.original} original radio stories</a>, <a href="/radio/unmade-scripts/">{counts.unmade} unmade TV scripts</a>{otherSources.length > 0 && <>; also {otherSources.map((e, i) => <>{i > 0 && ' and '}<a href={`/radio/${e.id}/`}>{e.data.title}</a> (from {e.data.based_on})</>)}</>}</dd>
+        <dt>Cast</dt><dd>Every episode names its star; {fullCast} of {eps.length} list more of the cast.</dd>
+      </>
+    )}
+    {inSeries && d.subtype && !isSeriesPage && <><dt>Series</dt><dd><a href={SERIES_URL}>{RADIO_DRAMAS}</a>: part of its <a href={`${SERIES_URL}#history`}>broadcast and release history</a></dd></>}
+    {!inSeries && d.serling_role && <><dt>Serling’s part</dt><dd>{ROLE[d.serling_role]}</dd></>}
+  </Fragment>
+  {isSeriesPage && (
+    <>
+      <section id="seasons">
+        <h2>Seasons</h2>
+        <p class="small muted">In season order, as Wikipedia’s episode list numbers them. Each episode names its star and the television episode it adapts.</p>
+        <p class="letters" data-pagefind-ignore>{seasons.map((n) => <a href={`#season-${n}`}>{n}</a>)}</p>
+        {seasons.map((n) => {
+          const list = eps.filter((e) => (e.data.season ?? 0) === n);
+          return (
+            <section id={`season-${n}`}>
+              <h3>Season {n} <span class="muted small">({list.length})</span></h3>
+              <ol class="plain">
+                {list.map((e) => {
+                  const t = epTitles.get(e.id);
+                  const k = kindOf(e.data);
+                  const star = e.data.voiced_by.find((v) => v !== 'Stacy Keach');
+                  return <li><a href={`/radio/${e.id}/`}>{e.data.title}</a>{star && <span class="small"> · starring {star}</span>}<span class="small muted"> · {e.data.based_on ? <>from {e.data.based_on}</> : t ? <>from <a href={t.url}>{t.title}</a></> : KIND_TEXT[k]}</span></li>;
+                })}
+              </ol>
+            </section>
+          );
+        })}
+      </section>
+      <section id="cast">
+        <h2>Cast</h2>
+        <p class="small muted">Everyone credited on an episode page, by surname, with the number of episodes. Stacy Keach narrates every episode.</p>
+        <p>{cast.map(([n, c], i) => <>{i > 0 && ' · '}<a href={personUrl(n)}>{n}</a>{c > 1 && <span class="muted small"> ({c})</span>}</>)}</p>
+      </section>
+      <section id="history">
+        <h2>Broadcast and release history</h2>
+        <ul class="plain">
+          {history.map((h) => <li><a href={`/radio/${h.id}/`}>{h.data.title}</a>{h.data.description && <span class="small"> {first(h.data.description)}</span>}</li>)}
+        </ul>
+      </section>
+      <WhereToListen listen={listen} as="section" />
+    </>
+  )}
+</RecordPage>

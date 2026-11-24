@@ -36,6 +36,16 @@ const BOOK_KIND: Record<string, string> = { anthology: 'Anthology', novel: 'Nove
 const lcFirst = (t: string) => (/^[A-Z]{2}/.test(t) ? t : t.charAt(0).toLowerCase() + t.slice(1));
 const humanize = (s: string) => (s.charAt(0).toUpperCase() + s.slice(1)).replace(/[-_]+/g, ' ');
 
+/** Radio records (Radio plan, 2026-11-24): the radio dramas, their series and release records, Serling's own radio
+ * work, other producers' adaptations and fan audio each say what they are. */
+function radioType(d: any): string {
+  if (d.series_title === 'The Twilight Zone Radio Dramas') return d.subtype === 'audio-series' ? (/collections/i.test(d.title) ? 'Radio releases' : 'Radio series') : d.subtype === 'radio-broadcast' ? 'Radio broadcasts' : 'Radio drama';
+  if ((d.tags ?? []).includes('fan-made')) return 'Fan audio drama';
+  if ((d.tags ?? []).includes('audio-adaptation')) return 'Radio play';
+  if (d.serling_role === 'unproduced') return 'Unproduced radio work';
+  return 'Radio program';
+}
+
 /** The singular type label shown above a record's heading. */
 export function recordType(col: string, d: any): string {
   switch (col) {
@@ -44,7 +54,7 @@ export function recordType(col: string, d: any): string {
     case 'films': return FILM_KIND[d.kind] ?? 'Screen';
     case 'works': return WORK_KIND[d.kind] ?? humanize(d.kind ?? 'Work');
     case 'songs': return 'Song';
-    case 'radio': return 'Radio drama';
+    case 'radio': return radioType(d);
     case 'podcasts': return 'Podcast';
     case 'books': return BOOK_KIND[d.kind] ?? 'Book';
     case 'comics': return 'Comic';
@@ -65,7 +75,7 @@ export function recordContext(col: string, d: any, extra: { firstRef?: string } 
   const parts: (string | undefined)[] = [];
   switch (col) {
     case 'songs': parts.push(d.artist ? `by ${d.artist}` : undefined, year(d.year ?? d.released)); break;
-    case 'radio': parts.push(d.series_title, d.volume ? `volume ${d.volume}` : undefined); break;
+    case 'radio': parts.push(d.series_title, d.series_title === 'The Twilight Zone Radio Dramas' && d.season ? `season ${d.season}${d.season_order ? `, episode ${d.season_order}` : ''}` : undefined); break;
     case 'comics': parts.push(d.publisher, year(d.cover_date)); break;
     case 'magazines': parts.push(d.magazine, year(d.cover_date)); break;
     case 'books': parts.push(d.authors?.[0] ? `by ${String(d.authors[0]).replace(/\s*\(.*\)$/, '')}` : undefined, year(d.published)); break;

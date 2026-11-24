@@ -151,10 +151,13 @@ export const TAXONOMY = [
     ],
     connection: 'The radio dramas are licensed Twilight Zone productions; Serling\'s radio plays are his own work.',
     subs: [
-      { slug: 'series', title: 'Radio series', blurb: 'The Twilight Zone Radio Dramas and the radio series Serling wrote for.' },
-      { slug: 'episodes', title: 'Radio episodes', blurb: 'Every radio drama episode and Serling radio play.' },
+      { slug: 'radio-dramas', title: 'Radio dramas', order: 'chrono', side: 'official', blurb: 'The Twilight Zone Radio Dramas (2002 to 2012), narrated by Stacy Keach: the series page, then all 176 episodes season by season.', intro: 'Falcon Picture Group made the series under license from CBS and the Serling estate, with a different film or television actor starring in each story. The series page has the seasons, the cast, the broadcast and release history and where to listen.', connection: 'The officially licensed radio version of the show: 155 of the 156 original episodes, the 1958 pilot play, unmade scripts and 16 stories written for radio.' },
+      { slug: 'serling-radio', title: "Rod Serling's radio work", side: 'official', blurb: 'Everything Serling wrote, acted in or hosted on radio, from WNYC in 1946 to The Zero Hour in 1974.', intro: 'Serling started in radio: as an unpaid intern at WNYC, in Antioch College\'s radio workshop, as a staff writer at WLW in Cincinnati, and selling scripts to network series. Late in life he hosted radio again. Most dates come from Martin Grams Jr.\'s history of his radio career.', connection: 'The radio work of the show\'s creator, grouped by his part in it.' },
       { slug: 'original-stories', title: 'Original radio stories', isNew: true, blurb: 'Radio drama episodes written for audio rather than adapted from television.' },
       { slug: 'unmade-scripts', title: 'Radio versions of unmade scripts', isNew: true, blurb: 'Radio dramas made from Twilight Zone scripts that were never filmed.' },
+      { slug: 'adaptations', title: 'Other radio and audio adaptations', isNew: true, blurb: "Radio and audio versions of Serling's work made by producers other than Falcon Picture Group.", connection: "Each one adapts a teleplay or story by Rod Serling; none was made under the radio dramas' license." },
+      { slug: 'anthologies', title: 'Fellow radio anthologies', side: 'unofficial', blurb: 'Radio anthologies with a sourced tie to Serling or the show, stated on each page.', connection: 'Each series is here for a documented tie to Serling, stated on its page; radio anthologies with no such tie are listed with the other fellow anthologies in Television.' },
+      { slug: 'fan-audio', title: 'Fan and independent audio', isNew: true, side: 'unofficial', blurb: 'Fan-made audio dramas of the episodes, credited to their makers and linked, never copied.', connection: 'Fans adapting the episodes for audio. Nothing here is licensed; each is credited to its maker.' },
     ],
   },
   {
@@ -500,9 +503,9 @@ const ALIASES = {
   'archives/*': 'content',
   'quotes/*': 'content',
   'reviews/*': 'content',
-  'series/radio': ['radio', 'series'],
+  'series/radio': ['radio', 'radio-dramas'],
   'series/podcast': ['podcasts', 'shows'],
-  'episodes/radio': ['radio', 'episodes'],
+  'episodes/radio': ['radio', 'radio-dramas'],
   'episodes/radio-original-stories': ['radio', 'original-stories'],
   'episodes/radio-unmade-tv-scripts': ['radio', 'unmade-scripts'],
   'episodes/podcast': ['podcasts', 'episodes'],
@@ -546,6 +549,9 @@ const MOVES = {
   'places/lecture-event-venues': ['places', 'venues'],
   'merchandise/ornaments': ['merchandise', 'household-apparel'],
   'games/slot-and-casino-games': ['games', 'pinball-arcade'],
+  // Radio (2026-11-24): the five shelves of docs/plans/research-radio.md replace Radio series and Radio episodes.
+  'radio/series': ['radio', 'radio-dramas'],
+  'radio/episodes': ['radio', 'radio-dramas'],
 };
 export function remap(cat, sub) {
   const m = MOVES[`${cat}/${sub}`];
@@ -621,10 +627,13 @@ export function isFeatureLength(d) {
   return (d.runtime_min ?? 0) >= 70 || FEATURE_SLOTS.has(String(d.parent_series ?? '').trim());
 }
 
+/** Rod Serling's part in a radio work, as the group headings on Radio > Rod Serling's radio work. */
+const SERLING_RADIO_ROLE = { wrote: 'Written by Serling', acted: 'Serling as an actor', hosted: 'Hosted or narrated by Serling', unproduced: 'Scripts and series never produced' };
+
 export function place(col, id, d, ctx = {}) {
   /** @type {{cat: string, sub: string, group?: string}[]} */
   const out = [];
-  const add = (cat, sub, group) => out.push({ ...remap(cat, sub), group });
+  const add = (cat, sub, group, sort) => out.push({ ...remap(cat, sub), group, ...(sort ? { sort } : {}) });
   const asub = ctx.assessSub?.(`${col}/${id}`);
   const tags = d.tags ?? [];
   const subtype = lc(d.subtype);
@@ -648,7 +657,7 @@ export function place(col, id, d, ctx = {}) {
       const host = hostShow(id, d);
       if (host === 'Night Gallery' || id === 'night-gallery') { add('series', 'serling-series', 'Night Gallery'); break; }
       if (k === 'tv-series') {
-        if (tags.includes('radio-only')) { add('radio', 'series', 'Fellow radio anthologies'); break; }
+        if (tags.includes('radio-only')) { add('radio', 'anthologies'); break; }
         if (asub === "Rod Serling's other screen work") add('series', 'serling-series', "Rod Serling's series");
         else if (tags.includes('tz-writers')) add('series', 'anthologies', 'Series by Twilight Zone writers');
         else if (tags.includes('anthology-family') || asub === 'Fellow anthology series') add('series', 'anthologies', 'Anthology series');
@@ -722,10 +731,16 @@ export function place(col, id, d, ctx = {}) {
       break;
     }
     case 'radio':
-      if (d.series_title === 'The Twilight Zone Radio Dramas') add('radio', 'episodes', 'The Twilight Zone Radio Dramas');
-      else if (tags.includes('fan-made')) { add('radio', 'episodes', 'Fan and independent audio'); add('homages', 'fan-made', 'Fan audio dramas'); }
-      else if (tags.includes('audio-adaptation')) add('radio', 'episodes', 'Other radio and audio adaptations');
-      else add('radio', 'episodes', "Rod Serling's radio work");
+      // Radio (plan docs/plans/research-radio.md, approved 2026-11-23): five shelves. The series record and its
+      // broadcast and release records are shown on the series page, not on a shelf (Q2).
+      if (d.series_title === 'The Twilight Zone Radio Dramas') {
+        if (id === 'twilight-zone-radio-dramas-series') { add('radio', 'radio-dramas', 'The Twilight Zone Radio Dramas', '00-00'); break; }
+        if (d.subtype === 'audio-series' || d.subtype === 'radio-broadcast') break;
+        const pad = (n) => String(n ?? 99).padStart(2, '0');
+        add('radio', 'radio-dramas', d.season ? `Season ${d.season}` : 'Season not yet confirmed', `${pad(d.season)}-${pad(d.season_order)}`);
+      } else if (tags.includes('fan-made')) { add('radio', 'fan-audio'); add('homages', 'fan-made', 'Fan audio dramas'); }
+      else if (tags.includes('audio-adaptation')) add('radio', 'adaptations');
+      else add('radio', 'serling-radio', SERLING_RADIO_ROLE[d.serling_role] ?? "Rod Serling's radio work");
       break;
     case 'podcasts':
       if (asub === 'Single episodes of other podcasts') add('podcasts', 'episodes');
@@ -941,9 +956,9 @@ export function isOfficial(col, d, p, ctx = {}) {
   const pub = lc(d.publisher);
   switch (`${p.cat}/${p.sub}`) {
     case 'series/pilots-unmade': return serling || !unoff;
-    case 'radio/series': return p.group !== 'Fellow radio anthologies';
-    case 'series/international': case 'radio/episodes':
-    case 'radio/original-stories': case 'radio/unmade-scripts':
+    case 'radio/original-stories': case 'radio/unmade-scripts': return true;
+    case 'radio/adaptations': return false;
+    case 'series/international':
       return p.group ? !/^(Episodes|Segments|Sketches|Web series)$/.test(p.group) : true;
     case 'movies/twilight-zone-films': case 'movies/rod-serling-films': case 'movies/unmade-projects': return !unoff;
     case 'music/theme': case 'music/soundtracks': return !unoff;

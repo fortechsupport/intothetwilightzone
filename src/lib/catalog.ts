@@ -278,7 +278,7 @@ export async function catalog(): Promise<Map<string, CatInfo>> {
       for (const p of placements) {
         const official = isOfficial(col, d, p, { why });
         if (first === undefined) first = official;
-        put(p.cat, p.sub, { ...e, group: p.group ?? undefined, official }, key);
+        put(p.cat, p.sub, { ...e, group: p.group ?? undefined, official, ...(p.sort ? { sort: p.sort } : {}) }, key);
       }
       recOfficial.set(key, first);
       const content = contentOf(col, d);
@@ -353,19 +353,6 @@ export async function catalog(): Promise<Map<string, CatInfo>> {
         }
       }
     }
-  }
-
-  // Radio series as series entries.
-  const radioSeries = new Map<string, number>();
-  for (const r of data.radio) radioSeries.set(r.data.series_title ?? 'Other radio', (radioSeries.get(r.data.series_title ?? 'Other radio') ?? 0) + 1);
-  for (const [t, n] of radioSeries) {
-    const tz = t === 'The Twilight Zone Radio Dramas';
-    put('radio', 'series', {
-      key: `radio-series/${slugify(t)}`, title: t, href: '/radio/episodes/', sort: sortKey(t),
-      meta: `${n} ${n === 1 ? 'episode' : 'episodes'} listed`,
-      desc: tz ? 'Full-cast audio adaptations of the original teleplays produced under license from 2002, with Stacy Keach as narrator, later adding new stories.' : 'A radio series Rod Serling wrote for, listed for his work on it.',
-      group: tz ? 'The Twilight Zone Radio Dramas' : "Rod Serling's radio work", official: true,
-    });
   }
 
   // People: everyone with a credit or a record.
