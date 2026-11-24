@@ -1,6 +1,6 @@
 # Content plan: Podcasts
 
-**Date:** 2026-11-24 · **Status:** draft, revised 2026-11-24 03:20 UTC after Adam's idea ("display all the Podcast series, then have a table of aggregated posts (episodes) from each series feed", searchable, filterable and sortable); waiting on Adam's approval · **Checklist:** docs/RESEARCH_CHECKLIST.md, Listen > Podcasts
+**Date:** 2026-11-24 · **Status:** approved by Adam 2026-11-24 03:12 UTC ("approved"), with Q1 to Q9 as suggested; revised before approval after Adam's idea ("display all the Podcast series, then have a table of aggregated posts (episodes) from each series feed", searchable, filterable and sortable) · **Checklist:** docs/RESEARCH_CHECKLIST.md, Listen > Podcasts
 **Order:** Adam, 2026-11-24 01:07 UTC: finish Watch (done), then Listen: Music (done in PRs #57 to #60), then Podcasts.
 **Follows:** decision 0005 (records with sources are included; visitors' votes flag doubtful ones), decision 0006 (a
 likeness is "Compared to", never "Inspired by"), the Serling rule, and the Music plan's "where to listen" answer (Q5).
@@ -196,7 +196,7 @@ B and D, read from each podcast's own RSS feed, plus each single episode on shel
 - Podcast interviews with the show's makers attach to their People pages as interviews (the "media are never categories" rule) and also stay on shelf C.
 
 ## Waiting on Adam
-- Approval of this plan, and of Q1 to Q9 as suggested or changed.
+- (none: plan and Q1 to Q9 approved as suggested, 2026-11-24 03:12 UTC)
 
 ## Found, for later
 - Five Radio records are not placed on any shelf, including the radio show's podcast feed and the BBC and syndication runs (taxonomy export, 2026-11-24). They belong to Radio's series page.
