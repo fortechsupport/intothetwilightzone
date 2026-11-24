@@ -1,19 +1,21 @@
-title: Martin Landau's personal shooting scripts including The Twilight Zone (Heritage lot 1183)
+title: Martin Landau's personal shooting scripts including The Twilight Zone (Profiles in History lot 1183)
 kind: other
-publisher: Heritage Auctions
+publisher: Profiles in History
 description: >-
-  Heritage Auctions sold Martin Landau's own copies of seven TV shooting scripts, from series including The Twilight
-  Zone and Alfred Hitchcock Presents, as lot 1183 of sale 997059. Landau appeared in two Twilight Zone episodes,
-  "Mr. Denton on Doomsday" and "The Jeopardy Room". Which TZ scripts are in the set should be checked on the lot
-  page.
+  Profiles in History sold Martin Landau's own copies of seven studio scripts for his 1980s television roles
+  (1980-87), as lot 1183 of its Icons & Legends of Hollywood auction (sale 997059) on 25 September 2019; the
+  catalogue is hosted on Heritage Auctions' site. The one Twilight Zone script is a multi-colour revision-page
+  script of "The Beacon" from the 1985 revival, dated 4 October 1985. The others are for Gilligan's Island, Matt
+  Houston, Buffalo Bill, Hotel, Murder, She Wrote and Alfred Hitchcock Presents.
 subtype: auction
 details:
-  sale: Heritage 997059
+  sale: 'Profiles in History: Icons & Legends of Hollywood (#997059), 25 September 2019'
+  episode: 1985/the-beacon
   lot: 1183
   people:
   - Martin Landau
 relevance: related
-research_confidence: low
+research_confidence: high
 sources:
 - title: >-
     Heritage lot 1183: Martin Landau 7 personal shooting scripts for TV series and TV films including The Twilight
@@ -28,4 +30,6 @@ media:
   host: Heritage Auctions
   rights: link-only
   subtype: listing
-last_verified: '2026-11-20'
+last_verified: '2026-11-24'
+organizations:
+- Profiles in History

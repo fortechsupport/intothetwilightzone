@@ -7,7 +7,7 @@ publisher: First Row Software Publishing, Inc. (King of Prussia, PA)
 description: 'A licensed text-and-graphics adventure built like a self-contained episode of Serling''s series, with the player typing
     verb-noun commands and stepping between first-person illustrated locations. First Row Software published it in 1988
     for the Amiga and MS-DOS. Sources disagree about the developer: this record''s credits name Covenant Technologies, while
-    Entertainment Earth''s history of Twilight Zone collectibles names Gigabit Systems. No Atari ST version has been found.'
+    Entertainment Earth''s history of Twilight Zone collectibles says Gigabit Systems published it for PC. No Atari ST version has been found.'
 details:
   platforms: Amiga, IBM PC/DOS (Atari ST not confirmed in sources seen); C64 announced but unreleased
   licensed: true
@@ -55,7 +55,7 @@ sources:
     https://elisoftware.org/wiki/Prime_Time_(Atari_ST,_3_1/2%22_Disk)_First_Row_Software_-_1988_USA,_Canada_Release
 - title: 'Entertainment Earth: Twilight Zone collectibles'
   url: https://www.entertainmentearth.com/news/twilight-zone-collectibles/
-  note: Names the 1988 PC text adventure as by Gigabit Systems (read 2026-11-24).
+  note: 'Says "Gigabit Systems published a text-based thriller for PC" (read 2026-11-24); it does not name First Row Software.'
 research_confidence: medium
 last_verified: '2026-11-24'
 relevance: core

@@ -1,0 +1,11 @@
+from: films/muppet-babies-elm-street-babies
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: >-
+  Baby Gonzo vocalizes Marius Constant's theme for the series as he convinces Baby Kermit to enter "the dream
+  zone" with him.
+sources:
+- title: Muppet Wiki – The Twilight Zone
+  url: https://muppet.fandom.com/wiki/The_Twilight_Zone
+last_verified: '2026-11-24'

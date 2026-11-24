@@ -1,0 +1,11 @@
+from: films/abbys-amazing-adventures-5017-theme
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: >-
+  A snatch of The Twilight Zone theme plays when Rudy points out that they cannot go back home because they are
+  already there.
+sources:
+- title: Muppet Wiki – The Twilight Zone
+  url: https://muppet.fandom.com/wiki/The_Twilight_Zone
+last_verified: '2026-11-24'

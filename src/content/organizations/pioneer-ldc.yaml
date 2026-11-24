@@ -1,9 +1,14 @@
 name: Pioneer LDC
 kind: home-video
-description: Released The Twilight Zone and the 1985 revival on laserdisc in Japan.
+description: >-
+  Pioneer's Japanese laserdisc company. The Laserdisc Database lists Japanese laserdiscs of the original series
+  (The Twilight Zone: Special Edition) and of the 1985 revival under Pioneer's PILF catalogue numbers; it names
+  Pioneer Japan as manufacturer of vol. 7, with 20th Century Fox Home Entertainment as publisher.
 official: true
 relevance: related
 sources:
+- title: 'LDDb: New Twilight Zone vol. 10 (PILF-1048)'
+  url: https://www.lddb.com/laserdisc/11191/PILF-1048/New-Twilight-Zone:-vol.10
 - title: 'LDDb: Twilight Zone The: Special Edition vol.7 (PILF-2670)'
   url: https://www.lddb.com/laserdisc/00074/PILF-2670/Twilight-Zone-The:-Special-Edition-vol.7
 research_confidence: medium

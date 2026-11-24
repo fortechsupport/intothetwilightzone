@@ -41,7 +41,7 @@ const rows: Row[] = [
   ...sub('anthologies').entries.concat(sub('pilots-unmade').entries).filter((e) => e.href).map((e) => [e.title, e.group ?? 'Series', e.href!] as Row),
 ];
 const index = [...new Map(rows.map((r) => [r[2], r])).values()];
-const order = ['twilight-zone', 'episodes', 'serling-series', 'anthologies', 'homages', 'pilots-unmade', 'international', 'where-to-watch'];
+const order = ['twilight-zone', 'episodes', 'serling-series', 'anthologies', 'homages', 'pilots-unmade', 'international'];
 const shelves = order.map((slug) => c.subs.find((s) => s.slug === slug)).filter((s): s is NonNullable<typeof s> => !!s && s.entries.length > 0 && s.slug !== 'twilight-zone');
 const more: Record<string, [string, string]> = { homages: ['All homages', '/television/homages/'], 'serling-series': ['Night Gallery', '/night-gallery/'] };
 const LABEL: Record<string, string> = { '1959': 'The original series', '1985': 'The 1985 revival', '2002': 'The 2002 revival', '2019': 'The 2019 revival' };

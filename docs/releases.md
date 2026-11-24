@@ -3,13 +3,34 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-24 — Second pass: overnight work checked against its sources
+
+Visitors can now:
+- Trust the overnight records more: about 60 new facts were read against their sources and 20 were corrected (for
+  example, the Matheson and Landau script lots were sold by Profiles in History, not Heritage; the 2019 promo
+  campaign was shortlisted for a Clio, not a winner; the Landau lot's Twilight Zone script is "The Beacon").
+- Hear James Gunn's 1970 Serling interview again: its Internet Archive audio, dropped overnight, is restored.
+- See which records name each new organization (the 1985, 2002 and 2019 production companies, the radio dramas'
+  producer, Pioneer, Kino Lorber, Sideshow, Profiles in History), and four more: Pepsi-Cola, Spirit Dance
+  Entertainment, Joshmax Productions Services and New Line Television.
+- Read five more interviews with Anne Serling (WUWF 2026, WYSO 2024, WBUR Here & Now 2024, WVXU 2020, HuffPost).
+- Find seven Muppet and Sesame Street moments that hum or play the theme, the 2019 pop-up at The Grove, and the
+  Walk of Fame star's date (7 October 1988).
+- No longer see a "Where to watch" shelf of two dated records; each series page's watch panel is the one place.
+
+**Known not to work yet:**
+- Award records filed under Reviews > Awards and citations (such as Harlan Ellison's 1987 WGA Award) move to History
+  in the Read round.
+- Heritage Auctions' page names no records yet: the site's records cite its lot pages as sources only.
+
 ## 2026-11-24 — Media Library: every interview attached
 
 Visitors can now:
 - Find 16 more interviews and reviews on the pages they are about: Serling's own interviews on his page, Carol,
   Anne and Jodi Serling's interviews on theirs, the 2002 producers' interviews on the 2002 series, and reviews of
   Rod Serling's Lost Classics on that film.
-- Watch for two more Serling interviews (The Dick Cavett Show, 1972; James Gunn's unfinished 1970 film), linked.
+- Watch for one more Serling interview (The Dick Cavett Show, 1972), and read more about James Gunn's unfinished
+  1970 film.
 - See the 1961 Unity Award and the 2006 Gold Marcum Award with the other honors in History.
 
 **Known not to work yet:**

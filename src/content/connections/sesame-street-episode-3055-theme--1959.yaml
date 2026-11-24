@@ -1,0 +1,11 @@
+from: films/sesame-street-episode-3055-theme
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: >-
+  A musical sting at the end of the second scene mimics The Twilight Zone theme after an appearance by the
+  Martians.
+sources:
+- title: Muppet Wiki – The Twilight Zone
+  url: https://muppet.fandom.com/wiki/The_Twilight_Zone
+last_verified: '2026-11-24'

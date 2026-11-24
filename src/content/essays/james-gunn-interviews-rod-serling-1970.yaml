@@ -10,14 +10,28 @@ description: >-
   film series "Science Fiction in Literature". The Serling film was never finished because the rights to show
   footage from his television work could not be obtained. The surviving footage, reconstructed from separate
   workprint picture and sound, covers writing for television and opens with what the uploader calls a prophetic
-  remark about his health.
+  remark about his health. The original audio track was later released on the Internet Archive.
 research_confidence: medium
+media:
+- type: audio
+  title: James Gunn Interviews Rod Serling - Lost original audio 1970
+  url: https://archive.org/details/gunn-serling-original-audio-track-unedited
+  host: Internet Archive (Demolition Kitchen Video)
+  date: '1970'
+  rights: cc
+  note: Released under CC BY-NC-ND 4.0 by the group that reconstructed the unfinished University of Kansas/Centron
+    interview film. Whether they hold the rights is not independently confirmed.
 content_of:
 - people/rod-serling
 sources:
+- title: Internet Archive
+  url: https://archive.org/details/gunn-serling-original-audio-track-unedited
 - title: 'Dangerous Minds: Lost Rod Serling video interview, 1970'
   url: https://dangerousminds.net/comments/lost_rod_serling_video_interview_1970/
   note: Quotes the YouTube uploader's description; via SF Signal.
 last_verified: '2026-11-24'
+locked: true
+organizations:
+- University of Kansas
 tags:
 - media-library-2026-11-24

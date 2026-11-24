@@ -1,0 +1,10 @@
+from: films/muppet-babies-back-to-the-nursery
+to: series/1959
+kind: reference
+confidence: fan-noted
+summary: >-
+  A time-station attendant warns the babies not to park in a Twilight Zone.
+sources:
+- title: Muppet Wiki – The Twilight Zone
+  url: https://muppet.fandom.com/wiki/The_Twilight_Zone
+last_verified: '2026-11-24'

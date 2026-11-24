@@ -14627,6 +14627,18 @@
   "subcategory": "Other links",
   "sort": "nightmare on elm street  perchance to dream 001959"
  },
+ "connections/abbys-amazing-adventures-5017-theme--1959": {
+  "connection": "A snatch of The Twilight Zone theme plays when Rudy points out that they cannot go back home because they are already there.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Muppet Wiki – The Twilight Zone",
+  "source_url": "https://muppet.fandom.com/wiki/The_Twilight_Zone",
+  "title": "Abby's Amazing Adventures (first used in Sesame Street Episode 5017) → The Twilight Zone (original series)",
+  "subcategory": "References",
+  "sort": "abbys amazing adventures first used in sesame street episode 005017  the twilight zone original series"
+ },
  "connections/ace-ventura-when-nature-calls--nightmare-at-20-000-feet": {
   "connection": "Ace Ventura: When Nature Calls is an homage to “Nightmare at 20,000 Feet” (1959).",
   "tier": "tangential",
@@ -17911,9 +17923,21 @@
   "reason": "A published source documents the link.",
   "source_title": "Heritage lot 1183: Martin Landau 7 personal shooting scripts for TV series and TV films including The Twilight Zone and Alfred Hitchcock Presents",
   "source_url": "https://entertainment.ha.com/itm/movie-tv-memorabilia/martin-landau-7-personal-shooting-scripts-for-tv-series-and-tv-films-including-the-twilight-zone-and-alfred-hitchcock-presen/a/997059-1183.s",
-  "title": "Martin Landau's personal shooting scripts including The Twilight Zone (Heritage lot 1183) → “Mr. Denton on Doomsday” (1959)",
+  "title": "Martin Landau's personal shooting scripts including The Twilight Zone (Profiles in History lot 1183) → “Mr. Denton on Doomsday” (1959)",
   "subcategory": "References",
-  "sort": "martin landaus personal shooting scripts including the twilight zone heritage lot 001183  mr denton on doomsday 001959"
+  "sort": "martin landaus personal shooting scripts including the twilight zone profiles in history lot 001183  mr denton on doomsday 001959"
+ },
+ "connections/martin-landau-shooting-scripts-heritage-lot--the-beacon": {
+  "connection": "Martin Landau's own revision-page script of the episode, dated 4 October 1985, sold at auction in 2019.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, a published source makes the link.",
+  "recommendation": "include",
+  "reason": "A published source documents the link.",
+  "source_title": "Lot 1183: Martin Landau (7) personal shooting scripts (Profiles in History)",
+  "source_url": "https://entertainment.ha.com/itm/movie-tv-memorabilia/martin-landau-7-personal-shooting-scripts-for-tv-series-and-tv-films-including-the-twilight-zone-and-alfred-hitchcock-presen/a/997059-1183.s",
+  "title": "Martin Landau's personal shooting scripts including The Twilight Zone (Profiles in History lot 1183) → “The Beacon” (1985)",
+  "subcategory": "References",
+  "sort": "martin landaus personal shooting scripts including the twilight zone profiles in history lot 001183  the beacon 001985"
  },
  "connections/martin-landau-shooting-scripts-heritage-lot--the-jeopardy-room": {
   "connection": "An actor's own working scripts from the original series.",
@@ -17923,9 +17947,9 @@
   "reason": "A published source documents the link.",
   "source_title": "Heritage lot 1183: Martin Landau 7 personal shooting scripts for TV series and TV films including The Twilight Zone and Alfred Hitchcock Presents",
   "source_url": "https://entertainment.ha.com/itm/movie-tv-memorabilia/martin-landau-7-personal-shooting-scripts-for-tv-series-and-tv-films-including-the-twilight-zone-and-alfred-hitchcock-presen/a/997059-1183.s",
-  "title": "Martin Landau's personal shooting scripts including The Twilight Zone (Heritage lot 1183) → “The Jeopardy Room” (1959)",
+  "title": "Martin Landau's personal shooting scripts including The Twilight Zone (Profiles in History lot 1183) → “The Jeopardy Room” (1959)",
   "subcategory": "References",
-  "sort": "martin landaus personal shooting scripts including the twilight zone heritage lot 001183  the jeopardy room 001959"
+  "sort": "martin landaus personal shooting scripts including the twilight zone profiles in history lot 001183  the jeopardy room 001959"
  },
  "connections/marvel-2099-marvel-comics-ghost-rider-2099-one-shot--1959": {
   "connection": "Zero remarks that his bargain feels like something out of the Twilight Zone.",
@@ -18166,6 +18190,30 @@
   "title": "The Weirdo Zone → The Twilight Zone (original series)",
   "subcategory": "Parodies",
   "sort": "weirdo zone  the twilight zone original series"
+ },
+ "connections/muppet-babies-back-to-the-nursery--1959": {
+  "connection": "A time-station attendant warns the babies not to park in a Twilight Zone.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Muppet Wiki – The Twilight Zone",
+  "source_url": "https://muppet.fandom.com/wiki/The_Twilight_Zone",
+  "title": "Back to the Nursery → The Twilight Zone (original series)",
+  "subcategory": "References",
+  "sort": "back to the nursery  the twilight zone original series"
+ },
+ "connections/muppet-babies-elm-street-babies--1959": {
+  "connection": "Baby Gonzo vocalizes Marius Constant's theme for the series as he convinces Baby Kermit to enter \"the dream zone\" with him.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Muppet Wiki – The Twilight Zone",
+  "source_url": "https://muppet.fandom.com/wiki/The_Twilight_Zone",
+  "title": "Elm Street Babies → The Twilight Zone (original series)",
+  "subcategory": "References",
+  "sort": "elm street babies  the twilight zone original series"
  },
  "connections/muppet-babies-muppet-babies-the-next-generation--twilight-zone-1959": {
   "connection": "One of the nursery gang wonders aloud whether they have wandered into The Twilight Zone.",
@@ -18970,6 +19018,54 @@
   "title": "“Where Is Everybody?” → “Where Is Everybody?” (1959)",
   "subcategory": "References",
   "sort": "where is everybody  where is everybody 001959"
+ },
+ "connections/sesame-street-episode-1800-theme--1959": {
+  "connection": "Olivia briefly sings The Twilight Zone theme to tease Maria while they wait for Mr. Snuffleupagus to return.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Muppet Wiki – The Twilight Zone",
+  "source_url": "https://muppet.fandom.com/wiki/The_Twilight_Zone",
+  "title": "Sesame Street, Episode 1800 → The Twilight Zone (original series)",
+  "subcategory": "References",
+  "sort": "sesame street episode 001800  the twilight zone original series"
+ },
+ "connections/sesame-street-episode-2403-theme--1959": {
+  "connection": "Big Bird hums The Twilight Zone theme while pretending to be on the planet Zingo with Snuffy.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Muppet Wiki – The Twilight Zone",
+  "source_url": "https://muppet.fandom.com/wiki/The_Twilight_Zone",
+  "title": "Sesame Street, Episode 2403 → The Twilight Zone (original series)",
+  "subcategory": "References",
+  "sort": "sesame street episode 002403  the twilight zone original series"
+ },
+ "connections/sesame-street-episode-2441-theme--1959": {
+  "connection": "Big Bird hums The Twilight Zone theme when Bob mistakes a blank sheet of paper for one of his artworks.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Muppet Wiki – The Twilight Zone",
+  "source_url": "https://muppet.fandom.com/wiki/The_Twilight_Zone",
+  "title": "Sesame Street, Episode 2441 → The Twilight Zone (original series)",
+  "subcategory": "References",
+  "sort": "sesame street episode 002441  the twilight zone original series"
+ },
+ "connections/sesame-street-episode-3055-theme--1959": {
+  "connection": "A musical sting at the end of the second scene mimics The Twilight Zone theme after an appearance by the Martians.",
+  "tier": "tangential",
+  "tier_reason": "Reference link, only fans have pointed it out; no source confirms it.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Muppet Wiki – The Twilight Zone",
+  "source_url": "https://muppet.fandom.com/wiki/The_Twilight_Zone",
+  "title": "Sesame Street, Episode 3055 → The Twilight Zone (original series)",
+  "subcategory": "References",
+  "sort": "sesame street episode 003055  the twilight zone original series"
  },
  "connections/sesame-street-episode-5516-tz-style-movie-parody--1959": {
   "connection": "Tamir plays a Serling-like host introducing a Twilight Zone-flavoured tale starring Baby Bear as a bear who won't share.",
@@ -25595,6 +25691,66 @@
   "subcategory": "Articles",
   "sort": "angry young man serling too busy"
  },
+ "essays/anne-serling-huffpost-interview-dan-lybarger": {
+  "connection": "A telephone Q&A with Anne Serling about her forthcoming memoir, then titled Another Dimension: how she came to the show through \"Nightmare at 20,000 Feet\", her father's favourite episodes and plays (\"Walking Distance\", \"In Praise of Pip\", \"Requiem for a Heavyweight\", \"The Messiah on Mott Street\"),…",
+  "tier": "related",
+  "tier_reason": "Writing by or about Rod Serling.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "HuffPost: Anne Serling interview (Dan Lybarger)",
+  "source_url": "https://www.huffingtonpost.com/dan-lybarger/anne-serling-interview_b_1251597.html",
+  "title": "Anne Serling interview (HuffPost, Dan Lybarger)",
+  "subcategory": "Interviews",
+  "sort": "anne serling interview huffpost dan lybarger"
+ },
+ "essays/anne-serling-mark-dawidziak-wbur-here-and-now-2024": {
+  "connection": "A ten-minute Here & Now segment in which Robin Young talks with Anne Serling, author of As I Knew Him: My Dad, Rod Serling, and Mark Dawidziak, author of Everything I Need to Know I Learned in the Twilight Zone, on the show's 65th anniversary and the unveiling of a bronze statue of Serling at…",
+  "tier": "core",
+  "tier_reason": "Writing about the show.",
+  "recommendation": "include",
+  "reason": "Core piece of writing: a complete record of the franchise should have it.",
+  "source_title": "WBUR Here & Now: Rod Serling, creator and narrator of iconic 'Twilight Zone,' honored with hometown statue (12 September 2024)",
+  "source_url": "https://www.wbur.org/hereandnow/2024/09/12/rod-serling-twilight-zone",
+  "title": "Rod Serling, creator and narrator of iconic 'Twilight Zone,' honored with hometown statue (WBUR Here & Now, 2024)",
+  "subcategory": "Interviews",
+  "sort": "rod serling creator and narrator of iconic twilight zone honored with hometown statue wbur here  now 002024"
+ },
+ "essays/anne-serling-wuwf-2026": {
+  "connection": "Bob Barrett talks with Anne Serling, Serling's younger daughter, ahead of her appearance as a guest at Pensacon: her memoir As I Knew Him (2013, updated 2021), a book on grief she is writing, her father's war service and its lasting effect on him, and SerlingFest in Binghamton.",
+  "tier": "related",
+  "tier_reason": "Writing by or about Rod Serling.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "WUWF: Rod Serling's daughter, Anne, reflects on her father and his legacy (Bob Barrett, 18 February 2026)",
+  "source_url": "https://www.wuwf.org/text/2026-02-18/rod-serlings-daughter-anne-reflects-on-her-father-and-his-legacy",
+  "title": "Rod Serling's daughter, Anne, reflects on her father and his legacy (WUWF, 2026)",
+  "subcategory": "Interviews",
+  "sort": "rod serlings daughter anne reflects on her father and his legacy wuwf 002026"
+ },
+ "essays/anne-serling-wvxu-otoole-from-moscow-2020": {
+  "connection": "John Kiesewetter talks with Anne Serling, the narrator of WVXU's radio version of her father's 1955 Matinee Theater comedy O'Toole from Moscow (performed by University of Cincinnati College-Conservatory of Music students, directed by Richard Hess), about the play, which aired once live and was not…",
+  "tier": "related",
+  "tier_reason": "Writing by or about Rod Serling.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "WVXU: Anne Serling Talks About Her Father's 'O'Toole From Moscow' Reds Comedy (John Kiesewetter, 25 March 2020)",
+  "source_url": "https://www.wvxu.org/post/anne-serling-talks-about-her-fathers-otoole-moscow-reds-comedy",
+  "title": "Anne Serling Talks About Her Father's \"O'Toole From Moscow\" Reds Comedy (WVXU, 2020)",
+  "subcategory": "Interviews",
+  "sort": "anne serling talks about her fathers otoole from moscow reds comedy wvxu 002020"
+ },
+ "essays/anne-serling-wyso-book-nook-2024": {
+  "connection": "A 50-minute radio interview by Vick Mickunas with Anne Serling about \"First Squad, First Platoon\", a newly found Rod Serling story that had just appeared in The Strand Magazine in his centenary year, and about his war service in the Pacific, his studies at Antioch College under the GI Bill, his…",
+  "tier": "related",
+  "tier_reason": "Writing by or about Rod Serling.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "WYSO: Book Nook, First Squad, First Platoon by Rod Serling, an interview with Anne Serling (Vick Mickunas, 5 June 2024)",
+  "source_url": "https://www.wyso.org/podcast/book-nook/2024-06-05/book-nook-first-squad-first-platoon-by-rod-serling-an-interview-with-anne-serling",
+  "title": "Book Nook: \"First Squad, First Platoon\" by Rod Serling, an interview with Anne Serling (WYSO, 2024)",
+  "subcategory": "Interviews",
+  "sort": "book nook first squad first platoon by rod serling an interview with anne serling wyso 002024"
+ },
  "essays/anthology-of-anthologies-the-best-segments-from-horror-omnibus-films": {
   "connection": "Survey of standout segments from horror anthology films, including Twilight Zone: The Movie.",
   "tier": "core",
@@ -26357,8 +26513,8 @@
   "tier_reason": "Writing by or about Rod Serling.",
   "recommendation": "include",
   "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
-  "source_title": "Dangerous Minds: Lost Rod Serling video interview, 1970",
-  "source_url": "https://dangerousminds.net/comments/lost_rod_serling_video_interview_1970/",
+  "source_title": "Internet Archive",
+  "source_url": "https://archive.org/details/gunn-serling-original-audio-track-unedited",
   "title": "James Gunn interviews Rod Serling (1970, unfinished film)",
   "subcategory": "Interviews",
   "sort": "james gunn interviews rod serling 001970 unfinished film"
@@ -29927,6 +30083,18 @@
   "subcategory": "Rod Serling's series",
   "sort": "walk in the night"
  },
+ "films/abbys-amazing-adventures-5017-theme": {
+  "connection": "A snatch of The Twilight Zone theme plays when Rudy points out that they cannot go back home because they are already there.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Muppet Wiki – The Twilight Zone",
+  "source_url": "https://muppet.fandom.com/wiki/The_Twilight_Zone",
+  "title": "Abby's Amazing Adventures (first used in Sesame Street Episode 5017)",
+  "subcategory": "Segments of other shows",
+  "sort": "abbys amazing adventures first used in sesame street episode 005017"
+ },
  "films/ace-ventura-when-nature-calls": {
   "connection": "An homage to “Nightmare at 20,000 Feet” (1959) (a published source makes the link).",
   "tier": "tangential",
@@ -32075,6 +32243,30 @@
   "subcategory": "Episodes of other shows",
   "sort": "weirdo zone"
  },
+ "films/muppet-babies-back-to-the-nursery": {
+  "connection": "A time-station attendant warns the babies not to park in a Twilight Zone.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Muppet Wiki – The Twilight Zone",
+  "source_url": "https://muppet.fandom.com/wiki/The_Twilight_Zone",
+  "title": "Back to the Nursery",
+  "subcategory": "Episodes of other shows",
+  "sort": "back to the nursery"
+ },
+ "films/muppet-babies-elm-street-babies": {
+  "connection": "Baby Gonzo vocalizes Marius Constant's theme for the series as he convinces Baby Kermit to enter \"the dream zone\" with him.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Muppet Wiki – The Twilight Zone",
+  "source_url": "https://muppet.fandom.com/wiki/The_Twilight_Zone",
+  "title": "Elm Street Babies",
+  "subcategory": "Episodes of other shows",
+  "sort": "elm street babies"
+ },
  "films/muppet-babies-muppet-babies-the-next-generation": {
   "connection": "One of the nursery gang wonders aloud whether they have wandered into The Twilight Zone.",
   "tier": "tangential",
@@ -33454,6 +33646,54 @@
   "title": "Serling",
   "subcategory": "Documentaries",
   "sort": "serling"
+ },
+ "films/sesame-street-episode-1800-theme": {
+  "connection": "Olivia briefly sings The Twilight Zone theme to tease Maria while they wait for Mr. Snuffleupagus to return.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Muppet Wiki – The Twilight Zone",
+  "source_url": "https://muppet.fandom.com/wiki/The_Twilight_Zone",
+  "title": "Sesame Street, Episode 1800",
+  "subcategory": "Episodes of other shows",
+  "sort": "sesame street episode 001800"
+ },
+ "films/sesame-street-episode-2403-theme": {
+  "connection": "Big Bird hums The Twilight Zone theme while pretending to be on the planet Zingo with Snuffy.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Muppet Wiki – The Twilight Zone",
+  "source_url": "https://muppet.fandom.com/wiki/The_Twilight_Zone",
+  "title": "Sesame Street, Episode 2403",
+  "subcategory": "Episodes of other shows",
+  "sort": "sesame street episode 002403"
+ },
+ "films/sesame-street-episode-2441-theme": {
+  "connection": "Big Bird hums The Twilight Zone theme when Bob mistakes a blank sheet of paper for one of his artworks.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Muppet Wiki – The Twilight Zone",
+  "source_url": "https://muppet.fandom.com/wiki/The_Twilight_Zone",
+  "title": "Sesame Street, Episode 2441",
+  "subcategory": "Episodes of other shows",
+  "sort": "sesame street episode 002441"
+ },
+ "films/sesame-street-episode-3055-theme": {
+  "connection": "A musical sting at the end of the second scene mimics The Twilight Zone theme after an appearance by the Martians.",
+  "tier": "tangential",
+  "tier_reason": "Only touches the show: a mention, homage, parody, borrowed title, genre cousin or unconfirmed resemblance.",
+  "recommendation": "maybe",
+  "reason": "A passing mention of the show, recorded by fan sources. Keep if you want the Influence section to show how far the name travelled.",
+  "source_title": "Muppet Wiki – The Twilight Zone",
+  "source_url": "https://muppet.fandom.com/wiki/The_Twilight_Zone",
+  "title": "Sesame Street, Episode 3055",
+  "subcategory": "Episodes of other shows",
+  "sort": "sesame street episode 003055"
  },
  "films/sesame-street-episode-5516-tz-style-movie-parody": {
   "connection": "Tamir plays a Serling-like host introducing a Twilight Zone-flavoured tale starring Baby Bear as a bear who won't share.",
@@ -37200,7 +37440,7 @@
   "sort": "vancouver british columbia 002002 series production base"
  },
  "locations/vancouver-2019-series": {
-  "connection": "Jordan Peele and Simon Kinberg's revival for CBS All Access began production in Vancouver in autumn 2018 (the Georgia Straight gives the first season's shoot as October 1, 2018, to March 20, without a year for the end date), and returned for a second season…",
+  "connection": "Jordan Peele and Simon Kinberg's revival for CBS All Access began production in Vancouver in autumn 2018 (principal photography ran from October 1, 2018, to March 20, 2019), and returned for a second season, filmed from October 6, 2019, to March 16, 2020.",
   "tier": "core",
   "tier_reason": "A real place where episodes were filmed.",
   "recommendation": "include",
@@ -38448,7 +38688,7 @@
   "sort": "calisphere"
  },
  "organizations/cayuga-productions": {
-  "connection": "Rod Serling's production company, which made the original series with CBS.",
+  "connection": "Rod Serling's own production company, which made the original series for CBS.",
   "tier": "core",
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
@@ -38484,7 +38724,7 @@
   "sort": "cbs all access"
  },
  "organizations/cbs-television-studios": {
-  "connection": "The CBS studio that made the 2019 revival with Monkeypaw Productions and Genre Films, for CBS All Access.",
+  "connection": "One of the 2019 revival's three production companies, with Monkeypaw Productions and Genre Films, for CBS All Access.",
   "tier": "core",
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
@@ -38496,7 +38736,7 @@
   "sort": "cbs television studios"
  },
  "organizations/colgate-palmolive": {
-  "connection": "Replaced Kimberly-Clark as a sponsor of the original series during its first season (1959-60).",
+  "connection": "Replaced Kimberly-Clark as a sponsor of the original series for its second season (1960-61).",
   "tier": "core",
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
@@ -38532,7 +38772,7 @@
   "sort": "csu fullerton university archives and special collections"
  },
  "organizations/dark-hall-mansion": {
-  "connection": "Publisher of an officially licensed series of Twilight Zone screen prints from 2014, by Tom Whalen, Shag and others.",
+  "connection": "Publisher of an officially licensed Twilight Zone screen-print series, launched in August 2014 with Tom Whalen's ten-print subscription set; Shag's 2015 print was its first guest-artist release, and further prints followed in 2016 and 2017.",
   "tier": "core",
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
@@ -38616,7 +38856,7 @@
   "sort": "elmira college"
  },
  "organizations/falcon-picture-group": {
-  "connection": "Made The Twilight Zone Radio Dramas (2002 to 2012), narrated by Stacy Keach, under license from CBS and the Serling estate.",
+  "connection": "Carl Amari's company, which produced The Twilight Zone Radio Dramas (176 episodes, October 2002 to 2012), with Stacy Keach in Serling's role as narrator, under licence from CBS Enterprises and the Rod Serling Estate.",
   "tier": "core",
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
@@ -38640,7 +38880,7 @@
   "sort": "federal communications commission"
  },
  "organizations/funko": {
-  "connection": "Maker of licensed Funko Pop! figures of the original series (2024), among them Rod Serling as the Narrator, the Gremlin and Mr. Robert Wilson, and a Hollywood Tower Hotel Pop!",
+  "connection": "Maker of licensed Funko Pop! figures from the original series (2024), among them Rod Serling as the Narrator, the Gremlin and Robert Wilson, and a Hollywood Tower Hotel Pop!",
   "tier": "core",
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
@@ -38676,7 +38916,7 @@
   "sort": "general foods"
  },
  "organizations/genre-films": {
-  "connection": "Simon Kinberg's production company, which made the 2019 revival with Jordan Peele's Monkeypaw Productions and CBS Television Studios.",
+  "connection": "One of the 2019 revival's three production companies, with CBS Television Studios and Jordan Peele's Monkeypaw Productions, for CBS All Access.",
   "tier": "core",
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
@@ -38712,7 +38952,7 @@
   "sort": "hallmark cards"
  },
  "organizations/heritage-auctions": {
-  "connection": "Dallas auction house that has sold Twilight Zone scripts, among them Richard Matheson's annotated \"Once Upon a Time\" archive and Martin Landau's shooting scripts.",
+  "connection": "Dallas auction house.",
   "tier": "related",
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
@@ -38783,8 +39023,20 @@
   "subcategory": "Organizations",
   "sort": "johnson  johnson"
  },
+ "organizations/joshmax-productions-services": {
+  "connection": "One of the 2002 revival's production companies for UPN, with Spirit Dance Entertainment, Trilogy Entertainment Group and New Line Television.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Wikipedia: The Twilight Zone (2002 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)",
+  "title": "Joshmax Productions Services",
+  "subcategory": "Organizations",
+  "sort": "joshmax productions services"
+ },
  "organizations/kimberly-clark": {
-  "connection": "A sponsor of the original series' first season (1959-60); it dropped out during the season and Colgate-Palmolive replaced it.",
+  "connection": "A sponsor of the original series' first season (1959-60), with General Foods.",
   "tier": "core",
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
@@ -38796,7 +39048,7 @@
   "sort": "kimberlyclark"
  },
  "organizations/kino-lorber": {
-  "connection": "Released Rod Serling's Night Gallery on Blu-ray under its Kino Lorber Studio Classics label.",
+  "connection": "Released Rod Serling's Night Gallery on Blu-ray for the first time, starting with the first season, under its Kino Lorber Studio Classics label.",
   "tier": "core",
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
@@ -38963,6 +39215,18 @@
   "subcategory": "Organizations",
   "sort": "nbc"
  },
+ "organizations/new-line-television": {
+  "connection": "One of the 2002 revival's production companies for UPN, with Spirit Dance Entertainment, Trilogy Entertainment Group and Joshmax Productions Services.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Wikipedia: The Twilight Zone (2002 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)",
+  "title": "New Line Television",
+  "subcategory": "Organizations",
+  "sort": "new line television"
+ },
  "organizations/now-comics": {
   "connection": "Chicago publisher of the licensed Twilight Zone comics of 1990-1993: a 1990 one-shot, an eleven-issue volume 2, a four-issue volume 3, an annual and 3-D, science-fiction and premiere specials.",
   "tier": "core",
@@ -38999,6 +39263,18 @@
   "subcategory": "Organizations",
   "sort": "paramount"
  },
+ "organizations/pepsi-cola": {
+  "connection": "Among the sponsors of the original series' third season (1961-62), with Chesterfield (Liggett & Myers) and Bufferin (Bristol-Myers).",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Wikipedia: The Twilight Zone (1959 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)",
+  "title": "Pepsi-Cola",
+  "subcategory": "Organizations",
+  "sort": "pepsicola"
+ },
  "organizations/persistence-of-vision": {
   "connection": "Credited with CBS Entertainment Productions as a production company of the 1985 revival's first two seasons (1985-87).",
   "tier": "core",
@@ -39012,13 +39288,13 @@
   "sort": "persistence of vision"
  },
  "organizations/pioneer-ldc": {
-  "connection": "Released The Twilight Zone and the 1985 revival on laserdisc in Japan.",
+  "connection": "Pioneer's Japanese laserdisc company.",
   "tier": "core",
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "LDDb: Twilight Zone The: Special Edition vol.7 (PILF-2670)",
-  "source_url": "https://www.lddb.com/laserdisc/00074/PILF-2670/Twilight-Zone-The:-Special-Edition-vol.7",
+  "source_title": "LDDb: New Twilight Zone vol. 10 (PILF-1048)",
+  "source_url": "https://www.lddb.com/laserdisc/11191/PILF-1048/New-Twilight-Zone:-vol.10",
   "title": "Pioneer LDC",
   "subcategory": "Organizations",
   "sort": "pioneer ldc"
@@ -39059,8 +39335,20 @@
   "subcategory": "Organizations",
   "sort": "producers guild of america"
  },
+ "organizations/profiles-in-history": {
+  "connection": "Hollywood memorabilia auction house.",
+  "tier": "related",
+  "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Lot 1990: Richard Matheson's The Twilight Zone hand-annotated script archive for Once Upon a Time",
+  "source_url": "https://entertainment.ha.com/itm/movie-tv-memorabilia/richard-matheson-s-the-twilight-zone-original-hand-annotated-typed-script-and-materials-archive-for-once-upon-a-time/a/997042-1990.s",
+  "title": "Profiles in History",
+  "subcategory": "Organizations",
+  "sort": "profiles in history"
+ },
  "organizations/prop-store": {
-  "connection": "Film memorabilia auction house that sold the \"Eye of the Beholder\" pig-nose make-up appliance in 2018.",
+  "connection": "Film and TV memorabilia auction house that offered the \"Eye of the Beholder\" pig-nose make-up appliance, from James Comisar's collection, at auction on 1 December 2018.",
   "tier": "related",
   "tier_reason": "Holds, honors, studies or publishes work about the show or Rod Serling.",
   "recommendation": "include",
@@ -39131,6 +39419,18 @@
   "subcategory": "Organizations",
   "sort": "sideshow"
  },
+ "organizations/spirit-dance-entertainment": {
+  "connection": "One of the 2002 revival's production companies for UPN, with Trilogy Entertainment Group, Joshmax Productions Services and New Line Television.",
+  "tier": "core",
+  "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
+  "recommendation": "include",
+  "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
+  "source_title": "Wikipedia: The Twilight Zone (2002 TV series)",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)",
+  "title": "Spirit Dance Entertainment",
+  "subcategory": "Organizations",
+  "sort": "spirit dance entertainment"
+ },
  "organizations/television-academy": {
   "connection": "Gives the Primetime Emmy Awards.",
   "tier": "related",
@@ -39192,16 +39492,16 @@
   "sort": "trick or treat studios"
  },
  "organizations/trilogy-entertainment": {
-  "connection": "Its producers Pen Densham, Mark Stern and John Watson made the 2002 revival for UPN.",
+  "connection": "Trilogy Entertainment Group was one of the 2002 revival's production companies for UPN, with Spirit Dance Entertainment, Joshmax Productions Services and New Line Television.",
   "tier": "core",
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
   "source_title": "Wikipedia: The Twilight Zone (2002 TV series)",
   "source_url": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(2002_TV_series)",
-  "title": "Trilogy Entertainment",
+  "title": "Trilogy Entertainment Group",
   "subcategory": "Organizations",
-  "sort": "trilogy entertainment"
+  "sort": "trilogy entertainment group"
  },
  "organizations/tz-publications": {
   "connection": "Publisher of Rod Serling's The Twilight Zone Magazine, which ran 60 issues from April 1981 to June 1989 under license from Carol Serling, and its horror digest Night Cry (11 issues, 1984-1987), plus the 1982 Great Stories annual.",
@@ -39420,13 +39720,13 @@
   "sort": "writers guild of america"
  },
  "organizations/zen-studios": {
-  "connection": "Maker of Pinball FX, whose licensed digital recreation of the 1993 Twilight Zone pinball machine came out in 2023, with a VR version in 2025.",
+  "connection": "Maker of Pinball FX. Its recreation of the 1993 Twilight Zone pinball machine came out on 13 April 2023, under CBS's Twilight Zone trademarks, and was an add-on when Pinball FX VR launched on 3 April 2025.",
   "tier": "core",
   "tier_reason": "Made, broadcast, licensed, published or paid for Twilight Zone material.",
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it.",
-  "source_title": "store.playstation.com",
-  "source_url": "https://store.playstation.com/en-us/product/UP4042-PPSA08755_00-PINBALLFXTWLGHTK",
+  "source_title": "Zen Studios: Now available, play Pinball FX VR (3 April 2025)",
+  "source_url": "https://zenstudios.com/news/now-available-play-pinball-fx-vr/",
   "title": "Zen Studios",
   "subcategory": "Organizations",
   "sort": "zen studios"
@@ -42552,7 +42852,7 @@
   "sort": "cesare danova"
  },
  "people/charles-aidman": {
-  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “A Little Peace and Quiet” and “Shatterday”).",
+  "connection": "Charles Aidman acted in 2 episodes of the 1959 series (“And When the Sky Was Opened” and “Little Girl Lost”); narrated 80 episodes of the 1985 series (including “Shatterday” and “A Little Peace and Quiet”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -45276,7 +45576,7 @@
   "sort": "elsa lanchester"
  },
  "people/emily-c-chang": {
-  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Emily C. Chang wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -45612,7 +45912,7 @@
   "sort": "fielder cook"
  },
  "people/forest-whitaker": {
-  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “Evergreen” and “One Night at Mercy”).",
+  "connection": "Forest Whitaker narrated 43 episodes of the 2002 series (including “One Night at Mercy” and “Evergreen”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -48912,7 +49212,7 @@
   "sort": "jean carson"
  },
  "people/jean-de-segonzac": {
-  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Night Route” and “Cradle of Darkness”).",
+  "connection": "Jean de Segonzac directed 2 episodes of the 2002 series (“Cradle of Darkness” and “Night Route”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -55644,7 +55944,7 @@
   "sort": "paul le mat"
  },
  "people/paul-lynch": {
-  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “Examination Day” and “A Message from Charity”).",
+  "connection": "Paul Lynch directed 10 episodes of the 1985 series (including “A Message from Charity” and “Examination Day”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -58332,7 +58632,7 @@
   "sort": "sandy martin"
  },
  "people/sara-amini": {
-  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Ovation” and “Meet in the Middle”).",
+  "connection": "Sara Amini wrote 2 episodes of the 2019 series (“Meet in the Middle” and “Ovation”).",
   "tier": "core",
   "tier_reason": "Has screen, radio or production credits on the franchise.",
   "recommendation": "include",
@@ -69960,12 +70260,12 @@
   "sort": "holiday twilight zone marathons ktla wpix scifisyfy"
  },
  "works/hollywood-walk-of-fame-star-1988": {
-  "connection": "Serling's television star on the Walk of Fame, celebrated at the time in Rod Serling's The Twilight Zone Magazine.",
+  "connection": "Serling's star on the Hollywood Walk of Fame, in the Television category, dedicated in October 1988 and celebrated at the time in Rod Serling's The Twilight Zone Magazine.",
   "tier": "related",
   "tier_reason": "An honor given to Rod Serling or the show.",
   "recommendation": "include",
   "reason": "Part of Serling's career record on his hub page.",
-  "source_title": "walkoffame.com",
+  "source_title": "Hollywood Walk of Fame: Rod Serling",
   "source_url": "https://walkoffame.com/rod-serling/",
   "title": "Hollywood Walk of Fame star (Television)",
   "subcategory": "Honors and awards",
@@ -70615,9 +70915,9 @@
   "reason": "A primary-source item, but it is a mixed lot whose Twilight Zone contents are unconfirmed.",
   "source_title": "Heritage lot 1183: Martin Landau 7 personal shooting scripts for TV series and TV films including The Twilight Zone and Alfred Hitchcock Presents",
   "source_url": "https://entertainment.ha.com/itm/movie-tv-memorabilia/martin-landau-7-personal-shooting-scripts-for-tv-series-and-tv-films-including-the-twilight-zone-and-alfred-hitchcock-presen/a/997059-1183.s",
-  "title": "Martin Landau's personal shooting scripts including The Twilight Zone (Heritage lot 1183)",
+  "title": "Martin Landau's personal shooting scripts including The Twilight Zone (Profiles in History lot 1183)",
   "subcategory": "Other",
-  "sort": "martin landaus personal shooting scripts including the twilight zone heritage lot 001183"
+  "sort": "martin landaus personal shooting scripts including the twilight zone profiles in history lot 001183"
  },
  "works/marty-manning-twilight-zone-lp": {
   "connection": "An early space-age-pop tie-in album that opens with its own take on the Twilight Zone theme and then wanders through eerie arrangements of film and standard tunes, with Ondes Martenot, Ondioline and wordless soprano adding the otherworldly colour.",
@@ -72509,8 +72809,8 @@
   "tier_reason": "Rod Serling biography; the creator, not the show itself.",
   "recommendation": "include",
   "reason": "A famous primary source about why he made the show; exact air date not confirmed in this pass.",
-  "source_title": "Wikipedia: The Mike Wallace Interview",
-  "source_url": "https://en.wikipedia.org/wiki/The_Mike_Wallace_Interview",
+  "source_title": "Rod Serling Memorial Foundation: Roasting Rod Serling (Stephen Schlich, 28 June 2019)",
+  "source_url": "https://rodserling.com/roasting-rod-serling/",
   "title": "Mike Wallace interviews Serling before the premiere (1959)",
   "subcategory": "Rod Serling's life",
   "sort": "mike wallace interviews serling before the premiere 001959"
@@ -74698,6 +74998,18 @@
   "title": "Twilight Zone pinball home ROM (L-9.4H)",
   "subcategory": "Games",
   "sort": "twilight zone pinball home rom l000009000004h"
+ },
+ "works/twilight-zone-pop-up-the-grove-2019": {
+  "connection": "A pop-up experience promoting the 2019 revival, set up at The Grove shopping centre in Los Angeles ahead of the series' 1 April 2019 premiere on CBS All Access: a giant box bearing the show's logo that shoppers walked into and came out of. CBS Los Angeles reported it on 29 March 2019; the report…",
+  "tier": "related",
+  "tier_reason": "One step from the show: Rod Serling's other work, Night Gallery, the show's writers, or a work that adapts or is documented as drawing on a specific episode.",
+  "recommendation": "include",
+  "reason": "A documented, direct link to the show or to Rod Serling; it adds context a fan would expect.",
+  "source_title": "CBS Los Angeles: Grove Shoppers Get To Experience 'The Twilight Zone' First Hand (29 March 2019)",
+  "source_url": "https://www.cbsnews.com/losangeles/news/grove-shoppers-get-to-experience-the-twilight-zone-first-hand/",
+  "title": "The Twilight Zone pop-up at The Grove, Los Angeles (2019)",
+  "subcategory": "Events and honors",
+  "sort": "twilight zone popup at the grove los angeles 002019"
  },
  "works/twilight-zone-premiere-1959": {
   "connection": "The first broadcast of the series.",

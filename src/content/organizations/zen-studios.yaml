@@ -1,10 +1,15 @@
 name: Zen Studios
 kind: game-company
-description: Maker of Pinball FX, whose licensed digital recreation of the 1993 Twilight Zone pinball machine came out in
-  2023, with a VR version in 2025.
+description: >-
+  Maker of Pinball FX. Its recreation of the 1993 Twilight Zone pinball machine came out on 13 April 2023, under
+  CBS's Twilight Zone trademarks, and was an add-on when Pinball FX VR launched on 3 April 2025.
 official: true
 relevance: related
 sources:
+- title: 'Zen Studios: Now available, play Pinball FX VR (3 April 2025)'
+  url: https://zenstudios.com/news/now-available-play-pinball-fx-vr/
+- title: 'Wikipedia: Twilight Zone (pinball)'
+  url: https://en.wikipedia.org/wiki/Twilight_Zone_(pinball)
 - title: store.playstation.com
   url: https://store.playstation.com/en-us/product/UP4042-PPSA08755_00-PINBALLFXTWLGHTK
 research_confidence: medium

@@ -13858,6 +13858,17 @@
    "official": false
   }
  ],
+ "connections/abbys-amazing-adventures-5017-theme--1959": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "connections/ace-ventura-when-nature-calls--nightmare-at-20-000-feet": [
   {
    "cat": "homages",
@@ -16872,6 +16883,17 @@
    "official": false
   }
  ],
+ "connections/martin-landau-shooting-scripts-heritage-lot--the-beacon": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "connections/martin-landau-shooting-scripts-heritage-lot--the-jeopardy-room": [
   {
    "cat": "homages",
@@ -17099,6 +17121,28 @@
    "group": null,
    "catTitle": "Legacy",
    "subTitle": "Parodies",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/muppet-babies-back-to-the-nursery--1959": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/muppet-babies-elm-street-babies--1959": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
    "isNew": false,
    "official": false
   }
@@ -17830,6 +17874,50 @@
   }
  ],
  "connections/serling-where-is-everybody--where-is-everybody": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/sesame-street-episode-1800-theme--1959": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/sesame-street-episode-2403-theme--1959": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/sesame-street-episode-2441-theme--1959": [
+  {
+   "cat": "homages",
+   "sub": "references",
+   "group": null,
+   "catTitle": "Legacy",
+   "subTitle": "References",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "connections/sesame-street-episode-3055-theme--1959": [
   {
    "cat": "homages",
    "sub": "references",
@@ -23957,6 +24045,61 @@
    "official": false
   }
  ],
+ "essays/anne-serling-huffpost-interview-dan-lybarger": [
+  {
+   "cat": "content",
+   "sub": "Interview",
+   "group": "On: Anne Serling; Rod Serling",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Interview",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "essays/anne-serling-mark-dawidziak-wbur-here-and-now-2024": [
+  {
+   "cat": "content",
+   "sub": "Interview",
+   "group": "On: Anne Serling; Mark Dawidziak; Rod Serling Statue",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Interview",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "essays/anne-serling-wuwf-2026": [
+  {
+   "cat": "content",
+   "sub": "Interview",
+   "group": "On: Anne Serling; Rod Serling",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Interview",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "essays/anne-serling-wvxu-otoole-from-moscow-2020": [
+  {
+   "cat": "content",
+   "sub": "Interview",
+   "group": "On: Anne Serling; O'Toole from Moscow (WVXU radio play, 2020); O'Toole from Moscow",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Interview",
+   "isNew": false,
+   "official": null
+  }
+ ],
+ "essays/anne-serling-wyso-book-nook-2024": [
+  {
+   "cat": "content",
+   "sub": "Interview",
+   "group": "On: Anne Serling; Rod Serling",
+   "catTitle": "Content (shown on other records)",
+   "subTitle": "Interview",
+   "isNew": false,
+   "official": null
+  }
+ ],
  "essays/anthology-of-anthologies-the-best-segments-from-horror-omnibus-films": [
   {
    "cat": "reading",
@@ -24906,7 +25049,7 @@
   {
    "cat": "content",
    "sub": "Interview",
-   "group": "On: Rod Serling",
+   "group": "On: Rod Serling; University of Kansas",
    "catTitle": "Content (shown on other records)",
    "subTitle": "Interview",
    "isNew": false,
@@ -28576,6 +28719,26 @@
    "official": false
   }
  ],
+ "films/abbys-amazing-adventures-5017-theme": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Segments",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Sesame Street",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/ace-ventura-when-nature-calls": [
   {
    "cat": "movies",
@@ -31328,6 +31491,46 @@
    "official": false
   }
  ],
+ "films/muppet-babies-back-to-the-nursery": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Muppet Babies",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/muppet-babies-elm-street-babies": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Muppet Babies",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
  "films/muppet-babies-muppet-babies-the-next-generation": [
   {
    "cat": "homages",
@@ -32940,6 +33143,86 @@
    "group": "About Rod Serling and the show",
    "catTitle": "Movies",
    "subTitle": "Documentaries",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/sesame-street-episode-1800-theme": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Sesame Street",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/sesame-street-episode-2403-theme": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Sesame Street",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/sesame-street-episode-2441-theme": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Sesame Street",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "films/sesame-street-episode-3055-theme": [
+  {
+   "cat": "homages",
+   "sub": "in-other-shows",
+   "group": "Episodes",
+   "catTitle": "Legacy",
+   "subTitle": "In other shows",
+   "isNew": false,
+   "official": false
+  },
+  {
+   "cat": "series",
+   "sub": "homages",
+   "group": "Sesame Street",
+   "catTitle": "Television",
+   "subTitle": "Homages in other shows",
    "isNew": false,
    "official": false
   }
@@ -38773,6 +39056,17 @@
    "official": true
   }
  ],
+ "organizations/joshmax-productions-services": [
+  {
+   "cat": "organizations",
+   "sub": "production-companies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Production companies",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "organizations/kimberly-clark": [
   {
    "cat": "organizations",
@@ -38938,6 +39232,17 @@
    "official": true
   }
  ],
+ "organizations/new-line-television": [
+  {
+   "cat": "organizations",
+   "sub": "production-companies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Production companies",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "organizations/now-comics": [
   {
    "cat": "organizations",
@@ -38967,6 +39272,17 @@
    "group": null,
    "catTitle": "Organizations",
    "subTitle": "Networks, studios and streamers",
+   "isNew": false,
+   "official": true
+  }
+ ],
+ "organizations/pepsi-cola": [
+  {
+   "cat": "organizations",
+   "sub": "sponsors",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Sponsors and advertisers",
    "isNew": false,
    "official": true
   }
@@ -39022,6 +39338,17 @@
    "group": null,
    "catTitle": "Organizations",
    "subTitle": "Award bodies",
+   "isNew": false,
+   "official": false
+  }
+ ],
+ "organizations/profiles-in-history": [
+  {
+   "cat": "organizations",
+   "sub": "other-organizations",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Other organizations",
    "isNew": false,
    "official": false
   }
@@ -39088,6 +39415,17 @@
    "group": null,
    "catTitle": "Organizations",
    "subTitle": "Product licensees",
+   "isNew": false,
+   "official": true
+  }
+ ],
+ "organizations/spirit-dance-entertainment": [
+  {
+   "cat": "organizations",
+   "sub": "production-companies",
+   "group": null,
+   "catTitle": "Organizations",
+   "subTitle": "Production companies",
    "isNew": false,
    "official": true
   }
@@ -71789,7 +72127,7 @@
    "catTitle": "Merchandise",
    "subTitle": "Household and apparel",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "works/a-hat-in-time-twilight-bell-reference": [
@@ -74604,7 +74942,7 @@
    "catTitle": "Merchandise",
    "subTitle": "Household and apparel",
    "isNew": false,
-   "official": false
+   "official": true
   }
  ],
  "works/midnight-scenes-the-highway-2017": [
@@ -78369,6 +78707,17 @@
    "official": false
   }
  ],
+ "works/twilight-zone-pop-up-the-grove-2019": [
+  {
+   "cat": "events",
+   "sub": "other-events",
+   "group": null,
+   "catTitle": "Events",
+   "subTitle": "Other events",
+   "isNew": false,
+   "official": true
+  }
+ ],
  "works/twilight-zone-premiere-1959": [
   {
    "cat": "history",
@@ -79075,16 +79424,7 @@
    "catTitle": "Content (shown on other records)",
    "subTitle": "Link",
    "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "series",
-   "sub": "where-to-watch",
-   "group": null,
-   "catTitle": "Television",
-   "subTitle": "Where to watch",
-   "isNew": true,
-   "official": false
+   "official": null
   }
  ],
  "works/where-to-watch-twilight-zone-2019-us": [
@@ -79095,16 +79435,7 @@
    "catTitle": "Content (shown on other records)",
    "subTitle": "Link",
    "isNew": false,
-   "official": false
-  },
-  {
-   "cat": "series",
-   "sub": "where-to-watch",
-   "group": null,
-   "catTitle": "Television",
-   "subTitle": "Where to watch",
-   "isNew": true,
-   "official": false
+   "official": null
   }
  ],
  "works/wikipedia-twilight-zone-franchise": [
