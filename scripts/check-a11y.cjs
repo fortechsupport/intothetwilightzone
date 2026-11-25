@@ -54,6 +54,17 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
         console.log(`✗ [${theme}] ${p}: ${v.id} (${v.impact}) ${v.help} — ${v.nodes.length} element(s), e.g. ${v.nodes[0]?.target?.join(' ')}`);
       }
     }
+    // The era themes' display faces are wider or heavier: nothing may run past the edge at 320 px in them either.
+    const narrow = await browser.newContext({ viewport: { width: 320, height: 640 } });
+    await narrow.addInitScript((t) => { try { localStorage.setItem('tz-theme', t); } catch (e) {} }, theme);
+    const np = await narrow.newPage();
+    for (const p of SAMPLE) {
+      await np.goto(base + p, { waitUntil: 'load' });
+      const w = await np.evaluate(() => document.documentElement.scrollWidth - innerWidth);
+      const clipped = await np.evaluate(() => [...document.querySelectorAll('main h1, main h2, main .lead')].filter((el) => el.getBoundingClientRect().right > innerWidth + 1).length);
+      if (w > 1 || clipped) { failures++; console.log(`✗ [${theme} 320px] ${p}: ${w > 1 ? `scrolls sideways by ${w}px` : `${clipped} heading(s) run past the right edge`}`); }
+    }
+    await narrow.close();
     await ctx.close();
   }
   const phone = await browser.newContext({ viewport: { width: 320, height: 640 } });

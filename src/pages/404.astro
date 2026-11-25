@@ -1,12 +1,18 @@
 ---
 import Base from '../layouts/Base.astro';
 import { navModel } from '../lib/nav';
+import RecordArt from '../components/RecordArt.astro';
 const verbs = await navModel();
 ---
 <Base title="Page not found" noindex>
-  <p class="kicker">Error 404</p>
-  <h1>You've crossed over into… a missing page</h1>
-  <p class="lead">This page doesn't exist, or it moved when the site was reorganized. Search for what you were after, or pick a way in below.</p>
+  <div class="page-head has-art">
+    <div>
+      <p class="kicker">Error 404</p>
+      <h1>You've crossed over into… a missing page</h1>
+      <p class="lead">This page doesn't exist, or it moved when the site was reorganized. Search for what you were after, or pick a way in below.</p>
+    </div>
+    <RecordArt title="404" motif="door" />
+  </div>
   <form class="hero-search" action="/search/" method="get" role="search">
     <label class="visually-hidden" for="nf-q">Search the site</label>
     <input id="nf-q" type="search" name="q" placeholder="Search episodes, people, films, songs…" autocomplete="off" />
