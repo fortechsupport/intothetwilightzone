@@ -8,6 +8,7 @@ known not to work yet.
 Visitors can now:
 - See 8 more credited photographs: Eileen Ryan, Pat Hingle and Pippa Scott, CBS Television City, Elmira College's gate,
   Bastion Square in Victoria (a 2019 series location) and Currahee Mountain.
+- See a record's main picture first on a phone, with its smaller pictures after it.
 - Land on a "page not found" that carries the same illustrated header as the rest of the site.
 - Use each era theme on a phone with the same guarantees as Midnight and Paper: the automated check now confirms no
   sideways scrolling and the title in the top third at 320 px in all four era themes.
