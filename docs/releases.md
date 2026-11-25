@@ -3,6 +3,18 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-25 — Choose a theme from the show's eras
+
+Visitors can now:
+- Pick a theme from the new Theme menu at the top of every page (in the Menu on phones): 1959 Original (black and
+  white with film grain, photographs in grey), 1985 Neon, 2002 Steel and 2019 Crimson, as well as Midnight, Paper or
+  whatever their device prefers. The site remembers the choice (decision 0010).
+- See pages cross-fade as they move between them, cards lift under the pointer and menus unfold. Devices set to
+  reduce motion get none of it.
+
+**Known not to work yet:**
+- The browser's own toolbar color stays Midnight or Paper whatever the theme.
+
 ## 2026-11-25 — Community in the menu, a fixed phone home page, credited pictures
 
 Visitors can now:

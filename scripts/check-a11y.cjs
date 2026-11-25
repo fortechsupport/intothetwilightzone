@@ -39,6 +39,23 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
     }
     await ctx.close();
   }
+  // The era themes (design/tokens.json): axe on a sample of page types in each.
+  const SAMPLE = ['/', '/watch/', '/episodes/1959/time-enough-at-last/', '/people/rod-serling/', '/media/', '/search/', '/community/'];
+  for (const theme of ['original', 'neon', 'steel', 'crimson']) {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    await ctx.addInitScript((t) => { try { localStorage.setItem('tz-theme', t); } catch (e) {} }, theme);
+    const page = await ctx.newPage();
+    for (const p of SAMPLE) {
+      await page.goto(base + p, { waitUntil: 'load' });
+      await page.addScriptTag({ content: axeSource });
+      const r = await page.evaluate(async () => await window.axe.run(document, { runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'] } }));
+      for (const v of r.violations) {
+        failures++;
+        console.log(`✗ [${theme}] ${p}: ${v.id} (${v.impact}) ${v.help} — ${v.nodes.length} element(s), e.g. ${v.nodes[0]?.target?.join(' ')}`);
+      }
+    }
+    await ctx.close();
+  }
   const phone = await browser.newContext({ viewport: { width: 320, height: 640 } });
   const page = await phone.newPage();
   for (const p of PAGES) {
@@ -60,6 +77,6 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
     if (m.h1 === null || m.h1 > 213) { failures++; console.log(`✗ [320px] ${p}: h1 starts at ${m.h1}px (limit 213)`); }
   }
   await browser.close();
-  console.log(failures ? `${failures} accessibility/layout findings.` : `✓ ${PAGES.length} pages: no axe violations in dark or light, no sideways scroll, titles in the top third at 320 x 640.`);
+  console.log(failures ? `${failures} accessibility/layout findings.` : `✓ ${PAGES.length} pages: no axe violations in dark or light (or the four era themes on a sample), no sideways scroll, titles in the top third at 320 x 640.`);
   process.exit(failures ? 1 : 0);
 })();

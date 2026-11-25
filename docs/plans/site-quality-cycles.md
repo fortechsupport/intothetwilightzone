@@ -56,6 +56,9 @@ His answers to the four scoping questions (15:23 UTC):
 - Pictures beside the record title on desktop and under it on phones, 300 px wide, with a one-line credit; the
   full credit is one click away on /credits/images/.
 - Images are hosted as 640 and 320 px WebP; the full-size original stays on its source page.
+- Era theme names: "1959 Original", "1985 Neon", "2002 Steel", "2019 Crimson" (years and plain words, not series
+  titles); dark only; Michroma, Oswald and Fraunces as their display faces; the brand name keeps DM Serif Display
+  in every theme (decision 0010).
 
 ## Waiting on Adam
 
