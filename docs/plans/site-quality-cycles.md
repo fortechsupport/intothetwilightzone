@@ -65,6 +65,12 @@ His answers to the four scoping questions (15:23 UTC):
 - Publicity stills (photographs taken on set and released to the press without notice) count as publicity
   photographs, not episode frames; frames captured from the broadcast are still refused.
 
+- Not hosted although Commons marks it public domain: the photograph of the wrecked helicopter from the 1982
+  accident on the set of Twilight Zone: The Movie, in which three people died (the blessing rule: handle the
+  accident with respect). The 1986-87 trial photograph is hosted, under a new "Events" group.
+- Not linked: a Janice Rule and Terry Burnham press photo whose page names no episode; tying it to "Nightmare as a
+  Child" would be an inference, so it is filed only under the two actors.
+
 ## Waiting on Adam
 
 - Nothing yet.

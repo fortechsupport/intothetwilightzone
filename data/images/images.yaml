@@ -1,4 +1,199 @@
 # Credited pictures. Written by scripts/import-images.mjs; see src/lib/images.ts for the rules.
+- id: episodes-1959-a-stop-at-willoughby
+  src: /media/images/episodes/1959-a-stop-at-willoughby.webp
+  small: /media/images/episodes/1959-a-stop-at-willoughby-320.webp
+  width: 500
+  height: 631
+  records:
+    - episodes/1959/a-stop-at-willoughby
+    - people/james-daly
+  role: publicity
+  title: James Daly in "A Stop at Willoughby" (1960)
+  alt: James Daly in a dark suit standing on a small-town street with two girls in summer dresses
+  creator: Bureau of Industrial Service (Young & Rubicam) for CBS Television
+  creator_note: The Bureau of Industrial Service for CBS-TV. The Bureau was a division of ad agency Young and Rubicam and was widely used by those in the television industry for distributing publicity material in the 1950s and 1960s.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:James_Daly_Twilight_Zone_1960.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item front back
+- id: episodes-1959-a-world-of-difference
+  src: /media/images/episodes/1959-a-world-of-difference.webp
+  small: /media/images/episodes/1959-a-world-of-difference-320.webp
+  width: 330
+  height: 299
+  records:
+    - episodes/1959/a-world-of-difference
+    - people/howard-duff
+    - people/eileen-ryan
+  role: publicity
+  title: Howard Duff and Eileen Ryan in "A World of Difference" (1960)
+  alt: Howard Duff seated at a desk while Eileen Ryan leans close, her hand on his
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Howard_Duff_Eileen_Ryan_Twilight_Zone.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item front back
+- id: episodes-1959-and-when-the-sky-was-opened
+  src: /media/images/episodes/1959-and-when-the-sky-was-opened.webp
+  small: /media/images/episodes/1959-and-when-the-sky-was-opened-320.webp
+  width: 500
+  height: 670
+  records:
+    - episodes/1959/and-when-the-sky-was-opened
+    - people/jim-hutton
+    - people/sue-randall
+  role: publicity
+  title: Sue Randall and Jim Hutton in "And When the Sky Was Opened" (1960)
+  alt: Sue Randall in a nurse's uniform holding back Jim Hutton, in hospital pyjamas, at a doorway
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Jim_Hutton_Sue_Randall_Twilight_Zone.JPG
+  source_name: Wikimedia Commons
+  original_source: ebay front back
+- id: episodes-1959-five-characters-in-search-of-an-exit
+  src: /media/images/episodes/1959-five-characters-in-search-of-an-exit.webp
+  small: /media/images/episodes/1959-five-characters-in-search-of-an-exit-320.webp
+  width: 640
+  height: 843
+  records:
+    - episodes/1959/five-characters-in-search-of-an-exit
+    - people/susan-harrison
+    - people/kelton-garwood
+  role: publicity
+  title: Susan Harrison, Kelton Garwood and Clark Allen in "Five Characters in Search of an Exit" (1961)
+  alt: Susan Harrison as a ballerina in front of Kelton Garwood as a tramp in a battered hat and Clark Allen as a bagpiper
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Susan_Harrison_Kelton_Garwood_Clark_Allen_%22The_Twilight_Zone%22_(1961_CBS_press_photo).jpg
+  source_name: Wikimedia Commons
+  original_source: https://www.worthpoint.com/worthopedia/1961-press-photo-actors-harrison-4687894902
+- id: episodes-1959-five-characters-in-search-of-an-exit-2
+  src: /media/images/episodes/1959-five-characters-in-search-of-an-exit-2.webp
+  small: /media/images/episodes/1959-five-characters-in-search-of-an-exit-2-320.webp
+  width: 500
+  height: 657
+  records:
+    - episodes/1959/five-characters-in-search-of-an-exit
+  role: publicity
+  title: Clark Allen as the bagpipe player in "Five Characters in Search of an Exit" (1961)
+  alt: Clark Allen in a Highland bandsman's cap, playing the bagpipes
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Clark_Allen_%22The_Twilight_Zone%22_(1961_CBS_press_photo).jpg
+  source_name: Wikimedia Commons
+  original_source: https://www.worthpoint.com/worthopedia/1961-press-photo-actors-harrison-4687894902
+- id: episodes-1959-hes-alive
+  src: /media/images/episodes/1959-hes-alive.webp
+  small: /media/images/episodes/1959-hes-alive-320.webp
+  width: 640
+  height: 813
+  records:
+    - episodes/1959/hes-alive
+    - people/dennis-hopper
+  role: publicity
+  title: Dennis Hopper as Peter Vollmer in "He's Alive" (1962 photo)
+  alt: Dennis Hopper in a shirt with an armband and shoulder strap, one hand raised to his chest
+  creator: Unknown author
+  license: Public domain
+  license_reason: Published in the US 1931-1963 and the copyright was not renewed.
+  source_url: https://commons.wikimedia.org/wiki/File:Peter_Vollmer_(The_Twilight_Zone).jpg
+  source_name: Wikimedia Commons
+  original_source: https://www.imdb.com/title/tt0734572/mediaviewer/rm383437056/
+- id: episodes-1959-i-dream-of-genie
+  src: /media/images/episodes/1959-i-dream-of-genie.webp
+  small: /media/images/episodes/1959-i-dream-of-genie-320.webp
+  width: 640
+  height: 815
+  records:
+    - episodes/1959/i-dream-of-genie
+    - people/howard-morris
+    - people/patricia-barry
+  role: publicity
+  title: Patricia Barry and Howard Morris in "I Dream of Genie" (1963)
+  alt: Patricia Barry in a sparkling gown and headdress beside Howard Morris in a dark suit
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Howard_Morris_Patricia_Barry_%22The_Twilight_Zone%22_(1963_CBS_press_photo).jpg
+  source_name: Wikimedia Commons
+  original_source: https://www.worthpoint.com/worthopedia/1963-twilight-zone-dream-genie-x-4598811381
+- id: episodes-1959-in-his-image
+  src: /media/images/episodes/1959-in-his-image.webp
+  small: /media/images/episodes/1959-in-his-image-320.webp
+  width: 640
+  height: 853
+  records:
+    - episodes/1959/in-his-image
+    - people/gail-kobe
+    - people/george-grizzard
+  role: publicity
+  title: Gail Kobe and George Grizzard in "In His Image" (1962)
+  alt: George Grizzard at the wheel of a car with Gail Kobe, in a headscarf, in the passenger seat
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Twilight_Zone_In_His_Image_1962.jpg
+  source_name: Wikimedia Commons
+  original_source: ebay front back
+- id: episodes-1959-in-praise-of-pip
+  src: /media/images/episodes/1959-in-praise-of-pip.webp
+  small: /media/images/episodes/1959-in-praise-of-pip-320.webp
+  width: 500
+  height: 595
+  records:
+    - episodes/1959/in-praise-of-pip
+    - people/jack-klugman
+  role: publicity
+  title: Jack Klugman in "In Praise of Pip" (1963)
+  alt: Jack Klugman resting his head on his hand with a troubled expression
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Jack_Klugman_Twilight_Zone_1963.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: episodes-1959-jess-belle
+  src: /media/images/episodes/1959-jess-belle.webp
+  small: /media/images/episodes/1959-jess-belle-320.webp
+  width: 500
+  height: 629
+  records:
+    - episodes/1959/jess-belle
+    - people/james-best
+    - people/laura-devon
+    - people/anne-francis
+  role: publicity
+  title: James Best, Laura Devon and Anne Francis in "Jess-Belle" (photo dated 1965)
+  alt: James Best embracing Laura Devon in a gown while Anne Francis looks on
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:James_Best_Laura_Devon_Anne_Francis_Twilight_Zone_Jess_Belle.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item front back
+- id: episodes-1959-long-distance-call
+  src: /media/images/episodes/1959-long-distance-call.webp
+  small: /media/images/episodes/1959-long-distance-call-320.webp
+  width: 640
+  height: 854
+  records:
+    - episodes/1959/long-distance-call
+    - people/bill-mumy
+    - people/lili-darvas
+  role: publicity
+  title: Lili Darvas and Billy Mumy, publicity for "Long Distance Call" (1961)
+  alt: Lili Darvas and a young Billy Mumy in a party hat at a table with a birthday cake
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:The_Twilight_Zone_Lili_Darvas_Billy_Mumy_1961.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front photo back
 - id: episodes-1959-mirror-image
   src: /media/images/episodes/1959-mirror-image.webp
   small: /media/images/episodes/1959-mirror-image-320.webp
@@ -34,6 +229,41 @@
   source_url: https://commons.wikimedia.org/wiki/File:Orson_Bean_Mr._Bevis_episode_The_Twilight_Zone_Los_Angeles_CA_May_1960.jpg
   source_name: Wikimedia Commons
   original_source: eBay front back
+- id: episodes-1959-of-late-i-think-of-cliffordville
+  src: /media/images/episodes/1959-of-late-i-think-of-cliffordville.webp
+  small: /media/images/episodes/1959-of-late-i-think-of-cliffordville-320.webp
+  width: 500
+  height: 659
+  records:
+    - episodes/1959/of-late-i-think-of-cliffordville
+    - people/julie-newmar
+    - people/albert-salmi
+  role: publicity
+  title: Julie Newmar as Miss Devlin and Albert Salmi as William Feathersmith in "Of Late I Think of Cliffordville" (photo dated 1965)
+  alt: Albert Salmi as an elderly man in a suit seated on a train, with Julie Newmar visible in the background
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Julie_Newmar_Albert_Salmi_The_Twilight_Zone.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front photo back
+- id: episodes-1959-once-upon-a-time
+  src: /media/images/episodes/1959-once-upon-a-time.webp
+  small: /media/images/episodes/1959-once-upon-a-time-320.webp
+  width: 330
+  height: 442
+  records:
+    - episodes/1959/once-upon-a-time
+    - people/buster-keaton
+  role: publicity
+  title: Buster Keaton in "Once Upon a Time" (1961)
+  alt: Buster Keaton in a rumpled coat and cap standing on a street holding a cord
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Buster_Keaton_Twilight_Zone_1961.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front photo back
 - id: episodes-1959-one-for-the-angels
   src: /media/images/episodes/1959-one-for-the-angels.webp
   small: /media/images/episodes/1959-one-for-the-angels-320.webp
@@ -52,6 +282,42 @@
   source_url: https://commons.wikimedia.org/wiki/File:Ed_Wynn_Twilight_Zone_1959.jpg
   source_name: Wikimedia Commons
   original_source: eBay front back
+- id: episodes-1959-printers-devil
+  src: /media/images/episodes/1959-printers-devil.webp
+  small: /media/images/episodes/1959-printers-devil-320.webp
+  width: 330
+  height: 440
+  records:
+    - episodes/1959/printers-devil
+    - people/burgess-meredith
+    - people/robert-sterling
+  role: publicity
+  title: Burgess Meredith, Robert Sterling and Patricia Crowley in "Printer's Devil" (1963)
+  alt: Burgess Meredith leaning over Robert Sterling at a typewriter in a newspaper office, with Patricia Crowley beside them
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Burgess_Meredith_Robert_Sterling_Patricia_Crowley_Twilight_Zone_1963.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: episodes-1959-static
+  src: /media/images/episodes/1959-static.webp
+  small: /media/images/episodes/1959-static-320.webp
+  width: 500
+  height: 625
+  records:
+    - episodes/1959/static
+    - people/dean-jagger
+  role: publicity
+  title: Dean Jagger as Ed Lindsay in "Static" (1961)
+  alt: Dean Jagger in a cardigan leaning his ear toward an old wooden cabinet radio
+  creator: The Bureau of Industrial Service for CBS Television
+  creator_note: The Bureau of Industrial Service for CBS Television. The Bureau was a division of ad agency Young & Rubicam and was widely used by those in the television industry during the 1950s and 1960s for distributing publicty material.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Dean_Jagger_The_Twilight_Zone_1961.JPG
+  source_name: Wikimedia Commons
+  original_source: e Bay item front back
 - id: episodes-1959-the-after-hours
   src: /media/images/episodes/1959-the-after-hours.webp
   small: /media/images/episodes/1959-the-after-hours-320.webp
@@ -70,6 +336,60 @@
   source_url: https://commons.wikimedia.org/wiki/File:Elizabeth_Allen_The_After_Hours_Twilight_Zone_1960.jpg
   source_name: Wikimedia Commons
   original_source: eBay front back
+- id: episodes-1959-the-after-hours-2
+  src: /media/images/episodes/1959-the-after-hours-2.webp
+  small: /media/images/episodes/1959-the-after-hours-2-320.webp
+  width: 330
+  height: 237
+  records:
+    - episodes/1959/the-after-hours
+    - people/anne-francis
+  role: publicity
+  title: Anne Francis and James Milhollin in "The After Hours" (photo dated 1965)
+  alt: Anne Francis beside her identical mannequin double, with James Milhollin between them
+  creator: CBS
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Anne_Francis_James_Milhollin_Twilight_Zone.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: episodes-1959-the-bard
+  src: /media/images/episodes/1959-the-bard.webp
+  small: /media/images/episodes/1959-the-bard-320.webp
+  width: 500
+  height: 710
+  records:
+    - episodes/1959/the-bard
+    - people/burt-reynolds
+    - people/john-williams
+  role: publicity
+  title: Burt Reynolds and John Williams in "The Bard" (1963)
+  alt: Burt Reynolds in a sweater with a hand to his brow, beside John Williams in Elizabethan costume and beard
+  creator: CBS Television Network
+  creator_note: CBS Television Network. Photo is small and stamp is hard to read. Have enlarged a portion of the back where the stamp is and it says "Please (can't read) photo credit to CBS Television Network".
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Burt_Reynolds_John_Williams_The_Bard_Twilight_Zone_1963.jpg
+  source_name: Wikimedia Commons
+  original_source: ebay front back
+- id: episodes-1959-the-big-tall-wish
+  src: /media/images/episodes/1959-the-big-tall-wish.webp
+  small: /media/images/episodes/1959-the-big-tall-wish-320.webp
+  width: 500
+  height: 378
+  records:
+    - episodes/1959/the-big-tall-wish
+    - people/ivan-dixon
+    - people/kim-hamilton
+  role: publicity
+  title: Ivan Dixon, Steven Perry and Kim Hamilton in "The Big Tall Wish" (1960)
+  alt: Ivan Dixon in boxing gloves sparring playfully with young Steven Perry while Kim Hamilton watches
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Ivan_Dixon_Steven_Perry_Kim_Hamilton_Twilight_Zone_1960.JPG
+  source_name: Wikimedia Commons
+  original_source: ebay front back
 - id: episodes-1959-the-chaser
   src: /media/images/episodes/1959-the-chaser.webp
   small: /media/images/episodes/1959-the-chaser-320.webp
@@ -86,6 +406,60 @@
   license: Public domain
   license_reason: Published in the US 1931-1977 without a copyright notice.
   source_url: https://commons.wikimedia.org/wiki/File:Patricia_Barry_The_Twilight_Zone_1960_(cropped).JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front photo back
+- id: episodes-1959-the-chaser-2
+  src: /media/images/episodes/1959-the-chaser-2.webp
+  small: /media/images/episodes/1959-the-chaser-2-320.webp
+  width: 500
+  height: 640
+  records:
+    - episodes/1959/the-chaser
+    - people/george-grizzard
+    - people/patricia-barry
+  role: publicity
+  title: George Grizzard as Roger Shackleforth and Patricia Barry as Leila in "The Chaser" (1960)
+  alt: George Grizzard in a suit beside Patricia Barry in a strapless floral dress, next to a table with glasses
+  creator: The Bureau of Industrial Service for CBS Television
+  creator_note: The Bureau of Industrial Service for CBS Television. The Bureau, a division of ad agency Young & Rubicam, was widely used by those in the television industry in the 1950s and 1960s for distributing publicity material.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:George_Grizzard_Patricia_Barry_The_Twilight_Zone_1960.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front photo back
+- id: episodes-1959-the-fugitive
+  src: /media/images/episodes/1959-the-fugitive.webp
+  small: /media/images/episodes/1959-the-fugitive-320.webp
+  width: 500
+  height: 662
+  records:
+    - episodes/1959/the-fugitive
+    - people/j-pat-omalley
+    - people/susan-gordon
+  role: publicity
+  title: J. Pat O'Malley and Susan Gordon in "The Fugitive" (1962)
+  alt: J. Pat O'Malley carrying Susan Gordon, who hugs him, on a town street
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:J._Pat_O'Malley_Susan_Gordon_Twilight_Zone_1962.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: episodes-1959-the-grave
+  src: /media/images/episodes/1959-the-grave.webp
+  small: /media/images/episodes/1959-the-grave-320.webp
+  width: 640
+  height: 881
+  records:
+    - episodes/1959/the-grave
+    - people/lee-marvin
+  role: publicity
+  title: Lee Marvin in "The Grave" (1961)
+  alt: Lee Marvin in a wide-brimmed hat and coat, looking up
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Lee_Marvin_Twilight_Zone_1961.JPG
   source_name: Wikimedia Commons
   original_source: eBay item photo front photo back
 - id: episodes-1959-the-hitch-hiker
@@ -141,6 +515,24 @@
   source_url: https://commons.wikimedia.org/wiki/File:Leonard_Strong_Twilight_Zone_1960.jpg
   source_name: Wikimedia Commons
   original_source: eBay item
+- id: episodes-1959-the-incredible-world-of-horace-ford
+  src: /media/images/episodes/1959-the-incredible-world-of-horace-ford.webp
+  small: /media/images/episodes/1959-the-incredible-world-of-horace-ford-320.webp
+  width: 330
+  height: 301
+  records:
+    - episodes/1959/the-incredible-world-of-horace-ford
+    - people/pat-hingle
+    - people/nan-martin
+  role: publicity
+  title: Pat Hingle as Horace Ford and Nan Martin as Laura Ford in "The Incredible World of Horace Ford" (photo dated 1965)
+  alt: Pat Hingle in glasses and tie, chin on his hand beside a toy truck, with Nan Martin leaning on his shoulder
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Pat_Hingle_Nan_Martin_The_Twilight_Zone.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front photo back
 - id: episodes-1959-the-last-flight
   src: /media/images/episodes/1959-the-last-flight.webp
   small: /media/images/episodes/1959-the-last-flight-320.webp
@@ -152,7 +544,7 @@
   role: publicity
   title: Kenneth Haigh in "The Last Flight" (1960)
   alt: A First World War pilot in leather flying gear and a modern jet pilot in a helmet and flight suit, standing beside a biplane
-  creator: Bureau of Industrial Service-this was a division of ad agency Young & Rubicam…
+  creator: Bureau of Industrial Service (Young & Rubicam) for CBS Television
   creator_note: Bureau of Industrial Service-this was a division of ad agency Young & Rubicam and was widely used by those in the television industry for distributing publicity material.
   license: Public domain
   license_reason: Published in the US 1931-1977 without a copyright notice.
@@ -176,6 +568,93 @@
   source_url: https://commons.wikimedia.org/wiki/File:Simon_Scott-Kenneth_Haigh_in_The_Twilight_Zone.jpg
   source_name: Wikimedia Commons
   original_source: eBay (front & back)
+- id: episodes-1959-the-last-night-of-a-jockey
+  src: /media/images/episodes/1959-the-last-night-of-a-jockey.webp
+  small: /media/images/episodes/1959-the-last-night-of-a-jockey-320.webp
+  width: 330
+  height: 370
+  records:
+    - episodes/1959/the-last-night-of-a-jockey
+    - people/mickey-rooney
+  role: publicity
+  title: Mickey Rooney in "The Last Night of a Jockey" (1963)
+  alt: Mickey Rooney shouting and clutching a newspaper with the headline about a jockey barred from racing
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Mickey_Rooney_The_Twilight_Zone_1963.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front photo back
+- id: episodes-1959-the-obsolete-man
+  src: /media/images/episodes/1959-the-obsolete-man.webp
+  small: /media/images/episodes/1959-the-obsolete-man-320.webp
+  width: 500
+  height: 665
+  records:
+    - episodes/1959/the-obsolete-man
+    - people/burgess-meredith
+  role: publicity
+  title: Burgess Meredith as Romney Wordsworth in "The Obsolete Man" (1961)
+  alt: Burgess Meredith in a cardigan crouching beside tall stacks of books, holding one to his chest
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Burgess_Meredith_The_Twilight_Zone_1961.JPG
+  source_name: Wikimedia Commons
+  original_source: ebay item photo front photo back
+- id: episodes-1959-the-prime-mover
+  src: /media/images/episodes/1959-the-prime-mover.webp
+  small: /media/images/episodes/1959-the-prime-mover-320.webp
+  width: 250
+  height: 332
+  records:
+    - episodes/1959/the-prime-mover
+    - people/dane-clark
+    - people/buddy-ebsen
+  role: publicity
+  title: Christine Moore, Dane Clark, Buddy Ebsen and Jane Burgess in "The Prime Mover" (1961)
+  alt: Christine Moore, Dane Clark, Buddy Ebsen and Jane Burgess gathered at a casino gaming table piled with chips
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Prime_Mover_Twilight_Zone_1961.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: episodes-1959-the-silence
+  src: /media/images/episodes/1959-the-silence.webp
+  small: /media/images/episodes/1959-the-silence-320.webp
+  width: 500
+  height: 665
+  records:
+    - episodes/1959/the-silence
+    - people/franchot-tone
+    - people/jonathan-harris
+  role: publicity
+  title: Franchot Tone and Jonathan Harris in "The Silence" (1961)
+  alt: Franchot Tone and Jonathan Harris, both in dark suits, face to face in close conversation
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Franchot_Tone_Jonathan_Harris_Twilight_Zone_1961.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: episodes-1959-the-silence-2
+  src: /media/images/episodes/1959-the-silence-2.webp
+  small: /media/images/episodes/1959-the-silence-2-320.webp
+  width: 500
+  height: 660
+  records:
+    - episodes/1959/the-silence
+    - people/franchot-tone
+  role: publicity
+  title: Franchot Tone in "The Silence" (1961)
+  alt: Franchot Tone in white tie and tails holding up a sheet of paper
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Franchot_Tone_Twilight_Zone_1961.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
 - id: episodes-1959-the-trouble-with-templeton
   src: /media/images/episodes/1959-the-trouble-with-templeton.webp
   small: /media/images/episodes/1959-the-trouble-with-templeton-320.webp
@@ -249,6 +728,42 @@
   source_url: https://commons.wikimedia.org/wiki/File:Burgess_Meredith_The_Twilight_Zone.jpg
   source_name: Wikimedia Commons
   original_source: eBay item photo front photo back
+- id: episodes-1959-time-enough-at-last-2
+  src: /media/images/episodes/1959-time-enough-at-last-2.webp
+  small: /media/images/episodes/1959-time-enough-at-last-2-320.webp
+  width: 640
+  height: 797
+  records:
+    - episodes/1959/time-enough-at-last
+    - people/burgess-meredith
+  role: publicity
+  title: Burgess Meredith in "Time Enough at Last" (photo dated 1960)
+  alt: Burgess Meredith in a suit standing alone among rubble and ruined buildings under a dramatic sky
+  creator: Bureau of Industrial Service
+  creator_note: Bureau of Industrial Service. This was a division of ad agency Young & Rubicam and was widely used by those in the television industry for distributing publicity material.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Burgess_Meredith_Twilight_Zone_1960.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: episodes-1959-twenty-two
+  src: /media/images/episodes/1959-twenty-two.webp
+  small: /media/images/episodes/1959-twenty-two-320.webp
+  width: 330
+  height: 440
+  records:
+    - episodes/1959/twenty-two
+    - people/barbara-nichols
+    - people/fredd-wayne
+  role: publicity
+  title: Barbara Nichols and Fredd Wayne in "Twenty Two" (1961)
+  alt: Barbara Nichols sitting up in a hospital bed while Fredd Wayne in a suit stands beside her
+  creator: CBS
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Barbara_Nichols_Fredd_Wayne_Twilight_Zone_1961.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
 - id: episodes-1959-where-is-everybody
   src: /media/images/episodes/1959-where-is-everybody.webp
   small: /media/images/episodes/1959-where-is-everybody-320.webp
@@ -266,6 +781,41 @@
   source_url: https://commons.wikimedia.org/wiki/File:Earl_Holliman_Twilight_Zone_1959.jpg
   source_name: Wikimedia Commons
   original_source: eBay item front back
+- id: films-night-gallery-pilot
+  src: /media/images/films/night-gallery-pilot.webp
+  small: /media/images/films/night-gallery-pilot-320.webp
+  width: 500
+  height: 648
+  records:
+    - films/night-gallery-pilot
+    - people/joan-crawford
+    - films/night-gallery
+  role: publicity
+  title: Joan Crawford in the Night Gallery television film (1969)
+  alt: Joan Crawford in a patterned dress seated in an ornate armchair
+  creator: NBC Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Joan_Crawford_Night_Gallery_1969.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front photo back
+- id: locations-almeida-theatre-twilight-zone-play
+  src: /media/images/locations/almeida-theatre-twilight-zone-play.webp
+  small: /media/images/locations/almeida-theatre-twilight-zone-play-320.webp
+  width: 500
+  height: 333
+  records:
+    - locations/almeida-theatre-twilight-zone-play
+  role: place
+  title: Almeida Theatre, Islington, London (2011)
+  alt: White stucco front of the Almeida Theatre on a sunny street with parked cars and a tree
+  creator: "Photo: Andreas Praefcke"
+  license: CC BY 3.0
+  license_reason: Licensed under CC BY 3.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  source_url: https://commons.wikimedia.org/wiki/File:Islington_Almeida_Theatre_2011.jpg
+  source_name: Wikimedia Commons
+  original_source: Self-photographed
 - id: locations-binghamton-high-school-rod-serling
   src: /media/images/locations/binghamton-high-school-rod-serling.webp
   small: /media/images/locations/binghamton-high-school-rod-serling-320.webp
@@ -320,6 +870,142 @@
   source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling_Star.jpg
   source_name: Wikimedia Commons
   original_source: Own work
+- id: organizations-antioch-college
+  src: /media/images/organizations/antioch-college.webp
+  small: /media/images/organizations/antioch-college-320.webp
+  width: 330
+  height: 247
+  records:
+    - organizations/antioch-college
+  role: organization
+  title: McGregor Hall, Antioch College, seen from the south (2014)
+  alt: Brick building of McGregor Hall behind a planted garden bed and trees on a sunny day
+  creator: Jshalvz
+  license: CC BY-SA 4.0
+  license_reason: Licensed under CC BY-SA 4.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File:Antioch_College_-_McGregor_Hall.JPG
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: organizations-antioch-college-2
+  src: /media/images/organizations/antioch-college-2.webp
+  small: /media/images/organizations/antioch-college-2-320.webp
+  width: 330
+  height: 247
+  records:
+    - organizations/antioch-college
+  role: organization
+  title: Antioch College campus grounds (2014)
+  alt: Lawn with a large bare tree in front of a red-brick hall with twin towers and an Antioch College sign
+  creator: Clifton res
+  license: CC BY-SA 3.0
+  license_reason: Licensed under CC BY-SA 3.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  source_url: https://commons.wikimedia.org/wiki/File:Antioch_campus_grounds.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: people-bill-mumy
+  src: /media/images/people/bill-mumy.webp
+  small: /media/images/people/bill-mumy-320.webp
+  width: 500
+  height: 628
+  records:
+    - people/bill-mumy
+    - episodes/1959/long-distance-call
+  role: publicity
+  title: Billy Mumy, publicity for "Long Distance Call" (1961)
+  alt: Young Billy Mumy in a paper party hat, finger to his chin, looking up thoughtfully
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:The_Twilight_Zone_Billy_Mumy_1961.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front photo back eBay item photo front photo back
+- id: people-dennis-hopper
+  src: /media/images/people/dennis-hopper.webp
+  small: /media/images/people/dennis-hopper-320.webp
+  width: 330
+  height: 423
+  records:
+    - people/dennis-hopper
+    - episodes/1959/hes-alive
+  role: portrait
+  title: Dennis Hopper as Peter Vollmer in "He's Alive" (1962 photo)
+  alt: Dennis Hopper in a military-style shirt and tie, looking straight at the camera
+  creator: Unknown author
+  license: Public domain
+  license_reason: Published in the US 1931-1963 and the copyright was not renewed.
+  source_url: https://commons.wikimedia.org/wiki/File:Peter_Vollmer_(The_Twilight_Zone)_(cropped).jpg
+  source_name: Wikimedia Commons
+  original_source: https://www.imdb.com/title/tt0734572/mediaviewer/rm383437056/
+- id: people-earl-holliman
+  src: /media/images/people/earl-holliman.webp
+  small: /media/images/people/earl-holliman-320.webp
+  width: 640
+  height: 862
+  records:
+    - people/earl-holliman
+    - series/1959
+  role: portrait
+  title: Earl Holliman in a publicity portrait for The Twilight Zone (1959)
+  alt: Earl Holliman in a flight suit holding a book, with a display of books titled The Last Man on Earth behind him
+  creator: Studio publicity
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:EHinTWZ.jpg
+  source_name: Wikimedia Commons
+  original_source: "[1]"
+- id: people-janice-rule
+  src: /media/images/people/janice-rule.webp
+  small: /media/images/people/janice-rule-320.webp
+  width: 500
+  height: 663
+  records:
+    - people/janice-rule
+    - people/terry-burnham
+  role: publicity
+  title: Janice Rule and Terry Burnham in a CBS press photo for The Twilight Zone (1961)
+  alt: Janice Rule in a sweater and skirt looking toward a young Terry Burnham standing in a doorway
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Janice_Rule_Terry_Burnham_%22The_Twilight_Zone%22_(1961_CBS_press_photo).jpg
+  source_name: Wikimedia Commons
+  original_source: https://www.worthpoint.com/worthopedia/1961-press-photo-actress-janice-rule-4620647699
+- id: people-kelton-garwood
+  src: /media/images/people/kelton-garwood.webp
+  small: /media/images/people/kelton-garwood-320.webp
+  width: 500
+  height: 732
+  records:
+    - people/kelton-garwood
+    - episodes/1959/five-characters-in-search-of-an-exit
+  role: publicity
+  title: Kelton Garwood as the tramp in "Five Characters in Search of an Exit" (1961)
+  alt: Kelton Garwood as a tramp in a battered hat and stubble, looking worried
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Kelton_Garwood_%22The_Twilight_Zone%22_(1961_CBS_press_photo).jpg
+  source_name: Wikimedia Commons
+  original_source: https://www.worthpoint.com/worthopedia/1961-press-photo-actors-harrison-4687894902
+- id: people-nan-martin
+  src: /media/images/people/nan-martin.webp
+  small: /media/images/people/nan-martin-320.webp
+  width: 302
+  height: 363
+  records:
+    - people/nan-martin
+    - episodes/1959/the-incredible-world-of-horace-ford
+  role: portrait
+  title: Nan Martin as Laura Ford in "The Incredible World of Horace Ford"
+  alt: Nan Martin in a nurse's cap resting her cheek against a man in glasses
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Nan_Martin_(1965)_in_The_Twilight_Zone.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front photo back
 - id: people-orson-bean
   src: /media/images/people/orson-bean.webp
   small: /media/images/people/orson-bean-320.webp
@@ -337,6 +1023,22 @@
   source_url: https://commons.wikimedia.org/wiki/File:Orson_Bean_The_Twilight_Zone_(cropped).jpg
   source_name: Wikimedia Commons
   original_source: eBay front back
+- id: people-patricia-donahue
+  src: /media/images/people/patricia-donahue.webp
+  small: /media/images/people/patricia-donahue-320.webp
+  width: 500
+  height: 621
+  records:
+    - people/patricia-donahue
+  role: portrait
+  title: Publicity photo of Patricia Donahue (1959)
+  alt: Patricia Donahue in a dark top with a turned-up collar, smiling, studio portrait
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Patricia_Donahue_Twilight_Zone_Actress_Original_1950s_TV_Series_Promo_Photo.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay item
 - id: people-rod-serling
   src: /media/images/people/rod-serling.webp
   small: /media/images/people/rod-serling-320.webp
@@ -365,7 +1067,7 @@
   role: publicity
   title: Hugh O'Brian, Rod Serling and Lloyd Bridges discussing the Chrysler Theatre drama Exit From a Plane in Flight (1965)
   alt: Hugh O'Brian in a light jacket, Rod Serling in a dark suit and Lloyd Bridges in a military uniform, standing and talking
-  creator: Lillian Picard for Solters, Roskin & Sabinson in New York and Carter/Carr in…
+  creator: Lillian Picard for Solters, Roskin & Sabinson (publicity agency)
   creator_note: Lillian Picard for Solters, Roskin & Sabinson in New York and Carter/Carr in Los Angeles (publicity agencies)
   license: Public domain
   license_reason: Published in the US 1931-1977 without a copyright notice.
@@ -415,7 +1117,8 @@
   role: portrait
   title: Rod Serling, CBS portrait by Gabor Rona (1959)
   alt: Rod Serling smiling in a dark suit and tie, black-and-white studio portrait
-  creator: CBS Television-CBS Portrait by photographer Gabor Rona-mark is faint in spots
+  creator: CBS Television (portrait by Gabor Rona)
+  creator_note: CBS Television-CBS Portrait by photographer Gabor Rona-mark is faint in spots.
   license: Public domain
   license_reason: Published in the US 1931-1977 without a copyright notice.
   source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling_1959.JPG
@@ -541,6 +1244,56 @@
   source_url: https://commons.wikimedia.org/wiki/File:Robert_Sterling_Rod_Serling_Ichabod_and_Me_1962.jpg
   source_name: Wikimedia Commons
   original_source: eBay front back
+- id: people-susan-harrison
+  src: /media/images/people/susan-harrison.webp
+  small: /media/images/people/susan-harrison-320.webp
+  width: 640
+  height: 893
+  records:
+    - people/susan-harrison
+    - episodes/1959/five-characters-in-search-of-an-exit
+  role: publicity
+  title: Susan Harrison as the ballet dancer in "Five Characters in Search of an Exit" (1961)
+  alt: Susan Harrison in a ballet costume and hairband, looking straight ahead
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Susan_Harrison_%22The_Twilight_Zone%22_(1961_CBS_press_photo).jpg
+  source_name: Wikimedia Commons
+  original_source: https://www.worthpoint.com/worthopedia/1961-press-photo-actors-harrison-4687894902
+- id: people-terry-burnham
+  src: /media/images/people/terry-burnham.webp
+  small: /media/images/people/terry-burnham-320.webp
+  width: 640
+  height: 989
+  records:
+    - people/terry-burnham
+  role: publicity
+  title: Terry Burnham in a CBS press photo for The Twilight Zone (1961)
+  alt: Young Terry Burnham in a dark cardigan and plaid skirt, standing in a room
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Terry_Burnham_%22The_Twilight_Zone%22_(1961_CBS_press_photo).jpg
+  source_name: Wikimedia Commons
+  original_source: https://www.worthpoint.com/worthopedia/1961-press-photo-actress-janice-rule-4620647699
+- id: people-vera-miles
+  src: /media/images/people/vera-miles.webp
+  small: /media/images/people/vera-miles-320.webp
+  width: 250
+  height: 271
+  records:
+    - people/vera-miles
+    - episodes/1959/mirror-image
+  role: portrait
+  title: Vera Miles as Millicent Barnes in "Mirror Image" (1960)
+  alt: Close-up of Vera Miles looking sideways with a wary expression
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Vera_Miles_The_Twilight_Zone_1960_(headshot).JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front photo back
 - id: people-william-schallert
   src: /media/images/people/william-schallert.webp
   small: /media/images/people/william-schallert-320.webp
@@ -558,3 +1311,22 @@
   source_url: https://commons.wikimedia.org/wiki/File:William_Schallert_The_Twilight_Zone_(cropped).jpg
   source_name: Wikimedia Commons
   original_source: eBay front back
+- id: works-twilight-zone-trial-1986-1987
+  src: /media/images/works/twilight-zone-trial-1986-1987.webp
+  small: /media/images/works/twilight-zone-trial-1986-1987-320.webp
+  width: 330
+  height: 222
+  records:
+    - works/twilight-zone-trial-1986-1987
+    - people/john-landis
+    - works/people-v-landis-et-al-twilight-zone-manslaughter-trial
+  role: event
+  title: Defendants in court during the Twilight Zone manslaughter trial, John Landis at centre (1986)
+  alt: Defendants and lawyers seated in rows of chairs in a wood-panelled courtroom
+  creator: Rick Meyer, Los Angeles Times
+  license: CC BY 4.0
+  license_reason: Licensed under CC BY 4.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File:Defendants_in_court_during_Twilight_Zone_trial.jpg
+  source_name: Wikimedia Commons
+  original_source: https://digital.library.ucla.edu/catalog/ark:/21198/zz0002w1gj
