@@ -6,6 +6,7 @@ import { LIBRARY_TYPES } from '../lib/taxonomy.mjs';
 import { navModel } from '../lib/nav';
 import { getCollection } from 'astro:content';
 import { allEpisodes, allPeople } from '../lib/data';
+import { allImages, licenseHref, recordHref } from '../lib/images';
 
 const cat = await catalog();
 const verbs = await navModel();
@@ -17,6 +18,11 @@ const series = (await getCollection('series')).sort((a, b) => (a.data.order ?? 0
 const epCount = (id: string) => episodes.filter((e) => e.data.series === id).length;
 const records = new Set([...cat.values()].flatMap((c) => c.subs.flatMap((s) => s.entries.map((e) => e.key)))).size;
 const fmt = (n: number) => n.toLocaleString('en-US');
+// A strip of credited photographs: one per record, Rod Serling first, then the publicity stills by date.
+const photoSeen = new Set<string>();
+const photos = [...allImages()].filter((i) => i.role === 'portrait' || i.role === 'publicity')
+  .sort((a, b) => Number(b.records[0] === 'people/rod-serling') - Number(a.records[0] === 'people/rod-serling') || String(a.date ?? '9999').localeCompare(String(b.date ?? '9999')))
+  .filter((i) => !photoSeen.has(i.records[0]) && photoSeen.add(i.records[0])).slice(0, 8);
 
 const FEATURES: [string, string, string, string][] = [
   ['/start/', 'New here', 'Start here', 'What the show is, which series to begin with, and the first ten episodes to watch.'],
@@ -128,6 +134,23 @@ const jsonld = {
     ))}
   </div>
 
+  {photos.length >= 4 && (
+    <>
+      <div class="section-head">
+        <h2>From the photo files</h2>
+        <p>Publicity photographs and portraits that are in the public domain or under Creative Commons, each credited. <a href="/credits/images/">All image credits</a></p>
+      </div>
+      <div class="photo-strip">
+        {photos.map((i) => (
+          <figure>
+            <a href={recordHref(i.records[0])}><img src={i.small} width="320" height={Math.round(320 * i.height / i.width)} alt={i.alt} loading="lazy" decoding="async" /></a>
+            <figcaption><a href={recordHref(i.records[0])}>{i.title}</a><span class="credit">{i.creator} · <a href={licenseHref(i)}>{i.license}</a></span></figcaption>
+          </figure>
+        ))}
+      </div>
+    </>
+  )}
+
   <div class="section-head">
     <h2>Features</h2>
     <p>Tools and guides for watching, exploring and keeping track.</p>
@@ -173,6 +196,14 @@ const jsonld = {
   .home-hero::before, .home-hero::after { display: none; }
   .series-grid .card h3 { font-size: var(--step-2); }
   .library-card { max-width: 760px; }
+  .photo-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-5) var(--space-4); }
+  .photo-strip figure { margin: 0; }
+  .photo-strip img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 20%; border-radius: var(--radius-md); border: 1px solid var(--line); }
+  .photo-strip figcaption { font-size: var(--step--1); line-height: 1.4; margin-top: 6px; }
+  .photo-strip figcaption > a { color: var(--text-soft); }
+  .photo-strip .credit { display: block; font-size: var(--step--2); color: var(--muted); margin-top: 2px; }
+  .photo-strip .credit a { color: var(--muted); }
+  @media (max-width: 700px) { .photo-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3); } }
   .about-strip p { max-width: 72ch; }
   @media (max-width: 900px) {
     .home-hero { grid-template-columns: minmax(0, 1fr); padding-top: var(--space-4); }

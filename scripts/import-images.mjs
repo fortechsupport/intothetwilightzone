@@ -16,11 +16,13 @@ import { parse, stringify } from 'yaml';
 const manifestPath = process.argv[2];
 if (!manifestPath) { console.error('usage: node scripts/import-images.mjs <manifest.json>'); process.exit(2); }
 const base = dirname(resolve(manifestPath));
+// Paths in the repository are resolved from the script's own folder, so it can be run from anywhere.
+const repo = resolve(dirname(new URL(import.meta.url).pathname), '..');
 const items = JSON.parse(readFileSync(manifestPath, 'utf8'));
 const OK_LICENSE = /^(Public domain|CC0( 1\.0)?|CC BY(-SA)? [1-4]\.0( [A-Za-z ]+)?)$/;
 const sourceName = (u) => /commons\.wikimedia/.test(u) ? 'Wikimedia Commons' : /loc\.gov/.test(u) ? 'Library of Congress' : /archives\.gov/.test(u) ? 'National Archives' : new URL(u).hostname;
 
-const out = resolve('data/images/images.yaml');
+const out = resolve(repo, 'data/images/images.yaml');
 const existing = existsSync(out) ? (parse(readFileSync(out, 'utf8')) ?? []) : [];
 const byId = new Map(existing.map((i) => [i.id, i]));
 const refused = [];
@@ -39,7 +41,7 @@ for (const m of items) {
   const collection = m.records[0].split('/')[0];
   const stem = basename(m.file, extname(m.file));
   const id = `${collection}-${stem}`.replace(/[^a-z0-9-]+/gi, '-').toLowerCase();
-  const dir = resolve('public/media/images', collection);
+  const dir = resolve(repo, 'public/media/images', collection);
   mkdirSync(dir, { recursive: true });
   const big = `${dir}/${stem}.webp`, small = `${dir}/${stem}-320.webp`;
   const info = await sharp(src).rotate().resize({ width: 640, withoutEnlargement: true }).webp({ quality: 76 }).toFile(big);

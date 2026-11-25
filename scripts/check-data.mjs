@@ -83,7 +83,12 @@ if (fs.existsSync(imagesFile)) {
     for (const f of ['alt', 'title', 'creator', 'source_url']) if (!i[f]) findings.push(`${at}: no ${f}`);
     if (!/^(Public domain|CC0( 1\.0)?|CC BY(-SA)? [1-4]\.0( [A-Za-z ]+)?)$/.test(i.license ?? '')) findings.push(`${at}: license "${i.license}" is not public domain or CC0/BY/BY-SA`);
     if (/^CC BY/.test(i.license ?? '') && !i.license_url) findings.push(`${at}: a CC BY license needs its license_url`);
-    for (const k of i.records ?? []) if (!records.has(k) && !['people', 'organizations'].includes(k.split('/')[0])) findings.push(`${at}: record ${k} does not exist`);
+    for (const k of i.records ?? []) {
+      if (records.has(k)) continue;
+      // People and organizations can exist only as credits; check:site then catches a key with no page.
+      if (['people', 'organizations'].includes(k.split('/')[0])) warnings.push(`${at}: ${k} has no record file (fine if it is derived from credits)`);
+      else findings.push(`${at}: record ${k} does not exist`);
+    }
   }
   console.log(`${imgs.length} pictures checked.`);
 }

@@ -3,6 +3,21 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-25 — Photo strip on the home page, and fixes from a second read
+
+Visitors can now:
+- Browse a strip of credited photographs on the home page, each opening the record it shows.
+- Read a record with many pictures without scrolling past them: three show under the title and "All N pictures"
+  opens them on the Image credits page, filtered to that record.
+- Hear each picture's own description with a screen reader (the picture is no longer a link that replaced it), and
+  reach its full credit from the "Credit" link under it.
+- Clear a search and get the starting suggestions back, with the address cleared too.
+- See record titles, not file names, in the Image credits page's "Shown on" links.
+- Keep the browser's toolbar in the chosen theme's color. The 1959 film grain now settles after a few seconds.
+
+**Known not to work yet:**
+- Link previews use the record's WebP picture; a few older preview services only read JPEG or PNG.
+
 ## 2026-11-25 — A picture on every page
 
 Visitors can now:
