@@ -25,13 +25,15 @@ const TRY = ['Time Enough at Last', 'Rod Serling', 'Night Gallery', 'Talky Tina'
       if (q) { ui.triggerSearch(q); start.hidden = true; }
       else setTimeout(() => document.querySelector('.pagefind-ui__search-input')?.focus(), 50);
       // Hide the starting points while a search is showing, and keep the address in step so results can be shared.
-      document.addEventListener('input', (e) => {
-        if (!e.target.matches?.('.pagefind-ui__search-input')) return;
-        const v = e.target.value.trim();
+      const follow = () => {
+        const v = (document.querySelector('.pagefind-ui__search-input')?.value ?? '').trim();
         start.hidden = v.length > 0;
         const u = new URL(location.href); if (v) u.searchParams.set('q', v); else u.searchParams.delete('q');
         history.replaceState(null, '', u);
-      });
+      };
+      document.addEventListener('input', (e) => { if (e.target.matches?.('.pagefind-ui__search-input')) follow(); });
+      // Pagefind's Clear button empties the box without an input event.
+      document.addEventListener('click', (e) => { if (e.target.closest?.('.pagefind-ui__search-clear')) setTimeout(follow, 0); });
       start.addEventListener('click', (e) => {
         const a = e.target.closest('a[data-q]'); if (!a) return;
         e.preventDefault(); ui.triggerSearch(a.dataset.q); start.hidden = true;

@@ -1,16 +1,16 @@
 ---
 // Every picture on the site with its full credit (credit where credit is due, CLAUDE.md).
 import Base from '../../layouts/Base.astro';
-import { allImages, licenseHref } from '../../lib/images';
+import { allImages, licenseHref, recordHref } from '../../lib/images';
 import { sortKey } from '../../lib/taxonomy.mjs';
+import { mediaLibrary } from '../../lib/catalog';
 const imgs = [...allImages()].sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title)));
 const ROLE: Record<string, string> = { portrait: 'Portraits', publicity: 'Publicity photographs', place: 'Places', organization: 'Organizations' };
 const groups = Object.entries(ROLE).map(([r, label]) => [label, imgs.filter((i) => i.role === r)] as const).filter(([, l]) => l.length);
-const recHref = (k: string) => {
-  const [c, ...rest] = k.split('/');
-  const map: Record<string, string> = { locations: 'places' };
-  return `/${map[c] ?? c}/${rest.join('/')}/`;
-};
+const recHref = recordHref;
+// Record titles for the "Shown on" links, from the Media Library entry each picture became.
+const lib = await mediaLibrary();
+const titleOf = new Map(lib.flatMap((it) => it.on.map((o) => [o.key, o.title] as const)));
 ---
 <Base title="Image credits" description="Every picture on IntoTheTwilightZone.com with its photographer or maker, its public-domain or Creative Commons license, and the page it came from.">
   <header class="verb-head">
@@ -32,7 +32,7 @@ const recHref = (k: string) => {
       <h2>{label} <span class="count-pill">{list.length}</span></h2>
       <ul class="credit-list">
         {list.map((i) => (
-          <li id={i.id}>
+          <li id={i.id} data-records={`|${i.records.join('|')}|`}>
             <img src={i.small} width="96" height={Math.round(96 * i.height / i.width)} alt="" loading="lazy" decoding="async" />
             <div>
               <p class="credit-title">{i.title}{i.date && !i.title.includes(i.date) ? `, ${i.date}` : ''}</p>
@@ -40,7 +40,7 @@ const recHref = (k: string) => {
                 By {i.creator}.{i.creator_note && <> {i.creator_note}</>} <a href={licenseHref(i)}>{i.license}</a>{i.license_reason && <>: {i.license_reason}</>}.
                 {' '}Source: <a href={i.source_url}>{i.source_name}</a>{i.original_source && <> (originally {i.original_source})</>}.
               </p>
-              <p class="small muted">Shown on: {i.records.map((k, n) => <>{n > 0 && ', '}<a href={recHref(k)}>{k.split('/').pop()!.replace(/-/g, ' ')}</a></>)}</p>
+              <p class="small muted">Shown on: {i.records.map((k, n) => <>{n > 0 && ', '}<a href={recHref(k)}>{titleOf.get(k) ?? k.split('/').pop()!.replace(/-/g, ' ')}</a></>)}</p>
             </div>
           </li>
         ))}
@@ -48,6 +48,22 @@ const recHref = (k: string) => {
     </section>
   ))}
   {imgs.length === 0 && <p>No pictures yet.</p>}
+  <script is:inline>
+    // /credits/images/?for=people/rod-serling shows only the pictures of one record (linked from its page).
+    (() => {
+      const k = new URLSearchParams(location.search).get('for');
+      if (!k) return;
+      const items = [...document.querySelectorAll('.credit-list li')];
+      const keep = items.filter((li) => li.dataset.records.includes(`|${k}|`));
+      if (!keep.length) return;
+      items.forEach((li) => { li.hidden = !keep.includes(li); });
+      document.querySelectorAll('main section').forEach((sec) => { sec.hidden = !sec.querySelector('.credit-list li:not([hidden])'); });
+      const note = document.createElement('p');
+      note.className = 'small';
+      note.innerHTML = `Showing the ${keep.length} pictures of one record. <a href="/credits/images/">Show every picture</a>`;
+      document.querySelector('main header').append(note);
+    })();
+  </script>
 </Base>
 <style>
   .credit-list { list-style: none; padding: 0; margin: 0 0 var(--space-6); display: grid; gap: var(--space-4); }

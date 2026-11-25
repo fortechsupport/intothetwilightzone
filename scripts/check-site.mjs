@@ -116,8 +116,19 @@ for (const file of htmlFiles) {
 
 for (const [t, urls] of titles) if (urls.length > 1) findings.titles.push(`"${t}" on ${urls.length} pages: ${urls.slice(0, 4).join(', ')}${urls.length > 4 ? ' …' : ''}`);
 
+// Every record a picture is filed under (data/images/images.yaml) must have a page, or the picture never shows.
+const imagesYaml = path.resolve('data/images/images.yaml');
+findings.pictures = [];
+if (fs.existsSync(imagesYaml)) {
+  for (const m of fs.readFileSync(imagesYaml, 'utf8').matchAll(/^\s+- ([a-z]+\/[a-z0-9/-]+)$/gm)) {
+    const [c, ...rest] = m[1].split('/');
+    const page = `/${c === 'locations' ? 'places' : c}/${rest.join('/')}/index.html`;
+    if (!fileSet.has(page)) findings.pictures.push(`${m[1]}: no page at ${page.replace(/index\.html$/, '')}`);
+  }
+}
+
 let failed = 0;
-const LABELS = { links: 'Broken internal links', titles: 'Duplicate page titles', structure: 'Page structure', roles: 'Repeated roles', weight: 'Pages over the size budget', tabs: 'Link rule (external new tab, internal same tab)' };
+const LABELS = { pictures: 'Pictures filed under records with no page', links: 'Broken internal links', titles: 'Duplicate page titles', structure: 'Page structure', roles: 'Repeated roles', weight: 'Pages over the size budget', tabs: 'Link rule (external new tab, internal same tab)' };
 for (const [k, list] of Object.entries(findings)) {
   const uniq = [...new Set(list)];
   console.log(`${uniq.length ? '✗' : '✓'} ${LABELS[k]}: ${uniq.length}`);

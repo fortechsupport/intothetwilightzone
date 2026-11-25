@@ -9,6 +9,8 @@ import { imagesFor } from '../lib/images';
 interface Props { type: string; context?: string; title: string; recKey?: string; contextMeta?: string }
 const { type, context, title, recKey, contextMeta } = Astro.props;
 const [img, ...more] = imagesFor(recKey);
+// A few more pictures under the title; the rest are one click away on the credits page.
+const GALLERY = 3;
 ---
 <header class={`record-head${recKey ? ' has-figure' : ''}`}>
   <div class="record-head-text">
@@ -16,11 +18,12 @@ const [img, ...more] = imagesFor(recKey);
   <h1>{title}</h1>
   <slot />
   {recKey && <div class="record-actions" data-record-key={recKey}></div>}
-  </div>
-  {img ? <RecordFigure img={img} eager /> : recKey && <RecordArt col={recKey.split('/')[0]} type={type} title={title} />}
   {more.length > 0 && (
     <section class="record-gallery" aria-label="More pictures">
-      {more.map((m) => <RecordFigure img={m} size="thumb" />)}
+      {more.slice(0, GALLERY).map((m) => <RecordFigure img={m} size="thumb" />)}
+      {more.length > GALLERY && <p class="small record-gallery-more"><a href={`/credits/images/?for=${encodeURIComponent(recKey!)}`}>All {more.length + 1} pictures</a></p>}
     </section>
   )}
+  </div>
+  {img ? <RecordFigure img={img} eager /> : recKey && <RecordArt col={recKey.split('/')[0]} type={type} title={title} />}
 </header>

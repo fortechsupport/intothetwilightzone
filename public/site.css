@@ -251,7 +251,8 @@ a.card:hover { border-color: var(--brass); color: var(--text); background: var(-
 .tz-art-motif { fill: none; stroke: var(--brass); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
 .tz-art-mono { font-family: var(--font-display); font-size: 46px; fill: var(--brass); letter-spacing: .04em; }
 .tz-figure-credit a:hover { color: var(--text); }
-.record-gallery { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: var(--space-4); margin-top: var(--space-5); }
+.record-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: var(--space-4); margin-top: var(--space-5); max-width: 640px; }
+.record-gallery-more { grid-column: 1 / -1; margin: 0; }
 .tz-figure-thumb img { aspect-ratio: 4 / 3; object-fit: cover; object-position: center 25%; }
 .tz-figure-thumb .tz-figure-title { font-size: var(--step--2); }
 .record-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: var(--space-3); }
@@ -497,7 +498,8 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
   .verbs details[open] .mega { animation: tz-unfold .18s ease-out; }
   @keyframes tz-unfold { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
   body { transition: background-color .3s ease, color .3s ease; }
-  :root[data-theme="original"] body::after { animation: tz-grain .8s steps(4) infinite; }
+  /* The grain flickers for a few seconds after each page opens, then holds still (WCAG 2.2.2). */
+  :root[data-theme="original"] body::after { animation: tz-grain .8s steps(4) 6; }
   @keyframes tz-grain { 0% { transform: translate(0, 0); } 25% { transform: translate(-3%, 2%); } 50% { transform: translate(2%, -3%); } 75% { transform: translate(-2%, -1%); } 100% { transform: translate(0, 0); } }
   .tz-figure-img img { transition: transform .4s ease; }
   .tz-art-rings ellipse:nth-child(2) { animation: tz-turn-slow 120s linear infinite; transform-origin: 150px 100px; }

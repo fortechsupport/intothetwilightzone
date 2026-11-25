@@ -55,3 +55,9 @@ export function imagesFor(key: string | undefined): SiteImage[] {
 
 /** "Public domain" licenses are linked to the source page that explains them; CC ones to the license deed. */
 export const licenseHref = (i: SiteImage) => i.license_url ?? i.source_url;
+
+/** The page of a record key: "locations/x" lives at /places/x/. */
+export const recordHref = (k: string) => {
+  const [c, ...rest] = k.split('/');
+  return `/${c === 'locations' ? 'places' : c}/${rest.join('/')}/`;
+};
