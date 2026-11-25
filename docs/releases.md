@@ -3,6 +3,20 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-25 — 37 more credited photographs: filmmakers, actors and filming locations
+
+Visitors can now:
+- See credited photographs of Bernard Herrmann, Jerry Goldsmith, Jordan Peele, John Landis, Joe Dante, Wes Craven,
+  Harlan Ellison, Ray Bradbury, Leonard Nimoy, George Takei, Ron Howard, Carol Burnett, Robert Redford, Dennis Hopper,
+  Charles Bronson, Don Rickles, Dean Stockwell, Lee Marvin, Telly Savalas, Elizabeth Montgomery and Ida Lupino.
+- See Ford's Theatre (outside today, in the 1860s, and the Lincoln box), Death Valley (Zabriskie Point, Mesquite Flat
+  dunes, Badwater), Piru, Gastown, the Fairmont Empress, Rogers Arena, the Dachau gate, SUNY Broome, Elmira College in
+  1909, the CBS Building, Paramount's gate and the American Heritage Center.
+
+**Known not to work yet:**
+- 85 more checked pictures are still to come in the nightly runs. Two were left out because the person shown could
+  not be told apart from others in the frame (a Spielberg masterclass stage and a Lanigan's Rabbi still).
+
 ## 2026-11-25 — Cycle 6: pages that hold still, faster repeat visits, better search listings
 
 Visitors can now:

@@ -70,6 +70,7 @@ His answers to the four scoping questions (15:23 UTC):
   accident with respect). The 1986-87 trial photograph is hosted, under a new "Events" group.
 - Not linked: a Janice Rule and Terry Burnham press photo whose page names no episode; tying it to "Nightmare as a
   Child" would be an inference, so it is filed only under the two actors.
+- Cycle 6 photos: 37 of 39 fetched pictures imported. Left out the Steven Spielberg masterclass photo (three people on a dark stage, no way to tell which is him) and the cropped Lanigan's Rabbi still filed under Art Carney (the man shown looks like co-star Stuart Margolin); both removed from the pending list. The Sonny Bono and Telly Savalas sketch photo is kept for Savalas, with alt text naming who is where.
 - Cycle 6 (Adam said "continue", 2026-11-25 22:01 UTC): fixed layout shift (space held for the account buttons, votes
   and search box; metric-matched fallback fonts), added a layout-shift check to `check:a11y`, a year's cache for
   fonts and a week's for photos, a sitemap, and structured data on the record types that lacked it. The
