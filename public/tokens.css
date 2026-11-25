@@ -1,7 +1,7 @@
 /* Generated from design/tokens.json by scripts/build-tokens.mjs. Do not edit by hand. */
 :root {
-  --font-display: 'DM Serif Display', 'Iowan Old Style', Georgia, serif;
-  --font-ui: 'Jost', 'Futura', 'Century Gothic', system-ui, sans-serif;
+  --font-display: 'DM Serif Display', 'DM Serif Display Fallback', 'Iowan Old Style', Georgia, serif;
+  --font-ui: 'Jost', 'Jost Fallback', 'Futura', 'Century Gothic', system-ui, sans-serif;
   --font-mono: 'Courier Prime', 'Courier New', Courier, monospace;
   --step--2: 0.75rem;
   --step--1: 0.875rem;
@@ -57,8 +57,8 @@
   --map-9: #9aa3b8;
   --header-bg: rgba(8, 9, 15, 0.92);
   --shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
-  --theme-display: 'DM Serif Display', 'Iowan Old Style', Georgia, serif;
-  --theme-accent: 'Jost', 'Futura', system-ui, sans-serif;
+  --theme-display: 'DM Serif Display', 'DM Serif Display Fallback', 'Iowan Old Style', Georgia, serif;
+  --theme-accent: 'Jost', 'Jost Fallback', 'Futura', system-ui, sans-serif;
   --theme-display-weight: 400;
   --theme-display-tracking: 0.003em;
   color-scheme: dark;
@@ -95,8 +95,8 @@
     --map-9: #9aa3b8;
     --header-bg: rgba(243, 238, 226, 0.94);
     --shadow: 0 18px 40px rgba(60, 45, 10, 0.18);
-    --theme-display: 'DM Serif Display', 'Iowan Old Style', Georgia, serif;
-    --theme-accent: 'Jost', 'Futura', system-ui, sans-serif;
+    --theme-display: 'DM Serif Display', 'DM Serif Display Fallback', 'Iowan Old Style', Georgia, serif;
+    --theme-accent: 'Jost', 'Jost Fallback', 'Futura', system-ui, sans-serif;
     --theme-display-weight: 400;
     --theme-display-tracking: 0.003em;
     color-scheme: light;
@@ -133,8 +133,8 @@
   --map-9: #9aa3b8;
   --header-bg: rgba(243, 238, 226, 0.94);
   --shadow: 0 18px 40px rgba(60, 45, 10, 0.18);
-  --theme-display: 'DM Serif Display', 'Iowan Old Style', Georgia, serif;
-  --theme-accent: 'Jost', 'Futura', system-ui, sans-serif;
+  --theme-display: 'DM Serif Display', 'DM Serif Display Fallback', 'Iowan Old Style', Georgia, serif;
+  --theme-accent: 'Jost', 'Jost Fallback', 'Futura', system-ui, sans-serif;
   --theme-display-weight: 400;
   --theme-display-tracking: 0.003em;
   color-scheme: light;
@@ -171,7 +171,7 @@
   --map-7: #b0c4a0;
   --map-8: #e6e9f0;
   --map-9: #9aa3b8;
-  --theme-display: 'DM Serif Display', Georgia, serif;
+  --theme-display: 'DM Serif Display', 'DM Serif Display Fallback', Georgia, serif;
   --theme-accent: 'Courier Prime', 'Courier New', monospace;
   --theme-display-weight: 400;
   --theme-display-tracking: 0.005em;
@@ -209,8 +209,8 @@
   --map-7: #b0c4a0;
   --map-8: #e6e9f0;
   --map-9: #9aa3b8;
-  --theme-display: 'Michroma', 'Eurostile', 'Jost', sans-serif;
-  --theme-accent: 'Jost', system-ui, sans-serif;
+  --theme-display: 'Michroma', 'Eurostile', 'Jost', 'Jost Fallback', sans-serif;
+  --theme-accent: 'Jost', 'Jost Fallback', system-ui, sans-serif;
   --theme-display-weight: 400;
   --theme-display-tracking: 0.02em;
   color-scheme: dark;
@@ -248,7 +248,7 @@
   --map-8: #e6e9f0;
   --map-9: #9aa3b8;
   --theme-display: 'Oswald', 'Arial Narrow', sans-serif;
-  --theme-accent: 'Jost', system-ui, sans-serif;
+  --theme-accent: 'Jost', 'Jost Fallback', system-ui, sans-serif;
   --theme-display-weight: 500;
   --theme-display-tracking: 0.01em;
   color-scheme: dark;
@@ -286,7 +286,7 @@
   --map-8: #e6e9f0;
   --map-9: #9aa3b8;
   --theme-display: 'Fraunces', Georgia, serif;
-  --theme-accent: 'Jost', system-ui, sans-serif;
+  --theme-accent: 'Jost', 'Jost Fallback', system-ui, sans-serif;
   --theme-display-weight: 700;
   --theme-display-tracking: -0.01em;
   color-scheme: dark;

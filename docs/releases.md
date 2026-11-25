@@ -3,6 +3,19 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-25 — Cycle 6: pages that hold still, faster repeat visits, better search listings
+
+Visitors can now:
+- Read a record page on a phone without it jumping as it loads: the Favorite, Later and vote buttons, the search box
+  and the web fonts all arrive into space kept for them (layout shift fell from up to 0.38 to about 0.001).
+- Load fonts and photographs from their browser's cache on later visits.
+- Find the site's pages more easily in search engines once it launches: a sitemap lists all 6,937 public pages, and
+  books, songs, radio plays, essays, magazines, podcasts, quotes, archive holdings and organizations now describe
+  themselves to search engines the way episodes, films, people and places already did.
+
+**Known not to work yet:**
+- The sitemap is only offered to search engines by the public build (preview builds ask them to stay away).
+
 ## 2026-11-25 — 8 more filming-location and studio photographs
 
 Visitors can now:
