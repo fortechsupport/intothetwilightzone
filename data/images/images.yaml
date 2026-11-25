@@ -906,6 +906,111 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ACbs_La_Studio_%2884226019%29.jpeg
   source_name: Wikimedia Commons
   original_source: 500px, via the Archive Team
+- id: locations-mgm-lot-1-culver-city-stages
+  src: /media/images/locations/mgm-lot-1-culver-city-stages.webp
+  small: /media/images/locations/mgm-lot-1-culver-city-stages-320.webp
+  width: 640
+  height: 459
+  records:
+    - locations/mgm-lot-1-culver-city-stages
+    - organizations/metro-goldwyn-mayer
+  role: place
+  title: Metro-Goldwyn-Mayer Studios, Culver City (2011)
+  alt: The white columned colonnade at the front of the studio on Washington Boulevard in Culver City.
+  date: "2011"
+  creator: Juan Arteaga
+  license: CC BY-SA 4.0
+  license_reason: Creative Commons Attribution-Share Alike 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AMGM_Studios.JPG
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-mirabito-stadium-binghamton-creatures
+  src: /media/images/locations/mirabito-stadium-binghamton-creatures.webp
+  small: /media/images/locations/mirabito-stadium-binghamton-creatures-320.webp
+  width: 640
+  height: 479
+  records:
+    - locations/mirabito-stadium-binghamton-creatures
+  role: place
+  title: Mirabito Stadium, Binghamton, New York (2024)
+  alt: Rows of blue seats along the baseline of Mirabito Stadium, looking out over the field.
+  date: "2024"
+  creator: Quintin Soloviev
+  license: CC BY 4.0
+  license_reason: Creative Commons Attribution 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AMirabito_Stadium_-_Binghampton%2C_NY.png
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-moorpark-college
+  src: /media/images/locations/moorpark-college.webp
+  small: /media/images/locations/moorpark-college-320.webp
+  width: 640
+  height: 426
+  records:
+    - locations/moorpark-college
+  role: place
+  title: Moorpark College Academic Center (2024)
+  alt: The flat-roofed Academic Center at Moorpark College among shrubs, with hills behind.
+  date: "2024"
+  creator: CBeli001
+  license: CC0
+  license_reason: Creative Commons Zero, Public Domain Dedication
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File%3AMoorpark_College_Academic_Center.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-olancha-dunes-hundred-yards-over-the-rim
+  src: /media/images/locations/olancha-dunes-hundred-yards-over-the-rim.webp
+  small: /media/images/locations/olancha-dunes-hundred-yards-over-the-rim-320.webp
+  width: 640
+  height: 480
+  records:
+    - locations/olancha-dunes-hundred-yards-over-the-rim
+  role: place
+  title: Olancha Dunes (2009)
+  alt: A desert highway beside sand flats at Olancha, with the Sierra Nevada rising behind.
+  date: "2009"
+  creator: bowtiemanixx
+  license: CC BY 3.0
+  license_reason: Creative Commons Attribution 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AOlancha_Dunes_-_panoramio.jpg
+  source_name: Wikimedia Commons
+  original_source: Panoramio (archived copy)
+- id: locations-pacific-ocean-park-santa-monica
+  src: /media/images/locations/pacific-ocean-park-santa-monica.webp
+  small: /media/images/locations/pacific-ocean-park-santa-monica-320.webp
+  width: 640
+  height: 982
+  records:
+    - locations/pacific-ocean-park-santa-monica
+  role: place
+  title: Postcard photo of the entrance to Pacific Ocean Park, Santa Monica (before 1963)
+  alt: Colour postcard of the Pacific Ocean Park entrance, with a tall sea-horse and bubble sculpture over the gate.
+  date: before 1963
+  creator: Pacific Ocean Park
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AEntrance_Pacific_Ocean_Park.jpg
+  source_name: Wikimedia Commons
+  original_source: Original postcard, front and back scanned (sold on eBay)
+- id: locations-pacific-ocean-park-santa-monica-2
+  src: /media/images/locations/pacific-ocean-park-santa-monica-2.webp
+  small: /media/images/locations/pacific-ocean-park-santa-monica-2-320.webp
+  width: 640
+  height: 395
+  records:
+    - locations/pacific-ocean-park-santa-monica
+  role: place
+  title: Postcard photo of an aerial view of Pacific Ocean Park, Santa Monica (before 1968)
+  alt: Colour aerial postcard of Pacific Ocean Park on its pier, reaching from the Santa Monica shore into the sea.
+  date: before 1968
+  creator: Mitock and Sons, North Hollywood
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AAerial_view_of_Pacific_Ocean_Park.jpg
+  source_name: Wikimedia Commons
+  original_source: Original postcard, front and back scanned (sold on eBay)
 - id: locations-rod-serling-grave-lake-view-cemetery
   src: /media/images/locations/rod-serling-grave-lake-view-cemetery.webp
   small: /media/images/locations/rod-serling-grave-lake-view-cemetery-320.webp
@@ -995,6 +1100,41 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AElmira_College_entry_gate.jpg
   source_name: Wikimedia Commons
   original_source: Own work
+- id: organizations-ithaca-college
+  src: /media/images/organizations/ithaca-college.webp
+  small: /media/images/organizations/ithaca-college-320.webp
+  width: 640
+  height: 237
+  records:
+    - organizations/ithaca-college
+  role: organization
+  title: Ithaca College, viewed from Eddy Street (2020)
+  alt: Ithaca College buildings on a wooded hillside above the town, seen across bare winter trees.
+  date: "2020"
+  creator: Kenneth C. Zirkel
+  license: CC BY-SA 4.0
+  license_reason: Creative Commons Attribution-Share Alike 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AView_of_Ithaca_College_from_Eddy_Street.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: organizations-metro-goldwyn-mayer
+  src: /media/images/organizations/metro-goldwyn-mayer.webp
+  small: /media/images/organizations/metro-goldwyn-mayer-320.webp
+  width: 640
+  height: 452
+  records:
+    - organizations/metro-goldwyn-mayer
+    - locations/mgm-lot-1-culver-city-stages
+  role: organization
+  title: The colonnade of the Triangle Film studio in Culver City, later the front of Metro-Goldwyn-Mayer (1916)
+  alt: Black-and-white photograph of the studio colonnade in Culver City, with a vintage car parked in front.
+  date: "1916"
+  creator: Unknown photographer
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AMGM_Studios_%2800071567%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Los Angeles Public Library photo collection (item 00071567)
 - id: people-bill-mumy
   src: /media/images/people/bill-mumy.webp
   small: /media/images/people/bill-mumy-320.webp
