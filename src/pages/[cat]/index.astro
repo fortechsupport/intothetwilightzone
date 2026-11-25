@@ -3,6 +3,8 @@
 // sortable, filterable index of every entry. Categories show their subcategories with counts and
 // previews, then the people, places, organizations and media connected to them.
 import Base from '../../layouts/Base.astro';
+import RecordArt from '../../components/RecordArt.astro';
+import { motifForCategory } from '../../lib/motifs';
 import EntryList from '../../components/EntryList.astro';
 import EntityIndex from '../../components/EntityIndex.astro';
 import EntityFinder from '../../components/EntityFinder.astro';
@@ -41,9 +43,14 @@ const finderFacets = movieFacets(c.slug, finderEntries);
 const NOUN: Record<string, string> = { people: 'people', places: 'places', organizations: 'organizations' };
 ---
 <Base title={c.title} description={c.description}>
+  <div class="page-head has-art">
+  <div>
   <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a>{group && <> / <a href={group.href}>{group.title}</a></>}</p>
   <h1>{c.title} {c.isNew && <span class="tag new" title="Added during research; Adam decides whether to keep it">new</span>}</h1>
   <p class="lead">{total.toLocaleString('en-US')} {total === 1 ? 'entry' : 'entries'}{section ? `, in ${subs.length} kinds` : ` in ${subs.length} ${subs.length === 1 ? 'subcategory' : 'subcategories'}`}{canSplit && totalOff > 0 && totalOff < total && `, ${totalOff.toLocaleString('en-US')} official and ${(total - totalOff).toLocaleString('en-US')} unofficial or inspired`}.</p>
+  </div>
+  <RecordArt title={c.title} motif={motifForCategory(c.slug)} />
+  </div>
   {split && <LetterNav base={`/${c.slug}/a-z/`} letters={letters} label={`Browse ${c.title.toLowerCase()} A to Z`} />}
   {c.intro.map((p) => <p set:html={p} />)}
   <aside class="tz-link">

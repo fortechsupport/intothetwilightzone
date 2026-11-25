@@ -1,0 +1,27 @@
+---
+// An original illustration for a record with no credited picture (decision 0009): the record type's motif in
+// the middle of the turning rings the home page uses, or a monogram for a person. Decorative, so hidden from
+// screen readers; drawn in the theme's colors so it suits every theme.
+import { MOTIF_PATHS, motifFor, initials, type Motif } from '../lib/motifs';
+interface Props { col?: string; type?: string; title: string; size?: 'header' | 'card'; motif?: Motif }
+const { col = '', type = '', title, size = 'header', motif: given } = Astro.props;
+const motif = given ?? motifFor(col, type);
+const mono = col === 'people' ? initials(title) : '';
+// A stable small variation per record so neighbouring pages don't look identical.
+let h = 0; for (const c of title) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+const tilt = (h % 50) - 25, r1 = 70 + (h % 9), dots = [0, 1, 2, 3, 4].map((i) => ((h >> (i * 3)) % 360));
+---
+<div class={`tz-art tz-art-${size}`} aria-hidden="true">
+  <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice" focusable="false">
+    <g class="tz-art-rings" style={`transform: rotate(${tilt}deg)`}>
+      <ellipse cx="150" cy="100" rx={r1 + 60} ry={r1 + 22} />
+      <ellipse cx="150" cy="100" rx={r1 + 30} ry={r1 - 4} />
+      <ellipse cx="150" cy="100" rx={r1} ry={r1 - 28} />
+      {dots.map((a, i) => <circle class="tz-art-dot" cx={150 + Math.cos(a) * (r1 + 60 - i * 10)} cy={100 + Math.sin(a) * (r1 + 22 - i * 6)} r="1.6" />)}
+    </g>
+    <circle class="tz-art-glow" cx="150" cy="100" r="46" />
+    {mono
+      ? <text class="tz-art-mono" x="150" y="100" text-anchor="middle" dominant-baseline="central">{mono}</text>
+      : <g class="tz-art-motif" transform="translate(114 64) scale(1.5)" set:html={MOTIF_PATHS[motif]} />}
+  </svg>
+</div>

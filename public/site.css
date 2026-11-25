@@ -239,7 +239,21 @@ a.card:hover { border-color: var(--brass); color: var(--text); background: var(-
 .tz-figure figcaption { margin-top: 6px; font-size: var(--step--2); line-height: 1.4; color: var(--muted); }
 .tz-figure-title { display: block; color: var(--text-soft); font-size: var(--step--1); margin-bottom: 2px; }
 .tz-figure-credit a { color: var(--muted); }
+/* The site's own illustration where no picture exists (RecordArt). */
+.page-head.has-art { display: grid; grid-template-columns: minmax(0, 1fr) 240px; column-gap: var(--space-6); align-items: center; }
+.verb-head.has-art { display: grid; grid-template-columns: minmax(0, 1fr) 280px; column-gap: var(--space-6); align-items: center; }
+.tz-art { border: 1px solid var(--line); border-radius: var(--radius-md); background: radial-gradient(ellipse at 50% 50%, var(--surface-2), var(--surface) 70%); overflow: hidden; }
+.tz-art svg { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; }
+.tz-art-rings { transform-origin: 150px 100px; transform-box: view-box; }
+.tz-art-rings ellipse { fill: none; stroke: var(--line-strong); stroke-width: 1; opacity: .55; }
+.tz-art-dot { fill: var(--brass); opacity: .7; }
+.tz-art-glow { fill: color-mix(in srgb, var(--brass) 9%, transparent); }
+.tz-art-motif { fill: none; stroke: var(--brass); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.tz-art-mono { font-family: var(--font-display); font-size: 46px; fill: var(--brass); letter-spacing: .04em; }
 .tz-figure-credit a:hover { color: var(--text); }
+.record-gallery { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: var(--space-4); margin-top: var(--space-5); }
+.tz-figure-thumb img { aspect-ratio: 4 / 3; object-fit: cover; object-position: center 25%; }
+.tz-figure-thumb .tz-figure-title { font-size: var(--step--2); }
 .record-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: var(--space-3); }
 
 /* The facts table reads like a studio spec sheet: label column, hairline rows. */
@@ -407,7 +421,13 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
   .hero-stats strong { font-size: 1.5rem; }
   .record-head { margin-top: 0; }
   .record-head.has-figure { grid-template-columns: minmax(0, 1fr); }
-  .record-head.has-figure .tz-figure { margin-top: var(--space-4); max-width: 420px; }
+  .record-head.has-figure .tz-figure-header { margin-top: var(--space-4); max-width: 420px; }
+  .tz-figure-header img { max-height: 300px; }
+  .record-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3); }
+  .verb-head.has-art, .page-head.has-art { grid-template-columns: minmax(0, 1fr); }
+  .verb-head.has-art .tz-art, .page-head.has-art .tz-art { display: none; }
+  .record-head.has-figure .tz-art { margin-top: var(--space-4); max-width: 420px; }
+  .record-head.has-figure .tz-art svg { aspect-ratio: 3 / 1; }
   /* One line each on phones so the title stays high; they scroll sideways instead of cutting links off. */
   .breadcrumb { font-size: var(--step--2); margin-bottom: 4px; white-space: nowrap; overflow-x: auto; scrollbar-width: none; }
   p.also-in.muted { white-space: nowrap; overflow-x: auto; scrollbar-width: none; font-size: var(--step--2); }
@@ -480,6 +500,8 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
   :root[data-theme="original"] body::after { animation: tz-grain .8s steps(4) infinite; }
   @keyframes tz-grain { 0% { transform: translate(0, 0); } 25% { transform: translate(-3%, 2%); } 50% { transform: translate(2%, -3%); } 75% { transform: translate(-2%, -1%); } 100% { transform: translate(0, 0); } }
   .tz-figure-img img { transition: transform .4s ease; }
+  .tz-art-rings ellipse:nth-child(2) { animation: tz-turn-slow 120s linear infinite; transform-origin: 150px 100px; }
+  @keyframes tz-turn-slow { to { transform: rotate(360deg); } }
   .tz-figure-img:hover img { transform: scale(1.02); }
 }
 

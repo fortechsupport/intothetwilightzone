@@ -3,6 +3,9 @@
 // people, places, organizations and media most connected to everything under it.
 import Base from '../layouts/Base.astro';
 import SectionSummary from './SectionSummary.astro';
+import RecordArt from './RecordArt.astro';
+import type { Motif } from '../lib/motifs';
+const VERB_MOTIF: Record<string, Motif> = { watch: 'tv', listen: 'radio', read: 'book', play: 'die', collect: 'disc', attend: 'ticket', discover: 'door', meet: 'mask', visit: 'pin' };
 import { navModel } from '../lib/nav';
 import { catalog } from '../lib/catalog';
 import { VERBS } from '../lib/taxonomy.mjs';
@@ -16,12 +19,15 @@ const entries = isDir ? [] : [...new Map(def.categories.flatMap((c) => cats.get(
 const SPLIT = 'Each category shows official items (made, licensed or published by the franchise or by Rod Serling) and unofficial or inspired ones on separate shelves.';
 ---
 <Base title={v.title} description={`${v.title}: ${v.blurb}`}>
-  <header class="verb-head">
+  <header class="verb-head has-art">
+    <div>
     <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a></p>
     <p class="kicker">{v.n.toLocaleString('en-US')} entries · {v.cols.filter((c) => !c.live).length} categories</p>
     <h1>{v.title}</h1>
     <p class="lead">{v.blurb}</p>
     {!isDir && <p class="small muted">{SPLIT} Reviews, interviews, clips and documents appear on the pages they belong to, and all together in the <a href="/media/">Media Library</a>.</p>}
+    </div>
+    <RecordArt title={v.title} motif={VERB_MOTIF[slug] ?? 'door'} />
   </header>
   <div class="grid">
     {v.cols.map((c) => (
