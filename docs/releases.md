@@ -3,6 +3,15 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-25 — 8 more filming-location and studio photographs
+
+Visitors can now:
+- See credited photographs of MGM's Culver City studio (today and as the Triangle studio in 1916), Pacific Ocean Park in
+  two period postcards, the Olancha Dunes, Moorpark College, Mirabito Stadium in Binghamton and Ithaca College.
+
+**Known not to work yet:**
+- About 120 more checked pictures wait on Wikimedia's download limit (roughly 8 an hour from this site's tools).
+
 ## 2026-11-25 — Cycle 5: more photographs, a friendlier 404, era themes checked on phones
 
 Visitors can now:
