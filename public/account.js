@@ -110,6 +110,7 @@
       b[0].setAttribute('aria-pressed', v.mine === b[2] ? 'true' : 'false');
     });
     group.hidden = false;
+    var box = group.closest('.record-actions'); if (box) box.removeAttribute('data-votes');
   }
   function groupsFor(key) {
     return Array.prototype.filter.call(document.querySelectorAll('.vote[data-vote-key]'), function (g) { return g.getAttribute('data-vote-key') === key; });
@@ -128,10 +129,14 @@
     fetch('/api/votes?items=' + keys.map(encodeURIComponent).join(',') + (handle ? '&me=1' : ''), { credentials: 'same-origin', cache: handle ? 'no-store' : 'default' })
       .then(function (r) { if (r.status === 503) votesOff = true; return r.ok ? r.json() : null; })
       .then(function (d) {
-        if (!d || !d.votes) return; // accounts not switched on here: leave the buttons hidden
+        if (!d || !d.votes) { votesUnavailable(keys); return; } // accounts not switched on here: leave the buttons hidden
         keys.forEach(function (k) { var v = d.votes[k]; if (v) groupsFor(k).forEach(function (g) { paintVote(g, v); }); });
       })
-      .catch(function () { keys.forEach(function (k) { delete loaded[k]; }); });
+      .catch(function () { votesUnavailable(keys); keys.forEach(function (k) { delete loaded[k]; }); });
+  }
+  // No counts to show: the actions bar stops keeping room for the vote buttons (site.css), so no empty gap remains.
+  function votesUnavailable(keys) {
+    keys.forEach(function (k) { groupsFor(k).forEach(function (g) { var box = g.closest('.record-actions'); if (box && g.hidden) box.setAttribute('data-votes', 'off'); }); });
   }
   function loadVotes(again) {
     setUpLinkVotes();

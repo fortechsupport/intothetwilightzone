@@ -12,6 +12,8 @@ Visitors can now:
 - See Ford's Theatre (outside today, in the 1860s, and the Lincoln box), Death Valley (Zabriskie Point, Mesquite Flat
   dunes, Badwater), Piru, Gastown, the Fairmont Empress, Rogers Arena, the Dachau gate, SUNY Broome, Elmira College in
   1909, the CBS Building, Paramount's gate and the American Heritage Center.
+- No longer see an empty gap in a record's buttons bar when fan votes can't load (for example offline): the space
+  kept for the vote buttons is given back.
 
 **Known not to work yet:**
 - 85 more checked pictures are still to come in the nightly runs. Two were left out because the person shown could

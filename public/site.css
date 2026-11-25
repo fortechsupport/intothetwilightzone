@@ -270,7 +270,7 @@ a.card:hover { border-color: var(--brass); color: var(--text); background: var(-
 .record-actions[data-record-key]:not([data-filled])::before { content: ""; display: block; width: 322px; height: 40px; }
 main:has(.track [data-track="favorite"]) .record-actions[data-record-key]:not([data-filled])::before { width: 214px; }
 main:has(.track [data-track="favorite"]):has(.track [data-track="later"]) .record-actions[data-record-key]:not([data-filled])::before { width: 124px; }
-.record-actions[data-filled]:has(> .vote[hidden])::before { content: ""; display: block; width: 124px; height: 40px; }
+.record-actions[data-filled]:not([data-votes="off"]):has(> .vote[hidden])::before { content: ""; display: block; width: 124px; height: 40px; }
 
 /* The facts table reads like a studio spec sheet: label column, hairline rows. */
 dl.facts { display: grid; grid-template-columns: minmax(8rem, max-content) 1fr; gap: 0; margin: var(--space-4) 0 var(--space-5); max-width: 880px; border-top: 1px solid var(--line); }
