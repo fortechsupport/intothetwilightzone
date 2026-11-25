@@ -3,6 +3,18 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-25 — 76 credited photographs
+
+Visitors can now:
+- See 76 public-domain and Creative Commons photographs across 105 records: 35 episodes of the 1959 series in their
+  CBS press photographs, 12 photographs of Rod Serling from 1943 to the 1970s, cast portraits, the Night Gallery pilot,
+  Serling's grave, Walk of Fame star and Binghamton marker, Antioch College, the Almeida Theatre and the 1986-87 trial.
+  Each is credited under the picture and in full on the Image credits page.
+
+**Known not to work yet:**
+- About 140 more checked pictures (composers, writers, revival-era people, filming locations, CBS Television City)
+  are still downloading: Wikimedia limits how fast this site's tools may fetch.
+
 ## 2026-11-25 — Photo strip on the home page, and fixes from a second read
 
 Visitors can now:

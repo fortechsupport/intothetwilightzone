@@ -5,7 +5,7 @@ import { allImages, licenseHref, recordHref } from '../../lib/images';
 import { sortKey } from '../../lib/taxonomy.mjs';
 import { mediaLibrary } from '../../lib/catalog';
 const imgs = [...allImages()].sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title)));
-const ROLE: Record<string, string> = { portrait: 'Portraits', publicity: 'Publicity photographs', place: 'Places', organization: 'Organizations' };
+const ROLE: Record<string, string> = { portrait: 'Portraits', publicity: 'Publicity photographs', place: 'Places', organization: 'Organizations', event: 'Events' };
 const groups = Object.entries(ROLE).map(([r, label]) => [label, imgs.filter((i) => i.role === r)] as const).filter(([, l]) => l.length);
 const recHref = recordHref;
 // Record titles for the "Shown on" links, from the Media Library entry each picture became.

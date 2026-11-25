@@ -15,7 +15,7 @@ export interface SiteImage {
   width: number;
   height: number;
   records: string[];     // record keys it shows; the first is its main subject
-  role: 'portrait' | 'publicity' | 'place' | 'organization';
+  role: 'portrait' | 'publicity' | 'place' | 'organization' | 'event';
   title: string;
   alt: string;
   date?: string;
