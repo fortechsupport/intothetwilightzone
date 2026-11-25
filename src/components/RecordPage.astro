@@ -50,8 +50,24 @@ const epRefs = conns.map((c) => c.data.to).filter((t) => /^\d{4}\//.test(t));
 const themes = await inheritedThemes(epRefs);
 const firstRef = refs.find((x) => x.t)?.t?.title;
 const docTitle = recordDocTitle(col, d, title, { firstRef });
+// Structured data for search engines (schema.org), built only from fields the record itself carries.
+const LD_TYPE: Record<string, string> = { books: 'Book', comics: 'CreativeWork', magazines: 'PublicationIssue', essays: 'Article', songs: 'MusicRecording', radio: 'RadioEpisode', podcasts: 'PodcastSeries', quotes: 'Quotation', archives: 'ArchiveComponent' };
+const isoDate = (v: unknown) => { const m = typeof v === 'string' || typeof v === 'number' ? String(v).match(/^\d{4}(-\d{2}(-\d{2})?)?$/) : null; return m ? m[0] : undefined; };
+const people = (v: unknown) => (Array.isArray(v) ? v : typeof v === 'string' ? [v] : []).filter((x): x is string => typeof x === 'string' && x.length > 0 && !x.includes('/')).map((name) => ({ '@type': 'Person', name }));
+const ldAuthors = [...people(d.authors), ...people(d.creators), ...(col === 'songs' ? [] : people(d.artist)), ...people(d.original_writer), ...people(d.hosts)];
+const jsonld = LD_TYPE[col] ? Object.fromEntries(Object.entries({
+  '@context': 'https://schema.org', '@type': LD_TYPE[col], name: col === 'quotes' ? undefined : title,
+  text: col === 'quotes' ? d.text : undefined,
+  author: col === 'quotes' && d.person ? { '@type': 'Person', name: d.person } : ldAuthors.length ? ldAuthors : undefined,
+  publisher: typeof d.publisher === 'string' ? { '@type': 'Organization', name: d.publisher } : undefined,
+  datePublished: isoDate(d.published ?? d.cover_date ?? d.broadcast_date ?? d.year ?? d.first_episode ?? d.date),
+  isbn: col === 'books' ? d.isbn : undefined,
+  holdingArchive: col === 'archives' && d.institution ? { '@type': 'ArchiveOrganization', name: d.institution } : undefined,
+  description: text ? text.slice(0, 300) : undefined,
+  url: new URL(Astro.url.pathname, 'https://intothetwilightzone.com').href,
+}).filter(([, v]) => v !== undefined && v !== '')) : undefined;
 ---
-<Base title={docTitle} description={text ? text.slice(0, 155) : `${title}: its connection to The Twilight Zone.`}>
+<Base title={docTitle} description={text ? text.slice(0, 155) : `${title}: its connection to The Twilight Zone.`} jsonld={jsonld}>
   <InCategories recKey={key} />
   <RecordHeader type={type ?? recordType(col, d)} context={context ?? recordContext(col, d, { firstRef })} title={title} recKey={key} />
   {(() => { const t = trackFor(col, d.kind); return (t.seen || t.own) && <TrackButtons recKey={key} seen={t.seen} own={t.own} />; })()}

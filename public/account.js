@@ -59,9 +59,15 @@
       if (!has('favorite')) html += '<button type="button" class="track-btn" data-track="favorite" data-key="' + esc(key) + '" aria-pressed="false"><span aria-hidden="true" class="tick"></span>Favorite</button>';
       if (!has('later')) html += '<button type="button" class="track-btn" data-track="later" data-key="' + esc(key) + '" aria-pressed="false"><span aria-hidden="true" class="tick"></span>Later</button>';
       html += voteGroup(key);
-      html += '<a class="action-link" href=' + "'" + '/community/discuss/?item=' + encodeURIComponent(key) + "'" + '>Discuss</a>';
-      html += '<a class="action-link" href=' + "'" + '/community/uploads/?item=' + encodeURIComponent(key) + "'" + '>Fan contributions</a>';
-      box.insertAdjacentHTML('beforeend', html);
+      // The page may already carry the Discuss and Fan contributions links (RecordHeader renders them so the bar
+      // keeps its height while this script loads); the buttons then go in front of them.
+      var firstLink = box.querySelector('.action-link');
+      if (firstLink) { firstLink.insertAdjacentHTML('beforebegin', html); }
+      else {
+        html += '<a class="action-link" href=' + "'" + '/community/discuss/?item=' + encodeURIComponent(key) + "'" + '>Discuss</a>';
+        html += '<a class="action-link" href=' + "'" + '/community/uploads/?item=' + encodeURIComponent(key) + "'" + '>Fan contributions</a>';
+        box.insertAdjacentHTML('beforeend', html);
+      }
       box.setAttribute('data-filled', '1');
     });
     document.dispatchEvent(new Event('tz:repaint'));

@@ -70,6 +70,11 @@ His answers to the four scoping questions (15:23 UTC):
   accident with respect). The 1986-87 trial photograph is hosted, under a new "Events" group.
 - Not linked: a Janice Rule and Terry Burnham press photo whose page names no episode; tying it to "Nightmare as a
   Child" would be an inference, so it is filed only under the two actors.
+- Cycle 6 (Adam said "continue", 2026-11-25 22:01 UTC): fixed layout shift (space held for the account buttons, votes
+  and search box; metric-matched fallback fonts), added a layout-shift check to `check:a11y`, a year's cache for
+  fonts and a week's for photos, a sitemap, and structured data on the record types that lacked it. The
+  Discuss and Fan contributions links are now rendered by RecordHeader; public/account.js (fan accounts work) puts
+  its buttons in front of them instead of adding the links itself.
 
 ## Waiting on Adam
 

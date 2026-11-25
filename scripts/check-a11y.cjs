@@ -4,7 +4,8 @@
 //   node scripts/check-a11y.cjs [baseUrl]      (default http://localhost:4321, run `npm run preview` first)
 //
 // For each page: axe-core (WCAG 2.2 A and AA rules) must report no violations; at 320 x 640 nothing
-// may scroll sideways and the page's h1 must start in the top third of the screen (213 px).
+// may scroll sideways and the page's h1 must start in the top third of the screen (213 px). A sample of pages
+// must not jump while loading on a slow phone connection (layout shift at most 0.1).
 // Needs Playwright: `npm i --no-save playwright && npx playwright install chromium` (CI does this).
 const { chromium } = require('playwright');
 const fs = require('fs');
@@ -87,7 +88,23 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
     if (m.clipped.length) { failures++; console.log(`✗ [320px] ${p}: ${m.clipped.length} element(s) run past the right edge, e.g. ${m.clipped.slice(0, 3).join(', ')}`); }
     if (m.h1 === null || m.h1 > 213) { failures++; console.log(`✗ [320px] ${p}: h1 starts at ${m.h1}px (limit 213)`); }
   }
+  // Layout stability: on a slow phone connection a page must not jump as fonts, scripts and the actions bar arrive
+  // (cumulative layout shift at most 0.1, the "good" Core Web Vitals limit).
+  const STABLE = [...SAMPLE, '/places/willoughby/', '/organizations/cayuga-productions/', '/films/duel-1971/', '/books/more-stories-from-the-twilight-zone/', '/series/1959/'];
+  for (const p of STABLE) {
+    const c = await browser.newContext({ viewport: { width: 390, height: 844 } });
+    const pg = await c.newPage();
+    const cdp = await c.newCDPSession(pg);
+    await cdp.send('Network.enable');
+    await cdp.send('Network.emulateNetworkConditions', { offline: false, latency: 150, downloadThroughput: 200000, uploadThroughput: 94000 });
+    await pg.addInitScript(() => { window.__cls = 0; new PerformanceObserver((l) => { for (const e of l.getEntries()) if (!e.hadRecentInput) window.__cls += e.value; }).observe({ type: 'layout-shift', buffered: true }); });
+    await pg.goto(base + p, { waitUntil: 'load' });
+    await pg.waitForTimeout(1500);
+    const cls = await pg.evaluate(() => window.__cls);
+    if (cls > 0.1) { failures++; console.log(`✗ [layout shift] ${p}: ${cls.toFixed(3)} (limit 0.1)`); }
+    await c.close();
+  }
   await browser.close();
-  console.log(failures ? `${failures} accessibility/layout findings.` : `✓ ${PAGES.length} pages: no axe violations in dark or light (or the four era themes on a sample), no sideways scroll, titles in the top third at 320 x 640.`);
+  console.log(failures ? `${failures} accessibility/layout findings.` : `✓ ${PAGES.length} pages: no axe violations in dark or light (or the four era themes on a sample), no sideways scroll, titles in the top third at 320 x 640, no layout shift over 0.1 on a slow phone.`);
   process.exit(failures ? 1 : 0);
 })();
