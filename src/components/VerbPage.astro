@@ -18,7 +18,7 @@ const SPLIT = 'Each category shows official items (made, licensed or published b
 <Base title={v.title} description={`${v.title}: ${v.blurb}`}>
   <header class="verb-head">
     <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a></p>
-    <p class="kicker">{v.n.toLocaleString('en-US')} entries · {v.cols.length} categories</p>
+    <p class="kicker">{v.n.toLocaleString('en-US')} entries · {v.cols.filter((c) => !c.live).length} categories</p>
     <h1>{v.title}</h1>
     <p class="lead">{v.blurb}</p>
     {!isDir && <p class="small muted">{SPLIT} Reviews, interviews, clips and documents appear on the pages they belong to, and all together in the <a href="/media/">Media Library</a>.</p>}
@@ -26,7 +26,7 @@ const SPLIT = 'Each category shows official items (made, licensed or published b
   <div class="grid">
     {v.cols.map((c) => (
       <a class="card" href={c.href}>
-        <span class="count">{c.n.toLocaleString('en-US')}</span>
+        {c.live ? <span class="count">Join in</span> : <span class="count">{c.n.toLocaleString('en-US')}</span>}
         <h3>{c.title}{c.isNew && <span class="tag new">new</span>}</h3>
         {c.blurb && <p>{c.blurb}</p>}
         {c.subs.length > 0 && <p class="small muted">{c.subs.map((x) => x.title).join(' · ')}</p>}

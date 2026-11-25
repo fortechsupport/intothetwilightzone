@@ -17,7 +17,7 @@ const PAGES = [
   '/films/duel-1971/', '/songs/iron-maiden-twilight-zone/', '/radio/a-stop-at-willoughby/', '/radio/twilight-zone-radio-dramas-series/', '/radio/radio-dramas/', '/radio/serling-radio/', '/stage/serling-on-stage/', '/films/the-twilight-zone-stage-play/', '/books/more-stories-from-the-twilight-zone/', '/books/to-serve-man-knight-story/', '/reading/source-stories/',
   '/places/willoughby/', '/organizations/cayuga-productions/', '/characters/the-gremlin-nightmare-at-20-000-feet/',
   '/media/', '/media/reviews/', '/podcasts/episodes/', '/podcasts/shows/', '/search/', '/timeline/', '/timeline/1960s/', '/people/a-z/s/', '/rod-serling/', '/night-gallery/', '/categories/', '/about/', '/my-zone/', '/map/', '/finder/', '/themes/', '/themes/the-uncanny/', '/404.html',
-  '/account/', '/community/', '/community/guidelines/', '/community/uploads/', '/contribute/suggest/', '/contribute/share/', '/moderation/', '/privacy/', '/terms/', '/copyright/',
+  '/account/', '/community/', '/community/guidelines/', '/community/uploads/', '/contribute/suggest/', '/contribute/share/', '/moderation/', '/privacy/', '/terms/', '/copyright/', '/credits/images/',
 ];
 const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');
 
@@ -43,8 +43,20 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
   const page = await phone.newPage();
   for (const p of PAGES) {
     await page.goto(base + p, { waitUntil: 'load' });
-    const m = await page.evaluate(() => ({ overflow: document.documentElement.scrollWidth - innerWidth, h1: document.querySelector('h1')?.getBoundingClientRect().top ?? null }));
+    const m = await page.evaluate(() => {
+      // Content cut off at the right edge, even when nothing scrolls (a clipped grid column hides it from scrollWidth).
+      // Elements inside a sideways-scrolling box (tables, the breadcrumb) are fine.
+      const scrolls = (el) => { for (let e = el.parentElement; e; e = e.parentElement) { const o = getComputedStyle(e).overflowX; if (o === 'auto' || o === 'scroll') return true; } return false; };
+      const clipped = [];
+      for (const el of document.querySelectorAll('main *')) {
+        if (el.closest('.leaflet-container')) continue; // map tiles are meant to run past the frame
+        const r = el.getBoundingClientRect();
+        if (r.width > 1 && r.height > 1 && r.right > innerWidth + 1 && !scrolls(el)) clipped.push(el.tagName.toLowerCase() + (el.className && typeof el.className === 'string' ? '.' + el.className.trim().split(/\s+/).join('.') : ''));
+      }
+      return { overflow: document.documentElement.scrollWidth - innerWidth, h1: document.querySelector('h1')?.getBoundingClientRect().top ?? null, clipped };
+    });
     if (m.overflow > 1) { failures++; console.log(`✗ [320px] ${p}: scrolls sideways by ${m.overflow}px`); }
+    if (m.clipped.length) { failures++; console.log(`✗ [320px] ${p}: ${m.clipped.length} element(s) run past the right edge, e.g. ${m.clipped.slice(0, 3).join(', ')}`); }
     if (m.h1 === null || m.h1 > 213) { failures++; console.log(`✗ [320px] ${p}: h1 starts at ${m.h1}px (limit 213)`); }
   }
   await browser.close();
