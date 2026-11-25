@@ -1,18 +1,50 @@
 ---
 import Base from '../layouts/Base.astro';
+import { navModel } from '../lib/nav';
+const verbs = await navModel();
+// Starting points shown before anything is typed: well-known episodes, people, places and characters.
+const TRY = ['Time Enough at Last', 'Rod Serling', 'Night Gallery', 'Talky Tina', 'Willoughby', 'Richard Matheson', 'Nightmare at 20,000 Feet', 'Jordan Peele'];
 ---
 <Base title="Search" noindex>
   <h1>Search</h1>
   <p class="small muted">Narrow results with the filters beside them: type, series, decade, writer and theme. To combine actors, directors, seasons and themes on episodes, use the <a href="/finder/">episode finder</a>.</p>
   <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
   <div id="search"></div>
+  <div class="search-start" id="search-start" data-pagefind-ignore>
+    <h2>Try a search</h2>
+    <ul class="chips">{TRY.map((t) => <li><a href={`/search/?q=${encodeURIComponent(t)}`} data-q={t}>{t}</a></li>)}</ul>
+    <h2>Or browse</h2>
+    <ul class="chips">{verbs.map((v) => <li><a href={v.href}>{v.title} <span class="n">{v.n.toLocaleString('en-US')}</span></a></li>)}<li><a href="/categories/">Everything A to Z</a></li><li><a href="/media/">Media Library</a></li></ul>
+  </div>
   <script is:inline src="/pagefind/pagefind-ui.js"></script>
   <script is:inline>
     window.addEventListener('DOMContentLoaded', () => {
-      const ui = new PagefindUI({ element: '#search', showSubResults: true, showImages: false });
+      const ui = new PagefindUI({ element: '#search', showSubResults: true, showImages: true, resetStyles: false });
+      const start = document.getElementById('search-start');
       const q = new URLSearchParams(location.search).get('q');
-      if (q) ui.triggerSearch(q);
+      if (q) { ui.triggerSearch(q); start.hidden = true; }
       else setTimeout(() => document.querySelector('.pagefind-ui__search-input')?.focus(), 50);
+      // Hide the starting points while a search is showing, and keep the address in step so results can be shared.
+      document.addEventListener('input', (e) => {
+        if (!e.target.matches?.('.pagefind-ui__search-input')) return;
+        const v = e.target.value.trim();
+        start.hidden = v.length > 0;
+        const u = new URL(location.href); if (v) u.searchParams.set('q', v); else u.searchParams.delete('q');
+        history.replaceState(null, '', u);
+      });
+      start.addEventListener('click', (e) => {
+        const a = e.target.closest('a[data-q]'); if (!a) return;
+        e.preventDefault(); ui.triggerSearch(a.dataset.q); start.hidden = true;
+        history.replaceState(null, '', a.href);
+      });
     });
   </script>
 </Base>
+<style>
+  .search-start { margin-top: var(--space-5); }
+  .search-start h2 { font-size: var(--step-1); margin: var(--space-5) 0 var(--space-3); }
+  .chips { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+  .chips a { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 4px 14px; border: 1px solid var(--line-strong); border-radius: var(--radius-pill); text-decoration: none; color: var(--text); }
+  .chips a:hover { border-color: var(--brass); color: var(--brass); }
+  .chips .n { color: var(--muted); font-size: var(--step--2); }
+</style>

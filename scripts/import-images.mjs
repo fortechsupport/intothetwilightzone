@@ -27,6 +27,7 @@ const refused = [];
 for (const m of items) {
   const why = [];
   if (!m.creator) why.push('no creator');
+  else if (m.creator.length > 100) why.push('creator credit over 100 characters (move detail to creator_note)');
   if (!OK_LICENSE.test(m.license ?? '')) why.push(`license "${m.license}"`);
   if (!/^https:\/\//.test(m.source_url ?? '')) why.push('no source page');
   if (!m.records?.length) why.push('no record');
@@ -46,7 +47,7 @@ for (const m of items) {
   const entry = {
     id, src: `/media/images/${collection}/${stem}.webp`, small: `/media/images/${collection}/${stem}-320.webp`,
     width: info.width, height: info.height, records: m.records, role: m.role, title: m.title, alt: m.alt,
-    ...(m.date ? { date: String(m.date) } : {}), creator: m.creator, license: m.license,
+    ...(m.date ? { date: String(m.date) } : {}), creator: m.creator, ...(m.creator_note ? { creator_note: m.creator_note } : {}), license: m.license,
     ...(m.license_reason ? { license_reason: m.license_reason } : {}), ...(m.license_url ? { license_url: m.license_url } : {}),
     source_url: m.source_url, source_name: sourceName(m.source_url), ...(m.original_source ? { original_source: m.original_source } : {}),
   };

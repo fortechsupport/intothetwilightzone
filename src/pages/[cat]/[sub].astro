@@ -2,6 +2,8 @@
 // A subcategory landing page: intro, connection, then every entry A-Z. In categories that split, the list
 // comes in two parts, Official and Unofficial and inspired; within each, groups with counts and a letter index.
 import Base from '../../layouts/Base.astro';
+import RecordArt from '../../components/RecordArt.astro';
+import { motifForCategory } from '../../lib/motifs';
 import EntryList from '../../components/EntryList.astro';
 import SectionSummary from '../../components/SectionSummary.astro';
 import ListTools from '../../components/ListTools.astro';
@@ -62,9 +64,14 @@ const facetDefs = movieFacets(c.slug, s.entries);
 const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
 ---
 <Base title={`${s.title}: ${c.title}`} description={`${s.title} (${c.title}): ${s.blurb}`}>
+  <div class="page-head has-art">
+  <div>
   <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a>{(() => { const g = verbOf(c.slug); return g ? <> / <a href={g.href}>{g.title}</a></> : null; })()} / <a href={`/${c.slug}/`}>{c.title}</a></p>
   <h1>{s.title} {(s.isNew || c.isNew) && <span class="tag new" title="Added during research; Adam decides whether to keep it">new</span>}</h1>
   <p class="lead">{s.entries.length.toLocaleString('en-US')} {s.entries.length === 1 ? 'entry' : 'entries'}{split && `: ${off.length.toLocaleString('en-US')} official, ${unoff.length.toLocaleString('en-US')} unofficial and inspired`}. {s.blurb}</p>
+  </div>
+  <RecordArt title={s.title} motif={motifForCategory(c.slug)} />
+  </div>
   {s.intro && <p>{s.intro}</p>}
   <aside class="tz-link">
     <h2>How this connects to The Twilight Zone</h2>

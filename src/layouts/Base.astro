@@ -1,4 +1,5 @@
 ---
+import { imagesFor } from '../lib/images';
 interface Props {
   title: string;
   description?: string;
@@ -15,6 +16,9 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
 // its links and the footer's live in src/lib/site-links.ts. On phones the verbs fold into one Menu button.
 import { navModel } from '../lib/nav';
 const verbs = await navModel();
+// A record's own credited picture becomes its link preview image (src/lib/images.ts).
+const ogKey = (() => { const [c, ...rest] = Astro.url.pathname.split('/').filter(Boolean); return c && rest.length ? `${c === 'places' ? 'locations' : c}/${rest.join('/')}` : undefined; })();
+const ogImage = imagesFor(ogKey)[0];
 // The Theme menu (design/tokens.json): the house themes, then one evoking each era of the show.
 const THEMES: [string, string][] = [['auto', 'Your device'], ['midnight', 'Midnight'], ['paper', 'Paper'], ['original', '1959 Original'], ['neon', '1985 Neon'], ['steel', '2002 Steel'], ['crimson', '2019 Crimson']];
 import { UTILITY_LINKS, FOOTER_COLUMNS, FOOTER_LINKS } from '../lib/site-links';
@@ -48,7 +52,8 @@ const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) =>
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={new URL('/og-default.png', Astro.site)} />
+    <meta property="og:image" content={new URL(ogImage?.src ?? '/og-default.png', Astro.site)} />
+    {ogImage && <meta property="og:image:alt" content={ogImage.alt} />}
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="#08090f" media="(prefers-color-scheme: dark)" />
     <meta name="theme-color" content="#f3eee2" media="(prefers-color-scheme: light)" />

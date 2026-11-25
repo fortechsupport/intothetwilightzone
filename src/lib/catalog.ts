@@ -1,6 +1,7 @@
 // Builds the site catalogue: every record (and a few derived entries such as home-media releases
 // and production-history events) placed into the taxonomy in src/lib/taxonomy.mjs, as list items
 // ready for the category and subcategory landing pages.
+import { allImages } from './images';
 import { getCollection } from 'astro:content';
 import { allEpisodes, allPeople, episodeNumber, splitCredit, CONNECTION_LABELS, CONFIDENCE_LABELS } from './data';
 import { assess } from './assessments';
@@ -419,6 +420,12 @@ export async function catalog(): Promise<Map<string, CatInfo>> {
   }
   // Organization records' own media.
   for (const r of data.organizations) for (const m of r.data.media ?? []) addMedia(m, { key: `organizations/${r.id}`, title: r.data.name, href: `/organizations/${r.id}/` });
+  // The site's credited pictures (src/lib/images.ts) join the library as images on the records they show.
+  for (const img of allImages()) for (const k of img.records) {
+    const t = describeKey(k);
+    if (t) addMedia({ type: 'image', subtype: img.role === 'publicity' ? 'publicity photo' : img.role, title: img.title, url: img.source_url, file: img.src,
+      rights: img.license === 'Public domain' ? 'public-domain' : 'cc', creator: img.creator, host: img.source_name, date: img.date }, { key: k, ...t });
+  }
   // Where each library item appears: its records, and every category and subcategory page listing them.
   const libBy = new Map<string, LibItem[]>();
   for (const it of library.values()) {

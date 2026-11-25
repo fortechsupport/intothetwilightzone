@@ -3,6 +3,24 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-25 — A picture on every page
+
+Visitors can now:
+- See a photograph beside the title of records that have a public-domain or Creative Commons one: so far Rod Serling
+  and 31 publicity photographs of the 1959 series and its cast, each with its maker, license and source under it and
+  in full on the Image credits page. A record with several pictures shows the rest beneath its title.
+- See an illustration drawn for this site on every other record page (a television for episodes, a reel for films,
+  a record for songs, a pin for places, a monogram for people...) and on every Watch, Listen, Read... page and
+  category page, in the colors of the chosen theme (decision 0009).
+- Find the pictures in the Media Library and on the records they show, and see a record's own photograph when its
+  page is shared in a message or post.
+- Search with suggestions to start from and every section to browse, see pictures beside results, and share a
+  search by its address.
+
+**Known not to work yet:**
+- Most people, places and later series have no free picture yet; more are being added.
+- Phones skip the illustration on Watch, Listen and category pages to keep lists near the top.
+
 ## 2026-11-25 — Choose a theme from the show's eras
 
 Visitors can now:

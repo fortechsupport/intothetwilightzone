@@ -20,6 +20,7 @@ export interface SiteImage {
   alt: string;
   date?: string;
   creator: string;
+  creator_note?: string; // more about the maker or distributor, shown on the credits page
   license: string;       // "Public domain", "CC BY-SA 4.0"
   license_reason?: string;
   license_url?: string;

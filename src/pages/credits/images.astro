@@ -37,7 +37,7 @@ const recHref = (k: string) => {
             <div>
               <p class="credit-title">{i.title}{i.date && !i.title.includes(i.date) ? `, ${i.date}` : ''}</p>
               <p class="small">
-                By {i.creator}. <a href={licenseHref(i)}>{i.license}</a>{i.license_reason && <>: {i.license_reason}</>}.
+                By {i.creator}.{i.creator_note && <> {i.creator_note}</>} <a href={licenseHref(i)}>{i.license}</a>{i.license_reason && <>: {i.license_reason}</>}.
                 {' '}Source: <a href={i.source_url}>{i.source_name}</a>{i.original_source && <> (originally {i.original_source})</>}.
               </p>
               <p class="small muted">Shown on: {i.records.map((k, n) => <>{n > 0 && ', '}<a href={recHref(k)}>{k.split('/').pop()!.replace(/-/g, ' ')}</a></>)}</p>

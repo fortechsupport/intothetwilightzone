@@ -1,0 +1,560 @@
+# Credited pictures. Written by scripts/import-images.mjs; see src/lib/images.ts for the rules.
+- id: episodes-1959-mirror-image
+  src: /media/images/episodes/1959-mirror-image.webp
+  small: /media/images/episodes/1959-mirror-image-320.webp
+  width: 500
+  height: 682
+  records:
+    - episodes/1959/mirror-image
+    - people/vera-miles
+  role: publicity
+  title: Vera Miles as Millicent Barnes in "Mirror Image" (1960)
+  alt: Vera Miles in a coat at a bus-station locker, glancing over her shoulder with a worried look
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Vera_Miles_The_Twilight_Zone_1960.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front photo back
+- id: episodes-1959-mr-bevis
+  src: /media/images/episodes/1959-mr-bevis.webp
+  small: /media/images/episodes/1959-mr-bevis-320.webp
+  width: 640
+  height: 864
+  records:
+    - episodes/1959/mr-bevis
+    - people/orson-bean
+    - people/william-schallert
+  role: publicity
+  title: Orson Bean as Mr. Bevis and William Schallert as the policeman in "Mr. Bevis" (1960)
+  alt: A uniformed policeman, William Schallert, beside Orson Bean in a checked jacket carrying a bundle, on a city street
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Orson_Bean_Mr._Bevis_episode_The_Twilight_Zone_Los_Angeles_CA_May_1960.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: episodes-1959-one-for-the-angels
+  src: /media/images/episodes/1959-one-for-the-angels.webp
+  small: /media/images/episodes/1959-one-for-the-angels-320.webp
+  width: 500
+  height: 551
+  records:
+    - episodes/1959/one-for-the-angels
+    - people/ed-wynn
+  role: publicity
+  title: Ed Wynn in "One for the Angels" (1959)
+  alt: Ed Wynn in a light suit and hat sitting on a stoop surrounded by children
+  creator: Bureau of Industrial Service
+  creator_note: Bureau of Industrial Service. The bureau was a division of ad agency Young & Rubicam and was widely used for distributing publicity material by those in the television industry.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Ed_Wynn_Twilight_Zone_1959.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: episodes-1959-the-after-hours
+  src: /media/images/episodes/1959-the-after-hours.webp
+  small: /media/images/episodes/1959-the-after-hours-320.webp
+  width: 500
+  height: 629
+  records:
+    - episodes/1959/the-after-hours
+    - people/elizabeth-allen
+  role: publicity
+  title: Elizabeth Allen and her mannequin double in "The After Hours" (1960)
+  alt: Elizabeth Allen standing beside an identical mannequin double dressed in the same suit
+  creator: Bureau of Industrial Service
+  creator_note: Bureau of Industrial Service. The bureau was part of ad agency Young & Rubicam and was widely used by those in the television industry for distributing publicity material.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Elizabeth_Allen_The_After_Hours_Twilight_Zone_1960.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: episodes-1959-the-chaser
+  src: /media/images/episodes/1959-the-chaser.webp
+  small: /media/images/episodes/1959-the-chaser-320.webp
+  width: 295
+  height: 427
+  records:
+    - episodes/1959/the-chaser
+    - people/patricia-barry
+  role: publicity
+  title: Patricia Barry as Leila in "The Chaser" (1960)
+  alt: Patricia Barry in a strapless floral dress and earrings, resting her face on her hand
+  creator: The Bureau of Industrial Service for CBS Television
+  creator_note: The Bureau of Industrial Service for CBS Television. The Bureau, a division of ad agency Young & Rubicam, was widely used by those in the television industry in the 1950s and 1960s for distributing publicity material.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Patricia_Barry_The_Twilight_Zone_1960_(cropped).JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front photo back
+- id: episodes-1959-the-hitch-hiker
+  src: /media/images/episodes/1959-the-hitch-hiker.webp
+  small: /media/images/episodes/1959-the-hitch-hiker-320.webp
+  width: 640
+  height: 506
+  records:
+    - episodes/1959/the-hitch-hiker
+    - people/inger-stevens
+    - people/leonard-strong
+  role: publicity
+  title: Inger Stevens and Leonard Strong in "The Hitch-Hiker" (1960)
+  alt: Inger Stevens at a gas station pump holding a box, with Leonard Strong in a hat watching in the background
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Inger_Stevens_Twilight_Zone_1960.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: episodes-1959-the-hitch-hiker-2
+  src: /media/images/episodes/1959-the-hitch-hiker-2.webp
+  small: /media/images/episodes/1959-the-hitch-hiker-2-320.webp
+  width: 640
+  height: 383
+  records:
+    - episodes/1959/the-hitch-hiker
+    - people/inger-stevens
+    - people/leonard-strong
+  role: publicity
+  title: Inger Stevens and Leonard Strong in "The Hitch-Hiker" (1960)
+  alt: Inger Stevens at the wheel of a convertible while Leonard Strong, in a hat, stands on the roadside behind her
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:The_Hitch-Hiker_Twilight_Zone_1960.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay item
+- id: episodes-1959-the-hitch-hiker-3
+  src: /media/images/episodes/1959-the-hitch-hiker-3.webp
+  small: /media/images/episodes/1959-the-hitch-hiker-3-320.webp
+  width: 640
+  height: 820
+  records:
+    - episodes/1959/the-hitch-hiker
+    - people/leonard-strong
+  role: publicity
+  title: Leonard Strong in "The Hitch-Hiker" (1960)
+  alt: Leonard Strong in a hat and jacket, leaning on the door of a car in a desert landscape
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Leonard_Strong_Twilight_Zone_1960.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay item
+- id: episodes-1959-the-last-flight
+  src: /media/images/episodes/1959-the-last-flight.webp
+  small: /media/images/episodes/1959-the-last-flight-320.webp
+  width: 640
+  height: 819
+  records:
+    - episodes/1959/the-last-flight
+    - people/kenneth-haigh
+  role: publicity
+  title: Kenneth Haigh in "The Last Flight" (1960)
+  alt: A First World War pilot in leather flying gear and a modern jet pilot in a helmet and flight suit, standing beside a biplane
+  creator: Bureau of Industrial Service-this was a division of ad agency Young & Rubicam…
+  creator_note: Bureau of Industrial Service-this was a division of ad agency Young & Rubicam and was widely used by those in the television industry for distributing publicity material.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Twilight_Zone_The_Last_Flight.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: episodes-1959-the-last-flight-2
+  src: /media/images/episodes/1959-the-last-flight-2.webp
+  small: /media/images/episodes/1959-the-last-flight-2-320.webp
+  width: 500
+  height: 476
+  records:
+    - episodes/1959/the-last-flight
+    - people/kenneth-haigh
+  role: publicity
+  title: Simon Scott and Kenneth Haigh in "The Last Flight" (1960)
+  alt: Simon Scott in an Air Force officer's cap facing Kenneth Haigh in a First World War flying uniform, in front of a biplane
+  creator: unknown (Cleveland Press)
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Simon_Scott-Kenneth_Haigh_in_The_Twilight_Zone.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay (front & back)
+- id: episodes-1959-the-trouble-with-templeton
+  src: /media/images/episodes/1959-the-trouble-with-templeton.webp
+  small: /media/images/episodes/1959-the-trouble-with-templeton-320.webp
+  width: 330
+  height: 411
+  records:
+    - episodes/1959/the-trouble-with-templeton
+    - people/brian-aherne
+    - people/pippa-scott
+  role: publicity
+  title: Pippa Scott and Brian Aherne in "The Trouble with Templeton" (1960)
+  alt: Pippa Scott in a 1920s dress with her arms around Brian Aherne, who is seated in a dark suit
+  creator: Bureau of Industrial Service
+  creator_note: Bureau of Industrial Service. This was a division of ad agency Young & Rubicam which was widely used by the television industry to distribute publicity material.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Brian_Aherne_Pippa_Scott_The_Twilight_Zone_1960.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: episodes-1959-the-trouble-with-templeton-2
+  src: /media/images/episodes/1959-the-trouble-with-templeton-2.webp
+  small: /media/images/episodes/1959-the-trouble-with-templeton-2-320.webp
+  width: 500
+  height: 634
+  records:
+    - episodes/1959/the-trouble-with-templeton
+    - people/pippa-scott
+  role: publicity
+  title: Pippa Scott in "The Trouble with Templeton" (1960)
+  alt: Pippa Scott in a 1920s beaded dress and pearls, one arm raised against a curtained doorway
+  creator: Bureau of Industrial Service
+  creator_note: Bureau of Industrial Service. The bureau was a division of ad agency Young & Rubicam and was widely used for distributing publicity material by many in the television industry,
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Pippa_Scott_Twilight_Zone_1960.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: episodes-1959-third-from-the-sun
+  src: /media/images/episodes/1959-third-from-the-sun.webp
+  small: /media/images/episodes/1959-third-from-the-sun-320.webp
+  width: 640
+  height: 810
+  records:
+    - episodes/1959/third-from-the-sun
+    - people/joe-maross
+  role: publicity
+  title: Joe Maross in "Third from the Sun" (1960)
+  alt: Joe Maross in a checked shirt at the controls of a futuristic machine, lit from above
+  creator: Bureau of Industrial Service
+  creator_note: Bureau of Industrial Service. This was a division of ad agency Young & Rubicam which was widely used by those in the television industry for distributing publicity material.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Twilight_Zone_Third_From_the_Sun_1960.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: episodes-1959-time-enough-at-last
+  src: /media/images/episodes/1959-time-enough-at-last.webp
+  small: /media/images/episodes/1959-time-enough-at-last-320.webp
+  width: 640
+  height: 809
+  records:
+    - episodes/1959/time-enough-at-last
+    - people/burgess-meredith
+  role: publicity
+  title: Burgess Meredith as Henry Bemis in "Time Enough at Last" (1959)
+  alt: Burgess Meredith as a bank teller in a suit and thick glasses, adjusting his spectacles
+  creator: Bureau of Industrial Services, a division of Young and Rubicam, Inc
+  creator_note: Bureau of Industrial Services, a division of Young and Rubicam, Inc. (presumably CBS). No copyright renewals of this photo under either name have been found.
+  license: Public domain
+  license_reason: Published in the US 1931-1963 and the copyright was not renewed.
+  source_url: https://commons.wikimedia.org/wiki/File:Burgess_Meredith_The_Twilight_Zone.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front photo back
+- id: episodes-1959-where-is-everybody
+  src: /media/images/episodes/1959-where-is-everybody.webp
+  small: /media/images/episodes/1959-where-is-everybody-320.webp
+  width: 330
+  height: 505
+  records:
+    - episodes/1959/where-is-everybody
+    - people/earl-holliman
+  role: publicity
+  title: Earl Holliman as Mike Ferris in "Where Is Everybody?" (1959)
+  alt: Earl Holliman in an Air Force flight suit, looking off to the side with a worried expression
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Earl_Holliman_Twilight_Zone_1959.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay item front back
+- id: locations-binghamton-high-school-rod-serling
+  src: /media/images/locations/binghamton-high-school-rod-serling.webp
+  small: /media/images/locations/binghamton-high-school-rod-serling-320.webp
+  width: 640
+  height: 482
+  records:
+    - locations/binghamton-high-school-rod-serling
+    - people/rod-serling
+  role: place
+  title: Rod Serling memorial sign at Binghamton High School (2006)
+  alt: Blue and yellow roadside marker honoring Rod Serling, class of 1943, creator of Twilight Zone, playwright and lecturer, 1924-1975
+  creator: I'm nonpartisan
+  license: CC BY-SA 3.0
+  license_reason: Licensed under CC BY-SA 3.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling_Memorial.JPG
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-rod-serling-grave-lake-view-cemetery
+  src: /media/images/locations/rod-serling-grave-lake-view-cemetery.webp
+  small: /media/images/locations/rod-serling-grave-lake-view-cemetery-320.webp
+  width: 500
+  height: 375
+  records:
+    - locations/rod-serling-grave-lake-view-cemetery
+    - people/rod-serling
+  role: place
+  title: Rod Serling's grave (2020)
+  alt: Flat grave marker for Rodman E. Serling, Tec 4 US Army, World War II, covered with small stones and mementos left by visitors
+  creator: Lolafabs
+  license: CC BY-SA 4.0
+  license_reason: Licensed under CC BY-SA 4.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling's_Grave.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-rod-serling-hollywood-walk-of-fame-star
+  src: /media/images/locations/rod-serling-hollywood-walk-of-fame-star.webp
+  small: /media/images/locations/rod-serling-hollywood-walk-of-fame-star-320.webp
+  width: 640
+  height: 427
+  records:
+    - locations/rod-serling-hollywood-walk-of-fame-star
+    - people/rod-serling
+  role: place
+  title: Rod Serling's star on the Hollywood Walk of Fame (2014)
+  alt: Pink terrazzo star with Rod Serling's name and a television emblem on the Hollywood Walk of Fame
+  creator: Visitor7
+  license: CC BY-SA 3.0
+  license_reason: Licensed under CC BY-SA 3.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling_Star.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: people-orson-bean
+  src: /media/images/people/orson-bean.webp
+  small: /media/images/people/orson-bean-320.webp
+  width: 249
+  height: 328
+  records:
+    - people/orson-bean
+    - episodes/1959/mr-bevis
+  role: portrait
+  title: Orson Bean as Mr. Bevis (1960)
+  alt: Orson Bean in a checked jacket, carrying a bundle, on a city street
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Orson_Bean_The_Twilight_Zone_(cropped).jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: people-rod-serling
+  src: /media/images/people/rod-serling.webp
+  small: /media/images/people/rod-serling-320.webp
+  width: 522
+  height: 667
+  records:
+    - people/rod-serling
+    - series/1959
+  role: portrait
+  title: Rod Serling, publicity portrait for the premiere of The Twilight Zone (1959)
+  alt: Black-and-white portrait of Rod Serling in a plaid shirt, holding a cigarette, his chin resting on his hand
+  creator: CBS Television via the Bureau of Industrial Service
+  creator_note: CBS Television via the Bureau of Industrial Service. During the 1950s and 1960s, television networks, program sponsors and studios often used either advertising or public relations agencies to distribute publicity materials. The Bureau was a division of ad agency Young & Rubicam.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling_photo_portrait_1959.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front press release from back
+- id: people-rod-serling-10
+  src: /media/images/people/rod-serling-10.webp
+  small: /media/images/people/rod-serling-10-320.webp
+  width: 640
+  height: 835
+  records:
+    - people/rod-serling
+  role: publicity
+  title: Hugh O'Brian, Rod Serling and Lloyd Bridges discussing the Chrysler Theatre drama Exit From a Plane in Flight (1965)
+  alt: Hugh O'Brian in a light jacket, Rod Serling in a dark suit and Lloyd Bridges in a military uniform, standing and talking
+  creator: Lillian Picard for Solters, Roskin & Sabinson in New York and Carter/Carr in…
+  creator_note: Lillian Picard for Solters, Roskin & Sabinson in New York and Carter/Carr in Los Angeles (publicity agencies)
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Hugh_O'Brian_Rod_Serling_Lloyd_Bridges_1965.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: people-rod-serling-11
+  src: /media/images/people/rod-serling-11.webp
+  small: /media/images/people/rod-serling-11-320.webp
+  width: 640
+  height: 851
+  records:
+    - people/rod-serling
+  role: publicity
+  title: Rod Serling and Jodie Foster in Ironside (1972)
+  alt: Rod Serling in costume with a beard and hat, holding a puppet, beside a young Jodie Foster wearing a smiley-face badge
+  creator: NBC Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling_Jodie_Foster_Ironside_1972.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: people-rod-serling-12
+  src: /media/images/people/rod-serling-12.webp
+  small: /media/images/people/rod-serling-12-320.webp
+  width: 123
+  height: 171
+  records:
+    - people/rod-serling
+    - locations/binghamton-high-school-rod-serling
+  role: portrait
+  title: Rod Serling as a high-school senior, Binghamton Central High School yearbook (1943)
+  alt: Black-and-white yearbook photo of a teenage Rod Serling in a jacket and tie
+  creator: Panorama Annual 1943 staff
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Rod-Serling-HS-yearbook.jpg
+  source_name: Wikimedia Commons
+  original_source: "English: Panorama Annual , yearbook of Binghamton Central High School, Binghamton, New York"
+- id: people-rod-serling-2
+  src: /media/images/people/rod-serling-2.webp
+  small: /media/images/people/rod-serling-2-320.webp
+  width: 640
+  height: 804
+  records:
+    - people/rod-serling
+  role: portrait
+  title: Rod Serling, CBS portrait by Gabor Rona (1959)
+  alt: Rod Serling smiling in a dark suit and tie, black-and-white studio portrait
+  creator: CBS Television-CBS Portrait by photographer Gabor Rona-mark is faint in spots
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling_1959.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front photo back
+- id: people-rod-serling-3
+  src: /media/images/people/rod-serling-3.webp
+  small: /media/images/people/rod-serling-3-320.webp
+  width: 234
+  height: 309
+  records:
+    - people/rod-serling
+  role: publicity
+  title: Rod Serling working on a script with a dictating machine (1959)
+  alt: Rod Serling seated in a plaid shirt, speaking into the microphone of a dictating machine beside him
+  creator: CBS Television via the Bureau of Industrial Service
+  creator_note: CBS Television via the Bureau of Industrial Service. During the 1950s and 1960s, television networks, program sponsors and studios often used either advertising or public relations agencies to distribute publicity materials. The Bureau was a division of ad agency Young & Rubicam.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling_dictating_script_1959.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front press release for photos
+- id: people-rod-serling-4
+  src: /media/images/people/rod-serling-4.webp
+  small: /media/images/people/rod-serling-4-320.webp
+  width: 240
+  height: 310
+  records:
+    - people/rod-serling
+  role: publicity
+  title: Rod Serling relaxing at home (1959)
+  alt: Rod Serling in a white T-shirt sitting on the floor against a cabinet topped with Emmy statuettes
+  creator: CBS Television via the Bureau of Industrial Service
+  creator_note: CBS Television via the Bureau of Industrial Service. During the 1950s and 1960s, television networks, program sponsors and studios often used either advertising or public relations agencies to distribute publicity materials. The Bureau was a division of ad agency Young & Rubicam.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling_relaxing_at_home_1959.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front press release for photos
+- id: people-rod-serling-5
+  src: /media/images/people/rod-serling-5.webp
+  small: /media/images/people/rod-serling-5-320.webp
+  width: 232
+  height: 300
+  records:
+    - people/rod-serling
+  role: publicity
+  title: Rod Serling with his two daughters (1959)
+  alt: Rod Serling standing by a pool with one daughter on his shoulders and the other in front of him
+  creator: CBS Television via the Bureau of Industrial Service
+  creator_note: CBS Television via the Bureau of Industrial Service. During the 1950s and 1960s, television networks, program sponsors and studios often used either advertising or public relations agencies to distribute publicity materials. The Bureau was a division of ad agency Young & Rubicam.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling_with_daughters_1959.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front press release for photos
+- id: people-rod-serling-6
+  src: /media/images/people/rod-serling-6.webp
+  small: /media/images/people/rod-serling-6-320.webp
+  width: 242
+  height: 298
+  records:
+    - people/rod-serling
+  role: publicity
+  title: Rod Serling at the pool with his wife, Carol (1959)
+  alt: Rod Serling and his wife Carol lounging at the edge of a swimming pool in front of a large house
+  creator: CBS Television via the Bureau of Industrial Service
+  creator_note: CBS Television via the Bureau of Industrial Service. During the 1950s and 1960s, television networks, program sponsors and studios often used either advertising or public relations agencies to distribute publicity materials. The Bureau was a division of ad agency Young & Rubicam.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Rod_and_Carol_Serling_at_home_1959.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front press release for photos
+- id: people-rod-serling-7
+  src: /media/images/people/rod-serling-7.webp
+  small: /media/images/people/rod-serling-7-320.webp
+  width: 515
+  height: 653
+  records:
+    - people/rod-serling
+    - series/1959
+  role: publicity
+  title: Photos of Rod Serling and family issued for the premiere of The Twilight Zone (1959)
+  alt: "Four photos in a grid: Serling with a dictating machine, relaxing at home, with his daughters, and by the pool with his wife"
+  creator: CBS Television via the Bureau of Industrial Service
+  creator_note: CBS Television via the Bureau of Industrial Service. During the 1950s and 1960s, television networks, program sponsors and studios often used either advertising or public relations agencies to distribute publicity materials. The Bureau was a division of ad agency Young & Rubicam.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling_Twilight_Zone_premiere_1959.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front press release for photos
+- id: people-rod-serling-8
+  src: /media/images/people/rod-serling-8.webp
+  small: /media/images/people/rod-serling-8-320.webp
+  width: 640
+  height: 477
+  records:
+    - people/rod-serling
+    - people/inger-stevens
+  role: publicity
+  title: Rod Serling and Inger Stevens with Serling's model airplane collection at his home (1960)
+  alt: Rod Serling and Inger Stevens holding and examining a model airplane
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling_Inger_Stevens_Serling_model_airplane_collection_1960.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay item photo front publicity release
+- id: people-rod-serling-9
+  src: /media/images/people/rod-serling-9.webp
+  small: /media/images/people/rod-serling-9-320.webp
+  width: 500
+  height: 655
+  records:
+    - people/rod-serling
+    - people/robert-sterling
+  role: publicity
+  title: Robert Sterling and guest star Rod Serling in Ichabod and Me, "The Celebrity" (1962)
+  alt: Robert Sterling in a patterned sweater raising a hand beside Rod Serling in a cardigan, with cardboard boxes in front of them
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:Robert_Sterling_Rod_Serling_Ichabod_and_Me_1962.jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back
+- id: people-william-schallert
+  src: /media/images/people/william-schallert.webp
+  small: /media/images/people/william-schallert-320.webp
+  width: 330
+  height: 481
+  records:
+    - people/william-schallert
+    - episodes/1959/mr-bevis
+  role: portrait
+  title: William Schallert in "Mr. Bevis" (1960)
+  alt: William Schallert in a police uniform and cap
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File:William_Schallert_The_Twilight_Zone_(cropped).jpg
+  source_name: Wikimedia Commons
+  original_source: eBay front back

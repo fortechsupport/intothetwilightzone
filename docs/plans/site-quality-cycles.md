@@ -59,6 +59,11 @@ His answers to the four scoping questions (15:23 UTC):
 - Era theme names: "1959 Original", "1985 Neon", "2002 Steel", "2019 Crimson" (years and plain words, not series
   titles); dark only; Michroma, Oswald and Fraunces as their display faces; the brand name keeps DM Serif Display
   in every theme (decision 0010).
+- Record illustrations: one motif per kind of record in rings like the home page's, a monogram for people; drawn in
+  the theme's colors; hidden from screen readers as decoration. Phones show it under the title on records but skip it
+  on verb and category pages. Credited pictures also join the Media Library and become a record's og:image.
+- Publicity stills (photographs taken on set and released to the press without notice) count as publicity
+  photographs, not episode frames; frames captured from the broadcast are still refused.
 
 ## Waiting on Adam
 
@@ -66,4 +71,4 @@ His answers to the four scoping questions (15:23 UTC):
 
 ## Found, for later
 
-- (none yet)
+- /people/characters/ (325 KB) and /series/1959/ (303 KB) are just over the 300 KB target (within the 1.5 MB limit).
