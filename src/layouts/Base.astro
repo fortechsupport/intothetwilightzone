@@ -15,6 +15,8 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
 // its links and the footer's live in src/lib/site-links.ts. On phones the verbs fold into one Menu button.
 import { navModel } from '../lib/nav';
 const verbs = await navModel();
+// The Theme menu (design/tokens.json): the house themes, then one evoking each era of the show.
+const THEMES: [string, string][] = [['auto', 'Your device'], ['midnight', 'Midnight'], ['paper', 'Paper'], ['original', '1959 Original'], ['neon', '1985 Neon'], ['steel', '2002 Steel'], ['crimson', '2019 Crimson']];
 import { UTILITY_LINKS, FOOTER_COLUMNS, FOOTER_LINKS } from '../lib/site-links';
 import AccountSlot from '../components/AccountSlot.astro';
 const nav = UTILITY_LINKS;
@@ -54,8 +56,9 @@ const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) =>
     <link rel="preload" href="/fonts/jost-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
     <script is:inline>
-      // Apply a saved theme before the first paint (Midnight is the default; Paper is the light theme).
-      try { const t = localStorage.getItem('tz-theme'); if (t === 'paper' || t === 'midnight') document.documentElement.dataset.theme = t; } catch (e) {}
+      // Apply a saved theme before the first paint. With none saved the device decides: Midnight, or Paper
+      // when it prefers light. The era themes are in design/tokens.json.
+      try { const t = localStorage.getItem('tz-theme'); if (/^(midnight|paper|original|neon|steel|crimson)$/.test(t || '')) document.documentElement.dataset.theme = t; } catch (e) {}
     </script>
     <link rel="stylesheet" href="/tokens.css" />
     <link rel="stylesheet" href="/site.css" />
@@ -79,7 +82,7 @@ const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) =>
             </ul>
           </nav>
           <div class="util-end">
-            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch between dark and light theme">Light</button>
+            <label class="theme-pick">Theme <select data-theme-pick>{THEMES.map(([v, l]) => <option value={v}>{l}</option>)}</select></label>
             <AccountSlot />
           </div>
         </div>
@@ -118,7 +121,7 @@ const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) =>
           <ul class="mobile-util">
             {nav.map(([label, href]) => <li><a href={href}>{label}</a></li>)}
             <li><AccountSlot compact /></li>
-            <li><button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch between dark and light theme">Light</button></li>
+            <li><label class="theme-pick">Theme <select data-theme-pick>{THEMES.map(([v, l]) => <option value={v}>{l}</option>)}</select></label></li>
           </ul>
         </nav>
         <a class="icon-btn header-search" href="/search/" aria-label="Search the site">
@@ -138,17 +141,17 @@ const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) =>
         const setOpen = (open) => { bar.classList.toggle('open', open); t.setAttribute('aria-expanded', String(open)); t.textContent = open ? 'Close' : 'Menu'; };
         t?.addEventListener('click', (e) => { e.stopPropagation(); setOpen(!bar.classList.contains('open')); });
         document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { ds.forEach((d) => (d.open = false)); if (bar.classList.contains('open')) { setOpen(false); t.focus(); } } });
-        // Theme switch: remembers the choice in this browser.
+        // Theme menu: remembers the choice in this browser; "Your device" follows its light or dark setting.
         const root = document.documentElement;
-        const current = () => root.dataset.theme || (matchMedia('(prefers-color-scheme: light)').matches ? 'paper' : 'midnight');
-        const label = () => document.querySelectorAll('[data-theme-toggle]').forEach((b) => { const light = current() === 'paper'; b.textContent = light ? 'Dark' : 'Light'; b.setAttribute('aria-pressed', String(light)); });
-        document.querySelectorAll('[data-theme-toggle]').forEach((b) => b.addEventListener('click', () => {
-          const next = current() === 'paper' ? 'midnight' : 'paper';
-          root.dataset.theme = next;
-          try { localStorage.setItem('tz-theme', next); } catch (e) {}
-          label();
+        const picks = document.querySelectorAll('[data-theme-pick]');
+        const sync = () => picks.forEach((s) => { s.value = root.dataset.theme || 'auto'; });
+        picks.forEach((s) => s.addEventListener('change', () => {
+          const v = s.value;
+          if (v === 'auto') delete root.dataset.theme; else root.dataset.theme = v;
+          try { if (v === 'auto') localStorage.removeItem('tz-theme'); else localStorage.setItem('tz-theme', v); } catch (e) {}
+          sync();
         }));
-        label();
+        sync();
       })();
     </script>
     <main id="main" class="wrap" data-pagefind-body={noindex ? undefined : ''}>
