@@ -5,21 +5,24 @@ on the free plan: a **D1** database, an **R2** bucket for uploaded files, and **
 "I am human" check. The code is already in the site. Until the steps below are done, every account
 page says "being set up" and the rest of the site works as before.
 
-Everything here is done once, in the Cloudflare dashboard, in about 15 minutes. Do steps 1 to 5 for the
-**Preview** environment first (branch previews such as
-`claude-project-thread-gflqxq.intothetwilightzone-preview.pages.dev`), check it, then repeat step 4 for
-**Production** when the branch is merged.
+Everything here is done once, in the Cloudflare dashboard, in about 15 minutes. Do step 4 twice: once with
+the environment menu (top right of Settings) on **Production**, which serves preview.intothetwilightzone.com,
+and once on **Preview**, which serves the branch previews. (Done by Adam on 2026-11-25.)
 
 ## 1. Create the database (D1)
 
 1. Cloudflare dashboard → **Storage & databases** → **D1 SQL database** → **Create database**.
 2. Name: `intothetwilightzone`. Location: leave automatic. **Create**.
 3. Open the new database → **Console** tab.
-4. Open [`migrations/0001_accounts.sql`](../migrations/0001_accounts.sql) on GitHub, click **Raw**, copy all
-   of it, paste it into the console, and click **Execute**. It creates the tables and the ten forums.
-5. Do the same with [`migrations/0002_votes.sql`](../migrations/0002_votes.sql): the fan votes (thumbs up and down)
-   and the "Votes below zero" alerts.
-   (Command-line alternative for both: `npx wrangler d1 migrations apply intothetwilightzone --remote`.)
+4. Open [`migrations/console/all-in-one-line.sql`](../migrations/console/all-in-one-line.sql) on GitHub, click
+   **Raw**, select all, copy, paste it into the console box and click **Execute**. It creates the tables, the ten
+   forums and the fan votes. (The console takes a single line, so this file holds every migration with its
+   comments removed. Pasting the commented migration files themselves silently does nothing.)
+5. Check it worked: run `SELECT name FROM sqlite_master WHERE type='table' ORDER BY name;`. It should list
+   about 18 tables, including `forum_categories`, `users` and `votes`.
+   (Command-line alternative: `npx wrangler d1 migrations apply intothetwilightzone --remote`.)
+6. Later, when a new migration file is added, paste only the new statements, not the whole file again: a Claude
+   thread will give you the line to paste.
 
 ## 2. Create the uploads bucket (R2)
 
@@ -32,8 +35,8 @@ Everything here is done once, in the Cloudflare dashboard, in about 15 minutes. 
 ## 3. Create the "I am human" check (Turnstile)
 
 1. Dashboard → **Turnstile** → **Add widget**.
-2. Name: `IntoTheTwilightZone`. Hostnames: `intothetwilightzone.com` and `intothetwilightzone-preview.pages.dev`
-   (also add `preview.intothetwilightzone.com` if the widget page doesn't accept a parent domain as covering it).
+2. Name: `IntoTheTwilightZone`. Hostnames: `intothetwilightzone.com`, `preview.intothetwilightzone.com` and
+   `intothetwilightzone-preview.pages.dev`.
 3. Widget mode: **Managed**. **Create**.
 4. Keep the page open: you need the **Site key** and **Secret key** in step 4.
 

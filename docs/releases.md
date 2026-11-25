@@ -3,6 +3,21 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-25 — Fan accounts switched on
+
+Visitors can now:
+- Create an account with a passkey on preview.intothetwilightzone.com, keep Favorite, Later and checklist lists
+  in it, vote thumbs up or down, post in the ten forums, suggest additions and share files for review. The
+  database, uploads bucket and "I am human" check are now connected in Cloudflare.
+- See the current site at preview.intothetwilightzone.com again: from 2026-11-21 until today it kept showing an
+  older build (docs/DEPLOY.md now says how to spot that).
+- Whoever sets the database up again pastes one ready-made line into the D1 console
+  (migrations/console/all-in-one-line.sql, kept in step with the migrations by `npm run check:server` in CI).
+
+**Known not to work yet:**
+- Email sign-in links and Google sign-in are off; passkeys only.
+- Vote alerts appear only on the Moderation page; no email yet.
+
 ## 2026-11-24 — Every Gold Key issue credited
 
 Visitors can now:
