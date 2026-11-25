@@ -43,8 +43,10 @@ A build takes well under a minute and produces about 5,800 files (Pages allows 2
 3. Bluehost DNS: add `CNAME  preview  →  intothetwilightzone-preview.pages.dev`.
 4. Cloudflare verifies the record and issues the certificate (minutes, occasionally a few hours).
 
-Until PR #1 merges the site into `main`, set the preview project's production branch to
-`claude/milestone-1-site` (**Settings → Builds → Branch control**) and switch it to `main` afterwards.
+The preview project's production branch must be `main` (**Settings → Build → Branch control**).
+If it points at any other branch, `preview.intothetwilightzone.com` stops updating: builds of `main`
+then show up as "Preview" rows in **Deployments** and the site keeps serving the old branch. This
+happened from 2026-11-21 to 2026-11-25, when the production branch was still a work branch.
 
 Nothing else at Bluehost changes: the bare domain, `www`, any email and the old WordPress install keep
 working exactly as before.
