@@ -3,6 +3,18 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-25 — Cycle 5: more photographs, a friendlier 404, era themes checked on phones
+
+Visitors can now:
+- See 8 more credited photographs: Eileen Ryan, Pat Hingle and Pippa Scott, CBS Television City, Elmira College's gate,
+  Bastion Square in Victoria (a 2019 series location) and Currahee Mountain.
+- Land on a "page not found" that carries the same illustrated header as the rest of the site.
+- Use each era theme on a phone with the same guarantees as Midnight and Paper: the automated check now confirms no
+  sideways scrolling and the title in the top third at 320 px in all four era themes.
+
+**Known not to work yet:**
+- About 130 more checked pictures are still downloading at the pace Wikimedia allows; they follow in small batches.
+
 ## 2026-11-25 — 76 credited photographs
 
 Visitors can now:

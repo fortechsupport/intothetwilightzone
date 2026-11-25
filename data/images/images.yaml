@@ -816,6 +816,24 @@
   source_url: https://commons.wikimedia.org/wiki/File:Islington_Almeida_Theatre_2011.jpg
   source_name: Wikimedia Commons
   original_source: Self-photographed
+- id: locations-bastion-square-victoria-2019-series
+  src: /media/images/locations/bastion-square-victoria-2019-series.webp
+  small: /media/images/locations/bastion-square-victoria-2019-series-320.webp
+  width: 640
+  height: 990
+  records:
+    - locations/bastion-square-victoria-2019-series
+  role: place
+  title: Bastion Square, Victoria, British Columbia (2018)
+  alt: Brick heritage buildings on Bastion Square in Victoria, with tall red tulip sculptures in front.
+  date: "2018"
+  creator: Michal Klajban
+  license: CC BY-SA 4.0
+  license_reason: Creative Commons Attribution-Share Alike 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File%3ABastion_Square%2C_Victoria%2C_Canada_02.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
 - id: locations-binghamton-high-school-rod-serling
   src: /media/images/locations/binghamton-high-school-rod-serling.webp
   small: /media/images/locations/binghamton-high-school-rod-serling-320.webp
@@ -834,6 +852,60 @@
   source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling_Memorial.JPG
   source_name: Wikimedia Commons
   original_source: Own work
+- id: locations-camp-toccoa-currahee
+  src: /media/images/locations/camp-toccoa-currahee.webp
+  small: /media/images/locations/camp-toccoa-currahee-320.webp
+  width: 640
+  height: 427
+  records:
+    - locations/camp-toccoa-currahee
+  role: place
+  title: Currahee Mountain, Georgia (2019)
+  alt: View from the top of Currahee Mountain over wooded Georgia countryside, a hiker seated on the rock.
+  date: "2019"
+  creator: Authority12345
+  license: CC BY-SA 4.0
+  license_reason: Creative Commons Attribution-Share Alike 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File%3ACurrahee_Mountain.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-cbs-television-city
+  src: /media/images/locations/cbs-television-city.webp
+  small: /media/images/locations/cbs-television-city-320.webp
+  width: 640
+  height: 406
+  records:
+    - locations/cbs-television-city
+    - organizations/cbs
+  role: place
+  title: CBS Television City, Beverly Boulevard at Fairfax, Los Angeles (2007)
+  alt: The glass and steel front of CBS Television City on Beverly Boulevard, behind a gated car park.
+  date: "2007"
+  creator: Gary Minnaert
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3ACBS_TelevisionCity02.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-cbs-television-city-2
+  src: /media/images/locations/cbs-television-city-2.webp
+  small: /media/images/locations/cbs-television-city-2-320.webp
+  width: 640
+  height: 427
+  records:
+    - locations/cbs-television-city
+    - organizations/cbs
+  role: place
+  title: CBS studio building in Los Angeles (2014)
+  alt: The vehicle entrance to the CBS studios in Los Angeles, with a billboard above the gate.
+  date: "2014"
+  creator: Oliver Propst
+  license: CC BY-SA 3.0
+  license_reason: Creative Commons Attribution-Share Alike 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File%3ACbs_La_Studio_%2884226019%29.jpeg
+  source_name: Wikimedia Commons
+  original_source: 500px, via the Archive Team
 - id: locations-rod-serling-grave-lake-view-cemetery
   src: /media/images/locations/rod-serling-grave-lake-view-cemetery.webp
   small: /media/images/locations/rod-serling-grave-lake-view-cemetery-320.webp
@@ -904,6 +976,25 @@
   source_url: https://commons.wikimedia.org/wiki/File:Antioch_campus_grounds.jpg
   source_name: Wikimedia Commons
   original_source: Own work
+- id: organizations-elmira-college
+  src: /media/images/organizations/elmira-college.webp
+  small: /media/images/organizations/elmira-college-320.webp
+  width: 640
+  height: 456
+  records:
+    - organizations/elmira-college
+    - locations/elmira-college
+  role: organization
+  title: Elmira College entry gate at College and Washington Avenues (2019)
+  alt: The brick entry gate of Elmira College with its arched iron sign, a brick path leading through.
+  date: "2019"
+  creator: Kenneth C. Zirkel
+  license: CC BY-SA 3.0
+  license_reason: Creative Commons Attribution-Share Alike 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AElmira_College_entry_gate.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
 - id: people-bill-mumy
   src: /media/images/people/bill-mumy.webp
   small: /media/images/people/bill-mumy-320.webp
@@ -955,6 +1046,21 @@
   source_url: https://commons.wikimedia.org/wiki/File:EHinTWZ.jpg
   source_name: Wikimedia Commons
   original_source: "[1]"
+- id: people-eileen-ryan
+  src: /media/images/people/eileen-ryan.webp
+  small: /media/images/people/eileen-ryan-320.webp
+  width: 640
+  height: 855
+  records:
+    - people/eileen-ryan
+    - episodes/1959/a-world-of-difference
+  role: portrait
+  title: Eileen Ryan in "A World of Difference" (1960)
+  alt: Black-and-white publicity photograph of Eileen Ryan in profile, her fair hair worn loose.
+  creator: CBS Television
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AEileen_Ryan_%281960%29.jpg
+  source_name: Wikimedia Commons
 - id: people-janice-rule
   src: /media/images/people/janice-rule.webp
   small: /media/images/people/janice-rule-320.webp
@@ -1023,6 +1129,22 @@
   source_url: https://commons.wikimedia.org/wiki/File:Orson_Bean_The_Twilight_Zone_(cropped).jpg
   source_name: Wikimedia Commons
   original_source: eBay front back
+- id: people-pat-hingle
+  src: /media/images/people/pat-hingle.webp
+  small: /media/images/people/pat-hingle-320.webp
+  width: 640
+  height: 1161
+  records:
+    - people/pat-hingle
+  role: portrait
+  title: Pat Hingle, publicity photograph (1965)
+  alt: Black-and-white photograph of Pat Hingle in heavy dark-rimmed glasses, chin resting on his fist.
+  date: "1965"
+  creator: CBS Television
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3APat_Hingle_%28cropped%29.JPG
+  source_name: Wikimedia Commons
+  original_source: Original press photograph, front and back scanned (sold on eBay)
 - id: people-patricia-donahue
   src: /media/images/people/patricia-donahue.webp
   small: /media/images/people/patricia-donahue-320.webp
@@ -1039,6 +1161,24 @@
   source_url: https://commons.wikimedia.org/wiki/File:Patricia_Donahue_Twilight_Zone_Actress_Original_1950s_TV_Series_Promo_Photo.jpg
   source_name: Wikimedia Commons
   original_source: eBay item
+- id: people-pippa-scott
+  src: /media/images/people/pippa-scott.webp
+  small: /media/images/people/pippa-scott-320.webp
+  width: 640
+  height: 904
+  records:
+    - people/pippa-scott
+    - episodes/1959/the-trouble-with-templeton
+  role: portrait
+  title: Pippa Scott in "The Trouble with Templeton" (1960)
+  alt: Black-and-white publicity photograph of Pippa Scott with curled hair and a pearl necklace.
+  date: "1960"
+  creator: Bureau of Industrial Service (Young & Rubicam), for CBS
+  creator_note: Bureau of Industrial Service.  This was a division of ad agency Young & Rubicam which was widely used by the television industry to distribute publicity material.
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3APippa_Scott%2C_1960_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Original press photograph, front and back scanned (sold on eBay)
 - id: people-rod-serling
   src: /media/images/people/rod-serling.webp
   small: /media/images/people/rod-serling-320.webp
