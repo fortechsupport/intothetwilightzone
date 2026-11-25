@@ -224,6 +224,16 @@ a.card:hover { border-color: var(--brass); color: var(--text); background: var(-
 .eyebrow-ctx::before { content: '·'; position: absolute; left: 7px; color: var(--line-strong); }
 .record-roles { color: var(--text-soft); font-size: var(--step--1); margin: 0; max-width: 70ch; }
 .record-actions:empty { display: none; }
+/* A credited picture beside the title (RecordFigure); under it on phones. */
+.record-head.has-figure { display: grid; grid-template-columns: minmax(0, 1fr) 300px; column-gap: var(--space-6); align-items: start; }
+.tz-figure { margin: 0; }
+.tz-figure-img { display: block; border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
+.tz-figure img { display: block; width: 100%; height: auto; }
+.tz-figure-header img { max-height: 420px; object-fit: cover; object-position: center 20%; }
+.tz-figure figcaption { margin-top: 6px; font-size: var(--step--2); line-height: 1.4; color: var(--muted); }
+.tz-figure-title { display: block; color: var(--text-soft); font-size: var(--step--1); margin-bottom: 2px; }
+.tz-figure-credit a { color: var(--muted); }
+.tz-figure-credit a:hover { color: var(--text); }
 .record-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: var(--space-3); }
 
 /* The facts table reads like a studio spec sheet: label column, hairline rows. */
@@ -390,8 +400,12 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
   .hero-stats { grid-template-columns: repeat(2, max-content); }
   .hero-stats strong { font-size: 1.5rem; }
   .record-head { margin-top: 0; }
-  .breadcrumb { font-size: var(--step--2); margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  p.also-in.muted { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: var(--step--2); }
+  .record-head.has-figure { grid-template-columns: minmax(0, 1fr); }
+  .record-head.has-figure .tz-figure { margin-top: var(--space-4); max-width: 420px; }
+  /* One line each on phones so the title stays high; they scroll sideways instead of cutting links off. */
+  .breadcrumb { font-size: var(--step--2); margin-bottom: 4px; white-space: nowrap; overflow-x: auto; scrollbar-width: none; }
+  p.also-in.muted { white-space: nowrap; overflow-x: auto; scrollbar-width: none; font-size: var(--step--2); }
+  .breadcrumb::-webkit-scrollbar, p.also-in.muted::-webkit-scrollbar { display: none; }
   dl.facts { grid-template-columns: 1fr; }
   dl.facts dt { border-bottom: 0; padding: 10px 0 0; }
   dl.facts dd { padding-top: 2px; }

@@ -10,6 +10,8 @@
 // 3. duplicate_of must point at a record that exists and is not itself a duplicate.
 // 4. Two records in one collection must not share a title and year unless one is a duplicate.
 // 5. Every record needs at least one source.
+// 6. Every hosted picture (data/images/images.yaml) has its file, alt text, a maker, an accepted license and a
+//    source page, and points at records that exist (people and organizations may be derived from credits).
 import fs from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
@@ -68,6 +70,22 @@ if (fs.existsSync(ledgerFile)) {
     if (derived.has(col)) continue; // people and organizations can be derived from credits
     if (!records.has(key)) findings.push(`decisions.json: ${key} has no record (renamed or deleted?)`);
   }
+}
+
+const imagesFile = path.join(root, 'data/images/images.yaml');
+if (fs.existsSync(imagesFile)) {
+  const imgs = YAML.parse(fs.readFileSync(imagesFile, 'utf8')) ?? [];
+  const ids = new Set();
+  for (const i of imgs) {
+    const at = `images.yaml ${i.id}`;
+    if (ids.has(i.id)) findings.push(`${at}: id used twice`); ids.add(i.id);
+    for (const f of ['src', 'small']) if (!i[f] || !fs.existsSync(path.join(root, 'public', i[f]))) findings.push(`${at}: ${f} file missing`);
+    for (const f of ['alt', 'title', 'creator', 'source_url']) if (!i[f]) findings.push(`${at}: no ${f}`);
+    if (!/^(Public domain|CC0( 1\.0)?|CC BY(-SA)? [1-4]\.0( [A-Za-z ]+)?)$/.test(i.license ?? '')) findings.push(`${at}: license "${i.license}" is not public domain or CC0/BY/BY-SA`);
+    if (/^CC BY/.test(i.license ?? '') && !i.license_url) findings.push(`${at}: a CC BY license needs its license_url`);
+    for (const k of i.records ?? []) if (!records.has(k) && !['people', 'organizations'].includes(k.split('/')[0])) findings.push(`${at}: record ${k} does not exist`);
+  }
+  console.log(`${imgs.length} pictures checked.`);
 }
 
 console.log(`${records.size} records checked.`);

@@ -3,6 +3,20 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-25 — Community in the menu, a fixed phone home page, credited pictures
+
+Visitors can now:
+- Find the forums from the main menu: Meet has a Community column (Forums, Fan contributions, Community
+  guidelines), and Community is in the bar at the top of every page.
+- Read the whole home page on a phone: the headline, search box and buttons ran past the right edge of narrow
+  screens and were cut off. The accessibility check now fails on any content cut off like that.
+- Reach every "Also listed in" link on a phone: they scroll sideways instead of being hidden behind "…".
+- See a credited picture beside a record's title when a public-domain or Creative Commons one exists, with every
+  picture's maker, license and source on the new Image credits page (decision 0009).
+
+**Known not to work yet:**
+- Pictures arrive in the next change; until then the Image credits page is empty.
+
 ## 2026-11-25 — Fan accounts switched on
 
 Visitors can now:

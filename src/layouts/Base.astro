@@ -104,8 +104,8 @@ const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) =>
                       <div class="mega-cols">
                         {(v.menu ?? v.cols).map((c) => (
                           <div class="mega-col">
-                            <a class="mega-cat" href={c.href}>{c.title}{c.isNew && <span class="tag new">new</span>}</a> <span class="n">{c.n}</span>
-                            {c.subs.length > 0 && <ul>{c.subs.map((x) => <li><a href={x.href}>{x.title}</a> <span class="n">{x.n}</span></li>)}</ul>}
+                            <a class="mega-cat" href={c.href}>{c.title}{c.isNew && <span class="tag new">new</span>}</a> {!('live' in c && c.live) && <span class="n">{c.n}</span>}
+                            {c.subs.length > 0 && <ul>{c.subs.map((x) => <li><a href={x.href}>{x.title}</a> {!('live' in c && c.live) && <span class="n">{x.n}</span>}</li>)}</ul>}
                           </div>
                         ))}
                       </div>

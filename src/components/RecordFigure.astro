@@ -1,0 +1,18 @@
+---
+// One credited picture: the image, a caption, and a credit line naming the creator, the license and the
+// source page (credit where credit is due, CLAUDE.md). Full credits for every picture: /credits/images/.
+import { licenseHref, type SiteImage } from '../lib/images';
+interface Props { img: SiteImage; eager?: boolean; size?: 'header' | 'thumb' }
+const { img, eager = false, size = 'header' } = Astro.props;
+const sizes = size === 'header' ? '(max-width: 700px) 100vw, 300px' : '160px';
+---
+<figure class={`tz-figure tz-figure-${size}`} id={`img-${img.id}`}>
+  <a class="tz-figure-img" href={`/credits/images/#${img.id}`} aria-label={`Credits for the picture: ${img.title}`}>
+    <img src={img.src} srcset={`${img.small} 320w, ${img.src} ${Math.min(img.width, 640)}w`} sizes={sizes}
+      width={img.width} height={img.height} alt={img.alt} loading={eager ? 'eager' : 'lazy'} decoding="async" />
+  </a>
+  <figcaption>
+    {size === 'header' && <span class="tz-figure-title">{img.title}{img.date && !img.title.includes(img.date) ? `, ${img.date}` : ''}</span>}
+    <span class="tz-figure-credit">{img.creator} · <a href={licenseHref(img)}>{img.license}</a> · <a href={img.source_url}>{img.source_name}</a></span>
+  </figcaption>
+</figure>

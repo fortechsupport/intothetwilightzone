@@ -109,7 +109,7 @@ const jsonld = {
       <section class="verb-tile">
         <h3><a href={v.href}>{v.title}</a> <span class="count-pill">{fmt(v.n)}</span></h3>
         <p class="small muted">{v.blurb}</p>
-        <ul>{(v.cols.length === 1 ? v.cols[0].subs : v.cols).slice(0, 8).map((c) => <li><a href={c.href}>{c.title}</a> <span class="n">{fmt(c.n)}</span></li>)}</ul>
+        <ul>{(v.cols.length === 1 ? v.cols[0].subs : v.cols).slice(0, 8).map((c) => <li><a href={c.href}>{c.title}</a> {!("live" in c && c.live) && <span class="n">{fmt(c.n)}</span>}</li>)}</ul>
       </section>
     ))}
   </div>
@@ -175,7 +175,7 @@ const jsonld = {
   .library-card { max-width: 760px; }
   .about-strip p { max-width: 72ch; }
   @media (max-width: 900px) {
-    .home-hero { grid-template-columns: 1fr; padding-top: var(--space-4); }
+    .home-hero { grid-template-columns: minmax(0, 1fr); padding-top: var(--space-4); }
     .home-hero-art { display: none; }
   }
 </style>

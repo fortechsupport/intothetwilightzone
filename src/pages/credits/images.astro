@@ -1,0 +1,59 @@
+---
+// Every picture on the site with its full credit (credit where credit is due, CLAUDE.md).
+import Base from '../../layouts/Base.astro';
+import { allImages, licenseHref } from '../../lib/images';
+import { sortKey } from '../../lib/taxonomy.mjs';
+const imgs = [...allImages()].sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title)));
+const ROLE: Record<string, string> = { portrait: 'Portraits', publicity: 'Publicity photographs', place: 'Places', organization: 'Organizations' };
+const groups = Object.entries(ROLE).map(([r, label]) => [label, imgs.filter((i) => i.role === r)] as const).filter(([, l]) => l.length);
+const recHref = (k: string) => {
+  const [c, ...rest] = k.split('/');
+  const map: Record<string, string> = { locations: 'places' };
+  return `/${map[c] ?? c}/${rest.join('/')}/`;
+};
+---
+<Base title="Image credits" description="Every picture on IntoTheTwilightZone.com with its photographer or maker, its public-domain or Creative Commons license, and the page it came from.">
+  <header class="verb-head">
+    <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/about/">About</a></p>
+    <p class="kicker">{imgs.length.toLocaleString('en-US')} pictures</p>
+    <h1>Image credits</h1>
+    <p class="lead">Every picture on this site is in the public domain or under a Creative Commons license, as the page it came from states. Each is credited here in full.</p>
+    <p class="small muted">
+      We host only pictures that anyone may reuse: publicity photographs the studios released without a copyright
+      notice, government and library photographs, and photographs their makers shared under Creative Commons.
+      Frames from the episodes, logos, title designs, posters and covers are never copied here; where they matter,
+      the record links to them. Pictures are resized for the web and otherwise unchanged. If you hold the rights to
+      a picture and believe it is credited wrongly, please <a href="/contribute/#rights">tell us</a> and we will
+      correct or remove it.
+    </p>
+  </header>
+  {groups.map(([label, list]) => (
+    <section>
+      <h2>{label} <span class="count-pill">{list.length}</span></h2>
+      <ul class="credit-list">
+        {list.map((i) => (
+          <li id={i.id}>
+            <img src={i.small} width="96" height={Math.round(96 * i.height / i.width)} alt="" loading="lazy" decoding="async" />
+            <div>
+              <p class="credit-title">{i.title}{i.date && !i.title.includes(i.date) ? `, ${i.date}` : ''}</p>
+              <p class="small">
+                By {i.creator}. <a href={licenseHref(i)}>{i.license}</a>{i.license_reason && <>: {i.license_reason}</>}.
+                {' '}Source: <a href={i.source_url}>{i.source_name}</a>{i.original_source && <> (originally {i.original_source})</>}.
+              </p>
+              <p class="small muted">Shown on: {i.records.map((k, n) => <>{n > 0 && ', '}<a href={recHref(k)}>{k.split('/').pop()!.replace(/-/g, ' ')}</a></>)}</p>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+  {imgs.length === 0 && <p>No pictures yet.</p>}
+</Base>
+<style>
+  .credit-list { list-style: none; padding: 0; margin: 0 0 var(--space-6); display: grid; gap: var(--space-4); }
+  .credit-list li { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: var(--space-4); align-items: start; padding-bottom: var(--space-4); border-bottom: 1px solid var(--line); scroll-margin-top: 120px; }
+  .credit-list img { width: 96px; height: auto; border-radius: var(--radius-sm, 4px); border: 1px solid var(--line); }
+  .credit-list p { margin: 0 0 4px; }
+  .credit-title { font-weight: 500; color: var(--text); }
+  .credit-list li:target { outline: 2px solid var(--brass); outline-offset: 6px; border-radius: 4px; }
+</style>

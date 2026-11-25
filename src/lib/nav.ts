@@ -6,7 +6,7 @@ import { catalog, countOf, type CatInfo } from './catalog';
 import { VERBS, READ_COLLECTIONS, sortKey } from './taxonomy.mjs';
 
 export interface NavLink { title: string; href: string; n: number; isNew?: boolean }
-export interface NavCol { title: string; href: string; n: number; isNew?: boolean; blurb?: string; subs: NavLink[] }
+export interface NavCol { title: string; href: string; n: number; live?: boolean; isNew?: boolean; blurb?: string; subs: NavLink[] }
 export interface NavVerb { slug: string; title: string; blurb: string; href: string; n: number; cols: NavCol[]; collections?: NavLink[]; menu?: NavCol[] }
 
 const az = <T extends { title: string }>(l: T[]) => [...l].sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title)));
@@ -36,6 +36,10 @@ export async function navModel(): Promise<NavVerb[]> {
         { title: 'Characters', href: '/people/characters/', n: ch?.entries.length ?? 0, blurb: ch?.blurb, subs: [] },
         col(o),
       ]);
+      // The fan forums and uploads (Adam, 2026-11-25: "Forums/Community in the main menu under Meet"). Their
+      // contents live in the accounts database, so the column has no build-time count.
+      cols.push({ title: 'Community', href: '/community/', n: 0, live: true, blurb: 'Talk with other fans in the forums, share your own photos and finds, and see what fans have added to each page.',
+        subs: [{ title: 'Forums', href: '/community/forum/', n: 0 }, { title: 'Fan contributions', href: '/community/uploads/', n: 0 }, { title: 'Community guidelines', href: '/community/guidelines/', n: 0 }] });
     } else if (v.slug === 'visit') {
       const pl = get('places')!;
       const st = pl.subs.find((s) => s.slug === 'in-story');

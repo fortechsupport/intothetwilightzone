@@ -1,12 +1,19 @@
 ---
 // The top of every record page: a type label with context ("Radio drama · Lights Out"), the title,
 // and an empty actions bar that the accounts script fills (favorite, watch/read/listen later).
+// When a credited picture of the record exists (src/lib/images.ts) it sits beside the title.
+import RecordFigure from './RecordFigure.astro';
+import { imagesFor } from '../lib/images';
 interface Props { type: string; context?: string; title: string; recKey?: string; contextMeta?: string }
 const { type, context, title, recKey, contextMeta } = Astro.props;
+const img = imagesFor(recKey)[0];
 ---
-<header class="record-head">
+<header class={`record-head${img ? ' has-figure' : ''}`}>
+  <div class="record-head-text">
   <p class="eyebrow"><span class="eyebrow-in"><span class="eyebrow-type">{type}</span>{context && <span class="eyebrow-ctx" data-pagefind-meta={contextMeta}>{context}</span>}</span></p>
   <h1>{title}</h1>
   <slot />
   {recKey && <div class="record-actions" data-record-key={recKey}></div>}
+  </div>
+  {img && <RecordFigure img={img} eager />}
 </header>

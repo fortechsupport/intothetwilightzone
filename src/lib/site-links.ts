@@ -9,6 +9,7 @@ export const UTILITY_LINKS: [string, string][] = [
   ['Rod Serling', '/rod-serling/'],
   ['Night Gallery', '/night-gallery/'],
   ['Everything A to Z', '/categories/'],
+  ['Community', '/community/'],
 ];
 
 /** Footer columns: heading, then links. */
@@ -24,4 +25,5 @@ export const FOOTER_LINKS: [string, string][] = [
   ['Terms of use', '/terms/'],
   ['Privacy', '/privacy/'],
   ['Copyright', '/copyright/'],
+  ['Image credits', '/credits/images/'],
 ];
