@@ -10,7 +10,7 @@ import yaml from 'yaml';
 
 const UA = 'IntoTheTwilightZone research (non-commercial fan site; a few slow lookups)';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const get = async (url) => { await sleep(1500); const r = await fetch(url, { headers: { 'User-Agent': UA } }); return r.ok ? r.text() : ''; };
+const get = async (url) => { await sleep(1500); const r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(20000) }); return r.ok ? r.text() : ''; };
 const strip = (s) => s.replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&#39;|&rsquo;/g, "'").replace(/\s+/g, ' ').trim();
 const norm = (s) => s.toLowerCase().replace(/[’']/g, "'").replace(/[^a-z0-9' ]/g, ' ').replace(/\s+/g, ' ').trim();
 
@@ -24,7 +24,8 @@ for (const f of (await readdir(dir)).filter((f) => f.endsWith('.yaml'))) {
 }
 console.error(`${todo.length} stories to look up`);
 
-for (const t of todo) {
+for (const [i, t] of todo.entries()) {
+  console.error(`${i + 1}/${todo.length} ${t.title}`);
   const out = { id: t.id, title: t.title, authors: t.authors, matches: [] };
   try {
     const html = await get(`https://www.isfdb.org/cgi-bin/se.cgi?arg=${encodeURIComponent(t.title)}&type=Fiction+Titles`);
