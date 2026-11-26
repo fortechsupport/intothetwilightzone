@@ -37,7 +37,7 @@ Updates decision 0010.
   Fontsource) replace DM Serif Display, Fraunces, Oswald and Michroma, which nothing uses any more. Jost (text) and
   Courier Prime (teleplay excerpts) stay. The faces Adam named (Bernhard Modern, Venus Extended, Caslon Antique,
   Casablanca Antique) are sold under commercial licences (MyFonts, Fontspring), so they can't be hosted without a
-  web licence bought in Adam's name; the free faces above are the closest we found among about thirty compared side
+  web licence bought in Adam's name, and Adam chose to keep the free look-alikes (22:37 UTC). The free faces are the closest we found among about thirty compared side
   by side with the key art. Swapping in the licensed fonts later only means replacing the files and two names in
   design/tokens.json.
 
