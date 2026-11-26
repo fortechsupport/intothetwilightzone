@@ -20,3 +20,5 @@
 /songs/jonathan-davis-the-twilight-zone-2002/ /works/jonathan-davis-tz-theme-2002/ 301
 /songs/marco-beltrami-the-twilight-zone-2019/ /works/beltrami-tz-theme-2019/ 301
 /songs/the-manhattan-transfer-twilight-zone-twilight-tone/ /works/manhattan-transfer-twilight-zone-twilight-tone/ 301
+# Browsers and crawlers that ask for the classic icon get the PNG one.
+/favicon.ico       /favicon-32.png 301
