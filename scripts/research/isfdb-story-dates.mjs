@@ -33,13 +33,17 @@ for (const [i, t] of todo.entries()) {
     const ids = new Set();
     if (/<b>Title:<\/b>/.test(html)) { const m = html.match(/title\.cgi\?(\d+)/); if (m) ids.add(m[1]); }
     for (const m of html.matchAll(/href="[^"]*title\.cgi\?(\d+)"[^>]*>([^<]+)<\/a>/g)) if (norm(m[2]) === norm(t.title)) ids.add(m[1]);
-    for (const id of [...ids].slice(0, 4)) {
+    for (const id of [...ids].slice(0, 15)) {
       const page = await get(`https://www.isfdb.org/cgi-bin/title.cgi?${id}`);
       const authors = [...page.matchAll(/ea\.cgi\?\d+[^>]*>([^<]+)<\/a>/g)].map((m) => m[1]).slice(0, 4);
       const date = page.match(/<b>Date:<\/b>\s*([^<\n]+)/)?.[1]?.trim();
       const type = page.match(/<b>Type:<\/b>\s*([^<\n]+)/)?.[1]?.trim();
       const pubs = page.split(/<table class="publications"|<h2>Publications/)[1] ?? '';
       const rows = [...pubs.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)].map((r) => strip(r[1])).filter((r) => /\d{4}/.test(r)).slice(0, 3);
+      // Keep only title records that name one of the record's authors (by surname).
+      const surname = (a) => norm(a).replace(/ (jr|sr|ii|iii)$/, '').split(' ').pop();
+      const surnames = t.authors.map(surname);
+      if (!authors.some((a) => surnames.includes(surname(a)))) continue;
       out.matches.push({ url: `https://www.isfdb.org/cgi-bin/title.cgi?${id}`, date, type, authors, firstPrintings: rows });
     }
   } catch (e) { out.error = e.message; }
