@@ -1,0 +1,148 @@
+---
+// Trivia quiz (Adam, 2026-11-26: Play suggestion 2). Every question is built from the episode records, the same
+// sourced facts the episode pages show, and every answer links to the episode page and its sources. Nothing is
+// written for the quiz alone, so it can never state something the site does not source.
+import Base from '../layouts/Base.astro';
+import { SERIES_LABEL } from '../lib/fan';
+---
+<Base title="Trivia quiz" description="Ten Twilight Zone questions at a time about who wrote, directed and starred in each episode and when it first aired, every answer linked to its episode page and sources.">
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/play/">Play</a></p>
+  <h1>Trivia quiz</h1>
+  <p class="lead">Ten questions a round about who wrote, directed and starred in each episode, and when it first aired. Every answer links to the episode's page, where the fact and its sources are.</p>
+  <form class="quiz-setup" id="quiz-setup" data-pagefind-ignore onsubmit="return false">
+    <label>Series
+      <select name="series"><option value="">All four series</option>{Object.entries(SERIES_LABEL).map(([v, l]) => <option value={v}>{l}</option>)}</select>
+    </label>
+    <button type="submit" class="btn primary" id="quiz-start">Start a new round</button>
+  </form>
+  <section class="quiz" id="quiz" aria-labelledby="quiz-q" data-pagefind-ignore>
+    <p class="kicker" id="quiz-progress">Loading the episodes…</p>
+    <h2 id="quiz-q" tabindex="-1">Your first question will appear here.</h2>
+    <div class="quiz-options" id="quiz-options"></div>
+    <p class="quiz-feedback" id="quiz-feedback" role="status"></p>
+    <p><button type="button" class="btn" id="quiz-next" hidden>Next question</button></p>
+  </section>
+  <noscript><p>The quiz needs JavaScript. The <a href="/finder/">Episode finder</a> lists the same facts.</p></noscript>
+  <p class="small muted">The questions come from the episode records: credits as the episode pages list them, and first air dates in the United States. If an answer looks wrong, the episode page has a link to suggest a correction.</p>
+
+  <script>
+    type Ep = { id: string; t: string; s: string; n: string; d: string; w: string[]; sa: string[]; di: string[]; c: string[] };
+    type Q = { text: string; options: string[]; answer: string; ep: Ep };
+    const SHORT: Record<string, string> = { '1959': '1959 series', '1985': '1985 series', '2002': '2002 series', '2019': '2019 series' };
+    const $ = (id: string) => document.getElementById(id)!;
+    const pick = <T,>(l: T[]) => l[Math.floor(Math.random() * l.length)];
+    const shuffle = <T,>(l: T[]) => { const a = [...l]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+    const names = (l: string[]) => (l.length < 3 ? l.join(' and ') : `${l.slice(0, -1).join(', ')} and ${l[l.length - 1]}`);
+    const label = (e: Ep) => `“${e.t}” (${SHORT[e.s] ?? e.s}${e.n ? `, ${e.n}` : ''})`;
+
+    // Three wrong answers drawn from the same series, never one that is also right for this episode.
+    const wrong = (pool: string[], right: Set<string>, n = 3) => shuffle([...new Set(pool)].filter((x) => !right.has(x))).slice(0, n);
+
+    function question(e: Ep, eps: Ep[]): Q | undefined {
+      const same = eps.filter((x) => x.s === e.s);
+      const kinds = [
+        e.w.length && 'writer', e.di.length && 'director', /^\d{4}/.test(e.d) && 'year', e.c.length && 'actor',
+      ].filter(Boolean) as string[];
+      if (!kinds.length) return undefined;
+      const kind = pick(kinds);
+      if (kind === 'writer') {
+        const others = wrong(same.flatMap((x) => x.w), new Set([...e.w, ...e.sa]));
+        if (others.length < 3) return undefined;
+        return { text: `Who is credited with writing ${label(e)}?`, options: shuffle([names(e.w), ...others]), answer: names(e.w), ep: e };
+      }
+      if (kind === 'director') {
+        const others = wrong(same.flatMap((x) => x.di), new Set(e.di));
+        if (others.length < 3) return undefined;
+        return { text: `Who directed ${label(e)}?`, options: shuffle([names(e.di), ...others]), answer: names(e.di), ep: e };
+      }
+      if (kind === 'year') {
+        const y = e.d.slice(0, 4);
+        const years = same.map((x) => x.d.slice(0, 4)).filter((x) => /^\d{4}$/.test(x));
+        const span = [...new Set(years)];
+        const pool = span.length >= 4 ? span : [...span, ...[1, 2, 3, -1, -2].map((k) => String(+y + k))];
+        const others = wrong(pool, new Set([y]));
+        if (others.length < 3) return undefined;
+        return { text: `In what year did ${label(e)} first air?`, options: [y, ...others].sort(), answer: y, ep: e };
+      }
+      const a = pick(e.c);
+      const others = wrong(same.flatMap((x) => x.c), new Set(e.c));
+      if (others.length < 3) return undefined;
+      return { text: `Which of these actors appears in ${label(e)}?`, options: shuffle([a, ...others]), answer: a, ep: e };
+    }
+
+    let all: Ep[] = [];
+    let round: Q[] = [];
+    let at = 0;
+    let score = 0;
+
+    function show() {
+      const q = round[at];
+      $('quiz-progress').textContent = `Question ${at + 1} of ${round.length} · Score ${score}`;
+      $('quiz-q').textContent = q.text;
+      $('quiz-feedback').textContent = '';
+      ($('quiz-next') as HTMLButtonElement).hidden = true;
+      const box = $('quiz-options');
+      box.replaceChildren(...q.options.map((o) => {
+        const b = document.createElement('button');
+        b.type = 'button'; b.className = 'btn quiz-option'; b.textContent = o;
+        b.addEventListener('click', () => answer(o));
+        return b;
+      }));
+    }
+
+    function answer(o: string) {
+      const q = round[at];
+      const right = o === q.answer;
+      if (right) score++;
+      for (const b of $('quiz-options').querySelectorAll<HTMLButtonElement>('button')) {
+        b.disabled = true;
+        if (b.textContent === q.answer) b.dataset.result = 'right';
+        else if (b.textContent === o) b.dataset.result = 'wrong';
+      }
+      const fb = $('quiz-feedback');
+      fb.replaceChildren(
+        document.createTextNode(right ? 'Correct. ' : `Not quite: the answer is ${q.answer}. `),
+        document.createTextNode('See it with its sources on the page for '),
+        Object.assign(document.createElement('a'), { href: `/episodes/${q.ep.id}/`, textContent: q.ep.t }),
+        document.createTextNode('.'),
+      );
+      $('quiz-progress').textContent = `Question ${at + 1} of ${round.length} · Score ${score}`;
+      const next = $('quiz-next') as HTMLButtonElement;
+      next.textContent = at + 1 < round.length ? 'Next question' : 'See your score';
+      next.hidden = false;
+      next.focus();
+    }
+
+    function finish() {
+      $('quiz-progress').textContent = 'Round over';
+      $('quiz-q').textContent = `You scored ${score} out of ${round.length}.`;
+      $('quiz-options').replaceChildren();
+      $('quiz-feedback').textContent = score === round.length ? 'A perfect round. Rod Serling would approve.' : 'Start a new round for ten more questions.';
+      ($('quiz-next') as HTMLButtonElement).hidden = true;
+      $('quiz-q').focus();
+    }
+
+    function start() {
+      const series = ($('quiz-setup') as HTMLFormElement).series.value as string;
+      const eps = all.filter((e) => !series || e.s === series);
+      round = [];
+      for (const e of shuffle(eps)) {
+        if (round.length === 10) break;
+        const q = question(e, all);
+        if (q) round.push(q);
+      }
+      at = 0; score = 0;
+      show();
+      $('quiz-q').focus();
+    }
+
+    $('quiz-next').addEventListener('click', () => { at++; if (at < round.length) { show(); $('quiz-q').focus(); } else finish(); });
+    $('quiz-start').addEventListener('click', start);
+    fetch('/fan/episodes.json').then((r) => r.json()).then((rows: Ep[]) => {
+      all = rows;
+      round = [];
+      for (const e of shuffle(all)) { if (round.length === 10) break; const q = question(e, all); if (q) round.push(q); }
+      show();
+    }).catch(() => { $('quiz-progress').textContent = 'The episodes could not be loaded. Try reloading the page.'; });
+  </script>
+</Base>

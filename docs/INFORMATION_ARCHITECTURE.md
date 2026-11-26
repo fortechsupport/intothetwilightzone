@@ -1,8 +1,9 @@
 # IntoTheTwilightZone.com: information architecture
 
 **Status:** approved 2026-11-21 and live. **Changed 2026-11-26 (decision 0011):** Adam folded Attend and Visit into
-Discover, leaving seven verbs, and set the order of categories in Watch, Listen and Read. Sections 1, 3.6, 3.7 and
-3.9 say what changed; the rest of the document keeps the original reasoning.
+Discover, leaving seven verbs, and set the order of categories in Watch, Listen and Read. Later the same day (decision 0013) Artwork became
+Art and design in Discover, its props, costumes, posters and prints joined Merchandise, and Play gained the site's
+own games. Sections 1, 3.4 to 3.7 and 3.9 say what changed; the rest of the document keeps the original reasoning.
 **Based on:** Adam's verb-based rough draft (Watch, Listen, Read, Play, Collect, Meet, Visit, Fandom), the taxonomy now on branch `claude/project-thread-p8ztki` (`src/lib/taxonomy.mjs`), and the 5,957 approved records in `data/review/taxonomy.json`.
 **Scope:** the site's top level, the categories and subcategories under it, and the rules for placing records. This document does not change any code. The navigation is built in the "Reorganize site around new category list" work once Adam approves this.
 
@@ -17,9 +18,9 @@ The site is organized around **what a visitor wants to do**. Each top-level item
 | **Watch** | Watches it on a screen or stage | Television, Movies, Stage (Adam's order) | 657 |
 | **Listen** | Listens to it | Music, Radio, Podcasts (Adam's order) | 489 |
 | **Read** | Reads it | Articles, Books, Comics, Essays and scholarship, Magazines, Scripts, The stories behind the episodes, Websites | 665 |
-| **Play** | Plays it | Games | 52 |
-| **Collect** | Owns it or admires it as an object | Artwork, Merchandise | 178 |
-| **Discover** | Learns the story behind it, what it inspired, the gatherings around it and where it happened | History, Legacy, Events, Lectures and talks, Places (tabs: Real places, Settings) | 1,049 |
+| **Play** | Plays it | Games; Play on this site (trivia quiz, Six degrees, Episode finder, Episode of the day, fan-made games) | 52 |
+| **Collect** | Owns it | Merchandise's shelves shown directly: Collectibles, Home video, Household and apparel, Masks and costumes, Posters and prints, Prop replicas, Props and costumes, Toys and figures, Trading cards; Track your collection (My Zone) | 178 |
+| **Discover** | Learns the story behind it, what it inspired, the gatherings around it and where it happened | History, Art and design, Legacy, Events, Lectures and talks, Places (tabs: Real places, Settings) | 1,049 |
 | **Meet** | Looks up who made it, who is in it, or who it inspired | Characters, Organizations, People | 2,640 |
 
 \*Distinct records that appear anywhere in the verb. A record can appear in more than one verb, so the column adds up to more than 5,957. Section 9 has the full counts.
@@ -146,6 +147,8 @@ points to no single episode. Television films go to Movies; radio-only anthologi
 
 ### 3.4 Play
 
+*Since 2026-11-26 (decision 0013) Play also lists the games on this site: a trivia quiz (/quiz/), Six degrees of the Zone, the Episode finder, Episode of the day, and a link to the fan-made games.*
+
 **Purpose:** everything made to be played.
 **In:** video games, board and card games, pinball, arcade, slot machines, and games in other franchises that nod to TZ.
 **Out:** game manuals and box art (content and artwork), toys that aren't games (go to Collect).
@@ -161,6 +164,8 @@ points to no single episode. Television films go to Movies; radio-only anthologi
 **Suggested change:** "Slot and casino games" (1 record) folds into "Pinball, arcade and slots". A subcategory with one record is a dead end.
 
 ### 3.5 Collect
+
+*Since 2026-11-26 (decision 0013) Collect holds Merchandise only, its shelves shown directly, plus Props and costumes and Posters and prints moved from Artwork; the rest of Artwork is Discover > Art and design (still at /artwork/). Old addresses redirect.*
 
 **Purpose:** physical things people own, display or admire as objects.
 **In:** licensed merchandise, posters, original art, cover art, the Night Gallery paintings, screen-used props and costumes, title design and production design.
@@ -209,7 +214,7 @@ points to no single episode. Television films go to Movies; radio-only anthologi
 
 ### 3.7 Discover (renamed from "Fandom")
 
-*Since 2026-11-26 Discover holds, in this order: History, Legacy, Events, Lectures and talks, Places.*
+*Since 2026-11-26 Discover holds, in this order: History, Art and design, Legacy, Events, Lectures and talks, Places.*
 
 **Purpose:** the story behind the franchise, and everything it inspired.
 **In:** Legacy, meaning every relationship between TZ and another work: adaptations, homages, parodies, references, works inspired by it, its place in everyday language, and fan-made work. History, meaning milestones: awards, premieres, production and broadcast history, trials and rights, and Rod Serling's life.

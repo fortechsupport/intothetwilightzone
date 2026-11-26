@@ -3,6 +3,21 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — Play on this site, Collect's shelves, Art and design
+
+Visitors can now:
+- Take a trivia quiz: ten questions a round about who wrote, directed and starred in each episode and when it
+  first aired, for one series or all four. Every answer links to the episode page and its sources.
+- Find the site's own games under Play: the quiz, Six degrees of the Zone, the Episode finder, Episode of the day
+  and the fan-made games.
+- Browse Collect by shelf straight from the menu: home video, toys and figures, trading cards, posters and prints,
+  screen-used props and costumes, and the rest, with a link to track their own collection.
+- Find title design, make-up, Night Gallery's paintings and cover art under Discover > Art and design.
+
+**Known not to work yet:**
+- The quiz asks about credits and air years only; questions about the stories themselves would need facts the
+  records don't hold yet in a form that can be checked automatically.
+
 ## 2026-11-26 — Link icons
 
 Visitors can now:
