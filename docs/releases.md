@@ -3,6 +3,21 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — Seven verbs: Attend and Visit join Discover
+
+Visitors can now:
+- Use a shorter main menu of seven verbs: Watch, Listen, Read, Play, Collect, Discover and Meet.
+- Find Television first in Watch (then Movies and Stage), Music first in Listen (then Radio and Podcasts), and
+  Read's formats in the order Articles, Books, Comics, Essays, Magazines, Scripts, the stories behind the
+  episodes, Websites.
+- Find Events, Lectures and Places in Discover, after History and Legacy.
+- Switch between Real places and Settings with two tabs on the Places page. Links to /places/#settings open the
+  Settings tab.
+- Follow old links to /attend/ and /visit/, which now lead to Discover and Places.
+
+**Known not to work yet:**
+- On the home page, Meet sits alone on the last row of the verb tiles at desktop width.
+
 ## 2026-11-26 — Cycle 20: four more story dates
 
 Visitors can now:

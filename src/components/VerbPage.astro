@@ -5,7 +5,7 @@ import Base from '../layouts/Base.astro';
 import SectionSummary from './SectionSummary.astro';
 import RecordArt from './RecordArt.astro';
 import type { Motif } from '../lib/motifs';
-const VERB_MOTIF: Record<string, Motif> = { watch: 'tv', listen: 'radio', read: 'book', play: 'die', collect: 'disc', attend: 'ticket', discover: 'door', meet: 'mask', visit: 'pin' };
+const VERB_MOTIF: Record<string, Motif> = { watch: 'tv', listen: 'radio', read: 'book', play: 'die', collect: 'disc', discover: 'door', meet: 'mask' };
 import { navModel } from '../lib/nav';
 import { catalog } from '../lib/catalog';
 import { VERBS } from '../lib/taxonomy.mjs';
@@ -14,8 +14,8 @@ const { slug } = Astro.props;
 const v = (await navModel()).find((x) => x.slug === slug)!;
 const def = VERBS.find((x) => x.slug === slug)!;
 const cats = await catalog();
-const isDir = slug === 'meet' || slug === 'visit';
-const entries = isDir ? [] : [...new Map(def.categories.flatMap((c) => cats.get(c.slug)?.subs.flatMap((s) => s.entries.map((e) => [e.key, e] as const)) ?? [])).values()];
+const isDir = slug === 'meet';
+const entries = isDir ? [] : [...new Map(def.categories.filter((c) => c.kind !== 'section').flatMap((c) => cats.get(c.slug)?.subs.flatMap((s) => s.entries.map((e) => [e.key, e] as const)) ?? [])).values()];
 const SPLIT = 'Each category shows official items (made, licensed or published by the franchise or by Rod Serling) and unofficial or inspired ones on separate shelves.';
 ---
 <Base title={v.title} description={`${v.title}: ${v.blurb}`}>

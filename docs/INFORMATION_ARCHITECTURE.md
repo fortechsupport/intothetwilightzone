@@ -1,6 +1,8 @@
 # IntoTheTwilightZone.com: information architecture
 
-**Status:** proposal for Adam's review, 2026-11-21
+**Status:** approved 2026-11-21 and live. **Changed 2026-11-26 (decision 0011):** Adam folded Attend and Visit into
+Discover, leaving seven verbs, and set the order of categories in Watch, Listen and Read. Sections 1, 3.6, 3.7 and
+3.9 say what changed; the rest of the document keeps the original reasoning.
 **Based on:** Adam's verb-based rough draft (Watch, Listen, Read, Play, Collect, Meet, Visit, Fandom), the taxonomy now on branch `claude/project-thread-p8ztki` (`src/lib/taxonomy.mjs`), and the 5,957 approved records in `data/review/taxonomy.json`.
 **Scope:** the site's top level, the categories and subcategories under it, and the rules for placing records. This document does not change any code. The navigation is built in the "Reorganize site around new category list" work once Adam approves this.
 
@@ -8,19 +10,17 @@
 
 ## 1. Summary
 
-The site is organized around **what a visitor wants to do**. Each top-level item is a verb. Under each verb sit categories, and under those sit subcategories. All of them are alphabetized.
+The site is organized around **what a visitor wants to do**. Each top-level item is a verb. Under each verb sit categories, and under those sit subcategories. All of them are alphabetized, except the categories of Watch, Listen, Discover and Read's formats, which follow the order Adam chose (2026-11-26).
 
 | Verb | What the visitor does | Categories | Records* |
 |---|---|---|---:|
-| **Watch** | Watches it on a screen or stage | Movies, Stage, Television | 657 |
-| **Listen** | Listens to it | Music, Podcasts, Radio | 489 |
-| **Read** | Reads it | Articles, Books, Comics, Essays and scholarship, Magazines, Scripts, Websites | 665 |
+| **Watch** | Watches it on a screen or stage | Television, Movies, Stage (Adam's order) | 657 |
+| **Listen** | Listens to it | Music, Radio, Podcasts (Adam's order) | 489 |
+| **Read** | Reads it | Articles, Books, Comics, Essays and scholarship, Magazines, Scripts, The stories behind the episodes, Websites | 665 |
 | **Play** | Plays it | Games | 52 |
 | **Collect** | Owns it or admires it as an object | Artwork, Merchandise | 178 |
-| **Attend** | Goes to it at a set time and place | Events, Lectures and talks | 90 |
-| **Discover** | Learns the story behind it and what it inspired | History, Legacy | 833 |
+| **Discover** | Learns the story behind it, what it inspired, the gatherings around it and where it happened | History, Legacy, Events, Lectures and talks, Places (tabs: Real places, Settings) | 1,049 |
 | **Meet** | Looks up who made it, who is in it, or who it inspired | Characters, Organizations, People | 2,640 |
-| **Visit** | Looks up where it happened, real or fictional | Real places, Settings | 126 |
 
 \*Distinct records that appear anywhere in the verb. A record can appear in more than one verb, so the column adds up to more than 5,957. Section 9 has the full counts.
 
@@ -186,7 +186,9 @@ points to no single episode. Television films go to Movies; radio-only anthologi
 
 **Suggested changes:** fold "Ornaments" (1 record) into "Household and apparel". "Other merchandise" holds 33 records, which is too many for a catch-all. A review pass would likely produce two or three real subcategories, such as "Posters and prints for sale" and "Books and media bundles".
 
-### 3.6 Attend (new verb)
+### 3.6 Attend (folded into Discover, 2026-11-26)
+
+*Adam, 2026-11-26: "We don't need Attend. Include Events and Lectures in Discover instead." Events and Lectures are now categories in Discover; /attend/ redirects to /discover/. The text below is the original reasoning.*
 
 **Purpose:** happenings with a date and a place that someone could go to, or could have gone to.
 **In:** conventions, festivals, anniversaries, exhibitions, screenings and marathons, premieres, lectures, talks, courses, readings and panels.
@@ -206,6 +208,8 @@ points to no single episode. Television films go to Movies; radio-only anthologi
 **Suggested change:** "Interviews and conversations" (1 record) moves to the Media Library as content, which is where interviews already go.
 
 ### 3.7 Discover (renamed from "Fandom")
+
+*Since 2026-11-26 Discover holds, in this order: History, Legacy, Events, Lectures and talks, Places.*
 
 **Purpose:** the story behind the franchise, and everything it inspired.
 **In:** Legacy, meaning every relationship between TZ and another work: adaptations, homages, parodies, references, works inspired by it, its place in everyday language, and fan-made work. History, meaning milestones: awards, premieres, production and broadcast history, trials and rights, and Rod Serling's life.
@@ -271,7 +275,9 @@ points to no single episode. Television films go to Movies; radio-only anthologi
 
 A person can hold several roles. Rod Serling is a writer, narrator, producer and showrunner, and appears in each list. His page is his single home.
 
-### 3.9 Visit (directory)
+### 3.9 Visit (folded into Discover, 2026-11-26)
+
+*Adam, 2026-11-26: "Visit can be included in Discover also, with tabs to toggle between Real Places and Settings." Places is now the last category in Discover; its page has two tabs, Real places and Settings, and /visit/ redirects to /places/. The text below is the original reasoning.*
 
 **Purpose:** places, real and fictional, with maps where available.
 **In:** filming locations, backlot sets, Rod Serling's places, memorials, venues, attractions and museum exhibits, plus settings inside the stories.

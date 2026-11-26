@@ -632,3 +632,10 @@ ol.rank li { padding: 4px 0; border-bottom: 1px solid var(--line); }
 h2 .watch-inline, h3 .watch-inline { font-size: var(--step--1); }
 ol.rank .watch-inline { margin-left: 0; }
 .watch-banner { padding: var(--space-2) var(--space-3); border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface); }
+
+/* Tabs (Places: Real places and Settings). The page sets html[data-places-tab] before the panels draw. */
+.tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: var(--space-5) 0 var(--space-3); border-bottom: 1px solid var(--line); }
+.tabs [role="tab"] { background: none; color: var(--text-soft); border: 1px solid transparent; border-bottom: 3px solid transparent; padding: 8px 16px; min-height: 44px; cursor: pointer; font: inherit; font-weight: 500; margin-bottom: -1px; }
+.tabs [role="tab"]:hover { color: var(--text); }
+.tabs [role="tab"][aria-selected="true"] { color: var(--brass); border-bottom-color: var(--brass); }
+html[data-places-tab="settings"] #real-places, html[data-places-tab="real-places"] #settings { display: none; }

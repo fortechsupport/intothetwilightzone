@@ -18,7 +18,7 @@ const verbs = await navModel();
     <input id="nf-q" type="search" name="q" placeholder="Search episodes, people, films, songs…" autocomplete="off" />
     <button class="btn primary" type="submit">Search</button>
   </form>
-  <div class="section-head"><h2>Nine ways in</h2></div>
+  <div class="section-head"><h2>Seven ways in</h2></div>
   <div class="grid">
     {verbs.map((v) => <a class="card" href={v.href}><h3>{v.title}</h3><p class="small muted">{v.blurb}</p></a>)}
   </div>
