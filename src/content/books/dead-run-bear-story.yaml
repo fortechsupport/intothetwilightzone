@@ -2,11 +2,11 @@ title: Dead Run
 authors:
 - Greg Bear
 kind: short-story
+first_published: '1985-04'
 episodes:
 - 1985/dead-run
 description: 'Greg Bear''s short story, adapted as the Twilight Zone episode "Dead Run" (1985 series). Alan Brennert
-  wrote the teleplay. The earliest dated printing we found is in Omni, April 1985: the catalogue gives the story no date
-  of its own and does not mark that printing as the first.'
+  wrote the teleplay. The earliest dated printing we found is in Omni, April 1985: ISFDB dates the story to that month but does not mark that printing as the first.'
 relevance: related
 research_confidence: medium
 tags:
@@ -19,4 +19,7 @@ sources:
 - title: 'AuthorWars (ISFDb-based catalogue): Dead Run'
   url: https://authorwars.com/books/dead-run-40587.html
   note: Read 2026-11-24 for where the story first appeared.
-last_verified: '2026-11-24'
+- title: 'ISFDB: Dead Run'
+  url: https://www.isfdb.org/cgi-bin/title.cgi?40587
+  note: Read 2026-11-26 for the story's date and earliest printing.
+last_verified: '2026-11-26'

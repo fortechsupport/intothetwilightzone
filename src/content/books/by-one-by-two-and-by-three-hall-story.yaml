@@ -2,10 +2,12 @@ title: By One, By Two and By Three
 authors:
 - Stephen Hall
 kind: short-story
+first_published: '1887-12'
+first_published_in: "Temple Bar"
 episodes:
 - films/night-gallery-s2e20
 description: Stephen Hall's story, adapted as the Night Gallery segment "There Aren't Any More MacBanes" (season 2, episode
-  20). Teleplay by Alvin Sapinsley. No source we read gives where it first appeared.
+  20). Teleplay by Alvin Sapinsley. ISFDB lists it in the magazine Temple Bar, December 1887.
 relevance: related
 research_confidence: medium
 tags:
@@ -15,4 +17,7 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
 - title: 'Wikipedia: Night Gallery'
   url: https://en.wikipedia.org/wiki/Night_Gallery
-last_verified: '2026-11-24'
+- title: 'ISFDB: By One, By Two and By Three'
+  url: https://www.isfdb.org/cgi-bin/title.cgi?1603156
+  note: Read 2026-11-26 for the story's date and earliest printing.
+last_verified: '2026-11-26'

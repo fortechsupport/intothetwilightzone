@@ -2,10 +2,11 @@ title: Marmalade Wine
 authors:
 - Joan Aiken
 kind: short-story
+first_published: '1958-09'
 episodes:
 - films/night-gallery-s2e04
 description: Joan Aiken's story, adapted as the Night Gallery segment "Marmalade Wine" (season 2, episode 4). Teleplay
-  by Jerrold Freedman. No source we read gives where it first appeared.
+  by Jerrold Freedman. ISFDB dates the story to September 1958; the earliest printing it lists is Argosy (UK), August 1964.
 relevance: related
 research_confidence: medium
 tags:
@@ -15,4 +16,7 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
 - title: 'Wikipedia: Night Gallery'
   url: https://en.wikipedia.org/wiki/Night_Gallery
-last_verified: '2026-11-24'
+- title: 'ISFDB: Marmalade Wine'
+  url: https://www.isfdb.org/cgi-bin/title.cgi?747021
+  note: Read 2026-11-26 for the story's date and earliest printing.
+last_verified: '2026-11-26'

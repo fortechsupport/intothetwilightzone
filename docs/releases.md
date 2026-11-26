@@ -3,6 +3,22 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — Cycle 17: when twelve episode stories were first published
+
+Visitors can now:
+- See a "First published" date on twelve more of the stories behind the episodes, taken from the Internet
+  Speculative Fiction Database (ISFDB), with the ISFDB page linked as the source. Six of them used to say no source
+  gave where they first appeared. Price Day's "Four O'Clock" is now shown in Alfred Hitchcock's Mystery Magazine
+  (April 1958), and R. Chetwynd-Hayes's "Housebound" in The Third Fontana Book of Great Horror Stories (1968).
+  Stephen Hall's "By One, By Two and By Three" (Night Gallery's "There Aren't Any More MacBanes") is shown in
+  Temple Bar (December 1887), and Jeffry Scott's "Out of the Country" in Tales of Unease (1966).
+
+**Known not to work yet:**
+- ISFDB answers slowly, so the first run read only 16 of the 44 undated stories before it was stopped. A second
+  run with time limits is reading the rest. For three stories ISFDB had no match ("A Question of Fear", "I'll Never
+  Leave You – Ever" and Phyllis Eisenstein's "Lost and Found"). "All of Us Are Dying" stays undated, because ISFDB's
+  only printing (Rogue, October 1961) came after the episode aired.
+
 ## 2026-11-26 — Cycle 16: three more archived copies, one podcast link repaired
 
 Visitors can now:

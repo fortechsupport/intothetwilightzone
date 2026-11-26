@@ -2,6 +2,7 @@ title: Button, Button
 authors:
 - Richard Matheson
 kind: short-story
+first_published: '1970-06'
 episodes:
 - 1985/button-button
 description: 'Richard Matheson''s short story, adapted as the Twilight Zone episode "Button, Button" (1985 series). Richard
@@ -19,4 +20,7 @@ sources:
 - title: 'AuthorWars (ISFDb-based catalogue): Button, Button'
   url: https://authorwars.com/books/button-button-72806.html
   note: Read 2026-11-24 for where the story first appeared.
-last_verified: '2026-11-24'
+- title: 'ISFDB: Button, Button'
+  url: https://www.isfdb.org/cgi-bin/title.cgi?72806
+  note: Read 2026-11-26 for the story's date and earliest printing.
+last_verified: '2026-11-26'

@@ -2,10 +2,12 @@ title: Out of the Country
 authors:
 - Jeffry Scott
 kind: short-story
+first_published: '1966'
+first_published_in: "Tales of Unease"
 episodes:
 - films/night-gallery-s2e19
 description: Jeffry Scott's story, adapted as the Night Gallery segment "Dead Weight" (season 2, episode 19). Teleplay
-  by Jack Laird. No source we read gives where it first appeared.
+  by Jack Laird. ISFDB lists it in the anthology Tales of Unease, edited by John Burke (Pan Books, 1966).
 relevance: related
 research_confidence: medium
 tags:
@@ -15,4 +17,7 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
 - title: 'Wikipedia: Night Gallery'
   url: https://en.wikipedia.org/wiki/Night_Gallery
-last_verified: '2026-11-24'
+- title: 'ISFDB: Out of the Country'
+  url: https://www.isfdb.org/cgi-bin/title.cgi?605405
+  note: Read 2026-11-26 for the story's date and earliest printing.
+last_verified: '2026-11-26'
