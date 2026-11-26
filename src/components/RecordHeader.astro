@@ -19,7 +19,7 @@ const GALLERY = 3;
   <slot />
   {/* The links are rendered here; public/account.js puts the Favorite, Later and vote buttons in front of them. A
       placeholder the width of those buttons holds their place until then, so nothing below jumps (CLS). */}
-  {recKey && <div class="record-actions" data-record-key={recKey}><a class="action-link" href={`/community/discuss/?item=${encodeURIComponent(recKey)}`}>Discuss</a><a class="action-link" href={`/community/uploads/?item=${encodeURIComponent(recKey)}`}>Fan contributions</a></div>}
+  {recKey && <div class="record-actions" data-record-key={recKey} data-pagefind-ignore><a class="action-link" href={`/community/discuss/?item=${encodeURIComponent(recKey)}`}>Discuss</a><a class="action-link" href={`/community/uploads/?item=${encodeURIComponent(recKey)}`}>Fan contributions</a></div>}
   </div>
   {img ? <RecordFigure img={img} eager /> : recKey && <RecordArt col={recKey.split('/')[0]} type={type} title={title} />}
   {more.length > 0 && (

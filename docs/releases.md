@@ -3,6 +3,22 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — Cycle 12: five more sources fixed, cleaner search results
+
+Visitors can now:
+- Follow the source links on five pages that pointed at Wikipedia articles that don't exist: Logan's Run and What
+  Dreams May Come (Matheson's novel) now reach their articles, Are You Afraid of the Dark? reaches the series
+  article, Editorial Novaro reaches the Spanish Wikipedia article (there is no English one), and Gauntlet Press now
+  cites the publisher's own page for its Serling script volumes.
+
+- Read cleaner search results. Excerpts no longer run the page's buttons and picture credits into the text
+  ("Willoughby. DiscussFan contributions James Daly…"), facts read "First aired May 6, 1960" instead of "First
+  airedMay 6, 1960Runtime25 minutes", and the search term is marked in the theme's own colours instead of bright
+  yellow.
+
+**Known not to work yet:**
+- The dead links with no archived copy listed under Cycle 11 are unchanged.
+
 ## 2026-11-26 — Cycle 11: dead links fixed or swapped for archived copies
 
 Visitors can now:

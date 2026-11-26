@@ -338,6 +338,8 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
 
 /* Search (Pagefind) */
 #search { min-height: 67px; --pagefind-ui-primary: var(--brass); --pagefind-ui-text: var(--text); --pagefind-ui-background: var(--surface); --pagefind-ui-border: var(--line-strong); --pagefind-ui-tag: var(--surface-2); --pagefind-ui-border-width: 1px; --pagefind-ui-border-radius: 8px; --pagefind-ui-font: var(--font-ui); }
+/* The search term in result excerpts: the theme's own colours, not the browser's bright yellow. */
+#search mark { background: var(--surface-3); color: var(--text); box-shadow: inset 0 -2px 0 var(--brass); padding: 0 1px; }
 
 /* ---------- 8. Home and landing pages ---------- */
 .hero { position: relative; isolation: isolate; padding: var(--space-8) 0 var(--space-7); margin-bottom: var(--space-5); }

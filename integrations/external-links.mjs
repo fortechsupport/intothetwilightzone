@@ -5,7 +5,7 @@
 // (kept alongside any rel it already has) and aria-describedby="ext-note", which screen readers announce as
 // "opens in a new tab" (the note is a hidden element in the Base layout). The ↗ mark beside such links comes
 // from public/site.css. Any target on an internal link is removed. Inline scripts are left alone; client
-// templates follow the same rule by hand. scripts/check-site.mjs fails the build if a page breaks the rule.
+// templates follow the same rule by hand. It also spaces out facts lists for site search (spaceFacts). scripts/check-site.mjs fails the build if a page breaks the rule.
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -45,7 +45,13 @@ export function fixTag(tag) {
 
 /** Apply the rule to a whole page, skipping inline scripts and styles. */
 export function fixHtml(html) {
-  return html.split(/(<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>)/).map((part, i) => (i % 2 ? part : part.replace(/<a\b[^>]*>/g, fixTag))).join('');
+  return html.split(/(<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>)/).map((part, i) => (i % 2 ? part : spaceFacts(part.replace(/<a\b[^>]*>/g, fixTag)))).join('');
+}
+
+/** A space between the terms and values of a facts list. It shows nothing on the page, but without it site search
+ * reads "First aired May 6, 1960" as "First airedMay 6, 1960Runtime25 minutes" in its result excerpts. */
+export function spaceFacts(html) {
+  return html.replace(/<\/dt><dd/g, '</dt> <dd').replace(/<\/dd><\/div><div/g, '</dd></div> <div').replace(/<\/dd><dt/g, '</dd> <dt');
 }
 
 export default function externalLinks() {
