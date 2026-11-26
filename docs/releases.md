@@ -3,6 +3,26 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — Cycle 11: dead links fixed or swapped for archived copies
+
+Visitors can now:
+- Follow sources that had gone dead. 67 pages that no longer exist (MeTV stories, the Twilight Zone Museum's old
+  pages, the Pacifica Radio Archives, convention and festival pages, closed podcast hosts and more) now open the
+  Wayback Machine's saved copy instead, on about 220 links across the site.
+- Follow links that used to go through mirror or proxy sites (45worlds, Cambridge Core, Rotten Tomatoes, Wikipedia
+  copies, Reddit and others); they now go straight to the original site. Four Wikipedia links that were cut off at a
+  comma now reach the right article.
+- See Event venues on the map: their colour was near-white and vanished on the map tiles; it is now dark teal.
+
+**Known not to work yet:**
+- About 60 dead links have no archived copy and no known new address (for example the authorwars.com magazine
+  covers, TwilightZonePod.com episodes, several fifthdimension.libsyn.com episodes, chartable.com and two Audible
+  pages). They stay listed in the weekly link report until a replacement is found.
+- Five English Wikipedia links point at articles that don't exist (Editorial Novaro, Gauntlet Press, Logan's Run
+  (novel), What Dreams May Come (novel), Are You Afraid of the Dark? (1990 TV series)); the right titles still need
+  checking from a network that reaches Wikipedia.
+- About 3,100 links couldn't be checked because those sites turn away automated readers.
+
 ## 2026-11-26 — Cycle 10: printing and home-screen icons
 
 Visitors can now:

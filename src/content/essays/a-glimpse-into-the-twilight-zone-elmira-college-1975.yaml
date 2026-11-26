@@ -11,7 +11,7 @@ research_confidence: high
 media:
 - type: link
   title: A Glimpse into the Twilight Zone / Rod Serling (PRA SZ0066)
-  url: https://pacificaradioarchives.org/node/8692
+  url: https://web.archive.org/web/20250125114025/https://pacificaradioarchives.org/node/8692
   host: Pacifica Radio Archives
   date: '1975-05-01'
   rights: link-only
@@ -19,7 +19,7 @@ media:
     Pacifica also holds a 13 Mar 1970 KPFK interview by Mark Davidson (BB5150), per https://pacificaradioarchives.org/subject-tags/serling-rod.
 sources:
 - title: Pacifica Radio Archives
-  url: https://pacificaradioarchives.org/node/8692
+  url: https://web.archive.org/web/20250125114025/https://pacificaradioarchives.org/node/8692
 last_verified: '2026-11-20'
 locked: true
 organizations:
