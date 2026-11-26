@@ -3,6 +3,19 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — Cycle 16: three more archived copies, one podcast link repaired
+
+Visitors can now:
+- Open the Musicnotes sheet-music listing, the Downpour audiobook page for The Twilight Zone Companion and the
+  student essay "Thirty Minute Reality Check" through their Internet Archive copies; the live pages are gone.
+- Follow the Entering the Fifth Dimension episode link: its feed glued the site address onto the front of the
+  link, so it led nowhere. The weekly feed reader now repairs links like that on its own.
+
+**Known not to work yet:**
+- The weekly link check (2026-11-26) now reports 51 broken links, down from 127. The rest have no archived copy;
+  most are podcast episode pages the podcasters removed, shop listings, and sites that may be turning away
+  automated readers. They stay on the report for a person to check.
+
 ## 2026-11-26 — Cycle 14: sources point at the real Wikipedia pages, no repeated sources
 
 Visitors can now:
