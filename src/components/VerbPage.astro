@@ -29,6 +29,7 @@ const SPLIT = 'Each category shows official items (made, licensed or published b
     </div>
     <RecordArt title={v.title} motif={VERB_MOTIF[slug] ?? 'door'} />
   </header>
+  <h2 class="visually-hidden">Categories in {v.title}</h2>
   <div class="grid">
     {v.cols.map((c) => (
       <a class="card" href={c.href}>

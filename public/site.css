@@ -469,7 +469,9 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
   table.lib td:first-child { font-size: var(--step-0); }
   .preview-banner { font-size: .7rem; padding: 3px 10px; }
 }
-@media (max-width: 360px) { .brand-mark { font-size: 1.05rem; } .header-search .label { display: none; } }
+@media (max-width: 360px) { .brand-mark { font-size: 1.05rem; } .header-search .label { display: none; }
+  /* With wider letter and word spacing (WCAG 1.4.12) the name may need two lines rather than push the Menu button off the screen. */
+  .brand { flex-shrink: 1; min-width: 0; } .brand-mark { white-space: normal; } }
 
 /* ---------- 10b. Era themes and motion ----------
    Chosen in the header's Theme menu (Base.astro). Each evokes an era of the show by palette, type and texture

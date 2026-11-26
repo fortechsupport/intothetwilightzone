@@ -60,8 +60,8 @@ to every change, by every person or Claude thread. They come from how Adam's Sey
 | `npm run check:data` | People files are named for their slug; every decision key has a record; duplicate_of targets exist; no two records share a title, year and maker; every record has a source |
 | `npm run tokens -- --check` | Every text color pair meets 4.5:1 contrast and every control border 3:1, in every theme |
 | `npm run build` and `npm run build:preview` | The schema accepts every record (public and preview modes) |
-| `npm run check:site` | External links open in a new tab and internal ones do not; no broken internal links, no duplicate page titles, one h1 and a description per page, no repeated roles, no page over 1.5 MB (300 KB is the target) |
-| `npm run check:a11y` | axe-core finds no WCAG 2.2 AA violations on one page of every type, dark and light, and on a sample in each era theme; at 320 x 640 nothing scrolls sideways or runs past the right edge and the h1 starts in the top third; on a slow phone connection no sample page shifts its layout by more than 0.1 |
+| `npm run check:site` | External links open in a new tab and internal ones do not; no broken internal links, no duplicate page titles, one h1 and a description per page, headings that never skip a level, no repeated roles, no page over 1.5 MB (300 KB is the target) |
+| `npm run check:a11y` | axe-core finds no WCAG 2.2 AA violations on one page of every type, dark and light, and on a sample in each era theme; at 320 x 640 nothing scrolls sideways or runs past the right edge and the h1 starts in the top third, also with wider text spacing on a sample; on a slow phone connection no sample page shifts its layout by more than 0.1 |
 
 ## Design system
 

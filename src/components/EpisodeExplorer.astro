@@ -11,14 +11,18 @@ import ThemeList from './ThemeList.astro';
 import { THEMES, topThemes } from '../lib/themes';
 import { segmentPodcastCounts } from '../lib/podcast-episodes';
 
-interface Props { entries: ExEntry[]; id?: string; noun?: string; groupLabel?: string }
-const { entries, id = 'ex', noun = 'episodes', groupLabel = 'Season' } = Astro.props;
+// `parent` is the level of the heading the explorer sits under (1 when it follows the page's h1), so the season and
+// entry headings continue the outline without skipping a level.
+interface Props { entries: ExEntry[]; id?: string; noun?: string; groupLabel?: string; parent?: 1 | 2 | 3 }
+const { entries, id = 'ex', noun = 'episodes', groupLabel = 'Season', parent = 2 } = Astro.props;
 // Podcasts plan, found for later (done 2026-11-24): podcast episodes whose titles name a Night Gallery segment.
 const podCount = entries.some((e) => e.segments.length) ? await segmentPodcastCounts() : new Map<string, number>();
 
 const peopleOf = (e: ExEntry) => [...new Set([...e.writers, ...e.directors, ...e.cast, ...e.segments.flatMap((s) => [...s.writers, ...s.directors, ...s.cast, ...s.source_authors])])];
 const people = [...new Set(entries.flatMap(peopleOf))].sort((a, b) => sortKey(a).localeCompare(sortKey(b)));
 const groups = [...new Set(entries.map((e) => e.group))];
+const GroupH = `h${parent + 1}`;
+const TitleH = `h${groups.length > 1 ? parent + 2 : parent + 1}`;
 const kinds = [...new Set(entries.flatMap((e) => e.links.map((l) => l.kind)))].sort();
 const certs = ['confirmed-by-creator', 'documented', 'fan-noted'].filter((c) => entries.some((e) => e.links.some((l) => l.certainty === c)));
 const themeCounts = new Map(topThemes(entries.map((e) => e.themes), 99));
@@ -41,7 +45,7 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
   {groups.length > 1 && <p class="small letters" data-pagefind-ignore>Jump to: {groups.map((g) => <a href={`#${slug(g)}`}>{g}</a>)}</p>}
   {groups.map((g) => (
     <section class="ex-group" id={slug(g)}>
-      {groups.length > 1 && <h3>{g}</h3>}
+      {groups.length > 1 && <GroupH>{g}</GroupH>}
       <ol class="ex-list plain">
         {entries.filter((e) => e.group === g).map((e) => (
           <li class="ex-entry card" id={e.id}
@@ -52,7 +56,7 @@ const slug = (g: string) => `${id}-${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')
             data-themes={`|${e.themes.join('|')}|`}
             data-sort={sortKey(e.title)}
             data-air={`${e.group}|${e.date ?? ''}|${e.id}`} data-date={e.date ?? ''}>
-            <h4 class="ex-title"><a href={`#${e.id}`} class="ex-anchor">{e.title}</a></h4>
+            <TitleH class="ex-title"><a href={`#${e.id}`} class="ex-anchor">{e.title}</a></TitleH>
             <p class="small muted">{[e.number, e.kindLabel !== 'Episode' && e.kindLabel, formatDate(e.date)].filter(Boolean).join(' · ')}</p>
             {e.aka.length > 0 && <p class="small muted">Also known as {e.aka.join(', ')}</p>}
             {e.links.length > 0 && (
