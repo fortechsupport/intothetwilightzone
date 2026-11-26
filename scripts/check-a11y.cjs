@@ -97,11 +97,12 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
     const cdp = await c.newCDPSession(pg);
     await cdp.send('Network.enable');
     await cdp.send('Network.emulateNetworkConditions', { offline: false, latency: 150, downloadThroughput: 200000, uploadThroughput: 94000 });
-    await pg.addInitScript(() => { window.__cls = 0; new PerformanceObserver((l) => { for (const e of l.getEntries()) if (!e.hadRecentInput) window.__cls += e.value; }).observe({ type: 'layout-shift', buffered: true }); });
+    // Each shift is kept with the elements that moved, so a failure says what jumped and by how much.
+    await pg.addInitScript(() => { window.__cls = 0; window.__shifts = []; new PerformanceObserver((l) => { for (const e of l.getEntries()) if (!e.hadRecentInput) { window.__cls += e.value; if (e.value > 0.01) window.__shifts.push(`${e.value.toFixed(3)} at ${Math.round(e.startTime)}ms: ` + e.sources.map((x) => (x.node && x.node.nodeType === 1 ? x.node.tagName.toLowerCase() + (typeof x.node.className === 'string' && x.node.className ? '.' + x.node.className.trim().split(/\s+/)[0] : '') : 'text') + ` ${Math.round(x.previousRect.y)}→${Math.round(x.currentRect.y)}`).join(', ')); } }).observe({ type: 'layout-shift', buffered: true }); });
     await pg.goto(base + p, { waitUntil: 'load' });
     await pg.waitForTimeout(1500);
-    const cls = await pg.evaluate(() => window.__cls);
-    if (cls > 0.1) { failures++; console.log(`✗ [layout shift] ${p}: ${cls.toFixed(3)} (limit 0.1)`); }
+    const { cls, shifts } = await pg.evaluate(() => ({ cls: window.__cls, shifts: window.__shifts }));
+    if (cls > 0.1) { failures++; console.log(`✗ [layout shift] ${p}: ${cls.toFixed(3)} (limit 0.1)${shifts.length ? '\n    ' + shifts.join('\n    ') : ''}`); }
     await c.close();
   }
   await browser.close();

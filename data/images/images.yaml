@@ -906,6 +906,140 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ACbs_La_Studio_%2884226019%29.jpeg
   source_name: Wikimedia Commons
   original_source: 500px, via the Archive Team
+- id: locations-dachau-deaths-head-revisited
+  src: /media/images/locations/dachau-deaths-head-revisited.webp
+  small: /media/images/locations/dachau-deaths-head-revisited-320.webp
+  width: 640
+  height: 855
+  records:
+    - locations/dachau-deaths-head-revisited
+  role: place
+  title: The gate of the Dachau concentration camp, Dachau, Germany (2021)
+  alt: The wrought-iron gate of the Dachau concentration camp memorial, seen through its bars
+  date: "2021"
+  creator: Nacaru
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ADachau_concentration_camp_gate.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-death-valley-national-park
+  src: /media/images/locations/death-valley-national-park.webp
+  small: /media/images/locations/death-valley-national-park-320.webp
+  width: 640
+  height: 427
+  records:
+    - locations/death-valley-national-park
+  role: place
+  title: Mesquite Flat Sand Dunes, Death Valley National Park (2019)
+  alt: Rippled sand dunes with desert shrubs at Mesquite Flat, Death Valley, below mountains
+  date: "2019"
+  creator: Alexey Komarov
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ADeath_Valley_National_Park%2C_Mesquite_Flat_Sand_Dunes_2019-09-15-2.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-death-valley-national-park-2
+  src: /media/images/locations/death-valley-national-park-2.webp
+  small: /media/images/locations/death-valley-national-park-2-320.webp
+  width: 640
+  height: 405
+  records:
+    - locations/death-valley-national-park
+  role: place
+  title: Badwater Basin, Death Valley National Park (1995)
+  alt: Cracked white salt flats of Badwater Basin with brown mountains beyond
+  date: "1995"
+  creator: qwesy qwesy
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ADeath_Valley_National_Park_-_Badwater_Basin_%281995%29_-_panoramio.jpg
+  source_name: Wikimedia Commons
+  original_source: https://web.archive.org/web/20161012070228/http://www.panoramio.com/photo/19808824
+- id: locations-fairmont-empress-victoria-downtime
+  src: /media/images/locations/fairmont-empress-victoria-downtime.webp
+  small: /media/images/locations/fairmont-empress-victoria-downtime-320.webp
+  width: 640
+  height: 459
+  records:
+    - locations/fairmont-empress-victoria-downtime
+  role: place
+  title: The Fairmont Empress Hotel, Victoria, British Columbia (2012)
+  alt: The ivy-covered stone front of the Fairmont Empress Hotel in Victoria, with steep green roofs
+  date: "2012"
+  creator: Kingofthedead
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3A2012-07-13_Fairmont_Empress.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-fords-theatre-back-there
+  src: /media/images/locations/fords-theatre-back-there.webp
+  small: /media/images/locations/fords-theatre-back-there-320.webp
+  width: 640
+  height: 480
+  records:
+    - locations/fords-theatre-back-there
+  role: place
+  title: Ford's Theatre, Washington, D.C. (2011)
+  alt: Red-brick front of Ford's Theatre on a Washington street, with its vertical sign
+  date: "2011"
+  creator: Billy Hathorn
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File%3AAnother_look_at_Ford%27s_Theatre_IMG_4510.JPG
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-fords-theatre-back-there-2
+  src: /media/images/locations/fords-theatre-back-there-2.webp
+  small: /media/images/locations/fords-theatre-back-there-2-320.webp
+  width: 640
+  height: 771
+  records:
+    - locations/fords-theatre-back-there
+  role: place
+  title: Ford's Theatre as it was in 1865 (photo circa 1868)
+  alt: Black-and-white photograph of the brick front of Ford's Theatre in the 1860s
+  date: "1868"
+  creator: Bell & Bros
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AFord%27s_Theatre_as_it_was_in_1865_3a47527u.tif
+  source_name: Wikimedia Commons
+- id: locations-fords-theatre-back-there-3
+  src: /media/images/locations/fords-theatre-back-there-3.webp
+  small: /media/images/locations/fords-theatre-back-there-3-320.webp
+  width: 640
+  height: 493
+  records:
+    - locations/fords-theatre-back-there
+  role: place
+  title: Balcony of Ford's Theatre, with the private box in which Abraham Lincoln was assassinated (Carol M. Highsmith)
+  alt: "Inside Ford's Theatre: curved balconies of red seats and the flag-draped box where Lincoln was shot"
+  date: "1990"
+  creator: Carol M. Highsmith
+  creator_note: .mw-parser-output .commons-creator-table{background-color:#f0f0ff;box-sizing:border-box;font-size:95%;text-align:start;color:inherit}.mw-parser-output .commons-creator-table>tbody>tr{vertical-align:top}.mw-parser-output .commons-creator-table>tbody>tr>th{background-color:var(--background-color-neutral,#e0e0ee);font-weight:bold;text-align:start;color:inherit}.mw-parser-output .mw-collapsible-toggle
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3ABalcony_of_Ford%27s_Theatre%2C_with_view_of_the_private_box_in_which_Abraham_Lincoln_was_assassinated%2C_Washington%2C_D.C_LCCN2011633249.tif
+  source_name: Wikimedia Commons
+  original_source: "Library of Congress; Catalog: http://lccn.loc.gov/2011633249; Image download: https://cdn.loc.gov/master/pnp/highsm/15000"
+- id: locations-gastown-vancouver-the-who-of-you
+  src: /media/images/locations/gastown-vancouver-the-who-of-you.webp
+  small: /media/images/locations/gastown-vancouver-the-who-of-you-320.webp
+  width: 640
+  height: 427
+  records:
+    - locations/gastown-vancouver-the-who-of-you
+  role: place
+  title: Water Street, Gastown, Vancouver (2018)
+  alt: Brick-paved Water Street in Gastown, Vancouver, with parked bicycles, trees and shopfronts
+  date: "2018"
+  creator: Wpcpey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AGastown_Water_Street_201807.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
 - id: locations-mgm-lot-1-culver-city-stages
   src: /media/images/locations/mgm-lot-1-culver-city-stages.webp
   small: /media/images/locations/mgm-lot-1-culver-city-stages-320.webp
@@ -1011,6 +1145,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AAerial_view_of_Pacific_Ocean_Park.jpg
   source_name: Wikimedia Commons
   original_source: Original postcard, front and back scanned (sold on eBay)
+- id: locations-piru-kick-the-can-1983
+  src: /media/images/locations/piru-kick-the-can-1983.webp
+  small: /media/images/locations/piru-kick-the-can-1983-320.webp
+  width: 640
+  height: 480
+  records:
+    - locations/piru-kick-the-can-1983
+  role: place
+  title: Piru, California, in the Santa Clara River Valley (2009)
+  alt: Aerial view of Piru, California, and the dry bed of the Santa Clara River among brown hills
+  date: "2009"
+  creator: brewbooks from near Seattle, USA
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3APiru%2C_California_%283601010700%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Piru, California
 - id: locations-rod-serling-grave-lake-view-cemetery
   src: /media/images/locations/rod-serling-grave-lake-view-cemetery.webp
   small: /media/images/locations/rod-serling-grave-lake-view-cemetery-320.webp
@@ -1047,6 +1198,75 @@
   source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling_Star.jpg
   source_name: Wikimedia Commons
   original_source: Own work
+- id: locations-rogers-arena-vancouver-the-wunderkind
+  src: /media/images/locations/rogers-arena-vancouver-the-wunderkind.webp
+  small: /media/images/locations/rogers-arena-vancouver-the-wunderkind-320.webp
+  width: 640
+  height: 457
+  records:
+    - locations/rogers-arena-vancouver-the-wunderkind
+  role: place
+  title: Exterior of Rogers Arena, Vancouver (2026)
+  alt: Rogers Arena, a rounded white arena beside a curving elevated road, with Vancouver towers behind
+  date: "2026"
+  creator: Quintin Soloviev
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ARogers_Arena_%28Vancouver%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-suny-broome-community-college
+  src: /media/images/locations/suny-broome-community-college.webp
+  small: /media/images/locations/suny-broome-community-college-320.webp
+  width: 640
+  height: 480
+  records:
+    - locations/suny-broome-community-college
+  role: place
+  title: The library at SUNY Broome Community College (2025)
+  alt: Low stone library building at SUNY Broome Community College, with trees and a walkway in front
+  date: "2025"
+  creator: J. Passepartout
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ABroome_Community_College_Library_front.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-zabriskie-point-death-valley
+  src: /media/images/locations/zabriskie-point-death-valley.webp
+  small: /media/images/locations/zabriskie-point-death-valley-320.webp
+  width: 640
+  height: 417
+  records:
+    - locations/zabriskie-point-death-valley
+    - locations/death-valley-national-park
+  role: place
+  title: A view from Zabriskie Point, Death Valley (2019)
+  alt: Eroded golden badlands seen from Zabriskie Point, with mountains under a cloudy sky
+  date: "2019"
+  creator: Alexey Komarov
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AA_view_from_Zabriskie_Point_2019-09-15-1.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: organizations-american-heritage-center
+  src: /media/images/organizations/american-heritage-center.webp
+  small: /media/images/organizations/american-heritage-center-320.webp
+  width: 640
+  height: 425
+  records:
+    - organizations/american-heritage-center
+  role: organization
+  title: American Heritage Center, Laramie, Wyoming (2015)
+  alt: The American Heritage Center in Laramie, a dark cone-shaped building with a lawn and young trees
+  date: "2015"
+  creator: Sesamehoneytart
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AAmerican_Heritage_Center.JPG
+  source_name: Wikimedia Commons
+  original_source: Own work
 - id: organizations-antioch-college
   src: /media/images/organizations/antioch-college.webp
   small: /media/images/organizations/antioch-college-320.webp
@@ -1081,6 +1301,23 @@
   source_url: https://commons.wikimedia.org/wiki/File:Antioch_campus_grounds.jpg
   source_name: Wikimedia Commons
   original_source: Own work
+- id: organizations-cbs
+  src: /media/images/organizations/cbs.webp
+  small: /media/images/organizations/cbs-320.webp
+  width: 640
+  height: 960
+  records:
+    - organizations/cbs
+  role: organization
+  title: The CBS Building in Manhattan, New York (2021)
+  alt: The dark granite CBS Building tower in Manhattan seen from below against a pale sky
+  date: "2021"
+  creator: Epicgenius
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ACBS_Building_Jul_2021_01.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
 - id: organizations-elmira-college
   src: /media/images/organizations/elmira-college.webp
   small: /media/images/organizations/elmira-college-320.webp
@@ -1100,6 +1337,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AElmira_College_entry_gate.jpg
   source_name: Wikimedia Commons
   original_source: Own work
+- id: organizations-elmira-college-2
+  src: /media/images/organizations/elmira-college-2.webp
+  small: /media/images/organizations/elmira-college-2-320.webp
+  width: 640
+  height: 187
+  records:
+    - organizations/elmira-college
+    - locations/elmira-college
+  role: organization
+  title: Elmira College, Elmira, N.Y. (1909)
+  alt: Black-and-white panorama of the tree-lined grounds of Elmira College in 1909
+  date: "1909"
+  creator: Unknown photographer
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AElmira_College%2C_Elmira%2C_N.Y_LCCN2007661164.tif
+  source_name: Wikimedia Commons
+  original_source: https://www.loc.gov/pictures/item/2007661164
 - id: organizations-ithaca-college
   src: /media/images/organizations/ithaca-college.webp
   small: /media/images/organizations/ithaca-college-320.webp
@@ -1135,6 +1389,39 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AMGM_Studios_%2800071567%29.jpg
   source_name: Wikimedia Commons
   original_source: Los Angeles Public Library photo collection (item 00071567)
+- id: organizations-paramount
+  src: /media/images/organizations/paramount.webp
+  small: /media/images/organizations/paramount-320.webp
+  width: 640
+  height: 853
+  records:
+    - organizations/paramount
+  role: organization
+  title: Paramount film studios, Hollywood (2013)
+  alt: The arched Bronson Gate of Paramount studios behind a round fountain and palm trees
+  date: "2013"
+  creator: dronepicr
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AParamount_Filmstudios_Hollywood_%2822223007126%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Paramount Filmstudios Hollywood
+- id: people-bernard-herrmann
+  src: /media/images/people/bernard-herrmann.webp
+  small: /media/images/people/bernard-herrmann-320.webp
+  width: 640
+  height: 797
+  records:
+    - people/bernard-herrmann
+  role: portrait
+  title: Photograph of Bernard Herrmann
+  alt: Black-and-white portrait of Bernard Herrmann in glasses, looking down
+  date: "1976"
+  creator: Unknown photographer
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3ABernard-Herrmann.jpg
+  source_name: Wikimedia Commons
+  original_source: Arlington Heights Herald, Arlington Heights, Illinois
 - id: people-bill-mumy
   src: /media/images/people/bill-mumy.webp
   small: /media/images/people/bill-mumy-320.webp
@@ -1152,6 +1439,55 @@
   source_url: https://commons.wikimedia.org/wiki/File:The_Twilight_Zone_Billy_Mumy_1961.jpg
   source_name: Wikimedia Commons
   original_source: eBay item photo front photo back eBay item photo front photo back
+- id: people-carol-burnett
+  src: /media/images/people/carol-burnett.webp
+  small: /media/images/people/carol-burnett-320.webp
+  width: 640
+  height: 853
+  records:
+    - people/carol-burnett
+  role: portrait
+  title: Publicity photo of Carol Burnett for The Carol Burnett Show
+  alt: Black-and-white publicity photo of Carol Burnett in a harlequin-patterned top, mid-song
+  date: "1973"
+  creator: CBS Television
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3ACarol_Burnett_1973_%28cropped%29.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay listing (front and back of the print)
+- id: people-charles-bronson
+  src: /media/images/people/charles-bronson.webp
+  small: /media/images/people/charles-bronson-320.webp
+  width: 640
+  height: 887
+  records:
+    - people/charles-bronson
+  role: portrait
+  title: Publicity photo of Charles Bronson for Battle of the Bulge (published 1966)
+  alt: Black-and-white publicity portrait of Charles Bronson in a military jacket
+  date: "1966"
+  creator: Herald American
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3ACharles_Bronson_-_1966.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay
+- id: people-dean-stockwell
+  src: /media/images/people/dean-stockwell.webp
+  small: /media/images/people/dean-stockwell-320.webp
+  width: 640
+  height: 887
+  records:
+    - people/dean-stockwell
+  role: portrait
+  title: Dean Stockwell at Wizard World Toronto (2012)
+  alt: Dean Stockwell, grey-haired in a light jacket over a dark T-shirt, at a convention
+  date: "2012"
+  creator: GabboT
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ADean_Stockwell_08_cropped.jpg
+  source_name: Wikimedia Commons
+  original_source: Dean_Stockwell_08_(6940353324).jpg
 - id: people-dennis-hopper
   src: /media/images/people/dennis-hopper.webp
   small: /media/images/people/dennis-hopper-320.webp
@@ -1169,6 +1505,39 @@
   source_url: https://commons.wikimedia.org/wiki/File:Peter_Vollmer_(The_Twilight_Zone)_(cropped).jpg
   source_name: Wikimedia Commons
   original_source: https://www.imdb.com/title/tt0734572/mediaviewer/rm383437056/
+- id: people-dennis-hopper-2
+  src: /media/images/people/dennis-hopper-2.webp
+  small: /media/images/people/dennis-hopper-2-320.webp
+  width: 640
+  height: 772
+  records:
+    - people/dennis-hopper
+  role: portrait
+  title: Dennis Hopper (1973)
+  alt: Black-and-white portrait of Dennis Hopper with long hair, a headband and a moustache
+  date: "1973"
+  creator: Rochester Institute of Technology
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3ADennis_Hopper_1973_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: News & Events 1973 from the RIT Digital Archive
+- id: people-don-rickles
+  src: /media/images/people/don-rickles.webp
+  small: /media/images/people/don-rickles-320.webp
+  width: 640
+  height: 1003
+  records:
+    - people/don-rickles
+  role: portrait
+  title: Don Rickles (2010)
+  alt: Don Rickles smiling in a tweed jacket and patterned tie
+  date: "2010"
+  creator: John Mathew Smith & www.celebrity-photos.com from Laurel  Maryland, USA
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ADon_Rickles_1.jpg
+  source_name: Wikimedia Commons
+  original_source: DON RICKLES  ©  2010
 - id: people-earl-holliman
   src: /media/images/people/earl-holliman.webp
   small: /media/images/people/earl-holliman-320.webp
@@ -1201,6 +1570,72 @@
   license: Public domain
   source_url: https://commons.wikimedia.org/wiki/File%3AEileen_Ryan_%281960%29.jpg
   source_name: Wikimedia Commons
+- id: people-elizabeth-montgomery
+  src: /media/images/people/elizabeth-montgomery.webp
+  small: /media/images/people/elizabeth-montgomery-320.webp
+  width: 640
+  height: 979
+  records:
+    - people/elizabeth-montgomery
+  role: portrait
+  title: Press photo of Elizabeth Montgomery for One Step Beyond, "The Death Waltz" (1960)
+  alt: Black-and-white portrait of Elizabeth Montgomery in an off-the-shoulder dress
+  date: "1960"
+  creator: ABC
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AElizabeth_Montgomery_-_Press_Photo_%281960%29.png
+  source_name: Wikimedia Commons
+  original_source: https://www.worthpoint.com/worthopedia/elizabeth-montgomery-8x10-142772003
+- id: people-george-takei
+  src: /media/images/people/george-takei.webp
+  small: /media/images/people/george-takei-320.webp
+  width: 640
+  height: 800
+  records:
+    - people/george-takei
+  role: portrait
+  title: George Takei at GalaxyCon San Jose (2026)
+  alt: George Takei in a pink shirt holding a microphone on a convention stage
+  date: "2026"
+  creator: John Manard
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AGeorge_Takei_GalaxyCon_San_Jose_August-30-2026_270.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: people-harlan-ellison
+  src: /media/images/people/harlan-ellison.webp
+  small: /media/images/people/harlan-ellison-320.webp
+  width: 640
+  height: 755
+  records:
+    - people/harlan-ellison
+  role: portrait
+  title: Harlan Ellison at the Harlan Ellison Roast, L.A. Press Club (1986)
+  alt: Harlan Ellison in a yellow jacket and red shirt, gesturing as he speaks at a table
+  date: "1986"
+  creator: Pip R. Lagenta from San Mateo, San Mateo
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AHarlan_Ellison_at_the_LA_Press_Club_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Harlan Ellison at the L.A. Press Club; Uploaded by Rosenzweig
+- id: people-ida-lupino
+  src: /media/images/people/ida-lupino.webp
+  small: /media/images/people/ida-lupino-320.webp
+  width: 640
+  height: 640
+  records:
+    - people/ida-lupino
+  role: portrait
+  title: Ida Lupino, RKO studio photo (1937)
+  alt: Black-and-white studio photo of Ida Lupino in a top hat, tailcoat and white tie
+  date: "1937"
+  creator: RKO Pictures. Photographer not credited
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AIda_Lupino_1937_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: ebay
 - id: people-janice-rule
   src: /media/images/people/janice-rule.webp
   small: /media/images/people/janice-rule-320.webp
@@ -1218,6 +1653,74 @@
   source_url: https://commons.wikimedia.org/wiki/File:Janice_Rule_Terry_Burnham_%22The_Twilight_Zone%22_(1961_CBS_press_photo).jpg
   source_name: Wikimedia Commons
   original_source: https://www.worthpoint.com/worthopedia/1961-press-photo-actress-janice-rule-4620647699
+- id: people-jerry-goldsmith
+  src: /media/images/people/jerry-goldsmith.webp
+  small: /media/images/people/jerry-goldsmith-320.webp
+  width: 640
+  height: 480
+  records:
+    - people/jerry-goldsmith
+  role: portrait
+  title: Jerry Goldsmith conducting the London Symphony Orchestra (2003)
+  alt: Jerry Goldsmith conducting an orchestra on a wood-panelled concert stage
+  date: "2003"
+  creator: Frantisek Fuka from Czech Republic
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AJerry_Goldsmith_1.jpg
+  source_name: Wikimedia Commons
+  original_source: Jerry Goldsmith
+- id: people-joe-dante
+  src: /media/images/people/joe-dante.webp
+  small: /media/images/people/joe-dante-320.webp
+  width: 640
+  height: 856
+  records:
+    - people/joe-dante
+  role: portrait
+  title: Joe Dante speaking at an event in Anaheim, California (2025)
+  alt: Joe Dante, grey-haired in a dark jacket, speaking into a microphone
+  date: "2025"
+  creator: Gage Skidmore
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AJoe_Dante_by_Gage_Skidmore.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: people-john-landis
+  src: /media/images/people/john-landis.webp
+  small: /media/images/people/john-landis-320.webp
+  width: 640
+  height: 573
+  records:
+    - people/john-landis
+  role: portrait
+  title: John Landis giving a film masterclass at Il Cinema Ritrovato, Bologna (2022)
+  alt: John Landis, with grey hair and beard and glasses, seated on stage holding a microphone and laughing
+  date: "2022"
+  creator: Pietro Luca Cassarino
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AJohn_Landis_Bologna.jpg
+  source_name: Wikimedia Commons
+  original_source: https://www.flickr.com/photos/184568471@N07/52188230196/in/dateposted-public/
+- id: people-jordan-peele
+  src: /media/images/people/jordan-peele.webp
+  small: /media/images/people/jordan-peele-320.webp
+  width: 640
+  height: 905
+  records:
+    - people/jordan-peele
+  role: portrait
+  title: Jordan Peele at the Peabody Awards (2014)
+  alt: Jordan Peele smiling in glasses, a blue shirt and purple tie, in front of a red backdrop
+  date: "2014"
+  creator: Peabody Awards
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AJordan_Peele_Peabody_2014_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Keegan-Michael Key / Jordan Peele
 - id: people-kelton-garwood
   src: /media/images/people/kelton-garwood.webp
   small: /media/images/people/kelton-garwood-320.webp
@@ -1235,6 +1738,38 @@
   source_url: https://commons.wikimedia.org/wiki/File:Kelton_Garwood_%22The_Twilight_Zone%22_(1961_CBS_press_photo).jpg
   source_name: Wikimedia Commons
   original_source: https://www.worthpoint.com/worthopedia/1961-press-photo-actors-harrison-4687894902
+- id: people-lee-marvin
+  src: /media/images/people/lee-marvin.webp
+  small: /media/images/people/lee-marvin-320.webp
+  width: 640
+  height: 785
+  records:
+    - people/lee-marvin
+  role: portrait
+  title: Publicity photos of Lee Marvin for M Squad and Colgate Western Theatre (1959)
+  alt: Black-and-white publicity photo of Lee Marvin in a suit, hand at his chin
+  date: "1959"
+  creator: NBC Television
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3ALee_Marvin_1959.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay listing (front and back of the print)
+- id: people-leonard-nimoy
+  src: /media/images/people/leonard-nimoy.webp
+  small: /media/images/people/leonard-nimoy-320.webp
+  width: 640
+  height: 1061
+  records:
+    - people/leonard-nimoy
+  role: portrait
+  title: Publicity photo of Leonard Nimoy (mid-1960s)
+  alt: Black-and-white publicity portrait of a smiling Leonard Nimoy in a turtleneck
+  date: "1966"
+  creator: NBC Television
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3ALeonard_Nimoy_mid_1960s.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay listing (front and back of the print)
 - id: people-nan-martin
   src: /media/images/people/nan-martin.webp
   small: /media/images/people/nan-martin-320.webp
@@ -1319,6 +1854,40 @@
   source_url: https://commons.wikimedia.org/wiki/File%3APippa_Scott%2C_1960_%28cropped%29.jpg
   source_name: Wikimedia Commons
   original_source: Original press photograph, front and back scanned (sold on eBay)
+- id: people-ray-bradbury
+  src: /media/images/people/ray-bradbury.webp
+  small: /media/images/people/ray-bradbury-320.webp
+  width: 640
+  height: 785
+  records:
+    - people/ray-bradbury
+  role: portrait
+  title: Ray Bradbury (1975)
+  alt: Ray Bradbury smiling, with white hair and thick black glasses, in a tan jacket and tie
+  date: "1975"
+  creator: Alan Light
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ARay_Bradbury_%281975%29_-cropped-.jpg
+  source_name: Wikimedia Commons
+  original_source: https://www.flickr.com/photos/alan-light/332925230/ (cropped - lossless - by High on a tree)
+- id: people-robert-redford
+  src: /media/images/people/robert-redford.webp
+  small: /media/images/people/robert-redford-320.webp
+  width: 640
+  height: 800
+  records:
+    - people/robert-redford
+  role: portrait
+  title: Robert Redford speaking against the demolition of the Santa Monica Pier (1973)
+  alt: Black-and-white photo of Robert Redford in a flat cap and pinstriped jacket
+  date: "1973"
+  creator: Ken Dare, Los Angeles Times
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ARobert_Redford_1973-1_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: https://digital.library.ucla.edu/catalog/ark:/21198/zz0014rmfn
 - id: people-rod-serling
   src: /media/images/people/rod-serling.webp
   small: /media/images/people/rod-serling-320.webp
@@ -1524,6 +2093,23 @@
   source_url: https://commons.wikimedia.org/wiki/File:Robert_Sterling_Rod_Serling_Ichabod_and_Me_1962.jpg
   source_name: Wikimedia Commons
   original_source: eBay front back
+- id: people-ron-howard
+  src: /media/images/people/ron-howard.webp
+  small: /media/images/people/ron-howard-320.webp
+  width: 640
+  height: 674
+  records:
+    - people/ron-howard
+  role: portrait
+  title: Ron Howard during filming of Angels and Demons in Rome (2008)
+  alt: Ron Howard in a cap and sunglasses, with a red beard, smiling outdoors
+  date: "2008"
+  creator: Marco
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ARon_Howard_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Cropped from Ron Howard
 - id: people-susan-harrison
   src: /media/images/people/susan-harrison.webp
   small: /media/images/people/susan-harrison-320.webp
@@ -1541,6 +2127,22 @@
   source_url: https://commons.wikimedia.org/wiki/File:Susan_Harrison_%22The_Twilight_Zone%22_(1961_CBS_press_photo).jpg
   source_name: Wikimedia Commons
   original_source: https://www.worthpoint.com/worthopedia/1961-press-photo-actors-harrison-4687894902
+- id: people-telly-savalas-2
+  src: /media/images/people/telly-savalas-2.webp
+  small: /media/images/people/telly-savalas-2-320.webp
+  width: 640
+  height: 819
+  records:
+    - people/telly-savalas
+  role: publicity
+  title: Sonny Bono and Telly Savalas on The Sonny and Cher Comedy Hour
+  alt: Sonny Bono, standing in a top hat and long coat, and Telly Savalas, seated on a bench at right, in a TV sketch
+  date: "1973"
+  creator: CBS Television
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3ASonny_Bono_Telly_Savalas_1973.JPG
+  source_name: Wikimedia Commons
+  original_source: eBay listing (front and back of the print)
 - id: people-terry-burnham
   src: /media/images/people/terry-burnham.webp
   small: /media/images/people/terry-burnham-320.webp
@@ -1574,6 +2176,22 @@
   source_url: https://commons.wikimedia.org/wiki/File:Vera_Miles_The_Twilight_Zone_1960_(headshot).JPG
   source_name: Wikimedia Commons
   original_source: eBay item photo front photo back
+- id: people-wes-craven
+  src: /media/images/people/wes-craven.webp
+  small: /media/images/people/wes-craven-320.webp
+  width: 640
+  height: 1073
+  records:
+    - people/wes-craven
+  role: portrait
+  title: Wes Craven circa 1964
+  alt: Black-and-white newspaper portrait of a young Wes Craven in a jacket and tie
+  date: "1964"
+  creator: Unknown photographer
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AWes_Craven_circa_1964.jpg
+  source_name: Wikimedia Commons
+  original_source: New Castle News September 30, 1964 page 41
 - id: people-william-schallert
   src: /media/images/people/william-schallert.webp
   small: /media/images/people/william-schallert-320.webp
