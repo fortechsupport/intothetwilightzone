@@ -15,8 +15,8 @@ to every change, by every person or Claude thread. They come from how Adam's Sey
   verify something, leave it out and say so.
 - **Media and content are never categories.** Reviews, interviews, ads, archival holdings, quotes, links,
   documents and clips attach to the records they are about and are gathered in the Media Library (/media/).
-- **Directories:** People, Characters, Organizations, Places. **Navigation:** the nine verbs Watch, Listen,
-  Read, Play, Collect, Attend, Discover, Meet, Visit (docs/INFORMATION_ARCHITECTURE.md is the spec).
+- **Directories:** People, Characters, Organizations, Places. **Navigation:** the seven verbs Watch, Listen,
+  Read, Play, Collect, Discover, Meet (decision 0011; docs/INFORMATION_ARCHITECTURE.md is the spec).
 - **Official vs unofficial:** each category shows official items and "unofficial and inspired" ones on
   separate shelves (`isOfficial()` in src/lib/taxonomy.mjs; a record's `official:` overrides).
 - **A to Z everywhere**, ignoring a leading The, A or An. Chronological only where order is the point.
