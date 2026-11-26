@@ -2,10 +2,12 @@ title: The Chaser
 authors:
 - John Collier
 kind: short-story
+first_published: '1940-12'
+first_published_in: "The New Yorker"
 episodes:
 - 1959/the-chaser
 description: John Collier's short story, adapted as the Twilight Zone episode "The Chaser" (1959 series). Robert Presnell
-  Jr. wrote the teleplay. No source we read gives where it first appeared.
+  Jr. wrote the teleplay. ISFDB lists it in The New Yorker, 28 December 1940.
 relevance: related
 research_confidence: medium
 tags:
@@ -15,4 +17,7 @@ sources:
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series,_season_1)
 - title: CTVA - The Twilight Zone Season 1 (1959-60)
   url: https://ctva.biz/US/Anthology/TwilightZone_01_(1959-60).htm
-last_verified: '2026-11-24'
+- title: 'ISFDB: The Chaser'
+  url: https://www.isfdb.org/cgi-bin/title.cgi?80385
+  note: Read 2026-11-26 for the story's date and earliest printing.
+last_verified: '2026-11-26'

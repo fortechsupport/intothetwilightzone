@@ -3,6 +3,20 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — Cycle 19: fifteen more story dates
+
+Visitors can now:
+- See when fifteen more stories behind the episodes were first published, from ISFDB, with the ISFDB page as
+  the source. Seven of them used to say no source gave where they first appeared. Among them: John Collier's
+  "The Chaser" (The New Yorker, 28 December 1940), Davis Grubb's "The Horsehair Trunk" (Collier's, May 1946),
+  Dulcie Gray's "The Fur Brooch" (The Seventh Pan Book of Horror Stories, 1966) and two stories from More Tales
+  of Unease (1969).
+
+**Known not to work yet:**
+- 14 stories are still undated. ISFDB has no record of seven of them, the records it has for six more are by
+  other writers, and "All of Us Are Dying" first appears there after its episode aired. Those need a printed
+  source such as the authors' collections.
+
 ## 2026-11-26 — Cycle 18: three more story dates
 
 Visitors can now:

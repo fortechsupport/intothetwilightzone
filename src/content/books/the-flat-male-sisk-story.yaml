@@ -2,10 +2,11 @@ title: The Flat Male
 authors:
 - Frank Sisk
 kind: short-story
+first_published: '1965'
 episodes:
 - films/night-gallery-s2e16
 description: Frank Sisk's story, adapted as the Night Gallery segment "The Late Mr. Peddington" (season 2, episode 16).
-  Teleplay by Jack Laird. No source we read gives where it first appeared.
+  Teleplay by Jack Laird. ISFDB dates the story to 1965; the earliest printing it lists is the anthology A Hearse of a Different Color, edited by Alfred Hitchcock (Dell, 1972).
 relevance: related
 research_confidence: medium
 tags:
@@ -15,4 +16,7 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
 - title: 'Wikipedia: Night Gallery'
   url: https://en.wikipedia.org/wiki/Night_Gallery
-last_verified: '2026-11-24'
+- title: 'ISFDB: The Flat Male'
+  url: https://www.isfdb.org/cgi-bin/title.cgi?2252345
+  note: Read 2026-11-26 for the story's date and earliest printing.
+last_verified: '2026-11-26'

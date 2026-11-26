@@ -2,10 +2,12 @@ title: The Fur Brooch
 authors:
 - Dulcie Gray
 kind: short-story
+first_published: '1966-09'
+first_published_in: "The Seventh Pan Book of Horror Stories"
 episodes:
 - films/night-gallery-s2e16
 description: Dulcie Gray's story, adapted as the Night Gallery segment "A Feast of Blood" (season 2, episode 16). Teleplay
-  by Stanford Whitmore. No source we read gives where it first appeared.
+  by Stanford Whitmore. ISFDB lists it in The Seventh Pan Book of Horror Stories, edited by Herbert van Thal (Pan Books, September 1966).
 relevance: related
 research_confidence: medium
 tags:
@@ -15,4 +17,7 @@ sources:
   url: https://en.wikipedia.org/wiki/List_of_Night_Gallery_episodes
 - title: 'Wikipedia: Night Gallery'
   url: https://en.wikipedia.org/wiki/Night_Gallery
-last_verified: '2026-11-24'
+- title: 'ISFDB: The Fur Brooch'
+  url: https://www.isfdb.org/cgi-bin/title.cgi?889430
+  note: Read 2026-11-26 for the story's date and earliest printing.
+last_verified: '2026-11-26'
