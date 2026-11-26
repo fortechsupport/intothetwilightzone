@@ -67,13 +67,14 @@ to every change, by every person or Claude thread. They come from how Adam's Sey
 
 - Colors, type, spacing and radii live in `design/tokens.json`; `npm run tokens` writes `public/tokens.css`.
   Never write a raw color in a stylesheet or template: add a token.
-- Themes: five only, one per era, in the header's Theme menu: 1959 series (dark, the default for everyone),
-  1983 movie, 1985 series, 2002 series and 2019 series (the one light theme), each drawn from its era's key art
+- Themes: five only, one per era, all dark, in the header's Theme menu: 1959 series (the default for everyone),
+  1983 movie, 1985 series, 2002 series and 2019 series, each drawn from its era's key art
   (decisions 0010 and 0014). They evoke an era by palette, type and texture only, never the shows' logos, title
   designs or art, and pass the same contrast checks. Printing uses dark ink on white paper (`print` in the tokens).
-- Type: IM Fell English for headings (1959, 1983 and 2019), Eater for 1985 page and section titles, and Cinzel (2002); Jost for text and
-  interface; Courier Prime for narration, teleplay excerpts and the 1959 kickers. All self-hosted in `public/fonts/`
-  (SIL Open Font License).
+- Type: Linden Hill for headings and the brand (1959, 2019; standing in for Bernhard Modern) with Lexend Giga labels
+  (for Venus Extended); IM Fell English (1983); IM Fell Double Pica (1985, for Caslon Antique); Cinzel (2002); Jost
+  for text and interface; Courier Prime for narration and teleplay excerpts. All self-hosted in `public/fonts/` (SIL
+  Open Font License); the commercial faces Adam named need a web licence before they can be hosted.
 - Every record page starts with `RecordHeader` (type label, context, title, actions bar); every grid uses
   `.card`; facts use `dl.facts`; connections use `.tz-link`. See the comments at the top of public/site.css.
 - Record page titles come from `src/lib/titles.ts`, which adds type and context so no two pages share a title.

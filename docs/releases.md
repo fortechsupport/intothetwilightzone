@@ -7,13 +7,16 @@ known not to work yet.
 
 Visitors can now:
 - Pick one of five themes, each drawn from the key art of its era: 1959 series (black and white with rings receding
-  into the dark), 1983 movie (a starry night sky over a dusk horizon), 1985 series (violet dark, stars, rough white
-  titles), 2002 series (deep blue light and gold capitals) and 2019 series (a pale sky, black type and green grass).
-- See the 1959 series by default. The 2019 series is the light theme.
+  into the dark), 1983 movie (a starry night sky over a dusk horizon), 1985 series (violet dark, stars, worn antique
+  type), 2002 series (deep blue light and gold capitals) and 2019 series (a black starfield with a blue haze and
+  white titles).
+- See the 1959 series by default.
 
 **Known not to work yet:**
-- The site no longer follows a device's light or dark setting. A visitor who had chosen Midnight or Paper now sees
-  the 1959 series until they pick another; one who chose an era theme keeps it under its new name.
+- The site no longer follows a device's light or dark setting, and every theme is dark. A visitor who had chosen
+  Midnight or Paper now sees the 1959 series; one who chose an era theme keeps it under its new name.
+- The typefaces Adam named (Bernhard Modern, Venus Extended, Caslon Antique) are commercial; free look-alikes stand
+  in until a web licence is bought.
 
 ## 2026-11-26 — Play on this site, Collect's shelves, Art and design
 

@@ -6,14 +6,22 @@
 
 /* ---------- 1. Fonts and base ---------- */
 @font-face { font-family: 'Jost'; src: url('/fonts/jost-latin-wght-normal.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
-@font-face { font-family: 'IM Fell English'; src: url('/fonts/im-fell-english-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
-/* Local fallbacks sized to match Jost and IM Fell English, so text doesn't reflow (and the page doesn't jump) when
+/* The default theme's faces: Linden Hill (in the manner of Bernhard Modern) for titles and the brand, Lexend Giga (in
+   the manner of Venus Extended) for labels. Adam named Bernhard Modern and Venus Extended (2026-11-26); both are sold
+   under commercial licences, so these SIL Open Font License faces stand in for them (decision 0014). */
+@font-face { font-family: 'Linden Hill'; src: url('/fonts/linden-hill-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Lexend Giga'; src: url('/fonts/lexend-giga-latin-500-normal.woff2') format('woff2'); font-weight: 400 700; font-style: normal; font-display: swap; }
+/* Local fallbacks sized to match Jost and Linden Hill, so text doesn't reflow (and the page doesn't jump) when
    the web fonts arrive. Measured against Arial and Times New Roman (Liberation Sans and Serif share their metrics). */
 @font-face { font-family: 'Jost Fallback'; src: local('Arial'), local('Liberation Sans'), local('Helvetica'); size-adjust: 95.03%; ascent-override: 112.6%; descent-override: 40%; line-gap-override: 0%; }
+@font-face { font-family: 'Linden Hill Fallback'; src: local('Times New Roman'), local('Liberation Serif'), local('Times'); size-adjust: 93.58%; ascent-override: 95.1%; descent-override: 49.2%; line-gap-override: 0%; }
 @font-face { font-family: 'IM Fell English Fallback'; src: local('Times New Roman'), local('Liberation Serif'), local('Times'); size-adjust: 104.09%; ascent-override: 87.4%; descent-override: 34.6%; line-gap-override: 0%; }
 @font-face { font-family: 'Courier Prime'; src: url('/fonts/courier-prime-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
-/* The 1985 and 2002 themes' display faces (SIL Open Font License); a browser downloads one only when its theme is chosen. */
-@font-face { font-family: 'Eater'; src: url('/fonts/eater-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+/* The other themes' display faces (SIL Open Font License); a browser downloads one only when its theme is chosen.
+   1983 movie: IM Fell English. 1985 series: IM Fell Double Pica, worn letterpress capitals standing in for Caslon
+   Antique and Casablanca Antique (commercial). 2002 series: Cinzel. */
+@font-face { font-family: 'IM Fell English'; src: url('/fonts/im-fell-english-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'IM Fell Double Pica'; src: url('/fonts/im-fell-double-pica-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
 @font-face { font-family: 'Cinzel'; src: url('/fonts/cinzel-latin-700-normal.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
 
 :root {
@@ -24,7 +32,7 @@
   --serif: var(--font-display);
   /* Each theme picks its display face (design/tokens.json, "font"); the brand name keeps the 1959 face in every theme. */
   --font-display: var(--theme-display);
-  --font-brand: 'IM Fell English', 'IM Fell English Fallback', 'Iowan Old Style', Georgia, serif;
+  --font-brand: 'Linden Hill', 'Linden Hill Fallback', 'Iowan Old Style', Georgia, serif;
   --mono: var(--font-mono);
   --radius: var(--radius-md);
 }
@@ -46,9 +54,8 @@ body::before {
   content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 100; opacity: .035;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
-/* The 1959 series has more of it; the light 2019 series needs a little more to show at all. */
+/* The 1959 series has more of it. */
 :root:not([data-theme]) body::before, :root[data-theme="1959"] body::before { opacity: .07; inset: -5%; }
-:root[data-theme="2019"] body::before { opacity: .05; }
 img, video { max-width: 100%; height: auto; }
 a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 3px; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); }
 a:hover { color: var(--link-hover); text-decoration-color: currentColor; }
@@ -491,13 +498,14 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
 :root { --tz-stars: radial-gradient(2px 2px at 4px 21px, var(--star) 50%, transparent 51%), radial-gradient(2px 2px at 13px 147px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 160px 272px, var(--star) 50%, transparent 51%), radial-gradient(2.5px 2.5px at 210px 96px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 256px 237px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 119px 258px, var(--star) 50%, transparent 51%), radial-gradient(2px 2px at 167px 115px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 96px 63px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 64px 167px, var(--star) 50%, transparent 51%), radial-gradient(2px 2px at 125px 175px, var(--star) 50%, transparent 51%), radial-gradient(2px 2px at 204px 270px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 255px 225px, var(--star) 50%, transparent 51%), radial-gradient(2px 2px at 138px 122px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 246px 50px, var(--star) 50%, transparent 51%), radial-gradient(2.5px 2.5px at 91px 193px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 211px 260px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 163px 249px, var(--star) 50%, transparent 51%), radial-gradient(2.5px 2.5px at 215px 74px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 217px 248px, var(--star) 50%, transparent 51%), radial-gradient(2px 2px at 150px 200px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 63px 144px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 245px 197px, var(--star) 50%, transparent 51%); }
 
 /* 1959 series (the default): black and white. Concentric rings recede into the dark behind the top of the page, as on
-   the series' key art; film grain; silver type in an old-style face; typewriter kickers; photographs in grey. */
+   the series' key art; film grain; silver titles in Linden Hill and wide sans labels (Adam: Bernhard Modern and Venus
+   Extended); photographs in grey. */
 :root:is(:not([data-theme]), [data-theme="1959"]) body { background-image: radial-gradient(ellipse at 50% 0%, var(--surface-3) 0%, var(--bg) 70%); background-attachment: fixed; }
 :root:is(:not([data-theme]), [data-theme="1959"]) body::after { content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .5;
   background: repeating-radial-gradient(circle at 50% 18%, var(--glow-2) 0 34px, transparent 34px 72px);
   -webkit-mask: radial-gradient(circle at 50% 18%, var(--text) 0, transparent 62%); mask: radial-gradient(circle at 50% 18%, var(--text) 0, transparent 62%); }
 :root:is(:not([data-theme]), [data-theme="1959"]) img:not(.leaflet-tile) { filter: grayscale(1) contrast(1.08); }
-:root:is(:not([data-theme]), [data-theme="1959"]) .kicker, :root:is(:not([data-theme]), [data-theme="1959"]) .eyebrow { letter-spacing: .08em; font-weight: 400; }
+:root:is(:not([data-theme]), [data-theme="1959"], [data-theme="2019"]) :is(.kicker, .eyebrow) { letter-spacing: .14em; font-weight: 500; }
 :root:is(:not([data-theme]), [data-theme="1959"]) main h1 { text-shadow: 0 2px 18px var(--bg); }
 
 /* 1983 movie: a deep night sky full of stars over a dusk glow on the horizon (rose into violet) with dark hills against
@@ -514,18 +522,16 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
 :root[data-theme="1983"] .card:hover { box-shadow: 0 0 0 1px var(--brass), 0 10px 30px color-mix(in srgb, var(--glow) 18%, transparent); }
 
 /* 1985 series: violet dark like a bare room at night, stars drifting, a white light glowing through from above, and
-   rough, splintered white capitals for page and section titles (Eater, in the spirit of the hand-painted lettering).
-   Smaller headings and figures use Jost, as the key art sets its subtitle in a plain geometric sans. */
+   worn antique letterpress type for titles and labels (Adam: Caslon Antique or Casablanca Antique; IM Fell Double
+   Pica stands in). Labels are set in widely spaced capitals, as on the key art. */
 :root[data-theme="1985"] body { background-image:
     radial-gradient(ellipse 55% 38% at 50% -6%, color-mix(in srgb, var(--star) 26%, transparent), transparent 70%),
     radial-gradient(ellipse 60% 70% at 50% 45%, color-mix(in srgb, var(--glow) 13%, transparent), transparent 70%),
     linear-gradient(to right, color-mix(in srgb, var(--glow-2) 55%, transparent), transparent 18%, transparent 82%, color-mix(in srgb, var(--glow-2) 55%, transparent));
   background-attachment: fixed; }
 :root[data-theme="1985"] body::after { content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .55; background: var(--tz-stars); background-size: 280px 280px; }
-:root[data-theme="1985"] { --step-5: clamp(1.8rem, 1.25rem + 2.6vw, 3.1rem); --step-4: clamp(1.5rem, 1.2rem + 1.6vw, 2.2rem); --step-3: clamp(1.25rem, 1.1rem + .9vw, 1.6rem); }
-:root[data-theme="1985"] :is(h3, h4, .card .count, .hero-stats strong, .mega-head a, .quote blockquote) { font-family: var(--font-ui); font-weight: 500; letter-spacing: .01em; }
 :root[data-theme="1985"] main h1 { color: var(--text); line-height: 1.2; text-shadow: 0 0 14px color-mix(in srgb, var(--glow) 40%, transparent); }
-:root[data-theme="1985"] .kicker, :root[data-theme="1985"] .eyebrow { letter-spacing: .22em; }
+:root[data-theme="1985"] .kicker, :root[data-theme="1985"] .eyebrow { letter-spacing: .26em; font-weight: 400; font-size: var(--step--1); }
 :root[data-theme="1985"] .card:hover { box-shadow: 0 0 0 1px var(--link), 0 0 28px color-mix(in srgb, var(--glow) 30%, transparent); }
 
 /* 2002 series: deep electric blue, a cold light breaking through the middle, faint orbits and ruled lines like a
@@ -545,16 +551,16 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
 :root[data-theme="2002"] .kicker, :root[data-theme="2002"] .eyebrow { letter-spacing: .2em; }
 :root[data-theme="2002"] .card:hover { box-shadow: 0 0 0 1px var(--link), 0 10px 30px color-mix(in srgb, var(--glow) 26%, transparent); }
 
-/* 2019 series: the one light theme. A pale overcast sky, black old-style titles, green grass along the horizon at the
-   foot of the page, and a doorway of stars: cards open onto the night sky's color when pointed at. */
-:root[data-theme="2019"] body { background-image: linear-gradient(to bottom, var(--glow) 0%, var(--bg) 40%, var(--surface-2) 100%); background-attachment: fixed; }
-:root[data-theme="2019"] .site-footer { position: relative; }
-:root[data-theme="2019"] .site-footer::before { content: ''; position: absolute; left: 0; right: 0; top: -22px; height: 22px; pointer-events: none;
-  background: linear-gradient(to bottom, transparent, color-mix(in srgb, var(--glow-2) 55%, transparent) 60%, var(--glow-2)); }
-:root[data-theme="2019"] main h1 { color: var(--text); }
-:root[data-theme="2019"] { --door-1: var(--link); --door-2: var(--text); }
-:root[data-theme="2019"] .card { box-shadow: 0 1px 2px color-mix(in srgb, var(--text) 8%, transparent); }
-:root[data-theme="2019"] .card:hover { box-shadow: 0 0 0 1px var(--link), 0 12px 28px color-mix(in srgb, var(--link) 18%, transparent); }
+/* 2019 series: a black night sky full of stars with a soft blue haze at its heart and a faint band of the Milky Way
+   across it, white titles in Linden Hill and wide sans labels (Adam: Bernhard Modern and Venus Extended), after the
+   series' title card. */
+:root[data-theme="2019"] body { background-image:
+    radial-gradient(ellipse 50% 42% at 50% 34%, color-mix(in srgb, var(--glow) 42%, transparent), transparent 72%),
+    linear-gradient(160deg, transparent 30%, color-mix(in srgb, var(--glow-2) 60%, transparent) 48%, transparent 66%);
+  background-attachment: fixed; }
+:root[data-theme="2019"] body::after { content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .7; background: var(--tz-stars), var(--tz-stars); background-size: 280px 280px, 190px 190px; background-position: 0 0, 97px 53px; }
+:root[data-theme="2019"] main h1 { color: var(--text); text-shadow: 0 0 22px color-mix(in srgb, var(--glow) 55%, transparent); }
+:root[data-theme="2019"] .card:hover { box-shadow: 0 0 0 1px var(--brass), 0 12px 30px color-mix(in srgb, var(--glow) 30%, transparent); }
 
 /* Motion: page-to-page cross-fade, cards that lift, menus that unfold, colors that ease between themes. */
 @media (prefers-reduced-motion: no-preference) {

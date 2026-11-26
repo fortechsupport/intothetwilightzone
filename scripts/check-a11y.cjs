@@ -26,7 +26,7 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
 (async () => {
   const browser = await chromium.launch();
   let failures = 0;
-  // Every page in the default theme (the dark 1959 series) and in the one light theme (the 2019 series), decision 0014.
+  // Every page in the default theme (the 1959 series) and in the 2019 series, which shares its faces (decision 0014).
   for (const scheme of ['1959', '2019']) {
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
     await ctx.addInitScript((t) => { try { localStorage.setItem('tz-theme', t); } catch (e) {} }, scheme);

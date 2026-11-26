@@ -1,6 +1,6 @@
 /* Generated from design/tokens.json by scripts/build-tokens.mjs. Do not edit by hand. */
 :root {
-  --font-display: 'IM Fell English', 'IM Fell English Fallback', 'Iowan Old Style', Georgia, serif;
+  --font-display: 'Linden Hill', 'Linden Hill Fallback', 'Iowan Old Style', Georgia, serif;
   --font-ui: 'Jost', 'Jost Fallback', 'Futura', 'Century Gothic', system-ui, sans-serif;
   --font-mono: 'Courier Prime', 'Courier New', Courier, monospace;
   --step--2: 0.75rem;
@@ -60,13 +60,13 @@
   --map-9: #9aa3b8;
   --header-bg: rgba(10, 10, 10, 0.94);
   --shadow: 0 18px 40px rgba(0, 0, 0, 0.7);
-  --theme-display: 'IM Fell English', 'IM Fell English Fallback', 'Iowan Old Style', Georgia, serif;
-  --theme-accent: 'Courier Prime', 'Courier New', monospace;
+  --theme-display: 'Linden Hill', 'Linden Hill Fallback', 'Iowan Old Style', Georgia, serif;
+  --theme-accent: 'Lexend Giga', 'Jost', 'Jost Fallback', system-ui, sans-serif;
   --theme-display-weight: 400;
-  --theme-display-tracking: 0.005em;
+  --theme-display-tracking: 0.01em;
   color-scheme: dark;
 }
-/* 1959 series: black and white, silver type, concentric rings receding into the dark, film grain */
+/* 1959 series: black and white, silver type in a Bernhard Modern-like face, wide sans labels, concentric rings receding into the dark, film grain */
 :root[data-theme="1959"] {
   --bg: #0a0a0a;
   --surface: #141414;
@@ -101,10 +101,10 @@
   --map-9: #9aa3b8;
   --header-bg: rgba(10, 10, 10, 0.94);
   --shadow: 0 18px 40px rgba(0, 0, 0, 0.7);
-  --theme-display: 'IM Fell English', 'IM Fell English Fallback', 'Iowan Old Style', Georgia, serif;
-  --theme-accent: 'Courier Prime', 'Courier New', monospace;
+  --theme-display: 'Linden Hill', 'Linden Hill Fallback', 'Iowan Old Style', Georgia, serif;
+  --theme-accent: 'Lexend Giga', 'Jost', 'Jost Fallback', system-ui, sans-serif;
   --theme-display-weight: 400;
-  --theme-display-tracking: 0.005em;
+  --theme-display-tracking: 0.01em;
   color-scheme: dark;
 }
 /* 1983 movie: a deep night sky full of stars, a dusk glow on the horizon in rose, peach and violet, silvered type */
@@ -148,7 +148,7 @@
   --theme-display-tracking: 0.01em;
   color-scheme: dark;
 }
-/* 1985 series: violet dark, stars, a white light glowing through, rough splintered white capitals */
+/* 1985 series: violet dark, stars, a white light glowing through, worn antique capitals like Caslon Antique */
 :root[data-theme="1985"] {
   --bg: #0d0818;
   --surface: #160f26;
@@ -183,10 +183,10 @@
   --map-9: #9aa3b8;
   --header-bg: rgba(13, 8, 24, 0.93);
   --shadow: 0 18px 40px rgba(5, 0, 15, 0.7);
-  --theme-display: 'Eater', 'Jost', 'Jost Fallback', system-ui, sans-serif;
-  --theme-accent: 'Jost', 'Jost Fallback', 'Futura', system-ui, sans-serif;
+  --theme-display: 'IM Fell Double Pica', 'IM Fell English', 'IM Fell English Fallback', Georgia, serif;
+  --theme-accent: 'IM Fell Double Pica', 'IM Fell English', 'IM Fell English Fallback', Georgia, serif;
   --theme-display-weight: 400;
-  --theme-display-tracking: 0.05em;
+  --theme-display-tracking: 0.03em;
   color-scheme: dark;
 }
 /* 2002 series: deep electric blue, a cold light breaking through, gold capitals, faint orbits and equations */
@@ -230,30 +230,30 @@
   --theme-display-tracking: 0.01em;
   color-scheme: dark;
 }
-/* 2019 series: a pale overcast sky, black old-style type, green grass at the horizon, a doorway of stars */
+/* 2019 series: a black night sky full of stars with a blue haze at its heart, white type in a Bernhard Modern-like face */
 :root[data-theme="2019"] {
-  --bg: #eef0ef;
-  --surface: #f8f9f8;
-  --surface-2: #e6e9e7;
-  --surface-3: #dce0dd;
-  --line: #c9cfcb;
-  --line-strong: #7b847d;
-  --text: #15171a;
-  --text-soft: #2c3034;
-  --muted: #50575c;
-  --brass: #3b5a1c;
-  --brass-soft: #557a2c;
-  --on-brass: #f6f9f1;
-  --link: #1f3a75;
-  --link-hover: #0e2250;
-  --official: #3b5a1c;
-  --unofficial: #5a3fa8;
-  --danger: #a12b2b;
-  --ok: #1f6b3c;
-  --focus: #1f3a75;
-  --glow: #ffffff;
-  --glow-2: #5f7f38;
-  --star: #dfe6ff;
+  --bg: #04060b;
+  --surface: #0a0e17;
+  --surface-2: #0f1420;
+  --surface-3: #161c2b;
+  --line: #222a3c;
+  --line-strong: #5f6b86;
+  --text: #f4f6fb;
+  --text-soft: #d2d8e6;
+  --muted: #a6afc4;
+  --brass: #dfe8f8;
+  --brass-soft: #a9b8d6;
+  --on-brass: #04060b;
+  --link: #9fc2f2;
+  --link-hover: #d6e6fb;
+  --official: #dfe8f8;
+  --unofficial: #c2b6f0;
+  --danger: #ffa9a9;
+  --ok: #9fe0bf;
+  --focus: #cfe2ff;
+  --glow: #3d5a8c;
+  --glow-2: #1a2540;
+  --star: #e6ecf8;
   --map-1: #8fb3d9;
   --map-2: #d9c38f;
   --map-3: #e58f8f;
@@ -263,13 +263,13 @@
   --map-7: #b0c4a0;
   --map-8: #3d7a7a;
   --map-9: #9aa3b8;
-  --header-bg: rgba(238, 240, 239, 0.94);
-  --shadow: 0 18px 40px rgba(30, 40, 30, 0.16);
-  --theme-display: 'IM Fell English', 'IM Fell English Fallback', 'Iowan Old Style', Georgia, serif;
-  --theme-accent: 'Jost', 'Jost Fallback', 'Futura', system-ui, sans-serif;
+  --header-bg: rgba(4, 6, 11, 0.93);
+  --shadow: 0 18px 40px rgba(0, 0, 0, 0.7);
+  --theme-display: 'Linden Hill', 'Linden Hill Fallback', 'Iowan Old Style', Georgia, serif;
+  --theme-accent: 'Lexend Giga', 'Jost', 'Jost Fallback', system-ui, sans-serif;
   --theme-display-weight: 400;
-  --theme-display-tracking: 0.005em;
-  color-scheme: light;
+  --theme-display-tracking: 0.01em;
+  color-scheme: dark;
 }
 /* Print: dark ink on white paper, whatever theme is on screen (light text on white paper would vanish). */
 @media print {
