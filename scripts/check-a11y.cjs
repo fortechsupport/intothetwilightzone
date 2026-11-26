@@ -26,8 +26,10 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
 (async () => {
   const browser = await chromium.launch();
   let failures = 0;
-  for (const scheme of ['dark', 'light']) {
-    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 }, colorScheme: scheme });
+  // Every page in the default theme (the 1959 series) and in the 2019 series, which shares its faces (decision 0014).
+  for (const scheme of ['1959', '2019']) {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    await ctx.addInitScript((t) => { try { localStorage.setItem('tz-theme', t); } catch (e) {} }, scheme);
     const page = await ctx.newPage();
     for (const p of PAGES) {
       const res = await page.goto(base + p, { waitUntil: 'load' });
@@ -41,9 +43,9 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
     }
     await ctx.close();
   }
-  // The era themes (design/tokens.json): axe on a sample of page types in each.
+  // The other era themes (design/tokens.json): axe on a sample of page types in each; the 320 px check in all four.
   const SAMPLE = ['/', '/watch/', '/episodes/1959/time-enough-at-last/', '/people/rod-serling/', '/media/', '/search/', '/community/'];
-  for (const theme of ['original', 'neon', 'steel', 'crimson']) {
+  for (const theme of ['1983', '1985', '2002', '2019']) {
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
     await ctx.addInitScript((t) => { try { localStorage.setItem('tz-theme', t); } catch (e) {} }, theme);
     const page = await ctx.newPage();
@@ -116,6 +118,6 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
     await c.close();
   }
   await browser.close();
-  console.log(failures ? `${failures} accessibility/layout findings.` : `✓ ${PAGES.length} pages: no axe violations in dark or light (or the four era themes on a sample), no sideways scroll, titles in the top third at 320 x 640 (also with wider text spacing on a sample), no layout shift over 0.1 on a slow phone.`);
+  console.log(failures ? `${failures} accessibility/layout findings.` : `✓ ${PAGES.length} pages: no axe violations in the 1959 or 2019 themes (or the 1983, 1985 and 2002 themes on a sample), no sideways scroll, titles in the top third at 320 x 640 (also with wider text spacing on a sample), no layout shift over 0.1 on a slow phone.`);
   process.exit(failures ? 1 : 0);
 })();
