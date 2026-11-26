@@ -71,9 +71,11 @@ texture only, no logos or title designs). Screenshots to Adam before merging.
 - Discover's menu shows Places' real kinds A to Z, then "Settings in the stories" last, pointing at the tab.
 - The verb blurbs for Listen, Read and Discover were rewritten to follow the new order and contents.
 
+- Link icons (step 2, Adam chose option A at 12:48 UTC): which hosts belong to each kind (src/lib/link-kinds.mjs);
+  icons only in link lists, not in running text; a legend on Sources and policy.
+
 ## Waiting on Adam
 
-- Link icons: option A, B or C.
 - Play: which of suggestions 1 to 3.
 - Collect and Artwork: which of suggestions 1 to 3.
 - Era themes: whether to retune as suggested (screenshots first).

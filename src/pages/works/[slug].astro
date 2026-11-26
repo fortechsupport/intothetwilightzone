@@ -58,7 +58,7 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'CreativeWork', name
   {(extraLinks.length > 0 || Object.keys(otherLinks).length > 0 || d.ids) && (
     <section>
       <h2>Links</h2>
-      <p>
+      <p class="link-icons">
         {extraLinks.map(([k, url], i) => <>{i > 0 && ' · '}<a href={url} rel="noopener nofollow">{linkNames[k]}</a></>)}
         {extraLinks.length > 0 && Object.keys(otherLinks).length > 0 && ' · '}
         <ExtLinks ids={d.ids} links={otherLinks} />

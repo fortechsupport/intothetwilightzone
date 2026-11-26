@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import { LINK_KINDS } from '../lib/link-kinds.mjs';
 ---
 <Base title="Sources and policy" description="How IntoTheTwilightZone.com sources its facts and handles copyrighted material.">
   <h1>Sources and policy</h1>
@@ -15,6 +16,11 @@ import Base from '../layouts/Base.astro';
   <ul>
     <li>Episodes, clips, trailers and music: official channels and streaming services.</li>
     <li>Scripts, letters, academic essays, manuals and magazine scans: the archive, library or publisher that holds them.</li>
+  </ul>
+  <h2 id="link-icons">What the link icons mean</h2>
+  <p>Lists of links and sources show a small icon for the kind of site each link goes to. The icons are drawn for this site; we never use another site's logo, which belongs to its owner.</p>
+  <ul class="plain link-icons">
+    {Object.entries(LINK_KINDS).map(([k, v]) => <li><span data-link={k}>{v.label}</span></li>)}
   </ul>
   <h2 id="grading">How connections are graded</h2>
   <dl class="facts">

@@ -5,7 +5,7 @@ import { correctionUrl } from '../lib/fan/contribute';
 const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
 const pageTitle = Astro.url.pathname.replace(/^\/|\/$/g, '');
 ---
-<section class="sources" data-pagefind-ignore>
+<section class="sources link-icons" data-pagefind-ignore>
   <h2>Sources</h2>
   {sources.length === 0 ? <p class="muted">No sources recorded yet.</p> : (
     <ul class="small">

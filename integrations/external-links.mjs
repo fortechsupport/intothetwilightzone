@@ -4,11 +4,12 @@
 // Every <a href="http(s)://..."> that points off the site gets target="_blank", rel="noopener noreferrer"
 // (kept alongside any rel it already has) and aria-describedby="ext-note", which screen readers announce as
 // "opens in a new tab" (the note is a hidden element in the Base layout). The ↗ mark beside such links comes
-// from public/site.css. Any target on an internal link is removed. Inline scripts are left alone; client
+// from public/site.css, and data-link names the kind of site for the icons in link lists. Any target on an internal link is removed. Inline scripts are left alone; client
 // templates follow the same rule by hand. It also spaces out facts lists for site search (spaceFacts). scripts/check-site.mjs fails the build if a page breaks the rule.
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { linkKind } from '../src/lib/link-kinds.mjs';
 
 export const SITE_HOSTS = /^(?:[a-z0-9-]+\.)*intothetwilightzone(?:-preview\.pages\.dev|\.com)$/i;
 
@@ -40,6 +41,9 @@ export function fixTag(tag) {
   t = rel === undefined ? t.replace(/^<a\b/, `<a rel="${[...rels].join(' ')}"`) : t.replace(/\srel="[^"]*"/, ` rel="${[...rels].join(' ')}"`);
   t = t.replace(/^<a\b/, '<a target="_blank"');
   if (!/\saria-describedby=/.test(t)) t = t.replace(/^<a\b/, '<a aria-describedby="ext-note"');
+  // The kind of site, for the link-list icons (src/lib/link-kinds.mjs, decision 0012).
+  const kind = linkKind(href.replace(/&amp;/g, '&'));
+  if (kind && !/\sdata-link=/.test(t)) t = t.replace(/^<a\b/, `<a data-link="${kind}"`);
   return t;
 }
 

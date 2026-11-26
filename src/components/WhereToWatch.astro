@@ -24,14 +24,14 @@ const groups: [string, string[]][] = w ? ([['Stream', w.stream], ['Free with ads
       {groups.map(([k, l], i) => <>{i > 0 && ' · '}<strong>{k}:</strong> {l.join(', ')}</>)}
       {none && 'Not streaming or for sale in the US.'}
       {!w && 'Not checked yet.'}
-      <span class="small muted watch-src">
+      <span class="small muted watch-src link-icons">
         {w ? <> US, as of {when} · <a href={w.justwatch}>JustWatch</a> · <a href={info.search.reelgood}>Reelgood</a></> : <> Search <a href={info.search.justwatch}>JustWatch</a> or <a href={info.search.reelgood}>Reelgood</a></>}
       </span>
     </dd>
     {disc && <><dt>Home video</dt><dd data-pagefind-ignore>{discText} <span class="small muted">(<a href={disc.source}>Wikipedia</a>, read {longDate(disc.read)})</span></dd></>}
   </>
 ) : (
-  <section class="where-to-watch" id="watch" data-pagefind-ignore>
+  <section class="where-to-watch link-icons" id="watch" data-pagefind-ignore>
     <h2>Where to watch</h2>
     {note && <p>{note}</p>}
     {groups.length > 0 && <dl class="facts watch-facts">{groups.map(([k, l]) => <><dt>{k}</dt><dd>{l.join(', ')}</dd></>)}</dl>}
