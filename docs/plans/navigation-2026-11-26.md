@@ -87,7 +87,7 @@ texture only, no logos or title designs). Screenshots to Adam before merging.
   icons only in link lists, not in running text; a legend on Sources and policy.
 
 - Five themes (step 4, decision 0014): menu in order of release, so 1983 movie sits second; 1959 the default for
-  everyone; a stored Midnight or Paper choice falls back to 1959; fonts IM Fell English, Cabin Sketch and Cinzel.
+  everyone; a stored Midnight or Paper choice falls back to 1959; fonts IM Fell English, Eater (replacing Cabin Sketch at Adam's request, 19:45 UTC) and Cinzel.
 - Play and Collect (step 3, decision 0013): Art and design placed after History in Discover; Merchandise's
   shelves kept as they are rather than merged; the quiz uses credits and air years only.
 

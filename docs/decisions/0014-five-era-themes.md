@@ -17,7 +17,7 @@ key art of each era (the 1959 series' poster with Serling before concentric ring
 - **1983 movie:** a deep navy night sky full of stars, a dusk glow on the horizon (peach, rose, violet) with dark hills
   against it, silvered old-style titles with a faint warm halo, and peach for the accent (the sunset on the title).
 - **1985 series:** violet dark like a bare room at night, darker violet walls at the sides, stars, a white light
-  glowing from above, rough chalk-white lettering for titles (Cabin Sketch) and pale lilac for the accent.
+  glowing from above, rough, splintered white capitals for page and section titles (Eater; Adam, 19:45 UTC, found the first choice, Cabin Sketch, not close enough), Jost for smaller headings as the key art sets its subtitle, and pale lilac for the accent.
 - **2002 series:** deep electric blue, a cold light breaking through the middle, faint orbits and ruled lines like a
   scientist's chalkboard, titles in gold engraved capitals (Cinzel), cyan links, photographs a little cold.
 - **2019 series:** a pale overcast sky, black old-style titles, grass green for the accent and a strip of grass above
@@ -25,7 +25,7 @@ key art of each era (the 1959 series' poster with Serling before concentric ring
 - **Keys.** The themes are stored as `1959`, `1983`, `1985`, `2002` and `2019`. A choice saved under an earlier name
   moves to its era (`original`, `neon`, `steel`, `crimson`); one saved as Midnight or Paper is forgotten, and that
   visitor sees the 1959 series.
-- **Fonts.** IM Fell English, Cinzel and Cabin Sketch (SIL Open Font License, from Fontsource) replace DM Serif
+- **Fonts.** IM Fell English, Cinzel and Eater (SIL Open Font License, from Fontsource) replace DM Serif
   Display, Fraunces, Oswald and Michroma, which nothing uses any more. Jost and Courier Prime stay.
 
 ## Limits that still hold (from 0010)

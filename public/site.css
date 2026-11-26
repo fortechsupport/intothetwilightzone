@@ -13,7 +13,7 @@
 @font-face { font-family: 'IM Fell English Fallback'; src: local('Times New Roman'), local('Liberation Serif'), local('Times'); size-adjust: 104.09%; ascent-override: 87.4%; descent-override: 34.6%; line-gap-override: 0%; }
 @font-face { font-family: 'Courier Prime'; src: url('/fonts/courier-prime-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
 /* The 1985 and 2002 themes' display faces (SIL Open Font License); a browser downloads one only when its theme is chosen. */
-@font-face { font-family: 'Cabin Sketch'; src: url('/fonts/cabin-sketch-latin-700-normal.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Eater'; src: url('/fonts/eater-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
 @font-face { font-family: 'Cinzel'; src: url('/fonts/cinzel-latin-700-normal.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
 
 :root {
@@ -514,14 +514,17 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
 :root[data-theme="1983"] .card:hover { box-shadow: 0 0 0 1px var(--brass), 0 10px 30px color-mix(in srgb, var(--glow) 18%, transparent); }
 
 /* 1985 series: violet dark like a bare room at night, stars drifting, a white light glowing through from above, and
-   rough chalk-white lettering for titles. */
+   rough, splintered white capitals for page and section titles (Eater, in the spirit of the hand-painted lettering).
+   Smaller headings and figures use Jost, as the key art sets its subtitle in a plain geometric sans. */
 :root[data-theme="1985"] body { background-image:
     radial-gradient(ellipse 55% 38% at 50% -6%, color-mix(in srgb, var(--star) 26%, transparent), transparent 70%),
     radial-gradient(ellipse 60% 70% at 50% 45%, color-mix(in srgb, var(--glow) 13%, transparent), transparent 70%),
     linear-gradient(to right, color-mix(in srgb, var(--glow-2) 55%, transparent), transparent 18%, transparent 82%, color-mix(in srgb, var(--glow-2) 55%, transparent));
   background-attachment: fixed; }
 :root[data-theme="1985"] body::after { content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .55; background: var(--tz-stars); background-size: 280px 280px; }
-:root[data-theme="1985"] main h1 { color: var(--text); text-shadow: 0 0 20px color-mix(in srgb, var(--glow) 55%, transparent); }
+:root[data-theme="1985"] { --step-5: clamp(1.8rem, 1.25rem + 2.6vw, 3.1rem); --step-4: clamp(1.5rem, 1.2rem + 1.6vw, 2.2rem); --step-3: clamp(1.25rem, 1.1rem + .9vw, 1.6rem); }
+:root[data-theme="1985"] :is(h3, h4, .card .count, .hero-stats strong, .mega-head a, .quote blockquote) { font-family: var(--font-ui); font-weight: 500; letter-spacing: .01em; }
+:root[data-theme="1985"] main h1 { color: var(--text); line-height: 1.2; text-shadow: 0 0 14px color-mix(in srgb, var(--glow) 40%, transparent); }
 :root[data-theme="1985"] .kicker, :root[data-theme="1985"] .eyebrow { letter-spacing: .22em; }
 :root[data-theme="1985"] .card:hover { box-shadow: 0 0 0 1px var(--link), 0 0 28px color-mix(in srgb, var(--glow) 30%, transparent); }
 

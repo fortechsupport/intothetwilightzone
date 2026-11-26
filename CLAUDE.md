@@ -71,7 +71,7 @@ to every change, by every person or Claude thread. They come from how Adam's Sey
   1983 movie, 1985 series, 2002 series and 2019 series (the one light theme), each drawn from its era's key art
   (decisions 0010 and 0014). They evoke an era by palette, type and texture only, never the shows' logos, title
   designs or art, and pass the same contrast checks. Printing uses dark ink on white paper (`print` in the tokens).
-- Type: IM Fell English for headings (1959, 1983 and 2019), Cabin Sketch (1985) and Cinzel (2002); Jost for text and
+- Type: IM Fell English for headings (1959, 1983 and 2019), Eater for 1985 page and section titles, and Cinzel (2002); Jost for text and
   interface; Courier Prime for narration, teleplay excerpts and the 1959 kickers. All self-hosted in `public/fonts/`
   (SIL Open Font License).
 - Every record page starts with `RecordHeader` (type label, context, title, actions bar); every grid uses

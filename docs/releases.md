@@ -7,7 +7,7 @@ known not to work yet.
 
 Visitors can now:
 - Pick one of five themes, each drawn from the key art of its era: 1959 series (black and white with rings receding
-  into the dark), 1983 movie (a starry night sky over a dusk horizon), 1985 series (violet dark, stars, chalk-white
+  into the dark), 1983 movie (a starry night sky over a dusk horizon), 1985 series (violet dark, stars, rough white
   titles), 2002 series (deep blue light and gold capitals) and 2019 series (a pale sky, black type and green grass).
 - See the 1959 series by default. The 2019 series is the light theme.
 
