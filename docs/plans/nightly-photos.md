@@ -42,6 +42,12 @@ nightly photo task can be switched off.
 
 - Left out of the list as doubtful: the Buck Houghton portrait (identity not confirmed) and a Cayuga Lake view
   offered for the Serling cottage (does not show the cottage).
+- 2026-11-26 run: Commons gives the upload date for some files. Jack Weston's photo is dated 1971 from its Commons
+  title and description, not the 2013 upload date; William Shatner's "Live from Hollywood" photo carries no date
+  (2018 is the Flickr upload, and the picture looks decades older).
+- 2026-11-26 run: the fetch script now uses the first accepted license when a file carries several (the UCLA library
+  photo is GFDL and CC BY-SA 4.0 and was skipped as GFDL-only), and writes the Creative Commons link from the license
+  name.
 
 ## Waiting on Adam
 

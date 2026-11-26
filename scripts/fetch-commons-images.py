@@ -49,17 +49,19 @@ for p in pend:
     s = html.unescape(open(tmp, encoding='utf8', errors='ignore').read())
     if re.search(r'Deletion request|copyright violation|Non-free', s, re.I): note(f'flagged {title}'); continue
     lic = [txt(m) for m in re.findall(r'class="licensetpl_short"[^>]*>(.*?)</span>', s, re.S)]
-    licurl = re.search(r'class="licensetpl_link"[^>]*>(.*?)</span>', s, re.S)
     aut = re.search(r'id="fileinfotpl_aut".*?</td>\s*<td[^>]*>(.*?)</td>', s, re.S)
     src = re.search(r'id="fileinfotpl_src".*?</td>\s*<td[^>]*>(.*?)</td>', s, re.S)
     date = re.search(r'id="fileinfotpl_date".*?</td>\s*<td[^>]*>(.*?)</td>', s, re.S)
     orig = re.search(r'class="fullImageLink"[^>]*>\s*<a href="([^"]+)"', s)
     if not (lic and orig): note(f'no license/orig {title}'); continue
-    L = lic[0]
-    if re.match(r'public domain|PD', L, re.I): license = 'Public domain'
-    else:
-        m = re.match(r'(CC BY(?:-SA)? [1-4]\.0|CC0)', L); license = m.group(1) if m else None
-    if not license: note(f'license {L} {title}'); continue
+    # A file may carry several licenses (often GFDL plus a CC one): use the first one the site accepts.
+    license = None
+    for L in lic:
+        if re.match(r'public domain|PD', L, re.I): license = 'Public domain'
+        else:
+            m = re.match(r'(CC BY(?:-SA)? [1-4]\.0|CC0)', L); license = m.group(1) if m else None
+        if license: break
+    if not license: note(f'license {" / ".join(lic)} {title}'); continue
     url = orig.group(1).split('?')[0]
     m = re.match(r'https://upload\.wikimedia\.org/wikipedia/commons/(\w/\w\w)/(.+)$', url)
     name = m.group(2) if m else ''
@@ -76,7 +78,9 @@ for p in pend:
     e = {'commons': p['commons_file'], 'file': p['planned_file'], 'records': p['records'], 'role': p['role'],
          'title': p['title'], 'creator': creator, 'license': license, 'source_url': page}
     if len(creator) > 80: e['creator_note'] = creator[:400]; e['creator'] = creator[:77].rsplit(' ', 1)[0] + '…'
-    if licurl and license != 'Public domain': e['license_url'] = txt(licurl.group(1))
+    if license == 'CC0': e['license_url'] = 'https://creativecommons.org/publicdomain/zero/1.0/'
+    elif license != 'Public domain':
+        kind, ver = license[3:].lower().split(' '); e['license_url'] = f'https://creativecommons.org/licenses/{kind}/{ver}/'
     y = year(txt(date.group(1)) if date else '', p['title'])
     if y: e['date'] = y
     if src: e['original_source'] = txt(src.group(1))[:120]
