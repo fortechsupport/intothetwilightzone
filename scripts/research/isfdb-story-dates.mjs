@@ -10,7 +10,7 @@ import yaml from 'yaml';
 
 const UA = 'IntoTheTwilightZone research (non-commercial fan site; a few slow lookups)';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const get = async (url) => { await sleep(1500); const r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(20000) }); return r.ok ? r.text() : ''; };
+const get = async (url) => { await sleep(1500); const r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(60000) }); return r.ok ? r.text() : ''; };
 const strip = (s) => s.replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&#39;|&rsquo;/g, "'").replace(/\s+/g, ' ').trim();
 const norm = (s) => s.toLowerCase().replace(/[’']/g, "'").replace(/[^a-z0-9' ]/g, ' ').replace(/\s+/g, ' ').trim();
 
