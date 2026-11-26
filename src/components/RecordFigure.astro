@@ -13,7 +13,7 @@ const srcset = img.width > 320 ? `${img.small} 320w, ${img.src} ${Math.min(img.w
     <img src={img.src} srcset={srcset} sizes={srcset ? sizes : undefined}
       width={img.width} height={img.height} alt={img.alt} loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : undefined} decoding="async" />
   </div>
-  <figcaption>
+  <figcaption data-pagefind-ignore>
     <span class="tz-figure-title">{img.title}{img.date && !img.title.includes(img.date) ? `, ${img.date}` : ''}</span>
     <span class="tz-figure-credit">{img.creator} · <a href={licenseHref(img)}>{img.license}</a> · <a href={img.source_url}>{img.source_name}</a> · <a href={`/credits/images/#${img.id}`}>Credit</a></span>
   </figcaption>
