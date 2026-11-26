@@ -506,6 +506,8 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
   -webkit-mask: radial-gradient(circle at 50% 18%, var(--text) 0, transparent 62%); mask: radial-gradient(circle at 50% 18%, var(--text) 0, transparent 62%); }
 :root:is(:not([data-theme]), [data-theme="1959"]) img:not(.leaflet-tile) { filter: grayscale(1) contrast(1.08); }
 :root:is(:not([data-theme]), [data-theme="1959"], [data-theme="2019"]) :is(.kicker, .eyebrow) { letter-spacing: .14em; font-weight: 500; }
+/* Lexend Giga is a wide face: on a phone its labels keep tighter spacing, so a record's type line fits on one row. */
+@media (max-width: 480px) { :root:is(:not([data-theme]), [data-theme="1959"], [data-theme="2019"]) :is(.kicker, .eyebrow) { letter-spacing: .04em; font-size: .7rem; line-height: 1.35; } }
 :root:is(:not([data-theme]), [data-theme="1959"]) main h1 { text-shadow: 0 2px 18px var(--bg); }
 
 /* 1983 movie: a deep night sky full of stars over a dusk glow on the horizon (rose into violet) with dark hills against
