@@ -11,7 +11,7 @@ const preview = reviewMode() !== 'public';
 const { title, description = 'An independent, non-commercial living history of The Twilight Zone: every series, episode, person, and the films, songs and stories it inspired.', jsonld, noindex } = Astro.props;
 const fullTitle = title === 'Home' ? 'IntoTheTwilightZone.com' : `${title} · IntoTheTwilightZone.com`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
-// Navigation (Adam, 2026-11-21). The main bar is the nine verbs, each opening a panel of its categories
+// Navigation (Adam, 2026-11-21; seven verbs since 2026-11-26). The main bar is the verbs, each opening a panel of its categories
 // and their subcategories with counts (model in src/lib/nav.ts). The utility bar above holds the features;
 // its links and the footer's live in src/lib/site-links.ts. On phones the verbs fold into one Menu button.
 import { navModel } from '../lib/nav';

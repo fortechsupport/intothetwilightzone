@@ -5,7 +5,7 @@ import recordIndex from './integrations/record-index.mjs';
 import sitemap from './integrations/sitemap.mjs';
 import { readFileSync, readdirSync } from 'node:fs';
 import { parse } from 'yaml';
-import { MOVED_PATHS, OLD_GROUPS } from './src/lib/taxonomy.mjs';
+import { MOVED_PATHS, OLD_GROUPS, RETIRED_VERBS } from './src/lib/taxonomy.mjs';
 import { buildShowIndex, isEntryOnly } from './src/lib/tv-shows.mjs';
 
 // Old WordPress URLs (2023 site) mapped to their new homes.
@@ -82,6 +82,8 @@ const redirects = {
 };
 // The nine verbs (2026-11-21): group pages became verb pages, and some subcategories moved.
 for (const [g, v] of Object.entries(OLD_GROUPS)) redirects[`/explore/${g}`] = `/${v}/`;
+// Attend and Visit were folded into Discover (Adam, 2026-11-26).
+for (const [g, to] of Object.entries(RETIRED_VERBS)) redirects[`/${g}`] = to;
 for (const [from, to] of Object.entries(MOVED_PATHS)) redirects[from.replace(/\/$/, '')] = to;
 for (const [k, t] of Object.entries(redirects)) if (MOVED_PATHS[t]) redirects[k] = MOVED_PATHS[t];
 // Television (Adam, 2026-11-21, decision 0002): Episodes merged into Television, and every episode,

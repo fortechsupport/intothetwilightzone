@@ -41,6 +41,14 @@ const finder = c.slug === 'movies';
 const finderEntries = finder ? allEntries.map((e) => ({ ...e, group: undefined, facets: { ...e.facets, shelf: subs.filter((s) => s.entries.some((x) => x.key === e.key)).map((s) => s.title) } })).sort((a, b) => a.sort.localeCompare(b.sort)) : [];
 const finderFacets = movieFacets(c.slug, finderEntries);
 const NOUN: Record<string, string> = { people: 'people', places: 'places', organizations: 'organizations' };
+// Places (Adam, 2026-11-26: Visit folded into Discover "with tabs to toggle between Real Places and Settings"):
+// one tab for the real places and their kinds, one for the fictional settings of the stories.
+const placeTabs = c.slug === 'places';
+const SETTINGS = 'in-story';
+const settingSub = placeTabs ? c.subs.find((s) => s.slug === SETTINGS) : undefined;
+const settings = [...(settingSub?.entries ?? [])].sort((a, b) => a.sort.localeCompare(b.sort));
+const realSubs = placeTabs ? subs.filter((s) => s.slug !== SETTINGS) : subs;
+const realRows = placeTabs ? entRows.filter((r) => r.subs.some((s) => s.slug !== SETTINGS)) : entRows;
 ---
 <Base title={c.title} description={c.description}>
   <div class="page-head has-art">
@@ -58,9 +66,21 @@ const NOUN: Record<string, string> = { people: 'people', places: 'places', organ
     <p>{c.connection}</p>
   </aside>
   {c.seeAlso && <p class="small">See also: {c.seeAlso.map(([l, h], i) => <>{i > 0 && ' · '}<a href={h}>{l}</a></>)}</p>}
-  <h2>{section ? 'Kinds' : 'Subcategories'}</h2>
+  {placeTabs && (
+    <div class="tabs" role="tablist" aria-label="Real places or settings" data-tabs hidden>
+      <button type="button" role="tab" id="tab-real-places" aria-controls="real-places" aria-selected="true">Real places <span class="count-pill">{realRows.length}</span></button>
+      <button type="button" role="tab" id="tab-settings" aria-controls="settings" aria-selected="false" tabindex="-1">Settings <span class="count-pill">{settings.length}</span></button>
+    </div>
+  )}
+  {placeTabs && <script is:inline>
+    // Before the panels are drawn: show the tabs and pick the panel the address asks for, so nothing shifts.
+    document.querySelector('[data-tabs]').hidden = false;
+    document.documentElement.dataset.placesTab = location.hash === '#settings' ? 'settings' : 'real-places';
+  </script>}
+  <div id={placeTabs ? 'real-places' : undefined} role={placeTabs ? 'tabpanel' : undefined} aria-labelledby={placeTabs ? 'tab-real-places' : undefined}>
+  <h2>{placeTabs ? 'Kinds of real places' : section ? 'Kinds' : 'Subcategories'}</h2>
   <div class="grid">
-    {subs.map((s) => (
+    {realSubs.map((s) => (
       <a class="card" href={`/${c.slug}/${s.slug}/`}>
         <span class="count">{s.entries.length.toLocaleString('en-US')}</span>
         <h3>{s.title} {s.isNew && <span class="tag new">new</span>}</h3>
@@ -72,7 +92,7 @@ const NOUN: Record<string, string> = { people: 'people', places: 'places', organ
   {empty.length > 0 && <p class="small muted">Planned, with no entries yet: {empty.map((s, i) => <>{i > 0 && ', '}{s.title}{s.isNew && ' (new)'}</>)}. Research is under way.</p>}
   {section ? (
     <>
-      <h2>Every {c.title.toLowerCase().replace(/s$/, '')} A to Z</h2>
+      <h2>Every {placeTabs ? 'real place' : c.title.toLowerCase().replace(/s$/, '')} A to Z</h2>
       {split ? (
         <>
           <p class="small muted">{entRows.length.toLocaleString('en-US')} entries, one page per letter{c.slug === 'people' && ', filed by surname'} (the letters at the top of this page). Or filter and search them all here.</p>
@@ -81,7 +101,7 @@ const NOUN: Record<string, string> = { people: 'people', places: 'places', organ
       ) : (
         <>
           <p class="small muted">Sort by name or number of records, filter by kind or by where they appear, or search. Each name links to its page, which links back to every record.</p>
-          <EntityIndex section={c.slug as any} noun={NOUN[c.slug]} rows={entRows} />
+          <EntityIndex section={c.slug as any} noun={NOUN[c.slug]} rows={realRows} />
         </>
       )}
     </>
@@ -105,4 +125,42 @@ const NOUN: Record<string, string> = { people: 'people', places: 'places', organ
       ))}
     </>
   )}
+  </div>
+  {placeTabs && (
+    <div id="settings" role="tabpanel" aria-labelledby="tab-settings">
+      <h2>Settings in the stories</h2>
+      {settingSub?.blurb && <p>{settingSub.blurb}</p>}
+      <p class="small muted">{settings.length} fictional places, A to Z. Each links to its page, which names the episodes and stories set there. <a href={`/places/${SETTINGS}/`}>Settings on a page of their own</a>.</p>
+      <EntryList entries={settings} />
+    </div>
+  )}
+  <script>
+    // Tabs for Real places and Settings (WAI-ARIA tabs pattern). Without JavaScript both panels show in turn.
+    const list = document.querySelector<HTMLElement>('[data-tabs]');
+    if (list) {
+      const tabs = [...list.querySelectorAll<HTMLButtonElement>('[role="tab"]')];
+      const show = (id: string, focus = false) => {
+        document.documentElement.dataset.placesTab = id;
+        for (const t of tabs) {
+          const on = t.getAttribute('aria-controls') === id;
+          t.setAttribute('aria-selected', String(on));
+          t.tabIndex = on ? 0 : -1;
+          if (on && focus) t.focus();
+        }
+      };
+      const ids = tabs.map((t) => t.getAttribute('aria-controls')!);
+      tabs.forEach((t, i) => {
+        t.addEventListener('click', () => { show(ids[i]); history.replaceState(null, '', `#${ids[i]}`); });
+        t.addEventListener('keydown', (e) => {
+          const j = e.key === 'ArrowRight' ? i + 1 : e.key === 'ArrowLeft' ? i - 1 : e.key === 'Home' ? 0 : e.key === 'End' ? ids.length - 1 : null;
+          if (j === null) return;
+          e.preventDefault();
+          show(ids[(j + ids.length) % ids.length], true);
+        });
+      });
+      const pick = () => show(ids.includes(location.hash.slice(1)) ? location.hash.slice(1) : ids[0]);
+      pick();
+      addEventListener('hashchange', pick);
+    }
+  </script>
 </Base>

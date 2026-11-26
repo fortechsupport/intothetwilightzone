@@ -120,7 +120,7 @@ export const TAXONOMY = [
     slug: 'places',
     title: 'Places',
     kind: 'section',
-    group: 'visit',
+    group: 'discover',
     description: 'Real places tied to The Twilight Zone, from MGM backlots to Rod Serling\'s hometown, and the fictional places of its stories.',
     intro: [
       "The original series was made almost entirely at MGM in Culver City, on soundstages and the backlot streets that stood in for small-town America, with location trips to Death Valley, Lone Pine and the Malibu coast. The revivals moved north to Vancouver and Toronto. Serling's own story runs from Syracuse and Binghamton, New York, through Antioch College and Cincinnati, to Pacific Palisades and his summer cottage on Cayuga Lake.",
@@ -167,7 +167,7 @@ export const TAXONOMY = [
   {
     slug: 'events',
     title: 'Events',
-    group: 'attend',
+    group: 'discover',
     split: true,
     description: 'Conventions, festivals, anniversaries, exhibitions, screenings and marathons: gatherings people could go to.',
     intro: [
@@ -439,7 +439,7 @@ export const TAXONOMY = [
   {
     slug: 'lectures',
     title: 'Lectures',
-    group: 'attend',
+    group: 'discover',
     split: true,
     description: "Rod Serling's lectures and speeches, academic talks about the show, and The Twilight Zone in the classroom.",
     intro: [
@@ -514,23 +514,31 @@ const byTitle = (a, b) => sortKey(a.title).localeCompare(sortKey(b.title));
  * holds categories, A-Z; Meet and Visit open the directories. Pages at /<verb>/; the old /explore/<group>/
  * pages redirect (OLD_GROUPS).
  */
+// The verbs' order is Adam's (2026-11-26): seven verbs, Attend and Visit folded into Discover. `order` lists a
+// verb's categories in the order he chose; any category it leaves out follows A to Z.
 export const VERBS = [
-  { slug: 'watch', title: 'Watch', blurb: 'TV series and episodes, movies, documentaries and the stage.' },
-  { slug: 'listen', title: 'Listen', blurb: 'Radio dramas, podcasts, songs, soundtracks and the theme.' },
-  { slug: 'read', title: 'Read', blurb: 'Books, comics, magazines, scripts, essays, articles and websites.' },
+  { slug: 'watch', title: 'Watch', blurb: 'TV series and episodes, movies, documentaries and the stage.', order: ['series', 'movies', 'stage'] },
+  { slug: 'listen', title: 'Listen', blurb: 'Songs, soundtracks and the theme, radio dramas and podcasts.', order: ['music', 'radio', 'podcasts'] },
+  { slug: 'read', title: 'Read', blurb: 'Articles, books, comics, essays, magazines, scripts and websites.' },
   { slug: 'play', title: 'Play', blurb: 'Pinball, video games, board and card games.' },
   { slug: 'collect', title: 'Collect', blurb: 'Artwork, props, posters, merchandise and collectibles.' },
-  { slug: 'attend', title: 'Attend', blurb: 'Conventions, festivals, exhibitions, screenings, lectures and talks.' },
-  { slug: 'discover', title: 'Discover', blurb: 'The history behind the show and everything it inspired.' },
+  { slug: 'discover', title: 'Discover', blurb: 'The history behind the show, everything it inspired, the events and talks around it, and the places to visit, real and imagined.', order: ['history', 'homages', 'events', 'lectures', 'places'] },
   { slug: 'meet', title: 'Meet', blurb: 'The people who made it, its characters, and the organizations around it.' },
-  { slug: 'visit', title: 'Visit', blurb: 'Real places, from filming locations to the Tower of Terror, and the settings of the stories.' },
-].map((g) => ({ ...g, href: `/${g.slug}/`, categories: TAXONOMY.filter((c) => c.group === g.slug).sort(byTitle) }));
+].map((g) => {
+  const rank = (c) => { const i = (g.order ?? []).indexOf(c.slug); return i < 0 ? Infinity : i; };
+  const categories = TAXONOMY.filter((c) => c.group === g.slug).sort((a, b) => rank(a) - rank(b) || byTitle(a, b));
+  return { ...g, href: `/${g.slug}/`, categories };
+});
 export const GROUPS = VERBS;
 export const groupHref = (g) => g.href;
 export const verbOf = (catSlug) => VERBS.find((v) => v.categories.some((c) => c.slug === catSlug));
 /** Old group pages and the verb that replaced each. */
-export const OLD_GROUPS = { screen: 'watch', audio: 'listen', print: 'read', games: 'play', live: 'attend', art: 'collect', legacy: 'discover' };
+export const OLD_GROUPS = { screen: 'watch', audio: 'listen', print: 'read', games: 'play', live: 'discover', art: 'collect', legacy: 'discover' };
 /** Reading subcategories that are topics, not formats: shown as collections on Read. */
+/** Verbs that were folded into Discover (Adam, 2026-11-26), and where their old pages now point. */
+export const RETIRED_VERBS = { attend: '/discover/', visit: '/places/' };
+/** Read's formats in Adam's order (2026-11-26); a format not named here follows A to Z. */
+export const READ_ORDER = ['articles', 'books', 'comics', 'essays', 'magazines', 'scripts', 'source-stories', 'websites'];
 export const READ_COLLECTIONS = ['accident-and-trial', 'anniversary-coverage', 'cast-and-crew-memoirs', 'foreign-language', 'serling-foundation-papers', 'serling-own-writing'];
 
 /** People, Places, Organizations, in that order. */
