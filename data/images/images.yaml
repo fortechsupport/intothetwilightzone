@@ -1406,6 +1406,74 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AParamount_Filmstudios_Hollywood_%2822223007126%29.jpg
   source_name: Wikimedia Commons
   original_source: Paramount Filmstudios Hollywood
+- id: people-abner-biberman
+  src: /media/images/people/abner-biberman.webp
+  small: /media/images/people/abner-biberman-320.webp
+  width: 640
+  height: 827
+  records:
+    - people/abner-biberman
+  role: portrait
+  title: Abner Biberman in Submarine Alert (1943 publicity still)
+  alt: Abner Biberman in a pinstriped suit and hat, holding a pistol close to his face
+  date: "1943"
+  creator: Paramount Pictures
+  license: Public domain
+  license_reason: Published in the US 1931-1963 and the copyright was not renewed.
+  source_url: https://commons.wikimedia.org/wiki/File%3AAbner_Biberman_1943.jpg
+  source_name: Wikimedia Commons
+  original_source: Paramount publicity still for Submarine Alert
+- id: people-agnes-moorehead
+  src: /media/images/people/agnes-moorehead.webp
+  small: /media/images/people/agnes-moorehead-320.webp
+  width: 640
+  height: 789
+  records:
+    - people/agnes-moorehead
+  role: portrait
+  title: Promotional photograph of Agnes Moorehead (1950s)
+  alt: Head-and-shoulders studio portrait of Agnes Moorehead with upswept hair and a satin blouse with a brooch
+  creator: Unknown photographer
+  license: Public domain
+  license_reason: Published in the US 1931-1963 and the copyright was not renewed.
+  source_url: https://commons.wikimedia.org/wiki/File%3AStudio_publicity_Agnes_Moorehead.jpg
+  source_name: Wikimedia Commons
+  original_source: Studio publicity photograph
+- id: people-albert-brooks
+  src: /media/images/people/albert-brooks.webp
+  small: /media/images/people/albert-brooks-320.webp
+  width: 640
+  height: 960
+  records:
+    - people/albert-brooks
+  role: portrait
+  title: Albert Brooks at the Drive premiere, Toronto (2011)
+  alt: Albert Brooks in glasses and a black jacket, speaking into a hand-held microphone
+  date: "2011"
+  creator: Melissa cybermelli@aol.com from New York, USA
+  license: CC BY-SA 2.0
+  license_reason: Licensed under CC BY-SA 2.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AAlbert_Brooks_at_%27Drive%27_premiere_TIFF_9.10.11.jpg
+  source_name: Wikimedia Commons
+  original_source: Flickr, "Drive" premiere, Toronto International Film Festival
+- id: people-anne-francis
+  src: /media/images/people/anne-francis.webp
+  small: /media/images/people/anne-francis-320.webp
+  width: 640
+  height: 867
+  records:
+    - people/anne-francis
+  role: publicity
+  title: Anne Francis as Honey West (1965)
+  alt: Anne Francis in a one-shouldered gown, holding a spotted ocelot
+  date: "1965"
+  creator: ABC Television-ABC Photo stamp
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3AAnne_Francis_Honey_West_1965.JPG
+  source_name: Wikimedia Commons
+  original_source: Original press photograph, front and back scanned (sold on eBay)
 - id: people-bernard-herrmann
   src: /media/images/people/bernard-herrmann.webp
   small: /media/images/people/bernard-herrmann-320.webp
@@ -1439,6 +1507,41 @@
   source_url: https://commons.wikimedia.org/wiki/File:The_Twilight_Zone_Billy_Mumy_1961.jpg
   source_name: Wikimedia Commons
   original_source: eBay item photo front photo back eBay item photo front photo back
+- id: people-bill-mumy-2
+  src: /media/images/people/bill-mumy-2.webp
+  small: /media/images/people/bill-mumy-2-320.webp
+  width: 640
+  height: 819
+  records:
+    - people/bill-mumy
+  role: portrait
+  title: Bill Mumy at Phoenix Comicon (2013)
+  alt: Bill Mumy in orange-rimmed glasses, smiling and holding a microphone on a convention stage
+  date: "2013"
+  creator: Gage Skidmore
+  license: CC BY-SA 3.0
+  license_reason: Licensed under CC BY-SA 3.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File%3ABill_Mumy_by_Gage_Skidmore.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: people-burgess-meredith
+  src: /media/images/people/burgess-meredith.webp
+  small: /media/images/people/burgess-meredith-320.webp
+  width: 640
+  height: 513
+  records:
+    - people/burgess-meredith
+  role: portrait
+  title: Burgess Meredith, acting president of Actors Equity, in Washington, D.C. (1938)
+  alt: A young Burgess Meredith in a suit, seated at a hearing table with a glass of water and papers
+  date: "1938"
+  creator: Harris & Ewing
+  license: Public domain
+  license_reason: Harris & Ewing photograph; the Library of Congress lists no known copyright restrictions.
+  source_url: https://commons.wikimedia.org/wiki/File%3ABurgess_Meredith_1938_cropped.jpg
+  source_name: Wikimedia Commons
+  original_source: Harris & Ewing collection, Library of Congress
 - id: people-carol-burnett
   src: /media/images/people/carol-burnett.webp
   small: /media/images/people/carol-burnett-320.webp
@@ -1471,6 +1574,24 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ACharles_Bronson_-_1966.JPG
   source_name: Wikimedia Commons
   original_source: eBay
+- id: people-cliff-robertson
+  src: /media/images/people/cliff-robertson.webp
+  small: /media/images/people/cliff-robertson-320.webp
+  width: 640
+  height: 781
+  records:
+    - people/cliff-robertson
+  role: portrait
+  title: Cliff Robertson at the Filmex tribute to Elizabeth Taylor (1981)
+  alt: Cliff Robertson in a tuxedo and bow tie, looking past the camera
+  date: "1981"
+  creator: Alan Light
+  license: CC BY 2.0
+  license_reason: Licensed under CC BY 2.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File%3ACliff_Robertson_%28november_1981%29_cropped.jpg
+  source_name: Wikimedia Commons
+  original_source: https://www.flickr.com/photos/alan-light/2398831418 (cropped)
 - id: people-dean-stockwell
   src: /media/images/people/dean-stockwell.webp
   small: /media/images/people/dean-stockwell-320.webp
@@ -1586,6 +1707,41 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AElizabeth_Montgomery_-_Press_Photo_%281960%29.png
   source_name: Wikimedia Commons
   original_source: https://www.worthpoint.com/worthopedia/elizabeth-montgomery-8x10-142772003
+- id: people-frank-marshall
+  src: /media/images/people/frank-marshall.webp
+  small: /media/images/people/frank-marshall-320.webp
+  width: 640
+  height: 591
+  records:
+    - people/frank-marshall
+  role: portrait
+  title: Frank Marshall, film producer
+  alt: Frank Marshall in a baseball cap and sunglasses, smiling, in a red open shirt over a grey T-shirt
+  creator: DevdogAZ
+  license: CC BY-SA 3.0
+  license_reason: Licensed under CC BY-SA 3.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AFrank_Marshall_%28film_producer%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: people-george-clayton-johnson
+  src: /media/images/people/george-clayton-johnson.webp
+  small: /media/images/people/george-clayton-johnson-320.webp
+  width: 640
+  height: 896
+  records:
+    - people/george-clayton-johnson
+  role: portrait
+  title: George Clayton Johnson (2006)
+  alt: George Clayton Johnson, with a long white beard and hair, in a wide-brimmed green hat
+  date: "2006"
+  creator: JaSunni Productions, LLC, at PicasaWeb
+  license: CC BY-SA 3.0
+  license_reason: Licensed under CC BY-SA 3.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AGeorge_Clayton_Johnson.jpg
+  source_name: Wikimedia Commons
+  original_source: JaSunni Productions, PicasaWeb (cropped)
 - id: people-george-takei
   src: /media/images/people/george-takei.webp
   small: /media/images/people/george-takei-320.webp
@@ -1601,6 +1757,24 @@
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   source_url: https://commons.wikimedia.org/wiki/File%3AGeorge_Takei_GalaxyCon_San_Jose_August-30-2026_270.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: people-glen-morgan
+  src: /media/images/people/glen-morgan.webp
+  small: /media/images/people/glen-morgan-320.webp
+  width: 640
+  height: 746
+  records:
+    - people/glen-morgan
+  role: portrait
+  title: Glen Morgan at San Diego Comic-Con (2013)
+  alt: Glen Morgan in glasses and a black T-shirt, speaking at a panel table microphone
+  date: "2013"
+  creator: Gage Skidmore
+  license: CC BY-SA 3.0
+  license_reason: Licensed under CC BY-SA 3.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AGlen_Morgan_by_Gage_Skidmore.jpg
   source_name: Wikimedia Commons
   original_source: Own work
 - id: people-harlan-ellison
@@ -1620,6 +1794,24 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AHarlan_Ellison_at_the_LA_Press_Club_%28cropped%29.jpg
   source_name: Wikimedia Commons
   original_source: Harlan Ellison at the L.A. Press Club; Uploaded by Rosenzweig
+- id: people-helen-mirren
+  src: /media/images/people/helen-mirren.webp
+  small: /media/images/people/helen-mirren-320.webp
+  width: 640
+  height: 907
+  records:
+    - people/helen-mirren
+  role: portrait
+  title: Helen Mirren photographed by Mary Motley Kalergis in New York (1985)
+  alt: Helen Mirren sitting astride a wicker chair, leaning on its back with her head in her hand
+  date: "1985"
+  creator: MaryMotleyKalergisPhotography
+  license: CC BY-SA 4.0
+  license_reason: Licensed under CC BY-SA 4.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AHelen_Mirren_1985_IPTC_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
 - id: people-ida-lupino
   src: /media/images/people/ida-lupino.webp
   small: /media/images/people/ida-lupino-320.webp
@@ -1636,6 +1828,75 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AIda_Lupino_1937_%28cropped%29.jpg
   source_name: Wikimedia Commons
   original_source: ebay
+- id: people-inger-stevens
+  src: /media/images/people/inger-stevens.webp
+  small: /media/images/people/inger-stevens-320.webp
+  width: 640
+  height: 812
+  records:
+    - people/inger-stevens
+  role: portrait
+  title: Photo of Inger Stevens (1960)
+  alt: Inger Stevens, with short blonde hair, leaning against a doorframe in a dark knit top
+  date: "1960"
+  creator: MGM
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3A1960_Inger_Stevens.jpg
+  source_name: Wikimedia Commons
+  original_source: Original press photograph, front and back scanned (sold on eBay)
+- id: people-j-michael-straczynski
+  src: /media/images/people/j-michael-straczynski.webp
+  small: /media/images/people/j-michael-straczynski-320.webp
+  width: 640
+  height: 839
+  records:
+    - people/j-michael-straczynski
+  role: portrait
+  title: J. Michael Straczynski at Phoenix Comicon (2013)
+  alt: J. Michael Straczynski in glasses and a black shirt, speaking into a microphone on stage
+  date: "2013"
+  creator: Gage Skidmore
+  license: CC BY-SA 3.0
+  license_reason: Licensed under CC BY-SA 3.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AJ._Michael_Straczynski_by_Gage_Skidmore.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: people-jack-klugman
+  src: /media/images/people/jack-klugman.webp
+  small: /media/images/people/jack-klugman-320.webp
+  width: 640
+  height: 840
+  records:
+    - people/jack-klugman
+  role: portrait
+  title: Jack Klugman in an ABC press photo for The Odd Couple (1972)
+  alt: Jack Klugman smiling broadly in a tweed jacket and open-collared shirt
+  date: "1972"
+  creator: ABC Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3AJack_Klugman_%22The_Odd_Couple%22_%281972_ABC_press_photo%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Original ABC press photograph, front and back scanned (sold on eBay; https://archive.ph/CdItj)
+- id: people-jack-weston
+  src: /media/images/people/jack-weston.webp
+  small: /media/images/people/jack-weston-320.webp
+  width: 640
+  height: 795
+  records:
+    - people/jack-weston
+  role: portrait
+  title: Jack Weston in 1971
+  alt: Jack Weston in a checked jacket and tie, glancing sideways with raised eyebrows
+  date: "1971"
+  creator: Zodiac Photographers
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3AJack_Weston_1971.jpg
+  source_name: Wikimedia Commons
+  original_source: Original press photograph, front and back scanned (sold on eBay)
 - id: people-janice-rule
   src: /media/images/people/janice-rule.webp
   small: /media/images/people/janice-rule-320.webp
@@ -1704,6 +1965,24 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AJohn_Landis_Bologna.jpg
   source_name: Wikimedia Commons
   original_source: https://www.flickr.com/photos/184568471@N07/52188230196/in/dateposted-public/
+- id: people-jonathan-winters
+  src: /media/images/people/jonathan-winters.webp
+  small: /media/images/people/jonathan-winters-320.webp
+  width: 640
+  height: 713
+  records:
+    - people/jonathan-winters
+  role: publicity
+  title: Jonathan Winters and Angela Lansbury with an Oscar at the 1965 Academy Awards
+  alt: Jonathan Winters in a tuxedo and Angela Lansbury in an evening gown smiling and holding an Oscar statuette together in front of a curtain
+  date: "1965"
+  creator: John Malmin, Los Angeles Times
+  license: CC BY 4.0
+  license_reason: Licensed under CC BY 4.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AAngela_Lansbury_and_Jonathan_Winters_at_the_1965_Academy_Awards.jpg
+  source_name: Wikimedia Commons
+  original_source: Los Angeles Times Photographic Archive, UCLA Library Special Collections (https://digital.library.ucla.edu/catalog/ark:/21198/zz0002tdkh)
 - id: people-jordan-peele
   src: /media/images/people/jordan-peele.webp
   small: /media/images/people/jordan-peele-320.webp
@@ -1721,6 +2000,24 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AJordan_Peele_Peabody_2014_%28cropped%29.jpg
   source_name: Wikimedia Commons
   original_source: Keegan-Michael Key / Jordan Peele
+- id: people-kathleen-kennedy
+  src: /media/images/people/kathleen-kennedy.webp
+  small: /media/images/people/kathleen-kennedy-320.webp
+  width: 640
+  height: 959
+  records:
+    - people/kathleen-kennedy
+  role: portrait
+  title: Kathleen Kennedy at San Diego Comic-Con (2015)
+  alt: Kathleen Kennedy, with shoulder-length auburn hair, smiling
+  date: "2015"
+  creator: Gage Skidmore
+  license: CC BY-SA 3.0
+  license_reason: Licensed under CC BY-SA 3.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AKathleen_Kennedy_by_Gage_Skidmore_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
 - id: people-kelton-garwood
   src: /media/images/people/kelton-garwood.webp
   small: /media/images/people/kelton-garwood-320.webp
@@ -1770,6 +2067,41 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ALeonard_Nimoy_mid_1960s.JPG
   source_name: Wikimedia Commons
   original_source: eBay listing (front and back of the print)
+- id: people-martin-landau
+  src: /media/images/people/martin-landau.webp
+  small: /media/images/people/martin-landau-320.webp
+  width: 640
+  height: 665
+  records:
+    - people/martin-landau
+  role: portrait
+  title: Martin Landau at the Night of 100 Stars, Beverly Hills (2010)
+  alt: Martin Landau, with long white hair and glasses, smiling at the camera
+  date: "2010"
+  creator: Toglenn
+  license: CC BY-SA 3.0
+  license_reason: Licensed under CC BY-SA 3.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AMartin_Landau_2010_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work, Glenn Francis (PacificProDigital.com)
+- id: people-mitchell-leisen
+  src: /media/images/people/mitchell-leisen.webp
+  small: /media/images/people/mitchell-leisen-320.webp
+  width: 640
+  height: 652
+  records:
+    - people/mitchell-leisen
+  role: portrait
+  title: Mitchell Leisen, about 1948
+  alt: Profile of Mitchell Leisen in dark-rimmed glasses and a checked jacket
+  date: "1948"
+  creator: Photographer not credited
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3AMitchell_Leisen_c._1948.jpg
+  source_name: Wikimedia Commons
+  original_source: Photoplay, December 1948
 - id: people-nan-martin
   src: /media/images/people/nan-martin.webp
   small: /media/images/people/nan-martin-320.webp
@@ -1871,6 +2203,60 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ARay_Bradbury_%281975%29_-cropped-.jpg
   source_name: Wikimedia Commons
   original_source: https://www.flickr.com/photos/alan-light/332925230/ (cropped - lossless - by High on a tree)
+- id: people-richard-donner
+  src: /media/images/people/richard-donner.webp
+  small: /media/images/people/richard-donner-320.webp
+  width: 640
+  height: 803
+  records:
+    - people/richard-donner
+  role: portrait
+  title: Richard Donner at the National Film Society convention (1979)
+  alt: Richard Donner with sunglasses pushed up on his tousled hair, in a work shirt
+  date: "1979"
+  creator: Alan Light
+  license: CC BY 2.0
+  license_reason: Licensed under CC BY 2.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File%3ARichard_Donner_%284505771045%29_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: https://www.flickr.com/photos/alan-light/4505771045 (cropped)
+- id: people-richard-matheson
+  src: /media/images/people/richard-matheson.webp
+  small: /media/images/people/richard-matheson-320.webp
+  width: 640
+  height: 640
+  records:
+    - people/richard-matheson
+  role: portrait
+  title: Richard Matheson (2008)
+  alt: Richard Matheson, white-bearded, in a white cap and tan shirt
+  date: "2008"
+  creator: JaSunni at PicasaWeb
+  license: CC BY-SA 3.0
+  license_reason: Licensed under CC BY-SA 3.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File%3ARichard_Matheson_%28crop%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Cropped from File:Richard Matheson.jpg, JaSunni Productions
+- id: people-robert-duvall
+  src: /media/images/people/robert-duvall.webp
+  small: /media/images/people/robert-duvall-320.webp
+  width: 640
+  height: 637
+  records:
+    - people/robert-duvall
+  role: portrait
+  title: Robert Duvall at the premiere of The Road, Toronto (2009)
+  alt: Robert Duvall, grey-haired, in a dark jacket and open-collared shirt, in front of a festival backdrop
+  date: "2009"
+  creator: Josh Jensen from Toronto, Ontario, Canada
+  license: CC BY-SA 2.0
+  license_reason: Licensed under CC BY-SA 2.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AFlickr_-_Josh_Jensen_-_Robert_Duvall_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Flickr, Josh Jensen (cropped)
 - id: people-robert-redford
   src: /media/images/people/robert-redford.webp
   small: /media/images/people/robert-redford-320.webp
@@ -2110,6 +2496,60 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ARon_Howard_%28cropped%29.jpg
   source_name: Wikimedia Commons
   original_source: Cropped from Ron Howard
+- id: people-ryszard-bugajski
+  src: /media/images/people/ryszard-bugajski.webp
+  small: /media/images/people/ryszard-bugajski-320.webp
+  width: 640
+  height: 899
+  records:
+    - people/ryszard-bugajski
+  role: portrait
+  title: Ryszard Bugajski (2014)
+  alt: Ryszard Bugajski in glasses and a black leather jacket, standing in a lobby
+  date: "2014"
+  creator: Fryta73
+  license: CC BY-SA 2.0
+  license_reason: Licensed under CC BY-SA 2.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File%3ARyszard_Bugajski.jpg
+  source_name: Wikimedia Commons
+  original_source: https://www.flickr.com/photos/96799800@N07/14323625936/
+- id: people-simon-kinberg
+  src: /media/images/people/simon-kinberg.webp
+  small: /media/images/people/simon-kinberg-320.webp
+  width: 640
+  height: 854
+  records:
+    - people/simon-kinberg
+  role: portrait
+  title: Simon Kinberg at the Berlinale (2017)
+  alt: Simon Kinberg in a dark jacket, looking to one side at a press conference microphone
+  date: "2017"
+  creator: Maximilian Bühn
+  license: CC BY-SA 4.0
+  license_reason: Licensed under CC BY-SA 4.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File%3ASimon_Kinberg_Press_Conference_Logan_Berlinale_2017_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: people-stuart-rosenberg
+  src: /media/images/people/stuart-rosenberg.webp
+  small: /media/images/people/stuart-rosenberg-320.webp
+  width: 640
+  height: 819
+  records:
+    - people/stuart-rosenberg
+  role: portrait
+  title: Stuart Rosenberg filming Voyage of the Damned in Barcelona harbour (1975)
+  alt: Stuart Rosenberg, with a thick moustache, pointing forward on a crowded street
+  date: "1975"
+  creator: Anefo (photographer not named)
+  license: CC0
+  license_reason: Creative Commons Zero, Public Domain Dedication
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AStuart_Rosenberg_%281975%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Nationaal Archief, Anefo photo collection
 - id: people-susan-harrison
   src: /media/images/people/susan-harrison.webp
   small: /media/images/people/susan-harrison-320.webp
@@ -2176,6 +2616,23 @@
   source_url: https://commons.wikimedia.org/wiki/File:Vera_Miles_The_Twilight_Zone_1960_(headshot).JPG
   source_name: Wikimedia Commons
   original_source: eBay item photo front photo back
+- id: people-vic-morrow
+  src: /media/images/people/vic-morrow.webp
+  small: /media/images/people/vic-morrow-320.webp
+  width: 640
+  height: 461
+  records:
+    - people/vic-morrow
+  role: publicity
+  title: Arthur Hill and guest star Vic Morrow in Owen Marshall, Counselor at Law (1971)
+  alt: Arthur Hill and Vic Morrow, both in suits, seated side by side at a table in conversation
+  date: "1971"
+  creator: ABC Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3AArthur_Hill_Vic_Morrow_Owen_Marshall_1971.jpg
+  source_name: Wikimedia Commons
+  original_source: Original press photograph, front and back scanned (sold on eBay)
 - id: people-wes-craven
   src: /media/images/people/wes-craven.webp
   small: /media/images/people/wes-craven-320.webp
@@ -2209,6 +2666,23 @@
   source_url: https://commons.wikimedia.org/wiki/File:William_Schallert_The_Twilight_Zone_(cropped).jpg
   source_name: Wikimedia Commons
   original_source: eBay front back
+- id: people-william-shatner
+  src: /media/images/people/william-shatner.webp
+  small: /media/images/people/william-shatner-320.webp
+  width: 640
+  height: 428
+  records:
+    - people/william-shatner
+  role: portrait
+  title: William Shatner interviewed on Live from Hollywood
+  alt: William Shatner in headphones, seated at a table of radio equipment, being interviewed by a host across the table
+  creator: Louise Palanker from Los Angeles/Santa Barbara, USA
+  license: CC BY-SA 2.0
+  license_reason: Licensed under CC BY-SA 2.0 by the copyright holder.
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File%3AWilliam_Shatner_on_Live_from_Hollywood_%2826195613827%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Flickr, Louise Palanker
 - id: works-twilight-zone-trial-1986-1987
   src: /media/images/works/twilight-zone-trial-1986-1987.webp
   small: /media/images/works/twilight-zone-trial-1986-1987-320.webp

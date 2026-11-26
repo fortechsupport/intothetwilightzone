@@ -3,6 +3,18 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — Nightly photos: 27 more portraits
+
+Visitors can now:
+- See a credited photograph on 27 more people's pages, among them Agnes Moorehead, Burgess Meredith, Jack Klugman,
+  Cliff Robertson, Inger Stevens, Anne Francis, Martin Landau, Richard Matheson, George Clayton Johnson, Jonathan
+  Winters, Robert Duvall and William Shatner, plus a second picture of Bill Mumy as an adult. Each names its
+  photographer, its license and where it came from, and is listed on the picture credits page.
+
+**Known not to work yet:**
+- 58 checked pictures are still waiting; the nightly run adds the next batch, as Wikimedia allows only a few
+  downloads an hour.
+
 ## 2026-11-26 — Cycle 10: printing and home-screen icons
 
 Visitors can now:
