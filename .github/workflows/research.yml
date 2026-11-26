@@ -1,0 +1,37 @@
+name: Research lookups
+
+# Runs one read-only lookup script from scripts/research/ on demand, where the network is open (cloud sessions can
+# reach only a few hosts). The script's output is in the log and in the run's "research-output" artifact; a person
+# checks it before anything goes into the records. Nothing is committed by this job.
+on:
+  workflow_dispatch:
+    inputs:
+      script:
+        description: 'Script file name in scripts/research/ (for example isfdb-story-dates.mjs)'
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Run the lookup
+        env:
+          SCRIPT: ${{ inputs.script }}
+        run: |
+          case "$SCRIPT" in *[!A-Za-z0-9._-]*|'') echo "Bad script name"; exit 1;; esac
+          node "scripts/research/$SCRIPT" | tee research-output.jsonl
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: research-output
+          path: research-output.jsonl
