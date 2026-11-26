@@ -3,22 +3,22 @@ kind: collectible
 year: 1980
 creator: Marius Constant
 description: >-
-  Piano and other arrangements of Constant's theme have been published since a 1980 registered edition; current
-  digital editions are sold by Musicnotes.
+  Piano and other arrangements of Constant's theme have been published since a 1980 registered edition;
+  digital editions have been sold by Musicnotes (its artist page, now removed, is linked as archived in 2010).
 subtype: sheet-music
 details:
   licensed: true
 relevance: core
 research_confidence: medium
 sources:
-- title: Musicnotes – Marius Constant sheet music
-  url: https://www.musicnotes.com/SheetMusic/Index/artists/Constant-Marius/default.asp
+- title: Musicnotes – Marius Constant sheet music (archived 2010)
+  url: https://web.archive.org/web/20100809130230/http://www.musicnotes.com:80/sheetmusic/index/artists/Constant-Marius/default.asp
 - title: ClassicThemes – The Twilight Zone theme history
   url: https://classicthemes.com/50sTVThemes/themePages/twilightZone.html
 media:
 - type: link
-  title: Musicnotes – Marius Constant sheet music
-  url: https://www.musicnotes.com/SheetMusic/Index/artists/Constant-Marius/default.asp
+  title: Musicnotes – Marius Constant sheet music (archived 2010)
+  url: https://web.archive.org/web/20100809130230/http://www.musicnotes.com:80/sheetmusic/index/artists/Constant-Marius/default.asp
   host: Musicnotes (publisher-licensed)
   rights: link-only
   subtype: listing

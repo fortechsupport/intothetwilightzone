@@ -50,6 +50,13 @@ const seconds = (s) => {
   return parts.reduce((t, n) => t * 60 + n, 0) || undefined;
 };
 
+/** Some feeds glue their site's address in front of a full link ("http://a.com/https://a.com/x"); keep the last full URL. */
+export const cleanLink = (u) => {
+  if (!u) return u;
+  const i = u.lastIndexOf('http', u.length);
+  return i > 0 && /^https?:\/\//.test(u.slice(i)) ? u.slice(i) : u;
+};
+
 export function parseFeed(xml) {
   const channel = xml.split(/<item[\s>]/i)[0];
   const items = [...xml.matchAll(/<item[\s>][\s\S]*?<\/item>/gi)].map((m) => m[0]);
@@ -64,7 +71,7 @@ export function parseFeed(xml) {
       season: Number(tag(it, 'itunes:season')) || undefined,
       number: Number(tag(it, 'itunes:episode')) || undefined,
       // The episode's own page; the enclosure (audio file) is only a fallback, so a row always links somewhere.
-      url: tag(it, 'link') || attr(it, 'enclosure', 'url'),
+      url: cleanLink(tag(it, 'link')) || attr(it, 'enclosure', 'url'),
       guid: tag(it, 'guid') || tag(it, 'link') || `${tag(it, 'title')}|${tag(it, 'pubDate')}`,
     })),
   };
