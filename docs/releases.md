@@ -3,6 +3,18 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — Cycle 10: printing and home-screen icons
+
+Visitors can now:
+- Print any page, or save it as a PDF, and get dark text on light paper whatever theme they read in (the dark and era
+  themes used to print pale text that almost vanished on white paper). Facts tables and pictures no longer split
+  across pages.
+- Add the site to an iPhone or iPad home screen and see its own icon, and see the icon in browsers that can't show
+  the drawn one.
+
+**Known not to work yet:**
+- Nothing new.
+
 ## 2026-11-26 — A "Support hosting" page, and a weekly check for dead links
 
 Visitors can now:

@@ -529,8 +529,8 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
 /* ---------- 11. Print ---------- */
 @media print {
   .site-header, .site-footer, .preview-banner, .record-actions, .track, .fan-ctas, body::before, body::after { display: none !important; }
-  body { background: #fff; color: #000; }
-  a { color: #000; }
+  a { color: var(--text); }
+  .record-head, .tz-figure, .card, dl.facts > div { break-inside: avoid; }
 }
 
 /* Form controls never push the page sideways on narrow screens. */

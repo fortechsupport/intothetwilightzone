@@ -54,7 +54,14 @@ ${Object.entries(eras).map(([name, th]) => `/* ${th.label} */
 ${themeVars(th)}
   color-scheme: ${th.scheme ?? 'dark'};
 }
-`).join('')}`;
+`).join('')}/* Printing always uses Paper, whatever theme is on screen: light text on white paper would vanish. */
+@media print {
+  :root, :root[data-theme] {
+${themeVars(light).replace(/^/gm, '  ')}
+    color-scheme: light;
+  }
+}
+`;
 const out = path.join(root, 'public/tokens.css');
 if (process.argv.includes('--check')) {
   if (!fs.existsSync(out) || fs.readFileSync(out, 'utf8') !== css) { console.log('✗ public/tokens.css is out of date: run npm run tokens'); bad++; }
