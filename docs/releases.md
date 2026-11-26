@@ -3,16 +3,17 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
-## 2026-11-26 — Era themes retuned
+## 2026-11-26 — Five era themes
 
 Visitors can now:
-- Choose 1985 Glow: warm amber light with electric blue and violet, a soft haze and a storybook serif.
-- Choose 2019 Gloss: glossy teal and orange with a wide, clean face and titles like a stark title card.
-- See the 1959 Original theme with the shadow of venetian blinds in one corner and fog low on the page, and the 2002
-  Steel theme drained and cold, with photographs nearly colourless.
+- Pick one of five themes, each drawn from the key art of its era: 1959 series (black and white with rings receding
+  into the dark), 1983 movie (a starry night sky over a dusk horizon), 1985 series (violet dark, stars, chalk-white
+  titles), 2002 series (deep blue light and gold capitals) and 2019 series (a pale sky, black type and green grass).
+- See the 1959 series by default. The 2019 series is the light theme.
 
 **Known not to work yet:**
-- Nothing known. A visitor who chose 1985 Neon or 2019 Crimson keeps their choice, now under the new names.
+- The site no longer follows a device's light or dark setting. A visitor who had chosen Midnight or Paper now sees
+  the 1959 series until they pick another; one who chose an era theme keeps it under its new name.
 
 ## 2026-11-26 — Play on this site, Collect's shelves, Art and design
 

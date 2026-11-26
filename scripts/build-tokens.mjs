@@ -14,7 +14,7 @@ const lum = (c) => { const [r, g, b] = c.map((v) => (v <= 0.03928 ? v / 12.92 : 
 const ratio = (a, b) => { const [x, y] = [lum(a), lum(b)].sort((p, q) => q - p); return (x + 0.05) / (y + 0.05); };
 
 let bad = 0;
-for (const [name, theme] of Object.entries(t.themes)) {
+for (const [name, theme] of [...Object.entries(t.themes), ['print', t.print]]) {
   for (const [kind, min] of [['text', 4.5], ['ui', 3]]) {
     for (const [fg, bg] of t.contrast[kind]) {
       const a = hex(theme.color[fg]), b = hex(theme.color[bg]);
@@ -28,7 +28,9 @@ for (const [name, theme] of Object.entries(t.themes)) {
 const vars = (obj, prefix) => Object.entries(obj).map(([k, v]) => `  --${prefix}${k}: ${v};`).join('\n');
 // A theme's colors plus its type: display face, its weight, tracking and scale, and the accent face for kickers.
 const themeVars = (th) => `${vars(th.color, '')}\n${vars(th.font ?? {}, 'theme-')}`;
-const { midnight: dark, paper: light, ...eras } = t.themes;
+const def = t.themes[t.default];
+// The default theme (the 1959 series) is the page's own colors; each theme, the default included, also answers to
+// its key so the Theme menu can choose it. Nothing follows the device's light or dark setting (decision 0014).
 const css = `/* Generated from design/tokens.json by scripts/build-tokens.mjs. Do not edit by hand. */
 :root {
 ${vars(t.font, 'font-')}
@@ -36,28 +38,18 @@ ${vars(t.size, '')}
 ${vars(t.space, 'space-')}
 ${vars(t.radius, 'radius-')}
 ${vars(t.layout, 'layout-')}
-${themeVars(dark)}
-  color-scheme: dark;
+${themeVars(def)}
+  color-scheme: ${def.scheme};
 }
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme]) {
-${themeVars(light).replace(/^/gm, '  ')}
-    color-scheme: light;
-  }
-}
-:root[data-theme="paper"] {
-${themeVars(light)}
-  color-scheme: light;
-}
-${Object.entries(eras).map(([name, th]) => `/* ${th.label} */
+${Object.entries(t.themes).map(([name, th]) => `/* ${th.label} */
 :root[data-theme="${name}"] {
 ${themeVars(th)}
-  color-scheme: ${th.scheme ?? 'dark'};
+  color-scheme: ${th.scheme};
 }
-`).join('')}/* Printing always uses Paper, whatever theme is on screen: light text on white paper would vanish. */
+`).join('')}/* ${t.print.label} (light text on white paper would vanish). */
 @media print {
   :root, :root[data-theme] {
-${themeVars(light).replace(/^/gm, '  ')}
+${themeVars(t.print).replace(/^/gm, '  ')}
     color-scheme: light;
   }
 }
@@ -66,5 +58,5 @@ const out = path.join(root, 'public/tokens.css');
 if (process.argv.includes('--check')) {
   if (!fs.existsSync(out) || fs.readFileSync(out, 'utf8') !== css) { console.log('✗ public/tokens.css is out of date: run npm run tokens'); bad++; }
 } else fs.writeFileSync(out, css);
-console.log(bad ? `${bad} token findings.` : `✓ Tokens: every text pair meets 4.5:1 and every UI pair 3:1 in all ${Object.keys(t.themes).length} themes.`);
+console.log(bad ? `${bad} token findings.` : `✓ Tokens: every text pair meets 4.5:1 and every UI pair 3:1 in all ${Object.keys(t.themes).length} themes and in print.`);
 process.exit(bad ? 1 : 0);

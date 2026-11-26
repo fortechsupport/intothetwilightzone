@@ -1,7 +1,8 @@
 # 0010 Era themes and motion
 
-*Updated by decision 0014 (2026-11-26): 1985 Neon became 1985 Glow, 2019 Crimson became 2019 Gloss, and 1959 and 2002
-gained textures from Adam's era breakdown.*
+*Updated by decision 0014 (2026-11-26): the house themes (Your device, Midnight, Paper) are gone. There are five
+themes, one per era (1959 series, 1983 movie, 1985 series, 2002 series, 2019 series), each drawn from its era's key
+art, with the 1959 series the default. The limits below still hold.*
 
 **Date:** 2026-11-25. **Decided by:** Adam asked for "themes that appear like the aesthetic of the original
 series in addition to the aesthetics of each revival series" and "animated effects to improve user

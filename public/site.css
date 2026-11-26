@@ -6,16 +6,15 @@
 
 /* ---------- 1. Fonts and base ---------- */
 @font-face { font-family: 'Jost'; src: url('/fonts/jost-latin-wght-normal.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
-@font-face { font-family: 'DM Serif Display'; src: url('/fonts/dm-serif-display-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
-/* Local fallbacks sized to match Jost and DM Serif Display, so text doesn't reflow (and the page doesn't jump) when
+@font-face { font-family: 'IM Fell English'; src: url('/fonts/im-fell-english-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+/* Local fallbacks sized to match Jost and IM Fell English, so text doesn't reflow (and the page doesn't jump) when
    the web fonts arrive. Measured against Arial and Times New Roman (Liberation Sans and Serif share their metrics). */
 @font-face { font-family: 'Jost Fallback'; src: local('Arial'), local('Liberation Sans'), local('Helvetica'); size-adjust: 95.03%; ascent-override: 112.6%; descent-override: 40%; line-gap-override: 0%; }
-@font-face { font-family: 'DM Serif Display Fallback'; src: local('Times New Roman'), local('Liberation Serif'), local('Times'); size-adjust: 108.62%; ascent-override: 95.7%; descent-override: 31.3%; line-gap-override: 0%; }
+@font-face { font-family: 'IM Fell English Fallback'; src: local('Times New Roman'), local('Liberation Serif'), local('Times'); size-adjust: 104.09%; ascent-override: 87.4%; descent-override: 34.6%; line-gap-override: 0%; }
 @font-face { font-family: 'Courier Prime'; src: url('/fonts/courier-prime-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
-/* Era themes' display faces (SIL Open Font License); a browser downloads one only when its theme is chosen. */
-@font-face { font-family: 'Michroma'; src: url('/fonts/michroma-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Oswald'; src: url('/fonts/oswald-latin-500-normal.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Fraunces'; src: url('/fonts/fraunces-latin-700-normal.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+/* The 1985 and 2002 themes' display faces (SIL Open Font License); a browser downloads one only when its theme is chosen. */
+@font-face { font-family: 'Cabin Sketch'; src: url('/fonts/cabin-sketch-latin-700-normal.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Cinzel'; src: url('/fonts/cinzel-latin-700-normal.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
 
 :root {
   /* Names other stylesheets (fan.css, account.css) rely on. */
@@ -23,9 +22,9 @@
   --accent: var(--brass);
   --accent-2: var(--brass);
   --serif: var(--font-display);
-  /* Each theme picks its display face (design/tokens.json, "font"); the brand name keeps the house face. */
+  /* Each theme picks its display face (design/tokens.json, "font"); the brand name keeps the 1959 face in every theme. */
   --font-display: var(--theme-display);
-  --font-brand: 'DM Serif Display', 'Iowan Old Style', Georgia, serif;
+  --font-brand: 'IM Fell English', 'IM Fell English Fallback', 'Iowan Old Style', Georgia, serif;
   --mono: var(--font-mono);
   --radius: var(--radius-md);
 }
@@ -47,8 +46,9 @@ body::before {
   content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 100; opacity: .035;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
-@media (prefers-color-scheme: light) { :root:not([data-theme]) body::before { opacity: .05; } }
-:root[data-theme="paper"] body::before { opacity: .05; }
+/* The 1959 series has more of it; the light 2019 series needs a little more to show at all. */
+:root:not([data-theme]) body::before, :root[data-theme="1959"] body::before { opacity: .07; inset: -5%; }
+:root[data-theme="2019"] body::before { opacity: .05; }
 img, video { max-width: 100%; height: auto; }
 a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 3px; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); }
 a:hover { color: var(--link-hover); text-decoration-color: currentColor; }
@@ -484,49 +484,74 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
   background-position: calc(100% - 13px) 55%, calc(100% - 9px) 55%; background-size: 4px 4px; background-repeat: no-repeat; }
 .theme-pick select:hover { border-color: var(--brass); }
 
-/* Original (1959): black and white, film grain, a soft vignette, typewriter kickers, photographs in grey, and (Adam's era
-   breakdown, 2026-11-26) the shadow of venetian blinds across one corner and fog low on the horizon. */
-:root[data-theme="original"] body::after { content: ''; position: fixed; inset: -50%; z-index: 9999; pointer-events: none; opacity: .07;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
-:root[data-theme="original"] body { background-image: radial-gradient(ellipse at 50% 0%, var(--surface-2) 0%, var(--bg) 65%); background-attachment: fixed; }
-:root[data-theme="original"] body::before { content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+/* The five themes (decision 0014), each drawn from the key art of its era that Adam chose, 2026-11-26: the palette, the
+   kind of type, the texture and the light. Never the art itself, a logo or a title design. Every texture sits behind
+   the content (z-index -1) and the contrast test runs on the plain colors under it.
+   Stars are dots drawn with gradients in the theme's --star color, in a 280 px tile. */
+:root { --tz-stars: radial-gradient(2px 2px at 4px 21px, var(--star) 50%, transparent 51%), radial-gradient(2px 2px at 13px 147px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 160px 272px, var(--star) 50%, transparent 51%), radial-gradient(2.5px 2.5px at 210px 96px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 256px 237px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 119px 258px, var(--star) 50%, transparent 51%), radial-gradient(2px 2px at 167px 115px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 96px 63px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 64px 167px, var(--star) 50%, transparent 51%), radial-gradient(2px 2px at 125px 175px, var(--star) 50%, transparent 51%), radial-gradient(2px 2px at 204px 270px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 255px 225px, var(--star) 50%, transparent 51%), radial-gradient(2px 2px at 138px 122px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 246px 50px, var(--star) 50%, transparent 51%), radial-gradient(2.5px 2.5px at 91px 193px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 211px 260px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 163px 249px, var(--star) 50%, transparent 51%), radial-gradient(2.5px 2.5px at 215px 74px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 217px 248px, var(--star) 50%, transparent 51%), radial-gradient(2px 2px at 150px 200px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 63px 144px, var(--star) 50%, transparent 51%), radial-gradient(1.5px 1.5px at 245px 197px, var(--star) 50%, transparent 51%); }
+
+/* 1959 series (the default): black and white. Concentric rings recede into the dark behind the top of the page, as on
+   the series' key art; film grain; silver type in an old-style face; typewriter kickers; photographs in grey. */
+:root:is(:not([data-theme]), [data-theme="1959"]) body { background-image: radial-gradient(ellipse at 50% 0%, var(--surface-3) 0%, var(--bg) 70%); background-attachment: fixed; }
+:root:is(:not([data-theme]), [data-theme="1959"]) body::after { content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .5;
+  background: repeating-radial-gradient(circle at 50% 18%, var(--glow-2) 0 34px, transparent 34px 72px);
+  -webkit-mask: radial-gradient(circle at 50% 18%, var(--text) 0, transparent 62%); mask: radial-gradient(circle at 50% 18%, var(--text) 0, transparent 62%); }
+:root:is(:not([data-theme]), [data-theme="1959"]) img:not(.leaflet-tile) { filter: grayscale(1) contrast(1.08); }
+:root:is(:not([data-theme]), [data-theme="1959"]) .kicker, :root:is(:not([data-theme]), [data-theme="1959"]) .eyebrow { letter-spacing: .08em; font-weight: 400; }
+:root:is(:not([data-theme]), [data-theme="1959"]) main h1 { text-shadow: 0 2px 18px var(--bg); }
+
+/* 1983 movie: a deep night sky full of stars over a dusk glow on the horizon (rose into violet) with dark hills against
+   it; titles in silver with a faint warm halo; credits-style kickers in spaced capitals. */
+:root[data-theme="1983"] body { background-image: linear-gradient(to bottom, var(--bg) 0%, var(--surface) 70%, var(--surface-2) 100%); background-attachment: fixed; }
+:root[data-theme="1983"] body::after { content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none;
   background:
-    radial-gradient(ellipse at 50% 115%, color-mix(in srgb, var(--text) 9%, transparent), transparent 55%),
-    repeating-linear-gradient(-28deg, color-mix(in srgb, var(--bg) 55%, transparent) 0 26px, transparent 26px 58px);
-  -webkit-mask: radial-gradient(ellipse at 100% 0%, var(--text) 0, transparent 55%), radial-gradient(ellipse at 50% 120%, var(--text) 0, transparent 60%);
-  mask: radial-gradient(ellipse at 100% 0%, var(--text) 0, transparent 55%), radial-gradient(ellipse at 50% 120%, var(--text) 0, transparent 60%); opacity: .55; }
-:root[data-theme="original"] img:not(.leaflet-tile) { filter: grayscale(1) contrast(1.06); }
-:root[data-theme="original"] .kicker, :root[data-theme="original"] .eyebrow { letter-spacing: .08em; font-weight: 400; }
-:root[data-theme="original"] .hero h1 em { color: var(--text-soft); }
+    radial-gradient(ellipse 38% 100% at 22% 100%, var(--bg) 98%, transparent 100%) bottom / 100% 7vh no-repeat,
+    radial-gradient(ellipse 46% 70% at 74% 100%, var(--bg) 98%, transparent 100%) bottom / 100% 7vh no-repeat,
+    linear-gradient(to top, color-mix(in srgb, var(--brass) 30%, transparent) 0, color-mix(in srgb, var(--glow) 28%, transparent) 9vh, color-mix(in srgb, var(--glow-2) 24%, transparent) 20vh, color-mix(in srgb, var(--link) 8%, transparent) 34vh, transparent 50vh) bottom / 100% 50vh no-repeat,
+    var(--tz-stars); background-size: 100% 7vh, 100% 7vh, 100% 50vh, 280px 280px; opacity: .8; }
+:root[data-theme="1983"] main h1 { color: var(--text); text-shadow: 0 0 24px color-mix(in srgb, var(--glow) 40%, transparent); }
+:root[data-theme="1983"] .kicker, :root[data-theme="1983"] .eyebrow { letter-spacing: .2em; }
+:root[data-theme="1983"] .card:hover { box-shadow: 0 0 0 1px var(--brass), 0 10px 30px color-mix(in srgb, var(--glow) 18%, transparent); }
 
-/* Glow (1985, theme key "neon"): warm domestic amber under soft diffused light, with electric blue and violet
-   for the uncanny (Adam's era breakdown, 2026-11-26). A soft storybook serif, a gentle bloom on titles, a haze. */
-:root[data-theme="neon"] body { background-image: radial-gradient(ellipse at 30% -10%, color-mix(in srgb, var(--brass) 18%, transparent), transparent 60%), radial-gradient(ellipse at 100% 100%, color-mix(in srgb, var(--unofficial) 12%, transparent), transparent 55%), radial-gradient(ellipse at 0% 100%, color-mix(in srgb, var(--link) 8%, transparent), transparent 45%); background-attachment: fixed; }
-:root[data-theme="neon"] body::after { content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none;
-  background: radial-gradient(ellipse at 50% 40%, transparent 55%, color-mix(in srgb, var(--brass) 7%, transparent) 100%); }
-:root[data-theme="neon"] :is(h1, .hero h1 em, .card .count) { text-shadow: 0 0 22px color-mix(in srgb, var(--brass) 35%, transparent); }
-:root[data-theme="neon"] .card:hover { box-shadow: 0 0 0 1px var(--link), 0 0 28px color-mix(in srgb, var(--link) 28%, transparent); }
+/* 1985 series: violet dark like a bare room at night, stars drifting, a white light glowing through from above, and
+   rough chalk-white lettering for titles. */
+:root[data-theme="1985"] body { background-image:
+    radial-gradient(ellipse 55% 38% at 50% -6%, color-mix(in srgb, var(--star) 26%, transparent), transparent 70%),
+    radial-gradient(ellipse 60% 70% at 50% 45%, color-mix(in srgb, var(--glow) 13%, transparent), transparent 70%),
+    linear-gradient(to right, color-mix(in srgb, var(--glow-2) 55%, transparent), transparent 18%, transparent 82%, color-mix(in srgb, var(--glow-2) 55%, transparent));
+  background-attachment: fixed; }
+:root[data-theme="1985"] body::after { content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .55; background: var(--tz-stars); background-size: 280px 280px; }
+:root[data-theme="1985"] main h1 { color: var(--text); text-shadow: 0 0 20px color-mix(in srgb, var(--glow) 55%, transparent); }
+:root[data-theme="1985"] .kicker, :root[data-theme="1985"] .eyebrow { letter-spacing: .22em; }
+:root[data-theme="1985"] .card:hover { box-shadow: 0 0 0 1px var(--link), 0 0 28px color-mix(in srgb, var(--glow) 30%, transparent); }
 
-/* Steel (2002): drained flesh tones, overcast grey, cold blue moonlight and a hard fluorescent cast from above; a
-   condensed face. Photographs lose most of their colour. */
-:root[data-theme="steel"] body { background-image: linear-gradient(to bottom, color-mix(in srgb, var(--brass) 9%, transparent), transparent 380px), radial-gradient(ellipse at 100% 100%, color-mix(in srgb, var(--link) 9%, transparent), transparent 55%); background-repeat: no-repeat; background-attachment: fixed; }
-:root[data-theme="steel"] img:not(.leaflet-tile) { filter: saturate(.45) contrast(1.08) brightness(.96); }
-:root[data-theme="steel"] .kicker, :root[data-theme="steel"] .eyebrow { letter-spacing: .22em; }
-:root[data-theme="steel"] .card:hover { box-shadow: 0 0 0 1px var(--brass), 0 10px 30px color-mix(in srgb, var(--brass) 14%, transparent); }
+/* 2002 series: deep electric blue, a cold light breaking through the middle, faint orbits and ruled lines like a
+   scientist's chalkboard, and titles in gold engraved capitals. Photographs turn a little cold. */
+:root[data-theme="2002"] body { background-image:
+    radial-gradient(ellipse 45% 40% at 50% 30%, color-mix(in srgb, var(--glow) 24%, transparent), transparent 70%),
+    radial-gradient(ellipse at 50% 120%, color-mix(in srgb, var(--glow-2) 70%, transparent), transparent 60%);
+  background-attachment: fixed; }
+:root[data-theme="2002"] body::after { content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .22;
+  background:
+    repeating-radial-gradient(ellipse 160% 60% at 30% 20%, transparent 0 88px, var(--star) 88px 89px, transparent 89px 140px),
+    repeating-linear-gradient(0deg, transparent 0 63px, color-mix(in srgb, var(--star) 40%, transparent) 63px 64px);
+  -webkit-mask: radial-gradient(ellipse at 50% 30%, var(--text) 0, transparent 70%); mask: radial-gradient(ellipse at 50% 30%, var(--text) 0, transparent 70%); }
+:root[data-theme="2002"] { --step-5: clamp(1.9rem, 1.3rem + 2.8vw, 3.2rem); --step-4: clamp(1.6rem, 1.25rem + 1.8vw, 2.3rem); --step-3: clamp(1.3rem, 1.1rem + 1vw, 1.65rem); }
+:root[data-theme="2002"] main h1 { color: var(--brass); text-shadow: 0 2px 0 color-mix(in srgb, var(--bg) 80%, transparent), 0 0 26px color-mix(in srgb, var(--glow) 40%, transparent); }
+:root[data-theme="2002"] img:not(.leaflet-tile) { filter: saturate(.7) contrast(1.06); }
+:root[data-theme="2002"] .kicker, :root[data-theme="2002"] .eyebrow { letter-spacing: .2em; }
+:root[data-theme="2002"] .card:hover { box-shadow: 0 0 0 1px var(--link), 0 10px 30px color-mix(in srgb, var(--glow) 26%, transparent); }
 
-/* Gloss (2019, theme key "crimson"): glossy, saturated teal and orange, a wide clean face, symmetry, and page
-   titles set like a stark black-and-white title card. A faint spiral turns behind the home page's title. */
-:root[data-theme="crimson"] { --step-5: clamp(1.9rem, 1.3rem + 3.1vw, 3.3rem); --step-4: clamp(1.6rem, 1.25rem + 1.9vw, 2.3rem); --step-3: clamp(1.3rem, 1.1rem + 1vw, 1.65rem); }
-:root[data-theme="crimson"] body { background-image: radial-gradient(ellipse at 50% -15%, color-mix(in srgb, var(--link) 16%, transparent), transparent 55%), radial-gradient(ellipse at 50% 120%, color-mix(in srgb, var(--brass) 14%, transparent), transparent 55%); background-attachment: fixed; }
-:root[data-theme="crimson"] main h1 { color: var(--text); text-shadow: none; }
-:root[data-theme="crimson"] main h1::after { content: ''; display: block; width: 96px; height: 2px; margin-top: 14px; background: linear-gradient(to right, var(--link), var(--brass)); }
-:root[data-theme="crimson"] .hero h1::after { display: none; }
-:root[data-theme="crimson"] .hero { position: relative; isolation: isolate; }
-:root[data-theme="crimson"] .hero::before { content: ''; position: absolute; inset: -20% -10%; z-index: -1; pointer-events: none; opacity: .07;
-  background: repeating-conic-gradient(from 0deg at 50% 50%, var(--text) 0deg 6deg, transparent 6deg 30deg);
-  -webkit-mask: radial-gradient(circle at 50% 50%, var(--text) 0, transparent 60%); mask: radial-gradient(circle at 50% 50%, var(--text) 0, transparent 60%); }
-:root[data-theme="crimson"] .card { box-shadow: inset 0 1px 0 color-mix(in srgb, var(--text) 8%, transparent); }
-:root[data-theme="crimson"] .card:hover { box-shadow: 0 0 0 1px var(--brass), 0 12px 32px color-mix(in srgb, var(--brass) 18%, transparent); }
+/* 2019 series: the one light theme. A pale overcast sky, black old-style titles, green grass along the horizon at the
+   foot of the page, and a doorway of stars: cards open onto the night sky's color when pointed at. */
+:root[data-theme="2019"] body { background-image: linear-gradient(to bottom, var(--glow) 0%, var(--bg) 40%, var(--surface-2) 100%); background-attachment: fixed; }
+:root[data-theme="2019"] .site-footer { position: relative; }
+:root[data-theme="2019"] .site-footer::before { content: ''; position: absolute; left: 0; right: 0; top: -22px; height: 22px; pointer-events: none;
+  background: linear-gradient(to bottom, transparent, color-mix(in srgb, var(--glow-2) 55%, transparent) 60%, var(--glow-2)); }
+:root[data-theme="2019"] main h1 { color: var(--text); }
+:root[data-theme="2019"] { --door-1: var(--link); --door-2: var(--text); }
+:root[data-theme="2019"] .card { box-shadow: 0 1px 2px color-mix(in srgb, var(--text) 8%, transparent); }
+:root[data-theme="2019"] .card:hover { box-shadow: 0 0 0 1px var(--link), 0 12px 28px color-mix(in srgb, var(--link) 18%, transparent); }
 
 /* Motion: page-to-page cross-fade, cards that lift, menus that unfold, colors that ease between themes. */
 @media (prefers-reduced-motion: no-preference) {
@@ -538,7 +563,7 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
   @keyframes tz-unfold { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
   body { transition: background-color .3s ease, color .3s ease; }
   /* The grain flickers for a few seconds after each page opens, then holds still (WCAG 2.2.2). */
-  :root[data-theme="original"] body::after { animation: tz-grain .8s steps(4) 6; }
+  :root:is(:not([data-theme]), [data-theme="1959"]) body::before { animation: tz-grain .8s steps(4) 6; }
   @keyframes tz-grain { 0% { transform: translate(0, 0); } 25% { transform: translate(-3%, 2%); } 50% { transform: translate(2%, -3%); } 75% { transform: translate(-2%, -1%); } 100% { transform: translate(0, 0); } }
   .tz-figure-img img { transition: transform .4s ease; }
   .tz-art-rings ellipse:nth-child(2) { animation: tz-turn-slow 120s linear infinite; transform-origin: 150px 100px; }

@@ -14,7 +14,19 @@ pictures describing each era's look (lighting, colour, camera), which bear on th
    docs (INFORMATION_ARCHITECTURE.md, decision 0011, release note).
 2. **Link badges** (after Adam picks an option): icons beside external links.
 3. **Play and Collect** (after Adam answers): whichever of the suggestions he takes.
-4. **Era themes retuned** (screenshots to Adam first): palettes and textures matched to his era breakdown.
+4. **Era themes retuned** (screenshots to Adam first): palettes and textures matched to his era breakdown. Then, after
+   seeing them (15:38 UTC), Adam asked for five themes only (1959 series, 1983 movie, 1985 series, 2002 series, 2019
+   series), each closer to the key art he attached, with Your device, Midnight and Paper removed (decision 0014).
+
+## Acceptance checks for step 4
+
+- [x] The Theme menu lists exactly 1959 series, 1983 movie, 1985 series, 2002 series, 2019 series; 1959 is the default.
+- [x] Each theme's palette, type and texture follows its poster (screenshots beside each poster in
+  /mnt/project-files/site-cycles/era-themes-five-2026-11-26/).
+- [x] A choice saved under an old theme name moves to its era; Midnight or Paper falls back to 1959.
+- [x] `npm run tokens -- --check`: every pair passes in all five themes and in print.
+- [x] `npm run check:a11y`: no findings (every sample page in 1959 and 2019, a sample in 1983, 1985 and 2002, 320 px in all).
+- [x] `npm run build`, `build:preview` and `check:site` pass.
 
 ## Acceptance checks for step 1
 
@@ -74,13 +86,14 @@ texture only, no logos or title designs). Screenshots to Adam before merging.
 - Link icons (step 2, Adam chose option A at 12:48 UTC): which hosts belong to each kind (src/lib/link-kinds.mjs);
   icons only in link lists, not in running text; a legend on Sources and policy.
 
+- Five themes (step 4, decision 0014): menu in order of release, so 1983 movie sits second; 1959 the default for
+  everyone; a stored Midnight or Paper choice falls back to 1959; fonts IM Fell English, Cabin Sketch and Cinzel.
 - Play and Collect (step 3, decision 0013): Art and design placed after History in Discover; Merchandise's
   shelves kept as they are rather than merged; the quiz uses credits and air years only.
 
 ## Waiting on Adam
 
-- Nothing: Adam approved Play, Collect and the era themes ("yes, yes, yes", 13:34 UTC). Era themes go to him as
-  screenshots before merging.
+- His look at the five themes (screenshots sent 2026-11-26) before PR #117 merges.
 
 ## Found, for later
 

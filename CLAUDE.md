@@ -61,17 +61,18 @@ to every change, by every person or Claude thread. They come from how Adam's Sey
 | `npm run tokens -- --check` | Every text color pair meets 4.5:1 contrast and every control border 3:1, in every theme |
 | `npm run build` and `npm run build:preview` | The schema accepts every record (public and preview modes) |
 | `npm run check:site` | External links open in a new tab and internal ones do not; no broken internal links, no duplicate page titles, one h1 and a description per page, headings that never skip a level, no repeated roles, no page over 1.5 MB (300 KB is the target) |
-| `npm run check:a11y` | axe-core finds no WCAG 2.2 AA violations on one page of every type, dark and light, and on a sample in each era theme; at 320 x 640 nothing scrolls sideways or runs past the right edge and the h1 starts in the top third, also with wider text spacing on a sample; on a slow phone connection no sample page shifts its layout by more than 0.1 |
+| `npm run check:a11y` | axe-core finds no WCAG 2.2 AA violations on one page of every type in the 1959 and 2019 themes, and on a sample in the other three; at 320 x 640 nothing scrolls sideways or runs past the right edge and the h1 starts in the top third, also with wider text spacing on a sample; on a slow phone connection no sample page shifts its layout by more than 0.1 |
 
 ## Design system
 
 - Colors, type, spacing and radii live in `design/tokens.json`; `npm run tokens` writes `public/tokens.css`.
   Never write a raw color in a stylesheet or template: add a token.
-- Themes: Midnight (dark, default) and Paper (light), chosen by the visitor's system, plus four era themes in the
-  header's Theme menu: 1959 Original, 1985 Glow, 2002 Steel, 2019 Gloss (decisions 0010 and 0014). Era themes evoke an era by
-  palette, type and texture only, never the shows' logos or title designs, and pass the same contrast checks.
-- Type: DM Serif Display for headings, Jost for text and interface, Courier Prime for narration and teleplay
-  excerpts; the era themes add Michroma, Oswald and Fraunces for headings. All self-hosted in `public/fonts/`
+- Themes: five only, one per era, in the header's Theme menu: 1959 series (dark, the default for everyone),
+  1983 movie, 1985 series, 2002 series and 2019 series (the one light theme), each drawn from its era's key art
+  (decisions 0010 and 0014). They evoke an era by palette, type and texture only, never the shows' logos, title
+  designs or art, and pass the same contrast checks. Printing uses dark ink on white paper (`print` in the tokens).
+- Type: IM Fell English for headings (1959, 1983 and 2019), Cabin Sketch (1985) and Cinzel (2002); Jost for text and
+  interface; Courier Prime for narration, teleplay excerpts and the 1959 kickers. All self-hosted in `public/fonts/`
   (SIL Open Font License).
 - Every record page starts with `RecordHeader` (type label, context, title, actions bar); every grid uses
   `.card`; facts use `dl.facts`; connections use `.tz-link`. See the comments at the top of public/site.css.

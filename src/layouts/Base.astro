@@ -19,8 +19,10 @@ const verbs = await navModel();
 // A record's own credited picture becomes its link preview image (src/lib/images.ts).
 const ogKey = (() => { const [c, ...rest] = Astro.url.pathname.split('/').filter(Boolean); return c && rest.length ? `${c === 'places' ? 'locations' : c}/${rest.join('/')}` : undefined; })();
 const ogImage = imagesFor(ogKey)[0];
-// The Theme menu (design/tokens.json): the house themes, then one evoking each era of the show.
-const THEMES: [string, string][] = [['auto', 'Your device'], ['midnight', 'Midnight'], ['paper', 'Paper'], ['original', '1959 Original'], ['neon', '1985 Glow'], ['steel', '2002 Steel'], ['crimson', '2019 Gloss']];
+// The Theme menu (design/tokens.json, decision 0014): one theme per era of the franchise, in order. The 1959 series is
+// the default. OLD_THEMES carries a choice saved under an earlier theme's name over to its era.
+const THEMES: [string, string][] = [['1959', '1959 series'], ['1983', '1983 movie'], ['1985', '1985 series'], ['2002', '2002 series'], ['2019', '2019 series']];
+const OLD_THEMES: Record<string, string> = { original: '1959', neon: '1985', steel: '2002', crimson: '2019' };
 import { UTILITY_LINKS, FOOTER_COLUMNS, FOOTER_LINKS } from '../lib/site-links';
 import AccountSlot from '../components/AccountSlot.astro';
 const nav = UTILITY_LINKS;
@@ -55,17 +57,20 @@ const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) =>
     <meta property="og:image" content={new URL(ogImage?.src ?? '/og-default.png', Astro.site)} />
     {ogImage && <meta property="og:image:alt" content={ogImage.alt} />}
     <meta name="twitter:card" content={ogImage && ogImage.height > ogImage.width ? 'summary' : 'summary_large_image'} />
-    <meta name="theme-color" content="#08090f" media="(prefers-color-scheme: dark)" />
-    <meta name="theme-color" content="#f3eee2" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0a0a0a" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="preload" href="/fonts/jost-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/fonts/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
-    <script is:inline define:vars={{ KNOWN: THEMES.map(([v]) => v).filter((v) => v !== 'auto') }}>
-      // Apply a saved theme before the first paint. With none saved the device decides: Midnight, or Paper
-      // when it prefers light. The era themes are in design/tokens.json.
-      try { const t = localStorage.getItem('tz-theme'); if (KNOWN.includes(t)) document.documentElement.dataset.theme = t; } catch (e) {}
+    <link rel="preload" href="/fonts/im-fell-english-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <script is:inline define:vars={{ KNOWN: THEMES.map(([v]) => v), OLD: OLD_THEMES }}>
+      // Apply a saved theme before the first paint; with none saved the page is the 1959 series. A choice saved under
+      // an earlier theme's name moves to its era, and one saved under a retired house theme is forgotten.
+      try {
+        let t = localStorage.getItem('tz-theme');
+        if (t && OLD[t]) { t = OLD[t]; localStorage.setItem('tz-theme', t); }
+        if (KNOWN.includes(t)) document.documentElement.dataset.theme = t; else if (t) localStorage.removeItem('tz-theme');
+      } catch (e) {}
     </script>
     <link rel="stylesheet" href="/tokens.css" />
     <link rel="stylesheet" href="/site.css" />
@@ -148,22 +153,19 @@ const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) =>
         const setOpen = (open) => { bar.classList.toggle('open', open); t.setAttribute('aria-expanded', String(open)); t.textContent = open ? 'Close' : 'Menu'; };
         t?.addEventListener('click', (e) => { e.stopPropagation(); setOpen(!bar.classList.contains('open')); });
         document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { ds.forEach((d) => (d.open = false)); if (bar.classList.contains('open')) { setOpen(false); t.focus(); } } });
-        // Theme menu: remembers the choice in this browser; "Your device" follows its light or dark setting.
+        // Theme menu: remembers the choice in this browser.
         const root = document.documentElement;
         const picks = document.querySelectorAll('[data-theme-pick]');
         // The browser's toolbar color follows the theme's page color.
         const sync = () => {
-          picks.forEach((s) => { s.value = root.dataset.theme || 'auto'; });
+          picks.forEach((s) => { s.value = root.dataset.theme || '1959'; });
           const bg = getComputedStyle(root).getPropertyValue('--bg').trim();
-          document.querySelectorAll('meta[name="theme-color"]').forEach((m) => {
-            m.dataset.base ??= m.getAttribute('content');
-            m.setAttribute('content', root.dataset.theme ? bg : m.dataset.base);
-          });
+          document.querySelector('meta[name="theme-color"]')?.setAttribute('content', bg);
         };
         picks.forEach((s) => s.addEventListener('change', () => {
           const v = s.value;
-          if (v === 'auto') delete root.dataset.theme; else root.dataset.theme = v;
-          try { if (v === 'auto') localStorage.removeItem('tz-theme'); else localStorage.setItem('tz-theme', v); } catch (e) {}
+          root.dataset.theme = v;
+          try { localStorage.setItem('tz-theme', v); } catch (e) {}
           sync();
         }));
         sync();
