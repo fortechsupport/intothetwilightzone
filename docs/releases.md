@@ -3,6 +3,17 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — Cycle 12: five more sources fixed
+
+Visitors can now:
+- Follow the source links on five pages that pointed at Wikipedia articles that don't exist: Logan's Run and What
+  Dreams May Come (Matheson's novel) now reach their articles, Are You Afraid of the Dark? reaches the series
+  article, Editorial Novaro reaches the Spanish Wikipedia article (there is no English one), and Gauntlet Press now
+  cites the publisher's own page for its Serling script volumes.
+
+**Known not to work yet:**
+- The dead links with no archived copy listed under Cycle 11 are unchanged.
+
 ## 2026-11-26 — Cycle 11: dead links fixed or swapped for archived copies
 
 Visitors can now:
