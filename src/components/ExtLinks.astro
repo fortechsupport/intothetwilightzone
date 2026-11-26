@@ -19,4 +19,4 @@ for (const [k, v] of Object.entries(links)) {
 if (ids.amazon_asin) items.push(['Amazon', `https://www.amazon.com/dp/${ids.amazon_asin}`]);
 if (ids.audible_asin) items.push(['Audible', `https://www.audible.com/pd/${ids.audible_asin}`]);
 ---
-{items.length > 0 && <span class="small">{items.map(([label, url], i) => <>{i > 0 && ' · '}<a href={url} rel="noopener nofollow">{label}</a></>)}</span>}
+{items.length > 0 && <span class="small link-icons">{items.map(([label, url], i) => <>{i > 0 && ' · '}<a href={url} rel="noopener nofollow">{label}</a></>)}</span>}

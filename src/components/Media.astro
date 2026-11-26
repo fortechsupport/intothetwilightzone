@@ -20,7 +20,7 @@ const human = (s?: string) => s?.replace(/-/g, ' ');
     {groups.map(([g, list]) => (
       <>
         <h3>{g}</h3>
-        <ul class="media-list">
+        <ul class="media-list link-icons">
           {list.map((m) => {
             const others = m.on.filter((o) => o.key !== recKey);
             return (

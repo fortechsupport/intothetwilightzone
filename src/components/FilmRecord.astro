@@ -155,7 +155,7 @@ const watch = WATCHABLE.has(d.kind) && !(d.tags ?? []).includes('radio-only') &&
   )}
   {(d.ids?.imdb || d.links?.wikipedia || d.links?.trailer_youtube || d.links?.justwatch) && <section>
     <h2>Links</h2>
-    <ul>
+    <ul class="link-icons">
       {d.ids?.imdb && <li><a href={`https://www.imdb.com/title/${d.ids.imdb}/`} rel="noopener">IMDb</a></li>}
       {d.links?.wikipedia && <li><a href={d.links.wikipedia} rel="noopener">Wikipedia</a></li>}
       {d.links?.trailer_youtube && <li><a href={`https://www.youtube.com/watch?v=${d.links.trailer_youtube}`} rel="noopener">Trailer</a></li>}

@@ -3,6 +3,17 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — Link icons
+
+Visitors can now:
+- See at a glance what kind of site a link goes to: an encyclopedia, a film database, a podcast, an archive, a
+  shop and so on. A small icon drawn for this site sits beside each link in source lists, link lists, Where to
+  watch and Media and content. No other site's logo is used.
+- Look up what each icon means on Sources and policy.
+
+**Known not to work yet:**
+- Sites the list doesn't know yet get the plain globe icon until they are added to src/lib/link-kinds.mjs.
+
 ## 2026-11-26 — Seven verbs: Attend and Visit join Discover
 
 Visitors can now:
