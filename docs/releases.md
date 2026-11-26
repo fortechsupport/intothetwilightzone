@@ -22,6 +22,7 @@ Visitors can now:
   (novel), What Dreams May Come (novel), Are You Afraid of the Dark? (1990 TV series)); the right titles still need
   checking from a network that reaches Wikipedia.
 - About 3,100 links couldn't be checked because those sites turn away automated readers.
+
 ## 2026-11-26 — Nightly photos: 27 more portraits
 
 Visitors can now:
