@@ -11,7 +11,7 @@ Visitors can now:
   Fiction, February 1957) and Alice-Mary Schnirring's "The Dear Departed" (Weird Tales, May 1944).
 
 **Known not to work yet:**
-- 25 stories are still undated because ISFDB timed out on them on 2026-11-26. The lookup now waits up to a
+- 28 stories are still undated: ISFDB had no match for 3, and it timed out on the other 25 on 2026-11-26. The lookup now waits up to a
   minute per page and will be run again when ISFDB answers faster.
 
 ## 2026-11-26 — Cycle 17: when twelve episode stories were first published
