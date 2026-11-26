@@ -23,7 +23,7 @@ details:
   label: Varèse Sarabande
 sources:
 - title: mail.45worlds.com
-  url: https://mail.45worlds.com/vinyl/album/stv81192
+  url: https://www.45worlds.com/vinyl/album/stv81192
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/Var%C3%A8se_Sarabande_albums_discography
 - title: Creepy Classics – Original Television Scores Volume 4 LP
@@ -36,7 +36,7 @@ relevance: core
 media:
 - type: link
   title: 45worlds listing – STV 81192
-  url: https://mail.45worlds.com/vinyl/album/stv81192
+  url: https://www.45worlds.com/vinyl/album/stv81192
   host: 45worlds
   rights: link-only
   subtype: listing

@@ -19,7 +19,7 @@ sources:
 - title: musicbox-records.com
   url: https://www.musicbox-records.com/en/cd-soundtracks/1659-twilight-zone-the-movie.html
 - title: 45worlds – Film Score Monthly Vol. 12 No. 7 CD
-  url: https://mail.45worlds.com/cdalbum/cd/fsmvol12no7
+  url: https://www.45worlds.com/cdalbum/cd/fsmvol12no7
 - title: 'Chris'' Soundtrack Corner – Twilight Zone: The Movie (expanded)'
   url: https://www.soundtrackcorner.de/twilight-zone-the-movie-expanded-p3352.htm
 - title: 'Screen Archives Entertainment – Twilight Zone: The Movie'
@@ -30,7 +30,7 @@ relevance: core
 media:
 - type: link
   title: 45worlds – FSM Vol. 12 No. 7
-  url: https://mail.45worlds.com/cdalbum/cd/fsmvol12no7
+  url: https://www.45worlds.com/cdalbum/cd/fsmvol12no7
   host: 45worlds
   rights: link-only
   subtype: listing

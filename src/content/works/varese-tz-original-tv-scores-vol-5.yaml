@@ -21,9 +21,9 @@ details:
   label: Varèse Sarabande
 sources:
 - title: mail.45worlds.com
-  url: https://mail.45worlds.com/vinyl/album/stv81205
+  url: https://www.45worlds.com/vinyl/album/stv81205
 - title: creepyclassics.com
-  url: https://creepyclassics.com/twilight-zone-original-television-scores-volume-5-vinyl-record-album
+  url: https://web.archive.org/web/20260519121317/https://creepyclassics.com/twilight-zone-original-television-scores-volume-5-vinyl-record-album/
 - title: RareVinyl – The Twilight Zone Volume Five US LP STV81205
   url: >-
     https://jp.rarevinyl.com/products/various-film-radio-theatre-and-tv-the-twilight-zone-volume-five-shrink-us-vinyl-lp-album-record-stv81205-836017
@@ -35,7 +35,7 @@ relevance: core
 media:
 - type: link
   title: 45worlds listing – STV 81205
-  url: https://mail.45worlds.com/vinyl/album/stv81205
+  url: https://www.45worlds.com/vinyl/album/stv81205
   host: 45worlds
   rights: link-only
   subtype: listing

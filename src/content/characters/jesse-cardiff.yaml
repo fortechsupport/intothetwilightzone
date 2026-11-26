@@ -13,7 +13,7 @@ recurring: false
 relevance: core
 sources:
 - title: A Game of Pool (The Twilight Zone) - Wikipedia
-  url: https://en.wikipedia.org/wiki/A_Game_of_Pool_(The_Twilight_Zone)
+  url: https://en.wikipedia.org/wiki/A_Game_of_Pool
 - title: 'The Twilight Zone: A Game of Pool - IMDb'
   url: https://www.imdb.com/title/tt0734540/
 research_confidence: high

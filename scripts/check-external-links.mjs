@@ -58,7 +58,11 @@ for (let i = 0; i < wikiUrls.length; i += 50) {
     const d = await r.json();
     const norm = new Map((d.query?.normalized ?? []).map((n) => [n.from, n.to]));
     const missing = new Set((d.query?.pages ?? []).filter((p) => p.missing || p.invalid).map((p) => p.title));
-    for (const u of batch) { const t = titleOf(u); if (missing.has(norm.get(t) ?? t)) broken.push({ url: u, why: 'no such Wikipedia article' }); }
+    const redir = new Map((d.query?.redirects ?? []).map((n) => [n.from, n.to]));
+    for (const u of batch) {
+      const t = titleOf(u); const n = norm.get(t) ?? t;
+      if (missing.has(redir.get(n) ?? n)) broken.push({ url: u, why: 'no such Wikipedia article', wiki: t });
+    }
   } catch (e) { batch.forEach((u) => unchecked.push({ url: u, why: 'Wikipedia API: ' + e.message })); }
 }
 
@@ -87,7 +91,23 @@ async function check(url) {
 let next = 0;
 await Promise.all(Array.from({ length: 16 }, async () => { while (next < rest.length) await check(rest[next++]); }));
 
-const row = (x) => `| ${x.url} | ${x.why} | ${pagesFor.get(x.url).slice(0, 3).join(' ')}${pagesFor.get(x.url).length > 3 ? ` (+${pagesFor.get(x.url).length - 3})` : ''} |`;
+// For each broken link, suggest a replacement: the closest Wikipedia article for a missing one, and otherwise the
+// Wayback Machine's latest copy, if it has one. Suggestions are reported, never applied: a person checks each one.
+for (const b of broken) {
+  try {
+    if (b.wiki) {
+      const r = await fetch('https://en.wikipedia.org/w/api.php?action=opensearch&format=json&limit=1&search=' + encodeURIComponent(b.wiki), { headers: { 'User-Agent': UA } });
+      const [, , , links] = await r.json();
+      if (links?.[0]) b.suggest = links[0];
+    } else {
+      const r = await fetch('https://archive.org/wayback/available?url=' + encodeURIComponent(b.url), { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(20000) });
+      const snap = (await r.json()).archived_snapshots?.closest;
+      if (snap?.available && snap.status === '200') b.suggest = snap.url.replace(/^http:/, 'https:');
+    }
+  } catch { /* no suggestion */ }
+}
+await writeFile(reportPath.replace(/\.md$/, '') + '.json', JSON.stringify(broken, null, 1));
+const row = (x) => `| ${x.url} | ${x.why}${x.suggest ? ` (try ${x.suggest})` : ''} | ${pagesFor.get(x.url).slice(0, 3).join(' ')}${pagesFor.get(x.url).length > 3 ? ` (+${pagesFor.get(x.url).length - 3})` : ''} |`;
 const byHost = (a, b) => a.url.localeCompare(b.url);
 const md = [
   `# Links to other websites: ${new Date().toISOString().slice(0, 10)}`,
@@ -106,5 +126,5 @@ const md = [
   '',
 ].join('\n');
 await writeFile(reportPath, md);
-for (const b of broken) console.log(`BROKEN ${b.why}: ${b.url}  (${pagesFor.get(b.url).slice(0, 2).join(' ')})`);
+for (const b of broken) console.log(`BROKEN ${b.why}: ${b.url}${b.suggest ? `  TRY ${b.suggest}` : ''}  (${pagesFor.get(b.url).slice(0, 2).join(' ')})`);
 console.log(`${broken.length} broken, ${unchecked.length} could not be checked, of ${urls.length}. Report: ${reportPath}`);
