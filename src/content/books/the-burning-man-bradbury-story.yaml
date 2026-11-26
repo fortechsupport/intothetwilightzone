@@ -2,11 +2,12 @@ title: The Burning Man
 authors:
 - Ray Bradbury
 kind: short-story
+first_published: '1975-07'
 episodes:
 - 1985/the-burning-man
 description: 'Ray Bradbury''s short story, adapted as the Twilight Zone episode "The Burning Man" (1985 series). J.D.
   Feigelson wrote the teleplay. The earliest dated printing we found is in the collection Long After Midnight (Knopf),
-  September 1976: the catalogue dates the story to that year but does not mark that printing as the first.'
+  September 1976: ISFDB dates the story to July 1975, before that collection, but lists no earlier printing.'
 relevance: related
 research_confidence: medium
 tags:
@@ -19,4 +20,7 @@ sources:
 - title: 'AuthorWars (ISFDb-based catalogue): The Burning Man'
   url: https://authorwars.com/books/titles/64913/the-burning-man
   note: Read 2026-11-24 for where the story first appeared.
-last_verified: '2026-11-24'
+- title: 'ISFDB: The Burning Man'
+  url: https://www.isfdb.org/cgi-bin/title.cgi?64913
+  note: Read 2026-11-26 for the story's date and earliest printing.
+last_verified: '2026-11-26'
