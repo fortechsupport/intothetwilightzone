@@ -19,7 +19,7 @@ const PAGES = [
   '/films/duel-1971/', '/songs/iron-maiden-twilight-zone/', '/radio/a-stop-at-willoughby/', '/radio/twilight-zone-radio-dramas-series/', '/radio/radio-dramas/', '/radio/serling-radio/', '/stage/serling-on-stage/', '/films/the-twilight-zone-stage-play/', '/books/more-stories-from-the-twilight-zone/', '/books/to-serve-man-knight-story/', '/reading/source-stories/',
   '/places/willoughby/', '/organizations/cayuga-productions/', '/characters/the-gremlin-nightmare-at-20-000-feet/',
   '/media/', '/media/reviews/', '/podcasts/episodes/', '/podcasts/shows/', '/search/', '/timeline/', '/timeline/1960s/', '/people/a-z/s/', '/rod-serling/', '/night-gallery/', '/categories/', '/about/', '/my-zone/', '/map/', '/finder/', '/themes/', '/themes/the-uncanny/', '/404.html',
-  '/account/', '/community/', '/community/guidelines/', '/community/uploads/', '/contribute/suggest/', '/contribute/share/', '/moderation/', '/privacy/', '/terms/', '/copyright/', '/credits/images/',
+  '/account/', '/community/', '/community/guidelines/', '/community/uploads/', '/contribute/suggest/', '/contribute/share/', '/moderation/', '/privacy/', '/support/', '/terms/', '/copyright/', '/credits/images/',
 ];
 const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');
 

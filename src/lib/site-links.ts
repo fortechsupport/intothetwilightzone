@@ -16,7 +16,7 @@ export const UTILITY_LINKS: [string, string][] = [
 export const FOOTER_COLUMNS: { title: string; links: [string, string][] }[] = [
   { title: 'Explore', links: [['Start here', '/start/'], ['Viewing paths', '/paths/'], ['Episode finder', '/finder/'], ['Themes', '/themes/'], ['Episode of the day', '/today/'], ['Map', '/map/'], ['Six degrees', '/degrees/']] },
   { title: 'Reference', links: [['Media Library', '/media/'], ['Timeline', '/timeline/'], ['Rod Serling', '/rod-serling/'], ['Night Gallery', '/night-gallery/'], ['Everything A to Z', '/categories/'], ['Search', '/search/']] },
-  { title: 'This site', links: [['About', '/about/'], ['Sources and policy', '/sources/'], ['Contribute', '/contribute/'], ['My Zone', '/my-zone/']] },
+  { title: 'This site', links: [['About', '/about/'], ['Sources and policy', '/sources/'], ['Contribute', '/contribute/'], ['Support hosting', '/support/'], ['My Zone', '/my-zone/']] },
 ];
 
 /** Extra footer links (terms, privacy, community rules...). The accounts work adds its pages here. */
@@ -27,3 +27,10 @@ export const FOOTER_LINKS: [string, string][] = [
   ['Copyright', '/copyright/'],
   ['Image credits', '/credits/images/'],
 ];
+
+/**
+ * Where "Support hosting" donations go. Adam approved a donation link for hosting costs (2026-11-21) and chose Ko-fi
+ * (2026-11-26); he is creating the page. Until then this stays null and /support/ shows no button. Once he has it:
+ * export const DONATE = { url: 'https://ko-fi.com/<his page>', label: 'Ko-fi' };
+ */
+export const DONATE: { url: string; label: string } | null = null;

@@ -3,6 +3,18 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — A "Support hosting" page, and a weekly check for dead links
+
+Visitors can now:
+- Read how the site is kept free of ads and money, and how to help: corrections, photographs, the community, and
+  (soon) a donation towards hosting. It's linked from the footer under "This site".
+
+Behind the scenes, a weekly check now lists links to other websites that have gone (404, 410 or a vanished site),
+so they can be fixed or swapped for an archived copy.
+
+**Known not to work yet:**
+- The donate button is hidden until the site's Ko-fi page exists; until then the page says donations aren't open yet.
+
 ## 2026-11-26 — Cycle 7: easier with a screen reader, a keyboard or larger text spacing
 
 Visitors can now:

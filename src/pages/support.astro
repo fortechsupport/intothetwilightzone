@@ -1,0 +1,33 @@
+---
+// Support hosting (Adam, 2026-11-21: "a 'support hosting' donation link is OK"; no ads, no affiliate links, no
+// sponsorships). The button appears only once DONATE in src/lib/site-links.ts names where donations go.
+import Base from '../layouts/Base.astro';
+import { DONATE } from '../lib/site-links';
+---
+<Base title="Support hosting" description="IntoTheTwilightZone.com earns nothing and carries no ads. How you can help keep it online: share what you know, send corrections and photos, and, when it opens, chip in for hosting.">
+  <article class="legal">
+    <h1>Support hosting</h1>
+    <p class="lead">IntoTheTwilightZone.com is a labour of love by fans. It carries no advertising, no affiliate links and no sponsors, sells nothing, and never will. Keeping it online costs money all the same: the domain name and the hosting.</p>
+
+    <h2>Chip in for hosting</h2>
+    {DONATE ? (
+      <>
+        <p>If the site has been useful to you, you can help pay for the domain and hosting. Every donation goes to running the site and nothing else, and giving buys no say over what the site covers or says.</p>
+        <p><a class="btn" href={DONATE.url}>Donate through {DONATE.label}</a></p>
+      </>
+    ) : (
+      <p>Donations aren't open yet. When they are, a button here will say exactly where they go, and every donation will go to running the site and nothing else. Giving will never buy a say over what the site covers or says.</p>
+    )}
+
+    <h2>Other ways to help, worth just as much</h2>
+    <ul>
+      <li><strong>Send a correction.</strong> Every fact here carries a source, and a better source makes the site better. <a href="/contribute/suggest/">Suggest a change or a missing item</a>.</li>
+      <li><strong>Share what you have.</strong> Photographs you took of filming locations or of your own collection, memories of a broadcast: <a href="/contribute/share/">share a fan contribution</a>, with credit to you.</li>
+      <li><strong>Join the conversation</strong> in the <a href="/community/">community</a>, and vote items up or down so the best of the Zone rises.</li>
+      <li><strong>Tell a friend</strong> who loves The Twilight Zone. A link is the best support of all.</li>
+    </ul>
+
+    <h2>Our promise</h2>
+    <p>No ads, no tracking, no selling, ever. Read the <a href="/about/">About page</a> for how the site works and the <a href="/privacy/">privacy notice</a> for what it does and doesn't keep.</p>
+  </article>
+</Base>
