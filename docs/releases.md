@@ -3,6 +3,19 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — Cycle 20: four more story dates
+
+Visitors can now:
+- See when four more stories were first published, from ISFDB: Phyllis Eisenstein's "Lost and Found" (Analog,
+  October 1978), David Ely's "The Academy" (Playboy, June 1965), Richard Matheson's "The Funeral" (The Magazine
+  of Fantasy and Science Fiction, April 1955) and Christianna Brand's "The Sins of the Fathers" (The Fifth Pan
+  Book of Horror Stories, 1964). The lookup now checks every same-titled record and keeps only the right author's.
+
+**Known not to work yet:**
+- 10 stories are still undated. ISFDB has no record of nine of them ("A Question of Fear", "I'll Never Leave You
+  – Ever", "Soft, Sweet Sleep", "Stop Killing Me", "The Depository", "The Hitch-Hiker", "The Ring with the Red
+  Velvet Ropes", "The Witch" and "Tick of Time"). "All of Us Are Dying" first appears there after its episode aired.
+
 ## 2026-11-26 — Cycle 19: fifteen more story dates
 
 Visitors can now:
