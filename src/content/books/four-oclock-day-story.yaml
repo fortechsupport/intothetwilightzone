@@ -2,10 +2,12 @@ title: Four O'Clock
 authors:
 - Price Day
 kind: short-story
+first_published: '1958-04'
+first_published_in: "Alfred Hitchcock's Mystery Magazine"
 episodes:
 - 1959/four-oclock
 description: Price Day's short story, adapted as the Twilight Zone episode "Four O'Clock" (1959 series). Rod Serling
-  wrote the teleplay. No source we read gives where it first appeared.
+  wrote the teleplay. ISFDB lists it in Alfred Hitchcock's Mystery Magazine, April 1958.
 relevance: related
 research_confidence: medium
 tags:
@@ -17,4 +19,7 @@ sources:
   url: https://ctva.biz/US/Anthology/TwilightZone_03_(1961-62).htm
 - title: The Twilight Zone Vortex - Four O'Clock
   url: https://twilightzonevortex.blogspot.com/2017/07/four-oclock.html
-last_verified: '2026-11-24'
+- title: 'ISFDB: Four O''Clock'
+  url: https://www.isfdb.org/cgi-bin/title.cgi?96699
+  note: Read 2026-11-26 for the story's date and earliest printing.
+last_verified: '2026-11-26'
