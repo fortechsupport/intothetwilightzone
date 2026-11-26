@@ -3,6 +3,35 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — A "Support hosting" page, and a weekly check for dead links
+
+Visitors can now:
+- Read how the site is kept free of ads and money, and how to help: corrections, photographs, the community, and
+  (soon) a donation towards hosting. It's linked from the footer under "This site".
+
+Behind the scenes, a weekly check now lists links to other websites that have gone (404, 410 or a vanished site),
+so they can be fixed or swapped for an archived copy.
+
+**Known not to work yet:**
+- The donate button is hidden until the site's Ko-fi page exists; until then the page says donations aren't open yet.
+
+## 2026-11-26 — Cycle 7: easier with a screen reader, a keyboard or larger text spacing
+
+Visitors can now:
+- Move through every page by headings with a screen reader without gaps: the nine section pages, Viewing paths and
+  125 television and film pages used to jump from the title straight to smaller headings.
+- Hear how many results a search found once they stop typing.
+- Read the site at 320 px with wider letter, word and line spacing (as some readers set for dyslexia) without the
+  Menu button being pushed off the screen.
+
+Checked and already fine: the skip link, a visible focus ring on everything reachable by keyboard, Escape closing the
+menus and returning focus, no looping animation for visitors who ask for reduced motion, and a "opens in a new tab"
+note on every link to another site.
+
+**Known not to work yet:**
+- The map's pins can't be reached by keyboard; the list of places beside the map (with "Show on the map" buttons)
+  is the keyboard route.
+
 ## 2026-11-25 — 37 more credited photographs: filmmakers, actors and filming locations
 
 Visitors can now:

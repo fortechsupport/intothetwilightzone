@@ -1,0 +1,35 @@
+name: Links to other websites
+
+# Weekly (and on demand) check of every link to another website, for pages that have gone
+# (scripts/check-external-links.mjs). Report only: it never fails a build and never changes the site. The list of
+# broken links is in the job summary and in the run's "external-links-report" artifact.
+on:
+  schedule:
+    - cron: '41 7 * * 2'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Check the links
+        run: node scripts/check-external-links.mjs dist external-links-report.md
+      - name: Show the report
+        if: always()
+        run: cat external-links-report.md >> "$GITHUB_STEP_SUMMARY" || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: external-links-report
+          path: external-links-report.md

@@ -6,7 +6,8 @@
 // 1. Broken internal links: every href="/..." and src="/..." must resolve to a built file, a
 //    redirect in public/_redirects, or an astro.config.mjs redirect stub.
 // 2. Duplicate page titles: no two pages (redirect stubs excluded) share a <title>.
-// 3. Every page has exactly one <h1>, a <title>, a meta description and lang="en".
+// 3. Every page has exactly one <h1>, a <title>, a meta description and lang="en", and its headings inside <main>
+//    start at h1 and never skip a level (h2 to h4), so a screen reader's outline has no holes.
 // 4. Repeated roles in a person's role line ("Writer · ... · writer").
 // 5. Page weight: no public page over 1.5 MB of HTML (the preview-only review queue is exempt); pages over
 //    300 KB are listed as warnings, the target in the Seymour quality plan.
@@ -75,6 +76,10 @@ for (const file of htmlFiles) {
   else titles.set(title, [...(titles.get(title) ?? []), pageUrl]);
   const h1s = (html.match(/<h1[\s>]/g) ?? []).length;
   if (h1s !== 1) findings.structure.push(`${pageUrl}: ${h1s} <h1> elements`);
+  const mainHtml = (/<main[\s\S]*?<\/main>/.exec(html)?.[0] ?? '').replace(/<(template|script)[\s\S]*?<\/\1>/g, '');
+  const levels = [...mainHtml.matchAll(/<h([1-6])\b/g)].map((m) => +m[1]);
+  const skip = levels.findIndex((l, i) => (i === 0 ? l !== 1 : l > levels[i - 1] + 1));
+  if (skip >= 0) findings.structure.push(`${pageUrl}: heading outline ${skip === 0 ? `starts at h${levels[0]}` : `jumps from h${levels[skip - 1]} to h${levels[skip]}`}`);
   if (!/<meta name="description" content="[^"]+"/.test(html)) findings.structure.push(`${pageUrl}: no meta description`);
   if (!/<html lang="en"/.test(html)) findings.structure.push(`${pageUrl}: no lang="en"`);
 

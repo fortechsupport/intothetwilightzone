@@ -10,6 +10,7 @@ const TRY = ['Time Enough at Last', 'Rod Serling', 'Night Gallery', 'Talky Tina'
   <p class="small muted">Narrow results with the filters beside them: type, series, decade, writer and theme. To combine actors, directors, seasons and themes on episodes, use the <a href="/finder/">episode finder</a>.</p>
   <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
   <div id="search"></div>
+  <p id="search-status" class="visually-hidden" role="status" data-pagefind-ignore></p>
   <div class="search-start" id="search-start" data-pagefind-ignore>
     <h2>Try a search</h2>
     <ul class="chips">{TRY.map((t) => <li><a href={`/search/?q=${encodeURIComponent(t)}`} data-q={t}>{t}</a></li>)}</ul>
@@ -34,6 +35,13 @@ const TRY = ['Time Enough at Last', 'Rod Serling', 'Night Gallery', 'Talky Tina'
       document.addEventListener('input', (e) => { if (e.target.matches?.('.pagefind-ui__search-input')) follow(); });
       // Pagefind's Clear button empties the box without an input event.
       document.addEventListener('click', (e) => { if (e.target.closest?.('.pagefind-ui__search-clear')) setTimeout(follow, 0); });
+      // Screen readers hear the result count once typing pauses (Pagefind's own message is not announced).
+      const status = document.getElementById('search-status');
+      let said = '', t = 0;
+      new MutationObserver(() => {
+        clearTimeout(t);
+        t = setTimeout(() => { const m = document.querySelector('.pagefind-ui__message')?.textContent.trim() ?? ''; if (m && m !== said) { said = m; status.textContent = m; } }, 700);
+      }).observe(document.getElementById('search'), { childList: true, subtree: true, characterData: true });
       start.addEventListener('click', (e) => {
         const a = e.target.closest('a[data-q]'); if (!a) return;
         e.preventDefault(); ui.triggerSearch(a.dataset.q); start.hidden = true;

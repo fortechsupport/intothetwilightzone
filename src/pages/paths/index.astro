@@ -7,6 +7,7 @@ const paths = await Promise.all(fanPaths().map(async (p) => ({ p, steps: await r
   <p class="breadcrumb"><a href="/start/">Start here</a> / Viewing paths</p>
   <h1>Viewing paths</h1>
   <p class="lead">Hand-picked routes through more than three hundred episodes. Each one tells you why an episode is on it without giving the ending away, and tracks what you have watched in this browser.</p>
+  <h2 class="visually-hidden">All viewing paths</h2>
   <div class="grid">
     {paths.map(({ p, steps }) => (
       <a class="card" href={`/paths/${p.slug}/`}>

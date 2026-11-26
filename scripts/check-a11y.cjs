@@ -5,7 +5,8 @@
 //
 // For each page: axe-core (WCAG 2.2 A and AA rules) must report no violations; at 320 x 640 nothing
 // may scroll sideways and the page's h1 must start in the top third of the screen (213 px). A sample of pages
-// must not jump while loading on a slow phone connection (layout shift at most 0.1).
+// must not jump while loading on a slow phone connection (layout shift at most 0.1), and the sample must not scroll
+// sideways at 320 px with WCAG 1.4.12 text spacing.
 // Needs Playwright: `npm i --no-save playwright && npx playwright install chromium` (CI does this).
 const { chromium } = require('playwright');
 const fs = require('fs');
@@ -18,7 +19,7 @@ const PAGES = [
   '/films/duel-1971/', '/songs/iron-maiden-twilight-zone/', '/radio/a-stop-at-willoughby/', '/radio/twilight-zone-radio-dramas-series/', '/radio/radio-dramas/', '/radio/serling-radio/', '/stage/serling-on-stage/', '/films/the-twilight-zone-stage-play/', '/books/more-stories-from-the-twilight-zone/', '/books/to-serve-man-knight-story/', '/reading/source-stories/',
   '/places/willoughby/', '/organizations/cayuga-productions/', '/characters/the-gremlin-nightmare-at-20-000-feet/',
   '/media/', '/media/reviews/', '/podcasts/episodes/', '/podcasts/shows/', '/search/', '/timeline/', '/timeline/1960s/', '/people/a-z/s/', '/rod-serling/', '/night-gallery/', '/categories/', '/about/', '/my-zone/', '/map/', '/finder/', '/themes/', '/themes/the-uncanny/', '/404.html',
-  '/account/', '/community/', '/community/guidelines/', '/community/uploads/', '/contribute/suggest/', '/contribute/share/', '/moderation/', '/privacy/', '/terms/', '/copyright/', '/credits/images/',
+  '/account/', '/community/', '/community/guidelines/', '/community/uploads/', '/contribute/suggest/', '/contribute/share/', '/moderation/', '/privacy/', '/support/', '/terms/', '/copyright/', '/credits/images/',
 ];
 const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');
 
@@ -88,6 +89,15 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
     if (m.clipped.length) { failures++; console.log(`✗ [320px] ${p}: ${m.clipped.length} element(s) run past the right edge, e.g. ${m.clipped.slice(0, 3).join(', ')}`); }
     if (m.h1 === null || m.h1 > 213) { failures++; console.log(`✗ [320px] ${p}: h1 starts at ${m.h1}px (limit 213)`); }
   }
+  // Text spacing (WCAG 1.4.12): with the wider line, letter, word and paragraph spacing some readers set, nothing may
+  // scroll sideways at 320 px.
+  const TEXT_SPACING = '* { line-height: 1.5 !important; letter-spacing: 0.12em !important; word-spacing: 0.16em !important; } p { margin-bottom: 2em !important; }';
+  for (const p of SAMPLE) {
+    await page.goto(base + p, { waitUntil: 'load' });
+    await page.addStyleTag({ content: TEXT_SPACING });
+    const w = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
+    if (w > 1) { failures++; console.log(`✗ [text spacing 320px] ${p}: scrolls sideways by ${w}px`); }
+  }
   // Layout stability: on a slow phone connection a page must not jump as fonts, scripts and the actions bar arrive
   // (cumulative layout shift at most 0.1, the "good" Core Web Vitals limit).
   const STABLE = [...SAMPLE, '/places/willoughby/', '/organizations/cayuga-productions/', '/films/duel-1971/', '/books/more-stories-from-the-twilight-zone/', '/series/1959/'];
@@ -106,6 +116,6 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
     await c.close();
   }
   await browser.close();
-  console.log(failures ? `${failures} accessibility/layout findings.` : `✓ ${PAGES.length} pages: no axe violations in dark or light (or the four era themes on a sample), no sideways scroll, titles in the top third at 320 x 640, no layout shift over 0.1 on a slow phone.`);
+  console.log(failures ? `${failures} accessibility/layout findings.` : `✓ ${PAGES.length} pages: no axe violations in dark or light (or the four era themes on a sample), no sideways scroll, titles in the top third at 320 x 640 (also with wider text spacing on a sample), no layout shift over 0.1 on a slow phone.`);
   process.exit(failures ? 1 : 0);
 })();

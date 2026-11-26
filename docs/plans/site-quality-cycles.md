@@ -70,6 +70,9 @@ His answers to the four scoping questions (15:23 UTC):
   accident with respect). The 1986-87 trial photograph is hosted, under a new "Events" group.
 - Not linked: a Janice Rule and Terry Burnham press photo whose page names no episode; tying it to "Nightmare as a
   Child" would be an inference, so it is filed only under the two actors.
+- Cycle 7 (autonomy window 3, Adam 2026-11-26 02:41 UTC): accessibility audit beyond axe. Fixed the heading outline (hidden h2 on section pages and Viewing paths; EpisodeExplorer takes the parent heading level) and made check:site fail on any skipped level; header brand may wrap at 320 px under WCAG 1.4.12 text spacing; search result count announced through a status region. Map pins left as they are: the place list is the keyboard route.
+- Cycle 8: a weekly GitHub workflow checks every outbound link (the cloud sandbox can't reach most sites; GitHub's runners can), report only. Record scan for empty, placeholder, malformed-date and impossible-year values found nothing to fix.
+- Cycle 9: /support/ page, linked in the footer. Wording promises no ads, no say for donors and donations only for running the site; the button reads DONATE in site-links.ts (Ko-fi, Adam's choice 2026-11-26) and stays hidden until he sets it up. At 360 px and below the header gap is 8 px so the name keeps one line while still being able to wrap under text spacing.
 - Cycle 6 photos: 37 of 39 fetched pictures imported. Left out the Steven Spielberg masterclass photo (three people on a dark stage, no way to tell which is him) and the cropped Lanigan's Rabbi still filed under Art Carney (the man shown looks like co-star Stuart Margolin); both removed from the pending list. The Sonny Bono and Telly Savalas sketch photo is kept for Savalas, with alt text naming who is where.
 - Cycle 6 (Adam said "continue", 2026-11-25 22:01 UTC): fixed layout shift (space held for the account buttons, votes
   and search box; metric-matched fallback fonts), added a layout-shift check to `check:a11y`, a year's cache for
@@ -79,6 +82,7 @@ His answers to the four scoping questions (15:23 UTC):
 
 ## Waiting on Adam
 
+- Ko-fi page for the Support hosting donate button (Adam, 2026-11-26: he will create it). Then set DONATE in src/lib/site-links.ts to { url: 'https://ko-fi.com/<page>', label: 'Ko-fi' } and the button appears on /support/.
 - Nothing yet.
 
 ## Found, for later

@@ -34,6 +34,6 @@ const crumb = serling > 0 && homages === 0 ? ['Rod Serling’s series', '/series
     <ThemeList slugs={themes.map(([t]) => t)} counts={new Map(themes)} label="Most common themes" from="the Twilight Zone episodes its episodes point to, with how many" />
     <WhereToWatch info={watchFor({ slug: s.slug, name: s.title })} />
   </dl>
-  <EpisodeExplorer entries={entries} noun={noun} />
+  <EpisodeExplorer entries={entries} noun={noun} parent={1} />
   <p class="small">Missing one? <a href="/contribute/">Tell us</a>.</p>
 </Base>
