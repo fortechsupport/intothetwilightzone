@@ -14,7 +14,7 @@ details:
   label: Varèse Sarabande
 sources:
 - title: mail.45worlds.com
-  url: https://mail.45worlds.com/vinyl/album/stv81185
+  url: https://www.45worlds.com/vinyl/album/stv81185
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/Var%C3%A8se_Sarabande_albums_discography
 - title: Creepy Classics – Original Television Scores Volume 3 LP
@@ -27,7 +27,7 @@ relevance: core
 media:
 - type: link
   title: 45worlds listing – STV 81185
-  url: https://mail.45worlds.com/vinyl/album/stv81185
+  url: https://www.45worlds.com/vinyl/album/stv81185
   host: 45worlds
   rights: link-only
   subtype: listing

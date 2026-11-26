@@ -19,7 +19,7 @@ sources:
 - title: allmusic.com
   url: https://www.allmusic.com/album/twilight-zone-the-movie-original-soundtrack--mw0000385918
 - title: '45worlds – Twilight Zone: The Movie LP (Warner Bros. 9 23887-1)'
-  url: https://mail.45worlds.com/vinyl/album/9238871
+  url: https://www.45worlds.com/vinyl/album/9238871
 - title: 'MusicBrainz – Twilight Zone: The Movie (release)'
   url: https://musicbrainz.org/release/6120d735-4b3d-41d7-aad0-3352efaafddc
 - title: 'Session Days – 1983 Soundtrack: Twilight Zone The Movie'
@@ -34,7 +34,7 @@ relevance: core
 media:
 - type: link
   title: 45worlds – Warner Bros. 9 23887-1
-  url: https://mail.45worlds.com/vinyl/album/9238871
+  url: https://www.45worlds.com/vinyl/album/9238871
   host: 45worlds
   rights: link-only
   subtype: listing
