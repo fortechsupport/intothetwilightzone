@@ -68,7 +68,7 @@ to every change, by every person or Claude thread. They come from how Adam's Sey
 - Colors, type, spacing and radii live in `design/tokens.json`; `npm run tokens` writes `public/tokens.css`.
   Never write a raw color in a stylesheet or template: add a token.
 - Themes: Midnight (dark, default) and Paper (light), chosen by the visitor's system, plus four era themes in the
-  header's Theme menu: 1959 Original, 1985 Neon, 2002 Steel, 2019 Crimson (decision 0010). Era themes evoke an era by
+  header's Theme menu: 1959 Original, 1985 Glow, 2002 Steel, 2019 Gloss (decisions 0010 and 0014). Era themes evoke an era by
   palette, type and texture only, never the shows' logos or title designs, and pass the same contrast checks.
 - Type: DM Serif Display for headings, Jost for text and interface, Courier Prime for narration and teleplay
   excerpts; the era themes add Michroma, Oswald and Fraunces for headings. All self-hosted in `public/fonts/`

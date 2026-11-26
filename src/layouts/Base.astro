@@ -20,7 +20,7 @@ const verbs = await navModel();
 const ogKey = (() => { const [c, ...rest] = Astro.url.pathname.split('/').filter(Boolean); return c && rest.length ? `${c === 'places' ? 'locations' : c}/${rest.join('/')}` : undefined; })();
 const ogImage = imagesFor(ogKey)[0];
 // The Theme menu (design/tokens.json): the house themes, then one evoking each era of the show.
-const THEMES: [string, string][] = [['auto', 'Your device'], ['midnight', 'Midnight'], ['paper', 'Paper'], ['original', '1959 Original'], ['neon', '1985 Neon'], ['steel', '2002 Steel'], ['crimson', '2019 Crimson']];
+const THEMES: [string, string][] = [['auto', 'Your device'], ['midnight', 'Midnight'], ['paper', 'Paper'], ['original', '1959 Original'], ['neon', '1985 Glow'], ['steel', '2002 Steel'], ['crimson', '2019 Gloss']];
 import { UTILITY_LINKS, FOOTER_COLUMNS, FOOTER_LINKS } from '../lib/site-links';
 import AccountSlot from '../components/AccountSlot.astro';
 const nav = UTILITY_LINKS;

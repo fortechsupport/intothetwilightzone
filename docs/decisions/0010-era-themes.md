@@ -1,5 +1,8 @@
 # 0010 Era themes and motion
 
+*Updated by decision 0014 (2026-11-26): 1985 Neon became 1985 Glow, 2019 Crimson became 2019 Gloss, and 1959 and 2002
+gained textures from Adam's era breakdown.*
+
 **Date:** 2026-11-25. **Decided by:** Adam asked for "themes that appear like the aesthetic of the original
 series in addition to the aesthetics of each revival series" and "animated effects to improve user
 experience"; the details below were decided in the thread "Improve the whole site in 5 cycles" for him to

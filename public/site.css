@@ -484,31 +484,49 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
   background-position: calc(100% - 13px) 55%, calc(100% - 9px) 55%; background-size: 4px 4px; background-repeat: no-repeat; }
 .theme-pick select:hover { border-color: var(--brass); }
 
-/* Original (1959): black and white, film grain, a soft vignette, typewriter kickers, photographs in grey. */
+/* Original (1959): black and white, film grain, a soft vignette, typewriter kickers, photographs in grey, and (Adam's era
+   breakdown, 2026-11-26) the shadow of venetian blinds across one corner and fog low on the horizon. */
 :root[data-theme="original"] body::after { content: ''; position: fixed; inset: -50%; z-index: 9999; pointer-events: none; opacity: .07;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
 :root[data-theme="original"] body { background-image: radial-gradient(ellipse at 50% 0%, var(--surface-2) 0%, var(--bg) 65%); background-attachment: fixed; }
+:root[data-theme="original"] body::before { content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(ellipse at 50% 115%, color-mix(in srgb, var(--text) 9%, transparent), transparent 55%),
+    repeating-linear-gradient(-28deg, color-mix(in srgb, var(--bg) 55%, transparent) 0 26px, transparent 26px 58px);
+  -webkit-mask: radial-gradient(ellipse at 100% 0%, var(--text) 0, transparent 55%), radial-gradient(ellipse at 50% 120%, var(--text) 0, transparent 60%);
+  mask: radial-gradient(ellipse at 100% 0%, var(--text) 0, transparent 55%), radial-gradient(ellipse at 50% 120%, var(--text) 0, transparent 60%); opacity: .55; }
 :root[data-theme="original"] img:not(.leaflet-tile) { filter: grayscale(1) contrast(1.06); }
 :root[data-theme="original"] .kicker, :root[data-theme="original"] .eyebrow { letter-spacing: .08em; font-weight: 400; }
 :root[data-theme="original"] .hero h1 em { color: var(--text-soft); }
 
-/* Neon (1985): magenta and cyan glow on deep indigo, a faint scan-line screen, wide display face. */
-:root[data-theme="neon"] { --step-5: clamp(1.9rem, 1.3rem + 3.1vw, 3.3rem); --step-4: clamp(1.6rem, 1.25rem + 1.9vw, 2.3rem); --step-3: clamp(1.3rem, 1.1rem + 1vw, 1.65rem); }
-:root[data-theme="neon"] body { background-image: radial-gradient(ellipse at 50% -10%, color-mix(in srgb, var(--brass) 16%, transparent), transparent 60%), radial-gradient(ellipse at 100% 100%, color-mix(in srgb, var(--link) 10%, transparent), transparent 50%); background-attachment: fixed; }
-:root[data-theme="neon"] body::after { content: ''; position: fixed; inset: 0; z-index: 9999; pointer-events: none;
-  background: repeating-linear-gradient(to bottom, color-mix(in srgb, var(--text) 3%, transparent) 0 1px, transparent 1px 3px); }
-:root[data-theme="neon"] :is(h1, .hero h1 em, .card .count) { text-shadow: 0 0 18px color-mix(in srgb, var(--brass) 45%, transparent); }
-:root[data-theme="neon"] .card:hover { box-shadow: 0 0 0 1px var(--brass), 0 0 24px color-mix(in srgb, var(--brass) 30%, transparent); }
+/* Glow (1985, theme key "neon"): warm domestic amber under soft diffused light, with electric blue and violet
+   for the uncanny (Adam's era breakdown, 2026-11-26). A soft storybook serif, a gentle bloom on titles, a haze. */
+:root[data-theme="neon"] body { background-image: radial-gradient(ellipse at 30% -10%, color-mix(in srgb, var(--brass) 18%, transparent), transparent 60%), radial-gradient(ellipse at 100% 100%, color-mix(in srgb, var(--unofficial) 12%, transparent), transparent 55%), radial-gradient(ellipse at 0% 100%, color-mix(in srgb, var(--link) 8%, transparent), transparent 45%); background-attachment: fixed; }
+:root[data-theme="neon"] body::after { content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  background: radial-gradient(ellipse at 50% 40%, transparent 55%, color-mix(in srgb, var(--brass) 7%, transparent) 100%); }
+:root[data-theme="neon"] :is(h1, .hero h1 em, .card .count) { text-shadow: 0 0 22px color-mix(in srgb, var(--brass) 35%, transparent); }
+:root[data-theme="neon"] .card:hover { box-shadow: 0 0 0 1px var(--link), 0 0 28px color-mix(in srgb, var(--link) 28%, transparent); }
 
-/* Steel (2002): cool steel and teal, a condensed face, a cold light from above. */
-:root[data-theme="steel"] body { background-image: linear-gradient(to bottom, color-mix(in srgb, var(--brass) 8%, transparent), transparent 420px); background-repeat: no-repeat; }
+/* Steel (2002): drained flesh tones, overcast grey, cold blue moonlight and a hard fluorescent cast from above; a
+   condensed face. Photographs lose most of their colour. */
+:root[data-theme="steel"] body { background-image: linear-gradient(to bottom, color-mix(in srgb, var(--brass) 9%, transparent), transparent 380px), radial-gradient(ellipse at 100% 100%, color-mix(in srgb, var(--link) 9%, transparent), transparent 55%); background-repeat: no-repeat; background-attachment: fixed; }
+:root[data-theme="steel"] img:not(.leaflet-tile) { filter: saturate(.45) contrast(1.08) brightness(.96); }
 :root[data-theme="steel"] .kicker, :root[data-theme="steel"] .eyebrow { letter-spacing: .22em; }
 :root[data-theme="steel"] .card:hover { box-shadow: 0 0 0 1px var(--brass), 0 10px 30px color-mix(in srgb, var(--brass) 14%, transparent); }
 
-/* Crimson (2019): stark black, a heavy serif, a red rule under page titles, violet links. */
-:root[data-theme="crimson"] body { background-image: radial-gradient(ellipse at 50% 120%, color-mix(in srgb, var(--brass) 12%, transparent), transparent 55%); background-attachment: fixed; }
-:root[data-theme="crimson"] main h1::after { content: ''; display: block; width: 64px; height: 3px; margin-top: 12px; background: var(--brass); }
+/* Gloss (2019, theme key "crimson"): glossy, saturated teal and orange, a wide clean face, symmetry, and page
+   titles set like a stark black-and-white title card. A faint spiral turns behind the home page's title. */
+:root[data-theme="crimson"] { --step-5: clamp(1.9rem, 1.3rem + 3.1vw, 3.3rem); --step-4: clamp(1.6rem, 1.25rem + 1.9vw, 2.3rem); --step-3: clamp(1.3rem, 1.1rem + 1vw, 1.65rem); }
+:root[data-theme="crimson"] body { background-image: radial-gradient(ellipse at 50% -15%, color-mix(in srgb, var(--link) 16%, transparent), transparent 55%), radial-gradient(ellipse at 50% 120%, color-mix(in srgb, var(--brass) 14%, transparent), transparent 55%); background-attachment: fixed; }
+:root[data-theme="crimson"] main h1 { color: var(--text); text-shadow: none; }
+:root[data-theme="crimson"] main h1::after { content: ''; display: block; width: 96px; height: 2px; margin-top: 14px; background: linear-gradient(to right, var(--link), var(--brass)); }
 :root[data-theme="crimson"] .hero h1::after { display: none; }
+:root[data-theme="crimson"] .hero { position: relative; isolation: isolate; }
+:root[data-theme="crimson"] .hero::before { content: ''; position: absolute; inset: -20% -10%; z-index: -1; pointer-events: none; opacity: .07;
+  background: repeating-conic-gradient(from 0deg at 50% 50%, var(--text) 0deg 6deg, transparent 6deg 30deg);
+  -webkit-mask: radial-gradient(circle at 50% 50%, var(--text) 0, transparent 60%); mask: radial-gradient(circle at 50% 50%, var(--text) 0, transparent 60%); }
+:root[data-theme="crimson"] .card { box-shadow: inset 0 1px 0 color-mix(in srgb, var(--text) 8%, transparent); }
+:root[data-theme="crimson"] .card:hover { box-shadow: 0 0 0 1px var(--brass), 0 12px 32px color-mix(in srgb, var(--brass) 18%, transparent); }
 
 /* Motion: page-to-page cross-fade, cards that lift, menus that unfold, colors that ease between themes. */
 @media (prefers-reduced-motion: no-preference) {
