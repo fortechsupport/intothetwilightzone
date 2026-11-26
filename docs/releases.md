@@ -3,6 +3,16 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — Cycle 13: search results first on phones
+
+Visitors can now:
+- Search on a phone and see the results straight away. The five filters (decade, series, theme, type, writer) used to
+  fill the first screen above the results; on narrow screens they now fold behind a "Filters" button. On wider
+  screens they stay beside the results as before.
+
+**Known not to work yet:**
+- Nothing new.
+
 ## 2026-11-26 — Cycle 12: five more sources fixed, cleaner search results
 
 Visitors can now:

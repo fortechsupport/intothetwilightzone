@@ -7,7 +7,7 @@ const TRY = ['Time Enough at Last', 'Rod Serling', 'Night Gallery', 'Talky Tina'
 ---
 <Base title="Search" noindex>
   <h1>Search</h1>
-  <p class="small muted">Narrow results with the filters beside them: type, series, decade, writer and theme. To combine actors, directors, seasons and themes on episodes, use the <a href="/finder/">episode finder</a>.</p>
+  <p class="small muted">Narrow results by type, series, decade, writer and theme. To combine actors, directors, seasons and themes on episodes, use the <a href="/finder/">episode finder</a>.</p>
   <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
   <div id="search"></div>
   <p id="search-status" class="visually-hidden" role="status" data-pagefind-ignore></p>
@@ -42,6 +42,21 @@ const TRY = ['Time Enough at Last', 'Rod Serling', 'Night Gallery', 'Talky Tina'
         clearTimeout(t);
         t = setTimeout(() => { const m = document.querySelector('.pagefind-ui__message')?.textContent.trim() ?? ''; if (m && m !== said) { said = m; status.textContent = m; } }, 700);
       }).observe(document.getElementById('search'), { childList: true, subtree: true, characterData: true });
+      // On phones Pagefind stacks its five filters above the results, which pushes every result off the first
+      // screen. There they fold behind one "Filters" button (CSS below); beside the results on wider screens they
+      // always show and the button is hidden.
+      const sbox = document.getElementById('search');
+      const toggle = document.createElement('button');
+      toggle.type = 'button'; toggle.className = 'btn subtle filters-toggle'; toggle.setAttribute('aria-expanded', 'false');
+      toggle.textContent = 'Filters';
+      toggle.addEventListener('click', () => {
+        const open = !sbox.classList.toggle('filters-closed');
+        toggle.setAttribute('aria-expanded', String(open));
+        toggle.textContent = open ? 'Hide filters' : 'Filters';
+      });
+      sbox.classList.add('filters-closed');
+      const place = () => { const d = sbox.querySelector('.pagefind-ui__drawer'); if (d && toggle.nextElementSibling !== d) d.before(toggle); };
+      new MutationObserver(place).observe(sbox, { childList: true, subtree: true });
       start.addEventListener('click', (e) => {
         const a = e.target.closest('a[data-q]'); if (!a) return;
         e.preventDefault(); ui.triggerSearch(a.dataset.q); start.hidden = true;
@@ -57,4 +72,13 @@ const TRY = ['Time Enough at Last', 'Rod Serling', 'Night Gallery', 'Talky Tina'
   .chips a { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 4px 14px; border: 1px solid var(--line-strong); border-radius: var(--radius-pill); text-decoration: none; color: var(--text); }
   .chips a:hover { border-color: var(--brass); color: var(--brass); }
   .chips .n { color: var(--muted); font-size: var(--step--2); }
+  :global(.filters-toggle) { display: none; }
+  /* Pagefind resets the buttons inside its box, so the button's look is restated here (it matches .btn). */
+  :global(#search .filters-toggle) { align-items: center; gap: 8px; border: 1px solid var(--line-strong); border-radius: var(--radius-pill); padding: 8px 18px; min-height: 42px; background: var(--surface); color: var(--text); font: inherit; font-weight: 500; cursor: pointer; }
+  :global(#search .filters-toggle:hover) { border-color: var(--brass); }
+  :global(#search .filters-toggle:focus-visible) { outline: 3px solid var(--focus); outline-offset: 2px; }
+  @media (max-width: 39.99em) {
+    :global(.filters-toggle) { display: inline-flex; margin-top: var(--space-3); }
+    :global(#search.filters-closed .pagefind-ui__filter-panel) { display: none; }
+  }
 </style>
