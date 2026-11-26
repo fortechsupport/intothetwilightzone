@@ -3,6 +3,20 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — Cycle 14: sources point at the real Wikipedia pages, no repeated sources
+
+Visitors can now:
+- Follow the season sources on about 150 episode and story pages to Wikipedia itself. They used to go through two
+  copy sites (goodoldtv.com and gilligansisland.org) that have since dropped those pages.
+- Read source lists without repeats: 54 pages listed the same Wikipedia season page twice (once directly, once
+  through a copy site), and 44 others (the Gold Key comics, two essays, two podcasts, two Night Gallery theme
+  pages, Mark Snow and the subreddit) listed one link twice.
+
+**Known not to work yet:**
+- About 45 links answer "page not found" to the weekly check and have no archived copy. Several of those sites
+  (authorwars.com, hakes.com, aol.com, yahoo.com, the Television Academy) still list the pages in web search, so they
+  may be turning away automated readers rather than gone; they stay on the report for a person to check.
+
 ## 2026-11-26 — Cycle 13: search results first on phones
 
 Visitors can now:

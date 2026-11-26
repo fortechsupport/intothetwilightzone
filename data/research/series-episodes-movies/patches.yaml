@@ -559,7 +559,7 @@ radio/a-kind-of-stopwatch:
   sources: &id002
   - &id003
     title: The Twilight Zone (radio series) - episode list (Wikipedia mirror)
-    url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
   - &id004
     title: 'The Twilight Zone Vortex: A Dimension of Sound (2017), full episode guide'
     url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
@@ -1506,7 +1506,7 @@ radio/twilight-zone-radio-dramas-series:
     on the 2010-11 Blu-ray sets of the original series.'
   sources:
   - title: The Twilight Zone (radio series) - Wikipedia mirror
-    url: https://goodoldtv.com/The_Twilight_Zone_(radio_series)
+    url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(radio_series)
   - title: 'The Twilight Zone Vortex: A Dimension of Sound (2017)'
     url: https://twilightzonevortex.blogspot.com/2017/03/a-dimension-of-sound.html
   - title: Moviefone (TMDB data) - The Twilight Zone specials list
