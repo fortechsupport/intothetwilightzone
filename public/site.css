@@ -656,3 +656,19 @@ html[data-places-tab="settings"] #real-places, html[data-places-tab="real-places
 [data-link="shop"] { --link-icon: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27currentColor%27 stroke-width=%272%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27%3E%3Cpath d=%27M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z M7.5 7.5h.01%27/%3E%3C/svg%3E"); }
 [data-link="official"] { --link-icon: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27currentColor%27 stroke-width=%272%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27%3E%3Cpath d=%27M12 2l3 3h4v4l3 3-3 3v4h-4l-3 3-3-3H5v-4l-3-3 3-3V5h4z M8.5 12l2.5 2.5 4.5-5%27/%3E%3C/svg%3E"); }
 [data-link="website"] { --link-icon: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27currentColor%27 stroke-width=%272%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27%3E%3Cpath d=%27M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z M2 12h20 M12 2a15 15 0 0 1 0 20 M12 2a15 15 0 0 0 0 20%27/%3E%3C/svg%3E"); }
+
+/* Trivia quiz (/quiz/). The question area keeps its height while the episodes load, so nothing shifts. */
+.quiz-setup { display: flex; flex-wrap: wrap; gap: var(--space-3); align-items: end; margin: var(--space-4) 0; }
+.quiz { min-height: 26rem; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--surface); padding: var(--space-5); margin-bottom: var(--space-5); }
+.quiz h2 { margin-top: 0; font-size: var(--step-2); }
+.quiz h2:focus { outline: none; }
+.quiz-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: var(--space-3); margin: var(--space-4) 0; }
+.quiz .btn { border: 1px solid var(--line-strong); background: var(--surface-2); color: var(--text); font-weight: 500; margin: 0; }
+.quiz .btn:hover:not(:disabled) { border-color: var(--brass); }
+.quiz-option { justify-content: flex-start; text-align: left; border-radius: var(--radius-md); white-space: normal; }
+.quiz .quiz-option:disabled { cursor: default; opacity: 1; color: var(--text-soft); }
+.quiz .quiz-option[data-result="right"] { border-color: var(--ok); color: var(--ok); border-width: 2px; }
+.quiz .quiz-option[data-result="wrong"] { border-color: var(--danger); color: var(--danger); border-width: 2px; }
+.quiz-option[data-result="right"]::before { content: "\2713"; content: "\2713" / ""; }
+.quiz-option[data-result="wrong"]::before { content: "\2717"; content: "\2717" / ""; }
+.quiz-feedback { min-height: 3em; }

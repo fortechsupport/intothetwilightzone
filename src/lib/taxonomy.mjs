@@ -366,25 +366,25 @@ export const TAXONOMY = [
   },
   {
     slug: 'artwork',
-    title: 'Artwork',
-    group: 'collect',
+    title: 'Art and design',
+    group: 'discover',
     split: true,
-    description: 'Posters, key art, title design, illustration and art inspired by The Twilight Zone.',
+    description: 'How the shows look: title design, make-up and production design, Night Gallery\'s paintings, cover art, and art inspired by The Twilight Zone.',
     intro: [
       "The show's look is part of its legend: the drifting eye, window and clock of the opening titles, William Tuttle's make-up, the paintings Serling stood beside in Night Gallery, the key art of the 1983 film, Gold Key's painted comic covers, and decades of posters and gallery work by artists who grew up with it.",
       'Artwork is both a category and content. Every piece is listed here, and a cover also shows on the comic or magazine it covers, a poster on the film it advertised.',
     ],
     connection: 'Official artwork was made for the franchise or under its licence: posters, title design, Night Gallery\'s paintings, licensed covers and prints, make-up and props. Unofficial artwork takes the show as its subject; a print is listed as official only where a source says it was licensed. Cover art also appears on the comic, magazine or book it covers.',
     // Collect plan (docs/plans/research-collect.md, section 2): one shelf per record, chosen by subtype.
-    seeAlso: [['Art exhibitions', '/events/exhibitions/'], ['Licensed replicas and merchandise', '/merchandise/']],
+    // Art and design moved from Collect to Discover (Adam, 2026-11-26); props, costumes, posters and prints went to
+    // Collect with Merchandise, since they are objects people own (MOVES below).
+    seeAlso: [['Art exhibitions', '/events/exhibitions/'], ['Props, costumes, posters and prints', '/merchandise/props-costumes/']],
     subs: [
       { slug: 'art-illustration', title: 'Art and illustration', blurb: 'Artists and works inspired by the show, and art made for the revival\'s campaigns.' },
       { slug: 'covers', title: 'Cover and comic art', isNew: true, groups: ['Comics', 'Magazines'], blurb: 'Covers and interior art for the comics and magazines. Each cover also appears on the item it covers.' },
       { slug: 'night-gallery-paintings', title: 'Night Gallery paintings', isNew: true, groups: ['The paintings', 'About the paintings'], blurb: 'The paintings Serling introduced each Night Gallery story with, and the book about them.' },
       { slug: 'production-design', title: 'Make-up and production design', isNew: true, blurb: 'Make-up and effects designs from the productions, above all William Tuttle\'s.' },
-      { slug: 'props-costumes', title: 'Props and costumes', isNew: true, groups: ['Surviving pieces', 'Sold at auction', 'In museums and collections', 'Reused props'], blurb: 'Surviving props, costumes, make-up pieces, paintings and scripts: where they are now and what they sold for.', intro: 'Some of the original series\' props have survived the decades since MGM cleared its prop rooms, among them the Mystic Seer fortune-telling machine from "Nick of Time", which has sold at auction. Others sit in museums and private collections. Each entry says what is known about a piece and where the claim comes from. Licensed replicas are under Merchandise.' },
       { slug: 'other-artwork', title: 'Other artwork', blurb: 'Artwork that fits no other group.' },
-      { slug: 'posters-key-art', title: 'Posters, key art and prints', groups: ['Posters and key art', 'Art prints'], blurb: 'Studio posters and key art, and art prints of the show. A print is official where a source says it was licensed.' },
       { slug: 'title-design', title: 'Title design', blurb: 'The opening title sequences.' },
     ],
   },
@@ -424,8 +424,10 @@ export const TAXONOMY = [
     ],
     connection: 'Each item is a Twilight Zone product or a release of the series and films. It is official where the rights holders made it or a source states a licence; otherwise it is under "Unofficial and inspired", with what is known.',
     // Collect plan (docs/plans/research-collect.md, section 2): one shelf per record, chosen by subtype.
-    seeAlso: [['Props, posters and other artwork', '/artwork/'], ['Games', '/games/']],
+    seeAlso: [['Art and design', '/artwork/'], ['Games', '/games/']],
     subs: [
+      { slug: 'props-costumes', title: 'Props and costumes', isNew: true, groups: ['Surviving pieces', 'Sold at auction', 'In museums and collections', 'Reused props'], blurb: 'Surviving props, costumes, make-up pieces, paintings and scripts: where they are now and what they sold for.', intro: 'Some of the original series\' props have survived the decades since MGM cleared its prop rooms, among them the Mystic Seer fortune-telling machine from "Nick of Time", which has sold at auction. Others sit in museums and private collections. Each entry says what is known about a piece and where the claim comes from. Licensed replicas are under Prop replicas.' },
+      { slug: 'posters-prints', title: 'Posters and prints', groups: ['Posters and key art', 'Art prints'], blurb: 'Studio posters and key art, and art prints of the show. A print is official where a source says it was licensed.' },
       { slug: 'collectibles', title: 'Collectibles and souvenirs', groups: ['Tower of Terror souvenirs', 'Sheet music', 'Other collectibles'], blurb: 'Tin totes, wooden figure sets, sheet music and Tower of Terror souvenirs.' },
       { slug: 'home-media', title: 'Home video', groups: HOME_VIDEO_GROUPS, blurb: 'Every VHS, laserdisc, DVD and Blu-ray release of the series and films.', intro: 'Every VHS, laserdisc, DVD and Blu-ray release recorded on the series and film pages is listed here under its show, with a link to the release table on that page and its sources. A few releases also have a record of their own, with reviews, extras and where copies are held.' },
       { slug: 'household-apparel', title: 'Household and apparel', groups: ['Clothing', 'Mugs and drinkware', 'Pins, decals and ornaments'], blurb: 'Clothing, mugs, pins, decals and ornaments.' },
@@ -520,9 +522,9 @@ export const VERBS = [
   { slug: 'watch', title: 'Watch', blurb: 'TV series and episodes, movies, documentaries and the stage.', order: ['series', 'movies', 'stage'] },
   { slug: 'listen', title: 'Listen', blurb: 'Songs, soundtracks and the theme, radio dramas and podcasts.', order: ['music', 'radio', 'podcasts'] },
   { slug: 'read', title: 'Read', blurb: 'Articles, books, comics, essays, magazines, scripts and websites.' },
-  { slug: 'play', title: 'Play', blurb: 'Pinball, video games, board and card games.' },
-  { slug: 'collect', title: 'Collect', blurb: 'Artwork, props, posters, merchandise and collectibles.' },
-  { slug: 'discover', title: 'Discover', blurb: 'The history behind the show, everything it inspired, the events and talks around it, and the places to visit, real and imagined.', order: ['history', 'homages', 'events', 'lectures', 'places'] },
+  { slug: 'play', title: 'Play', blurb: 'Pinball, video games, board and card games, and games to play here: a trivia quiz and Six degrees.' },
+  { slug: 'collect', title: 'Collect', blurb: 'Home video, toys, trading cards, posters, screen-used props and every other collectible.' },
+  { slug: 'discover', title: 'Discover', blurb: 'The history behind the show, its art and design, everything it inspired, the events and talks around it, and the places to visit, real and imagined.', order: ['history', 'artwork', 'homages', 'events', 'lectures', 'places'] },
   { slug: 'meet', title: 'Meet', blurb: 'The people who made it, its characters, and the organizations around it.' },
 ].map((g) => {
   const rank = (c) => { const i = (g.order ?? []).indexOf(c.slug); return i < 0 ? Infinity : i; };
@@ -736,6 +738,10 @@ const MOVES = {
   'music/songs': ['music', 'songs-mention'],
   // Attend (2026-11-24): docs/plans/research-attend.md folds Readings and panels into Talks about the show.
   'lectures/readings-panels': ['lectures', 'academic'],
+  // Collect (Adam, 2026-11-26): physical art belongs with Merchandise; the rest of Artwork became Art and design in
+  // Discover.
+  'artwork/props-costumes': ['merchandise', 'props-costumes'],
+  'artwork/posters-key-art': ['merchandise', 'posters-prints'],
 };
 export function remap(cat, sub) {
   const m = MOVES[`${cat}/${sub}`];

@@ -74,11 +74,13 @@ texture only, no logos or title designs). Screenshots to Adam before merging.
 - Link icons (step 2, Adam chose option A at 12:48 UTC): which hosts belong to each kind (src/lib/link-kinds.mjs);
   icons only in link lists, not in running text; a legend on Sources and policy.
 
+- Play and Collect (step 3, decision 0013): Art and design placed after History in Discover; Merchandise's
+  shelves kept as they are rather than merged; the quiz uses credits and air years only.
+
 ## Waiting on Adam
 
-- Play: which of suggestions 1 to 3.
-- Collect and Artwork: which of suggestions 1 to 3.
-- Era themes: whether to retune as suggested (screenshots first).
+- Nothing: Adam approved Play, Collect and the era themes ("yes, yes, yes", 13:34 UTC). Era themes go to him as
+  screenshots before merging.
 
 ## Found, for later
 
