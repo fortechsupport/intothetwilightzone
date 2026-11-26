@@ -3,6 +3,17 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-26 — Cycle 18: three more story dates
+
+Visitors can now:
+- See when three more Night Gallery source stories were first published, from ISFDB: Everil Worrell's "The
+  Canal" (Weird Tales, December 1927), August Derleth's "The Dark Boy" (The Magazine of Fantasy and Science
+  Fiction, February 1957) and Alice-Mary Schnirring's "The Dear Departed" (Weird Tales, May 1944).
+
+**Known not to work yet:**
+- 28 stories are still undated: ISFDB had no match for 3, and it timed out on the other 25 on 2026-11-26. The lookup now waits up to a
+  minute per page and will be run again when ISFDB answers faster.
+
 ## 2026-11-26 — Cycle 17: when twelve episode stories were first published
 
 Visitors can now:
