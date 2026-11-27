@@ -22,14 +22,14 @@ const SPLIT = 'Each category shows official items (made, licensed or published b
   <header class="verb-head has-art">
     <div>
     <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a></p>
-    <p class="kicker">{v.n.toLocaleString('en-US')} entries · {(() => { const k = v.cols.filter((c) => !c.live).length; return `${k} ${slug === 'collect' ? (k === 1 ? 'shelf' : 'shelves') : (k === 1 ? 'category' : 'categories')}`; })()}</p>
+    <p class="kicker">{v.n.toLocaleString('en-US')} entries · {(() => { const k = v.cols.filter((c) => !c.live).length; return `${k} ${k === 1 ? 'category' : 'categories'}`; })()}</p>
     <h1>{v.title}</h1>
     <p class="lead">{v.blurb}</p>
     {!isDir && <p class="small muted">{SPLIT} Reviews, interviews, clips and documents appear on the pages they belong to, and all together in the <a href="/media/">Media Library</a>.</p>}
     </div>
     <RecordArt title={v.title} motif={VERB_MOTIF[slug] ?? 'door'} />
   </header>
-  <h2 class="visually-hidden">Categories in {v.title}</h2>
+  <h2 class="visually-hidden" id="categories">Categories in {v.title}</h2>
   <div class="grid">
     {v.cols.map((c) => (
       <a class="card" href={c.href}>

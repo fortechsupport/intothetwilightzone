@@ -1,0 +1,47 @@
+---
+// Legacy, category by category (Adam's menu sheet, 2026-11-27, decision 0015): one page per category listing its
+// unofficial and inspired works, grouped by shelf. Each entry keeps its home in its category; this is a listing.
+import Base from '../../layouts/Base.astro';
+import EntryList from '../../components/EntryList.astro';
+import ListTools from '../../components/ListTools.astro';
+import { catalog, type CatInfo } from '../../lib/catalog';
+import { unofficialOf } from '../../lib/nav';
+import { LEGACY_FROM } from '../../lib/taxonomy.mjs';
+
+export async function getStaticPaths() {
+  const cats = await catalog();
+  return LEGACY_FROM.map((slug) => cats.get(slug)).filter((c) => c && unofficialOf(c).length).map((c) => ({ params: { cat: c!.slug }, props: { c: c! } }));
+}
+interface Props { c: CatInfo }
+const { c } = Astro.props;
+const all = unofficialOf(c);
+const shelves = c.subs.map((s) => ({ s, list: s.entries.filter((e) => e.official === false).sort((a, b) => a.sort.localeCompare(b.sort)) })).filter((x) => x.list.length);
+const home = c.slug === 'series' ? '/series/' : `/${c.slug}/`;
+const noun = c.title.toLowerCase();
+---
+<Base title={`${c.title}: unofficial and inspired`} description={`The unofficial and inspired entries in ${c.title}: ${all.length} works made by others about, after or inspired by The Twilight Zone.`}>
+  <div class="page-head">
+    <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/legacy/">Legacy</a></p>
+    <h1>{c.title}: unofficial and inspired</h1>
+    <p class="lead">{all.length.toLocaleString('en-US')} {all.length === 1 ? 'entry' : 'entries'} made by others about, after or inspired by the show, on {shelves.length} {shelves.length === 1 ? 'shelf' : 'shelves'}.</p>
+  </div>
+  <aside class="tz-link">
+    <h2>How this connects to The Twilight Zone</h2>
+    <p>{c.connection} Every entry here keeps its page in <a href={home}>{c.title}</a>, where the official {noun} sit on their own shelf. This page gathers only the unofficial ones.</p>
+  </aside>
+  {shelves.length > 1 && (
+    <nav class="subnav" aria-label="Shelves" data-pagefind-ignore>
+      <h2>Shelves</h2>
+      <ul>{shelves.map(({ s, list }) => <li><a href={`#${s.slug}`}>{s.title}</a> <span class="count-pill">{list.length}</span></li>)}</ul>
+    </nav>
+  )}
+  {all.length > 5 && <ListTools scope="list" noun={`unofficial ${noun}`} />}
+  <div id="list">
+    {shelves.map(({ s, list }) => (
+      <section id={s.slug}>
+        <h2><a href={`/${c.slug}/${s.slug}/`}>{s.title}</a> <span class="muted small">({list.length.toLocaleString('en-US')})</span></h2>
+        <EntryList entries={list} />
+      </section>
+    ))}
+  </div>
+</Base>

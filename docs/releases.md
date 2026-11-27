@@ -3,6 +3,19 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-27 — Collect and Legacy span every category
+
+Visitors can now:
+- Open Collect to find everything a fan can own, category by category: merchandise and home video; books, comics,
+  magazines and published scripts; score and soundtrack albums; and pinball, video, board and trivia games.
+- Open Legacy to browse what the show inspired two ways: by kind of link (homages, parodies, references,
+  adaptations, fan-made) or by category. Each category has its own page of unofficial and inspired works, from
+  Television (/legacy/series/) to Merchandise.
+
+**Known not to work yet:**
+- Legacy's category pages list works without the search filters' extra facets (type, decade) that some shelf pages
+  have; each shelf heading links to the full shelf.
+
 ## 2026-11-27 — History joins Events
 
 Visitors can now:
@@ -35,7 +48,6 @@ Visitors can now:
 - Keep using old links: /watch/ now opens View and /discover/ opens Legacy.
 
 **Known not to work yet:**
-- Collect and Legacy do not yet list every category; they show the merchandise shelves and the kinds of homage.
 
 ## 2026-11-26 — Five era themes
 

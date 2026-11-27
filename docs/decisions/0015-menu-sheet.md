@@ -21,9 +21,11 @@ Supersedes the verb list of decision 0011 and the Play and Art and design placem
   Episode of the day and fan-made games (answer 4). "Board, card and party games" splits into Board games, Card games,
   Mini golf and Trivia games (answer 3); /games/board-card-games/ redirects to Board games.
 - **Collect** and **Legacy** span every category (answer 1): Collect lists what a fan can own, category by category;
-  Legacy lists the unofficial and inspired works, category by category. Until that step ships, Collect shows
-  Merchandise's shelves and Legacy shows the relationship shelves, titled "Legacy by relationship" *(thread: so the
-  group page and the category page do not share a title)*.
+  Legacy lists the unofficial and inspired works, category by category. *(thread)* Collect's categories and shelves
+  are COLLECT_FROM in src/lib/taxonomy.mjs: Merchandise, then Books, Comics, Magazines and Scripts, Scores and
+  soundtrack albums, and the physical and video games. Legacy keeps the relationship shelves first, titled "Legacy by
+  relationship" (so the group page and the category page do not share a title) and shown as "By kind of link", then
+  one page per category (LEGACY_FROM) listing every entry marked unofficial, grouped by shelf.
 - /watch/ redirects to /view/ and /discover/ to /legacy/; /attend/ and /visit/ keep pointing at Events and Places.
 
 ## Why

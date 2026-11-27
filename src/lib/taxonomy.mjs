@@ -516,8 +516,8 @@ export const VERBS = [
   { slug: 'listen', title: 'Listen', blurb: 'Songs, soundtracks and the theme, radio dramas, podcasts and lectures.', order: ['music', 'radio', 'podcasts', 'lectures'] },
   { slug: 'read', title: 'Read', blurb: 'Scripts, books, comics, magazines, articles and essays, and the stories behind the episodes.' },
   { slug: 'play', title: 'Play', blurb: 'Pinball, video games, board and card games, mini golf, and games to play here: trivia and Six Degrees.' },
-  { slug: 'collect', title: 'Collect', blurb: 'Home video, toys, trading cards, posters, screen-used props and every other collectible.' },
-  { slug: 'legacy', title: 'Legacy', blurb: 'Everything it inspired: homages, parodies, references, adaptations and fan-made work.' },
+  { slug: 'collect', title: 'Collect', blurb: 'Everything a fan can own, category by category: merchandise and home video, books, comics and magazines, soundtrack albums and games.' },
+  { slug: 'legacy', title: 'Legacy', blurb: 'Everything it inspired, by kind of link and category by category: homages, parodies, references, adaptations and fan-made work.' },
 ].map((g) => {
   const rank = (c) => { const i = (g.order ?? []).indexOf(c.slug); return i < 0 ? Infinity : i; };
   const categories = TAXONOMY.filter((c) => c.group === g.slug).sort((a, b) => rank(a) - rank(b) || byTitle(a, b));
@@ -529,6 +529,16 @@ export const verbOf = (catSlug) => VERBS.find((v) => v.categories.some((c) => c.
 /** Old group pages and the verb that replaced each. */
 export const OLD_GROUPS = { screen: 'view', audio: 'listen', print: 'read', games: 'play', live: 'meet', art: 'collect', legacy: 'legacy' };
 /** Reading subcategories that are topics, not formats: shown as collections on Read. */
+/** Collect (Adam's menu sheet, 2026-11-27: "{All categories}"): the shelves of each category that hold things a fan can
+ * own, in menu order. Merchandise lists every shelf. */
+export const COLLECT_FROM = [
+  ['merchandise', null],
+  ['reading', ['books', 'comics', 'magazines', 'scripts']],
+  ['music', ['soundtracks']],
+  ['games', ['pinball-arcade', 'video-games', 'board-games', 'card-games', 'trivia-games']],
+];
+/** Legacy (same sheet): every category with unofficial and inspired works, in menu order; each gets /legacy/<slug>/. */
+export const LEGACY_FROM = ['series', 'movies', 'stage', 'artwork', 'music', 'radio', 'podcasts', 'lectures', 'reading', 'games', 'merchandise'];
 /** Categories merged into another, and where their landing pages now point (shelves redirect through MOVES). */
 export const MERGED_CATEGORIES = { history: '/events/' };
 /** Retired menu groups and where their old pages now point: Attend and Visit (2026-11-26), then Watch and Discover
