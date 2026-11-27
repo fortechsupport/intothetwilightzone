@@ -3,6 +3,23 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-27 — Nightly photos: 41 more pictures
+
+Visitors can now:
+- See 27 more credited portraits on people's pages, among them Buster Keaton, Martin Balsam, Julie Newmar, Mickey
+  Rooney, Telly Savalas, Earl Hamner, Jerome Bixby, Lucille Fletcher, Damon Knight, Gladys Cooper, Jack Warden and
+  Gail Kobe, plus second pictures of Art Carney, Vic Morrow and Ida Lupino.
+- See 14 more pictures of places and studios: the Tower of Terror at Disney's Hollywood Studios, the Recreation Park carousel and
+  the Forum Theatre in Binghamton, Sage Chapel at Cornell, the Westport library, Point Dume, Lone Pine and the
+  Alabama Hills, Desolation Canyon in Death Valley, Universal's Courthouse Square, the UCLA library that holds the
+  Serling papers, the Directors Guild of America and the Paramount gate. Each picture names its photographer, its
+  license and where it came from, and is listed on the picture credits page.
+
+**Known not to work yet:**
+- 14 checked pictures are still waiting for the next nightly run (Edward Binns's failed to download tonight).
+- Three pictures were left out after a look: a Lone Pine Creek stream gauge (doesn't show the Alabama Hills location),
+  a Warner Bros. parking lot (nothing identifies the studio) and a Peter Falk premiere photo (his face is hidden).
+
 ## 2026-11-27 — Collect and Legacy span every category
 
 Visitors can now:

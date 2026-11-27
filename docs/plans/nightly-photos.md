@@ -48,6 +48,12 @@ nightly photo task can be switched off.
 - 2026-11-26 run: the fetch script now uses the first accepted license when a file carries several (the UCLA library
   photo is GFDL and CC BY-SA 4.0 and was skipped as GFDL-only), and writes the Creative Commons link from the license
   name.
+- 2026-11-27 run: left out after a look, and removed from the list: the Lone Pine Creek USGS gauge photo (a stream
+  gauge, not the Alabama Hills location), "Warner Bros. Studios Burbank 2019 5" (a parking lot with nothing that
+  identifies the studio) and Peter Falk at The Rose premiere (his face is hidden). Dates corrected from the Commons
+  title where the script read the upload year: Telly Savalas 1986, Gail Kobe 1959, Jack Warden "1950s". Buster
+  Keaton's Bain News Service portrait carries no date: the script read "1900", which can't be right for a photo of
+  him as a grown man (born 1895), and Commons' API was throttled, so the date was left out rather than guessed.
 
 ## Waiting on Adam
 
