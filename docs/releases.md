@@ -13,6 +13,20 @@ Visitors can now:
 
 **Known not to work yet:**
 - The typefaces Adam named (Bernhard Modern, Venus Extended, Caslon Antique) are still free look-alikes.
+
+## 2026-11-27 — Ready to launch on intothetwilightzone.com; designated DMCA agent
+
+Visitors can now:
+- Read on the copyright page (/copyright/#agent) that the site has a designated agent registered with the U.S.
+  Copyright Office (effective November 25, 2026), with a link to the Copyright Office's directory entry.
+
+Behind the scenes: docs/DEPLOY.md now launches the public site from the existing Cloudflare project, which keeps
+fan accounts, votes and uploads working on the bare domain (decision 0016).
+
+**Known not to work yet:**
+- intothetwilightzone.com still shows Bluehost until Adam moves the nameservers (steps in docs/DEPLOY.md).
+- The copyright page gives no email address for the agent yet; that waits on Adam's choice of address.
+
 ## 2026-11-27 — Nightly photos: 41 more pictures
 
 Visitors can now:
