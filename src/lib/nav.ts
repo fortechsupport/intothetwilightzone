@@ -42,12 +42,11 @@ export async function navModel(): Promise<NavVerb[]> {
     } else if (v.slug === 'meet') {
       // Meet (Adam's sheet): Organizations; People, which holds real people, characters and fans, with the forums
       // (their contents live in the accounts database, so they carry no build-time count); Places; Events, which
-      // lists History and the Timeline until History's shelves move into it (plan step 3).
-      cols = v.categories.filter((c) => c.slug !== 'history').map((c) => get(c.slug)).filter(Boolean).map((c) => c!.slug === 'places' ? placesCol(c!) : col(c!));
+      // holds History's shelves and links the Timeline.
+      cols = v.categories.map((c) => get(c.slug)).filter(Boolean).map((c) => c!.slug === 'places' ? placesCol(c!) : col(c!));
       const people = cols.find((c) => c.href === '/people/');
       if (people) people.subs.push({ title: 'Community forums', href: '/community/forum/', n: 0, live: true }, { title: 'Fan contributions', href: '/community/uploads/', n: 0, live: true });
-      const events = cols.find((c) => c.href === '/events/'), history = get('history');
-      if (events && history) { events.n += countOf(history); events.subs.push({ title: 'History', href: '/history/', n: countOf(history) }, { title: 'Timeline', href: '/timeline/', n: 0, live: true }); }
+      cols.find((c) => c.href === '/events/')?.subs.push({ title: 'Timeline', href: '/timeline/', n: 0, live: true });
     } else if (v.slug === 'collect') {
       // Collect (Adam, 2026-11-26): Merchandise's shelves shown directly, then the visitor's own collection.
       const m = get('merchandise')!;

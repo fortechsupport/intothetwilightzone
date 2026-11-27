@@ -3,6 +3,17 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-27 — History joins Events
+
+Visitors can now:
+- Find the show's history under Events, beside the gatherings: honors and awards, premieres, production and
+  broadcast history, Rod Serling's life, and the trials, lawsuits and rights.
+- Reach the Timeline from the Events menu.
+- Keep using old links: /history/ and each History shelf open the same shelf under Events.
+
+**Known not to work yet:**
+- Nothing new.
+
 ## 2026-11-27 — People in one place
 
 Visitors can now:
@@ -24,7 +35,6 @@ Visitors can now:
 - Keep using old links: /watch/ now opens View and /discover/ opens Legacy.
 
 **Known not to work yet:**
-- History is still its own item in Meet until it merges into Events.
 - Collect and Legacy do not yet list every category; they show the merchandise shelves and the kinds of homage.
 
 ## 2026-11-26 — Five era themes

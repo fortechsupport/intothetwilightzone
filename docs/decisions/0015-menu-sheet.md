@@ -11,7 +11,7 @@ Supersedes the verb list of decision 0011 and the Play and Art and design placem
   sheet's numbering, not A to Z.
 - **Meet:** Organizations, People, Places, Events. People holds real people, characters and fans, and links the
   community forums. Places keeps its Real places and Settings tabs. History merges into Events (with the Timeline
-  linked); until that step ships, History is listed after Events.
+  linked): its five shelves keep their names under /events/, and /history/ redirects.
 - **View** (replaces Watch): Television, Movies, Stage, Artwork. Art and design takes back the name **Artwork**
   (Adam's word on the sheet) and keeps its address, /artwork/.
 - **Listen:** Music, Radio, Podcasts, Lectures.

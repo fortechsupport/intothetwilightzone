@@ -51,9 +51,10 @@ function historyGroup(sub, d) {
   }
   return undefined;
 }
-/** Fill a History placement's group (and date order for premieres) when the rule that placed it gave none. */
+/** Fill a milestone's group (and date order for premieres) when the rule that placed it gave none. */
+const MILESTONES = ['honors-awards', 'premieres', 'production-history', 'serling-life', 'legal'];
 function historyDefaults(p, d) {
-  if (p.cat !== 'history') return p;
+  if (p.cat !== 'events' || !MILESTONES.includes(p.sub)) return p;
   const q = { ...p };
   if (!q.group) q.group = historyGroup(q.sub, d);
   if (q.sub === 'premieres' && !q.sort) q.sort = chronoSort(d);
@@ -169,12 +170,13 @@ export const TAXONOMY = [
     title: 'Events',
     group: 'meet',
     split: true,
-    description: 'Conventions, festivals, anniversaries, exhibitions, screenings and marathons: gatherings people could go to.',
+    description: 'Gatherings people could go to, and the milestones of the show\'s history: conventions, festivals, exhibitions, screenings, premieres, awards, production history, the trials and Rod Serling\'s life.',
     intro: [
-      "Fans have gathered around The Twilight Zone for decades: the New Year's marathons that introduced the show to new generations, Binghamton's Rod Serling festivals, conventions, and museum exhibitions. Milestones such as premieres, awards and the 1982 trial are under History.",
+      "Fans have gathered around The Twilight Zone for decades: the New Year's marathons that introduced the show to new generations, Binghamton's Rod Serling festivals, conventions, and museum exhibitions.",
+      "The show's history is here too (Adam's menu sheet, 2026-11-27, joined History to Events): it premiered on CBS on October 2, 1959; Serling won Emmys for it and it won three Hugo Awards; it was cancelled, revived and syndicated around the world. In 1982 a helicopter accident on the set of Twilight Zone: The Movie killed Vic Morrow and two child actors and led to a manslaughter trial that ended in acquittals in 1987. Each milestone is dated and sourced, and the Timeline plots them all in order.",
     ],
-    connection: 'Every event here is part of the franchise\'s own history, honors Rod Serling or the show, or is a gathering devoted to it.',
-    seeAlso: [['History', '/history/'], ['Timeline', '/timeline/']],
+    connection: 'Every event here is part of the franchise\'s own history, honors Rod Serling or the show, or is a gathering devoted to it; every milestone is part of the franchise\'s history or Serling\'s life.',
+    seeAlso: [['Timeline', '/timeline/']],
     subs: [
       { slug: 'upcoming', title: 'Coming up', isNew: true, order: 'chrono', blurb: 'Events whose dates are still ahead, worked out from each record\'s dates each time the site is built. Once an event\'s last day passes, it leaves this shelf and stays on its own.' },
       { slug: 'anniversaries-festivals', title: 'Anniversaries and festivals', groups: ['SerlingFest', 'Film festivals', 'Anniversaries and days'], blurb: 'Anniversary celebrations and festivals, including SerlingFest in Binghamton.' },
@@ -182,6 +184,12 @@ export const TAXONOMY = [
       { slug: 'conventions', title: 'Conventions and conferences', groups: ['Twilight Zone conventions', 'Conferences and symposia', 'Panels and salutes'], blurb: 'Twilight Zone conventions, Rod Serling conferences, and panels about the show at other gatherings.' },
       { slug: 'exhibitions', title: 'Exhibitions', groups: ['Museum exhibits', 'Art exhibitions'], blurb: 'Museum shows and exhibits about Serling and the series, and art shows inspired by it.' },
       { slug: 'other-events', title: 'Other events', blurb: 'Events that fit no other group.' },
+      // History's shelves (Adam's menu sheet, 2026-11-27: Events "combines History and Events").
+      { slug: 'honors-awards', title: 'Honors and awards', groups: HONOR_GROUPS, blurb: 'Emmys, Hugos, halls of fame, stamps and other honors to Serling and the show.', intro: 'Serling won six Emmys, three of them before The Twilight Zone, and the show won Hugo Awards in 1960, 1961 and 1962. Later honors include the Television Academy Hall of Fame and a star on the Hollywood Walk of Fame.' },
+      { slug: 'premieres', title: 'Premieres', order: 'chrono', orderNote: 'In date order, from the 1958 pilot play on.', blurb: 'Premieres of the series, revivals, films, the play and the Tower of Terror.' },
+      { slug: 'production-history', title: 'Production and broadcast history', groups: PRODUCTION_GROUPS, blurb: 'Dated milestones in how each series was made, scheduled and syndicated.', intro: 'From the history notes on each series and film: pilots, renewals, format changes, cancellations and syndication.' },
+      { slug: 'serling-life', title: "Rod Serling's life", isNew: true, blurb: 'Dated events in Serling\'s life, from his birth in 1924 to his death in 1975.' },
+      { slug: 'legal', title: 'Trials, lawsuits and rights', isNew: true, blurb: 'The 1982 accident trial, lawsuits and credit disputes, sponsor censorship, and who has owned the franchise.', intro: 'The 1982 helicopter accident on the set of Twilight Zone: The Movie killed Vic Morrow and two child actors and led to a manslaughter trial that ended in acquittals in 1987. Rights to the series passed from Cayuga Productions to CBS; writers disputed credits; and Serling fought sponsors over what he could say.' },
     ],
   },
   {
@@ -412,7 +420,7 @@ export const TAXONOMY = [
       { slug: 'homages', title: 'Homages', blurb: 'Deliberate tributes to an episode or the show.' },
       { slug: 'in-other-shows', title: 'In other shows', blurb: 'Episodes, segments and sketches of other series that adapt, spoof or reference the show.' },
       { slug: 'inspired-by', title: 'Inspired by', blurb: 'Works whose makers, or published sources, say an episode inspired them.' },
-      { slug: 'in-everyday-language', title: 'In everyday language', isNew: true, blurb: 'Catchphrases, the theme as shorthand, dictionary entries and public figures invoking the show. Rankings of the show are under History > Honors.', intro: 'Few television shows have changed the language. "Twilight zone" is now an ordinary phrase for anything uncanny, the theme is hummed to mean "something strange is going on", and lines such as "It\'s a cookbook!" are quoted by people who have never seen the episodes.' },
+      { slug: 'in-everyday-language', title: 'In everyday language', isNew: true, blurb: 'Catchphrases, the theme as shorthand, dictionary entries and public figures invoking the show. Rankings of the show are under Events > Honors and awards.', intro: 'Few television shows have changed the language. "Twilight zone" is now an ordinary phrase for anything uncanny, the theme is hummed to mean "something strange is going on", and lines such as "It\'s a cookbook!" are quoted by people who have never seen the episodes.' },
       { slug: 'parodies', title: 'Parodies', blurb: 'Spoofs and send-ups.' },
       { slug: 'references', title: 'References', groups: ['Confirmed by its makers', 'Documented', 'Noted by fans'], blurb: 'Passing references, quotations and lyric mentions, grouped by how well each is documented.' },
     ],
@@ -461,27 +469,6 @@ export const TAXONOMY = [
   },
   // ---- Categories added during research (flagged new) ----
   {
-    slug: 'history',
-    title: 'History',
-    group: 'meet',
-    isNew: true,
-    split: true,
-    description: 'Milestones: premieres, awards, production and broadcast history, trials and rights, and Rod Serling\'s life.',
-    intro: [
-      "The Twilight Zone premiered on CBS on October 2, 1959. Serling won Emmys for it, it won three Hugo Awards, and it was cancelled, revived and syndicated around the world. In 1982 a helicopter accident on the set of Twilight Zone: The Movie killed Vic Morrow and two child actors and led to a manslaughter trial that ended in acquittals in 1987.",
-      'Each milestone is dated and sourced, and the Timeline plots them all in order.',
-    ],
-    connection: 'Every milestone is part of the franchise\'s own history or Rod Serling\'s life.',
-    seeAlso: [['Timeline', '/timeline/'], ['Events', '/events/']],
-    subs: [
-      { slug: 'honors-awards', title: 'Honors and awards', groups: HONOR_GROUPS, blurb: 'Emmys, Hugos, halls of fame, stamps and other honors to Serling and the show.', intro: 'Serling won six Emmys, three of them before The Twilight Zone, and the show won Hugo Awards in 1960, 1961 and 1962. Later honors include the Television Academy Hall of Fame and a star on the Hollywood Walk of Fame.' },
-      { slug: 'premieres', title: 'Premieres', order: 'chrono', orderNote: 'In date order, from the 1958 pilot play on.', blurb: 'Premieres of the series, revivals, films, the play and the Tower of Terror.' },
-      { slug: 'production-history', title: 'Production and broadcast history', groups: PRODUCTION_GROUPS, blurb: 'Dated milestones in how each series was made, scheduled and syndicated.', intro: 'From the history notes on each series and film: pilots, renewals, format changes, cancellations and syndication.' },
-      { slug: 'serling-life', title: "Rod Serling's life", isNew: true, blurb: 'Dated events in Serling\'s life, from his birth in 1924 to his death in 1975.' },
-      { slug: 'legal', title: 'Trials, lawsuits and rights', isNew: true, blurb: 'The 1982 accident trial, lawsuits and credit disputes, sponsor censorship, and who has owned the franchise.', intro: 'The 1982 helicopter accident on the set of Twilight Zone: The Movie killed Vic Morrow and two child actors and led to a manslaughter trial that ended in acquittals in 1987. Rights to the series passed from Cayuga Productions to CBS; writers disputed credits; and Serling fought sponsors over what he could say.' },
-    ],
-  },
-  {
     slug: 'stage',
     title: 'Stage',
     group: 'view',
@@ -524,7 +511,7 @@ const byTitle = (a, b) => sortKey(a.title).localeCompare(sortKey(b.title));
 // The menu is Adam's sheet (2026-11-27, decision 0015): seven groups in this order, each listing its categories in
 // the order he numbered them (`order`); a category it leaves out follows A to Z.
 export const VERBS = [
-  { slug: 'meet', title: 'Meet', blurb: 'The organizations and people behind it, its characters and fans, the places real and imagined, and its events and history.', order: ['organizations', 'people', 'places', 'events', 'history'] },
+  { slug: 'meet', title: 'Meet', blurb: 'The organizations and people behind it, its characters and fans, the places real and imagined, and its events and history.', order: ['organizations', 'people', 'places', 'events'] },
   { slug: 'view', title: 'View', blurb: 'TV series and episodes, movies, documentaries, the stage, and the art and design.', order: ['series', 'movies', 'stage', 'artwork'] },
   { slug: 'listen', title: 'Listen', blurb: 'Songs, soundtracks and the theme, radio dramas, podcasts and lectures.', order: ['music', 'radio', 'podcasts', 'lectures'] },
   { slug: 'read', title: 'Read', blurb: 'Scripts, books, comics, magazines, articles and essays, and the stories behind the episodes.' },
@@ -542,6 +529,8 @@ export const verbOf = (catSlug) => VERBS.find((v) => v.categories.some((c) => c.
 /** Old group pages and the verb that replaced each. */
 export const OLD_GROUPS = { screen: 'view', audio: 'listen', print: 'read', games: 'play', live: 'meet', art: 'collect', legacy: 'legacy' };
 /** Reading subcategories that are topics, not formats: shown as collections on Read. */
+/** Categories merged into another, and where their landing pages now point (shelves redirect through MOVES). */
+export const MERGED_CATEGORIES = { history: '/events/' };
 /** Retired menu groups and where their old pages now point: Attend and Visit (2026-11-26), then Watch and Discover
  * (Adam's menu sheet, 2026-11-27). */
 export const RETIRED_VERBS = { attend: '/events/', visit: '/places/', watch: '/view/', discover: '/legacy/' };
@@ -718,7 +707,7 @@ const ALIASES = {
 };
 /**
  * The nine-verb structure (Adam, 2026-11-21) moved some subcategories. Every placement, however it was
- * made, passes through here: milestones go from Events to History, attractions from Stage to Places,
+ * made, passes through here: milestones went from Events to History (and back in 2026-11-27), attractions from Stage to Places,
  * composers from Music to People, and two one-record subcategories fold into their neighbours.
  */
 const MOVES = {
@@ -726,11 +715,12 @@ const MOVES = {
   'games/board-card-games': ['games', 'board-games'],
   // Television (2026-11-21): TV series and TV episodes became one category.
   'episodes/tv': ['series', 'episodes'],
-  'events/honors-awards': ['history', 'honors-awards'],
-  'events/premieres': ['history', 'premieres'],
-  'events/production-history': ['history', 'production-history'],
-  'events/serling-life': ['history', 'serling-life'],
-  'events/legal': ['history', 'legal'],
+  // Adam's menu sheet (2026-11-27): History's shelves joined Events, where they had first been (2026-11-21).
+  'history/honors-awards': ['events', 'honors-awards'],
+  'history/premieres': ['events', 'premieres'],
+  'history/production-history': ['events', 'production-history'],
+  'history/serling-life': ['events', 'serling-life'],
+  'history/legal': ['events', 'legal'],
   'stage/attractions': ['places', 'attractions'],
   'music/composers': ['people', 'composers'],
   'places/lecture-event-venues': ['places', 'venues'],
@@ -989,7 +979,7 @@ export function place(col, id, d, ctx = {}) {
       else if (!d.kind && /\bfest\b|festival|serlingfest/i.test(d.name ?? '')) add('events', 'anniversaries-festivals', /serlingfest/i.test(d.name ?? '') ? 'SerlingFest' : 'Film festivals');
       else {
         add('places', LOC_SUB[d.kind] ?? 'real-life', d.kind === 'filming-location' ? filmingShow(d) : d.kind === 'attraction' ? (/tower of terror/i.test(d.name ?? '') ? 'The Tower of Terror' : 'Experiences') : undefined);
-        if (d.kind === 'memorial') add('history', 'honors-awards', 'Memorials');
+        if (d.kind === 'memorial') add('events', 'honors-awards', 'Memorials');
         if (d.kind === 'museum-exhibit') add('events', 'exhibitions', 'Museum exhibits');
       }
       break;
@@ -1118,12 +1108,12 @@ function placeWork(d, st, add, id) {
       if (/museum|exhibit/.test(st)) add('events', 'exhibitions', 'Museum exhibits');
       return;
     case 'event':
-      // Attend plan (docs/plans/research-attend.md, section 2): Events lists gatherings; milestones go to History.
+      // Attend plan (docs/plans/research-attend.md, section 2): Events lists gatherings; milestones go to its History shelves.
       // Finish-open-items plan (2026-11-24): an event still to come is also listed under Coming up.
       if (st !== 'history' && isUpcoming(d)) add('events', 'upcoming');
       if (st === 'history') {
         if (/accident/.test(lc(d.title))) add('events', 'legal', 'The 1982 accident and trial');
-        else if (!(d.categories ?? []).length) add('history', /serling/i.test(d.title ?? '') ? 'serling-life' : 'production-history');
+        else if (!(d.categories ?? []).length) add('events', /serling/i.test(d.title ?? '') ? 'serling-life' : 'production-history');
         return;
       }
       if (/honor|award|stamp/.test(st)) add('events', 'honors-awards');
@@ -1197,7 +1187,7 @@ function placeWork(d, st, add, id) {
       // Collect plan, section 2: what used to fall into "Other merchandise" goes where it belongs.
       else if (/home-video|dvd|blu|laserdisc|vhs/.test(st)) add('merchandise', 'home-media', homeVideoShow(d.title));
       else if (/script-archive|auction/.test(st)) add('artwork', 'props-costumes', 'Sold at auction');
-      else if (/stock-music-library/.test(st)) add('history', 'production-history');
+      else if (/stock-music-library/.test(st)) add('events', 'production-history');
       else if (/theme-use/.test(st)) add('homages', 'in-everyday-language', 'The theme as shorthand');
       else if (st === 'book') add('reading', 'books', 'Scholarship and criticism');
       else if (/dub|international/.test(st)) add('series', 'international');
@@ -1285,8 +1275,8 @@ export function isOfficial(col, d, p, ctx = {}) {
     // Discover plan: a remake made for a later Twilight Zone series is the franchise remaking itself.
     case 'homages/adaptations-remakes': return d.kind === 'official-adaptation' || (d.kind === 'remake' && /^(1959|1985|2002|2019)\//.test(d.from ?? '')) || off;
     case 'lectures/serling-lectures': return true;
-    case 'history/premieres': case 'history/production-history': case 'history/honors-awards': case 'history/serling-life':
-    case 'history/legal': case 'events/broadcasts-marathons': return true;
+    case 'events/premieres': case 'events/production-history': case 'events/honors-awards': case 'events/serling-life':
+    case 'events/legal': case 'events/broadcasts-marathons': return true;
     default: break;
   }
   if (p.cat === 'homages') return false;
