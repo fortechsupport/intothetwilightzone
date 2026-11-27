@@ -56,3 +56,12 @@ Updates decision 0010.
 - **Following the device's light or dark setting:** Adam asked for the five themes only, all dark. Print stays light.
 - **Gradient-filled titles like the 1983 poster's:** contrast tools can't measure text filled with a gradient, so the
   titles are a solid silver with a warm halo instead.
+
+## Changed 2026-11-27 (Adam)
+
+- **1985 series** blends purple with black instead of shades of purple ("the theme should blend purple and black
+  like the image i provided"). The background, panels and lines are near-black; the violet is light: a glow from the
+  side walls and through the middle, falling off into black at the top and bottom, as on the key art. Text is near
+  white, links and highlights lavender.
+- **Headings in every theme:** h1 and h2 use the theme's own display face; h3 and smaller use Jost, the shared
+  interface face, at weight 600 ("H3, H4, H5, etc should use a clean (easy-to-read) font shared by all themes").

@@ -71,7 +71,8 @@ to every change, by every person or Claude thread. They come from how Adam's Sey
   1983 movie, 1985 series, 2002 series and 2019 series, each drawn from its era's key art
   (decisions 0010 and 0014). They evoke an era by palette, type and texture only, never the shows' logos, title
   designs or art, and pass the same contrast checks. Printing uses dark ink on white paper (`print` in the tokens).
-- Type: Linden Hill for headings and the brand (1959, 2019; standing in for Bernhard Modern) with Lexend Giga labels
+- Type: h1 and h2 take the theme's display face; h3 and smaller are Jost 600 in every theme (Adam, 2026-11-27).
+  Linden Hill for headings and the brand (1959, 2019; standing in for Bernhard Modern) with Lexend Giga labels
   (for Venus Extended); IM Fell English (1983); IM Fell Double Pica (1985, for Caslon Antique); Cinzel (2002); Jost
   for text and interface; Courier Prime for narration and teleplay excerpts. All self-hosted in `public/fonts/` (SIL
   Open Font License); the commercial faces Adam named need a web licence before they can be hosted.

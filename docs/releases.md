@@ -3,6 +3,16 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-27 — The 1985 theme in purple and black; easier small headings
+
+Visitors can now:
+- See the 1985 series theme as black with violet light glowing in from the sides and through the middle, closer to
+  the series' key art, instead of all shades of purple.
+- Read section titles below the main headings (h3 and smaller) in the same clean typeface in every theme; page
+  titles and main section headings keep each era's typeface.
+
+**Known not to work yet:**
+- The typefaces Adam named (Bernhard Modern, Venus Extended, Caslon Antique) are still free look-alikes.
 ## 2026-11-27 — Nightly photos: 41 more pictures
 
 Visitors can now:
