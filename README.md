@@ -40,7 +40,7 @@ policy and the footer disclaimer in `src/layouts/Base.astro`.
 - Output directory: `dist`
 - Node version: 22 (`.node-version`)
 - Production (`main`) builds show only included records; preview branches show pending ones too.
-  `REVIEW_MODE=preview` forces a preview build (used by preview.intothetwilightzone.com).
+  `REVIEW_MODE` forces a mode (`public` on the production site, see docs/DEPLOY.md).
 - `public/_redirects` maps old WordPress URLs to the new pages with 301s; `public/_headers` sets
   security headers and keeps `*.pages.dev` out of search engines.
 - Full setup, DNS and launch steps: [docs/DEPLOY.md](docs/DEPLOY.md).

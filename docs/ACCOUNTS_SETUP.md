@@ -6,7 +6,7 @@ on the free plan: a **D1** database, an **R2** bucket for uploaded files, and **
 page says "being set up" and the rest of the site works as before.
 
 Everything here is done once, in the Cloudflare dashboard, in about 15 minutes. Do step 4 twice: once with
-the environment menu (top right of Settings) on **Production**, which serves preview.intothetwilightzone.com,
+the environment menu (top right of Settings) on **Production**, which serves intothetwilightzone.com (preview.intothetwilightzone.com until launch),
 and once on **Preview**, which serves the branch previews. (Done by Adam on 2026-11-25.)
 
 ## 1. Create the database (D1)
