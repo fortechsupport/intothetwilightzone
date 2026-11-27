@@ -14,10 +14,11 @@ import { movieFacets } from '../../lib/facets';
 
 export async function getStaticPaths() {
   const cats = await catalog();
-  // An empty shelf gets no page (the category page already hides it), so no visitor lands on an empty list.
+  // An empty shelf gets no page (the category page already hides it), so no visitor lands on an empty list, unless
+  // Adam asked for it by name (keepEmpty: Card games, menu sheet 2026-11-27), where the page says what was searched.
   // Pages with their own design at a shelf's address: /series/twilight-zone/ (src/pages/series/twilight-zone.astro).
   const OWN = new Set(['series/twilight-zone']);
-  return [...cats.values()].flatMap((c) => c.subs.filter((s) => s.entries.length > 0 && !OWN.has(`${c.slug}/${s.slug}`)).map((s) => ({ params: { cat: c.slug, sub: s.slug }, props: { c, s } })));
+  return [...cats.values()].flatMap((c) => c.subs.filter((s) => (s.entries.length > 0 || s.keepEmpty) && !OWN.has(`${c.slug}/${s.slug}`)).map((s) => ({ params: { cat: c.slug, sub: s.slug }, props: { c, s } })));
 }
 interface Props { c: CatInfo; s: SubInfo }
 const { c, s } = Astro.props;
@@ -93,7 +94,7 @@ const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
       <p class="small muted">{split && 'Official items were made, broadcast, licensed or published by the franchise or by Rod Serling; the rest were made by others about, after or inspired by the show. '}{chrono ? (s.orderNote ?? 'Seasons and episodes are in series order.') : <>{s.groups ? 'Groups are in the order shown, with catch-all groups last.' : 'Groups are alphabetical, with catch-all and unconfirmed groups last.'} Entries are alphabetical, ignoring a leading "The", "A" or "An".</>}</p>
     </nav>
   )}
-  {!s.entries.length && <p class="muted">No entries yet. Research is under way.</p>}
+  {!s.entries.length && <p class="muted">No entries yet. <a href="/contribute/">Suggest one</a>.</p>}
   {s.entries.length > 5 && (
     <ListTools scope="list" noun={s.title.toLowerCase()} groups={[...new Set(s.entries.map((e) => e.group).filter(Boolean) as string[])].sort((a, b) => rank(a).localeCompare(rank(b), undefined, { numeric: true }))} sides={split} tiers={new Set(s.entries.map((e) => e.tier ?? 'core')).size > 1} years={s.entries.some((e) => /\b(1[89]\d\d|20\d\d)\b/.test(e.meta ?? ''))} groupLabel={c.slug === 'series' && s.slug === 'homages' ? 'Show' : s.slug === 'rod-serling-films' ? "Serling's part" : s.groups?.some((g) => /Twilight Zone|Night Gallery/.test(g)) ? 'Show or film' : 'Group'} facets={facetDefs} orderLabels={chrono ? [s.orderNote ? 'Date order' : 'Series order', 'Reverse order'] : undefined} />
   )}

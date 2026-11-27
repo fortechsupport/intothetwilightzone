@@ -31,7 +31,7 @@ const parts = [eps.length && `${eps.length} Twilight Zone ${eps.length === 1 ? '
 const sec = [eps.length && ['episodes', 'Twilight Zone'], segs.length && ['night-gallery', 'Night Gallery'], works.length && ['homages', 'Homages and works']].filter(Boolean) as [string, string][];
 ---
 <Base title={`${t.label}: a Twilight Zone theme`} description={`${t.desc} ${parts.join(', ')}.`}>
-  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/discover/">Discover</a> / <a href="/themes/">Themes</a> / <a href={`/themes/#${family.slug}`}>{t.family}</a></p>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/view/">View</a> / <a href="/series/">Television</a> / <a href="/themes/">Themes</a> / <a href={`/themes/#${family.slug}`}>{t.family}</a></p>
   <header class="record-head">
     <p class="eyebrow"><span class="eyebrow-in"><span class="eyebrow-type">Theme</span><span class="eyebrow-ctx">{t.family}</span></span></p>
     <h1>{t.label}</h1>

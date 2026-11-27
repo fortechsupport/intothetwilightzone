@@ -1,11 +1,11 @@
 ---
-// A verb's landing page (/watch/, /read/, /meet/...): its categories as cards, Read's collections, and the
+// A verb's landing page (/view/, /read/, /meet/...): its categories as cards, Read's collections, and the
 // people, places, organizations and media most connected to everything under it.
 import Base from '../layouts/Base.astro';
 import SectionSummary from './SectionSummary.astro';
 import RecordArt from './RecordArt.astro';
 import type { Motif } from '../lib/motifs';
-const VERB_MOTIF: Record<string, Motif> = { watch: 'tv', listen: 'radio', read: 'book', play: 'die', collect: 'disc', discover: 'door', meet: 'mask' };
+const VERB_MOTIF: Record<string, Motif> = { meet: 'mask', view: 'tv', listen: 'radio', read: 'book', play: 'die', collect: 'disc', legacy: 'door' };
 import { navModel } from '../lib/nav';
 import { catalog } from '../lib/catalog';
 import { VERBS } from '../lib/taxonomy.mjs';
@@ -22,7 +22,7 @@ const SPLIT = 'Each category shows official items (made, licensed or published b
   <header class="verb-head has-art">
     <div>
     <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a></p>
-    <p class="kicker">{v.n.toLocaleString('en-US')} entries · {v.cols.filter((c) => !c.live).length} {slug === 'collect' ? 'shelves' : 'categories'}</p>
+    <p class="kicker">{v.n.toLocaleString('en-US')} entries · {(() => { const k = v.cols.filter((c) => !c.live).length; return `${k} ${slug === 'collect' ? (k === 1 ? 'shelf' : 'shelves') : (k === 1 ? 'category' : 'categories')}`; })()}</p>
     <h1>{v.title}</h1>
     <p class="lead">{v.blurb}</p>
     {!isDir && <p class="small muted">{SPLIT} Reviews, interviews, clips and documents appear on the pages they belong to, and all together in the <a href="/media/">Media Library</a>.</p>}

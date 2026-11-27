@@ -3,6 +3,21 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-27 — The new menu
+
+Visitors can now:
+- Use the menu Adam laid out: Meet, View, Listen, Read, Play, Collect and Legacy, each with its items in his order.
+- Find organizations, people, places and events together under Meet, and Artwork beside Television, Movies and
+  Stage under View. Lectures sit under Listen.
+- Pick a kind of game straight from Play: pinball, video games, board games, card games, mini golf, trivia (the
+  site's quiz and the published trivia games) and Six Degrees, plus the Episode finder and Episode of the day.
+- Keep using old links: /watch/ now opens View and /discover/ opens Legacy.
+
+**Known not to work yet:**
+- People, characters and fans are still separate lists inside People; one directory with tabs comes next.
+- History is still its own item in Meet until it merges into Events.
+- Collect and Legacy do not yet list every category; they show the merchandise shelves and the kinds of homage.
+
 ## 2026-11-26 — Five era themes
 
 Visitors can now:

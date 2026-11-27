@@ -11,7 +11,7 @@ const preview = reviewMode() !== 'public';
 const { title, description = 'An independent, non-commercial living history of The Twilight Zone: every series, episode, person, and the films, songs and stories it inspired.', jsonld, noindex } = Astro.props;
 const fullTitle = title === 'Home' ? 'IntoTheTwilightZone.com' : `${title} · IntoTheTwilightZone.com`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
-// Navigation (Adam, 2026-11-21; seven verbs since 2026-11-26). The main bar is the verbs, each opening a panel of its categories
+// Navigation (Adam, 2026-11-21; his menu sheet since 2026-11-27, decision 0015). The main bar is the seven groups, each opening a panel of its categories
 // and their subcategories with counts (model in src/lib/nav.ts). The utility bar above holds the features;
 // its links and the footer's live in src/lib/site-links.ts. On phones the verbs fold into one Menu button.
 import { navModel } from '../lib/nav';
@@ -27,7 +27,7 @@ import { UTILITY_LINKS, FOOTER_COLUMNS, FOOTER_LINKS } from '../lib/site-links';
 import AccountSlot from '../components/AccountSlot.astro';
 const nav = UTILITY_LINKS;
 // Record pages belong to a verb too, so its tab is marked while you read one.
-const RECORD_VERB: Record<string, string> = { series: 'watch', episodes: 'watch', films: 'watch', '1959series': 'watch', '1985series': 'watch', '2002series': 'watch', '2019series': 'watch', songs: 'listen', books: 'read', comics: 'read', magazines: 'read', essays: 'read', characters: 'meet', merchandise: 'collect' };
+const RECORD_VERB: Record<string, string> = { series: 'view', episodes: 'view', films: 'view', '1959series': 'view', '1985series': 'view', '2002series': 'view', '2019series': 'view', songs: 'listen', books: 'read', comics: 'read', magazines: 'read', essays: 'read', characters: 'meet', merchandise: 'collect' };
 const path = Astro.url.pathname;
 import { correctionUrl } from '../lib/fan/contribute';
 // One "Type" filter for site search, from the first part of the address.
@@ -120,7 +120,7 @@ const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) =>
                         {(v.menu ?? v.cols).map((c) => (
                           <div class="mega-col">
                             <a class="mega-cat" href={c.href}>{c.title}{c.isNew && <span class="tag new">new</span>}</a> {!('live' in c && c.live) && <span class="n">{c.n}</span>}
-                            {c.subs.length > 0 && <ul>{c.subs.map((x) => <li><a href={x.href}>{x.title}</a> {!('live' in c && c.live) && <span class="n">{x.n}</span>}</li>)}</ul>}
+                            {c.subs.length > 0 && <ul>{c.subs.map((x) => <li><a href={x.href}>{x.title}</a> {!(('live' in c && c.live) || x.live) && <span class="n">{x.n}</span>}</li>)}</ul>}
                           </div>
                         ))}
                       </div>

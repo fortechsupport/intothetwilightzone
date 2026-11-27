@@ -13,7 +13,7 @@ const tagged = ix.episodes.filter((e) => e.themes.length).length;
 const plural = (n: number, one: string, many: string) => `${n} ${n === 1 ? one : many}`;
 ---
 <Base title="Themes" description={`The ${THEMES.length} themes of The Twilight Zone and Night Gallery, from paranoia to time travel, with every episode, segment and homage filed under each.`}>
-  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/discover/">Discover</a></p>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/view/">View</a> / <a href="/series/">Television</a></p>
   <h1>Themes</h1>
   <p class="lead">What the stories are about: {THEMES.length} themes in {FAMILIES.length} families, across {tagged} Twilight Zone episodes, {ix.segments.length} Night Gallery segments and {ix.works.length} works that point to an episode.</p>
   <p class="small muted">{THEME_NOTE} An episode’s themes come from its own keywords; a Night Gallery segment’s from its summary; a homage takes the themes of the episode it points to. Combine themes with series, writers and actors in the <a href="/finder/">episode finder</a>. Think one is wrong? <a href="/contribute/">Tell us</a>.</p>
