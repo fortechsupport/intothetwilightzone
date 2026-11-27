@@ -799,6 +799,23 @@
   source_url: https://commons.wikimedia.org/wiki/File:Joan_Crawford_Night_Gallery_1969.JPG
   source_name: Wikimedia Commons
   original_source: eBay item photo front photo back
+- id: locations-alabama-hills-lone-pine-hundred-yards-2
+  src: /media/images/locations/alabama-hills-lone-pine-hundred-yards-2.webp
+  small: /media/images/locations/alabama-hills-lone-pine-hundred-yards-2-320.webp
+  width: 640
+  height: 853
+  records:
+    - locations/alabama-hills-lone-pine-hundred-yards
+  role: place
+  title: Lone Pine with the Alabama Hills and Mount Whitney behind (2018)
+  alt: A street in Lone Pine, California, with the brown Alabama Hills and snow-capped peaks rising behind
+  date: "2018"
+  creator: Agnieszka Kwiecień, Nova
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ALone_Pine_Alabama_Hills_Mt_Whitney_2018-04-07_California_01.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
 - id: locations-almeida-theatre-twilight-zone-play
   src: /media/images/locations/almeida-theatre-twilight-zone-play.webp
   small: /media/images/locations/almeida-theatre-twilight-zone-play-320.webp
@@ -850,6 +867,23 @@
   license_reason: Licensed under CC BY-SA 3.0 by the copyright holder.
   license_url: https://creativecommons.org/licenses/by-sa/3.0/
   source_url: https://commons.wikimedia.org/wiki/File:Rod_Serling_Memorial.JPG
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-broome-county-forum-theatre
+  src: /media/images/locations/broome-county-forum-theatre.webp
+  small: /media/images/locations/broome-county-forum-theatre-320.webp
+  width: 640
+  height: 960
+  records:
+    - locations/broome-county-forum-theatre
+  role: place
+  title: Rear view of the Forum Theatre (Broome County Forum Theatre), Binghamton, from State Street (2025)
+  alt: The tall brick rear wall of the Forum Theatre in Binghamton, seen across State Street
+  date: "2025"
+  creator: Joe Mabel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ABinghamton%2C_NY_-_Forum_Theatre_%28rear_view%29.jpg
   source_name: Wikimedia Commons
   original_source: Own work
 - id: locations-camp-toccoa-currahee
@@ -906,6 +940,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ACbs_La_Studio_%2884226019%29.jpeg
   source_name: Wikimedia Commons
   original_source: 500px, via the Archive Team
+- id: locations-cecil-green-park-house-ubc
+  src: /media/images/locations/cecil-green-park-house-ubc.webp
+  small: /media/images/locations/cecil-green-park-house-ubc-320.webp
+  width: 640
+  height: 853
+  records:
+    - locations/cecil-green-park-house-ubc
+  role: place
+  title: Cecil Green Park House and Green College, University of British Columbia, aerial view (2007)
+  alt: Aerial view of Cecil Green Park House and Green College among trees at the University of British Columbia
+  date: "2007"
+  creator: JimDeLaHunt
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ACecil_Green_Park_House_and_Green_College%2C_University_of_British_Columbia%2C_aerial_view_looking_NW.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
 - id: locations-dachau-deaths-head-revisited
   src: /media/images/locations/dachau-deaths-head-revisited.webp
   small: /media/images/locations/dachau-deaths-head-revisited-320.webp
@@ -957,6 +1008,24 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ADeath_Valley_National_Park_-_Badwater_Basin_%281995%29_-_panoramio.jpg
   source_name: Wikimedia Commons
   original_source: https://web.archive.org/web/20161012070228/http://www.panoramio.com/photo/19808824
+- id: locations-desolation-canyon-death-valley
+  src: /media/images/locations/desolation-canyon-death-valley.webp
+  small: /media/images/locations/desolation-canyon-death-valley-320.webp
+  width: 640
+  height: 427
+  records:
+    - locations/desolation-canyon-death-valley
+    - locations/death-valley-national-park
+  role: place
+  title: Desolation Canyon in Death Valley National Park (2022)
+  alt: Black-and-white view up the dry, eroded floor of Desolation Canyon between bare hills
+  date: "2022"
+  creator: Clyde Charles Brown
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ADesolation_Canyon_in_Death_Valley_National_Park%2C_California%2C_US.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
 - id: locations-fairmont-empress-victoria-downtime
   src: /media/images/locations/fairmont-empress-victoria-downtime.webp
   small: /media/images/locations/fairmont-empress-victoria-downtime-320.webp
@@ -1162,6 +1231,57 @@
   source_url: https://commons.wikimedia.org/wiki/File%3APiru%2C_California_%283601010700%29.jpg
   source_name: Wikimedia Commons
   original_source: Piru, California
+- id: locations-point-dume-planet-of-the-apes
+  src: /media/images/locations/point-dume-planet-of-the-apes.webp
+  small: /media/images/locations/point-dume-planet-of-the-apes-320.webp
+  width: 640
+  height: 480
+  records:
+    - locations/point-dume-planet-of-the-apes
+  role: place
+  title: Point Dume with wildflowers (2022)
+  alt: Yellow wildflowers on the bluffs of Point Dume above a beach and the Pacific Ocean
+  date: "2022"
+  creator: Andy Gnias
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3APoint_Dume_with_wildflowers.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-recreation-park-carousel-binghamton
+  src: /media/images/locations/recreation-park-carousel-binghamton.webp
+  small: /media/images/locations/recreation-park-carousel-binghamton-320.webp
+  width: 640
+  height: 480
+  records:
+    - locations/recreation-park-carousel-binghamton
+  role: place
+  title: Carousel in George F. Johnson Recreation Park, Binghamton, New York (2011)
+  alt: The wooden carousel horses and painted canopy of the Recreation Park carousel, behind a fence with a list of carousel rules
+  date: "2011"
+  creator: Ammodramus
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AGeorge_F._Johnson_Recreation_Park_Carousel_1.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-recreation-park-carousel-binghamton-2
+  src: /media/images/locations/recreation-park-carousel-binghamton-2.webp
+  small: /media/images/locations/recreation-park-carousel-binghamton-2-320.webp
+  width: 640
+  height: 386
+  records:
+    - locations/recreation-park-carousel-binghamton
+  role: place
+  title: Carousel in George F. Johnson Recreation Park, Binghamton, New York (2011)
+  alt: The round pavilion that houses the Recreation Park carousel in Binghamton, among bare trees
+  date: "2011"
+  creator: Ammodramus
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AGeorge_F._Johnson_Recreation_Park_Carousel_2.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
 - id: locations-rod-serling-grave-lake-view-cemetery
   src: /media/images/locations/rod-serling-grave-lake-view-cemetery.webp
   small: /media/images/locations/rod-serling-grave-lake-view-cemetery-320.webp
@@ -1215,6 +1335,22 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ARogers_Arena_%28Vancouver%29.jpg
   source_name: Wikimedia Commons
   original_source: Own work
+- id: locations-sage-chapel-cornell-serling-memorial
+  src: /media/images/locations/sage-chapel-cornell-serling-memorial.webp
+  small: /media/images/locations/sage-chapel-cornell-serling-memorial-320.webp
+  width: 640
+  height: 403
+  records:
+    - locations/sage-chapel-cornell-serling-memorial
+  role: place
+  title: Sage Chapel, Cornell University, on a postcard (about 1903)
+  alt: Coloured postcard of Sage Chapel, a red brick Gothic Revival chapel on a lawn at Cornell University
+  date: "1903"
+  creator: Souvenir Post Card Co., New York City (publisher)
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3ACornell_-_Sage_Chapel_01.jpg
+  source_name: Wikimedia Commons
+  original_source: Digital scan of postcard
 - id: locations-suny-broome-community-college
   src: /media/images/locations/suny-broome-community-college.webp
   small: /media/images/locations/suny-broome-community-college-320.webp
@@ -1230,6 +1366,57 @@
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   source_url: https://commons.wikimedia.org/wiki/File%3ABroome_Community_College_Library_front.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-tower-of-terror-disneys-hollywood-studios
+  src: /media/images/locations/tower-of-terror-disneys-hollywood-studios.webp
+  small: /media/images/locations/tower-of-terror-disneys-hollywood-studios-320.webp
+  width: 640
+  height: 427
+  records:
+    - locations/tower-of-terror-disneys-hollywood-studios
+  role: place
+  title: The Twilight Zone Tower of Terror at Disney's Hollywood Studios (2024)
+  alt: The pink Hollywood Tower Hotel building of the Tower of Terror ride behind tall palm trees
+  date: "2024"
+  creator: Jedi94
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AThe_Twilight_Zone_Tower_of_Terror%2C_2024.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: locations-universal-courthouse-square
+  src: /media/images/locations/universal-courthouse-square.webp
+  small: /media/images/locations/universal-courthouse-square-320.webp
+  width: 640
+  height: 666
+  records:
+    - locations/universal-courthouse-square
+  role: place
+  title: Courthouse Square on the Universal Studios backlot, dressed for Back to the Future (1991)
+  alt: The columned brick courthouse facade of Courthouse Square on the Universal Studios backlot
+  date: "1991"
+  creator: stephansanders (Stephansanders)
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AUniversal_Studios%2C_1991%2C_Back_To_The_Future%2C_Courthouse_Square_1.jpg
+  source_name: Wikimedia Commons
+  original_source: Flickr (stephansanders)
+- id: locations-westport-library
+  src: /media/images/locations/westport-library.webp
+  small: /media/images/locations/westport-library-320.webp
+  width: 640
+  height: 264
+  records:
+    - locations/westport-library
+  role: place
+  title: Westport Public Library seen across the Saugatuck River (2011)
+  alt: The brick Westport Public Library on the far bank of the Saugatuck River
+  date: "2011"
+  creator: WestportWiki
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AWestport_Public_Library.jpg
   source_name: Wikimedia Commons
   original_source: Own work
 - id: locations-zabriskie-point-death-valley
@@ -1316,6 +1503,24 @@
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   source_url: https://commons.wikimedia.org/wiki/File%3ACBS_Building_Jul_2021_01.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: organizations-directors-guild-of-america
+  src: /media/images/organizations/directors-guild-of-america.webp
+  small: /media/images/organizations/directors-guild-of-america-320.webp
+  width: 640
+  height: 963
+  records:
+    - organizations/directors-guild-of-america
+  role: organization
+  title: Headquarters of the Directors Guild of America, 7920 Sunset Boulevard, Hollywood (2006)
+  alt: The curved, copper-coloured glass tower of the Directors Guild of America headquarters on Sunset Boulevard
+  date: "2006"
+  creator: Mike Dillon
+  creator_note: No machine-readable author provided. Mike Dillon assumed (based on copyright claims).
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ADirectors_Guild_of_America_HQ.jpg
   source_name: Wikimedia Commons
   original_source: Own work
 - id: organizations-elmira-college
@@ -1406,6 +1611,40 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AParamount_Filmstudios_Hollywood_%2822223007126%29.jpg
   source_name: Wikimedia Commons
   original_source: Paramount Filmstudios Hollywood
+- id: organizations-paramount-2
+  src: /media/images/organizations/paramount-2.webp
+  small: /media/images/organizations/paramount-2-320.webp
+  width: 640
+  height: 818
+  records:
+    - organizations/paramount
+  role: organization
+  title: Paramount Pictures studio gate, about 1940
+  alt: A crowd outside the ornate arched gate of Paramount Pictures, with the studio name above the arch
+  date: "1940"
+  creator: Life Magazine
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AParamount_Pictures_studio_gate%2C_c._1940.jpg
+  source_name: Wikimedia Commons
+  original_source: Life magazine
+- id: organizations-ucla-library-special-collections
+  src: /media/images/organizations/ucla-library-special-collections.webp
+  small: /media/images/organizations/ucla-library-special-collections-320.webp
+  width: 640
+  height: 371
+  records:
+    - organizations/ucla-library-special-collections
+    - locations/ucla-rod-serling-papers
+  role: organization
+  title: Charles E. Young Research Library, UCLA (2019)
+  alt: The Charles E. Young Research Library at UCLA, a white modernist building with a flat-roofed entrance canopy, among trees
+  date: "2019"
+  creator: Beyond My Ken
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3A2019_UCLA_Charles_E._Young_Research_Library.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
 - id: people-abner-biberman
   src: /media/images/people/abner-biberman.webp
   small: /media/images/people/abner-biberman-320.webp
@@ -1457,6 +1696,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AAlbert_Brooks_at_%27Drive%27_premiere_TIFF_9.10.11.jpg
   source_name: Wikimedia Commons
   original_source: Flickr, "Drive" premiere, Toronto International Film Festival
+- id: people-ana-lily-amirpour
+  src: /media/images/people/ana-lily-amirpour.webp
+  small: /media/images/people/ana-lily-amirpour-320.webp
+  width: 640
+  height: 821
+  records:
+    - people/ana-lily-amirpour
+  role: portrait
+  title: Ana Lily Amirpour (2017)
+  alt: Ana Lily Amirpour, smiling, in a white cap and black shirt at a press event
+  date: "2017"
+  creator: Moritz Barcelona from Barcelona, Catalunya
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AAna_Lily_Amirpour_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Flickr, press event for Replace and The Bad Batch
 - id: people-anne-francis
   src: /media/images/people/anne-francis.webp
   small: /media/images/people/anne-francis-320.webp
@@ -1474,6 +1730,39 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AAnne_Francis_Honey_West_1965.JPG
   source_name: Wikimedia Commons
   original_source: Original press photograph, front and back scanned (sold on eBay)
+- id: people-art-carney-2
+  src: /media/images/people/art-carney-2.webp
+  small: /media/images/people/art-carney-2-320.webp
+  width: 640
+  height: 802
+  records:
+    - people/art-carney
+  role: portrait
+  title: Publicity photo of Art Carney (1959)
+  alt: Art Carney holding a pipe, leaning on one hand and gesturing with the other
+  date: "1959"
+  creator: News service (not named)
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AArt_Carney_-_1959.jpg
+  source_name: Wikimedia Commons
+  original_source: Original publicity photograph (sold on eBay)
+- id: people-bennett-cerf
+  src: /media/images/people/bennett-cerf.webp
+  small: /media/images/people/bennett-cerf-320.webp
+  width: 640
+  height: 864
+  records:
+    - people/bennett-cerf
+  role: portrait
+  title: Portrait of Bennett Cerf by Carl Van Vechten (1932)
+  alt: Bennett Cerf, a young man in a jacket and tie, lit from the side against a dark background
+  date: "1932"
+  creator: Carl Van Vechten
+  creator_note: .mw-parser-output .commons-creator-table{background-color:#f0f0ff;box-sizing:border-box;font-size:95%;text-align:start;color:inherit}.mw-parser-output .commons-creator-table>tbody>tr{vertical-align:top}.mw-parser-output .commons-creator-table>tbody>tr>th{background-color:var(--background-color-neutral,#e0e0ee);font-weight:bold;text-align:start;color:inherit}.mw-parser-output .mw-collapsible-toggle
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3APortrait_of_Bennett_Cerf_LCCN2004662686.jpg
+  source_name: Wikimedia Commons
+  original_source: Library of Congress, Carl Van Vechten Collection (LCCN 2004662686)
 - id: people-bernard-herrmann
   src: /media/images/people/bernard-herrmann.webp
   small: /media/images/people/bernard-herrmann-320.webp
@@ -1490,6 +1779,22 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ABernard-Herrmann.jpg
   source_name: Wikimedia Commons
   original_source: Arlington Heights Herald, Arlington Heights, Illinois
+- id: people-bill-erwin
+  src: /media/images/people/bill-erwin.webp
+  small: /media/images/people/bill-erwin-320.webp
+  width: 640
+  height: 821
+  records:
+    - people/bill-erwin
+  role: portrait
+  title: Bill Erwin in a CBS press photo for Struck by Lightning (1979)
+  alt: Bill Erwin, with white hair and a moustache, smiling with his hand at his cheek
+  date: "1979"
+  creator: CBS Television
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3ABill_Erwin_%22Struck_by_Lightning%22_%281979_CBS_press_photo%29.JPG
+  source_name: Wikimedia Commons
+  original_source: Original CBS press photograph (listed on WorthPoint)
 - id: people-bill-mumy
   src: /media/images/people/bill-mumy.webp
   small: /media/images/people/bill-mumy-320.webp
@@ -1542,6 +1847,21 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ABurgess_Meredith_1938_cropped.jpg
   source_name: Wikimedia Commons
   original_source: Harris & Ewing collection, Library of Congress
+- id: people-buster-keaton
+  src: /media/images/people/buster-keaton.webp
+  small: /media/images/people/buster-keaton-320.webp
+  width: 640
+  height: 869
+  records:
+    - people/buster-keaton
+  role: portrait
+  title: Buster Keaton, Bain News Service photograph
+  alt: Studio portrait of a young Buster Keaton in a suit and tie, with his name written across the top
+  creator: Bain News Service, publisher
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3ABuster_Keaton_LCCN2014712604.jpg
+  source_name: Wikimedia Commons
+  original_source: Library of Congress, Bain News Service collection (LCCN 2014712604)
 - id: people-carol-burnett
   src: /media/images/people/carol-burnett.webp
   small: /media/images/people/carol-burnett-320.webp
@@ -1592,6 +1912,22 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ACliff_Robertson_%28november_1981%29_cropped.jpg
   source_name: Wikimedia Commons
   original_source: https://www.flickr.com/photos/alan-light/2398831418 (cropped)
+- id: people-damon-knight
+  src: /media/images/people/damon-knight.webp
+  small: /media/images/people/damon-knight-320.webp
+  width: 640
+  height: 933
+  records:
+    - people/damon-knight
+  role: portrait
+  title: Publicity photo of Damon Knight, about 1968
+  alt: Damon Knight, bearded and in glasses, smiling, captioned as the author of Orbit 3
+  date: "1968"
+  creator: Unknown photographer
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3ADamon_Knight_1968.jpg
+  source_name: Wikimedia Commons
+  original_source: Unpublished publicity photo, found in a first-edition copy of Orbit 3 (G. P. Putnam's Sons)
 - id: people-dean-stockwell
   src: /media/images/people/dean-stockwell.webp
   small: /media/images/people/dean-stockwell-320.webp
@@ -1659,6 +1995,22 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ADon_Rickles_1.jpg
   source_name: Wikimedia Commons
   original_source: DON RICKLES  ©  2010
+- id: people-earl-hamner-jr
+  src: /media/images/people/earl-hamner-jr.webp
+  small: /media/images/people/earl-hamner-jr-320.webp
+  width: 640
+  height: 845
+  records:
+    - people/earl-hamner-jr
+  role: portrait
+  title: Earl Hamner on the set of The Waltons (1976)
+  alt: Earl Hamner in a sports jacket and checked shirt, seated on a porch set
+  date: "1976"
+  creator: CBS Television
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AEarl_Hamner_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Original CBS press photograph, front and back scanned (sold on eBay)
 - id: people-earl-holliman
   src: /media/images/people/earl-holliman.webp
   small: /media/images/people/earl-holliman-320.webp
@@ -1707,6 +2059,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AElizabeth_Montgomery_-_Press_Photo_%281960%29.png
   source_name: Wikimedia Commons
   original_source: https://www.worthpoint.com/worthopedia/elizabeth-montgomery-8x10-142772003
+- id: people-eriq-la-salle
+  src: /media/images/people/eriq-la-salle.webp
+  small: /media/images/people/eriq-la-salle-320.webp
+  width: 640
+  height: 818
+  records:
+    - people/eriq-la-salle
+  role: portrait
+  title: Eriq La Salle (2012)
+  alt: Eriq La Salle, smiling, in a striped open-collared shirt
+  date: "2012"
+  creator: Kristen Lamb
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AEriq_La_Salle_2012_cropped.jpg
+  source_name: Wikimedia Commons
+  original_source: Flickr (Kristen Lamb)
 - id: people-frank-marshall
   src: /media/images/people/frank-marshall.webp
   small: /media/images/people/frank-marshall-320.webp
@@ -1724,6 +2093,22 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AFrank_Marshall_%28film_producer%29.jpg
   source_name: Wikimedia Commons
   original_source: Own work
+- id: people-gail-kobe
+  src: /media/images/people/gail-kobe.webp
+  small: /media/images/people/gail-kobe-320.webp
+  width: 640
+  height: 806
+  records:
+    - people/gail-kobe
+  role: portrait
+  title: NBC press photo of Gail Kobe (1959)
+  alt: Gail Kobe in a pearl necklace and fur wrap, looking down to the side
+  date: "1959"
+  creator: NBC television network
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AGail_Kobe_1959.jpg
+  source_name: Wikimedia Commons
+  original_source: Original NBC press photograph, front and back scanned (sold on eBay)
 - id: people-george-clayton-johnson
   src: /media/images/people/george-clayton-johnson.webp
   small: /media/images/people/george-clayton-johnson-320.webp
@@ -1759,6 +2144,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AGeorge_Takei_GalaxyCon_San_Jose_August-30-2026_270.jpg
   source_name: Wikimedia Commons
   original_source: Own work
+- id: people-gladys-cooper
+  src: /media/images/people/gladys-cooper.webp
+  small: /media/images/people/gladys-cooper-320.webp
+  width: 640
+  height: 939
+  records:
+    - people/gladys-cooper
+  role: portrait
+  title: Portrait of Gladys Cooper by Carl Van Vechten (1934)
+  alt: Gladys Cooper seated in profile, head tilted back, in a dark studio portrait
+  date: "1934"
+  creator: Carl Van Vechten
+  creator_note: .mw-parser-output .commons-creator-table{background-color:#f0f0ff;box-sizing:border-box;font-size:95%;text-align:start;color:inherit}.mw-parser-output .commons-creator-table>tbody>tr{vertical-align:top}.mw-parser-output .commons-creator-table>tbody>tr>th{background-color:var(--background-color-neutral,#e0e0ee);font-weight:bold;text-align:start;color:inherit}.mw-parser-output .mw-collapsible-toggle
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3APortrait_of_Gladys_Cooper_LCCN2004662734.jpg
+  source_name: Wikimedia Commons
+  original_source: Library of Congress, Carl Van Vechten Collection (LCCN 2004662734)
 - id: people-glen-morgan
   src: /media/images/people/glen-morgan.webp
   small: /media/images/people/glen-morgan-320.webp
@@ -1794,6 +2196,24 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AHarlan_Ellison_at_the_LA_Press_Club_%28cropped%29.jpg
   source_name: Wikimedia Commons
   original_source: Harlan Ellison at the L.A. Press Club; Uploaded by Rosenzweig
+- id: people-heather-anne-campbell
+  src: /media/images/people/heather-anne-campbell.webp
+  small: /media/images/people/heather-anne-campbell-320.webp
+  width: 640
+  height: 971
+  records:
+    - people/heather-anne-campbell
+  role: portrait
+  title: Headshot of Heather Anne Campbell (2013)
+  alt: Head-and-shoulders portrait of Heather Anne Campbell with wavy blonde hair and bangs, against a white background
+  date: "2013"
+  creator: Dana Patrick (photographer), released by Heather Anne Campbell
+  creator_note: Photographed by Dana Patrick, released by Heather Anne Campbell (Call To Adventure)
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AHeather_Anne_Campbell_headshot.jpg
+  source_name: Wikimedia Commons
+  original_source: Headshot posted on Flickr
 - id: people-helen-mirren
   src: /media/images/people/helen-mirren.webp
   small: /media/images/people/helen-mirren-320.webp
@@ -1828,6 +2248,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AIda_Lupino_1937_%28cropped%29.jpg
   source_name: Wikimedia Commons
   original_source: ebay
+- id: people-ida-lupino-2
+  src: /media/images/people/ida-lupino-2.webp
+  small: /media/images/people/ida-lupino-2-320.webp
+  width: 640
+  height: 916
+  records:
+    - people/ida-lupino
+  role: portrait
+  title: Ida Lupino (1979)
+  alt: Ida Lupino, smiling, in a white headscarf and pearls
+  date: "1979"
+  creator: Alan Light
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AIda_Lupino_%281979%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Flickr (Alan Light)
 - id: people-inger-stevens
   src: /media/images/people/inger-stevens.webp
   small: /media/images/people/inger-stevens-320.webp
@@ -1880,6 +2317,22 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AJack_Klugman_%22The_Odd_Couple%22_%281972_ABC_press_photo%29.jpg
   source_name: Wikimedia Commons
   original_source: Original ABC press photograph, front and back scanned (sold on eBay; https://archive.ph/CdItj)
+- id: people-jack-warden
+  src: /media/images/people/jack-warden.webp
+  small: /media/images/people/jack-warden-320.webp
+  width: 640
+  height: 800
+  records:
+    - people/jack-warden
+  role: portrait
+  title: Publicity photo of Jack Warden (1950s)
+  alt: Jack Warden in a dark suit and striped tie, in a black-and-white studio portrait
+  date: 1950s
+  creator: Unknown photographer
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AJack_Warden.jpg
+  source_name: Wikimedia Commons
+  original_source: Original publicity photograph (sold on eBay)
 - id: people-jack-weston
   src: /media/images/people/jack-weston.webp
   small: /media/images/people/jack-weston-320.webp
@@ -1897,6 +2350,22 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AJack_Weston_1971.jpg
   source_name: Wikimedia Commons
   original_source: Original press photograph, front and back scanned (sold on eBay)
+- id: people-jacques-tourneur
+  src: /media/images/people/jacques-tourneur.webp
+  small: /media/images/people/jacques-tourneur-320.webp
+  width: 640
+  height: 797
+  records:
+    - people/jacques-tourneur
+  role: portrait
+  title: Jacques Tourneur and producer Pete Smith (1937)
+  alt: Jacques Tourneur and Pete Smith in work aprons, one reaching into an open cabinet with small drawers
+  date: "1937"
+  creator: Unknown photographer
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AJacques_Tourneur_and_Pete_Smith.jpg
+  source_name: Wikimedia Commons
+  original_source: Original press photograph (sold on eBay)
 - id: people-janice-rule
   src: /media/images/people/janice-rule.webp
   small: /media/images/people/janice-rule-320.webp
@@ -1914,6 +2383,22 @@
   source_url: https://commons.wikimedia.org/wiki/File:Janice_Rule_Terry_Burnham_%22The_Twilight_Zone%22_(1961_CBS_press_photo).jpg
   source_name: Wikimedia Commons
   original_source: https://www.worthpoint.com/worthopedia/1961-press-photo-actress-janice-rule-4620647699
+- id: people-jerome-bixby
+  src: /media/images/people/jerome-bixby.webp
+  small: /media/images/people/jerome-bixby-320.webp
+  width: 640
+  height: 747
+  records:
+    - people/jerome-bixby
+  role: portrait
+  title: Jerome Bixby (1954)
+  alt: Black-and-white magazine portrait of a young Jerome Bixby with dark, swept-back hair
+  date: "1954"
+  creator: Unidentified photographer (Greenleaf Publishing)
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AJerome_Bixby_5409.jpg
+  source_name: Wikimedia Commons
+  original_source: Imagination magazine, 1954 (scan of the original magazine)
 - id: people-jerry-goldsmith
   src: /media/images/people/jerry-goldsmith.webp
   small: /media/images/people/jerry-goldsmith-320.webp
@@ -1965,6 +2450,22 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AJohn_Landis_Bologna.jpg
   source_name: Wikimedia Commons
   original_source: https://www.flickr.com/photos/184568471@N07/52188230196/in/dateposted-public/
+- id: people-john-larch
+  src: /media/images/people/john-larch.webp
+  small: /media/images/people/john-larch-320.webp
+  width: 640
+  height: 819
+  records:
+    - people/john-larch
+  role: portrait
+  title: John Larch in an NBC press photo for Convoy (1963)
+  alt: John Larch in a naval officer's cap and duffel coat, standing beside a ship's mast by the water
+  date: "1963"
+  creator: NBC Television
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AJohn_Larch_%22Conwoy%22_%281963_NBC_press_photo%29.JPG
+  source_name: Wikimedia Commons
+  original_source: Original NBC press photograph (listed on WorthPoint)
 - id: people-jonathan-winters
   src: /media/images/people/jonathan-winters.webp
   small: /media/images/people/jonathan-winters-320.webp
@@ -2000,6 +2501,39 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AJordan_Peele_Peabody_2014_%28cropped%29.jpg
   source_name: Wikimedia Commons
   original_source: Keegan-Michael Key / Jordan Peele
+- id: people-joseph-schildkraut
+  src: /media/images/people/joseph-schildkraut.webp
+  small: /media/images/people/joseph-schildkraut-320.webp
+  width: 640
+  height: 640
+  records:
+    - people/joseph-schildkraut
+  role: portrait
+  title: Joseph Schildkraut, Schlitz Playhouse of Stars publicity (1953)
+  alt: Joseph Schildkraut smiling, resting his chin on his hand, in a light jacket
+  date: "1953"
+  creator: Barkin, Herman and Associates (public relations for Schlitz Brewing)
+  creator_note: Barkin, Herman and Associates-public relations for Schiltz Brewing, the show sponsor.
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AJoseph_Schildkraut_1953_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Original publicity photograph, front and back scanned (sold on eBay)
+- id: people-julie-newmar
+  src: /media/images/people/julie-newmar.webp
+  small: /media/images/people/julie-newmar-320.webp
+  width: 640
+  height: 861
+  records:
+    - people/julie-newmar
+  role: portrait
+  title: Publicity photo of Julie Newmar (1965)
+  alt: Julie Newmar with her hair piled high, in a fur-trimmed embroidered jacket
+  date: "1965"
+  creator: Studio publicity photographer (not named)
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AJulie_Newmar_-_1965.jpg
+  source_name: Wikimedia Commons
+  original_source: Original publicity photograph (sold on eBay)
 - id: people-kathleen-kennedy
   src: /media/images/people/kathleen-kennedy.webp
   small: /media/images/people/kathleen-kennedy-320.webp
@@ -2067,6 +2601,38 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ALeonard_Nimoy_mid_1960s.JPG
   source_name: Wikimedia Commons
   original_source: eBay listing (front and back of the print)
+- id: people-lucille-fletcher
+  src: /media/images/people/lucille-fletcher.webp
+  small: /media/images/people/lucille-fletcher-320.webp
+  width: 640
+  height: 701
+  records:
+    - people/lucille-fletcher
+  role: portrait
+  title: Lucille Fletcher, author photo published with her 1963 novel ...and Presumed Dead
+  alt: High-contrast black-and-white author photo of Lucille Fletcher with dark hair and bangs
+  date: "1963"
+  creator: Random House, no photographer credited
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3ALucille-Fletcher-cropped.jpg
+  source_name: Wikimedia Commons
+  original_source: Self scan from first-edition dust jacket
+- id: people-martin-balsam
+  src: /media/images/people/martin-balsam.webp
+  small: /media/images/people/martin-balsam-320.webp
+  width: 640
+  height: 843
+  records:
+    - people/martin-balsam
+  role: portrait
+  title: Martin Balsam in a CBS press photo for Archie Bunker's Place (1979)
+  alt: Martin Balsam smiling broadly in a tweed hat, pinstripe jacket and patterned tie
+  date: "1979"
+  creator: CBS Television
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AMartin_Balsam_%22Archie_Bunker%27s_Place%22_%281979_CBS_press_photo%29.JPG
+  source_name: Wikimedia Commons
+  original_source: Original CBS press photograph (sold on eBay)
 - id: people-martin-landau
   src: /media/images/people/martin-landau.webp
   small: /media/images/people/martin-landau-320.webp
@@ -2085,6 +2651,40 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AMartin_Landau_2010_%28cropped%29.jpg
   source_name: Wikimedia Commons
   original_source: Own work, Glenn Francis (PacificProDigital.com)
+- id: people-michael-reaves
+  src: /media/images/people/michael-reaves.webp
+  small: /media/images/people/michael-reaves-320.webp
+  width: 640
+  height: 444
+  records:
+    - people/michael-reaves
+  role: portrait
+  title: Michael Reaves at a Star Trek convention (1991)
+  alt: Michael Reaves, bearded and in large glasses, wearing a denim jacket at a table
+  date: "1991"
+  creator: Dstager
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AJames_Michael_Reaves.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
+- id: people-mickey-rooney
+  src: /media/images/people/mickey-rooney.webp
+  small: /media/images/people/mickey-rooney-320.webp
+  width: 640
+  height: 632
+  records:
+    - people/mickey-rooney
+  role: portrait
+  title: Mickey Rooney (2008)
+  alt: Mickey Rooney in a veterans' cap and grey jacket, holding a star-patterned umbrella
+  date: "2008"
+  creator: David from Washington, DC
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AMickey_Rooney_%282526005049%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Flickr
 - id: people-mitchell-leisen
   src: /media/images/people/mitchell-leisen.webp
   small: /media/images/people/mitchell-leisen-320.webp
@@ -2102,6 +2702,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AMitchell_Leisen_c._1948.jpg
   source_name: Wikimedia Commons
   original_source: Photoplay, December 1948
+- id: people-morgan-brittany
+  src: /media/images/people/morgan-brittany.webp
+  small: /media/images/people/morgan-brittany-320.webp
+  width: 640
+  height: 765
+  records:
+    - people/morgan-brittany
+  role: portrait
+  title: Morgan Brittany at WonderCon, Anaheim (2023)
+  alt: Morgan Brittany, with long auburn hair, speaking into a microphone on a convention panel
+  date: "2023"
+  creator: Gage Skidmore
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3AMorgan_Brittany_by_Gage_Skidmore.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work
 - id: people-nan-martin
   src: /media/images/people/nan-martin.webp
   small: /media/images/people/nan-martin-320.webp
@@ -2186,6 +2803,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3APippa_Scott%2C_1960_%28cropped%29.jpg
   source_name: Wikimedia Commons
   original_source: Original press photograph, front and back scanned (sold on eBay)
+- id: people-ralph-nelson
+  src: /media/images/people/ralph-nelson.webp
+  small: /media/images/people/ralph-nelson-320.webp
+  width: 640
+  height: 786
+  records:
+    - people/ralph-nelson
+  role: portrait
+  title: Portrait of Ralph Nelson (1973)
+  alt: Ralph Nelson, grey-bearded, in a tuxedo with a ruffled shirt and bow tie, against a black background
+  date: "1973"
+  creator: RBNRP
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3APortrait_of_Ralph_Nelson.jpg
+  source_name: Wikimedia Commons
+  original_source: Own work (photograph by his son)
 - id: people-ray-bradbury
   src: /media/images/people/ray-bradbury.webp
   small: /media/images/people/ray-bradbury-320.webp
@@ -2239,6 +2873,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ARichard_Matheson_%28crop%29.jpg
   source_name: Wikimedia Commons
   original_source: Cropped from File:Richard Matheson.jpg, JaSunni Productions
+- id: people-robert-downey-sr
+  src: /media/images/people/robert-downey-sr.webp
+  small: /media/images/people/robert-downey-sr-320.webp
+  width: 640
+  height: 869
+  records:
+    - people/robert-downey-sr
+  role: portrait
+  title: Robert Downey Sr. (2016)
+  alt: Robert Downey Sr., white-haired, in a plaid shirt and zip-up jacket, smiling in front of bookshelves
+  date: "2016"
+  creator: Wdixon
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ARobert_Downey_Sr._in_2016_%28cropped%29.png
+  source_name: Wikimedia Commons
+  original_source: Own work
 - id: people-robert-duvall
   src: /media/images/people/robert-duvall.webp
   small: /media/images/people/robert-duvall-320.webp
@@ -2567,6 +3218,23 @@
   source_url: https://commons.wikimedia.org/wiki/File:Susan_Harrison_%22The_Twilight_Zone%22_(1961_CBS_press_photo).jpg
   source_name: Wikimedia Commons
   original_source: https://www.worthpoint.com/worthopedia/1961-press-photo-actors-harrison-4687894902
+- id: people-telly-savalas
+  src: /media/images/people/telly-savalas.webp
+  small: /media/images/people/telly-savalas-320.webp
+  width: 640
+  height: 525
+  records:
+    - people/telly-savalas
+  role: portrait
+  title: Telly Savalas at the 1986 Bob Hope Classic
+  alt: Telly Savalas in sunglasses and a dark jacket, seated in a golf cart
+  date: "1986"
+  creator: inkknife_2000 (Flickr)
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3A1986_Bob_Hope_Classic%2C_Telly_Savalas_%286938903355%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Flickr
 - id: people-telly-savalas-2
   src: /media/images/people/telly-savalas-2.webp
   small: /media/images/people/telly-savalas-2-320.webp
@@ -2633,6 +3301,22 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AArthur_Hill_Vic_Morrow_Owen_Marshall_1971.jpg
   source_name: Wikimedia Commons
   original_source: Original press photograph, front and back scanned (sold on eBay)
+- id: people-vic-morrow-2
+  src: /media/images/people/vic-morrow-2.webp
+  small: /media/images/people/vic-morrow-2-320.webp
+  width: 640
+  height: 721
+  records:
+    - people/vic-morrow
+  role: portrait
+  title: Vic Morrow as Sgt. Saunders in Combat! (1965)
+  alt: Vic Morrow in an army helmet, aiming a submachine gun
+  date: "1965"
+  creator: ABC Television
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File%3AVic_Morrow_Combat_1965.jpg
+  source_name: Wikimedia Commons
+  original_source: Original ABC press photograph, front and back scanned (sold on eBay)
 - id: people-wes-craven
   src: /media/images/people/wes-craven.webp
   small: /media/images/people/wes-craven-320.webp
