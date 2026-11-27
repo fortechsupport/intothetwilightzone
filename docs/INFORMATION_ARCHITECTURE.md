@@ -20,7 +20,7 @@ each listing its items in his numbered order. Subcategories inside a category ar
 
 | Group | What the visitor does | Items, in Adam's order | Records* |
 |---|---|---|---:|
-| **Meet** | Looks up who and what everything links to | Organizations; People (real people, characters, fans and the community forums); Places (tabs: Real places, Settings); Events (History joins it in the next step) | 4,179 |
+| **Meet** | Looks up who and what everything links to | Organizations; People (tabs: Real people, Characters, Fans with the community forums); Places (tabs: Real places, Settings); Events (gatherings and History's milestone shelves; the Timeline linked) | 4,179 |
 | **View** | Watches or looks at it | Television, Movies, Stage, Artwork | 1,145 |
 | **Listen** | Listens to it | Music, Radio, Podcasts, Lectures | 564 |
 | **Read** | Reads it | Scripts, Books, Comics, Magazines, Articles, Essays, then The stories behind the episodes and Websites | 756 |

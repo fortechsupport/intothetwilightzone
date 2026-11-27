@@ -43,8 +43,9 @@
 
 1. *(PR #118, merged)* Groups, names, order and redirects (Meet first, View, Listen with Lectures, Read order, Play items, Discover and
    Watch retired). Menus, verb pages, home page, docs, decision 0015.
-2. *(this PR)* People: Real people, Characters and Fans as one directory with tabs; Community forums linked.
-3. Events absorbs History.
+2. *(PR #119)* People: Real people, Characters and Fans as one directory with tabs; Community forums linked.
+3. *(this PR)* Events absorbs History: its five shelves move into Events (A to Z with the gatherings), /history/
+   and each shelf redirect, the Timeline is linked from the Events menu.
 4. Collect and Legacy by category.
 
 ## Acceptance checks
@@ -57,7 +58,8 @@
 
 - Art and design takes back the name Artwork, as on the sheet (address unchanged).
 - The Legacy category at /homages/ is titled "Legacy by relationship" so it and the Legacy group page don't share a title.
-- Until step 3, History and the Timeline are links in the Events column rather than a fifth column.
+- History's shelves keep their names and addresses under /events/; the old History intro becomes Events' second
+  paragraph. History's "new" flag is dropped with the category.
 - Card games has no records: no card game made about the show was found ("Twilight Zone Solitaire" shares only the
   name; trading cards are Collect). The shelf still gets a page that says so and invites a sourced suggestion.
 - People's tabs are Real people (every kind except characters and fans), Characters (the first 24 A to Z and a link
