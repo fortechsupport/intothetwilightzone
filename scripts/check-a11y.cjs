@@ -14,7 +14,7 @@ const path = require('path');
 
 const base = process.argv[2] ?? 'http://localhost:4321';
 const PAGES = [
-  '/', '/start/', '/watch/', '/listen/', '/read/', '/meet/', '/discover/', '/places/', '/play/', '/collect/', '/quiz/', '/artwork/', '/merchandise/',
+  '/', '/start/', '/view/', '/listen/', '/read/', '/meet/', '/legacy/', '/places/', '/play/', '/collect/', '/quiz/', '/artwork/', '/merchandise/',
   '/series/', '/series/twilight-zone/', '/series/episodes/', '/series/homages/', '/series/anthologies/', '/films/the-outer-limits-1963/', '/television/american-dad/', '/television/homages/', '/films/robot-chicken/', '/series/1959/', '/episodes/1959/time-enough-at-last/', '/people/', '/people/rod-serling/',
   '/films/duel-1971/', '/songs/iron-maiden-twilight-zone/', '/radio/a-stop-at-willoughby/', '/radio/twilight-zone-radio-dramas-series/', '/radio/radio-dramas/', '/radio/serling-radio/', '/stage/serling-on-stage/', '/films/the-twilight-zone-stage-play/', '/books/more-stories-from-the-twilight-zone/', '/books/to-serve-man-knight-story/', '/reading/source-stories/',
   '/places/willoughby/', '/organizations/cayuga-productions/', '/characters/the-gremlin-nightmare-at-20-000-feet/',
@@ -44,7 +44,7 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
     await ctx.close();
   }
   // The other era themes (design/tokens.json): axe on a sample of page types in each; the 320 px check in all four.
-  const SAMPLE = ['/', '/watch/', '/episodes/1959/time-enough-at-last/', '/people/rod-serling/', '/media/', '/search/', '/community/'];
+  const SAMPLE = ['/', '/view/', '/episodes/1959/time-enough-at-last/', '/people/rod-serling/', '/media/', '/search/', '/community/'];
   for (const theme of ['1983', '1985', '2002', '2019']) {
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
     await ctx.addInitScript((t) => { try { localStorage.setItem('tz-theme', t); } catch (e) {} }, theme);

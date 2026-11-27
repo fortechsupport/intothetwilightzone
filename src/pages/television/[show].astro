@@ -24,7 +24,7 @@ const parts = [homages > 0 && `${homages} with a Twilight Zone homage`, serling 
 const crumb = serling > 0 && homages === 0 ? ['Rod Serling’s series', '/series/serling-series/'] : ['Homages in other shows', '/series/homages/'];
 ---
 <Base title={`${s.title}: television show page`} description={`${s.title}: the ${n} ${noun} with a Twilight Zone or Rod Serling connection, with credits, sources and how sure each connection is.`}>
-  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/watch/">Watch</a> / <a href="/series/">Television</a> / <a href={crumb[1]}>{crumb[0]}</a></p>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/view/">View</a> / <a href="/series/">Television</a> / <a href={crumb[1]}>{crumb[0]}</a></p>
   <header class="record-head">
     <p class="eyebrow"><span class="eyebrow-in"><span class="eyebrow-type">Television series</span></span></p>
     <h1>{s.title}</h1>

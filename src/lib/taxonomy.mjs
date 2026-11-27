@@ -120,7 +120,7 @@ export const TAXONOMY = [
     slug: 'places',
     title: 'Places',
     kind: 'section',
-    group: 'discover',
+    group: 'meet',
     description: 'Real places tied to The Twilight Zone, from MGM backlots to Rod Serling\'s hometown, and the fictional places of its stories.',
     intro: [
       "The original series was made almost entirely at MGM in Culver City, on soundstages and the backlot streets that stood in for small-town America, with location trips to Death Valley, Lone Pine and the Malibu coast. The revivals moved north to Vancouver and Toronto. Serling's own story runs from Syracuse and Binghamton, New York, through Antioch College and Cincinnati, to Pacific Palisades and his summer cottage on Cayuga Lake.",
@@ -167,7 +167,7 @@ export const TAXONOMY = [
   {
     slug: 'events',
     title: 'Events',
-    group: 'discover',
+    group: 'meet',
     split: true,
     description: 'Conventions, festivals, anniversaries, exhibitions, screenings and marathons: gatherings people could go to.',
     intro: [
@@ -187,7 +187,7 @@ export const TAXONOMY = [
   {
     slug: 'series',
     title: 'Television',
-    group: 'watch',
+    group: 'view',
     split: true,
     description: 'The four Twilight Zone series and every episode, Rod Serling\'s other series and television plays, the anthology series in its tradition, and the shows that pay it homage.',
     intro: [
@@ -263,7 +263,7 @@ export const TAXONOMY = [
   {
     slug: 'movies',
     title: 'Movies',
-    group: 'watch',
+    group: 'view',
     split: true,
     description: 'Twilight Zone films, Rod Serling\'s films, documentaries, and the films linked to specific episodes.',
     intro: [
@@ -357,17 +357,22 @@ export const TAXONOMY = [
     connection: 'Licensed games are made under license from CBS (or Disney, for the Tower of Terror). Nods in other games are unlicensed references, each explained on its entry.',
     subs: [
       // Five shelves (docs/plans/research-games.md, section 2). Each record sits on one; nods are only on their own.
-      { slug: 'board-card-games', title: 'Board, card and party games', groups: ['Published', 'Proposed, never made'], blurb: "Ideal's 1964 board game, Clue's Tower of Terror edition, trivia games, and a board game proposed before the pilot was made." },
+      // Adam's menu sheet (2026-11-27): Board games, Card games and Mini golf each have their own shelf, and trivia
+      // games sit beside the site's own quiz.
+      { slug: 'board-games', title: 'Board games', groups: ['Published', 'Proposed, never made'], blurb: "Ideal's 1964 board game, Clue's Tower of Terror edition, and a board game proposed before the pilot was made." },
+      { slug: 'card-games', title: 'Card games', isNew: true, keepEmpty: true, blurb: 'Card and party games themed to the show.', intro: 'Adam asked for this shelf (menu sheet, 2026-11-27). No card game made about The Twilight Zone has been found yet: "Twilight Zone Solitaire", a two-deck patience game, shares only the name, and the Rittenhouse and Rod Serling trading cards are collectibles, listed under Collect. Know of one? Tell us through Contribute, with a source.' },
+      { slug: 'mini-golf', title: 'Mini golf', isNew: true, blurb: 'Licensed mini-golf courses themed to the show.' },
+      { slug: 'trivia-games', title: 'Trivia games', isNew: true, blurb: 'Published and online trivia games about the show.' },
       { slug: 'game-homages', title: 'Nods in other games', isNew: true, side: 'unofficial', groups: ['Video games', 'Pinball tables', 'Fan-made games', 'Name only, link not confirmed'], blurb: 'Games that reference or borrow from the show without a license: a quest, a callout, a host in the Serling mold.', connection: 'Each entry says what the nod is and who noticed it. None of these games is licensed from the show.' },
-      { slug: 'other-games', title: 'Other games and play', blurb: 'Licensed play that is not a board, video or pinball game, such as mini golf.' },
+      { slug: 'other-games', title: 'Other games and play', blurb: 'Licensed play that is not a board, card, video or pinball game or mini golf.' },
       { slug: 'pinball-arcade', title: 'Pinball and slot machines', groups: ['The 1993 table', 'Digital versions of the table', 'Slot machines', 'Home software and the rumored remake'], blurb: "Bally's 1993 Twilight Zone pinball machine and its licensed digital versions, the IGT slot machine, and the table's unofficial home software." },
       { slug: 'video-games', title: 'Video games', groups: ['Released', 'Unreleased and unmade', 'Tower of Terror tie-ins'], blurb: 'Licensed computer, console and VR games, from the 1988 adventure to The Twilight Zone VR, and the ones never finished.' },
     ],
   },
   {
     slug: 'artwork',
-    title: 'Art and design',
-    group: 'discover',
+    title: 'Artwork',
+    group: 'view',
     split: true,
     description: 'How the shows look: title design, make-up and production design, Night Gallery\'s paintings, cover art, and art inspired by The Twilight Zone.',
     intro: [
@@ -390,8 +395,8 @@ export const TAXONOMY = [
   },
   {
     slug: 'homages',
-    title: 'Legacy',
-    group: 'discover',
+    title: 'Legacy by relationship',
+    group: 'legacy',
     split: true,
     description: 'Remakes, adaptations, homages, parodies and references to The Twilight Zone across film, television, music and print, with the evidence for each.',
     intro: [
@@ -441,7 +446,7 @@ export const TAXONOMY = [
   {
     slug: 'lectures',
     title: 'Lectures',
-    group: 'discover',
+    group: 'listen',
     split: true,
     description: "Rod Serling's lectures and speeches, academic talks about the show, and The Twilight Zone in the classroom.",
     intro: [
@@ -458,7 +463,7 @@ export const TAXONOMY = [
   {
     slug: 'history',
     title: 'History',
-    group: 'discover',
+    group: 'meet',
     isNew: true,
     split: true,
     description: 'Milestones: premieres, awards, production and broadcast history, trials and rights, and Rod Serling\'s life.',
@@ -479,7 +484,7 @@ export const TAXONOMY = [
   {
     slug: 'stage',
     title: 'Stage',
-    group: 'watch',
+    group: 'view',
     isNew: true,
     split: true,
     description: 'The Twilight Zone on stage: Anne Washburn\'s play, stagings of the episodes, Rod Serling\'s own plays, live readings and parodies.',
@@ -516,16 +521,16 @@ const byTitle = (a, b) => sortKey(a.title).localeCompare(sortKey(b.title));
  * holds categories, A-Z; Meet and Visit open the directories. Pages at /<verb>/; the old /explore/<group>/
  * pages redirect (OLD_GROUPS).
  */
-// The verbs' order is Adam's (2026-11-26): seven verbs, Attend and Visit folded into Discover. `order` lists a
-// verb's categories in the order he chose; any category it leaves out follows A to Z.
+// The menu is Adam's sheet (2026-11-27, decision 0015): seven groups in this order, each listing its categories in
+// the order he numbered them (`order`); a category it leaves out follows A to Z.
 export const VERBS = [
-  { slug: 'watch', title: 'Watch', blurb: 'TV series and episodes, movies, documentaries and the stage.', order: ['series', 'movies', 'stage'] },
-  { slug: 'listen', title: 'Listen', blurb: 'Songs, soundtracks and the theme, radio dramas and podcasts.', order: ['music', 'radio', 'podcasts'] },
-  { slug: 'read', title: 'Read', blurb: 'Articles, books, comics, essays, magazines, scripts and websites.' },
-  { slug: 'play', title: 'Play', blurb: 'Pinball, video games, board and card games, and games to play here: a trivia quiz and Six degrees.' },
+  { slug: 'meet', title: 'Meet', blurb: 'The organizations and people behind it, its characters and fans, the places real and imagined, and its events and history.', order: ['organizations', 'people', 'places', 'events', 'history'] },
+  { slug: 'view', title: 'View', blurb: 'TV series and episodes, movies, documentaries, the stage, and the art and design.', order: ['series', 'movies', 'stage', 'artwork'] },
+  { slug: 'listen', title: 'Listen', blurb: 'Songs, soundtracks and the theme, radio dramas, podcasts and lectures.', order: ['music', 'radio', 'podcasts', 'lectures'] },
+  { slug: 'read', title: 'Read', blurb: 'Scripts, books, comics, magazines, articles and essays, and the stories behind the episodes.' },
+  { slug: 'play', title: 'Play', blurb: 'Pinball, video games, board and card games, mini golf, and games to play here: trivia and Six Degrees.' },
   { slug: 'collect', title: 'Collect', blurb: 'Home video, toys, trading cards, posters, screen-used props and every other collectible.' },
-  { slug: 'discover', title: 'Discover', blurb: 'The history behind the show, its art and design, everything it inspired, the events and talks around it, and the places to visit, real and imagined.', order: ['history', 'artwork', 'homages', 'events', 'lectures', 'places'] },
-  { slug: 'meet', title: 'Meet', blurb: 'The people who made it, its characters, and the organizations around it.' },
+  { slug: 'legacy', title: 'Legacy', blurb: 'Everything it inspired: homages, parodies, references, adaptations and fan-made work.' },
 ].map((g) => {
   const rank = (c) => { const i = (g.order ?? []).indexOf(c.slug); return i < 0 ? Infinity : i; };
   const categories = TAXONOMY.filter((c) => c.group === g.slug).sort((a, b) => rank(a) - rank(b) || byTitle(a, b));
@@ -535,12 +540,13 @@ export const GROUPS = VERBS;
 export const groupHref = (g) => g.href;
 export const verbOf = (catSlug) => VERBS.find((v) => v.categories.some((c) => c.slug === catSlug));
 /** Old group pages and the verb that replaced each. */
-export const OLD_GROUPS = { screen: 'watch', audio: 'listen', print: 'read', games: 'play', live: 'discover', art: 'collect', legacy: 'discover' };
+export const OLD_GROUPS = { screen: 'view', audio: 'listen', print: 'read', games: 'play', live: 'meet', art: 'collect', legacy: 'legacy' };
 /** Reading subcategories that are topics, not formats: shown as collections on Read. */
-/** Verbs that were folded into Discover (Adam, 2026-11-26), and where their old pages now point. */
-export const RETIRED_VERBS = { attend: '/discover/', visit: '/places/' };
-/** Read's formats in Adam's order (2026-11-26); a format not named here follows A to Z. */
-export const READ_ORDER = ['articles', 'books', 'comics', 'essays', 'magazines', 'scripts', 'source-stories', 'websites'];
+/** Retired menu groups and where their old pages now point: Attend and Visit (2026-11-26), then Watch and Discover
+ * (Adam's menu sheet, 2026-11-27). */
+export const RETIRED_VERBS = { attend: '/events/', visit: '/places/', watch: '/view/', discover: '/legacy/' };
+/** Read's formats in Adam's order (menu sheet, 2026-11-27); websites and the stories behind the episodes follow. */
+export const READ_ORDER = ['scripts', 'books', 'comics', 'magazines', 'articles', 'essays', 'source-stories', 'websites'];
 export const READ_COLLECTIONS = ['accident-and-trial', 'anniversary-coverage', 'cast-and-crew-memoirs', 'foreign-language', 'serling-foundation-papers', 'serling-own-writing'];
 
 /** People, Places, Organizations, in that order. */
@@ -716,6 +722,8 @@ const ALIASES = {
  * composers from Music to People, and two one-record subcategories fold into their neighbours.
  */
 const MOVES = {
+  // Adam's menu sheet (2026-11-27): board and card games split.
+  'games/board-card-games': ['games', 'board-games'],
   // Television (2026-11-21): TV series and TV episodes became one category.
   'episodes/tv': ['series', 'episodes'],
   'events/honors-awards': ['history', 'honors-awards'],
@@ -1054,8 +1062,11 @@ function placeWork(d, st, add, id) {
       else if (/unreleased|interactive-film/.test(st)) add('games', 'video-games', 'Unreleased and unmade');
       else if (/promotional/.test(st)) add('games', 'video-games', 'Tower of Terror tie-ins');
       else if (/video|vr|mobile|computer/.test(st)) add('games', 'video-games', 'Released');
-      else if (/unrealized/.test(st)) add('games', 'board-card-games', 'Proposed, never made');
-      else if (/board|card|trivia|puzzle/.test(st)) add('games', 'board-card-games', 'Published');
+      else if (/unrealized/.test(st)) add('games', 'board-games', 'Proposed, never made');
+      else if (/trivia/.test(st)) add('games', 'trivia-games');
+      else if (/card/.test(st)) add('games', 'card-games');
+      else if (st === 'mini-golf') add('games', 'mini-golf');
+      else if (/board|puzzle/.test(st)) add('games', 'board-games', 'Published');
       else add('games', 'other-games');
       return;
     case 'collectible': {

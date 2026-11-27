@@ -26,7 +26,7 @@ const themeCounts = new Map(topThemes(rows.map((r) => themesOf(r.l.href)), 99));
 const count = (c: string) => rows.filter((r) => r.l.certainty === c).length;
 ---
 <Base title="Twilight Zone homages on television" description={`All ${rows.length} Twilight Zone homages, parodies and references we know of in other television shows, filterable by type, show, series, theme and how sure we are.`}>
-  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/watch/">Watch</a> / <a href="/series/">Television</a> / <a href="/series/homages/">Homages</a></p>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/view/">View</a> / <a href="/series/">Television</a> / <a href="/series/homages/">Homages</a></p>
   <h1>Homages on television</h1>
   <p class="lead">{rows.length} homages, parodies and references to The Twilight Zone in {shows.length} other shows.</p>
   <p class="small marks"><span class="tag confirmed-by-creator">{CONFIDENCE_LABELS['confirmed-by-creator']}</span> {count('confirmed-by-creator')} · <span class="tag documented">{CONFIDENCE_LABELS.documented}</span> {count('documented')} · <span class="tag fan-noted">{CONFIDENCE_LABELS['fan-noted']}</span> {count('fan-noted')} · <a href="/sources/#grading">What these mean</a></p>

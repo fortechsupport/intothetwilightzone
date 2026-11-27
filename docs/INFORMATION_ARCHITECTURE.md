@@ -1,6 +1,10 @@
 # IntoTheTwilightZone.com: information architecture
 
-**Status:** approved 2026-11-21 and live. **Changed 2026-11-26 (decision 0011):** Adam folded Attend and Visit into
+**Status:** approved 2026-11-21 and live. **Changed 2026-11-27 (decision 0015):** Adam's menu sheet replaced the
+seven verbs with seven groups, in this order: Meet, View, Listen, Read, Play, Collect, Legacy. View replaces Watch and
+gains Artwork; Meet gains Places and Events; Listen gains Lectures; Legacy replaces Discover. Items follow his numbered
+order, and Play lists each kind of game. The table in section 1 is current; section 3 keeps the earlier reasoning
+under the old names. **Changed 2026-11-26 (decision 0011):** Adam folded Attend and Visit into
 Discover, leaving seven verbs, and set the order of categories in Watch, Listen and Read. Later the same day (decision 0013) Artwork became
 Art and design in Discover, its props, costumes, posters and prints joined Merchandise, and Play gained the site's
 own games. Sections 1, 3.4 to 3.7 and 3.9 say what changed; the rest of the document keeps the original reasoning.
@@ -11,17 +15,18 @@ own games. Sections 1, 3.4 to 3.7 and 3.9 say what changed; the rest of the docu
 
 ## 1. Summary
 
-The site is organized around **what a visitor wants to do**. Each top-level item is a verb. Under each verb sit categories, and under those sit subcategories. All of them are alphabetized, except the categories of Watch, Listen, Discover and Read's formats, which follow the order Adam chose (2026-11-26).
+The site is organized around **what a visitor wants to do**. The menu is Adam's sheet (2026-11-27): seven groups,
+each listing its items in his numbered order. Subcategories inside a category are A to Z unless order is the point.
 
-| Verb | What the visitor does | Categories | Records* |
+| Group | What the visitor does | Items, in Adam's order | Records* |
 |---|---|---|---:|
-| **Watch** | Watches it on a screen or stage | Television, Movies, Stage (Adam's order) | 657 |
-| **Listen** | Listens to it | Music, Radio, Podcasts (Adam's order) | 489 |
-| **Read** | Reads it | Articles, Books, Comics, Essays and scholarship, Magazines, Scripts, The stories behind the episodes, Websites | 665 |
-| **Play** | Plays it | Games; Play on this site (trivia quiz, Six degrees, Episode finder, Episode of the day, fan-made games) | 52 |
-| **Collect** | Owns it | Merchandise's shelves shown directly: Collectibles, Home video, Household and apparel, Masks and costumes, Posters and prints, Prop replicas, Props and costumes, Toys and figures, Trading cards; Track your collection (My Zone) | 178 |
-| **Discover** | Learns the story behind it, what it inspired, the gatherings around it and where it happened | History, Art and design, Legacy, Events, Lectures and talks, Places (tabs: Real places, Settings) | 1,049 |
-| **Meet** | Looks up who made it, who is in it, or who it inspired | Characters, Organizations, People | 2,640 |
+| **Meet** | Looks up who and what everything links to | Organizations; People (real people, characters, fans and the community forums); Places (tabs: Real places, Settings); Events (History joins it in the next step) | 4,179 |
+| **View** | Watches or looks at it | Television, Movies, Stage, Artwork | 1,145 |
+| **Listen** | Listens to it | Music, Radio, Podcasts, Lectures | 564 |
+| **Read** | Reads it | Scripts, Books, Comics, Magazines, Articles, Essays, then The stories behind the episodes and Websites | 756 |
+| **Play** | Plays it | Pinball, Video games, Board games, Card games, Mini golf, Trivia (the site's quiz and published trivia games), Six Degrees, then More to play (Episode finder, Episode of the day, fan-made games, nods in other games) | 43 |
+| **Collect** | Owns it | Merchandise's shelves, then Track your collection (My Zone); by category in a later step | 213 |
+| **Legacy** | Sees what it inspired | Legacy by relationship (adaptations, homages, parodies, references, fan-made); by category in a later step | 839 |
 
 \*Distinct records that appear anywhere in the verb. A record can appear in more than one verb, so the column adds up to more than 5,957. Section 9 has the full counts.
 
