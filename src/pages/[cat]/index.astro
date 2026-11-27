@@ -47,8 +47,27 @@ const placeTabs = c.slug === 'places';
 const SETTINGS = 'in-story';
 const settingSub = placeTabs ? c.subs.find((s) => s.slug === SETTINGS) : undefined;
 const settings = [...(settingSub?.entries ?? [])].sort((a, b) => a.sort.localeCompare(b.sort));
-const realSubs = placeTabs ? subs.filter((s) => s.slug !== SETTINGS) : subs;
+// People (Adam's menu sheet, 2026-11-27: "Combines Real people, Characters, and Fans (Community forums)"): three tabs,
+// with the A to Z of everyone below them.
+const peopleTabs = c.slug === 'people';
+const TAB_OUT = ['characters', 'fans'];
+const charSub = peopleTabs ? c.subs.find((s) => s.slug === 'characters') : undefined;
+const fanSub = peopleTabs ? c.subs.find((s) => s.slug === 'fans') : undefined;
+const charTop = [...(charSub?.entries ?? [])].sort((a, b) => a.sort.localeCompare(b.sort));
+const fans = [...(fanSub?.entries ?? [])].sort((a, b) => a.sort.localeCompare(b.sort));
+const cats0 = peopleTabs ? await catalog() : undefined;
+const nOf = (cat: string, sub: string) => cats0?.get(cat)?.subs.find((x) => x.slug === sub)?.entries.length ?? 0;
+const FAN_LINKS: [string, string, string, number | undefined][] = peopleTabs ? [
+  ['Community forums', '/community/forum/', 'Talk about episodes, collecting and research with other fans. Sign in to post.', undefined],
+  ['Fan contributions', '/community/uploads/', 'Photos, scans and finds that fans have shared, each credited and checked before it appears.', undefined],
+  ['Fan clubs and communities', '/organizations/fan-groups/', 'Fan clubs, forums, wikis and other communities devoted to the show.', nOf('organizations', 'fan-groups')],
+  ['Fan-made work', '/homages/fan-made/', 'Fan films, edits, audio dramas and games, credited to their makers and linked.', nOf('homages', 'fan-made')],
+] : [];
+const tabbed = placeTabs || peopleTabs;
+const realSubs = placeTabs ? subs.filter((s) => s.slug !== SETTINGS) : peopleTabs ? subs.filter((s) => !TAB_OUT.includes(s.slug)) : subs;
 const realRows = placeTabs ? entRows.filter((r) => r.subs.some((s) => s.slug !== SETTINGS)) : entRows;
+const realPeople = peopleTabs ? entRows.filter((r) => r.subs.some((s) => !TAB_OUT.includes(s.slug))).length : 0;
+const firstTab = placeTabs ? 'real-places' : 'real-people';
 ---
 <Base title={c.title} description={c.description}>
   <div class="page-head has-art">
@@ -72,13 +91,20 @@ const realRows = placeTabs ? entRows.filter((r) => r.subs.some((s) => s.slug !==
       <button type="button" role="tab" id="tab-settings" aria-controls="settings" aria-selected="false" tabindex="-1">Settings <span class="count-pill">{settings.length}</span></button>
     </div>
   )}
-  {placeTabs && <script is:inline>
+  {peopleTabs && (
+    <div class="tabs" role="tablist" aria-label="Real people, characters or fans" data-tabs hidden>
+      <button type="button" role="tab" id="tab-real-people" aria-controls="real-people" aria-selected="true">Real people <span class="count-pill">{realPeople.toLocaleString('en-US')}</span></button>
+      <button type="button" role="tab" id="tab-characters" aria-controls="characters" aria-selected="false" tabindex="-1">Characters <span class="count-pill">{charTop.length.toLocaleString('en-US')}</span></button>
+      <button type="button" role="tab" id="tab-fans" aria-controls="fans" aria-selected="false" tabindex="-1">Fans <span class="count-pill">{fans.length}</span></button>
+    </div>
+  )}
+  {tabbed && <script is:inline define:vars={{ ids: placeTabs ? ['real-places', 'settings'] : ['real-people', 'characters', 'fans'] }}>
     // Before the panels are drawn: show the tabs and pick the panel the address asks for, so nothing shifts.
     document.querySelector('[data-tabs]').hidden = false;
-    document.documentElement.dataset.placesTab = location.hash === '#settings' ? 'settings' : 'real-places';
+    document.documentElement.dataset.catTab = ids.includes(location.hash.slice(1)) ? location.hash.slice(1) : ids[0];
   </script>}
-  <div id={placeTabs ? 'real-places' : undefined} role={placeTabs ? 'tabpanel' : undefined} aria-labelledby={placeTabs ? 'tab-real-places' : undefined}>
-  <h2>{placeTabs ? 'Kinds of real places' : section ? 'Kinds' : 'Subcategories'}</h2>
+  <div id={tabbed ? firstTab : undefined} role={tabbed ? 'tabpanel' : undefined} aria-labelledby={tabbed ? `tab-${firstTab}` : undefined}>
+  <h2>{placeTabs ? 'Kinds of real places' : peopleTabs ? 'Kinds of real people' : section ? 'Kinds' : 'Subcategories'}</h2>
   <div class="grid">
     {realSubs.map((s) => (
       <a class="card" href={`/${c.slug}/${s.slug}/`}>
@@ -90,9 +116,9 @@ const realRows = placeTabs ? entRows.filter((r) => r.subs.some((s) => s.slug !==
     ))}
   </div>
   {empty.length > 0 && <p class="small muted">Planned, with no entries yet: {empty.map((s, i) => <>{i > 0 && ', '}{s.title}{s.isNew && ' (new)'}</>)}. Research is under way.</p>}
-  {section ? (
+  {peopleTabs ? null : section ? (
     <>
-      <h2>Every {placeTabs ? 'real place' : c.title.toLowerCase().replace(/s$/, '')} A to Z</h2>
+      <h2>Every {placeTabs ? 'real place' : peopleTabs ? 'person and character' : c.title.toLowerCase().replace(/s$/, '')} A to Z</h2>
       {split ? (
         <>
           <p class="small muted">{entRows.length.toLocaleString('en-US')} entries, one page per letter{c.slug === 'people' && ', filed by surname'} (the letters at the top of this page). Or filter and search them all here.</p>
@@ -126,6 +152,39 @@ const realRows = placeTabs ? entRows.filter((r) => r.subs.some((s) => s.slug !==
     </>
   )}
   </div>
+  {peopleTabs && (
+    <>
+      <div id="characters" role="tabpanel" aria-labelledby="tab-characters">
+        <h2>Characters</h2>
+        {charSub?.intro && <p>{charSub.intro}</p>}
+        <p class="small muted">{charTop.length.toLocaleString('en-US')} characters from the episodes, films, radio dramas and comics, grouped by kind on <a href="/people/characters/">their own page</a>. The first {PREVIEW * 3} A to Z:</p>
+        <EntryList entries={charTop.slice(0, PREVIEW * 3)} />
+        <p><a href="/people/characters/">All {charTop.length.toLocaleString('en-US')} characters</a></p>
+      </div>
+      <div id="fans" role="tabpanel" aria-labelledby="tab-fans">
+        <h2>Fans</h2>
+        <div class="grid">
+          {FAN_LINKS.map(([t, h, b, n]) => (
+            <a class="card" href={h}>
+              <span class="count">{n === undefined ? 'Join in' : n.toLocaleString('en-US')}</span>
+              <h3>{t}</h3>
+              <p>{b}</p>
+            </a>
+          ))}
+        </div>
+        <h3>{fanSub?.title}</h3>
+        {fanSub?.intro && <p>{fanSub.intro}</p>}
+        <EntryList entries={fans} />
+      </div>
+    </>
+  )}
+  {peopleTabs && (
+    <>
+      <h2>Everyone A to Z: real people, characters and fans</h2>
+      <p class="small muted">{entRows.length.toLocaleString('en-US')} entries, one page per letter, filed by surname (the letters at the top of this page). Filter by kind to see only the characters or the fans, or search them all here.</p>
+      <EntityFinder section="people" noun="people and characters" />
+    </>
+  )}
   {placeTabs && (
     <div id="settings" role="tabpanel" aria-labelledby="tab-settings">
       <h2>Settings in the stories</h2>
@@ -135,12 +194,12 @@ const realRows = placeTabs ? entRows.filter((r) => r.subs.some((s) => s.slug !==
     </div>
   )}
   <script>
-    // Tabs for Real places and Settings (WAI-ARIA tabs pattern). Without JavaScript both panels show in turn.
+    // Tabs for Places (Real places, Settings) and People (Real people, Characters, Fans) (WAI-ARIA tabs pattern). Without JavaScript both panels show in turn.
     const list = document.querySelector<HTMLElement>('[data-tabs]');
     if (list) {
       const tabs = [...list.querySelectorAll<HTMLButtonElement>('[role="tab"]')];
       const show = (id: string, focus = false) => {
-        document.documentElement.dataset.placesTab = id;
+        document.documentElement.dataset.catTab = id;
         for (const t of tabs) {
           const on = t.getAttribute('aria-controls') === id;
           t.setAttribute('aria-selected', String(on));

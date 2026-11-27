@@ -3,6 +3,16 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-27 — People in one place
+
+Visitors can now:
+- Switch between Real people, Characters and Fans on the People page. Fans gathers the community forums, fan
+  contributions, fan clubs, fan-made work and the well-known fans who have spoken about the show.
+- Search everyone, characters included, in one A to Z below the tabs.
+
+**Known not to work yet:**
+- Without JavaScript the three panels show one after another instead of as tabs.
+
 ## 2026-11-27 — The new menu
 
 Visitors can now:
@@ -14,7 +24,6 @@ Visitors can now:
 - Keep using old links: /watch/ now opens View and /discover/ opens Legacy.
 
 **Known not to work yet:**
-- People, characters and fans are still separate lists inside People; one directory with tabs comes next.
 - History is still its own item in Meet until it merges into Events.
 - Collect and Legacy do not yet list every category; they show the merchandise shelves and the kinds of homage.
 
