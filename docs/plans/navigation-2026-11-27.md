@@ -41,9 +41,9 @@
 
 ## Steps (one pull request each)
 
-1. Groups, names, order and redirects (Meet first, View, Listen with Lectures, Read order, Play items, Discover and
+1. *(PR #118, merged)* Groups, names, order and redirects (Meet first, View, Listen with Lectures, Read order, Play items, Discover and
    Watch retired). Menus, verb pages, home page, docs, decision 0015.
-2. People: Real people, Characters and Fans as one directory with tabs; Community forums linked.
+2. *(this PR)* People: Real people, Characters and Fans as one directory with tabs; Community forums linked.
 3. Events absorbs History.
 4. Collect and Legacy by category.
 
@@ -60,6 +60,9 @@
 - Until step 3, History and the Timeline are links in the Events column rather than a fifth column.
 - Card games has no records: no card game made about the show was found ("Twilight Zone Solitaire" shares only the
   name; trading cards are Collect). The shelf still gets a page that says so and invites a sourced suggestion.
+- People's tabs are Real people (every kind except characters and fans), Characters (the first 24 A to Z and a link
+  to all of them) and Fans (forums, contributions, fan clubs, fan-made work, then Fans and admirers). The A to Z of
+  everyone sits below the tabs, with its Kind filter, rather than inside one tab.
 - The Play menu adds a "More to play" column for the Episode finder, Episode of the day, fan-made games and nods in
   other games (answer 4).
 
