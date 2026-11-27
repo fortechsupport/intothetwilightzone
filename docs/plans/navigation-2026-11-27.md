@@ -44,9 +44,9 @@
 1. *(PR #118, merged)* Groups, names, order and redirects (Meet first, View, Listen with Lectures, Read order, Play items, Discover and
    Watch retired). Menus, verb pages, home page, docs, decision 0015.
 2. *(PR #119)* People: Real people, Characters and Fans as one directory with tabs; Community forums linked.
-3. *(this PR)* Events absorbs History: its five shelves move into Events (A to Z with the gatherings), /history/
+3. *(PR #120)* Events absorbs History: its five shelves move into Events (A to Z with the gatherings), /history/
    and each shelf redirect, the Timeline is linked from the Events menu.
-4. Collect and Legacy by category.
+4. *(this PR)* Collect and Legacy by category.
 
 ## Acceptance checks
 
@@ -65,6 +65,11 @@
 - People's tabs are Real people (every kind except characters and fans), Characters (the first 24 A to Z and a link
   to all of them) and Fans (forums, contributions, fan clubs, fan-made work, then Fans and admirers). The A to Z of
   everyone sits below the tabs, with its Kind filter, rather than inside one tab.
+- Collect lists what can be owned, not every category: Merchandise, Reading's books, comics, magazines and scripts,
+  Music's soundtrack albums and the games (an episode or a song as such is not something to own; its home video or
+  album is). Entries are linked to their shelves, not copied onto new pages.
+- Legacy's menu has two columns, By kind of link and By category, so the panel stays one screen high; the Legacy
+  page shows every category as a card. Category pages are /legacy/<category slug>/ (Television is /legacy/series/).
 - The Play menu adds a "More to play" column for the Episode finder, Episode of the day, fan-made games and nods in
   other games (answer 4).
 

@@ -2,9 +2,19 @@
 // categories and their subcategories, with counts. Base.astro renders it as the main menu; the group pages, home
 // page and All categories use it too, so every view of the structure agrees. Read lists its formats in Adam's
 // order and its topic collections; Meet's People column holds real people, characters and fans with the forums;
-// Places lists the real places' kinds, then Settings; Play lists each kind of game and the games on this site.
+// Places lists the real places' kinds, then Settings; Play lists each kind of game and the games on this site;
+// Collect and Legacy span every category.
 import { catalog, countOf, type CatInfo } from './catalog';
-import { VERBS, READ_COLLECTIONS, READ_ORDER, sortKey } from './taxonomy.mjs';
+import { VERBS, READ_COLLECTIONS, READ_ORDER, COLLECT_FROM, LEGACY_FROM, sortKey } from './taxonomy.mjs';
+
+/** A category's unofficial and inspired entries, each once, A to Z (Legacy, src/pages/legacy/[cat].astro). */
+export const unofficialOf = (c: CatInfo) => [...new Map(c.subs.flatMap((s) => s.entries.filter((e) => e.official === false).map((e) => [e.key, e] as const))).values()].sort((a, b) => a.sort.localeCompare(b.sort));
+const COLLECT_BLURB: Record<string, string> = {
+  merchandise: 'Home video, toys and figures, trading cards, posters, prop replicas, screen-used props and the rest.',
+  reading: 'Books, comics, magazines and published scripts.',
+  music: 'Score and soundtrack albums.',
+  games: 'Pinball machines, video games, board, card and trivia games.',
+};
 
 export interface NavLink { title: string; href: string; n: number; isNew?: boolean; live?: boolean }
 export interface NavCol { title: string; href: string; n: number; live?: boolean; cta?: string; isNew?: boolean; blurb?: string; subs: NavLink[] }
@@ -32,6 +42,7 @@ export async function navModel(): Promise<NavVerb[]> {
   cache = VERBS.map((v) => {
     let cols: NavCol[] = [];
     let collections: NavLink[] | undefined;
+    let collectKeys: Set<string> | undefined, legacyKeys: Set<string> | undefined;
     if (v.slug === 'read') {
       const r = get('reading')!;
       const formats = r.subs.filter((s) => s.entries.length && !READ_COLLECTIONS.includes(s.slug));
@@ -48,10 +59,29 @@ export async function navModel(): Promise<NavVerb[]> {
       if (people) people.subs.push({ title: 'Community forums', href: '/community/forum/', n: 0, live: true }, { title: 'Fan contributions', href: '/community/uploads/', n: 0, live: true });
       cols.find((c) => c.href === '/events/')?.subs.push({ title: 'Timeline', href: '/timeline/', n: 0, live: true });
     } else if (v.slug === 'collect') {
-      // Collect (Adam, 2026-11-26): Merchandise's shelves shown directly, then the visitor's own collection.
-      const m = get('merchandise')!;
-      cols = az(m.subs.filter((s) => s.entries.length).map((s) => ({ title: s.title, href: `/merchandise/${s.slug}/`, n: s.entries.length, isNew: s.isNew, blurb: s.blurb, subs: [] })));
+      // Collect (Adam's sheet: all categories): one column per category with things a fan can own, its shelves below,
+      // then the visitor's own collection. Merchandise lists its shelves A to Z.
+      cols = COLLECT_FROM.map(([slug, keep]) => {
+        const c = get(slug)!;
+        const shelves = c.subs.filter((s) => (keep ? keep.includes(s.slug) : true) && s.entries.length);
+        const ordered = keep ? keep.map((k) => shelves.find((s) => s.slug === k)).filter(Boolean) as typeof shelves : az(shelves);
+        return { title: c.title, href: `/${c.slug}/`, n: new Set(shelves.flatMap((s) => s.entries.map((e) => e.key))).size, blurb: COLLECT_BLURB[c.slug], subs: ordered.map((s) => ({ title: s.title, href: `/${c.slug}/${s.slug}/`, n: s.entries.length, isNew: s.isNew })) };
+      });
+      collectKeys = new Set(COLLECT_FROM.flatMap(([slug, keep]) => get(slug)!.subs.filter((s) => !keep || keep.includes(s.slug)).flatMap((s) => s.entries.map((e) => `${e.key}`))));
       cols.push({ title: 'Track your collection', href: '/my-zone/', n: 0, live: true, cta: 'Your list', blurb: 'Mark what you own and what you want on any page, and see your list in My Zone. It stays in your browser, or in your account if you sign in.', subs: [] });
+    } else if (v.slug === 'legacy') {
+      // Legacy (Adam's sheet: all categories): the kinds of link first, then each category's unofficial and inspired
+      // works, each on its own page (src/pages/legacy/[cat].astro). The category columns carry no shelf links, so the
+      // menu panel stays one screen high; each page lists its shelves.
+      const h = get('homages')!;
+      cols = [{ ...col(h), title: 'By kind of link' }];
+      for (const slug of LEGACY_FROM) {
+        const c = get(slug); if (!c) continue;
+        const un = unofficialOf(c);
+        if (!un.length) continue;
+        cols.push({ title: c.title, href: `/legacy/${c.slug}/`, n: un.length, blurb: `Unofficial and inspired: ${az(c.subs.filter((s) => s.entries.some((e) => e.official === false))).map((s) => s.title.toLowerCase()).join(', ')}.`, subs: [] });
+      }
+      legacyKeys = new Set([...h.subs.flatMap((s) => s.entries.map((e) => e.key)), ...LEGACY_FROM.flatMap((slug) => get(slug) ? unofficialOf(get(slug)!).map((e) => e.key) : [])]);
     } else {
       cols = v.categories.map((c) => get(c.slug)).filter(Boolean).map((c) => c!.slug === 'places' ? placesCol(c!) : col(c!));
       // Play (Adam's sheet): one column per kind of game in his order, then the games to play on this site.
@@ -68,11 +98,15 @@ export async function navModel(): Promise<NavVerb[]> {
         ];
       }
     }
-    const n = v.slug === 'read' ? countOf(get('reading')!) : v.slug === 'collect' ? countOf(get('merchandise')!) : v.slug === 'play' ? countOf(get('games')!) : cols.reduce((t, c) => t + c.n, 0);
+    const n = v.slug === 'read' ? countOf(get('reading')!) : v.slug === 'collect' ? collectKeys!.size : v.slug === 'legacy' ? legacyKeys!.size : v.slug === 'play' ? countOf(get('games')!) : cols.reduce((t, c) => t + c.n, 0);
     // Read's menu: its formats in one column and its topic collections in another.
     const menu = v.slug === 'read' ? [
       { title: 'Formats', href: '/read/', n, subs: cols.map((c) => ({ title: c.title, href: c.href, n: c.n, isNew: c.isNew })) },
       { title: 'Collections', href: '/read/#collections', n: new Set(get('reading')!.subs.filter((s) => READ_COLLECTIONS.includes(s.slug)).flatMap((s) => s.entries.map((e) => e.key))).size, subs: collections ?? [] },
+    ] : v.slug === 'legacy' ? [
+      // Legacy's menu: the kinds of link in one column and the categories in another, so the panel stays short.
+      cols[0],
+      { title: 'By category', href: '/legacy/#categories', n: new Set(LEGACY_FROM.flatMap((slug) => get(slug) ? unofficialOf(get(slug)!).map((e) => e.key) : [])).size, subs: cols.slice(1).map((c) => ({ title: c.title, href: c.href, n: c.n })) },
     ] : undefined;
     return { slug: v.slug, title: v.title, blurb: v.blurb, href: v.href, n, cols, collections, menu };
   });

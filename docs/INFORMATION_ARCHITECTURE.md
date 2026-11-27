@@ -25,8 +25,8 @@ each listing its items in his numbered order. Subcategories inside a category ar
 | **Listen** | Listens to it | Music, Radio, Podcasts, Lectures | 564 |
 | **Read** | Reads it | Scripts, Books, Comics, Magazines, Articles, Essays, then The stories behind the episodes and Websites | 756 |
 | **Play** | Plays it | Pinball, Video games, Board games, Card games, Mini golf, Trivia (the site's quiz and published trivia games), Six Degrees, then More to play (Episode finder, Episode of the day, fan-made games, nods in other games) | 43 |
-| **Collect** | Owns it | Merchandise's shelves, then Track your collection (My Zone); by category in a later step | 213 |
-| **Legacy** | Sees what it inspired | Legacy by relationship (adaptations, homages, parodies, references, fan-made); by category in a later step | 839 |
+| **Collect** | Owns it | By category: Merchandise (every shelf), Reading (Books, Comics, Magazines, Scripts), Music (Scores and soundtrack albums), Games (Pinball, Video, Board, Card and Trivia games); then Track your collection (My Zone) | 718 |
+| **Legacy** | Sees what it inspired | By kind of link (the Legacy-by-relationship shelves at /homages/), then by category: one page per category at /legacy/<category>/ listing its unofficial and inspired works (Television, Movies, Stage, Artwork, Music, Radio, Podcasts, Lectures, Reading, Games, Merchandise) | 1,711 |
 
 \*Distinct records that appear anywhere in the verb. A record can appear in more than one verb, so the column adds up to more than 5,957. Section 9 has the full counts.
 
