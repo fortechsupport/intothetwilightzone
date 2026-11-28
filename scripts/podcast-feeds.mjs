@@ -72,6 +72,7 @@ export function parseFeed(xml) {
       number: Number(tag(it, 'itunes:episode')) || undefined,
       // The episode's own page; the enclosure (audio file) is only a fallback, so a row always links somewhere.
       url: cleanLink(tag(it, 'link')) || attr(it, 'enclosure', 'url'),
+      audio: attr(it, 'enclosure', 'url'),
       guid: tag(it, 'guid') || tag(it, 'link') || `${tag(it, 'title')}|${tag(it, 'pubDate')}`,
     })),
   };
@@ -99,7 +100,8 @@ async function appleEpisodes(d) {
   const id = appleId(d);
   if (!id) return new Map();
   const j = JSON.parse(await get(`https://itunes.apple.com/lookup?id=${id}&entity=podcastEpisode&limit=200`));
-  return new Map((j.results ?? []).filter((r) => r.episodeGuid && r.trackViewUrl).map((r) => [r.episodeGuid, r.trackViewUrl.replace(/[?&]uo=\d+$/, '')]));
+  const rows = (j.results ?? []).filter((r) => r.trackViewUrl).map((r) => [r, r.trackViewUrl.replace(/[?&]uo=\d+$/, '')]);
+  return new Map([...rows.filter(([r]) => r.trackName).map(([r, u]) => [r.trackName, u]), ...rows.filter(([r]) => r.episodeGuid).map(([r, u]) => [r.episodeGuid, u])]);
 }
 /** The feed address: links.rss, else Apple's lookup for the podcast's Apple id. */
 async function feedOf(d) {
@@ -142,9 +144,10 @@ for (const { id, d } of records) {
     const dates = eps.map((e) => e.date).filter(Boolean).sort();
     feeds[id] = { url: f.url, via: f.via, status: 'ok', last_read: today, title: parsed.title, count: eps.length, first: dates[0], latest: dates.at(-1) };
     // episode_links: apple = the feed's own episode pages are gone (the show's website closed), so each episode links to
-    // its Apple Podcasts page instead, matched by the feed's guid. Episodes Apple doesn't list keep the feed's link.
+    // its Apple Podcasts page instead, matched by the feed's guid (or title). Episodes Apple doesn't list link to their audio
+    // file in the feed, which the podcaster hosts.
     const apple = d.episode_links === 'apple' ? await appleEpisodes(d).catch(() => new Map()) : new Map();
-    for (const e of eps) byKey.set(`${id}|${e.guid}`, { p: id, t: e.title, d: e.date, s: e.seconds, n: e.number, se: e.season, u: apple.get(e.guid) ?? e.url, g: e.guid });
+    for (const e of eps) byKey.set(`${id}|${e.guid}`, { p: id, t: e.title, d: e.date, s: e.seconds, n: e.number, se: e.season, u: d.episode_links === 'apple' ? (apple.get(e.guid) ?? apple.get(e.title) ?? e.audio ?? e.url) : e.url, g: e.guid });
     report.push([id, 'ok', `${eps.length} episodes${keep ? ` (of ${parsed.episodes.length}, filter /${d.feed_filter}/)` : ''}, ${dates[0] ?? '?'} to ${dates.at(-1) ?? '?'} · "${parsed.title}" · ${f.via} · ${f.url}`]);
   } catch (e) {
     feeds[id] = { ...(feeds[id] ?? {}), url: f.url, via: f.via, status: 'unreadable', last_tried: today };

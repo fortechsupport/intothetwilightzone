@@ -266,5 +266,6 @@ and are kept as `subtype`. Copyrighted material is linked (`link-only` or `licen
 - podcasts add `episode_count`, `covers[]` (series ids or `films/<id>`), `featured_episodes[]`
   ({title, date?, url?, covers_episode?}).
   `feed: false` skips reading a feed, `feed_filter` keeps only matching feed episodes, and `episode_links: apple`
-  links each feed episode to its Apple Podcasts page (matched by guid) when the feed's own episode pages are gone.
+  links each feed episode to its Apple Podcasts page (matched by guid, else title; else the feed's audio file) when
+  the feed's own episode pages are gone.
 - Do not use `tags: [new-subcategory]` or `new-subcategory:<name>` tags; use `categories[]` with a new slug instead.
