@@ -60,14 +60,12 @@ const cfg = { src: t.file, cols: t.cols.map((c) => ({ key: c.key, label: c.label
       <thead><tr>
         <th scope="col" aria-sort={t.def.key === 't' ? 'ascending' : undefined}><button type="button" data-sort="t">{t.first ?? 'Title'}</button></th>
         {shown.map((c) => <th scope="col" class={c.narrow ? 'n' : undefined} aria-sort={t.def.key === c.key ? (t.def.dir > 0 ? 'ascending' : 'descending') : undefined}>{c.sort ? <button type="button" data-sort={c.key}>{c.label}</button> : c.label}</th>)}
-        {t.actions.length > 0 && <th scope="col" class="n"><span class="visually-hidden">My Zone</span></th>}
       </tr></thead>
       <tbody>
         {first.map((r) => (
           <tr>
-            <td>{r.h ? <a href={r.h} rel={r.x ? 'noopener' : undefined}>{r.t}</a> : r.t}{r.r && <div class="small muted">{r.r}</div>}</td>
+            <td>{r.h ? <a href={r.h} rel={r.x ? 'noopener' : undefined}>{r.t}</a> : r.t}{r.r && <div class="small muted">{r.r}</div>}{t.actions.length > 0 && <div class="gt-act">{t.actions.map(([list, label]) => <button type="button" class="mini" data-track={list} data-key={r.key} aria-pressed="false">{label}</button>)}</div>}</td>
             {shown.map((c) => { const l = c.link ? r.l[c.key] : undefined; const x = l ? '' : cellText(r, c); return <td class={c.narrow ? 'n' : undefined}>{l ? <><span class="cell-label">{c.label}: </span><a href={l[1]}>{l[0]}</a></> : x && <><span class="cell-label">{c.label}: </span>{x}</>}</td>; })}
-            {t.actions.length > 0 && <td class="n gt-act">{t.actions.map(([list, label]) => <button type="button" class="mini" data-track={list} data-key={r.key} aria-pressed="false">{label}</button>)}</td>}
           </tr>
         ))}
       </tbody>
@@ -115,8 +113,8 @@ const cfg = { src: t.file, cols: t.cols.map((c) => ({ key: c.key, label: c.label
       return `<td${c.narrow ? ' class="n"' : ''}>${x ? `<span class="cell-label">${esc(c.label)}: </span>${esc(x)}` : ''}</td>`;
     };
     const fanCell = (r) => { const x = fan?.[r.k]; return `<td class="n">${x ? `<span class="cell-label">Fan rating: </span>${x > 0 ? '+' : '−'}${Math.abs(x)}` : ''}</td>`; };
-    const acts = (r) => cfg.actions.length ? `<td class="n gt-act">${cfg.actions.map(([list, label]) => `<button type="button" class="mini" data-track="${list}" data-key="${esc(r.k)}" aria-pressed="false">${esc(label)}</button>`).join('')}</td>` : '';
-    const row = (r) => `<tr><td>${r.h ? `<a href="${esc(r.h)}"${r.x ? EXT : ''}>${esc(r.t)}</a>` : esc(r.t)}${r.r ? `<div class="small muted">${esc(r.r)}</div>` : ''}</td>${shown.map((c) => cell(r, c)).join('')}${fan ? fanCell(r) : ''}${acts(r)}</tr>`;
+    const acts = (r) => cfg.actions.length ? `<div class="gt-act">${cfg.actions.map(([list, label]) => `<button type="button" class="mini" data-track="${list}" data-key="${esc(r.k)}" aria-pressed="false">${esc(label)}</button>`).join('')}</div>` : '';
+    const row = (r) => `<tr><td>${r.h ? `<a href="${esc(r.h)}"${r.x ? EXT : ''}>${esc(r.t)}</a>` : esc(r.t)}${r.r ? `<div class="small muted">${esc(r.r)}</div>` : ''}${acts(r)}</td>${shown.map((c) => cell(r, c)).join('')}${fan ? fanCell(r) : ''}</tr>`;
     const chips = section.querySelectorAll('[data-chip]');
     let hits = [];
     let timer;
@@ -131,7 +129,7 @@ const cfg = { src: t.file, cols: t.cols.map((c) => ({ key: c.key, label: c.label
       hits.sort((a, b) => (val(a) < val(b) ? -1 : val(a) > val(b) ? 1 : 0) * dir || a.s.localeCompare(b.s));
       // The fan rating column appears once anything has a rating.
       const head = table.tHead.rows[0];
-      if (fan && !head.querySelector('[data-fan]')) { const th = document.createElement('th'); th.scope = 'col'; th.className = 'n'; th.dataset.fan = ''; th.innerHTML = '<button type="button" data-sort="fan">Fan rating</button>'; head.insertBefore(th, cfg.actions.length ? head.lastElementChild : null); th.querySelector('button').addEventListener('click', go(() => { dir = sort === 'fan' ? -dir : -1; sort = 'fan'; })); }
+      if (fan && !head.querySelector('[data-fan]')) { const th = document.createElement('th'); th.scope = 'col'; th.className = 'n'; th.dataset.fan = ''; th.innerHTML = '<button type="button" data-sort="fan">Fan rating</button>'; head.appendChild(th); th.querySelector('button').addEventListener('click', go(() => { dir = sort === 'fan' ? -dir : -1; sort = 'fan'; })); }
       tbody.innerHTML = hits.slice(0, limit).map(row).join('');
       if (window.tzTracker) window.tzTracker.set(window.tzTracker.get()); // mark the My Zone buttons already pressed
       const shownN = Math.min(limit, hits.length), fmt = (x) => x.toLocaleString('en-US');

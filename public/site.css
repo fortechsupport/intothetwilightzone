@@ -785,10 +785,10 @@ html[data-cat-tab="fans"] :is(#real-people, #characters) { display: none; }
 .gt-chip:hover { color: var(--text); border-color: var(--brass); }
 .gt-chip[aria-pressed="true"] { color: var(--text); border-color: var(--brass); background: var(--surface-2); box-shadow: inset 0 -2px 0 var(--brass); }
 .gt-surprise { margin-left: auto; }
-td.gt-act { white-space: nowrap; }
-td.gt-act .mini + .mini { margin-left: 4px; }
+.gt-act { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+
 th.n { white-space: nowrap; }
-@media (max-width: 700px) { .gt-surprise { margin-left: 0; } td.gt-act { white-space: normal; } }
+@media (max-width: 700px) { .gt-surprise { margin-left: 0; } }
 .gt-surprise { border-color: var(--brass); color: var(--text); font-weight: 600; }
 .gt-filters .gt-f select { max-width: 18rem; }
 @media (max-width: 900px) {

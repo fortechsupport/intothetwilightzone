@@ -41,6 +41,7 @@ const list = (x: unknown): string[] => (Array.isArray(x) ? x : x ? [x] : []).map
 /** One spelling per person ("Alan Crosland, Jr." and "Alan Crosland Jr." are one director), from the People index. */
 let canon: Map<string, string> | undefined;
 const who = (x: unknown) => list(x).map((n) => canon?.get(slugify(n)) ?? n);
+const SERIES_SHORT: Record<string, string> = { '1959': '1959 series', '1985': '1985 series', '2002': '2002 series', '2019': '2019 series' };
 const SERIES: Record<string, string> = { '1959': 'The Twilight Zone (1959)', '1985': 'The Twilight Zone (1985)', '2002': 'The Twilight Zone (2002)', '2019': 'The Twilight Zone (2019)' };
 
 // Every record, by catalog key ("films/the-man", "episodes/1959/the-howling-man").
@@ -229,7 +230,7 @@ export async function groupTables(): Promise<Map<string, Table>> {
       const r = rec(e); const d = r?.data ?? {};
       const isEp = r?.col === 'episodes';
       const intl = e.key.includes('#intl:');
-      const series = isEp ? SERIES[d.series] : r?.col === 'series' ? SERIES[r.id] ?? d.title : intl ? e.group : e.key.startsWith('night-gallery') || /night gallery/i.test(d.parent_series ?? '') ? 'Night Gallery' : SHELF_SERIES[s.slug] ?? (s.slug === 'twilight-zone' ? 'The Twilight Zone' : d.parent_series ?? e.group);
+      const series = isEp ? SERIES_SHORT[d.series] : r?.col === 'series' ? SERIES_SHORT[r.id] ?? d.title : intl ? (SERIES_SHORT[e.group?.match(/^The Twilight Zone \((\d{4})/)?.[1] ?? ''] ?? e.group) : e.key.startsWith('night-gallery') || /night gallery/i.test(d.parent_series ?? '') ? 'Night Gallery' : SHELF_SERIES[s.slug] ?? (s.slug === 'twilight-zone' ? 'The Twilight Zone' : d.parent_series ?? e.group);
       const type = isEp ? (/[a-z]$/i.test(String(d.episode)) ? 'Segment' : 'Episode') : r?.col === 'series' ? 'Series' : intl ? 'Title abroad' : KIND[d.kind] ?? (s.slug === 'pilots-unmade' ? 'Pilot or unmade' : undefined);
       const epNum = isEp ? parseInt(String(d.episode), 10) : undefined;
       const watch = isEp ? watchFor({ series: d.series }) : r?.col === 'series' ? watchFor({ series: r.id }) : r?.col === 'films' && (d.kind === 'tv-series' || d.parent_series) ? watchFor({ show: d.parent_series ?? d.title }) : undefined;
