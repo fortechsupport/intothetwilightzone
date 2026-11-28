@@ -79,9 +79,11 @@ for (const [p, id] of pods) {
   console.log(JSON.stringify({ podcast: p, apple_status: r.status, apple_episodes: res.length }));
 }
 
-for (const u of await lines('scripts/research/candidate-links.txt')) {
+for (const line of await lines('scripts/research/candidate-links.txt')) {
+  const [u, phrase] = line.split(' | ');
   await sleep(800);
   const r = await fetchy(u);
   const author = /isfdb\.org/.test(u) ? (r.text || '').match(/Authors?:<\/b>([\s\S]*?)<\/li>/)?.[1]?.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() : undefined;
-  console.log(JSON.stringify({ candidate: u, status: r.status, final: r.final, title: r.title, author, error: r.error }));
+  const has = phrase ? (r.text || '').toLowerCase().includes(phrase.toLowerCase()) : undefined;
+  console.log(JSON.stringify({ candidate: u, status: r.status, final: r.final, title: r.title, author, phrase, has, error: r.error }));
 }
