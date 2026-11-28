@@ -8,6 +8,8 @@ description: >-
   open the episode's credit block to confirm the attribution.
 subtype: episode-score
 details:
+  medium: Not released on its own
+  medium_note: 'An episode score; no release of its own is recorded.'
   people:
   - Bernard Herrmann
 relevance: core

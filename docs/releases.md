@@ -19,7 +19,8 @@ Visitors can now:
 
 **Known not to work yet:**
 - Without JavaScript a table shows its first 100 rows only; the shelf pages list everything.
-- Physical or digital is "Not stated" for 25 items whose records do not say.
+- Physical or digital is "Not stated" for one item, the 2004 Tower of Terror promotional PC game: its only source
+  names no disc or download.
 
 ## 2026-11-28 — Post-launch check: dead links replaced, three accessibility fixes
 

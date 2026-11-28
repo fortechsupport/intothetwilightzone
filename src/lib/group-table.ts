@@ -2,6 +2,7 @@
 // Discover, View and Listen get one per category, Read one per format, and Play, Collect and Legacy one each. Every
 // record is one row, with a column (and a filter) for each way the category divides. GroupTable.astro renders the
 // first rows into the page; the rest come from /tables/<key>.json, built here, so pages stay small.
+import { getCollection } from 'astro:content';
 import { catalog, entityRows, type CatInfo, type Entry } from './catalog';
 import { VERBS, COLLECT_FROM, LEGACY_FROM, READ_ORDER, READ_COLLECTIONS, sortKey } from './taxonomy.mjs';
 import { READ_LABEL, unofficialOf } from './nav';
@@ -23,10 +24,13 @@ const clip = (s?: string, n = 150) => {
 const PHYSICAL_SHELVES = new Set(['home-media', 'toys-figures', 'trading-cards', 'household-apparel', 'masks-and-costumes', 'replicas', 'props-costumes', 'collectibles', 'posters-prints', 'board-games', 'card-games', 'books', 'comics', 'magazines', 'scripts']);
 const DIGITAL_RE = /\b(digital|download(able)?|e-?book|kindle|audiobook|audible|app|ios|android|steam|playstation network|xbox live|eshop|oculus|meta quest|vr|streaming|mp3|itunes|online|pinball fx|zen studios|farsight|pinball arcade|web ?site|browser)\b/i;
 const PHYSICAL_RE = /\b(vinyl|lp|cd|cassette|8-track|vhs|laserdisc|dvd|blu-ray|floppy|cartridge|cd-rom|disc|hardcover|paperback|print(ed)?|figure|card|board game|machine|table|cabinet)\b/i;
-function format(e: Entry, shelf: string): string {
+const MEDIA = ['Physical', 'Digital', 'Physical and digital', 'Not released on its own', 'Not stated'];
+function format(e: Entry, shelf: string, medium?: string): string {
+  // A record's own details.medium, set from its sources, wins (2026-11-28: the 25 that said nothing were researched).
+  if (medium && MEDIA.includes(medium)) return medium;
   if (e.group === 'Digital versions of the table') return 'Digital';
   if (e.group === 'The 1993 table' || e.group === 'Slot machines') return 'Physical';
-  const text = `${e.title} ${e.meta ?? ''} ${e.desc ?? ''}`;
+  const text = `${e.title} ${e.meta ?? ''} ${e.desc ?? ''} ${medium ?? ''}`;
   const d = DIGITAL_RE.test(text), p = PHYSICAL_SHELVES.has(shelf) || PHYSICAL_RE.test(text);
   return d && p ? 'Physical and digital' : d ? 'Digital' : p ? 'Physical' : 'Not stated';
 }
@@ -142,9 +146,10 @@ export async function groupTables(): Promise<Map<string, Table>> {
   }
   {
     const b = new Builder();
+    const medium = new Map((await getCollection('works')).filter((r: any) => r.data.details?.medium).map((r: any) => [`works/${r.id}`, String(r.data.details.medium)]));
     for (const [slug, keep] of COLLECT_FROM) {
       const c = get(slug);
-      for (const s of shelvesOf(c, keep)) for (const e of s.entries) b.add(e, { cat: c.title, shelf: s.title, fmt: format(e, s.slug) });
+      for (const s of shelvesOf(c, keep)) for (const e of s.entries) b.add(e, { cat: c.title, shelf: s.title, fmt: format(e, s.slug, medium.get(e.key)) });
     }
     finish('collect', 'Collect', 'things to collect', b, [{ key: 'cat', label: 'Category' }, { key: 'shelf', label: 'Shelf' }, { key: 'fmt', label: 'Physical or digital', narrow: true }]);
   }

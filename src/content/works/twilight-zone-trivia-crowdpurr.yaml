@@ -6,6 +6,8 @@ description: >-
   trivia nights.
 subtype: trivia
 details:
+  medium: Digital
+  medium_note: 'Played online on the Crowdpurr trivia platform.'
   licensed: false
 relevance: tangential
 research_confidence: medium

@@ -7,6 +7,8 @@ description: >-
   15 minutes. Separately, Estes fixed bugs in the standard ROMs without changing the rules.
 subtype: pinball-software
 details:
+  medium: Physical
+  medium_note: 'Action Pinball sells it as a ROM chip ("Click here to order this chip").'
   licensed: true
   people:
   - Ted Estes
