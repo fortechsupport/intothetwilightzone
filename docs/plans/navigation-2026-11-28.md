@@ -75,12 +75,15 @@ One pull request (the two parts depend on each other's navigation):
    say nothing either way are "Physical" only where the shelf is physical by nature (figures, cards, apparel, props,
    print), and otherwise "Not stated".
 
+<<<<<<< HEAD
 9. *(follow-up, 2026-11-28)* The 25 Collect items that said nothing about format were researched and each record now
    carries `details.medium` with a note: 14 physical, 3 digital, 7 "Not released on its own" (episode scores, cues
    and music heard only inside a programme, an unmade game and a rumored pinball remake, which sit on Collect shelves
    but were never sold), and 1 still "Not stated": the 2004 Tower of Terror promotional PC game, whose only source
    (Tower Secrets) names no disc or download and no other source was found.
 
+=======
+>>>>>>> 336f4cd655029363425119b675e77778ca40a913
 ## Waiting on Adam
 
 - Nothing.
