@@ -3,6 +3,17 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-28 — "Continue with Google" and "Download my data" work
+
+Visitors can now:
+- Sign in with Google from the account page. The build had turned the button into plain text because it
+  points at the accounts API rather than a page; links into /api/ are now kept, and the site check accepts them
+  only when the API has that route.
+- Download their data from the account page (the same fault had turned that button into text).
+
+**Known not to work yet:**
+- Nothing new.
+
 ## 2026-11-28 — Launch check: every page answers, two dead mirror links fixed
 
 Visitors can now:

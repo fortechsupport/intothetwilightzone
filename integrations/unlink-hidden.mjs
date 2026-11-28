@@ -4,7 +4,8 @@
 // a person credited on a hidden episode, a book that lists episodes, a film adapting an episode.
 // Rather than teach every page about review status, this pass checks every <a href="/...">
 // against the built output (and its #fragment against the target page's ids) and unwraps
-// links that would 404. It logs how many it unwrapped.
+// links that would 404. Links into /api/ (the accounts API in functions/) are left alone. It logs how many it
+// unwrapped.
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { join, relative, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -46,6 +47,7 @@ export default function unlinkHidden() {
           const path = pathPart.split('?')[0];
           if (/\.[a-z0-9]+$/i.test(path) && !path.endsWith('.html')) return true; // assets, feeds
           if (path.startsWith('/pagefind/')) return true;
+          if (path.startsWith('/api/')) return true; // served by the accounts API (functions/api), not a built page
           const page = pages.get(normalize(path));
           if (!page) return false;
           return !frag || page.ids.has(decodeURIComponent(frag));
