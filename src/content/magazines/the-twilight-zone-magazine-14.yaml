@@ -12,11 +12,11 @@ description: May 1982 issue with Peter Straub's first short story 'The General's
 episodes:
 - 1959/the-four-of-us-are-dying
 links:
-  isfdb: http://www.isfdb.org/cgi-bin/pl.cgi?60190
+  isfdb: https://www.isfdb.org/cgi-bin/pl.cgi?60190
 research_confidence: high
 sources:
-- title: 'AuthorWars (ISFDb-based catalogue): issue page'
-  url: https://authorwars.com/books/titles/149970/cover-rod-serlings-the-twilight-zone-magazine-may-1982
+- title: 'ISFDB: cover art title record'
+  url: https://www.isfdb.org/cgi-bin/title.cgi?149970
   note: 'Read 2026-11-24 for the cover credit: the cover-art record for the May 1982 issue names "Author: William Stoneham".'
 - title: IntoTheTwilightZone research spreadsheets
   note: Originally listed in Adam's research spreadsheets.

@@ -22,6 +22,9 @@ const TRY = ['Time Enough at Last', 'Rod Serling', 'Night Gallery', 'Talky Tina'
     window.addEventListener('DOMContentLoaded', () => {
       const ui = new PagefindUI({ element: '#search', showSubResults: true, showImages: true, resetStyles: false });
       const start = document.getElementById('search-start');
+      // Pagefind's box has a placeholder but no label; give it a name for screen readers and voice control.
+      const name = () => document.querySelector('.pagefind-ui__search-input:not([aria-label])')?.setAttribute('aria-label', 'Search the site');
+      name(); setTimeout(name, 0);
       const q = new URLSearchParams(location.search).get('q');
       if (q) { ui.triggerSearch(q); start.hidden = true; }
       else setTimeout(() => document.querySelector('.pagefind-ui__search-input')?.focus(), 50);

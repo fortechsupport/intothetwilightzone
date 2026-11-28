@@ -6,11 +6,11 @@ const { compact = false } = Astro.props;
 ---
 <section class={`today${compact ? ' today-compact' : ''}`} data-today data-compact={compact ? '1' : undefined} data-pagefind-ignore>
   <div class="today-eotd">
-    <p class="kicker">Episode of the day <span class="today-date"></span></p>
+    <h2 class="kicker">Episode of the day <span class="today-date"></span></h2>
     <div class="eotd-body"><p class="muted">Loading today's episode…</p></div>
   </div>
   <div class="today-otd">
-    <p class="kicker">On this day</p>
+    <h2 class="kicker">On this day</h2>
     <ul class="otd-list plain small"><li class="muted">Loading…</li></ul>
     {compact && <p class="small"><a href="/today/">More on this day, and pick any date</a></p>}
   </div>

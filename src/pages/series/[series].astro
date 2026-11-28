@@ -59,7 +59,7 @@ const epIds = new Set(eps.map((e) => e.id));
 const characters = (await getCollection('characters')).filter((ch) => (ch.data.appears_in ?? []).some((x: string) => epIds.has(x))).sort((a, b) => sortKey(a.data.name).localeCompare(sortKey(b.data.name)));
 const people = [['Writers', writers], ['Directors', directors], ['Actors', actors], ['Source authors', authors]] as const;
 const TOP = 24;
-const tabs = [['episodes', 'Episodes'], ['people', 'People'], characters.length > 0 && ['characters', 'Characters'], s.data.history?.length && ['history', 'History'], s.data.releases?.length && ['releases', 'Home video'], s.data.international_titles?.length && ['world', 'Around the world'], homages.length > 0 && ['homages', 'Homages'], ['related', 'More'], ['sources', 'Sources']].filter(Boolean) as [string, string][];
+const tabs = [['episodes', 'Episodes'], ['people', 'People'], characters.length > 0 && ['characters', 'Characters'], s.data.history?.length && ['history', 'History'], s.data.releases?.length && ['releases', 'Home video'], s.data.international_titles?.length && ['world', 'Around the world'], homages.length > 0 && ['homages', 'Homages'], ['connections', 'Connections'], ['sources', 'Sources']].filter(Boolean) as [string, string][];
 const jsonld = {
   '@context': 'https://schema.org',
   '@type': 'TVSeries',
@@ -187,7 +187,7 @@ const jsonld = {
       ))}
     </section>
   )}
-  <div id="related"><Related recKey={`series/${s.id}`} skip={['people']} /></div>
+  <div id="connections"><Related recKey={`series/${s.id}`} skip={['people']} /></div>
   <Media media={s.data.media} recKey={`series/${s.id}`} />
   <div id="sources"><Sources sources={s.data.sources} verified={(s.data as any).last_verified} /></div>
 </Base>

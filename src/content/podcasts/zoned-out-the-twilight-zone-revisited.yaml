@@ -12,11 +12,11 @@ description: A recurring series inside the horror and sci-fi film podcast Night 
 featured_episodes:
 - title: Where Is Everybody?
   date: '2024-12-13'
-  url: https://blubrry.com/notlp/139715201/zoned-out-the-twilight-zone-revisited-where-is-everybody
+  url: https://notlp.libsyn.com/website/zoned-out-the-twilight-zone-revisited-where-is-everybody
   covers_episode: 1959/where-is-everybody
 sources:
-- title: Blubrry - Night of the Living Podcast
-  url: https://blubrry.com/notlp/139715201/zoned-out-the-twilight-zone-revisited-where-is-everybody
+- title: Night of the Living Podcast (Libsyn)
+  url: https://notlp.libsyn.com/website/zoned-out-the-twilight-zone-revisited-where-is-everybody
 - title: Blubrry feed - Night of the Living Podcast
   url: https://feeds.blubrry.com/feeds/notlp.xml
   note: Blubrry's feed address for the notlp show; the reader keeps only episodes whose titles name the segment or the show

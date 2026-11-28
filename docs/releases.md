@@ -3,6 +3,23 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-28 — Post-launch check: dead links replaced, three accessibility fixes
+
+Visitors can now:
+- Follow working links where 46 sources and listings had gone dead: podcast episodes of The Fifth Dimension and
+  Imagine if you Will open on Apple Podcasts, magazine cover credits point at ISFDB, and moved pages (Coast to
+  Coast AM, The Score, PBS American Masters and others) are linked at their new addresses. Where a page is gone
+  with no archived copy, the source is still credited and says so instead of leading to an error.
+- Hear the search box named "Search the site" in a screen reader, and move through the home page's Episode of the
+  day under a proper heading.
+- Use a "Connections" tab on series pages (it was "More").
+
+**Known not to work yet:**
+- 24 source entries point at pages that are gone with no archived copy anywhere; they keep their credit without a
+  link, and 8 of them now have a working source beside them.
+- About 3,100 outbound links could not be checked automatically because the sites refuse robots; they are not
+  known to be broken.
+
 ## 2026-11-28 — Sign in with a Microsoft account
 
 Visitors can now:

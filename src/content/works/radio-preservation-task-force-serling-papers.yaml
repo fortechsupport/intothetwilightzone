@@ -6,10 +6,10 @@ description: Catalog record pointing researchers to Serling collections that hol
 details:
   status: active
 links:
-  official: https://database.radiopreservation.org/catalog/collection_1182
+  official: https://database.radiopreservation.org/
 sources:
 - title: database.radiopreservation.org
-  url: https://database.radiopreservation.org/catalog/collection_1182
+  note: 'The page has been taken down by the site, and the Wayback Machine has no copy (checked 2026-11-28). The database itself is at database.radiopreservation.org.'
 research_confidence: medium
 last_verified: '2026-11-19'
 content_of:
