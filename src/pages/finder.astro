@@ -62,7 +62,7 @@ const seasons = [...new Set(rows.map((r) => r.se))].sort((a, b) => a - b);
 
   <p id="finder-count" class="finder-count" aria-live="polite"></p>
   <ul id="finder-results" class="finder-results plain"></ul>
-  <noscript><p class="notice">The finder needs JavaScript. Every episode is also listed on its <a href="/series/">series page</a>, and <a href="/search/">site search</a> works without it.</p></noscript>
+  <noscript><p class="notice">The finder needs JavaScript. Every episode is also listed on its <a href="/view/television/">Television table</a>, and <a href="/search/">site search</a> works without it.</p></noscript>
 
   <script>
     type Row = { id: string; t: string; s: string; se: number; n: string; d: string; w: string[]; sa: string[]; di: string[]; c: string[]; th: string[]; sy: string };

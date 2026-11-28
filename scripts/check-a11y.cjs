@@ -14,11 +14,13 @@ const path = require('path');
 
 const base = process.argv[2] ?? 'http://localhost:4321';
 const PAGES = [
-  '/', '/start/', '/view/', '/listen/', '/read/', '/discover/', '/legacy/', '/legacy/series/', '/events/', '/places/', '/movies/', '/play/', '/collect/', '/quiz/', '/artwork/', '/merchandise/',
-  '/series/', '/series/twilight-zone/', '/series/episodes/', '/series/homages/', '/series/anthologies/', '/films/the-outer-limits-1963/', '/television/american-dad/', '/television/homages/', '/films/robot-chicken/', '/series/1959/', '/episodes/1959/time-enough-at-last/', '/people/', '/people/rod-serling/',
-  '/films/duel-1971/', '/songs/iron-maiden-twilight-zone/', '/radio/a-stop-at-willoughby/', '/radio/twilight-zone-radio-dramas-series/', '/radio/radio-dramas/', '/radio/serling-radio/', '/stage/serling-on-stage/', '/films/the-twilight-zone-stage-play/', '/books/more-stories-from-the-twilight-zone/', '/books/to-serve-man-knight-story/', '/reading/short-stories/', '/reading/books/', '/homages/websites/',
+  '/', '/start/', '/view/', '/view/movies/', '/view/stage/', '/view/artwork/', '/listen/', '/listen/music/', '/listen/radio/', '/listen/podcasts/', '/listen/lectures/',
+  '/read/', '/read/books/', '/read/comics/', '/read/magazines/', '/read/short-stories/', '/discover/', '/discover/people/', '/discover/places/', '/discover/events/', '/discover/sources/',
+  '/legacy/', '/play/', '/collect/', '/quiz/',
+  '/series/twilight-zone/', '/films/the-outer-limits-1963/', '/television/american-dad/', '/films/robot-chicken/', '/series/1959/', '/episodes/1959/time-enough-at-last/', '/people/rod-serling/',
+  '/films/duel-1971/', '/songs/iron-maiden-twilight-zone/', '/radio/a-stop-at-willoughby/', '/radio/twilight-zone-radio-dramas-series/', '/films/the-twilight-zone-stage-play/', '/books/more-stories-from-the-twilight-zone/', '/books/to-serve-man-knight-story/',
   '/places/willoughby/', '/organizations/cayuga-productions/', '/characters/the-gremlin-nightmare-at-20-000-feet/',
-  '/media/', '/media/reviews/', '/podcasts/episodes/', '/podcasts/shows/', '/search/', '/timeline/', '/timeline/1960s/', '/people/a-z/s/', '/rod-serling/', '/night-gallery/', '/categories/', '/about/', '/my-zone/', '/map/', '/finder/', '/themes/', '/themes/the-uncanny/', '/404.html',
+  '/media/', '/media/reviews/', '/podcasts/episodes/', '/search/', '/timeline/', '/timeline/1960s/', '/rod-serling/', '/night-gallery/', '/categories/', '/about/', '/my-zone/', '/map/', '/finder/', '/themes/', '/themes/the-uncanny/', '/404.html',
   '/account/', '/community/', '/community/guidelines/', '/community/uploads/', '/contribute/suggest/', '/contribute/share/', '/moderation/', '/privacy/', '/support/', '/terms/', '/copyright/', '/credits/images/',
 ];
 const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');
@@ -44,7 +46,7 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
     await ctx.close();
   }
   // The other era themes (design/tokens.json): axe on a sample of page types in each; the 320 px check in all four.
-  const SAMPLE = ['/', '/view/', '/episodes/1959/time-enough-at-last/', '/people/rod-serling/', '/media/', '/search/', '/community/'];
+  const SAMPLE = ['/', '/view/', '/collect/', '/episodes/1959/time-enough-at-last/', '/people/rod-serling/', '/media/', '/search/', '/community/'];
   for (const theme of ['1983', '1985', '2002', '2019']) {
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
     await ctx.addInitScript((t) => { try { localStorage.setItem('tz-theme', t); } catch (e) {} }, theme);

@@ -5,12 +5,12 @@
 // Places lists the real places' kinds, then Settings; Play lists each kind of game and the games on this site;
 // Collect and Legacy span every category.
 import { catalog, countOf, type CatInfo } from './catalog';
-import { VERBS, READ_COLLECTIONS, READ_ORDER, COLLECT_FROM, LEGACY_FROM, sortKey } from './taxonomy.mjs';
+import { VERBS, READ_COLLECTIONS, READ_ORDER, READ_TITLES, COLLECT_FROM, LEGACY_FROM, sortKey, catHref, togglesOf } from './taxonomy.mjs';
 
 /** A category's unofficial and inspired entries, each once, A to Z (Legacy, src/pages/legacy/[cat].astro). */
 export const unofficialOf = (c: CatInfo) => [...new Map(c.subs.flatMap((s) => s.entries.filter((e) => e.official === false).map((e) => [e.key, e] as const))).values()].sort((a, b) => a.sort.localeCompare(b.sort));
 /** Read's items as Adam named them (2026-11-28). */
-export const READ_LABEL: Record<string, string> = { articles: 'Articles', books: 'Books', comics: 'Comics', essays: 'Essays', magazines: 'Magazines', scripts: 'Scripts', 'short-stories': 'Short stories' };
+export const READ_LABEL: Record<string, string> = READ_TITLES;
 const COLLECT_BLURB: Record<string, string> = {
   merchandise: 'Home video, toys and figures, trading cards, posters, prop replicas, screen-used props and the rest.',
   reading: 'Books, comics, magazines and published scripts.',
@@ -24,9 +24,9 @@ export interface NavVerb { slug: string; title: string; blurb: string; href: str
 
 const az = <T extends { title: string }>(l: T[]) => [...l].sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title)));
 const subLinks = (c: CatInfo, keep: (slug: string) => boolean = () => true): NavLink[] =>
-  az(c.subs.filter((s) => s.entries.length && keep(s.slug)).map((s) => ({ title: s.title, href: `/${c.slug}/${s.slug}/`, n: s.entries.length, isNew: s.isNew })));
+  az(c.subs.filter((s) => s.entries.length && keep(s.slug)).map((s) => ({ title: s.title, href: catHref(c.slug, s.slug), n: s.entries.length, isNew: s.isNew })));
 const subCount = (c: CatInfo, keep: (slug: string) => boolean) => new Set(c.subs.filter((s) => keep(s.slug)).flatMap((s) => s.entries.map((e) => e.key))).size;
-const col = (c: CatInfo, keep?: (slug: string) => boolean): NavCol => ({ title: c.title, href: `/${c.slug}/`, n: keep ? subCount(c, keep) : countOf(c), isNew: c.isNew, blurb: c.description, subs: subLinks(c, keep) });
+const col = (c: CatInfo, keep?: (slug: string) => boolean): NavCol => ({ title: c.title, href: catHref(c.slug), n: keep ? subCount(c, keep) : countOf(c), isNew: c.isNew, blurb: c.description, subs: subLinks(c, keep) });
 
 // Places (in Discover, called Meet 2026-11-27 to 11-28) has two tabs, Real places and Settings: the kinds of real place
 // A to Z, then Settings last, pointing at its tab.
@@ -106,6 +106,18 @@ export async function navModel(): Promise<NavVerb[]> {
       cols[0],
       { title: 'By category', href: '/legacy/#categories', n: new Set(LEGACY_FROM.flatMap((slug) => get(slug) ? unofficialOf(get(slug)!).map((e) => e.key) : [])).size, subs: cols.slice(1).map((c) => ({ title: c.title, href: c.href, n: c.n })) },
     ] : undefined;
+    // Play, Collect and Legacy are one table each, with no category links in the menu or on their page (Adam,
+    // 2026-11-28); the columns above still give their counts.
+    if (['play', 'collect', 'legacy'].includes(v.slug)) return { slug: v.slug, title: v.title, blurb: v.blurb, href: v.href, n, cols: [], collections, menu: undefined };
+    // Discover, View, Listen and Read (the explore framework, 2026-11-28): the menu lists the category names only, each
+    // linking to its toggle on the group page, in Adam's order; Discover ends with Sources.
+    if (['discover', 'view', 'listen', 'read'].includes(v.slug)) {
+      const toggles: NavCol[] = togglesOf(v.slug).map(([cat, sub, title]: [string, string, string]) => {
+        const c = cols.find((x) => x.title === title);
+        return { title, href: v.slug === 'read' ? catHref('reading', sub) : catHref(cat), n: c?.n ?? 0, blurb: c?.blurb, subs: [], live: cat === 'sources' || undefined };
+      });
+      return { slug: v.slug, title: v.title, blurb: v.blurb, href: v.href, n, cols: toggles, collections: undefined, menu: undefined };
+    }
     return { slug: v.slug, title: v.title, blurb: v.blurb, href: v.href, n, cols, collections, menu };
   });
   return cache;

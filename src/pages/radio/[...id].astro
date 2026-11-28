@@ -59,7 +59,7 @@ const music = isSeriesPage ? await getEntry('works', 'tz-radio-dramas-music-and-
     )}
     {isSeriesPage && (
       <>
-        <dt>Episodes</dt><dd>{eps.length} in {seasons.length} seasons: {counts.adapted} adapted from Twilight Zone episodes, <a href="/radio/original-stories/">{counts.original} original radio stories</a>, <a href="/radio/unmade-scripts/">{counts.unmade} unmade TV scripts</a>{otherSources.length > 0 && <>; also {otherSources.map((e, i) => <>{i > 0 && ' and '}<a href={`/radio/${e.id}/`}>{e.data.title}</a> (from {e.data.based_on})</>)}</>}</dd>
+        <dt>Episodes</dt><dd>{eps.length} in {seasons.length} seasons: {counts.adapted} adapted from Twilight Zone episodes, <a href="/listen/radio/?shelf=Original+radio+stories">{counts.original} original radio stories</a>, <a href="/listen/radio/?shelf=Radio+versions+of+unmade+scripts">{counts.unmade} unmade TV scripts</a>{otherSources.length > 0 && <>; also {otherSources.map((e, i) => <>{i > 0 && ' and '}<a href={`/radio/${e.id}/`}>{e.data.title}</a> (from {e.data.based_on})</>)}</>}</dd>
         <dt>Cast</dt><dd>Every episode names its star; {fullCast} of {eps.length} list more of the cast.</dd>
       </>
     )}

@@ -10,7 +10,7 @@ const r = relatedForEntries(entries);
 const media = mediaForEntries(entries);
 const TOP = 16;
 const q = (extra = '') => { const u = new URLSearchParams(); if (scope) u.set('in', scope); if (extra) u.set('type', extra); const t = u.toString(); return t ? `?${t}` : ''; };
-const parts = ([['people', 'People', '/people/'], ['places', 'Places', '/places/'], ['orgs', 'Organizations', '/organizations/']] as const)
+const parts = ([['people', 'People', '/discover/people/'], ['places', 'Places', '/discover/places/'], ['orgs', 'Organizations', '/discover/organizations/']] as const)
   .filter(([k]) => r[k].length && !(skipPeople && k === 'people'));
 const byType = LIBRARY_TYPES.map(([k, l]) => [k, l, media.filter((m) => m.type === k).length] as const).filter(([, , n]) => n);
 ---

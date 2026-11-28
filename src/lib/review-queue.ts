@@ -97,7 +97,7 @@ function pageUrl(collection: string, id: string, d: any): string | undefined {
     case 'works': case 'series': return `/${collection}/${id}/`;
     case 'locations': return `/places/${id}/`;
     case 'people': return `/people/${slugify(d.name ?? id)}/`;
-    case 'connections': return '/homages/';
+    case 'connections': return '/legacy/';
     case 'books': case 'comics': case 'magazines': case 'podcasts': case 'radio': case 'songs':
     case 'essays': case 'archives': case 'quotes': case 'characters': case 'organizations':
       return `/${collection}/${id}/`;

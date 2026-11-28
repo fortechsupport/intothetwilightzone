@@ -115,7 +115,7 @@ const jsonld = {
       <section class="verb-tile">
         <h3><a href={v.href}>{v.title}</a> <span class="count-pill">{fmt(v.n)}</span></h3>
         <p class="small muted">{v.blurb}</p>
-        <ul>{(v.cols.length === 1 ? v.cols[0].subs : v.cols).slice(0, 8).map((c) => <li><a href={c.href}>{c.title}</a> {!("live" in c && c.live) && <span class="n">{fmt(c.n)}</span>}</li>)}</ul>
+        {v.cols.length > 0 && <ul>{(v.cols.length === 1 ? v.cols[0].subs : v.cols).slice(0, 8).map((c) => <li><a href={c.href}>{c.title}</a> {!("live" in c && c.live) && <span class="n">{fmt(c.n)}</span>}</li>)}</ul>}
       </section>
     ))}
   </div>

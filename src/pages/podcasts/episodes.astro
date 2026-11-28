@@ -23,7 +23,7 @@ const first = ix.rows.slice(0, PAGE);
 const n = (x: number) => x.toLocaleString('en-US');
 ---
 <Base title="Podcast episodes: Podcasts" description={`Every episode of ${podcasts.length} podcasts about The Twilight Zone, Night Gallery and Rod Serling, in one searchable table: ${n(ix.rows.length)} episodes, each linked to the podcast's own page.`}>
-  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/listen/">Listen</a> / <a href="/podcasts/">Podcasts</a></p>
+  <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a> / <a href="/listen/">Listen</a> / <a href="/listen/podcasts/">Podcasts</a></p>
   <h1>Podcast episodes</h1>
   <p class="lead">{n(ix.rows.length)} episodes from {podcasts.length} podcasts about the show, newest first.</p>
   <aside class="tz-link">
@@ -65,7 +65,7 @@ const n = (x: number) => x.toLocaleString('en-US');
     </table>
   </div>
   <nav class="pager" id="pe-pager" aria-label="Pages of episodes" data-pagefind-ignore>
-    <span class="small muted">Showing the newest {PAGE}. <a href="/podcasts/">Back to Podcasts</a></span>
+    <span class="small muted">Showing the newest {PAGE}. <a href="/listen/podcasts/">Back to Podcasts</a></span>
   </nav>
 
   <script is:inline define:vars={{ PAGE }}>

@@ -1,48 +1,71 @@
 ---
-// One sortable, filterable, searchable table of everything in a category (Adam, 2026-11-28): src/lib/group-table.ts.
-// The first rows, A to Z, are in the page; the full list loads from /tables/<key>.json the first time a visitor
-// searches, filters, sorts or asks for more, so the page stays small. Filters and sort stay in the address (?q=&cat=&sort=...) to share.
+// One table of everything in a category (the explore framework, docs/plans/explore-framework-2026-11-28.md, sections 2
+// and 3; columns per table in src/lib/group-table.ts). The first rows are in the page; the full list loads from
+// /tables/<key>.json the first time a visitor searches, filters, sorts or asks for more, so the page stays small.
+// Only the headings a table names sort (click again to reverse); a Sort menu offers the same on phones. Filters and
+// sort stay in the address (?q=&kind=&sort=...) to share. Rows can carry My Zone buttons (public/fan.js), and Play,
+// Collect and Legacy add one-tap category chips and Surprise me.
 import { groupTables } from '../lib/group-table';
 interface Props { table: string; heading?: string }
 const { table } = Astro.props;
 const t = (await groupTables()).get(table)!;
-const heading = Astro.props.heading ?? `Every entry in ${t.title}, in one table`;
+const heading = Astro.props.heading ?? t.title;
 const FIRST = 100;
-const first = t.rows.slice(0, FIRST);
-const valCols = t.cols.filter((c) => c.key !== 'year' && !c.num);
-const decades = [...new Set(t.rows.map((r) => r.y && `${r.y.slice(0, 3)}0s`).filter(Boolean) as string[])].sort();
+const shown = t.cols.filter((c) => c.show !== false);
+const filters = t.cols.filter((c) => c.filter);
+const sorts = t.cols.filter((c) => c.sort);
 const n = t.rows.length.toLocaleString('en-US');
-const cfg = { src: t.file, cols: t.cols.map((c) => ({ key: c.key, label: c.label, narrow: !!c.narrow, num: !!c.num })), total: t.rows.length, page: FIRST };
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const fmtDate = (s: string) => { const [y, m, d] = s.split('-'); return d ? `${+d} ${MONTHS[+m - 1]} ${y}` : m ? `${MONTHS[+m - 1]} ${y}` : y; };
+// The first rows, sorted as the visitor first sees them.
+const val = (r: (typeof t.rows)[number]) => (t.def.key === 't' ? r.s : String(r.o[t.def.key] ?? (t.def.dir > 0 ? '9999' : '')));
+const first = [...t.rows].sort((a, b) => (val(a) < val(b) ? -1 : val(a) > val(b) ? 1 : 0) * t.def.dir || a.s.localeCompare(b.s)).slice(0, FIRST);
+const cellText = (r: (typeof t.rows)[number], c: (typeof t.cols)[number]) => {
+  const v = r.v[c.key];
+  if (v?.length) return v.join(', ');
+  const o = r.o[c.key];
+  if (o === undefined) return '';
+  return c.sort === 'num' ? Number(o).toLocaleString('en-US') : c.sort === 'date' ? fmtDate(String(o)) : '';
+};
+const sortLabel = (c: (typeof t.cols)[number], dir: 'asc' | 'desc') => c.sort === 'date' ? `${c.label}: ${dir === 'asc' ? 'earliest first' : 'latest first'}` : c.sort === 'num' ? `${c.label}: ${dir === 'desc' ? 'most first' : 'fewest first'}` : `${c.label}: ${dir === 'asc' ? 'A to Z' : 'Z to A'}`;
+const defSort = `${t.def.key}-${t.def.dir > 0 ? 'asc' : 'desc'}`;
+const cfg = { src: t.file, cols: t.cols.map((c) => ({ key: c.key, label: c.label, narrow: !!c.narrow, sort: c.sort ?? '', filter: !!c.filter, show: c.show !== false, link: !!c.link, first: c.first ?? (c.sort === 'num' ? 'desc' : 'asc') })), total: t.rows.length, page: FIRST, def: t.def, actions: t.actions, chips: t.chips ?? '', fan: t.actions.length > 0 };
 ---
 <section class="group-table" aria-labelledby="gt-h" data-pagefind-ignore>
   <h2 id="gt-h">{heading}</h2>
-  <p class="small muted">{n} {t.noun}, one row each, A to Z (ignoring a leading The, A or An). Search, filter by any column, or sort by a column heading. Each row says why it is here; the page it links to has the sources.</p>
+  <slot />
+  <p class="small muted">{n} {t.noun}, one row each, {t.def.key === 't' ? 'A to Z (ignoring a leading The, A or An)' : `by ${t.cols.find((c) => c.key === t.def.key)?.label.toLowerCase()}`}. Search, filter, or sort by a heading with arrows. Each row says why it is here; its page has the sources.</p>
+  {t.chips && (
+    <div class="gt-chips" role="group" aria-label={`${t.cols.find((c) => c.key === t.chips)?.label}: show one`}>
+      <button type="button" class="gt-chip" data-chip="" aria-pressed="true">All</button>
+      {t.options[t.chips].map((o) => <button type="button" class="gt-chip" data-chip={o} aria-pressed="false">{o}</button>)}
+      <button type="button" class="gt-chip gt-surprise" data-surprise>Surprise me</button>
+    </div>
+  )}
   <form class="lib-filters gt-filters" id="gt-form" onsubmit="return false" aria-label={`Search and filter ${t.title}`}>
     <label class="lt-q">Search <input data-f="q" type="search" placeholder={`Search ${t.noun}`} /></label>
-    <button type="button" class="btn gt-toggle" aria-expanded="false" aria-controls="gt-form">Filters</button>
-    {valCols.map((c) => <label class="gt-f">{c.label} <select data-f={c.key}><option value="">All</option>{t.options[c.key].map((o) => <option value={o}>{o}</option>)}</select></label>)}
-    {decades.length > 1 && <label class="gt-f">Decade <select data-f="decade"><option value="">All</option>{decades.map((d) => <option value={d}>{d}</option>)}</select></label>}
+    {filters.length > 0 && <button type="button" class="btn gt-toggle" aria-expanded="false" aria-controls="gt-form">Filters</button>}
+    {filters.map((c) => <label class="gt-f">{c.label} <select data-f={c.key}><option value="">All</option>{t.options[c.key].map((o) => <option value={o}>{o}</option>)}</select></label>)}
     <label>Sort <select data-sort-select>
-      <option value="t-asc">A to Z</option><option value="t-desc">Z to A</option>
-      {t.cols.some((c) => c.key === 'year') && <><option value="year-desc">Newest first</option><option value="year-asc">Oldest first</option></>}
-      {t.cols.filter((c) => c.num).map((c) => <option value={`${c.key}-desc`}>Most {c.label.toLowerCase()}</option>)}
-      {valCols.map((c) => <option value={`${c.key}-asc`}>By {c.label.toLowerCase()}</option>)}
+      <option value="t-asc">{t.first ?? 'Title'}: A to Z</option><option value="t-desc">{t.first ?? 'Title'}: Z to A</option>
+      {sorts.flatMap((c) => (c.first === 'desc' || (!c.first && c.sort === 'num') ? ['desc', 'asc'] : ['asc', 'desc']).map((d) => <option value={`${c.key}-${d}`} selected={`${c.key}-${d}` === defSort}>{sortLabel(c, d as 'asc' | 'desc')}</option>))}
+      {t.actions.length > 0 && <option value="fan-desc">Fan rating: highest first</option>}
     </select></label>
     <button type="reset" class="btn gt-reset">Clear</button>
     <span class="small muted gt-count" role="status" aria-live="polite">Showing {Math.min(FIRST, t.rows.length).toLocaleString('en-US')} of {n}</span>
   </form>
   <div class="table-wrap">
     <table class="lib gt" id="gt">
-      <caption class="visually-hidden">{heading}. Column headings sort the table.</caption>
+      <caption class="visually-hidden">{heading}. Headings with arrows sort the table.</caption>
       <thead><tr>
-        <th scope="col" aria-sort="ascending"><button type="button" data-sort="t">Title</button></th>
-        {t.cols.map((c) => <th scope="col"><button type="button" data-sort={c.key}>{c.label}</button></th>)}
+        <th scope="col" aria-sort={t.def.key === 't' ? 'ascending' : undefined}><button type="button" data-sort="t">{t.first ?? 'Title'}</button></th>
+        {shown.map((c) => <th scope="col" class={c.narrow ? 'n' : undefined} aria-sort={t.def.key === c.key ? (t.def.dir > 0 ? 'ascending' : 'descending') : undefined}>{c.sort ? <button type="button" data-sort={c.key}>{c.label}</button> : c.label}</th>)}
       </tr></thead>
       <tbody>
         {first.map((r) => (
           <tr>
-            <td>{r.h ? <a href={r.h} rel={r.x ? 'noopener' : undefined}>{r.t}</a> : r.t}{r.r && <div class="small muted">{r.r}</div>}</td>
-            {t.cols.map((c) => { const x = c.key === 'year' ? r.y : c.num ? r.n?.toLocaleString('en-US') : r.v[c.key]?.join(', '); return <td class={c.narrow ? 'n' : undefined}>{x && <><span class="cell-label">{c.label}: </span>{x}</>}</td>; })}
+            <td>{r.h ? <a href={r.h} rel={r.x ? 'noopener' : undefined}>{r.t}</a> : r.t}{r.r && <div class="small muted">{r.r}</div>}{t.actions.length > 0 && <div class="gt-act">{t.actions.map(([list, label]) => <button type="button" class="mini" data-track={list} data-key={r.key} aria-pressed="false">{label}</button>)}</div>}</td>
+            {shown.map((c) => { const l = c.link ? r.l[c.key] : undefined; const x = l ? '' : cellText(r, c); return <td class={c.narrow ? 'n' : undefined}>{l ? <><span class="cell-label">{c.label}: </span><a href={l[1]}>{l[0]}</a></> : x && <><span class="cell-label">{c.label}: </span>{x}</>}</td>; })}
           </tr>
         ))}
       </tbody>
@@ -57,61 +80,88 @@ const cfg = { src: t.file, cols: t.cols.map((c) => ({ key: c.key, label: c.label
   (() => {
     const form = document.getElementById('gt-form'), table = document.getElementById('gt');
     if (!form || !table) return;
+    const section = form.closest('.group-table');
     const tbody = table.tBodies[0], count = form.querySelector('.gt-count');
-    const more = document.querySelector('.gt-more [data-more]'), allBtn = document.querySelector('.gt-more [data-all]');
+    const more = section.querySelector('[data-more]'), allBtn = section.querySelector('[data-all]');
     const f = (k) => form.querySelector(`[data-f="${k}"]`);
-    const keys = cfg.cols.filter((c) => c.key !== 'year' && !c.num).map((c) => c.key);
-    const fkeys = [...keys, 'decade'].filter((k) => f(k));
+    const fcols = cfg.cols.filter((c) => c.filter), shown = cfg.cols.filter((c) => c.show);
+    // Links to other sites open in a new tab, with the note that says so (integrations/external-links.mjs).
+    const EXT = ` rel="noopener noreferrer" target="_blank"${document.getElementById('ext-note') ? ' aria-describedby="ext-note"' : ''}`;
     const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
     const sk = (s) => String(s).replace(/^["'“‘(\[.…]+/, '').trim().replace(/^(the|a|an)\s+/i, '').toLowerCase().replace(/\d+/g, (m) => m.padStart(6, '0')).replace(/[^a-z0-9 ]/g, '').trim();
-    let rows = null, loading = null, limit = cfg.page, sort = 't', dir = 1;
+    const M = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const fmtDate = (s) => { const [y, m, d] = String(s).split('-'); return d ? `${+d} ${M[+m - 1]} ${y}` : m ? `${M[+m - 1]} ${y}` : y; };
+    let rows = null, loading = null, limit = cfg.page, sort = cfg.def.key, dir = cfg.def.dir, fan = null;
     const p = new URLSearchParams(location.search);
-    if (p.get('sort')) { const [k, d] = p.get('sort').split('-'); sort = k; dir = d === 'desc' ? -1 : 1; }
+    if (p.get('sort')) { const i = p.get('sort').lastIndexOf('-'); sort = p.get('sort').slice(0, i); dir = p.get('sort').slice(i + 1) === 'desc' ? -1 : 1; }
     if (f('q')) f('q').value = p.get('q') || '';
-    for (const k of fkeys) if (p.get(k)) f(k).value = p.get(k);
+    for (const c of fcols) if (p.get(c.key)) f(c.key).value = p.get(c.key);
     const load = () => loading ??= fetch(cfg.src).then((r) => r.json()).then((d) => {
       rows = d.rows.map((r) => {
-        const v = {}; for (const k of keys) v[k] = (r[k] || []).map((i) => d.options[k][i]);
-        return { ...r, v, s: sk(r.t), text: [r.t, r.r || '', r.y || '', ...keys.flatMap((k) => v[k])].join(' ').toLowerCase() };
+        const v = {};
+        for (const c of cfg.cols) { const x = r.v?.[c.key]; v[c.key] = !x ? [] : c.filter ? x.map((i) => d.options[c.key][i]) : x; }
+        return { ...r, v, o: r.o || {}, l: r.l || {}, s: sk(r.t), text: [r.t, r.r || '', ...Object.values(v).flat(), ...Object.values(r.o || {})].join(' ').toLowerCase() };
       });
     });
-    const cell = (r, c) => { const x = c.key === 'year' ? r.y : c.num ? (r.n ?? '') === '' ? '' : r.n.toLocaleString('en-US') : r.v[c.key].join(', '); return `<td${c.narrow ? ' class="n"' : ''}>${x ? `<span class="cell-label">${esc(c.label)}: </span>${esc(x)}` : ''}</td>`; };
-    const row = (r) => `<tr><td>${r.h ? `<a href="${esc(r.h)}"${r.x ? ' rel="noopener" target="_blank"' : ''}>${esc(r.t)}</a>` : esc(r.t)}${r.r ? `<div class="small muted">${esc(r.r)}</div>` : ''}</td>${cfg.cols.map((c) => cell(r, c)).join('')}</tr>`;
+    // Fan ratings: the net of every visitor's thumbs (the votes service), shown once anything here has been rated.
+    if (cfg.fan) fetch('/api/votes/all').then((r) => (r.ok ? r.json() : null)).then((d) => { if (d?.net && Object.keys(d.net).length) { fan = d.net; } }).catch(() => {});
+    const text = (r, c) => { if (r.v[c.key]?.length) return r.v[c.key].join(', '); const o = r.o[c.key]; if (o === undefined) return ''; return c.sort === 'num' ? Number(o).toLocaleString('en-US') : c.sort === 'date' ? fmtDate(o) : ''; };
+    const cell = (r, c) => {
+      const l = c.link && r.l[c.key];
+      if (l) { const ext = /^https?:/.test(l[1]); return `<td${c.narrow ? ' class="n"' : ''}><span class="cell-label">${esc(c.label)}: </span><a href="${esc(l[1])}"${ext ? EXT : ''}>${esc(l[0])}</a></td>`; }
+      const x = text(r, c);
+      return `<td${c.narrow ? ' class="n"' : ''}>${x ? `<span class="cell-label">${esc(c.label)}: </span>${esc(x)}` : ''}</td>`;
+    };
+    const fanCell = (r) => { const x = fan?.[r.k]; return `<td class="n">${x ? `<span class="cell-label">Fan rating: </span>${x > 0 ? '+' : '−'}${Math.abs(x)}` : ''}</td>`; };
+    const acts = (r) => cfg.actions.length ? `<div class="gt-act">${cfg.actions.map(([list, label]) => `<button type="button" class="mini" data-track="${list}" data-key="${esc(r.k)}" aria-pressed="false">${esc(label)}</button>`).join('')}</div>` : '';
+    const row = (r) => `<tr><td>${r.h ? `<a href="${esc(r.h)}"${r.x ? EXT : ''}>${esc(r.t)}</a>` : esc(r.t)}${r.r ? `<div class="small muted">${esc(r.r)}</div>` : ''}${acts(r)}</td>${shown.map((c) => cell(r, c)).join('')}${fan ? fanCell(r) : ''}</tr>`;
+    const chips = section.querySelectorAll('[data-chip]');
+    let hits = [];
     let timer;
     const render = (push = true) => {
-      const q = (f('q')?.value || '').trim().toLowerCase(), want = Object.fromEntries(fkeys.map((k) => [k, f(k).value]));
+      if (!table.isConnected) return; // the panel was swapped for another toggle's
+      const q = (f('q')?.value || '').trim().toLowerCase(), want = Object.fromEntries(fcols.map((c) => [c.key, f(c.key).value]));
       const words = q.split(/\s+/).filter(Boolean);
-      const hit = rows.filter((r) => words.every((w) => r.text.includes(w)) && keys.every((k) => !want[k] || r.v[k].includes(want[k])) && (!want.decade || (r.y && `${r.y.slice(0, 3)}0s` === want.decade)));
-      const numCol = cfg.cols.find((c) => c.key === sort)?.num;
-      const val = (r) => sort === 't' ? r.s : sort === 'year' ? (r.y || (dir > 0 ? '9999' : '0000')) : numCol ? String(r.n ?? 0).padStart(6, '0') : (r.v[sort]?.length ? sk(r.v[sort].join(' ')) : (dir > 0 ? '~' : ''));
-      hit.sort((a, b) => (val(a) < val(b) ? -1 : val(a) > val(b) ? 1 : 0) * dir || a.s.localeCompare(b.s));
-      tbody.innerHTML = hit.slice(0, limit).map(row).join('');
-      const shown = Math.min(limit, hit.length), fmt = (x) => x.toLocaleString('en-US');
+      hits = rows.filter((r) => words.every((w) => r.text.includes(w)) && fcols.every((c) => !want[c.key] || r.v[c.key].includes(want[c.key])));
+      const col = cfg.cols.find((c) => c.key === sort);
+      const blank = dir > 0 ? '￿' : '';
+      const val = (r) => sort === 't' ? r.s : sort === 'fan' ? String((fan?.[r.k] ?? 0) + 100000).padStart(7, '0') : col?.sort === 'num' ? (r.o[sort] === undefined ? (dir > 0 ? '￿' : '') : String(r.o[sort]).padStart(9, '0')) : r.o[sort] !== undefined ? String(r.o[sort]) : r.v[sort]?.length ? sk(r.v[sort].join(' ')) : blank;
+      hits.sort((a, b) => (val(a) < val(b) ? -1 : val(a) > val(b) ? 1 : 0) * dir || a.s.localeCompare(b.s));
+      // The fan rating column appears once anything has a rating.
+      const head = table.tHead.rows[0];
+      if (fan && !head.querySelector('[data-fan]')) { const th = document.createElement('th'); th.scope = 'col'; th.className = 'n'; th.dataset.fan = ''; th.innerHTML = '<button type="button" data-sort="fan">Fan rating</button>'; head.appendChild(th); th.querySelector('button').addEventListener('click', go(() => { dir = sort === 'fan' ? -dir : -1; sort = 'fan'; })); }
+      tbody.innerHTML = hits.slice(0, limit).map(row).join('');
+      if (window.tzTracker) window.tzTracker.set(window.tzTracker.get()); // mark the My Zone buttons already pressed
+      const shownN = Math.min(limit, hits.length), fmt = (x) => x.toLocaleString('en-US');
       clearTimeout(timer);
-      timer = setTimeout(() => { count.textContent = hit.length === rows.length ? `Showing ${fmt(shown)} of ${fmt(rows.length)}` : `${fmt(hit.length)} of ${fmt(rows.length)} match${shown < hit.length ? `, showing ${fmt(shown)}` : ''}`; }, 300);
-      more.hidden = allBtn.hidden = shown >= hit.length;
-      allBtn.textContent = `Show all ${fmt(hit.length)}`;
+      timer = setTimeout(() => { count.textContent = hits.length === rows.length ? `Showing ${fmt(shownN)} of ${fmt(rows.length)}` : `${fmt(hits.length)} of ${fmt(rows.length)} match${shownN < hits.length ? `, showing ${fmt(shownN)}` : ''}`; }, 300);
+      more.hidden = allBtn.hidden = shownN >= hits.length;
+      allBtn.textContent = `Show all ${fmt(hits.length)}`;
       const ss = form.querySelector('[data-sort-select]'), sv = `${sort}-${dir > 0 ? 'asc' : 'desc'}`;
       if ([...ss.options].some((o) => o.value === sv)) ss.value = sv;
-      for (const th of table.tHead.rows[0].cells) { const k = th.querySelector('button').dataset.sort; if (k === sort) th.setAttribute('aria-sort', dir > 0 ? 'ascending' : 'descending'); else th.removeAttribute('aria-sort'); }
+      for (const th of head.cells) { const k = th.querySelector('button')?.dataset.sort; if (k && k === sort) th.setAttribute('aria-sort', dir > 0 ? 'ascending' : 'descending'); else th.removeAttribute('aria-sort'); }
+      for (const ch of chips) ch.setAttribute('aria-pressed', String((want[cfg.chips] || '') === ch.dataset.chip));
       if (!push) return;
       const u = new URLSearchParams();
       if (q) u.set('q', q);
-      for (const k of fkeys) if (want[k]) u.set(k, want[k]);
-      if (sort !== 't' || dir < 0) u.set('sort', `${sort}-${dir > 0 ? 'asc' : 'desc'}`);
-      history.replaceState(null, '', `${location.pathname}${u.toString() ? '?' + u : ''}${location.hash}`);
+      for (const c of fcols) if (want[c.key]) u.set(c.key, want[c.key]);
+      if (sort !== cfg.def.key || dir !== cfg.def.dir) u.set('sort', `${sort}-${dir > 0 ? 'asc' : 'desc'}`);
+      history.replaceState(history.state, '', `${location.pathname}${u.toString() ? '?' + u : ''}${location.hash}`);
     };
-    const go = (fn) => () => { load().then(() => { fn?.(); render(); }).catch(() => { count.textContent = 'The full table could not load. The categories above list everything.'; }); };
+    const go = (fn) => () => load().then(() => { fn?.(); render(); }).catch(() => { count.textContent = 'The full table could not load. Try again, or search the site.'; });
     form.addEventListener('input', (ev) => { if (!ev.target.matches('select')) go(() => { limit = cfg.page; })(); });
-    form.addEventListener('change', (ev) => go(() => { limit = cfg.page; if (ev.target.matches('[data-sort-select]')) { const [k, d] = ev.target.value.split('-'); sort = k; dir = d === 'desc' ? -1 : 1; } })());
-    form.addEventListener('reset', () => setTimeout(go(() => { limit = cfg.page; sort = 't'; dir = 1; })));
+    form.addEventListener('change', (ev) => go(() => { limit = cfg.page; if (ev.target.matches('[data-sort-select]')) { const v = ev.target.value, i = v.lastIndexOf('-'); sort = v.slice(0, i); dir = v.slice(i + 1) === 'desc' ? -1 : 1; } })());
+    form.addEventListener('reset', () => setTimeout(go(() => { limit = cfg.page; sort = cfg.def.key; dir = cfg.def.dir; })));
     form.addEventListener('focusin', () => { load(); }, { once: true });
     const tog = form.querySelector('.gt-toggle');
-    tog.addEventListener('click', () => { const on = form.classList.toggle('open'); tog.setAttribute('aria-expanded', String(on)); });
-    if (fkeys.some((k) => p.get(k))) { form.classList.add('open'); tog.setAttribute('aria-expanded', 'true'); }
+    tog?.addEventListener('click', () => { const on = form.classList.toggle('open'); tog.setAttribute('aria-expanded', String(on)); });
+    if (tog && fcols.some((c) => p.get(c.key) && c.key !== cfg.chips)) { form.classList.add('open'); tog.setAttribute('aria-expanded', 'true'); }
     more.addEventListener('click', go(() => { limit += cfg.page; }));
     allBtn.addEventListener('click', go(() => { limit = Infinity; }));
-    for (const b of table.tHead.querySelectorAll('button[data-sort]')) b.addEventListener('click', go(() => { const k = b.dataset.sort; dir = sort === k ? -dir : 1; sort = k; }));
-    if ([...p.keys()].some((k) => k === 'q' || k === 'sort' || fkeys.includes(k))) go()();
+    for (const b of table.tHead.querySelectorAll('button[data-sort]')) b.addEventListener('click', go(() => { const k = b.dataset.sort, c = cfg.cols.find((x) => x.key === k); dir = sort === k ? -dir : (c?.first === 'desc' ? -1 : 1); sort = k; }));
+    for (const ch of chips) ch.addEventListener('click', go(() => { limit = cfg.page; f(cfg.chips).value = ch.dataset.chip; }));
+    // Surprise me: a random row among those the filters and chips leave.
+    section.querySelector('[data-surprise]')?.addEventListener('click', () => load().then(() => { render(false); const pool = hits.filter((r) => r.h); const r = pool[Math.floor(Math.random() * pool.length)]; if (r) { if (r.x) window.open(r.h, '_blank', 'noopener'); else location.href = r.h; } }));
+    if ([...p.keys()].some((k) => k === 'q' || k === 'sort' || fcols.some((c) => c.key === k))) go()();
   })();
 </script>

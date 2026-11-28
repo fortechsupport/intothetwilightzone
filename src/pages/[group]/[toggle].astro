@@ -1,0 +1,11 @@
+---
+// Each toggle of a group page at its own address (/view/movies/, /read/books/, /discover/sources/): the same page as
+// the group's, opened on that toggle (src/components/GroupPage.astro).
+import GroupPage from '../../components/GroupPage.astro';
+import { togglesOf } from '../../lib/taxonomy.mjs';
+export function getStaticPaths() {
+  return ['discover', 'view', 'listen', 'read'].flatMap((group) => togglesOf(group).map(([, toggle]: [string, string]) => ({ params: { group, toggle } })));
+}
+const { group, toggle } = Astro.params;
+---
+<GroupPage group={group!} toggle={toggle} />

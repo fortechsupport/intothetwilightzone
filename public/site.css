@@ -99,14 +99,15 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--space-6) 0; }
 
 .verbs { flex: 1; min-width: 0; }
 .verbs > ul { list-style: none; display: flex; justify-content: space-between; margin: 0; padding: 0; gap: 0; }
-.verbs .group > details > summary {
+.verbs .group > details > summary, .verbs .group > a.verb-link {
   display: block; cursor: pointer; list-style: none; padding: 20px 8px 18px; font-weight: 500; font-size: 1.02rem;
   letter-spacing: .02em; color: var(--text-soft); border-bottom: 2px solid transparent; white-space: nowrap;
 }
 .verbs .group > details > summary::-webkit-details-marker { display: none; }
-.verbs .group > details > summary:hover { color: var(--text); }
+.verbs .group > details > summary:hover, .verbs .group > a.verb-link:hover { color: var(--text); }
+.verbs .group > a.verb-link { text-decoration: none; }
 .verbs .group > details[open] > summary { color: var(--text); border-bottom-color: var(--brass); }
-.verbs .group > details > summary[aria-current] { color: var(--brass); border-bottom-color: var(--brass); }
+.verbs .group > details > summary[aria-current], .verbs .group > a.verb-link[aria-current] { color: var(--brass); border-bottom-color: var(--brass); }
 .header-search { flex-shrink: 0; }
 .icon-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-width: 40px; min-height: 40px; padding: 0 10px; border-radius: var(--radius-pill); border: 1px solid var(--line); color: var(--text-soft); background: var(--surface); text-decoration: none; cursor: pointer; }
 .icon-btn:hover { border-color: var(--line-strong); color: var(--text); }
@@ -426,7 +427,7 @@ table.gt .cell-label { display: none; }
 
 /* ---------- 10. Phones and tablets ---------- */
 @media (max-width: 1080px) {
-  .verbs .group > details > summary { padding: 20px 5px 18px; font-size: .95rem; }
+  .verbs .group > details > summary, .verbs .group > a.verb-link { padding: 20px 5px 18px; font-size: .95rem; }
   .brand-mark { font-size: 1.35rem; }
 }
 @media (max-width: 900px) {
@@ -439,7 +440,7 @@ table.gt .cell-label { display: none; }
   .verbs { display: none; position: absolute; left: 0; right: 0; top: 100%; background: var(--surface); border-bottom: 1px solid var(--line); box-shadow: var(--shadow); max-height: calc(100vh - 58px); overflow-y: auto; }
   .verbs.open { display: block; }
   .verbs > ul { display: block; }
-  .verbs .group > details > summary { padding: 13px 20px; border-bottom: 1px solid var(--line); font-size: 1.05rem; display: flex; justify-content: space-between; }
+  .verbs .group > details > summary, .verbs .group > a.verb-link { padding: 13px 20px; border-bottom: 1px solid var(--line); font-size: 1.05rem; display: flex; justify-content: space-between; }
   .verbs .group > details > summary::after { content: '+'; color: var(--muted); }
   .verbs .group > details[open] > summary::after { content: '–'; }
   .verbs .group > details[open] > summary { border-bottom-color: var(--line); color: var(--brass); }
@@ -755,3 +756,45 @@ html[data-cat-tab="fans"] :is(#real-people, #characters) { display: none; }
 .quiz-option[data-result="right"]::before { content: "\2713"; content: "\2713" / ""; }
 .quiz-option[data-result="wrong"]::before { content: "\2717"; content: "\2717" / ""; }
 .quiz-feedback { min-height: 3em; }
+
+/* ---------- Group toggles (the explore framework, 2026-11-28; src/components/GroupPage.astro) ----------
+   One pill per category under the group's title; the selected one is outlined in brass. On phones the strip
+   scrolls sideways with no visible scroll bar (Adam), and a fade at the right edge says there is more. */
+.toggles { position: relative; margin: var(--space-4) 0 var(--space-5); }
+.toggles ul { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 0; padding: 0; }
+.toggles a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 16px; border: 1px solid var(--line-strong); border-radius: var(--radius-pill); background: var(--surface); color: var(--text-soft); text-decoration: none; white-space: nowrap; font-weight: 500; }
+.toggles a:hover { color: var(--text); border-color: var(--brass); }
+.toggles a[aria-current="page"] { color: var(--text); border-color: var(--brass); background: var(--surface-2); box-shadow: inset 0 -3px 0 var(--brass); }
+.toggles .count-pill { margin: 0; }
+#toggle-panel[aria-busy="true"] { opacity: .6; transition: opacity .15s; }
+.toggle-intro { max-width: 72ch; }
+.sub-toggles { display: flex; gap: 6px; margin: 0 0 var(--space-4); border-bottom: 1px solid var(--line); }
+.sub-toggles [role="tab"] { background: none; color: var(--text-soft); border: 1px solid transparent; border-bottom: 3px solid transparent; padding: 8px 16px; min-height: 44px; cursor: pointer; font: inherit; font-weight: 500; margin-bottom: -1px; }
+.sub-toggles [role="tab"][aria-selected="true"] { color: var(--brass); border-bottom-color: var(--brass); }
+@media (max-width: 900px) {
+  .toggles { margin-right: calc(-1 * var(--space-4)); }
+  .toggles ul { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x proximity; padding-right: 40px; }
+  .toggles ul::-webkit-scrollbar { display: none; }
+  .toggles li { scroll-snap-align: start; }
+  .toggles::after { content: ''; position: absolute; top: 0; right: 0; bottom: 0; width: 40px; pointer-events: none; background: linear-gradient(to right, transparent, var(--bg)); }
+}
+@media (prefers-reduced-motion: reduce) { #toggle-panel[aria-busy="true"] { transition: none; } }
+/* Table chips (Play, Collect, Legacy), Surprise me, and the My Zone buttons on rows. */
+.gt-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: var(--space-3) 0 var(--space-4); }
+.gt-chip { min-height: 36px; padding: 4px 14px; border: 1px solid var(--line-strong); border-radius: var(--radius-pill); background: var(--surface); color: var(--text-soft); font: inherit; font-size: var(--step--1); cursor: pointer; }
+.gt-chip:hover { color: var(--text); border-color: var(--brass); }
+.gt-chip[aria-pressed="true"] { color: var(--text); border-color: var(--brass); background: var(--surface-2); box-shadow: inset 0 -2px 0 var(--brass); }
+.gt-surprise { margin-left: auto; }
+.gt-act { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+
+th.n { white-space: nowrap; }
+@media (max-width: 700px) { .gt-surprise { margin-left: 0; } }
+.gt-surprise { border-color: var(--brass); color: var(--text); font-weight: 600; }
+.gt-filters .gt-f select { max-width: 18rem; }
+@media (max-width: 900px) {
+  .gt-chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-right: calc(-1 * var(--space-4)); padding-right: var(--space-4); }
+  .gt-chips::-webkit-scrollbar { display: none; }
+  .gt-chip { flex: none; }
+}
+.gt-surprise { order: 99; }
+@media (max-width: 900px) { .gt-surprise { order: -1; position: sticky; left: 0; z-index: 1; background: var(--surface-2); } }

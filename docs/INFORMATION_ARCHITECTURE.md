@@ -1,6 +1,6 @@
 # IntoTheTwilightZone.com: information architecture
 
-**Status:** approved 2026-11-21 and live. **Changed 2026-11-28 (decision 0017):** Meet is renamed **Discover** and leads the menu; Read lists exactly
+**Status:** approved 2026-11-21 and live. **Changed 2026-11-28 (decision 0018, the explore framework):** Discover, View, Listen and Read are group pages with one toggle per category (each at /<group>/<category>/), Discover gains Sources, and there are no category or shelf pages; every category's table has its own columns (docs/plans/explore-framework-2026-11-28.md, section 3); Play, Collect and Legacy are one table each with the category as a column; Legacy's kinds of link are each separate. The table in section 1 below shows the result. **Changed earlier the same day (decision 0017):** Meet is renamed **Discover** and leads the menu; Read lists exactly
 Articles, Books, Comics, Essays, Magazines, Scripts and Short stories (the stories behind the episodes, renamed);
 Websites became "Websites and fan sites" in Legacy; every category (each Read format, and Play, Collect and Legacy
 as a whole) is one sortable, filterable, searchable table. **Changed 2026-11-27 (decision 0015):** Adam's menu sheet replaced the
@@ -23,13 +23,13 @@ each listing its items in his numbered order. Subcategories inside a category ar
 
 | Group | What the visitor does | Items, in Adam's order | Records* |
 |---|---|---|---:|
-| **Discover** | Looks up who and what everything links to | Organizations; People (tabs: Real people, Characters, Fans with the community forums); Places (tabs: Real places, Settings); Events (gatherings and History's milestone shelves; the Timeline linked) | 4,179 |
-| **View** | Watches or looks at it | Television, Movies, Stage, Artwork | 1,145 |
-| **Listen** | Listens to it | Music, Radio, Podcasts, Lectures | 564 |
-| **Read** | Reads it | Articles, Books, Comics, Essays, Magazines, Scripts, Short stories | 756 |
-| **Play** | Plays it | Pinball, Video games, Board games, Card games, Mini golf, Trivia (the site's quiz and published trivia games), Six Degrees, then More to play (Episode finder, Episode of the day, fan-made games, nods in other games) | 43 |
-| **Collect** | Owns it | By category: Merchandise (every shelf), Reading (Books, Comics, Magazines, Scripts), Music (Scores and soundtrack albums), Games (Pinball, Video, Board, Card and Trivia games); then Track your collection (My Zone) | 718 |
-| **Legacy** | Sees what it inspired | By kind of link (the Legacy-by-relationship shelves at /homages/), then by category: one page per category at /legacy/<category>/ listing its unofficial and inspired works (Television, Movies, Stage, Artwork, Music, Radio, Podcasts, Lectures, Reading, Games, Merchandise) | 1,711 |
+| **Discover** | Looks up who and what everything links to | Toggles: Organizations, People (real people, characters and fans in one table), Places (real places and settings), Events, Sources (Feeds and Posts) | 4,179 |
+| **View** | Watches or looks at it | Toggles: Television, Movies, Stage, Artwork | 1,145 |
+| **Listen** | Listens to it | Toggles: Music, Radio, Podcasts, Lectures | 564 |
+| **Read** | Reads it | Toggles: Articles, Books, Comics, Essays, Magazines, Scripts, Short stories | 756 |
+| **Play** | Plays it | One table, Category as a column: Pinball, Slot machine, Video game, Board game, Card game, Mini golf, Trivia game, Nod in another game, Fan-made game, On this site | 47 |
+| **Collect** | Owns it | One table, Category as a column (each separate: Home video, Toys, Figures, Posters, Prints, Props, Costumes...), Physical, digital or both | 718 |
+| **Legacy** | Sees what it inspired | One table, Kind of link (each separate) and Category as columns | 1,161 |
 
 \*Distinct records that appear anywhere in the verb. A record can appear in more than one verb, so the column adds up to more than 5,957. Section 9 has the full counts.
 

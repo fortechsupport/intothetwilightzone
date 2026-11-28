@@ -119,6 +119,23 @@ export async function read(ctx: Ctx) {
   return res;
 }
 
+/**
+ * GET /api/votes/all: the net score (up minus down) of every record anyone has voted on, for the tables' Fan rating
+ * column (the explore framework, 2026-11-28). Public and the same for everyone, so it is cached for five minutes.
+ */
+export async function all(ctx: Ctx) {
+  const url = new URL(ctx.req.url);
+  const cache = typeof caches !== 'undefined' ? (caches as unknown as { default: Cache }).default : null;
+  const cacheKey = new Request(`${url.origin}/api/votes/all`);
+  if (cache) { const hit = await cache.match(cacheKey).catch(() => undefined); if (hit) return hit; }
+  const res = await ctx.env.DB!.prepare('SELECT item_key, up, down FROM vote_totals WHERE up <> down').all<{ item_key: string; up: number; down: number }>();
+  const net: Record<string, number> = {};
+  for (const r of res.results ?? []) net[r.item_key] = r.up - r.down;
+  const out = new Response(JSON.stringify({ net }), { headers: { 'Content-Type': 'application/json; charset=utf-8', 'X-Content-Type-Options': 'nosniff', 'Cache-Control': 'public, max-age=300' } });
+  if (cache) { const put = cache.put(cacheKey, out.clone()).catch(() => undefined); if (ctx.waitUntil) ctx.waitUntil(put); else await put; }
+  return out;
+}
+
 /** POST /api/votes { item, value: 1 | -1 | 0 } (0 withdraws the vote). */
 export async function cast(ctx: Ctx) {
   const u = requireUser(ctx);
