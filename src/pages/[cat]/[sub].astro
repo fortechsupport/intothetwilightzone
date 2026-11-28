@@ -7,8 +7,9 @@ import { motifForCategory } from '../../lib/motifs';
 import EntryList from '../../components/EntryList.astro';
 import SectionSummary from '../../components/SectionSummary.astro';
 import ListTools from '../../components/ListTools.astro';
+import GroupTable from '../../components/GroupTable.astro';
 import { catalog, type CatInfo, type SubInfo, type Entry } from '../../lib/catalog';
-import { sortKey, OFFICIAL_LABEL, UNOFFICIAL_LABEL, verbOf } from '../../lib/taxonomy.mjs';
+import { sortKey, OFFICIAL_LABEL, UNOFFICIAL_LABEL, verbOf, READ_ORDER } from '../../lib/taxonomy.mjs';
 import { watchFor, watchShort } from '../../lib/watch';
 import { movieFacets } from '../../lib/facets';
 
@@ -62,7 +63,9 @@ const gid = (p: string, g: string) => `${p ? p + '-' : ''}${g.toLowerCase().repl
 const siblings = c.subs.filter((x) => x.entries.length > 0);
 // Movies: filters by type, decade, the Twilight Zone episode a film points to, and how sure the link is.
 const facetDefs = movieFacets(c.slug, s.entries);
-const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
+// Read's seven formats are its categories (Adam, 2026-11-28): each is one sortable, filterable, searchable table.
+const asTable = c.slug === 'reading' && READ_ORDER.includes(s.slug);
+const totalGroups = asTable ? 0 : parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
 ---
 <Base title={`${s.title}: ${c.title}`} description={`${s.title} (${c.title}): ${s.blurb}`}>
   <div class="page-head has-art">
@@ -95,11 +98,12 @@ const totalGroups = parts.reduce((n, p) => n + groupsOf(p.entries).length, 0);
     </nav>
   )}
   {!s.entries.length && <p class="muted">No entries yet. <a href="/contribute/">Suggest one</a>.</p>}
-  {s.entries.length > 5 && (
+  {asTable && <GroupTable table={`reading/${s.slug}`} />}
+  {!asTable && s.entries.length > 5 && (
     <ListTools scope="list" noun={s.title.toLowerCase()} groups={[...new Set(s.entries.map((e) => e.group).filter(Boolean) as string[])].sort((a, b) => rank(a).localeCompare(rank(b), undefined, { numeric: true }))} sides={split} tiers={new Set(s.entries.map((e) => e.tier ?? 'core')).size > 1} years={s.entries.some((e) => /\b(1[89]\d\d|20\d\d)\b/.test(e.meta ?? ''))} groupLabel={c.slug === 'series' && s.slug === 'homages' ? 'Show' : s.slug === 'rod-serling-films' ? "Serling's part" : s.groups?.some((g) => /Twilight Zone|Night Gallery/.test(g)) ? 'Show or film' : 'Group'} facets={facetDefs} orderLabels={chrono ? [s.orderNote ? 'Date order' : 'Series order', 'Reverse order'] : undefined} />
   )}
   <div id="list">
-  {parts.map((p) => {
+  {!asTable && parts.map((p) => {
     const gs = groupsOf(p.entries);
     const multi = gs.length > 1;
     const letters = !multi && !chrono && p.entries.length > 40;

@@ -13,6 +13,7 @@ import SectionSummary from '../../components/SectionSummary.astro';
 import { catalog, countOf, entityRows, letterOf, SPLIT_INDEX_AT, type CatInfo } from '../../lib/catalog';
 import { verbOf } from '../../lib/taxonomy.mjs';
 import ListTools from '../../components/ListTools.astro';
+import GroupTable from '../../components/GroupTable.astro';
 import { movieFacets } from '../../lib/facets';
 
 export async function getStaticPaths() {
@@ -32,6 +33,9 @@ const offN = (list: { official?: boolean }[]) => list.filter((e) => e.official =
 const allEntries = [...new Map(c.subs.flatMap((s) => s.entries.map((e) => [e.key, e]))).values()];
 const totalOff = offN(allEntries);
 const group = verbOf(c.slug);
+// Discover, View and Listen: one sortable, filterable, searchable table per category (Adam, 2026-11-28), in place of
+// the shelf previews and the A to Z indexes. The shelf pages keep the Official and Unofficial shelves.
+const table = group && ['discover', 'view', 'listen'].includes(group.slug);
 const entRows = section ? await entityRows(c.slug as any) : [];
 const split = entRows.length > SPLIT_INDEX_AT;
 const letters = [...new Set(entRows.map((r) => letterOf(r.sort)))].sort();
@@ -116,7 +120,12 @@ const firstTab = placeTabs ? 'real-places' : 'real-people';
     ))}
   </div>
   {empty.length > 0 && <p class="small muted">Planned, with no entries yet: {empty.map((s, i) => <>{i > 0 && ', '}{s.title}{s.isNew && ' (new)'}</>)}. Research is under way.</p>}
-  {peopleTabs ? null : section ? (
+  {peopleTabs || (table && section) ? null : table ? (
+    <>
+      <GroupTable table={c.slug} />
+      <SectionSummary entries={allEntries} scope={c.slug} label={c.title} />
+    </>
+  ) : section ? (
     <>
       <h2>Every {placeTabs ? 'real place' : peopleTabs ? 'person and character' : c.title.toLowerCase().replace(/s$/, '')} A to Z</h2>
       {split ? (
@@ -180,9 +189,8 @@ const firstTab = placeTabs ? 'real-places' : 'real-people';
   )}
   {peopleTabs && (
     <>
-      <h2>Everyone A to Z: real people, characters and fans</h2>
-      <p class="small muted">{entRows.length.toLocaleString('en-US')} entries, one page per letter, filed by surname (the letters at the top of this page). Filter by kind to see only the characters or the fans, or search them all here.</p>
-      <EntityFinder section="people" noun="people and characters" />
+      <GroupTable table="people" heading="Everyone A to Z: real people, characters and fans, in one table" />
+      <p class="small muted">Or browse one page per letter, filed by surname (the letters at the top of this page).</p>
     </>
   )}
   {placeTabs && (
@@ -193,6 +201,7 @@ const firstTab = placeTabs ? 'real-places' : 'real-people';
       <EntryList entries={settings} />
     </div>
   )}
+  {table && section && !peopleTabs && <GroupTable table={c.slug} heading={placeTabs ? 'Every place A to Z, real places and settings, in one table' : undefined} />}
   <script>
     // Tabs for Places (Real places, Settings) and People (Real people, Characters, Fans) (WAI-ARIA tabs pattern). Without JavaScript both panels show in turn.
     const list = document.querySelector<HTMLElement>('[data-tabs]');

@@ -14,9 +14,9 @@ const path = require('path');
 
 const base = process.argv[2] ?? 'http://localhost:4321';
 const PAGES = [
-  '/', '/start/', '/view/', '/listen/', '/read/', '/meet/', '/legacy/', '/legacy/series/', '/events/', '/places/', '/play/', '/collect/', '/quiz/', '/artwork/', '/merchandise/',
+  '/', '/start/', '/view/', '/listen/', '/read/', '/discover/', '/legacy/', '/legacy/series/', '/events/', '/places/', '/movies/', '/play/', '/collect/', '/quiz/', '/artwork/', '/merchandise/',
   '/series/', '/series/twilight-zone/', '/series/episodes/', '/series/homages/', '/series/anthologies/', '/films/the-outer-limits-1963/', '/television/american-dad/', '/television/homages/', '/films/robot-chicken/', '/series/1959/', '/episodes/1959/time-enough-at-last/', '/people/', '/people/rod-serling/',
-  '/films/duel-1971/', '/songs/iron-maiden-twilight-zone/', '/radio/a-stop-at-willoughby/', '/radio/twilight-zone-radio-dramas-series/', '/radio/radio-dramas/', '/radio/serling-radio/', '/stage/serling-on-stage/', '/films/the-twilight-zone-stage-play/', '/books/more-stories-from-the-twilight-zone/', '/books/to-serve-man-knight-story/', '/reading/source-stories/',
+  '/films/duel-1971/', '/songs/iron-maiden-twilight-zone/', '/radio/a-stop-at-willoughby/', '/radio/twilight-zone-radio-dramas-series/', '/radio/radio-dramas/', '/radio/serling-radio/', '/stage/serling-on-stage/', '/films/the-twilight-zone-stage-play/', '/books/more-stories-from-the-twilight-zone/', '/books/to-serve-man-knight-story/', '/reading/short-stories/', '/reading/books/', '/homages/websites/',
   '/places/willoughby/', '/organizations/cayuga-productions/', '/characters/the-gremlin-nightmare-at-20-000-feet/',
   '/media/', '/media/reviews/', '/podcasts/episodes/', '/podcasts/shows/', '/search/', '/timeline/', '/timeline/1960s/', '/people/a-z/s/', '/rod-serling/', '/night-gallery/', '/categories/', '/about/', '/my-zone/', '/map/', '/finder/', '/themes/', '/themes/the-uncanny/', '/404.html',
   '/account/', '/community/', '/community/guidelines/', '/community/uploads/', '/contribute/suggest/', '/contribute/share/', '/moderation/', '/privacy/', '/support/', '/terms/', '/copyright/', '/credits/images/',

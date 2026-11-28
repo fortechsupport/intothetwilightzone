@@ -3,6 +3,24 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-28 — Discover first, and every category as one table
+
+Visitors can now:
+- Find the menu as Discover, View, Listen, Read, Play, Collect, Legacy. Discover holds Organizations, People, Places
+  and Events (it was called Meet; old /meet/ links still work).
+- See every entry of a category in one table, on its page: Organizations, People, Places, Events, Television,
+  Movies, Stage, Artwork, Music, Radio, Podcasts, Lectures, and each Read format. Search it, filter it by any column
+  (shelf, group, type, the episode a work points to, evidence, decade, official or not, relevance; for People,
+  Places and Organizations also where they appear), sort it by any column, and share the address of a filtered view.
+- Do the same on Play (every game, nods in other games, fan-made games and the games on this site), Collect
+  (everything to own, with physical or digital) and Legacy (every inspired work, by kind of link and category).
+- Read Short stories, which now also lists Rod Serling's own short story "First Squad, First Platoon".
+- Find the websites and fan sites under Legacy (old /reading/websites/ links still work).
+
+**Known not to work yet:**
+- Without JavaScript a table shows its first 100 rows only; the shelf pages list everything.
+- Physical or digital is "Not stated" for 25 items whose records do not say.
+
 ## 2026-11-28 — Post-launch check: dead links replaced, three accessibility fixes
 
 Visitors can now:

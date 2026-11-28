@@ -1,6 +1,9 @@
 # IntoTheTwilightZone.com: information architecture
 
-**Status:** approved 2026-11-21 and live. **Changed 2026-11-27 (decision 0015):** Adam's menu sheet replaced the
+**Status:** approved 2026-11-21 and live. **Changed 2026-11-28 (decision 0017):** Meet is renamed **Discover** and leads the menu; Read lists exactly
+Articles, Books, Comics, Essays, Magazines, Scripts and Short stories (the stories behind the episodes, renamed);
+Websites became "Websites and fan sites" in Legacy; every category (each Read format, and Play, Collect and Legacy
+as a whole) is one sortable, filterable, searchable table. **Changed 2026-11-27 (decision 0015):** Adam's menu sheet replaced the
 seven verbs with seven groups, in this order: Meet, View, Listen, Read, Play, Collect, Legacy. View replaces Watch and
 gains Artwork; Meet gains Places and Events; Listen gains Lectures; Legacy replaces Discover. Items follow his numbered
 order, and Play lists each kind of game. The table in section 1 is current; section 3 keeps the earlier reasoning
@@ -20,10 +23,10 @@ each listing its items in his numbered order. Subcategories inside a category ar
 
 | Group | What the visitor does | Items, in Adam's order | Records* |
 |---|---|---|---:|
-| **Meet** | Looks up who and what everything links to | Organizations; People (tabs: Real people, Characters, Fans with the community forums); Places (tabs: Real places, Settings); Events (gatherings and History's milestone shelves; the Timeline linked) | 4,179 |
+| **Discover** | Looks up who and what everything links to | Organizations; People (tabs: Real people, Characters, Fans with the community forums); Places (tabs: Real places, Settings); Events (gatherings and History's milestone shelves; the Timeline linked) | 4,179 |
 | **View** | Watches or looks at it | Television, Movies, Stage, Artwork | 1,145 |
 | **Listen** | Listens to it | Music, Radio, Podcasts, Lectures | 564 |
-| **Read** | Reads it | Scripts, Books, Comics, Magazines, Articles, Essays, then The stories behind the episodes and Websites | 756 |
+| **Read** | Reads it | Articles, Books, Comics, Essays, Magazines, Scripts, Short stories | 756 |
 | **Play** | Plays it | Pinball, Video games, Board games, Card games, Mini golf, Trivia (the site's quiz and published trivia games), Six Degrees, then More to play (Episode finder, Episode of the day, fan-made games, nods in other games) | 43 |
 | **Collect** | Owns it | By category: Merchandise (every shelf), Reading (Books, Comics, Magazines, Scripts), Music (Scores and soundtrack albums), Games (Pinball, Video, Board, Card and Trivia games); then Track your collection (My Zone) | 718 |
 | **Legacy** | Sees what it inspired | By kind of link (the Legacy-by-relationship shelves at /homages/), then by category: one page per category at /legacy/<category>/ listing its unofficial and inspired works (Television, Movies, Stage, Artwork, Music, Radio, Podcasts, Lectures, Reading, Games, Merchandise) | 1,711 |

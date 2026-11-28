@@ -4,6 +4,7 @@
 // episodes and shows are counted from the connections data. Decision 0002 (Adam, 2026-11-21).
 import Base from '../../layouts/Base.astro';
 import SectionSummary from '../../components/SectionSummary.astro';
+import GroupTable from '../../components/GroupTable.astro';
 import { getCollection, getEntry } from 'astro:content';
 import { catalog } from '../../lib/catalog';
 import { allEpisodes, episodeNumber } from '../../lib/data';
@@ -91,6 +92,8 @@ const LABEL: Record<string, string> = { '1959': 'The original series', '1985': '
     ))}
   </div>
   <p class="small">{Object.values(more).map(([l, h], i) => <>{i > 0 && ' · '}<a href={h}>{l}</a></>)} · <a href="/rod-serling/">Rod Serling</a> · <a href="/finder/">Episode finder</a> · <a href="/themes/">Browse by theme</a></p>
+
+  <GroupTable table="series" heading="Every series, show and episode in Television, in one table" />
 
   <div class="two-col">
     <section>
