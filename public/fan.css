@@ -73,7 +73,7 @@ details.spoiler p { margin: 8px 0 4px; }
 .today { display: grid; grid-template-columns: 1.3fr 1fr; gap: 16px; margin: 16px 0 8px; }
 .today > div { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: var(--space-4) var(--space-5); }
 .today-eotd { border-left: 3px solid var(--accent-2) !important; }
-.today h3 { margin: 4px 0 6px; font-size: var(--step-3); }
+.today h3 { margin: 4px 0 6px; font-size: var(--step-2); }
 .today h3 a { color: var(--text); text-decoration: none; }
 .today h3 a:hover { color: var(--brass); }
 .otd-list li { border-bottom: 1px solid var(--line); }
