@@ -15,7 +15,8 @@ Visitors can now:
 - Use a "Connections" tab on series pages (it was "More").
 
 **Known not to work yet:**
-- 20 sources have no live page and no archived copy anywhere; they keep their credit without a link.
+- 24 source entries point at pages that are gone with no archived copy anywhere; they keep their credit without a
+  link, and 8 of them now have a working source beside them.
 - About 3,100 outbound links could not be checked automatically because the sites refuse robots; they are not
   known to be broken.
 
