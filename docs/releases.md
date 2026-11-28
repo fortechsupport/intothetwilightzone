@@ -3,6 +3,18 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-28 — The last 14 checked photos
+
+Visitors can now:
+- See credited photos on 14 more people's pages: Charles Aidman, Jack Albertson, Theodore Bikel, Edward Binns,
+  Larry Blyden, Fred Clark, Robert Cummings, Joan Hackett, Jim Hutton, Cloris Leachman, Ross Martin, Martin Milner,
+  Howard Morris and Nehemiah Persoff. Each names its creator, license and Wikimedia Commons page. That finishes the
+  list of checked Commons pictures: 211 credited pictures are now on the site.
+
+**Known not to work yet:**
+- People and records without a free-to-use picture on Commons still show no photo; new pictures need a new
+  research round.
+
 ## 2026-11-28 — Donations open on the Support hosting page
 
 Visitors can now:
