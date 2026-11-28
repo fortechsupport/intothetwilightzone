@@ -77,20 +77,26 @@ settings only reach new deployments.
 
 ## Optional later
 
-- **Email sign-in links** (a backup for people who lose their passkey). Either:
-  - after the nameservers move to Cloudflare (launch phase 2): Dashboard → **Email** → **Email Sending**,
-    onboard `intothetwilightzone.com`, add a `send_email` binding named `EMAIL` to the project, and a text
-    variable `EMAIL_FROM` such as `signin@intothetwilightzone.com`; or
-  - now, with [Resend](https://resend.com) (free tier): verify the domain there (it gives you DNS records to
-    add at Bluehost, alongside the Microsoft 365 records, which must stay), then add secret `RESEND_API_KEY`
-    and variable `EMAIL_FROM`.
+- **Email sign-in links** (a backup for people who lose their passkey). Use [Resend](https://resend.com)
+  (free tier, 3,000 emails a month):
+  1. Sign up, then **Domains → Add domain** → `intothetwilightzone.com`.
+  2. Resend lists three DNS records, all on the `send` and `resend._domainkey` names: an MX and an SPF
+     TXT on `send`, and a DKIM TXT on `resend._domainkey`. Add them in **Cloudflare → DNS → Records** as
+     DNS only (or use Resend's Cloudflare button). They do not touch the Microsoft 365 MX and SPF records on
+     the bare domain, which must stay as they are. Back in Resend, **Verify DNS Records**.
+  3. **API Keys → Create API Key**, sending access to `intothetwilightzone.com`.
+  4. Pages project → **Settings → Variables and secrets → Production**: secret `RESEND_API_KEY`, text
+     variable `EMAIL_FROM` = `signin@intothetwilightzone.com` (no mailbox needed to send from it).
+  The code also accepts a Cloudflare Email Service `send_email` binding named `EMAIL` in place of Resend,
+  where Cloudflare offers that binding to the project.
   Optionally add `ADMIN_EMAILS` (your address) so confirming that email makes you admin.
 - **Vote alert emails**: once email sending works (either way above), add text variable `VOTE_ALERT_EMAIL` with
   the address that should hear when fans vote a record below zero (if it's not set, the first address in
   `ADMIN_EMAILS` is used). Without it, the alerts are on Moderation → **Votes below zero** only.
 - **Google sign-in**: Google Cloud console → APIs & Services → Credentials → Create OAuth client ID (Web
-  application). Authorised redirect URIs: `https://intothetwilightzone.com/api/auth/google/callback` and the
-  preview address with the same path. Then add text variable `GOOGLE_CLIENT_ID` and secret
+  application). Authorised JavaScript origin: `https://intothetwilightzone.com`. Authorised redirect URI:
+  `https://intothetwilightzone.com/api/auth/google/callback` (preview.intothetwilightzone.com now redirects to
+  the main address, so it needs no entry). Then add text variable `GOOGLE_CLIENT_ID` and secret
   `GOOGLE_CLIENT_SECRET`.
 - **Forum pre-moderation**: text variable `FORUM_PREMODERATE` = `all` (every post checked), `new` (default:
   a member's first two posts) or `none`.

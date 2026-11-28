@@ -3,6 +3,20 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-28 — Launch check: every page answers, two dead mirror links fixed
+
+Visitors can now:
+- Follow the Wikipedia sources on the S.E.S., Van Morrison and L.A. Style "Twilight Zone" songs and the 1987 Writers
+  Guild award page; they pointed at an offline Wikipedia mirror and now go to Wikipedia itself.
+- Read two /Film articles that were taken down (Futurama's "Scary Door" parodies and the Forbidden Planet saucer)
+  through their Wayback Machine copies, on the six records that cite them.
+- Rely on the launch: all 6,949 pages in the sitemap answer, robots.txt allows search engines and names the sitemap,
+  and every page's canonical address is on intothetwilightzone.com.
+
+**Known not to work yet:**
+- About 50 links to other websites are dead and have no archived copy (the weekly link check lists them); they stay as
+  sources until a new address is found.
+
 ## 2026-11-28 — The site is live at intothetwilightzone.com
 
 Visitors can now:
