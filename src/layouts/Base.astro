@@ -27,7 +27,7 @@ import { UTILITY_LINKS, FOOTER_COLUMNS, FOOTER_LINKS } from '../lib/site-links';
 import AccountSlot from '../components/AccountSlot.astro';
 const nav = UTILITY_LINKS;
 // Record pages belong to a verb too, so its tab is marked while you read one.
-const RECORD_VERB: Record<string, string> = { series: 'view', episodes: 'view', films: 'view', '1959series': 'view', '1985series': 'view', '2002series': 'view', '2019series': 'view', songs: 'listen', books: 'read', comics: 'read', magazines: 'read', essays: 'read', characters: 'meet', merchandise: 'collect' };
+const RECORD_VERB: Record<string, string> = { series: 'view', episodes: 'view', films: 'view', '1959series': 'view', '1985series': 'view', '2002series': 'view', '2019series': 'view', songs: 'listen', books: 'read', comics: 'read', magazines: 'read', essays: 'read', characters: 'discover', merchandise: 'collect' };
 const path = Astro.url.pathname;
 import { correctionUrl } from '../lib/fan/contribute';
 // One "Type" filter for site search, from the first part of the address.

@@ -90,7 +90,7 @@ export const TAXONOMY = [
     slug: 'people',
     title: 'People',
     kind: 'section',
-    group: 'meet',
+    group: 'discover',
     description: 'The writers, directors, actors, narrators, composers, crew, characters and admirers of The Twilight Zone.',
     intro: [
       "The Twilight Zone was Rod Serling's show, but it was made by a remarkable group: the writers Charles Beaumont, Richard Matheson and George Clayton Johnson; the producers Buck Houghton, Herbert Hirschman, Bert Granet and William Froug; composers including Bernard Herrmann, Jerry Goldsmith and Fred Steiner; and a cast list that runs from silent-era veterans to future stars such as Robert Redford, William Shatner and Burt Reynolds.",
@@ -121,7 +121,7 @@ export const TAXONOMY = [
     slug: 'places',
     title: 'Places',
     kind: 'section',
-    group: 'meet',
+    group: 'discover',
     description: 'Real places tied to The Twilight Zone, from MGM backlots to Rod Serling\'s hometown, and the fictional places of its stories.',
     intro: [
       "The original series was made almost entirely at MGM in Culver City, on soundstages and the backlot streets that stood in for small-town America, with location trips to Death Valley, Lone Pine and the Malibu coast. The revivals moved north to Vancouver and Toronto. Serling's own story runs from Syracuse and Binghamton, New York, through Antioch College and Cincinnati, to Pacific Palisades and his summer cottage on Cayuga Lake.",
@@ -143,7 +143,7 @@ export const TAXONOMY = [
     slug: 'organizations',
     title: 'Organizations',
     kind: 'section',
-    group: 'meet',
+    group: 'discover',
     description: 'The networks, studios, production companies, publishers, licensees and sponsors behind The Twilight Zone, and the archives, museums, foundations, award bodies and fan groups around it.',
     intro: [
       "Every part of the franchise passed through an organization. Serling's company Cayuga Productions made the original series with CBS, which broadcast it and the first revival and now owns the franchise; the original series was filmed at MGM; UPN carried the 2002 series and CBS All Access the 2019 one. Licensees carried it into print and products: Dell and Gold Key comics, TZ Publications' Twilight Zone Magazine, Gauntlet Press's script volumes, Bif Bang Pow! figures and Rittenhouse cards. Sponsors such as General Foods and Kimberly-Clark paid for the first season.",
@@ -168,7 +168,7 @@ export const TAXONOMY = [
   {
     slug: 'events',
     title: 'Events',
-    group: 'meet',
+    group: 'discover',
     split: true,
     description: 'Gatherings people could go to, and the milestones of the show\'s history: conventions, festivals, exhibitions, screenings, premieres, awards, production history, the trials and Rod Serling\'s life.',
     intro: [
@@ -345,11 +345,11 @@ export const TAXONOMY = [
       { slug: 'foreign-language', title: 'Foreign-language editions', isNew: true, blurb: 'Translations and books published outside English.' },
       { slug: 'serling-foundation-papers', title: 'Rod Serling Memorial Foundation publications', isNew: true, blurb: 'Journals and papers published by the foundation.' },
       { slug: 'serling-own-writing', title: "Rod Serling's own writing", isNew: true, blurb: 'Articles, essays and fiction Serling wrote himself.' },
-      { slug: 'websites', title: 'Websites and databases', isNew: true, blurb: 'Official sites, reference sites, databases and fan sites about the show.' },
       { slug: 'scripts', title: 'Scripts and teleplays', blurb: 'Published scripts, including Gauntlet Press\'s Serling volumes.', isNew: true },
       // Read plan (docs/plans/research-read.md, section 2): one record per published story, play or radio play an
       // episode or segment adapts. The stories belong to their authors, so the shelf shows no official split.
-      { slug: 'source-stories', title: 'The stories behind the episodes', isNew: true, side: 'neither', groups: ['The Twilight Zone (1959)', 'The Twilight Zone (1985)', 'The Twilight Zone (2019)', 'Night Gallery'], blurb: 'The short stories, radio plays and anecdotes the episodes and Night Gallery segments adapt: who wrote them and where they first appeared.', connection: 'Each story was adapted as an episode of The Twilight Zone or a segment of Night Gallery; the page links to it. Where it first appeared is given only where a source we read says so.' },
+      // Adam (2026-11-28) named it Short stories; Serling's own short stories join it.
+      { slug: 'short-stories', title: 'Short stories', isNew: true, side: 'neither', groups: ['The Twilight Zone (1959)', 'The Twilight Zone (1985)', 'The Twilight Zone (2019)', 'Night Gallery', "Rod Serling's short stories"], blurb: 'The short stories the episodes and Night Gallery segments adapt (with the one radio play and one book of anecdotes they also draw on), and Rod Serling\'s own short stories: who wrote them and where they first appeared.', connection: 'Each story was adapted as an episode of The Twilight Zone or a segment of Night Gallery, or was written by Rod Serling; the page links to it. Where it first appeared is given only where a source we read says so.' },
     ],
   },
   {
@@ -422,6 +422,8 @@ export const TAXONOMY = [
       { slug: 'inspired-by', title: 'Inspired by', blurb: 'Works whose makers, or published sources, say an episode inspired them.' },
       { slug: 'in-everyday-language', title: 'In everyday language', isNew: true, blurb: 'Catchphrases, the theme as shorthand, dictionary entries and public figures invoking the show. Rankings of the show are under Events > Honors and awards.', intro: 'Few television shows have changed the language. "Twilight zone" is now an ordinary phrase for anything uncanny, the theme is hummed to mean "something strange is going on", and lines such as "It\'s a cookbook!" are quoted by people who have never seen the episodes.' },
       { slug: 'parodies', title: 'Parodies', blurb: 'Spoofs and send-ups.' },
+      // Adam (2026-11-28): Websites left Read for Legacy, "all the kinds of links" (docs/plans/navigation-2026-11-28.md).
+      { slug: 'websites', title: 'Websites and fan sites', isNew: true, groups: ['Fan sites', 'Reference sites', 'Databases', 'Academic', 'Official sites', 'Streaming'], blurb: 'Fan sites, fan wikis, reference entries and databases about the show and Serling, each credited to whoever runs it.', connection: 'Each site is about The Twilight Zone, Rod Serling or Night Gallery, or tracks the show\'s references in other works. Fan sites and community wikis are unofficial; a site is official only where the rights holders run it.' },
       { slug: 'references', title: 'References', groups: ['Confirmed by its makers', 'Documented', 'Noted by fans'], blurb: 'Passing references, quotations and lyric mentions, grouped by how well each is documented.' },
     ],
   },
@@ -505,13 +507,13 @@ export const CATEGORY = Object.fromEntries(TAXONOMY.map((c) => [c.slug, c]));
 const byTitle = (a, b) => sortKey(a.title).localeCompare(sortKey(b.title));
 /**
  * The nine verbs (Adam, 2026-11-21; site/INFORMATION_ARCHITECTURE.md): what a visitor wants to do. Each
- * holds categories, A-Z; Meet and Visit open the directories. Pages at /<verb>/; the old /explore/<group>/
+ * holds categories, A-Z; Discover opens the directories. Pages at /<verb>/; the old /explore/<group>/
  * pages redirect (OLD_GROUPS).
  */
 // The menu is Adam's sheet (2026-11-27, decision 0015): seven groups in this order, each listing its categories in
 // the order he numbered them (`order`); a category it leaves out follows A to Z.
 export const VERBS = [
-  { slug: 'meet', title: 'Meet', blurb: 'The organizations and people behind it, its characters and fans, the places real and imagined, and its events and history.', order: ['organizations', 'people', 'places', 'events'] },
+  { slug: 'discover', title: 'Discover', blurb: 'The organizations and people behind it, its characters and fans, the places real and imagined, and its events and history.', order: ['organizations', 'people', 'places', 'events'] },
   { slug: 'view', title: 'View', blurb: 'TV series and episodes, movies, documentaries, the stage, and the art and design.', order: ['series', 'movies', 'stage', 'artwork'] },
   { slug: 'listen', title: 'Listen', blurb: 'Songs, soundtracks and the theme, radio dramas, podcasts and lectures.', order: ['music', 'radio', 'podcasts', 'lectures'] },
   { slug: 'read', title: 'Read', blurb: 'Scripts, books, comics, magazines, articles and essays, and the stories behind the episodes.' },
@@ -527,7 +529,7 @@ export const GROUPS = VERBS;
 export const groupHref = (g) => g.href;
 export const verbOf = (catSlug) => VERBS.find((v) => v.categories.some((c) => c.slug === catSlug));
 /** Old group pages and the verb that replaced each. */
-export const OLD_GROUPS = { screen: 'view', audio: 'listen', print: 'read', games: 'play', live: 'meet', art: 'collect', legacy: 'legacy' };
+export const OLD_GROUPS = { screen: 'view', audio: 'listen', print: 'read', games: 'play', live: 'discover', art: 'collect', legacy: 'legacy' };
 /** Reading subcategories that are topics, not formats: shown as collections on Read. */
 /** Collect (Adam's menu sheet, 2026-11-27: "{All categories}"): the shelves of each category that hold things a fan can
  * own, in menu order. Merchandise lists every shelf. */
@@ -541,11 +543,11 @@ export const COLLECT_FROM = [
 export const LEGACY_FROM = ['series', 'movies', 'stage', 'artwork', 'music', 'radio', 'podcasts', 'lectures', 'reading', 'games', 'merchandise'];
 /** Categories merged into another, and where their landing pages now point (shelves redirect through MOVES). */
 export const MERGED_CATEGORIES = { history: '/events/' };
-/** Retired menu groups and where their old pages now point: Attend and Visit (2026-11-26), then Watch and Discover
- * (Adam's menu sheet, 2026-11-27). */
-export const RETIRED_VERBS = { attend: '/events/', visit: '/places/', watch: '/view/', discover: '/legacy/' };
-/** Read's formats in Adam's order (menu sheet, 2026-11-27); websites and the stories behind the episodes follow. */
-export const READ_ORDER = ['scripts', 'books', 'comics', 'magazines', 'articles', 'essays', 'source-stories', 'websites'];
+/** Retired menu groups and where their old pages now point: Attend and Visit (2026-11-26), Watch (Adam's menu sheet,
+ * 2026-11-27), then Meet, renamed Discover (Adam, 2026-11-28; /discover/ had pointed at /legacy/ for a day). */
+export const RETIRED_VERBS = { attend: '/events/', visit: '/places/', watch: '/view/', meet: '/discover/' };
+/** Read's formats, exactly Adam's seven (2026-11-28, A to Z). Websites moved to Legacy (MOVES). */
+export const READ_ORDER = ['articles', 'books', 'comics', 'essays', 'magazines', 'scripts', 'short-stories'];
 export const READ_COLLECTIONS = ['accident-and-trial', 'anniversary-coverage', 'cast-and-crew-memoirs', 'foreign-language', 'serling-foundation-papers', 'serling-own-writing'];
 
 /** People, Places, Organizations, in that order. */
@@ -695,7 +697,7 @@ const ALIASES = {
   'media/*': 'content',
   'community/fan-communities': ['organizations', 'fan-groups'],
   'community/organizations': ['organizations', 'foundations-societies'],
-  'community/websites-databases': ['reading', 'websites'],
+  'community/websites-databases': ['homages', 'websites'],
   'cultural-impact/catchphrases': ['homages', 'in-everyday-language', 'Catchphrases and idioms'],
   'cultural-impact/theme-shorthand': ['homages', 'in-everyday-language', 'The theme as shorthand'],
   'cultural-impact/public-uses': ['homages', 'in-everyday-language', 'Public uses'],
@@ -721,6 +723,10 @@ const ALIASES = {
  * composers from Music to People, and two one-record subcategories fold into their neighbours.
  */
 const MOVES = {
+  // Adam (2026-11-28): Read lists seven items. Websites became a kind of link in Legacy, and the stories behind the
+  // episodes became Short stories.
+  'reading/websites': ['homages', 'websites'],
+  'reading/source-stories': ['reading', 'short-stories'],
   // Adam's menu sheet (2026-11-27): board and card games split.
   'games/board-card-games': ['games', 'board-games'],
   // Television (2026-11-21): TV series and TV episodes became one category.
@@ -931,7 +937,7 @@ export function place(col, id, d, ctx = {}) {
       if (d.kind === 'scripts' || d.kind === 'play') { add('reading', 'scripts', 'Books'); break; }
       if (SOURCE_KINDS.has(d.kind)) {
         const first = String((d.episodes ?? [])[0] ?? '');
-        add('reading', 'source-stories', /^films\/night-gallery/.test(first) ? 'Night Gallery' : /^(1985|2019)\//.test(first) ? `The Twilight Zone (${first.slice(0, 4)})` : 'The Twilight Zone (1959)');
+        add('reading', 'short-stories', /^films\/night-gallery/.test(first) ? 'Night Gallery' : /^(1985|2019)\//.test(first) ? `The Twilight Zone (${first.slice(0, 4)})` : 'The Twilight Zone (1959)');
         break;
       }
       const authors = (d.authors ?? []).join(' ');
@@ -957,6 +963,8 @@ export function place(col, id, d, ctx = {}) {
       } else if (k === 'speech' || k === 'lecture') {
         add('lectures', (d.authors ?? []).some(isSerlingName) ? 'serling-lectures' : 'academic', (d.authors ?? []).some(isSerlingName) ? 'Speeches and lectures' : undefined);
       } else if (k === 'script') add('reading', 'scripts', 'Single scripts');
+      // A short story by Serling himself (The Strand, 2024) sits on Short stories (Adam, 2026-11-28), not Essays.
+      else if (/\bshort story\b/i.test(d.description ?? '') && (d.authors ?? []).some(isSerlingName)) add('reading', 'short-stories', "Rod Serling's short stories");
       else if (k === 'interview' || k === 'article') add('reading', 'articles', k === 'interview' ? 'Interviews' : 'Articles');
       else add('reading', 'essays', { 'journal-article': 'Journal articles', 'book-chapter': 'Book chapters', essay: 'Essays', 'academic-thesis': 'Theses and dissertations' }[k] ?? 'Essays');
       break;
@@ -1156,12 +1164,12 @@ function placeWork(d, st, add, id) {
       else add('series', 'serling-series', 'Rod Serling on television');
       return;
     case 'link':
-      if (/fan-site|fan site/.test(st)) add('reading', 'websites', 'Fan sites');
+      if (/fan-site|fan site/.test(st)) add('homages', 'websites', 'Fan sites');
       else if (/fan|community|subreddit|wiki|forum/.test(st)) add('organizations', 'fan-groups');
       else if (/foundation|society/.test(st)) add('organizations', 'foundations-societies');
       else if (/museum/.test(st)) add('organizations', 'museums');
       else if (/archive/.test(st)) add('organizations', 'archives-libraries', 'Online archives');
-      else add('reading', 'websites', { database: 'Databases', reference: 'Reference sites', official: 'Official sites', streaming: 'Streaming', academic: 'Academic' }[st]);
+      else add('homages', 'websites', { database: 'Databases', reference: 'Reference sites', official: 'Official sites', streaming: 'Streaming', academic: 'Academic' }[st]);
       return;
     case 'fan-community':
       add('organizations', 'fan-groups', /contest/.test(st) ? 'Contests' : undefined);
@@ -1278,7 +1286,7 @@ export function isOfficial(col, d, p, ctx = {}) {
     case 'reading/comics': return !unoff && (OFFICIAL_PUBLISHER.test(pub) || off);
     case 'reading/magazines': return !unoff && (/twilight zone magazine|night cry/i.test(d.magazine ?? '') || /tz publications|montcalm/.test(pub));
     case 'reading/scripts': case 'reading/serling-own-writing': return !unoff;
-    case 'reading/websites': return p.group === 'Official sites';
+    case 'homages/websites': return p.group === 'Official sites';
     case 'reading/books': case 'reading/foreign-language':
       return !unoff && (serling || ['scripts', 'novelization', 'play'].includes(d.kind) || /gauntlet|cbs/.test(pub) || off);
     case 'artwork/art-illustration': return off;

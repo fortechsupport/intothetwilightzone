@@ -1,7 +1,7 @@
 // The site's navigation model: Adam's menu sheet (2026-11-27, decision 0015), seven groups each with columns of
 // categories and their subcategories, with counts. Base.astro renders it as the main menu; the group pages, home
 // page and All categories use it too, so every view of the structure agrees. Read lists its formats in Adam's
-// order and its topic collections; Meet's People column holds real people, characters and fans with the forums;
+// order and its topic collections; Discover's People column holds real people, characters and fans with the forums;
 // Places lists the real places' kinds, then Settings; Play lists each kind of game and the games on this site;
 // Collect and Legacy span every category.
 import { catalog, countOf, type CatInfo } from './catalog';
@@ -9,6 +9,8 @@ import { VERBS, READ_COLLECTIONS, READ_ORDER, COLLECT_FROM, LEGACY_FROM, sortKey
 
 /** A category's unofficial and inspired entries, each once, A to Z (Legacy, src/pages/legacy/[cat].astro). */
 export const unofficialOf = (c: CatInfo) => [...new Map(c.subs.flatMap((s) => s.entries.filter((e) => e.official === false).map((e) => [e.key, e] as const))).values()].sort((a, b) => a.sort.localeCompare(b.sort));
+/** Read's items as Adam named them (2026-11-28). */
+export const READ_LABEL: Record<string, string> = { articles: 'Articles', books: 'Books', comics: 'Comics', essays: 'Essays', magazines: 'Magazines', scripts: 'Scripts', 'short-stories': 'Short stories' };
 const COLLECT_BLURB: Record<string, string> = {
   merchandise: 'Home video, toys and figures, trading cards, posters, prop replicas, screen-used props and the rest.',
   reading: 'Books, comics, magazines and published scripts.',
@@ -26,7 +28,7 @@ const subLinks = (c: CatInfo, keep: (slug: string) => boolean = () => true): Nav
 const subCount = (c: CatInfo, keep: (slug: string) => boolean) => new Set(c.subs.filter((s) => keep(s.slug)).flatMap((s) => s.entries.map((e) => e.key))).size;
 const col = (c: CatInfo, keep?: (slug: string) => boolean): NavCol => ({ title: c.title, href: `/${c.slug}/`, n: keep ? subCount(c, keep) : countOf(c), isNew: c.isNew, blurb: c.description, subs: subLinks(c, keep) });
 
-// Places (in Meet since 2026-11-27) has two tabs, Real places and Settings: the kinds of real place
+// Places (in Discover, called Meet 2026-11-27 to 11-28) has two tabs, Real places and Settings: the kinds of real place
 // A to Z, then Settings last, pointing at its tab.
 const placesCol = (pl: CatInfo): NavCol => {
   const st = pl.subs.find((s) => s.slug === 'in-story');
@@ -45,13 +47,12 @@ export async function navModel(): Promise<NavVerb[]> {
     let collectKeys: Set<string> | undefined, legacyKeys: Set<string> | undefined;
     if (v.slug === 'read') {
       const r = get('reading')!;
-      const formats = r.subs.filter((s) => s.entries.length && !READ_COLLECTIONS.includes(s.slug));
-      const rank = (slug: string) => { const i = READ_ORDER.indexOf(slug); return i < 0 ? Infinity : i; };
-      const ordered = [...formats].sort((a, b) => rank(a.slug) - rank(b.slug) || sortKey(a.title).localeCompare(sortKey(b.title)));
-      cols = ordered.map((s) => ({ title: s.title, href: `/reading/${s.slug}/`, n: s.entries.length, isNew: s.isNew, blurb: s.blurb, subs: [] }));
+      // Adam (2026-11-28): exactly seven items, named as he wrote them; the shelf pages keep their fuller titles.
+      const ordered = READ_ORDER.map((slug) => r.subs.find((s) => s.slug === slug)).filter((s) => s && s.entries.length) as typeof r.subs;
+      cols = ordered.map((s) => ({ title: READ_LABEL[s.slug] ?? s.title, href: `/reading/${s.slug}/`, n: s.entries.length, isNew: s.isNew, blurb: s.blurb, subs: [] }));
       collections = subLinks(r, (s) => READ_COLLECTIONS.includes(s));
-    } else if (v.slug === 'meet') {
-      // Meet (Adam's sheet): Organizations; People, which holds real people, characters and fans, with the forums
+    } else if (v.slug === 'discover') {
+      // Discover (Adam, 2026-11-28; Meet on the 2026-11-27 sheet): Organizations; People, which holds real people, characters and fans, with the forums
       // (their contents live in the accounts database, so they carry no build-time count); Places; Events, which
       // holds History's shelves and links the Timeline.
       cols = v.categories.map((c) => get(c.slug)).filter(Boolean).map((c) => c!.slug === 'places' ? placesCol(c!) : col(c!));
@@ -99,11 +100,8 @@ export async function navModel(): Promise<NavVerb[]> {
       }
     }
     const n = v.slug === 'read' ? countOf(get('reading')!) : v.slug === 'collect' ? collectKeys!.size : v.slug === 'legacy' ? legacyKeys!.size : v.slug === 'play' ? countOf(get('games')!) : cols.reduce((t, c) => t + c.n, 0);
-    // Read's menu: its formats in one column and its topic collections in another.
-    const menu = v.slug === 'read' ? [
-      { title: 'Formats', href: '/read/', n, subs: cols.map((c) => ({ title: c.title, href: c.href, n: c.n, isNew: c.isNew })) },
-      { title: 'Collections', href: '/read/#collections', n: new Set(get('reading')!.subs.filter((s) => READ_COLLECTIONS.includes(s.slug)).flatMap((s) => s.entries.map((e) => e.key))).size, subs: collections ?? [] },
-    ] : v.slug === 'legacy' ? [
+    // Read's menu is its seven formats, flat like Play's (Adam, 2026-11-28); the topic collections stay on the Read page.
+    const menu = v.slug === 'legacy' ? [
       // Legacy's menu: the kinds of link in one column and the categories in another, so the panel stays short.
       cols[0],
       { title: 'By category', href: '/legacy/#categories', n: new Set(LEGACY_FROM.flatMap((slug) => get(slug) ? unofficialOf(get(slug)!).map((e) => e.key) : [])).size, subs: cols.slice(1).map((c) => ({ title: c.title, href: c.href, n: c.n })) },

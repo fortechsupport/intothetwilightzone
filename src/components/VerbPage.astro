@@ -1,11 +1,12 @@
 ---
-// A verb's landing page (/view/, /read/, /meet/...): its categories as cards, Read's collections, and the
+// A verb's landing page (/view/, /read/, /discover/...): its categories as cards, Read's collections, and the
 // people, places, organizations and media most connected to everything under it.
 import Base from '../layouts/Base.astro';
 import SectionSummary from './SectionSummary.astro';
 import RecordArt from './RecordArt.astro';
+import GroupTable from './GroupTable.astro';
 import type { Motif } from '../lib/motifs';
-const VERB_MOTIF: Record<string, Motif> = { meet: 'mask', view: 'tv', listen: 'radio', read: 'book', play: 'die', collect: 'disc', legacy: 'door' };
+const VERB_MOTIF: Record<string, Motif> = { discover: 'mask', view: 'tv', listen: 'radio', read: 'book', play: 'die', collect: 'disc', legacy: 'door' };
 import { navModel } from '../lib/nav';
 import { catalog } from '../lib/catalog';
 import { VERBS } from '../lib/taxonomy.mjs';
@@ -14,7 +15,10 @@ const { slug } = Astro.props;
 const v = (await navModel()).find((x) => x.slug === slug)!;
 const def = VERBS.find((x) => x.slug === slug)!;
 const cats = await catalog();
-const isDir = slug === 'meet';
+const isDir = slug === 'discover';
+// Play, Collect and Legacy are one category each, so their page holds their one table (Adam, 2026-11-28); the other
+// groups' tables are on each category's page.
+const hasTable = ['play', 'collect', 'legacy'].includes(slug);
 const entries = isDir ? [] : [...new Map(def.categories.filter((c) => c.kind !== 'section').flatMap((c) => cats.get(c.slug)?.subs.flatMap((s) => s.entries.map((e) => [e.key, e] as const)) ?? [])).values()];
 const SPLIT = 'Each category shows official items (made, licensed or published by the franchise or by Rod Serling) and unofficial or inspired ones on separate shelves.';
 ---
@@ -25,6 +29,7 @@ const SPLIT = 'Each category shows official items (made, licensed or published b
     <p class="kicker">{v.n.toLocaleString('en-US')} entries · {(() => { const k = v.cols.filter((c) => !c.live).length; return `${k} ${k === 1 ? 'category' : 'categories'}`; })()}</p>
     <h1>{v.title}</h1>
     <p class="lead">{v.blurb}</p>
+    {hasTable && <p class="small"><a href="#gt-h">See everything in {v.title} in one table</a></p>}
     {!isDir && <p class="small muted">{SPLIT} Reviews, interviews, clips and documents appear on the pages they belong to, and all together in the <a href="/media/">Media Library</a>.</p>}
     </div>
     <RecordArt title={v.title} motif={VERB_MOTIF[slug] ?? 'door'} />
@@ -40,6 +45,7 @@ const SPLIT = 'Each category shows official items (made, licensed or published b
       </a>
     ))}
   </div>
+  {hasTable && <GroupTable table={slug} heading={`Everything in ${v.title}, in one table`} />}
   {v.collections && (
     <>
       <h2 id="collections">Collections</h2>

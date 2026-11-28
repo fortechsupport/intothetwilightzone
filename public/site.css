@@ -344,6 +344,19 @@ input:focus, select:focus, textarea:focus { border-color: var(--brass); outline:
 table.lib th[data-sort] { cursor: pointer; white-space: nowrap; }
 table.lib th[data-sort]::after { content: ' ↕'; opacity: .5; }
 table.lib tr.hit { outline: 2px solid var(--brass); }
+/* Group tables (GroupTable.astro): sort buttons in the headings; on phones each row is a card and the short
+   columns sit side by side, each with its label. */
+table.gt th button { all: unset; cursor: pointer; display: inline-flex; gap: 4px; align-items: center; min-height: 24px; }
+table.gt th button::after { content: '↕'; opacity: .5; }
+table.gt th[aria-sort="ascending"] button::after { content: '↑'; opacity: 1; }
+table.gt th[aria-sort="descending"] button::after { content: '↓'; opacity: 1; }
+table.gt th button:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; }
+table.gt td:first-child { min-width: 14rem; }
+table.gt .cell-label { display: none; }
+.gt-more { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+.gt-filters .gt-reset { align-self: end; }
+.gt-filters .btn { border: 1px solid var(--line-strong); background: var(--bg); padding: 8px 18px; }
+.gt-filters .gt-toggle { display: none; }
 .media-types li { margin: 2px 0; }
 .media-preview .count-pill { margin-left: 4px; }
 
@@ -480,6 +493,13 @@ table.lib tr.hit { outline: 2px solid var(--brass); }
   table.lib td { display: block; padding: 2px 0; border: 0; }
   table.lib td:empty { display: none; }
   table.lib td:first-child { font-size: var(--step-0); }
+  table.gt td:first-child { min-width: 0; }
+  table.gt .cell-label { display: inline; color: var(--muted); }
+  table.gt td.n { display: inline-block; margin-right: var(--space-4); }
+  table.gt td.n:empty { display: none; }
+  /* The filters fold behind one button on phones, so the table starts near the top. */
+  .gt-filters .gt-toggle { display: inline-flex; align-self: end; }
+  .gt-filters:not(.open) .gt-f { display: none; }
   .preview-banner { font-size: .7rem; padding: 3px 10px; }
 }
 @media (max-width: 360px) { .brand-mark { font-size: 1.05rem; } .header-search .label { display: none; }
