@@ -4,7 +4,7 @@
 //   node scripts/check-site.mjs [distDir]
 //
 // 1. Broken internal links: every href="/..." and src="/..." must resolve to a built file, a
-//    redirect in public/_redirects, or an astro.config.mjs redirect stub.
+//    redirect in public/_redirects, an astro.config.mjs redirect stub, or a GET route of the accounts API.
 // 2. Duplicate page titles: no two pages (redirect stubs excluded) share a <title>.
 // 3. Every page has exactly one <h1>, a <title>, a meta description and lang="en", and its headings inside <main>
 //    start at h1 and never skip a level (h2 to h4), so a screen reader's outline has no holes.
@@ -45,9 +45,15 @@ if (fs.existsSync(redirectsFile)) {
   }
 }
 
+// Links into the accounts API (functions/api) are served at run time, not built: they resolve when
+// server/router.ts registers a GET route for the exact path.
+const apiGets = new Set([...fs.readFileSync(path.resolve(dist, '..', 'server', 'router.ts'), 'utf8')
+  .matchAll(/on\('GET', '([^']+)'/g)].map((m) => m[1]));
+
 function resolves(url) {
   let u = url.split('#')[0].split('?')[0];
   if (!u || u === '/') return true;
+  if (u.startsWith('/api/')) return apiGets.has(u);
   try { u = decodeURI(u); } catch { /* keep as is */ }
   if (fileSet.has(u)) return true;
   if (fileSet.has(u.replace(/\/$/, '') + '/index.html')) return true;
