@@ -145,8 +145,7 @@ recreates his account; he is told before it happens).
   Kind of source (F). Each links to the original in a new tab. No post text is copied (link-only rule). Every post
   from a source about the show is shown; from general sites, only posts about The Twilight Zone, Serling or Night
   Gallery (matched in title or category), and a site's own Twilight Zone tag feed is used where it has one.
-- **Refresh:** Adam's choice on the decision card (every 6 hours with no setup, recommended; or every 15 minutes with
-  a two-minute setup).
+- **Refresh:** every 6 hours, with no setup on Adam's side (Adam chose this on the decision card, 2026-11-28).
 - The policy page now at /sources/ moves to /policy/.
 
 ## 5. Legacy kinds, each separate (Adam, 16:51: "don't want things combined")
@@ -257,7 +256,6 @@ Each version keeps the search box and the ways in.
 
 ## Waiting on Adam
 
-- How fresh Posts should be (decision card).
 - A look at the 22 separate Legacy kinds and the ten 404 lines (in the preview).
 
 ## Found, for later
