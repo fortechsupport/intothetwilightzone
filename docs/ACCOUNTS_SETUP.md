@@ -98,6 +98,15 @@ settings only reach new deployments.
   `https://intothetwilightzone.com/api/auth/google/callback` (preview.intothetwilightzone.com now redirects to
   the main address, so it needs no entry). Then add text variable `GOOGLE_CLIENT_ID` and secret
   `GOOGLE_CLIENT_SECRET`.
+- **Microsoft sign-in** (personal Outlook.com/Hotmail/Xbox accounts and work or school accounts): Microsoft
+  Entra admin center (entra.microsoft.com) → **Identity → Applications → App registrations → New registration**.
+  Name `IntoTheTwilightZone.com`; supported account types **Accounts in any organizational directory and
+  personal Microsoft accounts**; redirect URI platform **Web**,
+  `https://intothetwilightzone.com/api/auth/microsoft/callback`. Then **Token configuration → Add optional
+  claim → ID** → tick `email` and `xms_edov` (lets the site trust a work address only when its domain is
+  verified). **Certificates & secrets → New client secret** (24 months; note the expiry date, the button stops
+  working when it lapses). Add text variable `MICROSOFT_CLIENT_ID` (the Application (client) ID on Overview)
+  and secret `MICROSOFT_CLIENT_SECRET` (the secret's Value, not its ID).
 - **Forum pre-moderation**: text variable `FORUM_PREMODERATE` = `all` (every post checked), `new` (default:
   a member's first two posts) or `none`.
 - **US DMCA safe harbor**: register a designated agent with the U.S. Copyright Office's DMCA Designated

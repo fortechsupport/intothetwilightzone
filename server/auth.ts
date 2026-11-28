@@ -249,69 +249,122 @@ export async function completeSignup(ctx: Ctx) {
   return { ok: true };
 }
 
-// ---------- Google ----------
+// ---------- Google and Microsoft (OpenID Connect) ----------
+// Both use the authorization-code flow with PKCE, ask only for openid, email and profile, and read the ID
+// token straight from the provider's token endpoint over TLS (OpenID Connect Core 3.1.3.7). Each is on only
+// when its client id and secret are set (features() in env.ts).
 
-export async function googleStart(ctx: Ctx) {
+/** Microsoft's tenant for personal accounts (Outlook.com, Hotmail, Xbox). */
+const MSA_TENANT = '9188040d-6c67-4c5b-b112-36a304b66dad';
+
+type Provider = 'google' | 'microsoft';
+type IdClaims = { iss?: string; aud?: string; sub?: string; tid?: string; email?: string; email_verified?: boolean; xms_edov?: boolean | string; exp?: number };
+
+const OIDC: Record<Provider, {
+  authorize: string; token: string; label: string;
+  client: (env: Env) => [string, string];
+  /** The issuer check, and the address only when the provider vouches that it belongs to this person. */
+  check: (c: IdClaims, clientId: string) => { ok: boolean; email: string | null };
+  extra?: Record<string, string>;
+}> = {
+  google: {
+    authorize: 'https://accounts.google.com/o/oauth2/v2/auth',
+    token: 'https://oauth2.googleapis.com/token',
+    label: 'Google',
+    client: (env) => [env.GOOGLE_CLIENT_ID!, env.GOOGLE_CLIENT_SECRET!],
+    check: (c, id) => ({
+      ok: c.aud === id && ['https://accounts.google.com', 'accounts.google.com'].includes(c.iss ?? ''),
+      email: c.email_verified && c.email ? c.email.toLowerCase() : null,
+    }),
+  },
+  microsoft: {
+    // "common" accepts personal Microsoft accounts and work or school accounts from any organisation.
+    authorize: 'https://login.microsoftonline.com/common/oauth2/v2.0/authorize',
+    token: 'https://login.microsoftonline.com/common/oauth2/v2.0/token',
+    label: 'Microsoft',
+    client: (env) => [env.MICROSOFT_CLIENT_ID!, env.MICROSOFT_CLIENT_SECRET!],
+    check: (c, id) => {
+      const tid = c.tid ?? '';
+      const ok = c.aud === id && /^[0-9a-f-]{36}$/i.test(tid) && c.iss === `https://login.microsoftonline.com/${tid}/v2.0`;
+      // A work or school directory's admin can type any address into a user's email field, so it only counts
+      // when Microsoft says the domain's owner verified it (xms_edov), or for personal accounts, whose address
+      // Microsoft checked when the account was made.
+      const trusted = tid === MSA_TENANT || c.xms_edov === true || c.xms_edov === '1' || c.xms_edov === 'true';
+      return { ok, email: trusted && c.email ? c.email.toLowerCase() : null };
+    },
+    extra: { response_mode: 'query' },
+  },
+};
+
+async function oidcStart(ctx: Ctx, provider: Provider) {
   const { env, req } = ctx;
-  if (!features(env).google) throw new HttpError(503, 'google_off', 'Google sign-in is not switched on.');
-  await rateLimit(env, `google-ip:${await ipKey(env, req)}`, 20, 3600);
+  const cfg = OIDC[provider];
+  if (!features(env)[provider]) throw new HttpError(503, `${provider}_off`, `${cfg.label} sign-in is not switched on.`);
+  await rateLimit(env, `${provider}-ip:${await ipKey(env, req)}`, 20, 3600);
   const url = new URL(req.url);
   const state = randomToken(24);
   const verifier = randomToken(48);
   const challenge = b64url(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(verifier)));
   const linking = url.searchParams.get('link') === '1' && ctx.user ? ctx.user.id : null;
-  await putChallenge(env, await sha256(state), 'google', { verifier, linking }, 10 * MIN);
+  await putChallenge(env, await sha256(state), provider, { verifier, linking }, 10 * MIN);
   const p = new URLSearchParams({
-    client_id: env.GOOGLE_CLIENT_ID!, redirect_uri: `${url.origin}/api/auth/google/callback`, response_type: 'code',
+    client_id: cfg.client(env)[0], redirect_uri: `${url.origin}/api/auth/${provider}/callback`, response_type: 'code',
     scope: 'openid email profile', state, code_challenge: challenge, code_challenge_method: 'S256', prompt: 'select_account',
+    ...cfg.extra,
   });
-  return Response.redirect(`https://accounts.google.com/o/oauth2/v2/auth?${p}`, 302);
+  return Response.redirect(`${cfg.authorize}?${p}`, 302);
 }
 
-export async function googleCallback(ctx: Ctx) {
+async function oidcCallback(ctx: Ctx, provider: Provider) {
   const { env, req } = ctx;
+  const cfg = OIDC[provider];
   const url = new URL(req.url);
   const back = (frag: string) => Response.redirect(`${url.origin}/account/#${frag}`, 302);
+  if (!features(env)[provider]) return back(`error=${provider}_failed`);
   const state = url.searchParams.get('state'), code = url.searchParams.get('code');
-  if (!state || !code) return back('error=google_cancelled');
+  if (!state || !code) return back(`error=${provider}_cancelled`);
   let st: { verifier: string; linking: string | null };
-  try { st = await takeChallenge(env, await sha256(state), 'google'); } catch { return back('error=expired'); }
-  const tr = await fetch('https://oauth2.googleapis.com/token', {
+  try { st = await takeChallenge(env, await sha256(state), provider); } catch { return back('error=expired'); }
+  const [clientId, clientSecret] = cfg.client(env);
+  const tr = await fetch(cfg.token, {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams({ code, client_id: env.GOOGLE_CLIENT_ID!, client_secret: env.GOOGLE_CLIENT_SECRET!, redirect_uri: `${url.origin}/api/auth/google/callback`, grant_type: 'authorization_code', code_verifier: st.verifier }),
+    body: new URLSearchParams({ code, client_id: clientId, client_secret: clientSecret, redirect_uri: `${url.origin}/api/auth/${provider}/callback`, grant_type: 'authorization_code', code_verifier: st.verifier }),
   });
   const tok = (await tr.json().catch(() => ({}))) as { id_token?: string };
-  if (!tr.ok || !tok.id_token) return back('error=google_failed');
-  // The ID token came straight from Google's token endpoint over TLS, so its claims can be read directly
-  // (OpenID Connect Core 3.1.3.7); we still check who it was issued to and when it expires.
-  const claims = JSON.parse(new TextDecoder().decode(fromB64url(tok.id_token.split('.')[1] ?? ''))) as { iss?: string; aud?: string; sub?: string; email?: string; email_verified?: boolean; exp?: number };
-  if (!claims.sub || claims.aud !== env.GOOGLE_CLIENT_ID || !['https://accounts.google.com', 'accounts.google.com'].includes(claims.iss ?? '') || (claims.exp ?? 0) * 1000 < now()) return back('error=google_failed');
-  const email = claims.email_verified && claims.email ? claims.email.toLowerCase() : null;
-  const linked = await env.DB!.prepare('SELECT u.* FROM identities i JOIN users u ON u.id = i.user_id WHERE i.provider = ?1 AND i.subject = ?2').bind('google', claims.sub).first<User>();
+  if (!tr.ok || !tok.id_token) return back(`error=${provider}_failed`);
+  let claims: IdClaims;
+  try { claims = JSON.parse(new TextDecoder().decode(fromB64url(tok.id_token.split('.')[1] ?? ''))) as IdClaims; } catch { return back(`error=${provider}_failed`); }
+  const { ok, email } = cfg.check(claims, clientId);
+  if (!claims.sub || !ok || (claims.exp ?? 0) * 1000 < now()) return back(`error=${provider}_failed`);
+  const linked = await env.DB!.prepare('SELECT u.* FROM identities i JOIN users u ON u.id = i.user_id WHERE i.provider = ?1 AND i.subject = ?2').bind(provider, claims.sub).first<User>();
   if (st.linking) {
-    if (linked && linked.id !== st.linking) return back('error=google_other_account');
-    if (!linked) await env.DB!.prepare('INSERT INTO identities (provider, subject, user_id, created_at) VALUES (?1, ?2, ?3, ?4)').bind('google', claims.sub, st.linking, now()).run();
-    return back('linked=google');
+    if (linked && linked.id !== st.linking) return back(`error=${provider}_other_account`);
+    if (!linked) await env.DB!.prepare('INSERT INTO identities (provider, subject, user_id, created_at) VALUES (?1, ?2, ?3, ?4)').bind(provider, claims.sub, st.linking, now()).run();
+    return back(`linked=${provider}`);
   }
   let user = linked;
   if (!user && email) {
-    // A verified Google address that matches a verified address here is the same person.
+    // A provider-verified address that matches a verified address here is the same person.
     user = await env.DB!.prepare('SELECT * FROM users WHERE email = ?1 AND email_verified = 1').bind(email).first<User>();
-    if (user) await env.DB!.prepare('INSERT INTO identities (provider, subject, user_id, created_at) VALUES (?1, ?2, ?3, ?4)').bind('google', claims.sub, user.id, now()).run();
+    if (user) await env.DB!.prepare('INSERT INTO identities (provider, subject, user_id, created_at) VALUES (?1, ?2, ?3, ?4)').bind(provider, claims.sub, user.id, now()).run();
   }
   if (user) {
     if (user.status === 'suspended') return back('error=suspended');
     if (email) await maybePromote(env, user.id, email);
     await startSession(ctx, user);
-    const res = back('signed-in');
-    return res;
+    return back('signed-in');
   }
   const ticket = newId(24);
   const free = email && !(await env.DB!.prepare('SELECT 1 FROM users WHERE email = ?1').bind(email).first());
-  await putChallenge(env, ticket, 'signup', { email: free ? email : null, provider: 'google', subject: claims.sub }, 30 * MIN);
+  await putChallenge(env, ticket, 'signup', { email: free ? email : null, provider, subject: claims.sub }, 30 * MIN);
   return back(`signup=${ticket}`);
 }
+
+export const googleStart = (ctx: Ctx) => oidcStart(ctx, 'google');
+export const googleCallback = (ctx: Ctx) => oidcCallback(ctx, 'google');
+export const microsoftStart = (ctx: Ctx) => oidcStart(ctx, 'microsoft');
+export const microsoftCallback = (ctx: Ctx) => oidcCallback(ctx, 'microsoft');
 
 // ---------- Admin bootstrap ----------
 

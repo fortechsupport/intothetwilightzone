@@ -24,6 +24,8 @@ on('POST', '/api/auth/email/verify', auth.emailVerify);
 on('POST', '/api/auth/complete-signup', auth.completeSignup);
 on('GET', '/api/auth/google/start', auth.googleStart);
 on('GET', '/api/auth/google/callback', auth.googleCallback);
+on('GET', '/api/auth/microsoft/start', auth.microsoftStart);
+on('GET', '/api/auth/microsoft/callback', auth.microsoftCallback);
 on('POST', '/api/auth/signout', account.signOut);
 on('POST', '/api/auth/signout-everywhere', account.signOutEverywhere);
 // Your account

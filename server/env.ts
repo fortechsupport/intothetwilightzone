@@ -18,6 +18,9 @@ export interface Env {
   /** Google sign-in (optional). */
   GOOGLE_CLIENT_ID?: string;
   GOOGLE_CLIENT_SECRET?: string;
+  /** Microsoft sign-in (optional): an app registration in Microsoft Entra for any organisation and personal accounts. */
+  MICROSOFT_CLIENT_ID?: string;
+  MICROSOFT_CLIENT_SECRET?: string;
   /** Email sign-in links: either the EMAIL binding (Cloudflare Email Service) or a Resend API key. */
   RESEND_API_KEY?: string;
   EMAIL_FROM?: string;
@@ -45,6 +48,7 @@ export function features(env: Env) {
     uploads: !!env.DB && !!env.UPLOADS,
     email: !!env.DB && (!!env.EMAIL || !!env.RESEND_API_KEY || env.DEV_EMAIL_LOG === '1') && !!env.EMAIL_FROM,
     google: !!env.DB && !!env.GOOGLE_CLIENT_ID && !!env.GOOGLE_CLIENT_SECRET,
+    microsoft: !!env.DB && !!env.MICROSOFT_CLIENT_ID && !!env.MICROSOFT_CLIENT_SECRET,
     turnstile: !!env.TURNSTILE_SITE_KEY && !!env.TURNSTILE_SECRET,
   };
 }
