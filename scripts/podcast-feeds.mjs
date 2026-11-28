@@ -94,6 +94,13 @@ async function appleFeed(d) {
   const f = j.results?.[0]?.feedUrl;
   return f ? { url: f, via: `apple ${id}` } : undefined;
 }
+/** Apple Podcasts episode pages by feed guid (Apple's lookup lists a show's latest 200 episodes). */
+async function appleEpisodes(d) {
+  const id = appleId(d);
+  if (!id) return new Map();
+  const j = JSON.parse(await get(`https://itunes.apple.com/lookup?id=${id}&entity=podcastEpisode&limit=200`));
+  return new Map((j.results ?? []).filter((r) => r.episodeGuid && r.trackViewUrl).map((r) => [r.episodeGuid, r.trackViewUrl.replace(/[?&]uo=\d+$/, '')]));
+}
 /** The feed address: links.rss, else Apple's lookup for the podcast's Apple id. */
 async function feedOf(d) {
   if (d.links?.rss) return { url: d.links.rss, via: 'record' };
@@ -134,7 +141,10 @@ for (const { id, d } of records) {
     const eps = parsed.episodes.filter((e) => !keep || keep.test(e.title));
     const dates = eps.map((e) => e.date).filter(Boolean).sort();
     feeds[id] = { url: f.url, via: f.via, status: 'ok', last_read: today, title: parsed.title, count: eps.length, first: dates[0], latest: dates.at(-1) };
-    for (const e of eps) byKey.set(`${id}|${e.guid}`, { p: id, t: e.title, d: e.date, s: e.seconds, n: e.number, se: e.season, u: e.url, g: e.guid });
+    // episode_links: apple = the feed's own episode pages are gone (the show's website closed), so each episode links to
+    // its Apple Podcasts page instead, matched by the feed's guid. Episodes Apple doesn't list keep the feed's link.
+    const apple = d.episode_links === 'apple' ? await appleEpisodes(d).catch(() => new Map()) : new Map();
+    for (const e of eps) byKey.set(`${id}|${e.guid}`, { p: id, t: e.title, d: e.date, s: e.seconds, n: e.number, se: e.season, u: apple.get(e.guid) ?? e.url, g: e.guid });
     report.push([id, 'ok', `${eps.length} episodes${keep ? ` (of ${parsed.episodes.length}, filter /${d.feed_filter}/)` : ''}, ${dates[0] ?? '?'} to ${dates.at(-1) ?? '?'} · "${parsed.title}" · ${f.via} · ${f.url}`]);
   } catch (e) {
     feeds[id] = { ...(feeds[id] ?? {}), url: f.url, via: f.via, status: 'unreadable', last_tried: today };

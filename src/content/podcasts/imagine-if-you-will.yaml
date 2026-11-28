@@ -3,6 +3,7 @@ kind: podcast
 hosts:
 - Daniel Gentz
 first_episode: '2017-04-30'
+episode_links: apple
 links:
   podchaser: https://www.podchaser.com/podcasts/imagine-if-you-will-520300
   rss: https://rss.libsyn.com/shows/97979/destinations/509027.xml
