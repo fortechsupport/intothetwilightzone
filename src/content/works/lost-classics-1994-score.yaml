@@ -7,6 +7,8 @@ description: >-
   "The Theatre" (from Richard Matheson's treatment) and "Where the Dead Are". No soundtrack album is known.
 subtype: film-score
 details:
+  medium: Not released on its own
+  medium_note: 'No soundtrack album is known (see description).'
   people:
   - Patrick Williams
 relevance: core

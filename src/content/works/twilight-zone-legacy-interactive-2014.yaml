@@ -9,10 +9,15 @@ description: >-
   a series of Twilight Zone-style stories, recovering script pages to work out their role in each one. It drew its
   scenarios from classic episodes and was released for PC on 17 September 2014.
 details:
+  medium: Digital
+  medium_note: 'Amazon France lists it as a download ("Téléchargement"); no boxed disc was found.'
   platforms:
   - Windows
   licensed: true
 sources:
+- title: 'Amazon.fr: Legacy Interactive, The Twilight Zone [Téléchargement]'
+  url: https://www.amazon.fr/Legacy-Interactive-Twilight-Zone-Telechargement/dp/B00NI8LTE2
+  note: 'Read 2026-11-28 for the release format.'
 - title: metacritic.com
   url: https://www.metacritic.com/game/twilight-zone/details/
 - title: Wikipedia

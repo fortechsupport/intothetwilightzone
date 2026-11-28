@@ -8,6 +8,8 @@ description: >-
   music from the series that is widely circulated.
 subtype: series-score
 details:
+  medium: Not released on its own
+  medium_note: 'No score album appears to have been released (see description).'
   people:
   - Mark Snow
   - Jonathan Davis

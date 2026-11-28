@@ -9,6 +9,8 @@ description: 'A licensed text-and-graphics adventure built like a self-contained
     for the Amiga and MS-DOS. Sources disagree about the developer: this record''s credits name Covenant Technologies, while
     Entertainment Earth''s history of Twilight Zone collectibles says Gigabit Systems published it for PC. No Atari ST version has been found.'
 details:
+  medium: Physical
+  medium_note: 'Sold on 3.5-inch disk for Amiga (Eli Software listing in sources) and on PC/DOS.'
   platforms: Amiga, IBM PC/DOS (Atari ST not confirmed in sources seen); C64 announced but unreleased
   licensed: true
   subtitle: The Crossroads of Imagination

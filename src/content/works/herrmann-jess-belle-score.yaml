@@ -9,6 +9,8 @@ description: >-
   this session could not confirm the credit or whether the score is on that album.
 subtype: episode-score
 details:
+  medium: Not released on its own
+  medium_note: 'An episode score; whether it is on a Varèse LP is unconfirmed (see description).'
   people:
   - Bernard Herrmann
 relevance: core

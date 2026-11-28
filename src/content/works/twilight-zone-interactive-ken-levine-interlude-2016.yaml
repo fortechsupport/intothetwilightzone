@@ -9,6 +9,8 @@ description: >-
   episode was released, and the project faded before the 2019 Jordan Peele revival.
 subtype: interactive-film
 details:
+  medium: Not released on its own
+  medium_note: 'Never released (details.status: unreleased).'
   announced: April 2016
   status: unreleased
   licensed: true

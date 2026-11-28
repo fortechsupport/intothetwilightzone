@@ -10,6 +10,8 @@ description: >-
   the stock scores for three of them.
 subtype: library-cue
 details:
+  medium: Not released on its own
+  medium_note: 'Radio cues reused as stock music in the episodes, not a release.'
   stat: Per Wissner, 57 of 156 episodes used either an original score or at least one Herrmann stock cue.
   people:
   - Bernard Herrmann
