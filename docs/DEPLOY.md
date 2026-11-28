@@ -57,7 +57,11 @@ happened from 2026-11-21 to 2026-11-25, when the production branch was still a w
 Nothing else at Bluehost changes: the bare domain, `www`, any email and the old WordPress install keep
 working exactly as before.
 
-## Phase 2: public launch (Adam approved 2026-11-27)
+## Phase 2: public launch (Adam approved 2026-11-27; live 2026-11-28)
+
+Done on 2026-11-28 about 03:50 ET: nameservers moved to Cloudflare, the three custom domains are Active,
+the redirect rule is named "Send to main domain", and Always Use HTTPS is on. The `cpanel` and `ftp`
+CNAMEs now resolve to the new site; change them to `A 162.241.218.130` (DNS only) if cPanel is needed by name.
 
 Pages can only serve the bare domain when the domain's DNS is on Cloudflare, so the nameservers move from
 Bluehost to Cloudflare. Registration stays at Bluehost. Email runs on Microsoft 365, so its records must

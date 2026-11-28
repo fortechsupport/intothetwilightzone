@@ -3,6 +3,16 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-28 — The site is live at intothetwilightzone.com
+
+Visitors can now:
+- Open the site at https://intothetwilightzone.com. www.intothetwilightzone.com and preview.intothetwilightzone.com
+  redirect there, and every address uses HTTPS.
+
+**Known not to work yet:**
+- Networks that looked up the domain before the switch can show the old Bluehost page for up to an hour.
+- Members signed in on preview.intothetwilightzone.com sign in once more on the main address (passkeys still work).
+
 ## 2026-11-28 — Email address for copyright notices
 
 Visitors can now:
