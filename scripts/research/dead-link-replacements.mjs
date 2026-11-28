@@ -11,6 +11,7 @@ import { readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 
 const UA = 'Mozilla/5.0 (compatible; IntoTheTwilightZone link check; non-commercial fan site)';
+const SLOW = 7000;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function fetchy(url, method = 'GET') {
   try {
@@ -26,15 +27,19 @@ function variants(u) {
   const bare = u.replace(/^https?:\/\//i, '');
   const out = new Set([bare]);
   out.add(bare.startsWith('www.') ? bare.slice(4) : 'www.' + bare);
-  for (const b of [...out]) out.add(b.endsWith('/') ? b.slice(0, -1) : b + '/');
   return [...out];
 }
 
 async function cdx(u) {
   const found = [];
   for (const v of variants(u)) {
-    await sleep(1200);
-    const r = await fetchy(`https://web.archive.org/cdx/search/cdx?url=${encodeURIComponent(v)}&output=json&filter=statuscode:200&fl=timestamp,original,mimetype`);
+    let r;
+    // The CDX index answers 429 to quick callers: wait between calls and back off when it says so.
+    for (let t = 0; t < 5; t++) {
+      await sleep(SLOW * (t + 1));
+      r = await fetchy(`https://web.archive.org/cdx/search/cdx?url=${encodeURIComponent(v)}&output=json&filter=statuscode:200&fl=timestamp,original,mimetype`);
+      if (r.status !== 429) break;
+    }
     if (r.status !== 200) { found.push({ variant: v, cdx_status: r.status }); continue; }
     let rows = [];
     try { rows = JSON.parse(r.text || '[]').slice(1); } catch {}
@@ -44,8 +49,10 @@ async function cdx(u) {
 }
 
 const dead = await lines('scripts/research/dead-links.txt');
+const skip = /fifthdimension\.libsyn|TwilightZonePod\.com|authorwars\.com/i; // matched on Apple, or catalogued elsewhere
 console.error(`${dead.length} dead links`);
 for (const [i, u] of dead.entries()) {
+  if (skip.test(u)) continue;
   console.error(`${i + 1}/${dead.length} ${u}`);
   const live = await fetchy(u);
   const out = { url: u, live: { status: live.status, final: live.final, title: live.title, error: live.error }, wayback: await cdx(u) };
@@ -75,5 +82,6 @@ for (const [p, id] of pods) {
 for (const u of await lines('scripts/research/candidate-links.txt')) {
   await sleep(800);
   const r = await fetchy(u);
-  console.log(JSON.stringify({ candidate: u, status: r.status, final: r.final, title: r.title, error: r.error }));
+  const author = /isfdb\.org/.test(u) ? (r.text || '').match(/Authors?:<\/b>([\s\S]*?)<\/li>/)?.[1]?.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() : undefined;
+  console.log(JSON.stringify({ candidate: u, status: r.status, final: r.final, title: r.title, author, error: r.error }));
 }
