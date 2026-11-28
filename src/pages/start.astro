@@ -35,7 +35,7 @@ const others = await Promise.all(fanPaths().filter((p) => p.slug !== 'first-ten'
       </a>
     ))}
   </div>
-  <p class="small muted">There is also Rod Serling's second anthology, <a href="/night-gallery/">Night Gallery</a> (1970 to 1973), a 1983 <a href="/movies/">feature film</a>, radio dramas and podcasts.</p>
+  <p class="small muted">There is also Rod Serling's second anthology, <a href="/night-gallery/">Night Gallery</a> (1970 to 1973), a 1983 <a href="/view/movies/">feature film</a>, radio dramas and podcasts.</p>
 
   <h2>Your first ten episodes</h2>
   <p>{first.short} <a href={`/paths/${first.slug}/`}>See the full path with notes</a> · <span class="path-progress small" data-progress={firstSteps.map((s) => `episodes/${s.e.id}`).join(' ')}></span></p>

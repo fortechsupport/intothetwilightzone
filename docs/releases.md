@@ -3,6 +3,25 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-28 — Group pages with toggles, and a table made for each category (preview)
+
+Visitors can now:
+- Open Discover, View, Listen or Read and switch between its categories with one tap; each has its own address to
+  share (/view/movies/, /read/books/), and the group page reopens on the last one chosen.
+- Use a table made for each category: Television sorts by season and episode in air order and says where to watch;
+  Movies by year and running time; People by surname, birth, death and credits; Events by date; Comics and
+  Magazines by issue; and so on, with filters chosen for each.
+- Mark rows as watched, read, heard, owned or wanted, straight from the table, into My Zone.
+- Narrow Play, Collect and Legacy with one tap on a category, or let Surprise me pick something.
+- See every kind of link in Legacy on its own (adaptations apart from remakes, covers apart from samples...), and
+  every Collect item once, marked physical, digital or both.
+- Browse Sources: every site this site cites, how often, and its feed where one is known.
+- Get one of ten Twilight Zone-flavoured "page not found" messages.
+
+**Known not to work yet:** the Posts reader and feed export in Sources, the record pages' "More to explore",
+spoilers and the reveal animation (later steps of the plan). Sources' kinds and feeds are known for podcasts,
+website records and organizations only. Quotations, Easter eggs, Fan art and In their own words have no records yet.
+
 ## 2026-11-28 — Discover first, and every category as one table
 
 Visitors can now:

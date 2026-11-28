@@ -108,6 +108,7 @@ const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) =>
           <ul>
             {verbs.map((v) => (
               <li class="group">
+                {!(v.menu ?? v.cols).length ? <a class="verb-link" href={v.href} aria-current={hereVerb === v.slug ? 'page' : undefined}>{v.title}</a> : (
                 <details>
                   <summary aria-current={hereVerb === v.slug ? 'page' : undefined}>{v.title}</summary>
                   <div class={`mega${(v.menu ?? v.cols).every((c) => !c.subs.length) ? ' flat' : ''}`}>
@@ -127,6 +128,7 @@ const hereVerb = verbs.find((v) => path.startsWith(v.href) || v.cols.some((c) =>
                     </div>
                   </div>
                 </details>
+                )}
               </li>
             ))}
           </ul>

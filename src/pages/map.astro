@@ -36,7 +36,7 @@ const walk = WALK_CITIES.map((city) => ({ city, places: real.filter((l) => l.dat
 const stories = await Promise.all(inStory.map(async (l) => ({ l, refs: (await Promise.all(l.data.filmed.map((f) => resolveRef(f.ref)))).filter(Boolean) as { title: string; url: string }[] })));
 ---
 <Base title="Map" description="An interactive map of Twilight Zone places: filming locations, MGM backlots, Rod Serling's homes and memorials, attractions, museums and archives, plus the towns that exist only in the stories.">
-  <p class="breadcrumb"><a href="/places/">Places</a> / Map</p>
+  <p class="breadcrumb"><a href="/discover/places/">Places</a> / Map</p>
   <h1>Map of the Zone</h1>
   <p class="lead">{points.length} real places on the map, from the MGM backlots in Culver City to Serling's Binghamton and the Tower of Terror rides around the world. Hollow markers are placed at the town or city, not the exact spot. Below the map are the {inStory.length} places that exist only in the stories.</p>
 

@@ -1,0 +1,30 @@
+---
+// Sources, the last toggle of Discover (plan section 4): two views, Feeds (every site this one cites, with its feed)
+// and Posts (the latest posts from every feed, headlines and links only). The Feeds table is built from every source
+// link on the site; the Posts reader and the feed research are the plan's Sources step.
+import GroupTable from './GroupTable.astro';
+interface Props { intro: string }
+const { intro } = Astro.props;
+---
+<div class="sub-toggles" role="tablist" aria-label="Sources: feeds or posts" data-tabs hidden>
+  <button type="button" role="tab" id="tab-feeds" aria-controls="feeds" aria-selected="true">Feeds</button>
+  <button type="button" role="tab" id="tab-posts" aria-controls="posts" aria-selected="false" tabindex="-1">Posts</button>
+</div>
+<div id="feeds" role="tabpanel" aria-labelledby="tab-feeds">
+  <GroupTable table="sources/feeds" heading="Sources"><p class="toggle-intro">{intro}</p></GroupTable>
+</div>
+<div id="posts" role="tabpanel" aria-labelledby="tab-posts" hidden>
+  <h2>Posts</h2>
+  <p class="toggle-intro">The newest posts from every feed in Feeds, newest first: the headline, the source, the author and the date, each linking to the original.</p>
+  <p class="notice">Not built yet. This is the plan's Sources step, which comes after this preview.</p>
+</div>
+<script is:inline>
+  (() => {
+    const bar = document.querySelector('.sub-toggles[data-tabs]'); if (!bar) return;
+    bar.hidden = false;
+    const tabs = [...bar.querySelectorAll('[role=tab]')];
+    const pick = (t) => { for (const x of tabs) { const on = x === t; x.setAttribute('aria-selected', String(on)); x.tabIndex = on ? 0 : -1; document.getElementById(x.getAttribute('aria-controls')).hidden = !on; } };
+    bar.addEventListener('click', (e) => { const t = e.target.closest('[role=tab]'); if (t) pick(t); });
+    bar.addEventListener('keydown', (e) => { const i = tabs.indexOf(document.activeElement); if (i < 0 || !['ArrowLeft', 'ArrowRight'].includes(e.key)) return; const t = tabs[(i + (e.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length]; t.focus(); pick(t); });
+  })();
+</script>

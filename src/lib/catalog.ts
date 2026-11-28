@@ -7,7 +7,7 @@ import { allEpisodes, allPeople, episodeNumber, splitCredit, CONNECTION_LABELS, 
 import { assess } from './assessments';
 import { slugify } from './slug';
 import { publicTags } from './tags';
-import { HOME_VIDEO_GROUPS } from './taxonomy.mjs';
+import { HOME_VIDEO_GROUPS, tableHref } from './taxonomy.mjs';
 import { TAXONOMY, CATEGORY, place, placePerson, explicitPlacements, mediaArtwork, libraryType, LIBRARY_TYPES, sortKey, subTitleFromSlug, SERIES_LABEL, contentOf, contentParents, isOfficial, orgSub, remap } from './taxonomy.mjs';
 import { filmHref, tv } from './television';
 import { watchFor, watchShort } from './watch';
@@ -517,7 +517,7 @@ export async function placesOf(key: string) {
   return (byRecord!.get(key) ?? []).map(({ cat, sub }) => {
     const c = cache!.get(cat)!;
     const s = c.subs.find((x) => x.slug === sub)!;
-    return { cat, sub, catTitle: c.title, subTitle: s.title, href: `/${cat}/${sub}/` };
+    return { cat, sub, catTitle: c.title, subTitle: s.title, href: tableHref(cat, sub), catHref: tableHref(cat) };
   });
 }
 

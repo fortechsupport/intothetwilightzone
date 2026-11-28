@@ -11,7 +11,7 @@ const [first, ...rest] = places;
 ---
 <p class="breadcrumb" data-pagefind-ignore>
   <a href="/">Home</a>
-  {first && <> / <a href={`/${first.cat}/`}>{first.catTitle}</a> / <a href={via?.[1] ?? first.href}>{via?.[0] ?? first.subTitle}</a></>}
+  {first && <> / <a href={first.catHref}>{first.catTitle}</a> / <a href={via?.[1] ?? first.href}>{via?.[0] ?? first.subTitle}</a></>}
   {!first && parents[0]?.href && <> / <a href={parents[0].href}>{parents[0].title}</a></>}
   {extra.map(([label, href]) => <> / <a href={href}>{label}</a></>)}
 </p>

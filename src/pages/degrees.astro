@@ -5,7 +5,7 @@ const g = await peopleGraph();
 const top = await mostConnected(30);
 ---
 <Base title="Six degrees of the Zone" description="How any two actors, writers or directors in The Twilight Zone are connected, step by step, through the episodes and films they made together.">
-  <p class="breadcrumb"><a href="/people/">People</a> / Six degrees</p>
+  <p class="breadcrumb"><a href="/discover/people/">People</a> / Six degrees</p>
   <h1>Six degrees of the Zone</h1>
   <p class="lead">Pick any two of the {g.people.length.toLocaleString('en-US')} actors, writers, directors and narrators credited on {g.works.length.toLocaleString('en-US')} episodes and films, and see the shortest chain of shared credits between them. Leave the second name as Rod Serling to find someone's Serling number.</p>
 
@@ -24,7 +24,7 @@ const top = await mostConnected(30);
   <ol class="columns small">
     {top.map((p) => <li><a href={`/people/${p.slug}/`}>{p.name}</a> <span class="muted">· {p.co} collaborators, {p.works} credits</span></li>)}
   </ol>
-  <noscript><p class="notice">The connection finder needs JavaScript. Every person's credits are on their page under <a href="/people/">People</a>.</p></noscript>
+  <noscript><p class="notice">The connection finder needs JavaScript. Every person's credits are on their page under <a href="/discover/people/">People</a>.</p></noscript>
 
   <script>
     type G = { people: [string, string][]; works: [string, string][]; links: number[][] };

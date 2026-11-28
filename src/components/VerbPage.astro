@@ -5,6 +5,7 @@ import Base from '../layouts/Base.astro';
 import SectionSummary from './SectionSummary.astro';
 import RecordArt from './RecordArt.astro';
 import GroupTable from './GroupTable.astro';
+import { groupTables } from '../lib/group-table';
 import type { Motif } from '../lib/motifs';
 const VERB_MOTIF: Record<string, Motif> = { discover: 'mask', view: 'tv', listen: 'radio', read: 'book', play: 'die', collect: 'disc', legacy: 'door' };
 import { navModel } from '../lib/nav';
@@ -19,6 +20,7 @@ const isDir = slug === 'discover';
 // Play, Collect and Legacy are one category each, so their page holds their one table (Adam, 2026-11-28); the other
 // groups' tables are on each category's page.
 const hasTable = ['play', 'collect', 'legacy'].includes(slug);
+const nShown = hasTable ? (await groupTables()).get(slug)!.rows.length : v.n;
 const entries = isDir ? [] : [...new Map(def.categories.filter((c) => c.kind !== 'section').flatMap((c) => cats.get(c.slug)?.subs.flatMap((s) => s.entries.map((e) => [e.key, e] as const)) ?? [])).values()];
 const SPLIT = 'Each category shows official items (made, licensed or published by the franchise or by Rod Serling) and unofficial or inspired ones on separate shelves.';
 ---
@@ -26,16 +28,16 @@ const SPLIT = 'Each category shows official items (made, licensed or published b
   <header class="verb-head has-art">
     <div>
     <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a></p>
-    <p class="kicker">{v.n.toLocaleString('en-US')} entries · {(() => { const k = v.cols.filter((c) => !c.live).length; return `${k} ${k === 1 ? 'category' : 'categories'}`; })()}</p>
+    <p class="kicker">{nShown.toLocaleString('en-US')} entries{!hasTable && <> · {(() => { const k = v.cols.filter((c) => !c.live).length; return `${k} ${k === 1 ? 'category' : 'categories'}`; })()}</>}</p>
     <h1>{v.title}</h1>
     <p class="lead">{v.blurb}</p>
     {hasTable && <p class="small"><a href="#gt-h">See everything in {v.title} in one table</a></p>}
-    {!isDir && <p class="small muted">{SPLIT} Reviews, interviews, clips and documents appear on the pages they belong to, and all together in the <a href="/media/">Media Library</a>.</p>}
+    {!isDir && <p class="small muted">{hasTable ? 'The table marks each item official (made, licensed or published by the franchise or by Rod Serling) or unofficial and inspired, in its own column.' : SPLIT} Reviews, interviews, clips and documents appear on the pages they belong to, and all together in the <a href="/media/">Media Library</a>.</p>}
     </div>
     <RecordArt title={v.title} motif={VERB_MOTIF[slug] ?? 'door'} />
   </header>
-  <h2 class="visually-hidden" id="categories">Categories in {v.title}</h2>
-  <div class="grid">
+  {!hasTable && <h2 class="visually-hidden" id="categories">Categories in {v.title}</h2>}
+  {!hasTable && <div class="grid">
     {v.cols.map((c) => (
       <a class="card" href={c.href}>
         {c.live ? <span class="count">{c.cta ?? 'Join in'}</span> : <span class="count">{c.n.toLocaleString('en-US')}</span>}
@@ -44,7 +46,7 @@ const SPLIT = 'Each category shows official items (made, licensed or published b
         {c.subs.length > 0 && <p class="small muted">{c.subs.map((x) => x.title).join(' · ')}</p>}
       </a>
     ))}
-  </div>
+  </div>}
   {hasTable && <GroupTable table={slug} heading={`Everything in ${v.title}, in one table`} />}
   {v.collections && (
     <>

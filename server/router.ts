@@ -44,6 +44,7 @@ on('GET', '/api/lists', account.getLists);
 on('POST', '/api/lists', account.setListItem);
 on('POST', '/api/lists/merge', account.mergeLists);
 // Votes (thumbs up and down on records)
+on('GET', '/api/votes/all', votes.all);
 on('GET', '/api/votes', votes.read);
 on('POST', '/api/votes', votes.cast);
 // Suggestions and uploads

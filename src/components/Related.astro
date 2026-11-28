@@ -13,7 +13,7 @@ if (inherit) {
   r.orgs = [...r.orgs, ...p.orgs.filter((x) => !have.has(x.key))];
 }
 for (const k of ['people', 'places', 'orgs'] as const) r[k] = r[k].filter((x) => !exclude.includes(x.href));
-const parts = ([['people', 'People', '/people/'], ['places', 'Places', '/places/'], ['orgs', 'Organizations', '/organizations/']] as const)
+const parts = ([['people', 'People', '/discover/people/'], ['places', 'Places', '/discover/places/'], ['orgs', 'Organizations', '/discover/organizations/']] as const)
   .filter(([k]) => !skip.includes(k) && r[k].length);
 const MAX = 40;
 ---

@@ -513,13 +513,13 @@ const byTitle = (a, b) => sortKey(a.title).localeCompare(sortKey(b.title));
 // The menu is Adam's sheet (2026-11-27, decision 0015): seven groups in this order, each listing its categories in
 // the order he numbered them (`order`); a category it leaves out follows A to Z.
 export const VERBS = [
-  { slug: 'discover', title: 'Discover', blurb: 'The organizations and people behind it, its characters and fans, the places real and imagined, and its events and history.', order: ['organizations', 'people', 'places', 'events'] },
+  { slug: 'discover', title: 'Discover', blurb: 'The organizations and people behind it, its characters and fans, the places real and imagined, its events and history, and every source this site draws on.', order: ['organizations', 'people', 'places', 'events'] },
   { slug: 'view', title: 'View', blurb: 'TV series and episodes, movies, documentaries, the stage, and the art and design.', order: ['series', 'movies', 'stage', 'artwork'] },
   { slug: 'listen', title: 'Listen', blurb: 'Songs, soundtracks and the theme, radio dramas, podcasts and lectures.', order: ['music', 'radio', 'podcasts', 'lectures'] },
-  { slug: 'read', title: 'Read', blurb: 'Scripts, books, comics, magazines, articles and essays, and the stories behind the episodes.' },
-  { slug: 'play', title: 'Play', blurb: 'Pinball, video games, board and card games, mini golf, and games to play here: trivia and Six Degrees.' },
-  { slug: 'collect', title: 'Collect', blurb: 'Everything a fan can own, category by category: merchandise and home video, books, comics and magazines, soundtrack albums and games.' },
-  { slug: 'legacy', title: 'Legacy', blurb: 'Everything it inspired, by kind of link and category by category: homages, parodies, references, adaptations and fan-made work.' },
+  { slug: 'read', title: 'Read', blurb: 'Articles, books, comics, essays, magazines, scripts and short stories about the show, from it, and behind it.' },
+  { slug: 'play', title: 'Play', blurb: 'Everything that gets played, in one table: pinball, video, board and trivia games, mini golf, nods in other games, fan-made games, and games to play here.' },
+  { slug: 'collect', title: 'Collect', blurb: 'Everything a fan can own, official and unofficial, physical and digital, in one table: merchandise and home video, books, comics and magazines, soundtrack albums and games.' },
+  { slug: 'legacy', title: 'Legacy', blurb: 'Everything it inspired, in one table: adaptations, remakes, homages, parodies, references, covers, fan-made work and more, with the kind of link, the category and the evidence for each.' },
 ].map((g) => {
   const rank = (c) => { const i = (g.order ?? []).indexOf(c.slug); return i < 0 ? Infinity : i; };
   const categories = TAXONOMY.filter((c) => c.group === g.slug).sort((a, b) => rank(a) - rank(b) || byTitle(a, b));
@@ -541,6 +541,48 @@ export const COLLECT_FROM = [
 ];
 /** Legacy (same sheet): every category with unofficial and inspired works, in menu order; each gets /legacy/<slug>/. */
 export const LEGACY_FROM = ['series', 'movies', 'stage', 'artwork', 'music', 'radio', 'podcasts', 'lectures', 'reading', 'games', 'merchandise'];
+/**
+ * Play, Collect and Legacy are one table each, with no category or shelf pages (Adam, 2026-11-28: "We shouldnt have
+ * category links for Play, Collect, or Legacy. I only want the category in a column"): [group page, the table column
+ * a shelf of it fills].
+ */
+export const TABLE_ONLY = { games: ['/play/', 'kind'], merchandise: ['/collect/', 'shelf'], homages: ['/legacy/', 'kind'] };
+/** The address part of a category's toggle on its group page: Television's records are `series`. */
+export const TOGGLE_SLUG = { series: 'television' };
+/**
+ * Where a category or shelf now lives (the explore framework, docs/plans/explore-framework-2026-11-28.md). Discover,
+ * View and Listen categories are toggles on their group page (/view/movies/), Read's formats too (/read/books/);
+ * a shelf is that table filtered to it. Play, Collect and Legacy are one table each, filtered the same way. Read's
+ * topic collections are a filter in every Read table, so they point at Read's first table filtered to them.
+ */
+export function catHref(cat, sub) {
+  const title = sub && CATEGORY[cat]?.subs.find((x) => x.slug === sub)?.title;
+  const q = (key, value) => `?${key}=${value.replace(/ /g, '+')}`; // '+' reads as a space; no shelf title holds & or #
+  if (cat === 'sources') return '/discover/sources/';
+  if (cat === 'reading') {
+    if (sub && READ_ORDER.includes(sub)) return `/read/${sub}/`;
+    return title ? `/read/${READ_ORDER[0]}/${q('coll', title)}` : '/read/';
+  }
+  const t = TABLE_ONLY[cat];
+  if (t) {
+    if (!sub) return cat === 'merchandise' ? `/collect/${q('cat', 'Merchandise')}` : t[0];
+    return title ? `${t[0]}${q(t[1], title)}` : t[0];
+  }
+  const g = verbOf(cat);
+  if (!g) return '/';
+  const base = `/${g.slug}/${TOGGLE_SLUG[cat] ?? cat}/`;
+  return title ? `${base}${q('shelf', cat === 'places' && sub === 'in-story' ? 'Settings in the stories' : title)}` : base;
+}
+/** Kept for the callers that knew it by this name. */
+export const tableHref = catHref;
+/** A group's toggles in Adam's order: [category slug, toggle slug, label]. Discover ends with Sources. */
+export function togglesOf(group) {
+  if (group === 'read') return READ_ORDER.map((s) => ['reading', s, READ_TITLES[s]]);
+  const g = VERBS.find((v) => v.slug === group);
+  const out = (g?.categories ?? []).map((c) => [c.slug, TOGGLE_SLUG[c.slug] ?? c.slug, c.slug === 'series' ? 'Television' : c.title]);
+  if (group === 'discover') out.push(['sources', 'sources', 'Sources']);
+  return out;
+}
 /** Categories merged into another, and where their landing pages now point (shelves redirect through MOVES). */
 export const MERGED_CATEGORIES = { history: '/events/' };
 /** Retired menu groups and where their old pages now point: Attend and Visit (2026-11-26), Watch (Adam's menu sheet,
@@ -548,6 +590,8 @@ export const MERGED_CATEGORIES = { history: '/events/' };
 export const RETIRED_VERBS = { attend: '/events/', visit: '/places/', watch: '/view/', meet: '/discover/' };
 /** Read's formats, exactly Adam's seven (2026-11-28, A to Z). Websites moved to Legacy (MOVES). */
 export const READ_ORDER = ['articles', 'books', 'comics', 'essays', 'magazines', 'scripts', 'short-stories'];
+/** Read's items as Adam named them (2026-11-28). */
+export const READ_TITLES = { articles: 'Articles', books: 'Books', comics: 'Comics', essays: 'Essays', magazines: 'Magazines', scripts: 'Scripts', 'short-stories': 'Short stories' };
 export const READ_COLLECTIONS = ['accident-and-trial', 'anniversary-coverage', 'cast-and-crew-memoirs', 'foreign-language', 'serling-foundation-papers', 'serling-own-writing'];
 
 /** People, Places, Organizations, in that order. */

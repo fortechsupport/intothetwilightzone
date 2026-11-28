@@ -1,35 +1,29 @@
 ---
+// The whole site on one page (the explore framework, 2026-11-28): the seven groups in Adam's order, the categories of
+// Discover, View, Listen and Read (each a toggle on its group page), and the one table of Play, Collect and Legacy.
 import Base from '../layouts/Base.astro';
-import { catalog, countOf, type CatInfo } from '../lib/catalog';
-import { VERBS } from '../lib/taxonomy.mjs';
-const cat = await catalog();
-const all = [...cat.values()];
-// Every category under its verb, A to Z. People, Organizations and Places appear under Meet and Visit.
-const verbs = VERBS.map((v) => ({ ...v, cats: v.categories.map((c) => cat.get(c.slug)).filter(Boolean) as CatInfo[] }));
-const listed = new Set(verbs.flatMap((v) => v.cats.map((c) => c.slug)));
-const other = all.filter((c) => !listed.has(c.slug) && c.slug !== 'content');
-const cats = [...verbs.flatMap((v) => v.cats), ...other];
-const blocks: [string, string | null, CatInfo[]][] = [...verbs.map((v) => [v.title, v.href, v.cats] as [string, string, CatInfo[]]), ...(other.length ? [['Other', null, other] as [string, null, CatInfo[]]] : [])];
+import { navModel } from '../lib/nav';
+import { groupTables } from '../lib/group-table';
+const verbs = await navModel();
+const tables = await groupTables();
+const fmt = (n: number) => n.toLocaleString('en-US');
 ---
-<Base title="Everything A to Z" description="Every verb, category and subcategory on IntoTheTwilightZone.com, A to Z, with counts.">
+<Base title="Everything A to Z" description="Every group and category on IntoTheTwilightZone.com, with counts.">
   <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a></p>
-  <h1>Everything A to Z</h1>
-  <p class="lead">{VERBS.length} verbs, {cats.length} categories and {cats.reduce((n, c) => n + c.subs.filter((s) => s.entries.length).length, 0)} subcategories. Those marked <span class="tag new">new</span> were added during research and are up for review.</p>
-  <p>The site is organized by what you want to do: <strong>Meet, View, Listen, Read, Play, Collect and Legacy</strong>. Meet holds the organizations, people, characters, places and events everything else links to; Legacy holds what the show inspired. The other categories hold the works and events themselves, and most categories are split into official items (made, broadcast, licensed or published by the franchise or by Rod Serling) and unofficial items made by others about or inspired by the show. <strong>Media and content</strong> (videos, audio, images, documents, reviews, interviews, quotes, advertisements, archival holdings and links) attaches to the pages it belongs to, and the <a href="/media/">Media Library</a> gathers it in one place.</p>
-  {blocks.map(([label, href, list]) => (
-    <>
-      <h2>{href ? <a href={href}>{label}</a> : label}</h2>
-      <div class="cat-index">
-        {list.map((c) => (
-          <section>
-            <h3><a href={`/${c.slug}/`}>{c.title}</a> {c.isNew && <span class="tag new">new</span>} <span class="muted small">({countOf(c).toLocaleString('en-US')})</span></h3>
-            <p class="small muted">{c.description}</p>
-            <ul class="plain">
-              {c.subs.map((s) => <li>{s.entries.length ? <a href={`/${c.slug}/${s.slug}/`}>{s.title}</a> : <span class="muted">{s.title}</span>} <span class="count-pill">{s.entries.length}</span>{s.isNew && !c.isNew && <span class="tag new">new</span>}</li>)}
-            </ul>
-          </section>
-        ))}
-      </div>
-    </>
-  ))}
+  <h1>Everything on the site</h1>
+  <p class="lead">Seven groups. Discover, View, Listen and Read each hold a table per category; Play, Collect and Legacy are one table each.</p>
+  <p class="small muted">Reviews, interviews, clips, documents and other media appear on the pages they belong to, and all together in the <a href="/media/">Media Library</a>.</p>
+  <div class="cat-index">
+    {verbs.map((v) => (
+      <section>
+        <h2><a href={v.href}>{v.title}</a></h2>
+        <p class="small muted">{v.blurb}</p>
+        {v.cols.length > 0 ? (
+          <ul class="plain">{v.cols.map((c) => <li><a href={c.href}>{c.title}</a> <span class="count-pill">{fmt(c.n)}</span></li>)}</ul>
+        ) : (
+          <p><a href={v.href}>One table of {fmt(tables.get(v.slug)?.rows.length ?? v.n)} entries</a></p>
+        )}
+      </section>
+    ))}
+  </div>
 </Base>

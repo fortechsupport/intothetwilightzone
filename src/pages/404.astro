@@ -2,14 +2,34 @@
 import Base from '../layouts/Base.astro';
 import { navModel } from '../lib/nav';
 import RecordArt from '../components/RecordArt.astro';
+import { getCollection } from 'astro:content';
 const verbs = await navModel();
+// Ten versions, one picked at random on each visit (Adam, 2026-11-28; plan docs/plans/explore-framework-2026-11-28.md,
+// section 8). Each is built on an episode or scene, in our own words (no quoted dialogue), gives nothing away about
+// the ending, and was checked against the episode's synopsis on this site. Without scripts, the first shows.
+const VERSIONS: [string, string, string][] = [
+  ['Nobody is here', "You've wandered into a town where the coffee is still warm and not a soul is home. This page isn't here either.", '1959/where-is-everybody'],
+  ['Something is on the wing', 'Something is out on the wing in the storm, and it has made off with this page. Nobody else saw a thing.', '1959/nightmare-at-20-000-feet'],
+  ['Same road, no page', 'The same figure keeps turning up beside the highway, mile after mile. The page you want never does.', '1959/the-hitch-hiker'],
+  ['No way out of here', "Like the five strangers in the giant cylinder, you've reached a wall with no door in it.", '1959/five-characters-in-search-of-an-exit'],
+  ['Slipped through the wall', 'This page slipped through into another dimension. We can hear it, but we can\'t reach it.', '1959/little-girl-lost'],
+  ['This train doesn\'t stop here', "The commuter train never pulls into Willoughby, and this page doesn't exist.", '1959/a-stop-at-willoughby'],
+  ['The lights went out', 'The power died on Maple Street, and this page went with it. Before anyone starts blaming the neighbors, try a search.', '1959/the-monsters-are-due-on-maple-street'],
+  ['Wished away', 'Think happy thoughts. Somebody wished this page away to the cornfield.', '1959/its-a-good-life'],
+  ['Talky Tina has spoken', "Talky Tina says this page doesn't exist, and you'd be wise to believe her.", '1959/living-doll'],
+  ['Declared obsolete', 'This page has been declared obsolete. The State regrets nothing; we do.', '1959/the-obsolete-man'],
+];
+const eps = new Map((await getCollection('episodes')).map((e) => [e.id, e.data.title]));
+const versions = VERSIONS.map(([h, p, id]) => ({ h, p, href: `/episodes/${id}/`, title: eps.get(id)! }));
+const v0 = versions[0];
 ---
 <Base title="Page not found" noindex>
   <div class="page-head has-art">
     <div>
-      <p class="kicker">Error 404</p>
-      <h1>You've crossed over into… a missing page</h1>
-      <p class="lead">This page doesn't exist, or it moved when the site was reorganized. Search for what you were after, or pick a way in below.</p>
+      <p class="kicker">Error 404: page not found</p>
+      <h1 data-nf-h>{v0.h}</h1>
+      <p class="lead" data-nf-p>{v0.p}</p>
+      <p class="small muted">From the episode <a data-nf-a href={v0.href}>{v0.title}</a> (1959). Search for what you were after, or pick a way in below.</p>
     </div>
     <RecordArt title="404" motif="door" />
   </div>
@@ -23,6 +43,10 @@ const verbs = await navModel();
     {verbs.map((v) => <a class="card" href={v.href}><h3>{v.title}</h3><p class="small muted">{v.blurb}</p></a>)}
   </div>
   <p>Or go to the <a href="/">home page</a>, <a href="/start/">start here</a>, or <a href="/categories/">everything A to Z</a>.</p>
+  <script is:inline define:vars={{ versions }}>
+    // One of the ten versions at random.
+    (() => { const v = versions[Math.floor(Math.random() * versions.length)]; const q = (s) => document.querySelector(s); q('[data-nf-h]').textContent = v.h; q('[data-nf-p]').textContent = v.p; const a = q('[data-nf-a]'); a.textContent = v.title; a.href = v.href; })();
+  </script>
   <script is:inline>
     // Fill the search box with words from the missing address, so one press finds the likeliest page.
     (() => { const w = decodeURIComponent(location.pathname).split('/').filter(Boolean).pop(); if (w && w !== '404.html') document.getElementById('nf-q').value = w.replace(/[-_]+/g, ' ').replace(/\.html?$/, ''); })();

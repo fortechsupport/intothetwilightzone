@@ -1,0 +1,108 @@
+---
+// A group page with its category toggles (the explore framework, docs/plans/explore-framework-2026-11-28.md, section
+// 1): Discover, View, Listen and Read. Each toggle is a real link to its own address (/view/movies/), so it works
+// without JavaScript and can be shared; with JavaScript the panel below swaps in place, the address follows, and the
+// group's bare address (/view/) reopens on the toggle the visitor last chose. The panel is a two-sentence intro and
+// the category's one table (Adam, 2026-11-28: no "How this connects" box).
+import Base from '../layouts/Base.astro';
+import GroupTable from './GroupTable.astro';
+import SourcesPanel from './SourcesPanel.astro';
+import { catalog } from '../lib/catalog';
+import { groupTables } from '../lib/group-table';
+import { VERBS, togglesOf, catHref, CATEGORY } from '../lib/taxonomy.mjs';
+interface Props { group: string; toggle?: string }
+const { group } = Astro.props;
+const v = VERBS.find((x) => x.slug === group)!;
+const toggles: [string, string, string][] = togglesOf(group);
+const cur = toggles.find((t) => t[1] === Astro.props.toggle) ?? toggles[0];
+const [cat, sub, label] = cur;
+const bare = !Astro.props.toggle;
+const tables = await groupTables();
+const keyOf = ([c, s]: [string, string, string]) => (c === 'reading' ? `reading/${s}` : c);
+const hrefOf = ([c, s]: [string, string, string]) => (c === 'reading' ? catHref('reading', s) : catHref(c));
+const nOf = (t: [string, string, string]) => tables.get(t[0] === 'sources' ? 'sources/feeds' : keyOf(t))?.rows.length ?? 0;
+// The intro: the category's own first two sentences (Read: the format's).
+const cats = await catalog();
+const two = (s?: string) => (s ? (s.replace(/<[^>]+>/g, '').match(/^(.*?[.!?])(\s+.*?[.!?])?(?=\s|$)/)?.[0] ?? s) : '');
+const readSub = cat === 'reading' ? CATEGORY.reading.subs.find((x: any) => x.slug === sub) : undefined;
+const SOURCES_INTRO = 'Every website, blog, podcast, database and archive this site cites, with its feed where it has one. Download the feeds for your own reader, or read the latest posts from all of them in one place.';
+const intro = cat === 'sources' ? SOURCES_INTRO : cat === 'reading' ? two(readSub?.intro ?? readSub?.blurb) : two(cats.get(cat)?.intro?.[0] ?? cats.get(cat)?.description);
+const description = cat === 'sources' ? SOURCES_INTRO : cat === 'reading' ? (readSub?.blurb ?? v.blurb) : (cats.get(cat)?.description ?? v.blurb);
+const title = bare ? v.title : label;
+---
+<Base title={title} description={bare ? `${v.title}: ${v.blurb}` : description}>
+  <header class="verb-head">
+    <p class="breadcrumb" data-pagefind-ignore><a href="/">Home</a></p>
+    <h1>{v.title}</h1>
+    <p class="lead">{v.blurb}</p>
+  </header>
+  <nav class="toggles" aria-label={`Categories in ${v.title}`} data-toggles={group}>
+    <ul>
+      {toggles.map((t) => (
+        <li><a href={hrefOf(t)} data-toggle={t[1]} aria-current={t === cur ? 'page' : undefined}>{t[2]} <span class="count-pill">{nOf(t).toLocaleString('en-US')}</span></a></li>
+      ))}
+    </ul>
+  </nav>
+  <div id="toggle-panel" data-toggle-panel={sub} data-title={label}>
+    {cat === 'sources' ? <SourcesPanel intro={intro} /> : (
+      <GroupTable table={keyOf(cur)} heading={label}><p class="toggle-intro">{intro}</p></GroupTable>
+    )}
+  </div>
+</Base>
+<script is:inline define:vars={{ group, bare, first: toggles[0][1] }}>
+  (() => {
+    const nav = document.querySelector('[data-toggles]'), panel = document.getElementById('toggle-panel');
+    if (!nav || !panel) return;
+    const KEY = `tz-toggle-${group}`;
+    const remember = (t) => { try { localStorage.setItem(KEY, t); } catch {} };
+    const recall = () => { try { return localStorage.getItem(KEY); } catch { return null; } };
+    const links = [...nav.querySelectorAll('a[data-toggle]')];
+    const mark = (t) => { for (const a of links) { if (a.dataset.toggle === t) { a.setAttribute('aria-current', 'page'); a.scrollIntoView({ block: 'nearest', inline: 'nearest' }); } else a.removeAttribute('aria-current'); } };
+    // Scripts inside the swapped panel (the table's) run again, as on a fresh page.
+    const run = (root) => { for (const old of root.querySelectorAll('script')) { const s = document.createElement('script'); s.textContent = old.textContent; old.replaceWith(s); } };
+    const cache = new Map();
+    const show = async (href, t, push) => {
+      panel.setAttribute('aria-busy', 'true');
+      try {
+        const html = cache.get(href) ?? await fetch(href).then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.text(); });
+        cache.set(href, html);
+        const doc = new DOMParser().parseFromString(html, 'text/html');
+        const next = doc.getElementById('toggle-panel');
+        if (!next) throw new Error('no panel');
+        panel.innerHTML = next.innerHTML;
+        panel.dataset.togglePanel = t;
+        document.title = doc.title;
+        mark(t);
+        remember(t);
+        if (push) history.pushState({ toggle: t }, '', href);
+        run(panel);
+        panel.querySelector('h2')?.setAttribute('tabindex', '-1');
+      } catch { location.href = href; }
+      panel.removeAttribute('aria-busy');
+    };
+    nav.addEventListener('click', (ev) => {
+      const a = ev.target.closest('a[data-toggle]');
+      if (!a || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+      ev.preventDefault();
+      if (a.getAttribute('aria-current') === 'page') return;
+      show(a.getAttribute('href'), a.dataset.toggle, true);
+    });
+    // Arrow keys move along the strip.
+    nav.addEventListener('keydown', (ev) => {
+      if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(ev.key)) return;
+      const i = links.indexOf(document.activeElement); if (i < 0) return;
+      ev.preventDefault();
+      const j = ev.key === 'Home' ? 0 : ev.key === 'End' ? links.length - 1 : (i + (ev.key === 'ArrowRight' ? 1 : -1) + links.length) % links.length;
+      links[j].focus();
+    });
+    window.addEventListener('popstate', () => {
+      const a = links.find((x) => new URL(x.href).pathname === location.pathname) ?? links[0];
+      show(a.getAttribute('href') + location.search, a.dataset.toggle, false);
+    });
+    const here = panel.dataset.togglePanel;
+    remember(bare ? (recall() ?? first) : here);
+    mark(here);
+    // The bare group address reopens on the last toggle chosen here.
+    if (bare && !location.search) { const last = recall(); const a = last && last !== here && links.find((x) => x.dataset.toggle === last); if (a) show(a.getAttribute('href'), last, false).then(() => history.replaceState({ toggle: last }, '', a.getAttribute('href'))); }
+  })();
+</script>
