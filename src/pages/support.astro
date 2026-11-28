@@ -4,7 +4,7 @@
 import Base from '../layouts/Base.astro';
 import { DONATE } from '../lib/site-links';
 ---
-<Base title="Support hosting" description="IntoTheTwilightZone.com earns nothing and carries no ads. How you can help keep it online: share what you know, send corrections and photos, and, when it opens, chip in for hosting.">
+<Base title="Support hosting" description="IntoTheTwilightZone.com earns nothing and carries no ads. How you can help keep it online: share what you know, send corrections and photos, and chip in for hosting through Ko-fi.">
   <article class="legal">
     <h1>Support hosting</h1>
     <p class="lead">IntoTheTwilightZone.com is a labour of love by fans. It carries no advertising, no affiliate links and no sponsors, sells nothing, and never will. Keeping it online costs money all the same: the domain name and the hosting.</p>
@@ -13,7 +13,8 @@ import { DONATE } from '../lib/site-links';
     {DONATE ? (
       <>
         <p>If the site has been useful to you, you can help pay for the domain and hosting. Every donation goes to running the site and nothing else, and giving buys no say over what the site covers or says.</p>
-        <p><a class="btn" href={DONATE.url}>Donate through {DONATE.label}</a></p>
+        <p><a class="btn primary" href={DONATE.url}>Donate through {DONATE.label}</a></p>
+        <p>{DONATE.label} handles the payment on its own site, so this site never sees your payment details.</p>
       </>
     ) : (
       <p>Donations aren't open yet. When they are, a button here will say exactly where they go, and every donation will go to running the site and nothing else. Giving will never buy a say over what the site covers or says.</p>
