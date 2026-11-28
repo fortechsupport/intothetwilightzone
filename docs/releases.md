@@ -3,6 +3,14 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-28 — Email address for copyright notices
+
+Visitors can now:
+- Email copyright notices to dmca@intothetwilightzone.com, listed with the designated agent on /copyright/#agent.
+
+**Known not to work yet:**
+- The Copyright Office directory still lists the agent's original email; Adam can amend it to the dmca@ address.
+
 ## 2026-11-28 — The last 14 checked photos
 
 Visitors can now:
@@ -48,7 +56,6 @@ fan accounts, votes and uploads working on the bare domain (decision 0016).
 
 **Known not to work yet:**
 - intothetwilightzone.com still shows Bluehost until Adam moves the nameservers (steps in docs/DEPLOY.md).
-- The copyright page gives no email address for the agent yet; that waits on Adam's choice of address.
 
 ## 2026-11-27 — Nightly photos: 41 more pictures
 
