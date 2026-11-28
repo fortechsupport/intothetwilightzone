@@ -171,8 +171,8 @@ media:
   type: article
   rights: link-only
 - title: 'Rod Serling: Submitted for Your Approval (American Masters)'
-  url: https://weta.org/watch/shows/american-masters/rod-serling-submitted-your-approval
-  host: PBS / WETA
+  url: https://www.pbs.org/wnet/americanmasters/rod-serling-about-rod-serling/702/
+  host: PBS (American Masters)
   date: '1995'
   note: PBS American Masters documentary.
   type: video
@@ -213,13 +213,6 @@ media:
 - title: The Rod Serling Archive
   url: https://bundymuseum.org/rodserlingarchive
   host: Bundy Museum of History and Art, Binghamton
-  type: website
-  rights: link-only
-- title: A celebrity staged reading of The Twilight Zone's The Masks
-  url: https://www.paleycenter.org/event-twilight-zone-the-masks
-  host: The Paley Center for Media
-  date: '2009'
-  note: 50th-anniversary event.
   type: website
   rights: link-only
 categories:

@@ -17,8 +17,8 @@ sources:
   note: Gives episode count (trackCount) and latest episode date as of 2026-11-21.
 - title: Feedspot - 19 Best The Twilight Zone Podcasts
   url: https://podcast.feedspot.com/the_twilight_zone_podcasts
-- title: Blubrry - Submitted For Your Approval archive
-  url: https://blubrry.com/submitted_for_your_approval__/archive/?pi=1
+- title: Apple Podcasts - Submitted For Your Approval (episode list; the Blubrry archive page has been taken down)
+  url: https://podcasts.apple.com/us/podcast/submitted-for-your-approval-a-twilight-zone-podcast/id1071239521
 - title: 'RSS feed: Submitted For Your Approval - A Twilight Zone Podcast'
   url: https://feeds.redcircle.com/66397e15-6c76-4ffc-831b-9e441ca57033
   note: 'Read 2026-11-24 by scripts/podcast-feeds.mjs on GitHub: 94 episodes, dated 2015-12-29 to 2023-04-28. Status is active when an episode is under six months old, otherwise ended (an inference from the feed).'

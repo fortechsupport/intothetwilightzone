@@ -41490,7 +41490,7 @@
   "recommendation": "include",
   "reason": "The official magazine run is part of the franchise; list every issue.",
   "source_title": "AuthorWars (ISFDb-based catalogue): issue page",
-  "source_url": "https://authorwars.com/books/titles/149966/cover-rod-serlings-the-twilight-zone-magazine-march-1982",
+  "source_url": "https://www.isfdb.org/cgi-bin/title.cgi?149966",
   "title": "The Twilight Zone Magazine, #12",
   "subcategory": "The Twilight Zone Magazine",
   "sort": "twilight zone magazine 000012"
@@ -41514,7 +41514,7 @@
   "recommendation": "include",
   "reason": "The official magazine run is part of the franchise; list every issue.",
   "source_title": "AuthorWars (ISFDb-based catalogue): issue page",
-  "source_url": "https://authorwars.com/books/titles/149970/cover-rod-serlings-the-twilight-zone-magazine-may-1982",
+  "source_url": "https://www.isfdb.org/cgi-bin/title.cgi?149970",
   "title": "The Twilight Zone Magazine, #14",
   "subcategory": "The Twilight Zone Magazine",
   "sort": "twilight zone magazine 000014"
@@ -41538,7 +41538,7 @@
   "recommendation": "include",
   "reason": "The official magazine run is part of the franchise; list every issue.",
   "source_title": "AuthorWars (ISFDb-based catalogue): issue page",
-  "source_url": "https://authorwars.com/books/titles/149961/cover-rod-serlings-the-twilight-zone-magazine-july-1982",
+  "source_url": "https://www.isfdb.org/cgi-bin/title.cgi?149961",
   "title": "The Twilight Zone Magazine, #16",
   "subcategory": "The Twilight Zone Magazine",
   "sort": "twilight zone magazine 000016"
@@ -41658,7 +41658,7 @@
   "recommendation": "include",
   "reason": "The official magazine run is part of the franchise; list every issue.",
   "source_title": "AuthorWars (ISFDb-based catalogue): issue page",
-  "source_url": "https://authorwars.com/books/titles/149962/cover-rod-serlings-the-twilight-zone-magazine-julyaugust-1983",
+  "source_url": "https://www.isfdb.org/cgi-bin/title.cgi?149962",
   "title": "The Twilight Zone Magazine, #25",
   "subcategory": "The Twilight Zone Magazine",
   "sort": "twilight zone magazine 000025"
@@ -42102,7 +42102,7 @@
   "recommendation": "include",
   "reason": "The official magazine run is part of the franchise; list every issue.",
   "source_title": "AuthorWars (ISFDb-based catalogue): issue page",
-  "source_url": "https://authorwars.com/books/titles/149946/cover-rod-serlings-the-twilight-zone-magazine",
+  "source_url": "https://www.isfdb.org/cgi-bin/title.cgi?149946",
   "title": "The Twilight Zone Magazine, #59",
   "subcategory": "The Twilight Zone Magazine",
   "sort": "twilight zone magazine 000059"
@@ -43074,7 +43074,7 @@
   "recommendation": "include",
   "reason": "Organizations are a section Adam asked for; this one ties together the records that name it. Seed record without a description yet.",
   "source_title": "Radio Preservation Task Force database: collection 1182",
-  "source_url": "https://database.radiopreservation.org/catalog/collection_1182",
+  "source_url": "https://database.radiopreservation.org/",
   "title": "Radio Preservation Task Force",
   "subcategory": "Organizations",
   "sort": "radio preservation task force"
@@ -58422,7 +58422,7 @@
   "recommendation": "include",
   "reason": "Within the Serling scope you asked for.",
   "source_title": "Rod Serling: Submitted for Your Approval - WETA (American Masters)",
-  "source_url": "https://weta.org/watch/shows/american-masters/rod-serling-submitted-your-approval",
+  "source_url": "https://www.pbs.org/wnet/americanmasters/rod-serling-about-rod-serling/702/",
   "title": "Mitch Greenberg",
   "subcategory": "Actors",
   "sort": "mitch greenberg"
@@ -65610,7 +65610,7 @@
   "recommendation": "include",
   "reason": "A dedicated companion podcast; fans looking for discussion of an episode will want these.",
   "source_title": "Coast to Coast AM: Rod Serling & the Twilight Zone (show page)",
-  "source_url": "https://coasttocoastam.com/show/2024/12/25",
+  "source_url": "https://www.coasttocoastam.com/show/2024-12-25-show/",
   "title": "Coast to Coast AM: Rod Serling & the Twilight Zone",
   "subcategory": "Twilight Zone podcasts",
   "sort": "coast to coast am rod serling  the twilight zone"
@@ -66342,7 +66342,7 @@
   "recommendation": "include",
   "reason": "A dedicated companion podcast; fans looking for discussion of an episode will want these.",
   "source_title": "Blubrry - Night of the Living Podcast",
-  "source_url": "https://blubrry.com/notlp/139715201/zoned-out-the-twilight-zone-revisited-where-is-everybody",
+  "source_url": "https://notlp.libsyn.com/website/zoned-out-the-twilight-zone-revisited-where-is-everybody",
   "title": "Zoned Out: The Twilight Zone Revisited (Night of the Living Podcast)",
   "subcategory": "Twilight Zone podcasts",
   "sort": "zoned out the twilight zone revisited night of the living podcast"
@@ -73086,7 +73086,7 @@
   "recommendation": "maybe",
   "reason": "Short, legitimate audio explainer.",
   "source_title": "Composers Datebook – The Twilight Zone (iHeart)",
-  "source_url": "https://www.iheart.com/podcast/3-composers-datebook-27977125/episode/the-twilight-zone-102658800",
+  "source_url": "https://www.yourclassical.org/episode/2013/09/30/the-twilight-zone",
   "title": "Composers Datebook – 'The Twilight Zone' (radio segment)",
   "subcategory": "Other",
   "sort": "composers datebook  the twilight zone radio segment"
@@ -75750,7 +75750,7 @@
   "recommendation": "include",
   "reason": "Useful onward links for readers; keep the list to well-maintained resources.",
   "source_title": "database.radiopreservation.org",
-  "source_url": "https://database.radiopreservation.org/catalog/collection_1182",
+  "source_url": "https://database.radiopreservation.org/",
   "title": "Radio Preservation Task Force – Rod Serling Papers record",
   "subcategory": "Links and resources",
   "sort": "radio preservation task force  rod serling papers record"

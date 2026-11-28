@@ -12,6 +12,10 @@ relevance: core
 research_confidence: medium
 sources:
 - title: Metaluna Store listing
-  url: https://metalunastore.fr/en/collections/offrez-les-meilleurs-livres-pour-les-fetes/products/la-quatrieme-dimension-la-serie-tv-the-twilight-zone-la-morale-au-service-du-fantastique
+  note: 'The page has been taken down by the site, and the Wayback Machine has no copy (checked 2026-11-28).'
+- title: 'Bibliothèques de la Ville de Paris: catalogue record'
+  url: https://bibliotheques.paris.fr/Numok/doc/BFS/73873-pf0002406776/la-quatrieme-dimension-la-serie-tv-the-twilight-zone-la-morale-au-service-du-fantastique
+  publisher: Bibliothèques de la Ville de Paris
+  note: Read 2026-11-28; names Philippe Poitiers as the author.
 last_verified: '2026-11-19'
 locked: true

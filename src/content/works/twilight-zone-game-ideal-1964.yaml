@@ -27,14 +27,7 @@ sources:
 - title: Wikipedia
   url: https://en.wikipedia.org/wiki/The_Twilight_Zone_(franchise)
 - title: 'Hake''s auction: The Twilight Zone Game in unused condition'
-  url: https://www.hakes.com/Auction/ItemDetail/90600/THE-TWILIGHT-ZONE-GAME-IN-UNUSED-CONDITION
+  note: 'The page has been taken down by the site, and the Wayback Machine has no copy (checked 2026-11-28). Hake''s removes past auction lots from its site.'
 research_confidence: high
 last_verified: '2026-11-20'
 relevance: core
-media:
-- type: link
-  title: Hake's auction listing with box photos
-  url: https://www.hakes.com/Auction/ItemDetail/90600/THE-TWILIGHT-ZONE-GAME-IN-UNUSED-CONDITION
-  host: Hake's Auctions
-  rights: link-only
-  subtype: listing

@@ -18,7 +18,11 @@ sources:
 - title: New Atlas - Robby the Robot sells for $5.3 million
   url: https://newatlas.com/robby-robot-2nd-most-expensive-movie-prop-forbidden-planet/52298
 - title: Yahoo - Why This Famous Sci-Fi Robot Showed Up on The Twilight Zone 3 Different Times
-  url: https://www.yahoo.com/entertainment/why-famous-sci-fi-robot-185326103.html
+  note: 'The page has been taken down by the site, and the Wayback Machine has no copy (checked 2026-11-28).'
+- title: 'CBS News: Robby the Robot, of "Forbidden Planet," sells for movie prop record $5.375 million'
+  url: https://www.cbsnews.com/news/robby-the-robot-of-forbidden-planet-sells-for-movie-prop-record-5-375-million/
+  publisher: CBS News
+  note: Read 2026-11-28 for the sale price.
 research_confidence: high
 last_verified: '2026-11-20'
 locked: true
