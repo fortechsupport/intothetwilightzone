@@ -1878,6 +1878,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ACarol_Burnett_1973_%28cropped%29.JPG
   source_name: Wikimedia Commons
   original_source: eBay listing (front and back of the print)
+- id: people-charles-aidman
+  src: /media/images/people/charles-aidman.webp
+  small: /media/images/people/charles-aidman-320.webp
+  width: 640
+  height: 815
+  records:
+    - people/charles-aidman
+  role: portrait
+  title: Charles Aidman in a CBS press photo for Spoon River (1967)
+  alt: Close-up portrait of Charles Aidman with dark hair, looking just past the camera
+  date: "1967"
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3ACharles_Aidman_%22Spoon_River%22_%281967_CBS_press_photo%29.JPG
+  source_name: Wikimedia Commons
+  original_source: Original CBS press photograph (sold on eBay)
 - id: people-charles-bronson
   src: /media/images/people/charles-bronson.webp
   small: /media/images/people/charles-bronson-320.webp
@@ -1912,6 +1929,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ACliff_Robertson_%28november_1981%29_cropped.jpg
   source_name: Wikimedia Commons
   original_source: https://www.flickr.com/photos/alan-light/2398831418 (cropped)
+- id: people-cloris-leachman
+  src: /media/images/people/cloris-leachman.webp
+  small: /media/images/people/cloris-leachman-320.webp
+  width: 640
+  height: 600
+  records:
+    - people/cloris-leachman
+  role: portrait
+  title: Photo of Cloris Leachman (1970)
+  alt: Cloris Leachman smiling, her head resting on one hand
+  date: "1970"
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3ACloris_Leachman_1970_%28cropped%29.JPG
+  source_name: Wikimedia Commons
+  original_source: Original press photograph, front and back scanned (sold on eBay); also Lewis Wayne Gallery
 - id: people-damon-knight
   src: /media/images/people/damon-knight.webp
   small: /media/images/people/damon-knight-320.webp
@@ -2028,6 +2062,23 @@
   source_url: https://commons.wikimedia.org/wiki/File:EHinTWZ.jpg
   source_name: Wikimedia Commons
   original_source: "[1]"
+- id: people-edward-binns
+  src: /media/images/people/edward-binns.webp
+  small: /media/images/people/edward-binns-320.webp
+  width: 640
+  height: 832
+  records:
+    - people/edward-binns
+  role: portrait
+  title: Photo of actor Edward Binns (1959)
+  alt: Head-and-shoulders portrait of Edward Binns smiling, in a dark suit and patterned tie
+  date: "1959"
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3AEdward_Binns_1959.JPG
+  source_name: Wikimedia Commons
+  original_source: Original press photograph, front and back scanned (sold on eBay)
 - id: people-eileen-ryan
   src: /media/images/people/eileen-ryan.webp
   small: /media/images/people/eileen-ryan-320.webp
@@ -2093,6 +2144,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AFrank_Marshall_%28film_producer%29.jpg
   source_name: Wikimedia Commons
   original_source: Own work
+- id: people-fred-clark
+  src: /media/images/people/fred-clark.webp
+  small: /media/images/people/fred-clark-320.webp
+  width: 640
+  height: 791
+  records:
+    - people/fred-clark
+  role: portrait
+  title: Publicity photo of Fred Clark for The Jackpot (1950)
+  alt: Fred Clark, balding with a thin moustache, scowling with a cigar in his mouth, in a suit and plaid tie
+  date: "1950"
+  creator: 20th Century Fox
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3AFred_Clark_-_1950.JPG
+  source_name: Wikimedia Commons
+  original_source: Original press photograph (sold on eBay)
 - id: people-gail-kobe
   src: /media/images/people/gail-kobe.webp
   small: /media/images/people/gail-kobe-320.webp
@@ -2232,6 +2300,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AHelen_Mirren_1985_IPTC_%28cropped%29.jpg
   source_name: Wikimedia Commons
   original_source: Own work
+- id: people-howard-morris
+  src: /media/images/people/howard-morris.webp
+  small: /media/images/people/howard-morris-320.webp
+  width: 640
+  height: 875
+  records:
+    - people/howard-morris
+  role: publicity
+  title: Howard Morris as Ernest T. Bass in The Andy Griffith Show (1964)
+  alt: Howard Morris, unshaven and frowning, in a vest over a buttoned undershirt
+  date: "1964"
+  creator: CBS Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3AHoward_Morris_%22The_Andy_Griffith_Show%22_%281964_CBS_press_photo%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Original CBS press photograph
 - id: people-ida-lupino
   src: /media/images/people/ida-lupino.webp
   small: /media/images/people/ida-lupino-320.webp
@@ -2300,6 +2385,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AJ._Michael_Straczynski_by_Gage_Skidmore.jpg
   source_name: Wikimedia Commons
   original_source: Own work
+- id: people-jack-albertson
+  src: /media/images/people/jack-albertson.webp
+  small: /media/images/people/jack-albertson-320.webp
+  width: 640
+  height: 663
+  records:
+    - people/jack-albertson
+  role: portrait
+  title: Jack Albertson, publicity portrait for The Poseidon Adventure (about 1972)
+  alt: Jack Albertson with a grey moustache, in a tuxedo and bow tie, looking sideways at the camera
+  date: about 1972
+  creator: Unknown studio photographer
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3AJack_Albertson_posing_for_%22The_Poseidon_Adventure%22_%281972%29_photoshoot_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Original publicity photograph (sold on eBay)
 - id: people-jack-klugman
   src: /media/images/people/jack-klugman.webp
   small: /media/images/people/jack-klugman-320.webp
@@ -2416,6 +2518,40 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AJerry_Goldsmith_1.jpg
   source_name: Wikimedia Commons
   original_source: Jerry Goldsmith
+- id: people-jim-hutton
+  src: /media/images/people/jim-hutton.webp
+  small: /media/images/people/jim-hutton-320.webp
+  width: 640
+  height: 849
+  records:
+    - people/jim-hutton
+  role: portrait
+  title: Jim Hutton in Ellery Queen (1976)
+  alt: Jim Hutton holding a magnifying glass up to one eye
+  date: "1976"
+  creator: NBC Television
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3AJim_Hutton_Ellery_Queen_1976.JPG
+  source_name: Wikimedia Commons
+  original_source: Original press photograph, front and back scanned (sold on eBay)
+- id: people-joan-hackett
+  src: /media/images/people/joan-hackett.webp
+  small: /media/images/people/joan-hackett-320.webp
+  width: 640
+  height: 795
+  records:
+    - people/joan-hackett
+  role: portrait
+  title: Joan Hackett in Support Your Local Sheriff! (1969)
+  alt: Joan Hackett laughing, in a wide-brimmed hat and a work jacket
+  date: "1969"
+  creator: United Artists
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3AJoan_Hackett_1969.JPG
+  source_name: Wikimedia Commons
+  original_source: Original press photograph, front and back scanned (sold on eBay)
 - id: people-joe-dante
   src: /media/images/people/joe-dante.webp
   small: /media/images/people/joe-dante-320.webp
@@ -2569,6 +2705,23 @@
   source_url: https://commons.wikimedia.org/wiki/File:Kelton_Garwood_%22The_Twilight_Zone%22_(1961_CBS_press_photo).jpg
   source_name: Wikimedia Commons
   original_source: https://www.worthpoint.com/worthopedia/1961-press-photo-actors-harrison-4687894902
+- id: people-larry-blyden
+  src: /media/images/people/larry-blyden.webp
+  small: /media/images/people/larry-blyden-320.webp
+  width: 640
+  height: 860
+  records:
+    - people/larry-blyden
+  role: portrait
+  title: Larry Blyden, publicity for The United States Steel Hour (1962)
+  alt: Head-and-shoulders portrait of Larry Blyden with slicked-back dark hair, in a jacket and tie, looking to one side
+  date: "1962"
+  creator: United States Steel Corporation, sponsor of the show.
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3ALarry_Blyden_1962.JPG
+  source_name: Wikimedia Commons
+  original_source: Original press photograph, front and back scanned (sold on eBay)
 - id: people-lee-marvin
   src: /media/images/people/lee-marvin.webp
   small: /media/images/people/lee-marvin-320.webp
@@ -2651,6 +2804,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3AMartin_Landau_2010_%28cropped%29.jpg
   source_name: Wikimedia Commons
   original_source: Own work, Glenn Francis (PacificProDigital.com)
+- id: people-martin-milner
+  src: /media/images/people/martin-milner.webp
+  small: /media/images/people/martin-milner-320.webp
+  width: 640
+  height: 798
+  records:
+    - people/martin-milner
+  role: portrait
+  title: Publicity photo of Martin Milner (1960)
+  alt: Martin Milner smiling, in a striped T-shirt, in front of window blinds
+  date: "1960"
+  creator: CBS / Screen Gems / Pat McDermott
+  license: Public domain
+  license_reason: Published in the US 1931-1963 and the copyright was not renewed.
+  source_url: https://commons.wikimedia.org/wiki/File%3AMartin_Milner_1960_publicity_photo.jpg
+  source_name: Wikimedia Commons
+  original_source: Original press photograph, front and back scanned (sold on eBay)
 - id: people-michael-reaves
   src: /media/images/people/michael-reaves.webp
   small: /media/images/people/michael-reaves-320.webp
@@ -2736,6 +2906,23 @@
   source_url: https://commons.wikimedia.org/wiki/File:Nan_Martin_(1965)_in_The_Twilight_Zone.jpg
   source_name: Wikimedia Commons
   original_source: eBay item photo front photo back
+- id: people-nehemiah-persoff
+  src: /media/images/people/nehemiah-persoff.webp
+  small: /media/images/people/nehemiah-persoff-320.webp
+  width: 640
+  height: 487
+  records:
+    - people/nehemiah-persoff
+  role: portrait
+  title: Nehemiah Persoff (1960)
+  alt: Nehemiah Persoff grinning broadly, his head tilted, against a dark background
+  date: "1960"
+  creator: Maureen McCarty, public relations, New York
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3ANehemiah_Persoff_1960_%28cropped%29.JPG
+  source_name: Wikimedia Commons
+  original_source: Original press photograph, front and back scanned (sold on eBay); printed in the Baltimore Sun
 - id: people-orson-bean
   src: /media/images/people/orson-bean.webp
   small: /media/images/people/orson-bean-320.webp
@@ -2873,6 +3060,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ARichard_Matheson_%28crop%29.jpg
   source_name: Wikimedia Commons
   original_source: Cropped from File:Richard Matheson.jpg, JaSunni Productions
+- id: people-robert-cummings
+  src: /media/images/people/robert-cummings.webp
+  small: /media/images/people/robert-cummings-320.webp
+  width: 640
+  height: 1087
+  records:
+    - people/robert-cummings
+  role: portrait
+  title: Robert Cummings (1979)
+  alt: Robert Cummings in a tuxedo and bow tie, standing in front of a framed painting
+  date: "1979"
+  creator: Alan Light
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ARobert_Cummings_%281979%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Flickr, Alan Light
 - id: people-robert-downey-sr
   src: /media/images/people/robert-downey-sr.webp
   small: /media/images/people/robert-downey-sr-320.webp
@@ -3147,6 +3351,23 @@
   source_url: https://commons.wikimedia.org/wiki/File%3ARon_Howard_%28cropped%29.jpg
   source_name: Wikimedia Commons
   original_source: Cropped from Ron Howard
+- id: people-ross-martin
+  src: /media/images/people/ross-martin.webp
+  small: /media/images/people/ross-martin-320.webp
+  width: 640
+  height: 807
+  records:
+    - people/ross-martin
+  role: portrait
+  title: Publicity photo of Ross Martin (1967)
+  alt: Ross Martin smiling, seated in a sweater and cravat with one arm over the back of a chair
+  date: "1967"
+  creator: Arnold Carr, public relations, Los Angeles
+  license: Public domain
+  license_reason: Published in the US 1931-1977 without a copyright notice.
+  source_url: https://commons.wikimedia.org/wiki/File%3ARoss_Martin_1967.JPG
+  source_name: Wikimedia Commons
+  original_source: Original press photograph, front and back scanned (sold on eBay)
 - id: people-ryszard-bugajski
   src: /media/images/people/ryszard-bugajski.webp
   small: /media/images/people/ryszard-bugajski-320.webp
@@ -3267,6 +3488,23 @@
   source_url: https://commons.wikimedia.org/wiki/File:Terry_Burnham_%22The_Twilight_Zone%22_(1961_CBS_press_photo).jpg
   source_name: Wikimedia Commons
   original_source: https://www.worthpoint.com/worthopedia/1961-press-photo-actress-janice-rule-4620647699
+- id: people-theodore-bikel
+  src: /media/images/people/theodore-bikel.webp
+  small: /media/images/people/theodore-bikel-320.webp
+  width: 640
+  height: 927
+  records:
+    - people/theodore-bikel
+  role: portrait
+  title: Theodore Bikel at Sardi's, New York (2009)
+  alt: Theodore Bikel, white-haired and bearded, smiling at a party
+  date: "2009"
+  creator: Bev Sykes
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source_url: https://commons.wikimedia.org/wiki/File%3ATheodore_Bikel_%284133239868_24c25ac837_z%29_%28cropped%29.jpg
+  source_name: Wikimedia Commons
+  original_source: Flickr, Bev Sykes
 - id: people-vera-miles
   src: /media/images/people/vera-miles.webp
   small: /media/images/people/vera-miles-320.webp

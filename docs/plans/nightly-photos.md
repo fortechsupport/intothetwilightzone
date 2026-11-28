@@ -55,6 +55,17 @@ nightly photo task can be switched off.
   Keaton's Bain News Service portrait carries no date: the script read "1900", which can't be right for a photo of
   him as a grown man (born 1895), and Commons' API was throttled, so the date was left out rather than guessed.
 
+- 2026-11-28 run (the last): all 14 remaining pictures fetched and kept, and `pending-commons.json` deleted. Joan
+  Hackett's date set to 1969 from the Commons title and description (the script read the 2014 upload). Jack
+  Albertson's creator "N/A studio" credited as "Unknown studio photographer", dated "about 1972" as on Commons.
+  Howard Morris' Commons page gives a WorthPoint link for a different photo (Barbara Eden), so his original source
+  reads only "Original CBS press photograph". License reasons read from each Commons page: Martin Milner's is "not
+  renewed", the rest "no notice".
+
+## Status
+
+Finished on 2026-11-28: the list is empty and the nightly task can be switched off.
+
 ## Waiting on Adam
 
 - Nothing.
