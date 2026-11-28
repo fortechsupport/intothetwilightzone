@@ -3,6 +3,17 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-28 — Donations open on the Support hosting page
+
+Visitors can now:
+- Chip in for hosting with the "Donate through Ko-fi" button on the Support hosting page (/support/), which goes to
+  the site's Ko-fi page (ko-fi.com/intothetwilightzone). Ko-fi takes the payment on its own site, so this site never
+  sees payment details. The page's promises stand: no ads, donations only for running the site, and giving buys no
+  say over what it covers.
+
+**Known not to work yet:**
+- Nothing new.
+
 ## 2026-11-27 — The 1985 theme in purple and black; easier small headings
 
 Visitors can now:

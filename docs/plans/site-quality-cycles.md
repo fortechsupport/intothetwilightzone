@@ -93,7 +93,7 @@ His answers to the four scoping questions (15:23 UTC):
 
 ## Waiting on Adam
 
-- Ko-fi page for the Support hosting donate button (Adam, 2026-11-26: he will create it). Then set DONATE in src/lib/site-links.ts to { url: 'https://ko-fi.com/<page>', label: 'Ko-fi' } and the button appears on /support/.
+- Done 2026-11-28: Ko-fi page ko-fi.com/intothetwilightzone (Adam); DONATE set in src/lib/site-links.ts and the button shows on /support/.
 - Nothing yet.
 
 ## Found, for later

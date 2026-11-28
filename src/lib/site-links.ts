@@ -29,8 +29,7 @@ export const FOOTER_LINKS: [string, string][] = [
 ];
 
 /**
- * Where "Support hosting" donations go. Adam approved a donation link for hosting costs (2026-11-21) and chose Ko-fi
- * (2026-11-26); he is creating the page. Until then this stays null and /support/ shows no button. Once he has it:
- * export const DONATE = { url: 'https://ko-fi.com/<his page>', label: 'Ko-fi' };
+ * Where "Support hosting" donations go. Adam approved a donation link for hosting costs (2026-11-21), chose Ko-fi
+ * (2026-11-26) and gave his page (2026-11-28). Set to null to hide the button on /support/ again.
  */
-export const DONATE: { url: string; label: string } | null = null;
+export const DONATE: { url: string; label: string } | null = { url: 'https://ko-fi.com/intothetwilightzone', label: 'Ko-fi' };
