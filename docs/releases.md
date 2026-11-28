@@ -3,6 +3,17 @@
 What a visitor can do after each change, in plain words. Newest first. Every entry ends with what is
 known not to work yet.
 
+## 2026-11-28 — Sign in with a Microsoft account
+
+Visitors can now:
+- Sign in or create an account with a personal Microsoft account (Outlook.com, Hotmail, Xbox) or a work or school
+  account, from the account page, once the site's Microsoft app registration is added (docs/ACCOUNTS_SETUP.md).
+- Link or unlink Microsoft sign-in on their account page, as with Google.
+
+**Known not to work yet:**
+- Some workplaces only let staff sign in to apps from verified publishers; people there may see a "needs admin
+  approval" page until the app's publisher is verified in Microsoft Entra.
+
 ## 2026-11-28 — "Continue with Google" and "Download my data" work
 
 Visitors can now:

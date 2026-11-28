@@ -3,7 +3,7 @@
 
 export type Me = {
   user: null | { id: string; handle: string; displayName: string; role: 'member' | 'moderator' | 'admin'; email: string | null; emailVerified: boolean; bio: string; showFavorites: boolean; createdAt: number };
-  config: { features: { accounts: boolean; uploads?: boolean; email?: boolean; google?: boolean }; turnstileSiteKey?: string | null };
+  config: { features: { accounts: boolean; uploads?: boolean; email?: boolean; google?: boolean; microsoft?: boolean }; turnstileSiteKey?: string | null };
   queue?: Record<string, number>;
 };
 

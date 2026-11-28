@@ -33,6 +33,10 @@ import Base from '../../layouts/Base.astro';
             <p class="or"><span>or</span></p>
             <a class="btn" href="/api/auth/google/start">Continue with Google</a>
           </div>
+          <div id="microsoft-wrap" hidden>
+            <p class="or"><span>or</span></p>
+            <a class="btn" href="/api/auth/microsoft/start">Continue with Microsoft</a>
+          </div>
           <p class="form-error" id="login-error" hidden tabindex="-1" role="alert"></p>
         </div>
         <div class="panel">
@@ -105,6 +109,7 @@ import Base from '../../layouts/Base.astro';
       <p><button type="button" class="btn" id="add-pk">Add a passkey</button> <span class="small muted">Add one for each device or password manager you use.</span></p>
       <div id="email-box"></div>
       <div id="google-box"></div>
+      <div id="microsoft-box"></div>
       <h3>Signed-in devices</h3>
       <ul class="plain rows" id="sessions"></ul>
       <p><button type="button" class="btn" id="signout">Sign out</button> <button type="button" class="btn subtle" id="signout-all">Sign out everywhere</button></p>
@@ -159,7 +164,7 @@ import Base from '../../layouts/Base.astro';
     async function boot() {
       const m = await me(true);
       if (!m.config.features.accounts) return show('v-off');
-      if (hash.get('error')) flash({ google_cancelled: 'Google sign-in was cancelled.', expired: 'That took too long. Please try again.', google_failed: 'Google sign-in did not work. Please try again.', google_other_account: 'That Google account is linked to another member.', suspended: 'This account is suspended.' }[hash.get('error')!] ?? 'Sign-in did not work. Please try again.');
+      if (hash.get('error')) flash({ google_cancelled: 'Google sign-in was cancelled.', expired: 'That took too long. Please try again.', google_failed: 'Google sign-in did not work. Please try again.', google_other_account: 'That Google account is linked to another member.', microsoft_cancelled: 'Microsoft sign-in was cancelled.', microsoft_failed: 'Microsoft sign-in did not work. Please try again.', microsoft_other_account: 'That Microsoft account is linked to another member.', suspended: 'This account is suspended.' }[hash.get('error')!] ?? 'Sign-in did not work. Please try again.');
       if (hash.get('signup') && !m.user) return finishView(hash.get('signup')!, hash.get('email'));
       if (m.user) return signedIn(m);
       signedOut(m);
@@ -172,6 +177,7 @@ import Base from '../../layouts/Base.astro';
       const f = m.config.features;
       $('email-login-wrap').hidden = !f.email;
       $('google-wrap').hidden = !f.google;
+      $('microsoft-wrap').hidden = !f.microsoft;
       $('signup-email-hint').hidden = !f.email;
       if (!browserSupportsWebAuthn()) {
         $('pk-login').setAttribute('disabled', '');
@@ -260,6 +266,7 @@ import Base from '../../layouts/Base.astro';
         ? `Your account is ready. Everything you mark across the site is now saved to it. <a href="/start/">Find somewhere to start</a> or <a href="/community/">say hello in the forums</a>.`
         : `Signed in as <strong>@${esc(u.handle)}</strong>${u.role !== 'member' ? ` · ${u.role === 'admin' ? 'Site editor' : 'Moderator'}` : ''}. Member since ${new Date(u.createdAt).toLocaleDateString(undefined, { year: 'numeric', month: 'long' })}.`;
       if (hash.get('linked') === 'google') flash('Google sign-in is now linked to your account.');
+      if (hash.get('linked') === 'microsoft') flash('Microsoft sign-in is now linked to your account.');
       if (m.queue) {
         const n = Object.values(m.queue).reduce((a, b) => a + b, 0);
         $('mod-link').hidden = false;
@@ -331,6 +338,8 @@ import Base from '../../layouts/Base.astro';
         ae.onsubmit = (ev) => { ev.preventDefault(); clearError(ae); busy(ae, async () => { try { await api('/api/auth/email/start', { email: formData(ae).email, purpose: 'add', turnstile: tok() }); ae.innerHTML = '<p class="notice">Check your inbox for a confirmation link. Open it in this browser.</p>'; } catch (e) { resetTurnstile(); showError(ae, e); } }); };
       }
       document.getElementById('rm-email')?.addEventListener('click', () => act(() => api('/api/account/email', undefined, 'DELETE')));
+      $('microsoft-box').innerHTML = f.microsoft ? `<h3>Microsoft</h3>` + (s.identities.some((i: any) => i.provider === 'microsoft') ? `<p>Linked. <button type="button" class="link-btn" id="rm-microsoft">Unlink</button></p>` : `<p><a class="btn" href="/api/auth/microsoft/start?link=1">Link Microsoft sign-in</a></p>`) : '';
+      document.getElementById('rm-microsoft')?.addEventListener('click', () => act(() => api('/api/account/identities/microsoft', undefined, 'DELETE')));
       document.getElementById('rm-google')?.addEventListener('click', () => act(() => api('/api/account/identities/google', undefined, 'DELETE')));
       $('passkeys').onclick = (ev) => { const id = (ev.target as HTMLElement).dataset.rmPk; if (id) act(() => api(`/api/account/passkeys/${encodeURIComponent(id)}`, undefined, 'DELETE')); };
       $('sessions').onclick = (ev) => { const id = (ev.target as HTMLElement).dataset.end; if (id) act(() => api(`/api/account/sessions/${id}`, undefined, 'DELETE')); };

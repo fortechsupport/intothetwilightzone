@@ -12,7 +12,7 @@ const MAX_ITEMS_PER_LIST = 5000;
 export async function me(ctx: Ctx) {
   const f = features(ctx.env);
   const config = {
-    features: { accounts: f.accounts, uploads: f.uploads, email: f.email, google: f.google },
+    features: { accounts: f.accounts, uploads: f.uploads, email: f.email, google: f.google, microsoft: f.microsoft },
     turnstileSiteKey: f.turnstile ? ctx.env.TURNSTILE_SITE_KEY : null,
   };
   if (!ctx.user) return { user: null, config };
@@ -94,7 +94,8 @@ export async function removeEmail(ctx: Ctx) {
 export async function unlinkIdentity(ctx: Ctx, provider: string) {
   const u = requireUser(ctx);
   const pk = await ctx.env.DB!.prepare('SELECT COUNT(*) AS n FROM passkeys WHERE user_id = ?1').bind(u.id).first<{ n: number }>();
-  if (!pk?.n && !(u.email && u.email_verified)) throw new HttpError(400, 'last_sign_in', 'This is your only way to sign in. Add a passkey or an email address first.');
+  const others = await ctx.env.DB!.prepare('SELECT COUNT(*) AS n FROM identities WHERE user_id = ?1 AND provider <> ?2').bind(u.id, provider).first<{ n: number }>();
+  if (!pk?.n && !others?.n && !(u.email && u.email_verified)) throw new HttpError(400, 'last_sign_in', 'This is your only way to sign in. Add a passkey or an email address first.');
   await ctx.env.DB!.prepare('DELETE FROM identities WHERE user_id = ?1 AND provider = ?2').bind(u.id, provider).run();
   return { ok: true };
 }
